@@ -47,6 +47,13 @@ from .source_review import (
     source_url_for_review,
 )
 from .sandboxing import write_web_read_barrier
+from .reliability import (
+    alert,
+    build_health,
+    configure_logging,
+    reconcile_interrupted_runs,
+)
+from contextlib import contextmanager
 
 WORKSPACE = Path(__file__).resolve().parents[1]
 EPISODES_ROOT = Path(
@@ -69,6 +76,31 @@ SERVER_STARTED_AT = utc_now()
 # their turn instead of piling on. Tune with MDPLUS_MAX_CONCURRENT_ARMS.
 MAX_CONCURRENT_ARMS = max(1, int(os.environ.get("MDPLUS_MAX_CONCURRENT_ARMS", "4")))
 ARM_SEMAPHORE = threading.BoundedSemaphore(MAX_CONCURRENT_ARMS)
+_ACTIVE_ARMS = {"n": 0}
+_ACTIVE_LOCK = threading.Lock()
+
+
+@contextmanager
+def arm_slot():
+    """Acquire a concurrency slot and track how many arms are running.
+
+    Blocks until a slot is free, so simultaneous patients queue instead of
+    overwhelming the host. The active count feeds /api/health.
+    """
+    ARM_SEMAPHORE.acquire()
+    with _ACTIVE_LOCK:
+        _ACTIVE_ARMS["n"] += 1
+    try:
+        yield
+    finally:
+        with _ACTIVE_LOCK:
+            _ACTIVE_ARMS["n"] -= 1
+        ARM_SEMAPHORE.release()
+
+
+def active_arm_count() -> int:
+    with _ACTIVE_LOCK:
+        return _ACTIVE_ARMS["n"]
 
 # --- Spend guard -----------------------------------------------------------
 # A rolling daily estimate of model spend (the api engine reports per-run cost).
@@ -109,6 +141,8 @@ def server_build_id() -> str:
         Path(__file__),
         Path(__file__).with_name("arms.py"),
         Path(__file__).with_name("sandboxing.py"),
+        Path(__file__).with_name("api_runner.py"),
+        Path(__file__).with_name("reliability.py"),
     ):
         digest.update(path.read_bytes())
     return digest.hexdigest()[:12]
@@ -310,7 +344,7 @@ def launch_prepared_arm(
         else:
             # Bound concurrent heavy runs. Excess launches block here until a
             # slot frees, rather than overwhelming the host.
-            with ARM_SEMAPHORE:
+            with arm_slot():
                 if engine == "api":
                     work_order = json.loads(
                         Path(arm_data["work_order_path"]).read_text(encoding="utf-8")
@@ -378,6 +412,12 @@ def launch_prepared_arm(
                     "revision": arm_data.get("revision", 0),
                 },
             )
+            alert(
+                "arm_failed",
+                f"{arm} run failed: {outcome.get('error', 'unknown error')}",
+                {"episode_id": episode.episode_id, "arm": arm, "engine": engine,
+                 "returncode": returncode},
+            )
         with RUNS_LOCK:
             RUNS[episode.episode_id][arm] = outcome
         write_json_atomic(
@@ -407,6 +447,11 @@ def launch_prepared_arm(
             status="failed",
             summary=f"{arm} process failed: {exc}",
             details={"traceback": traceback.format_exc(limit=5)},
+        )
+        alert(
+            "arm_crashed",
+            f"{arm} run crashed with an unexpected exception: {exc}",
+            {"episode_id": episode.episode_id, "arm": arm},
         )
         with RUNS_LOCK:
             RUNS[episode.episode_id][arm] = {
@@ -959,15 +1004,22 @@ class Handler(SimpleHTTPRequestHandler):
                 write_json(self, {"error": str(exc)}, HTTPStatus.NOT_FOUND)
             return
         if self.path == "/api/health":
+            with _SPEND_LOCK:
+                spend = dict(_SPEND)
             write_json(
                 self,
-                {
-                    "ok": True,
-                    "ui_built": UI_DIST.exists(),
-                    "server_started_at": SERVER_STARTED_AT,
-                    "server_build_id": SERVER_BUILD_ID,
-                    "web_worker_mode": "outer_os_barrier",
-                },
+                build_health(
+                    episodes_root=EPISODES_ROOT,
+                    engine=engine_name(),
+                    build_id=SERVER_BUILD_ID,
+                    started_at=SERVER_STARTED_AT,
+                    ui_built=UI_DIST.exists(),
+                    max_concurrent_arms=MAX_CONCURRENT_ARMS,
+                    active_arms=active_arm_count(),
+                    spend=spend,
+                    daily_budget_usd=DAILY_BUDGET_USD,
+                    budget_paused=budget_exceeded(),
+                ),
             )
             return
         if self.path == "/api/metrics":
@@ -987,6 +1039,11 @@ def main() -> None:
     if not UI_DIST.exists():
         raise SystemExit("UI build missing. Run: cd ui && npm install && npm run build")
     EPISODES_ROOT.mkdir(parents=True, exist_ok=True)
+    configure_logging()
+    # Crash recovery: a run thread cannot survive a restart, so any arm still
+    # marked "running" on disk is stale. Flip it to "interrupted" so the UI and
+    # the retry guard don't wait on a run that will never finish.
+    reconcile_interrupted_runs(EPISODES_ROOT)
     server = ThreadingHTTPServer((args.host, args.port), Handler)
     print(f"Denial Simulation Lab: http://{args.host}:{args.port} (engine: {engine_name()})")
     server.serve_forever()

@@ -41,6 +41,32 @@ engines otherwise. Force it with `MDPLUS_AGENT_ENGINE=api`.
 | `MDPLUS_DAILY_BUDGET_USD` | `0` (off) | When >0, the server pauses new runs once the day's estimated spend hits it. |
 | `MDPLUS_PRICE_INPUT_PER_MTOK` / `MDPLUS_PRICE_OUTPUT_PER_MTOK` | `15` / `75` | Per-million-token prices used for the cost estimate. Set to your model's real published prices. |
 | `MDPLUS_API_MAX_RETRIES` | `4` | SDK retry count on transient API errors. |
+| `MDPLUS_LOG_LEVEL` | `INFO` | Log verbosity for the harness logger. |
+| `MDPLUS_ALERT_WEBHOOK` | — | If set, failed/crashed runs are POSTed here as JSON (best-effort, off-thread) so failures reach a human channel. |
+
+## Crash recovery and health (unattended operation)
+
+`synthetic_harness/reliability.py` adds the pieces that make "runs for months
+unmonitored" real:
+
+- **Crash recovery.** On startup the server calls `reconcile_interrupted_runs`.
+  A run executes in a thread that cannot survive a restart, so any arm still
+  marked `running` on disk after a reboot is stale — it is flipped to
+  `interrupted` so the UI and the retry guard don't wait forever on a run that
+  will never finish. An interrupted arm is immediately retryable.
+- **Health you can page on.** `GET /api/health` now returns `degraded` plus
+  `degraded_reasons` (missing `ANTHROPIC_API_KEY`/`WEB_SEARCH_API_KEY`, UI not
+  built, budget paused), the active engine, live concurrency (max / active /
+  free slots), the day's estimated spend, and the episode count. An uptime
+  checker can alert on `degraded: true` instead of merely "is the port open".
+- **Failure alerts.** Every failed or crashed run is logged and, if
+  `MDPLUS_ALERT_WEBHOOK` is set, pushed to that URL.
+
+Still deliberately deferred: moving episode/run state into a database + object
+storage. That is only required for running multiple instances behind a load
+balancer; for a single managed service (the systemd unit in `deploy/`), the
+filesystem plus startup reconciliation already survives restarts. Do the DB
+migration when horizontal scale is the actual need.
 
 ## Install
 
