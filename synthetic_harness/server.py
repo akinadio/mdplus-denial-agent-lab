@@ -27,6 +27,7 @@ from .arms import (
 from .adjudication import latest_adjudication, record_adjudication
 from .agent_runner import engine_name, run_claude_arm
 from .api_runner import run_api_arm
+from .appeal_letter import assess_letter, generate_appeal_letter
 from .episode import Episode
 from .evaluation import (
     evaluation_eligibility,
@@ -143,6 +144,7 @@ def server_build_id() -> str:
         Path(__file__).with_name("sandboxing.py"),
         Path(__file__).with_name("api_runner.py"),
         Path(__file__).with_name("reliability.py"),
+        Path(__file__).with_name("appeal_letter.py"),
     ):
         digest.update(path.read_bytes())
     return digest.hexdigest()[:12]
@@ -726,6 +728,74 @@ def live_agent_events(episode: Episode, arm: str, runtime: dict[str, Any]) -> li
     return activity[-7:]
 
 
+def load_arm_result(episode: Episode, arm: str) -> dict[str, Any] | None:
+    """The current best result for an arm: active > frozen > validated result."""
+    arm_dir = episode.root / "system" / arm
+    result = load_json_if_exists(arm_dir / "active_result.json")
+    if result is None:
+        result = load_json_if_exists(arm_dir / "frozen_result.json")
+    if result is None:
+        validations = sorted((arm_dir / "attempts").glob("validation_*.json"))
+        latest_validation = load_json_if_exists(validations[-1]) if validations else None
+        if latest_validation is None or latest_validation.get("valid"):
+            result = load_json_if_exists(arm_dir / "result.json")
+    return result
+
+
+def generate_and_store_appeal_letter(episode: Episode, arm: str) -> dict[str, Any]:
+    """Assess whether the denial calls for a letter and, if so, draft + store it.
+
+    Returns {"assessment": ..., "letter": {...}} where letter is present only
+    when a grounded appeal letter is the right next step and generation
+    succeeded. Respects the daily spend budget.
+    """
+    result = load_arm_result(episode, arm)
+    if result is None:
+        return {"error": f"no result available for {arm} yet"}
+    assessment = assess_letter(result)
+    payload: dict[str, Any] = {"arm": arm, "assessment": assessment}
+    if not assessment.get("recommended"):
+        return payload
+    if budget_exceeded():
+        payload["assessment"] = {
+            **assessment,
+            "deferred": "Daily model budget reached; letter drafting is paused.",
+        }
+        return payload
+
+    submission = patient_submission_snapshot(episode)
+    submission_text = None
+    if isinstance(submission, dict):
+        for key in ("denial_letter_text", "denial_text", "notes", "story", "raw_text"):
+            if submission.get(key):
+                submission_text = str(submission[key])
+                break
+    with arm_slot():
+        drafted = generate_appeal_letter(result, patient_submission=submission_text)
+    if drafted.get("estimated_cost_usd"):
+        record_spend(drafted["estimated_cost_usd"])
+    if drafted.get("error"):
+        payload["error"] = drafted["error"]
+        return payload
+
+    arm_dir = episode.root / "system" / arm
+    (arm_dir / "appeal_letter.md").write_text(drafted["letter_markdown"], encoding="utf-8")
+    meta = {k: v for k, v in drafted.items() if k != "letter_markdown"}
+    meta.update({"arm": arm, "kind": assessment.get("kind"), "generated_at": utc_now()})
+    write_json_atomic(arm_dir / "appeal_letter_meta.json", meta)
+    episode.log_event(
+        role="orchestrator",
+        arm=arm,
+        event_type="appeal_letter_drafted",
+        status="succeeded",
+        summary="Drafted a grounded appeal letter from the confirmed policy.",
+        artifacts=[f"system/{arm}/appeal_letter.md"],
+        details={"estimated_cost_usd": drafted.get("estimated_cost_usd")},
+    )
+    payload["letter"] = {"markdown": drafted["letter_markdown"], "meta": meta}
+    return payload
+
+
 def episode_snapshot(episode: Episode) -> dict[str, Any]:
     manifest = episode.manifest()
     events = []
@@ -754,6 +824,13 @@ def episode_snapshot(episode: Episode) -> dict[str, Any]:
             "result": result,
             "validation": load_json_if_exists(arm_dir / "freeze_manifest.json"),
         }
+        # Denial-reason-aware output: tell the UI whether an appeal letter is the
+        # right next step, and whether one has already been drafted.
+        if result:
+            arms[arm]["appeal"] = {
+                "assessment": assess_letter(result),
+                "letter_available": (arm_dir / "appeal_letter.md").exists(),
+            }
         events.extend(live_agent_events(episode, arm, arms[arm]["runtime"]))
     active_hashes = {
         arm: data["result"].get("_sha256", "")
@@ -930,6 +1007,13 @@ class Handler(SimpleHTTPRequestHandler):
                     start_episode_runs(episode, [arm])
                 write_json(self, episode_snapshot(episode))
                 return
+            if self.path.endswith("/appeal-letter"):
+                episode_id = self.path.split("/")[3]
+                episode = load_episode(episode_id)
+                data = json_body(self)
+                arm = data.get("arm", "web_only")
+                write_json(self, generate_and_store_appeal_letter(episode, arm))
+                return
             if self.path.endswith("/evaluate"):
                 episode_id = self.path.split("/")[3]
                 episode = load_episode(episode_id)
@@ -957,6 +1041,27 @@ class Handler(SimpleHTTPRequestHandler):
             )
 
     def do_GET(self) -> None:
+        if "/appeal-letter/" in self.path and self.path.startswith("/api/episodes/"):
+            try:
+                parts = self.path.split("/")
+                episode_id, arm = parts[3], parts[5].split("?")[0]
+                episode = load_episode(episode_id)
+                arm_dir = episode.root / "system" / arm
+                letter = arm_dir / "appeal_letter.md"
+                if not letter.exists():
+                    write_json(self, {"error": "no letter drafted"}, HTTPStatus.NOT_FOUND)
+                    return
+                write_json(
+                    self,
+                    {
+                        "arm": arm,
+                        "markdown": letter.read_text(encoding="utf-8"),
+                        "meta": load_json_if_exists(arm_dir / "appeal_letter_meta.json"),
+                    },
+                )
+            except Exception as exc:
+                write_json(self, {"error": str(exc)}, HTTPStatus.NOT_FOUND)
+            return
         if "/source-document/" in self.path and self.path.startswith("/api/episodes/"):
             try:
                 parts = self.path.split("/")
