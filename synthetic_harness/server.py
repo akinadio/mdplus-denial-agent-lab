@@ -26,6 +26,7 @@ from .arms import (
 )
 from .adjudication import latest_adjudication, record_adjudication
 from .agent_runner import engine_name, run_claude_arm
+from .api_runner import run_api_arm
 from .episode import Episode
 from .evaluation import (
     evaluation_eligibility,
@@ -60,6 +61,46 @@ RUNS: dict[str, dict[str, Any]] = {}
 RUNS_LOCK = threading.Lock()
 EVALUATION_RUNS: dict[str, dict[str, Any]] = {}
 SERVER_STARTED_AT = utc_now()
+
+# --- Concurrency cap -------------------------------------------------------
+# Every arm launch is expensive (a full model run doing live web retrieval).
+# Without a bound, N simultaneous patients spawn 2N heavy runs and exhaust the
+# box. This semaphore caps how many arms execute at once; excess launches wait
+# their turn instead of piling on. Tune with MDPLUS_MAX_CONCURRENT_ARMS.
+MAX_CONCURRENT_ARMS = max(1, int(os.environ.get("MDPLUS_MAX_CONCURRENT_ARMS", "4")))
+ARM_SEMAPHORE = threading.BoundedSemaphore(MAX_CONCURRENT_ARMS)
+
+# --- Spend guard -----------------------------------------------------------
+# A rolling daily estimate of model spend (the api engine reports per-run cost).
+# When MDPLUS_DAILY_BUDGET_USD is set and the estimate exceeds it, new arms are
+# refused until the window rolls over. This is in-process and resets on restart;
+# a durable, DB-backed budget is the production version (see the checklist).
+DAILY_BUDGET_USD = float(os.environ.get("MDPLUS_DAILY_BUDGET_USD", "0") or "0")
+_SPEND_LOCK = threading.Lock()
+_SPEND = {"day": "", "usd": 0.0}
+
+
+def _spend_day() -> str:
+    return utc_now()[:10]
+
+
+def budget_exceeded() -> bool:
+    """True when a daily budget is configured and already spent."""
+    if DAILY_BUDGET_USD <= 0:
+        return False
+    with _SPEND_LOCK:
+        if _SPEND["day"] != _spend_day():
+            _SPEND["day"] = _spend_day()
+            _SPEND["usd"] = 0.0
+        return _SPEND["usd"] >= DAILY_BUDGET_USD
+
+
+def record_spend(usd: float) -> None:
+    with _SPEND_LOCK:
+        if _SPEND["day"] != _spend_day():
+            _SPEND["day"] = _spend_day()
+            _SPEND["usd"] = 0.0
+        _SPEND["usd"] += max(0.0, float(usd or 0.0))
 
 
 def server_build_id() -> str:
@@ -260,28 +301,45 @@ def launch_prepared_arm(
         },
     )
     try:
-        if engine == "claude":
-            work_order = json.loads(
-                Path(arm_data["work_order_path"]).read_text(encoding="utf-8")
+        if engine == "api" and budget_exceeded():
+            returncode = 3
+            run_error = (
+                "Daily model budget reached; new runs are paused until the "
+                "budget window rolls over."
             )
-            run = run_claude_arm(arm_dir, work_order)
-            returncode = run["returncode"]
-            run_error = run.get("error")
         else:
-            with stdout_path.open("w", encoding="utf-8") as stdout, stderr_path.open(
-                "w", encoding="utf-8"
-            ) as stderr:
-                process = subprocess.run(
-                    command,
-                    input=arm_data["prompt"],
-                    text=True,
-                    stdout=stdout,
-                    stderr=stderr,
-                    cwd=WORKSPACE,
-                    timeout=1800,
-                )
-            returncode = process.returncode
-            run_error = None
+            # Bound concurrent heavy runs. Excess launches block here until a
+            # slot frees, rather than overwhelming the host.
+            with ARM_SEMAPHORE:
+                if engine == "api":
+                    work_order = json.loads(
+                        Path(arm_data["work_order_path"]).read_text(encoding="utf-8")
+                    )
+                    run = run_api_arm(arm_dir, work_order, on_cost=record_spend)
+                    returncode = run["returncode"]
+                    run_error = run.get("error")
+                elif engine == "claude":
+                    work_order = json.loads(
+                        Path(arm_data["work_order_path"]).read_text(encoding="utf-8")
+                    )
+                    run = run_claude_arm(arm_dir, work_order)
+                    returncode = run["returncode"]
+                    run_error = run.get("error")
+                else:
+                    with stdout_path.open(
+                        "w", encoding="utf-8"
+                    ) as stdout, stderr_path.open("w", encoding="utf-8") as stderr:
+                        process = subprocess.run(
+                            command,
+                            input=arm_data["prompt"],
+                            text=True,
+                            stdout=stdout,
+                            stderr=stderr,
+                            cwd=WORKSPACE,
+                            timeout=1800,
+                        )
+                    returncode = process.returncode
+                    run_error = None
         outcome: dict[str, Any] = {
             "status": "completed" if returncode == 0 else "failed",
             "returncode": returncode,

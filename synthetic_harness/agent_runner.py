@@ -59,16 +59,40 @@ SYSTEM_PROMPT = (
     "current coverage policy for the submitted procedure, read the document "
     "itself, and base every claim on what you actually read. Never present a "
     "form, code list, policy index, or routing page as the governing policy. "
-    "An honest blocker scores better than a confident wrong answer. Your final "
-    "response must be exactly one JSON object and nothing else."
+    "An honest blocker scores better than a confident wrong answer. "
+    "\n\nVOICE OF THE PATIENT- AND DOCTOR-FACING TEXT (the human-readable fields "
+    "such as patient_interaction and next_steps): write in plain, warm, simple "
+    "language a non-expert can follow on a phone. Keep the clinician on the "
+    "patient's side: the surgeon documented that this procedure is needed, and "
+    "the appeal's job is to show the payer's OWN published criteria are met. "
+    "Frame the denial as the insurer's decision, measured against the insurer's "
+    "own rules, that the patient and doctor can have reconsidered -- so the "
+    "responsibility sits with the payer, not the patient or the doctor. Do this "
+    "through calm, factual framing (\"the plan's own policy says X, and your "
+    "records show X\"); do not use inflammatory, sarcastic, or explicitly "
+    "accusatory language, and never promise coverage. "
+    "\n\nYour final response must be exactly one JSON object and nothing else."
 )
 
 
 def engine_name() -> str:
-    """Pick the execution engine for this host."""
+    """Pick the execution engine for this host.
+
+    Order of preference when unset (MDPLUS_AGENT_ENGINE=auto):
+      1. "api"    -- an ANTHROPIC_API_KEY is present. This is the sustainable,
+                     unattended path: key-authenticated, no expiring login, no
+                     CLI or MCP subprocess. Preferred whenever available.
+      2. "codex"  -- macOS with the codex CLI and sandbox-exec (legacy).
+      3. "claude" -- the claude CLI fallback (interactive login; expires).
+    """
     requested = os.environ.get("MDPLUS_AGENT_ENGINE", "auto")
     if requested != "auto":
         return requested
+    # Imported here to avoid a hard dependency on the SDK at module load.
+    from .api_runner import api_available
+
+    if api_available():
+        return "api"
     if shutil.which("codex") and shutil.which("sandbox-exec"):
         return "codex"
     return "claude"

@@ -3,6 +3,19 @@ name = "mdplus-denial-agent-lab"
 version = "0.1.0"
 description = "Synthetic-patient UI that launches isolated insurance-policy retrieval agents."
 requires-python = ">=3.11"
+dependencies = [
+    # The sustainable execution engine (synthetic_harness/api_runner.py) talks
+    # to the Messages API directly, authenticated by ANTHROPIC_API_KEY. The
+    # legacy claude/codex CLI engines do not need this.
+    "anthropic>=0.40",
+    # web_search / http_fetch tooling.
+    "requests>=2.31",
+]
+
+[project.optional-dependencies]
+# Lets the fetch tool decode brotli/zstd-compressed payer pages instead of
+# recording them as blocked (see scripts/policy_eval/webtools.py).
+fetch = ["brotli", "zstandard"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
