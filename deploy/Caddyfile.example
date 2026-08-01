@@ -1,0 +1,20 @@
+# Caddy reverse proxy with automatic HTTPS (Let's Encrypt).
+# Easiest way to put TLS in front of the harness. Install Caddy, drop this in
+# /etc/caddy/Caddyfile (edit the domain), and `systemctl reload caddy`.
+# Caddy obtains and renews the certificate automatically.
+
+appeals.example.com {
+    encode zstd gzip
+
+    # Forward everything to the harness bound on localhost. Caddy sets
+    # X-Forwarded-Proto/For, which the app honors when MDPLUS_TRUST_PROXY=true.
+    reverse_proxy 127.0.0.1:8781
+
+    # Send patients straight to the intake app at the root.
+    redir / /patient/ 302
+
+    # Uploaded denial-letter photos can be a few MB.
+    request_body {
+        max_size 64MB
+    }
+}

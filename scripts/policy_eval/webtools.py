@@ -22,6 +22,7 @@ import requests
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from policy_eval.common import (  # noqa: E402
+    ExtractionError,
     contains_cpt_27447,
     detect_bot_block,
     detect_login_wall,
@@ -254,7 +255,15 @@ def fetch(url: str, max_text_chars: int = 20000) -> dict[str, Any]:
         )
         body = resp.content
         content_type = resp.headers.get("content-type")
-        text = extract_text(body, content_type)
+        extraction_error = None
+        try:
+            text = extract_text(body, content_type)
+        except ExtractionError as exc:
+            # The document could not be read at all. Never let that fall through
+            # as empty page text (which reads as "no policy here"); it is a
+            # blocked fetch, recorded below.
+            text = ""
+            extraction_error = str(exc)
         chain = [h.headers.get("location") or h.url for h in resp.history]
         login, login_reason = detect_login_wall(
             resp.status_code, resp.url, chain, text
@@ -277,6 +286,11 @@ def fetch(url: str, max_text_chars: int = 20000) -> dict[str, Any]:
         enc = (resp.headers.get("content-encoding") or "").lower().strip()
         if not is_blocked and enc and enc not in DECODABLE_ENCODINGS:
             is_blocked, blocked_reason = True, f"undecodable_content_encoding:{enc}"
+        # A read failure (e.g. an unparseable PDF) is our inability to read the
+        # document, not evidence the policy is absent. Record it as blocked so it
+        # can never be scored as a page the model read and found nothing in.
+        if not is_blocked and extraction_error:
+            is_blocked, blocked_reason = True, f"extraction_failed:{extraction_error}"
         return {
             "url": url,
             "final_url": resp.url,

@@ -128,13 +128,18 @@ def _call_tool(name: str, args: dict[str, Any]) -> dict[str, Any]:
                 "error": res["error"],
             },
         )
+        error = res["error"]
+        if res.get("blocked") and not error:
+            error = f"fetch blocked or unreadable: {res.get('blocked_reason')}"
         return {
             "url": url,
             "final_url": res["final_url"],
             "http_status": res["status"],
             "content_type": res["content_type"],
             "login_wall": res["login_wall"],
-            "error": res["error"],
+            "blocked": res.get("blocked", False),
+            "blocked_reason": res.get("blocked_reason"),
+            "error": error,
             "text": res["text"],
             "text_truncated": res["text_truncated"],
         }

@@ -251,18 +251,33 @@ def normalized_contains(haystack: str | None, needle: str | None) -> bool:
     return n in normalize_for_match(haystack)
 
 
+class ExtractionError(RuntimeError):
+    """Raised when a document could not be read at all.
+
+    This must be distinct from "the document was read and contained no matching
+    text": a swallowed parse/import failure that returns "" reads downstream as
+    'the policy is not here', which is exactly the confidently-wrong absence the
+    eval exists to prevent. Callers turn this into a `blocked` fetch, not empty
+    page text.
+    """
+
+
 def pdf_text(data: bytes) -> str:
+    """Extract text from a PDF. Returns "" only when the PDF genuinely has no
+    extractable text; raises ExtractionError when extraction itself failed."""
     try:
         import io
 
         from pypdf import PdfReader
-
+    except Exception as exc:  # noqa: BLE001 - pypdf missing is an extraction failure
+        raise ExtractionError(f"pdf_reader_unavailable:{type(exc).__name__}") from exc
+    try:
         reader = PdfReader(io.BytesIO(data))
         return re.sub(
             r"\s+", " ", " ".join((p.extract_text() or "") for p in reader.pages)
         )
-    except Exception:
-        return ""
+    except Exception as exc:  # noqa: BLE001
+        raise ExtractionError(f"pdf_parse_failed:{type(exc).__name__}") from exc
 
 
 def extract_text(data: bytes, content_type: str | None) -> str:

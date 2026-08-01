@@ -1,5 +1,5 @@
 [Unit]
-Description=MDplus OrthoAppeals harness (patient app + retrieval API on :8781)
+Description=MDplus OrthoAppeals harness (patient app + retrieval API)
 After=network-online.target
 Wants=network-online.target
 
@@ -8,7 +8,13 @@ Type=simple
 User=clawd
 Group=clawd
 WorkingDirectory=/home/clawd/mdplus-denial-agent-lab
-ExecStart=/usr/bin/python3 -m synthetic_harness.server --port 8781 --host 0.0.0.0
+# Secrets and config live in an env file (chmod 600), not in this unit.
+# Copy deploy/mdplus.env.example to /etc/mdplus/mdplus.env and fill it in.
+EnvironmentFile=/etc/mdplus/mdplus.env
+# Bind to localhost only: a reverse proxy (see deploy/Caddyfile.example or
+# deploy/nginx.conf.example) terminates HTTPS and forwards here. Do not expose
+# this port publicly — patient data must not travel over plain HTTP.
+ExecStart=/usr/bin/python3 -m synthetic_harness.server --port 8781 --host 127.0.0.1
 Restart=always
 RestartSec=3
 StandardOutput=append:/home/clawd/mdplus-denial-agent-lab/harness_server.log
