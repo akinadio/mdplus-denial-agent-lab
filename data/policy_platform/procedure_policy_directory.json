@@ -1,0 +1,1290 @@
+{
+  "meta": {
+    "description": "Reach OrthoAppeals governing coverage-policy directory: per carrier, per procedure, the carrier's own official current medical/coverage policy, verified against the source document where possible.",
+    "procedures": [
+      {
+        "label": "Total knee arthroplasty (TKA)",
+        "cpt": "27447"
+      },
+      {
+        "label": "Total hip arthroplasty (THA)",
+        "cpt": "27130"
+      },
+      {
+        "label": "Arthroscopic rotator cuff repair",
+        "cpt": "29827"
+      },
+      {
+        "label": "Total shoulder arthroplasty",
+        "cpt": "23472"
+      },
+      {
+        "label": "ACL reconstruction",
+        "cpt": "29888"
+      },
+      {
+        "label": "Lumbar fusion",
+        "cpt": "22612"
+      },
+      {
+        "label": "Cervical fusion / ACDF",
+        "cpt": "22551"
+      },
+      {
+        "label": "Total ankle arthroplasty",
+        "cpt": "27702"
+      },
+      {
+        "label": "Bunionectomy / hallux valgus",
+        "cpt": "28296"
+      },
+      {
+        "label": "Hip arthroscopy",
+        "cpt": "29914-29916"
+      },
+      {
+        "label": "Lumbar microdiscectomy / decompression",
+        "cpt": "63030"
+      },
+      {
+        "label": "Musculoskeletal MRI (knee/shoulder/lumbar)",
+        "cpt": "73721/73221/72148"
+      }
+    ],
+    "carriers": [
+      "UnitedHealthcare",
+      "Aetna (CVS Health)",
+      "Cigna",
+      "Elevance / Anthem BCBS",
+      "Humana",
+      "Centene (Ambetter/WellCare)",
+      "HCSC (BCBS IL/TX/NM/OK/MT)",
+      "Molina Healthcare",
+      "Florida Blue / GuideWell",
+      "Medicare (CMS)"
+    ],
+    "verification": "cpt_verified=true means the CPT (or exact procedure) was seen in the carrier's own document. Blank url / doc_is_public=false means no public governing policy was found (often adjudicated by MCG/InterQual or a delegated vendor); that is a real finding, not a gap to paper over."
+  },
+  "policies": {
+    "UnitedHealthcare": [
+      {
+        "procedure": "Total knee arthroplasty (TKA)",
+        "cpt": "27447",
+        "policy_title": "Surgery of the Knee (Commercial)",
+        "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-06-01",
+        "notes": "27447 in Applicable Codes."
+      },
+      {
+        "procedure": "Total hip arthroplasty (THA)",
+        "cpt": "27130",
+        "policy_title": "Surgery of the Hip (2026T0503JJ)",
+        "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-hip.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-03-01",
+        "notes": "27130 total hip arthroplasty."
+      },
+      {
+        "procedure": "Arthroscopic rotator cuff repair",
+        "cpt": "29827",
+        "policy_title": "Surgery of the Shoulder (2026T0556FF)",
+        "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-shoulder.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-01-01",
+        "notes": "29827 rotator cuff repair."
+      },
+      {
+        "procedure": "Total shoulder arthroplasty",
+        "cpt": "23472",
+        "policy_title": "Surgery of the Shoulder (2026T0556FF)",
+        "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-shoulder.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-01-01",
+        "notes": "23472 total shoulder; same policy."
+      },
+      {
+        "procedure": "ACL reconstruction",
+        "cpt": "29888",
+        "policy_title": "Surgery of the Knee (Commercial)",
+        "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-06-01",
+        "notes": "29888 ACL; same knee policy."
+      },
+      {
+        "procedure": "Lumbar fusion",
+        "cpt": "22612",
+        "policy_title": "Spinal Fusion and Decompression (2026T0639I)",
+        "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/spinal-fusion-decompression.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-04-01",
+        "notes": "22612 lumbar fusion."
+      },
+      {
+        "procedure": "Cervical fusion / ACDF",
+        "cpt": "22551",
+        "policy_title": "Spinal Fusion and Decompression (2026T0639I)",
+        "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/spinal-fusion-decompression.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-04-01",
+        "notes": "22551 ACDF; same spine policy."
+      },
+      {
+        "procedure": "Total ankle arthroplasty",
+        "cpt": "27702",
+        "policy_title": "Surgery of the Ankle (2026T0622O)",
+        "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-ankle.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-07-01",
+        "notes": "27702 total ankle."
+      },
+      {
+        "procedure": "Bunionectomy / hallux valgus",
+        "cpt": "28296",
+        "policy_title": "Surgery of the Foot (2026T0624O)",
+        "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-foot.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-01-01",
+        "notes": "28296 hallux valgus."
+      },
+      {
+        "procedure": "Hip arthroscopy",
+        "cpt": "29914-29916",
+        "policy_title": "Surgery of the Hip (2026T0503JJ)",
+        "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-hip.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-03-01",
+        "notes": "29914-29916; same hip policy."
+      },
+      {
+        "procedure": "Lumbar microdiscectomy / decompression",
+        "cpt": "63030",
+        "policy_title": "Spinal Fusion and Decompression (2026T0639I)",
+        "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/spinal-fusion-decompression.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-04-01",
+        "notes": "63030 decompression; same spine policy."
+      },
+      {
+        "procedure": "Musculoskeletal MRI (knee/shoulder/lumbar)",
+        "cpt": "73721/73221/72148",
+        "policy_title": "MRI/CT Site of Service (MP.13.19)",
+        "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/mri-ct-scan-site-of-service.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-01-01",
+        "notes": "All three CPTs present (site-of-service; clinical criteria via radiology imaging guidelines, portal-gated)."
+      }
+    ],
+    "Aetna (CVS Health)": [
+      {
+        "procedure": "Total knee arthroplasty (TKA)",
+        "cpt": "27447",
+        "policy_title": "Knee Arthroplasty (CPB 0660)",
+        "url": "https://www.aetna.com/cpb/medical/data/600_699/0660.html",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "rev 2026-02-26",
+        "notes": "27447 in Applicable CPT codes."
+      },
+      {
+        "procedure": "Total hip arthroplasty (THA)",
+        "cpt": "27130",
+        "policy_title": "Hip Arthroplasty (CPB 0287)",
+        "url": "https://www.aetna.com/cpb/medical/data/200_299/0287.html",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "rev 2026-07-17",
+        "notes": "27130 listed."
+      },
+      {
+        "procedure": "Arthroscopic rotator cuff repair",
+        "cpt": "29827",
+        "policy_title": "",
+        "url": "",
+        "doc_is_public": false,
+        "cpt_verified": false,
+        "effective_date": null,
+        "notes": "No dedicated Aetna CPB lists 29827 (absent from Shoulder Arthroplasty CPB 0837 and graft CPB 0411). Adjudicated by medical necessity."
+      },
+      {
+        "procedure": "Total shoulder arthroplasty",
+        "cpt": "23472",
+        "policy_title": "Shoulder Arthroplasty and Arthrodesis (CPB 0837)",
+        "url": "https://www.aetna.com/cpb/medical/data/800_899/0837.html",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "rev 2026-06-25",
+        "notes": "23472 listed."
+      },
+      {
+        "procedure": "ACL reconstruction",
+        "cpt": "29888",
+        "policy_title": "Allograft Transplants of the Extremities (CPB 0364)",
+        "url": "https://www.aetna.com/cpb/medical/data/300_399/0364.html",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "rev 2026-05-15",
+        "notes": "29888 listed; no standalone ACL CPB."
+      },
+      {
+        "procedure": "Lumbar fusion",
+        "cpt": "22612",
+        "policy_title": "Spinal Surgery: Laminectomy and Fusion (CPB 0743)",
+        "url": "https://www.aetna.com/cpb/medical/data/700_799/0743.html",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "rev 2026-07-30",
+        "notes": "22612 listed."
+      },
+      {
+        "procedure": "Cervical fusion / ACDF",
+        "cpt": "22551",
+        "policy_title": "Spinal Surgery: Laminectomy and Fusion (CPB 0743)",
+        "url": "https://www.aetna.com/cpb/medical/data/700_799/0743.html",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "rev 2026-07-30",
+        "notes": "22551 listed; same CPB."
+      },
+      {
+        "procedure": "Total ankle arthroplasty",
+        "cpt": "27702",
+        "policy_title": "Total Ankle Arthroplasty (CPB 0645)",
+        "url": "https://www.aetna.com/cpb/medical/data/600_699/0645.html",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "rev 2026-05-15",
+        "notes": "27702 listed."
+      },
+      {
+        "procedure": "Bunionectomy / hallux valgus",
+        "cpt": "28296",
+        "policy_title": "Bunionectomy (CPB 0629)",
+        "url": "https://www.aetna.com/cpb/medical/data/600_699/0629.html",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "rev 2025-12-11",
+        "notes": "28296 listed."
+      },
+      {
+        "procedure": "Hip arthroscopy",
+        "cpt": "29914-29916",
+        "policy_title": "Hip Preservation Surgery (CPB 0736)",
+        "url": "https://www.aetna.com/cpb/medical/data/700_799/0736.html",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "rev 2026-07-31",
+        "notes": "29914-29916 all listed."
+      },
+      {
+        "procedure": "Lumbar microdiscectomy / decompression",
+        "cpt": "63030",
+        "policy_title": "Spinal Surgery: Laminectomy and Fusion (CPB 0743)",
+        "url": "https://www.aetna.com/cpb/medical/data/700_799/0743.html",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "rev 2026-07-30",
+        "notes": "63030 listed; same CPB."
+      },
+      {
+        "procedure": "Musculoskeletal MRI (knee/shoulder/lumbar)",
+        "cpt": "73721/73221/72148",
+        "policy_title": "MRI of the Extremities (CPB 0171) + MRI/CT of the Spine (CPB 0236)",
+        "url": "https://www.aetna.com/cpb/medical/data/100_199/0171.html",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "rev 2026-03/04",
+        "notes": "Knee 73721 & shoulder (73218-73223 range) on CPB 0171; lumbar 72148 on CPB 0236 (https://www.aetna.com/cpb/medical/data/200_299/0236.html)."
+      }
+    ],
+    "Cigna": [
+      {
+        "procedure": "Total knee arthroplasty (TKA)",
+        "cpt": "27447",
+        "policy_title": "Cigna CMM-311 Knee Replacement/Arthroplasty (via eviCore)",
+        "url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-11/Cigna_CMM-311%20Knee%20Replacement%20Arthroplasty_V2.0.2025_Eff03.07.2026_Pub11.21.2025.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-03-07",
+        "notes": "MSK delegated to eviCore; on-domain copy cignaforhcp.cigna.com is WAF-blocked."
+      },
+      {
+        "procedure": "Total hip arthroplasty (THA)",
+        "cpt": "27130",
+        "policy_title": "Cigna CMM-313 Hip Replacement/Arthroplasty (via eviCore)",
+        "url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-11/Cigna_CMM-313%20Hip%20Replacement%20Arthro_V2.0.2025_Eff03.07.2026_Pub11.21.2025.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-03-07",
+        "notes": "eviCore-hosted Cigna policy."
+      },
+      {
+        "procedure": "Arthroscopic rotator cuff repair",
+        "cpt": "29827",
+        "policy_title": "Cigna CMM-315 Shoulder Surgery Arthroscopic/Open (via eviCore)",
+        "url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-11/Cigna_CMM-315%20Shoulder%20Surg%20Arthro%20Open%20Proc_V2.0.2025_Eff03.07.2026_Pub11.21.2025.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-03-07",
+        "notes": "29827 present."
+      },
+      {
+        "procedure": "Total shoulder arthroplasty",
+        "cpt": "23472",
+        "policy_title": "Cigna CMM-318 Shoulder Arthroplasty (via eviCore)",
+        "url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-12/Cigna_CMM-318_Shoulder%20Arthro%20Replace%20Revision_V2.0.2025_Eff03.07.2026_Pub12.11.2025.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-03-07",
+        "notes": "23472 present."
+      },
+      {
+        "procedure": "ACL reconstruction",
+        "cpt": "29888",
+        "policy_title": "Cigna CMM-312 Knee Surgery Arthroscopic/Open (via eviCore)",
+        "url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-12/Cigna_CMM-312%20Knee%20Surg%20Arthro%20&%20Open%20Proc_eff03.07.2026_pub12.11.2025.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-03-07",
+        "notes": "29888 present."
+      },
+      {
+        "procedure": "Lumbar fusion",
+        "cpt": "22612",
+        "policy_title": "Cigna CMM-609 Lumbar Fusion (via eviCore)",
+        "url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-11/Cigna%20CMM-609%20Lumbar%20Fusion_Final_V2.0.2025_Eff12.18.2025_pub11.18.2025.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2025-12-18",
+        "notes": "22612 present."
+      },
+      {
+        "procedure": "Cervical fusion / ACDF",
+        "cpt": "22551",
+        "policy_title": "Cigna Medical Coverage Policy 0527 Cervical Fusion",
+        "url": "https://static.cigna.com/assets/chcp/pdf/coveragePolicies/medical/mm_0527_coveragepositioncriteria_cervical_fusion.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2020-06-15",
+        "notes": "On static.cigna.com (own domain); 22551 present."
+      },
+      {
+        "procedure": "Total ankle arthroplasty",
+        "cpt": "27702",
+        "policy_title": "Cigna Medical Coverage Policy 0285 Total Ankle Arthroplasty",
+        "url": "https://static.cigna.com/assets/chcp/pdf/coveragePolicies/medical/mm_0285_coveragepositioncriteria_total_ankle_arthroplasty.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-03-15",
+        "notes": "On static.cigna.com; 27702 present."
+      },
+      {
+        "procedure": "Bunionectomy / hallux valgus",
+        "cpt": "28296",
+        "policy_title": "Cigna Medical Coverage Policy 0304 Bunionectomy",
+        "url": "https://cignaforhcp.cigna.com/public/content/pdf/coveragePolicies/medical/mm_0304_coveragepositioncriteria_bunionectomy.pdf",
+        "doc_is_public": false,
+        "cpt_verified": false,
+        "effective_date": null,
+        "notes": "Policy appears retired/legacy (absent from current A-Z index) and not machine-verifiable. Treat as no current verifiable Cigna policy."
+      },
+      {
+        "procedure": "Hip arthroscopy",
+        "cpt": "29914-29916",
+        "policy_title": "Cigna CMM-314 Hip Surgery Arthroscopic/Open (via eviCore)",
+        "url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-11/Cigna_CMM-314%20Hip%20Surg%20Arthro%20Open%20Proc_V2.0.2025_Eff03.07.2026_Pub11.21.2025.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-03-07",
+        "notes": "29914/29915/29916 present."
+      },
+      {
+        "procedure": "Lumbar microdiscectomy / decompression",
+        "cpt": "63030",
+        "policy_title": "Cigna CMM-606 Lumbar Microdiscectomy (via eviCore)",
+        "url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2024-12/Cigna_CMM-606%20Lumb%20Microdis_Final_V1.1.2024.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2024-12-27",
+        "notes": "63030 present; CMM-608 covers broader decompression."
+      },
+      {
+        "procedure": "Musculoskeletal MRI (knee/shoulder/lumbar)",
+        "cpt": "73721/73221/72148",
+        "policy_title": "Cigna MSK Imaging Guidelines + Spine Imaging Guidelines (via eviCore)",
+        "url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-10/Cigna_Musculoskeletal%20Imaging%20Guidelines_V1.0.2026_eff02.03.2026_PUB10.29.2025.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-02-03",
+        "notes": "73721 & 73221 in MSK guidelines; 72148 in Spine Imaging Guidelines (companion eviCore PDF)."
+      }
+    ],
+    "Elevance / Anthem BCBS": [
+      {
+        "procedure": "Total knee arthroplasty (TKA)",
+        "cpt": "27447",
+        "policy_title": "Clinical Appropriateness Guidelines: Joint Surgery (Carelon)",
+        "url": "https://files.providernews.anthem.com/2520/PDF-Joint-Surgery-2023-11-05.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2023-11-05",
+        "notes": "TKA section; 27447 in prior same-series version, appendix truncated in current."
+      },
+      {
+        "procedure": "Total hip arthroplasty (THA)",
+        "cpt": "27130",
+        "policy_title": "Clinical Appropriateness Guidelines: Joint Surgery (Carelon)",
+        "url": "https://files.providernews.anthem.com/2520/PDF-Joint-Surgery-2023-11-05.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2023-11-05",
+        "notes": "27130 total hip arthroplasty present."
+      },
+      {
+        "procedure": "Arthroscopic rotator cuff repair",
+        "cpt": "29827",
+        "policy_title": "Clinical Appropriateness Guidelines: Joint Surgery (Carelon)",
+        "url": "https://files.providernews.anthem.com/2520/PDF-Joint-Surgery-2023-11-05.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2023-11-05",
+        "notes": "29827 present."
+      },
+      {
+        "procedure": "Total shoulder arthroplasty",
+        "cpt": "23472",
+        "policy_title": "Clinical Appropriateness Guidelines: Joint Surgery (Carelon)",
+        "url": "https://files.providernews.anthem.com/2520/PDF-Joint-Surgery-2023-11-05.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2023-11-05",
+        "notes": "23472 total shoulder present."
+      },
+      {
+        "procedure": "ACL reconstruction",
+        "cpt": "29888",
+        "policy_title": "",
+        "url": "",
+        "doc_is_public": false,
+        "cpt_verified": false,
+        "effective_date": null,
+        "notes": "No dedicated Anthem/Carelon guideline for ACL; 29888 not in Joint Surgery knee section. Medical necessity."
+      },
+      {
+        "procedure": "Lumbar fusion",
+        "cpt": "22612",
+        "policy_title": "Clinical Appropriateness Guidelines: Spine Surgery (Carelon)",
+        "url": "https://files.providernews.anthem.com/4827/pdf-Spine-Surgery-2024-10-20.pdf",
+        "doc_is_public": true,
+        "cpt_verified": false,
+        "effective_date": "2024-10-20",
+        "notes": "Correct governing doc (Lumbar Fusion section); base code 22612 in appendix but not literally sighted (add-on 22614 seen)."
+      },
+      {
+        "procedure": "Cervical fusion / ACDF",
+        "cpt": "22551",
+        "policy_title": "Clinical Appropriateness Guidelines: Spine Surgery (Carelon)",
+        "url": "https://files.providernews.anthem.com/4827/pdf-Spine-Surgery-2024-10-20.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2024-10-20",
+        "notes": "22551 cervical ACDF present verbatim."
+      },
+      {
+        "procedure": "Total ankle arthroplasty",
+        "cpt": "27702",
+        "policy_title": "Clinical Appropriateness Guidelines: Small Joint Surgery (Carelon)",
+        "url": "https://files.providernews.anthem.com/2519/PDF-Small-Joint-Surgery-2023-11-05.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2023-11-05",
+        "notes": "27702 total ankle present verbatim."
+      },
+      {
+        "procedure": "Bunionectomy / hallux valgus",
+        "cpt": "28296",
+        "policy_title": "Clinical Appropriateness Guidelines: Small Joint Surgery (Carelon)",
+        "url": "https://files.providernews.anthem.com/2519/PDF-Small-Joint-Surgery-2023-11-05.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2023-11-05",
+        "notes": "28296 bunionectomy present verbatim."
+      },
+      {
+        "procedure": "Hip arthroscopy",
+        "cpt": "29914-29916",
+        "policy_title": "Clinical Appropriateness Guidelines: Joint Surgery (Carelon)",
+        "url": "https://files.providernews.anthem.com/2520/PDF-Joint-Surgery-2023-11-05.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2023-11-05",
+        "notes": "29914-29916 hip arthroscopy present."
+      },
+      {
+        "procedure": "Lumbar microdiscectomy / decompression",
+        "cpt": "63030",
+        "policy_title": "Clinical Appropriateness Guidelines: Spine Surgery (Carelon)",
+        "url": "https://files.providernews.anthem.com/4827/pdf-Spine-Surgery-2024-10-20.pdf",
+        "doc_is_public": true,
+        "cpt_verified": false,
+        "effective_date": "2024-10-20",
+        "notes": "Correct doc (Lumbar Discectomy/Laminotomy section); base 63030 in appendix but not literally sighted (add-on 63035 seen)."
+      },
+      {
+        "procedure": "Musculoskeletal MRI (knee/shoulder/lumbar)",
+        "cpt": "73721/73221/72148",
+        "policy_title": "Imaging of the Extremities + Imaging of the Spine (Carelon)",
+        "url": "https://files.providernews.anthem.com/4819/PDF-Imaging-of-the-Extremities-2024-10-20.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2024-10-20",
+        "notes": "Knee 73721 & shoulder 73221 in Extremities doc (table truncated in fetch); lumbar 72148 verbatim in Imaging of the Spine (https://files.providernews.anthem.com/4816/PDF-Imaging-of-the-Spine-2024-10-20.pdf)."
+      }
+    ],
+    "Humana": [
+      {
+        "procedure": "Total knee arthroplasty (TKA)",
+        "cpt": "27447",
+        "policy_title": "Knee Arthroplasty - Medicare Advantage",
+        "url": "https://mcp.humana.com/tad/tad_new/Search.aspx?criteria=27447&searchtype=freetext&policyType=both",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-03-16",
+        "notes": "Verified via Humana's own claims-code search (code->policy). Policy opens as PDF via portal."
+      },
+      {
+        "procedure": "Total hip arthroplasty (THA)",
+        "cpt": "27130",
+        "policy_title": "Hip Arthroplasty - Medicare Advantage",
+        "url": "https://mcp.humana.com/tad/tad_new/Search.aspx?criteria=27130&searchtype=freetext&policyType=both",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-03-16",
+        "notes": "Humana code search confirms 27130."
+      },
+      {
+        "procedure": "Arthroscopic rotator cuff repair",
+        "cpt": "29827",
+        "policy_title": "Shoulder Arthroscopy - Medicare Advantage",
+        "url": "https://mcp.humana.com/tad/tad_new/Search.aspx?criteria=29827&searchtype=freetext&policyType=both",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-01-02",
+        "notes": "29827 confirmed."
+      },
+      {
+        "procedure": "Total shoulder arthroplasty",
+        "cpt": "23472",
+        "policy_title": "Shoulder Arthroplasty - Medicare Advantage",
+        "url": "https://mcp.humana.com/tad/tad_new/Search.aspx?criteria=23472&searchtype=freetext&policyType=both",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2025-08-01",
+        "notes": "23472 confirmed (revised version eff 2026-08-03 also exists)."
+      },
+      {
+        "procedure": "ACL reconstruction",
+        "cpt": "29888",
+        "policy_title": "Knee Arthroscopy - Medicare Advantage",
+        "url": "https://mcp.humana.com/tad/tad_new/Search.aspx?criteria=29888&searchtype=freetext&policyType=both",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-05-01",
+        "notes": "29888 confirmed."
+      },
+      {
+        "procedure": "Lumbar fusion",
+        "cpt": "22612",
+        "policy_title": "Spinal Fusion Surgery - Medicare Advantage",
+        "url": "https://mcp.humana.com/tad/tad_new/Search.aspx?criteria=22612&searchtype=freetext&policyType=both",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-05-01",
+        "notes": "22612 confirmed."
+      },
+      {
+        "procedure": "Cervical fusion / ACDF",
+        "cpt": "22551",
+        "policy_title": "Spinal Fusion Surgery - Medicare Advantage",
+        "url": "https://mcp.humana.com/tad/tad_new/Search.aspx?criteria=22551&searchtype=freetext&policyType=both",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-05-01",
+        "notes": "22551 confirmed; same policy."
+      },
+      {
+        "procedure": "Total ankle arthroplasty",
+        "cpt": "27702",
+        "policy_title": "",
+        "url": "",
+        "doc_is_public": false,
+        "cpt_verified": false,
+        "effective_date": null,
+        "notes": "No dedicated Humana policy indexes 27702 ('no matching records'). Follows CMS/medical necessity."
+      },
+      {
+        "procedure": "Bunionectomy / hallux valgus",
+        "cpt": "28296",
+        "policy_title": "Foot Surgical Procedures - Medicare Advantage",
+        "url": "https://mcp.humana.com/tad/tad_new/Search.aspx?criteria=28296&searchtype=freetext&policyType=both",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2025-09-02",
+        "notes": "28296 confirmed; commercial 'Bunion' PDF at assets.humana.com also lists it."
+      },
+      {
+        "procedure": "Hip arthroscopy",
+        "cpt": "29914-29916",
+        "policy_title": "Hip Arthroscopy - Medicare Advantage",
+        "url": "https://mcp.humana.com/tad/tad_new/Search.aspx?criteria=29914&searchtype=freetext&policyType=both",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-01-02",
+        "notes": "29914 & 29916 confirmed."
+      },
+      {
+        "procedure": "Lumbar microdiscectomy / decompression",
+        "cpt": "63030",
+        "policy_title": "Spinal Decompression Surgery - Medicare Advantage",
+        "url": "https://mcp.humana.com/tad/tad_new/Search.aspx?criteria=63030&searchtype=freetext&policyType=both",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-02-02",
+        "notes": "63030 confirmed."
+      },
+      {
+        "procedure": "Musculoskeletal MRI (knee/shoulder/lumbar)",
+        "cpt": "73721/73221/72148",
+        "policy_title": "Upper/Lower Extremity MRI - MA (knee/shoulder) + Advanced Imaging of the Spine - MA (lumbar)",
+        "url": "https://mcp.humana.com/tad/tad_new/Search.aspx?criteria=73721&searchtype=freetext&policyType=both",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-07-01",
+        "notes": "Extremity MRI covers 73721 & 73221; lumbar 72148 in Advanced Imaging of the Spine (criteria=72148). All confirmed via code search."
+      }
+    ],
+    "Centene (Ambetter/WellCare)": [
+      {
+        "procedure": "Total knee arthroplasty (TKA)",
+        "cpt": "27447",
+        "policy_title": "Ambetter/Centene Joint Surgery UR Matrix (Evolent/NIA)",
+        "url": "https://www.ambetterhealth.com/content/dam/centene/home-state-health/ambetter/pdfs/Health-Joint-Surgery%20Evolent-UTIL-Ambetter.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2024",
+        "notes": "MSK delegated to Evolent; 27447 in matrix. Clinical criteria in Evolent MSK guidelines."
+      },
+      {
+        "procedure": "Total hip arthroplasty (THA)",
+        "cpt": "27130",
+        "policy_title": "Ambetter/Centene Joint Surgery UR Matrix (Evolent/NIA)",
+        "url": "https://www.ambetterhealth.com/content/dam/centene/home-state-health/ambetter/pdfs/Health-Joint-Surgery%20Evolent-UTIL-Ambetter.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2024",
+        "notes": "27130 in matrix."
+      },
+      {
+        "procedure": "Arthroscopic rotator cuff repair",
+        "cpt": "29827",
+        "policy_title": "Ambetter/Centene Joint Surgery UR Matrix (Evolent/NIA)",
+        "url": "https://www.ambetterhealth.com/content/dam/centene/home-state-health/ambetter/pdfs/Health-Joint-Surgery%20Evolent-UTIL-Ambetter.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2024",
+        "notes": "29827 in matrix."
+      },
+      {
+        "procedure": "Total shoulder arthroplasty",
+        "cpt": "23472",
+        "policy_title": "Ambetter/Centene Joint Surgery UR Matrix (Evolent/NIA)",
+        "url": "https://www.ambetterhealth.com/content/dam/centene/home-state-health/ambetter/pdfs/Health-Joint-Surgery%20Evolent-UTIL-Ambetter.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2024",
+        "notes": "23472 in matrix."
+      },
+      {
+        "procedure": "ACL reconstruction",
+        "cpt": "29888",
+        "policy_title": "Ambetter/Centene Joint Surgery UR Matrix (Evolent/NIA)",
+        "url": "https://www.ambetterhealth.com/content/dam/centene/home-state-health/ambetter/pdfs/Health-Joint-Surgery%20Evolent-UTIL-Ambetter.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2024",
+        "notes": "29888 in matrix."
+      },
+      {
+        "procedure": "Lumbar fusion",
+        "cpt": "22612",
+        "policy_title": "Centene Spine Surgery UR Matrix 2026 (Evolent/NIA, on RadMD)",
+        "url": "https://www1.radmd.com/sites/default/files/2025-12/Centene%20AL%20Ambetter%20of%20Alabama%20Spine%20Surgery%20Utilization%20Review%20Matrix%202026%2001.01.26.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-01-01",
+        "notes": "22612 in matrix; example state AL, matrix shared."
+      },
+      {
+        "procedure": "Cervical fusion / ACDF",
+        "cpt": "22551",
+        "policy_title": "Centene Spine Surgery UR Matrix 2026 (Evolent/NIA, on RadMD)",
+        "url": "https://www1.radmd.com/sites/default/files/2025-12/Centene%20AL%20Ambetter%20of%20Alabama%20Spine%20Surgery%20Utilization%20Review%20Matrix%202026%2001.01.26.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-01-01",
+        "notes": "22551 in matrix."
+      },
+      {
+        "procedure": "Total ankle arthroplasty",
+        "cpt": "27702",
+        "policy_title": "",
+        "url": "",
+        "doc_is_public": false,
+        "cpt_verified": false,
+        "effective_date": null,
+        "notes": "Foot/ankle outside Evolent MSK scope; no dedicated Centene policy. Standard medical necessity (InterQual/MCG)."
+      },
+      {
+        "procedure": "Bunionectomy / hallux valgus",
+        "cpt": "28296",
+        "policy_title": "",
+        "url": "",
+        "doc_is_public": false,
+        "cpt_verified": false,
+        "effective_date": null,
+        "notes": "Foot/ankle outside Evolent MSK scope; no dedicated Centene policy."
+      },
+      {
+        "procedure": "Hip arthroscopy",
+        "cpt": "29914-29916",
+        "policy_title": "Ambetter/Centene Joint Surgery UR Matrix (Evolent/NIA)",
+        "url": "https://www.ambetterhealth.com/content/dam/centene/home-state-health/ambetter/pdfs/Health-Joint-Surgery%20Evolent-UTIL-Ambetter.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2024",
+        "notes": "29914-29916 in matrix (FAI grouping)."
+      },
+      {
+        "procedure": "Lumbar microdiscectomy / decompression",
+        "cpt": "63030",
+        "policy_title": "Centene Spine Surgery UR Matrix 2026 (Evolent/NIA, on RadMD)",
+        "url": "https://www1.radmd.com/sites/default/files/2025-12/Centene%20AL%20Ambetter%20of%20Alabama%20Spine%20Surgery%20Utilization%20Review%20Matrix%202026%2001.01.26.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-01-01",
+        "notes": "63030 in matrix."
+      },
+      {
+        "procedure": "Musculoskeletal MRI (knee/shoulder/lumbar)",
+        "cpt": "73721/73221/72148",
+        "policy_title": "Ambetter/Centene Advanced Imaging UR Matrix (Evolent/NIA)",
+        "url": "https://www1.radmd.com/sites/default/files/2024-12/Ambetter%20from%20MHS%20-%20CPT%20Matrix%202025%20-%20Evolent.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2025",
+        "notes": "73721, 73221, 72148 all in matrix."
+      }
+    ],
+    "HCSC (BCBS IL/TX/NM/OK/MT)": [
+      {
+        "procedure": "Total knee arthroplasty (TKA)",
+        "cpt": "27447",
+        "policy_title": "",
+        "url": "",
+        "doc_is_public": false,
+        "cpt_verified": false,
+        "effective_date": null,
+        "notes": "No dedicated HCSC medical policy for TKA; managed via standard benefits/prior auth."
+      },
+      {
+        "procedure": "Total hip arthroplasty (THA)",
+        "cpt": "27130",
+        "policy_title": "",
+        "url": "",
+        "doc_is_public": false,
+        "cpt_verified": false,
+        "effective_date": null,
+        "notes": "No dedicated HCSC policy for primary THA (Hip Resurfacing SUR705.019 is a different procedure)."
+      },
+      {
+        "procedure": "Arthroscopic rotator cuff repair",
+        "cpt": "29827",
+        "policy_title": "",
+        "url": "",
+        "doc_is_public": false,
+        "cpt_verified": false,
+        "effective_date": null,
+        "notes": "No dedicated HCSC policy for rotator cuff repair."
+      },
+      {
+        "procedure": "Total shoulder arthroplasty",
+        "cpt": "23472",
+        "policy_title": "",
+        "url": "",
+        "doc_is_public": false,
+        "cpt_verified": false,
+        "effective_date": null,
+        "notes": "No dedicated HCSC shoulder arthroplasty policy (Shoulder Resurfacing SUR705.032 is different)."
+      },
+      {
+        "procedure": "ACL reconstruction",
+        "cpt": "29888",
+        "policy_title": "",
+        "url": "",
+        "doc_is_public": false,
+        "cpt_verified": false,
+        "effective_date": null,
+        "notes": "No dedicated HCSC ACL policy."
+      },
+      {
+        "procedure": "Lumbar fusion",
+        "cpt": "22612",
+        "policy_title": "Lumbar Spinal Fusion (SUR712.036)",
+        "url": "https://medicalpolicy.bcbstx.com/content/dam/bcbs/medicalpolicy/pdf/surgery/SUR712.036_2024-11-15.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2024-11-15",
+        "notes": "22612 confirmed in coding section."
+      },
+      {
+        "procedure": "Cervical fusion / ACDF",
+        "cpt": "22551",
+        "policy_title": "Cervical Spinal Fusion (SUR712.041)",
+        "url": "https://medicalpolicy.bcbstx.com/content/dam/bcbs/medicalpolicy/pdf/surgery/SUR712.041_2023-05-01.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2023-05-01",
+        "notes": "22551 confirmed."
+      },
+      {
+        "procedure": "Total ankle arthroplasty",
+        "cpt": "27702",
+        "policy_title": "Total Ankle Replacement (SUR705.021)",
+        "url": "https://medicalpolicy.bcbstx.com/content/dam/bcbs/medicalpolicy/pdf/surgery/SUR705.021_2024-07-15.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2024-07-15",
+        "notes": "27702 confirmed."
+      },
+      {
+        "procedure": "Bunionectomy / hallux valgus",
+        "cpt": "28296",
+        "policy_title": "",
+        "url": "",
+        "doc_is_public": false,
+        "cpt_verified": false,
+        "effective_date": null,
+        "notes": "No dedicated HCSC bunionectomy policy."
+      },
+      {
+        "procedure": "Hip arthroscopy",
+        "cpt": "29914-29916",
+        "policy_title": "Surgical Treatment of Femoroacetabular Impingement (SUR705.029)",
+        "url": "",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": null,
+        "notes": "Policy is public on HCSC portal; 29914-29916 mapped to SUR705.029 per HCSC's official Medical Policy Reference List. Direct dated PDF URL not resolvable; not guessing it."
+      },
+      {
+        "procedure": "Lumbar microdiscectomy / decompression",
+        "cpt": "63030",
+        "policy_title": "",
+        "url": "",
+        "doc_is_public": false,
+        "cpt_verified": false,
+        "effective_date": null,
+        "notes": "No dedicated HCSC policy for standard microdiscectomy/decompression (Image-Guided MILD SUR712.035 is a different procedure)."
+      },
+      {
+        "procedure": "Musculoskeletal MRI (knee/shoulder/lumbar)",
+        "cpt": "73721/73221/72148",
+        "policy_title": "",
+        "url": "",
+        "doc_is_public": false,
+        "cpt_verified": false,
+        "effective_date": null,
+        "notes": "No dedicated HCSC RAD policy for routine MSK MRI; advanced imaging via PA vendor."
+      }
+    ],
+    "Molina Healthcare": [
+      {
+        "procedure": "Total knee arthroplasty (TKA)",
+        "cpt": "27447",
+        "policy_title": "",
+        "url": "",
+        "doc_is_public": false,
+        "cpt_verified": false,
+        "effective_date": null,
+        "notes": "No Molina MCP for primary TKA; via MCG and, in Evolent markets, Evolent Joint Surgery (RadMD login-gated)."
+      },
+      {
+        "procedure": "Total hip arthroplasty (THA)",
+        "cpt": "27130",
+        "policy_title": "",
+        "url": "",
+        "doc_is_public": false,
+        "cpt_verified": false,
+        "effective_date": null,
+        "notes": "No Molina MCP for primary THA; via MCG / Evolent (login-gated)."
+      },
+      {
+        "procedure": "Arthroscopic rotator cuff repair",
+        "cpt": "29827",
+        "policy_title": "Molina Clinical Policy MCP-404 Shoulder Arthroscopy",
+        "url": "https://www.molinahealthcare.com/-/media/Molina/PublicWebsite/PDF/Providers/il/resource/Shoulder-Arthroscopy-Guidelines_MCP_404.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2021-06-09",
+        "notes": "29827 in coding table; criteria defer to MCG."
+      },
+      {
+        "procedure": "Total shoulder arthroplasty",
+        "cpt": "23472",
+        "policy_title": "",
+        "url": "",
+        "doc_is_public": false,
+        "cpt_verified": false,
+        "effective_date": null,
+        "notes": "23472 not in MCP-404 (arthroscopy-only). No Molina arthroplasty MCP; via MCG/Evolent."
+      },
+      {
+        "procedure": "ACL reconstruction",
+        "cpt": "29888",
+        "policy_title": "",
+        "url": "",
+        "doc_is_public": false,
+        "cpt_verified": false,
+        "effective_date": null,
+        "notes": "No Molina knee-arthroscopy/ACL MCP; 29888 via MCG."
+      },
+      {
+        "procedure": "Lumbar fusion",
+        "cpt": "22612",
+        "policy_title": "Molina Complete Care Spine Surgery UR Matrix (NIA/Evolent)",
+        "url": "https://www.molinahealthcare.com/providers/az/medicaid/forms/~/media/Molina/PublicWebsite/PDF/Providers/az/AZ-WEBP-19442-21%202021%20NIA%20Spine%20Surgery%20UM%20Review%20Matrix%20FINAL_R",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2021",
+        "notes": "22612 in Molina-hosted PA matrix (AZ 2021); clinical criteria via Evolent/RadMD (login-gated)."
+      },
+      {
+        "procedure": "Cervical fusion / ACDF",
+        "cpt": "22551",
+        "policy_title": "Molina Complete Care Spine Surgery UR Matrix (NIA/Evolent)",
+        "url": "https://www.molinahealthcare.com/providers/az/medicaid/forms/~/media/Molina/PublicWebsite/PDF/Providers/az/AZ-WEBP-19442-21%202021%20NIA%20Spine%20Surgery%20UM%20Review%20Matrix%20FINAL_R",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2021",
+        "notes": "22551 in same matrix."
+      },
+      {
+        "procedure": "Total ankle arthroplasty",
+        "cpt": "27702",
+        "policy_title": "",
+        "url": "",
+        "doc_is_public": false,
+        "cpt_verified": false,
+        "effective_date": null,
+        "notes": "No Molina MCP for total ankle replacement; via MCG."
+      },
+      {
+        "procedure": "Bunionectomy / hallux valgus",
+        "cpt": "28296",
+        "policy_title": "Molina Clinical Policy MCP-700 Foot Surgery: Bunionectomy",
+        "url": "https://www.molinahealthcare.com/-/media/Molina/PublicWebsite/PDF/Providers/oh/medicaid/policies/MCP-700-Foot-Surgery-Bunionectomy-0823.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2023-04-13",
+        "notes": "28296 in coding table (OH edition)."
+      },
+      {
+        "procedure": "Hip arthroscopy",
+        "cpt": "29914-29916",
+        "policy_title": "",
+        "url": "",
+        "doc_is_public": false,
+        "cpt_verified": false,
+        "effective_date": null,
+        "notes": "No Molina hip-arthroscopy MCP; 29914-29916 via MCG."
+      },
+      {
+        "procedure": "Lumbar microdiscectomy / decompression",
+        "cpt": "63030",
+        "policy_title": "Molina Complete Care Spine Surgery UR Matrix (NIA/Evolent)",
+        "url": "https://www.molinahealthcare.com/providers/az/medicaid/forms/~/media/Molina/PublicWebsite/PDF/Providers/az/AZ-WEBP-19442-21%202021%20NIA%20Spine%20Surgery%20UM%20Review%20Matrix%20FINAL_R",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2021",
+        "notes": "63030 in matrix; via Evolent (login-gated)."
+      },
+      {
+        "procedure": "Musculoskeletal MRI (knee/shoulder/lumbar)",
+        "cpt": "73721/73221/72148",
+        "policy_title": "Molina MCP-633 Lower Extremity MRI + MCR-621 Lumbar Spine MRI (shoulder via NIA matrix)",
+        "url": "https://www.molinahealthcare.com/~/media/Molina/PublicWebsite/PDF/Common/Molina%20Clinical%20Policy/Lower%20Extremity%20MRI.pdf",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2021-12-08",
+        "notes": "Knee 73721 in MCP-633; lumbar 72148 in MCR-621 (Lumbar Spine MRI PDF); shoulder 73221 in Molina-hosted NIA matrix."
+      }
+    ],
+    "Florida Blue / GuideWell": [
+      {
+        "procedure": "Total knee arthroplasty (TKA)",
+        "cpt": "27447",
+        "policy_title": "Knee Arthroplasty (MCG 02-20000-60)",
+        "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-60&pv=false",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-05-15",
+        "notes": "27447 in Billing/Coding."
+      },
+      {
+        "procedure": "Total hip arthroplasty (THA)",
+        "cpt": "27130",
+        "policy_title": "Hip Arthroplasty (MCG 02-20000-50)",
+        "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-50&pv=false",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2025-02-15",
+        "notes": "27130 confirmed."
+      },
+      {
+        "procedure": "Arthroscopic rotator cuff repair",
+        "cpt": "29827",
+        "policy_title": "Site of Service Review for Select Surgical Procedures (MCG 08-00000-01)",
+        "url": "https://mcgs.bcbsfl.com/MCG?mcgId=08-00000-01&pv=false",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-01-01",
+        "notes": "No dedicated rotator-cuff MCG; 29827 only in site-of-service MCG."
+      },
+      {
+        "procedure": "Total shoulder arthroplasty",
+        "cpt": "23472",
+        "policy_title": "",
+        "url": "",
+        "doc_is_public": false,
+        "cpt_verified": false,
+        "effective_date": null,
+        "notes": "Florida Blue has NO MCG covering 23472 (0 results in carrier full-text search)."
+      },
+      {
+        "procedure": "ACL reconstruction",
+        "cpt": "29888",
+        "policy_title": "Knee Arthroscopy and Open, Non-Arthroplasty Knee Repair (MCG 02-20000-65)",
+        "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-65&pv=false",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-06-15",
+        "notes": "29888 in Billing/Coding."
+      },
+      {
+        "procedure": "Lumbar fusion",
+        "cpt": "22612",
+        "policy_title": "Thoracic and Lumbar Spine Surgery (MCG 02-20000-48)",
+        "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-48&pv=false",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2025-06-15",
+        "notes": "22612 confirmed."
+      },
+      {
+        "procedure": "Cervical fusion / ACDF",
+        "cpt": "22551",
+        "policy_title": "Cervical Spine Surgery (MCG 02-20000-45)",
+        "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-45&pv=false",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-04-15",
+        "notes": "22551 confirmed."
+      },
+      {
+        "procedure": "Total ankle arthroplasty",
+        "cpt": "27702",
+        "policy_title": "Total Ankle Replacement (MCG 02-99221-15)",
+        "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-99221-15&pv=false",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-04-15",
+        "notes": "27702 confirmed."
+      },
+      {
+        "procedure": "Bunionectomy / hallux valgus",
+        "cpt": "28296",
+        "policy_title": "Site of Service Review for Select Surgical Procedures (MCG 08-00000-01)",
+        "url": "https://mcgs.bcbsfl.com/MCG?mcgId=08-00000-01&pv=false",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-01-01",
+        "notes": "No dedicated bunionectomy MCG; 28296 only in site-of-service MCG."
+      },
+      {
+        "procedure": "Hip arthroscopy",
+        "cpt": "29914-29916",
+        "policy_title": "Hip Arthroscopy and Open, Non-Arthroplasty Hip Repair (MCG 02-20000-55)",
+        "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-55&pv=false",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-02-15",
+        "notes": "29914-29916 confirmed."
+      },
+      {
+        "procedure": "Lumbar microdiscectomy / decompression",
+        "cpt": "63030",
+        "policy_title": "Thoracic and Lumbar Spine Surgery (MCG 02-20000-48)",
+        "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-48&pv=false",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2025-06-15",
+        "notes": "63030 confirmed; same spine MCG."
+      },
+      {
+        "procedure": "Musculoskeletal MRI (knee/shoulder/lumbar)",
+        "cpt": "73721/73221/72148",
+        "policy_title": "MRI Lower Extremity (04-70540-16) / Upper Extremity (04-70540-15) / Spine (04-70540-17)",
+        "url": "https://mcgs.bcbsfl.com/MCG?mcgId=04-70540-16&pv=false",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2026-05-15",
+        "notes": "Knee 73721 (04-70540-16), shoulder 73221 (04-70540-15), lumbar 72148 (04-70540-17) each confirmed."
+      }
+    ],
+    "Medicare (CMS)": [
+      {
+        "procedure": "Total knee arthroplasty (TKA)",
+        "cpt": "27447",
+        "policy_title": "MAC LCDs: Total Joint Arthroplasty (L39911/L33456), Major Joint Replacement (L33618/L36007)",
+        "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=36577&ver=15",
+        "doc_is_public": true,
+        "cpt_verified": false,
+        "effective_date": null,
+        "notes": "Dedicated TKA LCD L36577 retired 2025-11-06; covered when medically necessary under active MAC LCDs. Jurisdiction-specific."
+      },
+      {
+        "procedure": "Total hip arthroplasty (THA)",
+        "cpt": "27130",
+        "policy_title": "MAC LCDs: Total Joint Arthroplasty / Major Joint Replacement",
+        "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=36573&ver=15",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": null,
+        "notes": "27130 confirmed in THA LCD (L36573, now retired); addressed by active MAC LCDs. Medically necessary."
+      },
+      {
+        "procedure": "Arthroscopic rotator cuff repair",
+        "cpt": "29827",
+        "policy_title": "No NCD/LCD — covered when medically necessary",
+        "url": "https://www.cms.gov/medicare-coverage-database",
+        "doc_is_public": true,
+        "cpt_verified": false,
+        "effective_date": null,
+        "notes": "No national or local determination governs rotator cuff repair."
+      },
+      {
+        "procedure": "Total shoulder arthroplasty",
+        "cpt": "23472",
+        "policy_title": "LCD - Total Shoulder Arthroplasty (L39956, Palmetto GBA)",
+        "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=39956&ver=5",
+        "doc_is_public": true,
+        "cpt_verified": false,
+        "effective_date": "2025-03-27",
+        "notes": "Active MAC LCD; codes in companion article A59878. Jurisdiction-specific; other MACs via medical necessity."
+      },
+      {
+        "procedure": "ACL reconstruction",
+        "cpt": "29888",
+        "policy_title": "No NCD/LCD — covered when medically necessary",
+        "url": "https://www.cms.gov/medicare-coverage-database",
+        "doc_is_public": true,
+        "cpt_verified": false,
+        "effective_date": null,
+        "notes": "No determination governs ACL reconstruction."
+      },
+      {
+        "procedure": "Lumbar fusion",
+        "cpt": "22612",
+        "policy_title": "LCD - Lumbar Spinal Fusion (L37848, Palmetto GBA)",
+        "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=37848&ver=13",
+        "doc_is_public": true,
+        "cpt_verified": true,
+        "effective_date": "2024-09-12",
+        "notes": "Companion article A56396 lists 22612. Other MACs have parallel LCDs (e.g., Novitas L33382)."
+      },
+      {
+        "procedure": "Cervical fusion / ACDF",
+        "cpt": "22551",
+        "policy_title": "MAC 'Cervical Fusion' LCD family (Novitas L39793 et al.)",
+        "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=39793&ver=40",
+        "doc_is_public": true,
+        "cpt_verified": false,
+        "effective_date": "2024-08-11",
+        "notes": "Cervical fusion governed by MAC LCDs; codes (incl. 22551) in companion article A59674. Jurisdiction-specific."
+      },
+      {
+        "procedure": "Total ankle arthroplasty",
+        "cpt": "27702",
+        "policy_title": "No dedicated NCD/LCD — covered when medically necessary",
+        "url": "https://www.cms.gov/medicare-coverage-database",
+        "doc_is_public": true,
+        "cpt_verified": false,
+        "effective_date": null,
+        "notes": "No dedicated total-ankle policy; some Total Joint Arthroplasty LCDs may address ankle."
+      },
+      {
+        "procedure": "Bunionectomy / hallux valgus",
+        "cpt": "28296",
+        "policy_title": "No NCD/LCD — covered when medically necessary",
+        "url": "https://www.cms.gov/medicare-coverage-database",
+        "doc_is_public": true,
+        "cpt_verified": false,
+        "effective_date": null,
+        "notes": "No determination governs bunionectomy."
+      },
+      {
+        "procedure": "Hip arthroscopy",
+        "cpt": "29914-29916",
+        "policy_title": "No NCD/LCD — covered when medically necessary",
+        "url": "https://www.cms.gov/medicare-coverage-database",
+        "doc_is_public": true,
+        "cpt_verified": false,
+        "effective_date": null,
+        "notes": "No determination governs hip arthroscopy."
+      },
+      {
+        "procedure": "Lumbar microdiscectomy / decompression",
+        "cpt": "63030",
+        "policy_title": "No NCD/LCD — covered when medically necessary",
+        "url": "https://www.cms.gov/medicare-coverage-database",
+        "doc_is_public": true,
+        "cpt_verified": false,
+        "effective_date": null,
+        "notes": "No determination governs open microdiscectomy/decompression (63030). NCD 150.13 is for percutaneous MILD only."
+      },
+      {
+        "procedure": "Musculoskeletal MRI (knee/shoulder/lumbar)",
+        "cpt": "73721/73221/72148",
+        "policy_title": "NCD 220.2 Magnetic Resonance Imaging (general)",
+        "url": "https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?ncdid=177",
+        "doc_is_public": true,
+        "cpt_verified": false,
+        "effective_date": "2018-04-10",
+        "notes": "NCD 220.2 covers MRI broadly; MSK sites at MAC discretion. No specific CPTs listed. Medically necessary."
+      }
+    ]
+  }
+}

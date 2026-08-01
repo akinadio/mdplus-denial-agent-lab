@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "description": "Member-facing instructions for how a patient finds/downloads their own plan and coverage documents online, per carrier. Shown to the patient so they can locate (or upload) their policy. Written in plain language for a non-technical user. Always also offer 'the number on the back of your ID card' as the fallback.",
+    "generic_fallback": {
+      "find_plan_docs_steps": [
+        "Log in to your insurance company's member website or app (the web address is usually on the back of your insurance card).",
+        "Look for a section called 'Plan Documents', 'Coverage & Benefits', or 'My Plan'.",
+        "Open your 'Summary of Benefits and Coverage (SBC)' or plan booklet and download the PDF.",
+        "If you can't find it, call the Member Services number on the back of your card and ask them to send your plan documents."
+      ],
+      "member_phone": "See the number on the back of your insurance card."
+    }
+  },
+  "carriers": {
+    "UnitedHealthcare": {
+      "member_portal_url": "https://member.uhc.com/myuhc",
+      "app_name": "UnitedHealthcare app",
+      "find_plan_docs_steps": [
+        "Go to member.uhc.com (or myuhc.com) and click 'Sign In' (first time: click 'Register' and use the member ID on your card).",
+        "In the top menu click 'Coverage & Benefits'.",
+        "Choose 'Coverage Documents' (also shown as 'Plan Documents').",
+        "Open your 'Summary of Benefits and Coverage (SBC)' or 'Member Handbook' and download the PDF."
+      ],
+      "member_phone": "1-866-414-1959 (or the number on your card)",
+      "notes": "Public medical coverage policies are at uhcprovider.com/en/policies-protocols.html (no login)."
+    },
+    "Aetna (CVS Health)": {
+      "member_portal_url": "https://www.aetna.com/about-us/login.html",
+      "app_name": "Aetna Health app",
+      "find_plan_docs_steps": [
+        "Go to aetna.com, click 'Log in', choose 'Members' (first time: 'Register' with the member ID on your card).",
+        "Open 'Coverage & Benefits' (may say 'Plan Documents').",
+        "Open your benefits summary / SBC and download it.",
+        "No login needed for just the SBC: use aetna.com/sbcsearch/home."
+      ],
+      "member_phone": "1-800-872-3862 (or the number on your card)",
+      "notes": "Public medical policies ('Clinical Policy Bulletins') at aetna.com/health-care-professionals/clinical-policy-bulletins.html."
+    },
+    "Cigna": {
+      "member_portal_url": "https://my.cigna.com/",
+      "app_name": "myCigna",
+      "find_plan_docs_steps": [
+        "Go to my.cigna.com or open the 'myCigna' app and log in (first time: 'Register' with the ID on your card).",
+        "Open the 'Coverage' or 'Plan Documents' section.",
+        "Open your 'Summary of Benefits and Coverage (SBC)' and download the PDF."
+      ],
+      "member_phone": "1-800-244-6224 (or the number on your card)",
+      "notes": "Public coverage policies at cigna.com/health-care-providers/coverage-and-claims/policies."
+    },
+    "Elevance / Anthem BCBS": {
+      "member_portal_url": "https://www.anthem.com/account-login/",
+      "app_name": "Sydney Health",
+      "find_plan_docs_steps": [
+        "Go to anthem.com and click 'Log In' (or open the 'Sydney Health' app). First time: 'Register' with the info on your card.",
+        "Open the 'Benefits' section.",
+        "Find 'Plan Documents' or 'Summary of Benefits and Coverage (SBC)' and download it."
+      ],
+      "member_phone": "Use the number on the back of your ID card (varies by state/plan; TTY 711)",
+      "notes": "Public medical policies at anthem.com/provider/policies/clinical-guidelines (pick your state)."
+    },
+    "Humana": {
+      "member_portal_url": "https://account.humana.com",
+      "app_name": "MyHumana",
+      "find_plan_docs_steps": [
+        "Go to account.humana.com or open the MyHumana app and sign in (first time: 'Activate account' as a Member with your Humana ID, date of birth, and ZIP).",
+        "Open 'Coverage & Benefits' or 'Plan Documents'.",
+        "Or, faster: go to plandocs.humana.com/medicare-plan-documents and enter your ID, date of birth, and ZIP to download your plan documents."
+      ],
+      "member_phone": "800-457-4708 (Medicare, TTY 711), or the number on your card",
+      "notes": "Public coverage policies at mcp.humana.com."
+    },
+    "Centene (Ambetter/WellCare)": {
+      "member_portal_url": "https://member.ambetterhealth.com/sso/login",
+      "app_name": "Ambetter Health app (WellCare via member.wellcare.com)",
+      "find_plan_docs_steps": [
+        "Ambetter (marketplace): go to ambetterhealth.com, pick your state, click 'Member Login' (goes to member.ambetterhealth.com) and sign in.",
+        "Open the 'Coverage' section and scroll to 'Plan Documents'.",
+        "Download your 'Summary of Benefits and Coverage (SBC)' or 'Evidence of Coverage (EOC)'.",
+        "WellCare (Medicare): sign in at member.wellcare.com, or use wellcare.com/en/find-your-plan to open your plan's documents."
+      ],
+      "member_phone": "Use the number on the back of your ID card (varies by state/plan)",
+      "notes": "Ambetter is Centene's marketplace brand run per state; WellCare is the Medicare brand. Clinical policies posted per state under Provider Resources; some delegated to Evolent/RadMD/TurningPoint."
+    },
+    "HCSC (BCBS IL/TX/NM/OK/MT)": {
+      "member_portal_url": "https://mybam.bcbsil.com/",
+      "app_name": "Blue Access for Members (BAM) — your state's BCBS app",
+      "find_plan_docs_steps": [
+        "Go to your state's Blue site (IL bcbsil.com, TX bcbstx.com, NM bcbsnm.com, OK bcbsok.com, MT bcbsmt.com) and click 'Log In' (first time: 'Register Now' with the ID on your card).",
+        "Open 'My Coverage' or 'Benefits'.",
+        "Choose 'Plan Documents' or 'Benefit Booklet' and download your SBC / benefit booklet."
+      ],
+      "member_phone": "Use the Member Services number on the back of your ID card (varies by state/plan)",
+      "notes": "Member portal is 'Blue Access for Members (BAM)' on all 5 state sites; only the web address changes. Public medical policies via medicalpolicy.bcbsil.com."
+    },
+    "Molina Healthcare": {
+      "member_portal_url": "https://www.mymolina.com/",
+      "app_name": "My Molina",
+      "find_plan_docs_steps": [
+        "Go to mymolina.com and sign in (first time: 'Create an Account' with your Member ID, date of birth, and ZIP).",
+        "For full plan documents, also go to molinahealthcare.com, choose 'Members', pick your state, and open 'Member Materials and Forms'.",
+        "Open your Member Handbook / Evidence of Coverage / SBC and download it.",
+        "Can't find it? Call Member Services and they'll mail a free paper copy."
+      ],
+      "member_phone": "Use the Member Services number on the back of your ID card (varies by state/program)",
+      "notes": "Heavily Medicaid/Marketplace; documents organized by state and program. Public policies: molinahealthcare.com/providers/common/Policies/MolinaClinicalPolicies.aspx."
+    },
+    "Florida Blue / GuideWell": {
+      "member_portal_url": "https://www.floridablue.com/members/individual/home",
+      "app_name": "Florida Blue app",
+      "find_plan_docs_steps": [
+        "Go to floridablue.com and click 'Log In' (first time: 'Register' with the member ID on your card).",
+        "Open 'My Plan' / 'Plan Documents' / 'Member Resources'.",
+        "No login needed for the SBC: use floridablue.com/sbc/search/byplan. For the full benefit booklet: floridablue.com/plancontracts/individual."
+      ],
+      "member_phone": "1-800-352-2583 (TTY 1-800-955-8770), or the number on your card",
+      "notes": "Public medical coverage guidelines at mcgs.bcbsfl.com."
+    },
+    "Medicare": {
+      "member_portal_url": "https://www.medicare.gov/account/",
+      "app_name": "Medicare.gov (web; no official Original Medicare app)",
+      "find_plan_docs_steps": [
+        "Go to medicare.gov and click 'Log in / Create account' (create one with the Medicare Number on your red-white-and-blue card).",
+        "View your Part A & B coverage, claims, and card.",
+        "To check if a service is covered, use medicare.gov/coverage ('Is my test, item, or service covered?').",
+        "Your Medicare Summary Notice (MSN) is mailed every 3 months and viewable in your account."
+      ],
+      "member_phone": "1-800-MEDICARE (1-800-633-4227), TTY 1-877-486-2048",
+      "notes": "Detailed provider rules (NCDs/LCDs) at the Medicare Coverage Database on cms.gov. Medicare Advantage/Part D documents come from the private plan, not Medicare.gov."
+    }
+  }
+}

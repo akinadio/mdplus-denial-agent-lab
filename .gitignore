@@ -23,6 +23,12 @@ data/policy_platform/*
 # because collaborating agents clone the repo rather than this host.
 !data/policy_platform/seed_review_39_spec.json
 !data/policy_platform/answer_key_v1.json
+# Reach OrthoAppeals policy directory + member access instructions (backup data
+# that must ship in the repo, not real PHI).
+!data/policy_platform/procedure_policy_links.csv
+!data/policy_platform/procedure_policy_directory.json
+!data/policy_platform/insurer_access_instructions.json
+!data/policy_platform/README_policy_directory.md
 
 *.passphrase
 *.pem
