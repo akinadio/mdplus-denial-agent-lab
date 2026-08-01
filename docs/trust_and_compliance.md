@@ -43,7 +43,21 @@ Work toward safely accepting real patient information. Some of this is code
 - **BAA + HIPAA assessment.** Sign a Business Associate Agreement with the model
   and any subprocessors, and complete a HIPAA/privacy assessment, before PHI
   flows through. List covered vendors in the privacy notice.
-- **Retention/deletion automation.** Implement the retention period the notice
-  promises (scheduled purge/de-identification) and a self-serve or email deletion
-  path.
 - **Finalize the legal template** with counsel and fill the bracketed fields.
+
+## Retention & deletion (shipped)
+
+`synthetic_harness/retention.py` + `scripts/purge_expired.py` enforce the
+retention period the Privacy Notice promises:
+
+- **Scheduled sweep.** Set `MDPLUS_RETENTION_DAYS` to match the notice; the sweep
+  deletes episodes (directory + SQLite index rows) older than that. It is a dry
+  run by default and only deletes with `--apply`. `deploy/mdplus-purge.timer` +
+  `mdplus-purge.service` run it daily. Set the retention days to a real value
+  before launch (0 disables).
+- **Deletion requests.** `POST /api/admin/episodes/<id>/delete` (admin-gated)
+  purges a specific patient's episode on request. Wire this to whatever intake
+  you use for "delete my information" requests.
+
+Note: deletion is a hard delete of the episode's stored data. Keep backups
+separate and apply the same retention there.

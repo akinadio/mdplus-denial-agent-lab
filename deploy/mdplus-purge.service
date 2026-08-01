@@ -1,0 +1,11 @@
+[Unit]
+Description=MDplus OrthoAppeals retention sweep (delete expired episodes)
+
+[Service]
+Type=oneshot
+User=clawd
+Group=clawd
+WorkingDirectory=/home/clawd/mdplus-denial-agent-lab
+EnvironmentFile=/etc/mdplus/mdplus.env
+# Enforces MDPLUS_RETENTION_DAYS from the env file. Remove --apply to dry-run.
+ExecStart=/usr/bin/python3 scripts/purge_expired.py --apply

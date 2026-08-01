@@ -58,6 +58,7 @@ from .ratelimit import ApiGuards
 from .security import SecurityConfig, security_headers
 from . import store
 from . import encryption
+from . import retention
 from contextlib import contextmanager
 
 GUARDS = ApiGuards()
@@ -1106,6 +1107,18 @@ class Handler(SimpleHTTPRequestHandler):
                 data = json_body(self)
                 arm = data.get("arm", "web_only")
                 write_json(self, generate_and_store_appeal_letter(episode, arm))
+                return
+            if self.path.endswith("/delete") and "/api/admin/episodes/" in self.path:
+                # Deletion request: purge a specific episode (dir + index rows).
+                if not GUARDS.admin_ok(self):
+                    write_json(self, {"error": "forbidden"}, HTTPStatus.FORBIDDEN)
+                    return
+                episode_id = self.path.split("/")[4]
+                if not re.fullmatch(r"ep_[0-9a-f]{12}", episode_id):
+                    write_json(self, {"error": "bad episode id"}, HTTPStatus.BAD_REQUEST)
+                    return
+                existed = retention.delete_episode(EPISODES_ROOT, episode_id)
+                write_json(self, {"episode_id": episode_id, "deleted": existed})
                 return
             if self.path.endswith("/evaluate"):
                 if not GUARDS.admin_ok(self):

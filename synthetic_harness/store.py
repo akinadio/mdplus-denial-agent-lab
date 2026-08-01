@@ -183,6 +183,21 @@ def upsert_episode(
         pass
 
 
+def delete_episode(episode_id: str) -> None:
+    """Remove an episode's index + run rows (called when its data is purged)."""
+    try:
+        with _LOCK:
+            con = _connect()
+            try:
+                con.execute("DELETE FROM episodes WHERE episode_id = ?", (episode_id,))
+                con.execute("DELETE FROM runs WHERE episode_id = ?", (episode_id,))
+                con.commit()
+            finally:
+                con.close()
+    except sqlite3.Error:
+        pass
+
+
 def list_episodes(limit: int = 200) -> list[dict[str, Any]]:
     try:
         with _LOCK:
