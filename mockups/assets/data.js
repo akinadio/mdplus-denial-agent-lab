@@ -168,6 +168,33 @@ window.APPEAL = {
     "Medicaid",
   ],
 
+  // MEMBER ACCESS: how a patient finds/downloads their own plan documents online,
+  // per carrier (researched from each carrier's official site). The app fuzzy-
+  // matches the chosen insurer name to one of these and shows the steps; anything
+  // unmatched uses insurerAccessGeneric. Always also point to "the number on your
+  // card". Full source: data/policy_platform/insurer_access_instructions.json.
+  insurerAccess: {
+    unitedhealthcare: { portal: "member.uhc.com", phone: "1-866-414-1959, or the number on your card", steps: ["Go to member.uhc.com and Sign In (first time: Register with the member ID on your card).", "In the top menu click 'Coverage & Benefits'.", "Choose 'Coverage Documents' (or 'Plan Documents') and download your Summary of Benefits and Coverage (SBC)."] },
+    aetna: { portal: "aetna.com", phone: "1-800-872-3862, or the number on your card", steps: ["Go to aetna.com, click 'Log in' and choose 'Members' (first time: Register with your member ID).", "Open 'Coverage & Benefits' / 'Plan Documents'.", "Download your benefits summary / SBC. (No login for just the SBC: aetna.com/sbcsearch/home.)"] },
+    cigna: { portal: "my.cigna.com", phone: "1-800-244-6224, or the number on your card", steps: ["Go to my.cigna.com or open the myCigna app and log in.", "Open the 'Coverage' or 'Plan Documents' section.", "Download your Summary of Benefits and Coverage (SBC)."] },
+    anthem: { portal: "anthem.com", phone: "The number on the back of your ID card (TTY 711)", steps: ["Go to anthem.com and Log In, or open the Sydney Health app.", "Open the 'Benefits' section.", "Find 'Plan Documents' or your SBC and download it."] },
+    humana: { portal: "account.humana.com", phone: "800-457-4708 (Medicare), or the number on your card", steps: ["Go to account.humana.com or open the MyHumana app and sign in.", "Open 'Coverage & Benefits' / 'Plan Documents'.", "Or faster: plandocs.humana.com/medicare-plan-documents with your ID, date of birth, and ZIP."] },
+    centene: { portal: "ambetterhealth.com", phone: "The number on the back of your ID card", steps: ["Ambetter: go to ambetterhealth.com, pick your state, and Member Login.", "Open 'Coverage' and scroll to 'Plan Documents'.", "Download your SBC or Evidence of Coverage. (WellCare/Medicare: member.wellcare.com.)"] },
+    hcsc: { portal: "your state's BCBS site", phone: "The Member Services number on your ID card", steps: ["Go to your state's Blue site (bcbsil.com, bcbstx.com, bcbsnm.com, bcbsok.com, bcbsmt.com) and Log In.", "Open 'My Coverage' / 'Benefits'.", "Choose 'Plan Documents' or 'Benefit Booklet' and download your SBC."] },
+    molina: { portal: "mymolina.com", phone: "The Member Services number on your ID card", steps: ["Go to mymolina.com and sign in (first time: Create an Account with your Member ID, date of birth, and ZIP).", "For full documents, go to molinahealthcare.com > Members > your state > 'Member Materials and Forms'.", "Download your Member Handbook / Evidence of Coverage / SBC."] },
+    floridablue: { portal: "floridablue.com", phone: "1-800-352-2583 (TTY 1-800-955-8770)", steps: ["Go to floridablue.com and Log In (first time: Register with your member ID).", "Open 'My Plan' / 'Plan Documents'.", "No login for the SBC: floridablue.com/sbc/search/byplan."] },
+    medicare: { portal: "medicare.gov", phone: "1-800-MEDICARE (1-800-633-4227), TTY 1-877-486-2048", steps: ["Go to medicare.gov and Log in / Create account (use the number on your red-white-and-blue card).", "See your Part A & B coverage, claims, and card.", "To check if a service is covered, use medicare.gov/coverage."] },
+  },
+  insurerAccessGeneric: {
+    phone: "The number on the back of your insurance card",
+    steps: [
+      "Log in to your insurer's member website or app (the address is on the back of your card).",
+      "Look for 'Plan Documents', 'Coverage & Benefits', or 'My Plan'.",
+      "Open your 'Summary of Benefits and Coverage (SBC)' and download the PDF.",
+      "Can't find it? Call the Member Services number on your card and ask them to send it.",
+    ],
+  },
+
   // CONSERVATIVE-CARE questions: the four things a patient may have tried
   // before surgery. Per the surgeon's clinical model, patients typically must
   // have tried at least 2 OF THESE 4: (1) activity modification, (2) anti-

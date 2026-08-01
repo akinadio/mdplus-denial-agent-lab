@@ -59,6 +59,7 @@ from .security import SecurityConfig, security_headers
 from . import store
 from . import encryption
 from . import retention
+from . import policy_cache
 from contextlib import contextmanager
 
 GUARDS = ApiGuards()
@@ -989,6 +990,11 @@ class Handler(SimpleHTTPRequestHandler):
                 # has no file access and no vision. Read it here first and pass
                 # the words along instead of the picture.
                 uploads = decode_attachments(data.pop("attachments", None))
+                # The patient's own policy upload (optional) + their consent to
+                # keep a de-identified copy for reuse. Held aside so the base64
+                # never bloats the stored submission.
+                policy_atts = data.pop("policy_attachments", None)
+                policy_consent = bool(data.pop("policy_consent", False))
                 reading = None
                 if uploads:
                     reading = transcribe(uploads)
@@ -1024,6 +1030,50 @@ class Handler(SimpleHTTPRequestHandler):
                             "elapsed_s": reading.get("elapsed_s"),
                             "cost_usd": reading.get("cost_usd"),
                         },
+                    )
+                # Patient-contributed policy document (optional). Save it with the
+                # episode (encrypted at rest), and — only with consent — offer it
+                # to the shared cache, which verifies + screens for PII before it
+                # can ever be reused for another patient.
+                if policy_atts:
+                    # The policy upload is optional; a malformed file must never
+                    # block the appeal itself.
+                    try:
+                        policy_uploads = decode_attachments(policy_atts)
+                    except Exception as exc:  # noqa: BLE001
+                        policy_uploads = []
+                        episode.log_event(
+                            role="orchestrator", arm="shared",
+                            event_type="policy_document_rejected", status="failed",
+                            summary=f"Could not read the uploaded policy file: {exc}",
+                        )
+                    if policy_uploads:
+                        save_uploads(policy_uploads, episode.root / "policy_uploads")
+                    contributed = 0
+                    for up in policy_uploads:
+                        entry = policy_cache.contribute(
+                            carrier=data.get("payer", "") or "unknown",
+                            cpt=data.get("cpt", "") or "",
+                            content=up["bytes"],
+                            consent=policy_consent,
+                            plan=data.get("plan_name") or None,
+                            procedure=data.get("procedure") or None,
+                            content_type=up.get("mime"),
+                            filename=up.get("safe_name"),
+                        )
+                        if entry:
+                            contributed += 1
+                    episode.log_event(
+                        role="orchestrator",
+                        arm="shared",
+                        event_type="policy_document_uploaded",
+                        status="succeeded",
+                        summary=(
+                            f"Patient uploaded {len(policy_uploads)} policy file(s); "
+                            f"{contributed} added to the shared cache "
+                            f"(consent={'yes' if policy_consent else 'no'})."
+                        ),
+                        details={"consent": policy_consent, "contributed": contributed},
                     )
                 requested = data.get("retrieval_mode", "both")
                 arms = (

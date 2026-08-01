@@ -131,6 +131,11 @@
   .consent { display: flex; gap: 12px; align-items: flex-start; margin: 4px 0 16px; padding: 14px 16px; border: 2px solid var(--line); border-radius: 14px; background: var(--card); font-size: 15px; line-height: 1.5; color: var(--ink-soft); }
   .consent input[type="checkbox"] { width: 24px; height: 24px; margin-top: 1px; flex: 0 0 auto; accent-color: var(--teal-deep); }
   .consent b { color: var(--ink); }
+  .pol-how { border: 2px solid var(--line); background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 0 0 16px; }
+  .pol-how h3 { font-size: 16px; margin: 0 0 8px; }
+  .pol-how ol { margin: 0 0 8px; padding-left: 20px; }
+  .pol-how li { font-size: 15.5px; line-height: 1.5; margin-bottom: 6px; }
+  .pol-phone { font-size: 14.5px; color: var(--ink-soft); margin: 4px 0 0; }
 
   /* appeal letter */
   .letter-cta { border: 2px solid var(--teal); background: var(--teal-tint); border-radius: 14px; padding: 16px 18px; margin: 0 0 6px; }
@@ -205,13 +210,14 @@
     // temporal-dead-zone error, since reqList() reads A.bodyPart.
     let flow = [];
     function buildFlow() {
-      flow = ['surgery', 'state', 'insurer', 'letter', ...reqList().map(r => r.id), 'summary'];
+      flow = ['surgery', 'state', 'insurer', 'letter', 'policy', ...reqList().map(r => r.id), 'summary'];
     }
     const stepName = key => {
       if (key === 'surgery') return 'Your surgery';
       if (key === 'state') return 'Your state';
       if (key === 'insurer') return 'Your insurance';
       if (key === 'letter') return 'Denial letter';
+      if (key === 'policy') return 'Your policy';
       if (key === 'summary') return 'Your appeal packet';
       const r = reqById(key);
       return r ? r.title : key;
@@ -219,7 +225,7 @@
 
     let started = false, i = 0;
     // catId = chosen category, bodyPart drives imaging + insurer/state gating.
-    const A = { catId: '', surgery: '', cpt: '', bodyPart: '', state: '', insurer: '', letter: '', letterFiles: [], letterName: '', req: {} }; // starts EMPTY
+    const A = { catId: '', surgery: '', cpt: '', bodyPart: '', state: '', insurer: '', letter: '', letterFiles: [], letterName: '', policyFiles: [], policyName: '', policyConsent: false, req: {} }; // starts EMPTY
     buildFlow(); // now safe: A exists
 
     // The imaging steps (and therefore flow length + the rail) change with the
@@ -346,6 +352,7 @@
       if (key === 'state') return drawState();
       if (key === 'insurer') return drawInsurer();
       if (key === 'letter') return drawLetter();
+      if (key === 'policy') return drawPolicy();
       if (key === 'summary') return drawSummary();
       drawReq(reqById(key));
     }
@@ -486,6 +493,74 @@
       };
       document.getElementById('lt-yes').onclick = () => { A.letter = document.getElementById('lt').value.trim(); next(); };
       document.getElementById('lt-no').onclick = () => { A.letter = ''; A.letterFiles = []; A.letterName = ''; next(); };
+    }
+
+    // Map the chosen insurer name to its member-access instructions (fuzzy).
+    function accessFor(name) {
+      const acc = D.insurerAccess || {};
+      const n = (name || '').toLowerCase();
+      const has = (...w) => w.some(x => n.includes(x));
+      if (has('unitedhealth', 'uhc')) return acc.unitedhealthcare;
+      if (has('aetna')) return acc.aetna;
+      if (has('cigna')) return acc.cigna;
+      if (has('anthem', 'elevance')) return acc.anthem;
+      if (has('humana')) return acc.humana;
+      if (has('ambetter', 'centene', 'wellcare')) return acc.centene;
+      if (has('molina')) return acc.molina;
+      if (has('florida blue', 'guidewell')) return acc.floridablue;
+      if (has('medicare')) return acc.medicare;
+      // HCSC / any Blue Cross Blue Shield plan → the state-Blue instructions.
+      if (has('blue cross', 'bcbs', 'blue shield', 'hcsc')) return acc.hcsc;
+      return null;
+    }
+
+    // Optional: show the patient where THEIR policy lives, and let them upload it.
+    // Uploading is never required. With brief consent, a de-identified copy helps
+    // the next patient on the same plan (verified before any reuse; flagged stale
+    // after ~90 days). Live retrieval still runs regardless.
+    function drawPolicy() {
+      const acc = accessFor(A.insurer) || D.insurerAccessGeneric;
+      const chosen = A.policyFiles && A.policyFiles.length;
+      const named = A.insurer || 'your insurer';
+      panel(`
+        <h2>Can you get a copy of your policy?</h2>
+        <p class="help">This is optional and you can skip it. Your denial letter is the important part — but if you can grab your plan's coverage document, it makes your appeal even stronger.</p>
+        <div class="pol-how">
+          <h3>How to find it with ${esc(named)}</h3>
+          <ol>${acc.steps.map(s => `<li>${rich(s)}</li>`).join('')}</ol>
+          <p class="pol-phone">Prefer to call? ${rich(acc.phone)}</p>
+        </div>
+        <div class="answers">
+          <label class="letter-up${chosen ? ' chosen' : ''}" id="pol-drop">
+            <input type="file" id="pol-file" accept="image/*,application/pdf" ${IS_PHONE ? 'capture="environment"' : ''} multiple />
+            <span class="up-ic">${chosen ? '✓' : '📄'}</span>
+            <span class="up-head" id="pol-head">${chosen ? 'Policy attached' : 'Upload your policy (optional)'}</span>
+            <p class="up-sub" id="pol-sub">${chosen ? esc(A.policyName) : 'A PDF or photo of your Summary of Benefits, coverage policy, or plan booklet'}</p>
+          </label>
+          <label class="consent" for="pol-consent" id="pol-consent-wrap" style="${chosen ? '' : 'display:none'}">
+            <input type="checkbox" id="pol-consent" ${A.policyConsent ? 'checked' : ''}>
+            <span>You can let us keep a <b>de-identified</b> copy to help other patients on the same plan. We never store your name or member ID, and we double-check any shared document before it's used. See our <a href="../legal.html" target="_blank" rel="noopener">Privacy Notice</a>.</span>
+          </label>
+          <button class="btn btn-primary btn-lg" id="pol-yes">Continue →</button>
+          <button class="letter-skip" id="pol-no">I don't have my policy — skip for now</button>
+        </div>`);
+
+      const drop = document.getElementById('pol-drop');
+      const consentWrap = document.getElementById('pol-consent-wrap');
+      document.getElementById('pol-file').onchange = e => {
+        const files = Array.from(e.target.files || []);
+        A.policyFiles = files;
+        A.policyName = files.length === 1 ? files[0].name : (files.length ? files.length + ' files attached' : '');
+        drop.classList.toggle('chosen', !!files.length);
+        document.getElementById('pol-head').textContent = files.length ? 'Policy attached' : 'Upload your policy (optional)';
+        drop.querySelector('.up-ic').textContent = files.length ? '✓' : '📄';
+        document.getElementById('pol-sub').textContent = files.length ? A.policyName : 'A PDF or photo of your Summary of Benefits, coverage policy, or plan booklet';
+        consentWrap.style.display = files.length ? '' : 'none';
+      };
+      const cb = document.getElementById('pol-consent');
+      if (cb) cb.onchange = () => { A.policyConsent = cb.checked; };
+      document.getElementById('pol-yes').onclick = () => next();
+      document.getElementById('pol-no').onclick = () => { A.policyFiles = []; A.policyName = ''; A.policyConsent = false; next(); };
     }
 
     // How many of the four conservative-care questions the patient has said "yes"
@@ -784,10 +859,9 @@
       return { name: file.name, mime: 'image/jpeg', data: c.toDataURL('image/jpeg', 0.85).split(',')[1] };
     }
 
-    async function letterAttachments() {
-      const files = (A.letterFiles || []).slice(0, MAX_PAGES);
+    async function filesToAttachments(files) {
       const out = [];
-      for (const f of files) {
+      for (const f of (files || []).slice(0, MAX_PAGES)) {
         if ((f.type || '').startsWith('image/')) out.push(await shrinkImage(f));
         else if (f.type === 'application/pdf') {
           if (f.size > 12 * 1024 * 1024) throw new Error(f.name + ' is too large to send. Please attach a smaller file.');
@@ -796,11 +870,13 @@
       }
       return out;
     }
+    async function letterAttachments() { return filesToAttachments(A.letterFiles); }
 
     // The server reads any attached photo into text before the search starts, so
     // send the picture itself. Only describe the gap when there is no letter.
     async function submissionBody() {
       const attachments = await letterAttachments();
+      const policy_attachments = await filesToAttachments(A.policyFiles);
       const pasted = (A.letter || '').trim();
       const denial = pasted || (attachments.length ? '' : [
         'The patient did not paste the text of the denial letter.',
@@ -811,6 +887,8 @@
       return {
         denial_letter: denial,
         attachments: attachments,
+        policy_attachments: policy_attachments,
+        policy_consent: !!A.policyConsent,
         payer: A.insurer || '',
         plan_name: '',
         state: A.state || '',
@@ -1366,7 +1444,7 @@
       stopRun();
       RUN.id = null;
       A.catId=''; A.surgery=''; A.cpt=''; A.bodyPart=''; A.state=''; A.insurer='';
-      A.letter=''; A.letterFiles=[]; A.letterName=''; A.req={}; A.story='';
+      A.letter=''; A.letterFiles=[]; A.letterName=''; A.policyFiles=[]; A.policyName=''; A.policyConsent=false; A.req={}; A.story='';
       buildFlow(); showHero();
     }
 
