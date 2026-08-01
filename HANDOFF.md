@@ -82,11 +82,12 @@ See the table in `docs/sustainable_backend.md`. Key ones: `ANTHROPIC_API_KEY`,
 
 Tracked in the phase checklist. The near-term items:
 
-- **Database + object storage (confirmed needed).** Episode/run state is on the
-  local filesystem; runtime run-state is in-memory. This is required for running
-  multiple instances behind a load balancer and for durable spend/accounts. The
-  current single managed service + startup reconciliation survives restarts, so
-  this is the next scaling step, not a launch blocker — but it *is* on the plan.
+- **Database + object storage (in progress).** A SQLite state layer
+  (`store.py`) now holds durable spend + a run/episode index (see
+  `docs/sustainable_backend.md`). The remaining work is moving episode *content*
+  (results, logs, uploads) into a DB + object storage so several instances can
+  run behind a load balancer. The current single managed service already
+  survives restarts, so this is a scaling step, not a launch blocker.
 - **Trust/compliance (Phase 3):** TLS + encryption at rest, a BAA with the model
   provider, retention/deletion, terms/privacy/disclaimers, and replacing the
   placeholder per-state payer directory (`mockups/assets/data.js` says it "MUST

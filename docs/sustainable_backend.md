@@ -46,7 +46,29 @@ engines otherwise. Force it with `MDPLUS_AGENT_ENGINE=api`.
 | `MDPLUS_RATE_CREATE_PER_MIN` | `8` | Per-client cap on `POST /api/episodes` per minute (returns 429 over the limit). |
 | `MDPLUS_RATE_LETTER_PER_MIN` | `12` | Per-client cap on `POST .../appeal-letter` per minute. |
 | `MDPLUS_TRUST_PROXY` | `false` | When `true`, take the client IP from the first `X-Forwarded-For` hop (set this only behind a trusted reverse proxy). |
-| `MDPLUS_ADMIN_TOKEN` | — | If set, operator endpoints (`/evaluate`, `/adjudicate`, `/api/metrics`) require header `X-Admin-Token: <value>`. If unset, they stay open (current behavior). |
+| `MDPLUS_ADMIN_TOKEN` | — | If set, operator endpoints (`/evaluate`, `/adjudicate`, `/api/metrics`, `/api/admin/episodes`) require header `X-Admin-Token: <value>`. If unset, they stay open (current behavior). |
+| `MDPLUS_DB_PATH` | `outputs/state.sqlite3` | SQLite file holding durable spend, the run index, and the episode index. |
+
+## Durable state (SQLite)
+
+`synthetic_harness/store.py` is the first, additive slice of the "move state to a
+database" migration. It holds the small operational state that previously lived
+only in memory:
+
+- **Durable daily spend.** The budget guard now reads/writes the day's spend
+  through SQLite, so a restart no longer silently resets the budget. Spend is
+  tracked in-process *and* persisted, and the two are reconciled by taking the
+  max, so neither a DB hiccup nor a fresh process can drop spend and let the cap
+  be overrun.
+- **Run index.** Arm status changes are mirrored to a `runs` table; startup
+  reconciliation flips any stale `running` rows to `interrupted`.
+- **Episode index.** Each created episode is indexed (id, payer, procedure,
+  state) and listable via the admin-gated `GET /api/admin/episodes`.
+
+The filesystem remains the source of truth for episode *content* (results, logs,
+uploads). Moving that content into a database + object storage — the part needed
+to run several instances behind a load balancer — is the remaining migration
+work; this slice is the foundation and closes the restart-durability gap.
 
 ## Abuse protection
 

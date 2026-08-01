@@ -55,6 +55,7 @@ from .reliability import (
     reconcile_interrupted_runs,
 )
 from .ratelimit import ApiGuards
+from . import store
 from contextlib import contextmanager
 
 GUARDS = ApiGuards()
@@ -120,23 +121,43 @@ def _spend_day() -> str:
     return utc_now()[:10]
 
 
+def _sync_spend_cache(day: str) -> float:
+    """Reconcile the in-memory spend cache with the durable store for `day`.
+
+    Spend is tracked in-process AND persisted to SQLite so the budget survives a
+    restart. We take the max of the two so neither a DB hiccup (loses the
+    persisted value) nor a fresh process (loses the in-memory value) can silently
+    drop spend and let the budget be overrun.
+    """
+    db_total = store.get_spend(day)
+    with _SPEND_LOCK:
+        if _SPEND["day"] != day:
+            _SPEND["day"] = day
+            _SPEND["usd"] = 0.0
+        if db_total > _SPEND["usd"]:
+            _SPEND["usd"] = db_total
+        return _SPEND["usd"]
+
+
 def budget_exceeded() -> bool:
     """True when a daily budget is configured and already spent."""
+    usd = _sync_spend_cache(_spend_day())
     if DAILY_BUDGET_USD <= 0:
         return False
-    with _SPEND_LOCK:
-        if _SPEND["day"] != _spend_day():
-            _SPEND["day"] = _spend_day()
-            _SPEND["usd"] = 0.0
-        return _SPEND["usd"] >= DAILY_BUDGET_USD
+    return usd >= DAILY_BUDGET_USD
 
 
 def record_spend(usd: float) -> None:
+    amount = max(0.0, float(usd or 0.0))
+    day = _spend_day()
+    db_total = store.add_spend(day, amount)  # durable; best-effort
     with _SPEND_LOCK:
-        if _SPEND["day"] != _spend_day():
-            _SPEND["day"] = _spend_day()
+        if _SPEND["day"] != day:
+            _SPEND["day"] = day
             _SPEND["usd"] = 0.0
-        _SPEND["usd"] += max(0.0, float(usd or 0.0))
+        _SPEND["usd"] += amount
+        if db_total > _SPEND["usd"]:
+            _SPEND["usd"] = db_total
 
 
 def server_build_id() -> str:
@@ -281,6 +302,12 @@ def create_direct_episode(data: dict[str, Any]) -> Episode:
         summary="Recorded operator-entered synthetic patient data through the internal UI.",
         details={"message_id": response["message_id"]},
     )
+    store.upsert_episode(
+        episode.episode_id,
+        payer=(data.get("payer") or "").strip() or None,
+        procedure=(data.get("procedure") or "").strip() or None,
+        state=(data.get("state") or "").strip() or None,
+    )
     return episode
 
 
@@ -344,6 +371,7 @@ def launch_prepared_arm(
             "run_directory": str(arm_dir.relative_to(episode.root)),
         },
     )
+    store.upsert_run(episode.episode_id, arm, "running", arm_data.get("revision", 0))
     episode.log_event(
         role="orchestrator",
         arm=arm,
@@ -443,6 +471,10 @@ def launch_prepared_arm(
             )
         with RUNS_LOCK:
             RUNS[episode.episode_id][arm] = outcome
+        store.upsert_run(
+            episode.episode_id, arm, outcome.get("status", "unknown"),
+            arm_data.get("revision", 0),
+        )
         write_json_atomic(
             episode.root / "system" / arm / "runtime_status.json",
             {
@@ -1159,6 +1191,7 @@ class Handler(SimpleHTTPRequestHandler):
                 write_json(self, {"error": str(exc)}, HTTPStatus.NOT_FOUND)
             return
         if self.path == "/api/health":
+            paused = budget_exceeded()  # also refreshes the spend cache from the store
             with _SPEND_LOCK:
                 spend = dict(_SPEND)
             write_json(
@@ -1173,7 +1206,7 @@ class Handler(SimpleHTTPRequestHandler):
                     active_arms=active_arm_count(),
                     spend=spend,
                     daily_budget_usd=DAILY_BUDGET_USD,
-                    budget_paused=budget_exceeded(),
+                    budget_paused=paused,
                 ),
             )
             return
@@ -1182,6 +1215,12 @@ class Handler(SimpleHTTPRequestHandler):
                 write_json(self, {"error": "forbidden"}, HTTPStatus.FORBIDDEN)
                 return
             write_json(self, build_metrics(EPISODES_ROOT))
+            return
+        if self.path.split("?")[0] == "/api/admin/episodes":
+            if not GUARDS.admin_ok(self):
+                write_json(self, {"error": "forbidden"}, HTTPStatus.FORBIDDEN)
+                return
+            write_json(self, {"episodes": store.list_episodes()})
             return
         super().do_GET()
 
@@ -1198,10 +1237,13 @@ def main() -> None:
         raise SystemExit("UI build missing. Run: cd ui && npm install && npm run build")
     EPISODES_ROOT.mkdir(parents=True, exist_ok=True)
     configure_logging()
+    store.init()
+    _sync_spend_cache(_spend_day())  # load today's durable spend into the cache
     # Crash recovery: a run thread cannot survive a restart, so any arm still
     # marked "running" on disk is stale. Flip it to "interrupted" so the UI and
     # the retry guard don't wait on a run that will never finish.
-    reconcile_interrupted_runs(EPISODES_ROOT)
+    for row in reconcile_interrupted_runs(EPISODES_ROOT):
+        store.upsert_run(row["episode_id"], row["arm"], "interrupted")
     server = ThreadingHTTPServer((args.host, args.port), Handler)
     print(f"Denial Simulation Lab: http://{args.host}:{args.port} (engine: {engine_name()})")
     server.serve_forever()
