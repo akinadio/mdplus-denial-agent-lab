@@ -145,11 +145,27 @@ window.APPEAL = {
     "Iowa": ["Wellmark BCBS", "UnitedHealthcare", "Aetna"],
   },
 
-  // Generic set shown for any state we don't have curated data for. A free-text
-  // "My plan isn't listed" fallback is ALWAYS offered on top of these.
+  // Generic set shown for any state we don't have curated per-state data for. A
+  // free-text "My plan isn't listed" fallback is ALWAYS offered on top of these.
+  // Ordered by national covered lives (largest first) so the most likely payer
+  // is near the top; together these cover the great majority of insured
+  // Americans. Source: the payer covered-lives table in the internal benchmark
+  // workbook (UnitedHealthcare 49.3M, Elevance/Anthem 45.7M, Centene 28.6M,
+  // Aetna 27.1M, Cigna 19.1M, HCSC 18M, Humana 16.3M, plus Kaiser, Molina).
+  // NOTE: still a national fallback, not an authoritative per-state directory —
+  // a real per-state payer-availability dataset is still needed for that.
   insurersGeneric: [
-    "Aetna", "Anthem Blue Cross Blue Shield", "Cigna", "Humana",
-    "Kaiser Permanente", "Medicare", "Medicaid", "UnitedHealthcare",
+    "UnitedHealthcare",
+    "Anthem Blue Cross Blue Shield",
+    "Blue Cross Blue Shield (other)",
+    "Aetna (CVS Health)",
+    "Cigna",
+    "Humana",
+    "Kaiser Permanente",
+    "Centene / Ambetter",
+    "Molina Healthcare",
+    "Medicare",
+    "Medicaid",
   ],
 
   // CONSERVATIVE-CARE questions: the four things a patient may have tried
