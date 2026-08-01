@@ -88,10 +88,13 @@ Tracked in the phase checklist. The near-term items:
   (results, logs, uploads) into a DB + object storage so several instances can
   run behind a load balancer. The current single managed service already
   survives restarts, so this is a scaling step, not a launch blocker.
-- **Trust/compliance (Phase 3):** TLS + encryption at rest, a BAA with the model
-  provider, retention/deletion, terms/privacy/disclaimers, and replacing the
-  placeholder per-state payer directory (`mockups/assets/data.js` says it "MUST
-  be replaced").
+- **Trust/compliance (Phase 3, in progress — `docs/trust_and_compliance.md`):**
+  Shipped: HTTP security headers + `no-store` on API responses, a consent gate at
+  intake, and a Privacy Notice & Terms template (`mockups/legal.html`).
+  Remaining: TLS in production, encryption at rest (needs a KMS decision), a BAA
+  with the model provider, retention/deletion automation, finalizing the legal
+  template with counsel, and replacing the placeholder per-state payer directory
+  (`mockups/assets/data.js` says it "MUST be replaced").
 - **Accounts + auth/rate-limiting (Phase 4):** the API has no auth or throttling
   yet.
 - **Finish the accuracy eval (Phase 6):** the cold calibration run (board task

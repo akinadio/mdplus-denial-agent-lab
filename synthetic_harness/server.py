@@ -55,10 +55,12 @@ from .reliability import (
     reconcile_interrupted_runs,
 )
 from .ratelimit import ApiGuards
+from .security import SecurityConfig, security_headers
 from . import store
 from contextlib import contextmanager
 
 GUARDS = ApiGuards()
+SECURITY = SecurityConfig()
 
 WORKSPACE = Path(__file__).resolve().parents[1]
 EPISODES_ROOT = Path(
@@ -947,6 +949,16 @@ def episode_snapshot(episode: Episode) -> dict[str, Any]:
 
 
 class Handler(SimpleHTTPRequestHandler):
+    def end_headers(self) -> None:
+        # Blanket security headers on every response (API, static, patient app).
+        try:
+            path = urlparse(self.path).path
+            for name, value in security_headers(SECURITY, self, path):
+                self.send_header(name, value)
+        except Exception:  # noqa: BLE001 - headers must never break a response
+            pass
+        super().end_headers()
+
     def translate_path(self, path: str) -> str:
         parsed = urlparse(path).path
         # The patient-facing site is served here so it shares an origin with the

@@ -124,6 +124,10 @@
   .caveat p { font-size: 16px; line-height: 1.55; margin: 0; }
   .rowbtns { display: grid; gap: 11px; margin-top: 14px; }
   .btn-sm { font-size: 17px; padding: 15px 20px; min-height: 56px; width: 100%; }
+  .btn:disabled, .btn[aria-disabled="true"] { opacity: .5; cursor: not-allowed; }
+  .consent { display: flex; gap: 12px; align-items: flex-start; margin: 4px 0 16px; padding: 14px 16px; border: 2px solid var(--line); border-radius: 14px; background: var(--card); font-size: 15px; line-height: 1.5; color: var(--ink-soft); }
+  .consent input[type="checkbox"] { width: 24px; height: 24px; margin-top: 1px; flex: 0 0 auto; accent-color: var(--teal-deep); }
+  .consent b { color: var(--ink); }
 
   /* appeal letter */
   .letter-cta { border: 2px solid var(--teal); background: var(--teal-tint); border-radius: 14px; padding: 16px 18px; margin: 0 0 6px; }
@@ -654,12 +658,24 @@
         ${have.length ? `<div class="sum">${have.map(r => item(r, 'have')).join('')}</div>` : ''}
         ${gather.length ? `<p class="help" style="margin-top:6px"><b>Next, gather these:</b></p><div class="sum">${gather.map(r => item(r, 'gather')).join('')}</div>` : ''}
         <div id="storywrap"></div>
+        <label class="consent" for="consent">
+          <input type="checkbox" id="consent">
+          <span>I understand this helps with my insurance paperwork and is <b>not medical or legal advice</b> and not a guarantee that my insurance will approve the surgery. I agree to the <a href="../legal.html" target="_blank" rel="noopener">Privacy Notice &amp; Terms</a>.</span>
+        </label>
         <div class="answers">
-          <button class="btn btn-primary btn-lg" id="build">Build my appeal packet for ${who}</button>
+          <button class="btn btn-primary btn-lg" id="build" disabled aria-disabled="true">Build my appeal packet for ${who}</button>
           <button class="btn btn-ghost btn-lg" id="restart">Start over</button>
         </div>`);
       drawStory();
-      document.getElementById('build').onclick = onBuild;
+      const buildBtn = document.getElementById('build');
+      const consent = document.getElementById('consent');
+      const syncConsent = () => {
+        buildBtn.disabled = !consent.checked;
+        buildBtn.setAttribute('aria-disabled', String(!consent.checked));
+      };
+      consent.onchange = syncConsent;
+      syncConsent();
+      buildBtn.onclick = () => { if (consent.checked) onBuild(); };
       document.getElementById('restart').onclick = resetAll;
     }
 
