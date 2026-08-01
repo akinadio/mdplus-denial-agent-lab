@@ -4,6 +4,9 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>OrthoAppeals: appeal a denied surgery</title>
+<meta name="description" content="Appeal a denied surgery — organize your insurance appeal, step by step." />
+<meta name="theme-color" content="#1f7d70" />
+<link rel="icon" href="icons/icon-192.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Public+Sans:wght@400;500;640;680&display=swap" rel="stylesheet" />
@@ -161,7 +164,7 @@
 </head>
 <body>
   <div class="brand">
-    <div class="mark">◆</div>
+    <div class="mark"><img src="icons/icon-192.png" alt="" width="40" height="40" style="border-radius:11px;display:block" /></div>
     <div class="name">Ortho<span>Appeals</span></div>
     <div class="tag">Free help appealing a denied surgery</div>
   </div>
@@ -858,8 +861,8 @@
     function previewPanel() {
       panel(`
         <div class="eyebrow">Preview only</div>
-        <h2>This copy cannot run your appeal</h2>
-        <p class="help">You are looking at the preview copy of the site, which has no agent behind it. The working version runs the search against your insurer's real policy. Ask Andrew for the working address.</p>
+        <h2>This preview isn't connected yet</h2>
+        <p class="help">You're viewing a preview of OrthoAppeals that isn't linked to the live service, so it can't run your appeal right now. Please open the live site to start your appeal.</p>
         <div class="answers"><button class="btn btn-ghost btn-lg" id="prev-back">← Go back</button></div>`);
       document.getElementById('prev-back').onclick = () => render();
     }

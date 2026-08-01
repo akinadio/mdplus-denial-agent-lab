@@ -25,10 +25,12 @@ import os
 DEFAULT_CSP = (
     "default-src 'self'; "
     "img-src 'self' data: blob:; "
-    "style-src 'self' 'unsafe-inline'; "
+    # The patient app loads its typeface from Google Fonts; allow just those two
+    # hosts. (Self-host the fonts to drop these and tighten the policy further.)
+    "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; "
+    "font-src 'self' data: https://fonts.gstatic.com; "
     "script-src 'self' 'unsafe-inline'; "
     "connect-src 'self'; "
-    "font-src 'self' data:; "
     "frame-ancestors 'self'; "
     "base-uri 'self'; "
     "form-action 'self'; "
