@@ -91,9 +91,12 @@ Tracked in the phase checklist. The near-term items:
 - **Trust/compliance (Phase 3, in progress — `docs/trust_and_compliance.md`):**
   Shipped: HTTP security headers + `no-store` on API responses, a consent gate at
   intake, and a Privacy Notice & Terms template (`mockups/legal.html`).
-  Remaining: TLS in production, encryption at rest (needs a KMS decision), a BAA
-  with the model provider, retention/deletion automation, finalizing the legal
-  template with counsel, and replacing the placeholder per-state payer directory
+  and envelope AES-256-GCM encryption at rest for uploaded letter files + OCR
+  text (`encryption.py`, opt-in via `MDPLUS_ENCRYPTION_KEY`, KMS-pluggable).
+  Remaining: TLS in production (guide in `docs/deploy.md`), volume encryption as
+  the baseline + field-level encryption for message bodies/DB, a BAA with the
+  model provider, retention/deletion automation, finalizing the legal template
+  with counsel, and replacing the placeholder per-state payer directory
   (`mockups/assets/data.js` says it "MUST be replaced").
 - **Accounts + auth/rate-limiting (Phase 4):** the API has no auth or throttling
   yet.

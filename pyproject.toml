@@ -16,6 +16,9 @@ dependencies = [
 # Lets the fetch tool decode brotli/zstd-compressed payer pages instead of
 # recording them as blocked (see scripts/policy_eval/webtools.py).
 fetch = ["brotli", "zstandard"]
+# Envelope encryption of PHI at rest (synthetic_harness/encryption.py). Only
+# needed when MDPLUS_ENCRYPTION_KEY is configured.
+crypto = ["cryptography>=42"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

@@ -57,6 +57,7 @@ from .reliability import (
 from .ratelimit import ApiGuards
 from .security import SecurityConfig, security_headers
 from . import store
+from . import encryption
 from contextlib import contextmanager
 
 GUARDS = ApiGuards()
@@ -997,7 +998,16 @@ class Handler(SimpleHTTPRequestHandler):
                 if uploads:
                     folder = episode.root / "patient_uploads"
                     save_uploads(uploads, folder)
-                    write_json_atomic(folder / "read_receipt.json", reading)
+                    # The OCR receipt holds the transcribed denial-letter text
+                    # (PHI); seal it at rest when a key is configured.
+                    folder.mkdir(parents=True, exist_ok=True)
+                    receipt_bytes, encrypted = encryption.maybe_encrypt(
+                        json.dumps(reading, ensure_ascii=False).encode("utf-8")
+                    )
+                    if encrypted:
+                        (folder / "read_receipt.json.enc").write_bytes(receipt_bytes)
+                    else:
+                        write_json_atomic(folder / "read_receipt.json", reading)
                     episode.log_event(
                         role="orchestrator",
                         arm="shared",

@@ -26,14 +26,20 @@ Work toward safely accepting real patient information. Some of this is code
 
 ## Remaining (before real patients)
 
-- **TLS in production.** Terminate HTTPS at a reverse proxy (or the platform) and
-  set `MDPLUS_TRUST_PROXY=true` so HSTS is sent and forwarded client IPs are
+- **TLS in production.** Terminate HTTPS at a reverse proxy (see `docs/deploy.md`)
+  and set `MDPLUS_TRUST_PROXY=true` so HSTS is sent and forwarded client IPs are
   honored. The app should not be reachable over plain HTTP once live.
-- **Encryption at rest.** Patient uploads and submission text are currently
-  written to disk with `0600` perms but not encrypted. Add envelope encryption
-  for the episode store (and the SQLite state) with a key from a managed KMS /
-  secret store. This needs a key-management decision (KMS vs. sealed secret vs.
-  disk-level encryption) — deliberately not bolted on here.
+- **Encryption at rest — extend it.** Envelope AES-256-GCM encryption
+  (`synthetic_harness/encryption.py`) now seals the most sensitive artifacts —
+  uploaded denial-letter files and the OCR'd letter text — when a key is
+  configured (`MDPLUS_ENCRYPTION_KEY`). The design is envelope-based so the
+  master key can move to a managed KMS later with no data migration. Two things
+  remain: (1) turn on **volume/disk encryption** at the host as the baseline that
+  covers everything at rest (the DB, message envelopes, results, logs) with no
+  code, and (2) extend field-level encryption to the episode message bodies and
+  the SQLite state (the follow-on). Recommended stance: volume encryption now +
+  the app-level sealing already shipped, then KMS + field-level encryption as a
+  BAA/audit requires.
 - **BAA + HIPAA assessment.** Sign a Business Associate Agreement with the model
   and any subprocessors, and complete a HIPAA/privacy assessment, before PHI
   flows through. List covered vendors in the privacy notice.

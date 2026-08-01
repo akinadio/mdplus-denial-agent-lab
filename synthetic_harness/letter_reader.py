@@ -210,10 +210,19 @@ def transcribe(files: list[dict[str, Any]]) -> dict[str, Any]:
 
 
 def save_uploads(files: list[dict[str, Any]], dest: Path) -> list[str]:
-    """Keep the uploaded pages beside the episode so a reviewer can check them."""
+    """Keep the uploaded pages beside the episode so a reviewer can check them.
+
+    Uploaded denial-letter images/PDFs are raw PHI. When an encryption key is
+    configured they are sealed at rest (envelope AES-256-GCM) and stored with a
+    ``.enc`` suffix; otherwise they are written as-is.
+    """
+    from . import encryption
+
     dest.mkdir(parents=True, exist_ok=True)
     saved = []
     for item in files:
-        (dest / item["safe_name"]).write_bytes(item["bytes"])
-        saved.append(item["safe_name"])
+        data, encrypted = encryption.maybe_encrypt(item["bytes"])
+        name = item["safe_name"] + (".enc" if encrypted else "")
+        (dest / name).write_bytes(data)
+        saved.append(name)
     return saved
