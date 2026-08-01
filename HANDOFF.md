@@ -32,11 +32,16 @@ Three tranches of work address that:
 ### 3. Denial-reason-aware output + appeal letter (`docs/denial_reason_output.md`)
 - `synthetic_harness/appeal_letter.py` — `assess_letter()` decides what the
   denial reason calls for (draft a letter vs. gather records vs. meet criteria
-  vs. not appealable), and `generate_appeal_letter()` drafts a grounded,
-  doctor-friendly, payer-onus letter that never fabricates PHI.
-- Endpoints: `POST /api/episodes/<id>/appeal-letter`,
-  `GET /api/episodes/<id>/appeal-letter/<arm>`; the episode snapshot exposes a
-  per-arm `appeal` object.
+  vs. not appealable), and `generate_appeal_letter(..., sender=)` drafts a
+  grounded, doctor-friendly, payer-onus letter that never fabricates PHI, in two
+  voices: `provider` (the surgeon's office sends it) and `patient` (first-person
+  member appeal).
+- Endpoints: `POST /api/episodes/<id>/appeal-letter` (drafts both voices),
+  `GET /api/episodes/<id>/appeal-letter/<arm>?version=`; the episode snapshot
+  exposes a per-arm `appeal` object.
+- Frontend wired (`mockups/map/`): the results screen shows a button-triggered
+  "Draft my appeal letter" that renders both voices with copy + print, or the
+  "do this first" guidance when a letter is not the right step.
 
 ## Run it
 
@@ -77,9 +82,6 @@ See the table in `docs/sustainable_backend.md`. Key ones: `ANTHROPIC_API_KEY`,
 
 Tracked in the phase checklist. The near-term items:
 
-- **Wire the frontend to the new endpoints.** `mockups/map/` should call
-  `POST .../appeal-letter` and render/download the returned Markdown. Today the
-  results screen shows the action plan only.
 - **Database + object storage (confirmed needed).** Episode/run state is on the
   local filesystem; runtime run-state is in-memory. This is required for running
   multiple instances behind a load balancer and for durable spend/accounts. The

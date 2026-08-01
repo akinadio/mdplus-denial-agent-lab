@@ -107,6 +107,29 @@ class GenerateTests(unittest.TestCase):
         self.assertIn("at least 3 months of conservative therapy", sent)
         self.assertIn("CPB 0673", sent)
 
+    def test_patient_voice_uses_patient_system_prompt(self):
+        class FakeMessages:
+            def __init__(self):
+                self.calls = []
+
+            def create(self, **kwargs):
+                self.calls.append(kwargs)
+                return SimpleNamespace(
+                    content=[SimpleNamespace(type="text", text="I am appealing...")],
+                    usage=SimpleNamespace(input_tokens=10, output_tokens=10),
+                )
+
+        fake = SimpleNamespace(messages=FakeMessages())
+        out = appeal_letter.generate_appeal_letter(
+            _grounded_result(), client=fake, sender="patient"
+        )
+        self.assertEqual(out["sender"], "patient")
+        self.assertIn("first person", fake.messages.calls[0]["system"])
+
+    def test_unknown_sender_errors(self):
+        out = appeal_letter.generate_appeal_letter(_grounded_result(), sender="lawyer")
+        self.assertIn("error", out)
+
     def test_missing_key_without_client_errors(self):
         with patch.dict(os.environ, {}, clear=True):
             out = appeal_letter.generate_appeal_letter(_grounded_result())

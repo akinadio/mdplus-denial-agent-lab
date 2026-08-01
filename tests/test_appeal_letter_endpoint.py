@@ -26,21 +26,26 @@ class AppealLetterEndpointTests(unittest.TestCase):
     def tearDown(self):
         self._tmp.cleanup()
 
-    def test_recommended_letter_is_drafted_and_stored(self):
-        fake = {
-            "letter_markdown": "RE: Appeal\n\nYour plan's own policy states...",
-            "model": "test", "usage": {"input_tokens": 100, "output_tokens": 100},
-            "estimated_cost_usd": 0.02,
-        }
-        with patch.object(server, "generate_appeal_letter", return_value=fake), \
+    def test_recommended_letter_is_drafted_in_both_voices(self):
+        def fake(result, patient_submission=None, sender="provider"):
+            return {
+                "letter_markdown": f"RE: Appeal ({sender})\n\nThe plan's own policy states...",
+                "model": "test", "sender": sender,
+                "usage": {"input_tokens": 100, "output_tokens": 100},
+                "estimated_cost_usd": 0.02,
+            }
+
+        with patch.object(server, "generate_appeal_letter", side_effect=fake), \
              patch.object(server, "budget_exceeded", return_value=False):
             out = server.generate_and_store_appeal_letter(self.episode, "web_only")
         self.assertTrue(out["assessment"]["recommended"])
-        self.assertIn("letter", out)
-        stored = self.episode.root / "system" / "web_only" / "appeal_letter.md"
-        self.assertTrue(stored.exists())
-        self.assertIn("Your plan's own policy", stored.read_text())
-        self.assertTrue((self.episode.root / "system" / "web_only" / "appeal_letter_meta.json").exists())
+        self.assertIn("letters", out)
+        self.assertEqual(set(out["letters"]), {"provider", "patient"})
+        arm_dir = self.episode.root / "system" / "web_only"
+        for sender in ("provider", "patient"):
+            self.assertTrue((arm_dir / f"appeal_letter_{sender}.md").exists())
+            self.assertIn(sender, (arm_dir / f"appeal_letter_{sender}.md").read_text())
+            self.assertTrue((arm_dir / f"appeal_letter_{sender}_meta.json").exists())
 
     def test_not_recommended_skips_generation(self):
         blocked = _grounded_result(status="blocked")

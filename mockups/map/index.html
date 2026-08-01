@@ -125,10 +125,24 @@
   .rowbtns { display: grid; gap: 11px; margin-top: 14px; }
   .btn-sm { font-size: 17px; padding: 15px 20px; min-height: 56px; width: 100%; }
 
+  /* appeal letter */
+  .letter-cta { border: 2px solid var(--teal); background: var(--teal-tint); border-radius: 14px; padding: 16px 18px; margin: 0 0 6px; }
+  .letter-cta p { margin: 0; font-size: 16px; color: var(--ink-soft); }
+  .ltabs { display: flex; gap: 9px; flex-wrap: wrap; margin: 14px 0 12px; }
+  .lt { flex: 1 1 44%; border: 2px solid var(--line); background: var(--card); border-radius: 12px; padding: 12px 14px; font-family: var(--sans); font-size: 15.5px; font-weight: 640; color: var(--ink-soft); cursor: pointer; min-height: 52px; }
+  .lt.on { border-color: var(--teal-deep); color: var(--ink); background: var(--teal-tint); }
+  .letter { border: 2px solid var(--line); border-radius: 14px; background: var(--paper); padding: 22px; font-size: 16px; line-height: 1.62; }
+  .letter h4 { font-family: var(--serif); font-weight: 700; font-size: 18px; margin: 18px 0 6px; }
+  .letter h4:first-child { margin-top: 0; }
+  .letter p { margin: 0 0 13px; }
+  .letter p:last-child { margin-bottom: 0; }
+  .letter em { color: var(--ink-soft); }
+  .letter mark { background: var(--amber-tint); border-radius: 4px; padding: 0 3px; }
+
   @media print {
-    .brand .tag, .rail, .btn, .tick, .why, .prog { display: none !important; }
+    .brand .tag, .rail, .btn, .tick, .why, .prog, .ltabs, .letter-cta { display: none !important; }
     .acc .body, .tdetail, .whytext { display: block !important; }
-    .card, .task, .acc, .qa, .now, .caveat { break-inside: avoid; box-shadow: none; }
+    .card, .task, .acc, .qa, .now, .caveat, .letter { break-inside: avoid; box-shadow: none; }
   }
 
   @media (max-width: 760px) {
@@ -895,7 +909,7 @@
           : mins < 4 ? 'Reading the policy document your plan follows.'
           : 'Checking your answers against that policy.');
       }
-      if (status === 'completed' && arm.result) { stopRun(); packetPanel(arm.result); return; }
+      if (status === 'completed' && arm.result) { stopRun(); packetPanel(arm.result, arm.appeal); return; }
       if (status === 'failed') {
         stopRun();
         failPanel((arm.runtime && arm.runtime.error) || 'The search did not finish.');
@@ -1028,7 +1042,7 @@
       return out.join('\n');
     }
 
-    function packetPanel(res) {
+    function packetPanel(res, appeal) {
       const src = (res.retrieval && res.retrieval.selected_source) || {};
       const cites = (res.retrieval && res.retrieval.citations) || [];
       const cands = ((res.retrieval && res.retrieval.candidates) || []).filter(c => !c.selected);
@@ -1089,6 +1103,27 @@
         ? `<div class="caveat"><h3>Your deadline</h3><p>${rich(dl.value)}${dl.source ? ' Source: ' + esc(dl.source) + '.' : ''}${dl.verification_needed ? ' Please confirm this date on your own letter before you rely on it.' : ''}</p></div>`
         : `<div class="caveat"><h3>Find your deadline first</h3><p>Every plan sets its own time limit to appeal, and we could not confirm yours. When you get the denial letter, look for the date you must appeal by, and write it on your calendar. Ask for that date when you call the number on your card.</p></div>`;
 
+      // Denial-reason-aware: draft a letter only when that's the right next move;
+      // otherwise show what to do first.
+      const ap = (appeal && appeal.assessment) || null;
+      const KIND_HEAD = {
+        gather_first: 'First, confirm the exact rule',
+        meet_criteria: 'One step to finish first',
+        not_appealable: 'A letter may not be the right route here',
+        blocked: 'We could not confirm the rule yet'
+      };
+      const letterSection = !ap ? '' : ap.recommended ? `
+        <div class="sec" id="letter-sec">
+          <h3>Your appeal letter</h3>
+          <div class="letter-cta"><p>We can draft a ready-to-send appeal letter that quotes your plan's own rules back to them. You get two versions: one for your surgeon's office to send, and one you can send yourself.</p></div>
+          <div class="rowbtns"><button class="btn btn-primary btn-sm" id="letter-make">Draft my appeal letter</button></div>
+          <div id="letter-area"></div>
+        </div>` : `
+        <div class="sec" id="letter-sec">
+          <h3>${esc(KIND_HEAD[ap.kind] || 'Before an appeal letter')}</h3>
+          <p class="note">${rich(ap.reason || '')}</p>
+        </div>`;
+
       panel(`
         <div class="eyebrow">Your appeal plan</div>
         <h2>You can appeal this. Here is how.</h2>
@@ -1101,6 +1136,7 @@
               ${startBody ? `<p>${rich(startBody)}</p>` : ''}
             </div>` : ''}
           ${deadline}
+          ${letterSection}
           ${gaps.length ? `
             <div class="sec">
               <h3>The most likely problem</h3>
@@ -1222,7 +1258,89 @@
         window.print();
       };
       el('restart2').onclick = resetAll;
+
+      // ---- appeal letter ------------------------------------------------
+      if (ap && ap.recommended) {
+        const area = () => el('letter-area');
+        const LBL = { provider: "For my surgeon's office", patient: 'For me to send' };
+        const showError = msg => { const a = area(); if (a) a.innerHTML = `<div class="pkt warn"><p>${esc(msg)}</p></div>`; };
+        const renderLetters = letters => {
+          const versions = Object.keys(letters).filter(v => letters[v] && letters[v].markdown);
+          if (!versions.length) return showError('We could not draft the letter just now. Please try again.');
+          let cur = versions[0];
+          const draw = () => {
+            const md = letters[cur].markdown;
+            area().innerHTML =
+              (versions.length > 1 ? `<div class="ltabs">${versions.map(v => `<button class="lt${v === cur ? ' on' : ''}" data-lv="${v}">${LBL[v] || v}</button>`).join('')}</div>` : '') +
+              `<div class="letter">${renderLetter(md)}</div>` +
+              `<div class="rowbtns"><button class="btn btn-primary btn-sm" id="letter-copy">Copy this letter</button><button class="btn btn-ghost btn-sm" id="letter-print">Print or save as PDF</button></div>`;
+            area().querySelectorAll('[data-lv]').forEach(b => b.onclick = () => { cur = b.dataset.lv; draw(); });
+            el('letter-copy').onclick = ev => copyOut(letterPlain(md), ev.currentTarget);
+            el('letter-print').onclick = () => printLetter(renderLetter(md), 'Appeal letter for ' + (A.surgery || 'my surgery'));
+          };
+          draw();
+          const mk = el('letter-make'); if (mk) mk.style.display = 'none';
+        };
+        const mk = el('letter-make');
+        if (mk) mk.onclick = async ev => {
+          const btn = ev.currentTarget, was = btn.textContent;
+          btn.disabled = true; btn.textContent = 'Writing your letter… this takes a moment';
+          try {
+            const j = await fetch(API + '/episodes/' + res.episode_id + '/appeal-letter', {
+              method: 'POST', headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ arm: 'web_only' })
+            }).then(r => r.json());
+            if (j.letters) renderLetters(j.letters);
+            else { showError((j.errors && Object.values(j.errors)[0]) || j.error || 'We could not draft the letter just now. Please try again.'); btn.disabled = false; btn.textContent = was; }
+          } catch (e) { showError(e.message || 'Something went wrong. Please try again.'); btn.disabled = false; btn.textContent = was; }
+        };
+        // Already drafted on a previous visit? Load them back.
+        const have = appeal.letters_available || [];
+        if (have.length) {
+          Promise.all(have.map(v => fetch(API + '/episodes/' + res.episode_id + '/appeal-letter/web_only?version=' + v, { cache: 'no-store' })
+            .then(r => r.json()).catch(() => null)))
+            .then(list => {
+              const letters = {};
+              (list || []).forEach(x => { if (x && x.markdown) letters[x.version] = { markdown: x.markdown }; });
+              if (Object.keys(letters).length) renderLetters(letters);
+            });
+        }
+      }
       refreshProgress();
+    }
+
+    // ---- letter rendering helpers ---------------------------------------
+    function inlineMd(s) {
+      let t = esc(s);
+      t = t.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+           .replace(/(^|[^\w*])\*([^*\n]+)\*(?!\w)/g, '$1<em>$2</em>')
+           .replace(/\[([^\]\n]+)\]/g, '<mark>[$1]</mark>')
+           .replace(MAIL_RE, m => `<a href="mailto:${m}">${m}</a>`);
+      return t;
+    }
+    function renderLetter(md) {
+      const blocks = String(md == null ? '' : md).replace(/\r/g, '').trim().split(/\n{2,}/);
+      return blocks.map(b => {
+        const h = b.match(/^#{1,6}\s+([\s\S]+)$/);
+        if (h) return '<h4>' + inlineMd(h[1].trim()) + '</h4>';
+        return '<p>' + inlineMd(b).replace(/\n/g, '<br>') + '</p>';
+      }).join('');
+    }
+    function letterPlain(md) {
+      return String(md == null ? '' : md)
+        .replace(/^#{1,6}\s+/gm, '')
+        .replace(/\*\*([^*]+)\*\*/g, '$1')
+        .replace(/(^|[^\w*])\*([^*\n]+)\*(?!\w)/g, '$1$2')
+        .trim();
+    }
+    function printLetter(html, title) {
+      const w = window.open('', '_blank');
+      if (!w) { window.print(); return; }
+      w.document.write('<!doctype html><html><head><meta charset="utf-8"><title>' + esc(title) +
+        '</title><style>body{font-family:Georgia,\'Times New Roman\',serif;line-height:1.6;max-width:680px;margin:40px auto;padding:0 24px;color:#1a1a1a}h4{font-size:18px;margin:18px 0 6px}p{margin:0 0 13px}mark{background:#fdf1d6;padding:0 3px}em{color:#555}</style></head><body>' +
+        html + '</body></html>');
+      w.document.close(); w.focus();
+      setTimeout(() => { try { w.print(); } catch (e) {} }, 300);
     }
 
     function resetAll() {

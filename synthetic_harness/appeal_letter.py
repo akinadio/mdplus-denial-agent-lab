@@ -107,29 +107,48 @@ def assess_letter(result: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-LETTER_SYSTEM_PROMPT = (
-    "You draft health-insurance appeal letters for a surgeon's office to send to "
-    "a payer. Write the letter that the ordering physician's office would sign. "
+# Shared across both voices: grounding, framing, and format rules.
+_LETTER_COMMON = (
     "\n\nVOICE: simple and clear enough for a patient to read, warm, and firmly "
     "on the side of the patient and their doctor. Frame the denial as the "
     "insurer's own decision, and show it is contradicted by the insurer's OWN "
-    "published criteria: 'your plan's policy states X; the enclosed records "
-    "establish X.' Put the responsibility on the payer, not the patient or the "
-    "physician -- but do it through calm, factual, professional framing. Do NOT "
-    "use sarcasm, outrage, or explicitly accusatory language, and never promise "
-    "or guarantee that coverage will be approved. "
+    "published criteria: 'the plan's policy states X; the records establish X.' "
+    "Put the responsibility on the payer, not the patient or the physician -- "
+    "but do it through calm, factual, professional framing. Do NOT use sarcasm, "
+    "outrage, or explicitly accusatory language, and never promise or guarantee "
+    "that coverage will be approved. "
     "\n\nGROUNDING: cite only the policy language provided to you. Do not invent "
     "policy criteria, statutes, deadlines, or facts. Where a patient- or "
     "chart-specific detail is needed (member ID, date of service, provider "
     "name, specific clinical findings), insert a clearly-marked placeholder in "
-    "square brackets for the office to complete -- never fabricate it. "
+    "square brackets to be completed -- never fabricate it. "
     "\n\nFORMAT: return the letter as Markdown. Include a subject/RE line "
     "referencing the denial, a short opening stating the request for "
     "reconsideration, a body that quotes the plan's own criteria and maps each "
-    "to the enclosed evidence, a closing request, and a placeholder signature "
-    "block. End with a one-line italic note that this letter is not medical or "
-    "legal advice and does not guarantee coverage."
+    "to the evidence, a closing request, and a placeholder signature block. End "
+    "with a one-line italic note that this letter is not medical or legal advice "
+    "and does not guarantee coverage."
 )
+
+SENDER_SYSTEM_PROMPTS = {
+    "provider": (
+        "You draft health-insurance appeal letters for a surgeon's office to "
+        "send to a payer. Write the letter the ordering physician's office would "
+        "sign, in the third person about the patient (the physician is the "
+        "author, requesting reconsideration on the patient's behalf)."
+        + _LETTER_COMMON
+    ),
+    "patient": (
+        "You draft health-insurance appeal letters for the patient (the plan "
+        "member) to send to their payer themselves. Write in the first person "
+        "from the patient's point of view ('I am appealing the denial of...'), "
+        "in plain language, noting that their surgeon has documented that the "
+        "procedure is needed. It is a member appeal, not a physician letter."
+        + _LETTER_COMMON
+    ),
+}
+# Backwards-compatible alias.
+LETTER_SYSTEM_PROMPT = SENDER_SYSTEM_PROMPTS["provider"]
 
 
 def _letter_context(result: dict[str, Any], patient_submission: str | None) -> str:
@@ -194,21 +213,30 @@ def generate_appeal_letter(
     timeout: int = 300,
     client: Any = None,
     max_tokens: int = 4000,
+    sender: str = "provider",
 ) -> dict[str, Any]:
-    """Draft the appeal letter. Returns letter Markdown plus usage/cost meta.
+    """Draft one appeal letter in the requested voice.
 
+    `sender` is "provider" (physician's office to the payer) or "patient" (a
+    first-person member appeal). Returns letter Markdown plus usage/cost meta.
     `client` may be injected for testing; otherwise an Anthropic client is
     created from ANTHROPIC_API_KEY.
     """
+    system_prompt = SENDER_SYSTEM_PROMPTS.get(sender)
+    if system_prompt is None:
+        return {"error": f"unknown sender voice {sender!r}"}
     if client is None:
         if not os.environ.get("ANTHROPIC_API_KEY"):
             return {"error": "ANTHROPIC_API_KEY is not set; cannot draft a letter"}
         client = _client(timeout)
 
     context = _letter_context(result, patient_submission)
+    voice = (
+        "as the physician's office" if sender == "provider" else "in the patient's own first-person voice"
+    )
     user_prompt = (
-        "Draft the appeal letter from the following retrieved evidence. Quote the "
-        "plan's own criteria and map each to the enclosed records. Use square-"
+        f"Draft the appeal letter {voice} from the following retrieved evidence. "
+        "Quote the plan's own criteria and map each to the records. Use square-"
         "bracket placeholders for any patient- or chart-specific detail you were "
         "not given.\n\n" + context
     )
@@ -217,7 +245,7 @@ def generate_appeal_letter(
         response = client.messages.create(
             model=model,
             max_tokens=max_tokens,
-            system=LETTER_SYSTEM_PROMPT,
+            system=system_prompt,
             messages=[{"role": "user", "content": user_prompt}],
         )
     except Exception as exc:  # noqa: BLE001
@@ -234,6 +262,7 @@ def generate_appeal_letter(
     return {
         "letter_markdown": letter,
         "model": model,
+        "sender": sender,
         "usage": usage,
         "estimated_cost_usd": _estimate_cost(usage),
     }

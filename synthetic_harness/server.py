@@ -770,29 +770,39 @@ def generate_and_store_appeal_letter(episode: Episode, arm: str) -> dict[str, An
             if submission.get(key):
                 submission_text = str(submission[key])
                 break
-    with arm_slot():
-        drafted = generate_appeal_letter(result, patient_submission=submission_text)
-    if drafted.get("estimated_cost_usd"):
-        record_spend(drafted["estimated_cost_usd"])
-    if drafted.get("error"):
-        payload["error"] = drafted["error"]
-        return payload
 
+    # Offer both voices: one the surgeon's office signs, one the patient sends.
     arm_dir = episode.root / "system" / arm
-    (arm_dir / "appeal_letter.md").write_text(drafted["letter_markdown"], encoding="utf-8")
-    meta = {k: v for k, v in drafted.items() if k != "letter_markdown"}
-    meta.update({"arm": arm, "kind": assessment.get("kind"), "generated_at": utc_now()})
-    write_json_atomic(arm_dir / "appeal_letter_meta.json", meta)
-    episode.log_event(
-        role="orchestrator",
-        arm=arm,
-        event_type="appeal_letter_drafted",
-        status="succeeded",
-        summary="Drafted a grounded appeal letter from the confirmed policy.",
-        artifacts=[f"system/{arm}/appeal_letter.md"],
-        details={"estimated_cost_usd": drafted.get("estimated_cost_usd")},
-    )
-    payload["letter"] = {"markdown": drafted["letter_markdown"], "meta": meta}
+    letters: dict[str, Any] = {}
+    for sender in ("provider", "patient"):
+        with arm_slot():
+            drafted = generate_appeal_letter(
+                result, patient_submission=submission_text, sender=sender
+            )
+        if drafted.get("estimated_cost_usd"):
+            record_spend(drafted["estimated_cost_usd"])
+        if drafted.get("error"):
+            payload.setdefault("errors", {})[sender] = drafted["error"]
+            continue
+        (arm_dir / f"appeal_letter_{sender}.md").write_text(
+            drafted["letter_markdown"], encoding="utf-8"
+        )
+        meta = {k: v for k, v in drafted.items() if k != "letter_markdown"}
+        meta.update({"arm": arm, "kind": assessment.get("kind"), "generated_at": utc_now()})
+        write_json_atomic(arm_dir / f"appeal_letter_{sender}_meta.json", meta)
+        letters[sender] = {"markdown": drafted["letter_markdown"], "meta": meta}
+
+    if letters:
+        episode.log_event(
+            role="orchestrator",
+            arm=arm,
+            event_type="appeal_letter_drafted",
+            status="succeeded",
+            summary=f"Drafted {len(letters)} grounded appeal letter(s) from the confirmed policy.",
+            artifacts=[f"system/{arm}/appeal_letter_{s}.md" for s in letters],
+            details={"versions": list(letters)},
+        )
+        payload["letters"] = letters
     return payload
 
 
@@ -827,9 +837,13 @@ def episode_snapshot(episode: Episode) -> dict[str, Any]:
         # Denial-reason-aware output: tell the UI whether an appeal letter is the
         # right next step, and whether one has already been drafted.
         if result:
+            versions = [
+                s for s in ("provider", "patient")
+                if (arm_dir / f"appeal_letter_{s}.md").exists()
+            ]
             arms[arm]["appeal"] = {
                 "assessment": assess_letter(result),
-                "letter_available": (arm_dir / "appeal_letter.md").exists(),
+                "letters_available": versions,
             }
         events.extend(live_agent_events(episode, arm, arms[arm]["runtime"]))
     active_hashes = {
@@ -1045,9 +1059,13 @@ class Handler(SimpleHTTPRequestHandler):
             try:
                 parts = self.path.split("/")
                 episode_id, arm = parts[3], parts[5].split("?")[0]
+                query = parse_qs(urlparse(self.path).query)
+                sender = (query.get("version") or ["provider"])[0]
+                if sender not in ("provider", "patient"):
+                    sender = "provider"
                 episode = load_episode(episode_id)
                 arm_dir = episode.root / "system" / arm
-                letter = arm_dir / "appeal_letter.md"
+                letter = arm_dir / f"appeal_letter_{sender}.md"
                 if not letter.exists():
                     write_json(self, {"error": "no letter drafted"}, HTTPStatus.NOT_FOUND)
                     return
@@ -1055,8 +1073,9 @@ class Handler(SimpleHTTPRequestHandler):
                     self,
                     {
                         "arm": arm,
+                        "version": sender,
                         "markdown": letter.read_text(encoding="utf-8"),
-                        "meta": load_json_if_exists(arm_dir / "appeal_letter_meta.json"),
+                        "meta": load_json_if_exists(arm_dir / f"appeal_letter_{sender}_meta.json"),
                     },
                 )
             except Exception as exc:
