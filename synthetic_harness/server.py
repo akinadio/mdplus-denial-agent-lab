@@ -54,7 +54,10 @@ from .reliability import (
     configure_logging,
     reconcile_interrupted_runs,
 )
+from .ratelimit import ApiGuards
 from contextlib import contextmanager
+
+GUARDS = ApiGuards()
 
 WORKSPACE = Path(__file__).resolve().parents[1]
 EPISODES_ROOT = Path(
@@ -180,6 +183,24 @@ def write_json(handler: "Handler", value: Any, status: int = 200) -> None:
     handler.send_header("Content-Length", str(len(payload)))
     handler.end_headers()
     handler.wfile.write(payload)
+
+
+def rate_limited(handler: "Handler", which: str) -> bool:
+    """If the client is over the limit, write a 429 and return True."""
+    ok, retry_after = GUARDS.limit(which, handler)
+    if ok:
+        return False
+    handler.send_response(429)
+    handler.send_header("Content-Type", "application/json; charset=utf-8")
+    handler.send_header("Retry-After", str(int(retry_after) + 1))
+    body = json.dumps({
+        "error": "Too many requests. Please wait a moment and try again.",
+        "retry_after_seconds": retry_after,
+    }).encode("utf-8")
+    handler.send_header("Content-Length", str(len(body)))
+    handler.end_headers()
+    handler.wfile.write(body)
+    return True
 
 
 def submission_text(data: dict[str, Any]) -> str:
@@ -915,6 +936,8 @@ class Handler(SimpleHTTPRequestHandler):
     def do_POST(self) -> None:
         try:
             if self.path == "/api/episodes":
+                if rate_limited(self, "create"):
+                    return
                 data = json_body(self)
                 # A photo of the letter cannot reach the retrieval agent, which
                 # has no file access and no vision. Read it here first and pass
@@ -1022,6 +1045,8 @@ class Handler(SimpleHTTPRequestHandler):
                 write_json(self, episode_snapshot(episode))
                 return
             if self.path.endswith("/appeal-letter"):
+                if rate_limited(self, "letter"):
+                    return
                 episode_id = self.path.split("/")[3]
                 episode = load_episode(episode_id)
                 data = json_body(self)
@@ -1029,12 +1054,18 @@ class Handler(SimpleHTTPRequestHandler):
                 write_json(self, generate_and_store_appeal_letter(episode, arm))
                 return
             if self.path.endswith("/evaluate"):
+                if not GUARDS.admin_ok(self):
+                    write_json(self, {"error": "forbidden"}, HTTPStatus.FORBIDDEN)
+                    return
                 episode_id = self.path.split("/")[3]
                 episode = load_episode(episode_id)
                 start_evaluation(episode)
                 write_json(self, episode_snapshot(episode))
                 return
             if self.path.endswith("/adjudicate"):
+                if not GUARDS.admin_ok(self):
+                    write_json(self, {"error": "forbidden"}, HTTPStatus.FORBIDDEN)
+                    return
                 episode_id = self.path.split("/")[3]
                 episode = load_episode(episode_id)
                 data = json_body(self)
@@ -1147,6 +1178,9 @@ class Handler(SimpleHTTPRequestHandler):
             )
             return
         if self.path == "/api/metrics":
+            if not GUARDS.admin_ok(self):
+                write_json(self, {"error": "forbidden"}, HTTPStatus.FORBIDDEN)
+                return
             write_json(self, build_metrics(EPISODES_ROOT))
             return
         super().do_GET()

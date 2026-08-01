@@ -43,6 +43,26 @@ engines otherwise. Force it with `MDPLUS_AGENT_ENGINE=api`.
 | `MDPLUS_API_MAX_RETRIES` | `4` | SDK retry count on transient API errors. |
 | `MDPLUS_LOG_LEVEL` | `INFO` | Log verbosity for the harness logger. |
 | `MDPLUS_ALERT_WEBHOOK` | — | If set, failed/crashed runs are POSTed here as JSON (best-effort, off-thread) so failures reach a human channel. |
+| `MDPLUS_RATE_CREATE_PER_MIN` | `8` | Per-client cap on `POST /api/episodes` per minute (returns 429 over the limit). |
+| `MDPLUS_RATE_LETTER_PER_MIN` | `12` | Per-client cap on `POST .../appeal-letter` per minute. |
+| `MDPLUS_TRUST_PROXY` | `false` | When `true`, take the client IP from the first `X-Forwarded-For` hop (set this only behind a trusted reverse proxy). |
+| `MDPLUS_ADMIN_TOKEN` | — | If set, operator endpoints (`/evaluate`, `/adjudicate`, `/api/metrics`) require header `X-Admin-Token: <value>`. If unset, they stay open (current behavior). |
+
+## Abuse protection
+
+`synthetic_harness/ratelimit.py` adds a first line of defence for a public
+endpoint whose expensive calls spawn paid model work:
+
+- **Per-client rate limits** on `POST /api/episodes` and `POST .../appeal-letter`
+  (fixed window per minute, per client IP). Over the limit returns HTTP 429 with
+  a `Retry-After` header. This is defence-in-depth with the daily spend guard: the
+  limiter stops a flood from reaching the budget in the first place.
+- **Operator-endpoint gate.** With `MDPLUS_ADMIN_TOKEN` set, the evaluation,
+  adjudication, and metrics endpoints require the matching `X-Admin-Token` header
+  so they are not world-callable. Patient-facing endpoints are unaffected.
+
+In-process and per-instance (resets on restart). Behind a load balancer, add a
+real edge limiter too; this bounds cost on a single instance.
 
 ## Crash recovery and health (unattended operation)
 
