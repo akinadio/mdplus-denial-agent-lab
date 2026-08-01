@@ -77,6 +77,31 @@ the real client IP).
   `/api/health → spend`.
 - **Restarts are safe:** in-flight runs are reconciled to `interrupted` on
   startup and are retryable; the budget survives restarts.
+- **Backups:** enable the daily backup timer and set `MDPLUS_BACKUP_DIR` to
+  encrypted, ideally off-box storage:
+  ```bash
+  sudo cp deploy/mdplus-backup.service deploy/mdplus-backup.timer /etc/systemd/system/
+  sudo systemctl enable --now mdplus-backup.timer
+  ```
+  Each backup is a `mdplus-backup-<UTC>.tar.gz` with the episodes directory and a
+  consistent SQLite copy.
+- **Retention:** set `MDPLUS_RETENTION_DAYS` and enable the purge timer
+  (`mdplus-purge.timer`) so old records are deleted per your Privacy Notice.
+
+## Restore drill (practice this before you need it)
+
+```bash
+sudo systemctl stop mdplus-harness
+cd /home/clawd/mdplus-denial-agent-lab
+tar -tzf /path/to/mdplus-backup-<UTC>.tar.gz | head        # inspect
+# restore episodes and the DB (adjust paths to your MDPLUS_* settings):
+tar -xzf /path/to/mdplus-backup-<UTC>.tar.gz -C /tmp/restore
+rsync -a --delete /tmp/restore/episodes/ outputs/synthetic_patient_simulations/episodes/
+cp /tmp/restore/state.sqlite3 outputs/state.sqlite3
+sudo systemctl start mdplus-harness
+curl -s https://appeals.example.com/api/health | python3 -m json.tool
+```
+Do this end-to-end at least once so a real recovery isn't the first attempt.
 
 ## Still required before real patients (see docs/trust_and_compliance.md)
 

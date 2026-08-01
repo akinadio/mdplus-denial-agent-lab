@@ -1,0 +1,10 @@
+[Unit]
+Description=MDplus OrthoAppeals backup (episodes + SQLite state)
+
+[Service]
+Type=oneshot
+User=clawd
+Group=clawd
+WorkingDirectory=/home/clawd/mdplus-denial-agent-lab
+EnvironmentFile=/etc/mdplus/mdplus.env
+ExecStart=/usr/bin/python3 scripts/backup.py
