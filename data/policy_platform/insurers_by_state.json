@@ -1,0 +1,642 @@
+{
+  "states": {
+    "Alabama": {
+      "insurers": [
+        "Blue Cross and Blue Shield of Alabama",
+        "UnitedHealthcare",
+        "Humana",
+        "Aetna",
+        "Cigna",
+        "Viva Health",
+        "Ambetter"
+      ],
+      "source": "KFF market share; AL Dept. of Insurance (Medicaid is fee-for-service)"
+    },
+    "Alaska": {
+      "insurers": [
+        "Premera Blue Cross Blue Shield of Alaska",
+        "Moda Health",
+        "Aetna",
+        "Cigna",
+        "UnitedHealthcare"
+      ],
+      "source": "Alaska Div. of Insurance carrier list; healthinsurance.org (Medicaid fee-for-service)"
+    },
+    "Arizona": {
+      "insurers": [
+        "Blue Cross Blue Shield of Arizona",
+        "UnitedHealthcare",
+        "Cigna",
+        "Aetna",
+        "Banner Health",
+        "Ambetter (Arizona Complete Health)",
+        "Molina Healthcare",
+        "Humana"
+      ],
+      "source": "KFF; AHCCCS Complete Care plan list; AZ DOI"
+    },
+    "Arkansas": {
+      "insurers": [
+        "Arkansas Blue Cross and Blue Shield",
+        "UnitedHealthcare",
+        "Ambetter",
+        "QualChoice / Health Advantage",
+        "Cigna",
+        "Humana"
+      ],
+      "source": "Arkansas Health Connector / ARHOME carriers; KFF"
+    },
+    "California": {
+      "insurers": [
+        "Blue Shield of California",
+        "Anthem Blue Cross",
+        "Health Net",
+        "Molina Healthcare",
+        "L.A. Care Health Plan",
+        "UnitedHealthcare",
+        "Aetna",
+        "Cigna"
+      ],
+      "source": "KFF; DHCS Medi-Cal plan list; Covered California (Kaiser excluded per scope)"
+    },
+    "Colorado": {
+      "insurers": [
+        "Anthem Blue Cross Blue Shield",
+        "UnitedHealthcare",
+        "Cigna",
+        "Aetna",
+        "Rocky Mountain Health Plans",
+        "Denver Health Medical Plan",
+        "Colorado Access"
+      ],
+      "source": "Connect for Health Colorado; KFF; Health First Colorado RAEs (Kaiser excluded)"
+    },
+    "Connecticut": {
+      "insurers": [
+        "Anthem Blue Cross and Blue Shield",
+        "ConnectiCare",
+        "Cigna",
+        "Aetna",
+        "UnitedHealthcare / Oxford",
+        "Harvard Pilgrim Health Care"
+      ],
+      "source": "CT Insurance Dept & Access Health CT; KFF"
+    },
+    "Delaware": {
+      "insurers": [
+        "Highmark Blue Cross Blue Shield Delaware",
+        "Aetna",
+        "AmeriHealth Caritas Delaware",
+        "Highmark Health Options",
+        "UnitedHealthcare",
+        "Cigna"
+      ],
+      "source": "DE Dept. of Insurance; DHSS Div. of Medicaid"
+    },
+    "District of Columbia": {
+      "insurers": [
+        "CareFirst BlueCross BlueShield",
+        "UnitedHealthcare",
+        "Aetna",
+        "AmeriHealth Caritas DC",
+        "MedStar Family Choice DC",
+        "Cigna"
+      ],
+      "source": "DC DHCF Medicaid Managed Care; DISB (Kaiser excluded)"
+    },
+    "Florida": {
+      "insurers": [
+        "Florida Blue",
+        "UnitedHealthcare",
+        "Humana",
+        "Aetna",
+        "Cigna",
+        "Ambetter (Sunshine Health)",
+        "Molina Healthcare",
+        "Simply Healthcare"
+      ],
+      "source": "FL OIR & AHCA Statewide Medicaid Managed Care; KFF"
+    },
+    "Georgia": {
+      "insurers": [
+        "Anthem Blue Cross and Blue Shield",
+        "UnitedHealthcare",
+        "Aetna",
+        "CareSource",
+        "Peach State Health Plan",
+        "Cigna",
+        "Humana",
+        "Wellpoint"
+      ],
+      "source": "GA Office of Insurance & DCH Georgia Families; KFF (Kaiser excluded)"
+    },
+    "Hawaii": {
+      "insurers": [
+        "HMSA (Hawaii Medical Service Association)",
+        "UHA (University Health Alliance)",
+        "HMAA",
+        "AlohaCare",
+        "'Ohana Health Plan",
+        "UnitedHealthcare Community Plan"
+      ],
+      "source": "HI Insurance Division & Med-QUEST plans (Kaiser excluded)"
+    },
+    "Idaho": {
+      "insurers": [
+        "Blue Cross of Idaho",
+        "Regence BlueShield of Idaho",
+        "SelectHealth",
+        "PacificSource Health Plans",
+        "Molina Healthcare",
+        "Mountain Health CO-OP",
+        "UnitedHealthcare",
+        "Cigna"
+      ],
+      "source": "Idaho DOI 2026 rate filings; Your Health Idaho; KFF"
+    },
+    "Illinois": {
+      "insurers": [
+        "Blue Cross Blue Shield of Illinois",
+        "UnitedHealthcare",
+        "Aetna",
+        "Cigna",
+        "Humana",
+        "Meridian",
+        "Molina Healthcare",
+        "CountyCare",
+        "Ambetter"
+      ],
+      "source": "KFF; IL DOI; HealthChoice Illinois Medicaid"
+    },
+    "Indiana": {
+      "insurers": [
+        "Anthem Blue Cross Blue Shield",
+        "UnitedHealthcare",
+        "CareSource",
+        "Managed Health Services (MHS)",
+        "MDwise",
+        "Aetna",
+        "Cigna",
+        "Humana"
+      ],
+      "source": "KFF; IN DOI; Hoosier Healthwise / HIP MCEs"
+    },
+    "Iowa": {
+      "insurers": [
+        "Wellmark Blue Cross Blue Shield",
+        "UnitedHealthcare",
+        "Wellpoint Iowa",
+        "Iowa Total Care",
+        "Molina Healthcare",
+        "Aetna",
+        "Cigna"
+      ],
+      "source": "KFF; Iowa HHS Medicaid managed care contracts"
+    },
+    "Kansas": {
+      "insurers": [
+        "Blue Cross and Blue Shield of Kansas",
+        "Blue Cross and Blue Shield of Kansas City",
+        "Sunflower Health Plan",
+        "UnitedHealthcare",
+        "Healthy Blue",
+        "Aetna",
+        "Cigna",
+        "Ambetter"
+      ],
+      "source": "KFF; KanCare MCOs (two Blue licensees)"
+    },
+    "Kentucky": {
+      "insurers": [
+        "Anthem Blue Cross Blue Shield",
+        "Humana",
+        "Passport Health Plan by Molina",
+        "WellCare of Kentucky",
+        "UnitedHealthcare",
+        "Aetna",
+        "CareSource",
+        "Ambetter"
+      ],
+      "source": "KHBE 2026 issuers; KY CHFS Medicaid MCOs"
+    },
+    "Louisiana": {
+      "insurers": [
+        "Blue Cross and Blue Shield of Louisiana",
+        "UnitedHealthcare",
+        "Humana",
+        "Aetna",
+        "Cigna",
+        "Louisiana Healthcare Connections",
+        "Healthy Blue Louisiana",
+        "AmeriHealth Caritas Louisiana",
+        "Vantage Health Plan"
+      ],
+      "source": "KFF; LA Dept. of Health Managed Care"
+    },
+    "Maine": {
+      "insurers": [
+        "Anthem Blue Cross and Blue Shield",
+        "Harvard Pilgrim Health Care",
+        "Community Health Options",
+        "Aetna",
+        "UnitedHealthcare",
+        "Cigna",
+        "Martin's Point Health Care"
+      ],
+      "source": "Maine Bureau of Insurance; healthinsurance.org (MaineCare fee-for-service)"
+    },
+    "Maryland": {
+      "insurers": [
+        "CareFirst BlueCross BlueShield",
+        "UnitedHealthcare",
+        "Aetna",
+        "Cigna",
+        "Priority Partners",
+        "Maryland Physicians Care",
+        "Wellpoint Maryland",
+        "MedStar Family Choice"
+      ],
+      "source": "KFF; Maryland Health Connection MCOs (Kaiser excluded)"
+    },
+    "Massachusetts": {
+      "insurers": [
+        "Blue Cross Blue Shield of Massachusetts",
+        "Harvard Pilgrim Health Care",
+        "Tufts Health Plan",
+        "Mass General Brigham Health Plan",
+        "WellSense Health Plan",
+        "Fallon Health",
+        "Health New England",
+        "UnitedHealthcare",
+        "Aetna"
+      ],
+      "source": "KFF; MA Health Connector / Division of Insurance"
+    },
+    "Michigan": {
+      "insurers": [
+        "Blue Cross Blue Shield of Michigan",
+        "Priority Health",
+        "Health Alliance Plan (HAP)",
+        "UnitedHealthcare",
+        "Meridian Health Plan",
+        "Molina Healthcare",
+        "McLaren Health Plan",
+        "Aetna",
+        "Humana"
+      ],
+      "source": "Mark Farrah Associates; KFF; MDHHS Medicaid plans"
+    },
+    "Minnesota": {
+      "insurers": [
+        "Blue Cross and Blue Shield of Minnesota",
+        "HealthPartners",
+        "UCare",
+        "Medica",
+        "UnitedHealthcare",
+        "PreferredOne",
+        "Humana"
+      ],
+      "source": "MN Dept. of Health chartbook; MNsure carriers"
+    },
+    "Mississippi": {
+      "insurers": [
+        "Blue Cross & Blue Shield of Mississippi",
+        "UnitedHealthcare",
+        "Cigna",
+        "Aetna",
+        "Humana",
+        "Ambetter (Magnolia Health)",
+        "Molina Healthcare",
+        "TrueCare"
+      ],
+      "source": "KFF; MS Division of Medicaid (MississippiCAN)"
+    },
+    "Missouri": {
+      "insurers": [
+        "Anthem Blue Cross Blue Shield",
+        "Blue Cross and Blue Shield of Kansas City",
+        "UnitedHealthcare",
+        "Cigna",
+        "Aetna",
+        "Ambetter (Home State Health)",
+        "Healthy Blue",
+        "Medica"
+      ],
+      "source": "KFF; MO HealthNet Managed Care; MO DCI"
+    },
+    "Montana": {
+      "insurers": [
+        "Blue Cross Blue Shield of Montana",
+        "PacificSource Health Plans",
+        "Mountain Health CO-OP",
+        "UnitedHealthcare",
+        "Allegiance",
+        "Humana",
+        "Aetna"
+      ],
+      "source": "Montana CSI; healthcare.gov carriers (Medicaid largely fee-for-service)"
+    },
+    "Nebraska": {
+      "insurers": [
+        "Blue Cross and Blue Shield of Nebraska",
+        "UnitedHealthcare",
+        "Medica",
+        "Aetna",
+        "Cigna",
+        "Nebraska Total Care",
+        "Healthy Blue",
+        "Molina Healthcare"
+      ],
+      "source": "KFF; Heritage Health Medicaid MCOs; NE DOI"
+    },
+    "Nevada": {
+      "insurers": [
+        "Health Plan of Nevada",
+        "Anthem Blue Cross Blue Shield",
+        "UnitedHealthcare",
+        "SilverSummit Healthplan (Ambetter)",
+        "Molina Healthcare",
+        "Hometown Health",
+        "Aetna",
+        "Cigna"
+      ],
+      "source": "KFF; Nevada Medicaid managed care; NV DOI"
+    },
+    "New Hampshire": {
+      "insurers": [
+        "Anthem Blue Cross Blue Shield",
+        "Harvard Pilgrim Health Care",
+        "Cigna",
+        "UnitedHealthcare",
+        "Aetna",
+        "NH Healthy Families (Ambetter)",
+        "Well Sense Health Plan",
+        "AmeriHealth Caritas New Hampshire"
+      ],
+      "source": "NH Insurance Dept.; KFF; NH Medicaid Care Management"
+    },
+    "New Jersey": {
+      "insurers": [
+        "Horizon Blue Cross Blue Shield of New Jersey",
+        "Aetna",
+        "UnitedHealthcare / Oxford",
+        "Cigna",
+        "AmeriHealth New Jersey",
+        "WellCare",
+        "Clover Health",
+        "Wellpoint"
+      ],
+      "source": "KFF; NJ Dept. of Banking & Insurance"
+    },
+    "New Mexico": {
+      "insurers": [
+        "Presbyterian Health Plan",
+        "Blue Cross Blue Shield of New Mexico",
+        "Molina Healthcare",
+        "UnitedHealthcare Community Plan",
+        "Western Sky Community Care",
+        "Cigna",
+        "Humana"
+      ],
+      "source": "NM Health Care Authority Turquoise Care; KFF"
+    },
+    "New York": {
+      "insurers": [
+        "Fidelis Care",
+        "Healthfirst",
+        "UnitedHealthcare / Oxford",
+        "Excellus BlueCross BlueShield",
+        "Anthem Blue Cross and Blue Shield (formerly Empire)",
+        "MVP Health Care",
+        "EmblemHealth",
+        "CDPHP",
+        "Aetna"
+      ],
+      "source": "NY State of Health enrollment; KFF (Empire rebranded to Anthem 2024)"
+    },
+    "North Carolina": {
+      "insurers": [
+        "Blue Cross and Blue Shield of North Carolina",
+        "UnitedHealthcare",
+        "Aetna",
+        "Cigna",
+        "Humana",
+        "Ambetter (WellCare)",
+        "AmeriHealth Caritas North Carolina",
+        "Healthy Blue",
+        "Carolina Complete Health"
+      ],
+      "source": "KFF; NC DHHS Medicaid; NC DOI"
+    },
+    "North Dakota": {
+      "insurers": [
+        "Blue Cross Blue Shield of North Dakota",
+        "Sanford Health Plan",
+        "Medica",
+        "UnitedHealthcare",
+        "Humana",
+        "Aetna"
+      ],
+      "source": "KFF; ND Insurance Dept.; carrier sites"
+    },
+    "Ohio": {
+      "insurers": [
+        "Anthem Blue Cross and Blue Shield",
+        "Medical Mutual of Ohio",
+        "CareSource",
+        "UnitedHealthcare",
+        "Aetna",
+        "Molina Healthcare",
+        "Buckeye Health Plan",
+        "Humana",
+        "Cigna"
+      ],
+      "source": "KFF; Ohio DOI; Ohio Dept. of Medicaid managed care"
+    },
+    "Oklahoma": {
+      "insurers": [
+        "Blue Cross Blue Shield of Oklahoma",
+        "UnitedHealthcare",
+        "Aetna",
+        "Cigna",
+        "Humana",
+        "CommunityCare",
+        "Oklahoma Complete Health (Ambetter)",
+        "Medica"
+      ],
+      "source": "KFF; OK Health Care Authority SoonerSelect; OK Insurance Dept."
+    },
+    "Oregon": {
+      "insurers": [
+        "Regence BlueCross BlueShield of Oregon",
+        "Providence Health Plan",
+        "Moda Health",
+        "PacificSource Health Plans",
+        "UnitedHealthcare",
+        "Trillium Community Health Plan",
+        "Health Net of Oregon"
+      ],
+      "source": "Oregon DFR rate filings; Oregon Health Authority CCOs (Kaiser excluded)"
+    },
+    "Pennsylvania": {
+      "insurers": [
+        "Highmark Blue Cross Blue Shield",
+        "Independence Blue Cross",
+        "UPMC Health Plan",
+        "Geisinger Health Plan",
+        "Capital Blue Cross",
+        "Aetna",
+        "Cigna",
+        "UnitedHealthcare"
+      ],
+      "source": "Mark Farrah Associates; PA Insurance Dept.; PA DHS HealthChoices"
+    },
+    "Rhode Island": {
+      "insurers": [
+        "Blue Cross & Blue Shield of Rhode Island",
+        "UnitedHealthcare",
+        "Neighborhood Health Plan of Rhode Island",
+        "Tufts Health Plan",
+        "Aetna",
+        "Cigna"
+      ],
+      "source": "RI EOHHS Medicaid; KFF"
+    },
+    "South Carolina": {
+      "insurers": [
+        "BlueCross BlueShield of South Carolina",
+        "BlueChoice HealthPlan",
+        "UnitedHealthcare",
+        "Aetna",
+        "Cigna",
+        "Absolute Total Care (Ambetter)",
+        "Molina Healthcare",
+        "Humana"
+      ],
+      "source": "SC DOI; SC Healthy Connections Choices; KFF"
+    },
+    "South Dakota": {
+      "insurers": [
+        "Sanford Health Plan",
+        "Avera Health Plans",
+        "Wellmark Blue Cross Blue Shield of South Dakota",
+        "DakotaCare",
+        "Medica",
+        "UnitedHealthcare"
+      ],
+      "source": "SD marketplace carriers; KFF (Medicaid fee-for-service)"
+    },
+    "Tennessee": {
+      "insurers": [
+        "BlueCross BlueShield of Tennessee",
+        "Cigna",
+        "UnitedHealthcare",
+        "Aetna",
+        "Humana",
+        "Wellpoint (Amerigroup)",
+        "Oscar Health",
+        "Ambetter"
+      ],
+      "source": "KFF; TennCare MCOs; TN Dept. of Commerce & Insurance"
+    },
+    "Texas": {
+      "insurers": [
+        "Blue Cross Blue Shield of Texas",
+        "UnitedHealthcare",
+        "Aetna",
+        "Cigna",
+        "Humana",
+        "Superior HealthPlan (Ambetter)",
+        "Molina Healthcare",
+        "Oscar Health",
+        "Community Health Choice"
+      ],
+      "source": "KFF; Texas HHSC STAR Medicaid; TX DOI"
+    },
+    "Utah": {
+      "insurers": [
+        "SelectHealth",
+        "Regence BlueCross BlueShield of Utah",
+        "UnitedHealthcare",
+        "PEHP",
+        "Molina Healthcare",
+        "University of Utah Health Plans (Healthy U)",
+        "Cigna",
+        "Aetna"
+      ],
+      "source": "KFF; Utah DHHS Medicaid ACOs; Utah Insurance Dept."
+    },
+    "Vermont": {
+      "insurers": [
+        "Blue Cross Blue Shield of Vermont",
+        "MVP Health Care",
+        "UnitedHealthcare",
+        "Cigna",
+        "Aetna"
+      ],
+      "source": "Vermont Health Connect / Green Mountain Care Board (Medicaid fee-for-service)"
+    },
+    "Virginia": {
+      "insurers": [
+        "Anthem Blue Cross Blue Shield (HealthKeepers)",
+        "Sentara Health Plans",
+        "UnitedHealthcare",
+        "Aetna",
+        "Cigna",
+        "CareFirst BlueCross BlueShield",
+        "Humana"
+      ],
+      "source": "KFF; VA DMAS Cardinal Care MCOs; VA Bureau of Insurance (Kaiser excluded)"
+    },
+    "Washington": {
+      "insurers": [
+        "Premera Blue Cross",
+        "Regence BlueShield",
+        "Molina Healthcare",
+        "UnitedHealthcare",
+        "Coordinated Care (Ambetter)",
+        "Community Health Plan of Washington",
+        "Wellpoint"
+      ],
+      "source": "KFF; WA HCA Apple Health; WA OIC (Kaiser excluded)"
+    },
+    "West Virginia": {
+      "insurers": [
+        "Highmark Blue Cross Blue Shield West Virginia",
+        "The Health Plan",
+        "UnitedHealthcare",
+        "Aetna Better Health of West Virginia",
+        "UniCare Health Plan of West Virginia",
+        "Highmark Health Options West Virginia",
+        "CareSource",
+        "Humana"
+      ],
+      "source": "KFF; WV Bureau for Medical Services Mountain Health Trust"
+    },
+    "Wisconsin": {
+      "insurers": [
+        "UnitedHealthcare",
+        "Anthem Blue Cross Blue Shield of Wisconsin",
+        "Security Health Plan",
+        "Quartz Health Plan",
+        "Network Health",
+        "Dean Health Plan",
+        "Common Ground Healthcare Cooperative",
+        "Molina Healthcare",
+        "MHS Health Wisconsin"
+      ],
+      "source": "WI DHS Medicaid Quality Strategy; WI OCI; KFF"
+    },
+    "Wyoming": {
+      "insurers": [
+        "Blue Cross Blue Shield of Wyoming",
+        "UnitedHealthcare",
+        "Cigna",
+        "Aetna",
+        "Humana"
+      ],
+      "source": "healthinsurance.org WY 2026 marketplace; KFF (Medicaid fee-for-service)"
+    }
+  },
+  "note": "Major medical insurers by state (commercial carriers, Blue licensees, and top Medicaid managed-care plans). Ordered by market presence. Kaiser Permanente excluded per product scope. Not exhaustive of every small carrier."
+}

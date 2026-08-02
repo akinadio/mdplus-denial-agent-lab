@@ -7,7 +7,7 @@
 window.APPEAL = {
   product: {
     name: "OrthoAppeals",
-    tagline: "Your knee replacement was denied? You can fight it, for free.",
+    tagline: "Your orthopedic procedure was denied? You can fix it, for free.",
     promise:
       "Insurance denials are often just missing paperwork, not a final no. We walk you through it in plain language and help you build a strong appeal, step by step.",
     reassure: "Most denials like this can be appealed. Let's do it together.",
@@ -126,23 +126,67 @@ window.APPEAL = {
     "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming",
   ],
 
-  // STATE → INSURER map. IMPORTANT: this is a REPRESENTATIVE / SYNTHETIC mockup
-  // stand-in. Curated payer names come from seed_review_39_spec.json where we
-  // have them (e.g. Blue Shield of California, BCBS Michigan, CareFirst BCBS),
-  // filled out with plausible regional plans for demo purposes. It is NOT a
-  // complete or authoritative directory and MUST be replaced by the real
-  // per-state payer dataset before this is anything other than a mockup.
+  // STATE → INSURER map. Researched per-state directory of the major medical
+  // insurers actually operating in each state (national carriers, the state's
+  // Blue Cross/Blue Shield licensee(s), leading regional plans, and top Medicaid
+  // managed-care plans), ordered by market presence. Sources: KFF market-share
+  // data, state Departments of Insurance, and state Medicaid rosters — captured
+  // with per-state citations in data/policy_platform/insurers_by_state.json.
+  // Kaiser Permanente is intentionally excluded per product scope. Not exhaustive
+  // of every small carrier; patients whose plan isn't listed can type it in.
+  // Rebuild with scripts/build_insurer_directory.py.
   insurersByState: {
-    "California": ["Blue Shield of California", "Anthem Blue Cross", "Kaiser Permanente", "Health Net"],
-    "Michigan": ["BCBS Michigan", "Priority Health", "HAP (Health Alliance Plan)"],
-    "North Carolina": ["BCBS North Carolina", "Aetna", "UnitedHealthcare"],
-    "New Jersey": ["Horizon BCBS NJ", "Aetna", "UnitedHealthcare"],
-    "Pennsylvania": ["Independence Blue Cross", "Highmark", "UPMC Health Plan", "Aetna"],
-    "Washington": ["Premera Blue Cross", "Regence BCBS", "Kaiser Permanente"],
-    "Maryland": ["CareFirst BCBS", "Aetna", "UnitedHealthcare"],
-    "District of Columbia": ["CareFirst BCBS", "Aetna", "Kaiser Permanente"],
-    "Virginia": ["CareFirst BCBS", "Anthem", "Aetna", "UnitedHealthcare"],
-    "Iowa": ["Wellmark BCBS", "UnitedHealthcare", "Aetna"],
+    "Alabama": ["Blue Cross and Blue Shield of Alabama", "UnitedHealthcare", "Humana", "Aetna", "Cigna", "Viva Health", "Ambetter"],
+    "Alaska": ["Premera Blue Cross Blue Shield of Alaska", "Moda Health", "Aetna", "Cigna", "UnitedHealthcare"],
+    "Arizona": ["Blue Cross Blue Shield of Arizona", "UnitedHealthcare", "Cigna", "Aetna", "Banner Health", "Ambetter (Arizona Complete Health)", "Molina Healthcare", "Humana"],
+    "Arkansas": ["Arkansas Blue Cross and Blue Shield", "UnitedHealthcare", "Ambetter", "QualChoice / Health Advantage", "Cigna", "Humana"],
+    "California": ["Blue Shield of California", "Anthem Blue Cross", "Health Net", "Molina Healthcare", "L.A. Care Health Plan", "UnitedHealthcare", "Aetna", "Cigna"],
+    "Colorado": ["Anthem Blue Cross Blue Shield", "UnitedHealthcare", "Cigna", "Aetna", "Rocky Mountain Health Plans", "Denver Health Medical Plan", "Colorado Access"],
+    "Connecticut": ["Anthem Blue Cross and Blue Shield", "ConnectiCare", "Cigna", "Aetna", "UnitedHealthcare / Oxford", "Harvard Pilgrim Health Care"],
+    "Delaware": ["Highmark Blue Cross Blue Shield Delaware", "Aetna", "AmeriHealth Caritas Delaware", "Highmark Health Options", "UnitedHealthcare", "Cigna"],
+    "District of Columbia": ["CareFirst BlueCross BlueShield", "UnitedHealthcare", "Aetna", "AmeriHealth Caritas DC", "MedStar Family Choice DC", "Cigna"],
+    "Florida": ["Florida Blue", "UnitedHealthcare", "Humana", "Aetna", "Cigna", "Ambetter (Sunshine Health)", "Molina Healthcare", "Simply Healthcare"],
+    "Georgia": ["Anthem Blue Cross and Blue Shield", "UnitedHealthcare", "Aetna", "CareSource", "Peach State Health Plan", "Cigna", "Humana", "Wellpoint"],
+    "Hawaii": ["HMSA (Hawaii Medical Service Association)", "UHA (University Health Alliance)", "HMAA", "AlohaCare", "'Ohana Health Plan", "UnitedHealthcare Community Plan"],
+    "Idaho": ["Blue Cross of Idaho", "Regence BlueShield of Idaho", "SelectHealth", "PacificSource Health Plans", "Molina Healthcare", "Mountain Health CO-OP", "UnitedHealthcare", "Cigna"],
+    "Illinois": ["Blue Cross Blue Shield of Illinois", "UnitedHealthcare", "Aetna", "Cigna", "Humana", "Meridian", "Molina Healthcare", "CountyCare", "Ambetter"],
+    "Indiana": ["Anthem Blue Cross Blue Shield", "UnitedHealthcare", "CareSource", "Managed Health Services (MHS)", "MDwise", "Aetna", "Cigna", "Humana"],
+    "Iowa": ["Wellmark Blue Cross Blue Shield", "UnitedHealthcare", "Wellpoint Iowa", "Iowa Total Care", "Molina Healthcare", "Aetna", "Cigna"],
+    "Kansas": ["Blue Cross and Blue Shield of Kansas", "Blue Cross and Blue Shield of Kansas City", "Sunflower Health Plan", "UnitedHealthcare", "Healthy Blue", "Aetna", "Cigna", "Ambetter"],
+    "Kentucky": ["Anthem Blue Cross Blue Shield", "Humana", "Passport Health Plan by Molina", "WellCare of Kentucky", "UnitedHealthcare", "Aetna", "CareSource", "Ambetter"],
+    "Louisiana": ["Blue Cross and Blue Shield of Louisiana", "UnitedHealthcare", "Humana", "Aetna", "Cigna", "Louisiana Healthcare Connections", "Healthy Blue Louisiana", "AmeriHealth Caritas Louisiana", "Vantage Health Plan"],
+    "Maine": ["Anthem Blue Cross and Blue Shield", "Harvard Pilgrim Health Care", "Community Health Options", "Aetna", "UnitedHealthcare", "Cigna", "Martin's Point Health Care"],
+    "Maryland": ["CareFirst BlueCross BlueShield", "UnitedHealthcare", "Aetna", "Cigna", "Priority Partners", "Maryland Physicians Care", "Wellpoint Maryland", "MedStar Family Choice"],
+    "Massachusetts": ["Blue Cross Blue Shield of Massachusetts", "Harvard Pilgrim Health Care", "Tufts Health Plan", "Mass General Brigham Health Plan", "WellSense Health Plan", "Fallon Health", "Health New England", "UnitedHealthcare", "Aetna"],
+    "Michigan": ["Blue Cross Blue Shield of Michigan", "Priority Health", "Health Alliance Plan (HAP)", "UnitedHealthcare", "Meridian Health Plan", "Molina Healthcare", "McLaren Health Plan", "Aetna", "Humana"],
+    "Minnesota": ["Blue Cross and Blue Shield of Minnesota", "HealthPartners", "UCare", "Medica", "UnitedHealthcare", "PreferredOne", "Humana"],
+    "Mississippi": ["Blue Cross & Blue Shield of Mississippi", "UnitedHealthcare", "Cigna", "Aetna", "Humana", "Ambetter (Magnolia Health)", "Molina Healthcare", "TrueCare"],
+    "Missouri": ["Anthem Blue Cross Blue Shield", "Blue Cross and Blue Shield of Kansas City", "UnitedHealthcare", "Cigna", "Aetna", "Ambetter (Home State Health)", "Healthy Blue", "Medica"],
+    "Montana": ["Blue Cross Blue Shield of Montana", "PacificSource Health Plans", "Mountain Health CO-OP", "UnitedHealthcare", "Allegiance", "Humana", "Aetna"],
+    "Nebraska": ["Blue Cross and Blue Shield of Nebraska", "UnitedHealthcare", "Medica", "Aetna", "Cigna", "Nebraska Total Care", "Healthy Blue", "Molina Healthcare"],
+    "Nevada": ["Health Plan of Nevada", "Anthem Blue Cross Blue Shield", "UnitedHealthcare", "SilverSummit Healthplan (Ambetter)", "Molina Healthcare", "Hometown Health", "Aetna", "Cigna"],
+    "New Hampshire": ["Anthem Blue Cross Blue Shield", "Harvard Pilgrim Health Care", "Cigna", "UnitedHealthcare", "Aetna", "NH Healthy Families (Ambetter)", "Well Sense Health Plan", "AmeriHealth Caritas New Hampshire"],
+    "New Jersey": ["Horizon Blue Cross Blue Shield of New Jersey", "Aetna", "UnitedHealthcare / Oxford", "Cigna", "AmeriHealth New Jersey", "WellCare", "Clover Health", "Wellpoint"],
+    "New Mexico": ["Presbyterian Health Plan", "Blue Cross Blue Shield of New Mexico", "Molina Healthcare", "UnitedHealthcare Community Plan", "Western Sky Community Care", "Cigna", "Humana"],
+    "New York": ["Fidelis Care", "Healthfirst", "UnitedHealthcare / Oxford", "Excellus BlueCross BlueShield", "Anthem Blue Cross and Blue Shield (formerly Empire)", "MVP Health Care", "EmblemHealth", "CDPHP", "Aetna"],
+    "North Carolina": ["Blue Cross and Blue Shield of North Carolina", "UnitedHealthcare", "Aetna", "Cigna", "Humana", "Ambetter (WellCare)", "AmeriHealth Caritas North Carolina", "Healthy Blue", "Carolina Complete Health"],
+    "North Dakota": ["Blue Cross Blue Shield of North Dakota", "Sanford Health Plan", "Medica", "UnitedHealthcare", "Humana", "Aetna"],
+    "Ohio": ["Anthem Blue Cross and Blue Shield", "Medical Mutual of Ohio", "CareSource", "UnitedHealthcare", "Aetna", "Molina Healthcare", "Buckeye Health Plan", "Humana", "Cigna"],
+    "Oklahoma": ["Blue Cross Blue Shield of Oklahoma", "UnitedHealthcare", "Aetna", "Cigna", "Humana", "CommunityCare", "Oklahoma Complete Health (Ambetter)", "Medica"],
+    "Oregon": ["Regence BlueCross BlueShield of Oregon", "Providence Health Plan", "Moda Health", "PacificSource Health Plans", "UnitedHealthcare", "Trillium Community Health Plan", "Health Net of Oregon"],
+    "Pennsylvania": ["Highmark Blue Cross Blue Shield", "Independence Blue Cross", "UPMC Health Plan", "Geisinger Health Plan", "Capital Blue Cross", "Aetna", "Cigna", "UnitedHealthcare"],
+    "Rhode Island": ["Blue Cross & Blue Shield of Rhode Island", "UnitedHealthcare", "Neighborhood Health Plan of Rhode Island", "Tufts Health Plan", "Aetna", "Cigna"],
+    "South Carolina": ["BlueCross BlueShield of South Carolina", "BlueChoice HealthPlan", "UnitedHealthcare", "Aetna", "Cigna", "Absolute Total Care (Ambetter)", "Molina Healthcare", "Humana"],
+    "South Dakota": ["Sanford Health Plan", "Avera Health Plans", "Wellmark Blue Cross Blue Shield of South Dakota", "DakotaCare", "Medica", "UnitedHealthcare"],
+    "Tennessee": ["BlueCross BlueShield of Tennessee", "Cigna", "UnitedHealthcare", "Aetna", "Humana", "Wellpoint (Amerigroup)", "Oscar Health", "Ambetter"],
+    "Texas": ["Blue Cross Blue Shield of Texas", "UnitedHealthcare", "Aetna", "Cigna", "Humana", "Superior HealthPlan (Ambetter)", "Molina Healthcare", "Oscar Health", "Community Health Choice"],
+    "Utah": ["SelectHealth", "Regence BlueCross BlueShield of Utah", "UnitedHealthcare", "PEHP", "Molina Healthcare", "University of Utah Health Plans (Healthy U)", "Cigna", "Aetna"],
+    "Vermont": ["Blue Cross Blue Shield of Vermont", "MVP Health Care", "UnitedHealthcare", "Cigna", "Aetna"],
+    "Virginia": ["Anthem Blue Cross Blue Shield (HealthKeepers)", "Sentara Health Plans", "UnitedHealthcare", "Aetna", "Cigna", "CareFirst BlueCross BlueShield", "Humana"],
+    "Washington": ["Premera Blue Cross", "Regence BlueShield", "Molina Healthcare", "UnitedHealthcare", "Coordinated Care (Ambetter)", "Community Health Plan of Washington", "Wellpoint"],
+    "West Virginia": ["Highmark Blue Cross Blue Shield West Virginia", "The Health Plan", "UnitedHealthcare", "Aetna Better Health of West Virginia", "UniCare Health Plan of West Virginia", "Highmark Health Options West Virginia", "CareSource", "Humana"],
+    "Wisconsin": ["UnitedHealthcare", "Anthem Blue Cross Blue Shield of Wisconsin", "Security Health Plan", "Quartz Health Plan", "Network Health", "Dean Health Plan", "Common Ground Healthcare Cooperative", "Molina Healthcare", "MHS Health Wisconsin"],
+    "Wyoming": ["Blue Cross Blue Shield of Wyoming", "UnitedHealthcare", "Cigna", "Aetna", "Humana"],
   },
 
   // Generic set shown for any state we don't have curated per-state data for. A
@@ -151,7 +195,8 @@ window.APPEAL = {
   // is near the top; together these cover the great majority of insured
   // Americans. Source: the payer covered-lives table in the internal benchmark
   // workbook (UnitedHealthcare 49.3M, Elevance/Anthem 45.7M, Centene 28.6M,
-  // Aetna 27.1M, Cigna 19.1M, HCSC 18M, Humana 16.3M, plus Kaiser, Molina).
+  // Aetna 27.1M, Cigna 19.1M, HCSC 18M, Humana 16.3M, Molina). Kaiser is
+  // intentionally omitted (its integrated-HMO denials are out of scope here).
   // NOTE: still a national fallback, not an authoritative per-state directory —
   // a real per-state payer-availability dataset is still needed for that.
   insurersGeneric: [
@@ -161,7 +206,6 @@ window.APPEAL = {
     "Aetna (CVS Health)",
     "Cigna",
     "Humana",
-    "Kaiser Permanente",
     "Centene / Ambetter",
     "Molina Healthcare",
     "Medicare",
@@ -193,6 +237,47 @@ window.APPEAL = {
       "Open your 'Summary of Benefits and Coverage (SBC)' and download the PDF.",
       "Can't find it? Call the Member Services number on your card and ask them to send it.",
     ],
+  },
+
+  // BLUE CROSS / BLUE SHIELD is not one company — each state has its own Blue
+  // licensee with its own website. When a patient picks a Blue plan we look up
+  // their state here and send them to the RIGHT site by name, instead of a
+  // generic "your state's Blue site". (Anthem-branded Blues are handled by the
+  // 'anthem' rule; Florida Blue and the HCSC states have their own entries too.)
+  // Not exhaustive — states missing here fall back to a "search your state's
+  // Blue Cross Blue Shield" instruction. name = the licensee, site = its portal.
+  blueByState: {
+    "Alabama": { name: "Blue Cross Blue Shield of Alabama", site: "bcbsal.org" },
+    "Arizona": { name: "Blue Cross Blue Shield of Arizona", site: "azblue.com" },
+    "Arkansas": { name: "Arkansas Blue Cross Blue Shield", site: "arkansasbluecross.com" },
+    "California": { name: "Blue Shield of California", site: "blueshieldca.com" },
+    "Florida": { name: "Florida Blue", site: "floridablue.com" },
+    "Hawaii": { name: "Hawaii Medical Service Association (BCBS)", site: "hmsa.com" },
+    "Idaho": { name: "Blue Cross of Idaho", site: "bcidaho.com" },
+    "Illinois": { name: "Blue Cross Blue Shield of Illinois", site: "bcbsil.com" },
+    "Iowa": { name: "Wellmark Blue Cross Blue Shield", site: "wellmark.com" },
+    "Kansas": { name: "Blue Cross Blue Shield of Kansas", site: "bcbsks.com" },
+    "Louisiana": { name: "Blue Cross Blue Shield of Louisiana", site: "bcbsla.com" },
+    "Maryland": { name: "CareFirst BlueCross BlueShield", site: "carefirst.com" },
+    "Massachusetts": { name: "Blue Cross Blue Shield of Massachusetts", site: "bluecrossma.org" },
+    "Michigan": { name: "Blue Cross Blue Shield of Michigan", site: "bcbsm.com" },
+    "Minnesota": { name: "Blue Cross Blue Shield of Minnesota", site: "bluecrossmn.com" },
+    "Mississippi": { name: "Blue Cross Blue Shield of Mississippi", site: "bcbsms.com" },
+    "Montana": { name: "Blue Cross Blue Shield of Montana", site: "bcbsmt.com" },
+    "Nebraska": { name: "Blue Cross Blue Shield of Nebraska", site: "nebraskablue.com" },
+    "New Jersey": { name: "Horizon Blue Cross Blue Shield of New Jersey", site: "horizonblue.com" },
+    "New Mexico": { name: "Blue Cross Blue Shield of New Mexico", site: "bcbsnm.com" },
+    "North Carolina": { name: "Blue Cross Blue Shield of North Carolina", site: "bluecrossnc.com" },
+    "Oklahoma": { name: "Blue Cross Blue Shield of Oklahoma", site: "bcbsok.com" },
+    "Pennsylvania": { name: "Independence Blue Cross (eastern PA) or Highmark (western PA)", site: "ibx.com / highmark.com" },
+    "Rhode Island": { name: "Blue Cross Blue Shield of Rhode Island", site: "bcbsri.com" },
+    "South Carolina": { name: "BlueCross BlueShield of South Carolina", site: "southcarolinablues.com" },
+    "Tennessee": { name: "BlueCross BlueShield of Tennessee", site: "bcbst.com" },
+    "Texas": { name: "Blue Cross Blue Shield of Texas", site: "bcbstx.com" },
+    "Vermont": { name: "Blue Cross Blue Shield of Vermont", site: "bluecrossvt.org" },
+    "Virginia": { name: "Anthem / CareFirst (depending on your plan)", site: "carefirst.com / anthem.com" },
+    "Washington": { name: "Premera Blue Cross or Regence BlueShield", site: "premera.com / regence.com" },
+    "Wyoming": { name: "Blue Cross Blue Shield of Wyoming", site: "bcbswy.com" },
   },
 
   // CONSERVATIVE-CARE questions: the four things a patient may have tried
