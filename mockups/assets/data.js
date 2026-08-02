@@ -90,7 +90,7 @@ window.APPEAL = {
       title: "X-ray report",
       plain: "The written report from your X-rays, not just the images.",
       why: "Your doctor's notes usually point to an X-ray, and insurers want the written report that describes the wear or damage in the joint, so this is a key piece.",
-      how: "Call the imaging center and ask them to send the written report to your surgeon. They do this all the time.",
+      how: "First, log in to your insurance or hospital patient portal and download the written radiology report, then send it to your insurance. If it isn't there, call the X-ray facility where it was done and ask them to send the report to your insurance.",
     },
     mri: {
       id: "mri",
@@ -98,7 +98,7 @@ window.APPEAL = {
       title: "MRI / advanced imaging report",
       plain: "The written report from an MRI or similar scan, not just the images.",
       why: "For this body part, insurers often expect a more detailed scan on top of an X-ray. Your doctor's notes usually mention it, and the written report really strengthens your case.",
-      how: "Call the imaging center and ask them to send the written MRI report to your surgeon.",
+      how: "First, log in to your insurance or hospital patient portal and download the written MRI report, then send it to your insurance. If it isn't there, call the MRI facility where it was done and ask them to send the report to your insurance.",
     },
   },
 
@@ -302,7 +302,7 @@ window.APPEAL = {
   // MRI) is NOT in this list. It is derived from bodyPart via `imaging` /
   // `imagingByBodyPart` above.
   requirementsIntro:
-    "Most people have tried at least two of these four, and that's usually all that's needed. Answer honestly; you can change any answer.",
+    "Most people have tried at least three of these four, and that's usually all that's needed. Answer honestly; you can change any answer.",
   requirements: [
     {
       id: "activity",
@@ -321,38 +321,22 @@ window.APPEAL = {
       plain: "You took something like Advil, Motrin, ibuprofen, Aleve, or a prescription version to ease the pain.",
       why: "Anti-inflammatory medicine counts as one of the treatments insurers expect you to try first. Over-the-counter is fine. You don't need a prescription or a pharmacy record.",
       how: "Nothing to request. An over-the-counter pill counts. Just let us know what you took; your doctor's chart may note it too.",
-      followup: {
-        q: "Did it help enough?",
-        options: [
-          { id: "nolast", label: "It helped a little, but the relief didn't last", lasting: false },
-          { id: "helped", label: "It helped and I still take it", lasting: true },
-        ],
-      },
+    },
+    {
+      id: "pt",
+      q: "In the last twelve months, have you done any formal or directed therapy for this joint?",
+      title: "Physical therapy",
+      plain: "You went to a physical therapist, or did the exercises they gave you.",
+      why: "Insurers like to see you gave physical therapy a real try. You don't need to count the visits. Just letting us know you did it is enough here.",
+      how: "Nothing to hunt down right now. Just tell us you went. Later, your PT clinic can send over their notes if the insurer asks.",
     },
     {
       id: "injection",
       q: "In the last 6 months, have you had a steroid or cortisone injection in the joint?",
       title: "Steroid / cortisone injection",
-      default: "yes",
       plain: "You had a shot in the joint to calm the pain and swelling.",
       why: "An injection is another treatment insurers like to see you tried. What matters most is whether the relief lasted. A shot that wore off actually strengthens the case for surgery.",
       how: "Nothing to request right now. Just tell us if you had one and how it went. Your doctor's office can confirm it from your chart.",
-      followup: {
-        q: "Did it help?",
-        options: [
-          { id: "nolast", label: "It helped for a while, then the pain came back", lasting: false },
-          { id: "helped", label: "It helped and is still helping", lasting: true },
-        ],
-      },
-    },
-    {
-      id: "pt",
-      q: "In the last 6 months, have you done any formal physical therapy for the joint?",
-      title: "Physical therapy",
-      default: "yes",
-      plain: "You went to a physical therapist, or did the exercises they gave you.",
-      why: "Insurers like to see you gave physical therapy a real try. You don't need to count the visits. Just letting us know you did it is enough here.",
-      how: "Nothing to hunt down right now. Just tell us you went. Later, your PT clinic can send over their notes if the insurer asks.",
     },
   ],
 

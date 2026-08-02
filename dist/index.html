@@ -518,7 +518,7 @@ window.APPEAL = {
       title: "X-ray report",
       plain: "The written report from your X-rays, not just the images.",
       why: "Your doctor's notes usually point to an X-ray, and insurers want the written report that describes the wear or damage in the joint, so this is a key piece.",
-      how: "Call the imaging center and ask them to send the written report to your surgeon. They do this all the time.",
+      how: "First, log in to your insurance or hospital patient portal and download the written radiology report, then send it to your insurance. If it isn't there, call the X-ray facility where it was done and ask them to send the report to your insurance.",
     },
     mri: {
       id: "mri",
@@ -526,7 +526,7 @@ window.APPEAL = {
       title: "MRI / advanced imaging report",
       plain: "The written report from an MRI or similar scan, not just the images.",
       why: "For this body part, insurers often expect a more detailed scan on top of an X-ray. Your doctor's notes usually mention it, and the written report really strengthens your case.",
-      how: "Call the imaging center and ask them to send the written MRI report to your surgeon.",
+      how: "First, log in to your insurance or hospital patient portal and download the written MRI report, then send it to your insurance. If it isn't there, call the MRI facility where it was done and ask them to send the report to your insurance.",
     },
   },
 
@@ -730,7 +730,7 @@ window.APPEAL = {
   // MRI) is NOT in this list. It is derived from bodyPart via `imaging` /
   // `imagingByBodyPart` above.
   requirementsIntro:
-    "Most people have tried at least two of these four, and that's usually all that's needed. Answer honestly; you can change any answer.",
+    "Most people have tried at least three of these four, and that's usually all that's needed. Answer honestly; you can change any answer.",
   requirements: [
     {
       id: "activity",
@@ -749,38 +749,22 @@ window.APPEAL = {
       plain: "You took something like Advil, Motrin, ibuprofen, Aleve, or a prescription version to ease the pain.",
       why: "Anti-inflammatory medicine counts as one of the treatments insurers expect you to try first. Over-the-counter is fine. You don't need a prescription or a pharmacy record.",
       how: "Nothing to request. An over-the-counter pill counts. Just let us know what you took; your doctor's chart may note it too.",
-      followup: {
-        q: "Did it help enough?",
-        options: [
-          { id: "nolast", label: "It helped a little, but the relief didn't last", lasting: false },
-          { id: "helped", label: "It helped and I still take it", lasting: true },
-        ],
-      },
+    },
+    {
+      id: "pt",
+      q: "In the last twelve months, have you done any formal or directed therapy for this joint?",
+      title: "Physical therapy",
+      plain: "You went to a physical therapist, or did the exercises they gave you.",
+      why: "Insurers like to see you gave physical therapy a real try. You don't need to count the visits. Just letting us know you did it is enough here.",
+      how: "Nothing to hunt down right now. Just tell us you went. Later, your PT clinic can send over their notes if the insurer asks.",
     },
     {
       id: "injection",
       q: "In the last 6 months, have you had a steroid or cortisone injection in the joint?",
       title: "Steroid / cortisone injection",
-      default: "yes",
       plain: "You had a shot in the joint to calm the pain and swelling.",
       why: "An injection is another treatment insurers like to see you tried. What matters most is whether the relief lasted. A shot that wore off actually strengthens the case for surgery.",
       how: "Nothing to request right now. Just tell us if you had one and how it went. Your doctor's office can confirm it from your chart.",
-      followup: {
-        q: "Did it help?",
-        options: [
-          { id: "nolast", label: "It helped for a while, then the pain came back", lasting: false },
-          { id: "helped", label: "It helped and is still helping", lasting: true },
-        ],
-      },
-    },
-    {
-      id: "pt",
-      q: "In the last 6 months, have you done any formal physical therapy for the joint?",
-      title: "Physical therapy",
-      default: "yes",
-      plain: "You went to a physical therapist, or did the exercises they gave you.",
-      why: "Insurers like to see you gave physical therapy a real try. You don't need to count the visits. Just letting us know you did it is enough here.",
-      how: "Nothing to hunt down right now. Just tell us you went. Later, your PT clinic can send over their notes if the insurer asks.",
     },
   ],
 
@@ -901,7 +885,7 @@ window.APPEAL = {
       ],
       deadline: {
         value:
-          'Every plan sets its own time limit to appeal. Under the federal (ERISA) rules that cover most employer plans, you generally have 180 days from the date of the denial — but your plan may set a different limit. Find the exact deadline printed on your denial letter and mark it on your calendar.',
+          'Most plans give you about 180 days from the date of the denial to appeal, but yours may be shorter. Check the exact deadline on your denial letter, put it on your calendar, and start now — appeal windows are easy to miss.',
         source: null,
         verification_needed: true
       },
@@ -1017,7 +1001,7 @@ window.APPEAL = {
         ],
         deadline: {
           value:
-            'Every plan sets its own time limit to appeal. Under the federal (ERISA) rules that cover most employer plans, you generally have 180 days from the date of the denial — but your plan may differ. Find the exact deadline printed on your denial letter and mark it on your calendar.',
+            'Most plans give you about 180 days from the date of the denial to appeal, but yours may be shorter. Check the exact deadline on your denial letter, put it on your calendar, and start now — appeal windows are easy to miss.',
           source: null,
           verification_needed: true
         },
@@ -1089,7 +1073,15 @@ window.APPEAL = {
   const isExample = () => !!getA().__demoExample;
   const resultFor = () => (isExample() ? MARIA_RESULT : genericResult());
   const appealFor = () => MARIA_APPEAL; // an appeal is recommended either way
-  const lettersFor = () => (isExample() ? MARIA_LETTERS : genericLetters());
+  function _stampDate(letters) {
+    const today = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+    const out = {};
+    for (const k of Object.keys(letters)) {
+      out[k] = { markdown: (letters[k].markdown || '').replace(/\[Date\]/g, today) };
+    }
+    return out;
+  }
+  const lettersFor = () => _stampDate(isExample() ? MARIA_LETTERS : genericLetters());
 
   // ---- the fetch shim ------------------------------------------------------
   const realFetch = typeof window.fetch === 'function' ? window.fetch.bind(window) : null;
@@ -1233,7 +1225,9 @@ window.APPEAL = {
       A.state = 'California'; A.insurer = ex.plan; A.letter = ex.denialLetter;
       buildFlow();
       A.req = {}; reqList().forEach(r => A.req[r.id] = { have: true, note: ex.answers[r.id] });
-      started = true; i = flow.length - 1; render();
+      // Build the shell (so #q exists), then run straight to the finished appeal
+      // plan rather than parking on a pre-filled review form.
+      started = true; i = flow.length - 1; render(); onBuild();
     }
 
     function railHTML() {
@@ -1299,7 +1293,9 @@ window.APPEAL = {
         wrap.innerHTML = `<button class="back" id="back">← Go back</button>`;
         wrap.querySelector('#back').onclick = () => { i = Math.max(0, i - 1); render(); };
       } else {
-        wrap.innerHTML = '';
+        // On the first step, "back" returns to the landing page.
+        wrap.innerHTML = `<button class="back" id="back">← Back to start</button>`;
+        wrap.querySelector('#back').onclick = () => { started = false; showHero(); };
       }
     }
 
@@ -1586,7 +1582,7 @@ window.APPEAL = {
         <h2>${r.q}</h2>
         <p class="help">${r.why}</p>
         <div class="answers">
-          <button class="btn btn-lg${cur ? sel('yes') : ' btn-primary'}" data-h="yes">Yes</button>
+          <button class="btn btn-lg${sel('yes')}" data-h="yes">Yes</button>
           <button class="btn btn-lg${sel('no')}" data-h="no">No / not yet</button>
           <button class="btn btn-lg${sel('unsure')}" data-h="unsure">I'm not sure</button>
         </div>
@@ -2196,8 +2192,8 @@ window.APPEAL = {
       const startBody = startHead.length <= 130 ? restLine(ns.primary_action) : ns.primary_action;
 
       const deadline = dl.value
-        ? `<div class="caveat"><h3>Your deadline</h3><p>${rich(dl.value)}${dl.source ? ' Source: ' + esc(dl.source) + '.' : ''}${dl.verification_needed ? ' Please confirm this date on your own letter before you rely on it.' : ''}</p></div>`
-        : `<div class="caveat"><h3>Find your deadline first</h3><p>Every plan sets its own time limit to appeal, and we could not confirm yours. When you get the denial letter, look for the date you must appeal by, and write it on your calendar. Ask for that date when you call the number on your card.</p></div>`;
+        ? `<div class="caveat"><h3>Your deadline — act soon</h3><p>${rich(dl.value)}</p></div>`
+        : `<div class="caveat"><h3>Your deadline — act soon</h3><p>Appeal windows are short and easy to miss. Find the date you must appeal by on your denial letter, put it on your calendar, and start now.</p></div>`;
 
       // Denial-reason-aware: draft a letter only when that's the right next move;
       // otherwise show what to do first.
@@ -2246,68 +2242,9 @@ window.APPEAL = {
               <div class="prog"><div class="bar"><i id="pbar"></i></div><span class="cnt" id="pcnt"></span></div>
               ${acts.map(taskRow).join('')}
             </div>` : ''}
-          ${qs.length ? `
-            <div class="sec">
-              <h3>${qs.length} things only you can answer</h3>
-              <p class="note">Write what you know and skip the rest. Your words stay on this ${IS_PHONE ? 'phone' : 'computer'}. Tap Copy when you want to paste them into an email or read them out on the phone.</p>
-              ${qs.map(qRow).join('')}
-              ${pi.question_stop_reason ? `<details class="acc"><summary>Why only these ${qs.length}?</summary><div class="body"><p>${rich(pi.question_stop_reason)}</p></div></details>` : ''}
-              <div class="rowbtns"><button class="btn btn-ghost btn-sm" id="q-copy">Copy my answers</button></div>
-            </div>` : ''}
-          ${(pi.provider_records_needed || []).length || theirs ? `
-            <div class="sec">
-              <h3>Send this to your surgeon's office</h3>
-              <p class="note">Your doctor's office does the medical part of the appeal. This is the exact list they need. Copy it into an email or a text message.</p>
-              ${(pi.provider_records_needed || []).length ? `
-                <details class="acc"><summary>The records they need (${pi.provider_records_needed.length})</summary>
-                  <div class="body"><ul>${richLi(pi.provider_records_needed)}</ul></div></details>` : ''}
-              <div class="rowbtns">
-                <button class="btn btn-primary btn-sm" id="doc-copy">Copy the list for my doctor</button>
-                ${navigator.share ? '<button class="btn btn-ghost btn-sm" id="doc-share">Share it</button>' : ''}
-              </div>
-            </div>` : ''}
-          <div class="sec">
-            <h3>If you want to know more</h3>
-            <p class="note">Everything we found, in plain sight. Open only what you want.</p>
-            ${pa.apparent_reason ? `
-              <details class="acc"><summary>Why they said no</summary>
-                <div class="body">
-                  <p>${rich(pa.apparent_reason)}</p>
-                  ${(pa.unmet_criteria || []).length ? `<h4>The rule points they say were not met</h4><ul>${richLi(pa.unmet_criteria)}</ul>` : ''}
-                  ${pa.denial_category ? `<h4>How we filed this case</h4><p>${esc(words(pa.denial_category))}</p>` : ''}
-                </div></details>` : ''}
-            ${(pa.criteria_at_issue || []).length ? `
-              <details class="acc"><summary>What the rule asks for (${pa.criteria_at_issue.length})</summary>
-                <div class="body"><ul>${richLi(pa.criteria_at_issue)}</ul></div></details>` : ''}
-            ${gaps.length ? `
-              <details class="acc"><summary>Everything missing from your file (${gaps.length})</summary>
-                <div class="body"><ul>${richLi(gaps)}</ul></div></details>` : ''}
-            ${src.title || cites.length ? `
-              <details class="acc"><summary>The exact rule we found</summary>
-                <div class="body">
-                  ${src.title ? `<p><b>${esc(src.title)}</b></p>` : ''}
-                  ${src.effective_date ? `<p>In force from ${esc(src.effective_date)}.</p>` : ''}
-                  ${src.url ? `<p><a href="${esc(src.url)}" target="_blank" rel="noopener">Read the policy yourself</a></p>` : ''}
-                  ${cites.length ? `<h4>How we know this is the right rule (${cites.length})</h4>${cites.map(c => `
-                    <p>${rich(c.claim || '')}${c.excerpt ? `<span class="quote">${rich(c.excerpt)}</span>` : ''}${c.reference ? `<br>${rich(c.reference)}` : ''}</p>`).join('')}` : ''}
-                  ${cands.length ? `<h4>Other sources we checked (${cands.length})</h4><ul>${cands.map(c => `
-                    <li>${rich(c.title || c.url || '')}${c.decision_summary ? '<br>' + rich(c.decision_summary) : ''}${c.url ? '<br>' + rich(c.url) : ''}</li>`).join('')}</ul>` : ''}
-                </div></details>` : ''}
-            ${blockers.length || (pa.uncertainty || []).length || conf.overall ? `
-              <details class="acc"><summary>What we could not confirm</summary>
-                <div class="body">
-                  ${conf.overall ? `<p>Our confidence overall: <b>${esc(words(conf.overall))}</b>.</p>` : ''}
-                  ${conf.rationale ? `<p>${rich(conf.rationale)}</p>` : ''}
-                  ${blockers.length ? `<h4>What stopped us (${blockers.length})</h4>${blockers.map(b => `
-                    <p>${rich(b.description || '')}${b.resolution ? `<br><b>How to settle it:</b> ${rich(b.resolution)}` : ''}</p>`).join('')}` : ''}
-                  ${(pa.uncertainty || []).length ? `<h4>Still uncertain</h4><ul>${richLi(pa.uncertainty)}</ul>` : ''}
-                  ${(ci.unresolved_fields || []).length ? `<h4>Details we do not have yet</h4><ul>${richLi(ci.unresolved_fields)}</ul>` : ''}
-                </div></details>` : ''}
-          </div>
           ${ns.safety_caveat ? `<div class="caveat"><h3>Please read this before you act</h3><p>${rich(ns.safety_caveat)}</p></div>` : ''}
           <div class="rowbtns">
             <button class="btn btn-ghost btn-sm" id="plan-print">Print this plan or save it as a PDF</button>
-            <button class="btn btn-ghost btn-sm" id="restart2">Start over</button>
           </div>
         </div>`);
 
@@ -2353,7 +2290,7 @@ window.APPEAL = {
         document.querySelectorAll('.tdetail, .whytext').forEach(d => d.removeAttribute('hidden'));
         window.print();
       };
-      el('restart2').onclick = resetAll;
+      if (el('restart2')) el('restart2').onclick = resetAll;
 
       // ---- appeal letter ------------------------------------------------
       if (ap && ap.recommended) {

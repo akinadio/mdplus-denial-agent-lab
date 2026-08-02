@@ -88,7 +88,7 @@
       ],
       deadline: {
         value:
-          'Every plan sets its own time limit to appeal. Under the federal (ERISA) rules that cover most employer plans, you generally have 180 days from the date of the denial — but your plan may set a different limit. Find the exact deadline printed on your denial letter and mark it on your calendar.',
+          'Most plans give you about 180 days from the date of the denial to appeal, but yours may be shorter. Check the exact deadline on your denial letter, put it on your calendar, and start now — appeal windows are easy to miss.',
         source: null,
         verification_needed: true
       },
@@ -204,7 +204,7 @@
         ],
         deadline: {
           value:
-            'Every plan sets its own time limit to appeal. Under the federal (ERISA) rules that cover most employer plans, you generally have 180 days from the date of the denial — but your plan may differ. Find the exact deadline printed on your denial letter and mark it on your calendar.',
+            'Most plans give you about 180 days from the date of the denial to appeal, but yours may be shorter. Check the exact deadline on your denial letter, put it on your calendar, and start now — appeal windows are easy to miss.',
           source: null,
           verification_needed: true
         },
@@ -276,7 +276,15 @@
   const isExample = () => !!getA().__demoExample;
   const resultFor = () => (isExample() ? MARIA_RESULT : genericResult());
   const appealFor = () => MARIA_APPEAL; // an appeal is recommended either way
-  const lettersFor = () => (isExample() ? MARIA_LETTERS : genericLetters());
+  function _stampDate(letters) {
+    const today = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+    const out = {};
+    for (const k of Object.keys(letters)) {
+      out[k] = { markdown: (letters[k].markdown || '').replace(/\[Date\]/g, today) };
+    }
+    return out;
+  }
+  const lettersFor = () => _stampDate(isExample() ? MARIA_LETTERS : genericLetters());
 
   // ---- the fetch shim ------------------------------------------------------
   const realFetch = typeof window.fetch === 'function' ? window.fetch.bind(window) : null;

@@ -68,12 +68,15 @@ def main() -> None:
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(html, encoding="utf-8")
 
-    # ship the legal page next to the demo so its footer links resolve
+    # ship the legal page next to the demo so its footer links resolve. In this
+    # flat build the app is index.html at the same level, so the legal page's
+    # "back" link must point there (not the source's ../map/index.html), or
+    # clicking Back 404s.
     legal_src = ROOT / "mockups" / "legal.html"
     if legal_src.exists():
-        (OUT.parent / "legal.html").write_text(
-            legal_src.read_text(encoding="utf-8"), encoding="utf-8"
-        )
+        legal_html = legal_src.read_text(encoding="utf-8")
+        legal_html = legal_html.replace('href="map/index.html"', 'href="index.html"')
+        (OUT.parent / "legal.html").write_text(legal_html, encoding="utf-8")
 
     kb = len(html.encode("utf-8")) / 1024
     print(f"Wrote {OUT} ({kb:.0f} KB)")
