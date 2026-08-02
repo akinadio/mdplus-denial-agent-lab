@@ -1174,12 +1174,13 @@ window.APPEAL = {
     // temporal-dead-zone error, since reqList() reads A.bodyPart.
     let flow = [];
     function buildFlow() {
-      flow = ['surgery', 'state', 'insurer', 'letter', 'policy', ...reqList().map(r => r.id), 'summary'];
+      flow = ['surgery', 'state', 'insurer', 'card', 'letter', 'policy', ...reqList().map(r => r.id), 'summary'];
     }
     const stepName = key => {
       if (key === 'surgery') return 'Your surgery';
       if (key === 'state') return 'Your state';
       if (key === 'insurer') return 'Your insurance';
+      if (key === 'card') return 'Insurance card';
       if (key === 'letter') return 'Denial letter';
       if (key === 'policy') return 'Your policy';
       if (key === 'summary') return 'Your appeal packet';
@@ -1187,9 +1188,9 @@ window.APPEAL = {
       return r ? r.title : key;
     };
 
-    let started = false, i = 0;
+    let started = false, i = 0, reached = 0;
     // catId = chosen category, bodyPart drives imaging + insurer/state gating.
-    const A = { catId: '', surgery: '', cpt: '', bodyPart: '', state: '', insurer: '', letter: '', letterFiles: [], letterName: '', policyFiles: [], policyName: '', policyConsent: false, req: {} }; // starts EMPTY
+    const A = { catId: '', surgery: '', cpt: '', bodyPart: '', state: '', insurer: '', cardFiles: [], cardName: '', letter: '', letterFiles: [], letterName: '', policyFiles: [], policyName: '', policyConsent: false, req: {} }; // starts EMPTY
     buildFlow(); // now safe: A exists
 
     // The imaging steps (and therefore flow length + the rail) change with the
@@ -1231,11 +1232,12 @@ window.APPEAL = {
     }
 
     function railHTML() {
-      const done = i;
+      const done = reached;
       const steps = flow.map((key, idx) => {
-        const st = idx < i ? 'done' : idx === i ? 'on' : 'up';
-        const jump = idx < i ? ` data-jump="${idx}"` : ' disabled';
-        const mark = idx < i ? '✓' : (idx + 1);
+        const visited = idx <= reached;
+        const st = idx === i ? 'on' : (visited ? 'done' : 'up');
+        const jump = (idx !== i && visited) ? ` data-jump="${idx}"` : ' disabled';
+        const mark = (idx !== i && visited) ? '✓' : (idx + 1);
         const cur = idx === i ? ' aria-current="step"' : '';
         return `<button class="rstep ${st}"${jump}${cur}>
           <span class="rmark">${mark}</span><span class="rname">${stepName(key)}</span></button>`;
@@ -1246,6 +1248,7 @@ window.APPEAL = {
 
     function render() {
       if (!started) return showHero();
+      reached = Math.max(reached, i);
       stage.classList.add('flowing');
       // Build the two-column shell once; afterwards update the rail IN PLACE so its
       // scroll position is kept and the active step advances one at a time
@@ -1271,10 +1274,11 @@ window.APPEAL = {
       const rail = app.querySelector('.rail');
       if (!rail) return;
       rail.querySelectorAll('.rstep').forEach((btn, idx) => {
-        const st = idx < i ? 'done' : idx === i ? 'on' : 'up';
+        const visited = idx <= reached;
+        const st = idx === i ? 'on' : (visited ? 'done' : 'up');
         btn.className = 'rstep ' + st;
-        btn.querySelector('.rmark').textContent = idx < i ? '✓' : (idx + 1);
-        if (idx < i) {
+        btn.querySelector('.rmark').textContent = (idx !== i && visited) ? '✓' : (idx + 1);
+        if (idx !== i && visited) {
           btn.dataset.jump = idx; btn.removeAttribute('disabled');
           btn.onclick = () => { i = idx; render(); };
         } else {
@@ -1283,7 +1287,7 @@ window.APPEAL = {
         if (idx === i) btn.setAttribute('aria-current', 'step'); else btn.removeAttribute('aria-current');
       });
       const sub = rail.querySelector('.railsub');
-      if (sub) sub.textContent = `${i} of ${flow.length} steps done. Every step is right here.`;
+      if (sub) sub.textContent = `${reached} of ${flow.length} steps done. Every step is right here.`;
     }
 
     function updateBack() {
@@ -1320,6 +1324,7 @@ window.APPEAL = {
       if (key === 'surgery') return drawSurgery();
       if (key === 'state') return drawState();
       if (key === 'insurer') return drawInsurer();
+      if (key === 'card') return drawCard();
       if (key === 'letter') return drawLetter();
       if (key === 'policy') return drawPolicy();
       if (key === 'summary') return drawSummary();
@@ -1513,6 +1518,40 @@ window.APPEAL = {
     // Uploading is never required. With brief consent, a de-identified copy helps
     // the next patient on the same plan (verified before any reuse; flagged stale
     // after ~90 days). Live retrieval still runs regardless.
+    // Optional: a photo of the insurance card. In the live product this is read
+    // (OCR) to pin the EXACT plan — insurers have many plans, and the plan decides
+    // which rules apply — and to fill the letter (name, plan, member ID). Low
+    // confidence / blurry uploads are flagged for the patient to confirm, never
+    // guessed. Uploading is never required.
+    function drawCard() {
+      const chosen = A.cardFiles && A.cardFiles.length;
+      panel(`
+        <h2>Add a photo of your insurance card</h2>
+        <p class="help">This is optional, but it helps a lot. A clear photo of the front (and back) lets us pin your <b>exact plan</b> — most insurers have many plans, and the right one decides which rules apply — and fill in your name, plan, and member ID for you. If a photo is unclear, we'll ask you to confirm the details before using them, so nothing is guessed.</p>
+        <div class="answers">
+          <label class="letter-up${chosen ? ' chosen' : ''}" id="card-drop">
+            <input type="file" id="card-file" accept="image/*,application/pdf" ${IS_PHONE ? 'capture="environment"' : ''} multiple />
+            <span class="up-ic">${chosen ? '✓' : '💳'}</span>
+            <span class="up-head" id="card-head">${chosen ? 'Card attached' : 'Upload your insurance card'}</span>
+            <p class="up-sub" id="card-sub">${chosen ? esc(A.cardName) : 'A photo or scan of the front — and the back too, if you can'}</p>
+          </label>
+          <button class="btn btn-primary btn-lg" id="card-yes">Continue →</button>
+          <button class="letter-skip" id="card-no">I don't have it handy — skip for now</button>
+        </div>`);
+      const drop = document.getElementById('card-drop');
+      document.getElementById('card-file').onchange = e => {
+        const files = Array.from(e.target.files || []);
+        A.cardFiles = files;
+        A.cardName = files.length === 1 ? files[0].name : (files.length ? files.length + ' files attached' : '');
+        drop.classList.toggle('chosen', !!files.length);
+        document.getElementById('card-head').textContent = files.length ? 'Card attached' : 'Upload your insurance card';
+        drop.querySelector('.up-ic').textContent = files.length ? '✓' : '💳';
+        document.getElementById('card-sub').textContent = files.length ? A.cardName : 'A photo or scan of the front — and the back too, if you can';
+      };
+      document.getElementById('card-yes').onclick = () => next();
+      document.getElementById('card-no').onclick = () => { A.cardFiles = []; A.cardName = ''; next(); };
+    }
+
     function drawPolicy() {
       const acc = accessFor(A.insurer) || D.insurerAccessGeneric;
       const chosen = A.policyFiles && A.policyFiles.length;
@@ -2381,7 +2420,7 @@ window.APPEAL = {
       RUN.id = null;
       A.catId=''; A.surgery=''; A.cpt=''; A.bodyPart=''; A.state=''; A.insurer='';
       A.letter=''; A.letterFiles=[]; A.letterName=''; A.policyFiles=[]; A.policyName=''; A.policyConsent=false; A.req={}; A.story='';
-      A.__demoExample=false;
+      A.__demoExample=false; reached = 0;
       buildFlow(); showHero();
     }
 
