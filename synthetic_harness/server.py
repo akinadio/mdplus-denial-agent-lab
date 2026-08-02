@@ -298,6 +298,11 @@ def create_direct_episode(data: dict[str, Any]) -> Episode:
         last_patient_response_id=response["message_id"],
         active_patient_request_id=None,
         requested_arms=requested_arms,
+        # Stamped so the retrieval arms can look up known policy leads (anchors).
+        payer=(data.get("payer") or "").strip(),
+        cpt=(data.get("cpt") or "").strip(),
+        procedure=(data.get("procedure") or "").strip(),
+        state=(data.get("state") or "").strip(),
     )
     episode.log_event(
         role="orchestrator",

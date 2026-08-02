@@ -30,6 +30,7 @@ from pathlib import Path
 from typing import Any
 
 from .integrity import write_json_atomic
+from . import policy_anchors
 
 WORKSPACE = Path(__file__).resolve().parents[1]
 CLAUDE_BIN = os.environ.get("CLAUDE_BIN", "/home/clawd/.local/bin/claude")
@@ -165,7 +166,7 @@ OBJECTIVE
 
 PATIENT-VISIBLE SUBMISSION
 {_transcript_text(work_order)}
-{revision}
+{revision}{policy_anchors.anchors_prompt_block(work_order.get("policy_anchors") or [])}
 OPERATING RULES
 1. Treat the submission as real. Do not assume facts that were not supplied.
 2. First normalize payer, product clues, state, procedure, CPT if present, dates,

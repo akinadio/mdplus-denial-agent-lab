@@ -33,7 +33,11 @@ from typing import Any
 
 from .integrity import utc_now
 
-_LOCK = threading.Lock()
+# Reentrant: a write helper holds _LOCK and then calls _connect(), which may
+# lazily call init(), which also takes _LOCK. A plain Lock would self-deadlock
+# when init() hasn't been called yet (e.g. a direct caller that isn't the
+# server's main()). RLock makes the same-thread re-acquire safe.
+_LOCK = threading.RLock()
 _DB_PATH: Path | None = None
 
 _SCHEMA = """

@@ -9,6 +9,7 @@ from typing import Any
 
 from .episode import Episode
 from .integrity import read_jsonl, sha256_file, utc_now, write_json_atomic
+from . import policy_anchors
 
 WORKSPACE_ROOT = Path(__file__).resolve().parents[1]
 PLATFORM_ROOT = Path(
@@ -395,6 +396,9 @@ def prepare_arm(episode: Episode, arm: str, workspace_root: Path) -> dict[str, A
         "source_boundary": ARM_RULES[arm],
         "result_contract": contract,
         "result_schema": result_schema(),
+        "policy_anchors": policy_anchors.anchors_for(
+            manifest.get("payer"), manifest.get("cpt")
+        ),
     }
     work_order_path = arm_dir / "work_order.json"
     contract_path = arm_dir / "result_contract.json"
@@ -480,6 +484,9 @@ def prepare_correction_arm(
         "source_boundary": ARM_RULES[arm],
         "result_contract": result_contract(),
         "result_schema": result_schema(),
+        "policy_anchors": policy_anchors.anchors_for(
+            episode.manifest().get("payer"), episode.manifest().get("cpt")
+        ),
     }
     work_order_path = revision_dir / "work_order.json"
     contract_path = revision_dir / "result_contract.json"
