@@ -24,6 +24,7 @@ from . import policy_cache
 
 WORKSPACE = Path(__file__).resolve().parents[1]
 _DIRECTORY = WORKSPACE / "data" / "policy_platform" / "procedure_policy_directory.json"
+_MEDICAID = WORKSPACE / "data" / "policy_platform" / "medicaid_coverage_by_state.json"
 
 # payer-name substrings -> directory carrier key.
 _CARRIER_MATCH = [
@@ -47,6 +48,18 @@ def _directory() -> dict[str, Any]:
         return json.loads(_DIRECTORY.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError):
         return {"policies": {}}
+
+
+@lru_cache(maxsize=1)
+def _medicaid() -> dict[str, Any]:
+    try:
+        return json.loads(_MEDICAID.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {"states": {}}
+
+
+def _is_medicaid(payer: str | None) -> bool:
+    return "medicaid" in (payer or "").lower()
 
 
 def carrier_key(payer: str | None) -> str | None:
@@ -77,9 +90,26 @@ def _cpt_matches(patient_cpt: str, entry_cpt: str) -> bool:
     return False
 
 
-def anchors_for(payer: str | None, cpt: str | None) -> list[dict[str, Any]]:
+def anchors_for(
+    payer: str | None, cpt: str | None, state: str | None = None
+) -> list[dict[str, Any]]:
     """Directory + verified cache leads for this carrier + CPT. May be empty."""
     anchors: list[dict[str, Any]] = []
+    # Medicaid: coverage lives in the member's state program, not a national
+    # commercial policy. Point the agent at the state's coverage portal.
+    if _is_medicaid(payer) and state:
+        entry = _medicaid().get("states", {}).get(state.strip().title())
+        if entry and entry.get("coverage_policy_url"):
+            anchors.append({
+                "source": "medicaid_directory",
+                "carrier": entry.get("program_name") or f"{state} Medicaid",
+                "title": entry.get("program_name") or f"{state} Medicaid coverage policy",
+                "url": entry["coverage_policy_url"],
+                "effective_date": None,
+                "verified": False,
+                "note": (entry.get("prior_auth_basis") or "") +
+                        " Confirm whether the member is fee-for-service or in a named managed-care plan.",
+            })
     key = carrier_key(payer)
     if key:
         for row in _directory().get("policies", {}).get(key, []):

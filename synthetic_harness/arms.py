@@ -397,7 +397,7 @@ def prepare_arm(episode: Episode, arm: str, workspace_root: Path) -> dict[str, A
         "result_contract": contract,
         "result_schema": result_schema(),
         "policy_anchors": policy_anchors.anchors_for(
-            manifest.get("payer"), manifest.get("cpt")
+            manifest.get("payer"), manifest.get("cpt"), manifest.get("state")
         ),
     }
     work_order_path = arm_dir / "work_order.json"
@@ -485,7 +485,8 @@ def prepare_correction_arm(
         "result_contract": result_contract(),
         "result_schema": result_schema(),
         "policy_anchors": policy_anchors.anchors_for(
-            episode.manifest().get("payer"), episode.manifest().get("cpt")
+            episode.manifest().get("payer"), episode.manifest().get("cpt"),
+            episode.manifest().get("state"),
         ),
     }
     work_order_path = revision_dir / "work_order.json"

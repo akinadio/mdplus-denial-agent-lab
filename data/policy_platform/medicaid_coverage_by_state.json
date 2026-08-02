@@ -1,0 +1,309 @@
+{
+  "meta": {
+    "description": "Reach OrthoAppeals Medicaid coverage directory: per state, the official Medicaid coverage-policy/provider-manual entry point and how prior authorization works. Medicaid ortho surgery (e.g., TKA 27447) is generally covered as medically necessary; most states delegate the criteria to MCOs (InterQual/MCG) or a state FFS manual — so this is a per-STATE entry point, not per-procedure criteria.",
+    "state_count": 50,
+    "caveat": "Unlike the commercial directory, Medicaid rarely publishes procedure-specific public policies; coverage is medical-necessity + PA via the state FFS manual or the member's managed-care plan. The URL is the authoritative starting point; the live agent should confirm the member's specific plan (FFS vs a named MCO)."
+  },
+  "states": {
+    "Alabama": {
+      "program_name": "Alabama Medicaid Agency",
+      "coverage_policy_url": "https://medicaid.alabama.gov/content/7.0_Providers/7.6_Manuals.aspx",
+      "prior_auth_basis": "FFS: medically necessary per Physician program rules; PA for select procedures; AL largely FFS",
+      "notes": "Provider Billing Manual Ch.28 Physician; PA page 7.7_Prior_Authorization."
+    },
+    "Alaska": {
+      "program_name": "Alaska Medical Assistance",
+      "coverage_policy_url": "https://health.alaska.gov/en/education/service-authorizations/",
+      "prior_auth_basis": "FFS: medical necessity; service authorization required for surgical/inpatient (Conduent/Gainwell)",
+      "notes": "Mostly FFS; detail in Provider Billing Manuals."
+    },
+    "Arizona": {
+      "program_name": "AHCCCS",
+      "coverage_policy_url": "https://www.azahcccs.gov/shared/MedicalPolicyManual/",
+      "prior_auth_basis": "Mostly MCO-administered (UM criteria); FFS uses AMPM Ch.800/820 PA",
+      "notes": "AMPM is master policy; most members in ACC managed care."
+    },
+    "Arkansas": {
+      "program_name": "Arkansas Medicaid",
+      "coverage_policy_url": "https://humanservices.arkansas.gov/divisions-shared-services/medical-services/",
+      "prior_auth_basis": "FFS: medical necessity; PA/UR via AFMC; PASSE managed care for some",
+      "notes": "Provider manuals + AFMC surgical PA."
+    },
+    "California": {
+      "program_name": "Medi-Cal",
+      "coverage_policy_url": "https://www.dhcs.ca.gov/providers-partners/prior-authorization-overview/",
+      "prior_auth_basis": "FFS via Treatment Authorization Request (TAR); most in managed care using InterQual/MCG",
+      "notes": "DHCS Provider Manual; majority in managed care plans."
+    },
+    "Colorado": {
+      "program_name": "Health First Colorado",
+      "coverage_policy_url": "https://hcpf.colorado.gov/par",
+      "prior_auth_basis": "FFS: medical necessity; PA via ColoradoPAR (Acentra) using state criteria + InterQual",
+      "notes": "Physical health largely FFS with RAEs coordinating."
+    },
+    "Connecticut": {
+      "program_name": "HUSKY Health",
+      "coverage_policy_url": "https://www.huskyhealthct.org/providers/prior-authorization.html",
+      "prior_auth_basis": "Self-insured FFS (ASO by CHNCT); medical necessity, PA per HUSKY clinical policies",
+      "notes": "Single FFS model, no full-risk medical MCOs."
+    },
+    "Delaware": {
+      "program_name": "Delaware Medicaid (DMMA)",
+      "coverage_policy_url": "https://medicaidpublications.dhss.delaware.gov/",
+      "prior_auth_basis": "Mostly MCO (AmeriHealth Caritas DE, Highmark) using InterQual/MCG; DMMA policy manual",
+      "notes": "Diamond State Health Plan mostly MCO-administered."
+    },
+    "Florida": {
+      "program_name": "Florida Medicaid (AHCA)",
+      "coverage_policy_url": "https://ahca.myflorida.com/provider/policy.html",
+      "prior_auth_basis": "Orthopedic Services Coverage Policy (Rule 59G-4.211); PA per 59G-1.053; SMMC plans administer PA",
+      "notes": "Dedicated Orthopedic Services Coverage Policy exists."
+    },
+    "Georgia": {
+      "program_name": "Georgia Medicaid (DCH)",
+      "coverage_policy_url": "https://www.mmis.georgia.gov/portal/PubPart/AllPolicyManuals/tabId/70/Default.aspx",
+      "prior_auth_basis": "FFS: medical necessity; prior approval (DMA-610) for select surgery; CMOs run own PA",
+      "notes": "Part II Physician Services manual via GAMMIS; most in Georgia Families CMOs."
+    },
+    "Hawaii": {
+      "program_name": "Med-QUEST (QUEST Integration)",
+      "coverage_policy_url": "https://medquest.hawaii.gov/en/plans-providers/fee-for-service/provider-manual.html",
+      "prior_auth_basis": "FFS PA per provider manual; QUEST Integration MCOs use InterQual/MCG",
+      "notes": "Mostly MCO-administered."
+    },
+    "Idaho": {
+      "program_name": "Idaho Medicaid (Healthy Connections)",
+      "coverage_policy_url": "https://healthandwelfare.idaho.gov/providers/idaho-medicaid-providers/information-medicaid-providers",
+      "prior_auth_basis": "FFS PA per state criteria; surgery PA form (Telligen/Gainwell UR)",
+      "notes": "Largely FFS; handbook Medical/Hospital modules at idmedicaid.com."
+    },
+    "Illinois": {
+      "program_name": "HealthChoice Illinois",
+      "coverage_policy_url": "https://hfs.illinois.gov/medicalproviders/mpac.html",
+      "prior_auth_basis": "FFS PA per HFS Medical Prior Approval Criteria (MPAC); MCOs use InterQual/MCG",
+      "notes": "Practitioner Handbook Ch.A-200; most in HealthChoice MCOs."
+    },
+    "Indiana": {
+      "program_name": "IHCP (HIP / Hoosier Healthwise / Hoosier Care Connect)",
+      "coverage_policy_url": "https://www.in.gov/medicaid/providers/clinical-services/prior-authorization/",
+      "prior_auth_basis": "FFS PA per IHCP criteria; MCEs use InterQual/MCG",
+      "notes": "Predominantly MCO/MCE-administered."
+    },
+    "Iowa": {
+      "program_name": "IA Health Link",
+      "coverage_policy_url": "https://hhs.iowa.gov/medicaid/provider-services/covered-services-rates-and-payments/prior-authorization",
+      "prior_auth_basis": "FFS PA per Iowa Medicaid criteria; MCOs (Iowa Total Care, Wellpoint) use InterQual/MCG",
+      "notes": "Mostly MCO-administered."
+    },
+    "Kansas": {
+      "program_name": "KanCare (KMAP)",
+      "coverage_policy_url": "https://portal.kmap-state-ks.us/PublicPage/Public/ProviderManuals",
+      "prior_auth_basis": "FFS PA per KMAP manual; KanCare MCOs use InterQual/MCG",
+      "notes": "Nearly all in KanCare MCOs (Aetna, Sunflower, Healthy Blue)."
+    },
+    "Kentucky": {
+      "program_name": "Kentucky Medicaid (DMS)",
+      "coverage_policy_url": "https://www.chfs.ky.gov/agencies/dms/provider/pages/default.aspx",
+      "prior_auth_basis": "FFS PA per DMS criteria (KYHealth Net e-PA); MCOs use InterQual/MCG",
+      "notes": "Predominantly MCO-administered."
+    },
+    "Louisiana": {
+      "program_name": "Healthy Louisiana (LDH)",
+      "coverage_policy_url": "https://ldh.la.gov/medicaid/medicaid-services",
+      "prior_auth_basis": "FFS PA per LDH provider-manual (PC-PM); Healthy Louisiana MCOs use InterQual/MCG",
+      "notes": "Mostly MCO-administered."
+    },
+    "Maine": {
+      "program_name": "MaineCare",
+      "coverage_policy_url": "https://www.maine.gov/sos/rulemaking/agency-rules/mainecare-benefits-manual",
+      "prior_auth_basis": "FFS PA per MaineCare Benefits Manual (UR via Kepro/Acentra)",
+      "notes": "Primarily FFS; MBM Ch.II Section 90 Physician / 45 Hospital."
+    },
+    "Maryland": {
+      "program_name": "Maryland Medicaid / HealthChoice",
+      "coverage_policy_url": "https://health.maryland.gov/mmcp/pages/preauthorization-information.aspx",
+      "prior_auth_basis": "FFS PA per state criteria; HealthChoice MCOs use InterQual/MCG",
+      "notes": "Mostly MCO-administered."
+    },
+    "Massachusetts": {
+      "program_name": "MassHealth",
+      "coverage_policy_url": "https://www.mass.gov/prior-authorization-for-masshealth-providers",
+      "prior_auth_basis": "FFS PA per 130 CMR + medical-necessity guidelines; ACOs/MCOs use InterQual/MCG",
+      "notes": "Some ortho items (e.g., knee arthroscopy) have specific PA."
+    },
+    "Michigan": {
+      "program_name": "Michigan Medicaid (MDHHS)",
+      "coverage_policy_url": "https://www.michigan.gov/mdhhs/doing-business/providers/providers/medicaid/policyforms/medicaid-provider-manual",
+      "prior_auth_basis": "FFS PA per Provider Manual/FFS criteria; Medicaid Health Plans use InterQual/MCG",
+      "notes": "Most in Medicaid Health Plans (CHCP)."
+    },
+    "Minnesota": {
+      "program_name": "Minnesota Health Care Programs",
+      "coverage_policy_url": "https://www.dhs.state.mn.us/ID_008925/",
+      "prior_auth_basis": "FFS authorization per MHCP Provider Manual (Acentra); MCOs use own criteria",
+      "notes": "Prepaid Medical Assistance MCOs administer PA."
+    },
+    "Mississippi": {
+      "program_name": "Mississippi Medicaid (DOM)",
+      "coverage_policy_url": "https://medicaid.ms.gov/prior-authorization/",
+      "prior_auth_basis": "FFS PA via Telligen per Admin Code; MississippiCAN MCOs use InterQual/MCG",
+      "notes": "Procedure-code PA list; Title 23 Admin Code."
+    },
+    "Missouri": {
+      "program_name": "MO HealthNet",
+      "coverage_policy_url": "https://mydss.mo.gov/mhd/provider-manuals",
+      "prior_auth_basis": "FFS PA per Physician manual medical necessity; Managed Care plans run own PA",
+      "notes": "Manuals also at manuals.momed.com."
+    },
+    "Montana": {
+      "program_name": "Montana Healthcare Programs",
+      "coverage_policy_url": "https://medicaidprovider.mt.gov/priorauthorization",
+      "prior_auth_basis": "Primarily FFS; PA per provider manuals + Admin Rules of Montana",
+      "notes": "Largely FFS (Passport PCCM); surgery-facility manuals exist."
+    },
+    "Nebraska": {
+      "program_name": "Nebraska Medicaid (Heritage Health)",
+      "coverage_policy_url": "https://dhhs.ne.gov/Pages/Medicaid-Provider-Handbooks.aspx",
+      "prior_auth_basis": "FFS PA per 471 NAC (Gainwell); Heritage Health MCOs use InterQual/MCG",
+      "notes": "Criteria/forms at nebraska.fhsc.com; most in MCOs."
+    },
+    "Nevada": {
+      "program_name": "Nevada Medicaid",
+      "coverage_policy_url": "https://www.nevadamedicaid.nv.gov/resources/medicaid-services-manual/",
+      "prior_auth_basis": "FFS PA per Medicaid Services Manual (Ch.600 Physician; Gainwell); MCOs use InterQual/MCG",
+      "notes": "DHCFP MSM governs coverage."
+    },
+    "New Hampshire": {
+      "program_name": "New Hampshire Medicaid",
+      "coverage_policy_url": "https://www.dhhs.nh.gov/programs-services/medicaid/medicaid-provider-relations",
+      "prior_auth_basis": "FFS PA per General Billing manuals + He-W rules; MCM MCOs use InterQual/MCG",
+      "notes": "Manuals on nhmmis.nh.gov; most in Medicaid Care Management MCOs."
+    },
+    "New Jersey": {
+      "program_name": "NJ FamilyCare",
+      "coverage_policy_url": "https://www.njmmis.com",
+      "prior_auth_basis": "FFS PA per manuals + N.J.A.C. Title 10; NJ FamilyCare MCOs use InterQual/MCG",
+      "notes": "Predominantly MCO-administered; fiscal agent njmmis.com."
+    },
+    "New Mexico": {
+      "program_name": "New Mexico Medicaid (Turquoise Care)",
+      "coverage_policy_url": "https://www.hca.nm.gov/turquoise-care/",
+      "prior_auth_basis": "Mostly MCO (Turquoise Care) using InterQual/MCG; FFS PA per MAD criteria",
+      "notes": "MAD Managed Care Policy Manual + 8.302 NMAC."
+    },
+    "New York": {
+      "program_name": "NY Medicaid",
+      "coverage_policy_url": "https://www.emedny.org/ProviderManuals/Physician/index.aspx",
+      "prior_auth_basis": "FFS: prior approval per eMedNY Physician Manual; MCOs use own UM criteria",
+      "notes": "Most in Medicaid Managed Care."
+    },
+    "North Carolina": {
+      "program_name": "NC Medicaid",
+      "coverage_policy_url": "https://medicaid.ncdhhs.gov/providers/programs-and-services/prior-approval-and-due-process",
+      "prior_auth_basis": "FFS PA per NC Clinical Coverage Policies (1A surgical series); PHPs/Tailored Plans",
+      "notes": "Numbered Clinical Coverage Policies; much of pop in managed care."
+    },
+    "North Dakota": {
+      "program_name": "North Dakota Medicaid",
+      "coverage_policy_url": "https://www.hhs.nd.gov/sites/www/files/documents/medicaid-policies/service-authorizations.pdf",
+      "prior_auth_basis": "FFS service authorization per ND Billing and Policy Manual; medical necessity",
+      "notes": "Predominantly FFS."
+    },
+    "Ohio": {
+      "program_name": "Ohio Medicaid (ODM)",
+      "coverage_policy_url": "https://medicaid.ohio.gov/resources-for-providers/billing/prior-authorization-requirements/prior-authorization-requirements",
+      "prior_auth_basis": "FFS PA per ODM; Next Generation MCOs use InterQual/MCG",
+      "notes": "Most in Next Generation managed care."
+    },
+    "Oklahoma": {
+      "program_name": "SoonerCare (OHCA)",
+      "coverage_policy_url": "https://oklahoma.gov/ohca/providers/claim-tools/prior-authorization.html",
+      "prior_auth_basis": "FFS PA per OAC Title 317; SoonerSelect MCOs administer PA",
+      "notes": "SoonerSelect MCOs now cover most members."
+    },
+    "Oregon": {
+      "program_name": "Oregon Health Plan",
+      "coverage_policy_url": "https://www.oregon.gov/oha/hsd/ohp/pages/prioritized-list.aspx",
+      "prior_auth_basis": "Coverage by HERC Prioritized List line; PA to OHA (FFS) or member's CCO",
+      "notes": "Major joint surgery on covered lines; most in CCOs."
+    },
+    "Pennsylvania": {
+      "program_name": "PA Medical Assistance",
+      "coverage_policy_url": "https://www.pa.gov/agencies/dhs/resources/for-providers/promise/promise-provider-handbooks-guides",
+      "prior_auth_basis": "FFS PA per PROMISe handbooks + 55 Pa Code Ch.1101/1150; HealthChoices MCOs administer PA",
+      "notes": "Most in HealthChoices managed care."
+    },
+    "Rhode Island": {
+      "program_name": "RI Medicaid (EOHHS)",
+      "coverage_policy_url": "https://eohhs.ri.gov/providers-partners/provider-manuals-guidelines/medicaid-provider-manual/physician",
+      "prior_auth_basis": "FFS PA per EOHHS Provider Manual; MCOs administer PA",
+      "notes": "Most in MCOs (Neighborhood, UHC, Tufts)."
+    },
+    "South Carolina": {
+      "program_name": "SC Healthy Connections",
+      "coverage_policy_url": "https://www.scdhhs.gov/providers/manuals/physicians-services-provider-manual",
+      "prior_auth_basis": "FFS PA per SCDHHS Physicians Services Manual; MCOs use InterQual/MCG",
+      "notes": "Most in Healthy Connections managed care."
+    },
+    "South Dakota": {
+      "program_name": "South Dakota Medicaid",
+      "coverage_policy_url": "https://dss.sd.gov/medicaid/providers/billingmanuals/",
+      "prior_auth_basis": "FFS: medical necessity per SD Billing and Policy Manual; PA per state criteria",
+      "notes": "Largely FFS (no full-risk MCOs)."
+    },
+    "Tennessee": {
+      "program_name": "TennCare",
+      "coverage_policy_url": "https://www.tn.gov/tenncare/providers/managed-care-contractors.html",
+      "prior_auth_basis": "~100% managed care; MCCs administer PA (InterQual/MCG) + TennCare rules",
+      "notes": "No central FFS medical policy; delegated to MCCs."
+    },
+    "Texas": {
+      "program_name": "Texas Medicaid",
+      "coverage_policy_url": "https://www.tmhp.com/resources/provider-manuals/tmppm",
+      "prior_auth_basis": "FFS PA via TMHP per TMPPM (PA chapter 1.05); STAR MCOs use InterQual/MCG",
+      "notes": "TMHP is claims/PA administrator; most in STAR."
+    },
+    "Utah": {
+      "program_name": "Utah Medicaid",
+      "coverage_policy_url": "https://medicaid.utah.gov/utah-medicaid-criteria/",
+      "prior_auth_basis": "FFS PA per Utah Medicaid coverage criteria; ACOs apply own criteria",
+      "notes": "Physician Services Provider Manual defines covered surgery."
+    },
+    "Vermont": {
+      "program_name": "Vermont Medicaid (DVHA)",
+      "coverage_policy_url": "http://ovha.vermont.gov/for-providers/clinical-coverage-guidelines",
+      "prior_auth_basis": "Primarily FFS; PA per DVHA Clinical Coverage Guidelines",
+      "notes": "Largely FFS (no full-risk MCOs)."
+    },
+    "Virginia": {
+      "program_name": "Virginia Medicaid (Cardinal Care)",
+      "coverage_policy_url": "https://vamedicaid.dmas.virginia.gov/manuals/provider-manuals-library",
+      "prior_auth_basis": "FFS service authorization per DMAS manuals; Cardinal Care MCOs use InterQual/MCG",
+      "notes": "Practitioner manual Ch.IV; most in Cardinal Care MCOs."
+    },
+    "Washington": {
+      "program_name": "Apple Health (WA)",
+      "coverage_policy_url": "https://www.hca.wa.gov/billers-providers-partners/prior-authorization-claims-and-billing",
+      "prior_auth_basis": "FFS PA per HCA billing guides + WAC; Apple Health MCOs use InterQual/MCG",
+      "notes": "Most in Integrated Managed Care."
+    },
+    "West Virginia": {
+      "program_name": "West Virginia Medicaid",
+      "coverage_policy_url": "https://bms.wv.gov/chapter-519-practitioner-services",
+      "prior_auth_basis": "FFS per BMS Ch.519 Practitioner Services (519.16 Surgical); MCOs apply own criteria",
+      "notes": "Dedicated Surgical Services policy; most in Mountain Health Trust."
+    },
+    "Wisconsin": {
+      "program_name": "ForwardHealth (BadgerCare Plus)",
+      "coverage_policy_url": "https://www.forwardhealth.wi.gov/kw/pdf/phy_medicine_surgery.pdf",
+      "prior_auth_basis": "FFS PA per ForwardHealth Online Handbook; HMOs apply own criteria",
+      "notes": "Physician 'Medicine and Surgery' handbook."
+    },
+    "Wyoming": {
+      "program_name": "Wyoming Medicaid",
+      "coverage_policy_url": "https://www.wyomingmedicaid.com/portal/Provider-Manuals-and-Bulletins",
+      "prior_auth_basis": "FFS PA via Telligen (state UM/QIO) per state/InterQual criteria; medical necessity",
+      "notes": "FFS statewide (no full-risk MCOs)."
+    }
+  }
+}

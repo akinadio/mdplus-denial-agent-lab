@@ -31,6 +31,16 @@ class AnchorTests(unittest.TestCase):
     def test_no_anchor_for_unknown_carrier(self):
         self.assertEqual(policy_anchors.anchors_for("Tiny Regional HMO", "27447"), [])
 
+    def test_medicaid_anchor_uses_state_portal(self):
+        anchors = policy_anchors.anchors_for("Texas Medicaid", "27447", "Texas")
+        med = [a for a in anchors if a["source"] == "medicaid_directory"]
+        self.assertEqual(len(med), 1)
+        self.assertIn("tmhp.com", med[0]["url"])
+
+    def test_medicaid_without_state_gives_no_medicaid_anchor(self):
+        anchors = policy_anchors.anchors_for("Medicaid", "27447")
+        self.assertFalse(any(a["source"] == "medicaid_directory" for a in anchors))
+
     def test_prompt_block_renders_and_is_empty_when_none(self):
         self.assertEqual(policy_anchors.anchors_prompt_block([]), "")
         block = policy_anchors.anchors_prompt_block(policy_anchors.anchors_for("Cigna", "27447"))

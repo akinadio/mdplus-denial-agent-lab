@@ -29,6 +29,8 @@ data/policy_platform/*
 !data/policy_platform/procedure_policy_directory.json
 !data/policy_platform/insurer_access_instructions.json
 !data/policy_platform/README_policy_directory.md
+!data/policy_platform/medicaid_coverage_by_state.csv
+!data/policy_platform/medicaid_coverage_by_state.json
 
 *.passphrase
 *.pem
