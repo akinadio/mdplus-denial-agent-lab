@@ -1,22 +1,28 @@
-"""Sustainable, unattended execution of a prepared arm via the Anthropic API.
+"""Sustainable, unattended execution of a prepared web arm via a model API.
 
 Why this module exists
 ----------------------
 The original harness reached the model by shelling out to the `codex`/`claude`
 CLI, which is authenticated by an *interactive login* that lives on the host.
 That login token expires. An operator has to be around to refresh it, and a run
-that outlives the token dies mid-flight (this actually happened in the eval
-board's T021 probe). A service that is meant to run untouched for months cannot
-depend on a session that a human has to re-authenticate.
+that outlives the token dies mid-flight. A service meant to run untouched for
+months cannot depend on a session a human has to re-authenticate.
 
-This engine talks to the Messages API directly, authenticated by an API **key**
-held as a server secret (`ANTHROPIC_API_KEY`). Nothing expires; nothing needs a
-human. It also removes the CLI and the MCP subprocess entirely: the agent's only
-two capabilities -- `web_search` and `http_fetch` -- are ordinary in-process
-function calls here. Because the tool loop is the only surface the model can act
-through, the `web_only` isolation is intrinsic: there is no file tool, no shell,
-and no path to the local library or the answer key. The macOS `sandbox-exec`
-barrier is therefore unnecessary for this engine.
+This engine talks to a model API directly, authenticated by an API **key** held
+as a server secret. Nothing expires; nothing needs a human. It also removes the
+CLI and the MCP subprocess entirely: the agent's only two capabilities --
+`web_search` and `http_fetch` -- are ordinary in-process function calls here.
+Because the tool loop is the only surface the model can act through, the
+`web_only` isolation is intrinsic: there is no file tool, no shell, and no path
+to the local library or the answer key.
+
+Multi-provider
+--------------
+The tool loop itself is provider-independent and lives in `providers.py`, so the
+identical task/tools/prompts run on Anthropic (Claude), OpenAI (GPT), or Google
+(Gemini). Pick with `MDPLUS_ENGINE_PROVIDER` (or pass `provider=`). This is what
+lets us measure which model grounds appeals most accurately — the moat — on a
+level field.
 
 Contract
 --------
@@ -35,6 +41,7 @@ import time
 from pathlib import Path
 from typing import Any, Callable
 
+from . import providers
 from .integrity import write_json_atomic
 from .agent_runner import (
     SYSTEM_PROMPT,
@@ -53,56 +60,19 @@ MAX_OUTPUT_TOKENS = int(os.environ.get("MDPLUS_MAX_OUTPUT_TOKENS", "8000"))
 _SEARCH_DEFAULT_COUNT = 5
 _FETCH_MAX_TEXT_CHARS = 12000
 
-# Anthropic tool schemas. Identical capability surface to the MCP server, but
-# expressed with the API's `input_schema` key.
-API_TOOLS = [
-    {
-        "name": "web_search",
-        "description": (
-            "Search the public web. Returns up to `count` results, each with a "
-            "title, a URL and a snippet. Use this to find candidate insurer or "
-            "Medicare coverage policy documents."
-        ),
-        "input_schema": {
-            "type": "object",
-            "properties": {
-                "query": {"type": "string", "description": "The search query."},
-                "count": {
-                    "type": "integer",
-                    "description": "Number of results, 1 to 20. Default 5.",
-                },
-            },
-            "required": ["query"],
-        },
-    },
-    {
-        "name": "http_fetch",
-        "description": (
-            "Fetch a public URL over HTTP GET and return the HTTP status, the "
-            "final URL after redirects, the content type and the extracted text "
-            "(HTML and PDF supported). Use this to read a candidate policy "
-            "document and check what it actually says."
-        ),
-        "input_schema": {
-            "type": "object",
-            "properties": {
-                "url": {"type": "string", "description": "Absolute http(s) URL."}
-            },
-            "required": ["url"],
-        },
-    },
-]
+# The Anthropic-shaped tool surface, kept as a re-export for callers/tests that
+# reference it. The canonical, provider-independent definitions live in
+# providers.CANONICAL_TOOLS.
+API_TOOLS = providers.AnthropicProvider()._tools()
 
 
-def api_available() -> bool:
-    """True when this engine can run: a key is present and the SDK imports."""
-    if not os.environ.get("ANTHROPIC_API_KEY"):
+def api_available(provider: str | None = None) -> bool:
+    """True when the engine can run: the selected provider's key is present and
+    its SDK imports. Defaults to MDPLUS_ENGINE_PROVIDER, then Anthropic."""
+    try:
+        return providers.get_provider(provider).available()
+    except ValueError:
         return False
-    try:  # pragma: no cover - import availability is environment-dependent
-        import anthropic  # noqa: F401
-    except ImportError:
-        return False
-    return True
 
 
 class _ToolRunner:
@@ -197,6 +167,8 @@ class _ToolRunner:
 
 
 def _client(timeout: int):
+    """Anthropic client factory. Kept module-level (and patchable in tests) so
+    the default/Anthropic path is unchanged by the multi-provider refactor."""
     import anthropic
 
     return anthropic.Anthropic(
@@ -206,90 +178,40 @@ def _client(timeout: int):
     )
 
 
-def _text_from_content(content: list[Any]) -> str:
-    parts = []
-    for block in content:
-        if getattr(block, "type", None) == "text":
-            parts.append(block.text)
-    return "".join(parts)
+def _resolve(provider_name: str | None, model: str) -> tuple[Any, str]:
+    """Pick the provider adapter and the effective model. When the caller left
+    the model at the Anthropic default but selected another provider, fall back
+    to that provider's own default model."""
+    provider = providers.get_provider(provider_name)
+    if provider.name != "anthropic" and (not model or model == DEFAULT_API_MODEL):
+        model = provider.default_model()
+    elif not model:
+        model = provider.default_model()
+    return provider, model
 
 
-def _agent_loop(
-    *,
-    client: Any,
-    model: str,
-    system_prompt: str,
-    prompt: str,
-    tools_call: Callable[[str, dict[str, Any]], dict[str, Any]],
-    deadline: float,
-    usage: dict[str, int],
-) -> tuple[str, list[dict[str, Any]], str]:
-    """Drive the tool-use conversation to a final text answer.
-
-    Returns (final_text, messages, stop_reason). `messages` is the full running
-    transcript so the caller can continue the same conversation for a repair
-    round. `usage` accumulates input/output tokens across every request.
-    """
-    messages: list[dict[str, Any]] = [{"role": "user", "content": prompt}]
-    final_text = ""
-    stop_reason = "max_iterations"
-
-    for _ in range(MAX_TOOL_ITERATIONS):
-        if time.time() > deadline:
-            stop_reason = "timeout"
-            break
-        response = client.messages.create(
-            model=model,
-            max_tokens=MAX_OUTPUT_TOKENS,
-            system=system_prompt,
-            tools=API_TOOLS,
-            messages=messages,
-        )
-        u = getattr(response, "usage", None)
-        if u is not None:
-            usage["input_tokens"] += getattr(u, "input_tokens", 0) or 0
-            usage["output_tokens"] += getattr(u, "output_tokens", 0) or 0
-        stop_reason = response.stop_reason
-        # Persist the assistant turn verbatim so tool_result ids line up.
-        messages.append({"role": "assistant", "content": response.content})
-
-        if response.stop_reason != "tool_use":
-            final_text = _text_from_content(response.content)
-            break
-
-        tool_results = []
-        for block in response.content:
-            if getattr(block, "type", None) != "tool_use":
-                continue
-            out = tools_call(block.name, dict(block.input or {}))
-            tool_results.append(
-                {
-                    "type": "tool_result",
-                    "tool_use_id": block.id,
-                    "content": json.dumps(out, ensure_ascii=False),
-                }
-            )
-        messages.append({"role": "user", "content": tool_results})
-
-    return final_text, messages, stop_reason
+def _make_client(provider: Any, timeout: int) -> Any:
+    # Anthropic goes through the module-level _client so existing tests that
+    # patch it keep working; other providers build their own client.
+    if provider.name == "anthropic":
+        return _client(timeout)
+    return provider.make_client(timeout)
 
 
-def _repair_missing_sections_api(
+def _repair_missing_sections(
     *,
     result: dict[str, Any],
     arm_dir: Path,
+    provider: Any,
     client: Any,
     model: str,
-    system_prompt: str,
-    messages: list[dict[str, Any]],
+    transcript: Any,
     usage: dict[str, int],
     deadline: float,
 ) -> dict[str, Any] | None:
     """Ask the SAME conversation for required fields the model left out.
-
-    Mirrors agent_runner._repair_missing_sections but continues the API
-    transcript instead of resuming a CLI session. Mutates `result` in place.
-    """
+    Mutates `result` in place. Provider-agnostic: the model call goes through
+    `provider.continue_once`."""
     from .arms import result_contract
 
     required = result_contract()["required_top_level_fields"]
@@ -309,23 +231,16 @@ def _repair_missing_sections_api(
         "JSON object that contains ONLY those missing fields, filled in from the "
         "policy you already read. Use the same schema as before."
     )
-    messages = messages + [{"role": "user", "content": ask}]
     try:
-        response = client.messages.create(
-            model=model,
+        text = provider.continue_once(
+            client=client, model=model, system=SYSTEM_PROMPT,
+            transcript=transcript, ask=ask, usage=usage,
             max_tokens=MAX_OUTPUT_TOKENS,
-            system=system_prompt,
-            tools=API_TOOLS,
-            messages=messages,
         )
     except Exception as exc:  # noqa: BLE001
         record["outcome"] = f"repair request failed: {exc}"
         return record
-    u = getattr(response, "usage", None)
-    if u is not None:
-        usage["input_tokens"] += getattr(u, "input_tokens", 0) or 0
-        usage["output_tokens"] += getattr(u, "output_tokens", 0) or 0
-    patch = extract_json(_text_from_content(response.content)) or {}
+    patch = extract_json(text) or {}
     filled = [f for f in missing if f in patch]
     for field in filled:
         result[field] = patch[field]
@@ -341,11 +256,14 @@ def run_api_arm(
     timeout: int = 1800,
     model: str = DEFAULT_API_MODEL,
     on_cost: Callable[[float], None] | None = None,
+    provider: str | None = None,
 ) -> dict[str, Any]:
-    """Run one prepared web arm to completion through the Anthropic API.
+    """Run one prepared web arm to completion through the selected model API.
 
-    `on_cost`, if given, is called once with the run's estimated USD cost so an
-    orchestrator can enforce a spend budget. Returns the run-outcome dict.
+    `provider` selects Anthropic / OpenAI / Google (defaults to
+    MDPLUS_ENGINE_PROVIDER, then Anthropic). `on_cost`, if given, is called once
+    with the run's estimated USD cost so an orchestrator can enforce a budget.
+    Returns the run-outcome dict.
     """
     arm = work_order["arm"]
     if arm != "web_only":
@@ -356,10 +274,17 @@ def run_api_arm(
                 "tools that this engine deliberately does not expose"
             ),
         }
-    if not os.environ.get("ANTHROPIC_API_KEY"):
+    try:
+        prov, model = _resolve(provider, model)
+    except ValueError as exc:
+        return {"returncode": 3, "error": str(exc)}
+    if not prov.available():
         return {
             "returncode": 3,
-            "error": "ANTHROPIC_API_KEY is not set; the api engine cannot run",
+            "error": (
+                f"{prov.key_env} is not set (or its SDK is missing); the "
+                f"{prov.name} engine cannot run"
+            ),
         }
 
     trace_path = arm_dir / "agent_tool_trace.jsonl"
@@ -369,23 +294,25 @@ def run_api_arm(
     deadline = started + timeout
 
     try:
-        client = _client(timeout)
+        client = _make_client(prov, timeout)
         runner = _ToolRunner(trace_path, work_order["episode_id"])
-        final_text, messages, stop_reason = _agent_loop(
+        final_text, transcript, stop_reason = prov.run(
             client=client,
             model=model,
-            system_prompt=SYSTEM_PROMPT,
+            system=SYSTEM_PROMPT,
             prompt=prompt,
-            tools_call=runner.call,
+            tool_call=runner.call,
             deadline=deadline,
             usage=usage,
+            max_iters=MAX_TOOL_ITERATIONS,
+            max_tokens=MAX_OUTPUT_TOKENS,
         )
     except Exception as exc:  # noqa: BLE001 - any API/SDK failure is a failed run
         elapsed = round(time.time() - started, 1)
         _write_agent_events(trace_path, arm_dir / "agent_events.jsonl")
         return {
             "returncode": 1,
-            "error": f"api engine failed: {exc}",
+            "error": f"{prov.name} engine failed: {exc}",
             "elapsed_s": elapsed,
         }
 
@@ -395,6 +322,7 @@ def run_api_arm(
 
     meta: dict[str, Any] = {
         "engine": "api",
+        "provider": prov.name,
         "model": model,
         "elapsed_s": elapsed,
         "stop_reason": stop_reason,
@@ -425,13 +353,13 @@ def run_api_arm(
             "elapsed_s": elapsed,
         }
 
-    repair = _repair_missing_sections_api(
+    repair = _repair_missing_sections(
         result=result,
         arm_dir=arm_dir,
+        provider=prov,
         client=client,
         model=model,
-        system_prompt=SYSTEM_PROMPT,
-        messages=messages,
+        transcript=transcript,
         usage=usage,
         deadline=deadline,
     )

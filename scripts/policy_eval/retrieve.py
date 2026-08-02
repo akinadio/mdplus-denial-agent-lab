@@ -326,11 +326,68 @@ def invoke_model(
     )
 
 
+def invoke_model_api(
+    prompt: str,
+    model: str,
+    provider_name: str | None,
+    row_id: str,
+    tool_log: Path,
+    timeout: int,
+) -> tuple[dict[str, Any], list[str]]:
+    """Key-based, multi-provider alternative to invoke_model().
+
+    Runs the SAME retrieval prompt + two tools through the api engine so the eval
+    can be graded on Anthropic, OpenAI or Google. Returns the same envelope shape
+    invoke_model() does, so the caller stays provider-agnostic.
+    """
+    import os as _os
+
+    repo_root = Path(__file__).resolve().parents[2]
+    if str(repo_root) not in sys.path:
+        sys.path.insert(0, str(repo_root))
+    from synthetic_harness import providers as _providers
+    from synthetic_harness.api_runner import _ToolRunner
+
+    t0 = time.time()
+    try:
+        prov = _providers.get_provider(provider_name)
+    except ValueError as exc:
+        return ({"ok": False, "error": str(exc), "result_text": "",
+                 "elapsed_s": 0.0}, [f"provider={provider_name}"])
+    if not prov.available():
+        return ({"ok": False,
+                 "error": f"{prov.key_env} not set or its SDK is missing",
+                 "result_text": "", "elapsed_s": 0.0},
+                [f"provider={prov.name}"])
+    eff_model = model
+    if prov.name != "anthropic" and (not model or model == DEFAULT_MODEL):
+        eff_model = prov.default_model()
+    usage = {"input_tokens": 0, "output_tokens": 0}
+    runner = _ToolRunner(tool_log, row_id)
+    argv = ["engine=api", f"provider={prov.name}", f"model={eff_model}"]
+    try:
+        client = prov.make_client(timeout)
+        final_text, _transcript, stop = prov.run(
+            client=client, model=eff_model, system=SYSTEM_PROMPT, prompt=prompt,
+            tool_call=runner.call, deadline=t0 + timeout, usage=usage,
+            max_iters=int(_os.environ.get("MDPLUS_MAX_TOOL_ITERATIONS", "40")),
+            max_tokens=int(_os.environ.get("MDPLUS_MAX_OUTPUT_TOKENS", "8000")),
+        )
+    except Exception as exc:  # noqa: BLE001
+        return ({"ok": False, "error": f"{prov.name} api failed: {exc}",
+                 "result_text": "", "elapsed_s": round(time.time() - t0, 1)}, argv)
+    return ({"ok": True, "error": None, "result_text": final_text,
+             "stop_reason": stop, "model_usage": usage,
+             "elapsed_s": round(time.time() - t0, 1)}, argv)
+
+
 def run(
     run_id: str,
     model: str = DEFAULT_MODEL,
     timeout: int = 420,
     workdir: Path | None = None,
+    engine: str = "cli",
+    provider: str | None = None,
 ) -> Path:
     run_dir = RUNS_DIR / run_id
     queries = read_jsonl(run_dir / "queries.jsonl")
@@ -385,9 +442,14 @@ def run(
     argv_used: list[str] = []
     for q in queries:
         rid = q["row_id"]
-        raw, argv = invoke_model(
-            prompts[rid], model, rid, tool_log, tmp, mcp_config, timeout
-        )
+        if engine == "api":
+            raw, argv = invoke_model_api(
+                prompts[rid], model, provider, rid, tool_log, timeout
+            )
+        else:
+            raw, argv = invoke_model(
+                prompts[rid], model, rid, tool_log, tmp, mcp_config, timeout
+            )
         argv_used = argv
         claim = validate_claim(extract_json(raw.get("result_text", "")), rid)
         records.append(
@@ -469,8 +531,14 @@ def main() -> int:
     ap.add_argument("--run-id", required=True)
     ap.add_argument("--model", default=DEFAULT_MODEL)
     ap.add_argument("--timeout", type=int, default=420)
+    ap.add_argument("--engine", choices=["cli", "api"], default="cli",
+                    help="cli = claude CLI (Anthropic only); api = key-based, "
+                         "multi-provider engine (see --provider)")
+    ap.add_argument("--provider", default=None,
+                    help="with --engine api: anthropic | openai | google")
     args = ap.parse_args()
-    out = run(args.run_id, args.model, args.timeout)
+    out = run(args.run_id, args.model, args.timeout,
+              engine=args.engine, provider=args.provider)
     print(f"wrote {out}")
     return 0
 

@@ -1,0 +1,405 @@
+"""Multi-provider agent loop — run the SAME two-tool retrieval agent on
+Anthropic (Claude), OpenAI (GPT), or Google (Gemini).
+
+Why this exists
+---------------
+The moat is accuracy: OrthoAppeals grounds every appeal in the payer's *actual*
+current policy instead of a model's memory. To prove which model does that best
+— and to avoid betting the product on one vendor — we need to run the identical
+task, with the identical tools and prompts, across providers and compare.
+
+Everything that matters for a fair comparison is held constant here: the system
+prompt, the user prompt, the two tools (`web_search`, `http_fetch`) and their
+in-process implementations, and the strict-JSON output contract. Providers differ
+only in four mechanical ways, which is all this module abstracts:
+
+  1. the SDK client,
+  2. how tools are declared,
+  3. how the model requests a tool call and how a tool result is returned,
+  4. where token usage lives on the response.
+
+Each provider exposes the same surface: `available()`, `default_model()`,
+`make_client()`, `run()` (drive the tool loop to a final text answer, returning
+the running transcript so a repair round can continue it), and `continue_once()`
+(one more turn on the same transcript). Tool execution is passed in as a plain
+`tool_call(name, args) -> dict` callable, so the caller owns logging/tracing and
+the providers stay stateless.
+"""
+
+from __future__ import annotations
+
+import json
+import os
+import time
+from typing import Any, Callable
+
+# --- canonical tool definitions (provider-independent) ---------------------
+# One source of truth; each provider formats these into its own schema shape.
+CANONICAL_TOOLS: list[dict[str, Any]] = [
+    {
+        "name": "web_search",
+        "description": (
+            "Search the public web. Returns up to `count` results, each with a "
+            "title, a URL and a snippet. Use this to find candidate insurer or "
+            "Medicare coverage policy documents."
+        ),
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "The search query."},
+                "count": {
+                    "type": "integer",
+                    "description": "Number of results, 1 to 20. Default 5.",
+                },
+            },
+            "required": ["query"],
+        },
+    },
+    {
+        "name": "http_fetch",
+        "description": (
+            "Fetch a public URL over HTTP GET and return the HTTP status, the "
+            "final URL after redirects, the content type and the extracted text "
+            "(HTML and PDF supported). Use this to read a candidate policy "
+            "document and check what it actually says."
+        ),
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "url": {"type": "string", "description": "Absolute http(s) URL."}
+            },
+            "required": ["url"],
+        },
+    },
+]
+
+ToolCall = Callable[[str, dict[str, Any]], dict[str, Any]]
+
+
+def _dumps(obj: Any) -> str:
+    return json.dumps(obj, ensure_ascii=False)
+
+
+# --------------------------------------------------------------------------
+# Anthropic (Claude)
+# --------------------------------------------------------------------------
+class AnthropicProvider:
+    name = "anthropic"
+    key_env = "ANTHROPIC_API_KEY"
+
+    def default_model(self) -> str:
+        return os.environ.get("MDPLUS_API_MODEL", "claude-opus-5")
+
+    def available(self) -> bool:
+        if not os.environ.get(self.key_env):
+            return False
+        try:  # pragma: no cover - import availability is environment-dependent
+            import anthropic  # noqa: F401
+        except ImportError:
+            return False
+        return True
+
+    def make_client(self, timeout: int) -> Any:
+        import anthropic
+
+        return anthropic.Anthropic(
+            api_key=os.environ[self.key_env],
+            max_retries=int(os.environ.get("MDPLUS_API_MAX_RETRIES", "4")),
+            timeout=float(timeout),
+        )
+
+    def _tools(self) -> list[dict[str, Any]]:
+        return [
+            {"name": t["name"], "description": t["description"], "input_schema": t["parameters"]}
+            for t in CANONICAL_TOOLS
+        ]
+
+    @staticmethod
+    def _text(content: list[Any]) -> str:
+        return "".join(
+            b.text for b in content if getattr(b, "type", None) == "text"
+        )
+
+    @staticmethod
+    def _acc(usage: dict[str, int], resp: Any) -> None:
+        u = getattr(resp, "usage", None)
+        if u is not None:
+            usage["input_tokens"] += getattr(u, "input_tokens", 0) or 0
+            usage["output_tokens"] += getattr(u, "output_tokens", 0) or 0
+
+    def run(self, *, client, model, system, prompt, tool_call, deadline, usage,
+            max_iters, max_tokens):
+        tools = self._tools()
+        messages: list[dict[str, Any]] = [{"role": "user", "content": prompt}]
+        final_text, stop = "", "max_iterations"
+        for _ in range(max_iters):
+            if time.time() > deadline:
+                stop = "timeout"
+                break
+            resp = client.messages.create(
+                model=model, max_tokens=max_tokens, system=system,
+                tools=tools, messages=messages,
+            )
+            self._acc(usage, resp)
+            stop = resp.stop_reason
+            messages.append({"role": "assistant", "content": resp.content})
+            if resp.stop_reason != "tool_use":
+                final_text = self._text(resp.content)
+                break
+            results = []
+            for block in resp.content:
+                if getattr(block, "type", None) != "tool_use":
+                    continue
+                out = tool_call(block.name, dict(block.input or {}))
+                results.append({
+                    "type": "tool_result",
+                    "tool_use_id": block.id,
+                    "content": _dumps(out),
+                })
+            messages.append({"role": "user", "content": results})
+        return final_text, messages, stop
+
+    def continue_once(self, *, client, model, system, transcript, ask, usage, max_tokens):
+        messages = transcript + [{"role": "user", "content": ask}]
+        resp = client.messages.create(
+            model=model, max_tokens=max_tokens, system=system,
+            tools=self._tools(), messages=messages,
+        )
+        self._acc(usage, resp)
+        return self._text(resp.content)
+
+
+# --------------------------------------------------------------------------
+# OpenAI (GPT)
+# --------------------------------------------------------------------------
+class OpenAIProvider:
+    name = "openai"
+    key_env = "OPENAI_API_KEY"
+
+    def default_model(self) -> str:
+        return os.environ.get("MDPLUS_OPENAI_MODEL", "gpt-4o")
+
+    def available(self) -> bool:
+        if not os.environ.get(self.key_env):
+            return False
+        try:  # pragma: no cover
+            import openai  # noqa: F401
+        except ImportError:
+            return False
+        return True
+
+    def make_client(self, timeout: int) -> Any:
+        import openai
+
+        return openai.OpenAI(
+            api_key=os.environ[self.key_env],
+            max_retries=int(os.environ.get("MDPLUS_API_MAX_RETRIES", "4")),
+            timeout=float(timeout),
+        )
+
+    def _tools(self) -> list[dict[str, Any]]:
+        return [
+            {"type": "function", "function": {
+                "name": t["name"], "description": t["description"],
+                "parameters": t["parameters"]}}
+            for t in CANONICAL_TOOLS
+        ]
+
+    def _create(self, client, **kw):
+        """Create a completion, tolerating the max_tokens vs max_completion_tokens
+        split between older chat models and the newer o-series / gpt-5 family."""
+        limit = kw.pop("_max_tokens", None)
+        if limit is not None:
+            try:
+                return client.chat.completions.create(max_tokens=limit, **kw)
+            except Exception as exc:  # noqa: BLE001
+                if "max_tokens" in str(exc) or "max_completion_tokens" in str(exc):
+                    return client.chat.completions.create(
+                        max_completion_tokens=limit, **kw)
+                raise
+        return client.chat.completions.create(**kw)
+
+    @staticmethod
+    def _acc(usage: dict[str, int], resp: Any) -> None:
+        u = getattr(resp, "usage", None)
+        if u is not None:
+            usage["input_tokens"] += getattr(u, "prompt_tokens", 0) or 0
+            usage["output_tokens"] += getattr(u, "completion_tokens", 0) or 0
+
+    def run(self, *, client, model, system, prompt, tool_call, deadline, usage,
+            max_iters, max_tokens):
+        tools = self._tools()
+        messages: list[dict[str, Any]] = [
+            {"role": "system", "content": system},
+            {"role": "user", "content": prompt},
+        ]
+        final_text, stop = "", "max_iterations"
+        for _ in range(max_iters):
+            if time.time() > deadline:
+                stop = "timeout"
+                break
+            resp = self._create(
+                client, model=model, messages=messages, tools=tools,
+                tool_choice="auto", _max_tokens=max_tokens,
+            )
+            self._acc(usage, resp)
+            choice = resp.choices[0]
+            msg = choice.message
+            stop = choice.finish_reason
+            calls = getattr(msg, "tool_calls", None) or []
+            asst: dict[str, Any] = {"role": "assistant", "content": msg.content or ""}
+            if calls:
+                asst["tool_calls"] = [
+                    {"id": c.id, "type": "function",
+                     "function": {"name": c.function.name,
+                                  "arguments": c.function.arguments}}
+                    for c in calls
+                ]
+            messages.append(asst)
+            if not calls:
+                final_text = msg.content or ""
+                break
+            for c in calls:
+                try:
+                    args = json.loads(c.function.arguments or "{}")
+                except json.JSONDecodeError:
+                    args = {}
+                out = tool_call(c.function.name, args)
+                messages.append({
+                    "role": "tool", "tool_call_id": c.id, "content": _dumps(out),
+                })
+        return final_text, messages, stop
+
+    def continue_once(self, *, client, model, system, transcript, ask, usage, max_tokens):
+        messages = transcript + [{"role": "user", "content": ask}]
+        resp = self._create(
+            client, model=model, messages=messages, tools=self._tools(),
+            tool_choice="auto", _max_tokens=max_tokens,
+        )
+        self._acc(usage, resp)
+        return resp.choices[0].message.content or ""
+
+
+# --------------------------------------------------------------------------
+# Google (Gemini) — new `google-genai` SDK
+# --------------------------------------------------------------------------
+class GoogleProvider:
+    name = "google"
+    key_env = "GOOGLE_API_KEY"
+
+    def default_model(self) -> str:
+        return os.environ.get("MDPLUS_GOOGLE_MODEL", "gemini-2.5-pro")
+
+    def available(self) -> bool:
+        if not (os.environ.get(self.key_env) or os.environ.get("GEMINI_API_KEY")):
+            return False
+        try:  # pragma: no cover
+            from google import genai  # noqa: F401
+        except ImportError:
+            return False
+        return True
+
+    def make_client(self, timeout: int) -> Any:  # noqa: ARG002 - timeout via config
+        from google import genai
+
+        return genai.Client(
+            api_key=os.environ.get(self.key_env) or os.environ["GEMINI_API_KEY"]
+        )
+
+    def _tools_and_config(self, system: str, max_tokens: int):
+        from google.genai import types
+
+        decls = [
+            types.FunctionDeclaration(
+                name=t["name"], description=t["description"],
+                parameters=t["parameters"],
+            )
+            for t in CANONICAL_TOOLS
+        ]
+        cfg = types.GenerateContentConfig(
+            system_instruction=system,
+            tools=[types.Tool(function_declarations=decls)],
+            max_output_tokens=max_tokens,
+        )
+        return cfg, types
+
+    @staticmethod
+    def _acc(usage: dict[str, int], resp: Any) -> None:
+        u = getattr(resp, "usage_metadata", None)
+        if u is not None:
+            usage["input_tokens"] += getattr(u, "prompt_token_count", 0) or 0
+            usage["output_tokens"] += getattr(u, "candidates_token_count", 0) or 0
+
+    @staticmethod
+    def _parts(resp: Any):
+        cands = getattr(resp, "candidates", None) or []
+        if not cands:
+            return None, []
+        content = cands[0].content
+        return content, list(getattr(content, "parts", None) or [])
+
+    def run(self, *, client, model, system, prompt, tool_call, deadline, usage,
+            max_iters, max_tokens):
+        cfg, types = self._tools_and_config(system, max_tokens)
+        contents = [types.Content(role="user", parts=[types.Part(text=prompt)])]
+        final_text, stop = "", "max_iterations"
+        for _ in range(max_iters):
+            if time.time() > deadline:
+                stop = "timeout"
+                break
+            resp = client.models.generate_content(
+                model=model, contents=contents, config=cfg)
+            self._acc(usage, resp)
+            content, parts = self._parts(resp)
+            fcalls = [p.function_call for p in parts
+                      if getattr(p, "function_call", None)]
+            if content is not None:
+                contents.append(content)
+            if not fcalls:
+                stop = "stop"
+                final_text = "".join(
+                    getattr(p, "text", "") or "" for p in parts)
+                break
+            stop = "tool_use"
+            fr_parts = []
+            for fc in fcalls:
+                out = tool_call(fc.name, dict(fc.args or {}))
+                fr_parts.append(types.Part(
+                    function_response=types.FunctionResponse(
+                        name=fc.name, response={"result": out})))
+            contents.append(types.Content(role="user", parts=fr_parts))
+        return final_text, contents, stop
+
+    def continue_once(self, *, client, model, system, transcript, ask, usage, max_tokens):
+        cfg, types = self._tools_and_config(system, max_tokens)
+        contents = list(transcript) + [
+            types.Content(role="user", parts=[types.Part(text=ask)])]
+        resp = client.models.generate_content(
+            model=model, contents=contents, config=cfg)
+        self._acc(usage, resp)
+        _, parts = self._parts(resp)
+        return "".join(getattr(p, "text", "") or "" for p in parts)
+
+
+_PROVIDERS = {
+    "anthropic": AnthropicProvider,
+    "openai": OpenAIProvider,
+    "google": GoogleProvider,
+    "gemini": GoogleProvider,  # friendly alias
+}
+
+
+def get_provider(name: str | None = None):
+    """Return the provider adapter. Defaults to MDPLUS_ENGINE_PROVIDER, then
+    'anthropic'. Raises ValueError on an unknown name."""
+    key = (name or os.environ.get("MDPLUS_ENGINE_PROVIDER") or "anthropic").lower()
+    if key not in _PROVIDERS:
+        raise ValueError(
+            f"unknown provider {key!r}; choose one of "
+            f"{sorted(set(_PROVIDERS))}"
+        )
+    return _PROVIDERS[key]()
+
+
+def provider_names() -> list[str]:
+    return ["anthropic", "openai", "google"]
