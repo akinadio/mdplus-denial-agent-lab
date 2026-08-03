@@ -324,7 +324,7 @@ window.APPEAL = {
     },
     {
       id: "pt",
-      q: "In the last twelve months, have you done any formal or directed therapy for this joint?",
+      q: "In the last 12 months, have you done any formal or directed therapy for this joint?",
       title: "Physical therapy",
       plain: "You went to a physical therapist, or did the exercises they gave you.",
       why: "Insurers like to see you gave physical therapy a real try. You don't need to count the visits. Just letting us know you did it is enough here.",
@@ -332,7 +332,7 @@ window.APPEAL = {
     },
     {
       id: "injection",
-      q: "In the last 6 months, have you had a steroid or cortisone injection in the joint?",
+      q: "In the last 12 months, have you had a steroid or cortisone injection in the joint?",
       title: "Steroid / cortisone injection",
       plain: "You had a shot in the joint to calm the pain and swelling.",
       why: "An injection is another treatment insurers like to see you tried. What matters most is whether the relief lasted. A shot that wore off actually strengthens the case for surgery.",

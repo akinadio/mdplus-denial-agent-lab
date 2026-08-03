@@ -752,7 +752,7 @@ window.APPEAL = {
     },
     {
       id: "pt",
-      q: "In the last twelve months, have you done any formal or directed therapy for this joint?",
+      q: "In the last 12 months, have you done any formal or directed therapy for this joint?",
       title: "Physical therapy",
       plain: "You went to a physical therapist, or did the exercises they gave you.",
       why: "Insurers like to see you gave physical therapy a real try. You don't need to count the visits. Just letting us know you did it is enough here.",
@@ -760,7 +760,7 @@ window.APPEAL = {
     },
     {
       id: "injection",
-      q: "In the last 6 months, have you had a steroid or cortisone injection in the joint?",
+      q: "In the last 12 months, have you had a steroid or cortisone injection in the joint?",
       title: "Steroid / cortisone injection",
       plain: "You had a shot in the joint to calm the pain and swelling.",
       why: "An injection is another treatment insurers like to see you tried. What matters most is whether the relief lasted. A shot that wore off actually strengthens the case for surgery.",
@@ -828,6 +828,11 @@ window.APPEAL = {
     try { if (typeof A !== 'undefined' && A) return A; } catch (e) {}
     return window.A || {};
   }
+
+  // A fresh episode id per page load, so the on-screen checklist (which the app
+  // saves per episode id) always starts unchecked in a new demo session instead
+  // of showing ticks left over from a previous run.
+  const RUN_ID = 'demo-' + Math.floor(Math.random() * 1e9);
 
   // ---- 1) the scripted Maria / Aetna / knee result -------------------------
   const MARIA_RESULT = {
@@ -1098,7 +1103,7 @@ window.APPEAL = {
     if (/\/api\/health$/.test(u)) return reply({ ok: true, demo: true });
     if (/\/api\/episodes$/.test(u) && method === 'POST') {
       state.polls = 0;
-      return reply({ manifest: { episode_id: 'demo-run' } });
+      return reply({ manifest: { episode_id: RUN_ID } });
     }
     if (/\/appeal-letter$/.test(u) && method === 'POST') {
       return reply({ letters: lettersFor() });
@@ -1111,11 +1116,13 @@ window.APPEAL = {
     if (/\/api\/episodes\/[^/]+$/.test(u)) {
       state.polls += 1;
       const done = state.polls >= 1; // completes on the first poll (~5s of "searching")
+      let armResult = null;
+      if (done) { armResult = resultFor(); armResult.episode_id = RUN_ID; }
       const arm = done
-        ? { runtime: { status: 'completed' }, result: resultFor(), appeal: appealFor() }
+        ? { runtime: { status: 'completed' }, result: armResult, appeal: appealFor() }
         : { runtime: { status: 'running' } };
       return reply({
-        manifest: { episode_id: 'demo-run' },
+        manifest: { episode_id: RUN_ID },
         arms: { web_only: arm },
         events: done ? [] : [{ arm: 'web_only', summary: 'searching' }]
       });
@@ -1765,7 +1772,7 @@ window.APPEAL = {
       const who = A.insurer ? A.insurer : 'your insurance';
       panel(`
         <div class="eyebrow">Your appeal plan</div>
-        <h2>Here's how to get ${line} approved</h2>
+        <h2>Here's how to appeal your ${line} denial</h2>
         <div class="band">${D.product.reassure}</div>
         ${have.length ? `<div class="sum">${have.map(r => item(r, 'have')).join('')}</div>` : ''}
         ${gather.length ? `<p class="help" style="margin-top:6px"><b>Next, gather these:</b></p><div class="sum">${gather.map(r => item(r, 'gather')).join('')}</div>` : ''}

@@ -808,7 +808,7 @@
       const who = A.insurer ? A.insurer : 'your insurance';
       panel(`
         <div class="eyebrow">Your appeal plan</div>
-        <h2>Here's how to get ${line} approved</h2>
+        <h2>Here's how to appeal your ${line} denial</h2>
         <div class="band">${D.product.reassure}</div>
         ${have.length ? `<div class="sum">${have.map(r => item(r, 'have')).join('')}</div>` : ''}
         ${gather.length ? `<p class="help" style="margin-top:6px"><b>Next, gather these:</b></p><div class="sum">${gather.map(r => item(r, 'gather')).join('')}</div>` : ''}

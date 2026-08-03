@@ -32,6 +32,11 @@
     return window.A || {};
   }
 
+  // A fresh episode id per page load, so the on-screen checklist (which the app
+  // saves per episode id) always starts unchecked in a new demo session instead
+  // of showing ticks left over from a previous run.
+  const RUN_ID = 'demo-' + Math.floor(Math.random() * 1e9);
+
   // ---- 1) the scripted Maria / Aetna / knee result -------------------------
   const MARIA_RESULT = {
     episode_id: 'demo-maria',
@@ -301,7 +306,7 @@
     if (/\/api\/health$/.test(u)) return reply({ ok: true, demo: true });
     if (/\/api\/episodes$/.test(u) && method === 'POST') {
       state.polls = 0;
-      return reply({ manifest: { episode_id: 'demo-run' } });
+      return reply({ manifest: { episode_id: RUN_ID } });
     }
     if (/\/appeal-letter$/.test(u) && method === 'POST') {
       return reply({ letters: lettersFor() });
@@ -314,11 +319,13 @@
     if (/\/api\/episodes\/[^/]+$/.test(u)) {
       state.polls += 1;
       const done = state.polls >= 1; // completes on the first poll (~5s of "searching")
+      let armResult = null;
+      if (done) { armResult = resultFor(); armResult.episode_id = RUN_ID; }
       const arm = done
-        ? { runtime: { status: 'completed' }, result: resultFor(), appeal: appealFor() }
+        ? { runtime: { status: 'completed' }, result: armResult, appeal: appealFor() }
         : { runtime: { status: 'running' } };
       return reply({
-        manifest: { episode_id: 'demo-run' },
+        manifest: { episode_id: RUN_ID },
         arms: { web_only: arm },
         events: done ? [] : [{ arm: 'web_only', summary: 'searching' }]
       });
