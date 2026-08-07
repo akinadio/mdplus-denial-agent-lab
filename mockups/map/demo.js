@@ -291,6 +291,47 @@
   }
   const lettersFor = () => _stampDate(isExample() ? MARIA_LETTERS : genericLetters());
 
+  // Canned response for /api/intake/read so the offline demo can show the whole
+  // read + plan-pin + confirm flow. Reflects whatever the player typed; invents
+  // nothing beyond a plausible plan name. Add ?confirm=1 to the URL to preview
+  // the "confirm what we couldn't read" screen.
+  function demoRead() {
+    const A = getA();
+    const insurer = A.insurer || 'Your insurer';
+    const surgery = (A.surgery || 'the surgery');
+    const cell = (v, c) => ({ value: v, confidence: c || 'high' });
+    const showConfirm = /[?&]confirm=1\b/.test(location.search);
+    const letterText =
+      'Denial notice from ' + insurer + '.\n' +
+      'Requested service: ' + surgery + (A.cpt ? ' (CPT ' + A.cpt + ')' : '') + ' — DENIED.\n' +
+      'Reason: not medically necessary under the plan criteria.\n' +
+      'You have 180 days from the date of this notice to appeal.';
+    const letter = {
+      kind: 'denial_letter', outcome: 'read', document_type: 'denial_letter',
+      text: letterText,
+      fields: {}, denied_procedures: A.cpt ? [{ code: A.cpt, description: surgery, decision: 'DENIED', confidence: 'high' }] : [],
+      needs_confirmation: []
+    };
+    const identity = {
+      name: cell('', 'unreadable'),
+      insurer_name: cell(insurer),
+      insurer_key: null,
+      plan_name: showConfirm ? cell('', 'unreadable') : cell(insurer + ' Choice PPO'),
+      plan_type: showConfirm ? cell('', 'unreadable') : cell('PPO'),
+      member_id: showConfirm ? cell('', 'unreadable') : cell('W123456789'),
+      coverage_line: 'commercial'
+    };
+    const needs = showConfirm ? [
+      { key: 'member_id', label: 'Member ID', value: '', confidence: 'unreadable', reason: 'missing', source: 'insurance card' },
+      { key: 'plan', label: 'Your exact plan', value: '', confidence: 'unreadable', reason: 'We have your insurer but not the exact plan name — most insurers have many plans.', source: 'plan' }
+    ] : [];
+    return {
+      outcome: 'read', letter: letter, card: null,
+      plan: { identity: identity, pinned: !showConfirm, reasons: [] },
+      needs_confirmation: needs
+    };
+  }
+
   // ---- the fetch shim ------------------------------------------------------
   const realFetch = typeof window.fetch === 'function' ? window.fetch.bind(window) : null;
   const reply = (obj, ok) =>
@@ -304,6 +345,9 @@
       return realFetch ? realFetch(url, opts) : reply({}, false);
     }
     if (/\/api\/health$/.test(u)) return reply({ ok: true, demo: true });
+    if (/\/api\/intake\/read$/.test(u) && method === 'POST') {
+      return reply(demoRead());
+    }
     if (/\/api\/episodes$/.test(u) && method === 'POST') {
       state.polls = 0;
       return reply({ manifest: { episode_id: RUN_ID } });

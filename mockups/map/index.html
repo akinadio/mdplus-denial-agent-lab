@@ -137,6 +137,13 @@
   .pol-how li { font-size: 15.5px; line-height: 1.5; margin-bottom: 6px; }
   .pol-phone { font-size: 14.5px; color: var(--ink-soft); margin: 4px 0 0; }
 
+  /* where to send the appeal */
+  .submit { border: 2px solid var(--line); background: var(--card); border-radius: 14px; padding: 6px 18px 10px; }
+  .submit > p { font-size: 15.5px; line-height: 1.55; margin: 12px 0; }
+  .sub-row { display: grid; grid-template-columns: 92px 1fr; gap: 10px; padding: 10px 0; border-top: 1px solid var(--line); align-items: baseline; }
+  .sub-k { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--ink-soft); }
+  .sub-v { font-size: 15.5px; line-height: 1.5; word-break: break-word; }
+
   /* appeal letter */
   .letter-cta { border: 2px solid var(--teal); background: var(--teal-tint); border-radius: 14px; padding: 16px 18px; margin: 0 0 6px; }
   .letter-cta p { margin: 0; font-size: 16px; color: var(--ink-soft); }
@@ -557,6 +564,27 @@
       return null;
     }
 
+    // Where the patient SENDS the finished appeal, per carrier. Same fuzzy match
+    // as accessFor. The denial letter is always authoritative; this is the
+    // fallback path plus the online/phone options. Unmatched -> generic.
+    function submitFor(name) {
+      const sub = D.insurerSubmit || {};
+      const n = (name || '').toLowerCase();
+      const has = (...w) => w.some(x => n.includes(x));
+      if (has('unitedhealth', 'uhc')) return sub.unitedhealthcare;
+      if (has('aetna')) return sub.aetna;
+      if (has('cigna')) return sub.cigna;
+      if (has('anthem', 'elevance')) return sub.anthem;
+      if (has('humana')) return sub.humana;
+      if (has('ambetter', 'centene', 'wellcare')) return sub.centene;
+      if (has('molina')) return sub.molina;
+      if (has('florida blue', 'guidewell')) return sub.floridablue;
+      if (has('medicaid')) return sub.medicaid;
+      if (has('medicare')) return sub.medicare;
+      if (has('blue cross', 'bcbs', 'blue shield', 'hcsc')) return sub.hcsc;
+      return null;
+    }
+
     // Optional: show the patient where THEIR policy lives, and let them upload it.
     // Uploading is never required. With brief consent, a de-identified copy helps
     // the next patient on the same plan (verified before any reuse; flagged stale
@@ -952,10 +980,13 @@
     // The server reads any attached photo into text before the search starts, so
     // send the picture itself. Only describe the gap when there is no letter.
     async function submissionBody() {
-      const attachments = await letterAttachments();
+      // If we already read the letter photo via /intake/read, send that text and
+      // skip re-sending the image (the engine gets the transcript directly).
+      const already = (A.__letterText || '').trim();
+      const attachments = already ? [] : await letterAttachments();
       const policy_attachments = await filesToAttachments(A.policyFiles);
       const pasted = (A.letter || '').trim();
-      const denial = pasted || (attachments.length ? '' : [
+      const denial = pasted || already || (attachments.length ? '' : [
         'The patient did not paste the text of the denial letter.',
         'They could not find the letter.',
         (A.insurer || 'Their insurer') + ' denied ' + (A.surgery || 'the surgery')
@@ -967,7 +998,7 @@
         policy_attachments: policy_attachments,
         policy_consent: !!A.policyConsent,
         payer: A.insurer || '',
-        plan_name: '',
+        plan_name: A.plan_name || '',
         state: A.state || '',
         product_clue: '',
         procedure: A.surgery || '',
@@ -1036,8 +1067,93 @@
       document.getElementById('fail-back').onclick = () => render();
     }
 
+    // Read the uploaded denial letter and/or insurance card into structured
+    // fields, pin the exact plan, and (if anything was blurry) confirm it with
+    // the patient BEFORE building the appeal. Nothing unclear is ever guessed.
+    async function readIntake() {
+      const letter_attachments = await filesToAttachments(A.letterFiles);
+      const card_attachments = await filesToAttachments(A.cardFiles);
+      if (!letter_attachments.length && !card_attachments.length) return null;
+      const r = await fetch(API + '/intake/read', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ letter_attachments, card_attachments })
+      });
+      const j = await r.json().catch(() => ({}));
+      if (!r.ok) throw new Error(j.message || j.error || 'We could not read your upload.');
+      return j;
+    }
+
+    // Fold what we read (and the plan we pinned) into the answers we carry
+    // forward, without clobbering anything the patient already chose.
+    function applyRead(read) {
+      if (!read) return;
+      const id = (read.plan && read.plan.identity) || {};
+      const val = c => (c && c.value) ? String(c.value) : '';
+      if (val(id.insurer_name)) A.insurer = A.insurer || val(id.insurer_name);
+      if (val(id.plan_name)) A.plan_name = val(id.plan_name);
+      if (read.letter && read.letter.text) A.__letterText = read.letter.text;
+      const procs = (read.letter && read.letter.denied_procedures) || [];
+      const denied = procs.find(p => p && p.code && /den/i.test(p.decision || 'denied')) || procs[0];
+      if (!A.cpt && denied && denied.code) A.cpt = denied.code;
+    }
+
+    // The blur guard, made visible: show only the fields we could not read with
+    // confidence, let the patient fix them, then continue.
+    function confirmPanel(read, onDone) {
+      const items = (read.needs_confirmation || []).filter(it => it && it.key !== 'plan' || true);
+      const rowLabel = it => esc(it.label) + (it.source && it.source !== 'plan' ? ' — from your ' + esc(it.source) : '');
+      const rowHint = it => it.reason === 'missing'
+        ? "We couldn't read this. Please type it in."
+        : (it.reason === 'hard to read' ? 'This was hard to read — please check it.' : esc(it.reason || ''));
+      const rows = items.map((it, n) => `
+        <div class="qa">
+          <label for="cf-${n}">${rowLabel(it)}</label>
+          <p class="whytext" style="margin:0 0 6px" >${rowHint(it)}</p>
+          <input class="field" id="cf-${n}" value="${esc(it.value || '')}" placeholder="Type it here" />
+        </div>`).join('');
+      panel(`
+        <div class="eyebrow">Quick check</div>
+        <h2>Confirm a couple of details we couldn't read clearly</h2>
+        <p class="help">We never guess these. A wrong member ID or plan could send your appeal to the wrong place, so please fix anything that looks off, then continue.</p>
+        <div class="res">${rows}</div>
+        <div class="answers" style="margin-top:18px">
+          <button class="btn btn-primary btn-lg" id="cf-go">These look right — continue →</button>
+          <button class="btn btn-ghost btn-lg" id="cf-back">← Go back</button>
+        </div>`);
+      document.getElementById('cf-go').onclick = () => {
+        items.forEach((it, n) => {
+          const el = document.getElementById('cf-' + n);
+          const v = (el && el.value || '').trim();
+          it.value = v;
+          if (it.key === 'insurer_name') A.insurer = v || A.insurer;
+          if (it.key === 'plan' || it.key === 'plan_name') A.plan_name = v || A.plan_name;
+          if (it.key === 'cpt') A.cpt = v || A.cpt;
+        });
+        onDone();
+      };
+      document.getElementById('cf-back').onclick = () => render();
+    }
+
     async function onBuild() {
       if (!(await hasApi())) return previewPanel();
+      // Step 1: read + confirm the uploads, if any.
+      if ((A.cardFiles && A.cardFiles.length) || (A.letterFiles && A.letterFiles.length)) {
+        stopRun();
+        RUN.startedAt = Date.now();
+        runPanel('Reading what you uploaded.');
+        let read;
+        try { read = await readIntake(); }
+        catch (e) { stopRun(); return failPanel(e.message || String(e)); }
+        applyRead(read);
+        if (read && read.needs_confirmation && read.needs_confirmation.length) {
+          stopRun();
+          return confirmPanel(read, onBuildRun);
+        }
+      }
+      return onBuildRun();
+    }
+
+    async function onBuildRun() {
       stopRun();
       RUN.startedAt = Date.now();
       runPanel('Sending your answers.');
@@ -1286,6 +1402,28 @@
         not_appealable: 'A letter may not be the right route here',
         blocked: 'We could not confirm the rule yet'
       };
+      // Where and how to send the finished appeal. The denial letter is always
+      // the authority; this adds the carrier's portal, phone, fax, and mailing
+      // fallback so the patient is never stuck wondering where it goes.
+      const sub = submitFor(A.insurer) || D.insurerSubmitGeneric;
+      const subRow = (label, val) => val
+        ? `<div class="sub-row"><span class="sub-k">${label}</span><span class="sub-v">${rich(val)}</span></div>` : '';
+      const submitSection = `
+        <div class="sec" id="submit-sec">
+          <h3>Where and how to send it</h3>
+          <div class="caveat" style="margin-top:0">
+            <p><b>Look at your denial letter first.</b> The exact address, fax, and deadline to appeal are printed on it, and those always win over anything below. Use these as a backup or to file online.</p>
+          </div>
+          <div class="submit">
+            ${sub.how ? `<p>${rich(sub.how)}</p>` : ''}
+            ${subRow('Online', sub.portal)}
+            ${subRow('Phone', sub.phone)}
+            ${subRow('Fax', sub.fax)}
+            ${subRow('Mail', sub.mail)}
+            ${subRow('Deadline', sub.window)}
+          </div>
+        </div>`;
+
       const letterSection = !ap ? '' : ap.recommended ? `
         <div class="sec" id="letter-sec">
           <h3>Your appeal letter</h3>
@@ -1311,6 +1449,7 @@
             </div>` : ''}
           ${deadline}
           ${letterSection}
+          ${submitSection}
           ${gaps.length ? `
             <div class="sec">
               <h3>The most likely problem</h3>
@@ -1463,6 +1602,7 @@
       RUN.id = null;
       A.catId=''; A.surgery=''; A.cpt=''; A.bodyPart=''; A.state=''; A.insurer='';
       A.letter=''; A.letterFiles=[]; A.letterName=''; A.policyFiles=[]; A.policyName=''; A.policyConsent=false; A.req={}; A.story='';
+      A.cardFiles=[]; A.cardName=''; A.plan_name=''; A.__letterText='';
       A.__demoExample=false; reached = 0;
       buildFlow(); showHero();
     }

@@ -386,6 +386,13 @@ a { color: var(--teal-deep); }
   .pol-how li { font-size: 15.5px; line-height: 1.5; margin-bottom: 6px; }
   .pol-phone { font-size: 14.5px; color: var(--ink-soft); margin: 4px 0 0; }
 
+  /* where to send the appeal */
+  .submit { border: 2px solid var(--line); background: var(--card); border-radius: 14px; padding: 6px 18px 10px; }
+  .submit > p { font-size: 15.5px; line-height: 1.55; margin: 12px 0; }
+  .sub-row { display: grid; grid-template-columns: 92px 1fr; gap: 10px; padding: 10px 0; border-top: 1px solid var(--line); align-items: baseline; }
+  .sub-k { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--ink-soft); }
+  .sub-v { font-size: 15.5px; line-height: 1.5; word-break: break-word; }
+
   /* appeal letter */
   .letter-cta { border: 2px solid var(--teal); background: var(--teal-tint); border-radius: 14px; padding: 16px 18px; margin: 0 0 6px; }
   .letter-cta p { margin: 0; font-size: 16px; color: var(--ink-soft); }
@@ -706,6 +713,114 @@ window.APPEAL = {
     "Virginia": { name: "Anthem / CareFirst (depending on your plan)", site: "carefirst.com / anthem.com" },
     "Washington": { name: "Premera Blue Cross or Regence BlueShield", site: "premera.com / regence.com" },
     "Wyoming": { name: "Blue Cross Blue Shield of Wyoming", site: "bcbswy.com" },
+  },
+
+  // WHERE TO SEND THE APPEAL, per carrier (researched from each carrier's own
+  // grievance/appeal pages). GROUND RULE, said on every result page: the exact
+  // appeal address, fax, and deadline printed ON THE DENIAL LETTER are always
+  // authoritative and win over anything here — plans and addresses vary by
+  // product and state, so we never override the letter. These entries are the
+  // fallback path when the letter is unclear or missing, plus the online/phone
+  // options. Fields left null are intentionally omitted (no public value we
+  // could verify). window = the typical filing window; still confirm on the
+  // letter. NOTHING here is invented — no fabricated emails or addresses.
+  insurerSubmit: {
+    unitedhealthcare: {
+      portal: "member.uhc.com",
+      phone: "The number on your ID card",
+      fax: null,
+      mail: "The appeal address printed on your denial letter",
+      how: "Sign in at member.uhc.com and file the appeal there, or call the number on your card. There is no single public appeals fax or PO box — use the address on your denial letter.",
+      window: "Usually 180 days from the denial",
+    },
+    aetna: {
+      portal: "aetna.com (Member Complaint and Appeal Form)",
+      phone: "1-800-872-3862, or the number on your card",
+      fax: "859-425-3379",
+      mail: "Aetna, PO Box 14463, Lexington, KY 40512",
+      how: "Fill out Aetna's Member Complaint and Appeal Form (in your account at aetna.com, under complaints, grievances and appeals) and fax or mail it. Confirm the address on your denial letter first.",
+      window: "Usually 180 days from the denial",
+    },
+    cigna: {
+      portal: "my.cigna.com",
+      phone: "1-800-244-6224, or the number on your card",
+      fax: null,
+      mail: "The appeal address printed on your denial letter",
+      how: "Log in at my.cigna.com to find your plan's appeal form and submit it there, or call the number on your card. The mailing address is plan-specific — use the one on your denial letter.",
+      window: "Usually 180 days from the denial",
+    },
+    anthem: {
+      portal: "anthem.com, or the Sydney Health app",
+      phone: "The number on the back of your ID card",
+      fax: null,
+      mail: "The plan- and state-specific address on your denial letter",
+      how: "Anthem (Elevance) plans are state- and plan-specific. Log in at anthem.com or call the number on your card, and send your written appeal to the address on your denial letter.",
+      window: "Usually 180 days from the denial",
+    },
+    humana: {
+      portal: "resolutions.humana.com/grievances-appeals-forms",
+      phone: "Expedited: 1-800-867-6601, or the number on your card",
+      fax: null,
+      mail: "Humana Grievances and Appeals, P.O. Box 14546, Lexington, KY 40512-4546",
+      how: "Get the appeal form at resolutions.humana.com, then mail it to the Grievances and Appeals PO box (expedited requests use P.O. Box 14165). Confirm on your denial letter.",
+      window: "Confirm the window on your denial letter",
+    },
+    centene: {
+      portal: "ambetterhealth.com (pick your state, then the appeal/grievance form)",
+      phone: "The number on your ID card",
+      fax: null,
+      mail: "The state plan address printed on your denial letter",
+      how: "Ambetter/Centene is run per state. Go to ambetterhealth.com, choose your state, and use that state's appeal form, or call the number on your card. Mail to the address on your denial letter.",
+      window: "Usually 180 days from the denial",
+    },
+    molina: {
+      portal: "molinahealthcare.com member portal",
+      phone: "The Member Services number on your ID card",
+      fax: null,
+      mail: "State-specific — the address printed on your denial letter",
+      how: "Molina is run per state. Sign in at molinahealthcare.com or call the number on your card, and mail your appeal to the address on your denial letter.",
+      window: "Confirm the window on your denial letter",
+    },
+    hcsc: {
+      portal: "Blue Access for Members (bcbsil.com, bcbstx.com, bcbsnm.com, bcbsok.com, bcbsmt.com)",
+      phone: "The number on your ID card",
+      fax: null,
+      mail: "The plan-specific address printed on your denial letter",
+      how: "Log in to Blue Access for Members on your state's Blue site, or call the number on your card, and mail your appeal to the address on your denial letter.",
+      window: "Usually 180 days from the denial",
+    },
+    floridablue: {
+      portal: "floridablue.com (Member Forms)",
+      phone: "1-800-352-2583 (TTY 1-800-955-8770)",
+      fax: null,
+      mail: "HMO plans: Florida Blue HMO, Attn: HMO Appeals, P.O. Box 41609, Jacksonville, FL 32203-1609 (other Florida Blue plans use a different address — check your denial letter)",
+      how: "Get the appeal form under Member Forms at floridablue.com or call the number above. The mailing address depends on your plan type, so confirm it on your denial letter.",
+      window: "Confirm the window on your denial letter",
+    },
+    medicare: {
+      portal: "medicare.gov/claims-appeals",
+      phone: "1-800-MEDICARE (1-800-633-4227), TTY 1-877-486-2048",
+      fax: null,
+      mail: "Original Medicare: the Medicare Administrative Contractor address on your Medicare Summary Notice (MSN)",
+      how: "Original Medicare: file a redetermination (form CMS-20027) with the contractor listed on your MSN. Medicare Advantage or Part D: appeal to your plan using the address on your denial notice.",
+      window: "Original Medicare: 120 days from the MSN. Medicare Advantage: 60 days",
+    },
+    medicaid: {
+      portal: null,
+      phone: null,
+      fax: null,
+      mail: "Your state Medicaid agency or managed-care plan — the address on your denial letter",
+      how: "Medicaid is run by your state. Appeal through your state Medicaid agency or your managed-care plan, and you can also ask for a state fair hearing. All of the details are on your denial letter.",
+      window: "Often just 30 to 90 days — act quickly and check your letter",
+    },
+  },
+  insurerSubmitGeneric: {
+    portal: "your insurer's member website or app",
+    phone: "The number on the back of your insurance card",
+    fax: null,
+    mail: "The appeal address printed on your denial letter",
+    how: "Log in to your insurer's member site or call the number on your card to file the appeal. Your denial letter has the exact address, fax, and deadline — those are what count.",
+    window: "Usually 180 days, but check your denial letter",
   },
 
   // CONSERVATIVE-CARE questions: the four things a patient may have tried
@@ -1088,6 +1203,47 @@ window.APPEAL = {
   }
   const lettersFor = () => _stampDate(isExample() ? MARIA_LETTERS : genericLetters());
 
+  // Canned response for /api/intake/read so the offline demo can show the whole
+  // read + plan-pin + confirm flow. Reflects whatever the player typed; invents
+  // nothing beyond a plausible plan name. Add ?confirm=1 to the URL to preview
+  // the "confirm what we couldn't read" screen.
+  function demoRead() {
+    const A = getA();
+    const insurer = A.insurer || 'Your insurer';
+    const surgery = (A.surgery || 'the surgery');
+    const cell = (v, c) => ({ value: v, confidence: c || 'high' });
+    const showConfirm = /[?&]confirm=1\b/.test(location.search);
+    const letterText =
+      'Denial notice from ' + insurer + '.\n' +
+      'Requested service: ' + surgery + (A.cpt ? ' (CPT ' + A.cpt + ')' : '') + ' — DENIED.\n' +
+      'Reason: not medically necessary under the plan criteria.\n' +
+      'You have 180 days from the date of this notice to appeal.';
+    const letter = {
+      kind: 'denial_letter', outcome: 'read', document_type: 'denial_letter',
+      text: letterText,
+      fields: {}, denied_procedures: A.cpt ? [{ code: A.cpt, description: surgery, decision: 'DENIED', confidence: 'high' }] : [],
+      needs_confirmation: []
+    };
+    const identity = {
+      name: cell('', 'unreadable'),
+      insurer_name: cell(insurer),
+      insurer_key: null,
+      plan_name: showConfirm ? cell('', 'unreadable') : cell(insurer + ' Choice PPO'),
+      plan_type: showConfirm ? cell('', 'unreadable') : cell('PPO'),
+      member_id: showConfirm ? cell('', 'unreadable') : cell('W123456789'),
+      coverage_line: 'commercial'
+    };
+    const needs = showConfirm ? [
+      { key: 'member_id', label: 'Member ID', value: '', confidence: 'unreadable', reason: 'missing', source: 'insurance card' },
+      { key: 'plan', label: 'Your exact plan', value: '', confidence: 'unreadable', reason: 'We have your insurer but not the exact plan name — most insurers have many plans.', source: 'plan' }
+    ] : [];
+    return {
+      outcome: 'read', letter: letter, card: null,
+      plan: { identity: identity, pinned: !showConfirm, reasons: [] },
+      needs_confirmation: needs
+    };
+  }
+
   // ---- the fetch shim ------------------------------------------------------
   const realFetch = typeof window.fetch === 'function' ? window.fetch.bind(window) : null;
   const reply = (obj, ok) =>
@@ -1101,6 +1257,9 @@ window.APPEAL = {
       return realFetch ? realFetch(url, opts) : reply({}, false);
     }
     if (/\/api\/health$/.test(u)) return reply({ ok: true, demo: true });
+    if (/\/api\/intake\/read$/.test(u) && method === 'POST') {
+      return reply(demoRead());
+    }
     if (/\/api\/episodes$/.test(u) && method === 'POST') {
       state.polls = 0;
       return reply({ manifest: { episode_id: RUN_ID } });
@@ -1521,6 +1680,27 @@ window.APPEAL = {
       return null;
     }
 
+    // Where the patient SENDS the finished appeal, per carrier. Same fuzzy match
+    // as accessFor. The denial letter is always authoritative; this is the
+    // fallback path plus the online/phone options. Unmatched -> generic.
+    function submitFor(name) {
+      const sub = D.insurerSubmit || {};
+      const n = (name || '').toLowerCase();
+      const has = (...w) => w.some(x => n.includes(x));
+      if (has('unitedhealth', 'uhc')) return sub.unitedhealthcare;
+      if (has('aetna')) return sub.aetna;
+      if (has('cigna')) return sub.cigna;
+      if (has('anthem', 'elevance')) return sub.anthem;
+      if (has('humana')) return sub.humana;
+      if (has('ambetter', 'centene', 'wellcare')) return sub.centene;
+      if (has('molina')) return sub.molina;
+      if (has('florida blue', 'guidewell')) return sub.floridablue;
+      if (has('medicaid')) return sub.medicaid;
+      if (has('medicare')) return sub.medicare;
+      if (has('blue cross', 'bcbs', 'blue shield', 'hcsc')) return sub.hcsc;
+      return null;
+    }
+
     // Optional: show the patient where THEIR policy lives, and let them upload it.
     // Uploading is never required. With brief consent, a de-identified copy helps
     // the next patient on the same plan (verified before any reuse; flagged stale
@@ -1916,10 +2096,13 @@ window.APPEAL = {
     // The server reads any attached photo into text before the search starts, so
     // send the picture itself. Only describe the gap when there is no letter.
     async function submissionBody() {
-      const attachments = await letterAttachments();
+      // If we already read the letter photo via /intake/read, send that text and
+      // skip re-sending the image (the engine gets the transcript directly).
+      const already = (A.__letterText || '').trim();
+      const attachments = already ? [] : await letterAttachments();
       const policy_attachments = await filesToAttachments(A.policyFiles);
       const pasted = (A.letter || '').trim();
-      const denial = pasted || (attachments.length ? '' : [
+      const denial = pasted || already || (attachments.length ? '' : [
         'The patient did not paste the text of the denial letter.',
         'They could not find the letter.',
         (A.insurer || 'Their insurer') + ' denied ' + (A.surgery || 'the surgery')
@@ -1931,7 +2114,7 @@ window.APPEAL = {
         policy_attachments: policy_attachments,
         policy_consent: !!A.policyConsent,
         payer: A.insurer || '',
-        plan_name: '',
+        plan_name: A.plan_name || '',
         state: A.state || '',
         product_clue: '',
         procedure: A.surgery || '',
@@ -2000,8 +2183,93 @@ window.APPEAL = {
       document.getElementById('fail-back').onclick = () => render();
     }
 
+    // Read the uploaded denial letter and/or insurance card into structured
+    // fields, pin the exact plan, and (if anything was blurry) confirm it with
+    // the patient BEFORE building the appeal. Nothing unclear is ever guessed.
+    async function readIntake() {
+      const letter_attachments = await filesToAttachments(A.letterFiles);
+      const card_attachments = await filesToAttachments(A.cardFiles);
+      if (!letter_attachments.length && !card_attachments.length) return null;
+      const r = await fetch(API + '/intake/read', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ letter_attachments, card_attachments })
+      });
+      const j = await r.json().catch(() => ({}));
+      if (!r.ok) throw new Error(j.message || j.error || 'We could not read your upload.');
+      return j;
+    }
+
+    // Fold what we read (and the plan we pinned) into the answers we carry
+    // forward, without clobbering anything the patient already chose.
+    function applyRead(read) {
+      if (!read) return;
+      const id = (read.plan && read.plan.identity) || {};
+      const val = c => (c && c.value) ? String(c.value) : '';
+      if (val(id.insurer_name)) A.insurer = A.insurer || val(id.insurer_name);
+      if (val(id.plan_name)) A.plan_name = val(id.plan_name);
+      if (read.letter && read.letter.text) A.__letterText = read.letter.text;
+      const procs = (read.letter && read.letter.denied_procedures) || [];
+      const denied = procs.find(p => p && p.code && /den/i.test(p.decision || 'denied')) || procs[0];
+      if (!A.cpt && denied && denied.code) A.cpt = denied.code;
+    }
+
+    // The blur guard, made visible: show only the fields we could not read with
+    // confidence, let the patient fix them, then continue.
+    function confirmPanel(read, onDone) {
+      const items = (read.needs_confirmation || []).filter(it => it && it.key !== 'plan' || true);
+      const rowLabel = it => esc(it.label) + (it.source && it.source !== 'plan' ? ' — from your ' + esc(it.source) : '');
+      const rowHint = it => it.reason === 'missing'
+        ? "We couldn't read this. Please type it in."
+        : (it.reason === 'hard to read' ? 'This was hard to read — please check it.' : esc(it.reason || ''));
+      const rows = items.map((it, n) => `
+        <div class="qa">
+          <label for="cf-${n}">${rowLabel(it)}</label>
+          <p class="whytext" style="margin:0 0 6px" >${rowHint(it)}</p>
+          <input class="field" id="cf-${n}" value="${esc(it.value || '')}" placeholder="Type it here" />
+        </div>`).join('');
+      panel(`
+        <div class="eyebrow">Quick check</div>
+        <h2>Confirm a couple of details we couldn't read clearly</h2>
+        <p class="help">We never guess these. A wrong member ID or plan could send your appeal to the wrong place, so please fix anything that looks off, then continue.</p>
+        <div class="res">${rows}</div>
+        <div class="answers" style="margin-top:18px">
+          <button class="btn btn-primary btn-lg" id="cf-go">These look right — continue →</button>
+          <button class="btn btn-ghost btn-lg" id="cf-back">← Go back</button>
+        </div>`);
+      document.getElementById('cf-go').onclick = () => {
+        items.forEach((it, n) => {
+          const el = document.getElementById('cf-' + n);
+          const v = (el && el.value || '').trim();
+          it.value = v;
+          if (it.key === 'insurer_name') A.insurer = v || A.insurer;
+          if (it.key === 'plan' || it.key === 'plan_name') A.plan_name = v || A.plan_name;
+          if (it.key === 'cpt') A.cpt = v || A.cpt;
+        });
+        onDone();
+      };
+      document.getElementById('cf-back').onclick = () => render();
+    }
+
     async function onBuild() {
       if (!(await hasApi())) return previewPanel();
+      // Step 1: read + confirm the uploads, if any.
+      if ((A.cardFiles && A.cardFiles.length) || (A.letterFiles && A.letterFiles.length)) {
+        stopRun();
+        RUN.startedAt = Date.now();
+        runPanel('Reading what you uploaded.');
+        let read;
+        try { read = await readIntake(); }
+        catch (e) { stopRun(); return failPanel(e.message || String(e)); }
+        applyRead(read);
+        if (read && read.needs_confirmation && read.needs_confirmation.length) {
+          stopRun();
+          return confirmPanel(read, onBuildRun);
+        }
+      }
+      return onBuildRun();
+    }
+
+    async function onBuildRun() {
       stopRun();
       RUN.startedAt = Date.now();
       runPanel('Sending your answers.');
@@ -2250,6 +2518,28 @@ window.APPEAL = {
         not_appealable: 'A letter may not be the right route here',
         blocked: 'We could not confirm the rule yet'
       };
+      // Where and how to send the finished appeal. The denial letter is always
+      // the authority; this adds the carrier's portal, phone, fax, and mailing
+      // fallback so the patient is never stuck wondering where it goes.
+      const sub = submitFor(A.insurer) || D.insurerSubmitGeneric;
+      const subRow = (label, val) => val
+        ? `<div class="sub-row"><span class="sub-k">${label}</span><span class="sub-v">${rich(val)}</span></div>` : '';
+      const submitSection = `
+        <div class="sec" id="submit-sec">
+          <h3>Where and how to send it</h3>
+          <div class="caveat" style="margin-top:0">
+            <p><b>Look at your denial letter first.</b> The exact address, fax, and deadline to appeal are printed on it, and those always win over anything below. Use these as a backup or to file online.</p>
+          </div>
+          <div class="submit">
+            ${sub.how ? `<p>${rich(sub.how)}</p>` : ''}
+            ${subRow('Online', sub.portal)}
+            ${subRow('Phone', sub.phone)}
+            ${subRow('Fax', sub.fax)}
+            ${subRow('Mail', sub.mail)}
+            ${subRow('Deadline', sub.window)}
+          </div>
+        </div>`;
+
       const letterSection = !ap ? '' : ap.recommended ? `
         <div class="sec" id="letter-sec">
           <h3>Your appeal letter</h3>
@@ -2275,6 +2565,7 @@ window.APPEAL = {
             </div>` : ''}
           ${deadline}
           ${letterSection}
+          ${submitSection}
           ${gaps.length ? `
             <div class="sec">
               <h3>The most likely problem</h3>
@@ -2427,6 +2718,7 @@ window.APPEAL = {
       RUN.id = null;
       A.catId=''; A.surgery=''; A.cpt=''; A.bodyPart=''; A.state=''; A.insurer='';
       A.letter=''; A.letterFiles=[]; A.letterName=''; A.policyFiles=[]; A.policyName=''; A.policyConsent=false; A.req={}; A.story='';
+      A.cardFiles=[]; A.cardName=''; A.plan_name=''; A.__letterText='';
       A.__demoExample=false; reached = 0;
       buildFlow(); showHero();
     }

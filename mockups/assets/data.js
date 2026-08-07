@@ -280,6 +280,114 @@ window.APPEAL = {
     "Wyoming": { name: "Blue Cross Blue Shield of Wyoming", site: "bcbswy.com" },
   },
 
+  // WHERE TO SEND THE APPEAL, per carrier (researched from each carrier's own
+  // grievance/appeal pages). GROUND RULE, said on every result page: the exact
+  // appeal address, fax, and deadline printed ON THE DENIAL LETTER are always
+  // authoritative and win over anything here — plans and addresses vary by
+  // product and state, so we never override the letter. These entries are the
+  // fallback path when the letter is unclear or missing, plus the online/phone
+  // options. Fields left null are intentionally omitted (no public value we
+  // could verify). window = the typical filing window; still confirm on the
+  // letter. NOTHING here is invented — no fabricated emails or addresses.
+  insurerSubmit: {
+    unitedhealthcare: {
+      portal: "member.uhc.com",
+      phone: "The number on your ID card",
+      fax: null,
+      mail: "The appeal address printed on your denial letter",
+      how: "Sign in at member.uhc.com and file the appeal there, or call the number on your card. There is no single public appeals fax or PO box — use the address on your denial letter.",
+      window: "Usually 180 days from the denial",
+    },
+    aetna: {
+      portal: "aetna.com (Member Complaint and Appeal Form)",
+      phone: "1-800-872-3862, or the number on your card",
+      fax: "859-425-3379",
+      mail: "Aetna, PO Box 14463, Lexington, KY 40512",
+      how: "Fill out Aetna's Member Complaint and Appeal Form (in your account at aetna.com, under complaints, grievances and appeals) and fax or mail it. Confirm the address on your denial letter first.",
+      window: "Usually 180 days from the denial",
+    },
+    cigna: {
+      portal: "my.cigna.com",
+      phone: "1-800-244-6224, or the number on your card",
+      fax: null,
+      mail: "The appeal address printed on your denial letter",
+      how: "Log in at my.cigna.com to find your plan's appeal form and submit it there, or call the number on your card. The mailing address is plan-specific — use the one on your denial letter.",
+      window: "Usually 180 days from the denial",
+    },
+    anthem: {
+      portal: "anthem.com, or the Sydney Health app",
+      phone: "The number on the back of your ID card",
+      fax: null,
+      mail: "The plan- and state-specific address on your denial letter",
+      how: "Anthem (Elevance) plans are state- and plan-specific. Log in at anthem.com or call the number on your card, and send your written appeal to the address on your denial letter.",
+      window: "Usually 180 days from the denial",
+    },
+    humana: {
+      portal: "resolutions.humana.com/grievances-appeals-forms",
+      phone: "Expedited: 1-800-867-6601, or the number on your card",
+      fax: null,
+      mail: "Humana Grievances and Appeals, P.O. Box 14546, Lexington, KY 40512-4546",
+      how: "Get the appeal form at resolutions.humana.com, then mail it to the Grievances and Appeals PO box (expedited requests use P.O. Box 14165). Confirm on your denial letter.",
+      window: "Confirm the window on your denial letter",
+    },
+    centene: {
+      portal: "ambetterhealth.com (pick your state, then the appeal/grievance form)",
+      phone: "The number on your ID card",
+      fax: null,
+      mail: "The state plan address printed on your denial letter",
+      how: "Ambetter/Centene is run per state. Go to ambetterhealth.com, choose your state, and use that state's appeal form, or call the number on your card. Mail to the address on your denial letter.",
+      window: "Usually 180 days from the denial",
+    },
+    molina: {
+      portal: "molinahealthcare.com member portal",
+      phone: "The Member Services number on your ID card",
+      fax: null,
+      mail: "State-specific — the address printed on your denial letter",
+      how: "Molina is run per state. Sign in at molinahealthcare.com or call the number on your card, and mail your appeal to the address on your denial letter.",
+      window: "Confirm the window on your denial letter",
+    },
+    hcsc: {
+      portal: "Blue Access for Members (bcbsil.com, bcbstx.com, bcbsnm.com, bcbsok.com, bcbsmt.com)",
+      phone: "The number on your ID card",
+      fax: null,
+      mail: "The plan-specific address printed on your denial letter",
+      how: "Log in to Blue Access for Members on your state's Blue site, or call the number on your card, and mail your appeal to the address on your denial letter.",
+      window: "Usually 180 days from the denial",
+    },
+    floridablue: {
+      portal: "floridablue.com (Member Forms)",
+      phone: "1-800-352-2583 (TTY 1-800-955-8770)",
+      fax: null,
+      mail: "HMO plans: Florida Blue HMO, Attn: HMO Appeals, P.O. Box 41609, Jacksonville, FL 32203-1609 (other Florida Blue plans use a different address — check your denial letter)",
+      how: "Get the appeal form under Member Forms at floridablue.com or call the number above. The mailing address depends on your plan type, so confirm it on your denial letter.",
+      window: "Confirm the window on your denial letter",
+    },
+    medicare: {
+      portal: "medicare.gov/claims-appeals",
+      phone: "1-800-MEDICARE (1-800-633-4227), TTY 1-877-486-2048",
+      fax: null,
+      mail: "Original Medicare: the Medicare Administrative Contractor address on your Medicare Summary Notice (MSN)",
+      how: "Original Medicare: file a redetermination (form CMS-20027) with the contractor listed on your MSN. Medicare Advantage or Part D: appeal to your plan using the address on your denial notice.",
+      window: "Original Medicare: 120 days from the MSN. Medicare Advantage: 60 days",
+    },
+    medicaid: {
+      portal: null,
+      phone: null,
+      fax: null,
+      mail: "Your state Medicaid agency or managed-care plan — the address on your denial letter",
+      how: "Medicaid is run by your state. Appeal through your state Medicaid agency or your managed-care plan, and you can also ask for a state fair hearing. All of the details are on your denial letter.",
+      window: "Often just 30 to 90 days — act quickly and check your letter",
+    },
+  },
+  insurerSubmitGeneric: {
+    portal: "your insurer's member website or app",
+    phone: "The number on the back of your insurance card",
+    fax: null,
+    mail: "The appeal address printed on your denial letter",
+    how: "Log in to your insurer's member site or call the number on your card to file the appeal. Your denial letter has the exact address, fax, and deadline — those are what count.",
+    window: "Usually 180 days, but check your denial letter",
+  },
+
   // CONSERVATIVE-CARE questions: the four things a patient may have tried
   // before surgery. Per the surgeon's clinical model, patients typically must
   // have tried at least 2 OF THESE 4: (1) activity modification, (2) anti-

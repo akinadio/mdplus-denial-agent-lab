@@ -60,6 +60,8 @@ from . import store
 from . import encryption
 from . import retention
 from . import policy_cache
+from . import extract
+from .api_runner import _estimate_cost
 from contextlib import contextmanager
 
 GUARDS = ApiGuards()
@@ -987,6 +989,42 @@ class Handler(SimpleHTTPRequestHandler):
 
     def do_POST(self) -> None:
         try:
+            if self.path == "/api/intake/read":
+                # Read the uploaded denial letter and/or insurance card into
+                # structured, confidence-scored fields and pin the plan. The
+                # images are processed in memory and NOT persisted here — we
+                # return only the scored fields, nothing that identifies a
+                # person is kept by this endpoint.
+                if rate_limited(self, "create"):
+                    return
+                if budget_exceeded():
+                    write_json(self, {
+                        "outcome": "at_capacity",
+                        "message": (
+                            "We're at capacity for today. Please try again "
+                            "tomorrow, or type your details in by hand instead."
+                        ),
+                    }, HTTPStatus.SERVICE_UNAVAILABLE)
+                    return
+                data = json_body(self)
+                try:
+                    letter_files = decode_attachments(data.get("letter_attachments"))
+                    card_files = decode_attachments(data.get("card_attachments"))
+                except Exception as exc:  # noqa: BLE001 - client input error
+                    write_json(self, {"error": str(exc)}, HTTPStatus.BAD_REQUEST)
+                    return
+                if not letter_files and not card_files:
+                    write_json(self, {"error": "no files to read"}, HTTPStatus.BAD_REQUEST)
+                    return
+                result = extract.read_intake(
+                    letter_files=letter_files, card_files=card_files
+                )
+                # Charge the day's budget for what the read cost, so a free
+                # public site can never run past the daily cap.
+                record_spend(_estimate_cost(result.get("usage", {})))
+                result.pop("usage", None)
+                write_json(self, result)
+                return
             if self.path == "/api/episodes":
                 if rate_limited(self, "create"):
                     return
