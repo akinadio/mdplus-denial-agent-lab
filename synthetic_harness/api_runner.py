@@ -166,6 +166,21 @@ class _ToolRunner:
         return {"error": f"unknown tool {name!r}"}
 
 
+# The row/arm-level `timeout` argument is a TOTAL budget for the whole
+# multi-turn tool loop, not a per-call one. Passing it straight through as the
+# HTTP client's timeout was a real bug: the Anthropic SDK retries a hanging or
+# failed request up to `max_retries` times with backoff, so ONE stuck call
+# could take (per-call timeout) x (1 + max_retries) -- with a 900s row budget
+# and the default 4 retries, a single bad connection could hang for over an
+# hour, and the outer deadline check in _agent_loop only runs BETWEEN calls, so
+# it never gets a chance to stop it. Capping the per-call timeout here, well
+# under any realistic row budget, means the client's own retry ceiling is
+# always in minutes, not hours, and the outer deadline check becomes
+# meaningful again. Override with MDPLUS_API_CALL_TIMEOUT if a slower network
+# genuinely needs more per-call headroom.
+API_CALL_TIMEOUT = float(os.environ.get("MDPLUS_API_CALL_TIMEOUT", "120"))
+
+
 def _client(timeout: int):
     """Anthropic client factory. Kept module-level (and patchable in tests) so
     the default/Anthropic path is unchanged by the multi-provider refactor."""
@@ -174,7 +189,7 @@ def _client(timeout: int):
     return anthropic.Anthropic(
         api_key=os.environ["ANTHROPIC_API_KEY"],
         max_retries=int(os.environ.get("MDPLUS_API_MAX_RETRIES", "4")),
-        timeout=float(timeout),
+        timeout=min(float(timeout), API_CALL_TIMEOUT),
     )
 
 
