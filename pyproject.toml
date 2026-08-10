@@ -2,7 +2,7 @@
 name = "mdplus-denial-agent-lab"
 version = "0.1.0"
 description = "Synthetic-patient UI that launches isolated insurance-policy retrieval agents."
-requires-python = ">=3.11"
+requires-python = ">=3.10"
 dependencies = [
     # The sustainable execution engine (synthetic_harness/api_runner.py) talks
     # to the Messages API directly, authenticated by ANTHROPIC_API_KEY. The
@@ -29,3 +29,6 @@ providers = ["anthropic>=0.40", "openai>=1.40", "google-genai>=0.3"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+include = ["synthetic_harness*"]
