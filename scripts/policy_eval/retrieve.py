@@ -3,30 +3,48 @@
 
 Reads ONLY runs/<run_id>/queries.jsonl. Never opens the answer key.
 
-HOW THE MODEL IS INVOKED, and why each flag is load-bearing. The exact argv is
-recorded in runs/<run_id>/retrieval_meta.json, because a reader cannot interpret
-the result without knowing what the model could reach.
+HOW THE MODEL IS INVOKED, and why each flag is load-bearing. The exact argv (CLI
+engine) or usage/cost record (API engine) is recorded in
+runs/<run_id>/retrieval_meta.json, because a reader cannot interpret the result
+without knowing what the model could reach.
 
-  /home/clawd/.local/bin/claude -p <prompt>
-      --model <id>                     the model under test, recorded per row
-      --output-format json             machine-readable result envelope
-      --tools ""                       REMOVES EVERY BUILT-IN TOOL. No Read, no
-                                       Bash, no Glob, no Grep, no built-in web
-                                       tools. Without this the model could read
-                                       data/policy_platform/answer_key_v1.json
-                                       and the whole benchmark would be void.
-      --mcp-config <file>              our two-tool server: web_search, http_fetch
-      --strict-mcp-config              ignore every other MCP server on this host
-      --allowedTools mcp__policyeval__web_search mcp__policyeval__http_fetch
-      --disallowedTools Read Write Edit Bash Glob Grep WebFetch WebSearch ...
-                                       belt and braces on top of --tools ""
-      --permission-mode default        no permission bypass
-      --disable-slash-commands         no skill can reintroduce a capability
-      --system-prompt <retrieval brief>  replaces the coding-agent system prompt
-      cwd = a fresh temp directory OUTSIDE this repository
+TWO ENGINES. Same isolation contract (only web_search/http_fetch, nothing else),
+same system prompt, same tool implementations (policy_eval.webtools) -- only the
+invocation mechanism differs:
+
+  api (default whenever ANTHROPIC_API_KEY is set): talks to the Messages API
+      in-process, authenticated by a server-held key. Nothing expires; nothing
+      needs a human. This is the same engine synthetic_harness/api_runner.py
+      uses for the product backend -- see that module's docstring for the full
+      rationale (an earlier T021 run died mid-way on an expired CLI login).
+
+  cli (fallback when no key is set, or POLICY_EVAL_ENGINE=cli): shells out to a
+      Claude CLI binary (CLAUDE_BIN, default "claude" resolved on PATH):
+
+        claude -p <prompt>
+          --model <id>                     the model under test, recorded per row
+          --output-format json             machine-readable result envelope
+          --tools ""                       REMOVES EVERY BUILT-IN TOOL. No Read, no
+                                           Bash, no Glob, no Grep, no built-in web
+                                           tools. Without this the model could read
+                                           data/policy_platform/answer_key_v1.json
+                                           and the whole benchmark would be void.
+          --mcp-config <file>              our two-tool server: web_search, http_fetch
+          --strict-mcp-config              ignore every other MCP server on this host
+          --allowedTools mcp__policyeval__web_search mcp__policyeval__http_fetch
+          --disallowedTools Read Write Edit Bash Glob Grep WebFetch WebSearch ...
+                                           belt and braces on top of --tools ""
+          --permission-mode default        no permission bypass
+          --disable-slash-commands         no skill can reintroduce a capability
+          --system-prompt <retrieval brief>  replaces the coding-agent system prompt
+          cwd = a fresh temp directory OUTSIDE this repository
+
+      This path depends on an interactive CLI login that expires -- kept only
+      as a fallback for hosts without an API key. Prefer the API engine.
 
 Usage:
     python3 scripts/policy_eval/retrieve.py --run-id demo --model claude-opus-5
+    POLICY_EVAL_ENGINE=cli python3 scripts/policy_eval/retrieve.py --run-id demo   # force the legacy path
 """
 
 from __future__ import annotations
@@ -59,7 +77,7 @@ from policy_eval.common import (  # noqa: E402
 from policy_eval.leakcheck import assert_no_leak, key_url_inventory  # noqa: E402
 from policy_eval.webtools import SEARCH_BACKEND  # noqa: E402
 
-CLAUDE_BIN = os.environ.get("CLAUDE_BIN", "/home/clawd/.local/bin/claude")
+CLAUDE_BIN = os.environ.get("CLAUDE_BIN", "claude")
 MCP_SERVER = Path(__file__).resolve().parent / "mcp_tools_server.py"
 DEFAULT_MODEL = "claude-opus-5"
 MCP_TOOLS = ["mcp__policyeval__web_search", "mcp__policyeval__http_fetch"]
@@ -241,7 +259,7 @@ def validate_claim(obj: dict[str, Any] | None, row_id: str) -> dict[str, Any]:
     return claim
 
 
-def invoke_model(
+def invoke_model_cli(
     prompt: str,
     model: str,
     row_id: str,
@@ -250,6 +268,7 @@ def invoke_model(
     mcp_config: Path,
     timeout: int,
 ) -> tuple[dict[str, Any], list[str]]:
+    """Legacy path: shells out to the Claude CLI. See module docstring."""
     argv = [
         CLAUDE_BIN,
         "-p",
@@ -326,6 +345,20 @@ def invoke_model(
     )
 
 
+def _engine() -> str:
+    """Which invocation path this run uses. See module docstring.
+
+    Defaults to "api" whenever ANTHROPIC_API_KEY is set (sustainable, no
+    expiring login) and falls back to "cli" otherwise. Force either explicitly
+    with POLICY_EVAL_ENGINE=api|cli.
+    """
+    forced = os.environ.get("POLICY_EVAL_ENGINE", "auto").strip().lower()
+    if forced in ("api", "cli"):
+        return forced
+    return "api" if os.environ.get("ANTHROPIC_API_KEY") else "cli"
+
+
+
 def invoke_model_api(
     prompt: str,
     model: str,
@@ -376,9 +409,30 @@ def invoke_model_api(
     except Exception as exc:  # noqa: BLE001
         return ({"ok": False, "error": f"{prov.name} api failed: {exc}",
                  "result_text": "", "elapsed_s": round(time.time() - t0, 1)}, argv)
-    return ({"ok": True, "error": None, "result_text": final_text,
-             "stop_reason": stop, "model_usage": usage,
+    from synthetic_harness.api_runner import _estimate_cost
+    ok = bool(final_text) and stop not in ("timeout", "max_iterations")
+    return ({"ok": ok,
+             "error": None if ok else f"agent did not produce a final answer ({stop})",
+             "result_text": final_text,
+             "stop_reason": stop,
+             "num_turns": len(_transcript),
+             "total_cost_usd": _estimate_cost(usage),
+             "model_usage": usage,
              "elapsed_s": round(time.time() - t0, 1)}, argv)
+
+def invoke_model(
+    prompt: str,
+    model: str,
+    row_id: str,
+    tool_log: Path,
+    workdir: Path,
+    mcp_config: Path,
+    timeout: int,
+) -> tuple[dict[str, Any], list[str] | None]:
+    """Dispatch to the API engine or the legacy CLI engine. See _engine()."""
+    if _engine() == "api":
+        return invoke_model_api(prompt, model, None, row_id, tool_log, timeout)
+    return invoke_model_cli(prompt, model, row_id, tool_log, workdir, mcp_config, timeout)
 
 
 def run(
@@ -483,14 +537,27 @@ def run(
     out = run_dir / "retrieval.jsonl"
     write_jsonl(out, records)
 
-    redacted_argv = [
-        "<prompt: see retrieval_prompts.jsonl>" if a in prompts.values() else a
-        for a in argv_used
-    ]
-    redacted_argv = [
-        "<system prompt: see retrieval_prompts.jsonl>" if a == SYSTEM_PROMPT else a
-        for a in redacted_argv
-    ]
+    engine_used = _engine()
+    redacted_argv = None
+    claude_cli_path = None
+    claude_cli_version = None
+    if engine_used == "cli" and argv_used:
+        redacted_argv = [
+            "<prompt: see retrieval_prompts.jsonl>" if a in prompts.values() else a
+            for a in argv_used
+        ]
+        redacted_argv = [
+            "<system prompt: see retrieval_prompts.jsonl>" if a == SYSTEM_PROMPT else a
+            for a in redacted_argv
+        ]
+        claude_cli_path = CLAUDE_BIN
+        try:
+            claude_cli_version = subprocess.run(
+                [CLAUDE_BIN, "--version"], capture_output=True, text=True
+            ).stdout.strip()
+        except OSError as exc:
+            claude_cli_version = f"unavailable: {exc}"
+
     write_json(
         run_dir / "retrieval_meta.json",
         {
@@ -499,24 +566,23 @@ def run(
             "rubric_sha256": rubric_sha256(),
             "key_sha256": key_sha256(),
             "retrieval_model": model,
-            "claude_cli_path": CLAUDE_BIN,
-            "claude_cli_version": subprocess.run(
-                [CLAUDE_BIN, "--version"], capture_output=True, text=True
-            ).stdout.strip(),
+            "engine": engine_used,
+            "claude_cli_path": claude_cli_path,
+            "claude_cli_version": claude_cli_version,
             "exact_invocation_argv": redacted_argv,
             "tool_surface": {
-                "builtin_tools": "removed with --tools \"\"",
+                "builtin_tools": "removed with --tools \"\" (cli) / never offered (api)",
                 "mcp_tools_available": MCP_TOOLS,
-                "explicitly_denied": DENY_TOOLS,
+                "explicitly_denied": DENY_TOOLS if engine_used == "cli" else "n/a (api engine exposes only web_search/http_fetch by construction)",
                 "search_backend": SEARCH_BACKEND,
                 "search_credential": (
                     "read from environment at call time, never logged, never "
                     "written to any artifact or config file"
                 ),
-                "subprocess_cwd": str(tmp),
+                "subprocess_cwd": str(tmp) if engine_used == "cli" else None,
                 "cwd_is_outside_repo": str(
                     not str(tmp).startswith(str(Path(__file__).resolve().parents[2]))
-                ),
+                ) if engine_used == "cli" else None,
             },
             "prompt_leak_check": leak_record,
             "rows": len(records),
