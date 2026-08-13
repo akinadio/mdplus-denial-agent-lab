@@ -125,7 +125,17 @@ def search(query: str, count: int = 5) -> dict[str, Any]:
     resp = requests.get(
         SEARCH_ENDPOINT,
         params={"q": query, "count": max(1, min(int(count), 20))},
-        headers={"X-Subscription-Token": token, "Accept": "application/json"},
+        headers={
+            "X-Subscription-Token": token,
+            "Accept": "application/json",
+            # Brave now rejects the request with 422 ("Input should be
+            # 'no-cache'") if this header is absent -- a requirement added
+            # after this integration was first written. Documented in a
+            # since-locked upstream bug (Brave community thread, March 2026)
+            # and confirmed against this account: same key, active
+            # subscription, every call still 422'd until this was added.
+            "Cache-Control": "no-cache",
+        },
         timeout=FETCH_TIMEOUT,
     )
     if resp.status_code != 200:
@@ -135,7 +145,7 @@ def search(query: str, count: int = 5) -> dict[str, Any]:
             "http_status": resp.status_code,
             "result_count": 0,
             "results": [],
-            "error": f"search backend returned HTTP {resp.status_code}",
+            "error": f"search backend returned HTTP {resp.status_code}: {resp.text[:300]}",
         }
     data = resp.json()
     results = []
