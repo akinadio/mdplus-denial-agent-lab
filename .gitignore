@@ -42,3 +42,7 @@ data/policy_platform/*
 # GoalBuddy generated board artifact (regenerable)
 docs/goals/*/.goalbuddy-board/
 harness_server.log
+
+# Policy directory + verification (safe, non-PHI reference data)
+!data/policy_platform/full_surgery_policy_directory.csv
+!data/policy_platform/url_verification_ledger.json

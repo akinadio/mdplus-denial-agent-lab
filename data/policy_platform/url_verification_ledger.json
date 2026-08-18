@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "principle": "Precision over recall. A URL is VERIFIED only if a content check confirms it is (1) a real medical-necessity policy/criteria document (not a search page, code list, benefit grid, or login wall), (2) contains actual criteria for the SPECIFIC procedure (indications + conservative care/PT/imaging), (3) is current (not superseded), and (4) is public. Anything else is not trusted.",
+    "verdicts": ["verified", "rejected_search_page", "rejected_code_only", "stale_superseded", "criteria_proprietary_not_public", "unverified_pending"]
+  },
+  "urls": {
+    "https://www.aetna.com/cpb/medical/data/700_799/0743.html": {
+      "doc_type": "clinical_policy", "effective": "2026-07-30", "public": true,
+      "per_cpt": {"22551": "verified", "22612": "verified", "63030": "verified"},
+      "note": "Aetna CPB 0743; real 6-week conservative-care criteria quoted for all three."
+    },
+    "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-11/Cigna_CMM-311%20Knee%20Replacement%20Arthroplasty_V2.0.2025_Eff03.07.2026_Pub11.21.2025.pdf": {
+      "doc_type": "clinical_guideline", "effective": "2026-03-07", "public": true,
+      "per_cpt": {"27447": "verified"},
+      "note": "Cigna/eviCore CMM-311; 3-month conservative + KL grade criteria."
+    },
+    "https://files.providernews.anthem.com/4827/pdf-Spine-Surgery-2024-10-20.pdf": {
+      "doc_type": "clinical_guideline", "effective": "2024-10-20", "public": true,
+      "per_cpt": {"22551": "verified", "22612": "verified", "63030": "verified"},
+      "note": "Anthem/Carelon Spine MSK03-1024.2; real criteria. Recheck for a 2025 revision."
+    },
+    "https://files.providernews.anthem.com/2520/PDF-Joint-Surgery-2023-11-05.pdf": {
+      "doc_type": "clinical_guideline", "effective": "2023-11-05", "public": true,
+      "per_cpt": {"29827": "unverified_pending", "29914-29916": "unverified_pending", "27130": "unverified_pending", "27447": "unverified_pending", "23472": "unverified_pending"},
+      "note": "Real criteria but dated 2023-11-05; must confirm this is the CURRENT Carelon version before trusting. Likely superseded by a 2025 guideline."
+    },
+    "https://static.cigna.com/assets/chcp/pdf/coveragePolicies/medical/mm_0527_coveragepositioncriteria_cervical_fusion.pdf": {
+      "doc_type": "coverage_policy", "effective": "2020-06-15", "public": true,
+      "per_cpt": {"22551": "stale_superseded"},
+      "note": "Effective 2020, review 2021. Stale. Find the current Cigna cervical fusion policy."
+    },
+    "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/spinal-fusion-decompression.pdf": {
+      "doc_type": "medical_policy", "effective": "2026-04-01", "public": true,
+      "per_cpt": {"22551": "criteria_proprietary_not_public", "22612": "criteria_proprietary_not_public", "63030": "criteria_proprietary_not_public"},
+      "note": "UHC 2026T0639I; the doc is real but criteria are outsourced to InterQual (proprietary, not in the public document)."
+    },
+    "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf": {
+      "doc_type": "medical_policy", "effective": "2026-06-01", "public": true,
+      "per_cpt": {"27447": "criteria_proprietary_not_public", "29888": "rejected_code_only"},
+      "note": "TKA criteria outsourced to InterQual; ACL 29888 is only listed in the code table with no ACL criteria."
+    },
+    "https://mcp.humana.com/tad/tad_new/Search.aspx?criteria=27447&searchtype=freetext&policyType=both": {
+      "doc_type": "search_results_page", "effective": null, "public": true,
+      "per_cpt": {"27447": "rejected_search_page"},
+      "note": "Humana TAD search interface, not a policy document. ALL Humana mcp.humana.com/tad Search.aspx URLs are search pages -> reject."
+    }
+  }
+}
