@@ -1,48 +1,1549 @@
 {
-  "meta": {
-    "principle": "Precision over recall. A URL is VERIFIED only if a content check confirms it is (1) a real medical-necessity policy/criteria document (not a search page, code list, benefit grid, or login wall), (2) contains actual criteria for the SPECIFIC procedure (indications + conservative care/PT/imaging), (3) is current (not superseded), and (4) is public. Anything else is not trusted.",
-    "verdicts": ["verified", "rejected_search_page", "rejected_code_only", "stale_superseded", "criteria_proprietary_not_public", "unverified_pending"]
+ "meta": {
+  "principle": "Precision over recall. A URL is VERIFIED only if a content check confirms it is (1) a real medical-necessity policy/criteria document (not a search page, code list, benefit grid, or login wall), (2) contains actual criteria for the SPECIFIC procedure (indications + conservative care/PT/imaging), (3) is current (not superseded), and (4) is public. Anything else is not trusted.",
+  "verdicts": [
+   "verified",
+   "rejected_search_page",
+   "rejected_code_only",
+   "stale_superseded",
+   "criteria_proprietary_not_public",
+   "unverified_pending"
+  ],
+  "medicare_jurisdiction_notes": "No national NCD sets medical-necessity criteria for any of the 11 surgical procedures; coverage is via per-MAC LCDs + Billing/Coding Articles that vary by state. TKA (27447) & THA (27130): no NCD; local 'Total Knee/Hip' or 'Total Joint Arthroplasty' LCDs, e.g. Noridian L36577/L36573 (both RETIRED 2025-11-06) and Palmetto Total Joint Arthroplasty L39911/legacy L36039. Total shoulder (23472): no NCD; per-MAC LCDs e.g. Palmetto L39956 (active). Lumbar fusion (22612): no NCD; per-MAC LCDs e.g. Palmetto Lumbar Spinal Fusion L37848 (+articles A56396/A56397) and Novitas/FCSO L33382. Cervical fusion/ACDF (22551): no NCD; per-MAC LCDs e.g. Novitas Cervical Fusion L39793 (this ver superseded). Lumbar microdiscectomy/decompression (63030): no NCD; addressed within some fusion/decompression LCDs, otherwise MAC discretion. Rotator cuff repair (29827), ACL reconstruction (29888), total ankle arthroplasty (27702), bunionectomy/hallux valgus (28296), hip arthroscopy (29914-29916): no national NCD and generally no dedicated national LCD; coverage determined case-by-case by the local MAC. Musculoskeletal MRI (73721/73221/72148): a national NCD DOES exist - MRI NCD 220.2 (ncdid=177, active) - but it is general; MSK-MRI specifics are left to local MAC LCDs/articles. Key MACs across the listed payers' footprints: Noridian (JE/JF - West), Palmetto GBA (JJ/JM - Southeast), Novitas (JH/JL - South/Mid-Atlantic), WPS, NGS, CGS, First Coast (JN - FL). Every stand-in URL must be mapped to the beneficiary's state MAC LCD."
+ },
+ "urls": {
+  "https://www.aetna.com/cpb/medical/data/700_799/0743.html": {
+   "doc_type": "clinical_policy",
+   "effective": "2026-07-30",
+   "public": true,
+   "per_cpt": {
+    "22551": "verified",
+    "22612": "verified",
+    "63030": "verified"
+   },
+   "note": "Aetna CPB 0743; real 6-week conservative-care criteria quoted for all three."
   },
-  "urls": {
-    "https://www.aetna.com/cpb/medical/data/700_799/0743.html": {
-      "doc_type": "clinical_policy", "effective": "2026-07-30", "public": true,
-      "per_cpt": {"22551": "verified", "22612": "verified", "63030": "verified"},
-      "note": "Aetna CPB 0743; real 6-week conservative-care criteria quoted for all three."
-    },
-    "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-11/Cigna_CMM-311%20Knee%20Replacement%20Arthroplasty_V2.0.2025_Eff03.07.2026_Pub11.21.2025.pdf": {
-      "doc_type": "clinical_guideline", "effective": "2026-03-07", "public": true,
-      "per_cpt": {"27447": "verified"},
-      "note": "Cigna/eviCore CMM-311; 3-month conservative + KL grade criteria."
-    },
-    "https://files.providernews.anthem.com/4827/pdf-Spine-Surgery-2024-10-20.pdf": {
-      "doc_type": "clinical_guideline", "effective": "2024-10-20", "public": true,
-      "per_cpt": {"22551": "verified", "22612": "verified", "63030": "verified"},
-      "note": "Anthem/Carelon Spine MSK03-1024.2; real criteria. Recheck for a 2025 revision."
-    },
-    "https://files.providernews.anthem.com/2520/PDF-Joint-Surgery-2023-11-05.pdf": {
-      "doc_type": "clinical_guideline", "effective": "2023-11-05", "public": true,
-      "per_cpt": {"29827": "unverified_pending", "29914-29916": "unverified_pending", "27130": "unverified_pending", "27447": "unverified_pending", "23472": "unverified_pending"},
-      "note": "Real criteria but dated 2023-11-05; must confirm this is the CURRENT Carelon version before trusting. Likely superseded by a 2025 guideline."
-    },
-    "https://static.cigna.com/assets/chcp/pdf/coveragePolicies/medical/mm_0527_coveragepositioncriteria_cervical_fusion.pdf": {
-      "doc_type": "coverage_policy", "effective": "2020-06-15", "public": true,
-      "per_cpt": {"22551": "stale_superseded"},
-      "note": "Effective 2020, review 2021. Stale. Find the current Cigna cervical fusion policy."
-    },
-    "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/spinal-fusion-decompression.pdf": {
-      "doc_type": "medical_policy", "effective": "2026-04-01", "public": true,
-      "per_cpt": {"22551": "criteria_proprietary_not_public", "22612": "criteria_proprietary_not_public", "63030": "criteria_proprietary_not_public"},
-      "note": "UHC 2026T0639I; the doc is real but criteria are outsourced to InterQual (proprietary, not in the public document)."
-    },
-    "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf": {
-      "doc_type": "medical_policy", "effective": "2026-06-01", "public": true,
-      "per_cpt": {"27447": "criteria_proprietary_not_public", "29888": "rejected_code_only"},
-      "note": "TKA criteria outsourced to InterQual; ACL 29888 is only listed in the code table with no ACL criteria."
-    },
-    "https://mcp.humana.com/tad/tad_new/Search.aspx?criteria=27447&searchtype=freetext&policyType=both": {
-      "doc_type": "search_results_page", "effective": null, "public": true,
-      "per_cpt": {"27447": "rejected_search_page"},
-      "note": "Humana TAD search interface, not a policy document. ALL Humana mcp.humana.com/tad Search.aspx URLs are search pages -> reject."
-    }
+  "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-11/Cigna_CMM-311%20Knee%20Replacement%20Arthroplasty_V2.0.2025_Eff03.07.2026_Pub11.21.2025.pdf": {
+   "doc_type": "clinical_guideline",
+   "effective": "2026-03-07",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified"
+   },
+   "note": "Cigna/eviCore CMM-311; 3-month conservative + KL grade criteria."
+  },
+  "https://files.providernews.anthem.com/4827/pdf-Spine-Surgery-2024-10-20.pdf": {
+   "doc_type": "clinical_guideline",
+   "effective": "2024-10-20",
+   "public": true,
+   "per_cpt": {
+    "22551": "verified",
+    "22612": "verified",
+    "63030": "verified"
+   },
+   "note": "Anthem/Carelon Spine MSK03-1024.2; real criteria. Recheck for a 2025 revision."
+  },
+  "https://files.providernews.anthem.com/2520/PDF-Joint-Surgery-2023-11-05.pdf": {
+   "doc_type": "clinical_guideline",
+   "effective": "2023-11-05",
+   "public": true,
+   "per_cpt": {
+    "29827": "unverified_pending",
+    "29914-29916": "unverified_pending",
+    "27130": "unverified_pending",
+    "27447": "unverified_pending",
+    "23472": "unverified_pending"
+   },
+   "note": "Real criteria but dated 2023-11-05; must confirm this is the CURRENT Carelon version before trusting. Likely superseded by a 2025 guideline."
+  },
+  "https://static.cigna.com/assets/chcp/pdf/coveragePolicies/medical/mm_0527_coveragepositioncriteria_cervical_fusion.pdf": {
+   "doc_type": "coverage_policy",
+   "effective": "2020-06-15",
+   "public": true,
+   "per_cpt": {
+    "22551": "stale_superseded"
+   },
+   "note": "Effective 2020, review 2021. Stale. Find the current Cigna cervical fusion policy."
+  },
+  "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/spinal-fusion-decompression.pdf": {
+   "doc_type": "medical_policy",
+   "effective": "2026-04-01",
+   "public": true,
+   "per_cpt": {
+    "22551": "criteria_proprietary_not_public",
+    "22612": "criteria_proprietary_not_public",
+    "63030": "criteria_proprietary_not_public"
+   },
+   "note": "UHC 2026T0639I; the doc is real but criteria are outsourced to InterQual (proprietary, not in the public document)."
+  },
+  "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf": {
+   "doc_type": "medical_policy",
+   "effective": "2026-06-01",
+   "public": true,
+   "per_cpt": {
+    "27447": "criteria_proprietary_not_public",
+    "29888": "rejected_code_only"
+   },
+   "note": "TKA criteria outsourced to InterQual; ACL 29888 is only listed in the code table with no ACL criteria."
+  },
+  "https://mcp.humana.com/tad/tad_new/Search.aspx?criteria=27447&searchtype=freetext&policyType=both": {
+   "doc_type": "search_results_page",
+   "effective": null,
+   "public": true,
+   "per_cpt": {
+    "27447": "rejected_search_page"
+   },
+   "note": "Humana TAD search interface, not a policy document. ALL Humana mcp.humana.com/tad Search.aspx URLs are search pages -> reject."
+  },
+  "https://www.aetna.com/cpb/medical/data/600_699/0660.html": {
+   "doc_type": "Clinical Policy Bulletin (Aetna CPB 0660, Knee Arthroplasty)",
+   "effective": "Last Review Date: 2026-02-26",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified"
+   },
+   "note": "Real MN criteria: OA/RA/AVN indications, physical exam findings, imaging, and 12/24 weeks conservative therapy (half as formal PT) including NSAIDs, activity modification, injections.",
+   "quotes": {
+    "27447": "Radiographic evidence of moderate/severe osteoarthritis of knee joint (i.e., Kellgren-Lawrence Grade 3 or 4)"
+   }
+  },
+  "https://www.aetna.com/cpb/medical/data/200_299/0287.html": {
+   "doc_type": "Clinical Policy Bulletin (Aetna CPB 0287, Hip Arthroplasty)",
+   "effective": "Last Review Date: 2026-07-17",
+   "public": true,
+   "per_cpt": {
+    "27130": "verified"
+   },
+   "note": "Real MN criteria: ADL-limiting pain, limited ROM/antalgic gait, Tonnis grade 2-3 imaging, and 12/24 weeks conservative therapy with formal PT, NSAIDs, activity modification.",
+   "quotes": {
+    "27130": "History of unsuccessful conservative therapy (non-surgical medical management; 12 or 24 weeks depending on age/BMI)...at least half of the necessary conservative therapy consisting of formal physical therapy"
+   }
+  },
+  "https://www.aetna.com/cpb/medical/data/800_899/0837.html": {
+   "doc_type": "Clinical Policy Bulletin (Aetna CPB 0837, Shoulder Arthroplasty and Arthrodesis)",
+   "effective": "Last Review Date: June 25, 2026",
+   "public": true,
+   "per_cpt": {
+    "23472": "verified"
+   },
+   "note": "Real MN criteria: advanced joint disease indications, >=6 months symptoms, imaging findings, and >=12 weeks non-surgical treatment (half formal PT) with NSAIDs and injections.",
+   "quotes": {
+    "23472": "Radiographic evidence of destructive degenerative joint disease (as evidence by 2 or more of the following: irregular joint surfaces, glenoid sclerosis, osteophyte changes, flattened glenoid, cystic changes in the humeral head, or joint space narrowing)"
+   }
+  },
+  "https://www.aetna.com/cpb/medical/data/300_399/0364.html": {
+   "doc_type": "Clinical Policy Bulletin (Aetna CPB 0364, Allograft Transplants of the Extremities)",
+   "effective": "Last Review Date: 2026-05-15",
+   "public": true,
+   "per_cpt": {
+    "29888": "rejected_code_only"
+   },
+   "note": "This is an allograft-transplant policy; it lists 29888 among ligament allograft codes but states no medical-necessity indications/conservative-care/imaging criteria for ACL reconstruction itself. It only says allografts are medically necessary as an alternative to autografts."
+  },
+  "https://www.aetna.com/cpb/medical/data/600_699/0645.html": {
+   "doc_type": "Clinical Policy Bulletin (Aetna CPB 0645, Total Ankle Arthroplasty)",
+   "effective": "Last Review Date: 2026-05-15",
+   "public": true,
+   "per_cpt": {
+    "27702": "verified"
+   },
+   "note": "Real MN criteria: severe arthritis/degeneration indication, imaging, >=6 months conservative management (PT, NSAIDs, orthoses), HbA1c <8% requirement, contraindication list.",
+   "quotes": {
+    "27702": "Member has have failed at least 6 months of conservative management (including physical therapy by a licensed physical therapist, non-steroidal anti-inflammatory drugs, and orthoses as indicated)"
+   }
+  },
+  "https://www.aetna.com/cpb/medical/data/600_699/0629.html": {
+   "doc_type": "Clinical Policy Bulletin (Aetna CPB 0629, Bunionectomy)",
+   "effective": "Last Review Date: 2025-12-11",
+   "public": true,
+   "per_cpt": {
+    "28296": "verified"
+   },
+   "note": "Real MN criteria: >=6-month conservative treatment trial, radiographic angle thresholds (HVA >=30, IMA >=12), and specific clinical indications; skeletal maturity documented.",
+   "quotes": {
+    "28296": "An HVA of 30 degrees or greater; and An inter-metatarsal angle (IMA) (formed by the long axis of the first and second metatarsals) of 12 degrees or greater"
+   }
+  },
+  "https://www.aetna.com/cpb/medical/data/700_799/0736.html": {
+   "doc_type": "Clinical Policy Bulletin (Aetna CPB 0736, Hip Preservation Surgery)",
+   "effective": "Last Review Date: 2026-07-31",
+   "public": true,
+   "per_cpt": {
+    "29914-29916": "verified"
+   },
+   "note": "Real MN criteria for FAI hip arthroscopy: imaging-confirmed labral pathology, >=6 months symptoms, positive impingement sign, >=12 weeks conservative treatment (>=6 weeks formal PT).",
+   "quotes": {
+    "29914-29916": "The treatment should be for at least 12 weeks in the past year with at least 6 weeks being formal physiotherapy (in-person with a licensed physical therapist not virtual)."
+   }
+  },
+  "https://www.aetna.com/cpb/medical/data/100_199/0171.html": {
+   "doc_type": "Clinical Policy Bulletin (Aetna CPB 0171, MRI of the Extremities)",
+   "effective": "Last Review Date: 2026-03-31",
+   "public": true,
+   "per_cpt": {
+    "73721/73221/72148": "verified"
+   },
+   "note": "Real MN criteria for extremity MSK MRI (knee 73721, shoulder 73221) including indications and prior conservative therapy. CAUTION: this is an extremities-MRI policy and does NOT cover lumbar spine MRI (72148); that code would be governed by a separate spine-MRI policy.",
+   "quotes": {
+    "73721/73221/72148": "Not associated with an injury and not responding to at least 3 weeks of conservative therapy"
+   }
+  },
+  "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-11/Cigna_CMM-313%20Hip%20Replacement%20Arthro_V2.0.2025_Eff03.07.2026_Pub11.21.2025.pdf": {
+   "doc_type": "eviCore/Cigna Clinical Guideline PDF (CMM-313: Hip Replacement/Arthroplasty, V2.0.2025)",
+   "effective": "Effective Date: March 7, 2026; Published: 2025-11-21",
+   "public": true,
+   "per_cpt": {
+    "27130": "verified"
+   },
+   "note": "Public eviCore-published guideline (the criteria document itself, not a proprietary-tool deferral). Real MN criteria: Tonnis 2-3 / AVN with collapse / inflammatory arthritis imaging, function-limiting pain >=3 months, ADL loss, and >=3 months non-surgical management.",
+   "quotes": {
+    "27130": "Failure of provider-directed non-surgical management for at least three (3) months duration"
+   }
+  },
+  "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-11/Cigna_CMM-315%20Shoulder%20Surg%20Arthro%20Open%20Proc_V2.0.2025_Eff03.07.2026_Pub11.21.2025.pdf": {
+   "doc_type": "eviCore/Cigna medical-necessity coverage policy (CMM-315: Shoulder Surgery - Arthroscopic and Open Procedures)",
+   "effective": "March 07, 2026",
+   "public": true,
+   "per_cpt": {
+    "29827": "verified"
+   },
+   "note": "Real, current public policy stating indications plus imaging (Grade 2-3 partial or full-thickness tear on MRI/CT) and conservative-care failure for rotator cuff repair. No proprietary-tool deferral.",
+   "quotes": {
+    "29827": "Failure of provider-directed non-surgical management for at least three (3) months duration"
+   }
+  },
+  "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-12/Cigna_CMM-318_Shoulder%20Arthro%20Replace%20Revision_V2.0.2025_Eff03.07.2026_Pub12.11.2025.pdf": {
+   "doc_type": "eviCore/Cigna medical-necessity coverage policy (CMM-318: Shoulder Arthroplasty/Replacement/Revision)",
+   "effective": "March 07, 2026",
+   "public": true,
+   "per_cpt": {
+    "23472": "verified"
+   },
+   "note": "Current public policy with indications (joint space narrowing/glenoid changes on imaging, function-limiting pain >=3 months) plus conservative-care failure for total shoulder arthroplasty.",
+   "quotes": {
+    "23472": "Failure of provider-directed non-surgical management for at least three (3) months duration"
+   }
+  },
+  "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-12/Cigna_CMM-312%20Knee%20Surg%20Arthro%20&%20Open%20Proc_eff03.07.2026_pub12.11.2025.pdf": {
+   "doc_type": "eviCore/Cigna medical-necessity coverage policy (CMM-312: Knee Surgery - Arthroscopic and Open Procedures)",
+   "effective": "March 07, 2026",
+   "public": true,
+   "per_cpt": {
+    "29888": "verified"
+   },
+   "note": "Current public policy with imaging findings, instability findings, and conservative-management failure (>=3 months) for ACL reconstruction.",
+   "quotes": {
+    "29888": "MRI, CT arthrogram, or arthroscopy shows a tear/disruption or significant laxity of the anterior cruciate ligament (ACL)"
+   }
+  },
+  "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-11/Cigna%20CMM-609%20Lumbar%20Fusion_Final_V2.0.2025_Eff12.18.2025_pub11.18.2025.pdf": {
+   "doc_type": "eviCore/Cigna medical-necessity coverage policy (CMM-609: Lumbar Fusion / Arthrodesis)",
+   "effective": "December 18, 2025",
+   "public": true,
+   "per_cpt": {
+    "22612": "verified"
+   },
+   "note": "Current public policy with imaging instability criteria plus conservative-care failure (analgesics/NSAIDs or PT-directed exercise for >=3 months) for lumbar fusion CPT 22612.",
+   "quotes": {
+    "22612": "Imaging at the requested level(s) shows EITHER of the following: Dynamic segmental instability on flexion-extension plain X-rays OR comparison of a supine and upright image, with a difference in translational alignment between vertebrae greater than 3 mm between views"
+   }
+  },
+  "https://static.cigna.com/assets/chcp/pdf/coveragePolicies/medical/mm_0285_coveragepositioncriteria_total_ankle_arthroplasty.pdf": {
+   "doc_type": "Cigna Medical Coverage Policy 0285 (Total Ankle Arthroplasty/Replacement)",
+   "effective": "3/15/2026",
+   "public": true,
+   "per_cpt": {
+    "27702": "verified"
+   },
+   "note": "Current public Cigna coverage policy with arthritis diagnosis indications, functional limitation, and 6-month conservative-therapy failure for total ankle arthroplasty.",
+   "quotes": {
+    "27702": "failure of at least six months of conservative therapy (i.e., anti-inflammatory medications, orthotic devices, activity modification, physical therapy)"
+   }
+  },
+  "https://cignaforhcp.cigna.com/public/content/pdf/coveragePolicies/medical/mm_0304_coveragepositioncriteria_bunionectomy.pdf": {
+   "doc_type": "",
+   "effective": "",
+   "public": false,
+   "per_cpt": {
+    "28296": "unreachable"
+   },
+   "note": "URL returns HTTP 404 on two attempts; document could not be retrieved at this address. Cannot verify criteria."
+  },
+  "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-11/Cigna_CMM-314%20Hip%20Surg%20Arthro%20Open%20Proc_V2.0.2025_Eff03.07.2026_Pub11.21.2025.pdf": {
+   "doc_type": "eviCore/Cigna medical-necessity coverage policy (CMM-314: Hip Surgery - Arthroscopic and Open Procedures)",
+   "effective": "March 07, 2026",
+   "public": true,
+   "per_cpt": {
+    "29914-29916": "verified"
+   },
+   "note": "Current public policy covering FAI surgery (29914-29915) and labral repair (29916) with imaging, exam, injection, and conservative-care failure criteria for hip arthroscopy.",
+   "quotes": {
+    "29914-29916": "Failure of provider-directed non-surgical management for at least three (3) months duration AND which must include the following (unless contraindicated): an image-guided intra-articular hip injection with local anesthetic (with or without corticosteroid) to which there was a positive response"
+   }
+  },
+  "https://www.evicore.com/sites/default/files/clinical-guidelines/2024-12/Cigna_CMM-606%20Lumb%20Microdis_Final_V1.1.2024.pdf": {
+   "doc_type": "eviCore/Cigna medical-necessity coverage policy (CMM-606: Lumbar Microdiscectomy)",
+   "effective": "December 27, 2024",
+   "public": true,
+   "per_cpt": {
+    "63030": "stale_superseded"
+   },
+   "note": "Document is real, public, and contains genuine criteria (radiculopathy indications, imaging concordance, and conservative-care failure of >=2 of NSAIDs/analgesics 6 wks, PT-directed exercise 6 wks, or epidural steroid injections). However it is version V1.1.2024 effective Dec 27, 2024, while every companion CMM guideline in this batch was reissued as V2.0.2025 effective 03/07/2026; conservatively flagged as likely superseded/outdated. Could not positively confirm a specific replacement URL (guessed 2026 path returned 404). Not marking verified per accuracy-over-coverage rule."
+  },
+  "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-10/Cigna_Musculoskeletal%20Imaging%20Guidelines_V1.0.2026_eff02.03.2026_PUB10.29.2025.pdf": {
+   "doc_type": "eviCore/Cigna Radiology medical-necessity coverage policy (Musculoskeletal Imaging Guidelines, non-spinal MSK)",
+   "effective": "February 03, 2026",
+   "public": true,
+   "per_cpt": {
+    "73721/73221/72148": "verified"
+   },
+   "note": "Current public policy with real MRI medical-necessity criteria for knee (73721) and shoulder (73221) - conservative care failure and clinical findings. CAVEAT: this document explicitly covers NON-SPINAL MSK imaging only; lumbar MRI 72148 is NOT addressed here (governed by separate spine imaging guidelines). Verified applies to the knee/shoulder codes; 72148 is out of scope for this specific document.",
+   "quotes": {
+    "73721/73221/72148": "Failure of 6 weeks of provider-directed conservative treatment, including clinical re-evaluation, occurring after the current episode of symptoms started"
+   }
+  },
+  "https://files.providernews.anthem.com/2519/PDF-Small-Joint-Surgery-2023-11-05.pdf": {
+   "doc_type": "Clinical Appropriateness Guideline (Carelon/Anthem, MSK06-1123.1)",
+   "effective": "11/05/2023",
+   "public": true,
+   "per_cpt": {
+    "27702": "verified",
+    "28296": "verified"
+   },
+   "note": "Real, current, public medical-necessity policy with indications plus conservative-care requirements for both procedures.",
+   "quotes": {
+    "27702": "Significant pain and functional impairment due to arthritis of the ankle persist after at least 3 months of supervised conservative management",
+    "28296": "Significant pain and functional limitation of the first metatarsophalangeal joint and/or presence of a pre-ulcer (e.g., Wagner grade 0-1) that persists after at least 3 months of supervised conservative management"
+   }
+  },
+  "https://files.providernews.anthem.com/4819/PDF-Imaging-of-the-Extremities-2024-10-20.pdf": {
+   "doc_type": "Clinical Appropriateness Guideline (Carelon/Anthem, RBM03-1024.1)",
+   "effective": "October 20, 2024 (Revised)",
+   "public": true,
+   "per_cpt": {
+    "73721/73221/72148": "verified"
+   },
+   "note": "Current public imaging AUC policy; requires PT plus one complementary conservative treatment and documented failure before extremity MRI.",
+   "quotes": {
+    "73721/73221/72148": "Conservative management \u2013 a combination of strategies to reduce inflammation, alleviate pain, and correct underlying dysfunction, including physical therapy AND at least ONE complementary conservative treatment strategy."
+   }
+  },
+  "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-60&pv=false": {
+   "doc_type": "Florida Blue Medical Coverage Guideline (Knee Arthroplasty, 02-20000-60)",
+   "effective": "Original 10/15/16; Last Revised 05/15/26",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified"
+   },
+   "note": "Florida Blue's own MCG (self-contained criteria, not the proprietary Milliman/MCG tool); also requires radiographic or MRI evidence of advanced joint disease.",
+   "quotes": {
+    "27447": "Failure of at least 3 months of conservative non-surgical management that is clearly documented in the medical record, and includes 1 or more of the following"
+   }
+  },
+  "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-50&pv=false": {
+   "doc_type": "Florida Blue Medical Coverage Guideline (Hip Arthroplasty, 02-20000-50)",
+   "effective": "Original 10/15/16; Last Revised 02/15/25",
+   "public": true,
+   "per_cpt": {
+    "27130": "verified"
+   },
+   "note": "Self-contained public criteria with conservative-care and imaging requirements.",
+   "quotes": {
+    "27130": "Failure of at least 3 months of conservative non-surgical management that is clearly documented in the medical record, and that includes 1 or more of the following: Anti-inflammatory medications, Analgesics, Flexibility and muscle strengthening exercises, Supervised physical therapy, Activity restrictions as is reasonable, Assistive device use, Weight reduction as appropriate"
+   }
+  },
+  "https://mcgs.bcbsfl.com/MCG?mcgId=08-00000-01&pv=false": {
+   "doc_type": "Florida Blue Medical Coverage Guideline (Site of Service Review for Select Surgical Procedures, 08-00000-01)",
+   "effective": "Effective 10/01/2025; Last Reviewed 07/24/2025",
+   "public": true,
+   "per_cpt": {
+    "29827": "rejected_code_only",
+    "28296": "rejected_code_only"
+   },
+   "note": "Site-of-service policy: lists the CPT codes but states no procedure-specific medical-necessity criteria (no indications, conservative care, or imaging requirements) for either procedure."
+  },
+  "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-65&pv=false": {
+   "doc_type": "Florida Blue Medical Coverage Guideline (Knee Arthroscopy and Open, Non-Arthroplasty Knee Repair, 02-20000-65)",
+   "effective": "Original 10/15/16; Last Revised 06/15/26",
+   "public": true,
+   "per_cpt": {
+    "29888": "verified"
+   },
+   "note": "Public ACL reconstruction criteria including MRI evidence of tear plus conservative-care failure.",
+   "quotes": {
+    "29888": "Failure of at least 3 months of conservative non-operative management that includes at least 2 of the following: Medications (unless contraindicated); assistive device(s); home exercise; physical therapy, therapeutic injections into the joint; activity modification"
+   }
+  },
+  "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-48&pv=false": {
+   "doc_type": "Florida Blue Medical Coverage Guideline (Thoracic and Lumbar Spine Surgery, 02-20000-48)",
+   "effective": "Original 07/01/15; Last Revised 06/15/26",
+   "public": true,
+   "per_cpt": {
+    "22612": "verified",
+    "63030": "verified"
+   },
+   "note": "Public spine surgery policy with imaging findings plus specific conservative-care duration (PT weeks, analgesics) for both procedures.",
+   "quotes": {
+    "22612": "Neurogenic claudication or radicular pain that results in significant functional impairment with documentation of central/lateral recess/or foraminal stenosis on MRI or other imaging, who has failed at least 3 months of conservative nonsurgical therapy",
+    "63030": "Persistent debilitating back or leg pain (defined as daily pain with a visual analog scale score of 4 or greater and affects ADLs), that is refractory to at least 6 weeks of conservative nonsurgical therapy"
+   }
+  },
+  "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-45&pv=false": {
+   "doc_type": "Florida Blue Medical Coverage Guideline (Cervical Spine Surgery, 02-20000-45)",
+   "effective": "Original 07/01/15; Last Revised 04/15/26",
+   "public": true,
+   "per_cpt": {
+    "22551": "verified"
+   },
+   "note": "Public ACDF criteria requiring radiculopathy/myelopathy signs, imaging confirmation, and conservative-care failure.",
+   "quotes": {
+    "22551": "Pain that is unresponsive to at least 6 weeks of conservative nonsurgical therapy that included at least 2 of the following: activity modification, exercise, analgesics, or physical therapy"
+   }
+  },
+  "https://mcgs.bcbsfl.com/MCG?mcgId=02-99221-15&pv=false": {
+   "doc_type": "Florida Blue Medical Coverage Guideline (Total Ankle Replacement, 02-99221-15)",
+   "effective": "Original 02/15/10; Last Revised 04/15/26",
+   "public": true,
+   "per_cpt": {
+    "27702": "verified"
+   },
+   "note": "Title matches CPT 27702; public criteria with indications and 6-month conservative-care requirement.",
+   "quotes": {
+    "27702": "Total ankle replacement using an FDA-approved device meets the definition of medical necessity in skeletally mature members with ankle pain that limits activities of daily living, documented failure of at least 6 consecutive months of conservative treatment (such as physical therapy, anti-inflammatory medication, splints or orthotic devices), and ONE of the following conditions..."
+   }
+  },
+  "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-55&pv=false": {
+   "doc_type": "Medical Coverage Guideline (Florida Blue policy 02-20000-55): Hip Arthroscopy and Open, Non-Arthroplasty Hip Repair",
+   "effective": "Original Effective Date 10/15/16; Last Revised 02/15/26",
+   "public": true,
+   "per_cpt": {
+    "29914-29916": "verified"
+   },
+   "note": "Real, current, public Florida Blue medical-necessity policy. States indications for FAI/hip arthroscopy (skeletal maturity, moderate-severe hip pain worsened by flexion, positive impingement sign, cam/pincer imaging, Tonnis grade <=1) plus required >=3 months failed conservative therapy. Florida Blue proprietary MCG, not a Milliman guideline; no login required.",
+   "quotes": {
+    "29914-29916": "Unresponsive to conservative therapy for at least 3 months (including activity modifications, restriction of athletic pursuits, and avoidance of symptomatic motion)"
+   }
+  },
+  "https://mcgs.bcbsfl.com/MCG?mcgId=04-70540-16&pv=false": {
+   "doc_type": "Medical Coverage Guideline (Florida Blue policy 04-70540-16): Magnetic Resonance Imaging (MRI) Lower Extremity",
+   "effective": "Original Effective Date 07/01/07; Last Reviewed 04/23/26; Last Revised 05/15/26",
+   "public": true,
+   "per_cpt": {
+    "73721/73221/72148": "verified"
+   },
+   "note": "Real, current, public Florida Blue MN policy with actual criteria (failed conservative therapy >=4 weeks, mechanical locking, suspected fracture with negative x-ray, etc.). CAUTION: this document covers LOWER EXTREMITY MRI only (73718-73723), i.e. it supports 73721 (knee) but does NOT cover 73221 (shoulder/upper extremity) or 72148 (lumbar spine) - those require separate Florida Blue MRI policies. Verified for the knee/lower-extremity code only.",
+   "quotes": {
+    "73721/73221/72148": "Persistent joint or musculotendinous pain unresponsive to conservative therapy, within the last 6 months which includes active medical therapy of at least four (4) weeks"
+   }
+  },
+  "https://mcp.humana.com/tad/tad_new/Search.aspx?criteria=27130&searchtype=freetext&policyType=both": {
+   "doc_type": "Humana TAD search results page (freetext search)",
+   "effective": "N/A (search page); result listed 'Hip Arthroplasty - Medicare Advantage' eff 3/16/2026",
+   "public": true,
+   "per_cpt": {
+    "27130": "rejected_search_page"
+   },
+   "note": "URL is a Humana TAD freetext Search.aspx results interface, not a policy document. Only a general procedural description shown; no medical-necessity criteria. Result returned is a Medicare Advantage policy, not commercial."
+  },
+  "https://mcp.humana.com/tad/tad_new/Search.aspx?criteria=29827&searchtype=freetext&policyType=both": {
+   "doc_type": "Humana TAD search results page (freetext search)",
+   "effective": "N/A (search page); result listed 'Shoulder Arthroscopy - Medicare Advantage' eff 1/2/2026",
+   "public": true,
+   "per_cpt": {
+    "29827": "rejected_search_page"
+   },
+   "note": "URL is a Humana TAD freetext search results interface, not a policy document. No medical-necessity criteria present. Result is Medicare Advantage (shoulder arthroscopy), not commercial."
+  },
+  "https://mcp.humana.com/tad/tad_new/Search.aspx?criteria=23472&searchtype=freetext&policyType=both": {
+   "doc_type": "Humana TAD search results page (freetext search)",
+   "effective": "N/A (search page); result listed 'Shoulder Arthroplasty - Medicare Advantage' eff 8/3/2026",
+   "public": true,
+   "per_cpt": {
+    "23472": "rejected_search_page"
+   },
+   "note": "URL is a Humana TAD freetext search results interface, not a policy document. No medical-necessity criteria present. Result is Medicare Advantage, not commercial."
+  },
+  "https://mcp.humana.com/tad/tad_new/Search.aspx?criteria=29888&searchtype=freetext&policyType=both": {
+   "doc_type": "Humana TAD search results page (freetext search)",
+   "effective": "N/A (search page); result listed 'Knee Arthroscopy - Medicare Advantage' eff 5/1/2026",
+   "public": true,
+   "per_cpt": {
+    "29888": "rejected_search_page"
+   },
+   "note": "URL is a Humana TAD freetext search results interface, not a policy document. No medical-necessity criteria present. Result returned is a knee arthroscopy MA policy, not specific to CPT 29888 ACL reconstruction."
+  },
+  "https://mcp.humana.com/tad/tad_new/Search.aspx?criteria=22612&searchtype=freetext&policyType=both": {
+   "doc_type": "Humana TAD search results page (freetext search)",
+   "effective": "N/A (search page); result listed 'Spinal Fusion Surgery - Medicare Advantage' eff 5/1/2026",
+   "public": true,
+   "per_cpt": {
+    "22612": "rejected_search_page"
+   },
+   "note": "URL is a Humana TAD freetext search results interface, not a policy document. No medical-necessity criteria present. Result is Medicare Advantage, not commercial."
+  },
+  "https://mcp.humana.com/tad/tad_new/Search.aspx?criteria=22551&searchtype=freetext&policyType=both": {
+   "doc_type": "Humana TAD search results page (freetext search)",
+   "effective": "N/A (search page); result listed 'Spinal Fusion Surgery - Medicare Advantage' eff 5/1/2026",
+   "public": true,
+   "per_cpt": {
+    "22551": "rejected_search_page"
+   },
+   "note": "URL is a Humana TAD freetext search results interface, not a policy document. No medical-necessity criteria present. Result is Medicare Advantage, not commercial."
+  },
+  "https://mcp.humana.com/tad/tad_new/Search.aspx?criteria=28296&searchtype=freetext&policyType=both": {
+   "doc_type": "Humana TAD search results page (freetext search)",
+   "effective": "N/A (search page); result listed 'Foot Surgical Procedures - Medicare Advantage' eff 9/2/2025",
+   "public": true,
+   "per_cpt": {
+    "28296": "rejected_search_page"
+   },
+   "note": "URL is a Humana TAD freetext search results interface, not a policy document. No medical-necessity criteria present. Result is Medicare Advantage, not commercial."
+  },
+  "https://mcp.humana.com/tad/tad_new/Search.aspx?criteria=29914&searchtype=freetext&policyType=both": {
+   "doc_type": "Search-results page (Humana Medical and Pharmacy Coverage Policies portal)",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "29914-29916": "rejected_search_page"
+   },
+   "note": "Search interface listing a Hip Arthroscopy policy (listed eff. 1/2/2026, Medicare Advantage) but no criteria text on the page; must click through to policy."
+  },
+  "https://mcp.humana.com/tad/tad_new/Search.aspx?criteria=63030&searchtype=freetext&policyType=both": {
+   "doc_type": "Search-results page (Humana Medical and Pharmacy Coverage Policies portal)",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "63030": "rejected_search_page"
+   },
+   "note": "Search interface listing 'Spinal Decompression Surgery - Medicare Advantage' but no medical necessity criteria on the page."
+  },
+  "https://mcp.humana.com/tad/tad_new/Search.aspx?criteria=73721&searchtype=freetext&policyType=both": {
+   "doc_type": "Search-results page (Humana Medical and Pharmacy Coverage Policies portal)",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "73721/73221/72148": "rejected_search_page"
+   },
+   "note": "Search interface listing an Extremity MRI - Medicare Advantage policy but no criteria on the page."
+  },
+  "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-hip.pdf": {
+   "doc_type": "UnitedHealthcare Commercial and Individual Exchange Medical Policy (Surgery of the Hip)",
+   "effective": "March 1, 2026",
+   "public": true,
+   "per_cpt": {
+    "27130": "criteria_proprietary_not_public",
+    "29914-29916": "criteria_proprietary_not_public"
+   },
+   "note": "Policy defers to InterQual CP: Procedures for medical necessity criteria; only public rule is an FAI contraindication, no positive indications/conservative-care criteria in the public doc."
+  },
+  "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-shoulder.pdf": {
+   "doc_type": "UnitedHealthcare Commercial and Individual Exchange Medical Policy (Surgery of the Shoulder)",
+   "effective": "January 1, 2026",
+   "public": true,
+   "per_cpt": {
+    "29827": "criteria_proprietary_not_public",
+    "23472": "criteria_proprietary_not_public"
+   },
+   "note": "Defers to InterQual CP: Procedures (Arthroscopy Shoulder; Joint Replacement Shoulder); no public MN criteria for these codes."
+  },
+  "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-ankle.pdf": {
+   "doc_type": "UnitedHealthcare Commercial and Individual Exchange Medical Policy (Surgery of the Ankle)",
+   "effective": "July 1, 2026",
+   "public": true,
+   "per_cpt": {
+    "27702": "criteria_proprietary_not_public"
+   },
+   "note": "Defers to InterQual CP: Procedures: Total Joint Replacement (TJR), Ankle; no public MN criteria."
+  },
+  "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-foot.pdf": {
+   "doc_type": "UnitedHealthcare Commercial and Individual Exchange Medical Policy (Surgery of the Foot)",
+   "effective": "January 1, 2026",
+   "public": true,
+   "per_cpt": {
+    "28296": "criteria_proprietary_not_public"
+   },
+   "note": "Bunionectomy/hallux valgus defers to InterQual CP: Procedures (Osteotomy, Distal Transpositional, First MT); public criteria in doc cover hallux rigidus/limitus, not 28296."
+  },
+  "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/mri-ct-scan-site-of-service.pdf": {
+   "doc_type": "UnitedHealthcare Commercial and Individual Exchange Medical Policy (MRI and CT Scan - Site of Service)",
+   "effective": "January 1, 2026",
+   "public": true,
+   "per_cpt": {
+    "73721/73221/72148": "rejected_code_only"
+   },
+   "note": "Site-of-service policy only (hospital vs freestanding); provides no clinical indications/conservative-care criteria for these MRI codes."
+  },
+  "https://www.ambetterhealth.com/content/dam/centene/home-state-health/ambetter/pdfs/Health-Joint-Surgery%20Evolent-UTIL-Ambetter.pdf": {
+   "doc_type": "Utilization Review Matrix (Ambetter/Home State Health Joint Surgery)",
+   "effective": "2024",
+   "public": true,
+   "per_cpt": {
+    "27447": "rejected_code_only",
+    "27130": "rejected_code_only",
+    "29827": "rejected_code_only",
+    "23472": "rejected_code_only",
+    "29888": "rejected_code_only",
+    "29914-29916": "rejected_code_only"
+   },
+   "note": "Coding matrix listing CPTs at procedure level ('Authorization is provided at the procedure level'); no indications, conservative care, or imaging criteria for any procedure."
+  },
+  "https://www1.radmd.com/sites/default/files/2025-12/Centene%20AL%20Ambetter%20of%20Alabama%20Spine%20Surgery%20Utilization%20Review%20Matrix%202026%2001.01.26.pdf": {
+   "doc_type": "Utilization Review Matrix (CPT code / billing matrix)",
+   "effective": "01.01.26",
+   "public": true,
+   "per_cpt": {
+    "22612": "rejected_code_only",
+    "22551": "rejected_code_only",
+    "63030": "rejected_code_only"
+   },
+   "note": "Centene AL Ambetter of Alabama Spine Surgery UR Matrix. Lists CPT code groupings only; no indications, conservative-care, or imaging criteria. Not a clinical medical-necessity policy."
+  },
+  "https://www1.radmd.com/sites/default/files/2024-12/Ambetter%20from%20MHS%20-%20CPT%20Matrix%202025%20-%20Evolent.pdf": {
+   "doc_type": "Utilization Review / CPT Matrix (claims reference)",
+   "effective": "2025",
+   "public": true,
+   "per_cpt": {
+    "73721/73221/72148": "rejected_code_only"
+   },
+   "note": "Ambetter from MHS CPT Matrix (Evolent/NIA). Lists CPT codes managed by Evolent for claims adjudication; no medical-necessity criteria for MRI codes."
+  },
+  "https://www.molinahealthcare.com/-/media/Molina/PublicWebsite/PDF/Providers/il/resource/Shoulder-Arthroscopy-Guidelines_MCP_404.pdf": {
+   "doc_type": "Molina Clinical Policy MCP-404 (Shoulder Arthroscopy)",
+   "effective": "Original Effective 6/9/21; Revision 6/9/21",
+   "public": true,
+   "per_cpt": {
+    "29827": "criteria_proprietary_not_public"
+   },
+   "note": "Real public policy, but for rotator cuff repair (29827) it defers: 'Please see MCG criteria for rotator cuff repair.' Criteria for 29827 are delegated to proprietary MCG, not contained in this doc."
+  },
+  "https://www.molinahealthcare.com/providers/az/medicaid/forms/~/media/Molina/PublicWebsite/PDF/Providers/az/AZ-WEBP-19442-21%202021%20NIA%20Spine%20Surgery%20UM%20Review%20Matrix%20FINAL_R": {
+   "doc_type": "Utilization Review Matrix (Musculoskeletal/Spine Surgery)",
+   "effective": "2021",
+   "public": true,
+   "per_cpt": {
+    "22612": "rejected_code_only",
+    "22551": "rejected_code_only",
+    "63030": "rejected_code_only"
+   },
+   "note": "Molina Complete Care 2021 Spine Surgery UM Review Matrix (NIA). Lists CPT code groupings only, no clinical criteria. Also dated 2021, but primary reason is code-only."
+  },
+  "https://www.molinahealthcare.com/-/media/Molina/PublicWebsite/PDF/Providers/oh/medicaid/policies/MCP-700-Foot-Surgery-Bunionectomy-0823.pdf": {
+   "doc_type": "Molina Clinical Policy MCP-700 (Foot Surgery: Bunionectomy)",
+   "effective": "Last Approval 4/13/2023; Next Review Due April 2024",
+   "public": true,
+   "per_cpt": {
+    "28296": "verified"
+   },
+   "note": "Public Molina clinical policy with actual medical-necessity criteria for hallux valgus surgery: radiographic HVA/IMA thresholds plus >=6 months conservative treatment (footwear, orthotics/pads, NSAIDs).",
+   "quotes": {
+    "28296": "Persistent pain and functional limitation despite at least 6 months of conservative treatment"
+   }
+  },
+  "https://www.molinahealthcare.com/~/media/Molina/PublicWebsite/PDF/Common/Molina%20Clinical%20Policy/Lower%20Extremity%20MRI.pdf": {
+   "doc_type": "Molina Clinical Policy No. 633 (Lower Extremity MRI)",
+   "effective": "Last Approval 12/8/2021; Next Review Due December 2022",
+   "public": true,
+   "per_cpt": {
+    "73721/73221/72148": "verified"
+   },
+   "note": "Public Molina clinical policy with actual medical-necessity criteria for knee MRI (73721): x-ray first plus >=4 weeks conservative therapy. Note: this is a Lower Extremity MRI policy \u2014 covers knee (73721) but not shoulder (73221) or lumbar (72148); criteria verified for the knee component of the combined key.",
+   "quotes": {
+    "73721/73221/72148": "Initial x-ray has been performed and there has been at least 4 weeks of conservative therapy"
+   }
+  },
+  "https://www.azahcccs.gov/shared/MedicalPolicyManual/": {
+   "doc_type": "state_medicaid_manual",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official AHCCCS Medical Policy Manual (AMPM) table of contents. Public, no login. Surgical PA/medical-necessity criteria embedded in individual AMPM policy chapters; also references applicable managed-care contracts."
+  },
+  "https://ahca.myflorida.com/provider/policy.html": {
+   "doc_type": "state_medicaid_manual",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official Florida Medicaid (AHCA) policy library portal. Public, no login. Criteria live in service-specific policies and adopted rules under Division 59G F.A.C.; MCO plans handle managed-care members."
+  },
+  "https://hfs.illinois.gov/medicalproviders/mpac.html": {
+   "doc_type": "state_medicaid_manual",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official Illinois HFS Medical Prior Approval (MPAC) index. Public, no login. Criteria in downloadable PDF/HTML criteria docs and Handbook for Providers; references 89 Ill. Admin. Code. Managed-care members handled by MCOs."
+  },
+  "https://www.chfs.ky.gov/agencies/dms/provider/pages/default.aspx": {
+   "doc_type": "state_medicaid_manual",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official Kentucky DMS provider portal. Public, no login. Criteria distributed across provider-type pages and delegated to managed-care plans; MPPA/MMIS apps require provider credentials."
+  },
+  "https://ldh.la.gov/medicaid/medicaid-services": {
+   "doc_type": "state_medicaid_manual",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official Louisiana LDH Medicaid covered-services page (more member/service-catalog oriented). Public, no login. PA requirements embedded per service; managed-care members handled by MCO plans."
+  },
+  "https://health.maryland.gov/mmcp/pages/preauthorization-information.aspx": {
+   "doc_type": "state_medicaid_manual",
+   "effective": "",
+   "public": false,
+   "per_cpt": {
+    "27447": "unreachable",
+    "27130": "unreachable",
+    "29827": "unreachable",
+    "23472": "unreachable",
+    "29888": "unreachable",
+    "22612": "unreachable",
+    "22551": "unreachable",
+    "27702": "unreachable",
+    "28296": "unreachable",
+    "29914-29916": "unreachable",
+    "63030": "unreachable",
+    "73721/73221/72148": "unreachable"
+   },
+   "note": "URL returns 404 (confirmed on retry). The live Maryland MMCP Preauthorization Information page is served on a different host: https://mmcp.health.maryland.gov/Pages/Preauthorization-Information.aspx"
+  },
+  "https://www.michigan.gov/mdhhs/doing-business/providers/providers/medicaid/policyforms/medicaid-provider-manual": {
+   "doc_type": "state_medicaid_manual",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official Michigan MDHHS Medicaid Provider Manual entry point. Public, no login. Coverage/PA policy in linked manual chapters; managed-care members handled by contracted health plans."
+  },
+  "https://www.njmmis.com": {
+   "doc_type": "state_medicaid_manual",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official NJMMIS (New Jersey Medicaid/DMAHS fiscal agent) provider portal landing page. Landing page public, no login. Provider manuals/newsletters in Forms & Documents; account-specific tools require HIPAA/provider login. Managed-care members handled by MCOs."
+  },
+  "https://www.emedny.org/ProviderManuals/Physician/index.aspx": {
+   "doc_type": "state_medicaid_manual",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official eMedNY NY Medicaid Physician provider manual index. Public, no login (fee schedules dated 4/2026-7/2026). Prior Approval Guidelines PDF plus NYSDOH clinical criteria worksheets; managed-care members handled by MCOs."
+  },
+  "https://medicaid.ohio.gov/resources-for-providers/billing/prior-authorization-requirements/prior-authorization-requirements": {
+   "doc_type": "state_medicaid_manual",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official Ohio Dept of Medicaid PA requirements hub (per ORC 5160.34). Public, no login. FFS criteria in linked PDFs (ASC/inpatient/outpatient/non-institutional, eff. 7.1.2026); managed-care PA delegated to MCO plans."
+  },
+  "https://oklahoma.gov/ohca/providers/claim-tools/prior-authorization.html": {
+   "doc_type": "state_medicaid_manual",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official OHCA/SoonerCare prior authorization landing page (last modified 2025-09-30). Public, no login. Criteria via Medical Authorization Unit and linked policy docs/forms (HCA-12A/13A)."
+  },
+  "https://www.pa.gov/agencies/dhs/resources/for-providers/promise/promise-provider-handbooks-guides": {
+   "doc_type": "state_medicaid_manual",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official PA DHS PROMISe provider handbooks & guides landing page. Public, no login. Criteria in provider-type handbooks selected below; note page currently shows 'under development'/'no results' in the directory area. Managed-care members handled by HealthChoices MCOs."
+  },
+  "https://www.tmhp.com/resources/provider-manuals/tmppm": {
+   "doc_type": "state_medicaid_manual",
+   "effective": "August 2026",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official Texas Medicaid Provider Procedures Manual (TMPPM) on TMHP, August 2026 edition (updated 2025-07-31, policy through 8/1/2026). Public, no login. Surgical criteria in individual handbook chapters; Vol.1 Fee-for-Service Prior Authorizations chapter available."
+  },
+  "https://vamedicaid.dmas.virginia.gov/manuals/provider-manuals-library": {
+   "doc_type": "state_medicaid_manual",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official Virginia DMAS provider manuals library. Public, no login (login button optional). Surgical/PA criteria within individual manual chapter PDFs; managed-care members handled by contracted MCOs."
+  },
+  "https://bms.wv.gov/chapter-519-practitioner-services": {
+   "doc_type": "state_medicaid_manual",
+   "effective": "2025-02-01",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official WV Bureau for Medical Services Chapter 519 Practitioner Services policy index; 24 policy PDFs, effective dates 2016-2025. Surgical medical necessity/PA criteria live inside the individual chapter PDFs (e.g. Policy 519.16 Surgical Services)."
+  },
+  "https://humanservices.arkansas.gov/divisions-shared-services/medical-services/": {
+   "doc_type": "state_medicaid_landing",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official Arkansas DHS Division of Medical Services hub page (last modified 2026-04-30). Provider manuals and division policies (with PA/medical necessity criteria) are reached via the Manuals / Division Policies links from this entry point."
+  },
+  "https://www.dhcs.ca.gov/providers-partners/prior-authorization-overview/": {
+   "doc_type": "state_medicaid_pa_overview",
+   "effective": "2025-12-18",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official CA DHCS Medi-Cal prior authorization overview (last modified 2025-12-18). Surgical PA/medical necessity criteria live in the Medi-Cal provider manuals and, for enrollees, are delegated to the Medi-Cal managed-care plans."
+  },
+  "https://medicaidpublications.dhss.delaware.gov/": {
+   "doc_type": "state_medicaid_manual",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Loads as the official 'Delaware Medical Assistance Portal Document Repository' (DMAP provider manuals/policies), public, no login. Page is JavaScript-rendered so document list did not extract via fetch; identity confirmed by portal title. Surgical criteria live inside the DMAP provider manuals hosted in the repository and are otherwise delegated to DE managed-care plans."
+  },
+  "https://www.mmis.georgia.gov/portal/PubPart/AllPolicyManuals/tabId/70/Default.aspx": {
+   "doc_type": "",
+   "effective": "",
+   "public": false,
+   "per_cpt": {
+    "27447": "unreachable",
+    "27130": "unreachable",
+    "29827": "unreachable",
+    "23472": "unreachable",
+    "29888": "unreachable",
+    "22612": "unreachable",
+    "22551": "unreachable",
+    "27702": "unreachable",
+    "28296": "unreachable",
+    "29914-29916": "unreachable",
+    "63030": "unreachable",
+    "73721/73221/72148": "unreachable"
+   },
+   "note": "GAMMIS portal returns an application error: 'An Application Error has Occured. Please close all your browser windows' with 'Invalid permissions for this page'. The deep-link to AllPolicyManuals does not load without a portal session context; policy manuals page not reachable at this URL."
+  },
+  "https://medquest.hawaii.gov/en/plans-providers/fee-for-service/provider-manual.html": {
+   "doc_type": "state_medicaid_manual",
+   "effective": "2026-04-01",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official Hawaii Med-QUEST fee-for-service provider manual landing page; 21 chapter PDFs plus appendices, public. Surgical PA/medical necessity criteria live in the FFS manual chapters; for QUEST enrollees criteria are delegated to the managed-care health plans."
+  },
+  "https://www.in.gov/medicaid/providers/clinical-services/prior-authorization/": {
+   "doc_type": "state_medicaid_pa_page",
+   "effective": "2026-03-30",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official Indiana Health Coverage Programs (IHCP) prior authorization page (last modified 2026-03-30), public. Non-pharmacy surgical PA/medical necessity criteria live in the IHCP Prior Authorization provider reference module and Acentra Health's Atrezzo portal; MCE (managed-care) plans apply their own criteria."
+  },
+  "https://hhs.iowa.gov/medicaid/provider-services/covered-services-rates-and-payments/prior-authorization": {
+   "doc_type": "state_medicaid_pa_page",
+   "effective": "2026-07-08",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official Iowa Medicaid (HHS) prior authorization page (updated 2026-07-08), public. Medical necessity review is performed by the QIO; criteria referenced via the Clinical Advisory Committee (CAC) resources. Managed-care plans apply their own criteria for enrollees."
+  },
+  "https://portal.kmap-state-ks.us/PublicPage/Public/ProviderManuals": {
+   "doc_type": "state_medicaid_manual",
+   "effective": "",
+   "public": false,
+   "per_cpt": {
+    "27447": "gated_login",
+    "27130": "gated_login",
+    "29827": "gated_login",
+    "23472": "gated_login",
+    "29888": "gated_login",
+    "22612": "gated_login",
+    "22551": "gated_login",
+    "27702": "gated_login",
+    "28296": "gated_login",
+    "29914-29916": "gated_login",
+    "63030": "gated_login",
+    "73721/73221/72148": "gated_login"
+   },
+   "note": "KMAP public ProviderManuals URL issues a 302 redirect to an Oracle Access Manager SSO endpoint (user.kmap-state-ks.us/oam/server/obrareq.cgi), which requires authentication (and currently returns a system error). Manual content not reachable without login at this URL."
+  },
+  "https://medicaid.ms.gov/prior-authorization/": {
+   "doc_type": "state_medicaid_pa_page",
+   "effective": "2026-03-31",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official Mississippi Division of Medicaid prior authorization page (last modified 2026-03-31), public. Non-pharmacy surgical PA/medical necessity criteria live at the Procedure Code PA Requirements page and the Telligen portal (msmedicaid.telligen.com); MCOs apply their own criteria."
+  },
+  "https://mydss.mo.gov/mhd/provider-manuals": {
+   "doc_type": "state_medicaid_manual",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official MO HealthNet provider manuals page, public, links to service-category manual PDFs. Surgical PA/medical necessity criteria live in the applicable MO HealthNet manuals; the page notes managed-care plans set their own PA requirements for enrollees."
+  },
+  "https://dhhs.ne.gov/Pages/Medicaid-Provider-Handbooks.aspx": {
+   "doc_type": "state_medicaid_manual",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official Nebraska DHHS Medicaid Provider Handbooks page, public; 24 handbooks including Medicaid regulations, appendices and bulletins. Surgical medical necessity criteria live via the linked 'Medical Necessity Guidelines' and the applicable provider handbook regulations; MCOs apply their own criteria."
+  },
+  "https://www.nevadamedicaid.nv.gov/resources/medicaid-services-manual/": {
+   "doc_type": "state_medicaid_manual",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "27447": "unreachable",
+    "27130": "unreachable",
+    "29827": "unreachable",
+    "23472": "unreachable",
+    "29888": "unreachable",
+    "22612": "unreachable",
+    "22551": "unreachable",
+    "27702": "unreachable",
+    "28296": "unreachable",
+    "29914-29916": "unreachable",
+    "63030": "unreachable",
+    "73721/73221/72148": "unreachable"
+   },
+   "note": "Could not fetch: blocked by robots.txt (ROBOTS_DISALLOWED). URL path matches Nevada Medicaid's Medicaid Services Manual resource, but page content could not be loaded/verified, so marked unreachable per accuracy policy."
+  },
+  "https://www.dhhs.nh.gov/programs-services/medicaid/medicaid-provider-relations": {
+   "doc_type": "state_medicaid_provider_relations",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official NH DHHS Medicaid provider relations page, public. Service authorization / medical necessity criteria live in the He-W 500 administrative rules and are submitted/administered via the MMIS Health Enterprise Portal; MCOs apply their own criteria for managed-care enrollees."
+  },
+  "https://medicaid.ncdhhs.gov/providers/programs-and-services/prior-approval-and-due-process": {
+   "doc_type": "state_medicaid_pa_portal",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official NC Medicaid (DHHS) prior approval / due process page. Loads, public, last modified 02/18/2026. Surgical PA criteria delegated to NC DHB Clinical Coverage Policies and NCTracks; MCE/managed-care plans apply their own criteria."
+  },
+  "https://www.oregon.gov/oha/hsd/ohp/pages/prioritized-list.aspx": {
+   "doc_type": "state_medicaid_coverage_policy",
+   "effective": "2026-02-01",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official Oregon Health Plan (Medicaid) Prioritized List coverage page. Public. Effective Feb 1 2026 covers lines 1-470. Surgical coverage determined by procedure/diagnosis pairs in the HERC Prioritized List and Oregon Administrative Rules; CCOs administer."
+  },
+  "https://www.scdhhs.gov/providers/manuals/physicians-services-provider-manual": {
+   "doc_type": "state_medicaid_manual",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official SC Medicaid (SCDHHS) Physicians Services Provider Manual entry point. Public PDF (provider.scdhhs.gov/.../Physicians/Manual.pdf). Surgical PA criteria in the manual PDF; managed-care plans apply own criteria."
+  },
+  "https://www.hca.wa.gov/billers-providers-partners/prior-authorization-claims-and-billing": {
+   "doc_type": "state_medicaid_pa_portal",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official WA Health Care Authority (Apple Health/Medicaid) prior authorization hub. Public, no login. Surgical PA criteria live in WAC rules, HCA provider billing guides, and ProviderOne; MCOs apply own criteria."
+  },
+  "https://www.forwardhealth.wi.gov/kw/pdf/phy_medicine_surgery.pdf": {
+   "doc_type": "state_medicaid_manual",
+   "effective": "2005-12",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official Wisconsin ForwardHealth (Medicaid) Physician Medicine and Surgery handbook PDF. Public. PDF is marked ARCHIVAL (Dec 2005) and directs to the current Online Handbook; PA list in Appendix 15, current criteria in the online ForwardHealth handbook."
+  },
+  "https://www.hca.nm.gov/turquoise-care/": {
+   "doc_type": "state_medicaid_program_overview",
+   "effective": "2024-07-01",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official NM Health Care Authority Turquoise Care (Medicaid managed care) overview page. Public. Program effective 7/1/2024. Surgical PA criteria delegated to the MCOs; NM Medicaid rules (8.310 NMAC) and MCO policies govern."
+  },
+  "https://www.tn.gov/tenncare/providers/managed-care-contractors.html": {
+   "doc_type": "state_medicaid_mco_directory",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official TennCare (TN Medicaid) managed care contractors provider page. Public, no login. TennCare is fully managed care; surgical PA criteria delegated to the MCOs (Amerigroup/Anthem, BlueCare, UnitedHealthcare/TennCare Select) per the statewide contract."
+  },
+  "https://healthandwelfare.idaho.gov/providers/idaho-medicaid-providers/information-medicaid-providers": {
+   "doc_type": "state_medicaid_provider_hub",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official Idaho Medicaid provider information hub (DHW). Public landing page (last updated 4-16-2026); fee schedules/PA forms/portal via Gainwell require login. Surgical PA criteria in the Idaho Medicaid Provider Handbook and Gainwell portal."
+  },
+  "https://www.mass.gov/prior-authorization-for-masshealth-providers": {
+   "doc_type": "state_medicaid_pa_portal",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official MassHealth (MA Medicaid) prior authorization provider hub on Mass.gov. Public, no login. Surgical/medical-necessity criteria in linked 'MassHealth Guidelines for Medical Necessity Determination' documents and MCO policies."
+  },
+  "https://medicaid.utah.gov/utah-medicaid-criteria/": {
+   "doc_type": "state_medicaid_coverage_policy",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official Utah Medicaid coverage-criteria hub. Public, no login. Surgical PA determined via Coverage and Reimbursement Lookup Tool, InterQual criteria, Utah customized criteria, and provider manuals."
+  },
+  "https://hcpf.colorado.gov/par": {
+   "doc_type": "state_medicaid_pa_portal",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official Health First Colorado (HCPF) Prior Authorization Request (PAR) hub; UM administered by Acentra/ColoradoPAR. Info pages public; PAR submission portal (portal.kepro.com) requires login. Surgical criteria in ColoradoPAR benefit resources / Acentra UM guidelines."
+  },
+  "https://eohhs.ri.gov/providers-partners/provider-manuals-guidelines/medicaid-provider-manual/physician": {
+   "doc_type": "state_medicaid_manual",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "27447": "verified_state_manual",
+    "27130": "verified_state_manual",
+    "29827": "verified_state_manual",
+    "23472": "verified_state_manual",
+    "29888": "verified_state_manual",
+    "22612": "verified_state_manual",
+    "22551": "verified_state_manual",
+    "27702": "verified_state_manual",
+    "28296": "verified_state_manual",
+    "29914-29916": "verified_state_manual",
+    "63030": "verified_state_manual",
+    "73721/73221/72148": "verified_state_manual"
+   },
+   "note": "Official RI Medicaid (EOHHS) Provider Manual physician section. Public, no login, last updated 4/28/2026. Surgical PA criteria in a dedicated 'Prior Approval Criteria for Surgical Procedures' subsection with per-procedure policy pages."
+  },
+  "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=36577&ver=15": {
+   "doc_type": "LCD",
+   "effective": "2019-12-01 (rev); retired 2025-11-06",
+   "public": true,
+   "per_cpt": {
+    "27447": "stale_superseded"
+   },
+   "note": "Real Noridian (JE/JF) LCD covering CPT 27447, but this version (ver=15) is superseded and the LCD was retired 2025-11-06. Applies only to Noridian states (AK, ID, OR, WA, AZ, MT, ND, SD, UT, WY); not national. Superseded/retired -> stale.",
+   "quotes": {
+    "27447": "Total Knee Arthroplasty (L36577) - Noridian; Superseded as of 2020-01-29, Retired as of 2025-11-06. Criteria: 'pain or functional disability from injury due to trauma or arthritis' with documented unsuccessful conservative therapy."
+   }
+  },
+  "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=36573&ver=15": {
+   "doc_type": "LCD",
+   "effective": "2019-12-01 (rev); retired 2025-11-06",
+   "public": true,
+   "per_cpt": {
+    "27130": "stale_superseded"
+   },
+   "note": "Real Noridian LCD covering CPT 27130, but retired 2025-11-06 (this version superseded). Noridian-only jurisdiction (AK, ID, OR, WA, AZ, MT, ND, SD, UT, WY); not national. -> stale.",
+   "quotes": {
+    "27130": "Total Hip Arthroplasty (L36573) - Noridian; Retired as of 2025-11-06. Criteria: 'Advanced joint disease' with imaging evidence AND 'Pain that cannot be adequately controlled despite optimal conservative treatment.'"
+   }
+  },
+  "https://www.cms.gov/medicare-coverage-database": {
+   "doc_type": "CMS search page",
+   "effective": "",
+   "public": true,
+   "per_cpt": {
+    "29827": "cms_entry_needs_jurisdiction_expansion",
+    "29888": "cms_entry_needs_jurisdiction_expansion",
+    "27702": "cms_entry_needs_jurisdiction_expansion",
+    "28296": "cms_entry_needs_jurisdiction_expansion",
+    "29914-29916": "cms_entry_needs_jurisdiction_expansion",
+    "63030": "cms_entry_needs_jurisdiction_expansion"
+   },
+   "note": "This is the generic CMS Medicare Coverage Database home/search portal, not a specific policy. It contains no medical-necessity criteria for any of these 6 procedures. Must be resolved to the correct per-MAC LCD/Billing-and-Coding Article per state for each CPT. National/generic stand-in.",
+   "quotes": {
+    "29827": "The MCD Search page is the starting point to search for Medicare Coverage documents.",
+    "29888": "The MCD Search page is the starting point to search for Medicare Coverage documents.",
+    "27702": "The MCD Search page is the starting point to search for Medicare Coverage documents.",
+    "28296": "The MCD Search page is the starting point to search for Medicare Coverage documents.",
+    "29914-29916": "The MCD Search page is the starting point to search for Medicare Coverage documents.",
+    "63030": "The MCD Search page is the starting point to search for Medicare Coverage documents."
+   }
+  },
+  "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=39956&ver=5": {
+   "doc_type": "LCD",
+   "effective": "2025-03-27",
+   "public": true,
+   "per_cpt": {
+    "23472": "cms_entry_needs_jurisdiction_expansion"
+   },
+   "note": "Current/active Palmetto GBA LCD with real medical-necessity criteria for total shoulder arthroplasty, BUT jurisdiction-limited (Palmetto JJ/JM: AL, GA, TN, SC, VA, WV, NC). Not national -> must be expanded to the equivalent LCD in each other state's MAC. Not 'verified' because it does not apply nationally.",
+   "quotes": {
+    "23472": "Total Shoulder Arthroplasty (L39956) - Palmetto GBA, in effect 2025-03-27: 'documented radiographic evidence' AND 'moderate-to-severe chronic pain' AND 'at least 12 weeks of unsuccessful conservative therapy.' CPT codes moved to companion Billing & Coding Article."
+   }
+  },
+  "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=37848&ver=13": {
+   "doc_type": "LCD",
+   "effective": "not confirmed (page served generic content on fetch)",
+   "public": true,
+   "per_cpt": {
+    "22612": "cms_entry_needs_jurisdiction_expansion"
+   },
+   "note": "Identity confirmed via CMS MCD search/companion articles: L37848 = 'Lumbar Spinal Fusion' LCD, Palmetto GBA. Direct fetch of ver=13 repeatedly returned the generic MCD search page (dynamic/JS render + 15-min cache), so effective date/status of this specific version could not be read directly. It is a real jurisdiction-specific (Palmetto) LCD, not national -> needs per-jurisdiction expansion.",
+   "quotes": {
+    "22612": "LCD - Lumbar Spinal Fusion (L37848), Palmetto GBA (per CMS MCD / companion articles A56396, A56397). Governs lumbar spinal fusion incl. CPT 22612."
+   }
+  },
+  "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=39793&ver=40": {
+   "doc_type": "LCD",
+   "effective": "2024-08-11",
+   "public": true,
+   "per_cpt": {
+    "22551": "stale_superseded"
+   },
+   "note": "Real Novitas Cervical Fusion LCD covering ACDF/CPT 22551, but this specific version (ver=40) is explicitly labeled SUPERSEDED; a newer in-effect version exists. Novitas jurisdiction only (JH/JL: CO, NM, OK, TX, AR, LA, MS, DE, DC, MD, NJ, PA). -> stale.",
+   "quotes": {
+    "22551": "'SUPERSEDED Local Coverage Determination (LCD)' - Cervical Fusion (L39793), Novitas Solutions. 'To see the currently-in-effect version of this document, go to the Public Versions section.'"
+   }
+  },
+  "https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?ncdid=177": {
+   "doc_type": "NCD",
+   "effective": "2018-04-10",
+   "public": true,
+   "per_cpt": {
+    "73721/73221/72148": "cms_entry_needs_jurisdiction_expansion"
+   },
+   "note": "Active national NCD 220.2 (general MRI policy) - genuinely national, but generic: it does not set musculoskeletal-MRI-specific medical-necessity criteria for knee/shoulder/lumbar MRI. The operative coverage rules for 73721/73221/72148 live in per-MAC LCDs/Billing & Coding Articles, so this must be expanded to those jurisdiction-specific policies.",
+   "quotes": {
+    "73721/73221/72148": "Magnetic Resonance Imaging NCD (220.2), active v6 eff 2018-04-10. General: MRI 'must be reasonable and necessary for the diagnosis or treatment of the specific patient involved'; does NOT specifically address CPT 73721/73221/72148; MACs 'retain discretion for indications not specifically addressed.'"
+   }
   }
+ }
 }
