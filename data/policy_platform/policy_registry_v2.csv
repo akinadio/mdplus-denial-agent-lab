@@ -1,28 +1,4 @@
 layer,who,surgery,cpt,status,scope,policy_title,effective,url
-Commercial/ACA,CareFirst BCBS,ACL reconstruction,29888,PENDING,National,,,
-Commercial/ACA,CareFirst BCBS,Arthroscopic rotator cuff repair,29827,PENDING,National,,,
-Commercial/ACA,CareFirst BCBS,Bunionectomy / hallux valgus,28296,PENDING,National,,,
-Commercial/ACA,CareFirst BCBS,Cervical fusion / ACDF,22551,PENDING,National,,,
-Commercial/ACA,CareFirst BCBS,Hip arthroscopy,29914-29916,PENDING,National,,,
-Commercial/ACA,CareFirst BCBS,Lumbar fusion,22612,PENDING,National,,,
-Commercial/ACA,CareFirst BCBS,Lumbar microdiscectomy / decompression,63030,PENDING,National,,,
-Commercial/ACA,CareFirst BCBS,Musculoskeletal MRI (knee/shoulder/lumbar),73721/73221/72148,PENDING,National,,,
-Commercial/ACA,CareFirst BCBS,Total ankle arthroplasty,27702,PENDING,National,,,
-Commercial/ACA,CareFirst BCBS,Total hip arthroplasty (THA),27130,PENDING,National,,,
-Commercial/ACA,CareFirst BCBS,Total knee arthroplasty (TKA),27447,PENDING,National,,,
-Commercial/ACA,CareFirst BCBS,Total shoulder arthroplasty,23472,PENDING,National,,,
-Commercial/ACA,Horizon BCBS New Jersey,ACL reconstruction,29888,PENDING,National,,,
-Commercial/ACA,Horizon BCBS New Jersey,Arthroscopic rotator cuff repair,29827,PENDING,National,,,
-Commercial/ACA,Horizon BCBS New Jersey,Bunionectomy / hallux valgus,28296,PENDING,National,,,
-Commercial/ACA,Horizon BCBS New Jersey,Cervical fusion / ACDF,22551,PENDING,National,,,
-Commercial/ACA,Horizon BCBS New Jersey,Hip arthroscopy,29914-29916,PENDING,National,,,
-Commercial/ACA,Horizon BCBS New Jersey,Lumbar fusion,22612,PENDING,National,,,
-Commercial/ACA,Horizon BCBS New Jersey,Lumbar microdiscectomy / decompression,63030,PENDING,National,,,
-Commercial/ACA,Horizon BCBS New Jersey,Musculoskeletal MRI (knee/shoulder/lumbar),73721/73221/72148,PENDING,National,,,
-Commercial/ACA,Horizon BCBS New Jersey,Total ankle arthroplasty,27702,PENDING,National,,,
-Commercial/ACA,Horizon BCBS New Jersey,Total hip arthroplasty (THA),27130,PENDING,National,,,
-Commercial/ACA,Horizon BCBS New Jersey,Total knee arthroplasty (TKA),27447,PENDING,National,,,
-Commercial/ACA,Horizon BCBS New Jersey,Total shoulder arthroplasty,23472,PENDING,National,,,
 Commercial/ACA,Aetna (CVS Health),ACL reconstruction,29888,NOT FOUND,National,,,
 Commercial/ACA,Aetna (CVS Health),Arthroscopic rotator cuff repair,29827,NOT FOUND,National,,,
 Commercial/ACA,BCBS Michigan,Bunionectomy / hallux valgus,28296,NOT FOUND,National,,,
@@ -31,6 +7,8 @@ Commercial/ACA,Blue Shield of California,ACL reconstruction,29888,NOT FOUND,Nati
 Commercial/ACA,Blue Shield of California,Bunionectomy / hallux valgus,28296,NOT FOUND,National,,,
 Commercial/ACA,Blue Shield of California,Total ankle arthroplasty,27702,NOT FOUND,National,,,
 Commercial/ACA,Blue Shield of California,Total shoulder arthroplasty,23472,NOT FOUND,National,,,
+Commercial/ACA,CareFirst BCBS,Bunionectomy / hallux valgus,28296,NOT FOUND,National,CareFirst Medical Policy Reference Manual (portal page),,https://provider.carefirst.com/providers/medical/medical-policy.page
+Commercial/ACA,CareFirst BCBS,Total ankle arthroplasty,27702,NOT FOUND,National,CareFirst Medical Policy Reference Manual (portal page),,https://provider.carefirst.com/providers/medical/medical-policy.page
 Commercial/ACA,Cigna,Bunionectomy / hallux valgus,28296,NOT FOUND,National,,,
 Commercial/ACA,Elevance / Anthem BCBS,ACL reconstruction,29888,NOT FOUND,National,,,https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/PDF-Joint-Surgery-2025-11-15.pdf
 Commercial/ACA,Florida Blue / GuideWell,Arthroscopic rotator cuff repair,29827,NOT FOUND,National,,,
@@ -38,6 +16,8 @@ Commercial/ACA,Florida Blue / GuideWell,Bunionectomy / hallux valgus,28296,NOT F
 Commercial/ACA,Florida Blue / GuideWell,Total shoulder arthroplasty,23472,NOT FOUND,National,,,
 Commercial/ACA,Highmark,Bunionectomy / hallux valgus,28296,NOT FOUND,National,,,
 Commercial/ACA,Highmark,Total ankle arthroplasty,27702,NOT FOUND,National,,,
+Commercial/ACA,Horizon BCBS New Jersey,Bunionectomy / hallux valgus,28296,NOT FOUND,National,Horizon BCBSNJ Medical Policy Manual (public database),,https://services3.horizon-bcbsnj.com/hcm/medpol2.nsf/homePage?OpenPage=
+Commercial/ACA,Horizon BCBS New Jersey,Total ankle arthroplasty,27702,NOT FOUND,National,Horizon BCBSNJ Medical Policy Manual (public database),,https://services3.horizon-bcbsnj.com/hcm/medpol2.nsf/homePage?OpenPage=
 Commercial/ACA,Humana,Total ankle arthroplasty,27702,NOT FOUND,National,,,https://mcp.humana.com/tad/tad_new/home.aspx
 Commercial/ACA,Independence Blue Cross,Bunionectomy / hallux valgus,28296,NOT FOUND,National,IBX Commercial Services Requiring Precertification,,https://medpolicy.ibx.com/ibc/Commercial/Pages/Services-Requiring-Precertification.aspx
 Commercial/ACA,Independence Blue Cross,Total ankle arthroplasty,27702,NOT FOUND,National,IBX Commercial Services Requiring Precertification,,https://medpolicy.ibx.com/ibc/Commercial/Pages/Services-Requiring-Precertification.aspx
@@ -101,6 +81,14 @@ Commercial/ACA,Centene (Ambetter/WellCare),Total knee arthroplasty (TKA),27447,N
 Commercial/ACA,Centene (Ambetter/WellCare),Total shoulder arthroplasty,23472,NO PUBLIC CRITERIA (vendor),National,,,https://www.ambetterhealth.com/en/ia/provider-resources/clinical-payment-policies/
 Commercial/ACA,Highmark,Musculoskeletal MRI (knee/shoulder/lumbar),73721/73221/72148,NO PUBLIC CRITERIA (vendor),National,Highmark Medical Policy - eviCore Clinical Guidelines / Advanced Imagi,12/01/2025,https://securecms.highmark.com/content/medpolicy/en/highmark/pa/commercial/navigation/evicore-clinical-guidelines.html
 Commercial/ACA,Highmark,Total shoulder arthroplasty,23472,NO PUBLIC CRITERIA (vendor),National,Highmark Medical Policy - eviCore Clinical Guidelines,,https://securecms.highmark.com/content/medpolicy/en/highmark/pa/commercial/navigation/evicore-clinical-guidelines.html
+Commercial/ACA,Horizon BCBS New Jersey,Arthroscopic rotator cuff repair,29827,NO PUBLIC CRITERIA (vendor),National,Horizon Surgical and Implantable Device Management Program - Medical P,,https://www.horizonblue.com/providers/products-programs/utilization-management-programs/surgical-and-implantable-device-management-program/medical-policy-criteria-and-guidelines
+Commercial/ACA,Horizon BCBS New Jersey,Cervical fusion / ACDF,22551,NO PUBLIC CRITERIA (vendor),National,Horizon Surgical and Implantable Device Management Program - Medical P,,https://www.horizonblue.com/providers/products-programs/utilization-management-programs/surgical-and-implantable-device-management-program/medical-policy-criteria-and-guidelines
+Commercial/ACA,Horizon BCBS New Jersey,Hip arthroscopy,29914-29916,NO PUBLIC CRITERIA (vendor),National,Horizon Surgical and Implantable Device Management Program - Medical P,,https://www.horizonblue.com/providers/products-programs/utilization-management-programs/surgical-and-implantable-device-management-program/medical-policy-criteria-and-guidelines
+Commercial/ACA,Horizon BCBS New Jersey,Lumbar fusion,22612,NO PUBLIC CRITERIA (vendor),National,Horizon Surgical and Implantable Device Management Program - Medical P,,https://www.horizonblue.com/providers/products-programs/utilization-management-programs/surgical-and-implantable-device-management-program/medical-policy-criteria-and-guidelines
+Commercial/ACA,Horizon BCBS New Jersey,Lumbar microdiscectomy / decompression,63030,NO PUBLIC CRITERIA (vendor),National,Horizon Surgical and Implantable Device Management Program - Medical P,,https://www.horizonblue.com/providers/products-programs/utilization-management-programs/surgical-and-implantable-device-management-program/medical-policy-criteria-and-guidelines
+Commercial/ACA,Horizon BCBS New Jersey,Total hip arthroplasty (THA),27130,NO PUBLIC CRITERIA (vendor),National,Horizon Surgical and Implantable Device Management Program - Medical P,,https://www.horizonblue.com/providers/products-programs/utilization-management-programs/surgical-and-implantable-device-management-program/medical-policy-criteria-and-guidelines
+Commercial/ACA,Horizon BCBS New Jersey,Total knee arthroplasty (TKA),27447,NO PUBLIC CRITERIA (vendor),National,Horizon Surgical and Implantable Device Management Program - Medical P,,https://www.horizonblue.com/providers/products-programs/utilization-management-programs/surgical-and-implantable-device-management-program/medical-policy-criteria-and-guidelines
+Commercial/ACA,Horizon BCBS New Jersey,Total shoulder arthroplasty,23472,NO PUBLIC CRITERIA (vendor),National,Horizon Surgical and Implantable Device Management Program - Medical P,,https://www.horizonblue.com/providers/products-programs/utilization-management-programs/surgical-and-implantable-device-management-program/medical-policy-criteria-and-guidelines
 Commercial/ACA,Humana,ACL reconstruction,29888,NO PUBLIC CRITERIA (vendor),National,Knee Arthroscopy - Medicare Advantage,5/1/2026,https://mcp.humana.com/tad/tad_new/Search.aspx?searchtype=beginswith&policyType=medical&docbegin=K
 Commercial/ACA,Humana,Arthroscopic rotator cuff repair,29827,NO PUBLIC CRITERIA (vendor),National,Shoulder Arthroscopy - Medicare Advantage,1/2/2026,https://mcp.humana.com/tad/tad_new/Search.aspx?searchtype=beginswith&policyType=medical&docbegin=S
 Commercial/ACA,Humana,Bunionectomy / hallux valgus,28296,NO PUBLIC CRITERIA (vendor),National,Foot Surgical Procedures - Medicare Advantage,9/2/2025,https://mcp.humana.com/tad/tad_new/Search.aspx?searchtype=beginswith&policyType=medical&docbegin=F
@@ -179,6 +167,16 @@ Commercial/ACA,Blue Shield of California,Lumbar fusion,22612,VERIFIED,National,L
 Commercial/ACA,Blue Shield of California,Lumbar microdiscectomy / decompression,63030,VERIFIED,National,Lumbar Spine Surgery (BSC_EVO_1766),7/1/2025,https://www.blueshieldca.com/content/dam/bsca/en/provider/docs/medical-policies/Lumbar-Spine-Surgery.pdf
 Commercial/ACA,Blue Shield of California,Total hip arthroplasty (THA),27130,VERIFIED,National,Hip Arthroplasty for Adults (BSC7.11),11/1/2025,https://www.blueshieldca.com/content/dam/bsca/en/provider/docs/medical-policies/Hip-Arthroplasty-Adults.pdf
 Commercial/ACA,Blue Shield of California,Total knee arthroplasty (TKA),27447,VERIFIED,National,Knee Arthroplasty for Adults (BSC7.10),12/1/2025,https://www.blueshieldca.com/content/dam/bsca/en/provider/docs/medical-policies/Knee-Arthroplasty-Adults.pdf
+Commercial/ACA,CareFirst BCBS,ACL reconstruction,29888,VERIFIED,National,EviCore by Evernorth Clinical Guidelines CMM-312: Knee Surgery-Arthros,"July 1, 2025",https://www.evicore.com/sites/default/files/clinical-guidelines/2025-02/EviCore_CMM-312%20Knee%20Surg%20Arthro_Final_V1.0.2025_Pub02.25.2025.pdf
+Commercial/ACA,CareFirst BCBS,Arthroscopic rotator cuff repair,29827,VERIFIED,National,EviCore by Evernorth Clinical Guidelines CMM-315: Shoulder Surgery-Art,"November 05, 2025",https://www.evicore.com/sites/default/files/clinical-guidelines/2025-07/EviCore_CMM-315%20Shoulder%20Surg%20Arthro_Final_V2.0.2025_eff11.05.2025_pub07.22.2025.pdf
+Commercial/ACA,CareFirst BCBS,Cervical fusion / ACDF,22551,VERIFIED,National,EviCore CMM-601: Anterior Cervical Discectomy and Fusion Guidelines V2,"November 1, 2024",https://www.evicore.com/sites/default/files/clinical-guidelines/2024-07/eviCore_CMM-601%20Ant%20Cerv%20Discec%20&%20Fusion_Final_V2.0.2024.pdf
+Commercial/ACA,CareFirst BCBS,Hip arthroscopy,29914-29916,VERIFIED,National,EviCore by Evernorth Clinical Guidelines CMM-314: Hip Surgery-Arthrosc,"July 1, 2025",https://www.evicore.com/sites/default/files/clinical-guidelines/2025-02/EviCore_CMM-314%20Hip%20Surg%20Arthro%20Open%20Proc_Final_V1.0.2025_Pub02.25.2025.pdf
+Commercial/ACA,CareFirst BCBS,Lumbar fusion,22612,VERIFIED,National,EviCore by Evernorth Clinical Guidelines CMM-609: Lumbar Fusion (Arthr,"July 1, 2025",https://www.evicore.com/sites/default/files/clinical-guidelines/2025-02/EviCore_CMM-609%20Lumbar%20Fusion_FINAL_V1.0.2025_Pub02.26.2025.pdf
+Commercial/ACA,CareFirst BCBS,Lumbar microdiscectomy / decompression,63030,VERIFIED,National,"EviCore CMM-606: Lumbar Microdiscectomy (Laminotomy, Laminectomy, or H","July 1, 2025",https://www.evicore.com/sites/default/files/clinical-guidelines/2025-03/EviCore_CMM-606%20Lumb%20Microdis_Final_V1.0.2025_Pub03.11.2025.pdf
+Commercial/ACA,CareFirst BCBS,Musculoskeletal MRI (knee/shoulder/lumbar),73721/73221/72148,VERIFIED,National,EviCore Spine Imaging Guidelines V1.1.2025 (lumbar MRI); companion Evi,"February 14, 2025",https://www.evicore.com/sites/default/files/clinical-guidelines/2025-02/EviCore_Spine%20Imaging%20Guidelines_V1.1.2025_Eff02.14.2025_pub11.26.2024_upd02.04.25_0.pdf
+Commercial/ACA,CareFirst BCBS,Total hip arthroplasty (THA),27130,VERIFIED,National,EviCore by Evernorth Clinical Guidelines CMM-313: Hip Replacement/Arth,"November 05, 2025",https://www.evicore.com/sites/default/files/clinical-guidelines/2025-07/EviCore_CMM-313%20Hip%20Replac%20Arthro_Final_V2.0.2025_eff11.05.2025_pub07.22.2025.pdf
+Commercial/ACA,CareFirst BCBS,Total knee arthroplasty (TKA),27447,VERIFIED,National,EviCore by Evernorth Clinical Guidelines CMM-311: Knee Replacement/Art,"November 05, 2025",https://www.evicore.com/sites/default/files/clinical-guidelines/2025-08/EviCore_CMM-311%20Knee%20Replacement%20Arthroplasty_V2.0.2025_Eff11.05.2025_upd08.12.2025.pdf
+Commercial/ACA,CareFirst BCBS,Total shoulder arthroplasty,23472,VERIFIED,National,EviCore CMM-318: Shoulder Arthroplasty/Replacement/Resurfacing/Revisio,"March 07, 2026 (as printed in this editi",https://www.evicore.com/sites/default/files/clinical-guidelines/2025-12/Cigna_CMM-318_Shoulder%20Arthro%20Replace%20Revision_V2.0.2025_Eff03.07.2026_Pub12.11.2025.pdf
 Commercial/ACA,Centene (Ambetter/WellCare),Lumbar microdiscectomy / decompression,63030,VERIFIED,National,Clinical Policy: Disc Decompression Procedures (CP.MP.114),Date of Last Revision: 04/25,https://www.ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf
 Commercial/ACA,Cigna,ACL reconstruction,29888,VERIFIED,National,Cigna CMM-312 Knee Surgery Arthroscopic/Open (via eviCore),"March 07, 2026",https://www.evicore.com/sites/default/files/clinical-guidelines/2025-12/Cigna_CMM-312%20Knee%20Surg%20Arthro%20&%20Open%20Proc_eff03.07.2026_pub12.11.2025.pdf
 Commercial/ACA,Cigna,Arthroscopic rotator cuff repair,29827,VERIFIED,National,Cigna CMM-315 Shoulder Surgery Arthroscopic/Open (via eviCore),"March 07, 2026",https://www.evicore.com/sites/default/files/clinical-guidelines/2025-11/Cigna_CMM-315%20Shoulder%20Surg%20Arthro%20Open%20Proc_V2.0.2025_Eff03.07.2026_Pub11.21.2025.pdf
@@ -219,6 +217,8 @@ Commercial/ACA,Highmark,Lumbar fusion,22612,VERIFIED,National,EviCore CMM-609: L
 Commercial/ACA,Highmark,Lumbar microdiscectomy / decompression,63030,VERIFIED,National,"EviCore CMM-606: Lumbar Microdiscectomy (Laminotomy, Laminectomy, or H",07/01/2025,https://www.evicore.com/sites/default/files/clinical-guidelines/2025-03/EviCore_CMM-606%20Lumb%20Microdis_Final_V1.0.2025_Pub03.11.2025.pdf
 Commercial/ACA,Highmark,Total hip arthroplasty (THA),27130,VERIFIED,National,EviCore CMM-313: Hip Replacement/Arthroplasty (V2.0.2025),11/05/2025,https://www.evicore.com/sites/default/files/clinical-guidelines/2025-07/EviCore_CMM-313%20Hip%20Replac%20Arthro_Final_V2.0.2025_eff11.05.2025_pub07.22.2025.pdf
 Commercial/ACA,Highmark,Total knee arthroplasty (TKA),27447,VERIFIED,National,EviCore CMM-311: Knee Replacement/Arthroplasty (V2.0.2025),11/05/2025,https://www.evicore.com/sites/default/files/clinical-guidelines/2025-08/EviCore_CMM-311%20Knee%20Replacement%20Arthroplasty_V2.0.2025_Eff11.05.2025_upd08.12.2025.pdf
+Commercial/ACA,Horizon BCBS New Jersey,ACL reconstruction,29888,VERIFIED,National,Horizon BCBSNJ Medical Policy - Surgery 164: Arthroscopy for Treatment,02/01/2020 (last review 02/11/2020),https://services3.horizon-bcbsnj.com/hcm/MedPol2.nsf/MedicalPolicies/DDIL-AWLLN7
+Commercial/ACA,Horizon BCBS New Jersey,Musculoskeletal MRI (knee/shoulder/lumbar),73721/73221/72148,VERIFIED,National,EviCore Spine Imaging Guidelines V1.1.2025 (lumbar MRI); companion Evi,"February 14, 2025",https://www.evicore.com/sites/default/files/clinical-guidelines/2025-02/EviCore_Spine%20Imaging%20Guidelines_V1.1.2025_Eff02.14.2025_pub11.26.2024_upd02.04.25_0.pdf
 Commercial/ACA,Independence Blue Cross,Arthroscopic rotator cuff repair,29827,VERIFIED,National,Carelon Clinical Appropriateness Guidelines - Musculoskeletal: Joint S,11/15/2025 (Doc ID MSK02-1125.1),https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/
 Commercial/ACA,Independence Blue Cross,Cervical fusion / ACDF,22551,VERIFIED,National,Carelon Clinical Appropriateness Guidelines - Spine Surgery (2025-11-1,11/15/2025 (Doc ID MSK03-1125.1-UC0126),https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/12/PDF-Spine-Surgery-2025-11-15-UC0126.pdf
 Commercial/ACA,Independence Blue Cross,Hip arthroscopy,29914-29916,VERIFIED,National,"Carelon Appropriate Use Criteria: Joint Surgery (official PDF, 2025-11",11/15/2025 (Doc ID MSK02-1125.1),https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/PDF-Joint-Surgery-2025-11-15.pdf
