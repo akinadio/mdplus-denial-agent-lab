@@ -23,20 +23,6 @@ Commercial/ACA,Horizon BCBS New Jersey,Total ankle arthroplasty,27702,PENDING,Na
 Commercial/ACA,Horizon BCBS New Jersey,Total hip arthroplasty (THA),27130,PENDING,National,,,
 Commercial/ACA,Horizon BCBS New Jersey,Total knee arthroplasty (TKA),27447,PENDING,National,,,
 Commercial/ACA,Horizon BCBS New Jersey,Total shoulder arthroplasty,23472,PENDING,National,,,
-Commercial/ACA,Independence Blue Cross,ACL reconstruction,29888,PENDING,National,,,
-Commercial/ACA,Independence Blue Cross,Arthroscopic rotator cuff repair,29827,PENDING,National,,,
-Commercial/ACA,Independence Blue Cross,Bunionectomy / hallux valgus,28296,PENDING,National,,,
-Commercial/ACA,Independence Blue Cross,Cervical fusion / ACDF,22551,PENDING,National,,,
-Commercial/ACA,Independence Blue Cross,Hip arthroscopy,29914-29916,PENDING,National,,,
-Commercial/ACA,Independence Blue Cross,Lumbar fusion,22612,PENDING,National,,,
-Commercial/ACA,Independence Blue Cross,Lumbar microdiscectomy / decompression,63030,PENDING,National,,,
-Commercial/ACA,Independence Blue Cross,Musculoskeletal MRI (knee/shoulder/lumbar),73721/73221/72148,PENDING,National,,,
-Commercial/ACA,Independence Blue Cross,Total ankle arthroplasty,27702,PENDING,National,,,
-Commercial/ACA,Independence Blue Cross,Total hip arthroplasty (THA),27130,PENDING,National,,,
-Commercial/ACA,Independence Blue Cross,Total knee arthroplasty (TKA),27447,PENDING,National,,,
-Commercial/ACA,Independence Blue Cross,Total shoulder arthroplasty,23472,PENDING,National,,,
-Medicaid,Massachusetts,All 12 procedures,,PENDING,Massachusetts,,,
-Medicaid,North Carolina,All 12 procedures,,PENDING,North Carolina,,,
 Commercial/ACA,Aetna (CVS Health),ACL reconstruction,29888,NOT FOUND,National,,,
 Commercial/ACA,Aetna (CVS Health),Arthroscopic rotator cuff repair,29827,NOT FOUND,National,,,
 Commercial/ACA,BCBS Michigan,Bunionectomy / hallux valgus,28296,NOT FOUND,National,,,
@@ -53,6 +39,8 @@ Commercial/ACA,Florida Blue / GuideWell,Total shoulder arthroplasty,23472,NOT FO
 Commercial/ACA,Highmark,Bunionectomy / hallux valgus,28296,NOT FOUND,National,,,
 Commercial/ACA,Highmark,Total ankle arthroplasty,27702,NOT FOUND,National,,,
 Commercial/ACA,Humana,Total ankle arthroplasty,27702,NOT FOUND,National,,,https://mcp.humana.com/tad/tad_new/home.aspx
+Commercial/ACA,Independence Blue Cross,Bunionectomy / hallux valgus,28296,NOT FOUND,National,IBX Commercial Services Requiring Precertification,,https://medpolicy.ibx.com/ibc/Commercial/Pages/Services-Requiring-Precertification.aspx
+Commercial/ACA,Independence Blue Cross,Total ankle arthroplasty,27702,NOT FOUND,National,IBX Commercial Services Requiring Precertification,,https://medpolicy.ibx.com/ibc/Commercial/Pages/Services-Requiring-Precertification.aspx
 Commercial/ACA,Molina Healthcare,Arthroscopic rotator cuff repair,29827,NOT FOUND,National,,,
 Commercial/ACA,Molina Healthcare,Cervical fusion / ACDF,22551,NOT FOUND,National,,,
 Commercial/ACA,Molina Healthcare,Lumbar fusion,22612,NOT FOUND,National,,,
@@ -85,6 +73,7 @@ Medicaid,Nevada,All 12 procedures,,UNREACHABLE,Nevada,Nevada Medicaid Services M
 Medicaid,South Carolina,All 12 procedures,,UNREACHABLE,South Carolina,SCDHHS Physicians Services Provider Manual,,https://provider.scdhhs.gov/internet/pdf/manuals/Physicians/Manual.pdf
 Medicaid,Kansas,All 12 procedures,,GATED,Kansas,KMAP Provider Manuals (General Benefits / Professional FFS manuals),,https://portal.kmap-state-ks.us/PublicPage/Public/ProviderManuals
 Medicaid,New Hampshire,All 12 procedures,,GATED,New Hampshire,NH MMIS Health Enterprise Portal - Provider Manuals / Documents and Fo,,https://nhmmis.nh.gov/portals/wps/portal/DocumentLibrary
+Commercial/ACA,Independence Blue Cross,ACL reconstruction,29888,CODE ONLY,National,IBX Commercial Services Requiring Precertification (Carelon musculoske,,https://medpolicy.ibx.com/ibc/Commercial/Pages/Services-Requiring-Precertification.aspx
 Medicaid,Mississippi,All 12 procedures,,CODE ONLY,Mississippi,DOM MESA Procedure Code Prior Authorization Required list (July 2026),,https://medicaid.ms.gov/wp-content/uploads/2026/07/DOM-MESA-Procedure-Code-Prior-Authorization-Required-JULY-2026-FNL-v2.xlsx
 Medicaid,New York,All 12 procedures,,CODE ONLY,New York,eMedNY Physician Manual - Procedure Codes Section 5: Surgery,,https://www.emedny.org/ProviderManuals/Physician/PDFS/Physician%20Procedure%20Codes%20Sect5.pdf
 Commercial/ACA,BCBS Michigan,ACL reconstruction,29888,NO PUBLIC CRITERIA (vendor),National,Musculoskeletal Services (TurningPoint program),,https://authorizations.bcbsm.com/prov-ref-msk-services.shtml
@@ -230,6 +219,15 @@ Commercial/ACA,Highmark,Lumbar fusion,22612,VERIFIED,National,EviCore CMM-609: L
 Commercial/ACA,Highmark,Lumbar microdiscectomy / decompression,63030,VERIFIED,National,"EviCore CMM-606: Lumbar Microdiscectomy (Laminotomy, Laminectomy, or H",07/01/2025,https://www.evicore.com/sites/default/files/clinical-guidelines/2025-03/EviCore_CMM-606%20Lumb%20Microdis_Final_V1.0.2025_Pub03.11.2025.pdf
 Commercial/ACA,Highmark,Total hip arthroplasty (THA),27130,VERIFIED,National,EviCore CMM-313: Hip Replacement/Arthroplasty (V2.0.2025),11/05/2025,https://www.evicore.com/sites/default/files/clinical-guidelines/2025-07/EviCore_CMM-313%20Hip%20Replac%20Arthro_Final_V2.0.2025_eff11.05.2025_pub07.22.2025.pdf
 Commercial/ACA,Highmark,Total knee arthroplasty (TKA),27447,VERIFIED,National,EviCore CMM-311: Knee Replacement/Arthroplasty (V2.0.2025),11/05/2025,https://www.evicore.com/sites/default/files/clinical-guidelines/2025-08/EviCore_CMM-311%20Knee%20Replacement%20Arthroplasty_V2.0.2025_Eff11.05.2025_upd08.12.2025.pdf
+Commercial/ACA,Independence Blue Cross,Arthroscopic rotator cuff repair,29827,VERIFIED,National,Carelon Clinical Appropriateness Guidelines - Musculoskeletal: Joint S,11/15/2025 (Doc ID MSK02-1125.1),https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/
+Commercial/ACA,Independence Blue Cross,Cervical fusion / ACDF,22551,VERIFIED,National,Carelon Clinical Appropriateness Guidelines - Spine Surgery (2025-11-1,11/15/2025 (Doc ID MSK03-1125.1-UC0126),https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/12/PDF-Spine-Surgery-2025-11-15-UC0126.pdf
+Commercial/ACA,Independence Blue Cross,Hip arthroscopy,29914-29916,VERIFIED,National,"Carelon Appropriate Use Criteria: Joint Surgery (official PDF, 2025-11",11/15/2025 (Doc ID MSK02-1125.1),https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/PDF-Joint-Surgery-2025-11-15.pdf
+Commercial/ACA,Independence Blue Cross,Lumbar fusion,22612,VERIFIED,National,Carelon Clinical Appropriateness Guidelines - Spine Surgery (2025-11-1,11/15/2025 (Doc ID MSK03-1125.1-UC0126),https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/12/PDF-Spine-Surgery-2025-11-15-UC0126.pdf
+Commercial/ACA,Independence Blue Cross,Lumbar microdiscectomy / decompression,63030,VERIFIED,National,Carelon Clinical Appropriateness Guidelines - Spine Surgery (2025-11-1,11/15/2025 (Doc ID MSK03-1125.1-UC0126),https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/12/PDF-Spine-Surgery-2025-11-15-UC0126.pdf
+Commercial/ACA,Independence Blue Cross,Musculoskeletal MRI (knee/shoulder/lumbar),73721/73221/72148,VERIFIED,National,Carelon Clinical Appropriateness Guidelines - Imaging of the Extremiti,11/15/2025,https://guidelines.carelonmedicalbenefitsmanagement.com/imaging-of-the-extremities-2025-11-15/
+Commercial/ACA,Independence Blue Cross,Total hip arthroplasty (THA),27130,VERIFIED,National,Carelon Clinical Appropriateness Guidelines - Musculoskeletal: Joint S,11/15/2025 (Doc ID MSK02-1125.1),https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/
+Commercial/ACA,Independence Blue Cross,Total knee arthroplasty (TKA),27447,VERIFIED,National,Carelon Clinical Appropriateness Guidelines - Musculoskeletal: Joint S,11/15/2025 (Doc ID MSK02-1125.1),https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/
+Commercial/ACA,Independence Blue Cross,Total shoulder arthroplasty,23472,VERIFIED,National,Carelon Clinical Appropriateness Guidelines - Musculoskeletal: Joint S,11/15/2025 (Doc ID MSK02-1125.1),https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/
 Commercial/ACA,Molina Healthcare,Bunionectomy / hallux valgus,28296,VERIFIED,National,Molina Clinical Policy MCP-700 Foot Surgery: Bunionectomy,Last Approval 4/13/2023; Next Review Due,https://www.molinahealthcare.com/-/media/Molina/PublicWebsite/PDF/Providers/oh/medicaid/policies/MCP-700-Foot-Surgery-Bunionectomy-0823.pdf
 Commercial/ACA,Molina Healthcare,Musculoskeletal MRI (knee/shoulder/lumbar),73721/73221/72148,VERIFIED,National,Molina MCP-633 Lower Extremity MRI + MCR-621 Lumbar Spine MRI (shoulde,Last Approval 12/8/2021; Next Review Due,https://www.molinahealthcare.com/~/media/Molina/PublicWebsite/PDF/Common/Molina%20Clinical%20Policy/Lower%20Extremity%20MRI.pdf
 Commercial/ACA,Premera Blue Cross,ACL reconstruction,29888,VERIFIED,National,Knee Arthroscopy in Adults (7.01.549),"December 1, 2025",https://www.premera.com/medicalpolicies/7.01.549.pdf
@@ -260,11 +258,13 @@ Medicaid,Kentucky,All 12 procedures,,VERIFIED (state Medicaid doc),Kentucky,907 
 Medicaid,Louisiana,All 12 procedures,,VERIFIED (state Medicaid doc),Louisiana,"Louisiana Medicaid Services Manual, Chapter 5: Professional Services",Issued 12/29/25,https://www.lamedicaid.com/provweb1/providermanuals/manuals/ps/ps.pdf
 Medicaid,Maryland,All 12 procedures,,VERIFIED (state Medicaid doc),Maryland,Maryland Medical Assistance Program - 2026 Professional Services and P,January 2026,https://health.maryland.gov/mmcp/provider/Documents/2026-Professional-Services-Provider-Manual.pdf
 Medicaid,Massachusetts,ACL reconstruction,29888,VERIFIED (procedure criteria),Massachusetts,MassHealth Guidelines for Medical Necessity Determination for Knee Art,"June 1, 2018",https://www.mass.gov/doc/guidelines-for-medical-necessity-determination-for-knee-arthroscopy-0/download
+Medicaid,Massachusetts,All 12 procedures,,VERIFIED (state Medicaid doc),Massachusetts,MassHealth prior authorization (provider hub; GMND criteria per proced,,https://www.mass.gov/prior-authorization-for-masshealth-providers
 Medicaid,Massachusetts,Total knee arthroplasty (TKA),27447,VERIFIED (procedure criteria),Massachusetts,MassHealth Guidelines for Medical Necessity Determination for Knee Art,"June 1, 2018",https://www.mass.gov/doc/guidelines-for-medical-necessity-determination-for-knee-arthroplasty/download
 Medicaid,Michigan,All 12 procedures,,VERIFIED (state Medicaid doc),Michigan,MDHHS Michigan Medicaid Provider Manual (Practitioner and General Info,"July 1, 2026",https://www.mdch.state.mi.us/dch-medicaid/manuals/MedicaidProviderManual.pdf
 Medicaid,Nebraska,All 12 procedures,,VERIFIED (state Medicaid doc),Nebraska,471 NAC Chapter 18 - Physicians' Services (Nebraska Medical Assistance,"July 10, 2022",https://govdocs.nebraska.gov/epubs/H8900/R471.0018-2022.pdf
 Medicaid,New Jersey,All 12 procedures,,VERIFIED (state Medicaid doc),New Jersey,N.J.A.C. 10:54-3.2 Prior authorization (Physician Services chapter of ,,https://regulations.justia.com/states/new-jersey/title-10/chapter-54/subchapter-3/section-10-54-3-2/
 Medicaid,New Mexico,All 12 procedures,,VERIFIED (state Medicaid doc),New Mexico,8.310.2 NMAC - General Benefit Description (Health Care Professional S,"January 1, 2014 (with later section amen",https://www.srca.nm.gov/parts/title08/08.310.0002.html
+Medicaid,North Carolina,All 12 procedures,,VERIFIED (state Medicaid doc),North Carolina,NC Medicaid Prior Approval and Due Process (Clinical Coverage Policies,,https://medicaid.ncdhhs.gov/providers/programs-and-services/prior-approval-and-due-process
 Medicaid,North Carolina,Cervical fusion / ACDF,22551,VERIFIED (procedure criteria),North Carolina,"NC Medicaid Clinical Coverage Policy No. 1A-30, Spinal Surgeries","July 15, 2024",https://medicaid.ncdhhs.gov/1a-30-spinal-surgeries/download?attachment
 Medicaid,North Carolina,Lumbar fusion,22612,VERIFIED (procedure criteria),North Carolina,"NC Medicaid Clinical Coverage Policy No. 1A-30, Spinal Surgeries","July 15, 2024",https://medicaid.ncdhhs.gov/1a-30-spinal-surgeries/download?attachment
 Medicaid,North Carolina,Lumbar microdiscectomy / decompression,63030,VERIFIED (procedure criteria),North Carolina,"NC Medicaid Clinical Coverage Policy No. 1A-30, Spinal Surgeries","July 15, 2024",https://medicaid.ncdhhs.gov/1a-30-spinal-surgeries/download?attachment
