@@ -43,6 +43,13 @@ def main() -> None:
         "<script>\n" + data_js + "\n</script>",
     )
 
+    # 3b) inline coverage.js (generated per-option coverage map)
+    coverage_js = (ASSETS / "coverage.js").read_text(encoding="utf-8")
+    html = html.replace(
+        '<script src="../assets/coverage.js"></script>',
+        "<script>\n" + coverage_js + "\n</script>",
+    )
+
     # 4) force DEMO on (replace the query-param sniff with a hard true)
     html = html.replace(
         "window.__ORTHO_DEMO__ = window.__ORTHO_DEMO__ ||\n"
