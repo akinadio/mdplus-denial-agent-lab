@@ -46,3 +46,7 @@ harness_server.log
 # Policy directory + verification (safe, non-PHI reference data)
 !data/policy_platform/full_surgery_policy_directory.csv
 !data/policy_platform/url_verification_ledger.json
+
+!data/policy_platform/policy_registry_v2.csv
+!data/policy_platform/research
+!data/policy_platform/research/*
