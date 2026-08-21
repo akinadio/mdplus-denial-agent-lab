@@ -1456,6 +1456,11 @@
         <div class="sec" id="cov-sec">
           <div class="pkt"><p><b>We have your plan's official policy on file.</b> This appeal plan is grounded in ${cov.title ? '&ldquo;' + esc(cov.title) + '&rdquo;' : "your insurer's published coverage policy"}${cov.url ? ' &mdash; <a href="' + esc(cov.url) + '" target="_blank" rel="noopener">read it here</a>' : ''}.</p></div>
         </div>`;
+      } else if (cov.code === 'B') {
+        covSection = `
+        <div class="sec" id="cov-sec">
+          <div class="pkt"><p><b>Your plan does publish its rules for this surgery &mdash; it just doesn't give the document a permanent web address.</b> You have to browse to it, which takes two clicks: ${cov.url ? '<a href="' + esc(cov.url) + '" target="_blank" rel="noopener">open your plan’s policy list</a>' : 'open your plan’s policy list'}, then click ${cov.title ? '&ldquo;' + esc(cov.title.replace(/^[^:]*:\s*/, '')) + '&rdquo;' : 'the policy for your surgery'}. That document is what your appeal should quote.</p></div>
+        </div>`;
       } else if (cov.code === 'P') {
         covSection = `
         <div class="sec" id="cov-sec">

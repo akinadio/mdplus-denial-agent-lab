@@ -101,34 +101,39 @@ or a login wall does **not** count.
 
 **Current coverage** (regenerate anytime; see §5):
 
-- **1,560 app options anchored to a policy document that actually contains
-  medical-necessity criteria for that procedure**
+- **1,812 app options anchored to a policy document that actually contains
+  medical-necessity criteria for that procedure** — of which 50 are a correct,
+  current, public document whose criteria section we located but could not
+  extract (a 74-page Carelon bundle that truncates on every fetch route), and
+  72 are real public criteria the payer refuses to give a permanent URL, so the
+  app hands the patient a two-click path instead of a dead link
 - **565** where we hold the payer's authorization / utilization-review
   document, but it carries no procedure-specific criteria — the app says so in
-  those words, links the document anyway (it is useful for holding the payer to
-  its own review rules), and tells the patient to demand the criteria that were
-  actually applied
-- **394** honestly resolved as *Medicare: no LCD exists* (general medical
+  those words, links it anyway (it is useful for holding the payer to its own
+  review rules), and tells the patient to demand the criteria actually applied
+- **547** honestly resolved as *Medicare: no LCD exists* (general medical
   necessity governs — itself useful in an appeal)
-- **1,435** where the payer keeps criteria in a private tool (InterQual, MCG,
-  eviCore portal, TurningPoint) — labeled as such, with the patient told they
-  can demand the criteria used in their denial
-- **2,163** not yet researched (mostly 3 app procedures added after the main
-  research set, plus the long tail of small regional payers)
+- **1,652** where the payer keeps criteria in a private tool (InterQual, MCG,
+  eviCore portal, TurningPoint, Evolent-gated markets) — labeled as such, with
+  the patient told they can demand the criteria used in their denial
+- **1,365** not yet researched — now almost entirely the long tail of small
+  regional payers, not whole procedures
 
 The app never pretends. If a patient picks a combination we don't hold, the
 result page says so and asks them to upload their policy.
 
-> **Why "verified" went down.** An August 2026 audit re-read every state
+> **Why "verified" moved twice.** An August 2026 audit re-read every state
 > Medicaid document behind a `VERIFIED` cell against a strict test: *does this
 > document contain indication-level criteria for this procedure — imaging
 > findings, symptom duration, failed conservative care — that a patient could
-> quote?* Most state Medicaid manuals do not. They say prior authorization is
-> required and name a review vendor. 565 cells moved from "verified" to the new
-> `PROCESS DOC ONLY` state, and 4 California cells moved the other way (the
-> DHCS *Manual of Criteria* really does carry hip arthroplasty, lumbar disc,
-> meniscectomy and recurrent shoulder dislocation criteria). The lower number
-> is the true one.
+> quote?* Most state Medicaid manuals do not. 565 cells moved to the new
+> `PROCESS DOC ONLY` state, and 4 California cells moved the other way. A
+> second sweep then researched the three procedures that had never been covered
+> (partial knee, knee arthroscopy, shoulder labral repair) across every national
+> payer and every Medicare contractor, and caught that **the entire Cigna
+> eviCore guideline series had version-bumped to V1.0.2026 on 2026-08-04**,
+> making 380 URLs we served stale. Those are refreshed. Both numbers moved
+> because the underlying facts were checked, not because the target changed.
 
 ## 5. Regenerating everything
 
