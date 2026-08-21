@@ -92,5 +92,94 @@ class CitationCacheTests(unittest.TestCase):
         self.assertIsNone(cc.lookup("Aetna", "TX", ""))
 
 
+LEDGER = {
+    "meta": {"verdicts": ["verified", "criteria_proprietary_not_public"]},
+    "urls": {
+        # Deliberately spelled differently from the SEED entry above: a
+        # different query-parameter case and a trailing slash. A citation and a
+        # ledger row that name the same document must be recognized as the same
+        # document, or the cross-check silently does nothing.
+        "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=36575": {
+            "per_cpt": {"27447": "verified"},
+            "note": "Noridian consolidated its TKA LCDs eff 2025-11-06.",
+        },
+        "https://www.aetna.com/cpb/medical/data/600_699/0660.html/": {
+            "per_cpt": {"27447": "criteria_proprietary_not_public"},
+            "note": "Pretend verdict, so the test does not depend on real data.",
+        },
+    },
+}
+
+
+class VerdictCrossCheckTests(unittest.TestCase):
+    """The cache must never be the only voice in the room.
+
+    Our own verification record (the ledger, and the app-option directory
+    behind it) has independently fetched and read these documents. When it
+    disagrees with a cached citation -- most importantly when it found the
+    document carries no usable criteria -- that has to reach the caller, or a
+    retrieval run will burn a round trip rediscovering it.
+    """
+
+    def setUp(self):
+        self._tmpdir = tempfile.TemporaryDirectory()
+        root = Path(self._tmpdir.name)
+        (root / "known_citations.json").write_text(json.dumps(SEED), encoding="utf-8")
+        (root / "url_verification_ledger.json").write_text(json.dumps(LEDGER), encoding="utf-8")
+        self._orig = (cc._DATA_PATH, cc._LEDGER_PATH, cc._DIRECTORY_PATH)
+        cc._DATA_PATH = root / "known_citations.json"
+        cc._LEDGER_PATH = root / "url_verification_ledger.json"
+        cc._DIRECTORY_PATH = root / "does_not_exist.csv"
+        cc.reload()
+
+    def tearDown(self):
+        cc._DATA_PATH, cc._LEDGER_PATH, cc._DIRECTORY_PATH = self._orig
+        cc.reload()
+        self._tmpdir.cleanup()
+
+    def test_verdict_is_attached_to_a_hit(self):
+        hit = cc.lookup("Medicare", "CA", "27447")
+        self.assertEqual(hit["ledger_verdict"], "verified")
+        self.assertIn("Noridian", hit["ledger_note"])
+
+    def test_url_spelling_differences_still_match(self):
+        """Query-param case and a trailing slash must not defeat the match."""
+        hit = cc.lookup("Aetna", "TX", "27447")
+        self.assertEqual(hit["ledger_verdict"], "criteria_proprietary_not_public")
+
+    def test_lookup_does_not_mutate_the_cached_entry(self):
+        cc.lookup("Aetna", "TX", "27447")
+        self.assertNotIn("ledger_verdict", cc._load()[0])
+
+    def test_hit_survives_when_no_verdict_exists(self):
+        cc._LEDGER_PATH = Path(self._tmpdir.name) / "nothing_here.json"
+        cc.reload()
+        hit = cc.lookup("Aetna", "TX", "27447")
+        self.assertIsNotNone(hit)
+        self.assertNotIn("ledger_verdict", hit)
+
+    def test_directory_csv_supplies_a_verdict_when_the_ledger_has_none(self):
+        root = Path(self._tmpdir.name)
+        (root / "dir.csv").write_text(
+            "state,insurance_company,plan_type,surgery,cpt,status,policy_title,"
+            "effective_date,policy_url,note\n"
+            "Texas,Aetna,Commercial/ACA,Total knee replacement,27447,"
+            "NO PUBLIC CRITERIA (vendor),T,,"
+            "https://www.aetna.com/cpb/medical/data/600_699/0660.html,vendor tool\n",
+            encoding="utf-8",
+        )
+        cc._LEDGER_PATH = root / "nothing_here.json"
+        cc._DIRECTORY_PATH = root / "dir.csv"
+        cc.reload()
+        self.assertEqual(
+            cc.lookup("Aetna", "TX", "27447")["ledger_verdict"],
+            "criteria_proprietary_not_public",
+        )
+
+    def test_verdict_for_is_usable_on_its_own(self):
+        self.assertIsNone(cc.verdict_for("https://example.com/nope.pdf", "27447"))
+        self.assertIsNone(cc.verdict_for("", "27447"))
+
+
 if __name__ == "__main__":
     unittest.main()

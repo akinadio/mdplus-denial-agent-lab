@@ -4,7 +4,11 @@
 Gives the frontend an honest, compact answer for every option combo the site
 offers: do we hold the governing policy document for this surgery + state +
 insurer, and if so where is it?  Codes:
-  V = verified public policy document on file (url present)
+  V = verified public policy document on file, WITH real medical-necessity
+      criteria for this procedure (url present)
+  P = we hold the payer's authorization/utilization-review document, but it
+      contains no procedure-specific criteria (url present). Honest middle
+      ground: useful for an appeal, but nothing to quote as 'I meet this'.
   L = Medicare: no LCD exists — general medical-necessity standards apply
   N = insurer keeps criteria in a private tool (InterQual/MCG/eviCore portal...)
   G = document exists but behind a login
@@ -18,6 +22,7 @@ rows = list(csv.DictReader(open(ROOT/'data/policy_platform/app_option_policy_dir
 
 def code(status):
     s = status
+    if s.startswith('PROCESS DOC ONLY'): return 'P'
     if s.startswith('VERIFIED'): return 'V'
     if s.startswith('NO LCD'): return 'L'
     if 'NO PUBLIC CRITERIA' in s: return 'N'
@@ -40,7 +45,8 @@ for r in rows:
     c = code(r['status'])
     if c == 'F':
         continue  # default in the UI; omitting keeps the file small
-    ent = [c, uix(r['policy_url']) if c == 'V' else -1, (r['policy_title'] or '')[:60] if c == 'V' else '']
+    linked = c in ('V', 'P')   # both carry a real document the patient can open
+    ent = [c, uix(r['policy_url']) if linked else -1, (r['policy_title'] or '')[:60] if linked else '']
     if r['insurance_company'] == 'Medicare':
         medicare[f"{r['state']}|{r['cpt']}"] = ent
     elif r['insurance_company'] == 'Medicaid':

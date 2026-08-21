@@ -72,6 +72,32 @@ class KnownCitationHintBlockTests(unittest.TestCase):
         self.assertIn("Confirm it is still", block)
         self.assertIn("disregard it and retrieve fresh evidence", block)
 
+    def test_no_verdict_renders_no_verdict_line(self):
+        block = known_citation_hint_block(SAMPLE_HIT)
+        self.assertNotIn("Our own verification", block)
+
+    def test_verified_verdict_is_stated_without_a_warning(self):
+        hit = dict(SAMPLE_HIT, ledger_verdict="verified", ledger_note="Real criteria; KL grade 3-4.")
+        block = known_citation_hint_block(hit)
+        self.assertIn("Our own verification of this document for this CPT: verified", block)
+        self.assertIn("Real criteria; KL grade 3-4.", block)
+        self.assertNotIn("IMPORTANT", block)
+
+    def test_non_verified_verdict_warns_before_the_round_trip_is_spent(self):
+        """The UnitedHealthcare case: a real, current document whose criteria
+        live in InterQual. The agent has to be told that up front, or it
+        fetches the PDF and finds nothing to quote."""
+        hit = dict(
+            SAMPLE_HIT,
+            ledger_verdict="criteria_proprietary_not_public",
+            ledger_note="TKA criteria outsourced to InterQual.",
+        )
+        block = known_citation_hint_block(hit)
+        self.assertIn("criteria_proprietary_not_public", block)
+        self.assertIn("IMPORTANT", block)
+        self.assertIn("NOT yield usable medical-necessity criteria", block)
+        self.assertIn("InterQual", block)
+
 
 class ClaudePromptCitationHintTests(unittest.TestCase):
     """claude_prompt() is what the sustainable API engine (run_api_arm) and

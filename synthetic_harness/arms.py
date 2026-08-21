@@ -41,9 +41,32 @@ def known_citation_hint_block(hint: dict[str, Any] | None) -> str:
     Framed explicitly as a lead to verify, not an answer to replay: a prior
     run on a similar case is not proof this document still applies to this
     patient's actual payer, state, product, and CPT code.
+
+    When our own verification record has a verdict on that exact document for
+    that exact procedure, `citation_cache.lookup()` attaches it as
+    `ledger_verdict`, and it is rendered here. A verdict other than
+    "verified" is the more valuable case: it means we already fetched this
+    document and found it does not contain usable criteria (UnitedHealthcare
+    defers knee and spine criteria to InterQual, for instance), so the agent
+    is told that before it spends a round trip discovering it.
     """
     if not hint:
         return ""
+    verdict = (hint.get("ledger_verdict") or "").strip()
+    verdict_lines = ""
+    if verdict:
+        verdict_lines = f"  Our own verification of this document for this CPT: {verdict}\n"
+        if hint.get("ledger_note"):
+            verdict_lines += f"  What we found when we read it: {hint['ledger_note']}\n"
+        if verdict != "verified":
+            verdict_lines += (
+                "  ^ IMPORTANT: we have already fetched this document ourselves and it did "
+                "NOT yield usable medical-necessity criteria for this procedure. Do not "
+                "expect to quote criteria from it. Treat it as background only and plan on "
+                "retrieving the real governing criteria elsewhere -- and if the criteria "
+                "genuinely live in a proprietary vendor tool, say so plainly rather than "
+                "quoting something weaker as if it were the standard.\n"
+            )
     return (
         "\nKNOWN PRIOR CITATION (verify before use, do not assume)\n"
         "A previous case with the same payer, state, and CPT code selected "
@@ -52,6 +75,7 @@ def known_citation_hint_block(hint: dict[str, Any] | None) -> str:
         f"  URL: {hint.get('selected_source_url')}\n"
         f"  Prior confidence: {hint.get('confidence_overall')}\n"
         + (f"  Note from that prior run: {hint.get('note')}\n" if hint.get("note") else "")
+        + verdict_lines
         + "Start by fetching and re-reading this document. Confirm it is still "
         "current, still applies to this patient's actual payer entity, "
         "product/plan type, and state, and actually covers this patient's "

@@ -46,7 +46,7 @@ and the tests.
 | `synthetic_harness/` (rest) | Encryption at rest, retention, rate limiting, spend cap, appeal-letter generation, episode store. |
 | `data/policy_platform/` | **The policy directories** — see §4. |
 | `deploy/` | `setup.sh` (one-command host stand-up) and `DEPLOY.md` (plain-English hosting guide). |
-| `tests/` | 168 passing tests, no API key or network required. |
+| `tests/` | 194 passing tests, no API key or network required. |
 | `docs/` | Architecture, security review, deploy notes, and the original lab README. |
 | `HANDOFF.md` | Backend change log and roadmap. |
 
@@ -62,7 +62,7 @@ open dist/orthoappeal-demo.html     # entire flow runs against canned data
 **The tests:**
 
 ```bash
-python3 -m pytest tests/ -q          # 168 passed, 4 skipped
+python3 -m pytest tests/ -q          # 194 passed, 4 skipped
 ```
 
 **The live backend** (needs an Anthropic API key as a server secret):
@@ -101,7 +101,13 @@ or a login wall does **not** count.
 
 **Current coverage** (regenerate anytime; see §5):
 
-- **2,125 app options anchored to a verified public policy document**
+- **1,560 app options anchored to a policy document that actually contains
+  medical-necessity criteria for that procedure**
+- **565** where we hold the payer's authorization / utilization-review
+  document, but it carries no procedure-specific criteria — the app says so in
+  those words, links the document anyway (it is useful for holding the payer to
+  its own review rules), and tells the patient to demand the criteria that were
+  actually applied
 - **394** honestly resolved as *Medicare: no LCD exists* (general medical
   necessity governs — itself useful in an appeal)
 - **1,435** where the payer keeps criteria in a private tool (InterQual, MCG,
@@ -112,6 +118,17 @@ or a login wall does **not** count.
 
 The app never pretends. If a patient picks a combination we don't hold, the
 result page says so and asks them to upload their policy.
+
+> **Why "verified" went down.** An August 2026 audit re-read every state
+> Medicaid document behind a `VERIFIED` cell against a strict test: *does this
+> document contain indication-level criteria for this procedure — imaging
+> findings, symptom duration, failed conservative care — that a patient could
+> quote?* Most state Medicaid manuals do not. They say prior authorization is
+> required and name a review vendor. 565 cells moved from "verified" to the new
+> `PROCESS DOC ONLY` state, and 4 California cells moved the other way (the
+> DHCS *Manual of Criteria* really does carry hip arthroplasty, lumbar disc,
+> meniscectomy and recurrent shoulder dislocation criteria). The lower number
+> is the true one.
 
 ## 5. Regenerating everything
 
@@ -133,11 +150,15 @@ python3 scripts/coverage_report.py                # -> dist/coverage.html dashbo
   denials yet. Do that before real patients rely on the output.
 - No auth or per-user rate limiting on the API yet; the daily spend cap is the
   current cost guard.
-- **The citation cache is inert.** `synthetic_harness/citation_cache.py` is
-  written, tested and wired into the server, but its data file
-  (`data/policy_platform/known_citations.json`) is not in the repo, so every
-  lookup misses and the cost saving never happens. Verify with
-  `python3 -c "from synthetic_harness import citation_cache as c; print(len(c._load()))"`
-  — a `0` means it is doing nothing.
+- Most **state Medicaid** programs publish no procedure-specific orthopedic
+  criteria at all — only Massachusetts, North Carolina and California do, and
+  even they only for some procedures. Everywhere else the real criteria sit
+  with the member's managed-care plan, in InterQual or MCG.
+- **The citation cache is live but small** — 8 seeded entries in
+  `data/policy_platform/known_citations.json`, none human-reviewed yet. Every
+  hit is cross-checked against our own verification record and handed to the
+  retrieval agent as a lead with that verdict attached, never as an answer.
+  Check its size with
+  `python3 -c "from synthetic_harness import citation_cache as c; print(len(c._load()))"`.
 
 See `HANDOFF.md` for the full roadmap.

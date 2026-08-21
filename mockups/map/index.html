@@ -588,7 +588,10 @@
 
     // Honest coverage lookup: do we hold the governing policy DOCUMENT for this
     // surgery + state + insurer? Generated data in assets/coverage.js.
-    //   V = we have the official policy (url) ... L = Medicare: no LCD exists
+    //   V = we have the official policy WITH real criteria (url)
+    //   P = we have the plan's authorization/review document (url), but it holds
+    //       no procedure-specific criteria — an honest middle state, not a win
+    //   L = Medicare: no LCD exists
     //   N = criteria live in a private tool ... G = behind a login ... else none.
     function covFor() {
       const C = window.APPEAL_COVERAGE;
@@ -1452,6 +1455,11 @@
         covSection = `
         <div class="sec" id="cov-sec">
           <div class="pkt"><p><b>We have your plan's official policy on file.</b> This appeal plan is grounded in ${cov.title ? '&ldquo;' + esc(cov.title) + '&rdquo;' : "your insurer's published coverage policy"}${cov.url ? ' &mdash; <a href="' + esc(cov.url) + '" target="_blank" rel="noopener">read it here</a>' : ''}.</p></div>
+        </div>`;
+      } else if (cov.code === 'P') {
+        covSection = `
+        <div class="sec" id="cov-sec">
+          <div class="pkt warn"><p><b>Your plan publishes the rules for how it must review this &mdash; but not the medical rules for this surgery.</b> We have ${cov.title ? '&ldquo;' + esc(cov.title) + '&rdquo;' : 'your plan’s authorization policy'} on file${cov.url ? ' &mdash; <a href="' + esc(cov.url) + '" target="_blank" rel="noopener">read it here</a>' : ''}. It sets out how a decision has to be made, which is useful, but it does not say what qualifies you for this specific surgery. That standard is either unpublished or held by a private review company. <b>Ask them in writing for the exact criteria they used to deny you</b> &mdash; they must provide it &mdash; and if you have your plan documents, please upload them.</p></div>
         </div>`;
       } else if (cov.code === 'L') {
         covSection = `
