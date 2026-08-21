@@ -39,7 +39,7 @@ their website, or `ssh root@YOUR-IP`). Then paste this, replacing the domain
 with yours:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/andrewbouras/mdplus-denial-agent-lab/main/deploy/setup.sh -o setup.sh
+curl -fsSL https://raw.githubusercontent.com/akinadio/mdplus-denial-agent-lab/feature/sustainable-api-backend/deploy/setup.sh -o setup.sh
 sudo ORTHO_DOMAIN=orthoappeals.com bash setup.sh
 ```
 

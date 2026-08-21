@@ -21,7 +21,9 @@ APP_DIR="/opt/orthoappeals"
 ENV_DIR="/etc/mdplus"
 ENV_FILE="${ENV_DIR}/mdplus.env"
 SERVICE_USER="orthoapp"
-REPO_DEFAULT="https://github.com/andrewbouras/mdplus-denial-agent-lab.git"
+REPO_DEFAULT="https://github.com/akinadio/mdplus-denial-agent-lab.git"
+# Branch holding the current product code. Override with ORTHO_BRANCH=...
+BRANCH_DEFAULT="feature/sustainable-api-backend"
 
 say() { printf "\n\033[1;36m==> %s\033[0m\n" "$*"; }
 die() { printf "\n\033[1;31mERROR: %s\033[0m\n" "$*" >&2; exit 1; }
@@ -31,6 +33,7 @@ die() { printf "\n\033[1;31mERROR: %s\033[0m\n" "$*" >&2; exit 1; }
 # ---- 0. inputs --------------------------------------------------------------
 DOMAIN="${ORTHO_DOMAIN:-}"
 REPO="${ORTHO_REPO:-$REPO_DEFAULT}"
+BRANCH="${ORTHO_BRANCH:-$BRANCH_DEFAULT}"
 if [ -z "$DOMAIN" ]; then
   read -rp "Your domain (e.g. orthoappeals.com), already pointed at this server's IP: " DOMAIN
 fi
@@ -52,9 +55,11 @@ fi
 say "Installing the app into ${APP_DIR}"
 id "$SERVICE_USER" >/dev/null 2>&1 || useradd --system --create-home --shell /usr/sbin/nologin "$SERVICE_USER"
 if [ -d "${APP_DIR}/.git" ]; then
-  git -C "$APP_DIR" pull --ff-only
+  git -C "$APP_DIR" fetch origin "$BRANCH"
+  git -C "$APP_DIR" checkout "$BRANCH"
+  git -C "$APP_DIR" pull --ff-only origin "$BRANCH"
 else
-  git clone --depth 1 "$REPO" "$APP_DIR"
+  git clone --depth 1 --branch "$BRANCH" "$REPO" "$APP_DIR"
 fi
 python3 -m venv "${APP_DIR}/.venv"
 "${APP_DIR}/.venv/bin/pip" install --upgrade pip
