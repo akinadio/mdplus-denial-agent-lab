@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: mdplus-denial-agent-lab
+Version: 0.1.0
+Summary: Synthetic-patient UI that launches isolated insurance-policy retrieval agents.
+Requires-Python: >=3.10
+Requires-Dist: anthropic>=0.40
+Requires-Dist: requests>=2.31
+Provides-Extra: fetch
+Requires-Dist: brotli; extra == "fetch"
+Requires-Dist: zstandard; extra == "fetch"
+Provides-Extra: crypto
+Requires-Dist: cryptography>=42; extra == "crypto"

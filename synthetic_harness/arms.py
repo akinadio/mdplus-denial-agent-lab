@@ -19,6 +19,52 @@ SOURCE_LIBRARY_ROOT = Path(
     os.environ.get("MDPLUS_POLICY_LIBRARY_ROOT", WORKSPACE_ROOT / "data/policy_library")
 ).expanduser().resolve()
 
+def known_citation_hint(episode: Episode) -> dict[str, Any] | None:
+    """Read the citation-cache hit (if any) stashed for this episode.
+
+    Written by server.py's `_write_citation_cache_hint()` right after intake,
+    when clean payer/state/cpt are available. Returns None on a cache miss or
+    if the episode predates this feature.
+    """
+    hint_path = episode.root / "system" / "known_citation_hint.json"
+    if not hint_path.exists():
+        return None
+    try:
+        return json.loads(hint_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return None
+
+
+def known_citation_hint_block(hint: dict[str, Any] | None) -> str:
+    """Render a citation-cache hit as a prompt section, or "" if there is none.
+
+    Framed explicitly as a lead to verify, not an answer to replay: a prior
+    run on a similar case is not proof this document still applies to this
+    patient's actual payer, state, product, and CPT code.
+    """
+    if not hint:
+        return ""
+    return (
+        "\nKNOWN PRIOR CITATION (verify before use, do not assume)\n"
+        "A previous case with the same payer, state, and CPT code selected "
+        "this document as the governing policy:\n"
+        f"  Title: {hint.get('selected_source_title')}\n"
+        f"  URL: {hint.get('selected_source_url')}\n"
+        f"  Prior confidence: {hint.get('confidence_overall')}\n"
+        + (f"  Note from that prior run: {hint.get('note')}\n" if hint.get("note") else "")
+        + "Start by fetching and re-reading this document. Confirm it is still "
+        "current, still applies to this patient's actual payer entity, "
+        "product/plan type, and state, and actually covers this patient's "
+        "CPT code -- do not assume any of that from the fact that it was "
+        "cited before. If it checks out, use it as the governing policy. If "
+        "it does not (wrong product line, retired document, does not cover "
+        "this CPT), disregard it and retrieve fresh evidence as you normally "
+        "would. This is a lead, not a verified answer -- you are still fully "
+        "responsible for confirming it against this patient's real letter "
+        "and details.\n"
+    )
+
+
 ARM_RULES = {
     "library_only": {
         "objective": "Retrieve the best applicable policy from the existing internal library, parse it, and determine the patient-facing next action.",
@@ -270,6 +316,7 @@ def agent_prompt(episode: Episode, arm: str, work_order_path: Path) -> str:
     rules = ARM_RULES[arm]
     allowed = "\n".join(f"- {item}" for item in rules["allowed_sources"])
     forbidden = "\n".join(f"- {item}" for item in rules["forbidden_sources"])
+    hint_block = known_citation_hint_block(known_citation_hint(episode))
     return f"""You are the {arm} retrieval and denial-navigation agent for an internal blind simulation.
 
 EPISODE
@@ -282,7 +329,7 @@ Read only this work order:
 
 OBJECTIVE
 {rules['objective']}
-
+{hint_block}
 ALLOWED EVIDENCE
 {allowed}
 
@@ -400,6 +447,9 @@ def prepare_arm(episode: Episode, arm: str, workspace_root: Path) -> dict[str, A
             manifest.get("payer"), manifest.get("cpt"), manifest.get("state")
         ),
     }
+    hint = known_citation_hint(episode)
+    if hint:
+        work_order["known_citation_hint"] = hint
     work_order_path = arm_dir / "work_order.json"
     contract_path = arm_dir / "result_contract.json"
     schema_path = arm_dir / "result_schema.json"

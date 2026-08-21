@@ -154,6 +154,10 @@ def claude_prompt(work_order: dict[str, Any]) -> str:
             f"{json.dumps(prior, ensure_ascii=False)}\n"
         )
 
+    from .arms import known_citation_hint_block
+
+    revision += known_citation_hint_block(work_order.get("known_citation_hint"))
+
     return f"""You are the {arm} retrieval and denial-navigation agent.
 
 EPISODE

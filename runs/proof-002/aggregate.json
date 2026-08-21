@@ -1,0 +1,79 @@
+{
+  "run_id": "proof-002",
+  "rubric_version": "1.5",
+  "rubric_sha256": "5ae962141916775e941a347e4b738d9ed13c9be01e42d1c304e1521c24fb0914",
+  "key_sha256": "a9358d3692f9bb1b144d5757ff05a636c9fd1e83ed6622fe88d996e8df719f79",
+  "adjudicator_model": "claude-haiku-4-5",
+  "adjudicator_temperature": "not settable via Claude CLI print mode; fixed prompt, fixed field whitelist and closed grade vocabulary used instead",
+  "generated_at": "2026-08-10T19:32:49.133571+00:00",
+  "denominators": {
+    "N_total": 39,
+    "excluded_invalid": 1,
+    "excluded_unverified": 6,
+    "N_scored": 32,
+    "scored_payers": 11,
+    "retrievable_rows": 12,
+    "retrievable_documents": 8,
+    "retrievable_issuers": 5,
+    "strong_rows": 10,
+    "strong_documents": 7,
+    "strong_issuers": 4,
+    "strong_rows_excl_instrument": 9,
+    "strong_documents_excl_instrument": 6,
+    "strong_issuers_excl_instrument": 4,
+    "gated": 14,
+    "none": 6,
+    "ma_scored_rows": 8,
+    "needs_human_review_not_reportable_at": 7,
+    "blocked_fetch_not_reportable_at": 7
+  },
+  "results": {
+    "confident_wrong": 0,
+    "confident_wrong_denominator": 32,
+    "confident_fabricated": 0,
+    "wrong_but_hedged": 0,
+    "correct_retrieval_rows": 0,
+    "correct_retrieval_documents": 0,
+    "correct_retrieval_issuers": 0,
+    "strong_correct_rows": 0,
+    "strong_correct_documents": 0,
+    "strong_correct_issuers": 0,
+    "strong_excl_instrument_rows": 0,
+    "strong_excl_instrument_documents": 0,
+    "honest_abstention": 0,
+    "missed_retrievable": 0,
+    "key_defects_found": 0,
+    "needs_human_review": 0,
+    "needs_human_review_row_ids": [],
+    "blocked_fetch": 0,
+    "blocked_fetch_row_ids": [],
+    "correct_stale_row_ids": [],
+    "abstain_reason_correct": 0,
+    "unverified_block": {
+      "key_defects_found": 0,
+      "wrong_under_any_world_state": 0,
+      "unscoreable": 0,
+      "abstentions_not_credited": 0,
+      "row_ids": []
+    },
+    "invalid_block": {
+      "row_ids": [],
+      "grades": {}
+    },
+    "ma": {
+      "headline_convention": "dual_accept",
+      "lcd_strict_confident_wrong": 0,
+      "plan_strict_confident_wrong": 0,
+      "convention_dependent_row_ids": []
+    },
+    "jurisdiction": {
+      "out_of_jurisdiction_named": 0,
+      "uniform_election_checked": 0,
+      "uniform_election_found": 0,
+      "elected_policy_rescues_counted_correct": 0
+    },
+    "reportable": true,
+    "rows_graded": 2
+  },
+  "uniform_election_by_row": {}
+}

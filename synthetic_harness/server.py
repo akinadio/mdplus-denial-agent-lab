@@ -61,6 +61,7 @@ from . import encryption
 from . import retention
 from . import policy_cache
 from . import extract
+from . import citation_cache
 from .api_runner import _estimate_cost
 from contextlib import contextmanager
 
@@ -320,7 +321,42 @@ def create_direct_episode(data: dict[str, Any]) -> Episode:
         procedure=(data.get("procedure") or "").strip() or None,
         state=(data.get("state") or "").strip() or None,
     )
+    _write_citation_cache_hint(episode, data)
     return episode
+
+
+def _write_citation_cache_hint(episode: Episode, data: dict[str, Any]) -> None:
+    """Look up the known-citation cache and, on a hit, stash it in the
+    episode directory so prepare_arm() can fold it into the work order as a
+    verify-first hint. See synthetic_harness/citation_cache.py for what this
+    cache is and, just as importantly, what it is not: this must only ever
+    run for the live product, never for the accuracy benchmark.
+    """
+    hit = citation_cache.lookup(
+        data.get("payer") or "",
+        data.get("state") or "",
+        data.get("cpt") or "",
+    )
+    if not hit:
+        return
+    hint_path = episode.root / "system" / "known_citation_hint.json"
+    hint_path.parent.mkdir(parents=True, exist_ok=True, mode=0o700)
+    write_json_atomic(hint_path, hit)
+    episode.log_event(
+        role="orchestrator",
+        arm="shared",
+        event_type="citation_cache_hit",
+        status="succeeded",
+        summary=(
+            "Found a prior citation for this payer/state/CPT combination; "
+            "passing it to the retrieval agents as a lead to verify, not a "
+            "final answer."
+        ),
+        details={
+            "selected_source_title": hit.get("selected_source_title"),
+            "origin_episode_id": hit.get("origin_episode_id"),
+        },
+    )
 
 
 def launch_prepared_arm(

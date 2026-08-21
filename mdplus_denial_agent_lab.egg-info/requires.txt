@@ -1,0 +1,9 @@
+anthropic>=0.40
+requests>=2.31
+
+[crypto]
+cryptography>=42
+
+[fetch]
+brotli
+zstandard

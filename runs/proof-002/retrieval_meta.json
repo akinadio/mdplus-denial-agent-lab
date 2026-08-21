@@ -1,0 +1,39 @@
+{
+  "run_id": "proof-002",
+  "rubric_version": "1.5",
+  "rubric_sha256": "5ae962141916775e941a347e4b738d9ed13c9be01e42d1c304e1521c24fb0914",
+  "key_sha256": "a9358d3692f9bb1b144d5757ff05a636c9fd1e83ed6622fe88d996e8df719f79",
+  "retrieval_model": "claude-haiku-4-5",
+  "engine": "api",
+  "claude_cli_path": null,
+  "claude_cli_version": null,
+  "exact_invocation_argv": null,
+  "tool_surface": {
+    "builtin_tools": "removed with --tools \"\" (cli) / never offered (api)",
+    "mcp_tools_available": [
+      "mcp__policyeval__web_search",
+      "mcp__policyeval__http_fetch"
+    ],
+    "explicitly_denied": "n/a (api engine exposes only web_search/http_fetch by construction)",
+    "search_backend": "Brave Search API",
+    "search_credential": "read from environment at call time, never logged, never written to any artifact or config file",
+    "subprocess_cwd": null,
+    "cwd_is_outside_repo": null
+  },
+  "prompt_leak_check": {
+    "checked_texts": [
+      "__system_prompt__",
+      "bm_0056",
+      "bm_0057"
+    ],
+    "inventory_sizes": {
+      "urls": 27,
+      "hosts": 13,
+      "doc_ids": 12
+    },
+    "leaks_found": {},
+    "passed": true
+  },
+  "rows": 2,
+  "generated_at": "2026-08-10T19:32:49.124508+00:00"
+}
