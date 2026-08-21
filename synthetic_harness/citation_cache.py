@@ -33,6 +33,16 @@ point that still gets shown to the patient with its original confidence and
 source, not as ground truth to certify silently. A `note` field on some
 entries flags real open questions (disagreeing runs, unresolved product
 questions) that a human should look at before leaning on that entry.
+
+STATUS (2026-08-21)
+-------------------
+The code, its tests and the server wiring are complete, but the data file this
+reads -- data/policy_platform/known_citations.json -- is NOT in the repository
+(it was silently excluded by .gitignore). Until that file is present the cache
+loads empty, every lookup() misses, and the feature is inert: correct, but
+doing nothing. Check at any time with:
+
+    python3 -c "from synthetic_harness import citation_cache as c; print(len(c._load()), 'entries')"
 """
 
 from __future__ import annotations

@@ -133,5 +133,11 @@ python3 scripts/coverage_report.py                # -> dist/coverage.html dashbo
   denials yet. Do that before real patients rely on the output.
 - No auth or per-user rate limiting on the API yet; the daily spend cap is the
   current cost guard.
+- **The citation cache is inert.** `synthetic_harness/citation_cache.py` is
+  written, tested and wired into the server, but its data file
+  (`data/policy_platform/known_citations.json`) is not in the repo, so every
+  lookup misses and the cost saving never happens. Verify with
+  `python3 -c "from synthetic_harness import citation_cache as c; print(len(c._load()))"`
+  — a `0` means it is doing nothing.
 
 See `HANDOFF.md` for the full roadmap.
