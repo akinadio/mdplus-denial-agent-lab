@@ -68,6 +68,21 @@ window.APPEAL = {
       ],
     },
     {
+      id: "imaging",
+      label: "Imaging (MRI)",
+      bodyPart: "imaging",
+      // Imaging denials are the most common precursor to a surgery denial: the
+      // MRI that would prove the surgery is necessary is itself refused. These
+      // are tracked in their own directory because a payer's IMAGING vendor is
+      // frequently not its SURGERY vendor.
+      procedures: [
+        { id: "mri-knee", label: "MRI of the knee / lower-extremity joint", cpt: "73721", bodyPart: "imaging" },
+        { id: "mri-shoulder", label: "MRI of the shoulder / upper-extremity joint", cpt: "73221", bodyPart: "imaging" },
+        { id: "mri-lumbar", label: "MRI of the lower back (lumbar spine)", cpt: "72148", bodyPart: "imaging" },
+        { id: "mri-cervical", label: "MRI of the neck (cervical spine)", cpt: "72141", bodyPart: "imaging" },
+      ],
+    },
+    {
       id: "spine",
       label: "Spine",
       bodyPart: "spine",

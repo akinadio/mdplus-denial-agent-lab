@@ -46,7 +46,7 @@ and the tests.
 | `synthetic_harness/` (rest) | Encryption at rest, retention, rate limiting, spend cap, appeal-letter generation, episode store. |
 | `data/policy_platform/` | **The policy directories** — see §4. |
 | `deploy/` | `setup.sh` (one-command host stand-up) and `DEPLOY.md` (plain-English hosting guide). |
-| `tests/` | 194 passing tests, no API key or network required. |
+| `tests/` | 200 passing tests, no API key or network required. |
 | `docs/` | Architecture, security review, deploy notes, and the original lab README. |
 | `HANDOFF.md` | Backend change log and roadmap. |
 
@@ -62,7 +62,7 @@ open dist/orthoappeal-demo.html     # entire flow runs against canned data
 **The tests:**
 
 ```bash
-python3 -m pytest tests/ -q          # 194 passed, 4 skipped
+python3 -m pytest tests/ -q          # 200 passed, 4 skipped
 ```
 
 **The live backend** (needs an Anthropic API key as a server secret):
@@ -92,7 +92,8 @@ or a login wall does **not** count.
 
 | File | What it is |
 |---|---|
-| `app_option_policy_directory.csv` | **6,776 rows — one for every option the live app offers** (14 surgeries × 51 states × each state's insurers + Medicare + Medicaid), each with status and anchored policy URL. |
+| `app_option_policy_directory.csv` | **6,776 rows — one for every surgery option the live app offers** (14 surgeries × 51 states × each state's insurers + Medicare + Medicaid), each with status and anchored policy URL. |
+| `app_option_imaging_directory.csv` | **1,936 rows — the advanced-imaging options** (4 MRI codes × the same 484 state × insurer pairs). Kept in a separate file on purpose; see the note below. |
 | `full_surgery_policy_directory.csv` | 7,020 rows at payer × plan × line-of-business × state × surgery. |
 | `policy_registry_v2.csv` | One row per distinct policy document (the research registry). |
 | `url_verification_ledger.json` | Per-(URL, procedure) verdicts with effective dates and verbatim criteria quotes. |
@@ -101,23 +102,44 @@ or a login wall does **not** count.
 
 **Current coverage** (regenerate anytime; see §5):
 
-- **1,812 app options anchored to a policy document that actually contains
-  medical-necessity criteria for that procedure** — of which 50 are a correct,
-  current, public document whose criteria section we located but could not
-  extract (a 74-page Carelon bundle that truncates on every fetch route), and
-  72 are real public criteria the payer refuses to give a permanent URL, so the
-  app hands the patient a two-click path instead of a dead link
-- **565** where we hold the payer's authorization / utilization-review
-  document, but it carries no procedure-specific criteria — the app says so in
-  those words, links it anyway (it is useful for holding the payer to its own
-  review rules), and tells the patient to demand the criteria actually applied
-- **547** honestly resolved as *Medicare: no LCD exists* (general medical
-  necessity governs — itself useful in an appeal)
-- **1,652** where the payer keeps criteria in a private tool (InterQual, MCG,
-  eviCore portal, TurningPoint, Evolent-gated markets) — labeled as such, with
-  the patient told they can demand the criteria used in their denial
-- **1,365** not yet researched — now almost entirely the long tail of small
-  regional payers, not whole procedures
+**Surgery — 6,776 options, 301 distinct policy documents, nothing left unresearched:**
+
+- **3,436 (50.7%) end in a complete, actionable answer.** That is 2,217 anchored
+  to a document that actually contains medical-necessity criteria for that
+  procedure; 547 honestly resolved as *Medicare: no LCD exists* (general medical
+  necessity governs — itself useful in an appeal); 540 where we confirmed the
+  payer publishes no policy; and 132 where the payer's own precertification list
+  does not include the code, so **no permission is needed at all** — the
+  strongest answer a patient can get.
+- **3,278 (48.4%) are vendor-locked or blocked** — the payer keeps criteria in a
+  private tool (InterQual, MCG, eviCore portal, TurningPoint, Evolent-gated
+  markets), or the document is behind a login, stale, or a code list with no
+  criteria. Labeled as such, never papered over, and each carries an
+  insurer-specific route to demand the criteria used in the denial.
+- **62 (0.9%) are a correct, current, public document whose criteria section we
+  located but could not extract** — the Carelon Joint Surgery bundle, which
+  truncates inside the Hip section on every route tried. See §6.
+
+**Advanced imaging — 1,936 options, 11 distinct documents, newly opened:**
+
+- **524 (27.1%) complete**, including 279 anchored to a vendor guideline that
+  names the CPT explicitly (eviCore V1.0.2026, Carelon RBM03/RBM05, Aetna CPB
+  0171/0236) and 191 resolved as Medicare NCD 220.2 — which expressly declines
+  to give site-specific criteria.
+- **252 (13.0%) document found, text blocked** — the UnitedHealthcare V3.0.2026
+  and 2026 Evolent manuals are the right current documents but truncate before
+  their MRI sections.
+- **1,064 (55.0%) not yet researched.** This is a brand-new procedure area
+  opened in August 2026 and the research budget ran out partway through the
+  vendor map. It is the largest single open item in the project.
+
+> **Why imaging is a separate file.** A payer's *imaging* vendor is frequently
+> not its *surgery* vendor. Molina routes imaging to Evolent while using MCG
+> elsewhere; Simply Healthcare delegates Carelon for radiology only and sends
+> podiatry to a different vendor entirely; Florida Blue uses NIA/RadMD for
+> imaging while reviewing joint surgery itself. Folding imaging into the surgery
+> directory would have let a surgery finding silently fill an imaging cell.
+> `tests/test_imaging_directory.py` makes that structural.
 
 The app never pretends. If a patient picks a combination we don't hold, the
 result page says so and asks them to upload their policy.
@@ -139,6 +161,7 @@ result page says so and asks them to upload their policy.
 
 ```bash
 python3 scripts/build_full_surgery_directory.py   # payer × plan × state × surgery
+python3 scripts/build_imaging_directory.py        # -> app_option_imaging_directory.csv
 python3 scripts/build_coverage_js.py              # -> mockups/assets/coverage.js
 python3 scripts/build_demo.py                     # -> dist/orthoappeal-demo.html
 python3 scripts/coverage_report.py                # -> dist/coverage.html dashboard
@@ -159,6 +182,21 @@ python3 scripts/coverage_report.py                # -> dist/coverage.html dashbo
   criteria at all — only Massachusetts, North Carolina and California do, and
   even they only for some procedures. Everywhere else the real criteria sit
   with the member's managed-care plan, in InterQual or MCG.
+- **The Carelon Joint Surgery knee sections are still unread.** Six independent
+  routes tried; every one truncates inside the Hip section, which sits before
+  Knee. The section anchors are same-page fragments, not separate URLs; the
+  WordPress REST API returns empty; `?print=print` returns only the nav. The
+  link is safe to give a patient — someone still needs to read the knee
+  sections by hand. Nothing is quoted, because an early attempt invented knee
+  criteria past the truncation point that contradicted the document's own code
+  table.
+- **A legal question worth resolving before launch.** The Carelon guideline page
+  carries a notice that the Guidelines are proprietary and "cannot be sold,
+  assigned, leased, licensed, reproduced or distributed without the written
+  consent of Carelon," and prohibits use by an "external AI entity." Quoting the
+  criteria a payer applied to a patient's own denial, back at that payer in that
+  patient's own appeal, is a different act from redistributing the guideline —
+  but that distinction needs a lawyer's read, not ours.
 - **The citation cache is live but small** — 8 seeded entries in
   `data/policy_platform/known_citations.json`, none human-reviewed yet. Every
   hit is cross-checked against our own verification record and handed to the

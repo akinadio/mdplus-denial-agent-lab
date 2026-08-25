@@ -24,9 +24,19 @@ import csv, json, collections, pathlib
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 rows = list(csv.DictReader(open(ROOT/'data/policy_platform/app_option_policy_directory.csv')))
 
+# Advanced imaging lives in its own directory because a payer's imaging vendor
+# is frequently not its surgery vendor (Molina: Evolent for imaging, MCG
+# elsewhere; Florida Blue: NIA for imaging, in-house for joint surgery). The
+# two files are concatenated only here, at the point where both have already
+# been researched on their own evidence.
+_imaging = ROOT/'data/policy_platform/app_option_imaging_directory.csv'
+if _imaging.exists():
+    rows += list(csv.DictReader(open(_imaging)))
+
 def code(status):
     s = status
     if s.startswith('NO PRIOR AUTH REQUIRED'): return 'A'
+    if s.startswith('CONFIRMED NO POLICY'): return 'X'
     if s.startswith('PROCESS DOC ONLY'): return 'P'
     if s.startswith('VERIFIED (criteria public, no stable link'): return 'B'
     if s.startswith('CRITERIA EXIST'): return 'V'
