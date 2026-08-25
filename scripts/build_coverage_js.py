@@ -11,6 +11,8 @@ insurer, and if so where is it?  Codes:
       ground: useful for an appeal, but nothing to quote as 'I meet this'.
   B = the criteria are public and real, but the payer gives the document no
       permanent address; the URL is the entry point to browse to it
+  A = the payer's own precertification list does NOT include this code -
+      no permission needed, which is the strongest position of all
   L = Medicare: no LCD exists — general medical-necessity standards apply
   N = insurer keeps criteria in a private tool (InterQual/MCG/eviCore portal...)
   G = document exists but behind a login
@@ -24,6 +26,7 @@ rows = list(csv.DictReader(open(ROOT/'data/policy_platform/app_option_policy_dir
 
 def code(status):
     s = status
+    if s.startswith('NO PRIOR AUTH REQUIRED'): return 'A'
     if s.startswith('PROCESS DOC ONLY'): return 'P'
     if s.startswith('VERIFIED (criteria public, no stable link'): return 'B'
     if s.startswith('CRITERIA EXIST'): return 'V'
@@ -49,7 +52,7 @@ for r in rows:
     c = code(r['status'])
     if c == 'F':
         continue  # default in the UI; omitting keeps the file small
-    linked = c in ('V', 'P', 'B')   # all carry a real document the patient can reach
+    linked = c in ('V', 'P', 'B', 'A')   # all carry a real document the patient can reach
     ent = [c, uix(r['policy_url']) if linked else -1, (r['policy_title'] or '')[:60] if linked else '']
     if r['insurance_company'] == 'Medicare':
         medicare[f"{r['state']}|{r['cpt']}"] = ent

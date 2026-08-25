@@ -48,6 +48,9 @@ def main() -> None:
     html = html.replace(
         '<script src="../assets/coverage.js"></script>',
         "<script>\n" + coverage_js + "\n</script>",
+    ).replace(
+        '<script src="../assets/access.js"></script>',
+        "<script>\n" + (ASSETS / "access.js").read_text(encoding="utf-8") + "\n</script>",
     )
 
     # 4) force DEMO on (replace the query-param sniff with a hard true)

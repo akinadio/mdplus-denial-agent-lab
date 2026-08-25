@@ -185,6 +185,7 @@
 
   <script src="../assets/data.js"></script>
   <script src="../assets/coverage.js"></script>
+  <script src="../assets/access.js"></script>
   <script>
     // DEMO mode: ?demo=1 (or a hard-wired flag in the self-contained build)
     // makes the whole flow run offline against canned data. Inert otherwise.
@@ -604,6 +605,42 @@
       else ent = C.comm[ins + '|' + cpt];
       if (!ent) return { code: 'F', url: '', title: '' };
       return { code: ent[0], url: ent[1] >= 0 ? C.urls[ent[1]] : '', title: ent[2] || '' };
+    }
+
+
+    // Where does THIS insurer actually keep the criteria they denied you against?
+    // Insurer-specific first, then the vendor that runs their reviews. Never generic.
+    // Data: assets/access.js (from data/policy_platform/criteria_access_directory.json).
+    function accessCriteria() {
+      const A_ = window.APPEAL_ACCESS; if (!A_) return null;
+      const ins = (A.insurer || '').toLowerCase().trim();
+      if (!ins) return null;
+      if (A_[ins]) return A_[ins];
+      for (const k in A_) {
+        if (k.charAt(0) === '_') continue;
+        if (ins.indexOf(k) >= 0 || k.indexOf(ins) >= 0) return A_[k];
+      }
+      // fall back to the review vendor named in our directory note for this cell
+      const n = ((covFor() || {}).vendor || '').toLowerCase();
+      for (const v of ['evolent','carelon','evicore','turningpoint','interqual','mcg'])
+        if (n.indexOf(v) >= 0 && A_['_' + v]) return A_['_' + v];
+      return null;
+    }
+
+    // Render that route as plain instructions the patient can follow today.
+    function accessBlock() {
+      const a = accessCriteria(); if (!a) return '';
+      const bits = [];
+      if (a.url) bits.push('<a href="' + esc(a.url) + '" target="_blank" rel="noopener">Open it here</a>');
+      if (a.alt_url) bits.push('<a href="' + esc(a.alt_url) + '" target="_blank" rel="noopener">or try this one</a>');
+      if (a.phone) bits.push('Call <b>' + esc(a.phone) + '</b>');
+      if (a.email) bits.push('Email <b>' + esc(a.email) + '</b>');
+      return '<div class="pkt" style="margin-top:10px">'
+        + '<p><b>How to get the exact rules ' + esc(A.insurer || 'your plan') + ' used on you</b></p>'
+        + '<p>' + rich(a.how || '') + '</p>'
+        + (bits.length ? '<p>' + bits.join(' &nbsp;·&nbsp; ') + '</p>' : '')
+        + (a.warning ? '<p class="note"><b>Heads up:</b> ' + rich(a.warning) + '</p>' : '')
+        + '</div>';
     }
 
     // Optional: show the patient where THEIR policy lives, and let them upload it.
@@ -1456,6 +1493,11 @@
         <div class="sec" id="cov-sec">
           <div class="pkt"><p><b>We have your plan's official policy on file.</b> This appeal plan is grounded in ${cov.title ? '&ldquo;' + esc(cov.title) + '&rdquo;' : "your insurer's published coverage policy"}${cov.url ? ' &mdash; <a href="' + esc(cov.url) + '" target="_blank" rel="noopener">read it here</a>' : ''}.</p></div>
         </div>`;
+      } else if (cov.code === 'A') {
+        covSection = `
+        <div class="sec" id="cov-sec">
+          <div class="pkt"><p><b>Good news &mdash; your plan doesn't require permission for this surgery.</b> We checked ${esc(A.insurer || 'your insurer')}'s own precertification list and this procedure isn't on it. That means there was no published rule for you to fail. If you were denied anyway, say exactly that in your appeal: the surgery is not on their prior-authorization list, so ask them to state in writing which specific criterion they applied and where it is published.</p></div>
+        </div>`;
       } else if (cov.code === 'B') {
         covSection = `
         <div class="sec" id="cov-sec">
@@ -1479,7 +1521,7 @@
       } else {
         covSection = `
         <div class="sec" id="cov-sec">
-          <div class="pkt warn"><p><b>We don't have your plan's policy document on file yet.</b> Your appeal plan below is built from strong general standards, but your plan's own written policy is the best weapon. <b>Can you upload it?</b> Go back to the policy step, or ask your insurer for their written coverage criteria for this surgery &mdash; they must provide it on request.</p></div>
+          <div class="pkt warn"><p><b>We don't have your plan's policy document on file yet.</b> Your appeal plan below is built from strong general standards, but your plan's own written policy is the best weapon. <b>Can you upload it?</b> Go back to the policy step, or ask your insurer for their written coverage criteria for this surgery &mdash; they must provide it on request.</p>${accessBlock()}</div>
         </div>`;
       }
 
