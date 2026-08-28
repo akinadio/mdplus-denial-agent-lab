@@ -186,6 +186,7 @@
   <script src="../assets/data.js"></script>
   <script src="../assets/coverage.js"></script>
   <script src="../assets/access.js"></script>
+  <script src="../assets/submit.js"></script>
   <script>
     // DEMO mode: ?demo=1 (or a hard-wired flag in the self-contained build)
     // makes the whole flow run offline against canned data. Inert otherwise.
@@ -601,18 +602,49 @@
     function submitFor(name) {
       const sub = D.insurerSubmit || {};
       const n = (name || '').toLowerCase();
+      // Researched per-insurer routes first (assets/submit.js, ~40 insurers,
+      // each read from the insurer's own site). Longest matching token wins
+      // so "blue cross of idaho" beats a shorter accidental match.
+      const EXT = window.APPEAL_SUBMIT_EXT;
+      if (EXT) {
+        let best = null;
+        for (const k in EXT)
+          if (n.includes(k) && (!best || k.length > best.length)) best = k;
+        if (best) {
+          const e = EXT[best];
+          return { portal: e.portal || 'your insurer\'s member website',
+                   phone: e.phone, fax: e.fax, mail: e.mail,
+                   how: e.how + (e.ma_note ? ' Medicare Advantage members: ' + e.ma_note + '.' : ''),
+                   window: e.window };
+        }
+      }
       const has = (...w) => w.some(x => n.includes(x));
       if (has('unitedhealth', 'uhc')) return sub.unitedhealthcare;
       if (has('aetna')) return sub.aetna;
       if (has('cigna')) return sub.cigna;
       if (has('anthem', 'elevance')) return sub.anthem;
       if (has('humana')) return sub.humana;
-      if (has('ambetter', 'centene', 'wellcare')) return sub.centene;
+      // Centene operates under a different brand in nearly every state; all
+      // route appeals through the state plan. Brands from our own insurer
+      // directory:
+      if (has('ambetter', 'centene', 'wellcare', 'buckeye', 'sunflower',
+              'superior', 'magnolia', 'peach state', 'sunshine health',
+              'louisiana healthcare connections', 'western sky', "'ohana",
+              'trillium', 'iowa total care', 'nebraska total care',
+              'oklahoma complete', 'arizona complete', 'home state health',
+              'managed health services', 'mhs', 'carolina complete',
+              'absolute total care', 'meridian')) return sub.centene;
       if (has('molina')) return sub.molina;
       if (has('florida blue', 'guidewell')) return sub.floridablue;
       if (has('medicaid')) return sub.medicaid;
       if (has('medicare')) return sub.medicare;
-      if (has('blue cross', 'bcbs', 'blue shield', 'hcsc')) return sub.hcsc;
+      // The hcsc entry names HCSC's five state portals (bcbsil.com, bcbstx.com,
+      // ...). Serving that to a Premera or BCBS-Michigan member would be a
+      // wrong answer dressed as a specific one, so ONLY the five HCSC plans
+      // match it; every other Blue falls to the honest generic until we hold
+      // its real route.
+      if (has('illinois', 'texas', 'oklahoma', 'new mexico', 'montana') &&
+          has('blue cross', 'bcbs')) return sub.hcsc;
       return null;
     }
 

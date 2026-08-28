@@ -51,6 +51,9 @@ def main() -> None:
     ).replace(
         '<script src="../assets/access.js"></script>',
         "<script>\n" + (ASSETS / "access.js").read_text(encoding="utf-8") + "\n</script>",
+    ).replace(
+        '<script src="../assets/submit.js"></script>',
+        "<script>\n" + (ASSETS / "submit.js").read_text(encoding="utf-8") + "\n</script>",
     )
 
     # 4) force DEMO on (replace the query-param sniff with a hard true)
