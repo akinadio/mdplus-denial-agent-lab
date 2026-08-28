@@ -552,11 +552,11 @@ window.APPEAL_SUBMIT_EXT = {
   "portal": null,
   "phone": "The number on your ID card",
   "fax": null,
-  "mail": "We could not verify Horizon's published appeals address (their site blocks automated readers) \u2014 use the address on your denial letter or EOB",
-  "how": "Horizon's member appeals pages could not be verified by us. Your denial letter's appeal instructions are authoritative; call the number on your card to confirm where to send it.",
+  "mail": "Appeals Department, Horizon Blue Cross Blue Shield of New Jersey, PO Box 317, Newark NJ 07105-0317",
+  "how": "Send your member appeal with all supporting documents to the Appeals Department PO box. Include your Horizon BCBSNJ member ID number, full name and contact information on all documents. General inquiries/complaints go to a different box (PO Box 820, Newark, NJ 07105-0820) -- don't mix them up.",
   "window": "Check your denial letter \u2014 it states your exact deadline",
-  "source": "https://www.horizonblue.com/contact-us/member-appeals-and-inquiries",
-  "confidence": "low"
+  "source": "https://www.horizonblue.com/about-us/contact-us/member-complaints-appeals-and-inquiries",
+  "confidence": "high"
  },
  "oscar": {
   "insurer": "Oscar Health",
