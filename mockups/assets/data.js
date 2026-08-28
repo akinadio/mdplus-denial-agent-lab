@@ -120,6 +120,11 @@ window.APPEAL = {
   // Which imaging questions apply to each bodyPart. Knee = X-ray only;
   // everything else = X-ray + MRI (per the surgeon's rule above).
   imagingByBodyPart: {
+    // imaging: the MRI itself was denied, so asking "have you had an MRI" is
+    // nonsense; what every vendor's MRI criteria require FIRST is a plain
+    // x-ray (eviCore, Carelon and Evolent all gate MRI approval on completed
+    // radiographs), so that is the one imaging question that matters here.
+    imaging: ["xray"],
     knee: ["xray"],
     hip: ["xray", "mri"],
     shoulder: ["xray", "mri"],

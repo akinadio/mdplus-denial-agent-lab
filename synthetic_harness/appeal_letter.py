@@ -24,6 +24,7 @@ deliverable:
 from __future__ import annotations
 
 import os
+import re
 from typing import Any
 
 from .api_runner import DEFAULT_API_MODEL, _client, _estimate_cost
@@ -183,6 +184,25 @@ def _letter_context(result: dict[str, Any], patient_submission: str | None) -> s
         vals = _clean(pa.get(key))
         if vals:
             lines.append(f"- {label}: " + "; ".join(vals))
+
+    # A Medicare Advantage case gets its federal argument regardless of what
+    # the policy retrieval found: since 2024 (CMS-4201-F), 42 CFR 422.101(b)
+    # requires MA plans to follow Medicare's own coverage criteria, and any
+    # internal criteria they apply where Medicare has none must be publicly
+    # accessible. For a denial resting on InterQual/MCG-style private criteria
+    # this is often the strongest sentence in the letter.
+    product = (ci.get("product_type") or "").lower()
+    if "medicare advantage" in product or re.search(r"\bMA\b|\bpart c\b|d-?snp", product, re.IGNORECASE):
+        lines.append(
+            "\nMEDICARE ADVANTAGE (include this argument)\n"
+            "- This is a Medicare Advantage plan. Under 42 CFR 422.101(b) "
+            "(CMS-4201-F, effective 2024) it must follow Medicare's own "
+            "coverage criteria (NCDs/LCDs). Where no Medicare criteria exist, "
+            "any internal coverage criteria it applies must be based on "
+            "current evidence and made publicly accessible. If the denial "
+            "rests on criteria the plan keeps private, demand the NCD/LCD it "
+            "relied on or the exact public location of the internal criteria "
+            "used.")
 
     lines.append("\nGOVERNING POLICY (cite this, and only this)")
     if source.get("title"):

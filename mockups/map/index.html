@@ -226,12 +226,18 @@
     // temporal-dead-zone error, since reqList() reads A.bodyPart.
     let flow = [];
     function buildFlow() {
-      flow = ['surgery', 'state', 'insurer', 'card', 'letter', 'policy', ...reqList().map(r => r.id), 'summary'];
+      flow = ['surgery', 'state', 'insurer',
+        // Same insurer name, different rights: a Medicare Advantage member of a
+        // commercial insurer is governed by Medicare's rules, not the commercial
+        // policy. Ask -- but not when they already picked Medicare/Medicaid.
+        ...(/^(medicare|medicaid)$/i.test(A.insurer || '') ? [] : ['plankind']),
+        'card', 'letter', 'policy', ...reqList().map(r => r.id), 'summary'];
     }
     const stepName = key => {
       if (key === 'surgery') return 'Your surgery';
       if (key === 'state') return 'Your state';
       if (key === 'insurer') return 'Your insurance';
+      if (key === 'plankind') return 'Your plan type';
       if (key === 'card') return 'Insurance card';
       if (key === 'letter') return 'Denial letter';
       if (key === 'policy') return 'Your policy';
@@ -242,7 +248,7 @@
 
     let started = false, i = 0, reached = 0;
     // catId = chosen category, bodyPart drives imaging + insurer/state gating.
-    const A = { catId: '', surgery: '', cpt: '', bodyPart: '', state: '', insurer: '', cardFiles: [], cardName: '', letter: '', letterFiles: [], letterName: '', policyFiles: [], policyName: '', policyConsent: false, req: {} }; // starts EMPTY
+    const A = { catId: '', surgery: '', cpt: '', bodyPart: '', state: '', insurer: '', planKind: '', cardFiles: [], cardName: '', letter: '', letterFiles: [], letterName: '', policyFiles: [], policyName: '', policyConsent: false, req: {} }; // starts EMPTY
     buildFlow(); // now safe: A exists
 
     // The imaging steps (and therefore flow length + the rail) change with the
@@ -376,6 +382,7 @@
       if (key === 'surgery') return drawSurgery();
       if (key === 'state') return drawState();
       if (key === 'insurer') return drawInsurer();
+      if (key === 'plankind') return drawPlanKind();
       if (key === 'card') return drawCard();
       if (key === 'letter') return drawLetter();
       if (key === 'policy') return drawPolicy();
@@ -479,11 +486,33 @@
           <input class="field" id="ins" placeholder="My plan isn't listed. Type it here" value="${A.insurer && !options.includes(A.insurer) ? A.insurer : ''}" />
           <button class="btn btn-primary btn-lg" id="ins-next">Continue →</button>
         </div>`);
-      document.querySelectorAll('[data-ins]').forEach(b => b.onclick = () => { A.insurer = b.dataset.ins; next(); });
+      document.querySelectorAll('[data-ins]').forEach(b => b.onclick = () => { A.insurer = b.dataset.ins; buildFlow(); rebuildShell(); next(); });
       const f = document.getElementById('ins');
-      const go = () => { const t = f.value.trim(); if (t) A.insurer = t; if (A.insurer) next(); };
+      const go = () => { const t = f.value.trim(); if (t) A.insurer = t; if (A.insurer) { buildFlow(); rebuildShell(); next(); } };
       document.getElementById('ins-next').onclick = go;
       f.onkeydown = e => { if (e.key === 'Enter') go(); };
+    }
+
+    function drawPlanKind() {
+      // Why this question exists: the coverage answer for "UnitedHealthcare"
+      // is not one answer. A Medicare Advantage member is protected by federal
+      // rules (42 CFR 422.101(b)) the commercial member is not, and for some
+      // insurers we hold the MA-specific document. Getting this wrong means
+      // quoting the wrong rulebook.
+      const named = esc(A.insurer || 'your insurer');
+      const opts = [
+        ['commercial', 'Through work or bought myself', 'Employer coverage, or a plan from HealthCare.gov / a broker'],
+        ['ma', 'Medicare Advantage', named + ' runs it, but it came with Medicare (often called Medicare Advantage, Part C, or D-SNP)'],
+        ['managed-medicaid', 'Through Medicaid', named + ' runs it, but the state Medicaid program pays for it'],
+        ['unsure', "I'm not sure", "That's fine - your insurance card usually says (look for the words Medicare or Medicaid)"],
+      ];
+      panel(`
+        <h2>What kind of ${named} plan is it?</h2>
+        <p class="help">Same company, different rulebooks. A plan that came with Medicare follows Medicare's coverage rules &mdash; which can be a real advantage in an appeal.</p>
+        <div class="answers">
+          ${opts.map(([id, label, sub]) => `<button class="btn btn-ghost btn-lg" data-pk="${id}"${A.planKind === id ? ' style="border-color:var(--teal)"' : ''}><b>${label}</b><br><span class="help">${sub}</span></button>`).join('')}
+        </div>`);
+      document.querySelectorAll('[data-pk]').forEach(b => b.onclick = () => { A.planKind = b.dataset.pk; next(); });
     }
 
     function drawLetter() {
@@ -602,7 +631,16 @@
       let ent = null;
       if (/^medicare$/i.test(ins)) ent = C.medicare[A.state + '|' + cpt];
       else if (/^medicaid$/i.test(ins)) ent = C.medicaid[A.state + '|' + cpt];
-      else ent = C.comm[ins + '|' + cpt];
+      else {
+        ent = C.comm[ins + '|' + cpt];
+        // A Medicare Advantage member of a commercial insurer may have a
+        // different governing answer than the commercial one -- where we hold
+        // the MA-specific document (C.ma), it wins.
+        if (A.planKind === 'ma' && C.ma && C.ma[ins + '|' + cpt]) {
+          const m = C.ma[ins + '|' + cpt];
+          return { code: m[0], url: m[1] >= 0 ? C.urls[m[1]] : '', title: m[2] || '', maWhy: m[3] || '' };
+        }
+      }
       if (!ent) return { code: 'F', url: '', title: '' };
       return { code: ent[0], url: ent[1] >= 0 ? C.urls[ent[1]] : '', title: ent[2] || '' };
     }
@@ -1487,6 +1525,23 @@
       // Transparency: tell the patient plainly whether we hold their plan's
       // governing policy document, and if not, ask for it.
       const cov = covFor() || { code: 'F', url: '', title: '' };
+      // Federal floor for every Medicare Advantage member, regardless of
+      // insurer: since 2024 (CMS-4201-F), MA plans must follow Medicare's own
+      // coverage criteria (NCDs/LCDs), may apply internal criteria only where
+      // Medicare's are not fully established, and must make those internal
+      // criteria PUBLICLY ACCESSIBLE (42 CFR 422.101(b)(6)). For a
+      // vendor-locked denial that is the whole ballgame: secret criteria are
+      // not allowed on an MA plan.
+      let maSection = '';
+      if (A.planKind === 'ma') {
+        const locked = ['N', 'G', 'P', 'F', 'C', 'S', 'U'].includes(cov.code);
+        maSection = `
+        <div class="sec" id="ma-sec">
+          <div class="pkt"><p><b>Your Medicare Advantage plan has to play by Medicare's rules.</b> Since 2024, federal regulation (42 CFR &sect;422.101(b), from CMS rule CMS-4201-F) requires Medicare Advantage plans to follow Medicare's own coverage criteria. Where Medicare has no established rule for a service, the plan may use its own criteria &mdash; but only if those criteria are based on current evidence and <b>made publicly accessible</b>.${cov.maWhy ? ' ' + esc(cov.maWhy) : ''}</p>
+          ${locked ? `<p>Your denial appears to rest on criteria the plan keeps in a private tool. Put this in your appeal: <i>&ldquo;As a Medicare Advantage member, I ask you to identify the Medicare NCD or LCD this denial is based on. If none exists, 42 CFR &sect;422.101(b)(6) requires that any internal coverage criteria you applied be publicly accessible &mdash; please provide the exact public location of the criteria used in this decision.&rdquo;</i></p>` : ''}
+          </div>
+        </div>`;
+      }
       let covSection = '';
       if (cov.code === 'V') {
         covSection = `
@@ -1550,6 +1605,7 @@
             </div>` : ''}
           ${deadline}
           ${covSection}
+          ${maSection}
           ${letterSection}
           ${submitSection}
           ${gaps.length ? `
