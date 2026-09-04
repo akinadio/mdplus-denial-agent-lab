@@ -30,6 +30,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import time
 from typing import Any, Callable
 
@@ -82,6 +83,33 @@ RESPONSES_API_MODELS: set[str] = {
         "MDPLUS_OPENAI_RESPONSES_MODELS", "gpt-5.6-luna,gpt-5.6-sol"
     ).split(",") if m.strip()
 }
+
+
+# Fields the Responses API emits on an output item but refuses to accept back
+# on the next turn's input. Echoing the transcript verbatim 400s on them, so we
+# strip these and learn any others from the "Unknown parameter" the API returns.
+_ECHO_DROP: set[str] = {"status"}
+
+
+def _strip_echo(obj: Any, keys: set[str]) -> Any:
+    if isinstance(obj, dict):
+        return {k: _strip_echo(v, keys) for k, v in obj.items()
+                if k not in keys and v is not None}
+    if isinstance(obj, list):
+        return [_strip_echo(v, keys) for v in obj]
+    return obj
+
+
+_UNKNOWN_PARAM = re.compile(r"Unknown parameter: '([^']+)'")
+
+
+def _unknown_param_key(exc: Exception) -> str | None:
+    """'input[2].content[0].annotations' -> 'annotations'."""
+    m = _UNKNOWN_PARAM.search(str(exc))
+    if not m:
+        return None
+    leaf = m.group(1).split(".")[-1].split("[")[0].strip()
+    return leaf or None
 
 
 def _needs_responses_api(exc: Exception) -> bool:
@@ -322,18 +350,38 @@ class OpenAIProvider:
     def _responses_create(self, client, **kw):
         """store=False keeps the study's letters off OpenAI's servers; the
         encrypted-reasoning include is what lets a reasoning model carry its
-        chain across tool turns without server-side state. Both degrade."""
+        chain across tool turns without server-side state. Both degrade.
+
+        The API is asymmetric about its own transcript -- it emits fields on an
+        output item that it rejects when that item comes back as input -- so
+        offending keys are stripped, and any the API names in a 400 are added
+        to the drop set and the call retried."""
         if not hasattr(client, "responses"):
             raise RuntimeError(
                 "This openai SDK has no Responses API. Run: pip install -U openai")
-        try:
-            return client.responses.create(
-                include=["reasoning.encrypted_content"], store=False, **kw)
-        except Exception as exc:  # noqa: BLE001
-            m = str(exc)
-            if "include" in m or "encrypted" in m:
-                return client.responses.create(store=False, **kw)
-            raise
+        drop = getattr(self, "_echo_drop", None)
+        if drop is None:
+            drop = self._echo_drop = set(_ECHO_DROP)
+        raw_input = kw.pop("input")
+        include: list[str] | None = ["reasoning.encrypted_content"]
+        for _ in range(8):
+            payload = dict(kw, input=_strip_echo(raw_input, drop), store=False)
+            if include:
+                payload["include"] = include
+            try:
+                return client.responses.create(**payload)
+            except Exception as exc:  # noqa: BLE001
+                m = str(exc)
+                if include and ("include" in m or "encrypted" in m):
+                    include = None
+                    continue
+                key = _unknown_param_key(exc)
+                if key and key not in drop and key not in ("input", "tools"):
+                    drop.add(key)
+                    continue
+                raise
+        raise RuntimeError(
+            f"Responses API kept rejecting echoed transcript fields; dropped {sorted(drop)}")
 
     def _run_responses(self, *, client, model, system, prompt, tool_call, deadline,
                        usage, max_iters, max_tokens):
