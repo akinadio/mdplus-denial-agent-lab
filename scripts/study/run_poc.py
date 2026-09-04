@@ -160,6 +160,27 @@ def run_ortho(case, model):
             "confidence": "high",
             "notes": f"directory hit; status={row['status']}",
         }, "source": "policy_directory", "model": model}
+    # The payer's own policy is public and names the code, but sends criteria to
+    # a private vendor tool. Abstaining here withholds a document we are holding
+    # -- the pilot caught us doing exactly that on six UnitedHealthcare letters
+    # while ChatGPT handed the patient the right PDF. Cite it AND route.
+    if row and row["status"].startswith("DOCUMENT PUBLIC") and row["policy_url"].strip():
+        r = _access_route(case["payer"], row.get("note", ""), access)
+        return {"answer": {
+            "policy_found": True,
+            "policy_title": row["policy_title"], "policy_number": "",
+            "policy_url": row["policy_url"], "effective_date": row["effective_date"],
+            "criteria_quotes": [],
+            "appeal_deadline": case["appeal_deadline"],
+            "submission_route": "per-carrier submission directory",
+            "how_to_obtain_criteria": (r.get("how") or
+                "This policy governs your procedure code but sends the medical "
+                "criteria to a private review tool. Ask the plan in writing for "
+                "the exact criteria used in your denial."),
+            "confidence": "high",
+            "notes": f"payer policy public, criteria vendor-held; status={row['status']}",
+        }, "source": "policy_directory_vendor_held", "route": r, "model": model}
+
     r = _access_route(case["payer"], (row or {}).get("note", ""), access)
     return {"answer": {
         "policy_found": False,

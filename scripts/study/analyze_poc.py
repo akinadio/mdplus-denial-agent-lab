@@ -21,7 +21,7 @@ for rid, s in scores.items():
 systems = sorted({m["system"] for m in mapping.values()})
 print("ACCURACY")
 for sysname in systems:
-    for stratum in ("in_library", "no_policy"):
+    for stratum in ("in_library", "vendor_held", "no_policy"):
         xs = [v for cid, v in grid.items()
               if sysname in v and cases[cid]["stratum"] == stratum]
         vals = [grid[c][sysname] for c in grid

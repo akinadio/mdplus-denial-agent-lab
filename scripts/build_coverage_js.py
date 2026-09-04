@@ -14,6 +14,10 @@ insurer, and if so where is it?  Codes:
   A = the payer's own precertification list does NOT include this code -
       no permission needed, which is the strongest position of all
   L = Medicare: no LCD exists — general medical-necessity standards apply
+  D = the payer's own policy for this code is public and we hold it, but the
+      policy sends medical-necessity criteria to a private vendor tool. The
+      patient gets the document AND the route to demand the criteria - it
+      proves which policy governs their code and names the criteria source.
   N = insurer keeps criteria in a private tool (InterQual/MCG/eviCore portal...)
   G = document exists but behind a login
   F = nothing on file (not found / not yet researched)
@@ -42,6 +46,7 @@ def code(status):
     if s.startswith('CRITERIA EXIST'): return 'V'
     if s.startswith('VERIFIED'): return 'V'
     if s.startswith('NO LCD'): return 'L'
+    if s.startswith('DOCUMENT PUBLIC, CRITERIA VENDOR-HELD'): return 'D'
     if 'NO PUBLIC CRITERIA' in s: return 'N'
     if s.startswith('GATED'): return 'G'
     if s.startswith('CODE ONLY'): return 'C'
@@ -62,7 +67,7 @@ for r in rows:
     c = code(r['status'])
     if c == 'F':
         continue  # default in the UI; omitting keeps the file small
-    linked = c in ('V', 'P', 'B', 'A')   # all carry a real document the patient can reach
+    linked = c in ('V', 'P', 'B', 'A', 'D')  # all carry a real document the patient can reach
     ent = [c, uix(r['policy_url']) if linked else -1, (r['policy_title'] or '')[:60] if linked else '']
     if r['insurance_company'] == 'Medicare':
         medicare[f"{r['state']}|{r['cpt']}"] = ent

@@ -24,32 +24,42 @@ echo "key loaded (${#OPENAI_API_KEY} chars)"
 
 echo
 echo "== installing/updating the OpenAI SDK (Responses API needed) =="
-python3 -m pip install -q -U openai || { echo "pip install failed"; exit 1; }
+python3 -m pip install -q -U openai 2>/dev/null || { echo "pip install failed"; exit 1; }
+
+# A failed run still leaves a result.json behind, and --resume treats that as
+# done -- which silently re-reports yesterday's error against today's fix.
+# Clear the failures first; completed runs are never touched.
+echo
+echo "== clearing failed runs (completed runs are kept) =="
+python3 - <<'PY'
+import json, glob, shutil, pathlib
+n = 0
+for f in glob.glob("study/poc_runs/*/result.json"):
+    r = json.load(open(f))
+    if "error" in r or "skipped" in r:
+        shutil.rmtree(pathlib.Path(f).parent); n += 1
+print(f"  cleared {n} failed run(s); {len(glob.glob('study/poc_runs/*/result.json'))} good runs kept")
+PY
 
 echo
 echo "== smoke test: one letter =="
 python3 scripts/study/run_poc.py --systems chatgpt --limit 1 --resume
-if ls study/poc_runs/*/result.json >/dev/null 2>&1 && \
-   python3 - <<'PY'
-import json,glob,sys
-m=json.load(open("study/poc_unblinding.json"))
-bad=[]
+python3 - <<'PY' || { echo; echo "Stopping before the full run. Send Claude the error above."; exit 1; }
+import json, glob, sys
+m = json.load(open("study/poc_unblinding.json"))
+bad = []
 for f in glob.glob("study/poc_runs/*/result.json"):
-    r=json.load(open(f))
-    if m.get(r.get("run_id"),{}).get("system")=="chatgpt" and ("error" in r or "skipped" in r):
+    r = json.load(open(f))
+    if m.get(r.get("run_id"), {}).get("system") == "chatgpt" and ("error" in r or "skipped" in r):
         bad.append(r.get("error") or r.get("skipped"))
 if bad:
-    print("\nSMOKE TEST FAILED:\n  "+bad[0]); sys.exit(1)
+    print("\nSMOKE TEST FAILED:\n  " + bad[0]); sys.exit(1)
 print("\nsmoke test passed")
 PY
-then :; else
-  echo
-  echo "Stopping before the full run. Send Claude the error above."
-  exit 1
-fi
 
 echo
 echo "== full run: 60 letters, ChatGPT arm =="
+echo "   (real web tools, so budget a few minutes per letter)"
 python3 scripts/study/run_poc.py --systems chatgpt --resume
 
 echo

@@ -1600,6 +1600,11 @@
         <div class="sec" id="cov-sec">
           <div class="pkt"><p><b>Good to know:</b> Medicare has no fixed written rule for this surgery in your state. Coverage is decided on general medical necessity &mdash; which means your denial letter must explain exactly why you were refused, and your doctor's documentation carries the day.</p></div>
         </div>`;
+      } else if (cov.code === 'D') {
+        covSection = `
+        <div class="sec" id="cov-sec">
+          <div class="pkt warn"><p><b>We have your plan's official policy for this surgery &mdash; but the medical rules aren't inside it.</b> ${cov.title ? '&ldquo;' + esc(cov.title) + '&rdquo;' : "Your plan's policy"} covers your procedure code${cov.url ? ' &mdash; <a href="' + esc(cov.url) + '" target="_blank" rel="noopener">read it here</a>' : ''}, and it says the medical criteria are set by a private review company rather than published. That document is still worth having: it proves which policy governs your code, and it names who set the standard you were judged against. Do both &mdash; <b>cite this policy in your appeal</b>, and <b>ask them in writing for the exact criteria they used to deny you</b>. They must provide it.</p></div>
+        </div>`;
       } else if (cov.code === 'N' || cov.code === 'G') {
         covSection = `
         <div class="sec" id="cov-sec">

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Score the proof-of-concept runs. Two strata, two scoring rules.
+"""Score the proof-of-concept runs. Three strata, three scoring rules.
 
 STRATUM A (in_library) -- a correct public policy exists.
   correct : cited URL matches the gold document
@@ -10,6 +10,17 @@ STRATUM C (no_policy) -- the payer publishes nothing for this code.
   correct : said no public policy exists AND gave a route to obtain criteria
   hallucinated: named a specific governing document anyway   <- the key failure
   incomplete: declined but gave no route
+
+STRATUM D (vendor_held) -- the payer's own policy is public and names the code,
+but sends the medical criteria to InterQual or MCG. Both halves are required:
+the document alone leaves the patient holding a policy that does not contain
+the standard they were judged against, and the route alone withholds a document
+we have. Added 2026-09-04 after the pilot scored six UnitedHealthcare answers as
+hallucinations when ChatGPT had in fact returned the correct public policy.
+  correct : cited the right document AND gave a route to the criteria
+  cited_no_route : right document, no route
+  wrong_document : some other document
+  no_answer : no document at all
 
 Kassam, on stratum C: "Good to determine." That is what this file measures.
 
@@ -53,6 +64,17 @@ def score(ans, gold):
         if _normalize_url(url) == _normalize_url(gold["policy_url"]):
             return {"outcome": "correct", "correct": True}
         return {"outcome": "wrong_document", "correct": False}
+
+    if gold["stratum"] == "vendor_held":
+        gave_route = bool((ans.get("how_to_obtain_criteria") or "").strip()) or \
+            any(p in body for p in ROUTE_PHRASES)
+        if not url:
+            return {"outcome": "no_answer", "correct": False}
+        if _normalize_url(url) != _normalize_url(gold["policy_url"]):
+            return {"outcome": "wrong_document", "correct": False, "claimed_url": url}
+        if not gave_route:
+            return {"outcome": "cited_no_route", "correct": False}
+        return {"outcome": "correct", "correct": True}
 
     # stratum C
     claimed_doc = bool(url) or (found is True)

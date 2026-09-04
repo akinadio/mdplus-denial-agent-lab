@@ -34,11 +34,15 @@ OUT = ROOT / "study"
 
 SEED = 20260830
 STUDY_DATE = datetime.date(2026, 8, 30)
-WANT = {"in_library": 40, "no_policy": 20}
+WANT = {"in_library": 30, "vendor_held": 15, "no_policy": 15}
 
 # Statuses that mean "this payer publishes no public criteria for this code."
 NO_POLICY_STATUS = {"NO PUBLIC CRITERIA (vendor)", "GATED"}
 IN_LIB_STATUS = {"VERIFIED", "VERIFIED (procedure criteria)"}
+# The middle case the first pilot had no name for: the payer's policy is public
+# and names the code, but the criteria themselves are vendor-held. Correct
+# behavior is both halves -- cite the document, route for the criteria.
+VENDOR_HELD_STATUS = {"DOCUMENT PUBLIC, CRITERIA VENDOR-HELD"}
 
 DENIAL_REASONS = [
     ("conservative_care", "the clinical records submitted do not document an "
@@ -115,19 +119,21 @@ def main() -> None:
 
     in_lib = [r for r in rows if r["status"] in IN_LIB_STATUS and r["policy_url"].strip()]
     no_pol = [r for r in rows if r["status"] in NO_POLICY_STATUS and r["note"].strip()]
-    for p in (in_lib, no_pol):
+    vend = [r for r in rows if r["status"] in VENDOR_HELD_STATUS and r["policy_url"].strip()]
+    for p in (in_lib, no_pol, vend):
         p.sort(key=lambda r: (r["state"], r["insurance_company"], r["cpt"]))
 
     picked = {
-        "in_library": _pick(in_lib, WANT["in_library"], rng, 6),
-        "no_policy":  _pick(no_pol, WANT["no_policy"],  rng, 4),
+        "in_library":  _pick(in_lib, WANT["in_library"],  rng, 6),
+        "vendor_held": _pick(vend,   WANT["vendor_held"], rng, 4),
+        "no_policy":   _pick(no_pol, WANT["no_policy"],   rng, 4),
     }
     for k, v in picked.items():
         if len(v) < WANT[k]:
             raise SystemExit(f"{k}: only {len(v)} candidates for {WANT[k]}")
 
     cases, gold = [], []
-    for stratum in ("in_library", "no_policy"):
+    for stratum in ("in_library", "vendor_held", "no_policy"):
         for i, r in enumerate(picked[stratum]):
             seed_str = "|".join([str(SEED), stratum, str(i), r["state"],
                                  r["insurance_company"], r["cpt"]])
@@ -153,6 +159,13 @@ def main() -> None:
                           "policy_title": r["policy_title"],
                           "policy_url": r["policy_url"],
                           "effective_date": r["effective_date"]})
+            elif stratum == "vendor_held":
+                g.update({"correct_behavior": "cite_and_route",
+                          "vendor": _vendor_from_note(r["note"]),
+                          "policy_title": r["policy_title"],
+                          "policy_url": r["policy_url"],
+                          "effective_date": r["effective_date"],
+                          "why_criteria_withheld": r["note"][:400]})
             else:
                 g.update({"correct_behavior": "abstain_and_route",
                           "vendor": _vendor_from_note(r["note"]),
@@ -175,6 +188,9 @@ def main() -> None:
     print(" vendors in stratum C:",
           dict(collections.Counter(g.get("vendor","?") for g in gold
                                    if g["stratum"]=="no_policy")))
+    print(" vendors in stratum D:",
+          dict(collections.Counter(g.get("vendor","") for g in gold
+                                   if g["stratum"]=="vendor_held")))
 
 
 if __name__ == "__main__":

@@ -3,8 +3,9 @@
  "seed": 20260830,
  "study_date": "2026-08-30",
  "strata": {
-  "in_library": 40,
-  "no_policy": 20
+  "in_library": 30,
+  "vendor_held": 15,
+  "no_policy": 15
  },
  "cases": [
   {
@@ -16,9 +17,9 @@
    "surgery": "Lower back disc surgery / decompression",
    "cpt": "63030",
    "denial_reason": "conservative_care",
-   "denial_date": "2026-08-10",
-   "appeal_deadline": "2027-02-06",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-10\nMember: Taylor Grant\nMember ID: W253673098\nPlan: Ambetter (WellCare) (Commercial/ACA), state of North Carolina\n\nDear Taylor,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Lower back disc surgery / decompression\n    Procedure code (CPT): 63030\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-06).\n\nReference number: POC-EE22487639-77259\n"
+   "denial_date": "2026-08-07",
+   "appeal_deadline": "2027-02-03",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-07\nMember: Jordan Foster\nMember ID: W794852405\nPlan: Ambetter (WellCare) (Commercial/ACA), state of North Carolina\n\nDear Jordan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Lower back disc surgery / decompression\n    Procedure code (CPT): 63030\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-03).\n\nReference number: POC-EE22487639-86426\n"
   },
   {
    "case_id": "poc-a5f6d22435",
@@ -29,9 +30,9 @@
    "surgery": "Total hip replacement",
    "cpt": "27130",
    "denial_reason": "imaging",
-   "denial_date": "2026-08-15",
-   "appeal_deadline": "2027-02-11",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-15\nMember: Sawyer Kimura\nMember ID: W198939751\nPlan: Security Health Plan (Commercial/ACA), state of Wisconsin\n\nDear Sawyer,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total hip replacement\n    Procedure code (CPT): 27130\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-11).\n\nReference number: POC-A5F6D22435-39746\n"
+   "denial_date": "2026-08-07",
+   "appeal_deadline": "2027-02-03",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-07\nMember: Rowan Brooks\nMember ID: W772624569\nPlan: Security Health Plan (Commercial/ACA), state of Wisconsin\n\nDear Rowan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total hip replacement\n    Procedure code (CPT): 27130\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-03).\n\nReference number: POC-A5F6D22435-38075\n"
   },
   {
    "case_id": "poc-a1f3d3c000",
@@ -42,9 +43,9 @@
    "surgery": "Total ankle replacement",
    "cpt": "27702",
    "denial_reason": "not_medically_necessary",
-   "denial_date": "2026-08-16",
-   "appeal_deadline": "2027-02-12",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-16\nMember: Riley Novak\nMember ID: W463962165\nPlan: Cigna (Commercial/ACA), state of Ohio\n\nDear Riley,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total ankle replacement\n    Procedure code (CPT): 27702\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-12).\n\nReference number: POC-A1F3D3C000-98818\n"
+   "denial_date": "2026-08-11",
+   "appeal_deadline": "2027-02-07",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-11\nMember: Sawyer Alvarez\nMember ID: W635441117\nPlan: Cigna (Commercial/ACA), state of Ohio\n\nDear Sawyer,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total ankle replacement\n    Procedure code (CPT): 27702\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-07).\n\nReference number: POC-A1F3D3C000-86797\n"
   },
   {
    "case_id": "poc-4e415360fe",
@@ -55,9 +56,9 @@
    "surgery": "Total hip replacement",
    "cpt": "27130",
    "denial_reason": "incomplete_documentation",
-   "denial_date": "2026-08-23",
-   "appeal_deadline": "2027-02-19",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-23\nMember: Riley Novak\nMember ID: W408946385\nPlan: Cigna (Commercial/ACA), state of Missouri\n\nDear Riley,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total hip replacement\n    Procedure code (CPT): 27130\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-19).\n\nReference number: POC-4E415360FE-97018\n"
+   "denial_date": "2026-08-09",
+   "appeal_deadline": "2027-02-05",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-09\nMember: Emerson Alvarez\nMember ID: W977514824\nPlan: Cigna (Commercial/ACA), state of Missouri\n\nDear Emerson,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total hip replacement\n    Procedure code (CPT): 27130\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-05).\n\nReference number: POC-4E415360FE-32022\n"
   },
   {
    "case_id": "poc-e14e3a00bc",
@@ -68,9 +69,9 @@
    "surgery": "Total ankle replacement",
    "cpt": "27702",
    "denial_reason": "conservative_care",
-   "denial_date": "2026-08-04",
-   "appeal_deadline": "2027-01-31",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-04\nMember: Quinn Iverson\nMember ID: W646436671\nPlan: Wellpoint (Commercial/ACA), state of New Jersey\n\nDear Quinn,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total ankle replacement\n    Procedure code (CPT): 27702\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-31).\n\nReference number: POC-E14E3A00BC-37491\n"
+   "denial_date": "2026-08-14",
+   "appeal_deadline": "2027-02-10",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-14\nMember: Quinn Iverson\nMember ID: W154693844\nPlan: Wellpoint (Commercial/ACA), state of New Jersey\n\nDear Quinn,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total ankle replacement\n    Procedure code (CPT): 27702\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-10).\n\nReference number: POC-E14E3A00BC-47205\n"
   },
   {
    "case_id": "poc-5767d9118e",
@@ -81,9 +82,9 @@
    "surgery": "Partial knee replacement",
    "cpt": "27446",
    "denial_reason": "imaging",
-   "denial_date": "2026-08-12",
-   "appeal_deadline": "2027-02-08",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-12\nMember: Reese Ellison\nMember ID: W327200082\nPlan: CountyCare (Commercial/ACA), state of Illinois\n\nDear Reese,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Partial knee replacement\n    Procedure code (CPT): 27446\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-08).\n\nReference number: POC-5767D9118E-41052\n"
+   "denial_date": "2026-08-09",
+   "appeal_deadline": "2027-02-05",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-09\nMember: Riley Grant\nMember ID: W485404613\nPlan: CountyCare (Commercial/ACA), state of Illinois\n\nDear Riley,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Partial knee replacement\n    Procedure code (CPT): 27446\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-05).\n\nReference number: POC-5767D9118E-71989\n"
   },
   {
    "case_id": "poc-f7c299c469",
@@ -94,9 +95,9 @@
    "surgery": "Lower back disc surgery / decompression",
    "cpt": "63030",
    "denial_reason": "not_medically_necessary",
-   "denial_date": "2026-08-01",
-   "appeal_deadline": "2027-01-28",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-01\nMember: Casey Hayes\nMember ID: W877861617\nPlan: Cigna (Commercial/ACA), state of Illinois\n\nDear Casey,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Lower back disc surgery / decompression\n    Procedure code (CPT): 63030\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-28).\n\nReference number: POC-F7C299C469-79053\n"
+   "denial_date": "2026-07-31",
+   "appeal_deadline": "2027-01-27",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-07-31\nMember: Taylor Jennings\nMember ID: W530749089\nPlan: Cigna (Commercial/ACA), state of Illinois\n\nDear Taylor,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Lower back disc surgery / decompression\n    Procedure code (CPT): 63030\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-27).\n\nReference number: POC-F7C299C469-49918\n"
   },
   {
    "case_id": "poc-6e16fad700",
@@ -107,9 +108,9 @@
    "surgery": "Bunion surgery (hallux valgus)",
    "cpt": "28296",
    "denial_reason": "incomplete_documentation",
-   "denial_date": "2026-08-14",
-   "appeal_deadline": "2027-02-10",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-14\nMember: Casey Carter\nMember ID: W863954559\nPlan: Aetna (Commercial/ACA), state of Georgia\n\nDear Casey,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Bunion surgery (hallux valgus)\n    Procedure code (CPT): 28296\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-10).\n\nReference number: POC-6E16FAD700-57998\n"
+   "denial_date": "2026-08-04",
+   "appeal_deadline": "2027-01-31",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-04\nMember: Quinn Jennings\nMember ID: W670697505\nPlan: Aetna (Commercial/ACA), state of Georgia\n\nDear Quinn,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Bunion surgery (hallux valgus)\n    Procedure code (CPT): 28296\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-31).\n\nReference number: POC-6E16FAD700-45453\n"
   },
   {
    "case_id": "poc-ef30a43966",
@@ -120,9 +121,9 @@
    "surgery": "Total shoulder replacement",
    "cpt": "23472",
    "denial_reason": "conservative_care",
-   "denial_date": "2026-08-02",
-   "appeal_deadline": "2027-01-29",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-02\nMember: Jordan Kimura\nMember ID: W131235543\nPlan: Iowa Total Care (Commercial/ACA), state of Iowa\n\nDear Jordan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total shoulder replacement\n    Procedure code (CPT): 23472\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-29).\n\nReference number: POC-EF30A43966-22762\n"
+   "denial_date": "2026-08-18",
+   "appeal_deadline": "2027-02-14",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-18\nMember: Reese Carter\nMember ID: W451155739\nPlan: Iowa Total Care (Commercial/ACA), state of Iowa\n\nDear Reese,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total shoulder replacement\n    Procedure code (CPT): 23472\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-14).\n\nReference number: POC-EF30A43966-84895\n"
   },
   {
    "case_id": "poc-8ad74ff769",
@@ -133,9 +134,9 @@
    "surgery": "Partial knee replacement",
    "cpt": "27446",
    "denial_reason": "imaging",
-   "denial_date": "2026-08-16",
-   "appeal_deadline": "2027-02-12",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-16\nMember: Jordan Lawson\nMember ID: W742965342\nPlan: Cigna (Commercial/ACA), state of Arizona\n\nDear Jordan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Partial knee replacement\n    Procedure code (CPT): 27446\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-12).\n\nReference number: POC-8AD74FF769-10758\n"
+   "denial_date": "2026-08-01",
+   "appeal_deadline": "2027-01-28",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-01\nMember: Reese Mercado\nMember ID: W529317483\nPlan: Cigna (Commercial/ACA), state of Arizona\n\nDear Reese,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Partial knee replacement\n    Procedure code (CPT): 27446\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-28).\n\nReference number: POC-8AD74FF769-66861\n"
   },
   {
    "case_id": "poc-9391f374e1",
@@ -146,9 +147,9 @@
    "surgery": "Neck (cervical) fusion (ACDF)",
    "cpt": "22551",
    "denial_reason": "not_medically_necessary",
-   "denial_date": "2026-08-07",
-   "appeal_deadline": "2027-02-03",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-07\nMember: Emerson Grant\nMember ID: W429595500\nPlan: Blue Cross Blue Shield of North Dakota (Commercial/ACA), state of North Dakota\n\nDear Emerson,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Neck (cervical) fusion (ACDF)\n    Procedure code (CPT): 22551\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-03).\n\nReference number: POC-9391F374E1-14248\n"
+   "denial_date": "2026-08-18",
+   "appeal_deadline": "2027-02-14",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-18\nMember: Rowan Delgado\nMember ID: W865123628\nPlan: Blue Cross Blue Shield of North Dakota (Commercial/ACA), state of North Dakota\n\nDear Rowan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Neck (cervical) fusion (ACDF)\n    Procedure code (CPT): 22551\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-14).\n\nReference number: POC-9391F374E1-41425\n"
   },
   {
    "case_id": "poc-8e43f25837",
@@ -159,9 +160,9 @@
    "surgery": "Hip arthroscopy",
    "cpt": "29914",
    "denial_reason": "incomplete_documentation",
-   "denial_date": "2026-08-17",
-   "appeal_deadline": "2027-02-13",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-17\nMember: Jordan Delgado\nMember ID: W225862273\nPlan: Cigna (Commercial/ACA), state of Illinois\n\nDear Jordan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Hip arthroscopy\n    Procedure code (CPT): 29914\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-13).\n\nReference number: POC-8E43F25837-42507\n"
+   "denial_date": "2026-08-11",
+   "appeal_deadline": "2027-02-07",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-11\nMember: Casey Hayes\nMember ID: W225149976\nPlan: Cigna (Commercial/ACA), state of Illinois\n\nDear Casey,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Hip arthroscopy\n    Procedure code (CPT): 29914\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-07).\n\nReference number: POC-8E43F25837-44913\n"
   },
   {
    "case_id": "poc-9668ba39e4",
@@ -172,9 +173,9 @@
    "surgery": "Knee arthroscopy / meniscus surgery",
    "cpt": "29881",
    "denial_reason": "conservative_care",
-   "denial_date": "2026-08-07",
-   "appeal_deadline": "2027-02-03",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-07\nMember: Skyler Kimura\nMember ID: W474185767\nPlan: Harvard Pilgrim Health Care (Commercial/ACA), state of Massachusetts\n\nDear Skyler,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Knee arthroscopy / meniscus surgery\n    Procedure code (CPT): 29881\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-03).\n\nReference number: POC-9668BA39E4-50410\n"
+   "denial_date": "2026-08-04",
+   "appeal_deadline": "2027-01-31",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-04\nMember: Emerson Hayes\nMember ID: W807153430\nPlan: Harvard Pilgrim Health Care (Commercial/ACA), state of Massachusetts\n\nDear Emerson,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Knee arthroscopy / meniscus surgery\n    Procedure code (CPT): 29881\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-31).\n\nReference number: POC-9668BA39E4-60948\n"
   },
   {
    "case_id": "poc-d5606caed3",
@@ -185,9 +186,9 @@
    "surgery": "Rotator cuff repair",
    "cpt": "29827",
    "denial_reason": "imaging",
-   "denial_date": "2026-08-02",
-   "appeal_deadline": "2027-01-29",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-02\nMember: Skyler Brooks\nMember ID: W221297730\nPlan: Banner Health (Commercial/ACA), state of Arizona\n\nDear Skyler,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Rotator cuff repair\n    Procedure code (CPT): 29827\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-29).\n\nReference number: POC-D5606CAED3-97096\n"
+   "denial_date": "2026-08-22",
+   "appeal_deadline": "2027-02-18",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-22\nMember: Riley Foster\nMember ID: W204716433\nPlan: Banner Health (Commercial/ACA), state of Arizona\n\nDear Riley,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Rotator cuff repair\n    Procedure code (CPT): 29827\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-18).\n\nReference number: POC-D5606CAED3-36942\n"
   },
   {
    "case_id": "poc-a389519c6d",
@@ -198,9 +199,9 @@
    "surgery": "Bunion surgery (hallux valgus)",
    "cpt": "28296",
    "denial_reason": "not_medically_necessary",
-   "denial_date": "2026-08-08",
-   "appeal_deadline": "2027-02-04",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-08\nMember: Jordan Novak\nMember ID: W903444367\nPlan: Avera Health Plans (Commercial/ACA), state of South Dakota\n\nDear Jordan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Bunion surgery (hallux valgus)\n    Procedure code (CPT): 28296\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-04).\n\nReference number: POC-A389519C6D-55477\n"
+   "denial_date": "2026-08-17",
+   "appeal_deadline": "2027-02-13",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-17\nMember: Quinn Delgado\nMember ID: W570305899\nPlan: Avera Health Plans (Commercial/ACA), state of South Dakota\n\nDear Quinn,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Bunion surgery (hallux valgus)\n    Procedure code (CPT): 28296\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-13).\n\nReference number: POC-A389519C6D-33639\n"
   },
   {
    "case_id": "poc-e2aa78e9ec",
@@ -211,9 +212,9 @@
    "surgery": "Knee arthroscopy / meniscus surgery",
    "cpt": "29881",
    "denial_reason": "incomplete_documentation",
-   "denial_date": "2026-08-05",
-   "appeal_deadline": "2027-02-01",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-05\nMember: Avery Kimura\nMember ID: W956290981\nPlan: Harvard Pilgrim Health Care (Commercial/ACA), state of Maine\n\nDear Avery,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Knee arthroscopy / meniscus surgery\n    Procedure code (CPT): 29881\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-01).\n\nReference number: POC-E2AA78E9EC-15072\n"
+   "denial_date": "2026-08-09",
+   "appeal_deadline": "2027-02-05",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-09\nMember: Harper Delgado\nMember ID: W267205200\nPlan: Harvard Pilgrim Health Care (Commercial/ACA), state of Maine\n\nDear Harper,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Knee arthroscopy / meniscus surgery\n    Procedure code (CPT): 29881\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-05).\n\nReference number: POC-E2AA78E9EC-43782\n"
   },
   {
    "case_id": "poc-209deb4204",
@@ -224,9 +225,9 @@
    "surgery": "Total shoulder replacement",
    "cpt": "23472",
    "denial_reason": "conservative_care",
-   "denial_date": "2026-08-03",
-   "appeal_deadline": "2027-01-30",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-03\nMember: Rowan Iverson\nMember ID: W466245592\nPlan: 'Ohana Health Plan (Commercial/ACA), state of Hawaii\n\nDear Rowan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total shoulder replacement\n    Procedure code (CPT): 23472\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-30).\n\nReference number: POC-209DEB4204-47810\n"
+   "denial_date": "2026-08-15",
+   "appeal_deadline": "2027-02-11",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-15\nMember: Taylor Jennings\nMember ID: W164265496\nPlan: 'Ohana Health Plan (Commercial/ACA), state of Hawaii\n\nDear Taylor,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total shoulder replacement\n    Procedure code (CPT): 23472\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-11).\n\nReference number: POC-209DEB4204-66822\n"
   },
   {
    "case_id": "poc-d89c6a76f0",
@@ -237,9 +238,9 @@
    "surgery": "Lower back (lumbar) fusion",
    "cpt": "22612",
    "denial_reason": "imaging",
-   "denial_date": "2026-08-20",
-   "appeal_deadline": "2027-02-16",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-20\nMember: Rowan Brooks\nMember ID: W882424453\nPlan: HMSA (Hawaii Medical Service Association) (Commercial/ACA), state of Hawaii\n\nDear Rowan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Lower back (lumbar) fusion\n    Procedure code (CPT): 22612\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-16).\n\nReference number: POC-D89C6A76F0-71131\n"
+   "denial_date": "2026-08-05",
+   "appeal_deadline": "2027-02-01",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-05\nMember: Quinn Foster\nMember ID: W310107367\nPlan: HMSA (Hawaii Medical Service Association) (Commercial/ACA), state of Hawaii\n\nDear Quinn,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Lower back (lumbar) fusion\n    Procedure code (CPT): 22612\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-01).\n\nReference number: POC-D89C6A76F0-15779\n"
   },
   {
    "case_id": "poc-b7c7b913dc",
@@ -250,9 +251,9 @@
    "surgery": "Neck (cervical) fusion (ACDF)",
    "cpt": "22551",
    "denial_reason": "not_medically_necessary",
-   "denial_date": "2026-08-07",
-   "appeal_deadline": "2027-02-03",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-07\nMember: Jordan Iverson\nMember ID: W565549445\nPlan: Priority Health (Commercial/ACA), state of Michigan\n\nDear Jordan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Neck (cervical) fusion (ACDF)\n    Procedure code (CPT): 22551\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-03).\n\nReference number: POC-B7C7B913DC-47337\n"
+   "denial_date": "2026-08-01",
+   "appeal_deadline": "2027-01-28",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-01\nMember: Skyler Mercado\nMember ID: W988378527\nPlan: Priority Health (Commercial/ACA), state of Michigan\n\nDear Skyler,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Neck (cervical) fusion (ACDF)\n    Procedure code (CPT): 22551\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-28).\n\nReference number: POC-B7C7B913DC-54149\n"
   },
   {
    "case_id": "poc-37f3aa304d",
@@ -263,9 +264,9 @@
    "surgery": "Hip arthroscopy",
    "cpt": "29914",
    "denial_reason": "incomplete_documentation",
-   "denial_date": "2026-08-14",
-   "appeal_deadline": "2027-02-10",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-14\nMember: Riley Jennings\nMember ID: W322428210\nPlan: Cigna (Commercial/ACA), state of Kansas\n\nDear Riley,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Hip arthroscopy\n    Procedure code (CPT): 29914\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-10).\n\nReference number: POC-37F3AA304D-68668\n"
+   "denial_date": "2026-07-31",
+   "appeal_deadline": "2027-01-27",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-07-31\nMember: Taylor Kimura\nMember ID: W354999576\nPlan: Cigna (Commercial/ACA), state of Kansas\n\nDear Taylor,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Hip arthroscopy\n    Procedure code (CPT): 29914\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-27).\n\nReference number: POC-37F3AA304D-16940\n"
   },
   {
    "case_id": "poc-2fe0edcd1b",
@@ -276,9 +277,9 @@
    "surgery": "Total hip replacement",
    "cpt": "27130",
    "denial_reason": "conservative_care",
-   "denial_date": "2026-08-25",
-   "appeal_deadline": "2027-02-21",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-25\nMember: Emerson Kimura\nMember ID: W809924307\nPlan: Independence Blue Cross (Commercial/ACA), state of Pennsylvania\n\nDear Emerson,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total hip replacement\n    Procedure code (CPT): 27130\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-21).\n\nReference number: POC-2FE0EDCD1B-86101\n"
+   "denial_date": "2026-08-02",
+   "appeal_deadline": "2027-01-29",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-02\nMember: Taylor Ellison\nMember ID: W798611035\nPlan: Independence Blue Cross (Commercial/ACA), state of Pennsylvania\n\nDear Taylor,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total hip replacement\n    Procedure code (CPT): 27130\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-29).\n\nReference number: POC-2FE0EDCD1B-73051\n"
   },
   {
    "case_id": "poc-eed29f7594",
@@ -289,9 +290,9 @@
    "surgery": "Partial knee replacement",
    "cpt": "27446",
    "denial_reason": "imaging",
-   "denial_date": "2026-08-13",
-   "appeal_deadline": "2027-02-09",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-13\nMember: Avery Jennings\nMember ID: W697152819\nPlan: Anthem Blue Cross Blue Shield (Commercial/ACA), state of Kentucky\n\nDear Avery,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Partial knee replacement\n    Procedure code (CPT): 27446\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-09).\n\nReference number: POC-EED29F7594-60717\n"
+   "denial_date": "2026-08-11",
+   "appeal_deadline": "2027-02-07",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-11\nMember: Morgan Foster\nMember ID: W276906709\nPlan: Anthem Blue Cross Blue Shield (Commercial/ACA), state of Kentucky\n\nDear Morgan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Partial knee replacement\n    Procedure code (CPT): 27446\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-07).\n\nReference number: POC-EED29F7594-68772\n"
   },
   {
    "case_id": "poc-f4c641ed8b",
@@ -302,9 +303,9 @@
    "surgery": "Lower back disc surgery / decompression",
    "cpt": "63030",
    "denial_reason": "not_medically_necessary",
-   "denial_date": "2026-08-14",
-   "appeal_deadline": "2027-02-10",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-14\nMember: Emerson Jennings\nMember ID: W319702639\nPlan: Ambetter (Commercial/ACA), state of Illinois\n\nDear Emerson,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Lower back disc surgery / decompression\n    Procedure code (CPT): 63030\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-10).\n\nReference number: POC-F4C641ED8B-98854\n"
+   "denial_date": "2026-08-23",
+   "appeal_deadline": "2027-02-19",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-23\nMember: Morgan Foster\nMember ID: W162894592\nPlan: Ambetter (Commercial/ACA), state of Illinois\n\nDear Morgan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Lower back disc surgery / decompression\n    Procedure code (CPT): 63030\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-19).\n\nReference number: POC-F4C641ED8B-99591\n"
   },
   {
    "case_id": "poc-1c51e72e1e",
@@ -315,9 +316,9 @@
    "surgery": "Lower back disc surgery / decompression",
    "cpt": "63030",
    "denial_reason": "incomplete_documentation",
-   "denial_date": "2026-08-23",
-   "appeal_deadline": "2027-02-19",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-23\nMember: Reese Hayes\nMember ID: W699974226\nPlan: PacificSource Health Plans (Commercial/ACA), state of Idaho\n\nDear Reese,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Lower back disc surgery / decompression\n    Procedure code (CPT): 63030\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-19).\n\nReference number: POC-1C51E72E1E-96020\n"
+   "denial_date": "2026-08-24",
+   "appeal_deadline": "2027-02-20",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-24\nMember: Skyler Ellison\nMember ID: W240749705\nPlan: PacificSource Health Plans (Commercial/ACA), state of Idaho\n\nDear Skyler,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Lower back disc surgery / decompression\n    Procedure code (CPT): 63030\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-20).\n\nReference number: POC-1C51E72E1E-65750\n"
   },
   {
    "case_id": "poc-757c3b7e16",
@@ -328,9 +329,9 @@
    "surgery": "Rotator cuff repair",
    "cpt": "29827",
    "denial_reason": "conservative_care",
-   "denial_date": "2026-08-24",
-   "appeal_deadline": "2027-02-20",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-24\nMember: Quinn Iverson\nMember ID: W272873892\nPlan: Blue Cross and Blue Shield of Louisiana (Commercial/ACA), state of Louisiana\n\nDear Quinn,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Rotator cuff repair\n    Procedure code (CPT): 29827\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-20).\n\nReference number: POC-757C3B7E16-78555\n"
+   "denial_date": "2026-08-06",
+   "appeal_deadline": "2027-02-02",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-06\nMember: Reese Iverson\nMember ID: W233165693\nPlan: Blue Cross and Blue Shield of Louisiana (Commercial/ACA), state of Louisiana\n\nDear Reese,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Rotator cuff repair\n    Procedure code (CPT): 29827\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-02).\n\nReference number: POC-757C3B7E16-21498\n"
   },
   {
    "case_id": "poc-1acf427871",
@@ -341,9 +342,9 @@
    "surgery": "Partial knee replacement",
    "cpt": "27446",
    "denial_reason": "imaging",
-   "denial_date": "2026-08-24",
-   "appeal_deadline": "2027-02-20",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-24\nMember: Quinn Ellison\nMember ID: W447664380\nPlan: Fidelis Care (Commercial/ACA), state of New York\n\nDear Quinn,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Partial knee replacement\n    Procedure code (CPT): 27446\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-20).\n\nReference number: POC-1ACF427871-61853\n"
+   "denial_date": "2026-08-25",
+   "appeal_deadline": "2027-02-21",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-25\nMember: Casey Iverson\nMember ID: W207784190\nPlan: Fidelis Care (Commercial/ACA), state of New York\n\nDear Casey,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Partial knee replacement\n    Procedure code (CPT): 27446\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-21).\n\nReference number: POC-1ACF427871-17933\n"
   },
   {
    "case_id": "poc-5ba41ad17e",
@@ -354,9 +355,9 @@
    "surgery": "Partial knee replacement",
    "cpt": "27446",
    "denial_reason": "not_medically_necessary",
-   "denial_date": "2026-08-24",
-   "appeal_deadline": "2027-02-20",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-24\nMember: Reese Hayes\nMember ID: W312534415\nPlan: Aetna (Commercial/ACA), state of Missouri\n\nDear Reese,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Partial knee replacement\n    Procedure code (CPT): 27446\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-20).\n\nReference number: POC-5BA41AD17E-84230\n"
+   "denial_date": "2026-08-19",
+   "appeal_deadline": "2027-02-15",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-19\nMember: Rowan Carter\nMember ID: W914903090\nPlan: Aetna (Commercial/ACA), state of Missouri\n\nDear Rowan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Partial knee replacement\n    Procedure code (CPT): 27446\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-15).\n\nReference number: POC-5BA41AD17E-24277\n"
   },
   {
    "case_id": "poc-64107d6ef7",
@@ -367,9 +368,9 @@
    "surgery": "Total ankle replacement",
    "cpt": "27702",
    "denial_reason": "incomplete_documentation",
-   "denial_date": "2026-08-13",
-   "appeal_deadline": "2027-02-09",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-13\nMember: Harper Ellison\nMember ID: W499755279\nPlan: Anthem Blue Cross Blue Shield (Commercial/ACA), state of New Hampshire\n\nDear Harper,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total ankle replacement\n    Procedure code (CPT): 27702\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-09).\n\nReference number: POC-64107D6EF7-48076\n"
+   "denial_date": "2026-08-01",
+   "appeal_deadline": "2027-01-28",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-01\nMember: Sawyer Foster\nMember ID: W558551284\nPlan: Anthem Blue Cross Blue Shield (Commercial/ACA), state of New Hampshire\n\nDear Sawyer,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total ankle replacement\n    Procedure code (CPT): 27702\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-28).\n\nReference number: POC-64107D6EF7-65599\n"
   },
   {
    "case_id": "poc-c65ca65da3",
@@ -380,9 +381,9 @@
    "surgery": "Hip arthroscopy",
    "cpt": "29914",
    "denial_reason": "conservative_care",
-   "denial_date": "2026-08-12",
-   "appeal_deadline": "2027-02-08",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-12\nMember: Skyler Ellison\nMember ID: W466749457\nPlan: Aetna (Commercial/ACA), state of Wyoming\n\nDear Skyler,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Hip arthroscopy\n    Procedure code (CPT): 29914\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-08).\n\nReference number: POC-C65CA65DA3-91136\n"
+   "denial_date": "2026-08-24",
+   "appeal_deadline": "2027-02-20",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-24\nMember: Taylor Foster\nMember ID: W492196775\nPlan: Aetna (Commercial/ACA), state of Wyoming\n\nDear Taylor,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Hip arthroscopy\n    Procedure code (CPT): 29914\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-20).\n\nReference number: POC-C65CA65DA3-33163\n"
   },
   {
    "case_id": "poc-df42beb029",
@@ -393,399 +394,399 @@
    "surgery": "Partial knee replacement",
    "cpt": "27446",
    "denial_reason": "imaging",
-   "denial_date": "2026-08-08",
-   "appeal_deadline": "2027-02-04",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-08\nMember: Riley Jennings\nMember ID: W659279728\nPlan: Aetna (Commercial/ACA), state of Montana\n\nDear Riley,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Partial knee replacement\n    Procedure code (CPT): 27446\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-04).\n\nReference number: POC-DF42BEB029-84688\n"
+   "denial_date": "2026-08-04",
+   "appeal_deadline": "2027-01-31",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-04\nMember: Quinn Ellison\nMember ID: W391580594\nPlan: Aetna (Commercial/ACA), state of Montana\n\nDear Quinn,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Partial knee replacement\n    Procedure code (CPT): 27446\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-31).\n\nReference number: POC-DF42BEB029-97975\n"
   },
   {
-   "case_id": "poc-7cc547e766",
-   "stratum": "in_library",
-   "state": "Oklahoma",
-   "payer": "CommunityCare",
+   "case_id": "poc-1c4d453f27",
+   "stratum": "vendor_held",
+   "state": "Nebraska",
+   "payer": "UnitedHealthcare",
    "plan_type": "Commercial/ACA",
-   "surgery": "Hip arthroscopy",
-   "cpt": "29914",
+   "surgery": "Total hip replacement",
+   "cpt": "27130",
    "denial_reason": "not_medically_necessary",
-   "denial_date": "2026-08-15",
-   "appeal_deadline": "2027-02-11",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-15\nMember: Harper Grant\nMember ID: W655919260\nPlan: CommunityCare (Commercial/ACA), state of Oklahoma\n\nDear Harper,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Hip arthroscopy\n    Procedure code (CPT): 29914\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-11).\n\nReference number: POC-7CC547E766-16967\n"
-  },
-  {
-   "case_id": "poc-f0ef24b2f9",
-   "stratum": "in_library",
-   "state": "Maryland",
-   "payer": "Aetna",
-   "plan_type": "Commercial/ACA",
-   "surgery": "Lower back disc surgery / decompression",
-   "cpt": "63030",
-   "denial_reason": "incomplete_documentation",
-   "denial_date": "2026-08-12",
-   "appeal_deadline": "2027-02-08",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-12\nMember: Riley Delgado\nMember ID: W716311123\nPlan: Aetna (Commercial/ACA), state of Maryland\n\nDear Riley,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Lower back disc surgery / decompression\n    Procedure code (CPT): 63030\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-08).\n\nReference number: POC-F0EF24B2F9-37185\n"
-  },
-  {
-   "case_id": "poc-5835ee5db3",
-   "stratum": "in_library",
-   "state": "Alaska",
-   "payer": "Aetna",
-   "plan_type": "Commercial/ACA",
-   "surgery": "Total ankle replacement",
-   "cpt": "27702",
-   "denial_reason": "conservative_care",
-   "denial_date": "2026-08-02",
-   "appeal_deadline": "2027-01-29",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-02\nMember: Cameron Ellison\nMember ID: W202563128\nPlan: Aetna (Commercial/ACA), state of Alaska\n\nDear Cameron,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total ankle replacement\n    Procedure code (CPT): 27702\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-29).\n\nReference number: POC-5835EE5DB3-12953\n"
-  },
-  {
-   "case_id": "poc-efa5fac45a",
-   "stratum": "in_library",
-   "state": "Massachusetts",
-   "payer": "WellSense Health Plan",
-   "plan_type": "Commercial/ACA",
-   "surgery": "Rotator cuff repair",
-   "cpt": "29827",
-   "denial_reason": "imaging",
-   "denial_date": "2026-08-22",
-   "appeal_deadline": "2027-02-18",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-22\nMember: Skyler Grant\nMember ID: W823593743\nPlan: WellSense Health Plan (Commercial/ACA), state of Massachusetts\n\nDear Skyler,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Rotator cuff repair\n    Procedure code (CPT): 29827\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-18).\n\nReference number: POC-EFA5FAC45A-16247\n"
-  },
-  {
-   "case_id": "poc-e497ca9e0d",
-   "stratum": "in_library",
-   "state": "Nevada",
-   "payer": "Anthem Blue Cross Blue Shield",
-   "plan_type": "Commercial/ACA",
-   "surgery": "Rotator cuff repair",
-   "cpt": "29827",
-   "denial_reason": "not_medically_necessary",
-   "denial_date": "2026-08-03",
-   "appeal_deadline": "2027-01-30",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-03\nMember: Casey Novak\nMember ID: W821315541\nPlan: Anthem Blue Cross Blue Shield (Commercial/ACA), state of Nevada\n\nDear Casey,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Rotator cuff repair\n    Procedure code (CPT): 29827\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-30).\n\nReference number: POC-E497CA9E0D-16678\n"
-  },
-  {
-   "case_id": "poc-39a6b2a3ed",
-   "stratum": "in_library",
-   "state": "North Dakota",
-   "payer": "Blue Cross Blue Shield of North Dakota",
-   "plan_type": "Commercial/ACA",
-   "surgery": "Lower back disc surgery / decompression",
-   "cpt": "63030",
-   "denial_reason": "incomplete_documentation",
-   "denial_date": "2026-08-19",
-   "appeal_deadline": "2027-02-15",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-19\nMember: Casey Jennings\nMember ID: W383289117\nPlan: Blue Cross Blue Shield of North Dakota (Commercial/ACA), state of North Dakota\n\nDear Casey,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Lower back disc surgery / decompression\n    Procedure code (CPT): 63030\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-15).\n\nReference number: POC-39A6B2A3ED-53252\n"
-  },
-  {
-   "case_id": "poc-dbd0be1315",
-   "stratum": "in_library",
-   "state": "Ohio",
-   "payer": "Anthem Blue Cross and Blue Shield",
-   "plan_type": "Commercial/ACA",
-   "surgery": "Total ankle replacement",
-   "cpt": "27702",
-   "denial_reason": "conservative_care",
-   "denial_date": "2026-08-15",
-   "appeal_deadline": "2027-02-11",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-15\nMember: Cameron Delgado\nMember ID: W612370258\nPlan: Anthem Blue Cross and Blue Shield (Commercial/ACA), state of Ohio\n\nDear Cameron,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total ankle replacement\n    Procedure code (CPT): 27702\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-11).\n\nReference number: POC-DBD0BE1315-38717\n"
-  },
-  {
-   "case_id": "poc-f59c20357e",
-   "stratum": "in_library",
-   "state": "Kentucky",
-   "payer": "Anthem Blue Cross Blue Shield",
-   "plan_type": "Commercial/ACA",
-   "surgery": "Shoulder labral / instability repair",
-   "cpt": "29806",
-   "denial_reason": "imaging",
    "denial_date": "2026-07-31",
    "appeal_deadline": "2027-01-27",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-07-31\nMember: Morgan Brooks\nMember ID: W429554581\nPlan: Anthem Blue Cross Blue Shield (Commercial/ACA), state of Kentucky\n\nDear Morgan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Shoulder labral / instability repair\n    Procedure code (CPT): 29806\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-27).\n\nReference number: POC-F59C20357E-36346\n"
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-07-31\nMember: Morgan Iverson\nMember ID: W702529422\nPlan: UnitedHealthcare (Commercial/ACA), state of Nebraska\n\nDear Morgan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total hip replacement\n    Procedure code (CPT): 27130\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-27).\n\nReference number: POC-1C4D453F27-72744\n"
   },
   {
-   "case_id": "poc-d7f50e62d6",
-   "stratum": "in_library",
-   "state": "Kentucky",
-   "payer": "Anthem Blue Cross Blue Shield",
-   "plan_type": "Commercial/ACA",
-   "surgery": "Neck (cervical) fusion (ACDF)",
-   "cpt": "22551",
-   "denial_reason": "not_medically_necessary",
-   "denial_date": "2026-08-13",
-   "appeal_deadline": "2027-02-09",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-13\nMember: Casey Carter\nMember ID: W770146235\nPlan: Anthem Blue Cross Blue Shield (Commercial/ACA), state of Kentucky\n\nDear Casey,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Neck (cervical) fusion (ACDF)\n    Procedure code (CPT): 22551\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-09).\n\nReference number: POC-D7F50E62D6-90189\n"
-  },
-  {
-   "case_id": "poc-57ea7e5da4",
-   "stratum": "in_library",
-   "state": "Louisiana",
-   "payer": "Healthy Blue Louisiana",
-   "plan_type": "Commercial/ACA",
-   "surgery": "Knee arthroscopy / meniscus surgery",
-   "cpt": "29881",
-   "denial_reason": "incomplete_documentation",
-   "denial_date": "2026-08-14",
-   "appeal_deadline": "2027-02-10",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-14\nMember: Riley Alvarez\nMember ID: W878925474\nPlan: Healthy Blue Louisiana (Commercial/ACA), state of Louisiana\n\nDear Riley,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Knee arthroscopy / meniscus surgery\n    Procedure code (CPT): 29881\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-10).\n\nReference number: POC-57EA7E5DA4-56288\n"
-  },
-  {
-   "case_id": "poc-80468f521b",
-   "stratum": "no_policy",
-   "state": "Texas",
-   "payer": "Community Health Choice",
-   "plan_type": "Commercial/ACA",
-   "surgery": "Shoulder labral / instability repair",
-   "cpt": "29806",
-   "denial_reason": "conservative_care",
-   "denial_date": "2026-08-15",
-   "appeal_deadline": "2027-02-11",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-15\nMember: Harper Novak\nMember ID: W371965936\nPlan: Community Health Choice (Commercial/ACA), state of Texas\n\nDear Harper,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Shoulder labral / instability repair\n    Procedure code (CPT): 29806\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-11).\n\nReference number: POC-80468F521B-95441\n"
-  },
-  {
-   "case_id": "poc-7695ee95c5",
-   "stratum": "no_policy",
-   "state": "South Dakota",
-   "payer": "Wellmark Blue Cross Blue Shield of South Dakota",
-   "plan_type": "Commercial/ACA",
-   "surgery": "Total knee replacement",
-   "cpt": "27447",
-   "denial_reason": "imaging",
-   "denial_date": "2026-07-31",
-   "appeal_deadline": "2027-01-27",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-07-31\nMember: Taylor Kimura\nMember ID: W354999576\nPlan: Wellmark Blue Cross Blue Shield of South Dakota (Commercial/ACA), state of South Dakota\n\nDear Taylor,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total knee replacement\n    Procedure code (CPT): 27447\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-27).\n\nReference number: POC-7695EE95C5-16940\n"
-  },
-  {
-   "case_id": "poc-4e1decb3ca",
-   "stratum": "no_policy",
-   "state": "District of Columbia",
-   "payer": "MedStar Family Choice DC",
-   "plan_type": "Commercial/ACA",
-   "surgery": "Total knee replacement",
-   "cpt": "27447",
-   "denial_reason": "not_medically_necessary",
-   "denial_date": "2026-08-02",
-   "appeal_deadline": "2027-01-29",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-02\nMember: Taylor Ellison\nMember ID: W798611035\nPlan: MedStar Family Choice DC (Commercial/ACA), state of District of Columbia\n\nDear Taylor,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total knee replacement\n    Procedure code (CPT): 27447\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-29).\n\nReference number: POC-4E1DECB3CA-73051\n"
-  },
-  {
-   "case_id": "poc-9e63bc244c",
-   "stratum": "no_policy",
-   "state": "Utah",
+   "case_id": "poc-9ab63cfcdf",
+   "stratum": "vendor_held",
+   "state": "Iowa",
    "payer": "UnitedHealthcare",
    "plan_type": "Commercial/ACA",
-   "surgery": "Shoulder labral / instability repair",
-   "cpt": "29806",
+   "surgery": "Total shoulder replacement",
+   "cpt": "23472",
    "denial_reason": "incomplete_documentation",
-   "denial_date": "2026-08-11",
-   "appeal_deadline": "2027-02-07",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-11\nMember: Morgan Foster\nMember ID: W276906709\nPlan: UnitedHealthcare (Commercial/ACA), state of Utah\n\nDear Morgan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Shoulder labral / instability repair\n    Procedure code (CPT): 29806\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-07).\n\nReference number: POC-9E63BC244C-68772\n"
+   "denial_date": "2026-08-04",
+   "appeal_deadline": "2027-01-31",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-04\nMember: Emerson Brooks\nMember ID: W628799962\nPlan: UnitedHealthcare (Commercial/ACA), state of Iowa\n\nDear Emerson,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total shoulder replacement\n    Procedure code (CPT): 23472\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-31).\n\nReference number: POC-9AB63CFCDF-18778\n"
   },
   {
-   "case_id": "poc-964525e22d",
-   "stratum": "no_policy",
-   "state": "Michigan",
-   "payer": "Molina Healthcare",
-   "plan_type": "Commercial/ACA",
-   "surgery": "Total knee replacement",
-   "cpt": "27447",
-   "denial_reason": "conservative_care",
-   "denial_date": "2026-08-23",
-   "appeal_deadline": "2027-02-19",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-23\nMember: Morgan Foster\nMember ID: W162894592\nPlan: Molina Healthcare (Commercial/ACA), state of Michigan\n\nDear Morgan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total knee replacement\n    Procedure code (CPT): 27447\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-19).\n\nReference number: POC-964525E22D-99591\n"
-  },
-  {
-   "case_id": "poc-07221911da",
-   "stratum": "no_policy",
-   "state": "Indiana",
+   "case_id": "poc-87e365caed",
+   "stratum": "vendor_held",
+   "state": "Minnesota",
    "payer": "UnitedHealthcare",
-   "plan_type": "Commercial/ACA",
-   "surgery": "Lower back disc surgery / decompression",
-   "cpt": "63030",
-   "denial_reason": "imaging",
-   "denial_date": "2026-08-24",
-   "appeal_deadline": "2027-02-20",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-24\nMember: Skyler Ellison\nMember ID: W240749705\nPlan: UnitedHealthcare (Commercial/ACA), state of Indiana\n\nDear Skyler,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Lower back disc surgery / decompression\n    Procedure code (CPT): 63030\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-20).\n\nReference number: POC-07221911DA-65750\n"
-  },
-  {
-   "case_id": "poc-5cb97ab121",
-   "stratum": "no_policy",
-   "state": "Maine",
-   "payer": "Martin's Point Health Care",
-   "plan_type": "Commercial/ACA",
-   "surgery": "Neck (cervical) fusion (ACDF)",
-   "cpt": "22551",
-   "denial_reason": "not_medically_necessary",
-   "denial_date": "2026-08-06",
-   "appeal_deadline": "2027-02-02",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-06\nMember: Reese Iverson\nMember ID: W233165693\nPlan: Martin's Point Health Care (Commercial/ACA), state of Maine\n\nDear Reese,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Neck (cervical) fusion (ACDF)\n    Procedure code (CPT): 22551\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-02).\n\nReference number: POC-5CB97AB121-21498\n"
-  },
-  {
-   "case_id": "poc-2dfec3d6bd",
-   "stratum": "no_policy",
-   "state": "Texas",
-   "payer": "UnitedHealthcare",
-   "plan_type": "Commercial/ACA",
-   "surgery": "Shoulder labral / instability repair",
-   "cpt": "29806",
-   "denial_reason": "incomplete_documentation",
-   "denial_date": "2026-08-25",
-   "appeal_deadline": "2027-02-21",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-25\nMember: Casey Iverson\nMember ID: W207784190\nPlan: UnitedHealthcare (Commercial/ACA), state of Texas\n\nDear Casey,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Shoulder labral / instability repair\n    Procedure code (CPT): 29806\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-21).\n\nReference number: POC-2DFEC3D6BD-17933\n"
-  },
-  {
-   "case_id": "poc-2fb577de3e",
-   "stratum": "no_policy",
-   "state": "New York",
-   "payer": "Healthfirst",
-   "plan_type": "Commercial/ACA",
-   "surgery": "Knee arthroscopy / meniscus surgery",
-   "cpt": "29881",
-   "denial_reason": "conservative_care",
-   "denial_date": "2026-08-19",
-   "appeal_deadline": "2027-02-15",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-19\nMember: Rowan Carter\nMember ID: W914903090\nPlan: Healthfirst (Commercial/ACA), state of New York\n\nDear Rowan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Knee arthroscopy / meniscus surgery\n    Procedure code (CPT): 29881\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-15).\n\nReference number: POC-2FB577DE3E-24277\n"
-  },
-  {
-   "case_id": "poc-750fdb4900",
-   "stratum": "no_policy",
-   "state": "North Carolina",
-   "payer": "Humana",
    "plan_type": "Commercial/ACA",
    "surgery": "ACL reconstruction",
    "cpt": "29888",
-   "denial_reason": "imaging",
-   "denial_date": "2026-08-01",
-   "appeal_deadline": "2027-01-28",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-01\nMember: Sawyer Foster\nMember ID: W558551284\nPlan: Humana (Commercial/ACA), state of North Carolina\n\nDear Sawyer,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: ACL reconstruction\n    Procedure code (CPT): 29888\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-28).\n\nReference number: POC-750FDB4900-65599\n"
+   "denial_reason": "conservative_care",
+   "denial_date": "2026-08-02",
+   "appeal_deadline": "2027-01-29",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-02\nMember: Quinn Grant\nMember ID: W553544386\nPlan: UnitedHealthcare (Commercial/ACA), state of Minnesota\n\nDear Quinn,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: ACL reconstruction\n    Procedure code (CPT): 29888\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-29).\n\nReference number: POC-87E365CAED-66145\n"
   },
   {
-   "case_id": "poc-2a8b1ef141",
-   "stratum": "no_policy",
-   "state": "Connecticut",
-   "payer": "UnitedHealthcare / Oxford",
-   "plan_type": "Commercial/ACA",
-   "surgery": "Lower back (lumbar) fusion",
-   "cpt": "22612",
-   "denial_reason": "not_medically_necessary",
-   "denial_date": "2026-08-24",
-   "appeal_deadline": "2027-02-20",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-24\nMember: Taylor Foster\nMember ID: W492196775\nPlan: UnitedHealthcare / Oxford (Commercial/ACA), state of Connecticut\n\nDear Taylor,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Lower back (lumbar) fusion\n    Procedure code (CPT): 22612\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-20).\n\nReference number: POC-2A8B1EF141-33163\n"
-  },
-  {
-   "case_id": "poc-9ff9891d29",
-   "stratum": "no_policy",
-   "state": "Maryland",
-   "payer": "Priority Partners",
-   "plan_type": "Commercial/ACA",
-   "surgery": "Lower back (lumbar) fusion",
-   "cpt": "22612",
-   "denial_reason": "incomplete_documentation",
-   "denial_date": "2026-08-04",
-   "appeal_deadline": "2027-01-31",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-04\nMember: Quinn Ellison\nMember ID: W391580594\nPlan: Priority Partners (Commercial/ACA), state of Maryland\n\nDear Quinn,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Lower back (lumbar) fusion\n    Procedure code (CPT): 22612\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-31).\n\nReference number: POC-9FF9891D29-97975\n"
-  },
-  {
-   "case_id": "poc-ed26f28f56",
-   "stratum": "no_policy",
-   "state": "District of Columbia",
+   "case_id": "poc-177b09d7a6",
+   "stratum": "vendor_held",
+   "state": "West Virginia",
    "payer": "UnitedHealthcare",
    "plan_type": "Commercial/ACA",
-   "surgery": "Knee arthroscopy / meniscus surgery",
-   "cpt": "29881",
-   "denial_reason": "conservative_care",
-   "denial_date": "2026-07-31",
-   "appeal_deadline": "2027-01-27",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-07-31\nMember: Morgan Iverson\nMember ID: W702529422\nPlan: UnitedHealthcare (Commercial/ACA), state of District of Columbia\n\nDear Morgan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Knee arthroscopy / meniscus surgery\n    Procedure code (CPT): 29881\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-27).\n\nReference number: POC-ED26F28F56-72744\n"
-  },
-  {
-   "case_id": "poc-32ca3c79de",
-   "stratum": "no_policy",
-   "state": "Arizona",
-   "payer": "Humana",
-   "plan_type": "Commercial/ACA",
-   "surgery": "Hip arthroscopy",
-   "cpt": "29914",
+   "surgery": "Neck (cervical) fusion (ACDF)",
+   "cpt": "22551",
    "denial_reason": "imaging",
-   "denial_date": "2026-08-04",
-   "appeal_deadline": "2027-01-31",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-04\nMember: Emerson Brooks\nMember ID: W628799962\nPlan: Humana (Commercial/ACA), state of Arizona\n\nDear Emerson,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Hip arthroscopy\n    Procedure code (CPT): 29914\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-31).\n\nReference number: POC-32CA3C79DE-18778\n"
+   "denial_date": "2026-08-11",
+   "appeal_deadline": "2027-02-07",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-11\nMember: Jordan Alvarez\nMember ID: W482428991\nPlan: UnitedHealthcare (Commercial/ACA), state of West Virginia\n\nDear Jordan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Neck (cervical) fusion (ACDF)\n    Procedure code (CPT): 22551\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-07).\n\nReference number: POC-177B09D7A6-51151\n"
   },
   {
-   "case_id": "poc-b5c755fd9d",
-   "stratum": "no_policy",
-   "state": "Washington",
+   "case_id": "poc-9dd444765e",
+   "stratum": "vendor_held",
+   "state": "Arizona",
    "payer": "Molina Healthcare",
    "plan_type": "Commercial/ACA",
    "surgery": "Rotator cuff repair",
    "cpt": "29827",
    "denial_reason": "not_medically_necessary",
-   "denial_date": "2026-08-02",
-   "appeal_deadline": "2027-01-29",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-02\nMember: Quinn Grant\nMember ID: W553544386\nPlan: Molina Healthcare (Commercial/ACA), state of Washington\n\nDear Quinn,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Rotator cuff repair\n    Procedure code (CPT): 29827\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-29).\n\nReference number: POC-B5C755FD9D-66145\n"
+   "denial_date": "2026-08-08",
+   "appeal_deadline": "2027-02-04",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-08\nMember: Cameron Grant\nMember ID: W314904804\nPlan: Molina Healthcare (Commercial/ACA), state of Arizona\n\nDear Cameron,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Rotator cuff repair\n    Procedure code (CPT): 29827\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-04).\n\nReference number: POC-9DD444765E-23652\n"
   },
   {
-   "case_id": "poc-0cbfbf0fbd",
-   "stratum": "no_policy",
-   "state": "West Virginia",
-   "payer": "CareSource",
+   "case_id": "poc-55381bdbc3",
+   "stratum": "vendor_held",
+   "state": "Hawaii",
+   "payer": "UnitedHealthcare Community Plan",
    "plan_type": "Commercial/ACA",
-   "surgery": "Total knee replacement",
-   "cpt": "27447",
+   "surgery": "Total ankle replacement",
+   "cpt": "27702",
    "denial_reason": "incomplete_documentation",
-   "denial_date": "2026-08-11",
-   "appeal_deadline": "2027-02-07",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-11\nMember: Jordan Alvarez\nMember ID: W482428991\nPlan: CareSource (Commercial/ACA), state of West Virginia\n\nDear Jordan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total knee replacement\n    Procedure code (CPT): 27447\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-07).\n\nReference number: POC-0CBFBF0FBD-51151\n"
+   "denial_date": "2026-08-20",
+   "appeal_deadline": "2027-02-16",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-20\nMember: Avery Alvarez\nMember ID: W460125797\nPlan: UnitedHealthcare Community Plan (Commercial/ACA), state of Hawaii\n\nDear Avery,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total ankle replacement\n    Procedure code (CPT): 27702\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-16).\n\nReference number: POC-55381BDBC3-44861\n"
   },
   {
-   "case_id": "poc-0ba67a5166",
-   "stratum": "no_policy",
+   "case_id": "poc-aa9ea32e7d",
+   "stratum": "vendor_held",
    "state": "Mississippi",
    "payer": "Molina Healthcare",
    "plan_type": "Commercial/ACA",
    "surgery": "Rotator cuff repair",
    "cpt": "29827",
    "denial_reason": "conservative_care",
-   "denial_date": "2026-08-08",
-   "appeal_deadline": "2027-02-04",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-08\nMember: Cameron Grant\nMember ID: W314904804\nPlan: Molina Healthcare (Commercial/ACA), state of Mississippi\n\nDear Cameron,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Rotator cuff repair\n    Procedure code (CPT): 29827\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-04).\n\nReference number: POC-0BA67A5166-23652\n"
+   "denial_date": "2026-08-09",
+   "appeal_deadline": "2027-02-05",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-09\nMember: Riley Brooks\nMember ID: W997409334\nPlan: Molina Healthcare (Commercial/ACA), state of Mississippi\n\nDear Riley,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Rotator cuff repair\n    Procedure code (CPT): 29827\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-05).\n\nReference number: POC-AA9EA32E7D-95281\n"
   },
   {
-   "case_id": "poc-f512cda4d0",
-   "stratum": "no_policy",
-   "state": "Florida",
-   "payer": "Humana",
+   "case_id": "poc-9297e0e467",
+   "stratum": "vendor_held",
+   "state": "Maryland",
+   "payer": "MedStar Family Choice",
    "plan_type": "Commercial/ACA",
-   "surgery": "ACL reconstruction",
-   "cpt": "29888",
+   "surgery": "Bunion surgery (hallux valgus)",
+   "cpt": "28296",
    "denial_reason": "imaging",
-   "denial_date": "2026-08-20",
-   "appeal_deadline": "2027-02-16",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-20\nMember: Avery Alvarez\nMember ID: W460125797\nPlan: Humana (Commercial/ACA), state of Florida\n\nDear Avery,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: ACL reconstruction\n    Procedure code (CPT): 29888\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-16).\n\nReference number: POC-F512CDA4D0-44861\n"
+   "denial_date": "2026-08-25",
+   "appeal_deadline": "2027-02-21",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-25\nMember: Jordan Kimura\nMember ID: W450262274\nPlan: MedStar Family Choice (Commercial/ACA), state of Maryland\n\nDear Jordan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Bunion surgery (hallux valgus)\n    Procedure code (CPT): 28296\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-21).\n\nReference number: POC-9297E0E467-45895\n"
   },
   {
-   "case_id": "poc-036ce93e48",
-   "stratum": "no_policy",
+   "case_id": "poc-3469abe4fc",
+   "stratum": "vendor_held",
    "state": "New Jersey",
+   "payer": "UnitedHealthcare / Oxford",
+   "plan_type": "Commercial/ACA",
+   "surgery": "Total ankle replacement",
+   "cpt": "27702",
+   "denial_reason": "not_medically_necessary",
+   "denial_date": "2026-08-16",
+   "appeal_deadline": "2027-02-12",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-16\nMember: Cameron Carter\nMember ID: W300143742\nPlan: UnitedHealthcare / Oxford (Commercial/ACA), state of New Jersey\n\nDear Cameron,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total ankle replacement\n    Procedure code (CPT): 27702\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-12).\n\nReference number: POC-3469ABE4FC-29435\n"
+  },
+  {
+   "case_id": "poc-92d596c7f2",
+   "stratum": "vendor_held",
+   "state": "District of Columbia",
+   "payer": "MedStar Family Choice DC",
+   "plan_type": "Commercial/ACA",
+   "surgery": "Lower back disc surgery / decompression",
+   "cpt": "63030",
+   "denial_reason": "incomplete_documentation",
+   "denial_date": "2026-08-03",
+   "appeal_deadline": "2027-01-30",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-03\nMember: Jordan Hayes\nMember ID: W671447302\nPlan: MedStar Family Choice DC (Commercial/ACA), state of District of Columbia\n\nDear Jordan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Lower back disc surgery / decompression\n    Procedure code (CPT): 63030\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-30).\n\nReference number: POC-92D596C7F2-83353\n"
+  },
+  {
+   "case_id": "poc-cd6af51965",
+   "stratum": "vendor_held",
+   "state": "South Carolina",
+   "payer": "Molina Healthcare",
+   "plan_type": "Commercial/ACA",
+   "surgery": "Rotator cuff repair",
+   "cpt": "29827",
+   "denial_reason": "conservative_care",
+   "denial_date": "2026-08-10",
+   "appeal_deadline": "2027-02-06",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-10\nMember: Rowan Carter\nMember ID: W473677710\nPlan: Molina Healthcare (Commercial/ACA), state of South Carolina\n\nDear Rowan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Rotator cuff repair\n    Procedure code (CPT): 29827\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-06).\n\nReference number: POC-CD6AF51965-72160\n"
+  },
+  {
+   "case_id": "poc-0948c5760b",
+   "stratum": "vendor_held",
+   "state": "District of Columbia",
+   "payer": "MedStar Family Choice DC",
+   "plan_type": "Commercial/ACA",
+   "surgery": "Knee arthroscopy / meniscus surgery",
+   "cpt": "29881",
+   "denial_reason": "imaging",
+   "denial_date": "2026-08-06",
+   "appeal_deadline": "2027-02-02",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-06\nMember: Avery Lawson\nMember ID: W601208268\nPlan: MedStar Family Choice DC (Commercial/ACA), state of District of Columbia\n\nDear Avery,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Knee arthroscopy / meniscus surgery\n    Procedure code (CPT): 29881\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-02).\n\nReference number: POC-0948C5760B-46622\n"
+  },
+  {
+   "case_id": "poc-e6ef62d505",
+   "stratum": "vendor_held",
+   "state": "Connecticut",
    "payer": "UnitedHealthcare / Oxford",
    "plan_type": "Commercial/ACA",
    "surgery": "Lower back disc surgery / decompression",
    "cpt": "63030",
    "denial_reason": "not_medically_necessary",
-   "denial_date": "2026-08-09",
-   "appeal_deadline": "2027-02-05",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-09\nMember: Riley Brooks\nMember ID: W997409334\nPlan: UnitedHealthcare / Oxford (Commercial/ACA), state of New Jersey\n\nDear Riley,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Lower back disc surgery / decompression\n    Procedure code (CPT): 63030\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-05).\n\nReference number: POC-036CE93E48-95281\n"
+   "denial_date": "2026-08-20",
+   "appeal_deadline": "2027-02-16",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-20\nMember: Jordan Iverson\nMember ID: W979574719\nPlan: UnitedHealthcare / Oxford (Commercial/ACA), state of Connecticut\n\nDear Jordan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Lower back disc surgery / decompression\n    Procedure code (CPT): 63030\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-16).\n\nReference number: POC-E6EF62D505-92473\n"
   },
   {
-   "case_id": "poc-5752a9a6be",
+   "case_id": "poc-39de00339b",
+   "stratum": "vendor_held",
+   "state": "Pennsylvania",
+   "payer": "UPMC Health Plan",
+   "plan_type": "Commercial/ACA",
+   "surgery": "Knee arthroscopy / meniscus surgery",
+   "cpt": "29881",
+   "denial_reason": "incomplete_documentation",
+   "denial_date": "2026-08-19",
+   "appeal_deadline": "2027-02-15",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-19\nMember: Riley Jennings\nMember ID: W995720068\nPlan: UPMC Health Plan (Commercial/ACA), state of Pennsylvania\n\nDear Riley,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Knee arthroscopy / meniscus surgery\n    Procedure code (CPT): 29881\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-15).\n\nReference number: POC-39DE00339B-16726\n"
+  },
+  {
+   "case_id": "poc-5edc35c98d",
+   "stratum": "vendor_held",
+   "state": "Vermont",
+   "payer": "MVP Health Care",
+   "plan_type": "Commercial/ACA",
+   "surgery": "Knee arthroscopy / meniscus surgery",
+   "cpt": "29881",
+   "denial_reason": "conservative_care",
+   "denial_date": "2026-08-13",
+   "appeal_deadline": "2027-02-09",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-13\nMember: Cameron Brooks\nMember ID: W412154328\nPlan: MVP Health Care (Commercial/ACA), state of Vermont\n\nDear Cameron,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Knee arthroscopy / meniscus surgery\n    Procedure code (CPT): 29881\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-09).\n\nReference number: POC-5EDC35C98D-81118\n"
+  },
+  {
+   "case_id": "poc-aaa1cf805a",
    "stratum": "no_policy",
-   "state": "New Mexico",
+   "state": "Mississippi",
+   "payer": "Ambetter (Magnolia Health)",
+   "plan_type": "Commercial/ACA",
+   "surgery": "Neck (cervical) fusion (ACDF)",
+   "cpt": "22551",
+   "denial_reason": "imaging",
+   "denial_date": "2026-08-14",
+   "appeal_deadline": "2027-02-10",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-14\nMember: Rowan Jennings\nMember ID: W965543948\nPlan: Ambetter (Magnolia Health) (Commercial/ACA), state of Mississippi\n\nDear Rowan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Neck (cervical) fusion (ACDF)\n    Procedure code (CPT): 22551\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-10).\n\nReference number: POC-AAA1CF805A-66883\n"
+  },
+  {
+   "case_id": "poc-0b7f2515da",
+   "stratum": "no_policy",
+   "state": "Wisconsin",
+   "payer": "Common Ground Healthcare Cooperative",
+   "plan_type": "Commercial/ACA",
+   "surgery": "Hip arthroscopy",
+   "cpt": "29914",
+   "denial_reason": "not_medically_necessary",
+   "denial_date": "2026-08-03",
+   "appeal_deadline": "2027-01-30",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-03\nMember: Emerson Kimura\nMember ID: W623723443\nPlan: Common Ground Healthcare Cooperative (Commercial/ACA), state of Wisconsin\n\nDear Emerson,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Hip arthroscopy\n    Procedure code (CPT): 29914\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-30).\n\nReference number: POC-0B7F2515DA-96515\n"
+  },
+  {
+   "case_id": "poc-7908fd6832",
+   "stratum": "no_policy",
+   "state": "Kentucky",
+   "payer": "Passport Health Plan by Molina",
+   "plan_type": "Commercial/ACA",
+   "surgery": "ACL reconstruction",
+   "cpt": "29888",
+   "denial_reason": "incomplete_documentation",
+   "denial_date": "2026-08-12",
+   "appeal_deadline": "2027-02-08",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-12\nMember: Reese Iverson\nMember ID: W871184265\nPlan: Passport Health Plan by Molina (Commercial/ACA), state of Kentucky\n\nDear Reese,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: ACL reconstruction\n    Procedure code (CPT): 29888\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-08).\n\nReference number: POC-7908FD6832-14323\n"
+  },
+  {
+   "case_id": "poc-7eb7cfd8b4",
+   "stratum": "no_policy",
+   "state": "Delaware",
+   "payer": "Highmark Health Options",
+   "plan_type": "Commercial/ACA",
+   "surgery": "Total shoulder replacement",
+   "cpt": "23472",
+   "denial_reason": "conservative_care",
+   "denial_date": "2026-08-20",
+   "appeal_deadline": "2027-02-16",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-20\nMember: Morgan Mercado\nMember ID: W211915898\nPlan: Highmark Health Options (Commercial/ACA), state of Delaware\n\nDear Morgan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total shoulder replacement\n    Procedure code (CPT): 23472\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-16).\n\nReference number: POC-7EB7CFD8B4-61417\n"
+  },
+  {
+   "case_id": "poc-c29c7cfc4d",
+   "stratum": "no_policy",
+   "state": "West Virginia",
+   "payer": "CareSource",
+   "plan_type": "Commercial/ACA",
+   "surgery": "Knee arthroscopy / meniscus surgery",
+   "cpt": "29881",
+   "denial_reason": "imaging",
+   "denial_date": "2026-08-15",
+   "appeal_deadline": "2027-02-11",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-15\nMember: Casey Grant\nMember ID: W903474664\nPlan: CareSource (Commercial/ACA), state of West Virginia\n\nDear Casey,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Knee arthroscopy / meniscus surgery\n    Procedure code (CPT): 29881\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-11).\n\nReference number: POC-C29C7CFC4D-26579\n"
+  },
+  {
+   "case_id": "poc-19ff75efc5",
+   "stratum": "no_policy",
+   "state": "Massachusetts",
+   "payer": "Fallon Health",
+   "plan_type": "Commercial/ACA",
+   "surgery": "ACL reconstruction",
+   "cpt": "29888",
+   "denial_reason": "not_medically_necessary",
+   "denial_date": "2026-08-15",
+   "appeal_deadline": "2027-02-11",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-15\nMember: Reese Iverson\nMember ID: W311137804\nPlan: Fallon Health (Commercial/ACA), state of Massachusetts\n\nDear Reese,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: ACL reconstruction\n    Procedure code (CPT): 29888\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-11).\n\nReference number: POC-19FF75EFC5-13767\n"
+  },
+  {
+   "case_id": "poc-c1ee0f5da7",
+   "stratum": "no_policy",
+   "state": "Tennessee",
+   "payer": "Ambetter",
+   "plan_type": "Commercial/ACA",
+   "surgery": "Bunion surgery (hallux valgus)",
+   "cpt": "28296",
+   "denial_reason": "incomplete_documentation",
+   "denial_date": "2026-08-10",
+   "appeal_deadline": "2027-02-06",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-10\nMember: Sawyer Iverson\nMember ID: W437498644\nPlan: Ambetter (Commercial/ACA), state of Tennessee\n\nDear Sawyer,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Bunion surgery (hallux valgus)\n    Procedure code (CPT): 28296\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-06).\n\nReference number: POC-C1EE0F5DA7-11270\n"
+  },
+  {
+   "case_id": "poc-5d5b151de3",
+   "stratum": "no_policy",
+   "state": "North Carolina",
+   "payer": "Ambetter (WellCare)",
+   "plan_type": "Commercial/ACA",
+   "surgery": "ACL reconstruction",
+   "cpt": "29888",
+   "denial_reason": "conservative_care",
+   "denial_date": "2026-08-17",
+   "appeal_deadline": "2027-02-13",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-17\nMember: Rowan Ellison\nMember ID: W486282210\nPlan: Ambetter (WellCare) (Commercial/ACA), state of North Carolina\n\nDear Rowan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: ACL reconstruction\n    Procedure code (CPT): 29888\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-13).\n\nReference number: POC-5D5B151DE3-65694\n"
+  },
+  {
+   "case_id": "poc-1ec0b0cd1f",
+   "stratum": "no_policy",
+   "state": "Mississippi",
    "payer": "Molina Healthcare",
    "plan_type": "Commercial/ACA",
-   "surgery": "Shoulder labral / instability repair",
-   "cpt": "29806",
+   "surgery": "Total shoulder replacement",
+   "cpt": "23472",
+   "denial_reason": "imaging",
+   "denial_date": "2026-08-10",
+   "appeal_deadline": "2027-02-06",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-10\nMember: Riley Novak\nMember ID: W755986580\nPlan: Molina Healthcare (Commercial/ACA), state of Mississippi\n\nDear Riley,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total shoulder replacement\n    Procedure code (CPT): 23472\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-06).\n\nReference number: POC-1EC0B0CD1F-92337\n"
+  },
+  {
+   "case_id": "poc-d87a7955a7",
+   "stratum": "no_policy",
+   "state": "Missouri",
+   "payer": "Ambetter (Home State Health)",
+   "plan_type": "Commercial/ACA",
+   "surgery": "Bunion surgery (hallux valgus)",
+   "cpt": "28296",
+   "denial_reason": "not_medically_necessary",
+   "denial_date": "2026-08-09",
+   "appeal_deadline": "2027-02-05",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-09\nMember: Cameron Jennings\nMember ID: W639971988\nPlan: Ambetter (Home State Health) (Commercial/ACA), state of Missouri\n\nDear Cameron,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Bunion surgery (hallux valgus)\n    Procedure code (CPT): 28296\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-05).\n\nReference number: POC-D87A7955A7-86011\n"
+  },
+  {
+   "case_id": "poc-9992a0803a",
+   "stratum": "no_policy",
+   "state": "Wisconsin",
+   "payer": "Molina Healthcare",
+   "plan_type": "Commercial/ACA",
+   "surgery": "Lower back disc surgery / decompression",
+   "cpt": "63030",
    "denial_reason": "incomplete_documentation",
-   "denial_date": "2026-08-25",
-   "appeal_deadline": "2027-02-21",
-   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-25\nMember: Jordan Kimura\nMember ID: W450262274\nPlan: Molina Healthcare (Commercial/ACA), state of New Mexico\n\nDear Jordan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Shoulder labral / instability repair\n    Procedure code (CPT): 29806\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-21).\n\nReference number: POC-5752A9A6BE-45895\n"
+   "denial_date": "2026-08-17",
+   "appeal_deadline": "2027-02-13",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-17\nMember: Reese Carter\nMember ID: W769161738\nPlan: Molina Healthcare (Commercial/ACA), state of Wisconsin\n\nDear Reese,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Lower back disc surgery / decompression\n    Procedure code (CPT): 63030\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-13).\n\nReference number: POC-9992A0803A-86478\n"
+  },
+  {
+   "case_id": "poc-b12ba21a5a",
+   "stratum": "no_policy",
+   "state": "Arkansas",
+   "payer": "Arkansas Blue Cross and Blue Shield",
+   "plan_type": "Commercial/ACA",
+   "surgery": "Total knee replacement",
+   "cpt": "27447",
+   "denial_reason": "conservative_care",
+   "denial_date": "2026-08-22",
+   "appeal_deadline": "2027-02-18",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-22\nMember: Riley Alvarez\nMember ID: W622967722\nPlan: Arkansas Blue Cross and Blue Shield (Commercial/ACA), state of Arkansas\n\nDear Riley,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total knee replacement\n    Procedure code (CPT): 27447\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-18).\n\nReference number: POC-B12BA21A5A-81346\n"
+  },
+  {
+   "case_id": "poc-bf385bb269",
+   "stratum": "no_policy",
+   "state": "Illinois",
+   "payer": "CountyCare",
+   "plan_type": "Commercial/ACA",
+   "surgery": "Bunion surgery (hallux valgus)",
+   "cpt": "28296",
+   "denial_reason": "imaging",
+   "denial_date": "2026-08-14",
+   "appeal_deadline": "2027-02-10",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-14\nMember: Reese Kimura\nMember ID: W325265581\nPlan: CountyCare (Commercial/ACA), state of Illinois\n\nDear Reese,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Bunion surgery (hallux valgus)\n    Procedure code (CPT): 28296\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-10).\n\nReference number: POC-BF385BB269-48000\n"
+  },
+  {
+   "case_id": "poc-3b4a598a17",
+   "stratum": "no_policy",
+   "state": "Arizona",
+   "payer": "Humana",
+   "plan_type": "Commercial/ACA",
+   "surgery": "Total shoulder replacement",
+   "cpt": "23472",
+   "denial_reason": "not_medically_necessary",
+   "denial_date": "2026-08-11",
+   "appeal_deadline": "2027-02-07",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-11\nMember: Quinn Carter\nMember ID: W589686059\nPlan: Humana (Commercial/ACA), state of Arizona\n\nDear Quinn,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total shoulder replacement\n    Procedure code (CPT): 23472\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-07).\n\nReference number: POC-3B4A598A17-15463\n"
+  },
+  {
+   "case_id": "poc-47f0c5aa4b",
+   "stratum": "no_policy",
+   "state": "Georgia",
+   "payer": "Humana",
+   "plan_type": "Commercial/ACA",
+   "surgery": "Total shoulder replacement",
+   "cpt": "23472",
+   "denial_reason": "incomplete_documentation",
+   "denial_date": "2026-08-07",
+   "appeal_deadline": "2027-02-03",
+   "letter_text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-07\nMember: Avery Hayes\nMember ID: W379220601\nPlan: Humana (Commercial/ACA), state of Georgia\n\nDear Avery,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total shoulder replacement\n    Procedure code (CPT): 23472\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-03).\n\nReference number: POC-47F0C5AA4B-91233\n"
   }
  ]
 }
