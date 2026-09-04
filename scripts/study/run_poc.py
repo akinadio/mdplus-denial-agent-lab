@@ -196,6 +196,33 @@ def run_ortho(case, model):
     }, "source": "abstention_route", "route": r, "model": model}
 
 
+
+class SearchBackendDown(RuntimeError):
+    """The search backend stopped answering mid-run.
+
+    On 2026-09-04 the Brave key hit its monthly spend cap partway through the
+    ChatGPT arm. Every later web_search returned HTTP 402 with zero results,
+    the model fell back to guessing URLs -- 265 of its 762 fetches 404'd -- and
+    the harness scored the whole arm anyway, producing a clean-looking 20%
+    accuracy table for a run that had no search engine. A comparison arm that
+    silently loses its tools is worse than one that crashes, so this stops the
+    run instead."""
+
+
+_QUOTA_MARKERS = ("HTTP 402", "HTTP 401", "HTTP 429", "USAGE_LIMIT", "quota")
+
+
+def _guarded(tool_call):
+    """Wrap the tool layer so a dead search backend aborts rather than degrades."""
+    def call(name, args):
+        out = tool_call(name, args)
+        if name == "web_search" and isinstance(out, dict):
+            err = str(out.get("error") or "")
+            if any(m in err for m in _QUOTA_MARKERS):
+                raise SearchBackendDown(err[:300])
+        return out
+    return call
+
 def run_llm(system, case, out_dir):
     from synthetic_harness.api_runner import (_resolve, _make_client, _ToolRunner,
                                               MAX_TOOL_ITERATIONS, MAX_OUTPUT_TOKENS)
@@ -211,11 +238,24 @@ def run_llm(system, case, out_dir):
     text, _, stop = prov.run(
         client=client, model=model, system=SYSTEM_PROMPT,
         prompt=case["letter_text"] + "\n\n---\n\n" + INSTRUCTION,
-        tool_call=runner.call, deadline=t0 + 900, usage=usage,
+        tool_call=_guarded(runner.call), deadline=t0 + 900, usage=usage,
         max_iters=MAX_TOOL_ITERATIONS, max_tokens=MAX_OUTPUT_TOKENS)
     return {"answer": extract_json(text) or {}, "raw_text": text,
             "stop_reason": stop, "usage": usage, "model": model,
             "elapsed_s": round(time.time() - t0, 1)}
+
+
+
+def _save_key(mapping):
+    """Arms are run separately (the ChatGPT arm needs a machine that can reach
+    api.openai.com), so the unblinding key accumulates instead of being
+    replaced. Also called on an aborted run, so a partial arm stays readable."""
+    keyfile = STUDY / "poc_unblinding.json"
+    if keyfile.exists():
+        prior = json.loads(keyfile.read_text())
+        prior.update(mapping)
+        mapping = prior
+    keyfile.write_text(json.dumps(mapping, indent=1))
 
 
 def main():
@@ -244,6 +284,13 @@ def main():
             try:
                 res = (run_ortho(c, SYSTEMS[s][1]) if s.startswith("ortho")
                        else run_llm(s, c, d))
+            except SearchBackendDown as e:
+                print(f"\n  SEARCH BACKEND DOWN: {e}\n"
+                      "  Stopping. Every remaining answer would be produced without a\n"
+                      "  search engine, which is not the system we are measuring.\n"
+                      "  Top up WEB_SEARCH_API_KEY's plan and re-run with --resume.")
+                _save_key(mapping)
+                raise SystemExit(2)
             except Exception as e:
                 res = {"error": f"{type(e).__name__}: {e}"}
             res["run_id"] = rid
@@ -255,14 +302,7 @@ def main():
             else:
                 done += 1
                 print(f"  {rid} {s:13s} ok")
-    # Arms are run separately (the ChatGPT arm needs a machine that can reach
-    # api.openai.com), so the key must accumulate instead of being replaced.
-    keyfile = STUDY / "poc_unblinding.json"
-    if keyfile.exists():
-        prior = json.loads(keyfile.read_text())
-        prior.update(mapping)
-        mapping = prior
-    keyfile.write_text(json.dumps(mapping, indent=1))
+    _save_key(mapping)
     print(f"\n{done} runs completed, {skipped} skipped/errored -> {RUNS}")
 
 
