@@ -75,6 +75,21 @@ CANONICAL_TOOLS: list[dict[str, Any]] = [
 
 ToolCall = Callable[[str, dict[str, Any]], dict[str, Any]]
 
+# Models that must use /v1/responses rather than /v1/chat/completions when
+# function tools are in play. Seeded from env, grown at runtime from the 400.
+RESPONSES_API_MODELS: set[str] = {
+    m.strip() for m in os.environ.get(
+        "MDPLUS_OPENAI_RESPONSES_MODELS", "gpt-5.6-luna,gpt-5.6-sol"
+    ).split(",") if m.strip()
+}
+
+
+def _needs_responses_api(exc: Exception) -> bool:
+    m = str(exc)
+    return "/v1/responses" in m or "reasoning_effort" in m
+
+
+
 
 def _dumps(obj: Any) -> str:
     return json.dumps(obj, ensure_ascii=False)
@@ -226,7 +241,7 @@ class OpenAIProvider:
             usage["input_tokens"] += getattr(u, "prompt_tokens", 0) or 0
             usage["output_tokens"] += getattr(u, "completion_tokens", 0) or 0
 
-    def run(self, *, client, model, system, prompt, tool_call, deadline, usage,
+    def _run_chat(self, *, client, model, system, prompt, tool_call, deadline, usage,
             max_iters, max_tokens):
         tools = self._tools()
         messages: list[dict[str, Any]] = [
@@ -270,7 +285,7 @@ class OpenAIProvider:
                 })
         return final_text, messages, stop
 
-    def continue_once(self, *, client, model, system, transcript, ask, usage, max_tokens):
+    def _continue_chat(self, *, client, model, system, transcript, ask, usage, max_tokens):
         messages = transcript + [{"role": "user", "content": ask}]
         resp = self._create(
             client, model=model, messages=messages, tools=self._tools(),
@@ -278,6 +293,118 @@ class OpenAIProvider:
         )
         self._acc(usage, resp)
         return resp.choices[0].message.content or ""
+
+    # --- Responses API path -------------------------------------------------
+    # gpt-5.x reasoning models reject function tools on /v1/chat/completions
+    # unless reasoning_effort is 'none'. Forcing 'none' would handicap the
+    # comparison arm -- the ChatGPT free tier reasons by default -- so we move
+    # those models to /v1/responses instead and leave reasoning at the model's
+    # own default. The switch is discovered from the 400, then remembered.
+
+    def _responses_tools(self) -> list[dict[str, Any]]:
+        return [
+            {"type": "function", "name": t["name"],
+             "description": t["description"], "parameters": t["parameters"]}
+            for t in CANONICAL_TOOLS
+        ]
+
+    @staticmethod
+    def _acc_responses(usage: dict[str, int], resp: Any) -> None:
+        u = getattr(resp, "usage", None)
+        if u is not None:
+            usage["input_tokens"] += getattr(u, "input_tokens", 0) or 0
+            usage["output_tokens"] += getattr(u, "output_tokens", 0) or 0
+
+    @staticmethod
+    def _as_item(o: Any) -> Any:
+        return o.model_dump() if hasattr(o, "model_dump") else o
+
+    def _responses_create(self, client, **kw):
+        """store=False keeps the study's letters off OpenAI's servers; the
+        encrypted-reasoning include is what lets a reasoning model carry its
+        chain across tool turns without server-side state. Both degrade."""
+        if not hasattr(client, "responses"):
+            raise RuntimeError(
+                "This openai SDK has no Responses API. Run: pip install -U openai")
+        try:
+            return client.responses.create(
+                include=["reasoning.encrypted_content"], store=False, **kw)
+        except Exception as exc:  # noqa: BLE001
+            m = str(exc)
+            if "include" in m or "encrypted" in m:
+                return client.responses.create(store=False, **kw)
+            raise
+
+    def _run_responses(self, *, client, model, system, prompt, tool_call, deadline,
+                       usage, max_iters, max_tokens):
+        tools = self._responses_tools()
+        items: list[Any] = [
+            {"role": "system", "content": system},
+            {"role": "user", "content": prompt},
+        ]
+        final_text, stop = "", "max_iterations"
+        for _ in range(max_iters):
+            if time.time() > deadline:
+                stop = "timeout"
+                break
+            resp = self._responses_create(
+                client, model=model, input=items, tools=tools,
+                tool_choice="auto", max_output_tokens=max_tokens)
+            self._acc_responses(usage, resp)
+            out = list(getattr(resp, "output", []) or [])
+            items.extend(self._as_item(o) for o in out)
+            calls = [o for o in out if getattr(o, "type", None) == "function_call"]
+            if not calls:
+                final_text = getattr(resp, "output_text", "") or ""
+                stop = getattr(resp, "status", None) or "stop"
+                if stop == "incomplete":
+                    d = getattr(resp, "incomplete_details", None)
+                    stop = getattr(d, "reason", None) or "incomplete"
+                break
+            for c in calls:
+                try:
+                    args = json.loads(getattr(c, "arguments", "") or "{}")
+                except json.JSONDecodeError:
+                    args = {}
+                items.append({
+                    "type": "function_call_output",
+                    "call_id": c.call_id,
+                    "output": _dumps(tool_call(c.name, args)),
+                })
+        return final_text, items, stop
+
+    def _continue_responses(self, *, client, model, transcript, ask, usage, max_tokens):
+        items = list(transcript) + [{"role": "user", "content": ask}]
+        resp = self._responses_create(
+            client, model=model, input=items, tools=self._responses_tools(),
+            tool_choice="auto", max_output_tokens=max_tokens)
+        self._acc_responses(usage, resp)
+        return getattr(resp, "output_text", "") or ""
+
+    # --- dispatch -----------------------------------------------------------
+    def run(self, *, client, model, system, prompt, tool_call, deadline, usage,
+            max_iters, max_tokens):
+        kw = dict(client=client, model=model, system=system, prompt=prompt,
+                  tool_call=tool_call, deadline=deadline, usage=usage,
+                  max_iters=max_iters, max_tokens=max_tokens)
+        if model in RESPONSES_API_MODELS:
+            return self._run_responses(**kw)
+        try:
+            return self._run_chat(**kw)
+        except Exception as exc:  # noqa: BLE001
+            if not _needs_responses_api(exc):
+                raise
+            RESPONSES_API_MODELS.add(model)
+            return self._run_responses(**kw)
+
+    def continue_once(self, *, client, model, system, transcript, ask, usage, max_tokens):
+        if model in RESPONSES_API_MODELS:
+            return self._continue_responses(
+                client=client, model=model, transcript=transcript, ask=ask,
+                usage=usage, max_tokens=max_tokens)
+        return self._continue_chat(
+            client=client, model=model, system=system, transcript=transcript,
+            ask=ask, usage=usage, max_tokens=max_tokens)
 
 
 # --------------------------------------------------------------------------

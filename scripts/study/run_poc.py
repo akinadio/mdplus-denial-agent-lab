@@ -28,6 +28,56 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
+# api_runner's tool layer imports policy_eval.webtools, which lives under
+# scripts/, so that directory has to be importable too.
+sys.path.insert(0, str(ROOT / "scripts"))
+
+# Keys live in gitignored env files beside the repo root, never in argv and
+# never in the run records. openai.env is separate from .env purely so it can
+# be edited without touching the working file.
+#
+# Parsed here rather than via python-dotenv: that package is not installed on
+# every machine that runs this, and a missing import silently loaded nothing,
+# which reported both keys absent when one was present.
+def _load_env_files():
+    import os as _os
+    for name in ("openai.env", ".env"):
+        f = ROOT / name
+        if not f.exists():
+            continue
+        for line in f.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            if line.startswith("export "):
+                line = line[7:]
+            if "=" not in line:
+                continue
+            k, _, v = line.partition("=")
+            k, v = k.strip(), v.strip().strip('"').strip("'")
+            if k and v and k not in _os.environ:
+                _os.environ[k] = v
+
+
+_load_env_files()
+
+
+PLACEHOLDERS = {"PASTE_YOUR_KEY_HERE", "sk-your-key-here", "", "changeme"}
+
+
+def _key_status():
+    """True only for a key that is actually usable.
+
+    The placeholder in openai.env is a non-empty string, so a plain truthiness
+    check reports it as set and the run fails later with a 401 instead of
+    here. Reject the placeholder and anything too short to be a real key.
+    """
+    import os as _os
+    out = {}
+    for k in ("ANTHROPIC_API_KEY", "OPENAI_API_KEY"):
+        v = (_os.environ.get(k) or "").strip().strip('"').strip("'")
+        out[k] = bool(v) and v not in PLACEHOLDERS and len(v) > 20
+    return out
 STUDY = ROOT / "study"
 RUNS = STUDY / "poc_runs"
 PLAT = ROOT / "data" / "policy_platform"
@@ -128,7 +178,7 @@ def run_ortho(case, model):
 def run_llm(system, case, out_dir):
     from synthetic_harness.api_runner import (_resolve, _make_client, _ToolRunner,
                                               MAX_TOOL_ITERATIONS, MAX_OUTPUT_TOKENS)
-    from synthetic_harness.evaluation import extract_json
+    from synthetic_harness.agent_runner import extract_json
     provider_name, model = SYSTEMS[system]
     prov, model = _resolve(provider_name, model)
     if not prov.available():
@@ -184,7 +234,14 @@ def main():
             else:
                 done += 1
                 print(f"  {rid} {s:13s} ok")
-    (STUDY / "poc_unblinding.json").write_text(json.dumps(mapping, indent=1))
+    # Arms are run separately (the ChatGPT arm needs a machine that can reach
+    # api.openai.com), so the key must accumulate instead of being replaced.
+    keyfile = STUDY / "poc_unblinding.json"
+    if keyfile.exists():
+        prior = json.loads(keyfile.read_text())
+        prior.update(mapping)
+        mapping = prior
+    keyfile.write_text(json.dumps(mapping, indent=1))
     print(f"\n{done} runs completed, {skipped} skipped/errored -> {RUNS}")
 
 
