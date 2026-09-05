@@ -15,7 +15,12 @@ if [ ! -f openai.env ]; then
   echo "openai.env is missing. Put OPENAI_API_KEY=\"sk-...\" in it and re-run."
   exit 1
 fi
-set -a; . ./openai.env; set +a
+set -a
+. ./openai.env
+# .env holds ANTHROPIC_API_KEY and WEB_SEARCH_API_KEY; the preflight below
+# needs the search key in the environment, not just inside run_poc.py.
+[ -f .env ] && . ./.env
+set +a
 
 case "${OPENAI_API_KEY:-}" in
   ""|PASTE*|sk-your-key*) echo "OPENAI_API_KEY still looks like a placeholder."; exit 1;;
@@ -40,6 +45,23 @@ for f in glob.glob("study/poc_runs/*/result.json"):
         shutil.rmtree(pathlib.Path(f).parent); n += 1
 print(f"  cleared {n} failed run(s); {len(glob.glob('study/poc_runs/*/result.json'))} good runs kept")
 PY
+
+# Check the search budget BEFORE spending 20 minutes of model time. The last
+# run died on a $5 monthly cap partway through and scored the rest blind.
+echo
+echo "== preflight: is the search backend answering? =="
+python3 - <<'PF' || { echo; echo "Fix the search key or budget first. Nothing else was run."; exit 1; }
+import sys, pathlib
+sys.path.insert(0, str(pathlib.Path.cwd() / "scripts"))
+from policy_eval.webtools import web_search
+r = web_search("UnitedHealthcare surgery of the knee medical policy", count=3)
+err = r.get("error")
+if err:
+    print("  SEARCH IS DOWN:", str(err)[:200]); sys.exit(1)
+if not r.get("result_count"):
+    print("  search returned zero results with no error -- stopping anyway"); sys.exit(1)
+print(f"  ok, {r['result_count']} results")
+PF
 
 echo
 echo "== smoke test: one letter =="
