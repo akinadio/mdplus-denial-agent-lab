@@ -53,8 +53,8 @@ echo "== preflight: is the search backend answering? =="
 python3 - <<'PF' || { echo; echo "Fix the search key or budget first. Nothing else was run."; exit 1; }
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path.cwd() / "scripts"))
-from policy_eval.webtools import web_search
-r = web_search("UnitedHealthcare surgery of the knee medical policy", count=3)
+from policy_eval.webtools import search
+r = search("UnitedHealthcare surgery of the knee medical policy", count=3)
 err = r.get("error")
 if err:
     print("  SEARCH IS DOWN:", str(err)[:200]); sys.exit(1)

@@ -1,0 +1,34 @@
+Stop abstaining when we are holding the payer's own public policy
+
+The pilot put ChatGPT and OrthoAppeals on the same 60 denial letters. On six
+UnitedHealthcare letters ChatGPT returned surgery-knee.pdf, surgery-shoulder.pdf
+and spinal-fusion-decompression.pdf -- real, current, public UHC policies that
+name the denied code -- and OrthoAppeals told the patient no criteria exist.
+The scorer recorded ChatGPT hallucinating. It had not. We had the document, its
+URL sitting in the row, and we handed the patient nothing.
+
+The research was not wrong: those policies do send medical-necessity criteria
+to InterQual. The vocabulary was wrong. "NO PUBLIC CRITERIA" was doing two jobs
+-- the payer publishes nothing at all, and the payer publishes the policy but
+not the criteria -- and the app treated both as silence.
+
+  - New status DOCUMENT PUBLIC, CRITERIA VENDOR-HELD, and code D in the
+    coverage build. 896 rows, 13% of the directory, move from telling the
+    patient nothing to handing them their plan's policy plus the route to
+    demand the criteria. A row qualifies only if the document's own audience
+    matches the row's plan type.
+  - 368 UnitedHealthcare commercial rows were pointed at UHC's MEDICARE
+    ADVANTAGE policies (MMP052.13, MMP089.18) by the 2026-08-26 catalog sweep.
+    Serving an MA document to a commercial member is the defect we already
+    fixed once for HCSC portals. Repointed from the Oxford rows, which still
+    carried the correct commercial mapping.
+  - Third study stratum, vendor_held, with gold behavior cite_and_route.
+    Correct requires both halves: the document alone leaves the patient holding
+    a policy that lacks the standard they were judged against; the route alone
+    withholds a document we have.
+
+The migration is scripted, not hand-edited: scripts/policy_platform/
+fix_vendor_held_docs.py, with the pre-change CSV kept beside it.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01Aiw93QsZZztot1nhJhBDLx

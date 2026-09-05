@@ -204,6 +204,18 @@ def _letter_context(result: dict[str, Any], patient_submission: str | None) -> s
             "relied on or the exact public location of the internal criteria "
             "used.")
 
+    # A letter with no deadline and no address is not sendable. The retrieval
+    # step finds both; before 2026-09-05 neither was passed through to here, so
+    # every drafted letter silently omitted them.
+    deadline = (result.get("appeal_deadline") or "").strip()
+    route = (result.get("submission_route") or "").strip()
+    if deadline or route:
+        lines.append("\nDEADLINE AND SUBMISSION (state both in the letter)")
+        if deadline:
+            lines.append(f"- Appeal must be received by: {deadline}")
+        if route:
+            lines.append(f"- Send it to: {route}")
+
     lines.append("\nGOVERNING POLICY (cite this, and only this)")
     if source.get("title"):
         lines.append(f"- Title: {source['title']}")

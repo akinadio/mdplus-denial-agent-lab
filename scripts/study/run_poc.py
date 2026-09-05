@@ -235,12 +235,15 @@ def run_llm(system, case, out_dir):
     runner = _ToolRunner(out_dir / "tools.jsonl", case["case_id"])
     usage = {"input_tokens": 0, "output_tokens": 0}
     t0 = time.time()
-    text, _, stop = prov.run(
+    text, transcript, stop = prov.run(
         client=client, model=model, system=SYSTEM_PROMPT,
         prompt=case["letter_text"] + "\n\n---\n\n" + INSTRUCTION,
         tool_call=_guarded(runner.call), deadline=t0 + 900, usage=usage,
         max_iters=MAX_TOOL_ITERATIONS, max_tokens=MAX_OUTPUT_TOKENS)
     return {"answer": extract_json(text) or {}, "raw_text": text,
+            # Phase 2 continues this same chat to ask for the appeal letter, so
+            # the transcript has to survive the run.
+            "transcript": transcript,
             "stop_reason": stop, "usage": usage, "model": model,
             "elapsed_s": round(time.time() - t0, 1)}
 
