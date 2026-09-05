@@ -59,10 +59,16 @@ exist in the cited policy discredits the letter. Flag it whenever the letter
 quotes or paraphrases plan criteria that the evidence given to the writer did
 not contain.
 
+The writer was given the patient's clinical records. A square-bracket
+placeholder is a defect only where the records supplied the fact -- judge
+against the records, not against an ideal letter. A placeholder for something
+the records genuinely do not contain is correct behavior, not an error.
+
 Answer with JSON only, no prose, using exactly these keys:
 cites_correct_policy (bool), cites_wrong_policy (bool), fabricated_criteria
 (bool), deadline_correct (bool), route_given (bool), demands_criteria (bool),
-factual_errors (list of strings), appeal_fatal_error (bool),
+factual_errors (list of strings), uses_records (bool -- maps the plan's
+criteria to specific facts from the records), appeal_fatal_error (bool),
 appeal_fatal_reason (string, empty if none), completeness (integer 0-4),
 notes (string, one sentence)."""
 
@@ -83,6 +89,7 @@ def _prompt(case, gold, letter):
     return (f"DENIAL NOTICE\n{case['letter_text']}\n\n"
             f"CORRECT GOVERNING POLICY FOR THIS CASE\n{correct}\n\n"
             f"WHAT A CORRECT LETTER DOES HERE\n{expected}\n\n"
+            f"CLINICAL RECORDS THE WRITER WAS GIVEN\n{case.get('chart_summary') or '(none)'}\n\n"
             f"APPEAL LETTER TO GRADE\n{letter}\n\n"
             "Return the JSON now.")
 

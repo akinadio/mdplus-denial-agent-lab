@@ -77,6 +77,16 @@ def stage_cases():
     check(not drift, "gold key matches the directory it will be scored against",
           "; ".join(drift[:3]) + (f" (+{len(drift)-3} more)" if len(drift) > 3 else ""))
 
+    # Without a chart, both arms write [placeholder] letters and the grader
+    # marks them unfinished -- measuring the study's missing inputs, not either
+    # system. Six of the first eleven appeal-fatal letters were that artifact.
+    charted = [c for c in cases if (c.get("chart_summary") or "").strip()]
+    check(len(charted) == len(cases), f"every case carries a chart ({len(charted)}/{len(cases)})")
+    if charted:
+        ex = charted[0]["chart_summary"]
+        for needed in ("Conservative care", "Imaging", "Function"):
+            check(needed in ex, f"chart states {needed.lower()}")
+
     behaviors = {g["correct_behavior"] for g in gold.values()}
     check(behaviors == {"cite_document", "cite_and_route", "abstain_and_route"},
           f"all three gold behaviors present: {sorted(behaviors)}")
@@ -203,6 +213,15 @@ def stage_letters(cases, gold):
     check(shaped["retrieval"]["selected_source"]["url"] in stub.seen_prompt,
           "the governing policy url reaches the letter prompt")
 
+    # Both arms must receive the identical chart, or it is not a comparison.
+    from run_letters_poc import _ask
+    stub_c = _StubAnthropic("letter")
+    generate_appeal_letter(shaped, client=stub_c, sender="patient",
+                           patient_submission=c.get("chart_summary"))
+    marker = "Conservative care"
+    check(marker in stub_c.seen_prompt, "ortho letter prompt carries the chart")
+    check(marker in _ask(c), "chatgpt letter ask carries the chart")
+
     # An arm that abstained still owes the patient a letter; dropping those
     # would keep each arm's weakest cases out of the graded set.
     c_np = next(x for x in cases if x["stratum"] == "no_policy")
@@ -216,9 +235,17 @@ def stage_letters(cases, gold):
     import grade_letters_poc as G
     check("who or what wrote" in G.SYSTEM, "grader prompt tells the model it is blind")
     prompt = G._prompt(c, gold[c["case_id"]], "a letter")
-    for leak in ("ortho", "chatgpt", "OrthoAppeals", "GPT"):
-        check(leak.lower() not in prompt.lower(), f"grader prompt does not leak {leak!r}")
+    # Match the system names, not any word that contains them -- a chart that
+    # says "orthopedic surgery" is not a leak, and a check that thinks it is
+    # will get switched off, which is worse than no check.
+    import re as _re
+    for leak in ("ortho-sonnet", "ortho-opus", "orthoappeals", "chatgpt",
+                 "gpt-5", "openai", "anthropic", "claude"):
+        hit = _re.search(r"(?<![a-z])" + _re.escape(leak) + r"(?![a-z])", prompt.lower())
+        check(hit is None, f"grader prompt does not leak {leak!r}",
+              prompt[max(0, hit.start()-60):hit.end()+60] if hit else "")
     check(gold[c["case_id"]]["policy_url"] in prompt, "grader is given the correct policy")
+    check("Conservative care" in prompt, "grader is given the same chart the writer had")
 
     from synthetic_harness.agent_runner import extract_json
     sample = json.dumps({
@@ -227,7 +254,10 @@ def stage_letters(cases, gold):
         "demands_criteria": True, "factual_errors": [], "appeal_fatal_error": False,
         "appeal_fatal_reason": "", "completeness": 4, "notes": "fine"})
     parsed = extract_json(sample) or {}
-    check(set(parsed) >= {"appeal_fatal_error", "completeness", "fabricated_criteria"},
+    sample = json.loads(sample); sample["uses_records"] = True
+    sample = json.dumps(sample); parsed = extract_json(sample) or {}
+    check(set(parsed) >= {"appeal_fatal_error", "completeness", "fabricated_criteria",
+                          "uses_records"},
           "a well-formed grade parses")
 
 

@@ -34,10 +34,17 @@ from run_poc import (SYSTEMS, STUDY, RUNS, _load_env_files,  # noqa: E402
 
 LETTER_ASK = (
     "Now write the appeal letter the patient should send, using what you just "
-    "found. Quote the plan's own criteria and answer the stated denial reason. "
-    "Use square-bracket placeholders for anything about this patient's chart "
-    "that you were not given. Return the letter only."
+    "found. Quote the plan's own criteria and answer the stated denial reason, "
+    "mapping each criterion to the records below. Use square-bracket "
+    "placeholders only for details the records do not contain. Return the "
+    "letter only."
 )
+
+
+def _ask(case):
+    """Both arms get the identical chart. Anything less is not a comparison."""
+    chart = (case.get("chart_summary") or "").strip()
+    return LETTER_ASK + (f"\n\n{chart}" if chart else "")
 
 
 def _ortho_result(case, ans):
@@ -76,7 +83,8 @@ def letter_ortho(case, res, model):
     from synthetic_harness.appeal_letter import generate_appeal_letter
     ans = res.get("answer") or {}
     t0 = time.time()
-    out = generate_appeal_letter(_ortho_result(case, ans), model=model, sender="patient")
+    out = generate_appeal_letter(_ortho_result(case, ans), model=model, sender="patient",
+                                 patient_submission=case.get("chart_summary"))
     out["elapsed_s"] = round(time.time() - t0, 1)
     # An arm that abstained still owes the patient a letter -- one that demands
     # the criteria. Withholding the letter here would flatter the arm by
@@ -101,7 +109,7 @@ def letter_chatgpt(case, res, model):
     t0 = time.time()
     if transcript:
         text = prov.continue_once(client=client, model=model, system="",
-                                  transcript=transcript, ask=LETTER_ASK,
+                                  transcript=transcript, ask=_ask(case),
                                   usage=usage, max_tokens=MAX_OUTPUT_TOKENS)
     else:
         # Phase 1 did not keep the transcript for this run; hand the model its
@@ -112,7 +120,7 @@ def letter_chatgpt(case, res, model):
             client=client, model=model, system="",
             transcript=[{"role": "user", "content": case["letter_text"]},
                         {"role": "assistant", "content": prior}],
-            ask=LETTER_ASK, usage=usage, max_tokens=MAX_OUTPUT_TOKENS)
+            ask=_ask(case), usage=usage, max_tokens=MAX_OUTPUT_TOKENS)
     return {"letter_markdown": (text or "").strip(), "model": model,
             "usage": usage, "elapsed_s": round(time.time() - t0, 1)}
 
