@@ -108,7 +108,7 @@ def chart(case, rng) -> str:
 
 
 def main() -> int:
-    p = STUDY / "poc_cases.json"
+    p = STUDY / "cases.json"
     doc = json.loads(p.read_text())
     rng = random.Random(SEED)
     for c in sorted(doc["cases"], key=lambda x: x["case_id"]):   # deterministic

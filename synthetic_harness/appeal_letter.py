@@ -152,6 +152,54 @@ SENDER_SYSTEM_PROMPTS = {
 LETTER_SYSTEM_PROMPT = SENDER_SYSTEM_PROMPTS["provider"]
 
 
+def _ground_citations(result: dict[str, Any]) -> dict[str, Any]:
+    """Verify every citation against the payer's own document before the
+    letter can quote it.
+
+    Grading 120 letters on 2026-09-05 found invented criteria in quotation marks
+    on 47% of in-library cases. The model was not at fault: it was handed our
+    internal research notes under the heading "criteria" and told to quote the
+    plan. So the document is read here, and:
+
+      readable   -> a caller excerpt is kept only if it is actually in the text;
+                    the document's own criteria sentences are added, verbatim;
+                    everything else is dropped and counted.
+      unreadable -> caller excerpts are kept but marked UNVERIFIED. The prompt
+                    then allows them to be paraphrased and attributed, never
+                    placed in quotation marks. Throwing real evidence away
+                    because a PDF timed out would be its own kind of wrong.
+    """
+    from synthetic_harness.policy_text import criteria_for, verify_quote
+
+    retrieval = result.get("retrieval") or {}
+    source = retrieval.get("selected_source") or {}
+    url = (source.get("url") or "").strip()
+    given = [c for c in (retrieval.get("citations") or []) if (c or {}).get("excerpt")]
+    if not url:
+        return result
+    cpt = str((result.get("case_identification") or {}).get("cpt") or "")
+    got = criteria_for(url, cpt)
+    text = got.get("text") or ""
+    grounded = dict(result)
+
+    if not text:
+        cites = [dict(c, verified=False) for c in given]
+        grounded["_criteria_source"] = "unverified"
+    else:
+        kept = [dict(c, verified=True) for c in given if verify_quote(c["excerpt"], text)]
+        seen = {c["excerpt"][:80].lower() for c in kept}
+        for q in got["quotes"]:
+            if q[:80].lower() not in seen:
+                kept.append({"claim": "plan criteria", "reference": source.get("title", ""),
+                             "excerpt": q, "verified": True})
+        cites = kept
+        grounded["_criteria_source"] = got["source"]
+        grounded["_citations_dropped"] = len(given) - sum(
+            1 for c in given if verify_quote(c["excerpt"], text))
+    grounded["retrieval"] = dict(retrieval, citations=cites)
+    return grounded
+
+
 def _letter_context(result: dict[str, Any], patient_submission: str | None) -> str:
     ci = result.get("case_identification") or {}
     pa = result.get("policy_analysis") or {}
@@ -224,12 +272,23 @@ def _letter_context(result: dict[str, Any], patient_submission: str | None) -> s
     if source.get("effective_date"):
         lines.append(f"- Effective date: {source['effective_date']}")
 
-    lines.append("\nPOLICY CITATIONS (the plan's own language)")
-    for i, c in enumerate(citations, 1):
-        claim = (c or {}).get("claim", "")
-        ref = (c or {}).get("reference", "")
-        excerpt = (c or {}).get("excerpt", "")
-        lines.append(f"{i}. Claim: {claim}\n   Reference: {ref}\n   Excerpt: \"{excerpt}\"")
+    verified = [c for c in citations if (c or {}).get("verified", True)]
+    unverified = [c for c in citations if not (c or {}).get("verified", True)]
+    lines.append("\nPOLICY CITATIONS (the plan's own language, verbatim -- these may be quoted)")
+    if not verified:
+        lines.append("(none -- nothing here may be placed in quotation marks. Do not "
+                     "quote the plan anywhere in this letter. Say that the plan's "
+                     "criteria have not been quoted and ask for them in writing.)")
+    for i, c in enumerate(verified, 1):
+        lines.append(f"{i}. Claim: {c.get('claim', '')}\n   Reference: {c.get('reference', '')}"
+                     f"\n   Excerpt: \"{c.get('excerpt', '')}\"")
+    if unverified:
+        lines.append("\nUNVERIFIED CITATIONS (the policy could not be read to confirm "
+                     "these -- you may paraphrase and attribute them, e.g. 'the policy "
+                     "addresses...', but NEVER put them in quotation marks or present "
+                     "them as the plan's exact words)")
+        for i, c in enumerate(unverified, 1):
+            lines.append(f"{i}. {c.get('claim', '')}: {c.get('excerpt', '')}")
 
     if patient_submission:
         lines.append("\nPATIENT-PROVIDED CONTEXT (use only what is clearly stated)")
@@ -262,15 +321,26 @@ def generate_appeal_letter(
             return {"error": "ANTHROPIC_API_KEY is not set; cannot draft a letter"}
         client = _client(timeout)
 
+    result = _ground_citations(result)
     context = _letter_context(result, patient_submission)
     voice = (
         "as the physician's office" if sender == "provider" else "in the patient's own first-person voice"
     )
     user_prompt = (
         f"Draft the appeal letter {voice} from the following retrieved evidence. "
-        "Quote the plan's own criteria and map each to the records. Use square-"
-        "bracket placeholders for any patient- or chart-specific detail you were "
-        "not given.\n\n" + context
+        "Map the plan's criteria to the records.\n\n"
+        "QUOTING RULE, and it is absolute: the only text you may put in "
+        "quotation marks or a block quote, or attribute to the plan, is text "
+        "that appears verbatim from the document in POLICY CITATIONS below. "
+        "Copy it character for character. If POLICY CITATIONS is empty or does "
+        "not cover the denial reason, write the argument in your own words and "
+        "say plainly that the plan has not been quoted -- a reviewer checks "
+        "quoted criteria first, and one sentence that is not in the policy "
+        "discredits the whole letter. Never reconstruct, paraphrase inside "
+        "quotation marks, or invent a policy number, section heading or "
+        "effective date.\n\n"
+        "Use square-bracket placeholders only for patient details the records "
+        "below do not contain.\n\n" + context
     )
     usage = {"input_tokens": 0, "output_tokens": 0}
     try:

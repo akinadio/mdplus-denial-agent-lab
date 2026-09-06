@@ -1,53 +1,63 @@
-# The validation study — how to run it
+# The validation study
 
-Protocol: four arms (GPT flagship, Gemini flagship, Claude flagship, OrthoAppeals
-production), 200 synthetic denial letters, primary endpoint citation validity
-(exists / right payer / right code / current — all four must pass).
+Does OrthoAppeals find the right policy and write a usable appeal more often
+than a free chatbot? Two arms, one case set, two phases.
 
-## Pipeline
+**Arms.** ChatGPT (GPT-5.6 Luna, the free-tier model, with real web search and
+fetch) and OrthoAppeals (the production path on Sonnet). One OrthoAppeals arm:
+retrieval is a directory lookup with no model call, so two models would return
+identical rows.
 
-```bash
-python3 scripts/study/build_cases.py          # 200 cases, 120/40/40, deterministic
-export STUDY_BLIND_SALT="<random string, keep out of the repo>"
-export ANTHROPIC_API_KEY=... OPENAI_API_KEY=... GOOGLE_API_KEY=...
-python3 scripts/study/run_arms.py --arms all --limit 5    # pilot first
-python3 scripts/study/run_arms.py --arms all --resume     # full run
-python3 scripts/study/score.py                # offline pass, blinded
-# ...live-fetch pass + human pass on every run scored needs_human...
-python3 scripts/study/analyze.py              # unblind, McNemar, Bonferroni
+**Cases.** Synthetic denial letters, each with a chart summary in the shape of
+a prior-auth packet, in three strata:
+
+| stratum | the payer... | correct behavior |
+|---|---|---|
+| `in_library` | publishes the policy, with criteria | cite the document |
+| `vendor_held` | publishes the policy, but its criteria live in InterQual/MCG | cite the document AND route for the criteria |
+| `no_policy` | publishes nothing for this code | say so, and route for the criteria |
+
+The pilot is 30 / 15 / 15. The full run changes `WANT` in `build_cases.py`.
+
+**Phase 1, retrieval.** Which document governs this denial? Scored against the
+document, not the URL string: the same guideline number from the same
+publisher, or a document that names the code and states criteria for it, is
+correct (`equivalence.py`). That is what makes our own arm falsifiable -- the
+gold key comes from the directory the tool reads.
+
+**Phase 2, letters.** Each arm drafts the appeal from its own phase-1 answer,
+with the identical chart. A blinded grader scores each letter; every quotation
+is checked mechanically against the fetched policy text (`quote_check.py`),
+because a quote is either in the document or it is not.
+
+## Running it
+
+```
+bash STUDY.command check      # free, one second: is the pipeline sound?
+bash STUDY.command fixes      # free: read the policies, rebuild the app data
+bash STUDY.command retrieve   # paid: phase 1
+bash STUDY.command letters    # paid: phase 2
 ```
 
-## What lives where
+Every paid step runs `check` first and stops if it fails. Nothing is spent on
+a pipeline the dry run has not passed -- every bug the first pilot found the
+expensive way is a check in `dryrun.py` now.
 
-| File | Who may read it |
+## Files
+
+| file | what |
 |---|---|
-| `cases_v1.json` | the arms. Denial letters only — carries no titles, no URLs; a test proves it. |
-| `gold_key_v1.json` | graders only. One verified document per case, pinned to the directory. |
-| `runs/run-*/` | blinded outputs. The id encodes the arm only through a salted hash. |
-| `unblinding_map.json` | analyze.py only, after scoring closes. score.py provably never reads it. |
+| `cases.json` | what the arms see: letters, charts, no answers |
+| `gold.json` | what the graders see |
+| `unblinding.json` | run id -> (case, system); `score.py` never reads it |
+| `runs/r-*/` | one directory per run: `result.json`, `tools.jsonl`, `letter.json` |
+| `scores.json`, `letter_grades.json` | phase 1 and phase 2 grades, blind |
+| `_superseded/` | parked runs and the retired v1 pipeline; gitignored |
 
-## Two honesty rules, before anyone quotes a number
+## Before a number goes anywhere
 
-**The OrthoAppeals arm's offline score is circular by construction.** Cases are
-drawn from combinations where the directory holds a verified document, and the
-production tool answers from that same directory — so its offline score of
-100% is a consistency check, not a finding. The number that counts for
-OrthoAppeals comes only after (a) the live-fetch scoring pass confirms every
-cited URL still resolves to the current edition on the study date, and (b) the
-protocol's independent human pass confirms the gold key against the payers'
-own sites. The general-model arms have no such circularity: their citations
-are scored against ground truth they never saw.
-
-**A directory correction invalidates the case set.** `test_study.py` pins every
-gold entry to the current directory row; if a URL is replaced or a status is
-downgraded after cases are built, the tests fail until `build_cases.py` is
-re-run — a study scored against a key we no longer believe is worse than no
-study.
-
-## Still needed before the real run
-
-API keys as server secrets (never in chat or the repo); a decision on which
-exact flagship model IDs the three general arms pin (they are recorded into
-every result file); the research coordinator for the human pass; and the
-live-fetch scoring mode, which is deliberately unimplemented until the study
-actually runs.
+- A Claude model grading letters a Claude model wrote is not a neutral judge.
+  Read a blinded random sample by hand first.
+- One letter was refused by OpenAI's moderation. Decide up front whether a
+  refusal is `no_answer` (what the patient experiences) or excluded.
+- The search budget: ~16 searches per letter. 400 letters needs ~6,300.

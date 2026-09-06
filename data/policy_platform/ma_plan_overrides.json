@@ -1,0 +1,48 @@
+{
+ "recovered": "2026-09-05 from mockups/assets/coverage.js at d0c2861",
+ "rule": "Since 2024 (CMS-4201-F), 42 CFR 422.101(b) requires a Medicare Advantage plan to follow Medicare's own coverage criteria, and any internal criteria it applies where Medicare has none must be publicly accessible. These overrides answer an MA member from the plan's own published MA policy, by plan kind.",
+ "overrides": [
+  {
+   "insurer": "UnitedHealthcare",
+   "cpts": [
+    "23472",
+    "27130",
+    "27446",
+    "27447",
+    "29914"
+   ],
+   "code": "L",
+   "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medadv-mp/joint-procedures.pdf",
+   "policy_title": "UHC Joint Procedures MMP052.13 (Medicare Advantage)",
+   "why": "UHC's own public Medicare Advantage policy lists this code and states 'Medicare does not have a National Coverage Determination' -- LCDs/LCAs govern. The commercial answer (InterQual, proprietary) is wrong for an MA member.",
+   "evidence": "Medicare does not have a National Coverage Determination"
+  },
+  {
+   "insurer": "UnitedHealthcare",
+   "cpts": [
+    "72141",
+    "72148",
+    "73221",
+    "73721"
+   ],
+   "code": "A",
+   "policy_url": "https://www.uhcprovider.com/en/prior-auth-advance-notification/radiology-prior-authorization.html",
+   "policy_title": "UHC Radiology Prior Authorization and Notification (MA/D-SNP",
+   "why": "UHC's radiology page states plainly: 'For Medicare Advantage and Dual Special Needs Plan (D-SNP) benefit plans, prior authorization is not required for a CT, MRI or MRA.' An MA member whose MRI was denied should quote that sentence back.",
+   "evidence": "For Medicare Advantage and Dual Special Needs Plan (D-SNP) benefit plans, prior authorization is not required for a CT, MRI or MRA."
+  },
+  {
+   "insurer": "UnitedHealthcare",
+   "cpts": [
+    "22551",
+    "22612",
+    "63030"
+   ],
+   "code": "L",
+   "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medadv-mp/spine-procedures.pdf",
+   "policy_title": "UHC Spine Procedures MMP089.18 (Medicare Advantage)",
+   "why": "UHC's public MA policy lists this code: 'Medicare does not have an NCD for lumbar spine surgery. LCDs/LCAs exist and compliance with these policies is required where applicable.'",
+   "evidence": "Medicare does not have an NCD for lumbar spine surgery. LCDs/LCAs exist and compliance with these policies is required where applicable."
+  }
+ ]
+}

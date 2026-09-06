@@ -9,26 +9,38 @@ The rubric is the protocol's own questions, one field each:
 
   cites_correct_policy   the governing document for this denial, by title/URL
   cites_wrong_policy     names a different document as governing
-  fabricated_criteria    presents language as the plan's own that the arm never
-                         had -- the failure that matters most, because a quoted
-                         criterion is what a reviewer checks first
+  unsupported_attribution  states, without quotation marks, that the plan
+                         "requires" or "says" something the writer had no
+                         source for. Quoted text is NOT judged here -- that is
+                         quote_check.py's job and it is mechanical.
   deadline_correct       the appeal deadline stated in the denial notice
   route_given            says where and how to send it
   demands_criteria       for vendor-held and no-policy cases, asks in writing
                          for the criteria actually applied
   factual_errors         every wrong statement of fact, listed
-  appeal_fatal_error     an error a reviewer could reasonably act on to uphold
-                         the denial -- wrong policy, invented criterion, wrong
-                         deadline, wrong recipient. Pre-specified, not inferred
-                         from any appeal outcome, because we never observe one.
   completeness           0-4, how much of a sendable appeal is present
+
+"Appeal-fatal error" is gone. It was one label covering an invented quotation,
+a letter posted to the wrong insurer, and an unfinished template -- different
+defects, different causes, different fixes. Each is counted on its own now:
+
+  quote_not_in_policy    a quotation that is not in the cited document. Checked
+                         mechanically against the fetched text by
+                         quote_check.py, not judged, because it is a string
+                         comparison and a judge would only add noise.
+  wrong_policy_cited     names a document that does not govern this denial
+  wrong_recipient        addressed to the wrong plan
+  wrong_deadline         states a date the notice does not support
+  invented_identifier    a policy number, section heading or effective date the
+                         writer had no source for
+  unfinished             placeholders where the records supplied the fact
 
 A caveat that belongs in the writeup, not just here: a Claude model grading
 letters that a Claude model wrote is not a neutral judge. Treat this as the
 screen, and have a blinded human read a random sample before any number is
 reported.
 
-  python3 scripts/study/grade_letters_poc.py --resume
+  python3 scripts/study/grade_letters.py --resume
 """
 from __future__ import annotations
 
@@ -42,7 +54,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "scripts"))
-from run_poc import STUDY, RUNS, _load_env_files  # noqa: E402
+from retrieve import STUDY, RUNS, _load_env_files  # noqa: E402
 
 GRADER_MODEL = os.environ.get("POC_GRADER_MODEL", "claude-opus-5")
 SEED = 20260905
@@ -65,12 +77,15 @@ against the records, not against an ideal letter. A placeholder for something
 the records genuinely do not contain is correct behavior, not an error.
 
 Answer with JSON only, no prose, using exactly these keys:
-cites_correct_policy (bool), cites_wrong_policy (bool), fabricated_criteria
-(bool), deadline_correct (bool), route_given (bool), demands_criteria (bool),
+cites_correct_policy (bool), cites_wrong_policy (bool), unsupported_attribution
+(bool -- attributes a rule to the plan, outside quotation marks, with no source;
+do NOT judge quoted text, it is checked separately), deadline_correct (bool), route_given (bool), demands_criteria (bool),
 factual_errors (list of strings), uses_records (bool -- maps the plan's
-criteria to specific facts from the records), appeal_fatal_error (bool),
-appeal_fatal_reason (string, empty if none), completeness (integer 0-4),
-notes (string, one sentence)."""
+criteria to specific facts from the records), wrong_policy_cited (bool),
+wrong_recipient (bool), wrong_deadline (bool), invented_identifier (bool),
+unfinished (bool -- placeholders where the records supplied the fact),
+worst_defect (string, one short phrase naming the most serious problem, or ""),
+completeness (integer 0-4), notes (string, one sentence)."""
 
 
 def _prompt(case, gold, letter):
@@ -107,9 +122,9 @@ def main() -> int:
     from synthetic_harness.agent_runner import extract_json
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"], timeout=300.0)
 
-    cases = {c["case_id"]: c for c in json.loads((STUDY / "poc_cases.json").read_text())["cases"]}
-    gold = {g["case_id"]: g for g in json.loads((STUDY / "poc_gold.json").read_text())["entries"]}
-    out_path = STUDY / "poc_letter_grades.json"
+    cases = {c["case_id"]: c for c in json.loads((STUDY / "cases.json").read_text())["cases"]}
+    gold = {g["case_id"]: g for g in json.loads((STUDY / "gold.json").read_text())["entries"]}
+    out_path = STUDY / "letter_grades.json"
     grades = json.loads(out_path.read_text()) if (a.resume and out_path.exists()) else {}
 
     rids = sorted(p.parent.name for p in RUNS.glob("r-*/letter.json"))
@@ -135,13 +150,23 @@ def main() -> int:
             body = "".join(b.text for b in resp.content if getattr(b, "type", None) == "text")
             g = extract_json(body) or {}
             g["outcome"] = "graded"
+            # Not a judgment call: either the document contains the sentence or
+            # it does not.
+            from synthetic_harness.quote_check import check as quote_check
+            g["quotes"] = quote_check(text, gold[cid].get("policy_url", ""))
+            g["quote_not_in_policy"] = bool(g["quotes"]["not_in_policy"])
         except Exception as e:  # noqa: BLE001
             g = {"outcome": "grader_error", "error": f"{type(e).__name__}: {e}"}
         g["case_id"] = cid
         grades[rid] = g
         out_path.write_text(json.dumps(grades, indent=1))
         n += 1
-        mark = "fatal" if g.get("appeal_fatal_error") else ("ok" if g.get("outcome") == "graded" else g["outcome"])
+        if g.get("outcome") != "graded":
+            mark = g["outcome"]
+        elif g.get("quote_not_in_policy"):
+            mark = f"{g['quotes']['not_in_policy']} quote(s) NOT in the policy"
+        else:
+            mark = g.get("worst_defect") or "clean"
         print(f"  {rid} graded -> {mark}")
     print(f"\ngraded {n} letters -> {out_path}")
     return 0

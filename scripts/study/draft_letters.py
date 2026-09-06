@@ -12,9 +12,9 @@ appeal_letter.py, ChatGPT by being asked for the letter the way a patient would
 ask -- same chat, same evidence it just found, right or wrong.
 
 One model throughout (Sonnet for OrthoAppeals). Letters land beside the
-retrieval result as letter.json, so grade_letters_poc.py can read them blind.
+retrieval result as letter.json, so grade_letters.py can read them blind.
 
-  python3 scripts/study/run_letters_poc.py --systems all --resume
+  python3 scripts/study/draft_letters.py --systems all --resume
 """
 from __future__ import annotations
 
@@ -29,15 +29,21 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from run_poc import (SYSTEMS, STUDY, RUNS, _load_env_files,  # noqa: E402
+from retrieve import (SYSTEMS, STUDY, RUNS, _load_env_files,  # noqa: E402
                      _directory_row, _load_access, _access_route)
+from synthetic_harness.policy_text import criteria_for  # noqa: E402
 
 LETTER_ASK = (
     "Now write the appeal letter the patient should send, using what you just "
-    "found. Quote the plan's own criteria and answer the stated denial reason, "
-    "mapping each criterion to the records below. Use square-bracket "
-    "placeholders only for details the records do not contain. Return the "
-    "letter only."
+    "found. Answer the stated denial reason and map it to the records below.\n\n"
+    "QUOTING RULE, and it is absolute: the only text you may put in quotation "
+    "marks or attribute to the plan is text you actually retrieved from the "
+    "policy document. If you did not retrieve the policy text, write the "
+    "argument in your own words and say plainly that the plan has not been "
+    "quoted. Never reconstruct or invent policy language, a policy number, a "
+    "section heading or an effective date.\n\n"
+    "Use square-bracket placeholders only for details the records do not "
+    "contain. Return the letter only."
 )
 
 
@@ -49,7 +55,16 @@ def _ask(case):
 
 def _ortho_result(case, ans):
     """Shape a phase-1 directory answer into what the production letter
-    generator expects. Nothing is added that the arm did not find."""
+    generator expects, having first READ the policy.
+
+    The excerpts handed to the letter are lifted verbatim out of the fetched
+    document. Before 2026-09-05 this passed our own internal research note as
+    "criteria", and the letter -- told to quote the plan -- invented language
+    instead. Nothing goes in here that is not in the payer's document."""
+    # Grounding happens inside the production generator now; the study asks for
+    # the same thing here only so the shaped record shows what it will get.
+    got = criteria_for((ans.get("policy_url") or "").strip(), case["cpt"])
+    quotes = got["quotes"]
     return {
         "case_identification": {
             "payer": case["payer"], "plan_name": case["payer"],
@@ -60,7 +75,7 @@ def _ortho_result(case, ans):
         "policy_analysis": {
             "denial_category": case["denial_reason"],
             "apparent_reason": case["denial_reason"],
-            "criteria_at_issue": ans.get("criteria_quotes") or [],
+            "criteria_at_issue": quotes,
         },
         "appeal_deadline": ans.get("appeal_deadline") or case["appeal_deadline"],
         "submission_route": ans.get("submission_route") or "",
@@ -73,7 +88,7 @@ def _ortho_result(case, ans):
             "citations": [
                 {"claim": "plan criteria", "reference": ans.get("policy_title", ""),
                  "excerpt": q}
-                for q in (ans.get("criteria_quotes") or []) if q
+                for q in quotes
             ],
         },
     }
@@ -134,8 +149,8 @@ def main() -> int:
     _load_env_files()
 
     systems = list(SYSTEMS) if a.systems == "all" else [s.strip() for s in a.systems.split(",")]
-    cases = {c["case_id"]: c for c in json.loads((STUDY / "poc_cases.json").read_text())["cases"]}
-    key = json.loads((STUDY / "poc_unblinding.json").read_text())
+    cases = {c["case_id"]: c for c in json.loads((STUDY / "cases.json").read_text())["cases"]}
+    key = json.loads((STUDY / "unblinding.json").read_text())
 
     done = skipped = 0
     for rid, info in key.items():

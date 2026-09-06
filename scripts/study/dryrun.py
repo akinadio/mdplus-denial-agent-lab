@@ -13,7 +13,7 @@ actually wrong. It is not a test of whether the models are any good. It is a
 test of whether the pipeline can carry an answer from one end to the other
 without dropping a field.
 
-  python3 scripts/study/dryrun_poc.py
+  python3 scripts/study/dryrun.py
 
 Exit 0 means the pipeline is sound and a paid run is worth starting.
 """
@@ -48,11 +48,11 @@ def check(ok: bool, what: str, detail: str = "") -> None:
 # --------------------------------------------------------------------------
 def stage_cases():
     print("\n[1] cases and gold key")
-    from run_poc import STUDY
+    from retrieve import STUDY
     import csv
 
-    cases = json.loads((STUDY / "poc_cases.json").read_text())["cases"]
-    gold = {g["case_id"]: g for g in json.loads((STUDY / "poc_gold.json").read_text())["entries"]}
+    cases = json.loads((STUDY / "cases.json").read_text())["cases"]
+    gold = {g["case_id"]: g for g in json.loads((STUDY / "gold.json").read_text())["entries"]}
     check(len(cases) == len(gold), f"every case has a gold entry ({len(cases)} cases, {len(gold)} gold)")
 
     strata = {c["stratum"] for c in cases}
@@ -98,7 +98,7 @@ def stage_cases():
 # --------------------------------------------------------------------------
 def stage_retrieval(cases, gold):
     print("\n[2] retrieval")
-    from run_poc import run_ortho, SYSTEMS, _guarded, SearchBackendDown
+    from retrieve import run_ortho, SYSTEMS, _guarded, SearchBackendDown
 
     by_stratum: dict[str, dict] = {}
     for c in cases:
@@ -120,6 +120,41 @@ def stage_retrieval(cases, gold):
         # The letter cannot state what retrieval never returned.
         check(bool(ans.get("appeal_deadline")), f"ortho carries the deadline on {stratum}")
         check(bool(ans.get("submission_route")), f"ortho carries the route on {stratum}")
+
+    # A browse entry point is not the governing document.
+    import csv as _csv
+    idx = None
+    with (ROOT / "data/policy_platform/app_option_policy_directory.csv").open(newline="") as fh:
+        for r in _csv.DictReader(fh):
+            if r["status"].startswith("VERIFIED (criteria public, no stable link"):
+                idx = r
+                break
+    if idx:
+        fake = {"state": idx["state"], "payer": idx["insurance_company"],
+                "cpt": idx["cpt"], "plan_type": idx["plan_type"],
+                "surgery": idx["surgery"], "appeal_deadline": "2027-01-01",
+                "denial_reason": "conservative_care"}
+        r2 = run_ortho(fake, "dry-run")
+        check(r2["source"] == "policy_index_entry",
+              "an index page is answered as a browse entry point, not the document",
+              r2.get("source", ""))
+        check("click through" in (r2["answer"].get("how_to_obtain_criteria") or ""),
+              "and the patient is told how to reach the real document")
+
+    # Route was a placeholder string for the whole first pilot, so every letter
+    # told the patient nothing about where to send the appeal.
+    from synthetic_harness.policy_text import submission_route
+    for payer, want in (("Cigna", "cigna.com"), ("Aetna", "aetna"),
+                        ("UnitedHealthcare", "uhc.com"),
+                        ("Blue Cross Blue Shield of Michigan", "bcbsm")):
+        got = submission_route(payer).lower()
+        check(want in got, f"real appeal route for {payer}", got[:90])
+    hcsc = submission_route("Blue Cross and Blue Shield of Texas").lower()
+    other = submission_route("Premera Blue Cross").lower()
+    check("bcbstx" in hcsc or "blue access" in hcsc, "an HCSC state gets the HCSC route")
+    check("bcbstx" not in other, "a non-HCSC Blue never gets the HCSC portals", other[:90])
+    check("printed on your denial letter" in submission_route("A Plan That Does Not Exist"),
+          "an unknown payer falls back to the denial letter, never a guessed address")
 
     # The failure that scored 60 blind answers as if they were real.
     class Down(Exception):
@@ -143,32 +178,57 @@ def stage_retrieval(cases, gold):
 def stage_scoring(cases, gold):
     print("\n[3] scoring")
     import importlib
-    sp = importlib.import_module("score_poc") if "scripts/study" in sys.path[0] else None
+    sp = importlib.import_module("score") if "scripts/study" in sys.path[0] else None
     sys.path.insert(0, str(ROOT / "scripts" / "study"))
-    import score_poc  # noqa: E402
+    import score  # noqa: E402
 
     g_in = next(g for g in gold.values() if g["correct_behavior"] == "cite_document")
     g_vh = next(g for g in gold.values() if g["correct_behavior"] == "cite_and_route")
     g_np = next(g for g in gold.values() if g["correct_behavior"] == "abstain_and_route")
 
     right = {"policy_url": g_in["policy_url"], "policy_found": True}
-    check(score_poc.score(right, g_in)["outcome"] == "correct", "in_library: right document scores correct")
-    check(score_poc.score({"policy_url": "https://example.com/x.pdf", "policy_found": True}, g_in)["outcome"]
+    check(score.score(right, g_in)["outcome"] == "correct", "in_library: right document scores correct")
+    # Seed a readable but unrelated document, so "wrong" is a real verdict and
+    # not just "we could not fetch it".
+    from synthetic_harness import policy_text as _PT
+    wrong_url = "https://example.invalid/dryrun-unrelated.pdf"
+    _PT.CACHE.mkdir(parents=True, exist_ok=True)
+    _PT._key(wrong_url).write_text(json.dumps({
+        "url": wrong_url, "status": 200,
+        "text": "Dental Services Policy. Routine cleanings are covered twice per year."}))
+    check(score.score({"policy_url": wrong_url, "policy_found": True}, g_in)["outcome"]
           == "wrong_document", "in_library: wrong document scores wrong")
-    check(score_poc.score({}, g_in)["outcome"] == "no_answer", "in_library: silence scores no_answer")
+    check(score.score({"policy_url": "https://example.invalid/never-fetched.pdf",
+                           "policy_found": True}, g_in)["outcome"] == "cited_unreadable",
+          "a document we cannot read is not silently scored as wrong")
+    check(score.score({}, g_in)["outcome"] == "no_answer", "in_library: silence scores no_answer")
 
     vh_ok = {"policy_url": g_vh["policy_url"], "policy_found": True,
              "how_to_obtain_criteria": "Ask the plan in writing for the criteria."}
-    check(score_poc.score(vh_ok, g_vh)["outcome"] == "correct", "vendor_held: document + route scores correct")
-    check(score_poc.score({"policy_url": g_vh["policy_url"], "policy_found": True}, g_vh)["outcome"]
+    check(score.score(vh_ok, g_vh)["outcome"] == "correct", "vendor_held: document + route scores correct")
+    check(score.score({"policy_url": g_vh["policy_url"], "policy_found": True}, g_vh)["outcome"]
           == "cited_no_route", "vendor_held: document alone is not correct")
-    check(score_poc.score({"policy_found": False, "how_to_obtain_criteria": "ask them"}, g_vh)["outcome"]
+    check(score.score({"policy_found": False, "how_to_obtain_criteria": "ask them"}, g_vh)["outcome"]
           == "no_answer", "vendor_held: route alone is not correct")
+
+    # Exact-string matching was the first pilot's worst measurement error.
+    from equivalence import compare
+    ev_old = "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-11/Cigna_CMM-314%20Hip.pdf"
+    ev_new = "https://www.evicore.com/sites/default/files/clinical-guidelines/2026-04/Cigna_CMM-314%20Hip.pdf"
+    check(compare(ev_new, ev_old, "29914", "Cigna CMM-314")["verdict"] == "equivalent",
+          "a newer edition of the same guideline counts as an equivalent edition")
+    amb_il = "https://www.ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf"
+    amb_nc = "https://www.ambetterhealth.com/content/dam/centene/ambetternc/policies/clinical-policies/CP.MP.114.pdf"
+    check(compare(amb_nc, amb_il, "63030", "CP.MP.114")["verdict"] == "equivalent",
+          "another state's copy of the same policy counts")
+    check(compare("https://example.com/unrelated.pdf", ev_old, "29914",
+                  allow_fetch=False)["verdict"] == "different_document",
+          "an unrelated document still counts as wrong")
 
     np_ok = {"policy_found": False, "how_to_obtain_criteria": "Ask the plan in writing.",
              "notes": "no public criteria"}
-    check(score_poc.score(np_ok, g_np)["outcome"] == "correct", "no_policy: abstain + route scores correct")
-    check(score_poc.score({"policy_url": "https://example.com/made-up.pdf", "policy_found": True}, g_np)["outcome"]
+    check(score.score(np_ok, g_np)["outcome"] == "correct", "no_policy: abstain + route scores correct")
+    check(score.score({"policy_url": "https://example.com/made-up.pdf", "policy_found": True}, g_np)["outcome"]
           == "hallucinated_document", "no_policy: naming a document scores hallucinated")
 
 
@@ -192,9 +252,9 @@ class _StubAnthropic:
 
 def stage_letters(cases, gold):
     print("\n[4] letters and grading")
-    from run_letters_poc import _ortho_result, LETTER_ASK
+    from draft_letters import _ortho_result, LETTER_ASK
     from synthetic_harness.appeal_letter import generate_appeal_letter
-    from run_poc import run_ortho
+    from retrieve import run_ortho
 
     c = next(x for x in cases if x["stratum"] == "in_library")
     res = run_ortho(c, "dry-run")
@@ -214,7 +274,7 @@ def stage_letters(cases, gold):
           "the governing policy url reaches the letter prompt")
 
     # Both arms must receive the identical chart, or it is not a comparison.
-    from run_letters_poc import _ask
+    from draft_letters import _ask
     stub_c = _StubAnthropic("letter")
     generate_appeal_letter(shaped, client=stub_c, sender="patient",
                            patient_submission=c.get("chart_summary"))
@@ -232,7 +292,7 @@ def stage_letters(cases, gold):
     check(not out_np.get("error"), "an abstaining case still produces a letter")
 
     # The grader must be blind, and must be able to parse its own output.
-    import grade_letters_poc as G
+    import grade_letters as G
     check("who or what wrote" in G.SYSTEM, "grader prompt tells the model it is blind")
     prompt = G._prompt(c, gold[c["case_id"]], "a letter")
     # Match the system names, not any word that contains them -- a chart that
@@ -247,42 +307,134 @@ def stage_letters(cases, gold):
     check(gold[c["case_id"]]["policy_url"] in prompt, "grader is given the correct policy")
     check("Conservative care" in prompt, "grader is given the same chart the writer had")
 
+    # The letter must quote the document, and an invented quote must be caught
+    # without a judge. Seed the cache so this costs no network.
+    from synthetic_harness import policy_text as PT
+    from synthetic_harness.quote_check import check as quote_check, quoted_passages
+    fake_url = "https://example.invalid/dryrun-policy.pdf"
+    real = ("Coverage Criteria. Partial knee arthroplasty 27447 is considered "
+            "medically necessary when there is documented failure of at least 12 "
+            "weeks of conservative therapy including supervised physical therapy.")
+    PT.CACHE.mkdir(parents=True, exist_ok=True)
+    PT._key(fake_url).write_text(json.dumps({"url": fake_url, "text": real, "status": 200}))
+
+    check(PT.policy_text(fake_url)["text"] == real, "policy text is cached and read back")
+    found = PT.find_criteria(real, "27447")
+    check(bool(found) and found[0] in real, "criteria are lifted verbatim from the document",
+          str(found[:1]))
+
+    honest = f'The policy states:\n\n> {found[0]}\n'
+    invented = ('The policy states:\n\n> The member must complete six months of '
+                'supervised physical therapy and two injections before surgery.\n')
+    check(len(quoted_passages(honest)) == 1, "a block quote is detected")
+    check(quote_check(honest, fake_url)["not_in_policy"] == 0,
+          "a real quote passes the check")
+    check(quote_check(invented, fake_url)["not_in_policy"] == 1,
+          "an invented quote is caught")
+    check(quote_check(invented, "")["checked"] is False,
+          "with no document, a quote is unverifiable rather than counted as invented")
+
+    # The production generator must ground its own citations: real text when the
+    # document reads, and an explicit "do not quote" when it does not.
+    shaped_g = json.loads(json.dumps(shaped))
+    shaped_g["retrieval"]["selected_source"]["url"] = fake_url
+    shaped_g["retrieval"]["citations"] = [
+        {"claim": "plan criteria", "reference": "x",
+         "excerpt": "SOMETHING WE MADE UP THAT IS NOT IN THE DOCUMENT AT ALL"}]
+    stub_g = _StubAnthropic("letter")
+    generate_appeal_letter(shaped_g, client=stub_g, sender="patient")
+    check(found[0][:60] in stub_g.seen_prompt,
+          "grounding puts the document's own words into the prompt")
+    check("SOMETHING WE MADE UP" not in stub_g.seen_prompt,
+          "grounding drops citations that did not come from the document")
+
+    shaped_n = json.loads(json.dumps(shaped_g))
+    shaped_n["retrieval"]["selected_source"]["url"] = "https://example.invalid/missing.pdf"
+    stub_n = _StubAnthropic("letter")
+    generate_appeal_letter(shaped_n, client=stub_n, sender="patient")
+    check("Do not quote the plan" in stub_n.seen_prompt,
+          "with no readable document, the prompt forbids quoting the plan")
+    check("UNVERIFIED" in stub_n.seen_prompt and "SOMETHING WE MADE UP" in stub_n.seen_prompt,
+          "...but keeps the caller's evidence as unverified rather than discarding it")
+
     from synthetic_harness.agent_runner import extract_json
     sample = json.dumps({
         "cites_correct_policy": True, "cites_wrong_policy": False,
-        "fabricated_criteria": False, "deadline_correct": True, "route_given": True,
+        "unsupported_attribution": False, "deadline_correct": True, "route_given": True,
         "demands_criteria": True, "factual_errors": [], "appeal_fatal_error": False,
         "appeal_fatal_reason": "", "completeness": 4, "notes": "fine"})
     parsed = extract_json(sample) or {}
-    sample = json.loads(sample); sample["uses_records"] = True
-    sample = json.dumps(sample); parsed = extract_json(sample) or {}
-    check(set(parsed) >= {"appeal_fatal_error", "completeness", "fabricated_criteria",
-                          "uses_records"},
+    sample = json.loads(sample)
+    sample.update({"uses_records": True, "wrong_policy_cited": False,
+                   "wrong_recipient": False, "wrong_deadline": False,
+                   "invented_identifier": False, "unfinished": False,
+                   "worst_defect": ""})
+    parsed = extract_json(json.dumps(sample)) or {}
+    check(set(parsed) >= {"completeness", "unsupported_attribution", "uses_records"},
           "a well-formed grade parses")
+
+    # The quoting rule has to actually reach both arms.
+    rule = "verbatim"
+    check(rule in stub.seen_prompt.lower() or "quotation marks" in stub.seen_prompt.lower(),
+          "ortho letter prompt carries the quoting rule")
+    from draft_letters import LETTER_ASK
+    check("quoting rule" in LETTER_ASK.lower(), "chatgpt ask carries the quoting rule")
 
 
 # --------------------------------------------------------------------------
 # 5. keys and budget, before anything is spent
 # --------------------------------------------------------------------------
+def stage_gitignore():
+    print("\n[0] nothing is being silently ignored")
+    import subprocess
+    r = subprocess.run([sys.executable, str(ROOT / "scripts/study/check_gitignore.py")],
+                       capture_output=True, text=True, cwd=ROOT)
+    check(r.returncode == 0, "every data file under data/policy_platform is trackable",
+          r.stdout.strip()[-400:])
+
+
+def stage_dist():
+    """dist/orthoappeal-demo.html inlines coverage.js, submit.js and data.js.
+    Nothing rebuilt it, so the shipped app was serving the pre-2026-09-04 data:
+    no D codes, none of the 896 promoted rows, none of the UHC repoint. A stale
+    build is the one bug a user actually experiences."""
+    print("\n[6] the shipped build matches the sources")
+    dist = (ROOT / "dist" / "orthoappeal-demo.html")
+    if not dist.exists():
+        check(False, "dist build exists")
+        return
+    html = dist.read_text()
+    cov = (ROOT / "mockups" / "assets" / "coverage.js").read_text()
+    payload = cov[cov.index("{"):cov.rindex("}") + 1]
+    check(payload in html, "dist carries the current coverage data",
+          "run scripts/build_demo.py")
+    sub = (ROOT / "mockups" / "assets" / "submit.js").read_text()
+    check(sub[sub.index("{"):sub.rindex("}") + 1] in html,
+          "dist carries the current submission routes", "run scripts/build_demo.py")
+    check("cov.code === 'D'" in html, "dist knows the vendor-held status")
+
+
 def stage_preflight():
     print("\n[5] keys and budget (nothing is called)")
     import os
-    from run_poc import _load_env_files, _key_status
+    from retrieve import _load_env_files, _key_status
     _load_env_files()
     ks = _key_status()
     check(ks.get("ANTHROPIC_API_KEY"), "ANTHROPIC_API_KEY looks like a real key")
     check(ks.get("OPENAI_API_KEY"), "OPENAI_API_KEY looks like a real key")
     check(bool(os.environ.get("WEB_SEARCH_API_KEY")), "WEB_SEARCH_API_KEY is set")
-    print("      (balances are not checked here -- RUN_CHATGPT.command preflights search,\n"
+    print("      (balances are not checked here -- STUDY.command retrieve preflights search,\n"
           "       and the Anthropic balance shows up as a 400 on the first grade)")
 
 
 def main() -> int:
     print("DRY RUN -- no API calls, no spend")
+    stage_gitignore()
     cases, gold = stage_cases()
     stage_retrieval(cases, gold)
     stage_scoring(cases, gold)
     stage_letters(cases, gold)
+    stage_dist()
     stage_preflight()
     print(f"\n{CHECKS - len(FAILURES)}/{CHECKS} checks passed")
     if FAILURES:

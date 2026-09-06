@@ -57,9 +57,6 @@ harness_server.log
 mdplus_denial_agent_lab.egg-info/
 *.egg-info/
 !data/policy_platform/known_citations.json
-study/runs/
-study/unblinding_map.json
-study/scores_v1.json
 
 # OrthoAppeals policy data created after Aug 2026. data/policy_platform/* is
 # ignored wholesale above, so every new file here needs an explicit allow or
@@ -69,15 +66,24 @@ study/scores_v1.json
 !data/policy_platform/app_option_imaging_directory.csv
 !data/policy_platform/criteria_access_directory.json
 !data/policy_platform/appeal_submission_routes.json
+!data/policy_platform/national_submission_routes.json
+!data/policy_platform/hidden_document_audit.json
 !data/policy_platform/ma_plan_overrides.json
 !data/policy_platform/dataqorp_leads.json
 !data/policy_platform/research*/
 !data/policy_platform/research*/*.json
 
 # Study outputs: keep the case sets and keys, never the raw runs.
-study/poc_runs/
-study/poc_unblinding.json
-study/poc_scores.json
+study/runs/
+study/unblinding.json
+study/scores.json
+study/letter_grades.json
 
 # Runs and keys superseded by a rebuild; kept locally for forensics only.
 study/_superseded/
+
+# Fetched policy text, rebuildable from the URLs in the directory.
+data/policy_platform/policy_text_cache/
+# Scratch and backups, never the repo's
+COMMIT_MSG.txt
+data/policy_platform/*.pre-*

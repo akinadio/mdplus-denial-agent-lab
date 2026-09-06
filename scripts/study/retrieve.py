@@ -5,7 +5,6 @@ Three systems, one run per case (Kassam: one comparator first; expand later):
   chatgpt          GPT-5.6 Luna, the model the ChatGPT free tier serves,
                    with the same web_search / http_fetch tools.
   ortho-sonnet     OrthoAppeals pipeline on Sonnet.
-  ortho-opus       OrthoAppeals pipeline on Opus.
 
 Both OrthoAppeals builds share one code path; only the model differs, so any
 gap between them is model, and any gap against ChatGPT on the same Sonnet
@@ -19,8 +18,8 @@ Keys come from the environment as server secrets:
   ANTHROPIC_API_KEY, OPENAI_API_KEY
 Never passed on the command line, never written to disk.
 
-  python3 scripts/study/run_poc.py --systems all
-  python3 scripts/study/run_poc.py --systems ortho-sonnet --limit 3   # dry check
+  python3 scripts/study/retrieve.py --systems all
+  python3 scripts/study/retrieve.py --systems ortho-sonnet --limit 3   # dry check
 """
 from __future__ import annotations
 import argparse, csv, hashlib, json, os, sys, time
@@ -79,13 +78,18 @@ def _key_status():
         out[k] = bool(v) and v not in PLACEHOLDERS and len(v) > 20
     return out
 STUDY = ROOT / "study"
-RUNS = STUDY / "poc_runs"
+RUNS = STUDY / "runs"
 PLAT = ROOT / "data" / "policy_platform"
 
 SYSTEMS = {
     "chatgpt":      ("openai",    os.environ.get("POC_OPENAI_MODEL", "gpt-5.6-luna")),
+    # One OrthoAppeals arm. Policy retrieval is a directory lookup with no
+    # model call, so a second arm on a different model returns identical rows
+    # -- the first pilot ran "ortho-opus" and "ortho-sonnet" and got a table
+    # with two identical lines, which is a property of the design, not a
+    # finding. The model matters when the LETTER is written (phase 2), and
+    # that is where a model comparison belongs if one is wanted.
     "ortho-sonnet": ("anthropic", os.environ.get("POC_SONNET_MODEL", "claude-sonnet-5")),
-    "ortho-opus":   ("anthropic", os.environ.get("POC_OPUS_MODEL",   "claude-opus-5")),
 }
 
 SYSTEM_PROMPT = (
@@ -144,22 +148,62 @@ def _access_route(payer, note, access):
     return {}
 
 
+
+def _route_for(case):
+    """The real appeal route for this payer, not a placeholder."""
+    from synthetic_harness.policy_text import submission_route
+    return submission_route(case["payer"], case.get("plan_type", ""))
+
+
+def _document_criteria(row, cpt):
+    """The plan's own words, read out of the plan's own document."""
+    from synthetic_harness.policy_text import criteria_for
+    return criteria_for(row["policy_url"], cpt)["quotes"]
+
+
 def run_ortho(case, model):
     """The production path, exactly as the app answers it."""
     row = _directory_row(case)
     access = _load_access()
-    if row and row["status"].startswith("VERIFIED") and row["policy_url"].strip():
+    # "VERIFIED (criteria public, no stable link)" is 72 rows whose URL is a
+    # policy INDEX the patient has to browse from, not the governing document.
+    # The page says so correctly; this path did not, and would have cited an
+    # index page as though it were the criteria.
+    NO_STABLE_LINK = "VERIFIED (criteria public, no stable link"
+    if (row and row["status"].startswith("VERIFIED")
+            and not row["status"].startswith(NO_STABLE_LINK)
+            and row["policy_url"].strip()):
         return {"answer": {
             "policy_found": True,
             "policy_title": row["policy_title"], "policy_number": "",
             "policy_url": row["policy_url"], "effective_date": row["effective_date"],
-            "criteria_quotes": [row["note"]],
+            # Our own research note is not the plan's language. Passing it
+            # here as "criteria" is what taught the letter writer to invent
+            # quotations. Real criteria come from the document itself.
+            "criteria_quotes": _document_criteria(row, case["cpt"]),
             "appeal_deadline": case["appeal_deadline"],
-            "submission_route": "per-carrier submission directory",
+            "submission_route": _route_for(case),
             "how_to_obtain_criteria": "",
             "confidence": "high",
             "notes": f"directory hit; status={row['status']}",
         }, "source": "policy_directory", "model": model}
+    if row and row["status"].startswith(NO_STABLE_LINK) and row["policy_url"].strip():
+        return {"answer": {
+            "policy_found": True,
+            "policy_title": row["policy_title"], "policy_number": "",
+            "policy_url": row["policy_url"], "effective_date": row["effective_date"],
+            "criteria_quotes": [],
+            "appeal_deadline": case["appeal_deadline"],
+            "submission_route": _route_for(case),
+            "how_to_obtain_criteria": (
+                "Your plan publishes these criteria but gives the document no "
+                "permanent address. Open the policy list above and click through "
+                "to the policy for your surgery -- that document is what your "
+                "appeal should quote."),
+            "confidence": "high",
+            "notes": f"browse entry point, not a stable document; status={row['status']}",
+        }, "source": "policy_index_entry", "model": model}
+
     # The payer's own policy is public and names the code, but sends criteria to
     # a private vendor tool. Abstaining here withholds a document we are holding
     # -- the pilot caught us doing exactly that on six UnitedHealthcare letters
@@ -172,7 +216,7 @@ def run_ortho(case, model):
             "policy_url": row["policy_url"], "effective_date": row["effective_date"],
             "criteria_quotes": [],
             "appeal_deadline": case["appeal_deadline"],
-            "submission_route": "per-carrier submission directory",
+            "submission_route": _route_for(case),
             "how_to_obtain_criteria": (r.get("how") or
                 "This policy governs your procedure code but sends the medical "
                 "criteria to a private review tool. Ask the plan in writing for "
@@ -187,7 +231,7 @@ def run_ortho(case, model):
         "policy_title": "", "policy_number": "", "policy_url": "",
         "effective_date": "", "criteria_quotes": [],
         "appeal_deadline": case["appeal_deadline"],
-        "submission_route": "per-carrier submission directory",
+        "submission_route": _route_for(case),
         "how_to_obtain_criteria": (r.get("how") or
             "This plan does not publish criteria for this procedure. Ask the "
             "plan in writing for the exact criteria used in your denial."),
@@ -253,7 +297,7 @@ def _save_key(mapping):
     """Arms are run separately (the ChatGPT arm needs a machine that can reach
     api.openai.com), so the unblinding key accumulates instead of being
     replaced. Also called on an aborted run, so a partial arm stays readable."""
-    keyfile = STUDY / "poc_unblinding.json"
+    keyfile = STUDY / "unblinding.json"
     if keyfile.exists():
         prior = json.loads(keyfile.read_text())
         prior.update(mapping)
@@ -269,7 +313,7 @@ def main():
     a = ap.parse_args()
 
     systems = list(SYSTEMS) if a.systems == "all" else [s.strip() for s in a.systems.split(",")]
-    cases = json.loads((STUDY / "poc_cases.json").read_text())["cases"]
+    cases = json.loads((STUDY / "cases.json").read_text())["cases"]
     if a.limit:
         cases = cases[:a.limit]
     salt = os.environ.get("STUDY_BLIND_SALT", "poc")
