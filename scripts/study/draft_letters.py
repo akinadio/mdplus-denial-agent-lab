@@ -54,21 +54,6 @@ def _ask(case):
     return LETTER_ASK + (f"\n\n{chart}" if chart else "")
 
 
-def _notice_fields(text):
-    """Member, ID, dates and reference number, read off the denial notice the
-    same way a person would. Production gets these from extraction; the study's
-    synthetic notices are regular enough to read directly."""
-    import re
-    out = {}
-    for key, pat in (("member_name", r"Member:\s*(.+)"), ("member_id", r"Member ID:\s*(\S+)"),
-                     ("denial_date", r"Date of notice:\s*(\S+)"),
-                     ("reference_number", r"Reference number:\s*(\S+)")):
-        m = re.search(pat, text)
-        if m:
-            out[key] = m.group(1).strip()
-    return out
-
-
 def _ortho_result(case, ans):
     """Shape a phase-1 directory answer into what the production letter
     generator expects, having first READ the policy.
@@ -81,23 +66,21 @@ def _ortho_result(case, ans):
     # the same thing here only so the shaped record shows what it will get.
     got = criteria_for((ans.get("policy_url") or "").strip(), case["cpt"])
     quotes = got["quotes"]
-    return {
+    from synthetic_harness.letter_inputs import enrich
+    from retrieve import _directory_row
+    row = _directory_row(case) or {}
+    return enrich({
         "case_identification": {
             "payer": case["payer"], "plan_name": case["payer"],
             "product_type": case["plan_type"], "state": case["state"],
             "procedure": case["surgery"], "cpt": case["cpt"],
             "denial_language": case["denial_reason"],
-            **_notice_fields(case.get("letter_text", "")),
         },
         "policy_analysis": {
             "denial_category": case["denial_reason"],
             "apparent_reason": case["denial_reason"],
             "criteria_at_issue": quotes,
         },
-        "denial_notice_text": case.get("letter_text", ""),
-        "criteria_request": ans.get("how_to_obtain_criteria") or "",
-        "appeal_deadline": ans.get("appeal_deadline") or case["appeal_deadline"],
-        "submission_route": ans.get("submission_route") or "",
         "retrieval": {
             "selected_source": {
                 "title": ans.get("policy_title", ""),
@@ -110,15 +93,30 @@ def _ortho_result(case, ans):
                 for q in quotes
             ],
         },
-    }
+    }, case.get("letter_text", ""), payer=case["payer"], plan_type=case["plan_type"],
+              directory_note=row.get("note", ""))
 
 
 def letter_ortho(case, res, model):
     from synthetic_harness.appeal_letter import generate_appeal_letter
     ans = res.get("answer") or {}
     t0 = time.time()
-    out = generate_appeal_letter(_ortho_result(case, ans), model=model, sender="patient",
+    shaped = _ortho_result(case, ans)
+    out = generate_appeal_letter(shaped, model=model, sender="patient",
                                  patient_submission=case.get("chart_summary"))
+    # What the writer was actually handed, grounded exactly as the generator
+    # grounds it. The grader reads this; reading the retrieval file instead
+    # showed it a list from before the extractor was fixed, and it flagged
+    # real, supplied excerpts as invented.
+    from synthetic_harness.appeal_letter import _ground_citations
+    gr = _ground_citations(shaped)
+    out["evidence"] = {
+        "policy_title": ans.get("policy_title", ""), "policy_url": ans.get("policy_url", ""),
+        "quotes": [c["excerpt"] for c in (gr.get("retrieval") or {}).get("citations", []) if c.get("verified", True)],
+        "unverified": [c["excerpt"] for c in (gr.get("retrieval") or {}).get("citations", []) if not c.get("verified", True)],
+        "submission_route": shaped.get("submission_route", ""),
+        "criteria_request": shaped.get("criteria_request", ""),
+    }
     out["elapsed_s"] = round(time.time() - t0, 1)
     # An arm that abstained still owes the patient a letter -- one that demands
     # the criteria. Withholding the letter here would flatter the arm by

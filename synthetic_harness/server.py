@@ -28,6 +28,7 @@ from .adjudication import latest_adjudication, record_adjudication
 from .agent_runner import engine_name, run_claude_arm
 from .api_runner import run_api_arm
 from .appeal_letter import assess_letter, generate_appeal_letter
+from .letter_inputs import enrich as enrich_for_letter
 from .episode import Episode
 from .evaluation import (
     evaluation_eligibility,
@@ -871,6 +872,12 @@ def generate_and_store_appeal_letter(episode: Episode, arm: str) -> dict[str, An
             if submission.get(key):
                 submission_text = str(submission[key])
                 break
+
+    # Deadline, submission route, member identifiers and the criteria demand
+    # are not retrieval outputs. The pilot showed letters without them scored
+    # as unfinished and unsendable; the study's harness was adding them and
+    # the live path was not. One enrichment, shared with the study.
+    result = enrich_for_letter(result, submission_text)
 
     # Offer both voices: one the surgeon's office signs, one the patient sends.
     arm_dir = episode.root / "system" / arm

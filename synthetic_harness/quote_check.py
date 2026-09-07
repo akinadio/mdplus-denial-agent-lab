@@ -71,8 +71,15 @@ def quoted_passages(letter: str) -> list[str]:
 
 
 def in_text(quote: str, text: str) -> bool:
-    q = _norm(quote)
-    return len(q) > 25 and q in _norm(text)
+    """Every piece of the quotation is in the text. An ellipsis inside a
+    quotation is honest abbreviation, so the pieces are checked separately."""
+    nt = _norm(text)
+    pieces = [pc for pc in re.split(r"\.\.\.|…|\[\.\.\.\]", quote or "") if _norm(pc)]
+    if not pieces:
+        return False
+    if len(pieces) == 1:
+        q = _norm(pieces[0]); return len(q) > 25 and q in nt
+    return all(_norm(pc) in nt for pc in pieces if len(_norm(pc)) > 12)
 
 
 def check(letter: str, policy_url: str, other_sources: list[str] | None = None) -> dict:

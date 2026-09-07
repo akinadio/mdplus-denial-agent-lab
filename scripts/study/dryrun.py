@@ -406,8 +406,8 @@ def stage_letters(cases, gold):
         PT._LIB = None
 
     # The denial notice reaches the letter, so names and IDs are not placeholders.
-    from draft_letters import _notice_fields
-    nf = _notice_fields(c["letter_text"])
+    from synthetic_harness.letter_inputs import notice_fields
+    nf = notice_fields(c["letter_text"])
     check(nf.get("member_name") and nf.get("member_id") and nf.get("reference_number"),
           "member, ID and reference number are read off the denial notice", str(nf))
     shaped_n2 = dict(shaped, denial_notice_text=c["letter_text"])
@@ -489,6 +489,26 @@ def stage_gitignore():
           r.stdout.strip()[-400:])
 
 
+def stage_live_path(cases):
+    """The study's harness was filling in deadline, route, member and the
+    criteria demand itself; the live server passed none of them. Now both go
+    through synthetic_harness.letter_inputs.enrich, and the server calls it."""
+    print("\n[8] the live server feeds the letter what the study feeds it")
+    from synthetic_harness.letter_inputs import enrich
+    src = (ROOT / "synthetic_harness/server.py").read_text()
+    check("enrich_for_letter(result, submission_text)" in src,
+          "server.py enriches the result before drafting")
+    c = next(x for x in cases if x["stratum"] == "vendor_held")
+    bare = {"case_identification": {"payer": c["payer"], "product_type": c["plan_type"]},
+            "retrieval": {"selected_source": {"url": "https://x.invalid/p.pdf"}, "citations": []}}
+    r = enrich(bare, c["letter_text"], directory_note="criteria are InterQual")
+    check(r.get("appeal_deadline") == c["appeal_deadline"], "deadline is read off the notice")
+    check(bool(r.get("submission_route")), "a submission route is supplied")
+    check(bool(r["case_identification"].get("member_id")), "member identifiers are read off the notice")
+    check(bool(r.get("denial_notice_text")), "the notice itself reaches the letter")
+    check(bool(r.get("criteria_request")), "a vendor-held case gets the criteria demand")
+
+
 def stage_dist():
     """dist/orthoappeal-demo.html inlines coverage.js, submit.js and data.js.
     Nothing rebuilt it, so the shipped app was serving the pre-2026-09-04 data:
@@ -530,6 +550,7 @@ def main() -> int:
     stage_retrieval(cases, gold)
     stage_scoring(cases, gold)
     stage_letters(cases, gold)
+    stage_live_path(cases)
     stage_dist()
     stage_money()
     stage_preflight()

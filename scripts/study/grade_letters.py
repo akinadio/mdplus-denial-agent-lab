@@ -95,10 +95,21 @@ def _evidence_packet(rid):
     route and twelve verified policy quotations as unsupported, because the
     grader could not see they had been supplied."""
     try:
-        res = json.loads((RUNS / rid / "result.json").read_text())
+        lt = json.loads((RUNS / rid / "letter.json").read_text())
     except Exception:  # noqa: BLE001
-        return ""
-    a = res.get("answer") or {}
+        lt = {}
+    ev = lt.get("evidence")
+    if ev:
+        a = {"policy_url": ev.get("policy_url"), "policy_title": ev.get("policy_title"),
+             "criteria_quotes": ev.get("quotes") or [],
+             "submission_route": ev.get("submission_route"),
+             "how_to_obtain_criteria": ev.get("criteria_request")}
+    else:
+        try:
+            res = json.loads((RUNS / rid / "result.json").read_text())
+        except Exception:  # noqa: BLE001
+            return ""
+        a = res.get("answer") or {}
     parts = []
     if a.get("policy_url"):
         parts.append(f"Governing policy given to the writer: {a.get('policy_title','')} -- {a['policy_url']}")
