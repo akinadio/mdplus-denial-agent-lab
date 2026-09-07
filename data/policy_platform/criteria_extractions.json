@@ -1,5 +1,5 @@
 {
- "built": "2026-09-07",
+ "built": "2026-09-06",
  "policies": [
   {
    "policy_url": "https://assets.ctfassets.net/plyq12u1bv8a/33RdvNYObCzRfHabF8uvgr/ee6961887285b47a3fda579d26804b51/CG070_Total_Hip_Arthroplasty.pdf",
@@ -1542,7 +1542,7 @@
    "status": null,
    "chars": 0,
    "quotes": [],
-   "error": "DNS resolution failed for host 'securecms.bluecrossmnonline.com'"
+   "error": "HTTPSConnectionPool(host='securecms.bluecrossmnonline.com', port=443): Max retries exceeded with url: /content/medpolicy/en/minnesota/core/all/policies/Surgery/IV-107/IV-107-016.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))"
   },
   {
    "policy_url": "https://securecms.bluecrossmnonline.com/content/medpolicy/en/minnesota/core/all/policies/Surgery/IV-122/IV-122-017.html",
@@ -1557,7 +1557,7 @@
    "status": null,
    "chars": 0,
    "quotes": [],
-   "error": "DNS resolution failed for host 'securecms.bluecrossmnonline.com'"
+   "error": "HTTPSConnectionPool(host='securecms.bluecrossmnonline.com', port=443): Max retries exceeded with url: /content/medpolicy/en/minnesota/core/all/policies/Surgery/IV-122/IV-122-017.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))"
   },
   {
    "policy_url": "https://securecms.bluecrossmnonline.com/content/medpolicy/en/minnesota/core/all/policies/Surgery/IV-87/IV-87-018.html",
@@ -1571,7 +1571,7 @@
    "status": null,
    "chars": 0,
    "quotes": [],
-   "error": "DNS resolution failed for host 'securecms.bluecrossmnonline.com'"
+   "error": "HTTPSConnectionPool(host='securecms.bluecrossmnonline.com', port=443): Max retries exceeded with url: /content/medpolicy/en/minnesota/core/all/policies/Surgery/IV-87/IV-87-018.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))"
   },
   {
    "policy_url": "https://securecms.bluecrossmnonline.com/content/medpolicy/en/minnesota/core/all/policies/Surgery/iv-171/IV-171-008.html",
@@ -1585,7 +1585,7 @@
    "status": null,
    "chars": 0,
    "quotes": [],
-   "error": "DNS resolution failed for host 'securecms.bluecrossmnonline.com'"
+   "error": "HTTPSConnectionPool(host='securecms.bluecrossmnonline.com', port=443): Max retries exceeded with url: /content/medpolicy/en/minnesota/core/all/policies/Surgery/iv-171/IV-171-008.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))"
   },
   {
    "policy_url": "https://securecms.bluecrossmnonline.com/content/medpolicy/en/minnesota/core/all/policies/Surgery/iv-181/IV-181-004.html",
@@ -1599,7 +1599,7 @@
    "status": null,
    "chars": 0,
    "quotes": [],
-   "error": "DNS resolution failed for host 'securecms.bluecrossmnonline.com'"
+   "error": "HTTPSConnectionPool(host='securecms.bluecrossmnonline.com', port=443): Max retries exceeded with url: /content/medpolicy/en/minnesota/core/all/policies/Surgery/iv-181/IV-181-004.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))"
   },
   {
    "policy_url": "https://securecms.highmark.com/content/dam/medpolicy/en/highmark/mpu/S-299-001-dft-PA,%20WV,%20DE.pdf",
@@ -3340,10 +3340,10 @@
     "L.A. Care Health Plan",
     "Medicaid"
    ],
-   "status": null,
+   "status": 200,
    "chars": 0,
    "quotes": [],
-   "error": "DNS resolution failed for host 'www.dhcs.ca.gov'"
+   "error": "imperva_incapsula_resource"
   },
   {
    "policy_url": "https://www.emblemhealth.com/content/dam/emblemhealth/pdfs/provider/medical_policies/l/lumbar-fusion-intervertebral-fusion-devices-medical-policy-emblemhealth.pdf",
@@ -4357,6 +4357,1099 @@
     "Clinical symptoms of the fifth MTP and a his tory of conservative management with ALL the following documentation:",
     "Molina Healthcare may deny reimbursement or take additional appropriate action if the documentation provided does not support the initial determination that the drugs or services were medically necessary, not investigational or experimental, and otherwise within the scope of benefits afforded to the member, and/or the documentation demonstrates a pattern of billing or other practice that is inappropriate or excessive.",
     "Most symptomatic patients respond adequately to conservative care;"
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.molinahealthcare.com/providers/az/medicaid/forms/~/media/Molina/PublicWebsite/PDF/Providers/az/AZ-WEBP-19442-21%202021%20NIA%20Spine%20Surgery%20UM%20Review%20Matrix%20FINAL_R",
+   "policy_title": "Molina Complete Care Spine Surgery UR Matrix (NIA/Evolent)",
+   "cpts": [
+    "22551",
+    "22612",
+    "63030"
+   ],
+   "payers": [
+    "Passport Health Plan by Molina"
+   ],
+   "status": 200,
+   "chars": 5819,
+   "quotes": [],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/legal/2025-annual-notices-providers-ny.pdf",
+   "policy_title": "MVP Health Care 2025 Annual Notices for Providers (NY)",
+   "cpts": [
+    "22551",
+    "22612",
+    "23472",
+    "27130",
+    "27446",
+    "27447",
+    "27702",
+    "28296",
+    "29806",
+    "29827",
+    "29881",
+    "29888",
+    "29914",
+    "63030"
+   ],
+   "payers": [
+    "MVP Health Care"
+   ],
+   "status": 200,
+   "chars": 53443,
+   "quotes": [
+    "Medical Management Decisions It is the policy of MVP to provide coverage for medically necessary health care services provided to our Members.",
+    "Utilization Management Criteria MVP uses the most current version of InterQual \u00ae criteria as a guideline for its utilization management decisions for inpatient services and certain medical services.",
+    "Our Medical Necessity Criteria for mental health consists of the most current version of InterQual \u00ae and guidelines provided by New York State (e.g.",
+    "For all other lines of business and when treatment is provided outside of New York State, InterQual \u00ae criteria is utilized for substance use disorders.",
+    "Pharmacy utilization management follows criteria and Formularies that are developed by the MVP P&T Committee.",
+    "\u2022 American College of Radiology Appropriateness Criteria \u2022 Institute for Clinical Systems Improvement Guidelines \u2022 National Comprehensive Cancer Network Guidelines \u2022 National Institute for Health and Clinical Excellence Guidelines eviCore may be reached at 1-800-918-8924 or at evicore.com.",
+    "Healthplex utilizes the most current version of Current Dental Terminology published by the American Dental Association, in addition to internally developed criteria (professional guidelines).",
+    "Providers may request a copy of the criteria employed to make a specific utilization management determination by contacting the MVP Utilization Management Department at 1-800-568-0458 .",
+    "MVP Members may request a copy of the criteria used to make a specific utilization management determination by contacting the MVP Customer Care Center at the number on the back of their MVP Member ID card.",
+    "Provider appeals denied for \u201cnot Medically Necessary\u201d should be mailed to:",
+    "Services Requiring Prior Authorization or Out-of-Network Requests Providers must submit a Prior Authorization Request Form (PARF) with any information substantiating the service, item or procedure, or use of an out-of-network Provider (for Members without out-of-network benefits) to the MVP Utilization Management Department (unless the service is delegated to another entity as noted under the Utilization Management Criteria section).",
+    "MMC Membership includes practicing Providers from representative specialties, including at least one Provider from each region within the MVP service area, and health plan staff.",
+    "MVP Medical Record Standards and Guidelines Well-documented electronic or paper medical records improve communication and promote coordination and continuity of care.",
+    "Unresolved problems from previous office visits should be addressed and documented in subsequent visits."
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.nebraskablue.com/-/media/Files/NebraskaBlueDotCom/Providers/Prior-Authorization/Prior_Authorization_List.pdf",
+   "policy_title": "Medical Policy III.190 \u2014 Total Knee and Hip Replacement for MUD (prefix MET), EHA (prefix EHN), BCBSNE employees (prefix NEQ) and Individual ACA (prefix YST or YNQ)",
+   "cpts": [
+    "27130",
+    "27447"
+   ],
+   "payers": [
+    "Blue Cross and Blue Shield of Nebraska"
+   ],
+   "status": 200,
+   "chars": 16394,
+   "quotes": [
+    "NebraskaBlue.com/Providers/Policies-and-Procedures \u2022 The following services or procedures, to determine medical necessity, using InterQual\u00ae criteria:"
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.nebraskablue.com/en/Providers/Alerts-and-Updates/Medical-Policy-Update/MPC-May-2025",
+   "policy_title": "Medical Policy III.158 \u2014 Total Ankle Replacement",
+   "cpts": [
+    "27702"
+   ],
+   "payers": [
+    "Blue Cross and Blue Shield of Nebraska"
+   ],
+   "status": 200,
+   "chars": 2667,
+   "quotes": [
+    "Starting 08/01/2025 Interqual criteria will be utilized.",
+    "21050, 21210, 21215, 21244, 21299, 21685 Access to Interqual criteria can be found at BCBSNE Provider Procedures ."
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.nebraskatotalcare.com/content/dam/centene/Nebraska/policies/clinical-policies/CP.MP.114.pdf",
+   "policy_title": "CP.MP.114 Disc Decompression Procedures",
+   "cpts": [
+    "63030"
+   ],
+   "payers": [
+    "Nebraska Total Care"
+   ],
+   "status": 200,
+   "chars": 21661,
+   "quotes": [
+    "discectomy are medically necessary when meeting all of the following:",
+    "Dia gnosis of herniated lumbar disc;",
+    "Ne rve root compression confirmed by imaging and one of the following:",
+    "R adiculopathy with motor deficit and one of the following:",
+    "Severe weakness in a nerve root distribution, as evidenced by:",
+    "a score of \u2264 3 on the Me dical Research Council 0 to 5 muscle strength scale, or the inability to ambulate;",
+    "Mild to moderate weakness in a nerve root distribution, as evidenced by a score of 4 on the Medical Research Council 0 to 5 muscle strength scale and one of the following:",
+    "Worsening weakness or motor deficit;",
+    "Member/enrollee has failed to respond to conservative therapy, within the last year, including all of the following:",
+    "a) \u2265 four wee ks physical therapy or prescribed home exercise program, or documentation of member/enrollee\u2019s inability to tolerate;",
+    "b) \u2265 four weeks activity modification;",
+    "1) Nonsteroidal anti-inflammatory drug (NSAID) or acetaminophen \u2265 thre e weeks unless contraindicated or not tolerated;",
+    "2) Epidural steroid inj ection;",
+    "Radiculopathy with sensory deficit as evidenced by pain, parasthesias or numbness in a nerve root distribution, and member/enrollee has failed to respond to conservative ther apy including all the following:"
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.pehp.org/MyPehpProviders/MedicalPreauthForms/DownloadPdf?documentId=8951209",
+   "policy_title": "Total Ankle Arthroplasty - Replacement Preauthorization Form",
+   "cpts": [
+    "27702"
+   ],
+   "payers": [
+    "PEHP"
+   ],
+   "status": 200,
+   "chars": 6208,
+   "quotes": [
+    "\uf06f Corticosteroid injection into the joint within 12 weeks of the planned arthroplasty e.",
+    "Is revision TAA (Total Ankle Arthroplasty) being requested due to a failed total ankle prosthesis? \uf06f \uf06f B.",
+    "Has the patient failed at least 6 mon ths of conservative management (including physical therapy, non-steroidal anti-inflammatory drugs, and orthoses as indicated)? \uf06f \uf06f 6."
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.point32health.org/documents/total-joint-replacement-ankle-mng",
+   "policy_title": "Medical Necessity Guidelines: Total Joint Replacement - Ankle",
+   "cpts": [
+    "27702"
+   ],
+   "payers": [
+    "Harvard Pilgrim Health Care",
+    "Tufts Health Plan"
+   ],
+   "status": 200,
+   "chars": 6760,
+   "quotes": [
+    "This policy utilizes InterQual\u00ae criteria and/or tools, which Harvard Pilgrim may have customized.",
+    "\u2022 Clinical notes/written documentation \u2013 via HPHConnect Clinical Upload or secure fax (800-232-0816) Providers may view and print the medical necessity criteria and questionnaire via HPHConnect for providers (Select Researched and the InterQual \u00ae link) or contact the commercial Provider Service Center at 800- 708-4414.",
+    "Members may access materials by logging into their online account (visit www.harvardpilgrim.org, click on Member Login, then Plan Details, Prior Authorization for Care, and the link to clinical criteria) or by calling Member Services at 888-333-4742 For Tufts Health Plan Members:",
+    "Clinical Guideline Coverage Criteria The Plan requires the use of the following InterQual\u00ae Subsets or SmartSheets to obtain prior authorization for Total Joint Replacement \u2013 Ankle:",
+    "They include concise clinical coverage criteria based on current literature review, consultation with practicing physicians in our service area who are medical experts in the particular field, FDA and other government agency policies, and standards adopted by national accreditation organizations."
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.premera.com/medicalpolicies/7.01.542.pdf",
+   "policy_title": "Lumbar Spinal Fusion in Adults (7.01.542)",
+   "cpts": [
+    "22612"
+   ],
+   "payers": [
+    "Premera Blue Cross",
+    "Premera Blue Cross Blue Shield of Alaska"
+   ],
+   "status": 200,
+   "chars": 91580,
+   "quotes": [
+    "spinal fusion is considered not medically necessary when the criteria listed above are not met for all levels.",
+    "Conditions other than those listed in this policy Lumbar spinal fusion is considered not medically necessary for any indication not addressed above in this policy.",
+    "Discectomy, Foraminotomy, Laminotomy, Laminectomy The Site of Service Medical Necessity criteria within this policy DOES NOT apply to Indian Health Services (IHS) facilities.",
+    "Please refer to the medical necessity criteria for the procedure only.",
+    "POLICY CRITERIA | DOCUMENTATION REQUIREMENTS | CODING RELATED INFORMATION | EVIDENCE REVIEW | REFERENCES | APPENDIX | HISTORY \u221e Clicking this icon returns you to the hyperlinks menu above.",
+    "Prior to having this surgery for most conditions, most experts recommend a trial of nonsurgical care.",
+    "The Introduction section is for your general knowledge and is not to be taken as policy coverage criteria.",
+    "Policy Coverage Criteria Note:",
+    "Site of Service for Elective Surgical Procedures Medical Necessity Medically necessary sites of service:",
+    "These are the preferred medically necessary sites of service for certain elective surgical procedures.",
+    "This site is considered medically necessary only when the individual has a clinical condition which puts him or her at increased risk for Page | 3 of 39 \u221e Site of Service for Elective Surgical Procedures Medical Necessity complications including any of the following (this list may not be all inclusive):",
+    "* 3 or more drugs to control blood pressure ** https://reference.medscape.com/calculator/meld-score-end- stage-liver-disease *** Moderate-AHI greater than or equal to 15 and less than or equal to 30, Severe-AHI greater than or equal to 30 ****DDAVP-Deamino-Delta-D-Arginine Vasopressin (Desmopressin) Inpatient hospital/medical center This site of service is considered NOT medically necessary for certain elective surgical procedures when the site of service criteria listed above in this policy are not met.",
+    "Condition Medical Necessity Spinal stenosis Lumbar spinal fusion may be considered medically necessary for spinal stenosis when both of the following criteria are met:",
+    "Page | 5 of 39 \u221e Condition Medical Necessity o Associated spondylolisthesis demonstrated by at least a 4 millimeter (mm) shift in the sagittal plane on flexion/extension plain X-rays OR o Spinal instability will be created due to need for bilateral or wide decompression with facetectomy or resection of pars interarticularis;"
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.premera.com/medicalpolicies/7.01.549_2025-11-07.pdf",
+   "policy_title": "Knee Arthroscopy in Adults",
+   "cpts": [
+    "29881",
+    "29888"
+   ],
+   "payers": [
+    "Premera Blue Cross",
+    "Premera Blue Cross Blue Shield of Alaska"
+   ],
+   "status": 404,
+   "chars": 0,
+   "quotes": [],
+   "error": "extraction_failed:pdf_parse_failed:EmptyFileError"
+  },
+  {
+   "policy_url": "https://www.premera.com/medicalpolicies/7.01.550.pdf",
+   "policy_title": "Knee Arthroplasty in Adults (7.01.550)",
+   "cpts": [
+    "27446",
+    "27447"
+   ],
+   "payers": [
+    "Premera Blue Cross",
+    "Premera Blue Cross Blue Shield of Alaska"
+   ],
+   "status": 200,
+   "chars": 29034,
+   "quotes": [
+    "unicompartmental knee arthroplasty may be considered medically necessary for joint disease when ALL of the following are met:",
+    "\u2022 There is a documented diagnosis of one of the following:",
+    "o Degenerative joint disease (DJD) o Osteoarthritis (OA) o Rheumatoid arthritis (RA) o Traumatic arthritis o Osteonecrosis AND \u2022 Treatment is needed because of one or more of the following:",
+    "o Disabling pain for at least 3 months duration o Functional disability which interferes with the ability to carry out activities of daily living AND \u2022 Radiographic or imaging evidence of severe osteoarthritis (Kellgren-Lawrence grade 3 or 4) in the 12 months prior to surgery evidenced by either:",
+    "o Moderate multiple osteophytes, definite narrowing of joint space, some sclerosis and possible deformity of bone contour OR o Large osteophytes, marked narrowing of joint space, severe sclerosis, and definite deformity of bone contour OR o Exposed subchondral bone (full thickness cartilage loss) (Outerbridge grade 4) (aka chondromalacia grade 4) AND Page | 3 of 14 \u221e Surgery Medical Necessity \u2022 Documentation of three months of failed non-operative, conservative management for Kellgren-Lawrence grade 3 findings as demonstrated by a trial of one or more of the following medications:",
+    "o Non-steroidal anti-inflammatory drugs (oral or topical) o Acetaminophen o Intra-articular injection of corticosteroids as appropriate AND \u2022 A trial of one or more of the following physical measures:",
+    "o Physical therapy \u2265 12 weeks o Flexibility and muscle strengthening exercises \u2265 12 weeks o Reasonable restriction of activities \u226512 weeks OR \u2022 For Kellgren-Lawrence grade 4* findings, a three-month trial of failed non-operative conservative management as demonstrated by a trial of one or more of the following medications:",
+    "Failure of a trial of physical measures is not required if radiographic or imaging findings show evidence of bone-on-bone articulation (Kellgren Lawrence grade 4, Outerbridge grade 4/chondromalacia grade 4).",
+    "Replacement/revision of previous arthroplasty Knee arthroplasty may be considered medically necessary for a replacement/revision of a previous arthroplasty as indicated by one or more of the following:",
+    "\u2022 Disabling pain \u2022 Functional disability \u2022 Progressive and substantial bone loss \u2022 Fracture or dislocation of patella \u2022 Aseptic component instability or loosening (a non-infectious loosening of the bond between the bone and the implant) \u2022 Infection \u2022 Periprosthetic fracture (fracture around the knee implant) Page | 4 of 14 \u221e Surgery Medical Necessity Total knee or unicompartmental arthroplasty Knee arthroplasty may be considered medically necessary for the following diagnoses:",
+    "\u2022 Distal femur fracture repair in an individual with osteoporosis \u2022 Failure of a previous proximal tibial or distal femoral osteotomy \u2022 Hemophilic arthroplasty \u2022 Limb salvage for malignancy Documentation Requirements The individual\u2019s medical records submitted for review for all conditions should document that medical necessity criteria are met.",
+    "The record should include the following:",
+    "\u2022 For degenerative joint disease, osteoarthritis, rheumatoid arthritis, traumatic arthritis, or osteonecrosis with ALL of the following:",
+    "o Needs treatment because of disabling pain and/or limited knee function interfering with activities of daily living (ADLs) AND o Imaging evidence of severe osteoarthritis by either:"
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.premera.com/medicalpolicies/7.01.551.pdf",
+   "policy_title": "Lumbar Spine Decompression Surgery: Discectomy, Foraminotomy, Laminotomy, Laminectomy in Adults (7.01.551)",
+   "cpts": [
+    "63030"
+   ],
+   "payers": [
+    "Premera Blue Cross",
+    "Premera Blue Cross Blue Shield of Alaska"
+   ],
+   "status": 200,
+   "chars": 74640,
+   "quotes": [
+    "\u2022 Medical History o Co-morbid physical and psychological health conditions o History of back surgery, including minimally invasive back procedures o Prior trial, failure, or contraindication to conservative medical/non-operative interventions that may include but are not limited to the following:",
+    "\u25aa Activity modification for at least 6 weeks \u25aa Oral analgesics and/or anti-inflammatory medications \u25aa Physical therapy \u25aa Chiropractic manipulation \u25aa Epidural steroid injections Page | 8 of 34 \u221e Documentation Requirements \u2022 Physical Examination o Clinical findings, including the individual\u2019s stated symptoms and duration \u2022 Diagnostic Test o Radiologist\u2019s report of a magnetic resonance image (MRI) or computerized tomography (CT) scan with myelogram of the lumbar spine within the past 12 months showing a lumbar spine abnormality.",
+    "Report of the selective nerve root injection results, if applicable, to the individual\u2019s diagnostic workup.",
+    "Discectomy, Laminectomy, and Fusion in Adults 8.03.09 Vertebral Axial Decompression 8.03.501 Chiropractic Services The Site of Service Medical Necessity criteria within this policy DO NOT apply to Indian Health Services (IHS) facilities.",
+    "Please refer to the medical necessity criteria for the procedure only.",
+    "POLICY CRITERIA | DOCUMENTATION REQUIREMENTS | CODING RELATED INFORMATION | EVIDENCE REVIEW | REFERENCES | APPENDIX | HISTORY \u221e Clicking this icon returns you to the hyperlinks menu above.",
+    "This policy describes when decompression surgery on the lower back may be medically necessary and covered by the health plan.",
+    "The Introduction section is for your general knowledge and is not to be taken as policy coverage criteria.",
+    "Policy Coverage Criteria We will review for medical necessity these elective surgical procedures.",
+    "Site of Service for Elective Surgical Procedures Medical Necessity Medically necessary sites of service:",
+    "These are the preferred medically necessary sites of service for certain elective surgical procedures.",
+    "This site is considered medically necessary only when the individual has a clinical condition which puts him or her at increased risk for Page | 3 of 34 \u221e Site of Service for Elective Surgical Procedures Medical Necessity complications including any of the following (this list may not be all inclusive):",
+    "Procedure Medical Necessity Lumbar discectomy (diskectomy), foraminotomy, laminotomy Lumbar discectomy (diskectomy)*, foraminotomy, or laminotomy surgery may be considered medically necessary for the rapid (48 hours or less) progression of neurologic impairment (e.g., cauda equina syndrome, foot drop, extremity weakness, saddle anesthesia, sudden onset of bladder or bowel dysfunction).",
+    "If there is not rapid progression of neurologic impairment, lumbar discectomy (diskectomy)*, foraminotomy, or laminotomy for the treatment of lumbar disc herniation may be considered medically necessary when all the following criteria are met:"
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.premera.com/medicalpolicies/7.01.560.pdf",
+   "policy_title": "Cervical Spine Surgeries: Discectomy, Laminectomy, and Fusion in Adults (7.01.560)",
+   "cpts": [
+    "22551"
+   ],
+   "payers": [
+    "Premera Blue Cross",
+    "Premera Blue Cross Blue Shield of Alaska"
+   ],
+   "status": 200,
+   "chars": 74180,
+   "quotes": [
+    "cervical fusion may be considered medically necessary when any one of the following conditions is present:",
+    "\u2022 The individual has unremitting radicular pain or progressive weakness secondary to nerve root compression AND \u2022 Symptoms have been unresponsive to at least 6 weeks of conservative nonsurgical therapy, including all of the following:",
+    "\u2022 Signs or symptoms of myelopathy are present as indicated by one or more of the following:",
+    "o Upper limb weakness in more than a single nerve root distribution o Lower limb weakness o Loss of dexterity (e.g., clumsiness of hands) o Bowel or bladder incontinence o Frequent falls o Hyperreflexia o Hoffmann sign Page | 6 of 34 \u221e Indications Medical Necessity o Increased extremity muscle tone or spasticity o Gait abnormality o Positive Babinski sign AND \u2022 A cervical spine MRI or CT scan with myelogram within the past 12 months demonstrates spinal cord compression corresponding to symptoms and physical exam findings due to one or more of the following:",
+    "o Herniated disc o Osteophyte o Ossification of the posterior longitudinal ligament Cervical pseudarthrosis Anterior cervical fusion may be considered medically necessary for symptomatic cervical pseudarthrosis (failed union) when ALL of the following criteria are met:",
+    "\u2022 Radiographic evidence of hardware failure (e.g., fracture or displacement) is present OR \u2022 Axial neck pain corresponds to the level of the pseudarthrosis and is unresponsive to at least 6 weeks of conservative nonsurgical therapy, including all of the following:",
+    "Page | 7 of 34 \u221e Indications Medical Necessity \u2022 Symptomatic myelopathy corresponding clinically to an adjacent level OR \u2022 Symptomatic radiculopathy corresponding clinically to an adjacent level and unresponsive to at least 6 weeks of conservative nonsurgical therapy, including all of the following:",
+    "o Herniated disc o Osteophyte Symptomatic unstable cervical spondylosis Posterior cervical fusion may be considered medically necessary for symptomatic unstable cervical spondylosis with radiographic findings that include one or more of the following:",
+    "\u2022 Subluxation of more than 3.5 mm on static lateral views \u2022 Sagittal plane angulation of more than 11 degrees between adjacent segments \u2022 More than 4 mm of motion (subluxation) on dynamic views Cervical pseudarthrosis Posterior cervical fusion may be considered medically necessary for cervical pseudarthrosis when all of the following criteria are met:",
+    "\u2022 Acutely symptomatic cervical radiculopathy or myelopathy is present \u2022 MRI or other neuroimaging finding (e.g., cord compression, root compression) done within the past 12 months demonstrates pathologic anatomy corresponding to symptoms Cervical Discectomy Cervical discectomy Cervical discectomy* may be considered medically necessary for the treatment of a cervical herniated disc when all of the following criteria are met:",
+    "\u2022 Signs and symptoms of radiculopathy and/or myelopathy are present, such as one or more of the following:",
+    "(see Appendix) o Pain that radiates into the shoulder, down the arms to the hands o Numbness and tingling in a dermatomal distribution o Muscular weakness in a pattern associated with spinal nerve root compression o Increased or abnormal reflexes corresponding to affected nerve root level o Loss of sensation in a dermatomal pattern AND \u2022 One of the following clinical presentations is present:",
+    "o Rapidly progressing neurologic deficits;",
+    "OR o Persistent debilitating neck, back, or arm pain are unresponsive to at least 6 weeks of conservative nonsurgical therapy including all of the following;"
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.premera.com/medicalpolicies/7.01.573.pdf",
+   "policy_title": "Hip Arthroplasty in Adults (7.01.573)",
+   "cpts": [
+    "27130"
+   ],
+   "payers": [
+    "Premera Blue Cross",
+    "Premera Blue Cross Blue Shield of Alaska"
+   ],
+   "status": 200,
+   "chars": 32909,
+   "quotes": [
+    "hip arthroplasty is considered not medically necessary when any of the above indications are not met.",
+    "Total hip arthroplasty is considered not medically necessary when ANY of the following are present:",
+    "o Needs treatment because of 3 months of disabling pain and/or limited hip function interfering with activities of daily living (ADLs) AND o Imaging evidence of severe osteoarthritis evidenced by two or more of the following:",
+    "subchondral cysts, subchondral sclerosis, periarticular osteophytes, joint subluxation, bone on bone articulation, or severe joint space narrowing.",
+    "Radiographs or imaging must be done in the 12 months prior to planned surgery AND o History of unsuccessful three-month trial of failed non-operative conservative management of one or more of the following medications:",
+    "non-steroidal anti-inflammatory drugs (oral or topical), acetaminophen, or intra-articular injection of corticosteroids as appropriate, and a trial of one or more of the following physical measures:",
+    "physical therapy for \u226512 weeks, or flexibility and muscle strengthening exercises for \u2265 12 weeks, or reasonable restriction of activities for at least 12 weeks.",
+    "o Acute hip fracture by imaging o Avascular necrosis, femoral head with unresponsive severe pain o Malignancy of the joint involving the bones or soft tissues of the pelvis or proximal femur o Non-union or malunion, articular fracture"
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.premera.com/medicalpolicies/7.01.590.pdf",
+   "policy_title": "Shoulder Arthroplasty (7.01.590)",
+   "cpts": [
+    "23472"
+   ],
+   "payers": [
+    "Premera Blue Cross",
+    "Premera Blue Cross Blue Shield of Alaska"
+   ],
+   "status": 200,
+   "chars": 33646,
+   "quotes": [
+    "shoulder arthroplasty may be considered medically necessary.",
+    "The Introduction section is for your general knowledge and is not to be taken as policy coverage criteria.",
+    "Policy Coverage Criteria Click on the hyperlinks below to navigate to the section pertaining to the particular surgical procedure:",
+    "7.01.590_PBC (03-23-2026) Total shoulder arthroplasty Reverse shoulder arthroplasty Shoulder hemiarthroplasty Revision shoulder arthroplasty Surgery Medical Necessity Total shoulder arthroplasty Total shoulder arthroplasty may be considered medically necessary for joint disease when ALL of the following criteria are met:",
+    "\u2022 There is a documented diagnosis of one of the following:",
+    "o Degenerative joint disease (DJD) o Osteoarthritis (OA) o Rheumatoid arthritis (RA) o Traumatic arthritis o Avascular necrosis AND \u2022 Treatment is needed because of one or more of the following:",
+    "o Disabling pain for at least 3 months duration o Functional disability which interferes with the ability to carry out activities of daily living for at least 3 months duration AND \u2022 Radiographic or imaging evidence (e.g., X-ray, CT, MRI) of destructive degenerative joint disease of the shoulder in the 12 months prior to surgery as evidenced by ONE or more of the following:",
+    "o Irregular joint surfaces o Glenoid sclerosis o Glenoid osteophyte changes o Flattened glenoid o Cystic changes in the humeral head o Joint space narrowing AND \u2022 Documentation of three months of failed non-operative conservative management as demonstrated by a trial of one or more of the following:",
+    "o Anti-inflammatory medications or analgesics o Intra-articular injection of corticosteroids as appropriate AND \u2022 A 6 week trial of one or more of the following physical measures under the direction of a healthcare professional:",
+    "o Physical therapy Page | 3 of 17 \u221e Surgery Medical Necessity o Activity modification o Flexibility and muscle strengthening exercises OR Total shoulder arthroplasty may be considered medically necessary for ANY of the following conditions:",
+    "\u2022 Proximal humerus fracture malunion or non-union \u2022 Reconstruction after tumor resection of the glenohumeral joint or surrounding tissue \u2022 Failed hemi-arthroplasty \u2022 Post-traumatic injury (e.g., fracture, infection) causing shoulder joint destruction Reverse total shoulder arthroplasty Reverse total shoulder arthroplasty may be considered medically necessary when there is an intact deltoid muscle, there is at least 90 degrees of passive shoulder range of motion (elevation/flexion), and there is adequate bone stock to support an implant and when ALL of the following criteria are met:",
+    "(See Appendix) \u2022 Advanced joint disease of the shoulder is present and confirmed by radiologic imaging or arthroscopic findings in the 12 months prior to surgery and at least ONE of the following conditions is present:",
+    "Page | 4 of 17 \u221e Surgery Medical Necessity o Anti-inflammatory medications or analgesics o Intra-articular injection of corticosteroids as appropriate AND \u2022 A 6 week trial of one or more of the following physical measures under the direction of a healthcare professional:",
+    "o Physical therapy o Activity modification o Flexibility and muscle strengthening exercises OR Reverse shoulder arthroplasty may be considered medically necessary for ANY of the following conditions:"
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.premera.com/medicalpolicies/7.01.592.pdf",
+   "policy_title": "Surgical Treatment of Femoroacetabular Impingement (7.01.592)",
+   "cpts": [
+    "29914"
+   ],
+   "payers": [
+    "Premera Blue Cross",
+    "Premera Blue Cross Blue Shield of Alaska"
+   ],
+   "status": 200,
+   "chars": 40569,
+   "quotes": [
+    "femoroacetabular impingement (FAI) may be medically necessary when ALL of the following conditions have been met:",
+    "\u2022 Age o Candidates should be skeletally mature with documented closure of growth plates (e.g., greater than or equal to 15 years of age).",
+    "AND \u2022 Symptoms o Moderate-to-severe hip pain worsened by flexion activities (e.g., squatting or prolonged sitting) that significantly limits activities AND o Unresponsive to conservative therapy for at least 3 months (including activity modifications, restriction of athletic pursuits, and avoidance of symptomatic motion) AND o Positive impingement signs on clinical examination (pain elicited with 90o of flexion and internal rotation and adduction of the femur/FADIR test) or FABER (Patrick\u2019s) test.",
+    "See Related Information Hip arthroscopic repair of a labral tear is considered medically necessary either alone or as an adjunct to FAI surgery.",
+    "Documentation Requirements The individual\u2019s medical records submitted for review for all conditions should document that medical necessity criteria are met.",
+    "\u2022 Office visit notes that contain the relevant history and physical (including the individual\u2019s symptoms, the conservative measures trialed and failed, and a positive impingement sign on physical examination) AND \u2022 Imaging evidence of morphology of FAI:"
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.premera.com/medicalpolicies/7.01.599.pdf",
+   "policy_title": "Total Ankle Arthroplasty in Adults (7.01.599)",
+   "cpts": [
+    "27702"
+   ],
+   "payers": [
+    "Premera Blue Cross",
+    "Premera Blue Cross Blue Shield of Alaska"
+   ],
+   "status": 200,
+   "chars": 25435,
+   "quotes": [
+    "ankle arthroplasty is considered NOT medically necessary when ANY of the following conditions are present:",
+    "o Needs treatment because of 3 months of disabling pain and limited ankle function that interferes with activities of daily living (ADLs) AND o Imaging findings are consistent with advanced or end-stage arthritis of the tibiotalar joint with the presence of one or more of the following:",
+    "joint space narrowing, osteophytes, subchondral sclerosis, subchondral cysts, or deformity and bone remodeling.",
+    "AND o History of trial and failure of three-months of non-operative conservative management with one or more of the following medications:",
+    "non-steroidal anti-inflammatory drugs, acetaminophen, or antirheumatic drugs (DMARDs), if appropriate and a 12-week trial of one or more of the following physical measures:",
+    "ankle-foot orthosis or physical therapy, which may include home exercises \u2022 For revision of previous total ankle arthroplasty there is evidence of one of the following:",
+    "o Implant loosening o Implant malposition o Periprosthetic fracture o Periprosthetic infection"
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.premera.com/medicalpolicies/7.01.602.pdf",
+   "policy_title": "Shoulder Arthroscopy in Adults (7.01.602)",
+   "cpts": [
+    "29806",
+    "29827"
+   ],
+   "payers": [
+    "Premera Blue Cross",
+    "Premera Blue Cross Blue Shield of Alaska"
+   ],
+   "status": 200,
+   "chars": 75388,
+   "quotes": [
+    "capsulorrhaphy is considered not medically necessary.",
+    "Modified conservative management to require where noted for each indication both a medication trial and failure as well as a trial and failure of physical measures.",
+    "Removed policy criteria for diagnostic arthroscopy, debridement arthroscopy, and biceps tenodesis.",
+    "Removed policy criterion under Rotator cuff arthroscopy \u201cTenderness over rotator cuff.\u201d Separated out distal clavicular excision arthroscopy criteria and subacromial decompression/acromioplasty criteria for greater clarity only, policy intent unchanged.",
+    "Removed CPT codes 29805, 29822, 29823, 29828 to align with changes in criteria.",
+    "Changed criterion for distal clavicular excision conservative care management from \u201csubacromial\u201d corticosteroid injection, as appropriate to \"intra-articular\" corticosteroid injection, as appropriate.",
+    "Moved asterisk statement \u201carthroscopic subacromial decompression or acromioplasty may be considered medically necessary as an add-on procedure only with other medically necessary primary shoulder surgical procedures\u201d to a note above the"
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp10.pdf",
+   "policy_title": "Spinal Fusion and Decompression Procedures MP10",
+   "cpts": [
+    "22551",
+    "22612",
+    "63030"
+   ],
+   "payers": [
+    "Providence Health Plan"
+   ],
+   "status": 200,
+   "chars": 120000,
+   "quotes": [
+    "anterior cervical discectomy with fusion, may be considered medically necessary for individuals with herniated discs or other causes of spinal cord or nerve root compression (e.g.",
+    "osteophytic spurring, ligamentous hypertrophy) when all of the following criteria are met (A.-F.):",
+    "At least one of the following criteria are met (1.-3.):",
+    "Persistent, debilitating, neck or cervicobrachial radicular pain (see Policy Guidelines), secondary to spinal cord or nerve root compression and at least one of the following criteria are met (a.",
+    "Symptoms have failed to improve after conservative treatment (see Policy Guidelines for all requirements and exceptions), as part of pre-operative surgery planning unless there is intolerable radicular pain (see Policy Guidelines), significant motor dysfunction, or progressive neurologic changes;",
+    "Physical and neurological abnormalities are well documented and suggestive of nerve root or spinal cord compression at the affected level (e.g., muscular weakness, sensory loss, radicular pain, hyperreflexia, reflex changes, myelopathy (see Policy Guidelines));",
+    "Cervical laminectomy/fusion may be considered medically necessary for the treatment of spinal instability for any of the following (A.-M.) indications:",
+    "The surgeon has documented that the therapeutic portion of the surgery will cause instability which requires fusion;",
+    "Symptoms have failed to respond to conservative treatment (see Policy Guidelines for all requirements and exceptions);",
+    "Significant instability (sagittal plane translation of at least 3 mm on flexion and extension views or relative sagittal plane angulation greater than 11 degrees);",
+    "Symptomatic unremitting radicular pain that has failed conservative management (see Policy Guidelines for all requirements and exceptions), unless there is evidence of cervical cord compression or other contraindications for conservative management;",
+    "Clinically significant deformity of the spine (kyphosis, head-drop syndrome, post- laminectomy deformity) that meets at least one of the following criteria (1.-3.):",
+    "Documented progression of the deformity.",
+    "Thoracic or lumbar laminectomy may be considered medically necessary when all of the following criteria are met (A.-F.):"
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp130.pdf",
+   "policy_title": "Total Hip Arthroplasty MP130",
+   "cpts": [
+    "27130"
+   ],
+   "payers": [
+    "Providence Health Plan"
+   ],
+   "status": 200,
+   "chars": 30498,
+   "quotes": [
+    "Hip arthroplasty is considered not medically necessary for all other indications when criteria I.",
+    "POLICY GUIDELINES DOCUMENTATION REQUIREMENTS The following information must be submitted in order to determine if medical necessity criteria are met:",
+    "\u2022 Indication for the requested surgery \u2022 Clinical notes documenting that the individual has been evaluated at least once by the requesting surgeon before submitting a request for surgery.",
+    "\u2022 Clinical documentation of extent and response to conservative care, as applicable to the policy criteria, including outcomes of any procedural interventions, medication use and physical therapy notes \u2022 Evaluation and documentation of the extent and specifics of one or more of the functional impairments or disabilities (see Policy Guidelines) \u2022 Imaging requirements:",
+    "o Imaging completed within the past 12 months o Documented interpretation of x-rays, which may be performed and read by the operating surgeon.",
+    "\u25aa If discrepancies should arise in the interpretation of the imaging, the radiologist's report will supersede \u2022 Documentation of any criteria-specific lab values or reports DEFINITIONS Activities of daily living:",
+    "Typically, a THA is indicated for those with a deteriorated joint for whom conservative management has failed, and persistent, debilitating pain causes a significant reduction in the activities of daily living (ADLs).",
+    "CLINICAL EVIDENCE AND LITERATURE REVIEW EVIDENCE REVIEW A review of the ECRI, Hayes, Cochrane, and PubMed databases was conducted regarding total hip arthroplasty as a treatment for refractory hip pain due to arthritis of any type or hip fracture.",
+    "Across multitudes of publications beyond a twenty-year publication period, THA has been shown to demonstrate excellent clinical and functional results.2-4 Conservative management prior to THA surgery is ubiquitously recommended unless contraindicated.5-10 The culmination of the literature demonstrates that rigorous patient-selection and pre-operative planning/evaluation supports increased improved overall health outcomes.11-13 As such, these policy criteria are primarily based on evidence-based clinical practice guidelines, with a subset of topics included in this review section.",
+    "Limited strength evidence supports that patients in which one or more of the following criteria are present are at an increased risk of PJI after hip and knee arthroplasty:",
+    "Strong evidence supported improved function and reduced pain for patients undergoing physical therapy as a conservative therapy and NSAID use.",
+    "ultrasound or CT when MRI contraindicated or MARS protocol not available), and serial monitoring of at least 6 months or greater.",
+    "EVIDENCE SUMMARY Initial Total Hip Arthroplasty There is enough research to show that initial total hip arthroplasty (THA) may improve overall health outcomes for those with a diagnosis of certain conditions of the hip (i.e., osteoarthritis, posttraumatic arthritis, rheumatoid arthritis, acute fracture, nonunion or malunion, articular fracture, bone tumor, or osteonecrosis) when specific criteria are met.",
+    "Clinical practice guidelines based on research recommend THA for patients who meet selection criteria that are in alignment with policy criteria."
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp418.pdf",
+   "policy_title": "Total Knee Arthroplasty MP418",
+   "cpts": [
+    "27446",
+    "27447"
+   ],
+   "payers": [
+    "Providence Health Plan"
+   ],
+   "status": 200,
+   "chars": 22399,
+   "quotes": [
+    "Partial knee arthroplasty is considered not medically necessary when criterion V.",
+    "POLICY GUIDELINES DOCUMENTATION REQUIREMENTS In order to determine the medical necessity of the request, the following information must be submitted in order to determine if medical necessity criteria are met:",
+    "\u2022 Indication for the requested surgery \u2022 Clinical documentation of extent and response to conservative care, as applicable to the policy criteria, including outcomes of any procedural interventions, medication use and physical therapy notes \u2022 Evaluation and documentation of the extent and specifics of one or more of the functional impairments or disabilities (see Policy Guidelines) \u2022 Imaging requirements:",
+    "o Imaging completed within the past 12 months o Documented interpretation of x-rays, which may be performed and read by the operating surgeon.",
+    "\u2022 Documentation of any criteria-specific lab values or reports.",
+    "A TKA performed for damage caused by OA is indicated for severe pain that inhibits normal functioning that is refractory to nonsurgical management.",
+    "CLINICAL EVIDENCE AND LITERATURE REVIEW EVIDENCE REVIEW Medical necessity criteria are based largely on evidence-based standards provided by InterQual.",
+    "In addition to general medical necessity review using this policy, CPT codes 27446 and 27447 may require inpatient site of service review, which is performed using criteria found in the medical policy, Surgical Site of Service (MP184)."
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp430.pdf",
+   "policy_title": "Total Shoulder Arthroplasty MP430",
+   "cpts": [
+    "23472"
+   ],
+   "payers": [
+    "Providence Health Plan"
+   ],
+   "status": 200,
+   "chars": 32275,
+   "quotes": [
+    "shoulder arthroplasty (CPT 23472) when all the following criteria are met:",
+    "At least two of the following are met (1.-3.) 1.",
+    "Intra-articular fracture showing humeral head fracture in at least 3 parts with repair not achievable by open reduction and fixation;",
+    "Osteoarthritis or post-traumatic arthritis and the following criteria are met (a.-b.):",
+    "Member has continued symptoms despite conservative treatments within the last year and at least two of the following are present (i.- vii.):",
+    "Initial shoulder joint replacement may be considered medically necessary for the treatment of rheumatoid arthritis when all the following criteria (A.-E.) are met:",
+    "At least two of the following criteria are met (1.-4.):",
+    "Imaging documents at least two of the following (1.-6.):",
+    "The patient has failed conservative treatment within the past year, including all of the following (1.-3.):",
+    "Disease-modifying antirheumatic drugs (DMARDs) for at least 12 weeks;",
+    "At least 12 weeks of physical therapy, occupational therapy, or home exercise unless contraindicated (See Policy Guidelines);",
+    "Activity modification for at least 12 weeks.",
+    "Initial shoulder joint replacement is considered not medically necessary when criteria I.",
+    "Shoulder arthroplasty removal, replacement or revision may be considered medically necessary with joint infection when imaging confirms any of the following criteria (A.-F.):"
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp434.pdf",
+   "policy_title": "Knee Arthroscopy and Open Procedures MP434",
+   "cpts": [
+    "29881",
+    "29888"
+   ],
+   "payers": [
+    "Providence Health Plan"
+   ],
+   "status": 200,
+   "chars": 40729,
+   "quotes": [
+    "5/2027 COVERAGE CRITERIA ................................",
+    "Medical policy criteria below may be applied when there are no criteria available in the OARs and the OHP Prioritized List.",
+    "Note that investigational services are considered \u201cnot medically necessary\u201d for Medicare members.",
+    "Unless addressed in a separate medical policy (see below), knee procedures not addressed in this medical policy may be considered medically necessary.",
+    "Resection or repair of meniscal tear (CPT 29880, 29881, 29882) may be considered medically necessary when either of the following criteria are met (A.-B.):",
+    "Patient presents with symptomatic tear with confirmed imaging with at least two of the following are met (a.-e.):",
+    "Resection or repair of the following acute and traumatic meniscal tears, when confirmed by MRI or CT arthrogram, may be considered medically necessary (A.-B.):",
+    "Resection or repair of meniscal tear of the knee is considered not medically necessary when criterion I.",
+    "Reconstruction of medial patellofemoral ligament (MPFL) injury (CPT 27422) may be considered medically necessary when either of the following criteria are met:",
+    "All of the following criteria are met:",
+    "Reconstruction or repair of anterior cruciate ligament (ACL) injury (CPT 27428, 29888) may be considered medically necessary when either of the following criteria (A-B) are met:",
+    "Reconstruction or repair of posterior cruciate ligament (PCL) injury (CPT 27428, 29889) may be considered medically necessary when all of the following criteria (A-D) are met:",
+    "Reconstruction or repair of lateral collateral ligament (LCL) or posterolateral corner injury (CPT 27427) may be considered medically necessary when either of the following criteria (A- B.) are met:",
+    "Reconstruction or repair of medial collateral ligament (MCL) injury (CPT 27427, 27428) may be considered medically necessary when all of the following criteria (A-C) are met:"
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp436.pdf",
+   "policy_title": "Shoulder Arthroscopy and Open Procedures MP436",
+   "cpts": [
+    "29806",
+    "29827"
+   ],
+   "payers": [
+    "Providence Health Plan"
+   ],
+   "status": 200,
+   "chars": 32176,
+   "quotes": [
+    "Capsulorrhaphy is considered not medically necessary when criterion VIII is not met.",
+    "Partial claviculectomy, including Mumford procedure (CPT 29824), may be considered medically necessary when all of the following criteria are met:",
+    "Failure of at least 12 weeks of conservative management XI.",
+    "Partial claviculectomy, including Mumford procedure, is considered not medically necessary when criterion X is not met.",
+    "Arthroscopically assisted lysis of adhesions/capsular release (CPT 29825) and manipulation under anesthesia may be considered medically necessary for post-traumatic, post-surgical, or idiopathic stiffness of the shoulder when all of the following criteria are met:",
+    "Severe, debilitating pain and/or documented loss of shoulder function to the extent which interferes with activities of daily living (see Policy Guidelines for definition of activities of daily living);",
+    "Reduced passive range of motion of the affected glenohumeral joint by at least 50% compared to unaffected shoulder;",
+    "Failure of at least 12 weeks of conservative management XIII.",
+    "Arthroscopically assisted lysis of adhesions/capsular release and manipulation under anesthesia are considered not medically necessary when criterion XII is not met.",
+    "Biceps tenodesis or tenotomy (CPT 29828, 23430) may be considered medically necessary for shoulder pain when either of the following criteria are met (A.-B.):",
+    "Failure of at least 12 weeks of conservative management (or 6 weeks when criteria for another shoulder procedure are met) XV.",
+    "Biceps tenodesis or tenotomy is considered not medically necessary when criterion XIV is not met.",
+    "POLICY GUIDELINES DOCUMENTATION REQUIREMENTS In order to determine the medical necessity of the request, the following information must be submitted in order to determine if medical necessity criteria are met:",
+    "physical therapy, activity modification and oral analgesics), as applicable to the policy criteria, including outcomes of any procedural interventions, medication use and physical therapy notes."
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp438.pdf",
+   "policy_title": "Small Joint Surgery MP438",
+   "cpts": [
+    "27702",
+    "28296"
+   ],
+   "payers": [
+    "Providence Health Plan"
+   ],
+   "status": 200,
+   "chars": 51822,
+   "quotes": [
+    "ankle arthroplasty is considered not medically necessary when criterion IV or V are not met.",
+    "Bunionette surgery may be considered medically necessary when all of the following criteria are met (A.-D.):",
+    "Significant pain and functional limitation of the fifth metatarsophalangeal (MTP) joint and/or presence of a pre-ulcer (e.g., Wagner grade 0-1) that persists after at least 3 months of supervised conservative management OR nonhealing ulcer at the site of the bunion, the sole of the foot or the second toe;",
+    "Bunionette surgery is considered not medically necessary when criterion VII is not met.",
+    "Hallux valgus surgery may be considered medically necessary when all of the following criteria are met (A.-D.):",
+    "Significant pain and functional limitation of the first metatarsophalangeal joint and/or presence of a pre-ulcer (e.g., Wagner grade 0-1) that persists after at least 3 months of supervised conservative management OR nonhealing ulcer at the site of the bunion, the sole of the foot or the second toe;",
+    "Hallux valgus surgery is considered not medically necessary when criterion IX is not met.",
+    "hammertoe) surgery may be considered medically necessary in skeletally mature patients when all of the following criteria are met (A.-C.):",
+    "Significant pain and functional impairment persist after at least 3 months of supervised conservative management or non-healing ulcer attributed to the lesser toe deformity;",
+    "Lesser toe deformity surgery is considered not medically necessary when criterion XI is not met.",
+    "Surgery for hallux rigidus (including cheilectomy or osteotomy) may be considered medically necessary in skeletally mature patients when all of the following criteria are met (A.-C.):",
+    "Significant pain and functional impairment of the first MTP joint persist after at least 3 months of supervised conservative management;",
+    "Hallux rigidus surgery is considered not medically necessary when criterion XIII is not met.",
+    "Surgery for sesamoidectomy may be considered medically necessary in skeletally mature patients when all of the following criteria are met (A.-C.):"
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.sanfordhealthplan.com/-/media/files/documents/providers/newsletters/final_587-395-640-flyer-enterprise-2023-shp-annual-provider-notice-8_5x11.pdf",
+   "policy_title": "Important Information for Providers about Sanford Health Plan (Annual Provider Notice - names MCG as UM criteria)",
+   "cpts": [
+    "22551",
+    "22612",
+    "23472",
+    "27130",
+    "27446",
+    "27447",
+    "27702",
+    "28296",
+    "29806",
+    "29827",
+    "29881",
+    "29888",
+    "29914",
+    "63030"
+   ],
+   "payers": [
+    "Sanford Health Plan"
+   ],
+   "status": 200,
+   "chars": 61219,
+   "quotes": [
+    "If you visit your home fitness center at least 12 times per month, most participants receive an automatic deposit into a bank account around the 21st of each month.",
+    "\u2022 Healthy Pregnancy Program \u2022 Better Choices Better Health Workshops \u2022 Support for additional preventive health care including cervical cancer screenings and immunizations If you would like more information about these programs or if you meet criteria to participate, please contact Customer Service or enroll by logging into your secure Member Portal at sanfordhealthplan.com/memberlogin.",
+    "Services Admission before the day of non-emergency surgery will not be covered unless the early admission is medically necessary and specifically approved by Sanford Health Plan.",
+    "\u2022 All requests for authorization are to be made by the provider\u2019s office at least three (3) working days prior to the scheduled admission or requested service.",
+    "Once you complete the required information click \u201cSubmit.\u201d Criteria Every year, the Plan\u2019s Physician Quality Committee reviews the Plan\u2019s medical policies and procedures, quality programs and clinical practice guidelines.",
+    "The Committee consists of physician members from various specialties, including a behavioral health practitioner, and meets at least six times a year.",
+    "It is also responsible for approving and annually reviewing utilization management criteria.",
+    "Any recommended changes in the criteria or any other program changes are approved by the Board of Directors.",
+    "Suggestions concerning quality programs, health management programs, clinical practice guidelines, and utilization management criteria are welcome and can be directed to the Senior Director, Medical Services by mail or by phone at (605) 328-6807 or (800) 805-7938.",
+    "To access medical policy criteria, providers may log into our Cite Transparency\u00ae through the Provider Portal at sanfordhealthplan.com/providerlogin to access.",
+    "You may also request a copy of the criteria used by contacting the Utilization Management Department.",
+    "The technology must be at least as beneficial as all established alternatives.",
+    "The Medical Management policy that uses the MCG (Milliman Care Guidelines) criteria will be developed by the Medical Management staff and will be presented at the same time.",
+    "Selection criteria include clinical efficacy, safety, and cost effectiveness."
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.southcarolinablues.com/web/public/brands/medicalpolicy/external-policies/total-ankle-replacement/",
+   "policy_title": "Total Ankle Replacement CAM 70177",
+   "cpts": [
+    "27702"
+   ],
+   "payers": [
+    "BlueChoice HealthPlan",
+    "BlueCross BlueShield of South Carolina"
+   ],
+   "status": 200,
+   "chars": 51057,
+   "quotes": [
+    "The review indicates that, in general, older, thin, low-demand individuals are considered optimal candidates for TAR, but specific criteria have not been established.",
+    "A total of 114 TARs and 47 ankle fusions met the inclusion criteria for the study, with a complete data set and minimum 2-year follow-up.",
+    "7 A chart review of arthrodesis procedures at the author\u2019s institution identified 64 patients who met the inclusion/exclusion criteria of isolated ankle arthrodesis, 48 (75%) of whom were located.",
+    "10 Thirteen level IV (case series) studies were published between 2003 and 2008 that included at least 20 subjects and had at least 2 years of follow-up.",
+    "Food and Drug Administration (FDA) approved the Agility Ankle Revision Prosthesis (DePuy Orthopaedics, Warsaw, IN), which is intended for cemented use only in patients with a failed previous ankle surgery.",
+    "Total ankle replacement using an FDA approved device may be considered MEDICALLY NECESSARY in skeletally mature patients with moderate to severe ankle (tibiotalar) pain that limits daily activity and who have the following conditions :",
+    "(7%) At an average follow-up of 33 months, 40% of cases had required reoperation, and 33 TARs (11%) were considered to have failed.",
+    "Exclusion criteria included hindfoot or forefoot malalignment, avascular necrosis, severe osteopenia or inadequate bone stock, insufficient ligament support, neuropathy, or neuromuscular impairment.",
+    "At the time of follow-up, 163 implants had survived, 21 patients had died, and 16 (8%) implants had failed (12 Buechel-Pappas, 4 STAR).",
+    "Twenty-four ankles (12%) failed at a mean of 48 months (range, 1 \u2013 108).",
+    "Therefore, in the absence of an established alternative for specific conditions, total ankle replacement may be considered medically necessary when those specified conditions are met.",
+    "Practice Guidelines and Position Statements American Academy of Orthopaedic Surgeons published a 2010 technology overview of surgical treatment options for patients with ankle arthritis in whom nonoperative treatment has failed.",
+    "Before considering total ankle replacement, patients should have completed several months of conservative treatment, should have satisfactory vascular perfusion in the involved extremity, and must have adequate soft-tissue coverage about the ankle that affords a safe surgical approach to total ankle replacement.",
+    "A randomised, controlled trial of two mobile-bearing total ankle replacements."
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/spinal-fusion-decompression.pdf",
+   "policy_title": "Spinal Fusion and Decompression (2026T0639I)",
+   "cpts": [
+    "22551",
+    "22612",
+    "63030"
+   ],
+   "payers": [
+    "UnitedHealthcare",
+    "UnitedHealthcare / Oxford",
+    "UnitedHealthcare Community Plan"
+   ],
+   "status": 200,
+   "chars": 61896,
+   "quotes": [
+    "Coverage Rationale Spinal procedures for the treatment of spine pain are proven and medically necessary in certain circumstances .",
+    "For medical necessity clinical coverage criteria, refer to the:",
+    "Procedures, Decompression +/- Fusion, Lumbar (Custom) - UHG Click here to view the InterQual\u00ae criteria.",
+    "Dividing treatment of symptomatic, multisite spinal pathology via an anterior or posterior approach into serial or Staged Multiple Sessions when one session can address all sites is unproven and not medically necessary due to insufficient evidence of safety and efficacy.",
+    "The following procedures for the treatment of spine pain are unproven and not medically necessary due to insufficient evidence of efficacy:",
+    "Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage but does not guarantee coverage of the service requested;",
+    "A loss of structural support of the spine that leads to abnormal and increased movement between vertebrae outside of normal physiological limits, measured by the difference in translational alignment between lumbar vertebrae greater than or equal to 3 mm between views, as documented by flexion-extension radiographs or comparison of a supine and upright image (NASS, 2021).",
+    "Surgery may be an option for individuals whose pain cannot be controlled by more conservative methods (National Institute of Arthritis and Musculoskeletal and Skin Diseases, 2023).",
+    "Of them, 113 participants (51.6%) in the arthroplasty group and 47 (46.1%) in the fusion group who had either reached 24 months of postoperative follow -up or were deemed early clinical failures were included in the primary outcome analysis.",
+    "Fourth, the trial used strict inclusion and exclusion criteria to mitigate the impact of confounding variables on the outcomes reported.",
+    "Lumbar Fusion for Lumbar Spinal Stenosis Alone Lumbar spinal stenosis is a common degenerative condition and a frequent indication for surgical intervention when conservative treatment fails.",
+    "Exclusionary criteria included cases of spondylolisthesis and instabilities.",
+    "Five RCTs, involving 438 individuals, met the inclusion criteria.",
+    "Policy History/Revision Information Date Summary of Changes 09/01/2026 Coverage Rationale Revised language pertaining to medical necessity clinical coverage criteria:"
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-ankle.pdf",
+   "policy_title": "Surgery of the Ankle (2026T0622O)",
+   "cpts": [
+    "27702"
+   ],
+   "payers": [
+    "UnitedHealthcare",
+    "UnitedHealthcare / Oxford",
+    "UnitedHealthcare Community Plan"
+   ],
+   "status": 200,
+   "chars": 22178,
+   "quotes": [
+    "Coverage Rationale Surgery of the ankle is proven and medically necessary in certain circumstances.",
+    "For medical necessity clinical coverage criteria, refer to the InterQual\u00ae CP:",
+    "Arthrodesis, Ankle (Talotibial Joint) Arthroscopy, Surgical, Ankle Arthrotomy, Ankle Total Joint Replacement (TJR), Ankle Click here to view the InterQual\u00ae criteria.",
+    "Osteochondral allograft or autograft transplant is unproven and not medically necessary for treating cartilage defects of the ankle due to insufficient evidence of efficacy.",
+    "Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage but does not guarantee coverage of the service requested;",
+    "All studies exhibited a high risk of bias in at least one domain, with 64% demonstrating a high risk across at least four domains.",
+    "however, a considerable number of the allografts failed, requiring repeat allografting, arthrodesis, or arthroplasty (range, 11%-48%).",
+    "Clinical Practice Guidelines American Orthopaedic Foot and Ankle Society (AOFAS) The AOFAS (2022) published a position statement that supports the use of osteochondral autograft and allograft transplant for the treatment of OLTs that have failed nonsurgical management, especially for large-diameter lesions, cystic lesions, and lesions that have failed previous surgical treatment.",
+    "UnitedHealthcare may also use tools developed by third parties, such as the InterQual\u00ae criteria, to assist us in administering health benefits."
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-foot.pdf",
+   "policy_title": "UHC Surgery of the Foot 2026T0624O (Commercial) - criteria are InterQual",
+   "cpts": [
+    "28296"
+   ],
+   "payers": [
+    "UnitedHealthcare",
+    "UnitedHealthcare / Oxford",
+    "UnitedHealthcare Community Plan"
+   ],
+   "status": 200,
+   "chars": 26505,
+   "quotes": [
+    "Bunionectomy Plantar Fascial Release Click here to view the InterQual\u00ae criteria.",
+    "Hallux Limitus or Rigidus (Correction Without Implant) Correction of the first metatarsophalangeal (MTP) joint with cheilectomy, debridement, and capsular release without implant is proven and medically necessary when all of the following criteria are met:",
+    "o Radiographic imaging to confirm a mild to moderate pathology (e.g., a grading scale such as the Coughlin and Shurnas or Hattrup Johnson Classification may be used) Persistent pain despite a reasonable trial of conservative treatment including one or more of the following:",
+    "Correction of the first metatarsophalangeal (MTP) joint with cheilectomy, debridement, and capsular release without implant is unproven and not medically necessary for severe hallux rigidus (e.g., a grading scale such as the Coughlin and Shurnas or Hattrup Johnson Classification may be used) due to insufficient evidence of efficacy.",
+    "Hallux Rigidus (Correction With Implant) Correction of the first metatarsophalangeal (MTP) joint with cheilectomy, debridement, and capsular release with implant (Hemi-Implant or Total Implant Arthroplasty) is proven and medically necessary when all of the following criteria are met:",
+    "Diagnosis of hallux rigidus to include the following:",
+    "o Radiographic imaging to confirm a moderate to severe pathology (e.g., a grading scale such as the Coughlin and Shurnas or Hattrup Johnson Classification may be used) Persistent pain despite a reasonable trial of conservative treatment including one or more of the following:",
+    "o Orthotics, shoe modification (e.g., high and wide toe box, rocker bottom sole), and/or shoe inserts o Medical therapy (NSAIDs, analgesics, or intra-articular injections) o Activity modification o Debridement of hyperkeratotic lesions, if present Osteochondral Allograft or Autograft Transplantation Osteochondral allograft or autograft transplantation is unproven and not medically necessary for treating cartilage defects of the foot due to insufficient evidence of efficacy.",
+    "Medical Records Documentation Used for Reviews Benefit coverage for health services is determined by the member specific benefit plan document and applicable laws that may require coverage for a specific service.",
+    "Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage but does not guarantee coverage of the service requested;",
+    "refer to the guidelines titled Medical Records Documentation Used for Reviews."
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-hip.pdf",
+   "policy_title": "Surgery of the Hip (2026T0503JJ)",
+   "cpts": [
+    "27130",
+    "29914"
+   ],
+   "payers": [
+    "UnitedHealthcare",
+    "UnitedHealthcare / Oxford",
+    "UnitedHealthcare Community Plan"
+   ],
+   "status": 200,
+   "chars": 41336,
+   "quotes": [
+    "Coverage Rationale Surgery of the hip and surgical treatment for Femoroacetabular Impingement (FAI) Syndrome is proven and medically necessary in certain circumstances.",
+    "For medical necessity clinical coverage criteria, refer to the InterQual\u00ae CP:",
+    "Arthroscopy, Diagnostic, +/- Synovial Biopsy, Hip Arthroscopy, Surgical, Hip Arthroscopy, Surgical, Hip (Pediatric) Arthrotomy, Hip Hemiarthroplasty, Hip Removal and Replacement, Total Joint Replacement (TJR), Hip Total Joint Replacement (TJR), Hip Click here to view the InterQual\u00ae criteria.",
+    "Surgical treatment for Femoroacetabular Impingement (FAI) Syndrome is unproven and not medically necessary in the presence of advanced osteoarthritis (i.e., T\u00f6nnis Grade 2 or 3) and/or severe cartilage damage (i.e., Outerbridge Grade III or IV).",
+    "Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage but does not guarantee coverage of the service requested;",
+    "While conservative treatments such as physical therapy may yield comparable short-term outcomes, recent evidence suggests that arthroscopy provides superior results, particularly for younger patients and those without preoperative OA.",
+    "The authors stated that differences were statistically significant between arthroscopy and conservative treatment for Hip Outcome Score (HOOS) (follow-up for 6 months), iHOT-33 (follow-up for 6 months) improvement, iHOT-33 (follow-up for 12 months) improvement, iHOT-33 (follow-up for 12 months), EQ-5D-5L index score (follow-up for 12 months) and arthroscopic surgery showed higher benefits than conservative therapy.",
+    "Evidence of additional benefit of arthroscopic hip surgery against conservative therapy in the field of improving quality of life (three trials, 575 participants, ES = 2.109, 95% CI:",
+    "The authors included studies that directly compared surgical and nonsurgical treatment for symptomatic FAI and excluded those that did not use arthroscopic treatment as a surgical technique and studies performed on patients with concomitant diagnoses instead of pure FAI.",
+    "The authors compared clinical outcome scores at 6 and 12 months of follow-up for iHOT-33, HOOS, EuroQol-visual analog scale (EQ-VAS), modified Harris hip score (mHHS), and nonarthritic hip score (NAHS).",
+    "At 6 months of follow-up, the authors noted no statistically significant differences in iHOT-33 ratings [mean difference (MD) = 7.92, p = .15], HOOS (MD of HOOS-ADL = 5.15, p = .26 and MD of HOOS-Sports = 2.65, p = .79, respectively), and EQ-VAS (MD = 1.22, p = .76) between the two treatment strategies.",
+    "At 12 months of follow-up, the arthroscopy group had a greater mean improvement in iHOT-33 score than the conservative treatment group (MD = 8.42, p = .002), but there was no difference between the groups in terms of mHHS rating (MD = -0.24, p = .83) and NAHS (MD = -2.08, p = .09).",
+    "The authors concluded that despite arthroscopy being associated with significantly superior iHOT-33 scores after 12 months of follow-up, they were unable to discern the difference between the treatment strategies using other scoring methods, such as HOOS, EQ-VAS, mHHS, and NAHS.",
+    "Most studies adopted different physical therapy protocols, and some studies even combined injection therapy with nonsurgical treatment."
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf",
+   "policy_title": "Surgery of the Knee (Commercial)",
+   "cpts": [
+    "27446",
+    "27447",
+    "29881",
+    "29888"
+   ],
+   "payers": [
+    "UnitedHealthcare",
+    "UnitedHealthcare / Oxford",
+    "UnitedHealthcare Community Plan"
+   ],
+   "status": 200,
+   "chars": 43556,
+   "quotes": [
+    "Unicondylar or Patellofemoral Knee Replacement Click here to view the InterQual\u00ae criteria.",
+    "Articular cartilage repair is unproven and not medically necessary for treating individuals with any of the following due to insufficient evidence of efficacy:",
+    "Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage but does not guarantee coverage of the service requested;",
+    "Coverage Rationale Surgery of the knee is proven and medically necessary in certain circumstances.",
+    "For medical necessity clinical coverage criteria, refer to the InterQual\u00ae CP:",
+    "Arthroscopy or Arthroscopically Assisted Surgery, Knee Arthroscopy or Arthroscopically Assisted Surgery, Knee (Pediatric) Arthroscopy, Diagnostic, +/- Synovial Biopsy, Knee Arthrotomy, Knee Arthrotomy, Knee (Pediatric) Removal and Replacement, Total Joint Replacement (TJR), Knee Total Joint Replacement (TJR), Knee Unicondylar or Patellofemoral Knee Replacement Click here to view the InterQual\u00ae criteria.",
+    "Third, the inclusion criteria for the individual studies that were included in this review also varied.",
+    "Radiological evaluation indicated favorable MRI findings regarding filling of the defect and incorporation with adjacent cartilage at 24 months of follow-up, but conflicting evidence exists regarding the properties of the newly formed, overlying cartilage surface.",
+    "The authors concluded that there are no data available that support the superiority or equality of TruFit compared with conservative treatment or mosaicplasty/microfracture.",
+    "In their own case series of bovine bone xenografts used in foot and ankle reconstruction, xenografts failed to integrate with host bone in 58% of cases and persistent pain occurred in 83% of patients.",
+    "these criteria apply to meniscal allografts.",
+    "UnitedHealthcare may also use tools developed by third parties, such as the InterQual\u00ae criteria, to assist us in administering health benefits."
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-shoulder.pdf",
+   "policy_title": "Surgery of the Shoulder (2026T0556FF)",
+   "cpts": [
+    "23472",
+    "29806",
+    "29827"
+   ],
+   "payers": [
+    "UnitedHealthcare",
+    "UnitedHealthcare / Oxford",
+    "UnitedHealthcare Community Plan"
+   ],
+   "status": 200,
+   "chars": 29468,
+   "quotes": [
+    "\u2265 age 40, magnetic resonance imaging (MRI) imaging showing a full-thickness massive rotator cuff tear measuring \u2265 5cm and involving \u2265 2 tendons within nine months of study enrollment, functional deltoid muscle and preserved passive ROM on physical examination, VAS score greater than 30mm and who underwent failed conservative therapy for at least four months.",
+    "Follow up should ideally be for at least 2 years.",
+    "Coverage Rationale Surgery of the shoulder is proven and medically necessary in certain circumstances.",
+    "For medical necessity clinical coverage criteria, refer to the:",
+    "o Arthroscopy or Arthroscopically Assisted Surgery, Shoulder o Arthroscopy or Arthroscopically Assisted Surgery, Shoulder (Adolescent) o Joint Replacement, Shoulder o Removal and Replacement or Revision, Joint Replacement, Shoulder Click here to view the InterQual\u00ae criteria.",
+    "Subacromial balloon spacers for the treatment of rotator cuff tears are unproven and not medically necessary due to insufficient evidence of efficacy.",
+    "Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage but does not guarantee coverage of the service requested;",
+    "Policy History/Revision Information Date Summary of Changes 09/01/2026 Coverage Rationale \u2022 Revised language pertaining to medical necessity clinical coverage criteria;",
+    "UnitedHealthcare may also use tools developed by third parties, such as the InterQual\u00ae criteria, to assist us in administering health benefits."
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.upmchealthplan.com/docs/providers/2025_ProviderManual_G.pdf",
+   "policy_title": "UPMC Provider Manual Chapter G - Utilization Management",
+   "cpts": [
+    "27446",
+    "29806",
+    "29881"
+   ],
+   "payers": [
+    "UPMC Health Plan"
+   ],
+   "status": 200,
+   "chars": 43821,
+   "quotes": [
+    "\u2022 The initial visit between 28 and 32 weeks, and \u2022 Following the postpartum visit (1-84 days after delivery) It is important that the dates of all the prenatal visits are included and risk factors are documented."
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www.upmchealthplan.com/en/providers/medical/announcements-updates/announcements/2023-announcements/11-30-musculoskeletal-procedures-update",
+   "policy_title": "UPMC Health Plan provider announcement: Musculoskeletal procedures update (11/30/2023)",
+   "cpts": [
+    "28296"
+   ],
+   "payers": [
+    "UPMC Health Plan"
+   ],
+   "status": 200,
+   "chars": 4343,
+   "quotes": [
+    "2026 Important Notices Provider Directory Updates and Required Attestation As you know, UPMC Health Plan requires all providers to verify their provider directory information at least every 90 days (quarterly).",
+    "1, 2024, UPMC Health Plan will begin requiring prior authorizations for certain musculoskeletal procedures, which will be evaluated using corresponding Interqual Connect criteria."
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www1.radmd.com/sites/default/files/2024-02/2023%20Knee%20Arthroscopy%20Clin%20Tip%20Sheet%20Evolent%2002282024.pdf",
+   "policy_title": "Evolent Knee Arthroscopy Prior Authorization Tip Sheet (Evolent_CG-316)",
+   "cpts": [
+    "29881",
+    "29888"
+   ],
+   "payers": [
+    "Harvard Pilgrim Health Care",
+    "Tufts Health Plan"
+   ],
+   "status": 200,
+   "chars": 10142,
+   "quotes": [
+    "The guidelines should be reviewed for additional requirements including duration of symptoms, physical examination, and radiographic criteria and for the complete listing of other procedures not included below.",
+    "(Evolent Guideline 316) 5\u2014 Knee Arthroscopy Clinical Tip Sheet \u2756 Lateral Release \u2022 Failure of at least 6 months of non-operative treatment, including quadriceps strengthening and appropriate hamstring/IT band stretching and patellar mobilization techniques, and at least one of the following:",
+    "o Rest or activity modifications/limitations o Ice/heat o Protected weight bearing o Pharmacologic treatment:",
+    "oral/topical NSAIDS, acetaminophen, analgesics, tramadol o Brace/orthosis o Physical therapy modalities o Supervised home exercise o Weight optimization o Corticosteroid injection \u2756 Debridement chondroplasty for patellofemoral chondrosis \u2022 Failure of at least 12 weeks of non-operative treatment, including at least two of the following:",
+    "MRI should not be the primary tool used to determine the presence or severity of arthritic changes in the joint.",
+    "Grade Description 0 No radiographic features of osteoarthritis 1 Possible joint space narrowing and osteophyte formation 2 Definite osteophyte formation with possible joint space narrowing 3 Moderate multiple osteophytes, definite narrowing of joint space, some sclerosis and possible deformity of bone contour 4 Large osteophytes, marked narrowing of joint space, severe sclerosis and definite deformity of bone contour"
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www1.radmd.com/sites/default/files/2024-02/2023%20Shldr%20Arthroplasty%20Clin%20Tip%20Sheet%20Evolent%2002282024.pdf",
+   "policy_title": "Evolent Shoulder Arthroplasty Prior Authorization Tip Sheet (Evolent_CG-317)",
+   "cpts": [
+    "23472"
+   ],
+   "payers": [
+    "Harvard Pilgrim Health Care",
+    "Tufts Health Plan"
+   ],
+   "status": 200,
+   "chars": 5214,
+   "quotes": [
+    "SHOULDER ARTHROPLASTY \u2022 The specific criteria required for revision shoulder arthroplasty are outlined in the appropriate guideline (Evolent 317).",
+    "Arthritis \u2022 RTSA may be indicated for the treatment of arthritis when ALL of the following criteria are met (Somerson, 2016):",
+    "\u2022 Failure of at least 12 weeks of non-operative treatment that includes at least ONE of the following:",
+    "o Physical therapy or properly instructed home exercise program o Rest or activity modification o Pharmacologic treatment:",
+    "oral/topical NSAIDS, acetaminophen, analgesics o Corticosteroid injections \u2022 Age > 60;",
+    "requests for RTSA in patients < 60 will be reviewed on a case-by-case basis.",
+    "\u2022 No injection into the joint within 12 weeks of surgery Contraindications:",
+    "\u2022 Any injection into the joint within 12 weeks of surgery \u2022 Active infection within 3 months of surgery \u2022 Neurologic disease resulting in CRPS or Charcot shoulder 3\u2014 Shoulder Arthroplasty Clinical Tip Sheet Proximal Humeral Fractures RTSA may be indicated for the treatment of fractures when ALL of the following criteria are met:",
+    "requests for RTSA in patients < 60 will be reviewed on a case-by-case basis Rotator Cuff Tears RTSA may be indicated for the treatment of irreparable rotator cuff tears in the absence of arthritis when ALL of the following criteria are met:",
+    "OR \u2022 history of previous failed rotator cuff repair with severe pain and functional disability \u2022 Failure of at least 12 weeks of attempted physical therapy or properly instructed home exercise program unless there is worsening of symptoms \u2022 Age > 60;",
+    "\u2022 A cortisone injection within 12 weeks of surgery is an absolute contraindication."
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www1.radmd.com/sites/default/files/2024-02/2023%20Shldr%20Arthroscopy%20Clin%20Tip%20Sheet%20Evolent%2002282024.pdf",
+   "policy_title": "Evolent Shoulder Arthroscopy Prior Authorization Tip Sheet (Evolent_CG-318)",
+   "cpts": [
+    "29806",
+    "29827"
+   ],
+   "payers": [
+    "Harvard Pilgrim Health Care",
+    "Tufts Health Plan"
+   ],
+   "status": 200,
+   "chars": 8890,
+   "quotes": [
+    "labral tear may be necessary when ALL the following criteria are met:",
+    "Bankart repair of a recurrent (two or more dislocations) labral tear may be necessary when ALL the following criteria are met:",
+    "Latarjet or Remplissage procedures for recurrent (two or more dislocations) may be necessary when ALL of the following criteria are met:",
+    "\u2756 Frozen Shoulder Repair/Adhesive Capsulitis (includes lysis of adhesions and manipulation) \u2022 Failure of at least 12 weeks of non-operative treatment that includes physical therapy or a properly instructed home exercise program and documentation of any of the following:",
+    "o Minimum of 4 weeks of oral or topical NSAIDs (if not medically contraindicated);",
+    "o Rest or activity modification;",
+    "o Corticosteroid injection \u2756 Shoulder Surgery \u2013 Other \u2756 Distal Clavicle Excision (DCE) \u2022 Failure of at least 12 weeks of non-operative treatment that includes at least two of the following:",
+    "o Oral or topical NSAIDS (4-week minimum for oral NSAIDS unless contraindicated);",
+    "o Rest/activity modification;",
+    "o AC joint corticosteroid injection (if DCE is to be performed as a standalone procedure, AC injection must be performed*);",
+    "o Physical therapy or a properly instructed home exercise program;",
+    "5\u2014 Shoulder Arthroscopy Clinical Tip Sheet \u2756 Long Head Biceps (LHB) Tenotomy/Tenodesis \u2022 Failure of at least 12 weeks of non-operative treatment to include TWO of the following:",
+    "o Bicipital groove or IA joint corticosteroid injection;",
+    "o Physical therapy or a properly instructed home exercise program o A biceps tenodesis or tenotomy may be approved when performed in conjunction with a TSA \u2756 Diagnostic Shoulder Arthroscopy \u2022 Failure of non-surgical management for at least three (3) months duration to include TWO of the following:"
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www1.radmd.com/sites/default/files/2025-01/2023%20Hipknee%20Arthroplasty%20Clin%20Tip%20Sheet%20Evolent%2002282024.pdf",
+   "policy_title": "Evolent Hip and Knee Arthroplasty (Commercial) Prior Authorization Tip Sheet",
+   "cpts": [
+    "27446",
+    "27447"
+   ],
+   "payers": [
+    "Harvard Pilgrim Health Care",
+    "Tufts Health Plan"
+   ],
+   "status": 200,
+   "chars": 5546,
+   "quotes": [
+    "Hip \u2022 extensive disease due to rheumatoid arthritis \u2022 femoral neck fracture \u2022 malignancy \u2022 dysplasia \u2022 avascular necrosis (confirmed by imaging) \u2022 radiographs (X-rays) demonstrate bone-on-bone articulation \u2022 AND there is persistent pain and documented loss of function with any of the above.",
+    "Knee \u2022 extensive disease or damage due to rheumatoid arthritis \u2022 post-traumatic arthritis (i.e., previous proximal tibia or distal femur fracture causing subsequent arthritis) \u2022 fracture \u2022 avascular necrosis confirmed by imaging \u2022 radiographs (X-rays) demonstrate bone-on-bone articulation \u2022 AND there is persistent pain and documented loss of function with any of the above.",
+    "\u2022 3 months of symptoms and \u2022 3 months of non-operative treatment to include 2 different modalities such as rest, activity modification, weight reduction, heat, ice, use of ambulatory devices, NSAIDS, analgesics, physical therapy*, intraarticular injections, etc.",
+    "Associated risks with simultaneous bilateral THA/TKA should also be discussed with the patient and documented in the medical record \u2022 Two separate requests are required for TKA vs.",
+    "o Normal ACL o Total ROM at least 90 degrees o Contractures < 5-10 degrees o Angular deformities < 10 degrees \u2022 A cortisone injection given within 12 weeks of surgery is an absolute contraindication.",
+    "\u2022 No prior arthroscopic surgery within last 6 months 3\u2014 Hip and Knee Arthroplasty (Commercial) Clinical Tip Sheet \u2756 REVISION HIP and KNEE ARTHROPLASTY \u2022 The specific criteria required for revision hip or knee arthroplasty are outlined in the appropriate guideline section."
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www1.radmd.com/sites/default/files/2025-07/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines%20-%20HMSA%20FINAL%20eff%20070125.pdf",
+   "policy_title": "2025 Evolent Clinical Guidelines for Medical Necessity Review - HMSA Musculoskeletal Surgery Guidelines",
+   "cpts": [
+    "22551",
+    "22612",
+    "27130",
+    "29914",
+    "63030"
+   ],
+   "payers": [
+    "HMSA (Hawaii Medical Service Association)"
+   ],
+   "status": 200,
+   "chars": 120000,
+   "quotes": [
+    "Cervical Fusion for Treatment of Axial Neck Pain Criteria Anterior Cervical Discectomy with Fusion (ACDF) \u2013 Multiple Levels When one of the two following criteria are met (1,2,3,4,5,6,7,8):",
+    "\u25cb Upper extremity weakness \u25cb Unsteady gait related to myelopathy/balance or generalized lower extremity weakness \u25cb Disturbance with coordination \u25cb Hyperreflexia \u25cb Hoffmann sign \u25cb Positive Babinski sign and/or clonus \u25cf Progressive neurological deficit (motor deficit, bowel or bladder dysfunction) with corresponding evidence of spinal cord or nerve root compression on an MRI or CT scan images \u2013 immediate surgical evaluation is indicated When ALL of the following criteria are met (8,10):",
+    "\u25cf Cervical radiculopathy or myelopathy due to ruptured disc, spondylosis, spinal instability, or deformity \u25cf Failure of conservative treatment* for a minimum of six (6) weeks within the last six (6) months;",
+    "NOTE - Failure of conservative treatment is defined as one of the following:",
+    "\u25cb Lack of meaningful improvement after a full course of treatment;",
+    "OR \u25cb Progression or worsening of symptoms during treatment;",
+    "OR \u25cb Documentation of a medical reason the member is unable to participate in treatment Closure of medical or therapy offices, patient inconvenience, or noncompliance without explanation does not constitute \u201cinability to complete\u201d treatment.",
+    "\u25cf Imaging studies confirm the presence of spinal cord or spinal nerve root compression (disc herniation or foraminal stenosis) at multiple levels corresponding with the clinical findings.",
+    "preferred for examining bony structures, or in individuals Page 6 of 17 Evolent Clinical Guideline 1759 for Cervical Spine Surgery presenting with clinical symptoms or signs inconsistent with MRI findings (e.g., foraminal compression not seen on MRI) As first-line treatment without conservative care measures in the following clinical cases (1,2,6,11):",
+    "See Cervical Fusion for Treatment of Axial Neck Pain Criteria Cervical Posterior Decompression with Fusion - Single Level When one of the two following criteria are met (1,2,3,4,5,6,7,8,12):",
+    "\u25cf Cervical radiculopathy or myelopathy from ruptured disc, spondylosis, spinal instability, or deformity \u25cf Failure of conservative treatment* for a minimum of six (6) weeks within the last six (6) months;",
+    "preferred for examining bony structures, or in individuals presenting with clinical symptoms or signs inconsistent with MRI findings (e.g., foraminal compression not seen on MRI) As first-line treatment without conservative care measures in the following clinical cases (1,2,6,11,12):",
+    "Cervical Posterior Decompression The following criteria must be met* (1,2,4,5,6,7,8,15):",
+    "\u25cf Cervical radiculopathy from ruptured disc, spondylosis, or deformity \u25cf Failure of conservative treatment* for a minimum of six (6) weeks within the last six (6) months;"
+   ],
+   "error": ""
+  },
+  {
+   "policy_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+   "policy_title": "2026 Evolent Clinical Guidelines for Medical Necessity Review - Musculoskeletal Surgery (Lumbar Spine Surgery)",
+   "cpts": [
+    "22551",
+    "22612",
+    "23472",
+    "27130",
+    "27446",
+    "27447",
+    "29806",
+    "29827",
+    "29881",
+    "29888",
+    "29914",
+    "63030"
+   ],
+   "payers": [
+    "'Ohana Health Plan",
+    "Absolute Total Care (Ambetter)",
+    "Ambetter (Home State Health)",
+    "Ambetter (Magnolia Health)",
+    "Ambetter (Sunshine Health)",
+    "Ambetter (WellCare)",
+    "BlueChoice HealthPlan",
+    "BlueCross BlueShield of South Carolina"
+   ],
+   "status": 200,
+   "chars": 120000,
+   "quotes": [
+    "Cervical Fusion for Treatment of Axial Neck Pain Criteria Anterior Cervical Discectomy with Fusion (ACDF) \u2013 Multiple Levels When one of the two following criteria are met (1\u20138):",
+    "\u25cb Upper extremity weakness \u25cb Unsteady gait related to myelopathy/balance or generalized lower extremity weakness \u25cb Disturbance with coordination \u25cb Hyperreflexia \u25cb Hoffmann sign \u25cb Positive Babinski sign and/or clonus \u25cf Progressive neurological deficit (motor deficit, bowel or bladder dysfunction) with corresponding evidence of spinal cord or nerve root compression on an MRI or CT scan images \u2013 immediate surgical evaluation is indicated When ALL of the following criteria are met (6\u20138):",
+    "\u25cf Cervical radiculopathy or myelopathy due to ruptured disc, spondylosis, spinal instability, or deformity \u25cf Failure of conservative treatment* for a minimum of six (6) weeks within the last six (6) months;",
+    "preferred for examining bony structures, or in individuals presenting with clinical symptoms or signs inconsistent with MRI findings (e.g., foraminal compression not seen on MRI) As first-line treatment without conservative care measures in the following clinical cases (1,2,6,9):",
+    "See Cervical Fusion for Treatment of Axial Neck Pain Criteria Cervical Posterior Decompression with Fusion (CPDF) - Single Level When one of the two following criteria are met (1\u20138,11):",
+    "\u25cf Cervical radiculopathy or myelopathy from ruptured disc, spondylosis, spinal instability, or deformity OR documented pseudarthrosis of prior ACDF/Cervical Artificial Disc Replacement (CADR) - one of the most common indications for a Single Level or Multi Levels CPDF is a failed anterior procedure \u25cf Failure of conservative treatment* for a minimum of six (6) weeks within the last six (6) months;",
+    "NOTE - Failure of conservative treatment is defined as one of the following:",
+    "\u25cb Lack of meaningful improvement after a full course of treatment;",
+    "OR \u25cb Progression or worsening of symptoms during treatment;",
+    "OR \u25cb Documentation of a medical reason the member is unable to participate in treatment Closure of medical or therapy offices, patient inconvenience, or noncompliance without explanation does not constitute \u201cinability to complete\u201d treatment.",
+    "\u25cf Imaging studies confirm the presence of spinal cord or spinal nerve root compression (disc herniation or foraminal stenosis) at single level corresponding with the clinical findings.",
+    "See Cervical Fusion for Treatment of Axial Neck Pain Criteria Cervical Fusion for Treatment of Axial Neck Pain Fusion In Individuals with Non-Radicular Cervical Pain ALL of the following criteria must be met (14,15):",
+    "\u25cf Improvement of the symptoms has failed or plateaued, and the residual symptoms of pain and functional disability are unacceptable at the end of 6 to 12 consecutive months of appropriate, active treatment, or at the end of longer duration of non- operative programs for those debilitated with complex problems NOTE:",
+    "\u25cf Cervical radiculopathy from ruptured disc, spondylosis, or deformity \u25cf Failure of conservative treatment* for a minimum of six (6) weeks within the last six (6) months;"
    ],
    "error": ""
   }
