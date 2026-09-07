@@ -34,6 +34,9 @@ SEED = 20260905
 PT = {
     "knee": ("supervised physical therapy focused on quadriceps strengthening and "
              "range of motion"),
+    "knee_scope": "supervised physical therapy focused on quadriceps strengthening and range of motion",
+    "knee_acl": "supervised physical therapy for range of motion and quadriceps strengthening, with bracing",
+    "hip_scope": "supervised physical therapy focused on core and hip stabilization with activity modification",
     "hip": "supervised physical therapy focused on hip abductor strengthening and gait",
     "shoulder": ("supervised physical therapy focused on rotator cuff strengthening "
                  "and scapular mechanics"),
@@ -46,6 +49,16 @@ PT = {
 IMAGING = {
     "knee": ("MRI of the knee: full-thickness cartilage loss in the medial compartment "
              "with bone-on-bone apposition; Kellgren-Lawrence grade 4 medially"),
+    # Arthroscopy is EXCLUDED for end-stage arthritis. The first pilot gave every
+    # knee case grade-4 OA and the grader rightly caught letters arguing for a
+    # meniscectomy from a disqualifying chart.
+    "knee_scope": ("MRI of the knee: displaced bucket-handle tear of the medial meniscus "
+                   "with mechanical locking; articular cartilage preserved, Kellgren-Lawrence grade 1"),
+    "knee_acl": ("MRI of the knee: complete mid-substance tear of the anterior cruciate "
+                 "ligament with bone bruise pattern; menisci intact; no significant arthritis"),
+    "hip_scope": ("MRI arthrogram of the hip: anterosuperior labral tear with cam-type "
+                  "femoroacetabular impingement, alpha angle 68 degrees; joint space preserved, "
+                  "Tonnis grade 0"),
     "hip": ("Weight-bearing AP pelvis radiograph: joint space narrowed to 1 mm "
             "superolaterally with subchondral sclerosis and osteophytes"),
     "shoulder": ("MRI of the shoulder: full-thickness supraspinatus tear measuring "
@@ -60,14 +73,17 @@ IMAGING = {
              "intermetatarsal angle 17 degrees"),
 }
 JOINT = {
-    "27447": "knee", "27446": "knee", "29881": "knee", "29888": "knee",
-    "27130": "hip", "29914": "hip",
+    "27447": "knee", "27446": "knee", "29881": "knee_scope", "29888": "knee_acl",
+    "27130": "hip", "29914": "hip_scope",
     "23472": "shoulder", "29827": "shoulder", "29806": "shoulder",
     "22551": "cervical", "22612": "spine", "63030": "spine",
     "27702": "ankle", "28296": "foot",
 }
 FUNCTION = {
     "knee": "cannot climb stairs without assistance and wakes 3-4 times nightly with pain",
+    "knee_scope": "experiences locking and giving way; cannot squat or kneel; limited to level walking",
+    "knee_acl": "experiences recurrent instability with pivoting; has given way twice on stairs",
+    "hip_scope": "has sharp anterior groin pain with sitting and pivoting; cannot run or squat",
     "hip": "ambulates with a cane, limited to one block, and cannot put on shoes unassisted",
     "shoulder": "cannot lift the arm above shoulder height or sleep on the affected side",
     "spine": "cannot stand more than 10 minutes; radicular pain into the right calf",
@@ -89,7 +105,7 @@ def chart(case, rng) -> str:
     return "\n".join([
         "CLINICAL SUMMARY (from the prior authorization packet)",
         f"- Symptom duration: {months} months of progressive pain in the "
-        f"{'lower back' if j == 'spine' else 'neck' if j == 'cervical' else j}, "
+        f"{'lower back' if j == 'spine' else 'neck' if j == 'cervical' else j.split('_')[0]}, "
         "unrelieved by rest.",
         f"- Conservative care: {PT[j]}, {weeks} weeks, "
         f"{pt_start.isoformat()} to {pt_end.isoformat()}, {rng.choice([16,18,20,24])} "

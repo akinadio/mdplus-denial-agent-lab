@@ -89,7 +89,30 @@ worst_defect (string, one short phrase naming the most serious problem, or ""),
 completeness (integer 0-4), notes (string, one sentence)."""
 
 
-def _prompt(case, gold, letter):
+def _evidence_packet(rid):
+    """What the writer was handed, so a sourced fact is not graded as invented.
+    The first grades flagged Cigna's phone number, Molina's criteria-access
+    route and twelve verified policy quotations as unsupported, because the
+    grader could not see they had been supplied."""
+    try:
+        res = json.loads((RUNS / rid / "result.json").read_text())
+    except Exception:  # noqa: BLE001
+        return ""
+    a = res.get("answer") or {}
+    parts = []
+    if a.get("policy_url"):
+        parts.append(f"Governing policy given to the writer: {a.get('policy_title','')} -- {a['policy_url']}")
+    if a.get("criteria_quotes"):
+        parts.append("Verbatim policy excerpts given to the writer:\n" +
+                     "\n".join(f"  - {q}" for q in a["criteria_quotes"][:14]))
+    if a.get("submission_route"):
+        parts.append(f"Submission route given to the writer: {a['submission_route']}")
+    if a.get("how_to_obtain_criteria"):
+        parts.append(f"Criteria-access instructions given to the writer: {a['how_to_obtain_criteria']}")
+    return "\n".join(parts)
+
+
+def _prompt(case, gold, letter, packet=""):
     correct = (f"Title: {gold.get('policy_title') or '(none -- this payer publishes no policy for this code)'}\n"
                f"URL: {gold.get('policy_url') or '(none)'}\n"
                f"Effective: {gold.get('effective_date') or '(n/a)'}")
@@ -106,7 +129,9 @@ def _prompt(case, gold, letter):
             f"CORRECT GOVERNING POLICY FOR THIS CASE\n{correct}\n\n"
             f"WHAT A CORRECT LETTER DOES HERE\n{expected}\n\n"
             f"CLINICAL RECORDS THE WRITER WAS GIVEN\n{case.get('chart_summary') or '(none)'}\n\n"
-            f"APPEAL LETTER TO GRADE\n{letter}\n\n"
+            + (f"EVIDENCE THE WRITER WAS GIVEN (a fact traceable to this is sourced, "
+             f"not invented; judge only claims that go beyond it)\n{packet}\n\n" if packet else "")
+            + f"APPEAL LETTER TO GRADE\n{letter}\n\n"
             "Return the JSON now.")
 
 
@@ -216,7 +241,7 @@ def main() -> int:
             resp = client.messages.create(
                 model=GRADER_MODEL, max_tokens=4000, system=SYSTEM,
                 messages=[{"role": "user",
-                           "content": _prompt(cases[cid], gold[cid], text)}])
+                           "content": _prompt(cases[cid], gold[cid], text, _evidence_packet(rid))}])
             body = "".join(b.text for b in resp.content if getattr(b, "type", None) == "text")
             g = extract_json(body) or {}
             # A grade with the judgment fields missing is not a grade. Every

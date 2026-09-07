@@ -367,7 +367,11 @@ def generate_appeal_letter(
         "date that is not given to you below; if none is given, name the "
         "policy by its title only.\n\n"
         "Use square-bracket placeholders only for details that neither the "
-        "denial notice nor the records below contain.\n\n" + context
+        "denial notice nor the records below contain. State facts about the "
+        "patient exactly as the records state them -- do not add a surgeon's "
+        "opinion, a second imaging study, a comparison to the other side, or "
+        "any finding the records do not contain, and do not describe what the "
+        "denial notice or the policy says beyond what is given above.\n\n" + context
     )
     usage = {"input_tokens": 0, "output_tokens": 0}
     try:

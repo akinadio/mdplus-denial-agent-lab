@@ -97,7 +97,13 @@ _BOILERPLATE = re.compile(
     r"guidelines? (establish|are designed|apply)|reviews all of its|take precedence|"
     r"appropriate use criteria:|description and scope|table of contents|"
     r"for this guideline.s purposes|copyright|all rights reserved|proprietary|"
-    r"made available for|limited uses of|individual use, only", re.I)
+    r"made available for|limited uses of|individual use, only|"
+    # an imaging-guidelines preface inside a surgery guideline, and the
+    # clinical-evidence section's study summaries, both read like criteria
+    r"provision of diagnostic imaging|imaging guidelines|"
+    r"\b(participants|patients|individuals|subjects) (were|met the inclusion)|"
+    r"\b(randomized|cohort|retrospective|prospective|meta-analysis|systematic review)\b|"
+    r"\b(one|two|three|four|five|six|seven|eight|nine) (hundred|thousand)\b", re.I)
 _SECTION_END = re.compile(r"\b(References|Codes|CPT Codes|ICD-10|Coding|Revision History)\b")
 
 

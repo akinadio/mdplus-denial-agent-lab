@@ -311,6 +311,12 @@ def stage_letters(cases, gold):
               prompt[max(0, hit.start()-60):hit.end()+60] if hit else "")
     check(gold[c["case_id"]]["policy_url"] in prompt, "grader is given the correct policy")
     check("Conservative care" in prompt, "grader is given the same chart the writer had")
+    pk = G._prompt(c, gold[c["case_id"]], "a letter", packet="Governing policy given to the writer: X")
+    check("EVIDENCE THE WRITER WAS GIVEN" in pk, "grader is told what evidence the writer had")
+    scope = next((x for x in cases if x["cpt"] in ("29881", "29888", "29914")), None)
+    if scope:
+        check("grade 4" not in scope["chart_summary"] and "1 mm" not in scope["chart_summary"],
+              "an arthroscopy case does not carry an end-stage-arthritis chart")
 
     # The letter must quote the document, and an invented quote must be caught
     # without a judge. Seed the cache so this costs no network.
