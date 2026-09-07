@@ -77,8 +77,8 @@ placeholder is a defect only where the records supplied the fact -- judge
 against the records, not against an ideal letter. A placeholder for something
 the records genuinely do not contain is correct behavior, not an error.
 
-Answer with JSON only, no prose, using exactly these keys:
-cites_correct_policy (bool), cites_wrong_policy (bool), unsupported_attribution
+Answer with JSON only, no prose, using exactly these keys, completeness first:
+completeness (integer 0-4), cites_correct_policy (bool), cites_wrong_policy (bool), unsupported_attribution
 (bool -- attributes a rule to the plan, outside quotation marks, with no source;
 do NOT judge quoted text, it is checked separately), demands_criteria (bool),
 factual_errors (list of at most 5 short strings), uses_records (bool -- maps the plan's
@@ -258,7 +258,10 @@ def main() -> int:
             # A grade with the judgment fields missing is not a grade. Every
             # missing field was being read as "no" -- a parse failure scored as
             # a bad letter, on 19 of 29 in-library letters on 2026-09-06.
-            REQUIRED = ("uses_records", "completeness", "unsupported_attribution",
+            # completeness is the key the grader drops most often; a grade
+            # without it is still a grade, and it is averaged over the letters
+            # that have it.
+            REQUIRED = ("uses_records", "unsupported_attribution",
                         "wrong_policy_cited", "unfinished")
             if any(g.get(k) is None for k in REQUIRED):
                 g = {"outcome": "grader_incomplete", "raw": body[-1500:],

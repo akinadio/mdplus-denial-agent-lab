@@ -31,7 +31,8 @@ for rid, g in grades.items():
     k = (key.get(rid, {}).get("system", "?"), cases[g["case_id"]]["stratum"])
     for f, _ in GOOD + DEFECTS:
         agg[k][f].append(bool(g.get(f)))
-    agg[k]["completeness"].append(int(g.get("completeness") or 0))
+    if g.get("completeness") is not None:
+        agg[k]["completeness"].append(int(g["completeness"]))
     q = g.get("quotes") or {}
     agg[k]["_q"].append(q.get("quotes", 0))
     agg[k]["_bad"].append(q.get("not_in_policy", 0))
@@ -45,13 +46,14 @@ if _inc:
     print(f"NOT GRADED (retry with --resume): {dict(_inc)}\n")
 print("LETTER QUALITY")
 for (sysname, stratum), d in sorted(agg.items()):
-    n = len(d["completeness"])
+    n = len(d["uses_records"])
     print(f"\n  {sysname}  {stratum}  n={n}")
     for f, label in GOOD:
         if f == "demands_criteria" and stratum == "in_library":
             continue   # the criteria are in hand; there is nothing to demand
         print(f"    {label:34s} {sum(d[f])/n:5.0%}")
-    print(f"    {'completeness (0-4)':34s} {sum(d['completeness'])/n:5.1f}")
+    cn = len(d["completeness"])
+    print(f"    {'completeness (0-4)':34s} {sum(d['completeness'])/cn if cn else 0:5.1f}  (n={cn})")
     print("    defects")
     for f, label in DEFECTS:
         c = sum(d[f])

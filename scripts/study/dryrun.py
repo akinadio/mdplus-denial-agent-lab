@@ -436,7 +436,7 @@ def stage_letters(cases, gold):
                    "invented_identifier": False, "unfinished": False,
                    "worst_defect": ""})
     parsed = extract_json(json.dumps(sample)) or {}
-    check(set(parsed) >= {"completeness", "unsupported_attribution", "uses_records"},
+    check(set(parsed) >= {"unsupported_attribution", "uses_records"},
           "a well-formed grade parses")
 
     # The quoting rule has to actually reach both arms.
