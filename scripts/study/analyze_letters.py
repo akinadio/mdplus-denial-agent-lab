@@ -36,12 +36,20 @@ for rid, g in grades.items():
     agg[k]["_q"].append(q.get("quotes", 0))
     agg[k]["_bad"].append(q.get("not_in_policy", 0))
     agg[k]["_unver"].append(q.get("unverifiable", 0))
+    agg[k]["_g"].append(g)
 
+import collections as _c
+_inc = _c.Counter(key.get(r, {}).get("system", "?") for r, g in grades.items()
+                  if g.get("outcome") in ("grader_incomplete", "grader_error"))
+if _inc:
+    print(f"NOT GRADED (retry with --resume): {dict(_inc)}\n")
 print("LETTER QUALITY")
 for (sysname, stratum), d in sorted(agg.items()):
     n = len(d["completeness"])
     print(f"\n  {sysname}  {stratum}  n={n}")
     for f, label in GOOD:
+        if f == "demands_criteria" and stratum == "in_library":
+            continue   # the criteria are in hand; there is nothing to demand
         print(f"    {label:34s} {sum(d[f])/n:5.0%}")
     print(f"    {'completeness (0-4)':34s} {sum(d['completeness'])/n:5.1f}")
     print("    defects")
@@ -49,8 +57,9 @@ for (sysname, stratum), d in sorted(agg.items()):
         c = sum(d[f])
         print(f"      {label:32s} {c:2d}/{n} = {c/n:4.0%}")
     tot, bad, unver = sum(d["_q"]), sum(d["_bad"]), sum(d["_unver"])
-    print(f"    quotations: {tot} made, {bad} not in the document, "
-          f"{unver} unverifiable (no text fetched)")
+    other = sum((g.get("quotes") or {}).get("from_other_sources", 0) for g in d["_g"])
+    print(f"    quotations: {tot} of the policy, {bad} not found in it, "
+          f"{unver} unverifiable; {other} of the denial notice or records (fine)")
 
 print("\nPAIRED, same letter")
 by_case = collections.defaultdict(dict)

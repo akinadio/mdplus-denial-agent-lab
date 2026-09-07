@@ -32,6 +32,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from retrieve import (SYSTEMS, STUDY, RUNS, _load_env_files,  # noqa: E402
                      _directory_row, _load_access, _access_route)
 from synthetic_harness.policy_text import criteria_for  # noqa: E402
+import spend  # noqa: E402
 
 LETTER_ASK = (
     "Now write the appeal letter the patient should send, using what you just "
@@ -53,6 +54,21 @@ def _ask(case):
     return LETTER_ASK + (f"\n\n{chart}" if chart else "")
 
 
+def _notice_fields(text):
+    """Member, ID, dates and reference number, read off the denial notice the
+    same way a person would. Production gets these from extraction; the study's
+    synthetic notices are regular enough to read directly."""
+    import re
+    out = {}
+    for key, pat in (("member_name", r"Member:\s*(.+)"), ("member_id", r"Member ID:\s*(\S+)"),
+                     ("denial_date", r"Date of notice:\s*(\S+)"),
+                     ("reference_number", r"Reference number:\s*(\S+)")):
+        m = re.search(pat, text)
+        if m:
+            out[key] = m.group(1).strip()
+    return out
+
+
 def _ortho_result(case, ans):
     """Shape a phase-1 directory answer into what the production letter
     generator expects, having first READ the policy.
@@ -71,12 +87,15 @@ def _ortho_result(case, ans):
             "product_type": case["plan_type"], "state": case["state"],
             "procedure": case["surgery"], "cpt": case["cpt"],
             "denial_language": case["denial_reason"],
+            **_notice_fields(case.get("letter_text", "")),
         },
         "policy_analysis": {
             "denial_category": case["denial_reason"],
             "apparent_reason": case["denial_reason"],
             "criteria_at_issue": quotes,
         },
+        "denial_notice_text": case.get("letter_text", ""),
+        "criteria_request": ans.get("how_to_obtain_criteria") or "",
         "appeal_deadline": ans.get("appeal_deadline") or case["appeal_deadline"],
         "submission_route": ans.get("submission_route") or "",
         "retrieval": {
@@ -152,6 +171,11 @@ def main() -> int:
     cases = {c["case_id"]: c for c in json.loads((STUDY / "cases.json").read_text())["cases"]}
     key = json.loads((STUDY / "unblinding.json").read_text())
 
+    todo = [rid for rid, info in key.items() if info["system"] in systems
+            and (RUNS / rid / "result.json").exists()
+            and not (a.resume and (RUNS / rid / "letter.json").exists()
+                     and not json.loads((RUNS / rid / "letter.json").read_text()).get("error"))]
+    spend.banner("letters", len(todo), "claude-sonnet-5 / gpt-5.6-luna", 6000, 1500)
     done = skipped = 0
     for rid, info in key.items():
         if info["system"] not in systems:
@@ -160,16 +184,37 @@ def main() -> int:
         if not (d / "result.json").exists():
             continue
         if a.resume and (d / "letter.json").exists():
-            continue
+            prior = json.loads((d / "letter.json").read_text())
+            # A failed draft is not a finished one. Skipping it on resume is
+            # how phase 1 re-reported an old error against fixed code.
+            if not prior.get("error"):
+                continue
         if a.limit and done + skipped >= a.limit:
             break
         case, res = cases[info["case_id"]], json.loads((d / "result.json").read_text())
         model = SYSTEMS[info["system"]][1]
         try:
+            spend.check_budget()
             out = (letter_ortho(case, res, model) if info["system"].startswith("ortho")
                    else letter_chatgpt(case, res, model))
+        except spend.OutOfFunds as e:
+            print(f"\n  STOPPED: {e}\n  {done} letters drafted and saved.")
+            return 2
         except Exception as e:  # noqa: BLE001
             out = {"error": f"{type(e).__name__}: {e}"}
+        if spend.is_funding_error(out.get("error", "")):
+            out["run_id"], out["case_id"] = rid, info["case_id"]
+            (d / "letter.json").write_text(json.dumps(out, indent=1))
+            print(f"\n  STOPPED, out of funds at the provider: {out['error'][:120]}\n"
+                  f"  {done} letters drafted and saved; add credit and re-run with --resume.")
+            return 2
+        if not out.get("error") and len(out.get("letter_markdown") or "") < 800:
+            # Two of 60 came back as a header with no body. That is a failed
+            # draft, not a short letter; --resume will draft it again.
+            out["error"] = f"letter too short ({len(out.get('letter_markdown') or '')} chars): no body"
+        if out.get("usage"):
+            out["usd"] = spend.cost(out.get("model", model), out["usage"])
+            running = spend.record("letters", out.get("model", model), out["usage"], rid)
         out["run_id"], out["case_id"] = rid, info["case_id"]
         (d / "letter.json").write_text(json.dumps(out, indent=1))
         if out.get("error"):
@@ -178,8 +223,11 @@ def main() -> int:
         else:
             done += 1
             n = len(out.get("letter_markdown", ""))
-            print(f"  {rid} {info['system']:13s} ok ({n} chars)")
+            print(f"  {rid} {info['system']:13s} ok ({n} chars)  ${out.get('usd', 0):.3f}"
+                  f"  running ${running:.2f}" if out.get("usage") else
+                  f"  {rid} {info['system']:13s} ok ({n} chars)")
     print(f"\n{done} letters drafted, {skipped} errored -> {RUNS}")
+    spend.report()
     return 0
 
 

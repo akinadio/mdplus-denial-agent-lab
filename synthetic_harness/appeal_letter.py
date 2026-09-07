@@ -209,6 +209,14 @@ def _letter_context(result: dict[str, Any], patient_submission: str | None) -> s
 
     lines = ["CASE"]
     for label, key in (
+        # Whatever the denial notice gave us about the person. Without these
+        # the letter opens with [Member Name] and [Member ID] and a reviewer
+        # reads it as unfinished -- 67% of our in-library letters did.
+        ("Member name", "member_name"),
+        ("Member ID", "member_id"),
+        ("Date of birth", "dob"),
+        ("Denial date", "denial_date"),
+        ("Reference number", "reference_number"),
         ("Payer", "payer"),
         ("Plan", "plan_name"),
         ("Product", "product_type"),
@@ -264,6 +272,13 @@ def _letter_context(result: dict[str, Any], patient_submission: str | None) -> s
         if route:
             lines.append(f"- Send it to: {route}")
 
+    req = (result.get("criteria_request") or "").strip()
+    if req:
+        lines.append("\nCRITERIA REQUEST (the letter must make this demand, in its own "
+                     "paragraph: the plan holds the criteria it applied and must provide "
+                     "them in writing)")
+        lines.append(req)
+
     lines.append("\nGOVERNING POLICY (cite this, and only this)")
     if source.get("title"):
         lines.append(f"- Title: {source['title']}")
@@ -289,6 +304,13 @@ def _letter_context(result: dict[str, Any], patient_submission: str | None) -> s
                      "them as the plan's exact words)")
         for i, c in enumerate(unverified, 1):
             lines.append(f"{i}. {c.get('claim', '')}: {c.get('excerpt', '')}")
+
+    notice = (result.get("denial_notice_text") or "").strip()
+    if notice:
+        lines.append("\nTHE DENIAL NOTICE, AS RECEIVED (take names, IDs, dates and the "
+                     "reference number from here; do not leave a placeholder for "
+                     "anything it states)")
+        lines.append(notice[:6000])
 
     if patient_submission:
         lines.append("\nPATIENT-PROVIDED CONTEXT (use only what is clearly stated)")
@@ -339,8 +361,13 @@ def generate_appeal_letter(
         "discredits the whole letter. Never reconstruct, paraphrase inside "
         "quotation marks, or invent a policy number, section heading or "
         "effective date.\n\n"
-        "Use square-bracket placeholders only for patient details the records "
-        "below do not contain.\n\n" + context
+        "Open with a line that names the governing policy exactly as given in "
+        "GOVERNING POLICY -- title, and URL if there is one -- so a reviewer can "
+        "find it. Do not state a policy number, section, version or effective "
+        "date that is not given to you below; if none is given, name the "
+        "policy by its title only.\n\n"
+        "Use square-bracket placeholders only for details that neither the "
+        "denial notice nor the records below contain.\n\n" + context
     )
     usage = {"input_tokens": 0, "output_tokens": 0}
     try:

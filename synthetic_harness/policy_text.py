@@ -44,12 +44,25 @@ def policy_text(url: str, refresh: bool = False) -> dict:
         return {"text": "", "error": "no url"}
     p = _key(url)
     if p.exists() and not refresh:
-        return json.loads(p.read_text())
+        cached = json.loads(p.read_text())
+        # An empty result is a failure to read, not a fact about the document.
+        # It is never a cache hit, so a fixed extractor gets a second try.
+        if cached.get("text"):
+            return cached
     from policy_eval.webtools import fetch
     try:
-        r = fetch(url, max_text_chars=120000)
+        r = fetch(url, max_text_chars=400000)
+        text = r.get("text") or ""
+        # fetch() reports a failed PDF extraction as blocked_reason
+        # "extraction_failed:...", with status 200 and empty text. On
+        # 2026-09-05 that read as "200, no criteria" for 32 of 44 documents
+        # because pypdf was not installed. Say what actually happened.
+        err = r.get("error") or ""
+        if not text and not err:
+            err = (r.get("blocked_reason") or r.get("login_wall_reason")
+                   or f"no text extracted (content-type {r.get('content_type')})")
         out = {"url": url, "final_url": r.get("final_url"), "status": r.get("status"),
-               "text": r.get("text") or "", "error": r.get("error") or ""}
+               "content_type": r.get("content_type"), "text": text, "error": err}
     except Exception as exc:  # noqa: BLE001
         out = {"url": url, "text": "", "error": f"{type(exc).__name__}: {exc}"}
     CACHE.mkdir(parents=True, exist_ok=True)
@@ -57,35 +70,106 @@ def policy_text(url: str, refresh: bool = False) -> dict:
     return out
 
 
-def find_criteria(text: str, cpt: str = "", limit: int = 12) -> list[str]:
-    """Pull candidate criteria sentences out of a policy document.
+# What a procedure is called inside a policy. The CPT itself usually appears
+# only in a codes table at the end of a section, so "near the CPT" found the
+# codes table; the criteria live under the procedure's own heading.
+PROCEDURE_TERMS = {
+    "27130": ["total hip arthroplasty", "hip arthroplasty", "total hip replacement", "hip replacement"],
+    "27447": ["total knee arthroplasty", "knee arthroplasty", "total knee replacement", "knee replacement"],
+    "27446": ["unicompartmental", "partial knee", "unicondylar"],
+    "29881": ["meniscectomy", "knee arthroscopy", "arthroscopic knee"],
+    "29880": ["meniscectomy", "knee arthroscopy"],
+    "29888": ["anterior cruciate", "acl reconstruction", "cruciate ligament"],
+    "29914": ["femoroacetabular", "hip arthroscopy", "arthroscopic hip"],
+    "23472": ["total shoulder arthroplasty", "shoulder arthroplasty", "shoulder replacement"],
+    "29827": ["rotator cuff"],
+    "29806": ["labral", "instability", "capsulorrhaphy", "bankart"],
+    "22551": ["anterior cervical discectomy", "cervical fusion", "cervical arthrodesis", "acdf"],
+    "22612": ["lumbar fusion", "lumbar spinal fusion", "lumbar arthrodesis", "spinal fusion"],
+    "63030": ["laminotomy", "discectomy", "lumbar decompression", "microdiscectomy"],
+    "27702": ["total ankle arthroplasty", "ankle arthroplasty", "ankle replacement"],
+    "28296": ["hallux valgus", "bunion", "bunionectomy"],
+}
+# Front matter and definitions that read like criteria but are not this
+# procedure's rule. A letter that quotes "Carelon reviews all of its Guidelines
+# at least annually" has quoted the policy and said nothing.
+_BOILERPLATE = re.compile(
+    r"guidelines? (establish|are designed|apply)|reviews all of its|take precedence|"
+    r"appropriate use criteria:|description and scope|table of contents|"
+    r"for this guideline.s purposes|copyright|all rights reserved|proprietary|"
+    r"made available for|limited uses of|individual use, only", re.I)
+_SECTION_END = re.compile(r"\b(References|Codes|CPT Codes|ICD-10|Coding|Revision History)\b")
+
+
+def _procedure_window(text: str, cpt: str) -> str:
+    """The stretch of the document that is about this procedure.
+
+    Picks the occurrence of the procedure's name that is followed soonest by
+    criteria language -- that skips the table of contents, where the name
+    appears first but says nothing -- and runs to the section's codes or
+    references, or 15k characters, whichever comes first.
+    """
+    terms = PROCEDURE_TERMS.get(cpt, [])
+    if not terms or not text:
+        return ""
+    low = text.lower()
+    best, best_gap = None, 10**9
+    for t in terms:
+        for m in re.finditer(re.escape(t), low):
+            tail = low[m.start(): m.start() + 4000]
+            k = re.search(r"medically necessary|clinical indications|indicated|criteria|"
+                          r"considered", tail)
+            gap = k.start() if k else 10**8
+            if gap < best_gap:
+                best, best_gap = m.start(), gap
+    if best is None:
+        return ""
+    body = text[best: best + 15000]
+    e = _SECTION_END.search(body, 800)
+    return body[: e.start()] if e else body
+
+
+def _sentences(text: str) -> list[str]:
+    text = re.sub(r"[ \t]+", " ", text)
+    return [c.strip() for c in re.split(r"(?<=[.;:])\s+|\n{2,}", text) if c.strip()]
+
+
+def find_criteria(text: str, cpt: str = "", limit: int = 14) -> list[str]:
+    """Pull the criteria sentences for THIS procedure out of a policy.
 
     Deliberately dumb and verbatim: it selects, it never paraphrases. Anything
     it returns can be checked against the document character for character,
-    which is the property that matters. Passages near the CPT code come first.
+    which is the property that matters. The procedure's own section comes
+    first; the rest of the document only fills in behind it.
     """
     if not text:
         return []
-    text = re.sub(r"[ \t]+", " ", text)
-    chunks = [c.strip() for c in re.split(r"(?<=[.;:])\s+|\n{2,}", text) if c.strip()]
-    hits, near = [], []
-    for i, c in enumerate(chunks):
-        if len(c) < 40 or len(c) > 600 or _NOISE.match(c):
-            continue
-        if not _CRITERIA_CUES.search(c):
-            continue
-        window = " ".join(chunks[max(0, i - 3):i + 4])
-        (near if cpt and cpt in window else hits).append(c)
     seen, out = set(), []
-    for c in near + hits:
-        k = c[:80].lower()
-        if k in seen:
-            continue
-        seen.add(k)
-        out.append(c)
-        if len(out) >= limit:
-            break
-    return out
+
+    def take(chunks, want):
+        carry = 0   # items of a list that a lead-in sentence just opened
+        for c in chunks:
+            if len(out) >= want:
+                break
+            if len(c) < 25 or len(c) > 600 or _NOISE.match(c) or _BOILERPLATE.search(c):
+                continue
+            # "...is medically necessary for ANY of the following:" is followed by
+            # the indications themselves, which are noun phrases with no cue
+            # word in them. They are the criteria; keep the next few.
+            opens_list = bool(re.search(r"following:?\s*$", c, re.I))
+            if not _CRITERIA_CUES.search(c) and carry <= 0:
+                continue
+            k = c[:80].lower()
+            if k in seen:
+                continue
+            seen.add(k)
+            out.append(c)
+            carry = 4 if opens_list else carry - 1
+
+    take(_sentences(_procedure_window(text, cpt)), limit)
+    if len(out) < 6:                      # thin section, or no section found
+        take(_sentences(text), limit)
+    return out[:limit]
 
 
 def verify_quote(quote: str, text: str) -> bool:
@@ -128,7 +212,16 @@ def criteria_for(url: str, cpt: str = "", allow_fetch: bool = True) -> dict:
         return {"quotes": [], "text": "", "source": "none"}
     hit = _library().get(url)
     if hit and hit.get("quotes"):
-        return {"quotes": hit["quotes"], "text": hit.get("text", ""), "source": "library"}
+        # The library keeps quotes, not the document. Verification needs the
+        # document, and the cache has it from the same read -- without this,
+        # every library hit looked like an unreadable policy and the letter
+        # was told not to quote the very sentences we had just handed it.
+        text = hit.get("text") or ""
+        if not text:
+            p = _key(url)
+            if p.exists():
+                text = (json.loads(p.read_text()).get("text") or "")
+        return {"quotes": hit["quotes"], "text": text, "source": "library"}
     if not allow_fetch:
         return {"quotes": [], "text": "", "source": "none"}
     doc = policy_text(url)

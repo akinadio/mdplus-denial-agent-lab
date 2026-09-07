@@ -1,6 +1,7 @@
 {
  "version": "poc-1",
  "seed": 20260830,
+ "refreshed": "2026-09-06",
  "entries": [
   {
    "case_id": "poc-ee22487639",
@@ -11,6 +12,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "Criteria section addresses open discectomy/microdiscectomy for radiculopathy. Caveat: coding table lists 62287 (percutaneous) as supporting coverage and does not enumerate 63030. S",
    "correct_behavior": "cite_document",
+   "vendor": "",
    "policy_title": "Clinical Policy: Disc Decompression Procedures (CP.MP.114)",
    "policy_url": "https://www.ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf",
    "effective_date": "Date of Last Revision: 04/25"
@@ -24,6 +26,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "2026-08-22 regional sweep: vendor/source: eviCore. Verbatim criteria: \"function-limiting pain at short distances ... for at least three (3) months duration\" eviCore joint+spine programs cover 12 of 14 (not 27702/28296). 23472 under CMM-318 - no plan-agnostic public PDF verified; get via evicore.com/provider/clinical-guidelines or reqcriteria@evicore.com. Own THR policy exists on PolicyTech (public, machine-unreadable); Back Surgical Procedures + FAI policies now behind Sanford SSO.",
    "correct_behavior": "cite_document",
+   "vendor": "eviCore",
    "policy_title": "eviCore CMM-311/312/313/314/315/601/606/609 series (generic EviCore editions, same URLs as WellSense entry)",
    "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-08/EviCore_CMM-311%20Knee%20Replacement%20Arthroplasty_V2.0.2025_Eff11.05.2025_upd08.12.2025.pdf",
    "effective_date": "2025-07-01 to 2025-11-05"
@@ -37,6 +40,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "verified in sweep 1",
    "correct_behavior": "cite_document",
+   "vendor": "",
    "policy_title": "Cigna Medical Coverage Policy 0285 Total Ankle Arthroplasty",
    "policy_url": "https://static.cigna.com/assets/chcp/pdf/coveragePolicies/medical/mm_0285_coveragepositioncriteria_total_ankle_arthroplasty.pdf",
    "effective_date": "3/15/2026"
@@ -50,6 +54,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "2026-08-21 sweep: refreshed from a stale V2.0.2025 edition. Every Cigna CMM guideline on evicore.com/cigna moved to V1.0.2026 effective 2026-08-04; filenames changed style between editions so old URLs could not be rewritten mechanically. Verbatim criteria: \"Failure of provider-directed non-surgical management for at least three (3) months' duration\"",
    "correct_behavior": "cite_document",
+   "vendor": "eviCore",
    "policy_title": "Cigna CMM-313 Hip Replacement/Arthroplasty V1.0.2026",
    "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2026-04/Cigna_CMM-313%20Hip%20Replace%20Arthro_V1.0.2026_Eff08.04.2026_Pub04.20.2026.pdf",
    "effective_date": "2026-08-04"
@@ -63,6 +68,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "verified in sweep 1",
    "correct_behavior": "cite_document",
+   "vendor": "",
    "policy_title": "Clinical Appropriateness Guidelines: Small Joint Surgery (Carelon)",
    "policy_url": "https://files.providernews.anthem.com/2519/PDF-Small-Joint-Surgery-2023-11-05.pdf",
    "effective_date": "11/05/2023"
@@ -76,6 +82,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "2026-08-22 regional sweep: vendor/source: InterQual (own ECG series first). Verbatim criteria: \"At least 12 weeks of non-surgical treatment documented in the medical record\" Hierarchy policy ECG_2738.CC (public) proves InterQual governs the other 11 CPTs.",
    "correct_behavior": "cite_document",
+   "vendor": "InterQual",
    "policy_title": "EVH CG 2734.CC Outpatient Major Joint Arthroplasty (Hips and Knees)",
    "policy_url": "https://countycare.com/wp-content/uploads/ECG_2734.CC-for-Outpatient-Major-Joint-Arthroplasy-Hips-and-Knees-ver-Dec-25.pdf",
    "effective_date": "2026-01-01"
@@ -89,6 +96,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "Current version (V1.0.2026, eff 08/04/2026, pub 04/30/2026). CPT 63030 confirmed in codes table. CMM-608 Lumbar Decompression (same eff date) also available for laminectomy-only ca",
    "correct_behavior": "cite_document",
+   "vendor": "",
    "policy_title": "Cigna Medical Coverage Policies - Musculoskeletal: CMM-606 Lumbar Microdiscectomy (Laminotomy, Laminectomy, or Hemilaminectomy) (V1.0.2026)",
    "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2026-04/Cigna_CMM-606%20Lumbar%20Microdiscectomy_V1.0.2026_Eff08.04.2026_Pub04.30.2026.pdf",
    "effective_date": "08/04/2026"
@@ -102,6 +110,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "2026-08-26 national catalog. policy CPB 0629. criteria: \u201cBony correction bunionectomy (e.g., Akin, Chevron, Keller, Lapidus, Mitchell, proximal metatarsal osteotomy procedures, etc.) to treat symptomatic hallux valgus (bunion) in a skeletally mature individual\u201d. Fetched; coding table lists 28296 under the bony-correction 'CPT codes covered if selection criteria are met'. confidence: high",
    "correct_behavior": "cite_document",
+   "vendor": "",
    "policy_title": "Aetna CPB 0629 - Bunionectomy",
    "policy_url": "https://www.aetna.com/cpb/medical/data/600_699/0629.html",
    "effective_date": "last review 12/11/2025"
@@ -115,6 +124,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "2026-08-22 regional sweep: vendor/source: Evolent. Verbatim criteria: \"Failure of conservative treatment for a minimum of six (6) weeks within the last six (6) months\" Pre-auth page names Evolent for MSK shoulder/hip/spine/knee surgery. No IA-specific MSK matrix found on RadMD yet - confirm via provider services 1-833-404-1061. 27702/28296 -> InterQual/Centene.",
    "correct_behavior": "cite_document",
+   "vendor": "InterQual",
    "policy_title": "2026 Evolent MSK Surgery Guidelines",
    "policy_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
    "effective_date": "2026-07-01"
@@ -128,6 +138,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "2026-08-21 sweep: newly researched. Every Cigna CMM guideline on evicore.com/cigna moved to V1.0.2026 effective 2026-08-04; filenames changed style between editions so old URLs could not be rewritten mechanically. Verbatim criteria: \"Failure of provider-directed non-surgical management for at least three (3) months' duration; severe unicompartmental osteoarthritis by Kellgren-Lawrence Grade IV radiographs OR Outerbridge Grade IV arthroscopic OR Modified Outerbridge Grade IV MRI findings; arc of motion greater than 90 degrees\"",
    "correct_behavior": "cite_document",
+   "vendor": "eviCore",
    "policy_title": "Cigna CMM-311 Knee Replacement/Arthroplasty V1.0.2026 (Partial Knee Replacement section)",
    "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2026-04/Cigna_CMM-311%20Knee%20Replac%20Arthro_V1.0.2026_Eff08.04.2026_Pub04.20.2026.pdf",
    "effective_date": "2026-08-04"
@@ -141,6 +152,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "2026-08-22 regional sweep: vendor/source: none. Verbatim criteria: \"unremitting cervical radiculopathy and/or myelopathy (i.e., neck and arm pain) resulting in disability and/or neurological deficit that are refractory to at least six weeks of standard conservative, nonoperative management\" Writes own criteria, public, login-free. CAUTION: current policies live under /legacy-medical-policy/ URLs (still current despite name) and a newer /medical-policy/content.id= platform. FAI policy (29914, rev Feb 2026) and Laminectomy + Discectomy policies (63030, rev Sept 2025) EXIST but JS portal blocked fetch - pull via portal code search before citing. Total Ankle S-9006-02 shows ARCHIVED 1/1/",
    "correct_behavior": "cite_document",
+   "vendor": "",
    "policy_title": "Cervical Fusions, S-9004-02",
    "policy_url": "https://www.bcbsnd.com/providers/policies-precertification/legacy-medical-policy/c/cervical-fusions",
    "effective_date": "2024-07-01"
@@ -154,6 +166,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "2026-08-21 sweep: refreshed from a stale V2.0.2025 edition. Every Cigna CMM guideline on evicore.com/cigna moved to V1.0.2026 effective 2026-08-04; filenames changed style between editions so old URLs could not be rewritten mechanically. Verbatim criteria: \"Failure of provider-directed non-surgical management for at least three (3) months' duration AND which must include ... an image-guided intra-articular hip injection with local anesthetic ... to which there was a positive response\"",
    "correct_behavior": "cite_document",
+   "vendor": "eviCore",
    "policy_title": "Cigna CMM-314 Hip Surgery - Arthroscopic and Open Procedures V1.0.2026",
    "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2026-04/Cigna_CMM-314%20Hip%20Surg%20Arthro%20%26%20Open%20Proc_V1.0.2026_Eff08.04.2026_Pub04.20.2026.pdf",
    "effective_date": "2026-08-04"
@@ -167,6 +180,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "Delegated to Evolent (NIA). Requires symptomatic meniscal tear confirmed by MRI. Full criteria in 2026 Evolent MSK Surgery Guidelines (RadMD). CPT confirmed in-scope in Harvard Pil",
    "correct_behavior": "cite_document",
+   "vendor": "Evolent",
    "policy_title": "Evolent Knee Arthroscopy Prior Authorization Tip Sheet (Evolent_CG-316)",
    "policy_url": "https://www1.radmd.com/sites/default/files/2024-02/2023%20Knee%20Arthroscopy%20Clin%20Tip%20Sheet%20Evolent%2002282024.pdf",
    "effective_date": ""
@@ -180,6 +194,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "2026-08-26 eviCore CMM series. policy CMM-315. criteria: \u201cMRI or CT shows EITHER: Grade 2 or 3 partial-thickness tear (Ellman) or full-thickness tear (Cofield) ... Three (3) months failed non-surgical management\u201d. Payer delegation confirmed: Banner's own PA grid routes 13 of the 14 codes to 'eviCore MSK - Care Core National'; Banner-specific joint and spine code lists fetched from evicore.com. 27702 is the exception, kept in-house under MCG. Guideline fetched and its own code table confirmed to carry this CPT.. confidence: high",
    "correct_behavior": "cite_document",
+   "vendor": "MCG",
    "policy_title": "eviCore CMM-315 Shoulder Surgery - Arthroscopic and Open Procedures",
    "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-02/EviCore_CMM-315%20Shoulder%20Surg%20Arthro_Final_V1.0.2025_Pub02.25.2025.pdf",
    "effective_date": "2025-07-01"
@@ -193,6 +208,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "2026-08-22 regional sweep: vendor/source: Cohere. Avera delegates MSK+cardio+radiology PA to Cohere Health; Avera PA list (hsv-doc-192) contains all 14 CPTs under COHERE CODES. Cohere publishes Avera-specific policy PDFs on its PUBLIC help center - index fetched and verified, but PDFs served from Intercom CDN with signed expiring links that our egress proxy 403'd. CPT mapping inferred from titles; read PDFs before citing criteria text. This is a ",
    "correct_behavior": "cite_document",
+   "vendor": "Cohere",
    "policy_title": "Cohere Health: Avera Commercial Guidelines index (Knee Arthroplasty v8, Knee Arthroscopy v10, Hip Arthroplasty v5, Hip Arthroscopy v6, Shoulder Arthroplasty v4, Shoulder Arthroscopy v5, Open Shoulder v4, Cervical Spinal Fusion v5, Lumbar Spinal Fusion v3, Spinal Decompression v4.1, Ankle Arthroplasty v4, Great Toe Surgical Treatments v3)",
    "policy_url": "https://help.coherehealth.com/payer-info/en/articles/13602157-avera-health-plan-commercial-guidelines",
    "effective_date": "current, versioned per guideline"
@@ -206,6 +222,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "Delegated to Evolent (NIA). Requires symptomatic meniscal tear confirmed by MRI. Full criteria in 2026 Evolent MSK Surgery Guidelines (RadMD). CPT confirmed in-scope in Harvard Pil",
    "correct_behavior": "cite_document",
+   "vendor": "Evolent",
    "policy_title": "Evolent Knee Arthroscopy Prior Authorization Tip Sheet (Evolent_CG-316)",
    "policy_url": "https://www1.radmd.com/sites/default/files/2024-02/2023%20Knee%20Arthroscopy%20Clin%20Tip%20Sheet%20Evolent%2002282024.pdf",
    "effective_date": ""
@@ -219,6 +236,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "2026-08-22 regional sweep: vendor/source: InterQual (Medicaid) / Evolent (MA). Verbatim criteria: \"Failure of conservative treatment* for a minimum of six (6) weeks within the last six (6) months\" Medicaid physical-health UM: Wellcare bulletin - all markets using MCG transitioned to InterQual eff 8/1/2022. Public CCG page has no ortho CCGs. MA members: Evolent public criteria apply (hip/spine sections read directly; knee/shoulder confirmed in TOC). 27702/28296 outside Evolent program.",
    "correct_behavior": "cite_document",
+   "vendor": "InterQual",
    "policy_title": "2026 Evolent MSK Surgery Guidelines",
    "policy_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
    "effective_date": "2026-07-01"
@@ -232,6 +250,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "HMSA delegates MSK surgery prior auth to Evolent (formerly NIA/Magellan); Evolent-HMSA guideline PDF is public on RadMD (fetched). Program applies to HMSA Commercial, QUEST and Med",
    "correct_behavior": "cite_document",
+   "vendor": "Evolent",
    "policy_title": "2025 Evolent Clinical Guidelines for Medical Necessity Review - HMSA Musculoskeletal Surgery Guidelines",
    "policy_url": "https://www1.radmd.com/sites/default/files/2025-07/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines%20-%20HMSA%20FINAL%20eff%20070125.pdf",
    "effective_date": "July 1, 2025 - June 30, 2026 (as printed)"
@@ -245,6 +264,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "2026-08-22 regional sweep: vendor/source: TurningPoint. Verbatim criteria: \"Anterior Cervical Discectomy and Fusion (ACDF) ... medically necessary according to TurningPoint criteria\" TurningPoint MSK covers 13 of 14 CPTs (28296 not on list). Criteria behind Prism portal / TurningPoint login.",
    "correct_behavior": "cite_document",
+   "vendor": "TurningPoint",
    "policy_title": "PH Medical Policy 91581-R23 SPINE PROCEDURES",
    "policy_url": "https://priorityhealth.stylelabs.cloud/api/public/content/5f005b3ee3044b68ad920d57974c2d68?v=785108c8",
    "effective_date": "2026-03-01"
@@ -258,6 +278,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "2026-08-21 sweep: refreshed from a stale V2.0.2025 edition. Every Cigna CMM guideline on evicore.com/cigna moved to V1.0.2026 effective 2026-08-04; filenames changed style between editions so old URLs could not be rewritten mechanically. Verbatim criteria: \"Failure of provider-directed non-surgical management for at least three (3) months' duration AND which must include ... an image-guided intra-articular hip injection with local anesthetic ... to which there was a positive response\"",
    "correct_behavior": "cite_document",
+   "vendor": "eviCore",
    "policy_title": "Cigna CMM-314 Hip Surgery - Arthroscopic and Open Procedures V1.0.2026",
    "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2026-04/Cigna_CMM-314%20Hip%20Surg%20Arthro%20%26%20Open%20Proc_V1.0.2026_Eff08.04.2026_Pub04.20.2026.pdf",
    "effective_date": "2026-08-04"
@@ -271,6 +292,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "Delegated to Carelon per IBX policy #00.01.66; Hip Replacement codes 27125-27138 on IBX Commercial precert list (performed by Carelon).",
    "correct_behavior": "cite_document",
+   "vendor": "Carelon",
    "policy_title": "Carelon Clinical Appropriateness Guidelines - Musculoskeletal: Joint Surgery (2025-11-15)",
    "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/",
    "effective_date": "11/15/2025 (Doc ID MSK02-1125.1)"
@@ -284,6 +306,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "2026-08-27 browser read. The knee sections that truncated on every automated route were read in full in a real browser session. criteria: \u201cElective medial or lateral unicompartmental knee arthroplasty (UKA)/partial knee replacement (PKA) is considered medically necessary when ALL the following criteria are met: Imaging evidence ... Kellgren-Lawrence grade 3 - 4, isolated to the medial or lateral knee compartment with no degenerative changes in the opposite compartment; Intact anterior cruciate ligament ...; Less than 10 degrees of fixed varus deformity for medial UKA; ... Failure of at least 12 weeks of non-surgical conservative management\u201d. code table lists 27446 'medial OR lateral compartment'. Full verbatim section text: data/policy_platform/research7/. confidence: high",
    "correct_behavior": "cite_document",
+   "vendor": "",
    "policy_title": "Carelon Joint Surgery (MSK02-1125.1)",
    "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/",
    "effective_date": "2025-11-15"
@@ -297,6 +320,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "Criteria section addresses open discectomy/microdiscectomy for radiculopathy. Caveat: coding table lists 62287 (percutaneous) as supporting coverage and does not enumerate 63030. S",
    "correct_behavior": "cite_document",
+   "vendor": "",
    "policy_title": "Clinical Policy: Disc Decompression Procedures (CP.MP.114)",
    "policy_url": "https://www.ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf",
    "effective_date": "Date of Last Revision: 04/25"
@@ -310,6 +334,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "PacificSource's clinical-policies page names Carelon MBM Clinical Appropriateness Guidelines as its musculoskeletal criteria (Commercial and Medicare) and links this public guideli",
    "correct_behavior": "cite_document",
+   "vendor": "Carelon",
    "policy_title": "Carelon Clinical Appropriateness Guidelines: Spine Surgery",
    "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15-updated-2026-01-01/",
    "effective_date": "2025-11-15 (updated 2026-01-01)"
@@ -323,6 +348,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "2026-08-22 regional sweep: vendor/source: Carelon. Verbatim criteria: \"Failure of at least 12 weeks of non-surgical conservative management (unless radiographs show Kellgren-Lawrence grade 4)\" Own library has none of the 14; 2026 Provider Manual Sec 4: Carelon MSK program for joint + spine surgery, guidelines public. 29888 NOT in Carelon Joint Surgery. 27702/28296 in Carelon Small Joint Surgery 2025-11-15 (public) but LA Blue program inclusion unconfirmed. NOTE: Carelon HTML guideline pages are fetchable where the PDF bundle truncates!",
    "correct_behavior": "cite_document",
+   "vendor": "Carelon",
    "policy_title": "Carelon Joint Surgery 2025-11-15 (HTML)",
    "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/",
    "effective_date": "2025-11-15"
@@ -336,6 +362,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "2026-08-22 regional sweep: plan pre-auth page names Evolent for musculoskeletal surgery; plan-specific 2026 Joint/Spine Utilization Review Matrix on RadMD confirms this CPT. Criteria are public, no login. Verbatim: \"Weight-bearing radiographs demonstrate only unicompartmental disease ... Kellgren-Lawrence grade 3 or grade 4 degeneration\"",
    "correct_behavior": "cite_document",
+   "vendor": "Evolent",
    "policy_title": "2026 Evolent Clinical Guidelines - Musculoskeletal Surgery",
    "policy_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
    "effective_date": "2026-07-01"
@@ -349,6 +376,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "2026-08-26 national catalog. policy CPB 0660. criteria: \u201cUnicompartmental knee arthroplasty using FDA-approved devices is considered medically necessary for members with advanced osteoarthritis or post-traumatic arthritis of the knee affecting only a single compartment (medial, lateral or patellofemoral)\u201d. Fetched; coding table lists 27446 'medial OR lateral compartment' (customized/patient-specific unicompartmental devices carved out as not covered). confidence: high",
    "correct_behavior": "cite_document",
+   "vendor": "",
    "policy_title": "Aetna CPB 0660 - Knee Arthroplasty",
    "policy_url": "https://www.aetna.com/cpb/medical/data/600_699/0660.html",
    "effective_date": "last review 02/26/2026"
@@ -362,6 +390,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "verified in sweep 1",
    "correct_behavior": "cite_document",
+   "vendor": "",
    "policy_title": "Clinical Appropriateness Guidelines: Small Joint Surgery (Carelon)",
    "policy_url": "https://files.providernews.anthem.com/2519/PDF-Small-Joint-Surgery-2023-11-05.pdf",
    "effective_date": "11/05/2023"
@@ -375,6 +404,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "2026-08-26 national catalog. policy CPB 0736. criteria: \u201cAetna considers femoro-acetabular surgery, open or arthroscopic, for the treatment of hip impingement syndrome medically necessary for persons who fulfill all the following criteria: 1. Diagnosis of definite femoro-acetabular impingement (FAI) defined by appropriate imaging studies (X-rays, MRI or CT scans), showing labral pathology\u201d. Fetched; coding table lists 29914 'with femoroplasty (ie, treatment of cam lesion)' plus 29915/29916. confidence: high",
    "correct_behavior": "cite_document",
+   "vendor": "",
    "policy_title": "Aetna CPB 0736 - Hip Preservation Surgery",
    "policy_url": "https://www.aetna.com/cpb/medical/data/700_799/0736.html",
    "effective_date": "last review 07/31/2026"
@@ -388,6 +418,7 @@
    "directory_status": "VERIFIED",
    "directory_note": "2026-08-26 national catalog. policy CPB 0660. criteria: \u201cUnicompartmental knee arthroplasty using FDA-approved devices is considered medically necessary for members with advanced osteoarthritis or post-traumatic arthritis of the knee affecting only a single compartment (medial, lateral or patellofemoral)\u201d. Fetched; coding table lists 27446 'medial OR lateral compartment' (customized/patient-specific unicompartmental devices carved out as not covered). confidence: high",
    "correct_behavior": "cite_document",
+   "vendor": "",
    "policy_title": "Aetna CPB 0660 - Knee Arthroplasty",
    "policy_url": "https://www.aetna.com/cpb/medical/data/600_699/0660.html",
    "effective_date": "last review 02/26/2026"
@@ -404,8 +435,7 @@
    "vendor": "InterQual",
    "policy_title": "Surgery of the Hip (2026T0503JJ)",
    "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-hip.pdf",
-   "effective_date": "March 1, 2026",
-   "why_criteria_withheld": "2026-09-04 pilot fix: promoted from NO PUBLIC CRITERIA (vendor). The payer's own policy is public and names this code; criteria are vendor-held, so cite the document and route for the criteria. 2026-09-04 pilot fix: was pointed at UHC's Medicare Advantage policy, which does not govern a commercial member. Repointed to the commercial policy. 2026-08-26 national catalog. Commercial criteria are prop"
+   "effective_date": "March 1, 2026"
   },
   {
    "case_id": "poc-9ab63cfcdf",
@@ -419,8 +449,7 @@
    "vendor": "InterQual",
    "policy_title": "Surgery of the Shoulder (2026T0556FF)",
    "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-shoulder.pdf",
-   "effective_date": "January 1, 2026",
-   "why_criteria_withheld": "2026-09-04 pilot fix: promoted from NO PUBLIC CRITERIA (vendor). The payer's own policy is public and names this code; criteria are vendor-held, so cite the document and route for the criteria. 2026-09-04 pilot fix: was pointed at UHC's Medicare Advantage policy, which does not govern a commercial member. Repointed to the commercial policy. 2026-08-26 national catalog. Commercial criteria are prop"
+   "effective_date": "January 1, 2026"
   },
   {
    "case_id": "poc-87e365caed",
@@ -434,8 +463,7 @@
    "vendor": "InterQual",
    "policy_title": "Surgery of the Knee (Commercial)",
    "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf",
-   "effective_date": "2026-06-01",
-   "why_criteria_withheld": "2026-09-04 pilot fix: promoted from CODE ONLY. The payer's own policy is public and names this code; criteria are vendor-held, so cite the document and route for the criteria. TKA criteria outsourced to InterQual; ACL 29888 is only listed in the code table with no ACL criteria."
+   "effective_date": "2026-06-01"
   },
   {
    "case_id": "poc-177b09d7a6",
@@ -449,8 +477,7 @@
    "vendor": "InterQual",
    "policy_title": "Spinal Fusion and Decompression (2026T0639I)",
    "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/spinal-fusion-decompression.pdf",
-   "effective_date": "2026-04-01",
-   "why_criteria_withheld": "2026-09-04 pilot fix: promoted from NO PUBLIC CRITERIA (vendor). The payer's own policy is public and names this code; criteria are vendor-held, so cite the document and route for the criteria. 2026-09-04 pilot fix: was pointed at UHC's Medicare Advantage policy, which does not govern a commercial member. Repointed to the commercial policy. 2026-08-26 national catalog. Commercial criteria are prop"
+   "effective_date": "2026-04-01"
   },
   {
    "case_id": "poc-9dd444765e",
@@ -464,8 +491,7 @@
    "vendor": "MCG",
    "policy_title": "Molina Clinical Policy MCP-404 Shoulder Arthroscopy",
    "policy_url": "https://www.molinahealthcare.com/-/media/Molina/PublicWebsite/PDF/Providers/il/resource/Shoulder-Arthroscopy-Guidelines_MCP_404.pdf",
-   "effective_date": "Original Effective 6/9/21; Revision 6/9/21",
-   "why_criteria_withheld": "2026-09-04 pilot fix: promoted from NO PUBLIC CRITERIA (vendor). The payer's own policy is public and names this code; criteria are vendor-held, so cite the document and route for the criteria. 2026-08-26 national catalog. Molina corporate clinical-policy index (~200 policies) enumerated: no Molina-authored policy for this procedure exists (MSK MCPs are niche-technology only; MCP-404 retired). Mol"
+   "effective_date": "Original Effective 6/9/21; Revision 6/9/21"
   },
   {
    "case_id": "poc-55381bdbc3",
@@ -479,8 +505,7 @@
    "vendor": "InterQual",
    "policy_title": "Surgery of the Ankle (2026T0622O)",
    "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-ankle.pdf",
-   "effective_date": "July 1, 2026",
-   "why_criteria_withheld": "2026-09-04 pilot fix: promoted from NO PUBLIC CRITERIA (vendor). The payer's own policy is public and names this code; criteria are vendor-held, so cite the document and route for the criteria. Defers to InterQual CP: Procedures: Total Joint Replacement (TJR), Ankle; no public MN criteria."
+   "effective_date": "July 1, 2026"
   },
   {
    "case_id": "poc-aa9ea32e7d",
@@ -494,8 +519,7 @@
    "vendor": "MCG",
    "policy_title": "Molina Clinical Policy MCP-404 Shoulder Arthroscopy",
    "policy_url": "https://www.molinahealthcare.com/-/media/Molina/PublicWebsite/PDF/Providers/il/resource/Shoulder-Arthroscopy-Guidelines_MCP_404.pdf",
-   "effective_date": "Original Effective 6/9/21; Revision 6/9/21",
-   "why_criteria_withheld": "2026-09-04 pilot fix: promoted from NO PUBLIC CRITERIA (vendor). The payer's own policy is public and names this code; criteria are vendor-held, so cite the document and route for the criteria. 2026-08-26 national catalog. Molina corporate clinical-policy index (~200 policies) enumerated: no Molina-authored policy for this procedure exists (MSK MCPs are niche-technology only; MCP-404 retired). Mol"
+   "effective_date": "Original Effective 6/9/21; Revision 6/9/21"
   },
   {
    "case_id": "poc-9297e0e467",
@@ -509,8 +533,7 @@
    "vendor": "InterQual",
    "policy_title": "Utilization Management (UM) Criteria",
    "policy_url": "https://www.medstarfamilychoicemd.com/-/media/project/mho/mfc/maryland-healthchoice-physicians/medical-policies-and-procedures/policy-115-utilization-management-um-criteria-july-2026.pdf",
-   "effective_date": "July 2026",
-   "why_criteria_withheld": "2026-09-04 pilot fix: promoted from NO PUBLIC CRITERIA (vendor). The payer's own policy is public and names this code; criteria are vendor-held, so cite the document and route for the criteria. 2026-08-26 south payer library walk. policy 115. vendor: InterQual. Complete 32-policy index walked: no ortho surgical policy. Policy 115 (July 2026) names InterQual and states 'All criteria utilized in uti"
+   "effective_date": "July 2026"
   },
   {
    "case_id": "poc-3469abe4fc",
@@ -524,8 +547,7 @@
    "vendor": "InterQual",
    "policy_title": "Surgery of the Ankle (2026T0622O)",
    "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-ankle.pdf",
-   "effective_date": "July 1, 2026",
-   "why_criteria_withheld": "2026-09-04 pilot fix: promoted from NO PUBLIC CRITERIA (vendor). The payer's own policy is public and names this code; criteria are vendor-held, so cite the document and route for the criteria. Defers to InterQual CP: Procedures: Total Joint Replacement (TJR), Ankle; no public MN criteria."
+   "effective_date": "July 1, 2026"
   },
   {
    "case_id": "poc-92d596c7f2",
@@ -539,8 +561,7 @@
    "vendor": "InterQual",
    "policy_title": "Utilization Management Criteria",
    "policy_url": "https://www.medstarfamilychoicedc.com/-/media/project/mho/mfcdc/medical-policies-and-procedures/policy-115dc_utilization-management-criteria.pdf",
-   "effective_date": "",
-   "why_criteria_withheld": "2026-09-04 pilot fix: promoted from NO PUBLIC CRITERIA (vendor). The payer's own policy is public and names this code; criteria are vendor-held, so cite the document and route for the criteria. 2026-08-26 south payer library walk. policy 115.DC. vendor: InterQual (ASAM for substance use). Complete 22-policy index walked: no arthroplasty, arthroscopy, fusion or discectomy policy (closest: 1425.DC B"
+   "effective_date": ""
   },
   {
    "case_id": "poc-cd6af51965",
@@ -554,8 +575,7 @@
    "vendor": "MCG",
    "policy_title": "Molina Clinical Policy MCP-404 Shoulder Arthroscopy",
    "policy_url": "https://www.molinahealthcare.com/-/media/Molina/PublicWebsite/PDF/Providers/il/resource/Shoulder-Arthroscopy-Guidelines_MCP_404.pdf",
-   "effective_date": "Original Effective 6/9/21; Revision 6/9/21",
-   "why_criteria_withheld": "2026-09-04 pilot fix: promoted from NO PUBLIC CRITERIA (vendor). The payer's own policy is public and names this code; criteria are vendor-held, so cite the document and route for the criteria. 2026-08-26 national catalog. Molina corporate clinical-policy index (~200 policies) enumerated: no Molina-authored policy for this procedure exists (MSK MCPs are niche-technology only; MCP-404 retired). Mol"
+   "effective_date": "Original Effective 6/9/21; Revision 6/9/21"
   },
   {
    "case_id": "poc-0948c5760b",
@@ -569,8 +589,7 @@
    "vendor": "InterQual",
    "policy_title": "Utilization Management Criteria",
    "policy_url": "https://www.medstarfamilychoicedc.com/-/media/project/mho/mfcdc/medical-policies-and-procedures/policy-115dc_utilization-management-criteria.pdf",
-   "effective_date": "",
-   "why_criteria_withheld": "2026-09-04 pilot fix: promoted from NO PUBLIC CRITERIA (vendor). The payer's own policy is public and names this code; criteria are vendor-held, so cite the document and route for the criteria. 2026-08-26 south payer library walk. policy 115.DC. vendor: InterQual (ASAM for substance use). Complete 22-policy index walked: no arthroplasty, arthroscopy, fusion or discectomy policy (closest: 1425.DC B"
+   "effective_date": ""
   },
   {
    "case_id": "poc-e6ef62d505",
@@ -584,8 +603,7 @@
    "vendor": "InterQual",
    "policy_title": "Spinal Fusion and Decompression (2026T0639I)",
    "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/spinal-fusion-decompression.pdf",
-   "effective_date": "2026-04-01",
-   "why_criteria_withheld": "2026-09-04 pilot fix: promoted from NO PUBLIC CRITERIA (vendor). The payer's own policy is public and names this code; criteria are vendor-held, so cite the document and route for the criteria. UHC 2026T0639I; the doc is real but criteria are outsourced to InterQual (proprietary, not in the public document)."
+   "effective_date": "2026-04-01"
   },
   {
    "case_id": "poc-39de00339b",
@@ -599,8 +617,7 @@
    "vendor": "InterQual",
    "policy_title": "UPMC Provider Manual Chapter G - Utilization Management",
    "policy_url": "https://www.upmchealthplan.com/docs/providers/2025_ProviderManual_G.pdf",
-   "effective_date": "2025-04-03",
-   "why_criteria_withheld": "2026-09-04 pilot fix: promoted from NO PUBLIC CRITERIA (vendor). The payer's own policy is public and names this code; criteria are vendor-held, so cite the document and route for the criteria. 2026-08-25 final gap sweep: UPMC publishes essentially nothing. Chapter G says \"Medical policies outlining items, services, and procedures that require review for prior authorization are available online at"
+   "effective_date": "2025-04-03"
   },
   {
    "case_id": "poc-5edc35c98d",
@@ -614,8 +631,7 @@
    "vendor": "InterQual",
    "policy_title": "MVP Health Care 2025 Annual Notices for Providers (NY)",
    "policy_url": "https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/legal/2025-annual-notices-providers-ny.pdf",
-   "effective_date": "03/2025",
-   "why_criteria_withheld": "2026-09-04 pilot fix: promoted from NO PUBLIC CRITERIA (vendor). The payer's own policy is public and names this code; criteria are vendor-held, so cite the document and route for the criteria. InterQual per MVP annual notice; no public procedure-specific policy. Vendor: InterQual."
+   "effective_date": "03/2025"
   },
   {
    "case_id": "poc-aaa1cf805a",
@@ -627,9 +643,9 @@
    "directory_note": "No CP.MP policy for cervical fusion; InterQual per Ambetter statement; cervical fusion listed in TurningPoint MSK program (criteria by request only).",
    "correct_behavior": "abstain_and_route",
    "vendor": "InterQual",
-   "policy_url": "",
    "policy_title": "",
-   "why_no_public_policy": "No CP.MP policy for cervical fusion; InterQual per Ambetter statement; cervical fusion listed in TurningPoint MSK program (criteria by request only)."
+   "policy_url": "",
+   "effective_date": ""
   },
   {
    "case_id": "poc-0b7f2515da",
@@ -641,9 +657,9 @@
    "directory_note": "2026-08-22 regional sweep: vendor/source: TurningPoint. Administered by CareSource; TurningPoint MSK. Criteria behind myturningpoint portal; copies via WI line 1-414-296-6120 / providersupport@turningpoint-healthcare.com.",
    "correct_behavior": "abstain_and_route",
    "vendor": "TurningPoint",
-   "policy_url": "",
    "policy_title": "",
-   "why_no_public_policy": "2026-08-22 regional sweep: vendor/source: TurningPoint. Administered by CareSource; TurningPoint MSK. Criteria behind myturningpoint portal; copies via WI line 1-414-296-6120 / providersupport@turningpoint-healthcare.com."
+   "policy_url": "",
+   "effective_date": ""
   },
   {
    "case_id": "poc-7908fd6832",
@@ -655,9 +671,9 @@
    "directory_note": "No ACL reconstruction MCP in Molina's complete clinical policy index; reviewed under licensed third-party criteria not publicly posted.",
    "correct_behavior": "abstain_and_route",
    "vendor": "",
-   "policy_url": "",
    "policy_title": "",
-   "why_no_public_policy": "No ACL reconstruction MCP in Molina's complete clinical policy index; reviewed under licensed third-party criteria not publicly posted."
+   "policy_url": "",
+   "effective_date": ""
   },
   {
    "case_id": "poc-7eb7cfd8b4",
@@ -669,9 +685,9 @@
    "directory_note": "Delegated to eviCore; criteria are eviCore CMM-318 Shoulder Arthroplasty/Replacement. Only Cigna-branded copies of CMM-318 are indexed publicly; the generic eviCore PDF URL could n",
    "correct_behavior": "abstain_and_route",
    "vendor": "eviCore",
-   "policy_url": "",
    "policy_title": "",
-   "why_no_public_policy": "Delegated to eviCore; criteria are eviCore CMM-318 Shoulder Arthroplasty/Replacement. Only Cigna-branded copies of CMM-318 are indexed publicly; the generic eviCore PDF URL could n"
+   "policy_url": "",
+   "effective_date": ""
   },
   {
    "case_id": "poc-c29c7cfc4d",
@@ -683,9 +699,9 @@
    "directory_note": "Page fetched: OH Medicaid delegates this procedure ('Knee Arthroscopy; Meniscal Repair' on the listed TurningPoint scope) to TurningPoint Healthcare Solutions Surgical Quality & Sa",
    "correct_behavior": "abstain_and_route",
    "vendor": "TurningPoint",
-   "policy_url": "",
    "policy_title": "",
-   "why_no_public_policy": "Page fetched: OH Medicaid delegates this procedure ('Knee Arthroscopy; Meniscal Repair' on the listed TurningPoint scope) to TurningPoint Healthcare Solutions Surgical Quality & Sa"
+   "policy_url": "",
+   "effective_date": ""
   },
   {
    "case_id": "poc-19ff75efc5",
@@ -697,9 +713,9 @@
    "directory_note": "2026-08-22 regional sweep: vendor/source: InterQual. Policies name the InterQual subset rather than stating criteria - useful to prove WHICH criteria apply, not what they say. MassHealth ACO members: state GMNDs apply for knee.",
    "correct_behavior": "abstain_and_route",
    "vendor": "InterQual",
-   "policy_url": "",
    "policy_title": "",
-   "why_no_public_policy": "2026-08-22 regional sweep: vendor/source: InterQual. Policies name the InterQual subset rather than stating criteria - useful to prove WHICH criteria apply, not what they say. MassHealth ACO members: state GMNDs apply for knee."
+   "policy_url": "",
+   "effective_date": ""
   },
   {
    "case_id": "poc-c1ee0f5da7",
@@ -711,9 +727,9 @@
    "directory_note": "No CP.MP policy for bunionectomy/hallux valgus; defaults to InterQual per Ambetter statement.",
    "correct_behavior": "abstain_and_route",
    "vendor": "InterQual",
-   "policy_url": "",
    "policy_title": "",
-   "why_no_public_policy": "No CP.MP policy for bunionectomy/hallux valgus; defaults to InterQual per Ambetter statement."
+   "policy_url": "",
+   "effective_date": ""
   },
   {
    "case_id": "poc-5d5b151de3",
@@ -725,9 +741,9 @@
    "directory_note": "No CP.MP policy; InterQual per Ambetter statement; ACL repair listed in TurningPoint MSK program (criteria by request only).",
    "correct_behavior": "abstain_and_route",
    "vendor": "InterQual",
-   "policy_url": "",
    "policy_title": "",
-   "why_no_public_policy": "No CP.MP policy; InterQual per Ambetter statement; ACL repair listed in TurningPoint MSK program (criteria by request only)."
+   "policy_url": "",
+   "effective_date": ""
   },
   {
    "case_id": "poc-1ec0b0cd1f",
@@ -739,9 +755,9 @@
    "directory_note": "2026-08-26 national catalog. Molina corporate clinical-policy index (~200 policies) enumerated: no Molina-authored policy for this procedure exists (MSK MCPs are niche-technology only; MCP-404 retired). Molina points to MCG (molinahealth.access.mcg.com) and, for imaging, Evolent -- criteria proprietary. confidence: medium",
    "correct_behavior": "abstain_and_route",
    "vendor": "MCG",
-   "policy_url": "",
    "policy_title": "",
-   "why_no_public_policy": "2026-08-26 national catalog. Molina corporate clinical-policy index (~200 policies) enumerated: no Molina-authored policy for this procedure exists (MSK MCPs are niche-technology only; MCP-404 retired). Molina points to MCG (molinahealth.access.mcg.com) and, for imaging, Evolent -- criteria proprietary. confidence: medium"
+   "policy_url": "",
+   "effective_date": ""
   },
   {
    "case_id": "poc-d87a7955a7",
@@ -753,9 +769,9 @@
    "directory_note": "No CP.MP policy for bunionectomy/hallux valgus; defaults to InterQual per Ambetter statement.",
    "correct_behavior": "abstain_and_route",
    "vendor": "InterQual",
-   "policy_url": "",
    "policy_title": "",
-   "why_no_public_policy": "No CP.MP policy for bunionectomy/hallux valgus; defaults to InterQual per Ambetter statement."
+   "policy_url": "",
+   "effective_date": ""
   },
   {
    "case_id": "poc-9992a0803a",
@@ -767,9 +783,9 @@
    "directory_note": "2026-08-26 national catalog. Molina corporate clinical-policy index (~200 policies) enumerated: no Molina-authored policy for this procedure exists (MSK MCPs are niche-technology only; MCP-404 retired). Molina points to MCG (molinahealth.access.mcg.com) and, for imaging, Evolent -- criteria proprietary. confidence: medium",
    "correct_behavior": "abstain_and_route",
    "vendor": "MCG",
-   "policy_url": "",
    "policy_title": "",
-   "why_no_public_policy": "2026-08-26 national catalog. Molina corporate clinical-policy index (~200 policies) enumerated: no Molina-authored policy for this procedure exists (MSK MCPs are niche-technology only; MCP-404 retired). Molina points to MCG (molinahealth.access.mcg.com) and, for imaging, Evolent -- criteria proprietary. confidence: medium"
+   "policy_url": "",
+   "effective_date": ""
   },
   {
    "case_id": "poc-b12ba21a5a",
@@ -781,9 +797,9 @@
    "directory_note": "No procedure-specific policy in the public Coverage Policy Manual (title dropdown checked for knee/hip/shoulder/ankle/spine/fusion/rotator/hallux etc.). Search page states the plan",
    "correct_behavior": "abstain_and_route",
    "vendor": "",
-   "policy_url": "",
    "policy_title": "",
-   "why_no_public_policy": "No procedure-specific policy in the public Coverage Policy Manual (title dropdown checked for knee/hip/shoulder/ankle/spine/fusion/rotator/hallux etc.). Search page states the plan"
+   "policy_url": "",
+   "effective_date": ""
   },
   {
    "case_id": "poc-bf385bb269",
@@ -795,9 +811,9 @@
    "directory_note": "2026-08-22 regional sweep: vendor/source: InterQual (own ECG series first). Hierarchy policy ECG_2738.CC (public) proves InterQual governs the other 11 CPTs.",
    "correct_behavior": "abstain_and_route",
    "vendor": "InterQual",
-   "policy_url": "",
    "policy_title": "",
-   "why_no_public_policy": "2026-08-22 regional sweep: vendor/source: InterQual (own ECG series first). Hierarchy policy ECG_2738.CC (public) proves InterQual governs the other 11 CPTs."
+   "policy_url": "",
+   "effective_date": ""
   },
   {
    "case_id": "poc-3b4a598a17",
@@ -809,9 +825,9 @@
    "directory_note": "Policy exists (eff 8/3/2026, reviewed 7/14/2026) but only via TAD search interface; no stable public URL.",
    "correct_behavior": "abstain_and_route",
    "vendor": "",
-   "policy_url": "",
    "policy_title": "",
-   "why_no_public_policy": "Policy exists (eff 8/3/2026, reviewed 7/14/2026) but only via TAD search interface; no stable public URL."
+   "policy_url": "",
+   "effective_date": ""
   },
   {
    "case_id": "poc-47f0c5aa4b",
@@ -823,9 +839,9 @@
    "directory_note": "Policy exists (eff 8/3/2026, reviewed 7/14/2026) but only via TAD search interface; no stable public URL.",
    "correct_behavior": "abstain_and_route",
    "vendor": "",
-   "policy_url": "",
    "policy_title": "",
-   "why_no_public_policy": "Policy exists (eff 8/3/2026, reviewed 7/14/2026) but only via TAD search interface; no stable public URL."
+   "policy_url": "",
+   "effective_date": ""
   }
  ]
 }

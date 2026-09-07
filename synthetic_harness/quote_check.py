@@ -17,51 +17,87 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from synthetic_harness.policy_text import policy_text, verify_quote  # noqa: E402
+from synthetic_harness.policy_text import policy_text  # noqa: E402
 
 # Block quotes (markdown "> ") and anything inside double or curly quotes long
 # enough to be a claim rather than a phrase.
 _BLOCK = re.compile(r"^\s*>\s?(.+)$", re.M)
-_INLINE = re.compile(r"[\"“]([^\"”]{40,600})[\"”]")
+# One line, starts with a letter: a stray quote mark two paragraphs before a
+# markdown **Member:** line is not a quotation, and was being counted as one.
+_INLINE = re.compile(r"[\"“]([A-Za-z][^\"”\n]{39,600})[\"”]")
+
+
+def _norm(t: str) -> str:
+    """Letters and digits only, single-spaced. A quotation with a period the
+    document does not have, or a curly quote, or a line break, is still the
+    document's sentence."""
+    return re.sub(r"[^a-z0-9]+", " ", (t or "").lower()).strip()
+
+
+def _blocks(letter: str) -> list[str]:
+    """Each run of consecutive '> ' lines is ONE quotation. Joining every
+    block line in the letter into a single string turned three separate
+    quotations into one that matched nothing, and flagged 19 honest letters."""
+    out, cur = [], []
+    for line in (letter or "").splitlines():
+        m = _BLOCK.match(line)
+        if m and m.group(1).strip():
+            cur.append(m.group(1).strip())
+        elif cur:
+            out.append(" ".join(cur)); cur = []
+    if cur:
+        out.append(" ".join(cur))
+    return out
 
 
 def quoted_passages(letter: str) -> list[str]:
     out, seen = [], set()
-    block = [m.strip() for m in _BLOCK.findall(letter or "")]
-    if block:                      # consecutive "> " lines are one quotation
-        merged, buf = [], []
-        for line in block:
-            buf.append(line)
-        merged.append(" ".join(buf))
-        out.extend(merged)
-    out.extend(m.strip() for m in _INLINE.findall(letter or ""))
+    for b in _blocks(letter):
+        for piece in re.split(r"[\"”]\s+[\"“]", b):
+            out.append(piece.strip(" \"“”"))
+    for m in _INLINE.findall(letter or ""):
+        # '"A." "B."' captured as one span: split on the quote-space-quote seam
+        # and drop any quote marks the capture swallowed.
+        for piece in re.split(r"[\"”]\s+[\"“]", m):
+            out.append(piece.strip(" \"“”"))
     keep = []
     for q in out:
-        k = re.sub(r"\s+", " ", q)[:80].lower()
-        if len(q) < 40 or k in seen:
+        k = _norm(q)[:80]
+        if len(q) < 40 or k in seen or "\n" in q.strip() or q.lstrip().startswith(("*", "#", "[")):
             continue
         seen.add(k)
         keep.append(q)
     return keep
 
 
-def check(letter: str, policy_url: str) -> dict:
-    """Return what the letter quoted, and whether the document contains it."""
+def in_text(quote: str, text: str) -> bool:
+    q = _norm(quote)
+    return len(q) > 25 and q in _norm(text)
+
+
+def check(letter: str, policy_url: str, other_sources: list[str] | None = None) -> dict:
+    """What the letter quoted, and whether the document contains it.
+
+    `other_sources` are texts the letter may legitimately quote that are not
+    the policy -- the denial notice, the patient's records. A letter that
+    quotes the denial's own words back at the reviewer has not invented
+    anything, and was being counted as though it had."""
     quotes = quoted_passages(letter)
+    others = [t for t in (other_sources or []) if t]
+    from_other = [q for q in quotes if any(in_text(q, t) for t in others)]
+    quotes = [q for q in quotes if q not in from_other]
+    base = {"from_other_sources": len(from_other)}
     if not quotes:
-        return {"quotes": 0, "unverifiable": 0, "not_in_policy": 0,
+        return {**base, "quotes": 0, "unverifiable": 0, "not_in_policy": 0,
                 "verified": 0, "examples": [], "checked": True}
     doc = policy_text(policy_url) if policy_url else {"text": ""}
     text = doc.get("text") or ""
     if not text:
-        # No document to check against: the letter quoted something we cannot
-        # verify. That is not the same as an invented quote, and is not counted
-        # as one.
-        return {"quotes": len(quotes), "unverifiable": len(quotes),
+        return {**base, "quotes": len(quotes), "unverifiable": len(quotes),
                 "not_in_policy": 0, "verified": 0,
                 "examples": [q[:160] for q in quotes[:3]], "checked": False,
                 "why": doc.get("error") or "no policy text available"}
-    bad = [q for q in quotes if not verify_quote(q, text)]
-    return {"quotes": len(quotes), "unverifiable": 0, "not_in_policy": len(bad),
+    bad = [q for q in quotes if not in_text(q, text)]
+    return {**base, "quotes": len(quotes), "unverifiable": 0, "not_in_policy": len(bad),
             "verified": len(quotes) - len(bad),
             "examples": [q[:160] for q in bad[:3]], "checked": True}

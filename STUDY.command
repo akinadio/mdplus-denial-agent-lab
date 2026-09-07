@@ -6,10 +6,18 @@
 #   bash ~/mdplus-denial-agent-lab/STUDY.command retrieve  paid: phase 1, which policy governs (ChatGPT + OrthoAppeals)
 #   bash ~/mdplus-denial-agent-lab/STUDY.command letters   paid: phase 2, draft and grade the appeal letters
 #   bash ~/mdplus-denial-agent-lab/STUDY.command all       check, then everything above in order
+#   bash ~/mdplus-denial-agent-lab/STUDY.command spend     what has it cost so far
 #
 # Runs on your Mac because payer sites, OpenAI and Brave are not reachable from
 # Claude's sandboxes. Keys are read from .env and openai.env, both gitignored.
 # Every paid step is preceded by the free check, and stops if it fails.
+#
+# Money: every paid call is written to study/spend.json as it happens, the
+# running total prints on every line, and each step ends with a breakdown.
+# Put STUDY_BUDGET_USD=40 in .env to make the run stop itself at $40. If the
+# provider says the account is out of credit, the run stops at once. Either
+# way nothing is lost: everything finished is on disk, and the same command
+# with the same step picks up from the first thing that did not finish.
 set -u
 cd "$(dirname "$0")" || exit 1
 export PYTHONPATH="$PWD:$PWD/scripts"
@@ -27,10 +35,13 @@ check() {
 }
 
 fixes() {
+  python3 -m pip install -q -U pypdf requests 2>/dev/null
   echo "== fixes 1/4  reading every policy document and keeping its criteria verbatim =="
   python3 $P/build_criteria_library.py || exit 1
   echo; echo "== fixes 2/4  reading the rows that hide a document behind an abstaining status =="
   python3 $P/audit_hidden_documents.py --apply || exit 1
+  echo; echo "== fixes 2b/4  answer key follows the directory; cases and paid runs stay =="
+  python3 $S/build_cases.py --refresh-gold || exit 1
   echo; echo "== fixes 3/4  rebuilding the app's generated data and the shipped build =="
   python3 scripts/build_coverage_js.py && python3 scripts/build_submit_js.py && python3 scripts/build_demo.py || exit 1
   echo; echo "== fixes 4/4  re-checking =="
@@ -56,13 +67,25 @@ for f in glob.glob("study/runs/*/result.json"):
     if {"error", "skipped"} & set(json.load(open(f))): shutil.rmtree(pathlib.Path(f).parent); n += 1
 print(f"  cleared {n} failed run(s); {len(glob.glob('study/runs/*/result.json'))} kept")
 PY
-  echo; echo "== retrieve: OrthoAppeals arm (local, seconds) =="
-  python3 $S/retrieve.py --systems ortho-sonnet --resume || exit 1
+  echo; echo "== retrieve: OrthoAppeals arm (local, free, always fresh) =="
+  # Never resume this arm: it costs nothing, and a cached answer from before a
+  # directory fix would be scored as if the fix had not happened.
+  python3 - <<'PYX'
+import json, glob, shutil, pathlib
+m = json.load(open("study/unblinding.json")) if pathlib.Path("study/unblinding.json").exists() else {}
+n = 0
+for d in glob.glob("study/runs/r-*"):
+    if m.get(pathlib.Path(d).name, {}).get("system", "").startswith("ortho"):
+        shutil.rmtree(d); n += 1
+print(f"  cleared {n} cached OrthoAppeals runs")
+PYX
+  python3 $S/retrieve.py --systems ortho-sonnet || exit 1
   echo; echo "== retrieve: ChatGPT arm, smoke test on one letter =="
   python3 $S/retrieve.py --systems chatgpt --limit 1 --resume || exit 1
   echo; echo "== retrieve: ChatGPT arm, all letters (real web tools, minutes per letter) =="
   python3 $S/retrieve.py --systems chatgpt --resume || exit 1
   echo; python3 $S/score.py && echo && python3 $S/analyze.py
+  echo; python3 -c "import sys; sys.path.insert(0,'scripts/study'); import spend; spend.report()"
 }
 
 letters() {
@@ -71,6 +94,7 @@ letters() {
   echo; echo "== letters: grading blind =="
   python3 $S/grade_letters.py --resume || exit 1
   echo; python3 $S/analyze_letters.py
+  echo; python3 -c "import sys; sys.path.insert(0,'scripts/study'); import spend; spend.report()"
 }
 
 case "$step" in
@@ -79,5 +103,6 @@ case "$step" in
   retrieve) check; retrieve ;;
   letters)  check; letters ;;
   all)      check; fixes; retrieve; letters ;;
+  spend)    python3 -c "import sys; sys.path.insert(0,'scripts/study'); import spend; spend.report()" ;;
   *)        sed -n '2,10p' "$0" ;;
 esac

@@ -290,6 +290,11 @@ def stage_letters(cases, gold):
     stub2 = _StubAnthropic("Dear Plan,\n\nPlease send me the criteria.\n")
     out_np = generate_appeal_letter(shaped_np, client=stub2, sender="patient")
     check(not out_np.get("error"), "an abstaining case still produces a letter")
+    shaped_np["criteria_request"] = res_np["answer"].get("how_to_obtain_criteria", "")
+    stub3 = _StubAnthropic("letter")
+    generate_appeal_letter(shaped_np, client=stub3, sender="patient")
+    check("CRITERIA REQUEST" in stub3.seen_prompt,
+          "a withheld-criteria case tells the letter to demand them")
 
     # The grader must be blind, and must be able to parse its own output.
     import grade_letters as G
@@ -319,6 +324,21 @@ def stage_letters(cases, gold):
     PT._key(fake_url).write_text(json.dumps({"url": fake_url, "text": real, "status": 200}))
 
     check(PT.policy_text(fake_url)["text"] == real, "policy text is cached and read back")
+    two_section = ("Table of Contents Hip Arthroplasty Knee Arthroplasty. "
+                   "Carelon reviews all of its Guidelines at least annually. "
+                   "Hip Arthroplasty Description and Scope. Total hip arthroplasty is "
+                   "considered medically necessary for ANY of the following: "
+                   "Advanced joint disease demonstrated by radiographic findings. "
+                   "Failure of conservative management documented for at least 12 weeks. "
+                   "Codes 27130. Knee Arthroplasty Clinical Indications. Total knee "
+                   "arthroplasty is considered medically necessary when all of the "
+                   "following are met: documented failure of at least 12 weeks of therapy.")
+    hip = PT.find_criteria(two_section, "27130")
+    check(any("hip arthroplasty is considered" in q.lower() for q in hip) and
+          not any("annually" in q for q in hip),
+          "criteria come from the procedure's own section, not the preamble", str(hip[:2]))
+    check(any("Advanced joint disease" in q for q in hip),
+          "the indications listed after a lead-in are kept")
     found = PT.find_criteria(real, "27447")
     check(bool(found) and found[0] in real, "criteria are lifted verbatim from the document",
           str(found[:1]))
@@ -357,6 +377,46 @@ def stage_letters(cases, gold):
     check("UNVERIFIED" in stub_n.seen_prompt and "SOMETHING WE MADE UP" in stub_n.seen_prompt,
           "...but keeps the caller's evidence as unverified rather than discarding it")
 
+    # A library hit must still verify: the library keeps quotes, the cache keeps
+    # the text, and without the text every library hit read as unreadable.
+    lib_path = PT.LIBRARY
+    lib_backup = lib_path.read_text() if lib_path.exists() else None
+    try:
+        lib_path.write_text(json.dumps({"policies": [
+            {"policy_url": fake_url, "policy_title": "dry", "quotes": found}]}))
+        PT._LIB = None
+        got = PT.criteria_for(fake_url, "27447", allow_fetch=False)
+        check(got["source"] == "library" and bool(got["text"]),
+              "a library hit carries the document text, so its quotes verify")
+        stub_l = _StubAnthropic("letter")
+        generate_appeal_letter(shaped_g, client=stub_l, sender="patient")
+        check("Do not quote the plan" not in stub_l.seen_prompt and found[0][:60] in stub_l.seen_prompt,
+              "a library-backed policy is quotable in the letter prompt")
+    finally:
+        if lib_backup is None:
+            lib_path.unlink(missing_ok=True)
+        else:
+            lib_path.write_text(lib_backup)
+        PT._LIB = None
+
+    # The denial notice reaches the letter, so names and IDs are not placeholders.
+    from draft_letters import _notice_fields
+    nf = _notice_fields(c["letter_text"])
+    check(nf.get("member_name") and nf.get("member_id") and nf.get("reference_number"),
+          "member, ID and reference number are read off the denial notice", str(nf))
+    shaped_n2 = dict(shaped, denial_notice_text=c["letter_text"])
+    shaped_n2["case_identification"] = dict(shaped["case_identification"], **nf)
+    stub_dn = _StubAnthropic("letter")
+    generate_appeal_letter(shaped_n2, client=stub_dn, sender="patient")
+    check(nf["member_id"] in stub_dn.seen_prompt and "THE DENIAL NOTICE" in stub_dn.seen_prompt,
+          "the denial notice and the member's identifiers reach the letter prompt")
+    check("Do not state a policy number" in stub_dn.seen_prompt,
+          "the letter is told not to invent policy numbers or dates")
+
+    # The quote checker ignores markdown and multi-line captures.
+    check(quoted_passages('x "\n**Member:** [Name]\n**ID:** [x]" y') == [],
+          "a stray quote mark around markdown is not a quotation")
+
     from synthetic_harness.agent_runner import extract_json
     sample = json.dumps({
         "cites_correct_policy": True, "cites_wrong_policy": False,
@@ -384,6 +444,36 @@ def stage_letters(cases, gold):
 # --------------------------------------------------------------------------
 # 5. keys and budget, before anything is spent
 # --------------------------------------------------------------------------
+def stage_money():
+    print("\n[7] money: nothing is lost when funding runs out")
+    import spend, os
+    check(spend.is_funding_error("Error code: 400 - Your credit balance is too low to access"),
+          "an out-of-credit error is recognised as a funding stop")
+    check(spend.is_funding_error("Error code: 429 - insufficient_quota"),
+          "an OpenAI quota error is recognised as a funding stop")
+    check(not spend.is_funding_error("Unknown parameter: 'input[2].status'"),
+          "an ordinary error is not mistaken for one")
+    check(spend.cost("gpt-5.6-luna", {"input_tokens": 1_000_000, "output_tokens": 0}) == 1.0,
+          "cost is computed from tokens")
+    os.environ["STUDY_BUDGET_USD"] = "0.0000001"
+    try:
+        spend.check_budget(); check(spend.total() == 0, "an empty ledger is under any budget")
+    except spend.OutOfFunds:
+        check(True, "a spent budget raises before the next paid call")
+    finally:
+        os.environ.pop("STUDY_BUDGET_USD", None)
+    # resume must retry failures, in all three paid scripts
+    src = (ROOT / "scripts/study/grade_letters.py").read_text()
+    check("max_tokens=4000" in src, "grade_letters.py: the grader has room to finish its JSON")
+    check('"grader_incomplete"' in src and "REQUIRED" in src,
+          "grade_letters.py: a grade with missing fields is not counted as a grade")
+    for f, marker in (("retrieve.py", 'if not ("error" in prior or "skipped" in prior)'),
+                      ("draft_letters.py", 'if not prior.get("error")'),
+                      ("grade_letters.py", 'in ("graded", "no_letter")')):
+        check(marker in (ROOT / "scripts/study" / f).read_text(),
+              f"{f}: --resume retries a failed item instead of skipping it")
+
+
 def stage_gitignore():
     print("\n[0] nothing is being silently ignored")
     import subprocess
@@ -435,6 +525,7 @@ def main() -> int:
     stage_scoring(cases, gold)
     stage_letters(cases, gold)
     stage_dist()
+    stage_money()
     stage_preflight()
     print(f"\n{CHECKS - len(FAILURES)}/{CHECKS} checks passed")
     if FAILURES:

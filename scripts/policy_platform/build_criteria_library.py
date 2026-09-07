@@ -51,6 +51,15 @@ def main() -> int:
     ap.add_argument("--sleep", type=float, default=0.7, help="seconds between fetches")
     a = ap.parse_args()
 
+    # Reading a PDF needs pypdf. Without it every PDF comes back as 200 with
+    # no text, which looked like "no criteria" on 32 of the first 44 documents.
+    try:
+        import pypdf  # noqa: F401
+    except ImportError:
+        print("pypdf is not installed; PDFs cannot be read.\n"
+              "  python3 -m pip install -U pypdf\nthen re-run.")
+        return 1
+
     rows = list(csv.DictReader(DIRECTORY.open(encoding="utf-8", newline="")))
     # One fetch per document, not per row: the same PDF serves dozens of cells.
     byurl: dict[str, dict] = {}
@@ -82,10 +91,9 @@ def main() -> int:
     out, tally = [], collections.Counter()
     for i, u in enumerate(urls, 1):
         meta = byurl[u]
-        if u in prior and prior[u].get("quotes") and not a.refresh:
-            out.append(prior[u])
-            tally["already had it"] += 1
-            continue
+        # Extraction is cheap and the text is cached; re-extract every time so
+        # a better find_criteria reaches every document without a re-fetch.
+        # Only the FETCH is skipped when the cache already has the text.
         doc = policy_text(u, refresh=a.refresh)
         text = doc.get("text") or ""
         quotes = find_criteria(text, sorted(meta["cpts"])[0] if meta["cpts"] else "")

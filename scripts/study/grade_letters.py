@@ -55,6 +55,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "scripts"))
 from retrieve import STUDY, RUNS, _load_env_files  # noqa: E402
+import spend  # noqa: E402
 
 GRADER_MODEL = os.environ.get("POC_GRADER_MODEL", "claude-opus-5")
 SEED = 20260905
@@ -79,8 +80,8 @@ the records genuinely do not contain is correct behavior, not an error.
 Answer with JSON only, no prose, using exactly these keys:
 cites_correct_policy (bool), cites_wrong_policy (bool), unsupported_attribution
 (bool -- attributes a rule to the plan, outside quotation marks, with no source;
-do NOT judge quoted text, it is checked separately), deadline_correct (bool), route_given (bool), demands_criteria (bool),
-factual_errors (list of strings), uses_records (bool -- maps the plan's
+do NOT judge quoted text, it is checked separately), demands_criteria (bool),
+factual_errors (list of at most 5 short strings), uses_records (bool -- maps the plan's
 criteria to specific facts from the records), wrong_policy_cited (bool),
 wrong_recipient (bool), wrong_deadline (bool), invented_identifier (bool),
 unfinished (bool -- placeholders where the records supplied the fact),
@@ -109,7 +110,72 @@ def _prompt(case, gold, letter):
             "Return the JSON now.")
 
 
+def mechanical(letter: str, case: dict, g: dict) -> dict:
+    """The parts of a grade that are facts, not judgments.
+
+    Deadline: the notice states one date; either the letter has it or not.
+    Route: does the letter say where the appeal goes -- an address, fax,
+    portal, or the honest fallback of the address on the denial notice.
+    Quotes: checked against the policy, with the denial notice and the chart
+    as legitimate other sources. A judge was getting all three wrong in both
+    directions; a string comparison does not."""
+    from synthetic_harness.quote_check import check as quote_check
+    import re as _re
+    L = letter or ""
+    q = quote_check(L, g.get("policy_url", ""),
+                    other_sources=[case.get("letter_text", ""), case.get("chart_summary", "")])
+    route = bool(_re.search(
+        r"(?i)\b(fax|p\.?o\.? box|portal|mail (it|this|the appeal|to)|by mail|"
+        r"address (listed|printed|shown|on) (in|on)? ?(my|the|your) denial|"
+        r"number on the back of|member services|appeals? department,)", L))
+    # The deadline in any of the ways a letter writes a date.
+    import datetime as _dt
+    dl = case.get("appeal_deadline", "")
+    forms = {dl}
+    try:
+        d = _dt.date.fromisoformat(dl)
+        forms |= {d.strftime("%B %d, %Y"), d.strftime("%B %-d, %Y"), d.strftime("%b %-d, %Y"),
+                  d.strftime("%-m/%-d/%Y"), d.strftime("%m/%d/%Y"), d.strftime("%d %B %Y")}
+    except Exception:  # noqa: BLE001
+        pass
+    deadline = any(f and f in L for f in forms)
+    # Naming the governing document is a fact: its URL, or most of its title.
+    url = (g.get("policy_url") or "").strip()
+    title = (g.get("policy_title") or "").strip()
+    words = [w for w in _re.findall(r"[A-Za-z0-9]{3,}", title.lower()) if w not in ("the", "and", "for", "html", "pdf", "via")]
+    hit_url = bool(url) and (url.rstrip("/") in L or url.split("://", 1)[-1].rstrip("/") in L)
+    hit_title = bool(words) and sum(w in L.lower() for w in words) >= max(2, int(0.6 * len(words)))
+    cites = hit_url or hit_title
+    out = {"quotes": q, "quote_not_in_policy": bool(q["not_in_policy"]),
+           "deadline_correct": deadline, "route_given": route}
+    if g.get("correct_behavior") in ("cite_document", "cite_and_route"):
+        out["cites_correct_policy"] = cites
+    return out
+
+
+def rescore() -> int:
+    """Recompute the mechanical fields for every existing grade. No model, no
+    cost -- for when the checker changes, so the judgments already paid for
+    are kept and only the facts are recounted."""
+    cases = {c["case_id"]: c for c in json.loads((STUDY / "cases.json").read_text())["cases"]}
+    gold = {g["case_id"]: g for g in json.loads((STUDY / "gold.json").read_text())["entries"]}
+    out_path = STUDY / "letter_grades.json"
+    grades = json.loads(out_path.read_text())
+    n = 0
+    for rid, g in grades.items():
+        if g.get("outcome") != "graded":
+            continue
+        lt = json.loads((RUNS / rid / "letter.json").read_text())
+        g.update(mechanical(lt.get("letter_markdown") or "", cases[g["case_id"]], gold[g["case_id"]]))
+        n += 1
+    out_path.write_text(json.dumps(grades, indent=1))
+    print(f"rescored the mechanical fields on {n} grades (no model calls)")
+    return 0
+
+
 def main() -> int:
+    if "--rescore" in sys.argv:
+        return rescore()
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--resume", action="store_true")
@@ -130,8 +196,11 @@ def main() -> int:
     rids = sorted(p.parent.name for p in RUNS.glob("r-*/letter.json"))
     random.Random(SEED).shuffle(rids)   # ordering must carry no signal either
     n = 0
+    todo = [r for r in rids if grades.get(r, {}).get("outcome") not in ("graded", "no_letter")]
+    spend.banner("grading", len(todo), GRADER_MODEL, 5000, 600)
     for rid in rids:
-        if rid in grades:
+        # A grader_error is not a grade. Retry it.
+        if grades.get(rid, {}).get("outcome") in ("graded", "no_letter"):
             continue
         if a.limit and n >= a.limit:
             break
@@ -143,20 +212,41 @@ def main() -> int:
             continue
         cid = lt["case_id"]
         try:
+            spend.check_budget()
             resp = client.messages.create(
-                model=GRADER_MODEL, max_tokens=1500, system=SYSTEM,
+                model=GRADER_MODEL, max_tokens=4000, system=SYSTEM,
                 messages=[{"role": "user",
                            "content": _prompt(cases[cid], gold[cid], text)}])
             body = "".join(b.text for b in resp.content if getattr(b, "type", None) == "text")
             g = extract_json(body) or {}
-            g["outcome"] = "graded"
-            # Not a judgment call: either the document contains the sentence or
-            # it does not.
-            from synthetic_harness.quote_check import check as quote_check
-            g["quotes"] = quote_check(text, gold[cid].get("policy_url", ""))
-            g["quote_not_in_policy"] = bool(g["quotes"]["not_in_policy"])
+            # A grade with the judgment fields missing is not a grade. Every
+            # missing field was being read as "no" -- a parse failure scored as
+            # a bad letter, on 19 of 29 in-library letters on 2026-09-06.
+            REQUIRED = ("uses_records", "completeness", "unsupported_attribution",
+                        "wrong_policy_cited", "unfinished")
+            if any(g.get(k) is None for k in REQUIRED):
+                g = {"outcome": "grader_incomplete", "raw": body[-1500:],
+                     "missing": [k for k in REQUIRED if g.get(k) is None]}
+            else:
+                g["outcome"] = "graded"
+            u = getattr(resp, "usage", None)
+            usage = {"input_tokens": getattr(u, "input_tokens", 0) or 0,
+                     "output_tokens": getattr(u, "output_tokens", 0) or 0}
+            g["usd"] = spend.cost(GRADER_MODEL, usage)
+            spend.record("grading", GRADER_MODEL, usage, rid)
+            if g["outcome"] == "graded":
+                g.update(mechanical(text, cases[cid], gold[cid]))
+        except spend.OutOfFunds as e:
+            out_path.write_text(json.dumps(grades, indent=1))
+            print(f"\n  STOPPED: {e}"); return 2
         except Exception as e:  # noqa: BLE001
             g = {"outcome": "grader_error", "error": f"{type(e).__name__}: {e}"}
+            if spend.is_funding_error(e):
+                g["case_id"] = cid; grades[rid] = g
+                out_path.write_text(json.dumps(grades, indent=1))
+                print(f"\n  STOPPED, out of funds at the provider: {str(e)[:120]}\n"
+                      f"  {n} graded and saved; add credit and re-run with --resume.")
+                return 2
         g["case_id"] = cid
         grades[rid] = g
         out_path.write_text(json.dumps(grades, indent=1))
@@ -167,8 +257,9 @@ def main() -> int:
             mark = f"{g['quotes']['not_in_policy']} quote(s) NOT in the policy"
         else:
             mark = g.get("worst_defect") or "clean"
-        print(f"  {rid} graded -> {mark}")
+        print(f"  {rid} graded -> {mark}   running ${spend.total():.2f}")
     print(f"\ngraded {n} letters -> {out_path}")
+    spend.report()
     return 0
 
 

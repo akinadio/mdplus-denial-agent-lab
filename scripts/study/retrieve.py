@@ -271,6 +271,7 @@ def run_llm(system, case, out_dir):
     from synthetic_harness.api_runner import (_resolve, _make_client, _ToolRunner,
                                               MAX_TOOL_ITERATIONS, MAX_OUTPUT_TOKENS)
     from synthetic_harness.agent_runner import extract_json
+    import spend
     provider_name, model = SYSTEMS[system]
     prov, model = _resolve(provider_name, model)
     if not prov.available():
@@ -284,7 +285,9 @@ def run_llm(system, case, out_dir):
         prompt=case["letter_text"] + "\n\n---\n\n" + INSTRUCTION,
         tool_call=_guarded(runner.call), deadline=t0 + 900, usage=usage,
         max_iters=MAX_TOOL_ITERATIONS, max_tokens=MAX_OUTPUT_TOKENS)
-    return {"answer": extract_json(text) or {}, "raw_text": text,
+    usd = spend.cost(model, usage)
+    spend.record("retrieve", model, usage, case["case_id"])
+    return {"answer": extract_json(text) or {}, "raw_text": text, "usd": usd,
             # Phase 2 continues this same chat to ask for the appeal letter, so
             # the transcript has to survive the run.
             "transcript": transcript,
@@ -319,6 +322,11 @@ def main():
     salt = os.environ.get("STUDY_BLIND_SALT", "poc")
     RUNS.mkdir(parents=True, exist_ok=True)
 
+    import spend
+    if "chatgpt" in systems:
+        n = sum(1 for c in cases if not (a.resume and (RUNS / ("r-" + hashlib.sha256(
+            f"{salt}|{c['case_id']}|chatgpt".encode()).hexdigest()[:12]) / "result.json").exists()))
+        spend.banner("retrieve", n, SYSTEMS["chatgpt"][1], 60000, 4000)
     mapping, done, skipped = {}, 0, 0
     for c in cases:
         for s in systems:
@@ -326,7 +334,9 @@ def main():
             mapping[rid] = {"case_id": c["case_id"], "system": s}
             d = RUNS / rid
             if a.resume and (d / "result.json").exists():
-                continue
+                prior = json.loads((d / "result.json").read_text())
+                if not ("error" in prior or "skipped" in prior):
+                    continue
             d.mkdir(exist_ok=True)
             try:
                 res = (run_ortho(c, SYSTEMS[s][1]) if s.startswith("ortho")
@@ -338,8 +348,16 @@ def main():
                       "  Top up WEB_SEARCH_API_KEY's plan and re-run with --resume.")
                 _save_key(mapping)
                 raise SystemExit(2)
-            except Exception as e:
+            except Exception as e:  # noqa: BLE001
                 res = {"error": f"{type(e).__name__}: {e}"}
+                import spend
+                if spend.is_funding_error(e):
+                    res["run_id"], res["case_id"] = rid, c["case_id"]
+                    (d / "result.json").write_text(json.dumps(res, indent=1))
+                    _save_key(mapping)
+                    print(f"\n  STOPPED, out of funds at the provider: {str(e)[:120]}\n"
+                          f"  {done} runs saved; add credit and re-run with --resume.")
+                    raise SystemExit(2)
             res["run_id"] = rid
             res["case_id"] = c["case_id"]
             (d / "result.json").write_text(json.dumps(res, indent=1))
@@ -351,6 +369,7 @@ def main():
                 print(f"  {rid} {s:13s} ok")
     _save_key(mapping)
     print(f"\n{done} runs completed, {skipped} skipped/errored -> {RUNS}")
+    spend.report()
 
 
 if __name__ == "__main__":

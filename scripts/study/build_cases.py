@@ -25,7 +25,7 @@ Writes:
   study/gold.json      what the grader sees.
 """
 from __future__ import annotations
-import csv, datetime, hashlib, json, random, re
+import csv, datetime, hashlib, json, random, re, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -111,7 +111,57 @@ def _pick(pool, want, rng, cap_per_payer):
     return out
 
 
+def refresh_gold() -> None:
+    """Re-derive gold.json for the EXISTING cases from the directory as it
+    stands, without re-sampling.
+
+    The fixes step promotes rows -- a page that turns out to name the code and
+    state criteria moves from no_policy to vendor_held -- and when that happens
+    to a sampled row, the correct behavior for that case changes. Re-sampling
+    would throw away the paid ChatGPT retrieval runs; the letters are the same
+    letters, so only the answer key needs to move. A case whose stratum changes
+    keeps its original under `stratum_sampled`, so the shift is visible."""
+    doc = json.loads((OUT / "cases.json").read_text())
+    gold_old = {g["case_id"]: g for g in json.loads((OUT / "gold.json").read_text())["entries"]}
+    with DIRECTORY.open(encoding="utf-8", newline="") as fh:
+        rows = {(r["state"], r["insurance_company"], r["cpt"]): r for r in csv.DictReader(fh)}
+    entries, moved = [], []
+    for c in doc["cases"]:
+        r = rows[(c["state"], c["payer"], c["cpt"])]
+        st = r["status"]
+        if st in IN_LIB_STATUS and r["policy_url"].strip():
+            stratum, beh = "in_library", "cite_document"
+        elif st in VENDOR_HELD_STATUS and r["policy_url"].strip():
+            stratum, beh = "vendor_held", "cite_and_route"
+        elif st in NO_POLICY_STATUS:
+            stratum, beh = "no_policy", "abstain_and_route"
+        else:
+            stratum, beh = c["stratum"], gold_old[c["case_id"]]["correct_behavior"]
+        g = {"case_id": c["case_id"], "stratum": stratum, "state": r["state"],
+             "payer": r["insurance_company"], "cpt": r["cpt"],
+             "directory_status": st, "directory_note": r["note"],
+             "correct_behavior": beh, "vendor": _vendor_from_note(r["note"]),
+             "policy_title": r["policy_title"] if beh != "abstain_and_route" else "",
+             "policy_url": r["policy_url"] if beh != "abstain_and_route" else "",
+             "effective_date": r["effective_date"] if beh != "abstain_and_route" else ""}
+        if stratum != c["stratum"]:
+            moved.append((c["case_id"], c["stratum"], stratum))
+            c.setdefault("stratum_sampled", c["stratum"])
+            c["stratum"] = stratum
+        entries.append(g)
+    (OUT / "gold.json").write_text(json.dumps(
+        {"version": "poc-1", "seed": SEED, "refreshed": datetime.date.today().isoformat(),
+         "entries": entries}, indent=1), encoding="utf-8")
+    (OUT / "cases.json").write_text(json.dumps(doc, indent=1), encoding="utf-8")
+    print(f"gold refreshed for {len(entries)} cases; {len(moved)} changed stratum")
+    for cid, a, b in moved:
+        print(f"  {cid}: {a} -> {b}")
+
+
 def main() -> None:
+    if "--refresh-gold" in sys.argv:
+        refresh_gold()
+        return
     rng = random.Random(SEED)
     with DIRECTORY.open(encoding="utf-8", newline="") as fh:
         rows = [r for r in csv.DictReader(fh)
