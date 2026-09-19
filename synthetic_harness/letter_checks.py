@@ -102,10 +102,23 @@ def invented_identifiers(letter: str, policy_text: str, other: list[str] | None 
     # -- in every arm, including ours.
     haystack = _norm(policy_text or "") + "\u0000" + "\u0000".join(
         _norm(o) for o in (other or []))
-    haystack += "\u0000" + _norm(policy_url) + "\u0000" + _norm(policy_title)
+    ref = _norm(policy_url) + "\u0000" + _norm(policy_title)
+    haystack += "\u0000" + ref
+
+    def known(tok: str) -> bool:
+        if _norm(tok) in haystack:
+            return True
+        # "CPB 0660" is an Aetna bulletin whose number lives in the URL path
+        # (.../data/600_699/0660.html) and nowhere in the body, so the whole
+        # token never matches. Match its number against the URL and title
+        # instead. Being generous here is the safe direction: calling a correct
+        # citation invented is a worse error than missing an invented one.
+        digits = re.findall(r"\d{3,}", tok)
+        return any(d in ref for d in digits)
+
     ids = sorted(set(_POLICY_ID.findall(letter or "")))
     dates = sorted(set(_EFFECTIVE.findall(letter or "")))
-    bad_ids = [t for t in ids if _norm(t) not in haystack]
+    bad_ids = [t for t in ids if not known(t)]
     bad_dates = [t for t in dates if _norm(t) not in haystack]
     return {"policy_ids": len(ids), "policy_ids_invented": bad_ids,
             "effective_dates": len(dates), "effective_dates_invented": bad_dates,
