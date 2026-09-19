@@ -322,7 +322,13 @@ def _jsonable(obj):
         fn = getattr(obj, attr, None)
         if callable(fn):
             try:
-                return _jsonable(fn())
+                # exclude_none where the SDK supports it: a plain model_dump()
+                # writes every unset field as null, and Google's SDK then
+                # refuses its own transcript on the way back in.
+                try:
+                    return _jsonable(fn(exclude_none=True))
+                except TypeError:
+                    return _jsonable(fn())
             except Exception:  # noqa: BLE001
                 pass
     return str(obj)

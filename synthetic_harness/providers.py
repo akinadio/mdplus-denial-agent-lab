@@ -611,9 +611,30 @@ class GoogleProvider:
             contents.append(types.Content(role="user", parts=fr_parts))
         return final_text, contents, stop
 
+    @staticmethod
+    def _prunable(obj):
+        """Drop null fields from a transcript read back off disk.
+
+        A transcript is saved with model_dump(), which writes EVERY field of
+        every Part -- media_resolution, executable_code, inline_data, fourteen
+        of them -- as null. Feeding that back to the SDK fails validation
+        before a single byte leaves the machine: "1405 validation errors for
+        _GenerateContentParameters" is fourteen nulls across a hundred parts,
+        not a hundred real problems. Phase 1 saves them pruned now, and this
+        prunes the ones already on disk so 60 paid Gemini retrievals do not
+        have to be bought again.
+        """
+        if isinstance(obj, dict):
+            return {k: GoogleProvider._prunable(v) for k, v in obj.items()
+                    if v is not None}
+        if isinstance(obj, list):
+            return [GoogleProvider._prunable(v) for v in obj]
+        return obj
+
     def continue_once(self, *, client, model, system, transcript, ask, usage, max_tokens):
         cfg, types = self._tools_and_config(system, max_tokens)
-        contents = list(transcript) + [
+        contents = [self._prunable(t) if isinstance(t, dict) else t
+                    for t in (transcript or [])] + [
             types.Content(role="user", parts=[types.Part(text=ask)])]
         resp = client.models.generate_content(
             model=model, contents=contents, config=cfg)

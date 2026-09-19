@@ -935,6 +935,24 @@ def stage_money():
               "https://www.aetna.com/cpb/medical/data/600_699/0660.html")["any_invented"],
           "a number carried in the policy URL is not called invented")
 
+    # A transcript saved to disk has to be feedable back to the SDK that made
+    # it. Google's was not: model_dump() writes every unset field as null and
+    # the SDK refuses its own output, "1405 validation errors" for one letter.
+    from synthetic_harness.providers import GoogleProvider as _GP2
+    _t = [{"role": "user", "parts": [{"text": "hello", "inline_data": None,
+                                      "function_call": None, "video_metadata": None}]},
+          {"role": "model", "parts": [{"text": None,
+                                       "function_call": {"name": "web_search",
+                                                         "args": {"query": "q"}}}]}]
+    _p = [_GP2._prunable(x) for x in _t]
+    check(_json.dumps(_p).count(": null") == 0,
+          "a saved transcript is pruned of the null fields the SDK rejects")
+    check(len(_p) == 2 and _p[0]["parts"][0]["text"] == "hello"
+          and _p[1]["parts"][0]["function_call"]["name"] == "web_search",
+          "pruning keeps every turn, its text and its tool calls")
+    check("exclude_none=True" in (ROOT / "scripts/study/retrieve.py").read_text(),
+          "phase 1 saves transcripts without the null fields in the first place")
+
     # One provider's empty balance must not stop the others.
     for f in ("retrieve.py", "draft_letters.py"):
         src = (ROOT / "scripts/study" / f).read_text()
