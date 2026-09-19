@@ -36,6 +36,11 @@ import re
 RULE_CUE = re.compile(
     r"\b(must|shall|require[sd]?|is required|at least|minimum of|no less than|"
     r"documented|documentation of|failed|failure of|trial of|weeks of|months of|"
+    # Policies write durations as ">= three weeks" or "6 months of", and PDF
+    # extraction breaks words apart ("thre e weeks"), so match a number plus a
+    # unit rather than a fixed phrase. Missing this scored a real
+    # conservative-care criterion as "other".
+    r"(?:\d+|one|two|three|four|five|six|eight|twelve)\s*(?:week|month|day)s?\b|"
     r"indicated when|criteria (?:are|is) met|when all of|if the (?:patient|member)|"
     r"unresponsive to|refractory to|demonstrat\w+|confirmed by|"
     # The lead-in that opens a criteria list is itself a rule: everything the

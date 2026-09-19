@@ -208,7 +208,15 @@ def mechanical(letter: str, case: dict, g: dict) -> dict:
         _notice = case.get("letter_text", "")
         _from_policy = [x for x in quoted_passages(L) if not in_text(x, _notice)]
         rel = assess(_from_policy, case.get("denial_reason", ""))
-        out["quoted_the_denial_back"] = len(quoted_passages(L)) - len(_from_policy)
+        # Naming what you are appealing -- "the denial states X" -- is normal
+        # letter structure and not a defect. The defect is quoting the denial
+        # INSTEAD of the policy. Reading the letters settled this: Ambetter /
+        # 63030 quoted four on-point conservative-therapy criteria and then the
+        # denial's one sentence, and was being flagged alongside letters whose
+        # only quotation was the insurer's.
+        _n_denial = len(quoted_passages(L)) - len(_from_policy)
+        out["quoted_the_denial_back"] = bool(_n_denial and not _from_policy)
+        out["n_denial_quotes"] = _n_denial
         out["grounded_in_case"] = rel["grounded"]
         out["quotes_on_point"] = rel["n_on_point"]
         out["quotes_against_patient"] = rel["n_against_patient"]
