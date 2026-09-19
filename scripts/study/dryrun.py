@@ -22,6 +22,7 @@ from __future__ import annotations
 import os
 import json
 import subprocess
+import time
 import sys
 import tempfile
 from pathlib import Path
@@ -603,6 +604,73 @@ def stage_money():
     finally:
         _ret.RUNS, _ret.STUDY, _ret.SYSTEMS, _ret.run_llm, sys.argv, _sp.LEDGER = _keep
         _sh.rmtree(_tmp3, ignore_errors=True)
+
+    # Prompt caching. It is billing-only -- the model sees the same bytes and
+    # answers the same -- but it changes what a run costs by several times, so
+    # both halves are checked: that the breakpoints go out, and that the ledger
+    # prices what comes back.
+    check(_sp.cost("claude-sonnet-5", {"input_tokens": 1_000_000}) == 3.0,
+          "an uncached million input tokens still prices at the plain rate")
+    check(_sp.cost("claude-sonnet-5", {"cache_read_input_tokens": 1_000_000}) == 0.3,
+          "a cache READ is priced at a tenth of input, not free and not full")
+    check(_sp.cost("claude-sonnet-5", {"cache_creation_input_tokens": 1_000_000}) == 3.75,
+          "a cache WRITE is priced at 1.25x input")
+
+    from synthetic_harness.providers import AnthropicProvider as _AP
+
+    class _Blk:  # stands in for an SDK content object: not a dict, must be left alone
+        type = "text"
+
+    _msgs = [{"role": "user", "content": [{"type": "text", "text": "a"}]},
+             {"role": "assistant", "content": [_Blk()]},
+             {"role": "user", "content": [{"type": "tool_result", "content": "b"}]},
+             {"role": "assistant", "content": [_Blk()]},
+             {"role": "user", "content": [{"type": "tool_result", "content": "c"}]}]
+    _AP._mark(_msgs)
+    _bp = [i for i, m in enumerate(_msgs)
+           if isinstance(m["content"], list)
+           and any(isinstance(b, dict) and "cache_control" in b for b in m["content"])]
+    check(_bp == [2, 4],
+          "cache breakpoints sit on the two most recent user turns")
+    _AP._mark(_msgs + [{"role": "assistant", "content": [_Blk()]},
+                       {"role": "user", "content": [{"type": "tool_result", "content": "d"}]}])
+    _n = sum(1 for m in _msgs for b in (m["content"] if isinstance(m["content"], list) else [])
+             if isinstance(b, dict) and "cache_control" in b)
+    check(_n <= 4, "old breakpoints are cleared, so a long loop never exceeds the API limit of 4")
+
+    # The loop really sends them, and the usage really comes back accumulated.
+    class _Usage:
+        input_tokens, output_tokens = 10, 5
+        cache_creation_input_tokens, cache_read_input_tokens = 100, 900
+
+    class _Resp2:
+        stop_reason, usage = "end_turn", _Usage()
+        content = [type("T", (), {"type": "text", "text": '{"policy_found": false}'})()]
+
+    _sent = {}
+
+    class _Client:
+        class messages:
+            @staticmethod
+            def create(**kw):
+                _sent.update(kw)
+                return _Resp2()
+
+    _u = {"input_tokens": 0, "output_tokens": 0}
+    _AP().run(client=_Client(), model="claude-sonnet-5", system="s" * 40, prompt="p",
+              tool_call=lambda n, a: {}, deadline=time.time() + 60, usage=_u,
+              max_iters=3, max_tokens=100)
+    check(isinstance(_sent.get("system"), list)
+          and _sent["system"][0].get("cache_control"),
+          "the system prompt is sent as a cacheable block")
+    check(any("cache_control" in b for m in _sent["messages"]
+              for b in m["content"] if isinstance(b, dict)),
+          "the request carries a cache breakpoint on the conversation")
+    check(_u.get("cache_read_input_tokens") == 900 and _u.get("cache_creation_input_tokens") == 100,
+          "cached tokens are accumulated, not dropped on the floor")
+    check(_sp.cost("claude-sonnet-5", _u) > _sp.cost("claude-sonnet-5",
+          {k: v for k, v in _u.items() if not k.startswith("cache")}),
+          "a run's cost includes its cached tokens")
 
     # One provider's empty balance must not stop the others.
     for f in ("retrieve.py", "draft_letters.py"):

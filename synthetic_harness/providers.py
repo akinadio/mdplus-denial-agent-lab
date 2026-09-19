@@ -167,20 +167,70 @@ class AnthropicProvider:
     def _acc(usage: dict[str, int], resp: Any) -> None:
         u = getattr(resp, "usage", None)
         if u is not None:
+            # input_tokens from the API EXCLUDES anything served from cache, so
+            # these three are added, never overlapping. They are priced
+            # differently (a write costs 1.25x, a read 0.1x), so a ledger that
+            # only sums input_tokens under-reports a cached run by roughly ten
+            # times -- see spend.cost().
             usage["input_tokens"] += getattr(u, "input_tokens", 0) or 0
             usage["output_tokens"] += getattr(u, "output_tokens", 0) or 0
+            usage["cache_creation_input_tokens"] = (
+                usage.get("cache_creation_input_tokens", 0)
+                + (getattr(u, "cache_creation_input_tokens", 0) or 0))
+            usage["cache_read_input_tokens"] = (
+                usage.get("cache_read_input_tokens", 0)
+                + (getattr(u, "cache_read_input_tokens", 0) or 0))
+
+    # --- prompt caching -----------------------------------------------------
+    # An agentic loop re-sends the entire conversation on every turn, so a case
+    # that makes 60 tool calls pays for the same fetched pages dozens of times:
+    # one claude-free case billed 2.0M input tokens and $6.40. Caching is a
+    # BILLING mechanism only -- the model sees exactly the same bytes and
+    # produces the same answer -- so it changes the cost of the study and
+    # nothing else. Marking the end of each user turn means the next turn reads
+    # the whole prefix from cache at a tenth of the price.
+    _CACHE = {"type": "ephemeral"}
+    _CACHE_BREAKPOINTS = 2   # the API allows 4; 2 rolling is enough here
+
+    @classmethod
+    def _cached_system(cls, system):
+        return [{"type": "text", "text": system, "cache_control": cls._CACHE}]
+
+    @classmethod
+    def _mark(cls, messages: list[dict[str, Any]]) -> None:
+        """Put a rolling cache breakpoint at the end of the last user turn.
+
+        Only blocks we built ourselves (plain dicts) are marked; assistant
+        content comes back as SDK objects and is left alone. Older breakpoints
+        are cleared so the request never exceeds the API's limit of four.
+        """
+        marked = 0
+        for msg in reversed(messages):
+            content = msg.get("content")
+            if not isinstance(content, list):
+                continue
+            for block in content:
+                if isinstance(block, dict) and "cache_control" in block:
+                    block.pop("cache_control")
+            if msg.get("role") == "user" and marked < cls._CACHE_BREAKPOINTS:
+                last = next((b for b in reversed(content) if isinstance(b, dict)), None)
+                if last is not None:
+                    last["cache_control"] = cls._CACHE
+                    marked += 1
 
     def run(self, *, client, model, system, prompt, tool_call, deadline, usage,
             max_iters, max_tokens):
         tools = self._tools()
-        messages: list[dict[str, Any]] = [{"role": "user", "content": prompt}]
+        messages: list[dict[str, Any]] = [
+            {"role": "user", "content": [{"type": "text", "text": prompt}]}]
         final_text, stop = "", "max_iterations"
         for _ in range(max_iters):
             if time.time() > deadline:
                 stop = "timeout"
                 break
+            self._mark(messages)
             resp = client.messages.create(
-                model=model, max_tokens=max_tokens, system=system,
+                model=model, max_tokens=max_tokens, system=self._cached_system(system),
                 tools=tools, messages=messages,
             )
             self._acc(usage, resp)
@@ -203,6 +253,10 @@ class AnthropicProvider:
         return final_text, messages, stop
 
     def continue_once(self, *, client, model, system, transcript, ask, usage, max_tokens):
+        # Deliberately NOT cached. This is a single call made hours after the
+        # phase-1 loop that built the transcript, so the cache is long cold: a
+        # breakpoint here would only ever pay the 1.25x write and never get a
+        # read back. Caching earns its keep in a loop, not in a one-shot.
         messages = transcript + [{"role": "user", "content": ask}]
         resp = client.messages.create(
             model=model, max_tokens=max_tokens, system=system,

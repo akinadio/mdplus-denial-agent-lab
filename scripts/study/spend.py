@@ -52,9 +52,22 @@ def price(model: str) -> tuple[float, float]:
     return (float(i) if i else base[0], float(o) if o else base[1])
 
 
+# Anthropic prompt caching: writing the cache costs 1.25x the input rate,
+# reading it 0.1x. The API reports those tokens in their own fields and leaves
+# them OUT of input_tokens, so the three add up with no overlap -- but a ledger
+# that sums only input_tokens reports a cached run at about a tenth of what it
+# cost, which is the same class of error as the missing Gemini price.
+CACHE_WRITE_MULT = 1.25
+CACHE_READ_MULT = 0.10
+
+
 def cost(model: str, usage: dict) -> float:
     pi, po = price(model)
-    return round((usage.get("input_tokens", 0) * pi + usage.get("output_tokens", 0) * po) / 1e6, 4)
+    micro = (usage.get("input_tokens", 0) * pi
+             + usage.get("cache_creation_input_tokens", 0) * pi * CACHE_WRITE_MULT
+             + usage.get("cache_read_input_tokens", 0) * pi * CACHE_READ_MULT
+             + usage.get("output_tokens", 0) * po)
+    return round(micro / 1e6, 4)
 
 
 def _load() -> list:
@@ -92,7 +105,10 @@ def record(step: str, model: str, usage: dict, ref: str = "") -> float:
             c = cost(model, usage)
             rows.append({"t": time.strftime("%Y-%m-%d %H:%M:%S"), "step": step,
                          "model": model, "in": usage.get("input_tokens", 0),
-                         "out": usage.get("output_tokens", 0), "usd": c, "ref": ref})
+                         "out": usage.get("output_tokens", 0),
+                         "cw": usage.get("cache_creation_input_tokens", 0),
+                         "cr": usage.get("cache_read_input_tokens", 0),
+                         "usd": c, "ref": ref})
             fh.seek(0)
             fh.write(json.dumps(rows))
             fh.truncate()
@@ -138,3 +154,11 @@ def report() -> None:
     for k, (n, usd) in by.items():
         print(f"    {k:12s} {n:4d} calls  ${usd:7.2f}")
     print(f"    {'total':12s} {len(rows):4d} calls  ${total():7.2f}")
+    cr = sum(r.get("cr", 0) for r in rows)
+    cw = sum(r.get("cw", 0) for r in rows)
+    if cr or cw:
+        # What caching saved, so the line is auditable rather than trusted.
+        saved = sum((r.get("cr", 0) * price(r["model"])[0] * (1 - CACHE_READ_MULT)) / 1e6
+                    for r in rows)
+        print(f"    cache: {cr/1e6:.1f}M read, {cw/1e6:.1f}M written"
+              f"  (${saved:.2f} saved against paying full input rate)")

@@ -284,8 +284,17 @@ def main() -> int:
             else:
                 g["outcome"] = "graded"
             u = getattr(resp, "usage", None)
+            # The grader is one call per letter with a ~420-token system
+            # prompt -- below the 1024-token minimum a cache breakpoint needs,
+            # and the rest of the prompt is unique to the letter. Nothing here
+            # is cacheable, so these two fields stay zero; they are read anyway
+            # so the ledger stays right if that ever changes.
             usage = {"input_tokens": getattr(u, "input_tokens", 0) or 0,
-                     "output_tokens": getattr(u, "output_tokens", 0) or 0}
+                     "output_tokens": getattr(u, "output_tokens", 0) or 0,
+                     "cache_creation_input_tokens":
+                         getattr(u, "cache_creation_input_tokens", 0) or 0,
+                     "cache_read_input_tokens":
+                         getattr(u, "cache_read_input_tokens", 0) or 0}
             g["usd"] = spend.cost(GRADER_MODEL, usage)
             spend.record("grading", GRADER_MODEL, usage, rid)
             if g["outcome"] == "graded":
