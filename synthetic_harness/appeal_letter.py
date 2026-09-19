@@ -211,7 +211,20 @@ def _ground_citations(result: dict[str, Any]) -> dict[str, Any]:
         grounded["_criteria_source"] = got["source"]
         grounded["_citations_dropped"] = len(given) - sum(
             1 for c in given if verify_quote(c["excerpt"], text))
+    # SHORTLIST. The writer was being handed ~12 sentences in document order
+    # and choosing among them; in most ungrounded letters the criterion that
+    # answered the denial was in that list and went unused. Put the ones that
+    # answer the denial first and cut the tail, so the letter is choosing from
+    # a short list of relevant rules rather than ranking a page of them.
+    # MDPLUS_CRITERIA_SHORTLIST=0 restores the old behaviour for comparison.
+    if os.environ.get("MDPLUS_CRITERIA_SHORTLIST", "1") != "0" and reason:
+        from synthetic_harness.quote_relevance import on_point
+        n = int(os.environ.get("MDPLUS_CRITERIA_MAX", "6"))
+        first = [c for c in cites if on_point(c.get("excerpt", ""), reason)]
+        rest = [c for c in cites if c not in first]
+        cites = (first + rest)[:max(n, len(first[:n]))] if first else cites[:n]
     grounded["retrieval"] = dict(retrieval, citations=cites)
+    grounded["_criteria_reason"] = reason
     return grounded
 
 
