@@ -1,0 +1,25 @@
+{
+ "answer": {
+  "policy_found": true,
+  "policy_title": "UPMC Provider Manual Chapter G - Utilization Management",
+  "policy_number": "",
+  "policy_url": "https://www.upmchealthplan.com/docs/providers/2025_ProviderManual_G.pdf",
+  "effective_date": "2025-04-03",
+  "criteria_quotes": [],
+  "appeal_deadline": "2027-02-15",
+  "submission_route": "File by mail to the PO box, by phone, or through the member secure website. Online: The member secure website (complaints via email or live chat) By phone: 1-888-876-2756 (group) / 1-866-353-3598 (individual), TTY 711 Deadline: 180 days from notification -- but your denial letter is authoritative. Use the appeal address printed on your denial letter.",
+  "how_to_obtain_criteria": "Your plan uses InterQual, which is licensed software rather than a public document. You have a right to it anyway: federal ERISA and ACA appeal rules require the plan to give you, free of charge, the specific rule or criterion relied on for the denial. Ask in writing for 'the InterQual subset, edition, and full criteria text applied to my determination'.",
+  "confidence": "high",
+  "notes": "payer policy public, criteria vendor-held; status=DOCUMENT PUBLIC, CRITERIA VENDOR-HELD"
+ },
+ "source": "policy_directory_vendor_held",
+ "route": {
+  "kind": "request_written",
+  "vendor": "InterQual (Change Healthcare)",
+  "how": "Your plan uses InterQual, which is licensed software rather than a public document. You have a right to it anyway: federal ERISA and ACA appeal rules require the plan to give you, free of charge, the specific rule or criterion relied on for the denial. Ask in writing for 'the InterQual subset, edition, and full criteria text applied to my determination'.",
+  "source": "appeal rights, 29 CFR 2560.503-1"
+ },
+ "model": "claude-sonnet-5",
+ "run_id": "r-818f4ca85ffc",
+ "case_id": "poc-39de00339b"
+}

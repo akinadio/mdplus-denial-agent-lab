@@ -67,6 +67,21 @@ EXCLUSION = re.compile(
 # What each denial reason is argued with. A quotation is on point when it
 # states a rule AND speaks to the reason this claim was actually denied --
 # quoting the BMI rule at someone denied for imaging findings is not an appeal.
+# Two of the four denial reasons name a SPECIFIC deficiency -- no adequate
+# conservative trial, imaging that does not support necessity -- so the appeal
+# has to answer that specific point, and quoting some other requirement is not
+# an answer. The other two ("does not meet the plan's criteria for medical
+# necessity", "documentation was incomplete") name nothing in particular; the
+# answer to those is to quote the governing criteria and show the chart meets
+# them, so any clinical rule from the right section is on point.
+#
+# Reading the letters is what settled this. Harvard Pilgrim / CPT 29881 was
+# denied for incomplete documentation and our letter quoted "Failure of at
+# least 6 months of non-operative treatment, including quadriceps
+# strengthening..." -- exactly the right move, scored as off point because the
+# sentence contains no documentation vocabulary.
+SPECIFIC_DEFICIENCY = {"conservative_care", "imaging"}
+
 REASON_TERMS: dict[str, list[str]] = {
     "conservative_care": [
         "conservative", "nonsurgical", "non-surgical", "non-operative",
@@ -80,6 +95,13 @@ REASON_TERMS: dict[str, list[str]] = {
         "ct ", "computed tomography", "arthrogram", "kellgren", "lawrence",
         "tonnis", "tönnis", "joint space", "weight-bearing", "weight bearing",
         "grade", "osteophyte", "subchondral", "narrowing",
+        # How policies actually word the imaging finding, which is usually as
+        # the diagnosis the imaging shows rather than as the film itself.
+        "osteoarthritis", "degenerative", "arthritic", "bone-on-bone",
+        "bone on bone", "unicompartmental", "avascular necrosis", "chondral",
+        "meniscal tear", "rotator cuff tear", "stenosis", "herniat",
+        "spondylolisthesis", "instability", "malalignment", "deformity",
+        "findings", "evidence of",
     ],
     "not_medically_necessary": [
         "medically necessary", "medical necessity", "indicated when",
@@ -135,12 +157,19 @@ def _looks_like_code_table(q: str) -> bool:
 
 
 def on_point(quote: str, denial_reason: str) -> bool:
-    """A rule that speaks to the reason THIS claim was denied."""
+    """A rule that answers the reason THIS claim was denied.
+
+    A denial that names a specific deficiency has to be answered on that point.
+    A denial that names nothing in particular is answered by the criteria
+    themselves. See SPECIFIC_DEFICIENCY.
+    """
     if classify(quote) != "rule":
         return False
+    if denial_reason not in SPECIFIC_DEFICIENCY:
+        return True
     terms = REASON_TERMS.get(denial_reason or "", [])
     if not terms:
-        return True   # unknown reason: a rule is the best we can ask for
+        return True
     low = (quote or "").lower()
     return any(t in low for t in terms)
 

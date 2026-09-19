@@ -1,0 +1,37 @@
+{
+ "letter_markdown": "# Appeal of Denial \u2014 Lower Back Disc Surgery / Decompression (CPT 63030)\n\n**Governing Policy:** Clinical Policy: Disc Decompression Procedures (CP.MP.114) \u2014 https://www.ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf\n\n**Member:** Jordan Foster\n**Member ID:** W794852405\n**Plan:** Ambetter (WellCare), Commercial/ACA, North Carolina\n**Denial date:** 2026-08-07\n**Reference number:** POC-EE22487639-86426\n**Appeal deadline:** Must be received by 2027-02-03 (180 days from the denial notice date; the address on my denial letter is the correct address to use)\n\n---\n\nDear Ambetter (WellCare) Appeals Department,\n\nI am appealing the denial of prior authorization for CPT 63030 (lower back disc surgery/decompression). My surgeon, Dr. Reyes, has documented that this procedure is medically necessary. The denial states that \"the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\" I am asking the plan to reconsider this decision because my medical records show that I have met the plan's own published criteria under CP.MP.114.\n\n## The Plan's Criteria and How My Records Meet Them\n\nThe policy states that discectomy is medically necessary when meeting all of the following:\n\n> \"discectomy are medically necessary when meeting all of the following:\"\n\n### 1. Diagnosis of herniated lumbar disc\n\nThe policy requires:\n\n> \"Dia gnosis of herniated lumbar disc;\"\n\nMy MRI of the lumbar spine, dated 2026-06-28, documents an L4-L5 disc extrusion.\n\n### 2. Nerve root compression confirmed by imaging\n\nThe policy requires:\n\n> \"Ne rve root compression confirmed by imaging and one of the following:\"\n\nThe same MRI documents \"severe right lateral recess stenosis and compression of the traversing L5 nerve root.\"\n\n### 3. Radiculopathy with sensory deficit\n\nThe policy states this pathway is met by:\n\n> \"Radiculopathy with sensory deficit as evidenced by pain, parasthesias or numbness in a nerve root distribution, and member/enrollee has failed to respond to conservative ther apy including all the following:\"\n\nMy records document radicular pain radiating into my right calf, consistent with a nerve root distribution, along with positive provocative testing on the affected side and a neurologic deficit corresponding to the imaged level.\n\n### 4. Failed conservative therapy within the last year\n\nThe policy requires all of the following:\n\n> \"a) \u2265 four wee ks physical therapy or prescribed home exercise program, or documentation of member/enrollee's inability to tolerate;\"\n\nI completed 16 supervised physical therapy visits over 10 weeks (2026-05-03 to 2026-07-12), well beyond the four-week minimum, as documented in my physical therapy discharge note.\n\n> \"b) \u2265 four weeks activity modification;\"\n\n[Please confirm documentation of \u22654 weeks of activity modification \u2014 for example, from physical therapy notes or clinic notes \u2014 and add the specific dates/details here.]\n\n> \"1) Nonsteroidal anti-inflammatory drug (NSAID) or acetaminophen \u2265 thre e weeks unless contraindicated or not tolerated;\"\n\nI used NSAIDs for 6 months with inadequate relief, well beyond the three-week minimum.\n\n> \"2) Epidural steroid inj ection;\"\n\nI received a corticosteroid injection on 2026-06-09, which gave 3 weeks of partial relief. [If this injection was administered as an epidural steroid injection, please confirm this in the procedure note so the record clearly matches this criterion.]\n\n## Summary\n\nBased on the records described above, my diagnosis, imaging findings, and conservative care to date correspond to the plan's own published criteria for medical necessity of discectomy under CP.MP.114. My symptoms have also continued for 12 months, with functional limitations including the inability to stand more than 10 minutes.\n\n## What I Am Asking For\n\nI am respectfully asking the plan to reconsider its denial of CPT 63030 and to approve this surgery based on the records already submitted and any additional documentation provided in this appeal. If any additional records are needed from Dr. Reyes's office to confirm the activity-modification or injection details noted above, please let us know what is needed and I will have my provider's office submit it promptly.\n\nThank you for reconsidering my case.\n\nSincerely,\n\n[Jordan Foster]\n[Address]\n[Phone number]\n[Email address]\nMember ID: W794852405\nDate: [date of submission]\n\n---\n\n**How to submit this appeal:**\nOnline: ambetterhealth.com (select your state, then the appeal/grievance form)\nBy phone: the number on your Ambetter ID card\nBy mail: the appeal address printed on your denial notice\nDeadline: must be received by 2027-02-03\n\n---\n\n*This letter is not medical or legal advice and does not guarantee that coverage will be approved.*",
+ "model": "claude-sonnet-5",
+ "sender": "patient",
+ "usage": {
+  "input_tokens": 4000,
+  "output_tokens": 3917
+ },
+ "estimated_cost_usd": 0.3538,
+ "elapsed_s": 43.1,
+ "usd": 0.0708,
+ "run_id": "r-a9732d46c476",
+ "case_id": "poc-ee22487639",
+ "evidence": {
+  "policy_title": "Clinical Policy: Disc Decompression Procedures (CP.MP.114)",
+  "policy_url": "https://www.ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf",
+  "quotes": [
+   "discectomy are medically necessary when meeting all of the following:",
+   "Dia gnosis of herniated lumbar disc;",
+   "Ne rve root compression confirmed by imaging and one of the following:",
+   "R adiculopathy with motor deficit and one of the following:",
+   "Severe weakness in a nerve root distribution, as evidenced by:",
+   "a score of \u2264 3 on the Me dical Research Council 0 to 5 muscle strength scale, or the inability to ambulate;",
+   "Mild to moderate weakness in a nerve root distribution, as evidenced by a score of 4 on the Medical Research Council 0 to 5 muscle strength scale and one of the following:",
+   "Worsening weakness or motor deficit;",
+   "Member/enrollee has failed to respond to conservative therapy, within the last year, including all of the following:",
+   "a) \u2265 four wee ks physical therapy or prescribed home exercise program, or documentation of member/enrollee\u2019s inability to tolerate;",
+   "b) \u2265 four weeks activity modification;",
+   "1) Nonsteroidal anti-inflammatory drug (NSAID) or acetaminophen \u2265 thre e weeks unless contraindicated or not tolerated;",
+   "2) Epidural steroid inj ection;",
+   "Radiculopathy with sensory deficit as evidenced by pain, parasthesias or numbness in a nerve root distribution, and member/enrollee has failed to respond to conservative ther apy including all the following:"
+  ],
+  "unverified": [],
+  "submission_route": "Ambetter/Centene is run per state. Go to ambetterhealth.com, choose your state, and use that state's appeal form, or call the number on your card. Mail to the address on your denial letter. Online: ambetterhealth.com (pick your state, then the appeal/grievance form) By phone: The number on your ID card Deadline: Usually 180 days from the denial -- but your denial letter is authoritative. Use the appeal address printed on your denial letter.",
+  "criteria_request": ""
+ }
+}

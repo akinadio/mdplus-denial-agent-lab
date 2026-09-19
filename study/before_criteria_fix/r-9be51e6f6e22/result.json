@@ -1,0 +1,25 @@
+{
+ "answer": {
+  "policy_found": false,
+  "policy_title": "",
+  "policy_number": "",
+  "policy_url": "",
+  "effective_date": "",
+  "criteria_quotes": [],
+  "appeal_deadline": "2027-02-06",
+  "submission_route": "Ambetter/Centene is run per state. Go to ambetterhealth.com, choose your state, and use that state's appeal form, or call the number on your card. Mail to the address on your denial letter. Online: ambetterhealth.com (pick your state, then the appeal/grievance form) By phone: The number on your ID card Deadline: Usually 180 days from the denial -- but your denial letter is authoritative. Use the appeal address printed on your denial letter.",
+  "how_to_obtain_criteria": "Your plan uses InterQual, which is licensed software rather than a public document. You have a right to it anyway: federal ERISA and ACA appeal rules require the plan to give you, free of charge, the specific rule or criterion relied on for the denial. Ask in writing for 'the InterQual subset, edition, and full criteria text applied to my determination'.",
+  "confidence": "high",
+  "notes": "no public criteria on file; abstained and routed"
+ },
+ "source": "abstention_route",
+ "route": {
+  "kind": "request_written",
+  "vendor": "InterQual (Change Healthcare)",
+  "how": "Your plan uses InterQual, which is licensed software rather than a public document. You have a right to it anyway: federal ERISA and ACA appeal rules require the plan to give you, free of charge, the specific rule or criterion relied on for the denial. Ask in writing for 'the InterQual subset, edition, and full criteria text applied to my determination'.",
+  "source": "appeal rights, 29 CFR 2560.503-1"
+ },
+ "model": "claude-sonnet-5",
+ "run_id": "r-9be51e6f6e22",
+ "case_id": "poc-c1ee0f5da7"
+}

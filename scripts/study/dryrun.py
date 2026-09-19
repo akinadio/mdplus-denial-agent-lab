@@ -852,6 +852,19 @@ def stage_money():
           "a letter that quotes NOTHING is not grounded -- silence is a failure")
     check(not assess([_nsaid], "imaging")["grounded"],
           "a letter quoting the wrong requirement is not grounded either")
+    # A denial that names no specific deficiency is answered by the criteria
+    # themselves. Harvard Pilgrim / 29881 was denied for "incomplete
+    # documentation" and our letter quoted the non-operative-treatment
+    # requirement -- the right move, and it was being scored off point because
+    # the sentence contains no documentation vocabulary.
+    check(assess([_nsaid], "incomplete_documentation")["grounded"],
+          "a generic denial is answered by quoting the criteria themselves")
+    check(assess([_nsaid], "not_medically_necessary")["grounded"],
+          "'does not meet criteria' is answered by quoting the criteria")
+    check(not assess(["Coverage Rationale Surgery of the knee is proven and "
+                      "medically necessary in certain circumstances."],
+                     "not_medically_necessary")["grounded"],
+          "a heading still does not ground a letter, whatever the denial said")
     check(assess([_nsaid], "conservative_care")["grounded"],
           "a letter quoting the requirement the denial turned on IS grounded")
 
