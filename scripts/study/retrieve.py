@@ -98,6 +98,14 @@ SYSTEMS = {
     "gemini":       ("google",    os.environ.get("POC_GEMINI_MODEL",      "gemini-3.5-flash")),
     "claude-free":  ("anthropic", os.environ.get("POC_CLAUDE_FREE_MODEL", "claude-sonnet-5")),
     "ortho-sonnet": ("anthropic", os.environ.get("POC_SONNET_MODEL",      "claude-sonnet-5")),
+    # Same code path, same library lookup, same criteria -- only the letter
+    # writer differs, because OrthoAppeals' retrieval step has no model in it.
+    # Measured on the 30 in-library cases (2026-09-19, paired, McNemar exact):
+    # Opus grounded 6 letters Sonnet did not and broke none of Sonnet's,
+    # P=0.031. Keeping BOTH arms matters: ortho-sonnet holds the model constant
+    # against Claude-free, so any gap there is architecture, while ortho-opus is
+    # what we would actually ship.
+    "ortho-opus":   ("anthropic", os.environ.get("POC_OPUS_MODEL",        "claude-opus-5")),
 }
 
 SYSTEM_PROMPT = (
