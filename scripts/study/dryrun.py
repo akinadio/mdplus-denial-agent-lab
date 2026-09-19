@@ -461,8 +461,9 @@ def stage_money():
           "an OpenAI quota error is recognised as a funding stop")
     check(not spend.is_funding_error("Unknown parameter: 'input[2].status'"),
           "an ordinary error is not mistaken for one")
-    check(spend.cost("gpt-5.6-luna", {"input_tokens": 1_000_000, "output_tokens": 0}) == 1.0,
-          "cost is computed from tokens")
+    check(spend.cost("gpt-5.6-luna", {"input_tokens": 1_000_000, "output_tokens": 0})
+          == spend.price("gpt-5.6-luna")[0],
+          "cost is computed from tokens at the model's own verified rate")
     os.environ["STUDY_BUDGET_USD"] = "0.0000001"
     try:
         spend.check_budget(); check(spend.total() == 0, "an empty ledger is under any budget")
@@ -609,12 +610,40 @@ def stage_money():
     # answers the same -- but it changes what a run costs by several times, so
     # both halves are checked: that the breakpoints go out, and that the ledger
     # prices what comes back.
-    check(_sp.cost("claude-sonnet-5", {"input_tokens": 1_000_000}) == 3.0,
-          "an uncached million input tokens still prices at the plain rate")
-    check(_sp.cost("claude-sonnet-5", {"cache_read_input_tokens": 1_000_000}) == 0.3,
-          "a cache READ is priced at a tenth of input, not free and not full")
-    check(_sp.cost("claude-sonnet-5", {"cache_creation_input_tokens": 1_000_000}) == 3.75,
-          "a cache WRITE is priced at 1.25x input")
+    # Priced against the table itself, not against numbers written here: a test
+    # that hardcodes a rate has to be edited every time a vendor moves, and the
+    # edit is exactly where a wrong number gets in.
+    for _m in _sp._DEFAULT:
+        _pin, _pout, _pw, _pr = _sp.price(_m)
+        check(_sp.cost(_m, {"input_tokens": 1_000_000}) == round(_pin, 4),
+              f"{_m}: uncached input prices at the verified input rate")
+        check(_sp.cost(_m, {"cache_read_input_tokens": 1_000_000}) == round(_pr, 4),
+              f"{_m}: a cache READ prices at the verified cache rate, not free")
+        check(_sp.cost(_m, {"cache_creation_input_tokens": 1_000_000}) == round(_pw, 4),
+              f"{_m}: a cache WRITE prices at the verified write rate")
+        check(0 < _pr < _pin <= _pw and _pout > _pin,
+              f"{_m}: the four rates are ordered sanely (read < input <= write; output > input)")
+
+    # Prices must be verified, and an unverified one must stop the run rather
+    # than guess. All four entries in this table were wrong on 2026-09-19 while
+    # a comment claimed they had been checked.
+    check(len(_sp.VERIFIED) == 10 and set(_sp.SOURCES) == {"openai", "anthropic", "google"},
+          "the price table records the date it was verified and the pages it came from")
+    try:
+        _sp.price("some-model-nobody-priced")
+        check(False, "an unpriced model raises instead of falling back to a guess")
+    except _sp.UnknownPrice:
+        check(True, "an unpriced model raises instead of falling back to a guess")
+    import grade_letters as _gl
+    _models = [m for _, m in _ret.SYSTEMS.values()] + [_gl.GRADER_MODEL]
+    for _m in _models:
+        try:
+            _sp.price(_m)
+            check(True, f"{_m} has a verified price before its arm can run")
+        except _sp.UnknownPrice:
+            check(False, f"{_m} has a verified price before its arm can run")
+    _sp.banner("x", 1, "claude-sonnet-5 / gpt-5.6-luna", 10, 10)
+    check(True, "a banner naming two models prices without crashing")
 
     from synthetic_harness.providers import AnthropicProvider as _AP
 
@@ -755,6 +784,35 @@ def stage_money():
         check('"correct" not in' in _src or "get(\"correct\")" not in _src
               or "not_run" in _src,
               f"{_f}: a run with no verdict cannot land in a denominator")
+
+    # Google reports cached tokens INSIDE prompt_token_count; Anthropic reports
+    # them separately. If that difference is not handled, Gemini is billed at
+    # the full input rate for tokens Google discounted by 90%.
+    from synthetic_harness.providers import GoogleProvider as _GP
+
+    class _GU:
+        prompt_token_count, candidates_token_count, cached_content_token_count = 1000, 50, 800
+
+    _gu = {"input_tokens": 0, "output_tokens": 0}
+    _GP._acc(_gu, type("R", (), {"usage_metadata": _GU()})())
+    check(_gu["input_tokens"] == 200 and _gu["cache_read_input_tokens"] == 800,
+          "Google's cached tokens are split out of prompt_token_count, not double-billed")
+
+    # A retried case must not inherit the trace of the attempt we threw away.
+    _tmp6 = Path(_tf.mkdtemp())
+    try:
+        _tp = _tmp6 / "tools.jsonl"
+        _tp.write_text('{"i": 1, "action": "stale"}\n')
+    except Exception:
+        pass
+    try:
+        _r2 = _ar._ToolRunner(_tp, "row")
+        check(_tp.read_text() == "",
+              "a fresh run starts with an empty tool trace, not the last attempt's")
+        check(getattr(_r2, "_calls", None) == 0,
+              "the tool-call counter starts at zero for each attempt")
+    finally:
+        _sh.rmtree(_tmp6, ignore_errors=True)
 
     # One provider's empty balance must not stop the others.
     for f in ("retrieve.py", "draft_letters.py"):

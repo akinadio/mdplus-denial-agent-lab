@@ -109,9 +109,21 @@ class _ToolRunner:
 
     def __init__(self, trace_path: Path, row_id: str):
         self._trace_path = trace_path
+        # One runner per attempt, so the trace starts empty. It used to be
+        # opened "a" and never truncated, so a retried case ended up with both
+        # attempts concatenated: the three Gemini runs repaired on 2026-09-19
+        # read as 148 tool calls (40 from the run we cut, 108 from the retry),
+        # which silently inflated every tool-call and searches-per-case figure
+        # taken off these files.
+        try:
+            trace_path.parent.mkdir(parents=True, exist_ok=True)
+            trace_path.write_text("")
+        except OSError:
+            pass
         self._row_id = row_id
         self._lock = threading.Lock()
         self._i = 0
+        self._calls = 0
         # Imported lazily so the module loads on hosts without `requests`.
         from policy_eval.webtools import fetch, search, SearchUnavailable
 

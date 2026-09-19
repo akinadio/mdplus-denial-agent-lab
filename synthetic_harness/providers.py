@@ -556,7 +556,19 @@ class GoogleProvider:
     def _acc(usage: dict[str, int], resp: Any) -> None:
         u = getattr(resp, "usage_metadata", None)
         if u is not None:
-            usage["input_tokens"] += getattr(u, "prompt_token_count", 0) or 0
+            # Google's prompt_token_count INCLUDES anything served from its
+            # implicit cache, and cached_content_token_count says how much of it
+            # was. Anthropic reports the two separately; Google does not. So the
+            # cached part is subtracted out here and reported in the same field
+            # names the ledger already prices, or Gemini gets billed at the full
+            # input rate for tokens Google discounted by 90%.
+            prompt = getattr(u, "prompt_token_count", 0) or 0
+            cached = (getattr(u, "cached_content_token_count", 0)
+                      or getattr(u, "cached_token_count", 0) or 0)
+            cached = min(cached, prompt)
+            usage["input_tokens"] += prompt - cached
+            usage["cache_read_input_tokens"] = (
+                usage.get("cache_read_input_tokens", 0) + cached)
             usage["output_tokens"] += getattr(u, "candidates_token_count", 0) or 0
 
     @staticmethod

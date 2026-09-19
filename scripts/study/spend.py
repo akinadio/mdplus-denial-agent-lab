@@ -21,17 +21,53 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 LEDGER = ROOT / "study" / "spend.json"
 
-# $ per million tokens (input, output). Overridable per model from .env.
-# Checked against each vendor's published rates on 2026-09-19. A model that is
-# NOT listed here falls back to (5, 25), which on 2026-09-19 overstated one
-# Gemini letter as $3.96 when it actually cost about $0.60 -- so add a model
-# here before running its arm, or the ledger you are watching is fiction.
-_DEFAULT = {
-    "gpt-5.6-luna":    (1.00,  6.00),
-    "gemini-3.5-flash": (0.75,  4.50),
-    "claude-sonnet-5": (3.00, 15.00),
-    "claude-opus-5":  (15.00, 75.00),
+# ---------------------------------------------------------------------------
+# PRICES. $ per million tokens: (input, output, cache_write, cache_read).
+#
+# READ THIS BEFORE TRUSTING A DOLLAR FIGURE FROM THIS FILE.
+#
+# Until 2026-09-19 this table carried a comment saying it had been "checked
+# against each vendor's published rates". It had not been. All four entries were
+# wrong, and not in the same direction, so the errors did not even cancel:
+#
+#   gpt-5.6-luna      was  1.00/6.00   actually 0.20/0.90   10x too HIGH
+#   gemini-3.5-flash  was  0.75/4.50   actually 1.50/9.00    2x too LOW
+#   claude-sonnet-5   was  3.00/15.00  actually 2.00/10.00 1.5x too HIGH
+#   claude-opus-5     was 15.00/75.00  actually 5.00/25.00   3x too HIGH
+#
+# The ledger is the only thing standing between this study and running out of
+# money with no warning, so a guessed price is worse than no price. Rules:
+#
+#   1. Every rate below is quoted from the vendor's own pricing page, fetched on
+#      VERIFIED. The page is in SOURCES. If you cannot point at the page, the
+#      number does not go here.
+#   2. There is NO silent fallback. An unpriced model raises UnknownPrice and
+#      the dry run fails before any paid run starts. The old fallback of (5, 25)
+#      is how one Gemini letter came to be reported as $3.96.
+#   3. Re-verify whenever a model is added or a vendor changes rates. Gemini 3.5
+#      Flash has already tripled its price once.
+VERIFIED = "2026-09-19"
+SOURCES = {
+    "openai": "https://developers.openai.com/api/docs/pricing",
+    "anthropic": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "google": "https://ai.google.dev/gemini-api/docs/pricing",
 }
+# gpt-5.6-luna is quoted at OpenAI's LONG-context tier (0.20/0.90), not short
+# (0.10/0.60): our prompts carry fetched policy pages and run to ~85k input
+# tokens, and if the tier boundary is crossed the ledger should read high rather
+# than low.
+_DEFAULT = {
+    "gpt-5.6-luna":     (0.20,  0.90, 0.20, 0.02),
+    "gemini-3.5-flash": (1.50,  9.00, 1.50, 0.15),
+    "claude-sonnet-5":  (2.00, 10.00, 2.50, 0.20),
+    "claude-opus-5":    (5.00, 25.00, 6.25, 0.50),
+}
+
+
+class UnknownPrice(RuntimeError):
+    """A model with no verified price. Fail loudly rather than guess."""
+
+
 _CREDIT = re.compile(r"credit balance|insufficient_quota|billing|usage limit|"
                      r"Error code: 402|exceeded your current quota", re.I)
 
@@ -44,29 +80,35 @@ def is_funding_error(exc: Exception | str) -> bool:
     return bool(_CREDIT.search(str(exc)))
 
 
-def price(model: str) -> tuple[float, float]:
+def price(model: str) -> tuple[float, float, float, float]:
+    """(input, output, cache_write, cache_read) per million tokens.
+
+    Each is overridable per model from the environment, e.g.
+    MDPLUS_PRICE_CLAUDE_SONNET_5_IN=1.80 once a discount is negotiated.
+    """
+    base = next((v for k, v in _DEFAULT.items() if k in (model or "")), None)
+    if base is None:
+        raise UnknownPrice(
+            f"no verified price for model {model!r}. Take it from the vendor's "
+            f"pricing page (spend.SOURCES) and add it to spend._DEFAULT before "
+            f"running that arm -- a guessed rate makes the whole ledger fiction.")
     key = re.sub(r"[^A-Z0-9]", "_", (model or "").upper())
-    i = os.environ.get(f"MDPLUS_PRICE_{key}_IN")
-    o = os.environ.get(f"MDPLUS_PRICE_{key}_OUT")
-    base = next((v for k, v in _DEFAULT.items() if k in (model or "")), (5.00, 25.00))
-    return (float(i) if i else base[0], float(o) if o else base[1])
-
-
-# Anthropic prompt caching: writing the cache costs 1.25x the input rate,
-# reading it 0.1x. The API reports those tokens in their own fields and leaves
-# them OUT of input_tokens, so the three add up with no overlap -- but a ledger
-# that sums only input_tokens reports a cached run at about a tenth of what it
-# cost, which is the same class of error as the missing Gemini price.
-CACHE_WRITE_MULT = 1.25
-CACHE_READ_MULT = 0.10
+    return tuple(float(os.environ.get(f"MDPLUS_PRICE_{key}_{n}") or base[i])
+                 for i, n in enumerate(("IN", "OUT", "CACHE_WRITE", "CACHE_READ")))
 
 
 def cost(model: str, usage: dict) -> float:
-    pi, po = price(model)
-    micro = (usage.get("input_tokens", 0) * pi
-             + usage.get("cache_creation_input_tokens", 0) * pi * CACHE_WRITE_MULT
-             + usage.get("cache_read_input_tokens", 0) * pi * CACHE_READ_MULT
-             + usage.get("output_tokens", 0) * po)
+    """What one call cost, cached tokens included.
+
+    Cached tokens are reported in their OWN fields and are excluded from
+    input_tokens, so the four terms add up with no overlap. Summing only
+    input_tokens reports a cached run at roughly a tenth of its cost.
+    """
+    pin, pout, pwrite, pread = price(model)
+    micro = (usage.get("input_tokens", 0) * pin
+             + usage.get("cache_creation_input_tokens", 0) * pwrite
+             + usage.get("cache_read_input_tokens", 0) * pread
+             + usage.get("output_tokens", 0) * pout)
     return round(micro / 1e6, 4)
 
 
@@ -132,7 +174,21 @@ def check_budget() -> None:
 
 
 def banner(step: str, n_calls: int, model: str, est_in: int, est_out: int) -> None:
-    pi, po = price(model)
+    # A step can name more than one model ("claude-sonnet-5 / gpt-5.6-luna");
+    # price the dearest of them so the estimate is a ceiling, not a hope, and
+    # never let an unpriced name turn the banner into a crash.
+    rates = []
+    for name in re.split(r"[\s/,]+", model or ""):
+        try:
+            rates.append(price(name))
+        except UnknownPrice:
+            continue
+    if not rates:
+        print(f"  spend so far ${total():.2f}  |  this step: ~{n_calls} calls "
+              f"x {model} (no verified price -- estimate unavailable)")
+        return
+    pi = max(r[0] for r in rates)
+    po = max(r[1] for r in rates)
     est = n_calls * (est_in * pi + est_out * po) / 1e6
     left = budget_left()
     print(f"  spend so far ${total():.2f}  |  this step: ~{n_calls} calls x {model} "
@@ -158,7 +214,7 @@ def report() -> None:
     cw = sum(r.get("cw", 0) for r in rows)
     if cr or cw:
         # What caching saved, so the line is auditable rather than trusted.
-        saved = sum((r.get("cr", 0) * price(r["model"])[0] * (1 - CACHE_READ_MULT)) / 1e6
+        saved = sum(r.get("cr", 0) * (price(r["model"])[0] - price(r["model"])[3]) / 1e6
                     for r in rows)
         print(f"    cache: {cr/1e6:.1f}M read, {cw/1e6:.1f}M written"
               f"  (${saved:.2f} saved against paying full input rate)")
