@@ -119,7 +119,11 @@ def _session() -> requests.Session:
 # SearchBackendDown in scripts/study/retrieve.py) -- and a patient using the
 # live tool got "search unavailable" for what was a one-second hiccup. Two
 # defences: pace calls so a burst never happens, and retry the 429s that do.
-SEARCH_MIN_INTERVAL = float(os.environ.get("WEB_SEARCH_MIN_INTERVAL", "1.1"))
+# Brave's Search plan allows 50 requests/second (checked against its pricing
+# page, 2026-09-19); 10/s leaves five times that headroom and still keeps the
+# pacer from being the bottleneck when --workers is raised. Searches are billed
+# per request ($5 per 1,000), so pacing controls the rate, never the bill.
+SEARCH_MIN_INTERVAL = float(os.environ.get("WEB_SEARCH_MIN_INTERVAL", "0.1"))
 SEARCH_MAX_RETRIES = int(os.environ.get("WEB_SEARCH_MAX_RETRIES", "4"))
 _TRANSIENT = (429, 500, 502, 503, 504)
 
