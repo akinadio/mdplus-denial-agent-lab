@@ -947,6 +947,18 @@ def stage_money():
     _p = [_GP2._prunable(x) for x in _t]
     check(_json.dumps(_p).count(": null") == 0,
           "a saved transcript is pruned of the null fields the SDK rejects")
+    # The one that actually broke every Gemini letter: thought_signature is a
+    # BYTES field, and a plain model_dump() writes the repr of the bytes object
+    # rather than base64, so the SDK refuses the whole transcript over one key.
+    _bad = _GP2._prunable({"parts": [{"text": "x",
+                                      "thought_signature": "b'\\x12\\xcc\\x05'"}]})
+    check("thought_signature" not in _bad["parts"][0] and _bad["parts"][0]["text"] == "x",
+          "a bytes field written as a Python repr is dropped, not fed back")
+    _good = _GP2._prunable({"parts": [{"thought_signature": "aGVsbG8="}]})
+    check(_good["parts"][0]["thought_signature"] == "aGVsbG8=",
+          "a properly base64 bytes field is kept")
+    check('"mode": "json"' in (ROOT / "scripts/study/retrieve.py").read_text(),
+          "phase 1 saves transcripts in JSON mode, so bytes are base64 from the start")
     check(len(_p) == 2 and _p[0]["parts"][0]["text"] == "hello"
           and _p[1]["parts"][0]["function_call"]["name"] == "web_search",
           "pruning keeps every turn, its text and its tool calls")

@@ -325,10 +325,17 @@ def _jsonable(obj):
                 # exclude_none where the SDK supports it: a plain model_dump()
                 # writes every unset field as null, and Google's SDK then
                 # refuses its own transcript on the way back in.
-                try:
-                    return _jsonable(fn(exclude_none=True))
-                except TypeError:
-                    return _jsonable(fn())
+                # mode="json" as well as exclude_none: bytes fields (Gemini's
+                # thought_signature) are otherwise written as the repr of the
+                # bytes object, which is not base64 and which the SDK refuses
+                # when the transcript is read back for phase 2.
+                for kwargs in ({"mode": "json", "exclude_none": True},
+                               {"exclude_none": True}, {}):
+                    try:
+                        return _jsonable(fn(**kwargs))
+                    except TypeError:
+                        continue
+                return _jsonable(fn())
             except Exception:  # noqa: BLE001
                 pass
     return str(obj)

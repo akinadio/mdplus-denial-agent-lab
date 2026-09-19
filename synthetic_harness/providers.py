@@ -625,17 +625,46 @@ class GoogleProvider:
         have to be bought again.
         """
         if isinstance(obj, dict):
-            return {k: GoogleProvider._prunable(v) for k, v in obj.items()
-                    if v is not None}
+            out = {}
+            for k, v in obj.items():
+                if v is None:
+                    continue
+                # thought_signature is BYTES. A plain model_dump() writes the
+                # repr of the bytes object -- "b'\\x12\\xcc\\x05...'" -- and
+                # pydantic wants base64 on the way back in, so the whole
+                # transcript is rejected on one field. It is Gemini's opaque
+                # reasoning token and carries nothing the next turn needs, so a
+                # value that is not valid base64 is dropped rather than fought.
+                if k == "thought_signature" and isinstance(v, str):
+                    import base64
+                    try:
+                        base64.b64decode(v, validate=True)
+                    except Exception:  # noqa: BLE001
+                        continue
+                out[k] = GoogleProvider._prunable(v)
+            return out
         if isinstance(obj, list):
             return [GoogleProvider._prunable(v) for v in obj]
         return obj
 
     def continue_once(self, *, client, model, system, transcript, ask, usage, max_tokens):
         cfg, types = self._tools_and_config(system, max_tokens)
-        contents = [self._prunable(t) if isinstance(t, dict) else t
-                    for t in (transcript or [])] + [
-            types.Content(role="user", parts=[types.Part(text=ask)])]
+        # EVERY element must be the same type. A list of plain dicts with one
+        # types.Content appended at the end makes the SDK resolve the whole
+        # list against the wrong branch of its union -- it starts reading the
+        # turns as if each were a single Part -- and reports it as hundreds of
+        # errors about str, Image and File. Rebuilding each saved turn as a
+        # real Content makes the list unambiguous.
+        contents = []
+        for t in (transcript or []):
+            if isinstance(t, dict):
+                try:
+                    contents.append(types.Content.model_validate(self._prunable(t)))
+                    continue
+                except Exception:  # noqa: BLE001 - fall through to the raw dict
+                    pass
+            contents.append(t)
+        contents.append(types.Content(role="user", parts=[types.Part(text=ask)]))
         resp = client.models.generate_content(
             model=model, contents=contents, config=cfg)
         self._acc(usage, resp)
