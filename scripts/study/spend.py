@@ -14,6 +14,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import threading
 import time
 from pathlib import Path
 
@@ -63,14 +64,38 @@ def _load() -> list:
         return []
 
 
+_record_lock = threading.Lock()
+
+
 def record(step: str, model: str, usage: dict, ref: str = "") -> float:
-    """Append one paid call. Returns the running total for the whole study."""
-    rows = _load()
-    c = cost(model, usage)
-    rows.append({"t": time.strftime("%Y-%m-%d %H:%M:%S"), "step": step, "model": model,
-                 "in": usage.get("input_tokens", 0), "out": usage.get("output_tokens", 0),
-                 "usd": c, "ref": ref})
-    LEDGER.write_text(json.dumps(rows))
+    """Append one paid call. Returns the running total for the whole study.
+
+    Read-modify-write, so it needs both locks. The thread lock covers workers
+    inside one run (--workers); the flock covers two terminals running
+    different arms at once. Without them the loser's calls vanish from the
+    ledger and you are watching a total that is quietly too low -- the one
+    number that must not be wrong while money is going out.
+    """
+    with _record_lock:
+        LEDGER.parent.mkdir(parents=True, exist_ok=True)
+        LEDGER.touch(exist_ok=True)
+        with open(LEDGER, "r+", encoding="utf-8") as fh:
+            try:
+                import fcntl
+                fcntl.flock(fh.fileno(), fcntl.LOCK_EX)
+            except (ImportError, OSError):
+                pass  # no file locking here; the thread lock still holds
+            try:
+                rows = json.loads(fh.read() or "[]")
+            except ValueError:
+                rows = []
+            c = cost(model, usage)
+            rows.append({"t": time.strftime("%Y-%m-%d %H:%M:%S"), "step": step,
+                         "model": model, "in": usage.get("input_tokens", 0),
+                         "out": usage.get("output_tokens", 0), "usd": c, "ref": ref})
+            fh.seek(0)
+            fh.write(json.dumps(rows))
+            fh.truncate()
     return round(sum(r["usd"] for r in rows), 2)
 
 

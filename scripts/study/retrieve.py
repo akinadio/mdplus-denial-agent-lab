@@ -20,9 +20,11 @@ Never passed on the command line, never written to disk.
 
   python3 scripts/study/retrieve.py --systems all
   python3 scripts/study/retrieve.py --systems ortho-sonnet --limit 3   # dry check
+  python3 scripts/study/retrieve.py --systems gemini --limit 30 --workers 5 --resume
 """
 from __future__ import annotations
-import argparse, csv, hashlib, json, os, sys, time
+import argparse, csv, hashlib, json, os, sys, threading, time
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -341,91 +343,147 @@ def _save_key(mapping):
     keyfile.write_text(json.dumps(mapping, indent=1))
 
 
+def _rid(case_id: str, system: str, salt: str = "poc") -> str:
+    return "r-" + __import__("hashlib").sha256(
+        f"{salt}|{case_id}|{system}".encode()).hexdigest()[:12]
+
+
+def _is_done(case_id: str, system: str, salt: str = "poc", runs=None) -> bool:
+    """True only for a run that finished cleanly.
+
+    A result.json holding an error or a skip is NOT done: --resume has to
+    retry it, or the one case that failed on a blip is missing from the arm
+    forever and nothing says so.
+    """
+    f = (runs or RUNS) / _rid(case_id, system, salt) / "result.json"
+    if not f.exists():
+        return False
+    try:
+        prior = json.loads(f.read_text())
+    except ValueError:
+        return False
+    return not ("error" in prior or "skipped" in prior)
+
+
+def plan(cases, systems, salt="poc", resume=False, limit=0, runs=None):
+    """The (case, system) pairs this invocation should actually run.
+
+    --limit is "do this many MORE", not "look at the first this many". Slicing
+    the case list instead meant `--limit 20 --resume` re-examined the same 20
+    cases forever and never reached case 21 -- exactly the knob you reach for
+    when running 400 letters in batches.
+    """
+    work = [(c, s) for c in cases for s in systems
+            if not (resume and _is_done(c["case_id"], s, salt, runs))]
+    return work[:limit] if limit else work
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--systems", default="all")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--resume", action="store_true")
+    ap.add_argument("--workers", type=int, default=1,
+                    help="cases to run at once (default 1). A case is ~90s of "
+                         "mostly waiting, so this is the difference between a "
+                         "three-hour arm and a thirty-minute one. Searches are "
+                         "paced process-wide, so raising this does not raise "
+                         "the search rate; keep it at or below 6 unless you "
+                         "know the provider's concurrency limit.")
     a = ap.parse_args()
 
     systems = list(SYSTEMS) if a.systems == "all" else [s.strip() for s in a.systems.split(",")]
     cases = json.loads((STUDY / "cases.json").read_text())["cases"]
-    # NOTE: --limit is "do this many more", not "look at the first this many".
-    # Truncating the case list meant `--limit 20 --resume` re-examined the same
-    # 20 cases forever and never reached case 21 -- which is exactly the knob
-    # you reach for when running 400 letters in batches. draft_letters.py and
-    # grade_letters.py already counted work done; this now matches them.
     salt = os.environ.get("STUDY_BLIND_SALT", "poc")
     RUNS.mkdir(parents=True, exist_ok=True)
 
     import spend
+
+    # The whole key, so an aborted run still unblinds cleanly.
+    mapping = {_rid(c["case_id"], s, salt): {"case_id": c["case_id"], "system": s}
+               for c in cases for s in systems}
+
+    work = plan(cases, systems, salt, a.resume, a.limit)
+
     if "chatgpt" in systems:
-        n = sum(1 for c in cases if not (a.resume and (RUNS / ("r-" + hashlib.sha256(
-            f"{salt}|{c['case_id']}|chatgpt".encode()).hexdigest()[:12]) / "result.json").exists()))
-        spend.banner("retrieve", n, SYSTEMS["chatgpt"][1], 60000, 4000)
-    mapping, done, skipped = {}, 0, 0
-    broke: set[str] = set()   # arms whose provider has no credit left
-    for c in cases:
-        for s in systems:
-            if s in broke:
-                continue
-            if a.limit and done + skipped >= a.limit:
-                break
-            rid = "r-" + hashlib.sha256(f"{salt}|{c['case_id']}|{s}".encode()).hexdigest()[:12]
-            mapping[rid] = {"case_id": c["case_id"], "system": s}
-            d = RUNS / rid
-            if a.resume and (d / "result.json").exists():
-                prior = json.loads((d / "result.json").read_text())
-                if not ("error" in prior or "skipped" in prior):
-                    continue
-            d.mkdir(exist_ok=True)
-            try:
-                res = (run_ortho(c, SYSTEMS[s][1]) if s.startswith("ortho")
-                       else run_llm(s, c, d))
-            except SearchBackendDown as e:
-                print(f"\n  SEARCH BACKEND DOWN: {e}\n"
-                      "  Stopping. Every remaining answer would be produced without a\n"
-                      "  search engine, which is not the system we are measuring.\n"
-                      "  Top up WEB_SEARCH_API_KEY's plan and re-run with --resume.")
-                _save_key(mapping)
-                raise SystemExit(2)
-            except Exception as e:  # noqa: BLE001
-                res = {"error": f"{type(e).__name__}: {e}"}
-                import spend
-                if spend.is_funding_error(e):
-                    # Out of funds is per PROVIDER, not per run. Drop this arm
-                    # and keep going: on 2026-09-18 an empty Google AI Studio
-                    # balance stopped the Anthropic arm too, which has nothing
-                    # to do with Google.
-                    res["run_id"], res["case_id"] = rid, c["case_id"]
-                    (d / "result.json").write_text(json.dumps(_jsonable(res), indent=1))
-                    _save_key(mapping)
+        spend.banner("retrieve", sum(1 for _, s in work if s == "chatgpt"),
+                     SYSTEMS["chatgpt"][1], 60000, 4000)
+
+    workers = max(1, a.workers)
+    lock = threading.Lock()
+    broke: set[str] = set()      # arms whose provider has no credit left
+    search_down: list[str] = []  # non-empty once the search backend quits
+    done = skipped = 0
+
+    def one(item):
+        """Run a single case. Returns a line to print, or None if not attempted."""
+        nonlocal done, skipped
+        c, s = item
+        with lock:
+            if s in broke or search_down:
+                return None
+        rid = _rid(c["case_id"], s, salt)
+        d = RUNS / rid
+        d.mkdir(exist_ok=True)
+        try:
+            res = run_ortho(c, SYSTEMS[s][1]) if s.startswith("ortho") else run_llm(s, c, d)
+        except SearchBackendDown as e:
+            with lock:
+                search_down.append(str(e)[:300])
+            return None
+        except Exception as e:  # noqa: BLE001
+            res = {"error": f"{type(e).__name__}: {e}"}
+            if spend.is_funding_error(e):
+                # Out of funds is per PROVIDER, not per run. Drop this arm and
+                # keep going: on 2026-09-18 an empty Google AI Studio balance
+                # stopped the Anthropic arm too, which has nothing to do with
+                # Google.
+                res["run_id"], res["case_id"] = rid, c["case_id"]
+                (d / "result.json").write_text(json.dumps(_jsonable(res), indent=1))
+                with lock:
                     broke.add(s)
-                    print(f"\n  {s}: out of funds at the provider -- dropping this arm.\n"
-                          f"    {str(e)[:110]}\n"
-                          f"    Add credit and re-run with --resume to pick it up.\n")
-                    if set(systems) <= broke:
-                        print(f"  Every arm is out of funds. {done} runs saved.")
-                        raise SystemExit(2)
-                    continue
-            res["run_id"] = rid
-            res["case_id"] = c["case_id"]
-            (d / "result.json").write_text(json.dumps(_jsonable(res), indent=1))
+                return (f"\n  {s}: out of funds at the provider -- dropping this arm.\n"
+                        f"    {str(e)[:110]}\n"
+                        f"    Add credit and re-run with --resume to pick it up.\n")
+        res["run_id"], res["case_id"] = rid, c["case_id"]
+        (d / "result.json").write_text(json.dumps(_jsonable(res), indent=1))
+        with lock:
             if "skipped" in res or "error" in res:
                 skipped += 1
-                print(f"  {rid} {s:13s} SKIP/ERR {res.get('skipped') or res.get('error')}")
-            else:
-                done += 1
-                print(f"  {rid} {s:13s} ok")
+                return f"  {rid} {s:13s} SKIP/ERR {res.get('skipped') or res.get('error')}"
+            done += 1
+            return f"  {rid} {s:13s} ok"
+
+    if workers == 1:
+        for item in work:
+            line = one(item)
+            if line:
+                print(line, flush=True)
+            if search_down or set(systems) <= broke:
+                break
+    else:
+        print(f"  {len(work)} to run, {workers} at a time")
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            for line in pool.map(one, work):
+                if line:
+                    print(line, flush=True)
+
     _save_key(mapping)
-    left = sum(1 for c in cases for s in systems
-               if not (RUNS / ("r-" + hashlib.sha256(
-                   f"{salt}|{c['case_id']}|{s}".encode()).hexdigest()[:12])
-                   / "result.json").exists())
+
+    if search_down:
+        print(f"\n  SEARCH BACKEND DOWN: {search_down[0]}\n"
+              "  Stopping. Every remaining answer would be produced without a\n"
+              "  search engine, which is not the system we are measuring.\n"
+              "  Top up WEB_SEARCH_API_KEY's plan and re-run with --resume.")
+        raise SystemExit(2)
+
+    left = sum(1 for c in cases for s in systems if not _is_done(c["case_id"], s, salt))
     print(f"\n{done} runs completed, {skipped} skipped/errored -> {RUNS}")
     if left:
         print(f"{left} still to do -- re-run the same command to continue.")
     spend.report()
+    if set(systems) <= broke:
+        raise SystemExit(2)
 
 
 if __name__ == "__main__":

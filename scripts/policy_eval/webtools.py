@@ -11,8 +11,11 @@ and the result count.
 from __future__ import annotations
 
 import os
+import random
 import socket
 import sys
+import threading
+import time
 from pathlib import Path
 from typing import Any
 from urllib.parse import urlsplit
@@ -110,6 +113,29 @@ def _session() -> requests.Session:
     return _SESSION
 
 
+# Brave rate-limits by requests per second, not only by monthly quota, and it
+# answers a burst with HTTP 429. Before this, a 429 was indistinguishable from
+# the monthly cap being hit, so the harness aborted the whole arm (see
+# SearchBackendDown in scripts/study/retrieve.py) -- and a patient using the
+# live tool got "search unavailable" for what was a one-second hiccup. Two
+# defences: pace calls so a burst never happens, and retry the 429s that do.
+SEARCH_MIN_INTERVAL = float(os.environ.get("WEB_SEARCH_MIN_INTERVAL", "1.1"))
+SEARCH_MAX_RETRIES = int(os.environ.get("WEB_SEARCH_MAX_RETRIES", "4"))
+_TRANSIENT = (429, 500, 502, 503, 504)
+
+_pace_lock = threading.Lock()
+_last_call = [0.0]
+
+
+def _pace() -> None:
+    """Let one search start every SEARCH_MIN_INTERVAL seconds, process-wide."""
+    with _pace_lock:
+        wait = SEARCH_MIN_INTERVAL - (time.monotonic() - _last_call[0])
+        if wait > 0:
+            time.sleep(wait)
+        _last_call[0] = time.monotonic()
+
+
 class SearchUnavailable(RuntimeError):
     pass
 
@@ -122,22 +148,34 @@ def search(query: str, count: int = 5) -> dict[str, Any]:
             "WEB_SEARCH_API_KEY is not set. Refusing to run: a harness with no "
             "search path measures the network, not the model."
         )
-    resp = requests.get(
-        SEARCH_ENDPOINT,
-        params={"q": query, "count": max(1, min(int(count), 20))},
-        headers={
-            "X-Subscription-Token": token,
-            "Accept": "application/json",
-            # Brave now rejects the request with 422 ("Input should be
-            # 'no-cache'") if this header is absent -- a requirement added
-            # after this integration was first written. Documented in a
-            # since-locked upstream bug (Brave community thread, March 2026)
-            # and confirmed against this account: same key, active
-            # subscription, every call still 422'd until this was added.
-            "Cache-Control": "no-cache",
-        },
-        timeout=FETCH_TIMEOUT,
-    )
+    resp = None
+    for attempt in range(SEARCH_MAX_RETRIES + 1):
+        _pace()
+        resp = requests.get(
+            SEARCH_ENDPOINT,
+            params={"q": query, "count": max(1, min(int(count), 20))},
+            headers={
+                "X-Subscription-Token": token,
+                "Accept": "application/json",
+                # Brave now rejects the request with 422 ("Input should be
+                # 'no-cache'") if this header is absent -- a requirement added
+                # after this integration was first written. Documented in a
+                # since-locked upstream bug (Brave community thread, March 2026)
+                # and confirmed against this account: same key, active
+                # subscription, every call still 422'd until this was added.
+                "Cache-Control": "no-cache",
+            },
+            timeout=FETCH_TIMEOUT,
+        )
+        if resp.status_code not in _TRANSIENT or attempt == SEARCH_MAX_RETRIES:
+            break
+        # Honour Retry-After when Brave sends one; otherwise back off with
+        # jitter so parallel workers do not retry in lockstep.
+        try:
+            delay = float(resp.headers.get("Retry-After", ""))
+        except ValueError:
+            delay = 0.0
+        time.sleep(max(delay, (2 ** attempt) * SEARCH_MIN_INTERVAL) + random.uniform(0, 0.4))
     if resp.status_code != 200:
         return {
             "backend": SEARCH_BACKEND,

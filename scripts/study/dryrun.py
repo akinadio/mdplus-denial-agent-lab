@@ -19,6 +19,7 @@ Exit 0 means the pipeline is sound and a paid run is worth starting.
 """
 from __future__ import annotations
 
+import os
 import json
 import subprocess
 import sys
@@ -486,19 +487,129 @@ def stage_money():
           "an object with no dump method degrades to text instead of crashing")
 
     # --limit must mean "do N more", or batching a long run silently stalls.
-    src = (ROOT / "scripts/study/retrieve.py").read_text()
-    check("cases = cases[:a.limit]" not in src,
-          "retrieve.py: --limit does not truncate the case list")
-    check("done + skipped >= a.limit" in src,
-          "retrieve.py: --limit counts work done, so batches advance")
+    # Exercised, not grepped: the string check passed right up until the day
+    # the loop was rewritten, and a check that only knows one spelling of the
+    # right answer is not checking anything.
+    import tempfile as _tf, shutil as _sh
+    import retrieve as _ret
+    _cases = [{"case_id": f"c{i}"} for i in range(5)]
+    _tmp = Path(_tf.mkdtemp())
+    try:
+        def _finish(cid, sys_, payload):
+            d = _tmp / _ret._rid(cid, sys_, "t")
+            d.mkdir(parents=True, exist_ok=True)
+            (d / "result.json").write_text(_json.dumps(payload))
+
+        for i in range(3):                       # first three already clean
+            _finish(f"c{i}", "x", {"answer": {}})
+        _finish("c3", "x", {"error": "boom"})    # one failed
+
+        got = _ret.plan(_cases, ["x"], "t", resume=True, limit=2, runs=_tmp)
+        check([c["case_id"] for c, _ in got] == ["c3", "c4"],
+              "retrieve.py: --limit skips finished cases and advances past them")
+        check(len(_ret.plan(_cases, ["x"], "t", resume=True, runs=_tmp)) == 2,
+              "retrieve.py: --resume retries a failed item instead of skipping it")
+        check(len(_ret.plan(_cases, ["x"], "t", resume=False, runs=_tmp)) == 5,
+              "retrieve.py: without --resume every case is run again")
+        check([s_ for _, s_ in _ret.plan(_cases[:1], ["a", "b"], "t", runs=_tmp)] == ["a", "b"],
+              "retrieve.py: a batch splits evenly across the arms named")
+    finally:
+        _sh.rmtree(_tmp, ignore_errors=True)
+
+    # Running cases in parallel breaks two things that were safe when the loop
+    # was serial. Both are checked here because both fail SILENTLY: the ledger
+    # just reads low, and a rate-limit blip just looks like a dead backend.
+    import threading as _th
+    import spend as _sp
+    _led = _sp.LEDGER
+    _tmp2 = Path(_tf.mkdtemp())
+    try:
+        _sp.LEDGER = _tmp2 / "spend.json"
+        def _hammer():
+            for _ in range(20):
+                _sp.record("t", "claude-sonnet-5", {"input_tokens": 1000, "output_tokens": 100})
+        _ts = [_th.Thread(target=_hammer) for _ in range(6)]
+        [t.start() for t in _ts]; [t.join() for t in _ts]
+        check(len(_json.loads(_sp.LEDGER.read_text())) == 120,
+              "spend ledger keeps every call when workers write at once")
+    finally:
+        _sp.LEDGER = _led
+        _sh.rmtree(_tmp2, ignore_errors=True)
+
+    import policy_eval.webtools as _wt
+    check(_wt.SEARCH_MIN_INTERVAL > 0 and _wt.SEARCH_MAX_RETRIES >= 1,
+          "web_search is paced and retries, so --workers cannot burst the backend")
+
+    class _Resp:
+        def __init__(self, code): self.status_code, self.headers, self.text = code, {}, ""
+        def json(self): return {"web": {"results": []}}
+
+    _seen = []
+
+    def _flaky(url, params=None, headers=None, timeout=None):
+        _seen.append(1)
+        return _Resp(429 if len(_seen) < 3 else 200)
+
+    _get, _iv = _wt.requests.get, _wt.SEARCH_MIN_INTERVAL
+    _key = os.environ.get("WEB_SEARCH_API_KEY")
+    try:
+        _wt.requests.get, _wt.SEARCH_MIN_INTERVAL = _flaky, 0.0
+        os.environ["WEB_SEARCH_API_KEY"] = "test"
+        _out = _wt.search("anything", 3)
+        check(len(_seen) == 3 and not _out.get("error"),
+              "a rate-limited search is retried, not read as a dead backend")
+    finally:
+        _wt.requests.get, _wt.SEARCH_MIN_INTERVAL = _get, _iv
+        if _key is None:
+            os.environ.pop("WEB_SEARCH_API_KEY", None)
+        else:
+            os.environ["WEB_SEARCH_API_KEY"] = _key
+
+    # The worker pool itself, end to end, with a stub model: every case gets
+    # exactly one result file and none is lost or written twice. Every new code
+    # path in this harness has shipped with a bug in it (the Responses API, the
+    # Google provider, the Anthropic arm), so the pool does not get to be the
+    # exception.
+    _tmp3 = Path(_tf.mkdtemp())
+    _keep = (_ret.RUNS, _ret.STUDY, _ret.SYSTEMS, _ret.run_llm, sys.argv, _sp.LEDGER)
+    try:
+        _ret.RUNS, _ret.STUDY = _tmp3 / "runs", _tmp3
+        _sp.LEDGER = _tmp3 / "spend.json"
+        (_tmp3 / "cases.json").write_text(_json.dumps(
+            {"cases": [{"case_id": f"p{i}", "letter_text": "x"} for i in range(9)]}))
+        _ret.SYSTEMS = {"stub": ("anthropic", "claude-sonnet-5")}
+        _hits = []
+        _hl = _th.Lock()
+
+        def _stub(system, case, out_dir):
+            with _hl:
+                _hits.append(case["case_id"])
+            time.sleep(0.02)
+            return {"answer": {"policy_found": True}, "usage": {}, "model": "stub"}
+
+        _ret.run_llm = _stub
+        sys.argv = ["retrieve.py", "--systems", "stub", "--workers", "4"]
+        try:
+            _ret.main()
+        except SystemExit:
+            pass
+        _files = sorted(f.parent.name for f in (_tmp3 / "runs").glob("*/result.json"))
+        check(len(_hits) == 9 and len(set(_hits)) == 9,
+              "--workers runs each case exactly once, none dropped or doubled")
+        check(len(_files) == 9,
+              "--workers writes a result file for every case it ran")
+        check(len(_json.loads((_tmp3 / "unblinding.json").read_text())) == 9,
+              "--workers still writes a complete unblinding key")
+    finally:
+        _ret.RUNS, _ret.STUDY, _ret.SYSTEMS, _ret.run_llm, sys.argv, _sp.LEDGER = _keep
+        _sh.rmtree(_tmp3, ignore_errors=True)
 
     # One provider's empty balance must not stop the others.
     for f in ("retrieve.py", "draft_letters.py"):
         src = (ROOT / "scripts/study" / f).read_text()
         check("broke.add(" in src and "continue" in src,
               f"{f}: an out-of-funds provider drops only that arm")
-    for f, marker in (("retrieve.py", 'if not ("error" in prior or "skipped" in prior)'),
-                      ("draft_letters.py", 'if not prior.get("error")'),
+    for f, marker in (("draft_letters.py", 'if not prior.get("error")'),
                       ("grade_letters.py", 'in ("graded", "no_letter")')):
         check(marker in (ROOT / "scripts/study" / f).read_text(),
               f"{f}: --resume retries a failed item instead of skipping it")
