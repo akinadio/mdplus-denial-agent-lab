@@ -965,6 +965,30 @@ def stage_money():
     check('"exclude_none": True' in (ROOT / "scripts/study/retrieve.py").read_text(),
           "phase 1 saves transcripts without the null fields in the first place")
 
+    # UNDEFINED NAMES. grade_letters.py shipped a worker pool with no import
+    # for ThreadPoolExecutor: the module imported fine, the dry run passed, and
+    # it died at the moment of use -- after the letters were already paid for.
+    # A syntax check does not catch that; pyflakes does, in a second, for free.
+    try:
+        from pyflakes.api import check as _pf_check
+        from pyflakes.reporter import Reporter as _PfReporter
+        import io as _io
+
+        _bad = []
+        for _f in sorted((ROOT / "scripts" / "study").glob("*.py")) + \
+                 sorted((ROOT / "synthetic_harness").glob("*.py")) + \
+                 sorted((ROOT / "scripts" / "policy_eval").glob("*.py")):
+            _out, _err = _io.StringIO(), _io.StringIO()
+            _pf_check(_f.read_text(), str(_f), _PfReporter(_out, _err))
+            for _line in _out.getvalue().splitlines():
+                if "undefined name" in _line:
+                    _bad.append(_line.replace(str(ROOT) + "/", ""))
+        check(not _bad, "no script uses a name it never imported or defined",
+              "; ".join(_bad[:3]))
+    except ImportError:
+        check(False, "pyflakes is installed, so undefined names are caught here "
+                     "rather than mid-run (pip install pyflakes)")
+
     # One provider's empty balance must not stop the others.
     for f in ("retrieve.py", "draft_letters.py"):
         src = (ROOT / "scripts/study" / f).read_text()
