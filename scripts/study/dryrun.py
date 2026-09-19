@@ -907,6 +907,34 @@ def stage_money():
     check("quoted_the_denial_back" in _gl and "in_text(x, _notice)" in _gl,
           "grading counts only what the letter quoted from the POLICY")
 
+    # Sendability and invented identifiers -- and, because both were biased
+    # toward our own arm on first writing, the checks that catch that bias.
+    from synthetic_harness.letter_checks import sendability, invented_identifiers
+    _notice = ("Member: Jordan Alvarez\nMember ID: W884213907\n"
+               "Date of notice: 2026-08-07\nReference number: POC-XYZ-41822\n")
+    _full = ("I am Jordan Alvarez, Member ID W884213907, reference POC-XYZ-41822, "
+             "appealing the denial dated 2026-08-07.")
+    check(sendability(_full, _notice)["complete"],
+          "a letter carrying every identifier from the notice is sendable")
+    check(not sendability("Please reconsider my surgery.", _notice)["complete"],
+          "a letter with none of them is not sendable")
+    # The bias: our own letters get the notice's exact string, a chatbot writes
+    # the same date in words. ChatGPT scored 2% sendable until this was fixed.
+    _worded = _full.replace("2026-08-07", "August 7, 2026")
+    check(sendability(_worded, _notice)["complete"],
+          "the same date written in words still counts -- no format bias between arms")
+
+    _doc = "Clinical Policy: Disc Decompression CP.MP.114 Date of Last Revision: 04/25"
+    check(not invented_identifiers("per CP.MP.114, effective 04/25", _doc)["any_invented"],
+          "an identifier that is in the policy is not called invented")
+    check(invented_identifiers("per CP.MP.999", _doc)["any_invented"],
+          "a policy number in no source is called invented")
+    # Aetna bulletin numbers live in the URL, not the body text.
+    check(not invented_identifiers(
+              "per CPB 0660", "body text with no number in it", [],
+              "https://www.aetna.com/cpb/medical/data/600_699/0660.html")["any_invented"],
+          "a number carried in the policy URL is not called invented")
+
     # One provider's empty balance must not stop the others.
     for f in ("retrieve.py", "draft_letters.py"):
         src = (ROOT / "scripts/study" / f).read_text()

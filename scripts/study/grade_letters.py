@@ -183,8 +183,20 @@ def mechanical(letter: str, case: dict, g: dict) -> dict:
     hit_url = bool(url) and (url.rstrip("/") in L or url.split("://", 1)[-1].rstrip("/") in L)
     hit_title = bool(words) and sum(w in L.lower() for w in words) >= max(2, int(0.6 * len(words)))
     cites = hit_url or hit_title
+    # Two checks a clerk makes before anyone clinical reads a word.
+    from synthetic_harness.letter_checks import sendability, invented_identifiers
+    from synthetic_harness.policy_text import policy_text as _ptext
+    _notice = case.get("letter_text", "")
+    _chart = case.get("chart_summary", "")
+    _send = sendability(L, _notice)
+    _doc = (_ptext(g.get("policy_url", "")).get("text") or "") if g.get("policy_url") else ""
+    _inv = invented_identifiers(L, _doc, [_notice, _chart],
+                                g.get("policy_url", ""), g.get("policy_title", ""))
     out = {"quotes": q, "quote_not_in_policy": bool(q["not_in_policy"]),
-           "deadline_correct": deadline, "route_given": route}
+           "deadline_correct": deadline, "route_given": route,
+           "sendable": _send["complete"], "identifiers_missing": _send["missing"],
+           "invented_identifier": _inv["any_invented"],
+           "invented": (_inv["policy_ids_invented"] + _inv["effective_dates_invented"])[:6]}
     if g.get("correct_behavior") in ("cite_document", "cite_and_route"):
         out["cites_correct_policy"] = cites
     # GROUNDED IN THIS PATIENT'S CASE. quote_not_in_policy asks whether the
