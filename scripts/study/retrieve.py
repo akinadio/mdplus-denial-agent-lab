@@ -470,7 +470,14 @@ def main():
                 res["run_id"], res["case_id"] = rid, c["case_id"]
                 (d / "result.json").write_text(json.dumps(_jsonable(res), indent=1))
                 with lock:
+                    first = s not in broke
                     broke.add(s)
+                if not first:
+                    # With N workers, N-1 more cases of the same arm are already
+                    # in flight when the balance runs out, and each comes back
+                    # with its own 429. Say it once; they are all recorded as
+                    # errors and --resume redoes them either way.
+                    return None
                 return (f"\n  {s}: out of funds at the provider -- dropping this arm.\n"
                         f"    {str(e)[:110]}\n"
                         f"    Add credit and re-run with --resume to pick it up.\n")
