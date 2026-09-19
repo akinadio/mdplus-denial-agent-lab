@@ -53,6 +53,14 @@ def policy_text(url: str, refresh: bool = False) -> dict:
     try:
         r = fetch(url, max_text_chars=400000)
         text = r.get("text") or ""
+        # A truncated document is worse than a missing one: find_criteria reads
+        # the part we happen to hold and returns criteria from the wrong
+        # section, and quote_check reports a real quotation as "not in policy"
+        # because the page it came from was cut off. The 2026 Evolent
+        # Musculoskeletal guideline sat in the cache at exactly 120,000
+        # characters -- its KNEE ARTHROPLASTY section is past the cut -- and
+        # nothing anywhere said so.
+        truncated = bool(r.get("text_truncated"))
         # fetch() reports a failed PDF extraction as blocked_reason
         # "extraction_failed:...", with status 200 and empty text. On
         # 2026-09-05 that read as "200, no criteria" for 32 of 44 documents
@@ -62,10 +70,25 @@ def policy_text(url: str, refresh: bool = False) -> dict:
             err = (r.get("blocked_reason") or r.get("login_wall_reason")
                    or f"no text extracted (content-type {r.get('content_type')})")
         out = {"url": url, "final_url": r.get("final_url"), "status": r.get("status"),
-               "content_type": r.get("content_type"), "text": text, "error": err}
+               "content_type": r.get("content_type"), "text": text,
+               "truncated": truncated, "error": err}
     except Exception as exc:  # noqa: BLE001
         out = {"url": url, "text": "", "error": f"{type(exc).__name__}: {exc}"}
     CACHE.mkdir(parents=True, exist_ok=True)
+    # NEVER let a failed fetch overwrite a document we already hold. On
+    # 2026-09-19 a refresh=True against a host whose DNS happened to fail wrote
+    # {"text": ""} over 120,000 characters of a cached policy, and the cache is
+    # not in git. A failure is a fact about today's network, not about the
+    # document. The old text is kept and the error recorded beside it.
+    if not (out.get("text") or "").strip() and p.exists():
+        try:
+            prior = json.loads(p.read_text())
+        except ValueError:
+            prior = {}
+        if (prior.get("text") or "").strip():
+            prior["last_refresh_error"] = out.get("error")
+            p.write_text(json.dumps(prior))
+            return prior
     p.write_text(json.dumps(out))
     return out
 
@@ -140,14 +163,27 @@ def _sentences(text: str) -> list[str]:
     return [c.strip() for c in re.split(r"(?<=[.;:])\s+|\n{2,}", text) if c.strip()]
 
 
-def find_criteria(text: str, cpt: str = "", limit: int = 14) -> list[str]:
+def find_criteria(text: str, cpt: str = "", limit: int = 14,
+                  reason: str = "") -> list[str]:
     """Pull the criteria sentences for THIS procedure out of a policy.
 
     Deliberately dumb and verbatim: it selects, it never paraphrases. Anything
     it returns can be checked against the document character for character,
     which is the property that matters. The procedure's own section comes
     first; the rest of the document only fills in behind it.
+
+    `reason` is the denial reason from the notice. Given one, sentences that
+    speak to it are returned first, because an appeal is won by quoting the
+    requirement the denial actually turned on.
+
+    What is NEVER returned, whatever the cue words say: section headings, rows
+    of the coding table, administrative boilerplate, the policy's background
+    reading, and the exclusion. Before 2026-09-19 all five came back, and
+    _ground_citations put them in patients' letters -- including, in 7 of 30
+    in-library letters, the sentence saying the surgery is "unproven and not
+    medically necessary", which hands the insurer its own denial rationale.
     """
+    from .quote_relevance import classify, on_point
     if not text:
         return []
     seen, out = set(), []
@@ -172,10 +208,20 @@ def find_criteria(text: str, cpt: str = "", limit: int = 14) -> list[str]:
             out.append(c)
             carry = 4 if opens_list else carry - 1
 
-    take(_sentences(_procedure_window(text, cpt)), limit)
+    take(_sentences(_procedure_window(text, cpt)), limit * 3)
     if len(out) < 6:                      # thin section, or no section found
-        take(_sentences(text), limit)
-    return out[:limit]
+        take(_sentences(text), limit * 3)
+
+    # Selection happens above; judgement of what a sentence IS happens here, so
+    # the two stay separable and testable.
+    kept = [c for c in out if classify(c) == "rule"]
+    if reason:
+        # Stable partition, not a sort: the document's own order is meaningful
+        # (criteria are usually listed in the order they must be met).
+        first = [c for c in kept if on_point(c, reason)]
+        rest = [c for c in kept if not on_point(c, reason)]
+        kept = first + rest
+    return kept[:limit]
 
 
 def verify_quote(quote: str, text: str) -> bool:
@@ -206,7 +252,8 @@ def _library() -> dict:
     return _LIB
 
 
-def criteria_for(url: str, cpt: str = "", allow_fetch: bool = True) -> dict:
+def criteria_for(url: str, cpt: str = "", allow_fetch: bool = True,
+                 reason: str = "") -> dict:
     """Verbatim criteria for a policy, and the text they were taken from.
 
     Returns {'quotes', 'text', 'source'}. `source` is 'library', 'fetch' or
@@ -232,7 +279,7 @@ def criteria_for(url: str, cpt: str = "", allow_fetch: bool = True) -> dict:
         return {"quotes": [], "text": "", "source": "none"}
     doc = policy_text(url)
     text = doc.get("text") or ""
-    return {"quotes": find_criteria(text, cpt), "text": text,
+    return {"quotes": find_criteria(text, cpt, reason=reason), "text": text,
             "source": "fetch" if text else "none"}
 
 

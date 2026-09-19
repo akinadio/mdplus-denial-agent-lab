@@ -187,6 +187,24 @@ def mechanical(letter: str, case: dict, g: dict) -> dict:
            "deadline_correct": deadline, "route_given": route}
     if g.get("correct_behavior") in ("cite_document", "cite_and_route"):
         out["cites_correct_policy"] = cites
+    # GROUNDED IN THIS PATIENT'S CASE. quote_not_in_policy asks whether the
+    # words were typed correctly; this asks whether the sentence was worth
+    # quoting. A letter is grounded when at least one quotation states a rule
+    # AND speaks to the reason this claim was denied. Quoting nothing is not
+    # grounded, and neither is quoting the heading, the coding table, the
+    # policy's background reading, or the exclusion.
+    #
+    # Only asked where criteria exist to quote: in vendor_held the criteria are
+    # InterQual's or MCG's and in no_policy there is no document, so a letter
+    # that quotes nothing there is behaving correctly.
+    if g.get("stratum") == "in_library" or g.get("correct_behavior") == "cite_document":
+        from synthetic_harness.quote_relevance import assess
+        from synthetic_harness.quote_check import quoted_passages
+        rel = assess(quoted_passages(L), case.get("denial_reason", ""))
+        out["grounded_in_case"] = rel["grounded"]
+        out["quotes_on_point"] = rel["n_on_point"]
+        out["quotes_against_patient"] = rel["n_against_patient"]
+        out["quote_kinds"] = rel["kinds"]
     return out
 
 

@@ -163,10 +163,15 @@ def _route_for(case):
     return submission_route(case["payer"], case.get("plan_type", ""))
 
 
-def _document_criteria(row, cpt):
-    """The plan's own words, read out of the plan's own document."""
+def _document_criteria(row, cpt, reason=""):
+    """The plan's own words, read out of the plan's own document.
+
+    `reason` is the denial reason from the notice, so the criteria that speak
+    to it come first. A letter that quotes the BMI rule at someone denied for
+    imaging findings has quoted the policy and argued nothing.
+    """
     from synthetic_harness.policy_text import criteria_for
-    return criteria_for(row["policy_url"], cpt)["quotes"]
+    return criteria_for(row["policy_url"], cpt, reason=reason)["quotes"]
 
 
 def run_ortho(case, model):
@@ -188,7 +193,8 @@ def run_ortho(case, model):
             # Our own research note is not the plan's language. Passing it
             # here as "criteria" is what taught the letter writer to invent
             # quotations. Real criteria come from the document itself.
-            "criteria_quotes": _document_criteria(row, case["cpt"]),
+            "criteria_quotes": _document_criteria(row, case["cpt"],
+                                                 case.get("denial_reason", "")),
             "appeal_deadline": case["appeal_deadline"],
             "submission_route": _route_for(case),
             "how_to_obtain_criteria": "",

@@ -814,6 +814,60 @@ def stage_money():
     finally:
         _sh.rmtree(_tmp6, ignore_errors=True)
 
+    # A quotation is only right when it is the RIGHT sentence for this patient.
+    # Every example below was quoted, verbatim and accurately, in a real letter
+    # this pipeline produced, and the old presence-only check passed all of them.
+    from synthetic_harness.quote_relevance import assess, classify, on_point
+    for _q, _want in (
+        ("Coverage Rationale Surgery of the hip and surgical treatment for "
+         "Femoroacetabular Impingement (FAI) Syndrome is proven and medically "
+         "necessary in certain circumstances.", "heading"),
+        ("Arthroscopy, Diagnostic, +/- Synovial Biopsy, Hip Arthroscopy, "
+         "Surgical, Hip Arthroscopy, Surgical, Hip (Pediatric) Arthrotomy, Hip",
+         "code_table"),
+        ("Surgery may be an option for individuals whose pain cannot be "
+         "controlled by more conservative methods (National Institute of "
+         "Arthritis and Musculoskeletal and Skin Diseases, 2021).", "background"),
+        ("Medical records documentation may be required to assess whether the "
+         "member meets the clinical criteria for coverage but does not "
+         "guarantee coverage.", "administrative"),
+        ("Surgical treatment for Femoroacetabular Impingement Syndrome is "
+         "unproven and not medically necessary in the presence of advanced "
+         "osteoarthritis (Tonnis Grade 3).", "exclusion"),
+        ("Nonsteroidal anti-inflammatory drug (NSAID) or acetaminophen for at "
+         "least three weeks unless contraindicated or not tolerated;", "rule"),
+    ):
+        check(classify(_q) == _want,
+              f"a {_want} is recognised as a {_want}, not as a criterion")
+
+    _nsaid = ("Nonsteroidal anti-inflammatory drug (NSAID) or acetaminophen for "
+              "at least three weeks unless contraindicated or not tolerated;")
+    _xray = ("Weight-bearing radiographs demonstrate only unicompartmental "
+             "disease with Kellgren-Lawrence grade 3 or 4 changes.")
+    check(on_point(_nsaid, "conservative_care") and not on_point(_nsaid, "imaging"),
+          "a rule counts only against the denial reason it actually answers")
+    check(on_point(_xray, "imaging"),
+          "an imaging rule answers an imaging denial")
+    check(not assess([], "conservative_care")["grounded"],
+          "a letter that quotes NOTHING is not grounded -- silence is a failure")
+    check(not assess([_nsaid], "imaging")["grounded"],
+          "a letter quoting the wrong requirement is not grounded either")
+    check(assess([_nsaid], "conservative_care")["grounded"],
+          "a letter quoting the requirement the denial turned on IS grounded")
+
+    # ...and the extractor must never hand one of these to a letter.
+    import synthetic_harness.policy_text as _PT
+    _doc = ("KNEE ARTHROPLASTY Coverage Rationale Surgery of the knee is proven "
+            "and medically necessary in certain circumstances. " + _nsaid +
+            " Total knee arthroplasty is unproven and not medically necessary in "
+            "the presence of active infection. Medical records documentation may "
+            "be required but does not guarantee coverage.")
+    _got = _PT.find_criteria(_doc, "27447", reason="conservative_care")
+    check(all(classify(c) == "rule" for c in _got),
+          "find_criteria returns only rules -- no headings, boilerplate or exclusions")
+    check(not any("unproven" in c for c in _got),
+          "find_criteria never hands a letter the exclusion that denies the claim")
+
     # One provider's empty balance must not stop the others.
     for f in ("retrieve.py", "draft_letters.py"):
         src = (ROOT / "scripts/study" / f).read_text()
