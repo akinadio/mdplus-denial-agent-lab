@@ -51,9 +51,26 @@ from .agent_runner import (
 )
 
 DEFAULT_API_MODEL = os.environ.get("MDPLUS_API_MODEL", "claude-opus-5")
-# Bounds a single run's cost. The agent reads a handful of policy pages; a run
-# that wants 40 tool round-trips is looping, not researching.
-MAX_TOOL_ITERATIONS = int(os.environ.get("MDPLUS_MAX_TOOL_ITERATIONS", "40"))
+
+# HOW A RUN IS BOUNDED, AND WHY IT IS COUNTED IN TOOL CALLS.
+#
+# This used to be a ceiling on loop ITERATIONS, set to 40. That is not the same
+# quantity for every model: Anthropic returns several tool_use blocks in one
+# turn, Gemini returns one per turn. So the same "40" gave Claude ~62 tool calls
+# and Gemini exactly 40 -- and on 2026-09-19 it stopped three of six Gemini runs
+# mid-search with no answer at all, which the scorer would have recorded as
+# Gemini failing to find the policy. An unequal ceiling biases a comparison, and
+# that one biased it toward the result we want to be true.
+#
+# So the budget is TOOL CALLS, which means the same thing in every arm. The
+# model is warned at the budget and given a chance to answer with what it has;
+# only if it keeps calling tools past the grace is the run cut, and then it is
+# recorded as an error rather than as a model that found nothing.
+MAX_TOOL_CALLS = int(os.environ.get("MDPLUS_MAX_TOOL_CALLS", "120"))
+TOOL_CALL_GRACE = int(os.environ.get("MDPLUS_TOOL_CALL_GRACE", "10"))
+# Iterations are now only an outer stop against a model that loops without
+# calling anything; the tool budget is what actually binds.
+MAX_TOOL_ITERATIONS = int(os.environ.get("MDPLUS_MAX_TOOL_ITERATIONS", "200"))
 MAX_OUTPUT_TOKENS = int(os.environ.get("MDPLUS_MAX_OUTPUT_TOKENS", "8000"))
 
 # Per-arm text budget mirrors the MCP tool server (mcp_tools_server._call_tool).
@@ -73,6 +90,14 @@ def api_available(provider: str | None = None) -> bool:
         return providers.get_provider(provider).available()
     except ValueError:
         return False
+
+
+class ToolBudgetExhausted(RuntimeError):
+    """The model kept calling tools past its budget and its grace.
+
+    Raised, not silently returned, because the run has to be recorded as cut
+    short by us -- not as a model that searched and found nothing.
+    """
 
 
 class _ToolRunner:
@@ -108,6 +133,21 @@ class _ToolRunner:
                 handle.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
     def call(self, name: str, args: dict[str, Any]) -> dict[str, Any]:
+        with self._lock:
+            self._calls = getattr(self, "_calls", 0) + 1
+            n = self._calls
+        if n > MAX_TOOL_CALLS + TOOL_CALL_GRACE:
+            raise ToolBudgetExhausted(
+                f"{n} tool calls; budget is {MAX_TOOL_CALLS} "
+                f"(+{TOOL_CALL_GRACE} grace to wrap up)")
+        if n > MAX_TOOL_CALLS:
+            # Warn rather than cut: the model gets to answer with what it has,
+            # which is both cheaper and closer to a real user losing patience.
+            # A run that ignores this and keeps calling tools is cut above and
+            # recorded as truncated, never as an empty answer from the model.
+            return {"error": f"Tool budget exhausted after {MAX_TOOL_CALLS} calls. "
+                             "Stop calling tools and give your final answer now, "
+                             "using only what you already have."}
         if name == "web_search":
             query = str(args.get("query", ""))
             count = int(args.get("count", _SEARCH_DEFAULT_COUNT) or _SEARCH_DEFAULT_COUNT)

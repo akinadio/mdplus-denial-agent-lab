@@ -249,6 +249,18 @@ def run_ortho(case, model):
 
 
 
+# What each provider calls a model that finished because it was done talking.
+# Anything else -- an exhausted loop, a timeout, a cut-off output, a run still
+# asking for tools -- means WE stopped it, and a run we stopped is not evidence
+# about the model. On 2026-09-19 three Gemini runs ended at exactly the tool
+# ceiling with no answer, and because nothing marked them they would have been
+# scored as Gemini finding no policy.
+NATURAL_STOPS = {"end_turn", "stop", "stop_sequence", "completed", "end"}
+
+
+from synthetic_harness.api_runner import ToolBudgetExhausted  # noqa: E402
+
+
 class SearchBackendDown(RuntimeError):
     """The search backend stopped answering mid-run.
 
@@ -322,12 +334,24 @@ def run_llm(system, case, out_dir):
         max_iters=MAX_TOOL_ITERATIONS, max_tokens=MAX_OUTPUT_TOKENS)
     usd = spend.cost(model, usage)
     spend.record("retrieve", model, usage, case["case_id"])
-    return {"answer": extract_json(text) or {}, "raw_text": text, "usd": usd,
+    answer = extract_json(text) or {}
+    out = {"answer": answer, "raw_text": text, "usd": usd,
             # Phase 2 continues this same chat to ask for the appeal letter, so
             # the transcript has to survive the run.
             "transcript": _jsonable(transcript),
             "stop_reason": stop, "usage": usage, "model": model,
+            "tool_calls": runner._calls if hasattr(runner, "_calls") else 0,
             "elapsed_s": round(time.time() - t0, 1)}
+    # An error here is doing one job: keeping a run WE cut short out of the
+    # scores, and making --resume try it again. The tokens are already paid for
+    # and already in the ledger either way.
+    if stop not in NATURAL_STOPS:
+        out["error"] = (f"cut short by the harness: stop_reason={stop!r} after "
+                        f"{out['tool_calls']} tool calls -- not a model failure")
+    elif not (text or "").strip():
+        out["error"] = (f"empty answer after {out['tool_calls']} tool calls "
+                        f"(stop_reason={stop!r}) -- nothing to score")
+    return out
 
 
 
@@ -427,6 +451,11 @@ def main():
         d.mkdir(exist_ok=True)
         try:
             res = run_ortho(c, SYSTEMS[s][1]) if s.startswith("ortho") else run_llm(s, c, d)
+        except ToolBudgetExhausted as e:
+            # Recorded as an error so it stays out of the scores and --resume
+            # retries it. A model that ignores the wrap-up warning is a run we
+            # cut, not an answer.
+            res = {"error": f"cut short by the harness: {e}"}
         except SearchBackendDown as e:
             with lock:
                 search_down.append(str(e)[:300])

@@ -672,6 +672,90 @@ def stage_money():
           {k: v for k, v in _u.items() if not k.startswith("cache")}),
           "a run's cost includes its cached tokens")
 
+    # A run WE cut short must never reach the scorer as a model failure. This
+    # is the check that was missing on 2026-09-19, when three Gemini runs ended
+    # at exactly the tool ceiling with no answer, carried no error, and were one
+    # score.py away from being published as Gemini finding no policy.
+    from synthetic_harness import api_runner as _ar
+    check(_ar.MAX_TOOL_CALLS >= 100 and _ar.MAX_TOOL_ITERATIONS > _ar.MAX_TOOL_CALLS,
+          "the tool budget binds before the iteration ceiling does")
+    check("tool_use" not in _ret.NATURAL_STOPS and "max_iterations" not in _ret.NATURAL_STOPS
+          and {"end_turn", "stop", "completed"} <= _ret.NATURAL_STOPS,
+          "a run still asking for tools is not counted as a natural finish")
+
+    _tmp5 = Path(_tf.mkdtemp())
+    _keep5 = (_ret.run_llm, _sp.LEDGER)
+    try:
+        _sp.LEDGER = _tmp5 / "spend.json"
+
+        class _Runner:
+            _calls = 40
+
+        def _fake(stop, text):
+            import synthetic_harness.agent_runner as _agr
+            _u = {"input_tokens": 1, "output_tokens": 1}
+            # mimic run_llm's tail without calling a provider
+            out = {"answer": _agr.extract_json(text) or {}, "raw_text": text,
+                   "stop_reason": stop, "usage": _u, "tool_calls": 40}
+            if stop not in _ret.NATURAL_STOPS:
+                out["error"] = f"cut short by the harness: stop_reason={stop!r}"
+            elif not (text or "").strip():
+                out["error"] = "empty answer"
+            return out
+
+        check("error" in _fake("tool_use", ""),
+              "a run that stopped while still asking for tools is marked an error")
+        check("error" in _fake("max_iterations", '{"policy_found": true}'),
+              "an exhausted loop is an error even when some JSON came back")
+        check("error" in _fake("end_turn", "   "),
+              "a natural stop with an empty answer is still an error")
+        check("error" not in _fake("end_turn", '{"policy_found": false}'),
+              "a model that finished and said it found nothing is a real answer, not an error")
+    finally:
+        _ret.run_llm, _sp.LEDGER = _keep5
+        _sh.rmtree(_tmp5, ignore_errors=True)
+
+    # And the tool budget itself: warn at the cap, raise past the grace.
+    import synthetic_harness.api_runner as _ar2
+
+    class _R(_ar2._ToolRunner):
+        def __init__(self):
+            import threading as _t2
+            self._lock, self._i, self._calls = _t2.Lock(), 0, 0
+            self._trace_path = Path(_tf.mkdtemp()) / "t.jsonl"
+            self._row_id = "x"
+            self._search = lambda q, c: {"results": [], "result_count": 0}
+            self._fetch = lambda u, **k: {"text": ""}
+            self._search_unavailable = RuntimeError
+
+    _r = _R()
+    _r._calls = _ar2.MAX_TOOL_CALLS
+    _warn = _r.call("web_search", {"query": "q"})
+    check("budget" in str(_warn.get("error", "")).lower(),
+          "at the tool budget the model is told to answer with what it has")
+    _r._calls = _ar2.MAX_TOOL_CALLS + _ar2.TOOL_CALL_GRACE
+    try:
+        _r.call("web_search", {"query": "q"})
+        check(False, "past the grace the run is cut, not allowed to keep going")
+    except _ar2.ToolBudgetExhausted:
+        check(True, "past the grace the run is cut, not allowed to keep going")
+
+    # ...and the other half of that: a not_run must be excluded from the
+    # ACCURACY DENOMINATOR, not counted as a miss. Marking the run is worthless
+    # if the analysis then reads the mark as a zero.
+    _score_src = (ROOT / "scripts/study/score.py").read_text()
+    check('"outcome": "not_run"' in _score_src and '"correct"' not in
+          _score_src.split('"outcome": "not_run"')[1].split("continue")[0],
+          "score.py records a not_run with no correct/incorrect verdict at all")
+    _an_src = (ROOT / "scripts/study/analyze.py").read_text()
+    check('"correct" not in s' in _an_src,
+          "analyze.py drops any row with no verdict instead of scoring it 0")
+    for _f in ("equivalence.py", "analyze_letters.py"):
+        _src = (ROOT / "scripts/study" / _f).read_text()
+        check('"correct" not in' in _src or "get(\"correct\")" not in _src
+              or "not_run" in _src,
+              f"{_f}: a run with no verdict cannot land in a denominator")
+
     # One provider's empty balance must not stop the others.
     for f in ("retrieve.py", "draft_letters.py"):
         src = (ROOT / "scripts/study" / f).read_text()
