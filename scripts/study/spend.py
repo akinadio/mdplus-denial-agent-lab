@@ -21,10 +21,15 @@ ROOT = Path(__file__).resolve().parents[2]
 LEDGER = ROOT / "study" / "spend.json"
 
 # $ per million tokens (input, output). Overridable per model from .env.
+# Checked against each vendor's published rates on 2026-09-19. A model that is
+# NOT listed here falls back to (5, 25), which on 2026-09-19 overstated one
+# Gemini letter as $3.96 when it actually cost about $0.60 -- so add a model
+# here before running its arm, or the ledger you are watching is fiction.
 _DEFAULT = {
-    "gpt-5.6-luna": (1.00, 6.00),
+    "gpt-5.6-luna":    (1.00,  6.00),
+    "gemini-3.5-flash": (0.75,  4.50),
     "claude-sonnet-5": (3.00, 15.00),
-    "claude-opus-5": (15.00, 75.00),
+    "claude-opus-5":  (15.00, 75.00),
 }
 _CREDIT = re.compile(r"credit balance|insufficient_quota|billing|usage limit|"
                      r"Error code: 402|exceeded your current quota", re.I)

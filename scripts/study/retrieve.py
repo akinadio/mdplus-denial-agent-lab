@@ -81,15 +81,21 @@ STUDY = ROOT / "study"
 RUNS = STUDY / "runs"
 PLAT = ROOT / "data" / "policy_platform"
 
+# Four arms: the three free chatbots a patient could actually use, and
+# OrthoAppeals. Every comparison is a chatbot against OrthoAppeals on the same
+# letter; the chatbots are not compared to each other.
+#
+# claude-free is the controlled one. It is the SAME model OrthoAppeals runs on,
+# with the same web tools, and without the policy library -- so whatever
+# separates it from ortho-sonnet is the library, not the model.
+#
+# Only one OrthoAppeals arm: policy retrieval is a directory read with no model
+# call, so a second arm on a different model returns identical rows.
 SYSTEMS = {
-    "chatgpt":      ("openai",    os.environ.get("POC_OPENAI_MODEL", "gpt-5.6-luna")),
-    # One OrthoAppeals arm. Policy retrieval is a directory lookup with no
-    # model call, so a second arm on a different model returns identical rows
-    # -- the first pilot ran "ortho-opus" and "ortho-sonnet" and got a table
-    # with two identical lines, which is a property of the design, not a
-    # finding. The model matters when the LETTER is written (phase 2), and
-    # that is where a model comparison belongs if one is wanted.
-    "ortho-sonnet": ("anthropic", os.environ.get("POC_SONNET_MODEL", "claude-sonnet-5")),
+    "chatgpt":      ("openai",    os.environ.get("POC_OPENAI_MODEL",      "gpt-5.6-luna")),
+    "gemini":       ("google",    os.environ.get("POC_GEMINI_MODEL",      "gemini-3.5-flash")),
+    "claude-free":  ("anthropic", os.environ.get("POC_CLAUDE_FREE_MODEL", "claude-sonnet-5")),
+    "ortho-sonnet": ("anthropic", os.environ.get("POC_SONNET_MODEL",      "claude-sonnet-5")),
 }
 
 SYSTEM_PROMPT = (
@@ -267,6 +273,33 @@ def _guarded(tool_call):
         return out
     return call
 
+
+def _jsonable(obj):
+    """A transcript that survives being written to disk and read back.
+
+    Providers hand back their own SDK objects -- google.genai types.Content,
+    Anthropic content blocks -- and json.dumps refuses them, which killed the
+    run AFTER the model had already been paid for. Pydantic models (both SDKs
+    use them) round-trip through model_dump, and every SDK accepts plain dicts
+    back in, so phase 2 can still continue the chat. Anything else is kept as
+    text rather than losing the run.
+    """
+    if obj is None or isinstance(obj, (bool, int, float, str)):
+        return obj
+    if isinstance(obj, dict):
+        return {str(k): _jsonable(v) for k, v in obj.items()}
+    if isinstance(obj, (list, tuple)):
+        return [_jsonable(v) for v in obj]
+    for attr in ("model_dump", "to_json_dict", "dict"):
+        fn = getattr(obj, attr, None)
+        if callable(fn):
+            try:
+                return _jsonable(fn())
+            except Exception:  # noqa: BLE001
+                pass
+    return str(obj)
+
+
 def run_llm(system, case, out_dir):
     from synthetic_harness.api_runner import (_resolve, _make_client, _ToolRunner,
                                               MAX_TOOL_ITERATIONS, MAX_OUTPUT_TOKENS)
@@ -290,7 +323,7 @@ def run_llm(system, case, out_dir):
     return {"answer": extract_json(text) or {}, "raw_text": text, "usd": usd,
             # Phase 2 continues this same chat to ask for the appeal letter, so
             # the transcript has to survive the run.
-            "transcript": transcript,
+            "transcript": _jsonable(transcript),
             "stop_reason": stop, "usage": usage, "model": model,
             "elapsed_s": round(time.time() - t0, 1)}
 
@@ -317,8 +350,11 @@ def main():
 
     systems = list(SYSTEMS) if a.systems == "all" else [s.strip() for s in a.systems.split(",")]
     cases = json.loads((STUDY / "cases.json").read_text())["cases"]
-    if a.limit:
-        cases = cases[:a.limit]
+    # NOTE: --limit is "do this many more", not "look at the first this many".
+    # Truncating the case list meant `--limit 20 --resume` re-examined the same
+    # 20 cases forever and never reached case 21 -- which is exactly the knob
+    # you reach for when running 400 letters in batches. draft_letters.py and
+    # grade_letters.py already counted work done; this now matches them.
     salt = os.environ.get("STUDY_BLIND_SALT", "poc")
     RUNS.mkdir(parents=True, exist_ok=True)
 
@@ -328,8 +364,13 @@ def main():
             f"{salt}|{c['case_id']}|chatgpt".encode()).hexdigest()[:12]) / "result.json").exists()))
         spend.banner("retrieve", n, SYSTEMS["chatgpt"][1], 60000, 4000)
     mapping, done, skipped = {}, 0, 0
+    broke: set[str] = set()   # arms whose provider has no credit left
     for c in cases:
         for s in systems:
+            if s in broke:
+                continue
+            if a.limit and done + skipped >= a.limit:
+                break
             rid = "r-" + hashlib.sha256(f"{salt}|{c['case_id']}|{s}".encode()).hexdigest()[:12]
             mapping[rid] = {"case_id": c["case_id"], "system": s}
             d = RUNS / rid
@@ -352,15 +393,24 @@ def main():
                 res = {"error": f"{type(e).__name__}: {e}"}
                 import spend
                 if spend.is_funding_error(e):
+                    # Out of funds is per PROVIDER, not per run. Drop this arm
+                    # and keep going: on 2026-09-18 an empty Google AI Studio
+                    # balance stopped the Anthropic arm too, which has nothing
+                    # to do with Google.
                     res["run_id"], res["case_id"] = rid, c["case_id"]
-                    (d / "result.json").write_text(json.dumps(res, indent=1))
+                    (d / "result.json").write_text(json.dumps(_jsonable(res), indent=1))
                     _save_key(mapping)
-                    print(f"\n  STOPPED, out of funds at the provider: {str(e)[:120]}\n"
-                          f"  {done} runs saved; add credit and re-run with --resume.")
-                    raise SystemExit(2)
+                    broke.add(s)
+                    print(f"\n  {s}: out of funds at the provider -- dropping this arm.\n"
+                          f"    {str(e)[:110]}\n"
+                          f"    Add credit and re-run with --resume to pick it up.\n")
+                    if set(systems) <= broke:
+                        print(f"  Every arm is out of funds. {done} runs saved.")
+                        raise SystemExit(2)
+                    continue
             res["run_id"] = rid
             res["case_id"] = c["case_id"]
-            (d / "result.json").write_text(json.dumps(res, indent=1))
+            (d / "result.json").write_text(json.dumps(_jsonable(res), indent=1))
             if "skipped" in res or "error" in res:
                 skipped += 1
                 print(f"  {rid} {s:13s} SKIP/ERR {res.get('skipped') or res.get('error')}")
@@ -368,7 +418,13 @@ def main():
                 done += 1
                 print(f"  {rid} {s:13s} ok")
     _save_key(mapping)
+    left = sum(1 for c in cases for s in systems
+               if not (RUNS / ("r-" + hashlib.sha256(
+                   f"{salt}|{c['case_id']}|{s}".encode()).hexdigest()[:12])
+                   / "result.json").exists())
     print(f"\n{done} runs completed, {skipped} skipped/errored -> {RUNS}")
+    if left:
+        print(f"{left} still to do -- re-run the same command to continue.")
     spend.report()
 
 

@@ -473,6 +473,30 @@ def stage_money():
     check("max_tokens=4000" in src, "grade_letters.py: the grader has room to finish its JSON")
     check('"grader_incomplete"' in src and "REQUIRED" in src,
           "grade_letters.py: a grade with missing fields is not counted as a grade")
+    # A provider's SDK objects must not kill a run we already paid for.
+    from retrieve import _jsonable
+    class _Fake:                       # stands in for types.Content
+        def model_dump(self): return {"role": "user", "parts": [{"text": "hi"}]}
+    import json as _json
+    out = _jsonable({"transcript": [_Fake()], "n": 1, "t": ("a", "b")})
+    _json.dumps(out)                   # must not raise
+    check(out["transcript"][0]["role"] == "user",
+          "an SDK object in the transcript is written as a dict, not lost")
+    check(_json.dumps(_jsonable({"x": object()})),
+          "an object with no dump method degrades to text instead of crashing")
+
+    # --limit must mean "do N more", or batching a long run silently stalls.
+    src = (ROOT / "scripts/study/retrieve.py").read_text()
+    check("cases = cases[:a.limit]" not in src,
+          "retrieve.py: --limit does not truncate the case list")
+    check("done + skipped >= a.limit" in src,
+          "retrieve.py: --limit counts work done, so batches advance")
+
+    # One provider's empty balance must not stop the others.
+    for f in ("retrieve.py", "draft_letters.py"):
+        src = (ROOT / "scripts/study" / f).read_text()
+        check("broke.add(" in src and "continue" in src,
+              f"{f}: an out-of-funds provider drops only that arm")
     for f, marker in (("retrieve.py", 'if not ("error" in prior or "skipped" in prior)'),
                       ("draft_letters.py", 'if not prior.get("error")'),
                       ("grade_letters.py", 'in ("graded", "no_letter")')):

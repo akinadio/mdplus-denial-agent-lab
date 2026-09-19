@@ -42,13 +42,19 @@ the deadline or the governing document.
 **What the pilot found about the product, fixed before this run.** It invented
 policy quotations because it held links, not text; it withheld documents it had
 on 896 rows; it served Medicare Advantage policies to commercial members on 368
-UnitedHealthcare rows; every letter omitted the deadline and the address; the live server was not passing the letter the member's name, the deadline, the submission route or the criteria demand at all. The
-comparison above is against the fixed product, which now reads the policy and
+UnitedHealthcare rows; and the live app was not
+giving the letter the member's name, the deadline, the submission route or the
+criteria demand at all. The comparison above is against the fixed product, which now reads the policy and
 quotes only what is in it.
 
 **Cost.** About $115 in model and search fees for the whole pilot, including
-every re-run. The 400-letter study is estimated at $250–400.
+every re-run.
 
-**Before the 400.** Sign-off on the three case kinds and on one OrthoAppeals
-arm, and one decision: a letter refused by OpenAI's content filter (once in 60)
-is scored as no answer, or excluded.
+**Next step.** The same 60 cases across five systems — ChatGPT free, Gemini
+free, Claude free, and OrthoAppeals on Sonnet and on Opus — estimated at
+$185, budget $250. Then 400 letters across all five, about $1,200–1,500.
+
+**Sign-off needed.** The three case kinds; OrthoAppeals on two models as a
+letter-quality comparison only (retrieval is identical by construction); and
+one decision: a letter refused by OpenAI's content filter (once in 60) is
+scored as no answer, or excluded.

@@ -129,10 +129,14 @@ def letter_ortho(case, res, model):
     return out
 
 
-def letter_chatgpt(case, res, model):
-    """Ask the same chat for the letter, continuing from its own transcript."""
+def letter_chatbot(system, case, res, model):
+    """Ask the same chat for the letter, continuing from its own transcript.
+
+    The provider comes from SYSTEMS rather than being hardcoded, so this one
+    path carries every chatbot arm."""
     from synthetic_harness.api_runner import _resolve, _make_client, MAX_OUTPUT_TOKENS
-    prov, model = _resolve("openai", model)
+    provider_name, _ = SYSTEMS[system]
+    prov, model = _resolve(provider_name, model)
     if not prov.available():
         return {"error": f"{prov.key_env} not set or SDK missing"}
     client = _make_client(prov, 900)
@@ -146,7 +150,6 @@ def letter_chatgpt(case, res, model):
     else:
         # Phase 1 did not keep the transcript for this run; hand the model its
         # own answer back rather than dropping the case.
-        from synthetic_harness.providers import OpenAIProvider
         prior = json.dumps(res.get("answer") or {}, indent=1)
         text = prov.continue_once(
             client=client, model=model, system="",
@@ -175,7 +178,10 @@ def main() -> int:
                      and not json.loads((RUNS / rid / "letter.json").read_text()).get("error"))]
     spend.banner("letters", len(todo), "claude-sonnet-5 / gpt-5.6-luna", 6000, 1500)
     done = skipped = 0
+    broke: set[str] = set()
     for rid, info in key.items():
+        if info["system"] in broke:
+            continue
         if info["system"] not in systems:
             continue
         d = RUNS / rid
@@ -194,18 +200,25 @@ def main() -> int:
         try:
             spend.check_budget()
             out = (letter_ortho(case, res, model) if info["system"].startswith("ortho")
-                   else letter_chatgpt(case, res, model))
+                   else letter_chatbot(info["system"], case, res, model))
         except spend.OutOfFunds as e:
             print(f"\n  STOPPED: {e}\n  {done} letters drafted and saved.")
             return 2
         except Exception as e:  # noqa: BLE001
             out = {"error": f"{type(e).__name__}: {e}"}
         if spend.is_funding_error(out.get("error", "")):
+            # Per provider, not per run: one arm's empty balance must not stop
+            # the others.
             out["run_id"], out["case_id"] = rid, info["case_id"]
             (d / "letter.json").write_text(json.dumps(out, indent=1))
-            print(f"\n  STOPPED, out of funds at the provider: {out['error'][:120]}\n"
-                  f"  {done} letters drafted and saved; add credit and re-run with --resume.")
-            return 2
+            broke.add(info["system"])
+            print(f"\n  {info['system']}: out of funds at the provider -- dropping this arm.\n"
+                  f"    {out['error'][:110]}\n"
+                  f"    Add credit and re-run with --resume to pick it up.\n")
+            if set(systems) <= broke:
+                print(f"  Every arm is out of funds. {done} letters saved.")
+                return 2
+            continue
         if not out.get("error") and len(out.get("letter_markdown") or "") < 800:
             # Two of 60 came back as a header with no body. That is a failed
             # draft, not a short letter; --resume will draft it again.
