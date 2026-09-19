@@ -170,6 +170,7 @@ def _ground_citations(result: dict[str, Any]) -> dict[str, Any]:
                     because a PDF timed out would be its own kind of wrong.
     """
     from synthetic_harness.policy_text import criteria_for, verify_quote
+    from synthetic_harness.quote_relevance import classify
 
     retrieval = result.get("retrieval") or {}
     source = retrieval.get("selected_source") or {}
@@ -178,7 +179,11 @@ def _ground_citations(result: dict[str, Any]) -> dict[str, Any]:
     if not url:
         return result
     cpt = str((result.get("case_identification") or {}).get("cpt") or "")
-    got = criteria_for(url, cpt)
+    # The denial reason decides which criteria matter. A letter answering an
+    # imaging denial with the BMI rule has quoted the plan and argued nothing.
+    from synthetic_harness.quote_relevance import reason_from_notice
+    reason = reason_from_notice(str(result.get("denial_notice_text") or ""))
+    got = criteria_for(url, cpt, reason=reason)
     text = got.get("text") or ""
     grounded = dict(result)
 
@@ -186,7 +191,17 @@ def _ground_citations(result: dict[str, Any]) -> dict[str, Any]:
         cites = [dict(c, verified=False) for c in given]
         grounded["_criteria_source"] = "unverified"
     else:
-        kept = [dict(c, verified=True) for c in given if verify_quote(c["excerpt"], text)]
+        # Verified is not the same as usable. An excerpt the retrieval step
+        # chose can be verbatim in the document and still be a heading, a row
+        # of the coding table, or -- four times in 29 letters on 2026-09-19 --
+        # the EXCLUSION, which hands the insurer its own denial rationale.
+        # find_criteria already refuses those; caller excerpts were coming in
+        # around it.
+        kept = [dict(c, verified=True) for c in given
+                if verify_quote(c["excerpt"], text) and classify(c["excerpt"]) == "rule"]
+        grounded["_citations_off_point"] = sum(
+            1 for c in given
+            if verify_quote(c["excerpt"], text) and classify(c["excerpt"]) != "rule")
         seen = {c["excerpt"][:80].lower() for c in kept}
         for q in got["quotes"]:
             if q[:80].lower() not in seen:
@@ -361,6 +376,13 @@ def generate_appeal_letter(
         "discredits the whole letter. Never reconstruct, paraphrase inside "
         "quotation marks, or invent a policy number, section heading or "
         "effective date.\n\n"
+        "Quote the PLAN, never the denial. Putting the notice's own sentence "
+        "-- 'the imaging findings submitted do not support the medical "
+        "necessity of the requested procedure' -- in a block quote repeats the "
+        "insurer's conclusion back at it and argues nothing. In 4 of 29 letters "
+        "on 2026-09-19 that was the only thing quoted. If POLICY CITATIONS has "
+        "any entry, quote at least one of them and show how the records meet "
+        "it; the denial's wording belongs in ordinary prose, unquoted.\n\n"
         "Open with a line that names the governing policy exactly as given in "
         "GOVERNING POLICY -- title, and URL if there is one -- so a reviewer can "
         "find it. Do not state a policy number, section, version or effective "

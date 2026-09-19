@@ -881,6 +881,32 @@ def stage_money():
     check(not any("unproven" in c for c in _got),
           "find_criteria never hands a letter the exclusion that denies the claim")
 
+    # The letter must answer the plan, not repeat the insurer.
+    from synthetic_harness.quote_relevance import reason_from_notice as _rfn
+    for _t, _want in (
+        ("the clinical records submitted do not document an adequate trial of "
+         "conservative treatment prior to the requested surgery", "conservative_care"),
+        ("the imaging findings submitted do not support the medical necessity "
+         "of the requested procedure", "imaging"),
+        ("the documentation submitted was incomplete and does not allow a "
+         "determination of medical necessity", "incomplete_documentation"),
+        ("the requested procedure does not meet the plan's criteria for "
+         "medical necessity", "not_medically_necessary"),
+    ):
+        check(_rfn(_t) == _want,
+              f"a notice denying for {_want} is read as {_want}")
+
+    _al = (ROOT / "synthetic_harness/appeal_letter.py").read_text()
+    check('classify(c["excerpt"]) == "rule"' in _al,
+          "a caller excerpt is kept only if it is a rule, not just verbatim")
+    check("Quote the PLAN, never the denial" in _al,
+          "the prompt forbids quoting the denial notice back as if it were the plan")
+    check("criteria_for(url, cpt, reason=reason)" in _al,
+          "the letter writer is told which denial reason the criteria must answer")
+    _gl = (ROOT / "scripts/study/grade_letters.py").read_text()
+    check("quoted_the_denial_back" in _gl and "in_text(x, _notice)" in _gl,
+          "grading counts only what the letter quoted from the POLICY")
+
     # One provider's empty balance must not stop the others.
     for f in ("retrieve.py", "draft_letters.py"):
         src = (ROOT / "scripts/study" / f).read_text()

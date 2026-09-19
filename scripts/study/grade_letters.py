@@ -199,8 +199,16 @@ def mechanical(letter: str, case: dict, g: dict) -> dict:
     # that quotes nothing there is behaving correctly.
     if g.get("stratum") == "in_library" or g.get("correct_behavior") == "cite_document":
         from synthetic_harness.quote_relevance import assess
-        from synthetic_harness.quote_check import quoted_passages
-        rel = assess(quoted_passages(L), case.get("denial_reason", ""))
+        from synthetic_harness.quote_check import quoted_passages, in_text
+        # Only what the letter quotes FROM THE POLICY counts. Quoting the
+        # denial notice back -- "the imaging findings submitted do not support
+        # the medical necessity of the requested procedure" -- is the insurer's
+        # own sentence and grounds nothing; in 4 of 29 letters on 2026-09-19 it
+        # was the only thing quoted.
+        _notice = case.get("letter_text", "")
+        _from_policy = [x for x in quoted_passages(L) if not in_text(x, _notice)]
+        rel = assess(_from_policy, case.get("denial_reason", ""))
+        out["quoted_the_denial_back"] = len(quoted_passages(L)) - len(_from_policy)
         out["grounded_in_case"] = rel["grounded"]
         out["quotes_on_point"] = rel["n_on_point"]
         out["quotes_against_patient"] = rel["n_against_patient"]

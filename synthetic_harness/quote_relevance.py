@@ -191,3 +191,33 @@ def assess(quotes: list[str], denial_reason: str) -> dict:
         "grounded": any(points),
         "on_point_quotes": [q for q, p in zip(quotes, points) if p][:5],
     }
+
+
+# How a denial notice words each reason. Real notices use this language almost
+# verbatim, because the plans copy one another.
+_NOTICE_PATTERNS = (
+    ("conservative_care", re.compile(
+        r"conservative (?:treatment|care|management|therapy)|non-?surgical "
+        r"(?:treatment|management)|trial of conservative", re.I)),
+    ("imaging", re.compile(
+        r"imaging (?:findings|studies|results)|radiographic findings|"
+        r"films? (?:do not|does not)|x-?ray findings", re.I)),
+    ("incomplete_documentation", re.compile(
+        r"documentation (?:submitted )?was incomplete|incomplete documentation|"
+        r"does not allow a determination|insufficient documentation", re.I)),
+    ("not_medically_necessary", re.compile(
+        r"criteria for medical necessity|not medically necessary|"
+        r"does not meet the plan'?s criteria", re.I)),
+)
+
+
+def reason_from_notice(text: str) -> str:
+    """Which denial reason this notice states, so the letter can answer it.
+
+    Checked most specific first: a notice that says both "conservative
+    treatment" and "medical necessity" is a conservative-care denial.
+    """
+    for key, pat in _NOTICE_PATTERNS:
+        if pat.search(text or ""):
+            return key
+    return ""
