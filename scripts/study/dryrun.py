@@ -609,10 +609,31 @@ def stage_money():
         src = (ROOT / "scripts/study" / f).read_text()
         check("broke.add(" in src and "continue" in src,
               f"{f}: an out-of-funds provider drops only that arm")
-    for f, marker in (("draft_letters.py", 'if not prior.get("error")'),
-                      ("grade_letters.py", 'in ("graded", "no_letter")')):
-        check(marker in (ROOT / "scripts/study" / f).read_text(),
-              f"{f}: --resume retries a failed item instead of skipping it")
+    check('in ("graded", "no_letter")' in (ROOT / "scripts/study/grade_letters.py").read_text(),
+          "grade_letters.py: --resume retries a failed item instead of skipping it")
+
+    # draft_letters' resume rule, exercised rather than grepped.
+    import draft_letters as _dl
+    _tmp4 = Path(_tf.mkdtemp())
+    _keep4 = _dl.RUNS
+    try:
+        _dl.RUNS = _tmp4
+        _key = {f"r-{i}": {"case_id": f"c{i}", "system": "x"} for i in range(4)}
+        for i, letter in enumerate([{"letter_markdown": "ok"}, {"error": "boom"}, None, None]):
+            d = _tmp4 / f"r-{i}"; d.mkdir(parents=True)
+            (d / "result.json").write_text("{}")
+            if letter is not None:
+                (d / "letter.json").write_text(_json.dumps(letter))
+        # r-3 has no result.json at all -> nothing to draft from
+        _sh.rmtree(_tmp4 / "r-3")
+        got = _dl._pending(_key, ["x"], resume=True)
+        check(got == ["r-1", "r-2"],
+              "draft_letters.py: --resume retries a failed item instead of skipping it")
+        check(_dl._pending(_key, ["x"], resume=False) == ["r-0", "r-1", "r-2"],
+              "draft_letters.py: a run with no retrieval result is never drafted")
+    finally:
+        _dl.RUNS = _keep4
+        _sh.rmtree(_tmp4, ignore_errors=True)
 
 
 def stage_gitignore():

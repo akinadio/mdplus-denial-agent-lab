@@ -82,17 +82,20 @@ PYX
   python3 $S/retrieve.py --systems ortho-sonnet || exit 1
   echo; echo "== retrieve: ChatGPT arm, smoke test on one letter =="
   python3 $S/retrieve.py --systems chatgpt --limit 1 --resume || exit 1
+  # One case first, alone: every arm's first run is its own first run, and
+  # three of the last four bugs were in a path that had never executed.
+  # Only after it comes back clean does the batch go wide.
   echo; echo "== retrieve: ChatGPT arm, all letters (real web tools, minutes per letter) =="
-  python3 $S/retrieve.py --systems chatgpt --resume || exit 1
+  python3 $S/retrieve.py --systems chatgpt --resume --workers ${WORKERS:-4} || exit 1
   echo; python3 $S/score.py && echo && python3 $S/analyze.py
   echo; python3 -c "import sys; sys.path.insert(0,'scripts/study'); import spend; spend.report()"
 }
 
 letters() {
   echo "== letters: both arms draft from their own phase-1 answer =="
-  python3 $S/draft_letters.py --systems all --resume || exit 1
+  python3 $S/draft_letters.py --systems all --resume --workers ${WORKERS:-4} || exit 1
   echo; echo "== letters: grading blind =="
-  python3 $S/grade_letters.py --resume || exit 1
+  python3 $S/grade_letters.py --resume --workers ${WORKERS:-4} || exit 1
   echo; python3 $S/analyze_letters.py
   echo; python3 -c "import sys; sys.path.insert(0,'scripts/study'); import spend; spend.report()"
 }

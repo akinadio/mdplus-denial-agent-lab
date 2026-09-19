@@ -48,6 +48,7 @@ import argparse
 import json
 import os
 import random
+import threading
 import sys
 from pathlib import Path
 
@@ -215,6 +216,8 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--resume", action="store_true")
+    ap.add_argument("--workers", type=int, default=1,
+                    help="letters to grade at once (default 1).")
     a = ap.parse_args()
     _load_env_files()
     if not os.environ.get("ANTHROPIC_API_KEY"):
@@ -231,22 +234,34 @@ def main() -> int:
 
     rids = sorted(p.parent.name for p in RUNS.glob("r-*/letter.json"))
     random.Random(SEED).shuffle(rids)   # ordering must carry no signal either
-    n = 0
+    # A grader_error is not a grade. Retry it.
     todo = [r for r in rids if grades.get(r, {}).get("outcome") not in ("graded", "no_letter")]
+    if a.limit:
+        todo = todo[:a.limit]
     spend.banner("grading", len(todo), GRADER_MODEL, 5000, 600)
-    for rid in rids:
-        # A grader_error is not a grade. Retry it.
-        if grades.get(rid, {}).get("outcome") in ("graded", "no_letter"):
-            continue
-        if a.limit and n >= a.limit:
-            break
+
+    lock = threading.Lock()
+    stopped: list[str] = []
+    n = 0
+
+    def _save(rid, g, cid):
+        nonlocal n
+        with lock:
+            g["case_id"] = cid
+            grades[rid] = g
+            out_path.write_text(json.dumps(grades, indent=1))
+            n += 1
+
+    def one(rid):
+        with lock:
+            if stopped:
+                return None
         lt = json.loads((RUNS / rid / "letter.json").read_text())
         text = (lt.get("letter_markdown") or "").strip()
-        if not text:
-            grades[rid] = {"outcome": "no_letter", "error": lt.get("error", "")}
-            n += 1
-            continue
         cid = lt["case_id"]
+        if not text:
+            _save(rid, {"outcome": "no_letter", "error": lt.get("error", "")}, cid)
+            return None
         try:
             spend.check_budget()
             resp = client.messages.create(
@@ -276,29 +291,46 @@ def main() -> int:
             if g["outcome"] == "graded":
                 g.update(mechanical(text, cases[cid], gold[cid]))
         except spend.OutOfFunds as e:
-            out_path.write_text(json.dumps(grades, indent=1))
-            print(f"\n  STOPPED: {e}"); return 2
+            with lock:
+                stopped.append(f"STOPPED: {e}")
+            return None
         except Exception as e:  # noqa: BLE001
             g = {"outcome": "grader_error", "error": f"{type(e).__name__}: {e}"}
             if spend.is_funding_error(e):
-                g["case_id"] = cid; grades[rid] = g
-                out_path.write_text(json.dumps(grades, indent=1))
-                print(f"\n  STOPPED, out of funds at the provider: {str(e)[:120]}\n"
-                      f"  {n} graded and saved; add credit and re-run with --resume.")
-                return 2
-        g["case_id"] = cid
-        grades[rid] = g
-        out_path.write_text(json.dumps(grades, indent=1))
-        n += 1
+                _save(rid, g, cid)
+                with lock:
+                    stopped.append("STOPPED, out of funds at the provider: "
+                                   f"{str(e)[:120]}\n  add credit and re-run with --resume.")
+                return None
+        _save(rid, g, cid)
         if g.get("outcome") != "graded":
             mark = g["outcome"]
         elif g.get("quote_not_in_policy"):
             mark = f"{g['quotes']['not_in_policy']} quote(s) NOT in the policy"
         else:
             mark = g.get("worst_defect") or "clean"
-        print(f"  {rid} graded -> {mark}   running ${spend.total():.2f}")
+        return f"  {rid} graded -> {mark}   running ${spend.total():.2f}"
+
+    workers = max(1, a.workers)
+    if workers == 1:
+        for rid in todo:
+            line = one(rid)
+            if line:
+                print(line, flush=True)
+            if stopped:
+                break
+    else:
+        print(f"  {len(todo)} to grade, {workers} at a time")
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            for line in pool.map(one, todo):
+                if line:
+                    print(line, flush=True)
+
     print(f"\ngraded {n} letters -> {out_path}")
     spend.report()
+    if stopped:
+        print(f"\n  {stopped[0]}")
+        return 2
     return 0
 
 

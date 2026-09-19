@@ -22,7 +22,9 @@ import argparse
 import json
 import os
 import sys
+import threading
 import time
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -160,11 +162,34 @@ def letter_chatbot(system, case, res, model):
             "usage": usage, "elapsed_s": round(time.time() - t0, 1)}
 
 
+def _pending(key, systems, resume):
+    """Runs that still need a letter, in key order.
+
+    A letter.json holding an error is NOT finished: skipping it on resume is
+    how phase 1 re-reported an old error against fixed code.
+    """
+    out = []
+    for rid, info in key.items():
+        if info["system"] not in systems or not (RUNS / rid / "result.json").exists():
+            continue
+        f = RUNS / rid / "letter.json"
+        if resume and f.exists():
+            try:
+                if not json.loads(f.read_text()).get("error"):
+                    continue
+            except ValueError:
+                pass
+        out.append(rid)
+    return out
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--systems", default="all")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--resume", action="store_true")
+    ap.add_argument("--workers", type=int, default=1,
+                    help="letters to draft at once (default 1).")
     a = ap.parse_args()
     _load_env_files()
 
@@ -172,29 +197,23 @@ def main() -> int:
     cases = {c["case_id"]: c for c in json.loads((STUDY / "cases.json").read_text())["cases"]}
     key = json.loads((STUDY / "unblinding.json").read_text())
 
-    todo = [rid for rid, info in key.items() if info["system"] in systems
-            and (RUNS / rid / "result.json").exists()
-            and not (a.resume and (RUNS / rid / "letter.json").exists()
-                     and not json.loads((RUNS / rid / "letter.json").read_text()).get("error"))]
+    todo = _pending(key, systems, a.resume)
+    if a.limit:
+        todo = todo[:a.limit]
     spend.banner("letters", len(todo), "claude-sonnet-5 / gpt-5.6-luna", 6000, 1500)
-    done = skipped = 0
+
+    lock = threading.Lock()
     broke: set[str] = set()
-    for rid, info in key.items():
-        if info["system"] in broke:
-            continue
-        if info["system"] not in systems:
-            continue
+    out_of_budget: list[str] = []
+    done = skipped = 0
+
+    def one(rid):
+        nonlocal done, skipped
+        info = key[rid]
+        with lock:
+            if info["system"] in broke or out_of_budget:
+                return None
         d = RUNS / rid
-        if not (d / "result.json").exists():
-            continue
-        if a.resume and (d / "letter.json").exists():
-            prior = json.loads((d / "letter.json").read_text())
-            # A failed draft is not a finished one. Skipping it on resume is
-            # how phase 1 re-reported an old error against fixed code.
-            if not prior.get("error"):
-                continue
-        if a.limit and done + skipped >= a.limit:
-            break
         case, res = cases[info["case_id"]], json.loads((d / "result.json").read_text())
         model = SYSTEMS[info["system"]][1]
         try:
@@ -202,8 +221,9 @@ def main() -> int:
             out = (letter_ortho(case, res, model) if info["system"].startswith("ortho")
                    else letter_chatbot(info["system"], case, res, model))
         except spend.OutOfFunds as e:
-            print(f"\n  STOPPED: {e}\n  {done} letters drafted and saved.")
-            return 2
+            with lock:
+                out_of_budget.append(str(e))
+            return None
         except Exception as e:  # noqa: BLE001
             out = {"error": f"{type(e).__name__}: {e}"}
         if spend.is_funding_error(out.get("error", "")):
@@ -211,34 +231,55 @@ def main() -> int:
             # the others.
             out["run_id"], out["case_id"] = rid, info["case_id"]
             (d / "letter.json").write_text(json.dumps(out, indent=1))
-            broke.add(info["system"])
-            print(f"\n  {info['system']}: out of funds at the provider -- dropping this arm.\n"
-                  f"    {out['error'][:110]}\n"
-                  f"    Add credit and re-run with --resume to pick it up.\n")
-            if set(systems) <= broke:
-                print(f"  Every arm is out of funds. {done} letters saved.")
-                return 2
-            continue
+            with lock:
+                broke.add(info["system"])
+            return (f"\n  {info['system']}: out of funds at the provider -- dropping this arm.\n"
+                    f"    {out['error'][:110]}\n"
+                    f"    Add credit and re-run with --resume to pick it up.\n")
         if not out.get("error") and len(out.get("letter_markdown") or "") < 800:
             # Two of 60 came back as a header with no body. That is a failed
             # draft, not a short letter; --resume will draft it again.
             out["error"] = f"letter too short ({len(out.get('letter_markdown') or '')} chars): no body"
+        running = None
         if out.get("usage"):
             out["usd"] = spend.cost(out.get("model", model), out["usage"])
             running = spend.record("letters", out.get("model", model), out["usage"], rid)
         out["run_id"], out["case_id"] = rid, info["case_id"]
         (d / "letter.json").write_text(json.dumps(out, indent=1))
-        if out.get("error"):
-            skipped += 1
-            print(f"  {rid} {info['system']:13s} ERR {out['error'][:90]}")
-        else:
+        with lock:
+            if out.get("error"):
+                skipped += 1
+                return f"  {rid} {info['system']:13s} ERR {out['error'][:90]}"
             done += 1
-            n = len(out.get("letter_markdown", ""))
-            print(f"  {rid} {info['system']:13s} ok ({n} chars)  ${out.get('usd', 0):.3f}"
-                  f"  running ${running:.2f}" if out.get("usage") else
-                  f"  {rid} {info['system']:13s} ok ({n} chars)")
+        n = len(out.get("letter_markdown", ""))
+        line = f"  {rid} {info['system']:13s} ok ({n} chars)"
+        if running is not None:
+            line += f"  ${out.get('usd', 0):.3f}  running ${running:.2f}"
+        return line
+
+    workers = max(1, a.workers)
+    if workers == 1:
+        for rid in todo:
+            line = one(rid)
+            if line:
+                print(line, flush=True)
+            if out_of_budget or set(systems) <= broke:
+                break
+    else:
+        print(f"  {len(todo)} to draft, {workers} at a time")
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            for line in pool.map(one, todo):
+                if line:
+                    print(line, flush=True)
+
     print(f"\n{done} letters drafted, {skipped} errored -> {RUNS}")
     spend.report()
+    if out_of_budget:
+        print(f"\n  STOPPED: {out_of_budget[0]}")
+        return 2
+    if set(systems) <= broke:
+        print("  Every arm is out of funds.")
+        return 2
     return 0
 
 
