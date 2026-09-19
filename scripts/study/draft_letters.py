@@ -24,7 +24,7 @@ import os
 import sys
 import threading
 import time
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -267,8 +267,13 @@ def main() -> int:
                 break
     else:
         print(f"  {len(todo)} to draft, {workers} at a time")
+        # as_completed, not map: map yields in SUBMISSION order, so one slow
+        # case holds back every line behind it and the run looks hung. A Gemini
+        # case can take ten minutes and 70 searches while three others finish.
         with ThreadPoolExecutor(max_workers=workers) as pool:
-            for line in pool.map(one, todo):
+            futures = [pool.submit(one, item) for item in todo]
+            for fut in as_completed(futures):
+                line = fut.result()
                 if line:
                     print(line, flush=True)
 
