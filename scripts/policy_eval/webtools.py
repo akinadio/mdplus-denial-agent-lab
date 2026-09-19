@@ -144,6 +144,24 @@ class SearchUnavailable(RuntimeError):
     pass
 
 
+def _search_get(token: str, query: str, count: int):
+    """One request to the search backend. Retries live in search()."""
+    return requests.get(
+        SEARCH_ENDPOINT,
+        params={"q": query, "count": max(1, min(int(count), 20))},
+        headers={
+            "X-Subscription-Token": token,
+            "Accept": "application/json",
+            # Brave rejects the request with 422 ("Input should be 'no-cache'")
+            # if this header is absent -- a requirement added after this
+            # integration was first written, confirmed against this account:
+            # same key, active subscription, every call 422'd until it was added.
+            "Cache-Control": "no-cache",
+        },
+        timeout=FETCH_TIMEOUT,
+    )
+
+
 def search(query: str, count: int = 5) -> dict[str, Any]:
     """Web search via the Brave Search API. Returns title/url/snippet triples."""
     token = os.environ.get("WEB_SEARCH_API_KEY")
@@ -155,22 +173,20 @@ def search(query: str, count: int = 5) -> dict[str, Any]:
     resp = None
     for attempt in range(SEARCH_MAX_RETRIES + 1):
         _pace()
-        resp = requests.get(
-            SEARCH_ENDPOINT,
-            params={"q": query, "count": max(1, min(int(count), 20))},
-            headers={
-                "X-Subscription-Token": token,
-                "Accept": "application/json",
-                # Brave now rejects the request with 422 ("Input should be
-                # 'no-cache'") if this header is absent -- a requirement added
-                # after this integration was first written. Documented in a
-                # since-locked upstream bug (Brave community thread, March 2026)
-                # and confirmed against this account: same key, active
-                # subscription, every call still 422'd until this was added.
-                "Cache-Control": "no-cache",
-            },
-            timeout=FETCH_TIMEOUT,
-        )
+        try:
+            resp = _search_get(token, query, count)
+        except requests.exceptions.RequestException as exc:
+            # A read timeout or a DNS blip is weather, not an answer. The retry
+            # loop below only ever looked at status codes, so an exception here
+            # escaped and killed the whole case: six Gemini runs died that way
+            # on 2026-09-19, all of them api.search.brave.com read timeouts.
+            if attempt == SEARCH_MAX_RETRIES:
+                return {"backend": SEARCH_BACKEND, "query": query,
+                        "http_status": None, "result_count": 0, "results": [],
+                        "error": f"search backend unreachable: "
+                                 f"{type(exc).__name__}: {str(exc)[:200]}"}
+            time.sleep((2 ** attempt) * SEARCH_MIN_INTERVAL + random.uniform(0, 0.4))
+            continue
         if resp.status_code not in _TRANSIENT or attempt == SEARCH_MAX_RETRIES:
             break
         # Honour Retry-After when Brave sends one; otherwise back off with
