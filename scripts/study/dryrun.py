@@ -962,7 +962,7 @@ def stage_money():
     check(len(_p) == 2 and _p[0]["parts"][0]["text"] == "hello"
           and _p[1]["parts"][0]["function_call"]["name"] == "web_search",
           "pruning keeps every turn, its text and its tool calls")
-    check("exclude_none=True" in (ROOT / "scripts/study/retrieve.py").read_text(),
+    check('"exclude_none": True' in (ROOT / "scripts/study/retrieve.py").read_text(),
           "phase 1 saves transcripts without the null fields in the first place")
 
     # One provider's empty balance must not stop the others.
