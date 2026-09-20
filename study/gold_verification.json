@@ -1,6 +1,39 @@
 {
  "entries": [
   {
+   "case_id": "poc-06fc809fb2",
+   "stratum": "in_library",
+   "payer": "Aetna",
+   "cpt": "29914",
+   "policy_url": "https://www.aetna.com/cpb/medical/data/700_799/0736.html",
+   "verdict": "verified",
+   "chars": 310923,
+   "n_criteria": 6,
+   "first_criterion": "Aetna considers pelvic osteotomy (e.g., peri-acetabular osteotomy (PAO)) medically necessary for a diagnosis of acetabular dysplasia (not borderline dysplasia) for persons who fulfill all of the follo"
+  },
+  {
+   "case_id": "poc-0731be4a81",
+   "stratum": "in_library",
+   "payer": "Anthem Blue Cross and Blue Shield",
+   "cpt": "27446",
+   "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/",
+   "verdict": "verified",
+   "chars": 215841,
+   "n_criteria": 10,
+   "first_criterion": "partial knee replacement (PKA) is considered medically necessary when ALL the following criteria are met:"
+  },
+  {
+   "case_id": "poc-0948834b99",
+   "stratum": "in_library",
+   "payer": "Anthem Blue Cross Blue Shield",
+   "cpt": "22551",
+   "policy_url": "https://files.providernews.anthem.com/4827/pdf-Spine-Surgery-2024-10-20.pdf",
+   "verdict": "verified",
+   "chars": 120000,
+   "n_criteria": 12,
+   "first_criterion": "Conservative management1 must include a combination of strategies to reduce inflammation, alleviate pain, and correct underlying dysfunction, including physical therapy AND at least ONE complementary "
+  },
+  {
    "case_id": "poc-0948c5760b",
    "stratum": "vendor_held",
    "payer": "MedStar Family Choice DC",
@@ -9,6 +42,17 @@
    "verdict": "vendor_shaped",
    "chars": 18163,
    "detail": "generic UM document, no procedure-level criteria -- which is what vendor-held means"
+  },
+  {
+   "case_id": "poc-0a9468429e",
+   "stratum": "in_library",
+   "payer": "Anthem Blue Cross",
+   "cpt": "22551",
+   "policy_url": "https://files.providernews.anthem.com/4827/pdf-Spine-Surgery-2024-10-20.pdf",
+   "verdict": "verified",
+   "chars": 120000,
+   "n_criteria": 12,
+   "first_criterion": "Conservative management1 must include a combination of strategies to reduce inflammation, alleviate pain, and correct underlying dysfunction, including physical therapy AND at least ONE complementary "
   },
   {
    "case_id": "poc-0b7f2515da",
@@ -20,6 +64,50 @@
    "detail": "stratum C: the claim is that nothing is published, which no fetch can confirm"
   },
   {
+   "case_id": "poc-0fffc72471",
+   "stratum": "in_library",
+   "payer": "Aetna",
+   "cpt": "22551",
+   "policy_url": "https://www.aetna.com/cpb/medical/data/700_799/0743.html",
+   "verdict": "verified",
+   "chars": 120000,
+   "n_criteria": 14,
+   "first_criterion": "Scoliosis confirmed by imaging studies, with Cobb angle greater than 40 degrees in skeletally immature children and adolescents, or Cobb angle greater than 50 degrees associated with functional impair"
+  },
+  {
+   "case_id": "poc-13c871bb40",
+   "stratum": "in_library",
+   "payer": "Anthem Blue Cross Blue Shield",
+   "cpt": "63030",
+   "policy_url": "https://files.providernews.anthem.com/4827/pdf-Spine-Surgery-2024-10-20.pdf",
+   "verdict": "verified",
+   "chars": 120000,
+   "n_criteria": 14,
+   "first_criterion": "laminotomy are considered medically necessary to treat the following conditions:"
+  },
+  {
+   "case_id": "poc-148bc2a38d",
+   "stratum": "in_library",
+   "payer": "Anthem Blue Cross",
+   "cpt": "29914",
+   "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/PDF-Joint-Surgery-2025-11-15.pdf",
+   "verdict": "verified",
+   "chars": 120000,
+   "n_criteria": 5,
+   "first_criterion": "Diagnostic arthroscopy Diagnostic arthroscopy of the hip joint is considered medically necessary for synovial biopsy or when the involved joint meets ALL the following criteria:"
+  },
+  {
+   "case_id": "poc-157f6efe74",
+   "stratum": "in_library",
+   "payer": "Aetna",
+   "cpt": "63030",
+   "policy_url": "https://www.aetna.com/cpb/medical/data/700_799/0743.html",
+   "verdict": "verified",
+   "chars": 120000,
+   "n_criteria": 14,
+   "first_criterion": "CPT codes covered if selection criteria are met :"
+  },
+  {
    "case_id": "poc-177b09d7a6",
    "stratum": "vendor_held",
    "payer": "UnitedHealthcare",
@@ -27,9 +115,31 @@
    "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/spinal-fusion-decompression.pdf",
    "verdict": "vendor_but_criteria_found",
    "chars": 61896,
-   "n_criteria": 4,
+   "n_criteria": 3,
    "first_criterion": "A loss of structural support of the spine that leads to abnormal and increased movement between vertebrae outside of normal physiological limits, measured by the difference in translational alignment ",
    "detail": "vendor-held by the key, yet criteria were extracted -- read them: is the stratum wrong, or is the extractor picking up headers?"
+  },
+  {
+   "case_id": "poc-17b712a980",
+   "stratum": "in_library",
+   "payer": "PacificSource Health Plans",
+   "cpt": "29827",
+   "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/",
+   "verdict": "verified",
+   "chars": 215841,
+   "n_criteria": 11,
+   "first_criterion": "Rotator cuff repair is considered medically necessary for an acute full thickness tear when ALL the following criteria are met:"
+  },
+  {
+   "case_id": "poc-19407106e9",
+   "stratum": "in_library",
+   "payer": "Healthy Blue Louisiana",
+   "cpt": "27130",
+   "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/PDF-Joint-Surgery-2025-11-15.pdf",
+   "verdict": "verified",
+   "chars": 120000,
+   "n_criteria": 11,
+   "first_criterion": "hip arthroplasty is considered medically necessary for ANY of the following indications:"
   },
   {
    "case_id": "poc-19ff75efc5",
@@ -57,11 +167,9 @@
    "payer": "UnitedHealthcare",
    "cpt": "27130",
    "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-hip.pdf",
-   "verdict": "vendor_but_criteria_found",
+   "verdict": "criteria_absent",
    "chars": 41336,
-   "n_criteria": 1,
-   "first_criterion": "At 12 months of follow-up, the arthroscopy group had a greater mean improvement in iHOT-33 score than the conservative treatment group (MD = 8.42, p = .002), but there was no difference between the gr",
-   "detail": "vendor-held by the key, yet criteria were extracted -- read them: is the stratum wrong, or is the extractor picking up headers?"
+   "detail": "names the procedure, no criteria sentences extractable"
   },
   {
    "case_id": "poc-1c51e72e1e",
@@ -84,6 +192,17 @@
    "detail": "stratum C: the claim is that nothing is published, which no fetch can confirm"
   },
   {
+   "case_id": "poc-1f29ac6c03",
+   "stratum": "in_library",
+   "payer": "Wellpoint",
+   "cpt": "27702",
+   "policy_url": "https://files.providernews.anthem.com/2519/PDF-Small-Joint-Surgery-2023-11-05.pdf",
+   "verdict": "verified",
+   "chars": 75567,
+   "n_criteria": 14,
+   "first_criterion": "ankle arthroplasty is considered medically necessary in skeletally mature patients when ALL of the following criteria are met:"
+  },
+  {
    "case_id": "poc-209deb4204",
    "stratum": "in_library",
    "payer": "'Ohana Health Plan",
@@ -93,6 +212,39 @@
    "chars": 400000,
    "n_criteria": 14,
    "first_criterion": "Shoulder Arthroplasty may be necessary when the following criteria are met :"
+  },
+  {
+   "case_id": "poc-22e5c28a5f",
+   "stratum": "in_library",
+   "payer": "Molina Healthcare",
+   "cpt": "28296",
+   "policy_url": "https://www.molinaclinicalpolicy.com/molinaclinicalpolicy/-/media/Molina/PublicWebsite/PDF/Common/Molina-Clinical-Policy/Foot-Surgery_Bunionectomy_R.pdf",
+   "verdict": "verified",
+   "chars": 29885,
+   "n_criteria": 10,
+   "first_criterion": "bunionette deformity angle criteria to require greater than 10 degrees IMA angle."
+  },
+  {
+   "case_id": "poc-29630aa1d9",
+   "stratum": "in_library",
+   "payer": "Blue Cross & Blue Shield of Mississippi",
+   "cpt": "27702",
+   "policy_url": "https://www.bcbsms.com/policy-search/medical/policy-detail/total-ankle-replacement",
+   "verdict": "verified",
+   "chars": 15263,
+   "n_criteria": 4,
+   "first_criterion": "BCBSMS makes no payment for services, treatments, procedures, equipment, drugs, devices, items or supplies which are not documented to be Medically Necessary."
+  },
+  {
+   "case_id": "poc-2ccde26a88",
+   "stratum": "in_library",
+   "payer": "Anthem Blue Cross Blue Shield of Wisconsin",
+   "cpt": "27446",
+   "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/",
+   "verdict": "verified",
+   "chars": 215841,
+   "n_criteria": 10,
+   "first_criterion": "partial knee replacement (PKA) is considered medically necessary when ALL the following criteria are met:"
   },
   {
    "case_id": "poc-2fe0edcd1b",
@@ -106,16 +258,25 @@
    "first_criterion": "hip arthroplasty is considered medically necessary for ANY of the following indications:"
   },
   {
+   "case_id": "poc-332858b095",
+   "stratum": "in_library",
+   "payer": "Blue Cross and Blue Shield of North Carolina",
+   "cpt": "27446",
+   "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/",
+   "verdict": "verified",
+   "chars": 215841,
+   "n_criteria": 10,
+   "first_criterion": "partial knee replacement (PKA) is considered medically necessary when ALL the following criteria are met:"
+  },
+  {
    "case_id": "poc-3469abe4fc",
    "stratum": "vendor_held",
    "payer": "UnitedHealthcare / Oxford",
    "cpt": "27702",
    "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-ankle.pdf",
-   "verdict": "vendor_but_criteria_found",
+   "verdict": "criteria_absent",
    "chars": 22178,
-   "n_criteria": 2,
-   "first_criterion": "All studies exhibited a high risk of bias in at least one domain, with 64% demonstrating a high risk across at least four domains.",
-   "detail": "vendor-held by the key, yet criteria were extracted -- read them: is the stratum wrong, or is the extractor picking up headers?"
+   "detail": "names the procedure, no criteria sentences extractable"
   },
   {
    "case_id": "poc-37f3aa304d",
@@ -139,6 +300,28 @@
    "detail": "generic UM document, no procedure-level criteria -- which is what vendor-held means"
   },
   {
+   "case_id": "poc-3a565c0679",
+   "stratum": "in_library",
+   "payer": "Iowa Total Care",
+   "cpt": "22612",
+   "policy_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+   "verdict": "verified",
+   "chars": 400000,
+   "n_criteria": 14,
+   "first_criterion": "All individuals being considered for surgical intervention should receive a comprehensive neuromusculoskeletal examination to identify pain generators that may either respond to non-surgical technique"
+  },
+  {
+   "case_id": "poc-3a74c3e137",
+   "stratum": "in_library",
+   "payer": "Anthem Blue Cross Blue Shield",
+   "cpt": "27130",
+   "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/PDF-Joint-Surgery-2025-11-15.pdf",
+   "verdict": "verified",
+   "chars": 120000,
+   "n_criteria": 11,
+   "first_criterion": "hip arthroplasty is considered medically necessary for ANY of the following indications:"
+  },
+  {
    "case_id": "poc-3b4a598a17",
    "stratum": "no_policy",
    "payer": "Humana",
@@ -148,6 +331,50 @@
    "detail": "stratum C: the claim is that nothing is published, which no fetch can confirm"
   },
   {
+   "case_id": "poc-3e3f8049cd",
+   "stratum": "in_library",
+   "payer": "BlueCross BlueShield of South Carolina",
+   "cpt": "27702",
+   "policy_url": "https://www.southcarolinablues.com/web/public/brands/medicalpolicy/external-policies/total-ankle-replacement/",
+   "verdict": "verified",
+   "chars": 51057,
+   "n_criteria": 6,
+   "first_criterion": "Food and Drug Administration (FDA) approved the Agility Ankle Revision Prosthesis (DePuy Orthopaedics, Warsaw, IN), which is intended for cemented use only in patients with a failed previous ankle sur"
+  },
+  {
+   "case_id": "poc-3f7f71f65b",
+   "stratum": "in_library",
+   "payer": "Aetna",
+   "cpt": "28296",
+   "policy_url": "https://www.aetna.com/cpb/medical/data/600_699/0629.html",
+   "verdict": "verified",
+   "chars": 94191,
+   "n_criteria": 14,
+   "first_criterion": "Minimum follow-up was at least 12 months."
+  },
+  {
+   "case_id": "poc-40e31914e1",
+   "stratum": "in_library",
+   "payer": "Managed Health Services (MHS)",
+   "cpt": "29881",
+   "policy_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+   "verdict": "verified",
+   "chars": 400000,
+   "n_criteria": 11,
+   "first_criterion": "Meniscal Transplant Meniscal Transplants may be medically necessary when the following criteria are met (10,12):"
+  },
+  {
+   "case_id": "poc-41fe448bea",
+   "stratum": "in_library",
+   "payer": "Regence BlueShield",
+   "cpt": "29914",
+   "policy_url": "https://blue.regence.com/trgmedpol/surgery/sur160.pdf",
+   "verdict": "verified",
+   "chars": 98658,
+   "n_criteria": 13,
+   "first_criterion": "a radiological study with a minimum of ten years follow-up."
+  },
+  {
    "case_id": "poc-47f0c5aa4b",
    "stratum": "no_policy",
    "payer": "Humana",
@@ -155,6 +382,17 @@
    "policy_url": "",
    "verdict": "no_url",
    "detail": "stratum C: the claim is that nothing is published, which no fetch can confirm"
+  },
+  {
+   "case_id": "poc-4825aa1f8b",
+   "stratum": "in_library",
+   "payer": "Oklahoma Complete Health (Ambetter)",
+   "cpt": "63030",
+   "policy_url": "https://www.ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf",
+   "verdict": "verified",
+   "chars": 21661,
+   "n_criteria": 11,
+   "first_criterion": "discectomy are medically necessary when meeting all of the following:"
   },
   {
    "case_id": "poc-4e415360fe",
@@ -168,16 +406,80 @@
    "first_criterion": "hip replacement is considered medically necessary for ANY of the following conditions when ALL of the associated criteria have been met:"
   },
   {
+   "case_id": "poc-4fae25deac",
+   "stratum": "in_library",
+   "payer": "Blue Shield of California",
+   "cpt": "29827",
+   "policy_url": "https://www.blueshieldca.com/content/dam/bsca/en/provider/docs/medical-policies/Partial-Thickness-Rotator-Cuff-Tears-Acromioplasty-Subacromial-Decompression.pdf",
+   "verdict": "verified",
+   "chars": 39064,
+   "n_criteria": 8,
+   "first_criterion": "rotator cuff tears may be considered medically necessary when all of the following criteria are met:"
+  },
+  {
+   "case_id": "poc-503c0e1587",
+   "stratum": "in_library",
+   "payer": "Aetna",
+   "cpt": "27130",
+   "policy_url": "https://www.aetna.com/cpb/medical/data/200_299/0287.html",
+   "verdict": "verified",
+   "chars": 120000,
+   "n_criteria": 7,
+   "first_criterion": "hip arthroplasty (THA) prosthesis medically necessary for adult members when the following criteria are met (see also Additional Note ):"
+  },
+  {
+   "case_id": "poc-5142e8878f",
+   "stratum": "in_library",
+   "payer": "Security Health Plan",
+   "cpt": "29806",
+   "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-08/EviCore_CMM-311%20Knee%20Replacement%20Arthroplasty_V2.0.2025_Eff11.05.2025_upd08.12.2025.pdf",
+   "verdict": "verified",
+   "chars": 60299,
+   "n_criteria": 11,
+   "first_criterion": "Knee Replacement/Arthroplasty \u00a92025 EviCore by EVERNORTH Page 8 of 32 730 Cool Springs Blvd, Franklin, TN 37067 (800) 918-8924 www.EviCore.com Comprehensive Musculoskeletal Management Guidelines V2.0."
+  },
+  {
    "case_id": "poc-55381bdbc3",
    "stratum": "vendor_held",
    "payer": "UnitedHealthcare Community Plan",
    "cpt": "27702",
    "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-ankle.pdf",
-   "verdict": "vendor_but_criteria_found",
+   "verdict": "criteria_absent",
    "chars": 22178,
-   "n_criteria": 2,
-   "first_criterion": "All studies exhibited a high risk of bias in at least one domain, with 64% demonstrating a high risk across at least four domains.",
-   "detail": "vendor-held by the key, yet criteria were extracted -- read them: is the stratum wrong, or is the extractor picking up headers?"
+   "detail": "names the procedure, no criteria sentences extractable"
+  },
+  {
+   "case_id": "poc-5585b8dee7",
+   "stratum": "in_library",
+   "payer": "Oscar Health",
+   "cpt": "27447",
+   "policy_url": "https://assets.ctfassets.net/plyq12u1bv8a/6gD2u32BuCEgffIXeNXN8s/e0cf91116d52b7fd2a32e90e78a6d89d/CG069_Total_Knee_Arthroplasty.pdf",
+   "verdict": "verified",
+   "chars": 25899,
+   "n_criteria": 6,
+   "first_criterion": "knee arthroplasty may be considered medically necessary if an ambulatory or outpatient hospital is unable to monitor the member\u2019s needs."
+  },
+  {
+   "case_id": "poc-570cd9f39b",
+   "stratum": "in_library",
+   "payer": "Aetna",
+   "cpt": "22612",
+   "policy_url": "https://www.aetna.com/cpb/medical/data/700_799/0743.html",
+   "verdict": "verified",
+   "chars": 120000,
+   "n_criteria": 8,
+   "first_criterion": "The assessment concluded that, \"The evidence for lumbar spinal fusion does not conclusively demonstrate short-term or long-term benefits compared with non-surgical treatment, especially when consideri"
+  },
+  {
+   "case_id": "poc-5717f9eeef",
+   "stratum": "in_library",
+   "payer": "Providence Health Plan",
+   "cpt": "23472",
+   "policy_url": "https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp430.pdf",
+   "verdict": "verified",
+   "chars": 32275,
+   "n_criteria": 14,
+   "first_criterion": "shoulder arthroplasty (CPT 23472) when all the following criteria are met:"
   },
   {
    "case_id": "poc-5767d9118e",
@@ -191,6 +493,17 @@
    "first_criterion": "Replacement/revision of previous arthroplasty Replacement/revision TKA or THA may be considered necessary as an inpatient procedure when the following criteria are met:"
   },
   {
+   "case_id": "poc-58f5ca7616",
+   "stratum": "in_library",
+   "payer": "Cigna",
+   "cpt": "29881",
+   "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2026-04/Cigna_CMM-312%20Knee%20Surg%20Arthro%20%26%20Open%20Proc_V1.0.2026_Eff08.04.2026_Pub04.20.2026.pdf",
+   "verdict": "verified",
+   "chars": 120000,
+   "n_criteria": 14,
+   "first_criterion": "Comprehensive Musculoskeletal Management Guidelines V1.0.2026 Arthroscopic or Open Procedures for Fracture, Tumor, Infection, or Foreign Body CMM.JT.IN.312 v1.0.2026 Arthroscopic or open knee surgery "
+  },
+  {
    "case_id": "poc-5ba41ad17e",
    "stratum": "in_library",
    "payer": "Aetna",
@@ -202,6 +515,28 @@
    "first_criterion": "unicompartmental knee arthroplasty (UKA) is indicated when only 1 compartment is affected, and total knee arthroplasty (TKA) is indicated when 2 or 3 compartments are affected."
   },
   {
+   "case_id": "poc-5bc8a5312c",
+   "stratum": "in_library",
+   "payer": "Dean Health Plan",
+   "cpt": "22551",
+   "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15-updated-2026-01-01/",
+   "verdict": "verified",
+   "chars": 199080,
+   "n_criteria": 14,
+   "first_criterion": "Cervical Fusion Noninvasive electrical stimulation of the spine to augment spinal fusion in all regions of the cervical spine is considered medically necessary in individuals at high risk for pseudoar"
+  },
+  {
+   "case_id": "poc-5bc96481d7",
+   "stratum": "in_library",
+   "payer": "Sunflower Health Plan",
+   "cpt": "29806",
+   "policy_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+   "verdict": "verified",
+   "chars": 400000,
+   "n_criteria": 14,
+   "first_criterion": "instability is indicated when the following criteria in any of the following sections are met (38\u201341):"
+  },
+  {
    "case_id": "poc-5d5b151de3",
    "stratum": "no_policy",
    "payer": "Ambetter (WellCare)",
@@ -209,6 +544,17 @@
    "policy_url": "",
    "verdict": "no_url",
    "detail": "stratum C: the claim is that nothing is published, which no fetch can confirm"
+  },
+  {
+   "case_id": "poc-5d67837dc3",
+   "stratum": "in_library",
+   "payer": "Cigna",
+   "cpt": "29888",
+   "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2026-04/Cigna_CMM-312%20Knee%20Surg%20Arthro%20%26%20Open%20Proc_V1.0.2026_Eff08.04.2026_Pub04.20.2026.pdf",
+   "verdict": "verified",
+   "chars": 120000,
+   "n_criteria": 12,
+   "first_criterion": "Comprehensive Musculoskeletal Management Guidelines V1.0.2026 Anterolateral Ligament (ALL) Reconstruction/Lateral Extra-Articular Tenodesis (LEAT) Indications CMM.JT.IN.312 v1.0.2026 Anterolateral lig"
   },
   {
    "case_id": "poc-5edc35c98d",
@@ -219,6 +565,17 @@
    "verdict": "vendor_shaped",
    "chars": 53443,
    "detail": "generic UM document, no procedure-level criteria -- which is what vendor-held means"
+  },
+  {
+   "case_id": "poc-5fadd4bbde",
+   "stratum": "in_library",
+   "payer": "Aetna",
+   "cpt": "27130",
+   "policy_url": "https://www.aetna.com/cpb/medical/data/200_299/0287.html",
+   "verdict": "verified",
+   "chars": 120000,
+   "n_criteria": 7,
+   "first_criterion": "hip arthroplasty (THA) prosthesis medically necessary for adult members when the following criteria are met (see also Additional Note ):"
   },
   {
    "case_id": "poc-64107d6ef7",
@@ -232,6 +589,72 @@
    "first_criterion": "ankle arthroplasty is considered medically necessary in skeletally mature patients when ALL of the following criteria are met:"
   },
   {
+   "case_id": "poc-65bd57974d",
+   "stratum": "in_library",
+   "payer": "Wellpoint Maryland",
+   "cpt": "29806",
+   "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/PDF-Joint-Surgery-2025-11-15.pdf",
+   "verdict": "verified",
+   "chars": 120000,
+   "n_criteria": 7,
+   "first_criterion": "Capsulorrhaphy is considered medically necessary when ALL the following criteria are met:"
+  },
+  {
+   "case_id": "poc-698f4692ae",
+   "stratum": "in_library",
+   "payer": "Aetna",
+   "cpt": "27447",
+   "policy_url": "https://www.aetna.com/cpb/medical/data/600_699/0660.html",
+   "verdict": "verified",
+   "chars": 389603,
+   "n_criteria": 7,
+   "first_criterion": "knee arthroplasty is considered medically necessary for the following indications when accompanied by pain and functional disability (interference with ADLs) (see also Additional Note ):"
+  },
+  {
+   "case_id": "poc-6a6d9c61f2",
+   "stratum": "in_library",
+   "payer": "Aetna",
+   "cpt": "22612",
+   "policy_url": "https://www.aetna.com/cpb/medical/data/700_799/0743.html",
+   "verdict": "verified",
+   "chars": 120000,
+   "n_criteria": 8,
+   "first_criterion": "The assessment concluded that, \"The evidence for lumbar spinal fusion does not conclusively demonstrate short-term or long-term benefits compared with non-surgical treatment, especially when consideri"
+  },
+  {
+   "case_id": "poc-6a7fd5286d",
+   "stratum": "in_library",
+   "payer": "Cigna",
+   "cpt": "27447",
+   "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2026-04/Cigna_CMM-311%20Knee%20Replac%20Arthro_V1.0.2026_Eff08.04.2026_Pub04.20.2026.pdf",
+   "verdict": "verified",
+   "chars": 66215,
+   "n_criteria": 6,
+   "first_criterion": "knee replacement is considered medically necessary for ANY of the following conditions when ALL of the associated criteria have been met:"
+  },
+  {
+   "case_id": "poc-6b4f896296",
+   "stratum": "in_library",
+   "payer": "Moda Health",
+   "cpt": "22551",
+   "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-02/EviCore_CMM-601%20Ant%20Cerv%20Disc_Final_V1.0.2025_Pub02.26.2025.pdf",
+   "verdict": "verified",
+   "chars": 63387,
+   "n_criteria": 12,
+   "first_criterion": "ACDF) is considered medically necessary when performed for EITHER of the following conditions when ALL of the associated criteria have been met:"
+  },
+  {
+   "case_id": "poc-6b51d0a6aa",
+   "stratum": "in_library",
+   "payer": "CareFirst BlueCross BlueShield",
+   "cpt": "29888",
+   "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-02/EviCore_CMM-312%20Knee%20Surg%20Arthro_Final_V1.0.2025_Pub02.25.2025.pdf",
+   "verdict": "verified",
+   "chars": 101165,
+   "n_criteria": 10,
+   "first_criterion": "Anterolateral Ligament (ALL) Reconstruction/Lateral Extra-Articular Tenodesis (LEAT) Anterolateral Ligament (ALL) Reconstruction/ Lateral Extra -Articular Tenodesis (LEAT) Indications Anterolateral li"
+  },
+  {
    "case_id": "poc-6e16fad700",
    "stratum": "in_library",
    "payer": "Aetna",
@@ -241,6 +664,28 @@
    "chars": 94191,
    "n_criteria": 14,
    "first_criterion": "Minimum follow-up was at least 12 months."
+  },
+  {
+   "case_id": "poc-6e764dffe5",
+   "stratum": "in_library",
+   "payer": "Blue Cross Blue Shield of New Mexico",
+   "cpt": "29806",
+   "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/",
+   "verdict": "verified",
+   "chars": 215841,
+   "n_criteria": 7,
+   "first_criterion": "Capsulorrhaphy is considered medically necessary when ALL the following criteria are met:"
+  },
+  {
+   "case_id": "poc-7572d3c32f",
+   "stratum": "in_library",
+   "payer": "Aetna",
+   "cpt": "27446",
+   "policy_url": "https://www.aetna.com/cpb/medical/data/600_699/0660.html",
+   "verdict": "verified",
+   "chars": 389603,
+   "n_criteria": 14,
+   "first_criterion": "unicompartmental knee arthroplasty (UKA) is indicated when only 1 compartment is affected, and total knee arthroplasty (TKA) is indicated when 2 or 3 compartments are affected."
   },
   {
    "case_id": "poc-757c3b7e16",
@@ -263,6 +708,28 @@
    "detail": "stratum C: the claim is that nothing is published, which no fetch can confirm"
   },
   {
+   "case_id": "poc-79a305e63c",
+   "stratum": "in_library",
+   "payer": "Harvard Pilgrim Health Care",
+   "cpt": "29888",
+   "policy_url": "https://www1.radmd.com/sites/default/files/2024-02/2023%20Knee%20Arthroscopy%20Clin%20Tip%20Sheet%20Evolent%2002282024.pdf",
+   "verdict": "verified",
+   "chars": 10142,
+   "n_criteria": 9,
+   "first_criterion": "ACL reconstruction requests do not require non-operative treatment provided the following criteria are met:"
+  },
+  {
+   "case_id": "poc-7cd7d16b79",
+   "stratum": "in_library",
+   "payer": "Healthy Blue Louisiana",
+   "cpt": "27446",
+   "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/",
+   "verdict": "verified",
+   "chars": 215841,
+   "n_criteria": 10,
+   "first_criterion": "partial knee replacement (PKA) is considered medically necessary when ALL the following criteria are met:"
+  },
+  {
    "case_id": "poc-7eb7cfd8b4",
    "stratum": "no_policy",
    "payer": "Highmark Health Options",
@@ -279,9 +746,20 @@
    "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf",
    "verdict": "vendor_but_criteria_found",
    "chars": 43556,
-   "n_criteria": 2,
-   "first_criterion": "Radiological evaluation indicated favorable MRI findings regarding filling of the defect and incorporation with adjacent cartilage at 24 months of follow-up, but conflicting evidence exists regarding ",
+   "n_criteria": 1,
+   "first_criterion": "In their own case series of bovine bone xenografts used in foot and ankle reconstruction, xenografts failed to integrate with host bone in 58% of cases and persistent pain occurred in 83% of patients.",
    "detail": "vendor-held by the key, yet criteria were extracted -- read them: is the stratum wrong, or is the extractor picking up headers?"
+  },
+  {
+   "case_id": "poc-892f80bc2e",
+   "stratum": "in_library",
+   "payer": "Cigna",
+   "cpt": "27130",
+   "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2026-04/Cigna_CMM-313%20Hip%20Replace%20Arthro_V1.0.2026_Eff08.04.2026_Pub04.20.2026.pdf",
+   "verdict": "verified",
+   "chars": 62401,
+   "n_criteria": 11,
+   "first_criterion": "hip replacement is considered medically necessary for ANY of the following conditions when ALL of the associated criteria have been met:"
   },
   {
    "case_id": "poc-8ad74ff769",
@@ -295,6 +773,17 @@
    "first_criterion": "unicompartmental replacement is considered medically necessary when ALL of the following criteria have been met:"
   },
   {
+   "case_id": "poc-8b473a1d50",
+   "stratum": "in_library",
+   "payer": "Cigna",
+   "cpt": "29827",
+   "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2026-04/Cigna_CMM-315%20Shoul%20Surg%20Arthro%20%26%20Open%20Proc_V1.0.2026_Eff08.04.2026_Pub04.20.2026.pdf",
+   "verdict": "verified",
+   "chars": 90103,
+   "n_criteria": 14,
+   "first_criterion": "Rotator cuff repair is considered medically necessary when ALL of the following criteria have been met:"
+  },
+  {
    "case_id": "poc-8e43f25837",
    "stratum": "in_library",
    "payer": "Cigna",
@@ -304,6 +793,39 @@
    "chars": 51284,
    "n_criteria": 4,
    "first_criterion": "femoroacetabular impingement (FAI) is considered medically necessary when ALL of the following criteria have been met:"
+  },
+  {
+   "case_id": "poc-8e86334152",
+   "stratum": "in_library",
+   "payer": "Premera Blue Cross",
+   "cpt": "23472",
+   "policy_url": "https://www.premera.com/medicalpolicies/7.01.590.pdf",
+   "verdict": "verified",
+   "chars": 33646,
+   "n_criteria": 14,
+   "first_criterion": "7.01.590_PBC (03-23-2026) Total shoulder arthroplasty Reverse shoulder arthroplasty Shoulder hemiarthroplasty Revision shoulder arthroplasty Surgery Medical Necessity Total shoulder arthroplasty Total"
+  },
+  {
+   "case_id": "poc-8ee886247d",
+   "stratum": "in_library",
+   "payer": "Aetna",
+   "cpt": "27446",
+   "policy_url": "https://www.aetna.com/cpb/medical/data/600_699/0660.html",
+   "verdict": "verified",
+   "chars": 389603,
+   "n_criteria": 14,
+   "first_criterion": "unicompartmental knee arthroplasty (UKA) is indicated when only 1 compartment is affected, and total knee arthroplasty (TKA) is indicated when 2 or 3 compartments are affected."
+  },
+  {
+   "case_id": "poc-926bf4d7e4",
+   "stratum": "in_library",
+   "payer": "Simply Healthcare",
+   "cpt": "29827",
+   "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/",
+   "verdict": "verified",
+   "chars": 215841,
+   "n_criteria": 11,
+   "first_criterion": "Rotator cuff repair is considered medically necessary for an acute full thickness tear when ALL the following criteria are met:"
   },
   {
    "case_id": "poc-9297e0e467",
@@ -348,6 +870,17 @@
    "first_criterion": "(Evolent Guideline 316) 5\u2014 Knee Arthroscopy Clinical Tip Sheet \u2756 Lateral Release \u2022 Failure of at least 6 months of non-operative treatment, including quadriceps strengthening and appropriate hamstring"
   },
   {
+   "case_id": "poc-972f74519c",
+   "stratum": "in_library",
+   "payer": "Blue Shield of California",
+   "cpt": "27447",
+   "policy_url": "https://www.blueshieldca.com/content/dam/bsca/en/provider/docs/2023/November/PRV_KneeArthroplasty_Adult.pdf",
+   "verdict": "verified",
+   "chars": 88920,
+   "n_criteria": 7,
+   "first_criterion": "BSC7.10 Knee Arthroplasty for Adults Page 2 of 24 Reproduction without authorization from Blue Shield of California is prohibited Policy Guidelines Conservative Treatment As medically indicated, membe"
+  },
+  {
    "case_id": "poc-9992a0803a",
    "stratum": "no_policy",
    "payer": "Molina Healthcare",
@@ -355,6 +888,28 @@
    "policy_url": "",
    "verdict": "no_url",
    "detail": "stratum C: the claim is that nothing is published, which no fetch can confirm"
+  },
+  {
+   "case_id": "poc-99cc30886d",
+   "stratum": "in_library",
+   "payer": "Harvard Pilgrim Health Care",
+   "cpt": "22612",
+   "policy_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+   "verdict": "verified",
+   "chars": 400000,
+   "n_criteria": 14,
+   "first_criterion": "All individuals being considered for surgical intervention should receive a comprehensive neuromusculoskeletal examination to identify pain generators that may either respond to non-surgical technique"
+  },
+  {
+   "case_id": "poc-9a43271177",
+   "stratum": "in_library",
+   "payer": "Cigna",
+   "cpt": "27447",
+   "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2026-04/Cigna_CMM-311%20Knee%20Replac%20Arthro_V1.0.2026_Eff08.04.2026_Pub04.20.2026.pdf",
+   "verdict": "verified",
+   "chars": 66215,
+   "n_criteria": 6,
+   "first_criterion": "knee replacement is considered medically necessary for ANY of the following conditions when ALL of the associated criteria have been met:"
   },
   {
    "case_id": "poc-9ab63cfcdf",
@@ -381,6 +936,39 @@
    "detail": "vendor-held by the key, yet criteria were extracted -- read them: is the stratum wrong, or is the extractor picking up headers?"
   },
   {
+   "case_id": "poc-9f671e8f0e",
+   "stratum": "in_library",
+   "payer": "Wellpoint (Amerigroup)",
+   "cpt": "29881",
+   "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/",
+   "verdict": "verified",
+   "chars": 215841,
+   "n_criteria": 14,
+   "first_criterion": "meniscectomy is considered medically necessary for acute traumatic meniscal tear (sudden onset of joint-line pain associated with significant knee injury) when ALL the following requirements are met:"
+  },
+  {
+   "case_id": "poc-a0c827a88a",
+   "stratum": "in_library",
+   "payer": "Meridian Health Plan",
+   "cpt": "29888",
+   "policy_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+   "verdict": "verified",
+   "chars": 400000,
+   "n_criteria": 13,
+   "first_criterion": "ACL reconstruction or repair may be medically necessary when the criteria in any of the following sections are met and individual has no evidence of severe arthritis defined as Kellgren-Lawrence grade"
+  },
+  {
+   "case_id": "poc-a0d25e0d66",
+   "stratum": "in_library",
+   "payer": "Peach State Health Plan",
+   "cpt": "63030",
+   "policy_url": "https://www.ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf",
+   "verdict": "verified",
+   "chars": 21661,
+   "n_criteria": 11,
+   "first_criterion": "discectomy are medically necessary when meeting all of the following:"
+  },
+  {
    "case_id": "poc-a1f3d3c000",
    "stratum": "in_library",
    "payer": "Cigna",
@@ -402,6 +990,17 @@
    "detail": "names the procedure, no criteria sentences extractable"
   },
   {
+   "case_id": "poc-a43fe266ad",
+   "stratum": "in_library",
+   "payer": "Anthem Blue Cross Blue Shield",
+   "cpt": "63030",
+   "policy_url": "https://files.providernews.anthem.com/4827/pdf-Spine-Surgery-2024-10-20.pdf",
+   "verdict": "verified",
+   "chars": 120000,
+   "n_criteria": 14,
+   "first_criterion": "laminotomy are considered medically necessary to treat the following conditions:"
+  },
+  {
    "case_id": "poc-a5f6d22435",
    "stratum": "in_library",
    "payer": "Security Health Plan",
@@ -411,6 +1010,38 @@
    "chars": 60299,
    "n_criteria": 11,
    "first_criterion": "Knee Replacement/Arthroplasty \u00a92025 EviCore by EVERNORTH Page 8 of 32 730 Cool Springs Blvd, Franklin, TN 37067 (800) 918-8924 www.EviCore.com Comprehensive Musculoskeletal Management Guidelines V2.0."
+  },
+  {
+   "case_id": "poc-a755f8592e",
+   "stratum": "in_library",
+   "payer": "Blue Cross Blue Shield of Illinois",
+   "cpt": "29806",
+   "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/",
+   "verdict": "verified",
+   "chars": 215841,
+   "n_criteria": 7,
+   "first_criterion": "Capsulorrhaphy is considered medically necessary when ALL the following criteria are met:"
+  },
+  {
+   "case_id": "poc-a7c9ba9551",
+   "stratum": "in_library",
+   "payer": "Cigna",
+   "cpt": "27702",
+   "policy_url": "https://static.cigna.com/assets/chcp/pdf/coveragePolicies/medical/mm_0285_coveragepositioncriteria_total_ankle_arthroplasty.pdf",
+   "verdict": "verified",
+   "chars": 42790,
+   "n_criteria": 13,
+   "first_criterion": "ankle arthroplasty is considered medically necessary for moderate to severe ankle pain secondary to failure of an implanted device (e.g., implant loosening, malpositioning, periprosthetic infection, p"
+  },
+  {
+   "case_id": "poc-a93fe7e3b5",
+   "stratum": "in_library",
+   "payer": "Regence BlueShield",
+   "cpt": "22612",
+   "policy_url": "https://blue.regence.com/trgmedpol/surgery/sur187.pdf",
+   "verdict": "criteria_absent",
+   "chars": 81781,
+   "detail": "names the procedure, no criteria sentences extractable"
   },
   {
    "case_id": "poc-aa9ea32e7d",
@@ -434,6 +1065,17 @@
    "detail": "stratum C: the claim is that nothing is published, which no fetch can confirm"
   },
   {
+   "case_id": "poc-acaa2d5bad",
+   "stratum": "in_library",
+   "payer": "Anthem Blue Cross Blue Shield",
+   "cpt": "22551",
+   "policy_url": "https://files.providernews.anthem.com/4827/pdf-Spine-Surgery-2024-10-20.pdf",
+   "verdict": "verified",
+   "chars": 120000,
+   "n_criteria": 12,
+   "first_criterion": "Conservative management1 must include a combination of strategies to reduce inflammation, alleviate pain, and correct underlying dysfunction, including physical therapy AND at least ONE complementary "
+  },
+  {
    "case_id": "poc-b12ba21a5a",
    "stratum": "no_policy",
    "payer": "Arkansas Blue Cross and Blue Shield",
@@ -441,6 +1083,17 @@
    "policy_url": "",
    "verdict": "no_url",
    "detail": "stratum C: the claim is that nothing is published, which no fetch can confirm"
+  },
+  {
+   "case_id": "poc-b70a1741f9",
+   "stratum": "in_library",
+   "payer": "Wellpoint",
+   "cpt": "22551",
+   "policy_url": "https://files.providernews.anthem.com/4827/pdf-Spine-Surgery-2024-10-20.pdf",
+   "verdict": "verified",
+   "chars": 120000,
+   "n_criteria": 12,
+   "first_criterion": "Conservative management1 must include a combination of strategies to reduce inflammation, alleviate pain, and correct underlying dysfunction, including physical therapy AND at least ONE complementary "
   },
   {
    "case_id": "poc-b7c7b913dc",
@@ -452,6 +1105,72 @@
    "chars": 92777,
    "n_criteria": 1,
    "first_criterion": "Evidence to date demonstrates that total disc replacement (TDR) is at least as effective as ACDF in improving signs and symptoms associated with degenerative disease and improving quality of life (QOL"
+  },
+  {
+   "case_id": "poc-b9867c3e93",
+   "stratum": "in_library",
+   "payer": "Cigna",
+   "cpt": "23472",
+   "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2026-04/Cigna_CMM-318%20Shoul%20Arthro%20Replace%20Revision%20Arthro_V1.0.2026_Eff08.04.2026_Pub04.20.2026.pdf",
+   "verdict": "verified",
+   "chars": 54255,
+   "n_criteria": 4,
+   "first_criterion": "shoulder arthroplasty (replacement) is considered medically necessary when ALL of the following criteria have been met:"
+  },
+  {
+   "case_id": "poc-ba397efdb1",
+   "stratum": "in_library",
+   "payer": "Blue Cross and Blue Shield of North Carolina",
+   "cpt": "28296",
+   "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/small-joint-surgery-2025-11-15/",
+   "verdict": "verified",
+   "chars": 69366,
+   "n_criteria": 14,
+   "first_criterion": "Bunionette surgery is considered medically necessary when ALL the following requirements are met:"
+  },
+  {
+   "case_id": "poc-bb2c61bc1b",
+   "stratum": "in_library",
+   "payer": "Anthem Blue Cross Blue Shield",
+   "cpt": "29827",
+   "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/PDF-Joint-Surgery-2025-11-15.pdf",
+   "verdict": "verified",
+   "chars": 120000,
+   "n_criteria": 13,
+   "first_criterion": "Rotator cuff repair is considered medically necessary for an acute full thickness tear when ALL the following criteria are met:"
+  },
+  {
+   "case_id": "poc-bd05618334",
+   "stratum": "in_library",
+   "payer": "Anthem Blue Cross Blue Shield",
+   "cpt": "29914",
+   "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/PDF-Joint-Surgery-2025-11-15.pdf",
+   "verdict": "verified",
+   "chars": 120000,
+   "n_criteria": 5,
+   "first_criterion": "Diagnostic arthroscopy Diagnostic arthroscopy of the hip joint is considered medically necessary for synovial biopsy or when the involved joint meets ALL the following criteria:"
+  },
+  {
+   "case_id": "poc-bda4258628",
+   "stratum": "in_library",
+   "payer": "Blue Cross of Idaho",
+   "cpt": "27446",
+   "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/",
+   "verdict": "verified",
+   "chars": 215841,
+   "n_criteria": 10,
+   "first_criterion": "partial knee replacement (PKA) is considered medically necessary when ALL the following criteria are met:"
+  },
+  {
+   "case_id": "poc-bdd7b46260",
+   "stratum": "in_library",
+   "payer": "Tufts Health Plan",
+   "cpt": "63030",
+   "policy_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+   "verdict": "verified",
+   "chars": 400000,
+   "n_criteria": 11,
+   "first_criterion": "Discectomy with Fusion (ACDF) - Single Level When one of the two following criteria are met (1\u20138):"
   },
   {
    "case_id": "poc-bf385bb269",
@@ -481,6 +1200,28 @@
    "detail": "stratum C: the claim is that nothing is published, which no fetch can confirm"
   },
   {
+   "case_id": "poc-c3b5d8f398",
+   "stratum": "in_library",
+   "payer": "Anthem Blue Cross and Blue Shield (formerly Empire)",
+   "cpt": "63030",
+   "policy_url": "https://files.providernews.anthem.com/4827/pdf-Spine-Surgery-2024-10-20.pdf",
+   "verdict": "verified",
+   "chars": 120000,
+   "n_criteria": 14,
+   "first_criterion": "laminotomy are considered medically necessary to treat the following conditions:"
+  },
+  {
+   "case_id": "poc-c4bc2ebac7",
+   "stratum": "in_library",
+   "payer": "PacificSource Health Plans",
+   "cpt": "29806",
+   "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/",
+   "verdict": "verified",
+   "chars": 215841,
+   "n_criteria": 7,
+   "first_criterion": "Capsulorrhaphy is considered medically necessary when ALL the following criteria are met:"
+  },
+  {
    "case_id": "poc-c65ca65da3",
    "stratum": "in_library",
    "payer": "Aetna",
@@ -490,6 +1231,28 @@
    "chars": 310923,
    "n_criteria": 6,
    "first_criterion": "Aetna considers pelvic osteotomy (e.g., peri-acetabular osteotomy (PAO)) medically necessary for a diagnosis of acetabular dysplasia (not borderline dysplasia) for persons who fulfill all of the follo"
+  },
+  {
+   "case_id": "poc-cbb1679293",
+   "stratum": "in_library",
+   "payer": "Aetna Better Health of West Virginia",
+   "cpt": "63030",
+   "policy_url": "https://www.aetna.com/cpb/medical/data/700_799/0743.html",
+   "verdict": "verified",
+   "chars": 120000,
+   "n_criteria": 14,
+   "first_criterion": "CPT codes covered if selection criteria are met :"
+  },
+  {
+   "case_id": "poc-cd20076a7a",
+   "stratum": "in_library",
+   "payer": "Louisiana Healthcare Connections",
+   "cpt": "27446",
+   "policy_url": "https://ldh.la.gov/assets/medicaid/MCPP/06-12-2026/1882-LHCC-ECG-1763-for-Knee-Arthroplasty-2026-redline.pdf",
+   "verdict": "verified",
+   "chars": 43040,
+   "n_criteria": 10,
+   "first_criterion": "Medial or lateral UKA/PKA may be medically necessary when ALL of the following criteria are met):"
   },
   {
    "case_id": "poc-cd6af51965",
@@ -504,6 +1267,72 @@
    "detail": "vendor-held by the key, yet criteria were extracted -- read them: is the stratum wrong, or is the extractor picking up headers?"
   },
   {
+   "case_id": "poc-cdc085ab1f",
+   "stratum": "in_library",
+   "payer": "Regence BlueShield",
+   "cpt": "29827",
+   "policy_url": "https://blue.regence.com/trgmedpol/surgery/sur228.pdf",
+   "verdict": "verified",
+   "chars": 47553,
+   "n_criteria": 5,
+   "first_criterion": "The information below must be submitted for review to determine whether policy criteria are met."
+  },
+  {
+   "case_id": "poc-ce2e11f72d",
+   "stratum": "in_library",
+   "payer": "Anthem Blue Cross Blue Shield",
+   "cpt": "29827",
+   "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/PDF-Joint-Surgery-2025-11-15.pdf",
+   "verdict": "verified",
+   "chars": 120000,
+   "n_criteria": 13,
+   "first_criterion": "Rotator cuff repair is considered medically necessary for an acute full thickness tear when ALL the following criteria are met:"
+  },
+  {
+   "case_id": "poc-cfa5b97de7",
+   "stratum": "in_library",
+   "payer": "Anthem Blue Cross Blue Shield",
+   "cpt": "29881",
+   "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/",
+   "verdict": "verified",
+   "chars": 215841,
+   "n_criteria": 14,
+   "first_criterion": "meniscectomy is considered medically necessary for acute traumatic meniscal tear (sudden onset of joint-line pain associated with significant knee injury) when ALL the following requirements are met:"
+  },
+  {
+   "case_id": "poc-d304be9399",
+   "stratum": "in_library",
+   "payer": "Cigna",
+   "cpt": "29914",
+   "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2026-04/Cigna_CMM-314%20Hip%20Surg%20Arthro%20%26%20Open%20Proc_V1.0.2026_Eff08.04.2026_Pub04.20.2026.pdf",
+   "verdict": "verified",
+   "chars": 51284,
+   "n_criteria": 4,
+   "first_criterion": "femoroacetabular impingement (FAI) is considered medically necessary when ALL of the following criteria have been met:"
+  },
+  {
+   "case_id": "poc-d47f9a88cc",
+   "stratum": "in_library",
+   "payer": "Anthem Blue Cross Blue Shield",
+   "cpt": "29806",
+   "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/PDF-Joint-Surgery-2025-11-15.pdf",
+   "verdict": "verified",
+   "chars": 120000,
+   "n_criteria": 7,
+   "first_criterion": "Capsulorrhaphy is considered medically necessary when ALL the following criteria are met:"
+  },
+  {
+   "case_id": "poc-d52dac7115",
+   "stratum": "in_library",
+   "payer": "Blue Cross and Blue Shield of North Carolina",
+   "cpt": "29914",
+   "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/",
+   "verdict": "verified",
+   "chars": 215841,
+   "n_criteria": 14,
+   "first_criterion": "Hip arthroscopy is considered medically necessary for treatment of labral tear when ALL the following criteria are met:"
+  },
+  {
    "case_id": "poc-d5606caed3",
    "stratum": "in_library",
    "payer": "Banner Health",
@@ -513,6 +1342,17 @@
    "chars": 69062,
    "n_criteria": 14,
    "first_criterion": "Rotator cuff repair is considered medically necessary when ALL of the following criteria have been met:"
+  },
+  {
+   "case_id": "poc-d5b17e1a47",
+   "stratum": "in_library",
+   "payer": "Wellpoint",
+   "cpt": "27446",
+   "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/",
+   "verdict": "verified",
+   "chars": 215841,
+   "n_criteria": 10,
+   "first_criterion": "partial knee replacement (PKA) is considered medically necessary when ALL the following criteria are met:"
   },
   {
    "case_id": "poc-d87a7955a7",
@@ -533,6 +1373,39 @@
    "chars": 301665,
    "n_criteria": 14,
    "first_criterion": "*Conservative Treatment Non-operative conservative treatment should include a multimodality approach consisting of at least one (1) active and one (1) inactive component targeting the affected spinal "
+  },
+  {
+   "case_id": "poc-da651e8611",
+   "stratum": "in_library",
+   "payer": "Wellpoint",
+   "cpt": "23472",
+   "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/PDF-Joint-Surgery-2025-11-15.pdf",
+   "verdict": "verified",
+   "chars": 120000,
+   "n_criteria": 8,
+   "first_criterion": "shoulder arthroplasty is considered medically necessary for ANY of the following indications:"
+  },
+  {
+   "case_id": "poc-da7faa7db4",
+   "stratum": "in_library",
+   "payer": "CommunityCare",
+   "cpt": "27130",
+   "policy_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+   "verdict": "verified",
+   "chars": 400000,
+   "n_criteria": 14,
+   "first_criterion": "hip arthroplasty may be considered if the following general criteria are met:"
+  },
+  {
+   "case_id": "poc-ddd103990c",
+   "stratum": "in_library",
+   "payer": "Superior HealthPlan (Ambetter)",
+   "cpt": "29806",
+   "policy_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+   "verdict": "verified",
+   "chars": 400000,
+   "n_criteria": 14,
+   "first_criterion": "instability is indicated when the following criteria in any of the following sections are met (38\u201341):"
   },
   {
    "case_id": "poc-df42beb029",
@@ -575,9 +1448,52 @@
    "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/spinal-fusion-decompression.pdf",
    "verdict": "vendor_but_criteria_found",
    "chars": 61896,
-   "n_criteria": 4,
+   "n_criteria": 3,
    "first_criterion": "A loss of structural support of the spine that leads to abnormal and increased movement between vertebrae outside of normal physiological limits, measured by the difference in translational alignment ",
    "detail": "vendor-held by the key, yet criteria were extracted -- read them: is the stratum wrong, or is the extractor picking up headers?"
+  },
+  {
+   "case_id": "poc-e71c638d4f",
+   "stratum": "in_library",
+   "payer": "Harvard Pilgrim Health Care",
+   "cpt": "27130",
+   "policy_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+   "verdict": "verified",
+   "chars": 400000,
+   "n_criteria": 14,
+   "first_criterion": "hip arthroplasty may be considered if the following general criteria are met:"
+  },
+  {
+   "case_id": "poc-e7809c09b9",
+   "stratum": "in_library",
+   "payer": "Cigna",
+   "cpt": "27130",
+   "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2026-04/Cigna_CMM-313%20Hip%20Replace%20Arthro_V1.0.2026_Eff08.04.2026_Pub04.20.2026.pdf",
+   "verdict": "verified",
+   "chars": 62401,
+   "n_criteria": 11,
+   "first_criterion": "hip replacement is considered medically necessary for ANY of the following conditions when ALL of the associated criteria have been met:"
+  },
+  {
+   "case_id": "poc-e84db56372",
+   "stratum": "in_library",
+   "payer": "HealthPartners",
+   "cpt": "63030",
+   "policy_url": "https://www.healthpartners.com/public/coverage-criteria/policy.html?contentid=ENTRY_256055",
+   "verdict": "procedure_absent",
+   "chars": 2107,
+   "detail": "document never mentions CPT 63030 or any of ['laminotomy', 'discectomy', 'lumbar decompression']"
+  },
+  {
+   "case_id": "poc-e8e7b452f1",
+   "stratum": "in_library",
+   "payer": "Tufts Health Plan",
+   "cpt": "29827",
+   "policy_url": "https://www1.radmd.com/sites/default/files/2024-02/2023%20Shldr%20Arthroscopy%20Clin%20Tip%20Sheet%20Evolent%2002282024.pdf",
+   "verdict": "verified",
+   "chars": 8890,
+   "n_criteria": 13,
+   "first_criterion": "rotator cuff including partial repair and Superior Capsular Reconstruction may be necessary when ALL of the following criteria are met:"
   },
   {
    "case_id": "poc-ee22487639",
@@ -613,6 +1529,17 @@
    "first_criterion": "Shoulder Arthroplasty may be necessary when the following criteria are met :"
   },
   {
+   "case_id": "poc-f37f115fed",
+   "stratum": "in_library",
+   "payer": "Anthem Blue Cross and Blue Shield",
+   "cpt": "63030",
+   "policy_url": "https://files.providernews.anthem.com/4827/pdf-Spine-Surgery-2024-10-20.pdf",
+   "verdict": "verified",
+   "chars": 120000,
+   "n_criteria": 14,
+   "first_criterion": "laminotomy are considered medically necessary to treat the following conditions:"
+  },
+  {
    "case_id": "poc-f4c641ed8b",
    "stratum": "in_library",
    "payer": "Ambetter",
@@ -624,6 +1551,38 @@
    "first_criterion": "discectomy are medically necessary when meeting all of the following:"
   },
   {
+   "case_id": "poc-f4d8086686",
+   "stratum": "in_library",
+   "payer": "Avera Health Plans",
+   "cpt": "29827",
+   "policy_url": "https://help.coherehealth.com/payer-info/en/articles/13602157-avera-health-plan-commercial-guidelines",
+   "verdict": "procedure_absent",
+   "chars": 19233,
+   "detail": "document never mentions CPT 29827 or any of ['rotator cuff']"
+  },
+  {
+   "case_id": "poc-f628c11122",
+   "stratum": "in_library",
+   "payer": "Cigna",
+   "cpt": "29827",
+   "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2026-04/Cigna_CMM-315%20Shoul%20Surg%20Arthro%20%26%20Open%20Proc_V1.0.2026_Eff08.04.2026_Pub04.20.2026.pdf",
+   "verdict": "verified",
+   "chars": 90103,
+   "n_criteria": 14,
+   "first_criterion": "Rotator cuff repair is considered medically necessary when ALL of the following criteria have been met:"
+  },
+  {
+   "case_id": "poc-f781755028",
+   "stratum": "in_library",
+   "payer": "Premera Blue Cross Blue Shield of Alaska",
+   "cpt": "23472",
+   "policy_url": "https://www.premera.com/medicalpolicies/7.01.590.pdf",
+   "verdict": "verified",
+   "chars": 33646,
+   "n_criteria": 14,
+   "first_criterion": "7.01.590_PBC (03-23-2026) Total shoulder arthroplasty Reverse shoulder arthroplasty Shoulder hemiarthroplasty Revision shoulder arthroplasty Surgery Medical Necessity Total shoulder arthroplasty Total"
+  },
+  {
    "case_id": "poc-f7c299c469",
    "stratum": "in_library",
    "payer": "Cigna",
@@ -633,6 +1592,28 @@
    "chars": 44007,
    "n_criteria": 10,
    "first_criterion": "\u25e6 The following criteria are NOT required for confirmed urgent/emergent conditions:"
+  },
+  {
+   "case_id": "poc-fb8e2ae06a",
+   "stratum": "in_library",
+   "payer": "Harvard Pilgrim Health Care",
+   "cpt": "63030",
+   "policy_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+   "verdict": "verified",
+   "chars": 400000,
+   "n_criteria": 11,
+   "first_criterion": "Discectomy with Fusion (ACDF) - Single Level When one of the two following criteria are met (1\u20138):"
+  },
+  {
+   "case_id": "poc-fd00fecec4",
+   "stratum": "in_library",
+   "payer": "Excellus BlueCross BlueShield",
+   "cpt": "27130",
+   "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-07/EviCore_CMM-313%20Hip%20Replac%20Arthro_Final_V2.0.2025_eff11.05.2025_pub07.22.2025.pdf",
+   "verdict": "verified",
+   "chars": 58496,
+   "n_criteria": 12,
+   "first_criterion": "hip replacement is considered medically necessary for ANY of the following conditions when ALL of the associated criteria have been met:"
   }
  ]
 }

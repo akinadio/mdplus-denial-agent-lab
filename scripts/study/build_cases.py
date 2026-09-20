@@ -252,9 +252,114 @@ def extend(want: dict) -> None:
     print("\nNext: python3 scripts/study/add_chart_summaries.py")
 
 
+# Why Medicaid goes in stratum C and nowhere else: of 714 Medicaid rows in the
+# directory, not one carries procedure-level criteria -- 565 are process
+# documents only (how to request authorization, not what qualifies), 28 are
+# gated behind a portal, 14 are confirmed to have no policy. So for a Medicaid
+# patient the correct answer is always "no published criteria; here is how to
+# demand them", which is precisely what stratum C tests.
+MEDICAID_NO_POLICY_STATUS = {"PROCESS DOC ONLY (no procedure criteria)", "GATED",
+                             "CONFIRMED NO POLICY", "NO PUBLIC CRITERIA (vendor)"}
+
+
+def add_coverage(n_medicaid: int, force_states: list[str]) -> None:
+    """Add Medicaid cases to stratum C and one commercial stratum A case per
+    missing state, without touching any case already run.
+
+    Same guarantees as extend(): existing cases keep their case_id, letter,
+    chart and answer key byte for byte; new rows are drawn only from
+    (state, payer, cpt) combinations no case uses; a separate random stream.
+    """
+    doc = json.loads((OUT / "cases.json").read_text())
+    gold_doc = json.loads((OUT / "gold.json").read_text())
+    cases, gold = doc["cases"], gold_doc["entries"]
+    used = {(c["state"], c["payer"], c["cpt"]) for c in cases}
+    with DIRECTORY.open(encoding="utf-8", newline="") as fh:
+        rows = list(csv.DictReader(fh))
+    rng = random.Random(SEED + 2)
+    added = []
+
+    def make(r, stratum, i, tag):
+        seed_str = "|".join([str(SEED + 2), tag, stratum, str(i), r["state"],
+                             r["insurance_company"], r["cpt"]])
+        cid = "poc-" + hashlib.sha256(seed_str.encode()).hexdigest()[:10]
+        reason_key, reason_text = DENIAL_REASONS[len(cases) % 4]
+        dd = STUDY_DATE - datetime.timedelta(days=rng.randint(5, 30))
+        dl = dd + datetime.timedelta(days=180)
+        ref = f"{cid.upper()}-{rng.randint(10000,99999)}"
+        cases.append({
+            "case_id": cid, "stratum": stratum,
+            "state": r["state"], "payer": r["insurance_company"],
+            "plan_type": r["plan_type"], "surgery": r["surgery"],
+            "cpt": r["cpt"], "denial_reason": reason_key,
+            "denial_date": dd.isoformat(), "appeal_deadline": dl.isoformat(),
+            "letter_text": _letter(rng, r, reason_text, dd, dl, ref)})
+        g = {"case_id": cid, "stratum": stratum, "state": r["state"],
+             "payer": r["insurance_company"], "cpt": r["cpt"],
+             "directory_status": r["status"], "directory_note": r["note"]}
+        if stratum == "in_library":
+            g.update({"correct_behavior": "cite_document", "policy_title": r["policy_title"],
+                      "policy_url": r["policy_url"], "effective_date": r["effective_date"]})
+        else:
+            g.update({"correct_behavior": "abstain_and_route",
+                      "vendor": _vendor_from_note(r["note"]),
+                      "policy_url": "", "policy_title": "",
+                      "why_no_public_policy": r["note"][:400]})
+        gold.append(g)
+        used.add((r["state"], r["insurance_company"], r["cpt"]))
+        added.append((stratum, r["plan_type"], r["state"]))
+
+    # One commercial stratum A case in each named state.
+    for st in force_states:
+        pool = sorted((r for r in rows
+                       if r["state"] == st and r["plan_type"] == "Commercial/ACA"
+                       and r["status"] in IN_LIB_STATUS and r["policy_url"].strip()
+                       and r["insurance_company"] not in ("Medicare", "Medicaid")
+                       and (r["state"], r["insurance_company"], r["cpt"]) not in used),
+                      key=lambda r: (r["insurance_company"], r["cpt"]))
+        if not pool:
+            raise SystemExit(f"no usable commercial stratum A row in {st}")
+        make(rng.choice(pool), "in_library", 0, "state-" + st)
+
+    # Medicaid, stratum C, spread across states rather than clumped.
+    pool = [r for r in rows
+            if r["plan_type"] == "Medicaid" and r["status"] in MEDICAID_NO_POLICY_STATUS
+            and (r["state"], r["insurance_company"], r["cpt"]) not in used]
+    pool.sort(key=lambda r: (r["state"], r["cpt"]))
+    rng.shuffle(pool)
+    seen_states = set()
+    for relax in (False, True):
+        for r in pool:
+            if sum(1 for a in added if a[1] == "Medicaid") >= n_medicaid:
+                break
+            if (r["state"], r["insurance_company"], r["cpt"]) in used:
+                continue
+            if not relax and r["state"] in seen_states:
+                continue
+            seen_states.add(r["state"])
+            make(r, "no_policy", len(added), "medicaid")
+
+    doc["strata"] = dict(collections.Counter(c["stratum"] for c in cases))
+    (OUT / "cases.json").write_text(json.dumps(doc, indent=1), encoding="utf-8")
+    gold_doc["entries"] = gold
+    (OUT / "gold.json").write_text(json.dumps(gold_doc, indent=1), encoding="utf-8")
+    print(f"added {len(added)} cases; {len(cases)} total")
+    print(" added:", collections.Counter((a[0], a[1]) for a in added))
+    print(" strata:", dict(collections.Counter(c["stratum"] for c in cases)))
+    print(" plan types:", dict(collections.Counter(c["plan_type"] for c in cases)))
+    print(" states:", len({c["state"] for c in cases}))
+    print("\nNext: python3 scripts/study/add_chart_summaries.py")
+
+
 def main() -> None:
     if "--refresh-gold" in sys.argv:
         refresh_gold()
+        return
+    if "--add-coverage" in sys.argv:
+        a = sys.argv
+        n = int(a[a.index("--medicaid") + 1]) if "--medicaid" in a else 15
+        states = (a[a.index("--states") + 1].split(",") if "--states" in a else [])
+        add_coverage(n, [x.strip() for x in states if x.strip()])
         return
     if "--extend" in sys.argv:
         a = sys.argv
