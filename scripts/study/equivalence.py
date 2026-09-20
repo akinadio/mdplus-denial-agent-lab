@@ -31,14 +31,25 @@ from synthetic_harness.citation_cache import _normalize_url  # noqa: E402
 # NOT \b at the start: underscore is a word character, so "Cigna_CMM-314" has
 # no boundary before CMM and \b silently misses every eviCore filename.
 _DOCNUM = re.compile(r"(?<![A-Za-z0-9])(CMM-\d{3}|CP\.MP\.\d+|MMP\d+(?:\.\d+)?|"
-                     r"20\d\dT\d{4}[A-Z]{0,2}|[A-Z]{2,4}\.[A-Z]{2}\.\d+)"
+                     r"20\d\dT\d{4}[A-Z]{0,2}|[A-Z]{2,4}\.[A-Z]{2}\.\d+|"
+                     # Molina writes MCP-404 / MCP 404 / "Clinical Policy No. 404";
+                     # Aetna writes CPB 0660; eviCore and Carelon write
+                     # "Guideline 1764". Without these the number never matched
+                     # and three Molina answers naming MCP-404 exactly were
+                     # scored as the wrong document.
+                     r"MCP-?\s?\d{3}|CPB\s?\d{4}|Guideline\s\d{3,4})"
                      r"(?![A-Za-z0-9])", re.I)
 
 
+def _norm_id(t: str) -> str:
+    return re.sub(r"[^A-Z0-9]", "", (t or "").upper())
+
+
 def _ids(*texts: str) -> set[str]:
+    """Guideline numbers, normalised so MCP-404, MCP 404 and MCP404 are one id."""
     out = set()
     for t in texts:
-        out |= {m.group(1).upper() for m in _DOCNUM.finditer(t or "")}
+        out |= {_norm_id(m.group(1)) for m in _DOCNUM.finditer(t or "")}
     return out
 
 
@@ -50,7 +61,20 @@ def _host(u: str) -> str:
 
 
 def compare(cited_url: str, gold_url: str, cpt: str,
-            gold_title: str = "", allow_fetch: bool = True) -> dict:
+            gold_title: str = "", allow_fetch: bool = True,
+            cited_title: str = "") -> dict:
+    """`cited_title` matters as much as the URL.
+
+    Until 2026-09-20 only the cited URL was inspected, and the guideline-number
+    match additionally required the same web host. Both were wrong, and both
+    ran against the chatbots. A plan's policy number identifies the policy
+    wherever it is hosted: Centene publishes CP.MP.114 on each subsidiary's
+    site, so a North Carolina case answered with Carolina Complete Health's
+    copy is the SAME document, not a different one. And three answers naming
+    "Molina Clinical Policy MCP-404 Shoulder Arthroscopy" in the title were
+    scored wrong because the number appeared only in the title, which was never
+    read. Nine of nineteen wrong-document verdicts were of this kind.
+    """
     cited_url = (cited_url or "").strip()
     if not cited_url:
         return {"verdict": "different_document", "why": "no url cited"}
@@ -60,11 +84,12 @@ def compare(cited_url: str, gold_url: str, cpt: str,
     # Same document number on the same payer's host is the same guideline in a
     # different edition or format.
     ids_gold = _ids(gold_url, gold_title)
-    ids_cited = _ids(cited_url)
+    ids_cited = _ids(cited_url, cited_title)
     same_host = bool(gold_url) and _host(cited_url) == _host(gold_url)
-    if same_host and ids_gold and ids_cited & ids_gold:
+    if ids_gold and ids_cited & ids_gold:
         return {"verdict": "equivalent", "shared_id": sorted(ids_cited & ids_gold),
-                "why": "same guideline number on the same publisher, different edition"}
+                "why": "same guideline number, same policy in another edition or "
+                       "on a sister plan's site"}
 
     if not allow_fetch:
         return {"verdict": "different_document", "why": "not checked"}
@@ -76,7 +101,7 @@ def compare(cited_url: str, gold_url: str, cpt: str,
     names_cpt = bool(cpt) and cpt in text
     quotes = find_criteria(text, cpt)
     ids_doc = _ids(text[:6000])
-    if same_host and ids_gold and ids_doc & ids_gold:
+    if ids_gold and ids_doc & ids_gold:
         return {"verdict": "equivalent", "shared_id": sorted(ids_doc & ids_gold),
                 "why": "document carries the same guideline number"}
     if names_cpt and quotes:

@@ -74,7 +74,8 @@ def score(ans, gold):
         if not url:
             return {"outcome": "no_answer", "correct": False}
         eq = compare(url, gold["policy_url"], gold.get("cpt", ""),
-                     gold.get("policy_title", ""))
+                     gold.get("policy_title", ""),
+                     cited_title=(ans.get("policy_title") or ""))
         if eq["verdict"] in ("exact", "equivalent"):
             return {"outcome": "correct", "correct": True, "match": eq["verdict"],
                     "why": eq.get("why", "")}
@@ -90,7 +91,8 @@ def score(ans, gold):
         if not url:
             return {"outcome": "no_answer", "correct": False}
         eq = compare(url, gold["policy_url"], gold.get("cpt", ""),
-                     gold.get("policy_title", ""))
+                     gold.get("policy_title", ""),
+                     cited_title=(ans.get("policy_title") or ""))
         if eq["verdict"] not in ("exact", "equivalent"):
             return {"outcome": "wrong_document", "correct": False,
                     "claimed_url": url, "why": eq.get("why", "")}
@@ -130,6 +132,24 @@ def main():
         s["case_id"] = cid
         s["stratum"] = gold[cid]["stratum"]
         out[rid] = s
+    # A verdict of "cited an unreadable document" is a claim about the DOCUMENT.
+    # Run somewhere that cannot resolve payer hostnames, it becomes a claim
+    # about the machine -- and it lands almost entirely on the arms that search
+    # the live web, so it silently flatters the arm that does not. On 2026-09-20
+    # scoring inside the Cowork workspace produced 21 such verdicts, 19 of them
+    # DNS failures against hosts that are plainly real, including www1.radmd.com,
+    # which hosts one of the answer key's own documents.
+    unread = [v for v in out.values() if v.get("outcome") == "cited_unreadable"]
+    dns = [v for v in unread if "DNS resolution failed" in str(v.get("why", ""))]
+    if len(dns) >= 3:
+        print()
+        print("  STOP. " + str(len(dns)) + " of " + str(len(unread)) +
+              " 'cited_unreadable' verdicts are DNS failures on this machine,")
+        print("  not dead links. This machine cannot reach payer websites, so those")
+        print("  answers are being scored wrong for our network rather than for")
+        print("  their content -- and the systems that search the web take all of it.")
+        print("  Re-run score.py somewhere that can open a payer policy page.")
+        print()
     (STUDY / "scores.json").write_text(json.dumps(out, indent=1))
     import collections
     c = collections.Counter(v.get("outcome") for v in out.values())

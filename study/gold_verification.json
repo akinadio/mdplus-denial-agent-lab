@@ -27,8 +27,8 @@
    "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/spinal-fusion-decompression.pdf",
    "verdict": "vendor_but_criteria_found",
    "chars": 61896,
-   "n_criteria": 14,
-   "first_criterion": "Coverage Rationale Spinal procedures for the treatment of spine pain are proven and medically necessary in certain circumstances .",
+   "n_criteria": 4,
+   "first_criterion": "A loss of structural support of the spine that leads to abnormal and increased movement between vertebrae outside of normal physiological limits, measured by the difference in translational alignment ",
    "detail": "vendor-held by the key, yet criteria were extracted -- read them: is the stratum wrong, or is the extractor picking up headers?"
   },
   {
@@ -46,9 +46,10 @@
    "payer": "Fidelis Care",
    "cpt": "27446",
    "policy_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
-   "verdict": "procedure_absent",
-   "chars": 120000,
-   "detail": "document never mentions CPT 27446 or any of ['unicompartmental', 'partial knee', 'unicondylar']"
+   "verdict": "verified",
+   "chars": 400000,
+   "n_criteria": 9,
+   "first_criterion": "Partial Knee Replacement (PKA) Medial or lateral UKA/PKA may be medically necessary when ALL of the following criteria are met:"
   },
   {
    "case_id": "poc-1c4d453f27",
@@ -58,8 +59,8 @@
    "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-hip.pdf",
    "verdict": "vendor_but_criteria_found",
    "chars": 41336,
-   "n_criteria": 14,
-   "first_criterion": "Coverage Rationale Surgery of the hip and surgical treatment for Femoroacetabular Impingement (FAI) Syndrome is proven and medically necessary in certain circumstances.",
+   "n_criteria": 1,
+   "first_criterion": "At 12 months of follow-up, the arthroscopy group had a greater mean improvement in iHOT-33 score than the conservative treatment group (MD = 8.42, p = .002), but there was no difference between the gr",
    "detail": "vendor-held by the key, yet criteria were extracted -- read them: is the stratum wrong, or is the extractor picking up headers?"
   },
   {
@@ -69,7 +70,7 @@
    "cpt": "63030",
    "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15-updated-2026-01-01/",
    "verdict": "verified",
-   "chars": 120000,
+   "chars": 199080,
    "n_criteria": 14,
    "first_criterion": "laminotomy are considered medically necessary to treat the following conditions:"
   },
@@ -89,9 +90,9 @@
    "cpt": "23472",
    "policy_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
    "verdict": "verified",
-   "chars": 120000,
+   "chars": 400000,
    "n_criteria": 14,
-   "first_criterion": "16 *CONSERVATIVE TREATMENT ....................................................................................................................."
+   "first_criterion": "Shoulder Arthroplasty may be necessary when the following criteria are met :"
   },
   {
    "case_id": "poc-2fe0edcd1b",
@@ -100,8 +101,8 @@
    "cpt": "27130",
    "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/",
    "verdict": "verified",
-   "chars": 120000,
-   "n_criteria": 12,
+   "chars": 215841,
+   "n_criteria": 10,
    "first_criterion": "hip arthroplasty is considered medically necessary for ANY of the following indications:"
   },
   {
@@ -112,8 +113,8 @@
    "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-ankle.pdf",
    "verdict": "vendor_but_criteria_found",
    "chars": 22178,
-   "n_criteria": 9,
-   "first_criterion": "Coverage Rationale Surgery of the ankle is proven and medically necessary in certain circumstances.",
+   "n_criteria": 2,
+   "first_criterion": "All studies exhibited a high risk of bias in at least one domain, with 64% demonstrating a high risk across at least four domains.",
    "detail": "vendor-held by the key, yet criteria were extracted -- read them: is the stratum wrong, or is the extractor picking up headers?"
   },
   {
@@ -124,7 +125,7 @@
    "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2026-04/Cigna_CMM-314%20Hip%20Surg%20Arthro%20%26%20Open%20Proc_V1.0.2026_Eff08.04.2026_Pub04.20.2026.pdf",
    "verdict": "verified",
    "chars": 51284,
-   "n_criteria": 9,
+   "n_criteria": 4,
    "first_criterion": "femoroacetabular impingement (FAI) is considered medically necessary when ALL of the following criteria have been met:"
   },
   {
@@ -163,7 +164,7 @@
    "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2026-04/Cigna_CMM-313%20Hip%20Replace%20Arthro_V1.0.2026_Eff08.04.2026_Pub04.20.2026.pdf",
    "verdict": "verified",
    "chars": 62401,
-   "n_criteria": 14,
+   "n_criteria": 11,
    "first_criterion": "hip replacement is considered medically necessary for ANY of the following conditions when ALL of the associated criteria have been met:"
   },
   {
@@ -174,8 +175,8 @@
    "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-ankle.pdf",
    "verdict": "vendor_but_criteria_found",
    "chars": 22178,
-   "n_criteria": 9,
-   "first_criterion": "Coverage Rationale Surgery of the ankle is proven and medically necessary in certain circumstances.",
+   "n_criteria": 2,
+   "first_criterion": "All studies exhibited a high risk of bias in at least one domain, with 64% demonstrating a high risk across at least four domains.",
    "detail": "vendor-held by the key, yet criteria were extracted -- read them: is the stratum wrong, or is the extractor picking up headers?"
   },
   {
@@ -186,8 +187,8 @@
    "policy_url": "https://countycare.com/wp-content/uploads/ECG_2734.CC-for-Outpatient-Major-Joint-Arthroplasy-Hips-and-Knees-ver-Dec-25.pdf",
    "verdict": "verified",
    "chars": 22798,
-   "n_criteria": 6,
-   "first_criterion": "\u25cf Where a specific clinical indication is not directly addressed in this guideline, medical necessity determination will be made based on widely accepted standard of care criteria."
+   "n_criteria": 2,
+   "first_criterion": "Replacement/revision of previous arthroplasty Replacement/revision TKA or THA may be considered necessary as an inpatient procedure when the following criteria are met:"
   },
   {
    "case_id": "poc-5ba41ad17e",
@@ -196,7 +197,7 @@
    "cpt": "27446",
    "policy_url": "https://www.aetna.com/cpb/medical/data/600_699/0660.html",
    "verdict": "verified",
-   "chars": 120000,
+   "chars": 389603,
    "n_criteria": 14,
    "first_criterion": "unicompartmental knee arthroplasty (UKA) is indicated when only 1 compartment is affected, and total knee arthroplasty (TKA) is indicated when 2 or 3 compartments are affected."
   },
@@ -248,8 +249,8 @@
    "cpt": "29827",
    "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/",
    "verdict": "verified",
-   "chars": 120000,
-   "n_criteria": 14,
+   "chars": 215841,
+   "n_criteria": 11,
    "first_criterion": "Rotator cuff repair is considered medically necessary for an acute full thickness tear when ALL the following criteria are met:"
   },
   {
@@ -278,8 +279,8 @@
    "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf",
    "verdict": "vendor_but_criteria_found",
    "chars": 43556,
-   "n_criteria": 11,
-   "first_criterion": "Third, the inclusion criteria for the individual studies that were included in this review also varied.",
+   "n_criteria": 2,
+   "first_criterion": "Radiological evaluation indicated favorable MRI findings regarding filling of the defect and incorporation with adjacent cartilage at 24 months of follow-up, but conflicting evidence exists regarding ",
    "detail": "vendor-held by the key, yet criteria were extracted -- read them: is the stratum wrong, or is the extractor picking up headers?"
   },
   {
@@ -290,7 +291,7 @@
    "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2026-04/Cigna_CMM-311%20Knee%20Replac%20Arthro_V1.0.2026_Eff08.04.2026_Pub04.20.2026.pdf",
    "verdict": "verified",
    "chars": 66215,
-   "n_criteria": 12,
+   "n_criteria": 7,
    "first_criterion": "unicompartmental replacement is considered medically necessary when ALL of the following criteria have been met:"
   },
   {
@@ -301,7 +302,7 @@
    "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2026-04/Cigna_CMM-314%20Hip%20Surg%20Arthro%20%26%20Open%20Proc_V1.0.2026_Eff08.04.2026_Pub04.20.2026.pdf",
    "verdict": "verified",
    "chars": 51284,
-   "n_criteria": 9,
+   "n_criteria": 4,
    "first_criterion": "femoroacetabular impingement (FAI) is considered medically necessary when ALL of the following criteria have been met:"
   },
   {
@@ -332,7 +333,7 @@
    "policy_url": "https://www.bcbsnd.com/providers/policies-precertification/legacy-medical-policy/c/cervical-fusions",
    "verdict": "verified",
    "chars": 28777,
-   "n_criteria": 10,
+   "n_criteria": 9,
    "first_criterion": "ACDF) is considered medically necessary for treatment of symptomatic degenerative disease when ALL of the following criteria are met:"
   },
   {
@@ -343,8 +344,8 @@
    "policy_url": "https://www1.radmd.com/sites/default/files/2024-02/2023%20Knee%20Arthroscopy%20Clin%20Tip%20Sheet%20Evolent%2002282024.pdf",
    "verdict": "verified",
    "chars": 10142,
-   "n_criteria": 6,
-   "first_criterion": "The guidelines should be reviewed for additional requirements including duration of symptoms, physical examination, and radiographic criteria and for the complete listing of other procedures not inclu"
+   "n_criteria": 2,
+   "first_criterion": "(Evolent Guideline 316) 5\u2014 Knee Arthroscopy Clinical Tip Sheet \u2756 Lateral Release \u2022 Failure of at least 6 months of non-operative treatment, including quadriceps strengthening and appropriate hamstring"
   },
   {
    "case_id": "poc-9992a0803a",
@@ -363,7 +364,7 @@
    "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-shoulder.pdf",
    "verdict": "vendor_but_criteria_found",
    "chars": 29468,
-   "n_criteria": 9,
+   "n_criteria": 2,
    "first_criterion": "\u2265 age 40, magnetic resonance imaging (MRI) imaging showing a full-thickness massive rotator cuff tear measuring \u2265 5cm and involving \u2265 2 tendons within nine months of study enrollment, functional delto",
    "detail": "vendor-held by the key, yet criteria were extracted -- read them: is the stratum wrong, or is the extractor picking up headers?"
   },
@@ -387,7 +388,7 @@
    "policy_url": "https://static.cigna.com/assets/chcp/pdf/coveragePolicies/medical/mm_0285_coveragepositioncriteria_total_ankle_arthroplasty.pdf",
    "verdict": "verified",
    "chars": 42790,
-   "n_criteria": 14,
+   "n_criteria": 13,
    "first_criterion": "ankle arthroplasty is considered medically necessary for moderate to severe ankle pain secondary to failure of an implanted device (e.g., implant loosening, malpositioning, periprosthetic infection, p"
   },
   {
@@ -396,10 +397,9 @@
    "payer": "Avera Health Plans",
    "cpt": "28296",
    "policy_url": "https://help.coherehealth.com/payer-info/en/articles/13602157-avera-health-plan-commercial-guidelines",
-   "verdict": "verified",
+   "verdict": "criteria_absent",
    "chars": 19233,
-   "n_criteria": 3,
-   "first_criterion": "Commercial/Medicaid & Medicare Advantage Guidelines Review Criteria:"
+   "detail": "names the procedure, no criteria sentences extractable"
   },
   {
    "case_id": "poc-a5f6d22435",
@@ -409,8 +409,8 @@
    "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-08/EviCore_CMM-311%20Knee%20Replacement%20Arthroplasty_V2.0.2025_Eff11.05.2025_upd08.12.2025.pdf",
    "verdict": "verified",
    "chars": 60299,
-   "n_criteria": 14,
-   "first_criterion": "Knee Replacement/Arthroplasty \u00a92025 EviCore by EVERNORTH Page 4 of 32 730 Cool Springs Blvd, Franklin, TN 37067 (800) 918-8924 www.EviCore.com Comprehensive Musculoskeletal Management Guidelines V2.0."
+   "n_criteria": 11,
+   "first_criterion": "Knee Replacement/Arthroplasty \u00a92025 EviCore by EVERNORTH Page 8 of 32 730 Cool Springs Blvd, Franklin, TN 37067 (800) 918-8924 www.EviCore.com Comprehensive Musculoskeletal Management Guidelines V2.0."
   },
   {
    "case_id": "poc-aa9ea32e7d",
@@ -450,8 +450,8 @@
    "policy_url": "https://priorityhealth.stylelabs.cloud/api/public/content/5f005b3ee3044b68ad920d57974c2d68?v=785108c8",
    "verdict": "verified",
    "chars": 92777,
-   "n_criteria": 14,
-   "first_criterion": "Cervical Spine Fusion procedures are medically necessary according to TurningPoint criteria."
+   "n_criteria": 1,
+   "first_criterion": "Evidence to date demonstrates that total disc replacement (TDR) is at least as effective as ACDF in improving signs and symptoms associated with degenerative disease and improving quality of life (QOL"
   },
   {
    "case_id": "poc-bf385bb269",
@@ -487,8 +487,8 @@
    "cpt": "29914",
    "policy_url": "https://www.aetna.com/cpb/medical/data/700_799/0736.html",
    "verdict": "verified",
-   "chars": 120000,
-   "n_criteria": 12,
+   "chars": 310923,
+   "n_criteria": 6,
    "first_criterion": "Aetna considers pelvic osteotomy (e.g., peri-acetabular osteotomy (PAO)) medically necessary for a diagnosis of acetabular dysplasia (not borderline dysplasia) for persons who fulfill all of the follo"
   },
   {
@@ -530,9 +530,9 @@
    "cpt": "22612",
    "policy_url": "https://www1.radmd.com/sites/default/files/2025-07/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines%20-%20HMSA%20FINAL%20eff%20070125.pdf",
    "verdict": "verified",
-   "chars": 120000,
+   "chars": 301665,
    "n_criteria": 14,
-   "first_criterion": "Clinical criteria for single level fusion versus multiple level fusions are outlined under the indications section."
+   "first_criterion": "*Conservative Treatment Non-operative conservative treatment should include a multimodality approach consisting of at least one (1) active and one (1) inactive component targeting the affected spinal "
   },
   {
    "case_id": "poc-df42beb029",
@@ -541,7 +541,7 @@
    "cpt": "27446",
    "policy_url": "https://www.aetna.com/cpb/medical/data/600_699/0660.html",
    "verdict": "verified",
-   "chars": 120000,
+   "chars": 389603,
    "n_criteria": 14,
    "first_criterion": "unicompartmental knee arthroplasty (UKA) is indicated when only 1 compartment is affected, and total knee arthroplasty (TKA) is indicated when 2 or 3 compartments are affected."
   },
@@ -564,8 +564,8 @@
    "policy_url": "https://www1.radmd.com/sites/default/files/2024-02/2023%20Knee%20Arthroscopy%20Clin%20Tip%20Sheet%20Evolent%2002282024.pdf",
    "verdict": "verified",
    "chars": 10142,
-   "n_criteria": 6,
-   "first_criterion": "The guidelines should be reviewed for additional requirements including duration of symptoms, physical examination, and radiographic criteria and for the complete listing of other procedures not inclu"
+   "n_criteria": 2,
+   "first_criterion": "(Evolent Guideline 316) 5\u2014 Knee Arthroscopy Clinical Tip Sheet \u2756 Lateral Release \u2022 Failure of at least 6 months of non-operative treatment, including quadriceps strengthening and appropriate hamstring"
   },
   {
    "case_id": "poc-e6ef62d505",
@@ -575,8 +575,8 @@
    "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/spinal-fusion-decompression.pdf",
    "verdict": "vendor_but_criteria_found",
    "chars": 61896,
-   "n_criteria": 14,
-   "first_criterion": "Surgery may be an option for individuals whose pain cannot be controlled by more conservative methods (National Institute of Arthritis and Musculoskeletal and Skin Diseases, 2023).",
+   "n_criteria": 4,
+   "first_criterion": "A loss of structural support of the spine that leads to abnormal and increased movement between vertebrae outside of normal physiological limits, measured by the difference in translational alignment ",
    "detail": "vendor-held by the key, yet criteria were extracted -- read them: is the stratum wrong, or is the extractor picking up headers?"
   },
   {
@@ -587,7 +587,7 @@
    "policy_url": "https://www.ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf",
    "verdict": "verified",
    "chars": 21661,
-   "n_criteria": 14,
+   "n_criteria": 11,
    "first_criterion": "discectomy are medically necessary when meeting all of the following:"
   },
   {
@@ -597,8 +597,8 @@
    "cpt": "27446",
    "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/",
    "verdict": "verified",
-   "chars": 120000,
-   "n_criteria": 14,
+   "chars": 215841,
+   "n_criteria": 10,
    "first_criterion": "partial knee replacement (PKA) is considered medically necessary when ALL the following criteria are met:"
   },
   {
@@ -608,9 +608,9 @@
    "cpt": "23472",
    "policy_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
    "verdict": "verified",
-   "chars": 120000,
+   "chars": 400000,
    "n_criteria": 14,
-   "first_criterion": "16 *CONSERVATIVE TREATMENT ....................................................................................................................."
+   "first_criterion": "Shoulder Arthroplasty may be necessary when the following criteria are met :"
   },
   {
    "case_id": "poc-f4c641ed8b",
@@ -620,7 +620,7 @@
    "policy_url": "https://www.ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf",
    "verdict": "verified",
    "chars": 21661,
-   "n_criteria": 14,
+   "n_criteria": 11,
    "first_criterion": "discectomy are medically necessary when meeting all of the following:"
   },
   {
@@ -631,7 +631,7 @@
    "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2026-04/Cigna_CMM-606%20Lumbar%20Microdiscectomy_V1.0.2026_Eff08.04.2026_Pub04.30.2026.pdf",
    "verdict": "verified",
    "chars": 44007,
-   "n_criteria": 14,
+   "n_criteria": 10,
    "first_criterion": "\u25e6 The following criteria are NOT required for confirmed urgent/emergent conditions:"
   }
  ]

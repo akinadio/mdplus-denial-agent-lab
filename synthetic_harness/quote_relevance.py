@@ -61,8 +61,27 @@ ADMINISTRATIVE = re.compile(
     r"this policy does not|not a guarantee|consult the|for informational", re.I)
 BACKGROUND = re.compile(
     r"\bet al\b|\(\d{4}\)|systematic review|meta-analys|\bcochrane\b|"
-    r"National Institute|randomized (?:controlled )?trial|\bstudies (?:have|were|"
-    r"included|varied)\b|the authors\b|literature", re.I)
+    r"National Institute|randomi[sz]ed (?:controlled )?trial|\bstudies (?:have|were|"
+    r"included|varied|exhibited|showed|reported|demonstrated)\b|\ball studies\b|"
+    r"the authors\b|literature|"
+    # A policy's clinical-evidence section reads like a paper, because it is
+    # one. On 2026-09-20 find_criteria was returning "Of them, 113 participants
+    # (51.6%) in the arthroplasty group...", "At 12 months of follow-up the
+    # arthroscopy group had a greater mean improvement in iHOT-33 (MD = 8.42,
+    # p = ...)" and "All studies exhibited a high risk of bias" AS COVERAGE
+    # CRITERIA, because they contain duration and requirement words. A coverage
+    # rule states what a patient must show; it does not report a p-value, a
+    # between-group difference or a risk-of-bias assessment.
+    r"\bp\s*[=<>]\s*0?\.\d|\b(?:MD|SMD|WMD|OR|RR|HR)\s*=\s*[-\d]|"
+    r"\bparticipants?\b|\bsubjects\b|\bcohort\b|\brisk of bias\b|"
+    r"\bof follow-?up\b|\bmean (?:improvement|difference|change|score)\b|"
+    r"\b(?:intervention|control|treatment|comparison) group\b|"
+    r"\bconfidence interval\b|\b95% CI\b|\(range,|"
+    # A coverage rule is a standalone statement. Evidence prose continues a
+    # paragraph, so it opens with a connective: "however, a considerable number
+    # of the allografts failed, requiring repeat allografting (range, 11%-48%)".
+    r"^\W*(?:however|moreover|furthermore|conversely|in contrast|by contrast|"
+    r"of them|of these|overall|notably|similarly)\b", re.I)
 # The sentence that argues the insurer's side.
 EXCLUSION = re.compile(
     r"\b(?:is|are)\s+(?:considered\s+)?(?:unproven|investigational|experimental|"
