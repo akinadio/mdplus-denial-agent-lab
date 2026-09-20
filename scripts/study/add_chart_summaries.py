@@ -22,8 +22,10 @@ untouched.
 from __future__ import annotations
 
 import datetime
+import hashlib
 import json
 import random
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -126,12 +128,24 @@ def chart(case, rng) -> str:
 def main() -> int:
     p = STUDY / "cases.json"
     doc = json.loads(p.read_text())
-    rng = random.Random(SEED)
-    for c in sorted(doc["cases"], key=lambda x: x["case_id"]):   # deterministic
-        c["chart_summary"] = chart(c, rng)
-    doc["chart_summaries"] = "added 2026-09-05; used when drafting letters, not in retrieval"
+    # PER CASE, not one shared stream. A single seeded RNG walked in case_id
+    # order means adding one case reshuffles every chart after it -- which
+    # would silently invalidate every letter already drafted against the old
+    # charts. Seeding from the case_id makes each chart depend only on its own
+    # case, so the set can grow without disturbing what is already paid for.
+    regen = "--regenerate" in sys.argv
+    added = kept = 0
+    for c in sorted(doc["cases"], key=lambda x: x["case_id"]):
+        if c.get("chart_summary") and not regen:
+            kept += 1
+            continue
+        seed = int(hashlib.sha256((str(SEED) + "|" + c["case_id"]).encode())
+                   .hexdigest()[:12], 16)
+        c["chart_summary"] = chart(c, random.Random(seed))
+        added += 1
+    print(f"chart summary written for {added} case(s); {kept} left untouched")
+    doc["chart_summaries"] = "used when drafting letters, not during retrieval"
     p.write_text(json.dumps(doc, indent=1))
-    print(f"chart summary attached to {len(doc['cases'])} cases")
     print("\nexample:\n" + doc["cases"][0]["chart_summary"])
     return 0
 

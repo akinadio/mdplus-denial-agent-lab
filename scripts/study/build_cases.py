@@ -25,7 +25,7 @@ Writes:
   study/gold.json      what the grader sees.
 """
 from __future__ import annotations
-import csv, datetime, hashlib, json, random, re, sys
+import collections, csv, datetime, hashlib, json, random, re, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -158,9 +158,111 @@ def refresh_gold() -> None:
         print(f"  {cid}: {a} -> {b}")
 
 
+def extend(want: dict) -> None:
+    """Grow the case set without disturbing a single case already run.
+
+    The pilot's 60 cases cost 240 retrievals, 240 letters and 240 grades. They
+    are kept exactly as they are -- same case_id, same letter, same chart, so
+    every run id still resolves and nothing is re-bought. Only the shortfall in
+    each stratum is sampled, from rows no existing case uses.
+
+    Sizing came from the pilot's own discordance (docs/budget-2026-09.md): the
+    binding comparison is OrthoAppeals vs Gemini on criterion-grounded appeals,
+    which is measured only in stratum A, so stratum A is where the cases go.
+    """
+    doc = json.loads((OUT / "cases.json").read_text())
+    gold_doc = json.loads((OUT / "gold.json").read_text())
+    cases, gold = doc["cases"], gold_doc["entries"]
+    have = collections.Counter(c["stratum"] for c in cases)
+    used = {(c["state"], c["payer"], c["cpt"]) for c in cases}
+
+    with DIRECTORY.open(encoding="utf-8", newline="") as fh:
+        rows = [r for r in csv.DictReader(fh)
+                if r["insurance_company"] not in ("Medicare", "Medicaid")]
+    pools = {
+        "in_library": [r for r in rows if r["status"] in IN_LIB_STATUS and r["policy_url"].strip()],
+        "vendor_held": [r for r in rows if r["status"] in VENDOR_HELD_STATUS and r["policy_url"].strip()],
+        "no_policy": [r for r in rows if r["status"] in NO_POLICY_STATUS and r["note"].strip()],
+    }
+    # A separate stream from the pilot's, so the original sample is untouched.
+    rng = random.Random(SEED + 1)
+    added = 0
+    for stratum in ("in_library", "vendor_held", "no_policy"):
+        need = want.get(stratum, 0) - have[stratum]
+        if need <= 0:
+            continue
+        pool = [r for r in pools[stratum]
+                if (r["state"], r["insurance_company"], r["cpt"]) not in used]
+        pool.sort(key=lambda r: (r["state"], r["insurance_company"], r["cpt"]))
+        # Cigna and Aetna are 46% of the stratum A pool; without a cap they
+        # would be most of the sample and the payer mix would stop resembling
+        # the market a patient meets.
+        cap = max(4, need // 8)
+        picked = _pick(pool, need, rng, cap)
+        if len(picked) < need:
+            raise SystemExit(f"{stratum}: only {len(picked)} unused rows for {need}")
+        for i, r in enumerate(picked):
+            seed_str = "|".join([str(SEED + 1), stratum, str(i), r["state"],
+                                 r["insurance_company"], r["cpt"]])
+            cid = "poc-" + hashlib.sha256(seed_str.encode()).hexdigest()[:10]
+            reason_key, reason_text = DENIAL_REASONS[len(cases) % 4]
+            dd = STUDY_DATE - datetime.timedelta(days=rng.randint(5, 30))
+            dl = dd + datetime.timedelta(days=180)
+            ref = f"{cid.upper()}-{rng.randint(10000,99999)}"
+            cases.append({
+                "case_id": cid, "stratum": stratum,
+                "state": r["state"], "payer": r["insurance_company"],
+                "plan_type": r["plan_type"], "surgery": r["surgery"],
+                "cpt": r["cpt"], "denial_reason": reason_key,
+                "denial_date": dd.isoformat(), "appeal_deadline": dl.isoformat(),
+                "letter_text": _letter(rng, r, reason_text, dd, dl, ref),
+            })
+            g = {"case_id": cid, "stratum": stratum, "state": r["state"],
+                 "payer": r["insurance_company"], "cpt": r["cpt"],
+                 "directory_status": r["status"], "directory_note": r["note"]}
+            if stratum == "in_library":
+                g.update({"correct_behavior": "cite_document",
+                          "policy_title": r["policy_title"], "policy_url": r["policy_url"],
+                          "effective_date": r["effective_date"]})
+            elif stratum == "vendor_held":
+                g.update({"correct_behavior": "cite_and_route",
+                          "vendor": _vendor_from_note(r["note"]),
+                          "policy_title": r["policy_title"], "policy_url": r["policy_url"],
+                          "effective_date": r["effective_date"],
+                          "why_criteria_withheld": r["note"][:400]})
+            else:
+                g.update({"correct_behavior": "abstain_and_route",
+                          "vendor": _vendor_from_note(r["note"]),
+                          "policy_url": "", "policy_title": "",
+                          "why_no_public_policy": r["note"][:400]})
+            gold.append(g)
+            used.add((r["state"], r["insurance_company"], r["cpt"]))
+            added += 1
+
+    doc["strata"] = want
+    (OUT / "cases.json").write_text(json.dumps(doc, indent=1), encoding="utf-8")
+    gold_doc["entries"] = gold
+    (OUT / "gold.json").write_text(json.dumps(gold_doc, indent=1), encoding="utf-8")
+    print(f"added {added} cases; {len(cases)} total")
+    print(" strata:", dict(collections.Counter(c["stratum"] for c in cases)))
+    print(" payers:", len({c["payer"] for c in cases}),
+          " states:", len({c["state"] for c in cases}),
+          " procedures:", len({c["cpt"] for c in cases}))
+    print(" top payers:", collections.Counter(c["payer"] for c in cases).most_common(5))
+    print("\nNext: python3 scripts/study/add_chart_summaries.py")
+
+
 def main() -> None:
     if "--refresh-gold" in sys.argv:
         refresh_gold()
+        return
+    if "--extend" in sys.argv:
+        a = sys.argv
+        want = dict(WANT)
+        for k in ("in-library", "vendor-held", "no-policy"):
+            if "--" + k in a:
+                want[k.replace("-", "_")] = int(a[a.index("--" + k) + 1])
+        extend(want)
         return
     rng = random.Random(SEED)
     with DIRECTORY.open(encoding="utf-8", newline="") as fh:
