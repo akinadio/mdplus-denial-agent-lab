@@ -13,7 +13,12 @@ under the index URL plus a #fragment naming the guideline: citing the index
 page still matches (fragments are ignored when URLs are compared), and the
 text behind that address is the guideline itself.
 
-  python3 scripts/policy_platform/load_manual_docs.py
+  python3 scripts/policy_platform/load_manual_docs.py --download   # fetch them itself
+  python3 scripts/policy_platform/load_manual_docs.py              # use files already there
+
+--download reads the index page, finds each guideline's attachment link and
+saves the PDF. The links are signed and expire, so they are read fresh from
+the page every time rather than stored.
 """
 from __future__ import annotations
 
@@ -44,7 +49,41 @@ def pdf_text(p: Path) -> str:
     return "\n".join((pg.extract_text() or "") for pg in PdfReader(str(p)).pages)
 
 
+def download() -> None:
+    """Find each guideline's link on the index page and save the PDF."""
+    import html
+    import re
+    import urllib.parse
+    import requests
+    ua = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 "
+                        "(KHTML, like Gecko) Chrome/126 Safari/537.36"}
+    page = requests.get(AVERA, headers=ua, timeout=60)
+    print(f"  index page: HTTP {page.status_code}, {len(page.text):,} characters")
+    page.raise_for_status()
+    links = [html.unescape(h) for h in re.findall(r'href="([^"]+)"', page.text)]
+    DOCS.mkdir(parents=True, exist_ok=True)
+    for words, frag, *_ in MANIFEST:
+        cands = [h for h in links
+                 if ".pdf" in h.lower()
+                 and all(w in urllib.parse.unquote(h).lower() for w in words)]
+        if not cands:
+            print(f"  no link on the page matching {' + '.join(words)}")
+            continue
+        r = requests.get(cands[0], headers=ua, timeout=120)
+        ok = r.status_code == 200 and r.content[:4] == b"%PDF"
+        name = f"avera-{frag}.pdf"
+        if ok:
+            (DOCS / name).write_bytes(r.content)
+        print(f"  {name}: HTTP {r.status_code}, {len(r.content):,} bytes"
+              f"{'' if ok else '  -- NOT a PDF, not saved'}")
+
+
 def main() -> int:
+    if "--download" in sys.argv:
+        try:
+            download()
+        except Exception as e:  # noqa: BLE001
+            print(f"  download failed: {type(e).__name__}: {e}")
     files = [p for p in DOCS.glob("*.pdf")]
     gold_path = ROOT / "study" / "gold.json"
     gold = json.loads(gold_path.read_text())
