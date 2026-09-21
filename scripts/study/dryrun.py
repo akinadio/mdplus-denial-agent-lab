@@ -315,6 +315,17 @@ def stage_letters(cases, gold):
     check("Conservative care" in prompt, "grader is given the same chart the writer had")
     pk = G._prompt(c, gold[c["case_id"]], "a letter", packet="Governing policy given to the writer: X")
     check("EVIDENCE THE WRITER WAS GIVEN" in pk, "grader is told what evidence the writer had")
+    # Each operation's chart describes ITS disease (2026-09-21: a labral repair
+    # and a shoulder replacement both carried a rotator cuff tear, a total knee
+    # carried isolated medial disease, a lumbar fusion a plain disc extrusion).
+    _wrong = {"29806": ("supraspinatus",), "23472": ("supraspinatus",),
+              "22612": ("disc extrusion",), "27447": ("in the medial compartment with",)}
+    _need = {"29806": "labral tear", "23472": "glenohumeral joint space",
+             "22612": "spondylolisthesis", "27447": "patellofemoral"}
+    _bad = [x["case_id"] for x in cases if x["cpt"] in _wrong and (
+        any(w in x["chart_summary"] for w in _wrong[x["cpt"]])
+        or _need[x["cpt"]] not in x["chart_summary"])]
+    check(not _bad, "each operation's chart describes that operation's disease", str(_bad[:4]))
     scope = next((x for x in cases if x["cpt"] in ("29881", "29888", "29914")), None)
     if scope:
         check("grade 4" not in scope["chart_summary"] and "1 mm" not in scope["chart_summary"],

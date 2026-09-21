@@ -47,6 +47,16 @@ PT = {
     "cervical": "supervised physical therapy including cervical traction and postural training",
     "ankle": "supervised physical therapy focused on ankle strengthening and balance",
     "foot": "activity modification, wide toe-box footwear and a custom orthotic",
+    # 2026-09-21: the three profiles below replace charts that described the
+    # WRONG disease for the operation (see JOINT).
+    "shoulder_instability": ("supervised physical therapy focused on rotator cuff and "
+                             "scapular stabilizer strengthening with activity modification"),
+    "shoulder_oa": ("supervised physical therapy focused on range of motion and "
+                    "periscapular strengthening"),
+    "knee_tka": ("supervised physical therapy focused on quadriceps strengthening and "
+                 "range of motion"),
+    "spine_fusion": ("supervised physical therapy including core stabilization and lumbar "
+                     "flexibility"),
 }
 IMAGING = {
     "knee": ("MRI of the knee: full-thickness cartilage loss in the medial compartment "
@@ -73,14 +83,37 @@ IMAGING = {
               "with subchondral cysts"),
     "foot": ("Weight-bearing foot radiographs: hallux valgus angle 38 degrees, "
              "intermetatarsal angle 17 degrees"),
+    "shoulder_instability": ("MR arthrogram of the shoulder: anteroinferior labral tear "
+                             "(Bankart lesion) with a small Hill-Sachs lesion; glenoid bone "
+                             "loss under 10 percent; rotator cuff intact"),
+    "shoulder_oa": ("Shoulder radiographs (true AP and axillary): complete loss of "
+                    "glenohumeral joint space with osteophytes, subchondral sclerosis and "
+                    "a flattened glenoid; CT confirms an intact rotator cuff"),
+    "knee_tka": ("Weight-bearing knee radiographs: bone-on-bone apposition in the medial "
+                 "and patellofemoral compartments with lateral joint-space narrowing; "
+                 "Kellgren-Lawrence grade 4"),
+    "spine_fusion": ("MRI lumbar spine and flexion-extension radiographs: grade I "
+                     "degenerative spondylolisthesis at L4-L5 with 5 mm of translation "
+                     "on flexion-extension and severe central stenosis compressing the "
+                     "cauda equina"),
 }
+# Until 2026-09-21 four operations shared another operation's chart, and the
+# smoke test's grader caught it: a labral REPAIR (29806) and a total shoulder
+# REPLACEMENT (23472) both carried a rotator cuff tear -- for TSA an intact cuff
+# is a requirement; a total knee (27447) carried isolated medial disease, which
+# is the indication for a PARTIAL knee; and a lumbar fusion (22612) carried a
+# plain disc extrusion, which is a decompression indication with nothing to
+# fuse. Every arm wrote against the same wrong chart, so no arm was favoured,
+# but a letter cannot be graded fairly against a chart that argues for a
+# different operation.
 JOINT = {
-    "27447": "knee", "27446": "knee", "29881": "knee_scope", "29888": "knee_acl",
+    "27447": "knee_tka", "27446": "knee", "29881": "knee_scope", "29888": "knee_acl",
     "27130": "hip", "29914": "hip_scope",
-    "23472": "shoulder", "29827": "shoulder", "29806": "shoulder",
-    "22551": "cervical", "22612": "spine", "63030": "spine",
+    "23472": "shoulder_oa", "29827": "shoulder", "29806": "shoulder_instability",
+    "22551": "cervical", "22612": "spine_fusion", "63030": "spine",
     "27702": "ankle", "28296": "foot",
 }
+REGENERATED_2026_09_21 = {"27447", "23472", "29806", "22612"}
 FUNCTION = {
     "knee": "cannot climb stairs without assistance and wakes 3-4 times nightly with pain",
     "knee_scope": "experiences locking and giving way; cannot squat or kneel; limited to level walking",
@@ -92,6 +125,34 @@ FUNCTION = {
     "cervical": "radicular pain and numbness into the right thumb and index finger with weakness",
     "ankle": "ambulates with an antalgic gait, limited to two blocks",
     "foot": "cannot tolerate closed shoes; ulceration risk over the prominence",
+    "shoulder_instability": ("has had three anterior dislocations since symptoms began, the last "
+                             "reduced in the emergency department; avoids overhead reaching "
+                             "and cannot return to work lifting"),
+    "shoulder_oa": "cannot reach overhead, dress without help, or sleep on the affected side",
+    "knee_tka": "cannot climb stairs without assistance and wakes 3-4 times nightly with pain",
+    "spine_fusion": ("cannot stand or walk more than 10 minutes before leg pain and "
+                     "heaviness force a stop; relieved by sitting"),
+}
+# Only for the regenerated profiles; the other charts keep their original
+# wording byte for byte so letters already drafted against them stay valid.
+SYMPTOM = {
+    "shoulder_instability": "recurrent episodes of shoulder instability with apprehension",
+    "shoulder_oa": "progressive pain in the shoulder, unrelieved by rest",
+    "knee_tka": "progressive pain in the knee, unrelieved by rest",
+    "spine_fusion": "progressive pain in the lower back and legs, unrelieved by rest",
+}
+EXAM = {
+    "shoulder_instability": ("positive apprehension and relocation tests; increased anterior "
+                             "translation on load-and-shift; full strength"),
+    "shoulder_oa": ("glenohumeral crepitus; active forward elevation limited to 90 degrees "
+                    "and external rotation to 10 degrees; cuff strength intact"),
+    "knee_tka": "varus alignment, crepitus and effusion; range of motion 5 to 100 degrees",
+    "spine_fusion": ("neurogenic claudication; diminished sensation in both L5 dermatomes; "
+                     "no bowel or bladder dysfunction"),
+}
+MEDS = {
+    # an injection does nothing for a dislocating shoulder; it is not charted
+    "shoulder_instability": "NSAIDs for {m} months during flares; no injection (not indicated for instability)",
 }
 
 
@@ -104,21 +165,28 @@ def chart(case, rng) -> str:
     inj = pt_end - datetime.timedelta(days=rng.randint(30, 90))
     img = dd - datetime.timedelta(days=rng.randint(25, 75))
     months = rng.choice([9, 12, 14, 18, 24])
+    sym = SYMPTOM.get(j) or (
+        "progressive pain in the "
+        f"{'lower back' if j == 'spine' else 'neck' if j == 'cervical' else j.split('_')[0]}, "
+        "unrelieved by rest")
+    visits = rng.choice([16, 18, 20, 24])     # draw order kept: see test in main()
+    med_m, inj_w = rng.choice([4, 6, 8]), rng.choice([2, 3, 4])
+    meds = (MEDS[j].format(m=med_m) if j in MEDS else
+            f"NSAIDs for {med_m} months with inadequate relief; "
+            f"corticosteroid injection {inj.isoformat()} giving {inj_w} weeks "
+            "of partial relief")
+    exam = EXAM.get(j) or ("positive provocative testing on the affected side; "
+                           f"{'neurologic deficit corresponding to the imaged level' if j in ('spine','cervical') else 'range of motion limited by pain'}")
     return "\n".join([
         "CLINICAL SUMMARY (from the prior authorization packet)",
-        f"- Symptom duration: {months} months of progressive pain in the "
-        f"{'lower back' if j == 'spine' else 'neck' if j == 'cervical' else j.split('_')[0]}, "
-        "unrelieved by rest.",
+        f"- Symptom duration: {months} months of {sym}.",
         f"- Conservative care: {PT[j]}, {weeks} weeks, "
-        f"{pt_start.isoformat()} to {pt_end.isoformat()}, {rng.choice([16,18,20,24])} "
+        f"{pt_start.isoformat()} to {pt_end.isoformat()}, {visits} "
         "visits completed. Documented in the physical therapy discharge note.",
-        f"- Medication: NSAIDs for {rng.choice([4,6,8])} months with inadequate relief; "
-        f"corticosteroid injection {inj.isoformat()} giving {rng.choice([2,3,4])} weeks "
-        "of partial relief.",
+        f"- Medication: {meds}.",
         f"- Imaging {img.isoformat()}: {IMAGING[j]}.",
         f"- Function: patient {FUNCTION[j]}.",
-        f"- Exam: positive provocative testing on the affected side; "
-        f"{'neurologic deficit corresponding to the imaged level' if j in ('spine','cervical') else 'range of motion limited by pain'}.",
+        f"- Exam: {exam}.",
         "- No active infection, no untreated substance use, BMI 29, non-smoker.",
         f"- Surgeon: {rng.choice(['Reyes','Okafor','Lindqvist','Marchetti','Duval'])}, MD, "
         "orthopedic surgery.",
@@ -134,8 +202,13 @@ def main() -> int:
     # charts. Seeding from the case_id makes each chart depend only on its own
     # case, so the set can grow without disturbing what is already paid for.
     regen = "--regenerate" in sys.argv
+    fix_wrong = "--fix-wrong-disease" in sys.argv
     added = kept = 0
     for c in sorted(doc["cases"], key=lambda x: x["case_id"]):
+        if fix_wrong and c["cpt"] in REGENERATED_2026_09_21 and not c.get("chart_regenerated"):
+            c["chart_summary_before_2026_09_21"] = c.get("chart_summary", "")
+            c["chart_regenerated"] = "2026-09-21: chart described another operation's disease"
+            c["chart_summary"] = ""
         if c.get("chart_summary") and not regen:
             kept += 1
             continue
