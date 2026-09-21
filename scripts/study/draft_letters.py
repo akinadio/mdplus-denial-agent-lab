@@ -187,6 +187,10 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--systems", default="all")
     ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--cases", default="",
+                    help="comma-separated case_ids: draft only these, every arm. "
+                         "For a smoke test before the full batch -- --limit takes "
+                         "the first N in key order, which can land on one arm.")
     ap.add_argument("--resume", action="store_true")
     ap.add_argument("--workers", type=int, default=1,
                     help="letters to draft at once (default 1).")
@@ -198,6 +202,12 @@ def main() -> int:
     key = json.loads((STUDY / "unblinding.json").read_text())
 
     todo = _pending(key, systems, a.resume)
+    if a.cases:
+        want = {c.strip() for c in a.cases.split(",") if c.strip()}
+        unknown = want - set(cases)
+        if unknown:
+            print(f"unknown case_id(s): {sorted(unknown)}"); return 1
+        todo = [r for r in todo if key[r]["case_id"] in want]
     if a.limit:
         todo = todo[:a.limit]
     spend.banner("letters", len(todo), "claude-sonnet-5 / gpt-5.6-luna", 6000, 1500)

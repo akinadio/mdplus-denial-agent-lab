@@ -262,7 +262,12 @@ def main() -> int:
         return rescore()
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=0)
-    ap.add_argument("--resume", action="store_true")
+    ap.add_argument("--cases", default="",
+                    help="comma-separated case_ids: grade only letters for these.")
+    ap.add_argument("--resume", action="store_true",
+                    help="kept for compatibility; existing grades are always kept")
+    ap.add_argument("--fresh", action="store_true",
+                    help="discard every existing grade and regrade from scratch")
     ap.add_argument("--workers", type=int, default=1,
                     help="letters to grade at once (default 1).")
     a = ap.parse_args()
@@ -277,12 +282,30 @@ def main() -> int:
     cases = {c["case_id"]: c for c in json.loads((STUDY / "cases.json").read_text())["cases"]}
     gold = {g["case_id"]: g for g in json.loads((STUDY / "gold.json").read_text())["entries"]}
     out_path = STUDY / "letter_grades.json"
-    grades = json.loads(out_path.read_text()) if (a.resume and out_path.exists()) else {}
+    # Without --resume this used to start from {} and write that back after the
+    # first grade -- one forgotten flag wiped every paid grade on disk. Keeping
+    # existing grades is now the default; starting over has to be asked for.
+    if "--fresh" in sys.argv:
+        grades = {}
+    else:
+        grades = json.loads(out_path.read_text()) if out_path.exists() else {}
 
     rids = sorted(p.parent.name for p in RUNS.glob("r-*/letter.json"))
     random.Random(SEED).shuffle(rids)   # ordering must carry no signal either
     # A grader_error is not a grade. Retry it.
     todo = [r for r in rids if grades.get(r, {}).get("outcome") not in ("graded", "no_letter")]
+    if a.cases:
+        want = {c.strip() for c in a.cases.split(",") if c.strip()}
+        unknown = want - set(cases)
+        if unknown:
+            print(f"unknown case_id(s): {sorted(unknown)}"); return 1
+        cid = {}
+        for r in todo:
+            try:
+                cid[r] = json.loads((RUNS / r / "result.json").read_text()).get("case_id")
+            except (OSError, ValueError):
+                cid[r] = None
+        todo = [r for r in todo if cid[r] in want]
     if a.limit:
         todo = todo[:a.limit]
     spend.banner("grading", len(todo), GRADER_MODEL, 5000, 600)
