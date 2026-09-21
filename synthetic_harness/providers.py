@@ -657,6 +657,12 @@ class GoogleProvider:
             usage["cache_read_input_tokens"] = (
                 usage.get("cache_read_input_tokens", 0) + cached)
             usage["output_tokens"] += getattr(u, "candidates_token_count", 0) or 0
+            # Gemini 3.5 thinks before every answer and bills the thinking as
+            # OUTPUT. candidates_token_count is only the visible reply;
+            # thoughts_token_count is the rest, and until 2026-09-21 it was
+            # never added -- so every Gemini turn was under-billed by however
+            # much it thought, across 40-tool-call retrievals.
+            usage["output_tokens"] += getattr(u, "thoughts_token_count", 0) or 0
 
     @staticmethod
     def _parts(resp: Any):

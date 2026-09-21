@@ -354,11 +354,20 @@ def run_llm(system, case, out_dir):
     runner = _ToolRunner(out_dir / "tools.jsonl", case["case_id"])
     usage = {"input_tokens": 0, "output_tokens": 0}
     t0 = time.time()
-    text, transcript, stop = prov.run(
-        client=client, model=model, system=SYSTEM_PROMPT,
-        prompt=case["letter_text"] + "\n\n---\n\n" + INSTRUCTION,
-        tool_call=_guarded(runner.call), deadline=t0 + 900, usage=usage,
-        max_iters=MAX_TOOL_ITERATIONS, max_tokens=MAX_OUTPUT_TOKENS)
+    try:
+        text, transcript, stop = prov.run(
+            client=client, model=model, system=SYSTEM_PROMPT,
+            prompt=case["letter_text"] + "\n\n---\n\n" + INSTRUCTION,
+            tool_call=_guarded(runner.call), deadline=t0 + 900, usage=usage,
+            max_iters=MAX_TOOL_ITERATIONS, max_tokens=MAX_OUTPUT_TOKENS)
+    except BaseException:
+        # A run that dies on its 30th turn -- tool budget, a 429 that outlived
+        # its retries, Ctrl-C -- has already paid for 29 turns. Until
+        # 2026-09-21 that money went on no ledger at all: usage was only
+        # recorded after a run RETURNED. Record what was spent, then re-raise.
+        if usage.get("input_tokens") or usage.get("output_tokens"):
+            spend.record("retrieve", model, usage, case["case_id"] + " (aborted)")
+        raise
     usd = spend.cost(model, usage)
     spend.record("retrieve", model, usage, case["case_id"])
     answer = extract_json(text) or {}
