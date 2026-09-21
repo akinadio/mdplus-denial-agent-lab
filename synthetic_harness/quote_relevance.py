@@ -138,7 +138,10 @@ PROCEDURE_FAMILY_TERMS: dict[str, list[str]] = {
     "shoulder_instability": ["capsulorrhaphy", "bankart", "shoulder dislocation",
                              "glenohumeral instability", "recurrent subluxation",
                              "slap lesion", "labral tear of the shoulder"],
-    "cervical": ["cervical", "myelopathy", "acdf"],
+    # Not "myelopathy": cord compression is a criterion in lumbar and thoracic
+    # sections too, and Aetna's lumbar laminectomy rule lists it -- it was
+    # dropping a real lumbar criterion as "cervical".
+    "cervical": ["cervical", "acdf"],
     "lumbar_fusion": ["lumbar fusion", "lumbar arthrodesis", "lumbar spinal fusion",
                       "spondylolisthesis", "pseudarthrosis"],
     "lumbar_decompression": ["laminectomy", "laminotomy", "discectomy",
@@ -179,7 +182,7 @@ _REGIONS: dict[str, re.Pattern] = {k: re.compile(v, re.I) for k, v in {
     "knee": r"\b(knees?|patell\w*|menisc\w*|tibiofemoral|cruciate)\b",
     "ankle": r"\b(ankles?|tibiotalar|talar)\b",
     "foot": r"\b(hallux|bunion\w*|metatars\w*|foot|feet)\b",
-    "cervical": r"\b(cervical|acdf|myelopathy)\b",
+    "cervical": r"\b(cervical|acdf)\b",
     "thoracic": r"\bthoracic\b",
     "lumbar": r"\b(lumbar|lumbosacral|sciatica)\b",
 }.items()}

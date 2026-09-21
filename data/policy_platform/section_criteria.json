@@ -2,8 +2,248 @@
  "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/||29806": {
   "url": "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/",
   "cpt": "29806",
-  "covered": null,
-  "criteria": [],
-  "error": "AuthenticationError: Unauthorized"
+  "covered": true,
+  "section_heading": "Chronic shoulder instability or laxity Capsulorrhaphy is considered medically necessary when ALL the following criteria are met:",
+  "heading_verified": true,
+  "criteria": [
+   {
+    "text": "History of a shoulder dislocation or recurrent subluxation",
+    "topic": "clinical"
+   },
+   {
+    "text": "Shoulder pain and/or instability which interferes with age-appropriate activities of daily living",
+    "topic": "clinical"
+   },
+   {
+    "text": "Physical exam consistent with symptomatic glenohumeral instability (e.g., apprehension, relocation, load and shift)",
+    "topic": "clinical"
+   },
+   {
+    "text": "MRI demonstrates at least ONE of the following: A labral lesion consistent with the clinical instability Hill-Sachs lesion Capsular tear Capsular redundancy with clinical multidirectional instability",
+    "topic": "imaging"
+   },
+   {
+    "text": "Failure of at least 12 weeks of conservative management (unless history of traumatic dislocation and multiple dislocations during management)*",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "*For traumatic instability, early surgery may be considered for individuals with large bone defects or individuals under age 35.",
+    "topic": "other"
+   },
+   {
+    "text": "Documentation supporting medical necessity and a clearly stated plan of care should be submitted at the time of the request and must include the following components:",
+    "topic": "documentation"
+   },
+   {
+    "text": "Imaging report . The provider shall submit a detailed imaging report for studies obtained within the past 12 months. In the absence of a detailed report, the provider may submit a report from an independent radiologist.",
+    "topic": "imaging"
+   },
+   {
+    "text": "Conservative management 1 must include a combination of strategies to reduce inflammation, alleviate pain, and correct underlying dysfunction, including physical therapy AND at least ONE complementary conservative treatment strategy.",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "Failure of conservative management requires ALL the following: Patient has completed a full course of conservative management (as defined above) for the current episode of care Worsening of or no significant improvement in signs and/or symptoms upon clinical reevaluation More invasive forms of therapy are being considered",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "Documentation of compliance with a plan of therapy that includes elements from these areas is required where conservative management is appropriate.",
+    "topic": "documentation"
+   },
+   {
+    "text": "Reporting symptom severity – Severity of pain and its associated impact on activities of daily living (ADLs) and instrumental ADLs (IADLs) are key factors in determining the need for intervention. For purposes of this guideline, significant pain and functional impairment refer to pain rated at least 3 out of 10 in intensity and associated with inability to perform ADLs and/or IADLs.",
+    "topic": "clinical"
+   },
+   {
+    "text": "Clinical reevaluation – In most cases, reevaluation should include a physical examination. Direct contact by other methods, such as telephone communication or electronic messaging, may substitute for in-person evaluation when circumstances preclude an office visit.",
+    "topic": "documentation"
+   }
+  ],
+  "dropped_not_in_document": [],
+  "dropped_other_operation": [],
+  "why_not": "",
+  "doc_chars": 215841,
+  "doc_truncated_for_model": false,
+  "model": "claude-opus-5",
+  "usage": {
+   "input_tokens": 55,
+   "output_tokens": 2315,
+   "cache_creation_input_tokens": 80266,
+   "cache_read_input_tokens": 0
+  },
+  "extracted_at": "2026-09-21 10:31:34",
+  "stop_reason": "end_turn",
+  "error": "",
+  "usd": 0.5598
+ },
+ "https://www.aetna.com/cpb/medical/data/700_799/0743.html||63030": {
+  "url": "https://www.aetna.com/cpb/medical/data/700_799/0743.html",
+  "cpt": "63030",
+  "covered": true,
+  "section_heading": "Lumbar laminectomy for individuals with a herniated disc when all of the following criteria are met (see also Additional Notes section):",
+  "heading_verified": true,
+  "criteria": [
+   {
+    "text": "All other reasonable sources of pain and/or neurological deficit have been ruled out, including but not limited to significant pathology at other spinal level(s) on the advanced imaging radiology report that is/are not part of the surgical request resulting in incomplete surgical planning",
+    "topic": "clinical"
+   },
+   {
+    "text": "Advanced imaging studies (CT or MRI) indicate central/lateral recess or foraminal stenosis (graded as moderate, moderate to severe or severe; not mild or mild to moderate), or nerve root or spinal cord compression, at the level corresponding with the clinical findings",
+    "topic": "imaging"
+   },
+   {
+    "text": "Member has failed at least 6 weeks of conservative therapy Footnote1 * (unless there are indications for waiver of requirements for conservative management, noted below)",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "Member's activities of daily living are limited by symptoms of neural compression",
+    "topic": "clinical"
+   },
+   {
+    "text": "Conservative measures must be recent (within the past year) and include the following non-surgical measures and medications unless one or more of the requirements for waiver below are met: patient education; active physical therapy (in-person as opposed to home or virtual physical therapy); medications (NSAIDS, acetaminophen, or tricyclic antidepressants), and (where appropriate) identification and management of associated anxiety and depression.",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "The member should participate in physical therapy for the entire required duration of conservative management (six weeks or three months, depending upon the indication for surgery). Physical therapy needs to be confirmed either by the actual PT notes, or by documentation in the member claims history.",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "The requirement for a trial of conservative measures may be waived in the following situations indicating need for urgent intervention: Spinal cord compression (this does not include nerve root compression); Stenosis causing cauda equina syndrome;",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "Stenosis causing severe weakness of the muscle(s) innervated by nerves at the requested surgical level(s) as documented by the requesting surgeon (graded 4 minus or less on MRC scale (see Appendix )",
+    "topic": "clinical"
+   },
+   {
+    "text": "Progressive neurological deficit on serial examinations by the same surgeon examiner",
+    "topic": "clinical"
+   },
+   {
+    "text": "For elective laminectomy (cervical, lumbar, and thoracic), if member is diabetic, their HbA1c should be less than 8 percent within 3 months prior to surgery, unless there is an indication (e.g., myelopathy, cauda equina syndrome), severe weakness (graded 4 minus or less on MRC scale) or progressive weakness, or an associated infection/tumor and/or acute fracture.",
+    "topic": "documentation"
+   },
+   {
+    "text": "Medical records must document that a physical examination, including a neurologic examination, has been performed by or reviewed by the operating surgeon.",
+    "topic": "documentation"
+   },
+   {
+    "text": "Advanced imaging studies are required prior to any spinal surgery. The imaging should be performed within the past year, or after the onset of the current constellation of symptoms or any relevant surgical procedures, whichever is sooner.",
+    "topic": "imaging"
+   },
+   {
+    "text": "Member has signs or symptoms of neural compression (radiculopathy, neurogenic extremity claudication, myelopathy) associated with the levels being treated",
+    "topic": "other"
+   }
+  ],
+  "dropped_not_in_document": [],
+  "dropped_other_operation": [],
+  "why_not": "",
+  "doc_chars": 120000,
+  "doc_truncated_for_model": false,
+  "model": "claude-opus-5",
+  "usage": {
+   "input_tokens": 50,
+   "output_tokens": 2723,
+   "cache_creation_input_tokens": 45362,
+   "cache_read_input_tokens": 0
+  },
+  "extracted_at": "2026-09-21 10:31:38",
+  "stop_reason": "end_turn",
+  "error": "",
+  "usd": 0.3518
+ },
+ "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf||29806": {
+  "url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+  "cpt": "29806",
+  "covered": true,
+  "section_heading": "Labral Repairs",
+  "heading_verified": false,
+  "criteria": [
+   {
+    "text": "History of an acute event of instability (subluxation or dislocation) or acute onset of pain following activity",
+    "topic": "clinical"
+   },
+   {
+    "text": "Clinical exam findings demonstrate positive apprehension test, positive relocation test, positive labral grind test, or objective laxity with pain",
+    "topic": "clinical"
+   },
+   {
+    "text": "Range of motion is not limited by stiffness upon physical exam (PE is not required if there has been a recent episode of instability)",
+    "topic": "clinical"
+   },
+   {
+    "text": "Labral tear/Bankart lesion on MRI or CT imaging",
+    "topic": "imaging"
+   },
+   {
+    "text": "Recurrent instability (two or more episodes of subluxation or dislocation)",
+    "topic": "clinical"
+   },
+   {
+    "text": "MRI evidence of a labral tear with or without bony Bankart fracture of the glenoid. Cases with a history of frank anterior dislocations without MRI evidence of a labrum tear will be reviewed on a case-by-case basis.",
+    "topic": "imaging"
+   },
+   {
+    "text": "Symptoms of pain, catching/popping, or instability",
+    "topic": "clinical"
+   },
+   {
+    "text": "MRI findings of posterior labral tear",
+    "topic": "imaging"
+   },
+   {
+    "text": "Exam findings demonstrate positive load-and-shift test, jerk test, glenohumeral grind test, or objective laxity with pain or profound weakness",
+    "topic": "clinical"
+   },
+   {
+    "text": "Failure of at least 12 weeks of non-operative treatment (unless presenting as a traumatic tear in a competitive athlete at any level) that includes any TWO of the following:",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "No radiographic evidence of degenerative disease (e.g., posterior glenoid cartilage loss, subchondral glenoid cysts, mucoid degeneration of labrum, narrowing of joint space with posterior humeral head subluxation on axillary x-ray or axial MRI images)",
+    "topic": "imaging"
+   },
+   {
+    "text": "Labral tear on MRI or CT, with/without bony Bankart fracture not > 25% of glenoid width upon imaging",
+    "topic": "imaging"
+   },
+   {
+    "text": "Individual has pain and limited function (age-appropriate ADLs, occupation, or sports)",
+    "topic": "clinical"
+   },
+   {
+    "text": "Individual has recurrent instability due to hyperlaxity or mobility and no traumatic dislocation",
+    "topic": "clinical"
+   },
+   {
+    "text": "Physical exam supports repeatable increased glenohumeral joint translation (greater than 1 cm of movement during the sulcus test)",
+    "topic": "clinical"
+   },
+   {
+    "text": "MRI with arthrogram confirms capsular laxity and excludes Bankart and Kim lesions (tear between posterior labrum and articular cartilage), or glenoid erosion",
+    "topic": "imaging"
+   },
+   {
+    "text": "Failure of at least 6 months of formal physical therapy and activity modification",
+    "topic": "conservative_care"
+   }
+  ],
+  "dropped_not_in_document": [],
+  "dropped_other_operation": [],
+  "why_not": "",
+  "doc_chars": 400000,
+  "doc_truncated_for_model": false,
+  "model": "claude-opus-5",
+  "usage": {
+   "input_tokens": 55,
+   "output_tokens": 2598,
+   "cache_creation_input_tokens": 146212,
+   "cache_read_input_tokens": 0
+  },
+  "extracted_at": "2026-09-21 10:31:38",
+  "stop_reason": "end_turn",
+  "error": "",
+  "usd": 0.979
  }
 }

@@ -165,7 +165,7 @@ def extract(client, url, cpt):
         if not PT.verify_quote(q, text):
             unverified.append(q[:200])
         elif other_procedure(q, cpt):
-            wrong_op.append(q[:200])
+            wrong_op.append({"text": q.strip(), "topic": topic})
         else:
             kept.append({"text": q.strip(), "topic": topic})
     head = got.get("section_heading") or ""
@@ -190,7 +190,29 @@ def main() -> int:
     ap.add_argument("--workers", type=int, default=4)
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--dry", action="store_true", help="list the work and stop")
+    ap.add_argument("--recheck", action="store_true",
+                    help="re-apply the other-operation check to saved results; no model calls")
     a = ap.parse_args()
+
+    if a.recheck:
+        # The check can be wrong too (it once read "myelopathy" as cervical and
+        # dropped a real lumbar criterion). Re-run it over what the model
+        # returned instead of paying to extract again.
+        done = json.loads(OUT.read_text()) if OUT.exists() else {}
+        moved = 0
+        for k, r in done.items():
+            keep = []
+            for d in r.get("dropped_other_operation") or []:
+                item = d if isinstance(d, dict) else {"text": d, "topic": "other"}
+                if other_procedure(item["text"], r.get("cpt", "")):
+                    keep.append(item)
+                else:
+                    r.setdefault("criteria", []).append(item)
+                    moved += 1
+            r["dropped_other_operation"] = keep
+        OUT.write_text(json.dumps(done, indent=1, ensure_ascii=False))
+        print(f"rechecked {len(done)} entries, restored {moved} criteria")
+        return 0
 
     pairs = directory_pairs() if a.directory else study_pairs()
     if a.cases:
