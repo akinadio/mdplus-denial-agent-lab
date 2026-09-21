@@ -258,7 +258,33 @@ def rescore() -> int:
     return 0
 
 
+def _letter_sha(rid) -> str:
+    import hashlib
+    try:
+        t = json.loads((RUNS / rid / "letter.json").read_text()).get("letter_markdown") or ""
+    except (OSError, ValueError):
+        t = ""
+    return hashlib.sha256(t.encode()).hexdigest()[:16]
+
+
+def backfill_sha() -> int:
+    """One-time: stamp existing grades with the letter they read. Safe only
+    while no letter has been redrafted since it was graded (2026-09-21)."""
+    out_path = STUDY / "letter_grades.json"
+    grades = json.loads(out_path.read_text())
+    n = 0
+    for rid, g in grades.items():
+        if not g.get("letter_sha"):
+            g["letter_sha"] = _letter_sha(rid)
+            n += 1
+    out_path.write_text(json.dumps(grades, indent=1))
+    print(f"stamped {n} grades")
+    return 0
+
+
 def main() -> int:
+    if "--backfill-sha" in sys.argv:
+        return backfill_sha()
     if "--rescore" in sys.argv:
         return rescore()
     ap = argparse.ArgumentParser()
@@ -267,6 +293,8 @@ def main() -> int:
                     help="comma-separated case_ids: grade only letters for these.")
     ap.add_argument("--resume", action="store_true",
                     help="kept for compatibility; existing grades are always kept")
+    ap.add_argument("--regrade", action="store_true",
+                    help="with --cases: grade those cases again even if graded")
     ap.add_argument("--fresh", action="store_true",
                     help="discard every existing grade and regrade from scratch")
     ap.add_argument("--workers", type=int, default=1,
@@ -293,8 +321,17 @@ def main() -> int:
 
     rids = sorted(p.parent.name for p in RUNS.glob("r-*/letter.json"))
     random.Random(SEED).shuffle(rids)   # ordering must carry no signal either
-    # A grader_error is not a grade. Retry it.
-    todo = [r for r in rids if grades.get(r, {}).get("outcome") not in ("graded", "no_letter")]
+    # A grader_error is not a grade. Retry it. Neither is a grade of a letter
+    # that has since been redrafted: a grade carries the hash of the letter it
+    # read, and a different letter gets graded again.
+    def _stale(r):
+        g = grades.get(r, {})
+        return bool(g.get("letter_sha")) and g["letter_sha"] != _letter_sha(r)
+    todo = [r for r in rids
+            if grades.get(r, {}).get("outcome") not in ("graded", "no_letter") or _stale(r)]
+    if a.regrade and a.cases:
+        # the answer key changed for these cases: grade again whatever is on file
+        todo = list(rids)
     if a.cases:
         want = {c.strip() for c in a.cases.split(",") if c.strip()}
         unknown = want - set(cases)
@@ -319,6 +356,7 @@ def main() -> int:
         nonlocal n
         with lock:
             g["case_id"] = cid
+            g["letter_sha"] = _letter_sha(rid)
             grades[rid] = g
             out_path.write_text(json.dumps(grades, indent=1))
             n += 1
