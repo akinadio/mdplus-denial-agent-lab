@@ -667,6 +667,24 @@ def stage_money():
     finally:
         time.sleep = _sleep
 
+    # Every provider client gets a network timeout. The Google client had none
+    # and six workers waited on a stalled connection for ninety minutes.
+    import os as _os2
+    _keys = {k: _os2.environ.get(k) for k in ("GEMINI_API_KEY", "GOOGLE_API_KEY")}
+    try:
+        _os2.environ.setdefault("GEMINI_API_KEY", "dry-run")
+        _gc = _pv.GoogleProvider().make_client(123)
+        _to = getattr(getattr(_gc, "_api_client", None), "_http_options", None)
+        check(getattr(_to, "timeout", None) == 123000,
+              "the Gemini client is created with the timeout it is given")
+    except ImportError:
+        check(True, "the Gemini client is created with the timeout it is given (SDK absent)")
+    finally:
+        for k, v in _keys.items():
+            if v is None:
+                _os2.environ.pop(k, None)
+    check(_pv.is_transient_rate_limit("httpx.ReadTimeout: timed out"),
+          "a stalled call is retried with the same turn, not lost")
     # Every paid model call goes through the wrapper. A new call site added
     # without it silently reintroduces the bug, and only a grep catches that.
     _src = "\n".join((ROOT / f).read_text() for f in (
@@ -698,13 +716,21 @@ def stage_money():
 
     _get, _iv = _wt.requests.get, _wt.SEARCH_MIN_INTERVAL
     _key = os.environ.get("WEB_SEARCH_API_KEY")
+    # search() records every request on the ledger -- including this stubbed
+    # one. Until 2026-09-21 each dry run added a $0.005 search row to the real
+    # ledger (six were found and removed). Point it at a scratch file.
+    _led2 = _sp.LEDGER
+    _tmp_led = Path(_tf.mkdtemp()) / "spend.json"
     try:
+        _sp.LEDGER = _tmp_led
         _wt.requests.get, _wt.SEARCH_MIN_INTERVAL = _flaky, 0.0
         os.environ["WEB_SEARCH_API_KEY"] = "test"
         _out = _wt.search("anything", 3)
         check(len(_seen) == 3 and not _out.get("error"),
               "a rate-limited search is retried, not read as a dead backend")
     finally:
+        _sp.LEDGER = _led2
+        _sh.rmtree(_tmp_led.parent, ignore_errors=True)
         _wt.requests.get, _wt.SEARCH_MIN_INTERVAL = _get, _iv
         if _key is None:
             os.environ.pop("WEB_SEARCH_API_KEY", None)

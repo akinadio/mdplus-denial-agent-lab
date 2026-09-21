@@ -99,7 +99,11 @@ ToolCall = Callable[[str, dict[str, Any]], dict[str, Any]]
 # existing out-of-funds path, which is the conservative answer.
 _RATE_LIMIT = re.compile(
     r"PerMinute|per minute|retryDelay|Please retry in|Retry-After|"
-    r"rate_?limit|Too Many Requests|overloaded_error|overloaded", re.I)
+    r"rate_?limit|Too Many Requests|overloaded_error|overloaded|"
+    # a stalled connection, now that every client has a limit: same remedy,
+    # wait and send the same turn again
+    r"timed? ?out|TimeoutError|ReadTimeout|DEADLINE_EXCEEDED|ServerDisconnected|"
+    r"RemoteProtocolError|ConnectionReset|Connection reset", re.I)
 _HARD_QUOTA = re.compile(
     r"PerDay|per day|daily limit|credit balance|insufficient_quota|"
     r"Error code: 402|billing_not_active|account is not active", re.I)
@@ -605,11 +609,17 @@ class GoogleProvider:
             return False
         return True
 
-    def make_client(self, timeout: int) -> Any:  # noqa: ARG002 - timeout via config
+    def make_client(self, timeout: int) -> Any:
         from google import genai
+        from google.genai import types
 
+        # The comment here used to say "timeout via config", and no config ever
+        # set one. Anthropic and OpenAI clients get a limit; this one waited on
+        # a stalled connection forever, and on 2026-09-21 six workers sat
+        # silent for ninety minutes with nothing on screen. Milliseconds.
         return genai.Client(
-            api_key=os.environ.get(self.key_env) or os.environ["GEMINI_API_KEY"]
+            api_key=os.environ.get(self.key_env) or os.environ["GEMINI_API_KEY"],
+            http_options=types.HttpOptions(timeout=int(timeout) * 1000),
         )
 
     def _tools_and_config(self, system: str, max_tokens: int):
