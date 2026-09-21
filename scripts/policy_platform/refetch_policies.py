@@ -44,7 +44,7 @@ def suspect(url: str):
     t = d.get("text") or ""
     if not t.strip():
         return "empty"
-    if d.get("truncated") or len(t) == CUT_AT:
+    if d.get("truncated") or len(t) in (CUT_AT, 400000):
         return "cut"
     return None
 

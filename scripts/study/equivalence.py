@@ -37,7 +37,10 @@ _DOCNUM = re.compile(r"(?<![A-Za-z0-9])(CMM-\d{3}|CP\.MP\.\d+|MMP\d+(?:\.\d+)?|"
                      # "Guideline 1764". Without these the number never matched
                      # and three Molina answers naming MCP-404 exactly were
                      # scored as the wrong document.
-                     r"MCP-?\s?\d{3}|CPB\s?\d{4}|Guideline\s\d{3,4})"
+                     r"MCP-?\s?\d{3}|CPB\s?\d{4}|Guideline\s\d{3,4}|"
+                     # HealthPartners serves one policy as an HTML page
+                     # (contentid=ENTRY_256055) and as a PDF (entry_256055.pdf).
+                     r"ENTRY_\d{5,})"
                      r"(?![A-Za-z0-9])", re.I)
 
 

@@ -54,7 +54,9 @@ def policy_text(url: str, refresh: bool = False) -> dict:
             return cached
     from policy_eval.webtools import fetch
     try:
-        r = fetch(url, max_text_chars=400000)
+        # 400,000 still cut the 2026 Evolent guideline; the cap only exists
+        # to stop a runaway page, so set it well past any real policy.
+        r = fetch(url, max_text_chars=3_000_000)
         text = r.get("text") or ""
         # A truncated document is worse than a missing one: find_criteria reads
         # the part we happen to hold and returns criteria from the wrong

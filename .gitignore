@@ -94,3 +94,8 @@ study/spend.json
 
 # Desktop app scratch, not project files
 Claude outputs/
+
+# Policies downloaded by hand (signed links a script cannot fetch); load_manual_docs.py
+!data/policy_platform/manual_docs/
+# one-time backups written by answer-key fixes
+study/*.pre-*

@@ -76,17 +76,18 @@
   },
   {
    "case_id": "poc-5767d9118e",
-   "stratum": "in_library",
+   "stratum": "vendor_held",
    "state": "Illinois",
    "payer": "CountyCare",
    "cpt": "27446",
-   "directory_status": "VERIFIED",
-   "directory_note": "2026-08-22 regional sweep: vendor/source: InterQual (own ECG series first). Verbatim criteria: \"At least 12 weeks of non-surgical treatment documented in the medical record\" Hierarchy policy ECG_2738.CC (public) proves InterQual governs the other 11 CPTs.",
-   "correct_behavior": "cite_document",
+   "directory_status": "DOCUMENT PUBLIC, CRITERIA VENDOR-HELD",
+   "directory_note": "2026-09-21 answer-key audit: the public policy names this code but the medical-necessity criteria are InterQual's. 2026-08-22 regional sweep: vendor/source: InterQual (own ECG series first). Verbatim criteria: \"At least 12 weeks of non-surgical treatment documented in the medical record\" Hierarchy policy ECG_2738.CC (public) proves InterQual governs the other 11 CPTs.",
+   "correct_behavior": "cite_and_route",
    "vendor": "InterQual",
    "policy_title": "EVH CG 2734.CC Outpatient Major Joint Arthroplasty (Hips and Knees)",
    "policy_url": "https://countycare.com/wp-content/uploads/ECG_2734.CC-for-Outpatient-Major-Joint-Arthroplasy-Hips-and-Knees-ver-Dec-25.pdf",
-   "effective_date": "2026-01-01"
+   "effective_date": "2026-01-01",
+   "stratum_before_2026_09_21": "in_library"
   },
   {
    "case_id": "poc-f7c299c469",
@@ -258,17 +259,18 @@
   },
   {
    "case_id": "poc-b7c7b913dc",
-   "stratum": "in_library",
+   "stratum": "vendor_held",
    "state": "Michigan",
    "payer": "Priority Health",
    "cpt": "22551",
-   "directory_status": "VERIFIED",
-   "directory_note": "2026-08-22 regional sweep: vendor/source: TurningPoint. Verbatim criteria: \"Anterior Cervical Discectomy and Fusion (ACDF) ... medically necessary according to TurningPoint criteria\" TurningPoint MSK covers 13 of 14 CPTs (28296 not on list). Criteria behind Prism portal / TurningPoint login.",
-   "correct_behavior": "cite_document",
+   "directory_status": "DOCUMENT PUBLIC, CRITERIA VENDOR-HELD",
+   "directory_note": "2026-09-21 answer-key audit: the public policy names this code but the medical-necessity criteria are TurningPoint's. 2026-08-22 regional sweep: vendor/source: TurningPoint. Verbatim criteria: \"Anterior Cervical Discectomy and Fusion (ACDF) ... medically necessary according to TurningPoint criteria\" TurningPoint MSK covers 13 of 14 CPTs (28296 not on list). Criteria behind Prism portal / TurningPoint login.",
+   "correct_behavior": "cite_and_route",
    "vendor": "TurningPoint",
    "policy_title": "PH Medical Policy 91581-R23 SPINE PROCEDURES",
    "policy_url": "https://priorityhealth.stylelabs.cloud/api/public/content/5f005b3ee3044b68ad920d57974c2d68?v=785108c8",
-   "effective_date": "2026-03-01"
+   "effective_date": "2026-03-01",
+   "stratum_before_2026_09_21": "in_library"
   },
   {
    "case_id": "poc-37f3aa304d",
@@ -1596,8 +1598,9 @@
    "directory_note": "2026-08-22 regional sweep: vendor/source: internal. Verbatim criteria: \"Clinical documentation indicates presence/diagnosis of a condition or conditions causing spinal cord and/or nerve root compression\" Full 356-policy index enumerated: only these 2 of our 14. Decompression policy covers cervical decompression codes but NOT 22551 fusion. No joint policies.",
    "correct_behavior": "cite_document",
    "policy_title": "Spinal decompression surgeries",
-   "policy_url": "https://www.healthpartners.com/public/coverage-criteria/policy.html?contentid=ENTRY_256055",
-   "effective_date": "rev 2024-08-15"
+   "policy_url": "https://www.healthpartners.com/ucm/groups/public/@hp/@public/@cc/documents/documents/entry_256055.pdf",
+   "effective_date": "rev 2024-08-15",
+   "policy_url_before_2026_09_21": "https://www.healthpartners.com/public/coverage-criteria/policy.html?contentid=ENTRY_256055"
   },
   {
    "case_id": "poc-19407106e9",

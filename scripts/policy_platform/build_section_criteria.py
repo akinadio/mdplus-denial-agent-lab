@@ -46,6 +46,7 @@ sys.path[:0] = [str(ROOT), str(ROOT / "scripts"), str(ROOT / "scripts" / "study"
 
 from synthetic_harness import policy_text as PT                       # noqa: E402
 from synthetic_harness.quote_relevance import other_procedure         # noqa: E402
+from synthetic_harness.quote_check import in_text                     # noqa: E402
 
 OUT = ROOT / "data" / "policy_platform" / "section_criteria.json"
 DIRECTORY = ROOT / "data" / "policy_platform" / "app_option_policy_directory.csv"
@@ -127,6 +128,16 @@ def directory_pairs():
     return out
 
 
+def doc_cut(url) -> bool:
+    """The cached copy is a cut-off copy (old 120,000 cap, or flagged)."""
+    p = PT._key(url)
+    try:
+        d = json.loads(p.read_text())
+    except (OSError, ValueError):
+        return False
+    return bool(d.get("truncated")) or len(d.get("text") or "") in (120000, 400000)
+
+
 def doc_text(url):
     p = PT._key(url)
     if p.exists():
@@ -139,6 +150,36 @@ def doc_text(url):
     return PT.policy_text(url).get("text") or ""
 
 
+def model_view(text: str, cpt: str) -> str:
+    """The document as the model sees it.
+
+    Whole, when it fits. When it does not (the 2026 Evolent guideline runs past
+    400,000 characters), every stretch within 30,000 characters of a mention of
+    this operation, in document order, joined with a visible [...] -- never
+    the first N characters, which is how the knee section was lost before.
+    Verification is always against the FULL text.
+    """
+    if len(text) <= MAX_DOC_CHARS:
+        return text
+    import re
+    low = text.lower()
+    spans = []
+    for t in PT.PROCEDURE_TERMS.get(cpt, []):
+        for m in re.finditer(re.escape(t), low):
+            spans.append((max(0, m.start() - 30000), min(len(text), m.end() + 30000)))
+    if not spans:
+        return text[:MAX_DOC_CHARS]
+    spans.sort()
+    merged = [list(spans[0])]
+    for a, b in spans[1:]:
+        if a <= merged[-1][1]:
+            merged[-1][1] = max(merged[-1][1], b)
+        else:
+            merged.append([a, b])
+    out = "\n[...]\n".join(text[a:b] for a, b in merged)
+    return out[:MAX_DOC_CHARS]
+
+
 def extract(client, url, cpt):
     from synthetic_harness.providers import call_with_backoff
     from synthetic_harness.agent_runner import extract_json
@@ -146,7 +187,7 @@ def extract(client, url, cpt):
     if not text:
         return {"url": url, "cpt": cpt, "covered": None, "criteria": [],
                 "error": "document text unavailable"}
-    system = [{"type": "text", "text": SYSTEM.replace("{DOC}", text[:MAX_DOC_CHARS]),
+    system = [{"type": "text", "text": SYSTEM.replace("{DOC}", model_view(text, cpt)),
                "cache_control": {"type": "ephemeral"}}]
     ask = (f"The operation: {SURGERY_NAME.get(cpt, 'CPT ' + cpt)} (CPT {cpt}). "
            f"Return the JSON object.")
@@ -162,8 +203,11 @@ def extract(client, url, cpt):
     for item in got.get("criteria") or []:
         q = (item.get("text") if isinstance(item, dict) else str(item)) or ""
         topic = item.get("topic", "other") if isinstance(item, dict) else "other"
-        if not PT.verify_quote(q, text):
-            unverified.append(q[:200])
+        # The same test the grader applies to every letter's quotations
+        # (letters and digits, in order): a PDF's bullet glyphs and a model's
+        # tidied spacing are not a difference in wording.
+        if not in_text(q, text):
+            unverified.append({"text": q.strip(), "topic": topic})
         elif other_procedure(q, cpt):
             wrong_op.append({"text": q.strip(), "topic": topic})
         else:
@@ -175,6 +219,7 @@ def extract(client, url, cpt):
         "criteria": kept, "dropped_not_in_document": unverified,
         "dropped_other_operation": wrong_op, "why_not": got.get("why_not", ""),
         "doc_chars": len(text), "doc_truncated_for_model": len(text) > MAX_DOC_CHARS,
+        "doc_cut_in_cache": doc_cut(url),
         "model": MODEL, "usage": usage, "extracted_at": time.strftime("%Y-%m-%d %H:%M:%S"),
         "stop_reason": getattr(resp, "stop_reason", ""),
         "error": "" if got else f"unparseable model output: {body[-300:]}",
@@ -187,6 +232,8 @@ def main() -> int:
     ap.add_argument("--only-key", default="")
     ap.add_argument("--cases", default="", help="comma-separated study case_ids")
     ap.add_argument("--redo", action="store_true")
+    ap.add_argument("--redo-cut", action="store_true",
+                    help="re-extract pairs whose document was cut off when they were read")
     ap.add_argument("--workers", type=int, default=4)
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--dry", action="store_true", help="list the work and stop")
@@ -201,6 +248,15 @@ def main() -> int:
         done = json.loads(OUT.read_text()) if OUT.exists() else {}
         moved = 0
         for k, r in done.items():
+            text = doc_text(r.get("url", ""))
+            still = []
+            for d in r.get("dropped_not_in_document") or []:
+                item = d if isinstance(d, dict) else {"text": d, "topic": "other"}
+                if text and in_text(item["text"], text):
+                    r.setdefault("dropped_other_operation", []).append(item)  # judged next
+                else:
+                    still.append(item)
+            r["dropped_not_in_document"] = still
             keep = []
             for d in r.get("dropped_other_operation") or []:
                 item = d if isinstance(d, dict) else {"text": d, "topic": "other"}
@@ -225,7 +281,11 @@ def main() -> int:
         pairs = {k: v for k, v in pairs.items() if k == a.only_key} or \
             {a.only_key: tuple(a.only_key.split("||"))}
     done = json.loads(OUT.read_text()) if OUT.exists() else {}
-    todo = [k for k in sorted(pairs) if a.redo or k not in done or done[k].get("error")]
+    def _was_cut(k):
+        r = done.get(k) or {}
+        return r.get("doc_cut_in_cache", r.get("doc_chars") in (120000, 400000))
+    todo = [k for k in sorted(pairs) if a.redo or k not in done or done[k].get("error")
+            or (a.redo_cut and _was_cut(k) and not doc_cut(pairs[k][0]))]
     # Same document together, so its cache is warm for the next operation.
     todo.sort(key=lambda k: (pairs[k][0], pairs[k][1]))
     if a.limit:

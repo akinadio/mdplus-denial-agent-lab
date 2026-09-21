@@ -159,14 +159,17 @@ CPT_FAMILY: dict[str, str] = {
 }
 # Same joint, overlapping language: mentioning the neighbour is normal.
 _NEIGHBOURS: dict[str, set[str]] = {
-    "knee_arthroplasty": {"uka", "meniscus", "patellar"},
-    "uka": {"knee_arthroplasty", "meniscus", "patellar"},
+    # Partial and total knee replacement both require an intact ACL.
+    "knee_arthroplasty": {"uka", "meniscus", "patellar", "acl"},
+    "uka": {"knee_arthroplasty", "meniscus", "patellar", "acl"},
+    # Shoulder replacement requires a functioning rotator cuff.
+    "shoulder_arthroplasty": {"rotator_cuff"},
     "meniscus": {"acl", "knee_arthroplasty", "uka"},
     "acl": {"meniscus", "patellar"},
     "lumbar_fusion": {"lumbar_decompression"},
     "lumbar_decompression": {"lumbar_fusion"},
     "shoulder_instability": {"rotator_cuff"},
-    "rotator_cuff": {"shoulder_instability"},
+    "rotator_cuff": {"shoulder_instability", "shoulder_arthroplasty"},
     "hip_arthroplasty": {"hip_arthroscopy"},
     "hip_arthroscopy": {"hip_arthroplasty"},
 }
@@ -177,15 +180,25 @@ _NEIGHBOURS: dict[str, set[str]] = {
 # names laminectomy, the lumbar case's own operation, and is still the wrong
 # rule for a lumbar decompression.
 _REGIONS: dict[str, re.Pattern] = {k: re.compile(v, re.I) for k, v in {
-    "shoulder": r"\b(shoulder|glenohumeral|glenoid|humeral|acromi\w*|labral|rotator)\b",
+    # Not "labral": the hip has a labrum too (Carelon's hip arthroscopy
+    # section lists "labral reconstruction" and was being dropped as shoulder).
+    "shoulder": r"\b(shoulder|glenohumeral|glenoid|humeral|acromi\w*|rotator)\b",
     "hip": r"\b(hips?|acetabul\w*|femoroacetabular|femoral head)\b",
     "knee": r"\b(knees?|patell\w*|menisc\w*|tibiofemoral|cruciate)\b",
     "ankle": r"\b(ankles?|tibiotalar|talar)\b",
     "foot": r"\b(hallux|bunion\w*|metatars\w*|foot|feet)\b",
     "cervical": r"\b(cervical|acdf)\b",
-    "thoracic": r"\bthoracic\b",
+    # The thoracic SPINE, not "thoracic outlet syndrome", which shoulder
+    # criteria list as something to rule out.
+    "thoracic": r"\bthoracic (?:spine|spinal|disc|level|laminectomy|fusion|vertebra\w*|decompression)\b",
     "lumbar": r"\b(lumbar|lumbosacral|sciatica)\b",
 }.items()}
+SPINE_REGIONS = {"cervical", "thoracic", "lumbar"}
+_NEW_RULE = re.compile(r"(?:is|are) (?:considered )?(?:medically necessary|indicated)", re.I)
+_RULED_OUT = re.compile(r"\b(excluded|ruled out|rule out|other (?:potential )?(?:causes|sources|"
+                        r"patholog\w*)|differential)\b", re.I)
+# Regions that share criteria language: ankle criteria talk about footwear.
+_REGION_NEIGHBOURS = {"ankle": {"foot"}, "foot": {"ankle"}}
 CPT_REGION: dict[str, str] = {
     "27130": "hip", "29914": "hip", "27446": "knee", "27447": "knee", "29880": "knee",
     "29881": "knee", "29888": "knee", "23472": "shoulder", "29827": "shoulder",
@@ -216,6 +229,18 @@ def other_procedure(quote: str, cpt: str) -> bool:
     # Names another part of the body and not this one.
     regions = regions_named(quote)
     own_region = CPT_REGION.get(cpt or "")
+    if own_region in SPINE_REGIONS:
+        # Spine symptoms are described where they are FELT -- "radicular pain
+        # to the shoulder girdle", "femoral stretch test", "pain below the
+        # knee" -- so for a spine operation only another spinal level counts.
+        regions &= SPINE_REGIONS
+    regions -= _REGION_NEIGHBOURS.get(own_region, set())
+    if _RULED_OUT.search(quote or "") and not _NEW_RULE.search(quote or ""):
+        # "Other conditions have been excluded: fracture, ... cervical
+        # radiculopathy" is a shoulder criterion that names the neck only as
+        # something to rule out -- unless it is itself another operation's
+        # rule ("... is considered medically necessary when ...").
+        return False
     if regions and own_region and own_region not in regions:
         return True
     named = families_named(quote)

@@ -427,6 +427,10 @@ def stage_letters(cases, gold):
           "section map keeps only verbatim sentences about THIS operation", str(_got["criteria"]))
     check(len(_got["dropped_not_in_document"]) == 1 and len(_got["dropped_other_operation"]) == 1,
           "a paraphrase and another operation's rule are both dropped and counted")
+    _long = ("x " * 300000) + "Capsulorrhaphy is considered medically necessary when ALL of these are met." + (" y" * 10)
+    _view = _bsc.model_view(_long, "29806")
+    check(len(_view) <= _bsc.MAX_DOC_CHARS and "Capsulorrhaphy is considered" in _view,
+          "a document too long for the model is cut around the operation, not at the top")
     _keep_map = PT._SECTIONS
     try:
         PT._SECTIONS = {f"{_u}||29806": {"covered": False, "criteria": [], "why_not": "x"}}
