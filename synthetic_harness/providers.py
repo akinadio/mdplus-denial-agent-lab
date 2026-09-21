@@ -100,6 +100,10 @@ ToolCall = Callable[[str, dict[str, Any]], dict[str, Any]]
 _RATE_LIMIT = re.compile(
     r"PerMinute|per minute|retryDelay|Please retry in|Retry-After|"
     r"rate_?limit|Too Many Requests|overloaded_error|overloaded|"
+    # Google's wording for the same thing: "503 UNAVAILABLE ... currently
+    # experiencing high demand". Eleven Gemini letters failed on it in one
+    # batch because it matched nothing here.
+    r"503 UNAVAILABLE|high demand|"
     # a stalled connection, now that every client has a limit: same remedy,
     # wait and send the same turn again
     r"timed? ?out|TimeoutError|ReadTimeout|DEADLINE_EXCEEDED|ServerDisconnected|"
