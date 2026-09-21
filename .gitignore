@@ -20,6 +20,8 @@ data/policy_platform/*
 !data/policy_platform/source_registry.json
 !data/policy_platform/source_registry.csv
 !data/policy_platform/criteria_extractions.json
+# Per-operation criteria, model-read and verified verbatim (build_section_criteria.py)
+!data/policy_platform/section_criteria.json
 # Eval benchmark: the question set and its answer key must be visible on GitHub,
 # because collaborating agents clone the repo rather than this host.
 !data/policy_platform/seed_review_39_spec.json

@@ -197,8 +197,12 @@ def _ground_citations(result: dict[str, Any]) -> dict[str, Any]:
         # the EXCLUSION, which hands the insurer its own denial rationale.
         # find_criteria already refuses those; caller excerpts were coming in
         # around it.
+        from synthetic_harness.quote_relevance import other_procedure
+        # ...and a verbatim rule can still be ANOTHER operation's rule from
+        # the same multi-procedure guideline.
         kept = [dict(c, verified=True) for c in given
-                if verify_quote(c["excerpt"], text) and classify(c["excerpt"]) == "rule"]
+                if verify_quote(c["excerpt"], text) and classify(c["excerpt"]) == "rule"
+                and not other_procedure(c["excerpt"], cpt)]
         grounded["_citations_off_point"] = sum(
             1 for c in given
             if verify_quote(c["excerpt"], text) and classify(c["excerpt"]) != "rule")
@@ -208,6 +212,12 @@ def _ground_citations(result: dict[str, Any]) -> dict[str, Any]:
                 kept.append({"claim": "plan criteria", "reference": source.get("title", ""),
                              "excerpt": q, "verified": True})
         cites = kept
+        if got["source"] == "section_map_not_covered":
+            # The document has been read and states no criteria for this
+            # operation. Quoting anything from it would be quoting another
+            # operation's rules; the letter asks for the criteria instead.
+            cites = []
+            grounded["_criteria_not_covered"] = True
         grounded["_criteria_source"] = got["source"]
         grounded["_citations_dropped"] = len(given) - sum(
             1 for c in given if verify_quote(c["excerpt"], text))
@@ -318,6 +328,10 @@ def _letter_context(result: dict[str, Any], patient_submission: str | None) -> s
     verified = [c for c in citations if (c or {}).get("verified", True)]
     unverified = [c for c in citations if not (c or {}).get("verified", True)]
     lines.append("\nPOLICY CITATIONS (the plan's own language, verbatim -- these may be quoted)")
+    if result.get("_criteria_not_covered"):
+        lines.append("(This document was read in full and states no medical-necessity "
+                     "criteria for this specific operation. Say so plainly, and ask "
+                     "the plan to identify in writing the criteria it applied.)")
     if not verified:
         lines.append("(none -- nothing here may be placed in quotation marks. Do not "
                      "quote the plan anywhere in this letter. Say that the plan's "

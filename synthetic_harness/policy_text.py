@@ -25,6 +25,9 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 CACHE = ROOT / "data" / "policy_platform" / "policy_text_cache"
 LIBRARY = ROOT / "data" / "policy_platform" / "criteria_extractions.json"
+# Per (document, operation), read by a model and checked verbatim by code:
+# scripts/policy_platform/build_section_criteria.py. Consulted first.
+SECTION_MAP = ROOT / "data" / "policy_platform" / "section_criteria.json"
 
 # Sentences that carry a coverage rule, rather than scope, history or coding.
 _CRITERIA_CUES = re.compile(
@@ -214,7 +217,8 @@ def find_criteria(text: str, cpt: str = "", limit: int = 14,
 
     # Selection happens above; judgement of what a sentence IS happens here, so
     # the two stay separable and testable.
-    kept = [c for c in out if classify(c) == "rule"]
+    from .quote_relevance import other_procedure
+    kept = [c for c in out if classify(c) == "rule" and not other_procedure(c, cpt)]
     if reason:
         # Stable partition, not a sort: the document's own order is meaningful
         # (criteria are usually listed in the order they must be met).
@@ -252,18 +256,77 @@ def _library() -> dict:
     return _LIB
 
 
+_SECTIONS: dict | None = None
+
+
+def _section_map() -> dict:
+    global _SECTIONS
+    if _SECTIONS is None:
+        try:
+            _SECTIONS = json.loads(SECTION_MAP.read_text())
+        except Exception:  # noqa: BLE001
+            _SECTIONS = {}
+    return _SECTIONS
+
+
+# Which extracted topics answer which denial reason, most direct first.
+_TOPIC_FOR_REASON = {
+    "conservative_care": ("conservative_care",),
+    "imaging": ("imaging",),
+    "incomplete_documentation": ("documentation",),
+}
+
+
+def section_criteria(url: str, cpt: str, reason: str = "") -> dict | None:
+    """The reviewed criteria for this operation in this document, or None.
+
+    None means "not extracted yet" -- fall back. A result with covered False
+    means the document has no criteria for this operation, and the caller
+    must say so rather than quote something else.
+    """
+    hit = _section_map().get(f"{(url or '').strip()}||{cpt}")
+    if not hit or hit.get("error") or hit.get("covered") is None:
+        return None
+    items = hit.get("criteria") or []
+    want = _TOPIC_FOR_REASON.get(reason, ())
+    # Stable partition: the document's own order within each group.
+    first = [i["text"] for i in items if i.get("topic") in want]
+    rest = [i["text"] for i in items if i.get("topic") not in want]
+    return {"covered": bool(hit.get("covered")), "quotes": first + rest,
+            "heading": hit.get("section_heading", "")}
+
+
 def criteria_for(url: str, cpt: str = "", allow_fetch: bool = True,
                  reason: str = "") -> dict:
     """Verbatim criteria for a policy, and the text they were taken from.
 
-    Returns {'quotes', 'text', 'source'}. `source` is 'library', 'fetch' or
+    Returns {'quotes', 'text', 'source'}. `source` is 'section_map', 'section_map_not_covered', 'library', 'fetch' or
     'none'. An empty quotes list is a real answer and must be passed through as
     one: a letter with nothing to quote has to say so, not invent something.
     """
     url = (url or "").strip()
     if not url:
         return {"quotes": [], "text": "", "source": "none"}
+    sec = section_criteria(url, cpt, reason) if cpt else None
+    if sec is not None:
+        p = _key(url)
+        text = ""
+        if p.exists():
+            try:
+                text = json.loads(p.read_text()).get("text") or ""
+            except ValueError:
+                text = ""
+        # covered False -> no quotes, on purpose: this document has no rules
+        # for this operation and the letter must say so.
+        return {"quotes": sec["quotes"] if sec["covered"] else [], "text": text,
+                "source": "section_map" if sec["covered"] else "section_map_not_covered"}
     hit = _library().get(url)
+    # The library was built once per URL with no operation, so a guideline
+    # covering twelve operations handed the same quotes to all twelve. Drop
+    # any that name a different operation or body part.
+    if hit and hit.get("quotes") and cpt:
+        from .quote_relevance import other_procedure
+        hit = dict(hit, quotes=[q for q in hit["quotes"] if not other_procedure(q, cpt)])
     if hit and hit.get("quotes"):
         # The library keeps quotes, not the document. Verification needs the
         # document, and the cache has it from the same read -- without this,

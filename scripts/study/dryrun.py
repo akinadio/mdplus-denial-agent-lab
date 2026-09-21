@@ -366,6 +366,10 @@ def stage_letters(cases, gold):
     # document reads, and an explicit "do not quote" when it does not.
     shaped_g = json.loads(json.dumps(shaped))
     shaped_g["retrieval"]["selected_source"]["url"] = fake_url
+    # The fixture document is a knee policy. The case must be a knee case:
+    # since 2026-09-21 a knee rule offered to, say, a lumbar case is dropped as
+    # another operation's rule, which is the behaviour this file now wants.
+    shaped_g.setdefault("case_identification", {})["cpt"] = "27447"
     shaped_g["retrieval"]["citations"] = [
         {"claim": "plan criteria", "reference": "x",
          "excerpt": "SOMETHING WE MADE UP THAT IS NOT IN THE DOCUMENT AT ALL"}]
@@ -384,6 +388,60 @@ def stage_letters(cases, gold):
           "with no readable document, the prompt forbids quoting the plan")
     check("UNVERIFIED" in stub_n.seen_prompt and "SOMETHING WE MADE UP" in stub_n.seen_prompt,
           "...but keeps the caller's evidence as unverified rather than discarding it")
+
+    # The per-operation criteria map. The model picks sentences; code decides
+    # whether they may be used. Stub the model with one real sentence, one
+    # paraphrase, and one real sentence about ANOTHER operation.
+    from policy_platform import build_section_criteria as _bsc
+    _doc = ("Capsulorrhaphy is considered medically necessary when ALL the following criteria "
+            "are met: History of a shoulder dislocation or recurrent subluxation. "
+            "Total knee arthroplasty is considered medically necessary when there is "
+            "advanced knee arthritis on weight-bearing radiographs.")
+    _u = "https://example.invalid/dryrun-multi.pdf"
+    PT._key(_u).write_text(json.dumps({"url": _u, "text": _doc, "status": 200}))
+
+    class _U:  # usage
+        input_tokens, output_tokens, cache_creation_input_tokens, cache_read_input_tokens = 1, 1, 0, 0
+
+    class _B:
+        type = "text"
+        text = json.dumps({"covered": True, "section_heading":
+                           "Capsulorrhaphy is considered medically necessary when ALL the following criteria are met:",
+                           "criteria": [
+            {"text": "History of a shoulder dislocation or recurrent subluxation.", "topic": "clinical"},
+            {"text": "The patient must have had shoulder instability for six months.", "topic": "clinical"},
+            {"text": "Total knee arthroplasty is considered medically necessary when there is advanced knee arthritis", "topic": "imaging"}]})
+
+    class _R:
+        content, usage, stop_reason = [_B()], _U(), "end_turn"
+
+    class _C:
+        class messages:
+            @staticmethod
+            def create(**kw):
+                return _R()
+
+    _got = _bsc.extract(_C(), _u, "29806")
+    check([i["text"] for i in _got["criteria"]] ==
+          ["History of a shoulder dislocation or recurrent subluxation."],
+          "section map keeps only verbatim sentences about THIS operation", str(_got["criteria"]))
+    check(len(_got["dropped_not_in_document"]) == 1 and len(_got["dropped_other_operation"]) == 1,
+          "a paraphrase and another operation's rule are both dropped and counted")
+    _keep_map = PT._SECTIONS
+    try:
+        PT._SECTIONS = {f"{_u}||29806": {"covered": False, "criteria": [], "why_not": "x"}}
+        _nc = PT.criteria_for(_u, "29806", allow_fetch=False)
+        check(_nc["quotes"] == [] and _nc["source"] == "section_map_not_covered",
+              "a document with no criteria for the operation yields nothing to quote")
+        PT._SECTIONS = {f"{_u}||29806": {"covered": True, "criteria": [
+            {"text": "History of a shoulder dislocation or recurrent subluxation.", "topic": "clinical"},
+            {"text": "Capsulorrhaphy is considered medically necessary when ALL the following criteria are met:",
+             "topic": "imaging"}]}}
+        _ok = PT.criteria_for(_u, "29806", allow_fetch=False, reason="imaging")
+        check(_ok["source"] == "section_map" and _ok["quotes"][0].startswith("Capsulorrhaphy"),
+              "the section map is used first, answering the denial reason first")
+    finally:
+        PT._SECTIONS = _keep_map
 
     # A library hit must still verify: the library keeps quotes, the cache keeps
     # the text, and without the text every library hit read as unreadable.
