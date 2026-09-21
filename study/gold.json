@@ -211,9 +211,10 @@
    "directory_note": "2026-08-22 regional sweep: vendor/source: Cohere. Avera delegates MSK+cardio+radiology PA to Cohere Health; Avera PA list (hsv-doc-192) contains all 14 CPTs under COHERE CODES. Cohere publishes Avera-specific policy PDFs on its PUBLIC help center - index fetched and verified, but PDFs served from Intercom CDN with signed expiring links that our egress proxy 403'd. CPT mapping inferred from titles; read PDFs before citing criteria text. This is a ",
    "correct_behavior": "cite_document",
    "vendor": "Cohere",
-   "policy_title": "Cohere Health: Avera Commercial Guidelines index (Knee Arthroplasty v8, Knee Arthroscopy v10, Hip Arthroplasty v5, Hip Arthroscopy v6, Shoulder Arthroplasty v4, Shoulder Arthroscopy v5, Open Shoulder v4, Cervical Spinal Fusion v5, Lumbar Spinal Fusion v3, Spinal Decompression v4.1, Ankle Arthroplasty v4, Great Toe Surgical Treatments v3)",
-   "policy_url": "https://help.coherehealth.com/payer-info/en/articles/13602157-avera-health-plan-commercial-guidelines",
-   "effective_date": "current, versioned per guideline"
+   "policy_title": "Cohere Medical Policy - Great Toe Surgical Treatments (Version 3), Avera Health Plans",
+   "policy_url": "https://help.coherehealth.com/payer-info/en/articles/13602157-avera-health-plan-commercial-guidelines#great-toe-surgical-treatments-v3",
+   "effective_date": "current, versioned per guideline",
+   "policy_url_before_2026_09_21": "https://help.coherehealth.com/payer-info/en/articles/13602157-avera-health-plan-commercial-guidelines"
   },
   {
    "case_id": "poc-e2aa78e9ec",
@@ -972,9 +973,10 @@
    "directory_status": "VERIFIED",
    "directory_note": "2026-08-22 regional sweep: vendor/source: Cohere. Avera delegates MSK+cardio+radiology PA to Cohere Health; Avera PA list (hsv-doc-192) contains all 14 CPTs under COHERE CODES. Cohere publishes Avera-specific policy PDFs on its PUBLIC help center - index fetched and verified, but PDFs served from Intercom CDN with signed expiring links that our egress proxy 403'd. CPT mapping inferred from titles; read PDFs before citing criteria text. This is a ",
    "correct_behavior": "cite_document",
-   "policy_title": "Cohere Health: Avera Commercial Guidelines index (Knee Arthroplasty v8, Knee Arthroscopy v10, Hip Arthroplasty v5, Hip Arthroscopy v6, Shoulder Arthroplasty v4, Shoulder Arthroscopy v5, Open Shoulder v4, Cervical Spinal Fusion v5, Lumbar Spinal Fusion v3, Spinal Decompression v4.1, Ankle Arthroplasty v4, Great Toe Surgical Treatments v3)",
-   "policy_url": "https://help.coherehealth.com/payer-info/en/articles/13602157-avera-health-plan-commercial-guidelines",
-   "effective_date": "current, versioned per guideline"
+   "policy_title": "Cohere Medical Policy - Shoulder Arthroscopy (Version 5), Avera Health Plans",
+   "policy_url": "https://help.coherehealth.com/payer-info/en/articles/13602157-avera-health-plan-commercial-guidelines#shoulder-arthroscopy-v5",
+   "effective_date": "current, versioned per guideline",
+   "policy_url_before_2026_09_21": "https://help.coherehealth.com/payer-info/en/articles/13602157-avera-health-plan-commercial-guidelines"
   },
   {
    "case_id": "poc-acaa2d5bad",

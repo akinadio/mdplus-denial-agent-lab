@@ -84,19 +84,23 @@
   "heading_verified": true,
   "criteria": [
    {
-    "text": "All other reasonable sources of pain and/or neurological deficit have been ruled out, including but not limited to significant pathology at other spinal level(s) on the advanced imaging radiology report that is/are not part of the surgical request resulting in incomplete surgical planning",
+    "text": "All other reasonable sources of pain and/or neurological deficit have been ruled out, including but not limited to significant pathology at other spinal level(s) on the advanced imaging radiology report that is/are not part of the surgical request resulting in incomplete surgical planning; and",
     "topic": "clinical"
    },
    {
-    "text": "Advanced imaging studies (CT or MRI) indicate central/lateral recess or foraminal stenosis (graded as moderate, moderate to severe or severe; not mild or mild to moderate), or nerve root or spinal cord compression, at the level corresponding with the clinical findings",
+    "text": "Member has signs or symptoms of neural compression (radiculopathy, neurogenic extremity claudication, myelopathy) associated with the levels being treated; and",
+    "topic": "clinical"
+   },
+   {
+    "text": "Advanced imaging studies (CT or MRI) indicate central/lateral recess or foraminal stenosis (graded as moderate, moderate to severe or severe; not mild or mild to moderate), or nerve root or spinal cord compression, at the level corresponding with the clinical findings; and",
     "topic": "imaging"
    },
    {
-    "text": "Member has failed at least 6 weeks of conservative therapy Footnote1 * (unless there are indications for waiver of requirements for conservative management, noted below)",
+    "text": "Member has failed at least 6 weeks of conservative therapy Footnote1 * (unless there are indications for waiver of requirements for conservative management, noted below); and",
     "topic": "conservative_care"
    },
    {
-    "text": "Member's activities of daily living are limited by symptoms of neural compression",
+    "text": "Member's activities of daily living are limited by symptoms of neural compression;",
     "topic": "clinical"
    },
    {
@@ -108,20 +112,8 @@
     "topic": "conservative_care"
    },
    {
-    "text": "The requirement for a trial of conservative measures may be waived in the following situations indicating need for urgent intervention: Spinal cord compression (this does not include nerve root compression); Stenosis causing cauda equina syndrome;",
-    "topic": "conservative_care"
-   },
-   {
-    "text": "Stenosis causing severe weakness of the muscle(s) innervated by nerves at the requested surgical level(s) as documented by the requesting surgeon (graded 4 minus or less on MRC scale (see Appendix )",
-    "topic": "clinical"
-   },
-   {
-    "text": "Progressive neurological deficit on serial examinations by the same surgeon examiner",
-    "topic": "clinical"
-   },
-   {
     "text": "For elective laminectomy (cervical, lumbar, and thoracic), if member is diabetic, their HbA1c should be less than 8 percent within 3 months prior to surgery, unless there is an indication (e.g., myelopathy, cauda equina syndrome), severe weakness (graded 4 minus or less on MRC scale) or progressive weakness, or an associated infection/tumor and/or acute fracture.",
-    "topic": "documentation"
+    "topic": "clinical"
    },
    {
     "text": "Medical records must document that a physical examination, including a neurologic examination, has been performed by or reviewed by the operating surgeon.",
@@ -132,34 +124,43 @@
     "topic": "imaging"
    },
    {
-    "text": "Member has signs or symptoms of neural compression (radiculopathy, neurogenic extremity claudication, myelopathy) associated with the levels being treated",
-    "topic": "other"
+    "text": "For purposes of this policy, Aetna will consider the official written report of advanced imaging studies (e.g., CT, MRI, myelogram). If the operating surgeon disagrees with the official written report, the surgeon should document that disagreement.",
+    "topic": "documentation"
+   },
+   {
+    "text": "The requirement for a trial of conservative measures may be waived in the following situations indicating need for urgent intervention: Spinal cord compression (this does not include nerve root compression); Stenosis causing cauda equina syndrome;",
+    "topic": "conservative_care"
    }
   ],
   "dropped_not_in_document": [],
   "dropped_other_operation": [],
   "why_not": "",
-  "doc_chars": 120000,
-  "doc_truncated_for_model": false,
+  "doc_chars": 466618,
+  "doc_truncated_for_model": true,
+  "doc_cut_in_cache": false,
   "model": "claude-opus-5",
   "usage": {
    "input_tokens": 50,
-   "output_tokens": 2723,
-   "cache_creation_input_tokens": 45362,
+   "output_tokens": 2417,
+   "cache_creation_input_tokens": 150279,
    "cache_read_input_tokens": 0
   },
-  "extracted_at": "2026-09-21 10:31:38",
+  "extracted_at": "2026-09-21 11:57:57",
   "stop_reason": "end_turn",
   "error": "",
-  "usd": 0.3518
+  "usd": 0.9999
  },
  "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf||29806": {
   "url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
   "cpt": "29806",
   "covered": true,
-  "section_heading": "Labral Repairs",
-  "heading_verified": false,
+  "section_heading": "Anterior-Inferior Labral Tear (Bankart Lesion)",
+  "heading_verified": true,
   "criteria": [
+   {
+    "text": "Bankart repair of an acute labral tear may be necessary when all the following criteria are met:",
+    "topic": "other"
+   },
    {
     "text": "History of an acute event of instability (subluxation or dislocation) or acute onset of pain following activity",
     "topic": "clinical"
@@ -178,6 +179,10 @@
    },
    {
     "text": "Recurrent instability (two or more episodes of subluxation or dislocation)",
+    "topic": "clinical"
+   },
+   {
+    "text": "Physical examination findings demonstrate positive apprehension test, positive relocation test, positive labral grind test, or objective laxity with pain (PE is not required if there has been a recent episode of instability or there is a radiographic evidence of any prior dislocation)",
     "topic": "clinical"
    },
    {
@@ -205,14 +210,6 @@
     "topic": "imaging"
    },
    {
-    "text": "Labral tear on MRI or CT, with/without bony Bankart fracture not > 25% of glenoid width upon imaging",
-    "topic": "imaging"
-   },
-   {
-    "text": "Individual has pain and limited function (age-appropriate ADLs, occupation, or sports)",
-    "topic": "clinical"
-   },
-   {
     "text": "Individual has recurrent instability due to hyperlaxity or mobility and no traumatic dislocation",
     "topic": "clinical"
    },
@@ -232,19 +229,20 @@
   "dropped_not_in_document": [],
   "dropped_other_operation": [],
   "why_not": "",
-  "doc_chars": 400000,
-  "doc_truncated_for_model": false,
+  "doc_chars": 486556,
+  "doc_truncated_for_model": true,
+  "doc_cut_in_cache": false,
   "model": "claude-opus-5",
   "usage": {
    "input_tokens": 55,
-   "output_tokens": 2598,
-   "cache_creation_input_tokens": 146212,
+   "output_tokens": 2879,
+   "cache_creation_input_tokens": 162881,
    "cache_read_input_tokens": 0
   },
-  "extracted_at": "2026-09-21 10:31:38",
+  "extracted_at": "2026-09-21 11:58:55",
   "stop_reason": "end_turn",
   "error": "",
-  "usd": 0.979
+  "usd": 1.0903
  },
  "https://assets.ctfassets.net/plyq12u1bv8a/6gD2u32BuCEgffIXeNXN8s/e0cf91116d52b7fd2a32e90e78a6d89d/CG069_Total_Knee_Arthroplasty.pdf||27447": {
   "url": "https://assets.ctfassets.net/plyq12u1bv8a/6gD2u32BuCEgffIXeNXN8s/e0cf91116d52b7fd2a32e90e78a6d89d/CG069_Total_Knee_Arthroplasty.pdf",
@@ -769,7 +767,7 @@
   "url": "https://files.providernews.anthem.com/4827/pdf-Spine-Surgery-2024-10-20.pdf",
   "cpt": "22551",
   "covered": true,
-  "section_heading": "Cervical decompression with or without fusion is considered medically necessary to treat ANY of the following conditions:",
+  "section_heading": "Cervical Decompression (Laminectomy, Laminotomy, Laminoplasty, Facetectomy, Foraminotomy, Discectomy) Cervical decompression with or without fusion is considered medically necessary to treat ANY of the following conditions:",
   "heading_verified": true,
   "criteria": [
    {
@@ -778,14 +776,6 @@
    },
    {
     "text": "Conservative management1 must include a combination of strategies to reduce inflammation, alleviate pain, and correct underlying dysfunction, including physical therapy AND at least ONE complementary conservative treatment strategy.",
-    "topic": "conservative_care"
-   },
-   {
-    "text": "Physical therapy rendered by a qualified provider of physical therapy services",
-    "topic": "conservative_care"
-   },
-   {
-    "text": "Complementary conservative treatment requirement includes ANY of the following:",
     "topic": "conservative_care"
    },
    {
@@ -825,7 +815,7 @@
     "topic": "conservative_care"
    },
    {
-    "text": "frequent falls, hyperreflexia, Hoffmann sign, increased tone or spasticity, gait abnormality, or pathologic Babinski sign",
+    "text": "Clinical signs and symptoms of myelopathy which may include loss of dexterity, urinary urgency, new - onset bowel or bladder incontinence, frequent falls, hyperreflexia, Hoffmann sign, increased tone or spasticity, gait abnormality, or pathologic Babinski sign",
     "topic": "clinical"
    },
    {
@@ -833,34 +823,35 @@
     "topic": "imaging"
    },
    {
+    "text": "Symptomatic, non-traumatic cervical spondylosis as demonstrated by EITHER of the following radiographic findings: o Sagittal plane angulation of greater than 11 degrees between adjacent segments o Subluxation or translation of greater than 3 mm on static lateral views or dynamic radiographs",
+    "topic": "imaging"
+   },
+   {
     "text": "Documentation of a synovial cyst on CT or MRI performed within the past 6 months which correlates with symptoms and exam findings",
     "topic": "imaging"
    },
    {
-    "text": "Subluxation or translation of greater than 3 mm on static lateral views or dynamic radiographs",
-    "topic": "imaging"
-   },
-   {
-    "text": "Recurrent symptoms or functional impairment has not responded to at least 6 weeks of conservative management following confirmation of the diagnosis",
-    "topic": "conservative_care"
+    "text": "Tobacco cessation. Adherence to a tobacco cessation program resulting in abstinence from tobacco for at least 6 weeks prior to spinal surgery is strongly recommended to reduce the risk of pseudoarthrosis.",
+    "topic": "other"
    }
   ],
   "dropped_not_in_document": [],
   "dropped_other_operation": [],
   "why_not": "",
-  "doc_chars": 120000,
+  "doc_chars": 211729,
   "doc_truncated_for_model": false,
+  "doc_cut_in_cache": false,
   "model": "claude-opus-5",
   "usage": {
    "input_tokens": 44,
-   "output_tokens": 2936,
-   "cache_creation_input_tokens": 41213,
+   "output_tokens": 2637,
+   "cache_creation_input_tokens": 76215,
    "cache_read_input_tokens": 0
   },
-  "extracted_at": "2026-09-21 11:34:52",
+  "extracted_at": "2026-09-21 11:56:23",
   "stop_reason": "end_turn",
   "error": "",
-  "usd": 0.3312
+  "usd": 0.5425
  },
  "https://guidelines.carelonmedicalbenefitsmanagement.com/small-joint-surgery-2025-11-15/||28296": {
   "url": "https://guidelines.carelonmedicalbenefitsmanagement.com/small-joint-surgery-2025-11-15/",
@@ -1150,10 +1141,6 @@
     "topic": "imaging"
    },
    {
-    "text": "Cystic changes in the humeral head",
-    "topic": "imaging"
-   },
-   {
     "text": "Failure of conservative management of at least 6 weeks’ duration (unless radiographs show Kellgren-Lawrence grade 4 or diffuse modified Outerbridge grade III-IV changes)",
     "topic": "conservative_care"
    },
@@ -1182,31 +1169,35 @@
     "topic": "conservative_care"
    },
    {
+    "text": "Worsening of or no significant improvement in signs and/or symptoms upon clinical reevaluation",
+    "topic": "clinical"
+   },
+   {
     "text": "Imaging reports obtained within the past 12 months describing the degree of cartilage damage as determined by either or both of the following methods:",
+    "topic": "imaging"
+   },
+   {
+    "text": "Imaging reports should be thorough and describe the presence or absence of subchondral cysts, subchondral sclerosis, periarticular osteophytes, joint subluxation, avascular necrosis , or bone on bone articulations. The degree of joint space narrowing should also be noted.",
     "topic": "imaging"
    }
   ],
-  "dropped_not_in_document": [
-   {
-    "text": "Irregular joint surfaces",
-    "topic": "other"
-   }
-  ],
+  "dropped_not_in_document": [],
   "dropped_other_operation": [],
   "why_not": "",
-  "doc_chars": 120000,
+  "doc_chars": 241279,
   "doc_truncated_for_model": false,
+  "doc_cut_in_cache": false,
   "model": "claude-opus-5",
   "usage": {
    "input_tokens": 45,
-   "output_tokens": 2238,
-   "cache_creation_input_tokens": 40481,
+   "output_tokens": 2198,
+   "cache_creation_input_tokens": 86378,
    "cache_read_input_tokens": 0
   },
-  "extracted_at": "2026-09-21 11:35:14",
+  "extracted_at": "2026-09-21 11:56:24",
   "stop_reason": "end_turn",
   "error": "",
-  "usd": 0.3092
+  "usd": 0.595
  },
  "https://files.providernews.anthem.com/4827/pdf-Spine-Surgery-2024-10-20.pdf||63030": {
   "url": "https://files.providernews.anthem.com/4827/pdf-Spine-Surgery-2024-10-20.pdf",
@@ -1216,12 +1207,44 @@
   "heading_verified": true,
   "criteria": [
    {
+    "text": "Documentation supporting medical necessity and a clearly stated plan of care should be submitted at the time of the request and must include the following components:",
+    "topic": "documentation"
+   },
+   {
+    "text": "Conservative management1 must include a combination of strategies to reduce inflammation, alleviate pain, and correct underlying dysfunction, including physical therapy AND at least ONE complementary conservative treatment strategy.",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "Patient has completed a full course of conservative management (as defined above) for the current episode of care",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "Worsening of or no significant improvement in signs and/or symptoms upon clinical reevaluation",
+    "topic": "clinical"
+   },
+   {
+    "text": "Documentation of compliance with a plan of therapy that includes elements from these areas is required where conservative management is appropriate.",
+    "topic": "documentation"
+   },
+   {
+    "text": "The requirement for a period of conservative management as a prerequisite to a surgical procedure is waived when there is evidence of progressive nerve or spinal cord compression resulting in a significant neurologic deficit, or when cauda equina syndrome or conus medullaris syndrome is present, and urgent intervention is indicated.",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "For purposes of this guideline, significant pain and functional impairment refer to pain rated at least 3 out of 10 in intensity and associated with inability to perform at least two (2) ADLs and/or IADLs.",
+    "topic": "clinical"
+   },
+   {
+    "text": "Imaging studies. All imaging must be performed and read by an independent radiologist. If discrepancies should arise in the interpretation of the imaging, the radiologist report will supersede. The results of all imaging studies should correlate with the clinical findings in support of the requested procedure.",
+    "topic": "imaging"
+   },
+   {
     "text": "Acute neurologic deterioration including signs and symptoms of cauda equina syndrome, or rapid progression of neurologic deficits confirmed by imaging, regardless of underlying pathology.",
     "topic": "clinical"
    },
    {
     "text": "Initial disc herniation when ALL of the following criteria are met:",
-    "topic": "clinical"
+    "topic": "other"
    },
    {
     "text": "Radicular pain (radiculitis/radiculopathy) with significant functional impairment or physical exam findings that correlate with radiculopathy or nerve root compression such as:",
@@ -1237,61 +1260,34 @@
    },
    {
     "text": "All other reasonable sources of pain have been ruled out",
-    "topic": "other"
+    "topic": "clinical"
    },
    {
     "text": "Failure of at least 6 weeks of conservative management (Physical therapy optional)",
     "topic": "conservative_care"
    },
    {
-    "text": "Recurrent disc herniation when BOTH criteria are met:",
-    "topic": "clinical"
-   },
-   {
-    "text": "Conservative management1 must include a combination of strategies to reduce inflammation, alleviate pain, and correct underlying dysfunction, including physical therapy AND at least ONE complementary conservative treatment strategy.",
+    "text": "Recurrent disc herniation when BOTH criteria are met: • Requirements for initial herniation • Failure of at least 6 weeks of conservative management",
     "topic": "conservative_care"
-   },
-   {
-    "text": "Patient has completed a full course of conservative management (as defined above) for the current episode of care",
-    "topic": "conservative_care"
-   },
-   {
-    "text": "Worsening of or no significant improvement in signs and/or symptoms upon clinical reevaluation",
-    "topic": "clinical"
-   },
-   {
-    "text": "Documentation supporting medical necessity and a clearly stated plan of care should be submitted at the time of the request and must include the following components:",
-    "topic": "documentation"
-   },
-   {
-    "text": "Documentation of compliance with a plan of therapy that includes elements from these areas is required where conservative management is appropriate.",
-    "topic": "documentation"
-   },
-   {
-    "text": "For purposes of this guideline, significant pain and functional impairment refer to pain rated at least 3 out of 10 in intensity and associated with inability to perform at least two (2) ADLs and/or IADLs.",
-    "topic": "clinical"
-   },
-   {
-    "text": "All imaging must be performed and read by an independent radiologist. If discrepancies should arise in the interpretation of the imaging, the radiologist report will supersede. The results of all imaging studies should correlate with the clinical findings in support of the requested procedure.",
-    "topic": "imaging"
    }
   ],
   "dropped_not_in_document": [],
   "dropped_other_operation": [],
   "why_not": "",
-  "doc_chars": 120000,
+  "doc_chars": 211729,
   "doc_truncated_for_model": false,
+  "doc_cut_in_cache": false,
   "model": "claude-opus-5",
   "usage": {
    "input_tokens": 50,
-   "output_tokens": 2473,
+   "output_tokens": 2724,
    "cache_creation_input_tokens": 0,
-   "cache_read_input_tokens": 41213
+   "cache_read_input_tokens": 76215
   },
-  "extracted_at": "2026-09-21 11:35:16",
+  "extracted_at": "2026-09-21 11:56:51",
   "stop_reason": "end_turn",
   "error": "",
-  "usd": 0.0827
+  "usd": 0.1065
  },
  "https://help.coherehealth.com/payer-info/en/articles/13602157-avera-health-plan-commercial-guidelines||28296": {
   "url": "https://help.coherehealth.com/payer-info/en/articles/13602157-avera-health-plan-commercial-guidelines",
@@ -1535,10 +1531,6 @@
     "topic": "clinical"
    },
    {
-    "text": "Symptomatic hip arthrodesis",
-    "topic": "clinical"
-   },
-   {
     "text": "Joint damage or destruction due to osteoarthritis, inflammatory disease or other chronic condition when ALL the following requirements have been met:",
     "topic": "clinical"
    },
@@ -1575,34 +1567,39 @@
     "topic": "clinical"
    },
    {
+    "text": "Documentation of compliance with a plan of therapy that includes elements from these areas is required where conservative management is appropriate.",
+    "topic": "documentation"
+   },
+   {
+    "text": "For purposes of this guideline, significant pain and functional impairment refer to pain rated at least 3 out of 10 in intensity and associated with inability to perform ADLs and/or IADLs.",
+    "topic": "clinical"
+   },
+   {
     "text": "Imaging reports obtained within the past 12 months describing the degree of cartilage damage as determined by either or both of the following methods:",
     "topic": "imaging"
    },
    {
     "text": "Imaging reports should be thorough and describe the presence or absence of subchondral cysts, subchondral sclerosis, periarticular osteophytes, joint subluxation, avascular necrosis , or bone on bone articulations. The degree of joint space narrowing should also be noted.",
     "topic": "imaging"
-   },
-   {
-    "text": "For purposes of this guideline, significant pain and functional impairment refer to pain rated at least 3 out of 10 in intensity and associated with inability to perform ADLs and/or IADLs.",
-    "topic": "clinical"
    }
   ],
   "dropped_not_in_document": [],
   "dropped_other_operation": [],
   "why_not": "",
-  "doc_chars": 120000,
+  "doc_chars": 241279,
   "doc_truncated_for_model": false,
+  "doc_cut_in_cache": false,
   "model": "claude-opus-5",
   "usage": {
    "input_tokens": 41,
-   "output_tokens": 2424,
+   "output_tokens": 2069,
    "cache_creation_input_tokens": 0,
-   "cache_read_input_tokens": 40481
+   "cache_read_input_tokens": 86378
   },
-  "extracted_at": "2026-09-21 11:35:37",
+  "extracted_at": "2026-09-21 11:56:47",
   "stop_reason": "end_turn",
   "error": "",
-  "usd": 0.081
+  "usd": 0.0951
  },
  "https://priorityhealth.stylelabs.cloud/api/public/content/5f005b3ee3044b68ad920d57974c2d68?v=785108c8||22551": {
   "url": "https://priorityhealth.stylelabs.cloud/api/public/content/5f005b3ee3044b68ad920d57974c2d68?v=785108c8",
@@ -1814,9 +1811,13 @@
   "url": "https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/PDF-Joint-Surgery-2025-11-15.pdf",
   "cpt": "29806",
   "covered": true,
-  "section_heading": "Capsulorrhaphy is considered medically necessary when ALL the following criteria are met:",
+  "section_heading": "Chronic shoulder instability or laxity",
   "heading_verified": true,
   "criteria": [
+   {
+    "text": "Capsulorrhaphy is considered medically necessary when ALL the following criteria are met:",
+    "topic": "other"
+   },
    {
     "text": "History of a shoulder dislocation or recurrent subluxation",
     "topic": "clinical"
@@ -1859,46 +1860,42 @@
    },
    {
     "text": "Worsening of or no significant improvement in signs and/or symptoms upon clinical reevaluation",
-    "topic": "conservative_care"
+    "topic": "clinical"
    },
    {
-    "text": "Documentation supporting medical necessity and a clearly stated plan of care should be submitted at the time of the request and must include the following components:",
-    "topic": "documentation"
+    "text": "More invasive forms of therapy are being considered",
+    "topic": "clinical"
    },
    {
     "text": "Imaging report. The provider shall submit a detailed imaging report for studies obtained within the past 12 months. In the absence of a detailed report, the provider may submit a report from an independent radiologist.",
     "topic": "documentation"
    },
    {
-    "text": "For purposes of this guideline, significant pain and functional impairment refer to pain rated at least 3 out of 10 in intensity and associated with inability to perform ADLs and/or IADLs.",
-    "topic": "clinical"
-   }
-  ],
-  "dropped_not_in_document": [
-   {
-    "text": "Hill-Sachs lesion",
-    "topic": "other"
+    "text": "For advanced imaging (CT, MRI, ultrasound, bone scan), there must be a report from a radiologist that correlates with clinical findings. In the absence of such a report, the summary findings from the radiology report should be included in the clinical records.",
+    "topic": "documentation"
    },
    {
-    "text": "Capsular tear",
-    "topic": "other"
+    "text": "Documentation of compliance with a plan of therapy that includes elements from these areas is required where conservative management is appropriate.",
+    "topic": "documentation"
    }
   ],
+  "dropped_not_in_document": [],
   "dropped_other_operation": [],
   "why_not": "",
-  "doc_chars": 120000,
+  "doc_chars": 241279,
   "doc_truncated_for_model": false,
+  "doc_cut_in_cache": false,
   "model": "claude-opus-5",
   "usage": {
    "input_tokens": 55,
-   "output_tokens": 1985,
+   "output_tokens": 1923,
    "cache_creation_input_tokens": 0,
-   "cache_read_input_tokens": 40481
+   "cache_read_input_tokens": 86378
   },
-  "extracted_at": "2026-09-21 11:35:56",
+  "extracted_at": "2026-09-21 11:57:07",
   "stop_reason": "end_turn",
   "error": "",
-  "usd": 0.0701
+  "usd": 0.0915
  },
  "https://static.cigna.com/assets/chcp/pdf/coveragePolicies/medical/mm_0285_coveragepositioncriteria_total_ankle_arthroplasty.pdf||27702": {
   "url": "https://static.cigna.com/assets/chcp/pdf/coveragePolicies/medical/mm_0285_coveragepositioncriteria_total_ankle_arthroplasty.pdf",
@@ -1966,7 +1963,7 @@
   "heading_verified": true,
   "criteria": [
    {
-    "text": "Pain and functional disability that interferes with activities of daily living (ADLs) from injury due to osteoarthritis, rheumatoid arthritis, avascular necrosis, or post-traumatic arthritis of the hip joint",
+    "text": "Member has advanced joint disease demonstrated by: Pain and functional disability that interferes with activities of daily living (ADLs) from injury due to osteoarthritis, rheumatoid arthritis, avascular necrosis, or post-traumatic arthritis of the hip joint; and",
     "topic": "clinical"
    },
    {
@@ -1974,7 +1971,7 @@
     "topic": "clinical"
    },
    {
-    "text": "Radiographic evidence of either of the following: Avascular necrosis (osteonecrosis) with stage II or III disease; or Moderate/severe osteoarthritis or rheumatoid arthritis of the hip joint (Tonnis grade 2 or 3; see Appendix for Tonnis grading scale)",
+    "text": "Radiographic evidence of either of the following: Avascular necrosis (osteonecrosis) with stage II or III disease; or Moderate/severe osteoarthritis or rheumatoid arthritis of the hip joint (Tonnis grade 2 or 3; see Appendix for Tonnis grading scale); and",
     "topic": "imaging"
    },
    {
@@ -1986,31 +1983,31 @@
     "topic": "documentation"
    },
    {
-    "text": "If conservative therapy is not appropriate (such as for progressive flexion contracture, avascular necrosis with collapse of the femoral head, or bone on bone arthritis in the weight-bearing portion of the joint for example), the medical record must clearly document why such approach is not reasonable",
+    "text": "If conservative therapy is not appropriate (such as for progressive flexion contracture, avascular necrosis with collapse of the femoral head, or bone on bone arthritis in the weight-bearing portion of the joint for example), the medical record must clearly document why such approach is not reasonable; or",
     "topic": "documentation"
    },
    {
-    "text": "Fracture of the femoral neck by imaging",
+    "text": "Fracture of the femoral neck by imaging; or",
     "topic": "imaging"
    },
    {
-    "text": "Malunion of acetabular, femoral head or proximal femur fracture with pain interfering with ADLs",
+    "text": "Malunion of acetabular, femoral head or proximal femur fracture with pain interfering with ADLs; or",
     "topic": "clinical"
    },
    {
-    "text": "Nonunion by imaging or failure of previous hip fracture surgery",
+    "text": "Nonunion by imaging or failure of previous hip fracture surgery; or",
     "topic": "imaging"
    },
    {
-    "text": "Malignancy of the joint involving the bones or soft tissues of the pelvis or proximal femur by imaging",
+    "text": "Malignancy of the joint involving the bones or soft tissues of the pelvis or proximal femur by imaging;",
     "topic": "imaging"
    },
    {
-    "text": "Members with osteoarthritis, traumatic arthritis, rheumatoid arthritis, or avascular necrosis should have at least 12 weeks of non-surgical treatment documented in the medical record",
+    "text": "Members with osteoarthritis, traumatic arthritis, rheumatoid arthritis, or avascular necrosis should have at least 12 weeks of non-surgical treatment documented in the medical record (at least 24 weeks for persons with a relative contraindication Footnote2 ** ), including all of the following, unless contraindicated:",
     "topic": "conservative_care"
    },
    {
-    "text": "Anti-inflammatory medications or analgesics; and Flexibility and muscle strengthening exercises, and Activity modification",
+    "text": "Anti-inflammatory medications or analgesics; and Flexibility and muscle strengthening exercises, and Activity modification; and",
     "topic": "conservative_care"
    },
    {
@@ -2018,12 +2015,16 @@
     "topic": "conservative_care"
    },
    {
-    "text": "Assistive device use (required for persons with relative contraindications Footnote2 ** to joint replacement, optional for others)",
+    "text": "Assistive device use (required for persons with relative contraindications Footnote2 ** to joint replacement, optional for others); and",
     "topic": "conservative_care"
    },
    {
-    "text": "Therapeutic injections into the hip (required for persons with relative contraindications Footnote2 ** to joint replacement, optional for others)",
+    "text": "Therapeutic injections into the hip (required for persons with relative contraindications Footnote2 ** to joint replacement, optional for others); or",
     "topic": "conservative_care"
+   },
+   {
+    "text": "For persons with significant conditions or co-morbidities, the risk/benefit of THA should be appropriately addressed in the medical record.",
+    "topic": "documentation"
    },
    {
     "text": "If member is diabetic, their hemoglobin A1C (HbA1c) should be less than 8 percent within 3 months prior to hip arthroplasty.",
@@ -2033,19 +2034,20 @@
   "dropped_not_in_document": [],
   "dropped_other_operation": [],
   "why_not": "",
-  "doc_chars": 120000,
+  "doc_chars": 208519,
   "doc_truncated_for_model": false,
+  "doc_cut_in_cache": false,
   "model": "claude-opus-5",
   "usage": {
    "input_tokens": 41,
-   "output_tokens": 3056,
-   "cache_creation_input_tokens": 41584,
+   "output_tokens": 1600,
+   "cache_creation_input_tokens": 75033,
    "cache_read_input_tokens": 0
   },
-  "extracted_at": "2026-09-21 11:36:13",
+  "extracted_at": "2026-09-21 11:56:27",
   "stop_reason": "end_turn",
   "error": "",
-  "usd": 0.3365
+  "usd": 0.5092
  },
  "https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/PDF-Joint-Surgery-2025-11-15.pdf||29827": {
   "url": "https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/PDF-Joint-Surgery-2025-11-15.pdf",
@@ -2079,6 +2081,10 @@
     "topic": "imaging"
    },
    {
+    "text": "Rotator cuff repair is considered medically necessary for a chronic or degenerative full thickness tear when ALL the following criteria are met:",
+    "topic": "clinical"
+   },
+   {
     "text": "Gradual onset of shoulder pain in the absence of a significant traumatic event within the preceding 3 months",
     "topic": "clinical"
    },
@@ -2107,34 +2113,35 @@
     "topic": "imaging"
    },
    {
+    "text": "Imaging report. The provider shall submit a detailed imaging report for studies obtained within the past 12 months. In the absence of a detailed report, the provider may submit a report from an independent radiologist.",
+    "topic": "documentation"
+   },
+   {
     "text": "Conservative management1 must include a combination of strategies to reduce inflammation, alleviate pain, and correct underlying dysfunction, including physical therapy AND at least ONE complementary conservative treatment strategy.",
     "topic": "conservative_care"
    },
    {
     "text": "Patient has completed a full course of conservative management (as defined above) for the current episode of care",
     "topic": "conservative_care"
-   },
-   {
-    "text": "Imaging report. The provider shall submit a detailed imaging report for studies obtained within the past 12 months. In the absence of a detailed report, the provider may submit a report from an independent radiologist.",
-    "topic": "documentation"
    }
   ],
   "dropped_not_in_document": [],
   "dropped_other_operation": [],
   "why_not": "",
-  "doc_chars": 120000,
+  "doc_chars": 241279,
   "doc_truncated_for_model": false,
+  "doc_cut_in_cache": false,
   "model": "claude-opus-5",
   "usage": {
    "input_tokens": 38,
-   "output_tokens": 2018,
+   "output_tokens": 2222,
    "cache_creation_input_tokens": 0,
-   "cache_read_input_tokens": 40481
+   "cache_read_input_tokens": 86378
   },
-  "extracted_at": "2026-09-21 11:36:15",
+  "extracted_at": "2026-09-21 11:57:30",
   "stop_reason": "end_turn",
   "error": "",
-  "usd": 0.0709
+  "usd": 0.0989
  },
  "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/||29914": {
   "url": "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/",
@@ -2345,47 +2352,28 @@
   "dropped_not_in_document": [],
   "dropped_other_operation": [],
   "why_not": "",
-  "doc_chars": 120000,
+  "doc_chars": 239008,
   "doc_truncated_for_model": false,
+  "doc_cut_in_cache": false,
   "model": "claude-opus-5",
   "usage": {
    "input_tokens": 43,
-   "output_tokens": 1595,
-   "cache_creation_input_tokens": 42848,
+   "output_tokens": 1656,
+   "cache_creation_input_tokens": 88229,
    "cache_read_input_tokens": 0
   },
-  "extracted_at": "2026-09-21 11:36:29",
+  "extracted_at": "2026-09-21 11:56:36",
   "stop_reason": "end_turn",
   "error": "",
-  "usd": 0.3079
+  "usd": 0.593
  },
  "https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/PDF-Joint-Surgery-2025-11-15.pdf||29914": {
   "url": "https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/PDF-Joint-Surgery-2025-11-15.pdf",
   "cpt": "29914",
   "covered": true,
-  "section_heading": "Arthroscopic treatment of femoroacetabular impingement syndrome (FAIS)",
+  "section_heading": "Femoroplasty when ALL the following criteria are met:",
   "heading_verified": true,
   "criteria": [
-   {
-    "text": "Documentation supporting medical necessity and a clearly stated plan of care should be submitted at the time of the request and must include the following components:",
-    "topic": "documentation"
-   },
-   {
-    "text": "Imaging report. The provider shall submit a detailed imaging report for studies obtained within the past 12 months that correlates with clinical findings of the requested procedure.",
-    "topic": "documentation"
-   },
-   {
-    "text": "Conservative management1 must include a combination of strategies to reduce inflammation, alleviate pain, and correct underlying dysfunction, including physical therapy AND at least ONE complementary conservative treatment strategy.",
-    "topic": "conservative_care"
-   },
-   {
-    "text": "Patient has completed a full course of conservative management (as defined above) for the current episode of care",
-    "topic": "conservative_care"
-   },
-   {
-    "text": "Worsening of or no significant improvement in signs and/or symptoms upon clinical reevaluation",
-    "topic": "clinical"
-   },
    {
     "text": "Moderate to severe hip pain (primarily in the groin) worsened by flexion activities (e.g., squatting or prolonged sitting) that interferes with activities of daily living and is not explained by another diagnosis",
     "topic": "clinical"
@@ -2395,19 +2383,11 @@
     "topic": "clinical"
    },
    {
-    "text": "Imaging studies (radiographs, MRI, or 3D computed tomography) show pincer impingement as evidenced by ONE or more of the following:",
+    "text": "Imaging studies (radiographs, MRI, or 3D computed tomography) show cam impingement evidenced by ONE or more of the following:",
     "topic": "imaging"
    },
    {
-    "text": "Lateral center-edge angle (CEA) of Wiberg ≥ 40 degrees",
-    "topic": "imaging"
-   },
-   {
-    "text": "Coxa profunda or protrusion – acetabular fossa medial to ilioischial line",
-    "topic": "imaging"
-   },
-   {
-    "text": "Posterior wall sign – cross-over sign",
+    "text": "Femoral head-neck offset with an alpha angle greater than or equal to 55 degrees",
     "topic": "imaging"
    },
    {
@@ -2423,26 +2403,56 @@
     "topic": "conservative_care"
    },
    {
-    "text": "Capsular plication, capsular repair, labral reconstruction, iliotibial band windowing, trochanteric bursectomy, abductor muscle repair, and/or iliopsoas tenotomy, when performed at the time of any FAIS surgery, would be considered a component of and incidental to the FAIS procedure.",
-    "topic": "other"
+    "text": "*Less than the full duration of conservative management is permitted for an alpha angle greater than 65 degrees",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "Documentation of a likely causal association between the femoroacetabular impingement morphology and damage, e.g., a pistol-grip deformity with a tear of the acetabular labrum and articular cartilage damage in the anterosuperior quadrant",
+    "topic": "documentation"
+   },
+   {
+    "text": "Conservative management1 must include a combination of strategies to reduce inflammation, alleviate pain, and correct underlying dysfunction, including physical therapy AND at least ONE complementary conservative treatment strategy.",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "Patient has completed a full course of conservative management (as defined above) for the current episode of care",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "Worsening of or no significant improvement in signs and/or symptoms upon clinical reevaluation",
+    "topic": "clinical"
+   },
+   {
+    "text": "Imaging report. The provider shall submit a detailed imaging report for studies obtained within the past 12 months that correlates with clinical findings of the requested procedure.",
+    "topic": "documentation"
+   },
+   {
+    "text": "Documentation of compliance with a plan of therapy that includes elements from these areas is required where conservative management is appropriate.",
+    "topic": "documentation"
    }
   ],
-  "dropped_not_in_document": [],
+  "dropped_not_in_document": [
+   {
+    "text": "Pistol-grip deformity",
+    "topic": "imaging"
+   }
+  ],
   "dropped_other_operation": [],
   "why_not": "",
-  "doc_chars": 120000,
+  "doc_chars": 241279,
   "doc_truncated_for_model": false,
+  "doc_cut_in_cache": false,
   "model": "claude-opus-5",
   "usage": {
    "input_tokens": 49,
-   "output_tokens": 2487,
+   "output_tokens": 1912,
    "cache_creation_input_tokens": 0,
-   "cache_read_input_tokens": 40481
+   "cache_read_input_tokens": 86378
   },
-  "extracted_at": "2026-09-21 11:36:38",
+  "extracted_at": "2026-09-21 11:57:49",
   "stop_reason": "end_turn",
   "error": "",
-  "usd": 0.0827
+  "usd": 0.0912
  },
  "https://www.aetna.com/cpb/medical/data/700_799/0736.html||29914": {
   "url": "https://www.aetna.com/cpb/medical/data/700_799/0736.html",
@@ -2650,19 +2660,19 @@
     "topic": "conservative_care"
    },
    {
-    "text": "The member should participate in physical therapy for the entire required duration of conservative management (six weeks or three months, depending upon the indication for surgery).",
+    "text": "The member should participate in physical therapy for the entire required duration of conservative management (six weeks or three months, depending upon the indication for surgery). Physical therapy needs to be confirmed either by the actual PT notes, or by documentation in the member claims history.",
     "topic": "conservative_care"
    },
    {
-    "text": "Physical therapy needs to be confirmed either by the actual PT notes, or by documentation in the member claims history.",
-    "topic": "documentation"
+    "text": "The requirement for a trial of conservative measures may be waived in the following situations indicating need for urgent intervention: Spinal cord compression (this does not include nerve root compression); Stenosis causing cauda equina syndrome; Stenosis causing myelopathy (only applicable for cervical and thoracic spine cases, not lumbar)",
+    "topic": "conservative_care"
    },
    {
     "text": "Member should be nicotine-free (including smoking, use of tobacco products, and nicotine replacement therapy) for at least 6 weeks prior to surgery.",
     "topic": "clinical"
    },
    {
-    "text": "documentation of nicotine cessation should include a lab report (not surgeon summary) showing blood and/or urine nicotine level of less than or equal to 10 ng/ml (or urinary cotinine levels of less than or equal to 10 ng/ml), drawn within 6 weeks prior to surgery",
+    "text": "For persons with recent (within a year) nicotine use (unless there is an indication (e.g., myelopathy, cauda equina syndrome), severe weakness (graded 4 minus or less on MRC scale) or progressive weakness, or an associated infection/tumor and/or fracture), documentation of nicotine cessation should include a lab report (not surgeon summary) showing blood and/or urine nicotine level of less than or equal to 10 ng/ml (or urinary cotinine levels of less than or equal to 10 ng/ml), drawn within 6 weeks prior to surgery;",
     "topic": "documentation"
    },
    {
@@ -2681,19 +2691,20 @@
   "dropped_not_in_document": [],
   "dropped_other_operation": [],
   "why_not": "",
-  "doc_chars": 120000,
-  "doc_truncated_for_model": false,
+  "doc_chars": 466618,
+  "doc_truncated_for_model": true,
+  "doc_cut_in_cache": false,
   "model": "claude-opus-5",
   "usage": {
    "input_tokens": 44,
-   "output_tokens": 2789,
-   "cache_creation_input_tokens": 45362,
+   "output_tokens": 2613,
+   "cache_creation_input_tokens": 123815,
    "cache_read_input_tokens": 0
   },
-  "extracted_at": "2026-09-21 11:36:55",
+  "extracted_at": "2026-09-21 11:56:54",
   "stop_reason": "end_turn",
   "error": "",
-  "usd": 0.3535
+  "usd": 0.8394
  },
  "https://www.bcbsms.com/policy-search/medical/policy-detail/total-ankle-replacement||27702": {
   "url": "https://www.bcbsms.com/policy-search/medical/policy-detail/total-ankle-replacement",
@@ -3329,7 +3340,7 @@
   "criteria": [
    {
     "text": "Adult scoliosis confirmed by imaging studies, with Cobb angle greater than 50 degrees associated with functional impairment in skeletally mature adults, that has failed 3 months of conservative management",
-    "topic": "clinical"
+    "topic": "imaging"
    },
    {
     "text": "Lumbar pseudarthrosis (defined as absence of bridging bone that connects the vertebrae, or movement of vertebrae at site of prior attempted arthrodesis on dynamic radiographs) after 12 months have elapsed since the time of fusion",
@@ -3364,12 +3375,12 @@
     "topic": "imaging"
    },
    {
-    "text": "Spondylolisthesis with segmental instability confirmed by imaging studies (e.g., CT or MRI), with associated symptomatic unremitting low back pain, radiculopathy or neurogenic claudication, when either of the following criteria are met:",
+    "text": "Spondylolisthesis with segmental instability confirmed by imaging studies (e.g., CT or MRI), with associated symptomatic unremitting low back pain, radiculopathy or neurogenic claudication, when either of the following criteria are met",
     "topic": "clinical"
    },
    {
     "text": "Radiographic documentation of significant spondylolisthesis, grades II, III, IV, or V (see Appendix ) that has failed six weeks of conservative management",
-    "topic": "imaging"
+    "topic": "conservative_care"
    },
    {
     "text": "Radiographic documentation dynamic instability of at least 4 mm of translation or 10 degrees of angular motion on dynamic imaging that has failed 6 weeks of conservative management",
@@ -3395,19 +3406,20 @@
   "dropped_not_in_document": [],
   "dropped_other_operation": [],
   "why_not": "",
-  "doc_chars": 120000,
-  "doc_truncated_for_model": false,
+  "doc_chars": 466618,
+  "doc_truncated_for_model": true,
+  "doc_cut_in_cache": false,
   "model": "claude-opus-5",
   "usage": {
    "input_tokens": 34,
-   "output_tokens": 4440,
-   "cache_creation_input_tokens": 0,
-   "cache_read_input_tokens": 45362
+   "output_tokens": 3963,
+   "cache_creation_input_tokens": 162056,
+   "cache_read_input_tokens": 0
   },
-  "extracted_at": "2026-09-21 11:37:37",
+  "extracted_at": "2026-09-21 11:57:33",
   "stop_reason": "end_turn",
   "error": "",
-  "usd": 0.1339
+  "usd": 1.1121
  },
  "https://www.evicore.com/sites/default/files/clinical-guidelines/2026-04/Cigna_CMM-311%20Knee%20Replac%20Arthro_V1.0.2026_Eff08.04.2026_Pub04.20.2026.pdf||27446": {
   "url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2026-04/Cigna_CMM-311%20Knee%20Replac%20Arthro_V1.0.2026_Eff08.04.2026_Pub04.20.2026.pdf",
@@ -3704,36 +3716,37 @@
   "dropped_not_in_document": [
    {
     "text": "limited range of motion",
-    "topic": "other"
+    "topic": "clinical"
    },
    {
     "text": "joint line tenderness",
-    "topic": "other"
+    "topic": "clinical"
    },
    {
     "text": "positive McMurray's test",
-    "topic": "other"
+    "topic": "clinical"
    },
    {
     "text": "positive Thessaly test",
-    "topic": "other"
+    "topic": "clinical"
    }
   ],
   "dropped_other_operation": [],
   "why_not": "",
-  "doc_chars": 120000,
+  "doc_chars": 123579,
   "doc_truncated_for_model": false,
+  "doc_cut_in_cache": false,
   "model": "claude-opus-5",
   "usage": {
    "input_tokens": 39,
-   "output_tokens": 1093,
-   "cache_creation_input_tokens": 50215,
+   "output_tokens": 928,
+   "cache_creation_input_tokens": 51886,
    "cache_read_input_tokens": 0
   },
-  "extracted_at": "2026-09-21 11:37:48",
+  "extracted_at": "2026-09-21 11:56:45",
   "stop_reason": "end_turn",
   "error": "",
-  "usd": 0.3414
+  "usd": 0.3477
  },
  "https://www.evicore.com/sites/default/files/clinical-guidelines/2026-04/Cigna_CMM-311%20Knee%20Replac%20Arthro_V1.0.2026_Eff08.04.2026_Pub04.20.2026.pdf||27447": {
   "url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2026-04/Cigna_CMM-311%20Knee%20Replac%20Arthro_V1.0.2026_Eff08.04.2026_Pub04.20.2026.pdf",
@@ -4019,46 +4032,47 @@
    },
    {
     "text": "a confirmed ACL tear and a repairable meniscus tear",
-    "topic": "clinical"
+    "topic": "conservative_care"
    },
    {
     "text": "concomitant ligament injuries (i.e., multi-ligamentous knee injury) that require reconstruction to provide stability",
-    "topic": "clinical"
+    "topic": "conservative_care"
    }
   ],
   "dropped_not_in_document": [
    {
     "text": "Lachman's test",
-    "topic": "other"
+    "topic": "clinical"
    },
    {
     "text": "anterior drawer test",
-    "topic": "other"
+    "topic": "clinical"
    },
    {
     "text": "pivot shift test",
-    "topic": "other"
+    "topic": "clinical"
    },
    {
     "text": "demands of employment",
-    "topic": "other"
+    "topic": "clinical"
    }
   ],
   "dropped_other_operation": [],
   "why_not": "",
-  "doc_chars": 120000,
+  "doc_chars": 123579,
   "doc_truncated_for_model": false,
+  "doc_cut_in_cache": false,
   "model": "claude-opus-5",
   "usage": {
    "input_tokens": 44,
-   "output_tokens": 738,
+   "output_tokens": 747,
    "cache_creation_input_tokens": 0,
-   "cache_read_input_tokens": 50215
+   "cache_read_input_tokens": 51886
   },
-  "extracted_at": "2026-09-21 11:37:55",
+  "extracted_at": "2026-09-21 11:56:53",
   "stop_reason": "end_turn",
   "error": "",
-  "usd": 0.0438
+  "usd": 0.0448
  },
  "https://www.evicore.com/sites/default/files/clinical-guidelines/2026-04/Cigna_CMM-314%20Hip%20Surg%20Arthro%20%26%20Open%20Proc_V1.0.2026_Eff08.04.2026_Pub04.20.2026.pdf||29914": {
   "url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2026-04/Cigna_CMM-314%20Hip%20Surg%20Arthro%20%26%20Open%20Proc_V1.0.2026_Eff08.04.2026_Pub04.20.2026.pdf",
@@ -4662,7 +4676,7 @@
     "topic": "clinical"
    },
    {
-    "text": "Failure of conservative treatment* for a minimum of six (6) weeks within the last six (6) months;",
+    "text": "Failure of conservative treatment* for a minimum of six (6) weeks within the last six (6) months",
     "topic": "conservative_care"
    },
    {
@@ -4671,15 +4685,15 @@
    },
    {
     "text": "Closure of medical or therapy offices, patient inconvenience, or noncompliance without explanation does not constitute “inability to complete” treatment.",
+    "topic": "documentation"
+   },
+   {
+    "text": "Non-operative conservative treatment should include a multimodality approach consisting of at least one (1) active and one (1) inactive component targeting the affected spinal region.",
     "topic": "conservative_care"
    },
    {
     "text": "Imaging studies corresponding to the clinical findings",
     "topic": "imaging"
-   },
-   {
-    "text": "At least ONE of the following clinical conditions:",
-    "topic": "clinical"
    },
    {
     "text": "Spondylolisthesis (neural arch defect - spondylolytic spondylolisthesis, degenerative spondylolisthesis, and congenital unilateral neural arch hypoplasia)",
@@ -4706,11 +4720,7 @@
     "topic": "conservative_care"
    },
    {
-    "text": "Lumbar spinal fusion may be used as the first line of treatment (no conservative treatment required) in the following clinical scenarios (1): ● Progressive nerve compression resulting in an acute neurologic deficit (motor) AND ○ One of the aforementioned clinical conditions, except chronic low back pain or degenerative disc disease.",
-    "topic": "clinical"
-   },
-   {
-    "text": "The neurological deficits must be significant: 0-2/5 on the motor function scale for L5 or S1 roots OR 0-3/5 for L3 or L4 roots. Lesser degrees of motor dysfunction may resolve with conservative treatment and are not considered an indication for early surgery.",
+    "text": "Progressive nerve compression resulting in an acute neurologic deficit (motor) AND ○ One of the aforementioned clinical conditions, except chronic low back pain or degenerative disc disease. The neurological deficits must be significant: 0-2/5 on the motor function scale for L5 or S1 roots OR 0-3/5 for L3 or L4 roots.",
     "topic": "clinical"
    },
    {
@@ -4725,33 +4735,70 @@
   "dropped_not_in_document": [],
   "dropped_other_operation": [],
   "why_not": "",
-  "doc_chars": 400000,
-  "doc_truncated_for_model": false,
+  "doc_chars": 486556,
+  "doc_truncated_for_model": true,
+  "doc_cut_in_cache": false,
   "model": "claude-opus-5",
   "usage": {
    "input_tokens": 34,
-   "output_tokens": 1378,
-   "cache_creation_input_tokens": 146212,
+   "output_tokens": 2350,
+   "cache_creation_input_tokens": 84993,
    "cache_read_input_tokens": 0
   },
-  "extracted_at": "2026-09-21 11:41:50",
+  "extracted_at": "2026-09-21 11:57:16",
   "stop_reason": "end_turn",
   "error": "",
-  "usd": 0.9484
+  "usd": 0.5901
  },
  "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf||23472": {
   "url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
   "cpt": "23472",
   "covered": true,
-  "section_heading": "Total Shoulder Arthroplasty (TSA)",
+  "section_heading": "Total Shoulder Arthroplasty may be necessary when the following criteria are met :",
   "heading_verified": true,
   "criteria": [
+   {
+    "text": "Clinical correlation of individual’s subjective complaints with objective exam findings and/or imaging (when applicable)",
+    "topic": "clinical"
+   },
+   {
+    "text": "Individual has limited function (age-appropriate activities of active daily livings (ADLs), occupational, or athletic)",
+    "topic": "clinical"
+   },
+   {
+    "text": "Individual does not have an active local or systemic infection",
+    "topic": "clinical"
+   },
+   {
+    "text": "Individual has good oral hygiene and does not have major dental work scheduled or",
+    "topic": "clinical"
+   },
+   {
+    "text": "Individual is medically stable and optimized for surgery, and any treatable comorbidities are adequately medically managed such as diabetes, nicotine addiction, or an excessively high BMI.",
+    "topic": "clinical"
+   },
+   {
+    "text": "Symptom onset, duration, and severity",
+    "topic": "documentation"
+   },
+   {
+    "text": "Type and duration of non-operative management modalities",
+    "topic": "documentation"
+   },
    {
     "text": "Evidence of painful osteoarthritis or inflammatory, non-infectious arthritis (e.g., rheumatoid) with functional limitations such as ADLs, employment, or recreation",
     "topic": "clinical"
    },
    {
+    "text": "Functional and intact rotator cuff and deltoid (adequate abduction strength); confirmed by physical examination, MRI, or CT scan",
+    "topic": "clinical"
+   },
+   {
     "text": "Complete or near-complete loss of joint space* on axillary or AP X-rays (internal rotation and/or external rotation)*",
+    "topic": "imaging"
+   },
+   {
+    "text": "*NOTE: In those with bone-on-bone articulation on axillary or true AP X-rays, non-operative treatment is not required",
     "topic": "imaging"
    },
    {
@@ -4772,49 +4819,30 @@
    },
    {
     "text": "No cortisone injection into the joint within 12 weeks of surgery",
-    "topic": "clinical"
+    "topic": "other"
    },
    {
     "text": "No prior arthroscopic surgery of the shoulder within 12 weeks of surgery",
-    "topic": "clinical"
-   },
-   {
-    "text": "Individual is medically stable and optimized for surgery, and any treatable comorbidities are adequately medically managed such as diabetes, nicotine addiction, or an excessively high BMI.",
-    "topic": "clinical"
-   },
-   {
-    "text": "Individual does not have active, untreated drug dependency (including but not limited to narcotics, opioids, muscle relaxants) unless engaged in treatment",
-    "topic": "clinical"
-   },
-   {
-    "text": "Clinical correlation of individual’s subjective complaints with objective exam findings and/or imaging (when applicable)",
-    "topic": "documentation"
-   },
-   {
-    "text": "In order for surgeries to be considered medically necessary there must be clear medical records that demonstrate a clear surgical plan that matches the request for surgery.",
-    "topic": "documentation"
-   },
-   {
-    "text": "Functional and intact rotator cuff and deltoid (adequate abduction strength); confirmed by physical examination, MRI, or CT scan",
-    "topic": "clinical"
+    "topic": "other"
    }
   ],
   "dropped_not_in_document": [],
   "dropped_other_operation": [],
   "why_not": "",
-  "doc_chars": 400000,
-  "doc_truncated_for_model": false,
+  "doc_chars": 486556,
+  "doc_truncated_for_model": true,
+  "doc_cut_in_cache": false,
   "model": "claude-opus-5",
   "usage": {
    "input_tokens": 45,
-   "output_tokens": 2472,
-   "cache_creation_input_tokens": 0,
-   "cache_read_input_tokens": 146212
+   "output_tokens": 2264,
+   "cache_creation_input_tokens": 70125,
+   "cache_read_input_tokens": 0
   },
-  "extracted_at": "2026-09-21 11:42:17",
+  "extracted_at": "2026-09-21 11:57:38",
   "stop_reason": "end_turn",
   "error": "",
-  "usd": 0.1351
+  "usd": 0.4951
  },
  "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf||27130": {
   "url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
@@ -4824,36 +4852,12 @@
   "heading_verified": true,
   "criteria": [
    {
-    "text": "Moderate to severe hip pain with documented loss of function, which may include painful weight bearing",
+    "text": "THA may be considered medically necessary as indicated in either sections 1 or 2:",
+    "topic": "other"
+   },
+   {
+    "text": "There is no medical necessity to perform THA in individuals with severe radiological disease and no symptoms, except in the case of malignancy.",
     "topic": "clinical"
-   },
-   {
-    "text": "Individual is medically stable and optimized for surgery, and any treatable comorbidities are adequately medically managed such as diabetes, nicotine addiction, or an excessively high body mass index (BMI).",
-    "topic": "clinical"
-   },
-   {
-    "text": "Individual does not have an active local or systemic infection",
-    "topic": "clinical"
-   },
-   {
-    "text": "Individual does not have active, untreated drug dependency (including but not limited to narcotics, opioids, muscle relaxants) unless engaged in treatment program",
-    "topic": "clinical"
-   },
-   {
-    "text": "Individual has good oral hygiene and does not have major dental work scheduled or anticipated (ideally, within one year of joint replacement)",
-    "topic": "clinical"
-   },
-   {
-    "text": "Type and duration of non-operative management modalities",
-    "topic": "documentation"
-   },
-   {
-    "text": "Discussion with patient regarding decision making and timing",
-    "topic": "documentation"
-   },
-   {
-    "text": "Non-operative management must include at least TWO or more of the following unless otherwise specified in clinical indications below (2):",
-    "topic": "conservative_care"
    },
    {
     "text": "Persistent pain and documented loss of function with radiographic evidence of disease from any of the following:",
@@ -4864,11 +4868,15 @@
     "topic": "imaging"
    },
    {
-    "text": "There is persistent pain and documented loss of function for at least 12 weeks and includes all the following (1,3,5):",
+    "text": "There is persistent pain and documented loss of function for at least 12 weeks and includes all the following",
     "topic": "clinical"
    },
    {
     "text": "Physical exam (PE) demonstrates findings of hip pathology as evidence by one or more of the following (PE is not required if bone-on-bone narrowing is present on X-ray):",
+    "topic": "clinical"
+   },
+   {
+    "text": "Painful, limited range of motion or antalgic gait",
     "topic": "clinical"
    },
    {
@@ -4888,26 +4896,43 @@
     "topic": "conservative_care"
    },
    {
+    "text": "Protected weight-bearing with cane, walker, or crutches",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "Physician supervised exercise program (including home exercise program)",
+    "topic": "conservative_care"
+   },
+   {
     "text": "No corticosteroid injection into the joint within 12 weeks of surgery (1,7–9)",
-    "topic": "other"
+    "topic": "clinical"
+   },
+   {
+    "text": "Individual is medically stable and optimized for surgery, and any treatable comorbidities are adequately medically managed such as diabetes, nicotine addiction, or an excessively high body mass index (BMI).",
+    "topic": "clinical"
+   },
+   {
+    "text": "Type and duration of non-operative management modalities",
+    "topic": "documentation"
    }
   ],
   "dropped_not_in_document": [],
   "dropped_other_operation": [],
   "why_not": "",
-  "doc_chars": 400000,
-  "doc_truncated_for_model": false,
+  "doc_chars": 486556,
+  "doc_truncated_for_model": true,
+  "doc_cut_in_cache": false,
   "model": "claude-opus-5",
   "usage": {
    "input_tokens": 41,
-   "output_tokens": 4010,
-   "cache_creation_input_tokens": 0,
-   "cache_read_input_tokens": 146212
+   "output_tokens": 2380,
+   "cache_creation_input_tokens": 44162,
+   "cache_read_input_tokens": 0
   },
-  "extracted_at": "2026-09-21 11:42:55",
+  "extracted_at": "2026-09-21 11:58:03",
   "stop_reason": "end_turn",
   "error": "",
-  "usd": 0.1736
+  "usd": 0.3357
  },
  "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf||27446": {
   "url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
@@ -4921,23 +4946,27 @@
     "topic": "clinical"
    },
    {
-    "text": "Unless bone-on-bone articulation is present, failure of at least 12 weeks of non- operative treatment, including at least TWO of the following",
+    "text": "Unless bone-on-bone articulation is present, failure of at least 12 weeks of non- operative treatment, including at least TWO of the following (4,5):",
     "topic": "conservative_care"
    },
    {
-    "text": "Rest or activity modifications/limitations ○ Weight reduction for individual with elevated BMI ○ Protected weight-bearing with cane, walker, or crutches ○ Brace/orthosis ○ Physical therapy modalities ○ Physician-supervised exercise program (including home exercise program) ○ Application of heat or ice",
+    "text": "Rest or activity modifications/limitations ○ Weight reduction for individual with elevated BMI ○ Protected weight-bearing with cane, walker, or crutches ○ Brace/orthosis ○ Physical therapy modalities ○ Physician-supervised exercise program (including home exercise program) ○ Application of heat or ice ○ Pharmacologic treatment: oral/topical NSAIDS, acetaminophen, or analgesics ○ Injections: corticosteroid or viscosupplementation",
     "topic": "conservative_care"
    },
    {
-    "text": "Total arc of motion (goniometer) > 90 degrees",
+    "text": "Total arc of motion (goniometer) > 90 degrees (20)",
     "topic": "clinical"
    },
    {
-    "text": "Contracture ≤ 10 degrees upon physical exam (goniometer)",
+    "text": "Normal anterior cruciate ligament (ACL) or stable reconstructed ACL per physical exam test (20,21)",
     "topic": "clinical"
    },
    {
-    "text": "Angular deformity ≤ 15 degrees, passively correctable to neutral upon physical exam (goniometer)",
+    "text": "Contracture ≤ 10 degrees upon physical exam (goniometer) (22)",
+    "topic": "clinical"
+   },
+   {
+    "text": "Angular deformity ≤ 15 degrees, passively correctable to neutral upon physical exam (goniometer) (20)",
     "topic": "clinical"
    },
    {
@@ -4945,19 +4974,19 @@
     "topic": "imaging"
    },
    {
-    "text": "NOTE: MRI should not be the primary radiographic test used to determine the presence or severity of arthritic changes in the joint",
+    "text": "NOTE: MRI should not be the primary radiographic test used to determine the presence or severity of arthritic changes in the joint (9)",
     "topic": "imaging"
    },
    {
-    "text": "No corticosteroid injection into the joint within 12 weeks of surgery",
-    "topic": "clinical"
+    "text": "No corticosteroid injection into the joint within 12 weeks of surgery (1,10–13)",
+    "topic": "other"
    },
    {
-    "text": "No prior arthroscopic knee surgery within 6 months of surgery",
-    "topic": "clinical"
+    "text": "No prior arthroscopic knee surgery within 6 months of surgery (14–16)",
+    "topic": "other"
    },
    {
-    "text": "ALL requests for simultaneous bilateral partial knee replacements should clearly indicate why simultaneous UKA is preferable to staged procedures. Associated risks with simultaneous bilateral partial knee replacements should also be discussed with the patient and documented in the medical record",
+    "text": "ALL requests for simultaneous bilateral partial knee replacements should clearly indicate why simultaneous UKA is preferable to staged procedures. Associated risks with simultaneous bilateral partial knee replacements should also be discussed with the patient and documented in the medical record (17,18)",
     "topic": "documentation"
    },
    {
@@ -4965,48 +4994,45 @@
     "topic": "clinical"
    },
    {
-    "text": "Clinical notes should address: ○ Symptom onset, duration, and severity ○ Loss of function and/or limitations ○ Type and duration of non-operative management modalities ○ Discussion with patient regarding decision making and timing",
-    "topic": "documentation"
-   },
-   {
     "text": "Individual is medically stable and optimized for surgery, and any treatable comorbidities are adequately medically managed such as diabetes, nicotine addiction, or an excessively high BMI.",
     "topic": "clinical"
    },
    {
-    "text": "Normal anterior cruciate ligament (ACL) or stable reconstructed ACL per physical exam test",
-    "topic": "clinical"
+    "text": "Clinical notes should address: ○ Symptom onset, duration, and severity ○ Loss of function and/or limitations ○ Type and duration of non-operative management modalities ○ Discussion with patient regarding decision making and timing",
+    "topic": "documentation"
+   },
+   {
+    "text": "In order for surgeries to be considered medically necessary there must be clear medical records that demonstrate a clear surgical plan that matches the request for surgery.",
+    "topic": "documentation"
    }
   ],
   "dropped_not_in_document": [],
   "dropped_other_operation": [],
   "why_not": "",
-  "doc_chars": 400000,
-  "doc_truncated_for_model": false,
+  "doc_chars": 486556,
+  "doc_truncated_for_model": true,
+  "doc_cut_in_cache": false,
   "model": "claude-opus-5",
   "usage": {
    "input_tokens": 39,
-   "output_tokens": 2319,
-   "cache_creation_input_tokens": 0,
-   "cache_read_input_tokens": 146212
+   "output_tokens": 2389,
+   "cache_creation_input_tokens": 57121,
+   "cache_read_input_tokens": 0
   },
-  "extracted_at": "2026-09-21 11:43:18",
+  "extracted_at": "2026-09-21 11:58:26",
   "stop_reason": "end_turn",
   "error": "",
-  "usd": 0.1313
+  "usd": 0.4169
  },
  "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf||29881": {
   "url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
   "cpt": "29881",
   "covered": true,
-  "section_heading": "Meniscectomy/Meniscal Repair",
+  "section_heading": "Meniscectomy and/or meniscal repair may be medically necessary when the criteria in any of the following sections are met:",
   "heading_verified": true,
   "criteria": [
    {
-    "text": "Meniscectomy and/or meniscal repair may be medically necessary when the criteria in any of the following sections are met:",
-    "topic": "other"
-   },
-   {
-    "text": "Symptomatic meniscal tear confirmed by MRI results that demonstrate a peripheral tear in the vascular zone, root tear,",
+    "text": "Symptomatic meniscal tear confirmed by MRI results that demonstrate a peripheral tear in the vascular zone, root tear, (8) or other tear that the requesting physician considers repairable and is associated with pain localized to the corresponding compartment upon physical examination (9,10)",
     "topic": "imaging"
    },
    {
@@ -5014,15 +5040,15 @@
     "topic": "imaging"
    },
    {
-    "text": "in a patient age <21 years who complains of pain or mechanical symptoms or has ANY positive meniscal findings on physical examination",
+    "text": "MRI demonstrates a meniscus tear (9,10) in a patient age <21 years who complains of pain or mechanical symptoms or has ANY positive meniscal findings on physical examination",
     "topic": "clinical"
    },
    {
-    "text": "MRI demonstrates a bucket-handle tear of the meniscus and there is a history of acute injury/onset of symptoms with a locked knee and/or mechanical symptoms of locking or catching.",
+    "text": "MRI demonstrates a bucket-handle tear of the meniscus and there is a history of acute injury/onset of symptoms with a locked knee and/or mechanical symptoms of locking or catching. (10)",
     "topic": "imaging"
    },
    {
-    "text": "When at least two of the following physical examination findings are present or there is at least one of the following physical examination findings and there is a history of mechanical symptoms such as 'catching' or 'locking'",
+    "text": "When at least two of the following physical examination findings are present or there is at least one of the following physical examination findings and there is a history of mechanical symptoms such as 'catching' or 'locking' (9,10):",
     "topic": "clinical"
    },
    {
@@ -5042,7 +5068,7 @@
     "topic": "clinical"
    },
    {
-    "text": "Weight-bearing X-rays (standing X-rays, Rosenberg view, 45-degree flexed PA view, etc.) demonstrate no moderate or severe osteoarthritic changes defined as Kellgren- Lawrence Grade 3-4 (see Grading Appendix); X-rays should be described as showing either no arthritis or mild/minimal arthritis only",
+    "text": "Weight-bearing X-rays (standing X-rays, Rosenberg view, 45-degree flexed PA view, etc.) demonstrate no moderate or severe osteoarthritic changes defined as Kellgren-Lawrence Grade 3-4 (see Grading Appendix); X-rays should be described as showing either no arthritis or mild/minimal arthritis only (10)",
     "topic": "imaging"
    },
    {
@@ -5050,7 +5076,11 @@
     "topic": "imaging"
    },
    {
-    "text": "Failure of at least 6 weeks of non-operative treatment, including at least TWO of the following",
+    "text": "Failure of at least 6 weeks of non-operative treatment, including at least TWO of the following (11):",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "Rest or activity modifications/limitations",
     "topic": "conservative_care"
    },
    {
@@ -5058,30 +5088,31 @@
     "topic": "conservative_care"
    },
    {
-    "text": "No intra-articular cortisone injections within 4 weeks of surgery",
-    "topic": "conservative_care"
+    "text": "No intra-articular cortisone injections within 4 weeks of surgery (1–3)",
+    "topic": "other"
    },
    {
-    "text": "In order for surgeries to be considered medically necessary there must be clear medical records that demonstrate a clear surgical plan that matches the request for surgery.",
-    "topic": "documentation"
+    "text": "At least 12 weeks of knee pain with documented loss of function",
+    "topic": "clinical"
    }
   ],
   "dropped_not_in_document": [],
   "dropped_other_operation": [],
   "why_not": "",
-  "doc_chars": 400000,
-  "doc_truncated_for_model": false,
+  "doc_chars": 486556,
+  "doc_truncated_for_model": true,
+  "doc_cut_in_cache": false,
   "model": "claude-opus-5",
   "usage": {
    "input_tokens": 39,
-   "output_tokens": 2599,
-   "cache_creation_input_tokens": 0,
-   "cache_read_input_tokens": 146212
+   "output_tokens": 1322,
+   "cache_creation_input_tokens": 70505,
+   "cache_read_input_tokens": 0
   },
-  "extracted_at": "2026-09-21 11:43:43",
+  "extracted_at": "2026-09-21 11:59:10",
   "stop_reason": "end_turn",
   "error": "",
-  "usd": 0.1383
+  "usd": 0.4739
  },
  "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf||29888": {
   "url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
@@ -5091,12 +5122,16 @@
   "heading_verified": true,
   "criteria": [
    {
-    "text": "ACL reconstruction or repair may be medically necessary when the criteria in any of the following sections are met and individual has no evidence of severe arthritis defined as Kellgren-Lawrence grade 3 or 4 (If the MRI results demonstrate an ACL tear and there is no mention of significant arthritis, especially in the younger individual, X-rays are not required. However, in others with significant MRI evidence of arthritis, standing X-rays are required to confirm that no Kellgren-Lawrence grade 3 or 4 changes are present)",
+    "text": "ACL reconstruction or repair may be medically necessary when the criteria in any of the following sections are met and individual has no evidence of severe arthritis defined as Kellgren-Lawrence grade 3 or 4",
     "topic": "imaging"
    },
    {
-    "text": "Acute ACL tear confirmed by MRI in high demand occupation or competitive athlete(as quantified by Marx activity score for athletics (any score > 4) and Tegner activity score for athletics and/or occupation ((score > 2))",
+    "text": "If the MRI results demonstrate an ACL tear and there is no mention of significant arthritis, especially in the younger individual, X-rays are not required. However, in others with significant MRI evidence of arthritis, standing X-rays are required to confirm that no Kellgren-Lawrence grade 3 or 4 changes are present",
     "topic": "imaging"
+   },
+   {
+    "text": "Acute ACL tear confirmed by MRI in high demand occupation or competitive athlete(as quantified by Marx activity score for athletics (any score > 4) and Tegner activity score for athletics and/or occupation ((score > 2)) (15) (see Grading Appendix)",
+    "topic": "clinical"
    },
    {
     "text": "MRI results confirm an ACL tear associated with other ligamentous instability or repairable meniscus",
@@ -5111,7 +5146,7 @@
     "topic": "clinical"
    },
    {
-    "text": "NOTE: Requests for ACL repair or reconstruction in individuals < age 13 will be reviewed on a case-by-case basis",
+    "text": "Requests for ACL repair or reconstruction in individuals < age 13 will be reviewed on a case-by-case basis (16)",
     "topic": "other"
    },
    {
@@ -5123,43 +5158,44 @@
     "topic": "clinical"
    },
    {
-    "text": "No intra-articular cortisone injections within 4 weeks of surgery",
+    "text": "Individual is medically stable and optimized for surgery, and any treatable",
+    "topic": "clinical"
+   },
+   {
+    "text": "Symptom onset, duration, and severity ○ Loss of function and/or limitations ○ Type and duration of non-operative management modalities (where applicable)",
+    "topic": "documentation"
+   },
+   {
+    "text": "No intra-articular cortisone injections within 4 weeks of surgery (1–3)",
     "topic": "other"
    },
    {
-    "text": "Unless otherwise stated in the subsections below, non-operative management must include at least TWO or more of the following, unless otherwise specified",
-    "topic": "conservative_care"
-   },
-   {
-    "text": "Clinical notes should address: ○ Symptom onset, duration, and severity ○ Loss of function and/or limitations ○ Type and duration of non-operative management modalities (where applicable)",
-    "topic": "documentation"
-   },
-   {
-    "text": "In order for surgeries to be considered medically necessary there must be clear medical records that demonstrate a clear surgical plan that matches the request for surgery.",
-    "topic": "documentation"
+    "text": "Individual does not have an active local or systemic infection",
+    "topic": "clinical"
    }
   ],
   "dropped_not_in_document": [
    {
     "text": "MRI results confirm complete ACL tear or substantial partial tear with a non- functioning ACL as demonstrated on physical examination",
-    "topic": "other"
+    "topic": "imaging"
    }
   ],
   "dropped_other_operation": [],
   "why_not": "",
-  "doc_chars": 400000,
-  "doc_truncated_for_model": false,
+  "doc_chars": 486556,
+  "doc_truncated_for_model": true,
+  "doc_cut_in_cache": false,
   "model": "claude-opus-5",
   "usage": {
    "input_tokens": 44,
-   "output_tokens": 2469,
-   "cache_creation_input_tokens": 0,
-   "cache_read_input_tokens": 146212
+   "output_tokens": 2641,
+   "cache_creation_input_tokens": 56292,
+   "cache_read_input_tokens": 0
   },
-  "extracted_at": "2026-09-21 11:44:09",
+  "extracted_at": "2026-09-21 11:59:36",
   "stop_reason": "end_turn",
   "error": "",
-  "usd": 0.1351
+  "usd": 0.4181
  },
  "https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp430.pdf||23472": {
   "url": "https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp430.pdf",
@@ -5271,11 +5307,11 @@
    },
    {
     "text": "Documentation of a medical reason the member is unable to participate in treatment",
-    "topic": "documentation"
+    "topic": "conservative_care"
    },
    {
     "text": "Closure of medical or therapy offices, patient inconvenience, or noncompliance without explanation does not constitute “inability to complete” treatment.",
-    "topic": "conservative_care"
+    "topic": "documentation"
    },
    {
     "text": "Imaging studies showing evidence of inter-vertebral disc herniation that correlate exactly with the individual’s symptoms/signs",
@@ -5304,24 +5340,29 @@
    {
     "text": "In order for surgeries to be considered medically necessary there must be clear medical records that demonstrate a clear surgical plan that matches the request for surgery.",
     "topic": "documentation"
+   },
+   {
+    "text": "All appropriate supporting documentation, including recent pertinent office visit notes, laboratory data, and results of any special testing must be provided.",
+    "topic": "documentation"
    }
   ],
   "dropped_not_in_document": [],
   "dropped_other_operation": [],
   "why_not": "",
-  "doc_chars": 400000,
-  "doc_truncated_for_model": false,
+  "doc_chars": 486556,
+  "doc_truncated_for_model": true,
+  "doc_cut_in_cache": false,
   "model": "claude-opus-5",
   "usage": {
    "input_tokens": 50,
-   "output_tokens": 1907,
-   "cache_creation_input_tokens": 0,
-   "cache_read_input_tokens": 146212
+   "output_tokens": 2150,
+   "cache_creation_input_tokens": 88255,
+   "cache_read_input_tokens": 0
   },
-  "extracted_at": "2026-09-21 11:44:27",
+  "extracted_at": "2026-09-21 12:02:03",
   "stop_reason": "end_turn",
   "error": "",
-  "usd": 0.121
+  "usd": 0.6056
  },
  "https://www1.radmd.com/sites/default/files/2024-02/2023%20Shldr%20Arthroscopy%20Clin%20Tip%20Sheet%20Evolent%2002282024.pdf||29827": {
   "url": "https://www1.radmd.com/sites/default/files/2024-02/2023%20Shldr%20Arthroscopy%20Clin%20Tip%20Sheet%20Evolent%2002282024.pdf",
@@ -5553,5 +5594,268 @@
   "stop_reason": "end_turn",
   "error": "",
   "usd": 0.0246
+ },
+ "https://help.coherehealth.com/payer-info/en/articles/13602157-avera-health-plan-commercial-guidelines#shoulder-arthroscopy-v5||29827": {
+  "url": "https://help.coherehealth.com/payer-info/en/articles/13602157-avera-health-plan-commercial-guidelines#shoulder-arthroscopy-v5",
+  "cpt": "29827",
+  "covered": true,
+  "section_heading": "Shoulder arthroscopy, rotator cuff repair (RCR) is considered appropriate if ANY of the following is TRUE4,6,11,21:",
+  "heading_verified": true,
+  "criteria": [
+   {
+    "text": "Documentation must include a recent and detailed history, physical examination related to the onset or change in symptoms, relevant lab results, prior imaging, and details of previous treatments.",
+    "topic": "documentation"
+   },
+   {
+    "text": "Advanced imaging with radiologist report that demonstrates ANY of the following:",
+    "topic": "imaging"
+   },
+   {
+    "text": "Full-thickness rotator cuff tear; OR",
+    "topic": "imaging"
+   },
+   {
+    "text": "High-grade partial-thickness rotator cuff tear; AND",
+    "topic": "imaging"
+   },
+   {
+    "text": "Significant pain or functional impairment that impacts activities of daily living (ADLs); AND",
+    "topic": "clinical"
+   },
+   {
+    "text": "Documentation of an acute rotator cuff tear (RCT) after an inciting event or injury; OR",
+    "topic": "clinical"
+   },
+   {
+    "text": "Documentation of a chronic RCT and ALL of the following22:",
+    "topic": "clinical"
+   },
+   {
+    "text": "Failure of conservative managementA, including ALL of the following:",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "Anti-inflammatory medications, non-opioid analgesics, neuropathic medications, or other pain\nmedications, if not contraindicated; AND",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "Physical therapy (PT) and/or documentation of patient compliance with a home exercise\nprescription/plan (HEP) provided by a physician or physical therapist targeting the\nrequested region; AND",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "PT/HEP trialed for a duration of 3 months or more; OR",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "Progression or worsening of symptoms due to PT/HEP; AND",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "Corticosteroid injection if medically appropriate10; OR",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "Documentation that corticosteroid injection is contraindicated; OR",
+    "topic": "documentation"
+   },
+   {
+    "text": "The patient has completed a full course of conservative management without meaningful improvement.\nPatient noncompliance, closure of therapy offices, and patient inconvenience do not constitute a failure of\nconservative treatment.",
+    "topic": "conservative_care"
+   }
+  ],
+  "dropped_not_in_document": [],
+  "dropped_other_operation": [],
+  "why_not": "",
+  "doc_chars": 35872,
+  "doc_truncated_for_model": false,
+  "doc_cut_in_cache": false,
+  "model": "claude-opus-5",
+  "usage": {
+   "input_tokens": 38,
+   "output_tokens": 1207,
+   "cache_creation_input_tokens": 14871,
+   "cache_read_input_tokens": 0
+  },
+  "extracted_at": "2026-09-21 11:56:11",
+  "stop_reason": "end_turn",
+  "error": "",
+  "usd": 0.1233
+ },
+ "https://help.coherehealth.com/payer-info/en/articles/13602157-avera-health-plan-commercial-guidelines#great-toe-surgical-treatments-v3||28296": {
+  "url": "https://help.coherehealth.com/payer-info/en/articles/13602157-avera-health-plan-commercial-guidelines#great-toe-surgical-treatments-v3",
+  "cpt": "28296",
+  "covered": true,
+  "section_heading": "Great toe surgical treatments - hallux valgus are considered appropriate if ALL of the following are TRUE:",
+  "heading_verified": false,
+  "criteria": [
+   {
+    "text": "Failure of conservative management for greater than 3 months, including ALL of the following",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "Taping or splinting; OR Toe spacer; OR Toe sleeve; OR Padding",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "Oral steroids, topical or oral anti-inflammatory medications, or oral analgesics",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "Documentation of near or full skeletal maturity as indicated by first metatarsal physeal closure or near closure",
+    "topic": "documentation"
+   },
+   {
+    "text": "Documentation of connective tissue or neuromuscular disorders that may affect etiology or severity of the condition (e.g., Cerebral Palsy, Ehlers-Danlos Syndrome, Marfan Syndrome, Osteogenesis Imperfecta, Fibrodysplasia Ossificans Progressiva)",
+    "topic": "documentation"
+   },
+   {
+    "text": "The procedure is a bunionectomy with osteotomy, and ALL of the following",
+    "topic": "other"
+   },
+   {
+    "text": "Current nicotine user with no product use for 6 weeks; and ANY of the following",
+    "topic": "clinical"
+   },
+   {
+    "text": "Negative urine (cotinine) lab test within 30 days",
+    "topic": "clinical"
+   },
+   {
+    "text": "Surgery is urgently required due to documented reason",
+    "topic": "clinical"
+   },
+   {
+    "text": "No history of nicotine product use within the last 12 months",
+    "topic": "clinical"
+   },
+   {
+    "text": "No lifetime history of nicotine product use",
+    "topic": "clinical"
+   },
+   {
+    "text": "The patient has ANY of the following positive findings",
+    "topic": "clinical"
+   },
+   {
+    "text": "Pain, swelling, or limited range of motion (ROM) at the first metatarsophalangeal (MTP) joint",
+    "topic": "clinical"
+   },
+   {
+    "text": "Difficulty walking due to pain in the MTP joints",
+    "topic": "clinical"
+   },
+   {
+    "text": "Non-healing ulceration caused by the bunion",
+    "topic": "clinical"
+   },
+   {
+    "text": "Malunion or non-union of previous surgery",
+    "topic": "clinical"
+   },
+   {
+    "text": "Radiographic confirmation with radiologic report (must be weight-bearing radiographs of the foot) of ALL of the following",
+    "topic": "imaging"
+   },
+   {
+    "text": "HV angle greater than 15°; OR IM angle greater than 9°",
+    "topic": "imaging"
+   }
+  ],
+  "dropped_not_in_document": [
+   {
+    "text": "Shoe modifications",
+    "topic": "conservative_care"
+   }
+  ],
+  "dropped_other_operation": [],
+  "why_not": "",
+  "doc_chars": 38261,
+  "doc_truncated_for_model": false,
+  "doc_cut_in_cache": false,
+  "model": "claude-opus-5",
+  "usage": {
+   "input_tokens": 37,
+   "output_tokens": 2005,
+   "cache_creation_input_tokens": 23227,
+   "cache_read_input_tokens": 0
+  },
+  "extracted_at": "2026-09-21 11:56:18",
+  "stop_reason": "end_turn",
+  "error": "",
+  "usd": 0.1955
+ },
+ "https://www.healthpartners.com/ucm/groups/public/@hp/@public/@cc/documents/documents/entry_256055.pdf||63030": {
+  "url": "https://www.healthpartners.com/ucm/groups/public/@hp/@public/@cc/documents/documents/entry_256055.pdf",
+  "cpt": "63030",
+  "covered": true,
+  "section_heading": "Cervical, thoracic, and lumbar spinal decompression surgeries are covered when all of the following criteria are met:",
+  "heading_verified": true,
+  "criteria": [
+   {
+    "text": "Clinical documentation indicates presence/diagnosis of a condition or conditions causing spinal cord and/or nerve root compression. The following list includes possible conditions and is not all-inclusive.",
+    "topic": "clinical"
+   },
+   {
+    "text": "A. Spinal stenosis B. Spondylolisthesis C. Spondylosis D. Spinal cyst E. Osteophytes F. Herniated disc",
+    "topic": "clinical"
+   },
+   {
+    "text": "Clinical documentation indicates presence of at least one sign/symptom, associated with the condition(s), limiting activities of daily living. The following list includes possible signs/symptoms and is not all-inclusive.",
+    "topic": "clinical"
+   },
+   {
+    "text": "A. Radiculopathy B. Neurogenic claudication C. Myelopathy D. Upper/lower extremity weakness, numbness, or pain",
+    "topic": "clinical"
+   },
+   {
+    "text": "Clinical documentation includes radiographic results (e.g., plain radiographs, advanced imaging studies), confirming the presence of spinal cord and/or nerve root compression caused by the condition(s) and supporting the indication for the decompression surgery",
+    "topic": "imaging"
+   },
+   {
+    "text": "Clinical documentation shows the sign(s)/symptom(s), identified in criterion 2 above, persist despite completion of at least 8 weeks of intensive conservative treatments (such as exercise, medication use, or chiropractic care).",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "Documentation of conservative treatments must correspond to the current episode of care (within 6 months).",
+    "topic": "documentation"
+   },
+   {
+    "text": "Conservative treatments must include physical therapy (PT), at least 4 visits over a course of 6 weeks or less, completed within the current episode of care (within the last six months, as noted above).",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "Active muscle conditioning is required as part of physical therapy. Physical therapist’s notes must be submitted.",
+    "topic": "documentation"
+   },
+   {
+    "text": "Note: The requirement for physical therapy will not be met if there is a failure to complete prescribed physical therapy for non-clinical reasons.",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "If a member is unable to complete physical therapy due to progressively worsening pain and disability, documentation in the physical therapist’s notes demonstrating this is required",
+    "topic": "documentation"
+   },
+   {
+    "text": "There must be a physician’s statement in the clinical documents that explains why physical therapy is contraindicated.",
+    "topic": "documentation"
+   }
+  ],
+  "dropped_not_in_document": [],
+  "dropped_other_operation": [],
+  "why_not": "",
+  "doc_chars": 39153,
+  "doc_truncated_for_model": false,
+  "doc_cut_in_cache": false,
+  "model": "claude-opus-5",
+  "usage": {
+   "input_tokens": 50,
+   "output_tokens": 1040,
+   "cache_creation_input_tokens": 15927,
+   "cache_read_input_tokens": 0
+  },
+  "extracted_at": "2026-09-21 11:57:01",
+  "stop_reason": "end_turn",
+  "error": "",
+  "usd": 0.1258
  }
 }
