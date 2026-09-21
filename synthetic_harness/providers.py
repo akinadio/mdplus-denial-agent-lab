@@ -334,6 +334,7 @@ class AnthropicProvider:
             tools=self._tools(), messages=messages,
         )
         self._acc(usage, resp)
+        usage["stop_reason"] = str(getattr(resp, "stop_reason", "") or "")
         return self._text(resp.content)
 
 
@@ -447,6 +448,7 @@ class OpenAIProvider:
             tool_choice="auto", _max_tokens=max_tokens,
         )
         self._acc(usage, resp)
+        usage["stop_reason"] = str(resp.choices[0].finish_reason or "")
         return resp.choices[0].message.content or ""
 
     # --- Responses API path -------------------------------------------------
@@ -554,6 +556,8 @@ class OpenAIProvider:
             client, model=model, input=items, tools=self._responses_tools(),
             tool_choice="auto", max_output_tokens=max_tokens)
         self._acc_responses(usage, resp)
+        inc = getattr(resp, "incomplete_details", None)
+        usage["stop_reason"] = str(getattr(inc, "reason", "") or getattr(resp, "status", "") or "")
         return getattr(resp, "output_text", "") or ""
 
     # --- dispatch -----------------------------------------------------------
@@ -743,6 +747,9 @@ class GoogleProvider:
             client.models.generate_content,
             model=model, contents=contents, config=cfg)
         self._acc(usage, resp)
+        cands = getattr(resp, "candidates", None) or []
+        fr = getattr(cands[0], "finish_reason", "") if cands else ""
+        usage["stop_reason"] = str(getattr(fr, "name", fr) or "")
         _, parts = self._parts(resp)
         return "".join(getattr(p, "text", "") or "" for p in parts)
 

@@ -353,7 +353,7 @@ def generate_appeal_letter(
     model: str = DEFAULT_API_MODEL,
     timeout: int = 300,
     client: Any = None,
-    max_tokens: int = 4000,
+    max_tokens: int = 16000,
     sender: str = "provider",
 ) -> dict[str, Any]:
     """Draft one appeal letter in the requested voice.
@@ -410,7 +410,9 @@ def generate_appeal_letter(
     )
     usage = {"input_tokens": 0, "output_tokens": 0}
     try:
-        response = client.messages.create(
+        from .providers import call_with_backoff
+        response = call_with_backoff(
+            client.messages.create,
             model=model,
             max_tokens=max_tokens,
             system=system_prompt,
@@ -427,6 +429,12 @@ def generate_appeal_letter(
     ).strip()
     if not letter:
         return {"error": "letter generation returned no text"}
+    # 4,000 was the cap until 2026-09-21; Opus letters were reaching 3,829. A
+    # letter that stops at the cap stops mid-sentence, and a patient cannot
+    # send half a letter. Say so rather than hand it over.
+    if getattr(response, "stop_reason", None) == "max_tokens":
+        return {"error": f"letter cut off at the {max_tokens}-token cap",
+                "letter_markdown": letter, "usage": usage, "model": model}
     return {
         "letter_markdown": letter,
         "model": model,

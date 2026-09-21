@@ -394,7 +394,7 @@ def stage_letters(cases, gold):
             {"policy_url": fake_url, "policy_title": "dry", "quotes": found}]}))
         PT._LIB = None
         got = PT.criteria_for(fake_url, "27447", allow_fetch=False)
-        check(got["source"] == "library" and bool(got["text"]),
+        check(got["source"] in ("library", "cache") and bool(got["text"]),
               "a library hit carries the document text, so its quotes verify")
         stub_l = _StubAnthropic("letter")
         generate_appeal_letter(shaped_g, client=stub_l, sender="patient")
@@ -473,7 +473,9 @@ def stage_money():
         os.environ.pop("STUDY_BUDGET_USD", None)
     # resume must retry failures, in all three paid scripts
     src = (ROOT / "scripts/study/grade_letters.py").read_text()
-    check("max_tokens=4000" in src, "grade_letters.py: the grader has room to finish its JSON")
+    import re as _re
+    _mt = [int(x) for x in _re.findall(r"max_tokens=(\d+)", src)]
+    check(bool(_mt) and min(_mt) >= 4000, "grade_letters.py: the grader has room to finish its JSON")
     check('"grader_incomplete"' in src and "REQUIRED" in src,
           "grade_letters.py: a grade with missing fields is not counted as a grade")
     # A provider's SDK objects must not kill a run we already paid for.
@@ -594,9 +596,11 @@ def stage_money():
 
     # Every paid model call goes through the wrapper. A new call site added
     # without it silently reintroduces the bug, and only a grep catches that.
-    _src = (ROOT / "synthetic_harness" / "providers.py").read_text()
+    _src = "\n".join((ROOT / f).read_text() for f in (
+        "synthetic_harness/providers.py", "synthetic_harness/appeal_letter.py",
+        "synthetic_harness/extract.py", "scripts/study/grade_letters.py"))
     _bare = [ln.strip() for ln in _src.splitlines()
-             if ("client.messages.create(" in ln
+             if ("messages.create(" in ln
                  or "client.models.generate_content(" in ln
                  or "client.responses.create(" in ln
                  or "client.chat.completions.create(" in ln)

@@ -234,7 +234,9 @@ def _raw_extract(files: list[dict[str, Any]], kind: str, *, client=None,
     if own:
         client = _client(EXTRACT_TIMEOUT_S)
     try:
-        resp = client.messages.create(
+        from .providers import call_with_backoff
+        resp = call_with_backoff(
+            client.messages.create,
             model=model,
             max_tokens=MAX_TOKENS,
             messages=[{"role": "user", "content": _content_blocks(files, _PROMPT_BY_KIND[kind])}],

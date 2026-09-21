@@ -131,12 +131,22 @@ def letter_ortho(case, res, model):
     return out
 
 
+# The letter's own cap, well above anything a letter needs. The shared 8,000
+# was sized for a JSON answer, and it counts the model's THINKING as output:
+# Claude Sonnet 5 thinks by default, spent most of 8,000 tokens doing so, and
+# six of its pilot letters were cut off mid-sentence -- then graded as
+# unfinished, a penalty the harness imposed on a competitor, not one it earned.
+LETTER_MAX_TOKENS = int(os.environ.get("MDPLUS_LETTER_MAX_TOKENS", "32000"))
+# How each provider says "stopped because it hit the cap".
+_TRUNCATED = {"max_tokens", "length", "MAX_TOKENS", "max_output_tokens", "incomplete"}
+
+
 def letter_chatbot(system, case, res, model):
     """Ask the same chat for the letter, continuing from its own transcript.
 
     The provider comes from SYSTEMS rather than being hardcoded, so this one
     path carries every chatbot arm."""
-    from synthetic_harness.api_runner import _resolve, _make_client, MAX_OUTPUT_TOKENS
+    from synthetic_harness.api_runner import _resolve, _make_client
     provider_name, _ = SYSTEMS[system]
     prov, model = _resolve(provider_name, model)
     if not prov.available():
@@ -148,7 +158,7 @@ def letter_chatbot(system, case, res, model):
     if transcript:
         text = prov.continue_once(client=client, model=model, system="",
                                   transcript=transcript, ask=_ask(case),
-                                  usage=usage, max_tokens=MAX_OUTPUT_TOKENS)
+                                  usage=usage, max_tokens=LETTER_MAX_TOKENS)
     else:
         # Phase 1 did not keep the transcript for this run; hand the model its
         # own answer back rather than dropping the case.
@@ -157,7 +167,7 @@ def letter_chatbot(system, case, res, model):
             client=client, model=model, system="",
             transcript=[{"role": "user", "content": case["letter_text"]},
                         {"role": "assistant", "content": prior}],
-            ask=_ask(case), usage=usage, max_tokens=MAX_OUTPUT_TOKENS)
+            ask=_ask(case), usage=usage, max_tokens=LETTER_MAX_TOKENS)
     return {"letter_markdown": (text or "").strip(), "model": model,
             "usage": usage, "elapsed_s": round(time.time() - t0, 1)}
 
@@ -246,6 +256,12 @@ def main() -> int:
             return (f"\n  {info['system']}: out of funds at the provider -- dropping this arm.\n"
                     f"    {out['error'][:110]}\n"
                     f"    Add credit and re-run with --resume to pick it up.\n")
+        if not out.get("error") and (out.get("usage") or {}).get("stop_reason") in _TRUNCATED:
+            # A letter cut off by our cap is a harness failure, not the
+            # model's letter. Error it so --resume drafts it again instead of
+            # sending a half-letter to the grader.
+            out["error"] = (f"cut off at the {LETTER_MAX_TOKENS}-token cap "
+                            f"({out['usage']['stop_reason']})")
         if not out.get("error") and len(out.get("letter_markdown") or "") < 800:
             # Two of 60 came back as a header with no body. That is a failed
             # draft, not a short letter; --resume will draft it again.

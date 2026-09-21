@@ -220,7 +220,7 @@ def mechanical(letter: str, case: dict, g: dict) -> dict:
         # was the only thing quoted.
         _notice = case.get("letter_text", "")
         _from_policy = [x for x in quoted_passages(L) if not in_text(x, _notice)]
-        rel = assess(_from_policy, case.get("denial_reason", ""))
+        rel = assess(_from_policy, case.get("denial_reason", ""), case.get("cpt", ""))
         # Naming what you are appealing -- "the denial states X" -- is normal
         # letter structure and not a defect. The defect is quoting the denial
         # INSTEAD of the policy. Reading the letters settled this: Ambetter /
@@ -233,6 +233,7 @@ def mechanical(letter: str, case: dict, g: dict) -> dict:
         out["grounded_in_case"] = rel["grounded"]
         out["quotes_on_point"] = rel["n_on_point"]
         out["quotes_against_patient"] = rel["n_against_patient"]
+        out["quotes_other_procedure"] = rel["n_other_procedure"]
         out["quote_kinds"] = rel["kinds"]
     return out
 
@@ -334,8 +335,10 @@ def main() -> int:
             return None
         try:
             spend.check_budget()
-            resp = client.messages.create(
-                model=GRADER_MODEL, max_tokens=4000, system=SYSTEM,
+            from synthetic_harness.providers import call_with_backoff
+            resp = call_with_backoff(
+                client.messages.create,
+                model=GRADER_MODEL, max_tokens=16000, system=SYSTEM,
                 messages=[{"role": "user",
                            "content": _prompt(cases[cid], gold[cid], text, _evidence_packet(rid))}])
             body = "".join(b.text for b in resp.content if getattr(b, "type", None) == "text")

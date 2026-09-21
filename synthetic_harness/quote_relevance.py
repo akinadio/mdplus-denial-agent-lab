@@ -106,6 +106,121 @@ EXCLUSION = re.compile(
 # sentence contains no documentation vocabulary.
 SPECIFIC_DEFICIENCY = {"conservative_care", "imaging"}
 
+# --------------------------------------------------------------------------
+# WHICH SURGERY A SENTENCE IS ABOUT
+# --------------------------------------------------------------------------
+# The big vendor guidelines -- Carelon Joint Surgery, Evolent Musculoskeletal
+# Surgery, eviCore -- are one document covering a dozen operations. A sentence
+# can be a real rule, verbatim, on the right topic, and still be the rule for a
+# DIFFERENT operation. On 2026-09-21 the smoke test caught OrthoAppeals handing
+# a shoulder labral repair (29806) the criteria for shoulder REPLACEMENT out of
+# Carelon, and another the cervical-FUSION six-week rule out of Evolent, and
+# the grounded endpoint counted both as grounded. A reviewer reads that letter
+# and sees the patient arguing under the wrong surgery's rules.
+#
+# Terms are ones a policy uses to name or scope that operation's criteria. A
+# sentence naming a family that is neither the case's own nor a close
+# neighbour (a shoulder instability section will mention the rotator cuff) is
+# about another operation.
+PROCEDURE_FAMILY_TERMS: dict[str, list[str]] = {
+    "hip_arthroplasty": ["hip arthroplasty", "hip replacement", "hip resurfacing"],
+    "knee_arthroplasty": ["knee arthroplasty", "knee replacement", "tricompartmental"],
+    "uka": ["unicompartmental", "unicondylar", "partial knee"],
+    "shoulder_arthroplasty": ["shoulder arthroplasty", "shoulder replacement",
+                              "reverse shoulder", "glenoid prosthesis",
+                              "glenoid sclerosis", "flattened glenoid"],
+    "ankle_arthroplasty": ["ankle arthroplasty", "ankle replacement", "tibiotalar"],
+    "meniscus": ["meniscectomy", "meniscal", "meniscus"],
+    "acl": ["anterior cruciate", "acl reconstruction"],
+    "hip_arthroscopy": ["femoroacetabular", "hip arthroscopy", "arthroscopic hip",
+                        "tonnis", "tönnis", "alpha angle"],
+    "rotator_cuff": ["rotator cuff"],
+    "shoulder_instability": ["capsulorrhaphy", "bankart", "shoulder dislocation",
+                             "glenohumeral instability", "recurrent subluxation",
+                             "slap lesion", "labral tear of the shoulder"],
+    "cervical": ["cervical", "myelopathy", "acdf"],
+    "lumbar_fusion": ["lumbar fusion", "lumbar arthrodesis", "lumbar spinal fusion",
+                      "spondylolisthesis", "pseudarthrosis"],
+    "lumbar_decompression": ["laminectomy", "laminotomy", "discectomy",
+                             "lumbar decompression", "foraminotomy"],
+    "bunion": ["hallux", "bunion", "metatarsophalangeal", "intermetatarsal"],
+    "patellar": ["patellar instability", "patellar dislocation", "patellofemoral",
+                 "medial patellofemoral ligament"],
+}
+CPT_FAMILY: dict[str, str] = {
+    "27130": "hip_arthroplasty", "27447": "knee_arthroplasty", "27446": "uka",
+    "29880": "meniscus", "29881": "meniscus", "29888": "acl", "29914": "hip_arthroscopy",
+    "23472": "shoulder_arthroplasty", "29827": "rotator_cuff",
+    "29806": "shoulder_instability", "22551": "cervical", "22612": "lumbar_fusion",
+    "63030": "lumbar_decompression", "27702": "ankle_arthroplasty", "28296": "bunion",
+}
+# Same joint, overlapping language: mentioning the neighbour is normal.
+_NEIGHBOURS: dict[str, set[str]] = {
+    "knee_arthroplasty": {"uka", "meniscus", "patellar"},
+    "uka": {"knee_arthroplasty", "meniscus", "patellar"},
+    "meniscus": {"acl", "knee_arthroplasty", "uka"},
+    "acl": {"meniscus", "patellar"},
+    "lumbar_fusion": {"lumbar_decompression"},
+    "lumbar_decompression": {"lumbar_fusion"},
+    "shoulder_instability": {"rotator_cuff"},
+    "rotator_cuff": {"shoulder_instability"},
+    "hip_arthroplasty": {"hip_arthroscopy"},
+    "hip_arthroscopy": {"hip_arthroplasty"},
+}
+
+
+# Body regions, as whole words. A spine policy covers cervical, thoracic and
+# lumbar under the same procedure names -- Aetna's "Cervical laminectomy ..."
+# names laminectomy, the lumbar case's own operation, and is still the wrong
+# rule for a lumbar decompression.
+_REGIONS: dict[str, re.Pattern] = {k: re.compile(v, re.I) for k, v in {
+    "shoulder": r"\b(shoulder|glenohumeral|glenoid|humeral|acromi\w*|labral|rotator)\b",
+    "hip": r"\b(hips?|acetabul\w*|femoroacetabular|femoral head)\b",
+    "knee": r"\b(knees?|patell\w*|menisc\w*|tibiofemoral|cruciate)\b",
+    "ankle": r"\b(ankles?|tibiotalar|talar)\b",
+    "foot": r"\b(hallux|bunion\w*|metatars\w*|foot|feet)\b",
+    "cervical": r"\b(cervical|acdf|myelopathy)\b",
+    "thoracic": r"\bthoracic\b",
+    "lumbar": r"\b(lumbar|lumbosacral|sciatica)\b",
+}.items()}
+CPT_REGION: dict[str, str] = {
+    "27130": "hip", "29914": "hip", "27446": "knee", "27447": "knee", "29880": "knee",
+    "29881": "knee", "29888": "knee", "23472": "shoulder", "29827": "shoulder",
+    "29806": "shoulder", "27702": "ankle", "28296": "foot", "22551": "cervical",
+    "22612": "lumbar", "63030": "lumbar",
+}
+
+
+def regions_named(text: str) -> set[str]:
+    return {k for k, rx in _REGIONS.items() if rx.search(text or "")}
+
+
+def families_named(text: str) -> set[str]:
+    low = (text or "").lower()
+    return {f for f, ts in PROCEDURE_FAMILY_TERMS.items() if any(t in low for t in ts)}
+
+
+def other_procedure(quote: str, cpt: str) -> bool:
+    """True when the sentence is the rule for some OTHER operation.
+
+    Only a positive naming counts: a sentence that names no operation at all
+    ("Failure of at least 6 weeks of conservative care") is not flagged here --
+    whether it came from the right section is the section locator's job.
+    """
+    own = CPT_FAMILY.get(cpt or "")
+    if not own:
+        return False
+    # Names another part of the body and not this one.
+    regions = regions_named(quote)
+    own_region = CPT_REGION.get(cpt or "")
+    if regions and own_region and own_region not in regions:
+        return True
+    named = families_named(quote)
+    if not named or own in named:
+        return False
+    return bool(named - _NEIGHBOURS.get(own, set()))
+
+
 REASON_TERMS: dict[str, list[str]] = {
     "conservative_care": [
         "conservative", "nonsurgical", "non-surgical", "non-operative",
@@ -180,14 +295,17 @@ def _looks_like_code_table(q: str) -> bool:
     return bool(re.search(r"(\b\d{5}\b[,;\s]+){3,}", q))
 
 
-def on_point(quote: str, denial_reason: str) -> bool:
+def on_point(quote: str, denial_reason: str, cpt: str = "") -> bool:
     """A rule that answers the reason THIS claim was denied.
 
     A denial that names a specific deficiency has to be answered on that point.
     A denial that names nothing in particular is answered by the criteria
-    themselves. See SPECIFIC_DEFICIENCY.
+    themselves. See SPECIFIC_DEFICIENCY. A rule for a different operation
+    answers nothing, however well it matches the topic.
     """
     if classify(quote) != "rule":
+        return False
+    if cpt and other_procedure(quote, cpt):
         return False
     if denial_reason not in SPECIFIC_DEFICIENCY:
         return True
@@ -198,7 +316,7 @@ def on_point(quote: str, denial_reason: str) -> bool:
     return any(t in low for t in terms)
 
 
-def assess(quotes: list[str], denial_reason: str) -> dict:
+def assess(quotes: list[str], denial_reason: str, cpt: str = "") -> dict:
     """Score a letter's quotations.
 
     `grounded` is the endpoint: at least one quotation that is a rule, bears on
@@ -206,8 +324,9 @@ def assess(quotes: list[str], denial_reason: str) -> dict:
     not grounded -- quoting nothing is a failure, not a neutral result.
     """
     kinds = [classify(q) for q in quotes]
-    points = [on_point(q, denial_reason) for q in quotes]
+    points = [on_point(q, denial_reason, cpt) for q in quotes]
     return {
+        "n_other_procedure": sum(1 for q in quotes if cpt and other_procedure(q, cpt)),
         "n_quotes": len(quotes),
         "n_on_point": sum(points),
         "n_against_patient": sum(1 for k in kinds if k == "exclusion"),
