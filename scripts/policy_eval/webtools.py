@@ -23,6 +23,7 @@ from urllib.parse import urlsplit
 import requests
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "study"))
 
 from policy_eval.common import (  # noqa: E402
     ExtractionError,
@@ -196,6 +197,14 @@ def search(query: str, count: int = 5) -> dict[str, Any]:
         except ValueError:
             delay = 0.0
         time.sleep(max(delay, (2 ** attempt) * SEARCH_MIN_INTERVAL) + random.uniform(0, 0.4))
+    # Billed the moment the request reaches them, answered or refused. Recorded
+    # here rather than in the caller so no code path can search without paying
+    # for it on the ledger.
+    try:
+        import spend
+        spend.record_search(1)
+    except Exception:  # noqa: BLE001 - never let bookkeeping break a search
+        pass
     if resp.status_code != 200:
         return {
             "backend": SEARCH_BACKEND,

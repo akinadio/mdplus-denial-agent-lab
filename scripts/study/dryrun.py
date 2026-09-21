@@ -989,6 +989,29 @@ def stage_money():
         check(False, "pyflakes is installed, so undefined names are caught here "
                      "rather than mid-run (pip install pyflakes)")
 
+    # Search is billed per request and never goes through cost(). Leaving it
+    # off the ledger understated the study by $41 across 8,281 requests.
+    _tmp7 = Path(_tf.mkdtemp())
+    _keep7 = _sp.LEDGER
+    try:
+        _sp.LEDGER = _tmp7 / "spend.json"
+        _sp.record_search(200, "r-test")
+        _rows = _json.loads(_sp.LEDGER.read_text())
+        check(len(_rows) == 1 and _rows[0]["step"] == "search"
+              and _rows[0]["searches"] == 200,
+              "a batch of searches is one ledger row carrying its request count")
+        check(abs(_sp.total() - 200 * _sp.SEARCH_PRICE_PER_1000 / 1000) < 1e-6,
+              "search cost is inside total(), so the budget guard sees it")
+        _sp.record("retrieve", "claude-sonnet-5", {"input_tokens": 1_000_000})
+        _sp.report()   # must not raise: a search row has no model price
+        check(True, "report() prices a ledger holding both search and model rows")
+    finally:
+        _sp.LEDGER = _keep7
+        _sh.rmtree(_tmp7, ignore_errors=True)
+    _wt_src = (ROOT / "scripts/policy_eval/webtools.py").read_text()
+    check("spend.record_search(1)" in _wt_src,
+          "every search records itself, so no code path can search unbilled")
+
     # One provider's empty balance must not stop the others.
     for f in ("retrieve.py", "draft_letters.py"):
         src = (ROOT / "scripts/study" / f).read_text()

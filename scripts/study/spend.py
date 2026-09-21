@@ -64,6 +64,17 @@ _DEFAULT = {
 }
 
 
+# Search is billed per REQUEST, not per token, so it never passes through
+# cost(). Leaving it out meant the running total understated the study by
+# $41.41 across 8,281 searches -- a fifth of the spend, sitting outside the one
+# number that was supposed to be auditable. It is a ledger row like any other
+# now, so total(), budget_left() and check_budget() all see it.
+# $5.00 per 1,000 requests, Brave Search plan, checked 2026-09-19:
+# https://api-dashboard.search.brave.com/documentation/pricing
+SEARCH_PRICE_PER_1000 = float(os.environ.get("MDPLUS_PRICE_SEARCH_PER_1000", "5.00"))
+SEARCH_MODEL = "brave-search"
+
+
 class UnknownPrice(RuntimeError):
     """A model with no verified price. Fail loudly rather than guess."""
 
@@ -157,6 +168,32 @@ def record(step: str, model: str, usage: dict, ref: str = "") -> float:
     return round(sum(r["usd"] for r in rows), 2)
 
 
+def record_search(n: int = 1, ref: str = "") -> None:
+    """One ledger row for n billed search requests."""
+    if n <= 0:
+        return
+    with _record_lock:
+        LEDGER.parent.mkdir(parents=True, exist_ok=True)
+        LEDGER.touch(exist_ok=True)
+        with open(LEDGER, "r+", encoding="utf-8") as fh:
+            try:
+                import fcntl
+                fcntl.flock(fh.fileno(), fcntl.LOCK_EX)
+            except (ImportError, OSError):
+                pass
+            try:
+                rows = json.loads(fh.read() or "[]")
+            except ValueError:
+                rows = []
+            rows.append({"t": time.strftime("%Y-%m-%d %H:%M:%S"), "step": "search",
+                         "model": SEARCH_MODEL, "in": 0, "out": 0, "cw": 0, "cr": 0,
+                         "searches": n,
+                         "usd": round(n * SEARCH_PRICE_PER_1000 / 1000, 4), "ref": ref})
+            fh.seek(0)
+            fh.write(json.dumps(rows))
+            fh.truncate()
+
+
 def total(step: str | None = None) -> float:
     return round(sum(r["usd"] for r in _load() if step is None or r["step"] == step), 2)
 
@@ -210,11 +247,15 @@ def report() -> None:
     for k, (n, usd) in by.items():
         print(f"    {k:12s} {n:4d} calls  ${usd:7.2f}")
     print(f"    {'total':12s} {len(rows):4d} calls  ${total():7.2f}")
+    ns = sum(r.get("searches", 0) for r in rows)
+    if ns:
+        print(f"    {'searches':12s} {ns:4d} reqs   "
+              f"${ns * SEARCH_PRICE_PER_1000 / 1000:7.2f}  (billed per request, not per token)")
     cr = sum(r.get("cr", 0) for r in rows)
     cw = sum(r.get("cw", 0) for r in rows)
     if cr or cw:
         # What caching saved, so the line is auditable rather than trusted.
         saved = sum(r.get("cr", 0) * (price(r["model"])[0] - price(r["model"])[3]) / 1e6
-                    for r in rows)
+                    for r in rows if r.get("cr"))
         print(f"    cache: {cr/1e6:.1f}M read, {cw/1e6:.1f}M written"
               f"  (${saved:.2f} saved against paying full input rate)")
