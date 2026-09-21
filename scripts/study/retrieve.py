@@ -499,6 +499,12 @@ def main():
                 with lock:
                     first = s not in broke
                     broke.add(s)
+                    # Counted like any other failed run. It used to be counted
+                    # nowhere, so a batch that dropped an arm printed "0 runs
+                    # completed, 0 skipped/errored" while result.json files were
+                    # being written and searches were being billed -- the run
+                    # looked like it had done nothing at all.
+                    skipped += 1
                 if not first:
                     # With N workers, N-1 more cases of the same arm are already
                     # in flight when the balance runs out, and each comes back

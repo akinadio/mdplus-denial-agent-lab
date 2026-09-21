@@ -88,7 +88,21 @@ class OutOfFunds(RuntimeError):
 
 
 def is_funding_error(exc: Exception | str) -> bool:
-    return bool(_CREDIT.search(str(exc)))
+    """Is the provider refusing for MONEY, or just for speed?
+
+    Google phrases a per-minute rate limit in the language of billing -- "you
+    exceeded your current quota, please check your plan and billing details" --
+    so matching on those words alone declared a healthy account bankrupt and
+    dropped the arm mid-batch (2026-09-21). A call that the provider itself
+    said to retry is not a funding error, whatever words it used.
+    """
+    if not _CREDIT.search(str(exc)):
+        return False
+    try:
+        from synthetic_harness.providers import is_transient_rate_limit
+    except Exception:  # noqa: BLE001 - classify as before if unimportable
+        return True
+    return not is_transient_rate_limit(exc)
 
 
 def price(model: str) -> tuple[float, float, float, float]:

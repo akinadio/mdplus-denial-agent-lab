@@ -76,6 +76,75 @@ CANONICAL_TOOLS: list[dict[str, Any]] = [
 
 ToolCall = Callable[[str, dict[str, Any]], dict[str, Any]]
 
+
+# --------------------------------------------------------------------------
+# Transient rate limits
+# --------------------------------------------------------------------------
+# Google returns the SAME sentence -- "You exceeded your current quota, please
+# check your plan and billing details" -- whether the account is out of money
+# or the batch merely went too fast for one minute. On 2026-09-21 that wording
+# cost a whole Gemini batch: four workers hit
+#
+#   429 RESOURCE_EXHAUSTED ... generate_content_paid_tier_2_input_token_count,
+#   limit: 3000000 ... Please retry in 3.52663797s
+#
+# which is three million input tokens PER MINUTE, not an empty balance. The
+# harness read "quota"/"billing", declared the provider out of funds, dropped
+# the arm, and reported "0 runs completed" -- after 263 Brave searches had
+# already been bought for those runs. A three-second wait was the whole fix.
+#
+# The tell is in the error itself. A quota measured per minute, or a retry
+# delay the server volunteers, means wait. A quota measured per day, a credit
+# balance, or a 402 means stop. Anything that says neither is left to the
+# existing out-of-funds path, which is the conservative answer.
+_RATE_LIMIT = re.compile(
+    r"PerMinute|per minute|retryDelay|Please retry in|Retry-After|"
+    r"rate_?limit|Too Many Requests|overloaded_error|overloaded", re.I)
+_HARD_QUOTA = re.compile(
+    r"PerDay|per day|daily limit|credit balance|insufficient_quota|"
+    r"Error code: 402|billing_not_active|account is not active", re.I)
+_RETRY_AFTER = re.compile(
+    r"(?:retry[_ ]?delay['\"]?\s*[:=]\s*['\"]?|Please retry in\s*|"
+    r"Retry-After['\"]?\s*[:=]\s*['\"]?)(\d+(?:\.\d+)?)", re.I)
+
+RATE_LIMIT_TRIES = int(os.environ.get("MDPLUS_RATE_LIMIT_TRIES", "6"))
+RATE_LIMIT_MAX_WAIT = float(os.environ.get("MDPLUS_RATE_LIMIT_MAX_WAIT", "75"))
+
+
+def is_transient_rate_limit(exc: Exception | str) -> bool:
+    """True when the provider is asking us to slow down, not to pay up."""
+    s = str(exc)
+    return bool(_RATE_LIMIT.search(s)) and not _HARD_QUOTA.search(s)
+
+
+def retry_after(exc: Exception | str, attempt: int) -> float:
+    """How long to wait: the server's own number when it gives one."""
+    m = _RETRY_AFTER.search(str(exc))
+    if m:
+        try:
+            return min(RATE_LIMIT_MAX_WAIT, float(m.group(1)) + 1.0)
+        except ValueError:
+            pass
+    return min(RATE_LIMIT_MAX_WAIT, 4.0 * (2 ** attempt))
+
+
+def call_with_backoff(fn, /, *args, **kwargs):
+    """One model call, waiting out a per-minute limit instead of dying on it.
+
+    Retrying HERE and not a level up is the point: the transcript, the fetched
+    policy documents and the searches already paid for are all still in hand,
+    so the wait costs seconds and nothing is re-bought. A retry at the case
+    level would repeat every search in the run.
+    """
+    for attempt in range(RATE_LIMIT_TRIES):
+        try:
+            return fn(*args, **kwargs)
+        except Exception as exc:  # noqa: BLE001
+            if attempt == RATE_LIMIT_TRIES - 1 or not is_transient_rate_limit(exc):
+                raise
+            time.sleep(retry_after(exc, attempt))
+
+
 # Models that must use /v1/responses rather than /v1/chat/completions when
 # function tools are in play. Seeded from env, grown at runtime from the 400.
 RESPONSES_API_MODELS: set[str] = {
@@ -229,7 +298,8 @@ class AnthropicProvider:
                 stop = "timeout"
                 break
             self._mark(messages)
-            resp = client.messages.create(
+            resp = call_with_backoff(
+                client.messages.create,
                 model=model, max_tokens=max_tokens, system=self._cached_system(system),
                 tools=tools, messages=messages,
             )
@@ -258,7 +328,8 @@ class AnthropicProvider:
         # breakpoint here would only ever pay the 1.25x write and never get a
         # read back. Caching earns its keep in a loop, not in a one-shot.
         messages = transcript + [{"role": "user", "content": ask}]
-        resp = client.messages.create(
+        resp = call_with_backoff(
+            client.messages.create,
             model=model, max_tokens=max_tokens, system=system,
             tools=self._tools(), messages=messages,
         )
@@ -308,13 +379,15 @@ class OpenAIProvider:
         limit = kw.pop("_max_tokens", None)
         if limit is not None:
             try:
-                return client.chat.completions.create(max_tokens=limit, **kw)
+                return call_with_backoff(
+                    client.chat.completions.create, max_tokens=limit, **kw)
             except Exception as exc:  # noqa: BLE001
                 if "max_tokens" in str(exc) or "max_completion_tokens" in str(exc):
-                    return client.chat.completions.create(
+                    return call_with_backoff(
+                        client.chat.completions.create,
                         max_completion_tokens=limit, **kw)
                 raise
-        return client.chat.completions.create(**kw)
+        return call_with_backoff(client.chat.completions.create, **kw)
 
     @staticmethod
     def _acc(usage: dict[str, int], resp: Any) -> None:
@@ -423,7 +496,7 @@ class OpenAIProvider:
             if include:
                 payload["include"] = include
             try:
-                return client.responses.create(**payload)
+                return call_with_backoff(client.responses.create, **payload)
             except Exception as exc:  # noqa: BLE001
                 m = str(exc)
                 if include and ("include" in m or "encrypted" in m):
@@ -588,7 +661,8 @@ class GoogleProvider:
             if time.time() > deadline:
                 stop = "timeout"
                 break
-            resp = client.models.generate_content(
+            resp = call_with_backoff(
+                client.models.generate_content,
                 model=model, contents=contents, config=cfg)
             self._acc(usage, resp)
             content, parts = self._parts(resp)
@@ -665,7 +739,8 @@ class GoogleProvider:
                     pass
             contents.append(t)
         contents.append(types.Content(role="user", parts=[types.Part(text=ask)]))
-        resp = client.models.generate_content(
+        resp = call_with_backoff(
+            client.models.generate_content,
             model=model, contents=contents, config=cfg)
         self._acc(usage, resp)
         _, parts = self._parts(resp)

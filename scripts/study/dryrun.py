@@ -538,6 +538,73 @@ def stage_money():
         _sp.LEDGER = _led
         _sh.rmtree(_tmp2, ignore_errors=True)
 
+    # A provider saying "slow down" must not be read as a provider saying
+    # "you are out of money". Google says both in the same sentence, and on
+    # 2026-09-21 reading it the wrong way dropped the whole Gemini arm three
+    # seconds before it could have carried on -- after its searches were paid
+    # for. The real error text is kept here verbatim as the fixture.
+    from synthetic_harness import providers as _pv
+    _TPM = ("ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': "
+            "'You exceeded your current quota, please check your plan and billing "
+            "details. ... Quota exceeded for metric: generativelanguage.googleapis.com/"
+            "generate_content_paid_tier_2_input_token_count, limit: 3000000, model: "
+            "gemini-3.5-flash. Please retry in 3.52663797s.', 'status': "
+            "'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/"
+            "google.rpc.QuotaFailure', 'violations': [{'quotaId': "
+            "'GenerateContentPaidTierInputTokensPerModelPerMinute-PaidTier2'}]}]}}")
+    _BROKE = ("Error code: 400 - {'type': 'error', 'error': {'type': "
+              "'invalid_request_error', 'message': 'Your credit balance is too low "
+              "to access the Anthropic API'}}")
+    _DAY = ("429 RESOURCE_EXHAUSTED quota exceeded, check your plan and billing "
+            "details. quotaId: GenerateRequestsPerDayPerProjectPerModel, limit: 200")
+    check(_pv.is_transient_rate_limit(_TPM) and not _sp.is_funding_error(_TPM),
+          "a per-minute rate limit is waited out, not read as an empty balance")
+    check(_sp.is_funding_error(_BROKE) and not _pv.is_transient_rate_limit(_BROKE),
+          "an empty balance still drops the arm instead of retrying forever")
+    check(_sp.is_funding_error(_DAY), "a per-DAY quota still drops the arm")
+    check(3.0 < _pv.retry_after(_TPM, 0) < 6.0,
+          "the wait comes from the provider's own retry delay")
+
+    _tries = []
+
+    def _rate_limited_twice(**kw):
+        _tries.append(1)
+        if len(_tries) < 3:
+            raise RuntimeError(_TPM)
+        return "answer"
+
+    _sleep, time.sleep = time.sleep, lambda _s: None
+    try:
+        check(_pv.call_with_backoff(_rate_limited_twice, model="m") == "answer"
+              and len(_tries) == 3,
+              "a model call rate-limited mid-run is retried, not lost")
+        _broke_hits = []
+
+        def _no_money(**kw):
+            _broke_hits.append(1)
+            raise RuntimeError(_BROKE)
+
+        try:
+            _pv.call_with_backoff(_no_money, model="m")
+        except RuntimeError:
+            pass
+        check(len(_broke_hits) == 1, "an out-of-funds call is not retried at all")
+    finally:
+        time.sleep = _sleep
+
+    # Every paid model call goes through the wrapper. A new call site added
+    # without it silently reintroduces the bug, and only a grep catches that.
+    _src = (ROOT / "synthetic_harness" / "providers.py").read_text()
+    _bare = [ln.strip() for ln in _src.splitlines()
+             if ("client.messages.create(" in ln
+                 or "client.models.generate_content(" in ln
+                 or "client.responses.create(" in ln
+                 or "client.chat.completions.create(" in ln)
+             and "call_with_backoff" not in ln
+             and not ln.strip().startswith(("#", "call_with_backoff"))]
+    check(not _bare, "every provider call is wrapped in the rate-limit retry",
+          "; ".join(_bare))
+
     import policy_eval.webtools as _wt
     check(_wt.SEARCH_MIN_INTERVAL > 0 and _wt.SEARCH_MAX_RETRIES >= 1,
           "web_search is paced and retries, so --workers cannot burst the backend")
