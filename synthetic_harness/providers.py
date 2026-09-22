@@ -107,6 +107,7 @@ _RATE_LIMIT = re.compile(
     # a stalled connection, now that every client has a limit: same remedy,
     # wait and send the same turn again
     r"timed? ?out|TimeoutError|ReadTimeout|DEADLINE_EXCEEDED|ServerDisconnected|"
+    r"Connection error|APIConnectionError|"
     r"RemoteProtocolError|ConnectionReset|Connection reset", re.I)
 _HARD_QUOTA = re.compile(
     r"PerDay|per day|daily limit|credit balance|insufficient_quota|"

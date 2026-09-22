@@ -378,7 +378,10 @@ _AUDIT_SYSTEM = (
     "writer was given. Your job is narrow: find every sentence in the letter that "
     "presents something as the plan's rule -- a requirement, threshold, duration, "
     "list item, exemption, definition or criterion -- that the excerpts do not "
-    "state. Quoted text that matches an excerpt is fine. The patient's own facts "
+    "state. This includes text in quotation marks or a block quote that is not "
+    "one of the excerpts: the writer had no other source, so such a quotation "
+    "is reconstructed from memory however plausible it reads. Quoted text that "
+    "matches an excerpt is fine. The patient's own facts "
     "are fine. A sentence that says the plan has NOT stated something is fine. "
     "Return JSON only: {\"unsupported\": [\"<sentence copied exactly>\", ...]}. "
     "An empty list is a correct answer.")
@@ -405,9 +408,17 @@ def _audit_attributions(client, model, letter, excerpts, facts):
             "output_tokens": getattr(u, "output_tokens", 0) or 0} if u else {}
     text = "".join(b.text for b in r.content if getattr(b, "type", None) == "text")
     got = extract_json(text) or {}
+    used["audit_raw"] = text[:600]          # kept on the letter, so a silent miss is visible
+    used["audit_parsed"] = bool(got) and "unsupported" in got
     out = [str(x).strip() for x in (got.get("unsupported") or []) if str(x).strip()]
-    # keep only sentences that are actually in the letter
-    return [x for x in out if x[:60].lower() in letter.lower()][:12], used
+    # keep only sentences that are actually in the letter. The audit may
+    # trim or re-punctuate; match on a normalised 40-character prefix.
+    import re as _re
+    norm = lambda t: _re.sub(r"[^a-z0-9]+", " ", t.lower()).strip()  # noqa: E731
+    nl = norm(letter)
+    kept = [x for x in out if norm(x)[:40] in nl]
+    used["audit_named"] = len(out)
+    return kept[:12], used
 
 
 def generate_appeal_letter(
@@ -515,6 +526,15 @@ def generate_appeal_letter(
                 (result.get("retrieval") or {}).get("citations", []) if c.get("verified", True)]
     facts = [str(result.get("denial_notice_text") or ""), str(patient_submission or "")]
     chk = unsourced_requirements(letter, excerpts, facts)
+    # A quotation the writer was never given is reconstructed from memory,
+    # however accurate it happens to be. Deterministic, so it does not depend
+    # on the audit read noticing.
+    from .quote_check import quoted_passages, in_text
+    pool = "\n".join(excerpts + facts)
+    for q in quoted_passages(letter):
+        if not in_text(q, pool):
+            chk["flagged"].append({"sentence": q[:300], "numbers": ["quotation not among the excerpts"]})
+    chk["count"] = len(chk["flagged"])
     # The number check catches thresholds; it cannot catch an invented list
     # item ("a locked knee is exempt") or an invented criterion in words. A
     # second, independent read of the letter against the excerpts catches
@@ -524,6 +544,7 @@ def generate_appeal_letter(
                        if excerpts else ([], {}))
     usage["input_tokens"] += a_usage.get("input_tokens", 0)
     usage["output_tokens"] += a_usage.get("output_tokens", 0)
+    audit_meta = {k: a_usage.get(k) for k in ("audit_raw", "audit_parsed", "audit_named")}
     flagged = [f["sentence"] for f in chk["flagged"]] + [j for j in judged if j not in
                                                           {f["sentence"] for f in chk["flagged"]}]
     revised = 0
@@ -554,6 +575,7 @@ def generate_appeal_letter(
     after = unsourced_requirements(letter, excerpts, facts)
     return {
         "unsourced_requirements_before": len(flagged),
+        "audit": audit_meta,
         "unsourced_numeric_before": chk["count"],
         "unsourced_judged_before": len(judged),
         "unsourced_requirements_after": after["count"],

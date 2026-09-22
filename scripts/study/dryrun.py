@@ -478,6 +478,8 @@ def stage_letters(cases, gold):
                 self._payload = '{"unsupported": ["The policy exempts a locked knee from conservative care."]}'
                 return super().create(**kw)
             bad = ("Dear Plan,\n\nThe policy states: \"" + found[0] + "\"\n\n"
+                   "The policy also states:\n\n> Members must have completed a supervised "
+                   "home exercise program of at least eight weeks before surgery.\n\n"
                    "The policy exempts a locked knee from conservative care. "
                    "My records show 16 weeks of therapy, well beyond the six weeks the "
                    "policy contemplates. The policy's own criteria call for an arc of "
@@ -493,9 +495,9 @@ def stage_letters(cases, gold):
     _out = generate_appeal_letter(shaped_g, client=_ts, sender="patient",
                                   patient_submission="16 weeks of therapy completed")
     check(_ts.calls == 3 and "90 degrees" in _ts.asks[-1] and "six weeks" in _ts.asks[-1]
-          and "locked knee" in _ts.asks[-1],
+          and "locked knee" in _ts.asks[-1] and "home exercise program" in _ts.asks[-1],
           "an unsourced threshold or list item attributed to the plan triggers one named revision")
-    check(_out.get("unsourced_requirements_before") == 3 and _out.get("unsourced_requirements_after") == 0
+    check(_out.get("unsourced_requirements_before") == 4 and _out.get("unsourced_requirements_after") == 0
           and _out.get("revised_for_unsourced") == 1 and "90 degrees" not in _out["letter_markdown"],
           "...and the revised letter is what is returned, with both counts recorded",
           str({k: _out.get(k) for k in ("unsourced_requirements_before", "unsourced_requirements_after")}))
