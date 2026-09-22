@@ -245,8 +245,10 @@ class _StubAnthropic:
         self.messages = self
 
     def create(self, **kw):
-        self.seen_prompt = "\n".join(
-            str(m.get("content")) for m in kw.get("messages", []))
+        if "You audit a draft" not in str(kw.get("system", "")):
+            # the audit read is a separate call; tests inspect the draft prompt
+            self.seen_prompt = "\n".join(
+                str(m.get("content")) for m in kw.get("messages", []))
         block = type("B", (), {"type": "text", "text": self._payload})()
         usage = type("U", (), {"input_tokens": 10, "output_tokens": 20})()
         return type("R", (), {"content": [block], "usage": usage})()
@@ -471,21 +473,29 @@ def stage_letters(cases, gold):
         def create(self, **kw):
             self.calls += 1
             self.asks.append(str(kw.get("messages", [])[-1].get("content"))[:40000])
+            if "You audit a draft" in str(kw.get("system", "")):
+                # the audit read: name the invented list item the number check misses
+                self._payload = '{"unsupported": ["The policy exempts a locked knee from conservative care."]}'
+                return super().create(**kw)
             bad = ("Dear Plan,\n\nThe policy states: \"" + found[0] + "\"\n\n"
+                   "The policy exempts a locked knee from conservative care. "
                    "My records show 16 weeks of therapy, well beyond the six weeks the "
                    "policy contemplates. The policy's own criteria call for an arc of "
                    "motion of at least 90 degrees.\n\nSincerely")
             good = ("Dear Plan,\n\nThe policy states: \"" + found[0] + "\"\n\n"
-                    "My records show 16 weeks of therapy.\n\nSincerely")
+                    "My records show 16 weeks of therapy, documented in the discharge "
+                    "note, and the imaging and examination findings the records describe. "
+                    "I ask that the denial be overturned.\n\nSincerely")
             self._payload = bad if self.calls == 1 else good
             return super().create(**kw)
 
     _ts = _TwoStep()
     _out = generate_appeal_letter(shaped_g, client=_ts, sender="patient",
                                   patient_submission="16 weeks of therapy completed")
-    check(_ts.calls == 2 and "90 degrees" in _ts.asks[-1] and "six weeks" in _ts.asks[-1],
-          "an unsourced threshold attributed to the plan triggers one named revision")
-    check(_out.get("unsourced_requirements_before") == 2 and _out.get("unsourced_requirements_after") == 0
+    check(_ts.calls == 3 and "90 degrees" in _ts.asks[-1] and "six weeks" in _ts.asks[-1]
+          and "locked knee" in _ts.asks[-1],
+          "an unsourced threshold or list item attributed to the plan triggers one named revision")
+    check(_out.get("unsourced_requirements_before") == 3 and _out.get("unsourced_requirements_after") == 0
           and _out.get("revised_for_unsourced") == 1 and "90 degrees" not in _out["letter_markdown"],
           "...and the revised letter is what is returned, with both counts recorded",
           str({k: _out.get(k) for k in ("unsourced_requirements_before", "unsourced_requirements_after")}))
@@ -494,6 +504,8 @@ def stage_letters(cases, gold):
     _one = _StubAnthropic("Dear Plan,\n\nThe policy states: \"" + found[0] + "\"\n\nSincerely")
     generate_appeal_letter(shaped_g, client=_one, sender="patient")
     check(_one.seen_prompt.count("Revise the letter") == 0, "a clean letter is not sent for revision")
+    # (the clean letter still gets the audit read; the stub answers it with the
+    # letter text, which parses to no JSON and so to nothing unsupported)
 
     # A library hit must still verify: the library keeps quotes, the cache keeps
     # the text, and without the text every library hit read as unreadable.

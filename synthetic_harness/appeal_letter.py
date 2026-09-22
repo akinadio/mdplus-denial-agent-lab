@@ -373,6 +373,43 @@ def _letter_context(result: dict[str, Any], patient_submission: str | None) -> s
     return "\n".join(lines)
 
 
+_AUDIT_SYSTEM = (
+    "You audit a draft insurance appeal letter against the ONLY policy text the "
+    "writer was given. Your job is narrow: find every sentence in the letter that "
+    "presents something as the plan's rule -- a requirement, threshold, duration, "
+    "list item, exemption, definition or criterion -- that the excerpts do not "
+    "state. Quoted text that matches an excerpt is fine. The patient's own facts "
+    "are fine. A sentence that says the plan has NOT stated something is fine. "
+    "Return JSON only: {\"unsupported\": [\"<sentence copied exactly>\", ...]}. "
+    "An empty list is a correct answer.")
+
+
+def _audit_attributions(client, model, letter, excerpts, facts):
+    """Sentences the letter attributes to the plan that no excerpt supports,
+    and the tokens the read cost."""
+    from .providers import call_with_backoff
+    from .agent_runner import extract_json
+    body = ("POLICY EXCERPTS GIVEN TO THE WRITER:\n" +
+            "\n".join(f"- {e}" for e in excerpts) +
+            "\n\nPATIENT RECORDS AND NOTICE (the patient's facts, not the plan's rules):\n" +
+            "\n".join(f for f in facts if f)[:8000] +
+            "\n\nLETTER:\n" + letter)
+    try:
+        r = call_with_backoff(client.messages.create, model=model, max_tokens=4000,
+                              system=_AUDIT_SYSTEM,
+                              messages=[{"role": "user", "content": body}])
+    except Exception:  # noqa: BLE001 - the number check still stands
+        return [], {}
+    u = getattr(r, "usage", None)
+    used = {"input_tokens": getattr(u, "input_tokens", 0) or 0,
+            "output_tokens": getattr(u, "output_tokens", 0) or 0} if u else {}
+    text = "".join(b.text for b in r.content if getattr(b, "type", None) == "text")
+    got = extract_json(text) or {}
+    out = [str(x).strip() for x in (got.get("unsupported") or []) if str(x).strip()]
+    # keep only sentences that are actually in the letter
+    return [x for x in out if x[:60].lower() in letter.lower()][:12], used
+
+
 def generate_appeal_letter(
     result: dict[str, Any],
     patient_submission: str | None = None,
@@ -478,12 +515,23 @@ def generate_appeal_letter(
                 (result.get("retrieval") or {}).get("citations", []) if c.get("verified", True)]
     facts = [str(result.get("denial_notice_text") or ""), str(patient_submission or "")]
     chk = unsourced_requirements(letter, excerpts, facts)
+    # The number check catches thresholds; it cannot catch an invented list
+    # item ("a locked knee is exempt") or an invented criterion in words. A
+    # second, independent read of the letter against the excerpts catches
+    # those. It is a read, not a rewrite: it names sentences, and the same
+    # revision pass handles both lists.
+    judged, a_usage = (_audit_attributions(client, model, letter, excerpts, facts)
+                       if excerpts else ([], {}))
+    usage["input_tokens"] += a_usage.get("input_tokens", 0)
+    usage["output_tokens"] += a_usage.get("output_tokens", 0)
+    flagged = [f["sentence"] for f in chk["flagged"]] + [j for j in judged if j not in
+                                                          {f["sentence"] for f in chk["flagged"]}]
     revised = 0
-    if chk["count"]:
-        ask = ("Revise the letter below. These sentences state a number or threshold as "
-               "the plan's requirement, and that number appears in none of the policy "
-               "excerpts you were given:\n\n" +
-               "\n".join(f"- {f['sentence']}" for f in chk["flagged"]) +
+    if flagged:
+        ask = ("Revise the letter below. These sentences present something as the plan's "
+               "rule, requirement, threshold or list item that appears in none of the "
+               "policy excerpts you were given:\n\n" +
+               "\n".join(f"- {f}" for f in flagged) +
                "\n\nRemove or rephrase each so that nothing is attributed to the plan "
                "beyond what the excerpts say verbatim. The patient's own facts (from the "
                "records) may stay. Change nothing else. Return the complete revised "
@@ -499,13 +547,15 @@ def generate_appeal_letter(
                 usage["input_tokens"] += getattr(u2, "input_tokens", 0) or 0
                 usage["output_tokens"] += getattr(u2, "output_tokens", 0) or 0
             new = "".join(b.text for b in r2.content if getattr(b, "type", None) == "text").strip()
-            if len(new) > 0.6 * len(letter) and getattr(r2, "stop_reason", None) != "max_tokens":
+            if len(new) > 0.5 * len(letter) and getattr(r2, "stop_reason", None) != "max_tokens":
                 letter, revised = new, 1
         except Exception:  # noqa: BLE001 - keep the first draft, report it unrevised
             pass
     after = unsourced_requirements(letter, excerpts, facts)
     return {
-        "unsourced_requirements_before": chk["count"],
+        "unsourced_requirements_before": len(flagged),
+        "unsourced_numeric_before": chk["count"],
+        "unsourced_judged_before": len(judged),
         "unsourced_requirements_after": after["count"],
         "unsourced_flagged": [f["sentence"][:200] for f in after["flagged"]][:5],
         "revised_for_unsourced": revised,
