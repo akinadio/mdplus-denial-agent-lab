@@ -1,0 +1,1209 @@
+{
+ "answer": {
+  "policy_found": true,
+  "policy_title": "Cigna Medical Coverage Policies \u2013 Musculoskeletal: Lumbar Microdiscectomy (Laminotomy, Laminectomy, or Hemilaminectomy)",
+  "policy_number": "CMM-606",
+  "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-05/Cigna_CMM-606%20Lumb%20Microdis_Final_V1.0.2025_Pub03.19.2025_upd05.29.2025.pdf",
+  "effective_date": "July 1, 2025 (Published March 19, 2025, Updated May 29, 2025)",
+  "criteria_quotes": [
+   "CMM-606.2: Initial Primary Lumbar Microdiscectomy (Laminotomy, Laminectomy or Hemilaminectomy): Initial primary lumbar microdiscectomy (laminotomy, laminectomy, or hemilaminectomy) is considered medically necessary when performed for ANY of the following conditions when ALL of the associated criteria have been met: Neurogenic Claudication: Subjective symptoms including BOTH of the following: Significant level of pain on a daily basis defined as clinically significant functional impairment... Pain, cramping, weakness, or tingling in the lower back, buttock(s), and leg(s) brought about by walking or positions that cause thecal sac or nerve root compression... and EITHER of the following: Symptoms worsen with standing and/or walking [or] Symptoms are alleviated with sitting and/or forward flexion; Objective physical exam findings concordant with MRI/CT; Less than clinically meaningful improvement with at least TWO of the following (unless contraindicated): Prescription strength analgesics, steroids, gabapentinoids, and/or NSAIDs for six (6) weeks, Provider-directed exercise program... for six (6) weeks, Epidural steroid injection(s) or selective nerve root block(s)...; MRI/CT shows neural structure compression at the requested level(s) that is concordant... and that is caused by ANY of the following: Herniated disc(s), Synovial cyst or arachnoid cyst, Central/lateral/foraminal stenosis, Osteophytes; Absence of unmanaged significant mental and/or behavioral health disorders...",
+   "CMM-606.2: Initial Primary Lumbar Microdiscectomy - Radiculopathy: Subjective symptoms include BOTH of the following: Significant level of pain on a daily basis defined as clinically significant functional impairment... Persistent radiating pain into the buttock(s) and/or lower extremity(ies); Objective physical exam findings include EITHER of the following: Nerve root tension sign including ANY of the following: Positive straight leg raise, Crossed straight leg raise, Femoral stretch test [or] Neurologic deficit including ANY of the following: Dermatomal sensory deficit, Functionally limiting motor weakness (e.g., foot drop, quadriceps weakness), Reflex changes; Less than clinically meaningful improvement with at least TWO of the following (unless contraindicated): Prescription strength analgesics, steroids, gabapentinoids, and/or NSAIDs for six (6) weeks, Provider-directed exercise program... for six (6) weeks, Epidural steroid injection(s) or selective nerve root block(s)...; MRI/CT shows neural structure compression at the requested level(s)... caused by ANY of the following: Herniated disc(s), Synovial cyst or arachnoid cyst, Central/lateral/foraminal stenosis, Osteophytes; Absence of unmanaged significant mental and/or behavioral health disorders...",
+   "CMM-606.1: Urgent/Emergent Indications/Conditions: The presence of urgent/emergent indications/conditions warrants definitive surgical treatment... Urgent/emergent conditions for lumbar microdiscectomy and/or excision of extradural lesion other than neoplasm include ANY of the following: Cauda equina syndrome (CES); Documentation of progressive neurological deficit on two separate physical exams; ANY of the following due to a neurocompressive pathology: Motor weakness of grade 3/5 or less of specified muscle(s), Rapidly progressive symptoms of motor loss, Bowel incontinence, Bladder incontinence/retention; Epidural hematoma; Infection (e.g., discitis, epidural abscess, osteomyelitis); Primary or metastatic neoplastic disease causing pathologic fracture, cord or nerve compression, or instability; A condition otherwise meeting criteria listed in the applicable procedure section(s) with documentation of severe debilitating pain and/or dysfunction to the point of being incapacitated."
+  ],
+  "appeal_deadline": "2027-01-27",
+  "submission_route": "The patient or their representative should check the back of their Cigna ID card to verify the correct regional address. Standard paper appeal forms and letters can be mailed to the Cigna Appeals Unit at P.O. Box 188011, Chattanooga, TN 37422-8011 (for standard Cigna Network plans) or P.O. Box 188062, Chattanooga, TN 37422-8062 (if the ID card indicates GW-Cigna or 'G'). Additionally, the patient can contact Customer Service toll-free via the phone number on their ID card, and providers may submit appeals electronically via the Cigna for Health Care Professionals portal (CignaForHCP.com or Provider.Evernorth.com).",
+  "how_to_obtain_criteria": "The patient can obtain a copy of the specific clinical guidelines applied to their case by calling Cigna Customer Service at the number listed on the back of their insurance ID card (or 1-800-882-4462). Alternatively, they or their provider can request the clinical criteria from EviCore (which manages musculoskeletal clinical reviews on behalf of Cigna) by emailing their case/reference number to reqcriteria@EviCore.com.",
+  "confidence": 0.95,
+  "notes": "The criteria are managed on Cigna's behalf by EviCore under policy CMM-606. This covers CPT code 63030 (laminotomy/decompression/discectomy). Since the denial was issued on 2026-07-31, the 2025/2026 medical policy guidelines are the active governing guidelines."
+ },
+ "raw_text": "```json\n{\n  \"policy_found\": true,\n  \"policy_title\": \"Cigna Medical Coverage Policies \u2013 Musculoskeletal: Lumbar Microdiscectomy (Laminotomy, Laminectomy, or Hemilaminectomy)\",\n  \"policy_number\": \"CMM-606\",\n  \"policy_url\": \"https://www.evicore.com/sites/default/files/clinical-guidelines/2025-05/Cigna_CMM-606%20Lumb%20Microdis_Final_V1.0.2025_Pub03.19.2025_upd05.29.2025.pdf\",\n  \"effective_date\": \"July 1, 2025 (Published March 19, 2025, Updated May 29, 2025)\",\n  \"criteria_quotes\": [\n    \"CMM-606.2: Initial Primary Lumbar Microdiscectomy (Laminotomy, Laminectomy or Hemilaminectomy): Initial primary lumbar microdiscectomy (laminotomy, laminectomy, or hemilaminectomy) is considered medically necessary when performed for ANY of the following conditions when ALL of the associated criteria have been met: Neurogenic Claudication: Subjective symptoms including BOTH of the following: Significant level of pain on a daily basis defined as clinically significant functional impairment... Pain, cramping, weakness, or tingling in the lower back, buttock(s), and leg(s) brought about by walking or positions that cause thecal sac or nerve root compression... and EITHER of the following: Symptoms worsen with standing and/or walking [or] Symptoms are alleviated with sitting and/or forward flexion; Objective physical exam findings concordant with MRI/CT; Less than clinically meaningful improvement with at least TWO of the following (unless contraindicated): Prescription strength analgesics, steroids, gabapentinoids, and/or NSAIDs for six (6) weeks, Provider-directed exercise program... for six (6) weeks, Epidural steroid injection(s) or selective nerve root block(s)...; MRI/CT shows neural structure compression at the requested level(s) that is concordant... and that is caused by ANY of the following: Herniated disc(s), Synovial cyst or arachnoid cyst, Central/lateral/foraminal stenosis, Osteophytes; Absence of unmanaged significant mental and/or behavioral health disorders...\",\n    \"CMM-606.2: Initial Primary Lumbar Microdiscectomy - Radiculopathy: Subjective symptoms include BOTH of the following: Significant level of pain on a daily basis defined as clinically significant functional impairment... Persistent radiating pain into the buttock(s) and/or lower extremity(ies); Objective physical exam findings include EITHER of the following: Nerve root tension sign including ANY of the following: Positive straight leg raise, Crossed straight leg raise, Femoral stretch test [or] Neurologic deficit including ANY of the following: Dermatomal sensory deficit, Functionally limiting motor weakness (e.g., foot drop, quadriceps weakness), Reflex changes; Less than clinically meaningful improvement with at least TWO of the following (unless contraindicated): Prescription strength analgesics, steroids, gabapentinoids, and/or NSAIDs for six (6) weeks, Provider-directed exercise program... for six (6) weeks, Epidural steroid injection(s) or selective nerve root block(s)...; MRI/CT shows neural structure compression at the requested level(s)... caused by ANY of the following: Herniated disc(s), Synovial cyst or arachnoid cyst, Central/lateral/foraminal stenosis, Osteophytes; Absence of unmanaged significant mental and/or behavioral health disorders...\",\n    \"CMM-606.1: Urgent/Emergent Indications/Conditions: The presence of urgent/emergent indications/conditions warrants definitive surgical treatment... Urgent/emergent conditions for lumbar microdiscectomy and/or excision of extradural lesion other than neoplasm include ANY of the following: Cauda equina syndrome (CES); Documentation of progressive neurological deficit on two separate physical exams; ANY of the following due to a neurocompressive pathology: Motor weakness of grade 3/5 or less of specified muscle(s), Rapidly progressive symptoms of motor loss, Bowel incontinence, Bladder incontinence/retention; Epidural hematoma; Infection (e.g., discitis, epidural abscess, osteomyelitis); Primary or metastatic neoplastic disease causing pathologic fracture, cord or nerve compression, or instability; A condition otherwise meeting criteria listed in the applicable procedure section(s) with documentation of severe debilitating pain and/or dysfunction to the point of being incapacitated.\"\n  ],\n  \"appeal_deadline\": \"2027-01-27\",\n  \"submission_route\": \"The patient or their representative should check the back of their Cigna ID card to verify the correct regional address. Standard paper appeal forms and letters can be mailed to the Cigna Appeals Unit at P.O. Box 188011, Chattanooga, TN 37422-8011 (for standard Cigna Network plans) or P.O. Box 188062, Chattanooga, TN 37422-8062 (if the ID card indicates GW-Cigna or 'G'). Additionally, the patient can contact Customer Service toll-free via the phone number on their ID card, and providers may submit appeals electronically via the Cigna for Health Care Professionals portal (CignaForHCP.com or Provider.Evernorth.com).\",\n  \"how_to_obtain_criteria\": \"The patient can obtain a copy of the specific clinical guidelines applied to their case by calling Cigna Customer Service at the number listed on the back of their insurance ID card (or 1-800-882-4462). Alternatively, they or their provider can request the clinical criteria from EviCore (which manages musculoskeletal clinical reviews on behalf of Cigna) by emailing their case/reference number to reqcriteria@EviCore.com.\",\n  \"confidence\": 0.95,\n  \"notes\": \"The criteria are managed on Cigna's behalf by EviCore under policy CMM-606. This covers CPT code 63030 (laminotomy/decompression/discectomy). Since the denial was issued on 2026-07-31, the 2025/2026 medical policy guidelines are the active governing guidelines.\"\n}\n```",
+ "usd": 0.0953,
+ "transcript": [
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": null,
+     "inline_data": null,
+     "text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-07-31\nMember: Taylor Jennings\nMember ID: W530749089\nPlan: Cigna (Commercial/ACA), state of Illinois\n\nDear Taylor,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Lower back disc surgery / decompression\n    Procedure code (CPT): 63030\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-27).\n\nReference number: POC-F7C299C469-49918\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes.",
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_199972",
+      "args": {
+       "query": "Cigna medical policy 63030 lumbar discectomy decompression"
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\x98\\x03\\n\\x95\\x03\\x01i\\x14}\\x13{_2\\x98\\\\\\xe4\\xa9\\xb5\\xe0\\xd3:\\xed:\\xf0\\xff\\xf5\\x17\\xaa\\x88\\xda\\xa9\\xc0\\xdf_\\xbc\\xcc\\xae^=v\\x8f\\x9bA\\x84s{\\x89\\x16\\xab\\t\\x05f\\xfb\\x1c\\xf4\\x9a\\x1c:\\xc1\\x86\\xee\\xd7\\x80\\xb6W\\x01\\x90y<\"\\xa0+f\\x9e\\xb5\\xaa\\x9e\\xa1y\\xeb\\xea\\xe8\\xdc\\xab\\xd7;RI\\x87A\\x96\\xe0\\x85\\xeb(q\\x89c\\x05\\xc1Al\\x1e\\xb9dc\\x12U[\\xdc\\x1f\\xda?\\x86y\\x1dm\\xc7oq\\xb3\\x9e\\xcb\\xe0\\xc7\\x10g\\x03`X`\\xed\\xd12o4\\xbaj\\x8a7#\\x05\\xfaX\\xc4X\\x9c\\x05\\xdd\\x1bD\\xb5`\\xd7\\x93MWW|\\xfb}\\xdf\\x02\\x84;\\xef\\xcd\\x97\\xe6u\\xe4\\xa6\\xb1S\\x15\\x17 \\\\\\xe0\\xb0\\xec\\xd3\\x1f:\\x19\\xb8?\\xea!\\xc5\\xa0\\xc1^m\\xa8\\xe1?\\xef>\\xb2\\xdc_\\xc8\\t\\x8b;+gJ\\x88b*\\x13>\\xbf\\x99\\x81\\xc0\\te\\xab\\x88\\xf3\\xbe\\xf7~={\\x9e\\x82\\xcd\\n.\\x83\\xd3\\x12:Yn^\\xc4f\\xc0\\x17\\xf7\\xe1\\xbc\\x11\\xdb\\x83\\x00\\x9c,\\xa1Hp\\x8cfY\\xb1\\x9eW\\xd7|\\xf1i\\x03\\x91.\\xaf\\xcb\\xdc2A\\x9b_1B(\\x86g\\xc0{_\\xfaR\\xcf\\x03\\xb3\\t\\x9e}H\\xc2\\xed\\x94\\xcd\\x1e\\n\\xfbO\\x11\\xbe\\xb6\\xb4\\x1b\\xc0\\xb5\\x8e\\x0e\\xbd\\xea\\xbc\\xbf(&\\xac\\x82\\xd3\\xa8\\xd3$\\x00\\xeb\\x17z\\xfc\\xf4\\xfa\\xc7\\x9f\\x8d\\xd9\\xb6M\\xe0\\x1a\\xae\\xe7/c0\\xbb\\x91\\x9b\\x00\\xa1\\xb2:\\xa2\\x0c\\x9f\\xb8\\xa7\\xfe0\\xe72\\xe0\\xd5w\\xf1\\x12\\xc5\\x85\\xb2\\xa5\\x1b\\x98\\xc2T\\xd6$\\xeb{\\xf1\\xb3\\xbe(L\\x14l\\x13\\x96\\xde\\x1b(\\xc4\\x81Y)G\\xe1U\\xa4F\\x8e\\xfe\\n\\xd9\\xc4\\x06f`\\xe7j\\x03*\\x1cP'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Cigna medical policy 63030 lumbar discectomy decompression",
+        "results": [
+         {
+          "title": "Cigna Medical Coverage Policies \u2013 Musculoskeletal",
+          "url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-05/Cigna_CMM-606%20Lumb%20Microdis_Final_V1.0.2025_Pub03.19.2025_upd05.29.2025.pdf",
+          "snippet": "<strong>Endoscopic decompression of spinal cord, nerve root(s), including laminotomy, partial facetectomy, foraminotomy, discectomy and/or excision of herniated</strong> \u00b7 intervertebral disc, 1 interspace, lumbar \u00b7 63030 \u00b7 Laminotomy (hemilaminectomy), with decompression of nerve root(s), including partial ..."
+         },
+         {
+          "title": "MEDICAL POLICY \u2013 7.01.551 Lumbar Spine Decompression Surgery: Discectomy,",
+          "url": "https://www.premera.com/medicalpolicies/7.01.551.pdf",
+          "snippet": "equina, without facetectomy, foraminotomy or discectomy (e.g., spinal stenosis), more \u00b7 than 2 vertebral segments; lumbar \u00b7 63030 \u00b7 <strong>Laminotomy (hemilaminectomy), with decompression of nerve root(s), including partial</strong> \u00b7 facetectomy, foraminotomy and/or excision of herniated intervertebral ..."
+         },
+         {
+          "title": "Cigna_CMM-608 Lumbar Decompression",
+          "url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2024-07/Cigna_CMM-608%20Lumb%20Decom_Final_V1.0.2024.pdf",
+          "snippet": "System, X-STOP PEEK Interspinous Process Decompression System, and Total \u00b7 Posterior Spine [TOPS\u2122] System) are considered experimental, investigational, or \u00b7 unproven for ALL indications including, but not limited to, the following: \uf0ae Lumbar interspinous/interlaminar distraction (without fusion) for indirect spinal"
+         },
+         {
+          "title": "Cigna Medical Coverage Policies \u2013 Musculoskeletal Lumbar Fusion (Arthrodesis)",
+          "url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-05/Cigna_CMM-609%20Lumbar%20Fusion_FINAL_V1.0.2025_Pub03.19.2025_upd05.29.2025.pdf",
+          "snippet": "These guidelines apply to services or supplies managed by EviCore for Cigna as outlined by the list. ... CMM 606.1: General Guidelines. \uf0ae For an initial primary lumbar discectomy, see CMM-606.2: Initial Primary"
+         },
+         {
+          "title": "Page 1 of 12 Coverage Policy Number: 0393 Cigna Medical Coverage Policy",
+          "url": "https://www.aapc.com/codes/webroot/upload/general_pages_docs/document/mm_0393_coveragepositioncriteria_discography.pdf",
+          "snippet": "the level of cervical discectomy and fusion. Spine. 2004 Oct;29(19):2140-5,discussion 2146. 68. Zhou Y, Abdi S. Diagnosis and minimally invasive treatment of lumbar discogenic pain--a review of the ... The registered mark &quot;Cigna&quot; and the &quot;Tree of Life&quot; logo are owned by Cigna Intellectual Property, Inc., licensed for use by Cigna Corporation and"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_302616",
+      "args": {
+       "query": "\"CMM-606\" Cigna lumbar discectomy"
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\x9f\\x05\\n\\x9c\\x05\\x01i\\x14}\\x13\\xc4+\\x06}\\xc9\\x9e3\\t\\xb7\\x86\\xf3Ti%\\xf2\\x96\\xf6\\x0fgU\\xec$7\\x87_\\xb9\\x9dw\\xf2\\x07\\x16d\\x8e\\xc3\\xc1B\\xaexh\\xabv\\xf3|\\xeb\\xbd\\xa1\\x96v\\r\\x9e)\\xed|\\xf3\\x1c\\x86\\xac\\x07\\xf8e\\xe6\\x97@\\x12\\n\\xdb\\xdc\\xbbUl\\xfd\\x1d\\xfc\\x10\\xc7\\xc2LUD\\xc7\\x83\\x11F\\x9a%\\xd5V\\x08\\xe6\\xa2\\xde\\x0b~w\\x8c\\xe3|\\x0f\\x98\\x9f\\x85\\x1d\\xdb\\xff\\x83z BQ\\xe7\\xec\\xea\\x94L`L\\x8d\\x87\\xef\\xc5\\xc5\\x08\\xf8\\xce\\x8c\\xda)\\xf0\\xda\\x96\\xbc\\x06K\\xc8\\xcc\"\\xdb\\x10ob\\xd9\\x98\\xef|\\xd6\\xe8\\x04\\xf1\\xc7\\xa9\\xa8\\xad\\xb2E\\xddZ\\x06\\xd9\\x84\\xd7\\x90\\r\\x01\\xe7\\xabF_\\x12y8\\x89\\xfd>\\\\Qp\\xc2\\xfb\\xfd$L\\xbc\\xe9\\x803\\x89\\xb8\\x864.a3\\xbb`\\xb0e\\x1b\\xb9L\\xd0\\x95\\xe9\\x8dm\\xd2HC\\xd7\\x85J\\xe7ta\\xd9\\x83\\xdb\\xdc\\xc4\\xdf\\xe0K7Z\\x86e\\xe3\\x0e|n\\xd2=\\xb0\\xf7*\\xca\\xab6x\\xd8q{\\xc6=oN\\xf93\\xaf\\xe5\\xfb]\\xf9\\xa7c\\xdb-\\xcd\\x12G\\x182\\xb6/\\xc5.\\x05K\\xf1\\x96\\xd4\\xcfw&^?_\\x97\\x90\\x9d\\xc3\\xe29w\\xa6\\xc9\\xe3_\\x18(\\x89\\x9d\\xdf\\x11\\xe3;\\xac\\xd2\\x9b\\xec\\xdd\\xfe\\xa3\\x01U\\xb2\\x838#\\xff\\xbeW\\xb4\\x9e\\xd23\\xde\\x1bIl\\xf9\\xa5\\xd8EH8\"T\\xdd\\xfbu\\xbb\\x1e\\xb3\\xf8\\xe0\\x90\\xa8\\x12D^|\\x13\\x17\\xa4\\xd8\\x8c\\xa3n\\xfbkT\\x0e\\x17\\x06\\xa2\\r\\x01\\xf3\\xad\\x0f\\x03\\xc9\\xea>\\xdf\\xea$Oi\\x84k\\x03\\xf1o\\x07\\xee\\x18\\xdf\\xfc\\xcf\\xf5\\xab\\xfa*\\xa2<I<\\xc3\\xfe\\xad\\x94\\x04,\\xdc\\xd9\\xe9\\x8a\\xf1\\x8c\\xd8\\xfa\\x8d\\x0b\\x13\\x85\\xff\\xbd\\x85\\xf5\\x01\\xce2\\x07\\xf3L&\\x06\\x1f\\xf5&\\xff\\x9cN\\xd4V\\xf7\\xc6\\xceb\\xfbQ\\r*\\x0e\\xa6\\xacp\\xe8\\x11\\xa2TP\\xef\\xfd>\\xdc\\x88G\\x98*>\\xf5\\\\\\x93M\\x91\\xcc\\xa69>\\x0c\\x84\\xb6\\x88\\x06\\xd6\\xa0&./f0Q\\xa4\\xe5\\x1av\\xf5\\x9c(\\xdeu\\xea\\x96\\t,`\\xbb]\\x11v\\xdd\\xa0\\xf1\\n\\x06\\xa5\\x14PY\\x95*9\\xec\\x06z\\x85\\xfe\\xe5\\xe1\\xf7\\xf9D\\xaf\\xd4/\\x1a`\\x00\\x1ck\\xdb\\x94:\\xea\\xe5t\\xf2\\xcc\\xbd!\\x9at\\xca\\xc0\\x1c\\xae\\xe2\\xb0\\xf0\\xba\\xdd\\xad\\x8cz\\x83\\x03}\\xe7\\xed\\xd2\\x98(\\xca\\xaa_\\xa7\\x07H\\xa6\\xe7\\x1f\\xf00Z\\xa8\\x8e\\xacp}.\\xd8uBE\\xc7\\xb8nU\\x1d\\x11\\x01m\\x92:n\\xb5B\\x84 5\\xf7P\\x9d\\x94\\xb2cLi\\x07\\xc5\\x17\\xfc-\\xf4D\\xcb\\x93k\\x14\\xf3&\\xac\\xd4\\xb2\\xf8\\xa4\\xb7_\\x16\\xfd\\'\\xad\\t\\xa4 \\xb9\\xc5\\xdf\\xfb=\"\\x9c\\xa5\\x13H\\xb2\\xbc\\xbb\\x83\\xd1\\xf0Vi\\xf5J\\xcd\\x06@W%\\x98J\\xf51\\xbc\\xe821\\x8f\\xb5N'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"CMM-606\" Cigna lumbar discectomy",
+        "results": [
+         {
+          "title": "CMM-606 Lumbar Microdiscectomy",
+          "url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-05/Cigna_CMM-606%20Lumb%20Microdis_Final_V1.0.2025_Pub03.19.2025_upd05.29.2025.pdf",
+          "snippet": "Cigna CPT \u00b7 CMM-606: Lumbar Microdiscectomy \u00b7 Credentialed Spine Surgeon Required \u00b7 \uf086<strong>Endoscopic lumbar discectomy requires the procedure be performed by a spine</strong> \u00b7 surgeon with surgical privileges at a hospital, hospital outpatient department, or \u00b7 ambulatory surgery center to perform ..."
+         },
+         {
+          "title": "Cigna_CMM-606 Lumbar Microdiscectomy",
+          "url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2024-07/Cigna_CMM-606%20Lumb%20Microdis_Final_V1.0.2024.pdf",
+          "snippet": "EviCore is committed to providing evidence-based approach that leverages our exceptional clinical and technological capabilities, powerful analytics, and sensitivity to the needs of everyone involved across the healthcare continuum."
+         },
+         {
+          "title": "Cigna",
+          "url": "https://static.cigna.com/assets/chcp/pdf/coveragePolicies/policy_updates/july_2024_policy_updates.pdf",
+          "snippet": "CMM-601 Anterior Cervical Discectomy and Fusion \u00b7 \u2022 \u00b7 CMM-602 Cervical Total Disc Arthroplasty \u00b7 \u2022 \u00b7 CMM-603 Posterior Cervical Decompression \u00b7 (Laminectomy/Hemilaminectomy/Laminoplasty) \u2022 \u00b7 CMM-604 Posterior Cervical Fusion \u00b7 \u2022 \u00b7 CMM-605 Cervical Microdiscectomy \u00b7 \u2022 \u00b7 CMM-606 Lumbar Microdiscectomy (Laminotomy, Laminectomy, or \u00b7"
+         },
+         {
+          "title": "EviCore Cigna Commercial Membership | EviCore by Evernorth",
+          "url": "https://www.evicore.com/cigna",
+          "snippet": "CMM-601: Anterior Cervical Discectomy and Fusion \u00b7 CMM-602: Cervical Total Disc Arthroplasty \u00b7 CMM-603: Posterior Cervical Decompression (Laminectomy/Hemilaminectomy/Laminoplasty) CMM-604: Posterior Cervical Fusion \u00b7 CMM-605: Cervical Microdiscectomy \u00b7 CMM-606: Lumbar Microdiscectomy (Laminotomy, Laminectomy, or Hemilaminectomy) CMM-607: Primal Vertebral Augmentation (Percutaneous Vertebroplasty-Kyphoplasty) and Sacroplasty \u00b7"
+         },
+         {
+          "title": "CMM-606: Lumbar Microdiscectomy Guidelines",
+          "url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2024-07/EviCore_CMM-606%20Lumb%20Microdis_Final_V2.0.2024.pdf",
+          "snippet": "CMM-606: Lumbar Microdiscectomy \u00b7 Credentialed Spine Surgeon Required \u00b7 \uf086 <strong>Endoscopic lumbar discectomy requires the procedure be performed by a spine</strong> \u00b7 surgeon with surgical privileges at a hospital, hospital outpatient department, or \u00b7 ambulatory surgery center to perform open surgical ..."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_329555",
+      "args": {
+       "query": "\"CMM-606\" \"63030\" \"clinical guidelines\" OR \"criteria\" OR \"indications\""
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\xb5\\x0b\\n\\xb2\\x0b\\x01i\\x14}\\x13 ^\\xad\\x15\\x1cB\\xbe\\xb8\\x0c\\\\\\x82\\xdf^\\xaa\\xec\\xfd\\x03U\\xdaf\\x8bh\\x896\\x96uZI\\x10\\x86\\xbb\\xe5\\xe3Ju|\\x86@\\xc5\\xc6k4\\xe9l\\x1e\\xfc\\x19\\x18\\x81\\x87\\xd0\\x9c\\xff\\x8b\\xe5\\x8e\\xab\\x02M49\\xb9%@\\xab\\xbca*\\xfe\\xf5^A\\x03;\\x0cx:`\\xc1\\xde\\xccs\\xb1\\xb3\\xd0\\xbb\\x04t\\xb9\\x9fUC\\xba\\n=<V\\x81:\\xf8\\xfdD*u\\xd8\\x96\\xb9\\x98,\\xc07Rj3\\xde&2\\x8b\\xcd\\xb4\\xf4\\xba\\x9c\\xa9X\\xa2\\xf27Y\\x8b\\x17K\\x1f\\xe2\\x93HZ\\x87\\x10\\xb9\\x91\\x9b\\\\\\xec\\x15F7\\x08L\\xcfQ\\x03Fa\\x08^\\xfcS\\x13`IS\\xbeC\\':6\\x03\\xb2\\xe88#\\xac\\xa8\\xaaQ\\xb4\\x91\\xa3\\xcby\\xc3]\\xad\\xf97\\x0b\\xd2\\x9a\\xa9R\\x96C\\xbaRpa\\xbe\\xc1y\\xb4\\xea\\xd0\\x02T\\x14\\xd8\\x9f\\xe7\\x93\\xd0G*\\x93P#\\x1eT\\x04\\xd5\\xb4\\x80\\xc1\\xa0\\xe8\\xf3\\xd3)\\x19\\x06\\xce\\xdb\\x137\\x176\\xd3\\x03*\\x89\\x8d\\xd3_2\\'l\\x92\\x9a]W\\x01\\x98\\xac3\\xf8\\\\\\xc5\\\\\\xeb\\xb5\\xd7\\xa5\\x1d\\xd3\\xf8\\xfa\\x15\\x85P\\xf7 \\xf1\\xcc\\xd3\\xb8\\xdf\\xa6\\r\\xa1\\x83\\x0c\\xc5?o.\\xa7\\x8e6a\\x00\\x82\\'\\xbf\\x92N\\xaa\\xdf8\\xb7|=O\\xfa\\xfeA\\xc0\\x8ds5Un\\xdd\\xb3\\xbe\\xc9;\\x97\\xb2\\xdev\\x87\\x8e\\x9c\\xc7P\\x7f\\xed\\xb2\\x9fBu\\x1e\\x12,\\xcc\\xc4K\\xf6\\t\\x1a\\x89Y\\xc68\\x99 \\xbc\\xe9\\xd5\\xad\\xf3\\x8c\\xfa\\xf3{r\\xd6\\xb9\\x86-M\\x1a\\x0bQ\\x1a\\xb5\\x7fi\\x8b\\x94\\xc7\\xca:\\x13P\\xfb\\xa2\\xd3z\\xf7\\xdd0\\x1d\\x1db\\xe2$\\xc5\\xde\\xf3\\x99\\x12\\xe7\\x83\\x89_fF\\xdfRC\\xd7TJ\\r\\xfdI\\x82\\x9f\\xe3\\xd7\\x84\\x15\\x1c\\xe0\\xf8\\n\\x03\\xa1\\x04\\xb7+L/p\\x80\\xc2\\x8fkWj\\xce\\xfe\\xa1M\\x16\\x14(\\xf447\\xe8\\x12\\xd6\\xbai,\\x90\\xc0\\xd30U\\xbf\\x90,@;\\xe0\\xff\\x14AWG\\'\\x94\\t\\xda[\\xba\\x8dC\\x8f\\x01\\xce7\\xd3gH\\xad\\x97\\xe6\\xd4\\x08\\x94\\xad\\x03\\xb1\\x85y\\x9e\\x11\\xa1\\xdf\\x91\\xbf\\xc0\\xcb}\\x99\\x00Nh\\x05\\x00\\x19\\xbe8\\xa5\\xf6.\\xc3uD\\xbf\\xbcK\\xab]H2\\x13\\x9e\\xa02\\xdd%L\\xc9\\x7f`\\x93{Z\\xc6\\xfaG\\xd1[\\x1e\\x96e7\\xe4\\x91i\\xbf\\x96\\x87\\xed\\xb5\\xb3\\x1fN@\\xdf\\xf2\\xa36\\xdfKl\\xbc\\xf1a\\x17p\\x86\\xe7*\\xb6\\xe4\\xdc\\x83\\xa3\\x1f\\xbe1J\\xee\\x8a\\x93n\\xd6k\\x16Z4\\xd66\\x86\\x1fn\\xd1Y\\xc7\\xc0z\\xb2u\\xddJ\\xf9wj\\x1a!\\x87~\\xbf\\x1f\\xec\\x18\\x83\\xcd\\xe6\\xe4G\\x1d\\x17\\xd1\\xaa\\x8f\\xd7Hc\\xdck\\xfcW\\xe9\\x80&\\xb4b\\xc5-\\xc8{\\x84\\xa0=\\xc5\\x15:\\x1f\\x96\\x83\\r6*\\xa0\\x1c\\x04\\x07\\xea\\xca;\\xc0D\\xd4\\xed!\\x12\\xc2A3Xv\\xbf\\xdd\\xd4\\xb6\\r;^\\x9e\\x8f]\\xb0b\\xc4\\x88\\xf1s\\xb4\\x86\\x8e\\xf3=\\xcd\\xde\\x8f\\xfe\\r\\xb4\\r-9\\xfd\\xf9\\x1f\\xf1\\x8a\\xda\\xf5\\xfc\\xb1\\n0\\xa8\\xa6\\xb8\\xa6\\\\Hd\\xdf\\x00\\x8d\\xc9N\\x82\\x14\\xacG?\\xa4\\x7f\\x1d\\xbb\\x14u\\xb4\\xdf\\xbbK\\xc3E\\x9fv\\xdeX\\xfa1\\xa2b\\xd6|\\x02\\x19P\\xa6\\xb1c~\\xd2F\\x9f\\xd2\\xdb_iq\\xc5\\xe1\\xcc\\xa6\\xe79\\xd0\\x17\\x0e]\\xef\\x06`\\xc9\\x96}_ZSg\\x89\\n\\xa8\\xb9\\xcf\\xa3c$T\\xcc\\xd2`\\x8c\\xd1l\\xcfy\\x0ew\\xa8\"\\xd5\\x08\\xfd\\x0e.5\\xa4\\xf3\\x07JO}3\\xb6\\xec\\x1a_\\xe5\\x13\\xf6V\\xcd\\x94\\xf7\\x92B\\xea>\\xa5\\x06\\x04\\xb8\\xa4\\xd6+\\'\\xd3\\x9ay\\xfa\\t\\x1e\\x11\\x7fd#0\\x8d.\\x0b\\x1b\\xbf\\xae\\xe9:\\xf3h8(\\x7f\\xa1W\\xbe\\xd9\\xcf9\\xcd\\xf6\\xa9\\xfbjK%\\xdf\\x8f\\xa7I\\x12\\x8e\\xf7\\xcb[\\xbb\\x05\\xca^\\x8a!A\\xb60/\\xc5J\\xe4\\x15=\\x9e\\xfa\\r\\xdd\\xcbC\\x01\\x1f\\xeaS\\xe3\\xbc7\\x04oD\\x1a{\\xb8\\x88A\\xd6\\xcc\\x10OH\\xd1\\xdb\\xec\\x96XX\\xcc\\xa9-\\xce\\xef`\\xdd`\\xf3\\xa1\\xe1\\xa7&\\xb1_\\xa4\\xc6\\xef1\\xd9~^t9<\\xa7i\\x910\\x00\\xe1+I\\x97 N\\xdd\\x86\\x19q\\xc3\\xb8\\xbd\\x95F\\x1a\\xf8\\xff\\xde\\xfa\\xa3\\xac\\x8cd>\\x13\\xdeM\\xf5\\xb0\\xb6\\x14\\xe7{3\\xb6\\x12\\x93\\xb2s\\xb1Z\\xbb`\\xc3U\\xb2\\x93j\\xdb\\x90o\\x8a\\x97B\\x84OW\\x84{\\xa8Is\\xa1N\\xf5\\xaa\\x0bj\\x1d\\xf8\\xdb\\xb9\\xc3\\x8b\\xaf\\xc9[\\xa7`\\xbc\\xbbT|am:\\xbc\\x03%9\\xa1\\x9b,\\t\\xc9\\x9c\\xbb\\x04\\xc1\\xa3\\xd9\\x9f \\x03\\x99\\x08\\xb8\\x02\\xe9cF\\xa2\\x88\\x83\\xf0\\xb6=\\x99~,\\x05\\xcc\\xccPHP\\\\\\xbb)$\\x88$\\xd8\\x95\\xaaT\\x04\\x16<j\\xd22Zi\\xac\\xbf8\\x12]\\xcd\\xdc/\\x8cDf\\x16\\xbfU\\x98\\xec>[j\\n\\x93\\x16X\\xa4e\\xe2\\xf4:\\xeb\\x87K\"\\xf7\\xe7\\xfe\\x17\\xad\\xf8\\x90\\xb3\\xba\\x17\\r\\xdc\\x06vO\\xafn\\xe2#\\xea^\\xe3\\xef+#\\x85\\x9d\\xe5TP\\xfd3\\xd7\\xd4\\xd5\\\\M\\xc0H\\\\\\x94o\\x0f\\xdc5\\xde\\xe2bR\\xb1\\xcf\\xa3m\\x05\\xd2\\xd8m@\\xcf\\xafz\\xa4p\\xac\\xe9\\x89\\x1b\\xaf\\xe2\\xf3\\xd8\\xb1g\\x8e\\xe8\\x14q\\xad\\xf0\\xcd(\\x18Pw\\xdb@m\\x9e\\xd5\\x81\\xfd\\x8eo\\xcb\\xca\\x9e\\xcb\\xbb\\xd6W\\x1d\\xabf{+\\x84\\x87\\xf8-\\xe2\\xde\\'\"v\\xed\\xe0\\x18\\x97\\xa1u\\xbb\\xabG\\x84B\\xeb\\xf3\\xda\\x1b\\xecC\\xfcf\\xa3$\\xb1\\xac\\xae\\x01\\xfd\\\\\\xea0\\x89\\x13+Uu\\xeda\\xd8V\\x0b\\xc3\\x9c\\xd1\\xb0op\\xec\\xb0#\\x8a\\x00\\x92\\x1c\\xee\\xa2\\'R\\xe0\\x81\\xfcx\\n\\xceX\\n\\\\\\xe0\\xbd\\xe9P\\xab\\xaeA\\xdc%\\\\\\xb5\\x89BU\\x9e\\xf6\\xe0\\xf4#Y\\xe0\\x08WI\\xf7\\xcb\\xebV\\xb3\\x0bT/\\x9e\\xbc5=\\xbb\\xfe\\xd9\\xe8\\x13tJ\\x0f\\x8d~KD\\xedD\\t\\xb0\\xfbgN=\\x94\\xe4\\x8b\\x0b\\xb6\\xf5\\xf0Z\\x84\\x93\\xf2\\xe5\\xc2K=\\xdc\\xda\\xacL\\xbd\\x90\\x91\\xb4\\xc9\\xfbfz[I\"\\x91q\\xee\\xf1\\x9fb|4\\xaeh\\x82K\\xd8w0\\xaa\\xfeu\\x9a\\xce\\xc0\\xba[\\xa2\\xf3@\\xf5\\xb7\\x89\\xb25\\niYgw,#\\xcb\\xb79v<\\x8be-&\\xfd'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"CMM-606\" \"63030\" \"clinical guidelines\" OR \"criteria\" OR \"indications\"",
+        "results": [
+         {
+          "title": "ARCHIVED Interventional Pain Management 2024-06-30 to 2025-07-25 | Carelon Clinical Guidelines and Pathways",
+          "url": "https://guidelines.carelonmedicalbenefitsmanagement.com/interventional-pain-management-2024-06-30/",
+          "snippet": "These criteria are designed to guide both providers and reviewers to the most appropriate services based on a patient\u2019s unique circumstances. In all cases, clinical judgment consistent with the standards of good medical practice should be used when applying the Guidelines."
+         },
+         {
+          "title": "CMM-609: Lumbar Fusion (Arthrodesis) Guidelines",
+          "url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2024-11/EviCore_CMM-609%20Lumbar%20Fusion%20(Arthrodesis)_Final_V2.0.2024_pub07.18.2024.pdf",
+          "snippet": "<strong>symptoms or clinical presentations that are not specifically addressed will require physician review</strong>."
+         },
+         {
+          "title": "Musculoskeletal: Advanced Procedures | EviCore by Evernorth",
+          "url": "https://www.evicore.com/provider/clinical-guidelines-details?solution=musculoskeletal+advanced+procedures&hPlan=Regence",
+          "snippet": "Locate the guideline by name, then click on the corresponding guideline to open the guideline document (example: CMM-312: knee Surgery- Arthroscopic and Open Procedures). If you require a copy of the guidelines that were used to make a determination on a specific request of treatment or services, please email the case number and request to: reqcriteria@EviCore.com. To request any additional assistance in accessing the guidelines, provide feedback or clinical evidence related to the evidence-based guidelines, please click here."
+         },
+         {
+          "title": "Clinical Utilization Management Guidelines",
+          "url": "https://provider.amerigroup.com/docs/gpp/GA_CAID_August2020ClinicalUMGuidelines-.pdf?v=202102102034",
+          "snippet": "The full list of Medical Policies and Clinical Utilization Management (UM) Guidelines are publicly"
+         },
+         {
+          "title": "CMM-612: Grafts Guidelines",
+          "url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2024-07/EviCore_CMM-612%20Grafts_Final_V2.0.2024.pdf",
+          "snippet": "EviCore healthcare Clinical Decision Support Tool Diagnostic Strategies: This tool addresses common symptoms and symptom complexes. Requests for individuals with atypical \u00b7 symptoms or clinical presentations that are not specifically addressed will require physician review."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_271921",
+      "args": {
+       "query": "\"CMM-606\" Cigna OR EviCore \"criteria\" OR \"indications\" \"microdiscectomy\""
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\xb6\\x01\\n\\xb3\\x01\\x01i\\x14}\\x13P\\x01\\x14\\xbe\\x03\\xc3\\x85\\xbf\\xa4}\\x872D\\x87\\x17T\\xa3\\xac\\x07\\x9c\\xfb\\xb0\\x9bg\"\\x7f\\x94J\\xdc\\xcf3\\x92\\x13\\xdf?\\xd9\\xe7\\xf1~?\\xeb!J\\xa2\\x85@\\xf4_\\x1d\\xf7\\xbaJ0\\xd2=\\x02MN\\xb6;:xD\\xbf\\xd0\\xa5\\xa3=@\\xda\\xe5\\xb2{\\xbec\\xe1\\x90\\xaa6Uv\\xf8J\\xbb\\xa8I\\xca:M\\x03\\x92\\xbd\\xe7\\xd0K\\x1f#@U\\xe5,\\nb\\x01\\xc6j\\xa5\\xfbo\\x85b\\xa0\\xd95k\\xa4\\x18\\xbe\\xba\\t*\\xf8\\xf3Hrs\\xdc\"7{\\x95\\x05\\x88w(fzG`\\x84\\x8fR\\xc1\\xe2A\\xa0\\xbb\\x18\\xc8@\\xcf\\xd7\\x80[RbI\\x1b>\\xdd\\xca\\x81{\\xc2\\x1d\\x08\\xaf\\xc9\\xcc\\xa5~\\n\\xff\\x9b'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"CMM-606\" Cigna OR EviCore \"criteria\" OR \"indications\" \"microdiscectomy\"",
+        "results": [
+         {
+          "title": "CMM-606 Lumbar Microdiscectomy",
+          "url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-05/Cigna_CMM-606%20Lumb%20Microdis_Final_V1.0.2025_Pub03.19.2025_upd05.29.2025.pdf",
+          "snippet": "Cigna CPT \u00b7 CMM-606: Lumbar Microdiscectomy \u00b7 CMM-606.3: Repeat Lumbar Microdiscectomy (Laminotomy or \u00b7 Laminectomy) at the Same Level \u00b7 Repeat lumbar microdiscectomy (laminotomy or laminectomy) at the same level is \u00b7 considered medically necessary when performed for ANY of the following when ALL \u00b7"
+         },
+         {
+          "title": "Cigna_CMM-606 Lumbar Microdiscectomy",
+          "url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2024-07/Cigna_CMM-606%20Lumb%20Microdis_Final_V1.0.2024.pdf",
+          "snippet": "EviCore is committed to providing evidence-based approach that leverages our exceptional clinical and technological capabilities, powerful analytics, and sensitivity to the needs of everyone involved across the healthcare continuum."
+         },
+         {
+          "title": "EviCore Cigna Commercial Membership | EviCore by Evernorth",
+          "url": "https://www.evicore.com/cigna",
+          "snippet": "CMM-605: Cervical Microdiscectomy \u00b7 CMM-606: Lumbar Microdiscectomy (Laminotomy, Laminectomy, or Hemilaminectomy) CMM-607: Primal Vertebral Augmentation (Percutaneous Vertebroplasty-Kyphoplasty) and Sacroplasty \u00b7 CMM-608: Lumbar Decompression \u00b7 CMM-609: Lumbar Fusion (Arthrodesis) CMM-610: Lumbar Total Disc Arthroplasty \u00b7"
+         },
+         {
+          "title": "Cigna",
+          "url": "https://static.cigna.com/assets/chcp/pdf/coveragePolicies/policy_updates/november_2024_policy_updates.pdf",
+          "snippet": "CMM-605 Cervical Microdiscectomy \u00b7 \u2022 \u00b7 CMM-606 Lumbar Microdiscectomy (Laminotomy, Laminectomy, or \u00b7 Hemilaminectomy) \u2022 \u00b7 CMM-607 Primary Vertebral Augmentation (Percutaneous \u00b7 Vertebroplasty/Kyphoplasty) and Sacroplasty \u00b7 \u2022 \u00b7 CMM-608 Lumbar Decompression \u00b7"
+         },
+         {
+          "title": "Cigna",
+          "url": "https://chk.static.cigna.com/assets/chcp/pdf/coveragePolicies/policy_updates/april_2025_policy_updates.pdf",
+          "snippet": "o CMM-606: Lumbar Microdiscectomy (Laminotomy, Laminectomy, or \u00b7 Hemilaminectomy) o CMM-308: Intradiscal Procedures \u00b7 o CMM 401: Discography \u00b7 o CMM-600: Preface to Spine Surgery Guidelines \u00b7 o CMM-601: Anterior Cervical Discectomy and Fusion \u00b7 o CMM-602: Cervical Total Disc Arthroplasty \u00b7"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_371412",
+      "args": {
+       "url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-05/Cigna_CMM-606%20Lumb%20Microdis_Final_V1.0.2025_Pub03.19.2025_upd05.29.2025.pdf"
+      },
+      "name": "http_fetch",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b\"\\x12\\xd5\\x02\\n\\xd2\\x02\\x01i\\x14}\\x13z}U\\x1a\\xfb}v\\xab\\x92\\x90_\\xd9\\x05\\x85\\x0ev6>\\xda\\x81\\x0f\\xa1\\x07\\x1e\\x9dz:\\x10s\\xdd*\\xef:\\xfb\\xab5a\\xf2\\xb8Iu}{\\xefV\\xe8\\xf4\\xa8$\\nd\\x8f\\x83\\x0f\\xe1|\\xbe\\xf4\\x8a\\x16\\xfc\\x15\\x98s\\x1a\\xec\\xa0d\\xfd\\xb5\\xdf^6\\xb1\\x95\\xa9:\\x18\\xefo~\\x1eQ\\tx\\xe59\\xbc{p;\\xbc\\xc5\\x17l+\\xb4\\xb9\\xea\\x98|q\\xccU\\xd8r|\\xc4\\xa6H_X\\x06\\xca\\xfc\\xc1\\x881gH},\\xa1\\x07\\xc5N\\xdbt\\x12n\\r\\x1fO\\xbd\\xa83p\\xf7g\\x87\\x181\\xdf\\x0e0\\\\\\xe1\\x1b8\\xc4T_Q\\xd8\\xd9\\xbe\\xbc\\x10|\\xbc\\xec\\x08\\x89\\xde\\xe50\\x1fB\\xcc\\xf1\\x8c\\xd9\\xb1\\x92\\x0b\\xb0\\xa4G;cY\\xe3&\\x0b\\xc7\\x9b\\xd9=\\xba:\\xba\\x0b%m<*$\\x8c\\x87\\x94\\x80\\xa8!:\\xe9\\xadn%\\xdb\\xc2\\xc7\\x19Mr\\tr\\x99w\\xd7:7\\xfb\\xae\\xeb\\x878!\\xb3\\xb0\\x8a:\\xc8\\xa0}j\\x95I&\\x9b9u%\\x1e'\\x8cr\\x80)\\xab]\\xa5\\xfdN\\xaf\\xfe\\x976\\xff\\xe8\\xdc-\\xd5b\\xbc!\\x03\\xff\\xa7\\xe0\\x94\\xc3V\\x92\\xf0O\\xfc<\\x86\\xa9\\xea\\x8feGmA\\xbeT \\x84O\\xe6\\xcdC\\xa9\\xfe8l\\xa0`\\x92\\xdf~\\x9c\\xd9-\\x87\\x8d\\xb1mVs\\xcdW!\\x1bT\\x9a'\\x90\\xb97E\\xfb`\\x03\\xc9G\\xe8\\tRF\\xf1\\xef\"",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-05/Cigna_CMM-606%20Lumb%20Microdis_Final_V1.0.2025_Pub03.19.2025_upd05.29.2025.pdf",
+        "final_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-05/Cigna_CMM-606%20Lumb%20Microdis_Final_V1.0.2025_Pub03.19.2025_upd05.29.2025.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "Cigna Medical Coverage Policies \u2013 Musculoskeletal Lumbar Microdiscectomy (Laminotomy, Laminectomy, or Hemilaminectomy) Effective July 1, 2025 Instructions for use The following coverage policy applies to health benefit plans administered by Cigna. Coverage policies are intended to provide guidance in interpreting certain standard Cigna benefit plans and are used by medical directors and other health care professionals in making medical necessity and other coverage determinations. Please note the terms of a customer\u2019s particular benefit plan document may differ significantly from the standard benefit plans upon which these coverage policies are based. For example, a customer\u2019s benefit plan document may contain a specific exclusion related to a topic addressed in a coverage policy. In the event of a conflict, a customer\u2019 s benefit plan document always supersedes the information in the coverage policy. In the absence of federal or state coverage mandates, benefits are ultimately determined by the terms of the applicable benefit plan document. Coverage determinations in each specific instance require consideration of: 1. The terms of the applicable benefit pl an document in effect on the date of service 2. Any applicable laws and regulations 3. Any relevant collateral source materials including coverage policies 4. The specific facts of the particular situation Coverage policies relate exclusively to the administration of health benefit plans. Coverage policies are not recommendations for treatment and should never be used as treatment guidelines. This evidence-based medical coverage policy has be en developed by eviCore, Inc. Som e information in this coverage policy may not apply to all benefit plans administered by Cigna. CPT\u00ae (Current Procedural Terminology) is a registered trademark of the American Medical Association (AMA). CPT \u00ae five digit codes, nomenclature and other data are copyright 2025 American Medical Association. All Rights Reserved. No fee schedules, basic units, relative values or related listings are included in the CPT \u00ae book. AMA does not directly or indirectly practice medicine or dispense medical services. AMA assumes no liability for the data contained herein or not contained herein. \u00a9Copyright 2025 eviCore healthcare CMM-606: Lumbar Microdiscectomy (Laminotomy, Laminectomy, or Hemilaminectomy) CMM-606.1: General Guidelines CMM-606.2: Initial Primary Lumbar Microdiscectomy (Laminotomy, Laminectomy or Hemilaminectomy) CMM-606.3: Repeat Lumbar Microdiscectomy (Laminotomy or Laminectomy) at the Same Level CMM-606.4: Non-Indications CMM-606: Codes CMM-606: Evidence Discussion CMM-606: References Comprehensive Musculoskeletal Management Guidelines V1.0.2025 ______________________________________________________________________________________________________ \u00a92025 EviCore by EVERNORTH 400 Buckwalter Place Boulevard, Bluffton, SC 29910 (800) 918-8924 www.EviCore.com Page 2 of 13 These guidelines apply to services or supplies managed by EviCore for Cigna as outlined by the list. Cigna CPT CMM-606: Lumbar Microdiscectomy CMM-606.1: General Guidelines Application of Guideline \uf086 The determination of medical necessity for the performance of lumbar microdiscectomy and excision of extradural lesion other than neoplasm is always made on a case-by-case basis. \uf086 For additional timing and documentation requirements, see CMM-600.1: Prior Authorization Requirements. Urgent/Emergent Indications/Conditions \uf086 The presence of urgent/emergent indications/conditions warrants definitive surgical treatment. Imaging findings noted in the applicable procedure section(s) are required. \uf0ae The following criteria are NOT required for confirmed urgent/emergent conditions: \uf0a1 Provider-directed non-surgical management \uf0a1 Absence of unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders) \uf0a1 Timeframe for repeat procedure \uf086 Urgent/emergent conditions for lumbar microdiscectomy and/or excision of extradural lesion other than neoplasm include ANY of the following: \uf0ae Cauda equina syndrome (CES) \uf0ae Documentation of progressive neurological deficit on two separate physical exams \uf0ae ANY of the following due to a neurocompressive pathology \uf0a1 Motor weakness of grade 3/5 or less of specified muscle(s) \uf0a1 Rapidly progressive symptoms of motor loss \uf0a1 Bowel incontinence \uf0a1 Bladder incontinence/retention \uf0ae Epidural hematoma \uf0ae Infection (e.g., discitis, epidural abscess, osteomyelitis) \uf0ae Primary or metastatic neoplastic disease causing pathologic fracture, cord or nerve compression, or instability \uf0ae A condition otherwise meeting criteria listed in the applicable procedure section(s) with documentation of severe debilitating pain and/or dysfunction to the point of being incapacitated Comprehensive Musculoskeletal Management Guidelines V1.0.2025 ______________________________________________________________________________________________________ \u00a92025 EviCore by EVERNORTH 400 Buckwalter Place Boulevard, Bluffton, SC 29910 (800) 918-8924 www.EviCore.com Page 3 of 13 These guidelines apply to services or supplies managed by EviCore for Cigna as outlined by the list. Cigna CPT CMM-606: Lumbar Microdiscectomy Credentialed Spine Surgeon Required \uf086 Endoscopic lumbar discectomy requires the procedure be performed by a spine surgeon with surgical privileges at a hospital, hospital outpatient department, or ambulatory surgery center to perform open surgical approach(es) for lumbar discectomy. CMM-606.2: Initial Primary Lumbar Microdiscectomy (Laminotomy, Laminectomy or Hemilaminectomy) Initial primary lumbar microdiscectomy (laminotomy, laminectomy, or hemilaminectomy) is considered medically necessary when performed for ANY of the following conditions when ALL of the associated criteria have been met: Neurogenic Claudication \uf086 Subjective symptoms including BOTH of the following: \uf0ae S ignificant level of pain on a daily basis defined as clinically significant functional impairment (e.g., inability to perform household chores, prolonged standing, etc.) \uf0ae Pain, cramping, weakness, or tingling in the lower back, buttock(s), and leg(s) brought about by walking or positions that cause thecal sac or nerve root compression (e.g., standing, extension) and EITHER of the following: \uf0a1 Symptoms worsen with standing and/or walking \uf0a1 Symptoms are alleviated with sitting and/or forward flexion \uf086 Objective physical exam findings concordant with MRI/CT \uf086 Less than clinically meaningful improvement with at least TWO of the following (unless contraindicated): \uf0ae P rescription strength analgesics, steroids, gabapentinoids, and/or NSAIDs for six (6) weeks \uf0ae Provider-directed exercise program prescribed by a physical therapist, chiropractic provider, osteopathic or allopathic physician for six (6) weeks \uf0ae Epidural steroid injection(s) or selective nerve root block(s) performed at the same level(s) as the requested surgery \uf086 MRI/CT shows neural structure compression at the requested level(s) that is concordant with the individual\u2019s symptoms and physical exam findings and that is caused by ANY of the following: \uf0ae Herniated disc(s) (retained disc material or a recurrent disc herniation) \uf0ae Synovial cyst or arachnoid cyst \uf0ae Central/lateral/foraminal stenosis \uf0ae Osteophytes \uf086 Absence of unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders) Comprehensive Musculoskeletal Management Guidelines V1.0.2025 ______________________________________________________________________________________________________ \u00a92025 EviCore by EVERNORTH 400 Buckwalter Place Boulevard, Bluffton, SC 29910 (800) 918-8924 www.E viCore.com Page 4 of 13 These guidelines apply to services or supplies managed by EviCore for Cigna as outlined by the list. Cigna CPT CMM-606: Lumbar Microdiscectomy Radiculopathy \uf086 Subjective symptoms include BOTH of the following: \uf0ae Significant level of pain on a daily basis defined as clinically significant functional impairment (e.g., inability to perform household chores, prolonged standing, etc.) \uf0ae P ersistent radiating pain into the buttock(s) and/or lower extremity(ies) \uf086 Objective physical exam findings include EITHER of the following: \uf0ae Nerve root tension sign including ANY of the following: \uf0a1 Positive straight leg raise \uf0a1 Crossed straight leg raise \uf0a1 Femoral stretch test \uf0ae Neurologic deficit including ANY of the following: \uf0a1 Dermatomal sensory deficit \uf0a1 Functionally limiting motor weakness (e.g., foot drop, quadriceps weakness) \uf0a1 Reflex changes \uf086 Less than clinically meaningful improvement with at least TWO of the following (unless contraindicated): \uf0ae P rescription strength analgesics, steroids, gabapentinoids, and/or NSAIDs for six (6) weeks \uf0ae Provider-directed exercise program prescribed by a physical therapist, chiropractic provider, osteopathic or allopathic physician for six (6) weeks \uf0ae Epidural steroid injection(s) or selective nerve root block(s) performed at the same level(s) as the requested surgery \uf086 MRI/CT shows neural structure compression at the requested level(s) that is concordant with the individual\u2019s symptoms and physical exam findings and that is caused by ANY of the following: \uf0ae Herniated disc(s) (retained disc material or a recurrent disc herniation) \uf0ae Synovial cyst or arachnoid cyst \uf0ae Central/lateral/foraminal stenosis \uf0ae Osteophytes \uf086 Absence of unmanaged significant mental and/or behavioral health disorders (e.g., major depressive disorder, chronic pain syndrome, secondary gain, opioid and alcohol use disorders) Comprehensive Musculoskeletal Management Guidelines V1.0.2025 ______________________________________________________________________________________________________ \u00a92025 EviCore by EVERNORTH 400 Buckwalter Place Boulevard, Bluffton, SC 29910 (800) 918-8924 www.E viCore.com Page 5 of 13 These guidelines apply to services or supplies managed by EviCore for Cigna as outlined by the list. Cigna CPT CMM-606: Lumbar Microdiscectomy CMM-606.3: Repeat Lumbar Microdiscectomy (Laminotomy or Laminectomy) at the Same Level Repeat lumbar microdiscectomy (laminotomy or laminectomy) at the same level is considered medically necessary when performed for ANY of the following when ALL of the associated criteria have been met: Neurogenic Claudication \uf086 Greater than 12 weeks since the prior lumbar microdiscectomy \uf086 Subjective symptoms include BOTH of the following: \uf0ae S ignificant level of pain on a daily basis defined as clinically significant functional impairment (e.g., inability to perform household chores, prolonged standing, etc.) \uf0ae Pain, cramping, weakness, or tingling in the lower back, buttock(s), and leg(s) brought about by walking or positions that cause thecal sac or nerve root compression (e.g., standing, extension) and EITHER of the following: \uf0a1 Symptoms worsen with standing and/or walking \uf0a1 Symptoms are alleviated with sitting and/or forward flexion \uf086 Objective physical exam findings are concordant with post-operative MRI/CT \uf086 Less than clinically meaningful improvement with at least TWO of the following (unless contraindicated): \uf0ae Prescription strength analgesics, steroids, gabapentinoids, and/or NSAIDs for six (6) weeks \uf0ae Provider-directed exercise program prescribed by a physical therapist, chiropractic provider, osteopathic or allopathic physician for six (6) weeks \uf0ae Epidural steroid injection(s) or selective nerve root block(s) performed at the same level(s) as the requested surgery \uf086 P ost-operative MRI /CT shows neural structure compression at the requested level(s) that is concordant with the individual\u2019s symptoms and physical exam findings and that is caused by ANY of the following: \uf0ae Herniated Disc(s) (retained disc material or a recurrent disc herniation) \uf0ae Synovial cyst or arachnoid cyst \uf0ae Central/lateral/foraminal stenosis \uf0ae Osteophytes \uf086 Absence of unmanaged significant mental ",
+        "text_truncated": true
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_265937",
+      "args": {
+       "query": "\"CMM-606\" \"Cigna\" \"2026\""
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\xbd\\x07\\n\\xba\\x07\\x01i\\x14}\\x13Q%`\\xa1\"+z\\x86M\\xf0\\x9f\\xc8\\xf6\\x84\\x07(\\xbf\\xfbe\\xcf\\xdb\\xfc\\xcb\\x97\\x9a\\x84m,w3\\xa6h\\xde=\\n\\xa4\\xbbS\\x85\\xfb/\\xba\\xc1^,\\xc2u\\x9et\\x9a\\xf2t\\x892Eu\\xfeOC\\xb8\\xb9\\x9e\\xe7\\x9c\\x9f\\xab\\x83\\xe4U\\xdb\\xec\\x17j\\xd8\\x9ec-\\xc2\\xa6\\x81\\xc23\\x86\\xc0\\xa3S\\xfc\\x91\\xd0\\xea\\t\\xa4\\xe7\\xd8\\xd4B\"\"\\x13\\xd7\\x0cdt\\xbdH\\xfe\\n\\xbf\\xdf|\\x1d\\xec[d\\xfa\\xaa\\xa4~J&\\x0b.u\\xeah\\xcb\\xe3\\xb3M[@\\x98\\xb7^\\x84d9\\xcb\\x89a\\x1fB\\xab^\\xf0l4\\x9b-g:\\x15\\xdf\\xc8\"C\\x85pi^\\x84\\xb8i\\x89\\xff\\xc5H\\xae\\xfb\\x02)\\\\.d~\\x83\\xa7\\xdc\\xbe\\x87\\x9b\\xeftJ\\x8de:\\x9a\\x92o\\x1dd^\\x14\\xbf0l\\xe2\\x92\\x94B\\x05\\x00v\\x9f#\\xc33\\x1doBMF\\xf6\\x9d\\x97s\\x03a\\xda\\xfd).\\xb9<\\xc1%z\\xf3\\x9f|\\xbc\\x84\\x90\\x9cq\\x055\\xabdKi[\\xf5\\xee=o\\x9e\\xb0\\xd6\\xbe\\xd6\\xfdl\\x91\\x08\\x84p\\x7f\\xd1:\\x9e\\x955\\x90\\x00\\xf6\"\\xd15f\\xba,\\xeecP\\x11\\x18r+\\xa8\\xc7\\xe8\\x99\\x9b\\x98X\\xe9A\\xbefj>\\x83\\xa4\\xdc7|\\xeb\\x8a)e*\\xf70y\\xb03N:\\x04\\x86b\\xc2\\xb7?\\x90)\\xa0\\xb3\\x14\\x00\\x1a\\x01v\\xe4\\xce.\\xd7\\r\\xd2\\x1dz8>\\x02\\xe3<\\xd1\\xb4\\xa5(\\x8e\\xa4d\\xaa~\\x95\\x01\\xf7\\x92\\xeb\\x92?\\x00\\x1b\\x966\\xb7op\\x01\\x17\\xa5\\x02\\xba\\xa9(CwR\\xda\\x1a\\x81\\xde\\xba\\xc9\\x94&\\x91\\x87\\x90NN\\x9e\\x9a\\xc8\\x8c\\xf7\\x7f\\x1b\\xa4j\\xee|n.\\x87\\x0f!\\xb5\\xd9\\x9em\\xabx\\x80X\\xeb\\xbf\\x80\\xeej6I\\xc7\\xd9\\x17\\x80\\xddY\\xd9&1\\xc5.\\xd8]\\xe3\\x13*q\\x8c@\\x1ca\\x96Lz\\x17+\\x16\\xf0Q0\\x01\\x02G%?\\xee\\x1a\\xc9\\x00\\xdf\\x19\\x92\\xe9\\xa0\\xd3\\xd9\\x8a\\xb6&Q\\xe7\\xbb\\x17\\x1d\\x84|\\xecAl\\x13V\\x82\\xf8\\x00\\xd0\\xfc\\xf0h\\xb5\\xc5\\xf8\\xc8\\x1fS?\\xcd\\xee\\x8a\\x94\\x87$\\xd8N\\xcfL\\xca\\xcc\\x91+\\xb1t\\xb8@\\xfa\\xf1\\xfb\\x08\\xe0\\x08\\xdd\\xbe\\xbcj#\\x0e\\xce\\x81y\\xb8i^\\xcd\\x13\\xdd\\x08\\xb9kC\\x1d{\\xb6 \\xfe6\\x0b\\xc0\\x03\\x1d\\xc6\\xaaP\\xe4\\x85\\xe5\\xdew\\x89\\x19?\\x85\\xc9\\xcd\\x95I}\\xcel*\\xa0\\x934f\\x9f\\xa0\\x0eU\\x1fX\\xcdf(Cy;\\x15\\x8d\\xb9\\x91\\xd9\\xaf\\xa2\\x01\\x94\\x86\\xb5Y\\x81\\x83F\\x885\\xd1\\x14\\x01\\xf1\\xa6d\\x9c\\x8a\\xa2\\xcd\\xe3\\xe4\\xdb;=Y\\xcd\\xca\\x10$yn\\xda\\x1d\\xfay>\\x8e*\\x80\\x05\\xb4\\x06\\xab\\xa8\\xef\\xb39R\\xea\\xf3X\\x17R\\x95\\xf8\\n\\xd1\\xdf\\x84\\x13\\x8e\\x91\\xdc\\xd2\\x9f\\xc7\\xd0\\xfa=@\\xcb\\xf7H\\xe5u\\xb1F`\\x9c\\xa4\\n\\x0b/\\x06c\\xa7\\x8c\\x91h\\xe46W\\xcd\\x87\\x15(\\x84\\x15\\xa9\\x1c\\xfd\\xf6\\xa6\\xbd\\x0fi5\\xd4\\xbb\\xc9JX\\x98\\xff\\xe4;\\x01\\xad\\xca\\xec\\x8c\\xe6\\xce#\\xa9y\\xffl\\xc5e4\\xdd\\x98\\x16\\xed1VpG\\xda\\xd3\\xe4#\\x87z\\x99|$\\x81\\xcd\\xe2w\\x10\\xac\\xf0$\\x19\\xa5Qv\\x8ftc\\\\\\xbf_5\\xb5\\xa35\\xc7\\x19\\xc1\\xbf+\\xdf\\n\\x15\\x91\\r@\\xf7D|>D\\xf7\\xe1\\xbdTWM\\xf6\\x18\\x9f\\x12\\xdfz+\\xee\\xc2TG-M`M\\x0b\\xc9\\tn%\\xb70\\xb7\\xa3\\xc9\\xaah\\xe4f6\\xda\\xdb\\\\#\\xa2\\xc3\\xba@\\xe0\\x8a9\\x7f\\x9d\\xe8>\\x9a\\xa7-\\xa9\\xc5M\\xbf\\x9dl\\x00\\xf0\\xe5\\xaa~s`\\x11\\x9f\\xb0\\xed\\xfa\\x1e71\\x0f\\xbb\\x19\\x8b\\xea\\x93/\"\\xa4\\xd2\\xe4\\xdc4\\xc2O\\x8e\\x802D\\x1c\\xeb\\xb7\\xa7\\xb7\\xb1\\x13\\xdd\\xca\\xf8\\t\\x1d\\xd2<b)\\x0f\\xa5\\xd3\\x0ev\\xbb\\xc1W\\x083M\\xe3`|\\xac\\'<\\x17o\\x02\\xa5?T)\\x9e\\xaerwG\\xad\\xc2\\xe2(,\\xf0\\xb7$>bh\\x03\\xd3\\x12\\xa3\\xa5\\x9dy\\xdai\\xb8\\xac\\x86\\xb0\\xb7\\x84\\xd6pw\\x17\\xb0\\x8c\\xecj\\x04\\x87$'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"CMM-606\" \"Cigna\" \"2026\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_221800",
+      "args": {
+       "query": "site:evicore.com \"CMM-606\""
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b\"\\x12\\xf6\\x01\\n\\xf3\\x01\\x01i\\x14}\\x13\\xb5\\x08\\x9f[\\xbf\\x85r\\xa0j\\xc3f]\\x88\\x8c\\r\\x03\\x10\\xb2a\\x93\\xe2\\x9d\\x17\\x87jDr\\xb8E\\xea\\x18\\t\\xf2R\\xca\\x91\\xb5\\xe6\\x00\\xcf\\x939\\x9b\\x16\\xed\\xf4~\\x1f\\xdf\\xc7\\x80d\\xeb\\xd5\\xb5\\xbf\\x856\\xbd\\x190G\\xf1=\\xd5 \\xce\\xac[\\xa4\\xd3\\xf1\\xa7\\x8c\\x9f\\xc6&K\\xa7\\x010\\xbe\\x16\\x9c\\x9eT/tPwt\\xc8\\xbf\\xfdX\\xf7\\x85\\xa7\\x91B\\xbc\\xed\\xaar\\xafl\\xf3\\xc7\\x9a\\xf6m\\x18\\xed\\xd7\\xf4\\x11\\xbbGpe9\\x11i\\xa2\\xa0\\x0f86\\xaa\\xd2\\x03\\xa8\\x07\\xd1\\xbd-\\x12\\xebP\\xfc\\xa5\\xf46\\x01+s\\xad\\xc2\\x81\\xdfw*E1\\xfc\\xac\\xd1\\x16\\xdc\\x00\\x97\\x1c\\x90N\\xb4\\xaa\\x17\\xf3\\x1a\\xbfks\\x04\\xad\\xa3P\\x8bqk\\xd9&\\xa8\\xc2@\\xea#?\\x95A\\xe6\\xd1\\x95\\x05\\xecT\\xb5KS\\xe0\\x95@\\xabT\\x07s\\xf0\\xa2\\xb8\\xd3U*h\\xdb/\\x1f7\\xbfw\\xed\\x08\\xc76c\\x8e\\x1d\\xf1'+\\xc1/z\\x1d-\\x8f\\x8a\\xcd\\xdaB\"",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:evicore.com \"CMM-606\"",
+        "results": [
+         {
+          "title": "CMM-606 Lumbar Microdiscectomy",
+          "url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-05/Cigna_CMM-606%20Lumb%20Microdis_Final_V1.0.2025_Pub03.19.2025_upd05.29.2025.pdf",
+          "snippet": "CMM-606: <strong>Lumbar Microdiscectomy</strong> \u00b7 Credentialed Spine Surgeon Required \u00b7 \uf086Endoscopic lumbar discectomy requires the procedure be performed by a spine \u00b7 surgeon with surgical privileges at a hospital, hospital outpatient department, or \u00b7 ambulatory surgery center to perform open surgical ..."
+         },
+         {
+          "title": "Cigna_CMM-606 Lumbar Microdiscectomy",
+          "url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2024-07/Cigna_CMM-606%20Lumb%20Microdis_Final_V1.0.2024.pdf",
+          "snippet": "EviCore is committed to providing evidence-based approach that leverages our exceptional clinical and technological capabilities, powerful analytics, and sensitivity to the needs of everyone involved across the healthcare continuum."
+         },
+         {
+          "title": "CMM-606: Lumbar Microdiscectomy Guidelines",
+          "url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2024-07/EviCore_CMM-606%20Lumb%20Microdis_Final_V2.0.2024.pdf",
+          "snippet": "CMM-606: <strong>Lumbar Microdiscectomy</strong> \u00b7 CMM-606.1: General Guidelines \u00b7 Application of Guideline \u00b7 \uf086 The determination of medical necessity for the performance of lumbar \u00b7 microdiscectomy and excision of extradural lesion other than neoplasm is always \u00b7 made on a case-by-case basis."
+         },
+         {
+          "title": "Musculoskeletal: Advanced Procedures | EviCore by Evernorth",
+          "url": "https://www.evicore.com/provider/clinical-guidelines-details?solution=musculoskeletal+advanced+procedures&hPlan=Health+Alliance+Medical+Plans",
+          "snippet": "CMM-606: <strong>Lumbar Microdiscectomy</strong> \u00b7 Effective 08/01/2024 - 10/31/2024 \u00b7 CMM-606: <strong>Lumbar Microdiscectomy</strong> (Laminotomy, Laminectomy, or Hemilaminectomy) Effective 09/01/2022 - 05/30/2023 \u00b7 CMM-606: <strong>Lumbar Microdiscectomy</strong> (Laminotomy, Laminectomy, or Hemilaminectomy) Effective 05/31/2023 - 07/01/2024 ..."
+         },
+         {
+          "title": "EviCore Cigna Commercial Membership | EviCore by Evernorth",
+          "url": "https://www.evicore.com/cigna",
+          "snippet": "CMM-606: <strong>Lumbar Microdiscectomy (Laminotomy, Laminectomy, or Hemilaminectomy)</strong> CMM-607: Primal Vertebral Augmentation (Percutaneous Vertebroplasty-Kyphoplasty) and Sacroplasty \u00b7 CMM-608: Lumbar Decompression \u00b7 CMM-609: Lumbar Fusion (Arthrodesis) CMM-610: Lumbar Total Disc Arthroplasty \u00b7"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_152186",
+      "args": {
+       "query": "Cigna Commercial appeal submission address Illinois"
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\xd6\\x03\\n\\xd3\\x03\\x01i\\x14}\\x13\\xf2O\\x85\\x95$9N\\xb6\\xb0\\x0e8\\xe3M\\xde5\\xae\\x90\\x86qt\\xb8\\xa4\\x9d\\x8d\\xaf\\t\\xb5\\x1c\\xc3v\\x91\\xf9\\xa5[&o\\xa8\\xb2\\x91\\xd4s\\x82\\xfa\\xb3\\xbcF\\xaa\\xb3L>A.,=\\x9c\\xdbT\\x1f\\xf2\\xa3N.f\\xe9\\x1db\\xa7\\xa2\\xb5\\xf2x\\xb4|\\xcd\\xe94\\x94\"\\\\\\xc5\\xb3\\x02}\\x1a\\xbb\\xf6V\\x8cQ|\\x86\\x10G\\xba\\xa6\\xa6\\xea\\x92k\\x0cW3#\\x18=\\x94\\x18\\xf3\\x10\\x7fS\\x8b\\xe6\\x87\\x91\\xbfh\\x13\\x90\\xd3\\xd8Sy\\r\\xe5y\\xbb \\x9a\\x0f\\x9e\\x9aS\\xdf\\xe2-VQY\\xdbu\\xf52\\xc0\\xba?\\xd0\\xde|\\x0f\\x8a\\x97\\x88\\xce\\xe6\\xd1\\xfb\\x12\\x02J9K\\x8f3\\xf5ew\\xd2\\xba\\xfb\\xd5PZ$m-W\\x15x\\xdb\\xe0 &\\x18\\xb0\\xca\\xa9J,,XE\\xf2\\xc3En\\xff\\x0cA\\xe8W;\\xa5nS\\xbc\\x05%\\x07\\x91\\x88\\xc6\\x0et\\x93\\x92\\xceM+\\xcf\\xf1\\xe0\\x8b\\x8e\\xa7\\x0eT\\x05\\x13\\tZ\\xc0\\x8a\\x1f\\xb9\\x99F\\x16\\xd1\\xb9V\\xd4\\xf4|\\xb5`\\xf3\\x0e\\xa1\\xa82\\xf6\\xbcV\\xa7\\x03\\xc5b4\\x11y\\x81\\x9e\\x90\\x9dW;\\xearG\\xff{U$\\xfe%\\xa4\\xde\\xf3x\\xac;\\x1f\\xc6\\xc2\\xb7\\x10r\\x89T\\xd8\\x00\\xf6(%\\xd5\\x91\\xb1\\xaa\\xa4\\xed\\xd0=jm\\x07\\xc16\\xfa\\xf9\\xb4\\xba\\x92\\x0e\\xa8\\x05\\x93\\x08\\xe8\\x1f\\x1e\\x8e\">Op_\\x8bI\\xeaI\\xb0\\x13a\\xcaA\\xe3\\xb8\\x91$\\xc7os+\\x06\\xe5b\\x85\\xf6\\x9d\\xfc\\xf60\\x92\\xcehnR\\xd7j`u?S}\\x89p\\x8ag5\\n\\xd5\\x8a\\x9e\\xe0\\xa5\\x0f\\xacgc\\x1e\\xb6\\x1d\\xed.1\\xd9\\xc0\\xca@\\xff\\x1b\\x94\\xfe+\\xe28\\xce\\xe8\\xe9\\x02-\\x12\\xc7\\xd5\\xd5w\\xdc\\xc5\\xfc\\x0c\\x92\\x1d\\n\\xa9\\xd8\\xe0\\x8c\\x16\\xd9\\xedW\\x9a\\xde\\x94\\x07\\xa5\\xc8\\xa0~\\xaf\\xf0l)GJ+\\xe4;\\x1e\\x9fC\\x13vo5\\x8d@\\x80w\\xaa]\\xcd<Hu\\xdc\\xb7\\xa8\\x94c@'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Cigna Commercial appeal submission address Illinois",
+        "results": [
+         {
+          "title": "Customer Appeal Request",
+          "url": "https://www.cigna.com/static/www-cigna-com/docs/medical-appeal-request.pdf",
+          "snippet": "Mail the completed Appeal Request Form or Appeal Letter along with all supporting documentation to the ... <strong>P.O. Box 188011</strong> ... IMPORTANT: This address is intended only for appeals of coverage denials."
+         },
+         {
+          "title": "Appeals and Disputes | Cigna Healthcare",
+          "url": "https://www.cigna.com/health-care-providers/coverage-and-claims/appeals-disputes",
+          "snippet": "Submit the appeal within 180 calendar days of the date of the initial payment or denial notice or, if the appeal relates to a payment that was adjusted by Cigna Healthcare, within 180 calendar days from the date of the last payment adjustment, to the following address:"
+         },
+         {
+          "title": "Request for Health Care Professional Payment Review",
+          "url": "https://www.cigna.com/static/www-cigna-com/docs/appeal-request-others.pdf",
+          "snippet": "Step3: Refer to the patient\u2019s Cigna ID card to determine the appeal address to use below."
+         },
+         {
+          "title": "Customer Appeal Request",
+          "url": "https://www.shu.edu/documents/Cigna-Medical-Claim-Appeal-Request.pdf",
+          "snippet": "Important: This address is intended only for appeals of coverage denials. Any other requests sent to this address will be forwarded to the appropriate Cigna location,"
+         },
+         {
+          "title": "How to Submit a Cigna Appeal (2026 Provider Guide) | Muni Health",
+          "url": "https://muni.health/blog/cigna-appeal-submission-guide-2026",
+          "snippet": "Cigna routes appeals differently for different plan types and regional contracts. Use the National Appeals Unit <strong>P.O. Box 188011</strong> only when no address is printed on the denial\u2014treat that as the fallback, not the default."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_291057",
+      "args": {
+       "query": "Cigna Illinois Commercial appeal address"
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\x96\\x03\\n\\x93\\x03\\x01i\\x14}\\x13\\x06S\\x8a\\x1e\\xa7\\xa3)q\\x85\\x8e\\x94z\\x85:\\x99|.V\\xe1\\xed\\xeb:}\\xe3\\xbb\\x03 \\xeb\\xab\\x8eZ\\x02\\xa7\\x1e\\xea\\x93\\x85\\xf7\\xed\\xb13\\x14^\\xb4Aw\\xb6FQ\\xb1\\xfa~n\\xc8N%mEH\\x05\\x1d3\\xb6\\xfe\\xb7\\xd3]m\\xf1\\xfb\\x01\\x1a/\\xd8\\x86\\xa5\\x9ar\\xfen\\xef\\x98P]%\\xdb\\'\\x14\\x90_\\xf5\\'x\\'\\xec\\x7f\\xd50^\\xbe\\x10\\x9c\\x0e1A\\x91\\\\\\xcb\\xd3\\x9c\\xee\\xf9\\xd5\\x98L-*.\\xfd\\xc9\\xa9|V\\x1d}gvEoWd\\xa2\\xe6\\x9c\\xe4\\xbaI\\xa9,\\xb9\\xf6\\x8e\\xd1\\x17\\x80\\x89\\xbc[\\x1dY\\xfa\\xfcE\\xe8\\xebhs\\x92\\xb1\\xe7\\x9f}S\\xff\\x92pBcEe\\xc2\\x17wA\\xad\\x99\\x94a\\xaf\\x98\\x9aP\\x06-{\\x88\\xa1\\xe3\\x0c\\xc7!G\\xf7\\x82\\xa8\\x9e\\xc8p\\xcd\\xd2\\xb8\\x1bsw\\x96\\x95K\\xfc\\xb5g\\xc1 \\xabz\\xd6~\\xe6R\\x1b\\x12\\x14\\xbbDD*\\x0f\\xac\\x12\\xa9\\xfa\\x0c\\xe8\\xdcLw*\\xa5`\\xa2\\xf6\\xfaQ\\x8e5d\\xac\\xa8X\\x8d-\\xf5\\xd7\\x1b\\x82\\x85\\xb6(Ic\\\\3\\xaa\\xe6g\\x1aP\\x91\\x96\\x1a\\x88\\xa7Nc92\\xa4k\\x99\\nT\"\\xde\\x07\\x98\\xde\\x16$\\xe0\\xac\\x1d\\xf5\\xf0l\\xff\\xe6\\xb9\\x1c\\xc3)\\x92\\xf2\\xe2\\xf8\\x84\\xb2\\x05g\\xf3\\x8d\\xe0\\xa2[/Q\\xb3\\xe1\\x88La\\x9c\\xbf(\\xfb\\x1a\\x8d\\xe0ZEgu\\xa8\\xad\\\\\\xed\\xca\\xc9\\xf1E\\xad\\x90\\xc9N\\x96\\xc9\\xd5\\x9b\\xa1\\x01\\x8d\\xc7bq\\x11\\x82\\x8d\\x9d\\xb1\\xa5\\x9aD\\x9bC0\\xd6\\xee<\\x08qv\\xc7+\\xeb\\x17\\xdc\\xf6^\\x14=\\xbb\\x08\\xacSa\\xa9\\n>\\xc1j\\x81\\xa4t\\xd1\\xeeo\\xe4\\xe4\\xb9\\x7f'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Cigna Illinois Commercial appeal address",
+        "results": [
+         {
+          "title": "Appeals and Disputes | Cigna Healthcare",
+          "url": "https://www.cigna.com/health-care-providers/coverage-and-claims/appeals-disputes",
+          "snippet": "Submit the appeal within 180 calendar days of the date of the initial payment or denial notice or, if the appeal relates to a payment that was adjusted by Cigna Healthcare, within 180 calendar days from the date of the last payment adjustment, to the following address:"
+         },
+         {
+          "title": "Request for Health Care Professional Payment Review",
+          "url": "https://www.cigna.com/static/www-cigna-com/docs/appeal-request-others.pdf",
+          "snippet": "Step3: Refer to the patient\u2019s Cigna ID card to determine the appeal address to use below."
+         },
+         {
+          "title": "Customer Appeal Request",
+          "url": "https://www.cigna.com/static/www-cigna-com/docs/appeal.pdf",
+          "snippet": "IMPORTANT: This address is intended only for appeals of coverage denials. Any other requests sent to this address will be \u00b7 forwarded to the appropriate Cigna location, which may result in a delay in handling your request or processing your claim."
+         },
+         {
+          "title": "Cigna Health and Life Insurance Company/ Cigna Healthcare of Indiana, Inc.",
+          "url": "https://www.in.gov/idoi/files/Cigna-Life-and-Health-Insurance-Company.pdf",
+          "snippet": "Cigna Healthcare of Illinois, Inc."
+         },
+         {
+          "title": "Customer Appeal Request",
+          "url": "https://www.shu.edu/documents/Cigna-Medical-Claim-Appeal-Request.pdf",
+          "snippet": "Refer to your ID card to determine the appeal address to use below. Mail the completed Appeal Request form or appeal letter along with all supporting documentation to: If the ID card indicates: Cigna Network: If the ID card indicates: GWH -Cigna Network"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_302881",
+      "args": {
+       "url": "https://www.cigna.com/static/www-cigna-com/docs/medical-appeal-request.pdf"
+      },
+      "name": "http_fetch",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b\"\\x12\\xb2\\x02\\n\\xaf\\x02\\x01i\\x14}\\x13\\x1e\\xd2\\x98\\xb6o#h\\x01\\xf3\\x8f\\xfc\\xc07\\x8b.\\xd3\\xb1:x],x&\\xd3\\x12:C=\\x00\\xe1\\x01D{a[\\x7f###\\x83f\\x98\\xddoq=o`\\x90\\xf5\\x08BB\\xa4\\x84\\x9f\\x89P\\x00\\xbe\\xb7f\\x15\\xa9F\\\\\\x1e\\x80\\x89\\x97\\xc2\\xed\\x1a2\\xb42\\xe0I\\xcf\\x8d\\xbc\\x04\\x80\\xb6\\xa4\\x88\\xa3e\\xde8\\xa8\\xe1\\xedx\\xde\\xde\\xa88\\x967\\x7f\\xf08\\xd2\\xf0.[\\xac\\xf4\\xd5n\\xe5\\xfc\\xb6\\x9cq\\xb2{\\xe40\\xc2\\xab\\xad*n\\xad\\xda#fS\\x92Awj\\xe6\\xf6\\x9d\\xa4\\x91Q}gm=ad\\xdfFVjp\\xed\\xbb8%\\xd0\\x90 :VU=\\xa6`\\xf7\\x8cu\\xf8'\\xd8Qq%\\x14\\xc3\\xc3\\x0b\\x8e\\xcd\\x91\\xc5\\t\\xeb\\xdf\\xa7\\xe9\\xd6\\x88\\x8ba\\xdd\\x08\\xc8\\x078\\nL2\\xbe\\xfb\\xd0yRZ\\x87\\x0fKW\\x1e5\\xad?\\x88\\x84\\xf4La\\t\\xc1\\x04W\\x0c\\xd5\\xebn>\\xef\\x06\\xfc/\\xde\\xafh\\xaa\\xc0\\xc4\\x82I\\x97$xk\\xbb\\xb2\\x9eYd\\x7f\\x9d\\x1eG^\\x7ft*xQ\\xe6Q\\xe0\\xcd\\xc4\\x8e\\x80\\xe4\\x17\\xc3\\xfd%\\n\\x92\\xef\\xddw`_(iw\\xeb\\x1fK\\x17G\\x06%\\xbd\\xae 4\\xd2\\x19\\x1c\\xcc\\xab\\x1a>\\x01\"",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://www.cigna.com/static/www-cigna-com/docs/medical-appeal-request.pdf",
+        "final_url": "https://www.cigna.com/static/www-cigna-com/docs/medical-appeal-request.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "Cigna Healthcare products and services are provided exclusively by or through operating subsidiaries of The Cigna Group. Such operating subsidiaries include Cigna Health and Life Insurance Company, Cigna Health Management, Inc., Evernorth Behavioral Health, Inc., Evernorth Care Solutions, Inc., Evernorth Direct Health, LLC and HMO or service company subsidiaries of Cigna Health Corporation and Cigna Dental Health, Inc. \u00a9 2024 Cigna Healthcare Customer Appeal Request An appeal is a request to change a previous adverse decision made by Cigna. You or your representative (Including a physician on your behalf) may appeal the adverse decision related to your coverage. STEP 1: Contact Cigna's Customer Service Department at the toll-free number listed on the back of your ID card to review any adverse coverage determinations/payment reductions. We may be able to resolve your issue quickly outside of the formal appeal process. If a Customer Service representative cannot change the initial coverage decision, he or she will advise you of your right to request an appeal. STEP 2: Complete and mail this form and/or appeal letter along with any supporting documentation to the address identified below. Complete and accurate preparation of your appeal will help us perform a timely and thorough review. In most cases your appeal should be submitted within 180 days, but your particular benefit plan may allow a longer period. You will receive an appeal decision in writing. REQUESTS FOR AN APPEAL SHOULD INCLUDE: 1. If you submit a letter without a copy of the Customer Appeal form, please specify in your letter this is a \"Customer Appeal\". Please include all the information that is requested on this form. 2. A copy of the original claim and explanation of payment (EOP), explanation of benefit (EOB), or initial adverse decision letter, if applicable. 3. Any documentation supporting your appeal. For adverse decisions based upon lack of medical necessity, additional documentation may include a statement from your healthcare professional or facility describing the service or treatment and any applicable medical records. Cigna Participant Name (Last) (First) (MI) (First) (MI) Participant ID # Account Number (from Cigna ID card) Patient Last Name Health Care Professional or Facility Name) Name of person filling out the form Procedure/Type of Service Claim Number/Document Control Number Appeal is being filed by: Signature 924897 05/2024 Have you already received services? If no, and these services require prior authorization, we will resolve your appeal request for coverage as quickly as possible, within 30 calendar days. Employer Name Date of Birth Today's Date State of Residence Is Health Care Professional Contracted? Date of Service Participant Primary Care Physician Specialist/Ancillary Physician Health Care Facility Other Representative (Indicate relationship to Participant): Yes No Yes No Home Phone # Business Phone # If allowed by your Plan, is this a second appeal or external review request? Please check off the selection that best describes your appeal: modifier Reason why you believe the adverse coverage decision was incorrect and what you feel the expected outcome should be. As a reminder, please attach any supporting documentation (for medical necessity- related denials, include medical records documentation from your health care professional or facility). Additional Comments: Refer to your ID card to determine the appeal address to use below. Mail the completed Appeal Request Form or Appeal Letter along with all supporting documentation to the address below: If the ID card indicates: Cigna Network If the ID card indicates: GW - Cigna or \u2018G\u2019 on the front Cigna Appeals Unit P.O. Box 188011 Chattanooga, TN 37422-8011 If the ID card indicates: Cigna-HealthSpring AZ Medicare Appeals Unit 25500 N Norterra Dr., Bldg. B Phoenix, AZ 85085-8200 IMPORTANT: This address is intended only for appeals of coverage denials. Any other requests sent to this address will be forwarded to the appropriate Cigna location, which may result in a delay in handling your request or processing your claim. Cigna Healthcare products and services are provided exclusively by or through operating subsidiaries of The Cigna Group. Such operating subsidiaries include Cigna Health and Life Insurance Company, Cigna Health Management, Inc., Evernorth Behavioral Health, Inc., Evernorth Care Solutions, Inc., Evernorth Direct Health, LLC and HMO or service company subsidiaries of Cigna Health Corporation and Cigna Dental Health, Inc. \u00a9 2024 Cigna Healthcare Cigna Appeals Unit P.O. Box 188062 Chattanooga, TN 37422-8062 924897 05/2024 Yes No Request for in-network coverage Coverage Exclusion or Limitation Specialist/Ancillary Physician Inpatient Facility Denial (Level of Care, Length of Stay) Mutually Exclusive, Incidental procedure code denials Additional reimbursement to your out of network health care professional for a procedure code Experimental/Investigational Procedure Medical Necessity Timely Claim Filing (without proof) Benefits reduced due to re-pricing of billed procedures (Viant, Beech Street, Multiplan, etc.)",
+        "text_truncated": false
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_277971",
+      "args": {
+       "query": "\"CMM-608\" \"63030\""
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\xb63\\n\\xb33\\x01i\\x14}\\x13y\\xb4o\\xd8\\x14\\xfe\\xfc\\xb5;:\\x93\\xc4@\\x1c\\xb0\\x03<\\xaf%\\x9f\\xec\\x0e;\\x815\\xec\\xf9\\xc7\\xb98\\x97\\x8d\\x8as\\xa9d\\xc2\\xdb\\xaa\\xd5~6\\x95c\\x06\\x9d\\xcc\\xad8cA\\xf3\\x8a\\x02\\xd2\\xfa[:\\x88\\xc5~y\\xae\\x02\\xa4\\xa9\\xc7\\xafPQ\\xc9\\xc9\\x86\\x83@\\x88i\\xff\\xf9\\x96\\x04C\\xc8Ew\\x9d\\xb1\\x18\\x9c\\xa6(u\\x0cna\\x85X\\xc6\\xa6\\x1d\\xdc,L\\xcd6 \\xa7\\xa5c\\xd1Kl\\x8d\\xfc?v\\xa7\\x81%\\x80z\\x0b?D\\x1b\\x1e\\xa7\\xc53.K\\xd29\\x9d&\\r\\xdeqi\\rt8\\xd7G\\xac;n\\x82\\x08m<o{uO2t\\xcd\\xe1\\xef\\xae\\xc3\\x85T)K\\xb3\\xc5\\xa5\\xc3p:\\xc1\\xe2\\xd3\\x99\\x9eU\\xdf\\xfe\\xba\\xf6\\x06yt\\xce\\xe6\\x827\\xeb3|\\x1c|\\xe6x\\xf1!y>LhMn{\\xd3t\\x06\\x15\\x1d6\\xad^M\\x11\\xff\\x13\\xbc\\x1b&\\x0f\\xf2a\\x1b\\x01\\x86\\xa7\\xc0V{\\xd2\\x0f\\xfc\\x8f\\xe2\\xba\\xebU\\xfd\\x16\\x11 H\\xd1[\\xd9u\\xd9%v\\x05\\x17X\\x82\\x07\\x98\\xea\\x83 \\xf9\\xb1\\x1ff\\xbf$A\\r\\x92V\\xd0\\x8a\\xc4=\\xb1L\\n\\x81a?\\x0b\\xe4\\xa0\\xf9\\xcdt\\t\\xbb\\xc1\\xa2vQ:WPs\\xd9\\xa7\\xff!\\xb4Dh\\xa6\\xbeST o\\xb7\\r=\\x98?\\xa1\\x96\\xc3\\xe9W\\x1cs\\x01\\xb3f\\x178\"\\x8d\\xe4\\xe4=\\x8f\\xb9\\xd9\\x1e\\xd1\\x97\\xa5\\xab2\\xdbz\\xa8K\\x10\\xb4\\x94\\x1d\\xc2\\xc3\\xa3\\xf7\\x0b\\x04\\x9b\\xdd\\xf2\\xae\\xf6\\xaf\\xf0vM\\x96\\x9e\\xeb\\xf1\\xd2\\xb6\\x88>&\\x1b\\xcb\\xfcL\\x13\\x81Y\\x00\\xf4\\xb3\\x13\\xa6\\xb6Pb\\x93\\xac\\xdc\\x04\\xe4\\x85@\\x91\\xa8m\\x16,ff\\x19W$)\\x01\\x7f\\x1cM\\xed\\x92\\xa8E\\xcb:\\x14\\xc7\\xf4\\x8a9\\xf5_5\\xe5\\xa4Y9\\xd8\\x9c\\x00\\x8f\\x8d\\xbd\\x1eU\\xdc@\\xf3,\\x8e\\x15S;\\xb67l\\x86\\xc9\\xb7\\xbey\\xf4m\\x96iu\\x00\\x93m\\x95\\x1e\\xa1\\xfdV3@\\x04\\xac\\xc6u\\xb9\\x08\\xf7\\xd56E\\x82\\xe7y\\xf3t\\xe7Q\\xdb, \\'\\xcc\\x7f\\x0c\\xa6}\\xc1\\xb8e\\xf9t\\xcb\\xab\\x8f||\\x84\\xd0Y\\xc5\\xa3\\x1d}\\x8b\\xcb\\xbd\\xe3\\xff5\\xefk)\\xd4\\x8c}V\\xd0\\xe7\\x12\\xaa\\x05\\xf9Km\\xf9\\xc7\\x11\\xe1+a\\xf8\\xfc\\xc6,\\xba\\x11\\x1eg\\xc8\\x05\\xfa\\xb5\\xfa\\x9c/\\x9dlY\\xdf\\xe5\\x9fo\\xf0\\xa2\\n_S\\x98\\x14\\n\\xe0d\\x10\\xc3\\x8c\\xe5p\\x15\\xa5\\xdc\\xe1g\\xf2x\\xc7\\xe7\\x1b\\xbb\\xc0\\x0c\\x94\\xdcds\\xa1\\x1e\\xfc1]m\\xae^lK?-\\xc8\\x17\\x9du\\x95Z\\r\\xc239\\xae\\x12\\x12A\\x82\\'\\x90y\\x01\\x0f\\x07\\x049\\xee\\x7f\\x83\\xadp\\x9e\\x90!\\xfb\\xb5\\xba\\x81<\\xd6\\x00,\\x9f\\xf5zk\\xe3p\\x9c\\x89\\x80&W\\x945\\xab\\xf0\\xbbQ\\xc4O\\x13-m3?\\xcd\\x7f\\xd9?; \\x15&\\xfd0\\xd7\\xf6\\x18\\x89\\xb0\\x86j\\xaa8\\xf2O\\xf9\\xfb\\x8c\\xccK\\xa7G3*\\xb5T\\x0eE\\xf3\\xe6\\xd3Z\\xeb\\xb5Q\\xef\\x84\\xdb(\\xc2\\xa5\\xc8\\xd5 \\x10\\x89\\x04\\xd1T\\xe2`\\xb9@\\xcbf\\x8f\\xe8\\x03\\xacJ\\xd0\\xddi\\xb5\\xe7:\\x91\\xc3\\x81W\\xdc\\x01\\x8c\\xf8\\xfc\\xf6\\x18\\x9b\\xa0_\\xec\\xb4\\x14/\\xbf\\xf7\\x9d\\xd4g\\x07\\x8fq{,\\xd3\\xe8@$z\\xc0\\x8eb\\xef\\xec/\\xe9\\x06M\\xca\\\\V\\x88\\xd2\\x8c^3\\x990@\\x80\\xba\\x80\\xb2\\x9a\\x99\\xb5\\x99\\xa5\\x00\\x15\\xa4\\xb1y\\x06t\\xb5\\xac\\xf0u9\"v\\x0f8,\\x95P\\xc3y\\xed\\x11\\xc5\\xcfj`\\r`\\x849&7\\xd7\\x86\\x11\\x11\\xf1\\xdc\\xb5\\xaf\\x15u\\x0fr\\x14\\xb8rH\\xa6x\\x0f\\x14\\x16N@\\xb7G\\xecz\\xb3\\xb7\\xc9qA\\xe5\"k\\x04\\x9b\\xd4m\\xa5sD\\xb3L\\xbbec\\x97\\x06]`_\\x17\\xd6b\\x07\\xe0j\\x10\\x8c\\xe9\\xda.\\xddA\\xe6<\\x87\\xe1\\x18\\x13IzD\\xff\\n\\xd86m\\x01g\\x9d\\xff`G\\xdb\\xfa\\xe5d\"\\x07\\xc0\\xd3\\x07\\xaf\\xa8\\x02\\xf9\\xca\\x87\\xeb\\xc2\\x0fx\\x8b\\xd3\\xaeC#\\xc4\\x80\\xc0\\xd2\\xb5$\\x84 \\xc4M\\xafK<\\xb0\\x99\\x1d\\x85\\xf4\\x13#\\xa4\\xbbnE\\xa3\\x11\\xc8S\\x88\\xa8f\\xed\\xd0\\xcd\\x8c\\xc6|\\x0f4\\x80\\x1aS\\xde\\xc9\\xed/C\\x1b/\\x81\\x13}c\\xea ]\\x95yd\\x8b\\x85\\x1b\\xb5\\xb7\\xd4\\xd2v\\xea\\x84\\xb0\\xc0ub\\xe6rV_v\\xf8\\xe3\\xee\\x83\\x1d`\\xc2r\\xe4\\xb4D\\xc8\\xafvQ\\x16\\xdb\\xd8\\x0b\\x85\\x9a\\xb9\\x06!H\\x8f\\xf8Bl\\xe8\\x00\\xca6\\xa3\\xac7\\xe2Z@\\xba^\\x140\\xf4r9\\x12R\\x13\\xe5K\\x19\\xa9S\\xb6\\xdcHy\\x83\\xe5\\xe9\\xa6\\xfa\\xc7m\\xf8\\x1b\\x96:\\xb0\\xc0\\x9f\\'B\\x12\\xac\\xc7q\\xf3r\\xad\\x86U:\\xf5\\xcc\\xf7\\x836\\x1dEz\\xfd)\\xdc\\x90\\xb2\\xb4;\\x87\\xb1\\x9aI\\x9fj&$^J\\x81D\\xdc\\xbb5\\xa0\\xb0:\\xb8s\\x1a\\xea\\x01\\xd0\\x82\\x92\\xab\\x81\\xf0\\xd2\\xeb\\xcb\\x9cTE\\x1c\\xdf0U[\\x1fx\\xd5\\xb5\\x01\\x08\\xadS \\x84\\xfal\\xd0~}\\xd5?\\xec\\xc7\\xe5\\xa5>\\xabU\\xc4v\\x03C\\x05\\x94>{\\xba=\\xbd\\x00\\xecK\\xeb\\xf1R\\x8f\\x1e\\xe0\\r*\\xbf\\x84\\xbe\\x90\\xee\\xf2z^)Z\\xaa\\x83\\xdc\\xfb\\xb8\\x83U\\xf1H+\\xa0\\x11,\\xe2\\xa5\\xd6/\\x8e\\xc9\\xc4#R\\xc6\\xfd\\xc1\\x15\\xa9\\xb3\\xebEa$3\\xaf\\x95\\xfb\\xdc\\x87\\xec\\x1ee\\x06\\x9b\\x90\\xd7}\\x00b\\xa0\\xfa#\\xff\\xbf\\xa0\\xd9\\x07\\xb7\\xa15i|>!l\\xf2\\xaf\\xe3\\x01;\\x84\\x1f\\xf5<\\xfd\\xec^\\xafhx\\xe0\\xa0\\xb0@z\\xd5y\\x19\\xdc\\xb2T\\xf8G\\x94!\\xa4Q\\xe3\\x05$r\\x1c\\x89\\xa4\\xa7\\xdbW1J\\xcc\\x06\\xc1\\xa4\\xc3\\xd5\\xcf\\xecC/\\x11\\xc9\\xac_\\x00d$\\x12\\x84\\x105R\\xf5`,\\x9d~\\xf3\\xa2/5\\x95\\x07\\xa2\\xc0\\x15|\\x81\\xe2l\\x93WEX\\xb3\\xbb\\x93\\x19\\x00\\x99\\xc4\\xbd\\x0c6=^\\xedd\\xa9\\rlD\\x83G\\x9f\\x1a\\x95v\\x80\\xc8\\x14N\\x8aC\\x18~]\\xee`\\xd6\\x18\\xef\\xa1\\x1c,V\\x1d\\xee\\xc4\\x1e\\xc6\\xb7K\\xed\\xbej\\xfa\\xa3\\xce\\x0b4\\xcf3H\\xee\\xd0\\x9eA,\\xf9\\x9f\\xec\\xc0\\x7f\\xc5\\xe8\\xb5\\x00\\x04Y1<`ai\\xca10y\\x8c\\xa9\"\\x9a\\xf0\\x1c\\xbfW\\xe9C\\x919\\x92\\x89\\x8b#\\x93\\xcdJ;Pf\\xafFV\\x89T\\xc7\\x835{\\xb6\\xa8\\xado,\\x93;\\x1e7-\\x80\\xacdD\\x90G\\xf3T\\xd8ti\\x83\\x13\\xd3\\xa6\\x82\\xd7d\\x03\\xfd:\\xdd\\xd9\\x88\\xfb\\xdf\\xb9B/\\x80D\\x0cF\\xd9P\\x199\\xab\\xf6j\\x15\\xb4\\xc9\\x96{>\\x050\\xf1\\x99\\x178|\\x17\\xe5X\\xad\\xc6\\xad;\\xe4\\xceU\\xd8b\\x8al\\x0c\\x0f\\x03\\x0b\\x99\\xff\\xa9\\xb0\\x04]g\\x8f\\xbe\\xbf@[\\x06\\n\\xcd0\\xb6\\xde\\xd9g*\\xcfY\\x0c\\\\\\xb3.c\\x0f\\xc7\\xf5\\xd5\\x0f\\xd0\\x11_`\\x8f_c*\\xef\\xb9\\xccS\\x90\\xdb\\x891%\\xb2\\xf2\\xa4\\xfb\\xe0\\x93\\xc9\\x91\\x85\\x8bH\\xf1a\\x07\\xda\\xb1$\\xea\\xbc\\xd7\\xa2\\x16\\xca\\xffWs\\x8b-\\xe10\\xd7\\x03m\\xde\\xcay]\\xccM\\xba\\xe5l\\xab\\xbc\\xa8\\x88\\xe8d|\\xe2D\\xe3-\\xb4\\xb9\\\\[b\\x1f!hl\\xd9\\xf4H\\xcc3\\x88\\xd9W\\xf9\\xb0\\xb3\\x133XF\\t\\r#\\x07\\n\\xe6d\\xb5\\xa4\\xc44\\xe0\\xae\\x86\\xdc\\xb5x\\x99\\xb4\\x8f\\x83\\x08\\x16\\xd8\\xe9\\xa7\\xc5\\xda\\xe6K\\xa4\\x96!\\x0b\\x0e\\x9b\\x03\\xd7\\x9c\\xe8~#\\xf4\\xf9\\x8d\\x05\\x8c\\x99\\x9dQ8\\x98\\xd0J\\xdd\\xc3\\xf6\\xca\\xa6YJ\\x8c\\x9d\\xce9\\xd9,\\xbekU#\\xb3s\\xb5\\xe8\\xb0\\xd0#N\\xcc\\xb5\\xb8\\x9a\\x86\\ti\\x1e#\\xec8\\xb5\\xca\\x7f[\\x11\\xd2\\xb0\\xab\\xd9t\\x1f7\\x92F\\xb0\\xc7\\xe8\\x97\\xd8*\\xf8\\xb6\\xa0S\\xec\\xba\\xe1\\x93\\xc15\\xd4Y\\xf4\\xa9<@\\x1c_\\xa8t\\x87a\\xcf\\x80\\x86\\x0e\\x13\\xd2\\xc4\\xa0\\x83z\\xc0\\xb2ma\\xe7[\\xd8\\xad\\x94]\\x03\\xfd{\\x97\\x82R\\xc42\\xb0\\xff\\x08P\\xef\\xd6\\xbc\\xf2;\\xab%]\\xc3NA\"Asn\\xd5DV\\xee$/\\xba=\\xa4S\\xc3Oc\\xedk\\xfd\\xd6\\xa8h\\xcap{\\xf7\\x05\\xa1\\xabtX([V\\x15$\\xc0\\x16\\xd4\\xd7\\x89X\\x87\\xa1\\x1eg\\xfa+\\xad\\xef\\x08*$b\\xd3\\x99\\x08\\xce\\xe5\\xc0\\x8f\\x11\\x88.\\x88\\xec\\x81\\x08\\x88q\\xe0\\x9b\\xfb\\xf8\\xbf\\x96\\xc5A\\xad\\xc0\\xc0q\\x8f\\xc0\\x82\\x97 \\xa1\\xc9a\\x7f$S\\x16N\\xff)G\\xa3Bi\\x97\\xe2\\x82\\xef\\x9b\\xa0\\x9a1\\xe1\\x8d\\xc8\\x91#C\\xc3>F\\xb0\\xa2\\xe7E\\xd0`\\xfbH\\xd6\\x94\\x04K\\xf8\\x99yF\\x18~\\xb4\\x8a\\xb1\\xf7\\tO\\xd78lB\\x17P%\\xf3\\xd6\\n>\\x94\\xf6\\x10\\x8bB\\nm\\x0eX\\xdaRnD\\x97?\\xa6\\xf5\\xdc9\\xf9\\xcd\\xb4\\xfe\\x91\\xbdN\\x12F\\x11-oe1\\xa1\\xc5\\x0fh\\xb8h\\x07\\xe9\\x8b\\x9dV\\xff\\xe0m`F\\x91KI\\xc3hF\\xc3\\xee\\xe9\\xef\\xe4Y\\xa7X1+\\x9b\\x1d\\xfb\\xb2\\x83\\xbcyo>u\\x94W\\x90\\xa7\\x1dK\\xb5\\xe8>\\xe1\\x8a\\t\\xdb\\xf3\\x8d\\x9a\\x97\\xcd\\xf9\\x8f\\xaa\\x80\\x03|\\xc1Nk\\xc7\\x84y\\xac\\xef\\xc81\\xdd\\xa7\\x80\\xaff\\x82A\\xef\\xe9Y\\xf4\\x12QWK\\xd1\\xd9\\xdd\\x82\\xee\\xab\\t%\\xd9q\\xc9\\xc4\\x89\\xb7$\\xe4\\xa4&\\x81m\\xa7\\xae\\x11\\x18\\xf0I-\\xad\"\\x98\\x1a\\xcc\\xcb\\x93r\\x19&\\xe1\\x18=\\xd5q\\xc86e\\xbc\\xbcw\\x11u\\x1d\\xcf\\x91\\x0f\\xa9\\xacC\\x9d\\xb1\\x84q\\x93(\\xdf\\xc9\\xee#|\\xd8\\x82\\xc8J/3\\x8bP.I\\xd9\\xd4\\xfb\\x8a&\\xfc\\xc5f8}\\xe6\\xca\\\\\\x14\\xb4\\xdc\\x839@.\\xa4\\xab\\xcb\\xe2vG\\xd6*+0y_H\\xa7l\\x1f\\x0b\\xb51R\\x1a\\x9f`\\x7f\\xfb5[\\x84\\xec\\x06\\xbeUC\\xc2\\x96t\\xe6\\xb5\\x89\\xef\\x87\\xf0C\\xe7I]\\xa8\\xa5\\xd6\\x89\\tR\\xb1\\x17\\xaa\\x8d-\\xc1\\xa4\\xa6\\x99\\xb5$\\x05G \\xb2r:\\x80%\\xba\\xb3 \\xaeQ\\x0fr\\x88\\xa0\\xa7\\xa8\\xaay\\xa0\\xb0\\xcd\\x0c\\xba\\xd3\\xfbm\\xd2\\x0b\\x8cKo|\\x1e\\xa3`\\xcb\\x9d\\x14(\\xfc\\x8ap\\x08\\x8d,b\\xfbV\\xceKr\\x12\\xc8\\x16\\xbaj\\x83\\x1dQe\\xf7\\x0eI(\\x08\\xcf\\xeb\\xc3N\\xd6+E\\x0f\\xd3o\\xe0\\xa8Bc\\xe9\\xfb\\x80\\xc6\\xd7\\x03\\xef\\xc0k(\\xcfx\\x83uCkx\\xc9\\xf7>\\xec\"\\xd9T\\xd7\\x8b\\x00\\x99]\\xce3\\\\\\xba\\x11c\\xc0\\xad\\x84w\\' \\xc2N\\x15\\x953\\x19\\xc4rg$\\xbaY.L\\x1d\\x91\\xcd\\xc0\\xf1\\xa9\\x9bR\\xa5\\xad\\x11K]\\x94BE\\xfe_\\x17\\xd0/\\x97AD\\x86t\\xe3\\xd4\\xdc\\xcf\\x96\\xfb\\x9cb\\xe6\\x0b\\x1c<\\xefec*\\x9a\\x92\\xe9*\\xf0\\xdf*oq\\xe2\\x12r\\x02.\\xcb\\x94\\xed\\x8f\\xfb\\xfb\\xc8w\\x1df\\x12\\x18\\xfe\\xeaM\\xae\\xe5m\\xa5O]\\'\\xbc\\xa3\\xaf\\x14o)\\xe2\\xc6\\xa4\\xa2\\xb1j\\xbb\\xcd\\x9b\\x1br\\x90\\x93\\xef&\\xae\\x10O\\x82I\\xdb\\xe4TvN\\xd0\\xb6n\\xc3\\x022\\xcd\\x8c\\xec\\xfd3\\xcfeS\\n2\\xcbT\\xfc\\xd3\\xc5\\xad:\\x05\\xba\\xd8[\\xd5W\\xe2^j\\x89\\xb0\\x11\\xca2\\xdfW\\xce*;\\xd4[\\x7f\\x1d\\xebn\\xa5\\xefa|S\\xe0+\\xee\\xc7Q\\xfb\\xc1\\xa7\\x1cD\\x15\\x1c\\x98T\\x9a\\xbc.\\x0c\\xea\\xfd\\xc8\\xf2i+<fG{\\xaaW\\x90\\'@E\\x1bm)\\xfe\\xbc7\\xa3\\xebKQ\\x98\\xcce\\x99\\x0b\\x96\\x1b\\x079\\xd0\\x17\\xb7\\x9a\\xef\\xac\\xa8\\xfa<5h\\xbd?(\\xf9\\xf1\\xd6\\x02\\xe7\\xa5\\xb32ck\\xbe\\x8cE\\xc1\\xf8\\x0e\\xc4\\xe8\\xa1\\xf1\\xd4\\xd3(w\\x87\\x18m5Nq\\xac\\xe0\\xa4\\xef\\xa8\\rT\\xe2\\xe9\\xc6Rs\\x8b\\x1b\\xc9\\xf3\\xb6S\\x96\\xca\\xc4\\x07ot\\x8f\\xcb;\\x9d\\xf9\\xf7\\xd3\\x1c\\xdf\\x86\\xff\\x9c\\xc6\\x16\\x8b9Am\\x07i\\x91\\xd8Y#\\xfe\\xa9OZX\\xbd\\x1abMG\\x9cu]=\\xd5g\\x11\\xf1z\\xcf\\xc0z\\xc1u\\xadi\\xb8!\\x95\\xf2\\xaf5\\xbe\\x88+\\xcb\\x90\\'\\x86F\\xb1\\xeb\\x1c\\xe0\\x8bPbuf\\xfa\\xe0\\x8d\\x94\\xa7j\\x84 \\xd1,\\xbaFnf\\xe0m<H\\xff\\xf5c\\x9d\\xe8\\x89\\'\\xbf\\xe3\\xacx\\xb5K\\xf0.\\xbbe\\xc7\\xb7\\r\\xad\\xcf\\x16\\xe2\\x17\\x85\\xbf\\xc0s\\xfa\\x18\\x97\\x88\\xe8\\x83K0\\xaeA\\x18\\x07\"#\\x02M\\xfd\\xff\\xdax\\xd9l\\xf9\\x92=\\x14\\xab\\\\\\x93\\xdb\\xb6\\xf8%\\n<\\xca\\xef\\xfe\\xfc\\xf4\\x1a\\xe0h\\xf9M\\x0er\\xce\\x9d\\x11\\x8f\\x9b5\\xa4\\xbem\\x8e\\xe2\\xd87\\xba\\x12-9g&P\\xf7\\x91\\xee\\x96{+p\\xaa:\\xb8\\xe14\\x94\\xa6\\xe8\\x10C\\xa1\\xb4\\xfa\\xe0G\\xd3\\x10\\x89U\\x19p\\xb3\\x11\\xd6\\x87\\xb9&\\x8b\\x07\\x82\\x16\\xd1\\x00\\x9757[\\xbc\\xcb\\x89y\\x9c\\xb5^\\xe6\\xd2\\xb3\\xd6\\x19\\x07!\\x89\\xd6\\x93\\xe7\\xa3\\xf3\\x12z\\xe0*k\\xc3\\x7f\\xeff\\xeb\\xfe\\x8b\\xaf\\xdf\\xfa\\xa7\\xf0\\xbe\\xc2[\\xa6\\xe8%1\\xd4\\xfd`\\xb5\\xf4w\\x83\\xe0/\\xc0\\x9caP\\xf5\\xb64\\xfcp\\xcf\\xe0x2V\\\\\\x98\\x9f\\x15\\xacq\\x90=\\x05\\x8dY\\x98m~@\\x0b\\xc8\\xec\\xf8p\\x15\\xa4\\x9d\\xdf\\xc7\\xc3\\x1cqN\\x05]jo_K/.1H\\xcc\\x9f\\x15\\x10\\xb27\\x14\\x1a\\xcbS\\x0e\\xea\\x05.\\xff\\x87isA\\xe0\\xad4\\x11\\x04\\xa2\\xd4*?\\x1e\\x7fA\\xed[6\\xaf\\xa1\\x00LZ\\x0by^\\xf5D\\xb6\\xdb\\xd7\\xde%Os\\xb5\\xc2t\\x9f#C\\x00\\xa2&\\x04\\xbcZ\\x80\\xb51bVU\\x944+J\\xf1X1\\x92\\xcc#\\x18\\xfe\\xfd\\xc2\\xd0\\xa5BZ\\xafo0;\\x9dT9\\x94\\'\\x97\\x1a\\x82C\\'\\xb6\\x85\\x07\\x7f(\\xa8\\x11\\xfb\\x12\\xe6Z\\x85\\x9as\\xd8\\xbc\\xe4\"\\xb5\\x90\\xf0\\x08j\\x89\\x8ae\\xef\\xf2\\x01\\xee\\xac\\x85\\xcd9\\x89\\x95\\x94:\\x12r\\x81\\xbd2\\xfe\\x04\\x1e\\x9f\\xdb\\x1d\\xccg\\x11\\xe2$\\x01\\x05C^\\x94\\x04\\ra\\x04\\xb9LGw\\x8e\\x8fC\\x18\\x1bd\\r\\xe4r\\x08\\xf4\\xc0\\xaf\\xa4\\xf6\\xf8\\x02\\x19^\\xde\\xf8\\xed\\x17\\x00c\\xed\\x1f\\xf4\\xbf6^\\x1fb\\t\\xf6\\xb5\\xde\\x8c\\xd9\\xf6\\x97^\\xfd%o\\x04\\xa0\\xb1\\xb4\\xccu\\x0fr\\xf7\\xd0\\xa0\\xf4y \\xc24\\xd9\\'P\\xedI%DX\\xf8\\x05<kO\\x15RC2\\xa8+v\\xfc\\x9e\\xbf\\xc9}\\xc9}\\xafbo\\x8fQ\\x87Zr^\\xbb\\x8cv\\x903L\\xae\\x94j\\x83\\xb6\\xbep\\xcc\\x1c\\x07G\\xc4\\xc4qk\\x9bH\\xc9\\xd5\\xc2\\xdf\\x91\\x1c\\x860?\\xfc(\\xfd\\x95gp\\xb7\\x15\\xb4m/\\xde;\\xf5K\\xb7\\xb4+\\x82\\x98\\xe4\\x10A;\\xf6#\\x9fS\\xa2b\\x83R~o\\x13\\x00z\\xaf5\\xb6\\x1cO\\xd4\\xac\\xc7$k\\xc1T\\x15\\tG\\x00\\xed\\x9f\\x17\\x01\\xb1\\x18\\xc5\\xe5*e\\x18\\x05Y\\xe8\\xf8\\xc1|\\x03\\x9d\\x9b>(\\x1b\\xbf`ulr\\xd7@\\xab\\x89R\\xf8\\xad~\\xc1\\x9f\\x1f\\x03%q2\\xf6Kd\\x8dR\\xcd\\x0c\\xf2&\\xfe\\x02\\xc7\\x98WF`\\xc4\\x0c:7(\\xe7eo\\xfa\\\\\\xc7@\\x0b\\xf2\\x0bA\\xa9\\xc0J\\xabS\\\\0\\xc9YIl\\x8f\\xdb\\x9c\"`^\\xc8\\xa9\\xc0\\xa3\\x93\\xb8c5 \\xb84H\\xc0\\xc9=\\x8dL\\xfe\\xe6Ic\\x02\\xf3\\xc7H\\x9bZ.\\xfc\\x8a\\x8fx&\\x99nh\\xe6%\\xabq5\\xe6\\x14\"\\xb5\\xc2)d4\\xf1\\x8d\\xcc\\x83\\xd1E\\x06\\xa7\\xbdA\\xe9p\\xef\\xf1h\\xb4\\x00\\xd2\\x15m\\x7f\\xb0\\x9cJ\\xc2\\x92\\xcf)V\\xe8\\xe0\\xab\\xf3\\xc5^\\xf4>\\xba\\x86\\x16|h#3\\x19\\xe2\\xa1\\x96\\x98\\xdb\\xe4oe\\xf0\\x16;\\x8ezIm\\xd1@\\xfe\\xe7B\\xbc\\xfai\\x86\\x9ct\\xab\\x1d\\xbe\\\\\\x0f\\xca\\x9d\\x9b\\xdd\\x0e[<\\xef\\x00HA\\r\\xed31\\xe8%\\x9a4$\\xc4\\xf0\\x91\\xf2W\\xe3\\x1fP:\\x91\\xbe&K\\xc42\\xf8\\x02\\xc9w\\xfeWq\\xb4Nt\\xde\\x1e#\\x1d\\xbe7\\xf1]^\\xb3\\x02&T\\x1d\\'M!\\xd7\\x1e\\xa2\\x07\\n_ab\\x8b\\x82v\\xe3\\t\\tu\\x1bT\\xb9\\xfa\\x9bW@;/\\xa7F\\xfd\\x9d\\xeb \\x97q\\x9c\\xe7J\\xddc6\\x00\\xd7\\xb0\\xf3\\xb0gY\\x80N\\x96\\n\\xf83+WX\\xb3\\xe4k]R|\\xf4\\xf1\\x02\\x8a\\xf4\\xe1k\\x18\\x03RD\\x95\\xa0\\x91\\xeah\\xa4{\\xae\\x01f^\\x85!\\xf92}I\\xe9\\xd3\\xd9\\x92iu\\xa6L\\x9f\\xc4\\xd8\\xb8\\xbe=\\x15\\x88\\xd8\\x14D3\\xee\\xe6\\xba\\x8a4\\xa4\\xf6\\xd4\\xa7\\xe9\\xf09Z\\xa9;q\\x8f\\x8b\\x96MkF\\xe6l.Q1\\x83\\x0e\\xec\\xfe2\\xec\\xbd\\x84\\xb8\\xae\\xb5iw\\xb2^a\\x06\\xd2f\\x1aY\\'\\x1f\\x9aA>g8\\xaa\\xd2\\x13\\xbd\\x82\\xae\\x8f!\\xbf3]\\xa2\\x18V\\xe5\\x02z\\xf9\\xb3\\xbc*\\xb5\\x90\\xe1T\\xe5#\\x07\\x81\\xe8t\\xa9\\xabJ\\xc5\\xe3\\xe0\\xd9M\\xc3Ge\\xb7\\x95\\n\\x1c\\xf7\\x9f\\xe2\\x8e\\x0ea\\xac/\\xf7=Z\\xa6\\xe2\\x8f@f\\xcd\\x9d~\\x97\\x19850\\x00K\\x95.\\xa9\\x9b\\xfb\\xa2]o\\x99!\\xa6:\\xa22*\\xd0\\x9d1\\xb1Y\\xc3\\x14fSQ)\\x88^5\\xa8h3\\xd6\\xefI\\x17\\xda\\x92\\xe8\\x9cR\\xe4\\xa8\\xbe\\xc5\\x10\\xf4\\xa6\\xa1*\\xdb\\xe7\\x84\\\\\\xa6\\x10i@Hh\\xa5\\xd24\\xd1!P\\xb3M\\xdc\\xf6\\xc2j\\xf2<~\\xb0#\\x8d\\xde\\x85?\\x1e2\\xab\\xc6G\\xef\\x18-Jvep\\xaeZC\\x1c6m\\xd2/\\xb1$4RA\\n\\x7fG\\xd2\\xea(\\x03\\xd1\\rO\\xce96k\\xcd\\xc1\\xc5\\xc3\\xc7\\x8a\\x1e!\\xd5\\xfel\\xc7\\xf8?(\\x86}\\xe6\\xb6\\xc9\\xf7\\x133j1\\x8c\\xa2\\xf4\\xc9\\r\\x01\\x19,\\x92\\x8c\\xc5)\\xa9\\xec\\xb65\\xeby\\xccG\\x82\\x0e\\xde\\xf1\\xde\\xeb4\\x8b\\xbe\\xa4\\xad\\xfb\\xee\\xc2W\\x81\\x92\\xad\\xa3\\xd3\\x95\\xe2\\xfc\\xd0\\xa7\\xa8\\x02\\xc6\\xadGQY<\\x81\\x83\\x13o*\\xb6|\\x8ey\\\\\\xa4\\xa9#v\\xf8\\xbb\\xcf\\xe1\\xdfb\\xa4y\\x0f<\\xfd\\t!O\\xa9O\\xda\\xef\\xfb\\xee\\x91\\xfdGI:\\xe2qz\\x0c\\x98\\x0f\\xb0z\\xdc\\xe3\\xdd\\xd5\\x06\\xeb\\xd0\\xb2\\x8c\\x8f\\xb3\\xc3\\xa2e\\x89\\xae\\xb5X\\xcf\\tI\\xf5\\xff\\x1c6x\\x96\\x18 \\x11\\x0b\\xc02\"\\x1c\\x10\\xff\\x03s\\x97V\\x8a\\xact[\\x0bG\\x18\\x14\\xf1\\xbc\\xb8J+7\\xca\\xba\\xdc\\x14\\x9f\\x97n!\\xf0\\x90\\x7fF\\xcbY\\xc2sb\\xab\\xae\\xd2\\xfc.\\xce\\xaa\\xfc\\xa4\\x16\\xc6\\xd0)\\x0e\\nP\\xcd`\\xd0\\x1d\\x0e\\x9b~\\xe1\\x11Mz\\x01\\x85\\x82;+\\x0e\\x16\\xc6\\xfdl\\x03\\x96\\xe7\\x1c\\x90\\x84\\x19D\\xd2\\xb6\\x04\\x80\\xb0V\\xf5\\xab\\xef\\x0c/\\xebj\\xbc\\xee:T\\xb0\\x88\\xa6\\xd7x\\xb7\\xebI~\\xfd\\xec;\\x9a\\xd0#>\\xc6\\xc0\\x0e\\xa5,\\xbf\\xa2\\xb6\\xf6\\x89\\x96\\xd1\\x0f\\xee\\x0b\\x9f\\xb1%\\x98\\x13\\x8d\\xbb\\xe1\\xb1|\\x17\\r\\xc6\\x18\\xd9\\x8f\\xc4\\x93\\xfa\\xc5\\xb3\\xa6\\xba\\xcbI\\x1d\\x93NRx}\\xc4\\xe0\\xabAh\\xdd\\x7fO\\xe6d\\x15\\xed]\\xf4\\xfd!\\xabE\\x93\\xadg\\x13\\x05P\\xc8\\xc7;\\xe7\\x10\\xfc~\\x83\\xfe\\xe4w\\x0cK\\xc8\\x1a\\xd6\\xb2\\xee\\xef;C\\xea\\xa8m2\\x1a\\xd8\\xea\\x8fFiJ\\xa6\\'\\x02\\x02P\\x06\\xbf.R6\\xfd\\x12\\n\\xd5f\\xb3\\x9b\\xd5\\xb9\\x86(\\x15\\x8d!\\xc2\\xb7\\xd4\\xc8\\xccP\\x08Ki\\xfb\\xfa\\x0eX{\\xa0q\\xf5Y0rU\\xa2\\x03eK\\x02\\xd54\\xb5\\xee\\x7f\\x1e-\\\\#\\xfd\\xe9w\\xf6\\x9c\\x9a\\x8a\\xa6\\x9e4\\xd8\\xb5\\xa3F\\x1c^\\xed~\\x04q\\xdc\\xa8\\n\\xf0\\xc3\\xab\\x9a\\xde\\xdezH\\xa9\\x86\\x05\\xd2\\xdf\\xa3e6\\xc4V\\xfa\\xffHd\\xf18\\xd8\\x04S\\x18\\xf5\\xaf\"\\xa8\\xb7\\x8f\\xc5\\x9b\\x85\\xd4mZlYs\\x91a)\\x8d0\\x1bC\\xbb\\xae\\x95\\xa2\\xad\\xd3?ng\\xc4@Q\\xcdP7&[\\xd0\\xd4l>\\x16*i\\xee\\xa7\\x872\\xa7\\xa0\\xac1\\xaa\"G4\\xc7c\\x8apRx]\\xd9Z\\xa9(\\x12\\xa3\\x1fnW\\x81\\xa6\\xbd\\xd9\\x07\\xfb\\xe5\\x88g\\xde,\\xd8\\x90\\xf4[\\x82\\xba\\xc0\\xb89qo\\x8fGm\\xaa\\xc5H\\x07k\\xc8%\\xd8_\\xd4-1\\xebk:o\\x86\\x85\\xd5\\x1c6\\x1c \\xf1\\x12\\xf2x\\xf3]\\x99\\xcf\\x88kr\\x91T[\\x11\\xb0@\\x87S\\x12R\\x8e\\x1d\\xd6\\xfeq\\xdc\\x1f\\xed\\x96\\xb6\\xee\\x10\\xdd\\x9f\\x8f\\x82\\xbe\\xf3bH\\xc8?\\xd0\\xf4@`\\x87`\\xa6\\xcd\\xad\\xf4\\x8a\"\\xd4-0\\x88\\xcb\\x8dM\\x0e\\x10\\xa6m\\x90\"#\\x05\\xdb6\\xd6\\x13=\\xc6Yi\\x899\\xa2H\\xad/\\xb7\\x1f\\xf5\\xf4b\\x8fD\\x82\\xae\\x01\\xb8%*#=\\xcb2\\xb4\\xad\\xbeq\\rI\\x1dw\\xaf\\xf712\\x8d$\\xfc\\x1c\\x97_@>\\x03%\\xe9\\x8a\\xf1\\xba\\x07B\\x9aN\\xc6\\xb2\\x0c\\x8e[\\x9e\\xf9\\xd7q\\x01\\x85\\xf9\\xc1W{\\xbbBh0\\xaf;\\xab\\xda\\xad\\x19\\x9f\\'\\xb6\\x9d\\x84\\xf2\\x03\\xcbU\\x8a;\\xec\\x18\\xe7ED)U\\xfa\\xc5n\\xdcB\\xd6t\\x84/Y\\x85e\\x13$D\\'ua\\x85U\\xab\\x19w\\xae\\x18g*0\\xd2\\x8a\\xf7\\xd2E\\xf3\\xa1U<\\xa8\\xf8:\\xb1\\xeab\"\\x96\\xd6\\x1d\\xe9U\\x18X\\x02\\xc7\\x89\\xf7\\'n\\x143\\x8d\\xccE~\\xe1\\xd4\\x1f8\\x9e\\xfc\\xb4\\xef\\x81\\x95\\xdc\\xe9\\x1d&\\\\\\x89:\"\\x86O\\xc22\\x01\\xbe\\xd8M)%m\\xb6\\xa8\\xbf%\\x06L2\\x01\\xd4F\\xc2\\x18\\xf3/\\x86\\xbaX\\t}\\x02Z\\x15h\\xe8R\\xe7g\\xf55p\\xfb\\xa1:\\xd3v*\\xe92\\xa2\\xd1M\\xed3\\x13\\x11\\x9d}s\\xb6F\\x0f\\x7f9s%>g\\xa7\\xe1\\x9cr\\xdf F\\xfb\\xb4\\x1d\\xf7\\xf3#QZfk\\xd8q\\xb5Z\\xeb\\x16\\xf8\\x1d{\\x84\\xd0y\\xd8\\xdf\\x82\\'1\\xc4\\xb9\\xa3x\\xb9Sw\\xbc_\\\\\\x91\\x08\\x8c9\\x1fQp\\x08Z)\\x97\\x03F\\x8f\\x83q\\xdf\\\\=\\x9f\\xda<\\xe5G\\xc6\\t\\x17\\xd1&\\x88\\xb9\\xc6\\xf3y\\xe8\\xdcPA[\\x7fUq\\xd6u\\xeb\\xf4N\\xca\\xb1\\xeb\\x86\\x1d\\t\\t\\xec\\xbc\\xd7\\x04x\\xd8\\xe4\\x0e\\x89z\\x0f\\xe8\\x95)\\xdc\\xc6\\xf6\\x1c\\'\\xe6\\xd3\\xfc\\xe1\\x05\\x95\\xce\\xbaTw\\x87\"k\\xd3\\xd2\\x95\\xa9\\xbc\\xb2d\\xa5\\xb1\\xec\\r\\xa0\\xde\\x05{3\\xe1\\xb0\\r\\xca\\x13\\x8c\\x89+\\xb6:\\n\\xe8\\xa10oU\\xea\\x86g\\n\\x91q\\xfd\\x98\\xa1\\xe4\\xe1E\\x05\\xfa\\x1c\\x8b\\xa8\\x12&S\\xd8\\xc6\\xb9\\xeb\\xe3\\xf8sm\\xcc\\x82\\x97\\xd2r\\x00c0T>\\xcc\\x0eI(\\xed\\x1a:\\x9b\\xfe\\xf3)\\x83\\xf8+\\xa5\\x17\\xb2\\x01\\xc9\\x06\\xa7\\x97\\xf3\\xd1\\x86\\xd8\\x91\\x8d\\xc8c\\xf4\\xab\\x08\\x8bO\\n \\xab\\xf6U\\x167\\xc4\\xf36\\xfa^pA|\\xca\\x1a*\\xa5W\\x065\\x98\\x85y\\xbeC\\xb2\\x00\\x06\\xe5\\x1d\\xc5r\\xa0\\xe5\\xd2\\xfb\\xd1\\x12\\x96x\\xae\\xcd\\n\\x87\\x1c\\xfd\\\\\\xbdLR7\\rN\\xdaII\\xe1\\x1a\\x84\\x90\\r\\xe5w\\x8d\\x13\\xa3\\xca\\x16_i\\x07\\xb3Jr/\\xab\\x872j\\xbc\\xe6\\x10{Q\\x8f\\x85\\xba\\x9aR\\x9d\\xd5\\x82\\x10\\x8c\\xdb\\x86\\x9bp\\x93\\xcd\\xb8\\x90\\xe2\\x93\\xbdg\\xc6w\\xfc\\xfc\\xca\\xd1V\\xbd\\xe9d\\xa0__,\\xf8\\x82x\\xccAN\\x8b9\\xaeO\\xe2\\xe8[\\x05P`grK:\\x85\\xa5+O$F\\xde\\xa4rI\\xd3\\x7f\\xd8o\\xe8\\xce\\x1c\\xbf\\xf0\\x0e\\xbe\\xad\\xf9+\\xac|\\x80\\xb9KZ\\xac\\xfc\\xfeW\\xbf\\x89\\xecU\\x07=\\x9f\\xd6\\xf4\\xa71]\\x8c$\\xd7\\x16\\x83\\xc6\\xd1\\x8dp\\x904\\xbeD\\x84\\x84\\x91\\xf3n\\xec\\x80i\\xa4\\x17\\xd4=o[\\xc3hw\\x1b>\\x86\\xba ri\\x93\\xd3\\x9a\\xa7\\xd3\\xf9w\\xa2\\xe4\\xda\\xdc\\xd7\\xea\\x0fs\\x9d\\xf9\"p\\xc2\\x89\\x0b\\xbe7\\xe9\\x8d\\xb7\\x0f\\xad;\\x0c/\\x85\"\\xe1!e\\xb6Z\\x071\\x96w.\\xc2\\xfa\\xa7(\\xc12\\xc8\\x0f)0\\xbb,\\x9b\\x90+\\xf7B\\x03\\xc7r\\x86y\\xa9\\x0ejs\\xf9\\xab\\x87\\xfe\\x1d\\x88\\xce\\xb65\\xc1J`\\x9f\\x998\\x15\\xb2\\x91\\xb8\\x0c\\xfbw\\x15\\xc2h@#s\\xcc0\\xacO\\xf9O$\\xb7z\\x85\\x06\\x80\\x1eB\\xe0`\\x05r\\x0c\\x86C\\xf6@\\x8e\\xdbh\\xdccT\\xf7qw\\xf1\\xcd\\xc3@5\\xa3\\xb3dZ\\xce\\xa9Qgv\\xab#o\\xee7\\x08\\xf7k\\x89\\xa7=\\xe8\\xf2a\\x11\\xfe\\x063\\xa9]\\x93~\\xdd@8W\\xe5u\\xf5\\xfc\\x08Qp\\xc6\\xcc\\xa6\\xacX\\xd9\\xf1\\xa2\\xd0\\xf5:\\xab^\\x19\\xbb\\x96#TN\\xa0\\xd0\\xf7W\\xd5\\x9a-\\x86\\x88S\\x82\\xc8\\xdb0w\\xa7\\xe2\\xaaB\\x00A\\xf4\\xd6\\xdc\\xc8+\\xaeESJ\\xc1,5+Z\\x05\\x1ej\\x85\\r\\xff\\x7f~\\x98\\x0b\\xe7\\x13\\xe4\\xf1/y\\xc2\\x87(\\xa4~@\\xba\\x0b\\x1b\\x00\\xb4\\xa1RN\\xa8\\x9ez\\xd1\\x08\\x95\\x17!^?\\x16\\xf7\\xba\\x1a%E\\xfd\\xb3\\xeeu\\xb8\\x91\\x14\\x13\\xfbj\\xac\\x9e<\\xf2\\'\\xb8\\x86\\xd6<\\xeb\\xc4M\\x8c\\xcb\\x87\\xba\\x8aO\\xdei\\\\\\xc2W\\xcb\\xceE\\xfeR\\x97\\xc8\\xc7\\x82\\x84\\x0b\\x83f\\xb4\\xc9b\\xa4LnO\\x9d\\xa8\\x02\\x96w`8\\xf8\\x84RR\\xe5w\\x0fa\\xbem\\xa8\\xc4^E\\xfbX-\\x9dn\\x9e\\xae\\x84\\x9fhP\\xcf\\xa7zq%\\xa4S\\xb7\\x04K\\x8e;\\td,4\\xce\\x8d\\x92I\\t\\x13c\\xd6\\xbd%]\\x1c)\\xe5\\x9fL>h\\xaa}T\\xe8\\xfbV\\x95\\x1a\\xb1T \\xc6\\xa0\\xd3\\x1c;\\x00\\x11\\xa8R\\xfb\\x1e\\xb7)\\xdb\\xc0\\xf7\\x05i\\xb2N2\\xd7\\xff\\xab\\xbf\\xc3z\\xe5\\x13\\xc8\\xe6\\x9a\\\\m\\xc9\\xcf\\\\\\x19,?\\x95L\\x17\\x91{n\\tjQz\\x0c\\x08U\\xc1\\x89{\\xf7&9\\xb2\\x01(\\x81\\xf1\\xc69\\xcd\\'\\xcfI<\\\\\\x19\\x90i=\\x19D\\xa7\\x91\\xc3!\\xe8\\xd9]c\\xec\\xb90x\\x16u\\xae\\x0fc\\xb2\\xab\\x85\\x8d\\x7fO\\x88\\x06|\\xeb\\xf3!\\x92\\xc3g.e\\xf3/\\xb2\\xc8^:=\\x938\\xe8i\\xfb\\xda=qm\\x13\\x1a\\xa4\\xf2\\xcd\\xd4\\x04\\xfb\\xe5\\xf3\\x8eU\\x0exK\\xb6\\xb2\\xe8\\x07\\xe0\\x94\\xb4\\xdc2K\\x98\\x81\\x96;3\\x1a\\xa5\\xa6>|~\\xfb$\\x9a{}!\\xb6vE\\x9a\\xef\\xa2\\x18f\\x9a\\xc9H\\xfa\\x87\\xf0N\\x02\\xae\\xb8\\xf5@\\x90\\x88\\x7f\\xc8\\xe8\\x9e\\xac\\x9c\\xe8\\x0f\\xe9U(\\xba\\x1c;\\xeb\\xfc\\xb0\\xb6\\xd3[#\\x0ci\\xf3)\\xbb\\x11\\xa8\\xd2\"\\x04|Q\\x96\\xd6\\xb0\\xfa\\xb4d{\\xbai\\x107\\xdd\\xe7\\x9f[%\\xc9\\x9b\\xf0\\xee\\x91\\xc2\\xd7(\\xc9vl\\xe3\\xae%m`\\x8cu\\xc7\\xd0\\xc4\\xd7[\\xaf\\x04\\x88\\xda\\xa7Y)\\xa6\\xccX\\xb9\\xac\\x13/c\\x9d\\x9bqgN\\xcd\\xdb\\xdf\\xcdB\\xb3\\xc8\\x1cX\\xfa\\xac\\xa1\\xd6\\x8c\\xad#\\xedF\\x01\\xfa3\\xed\\xdf\\x9d\\xc8\\xc4\\xa8\\x80H\\x96\\xef\\x0f\\x16k\\x9e\\xd3\\x18\\x02\\\\\\x8d\\x80\\xc1\\x8fK\\x16\\xebG\\xeb\\xf4\\x0e\\xe5\\xe7\\xd3=\\x97Fo\\x01\\x0b\\xd5\\xca.\\t\\x9c\\xe1}\\xfc\\xf4\\xe3\\xd1\\x96\\xfc86c\\xc6\\xcbub\\xfb^o\\xd2.x\\xd4kh\\x7f\\xdekR%\\x80\\xc1\\x9dH\\x1a0\\x13\\xa2#\\xb4\\xc6\\xe7\\xff\\xdd\\xb3\\xf4\\xc4\\xbc\\xb80\\xc5\\x86yh\\x9e\\xcbW\\xd6\\xde\\xaa\\x15\\xdd%\\xf4\\xd7\\xbf\\xe8\\xf0\\xa8K\\x91*E\\xd7\\xaam\\xba\\xbd[\\xa7Z(\\xa0\\xb7\\xac\\xcc\\xd7Y\\xb0\\x8c\\xe1aCsO\\x1e\\x93\\xc4\\xf1\\xb8\\xd7\\xff\\x8b~\\t\\xb2?\\xde)\\xf47\\x80\\x14f\\x8fTv\\xd5GU\\x81o@\\x89tf\\xe4_\\xda\\xbd\\xeb\\n\\xbd\\x00J\\xed?\\xfe\\xb9H\\xc38=\\xeb\\x94Q\\xd5b5\\x91\\xc6\\xe7\\xce&\\xda\\x99A\\xa5\\xa7\\xd4i\\xfd\\xd3\\x15\\xe2\\xd8\\xfaR\\xf1d\\xed\\xebH\\xa9\\x07K\\xea\\xa3\\t\\x1f\\xcc\\x8a\\xa6\\x83\\xc3\\x92\\x026:\\x88#?\\xeee\\rz>Z\\xe7\\x9c\\xee\\x045\\xbb\\x8c\\x90\\xbb\\xd5\\x83\\\\\\xe03\\xfb\\xd3-\\x98\\xe9\\xd68?|s\\xa6\\xca\\xbdau\\x8c[\\x0bX\\x8f\\\\ve\\x8dO\\xc6\\xee\\x88\\x0f\\x04\\xb6\\xad\\xe3\\x90\\x99uT`\\xf4z\\xb6a\\x04\\x15\\xe8\\xa6\\\\\\xd8\\xb9\\xb6+\\xd8*ci\\xd0\\xb6_\\xe6nj\\x01~\\xae`\\xcdQ\\xf5h\\x85\\xa0\\xe3L\\xb2\\xf1\\x92 \\xd3\\xd4^\\xa5\\x9e\\xe5\\x91%\\xb7\\xb3\\xc6\\xb7\\x80\\xef]D8\\x9e\\x96\\x14B\\xdbv\\xab!3BR9\\xec\\xe1)\\x03\\x85p\\xc4\\x1c\\xdc4#\\xb9\\xf9\\x9f\\xeb,)\\x02m\\x9c1\\x94\\x01\\xdd\\xe7\\xb4)\\x90\\xea\\xb3\\xc0e[\\x95\\xf3\\xd8\\xb5\\x1a\\xb6)\\xab3\\xd0z\\x145\\xf6\\xb0\\x93s;\\xb8\\xd4\\x85,\\x89qb\\xe2/\\x00\\x9dx7P:'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"CMM-608\" \"63030\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_434113",
+      "args": {
+       "query": "Cigna commercial member appeal online submission portal"
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\xc2\\x0b\\n\\xbf\\x0b\\x01i\\x14}\\x13\\x1c\\x93\\xba\\x9e\\nl\\xdd!-K\\xfc\\x8a\\xf7i\\x0ff\\xfb\\x8e(\\xec[Y\\xfb\\xf7f@&\\x83\\x0c\"\\xbc\\r\\xe0;\\xd8\\xd3\\xb73\\xe7\\xbf\\t\\xe0\\xba*I\\x93\\xa5\\xb4\\x91n\\x9f\\x94!\\x1cR\\x97\\xc3\"Y9\\x17\\xa1\\x99Z\\x16\\xb4\\x8a\\xa57\\x9a\\xdd\\xeb\\xad\\x01\\xca0K\\x15\\x1c\\x05\\xf1\\x8c\\xb9\\x13\\xae?\\x98\\x171\\x0e\\x1f\\xec\\xbb\\x9f 9\\xbf\\x13\\xd8\\x82\\x95\\xd4\\x14}\\xe4\\x11+hAl*\\xb0\\xcf\\xad\\xb9\\xf6\\x82@\\xc8\\xb29\\x9by\\x99\\xad\\xc5\\xbfF\\xc0\\x10w0\\xb4\\n\\xa3s\\x05\\x8e5u\\xdc\\xa1 \\xde\\x07\\xba0B\\x03\\xb9mm\\xdf\\xfb\\xf2\\xe0b\\x0c(\\xb2%\\xd2\\xf6\\x03!\\x1c\\x94k\\xfe\\xe6\\x19\\xae\\x8d\\xfc\\xfdJ\\x16\\x8f\\xbe+N\\xe2x`Z\\x9b\\xf2\\x01\\xbdB\\x03\\xff\\x99\\xcbZ,\\x18\\xd3_Q\\xc0U\\x184KnN\\xd2\\xe1\\xe3\\xa3\\xf7\\x97\\xfc\\x05X\\x8b\\xb4\\xe6\\xf5 \\x96\\xe4n\\x1c3\\x91~\\xc6\\xd2\\x0b\\xaa\\xf6\\xdc\\xafNFa\\xc9T\\xbb\\x99\\x8a\\xe3&\\xfd\\xce7\\xf7\\xe0Oi\\xe4\\xa4\\xec-4{\\xdfz\\xfc\\xaaA\\x80\\x12\\r5\\x97\\x1f\\xccF\\xb3!f\\xbd\\x931-,\\x17=\\x8b:Z*\\x0c\\xcfN8\\x9fM\\xd7\\xde\\xe6F\\xf0fQ\\xe1W\\xe3\\x98!\\xe1\\xa6LI\\x81\\x19;\\x85\\xa4>\\xcf\\x9a\\xed\\x9a\\x9dh\\x8d\\x0e\\x90t#;\\x91\\xb64\\xf3\\x0f\\xdc\\x07\\x7f\\n\\xa2xS\\x15.Y\\x80i\\x1e\\x98+\\xa7O\\x0b\\xb8\\xb7\\xcf{\\x0c\\xe5\\x0fG\\xa5\\xf4\\xfe\\xf0\\xc6\\xaf\\xfd\\xcc\\xfaT[C\\xca1\\x7ftrN\\x12!V\\x0b\\xdc\\xf2c\\x94/\\xf6\\x0e\\xf3)\\xc1x8\\xf1L\\xb1B\\xc4\\x17\\x1dh\\xaaKU\\x94\\xc4?\\xf5\\xf6\\xa3\\xd7\\x94\\\\\\xee\\xe5\\x84\\xc5\\x89\\xfe,\\xbfry\\xae\\xe1\\x0c^\\xe3\\x04\"\\x13\\x8c\\x8fUkW\\xe3\\x7f\\x89\\t\\xbeP\\n1[\\xa1\\xbdd]\\xba,1\\xc2\\t\\x82\\x1d\\x02f\\xb7\\xa9\\x01\\xaa\\xf9\\xa5DOd\\xb0=\\xa4\\xbd\\xaf\\x90\\xbf\\xeb\\xe0+\\xac\\xa3T\\xcf];W\\xc9\\x82\\xf53R\\xef}fU\\x04pkX\\xea\\x8a\\xfec\\xeb\\x99\\x1d\\xf0\\xc5\\xef\\xbeW^\\xbao\\xac\\xf5\\xb9\\xa5\\xbbd5\\x1eop\\x88_\\x96U\\xc1%\\x9a\\xefI\\xa9\\xc5\\x08\\xde\\xd9\\xb1\\xdf\\x06\\xa7\\xa7c\\xab\\xfc\\xd8\\xc8\\xac\\x8cwR\\n\\x06y8\\xeer>\\xef\\x11\\x80\\x00X\\x02P\\xa5\\x81\\x86\\x90\\xa0\\xe8^^\\x93I\\xa2Ik\\xcc\\x16\\x80\\xd7\\xd5\\xe45t\\xbf\\x98\\xe5T\\xc1\\x94\\xcf\\x01\\xa5\\x875)m :\\x0f\\xd8\\xd5y/u\\x9a_h\\x84\\x14Lk\\xb7\\x7f4@\\x02F\\xbb\\x0e`\\nZ?\\xebD)7{\\x91=\\x9aB\\xfcb*\\xb3W\\x95\\x97K\\xe4\\xddP\\x8a\\xe3()\\xbd\\x98}\\xa2\\x94\\xe0\\xd0\\xce(\\x03\\xf0\\x83\"\\x19\\xabx\\xd0\\x862\\xe9w?\\xc8\\x8e\\xf2\\x14t\\xb8\\x15\\xdb\\xd8\\xddf7e\\xe5l\\xd7\\xb1\\xdf\\x176\\xe8\\xd606\\x8b(\\x15\\xad\\xf1\\x05\\x1ap\\x90\\xb7\\xedEU\\xef\\xb9\\x813k\\x89c\\xb6#\\x9e\\x93m{N\\xe3\\xbd9|\\xfbq\\x02\\xe0\\xc18\\x04\\x86{\\xd8X\\xdc\\x1e[P/\\x10\\xb0GQe\\x1a\\x0b\\xa4\\xd7.\\xaf\\x8ag\\xce\\xf2=r\\xbd\\x00g[\\x9b\\xd9v$N\\x87\\x0ejJ\\xcf\\x19\\xb3\\xc2{\\x94\\xb2\\x00\\x87\\x8f\\x1c\\x9d\\xe3\\xb2\\xfbi\\xb7\\xab7\\x8b\\xd6\\xd1\\x01|\\xdd\\x97P-\\x10\\xd9\\xf8\\xcb\\xd3\\xe8\\x0c\\xea\\x1b6\\xa9\\xc4W^&\\xdfg8\\x15\\x8b\\x11\\xa8u\\xfb\\x82\\x01\\xbeFxL<\\xa1g\\x02&\\x90h9)\\xacH\\xec\\xff\\x84\\xe3\\xbek\\x1c\\xe71\\xc0\\xa7\\x8f\\x80!\\x12MK\\xd0\\x89T\\xbe\\xd8\\xdd\\x9c~W?&\\x98\\xe02\\xb7\\xbeK#\\xa6\\xbd\\xc5\\xbfT4\\xf1\\n\\x90\\x87\\x1f\\x82c6P\\x9f\\xc2\\xcc\\'g\\xe6\\xcf~\\t\\xf6\\x087\\x9cXt\\xa0\\xdb\\x8f\\nO;\\x8efO\\xedt\\x1f\\x1d\\x14y\\xed:Bv\\xe0\\xb3\\x8aW\\xd9\\xf7\\x15\\x11Dj\\x00^}\\xef\\x16\\x07\\xdb\\x08\\'\\xc2\\xdfd\\x9f\\xbc\\xf5u\\xec\\xc2w\\x8e \\xa3\\xc8\\xb8P\\xb8X\\xa9\\xfd\\xea\\x9cD\\x8fH\\x93\\x11U\\xb5\\xfb\\xb6\\xa7\\x11\\xd6z\\r\\xf1\\xaa!\\xa2\\x7f\\x84\\x1c\\x97\\xce2\\x86<J\\x97\\xf1\\x9aP\\x01\\xf5\\xed\\xbd.\\x05O\\xccB\\x1c\\xed7\\x16\\xcb\\x8f\\xcd\\xa5GE\\xc7\\x99\\xe7\\xe3+\\xc1\\xc6CM\\x1d\\xc3w-@\\xe9+\\xd4\\xd7\\xf9,\\xf1m0\\x97\\x8d&R\\xf9r\\xa7\\xad)Xb\\xc6`\\xfe\\xbf\\xbc\\x88J\\xd2<\\xa0\\x88Tm)\\x97\\x03\\xf7b\\xf5\\xd1\\xf2\\x94\\x9e\\x9f\\x94\\xad#\\xfa w;\\x9b\\xfa#\\xf7\\xb1\\x058\\x96\\xcb\\xdbwC\\x9f\\x01\\xeeGU\\xe1\\xae\\x7fB\\xfd\\xfeI\\xeb\\xfb4{\\xd4\\x867j\\x88~9\\x84Gt/\\xc4\\xf9\\tu\\xcb\\xc3S\\xd3\\xdc\\xd0\\x1e\\x90<\\xf8>%\\x84\\xd8\\x94` \\xbcl\\'\\xeeQ\\x83\\x86\\xd1\\xfc\\x05\\xdc\\xc3\\x88\\xfb\\x05\\x8dh\\xf4\\xe5_N,\\x13\\xfa\\xc0\\x8a\\xc8I|\\x19\\xb6\\xaf\\x14Yt\\xbdr\\x81-\\xb3]\\xde\\x1b\\xfbf-W\\xa7U\\x01G\\xf1\\x03\\x876\\x9d\\'\\xedI\\xe1\\xdb\\x9e\\xd6\\n\\xc0\\xff\\x81U\\x95H\\xa9\\x9f\\x84\\xfe\\x95w5\\x01\\xc6\\xf4\\x02\\xd0\\x81\\xdc\\x166i,\\xf5v\\xfd\\xed\\xe5\\x8fJ\\xdf\\x10\\xa0\\x9ej\\xd5S1\\\\n-\\xf1V\\xec\\xb4|\\xb3\\xa9\\xc77>G\\xe8Na\\xf8\\x07\\xc0t\\xfe\\xc3\\x83\\xce\\x91t\\xafn\\x915}\\xe2\\\\g\\xe1\\xc5E\\'\\x1e\\x91.\\xf9\\x92b\\x98\\xb0\\x8b\\x17s\\xdaV^}S\\xa0\\r}\\xba\\x95*\\xf56xa\\x81!UM\\x8c\\xf0\\xfdq\\xad~\\xa2\\x8a\\xc3\\xa5\\x16K-\\xd7voy\\xef\\xc5\\xfe\\xad\\t\\x0b0\\x82\\x8f\\x93\\x15Z\\xba%BHS\\xd8\\xfe}\\xf8\\xd4K\\xe3\\xb9\\x8f\\xa6\\xbap{8\\xc0r\\x0c_\\xb5\\xe5\\x93Q\\x04\\x88\\xd0Dw\\xfa#\\xcd\\x1b\\xf9\\xc7\\x08\\xbfo\\xd0\\xeb0\\x19Z\\x9f6$\\xca\\xd8\\xa2\\xe2\\xc9\\xf0i\\xdex\\x8b\\x9bE\\xb2d\\xe3\\xf6\\xd1\\x9dpo\\x90`5a\\xc3\\xd1\\n\\xfa\\xd0\\xbdu\\xf1\\xf9\\xda\\xe3\\xe3rO\\xaa1\\xa9\\x1b\\x9d\\x02\\xb3\\xf7*PI\\xda\\xbb\\xd6M\\xae\\xd0\\xf8(\\x0f\\x13\\x7f\\xe1+\\xdf5\\xe5:&\\xe2\\xd9(C\\xc0\\x87x,\\x9f\\xb6t'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Cigna commercial member appeal online submission portal",
+        "results": [
+         {
+          "title": "How to Submit a Cigna Appeal (2026 Provider Guide) | Muni Health",
+          "url": "https://muni.health/blog/cigna-appeal-submission-guide-2026",
+          "snippet": "Online submission is also available. <strong>Log into CignaForHCP.com and use the reconsideration/appeal function if your account has claims or reconsideration entitlement</strong>. You can also submit via Provider.Evernorth.com."
+         },
+         {
+          "title": "Free Cigna Appeal Letter Template 2026 \u2014 Commercial, Medicare & Expedited Formats | Muni Health",
+          "url": "https://muni.health/blog/cigna-appeal-letter-template-2026",
+          "snippet": "Cigna appeal letters require 7 ... Advantage), specific relief requested, and physician signature. Submit via <strong>CignaForHCP.com portal</strong> (fastest) or certified mail to NAU, P.O...."
+         },
+         {
+          "title": "Appeals and Disputes | Cigna Healthcare",
+          "url": "https://www.cigna.com/health-care-providers/coverage-and-claims/appeals-disputes",
+          "snippet": "Fill out the Request for Health ... for the reason for the appeal. Appeal Types are available in the National Reference Guide on the <strong>Cigna for Health Care Professionals portal</strong>...."
+         },
+         {
+          "title": "CHCP - Resources - Appeal Policy and Procedures for Health Care Professionals",
+          "url": "https://static.cigna.com/assets/chcp/resourceLibrary/clinicalReimbursementPayment/medicalClinicalReimbursePoliciesProcedures.html",
+          "snippet": "Expedited Appeals \u00b7 Single Level Health Care Professional Payment Review \u00b7 Filing a Single Level Review \u00b7 Submission Forms \u00b7 Health Care Professional Dispute Resolution Request \u2013 CA HMO \u00b7 Request for Health Care Professional Payment Review \u2013 Member \u00b7"
+         },
+         {
+          "title": "Customer Appeal Request",
+          "url": "https://www.cigna.com/static/www-cigna-com/docs/medical-appeal-request.pdf",
+          "snippet": "An appeal is a request to change a previous adverse decision made by Cigna."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_262413",
+      "args": {
+       "query": "Cigna customer medical appeal fax number"
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\xe8\\x07\\n\\xe5\\x07\\x01i\\x14}\\x13\\x9b}\\xe3\\x86\\xae\\xaa\\x06.\\x9a\\xc6\\xeb\\x19\\x86\\xf1\\tH+\\xa1\\xe6\\xb5(\\xb3=\\x8e\\x82\\xfd\\xcf\\xe4\\x17Zn\\x8e\\x85\\x0c\\x04\\xda|\\x05|;\\x83\\xbe\\x00\\x1c\\xe4n\\x8d\\xe5\\x18\\x9a\\x0e\\x01\\x17JZ\\xc7D\\x90\\xe0\\xf7w\\x9fY\\xe6\\x11\\tS\\xad\\xc0yF\"\\xb2\\xd1b=\\xd2\\x9d\\x99\\xa4?))\\xd1\\xd3\\xbeu\\xb6[(\\x8bu\\xf2\\x14\\xcfD,\\xb4|\\x96F_>5\\xbd\\x94Rl\\x9fe\"`\\xe3\\xd1\\xe4\\xe1\\x87\\n\\xceS\\x0fE8\\xe4f\\x90w\\xc3$\\x984t\\x82*y\\xf0~\\xe5N\\x85\\xbe`\\xc5%\\xe3\\x00\\xfdsJ\\xe4\\xa2\\xa3%\\x18\\x86\\x0b\\xb6\\xf0F\\xa1u9\\xddW\\t\\xce\\x80\\xfa\\xd9[\\xddq\\xe6\\xf0\\xd3\\x0f\\xaa\\xfaf\\xf3\\xb8\\x0f\\x19\\x08l\\xcfc\\xb4+\\x05#\\xaf\\x1am\\xc0\\x11\\x80\\xac\\xd4\\xe4f\\x17\\x13\\x96\\xb5\\xe8\\x0e\\x81\\xca\\xd5~#\\x81lT\\xb5\\x96f\\x1f\\xd3\\x87\\xb7\\xb4?w[Pg\\x9eO\\x93\\xede\\xdd\\xbf\\xd1l\\xa4\\x89\\xa2\\'\\x01rJ\\xdc\\xa8\\xdb\\n?\\x84I\\x12|?\\x15\\x10aB\\xabG\\x86\\xd2\\x95\\x9d/\\xde\\x93\\x07y\\xd4\\xf3\\xb9\\x88\\x7f\\xe1Q\\xa5\\xd3\\x96\\xe9\\x10y\\x8f\\xc2K\\xb7\\xb1\\xfa\\x02\\x981TPT\\x18\\xdau~\\x7f\\xb9F\\xaa2\\xe4Y\\xc5\\xd9\\xcf[{\\xda\\x13.my\\xf9\\x95\\x17\\xd73\\xea\\x0c\\xdf\\xad^#t\\x8a`\\x9dc\\xcf\\xb8\\x0e\\x0f\\x16\\xa4\\x95R\\xca#\\x11\\x84\\xb9\\xc4\\xcd/\\x18\\xfd,\\x16$\\xa2\\xf7\\xa6\\x83\\xdf\\xdf\\xca\\xa8\\x83\\xa1v\\xd5P\\x03//\\xdda]\\xec\\xda\\xd8I\\xd6\\xd2\\x9d{\\xf8\\xdf\\x96y\\xa8\\xbd]\\xe5SK\\x85X\\xf20*\\x88\\x90Nr\\x1fI\\xe8\\xa4\\x9c[V\\xda\\xdaV\\x81\\xba5\\x9f\\xc1\\xde\\xdc\\x11\\x85\\xbfC\\xd2G\\x1c\\xa5\\x8b\\x85\\x1b\\xd3\\xf9\\x04\\x9f\\xe2\\xdf3X5\\xb0\\x8e\\xd1dw\\xd9\\x93imS\"\\xd2\\x89\\x9a\\x17\\x14\\x0c[\\xc6\\xed\\xef*\\xa0$\\xf7|\\xc5[\\xbaz\\xc0\\xe10\\x93s1\\x1d\\xa2\\xa8i.\\x12%o!+\\xd8\\x9e\\xeb\\xcat@\\xc5<\\x01\\x15\\xecE#\\x83\\xcc\\xa4\\xf6a\\xc9K\\xe5O\\x82<&\\x9d\\xcd\\xb7\\xbf\\x95\\xe0L\\x9d\\xf24\\xe7\\xe1\\xab\\xb6WuL\\xcdb\\xa9\\xde\\xd8\\xed\\xed\\xe0$\\xd5\\xc9%+\\xcaf\\xad\\xc9\\xa4@Z\\xb1\\xc9\\xef\\xca@\\x9b\\\\=*\\x15\\x93\\xf8\\x16\\xb1D\\xb6x\\xce\\xfcF\\xc8Iy\\x94\\xbd\\x11\\xef\\xbc,c\\xe0\\xd4\\xcd\\x1a{\\xc7\\xb74Xz\\xb2\\xce\\x0bW,^\\xa4\\xc7\\xf1\\x1aA\\xe9G\\x14\\xf9\\x8d\\xcd\\xbc\\xa4\\xfa,\\xac\\xa1\\x84\\xc9\\x05\\xef\\x92\\xec\\xd2I\\x8eqq\\x00b!\\x9b\\xa1gs\\x19O\\xac\\xb6w\\x83\\xf7C\\x04\\x0f)\\x8f\\xa2\\xc8\\xdd\\x9cg7\\xe3B/\\xd2\\xf2\\xb6|Xi\\x8e\\xf7~\\xe3\\x7fJe\\xc9\\x19\\x11\\x7f\\xb0\\x9b\\xbf\\x96\\xae\\xf32\\x0f\\x92\\xf7\\xee\\xd0\\xe4\\xca\\x17\\x17\\x06\\xfc\\x85\\xf3\\x8c&\\xe6\\xdb3\\xf3\\xfeV\\xb6\\xf4(\\xee-\\xc6\\xb2tL\\x01\\x94\\xdf\\x86\\x89\\xb6\\xcf\\xf4-\\xf3\\xd9\\xa5N\\xb28\\xa5\\xdag\\xdcN\\x0b\\x04\\xb5\\xe1\\xd6\\x17l\\xfbj\\xf0\\xa8\\xfc\\x8c\\xb8\\xfa\\xb5\\xc0\\x0eJ\\xc3\\xa3\\xec\\xce\\x886\\x83\\x07x4H\\xc91\\\\\\x82)\\xb3\\xba6nq\\x987F6I\\xd8\\x86^\\xbb,\\xe9%xb\\xb6\\xf4\\x8a\\xa4\\xa1\\xbbh\\x04\\xc9 A\\xd5\\xdd\\x80a\\x858\\x06;\\xeb\\x14\\xa8\\xc7\\xbci\\xb6\\xf6\\x9au\\xb8\\x8e\"\\x86P\\xf3\\xc8\\xd3\\xa8\\xed>\\xdf\\xfeO\\x87_\\x8f\\xaaYHD\\xbd\\xdf\\xc4\\x9c1\\xe3\\x9b\\xebi<sS\\x88~\\xc8\\xafR@*\\x82\\\\\\x1f2\\xc0\\xf2\\xfdl\\x99\\xb8\\xd7\\x1b\\xe7\\x9d\\xf3\\xe7f\\x9f,],\\xbag&\\x07d|bv\\xdf\\xcdz\\x97\\x964\\x12\\xf00\\xa5\\xaf\\xedp\\x93rN\\xb3)\\x02\\xa5\\x9e\\xe3\\xc0\\xd1\\xcb\\xdbd\\xa9\\x9as\\x1dz\\xb8\\x9fF\\xed\\x89z}\\xe5\\xde\\x16O\\x0c\\xb0\\xa8\\xa9`\\x05\\x00\\x8a\\x8d\\x0fp\\xa5\\xddQ\\xe8\\x92+\\x7f\\x84I\\xb6\\xf3\\xcb\\x92\\x9f\\xce\\xaa\\x86]*\\xd2c2\\t \\xa0c\\x9f\\xff\\xd4\\xe5\\x01\\x1bm\\x08\\x08\\xb1\\x19\"\\x91\\xa4\\xde\\t\\x84\\xf2\\xceI\\x0c\\xb3\\x97\\xfbE\\xaa$#\\x96\\x1f\\x802\\xd2\\xdb\\xe6^\\xedz\\xd7\\xd1\\xb5'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Cigna customer medical appeal fax number",
+        "results": [
+         {
+          "title": "Appeals and Disputes | Cigna Healthcare",
+          "url": "https://www.cigna.com/health-care-providers/coverage-and-claims/appeals-disputes",
+          "snippet": "Express Scripts Attn: Clinical Appeals Department PO Box 66588 St. Louis, MO 63166-6588 Fax: <strong>877-852-4070</strong>"
+         },
+         {
+          "title": "Health Care Appeals & Grievances | Cigna Healthcare",
+          "url": "https://www.cigna.com/individuals-families/member-guide/appeals-grievances",
+          "snippet": "In most cases, you must complete the Cigna Healthcare internal appeal process described above before pursuing arbitration or legal action. You may also want to consider taking advantage of the independent external review that may be available. To learn more about the appeal process, call customer service at the number on your ID card."
+         },
+         {
+          "title": "CHCP - Resources - Contact Us",
+          "url": "https://static.cigna.com/assets/chcp/resourceLibrary/medicalResourcesList/medicalCommunication/medicalContactUs.html",
+          "snippet": "Commercial Contact Information \u00b7 Find the contacts you need to get in touch with us for information about your patients with Cigna coverage.* Please note that call, claim, and service channels may differ based on the Cigna participant\u2019s identification (ID) card"
+         },
+         {
+          "title": "Customer Appeal Request",
+          "url": "https://www.cigna.com/static/www-cigna-com/docs/medical-appeal-request.pdf",
+          "snippet": "(Including a physician on your behalf) may appeal the adverse decision related to your coverage. ... Contact Cigna&#x27;s Customer Service Department at the toll-free number listed on the back of your ID card to"
+         },
+         {
+          "title": "How to Submit a Cigna Appeal (2026 Provider Guide) | Muni Health",
+          "url": "https://muni.health/blog/cigna-appeal-submission-guide-2026",
+          "snippet": "Cigna National Appeals Unit: P.O. Box 188011, Chattanooga TN 37422. Fax number is plan-specific \u2014 check denial letter or call <strong>1-800-882-4462</strong>. Timely filing deadlines: 180 days commercial, 65 days Medicare Advantage. No standard form required."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": null,
+     "inline_data": null,
+     "text": "```json\n{\n  \"policy_found\": true,\n  \"policy_title\": \"Cigna Medical Coverage Policies \u2013 Musculoskeletal: Lumbar Microdiscectomy (Laminotomy, Laminectomy, or Hemilaminectomy)\",\n  \"policy_number\": \"CMM-606\",\n  \"policy_url\": \"https://www.evicore.com/sites/default/files/clinical-guidelines/2025-05/Cigna_CMM-606%20Lumb%20Microdis_Final_V1.0.2025_Pub03.19.2025_upd05.29.2025.pdf\",\n  \"effective_date\": \"July 1, 2025 (Published March 19, 2025, Updated May 29, 2025)\",\n  \"criteria_quotes\": [\n    \"CMM-606.2: Initial Primary Lumbar Microdiscectomy (Laminotomy, Laminectomy or Hemilaminectomy): Initial primary lumbar microdiscectomy (laminotomy, laminectomy, or hemilaminectomy) is considered medically necessary when performed for ANY of the following conditions when ALL of the associated criteria have been met: Neurogenic Claudication: Subjective symptoms including BOTH of the following: Significant level of pain on a daily basis defined as clinically significant functional impairment... Pain, cramping, weakness, or tingling in the lower back, buttock(s), and leg(s) brought about by walking or positions that cause thecal sac or nerve root compression... and EITHER of the following: Symptoms worsen with standing and/or walking [or] Symptoms are alleviated with sitting and/or forward flexion; Objective physical exam findings concordant with MRI/CT; Less than clinically meaningful improvement with at least TWO of the following (unless contraindicated): Prescription strength analgesics, steroids, gabapentinoids, and/or NSAIDs for six (6) weeks, Provider-directed exercise program... for six (6) weeks, Epidural steroid injection(s) or selective nerve root block(s)...; MRI/CT shows neural structure compression at the requested level(s) that is concordant... and that is caused by ANY of the following: Herniated disc(s), Synovial cyst or arachnoid cyst, Central/lateral/foraminal stenosis, Osteophytes; Absence of unmanaged significant mental and/or behavioral health disorders...\",\n    \"CMM-606.2: Initial Primary Lumbar Microdiscectomy - Radiculopathy: Subjective symptoms include BOTH of the following: Significant level of pain on a daily basis defined as clinically significant functional impairment... Persistent radiating pain into the buttock(s) and/or lower extremity(ies); Objective physical exam findings include EITHER of the following: Nerve root tension sign including ANY of the following: Positive straight leg raise, Crossed straight leg raise, Femoral stretch test [or] Neurologic deficit including ANY of the following: Dermatomal sensory deficit, Functionally limiting motor weakness (e.g., foot drop, quadriceps weakness), Reflex changes; Less than clinically meaningful improvement with at least TWO of the following (unless contraindicated): Prescription strength analgesics, steroids, gabapentinoids, and/or NSAIDs for six (6) weeks, Provider-directed exercise program... for six (6) weeks, Epidural steroid injection(s) or selective nerve root block(s)...; MRI/CT shows neural structure compression at the requested level(s)... caused by ANY of the following: Herniated disc(s), Synovial cyst or arachnoid cyst, Central/lateral/foraminal stenosis, Osteophytes; Absence of unmanaged significant mental and/or behavioral health disorders...\",\n    \"CMM-606.1: Urgent/Emergent Indications/Conditions: The presence of urgent/emergent indications/conditions warrants definitive surgical treatment... Urgent/emergent conditions for lumbar microdiscectomy and/or excision of extradural lesion other than neoplasm include ANY of the following: Cauda equina syndrome (CES); Documentation of progressive neurological deficit on two separate physical exams; ANY of the following due to a neurocompressive pathology: Motor weakness of grade 3/5 or less of specified muscle(s), Rapidly progressive symptoms of motor loss, Bowel incontinence, Bladder incontinence/retention; Epidural hematoma; Infection (e.g., discitis, epidural abscess, osteomyelitis); Primary or metastatic neoplastic disease causing pathologic fracture, cord or nerve compression, or instability; A condition otherwise meeting criteria listed in the applicable procedure section(s) with documentation of severe debilitating pain and/or dysfunction to the point of being incapacitated.\"\n  ],\n  \"appeal_deadline\": \"2027-01-27\",\n  \"submission_route\": \"The patient or their representative should check the back of their Cigna ID card to verify the correct regional address. Standard paper appeal forms and letters can be mailed to the Cigna Appeals Unit at P.O. Box 188011, Chattanooga, TN 37422-8011 (for standard Cigna Network plans) or P.O. Box 188062, Chattanooga, TN 37422-8062 (if the ID card indicates GW-Cigna or 'G'). Additionally, the patient can contact Customer Service toll-free via the phone number on their ID card, and providers may submit appeals electronically via the Cigna for Health Care Professionals portal (CignaForHCP.com or Provider.Evernorth.com).\",\n  \"how_to_obtain_criteria\": \"The patient can obtain a copy of the specific clinical guidelines applied to their case by calling Cigna Customer Service at the number listed on the back of their insurance ID card (or 1-800-882-4462). Alternatively, they or their provider can request the clinical criteria from EviCore (which manages musculoskeletal clinical reviews on behalf of Cigna) by emailing their case/reference number to reqcriteria@EviCore.com.\",\n  \"confidence\": 0.95,\n  \"notes\": \"The criteria are managed on Cigna's behalf by EviCore under policy CMM-606. This covers CPT code 63030 (laminotomy/decompression/discectomy). Since the denial was issued on 2026-07-31, the 2025/2026 medical policy guidelines are the active governing guidelines.\"\n}\n```",
+     "thought": null,
+     "thought_signature": "b'\\x12\\xdc?\\n\\xd9?\\x01i\\x14}\\x13\\xcb\\xa4\\xb5\\xce\\xc7d\\x1a-\\xf8\\xd8\\xd1\\xb0WD\\x90\\xb6E\\xb6\\xfa\\xd5\\x99\\x7f\\x15t\\x9b\\xcf\\xd6\\x1e-\\x03\\xc2\\xc3O\\xfa$/\\xb6W\\xa55\\x03\\xf1\\x1e\\xee\\x8e\\xd9\\x0f\\x9bK\\x83\\xc1\\xfe\\x1b<\\xcc\\xccc\\x10\\x83{)Ou$\\x0e\\xfe\\xaf\\xde\\xa8\\xa1\\xdfx\\x84\\xc6 P\\x07\\x95\"\\xbd\\x8d\\xc7\\xd34s!{+XA\\x97\\xaed\\x94 @\\x1c}\\x86\\xf4~\\x10\\x00pu\\xf7\\x97s\\xd5\\x8b\\xcb:F\\xbc\\x9d\\x9f\\x87\\xfe\\xacX\\xb6M\\xaa\\x96\\xc7\\x13\\xfaD\\xfa\\x94\\x17\\xd9\\x08\\x0bJ\\xe6\\xef}\\xb6R\\xab\\x180\\x14p\\xf8\\x1b\\x16\\x8dn\\xf0\\xfb3+\\xc9+\\x90j\\xd5\\xb5\\xfc\\xcax\\x17e\\xc3u\\xa3d\\xa36\\x0b\\xb7\\xe4P\\xa0\\x96\\xc6\\xdebO\\x8c\\xd7\\x06v\\xfb\\xf2$\\xf8\\x11<\\xa2Bt\\xdf\\x875\\x95\\xfb\\xcc\\xd3\"\\xe4\\r\\x1c\\x9b\\xaaEL\\xb0\\x8ff\\xfc\\xac\\xda\\n\\t\\xd6\\xc1\\x80\\xaa\\x94\\x06\\x89\\xa7\\x0c\\xac\\xb0\\x0c\\x95\\xc8\\xacE#UD\\xeb\\xb4@\\x1ap\\xd0\\xa1\\x18\\xe2\\x99\\xba\\xae\\'-\\xdf\\xe1vf,\\x9eA\\xd5=\\xf9#s\\xe7Y\\x1dJ\\xa7\\x89rP\\xb7KL\\x0bE+\\xba\\x06\\x84u\\xbbCz\\xa6?V\\xda\\x18\\xd6\\x9dd\\xaf\\xd6u\\x7f\\xa44\\xffI\\xd9\\xed\\x88\\xf4\\xfd\\x1f*\\x17\\x94\\xbcnr\\xe8\\x12u\\x9a1t\\xe94\\xeaie*\\xa9\\xf09\\x8d\\xd6\\x83\\x0b\\xe6O\\xf0=\\x1c)\\x1fJ\\x8cC\\xf0\\x000\\xfe\\x11\\x99\\xd6\\xf0\\xe8|J>\\x1e,6\\xa4\\xf9`\\x9eS#o\\xeb\\x02f\\xc6\\xa5\\xb1\\x8d\\xeek\\xae\\xad\\xc4\\x0e\\xdf\\x9f\\x1cj\\xaaqW\\xe8w\\xdb\\xff\\x98\\xb8\\xeeY\\x81\\xbc\\x81M\\xf7\\x948A\\x16*\\x1fr\\xb9\\x99 `\\xed]\\xd7\\xe1Di\\xb86e\\xc7\\x95\\x85D\\xd9\\xbe,\\xcdUo\"\\xb6^n\\x92\\xcb\\xd1\\xa1T\\xbbw\\xb6\\x13M2\\x91\\x136\\x01o\\x90^\\xd1A\\xcbZq\\xd3\\x88Z\\x1d,M\\xe8\\xe8\\xa4\\x96\\xbd\\x0f\\xed!\\x8dA\\xdag\\xf0j\\xf9ZQ(J\\xb7\\xdex\\xf2#\\xbdE)\\x13\\xb5\\xe3P\\xccW3\\x0f\\xaf\\xd8L\\xb6\\xd1\\xbe\\xfa\\xa0\\xa9\\x0f\\x13\\xd2\\xf04\\xdau\\xf2\\xe6W\\xd6\\x168_\\xf2IFy\\x96\\xb0>\\xd1\\xb1\\xe0\\xe1>\\r6MWT\\x90\\xabk\\xd1\\x07}\\xa0D\\xd25\\xb47\\x17\\x19\\x1f\\x89\\r\\xaf\\xe1&aM\\x1flt~\\xde\\xa4G\\x80\\xaaB\\x95\\xe7e<W\\xb9\\xaf\\xac\\xf8\\xd0\\x8d\\xe7\\x1f\\xa0\\xb9\\xdd\\x91\\xc4\\xd2\\rU\\xee\\xd2\\x84ve\\xd7\\xb6\\x93\\xe5\\x0b\\xe3iN\\xe3\\x92\\xc2\\x1e\\x10l\\x92\\x9c\\x8d\\xfa\\x94O[\\xc6\\x08\\xd9\\x03\\x0b\\x04\\r\\xfa\\xc1Ez\\x84\\x10\\xe5\\x83\\x14\\x14\\x19\\x1c\\xecu\\xf5W\\xd1\\xe0\\xc1%\\xae\\xb9\\xd0S\\xbc\\xa8\\x8ejI\\xae\\xbf;\\x9b\\x16\\xf2\\xa1\\th\\xd5\\x94\\x81\\x8b\\xb3:\\xf9\\x1b\\x93\\xde\\x8b\\xef\\x97K\\x8a\\xa8\\x12\\x04/,\\xb8\\x1f\\x9d\\x9e\\xbe\\xf2M\\x90\\xfe\\t\\x1d\\x9f\\xc9\\x81m\\xe2\\x01\\xdbQ:\\x14;S6+X\\xcc\\xeb\\xf3/\\xa2\"\\'r\\x88x\\xf4\\xfaU\\x9c\\xc6\\xb3\\xd8U\\xd5%\\xef\\xc4\\x16iZ\\xa1(z\\x15\\xbc\\xb9\\xda\\xec1R\\xd8[J\\xcb\\x06`<W>\\xab\\xefg\\x92\\xeb@\\xc6\\xd8;g\\xfe\\x88\\xb5\\x00{Y\\xb7\\xfa\\x1c\\xe3c?\\xdc6\\x1e\\xe4s\\x8bY\\xc3l\\xd5\\x9f\\xdf\\xfeM\\xc5e\\x10G\\xe5g\\x9bFU\\x86\\xb0V\\x9c\\xe8\\x03W\\x12\\xf6\\xd5\\xd2\\x14ht\\xcd\\x8c\\xf1OK\\xc6\\xf6\\x06\\xa3o\\xc1\\xee\\x88\\x1em2\\xa6\\x8fl8V\\xf3X{S\\xf6\\xabD\\xdd\\xf8OA\\xc7\\x1c\\x05\\xfbq\\x19\\x1e\\'\\xa8\\xcb\\xad\\xe5\\x80\\xf2\\xa4\\xd2F\\xeb\\r\\xd2x\\xcd\\xa0\\xabQ\\x9f/\\xe1\\xe1\\'\\x1e\\xa0\\xaaM\\ru^\\xe4\\x8fzP{H\\xcd\\xcf9\\xea5\\xe5s\\xab\\x87\\xdb\\xcc\\x16\\xc5\\x0b;b\\xfd\\xcf\\xbb#,\\xe4\\x9aN\\x03M\\xa6\\x0b\\xf7\"O\\xe4[\\xc5\\xf6+\\xc7~\\x9d@1\\xe9x\\x9d\\x94;\\x1e\\xaa\\x99&\\xcb\\x18hc\\xba\\x0e\\x80l*y-\\xd7\\xea\\xe1n(I\\xec\\xbb\\xa5\\x0e\\xa3?\\x1a\\x13$\\xf3\\xab\\xc7\\x08pVu}\\x92\\x06\\r\\xf2>n\\xb9\\xc3hh`\\xbf\\xab\\x02\\xb7\\xd9[\\x01\\xbd\\xc2\\xc70\\xce\\xfeF\\xdai\\xa6T<w^\\xdc\\x97\\xed\\x02\\xfa\\xf5<\\x8a\\x8a\\xef\\xdb\\xc5>\\xf8\\xfb\\x97E\\x11H^v,\\x17\\xe7\\xe5\\x1c\\xcc\\\\OK\\x86\\xc3A_Z\\xf6\\x0eO\\xae\\x0c\\xee\\xb4\\x96\\xbc\\xa42\\xbb\\x9cA<\\xd3\\x92\\xe2\\x1d\\x9e GJ\\x98~]n\\xae\\xce\\xef\\xcc\\xd0\\x9b\\x0e\\x1d\\xeb\\xf7\\xcco)\\x1fh\\x08\\x7f}\\x8c\\xb3jUJ?\\x186l\\x9b5Ku\\x1b\\xbd\\xde\\x16sX\\xec\\xcd\\x0c\\x00\\x19oX9\\x05u}\\x02\\xc1x\\xfb\\xc9\\xe92\\xed\\xf6\\x02\\xd5\\x89\\x11\\xa7\\x1d\\xd8L\\x82\\xa3?\\x87\\x9cO\\x82\\xdb\\x87\"u@\\xce\\xa7\\xe0\\xca`\\x19\\xc3L\\x9c\\x83\\xb4d\\xd9\\x95{PQ\\xa6D\\x8ft`b\\xb0\\xe4\\x97\\xdc\\xd2c\\xb2\\xb7r\\x03\\xa8qH~\\x0c\\x10\\x08\\x04X\\xc0\\x16\\r&\\x91\\xa2\\x06\\xcb\\x9cW\\xd0B\\xa8e\\xf0g\\xde3\\x9b\\x894\\x01\\xb0\\xb1\\xcf \\xb3\\x8b?\\xc60\\x84\"\\xd3Fl\\xae\\xca:,;HXz\\x92\\xf1<\\xe1ex\\xa7\\xea\\x93G\\x00\\xc8\\xedd\\x81\\x82H,r\\x04v\\xb0\\xe4\"\\x8c\\x15\\x7f\\xa4\\xc0\\xcfol\\xca\\x911\\xfb\\x18\\x1e3\\xd4,\\x80\\x83\\xa3\\xb6D\\x8f\\x82\\xb9\\t\\xd2~\\x80\\xe1\\x91W!\\xe1w\\xd4\\x945\\xd7\\xca\\xebA\\xd0\\x8c\\x130R\\x9a\\xa3\\xb81\\xc3V\\x9a]\\xc56t#i\\x9a\\t\\x18\\x99\\xceA1\\xda\\x82\\x84]-\\xac\\x85\\x08\\x89xqK<\\x16V\\x14\\xbd\\x0fz\\xdea>\\xe5\\x06\\xd8\\xb1/q\\x11y|\\xd3Q$0$oE\\xce:g\\xe3\\xab\\x05%\\x83z\\x8d{m\\x10\\xd6g\\xae(\\x17B\\x8cYK}\\xe4\\xf7\\xa9)\\x9f\\xdc\\xcd\\x16R\\x1b\\xba}\\xf4\\xbb\\x8c\\x98\\xf4)x\\xbb\\xf7\\xed\\xdf\\x97\\x9a9\\x1a\\xc0\\x0en\\xbag\\x03\\x07*@\\xf6\\x87Z^\\x8cF\\xf3\\xe2\\x07%?\"TUe\\xefmG\\xdd\\x80\\xa2\\x19\\x91\\xbdt\\xad]\\xcd\\x1b,\\x8f\\xe7r\\xbbb,\\x9e\\xf5:\\xa3{&@\\x1dG\\x89\\xd2\\xdd\\x94\\xf3\\xdb\\xb6\\x00\\xf7\\t\\xae\\xefXw\\x9a\\x84\\xbc\\x00\\x0brOr\\xc3^\\xda\\xe3\\xd0\\x8c\\xc4@\\xf2F\\xea\\xf6\\xeb\\xf5w\\xb7\\x8bp\\xbe\\x15\\xca\\xe8\\xb0g\\xb4\\xdc\\xe0M\\x8c\\xcf\\xad\\'m \\x1dz\\xf3H\\x9b\\x88\\x7f\\xfe\\xa8KUs\\xae\\x86\\xc6\\x84\\x8bB\\xfeN\\xac\\xc8X\\x80\\x9c\\xc6V\\xe8\\xba`s\\xf1`\\x82\\x19\\xc0\\xc0\\xe1\\xf0\\x04\\t\\x11\\xa8~\\xb7\\xd9\\xac\\xa0\\x08\\x08xj\\xfa\\xbb\\x0b?\\xf9\\xbdA\\xd5)\\xe7\\x9f|Y\\xe1^\\xe2\\xe4\\x9b\\x1d\\'z_\\x0c\\x93\\xcf\\x94\\x0cc\\xb9\\xfa\\xd1\\x0f`\\x82Ig\\xdd~\\xa9\\xcc\\xc1\\x82\\xa7\\x199\\xcc\\xd6\\xc0gm<\\x8bW\\xac\\x0b\\x020-\\x82n\\xe5 \\xb4X\\xa2\\x7fw\\xa6\\xfd\\xa7\\xf5{(\\x87v\\xd3\\xdd\\xaa\\x8aABP=\\x14\\xcc6\\x15A0^t\\xb7\\xe4\\t\\xba\\x98\\xd9\\x18\\xf3\\x97\\x9f\\x04W\\xb0\\xb7\\xabf\\x12C\\xf9g\\xbd\\xaf\\x91\\x958\\xa2K\\x96\\xd6\\xd2\\xf8\\x9b\\x1ce\\x92:\\'W\\xfc\\xdc\\xff\\xbe\\xd4*\\xaa\\x82\\xf3\\xc1\\x0fR\\xdc\\x0cK\\xf3J\\xb8\\xed#\\xb9\\xc4.\\xbc\\xf3\\x1e\\xea\\xc0\\xe1\\x84\\xdf\\x04\\xc4\\x14f\\x1b\\x0c\\x83\\xfd\\xe0w\\xcfN\\x0eS\\xaa\\xbc\\x17\\xa3\\xe8^0\\x1fqP-\\xf6\\xb9j\\xde\\xbe-\\xb7n\\x8bt\\x11\\xcc\\t\\xe0m\\x9ei@\\x91t\\x98\\xdb{\\x85\\xc5\\xd3\\x85\\x02\\xbf\\x8e\\x9e\\xfe\\xb0DN\\xcb\\x12\\x03D\\xa7\\x1d\\xd1#\\xd7\\x9eQa\\xfbt\\x9b\\xdcj\\xd7xL\\xd2Ll\\x0b\\x13^\\xe2\\xceW%\\xc1\\xd7\\xd6\\xbb\\xf6\\xc7P;\\r\\x821\\x1d\\x0erV&E\\xc1\\xef\\x95\\xdf\\xe8\\x87\\xd7\\xd7\\xb0=~7Z\\xab\\x89\\x92\\xaa1^QJ\\xdb\\xaf\\xfb\\xf3m\\xa7&t\\xb9(Z\\x94\\xbd\\x0c5\\x8b\\xf0\\xb50d\\xa8\\xa5\\x80\\xe59\\xbd\\xb9\\xb3\\x97\\x1b\\x97\\x1c9\\xb6L\\x01\\x9a\\x1bE\\x05\\x83\\xc4\\xee\\xce\\x02[U\\x15\\xe9\\x1d\\x0e\\xea\\x99)z\\xb7\\xa1\\xa6\\xc8\\xcc\\xf1N\\xa2${Sp%\\xbe\\xc7\\x9e\\xa85\\x7f\\xb32\\xc7\\xd2qu\\x9e\\xb4\\xb9\\xd6\\xad\\xdfrt#\\xf4HGY_\\xad\\xa3I\\x0bT\\xe7\\xd0\\xf2d|\\xaf\\xc2C\\'X\\x98\\xffB\\xd6w\\xa2D\\xa1hb\\xb0\\xa3\\xc6&\\xee\\xb1Q\\xf5(\\xc5\\xdf\\xbb\\xb7\\x1f\\xeb$\\xbf\\xdc\\xe2\\xb5\\x07\\xde\\x06\\xdd;\\x93\\x9a-\\xed7uJ\\x91\\xfd\\xb8\\xf8\\xa0y\\xef\\xfe\\xe8\\xdf\\x9aX\\r\\xd0\\x8d>s}\\xd9s\\xb3P\\xb2\\x83\\x88i\\x83\\xa7\\x0bo\\xaf\\xbbZ \\x1f\\xbf@#\\xdf\\x15p\\xea\\xbc\\xf0\\xac\\x12\\xf9\\x10\\xec\\x890RU\\xe0#\\xb3\\x99r<\\x07\\xd7\\x8f\\xb9)\\xf8\\x01\\xbaYw\\x1a8g\\xe1\"\\xdd\\xe6\\x16x!\\xff\\xab9!~G\\xf4\\x08K\\xb3\\x00O\\x13\\xe8\\x16\\\\?#\\xaf\\x16\\x14\\xadB#\\xb2\\x7f(\\t\\xe38\\x83\\xcdd/\\xa5\\x1c\\xe7\\xda\\xffAi\\n\\x98o\\xd8sW\\x16\\xe7\\x05\\x99\\x8ar\\xad\\xb5\\xd0c\\'$\\xd1\\xf1\\xde\\x9d\\xdaT\\x9a\\xa3\\xb1\\x971\\xfb\\x8c\\x85\\x9c\\x00\\xb7\\xb1\\x04!j\\x05\\xa6s\"\\xc6\\xf7M\\x8d\\xf4@m\\xaa\\xack\\x95z\\xe2\\xf0Y\\xa0=\\x00\\xb4Z\\x83u8\\xdfJ\\x7f\\xde1s\\xa4\\xd7\\xf2&0\\xf7\\xec\\xe9f&\\xdf\\xf7\\xf2u\\xf5G\\x99\\thq\\x03\\xe87vy\\x19o\\xb0\\x96L\\x9c\\x9a\\xb5\\xe8}e\\x9b\\x08\\xee\\xd9\\xe4\\xac^D\\xf0\\xec\"HS125\\xc8r\\xf7\\xfe}\\xdcm\\x12\\xc9\\xa4\\\\\\r\\'\\xa6\\xb7\\xef\\xac\\xec\\xd6\\xaf\\xccH\\xa0\\x0e\\xadj\\xda\"\\x91\\xb2\\xdf\\x1dCUa\\x1c 7\\xe5\\xe2!\\xaan\\xf1\\xa9~\\xb9\\xdc\\xcb\\x17.\\xbc\\xc0\\xa7\\x1d\\x14\\xbf\\x80x\\xbfD\\xa3\\x81\\xe2C\\n\\r\\x1c\\x8e\\x0b\\x9b\\x90^\\x9b<\\xdau\\xbe\\xb7x\\x99l\\x19qA1\\xf8\\xe4\\xf9\\xd26n\\xee2\\xbbq\\x91\\xaav\\xa2U\\x14\\xf9\\xb4t\\xb1oD]R\\x99,\\x95\\x92\\xfeQn\\x14\\x02\\xfc;\\x08S\\x930\\xeb|\\xcc\\x1f\\xf7\\x83\\xe1\\xa16G\\x93\\x8f=}\\x91\\x89\\xa7:q&\\xf7\\xec\\x84n\\xc7\\x85\\xf8\\xa7\\xb8\\xdajh\\xb9\\xe5O\\x90k3\\\\\\xdc\\xb5\\xfe\\x85\\xd0vf \\x86|R\\x1b\\xe4\\xd4\\xfeh\\x83]{\\x1a%\\xe4\\x11\\xdd\\x8f\\xbc\\xa4\\xbf\\xdc\\xf8y=T~\\xf4&\\xe5Av\\xc7\\x19\\x94C\\xc7\\x06\\x83\\xf2\\xb4\\x8e\\x19l^\\x15\\x92P\\xe0^\\x1e\\x1c\\xe3l\\xf1T<XPP}\\xe4}U\\xff&\\xca\\x0bp\\xc44-\\xf7\\xcc\\xb64y\\x8e_\\x8eE\\x82U\\n\\n\\x93\\x92\\x98\\x17gY\\x88mhL\\xb35%\\xc0]\\x90\\xb9&5\\xcfu\\xe7\\xc9\\xa4\\x9c\\xf3PI\\xbc\\xf2b\\x19%\\xd4\\xda\\x96B\\xa6\\xf1\\t0P\\x8cul\\xfe\\xd54\\xd7EX=Wd<D\\x9e\\x1a\\x81\\xfc\\xda\\xde\\x95U\\x06\\xbc\\xce\\xef\\xb0\\xf4R\\xe5\\xd4\\xa1\\x10\\xbb\\xc2\\xb6\\xac\\xd3\\xbc\\x98\\xe74-X\\x9d\\xd9\\xb8\\xfa\\xce@\\x04\\xbe\\x8eyLZ\\xee\\x8e\\xfb\\xfa\\xb2D\\xabc\\x8b{$\\x90\\xa7\\x16\\xf88\\x00\\x07{J\\xe7*\\x00rKT\\x98\\x9a\\x9a\"|\\xcfB\\x10\\xe0>\\xdb~\\xbd\\xc0\\xc0Ow@\\xb1\\x06\\xdd\\xf7\\xb0\\xaa\\xc5r)\\x0f\\x1f\\xbdx\\x8c\\xe5)S\\xe8\\xcb\\xd7|\\x95\\xe8\\x97\\xf8\\xb7w\\xe7\\x02\\x16\\x7f\\x19\\xee\\xe1\\xe7\\x15\\xd6\\xb9\\x8d\\xa9\\xf6\\xd5EC\\x8c\\xc7%\\'U\\x13[\\xc0\\xda\\xb7\\xa7\\xb6\\x07\\xab\\x0e\\xdb\\x07\\xdeAl\\xc6\\x1a5|\\x1a\\xc8\\x1f\\xfdA\\xb0\\x91O%\\xdde2j\\x8e\\xb0\\x1b\\xed\\xe2A)\\xa8\\x9bHp\\x00\\xdd\\x88Jm*\\x13}\\xdf\\x92j\\x1arH\\xf21\\xbf\\xe1\\x8a\\xcf\\xff;D\\x15l\\xd0\\xd8U\\xf0\\x87\"\\xcb\\x9c\\xe7DF!Zo/<\\xe2\\xc0T\\x15e\\xfdlNcL+\\xfaB0{\\x12\\xe2\\xb0+\\x87\\xbfq\\x7f\\xf1g\\x16j\\xdc+\\xe1\\xc0\\xab\\xe1](<\\xc4f\\xc19\\xa1\\x85C\\x8e5\\x82\\xa0V\\x16_g\\\\\\xc2Q\\xba\\xf3\\x94I\\x8e\\xa7\\xeb\\xdaj\\xe9\\xb6\\xd3\\xea\\x96 \\x0cf\\xb5\\\\\\xfb\\x8a\\xc0f\\xc1Z\\x90t\\xbed\\xcf\\xc3NN\\xaf=-\\xd4\\x8bg\\x08\\xa5b\\x0f\\x1eK\\'\\xca|H6\\xd9J\\xe0\\xb8\\x06\\xe1\\xb5\\x13\\xda\\'\\xb6\\x15b\\x8c\\x9cs\\xd8g\"\\xeb\\x91\\xf7}\\xd5\\x96L\\xc6\\xdf\\xb2\\x1e\\x8c\\xa4\\xe0R\\x1c\\xcc\\xf8\\xae\\xff\\xd4\\x8b\\xdal6x\\xb1\\x9e\\xc8,\\x8d\\xa5\\x16\\xf8}\\xdd\\xe8\\xd9\\xc5\\xd3\\x9c\\xfb\\xa3\\x83J]\\x80)\\xc4R\\x14\\xe3\\xa2\\x81\"o\\x18TY\\x16\\xe2dDT2G\\x9fF\\xcd1\\x13\\xbdNG\\xa7\\xd7\\x926\\xad\\x94Id\\xe9\\xbd\\x9d\\xec\\xd8f[\\xd0\\x054\\x958\\x1b\\xea%;\\xe08\\xc6\\x84\\xb1\\xf5$\\xf9\\xd84\\xfe\\xd1\\xb4\\xfd\\xad\\x83\\xfa\\xb5&2\\x0f\\x8b\\xc5\\'\\x96u\\x94\\xf8hE\\x95\\xde\\xc1~7\\xbe\\\\h*.\\x0e\\xc1 \\n\\xaf\\tS\\xef\\xd5,\\xc6\\x055~z\\x06\\x97\\xd9\\x18\\xed\\xe8v\\xc1z\\x94\\x1a9\\xe3a\\xcc\\x98\\x9f\\xf4\\xb0\\xcc-\\xc9\\xfca\\x14\\xf9@\\xcf\\xca\\xdaD\\xf2p\\xbb\\xf8\\x91\\xafr\\x90\\x08wv\\xe2\\xb3\\xabD\\x00\\x8bF7\\xd2\\xae7\\x95\\xcd0\\x89\\x18\\xc3\\xad\\xa5\\x17\\x08\\xf4\\x8f\\xf4\\x87\\x12az\\x1b\\xb0\\xc5j~\\xa9\\xa8\\xec\\xd1\\x93\\xda\\x89yNp&\\xff\\x19\\xcf\\xc6\\xc8\\x1aHr\\x1a\\xe2Hp#\\xe3\\xee\\xcd\\x836+\\x12L\\x02\\xc1\\x9eu\\x11\\xdc\\x89X+u\\x14p\\xb5#\\x1f\\x8b\\xe0\\xd9g\\x03\\x12c+\\xb4\\xb0\\n\\xa6\")\\xadL\\x90\\xfb6\\x8c\\x98UPRm\\xcf\\xd6\\x89]\\xcf\\xce\\x17\\xe8u\\\\\\x02zos\\xc7\\xbd_\\x8d\\x80\\xc6\\xc3n\\x8d\\xef\\x9d\\x81\\xa7pX\\xdas\\xe7\\x87I\\xabCH\\xc3\\x8e\\xaf\\x13a\\x84^`VQ\\xc9\\xf2\\x8a\\xad:\\xc0\\xe8\\x9f\\xe6\\x99\\xb4\\xb1o\\xb1x{\\xdb%?\\x97`+\\xa3\\xcc\\x058\\xc3\\xb7\\x1c\\x1a\\x18-B\\x01_\\x92.V\\xf8\\x98\\x97\\x80\\x85\\x90\\xcdP-\\xf6Cv[\\xbdjO\\x97\\x86}J\\x9fE\\xe5<\\xb2\\xf9TF{\\x1a\\xcd\\xba\\x7f|\\xb1D\\x93\\x83\\xadFqFB3?\\xed)F\\x08x\\tUd\\xd7|\\xb2\\xb2\\x0b\\xec^\\x00\\xb1I\\x1cG\\x10\\x9b!D_\\xa1:yf\\x1c\\xc4\\xbb\\xae\\x1fM\\xf5\\r\\x1cQ\\xdf+\\xeaJ<\\xc5b\\xb7\\x8c\\xf8\\xf5\\xf2\\xa3\\x8aE\\x94\\xc0\\xb4hN\\x12\\x1a\\xd1\\x16/9\\xc5\\xc7\\x1c\\xd5\\x95\\xf7\\x143\\xfd\\x95H\\xce?\\xbf\\x02\\x90k\\xdf\\x0b\\xb0\\xbb+\\xa5\\xc5\\xa3\\xf9\\xe5=v|\\xf1\\xd2\\x89S\\xcb+\\xc6\\x0b\\xd2\\x98ozh\\xcf\\x7f\\xf2O#\\xb5r/Zqa\\xdd\\xd7\\xdb\\x02\\xff\\xf2\\xe2t\\x14\\xb5A9\\x16\\xc4@\\x10\\x1e\\x94\"6\\x16}\\xde\\xb3^\\xd2\\xa4\\x12\\xa7\\x81\\xcc\\xe8x\\'\\xe6\\xa3\\xdb\\xa7%\\x03\\xbf\\x8a\\xb9\\xefq\\xafU\\x1e\\xbb\\xef\\x9e\\xac\\x13\\x06\\xdf\\xd8\\x88jX\\x8e\\xcd\\x06\"\\xbb\\xa1\\x12tr\\xe7G\\xa3\\x04\\x89\\xfa\\xfdR\\xeb\\xf8\\xf5\\x19\\xccV<=\\xf2u\\xad\\x14\\x14\\x19\\xa5\\xef\\xb7\\x13\\xd6\\xff\\x7f%\\xfbM\\xc1\\xde\\x91\\x15\\xa0\\xf1\\xc9\\x91\\x9f\\xbe\\x9bu\\x16\\x1b\\x10\\rU\\x8f=\\x81U\\xdc\\x07m\\x9c\\x87 \\xe6X\\xcfd\\x05\\x8ez\\x1a\\xc8\\x0b\\xd6**\\x9c\\x88!6\\x8dH<E\\xec\\x8d\\x90\\xa2\\n_\\xcf!\\xafXJ.PN\\xd1:v\\x03N\\xed\\x0b\\x94\"6\\xe0\\xe2gb\\xdb\\xdd`gh\\x04`\\xafO\\xdd\\xbe\\r\\xdd\\xcd\\x84\\xf4\\xf4\\xf5\\xe2\\xf9\\xcdM\\xed\\xf1\\n\\x96\\xdb\\x90\\xc6\\xbb6\\xd5\\xddS5\\xcb\\x0c\\x8a\\xea\\xfd\"{9W\\x90L\\x94=$g\\x88(cfu\\xbe\\xccy\\xd0br\\x14\\xd6\\xfcc\\x1fH\\x8czM@\\x7f&\\xe5\\rE#\\xb4V\\xd8_Zo\\xcf \\x90m\\x8fe\\xcd\\x07\\x89\\xb3\\xe3\\xc7\\x9f\\x84[\\xb7\\xd95\\x80k\\x80_w\\x0e\\xe5\\xe2\\xe4\\xc6\\x85\\t_LZ7\\x1e\\x91\\x01t@f\\xff\\t.\\xbf.\\x0b\\xf7\\xc8\\xce\\x03\\xd2\\x06\\x8e9D\\x8bP\\x1b\\x87\\xf3;\\xb9}\\xdc\\xc1\\r\\xc3hq\\xee2\\x97\\xfd\\x84\\x0b;\\xe9pB\\x00pz\\xf4\\x93\\xe7\\xeefq\\x89?\\xa7DX\\x98\\x1c\\xda\\xd6QQ\\xce,\\x1e\\xd3\\x93Id\\x9e\\xc4\\x85\\xe3\\xc4\\xc1\\xb65\\xc7\\xc2\\xf1\\xca\\x81s2a\\xcf\\xd1\\xef\\x10\\xcc\\x04\\x81\\x9c\\xed\\xfe]\\xb2.\\x88\\x9al\\x1d\\x8a6sW\\x81\\x18\\x147(A\\xd9q\\xec\\xc4<\\xfa\\x8ev_\\xb1\\xe2\\xe8\\x99\\xe9\\xc9\\xfd@\\xe3\\xd0\\x0ev\\xfa NV\\x96Y{\\x02\\xb2\\x8c\\x8e\\x03y\\x886\\x8e\\xa1\\x7f\\xb1\\x1dS\\x03-)\\xe4\\xdb\\xd5\\xef\\xd7\\x97\\x86D\\xd6@\\x92\\xb0P\\x08\\x83h\\x97\\xb8L&,\\x82\\xf9:\\xa1\\xc8&\\xdax\\xcblC+\\xaa\\xfb\\x8b\\xdel\\x95\\xd7\\xad\\x034D/\\x12\\xa2\"T\\x8e\\xcc#\\xbe\"\\xaf\\xd9\\xdfq\\x80m\\x84@\\xce\\xa1\\xe2\\xe4\\xb5\\xc7~U\\xc4VD\\xc5\\xf8H\\x00\\xb9\\xc4\\xd6\\xc0\\xc1\\xf3\\\\X\\xb2i\\x87\\xaf\\xac\\x92\\xf8\\xc5\\xedZn\\xee\\xba\\\\fz\\xb6\\x9f?xK\\x9f:\\xad\\xb4s|\\xbf\\x10\\xd4)\\xd1B\\xac\\xd4]\\x8b4\\xa1\\xc26\\xe55\\xe3tD\\xb5\\x10Y\\x04b\\xf4\\x9f\\x08\\xea\\t\\x9f\\x83\\x92\\x16d\\x98P\\xdf\\x17s<!)1\\xdbW,\"\\xf4\\x80\\xb8\\x9c\\xf2\\x06\\x14rot0P\\xbd\\x0ck*\\x9a\\x18\\xf2\\x04\\x83d#>\\xbb6\\x81\\xef_\\x84\\xd1\\xad\\xbf\\xc8\\xe0\\x9f~\\x96\\x14u\\xb6GQYL\\xcd<\\x87\\x9d\\x15\\xb7\\xb4\\xb3\\x9ds3\\xfc\\xe7TK\\xad6\\xd7\\x08\\xb8\\xfd\\xd3\\xc2o\\xbb\\xd5\\xea\\xd6\\x0b\\x197\\xff\\xe4To\\x8f}0\\xc9<}\\xc4n\\xd2E\\x80WY\\xc3\\xff\\x1f\\xf2\\xa6\\x84G\\xb3_l|A\\x91\\xb2j\\x97o\\x85`\\xe4\\xf9\\xc1\\x17\\xaeU\\xc3\\xf4\\xb1\\xf3x\\xd0Wm\\xfe\\x8ex$\\xf9\\xe7\\x95]\\xf4\\x10I\\x99\\xd8\\x94@\\xaaHFSL8\\xae\\xd2\\xb7\\xfax\\x85d\\xd7\\'$\\x8dm\\x81\\x99:\\xf0~\\xdcl\\xea\\x00\\xef\\x8a\\\\J`\\x8b\\x84\\xfb\\x8d\\xce\\xd8\\xcewi\\xb18\\x06\\xb0\\xedi\\n3\\x1dJ\\x0f\\xf5;\\x13\\xbe\\x8d\\n\\xc3\\xben\\x19\\xb2\\x82\\xf2\\xcf+\\xd6\\xd8:\\x18_\\xd5\\xcb\\x05\\xb2lb\\xc2\\x0c\\x8d\\xd4\\xbe\\xca\\xc0\\x1e\\x0f\\xe7\\xf7\\xeci\\xf7\\xd1n\\x89z\\x01\\xdfI\\xaf\\xb2z!\\xf0\"\\xe5Ii\\xa5\\xca\\x7f\\x90\\x8e|\\xd9\\xd9\\x19&v\\x18d\\xe8\\xc6i\\xac\\x8a\\x1b\\x04t\\xd2\\x13\\x94>h^\\xd9\\xa6\\x16/\\x03$\\x02n\\x08CX\\x92\\xf2\\x1f\\xf3\\xb7IJ\\xa6\\xf52M\\x88\\xc8c\\x91N\\xf2&\\x8a\\xa6$_>\\xab\\x10\\xdf\\xd5\\xf7\\xe1\\xffqq\\x88\\xb2t\\xa4\\xc2\\x1eN\\x89\\xc2\\xf3@\\xcb\\xfc\\x02G\\x1cH\\x1c\\xd0\\xc7\\xc79\\n\\xb2!\\xc0\\xa4r\\xba\\xb4\\x9f\\xe4\\xa3h\\x10\\xbc\\x16\\xbf\\xf7\\xb6\\xce\\xfd\\xc5\\x18\\xde\\x84_\\x9a\\x80\\xda\\x89:\\x0f\\x99:\\xe4\\xb1\\x0c\\xd3{\\xd6FlF\\xe39\\xb7\\x08\\xc4\\x01\\xab\\x14oi7\\xafw\\xe7\\x03\\xce\\x9a\\xdf\\xe0\\x140_\\xddB\\xa42\\xd23k\\xfd^\\x02\\xbex\\x9c\\xf4\\\\s\\x9e\\x89\\xe0Y\\xb7\\xda\\x84\\xd5\\xa4\\xd5\\xe5\\xc3\\xdcGb\\xcd\\x9e\\x9f\\x88\\xc1e\\xc9\\r\\x97\\xfchF\\xcb\\x84\\xee\\xc0\\xb3\\xce\\x1c\\x1cq\\xb2,vM\\xdffH\\x1e\\xc8*\\x93P,}_\\xd5\\x9d\\xaajM\\x90 L\\xa5\\xb0\\xce\\xfce\\xb1b\\x06\\xc5\\x99\\x10\\x17\\xfb7\\xde\\x93Z\\xfb\\x03.\\xdf\\x84\\x9a\\x87)\\x99_\\xa0\\xdb\\xb76\\x13\\xcd\\x9d\\xb8\\x05CK{\\x7f\\xce\\xd3P\\xe4cc\\x9f\\xae\\x1eYq\\x93\\x08$7\\xc5\\xdd\\x06)4\\xc9\\xd0\\x127\\x97\\xa1\\xb2VbrV\\x9f\\xf0\\xbb\\xe1\\xea\\xfb\\xb3F\\xd1\\xab0\\xb37\\xe3\\xbe3V\\xa9\\x9e\\xc49\\x9c\\x03\\r\\xcd\\x82\\xf0\\x15\\\\3\\xd6C\\xc0\\x1c\\xac\\x0b2\\xbf\\xc7\\xc25\\xc8\\x1e\\xd5\\x9eBL\\x85)\\x82%\\xf7\\xfb: \\x02C\\x1aTx\\x87\\x1ee\\xe7\\x05\\x06\\xdc\\xd0\\xc3\\t\\x963\\xde\\xcc`B\\x0ce\\xe4\\x0b?S\\x1fP^`!\\x1f\\xae\\xdc\\xd3\\xf7\\x0c\\xbb\\xd1\\x05 \\xfa`\\x80\\xedX\\x1f\\xbd\\x86o^3\\xc0\\x8e8\\xb8d\\xa7\\xe3\\xeb\\xdf\\x15~\\x88r`,1\\x8c|S\\xe2~\\xaf/_]Fa\\x97`\\'\\xc7\\x074Zb\\xfa=Ne\\x17<\\xae\\x05\\xfc\\xbb\\x07\\xb2\\r\\x08\\x06\\xc4e\\\\9\\xdf\\xce3(^\\x81\\x8a\\xce\\xa8\\xa0q;\\xed\\xcdQ\\xc4\\xbeB\\xbfP\\x8e\\xee\\xec\\xa9\\xb7\\x0b[_\\xf6\\x7f \\xd8\\x02]\\xa9 l\\x9e:sP\\xdb\\xe8S\\xe7\\xcd\\xbbP>\\x08\\xa5\\xc4\\x19k42\\xdfn t&\\xb6~_a\\xd1\\xe0\\xdb3`\\x8c\\x1a\\x9ewY\\xd0\\x86\\xddWZP\\x90\\xe5\\n\\xa4\\xa8(h\\xa5\\xf1\\xde\\x9d\\xe7h\\xe7\\x02\\x9a\\xa3\\x89X\\xf3\\x15\\xfd\\r\\xda\\x85\\xa2!\\'\\x8c\\xc1#\\x88\\xb1\\xb8\\xba\\xbf\\'\\xf9\\xa8\\xb5@\\x90\\xddD\\x9b\\n\\xc5\\x14\\xe3xC\\x95?\\xa2)Y\\x96\\x8b7w\\xed\\xfc\\x91\\xc9#\\x9f\\xf1K\\xb4\\xb9\\x88\\'\\x93\\xf7\\xad\\x11l\\xc8Y!\\xc75\\xff\\x1b\\xb9\\xd2a\\xea\\x06\\xd2\\xe65c5wM\\x97B\\xa1\\xf8/\\xf6e\\xc3\\x97\\x96\\xac\\xedOP\\x90B\\xac`\\xd3\\xd4\\xa0\\xdf.\\x08llS\\xa9f!A\\x01{/}\\x89Q\\x8f!\\xf7{\\x0cu7?\\x02\\x83\\xf1R\\x05\\xcez\\x16\\x18wF\\xd6\\x0c\\x1a\\xad\\xbf[\\xc9\\x0bT#\\x88p\\xd9\\xd7Y\\xc5\\xce\\x06V\\xc0@\\xef\\x17\\xd9zJ_S\\x95>\\xbb\\xbb\\nF\\xf0\\xcbu}8\\x9b\\x12m\\x1b0)\\xf1p\\xa4V\\rt|\\xf5Y]\\xe3\\xce\\xf1\\xc6=\\x8f,J\\x08\\xd7\\xbbOW8\\xbfirO\\xac\\x94\\xca<i\\x03|\\xb7\\tX\\xd3r\\x06@\\xde2\\xcf\\xa7T7\\x8de\\xe8\\xa8D\\x03\\x083\\x1d\\xed7l\\'\\xc7\\x9f\\xce\\x8f\\xe1\\xc6\\x86\\x9dkc\\x8a\\x92\\x9e\\xd4\\xe5v\\'\\xfb\\xa30\\x92\\xb4\\xdc\\x8f\\x8d\\x96p\\x94\\xbdj\\xbcK\\xd9\\xca\\x15!=\\xec\\xbd\\x0f\\xd1\\t+\\xfb\\xd2\\xc9[\\xba&\\x0c\\xacx\\x9c\\xb5 ZtFR\\x8e\\xbfD2\\xf8\\x96\\\\\\x87>\\xb2\\x97\\xb0\\xbaJ\\xbe\\xaa\\xd5\\x9ch\\x84,\\xc9\\xf1\\xce\\xd2\\x9eG\\x88P\\xa7XB\\x03lG\\x1c.\\xf7\\x10f\\x9d\\xd0\\x9b\\x06\",q\\xee\\xc7z\\x98\\x1b9a\\x92`W\\x027\\xd9\\x90\\xd1w\\xd4.\\xad\\x81\\xddC\\xbafD\\x96N\\xcd\\x02-BY\\xaahN\\x0c\\xf79e\\x1e\\x91+d;\\x8f\\xa2\\xa1\\xbdW\\xef\\xc9E\\xcd\\t\\xe7\\xa2\\xaf$\\xc4\\xf1^>\\x8e}{\\t|\\xf7e\\xa4\\x1c\\xc7;*\\xa8\\xf6\\xda\\xca\\xcev\\r\\x89:\\xca\\xa6\\xbc\\xe8\\xd07[\\x02(\\xee/o\\xa4,\\xa3(8\\x9d\\xae\\xb9\\xd8\\x06\\xdd\\xcc\\xebqm\\xa2\\xd5\\x0e\\xaf\\xa8o\\xd0\"\\xbb\\xac\\x8cd\\xc2\\xf0\\x83K\\xb7\\xd8b\\x82\\x1b\\xef\\x1b\\x8e\\xad5\\xd4\\xb7\\x05P`\\xba\\xa4\\xf7\\xfai7\\x0c\\xe9k7\\x08(2gVr\\x94\\x19K\\xc7\\x01Z:\\x84\\x16\\xa3\\x1ci\\xa4\\x1b\\x91I\\x9a\\x18\\xad\\xcd\\xe2\\xae\\xf6\\xe9\\x8c;\\x845w6\\x8f\\x1c\\xb4 b\\xbc;\\xe7\\xee.<9\\x8eD6\\xd0\\x1a{\\x0b\\xbe9\\xd1\\xa4\\x08\\x0f\\xfdq\\x10p\\x15\\xfdR6y<\\xd8\\xe5A\\xabE\\n\\xe70\"\\xf7\\x17c+<\\x82\\xe2\\xc5\\x8bVa\\xe3\\x0f\\xf8L\\xe2:\\x0eo\\xf8\\rW\\x19ad$\\xed\\x91\\xb58G}\\x12\\\\\\x04\\xb9\\x02g\\xc7\\'\\xa4\\xcb\\xa8\\x9c\\xca\\x7f\\xddmX\\x1f\\x0c4Le\\xa6>a\\xb2\\xc1\\xee\\x01\\x86\\x80h\\x17\\x0ez\\xa6\\xac\\xb0)\\x91\\x90\\xeb\\x8e>\\xf1\\x8a\\xb3\\x0eN\\xd9\\x9d\\xd8\\x7f\\xcf\\x01k\\x19\\x19\\x86\\xa8C\\xc1\\xaf\\xc4\\x97A\\xb8_\\xae\\xc0i\\xd5\\xb3\\x84El\\x9f\\xcf\\x92\\xdb;Dv\\xfa\\xba\\xa6fHL\\xbf\\x9cf^l\\x06H\\xf2i\\xba\\xc3P\"H\\xb0@\\xed}\\xd7\\x9b]D\\xa5d\\xda\\x1b\\xb1\\xc8\\x1e\\xd2?\\xff\\x8f5f\\xac\\x9a\\x0e\\x07\\xb0\\xf2\\xe5\\x08\\x81St\\xdd\\x82Wq5\\xfa W\\xf4^tbY|\\'\\x9c\\x87x$s)\\xf2\\x9c?ld\\xd1\\x10yb\\xa0\\xfb?EUHM\\xcf\\xe1\\x05_V0\\xf4\\x96\\x03\\xe92\\x86\\x1e\\x8fuk\\xdc\\x86\\xff`\\xff\\x90\\x1e\\xaf\\xadf\\x8d2\\\\:\\xa4\\xe4\\xb7{\\x05\\xe4\\xf3\\xfb\\xa9\\xfa\\xa4:b\\xe9\\x87P\\x14G\\xe0,h\\xaf\\xd8\\xce\\xe7\\x98\\x96C7\\x18\\x00\\x00\\xf3\\x99\\xced\\xb7\\xa2\\xdaN\\xccS\\xbe\\xa5-\\xc5\\xceo\\xbb}\\xd27v\\xfa\\xde\\x1f@\\xd6\\xe7\\xc1\\xe6%\\\\\\xa2\\xe2c\\x05K\\x98\\x8e.9\\xeb\\xb7,F6\\x88\\xb3\\x04O\\x95\\x06~\\xf2\\xbf\\x89i\\xcb%\\xb5\\xc6\\x9f\\xac\\xb2\\xccFH\\x8a\\x010\\xd5L\\xdfD[\\xd0DZ&\\xcfN\\xceT&\\xf6\\x18\\xa7\\xfc\\x004\\x818l\\x85\\xd2\\x1a\"h`2\\x8c\\x00\\xd0\\xd4\\xc9\\xec\\xf4V^(6\\xce\\x98\\xe5zP\\xdbA\\x17M\\xf7\\x16\\xf5`\\x82\\xa3Q\\xdeP\\xc5\\xfb\\xbb\\xdco\\xbe\\xa0S\\xbcr \\x81u\\x88\\xee\\xe1\\x15\\x9c\\xb9\\xcf\\xb2\\xe3c\\xe1 \\x8f\\x15\\x95g\\x0b\\xffFh\\xac;3\\x9b\\xcb\\x85?W\\xba\\x9f]4\\xe29.$#\\x97\\x96\\xec?\\x9b=b\\x91@ye\\xa7\\x9e\\x07\\xf5\\x87(\\x1dz2O\\xf2\\xb3\\xcf\\xb0R\\x88\\xe0\\xdaz\\xdfL\\xd8:\\t\\x8d\\xc8\\xc3\\x8c\\xe83htr\\xdag\\t\\xf5\\x17\\\\\\xa3\\xa0\\x12ql\\x1aL\\xa2E\\xdc\\xee\\xfeOj?U\\xc4\\xda\\xfbA\\xe6\\x8fX,\\xece\\x93\\xb7\\xec\\xa8\\x8f4\\x13\\x86\\xc6u~%\\xad\\xca\\x98N\\x8d\\x00p\\xc6\\x90:Gc\\xbf*5\\xd3\\xe7\\x1d\\xec\\n}\\xb4\\x8d\\rU+@\\xef0\\xa9\\x8b=\\xde\\xbf(9\\x86\\xe6\\xc7\\x12\\xcc^P\\xebo\\t@sw2A\\xed7+7\\xb2\\xee\\xa7\\xc5*c\\xb2XF\\xac\\x11\\xfe<O\\xc3\\xd0\\xd0\\x05\\x19\\xba\\xd3K\\xf7$\\xbc\\xe2;\\x83\\xd9Dj\\xb4\\x0e2\\'\\xa3$a\\r\\xc4BL\\x926\\xe5\\x11?e\\x14\\x8c^\\x84\\x90\\xd6\\xb6\\x8a8\\x86\\xb8\\xb9\\x16\\x18\\xa1\\xba\\x18@;:\\xd5\\t\\xc0\\xc9`\\xdb[\\xd5\\xba\\x0f\\x03\\x00\\x00\\xe7\\xd9_w\\x9b\\xf9\\x8e\\x8a\\xbe\\x85\\xbd\\x0f(\\xf3\\x16+k\\xc5iZ\\xf2\\x92\\n3/\\x04c4y\\xb9\\xe5Y\\xb3\\xe6\\x8b~\\xcb\\xf9b\\xff\\x01p\\x1d1\\xf0\\xc8\\xa0\\xcfYJ\\x9c\\xb2\\xfb\\xd6A-\\x95E8[\\x81L\\xcd\\x941e\\x81l(8Y)h\\xa6\\xdc \\xc0\\x84`E\\xe7\\xae\\xd9\\x92/\\xd0\\xf6\\t\\xb7\\x9a\\xb1\\x1f\\x13\\x96\\x0f\\x93\\x9ec\\xafc\\x17:\\x9dkq\\xa4<:\\x17\\x181\\x92\"\\xf0\\xdf\\xd0\\x97\\xe7\\x99\\xbdB\\x82\\x0e\\x1a\\xbc\\xb6w\\xd7\\xde\\xcc|^}33\\x02z\\xd1A\\xfb}\\xa9_\\x0c\\xe3\\xae)\\xc2\\x15$\\xf1\\x9c\\xd9\\xc9\\xbf\\x84\\xcbC\\xa5\\xd9\\x97:\\xf1\\x87H\\xbc\\xc9\\xb8\\xba\\xeb\\xd5\\xa2\\xec\\x9c>3i\\xc4\\xd2h\\xa4\\xb2dk\\xfe\\xba^\\x1f\\xa9\\x0b4\\xe9+n\\xad\\xc4\\xd1@sl\\x997\\x86\\xa6\\x10\\x14\\xc6\\x00*\\xee(Js\\xbc\\xb9\\x87\\xa8^*\\xdc>\\x88l\\x03\\x7fw\\xa6g\\xf5\\xd9\\x85h\\xbf\\xf0\\xa0\\xdal\\x1bC\\x8eo\\x03d\\xa9\\xef\\x1f]26n,\\t\\x1a\\xecn\\xf5\\xe7\\xb9\\x16@n\\x9c\\xf6\\xaf)\\x9c\\x14\\xcck\"\\x8e\\xfbo]\\x12\\xe8\\xb8\\x15 G\\x8dTEq\\xd7\\xcd\\x08\\xa3\\xf0\\x8bj\\xf7i\\xea?\\x1f\\xe8\\xd3\\xdb\\x86\\xd6\\x19l\\xc0\\xb6\\x00\\xc4\\x9ak\\x8d\\x05\\x1d\\xc8\\\\\\x8dA\\x8d\\x88\\xc1\\x0f\\xe4\\xa8\\xf3j\\xcaN\\xe2\\xdb\\xc5\\xfe %\\xdc\\xba\\xafT\\xc6\\xaf\\x8dc\\x8a\\xe7%C\\x12\\x0e=\\xa8\\x19^\\x0c\\xb6\\xc0/2\\x16\\xc7\\x1c\\xd9\\x1bv\\xfd\\xa4\\xbb\\xa4\\x98\\xbdvh\\x81\\n\\xfe\\r\\xa5g\\x94~\\xc9\\x04\\xf5\\x07L\\x9e%\\xda\\xe3{?\\xd8C\\xb2\\x94\\xed\\x8c\\xee\\x12+\\xba\\xf5\\x85\\x9aI\\xd3\\xbcC\\xfe&\\x01>\\xdd\\xb9\\xb7\\xae\\xf9@\\x17\\x08M\\x9b\\x88\\xe7\\xbc\\xf4\\xaa\\xd2\\x17\\xcc\\xb2\\x87\\xc0\\xa4\\x1c\\xd2\\xf6+!R\\xc1\\x9e\\x82\\xe6\\xc9\\xc7\\xdc\\x1c\\xbe\\xc0\\x11@\\x06v\\xe4h\\xd7|Ie\\x18\\xa3>q\\xe1\\xde8o\\xaa\\xc0\\xcd\\xc0\\x9fyF\\x8f\\xd2\\xef\\xf3/\\x1e\\x1a\\xf1\\xb7\\xfb{\\xf9\\x91\\xa4\\xb0\\xb4K\\x8b\\xd1\\x0f\\xbf\\x0e\\xba\\xfa\\xcc\\xe7X!\\xe6\\x88\\xb1n\\x1cE\\xbc\\x99i\\xa3\\x81A\\xab\\x07\"\\xfa\\x8a\\x0bq\\x0c\\xb8\\xeb\\xe8\\xb1.\\xcf\\x11\\x10\\xe7\\x01\\x9bH\\xe9D\\x11)\\xbb\\x9d\\xa1\\x02c2\\x1aY\\x18i\\xf4\\xef\\x8c\\x00UN\\x18\\xc1\\x8d\\x7f\\x1c\\xaaU\\xfe\\xe7\\xad\\xd8\\xd2\\xa3G\\x92\\xec\\x83\\x99\\x0b1f\\x1d~\\xfcBl\\xabD$O\\x12\\xb1\\xbc\\x86O\\xc7\\xd5X.\\xd3s\\x87=\\\\5[\\xb5x\\xa3\\x8dk\\xd4g\\xf7o\\xfe\\xe2\\xb4\\xa2\\xea\\xec\\x0eF\\x8b\"\\xb8k\\xcav\\xf3\\xfeM\\xd6\\xec\\xfah\\xff\\xad\\nv\\x93\\xbb\\xe8;\\xf1\\xff\\x1a0\\x84k\\xb4\\xf4D\\xab\\xf5\\xc2!\\xe3\\xc9\\xe9P\\xbd\\xe3\\x00N\\xb1$\\x9e\\xbf\\xe9%aeb>\\xb2\\x90\\xac\\xce\\xff\\xe4QC\\x0f\\xd8\\x9c\\x8fg\\xa9\\xfd\\x98x\\xa2 \\xd7W\\xd0\\xb8\\x1a\\x8d6\\x03G\\xad\\xa1\\xf0\\x81\\x88C%\\nge\\x1b\\xc3\\xeco~\\xad:<h\\xb3\\xfc\\xa3\\xfc\\xf3UW?\\x10\\x0cVR\\xfd\\xdf\\x06\\xd3%\\xb0T|\\xeb]>r8\\xaf)\\x16;?\\xbf\\x1d\\x9er\\x90\\xde\\x83\\x80\\x8b\\xa0vw\\x8b\\xbcf#\\x1e\\x8b~\\x9fa\\x16B\\xfd\\x0b\\x83\\n\\xa6\\x0cB\\xaa*z\\x07\\xe2a6Y \\xd5\\xbeO\\x86xb\\xd8\\x93\\xf3\\xc4\\xf3\\x8d\\xd3\\xb6{\\xdfO&~\\xa7\\xb4oo\\x06\\xe3\\xc0\\x92A\\xf0\\xd8_fu\\xfb\\xc4Xo\\xccS\\xfb}p\\xf7\\xa96\\x10r\\xb7\\xce\\xfdF@|\\xc9%\\xa7\\xbd!6\\xd3~\\xdd\\x90\\x9dW\\xc8&\\xdcx\\xf8\\xb7)\\x0c\\xe2\\x91\\xbbjY\\xde\\xae\\xb4\\xc8h\\x93j\\x94R\\x1c\\xfas\\xc3y\\xe7w\\xfa\\xe8\\xcd+e\\x17l\\xc7\\xbf\\xef\\x81\\xc0Don\\x81Ns\\x8d$\\x0fF\\x03+Av\\xc0|U6\\xaa\\x1a\\xf0w\\xa4@m;x\\xc1\\xdb\\xb3\\xc6\\xb1\\x82j\\xd1x\\xf4\\xe8\\xaav\\x90\\x82\\x83\\xf0Y\\xe1\\xc1\\x10jvM\\xabx~\\xbaB\\xc2\\x9a\\xc6\\xdb\\xf38\\xeb\\x1cI\\xe8n\\x8a\\x92\\xfc\\x97h\\x95}\\x07z\\x03\\x04`\\x90\\x9c*\\nl\\x07\\xfc\\xaa\\xf1\\xadE\\xd1s[\\x08j\\x05t\\x17\\x8c\\xfdx\\x9dE\\x1b,\\xc7ap\\xed\\x0b\\x94.\\x89\\x99\\xb9a:ak\\xb2\\xf0\\xbe\\xe61\\x96\\xdeZ\\xfad4\\xed \\xde\\xf2\\x12c\\x84\\xbc\\xd1M\\xdd\\xd4\\xadieX\\xe8\\x1a\\x81Y|\\xd3\\xe0\\x08a\\xc6;;\\xa8ya\\xc3\"\\x08?\"\\xc0\\x13\\x04\\xc1\\xea\\xeb\\xb1\\xdb\\xfaV\\xcc\\x1dT\\x1f\\xc6][2\\xc6\\x06\\xe0xB\\x89\\xb41\\xa3.vF\\x10\\xa5\\xf7 \\xa0!B\\x12\\xc7\\x1e\\xc7\\xf1\\xea3\\x01H\\xfc\\xea\\xf3\\xdd\\xdc\\x1c\\x16\\'.\\x1d\\x85k\\xee\\xaa\\x11\\r@Q\\xcc\\xeamm\\xfd\\x18\\xac\\x9b\\x1e\\xf0\\xd0\\'\\xdd:$\\x12b\\xb6\\x16\\x81\\xa9\\xcf(\\xfeK##\\'\\x81\\xd2\\xd7\\xebB\\xbd\\xb4\\x84\\xf7\\x9a79gR\\x9a9\\xa8\\xfa\\xf6\\x17)\\xb6k[\\xb0\\x9b\\xe2\\xbe\\xc2\\xacyZ\\x81Il\\x16zt\\x1e\\xadh\\xf7#\\x94XR\\x19|b\\xe4\\x8aqj\\x18\\\\\\xe7G\\xdc\\xbe\\x18\\xbeK\\x89\\xb1b\\xd2\\x15\\x19\\xaf\\x85\\xca\\x08<F(X\\xbf\\x95 jD#L-\\xe5\\xbc\\xa5\\x1e\\x93\\xe9#l\\xc9K%\\xcb\\xcb\\xa1\\x06\\xe2r=)R\\xf1\\x80\\x85\\xd65z\\xaeV&\\r7k\\xce\\x0b\\xf4\\x9cl)\\xfawZKj\\x81\\x86d\\xbd5\\xf4>\\xdf&\\x93\\xccG\\xd6Th_\\x98\\xacY\\xb0\\xe4Ss\\x82\\x9a\\xdeP%\\x17\\x8eM\\x98Ib\\xda\\xe8\\xf4Ly\\xb7\\x16m{\\xc36\\x14\\xce|\\t\\x1c!\\xad\\x0cT(\\xf1\\xb6\\xb2L\\xab\\x10\\xc4\\x8e\\xbe\\xab\\x05\\t_\\x16y\\xeb\\xaa\\xff\\xc0*e\\x89\\xf8\\xd9\\x1d\\xb8>\\xd6\\xeb\\xa1w\\xb6a/\\x17hsN--\\xeeG\\x10\\xab\\'\\xb6U#<\"\\x1e\\xcdb\\xfb\\x9bR\\x1f\\xdc\\x19|*L4\\xa4\\xc2j\\x83\\x85\\xf4\\x1bw^T\\x7f\\x95\\xfd\\x97o\\x94\\x97JqMK\\x80{X;e\\xab\\xe0\\xaf\\xfe\\x14\\xdf3\\xd7\\x95\\x9d\\xe4\\xbbG\\x05^\\t\\xe4\\xfa\\xc7Q\\x17\\xa9\\x95\\xf9\\x0e\\xee\\xe2\\xcf\\xea\\x9c\\xccQp\\xa4\\x9a\\xc7\\xdf\\x04O\\x0b\\xff\\x16v\\x18\\xe2}\\x15\\xfc\\xed\\xe0\\xc2\\x8eaO$\\x0f=\\xa5\\x7f}Tq.\\x04\\xc6\\xda\\x08O\\xc9$n!\\x8c\\xe5\\x1a,\\xbfUk\\xaaLk)I\"D\\xe0\\x1d!]^\\xbfsU\\x00\\x8f\\xb0\\x03G\\x9dp=\\xcb\\xb4/\\xdb\\xec\\x14\\x98!Q\\x02><\\x8d\\x17\\x94v\\x84\\xa1e|\\x0f{\\xe2I<\\x86I\\x04Nw9\\'\\xe2\\xfe\\x00L\\x11\\xe3U\\xa5g\\xf4lIF\\xe3\\xae\\x94Q\\xe5\\x11\\xd7\\x05BqV(m\\xeb$nj0\\xee\\x92\\xe6\\xca\\xafY-\\x91\\x10\\xebF\\xf5\\x800\\x8dj\\xf84\\x82\\xd3V\\xf3$\\x83\\xcb^\\xb8\\x00`MT)\\xbeO\\xbf\\xb2\\x0f5\\x9f\\xfa\\xce\\x9d\\xd6\\xe3\\x9a\\xa2\\x13dL9U\\xfb\\xd4p\\xf8\\x89\\x14\\x1f\\x03\\xf8\\xc3^\\x1d\\x85\\x03@^\\xe43\\x1e\\x93\\xe5\\xd5F\\\\\\x8fb-\\x05s\\xac#7\\xf4\\xd00,N\\xdd%?~\\nG52\\xcb\\xae\\xb8\\xe2\\xa3[\\x9d\\xe4\\xefY\\t\\xa5=\\xd3WE\\xb2\\xc0\\x83\\xe3\\xca\\x1eZ\\xe1\\xec\\x99\\xe3\\xc5\\\\Q\\xe5?\\xfa\\xfa\\xa69\\xf0!\\x91\\xed\\xbcMc\\xf8}\\x04\\x87c\\x8f\\xc1\\xd8\\xcc\\x89\\xd2\\x99P@\\x89\\xe7\\xda\\x1c\\x94\\xb5\\xa4\\xbd\\x9a*\\x938\\xa31][\\x02Lu\\x0b\\x1cXJ\\\\\\xe3\\x96\\xad\\x0c^\\xb5\\xe2\\x7f)\\x85J\\x8a\\x1f\\x85\\x83P\\xfa\\xa3\\x95\\xb3\\xe6\\xb7\\x15\\tP\\xa1\\xf5l\\x17\\x9a\\xd6\\'vN\\xcd0;p\\xed\\xcd\\xb2+v\\xfc\\xd0\\xc1\\x03\\x005\\xc2o\\xfd\\x11\\x02\\x1e\\xbd\\xf8\\xb0\\xebW\\x85?\\xd3[\\xe8\\xdb\\x94\\x97+\\xbc\\x9b\\xf0&\\xdflm\\xddp\\xd5\\x9e\\x94\\xe1f\\x9ai\\xa8`P\\xc4\\xdf`\\x1d\\x99\\xd3\\x17\\xa4\\xd5\\xc3\\x1e\\x1blh\\xe2\\xe2\\x94f\\x92\\xa8\\xef\\x14\\x01\\xce\\x9e0\\xe1\\xc7C\\xa0\\x88\\x96\\x88\\xb4\\xfa\\xe7A\\xf3\\xea\\xb6\\xf4\\x01\\xfb`\\xabo\\x7f\\xe3Q\\xe7\\xdc\\xa0@\\x86c\\xeb6\\xe8\\xb0\\xdf~\\xd8\\xda\\xae\\xde[\\xc5\\xc9\\x9e\\\\(\\xe5\\x9e\\xa1\\x95}\\xc2\\x01\\xbcL\\x84U\\xf5\\xca\\x0f\\xb6\\x10\"\\xba\\x172\\xf7\\xc8\\xb7\\xc3\\x0e\\xa6\\x90[\\xeaa\\xb5\\x07s?R\\x15\\x92\\x8bSC\\xc2lk\\xe8Ne`\\xc0\\xe5\\xcb\\xf0\\xd0\\xack\\xc2\\x96\\xdb\\xba\\xb6_D\\x15\\xfa\\x1e\\xca)\\xe0\\x8e\\xa4\\x7f\\x07(\\xb97\\xc2q\\xc3\\xef\\xcd:\\xbal\\xca\\x0e)\\xcd\\x0f0v\\x0bw\\x92\\r!0\\xcc\\x81\\xdf%J:\\xac2\\xec\\xe6\\x86*\\xd0s\\xef\\x94'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  }
+ ],
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 115825,
+  "output_tokens": 1883
+ },
+ "model": "gemini-3.5-flash",
+ "tool_calls": 13,
+ "elapsed_s": 57.3,
+ "run_id": "r-34ae0be1e091",
+ "case_id": "poc-f7c299c469"
+}

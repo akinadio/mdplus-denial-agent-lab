@@ -1,0 +1,1610 @@
+{
+ "answer": {
+  "policy_found": true,
+  "policy_title": "Evolent Clinical Guideline 1766 for Lumbar Spine Surgery",
+  "policy_number": "Evolent_CG_3041766",
+  "policy_url": "https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/2/1884_LHCC_Lumbar_Spine_Surgery.pdf",
+  "effective_date": "Last Revised: November 2024 (Implementation Date: July 2025)",
+  "criteria_quotes": [
+   "Surgical Indications \u25cf When ALL of the following are present: \u25cb Primary radicular symptoms noted upon clinical exam that significantly hinders daily activities \u25cb Failure of conservative treatment* for a minimum of six (6) weeks within the last six (6) months; NOTE - Failure of conservative treatment is defined as one of the following: \u25a0 Lack of meaningful improvement after a full course of treatment; OR \u25a0 Progression or worsening of symptoms during treatment; OR \u25a0 Documentation of a medical reason the member is unable to participate in treatment... \u25cb Imaging studies showing evidence of inter-vertebral disc herniation that correlate exactly with the individual\u2019s symptoms/signs",
+   "Surgical Indications [for Lumbar Decompression] \u25cf When ALL of the following are present: \u25cb Neurogenic claudication, and/or radicular leg pain that impairs daily activities \u25cb Failure of conservative treatment* for a minimum of six (6) weeks within the last six (6) months... \u25cb Imaging studies demonstrating moderate to severe stenosis consistent with clinical signs/symptoms",
+   "*CONSERVATIVE TREATMENT: Non-operative conservative treatment should include a multimodality approach consisting of at least one (1) active and one (1) inactive component targeting the affected spinal region. \u25cf Active Modalities: \u25cb Physical therapy \u25cb Physician-supervised home exercise program (HEP)** \u25cb Chiropractic Care \u25cf Inactive Modalities: \u25cb Medications (e.g., NSAIDs, steroids, analgesics) \u25cb Injections (e.g., epidural steroid injection, selective nerve root block)"
+  ],
+  "appeal_deadline": "2027-02-18",
+  "submission_route": "Written appeals can be sent by mail to: Tufts Health Plan, Attn: Appeals and Grievances Department, P.O. Box 9193, Watertown, MA 02472-9193 (or 02471-9193). Written appeals can also be submitted in person to: Tufts Health Plan, 1 Wellness Way, Canton, MA 02021. Alternatively, they can be faxed to 617-972-9509. For verbal appeals or inquiries, members can contact Tufts Health Plan Commercial Member Services at 800-462-0224, or the Rhode Island servicing line at 844-301-4093.",
+  "how_to_obtain_criteria": "Tufts Health Plan delegates utilization management for spine surgeries to Evolent (formerly National Imaging Associates, Inc./NIA). Members or providers can access these guidelines online via RadMD (www.radmd.com) or by contacting Tufts Health Plan Commercial Member Services at 800-462-0224 or Evolent at 1-866-642-9703.",
+  "confidence": "high",
+  "notes": "Point32Health is the parent company of Tufts Health Plan and Harvard Pilgrim Health Care. Outpatient and elective inpatient lumbar spine surgery prior authorizations (including CPT 63030, which corresponds to Lumbar Microdiscectomy under the Tufts review matrix) are managed by Evolent. The denial reason specifies that the imaging findings do not support the medical necessity of the procedure, so the appeal must specifically address how the MRI/imaging findings show evidence of inter-vertebral disc herniation or stenosis that correlates exactly with Skyler's symptoms and signs."
+ },
+ "raw_text": "```json\n{\n  \"policy_found\": true,\n  \"policy_title\": \"Evolent Clinical Guideline 1766 for Lumbar Spine Surgery\",\n  \"policy_number\": \"Evolent_CG_3041766\",\n  \"policy_url\": \"https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/2/1884_LHCC_Lumbar_Spine_Surgery.pdf\",\n  \"effective_date\": \"Last Revised: November 2024 (Implementation Date: July 2025)\",\n  \"criteria_quotes\": [\n    \"Surgical Indications \u25cf When ALL of the following are present: \u25cb Primary radicular symptoms noted upon clinical exam that significantly hinders daily activities \u25cb Failure of conservative treatment* for a minimum of six (6) weeks within the last six (6) months; NOTE - Failure of conservative treatment is defined as one of the following: \u25a0 Lack of meaningful improvement after a full course of treatment; OR \u25a0 Progression or worsening of symptoms during treatment; OR \u25a0 Documentation of a medical reason the member is unable to participate in treatment... \u25cb Imaging studies showing evidence of inter-vertebral disc herniation that correlate exactly with the individual\u2019s symptoms/signs\",\n    \"Surgical Indications [for Lumbar Decompression] \u25cf When ALL of the following are present: \u25cb Neurogenic claudication, and/or radicular leg pain that impairs daily activities \u25cb Failure of conservative treatment* for a minimum of six (6) weeks within the last six (6) months... \u25cb Imaging studies demonstrating moderate to severe stenosis consistent with clinical signs/symptoms\",\n    \"*CONSERVATIVE TREATMENT: Non-operative conservative treatment should include a multimodality approach consisting of at least one (1) active and one (1) inactive component targeting the affected spinal region. \u25cf Active Modalities: \u25cb Physical therapy \u25cb Physician-supervised home exercise program (HEP)** \u25cb Chiropractic Care \u25cf Inactive Modalities: \u25cb Medications (e.g., NSAIDs, steroids, analgesics) \u25cb Injections (e.g., epidural steroid injection, selective nerve root block)\"\n  ],\n  \"appeal_deadline\": \"2027-02-18\",\n  \"submission_route\": \"Written appeals can be sent by mail to: Tufts Health Plan, Attn: Appeals and Grievances Department, P.O. Box 9193, Watertown, MA 02472-9193 (or 02471-9193). Written appeals can also be submitted in person to: Tufts Health Plan, 1 Wellness Way, Canton, MA 02021. Alternatively, they can be faxed to 617-972-9509. For verbal appeals or inquiries, members can contact Tufts Health Plan Commercial Member Services at 800-462-0224, or the Rhode Island servicing line at 844-301-4093.\",\n  \"how_to_obtain_criteria\": \"Tufts Health Plan delegates utilization management for spine surgeries to Evolent (formerly National Imaging Associates, Inc./NIA). Members or providers can access these guidelines online via RadMD (www.radmd.com) or by contacting Tufts Health Plan Commercial Member Services at 800-462-0224 or Evolent at 1-866-642-9703.\",\n  \"confidence\": \"high\",\n  \"notes\": \"Point32Health is the parent company of Tufts Health Plan and Harvard Pilgrim Health Care. Outpatient and elective inpatient lumbar spine surgery prior authorizations (including CPT 63030, which corresponds to Lumbar Microdiscectomy under the Tufts review matrix) are managed by Evolent. The denial reason specifies that the imaging findings do not support the medical necessity of the procedure, so the appeal must specifically address how the MRI/imaging findings show evidence of inter-vertebral disc herniation or stenosis that correlates exactly with Skyler's symptoms and signs.\"\n}\n```",
+ "usd": 0.2328,
+ "transcript": [
+  {
+   "parts": [
+    {
+     "text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-22\nMember: Skyler Foster\nMember ID: W718345521\nPlan: Tufts Health Plan (Commercial/ACA), state of Rhode Island\n\nDear Skyler,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Lower back disc surgery / decompression\n    Procedure code (CPT): 63030\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-18).\n\nReference number: POC-BDD7B46260-11524\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_118808",
+      "args": {
+       "query": "\"Tufts Health Plan\" medical policy \"63030\" OR \"lumbar\" discectomy OR decompression OR spine surgery"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EugFCuUFAWkUfROn7tD1oEevePPSi0UdWvuTtx7UzWGxL3YfPATC3gv7JHrBMw2TyfVoh_67yDdYHBK-Ee49YKK0HHDZnZsiIFVnWj5N13nWjuTiFMTUORKzZT_IXni3-ZOasXbk2ebaXVYrgiZzpvyXiKLSR1rjn37Oh8Z_uCyxmm8P_M8Lw37hCpBDMvnIDM2mmkZhB7bYoGFgztJcyroQQ3DGDtRetgjWH8_OR0T-eisj_qk8RzDDsgpOPVmvEhPPRFXutnIe-7eDtKDIodtxcskyYHgbDP9KN-LTkxyBHwXq3Y8o83eeMJ7STHyPczkfgvlPuhNQw0mMQmjSTUIVYZQFQO-gVH6mT4hbge_GPtqB9iXwb9Sp1bQtC8QMTPBaRZUp926hydh4cH-1zf-FiE02iZ2kJHBCFn3FFCsnPxeMcrgq29dUAp_yFVExbLuqw_rvjFVQIGdu_NbU0gFdTO6BIn0Ap3AhwH5TrJLOvy1qciH6eLbV-i8jmLFNftjFpr33BK-Z13swrnqcifks6rFKSE4GcwVbBhHL8O0N3FybwwZHXmLJMd0X6GMAvbMvFNSIMHbXQmjYJ6GpgfNu8uQY1PLiSyOfRX3azeiUgVsTjcs-npnceUtQFuoazolpXu9CH08HWaMQfQdwTn_0bMqDvDJ9Pqcxfpl-1ZMDLR0V3779Hr6X9DwDfg4N0xTqU6hwqn8XBF-4do3KFYEuVqCaNsoYTNdtxw5l1uAxo9C3_2AKQpt8_IBdWcjVi5wwp5AbCtH4kbMDxg7HIAXY6dNSResFINX0ALxHfZ1Q41pjJpJmuofC2hhR9uVUM_o39gemWip_pfQJQoNIhDTBcmADIPWe4y021i9Ewtv-PlZYm6u2iDmVBZ7PkrQAvWjl75E3iB9emmPF_52ntC4THrSWRgN2qKsEr3Hu-AVn3iCjPGwCt0aeRILcKDKWtIguiFbox63sONAR38VwhG51A4gBpysW15vw"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Tufts Health Plan\" medical policy \"63030\" OR \"lumbar\" discectomy OR decompression OR spine surgery",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_92317",
+      "args": {
+       "query": "\"Tufts\" medical policy \"spine\" OR \"decompression\" OR \"63030\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtIBCs8BAWkUfROqtr_ME2EY6BqqVPVidvGxHRgZgOJ1yEb3y1lM7AJOSZXY_8jcev4lDuzI1eBENmhKuK9HUS5kDDB0nsit4_u4S0fFFslx6ov25ARVGd0ZUAERnkF_HWD7he2vf5thLK6E6AKU5__I9Sbzk-U8GnAJDZQzxp4cKcPWIG7ZF85s286bjECXX52Fda3N1dlwTiY0GU8bw0H9wvzglTuiXubTjlPkFj0NYceeoGv_X-a9pxD0kycLS3vGMaUx8oWH-p3gIjq8t2Jd_EMr"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Tufts\" medical policy \"spine\" OR \"decompression\" OR \"63030\"",
+        "results": [
+         {
+          "title": "Neurosurgery Care & Treatment Services | Tufts Medicine",
+          "url": "https://www.tuftsmedicine.org/services-treatments/neurosurgery",
+          "snippet": "Some may also pursue additional fellowship training in specialized areas like spine surgery or pediatric neurosurgery. Throughout their career, neurosurgeons continue learning through conferences, research and certifications to stay updated with advancements in the field. ... Neurosurgeons can treat back pain through both surgical and non-surgical methods. Surgical options may include spinal decompression or fusion, while non-surgical treatments might include physical therapy or medication."
+         },
+         {
+          "title": "Spine Program - Tufts Medicine",
+          "url": "https://www.neneuro.com/specialty/spine-program/",
+          "snippet": "<strong>When non-surgical options have been unsuccessful, surgical treatment can decompress the nerves, stabilize the spine and help to correct spinal deformities</strong>."
+         },
+         {
+          "title": "Spinal Stenosis | Tufts Medicine",
+          "url": "https://www.tuftsmedicine.org/services-treatments/spine-care/spinal-stenosis",
+          "snippet": "Decompression surgery: <strong>Removes bone, thickened ligaments, disc material or cysts pressing on nerves</strong>. Smaller incisions may help shorten recovery time. Injection therapy: Minimally invasive steroid injections can reduce inflammation and relieve ..."
+         },
+         {
+          "title": "Expert Spine Care for Back & Neck Pain | Tufts Medicine",
+          "url": "https://www.tuftsmedicalcenter.org/patient-care-services/departments-and-services/neurosurgery/clinical-care-services/spine-surgery-center",
+          "snippet": "Get expert spine care at Tufts Medicine to address chronic pain and mobility issues. Our spine specialists offer comprehensive spine pain treatment options."
+         },
+         {
+          "title": "Spine Surgeons at Tufts Medical Center",
+          "url": "https://health.usnews.com/best-hospitals/area/ma/tufts-medical-center-6140465/doctors/spine-surgery",
+          "snippet": "Search hundreds of doctors at Tufts Medical Center in the US News Doctor Finder."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_66854",
+      "args": {
+       "query": "site:tuftshealthplan.com medical policy \"spine\" OR \"lumbar\" OR \"63030\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EuICCt8CAWkUfRMV_C6DvaWGIvZwi5xMvuMCIC1azTyZzKw5xwVErNyvW8fv29513a9VuzcGxMFmMTW--WL4PBjHhbdhnrCZlT9Hol8_OnknG6E5HcTIt6PxRzCTQHWL0w9DvibEv-NBdVxDn6IkQMLQUwL9AL0265OMA--FOFi6x-OWwvqQrWOqAwfAexyx1mXcURAI6CLZg7JjGzSkvUZ5ug7LFtxgB4kT2rqD_yNsfAEpyNYLLniz_8QaJB39ODzm08u2-04W5Z6_bazNRUKUDwVLeKON0Dd6HiBjpFRSV_gPaH-T9msqb1fpX0_wc4j6AHn8W2qbtxnO2vEwG-YSEMBfxIcvsuXAlyNVvJxN-pr68rwd71MfMMdqPFksUcdL7ivCZvCQuPFl2sLameQrD57HfRKBgenxFcT-IqQgc5Ed2mVu754g4MGiqGxRyLh7Fm2U6xvZBumAh1khBiB23-TR"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:tuftshealthplan.com medical policy \"spine\" OR \"lumbar\" OR \"63030\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_86577",
+      "args": {
+       "query": "\"Tufts Health Plan\" \"Medical Necessity Guidelines\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Es0CCsoCAWkUfRONSEUXl4Y0RF0VVHBWg7Wl5YWLS1DIu4dHGlIG6KQwlX5ylhnCRJ_UIQY4JCinFQe34h8PnJSM8Ky5VFZg4ToSzQTbipuF8f0xCFe6dk0kMGCoS1Inf5e3KZ4D2f5B0bwk_VCCQfXY_YGG37ThLXnQ8rVbbUjM7OUbR3ZOzqNHywJnid4k0jBSWrjVMdVLeJpLZ7L8ZLTV28YFOE2Yjr-h0uRenJcR-mxiN5BE0AK5-BVLG_OZlKHcA7MJz0lRwsXZ6GLV2D-MsGH9oqnNVhznEg2Nti68GAtDO0ckK10aogQbO3aTG7RnUCqdMMFb-nNnG0dMey26PXLDDQUrBPZlLmpLRPZts8X2SYMIpZP1Zxm0wxJzD1AWwpahuz9U043oAAHDXSg8s-7DVZooe-RS0OWWEpivoNyfQ3RwWyJI3MO4P8sw"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Tufts Health Plan\" \"Medical Necessity Guidelines\"",
+        "results": [
+         {
+          "title": "Medical necessity guidelines | Point32Health",
+          "url": "https://tuftshealthplan.com/documents/providers/guidelines/medical-necessity-guidelines/oon-coverage",
+          "snippet": "1, 2025, prior authorization requests may not be needed for certain services for Rhode Island members enrolled in our Tufts Health RITogether and Harvard Pilgrim Health Care fully insured Commercial plans \u2014 when the requesting physician is a contracted primary care physician and the services are being provided in the normal course of primary care treatment."
+         },
+         {
+          "title": "Medical Necessity Guidelines - Point32Health Provider",
+          "url": "https://tuftshealthplan.com/documents/providers/guidelines/medical-necessity-guidelines/iht",
+          "snippet": "The Plan develops clinical policies based on sound evidence to evaluate the medical apprioriateness of health care services. Learn more about this process and on providing clinical feedback. Accessing InterQual criteria: Some of our Medical Necessity Guidelines utilize InterQual\u00ae criteria, as detailed in applicable policies. You may view this criteria on the Optum One Health website (for Harvard Pilgrim; for Tufts Health Plan)."
+         },
+         {
+          "title": "Additional resources | Tufts Health Plan",
+          "url": "https://tuftshealthplan.com/member/tufts-health-direct-plans/information-tools/additional-resources/additional-resources",
+          "snippet": "Behavioral Health Medical Necessity Guidelines - Behavioral Health Medical Necessity Guidelines are <strong>used to determine coverage for behavioral health services requiring prior authorization</strong>. Pharmacy Medical Necessity Guidelines - Pharmacy Medical Necessity Guidelines are used to determine coverage ..."
+         },
+         {
+          "title": "2024 Prior Authorization Medical Necessity Guidelines",
+          "url": "https://tuftshealthplan.com/documents/members/pharmacy/2024-one-care-prior-authorization-medical-necessity-guidelines",
+          "snippet": "Explore all that Tufts Health Plan has to offer \u2014 from Medicare and Medicaid plans to Health Connector and employer-based plans. You\u2019ll also find information on HMOs, PPOs and open enrollment periods, reasons why Tufts Health Plan has been a trusted health insurance provider for over 40 ..."
+         },
+         {
+          "title": "Welcome providers | Tufts Health Plan",
+          "url": "https://www.network-health.org/Providers/Policies-and-Manuals/medical-necessity-guidelines/Medical-Necessity-Guidelines.aspx",
+          "snippet": "As Tufts Health Plan and Harvard Pilgrim Health Care have combined under the parent company Point32Health, many of the resources you routinely access in doing business with Tufts Health Plan have been migrated to the Point32Health provider website. Click the button below to be redirected there, where you can find Medical Necessity Guidelines, Payment Policies, Pharmacy information, electronic tools, training resources, our Provider Manuals, and more!"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_88252",
+      "args": {
+       "query": "site:point32health.org \"decompression\" OR \"63030\" OR \"spine\" OR \"lumbar\" OR \"discectomy\" OR \"laminotomy\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqYDCqMDAWkUfRMkKBpoqN_nwbc-1I96xxhJNUEYu9KptCZAvtd9TjZNu9dpEsMu0HoDDDGdYMOUCO1ZUa5psr8wOOVaTBcorsOucVfnrneyrJm5BXklkx08eRoFIPFL-SCpViHLGS4S9bpZ9pJ6QIEP-8fYzkknd0OtpHS2ONAUXWpqRH7tyJGH-w_rWl8Knsh07NJPpXi3Q0Jwx942X5Wg52OE1mHyM0b64QD1WJnISy7Nc_Y4r-MCM8M82mkVvzeYaAG4qo9o1Ljb3nJYl-fkBqqhaYwpxOBajOU1Qub7slq8zEynJdn1_SwqE-iDzlmLhGQxfgwRMZ3dADFiU4J0wIW4XGlf4hmnUMVDZpasEwrPSx8qS6oPRxmiUHhNAbBupaeCMwzkhHuN1femuU5wAWDJl6nxV39kjugs3yjlyyM_yuo3ON5kC0q7YxNUCTmJqMp3VGN8D6HpvOdXloiXCpDFE7EkY6nOFprIGG57TnhqwLEl3-mewgu2CXEJ0bZoCRtB9VXlgBpXUJAXE1nXrgP78rxR8wFrC7zTaVFPkpwwgDpWBS8="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:point32health.org \"decompression\" OR \"63030\" OR \"spine\" OR \"lumbar\" OR \"discectomy\" OR \"laminotomy\"",
+        "results": [
+         {
+          "title": "Referral/Authorization Quick Reference Guide for Medical ...",
+          "url": "https://www.point32health.org/documents/ref-auth-qrg-commercial",
+          "snippet": "Lumbar Spine Surgery including: \u2022 Lumbar Fusion \u2014 Single and Multiple Level \u00b7 \u2022 Lumbar Decompression \u00b7 \u2022 Lumbar Microdiscectomy \u00b7 A \u00b7 A \u00b7 Medical Drugs \u2014 Select \u00b7 A \u00b7 A \u00b7 Medical Transport \u2014 for all non-emergent transportation including fixed-wing \u00b7"
+         },
+         {
+          "title": "Insights and Updates for Providers September 2025 1",
+          "url": "https://www.point32health.org/documents/iup-printer-friendly-9125",
+          "snippet": "Lumbar Decompression \u00b7 63005, 63012, 63017, 63042, +63044, 63047, +63048, 63056, +63057 \u00b7 Lumbar Microdiscectomy \u00b7 62380, 63030, +63035 \u00b7 Sacroiliac Joint Fusion \u00b7 27279 \u00b7 Requesting authorization \u00b7 For dates of service beginning Oct. 1, 2025, providers should request prior authorization for these services through \u00b7"
+         },
+         {
+          "title": "Low back Key Description M54.5 Low back pain",
+          "url": "https://www.point32health.org/documents/apos-icd10-code-listing",
+          "snippet": "M47.816 Spondylosis without myelopathy or radiculopathy, lumbar region \u00b7 Sacrococcygeal disorders, not elsewhere classified"
+         },
+         {
+          "title": "Commercial Provider Manual Imaging Privileging Program 1 2025",
+          "url": "https://www.point32health.org/documents/thp-comm11imagingprogram-pm",
+          "snippet": "Fluoroscopic guidance and localization of needle or catheter tip for spine or paraspinous diagnostic"
+         },
+         {
+          "title": "Expansion of vendor program for spine and interventional pain management services - Point32Health Provider",
+          "url": "https://www.point32health.org/provider/news/expansion-of-vendor-program-for-spine-and-interventional-pain-management-services/",
+          "snippet": "Point32Health currently utilizes Evolent for utilization management for a variety of services and lines of business, and we are expanding this program."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_161606",
+      "args": {
+       "query": "\"Point32Health\" \"Evolent\" OR \"NIA\" spine surgery OR \"decompression\" OR \"63030\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqMECqAEAWkUfRM5VltNv2x-1A8QfRylODLxLhm9iOnRrbgg2YHlBj1W4akk8q9LCEggbsMPQU3yQ8eQpf9O4jEw1B6eJFMVZOJgjFhiKJzZME1ZLjwnB9ibmW0fyjTw0x0oFozDQwbYnr35pF1EsaQZn0WUH33INLsFt8_oemRNOGASigsVYjKACg4ZquCqAGIhJ_UfrXYBfKS3b7lkbXqXct_HZcXJ2LhxV_HM5TlHTW_6euc1baM7FsBOUZOBo4SZKLZWEUsLcpgizxquKR4G6kPgCtnR86N5qlFd8ctWDlBndfKSr2eIeB_QD2NHny4Ujq6nvEMymdiPDoA-z95zjd00POyL2J-09deCk4BQwkj5mHWQ95KdNnNaJDs4_MVkb2pb75rr-X88DUGHi0WbkKXIgQEhdU_Mb6NIqMHQ5bbc89hAt_xgrhEksylgu0N0L9F3UpXTOlp5d-moD8YVsOHZBilXpADFjawxdCK56WKAHDQXI-Qo56ehZcwwJ94Tz2y0sbwPBG1i7LifP-3Gap3UClM0V5JwpAeIOLFC1v7-E39dhsZlJJa12FQbhUfXJDalqY7STR-C2h1dNK68waToVUOMwmEcOx0SDYB13dIRErct5pUyQ1gTSaqBRqhyW_OsFlLRp8BoVycmRBVCmvkfX0EvCPXTRPxaDxzK969R4Mxuo-9a7Y1fpgjalA7XbFZCbyaweMbFkMGlVODcSmxVkQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Point32Health\" \"Evolent\" OR \"NIA\" spine surgery OR \"decompression\" OR \"63030\"",
+        "results": [
+         {
+          "title": "Evolent (formerly National Imaging Associates) | Point32Health",
+          "url": "https://www.point32health.org/provider/evolent-formerly-national-imaging-associates",
+          "snippet": "Point32Health has a partnership with Evolent (formerly National Imaging Associates, Inc./NIA) to oversee prior authorization programs for certain services, including cardiac diagnostic tests and interventional procedures; high-tech diagnostic imaging (such as CT scans, PET scans, MRIs, etc.); select joint procedures (hip, knee, and shoulder surgery); spine surgery and cervical spine procedures; and outpatient interventional spine pain management services."
+         },
+         {
+          "title": "National Imaging Associates, Inc.* 2024 Evolent Clinical Guidelines",
+          "url": "https://www1.radmd.com/sites/default/files/2023-12/2024%20Musculoskeletal%20Surgery%20Guidelines_FINAL_HMSA_Spine.pdf",
+          "snippet": "(NIA) is a subsidiary of Evolent Health LLC. \u00a9 2013-2024 National Imaging Associates, Inc., All Rights Reserved. *National Imaging Associates, Inc. Clinical guidelines: LUMBAR SPINE SURGERY \u00b7 Original Date: June 2013 \u00b7 CPT Codes**: - Lumbar Microdiscectomy: 62380, 63030, +63035 \u00b7 - Lumbar Decompression: 63005, 63012, 63017, 63042, +63044, 63047, +63048, 63056, +63057 \u00b7"
+         },
+         {
+          "title": "LUMBAR SPINE SURGERY Original Date: June 2013 CPT ...",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/10.11.23/2/1884_LHCC_Lumbar_Spine_Surgery_2024_redlines.pdf",
+          "snippet": "(NIA) is a subsidiary of Evolent Health LLC. \u00a9 2013-2024 National Imaging Associates, Inc., All Rights Reserved. *National Imaging Associates, Inc.* Clinical guidelines: LUMBAR SPINE SURGERY \u00b7 Original Date: June 2013 \u00b7 CPT Codes**: - Lumbar Microdiscectomy: 62380, 63030, +63035 \u00b7 - Lumbar Decompression: 63005, 63012, 63017, 63042, +63044, 63047, +63048, 63056, +63057 \u00b7"
+         },
+         {
+          "title": "Page 1 of 23 Lumbar Spine Surgery",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/6.14.24/2/1884_LHCC_Lumbar_Spine_Surgery_2024_July_redlines.pdf",
+          "snippet": "(NIA) is a subsidiary of Evolent Health LLC. \u00a9 2013-2024 National Imaging Associates, Inc., All Rights Reserved. *National Imaging Associates, Inc. Clinical guidelines: LUMBAR SPINE SURGERY \u00b7 Original Date: June 2013 \u00b7 CPT Codes**: - Lumbar Microdiscectomy: 62380, 63030, +63035 \u00b7 - Lumbar Decompression: 63005, 63012, 63017, 63042, +63044, 63047, +63048, 63056, +63057 \u00b7"
+         },
+         {
+          "title": "1\u2014 Blue Shield of California \u2013 MSK Program FAQ \u2013 revised 05/2023",
+          "url": "https://www1.radmd.com/sites/default/files/2023-12/Blue%20Shield%20of%20California%20MSK%20FAQ%2011%2027%202023%20(F2).pdf",
+          "snippet": "1\u2014 Blue Shield of California \u2013 MSK Program FAQ \u2013 revised 05/2023 \u00b7 collectively referred to as \u201cEvolent.\u201d"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_141820",
+      "args": {
+       "query": "site:point32health.org \"lumbar spine\" OR \"63030\" OR \"Evolent\" OR \"National Imaging Associates\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsgFCsUFAWkUfRP3X0YqzOimS74-Rrthxd6pzfpqeBvWF2UydC81UjSrglU-go08YGVIuxca19X_zW7Fc2t2cEf0RX3eRqSgrrOPydYneQI0kIRTxj5r_TIGoW-sx1WXwKZiqMoqeyKXGeuuzbMW1qMlpQVUQyB_YOeysn37seIwt72l2smPXTp9LAh5dS52hPWJQdNdNzi26sd-smCnXUS68CS8AXXgDmACd3N-HMdR5pcu_W1omRq-Ru_fG61x2FV-F_5tkuuZKLnLaC7Sq3Wyj9GLtrF97hQA05s5xKkRrbb9_Ts8S1RCrvtq_7wYGHeAe-2xBeJjb8Pqo2qBQqetAeUBIe6gCBY57H1nGlCVy8mztg8sEZ0rj-t3RKh5RBhtse1WeGlE1YGIRuGkYqUZ8t3MVtFHmjlilAnQSpmyGs9MV1B8dgQcFEyfwAH9VYln8NcODD0Zb5G6tb4Em0jPZbFVZZZPVLWxVi6qryLNr45_E6cyt0FyrV0hrdWZ6AKvAIzS1BvRiMlk8t2d64S0_10d-PvmT1XuwCdjxPqJv4ijLt5bAWKhR5RXUQf-ilxy382Rw1MEDKwDCybsyeagaiwWgDPWD92kQP-gu_l3lPgKbFht7mbF4KIdr_ilNt9wRi0vhACF6y9lwSUshPhLPgR-FLJkMJNUJtZDGl-ilMLAKbAdIbCOgGr_w6aVsSQuEDCw20r2dSHL4b8TVAcUX-_fRzRoqrK9o37ENoQH8Ff-koqr7kvie_PX3EHJgyNs6azVufXhbKNO0QYc3VjlvySu1ktMzHCahDPua3-pZHYov7a70Zd0JfBXvudHc3Ej50moiq14ZhMT3I82LU6m7exQj8xymQiAUqrjQzt_9LUertmAlVjfWBvTPTLMg9ztf2JKTZDNm60mKdqU_lf5iSv9M2mR5fmFKsrGtCUDucnoRsK5wbCvzA=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:point32health.org \"lumbar spine\" OR \"63030\" OR \"Evolent\" OR \"National Imaging Associates\"",
+        "results": [
+         {
+          "title": "Evolent (formerly National Imaging Associates) | Point32Health",
+          "url": "https://www.point32health.org/provider/evolent-formerly-national-imaging-associates",
+          "snippet": "Point32Health has a partnership with Evolent (formerly National Imaging Associates, Inc./NIA) to oversee prior authorization programs for certain services, including cardiac diagnostic tests and interventional procedures; high-tech diagnostic imaging (such as CT scans, PET scans, MRIs, etc.); select joint procedures (hip, knee, and shoulder surgery); spine surgery and cervical spine procedures; and outpatient interventional spine pain management services."
+         },
+         {
+          "title": "Utilization Management",
+          "url": "https://www.point32health.org/documents/utilization-management-pm",
+          "snippet": "\u2022 Lumbar Spine and Interventional Pain Management for Back Pain \u2014 prior authorization is delegated to \u00b7 Evolent (formerly National Imaging Associates, Inc./NIA)."
+         },
+         {
+          "title": "Utilization Management Guidelines",
+          "url": "https://www.point32health.org/documents/thpp-06-um-pm",
+          "snippet": "\u2022 High tech imaging, spinal conditions, and joint surgery: Evolent (formerly National Imaging Associates) oversees \u00b7 prior authorization programs for cardiac diagnostic tests and interventional procedures; high-tech diagnostic \u00b7 imaging (such as CT scans, PET scans, MRIs, etc.); select joint procedures (hip, knee, and shoulder surgery); spine surgery and cervical spine procedures; and outpatient interventional spine pain management services for"
+         },
+         {
+          "title": "Referrals, Prior Authorizations and Notifications",
+          "url": "https://www.point32health.org/documents/thpp04referralspanotificationpm",
+          "snippet": "\u2022 High tech imaging, spinal conditions, and joint surgery: Evolent (formerly National Imaging Associates) oversees prior authorization programs for cardiac diagnostic tests and interventional procedures; high-tech \u00b7 diagnostic imaging (such as CT scans, PET scans, MRIs, etc.); select joint procedures (hip, knee, and shoulder \u00b7 surgery); spine surgery and cervical spine procedures; and outpatient interventional spine pain management"
+         },
+         {
+          "title": "Commercial Provider Manual Imaging Privileging Program 1 2025",
+          "url": "https://www.point32health.org/documents/thp-comm11imagingprogram-pm",
+          "snippet": "Prior authorization is required for outpatient high-tech imaging services through Evolent (formerly National Imaging \u00b7 Associates, Inc./NIA)."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_138007",
+      "args": {
+       "query": "\"National Imaging Associates\" \"LUMBAR SPINE SURGERY\" OR \"Lumbar Microdiscectomy\" OR \"63030\" guidelines"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EuoICucIAWkUfROwnICN6uREJqE8jFb6IlRHJVmHwZ4bWp2_XTO5M_zfl9qZT9RK2wfOxJpcnPZoiPYJFlk5caNROWGVJVqOPOlSSwr67H53YfSImeId3E4Sl3ifEfUAYGTTfjHbOqlZ4ec9R7AgPHKL3z7hwO_NgFm17_C4HR8vWIWNB8tkPKjlcPWK-8hfuFlsJDxMVJB8zD-3m4_G7ezKplwP4UZ-PoUsuFMkjH6muGMj7DCSnEsrK_Fi85WGn66U35pWulLPBRq__xXiqL4i1atGGtIqGkbK0yEOuOjaq8fkiqF7J_bY7PoA4ImcOJ7iYvk7NfLfnqfE-EYo7t6v5-EhGXCyWXkPChiglCMG14-fTvwtbRg7Yu4A3GllKA4XgXJBOJnY65IQCTGcJdWRenjlGzecldzeialNE93ZEYa5vNTZLR3XHF3LoaCOCmaUV9quqLpYdYYxSNYr_-uhqwK4XWpL304TkXn2gdxYzLyqh0W8QRUSlY1ejVrZqDlpK08QhcVP0SEWvWYH4-nQ3c_juMzvrugMkFj5EOiZKMtVH6qpUASpjo33lARQVbMfKpe3a5XOHKhT0e3q5CorODLbS9cgLRe2H6Sk0LH-IgZ5p1mVc4bh9Kd_T44F0677xMY4Gq86V3chIFURBk3kDBtRRkGox0gLsxsEt-U2LZjaC7l4l7pewvHmOAhNlwsG4ppYRNGiWrjMCNTjLJ32HCspPYyjahLwSNrDhGANOjJbNNu6AvmbZyaqwtlNd5_NckJuzMrjzvd7_80dJVv8jTuXuqIgPuTyO2FCdDkPL3Eazd0z12esoRnGZ3NCJpTjEclQanC17bwOQgvY0q-X1bkjrGWIG_2mcokaC_qpNkiOGZWXdxtB4mHTlOawCsPKcQjhEJQ8G4xIobJQlynGOU8BYXM3hleC-a2gYmutwDxL9OeDoPHL1lrijEoz18FSaZwffYdOHyBGGyg2R9WMgMlZGxF7EB7_oFcIwwzOLBZbotRncDsOlBuS6c8ZSj_4qzrtvY69oMPn2g3NfVqyMI7S_S1ruTubitLj9SQzQILH4ooTw_4mrtvsHevGroM1wYG8-j92uGhzn1BU9PVQGCg5VKLf7GgcsqUvzt-ve4okhmHpUiVRCuBs_SrdOm32y1uWJz2yVeGHIAxrDr6BSSYi8Dv7swUCygGFwoB3EQyofrRt9sdfn4Z-VL1qiFbtKk0EonzYGFNduSOa2Ni8XT7bS_fhJSFRhEouw99WHayRJXGGHBfTcYeef5x4vh5pshLQNj6bGYhGNilqLtRs3bwxxYEUM8NUTS5_cnPQdQs11LVtRBPRoyXq9vwvEEUUmAD8T0h0lt9PNOdWg8Q9KSeBDa5DeGCVS1cneEnI2e1_FuTZEst97cVkHPYBugzRuylt88WsPS_n3kMyZsmxFXcZuxEoHL3gnHe6-ad3cxjQ17MAfk_9zDSlkoqdkREgdAzHHnYIjLjj3BdfxhQdo6uM7hcsOQ-P37s="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"National Imaging Associates\" \"LUMBAR SPINE SURGERY\" OR \"Lumbar Microdiscectomy\" OR \"63030\" guidelines",
+        "results": [
+         {
+          "title": "Page 1 of 23 Lumbar Spine Surgery",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/6.14.24/2/1884_LHCC_Lumbar_Spine_Surgery_2024_July_redlines.pdf",
+          "snippet": "*National Imaging Associates, Inc. Clinical guidelines: LUMBAR SPINE SURGERY \u00b7 Original Date: June 2013 \u00b7 CPT Codes**: - Lumbar Microdiscectomy: 62380, 63030, +63035 \u00b7 - Lumbar Decompression: 63005, 63012, 63017, 63042, +63044, 63047, +63048, 63056, +63057 \u00b7"
+         },
+         {
+          "title": "LUMBAR SPINE SURGERY Original Date: June 2013 CPT ...",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/10.11.23/2/1884_LHCC_Lumbar_Spine_Surgery_2024_redlines.pdf",
+          "snippet": "*National Imaging Associates, Inc.* Clinical guidelines: LUMBAR SPINE SURGERY \u00b7 Original Date: June 2013 \u00b7 CPT Codes**: - Lumbar Microdiscectomy: 62380, 63030, +63035 \u00b7 - Lumbar Decompression: 63005, 63012, 63017, 63042, +63044, 63047, +63048, 63056, +63057 \u00b7"
+         },
+         {
+          "title": "CPT Code 63030: Lumbar Microdiscectomy Guide [Coding Guide] - BrainyBio.blog",
+          "url": "https://brainybio.blog/cpt-code-63030-lumbar-microdiscectomy",
+          "snippet": "For procedures involving multiple lumbar levels, <strong>CPT 63030 is reported for the primary level</strong>, while the add-on code +63035 is used for each additional interspace. When a surgeon treats more than one level of the spine, the Level Specification dictates the coding structure."
+         },
+         {
+          "title": "Microdiscectomy CPT: Essential Coding Guide (2024 Update) - Brainbound.blog",
+          "url": "https://brainbound.blog/microdiscectomy-cpt-coding-guide",
+          "snippet": "The 63030 cpt code description refers to a <strong>laminotomy (hemilaminectomy) with the nerve root decompression of a single interspace</strong>. This code serves as the primary billing component for a standard microdiscectomy. It encompasses the surgical approach, the partial excision of the lamina, and the ..."
+         },
+         {
+          "title": "What Is CPT Code 63030 for a Lumbar Microdiscectomy? - Biology Insights",
+          "url": "https://biologyinsights.com/what-is-cpt-code-63030-for-a-lumbar-microdiscectomy/",
+          "snippet": "CPT code 63030 is officially defined as a <strong>laminotomy with decompression of the nerve root(s), including partial facetectomy, foraminotomy, and/or excision of a herniated intervertebral disc at a single interspace in the lumbar spine</strong>."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_85187",
+      "args": {
+       "url": "https://www.point32health.org/provider/evolent-formerly-national-imaging-associates"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "Ep0DCpoDAWkUfROh8FkLecW2bY1ugdp6LE2Yxv8RHk8npyn6o9gQmS3NVZqmtQwXP3jequBhcZTwcURvJx9XkzP-TU1G5SD3aPMKNaSIDIQ0xdyHSLP7XZVCmsslhCGb0w34EJuJZ6MsltZWyHLyRyxL3qisaMT72KztZUd7AKPxsPDoL5J7KiMRz9sWJu8Bst4HPBoH2tlZEJtnmaCuIqq8Tk0Xqu8AA2yuo-QwYBwe219qj39_9WP5wWjK8yyhJtuix2q_mSdEMFfncA-NomR4MqSHIrWThqfQVhc9IGxU_1Fqz_3_htRQNv56H9_v_diLGW5oADrQE9dIKjuG1hQXKqQNv8r0ZY6j8DVd_ABCsaCTmEqB3I7O5dn_cs96B9EdUsUfA_pkoLsss0-VPB5Uv7u4hxpmxJLp0edm4M5R3u7NcDahe4q5YDGCFZq4MQFDrxskJTez6VPQrXC69-r_E_8xW2Q1FV_3x3rgYeAY2keY7ihJyRYPVSfYu1apZzdfzznGnIL0EVi4cDBRmfsn6bhklB3JtMKn317bL0o="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://www.point32health.org/provider/evolent-formerly-national-imaging-associates",
+        "final_url": "https://www.point32health.org/provider/evolent-formerly-national-imaging-associates",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "Evolent (formerly National Imaging Associates) | Point32Health Skip to main content We use cookies We use cookies and other activity trackers on our website to help improve your experience. You agree to their use by continuing to use our site. Learn more about online privacy and security . Viewing: Main Menu Our businesses : View our businesses: Point32Health Harvard Pilgrim Health Care Tufts Health Plan Provider Viewing : Visit our site as a: Point32Health Harvard Pilgrim Health Care Tufts Health Plan Provider Contact us Harvard Pilgrim Health Care login Tufts Health Plan login You're Viewing: View our businesses: Point32Health Harvard Pilgrim Health Care Tufts Health Plan Provider Back View Insurance Plans: Who we are Our impact Careers Newsroom Home Contact us Harvard Pilgrim Health Care login Tufts Health Plan login Breadcrumb Evolent (formerly National Imaging Associates) Point32Health has a partnership with Evolent (formerly National Imaging Associates, Inc./NIA) to oversee prior authorization programs for certain services, including cardiac diagnostic tests and interventional procedures; high-tech diagnostic imaging (such as CT scans, PET scans, MRIs, etc.); select joint procedures (hip, knee, and shoulder surgery); spine surgery and cervical spine procedures; and outpatient interventional spine pain management services. This applies for the following products: Harvard Pilgrim Health Care Commercial*, Tufts Health Plan Commercial**, Tufts Health Direct, Tufts Health Plan Together, and Tufts Health Plan RITogether. For members of Tufts Health One Care, Evolent is utilized only for high-end diagnostic imaging prior authorization. For members of Tufts Medicare Preferred, Evolent is only utilized for spine and interventional pain management services. In addition, Evolent conducts utilization management for sleep studies for Harvard Pilgrim Health Care members only (for Tufts Health Plan members, refer to the eviCore vendor information). While the ordering provider is responsible for obtaining prior authorization, rendering providers must confirm that authorization has been obtained and have the required authorization number before a service is performed. You\u2019ll find some resources and education materials for these programs \u2014 including utilization review matrices with coding \u2014 on Evolent\u2019s dedicated webpages (for Harvard Pilgrim ; for Tufts Health Plan Commercial and Tufts Medicare Preferred ); for Tufts Health Public Plans ). To request prior authorization, contact Evolent online or by telephone. Online: www.radmd.com Telephone: 800-642-7543 for Harvard Pilgrim; 1-866-642-9703 for Tufts Health Plan Commercial; 800-207-4209 for Tufts Health Public Plans Status and transaction numbers can be accessed through Evolent\u2019s website at www.radmd.com. You can also verify authorizations through our secure portals, HPHConnect for Harvard Pilgrim members and the Tufts Health Plan secure portal for Tufts Health Plan members. *for Harvard Pilgrim members, cardiac studies authorizations are not required for members under age 18. ** The cardiac program does not apply for the US Family Health Plan. Point32Health is the parent organization of Harvard Pilgrim Health Care and Tufts Health Plan. Together, we're delivering ever-better health care experiences to everyone in our diverse communities. Legal & privacy Nondiscrimination statement Website terms of use Privacy policy Accessibility statement Company Contact us Legal & privacy Nondiscrimination statement Website terms of use Privacy policy Accessibility statement Company Contact us Social links \u00a9 2026 Point32Health, Inc. All rights reserved.",
+        "text_truncated": false
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_45724",
+      "args": {
+       "query": "\"radmd.com\" \"Tufts Health Plan Commercial\" OR \"Tufts\" spine surgery"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EogGCoUGAWkUfRPR8fEOf02fRev7ZhlL1RJyFmknJ9pFXkkGeRNGVLxoRrM6g9PTAgJGHYLKsDxcqRhlwglWlPbNlKUn0xUxnuHKB77fBLSxezkMs6gXZwhONfaKcTy656ex5FETl7fNl-wJYpfS8rnV1jQu22bQxeahbOBNG9vi707gB7y0R1oqfK9CMisn20SSdUc6CRaA4rF4tpT7C-WSPUMsMKRRwQI2rVlhW0FOUK4I7AcVOk5CWRUdybPt58FelUmRA_Hd5QWDUh2v5vIx6zQsDTi-pHfM_wSZ1tUb9YTuXLp1qxph4-lnBNaKjU2s5B8W1Kp8yzl-iE3UneFSouB9akKhace8jEvJmdICfVjJqjzkHCLlKIQXkvu8Ac81yMVV1LA4KUqlnKRckOT-XssiiyZGK2fpnQ0MpTEl5c4kXxcrTzIYXoOY0t-eRYdX-QHxhrNvM8mSApPyIg-zqUTQY_apGCu45K0rMt9yt8jkJ6zi5Z2bcX4tSEmUZ3gH11ts2Zup4KBHjc-XjV4qGgdgHeQE7AngfInzh0jxT6QD7k07J_VtvXot1qLkS9fbZmnQXe4lpxmREPtcGdP8VwvIHNhtmLBc0gfV72bk4GPheLVaNG8Crqz8JcTgIbMNtcPK9cmlx0WZM5ofDV0kgkRzsRJJFyakDqrIMT-VLUKkjJD2dhuP-QVvuWzNHl0ePflo7EjLlrw8SO-BDFUpaJo1igNMT5VwWNSA_NAw-O3wyafdEZc1XXLAlsLoXao-814S5vEZQqbXK4flsi_1QXMmy4yILmOfTRtFXV6KO-dvs7tb7OVldrc3-hDjhQAwnbQsrNpnsjGh1shFWw9odC3llCo0CpiOsa9gjKkSrzgur9SGsJd5gWdP8biXgslvSwV8ZMDbtKWtp7f1LBSBKcrpUyVw4ig9U6tiAV1hbLVvu6pQz4PrKjBt2A_ux1JmL6UDmAz0vwjwGYDcGmLMmXwr4gV-9Zg2OxovjZ_FXJsP2Uh3RWh7n9HoNT5xEQqQHuHy7O4teEU="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"radmd.com\" \"Tufts Health Plan Commercial\" OR \"Tufts\" spine surgery",
+        "results": [
+         {
+          "title": "Tufts Health Plan Medical Specialty Solutions Quick ...",
+          "url": "https://www1.radmd.com/sites/default/files/2023-12/Tufts%20MSS%20QRG%2010.26.2023.pdf",
+          "snippet": "NIA will manage the Medical Specialty Solutions Services through Tufts Health Plan contractual \u00b7 relationships with providers. Medical Specialty Solutions Services performed in the following settings do not require authorization \u00b7 through NIA: \u2022 \u00b7 Inpatient (excluding elective spine surgery) \u2022 \u00b7"
+         },
+         {
+          "title": "Radmd",
+          "url": "https://www1.radmd.com/sites/default/files/2023-12/Tufts%20MSS%20FAQ%2010.16.2023.pdf",
+          "snippet": "Interventional Pain Management-Spine (Spinal \u00b7 Epidural Injections, Paravertebral Facet Joint \u00b7 Injections or Blocks, Paravertebral Facet Joint \u00b7 Denervation (Radiofrequency Neurolysis))* \u2022 \u00b7 Inpatient and Outpatient Musculoskeletal \u00b7 Surgeries* *Please see the specific FAQ for each of the \u00b7 Medical Specialty Solutions Program Services. Why did Tufts Health Plan \u00b7"
+         },
+         {
+          "title": "Tufts Health Plan Spine 2024 11.29. ...",
+          "url": "https://www1.radmd.com/sites/default/files/2023-12/Tufts%20Health%20Plan%20Spine%202024%2011.29.23.pdf",
+          "snippet": "For URGENT/EXPEDITED authorization requests, please contact the Evolent call center \u00b7 Sign In Sign up for a new account"
+         },
+         {
+          "title": "Evolent (formerly National Imaging Associates) | Point32Health",
+          "url": "https://www.point32health.org/provider/evolent-formerly-national-imaging-associates",
+          "snippet": "Telephone: 800-642-7543 for Harvard Pilgrim; <strong>1-866-642-9703 for Tufts Health Plan Commercial</strong>; 800-207-4209 for Tufts Health Public Plans \u00b7 Status and transaction numbers can be accessed through Evolent\u2019s website at www.radmd.com."
+         },
+         {
+          "title": "1 \u2013 Tufts Health Plan \u2013 Hip, Knee, and Shoulder Utilization Review Matrix 2025",
+          "url": "https://www1.radmd.com/sites/default/files/2024-12/Tufts%20Health%20HKS%20Matrix%202025.pdf",
+          "snippet": "Musculoskeletal surgery services rendered through the Emergency Department are not managed by Evolent (formerly \u00b7 National Imaging Associates Inc.). 7 \u2013 Tufts Health Plan \u2013 Hip, Knee, and Shoulder Utilization Review Matrix 2025"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_72079",
+      "args": {
+       "url": "https://www1.radmd.com/sites/default/files/2023-12/Tufts%20Health%20Plan%20Spine%202024%2011.29.23.pdf"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EqoDCqcDAWkUfRMvrdJchUopfvAGtxtibZyMdxIXfS6mYB-D6iXRdu62Q6GPRwhUG-34fQYbUzBSS2bN4vFkOgXncQS06mqCL7oTotbaU-FSD2OQxcPq-zNMWGXhVYFdLlPW_p5zoHg1lfIPdUDQivYElkQ6WM9sytB3PcDl1l4Zy-2axVT_x9k0TiZyj--lUnCq-ZLg3JGfNMuehjRlG5VioO55lgKhnykYy6HyRoVeIuVxpgj8vWlHrQ4u2Mk_qfXJUciQanfM7-6DhRpTr-TN48VjXaIT3Hac-GGl6lY_8mWTRCP5xJH9amIQhr9w7sdTXc4xvRPouwyMHss7HnCH8b5RpIph4z5keJXrElICNwVTSsaSlB9zLUIadYZNW3r2C3sdNC4B7I6qrQ7AJT9S9DnUquot01mmImJzu9Q7irLtnmaNJCAKF0rH3vCzg8AcMgbRO4UUwJwQ_-KDSCXNFjYh8nIljDNs5hQGaMJ6FsvqL9zh9Fzic_CEzAWIr3up_7K90jSPedHIxm5z0lt5pHvMsWYDuP55MZj5YS1YQQKhdYiAlBDiXv7h"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://www1.radmd.com/sites/default/files/2023-12/Tufts%20Health%20Plan%20Spine%202024%2011.29.23.pdf",
+        "final_url": "https://www1.radmd.com/sites/default/files/2023-12/Tufts%20Health%20Plan%20Spine%202024%2011.29.23.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": " * Effective 1/20/2023, National Imaging Associates, Inc. is now a subsidiary of Evolent Health. Evolent Health and its affiliates and subsidiaries collectively referred to as \u201cEvolent.\u201d 1 \u2013 Tufts Health Plan Spine 2024 11.29.23.docx2024 Tufts Health Plan Utilization Review Matrix 2024 Musculoskeletal Surgery (Spine) CERVICAL SPINE SURGERY Primary Surgery Request Primary CPT Code Primary Surgery Allowable Billed Groupings Additional Covered Procedures/Codes Ancillary Procedures/Codes Authorization is provided for the primary surgery requested. There are multiple CPT codes that can be associated with each procedure. These are assumed to be part of the primary surgery request and when completed in combination, do not require a separate authorization. These codes do not require prior authorization. If the main surgical procedure is approved, these codes are understood to be included in conjunction and do not require precertification from the health plan. *Please note: This is not an all-inclusive list of every ancillary code. Cervical Anterior Decompression (without fusion) 63075 63075, +63076 Vertebral Corpectomy: 63081, +63082, 63300, 63304, +63308 Instrumentation: +22859 Anterior Cervical Decompression with Fusion - Single Level 22551 22548, 22551, 22554 Decompression: 63075, +63076 Removal of Artificial Disc: 22864 Vertebral Corpectomy: 63081, +63082, 63300, 63304, +63308 Instrumentation: +22845, 22853, 22854 Bone Grafts: +20930, +20931, +20936, +20937, +20938 2 \u2013 Tufts Health Plan Spine 2024 11.29.23.docx CERVICAL SPINE SURGERY Primary Surgery Request Primary CPT Code Primary Surgery Allowable Billed Groupings Additional Covered Procedures/Codes Ancillary Procedures/Codes Authorization is provided for the primary surgery requested. There are multiple CPT codes that can be associated with each procedure. These are assumed to be part of the primary surgery request and when completed in combination, do not require a separate authorization. These codes do not require prior authorization. If the main surgical procedure is approved, these codes are understood to be included in conjunction and do not require precertification from the health plan. *Please note: This is not an all-inclusive list of every ancillary code. Anterior Cervical Decompression with Fusion - Multiple Levels 22552 +22552, +22585 Decompression: 63075, +63076 Single-Level ACDF: 22548, 22551, 22554 Removal of Artificial Disc: 22864 Vertebral Corpectomy: 63081, +63082, 63300, 63304, +63308 Instrumentation: +22845, +22846, 22853, 22854 Bone Grafts: 20930, +20931, +20936, +20937, +20938 Bone Marrow Aspiration: 20939 Cervical Posterior Decompression (without fusion) 63045 63001, 63015, 63020, +63035, 63040, +63043, 63045, +63048, 63050, 63051 Cervical Posterior Decompression with Fusion - Single Level 22600 22590, 22595, 22600 Decompression: 63001, 63015, 63020, +63035, 63040, +63043, 63045, +63048, 63050, 63051 Instrumentation: +22840, +22841 Bone Grafts: +20930, +20931, +20936, +20937 Cervical Posterior Decompression with Fusion - Multiple Levels 22595 22595, +22614 Decompression: 63001, 63015, 63020, +63035, 63040, +63043, 63045, +63048, 63050, 63051 Single-Level Fusion: 22590, 22595, 22600 Instrumentation: +22840, +22841, +22842, +22843, +22844 Bone Grafts: +20930, +20931, +20936, +20937 Cervical Artificial Disc - Single Level 22856 22856, 22861 Removal of Artificial Disc: 22864 Instrumentation: 22845, 22853 3 \u2013 Tufts Health Plan Spine 2024 11.29.23.docx CERVICAL SPINE SURGERY Primary Surgery Request Primary CPT Code Primary Surgery Allowable Billed Groupings Additional Covered Procedures/Codes Ancillary Procedures/Codes Authorization is provided for the primary surgery requested. There are multiple CPT codes that can be associated with each procedure. These are assumed to be part of the primary surgery request and when completed in combination, do not require a separate authorization. These codes do not require prior authorization. If the main surgical procedure is approved, these codes are understood to be included in conjunction and do not require precertification from the health plan. *Please note: This is not an all-inclusive list of every ancillary code. Bone Grafts: +20930, +20931, +20936, +20937, +20938 Cervical Artificial Disc - Two Levels 22858 +22858, +0098T, +0095T Single-Level Artificial Disc: 22856, 22861 Removal of Artificial Disc: 22864 Instrumentation: 22845, 22853 Bone Grafts: +20930, +20931, +20936, +20937, +20938 LUMBAR SPINE SURGERY Primary Surgery Request Primary CPT Code Primary Surgery Allowable Billed Groupings Additional Covered Procedures/Codes Ancillary Procedures/Codes Authorization is provided for the primary surgery requested. There are multiple CPT codes that can be associated with each procedure. These are assumed to be part of the primary surgery request and when completed in combination, do not require a separate authorization. These codes do not require prior authorization. If the main surgical procedure is approved, these codes are understood to be included in conjunction and do not require precertification from the health plan. *Please note: This is not an all-inclusive list of every ancillary code. Lumbar Microdiscectomy 63030 62380, 63030, +63035 4 \u2013 Tufts Health Plan Spine 2024 11.29.23.docx LUMBAR SPINE SURGERY Primary Surgery Request Primary CPT Code Primary Surgery Allowable Billed Groupings Additional Covered Procedures/Codes Ancillary Procedures/Codes Authorization is provided for the primary surgery requested. There are multiple CPT codes that can be associated with each procedure. These are assumed to be part of the primary surgery request and when completed in combination, do not require a separate authorization. These codes do not require prior authorization. If the main surgical procedure is approved, these codes are understood to be included in conjunction and do not require precertification from the health plan. *Please note: This is not an all-inclusive list of every ancillary code. Lumbar Decompression 63047 63005, 63012, 63017, 63042, +63044, 63047, +63048, 63056, +63057 Microdiscectomy: 62380, 63030, +63035 Lumbar Fusion - Single Level 22612 22533, 22558, 22612, 22630, 22633, +63052, +63053 Microdiscectomy: 62380, 63030, +63035 Decompression: 63005, 63012, 63017, 63042, +63044, 63047, +63048, 63056, +63057 Instrumentation: +22840, +22841, +22842, +22845, +22853 Bone Grafts: +20930, +20931, +20936, +20937, +20938 Bone Marrow Aspiration: 20939 Lumbar Fusion - Multiple Levels 22614 +22534, +22585, +22614, +22632, +22634, +63052, +63053 Microdiscectomy: 62380, 63030, +63035 Decompression: 63005, 63012, 63017, 63042, +63044, 63047, +63048, 63056, +63057 Single Level Fusion: 22533, 22558, 22612, 22630, 22633 Instrumentation: +22840, +22841, +22842, +22845, +22853 Bone Grafts: +20930, +20931, +20936, +20937, +20938 Bone Marrow Aspiration: 20939 Sacroiliac Joint Fusion1 27279 27279 \u2022 Payment for procedures is contingent on the patient\u2019s eligibility and plan limitations, if any, at the time the service is delivered. 5 \u2013 Tufts Health Plan Spine 2024 11.29.23.docx \u2022 Musculoskeletal surgery services rendered through the Emergency Department are not managed by NIA. \u2022 NIA does not prior authorize or manage the facility precertification for musculoskeletal surgery services. Add-on codes (+) do not require separate authorization and are to be used in conjunction with approved primary code for the service rendered. o Exception: multiple level add-on codes require an authorization for multiple level procedures ",
+        "text_truncated": false
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_160764",
+      "args": {
+       "query": "\"National Imaging Associates\" \"LUMBAR SPINE SURGERY\" filetype:pdf"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtUJCtIJAWkUfRMjtTYoiA4lBQ3NIJXMMoH4XZglSVSUy9_AabjKHvQzfmtf6_DkkH1lWbJUfFIbTstp-ynuQILQG4IMxx26S0m6MWi5Ey6hiLghBgn5b5HbWp9PDW3Z5jVBizmt0wLReljCBC-1r4LK4O7oiEyTpJQIlfne6I1IJNDrv1F8MEMsxgRJPqXWsS1Ajvx2xlryj74Hdy62lK9L4um-zQ6D4tefoTboMvNHe1pvlCLDhysfmQQKEe0jyhfuN0lPfBabnsuWFvLU1agJfGyvXZAGu38MmvaLAX9sFSE0kZui11wKq2ANALrWalhLuRyEIH7x3QcmZk9tXNLTQIXwd3Spxxxo_K9uundZylRfRJxxyohOLS4KWcwpiX6r85Ez02xsrD9YmDxEOYEOYnX_8TpYmOaaZKmWecjuU1cOR5kDjJjlcKROT0PWXm96byL4WQZgMbUI3dan_-n2tZr9-wC6638RxuZF5DqOreLC3k1GEh5ZroUgC8hAa2YDqYAo-bSA9x6lPlgG_uI0v7uUkvUxTzw6CtYHOkPQG3rPm_CchI_p0-o4P58cSeEZ7d7i17a277e7xfV4juMpXkI3oIuM2POS9FqOjrG35moSP_Q21KTIWuhPmuG4QOfGjNb7-9tbIIrnPrC9lfYw95ZGkdMPMd8PAuk704ULDzmKINB204Cpcwp7ulh9N3k3ovVRyK8iynn_7Bmceu_CR-YVXFZj-D77TMVwXeXreOa-DfMbwnFOxYSZxOO67sQrO3gEhVWbgVeFQtdHJGqZvuv6grFH3MYd-VOktARxP4poOOjdtKfa_VDxTpcNUmRP7Sa_PHYm6iIC4lD1OIOGsleO29q83XA5FFMbO46OZ6ALlYuJgtgUh32a3kNmNy0N9ArkHBv9kNAsKWW6oWOKgMUQ7a3mLjXFeYB4b5MvKpJ5jYxYCOcyf4wpkH8NYBAyIJ5itYgBPUKdlLQjyF-_5HFACLs3VgFIX5AEL3RB-ntES16x-2IfATE5WnAPJdp2vzAASlvzg5oU1C9dLh8GOxUejgyaHL7htiFBErQxoBcJlsNc6UK9nIcDTXJk_MEhpNiM4ate9cdg-VD0F99bghMY9igm19mlWQwR9HXUw9v1puKY-H9w-wqByYc_AYGFvPxYGDNHaPeqYprdqR7jHuID4mrVHU-sLsbMd5wX5J0I3dIw4NgU-pKOTDEvqjUbGSj9MYSrT5EoFh8FNdllpxZ_RchpfCMPZtfSOEhTFc_L4UTI6bryBKxJQG6YzJ3s2P5OZTSuurlNt4D_l-D1bbr-D-S9M5XAhH5VwQFhh-Z59tssjKlrb0vSVXzN6sYsgdnG-9Q8CHqIFHBqxEsKKGtEIYyUOL3VbqVXlNMJdMdFweGYMToZSc2P_1IcjCC397ff1JJNiJkdnHju_JlBQ3eyqO-RoVFjnHmHns5xV_566jl-qp3GgMYKak3pD5cAzF2yudyYTorFkJDwoeZMK8IMHhoZhFx-qRwJRrdW04N7dvb1sb0g62w4gWvTl964uevAy6hrdDXTzryjjRRN3-MSXFU3renvCop0cnUHZOYNyIZ4sf5A69WZCPA3h83soq8htmgdRNWdQEJkeOj9w1ddXgJy2o0hlRBMZ1jD-2bK3wL5_g=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"National Imaging Associates\" \"LUMBAR SPINE SURGERY\" filetype:pdf",
+        "results": [
+         {
+          "title": "LUMBAR SPINE SURGERY Original Date: June 2013 CPT ...",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/10.11.23/2/1884_LHCC_Lumbar_Spine_Surgery_2024_redlines.pdf",
+          "snippet": "Lumbar Spine Surgery \u00b7 *National Imaging Associates, Inc. (NIA) is a subsidiary of Evolent Health LLC. \u00a9 2013-2024 National Imaging Associates, Inc., All Rights Reserved. OR 0-3/5 for L3 or L4 roots. Lesser degrees of motor dysfunction may resolve with \u00b7 conservative treatment and are not considered an indication for early surgery OR \u00b7"
+         },
+         {
+          "title": "Page 1 of 23 Lumbar Spine Surgery",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/6.14.24/2/1884_LHCC_Lumbar_Spine_Surgery_2024_July_redlines.pdf",
+          "snippet": "Lumbar Spine Surgery \u00b7 *National Imaging Associates, Inc. (NIA) is a subsidiary of Evolent Health LLC. \u00a9 2013-2024 National Imaging Associates, Inc., All Rights Reserved. *National Imaging Associates, Inc. Clinical guidelines: LUMBAR SPINE SURGERY \u00b7 Original Date: June 2013 \u00b7"
+         },
+         {
+          "title": "LUMBAR ARTIFICIAL DISC REPLACEMENT Original Date",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/3.16.23/2/1883_LHCC_Lumbar_Artificial_Disc_Replacement_V2_2023_Redline.pdf",
+          "snippet": "developed specifically for spine surgery. The following describes each of the \u00b7 edits NIA applies: \uf0b7 Outpatient Code Editor (OCE): This edit performs all functions that require specific \u00b7 reference to HCPCS codes, HCPCS modifiers, and ICD-9-CM diagnosis codes. The OCE \u00b7 4\u2014 Lumbar Artificial Disc Replacement \u00b7 \u00a92021-2022 National Imaging Associates, Inc., All Rights Reserved \u00b7"
+         }
+        ],
+        "result_count": 3,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_88398",
+      "args": {
+       "query": "\"National Imaging Associates\" \"LUMBAR SPINE SURGERY\" \"discectomy\" OR \"microdiscectomy\" OR \"decompression\" criteria"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpIFCo8FAWkUfRO290-66FID2ZciwL2yAqn4p6dp3kHAuBoKEWDc17y5v5yeVvIocv64sCGLmlRWUNtWaw1e6WVccTrXlbugEGWzC7fMOfetG0dryU3sxS7sNb0M7UM86JLOmVmLehWuT07i6NFAbMXQtZlpI6LNJipwD7VGWgv2xBaoXMAbeZAm38dJYo3f62crO0yy3S90HsV8eSw_PrmVaPZM09NfGliNWps523Erwjq9s2EPbHs7U6sXOcw0oPJByTy_wH9vEBf3t33Y0_Yh13-J-MCiePSEFNZlE-oYG8uVwRBGZcLKTd7aUd4L4wgf9IRo8QQMuJUDBT5JwhgYs-W2-eNQY3uUNCpOkGpyFk6zUyTLho7SatSOAEvqEsIOFrDbSXtppo2EodrgEbvyzeH74-mC8xgEidoTXdpmo7-1engPqL-9DdxhrzyfPcq1OW3ZSKRVEKe6YgbD2b4QkG8ZUVKvu9E2vtd4rsYbIUvQaWBNUSFtGOO-TGPRjtijzMVtdo-hqTfjpw7TQAacs7K2qaMwcAuQcJp9ld7B--ryWBXISODQUeofFIIIpBzxfykq_VZvlTCH93lCwmaRKKhUK_dDRSSQp2x7ZnI8_lXtStQevr4ZgClfZfOgcINpXIqg94cSWA8KWvlsT4gfuXTCmJKAIivEo7NZYfcsIW51LSp4lK42MxEyVOLIr11qKcw-PTsYPZenudGIqSMLRKMZIrghn7KRuVEAF6FwHX8E2aqsRxuZy0Y7Z73bQl9YsqgB3TsutELin1SvV3DKcaV4mALz4ZdmeH3P1XA7bQeM2JtdanVJIzaQwpAwxHhV8rjIeqacfcvtF5KHsW7zEHgmVyRhlBMottp1-ilVXXClNw=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"National Imaging Associates\" \"LUMBAR SPINE SURGERY\" \"discectomy\" OR \"microdiscectomy\" OR \"decompression\" criteria",
+        "results": [
+         {
+          "title": "Page 1 of 23 Lumbar Spine Surgery",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/6.14.24/2/1884_LHCC_Lumbar_Spine_Surgery_2024_July_redlines.pdf",
+          "snippet": "Discectomy (APLD), percutaneous laser, nucleoplasty, etc. are not covered. ... Laminectomy is a common decompression surgery. The American Association of Neurological"
+         },
+         {
+          "title": "LUMBAR SPINE SURGERY Original Date: June 2013 CPT ...",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/10.11.23/2/1884_LHCC_Lumbar_Spine_Surgery_2024_redlines.pdf",
+          "snippet": "Decompression surgery is usually performed as part of lumbar fusion surgery. Lumbar Fusion Surgery: Lumbar spinal fusion (arthrodesis) is a surgical procedure used to treat \u00b7 spinal conditions of the lumbar, e.g., degenerative disc disease, spinal stenosis, injuries/fractures of \u00b7 the spine, spinal instability, and spondylolisthesis. Spinal fusion is a \u201cwelding\u201d process that ... procedures of the spine, such as discectomy or laminectomy."
+         },
+         {
+          "title": "Microdiscectomy - StatPearls - NCBI Bookshelf - NIH",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK555984/",
+          "snippet": "Checking your browser before accessing www.ncbi.nlm.nih.gov \u00b7 Click here if you are not automatically redirected after 5 seconds"
+         },
+         {
+          "title": "Lumbar Spine Surgery Guideline",
+          "url": "https://www.lni.wa.gov/patient-care/advisory-committees/_docs/LumbarSpineSurgeryGuidelineSeptember2021FinalUpdate.pdf",
+          "snippet": "decompression, and depending on the condition or diagnosis <strong>3-6 months of care prior to fusion</strong> ... microdiscectomy, foraminotomy, and far lateral decompression."
+         },
+         {
+          "title": "Subject: Thoracic and Lumbar Spine Surgery",
+          "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-48&pv=false",
+          "snippet": "Scheduled review. Revised criteria for lumbar discectomy/microdiscectomy; lumbar \u00b7 decompression (laminectomy, laminotomy, facetectomy and foraminotomy); single level"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_60497",
+      "args": {
+       "query": "site:ldh.la.gov \"1884_LHCC_Lumbar_Spine_Surgery\" \"lumbar microdiscectomy\" OR \"63030\" OR \"decompression\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqYGCqMGAWkUfRPLFYbPMj_3mGyVAW4DsiNI88yTRqeDNk52GjLLX-5ZDGrD7pmydLG1jMc9SWrwUD1jSlLMcya2br776-flr3164i8F-dErVud6uVg2_syp0RIeNK0WRzBBTsqNq_zjo1WmIgKWGpNbPLMGzLl9Yb5bHisbuUlxmEZjqbfxNu4W_qOwA7EzIn4_3jJSgwS6oZh6tELViS5SZNaVFYrSjPwjVCNQd1uWHAx8K8-W7uCzXCtiojry5Ihsat3ABf4oygHQOFaWkhoC_srVeUqC8nfDxEA0VMSqEyKt-_U6qG6REXNWlM0BLNaTBrM_ET-EJ3kJc02IyK8bNsVloapsdRibRxsJqvPNzaDxipr9JfXK6BX1gHeqonYYcZ-WYc3v7_wut2olyDFUcKMkNkJsvGy_mj6WyHRxQ5Zyrggag4bprQ_VLw5KumGqFNJjZ3xByU9I4PJthXPVPaNA-1jhBrfwv4m8j0rvbDRUp5YdFqQhdBVXg2qrZNzQn6logYQ8HnQcGNJ3n2SG5ROtoWJY1g_097csR_aWzqEdew-dXOTUTfe8qByCWU1xW2F9BHuLjt2IoXESm5crH2XN1G1sT2MHInxjIvs_i47yVtoKXkZ7r--xZTJSP6cwcmfWHZ6s3IpNiVTisHtCzRYNctt7uu43ZPDOrOUkNzvnOb4dSmlMIIRKDV8-G3DhsiabU6KXI075KkD07H4XzZQq2_uuSCm21QEV5Y_EV7vSUTixHEUsXh6c40BNhv47bCbdCuZTJsqfTWUDY_nMkcJ6qmPNaarYo9VqlAY20qBjUw5ixEnpxXFl7hY1MHN9ii5aqdjPKyOzkc8nhI9mp9-kIZi7Is9bBGgKUMrCuejhHkRirorIlZmaZy-2TzxiheGFbDizb-rcwJusiTw0pQSNbQrv3k2TTkY2BfbzX61ioubhda23bpYa-0ZerLQewehLbTQTngMng3RYzysRTZGNP6cXCw0VDUO4EQ7BpO_vvupjjXMpjl5DW0viwoRdgYDwg1ZrOMo94o05jOE1a3icpQCWb4KPTPOtXylAmbKsCJV9-n4="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:ldh.la.gov \"1884_LHCC_Lumbar_Spine_Surgery\" \"lumbar microdiscectomy\" OR \"63030\" OR \"decompression\"",
+        "results": [
+         {
+          "title": "LUMBAR SPINE SURGERY Original Date: June 2013 CPT ...",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/10.11.23/2/1884_LHCC_Lumbar_Spine_Surgery_2024_redlines.pdf",
+          "snippet": "Lumbar Microdiscectomy: 62380, 63030, +63035 \u00b7 - Lumbar Decompression: 63005, 63012, 63017, 63042, +63044, 63047, +63048, 63056, +63057 \u00b7 - Lumbar Fusion - Single Level: 22533, 22558, 22612, 22630, 22633, +63052, +63053 \u00b7 - Lumbar Fusion - Multiple Levels: +22534, +22585, +22614, +22632, +22634, +63052, +63053 \u00b7"
+         },
+         {
+          "title": "Page 1 of 23 Lumbar Spine Surgery",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/6.14.24/2/1884_LHCC_Lumbar_Spine_Surgery_2024_July_redlines.pdf",
+          "snippet": "Lumbar Microdiscectomy: 62380, 63030, +63035 \u00b7 - Lumbar Decompression: 63005, 63012, 63017, 63042, +63044, 63047, +63048, 63056, +63057 \u00b7 - Lumbar Fusion - Single Level: 22533, 22558, 22612, 22630, 22633, +63052, +63053 \u00b7 - Lumbar Fusion - Multiple Levels: +22534, +22585, +22614, +22632, +22634, +63052, +63053 \u00b7"
+         },
+         {
+          "title": "Page 1 of 13 Evolent Clinical Guideline 1766 for Lumbar Spine Surgery",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/2/1884_LHCC_Lumbar_Spine_Surgery.pdf",
+          "snippet": "\u25cf Lumbar Microdiscectomy: 62380, 63030, +63035 \u00b7 \u25cf Lumbar Decompression: 63005, 63012, 63017, 63042, +63044, 63047, +63048, 63056, +63057 \u00b7 \u25cf Lumbar Fusion - Single Level: 22533, 22558, 22612, 22630, 22633, +63052, +63053 \u00b7 \u25cf Lumbar Fusion - Multiple Levels: +22534, +22585, +22614, +22632, +22634, +63052, +63053 \u00b7"
+         },
+         {
+          "title": "Page 1 of 8 Clinical Policy: Disc Decompression Procedures",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/8.12.22/1383_LHCC_LA.CP.MP.114_Disc_Decompression_Procedures.pdf",
+          "snippet": "Clinical Policy: Disc Decompression Procedures \u00b7 Reference Number: LA.CP.MP.114"
+         },
+         {
+          "title": "Spinal Fusion and Decompression (for Louisiana Only)",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/1.29.24/1847_UHC_spinal_fusion_decompression_la_cs1_Redline.pdf",
+          "snippet": "UnitedHealthcare, Inc. (\u201cUHC\u201d) Proprietary and Confidential Information: The information \u00b7 contained in this document is confidential, proprietary and the sole property of UHC"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_110456",
+      "args": {
+       "url": "https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/2/1884_LHCC_Lumbar_Spine_Surgery.pdf"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EtYECtMEAWkUfRMBTG_hKKixVafctURJUwL9NIfIIsmSniBWr1t6tUg5e_ERxG3pXAS746yuRElw5NKp6hmRI3iSBhNC44qK20kBd4oT6Z0BFt0wXMIJIHobmMQDBBqo1GNjPX9vQ0lwlMvycp_b5wWKz6IQNXRUt6UGkXQsgKqFE2EdBJPlDKO2pm0bafT_ebZPPhk6z6GIdO0pZ_qYcuWmhGJYmJ47tHgYXHlsnZRWTuiVu6F9CuuASjG2JdZlhIwft5udxqQoEuqj8wT6Irrmg6S2-xTLQ8P1HvRnPmH-mSL3vwwNg9P7wowhiJ7SjQfC86iQ-Ft45gPqpp8YvTMKc8yaTGVEguWKma6j5804QOLUZ0R-EFN-GOO43eWC7YpwjKsdhTxcxyZR5y3gNrOQToKQi90qZ9y1nytfQMLRrC_4ZPDgpyBg2xumwh91dZ7p4uqB7adaOWUPIfLKjbFhsNt08_8ZzpUrY2FkBZMkQE4GZ8FC1I7xibwrRJ95eJKjAcTDJf7lzidEGE2DuN59HqScrhdnzwrvNyQiLFdiWsjn1fONV8H9BEA8ikYXAlSEhAld-WRzIPm6Sce966cWEaWUTnT6h_i1QsOefTLUyXs40jfes3XmpuX0giRaFh-9iS2kD29NQp_udgYPYxkiU2pVEjVIw2oyyFKOMgL3RqcgVuXDK7g79e0daXb2_aznY30MXezDt9cJExctujzwARMjPNEYM-hdfktLMNK4gwpnn9WHzqBGPH-E_Om8d46ydhpXv9434vVhhTJClE4aG4qh5o711Q=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/2/1884_LHCC_Lumbar_Spine_Surgery.pdf",
+        "final_url": "https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/2/1884_LHCC_Lumbar_Spine_Surgery.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": " Page 1 of 13 Evolent Clinical Guideline 1766 for Lumbar Spine Surgery Evolent Clinical Guideline 1766 for Lumbar Spine Surgery Guideline or Policy Number: Evolent_CG_3041766 Applicable Codes \"Evolent\" refers to Evolent Health LLC and Evolent Specialty Services, Inc. \u00a9 2013 - 20242025 Evolent. All rights Reserved. Original Date: June 2013 Last Revised Date: December 2023November 2024 Implementation Date: July 20242025 TABLE OF CONTENTS STATEMENT .......................................................................................................................................... 2 GENERAL INFORMATION ......................................................................................................................... 2 PURPOSE .............................................................................................................................................. 2 SCOPE .................................................................................................................................................. 2 SPECIAL NOTE ...................................................................................................................................... 2 INDICATIONS ......................................................................................................................................... 3 LUMBAR DISCECTOMY/MICRODISCECTOMY ............................................................................................. 3 LUMBAR DECOMPRESSION ..................................................................................................................... 3 Laminectomy, Laminotomy, Facetectomy, and Foraminotomy ...................................................... 3 LUMBAR SPINE FUSION .......................................................................................................................... 4 Single Level Fusion With or Without Decompression ..................................................................... 4 Multi-Level Fusion With or Without Decompression ....................................................................... 5 REPEAT LUMBAR SPINE FUSION OPERATIONS......................................................................................... 6 RELATIVE CONTRAINDICATIONS FOR SPINE SURGERY ............................................................................. 6 NON-COVERED PROCEDURES ................................................................................................................ 7 LEGISLATIVE LANGUAGE ................................................................................................................... 7 WASHINGTON ........................................................................................................................................ 7 20151120A \u2013 Lumbar Fusion for Degenerative Disc Disease ........................................................ 7 20180518A - Surgery for Lumbar Radiculopathy/Sciatica .............................................................. 8 CODING AND STANDARDS ................................................................................................................. 8 CODING ................................................................................................................................................ 8 CPT Codes ...................................................................................................................................... 8 APPLICABLE LINES OF BUSINESS ............................................................................................................ 9 BACKGROUND ...................................................................................................................................... 9 DEFINITIONS .......................................................................................................................................... 9 *CONSERVATIVE TREATMENT ................................................................................................................. 9 **HOME EXERCISE PROGRAM (HEP) .................................................................................................... 10 POLICY HISTORY ................................................................................................................................ 10 LEGAL AND COMPLIANCE ................................................................................................................ 11 GUIDELINE APPROVAL ......................................................................................................................... 11 Committee ..................................................................................................................................... 11 DISCLAIMER ........................................................................................................................................ 11 Page 2 of 13 Evolent Clinical Guideline 1766 for Lumbar Spine Surgery REFERENCES ...................................................................................................................................... 12 STATEMENT Operative treatment is indicated when the natural history of surgically treated lesions is better than the natural history for non-operatively treated lesions. All operative interventions must be based on a positive correlation with clinical findings, the natural history of the disease, the clinical course, and diagnostic tests or imaging results. All individuals being considered for surgical intervention should receive a comprehensive neuromusculoskeletal examination to identify pain generators that may either respond to non-surgical techniques or may be refractory to surgical intervention. Aggressive surgical approaches to fusion may be an indication for denial of cases (when such techniques have not been demonstrated to be superior to less morbid techniques) or recommendation for alternative procedure. Because of variable outcomes with fusion surgery, individuals should be actively involved in the decision-making process and provided appropriate decision-support materials explaining potential risks/benefits and treatment alternatives when considering this intervention. General Information It is an expectation that all patients receive care/services from a licensed clinician. All appropriate supporting documentation, including recent pertinent office visit notes, laboratory data, and results of any special testing must be provided. If applicable: All prior relevant imaging results and the reason that alternative imaging cannot be performed must be included in the documentation submitted. Purpose This guideline outlines the key surgical treatments and indications for common lumbar spinal disorders and is a consensus document based upon the best available evidence. Spine surgery is a complex area of medicine, and this document breaks out the clinical indications by surgical type. This guideline does not address spinal deformity surgeries or the clinical indications for spinal deformity surgery. Scope Spinal surgeries should be performed only by those with extensive and specialized surgical training (neurosurgery, orthopedic surgery). Choice of surgical approach is based on anatomy, pathology, and the surgeon's experience and preference. Instrumentation, bone formation or grafting materials, including biologics, should be used at the surgeon\u2019s discretion; however, use should be limited to FDA approved indications regarding the specific devices or biologics. Special Note See Legislative Language for specific mandates for the State of Washington Page 3 of 13 Evolent Clinical Guideline 1766 for Lumbar Spine Surgery INDICATIONS Lumbar Discectomy/Microdiscectomy (1,2) Surgical Indications \u25cf When ALL of the following are present: \u25cb Primary radicular symptoms noted upon clinical exam that significantly hinders daily activities \u25cb Failure of conservative treatment* for a minimum of six (6) weeks within the last six (6) months; NOTE - Failure of conservative treatment is defined as one of the following: \u25a0 Lack of meaningful improvement after a full course of treatment; OR \u25a0 Progression or worsening of symptoms during treatment; OR \u25a0 Documentation of a medical reason the member is unable to participate in treatment Closure of medical or therapy offices, patient inconvenience, or noncompliance without explanation does not constitute \u201cinability to complete\u201d treatment. \u25cb Imaging studies showing evidence of inter-vertebral disc herniation that correlate exactly with the individual\u2019s symptoms/signs Other Indications Microdiscectomy may be used as the first line of treatment (no conservative treatment required) in the following clinical scenarios: \u25cf Progressive nerve compression resulting in an acute neurologic deficit (motor) due to herniated disc. The neurological deficits should be significant: 0-2/5 on the motor function scale for L5 or S1 roots OR 0-3/5 for L3 or L4 roots. Lesser degrees of motor dysfunction may resolve with conservative treatment and are not considered an indication for early surgery \u25cf Cauda equina syndrome (loss of bowel or bladder control) Lumbar Decompression (1,2,3,4) Laminectomy, Laminotomy, Facetectomy, and Foraminotomy Surgical Indications \u25cf When ALL of the following are present: \u25cb Neurogenic claudication, and/or radicular leg pain that impairs daily activities \u25cb Failure of conservative treatment* for a minimum of six (6) weeks within the last six (6) months; NOTE - Failure of conservative treatment is defined as one of the following: \u25a0 Lack of meaningful improvement after a full course of treatment; OR Page 4 of 13 Evolent Clinical Guideline 1766 for Lumbar Spine Surgery \u25a0 Progression or worsening of symptoms during treatment; OR \u25a0 Documentation of a medical reason the member is unable to participate in treatment Closure of medical or therapy offices, patient inconvenience, or noncompliance without explanation does not constitute \u201cinability to complete\u201d treatment. \u25cb Imaging studies demonstrating moderate to severe stenosis consistent with clinical signs/symptoms Other Indications Lumbar decompression may be used as the first line of treatment (no conservative treatment required) in any of the following clinical scenarios: \u25cf Progressive nerve compression resulting in an acute neurologic (motor) deficit. The neurological deficits should be significant: 0-2/5 on the motor function scale for L5 or S1 roots OR 0-3/5 for L3 or L4 roots. Lesser degrees of motor dysfunction may resolve with conservative treatment and are not considered an indication for early surgery \u25cf Cauda equina syndrome (loss of bowel or bladder control) \u25cf Spinal stenosis due to tumor, infection, or trauma Lumbar Spine Fusion (1,3,4,5,6,7,8) Single Level Fusion With or Without Decompression Surgical Indications \u25cf When ALL of the following are present: \u25cb Lumbar back pain, neurogenic claudication, and/or radicular leg pain without sensory or motor deficit that impairs daily activities for at least 6 months \u25cb Failure of conservative treatment* for a minimum of six (6) weeks within the last six (6) months; NOTE - Failure of conservative treatment is defined as one of the following: \u25a0 Lack of meaningful improvement after a full course of treatment; OR \u25a0 Progression or worsening of symptoms during treatment; OR \u25a0 Documentation of a medical reason the member is unable to participate in treatment Closure of medical or therapy offices, patient inconvenience, or noncompliance without explanation does not constitute \u201cinability to complete\u201d treatment. \u25cb Imaging studies corresponding to the clinical findings \u25cb At least ONE of the following clinical conditions: \u25a0 Spondylolisthesis (neural arch defect - spondylolytic spondylolisthesis, degenerative spondylolisthesis, and congenital unilateral neural arch hypoplasia) \u25a0 Evidence of segmental instability - Excessive motion, as in degenerative spondylolisthesis, segmental instability, and surgically induced segmental Page ",
+        "text_truncated": true
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_84380",
+      "args": {
+       "query": "site:ldh.la.gov \"1884_LHCC_Lumbar_Spine_Surgery\" \"imaging\" OR \"MRI\" OR \"X-ray\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EoMdCoAdAWkUfRNQMxXFdBHEFBkN9-ERZCvyTX0BZzjzuoNcsur0RY01z5Sk0sfdE4A3_kC-G1PV35nu7L6QnRCH8yXjTebrurtYGF7X91hJB4nkOtJfbDChXQxrYHVwpR8xDtasipGqjVCb7LWtXhM0svjSNmZ0afu4wZuwVT2SfN33Oma8RVjxIWeYfX8HdReFy6CveEsREcGZodz_Kal6e3ved_Evqov1CTVFU-qoB7YcIiggL3R2bY6LlE04vSCIXMQE0DnF59VmmJtHLeMty1YHGyXA1fVyGOzj4RMeM4Kj3MfOj2U4XwyFg9dN029A-67prIpGs_eUkOI8_2y_5PDbeNbOUBOjtBMd_lY1c3FLeKK4cT0ypJlhQcMqcMaadeyPVfxBTQXWpCUm-0pALBKS5IWaQWXdKAHuOBaHcLI0ckrwDOtZWNxcpcgL_gTZ9tCq96ni7CdM4Cgl9deIDf_5aZduZe5SDlYFdONmoPeU4UsNTolhLLbezsOzvM-3u-whE93IHMme5qFfbeflWQzqc4eMmTX_FuJZfy5WFHcDHpYlG_mteTYIHrb3h7_vo89JKWNiYjStswB6oEW6iEUnTeot_IJAtAOlJVw4joKrclHHg-aGJuBOnJct8hl1cYmLmPIAX-6eZq8exNNimg0cMvDExQ6hkIIHD1yccUysgT8oAJTDe6v6W8gehXQrM8GF3xvpkyAvRRLgaUM1o22oGEHGcvUCEFdNW8S5guR2BMjgPKhqhdAsnxOudDqmBUoCbQIoonDu7-Qu33fjciVqoUdlFfz4q8lquUEEbZKf2xcV_V1NBx8bgs0FBDHHzspcoqNPV-phKABM8LVN_LmuHMu1iU6D97WVJ7WlnPHRQsEev03oRoUIUOa1y8BlF_U_HnpZsdy-FSFQmhM3Y7wfzbDZ5oS3xyJTNqgjoSeH_f4J9MeW41Ea0nolOb56qAEaCOypC2xzNv1AERXvi7V328XwiF91vkYXhkzpcjrtW1n1iDCp2hrMoDXGI2OnQnRMO770bzXP_JSLR6iQTzUlTRt5Pm2CxJawJ3kLwWU_z9ffmuE8wmQrcNk2R1hKqUpccQn9o_FcnEviYaIpJ1-rnJnYqUsOKubPEleEuqYWGQwetGXStgjYyOuTuL93Rat1aHiJ6iDlEfXzZFPBqIDOIEwuuGhFAS8_iXM7xuxVZFEKu5rusWPD3vpHgOL6ERbU9SCuVlLdM-PUowhSsWjc-TEv3F1ttDlfH76oFP0XhqSBAHrA9c3-a6exg_DBTfcjYx5WBXsnJNgyJlXzDB4oCk39rxyGZbyxDanE1mbNZMxKK0fuaa6jitQ1fpF3SgZjaOIcqkNIAziH4_dnCj9g3eIhRhRzWIRD-LBMD5XyMw8sRPWptYKHHn6D5Hc3XhHv2N009ejzBGiwpp96v4v3ZLoKxCvFGPLhlyicU-HxqqIrsB8sJRzYznC_FAosjmJpd62sUfzFqA2nRw1Bwy55Prp85FcAJYFd_z0czPQX1BO7U1tiYh4pGZGLgMUvCqsJiAo39SfCxsbIlQCIahE2FQ6hqUggaWoDgZuiG5kklFygxuXannowJ1E-Xo8jjesG952wW9sSYcBF_7KwwE0GSNSYiEif21ZXktI1qJYx3SXM__RSDKLjft-rD6LOH2suEroQjw92d8LfEEiKN8vrZ8nZsvY0bOz4dXXpJkp38701irq_w8CppQDpGc37_YVG5pZ05iaPSdmUEfUtIpUfOd0nSQ5E9FyTQcuxTWLuq6jbzw_l2_fc5UH7-Ylg1boqfuFXHagFzRQl154QQvWn2w_RKkrL6b6YcNp_Qh8JaErrYy4knZERFXf8-59XQ7pMIyosoZ_cIKCTvcq080B8u1KwK8APuWhYek2F9-dsxayTrH261Lg4w67jRMx-hbgMELnrXGkPyDHwAEonMAVKIUV5YqAmFaTC1_dzlgBJx4sJF-ocsaY2Kj0uQlLXVk9YJhRhq5IXwSGXSjLrA2GisXZ2MF_X-ERSu8ZfZWFOY1K0MhjCYYZbqnbNP_ROMq0LGZHHKcpxFElg5ERgnExuLz2jXjVHQ3oLUxDWUvTGw_Lwq8G4P4wcSm_viRKvs62qHG58JXYSm8evKcCHNf1RF2aMkGCJbfPzskTH_lXddOoMVOIFLbZy0XlddSJiCD4qwJiS712k6wjcStOdNI29P98tclHTzSPODMBavELtPOrzuB6vlFLgOv4GLOsPyWxCwuv5oUajLzBPT_ZzoNcdVTEQGTi9IA3gBdeeUNie_xtXlmOIEsB9stGSmSHtDhgk_orm8D1I0-BIR-qXkEEWb9NvvAhclIGJrn5XSybzns0qPcA1vO0Oa3Rc0uREvXg5PXD4LnRKdGXTyPAng3Lhlbx8IG-RokQnnAfCpqIlkqpeBv2DuHaCNu-If8a-ZUlj85SeSvKgQ8ip6IA4E0JUPuGQHRpBsptgML8_dbnXwN2FLENRS48CzmwIjynRhN7NBOBsao72pbffXrasqMR0NALWObQBo_5ATfJHOaCIRB4-ue-FmhccpSCYSLooX3TEupBNxCwsQOazXzwybge-cN_kOkLgnh6nUTQoZrJrQSQa7f_lWODvqCqS1Cw6YFYscL9OjfxJyFyx-LfNb4LIs8g3srEiNvxgqhtoeWabM5PUKwlboKD7SPFQ4Jx0ylhSnOymcdZ9sjKo3GqbRFv-Lfbn922XEDdskTlAny2e0XNhICm0YCS8WiunlVXzKfteXYS_7Q1JFXlD0soV8SyztHwJ20LdV6_mKiqOjXyVAVNCxbyE6pNOXr0RogM432tdQAcC8w0WuTBZAkV4jO3Royh_C29vwQR5LyTmnJ7eexMNy56ei2_lEnKdfGKojxvEs8wLASRXjx7x8OMQV8yAPU85SH3m6AZzQgvajMSlAUs9j3JIDwIbnHUgER2SYKBE7faIC9-dFEUlhtaRRdbBrJjanepPyWR9OY3p8Kf7cQg3ySPB8XS5RszOaxmtFNtnigKXrSspiq9noR_T3J_-c8Is5buntKt5HUVeqL_hu2dNf9beYDkKPv7Vk7iilUFt740QX6Fx87c3WIr6h2wxBCgKTjU_ZJa1uDjhHBuvHMoAoq6VbkUX7vuEe6_bbjelsOgJvb4Ue1JGNmJm_1MPjFTjx_zfnZRZxXOWJGvA4Acy0RNtmMQSeuYi5O83YjuLD6q0wiEDslDUY7cYiHlon_iJ4ln1ddEnmm14xLARiEwIGUjClQDQ_eBORMs_TPEz_A8IYbV1V9pdbTWfvp3qhKZ1u_NGyJqjemF2Dk4YSTnh_INgs6iVrOphkE65RLSruUOjEcmMtdDdQVTH00W1Yqjn00w2m9rAD1iLODk0WEIAUAD-cYRQlKSI9DVTU6wSH3Lzofu5MQ9Q9dUfmj6wo4B6gaT6EgoElp--I25ohlseOmHkJ4Ps4Z1eT9pqxNIfbrIRbnC8YJybbdj0JFJuhUbcRpAwQ_SEH88xjTiJy4GOXk4bjMq8hLCn2bOkZPz1vfCT-1gYnJOuuItpKZgAIl2vgVZxE3jeOZ4hlu2o2f40YfKqEkrxKwXEZO0_ZWUrXUKxG1W7-QgyvFtbDyrDJSpacqCBEIJ-FmAygQv8sXyKqKN-hSjZT9pBR6qgkfD4z0qRKKW7_zJn5bbmxAgw52ZK_iRo1ZAuQGx_SzeruT3f9W370neYGUSnwyiVEAFKNQYv8DbeIWQozrGoQ09zru9dcw2lgXxhI0WZY9b_ZkQcEz8AzKDa9tZDU9VLMZQSZLGnRh1o6nPalf4HCGBbkfcVv2qg2s0mksvZ2qXVT-rtoqALGr_kxgaG-Kuyld-aYCpTEEZ1UHTkXSGBhzN23V59EfxXB24HdevYUMnzSZzHPgjrpCVoBHxrYpJBoU0iXAeldNXSjvGvr3nkW8BUSvuEWJu_XtnikaUz0ZMMW4RpJjeUfJQYYjnY41_QTr07qPYn1HLhI8nQbBKPdCoWRHtL4TZscrKptKIY0WlI6bBCYCvxBKtRG8FqZlmtxmHHP5nkNrhei0mdNtdfFwYue2WquA40y6hJ9HDKLKmOO6HJqslCudC8zAa0D-9UxDLQahzlTIlRHj-mPWMd_jrJyCtzGid9DzCy0ggO5gAmMdPfd1GLjN-kBMgsQXC2nuc1TX_OGzJAijL_9w6x1WwLsjT5WLW3RT4i7JcCldHCEAPJPsI6PO9yQIOk47zaPbMHh3ngqrFSsw3lKxP41zveAlJmN-dZTCUODpuXlNGTWOPGvVqoF9dxcIQEPXNnctwlz1GNF3qQSCuk05e2yrm7shefMtduOFf4PEH_7vPT6YreDK9MNkO3bO6M5y7jaG_UbjFvJDAMPFxtBn0_9MriphWNw1_q8TD7xah-ZXZAWpkYpMkH5DD_NykZMgEo_uLKwrgRbmwq9nf74MK8rw8MzDTdKx1OmsKC1e37j3t1_1_wuo73Lv-gal6njEirNxZRCpCmI5qV6aRE_KRDfjTdiw_cYV2SQJn1acAlMHTc9D9IAuceUncKnix6BJNHkzQ9E9DSXLsSnGkDq1oLds_Qww4Gd_lg8-wLpdtDYTGlyLQvVhr4W55F7SyL-dmvUV7wBlj7JhVsxAptPNO4Q3LmbWQPn4yXmYC1AeQA4GyQR0wnduo16FjR8LvebUDH3iqSIh5Sp43pAtEoy4KabAL4BjLYCnoBRC0DiK0EF7so2qGpYeaeE8OdaG0jWNARuSuR1XabsuaG2Lj1xYkucrJ35OiB4lxTCRtyR5VryHzkDg2elfru9QXB4zPuYTKYGUVlp6O2cbrT169_k8HnA-p7V8gGDLrdXgLgEByWl5kG2BLwRUaDU7H_ogqxypTbS3XDPg729E7_fElNJXZEpJpJDhCOW6O91Q6lA9knG1ispkuyH8iuMkvnTwlyM7LgfwLDpkaA0W8yMVSpWcWcdz6P9A=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:ldh.la.gov \"1884_LHCC_Lumbar_Spine_Surgery\" \"imaging\" OR \"MRI\" OR \"X-ray\"",
+        "results": [
+         {
+          "title": "Clinical guidelines LUMBAR SPINE MRI Original Date",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/10.16.23/741_LHCC_Lumbar_Spine_MRI_2024_redline.pdf",
+          "snippet": "Ternovoy SK, Roldan-Valadez E. Imaging Assessment of the Postoperative Spine: An Updated"
+         },
+         {
+          "title": "Clinical guideline CERVICAL SPINE MRI",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/10.13.23/716_LHCC_Cervical_Spine_MRI_2024_redline.pdf",
+          "snippet": "\u2021LUMBAR, lower body hemangioma and other cutaneous defects, urogenital abnormalities, ulcerations,"
+         },
+         {
+          "title": "Page 1 of 21 Evolent Clinical Guideline 044 for Lumbar Spine MRI",
+          "url": "https://www.ldh.la.gov/assets/medicaid/MCPP/9.18.24/741_LHCC_Evolent_Clinical_Guideline_044_for_Lumbar_Spine_MRI_2025_redlines.pdf",
+          "snippet": "diagnostic value of different imaging methods. Quantitative imaging in medicine and surgery."
+         },
+         {
+          "title": "Lumbar Spine MRI",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/9.27.22/2/741_LHCC_Lumbar_Spine_MRI_2022.pdf",
+          "snippet": "The Louisiana Department of Health protects and promotes health and ensures access to medical, preventive and rehabilitative services for all citizens of the State of Louisiana."
+         },
+         {
+          "title": "Clinical guidelines: LUMBAR SPINE CT Original Date",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/10.16.23/740_LHCC_Lumbar_Spine_CT_2024_redline.pdf",
+          "snippet": "neurologic deficit with progressive or disabling symptoms. When magnetic resonance imaging \u00b7 (MRI) is contraindicated, CT of the lumbar spine with or without contrast is indicated for low"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_91913",
+      "args": {
+       "query": "site:ldh.la.gov \"Evolent Clinical Guideline 1766\" \"CONSERVATIVE TREATMENT\" OR \"imaging\" OR \"correlation\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EuUICuIIAWkUfRMqREMNw2ZRVkeL6lW4PD0KZ9-oTvG2lM40N_g5rstXG6akKnMaK5ySNwb6t9yl_uBkT66gv4GurOtmwl3bMDfgedlKHYSb_SeQvnT1QPsEOs6TEORvhU_qqfZncQhRLm4f_3Guntx53SvSO_PapN5pgFhgoqRZsezx3MrZfvnNGGN2i_g8mWIq51gLvRlaJTddMQPzzgYK9yh7Wv-76EI90O4rjcvOH3bh7cqvGu6o1keBPVZFl_aaT7lkZFf7M-9QeNT_-ID-PJDY12aUjJcHTInqLX8z1oJWUBBy4_G7fqZqcVB58SvcQ3zsM-BwUnKfu2UmwBYzl0EhJIVY6jDi7VSQB0B4R3ggN3cX0zzESUfjIrKTluJ5cD9MRGkdcpMYocPYluBAhyn-m6GZ8JKsSyZq5tNAq56xH0L2MsocDYuWThlHkgusDkbtwthArT9bgNoGN7tVZVp6XYva98R3pSFcAZb5OutbFE7qnVXsYVXsIlNOUU3mUKws8RpVcZVJu7SEDIASNjUja8u2fcQnPYk_ZLdxkY0QPXl0sMYcgc4JLsMpSXzLxeyriFPUFce2JX5hRUL4KkZJz4MXJp5DcteGc-QajtTYt51eQzlAOlgbXvb77jzH-nro6f0QY8Kb0dug8hTFcgvXyZuTVBya-zk2-OhMN7SXRTZzVOQ13SJffSGlyDk4F14JGpBG1Scw2OYIDg35uHp2oQtQH03ILhFj_r7mzzl9WcmiCoAWK6I3WL7YUjTrEAoNUN22XcddsBGI5aiGbgXMkMq2OTMceSQ4FGUpEq6VBi7-Rc-RvI8dngTHXOp-hVkIwcXIzQfmtzXjkJpfElNA12i06HUQwUcUGa2Jz2yl2XZ746Rr3cDBrT4yTHUqe98S0vovScFXRWlPRxmbHYoFSrqGrQFJ15zUIkgca__bqU_hMPYcGGbQP0bPucGi9lZ_9xviTf2CXbrZK5y6UuVvmWMCcQqPY85kL2kIntIDAk2TWQHA4OTyQkbVzCejDC4omg2yqh9AD0424fa3mpfUuSsc7fclCYUjfGjrZWKWdJtIQ7UIwZkoGNV2YGkTf8-MHpJ5uY-mg07pVSkT-7ElIir_Qhm95LAlJYT-lNhmPhULFd9SQQuVyDYm2_hp5JdaOzv2o3ZCyGmsnqTMkubmP10RTXw0SQcKl9FFchlIx05Wlto74hshJDMV3YkymxDmgFTwpnmCit-TjkjGOukz7qSr7eWAAw49jTo1CN3NQna_AyHRnryPuNjwhlw_XLa_9zY-Kw2jy3J_dI6LmZGG7FDeoycks82x1EfvLjLYjm94kDjoMyxj1RNPZJ_nGKe1JvMQ_9hjLAbNvmRN_ZdlClIHRLEEuPiWh-QuPX244JGgXWYxgpfuzjm5lTFO2sSsBm_QUS4K5jowpHroLlQvP3Zg3ISJDOdwPnEDO4L0iBfjLyR2SzwHIpG2CaSBOffQKS6LiMvbkYZHxKKiVmEvDZSH"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:ldh.la.gov \"Evolent Clinical Guideline 1766\" \"CONSERVATIVE TREATMENT\" OR \"imaging\" OR \"correlation\"",
+        "results": [
+         {
+          "title": "Page 1 of 13 Evolent Clinical Guideline 1766 for Lumbar Spine Surgery",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/2/1884_LHCC_Lumbar_Spine_Surgery.pdf",
+          "snippet": "imaging results and the reason that alternative imaging cannot be performed must be ... S1 roots OR 0-3/5 for L3 or L4 roots. Lesser degrees of motor dysfunction may \u00b7 resolve with conservative treatment and are not considered an indication for early"
+         },
+         {
+          "title": "Page 1 of 22 Evolent Clinical Guideline 044 for Lumbar Spine MRI",
+          "url": "https://ldh.la.gov/assets/Medicaid/MCPP/11_21_24/847_ACLA_Evolent_Clinical_Guideline_044_for_Lumbar_Spine_MRI_2025_redlines.pdf",
+          "snippet": "*CONSERVATIVE TREATMENT .............................................................................................................. 11 \u00b7 **HOME EXERCISE PROGRAM .............................................................................................................. 12 \u00b7 GAIT AND SPINE IMAGING ...................................................................................................................."
+         },
+         {
+          "title": "Page 1 of 21 Evolent Clinical Guideline 045 for Lumbar Spine CT",
+          "url": "https://ldh.la.gov/assets/Medicaid/MCPP/11_21_24/846_ACLA_Evolent_Clinical_Guideline_045_for_Lumbar_Spine_CT_2025_redlines.pdf",
+          "snippet": "and syringomyelia), and initial imaging has not been completed(33) ... Cervical Spine, Thoracic Spine or Lumbar Spine. ... MRI in some cases. When radiographs do not answer the clinical question, then MRI may be \u00b7 appropriate after a consideration of conservative care."
+         },
+         {
+          "title": "LUMBAR ARTIFICIAL DISC REPLACEMENT Original Date",
+          "url": "https://www.ldh.la.gov/assets/medicaid/MCPP/10.11.23/2/1883_LHCC_Lumbar_Artificial_Disc_Replacement_2024_redlines.pdf",
+          "snippet": "<strong>alternative imaging cannot be performed must be included in the documentation submitted</strong>."
+         },
+         {
+          "title": "Page 1 of 24 Evolent Clinical Guideline 040 for Cervical Spine MRI",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/9.18.24/716_LHCC_Evolent_Clinical_Guideline_040_for_Cervical_Spine_MRI_2025_redlines.pdf",
+          "snippet": "*CONSERVATIVE TREATMENT .............................................................................................................. 14 \u00b7 **HOME EXERCISE PROGRAM .............................................................................................................. 14 \u00b7 CERVICAL MYELOPATHY ...................................................................................................................... 14 \u00b7 GAIT AND SPINE IMAGING ...................................................................................................................."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_122035",
+      "args": {
+       "query": "\"Evolent\" \"Clinical Guideline 1766\" \"CONSERVATIVE TREATMENT\" OR \"Home Exercise\" OR \"imaging\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EoEFCv4EAWkUfRPs05yMQo0S0IhVWBe6UqpyrfJQI-CFmCK44rTHobWMYZj2vd9zphVwZxRYKzR6KEMPW9VyQx-WP8QkAgcoq-3axAF66vKBtxoADtJt5cu1qYcEUkoP4nlo2MPJHz9MfVp90NCrq38FobkWMbbRFrAjCKGnV9VV4gU_dppLGpRdIDFstAldkbiNul6c7_wx6j_zxh9KnrwSCm6LpWWJbzJ410XrQtICvNJ0pVmhglwTJfkmRWwjoCfzvnPfnCJPxa0vzMQ6IwZ_Yn3CXqEQT-HixjPKLfRTEhYTZCCFaDL5-9h-L4m6mu8YFn-2PJb9TGNCbiX4DXzhgZcJAjA0r8aGGDy7q_FWqkx0_A_YQiXFlZsxnbZFaO8-1jHwoCYWrgy38SW1rfncyDdaXyM97yq0jqgGepysEmh-jN7FYHNvoMhhlTObfqLBkMLMFH_5-Sj4bDMZIVG_TbGB2nnOE_VRXpqsjzQyQHAN0D2pnx6rvpB3Q5LarQgYTrWM-DMUgAnwzUGq4RQ0e9Jn8mU6Ri-Mhjclm1gs6YDbzw8EmDz67aF8KklpyT5KATpHWx-K9vDuJ2R_KVUhkhFcSY22MfnehZWi3a9_l9Nkt1I7MOpt3U1me1iBf3eLr_43jK4yhkkxF3IsIEoh6_yaQMLJapnC4jTh7ppvhG_q5VClMQYekVr-9eTVpCZ03fQdNxAfuvK1s8GAJqqrTvYYNtCWCPIL77AHS0UyK8ZXaEFYlHmUHxd7NP--3VAlKu3PqiIkVc2GPgBHgKf1mhEZqLlYsAirCrUsJYUauDRfqk3rtEneOnm1Djijm-60Ehj33dYBfTWFvnPDz0XlRS4="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Evolent\" \"Clinical Guideline 1766\" \"CONSERVATIVE TREATMENT\" OR \"Home Exercise\" OR \"imaging\"",
+        "results": [
+         {
+          "title": "Page 1 of 13 Evolent Clinical Guideline 1766 for Lumbar Spine Surgery",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/2/1884_LHCC_Lumbar_Spine_Surgery.pdf",
+          "snippet": "imaging results and the reason that alternative imaging cannot be performed must be ... <strong>S1 roots OR 0-3/5 for L3 or L4 roots</strong>. Lesser degrees of motor dysfunction may \u00b7 resolve with conservative treatment and are not considered an indication for early"
+         },
+         {
+          "title": "2025 Evolent Clinical Guidelines for Medical Necessity Review",
+          "url": "https://cms.radmd.com/sites/default/files/2025-01/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+          "snippet": "Evolent Clinical Guideline 1766 for Lumbar Spine Surgery \u00b7 Closure of medical or therapy offices, patient inconvenience, or noncompliance without \u00b7 explanation does not constitute \u201cinability to complete\u201d treatment. \u25cb \u00b7 Imaging studies demonstrating moderate to severe stenosis consistent with \u00b7 clinical signs/symptoms \u00b7 Other Indications \u00b7 Lumbar decompression may be used as the first line of treatment (no conservative treatment \u00b7"
+         },
+         {
+          "title": "National Imaging Associates, Inc.* 2024 Evolent Clinical Guidelines",
+          "url": "https://www1.radmd.com/sites/default/files/2023-12/2024%20Musculoskeletal%20Surgery%20Guidelines_FINAL_HMSA_Spine.pdf",
+          "snippet": "conservative treatment and are <strong>not considered an indication for early surgery</strong> OR"
+         },
+         {
+          "title": "2025 Evolent Clinical Guidelines for Medical Necessity Review - HMSA",
+          "url": "https://www1.radmd.com/sites/default/files/2025-07/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines%20-%20HMSA%20FINAL%20eff%20070125.pdf",
+          "snippet": "Evolent Clinical Guideline 1766 for Lumbar Spine Surgery \u00b7 Closure of medical or therapy offices, patient inconvenience, or noncompliance without \u00b7 explanation does not constitute \u201cinability to complete\u201d treatment. \u25cb \u00b7 Imaging studies demonstrating moderate to severe stenosis consistent with \u00b7 clinical signs/symptoms \u00b7 Other Indications \u00b7 Lumbar decompression may be used as the first line of treatment (no conservative treatment \u00b7"
+         },
+         {
+          "title": "2024 Evolent Clinical Guidelines for Medical Necessity Review - HMSA",
+          "url": "https://www1.radmd.com/sites/default/files/2024-07/2024%20Evolent%20Musculoskeletal%20Surgery%20Guidelines%20-%20HMSA%20FINAL%20eff%20070124.pdf",
+          "snippet": "<strong>In cases of neck pain alone, without neurological deficits and abnormal imaging findings</strong>."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_114025",
+      "args": {
+       "query": "site:ldh.la.gov \"Evolent Clinical Guideline 1766\" \"CONSERVATIVE TREATMENT\" OR \"HOME EXERCISE PROGRAM\" OR \"definition\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "ErsICrgIAWkUfROVf-ptZ2s5HHJF-6Z_e0fNC1y-B3bKhH51ISdwtF1LArmHL7Efda3F8xf2E28vriPtteWSWF_zIY5Lg11clXSNH-2az8zQQljrVv-fQdFUvBIgiVv5xn6FGSSrnwpQ74BQQZwebA_y5h4NDb-iteDp5z8r6L5SaBWzgubIMt4ESmaO-k7s40TCCq4DbRAhe3LKOPjJq0TgndQRkbitsjUToKHaUBzx5W4whl3xJPuuvzIlvjrvusTGM29MX3WUjzNVAz-f4MOkmvM1wAbpZshMqGPNaTASOxV6UGuZU16Vs5d32femfWHLULvumdNMrcoddUvT27qDijgvEpvhtDISsybTAqo0zkuEQfFW5k1RRMLA8AYKGCot9DxQoeEitn6rdUlcUBjgWPxeutm70KkBoRI3SrxB8VQGHuyzSvAv8TLO1d1pSP8M9oe6mqB2l7I7hv7kQylw9qHQt74oJbATWJeK0w9mNDTuRAipwVDS5Jdup9ZxYtlUKGwGaT9mHIH36dlkd7eBHsN_rIkVb_zH7_Khz_xaiBsOjAoyvriEhXta9RLkw_aBE1EZiN_qqr2kL4AsXeaqZRexJvP_mK3Tm-JSv9dNlGCh-U9yMxtRlczvvqrPh0YI4EEB9aANY8axSj0gB8Th8R0PaLfjT2t2tL9jRxnWSld0nP4nquxIsR6rGkufjIrhxaF5nlabHVZJ6l8ewRRWbEZWUQRYL7GV8D0ktOS1DghOJl4TPUgV04JjvgiRi2G-uGmD9ZW9yWhbCqFg7spA61t7jsL01scHSjXGRsfaLxfNPWeb9qKk9vzXNeWi4RvsTTaNsAEVnleOpV4cFsfbGf6vrXG4lt_rANiyxDt_6bCVn9MG3z00hDu5pHGd7uSJSK5XhWNN5hA4DsS5HpJgJN0KFmHuf7lbVFGpR4QXz5OM2B4poxhHhmIkxrcJML8WfGMfrpIJJeJEZ7cUxt9fDvXq-YrzW-Ufrty-Cu_tFUegUzIHYBT7bRoxvyz_0gUasmIBEq7yKTC7iuC-5FgYznn_inBl2O1HXt0peSIPNtj9wZCxpCh3cCFzfDlzFVMAzwKKIJih6Obkt0h88uikmf0Ve3eiG0F2PiN8-V3VlLolEgZYuU5Pq4dchK4WuWzCWKZtUOOiRLKhqXRMIg9oTTm2Bqdf9dERFQEaGAZCm1VelLdnbla1cfsSoXGem-PuXal3YLO1Txz5LGOvdF5m4SPe2F4aThYUcbu3g42mG2MvUwH55UNv6OWHK4u_G-A5HXSYr7oMzxU6RauqoJTDmNuOkGQ0mCmx0WcOXXGJvc2xs4IN3vLBjTiWNa-RCMEtzgs0W3YyO2uw18NGeb4alScKi8hPTJJs55lJBeLXyC5pH8_ylcAHBeUTJwvmkzaBofLYYPuPOaBysAVgDMlnmohpcTxalBgpJiTV"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:ldh.la.gov \"Evolent Clinical Guideline 1766\" \"CONSERVATIVE TREATMENT\" OR \"HOME EXERCISE PROGRAM\" OR \"definition\"",
+        "results": [
+         {
+          "title": "Page 1 of 13 Evolent Clinical Guideline 1766 for Lumbar Spine Surgery",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/2/1884_LHCC_Lumbar_Spine_Surgery.pdf",
+          "snippet": "Non-operative conservative treatment should include a multimodality approach consisting of \u00b7 at least one (1) active and one (1) inactive component targeting the affected spinal region. \u25cf Active Modalities \u00b7 Page 10 of 13 \u00b7 Evolent Clinical Guideline 1766 for Lumbar Spine Surgery \u00b7 \u25cb \u00b7 Physical therapy \u00b7 \u25cb \u00b7 Physician-supervised home exercise program (HEP)** \u25cb \u00b7"
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_115817",
+      "args": {
+       "query": "site:ldh.la.gov \"Evolent Clinical Guideline 1766\" \"Physical therapy\" OR \"home exercise program\" OR \"Active Modalities\" OR \"Inactive Modalities\" OR \"epidural\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtkDCtYDAWkUfRMGq9TfxFvPbEP4egfwkTi_5WyI08_fQ8HfGPVQqN29JP5IxFXnn_ei3yOPufTTpc5SYnK3PNODcsGpbm_jsNEnDAgakVM2e1UTjwE0rpLadMLwolERVAZVP7OGAxixWvZBvwkXEJZ9suVw4IRUfJ5xBaVt-U08GiIOyJrp-aCJPRvBeqdD-V83LBTkAqI6RBt56JjKjuwtW5k6pAarfnqxJtVcvhjpWULjl2n1kqTWwKfIdpBXibCj8lhnZc3sC4iDPyZvrOy3yc_09i7zxzZguQmK5K_3CytvTu7QzH0ynlEwR78oFA1n2-VOlv-aeVTyMRYcnjIczhEd51ywsm7t5VnmY-tWCJQKNLY0MFn-tgb8GSgfGVKqcPBoJbKjo4um6V0KibjYEW6zMqFNpIVuBT6u-yoxE2TW9Itw8ENJPGci5kN2G2iEgOeRCbHuvlnUAo3oYfriOplW8GSNNNQtVKTmyxcQrQMmTe624cuUXlbPQPwhGb8qWW78tuksQjFRzsF9LtD9mGwN2YYJGVSLjzRfBJ5PcGeVCt5MER-7-6QcejU6Qq2afEvgxEv_VBxq6yBR9waQkS3z4Z5xgE9aLYttBn28j0oWaoY6i_zipEw="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:ldh.la.gov \"Evolent Clinical Guideline 1766\" \"Physical therapy\" OR \"home exercise program\" OR \"Active Modalities\" OR \"Inactive Modalities\" OR \"epidural\"",
+        "results": [
+         {
+          "title": "Page 1 of 13 Evolent Clinical Guideline 1766 for Lumbar Spine Surgery",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/2/1884_LHCC_Lumbar_Spine_Surgery.pdf",
+          "snippet": "Evolent Clinical Guideline 1766 ... Modalities \u00b7 \u25cb \u00b7 Medications (e.g., NSAIDs, steroids, analgesics) \u25cb \u00b7 <strong>Injections (e.g., epidural steroid injection, selective nerve root block)</strong> \u25cb \u00b7..."
+         },
+         {
+          "title": "Clinical guidelines LUMBAR SPINE MRI Original Date",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/10.16.23/741_LHCC_Lumbar_Spine_MRI_2024_redline.pdf",
+          "snippet": "(<strong>epidural, facet, bursal, and/or joint, not including trigger point), and diathermy can be utilized</strong>. Active modalities may consist of physical therapy, a physician-supervised home exercise"
+         },
+         {
+          "title": "Page 1 of 8 Evolent Clinical Guideline 1757 for Spinal Cord Stimulation",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/1212_LHCC_Spinal_Cord_Stimulation.pdf",
+          "snippet": "residing in the epidural space such that the individual experiences paresthesia and the \u00b7 paresthesia topography overlaps the pain topography as much as possible. ... Evolent Clinical Guidelines do not constitute medical advice."
+         },
+         {
+          "title": "Appropriate.Safe.Affordable \u00a9 2020 AIM Specialty Health MSK01-0820.1",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/7.9.20/576-HBL-AIMMusculoskeletalProgClinicalAppropriatenessGuidelines.pdf",
+          "snippet": "interlaminar epidural or subarachnoid, lumbar or sacral (caudal); with imaging guidance (ie, fluoroscopy ... (fluoroscopy or CT); cervical or thoracic, each additional level (List separately in addition to code for ... (fluoroscopy or CT); lumbar or sacral, each additional level (List separately in addition to code for ... Independent Multispecialty Physician Panel (IMPP) review. Added physical therapy or \u00b7 home therapy and one complementary modality to conservative management"
+         },
+         {
+          "title": "Page 1 of 7 Evolent Clinical Guideline 046 for Spinal Canal MRA/MRV",
+          "url": "https://www.ldh.la.gov/assets/medicaid/MCPP/9.16.24/2/755_LHCC_Evolent_Clinical_Guideline_046_for_Spinal_Canal_MRA_MRV_2025_redline.pdf",
+          "snippet": "Evolent Clinical Guideline 046 for Spinal Canal MRA/MRV \u00b7 EVOLENT CLINICAL GUIDELINE 046 FOR SPINAL"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_81221",
+      "args": {
+       "query": "site:ldh.la.gov \"Evolent Clinical Guideline 1766\" \"Non-operative conservative treatment\" OR \"Active Modalities\" OR \"Inactive Modalities\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqMECqAEAWkUfRMV5XdLy7wTpUq3hdWW65tIyNsh7mVXRomC-Vl3GS9q97zZtYalWS-afyE1dIj0GZhyQc4VWtmxOOLfVLOZyyAlk9a_ItaSYcRE4Q9NIJHx0QzQztitxlXtX0NjohwcYYBRSfHStYaJPcxYElyukTC6TYYRFeL0u0Ba1dzsS8X8RkqZpMyk1bC5NFgUNjfguEtRtA0GGbGxpGpLrWnGMYKHe5pdsTnZO0LLIBRkLp_UG3B8YWA_2hbdEG5K55AJ5llSbMbG1SQ6j5QWzNi6yWyb7oEl2rNW9a8ingQs0EVRfLN57KCoqrAx_kub9SS9PKhDn3rmZMAO25D81y0aWhP2VnESWk6Za9kqT85Z2QyINHS8W0H9HrtrP5YSj0yG00gYXgw1txk14UFSNuecqZ4nF2iMwM9Bql7VJ4DEq5g4MFuTz2TQBn1zEIz8DK58XYa2gH4og-oSiRTMIxtAzYl2qAaDBXz-WwKgFVCRjRwFxfw9HVH7SjyIRk37sC2Ov1t7lV9MYNrK5Li2ROVq1056oZZLXnyiMjwOetoYQwDBFjOAZpHa-08h9xEVzCvz10EfQtEtNhk-O0-gswqn5eM7qLL25aDPvAbkKzuqtvByCZEkt0RV8XDNq5u_q50A4uc4zVLw9SKk6ZbO5w83J8DWd1Rjmedc9ug3UCYqHGj4EBMZ9swfNqOpREsNJGkQ4YFLRO4AQmbw6Zldxg=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:ldh.la.gov \"Evolent Clinical Guideline 1766\" \"Non-operative conservative treatment\" OR \"Active Modalities\" OR \"Inactive Modalities\"",
+        "results": [
+         {
+          "title": "Page 1 of 13 Evolent Clinical Guideline 1766 for Lumbar Spine Surgery",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/2/1884_LHCC_Lumbar_Spine_Surgery.pdf",
+          "snippet": "Non-operative conservative treatment should include a multimodality approach consisting of \u00b7 <strong>at least one (1) active and one (1) inactive component targeting the affected spinal region</strong>. \u25cf Active Modalities \u00b7 Page 10 of 13 \u00b7 Evolent Clinical Guideline 1766 for Lumbar Spine Surgery \u00b7"
+         },
+         {
+          "title": "Clinical guidelines LUMBAR SPINE MRI Original Date",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/10.16.23/741_LHCC_Lumbar_Spine_MRI_2024_redline.pdf",
+          "snippet": "<strong>Active modalities may consist of physical therapy, a physician-supervised home exercise</strong>"
+         },
+         {
+          "title": "Clinical guidelines: LUMBAR SPINE CT Original Date",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/10.16.23/740_LHCC_Lumbar_Spine_CT_2024_redline.pdf",
+          "snippet": "<strong>Active modalities may consist of physical therapy, a physician-supervised home exercise</strong>"
+         }
+        ],
+        "result_count": 3,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_115863",
+      "args": {
+       "query": "site:ldh.la.gov \"Evolent Clinical Guideline 1766\" \"Active Modalities\" OR \"Inactive Modalities\" OR \"Medications\" OR \"Injections\" OR \"Chiropractic\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Eu0DCuoDAWkUfROF6baB96n8Zz_U6oBlZ2VSED5S4rJEanfixbTos56ubzVNj0e5RTg4q9H_DDb-Q0rkYta8xz4E2Bva9hVf-xjtbqNijxcXi4rpWQv3Ht_CQuWb_2YfSA7DnBYO1YaTug4vX0RYKAt4M7JTIA23-Pf1ol9gIjG15OsLxF5V35PD1aDvdnSSx44fIHivktjHCf3PRYONg_eaBZnNfjSfx_3KwNfrjO3-bijX9tVgnQLKLLnwo7yF7TjTUtEVYcG3pPacRI359MqlDOuAtEuul_6XtNaWqdAUs6S8T62J7m1SB7hfI2wlhWQNUZ3x0qHEO_HdUJcUXNf-Tn1eXeA32zJHe_gkLkS4PwxxEEH12rQWLs_MP2xd2BIUNAsaVsq_i9IL_0DSeCh7PgsGgeklG8HlIUq-3fuus0xT8bp-Ij75ue34gw3VOitVO4wcONWa1HO_P6bW5s9Dfycu0zBypopZrWs4QYuJKwayxeEdTbckZqldGL7Kawlfd6vAuLaHcDwDZPK9kGKwAySPsoHkOqViYVa9K85jNu836XWQcUnf5aotenNLBGat40ON7v1fgx99U6_kbarKN5kICYySpuA_MOzpeNFaAp9WkZ9PGIVMaBDCc1vA_wOLUu_oePP0CyPNu6nzYg=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:ldh.la.gov \"Evolent Clinical Guideline 1766\" \"Active Modalities\" OR \"Inactive Modalities\" OR \"Medications\" OR \"Injections\" OR \"Chiropractic\"",
+        "results": [
+         {
+          "title": "Page 1 of 13 Evolent Clinical Guideline 1766 for Lumbar Spine Surgery",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/2/1884_LHCC_Lumbar_Spine_Surgery.pdf",
+          "snippet": "\u25cf Active Modalities \u00b7 Page 10 of 13 \u00b7 Evolent Clinical Guideline 1766 for Lumbar Spine Surgery \u00b7 \u25cb \u00b7 Physical therapy \u00b7 \u25cb \u00b7 Physician-supervised home exercise program (HEP)** \u25cb \u00b7 Chiropractic Care \u00b7 \u25cf Inactive Modalities \u00b7 \u25cb \u00b7 Medications (e.g., NSAIDs, steroids, analgesics) \u25cb \u00b7"
+         },
+         {
+          "title": "Clinical guidelines LUMBAR SPINE MRI Original Date",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/10.16.23/741_LHCC_Lumbar_Spine_MRI_2024_redline.pdf",
+          "snippet": "<strong>Active modalities may consist of physical therapy, a physician-supervised home exercise \u00b7 program**, and/or osteopathic manipulative medicine (OMT) or chiropractic care</strong>."
+         },
+         {
+          "title": "Page 1 of 23 Lumbar Spine Surgery",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/6.14.24/2/1884_LHCC_Lumbar_Spine_Surgery_2024_July_redlines.pdf",
+          "snippet": "combination of modalities, such as rest, ice, heat, modified activities, medical devices (such as \u00b7 braces), medications, diathermy, chiropractic treatments, or physician supervised home exercise"
+         },
+         {
+          "title": "Clinical guidelines: SACROILIAC JOINT INJECTIONS ...",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/10.16.23/3/1750_LHCC_Sacroiliac_Joint_injections_2024_redlines.pdf",
+          "snippet": "the treatment and care of your patients. These policies apply to all Evolent Health LLC subsidiaries"
+         },
+         {
+          "title": "Evolent Clinical Guideline 1753 for Paravertebral Facet ...",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/1755_LHCC_Paravertebral_Facet_Joint_Injections_or_Blocks.pdf",
+          "snippet": "Evolent Clinical Guideline 1753 for Paravertebral Facet Joint Injections or Blocks \u00b7 Evolent Clinical Guideline 1753 for Paravertebral"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_204442",
+      "args": {
+       "query": "site:ldh.la.gov \"Evolent Clinical Guideline 1766\" \"Inactive Modalities\" \"Medications\" OR \"Injections\" OR \"steroids\" OR \"analgesics\" OR \"traction\" OR \"brace\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Ev0ECvoEAWkUfRN_BJH-LNTZ8VQN1JcQjy_Pp_-rzdUA_yYIvC-U6u6claHYsjd-gOXmqpJ1oBBmxUzZ9MMrWuVV-KTI_cuCF73eVAcGXJTQ6qn7uLawfoRPRwEoO8VupvZd3QcQAoeSYYn7DtcRTOPDK9puXS6LpI42n3IdJkRz9bjlBqft5KTg7DEy-nU4ZqPJHh_sC-ks48bBFr8QNArysSrAxyE4HChyej94AjaCBBQ38diBTrAYihcm8uPwvCJtw-YAhg412gbGoFDm4DFcAu7XoQjWZalGFXmwtggg0qqfy1CXMUGJhUyEH_Kw8urDXYj90HVwGW4GUt6fuvUAj27Ke8EDc0m8xV3U98qaZ5fN-qBIu8XbU9WTKrhdE_Led8DzxyTBFtFJ-LU9_I0cmJ48VV5yJ8gADaCnDx1kW0Pr0IJzIFTntA6pibr1-mt8tDzZTEJZW7WnQOT0scA85VOB_6B8kdtJ9D9LW1GJ3GBGS2uuyiCBo2wZFgZBB899NQZirweWrnWIZloG9GzsJod2YxDABkRQ0IIsKUyknCc3lIyCte4ZwovMFhpmGZqctx_TaqLdhYo1ofIlrcL8jn5JX_uscGBq_AkEqrXNDANc0n01ik29BjV1nxpD1TAgRp29erCpf6pio2jsSxYyWggt9vzXYcGCoLIrPL_mf1nLq_r7Sdcc9JLE3JgrgF1yH-V6yFaOUPqcZBR7HQnAoGzICqCdZEVxn2JmJELcODuePFb5g9Vmnf0YVvF8LsBnC6K9qXdaaxzZU6R1DCl6RnNHvlHtJ5NBdn0n27VrRdz8xBidx4xHqTm0fQLmVY7KUH-0SO-hQkudXTFdCQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:ldh.la.gov \"Evolent Clinical Guideline 1766\" \"Inactive Modalities\" \"Medications\" OR \"Injections\" OR \"steroids\" OR \"analgesics\" OR \"traction\" OR \"brace\"",
+        "results": [
+         {
+          "title": "Page 1 of 13 Evolent Clinical Guideline 1766 for Lumbar Spine Surgery",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/2/1884_LHCC_Lumbar_Spine_Surgery.pdf",
+          "snippet": "Evolent Clinical Guideline 1766 for Lumbar Spine Surgery \u00b7 \u25cb \u00b7 Physical therapy \u00b7 \u25cb \u00b7 Physician-supervised home exercise program (HEP)** \u25cb \u00b7 Chiropractic Care \u00b7 \u25cf Inactive Modalities \u00b7 \u25cb \u00b7 Medications (e.g., NSAIDs, steroids, analgesics) \u25cb \u00b7"
+         },
+         {
+          "title": "Page 1 of 22 Evolent Clinical Guideline 044 for Lumbar Spine MRI",
+          "url": "https://ldh.la.gov/assets/Medicaid/MCPP/11_21_24/847_ACLA_Evolent_Clinical_Guideline_044_for_Lumbar_Spine_MRI_2025_redlines.pdf",
+          "snippet": "Inactive Modalities \u00b7 Page 12 of 22 \u00b7 Evolent Clinical Guideline 044 for Lumbar Spine MRI \u00b7 \u25cf Medications (e.g., NSAIDs, steroids, analgesics) \u25cf Injections (e.g., epidural injection, selective nerve root block) \u25cf Medical Devices (e.g., TENS unit, bracing) **Home Exercise Program \u00b7"
+         },
+         {
+          "title": "Clinical guidelines: SACROILIAC JOINT INJECTIONS ...",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/10.16.23/3/1750_LHCC_Sacroiliac_Joint_injections_2024_redlines.pdf",
+          "snippet": "<strong>steroid and local anesthetics as a treatment for sacroiliac joint pain</strong>."
+         },
+         {
+          "title": "Page 1 of 21 Evolent Clinical Guideline 043 for Thoracic Spine CT",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/9.18.24/2/758_LHCC_Evolent_Clinical_Guideline_043_for_Thoracic_Spine_CT_2025_redlines.pdf",
+          "snippet": "Evolent Clinical Guideline 043 for Thoracic Spine CT \u00b7 \u25cf Chiropractic care \u00b7 Inactive Modalities \u00b7 \u25cf Medications (e.g., NSAIDs, steroids, analgesics) \u25cf Injections (e.g., epidural injection, selective nerve root block) \u25cf Medical Devices (e.g., TENS unit, bracing) **Home Exercise Program \u00b7"
+         },
+         {
+          "title": "Page 1 of 8 Evolent Clinical Guideline 1507 for Passive Treatment",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/691_LHCC_Passive_Treatment.pdf",
+          "snippet": "8. Rampazo \u00c9, Liebano R. Analgesic Effects of Interferential Current Therapy: A Narrative Review. ... Acta orthopaedica et traumatologica turcica. 2023; 57: 3-16. 11. Wang W, Long F, Wu X, Li S, Lin J. Clinical Efficacy of Mechanical Traction as Physical Therapy"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_98098",
+      "args": {
+       "query": "\"Tufts Health Plan\" commercial appeals address fax Rhode Island OR Commercial"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EswcCskcAWkUfROstSwZBYXnkv9ezvUp0x0iiPiLtiTETR1dTmi8Xp2iKtvrnJ3nZqLtFAf_S27dRLIUHf35UDqlrdDSnVOO1Al8VTehzxNQssHZn5z2xu-Sl4xV0lkHKqpKdvlbI-sp4wiBkc_TuNXFwN17MEFrP108FChp8PndhIogXuNSgtDm1k1n70MdlzUS1LgCCriSpEEcbz53LUx_sqLyI4C4-qsw3P4TM3QEzU9j1IcHgnbSTIRP168fZlT0PMkiazwyONYXm9MusgGDLOmvKz_LaSMHChoiJJjmSSviY9kSeXLzq08F3X6CSBlrvRtj1pJreckb1wi9PhivXOGt60SGOryY_UOgyMIpETJiFRyeZYdP9s20gDvlyeWkrPsDLwi8K3hrJ5KGdoHJuuk7cJk5aZNZuJ6F2-yUEHR9ffo1Z-I1jai6bVWJUFx5JAYHVTdBi7QqM_pnyX_iNClUF4nsvYBh0IQ3bmVrVfOHvdPDCaSi8_DGFyDvcE2xnhTX15JUr5SxWB5hkXAJ0tqtyFdZp_qiOrd1FoFr3lafVhx7WhFtvw6_0jDAX3e1vxdfz9YCNOFRMVgZ_2Dhr_fKFLEiP50aBMni7IetpX8L4Z7meUztbnmlvSuxf7D0yqciMUMG7vV1pfxboxxu7kQxNtwc7cVLgsx9Lm9AAqg7TFtXCuaQVpMDSZ_q9ackqodDc4b_2xHymcSlyX0NmvFXveRBiuIkjMypJhwJFHDxGaPyXR7-fdgOil4KoEk-htG6kfJBdoMiLtaH0yK6uBK0UX2Nu0L70fyOqvKElei7yz27ii0a7VJX9kFTurtMYdqCR3qgsvlj6G46hKH2kt2jq2UrDv-xFO17Dn57pG4SWGr3aOsQ3h4uMk_2a_293GDj6D5IObMLx6cF602uTMu6RAQT35bNGBzvmRhitBTK12zHxDJkSPGIO17L1WvvMUTb8QhqioggYBXfPWocA94o1G6BJaVAVhMf-WhpMfkZ4AM9VWfKuOUOHduk0bnC6pYuQE3TIWeVwFIMkx2XCPtn4UAoA57UUBN7ipeqbJlgjjNZGYgbDS9TQ0CQ0QlQ_ilcnUm1JkA_mVzzDHSt0aq-a0q57t9FNTjTadbpPnH1ORj4_7nCSv5pVZXjRMiX3BwvS6q9VlsOMN0d-93UZWZV6tdAyGIlZPK245V9-cMdDAVoNrsGyGS5HHL8O9CeyaObDglPZDqHvh6cS2jxbIt3rAuhYUAkTOjr4frTcd6MYkExAt_NqaUMAcYJ4dyeF56Qidyg99NJ9Pb0nUAYLF9Yqw3o4A4OqajAEaGA6BNnJgZxZi2qrHlB5va0N4AdErBJQyo-EMXZDNSVm3JLC9Y5qp0ZoIqaTdNxcG-tmod6iBResLE1bIe0u4A2WlyKe7e8OXA9k2jecDLK_Cd354ilK3Byuk7Fa-LBf9p3g8JcoG5wZO_maSyUqX28VQwLF5sBWFWVnMMQZB2s9oTehcPwZswxqM2tJ3yiv97Duzu-W6Zh5hS9-mazlNr5HjapvOdrJDY44etbWtE9bvTabfBu_WJr5NGn5DP3CJi9oRpC1fOV_E5EnxI-n1O3fnk4llozgzw98wsDI1iohbOZjtZUlwpbYUsGIiLyuRynukMhJzHuxzTZAp_6pFu8WjV1SNSUViZMfT_zv8z7JmC1ne7C85uFk-3VRaAYC1ZbGLDYhuqiyHx_DzRo7RIAZscNtcmcP2ASX45Tyxax-O47hnw-KhqncA7DHh5vwfXTHykCCC1uQglI8OCJpK1oddyjM2XZWb0G-x-CfGZqIDRP2cYgQhatGENz8EWqZp2WslyK7JBd01Mbl31ai_1yPy43YnGAhRflBjgbd3VyKs7jCw_9-uB9lw2kp45DEKNVeQXvBPDUh8zvshngFuTX55ZXNHfmRA4FG60eXF-YaAMikIRiY3xaaDp57klIQYP-2aEG4enXgtO-n8K_Bq1_F7XYvpvKgD-whevb6JmRVY4dquajRFunlP9uPh4wNFZEluaKM4I5rXzHqnE7NowGUQMASr_2GgQbbKAYEYNu6kjqHERtJyQFN1L9gnkvvlw70wyAwJ4ickKOjynOsvAQEwhflQ0oN7eBzJkZ_5zN9b41j4mExpXGJ0ryO5kFSw5FazJDVDSSsJ1Bmnr9i7xtXKEYVkglXihPZyRb7J7GWtZ7zWRHE8Fn_LHViX0M9tRAfYRRWd9O-MgYHHCCkJQjfB9lUpzkDZLvsu0vTnwftYfoEMDhqArOatpYLo_D21T5XOyIOX0wTPu8dTuDiZ33OA6IhYjf4WUABEjv_O1upVKfaRVyDvlOa7V8eA5-JI-zSsENW6bvF4IgV2z3kYKdHFHeolH2OZsbVirfGM9jEFWBIX0tOmuh8mSCyNW6BTkXeh_L0yV4eeDtek-QSPeOvkQOcfHKZc6uTS0dACYXlRzJ4JZudRcnxbQutvPqmcvghvPgwOihazYe2nx6kWIIyzpDKyn4QzLVMNcY3P-9dY43dvlMmvQhr0AaJoO6OyVO1I-bJPXTObNIan7dMAGCy2k3iLD0jOLnFYTVn_IT_zEF1FZhYyrDxdvyG7y6NwyKIoI7qwDpYIDwQSADzcb7yINdAZSIvzEcLe3CAzpqeSsddNqTz56DItDbx4Z5UGDNXSYk706-wQ79Rfxo8EYobaRfiacDNNeEk6qTNf72SqmQA19djuqC6aGMPhhfqW-msYweIpZjKi96ZJ_4WWX4GfBfwp7DvLHiIav_j7ZO8EcD-vCS_y0PUVp5S-7cfLmvUpuQcg2uxKJuOzf-8mV6BhWNqVZzo-W4B5pw8oybh_lxWhcqUu7hHyK_dQ7eBMIHwl6BfueZZX-8axPuekfmIIT8HoI9j6M-C63RTus8_eXyPH3Vz3yVp8CeCJ9HE7K5BzSy03oBQAu92ThD1hHgiPgAmqn-u6apoy39o-uO1q5vzLRxvHwTg2_4cTa2p2KVitMlBEvz2AL5GXxbtKKERxYGqIV7-HHAdlTQiiXqZ4RI6w_b2xIEcMeynV0V-TFWZowI8j3ShDrcpdv0eND6Dc13msQ4EtfQlSa2JHLrqGVzWa3g6KOm0VoK9eu7qmWQ0BD4cDs-1B8n2i-ZKNlpCFeQZbKNOZ51vuPQV5GqI216SrrtiQ29ON7htljk3dRZvmCj2g7TblHI-LC8m9DO0vHF7vfjN83lD2V69OMVfi6KWImDPeiyclqvX2WqgcfSo92cB-q5tqtJ97gqEj8zkalAgmzl-H83uoD3KR0rvby3ZYI4QsxihK9ybTCL1qoSOomaSSt8ozeR5UP5lwlgUfxNGcqTjZDJHKUr2vfXuRHZ_k6__X_rAmKRNkwAMYYp56l-trLiaeQJstbUI2L5PoeRVC9k2pDXf0THjc52RSDvb1bvDQdQKvZ0CbjaTgOLwdFuN29FfGAKbU8ppoBbiUOnzwKOjxtw1aaLkBdMuykJFv3eY_xfuv_oQ8mmWAkRrETWS6FvreyMR008wO9v4F_38te5G5ycHD8stb8J9ZM5sAyhRy30MC_1yvttss9JGGNI5ruQPxqmJAoI0yvEqiVEH6t3ZmIq-M_yORgoc9Bp4mg08EfegPkPp8Usnq-1jNAuTD0MYLMdPv500Xs2zRDrokrMvsb3Bo51B2yuJHAx0CjmC9_RDs5JGz17Q482isx419OW_Dn18s2nUgP24rEtjMwnZuV_zaeln8ttidzoSjmG10CK1UCJl9W1OZbFvxOLnghjGmS5ATEEnKYQUxJK6ZpNDXlLjVf-qSjrjqfEnVDh-c84yK3vlH480PCPLJFWXBPYEph-XvZ_rE0lT5KZRPNz1z4mPYFSyjzcVGF9A6P0-jTLCtxQaTnXFkGUcNYqeZG3rM9z6Mk5soM2XQhYpMnQHEjrrgLmNnfA0teAaeWH6hOms1yzrlOontpOJiMTyhbOxUGff8b3iIMxFjG6Ssbu-IAPQznZefP04HdyK6M13oXhAv7yFRMxQ80KKP0ig0Pwhbt3As4iXlSgqO-2U5IRlImj90GrLuAVg_K0Lqpto8n77iDiIyoGlhefxzOSUikt0YhpqUa2-Ep1zAOtX57dHPvG6zeWA2lPcd6fhAPvSmHEvJOHGwHjavry43se09_NWjeQRObxnRiYWAyzY0zMRyv_gFaVs67NiKg8tpzR9UdIU3GCDe7mus57GBy-mWUryWAPwM8IHe7h0mZO3LY-E-KjuH70Cg0Yjz-i5PELvwNsRKfOHQJjzJjZQgDSQdghE8tEGuM8NlK76J4Eo2UBnp3BXHkxtBrz08RjBFI5fbRusQlChyneTzIIK6EjBdB4WN1vcPHgBrrB7H4SLXm4snGQGWACe9gVct2axc5oj0x2peQu9WrECqBvg8hbIY3QmSjVSLcvUUGwU05WYOM8460_0a2__1C2tcOydw0_QQzNWssyxUSMS3PiYeV_iAsvip-njQXN-CLM5XGk9NJshefrwnmeiERUGWS2xJeopIrE3QKIrJp0CkjsGNFu2Ynygp9xPO-WBJ4yCSJcn5NUWAml4V7asMAoBHRipy2_cMd92epBBh3Cm4WETv0QYQwFxMAvEpwGCjn0UeyVpxLGeQ4YU_xC4Xx4QEEH-Iz9lP5lmdN2ZoGgm-cvgMxZgPmwHeiFD-SK-N2cMiCgUw0Bmy0n0-uliI0NrnfomnE7UidI_gfXd6XMz-NdO4RDZ74hh91-QJh_l49YYxTolYm7M7h9MFb-D4efl0FN58UP8fi3IQRFagp3UE1lQPslsgOMlJvshTAqXA6m4pgHi7Doh5djQ6p_7whzCe-_XRqdvELWdj8cElPZyooLzFTzapRLq1STGwwuXqu27K78mjt0TF5TJ9TfU2Nb"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Tufts Health Plan\" commercial appeals address fax Rhode Island OR Commercial",
+        "results": [
+         {
+          "title": "Provider contact information | Tufts Health Plan",
+          "url": "https://tuftshealthplan.com/contact-us/providers",
+          "snippet": "Servicing inquiries for Tufts Health Direct, Tufts Health RITogether, Tufts Health One Care, and Tufts Health Together \u2013 MassHealth MCO Plan and Accountable Care Partnership Plans \u00b7 Massachusetts Phone: 888-257-1985 Hours: Monday\u2013Friday, 8 a.m. - 5 p.m. (unless otherwise noted) Rhode Island Phone: 844-301-4093 Hours: Monday\u2013Friday, 8 a.m."
+         },
+         {
+          "title": "Rhode Island Large GROUP Health Maintenance Organization Advantage Saver HMO",
+          "url": "https://www.tuftshealthplan.com/documents/members/plans/sample-plan-docs-large-group/2022/ri/ri-adv-hmo-sav",
+          "snippet": "submit your appeal or grievance in writing, send your letter to the address below. Or you may fax it to us at <strong>617-972-9509</strong>: ... P.O. Box 9193 ... You may want more information about TUFTS HEALTH PLAN or to learn about the self-service options available to you."
+         },
+         {
+          "title": "Tufts Health Plan - Northern Rhode Island Chamber of Commerce",
+          "url": "https://members.nrichamber.com/member-directory/Details/tufts-health-plan-1266933",
+          "snippet": "Women&#x27;s Business Council \u00b7 6 Blackstone Valley Place, Lincoln, RI 02865"
+         },
+         {
+          "title": "Claim Requirements, Coordination of Benefits and Dispute ...",
+          "url": "https://www.point32health.org/provider/wp-content/uploads/sites/2/2024/01/thpp_05_claims_pm.pdf",
+          "snippet": "Inquiries related to such claims should be directed to the \u00b7 Rawlings Company representative at the number indicated on the correspondence. All other subrogation questions must \u00b7 be directed to Provider Services at 888-257-1985 (Massachusetts) or <strong>844-301-4093 (Rhode Island).</strong>"
+         },
+         {
+          "title": "Harvard Pilgrim Health Care (Commercial)* Tufts Health Plan (Commercial)",
+          "url": "https://www.point32health.org/documents/provider-claims-appeals-flyer",
+          "snippet": "damage scanning machines and documents and delay the appeals process. Be sure to complete all mandatory fields on the Claims Review Form. Keep your provider information up-to-date: Tufts Health Plan determinations are mailed to the address"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_68892",
+      "args": {
+       "query": "\"Tufts Health Plan\" member appeal address commercial \"P.O. Box\" OR fax"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EuQCCuECAWkUfRMGjg9hMMQV1LjnIc66ubwdCfqjugisA7RoAfviOkSZ6pj8uNQW3CPptt10Gl-LrRTD0_NjN3q0xc_L5T2u89CHP-v7WfO1KgHnlKW2ObkXuueCKpY_p0vK-P6ijSoW0WXHoIyiEcjcyRwTN7mxBPHoK6BtfQ7wvEpNGTyLWTPL90NXupLyyYXPht-gc7Y0SLE_t64udNPvJstL6TZs24dEGiuc-SHAE3uhzRQL7iFVds2OYz9t9Oc2mewHBqvddyYSswPPM9X8l2-Kz-jYj-Jl5nidjVNhCXMaBZsjV5eiCv-aCyeYwk_2N9jLaTeBwdNExyaOSw3J2BivNMEJV6GAomeRW5tLMmJi-jL9pBdpJK3EVcTgPW_EKK9rkyySwwnMIAW9xKKvuiy7vBibxEt7wl4y5l7zaJPP_zhUVSncHJP3iHCjSwtZMDr7vbGNWCEBwwHbA-K9nZI-xCw="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Tufts Health Plan\" member appeal address commercial \"P.O. Box\" OR fax",
+        "results": [
+         {
+          "title": "6.2022 Tufts Health Plan Member Information Sheet Appeals Procedures",
+          "url": "https://tuftshealthplan.com/documents/members/legal/direct-member-grievances-and-appeals",
+          "snippet": "If you believe that Tufts Health Plan has failed to provide these services or discriminated in another way on the \u00b7 basis of race, color, national origin, age, disability, sex, sexual orientation, or gender identity you can file a ... Civil Rights Coordinator Legal Dept. ... Phone: 888.880.8699 ext. 48000, [TTY number\u2014711] ... You can file a grievance in person or by mail, fax, or email."
+         },
+         {
+          "title": "1.2022 Your Appeal and Grievance Rights",
+          "url": "https://tuftshealthplan.com/documents/members/legal/ritogether-member-appeals-and-grievances",
+          "snippet": "and information written in other languages. If you need these services, contact Tufts Health Plan ... Civil Rights Coordinator Legal Dept. ... Phone: 888.880.8699 ext. 48000, [TTY number\u2014 711 or 800.439.2370] ... You can file a grievance in person or by mail, fax, or email."
+         },
+         {
+          "title": "Harvard Pilgrim Health Care (Commercial)* Tufts Health Plan (Commercial)",
+          "url": "https://www.point32health.org/documents/provider-claims-appeals-flyer",
+          "snippet": "<strong>P.O. Box 478</strong> ... Review Form. ... When sending appeals by mail, do not staple, tape, or paper clip supporting documentation, as this can"
+         },
+         {
+          "title": "TUFTS HEALTH PLAN 1 Wellness Way Canton, MA 02021 MASSACHUSETTS Large Group",
+          "url": "https://tuftshealthplan.com/documents/members/plans/sample-plan-docs-large-group/2022/ma/ma-pos",
+          "snippet": "You can also call our confidential ... your appeal \u00b7 or grievance in writing, send your letter to the P.O. Box address below. Or you may <strong>fax it to us at 617-972-9509.</strong>..."
+         },
+         {
+          "title": "Contact Us | Tufts Health Plan Medicare Preferred",
+          "url": "https://www.tuftsmedicarepreferred.org/members/contact-us",
+          "snippet": "Tufts Health Plan Attn: Member Services <strong>P.O. Box 518 Canton, MA 02021-0518</strong> \u00b7 Tufts Health Plan Attn: Appeals &amp; Grievances P.O."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_127607",
+      "args": {
+       "query": "\"direct-member-grievances-and-appeals\" \"P.O. Box\" OR \"fax\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtADCs0DAWkUfRPYN7-ghK_6Zhf41jADuvgsQMI-WXtNLgSz3i7ycMKzw09IcePuBbdUfuBSQgQRmKZMUU1rxJdJcctCdjXhgmyEZK-rod1QdvjE4BqtCXTaK64rAadfmNxv8sVf5m7NtPJPpcu4PbUBXBp6juY2uw8mrcnnzO-OTJO468FCMXM9JC4qs0Pq5lO4SWSN2VbeCBBEiwb4Wnn5Ml3n7YmJur_MEDgixC7ybW_Rf8y1HddqOr8l6vrgrejW2mtQvKlrxcbwOdVN5IT7ZXfeAEwPJkKJBJuZJavPnK8VPgSjqHiWIOKhSRAqJhvEUD_r_sWaIRxZdfMIb3Ik_nj7usbr25gcYZEpjZjcymwCC4GdYS9C7gViGJOERjx5C_tLmAdwS8lme098mi4kDmfeyMQiGE9XVh-6_dC4wn2S09GoMm-bFRgovgbUYfxXT9eYuvYcHoEup-sSIF2UIz7ratCqOgbLJ222aSYHKMzHWAKY1SAAd1thZIvjjkp6HUSTwJZWgUdBIEiO-0GYvOQPRwXiIt52aLMQJUgtxpIN3SvwK9wJq5zUWvVLmTAveWi73K-mW0HLYv26I3WX_W0GD7DR-kVlijxDlG4PbKo="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"direct-member-grievances-and-appeals\" \"P.O. Box\" OR \"fax\"",
+        "results": [
+         {
+          "title": "Health Net Appeals and Grievances Forms | Health Net",
+          "url": "https://www.healthnet.com/content/healthnet/en_us/members/appeals-and-grievances.html",
+          "snippet": "Filing by mail or fax, the grievance form can be downloaded and mailed or faxed to: Health Net of California Member Appeals and Grievance Department P.O. Box 10348 Van Nuys, CA 91410-0348 Fax: <strong>(877) 831-6019</strong>"
+         },
+         {
+          "title": "Member Grievances and Appeals",
+          "url": "https://martinspoint.org/for-providers/provider-manual/member-grievances-and-appeals",
+          "snippet": "Some good cause reasons include ... Please mail your request to us at: Martin\u2019s Point Generations Advantage Appeals Department <strong>P.O. Box 8832 Portland, ME 04104-9861</strong>..."
+         },
+         {
+          "title": "Grievances and Appeals",
+          "url": "https://www.delawarefirsthealth.com/members/medicaid/resources/quality-improvement/complaints-appeals.html",
+          "snippet": "A fast (expedited) appeal may be requested if the normal timeframe to review your appeal could cause you serious health concerns. You, your authorized representative, or your provider may request a fast appeal by: Calling Member Services at 1-877-236-1341 (TTY: 711). Sending a fax to <strong>1-833-525-0054</strong>..."
+         },
+         {
+          "title": "Appeals & Grievances | Trillium Health Resources",
+          "url": "https://www.trilliumhealthresources.org/members-recipients/appeals-grievances",
+          "snippet": "Requests for appeals to the DMH/DD/SAS Panel may be faxed to 919-733-4962 or mailed to: DMH/DD/SAS Hearing Office c/o Customer Service and Community Rights Mail Service Center 3001, Raleigh, NC 27699-3001 \u00b7 Customer Service and Community Rights Team: 984-236-5300 \u00b7 Contacting us with a complaint/grievance means that you are unhappy with Trillium, your provider, or your health services."
+         },
+         {
+          "title": "Appeals and Grievances",
+          "url": "https://www.firstchoicevipcare.com/member-2026/appeals",
+          "snippet": "First Choice VIP Care (HMO-SNP) Attn: Appeals P.O. Box 80109 London, KY 40742-0109 Appeals fax: 1-855-221-0046 \u00b7 First Choice VIP Care (HMO-SNP) Attn: Customer Experience, Grievances, and Complaints P.O."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_181396",
+      "args": {
+       "query": "site:tuftshealthplan.com \"Appeals\" AND \"P.O. Box\" AND \"Canton\" OR \"Watertown\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvwCCvkCAWkUfRPD7ZbDq1Wx2KP_NgBVmx78kxYk6biib5_uxeWLmGOqUvUJbzN5lHXuTPk5zKu7mO1Hrj9YFor_s7P6y01nQ9GbYUi-F3-GbJpnzr6JDezWQg6h-Ui6qZYO45VnvKl2CElnpUgRV8AnL8eHRIxA4WqmHubY1WNdyqWlO1AUpceaDvsu0S1ix6MBFVUkguIzESj8o2DN7fm7zR-rfdXgAwyQqCPUyRcrM13VLwemimPfssTwcpSykBXOoJexJ6PMDMvpDGjqIbWrdvGJCX82pahbjDU7iXgpmg5tTIiVsTx0dqWK3n9weccl-Ec9kQVIEQY_K9IO3PJ8-qJAeqY3EQtY4fVjAqqLUqTjDznOffmzJ9D4txp-fX87z7nsWPbHmpVgkhWDr0RWTvx3vKy7lGrF48owrQcwlHQQBtJn1J_PoLnEyjqKqpXhhn3whkKTRmi-4VKSzWFLpLUycISHr6VDNT6YLuADggKWMV8YtYw0Ptqi6II="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:tuftshealthplan.com \"Appeals\" AND \"P.O. Box\" AND \"Canton\" OR \"Watertown\"",
+        "results": [
+         {
+          "title": "TUFTS HEALTH PLAN 1 Wellness Way Canton, MA 02021 MASSACHUSETTS Large Group",
+          "url": "https://tuftshealthplan.com/documents/members/plans/sample-plan-docs-large-group/2022/ma/ma-pos",
+          "snippet": "<strong>P.O. Box 9193</strong> \u00b7 Watertown, MA 02472-9193 \u00b7 You may also submit your appeal or grievance in-person at this address: TUFTS HEALTH PLAN \u00b7 1 Wellness Way \u00b7 Canton, MA 02021 \u00b7 Website \u00b7 For more information about TUFTS HEALTH PLAN and to learn more about the self-service options that are available ..."
+         },
+         {
+          "title": "TUFTS HEALTH PLAN 1 Wellness Way Canton, MA 02021 Large Group",
+          "url": "https://www.tuftshealthplan.com/documents/members/plans/sample-plan-docs-large-group/2022/ma/ma-hmo-value",
+          "snippet": "<strong>P.O. Box 9193</strong> \u00b7 Watertown MA 02472-9193 \u00b7 You may also submit your appeal or grievance in person at this address: Tufts Health Plan \u00b7 1 Wellness Way \u00b7 Canton, MA 02021 \u00b7 Website \u00b7 For more information about TUFTS HEALTH PLAN and to learn more about the self-service options that are available ..."
+         },
+         {
+          "title": "Rhode Island Large GROUP Health Maintenance Organization Advantage Saver HMO",
+          "url": "https://www.tuftshealthplan.com/documents/members/plans/sample-plan-docs-large-group/2022/ri/ri-adv-hmo-sav",
+          "snippet": "<strong>P.O. Box 9193</strong> \u00b7 Watertown MA 02471-9193 \u00b7 Or you may submit your appeal or grievance in-person at the address below: Tufts Health Plan \u00b7 1 Wellness Way \u00b7 Canton, MA 02021 \u00b7 Website: You may want more information about TUFTS HEALTH PLAN or to learn about the self-service options available ..."
+         },
+         {
+          "title": "EVIDENCE OF COVERAGE HMO MASSACHUSETTS Large Group TUFTS HEALTH PLAN",
+          "url": "https://www.tuftshealthplan.com/documents/members/plans/sample-plan-docs-large-group/2022/ma/ma-hmo-premium",
+          "snippet": "<strong>P.O. Box 9193</strong> \u00b7 Watertown MA 02472-9193 \u00b7 You may also submit your appeal or grievance in person at this address: Tufts Health Plan \u00b7 1 Wellness Way \u00b7 Canton, MA 02021 \u00b7 Website \u00b7 For more information about TUFTS HEALTH PLAN and to learn more about the self-service options that are available ..."
+         },
+         {
+          "title": "CERTIFICATE OF INSURANCE MASSACHUSETTS Large Group Your Choice PPO",
+          "url": "https://tuftshealthplan.com/documents/members/plans/sample-plan-docs-large-group/2022/ma/ma-ppo-yc-tier-2",
+          "snippet": "Canton, MA 02021 \u00b7 IMPORTANT ... below. Or you may fax it to us at 617-972-9509. TUFTS HEALTH PLAN \u00b7 Attn: Appeals and Grievances Department \u00b7 <strong>P.O. Box 9193</strong> \u00b7 Watertown MA 02472-9193 \u00b7..."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_91927",
+      "args": {
+       "query": "site:tuftshealthplan.com \"Member\" AND \"Appeals\" AND \"Form\" OR \"online\" OR \"portal\" OR \"Commercial\" OR \"ACA\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpEHCo4HAWkUfRMeet5cQH9Fn6FOsgJHh4FD54YhwXCF5JiAQNKl0qiv3RxxD7ud9qcHwSGzvqaTVGHqw-YgpBlHPVXskRJmgoo3JA2SsZa15hREovZIYA0XmkBkSRzf6Q7gJbZkqlI0ByPZd1EBcyekaxqTw9x8YYm4we67Tojq7fH1T2PFBArbjEyoMBFQJO3Y7OKc4AOXLVYPkOWCNWtL-nNxKfUnK3Mkc3Pnn0eaNpvwGnAj7q4-okRm_YW8_dEyMBmc8MNT0RppjKSagA0RhUet9WlhAYzoTDSUqRiRfLhYl2mAWY-1UWUEYf4AOTF0sf3F9iVpZOqNmSCt8CmD2WCUrSS-r5MWljZQvCRHryFkON1tUZ1GQPSZIOQuLljpcK0E4qps63iPcZjj0VBgHR_zJMr7Z8BnB74luJWamzC1w2Y9xytyTf7nnGHvF8MFtB5b0lNRwYjOd_dDFZhAE1OPTkILvIf1bIjsk1BEJUyFXYurYprfOk3VVLOsW1st_RNajneI2zOMJbshbGEqwURKS9OfzTldnGV7TtvdERhKNP5EGzYiL1YN0pqBNe5huyy5a9sxiJKiVQ0GXF7pBzls4BTbU4mSS8szfH8qIo0zmkGyVpxil4R6BZWmrJT--OlyYru-Pel1Powbp8AzcIiRCTKKMJhsWfD3anyEDtU-4JN63e_ExwKyddHLPxWHGBj1NquBl1g37NXQLZzco3mv5enbrYjlnLXLcW7e5VBry59b_37AavQM_uAvk9FHcqxf0E2bEBXw3J1mLuN9bNeTPPwCGFufczHOt1J7Yw0YmIhcyEbNem_kBl6dSnsg2ZfoBEQkSUcj0d-Q5nsjm6knkSwoSaEwf4UipTKKCP_hh2i0S0ULpsJcymVtNivB2yiZyiLIpXoQWq4L7trjN1cjtSQ1EgKTJk0i9cz4G5U7bVrNpErrs3rcTKnr0l7IMlf5u-4_-zWYatAmeI1awyQiyn3AlRB_2KCBXpQA0C0vSSNvLW3kqX9XIYEtT7vnyPhgduDrnIj6HTVP7SzM4fNF22fk_nQ0n2G5kRLgP5Gl0EKbZfB9PV7MhaEcPZdmhqofKYC5mZDaLDTlj3q6gg2Sz_PMiXDAvBQ97ixxWwRaBN3COyUEL1_3DsI9kQ9f11jimcsPPZflnKkYclue1hQz-45SFLN9ENiEO3HGarWxS7wUBoaXVUWpDiGWvDIF_g=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:tuftshealthplan.com \"Member\" AND \"Appeals\" AND \"Form\" OR \"online\" OR \"portal\" OR \"Commercial\" OR \"ACA\"",
+        "results": [
+         {
+          "title": "CERTIFICATE OF INSURANCE MASSACHUSETTS Large Group Your Choice PPO",
+          "url": "https://tuftshealthplan.com/documents/members/plans/sample-plan-docs-large-group/2022/ma/ma-ppo-yc-tier-2",
+          "snippet": "<strong>www.tuftshealthplan.com/members</strong>. Once you have registered, enter the member portal to access the tool."
+         },
+         {
+          "title": "Tufts Health Plan 1 Wellness Way Canton, MA 02021 tuftshealthplan.com 3.2022",
+          "url": "https://tuftshealthplan.com/documents/members/legal/together-member-grievances-and-appeals",
+          "snippet": "portal (available 24 hours a day). Please note that reconsideration from a case reviewer is not available if \u00b7 the coverage decision involves an inpatient hospital admission, and the member has already been \u00b7 discharged from the facility. If you are still not satisfied, you may appeal as described below. ... Getting help to fill out forms ..."
+         },
+         {
+          "title": "Translation services are available for all languages, in ...",
+          "url": "https://tuftshealthplan.com/documents/members/legal/ritogether-member-appeals-and-grievances",
+          "snippet": "Portal, available at <strong>https://ocrportal.hhs.gov/ocr/portal/lobby.jsf</strong>, or by mail or phone at: U.S. Department of Health and Human Services ... Washington, D.C. 20201 ... Services. Send written appeals to us by:"
+         },
+         {
+          "title": "Contact member services | Tufts Health Plan",
+          "url": "https://tuftshealthplan.com/contact-us/commercial-member-contact-form",
+          "snippet": "<strong>Employer, Individual and Family plan members can submit this online form to contact our Member Services Department</strong>."
+         },
+         {
+          "title": "TUFTS HEALTH PLAN 1 Wellness Way Canton, MA 02021 Large Group",
+          "url": "https://www.tuftshealthplan.com/documents/members/plans/sample-plan-docs-large-group/2022/ma/ma-hmo-value",
+          "snippet": "<strong>www.tuftshealthplan.com/members</strong>. Once you have registered, enter the member portal to access the tool."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_85107",
+      "args": {
+       "query": "site:tuftshealthplan.com \"Commercial\" \"Member Services\" phone OR \"800-\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpoGCpcGAWkUfRMbFNo-FNLCY7qSvEfxxyCbAn7Ik2DuOl6g9yNXux0OkjifGUdc4w6nAPQRtX9BcsyHOrRmKBmWw6mBu2Ua9IVsrwXaVLhsDgOxXlEILdSFG9g4697VQmhd16gKCGxnNb-OyqW3brg2cNDa4U100mvs5T0ifoSxX_JiXWaJtr5wI3zYz8aK93cUeaewYD2xAYf5ZwizZVVT9gD6JwWRYjAveCrqbACgEc3WDrMi7lW21OjZ1LhmuRYsXEXqiJxrYUGevmvanIzgRVyUd1fumByi-Q64kn1AemADssJr9bu9xktd8Lr3SBcobqadSuPtkihEC8LBZqT-XYK25rNLCKr0OWL5k9yM2zFwi33ri4ZGAF5KkNQ093f5WgtjlrugnW0dJ-_uI8Rn8AS0LbfCPEixUC7Myk9h_XSIRYIRCKSRsUQBmhZXq78ZWaiRsH8B6BDozkHbrTS0saNKXp00Fnysf22WBsRiMD0JbR6Wbb4lQGs6twUslY1C3Fe3Ye17NXiyEDDSrYyv6TNGG-iR6lUzjjq1c_0JBANwcCB3GH8g3znIu_pdFGxqaQosIWVzICNwsxj3BSDKXWD-652nQ9fVs-_1r-cm4jITrizMDlFHeQeRTra-5zqWnuW-Qnv3wLdo4n9Bltfk3RFBp6btiV3x_WSg8n0WMd_nMwi2-KdF4teCmJ5ICZV2ExXj8k5wPcjUO2zpw2yINbIKOiOW7wPeVWWHw3K6SB9ckZd349mVsxAItULUNoCiYKE9_0V3rEQK7k8OBkHVpwdGN3lbgTyN-b-zDRJJCdhT7KfMRM5wkhy87vMdzJfZgJmFQxKFALP0F9ZjPuGCcW_Jox1AbfHGYlq2YVPUSIltpkWDQfI4sEyAyYAaE9GGNRLUjKOGRI6Dc5nJgSzZlvyMrkILKcY8XyMfmE3BA7bz8w9Gwg0S1TOZ67egkScRG0g_eGM1_rgYU410A_LJsSd0jFVAK3umF_9TecnsJ65gAhW39bJFxVzLcaRWThuwH8Uc3G639z1BskutQzGC1IrUP5ozijPjsWY="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:tuftshealthplan.com \"Commercial\" \"Member Services\" phone OR \"800-\"",
+        "results": [
+         {
+          "title": "Are you a new member? | Tufts Health Plan",
+          "url": "https://tuftshealthplan.com/member/employer-individual-or-family-plans/information-for-new-members/welcome",
+          "snippet": "Just call Member Services at <strong>800-462-0224</strong> or at the number on your Member ID card. You can also email Member Services. ... Telehealth virtual health care services provided by Teladoc are available to Tufts Health Plan Commercial members (not including Tufts Health Direct)."
+         },
+         {
+          "title": "Member Services Contact Form | Commercial Members",
+          "url": "https://tuftshealthplan.com/visitor/contact-us/commercial-member-contact-form",
+          "snippet": "Find office locations, phone numbers and specific contact information for members, brokers, employers and providers."
+         },
+         {
+          "title": "Resources and reporting provider directory inaccuracies | Tufts Health Plan",
+          "url": "https://tuftshealthplan.com/legal-notices/resources-and-provider-directory-inaccuracies",
+          "snippet": "If you need any of the above services, have questions regarding any provider directory information, or would like to report an inaccuracy or network access issue, please contact Tufts Health Plan Member Services at <strong>800-462-0224</strong> (Commercial Products) or 888-257-1985 (Tufts Health Direct)."
+         },
+         {
+          "title": "Provider contact information | Tufts Health Plan",
+          "url": "https://tuftshealthplan.com/contact-us/providers",
+          "snippet": "Servicing inquiries for Tufts Medicare Preferred HMO and Tufts Health Plan Senior Care Options (SCO) Phone: <strong>800-279-9022</strong> Hours: Monday \u2013 Friday, 8am to 5pm (unless otherwise noted) Cigna Medical management inquiries for all CareLinkSM members; claims and benefit inquiries for CareLink members ..."
+         },
+         {
+          "title": "7885 02042026 Tufts Health Direct Member Handbook",
+          "url": "https://www.tuftshealthplan.com/documents/members/handbooks/direct-member-handbook-2026",
+          "snippet": "Visit tuftshealthplan.com/memberlogin. First time users must create an account. Your secure Member portal offers you a safe way to help manage your health care. You can: ... Questions? Please call Member Services at <strong>888-257-1985 (TTY: 711, for people with partial or total hearing loss.)</strong>"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "text": "```json\n{\n  \"policy_found\": true,\n  \"policy_title\": \"Evolent Clinical Guideline 1766 for Lumbar Spine Surgery\",\n  \"policy_number\": \"Evolent_CG_3041766\",\n  \"policy_url\": \"https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/2/1884_LHCC_Lumbar_Spine_Surgery.pdf\",\n  \"effective_date\": \"Last Revised: November 2024 (Implementation Date: July 2025)\",\n  \"criteria_quotes\": [\n    \"Surgical Indications \u25cf When ALL of the following are present: \u25cb Primary radicular symptoms noted upon clinical exam that significantly hinders daily activities \u25cb Failure of conservative treatment* for a minimum of six (6) weeks within the last six (6) months; NOTE - Failure of conservative treatment is defined as one of the following: \u25a0 Lack of meaningful improvement after a full course of treatment; OR \u25a0 Progression or worsening of symptoms during treatment; OR \u25a0 Documentation of a medical reason the member is unable to participate in treatment... \u25cb Imaging studies showing evidence of inter-vertebral disc herniation that correlate exactly with the individual\u2019s symptoms/signs\",\n    \"Surgical Indications [for Lumbar Decompression] \u25cf When ALL of the following are present: \u25cb Neurogenic claudication, and/or radicular leg pain that impairs daily activities \u25cb Failure of conservative treatment* for a minimum of six (6) weeks within the last six (6) months... \u25cb Imaging studies demonstrating moderate to severe stenosis consistent with clinical signs/symptoms\",\n    \"*CONSERVATIVE TREATMENT: Non-operative conservative treatment should include a multimodality approach consisting of at least one (1) active and one (1) inactive component targeting the affected spinal region. \u25cf Active Modalities: \u25cb Physical therapy \u25cb Physician-supervised home exercise program (HEP)** \u25cb Chiropractic Care \u25cf Inactive Modalities: \u25cb Medications (e.g., NSAIDs, steroids, analgesics) \u25cb Injections (e.g., epidural steroid injection, selective nerve root block)\"\n  ],\n  \"appeal_deadline\": \"2027-02-18\",\n  \"submission_route\": \"Written appeals can be sent by mail to: Tufts Health Plan, Attn: Appeals and Grievances Department, P.O. Box 9193, Watertown, MA 02472-9193 (or 02471-9193). Written appeals can also be submitted in person to: Tufts Health Plan, 1 Wellness Way, Canton, MA 02021. Alternatively, they can be faxed to 617-972-9509. For verbal appeals or inquiries, members can contact Tufts Health Plan Commercial Member Services at 800-462-0224, or the Rhode Island servicing line at 844-301-4093.\",\n  \"how_to_obtain_criteria\": \"Tufts Health Plan delegates utilization management for spine surgeries to Evolent (formerly National Imaging Associates, Inc./NIA). Members or providers can access these guidelines online via RadMD (www.radmd.com) or by contacting Tufts Health Plan Commercial Member Services at 800-462-0224 or Evolent at 1-866-642-9703.\",\n  \"confidence\": \"high\",\n  \"notes\": \"Point32Health is the parent company of Tufts Health Plan and Harvard Pilgrim Health Care. Outpatient and elective inpatient lumbar spine surgery prior authorizations (including CPT 63030, which corresponds to Lumbar Microdiscectomy under the Tufts review matrix) are managed by Evolent. The denial reason specifies that the imaging findings do not support the medical necessity of the procedure, so the appeal must specifically address how the MRI/imaging findings show evidence of inter-vertebral disc herniation or stenosis that correlates exactly with Skyler's symptoms and signs.\"\n}\n```",
+     "thought_signature": "ErhECrVEAWkUfRM2qJtsOri1XHnTxVZ11KO_h0nefIbmhStRXUa1ZlDsRuv8iDYcf8QTRnLVbFn5_bPwvvMxQqMCBwnexSrjqhvz30Ohvpk13nL-v3VdS9xzbDB4O8nw0auZt53Npj2Q_CUfdRkTa4VDDAulCX2Y56twr8gptDjb2p7J8lebvRnO35a9J7cL6xj0djcIpSTACr1Kc8JXk66dlplDwRIPz-oa65tvidVkCFmZF4fXQD7SE54LNUL_D4fp_PJqD0f46qETtQbuiU2_juDhc1XpvQrBp8mdBETS_1cYq1s0uUodxIqVigBLjEBZ4Y44XLjAwoEkDr9a6xqnyZLl9doWQAdxGmvrASq8NfSP4jAGH4AeQXfwy_ZTCLeV0CfP84TGrej-jXeoervQ7yYemJOa8VI6dzgFhvDX89CuKV3g5pFYPk16JeJAfFh54ENmHJ5QQlEhLZ7unctHFNuPgFkDaPZNzq1hDXFX-lFfDt1JGKsVTFHtw9piWXS3JqeW7zwrucJv7-H3sFWoK0cywP8mM-jKXOzBP1IHYQpmbWzigNX8T1RRZpAJPAvz3RIknETBHTCyw2gqDfcUgyEfDb6sV-E1vydyUUu6bJKr9ZX8J54f6IvTfVo-mM2KRW9umXeJsrqaus7lUXxiJU6f_3hLNXW5xkxN4SjY6ClEGYxdoy3AYvQgUfEx1Z5kjahzLLukuNQCW5dRqtzMtt2u2s2MMRlVmUokFiidDcNiLa-EN6cgs4-Fj1NKScW3kBktrhjcbIr2plfTnAWF7r803qdP6LCVnov7xI87jdz6b7mHeO1pEwh825KEqQ2PKm_DjTg0jtXesym9XlP0X67JHCCUtaP7j47W_TzIN7uUDZ29kmX8cg-xvuMOv2pGtRICFwettmmtxAPYZuMPM_qHoQK4HfOMWOd7Z_sbrXSD6R367vbmYuEbIms3w-x_-quBNmcpn71nZYvKXQ_JW59ms1MlZoOgR31RYaNY0gOnsIQjxEt8jb92JmrhmvDALBBztRDs8buozAGVRqvZKmhs_fwWGgreU4l5uuTI_gCMBgaNvRdZczRBWvmnUdsIv-kos1sadUlB23gFJjbOmjXN3sJ6v6y14eovS9G9ayDDoh8Jpz-CzuZ9CVryKLquJcrVTwaYAv3xVi0EadXoQgEXU2dyc4lJAraD5Lbd_gxYSMh7MSWR65Ij6P8ZBxacN9Vu7Kmj6BA5whvqQjWdYJGFS566yk2xL34vrlAG_ag2USU6JYkPlDg2MxirwPTatzYVEz3ikZHSGsguHbDTUsd26pWxPAd3ctVWr7vEITmOUg-x5MHedxyn59aVtFucvip_kx3vW7nrdCJE4GHvCZxvFYNOzRl-VmdgpxB0vBjoURAq-5aWkx_2SsGktr2xW8Go6GHX2UbKMEd4lPFX0VKWYT3tQ45iahTtElgSIPXZY-JbJRDkfqxop7d_0P8QMGmi2L61_MY19kwcjoft0gb7CySUxM0-_8qjkR7dwuTEhrq_fx6qX9lNN1AWVLVMZ6-DcnNnT1hr6MHceOgzQgxI7gIIN7UOSafvaGYXshzffNbsnjcWUp0_kHz3Rm4vMOQ3jdspLlQvSMGM3jp5pDGknmVslpcwXR2h4WbaOvBE4519M39zL7tzafV-oyusgrqFQSvrxG7xTzkJ90_lF93DQ3A3p_OADGoP99AloGMf6lo-8mvyu8NBPuGfWhweAhoGOnewUsmS8SdCQB8OxhKRXgd5S8oLs6nbpaKsKH2LGVoV4gtqMe81oEzymVIA-Q5dkS1t46CZFvrLs-EMsE74NluECh9ZS_pjN6RvVrl9jrWXksSVXBquQVbSs8MP98guX17T2NvEjKWFTHsofsXkUDdfyuKzGHEx74IetG8ubvHGcN3GfwnxlYS5RZ093j---dfSmejBQ_wyZMobRh-xQsWFT9vqX3QUIfzBgCd3me-Ckpd4z4sEdr8JraVfGKH4D1VcqSCijAeAI_BfVDTxMLzBxCW-NidCb-M2KVwev4pgd9BIxbKj5g4lzUfElLiK9dP2QpaAduwL7I8i2NZvvb-veCyspj0eCZnQt6nrI47zHF8H8P9o3n8kOU8uOp1C-y13gdFoUttcGEDymBDG6GkaCluTrOJc6oDjAF3uHejaM3ycbvCoYu4eKONAbU_ZA-H0zCiinLtwCVc8CQARlA-t3tjb6uh22tGgj8A0t3UcpdTYtcbUgpOEPzQ01MYEdij_1H3dhuEd9dRXZHxLIfLfoxMONeGSbtfSsZEEyM5swsahbp7nZY2TOsWVPiekHX75FgLy_KALPXC6SiEgkNyX4GAGZNxT7zSt6TNRfVyHkkvBvofSckAJ5qqnDIHnuEAih4NDBQ7MPnFV23TdkQmwyFX1APDk3Qpuz0q0O2COoDigk8q8Ka7GdM0n3XJ1COuJv8RaL0SuIf4Vk-Ong_rPDwtCRO8T2SpLS_dlovQx_GIobYe-uZ4qCMJthMGM3Y7ROJd1VcHWVXg2gaFM-mPAjO-Gto1YXJ4OlrFxWVwbgDLpzpsD7gpUdZYNCzJ1ZH5WqrRUVdeGlsiQr7eKUwgJ8AoAWJ0PeLkaEYauARdhO1eDXOstsl_n8ORtkxYiQ9i_fyKYG43BjlE4pkBAohzVXVC3o_HnEM_Kj1elNcqgFM_Mz1su-Om0htQSz_pe5lZBoQWqswRGO0mWXFHMr8ur5dV3OE7iBst2qhQwswqdqbJEaYNmw7znq4iilJlQhTCgY5nf1EZKYGRYItabFDgfmX08Tk8sS0a81kmpy7IrNbP6U20StgaSb0bpR-hDsOiPQjnVL2aJ4YQ4gk3eCmuUtHtzOTBIyoUb3WjJQu4u9iIBX0ogI8VPSmPRmuZU_4Phecx6A-JLKxzXtftHDwddMqwhMQYubTh1YpUx7w4znU69YTCeN5MuSwxdUcUBBMTgIrM31Gfqp-2iffqM9VyJlALkFN8b8J414jWrIdUfrqz1rR34azWhdxV-5IXIc3mNGj2f7M_7qSt2LkNP9zABP97JZVer3bjtIL86MuWWD-BPUvJS00a4FMfH5BTfASLXaUETwmxXdj-NmPR0IAcCK5_6ajdFBay87FO0y95uxY7d2JZG7R51p8zmdsJPEXki61wmpM_ggLXgBix19_Ku-QWxgmz6bx1vB1ju_9DM6g8r1yEjyHxystiUxGg9u65-ZWjUlMfDMbjkOVWFejOaFTv4XVlttENrv6BRCEaSlKuE_VCmYqqCi5VC8MVXMqugl7Dk2r7uPxfamzvPiy0WUlyLYrmtdxTxmta_lPwrha51qKyM4LcW4JEErNJGrkkg8CukZH_wY5MGbghlIQUtfW_sHwrUl1CocaeRAGi0exLyulABr9quuTmvta9eCVOYhGxKanENGMjPid55t1rXixD6sEYrq3qmpx1Rb23jdmiC1kRCdlmEDcZmQ1f4WzVloRGuID86LJtHL94Tx4GeDrAblpydYDnJopYKmJ5aaS1ArqlxuwLyaFAKFZHzl0ErTujaKUtLRiFAJ4U6Gchagz2eX4bVMzRxAQfhISSc3EUd3xvMjIKIjzPOw8r31UBh9QmtKb2-xR1aMu3E56eKrtKBSN0WbqKvc3wW8PKQ3CX_IUIvKpDOUA4RTGGSQnHdxlYmfbtizv-3O7DQ_zlsdNpTnz48CRcCvmh6NOG8OVfogLWBPX4ZcAT2bGgfmmHoINUREHHXMaP2NVcm-K43Vsrc4-aj3x336oQRIztM9N8DLUVcXyAy64vZYJWhC15kdwRORggRiBOTbNDplyCAQoMHA6m5NHi8gPleQCQ_cFzsZ9dVZBum4wBiGYNKUBd055pySGQ6nIeA02LFALvAm-B8tSi56b2AhW2OTilIKApisckOQVI6-ZNn4aorutjoQj9KBIO7AqX1ebQwoHHSQNyO7WufwC_kKLIwDvz0AWnbJcv12YHusis2O3HzbocVdJfcDrdk5zgm9l-fWYXLTV2kMro-xwjxsjnzbvXh1HjTe8jEJo-_h3KyvRoFHih2ybI71qfzeMhQMZOjNjaMBslr1O7pvw1wBaXWe0TvqX9hjVkpeIjk24y5d2HNkmTFkxWX0iNJAOzBEP_vVy8hZgtFpKKW6l9opKyYvEXzj1clqzU_PlIJSlj9gHSHAJHHamNqyoWTI5TMSzLX5vgg8BaTQHjH0mR8fCc0etjDRc0WSx0lPvMMQyBZsJJryuAVHP2iam9hZjfkDuDUWKN8uJ-IR2qKdL73E2m8Eu-jzA28bTWXVViHcceYcXAKaTWxL7q73AZ-4jiOaMNfd1gZ_7QjnIVZDmckfOiJrHXk1i3XB7ZyniYgLUr_PPaapz10Gysi0TSI_qa-znet03gwZyJi4ORERmYnqdVFqZZOJ2i_dWmGKThErrGI0TXYntk7qsuydduVJ7aQk-KnLHpOF-C0h3t2alCXieJQx9mM1cRzZ2ndoPED_2_6BSKO5XGARx7xBqvJJaS7ON1uSEjUVpPJiRRIWhe39iAyGpyrDpKUsa-hO4BGsjYT7-7562Cul00-mbZvXyFJC6cOrSruQNKXERkxurdA4lqfdGRKavcgiUOh3sCwEGS1cwOIx8FPgfYxVnsYVifJCbL9aaEA9m2cuzOK0gPUjGYjEZ6wxYFox8JWLukfx9NwqhBxO7aKw_40ZtTBTUKbGBq-HLFDSgSpcmiOlYFOZJxcQKijK1gEpb9d3IZ_KHLST4xBTt8kM09c3cOnoSDqINM7Y1qI1xh6_o7UKiQT6BwO3XkrKS55k4iuqqcMeg6SIB-N1Qso_-RjQ379uuL-Kg-KLnrzpWtZxk2-s56bEW-QryOVVYQOYGKEaFzg4EH32gt6IpXHRmXk05ysJsBOfkEqqp1comHNGI90M0gAM2ZdfYZk3o8yqCXFu2wOb22y4xBXjj0GnYnx1_XsSvCgKormzmsOaumrXZFfeqh4Fs9ud078tM4uGvJSxvGadQU1DpxFm11Z1OHfanJBtitSPXKH5L_OpWbGU0pHRm0rKdpwTZ7SgZ4Z2sZBWxfkpCeuBMKAqguZ9be1sual3eLrm7CFeol3KI8Q6oWavsoAJ5DmGEDTUogIdfY0wzEUIVkY8jxI-5k_KH1OeXxVUGnjAZll4u9Ox7rRCnII7sO09OAHVazLPB0XQO_BTWqhrp_vbRypphYG7g4Qvm-40edVIBu9eN_Blm5svOczIKlPR0Pda1C-1LlAviasLQFhWRGvQmInnwN1dgJvSnw-HAxAx9I1aXMtL6VzWKVMbGS35VrGcPKoFwrq5gAxAxPOTIC7-S4iMASXk8MKC8KV4Zu3xaIV4u4ALnCLZAMuse2RSwosMiNxeI0NzeClcV7PM6xg4P_ee6FD_IVOEEfFkLXhYd2GnZYW05mD6SuU5rAuUA7nrK4IKXeEZdnDHA3ARlzK74H2mX_VExkVxS7CFux1dyGO-7tmJy1y-uclNvGVOq8_ghbxTYw61AbhbvDplHjNn180E8UmZXVcfmvHFlsJd5zLGfQIOucaU7vKFQh6vTBSEJrrr3Vn2qzcBg8Zv6gFQZ3eg4MoeJ-mMjyAILO2zNB3p8AQEWRRyDRP-15_4xcK_GuT4uWpn19mq625_gX5tN0_yENEQGsJK2FApErL9CeLNMg8g419GNUZPQNeaffuq86F54NyHldo0rTDGwbnXDEbWim2Usbi8Pw08p3iHxSDEjdLi1ySXnzlGPXdIF19AYjPhszJyewKRz_PNM1KyYlyCezxrzqbkzKFlMbV_NttEsC2XpDlsztzyrnU6O-xZa-OW8yn4COGngglJ5o1I3EzTXxwSHoYbjAf44kVp-68kIgiFB7adu84yci9tJLhsy5Q-1W1f0qh0ogfoVYXcf5OXZDl2DhtNmwAQ_ErUmK1LJa2DG7FCxw6b1IEHhtNWY8CFG7L0HcRqVgjSEvZTEe70qVnMqRvKfmG4cW7lz70P6Kji8GrHeZaVo07sDFvcMFaATvHSQL-5kxKC1irHOtAy2WFhI83Wgfv5jFLN3tm_JhuadCNrkyaamecyc9EvvMdnlOrN6dKVw7TgNpp5pGniORvCQ99_MCTXZzJfq2p-eZbBsdKXYPfzvWYdKKV8re7dbLxDK-SHsSWOdi4paOcZmQOIFy-lx5FU8QcHyrt9k8Kk0ZPTGfEESXjtn_H2niQLmRFOGrH1rJdJ6rFlnictyG7bdIRvShyJuhj0b9MeZAongriqL6p1e3ABZyyET2EDcHY0L4oceU8Yx0qy6Z6FnS2g36T-e-5JIcEtsID-gGLe8tpl9SCk4pKsWwgtw9TnpSSOyV3j-5qli2ejcwWC2qLMCnXl99ORIzdYuHe8S-vpa-t-tyVJfb8tasIJ_kpVGpAeszP1dIbqRBCPdzFZYwcL7CNc-hkWHyiylqukPhidy_IfxcijpkWyzt_bTI4soxxgD0I1xmJS_vfrz5eBCZtSvVNwH2a8OBTvEEqKC7MA-Yary9bvx7ubB_ydJfU2tcoAnqzWCbZ6jIhZk-OhfoKYM5UoUzFN2aAtlfVP2Ob6JTGKrab7L_Bhol_lpH4XTTVxDqfABQlmIBNCbO-L4vHVPFycakbVHeSRJaubYLcOS0dnv-bWei5y7gJGzstzktv-2ExVhfsf2NbscxmiaKzlDDzHxX12GQjHW0vNSaAGTcv06-fjg-fDnq-CsWPNLpg_juy3hcMi3jf2yqZCKVhBhvcrPhg4jBHuK68INtXbqXrHpd7A7JgWTB8Sags7qv1aKGqkqwdGWGqBvP7gAqfSWgnnuLrr3PAY_OVBE7v1KBel3Ewy_BN7Ahevv528LdAkUSFdl1wWs5FD09pMkRgzd2mwH05ZJ6HW8m1aRSdhZMe14IGb7Uc62T02N7eKNnqFUG4dk-_u2CpfOmeZJjcQES5FwUbSufbzlYTI_AsWOZEFtQxoSND_4DuzIEbHrbzFQNvobfZZ0G5On9pFlsjCrhdCHOHLi2eBtiLzjjka1p1C7dOIRaHzL5abUwlyrcfE2TxuVQgfvxA00pPL7jKYGgF0Q1fHQGwPoBgWlIsVGu8KNJ66KEhOpCLF8pyod7pkHqal-CZCymEYh_UPamCEPmiEqMjMpxvasCmKKAuO5bp7GUCoDw7l3o1zkcrxf-T2MSox-4gmoGr4PHLDM39CJvU1gP9L5tWbfUQblZaa-WY2bm7iNXqk3eFb38fc1WgSFoHITffFsQAeQtK2BETmpHCkVsrgWPx0Rb3cdZvmJcYCtFoyNaeLqXt_aDnSZ4iL2kDbJbvWKxi9ZzVJyonbtINf_goG2GqYwPuoqS_sK51AKavxa4yrnoY9YPwN8CWH5fhvEYi16A17APWhjTQZG5pmQ7nUA8ktRK9fmQjZa6AYVqR8NyMhUe5WD_kshyJMrdALzxOA9-EWGXZ9UGsCQQjP_V1NE-yd6o3gWdaMgHOj-e_PZ1UrPEv7NNt7Z8_C_D2IF38uV7wVQ9tJl1_R8iG4MPL8EjGwv49hm8ciNCu3KuF95bPqzodkZyfnCZazc15ZNaZQwe-AX820_3sO-OJubpl_tqgRtFMEb9BrpwRYFD-8wn86keJICDAeCUCVUuivNuxwllLpTW6i642Qwi1Qqtuour1Gfg8Ud00gZUolUIVcCUrZirgHIqIZPiZKvdm1wa9KV1cNIlK5EYq48pIOJxlL8kvacl_Saz-YF9t-JyEFbIEvT0nyUbbisXN8QYU7U7ATE-AieiYkw5JVItDkUFsZApfr_NEdDqJRppmtkDi-uZQs6a-3e0buPuyEiqEJ2deIXWUhsx_nm5bHn8x5N_a7HAZSlk2YuUaE5LabpzvUulrI5MEE014XX4OEaSFx6vFvJvvtGPHOjkI79UMLzJmvPSoY7iPDV7LXwLzjS7QGlHg8zqZwzpZJolphAihA3WXXDpx4l3Oz-3LJtEaMSfufRNCAOgcrU5bheJykcjhZtrXaq0YOApZlZQs626YsA_T05hOoLBWinCX9lrEYvpNFk5I0M8HnCGE4pnbmYAP4Os_VcowLsPCPGDaNfKmpQY92pbB25IlsQ9ZLODLOkUySHLG9RnNChTfVOr8RF__K1VlSSTw5Db1rDPuWrJDOtzoS64qcnBaNr-mP4MYdyRRyt_H7OJlbpxa0u9vfniQE3Bmk-kQzgOug-EwJcNMp3EcRcyhF1MlrW_MXOHXYNv8OyprZj7OBRGLshJ_Bv3JBH-aq5kKp9Zf2Izj3s25sdm24sFGlvSgNjLROFhq8q8HxH_S_ZKtBHP9K7iZUkL9S7eGZbo4Nfi9SOME0sc7ml8eLRVsBhDzizgTXkAGnUIihxYUHivAm3iJcoMTqKIUf7OfJ2ikC1ECiqp4kDgUZILu2lEevnmObijyKOrgSvCql6yQAWhkfqLeWaI-G3g9J4NNn3VlP1CjNkEfGQZHZdD43b0FJOPorgXPu5Eb4mvGqOEKv3sKRToTFQXjVHUY-HZeq3_6_hcc2Aad23Bw0JZcx72zmkvQEE3NjYpV6ar9QFSowYQrXzTHyU4JIcbr2ceBMtg84IrvX6Hi3OYiswawvM-bToJ3KgHxqQpTMe_fXbGYqcckQlH3mad83puzlu6Ia_mbe-ZEDAu9duLb0q-leSKr6ljMvtoDpYBA3w1MO-ZYeNl7xacacMtmSWeTue_V9PDGZHZWU9E5doSw3vxMXwUpDDdYSCQXMCQCwgxGRYgp8D9Nnb8gF1K_LDUI3JvLsywzbpo82U3Tlw8Vbth1eDLbcrTdXy3L22gIoP4G3MNXbeJHRgsq1fG0-qENrNxUuPoWHbPtp70bWNcni6emmR_9CnV4oeHDjaMia_Yf6Mjqzf74ckhRAt0RX6xa1g2dLgLGHKtIzHJbPije0Ud_qM6sdI42HSFJZmGh9ZdhsEUcay8avsdDIJcoMN9qpzG03xLai_G1diyjajKwpblxBqtofZenGH6Y832UoOgkPAO2N61FxPzVzn2giQhhQW9LKMK8TB1KW5guVQj_kOqep_sy0HU38_v7eJdFxHLWLlJ6v-jB-jzcYSfhx9g6nKxzW3J9-9z9gLpSDFTMkV2WrxiwTwn8JSugox8R-5pOP5mfMWnIJR-B2tHerE7gQpcQN0MBqyTNd2s8aSicYBJL0VnKY4l0DT3o4vWaWOfBuz5KqJ2lveqPJ0nytQ-Tq2PvDMhv4li5TswvkKgBVww6yPU5hZ5XhKN6P9h9Gy1-PlMP9i7N6osXy032LVDUZFb56DD5Vx34SP1juW7cxLyLyHmQsxaVqO7MIAwH9ELznUQiBzV3QCZq_h3PzeLmRfDf0P93oabGuewAb_c9SINbJoKI8G6NuqIxY5EFMyzSnZRmTb9ECjR77fuqnrwZ5MYy865Lr_evcBJbtl-DHf7NbwtIsXmvzCr7BfLkq44s9DQpNx-AML0Nx7RqFEzNGFTRmuQxkYa1T1RFx9a0GVbLO3_C5_kAsYf-kKDUvY_RXUO2-lkymirid7XsgN7TQ5G6GhZ9dkXLu4WHgVrWfh1WjijF8M2kqJf6Fi3ny_xV2HrFkUNwou-tP22EmUC6q6wie-2mVfpgjv0YSgRGgXgW-LuIbfLzuqUA8BZ24Z06NnMQIc1xovcAYCOQCRTlydvUxS7gMJQBz5D9afDiTYqWVpffHF0jzinfkeS84jFjuVimV_62sprbMvWC1z3XFB95HtRiAd9gA_npdHIv6eWBkhq3g7F25wrxMOeAaeKH1qdvGUBLkJFDzZ-_WuoTCHBLfjX1qZca4M3E0peYvdax3GAOirdWmShBPEybq8uWyu7a75UBejeRoBBBEvv64nP62nfdKklbnpgXjJnplzIvAGUNjuR18qZqB2pSqWNapESXOJh5cpgMAmSUBhcZDmzYdyC_XiieZn8BcXGYT0-KjVs_F0DFefth-MUyu1ydL4UxNsp5GXAfTJ3iycXAJ54uJIxNLjpOet_B-9e-VqSA9_V-_-t4jGdsh60ZRrb--cTht-5-RShAf2PImYSykMvnYv0Fkhbr7xD8L5CabyW9q4LxfZdQxn6lQ5rUUDoEUuknmhZOtzoLZAMO-366jC2d3Cyc92EgCv8LDCwGooJjUBJGYauiA1PjpXKMBFx8WVswnH4aWfnGXjRzHeFofZzUd7UfcJFD9gWc2-KuREXLd1XD65poVRA3w4V2sZjAi82Xdi9r3fOE1bgus9ePFGll4Vp5N_f_tDwIPvBAqEYEyTMtgxQ__IJnBPI7Ek0IGRK2F4HqJVg0iIQa2T435sAUXRJ4W461AeEr-Kvdf08tKmFlXZoS1PRrfPBuHrJJN7Wjz6kW9u4BT8alyT0WDBb0PB7ai31DDitdjOKxD-6eGnk_YANZO0tTekZ8VkggUm_7NW_QMW-gZ5DzsWrG9BMHU2_e64QFeHAFXPBjt7lw-qZAWyZcWgvZGis_zY2YriBy4ApVKgMp3yDZuOSz3SAum9otaFDOmdbboLUo7IATcEiDjUP8vUwX-zIDIQX1124emqDvop7T1HyRHePV1SCkSsyoNnzpYTj6WWPh39rQNO-0wu3HHnAsEo1ACQulZw42UFY5Oi5w8RRH0yD3413KgjcQOmSByjxxRv8uLvrkw0UJ18JzTSim4wpQSmSKaF-8Y3ejxl7mdKMPCJgYaMBFJlWmR3EoPXja6JetX34JVTsTUKiEA7MdC_WaeIQutQWbwKPbYCPcFobzS8CHzjS8DxcxmdXyHrtF29t5TDHUYfTG_H8S4YudSqY4yYMVaWoVb1xjaOwpJIAInQILw-BYXxh0ZeyeAVm0uHa-w8t5Tt58E55NTOZzGNfiXGzxF0_5m7N5doPFvCKuyZLvAI2cXU7cBE7N6k1h5pqkpXV3lkC8hEVNRzp4CY8Q7IgxyDCfSnS9TTVYyDlDqtFPkVmnqbsLFstnvgT_YMFc-E6zwAxgQ30CihzuXLaIcpKTUj7sYG7jp7wMm8AF7NrrE5yL9AuvEENdYtfzUFI159EgRgitQpvAMd4HUlbPlIJ2K92PdFWos9xpHdmIjV2W6e-Xz6Gr8OZVuFj54L2nBVxh7krJcvETJLvuUB5g9NUN6gp1QlJKhK3dWXFXP-BWxfyRPC6F_uK6G1QoV6NkFu1SrWLhwixU9DMoUekLFY6cNUnLRf6WaqJ5NSyTEl0RtBIE8N5DTdp86TQ1ydALm8YwZPZS2epTOlpDYA6qcyIzJEKgYBoy63OgMWDW4AgIRj7aTP1smyzwTH12rXehVIcoQfEDkMRRurj4RCfVQJIypizR1IZHtptWGZHPzphNttme_xO8uWV5lx3o8Rja654ZIJaD264085igM4jKs5n0CTYlMHxsLepok5YPPCU6mjBQUs8qB3yBrNgaQj55yd7LEVUrClxBoMccbU7uhYBm4VH7TRkW944XWmIfjo9xzbUzoPVTeEDLmcVHiZDV4sB1qgsObKLHMcc4DIDDBWpd46r5WTWyVv-pTDSkra6APo9Jb7UXRuTj8ITQ_5miVcs2bSNXVv3vbnrzeER72RSX5pcCwsFESzgfVaCBWKAqRJtg-uhpgcSktm3wpxh4LKE62di5p9fow5NyV2-hZmA4DFt0J0Siy8oHZKoFsLPiEzVReiQiVr251nIPTJv9YUeuooUDIJIwCEnnWBN1EgVSr3VpyGtdHCgEWaTH"
+    }
+   ],
+   "role": "model"
+  }
+ ],
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 107247,
+  "output_tokens": 2259,
+  "cache_read_input_tokens": 344208
+ },
+ "model": "gemini-3.5-flash",
+ "tool_calls": 29,
+ "elapsed_s": 95.0,
+ "run_id": "r-eabc83897e69",
+ "case_id": "poc-bdd7b46260"
+}

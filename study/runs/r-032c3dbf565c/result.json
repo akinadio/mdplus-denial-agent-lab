@@ -1,0 +1,2379 @@
+{
+ "answer": {
+  "policy_found": true,
+  "policy_title": "Hip Preservation Surgery",
+  "policy_number": "0736",
+  "policy_url": "https://www.aetna.com/cpb/medical/data/700_799/0736.html",
+  "effective_date": "Not explicitly listed on the public HTML policy page (references in the document incorporate medical literature updated through at least November 7, 2023)",
+  "criteria_quotes": [
+   "Aetna considers femoro-acetabular surgery, open or arthroscopic, for the treatment of hip impingement syndrome medically necessary for persons who fulfill all the following criteria:",
+   "Diagnosis of definite femoro-acetabular impingement (FAI) defined by appropriate imaging studies (X-rays, MRI or CT scans), showing labral pathology (e.g. partial or full thickness labral tearing or labral damage) with one or more of the following: cam impingement (alpha angle greater than 50 degrees) pincer impingement (acetabular retroversion or coxa profunda) (center edge angle greater than or equal to 40 degrees), or pistol grip deformity (non-spherical femoral head shape); and",
+   "Moderate to severe symptoms typical of FAI (hip or groin pain that is worsened by flexion activities (e.g., squatting or prolonged sitting) that significantly limits activities, with duration of at least 6 months where diagnosis of FAI has been made as above; and",
+   "Positive impingement sign with sudden pain on 90 degree hip flexion with adduction and internal rotation or extension and external rotation; and",
+   "Failure to respond to all available conservative treatment options including: activity modification (e.g., restriction of athletic pursuits and avoidance of symptomatic motion), pharmacological intervention (e.g., non-steroidal anti-inflammatory drugs [NSAIDS]), injections of local anesthetics into the joint) and physiotherapy. The treatment should be for at least 12 weeks in the past year with at least 6 weeks being formal physiotherapy (in-person with a licensed physical therapist not virtual). Physical therapy (PT) needs to be confirmed either by the actual PT notes, or by documentation in the member claims history; and",
+   "Absence of advanced osteoarthritis change on pre-operative X-ray (Tonnis grade 2 or more) or severe cartilage injury (Outerbridge grade III or IV); and",
+   "Absence of joint space narrowing on plain radiograph of the pelvis. Joint space is not less than 2 mm wide anywhere along the sourcil; and",
+   "Member does not have generalized joint laxity especially in diseases connected with hypermobility of the joints, such as Marfan syndrome and Ehlers-Danlos syndrome; and",
+   "Member does not have osteogenesis imperfecta; and",
+   "All other potential sources of hip pain have been ruled out.",
+   "Aetna considers hip arthroscopy to repair a labral tear medically necessary for: Traumatic labral tears causing mechanical symptoms; or An adjunct to FAI surgery."
+  ],
+  "appeal_deadline": "2027-01-28 (within 180 days of the August 1, 2026 notice date)",
+  "submission_route": "The appeal can be submitted by mail to: Aetna, PO Box 14463, Lexington, KY 40512. It can also be submitted by fax to Aetna's National Fax Number: 859-425-3379. Additionally, members can file an appeal or obtain assistance by calling the Member Services Department at the telephone number displayed on the back of their member ID card, or by logging into the member portal online.",
+  "how_to_obtain_criteria": "The clinical criteria for CPB 0736 are publicly accessible on Aetna's website at the provided URL. If the patient needs a copy of the criteria directly from Aetna or is unable to access them online, they can request them by calling Aetna's Member Services Department at the number on their member ID card or by submitting a written request to the address shown at the end of their Explanation of Benefits (EOB).",
+  "confidence": "high",
+  "notes": "CPT code 29914 (Arthroscopy, hip, surgical; with femoroplasty) is used for treating cam lesions under the FAI diagnosis and is governed by Aetna's Clinical Policy Bulletin (CPB) 0736. To satisfy medical necessity, the patient must have specific radiographic evidence (e.g., an alpha angle > 50 degrees), documented symptoms lasting at least 6 months, a positive physical exam sign (impingement sign), and at least 12 weeks of conservative therapy within the past year (including at least 6 weeks of documented, formal, in-person physical therapy)."
+ },
+ "raw_text": "```json\n{\n  \"policy_found\": true,\n  \"policy_title\": \"Hip Preservation Surgery\",\n  \"policy_number\": \"0736\",\n  \"policy_url\": \"https://www.aetna.com/cpb/medical/data/700_799/0736.html\",\n  \"effective_date\": \"Not explicitly listed on the public HTML policy page (references in the document incorporate medical literature updated through at least November 7, 2023)\",\n  \"criteria_quotes\": [\n    \"Aetna considers femoro-acetabular surgery, open or arthroscopic, for the treatment of hip impingement syndrome medically necessary for persons who fulfill all the following criteria:\",\n    \"Diagnosis of definite femoro-acetabular impingement (FAI) defined by appropriate imaging studies (X-rays, MRI or CT scans), showing labral pathology (e.g. partial or full thickness labral tearing or labral damage) with one or more of the following: cam impingement (alpha angle greater than 50 degrees) pincer impingement (acetabular retroversion or coxa profunda) (center edge angle greater than or equal to 40 degrees), or pistol grip deformity (non-spherical femoral head shape); and\",\n    \"Moderate to severe symptoms typical of FAI (hip or groin pain that is worsened by flexion activities (e.g., squatting or prolonged sitting) that significantly limits activities, with duration of at least 6 months where diagnosis of FAI has been made as above; and\",\n    \"Positive impingement sign with sudden pain on 90 degree hip flexion with adduction and internal rotation or extension and external rotation; and\",\n    \"Failure to respond to all available conservative treatment options including: activity modification (e.g., restriction of athletic pursuits and avoidance of symptomatic motion), pharmacological intervention (e.g., non-steroidal anti-inflammatory drugs [NSAIDS]), injections of local anesthetics into the joint) and physiotherapy. The treatment should be for at least 12 weeks in the past year with at least 6 weeks being formal physiotherapy (in-person with a licensed physical therapist not virtual). Physical therapy (PT) needs to be confirmed either by the actual PT notes, or by documentation in the member claims history; and\",\n    \"Absence of advanced osteoarthritis change on pre-operative X-ray (Tonnis grade 2 or more) or severe cartilage injury (Outerbridge grade III or IV); and\",\n    \"Absence of joint space narrowing on plain radiograph of the pelvis. Joint space is not less than 2 mm wide anywhere along the sourcil; and\",\n    \"Member does not have generalized joint laxity especially in diseases connected with hypermobility of the joints, such as Marfan syndrome and Ehlers-Danlos syndrome; and\",\n    \"Member does not have osteogenesis imperfecta; and\",\n    \"All other potential sources of hip pain have been ruled out.\",\n    \"Aetna considers hip arthroscopy to repair a labral tear medically necessary for: Traumatic labral tears causing mechanical symptoms; or An adjunct to FAI surgery.\"\n  ],\n  \"appeal_deadline\": \"2027-01-28 (within 180 days of the August 1, 2026 notice date)\",\n  \"submission_route\": \"The appeal can be submitted by mail to: Aetna, PO Box 14463, Lexington, KY 40512. It can also be submitted by fax to Aetna's National Fax Number: 859-425-3379. Additionally, members can file an appeal or obtain assistance by calling the Member Services Department at the telephone number displayed on the back of their member ID card, or by logging into the member portal online.\",\n  \"how_to_obtain_criteria\": \"The clinical criteria for CPB 0736 are publicly accessible on Aetna's website at the provided URL. If the patient needs a copy of the criteria directly from Aetna or is unable to access them online, they can request them by calling Aetna's Member Services Department at the number on their member ID card or by submitting a written request to the address shown at the end of their Explanation of Benefits (EOB).\",\n  \"confidence\": \"high\",\n  \"notes\": \"CPT code 29914 (Arthroscopy, hip, surgical; with femoroplasty) is used for treating cam lesions under the FAI diagnosis and is governed by Aetna's Clinical Policy Bulletin (CPB) 0736. To satisfy medical necessity, the patient must have specific radiographic evidence (e.g., an alpha angle > 50 degrees), documented symptoms lasting at least 6 months, a positive physical exam sign (impingement sign), and at least 12 weeks of conservative therapy within the past year (including at least 6 weeks of documented, formal, in-person physical therapy).\"\n}\n```",
+ "usd": 0.4498,
+ "transcript": [
+  {
+   "parts": [
+    {
+     "text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-01\nMember: Reese Grant\nMember ID: W386277495\nPlan: Aetna (Commercial/ACA), state of Virginia\n\nDear Reese,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Hip arthroscopy\n    Procedure code (CPT): 29914\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-28).\n\nReference number: POC-AC94C7BBDE-82539\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_126415",
+      "args": {
+       "query": "Aetna clinical policy bulletin hip arthroscopy CPT 29914"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EooHCocHAWkUfRMHmlGfB6MD-FiQvYBSUTLh_m5S8aaYJ1jNuuiPyGlbsQwjLybnpWV2LYn5Ks0mwJoLIhr8kQqFwRNtQKsp3L65_asHq96qEKaQYeVCGHndkmeC1_HFfm8fzNcPQT-rPoHGkFERLhjo94Zv6djWrm0Y8WUm7jV_Lj7_HeAn8PBRXesl6lQyyzuhBJE-eJrGZOPk4pe0T09uRmUwNff5Vs92i8T2hz7dNK2HKNgbURjpNgLyIN7WfSoq7ZbKE7uI4HDctMs3n59P24xaCCsLxCLne9xgvuxyBaIANMbwKBWUYSeRJwJuDSJ6vpjiMq-lLKWDc9G1Kajb7LNx719iaxpcWa_KOmPdeVaV0ipJM_LUssdN_Eiqs96SwA2n0PjlC8UbBDbQFMlWLMkkNQkDe1hNg8RMsdDQRWAx77HPenxTTApthTwsz2vfnp3jaNArLOBIbIbI1xIy1_rJ0WGihTcrgLa5Qsoq5pUyPdUCY7-KG7NsjkzjhnbKBqFYsg9_LSEniIkAMGHk6Wy-KfOk2As9gJ1XOI2BJOjUyYM2zx9Ku2v0YP-nsd4cWVVvkl0hVTPKp5AmUna-1CvDQxbcpKaj8SBpgBJfkapdq6cfx_x5-Z6bdB6Zodm4pzztLXyALXqO0BwTvy0JqyzpPJmmxuAEHGcP4wRfWVQdOyT9bWKJc9ncqDIXekmXOMeFiq1UGtdvJmxlX5RjADimBxNQA9EchSuAOvyMsHnd_0iGc3_3h7X2rxEvvglu3YkAXH2Luu77vkk55VhiV0Dxi0FP45rjD8gRx5eqOs171fxLUurfNmXMGZWLyn-y7BFvWYb6j-2VHnXnzbzTW6-vKRTvXNLsQOqaFzavwUip0XX12X7bkNnIyVn0kNt8tmA-byufTnWD9dRD2k3q8iWMxw7ym0nrePZmcJaL36izmPMBifxIP-DndgcM6wY2t1izfp0pmxmxsnqQZNGZevoPYS8eykDHQgfjG7xPnvgqlMtgA6V4-M4Z9CwdFY4Qs6N5JOc1g0NGAY8uPZGvqOV5h0o7wKsfbQABV794P-jMVX7pn6RnFnj-q_H4IrfEpEKglFo1x26y0T6mMcm0DF0P_xQffE9DvIX-VvFdfBBb3IXEtvKge8Rr7MaPSpDP1XpSgbQDM-S0TBICOPXs2hTusojbYqpJyCKVGGGjoyFDegk6l8YeP_VC"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Aetna clinical policy bulletin hip arthroscopy CPT 29914",
+        "results": [
+         {
+          "title": "Hip Preservation Surgery - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0736.html",
+          "snippet": "Note: CPT Code 29862 - Debridement during hip arthroscopy is considered integral to the FAI surgery codes 29914/5/6 and would therefore not be covered."
+         },
+         {
+          "title": "Hip Arthroplasty - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/200_299/0287.html",
+          "snippet": "This Clinical Policy Bulletin <strong>addresses hip arthroplasty</strong> \u00b7 Note: Precertification may be required for select procedures and interventions. Use the CPT code search tool to see if precertification is required"
+         },
+         {
+          "title": "Participating provider precertification list for Aetna",
+          "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/healthcare-professionals/2026_Precert_List.pdf",
+          "snippet": "Arthroscopic hip surgery to repair impingement \u00b7 syndrome, including labral repair* 29914, 29915, 29916, 29860, 29861, 29862, 29863 \u00b7 5. Autologous chondrocyte implantation* 27412, J7330, S2112 \u00b7 6. Cardiology \u00b7 \u2022 Implantable loop recorder \u00b7 33285 \u00b7 \u2022 Watchman \u00b7"
+         },
+         {
+          "title": "Hip Surgery for Impingement Syndrome Precertification ...",
+          "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/pharmacy-insurance/healthcare-professional/documents/hip-surgery-impingement-syndrome-precert-form.pdf",
+          "snippet": "You can find the Clinical Policy Bulletins and Precertification Lists by visiting the website on the back of the member\u2019s ID card."
+         },
+         {
+          "title": "Medical clinical policy bulletins \u2013 Health care professionals | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/clinical-policy-bulletins/medical-clinical-policy-bulletins.html",
+          "snippet": "Explore the medical clinical policy bulletins that Aetna uses to decide which services and procedures we will cover."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_122601",
+      "args": {
+       "query": "Aetna Clinical Policy Bulletin 0736 Hip Preservation Surgery"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtABCs0BAWkUfRNAAXkLNLniyT6oW1l1mFPS7EC0YceZ3DsoV4RAXE6sDlSvE_KzQyI1NkWmZYt560g258mRMORQg3SF9A8CmthKVbqlhavUnnWyF42hzSpDYEdjj1uZRXvpXvhlSWQOPoIqYAyhPM9IyBgpql4EWxU_8C92F-YGs2fZ7OLe8yOyn4vIS0vkMUXDWaHu3aGfvwiy86jx_wKVukWDQK5McqwvvIQnGIY-ZZ_d-TX2v69_12aLGXSrHnIYVCfdzvRoFwvw2L7AtsJYHQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Aetna Clinical Policy Bulletin 0736 Hip Preservation Surgery",
+        "results": [
+         {
+          "title": "Hip Preservation Surgery - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0736.html",
+          "snippet": "Number: 0736 \u00b7 Policy Applicable CPT / HCPCS / ICD-10 Codes Background References \u00b7 This Clinical Policy Bulletin addresses hip preservation surgery, including: <strong>Femoro-acetabular surgery</strong> \u00b7 Hip arthroscopy \u00b7 Pelvic osteotomy \u00b7"
+         },
+         {
+          "title": "Hip Arthroplasty - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/200_299/0287.html",
+          "snippet": "On meta-analysis, <strong>functional outcomes for subjects following HRS were better than or the same as for subjects with a THA</strong>, but there were statistically significantly greater incidences of heterotopic ossification, aseptic loosening, and revision surgery with HRS compared to THA."
+         },
+         {
+          "title": "Joint Resurfacing - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0661.html",
+          "snippet": "While traditional THR involves removing the head and neck of the femur, surface replacement preserves this bone. With a traditional THR, after this bone is removed, a prosthetic ball attached with a stem is inserted within the thigh bone. For surface replacement arthroplasty (SRA) of the hip, only the joint surfaces are removed during surgery, most of the normal bone is preserved, the medullary canal is not opened, and the implants utilized are of small volume (Wagner, 1978)"
+         },
+         {
+          "title": "Hip Surgery Procedures for Treatment of Femoroacetabular ...",
+          "url": "https://www.hca.wa.gov/assets/program/fai_final_082611%5B1%5D.pdf",
+          "snippet": "Do you need help getting health care coverage? As a Washington State resident, you and your family may be eligible for free or low-cost health care. Through Apple Health (Medicaid), you have access to medical, dental, and vision care, as well as behavioral health services\u2014including mental ..."
+         },
+         {
+          "title": "Aetnabetterhealth",
+          "url": "https://www.aetnabetterhealth.com/pennsylvania/assets/pdf/provider/guidelines/medical/Medical/0736%20Femoro-Acetabular%20Surgery%20for%20Hip%20Impingement%20Syndrome-.pdf",
+          "snippet": "When you choose Aetna Better Health\u00ae Kids, you make the choice for better health. We offer benefits and services for those who qualify for Pennsylvania&#x27;s Children\u2019s Health Insurance Program (CHIP). Already a member? Let&#x27;s help you get started with your plan."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_140034",
+      "args": {
+       "url": "https://www.aetna.com/cpb/medical/data/700_799/0736.html"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EqoCCqcCAWkUfRO_iZFTvvM1cd7M903FqBD24ZP4vh3jcdK0cnGm47NFJQAwFhfcgbc5xcD35CLijume_biy6rJhVmWXMhZqauh2zv4NKnMTleiQMbn2xryeJJAU359Geis0np2oHY__8J6GW8I7V1od_CHi0w4lTaZ2pJHfMpgA0vL_rQa-zasc1Ok6_SlpD-_-AyIUFhMeTE5U7k_GKpgBkdBqvYWheZwFPUfoShRJ3nEFGGa65SeWvvezRJ9Y4BCKEGxhNul-FjinmGHdLp81xR1hrEy4Ttc4_fUufVjkdiwOMOO3hpdRjXrJKXe_JrG0amk_MMiK_7ygZpCYPG6UGYwrlHYEEfaIQXUCDLdjoaLjEadtrBZXLhzg3GbXYtfDG6wqxGrOd5u0-Q=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://www.aetna.com/cpb/medical/data/700_799/0736.html",
+        "final_url": "https://www.aetna.com/cpb/medical/data/700_799/0736.html",
+        "http_status": 200,
+        "content_type": "text/html",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "Hip Preservation Surgery - Medical Clinical Policy Bulletins | Aetna --> Top Hip Preservation Surgery Clinical Policy Bulletins Medical Clinical Policy Bulletins Print Share Number: 0736 Table Of Contents Policy Applicable CPT / HCPCS / ICD-10 Codes Background References Policy Scope of Policy This Clinical Policy Bulletin addresses hip preservation surgery, including: Femoro-acetabular surgery Hip arthroscopy Pelvic osteotomy Medical Necessity Aetna considers femoro-acetabular surgery, open or arthroscopic, for the treatment of hip impingement syndrome medically necessary for persons who fulfill all the following criteria: Diagnosis of definite femoro-acetabular impingement (FAI) defined by appropriate imaging studies (X-rays, MRI or CT scans), showing labral pathology (e.g. partial or full thickness labral tearing or labral damage) with one or more of the following: cam impingement (alpha angle greater than 50 degrees) pincer impingement (acetabular retroversion or coxa profunda) (center edge angle greater than or equal to 40 degrees), or pistol grip deformity (non-spherical femoral head shape); and Moderate to severe symptoms typical of FAI (hip or groin pain that is worsened by flexion activities (e.g., squatting or prolonged sitting) that significantly limits activities, with duration of at least 6 months where diagnosis of FAI has been made as above; and Positive impingement sign with sudden pain on 90 degree hip flexion with adduction and internal rotation or extension and external rotation; and Failure to respond to all available conservative treatment options including: activity modification (e.g., restriction of athletic pursuits and avoidance of symptomatic motion), pharmacological intervention (e.g., non-steroidal anti-inflammatory drugs [NSAIDS]), injections of local anesthetics into the joint) and physiotherapy. The treatment should be for at least 12 weeks in the past year with at least 6 weeks being formal physiotherapy (in-person with a licensed physical therapist not virtual). Physical therapy (PT) needs to be confirmed either by the actual PT notes, or by documentation in the member claims history; and Absence of advanced osteoarthritis change on pre-operative X-ray (Tonnis grade 2 or more) or severe cartilage injury (Outerbridge grade III or IV); and Absence of joint space narrowing on plain radiograph of the pelvis. Joint space is not less than 2 mm wide anywhere along the sourcil; and Member does not have generalized joint laxity especially in diseases connected with hypermobility of the joints, such as Marfan syndrome and Ehlers-Danlos syndrome; and Member does not have osteogenesis imperfecta; and All other potential sources of hip pain have been ruled out. Aetna considers hip arthroscopy to repair a labral tear medically necessary for: Traumatic labral tears causing mechanical symptoms; or An adjunct to FAI surgery. Note: Iliopsoas tendon release surgery, capsular repair and capsular release surgery are considered integral to the primary procedure and not separately reimbursable. Note: Aetna recognizes that revision hip arthroscopy for FAI may be required, though infrequently, and any case would need documentation as to the reasons for failure of the prior surgery and the potential benefits of the proposed revision surgery, based on the criteria for FAI surgery listed above. Note: For purposes of this policy, Aetna will consider the official written report of complex imaging studies (e.g., CT, MRI, myelogram). If the operating surgeon disagrees with the official written report, the surgeon should document that disagreement. The surgeon should discuss the disagreement with the provider who did the official interpretation, and there should also be a written addendum to the official report indicating agreement or disagreement with the operating surgeon. Note: CPT Code 29860 - Diagnostic hip arthroscopy is generally not covered as it is not medically necessary (hip arthroscopy should only be performed with radiologically proven pathology that meets the above criteria), but if at the time of surgery the radiologically proven pathology is not found, then 29860 may be billed. Note: CPT Code 29862 - Debridement during hip arthroscopy is considered integral to the FAI surgery codes 29914/5/6 and would therefore not be covered. Arthroscopic debridement of the hip as an isolated procedure is considered experimental, investigational , or unproven as its efficacy has never been proven. Aetna considers pelvic osteotomy (e.g., peri-acetabular osteotomy (PAO)) medically necessary for a diagnosis of acetabular dysplasia (not borderline dysplasia) for persons who fulfill all of the following criteria: LCEA (Lateral Center Edge Angle) of less than 20 degrees and/or Tonnis Angle (Acetabular Index) over 12 degrees; and No or at most mild osteoarthritis of the hip (Tonnis 0 or 1); for members with moderate or worse arthritis (Tonnis 2 or 3), the procedure would be considered not medically necessary; and Minimum 6 months of symptoms; and Age under 45. Aetna considers pelvic osteotomy in skeletally immature children medically necessary for a diagnosis of acetabular dysplasia. Note: Arthroscopic surgery in concert with an osteotomy would be assessed using the medical necessity criteria noted above for arthroscopic surgery of the hip. Medically Necessary Procedures Medically necessary procedures, when above criteria are met, include: Femoro-acetabular surgery, open or arthroscopic, for the treatment of hip impingement syndrome; Hip arthroscopy to repair a labral tear for traumatic labral tears causing mechanical symptoms or an adjunct to FAI surgery; Repair of complete gluteus medius tears; Hip arthroscopy for removal of foreign bodies; Hip arthroscopy for the removal of loose bodies when no significant osteoarthritis is present (Tonnis 0 or 1); Hip arthroscopy for synovectomy in limited instances of inflammatory arthritis, when no significant osteoarthritis is present (Tonnis 0 or 1); Endoscopic tenotomy (or lengthening) for iliopsoas tendinopathy following total hip arthroplasty with the failure of at least 6 weeks of formal in-person physical therapy in the past year, and at least 1 therapeutic injection (steroid with or without local anesthetic) with significant but temporary benefit in the past 6 months. Aetna considers arthroscopic hip surgery experimental, investigational, or unproven for all other indications. Experimental, Investigational, or Unproven Aetna considers the following procedures experimental, investigational, or unproven for the following indications because its effectiveness for these indications has not been established: Autologous osteochondral mosaicplasty in combination with femoral neck osteochondroplasty for the treatment of FAI Capsular plication Debridement or repair of the ligamentum teres when provided as an adjunct to FAI surgery Hip arthroscopy to repair degenerative labral tears (e.g., due to early osteoarthritis) Hip arthroscopy to treat members with acetabular dysplasia, without addressing the dysplasia via osteotomy Labrum reconstruction for the treatment of FAI Note: Labral reconstruction uses a graft to reconstruct the native labrum. This is distinct from a labral repair, which is to repair the torn tissue by sewing it back together and/ or to its attachment site. The following procedures are considered experimental, investigational, or unproven when provided as an adjunct to FAI surgery because they have not been proven to improve the outcomes of FAI surgery: Anterior-inferior iliac spine decompression Debridement of trochanteric bursitis; Hip microfracture; Lesser trochanteric resection; Repair of partial gluteus medius tears. Note : Repair of complete gluteus medius tears is considered medically necessary. Related CMS Coverage Guidance This Clinical Policy Bulletin (CPB) supplements but does not replace, modify, or supersede existing Medicare Regulations or applicable National Coverage Determinations (NCDs) or Local Coverage Determinations (LCDs). The supplemental medical necessity criteria in this CPB further define those indications for services that are proven safe and effective where those indications are not fully established in applicable NCDs and LCDs. These supplemental medical necessity criteria are based upon evidence-based guidelines and clinical studies in the peer-reviewed published medical literature. The background section of this CPB includes an explanation of the rationale that supports adoption of the medical necessity criteria and a summary of evidence that was considered during the development of the CPB; the reference section includes a list of the sources of such evidence. While there is a possible risk of reduced or delayed care with any coverage criteria, Aetna believes that the benefits of these criteria \u2013 ensuring patients receive services that are appropriate, safe, and effective \u2013 substantially outweigh any clinical harms. Code of Federal Regulations (CFR): 42 CFR 417; 42 CFR 422; 42 CFR 423. Internet-Only Manual (IOM) Citations: CMS IOM Publication 100-02, Medicare Benefit Policy Manual; CMS IOM Publication 100-03 Medicare National Coverage Determination Manual. Medicare Coverage Determinations: Centers for Medicare & Medicaid Services (CMS), Medicare Coverage Database [Internet]. Baltimore, MD: CMS; updated periodically. Available at: Medicare Coverage Center . Accessed November 7, 2023. Related Policies CPB 0171 - Magnetic Resonance Imaging (MRI) of the Extremities CPB 0325 - Physical Therapy CPB 0863 - Nerve Blocks Table: Applicable CPT / HCPCS / ICD-10 Codes Code Code Description CPT codes covered if selection criteria are met : Endoscopic tenotomy - no specific code 27146 Osteotomy, iliac, acetabular or innominate bone 27147 with femoral osteotomy and with open reduction of hip 27151 with femoral osteotomy 27156 with femoral osteotomy and with open reduction of hip 27158 Osteotomy, pelvis, bilateral (eg, congenital malformation) 29914 Arthroscopy, hip, surgical; with femoroplasty (ie, treatment of cam lesion) 29915 Arthroscopy, hip, surgical; with acetabuloplasty (ie, treatment of pincer lesion) 29916 Arthroscopy, hip, surgical; with labral repair CPT codes not covered for indications listed in the CPB : Iliopsoas tendon release surgery, capsular plication, labrum reconstruction, autologous osteochondral mosaicplasty in combination with femoral neck osteochondroplasty, debridement of trochanteric bursitis, hip microfracture, gluteus medius repair, lesser trochanteric resection, and capsular release surgery - no specific code Other CPT codes related to the CPB : 27130 Arthroplasty, acetabular and proximal femoral prosthetic replacement (total hip arthroplasty), with or without autograft or allograft 27132 Conversion of previous hip surgery to total hip arthroplasty, with or without autograft or allograft 27140 Osteotomy and transfer of greater trochanter of femur (separate procedure) 27161 Osteotomy, femoral neck (separate procedure) 27134 \u2013 27138 Revision of total hip arthroplasty 29860 Arthroscopy, hip, diagnostic with or without synovial biopsy (separate procedure) 29862 Arthroscopy, hip, surgical; with debridement/shaving of articular cartilage (chondroplasty), abrasion arthroplasty, and/or resection of labrum 97161 - 97164 Physical therapy evaluations Other HCPCS codes related to the CPB : S2115 Osteotomy, periacetabular, with internal fixation ICD-10 codes covered if selection criteria are met : M24.151 - M24.159 Other articular cartilage disorders, hip [hip impingement syndrome] M24.451 - M24.459 Recurrent dislocation, hip [hip impingement syndrome] M24.551 - M24.559 Contracture, hip [hip impingement syndrome] M24.851 - M24.859 Other specific joint derangements of hip, not elsewhere classified [hip impingement syndrome] M25.151 - M25.159 Fistula, hip [hip impingement syndrome] M25.551 - M25.559 Pain in hip [hip impingement syndrome] M25.651 - M25.659 Stiffness of hip, not elsewhere classi",
+        "text_truncated": true
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_140069",
+      "args": {
+       "query": "\"Clinical Policy Bulletin\" \"0736\" Aetna \"revised\" OR \"effective\" OR \"date\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvoCCvcCAWkUfRNmj8ABo55P-kVpRXO7YYGKVNUwbCT5ITqYvhkeI8WqaiZzU69sMiLVDiTKfdOl_uaqNTgkba3ZIDzeLUkUldPrCTHiVZgNHTGNPYs-za4rr3XCbUoPM0xRsgjLPX1Oo4qiqEV-obPad0GWyjwP1-0zxR9X8Ay3oh3QZW9uZ0ZlAxZ6gRe59QR1Db1YwY3rtS6CXKSSXZWfOgmFf2siehsci8ZMd1DgiZncjnQiJFe034juYNUIXiBfetK-Ss8IutcYJF3WmvhA57therze1w9YPh2U_CAyZ9ccjB19AzZ_YBs-TPP20sugJ4Hr9px60aN55wolVvEiNqjAZezcTCMK-apixYhWXd1wR09EcowocyW3Io4I-HDusL5XAZuVIlnFPL5r98glEisI2pKOfU6ohz8On9TBj1FvzZB9s4VHG12hT0m_5Ry1TWjAykbagmT01bR2hnditp9SfHdUVHl3MfrvJ_GxOb3piHp4nS2y4IyP"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Clinical Policy Bulletin\" \"0736\" Aetna \"revised\" OR \"effective\" OR \"date\"",
+        "results": [
+         {
+          "title": "Goodnight Nobody: Aetna's policy #0736 is UNFAIR and UNETHICAL",
+          "url": "http://susie711.blogspot.com/2011/11/aetnas-policy-0736-is-unfair-and.html",
+          "snippet": "I just received an email from Aetna re: my petition signature. This is what they said: We recently conducted an exhaustive review of our Clinical Policy Bulletin (CPB) for FAI surgery, as documented on our public web site in CPB 0736 at http://www.aetna.com/cpb/medical/data/700_799/0736.html."
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_80977",
+      "args": {
+       "query": "\"CPB 0736\" OR \"Clinical Policy Bulletin 0736\" Aetna \"2025\" OR \"2024\" OR \"2023\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Et8CCtwCAWkUfRNLISBVsYnTeqnuggRMNu6OZAdi3euFDNRq-EEOqNY4D7HUTCanxBCjduPZ8XHV-jfyFhFDOp2T1KjQAeerHZjOfm0f7Omu_z_9sG3V8RbyUkHbGsUrMHqFKU9DICkqBsXpha8qD0dhGPk8v8ZRquhGr_gXfsfGR3ghWB1Mk6A38ILgssRU4N-MRRlAQLz_kVeA_cHx5agUePj-sjTfqZueroJ6f3engknycja4Ql4ML8Yurk0uVgJ1_SSyIgbad9oay2OnQjeHQ3NOLP3wk1J7HYUmMjIRZflddBnZC9OC7VKrGrGldxxdxhWWeehEmCnGa2q3R4UsaFat4JCXpT0lFlYx4VzwtcXzq8tZ9_jpf0C7PQay45wnqE8ACmnoyAM1slogQNc14YoU_KleVfbdb8RFnwyqPp5_Uc3hfcYh62xY2xBbhfgSee7psccLBCKBravh0J3P"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"CPB 0736\" OR \"Clinical Policy Bulletin 0736\" Aetna \"2025\" OR \"2024\" OR \"2023\"",
+        "results": [
+         {
+          "title": "Athletic Pubalgia Surgery - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0750.html",
+          "snippet": "CPB 0736 - <strong>Femoro-Acetabular Surgery for Hip Impingement Syndrome</strong>"
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_111809",
+      "args": {
+       "query": "\"0736.html\" Aetna \"Last Review\" OR \"Revised\" OR \"Reviewed\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqUBCqIBAWkUfRNJeYSmM4RQLCUgYkIUOUk5hScCaF05iUw5IEMfWOZP5dvF95JrYb1SdhC7frB7hzPN3Gj6P0OfER-rYvFRLWcLNb6snv4p8vV_PNrLPfAPNIa-cqtZSYObLokLXF_RCBttKUxv7YIm7DrE8t2H90Yb00_KX-NpZ0xYw8EsTtWU3LzJ7HO0g3JA6j2XaOXy6nCWHSss9pHIuw0kU6Er"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"0736.html\" Aetna \"Last Review\" OR \"Revised\" OR \"Reviewed\"",
+        "results": [
+         {
+          "title": "Goodnight Nobody: Aetna's policy #0736 is UNFAIR and UNETHICAL",
+          "url": "http://susie711.blogspot.com/2011/11/aetnas-policy-0736-is-unfair-and.html",
+          "snippet": "I just received an email from Aetna re: my petition signature. This is what they said: <strong>We recently conducted an exhaustive review of our Clinical Policy Bulletin (CPB) for FAI surgery</strong>, as documented on our public web site in CPB 0736 at http://www.aetna.com/cpb/medical/data/700_799/0736.html."
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_195602",
+      "args": {
+       "query": "site:aetna.com/cpb/medical/data/700_799/0736.html \"Last Review\" OR \"Revised\" OR \"Effective\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqYECqMEAWkUfRNJ1wLdhQQc0zeNDLm3KfIDUWTwe1vMz7Kta5r8YikRF7DrHoY-kVhPvxrKuK5V-8gzZ-CEjlNm2ZguPnn3Ejne2xvNxhXVNILef4iSITQ0nYTtlzbSnwLtCI24wH8Sq8kQPOr41kVVZJOm6jwLgvHTgoliDlu3dWTejfy6zr3V18S_VNejGoc5cqjc3Gre70VDIqnU8GSXq7rg2oKKz4Z9COM1qOtofrhuptYgvwrxws5rwWc01iYdqFjPvVN8ECkJf3WdnGn9ST0Gv47EiTju2tQWBamhmUCw3PWP3KwGnlfjupXMGj1SZyNSmrEYJ6yXZW-uehIwHygCSgZaEuCUnlw06ERhe1GFD3MzQPwclDPXWdG1dxeTWmJmPOhmh85-6FqXGMMfFZFTQ9_KaQQ8LhO-FY0DlV41oEuxtBjI5MmHaG2jgE_mvnSH6C7dUkaH_hkIQm3J6stduu36eIaBNzZ0S-Da4RWhoJZmWSnHVFRg39vIkTznq--XWd6nr3JCc0kZpw-XEQ_upbxFrYVc8na3Nnwpn3n6iAETXKmKSHdvhxVVBta9ko6sZVobD1Se2oyYWL1YtH2Y94l2_Ohpinruk0Li42nidU4ptW8KwjONUNmEoAP21kgPAWtvoKMjru4R4nnXP1HniaNnYu907DtfG-pYkkPldq0iRDUzcxzt3Pwrl3LMniMBlAE_OjO2CnWCTLBbp0T7v2zvHg=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:aetna.com/cpb/medical/data/700_799/0736.html \"Last Review\" OR \"Revised\" OR \"Effective\"",
+        "results": [
+         {
+          "title": "Hip Preservation Surgery - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0736.html?links=false",
+          "snippet": "Currently, there is insufficient evidence regarding the use of capsular plication as a treatment for FAI. Larson et al. (2014) reported that capsular plication was a predictor of improved outcomes with revision arthroscopic surgery for residual FAI. The authors reviewed patients who underwent ..."
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_183341",
+      "args": {
+       "query": "\"0736\" \"Last Review\" OR \"Revised\" site:aetna.com"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvIBCu8BAWkUfRP9di6_gbzZP9jXyId7PKXeuPR2P9EMmyqPti4ffHhzuIU3zNRHjeGZQ0BBOEh0yt7qypeOP4uXbRuzfCzXRamwT19-dKV2k0OGW8CPGvXlDTn14-qX3283a6F3_uLEO5JIXAsdsosfzFfwPdiGjlfhs0eGjRKdSAsvUHMA32PmiBaQPybJnOsvlqp89saHj_oS4JZEc54MEEsadW_fK8QtHmHz9JyQh42FNKqR4wJbA1d-lvuOx_qbAksHcA4Zp9axGTGFtdOMT-_1Vhqc2rPuqp3-UeqPccA6p6p-64QqrvQ3C5GGzmI9_9E="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"0736\" \"Last Review\" OR \"Revised\" site:aetna.com",
+        "results": [
+         {
+          "title": "Medical clinical policy bulletins \u2013 Health care professionals | Aetna",
+          "url": "https://aetna.com/health-care-professionals/clinical-policy-bulletins/medical-clinical-policy-bulletins/periodic-reviews.html",
+          "snippet": "The CPB review dates below are the anticipated start dates of the CPB review process for each CPB listed. The \u201cLast Review\u201d date appearing on the CPB is the date the review is completed and the CPB is published."
+         },
+         {
+          "title": "Retrospective review \u2013 Health Care Professionals | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/utilization-management/retrospective-review.html",
+          "snippet": "Learn about Aetna\u2019s retrospective review process for determining coverage after treatment has been already been provided."
+         },
+         {
+          "title": "Web and mobile terms of use | Aetna",
+          "url": "https://www.aetna.com/legal-notices/disclaimer.html",
+          "snippet": "<strong>You can determine when this Agreement was last revised by referring to the \u201cLast Updated\u201d legend at the top of this Agreement</strong>. Any modifications will be effective immediately upon such posting. You should periodically review this page to determine if this Agreement has been updated."
+         },
+         {
+          "title": "Aetna external review program - for members | Aetna",
+          "url": "https://www.aetna.com/individuals-families/member-rights-resources/claims-coverage/aetna-external-review-program.html",
+          "snippet": "CPBs include references to standard HIPAA compliant code sets to assist with search functions and to facilitate billing and payment for covered services. New and revised codes are added to the CPBs as they are updated. When billing, you must use the most appropriate code as of the effective date of the submission."
+         },
+         {
+          "title": "Concurrent review process & resources | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/utilization-management/concurrent-review.html",
+          "snippet": "CPBs include references to standard HIPAA compliant code sets to assist with search functions and to facilitate billing and payment for covered services. New and revised codes are added to the CPBs as they are updated. When billing, you must use the most appropriate code as of the effective date of the submission."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_62545",
+      "args": {
+       "query": "site:aetna.com/cpb/medical/data/700_799/0736.html \"Last Review\" OR \"Revised\" OR \"Date of Last Review\" OR \"Review Date\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqkCCqYCAWkUfRMrmV6ZIJEvoBoy2xEaol_JabDwi0zVQ5SttfFdAtaNmVyMZ8VBzSrusximnwK13f3PiJw_VuB-4g3FXHXlAyGPzp6jT7csr3C8BgcusiYULjo3c7dhOkPUJsul7L80IO6xrJq2kmnehsW96YKElEVWA-JALEtTYaR_bg5gj3L9Z7-BYyo2vYe9EjwA8zt7y93r0Ej34kLmcMsTBP1O7KuW_Jge7qmV1R9uSRor1bciHDJCsN8Ruohqo4DggdJ5GboQEB45Mo_RBfTu2tBrcVDtcvleNcZ7IWTHfC8fqi-sGwtjaeglzAyyviE1zCUNt8oRjyftBl8Xp-ipStUL-59CqUqF_xyin_pJ4RdX9f_i8DPhpxBtjfatpGAYt23MjIRL"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:aetna.com/cpb/medical/data/700_799/0736.html \"Last Review\" OR \"Revised\" OR \"Date of Last Review\" OR \"Review Date\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_93387",
+      "args": {
+       "query": "site:aetna.com/cpb/medical/data/700_799/0736.html \"2024\" OR \"2025\" OR \"2026\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpoCCpcCAWkUfRMfs5wXGCsUfKf63BsGug6_lmMogGTAuDsg9C8gJmkelyCQtJW7wnsHAm76nRm-awRJzfKZcansl_TrOH3iX4rLhCsYUv0ThTVtEX2g3wJ3r2jEpPgyqe5wyLHGRhosTi_K4g07nhVYZrD_mzUkBYmQVAvcIia9ErV6MMrT6LQ5Kb2yPRMuZmGvdFB5gbmhA_V_8kl7NYalE82ITMn4RJqAm3Z1yJdsGl4rb10qYwyGKjoUWSyu273vNajjvkqtlWK_Hz5Qq_Y7QfWnUt9r8dZZezSs6BobOYFJ67_sEzYajHW2Zh-e1IXph4qQlqHc8QRcIW50R9yIwMkUoHYDFKq0WNuh8aCc-Ruw-TpehkoqEqd6"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:aetna.com/cpb/medical/data/700_799/0736.html \"2024\" OR \"2025\" OR \"2026\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_117663",
+      "args": {
+       "query": "site:aetna.com/cpb/medical/data/700_799/0736.html \"Review\" OR \"Revised\" OR \"History\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqYFCqMFAWkUfRMXYhGma8n0eX94hPlUwf25QjeOMWkiXVapK3zUfFdj42QZGmbwBI_BFz56l4UrOENjEpe6j8VBRFcgXywlETbKssokAO0LZ8P8ga3o3aScrxQBdOgAJZVCGvGsMOBtUdqOIUwZ6Htlxgw6OTNHIH0UYbRWMe3bUZJYBy-Od-Q-icQFgXvE4YEISESkMaxeBaUhqhtBTgELcEqjnwvwPoJbOPAJ2YqbY7-AsdZaJqHyPthTj5sNEfT1jPn0q7z-uCd5UHC8qcZ4M8e6HfX6mlAy6znE-E41wTbkD7Ca2q0gmQvitbPGysPKFsa3ZrKWHjabJgzGIDWK9kmW8t5e7biMS4nLO7uIVNPLpY4NR3hWdKWCyMcik539ecf0m4d_qAAwXZqSRv5Zx3DodhqjIV2wahNj5NQG4-Ji8vd5Yy3MpEm58We6lQhjSHthAKtjPtbpCFdSqg2--Z-N7CunIKiX2kkaZpaeWZy9ULlqRUEg9jGerqOefIKvRjiY8cTbppRxffe9tjpK2rCcT8mMIySO-qnfS7MIrMXHWmy_Sn3caHak3S-ZZJNJeyRXlS_rsFHIlth_fYsQ8ImM5IhOoR6owgn51b8Q971X0Tuf475vMCEwK2YclokUHJYNoElRPyvGEDxy3ty3KI0pyYQEdu5KtDOjCyO6KVOcnfM9qT2wdX_Ddo-0LwrUWrkZH2JQp5-Kw0L53EvdGJXlfMdMjUDA231Wy-QgKji4sj76ztoFMNVpQUVpIImkBja9nqrsoAvHPUuQi4lFbPummLhIkuoSG5bjZurlBOEomBNbHkco-vAHA8dXwKqmGIC4IUXXJbLFeZTr6jDz4ZMUZ1M7BJMBl0RQpBsQfbY0xG5Z617V08uUBGgDn3m_xUgJpL-c"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:aetna.com/cpb/medical/data/700_799/0736.html \"Review\" OR \"Revised\" OR \"History\"",
+        "results": [
+         {
+          "title": "Hip Preservation Surgery - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0736.html?links=false",
+          "snippet": "Currently, there is insufficient evidence regarding the use of capsular plication as a treatment for FAI. Larson et al. (2014) reported that capsular plication was a predictor of improved outcomes with revision arthroscopic surgery for residual FAI. The authors reviewed patients who underwent arthroscopic hip revision for residual FAI."
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_118560",
+      "args": {
+       "query": "\"CPB 0736\" \"Last Review\" OR \"Revised\" OR \"Date\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Eu4BCusBAWkUfRP5NdawUr8R8at8Pu2ds9EwdKl8G0ne-Z8PPNZT1PNOaR2WxnkYG8ggKtb8fJGT352SB8jQD6R-tqVgLBxaFoitWWy8YAOB_g5RLZblm6q14GgiKSHE4pUS8pY9WEod-caGitJg5rAZe58A3Lj_w_w36bMMFVCU1WnQ6h0zurtkSU3XORHDHuPs8FAB7bVazhAM8Iu0hcvSpyg9A7RJAhS46BOVGcMLbe_IqpnP_u_5n0sCSVbwKQ6UaKW5p1ZVwZqpNWc7qFjbJf9nAYjzWmqDsLyqDPSIZIkZ6Z7dZBOIfDfj6BWQ0w=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"CPB 0736\" \"Last Review\" OR \"Revised\" OR \"Date\"",
+        "results": [
+         {
+          "title": "Medical clinical policy bulletins \u2013 Health care professionals | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/clinical-policy-bulletins/medical-clinical-policy-bulletins.html",
+          "snippet": "CPBs include references to standard HIPAA compliant code sets to assist with search functions and to facilitate billing and payment for covered services. New and revised codes are added to the CPBs as they are updated. When billing, you must use the most appropriate code as of the effective date of the submission."
+         },
+         {
+          "title": "2019 EACTS/EACTA/EBCP guidelines on cardiopulmonary bypass in adult cardiac surgery - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10634377/",
+          "snippet": "It has been proven that their use ... during CPB. Checklists should be used in an appropriate, diligent and professional manner. They should be adapted to the specific working environment; they should consider emerging technologies; and they should be revised at time intervals ..."
+         },
+         {
+          "title": "2024 EACTS/EACTAIC/EBCP Guidelines on cardiopulmonary bypass in adult cardiac surgery | European Journal of Cardio-Thoracic Surgery | Oxford Academic",
+          "url": "https://academic.oup.com/ejcts/article/67/2/ezae354/8011475",
+          "snippet": "To ensure that guideline ... CPB since the last publication [6] and acknowledging that most guidelines become outdated <strong>5 years</strong> after their previous publication [7], a timely, complete joint revision of the CPB guidelines ..."
+         },
+         {
+          "title": "Mastering the Best Practices: A Comprehensive Look at the European Guidelines for Cardiopulmonary Bypass in Adult Cardiac Surgery",
+          "url": "https://www.mdpi.com/2308-3425/10/7/296",
+          "snippet": "Submission received: 3 June 2023 / Revised: <strong>5 July 2023</strong> / Accepted: 6 July 2023 / Published: 12 July 2023 \u00b7 (This article belongs to the Section Cardiac Surgery) ... The successful outcome of a cardiac surgery procedure is significantly dependent ..."
+         },
+         {
+          "title": "AAPC CPB Updated & Revised (2024-2025): Healthcare Billing & Coding Practice Questions | Exams Nursing | Docsity",
+          "url": "https://www.docsity.com/en/docs/aapc-cpb-updated-revised-2024-2025-healthcare-billing-coding-practice-questions/12182773/",
+          "snippet": "Download Exams - AAPC CPB Updated &amp; Revised (2024-2025): Healthcare Billing &amp; Coding Practice Questions | Johns Hopkins University (JHU) | A series of questions and answers related to healthcare billing and coding practices, focusing on topics such as"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_115311",
+      "args": {
+       "query": "\"Last Review\" site:aetna.com/cpb/medical/data/"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Ep8GCpwGAWkUfRPRds4sXx4o9PaP9si6KdMlfyl3adkdOdIxGC5-7O-HX_RGbT83IDZKGhWyLqGxj47UC1VmocQ89gI18DfuLCATBb7eo5GcRsei12wLBjbTxRgIyHB4mBLVZEf-2yiYmfbyZm9eN-X6XbXIs5Y5KN9ngiyA56vlv0sR142Ss8LyR1eCT-Fnvxex3XYrNCKgcT1Tqj4pqAuFQFxSQTylefUtK9KJKZPRcoptaLgRvonTLZbLj7dH73Mv0_QM9LLWVog0XPbmXydWKwCy5sxrkPB179SmswTAyeKD4YbLMb25XxftBZH1w_LSYPCg2g4UsH71qoiH7jBZw_D26uvfse1TQJemz8_eebROyXb5AD_tfrgOl8qkfe_52IcYq2UL63XPH-xOgwA0I9_2AQOyJ350yRFi_I3GKyUVdIirc_MaX154pMnVxbNtWqUzVN17MP1iRWEFhmp2qJOVFW633OhVjjMeKPhk5OdBoT19Cmj5SdJvolAm8UFBSPLaC7o5w8_focokhDO_2RwGvjynxzilhe_X1-UC30yBE-zfW0VlPwYkmepxf9jFcnqbkIeQEnO_gwSecddnZjB9oPeYlc001KsXEG86gmRKZTq_QlTvDrU_YLuHQHIz2RsnvgAmyCSZO_p54MHTBmsDr7WKUva55G4PZIGFcQJB1iwYMQ7tk6kcjLi-JDP5s4OTjG1zYgEnl2I0EKg3X5Yl5Mvxm5YhOKHwBFlaFVQw0w6aJ9S9YHYmIYw4eiY8oFvdcGGA4aD2ttT27ZhdoB7tKzi3ud4Q0foYQib2Xcr13ajzeA8luirH_JKKwbfbn1spGLAejCrh92ZSRpwjdm49VIy9EMkWF8S4RRiFUEdrFFkNoPCmPRSCvNsOhr0BfYpysyLScDZOjJE8wBfHur-6G_Yu58JXZHJMh0-Af69e3ms8IWwTLzU1Xtny8SslCzxmX-wRlrN5UFyZKcmUyh3Q0Mito82QHD1jH3_FS99buvCtQd65gyrQlrvfRDog6q0q_q7x7lG8mHCAgH2QP-uDvZ2OnDjoECKNC18SLw=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Last Review\" site:aetna.com/cpb/medical/data/",
+        "results": [
+         {
+          "title": "Afamelanotide (Scenesse) - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/900_999/0962.html",
+          "snippet": "<strong>Last Review</strong> 12/09/2025 \u00b7 Effective: 02/13/2020 \u00b7 Next Review: 09/24/2026 \u00b7 Review History \u00b7 Definitions \u00b7 Clinical Policy Bulletin Notes \u00b7 close \u00b7 Links to various non-Aetna sites are provided for your convenience only. Aetna Inc. and its subsidiary companies are not responsible or liable for the content, accuracy, or privacy practices of linked sites, or for products or services described on these sites."
+         },
+         {
+          "title": "Telisotuzumab Vedotin-tllv (Emrelis) - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/1000_1099/1085.html",
+          "snippet": "<strong>Last Review</strong> 08/07/2026 \u00b7 Effective: 09/17/2025 \u00b7 Next Review: 05/27/2027 \u00b7 Review History \u00b7 Definitions \u00b7 Clinical Policy Bulletin Notes \u00b7 close \u00b7 Links to various non-Aetna sites are provided for your convenience only. Aetna Inc. and its subsidiary companies are not responsible or liable for the content, accuracy, or privacy practices of linked sites, or for products or services described on these sites."
+         },
+         {
+          "title": "Lutetium Lu 177 Dotatate (Lutathera) and Lutetium Lu 177 Vipivotide Tetraxetan (Pluvicto) - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/900_999/0929.html",
+          "snippet": "<strong>Last Review</strong> 07/17/2026 \u00b7 Effective: 05/05/2018 \u00b7 Next Review: 03/25/2027 \u00b7 Review History \u00b7 Definitions \u00b7 Clinical Policy Bulletin Notes \u00b7 close \u00b7 Links to various non-Aetna sites are provided for your convenience only. Aetna Inc. and its subsidiary companies are not responsible or liable for the content, accuracy, or privacy practices of linked sites, or for products or services described on these sites."
+         },
+         {
+          "title": "Acoustic Heart Sound Recording and Computer Analysis - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0692.html",
+          "snippet": "<strong>Last Review</strong> 10/16/2025 \u00b7 Effective: 08/13/2004 \u00b7 Next Review: 08/13/2026 \u00b7 Review History \u00b7 Definitions \u00b7 Clinical Policy Bulletin Notes \u00b7 close \u00b7 Links to various non-Aetna sites are provided for your convenience only. Aetna Inc. and its subsidiary companies are not responsible or liable for the content, accuracy, or privacy practices of linked sites, or for products or services described on these sites."
+         },
+         {
+          "title": "Home Health Aides - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/200_299/0218.html",
+          "snippet": "<strong>Last Review</strong> 09/10/2026 \u00b7 Effective: 05/06/1998 \u00b7 Next Review: 02/11/2027 \u00b7 Review History \u00b7 Definitions \u00b7 Clinical Policy Bulletin Notes \u00b7 close \u00b7 Links to various non-Aetna sites are provided for your convenience only. Aetna Inc. and its subsidiary companies are not responsible or liable ..."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_203596",
+      "args": {
+       "query": "\"Last Review\" site:aetna.com/cpb/medical/data/700_799/0736.html"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpYDCpMDAWkUfRM174ItN198t9-xPyYt0epqEBFM9jGbW0Ks1KRb-rM2VNLbJGAxCISuqADTajHcxsE4hVjVb2SQHQnHEsWiu1P-uFrjIf-9s6_jNSJNRSvngcpB-A9hEsjcl2V-iuMo21MWqLX2NqxkcAWQxlildzOmctYYeacvJwcwMaERmB0bh4UGEi1JY-VpxcWJyjFVDD9ICdORu7B0rtu8wYnbrGAgR4CClvr4g64MXzXRRCTS-QGgcbtAOui_P-MPUxfz6btkO_ewSuGEuBqcfUhJkLu5dPrUccxc8mvwGqpJy8ur95PH1_HchHSu4ISnWk-0NWrtXObmueSESiCoswWFQWhW9nYCncxTDVF8Kq9b61vfaf4y97RZuV3Swrf_a1hox5ohD0ev4R8WUwhihEzF8qIosA_SELohC6YWbhdzkXKE_MQjDagMRU9s14hg21eNtzMVBeJYmWJux56cktT3wAYIMbprEbdnITXBFORJjPUKo2hOVMVfv6_MJpCwjs3JyqMHOitYDJmfn1mvtDFthg=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Last Review\" site:aetna.com/cpb/medical/data/700_799/0736.html",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_89371",
+      "args": {
+       "query": "\"Last Review\" \"Hip Preservation Surgery\" site:aetna.com"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Et0CCtoCAWkUfRN3llg_LNdXNuCWnnKoMaDPYmO2LSr1r_s5vmjK5nWsF2OR5NoQW1CxbZBj2dM3JIDLiCtPEEkkKq8iCIsPmhfor74bttg8UEGuPjtOb0n25lTigqPpbOgOBsHG1j6ycDtsMYx7zWTvwnjb9efP26rLYQ_wqX7za0uP7Kgxldb1Bsb6uEFZmIl8MhdwFrjts04wgj0xBAda0OtECAtlj1KcyBVDooY3-kH9ycnrpTYcHio1pWfC52qDFForW1iuvWeQB44XHFas7UQrw4uml9tAkPAwPWOrOeDLMVBOcy3vXrKNMBZlmrPw9JBEYbQmGt0NJGcaO55tBcvmRjT7jgdgZXuRhRxTnBRerLI-lVF7Jeopt_i-qUYHvTt7tgiO_jfGYmnJFfx14vTHEF4pm62dn7ISLVZubdOfXnSrnNck_dGdTdh3HAn6UADmtlgWwctTRVcfng=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Last Review\" \"Hip Preservation Surgery\" site:aetna.com",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_158883",
+      "args": {
+       "query": "\"0736\" \"Effective\" \"Next Review\" site:aetna.com"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "ErwBCrkBAWkUfRM8omuL3enG9JQHrtdM_ykzPzsvRKIiFl1K_3VRIjArx7tqvVVXgWgxRjMvzH6f-RXV6XfgFNvSrWhHBc12u-HCyyg883-Dw6psXDdV8jUGDisBSbVOsYwxwx1oNt0nIgR3gzltr16rjNNeRROYfYdcERWd3KnK7oFjo9FUzseSowv25w6Z8GyvNeg_fGFzFIUpBvLlNwRvOYgFS9jzL_RUUlWpEl-u-VmT9eNE_FFwFAin8N4="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"0736\" \"Effective\" \"Next Review\" site:aetna.com",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_236123",
+      "args": {
+       "query": "\"Last Review\" \"0736\" Aetna"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Ev8BCvwBAWkUfRPhA0oQzh2K77U6zdX8twzRJGazmMsHMRx2lXgaIYDB9-d94OliKbTzLH_IbaFfO9YOV0OJlNPLrj64wEOsHpdmmzqPmOTCubhdPJa9iyeWIbRi3BsWxZHGrIxh00Kt5hv80jegK_LzWqBXibpuTVB5gouh_4SNlyU1wQRN2189hhLBZBWFZU1SbrSiGGjKXkFGGojjwMdV7dn3qWbhHl_h6MuDLIeRy9UyeC6P0a8YjMuiypL1JtOVk9Q19lWkKYXUZPrN9E28hoqvvtPSrRU94GbuJFRua4ayPaPwHXD0Rfag6fIyN4eZ-ZTeUyshXIiwEcvEYlmN"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Last Review\" \"0736\" Aetna",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_172995",
+      "args": {
+       "query": "\"0736\" site:aetna.com/health-care-professionals/clinical-policy-bulletins/"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EuYLCuMLAWkUfROa16o0CTNzY6pndx7ASg9Vk4GUcsRlsnJ9qGqgKVe6lUAy0itNMzdcChw42qGR3Jl2b1V9E9QlLdQETJhFgdh-LE033ZuLkt0If1KsitolzabGM1_Az1gNr5UbhDhoAPlYcobkQiboCccfGVJzm8EmQH-grdlWMk_ogJov_6SrUM92FA2Da79LZXaD00CHwosFF1CSvLsi2Lf0GLA5JcMIbQz8Mi9Q9IJnF5bZikrRcmst-1XiT3xmPCbTJesEwEx_preWTXLSraBGR915wckbQAZ48t7YXFjZb0aUuOijXClMhk92ZLqwuS9W9C-8V2TBfZsf3aKD8td0G4tXJz15f0-m6MNNodKIoiMybS5BKdvwfnMf5WoCwZyR84U3mm2a_jjcOn2P7wShepFMUDN8pMoPxT_HVNuOTh8rKp2QO-gFV1FKSYPM8ucG1SPIZSvyfmuwbwlaWJGOV_hRqKsUX8uOCkvu7xcLaX5ANMDs-9zhJSkmZ-9IKBpku5HmvqE9ddRcWGDinlIbQs-7JrzxURKo0fFA9lhVVlzIiLj1g1z-V3z_AkYgUwZFlhPKiNKFThNVg19QxfRMe_RgHE-aGSEg3SA4AFym2PnftCVE3ZarjrLsPFAnDka9iHzOPhcGZVnRmUE3aQ_m9-43G-r-nDcwO-Gn8TlcpsWyKOyvMtbBAsJlbMI6HFdz3ITYH3FBZkRmeSDgTU5VsxYe-35H3BkmjECqYfSesqX2eprL4M02mmtaEtv8ryW5LazY_6zkHAJotlNRi5sjYSWBScJ6Gpku6JKeAUajGHBTi-M96zDyIAK_JbGJWZjANAiG5V9i-an8UtwDh5emOlRNTV_mSXlCNnEJTScTR10zM18eoDJOKXDd0T-5lvMvlJfc8w-zHTVuX086WosgBaMWl2BYcUhszrUI7GergguYGwO5hBPq7naRgbPr6AbsRyx8NvHlPdeCcUTd_XiIaCCwsJXIbtIkcMsg9LqJvXNExPf-B_4w9rpUYgs-YRhM0DkPCwFiTRXmMFGkC5OXXSBpnvxqwiZrXC5jMuZgfwR6NrJYd51Q6843V0ee7rgtZXMD1aJboh-Av4UtdUQS2Q-P33fYCRzoq2OUE4w35pg8d_UCqspe6VaLq4cscj57cxXHMqL-fe0B5WAq-LLN7hxvw1F4jgujxXYCr62C17pdaPYgJXdBokuSqL8JfIxLjjBhGZOnQEv5s5swZCZQM7qlPVojp2wz3Pm2Af8GHOSmz4l4AQe4-KtIzA2ChvacH5xWHA3pWgCxwIxwXfz2rzDHKVLWrFSwDgs5Id4Lparx6jwdhxgNaCO2BNpWEN34pQ9s7V9W5Sv7qCuQXDduiKNbDh7UQ-7FVyPGs8thUWsdDo9IEGKWU28fe4G-rbySbHJGuOZLByPP5QXK7WWpwjmnz3hoSK48MYwBh36dy_D46mwLGgGZCGND-HaALKLXqnh3UGMRfoM1ar_BuHpRlN4w2QTwmVZ592s8FDxgdnt5H9hbSMbM2xtzVUl0XLO3p8nLhYlmvBPK1faPgqrpa7figDm7VAtK6Ca3YHBUf5NW54IclKFWzH7UfwBIXuGgnLAztm5WETpndFt9RKiQW0OJXo7cFtfooz2BIYj4mZ9S8GtZR7BPKsYL4VyX0iwc_jlWPCUlHiMHNTd5cYB-fNHLk3ZDNJS-EPJyMhSLpV1LoIaDSwEUS8H9tgVDlpo9alRGIJ3Wzg5DjfoRw7b--4Qlc1CiRIng_1VcdglVpOEehZiqRTsk39rJrG_S2EcuejQquzsxwBYkCNg2zHQYxqf71F61EKZDUJDO3ZOEKJa6tvBVDbLLxrqJDK1HqohixP5iZPnZNqJf8A096mJpHox_IjjaIbEXwnB7mD7BQ1cPqZKTg7pTZBLiFG_tmFkl5JJULyLp41qvJEXCimx5Hc_wiBweBi412zitQN8CbmkLsFPE7U4Fv7mtELATsdcPZsF4TxkEE69Mn39ATMFlEnVyhg=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"0736\" site:aetna.com/health-care-professionals/clinical-policy-bulletins/",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_182276",
+      "args": {
+       "query": "\"0736\" \"Hip Preservation Surgery\" Aetna date OR revised OR effective OR reviewed"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EuIBCt8BAWkUfRNzwkB8vivp7f8MHQU1l9UET6v9azBNCDLohF4Pr8H_fZHCY1KZJI6vkpA1QFEjAJN_IDHgUx5fn8c8A3pb1bh_YqVnsRpkevbtgdYtvkys9oAVcLkUkuN_PvaKWhkuofy9usNu8iBDPsvuI-PHHV6whFw3T02tlcFggmBq6t5g284x63Klriff4OvYBfgVBatrp_K8SXefGmIyBjht-Jp20nGbvt2BGc8In0BzdF7oPV-4FSXGbvztrOK6JARnFQrRxilCUP2LQlPQuo1PwHq0d85VP1pxBXOWCg=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"0736\" \"Hip Preservation Surgery\" Aetna date OR revised OR effective OR reviewed",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_3363",
+      "args": {
+       "query": "\"0736\" \"Hip Preservation Surgery\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsIBCr8BAWkUfROiUBrmgUFIu3W7iDwDyCT_7mSKOkmnN5cfYWccTrwjdD_oYFO8DQhyUcfPOAPZHqjR2MlU72KbN0GXWmCIaKhXJZJu-t6PTeH-qe1xUQXetz7Zbv6ZgZoLuPANkEt321HRpj9FWCIDf8EFv3T387eLH7McoMafJnxpjG_2x5nHPAEOREcu2CNaTMNLvl9Vn-QNpg0SWRkV1N5z15uQjCFV8MLD47_3OG8KfxRbyRiQ2SkgxlaO5CcZAfc="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"0736\" \"Hip Preservation Surgery\"",
+        "results": [
+         {
+          "title": "Hip Preservation Surgery - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0736.html",
+          "snippet": "Number: 0736 \u00b7 Policy Applicable CPT / HCPCS / ICD-10 Codes Background References \u00b7 This Clinical Policy Bulletin addresses hip preservation surgery, including: <strong>Femoro-acetabular surgery</strong> \u00b7 Hip arthroscopy \u00b7 Pelvic osteotomy \u00b7"
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_79540",
+      "args": {
+       "query": "filetype:pdf \"0736\" \"Hip Preservation Surgery\" OR \"Femoro-Acetabular Surgery\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpUDCpIDAWkUfRMrvNZkkR-Dm0KRyoAiec3bfyJYEAouQZ1QoY0bSwO8eVwJxW205PBmP264QZA4_rh473ka90pS3RCWnd383ve7-lFW0VQ46tG2furygwtPmvNkK9l2pUCMyCXW3A-FmCOn7-AJlPxi6bPpTUsS7DdYICs8Z9kf5WAbqud6V6UU1k3LBXvWLpFiqE6gOjPysyumYTPJk7ABku2k72opNmzC9n4hQeMuesBREOWOTMKe3ToIEi3tHIcTre9SGGmWk3uDxiGre6SyQfb-WI0crG7jorcGECsGsTloH62QeoNKMqTqR-RhAN67ahNtvIJKhKWDCKPrGgbi00qJVQ7DK9q6a7djZwfA7K1HdTVY1v72WKt4sRBC9Vb8O1qm5yWYTnLOWQ1xEgSf_P2cUH9RRJojpxNx4BZi7Mv2EWNAVCBLFBKNtuoK6roy4cBF0JnvwLzUQ4WS0jLMJfw513wzxAIcQKBRNRltaV-PIlI3Nxz4XB1AgJm5TB8tUh6IPQjeJzYTFMWEoEgWhMA3QusP"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "filetype:pdf \"0736\" \"Hip Preservation Surgery\" OR \"Femoro-Acetabular Surgery\"",
+        "results": [
+         {
+          "title": "Hip Preservation Surgery - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0736.html",
+          "snippet": "Number: 0736 \u00b7 Policy Applicable CPT / HCPCS / ICD-10 Codes Background References \u00b7 This Clinical Policy Bulletin addresses hip preservation surgery, including: Femoro-acetabular surgery \u00b7 Hip arthroscopy \u00b7 Pelvic osteotomy \u00b7"
+         },
+         {
+          "title": "(PDF) Arthroscopic hip preservation surgery: Current concepts and perspective",
+          "url": "https://www.researchgate.net/publication/234105731_Arthroscopic_hip_preservation_surgery_Current_concepts_and_perspective",
+          "snippet": "Purpose: <strong>Femoro-acetabular impingement (FAI) is a possible mechanism for the development of early osteoarthritis</strong>. FAI occurs when there is a conflict between the rim of the acetabulum and the femoral neck, usually due to irregularities of the proximal femur or acetabulum."
+         },
+         {
+          "title": "Arthroscopic femoro\u2013acetabular surgery for hip impingement syndrome | Guidance | NICE",
+          "url": "https://www.nice.org.uk/guidance/ipg408",
+          "snippet": "We have moved interventional procedures guidance 408 to become HealthTech guidance 273. This is to better reflect the NICE HealthTech programme which combines the former NICE Diagnostics Assessment programme, Interventional Procedures programme and Medical Technologies Evaluation programme ..."
+         },
+         {
+          "title": "Open femoro\u2013acetabular surgery for hip impingement syndrome | Guidance | NICE",
+          "url": "https://www.nice.org.uk/guidance/ipg403",
+          "snippet": "We have moved interventional procedures guidance 403 to become HealthTech guidance 270. This is to better reflect the NICE HealthTech programme which combines the former NICE Diagnostics Assessment programme, Interventional Procedures programme and Medical Technologies Evaluation programme ..."
+         },
+         {
+          "title": "006 Arthroscopic femoro-acetabular surgery for hip impingement",
+          "url": "https://fundingrequests.scwcsu.nhs.uk/wp-content/uploads/2016/06/006-arthroscopic-femero-acetabular-surgery-for-hip-impingement-Hamp.pdf",
+          "snippet": "Clinical Policy Implementation Service \u00b7 Clinical Policy Implementation Service (CPI)"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_144422",
+      "args": {
+       "query": "\"0736\" \"Review History\" OR \"Last Review\" Aetna"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpQPCpEPAWkUfROzLuwff8CTANhch1NstFB0qfcxpdHz53XC7HJb4YQ7o5TSS3kRUbV3aHLftbxEYuCowd_QlGf2fGjcI3czBV1pLzbqQwC1adM9PgCCsRDfLRwO5wQ4Ok_-8Lss0R2EsKT988y3R6SYkFdAaEhDPpvBwv6Q5EEcxRsG2_tGjbKPwkq-qGjcij6nIVKSFcc2xiCLGfeBwLSs_zu5aPFp4OnPYUawMFU-_5YLMVAE9k4RLOaSRoWnx0fZ66yA9AZYqrS3kgTZa0M4b_Ll3dUyQ8VsgbcWksX4lWPA7X2sCy83h-bWDwW4ukYobgNdP4qHFNKGwlR38kK2fVtxrhqJniUq3X_1yhDV0q4hjsuXwcXKGazBrn2WkWeGnTNSTHAbdu52tZJ3r6LOVyQgmiU03LEY5w0mTsEBKgkOXPqmpD5PA4MeAySFHjsDUDb0N7J602hJmswV_pFvapZeKtTZXhPnwWsVgQryANOa0cKjIkwH7sOXwMbmexP2kNbUEXl37rgsA4OPnNDokaxds3_EwDDZsyYsValQSBjvvmxJK30lNYgeLSb418rauRZqPQlOnznsKtBooWGT5FVQAgQecbU5NUKEzULDjEF-lsQ_2OVI6nND5wVKeZTf5skWvwFVRFIyAzRHDiUFHceKEPxnPoIAlOHynD4JY66ZFqhaKIMzbqPZleeqU8QeFB2f7S_zfKQaRjn5lOr49Oq6HoAnGKWdy6aFfNaVvUbbz6s1IN9tFMmx1IvYMwPaaq3vGPdtxiReijjbZ2y8oOfiz6ENiou5wOoITvuw4BRurvoy83BgtYo3IXcw8YziOSxSd5AxKAwJurM7v-kcIvo2JLKLXKcrVP5dgN5lB85RlMzm4a5bdqSJBlGPnb25RjYwxpHrbixRBbv_Kyk-9XDG-aH3yRhlt6LFue6GLKyk6bRceQaAx66zBcH3YWY0hM-r4R04Wzic3SI0GHP2YbpkNqpo6GtJce6dcg1iQPzs0eXLPIGrrHYceIcuHko4CwVrGFkJzGbWNn-xIcKoDZLpu2FdOXWWEuJmxxPThHEZIGS9VykziJKt_ObJ-UPgX3lXYO2lu_bgcgRiNd4lGXyfbZYvy_YOr1jNXXVpc5XpkjIn7EHRhSzag0XC4BfHiXFM6QD2NJJ0dHw_rCVXeSRMMHrwTYp_xnQ1KvxuQTTrdzqU1rfMd3CfQ3Topw-TtDVhm0iBEkessRrd9ahdJhf5KHj5bnw0eNRvkK6cZpCPnN-Pkk8u5Kn7Ok1VrB5oz7JN3s-zEU-G7MjDRPsJsbMNSrjcBnQxMlywqeZFm5xOKqgof-AFQpXF6el0rdJMCOgSrGENgrbY7ze6vRq3l-gnuoQ7A4QHtYJuyxjIntM-KCyWhszLvbGGm4Vyxy1CZ-LrvCxf8ynVUmzkSSmUaQ9SZSb-CJmaWZoJrDpNg8WhQNleUe7VHjfrGcnDIQCdCVAKFumBllzyhCjWbUZYxhG0gcTDKpiTsBfj8F4bGKTUX8zwKZHoR8i_GntNtAtoVmCSVKSFE6Oik-WshjQN0AmaDzUXV5zlR1y1JYYob8Z8xQqNg12cFMAoEsMPLfPxWMIjOsy851nQp-9LfWCa9_6-oYZQEz5QwsOmcJltkOfRgIo2SYeJrLANxtm8FTz1y7sNk8obMdtRUvqqEfa69WhA1aKuB-neaLHYJHg8prJfGRDvtDhk0FGjTZ-27g21ntNnu5tDcB2BtxaxGt8z7SGW39KkTBolUnga48jNnheTQBJ1Mokf5T8jm64NW8n3k2v_16XQbTikqUGLsbN9CzLJ0PQ0dqKPXiXiHZj28xAHfaoqVVVLnHu3lYIyl4kUxOxyy2rpq5JOuol1LaHSU5SvncCX82-UVZoDMuYhsJzkdTPf6VdYc9HS_5gmFXh0Y_2YcAB0JeN2jj4U3gZKbMR5Y_UOriCqegPrZJlVxf5aqizQ23q5IOgQlAl47vsJf0IyydGx7kbMYAGDZ2l0TSGLqb1PCPllhg9P7Qv5wpta2nMKk1tiRCxHyEvnK65Voarcku3_fwhW3qCcHcNfGRnldOMAUzyTYTVfJerexbu48ps7uvfpfqDZgTM_CYUXThQAQ30gYZmTjrcfJr2Ma8NW3QAUDQ7ihh8_TfuHecF86_FFgkSip_01nrWq2_4JFfxy6R-2hmtGhAAaf3SkcWP_Q7Plqr5iljUgOqHpxiqtiOCgGWG1GoZNJ-seI5AcwzZsP0mDBTXz0LXWEjkRjjAVnVUVQMUUdldkZ1Xk5UWe-aDbsztXXPdomCUn8SO-GO_0LPPnjHLTJPa8QivkmFbikwWyzYQrcyIZv9KojY50g9bhDn9ixaoEpL3_4gtnI8VpvRe3Xo0kl8zGCDXrgsPeb4tuAFq4MeWw-vpsaipkL6AzfnusjbguEFhNVdKPPaV9-sd40ZmSKSZaJr5g5VY5QxKueKBaL-qN9doTU6tS6y6yAO9Q7AsVxBwISLrpYHJxGa4PVY9Np5wMn_-kxOeYSOEbIbs7sAdy7eELCYGiDLE_R615wEpLDtNpYbUAuJnJcu9X-MhnTKLjagZefA2ARFE="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"0736\" \"Review History\" OR \"Last Review\" Aetna",
+        "results": [
+         {
+          "title": "Medical clinical policy bulletins \u2013 Health care professionals | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/clinical-policy-bulletins/medical-clinical-policy-bulletins.html",
+          "snippet": "The CPB review dates below are the anticipated start dates of the CPB review process for each CPB listed. The \u201cLast Review\u201d date appearing on the CPB is <strong>the date the review is completed and the CPB is published</strong>."
+         },
+         {
+          "title": "Prenatal Care Provided by Primary Care Physicians - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/1_99/0047.html",
+          "snippet": "<strong>Last Review 03/10/2026</strong> \u00b7 Effective: 10/31/1995 \u00b7 Next Review: 01/14/2027 \u00b7 Review History \u00b7 Definitions \u00b7 Clinical Policy Bulletin Notes \u00b7 close \u00b7 Links to various non-Aetna sites are provided for your convenience only. Aetna Inc. and its subsidiary companies are not responsible or liable ..."
+         },
+         {
+          "title": "Aetna Prior Authorization: Routing, Timelines, and Denial Appeals",
+          "url": "https://www.silnahealth.com/prior-authorization/aetna/",
+          "snippet": "Aetna splits prior authorization by benefit type, and getting the split right is the difference between a clean approval and a request that never enters the queue. Medical precertification runs through one channel; pharmacy and specialty drugs run through another; and for several high-cost service lines Aetna delegates the clinical review to a specialty benefit manager entirely."
+         },
+         {
+          "title": "Nadofaragene Firadenovec-vncg (Adstiladrin) - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/1000_1099/1024.html",
+          "snippet": "<strong>Last Review 12/10/2025</strong> \u00b7 Effective: 03/28/2023 \u00b7 Next Review: 07/23/2026 \u00b7 Review History \u00b7 Definitions \u00b7 Clinical Policy Bulletin Notes \u00b7 close \u00b7 Links to various non-Aetna sites are provided for your convenience only. Aetna Inc. and its subsidiary companies are not responsible or liable ..."
+         },
+         {
+          "title": "Page: 1 of 2 AETNA BETTER HEALTH\u00ae Coverage Policy/Guideline Name:",
+          "url": "https://www.aetnabetterhealth.com/content/dam/aetna/medicaid/pdfs/formulary/guidelines/Ozempic-and-Trulicity-Aetna-Medicaid-Policy-ua.pdf",
+          "snippet": "Page: \u00b7 1 of 2 \u00b7 AETNA BETTER HEALTH\u00ae \u00b7 Name: \u00b7 Ozempic and Trulicity \u00b7 Effective Date: \u00b7 1/3/2024 \u00b7 Last Review Date: \u00b7 11/2023 \u00b7 Applies"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_72503",
+      "args": {
+       "query": "\"Last Review\" \"0736\" Aetna"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvQGCvEGAWkUfRMnew8WKn6XRr6jETJWE-1FzQwY1zeCVSmACu6uVUowhd3j0oyOVlrbnxkNuY-uGfVdZwzz_z0U-1hvzgqOc7WpLcYv9GB9U_kUJfYAeFitiMwkg_TUarhJutEUKlxpEcivopuP6l9IpBBRZofrXvAVn8h4iBY8U46bny2_MoK_Zj67DzHmmdlgCt4aIB3I_fpnd5MlOytEhHAIk4JQAyd5ei22-mfRXT2I7VOpZuYsiHLEEygChvU2Gq5BzzXiGZYS_DKCWeDIldWkmnh2iBzD72_h9megV18voAcJYbsv4Q_QDJ8KhYsBdU0RJjv3nhQmJW97LySqJyI41s-rbW_X5rEILTsCm9xQ9WZ6C6GrKPWuihXm6Z1uQxYorj0UYCl5g4hcax-byBqUIVbs3nqigZ-du2hNei9eNSE2XeugfP_mXzmZPTC7zgE4bfGcD6pkMCqGb6To40M7l3uWDubaCcCP473E1AWp53YByiTE1aZsZF8gXgN_AqKqO0ho83-iShXcVxQoiHyAQl_Oldm63c9t_RNPKISERmylaXVn0XgjQcQyn2w3RjSM8AkMrsryJXvBLBVObzdeB_dchWuwpJW9u6jbYt9Tw8URSXSigAfuZQn7TBNuQbPHTlCzuqrAItJEjMEENTX8LbjfY2CmL8zXvrLyfPGRKqClfV8xEdXXPjxt5TCBDOHoArc-1QRX56K77oVY37Ptvh8U9AWMVHqruKGZ6KAqJQKdoCqNOeTUEwEXCIc0mHHyBhwy-h3oYNWyiuWs7ZkzyyY1gAPtt9uWt50Qpy2e183j8TZeUBcEaxqO5MwUp-NQYiiXBdcsec8I7DPElhUnwlGbq3mbLKBUO_gD3ZfvuR0E-0ZrwF6qFM4tnB8QY5-aMQ6L-QgRrgGu1Ti8aqfMYtcp9SOB9OfpThH4_XtPK2bURUGwvvu2j0942TP1dmYWQdHAPzJdyAKpWMfq2weWMKLhuK-VP-UnWVXwMSHzv4cb4RkBRxaHBDSHN-WuEd0kDZHOSsMDgsLDVKwyMngQ1waqbLM3CDbgJzsqbYJN--gSBTJWh-x8kAQQziHW1Pkg-G42jYtQPLLCw4HHdNPzEvG1-TtGm6kl1Ujelhvno5S4FNWXurbnmBem9i8Po8i70dEVyTiNDn4h46hN5OSI6UI="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Last Review\" \"0736\" Aetna",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_82122",
+      "args": {
+       "query": "\"Last Review\" \"0736\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Eq4BCqsBAWkUfRN60etCaq8ns1yiiPtJYhnRciprNlTTLwICBfq91RcAGqf5XpX9Rd0RN9pQbEvlukjoORpE0BeP8BV7FnKroX_fwlKMF2z2h8bRKcPmZKKcCOQIPlRSgck9rlJaubesoOMgA5suVx24JcujcuguJrY1lMVtH_yovle-rFGRUQ2uXTBGVI9LiXu3dyz0lzk221v_XvlxrwoNHSETkpdst5Qxarvkt3Mz"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Last Review\" \"0736\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_168189",
+      "args": {
+       "query": "\"Review History\" \"0736\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Eo8BCowBAWkUfRNQzS9_7QNQnV_mYHYexBj0f_SBMYUNcFbEbWfB3NJp7CX1OcudmbaGkRP-mc-_BYzN3sdQuJgz6wILq23SXlzqYPMC3cLrlrR4KQdJ9gvOiGwE0Hp4tfgVnnCH8yYBC6gKMxvcvCJ3Z7Yk4yGgbO2wqUk8xKFQ1sdeyR5rjjjqBbqxEi6Vjqo="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Review History\" \"0736\"",
+        "results": [
+         {
+          "title": "ER\u2010Ca2+ stores and the regulation of store\u2010operated Ca2+ entry in neurons - Chakraborty - 2024 - The Journal of Physiology - Wiley Online Library",
+          "url": "https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP283827",
+          "snippet": "The peer review history is available in the Supporting information section of this article (https://doi.org/10.1113/JP283827#support-information-section)."
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_201255",
+      "args": {
+       "query": "site:aetna.com/health-care-professionals/clinical-policy-bulletins/medical-clinical-policy-bulletins/periodic-reviews.html \"0736\" OR \"Preservation\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqsUCqgUAWkUfRPngYAztjJfa9wcwAuf-zJScz1A5kQGmj00l28ZdXxEBLC3TNONzQOOlASGbxz3h_Qpx0ten39rhysSarP6EWjq3kpn-1NiNB33MF4fO4DcL3ezYMyoBBAcpG-j2nfRZa82vc6X9d2Kieso917x-V7Z-rx451dE6PkbbnZLFJQAoW1BxdIsp-j0zfKq-sKex8PfRL4u0SAFlEMsOckaf1PN4cdiYwz4eYUH3Gr7NnHc776H5hFhSjhZx34DT5aupxwdt7d_FdRXz-4T0XUpRerFdsAlSkvtvpblcbRtmIn2GOl1pKpCXXPSiITWG2Q_CSHDAWejBAlGenY3ty1Qpp_xLmKLmxHk_R1zsJ_5LWqf35Iq4ucZ-rxC8yGwEX3E6u3s0-8KfDFOw_kgCBeM3kjtM1lv5BOIgArchbv52BcSQnQRCNp15nrJTgkDvzJHPn-rsbULU4supXmfLeKSjr_E1VThD7JNqng4HKcuCrvoirsSroDJqJImWnm9hsX1BdTVG0YjpC-5VJe8huzmdJmeMimWqQ2eEw6zx0WpAUiDRDWhYti4vKhs664BJ5MFtanQrm-S0epgndICKIZieFMiVqrBG1oZ86Qu6fLpHnIUo4tPVR5ZCZn_8onjiZf-wM3r1DXyNB4euweFlx9BYfWef-0WMTXjPtbfoNrV6Da5TqT5Uq838Te6jghNRYO6E478hUMfkcchtcr1A_TsgoPPThpuI50DJTGW_kuHdNCztsaWz1pBZlYlZNK1nzL5i62Xqz5QVSCzeNuSuYf2AXNGaYZXLOUqRuEGds1p9K7IegoeXva8Bvt6pAbquiHSnPJEUMktaLFYt8ARztXr5jg9qCjKugKdyqFP97t9c1U3HfEOa0OaHxkK2ubKtJKqP2EJ4rwUQUmS0jsKN2h94qP2_T9vgiQqn5XFhy35g1r4OTJ0g107HXz9efoh4YTFgARSILifDg2kzhMIAZY5L-b2xyDp8lKWy3di5icd1Zc8HrebKdKQPEAHvb57RqQx5SIEtb0CUVkk4pn715s2ABNVvhej1S0ovgzSLD6C0fnzH7brupv93PF_hG4DKTZ2rm0gJ9JQtd0bXeazqPAvRqTqQH5j7XmHpYSLfRuwjcs5BSIruDJ1mYWf4w-SQ6KfWEMGy-onTBGxEVEjQYh8PAwtZ-c4xYF0mCS39KyAmJqWmBZs_g6o1-xMfH2NqsPoH7ouCvriv9IKGPp6WaMjAXgdk8gzVAKa3CuHn47Q_VpCQNr1bmWvr83PoXjE9Tq4bXVNoFPBHMI0SMbbtM_pPJBHJ8QdnDJkBimDihMlNkjsU9mp5BVBCvVMyWSk3XKyDn8GSdlO6XXVzUwxpW-hHlkEk3LlkL1volM6SWElG2Nj3NXvpLBrxRUs3pCUyHRtMVo77BLZ7gD3Tu3njRrnNFcLVI1P-MX9ALwtNQg1PeKmEO8HHhPPZyzx_4ptqMgp-WnXBNcj2j5l4ID_6XjmzpzdIFgN-CtQVgCNWp_Yr3GO0u4sGDjRrBi2AYvU1tks2v-AzteJpICjlcGlhCdMcKiAGqzd2XOnlAXyAoF1msIx2979owhQFWUdta_vB2Ibyzc-2NMGLN6V-9PAZLtVYTYQ_uzlWD_G2dKeFmZhchKlLUymmsOYWEvSKMnd07o8aEJsISXGMjVIBvEfryEjjIdQd1EoIgBKRp2oml0o-ciSUOeeNOOp727FIh_75cmU_Qix0RSsfGFsCrnC-5Yg_jxTGcAQRnV3uS-wwSDSnfGBqKi-FfcjeUJSaK4n43i8L5mVWlIIGTMpS16XLl9JuH14XdgJYlsUTOIXtFiVvqXHwleHzvqwYur564_4xhHpe5fYWUYUw6ja7KuFnENO1EjislnFOFgZSVLour-Vlzo40St87zDhlyGJIbcbGi8vXJtfc_1bUUfdQr3SrTVy3d3mCNZkLFWRb1z4Qj3EsUZNj5dBCckGuIt3uDZ31GKc1vaT99L5AWogG8rOmnvxGiXc7S0yMxZRvDdwBT_yjTRqKgK8pZZoVhRkLJJMr0HUfIy81on9HR7MU2TPKLjkul7w1ap54VqC6LLhCPzJJW431nNYymPZIWURw64lUDUmxVANO8lkj3jXV5c1zdmM1vUCPQE_DT_q_AoIPKzQ_6xGoeuK-_YZFQrP9sdNx-oMQ1UnYh0le9kFugTgRNPdlZh29bas15RAkpR3jar68GgDH2iMJzXOkAcygbx7kmWYOSKYMS_DeyYBLFy8YO8SG-bYlvfweE8fuu1VpV2D6s5sz-S_HvnBeYB2ieqz3wAk5STfRSImESjZiAFmt9G7DI6l3OHHsXsetnIiaT2I-WcxhpmD-0VVkPC2omtmMis1alIOJ8kNSzITMsNYYGAKgtdDgYj-V2QV933CTat52C-FPp9TKHAkKW9i4_FUTkfgpA8IQ8p_C9Dnavr2BRWCOKY4j-6U1WlHTdtCahmNOZC5i2_i86poxPH0u6vDM8TrLqdpOfjw4pCOSijI7vy0IEWmB3X6ieNMSk1-E0ZTyb9QfHb_I31DNczKsBOaRglgnW53qsyHtkQsK0aBtOTHAlMk2m9AG9S57ber8fQqkCgCyijPquHwmYQiD2vEfmRnRO5m1cGob7lqNnQlb7bJcNw9Raaf-NyP0dIRNWcKeFuiAHKrOVUVrHeIVokp4ijsLtZvmtZbzf-0v7mNiHxObZme3WYMvbU9tNF6Z6kDjsIkjYr_ZKMXwJ_78CdA-EhXMYT3jGJ6zg0o0WEhVw2qf4nKm5STM1dzuVlHcyj-xWfPKVDlhu84aqTGwVs2S5OkUd0EvVGcdNyPUZ-LopNL9BepNPOfiXEc72G-AE64hCQ7nkWkmh-LGcyzdRNZa_F2xtFfFzta38agg31UextmZ1ldZzYeV-0Xi7z2QNtyQGPBeVaNcOOFh1Nxr6HjprF6KgKwsumgio2nt-bQJflvNn8_yw9uviQreA4NOMC2QTyILqEfkNCG4yKfC390_jt7eoc878LuisuR_cw87NgBdxTQqhV_AtDMPzcBBUM7mAIwEjXcjBTloPvYNMZwiEuioo8W_ms0YGJCt-5c_F7joxU60cTFkoHPr6LGEeqHopUACThraoLMxTGGiUT1o41W0MOR8ihRH6I7Rtk9NIRH2unnpv1JAP_HDJxB9WBVL_kbYt6aiw9VdjCsWBj756vo14kw74oZCUH4UJn4o3rKFJZQaCVqcocQaAJ3CNkl4bV1ZXc-Ux4kSCeBL8N1r56luw_D9t9tpGEWWyuerTPomyU2wpheMjp1kCcslaeLkVj4WPZ_qkUhbZ11R_HdBqpJ0YkSIuhCLDce1E49y-qXzANN9cNwgeh7f8j3k5TAFt035Ju92yiL2TiZBj5DkxVgZTS8HyoSpzYs1X21-1w8CaOZz1W8I4-DsK7lT3rp_FGBSpPskfQ1dFc7Y2ZYOSGlmNDUqtU="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:aetna.com/health-care-professionals/clinical-policy-bulletins/medical-clinical-policy-bulletins/periodic-reviews.html \"0736\" OR \"Preservation\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_112224",
+      "args": {
+       "query": "\"Last Review\" site:aetna.com/cpb/medical/data/700_799/"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsgKCsUKAWkUfRM1BVEqXsQvvIgtHNDeubYJXocLzFBQBccVzfhcz6DNDU3k66N0k2H_-vX3HNz2NiTfOLR07ZNt6-J5J1ugt07YsLy_Tw9K_B2FFcvq0pWEpaLTpMOHj9az8srEMX39DCnjOLY9BNP6AONlx2Tp0obNgPTtxFKCef5UXq26kHvNzWbw_aHU5jfAl8YnCiqDbdoOSf0JXNGZh5B2zM3gWraxyrK4o_S4bNNqPRGZtt-yB2DEaJTfF_DhQ2DvuCPwUi6Cm075QhHuDmdhiNMoPBQVck47jNu_dh7aEdNZKWGLc1RE2HazYNDgL_QpCLahMy1jpLmI8W1-zzykQVMfMjFZVKLT3_grhev2Mc24Z7f3S5FaDdVxvTim9Alj7XSW1M6dGx4a98KGoUbh5K2sPTw-on7K8MLn6CP8fgrpQb1qJ7pbnTwL0CSNb39uBWJFw1GbYMMLhVrCfigKspvqfNptM8pimzSpB5x7EyY1fxkJD4RhTomEgMpLJjOw-3t9Gmyh9giuvjq-m19xQc0ixRS-3YeYvuyTZrs7vhr8WkrQo2Hp4u6d0xMwfMe_MZblgkH77ZyoSjRvnSENV8SqGuiyZ-1FEaqy4iOFipbjn2uGpckWgxkboef8Wc8cYvRtoZepUErg-XJh84emZYX345tVwS4_Sq2-mjRZ6-tZ-r6wekR_jhzA0tH8FRUiBNSJlj25foTEHqc9_OnUsJymZUil18w7Fl_zah5fpnH16A3krgJ5AJtVLJIMFao8yXSeHPJNh52Ek44mbpXnVzTllXwIMqXhdj_RYWVJFjesmKlggjSgJSQ3D-hJFcBTE1kZfSbAZr0IS8zZGTsPGPTXjc7swWi2WYE4ZCIDrHklypta1KOdou7Nqc3tDS0GfhpgGwT95f-B76FkFvmi2uGhCxLVuhShL0fs2uZrvwJrFLn2kQbAWVxjCTB-n6twXB1DEkNtMIbMP-E34WutpEgucVIPM4P9WsQRYiQS_DcA8C_gnr54vWc3wXuAGH1eetUUJ4-5U8vsCm2I0aztm0niAZAknPNh5pmN5bMLMTFcR2TYAp2dEvGHJs4kVLwItnkXneUxnRjSqguGE07Pc1jPTXQgEh2N3UVmZJO_5v4STPKQxYY7A-PsYstDSSzKRhSaI3ZYumoEd5XhZCdJP_J1DBw0925548RDtmBhAG8ZB7OJZcl_G6EwX0X4ORC2kH6Bsi4rrOy6mvtPiQs-bl3qPk_krX320_CcQtDPn9hU59Cl9IoeWr_Wzw68qw8DqRlYkaGtkw0_Vvc2w8Lw3NtL4ViE0jZYcMpiQ1FfYmKq1QPsteUqu81i2gKfytv9vCbnH7W_NP4R_cmh3R1uhIHwNRIYj5ulWxBCkxb25G3m1R_nJAVT3Z-sW0-qJ6ZCEqLx5esQ-VhcCudzCUajpgiIKR_z9Pc2iBwelt9qqFMVvwu47m6DojImET02jb8MVDly3vq3M_peSO5cCu2a5qVgmVxrD4tmTEdcm9ApnANq18mxi_SsObWG1BThDbG8GJNiqGiC8JlbC5Oup0kYr3EJ-pqsMM7v_1yczbW_xkAGwvBW7d32JLeUOoJhUDsUojDdq2lwm6r-NVc2ujnvs1yb8VeEEJsO6DUw3qX8pGq-0GRlVshRH7pruFPsFAd-Gxkn0CGl9G9gd9KxTVSJ3SsWFX3hc62J07ITsU8Ksp3DMkZ6gZYS9zmWsEis6CK4rmGL5FNl64DJJ5MQdxQxAQHZnHg2-b2bKgjMmngi9CREbe2_vosF870jGHihIjs_0B46RyU="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Last Review\" site:aetna.com/cpb/medical/data/700_799/",
+        "results": [
+         {
+          "title": "Romiplostim (Nplate) - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0768.html",
+          "snippet": "Zhang J, Liang Y, Ai Y, et al. Eltrombopag versus romiplostim in treatment of adult patients with immune thrombocytopenia: A systematic review incorporating an indirect-comparison meta-analysis. PLoS One. 2018;13(6):e0198504. <strong>Last Review</strong> 10/27/2025 \u00b7 Effective: 11/07/2008 \u00b7"
+         },
+         {
+          "title": "Ziconotide (Prialt) - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0712.html",
+          "snippet": "<strong>Last Review</strong> 03/11/2026 \u00b7 Effective: 09/09/2005 \u00b7 Next Review: 08/13/2026 \u00b7 Review History \u00b7 Definitions \u00b7 Clinical Policy Bulletin Notes \u00b7 close \u00b7 Links to various non-Aetna sites are provided for your convenience only. Aetna Inc. and its subsidiary companies are not responsible or liable for the content, accuracy, or privacy practices of linked sites, or for products or services described on these sites."
+         },
+         {
+          "title": "Plerixafor - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0779.html",
+          "snippet": "<strong>Last Review</strong> 02/13/2026 \u00b7 Effective: 03/20/2009 \u00b7 Next Review: 12/10/2026 \u00b7 Review History \u00b7 Definitions \u00b7 Clinical Policy Bulletin Notes \u00b7 close \u00b7 Links to various non-Aetna sites are provided for your convenience only. Aetna Inc. and its subsidiary companies are not responsible or liable for the content, accuracy, or privacy practices of linked sites, or for products or services described on these sites."
+         },
+         {
+          "title": "Medical clinical policy bulletins \u2013 Health care professionals ...",
+          "url": "https://aetna.com/cpb/medical/data/700_799/0701m.html",
+          "snippet": "The CPB review dates below are the anticipated start dates of the CPB review process for each CPB listed. The \u201cLast Review\u201d date appearing on the CPB is <strong>the date the review is completed and the CPB is published</strong>."
+         },
+         {
+          "title": "Non-Invasive Fetal Membranes Rupture Tests - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0757.html",
+          "snippet": "Methods for the diagnosis of rupture of the fetal membranes in equivocal cases: A systematic review. Eur J Obstet Gynecol Reprod Biol. 2011;157(2):123-127. van der Ham DP, van Teeffelen AS, Mol BW. Prelabour rupture of membranes: Overview of diagnostic methods. Curr Opin Obstet Gynecol. 2012;24(6):408-412. <strong>Last Review</strong> 11/12/2025 \u00b7"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_61240",
+      "args": {
+       "query": "\"Last Review\" \"0736\" OR \"736\" OR \"Hip Preservation Surgery\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtEKCs4KAWkUfRMDEeUSiIk8eOeN7mlXZEeIkbIGm4e_Ejsv2DYEipl_MTCdQoxnEIM7ZKlUxrK4wBxnbxuu6ZI3J1mY-t3s2mq0zeTsFcirvdypPVD449V9yOkP1zNABFgXYVw6E7EhMkh027tcZA-mTUD4Bi_6K_RCSprnq-mK4zYinz0VihR-opKqgTGhA-xoTZC7luD6GYrR3qZGAkgXTN-syEpXdZHETD4AVqXG7VKUnG1CLft3J4WUB1f3CUA_LwUA0kFCPuO0DpMb57nMwOvr1OQyZzD13KyXjSm-vDsUz_dK2pL2UXNTXbzXklOWZgeYllRZKCjjj5axnmMSGyPFdfQ9j4RM9QojsE1ATKc8LTCnm6vuhywSTkRn_hoanqQMKFIL-mtKmZdWi-ZQDBg1NRXf0Zed63lc6uG3KPOVFI_-87Jx73uWWEu3aQq50bNDSFIC-eFk8Mwos3to3mXMgMvLSfgz0OqiECpZRiQ8syh8ZgTReoSNF4br2sJAvOqLD549tKQ2vrW4nDmN_eMoNSIkSPQhMm6N8IRBrMQtePp4BdzFOnBkMm5hQ7Unxw5-Ss3EzAAo-AO8NbcpSZ4v-VYgVOF4x1htSPEUmUcAlw6HSA90RmEJd_q6jdy3e7QPvLMC64sh7KIcFsMAglo2_jAVooEgKnnxW6DTYoIlEP3C1XnySuA97t7L03UN3mOlrXQECulgL3BUXUvrSJxaV6xQKe_U4o8vvjTruhfTda6cixohD4aNIA7Bn0Kp70Zo8kikkmluP7tu8j2v0l4Wvpa8i4Qz9ravn5GiLfe0VpXi_QThGHcivGymE-Hs4ct-YHXumLe4T074c33EWXRpU52zVsrstMoWqQZbpqmR4W10A-lOD6aqRuYQZyStCIIPVtAPAq1RJkkL70soYkvM4o8Brw3-5NfdzEJwoR9IQf502iF2t9Ws308zpTpm8GmSEwksKxN8uDVMTARC5VS493uVgzfN0lAZbxMffsdHv-qYtJtmEMqK-gflVYlisIkDPwnNOo_J7HmMOA8nWZlPIf9mreoP9PwXW7x0lr5JTXF51zdXpTrhmZd3U5pnf0kBlexxxYsC0JY7aqIuLyCEqBV-LCqJX-BS_cFPC_Zm34ziU-40YgxlNeeyZbjynMPcY2RhUuW60TbA-eipdodPU4LPktkZJ8YOXqxM7FHBEn_JjzSxixFWTUFG4NyUE7gkSEn6mWXREH8mVISie5PhFDxv77ETs39XUDwWTnVAGG3bJrw5hscB8Q4v-ghsw1yBJzSA9s-jGw6DnBneq05gcZsjRCCn8zk6MK0KaPrShqMTHHpgQ1Z9cgHjgCe7YxdwHshaI-KZKdsnAHEEzlT2pGWqObsB85C8vNhuztwAXRniH95hD9Br8T056wz9ZlWuENPf1gH9ytYBLyi_nb_0xfFjzA8cU0YJ1-icapwTPJia1SLIkgU8emZioFaaYdHedxUWMOksYyGPH6OP6i0iiRMbbLHMiJOb65h2KpfvvGo4UVnQDmIxlhqk1U547RZynlUlGykV_GzNeut3l9quCuQnFV5MM0a-OB1dD-bulnc710aeMwQt31RvaEcFPqqHpMMuzKZCD5VEDFM0pnPWyOTPt_I3m_g1Ueh5YxP1ze0SpXZyDAKBxIKi3TqtzM8NF-oCzF2ciMddCXaoXdSDfqysEJBbwPDDc394F4XzWVm71oxBdN-GBJ5L2VQp219EjswE23zjW8UkwWH8E-RfRWgq1cHE-toLot334iLGL1CVvh_3V5wNZzBp74wFLl8vFUjk5-EvkwcXDiwdWtA="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Last Review\" \"0736\" OR \"736\" OR \"Hip Preservation Surgery\"",
+        "results": [
+         {
+          "title": "Hip Preservation Surgery - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0736.html",
+          "snippet": "This Clinical Policy Bulletin addresses hip preservation surgery, including: \u00b7 <strong>Aetna considers femoro-acetabular surgery, open or arthroscopic, for the treatment of hip impingement syndrome</strong> medically necessary for persons who fulfill all the following criteria:"
+         },
+         {
+          "title": "Hip Preservation Surgery: A Team-Based Approach - PMC - NIH",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11421827/",
+          "snippet": "Checking your browser before accessing pmc.ncbi.nlm.nih.gov \u00b7 Click here if you are not automatically redirected after 5 seconds"
+         },
+         {
+          "title": "What the papers say - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12461203/",
+          "snippet": "Significant decreases (n = 18 athletes) in pelvic BMD were seen at baseline [1.40 g/cm2; (95% CI, 1.30, 1.51)]; 3 months [1.33 g/cm2 (1.23, 1.43)], and 6 months [1.33 g/cm2 (1.22, 1.43)], and spine BMD at 6 months postoperatively [1.43 g/cm2 (1.30, 1.52); 1.38 g/cm2; (1.29, 1.47)]. Lower extremity and total body fat mass were increased at 3 months [6881 g; (4932, 8829); 7757 g (5801, 9713)], [19 565 g; (13 130, 25 999); 21 467 g; (15 012, 27 922)], whereas total body lean mass was decreased at 3 months [66 736 g; (58 265, 75 207); 64 978 g; (56 492, 73 464)]. Results at 12 months were not significantly different from baseline. The authors concluded that in NCAA Division I collegiate athletes who underwent bilateral HAS for FAI, pelvic and spine BMD was decreased up to 6 months after surgery when compared with presurgery measurements, but no decrease was observed after 1 year."
+         },
+         {
+          "title": "Patient-reported outcome measures for hip preservation surgery-a systematic review of the literature - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27011811/",
+          "snippet": "<strong>Hip preservation surgery is rapidly advancing and patient-reported outcome (PRO) measures are becoming an integral part of measuring treatment effectiveness</strong>. Traditionally the modified Harris hip score has been used as the main outcome measure."
+         },
+         {
+          "title": "Arthroscopic hip preservation surgery: current concepts and perspective - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23307667/",
+          "snippet": "The technical advances in arthroscopic surgery of the hip, including the improved ability to manage the capsule and gain extensile exposure, have been paralleled by a growth in the number of conditions that can be addressed. This expanding list includes symptomatic labral tears, chondral lesions, in \u2026"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_73772",
+      "args": {
+       "query": "\"0736\" \"Hip Preservation Surgery\" \"Last Review\" OR \"Effective\" OR \"Next Review\" OR \"Revised\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Er4ZCrsZAWkUfRO2A7yVN8FtHCOyzNtvaH9n6-D7JkJqmQQukkaHpw8SDr0_5LRJvgJeUiY0iAXGOVR4Gte2mEFagzOpZGHjgBxNj3Nh4AAFVbnMsa29ASJ7esVjnN-QhPaWSxv4HnKdC5qsQPlSGXbjYLkvfO0qupVZO0QAvDaycPtMAQsng4TWJtV2hnGHbZ_WuxpW29bnkhpWAzmP6RYvri_4S8r2TZV-X4DIjWmI3pqHA_33TvwR2UZpv9XqaSxdutGMV8EwSardsgeOrP7yc2VeHzSrF5SFhDh3H5GnKTbAyhw7CRivRSiYckSun_dMg2ukRBURCZQguU9Os6FOk_c2LOZaoBJy6lolNpW6XS2V5LfR2jtBmJ9tu3lC-_cSQAwuEZ2FI3vL8Oaq01UJoBJ3DTLhiW0sV2S55xCm_KKqpeO4aGKnEmjMKpkQ6J_zl8NZUT6w29xJOvQ8Q21VEci5nOU91zXkrJkfh2z4emUcB4-30Fkfq-kymucBV7dpUIDUTmjeKhOol03iie7ZqNBIBukYlI580W5Ou5HUBPIkYqyppr4bKzcTZr_gCavYxAxM-el3nH48pv6riWwQ_Xrvt-MYPrJGtqKYQRuGHf2-B1aHEgxo7WdFxTxsk0bK0HnT5awSmTK1SrhIpc0oGnxOgBqCsB_V7mVhIroQHLh2vzydA9Wbc_LK-AALU8BjBZ8Zyn_f4RlHZ4RXLv8KjzIZbtMT-LiPXuU6wpOnLZdCYjC1TUoa--vfMtEf8xhY9XKrCDzslL3gcNQfjtVNTE6jqLJpYSukDUp4gpJxyzvN89fImdn-1bEhLHB6NX9K0ZIncLJOwvlV4jBkxrJjKCQsCPCUWFQFkcxszwKq7K1Lj6wemVQq_1NZUMNwRvX-zrZ-EaVJPN8fX63cp41Dgnvpm2HVBdAco17L3pl59a8CHhTzYo2Rg_RSFA7P2ufpmBJkhrza0RGq5xpcrQENzhkkJGTIveMhd9wnd2TMVHbZMcG1Fj8_w6EFcAlSX-HT806f9sUo2Fu_8sNi5mOPfU_aMnNCUzVhuqpSKhIYv11Wy6quJt9FVAo5f5v96dLgEeoufkFusJJXRu98JXuVxGyARnOtH7Kl3gJnbnSJ_A1EwiJyrt-aMfUO0wqPWcf1_aJ32KOG_F67rcKQc20YwvLJSCLWvCO4N_feBQ-AY1SfMJziv72DxSiE8nKtyEFe5VmHh_XJ1rwSBeVjMRKhCotdKlqPuSpWWMH42t80JXK9rBpJWWjhpDl3za1M1jFarBdmB23GU5CG9Hne1JeDvM3UF_7coYD5hcqETxViBufmivmz05jhsbeEnwopXzSdVlhZYv_D8MKqQ8pDL08itenflqzm1CbeoC-j21cgd90Pm7KnS7rkouzFmmKRQTwYjRAOHz9f3DAiJdINng9yZk_fHYqN9c0ejyjvB_ygeng0BwMimwr8ZNN82OWuG4hOHkRek9KVpB0wg-GimPZvkdcbEjYTlR-35n8vqwn5E8PP96Ts8ZSrdZEhmq_ocAFoP90PO8xTHqTJr6NWE7oCXX9HgBMyh_DJ7eLv4wyOa5IWvV99CVcf3kiRQOIZv4_rziWXwEVr5j5FCjd-zIk7_ST2ITFY7kNZOpKhiYaHGq5WDURbKjMxoLf3Jc0VvzobAKrnPZECbZJQ7ns8byvxlCUMInSZeXKQChCQnt9oLUGEoFSjusArEbIsCc5Ej03vcdxtk2sYryqAS5l0rRlG8reMtWZBexS8T6-6RU8HC4OhyUXxVPU7LoDxSIQBZoLb04UChVq_BsRuLhX-IEvYWnIbLw8eeoLe7gQl1QygG2nzZPoPC764j4sgQusKgSh5PCVyHgGDxmD4HJxgcCOT4-Xbh_IBvGbpTIwDaUhEms_Dmkq7J8pNbRSLNl8bxTYrMNGUKeHVs7u3PGkY3iKauEI-LLUBjfEC6AJH5iHE0Xh3Y_l-lqLGj2l2wdOJCBTgo5C8PgN2cybE6CpdDaPnHPwDcvZCJCZesQOOi2jCXblTxeT0o-R669898rXx6La3UQRqmPv6bCATblIqH2bIymRJCm4efULivUNKrAnkoFay8nFwW9mMZStBNK2adKf-6DKkLA7ay0D6HrXEbuZpmY4IpG_mCoi72YXtIjFh8aeIfj18hNTRKp1bSMmbxJkWFj64P4TaK2jyz22CyIfW7-0XpjV0U1EfW96XTq8uorHDVL0mfHhvYsz4n3VFBLRKVP98GO6EiMmbvLlKQG2GghO-r6NLf6HY9hqQmIKC1xeqIe5pTG48y7ELHkyzg6ueVk3bfnSkdCvXERK6fDpaSgwxMqqA-F2pkSFjyQ5cqRmjZa1oTWNoXUdl1nYW_9uNnNFuWXgZLzKCYjoFT8d2SOLiChJXhUKnQIFqQHZBR8cTjHEJBGd7-GF_FDuyC6mjhj9iIM0siGHF1tRQA09YDFWMbWL43OcRPiu9pD1cEkq2ABq54tPUA-r5I_GUxTqq8F3Y4aESz8VUVN6WdM5yi51qu_4LQAMTPDc1d9bA3-Vzy3yzgV0soZZDv0MvV3S2JnzvmRSVaQxSlfghHayeIwyTEZOmi2-wBQlnkVLCrcot2hjNqvsujrfGxsyQ9bAYrJDed0xCHb3GY5WfMh53-u9Q4287CRFKWc7LikJlzEyJ_D-RuX7yDRSUGoYiVwR4pSPnE9fFHP_8TKdP4Jjhr7lOVupHOKYKWqw2FHcZ_fbffYILKHqvv3hpGrc2w1gFiKc3w5j-8QrJkI1wFQyi8QHNvIb17xpJBymvFPgMcBlatz6CXOuKcfSXas46z0kAZy5x1bB3qJRD4DqK5K7nar_axQsCn9RyNyVWTexIyuPg2BYH8KgZl2U43CP72cF2JiwwxoJmKwQpcemMT_uJUQq6ayNFGvTsCboeFS58R_aaaaAo5zUxpf7VcHF9xMYa5o6HrbMc1TxhzCzbqaeMxMYdc7ZXiPOKQ6wUHiR3_8lQNiLwn4O4TF6GWTgleHw5xCt072CNJeGooP-S5xFjggxDKGi36AdLY6cK_XAc7UEwel1XcoqeH0PYCAXSKw0QeqJMZJLVU4Yr85d0s77BsaU-Yt-ghrCmB5KVWxefwuyvMyhWqlrXvJmFJpuaVBu6g5bDFHVf0_V5hV0LDvBEIG7baaxNYauydAg2gkF5SbaSglnj6LJ-VWUYUY89cvuPh2rGcZcHgf6hkQj4jk9KhZo_yMcVxpG2DjIidvSf1oTlf7jpsrR3_5UJkFK_y9oGXuGT5jsZqTE1A7OZjjiB7NmgQB_R2GHkt8aMreZNRLp5e25i1JWoZTUjN-9LQS3SWr95XVJUwIdGdNtwl9lPpZWx9QwjUy6_lOzxismebtuYC8ypRsQrlllBhyJJ5Avy3kXH9BdSTNJnGQw2_9Rbku4-PlBCPxypg8fBfPW0qgtKgvXqGt4S2qjD-4qPRJ9qwpugbVWPbz122c-HJD5LnkBmrxDxXOwIEG-1wPOfhiTV5f6RTCqjyH20iZZQSXNAcEowj2NV7mQbOMdfJFf_Gt8cVvkav53qW8tVleptfYm1xAssskX_qr4oy7SzAyC26qi6IHP2ccs-lcR_JMamtV1U0G80GFDxHRuVwff4e2Nml_VL16dYrEe5Uc52juTdd1kU6GrFvNE1bYcDtODMFPRC5S2bLyC_sx-VfXafkbGOwJpQChAUU1UriiDOiyGOMl8TspTyaHVjr93O6SgUekr7kNSltsoqIv6cc0QhGMU089BUTSkmG5EDWoMcIVqVN2gF4kNz_wNxVNKe75FrhgXo-G_AoMv6X9UTaRkVhqUXIZDqp0lUzN4TAo1posItWhFN4H9YODHCUBPLRHHY7EBwoRAPGpuqSyLWiPmZ2Is0RkGAJMfA-mx1fbl_s-GSgDQQEW_OCggyNuvdrDGZDqZxmYyY4pWUYgHUmSn4VWhFSsX5nlUVgOvHTJHgbuqV9VDuJ3BDtl3e8YckaDwEd1ubSUDc8cKMEy177peiLTIx0A_BNvd7rXyLeTnxq_ge0au2Rth0RLElFoNjvWafvjdHcVJXNrSTWaFsjYrzjTFWMRbwDIoWvnRMkNHYgqr-3LU4dM-Nf-SG-RgJkv1Ep-hAVo_NzpEjeVmpqdKqdjB_qP-Vm116d1sD6nWUksWghhYaSsNbH5-eX9qqGYQ5miX44s6bfGlX_Sa56fPTbQUWJaERLy6CIt7MZdu08BElvFGi4clgb9EmowvKbvR51V-UD-ydFl2vyMMQghCnIJxIDkFNc4RNopHzPKNxbHA1rLAEZTUdyOTQPnkcRMx8UNh_m2QbMufnO2euNKyO9bs-69Lx_CaKdPIEkqnmCQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"0736\" \"Hip Preservation Surgery\" \"Last Review\" OR \"Effective\" OR \"Next Review\" OR \"Revised\"",
+        "results": [
+         {
+          "title": "Patient-reported outcome measures for hip preservation surgery\u2014a systematic review of the literature - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4718480/",
+          "snippet": "Hip preservation surgery is rapidly advancing and patient-reported outcome (PRO) measures are becoming an integral part of measuring treatment effectiveness. Traditionally the modified Harris hip score has been used as the main outcome measure. More ..."
+         },
+         {
+          "title": "Bone-Sparing Hip Arthroplasty in Young and Active Patients: A Narrative Review",
+          "url": "https://doi.org/10.3390/jcm15155894",
+          "snippet": "Although preservation of proximal ... direct evidence demonstrating that <strong>improved periprosthetic bone preservation consistently translates into less complex revision surgery remains limited</strong>, with most supporting data derived from ..."
+         },
+         {
+          "title": "Patient-reported outcome measures for hip preservation surgery-a systematic review of the literature - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27011811/",
+          "snippet": "<strong>Hip preservation surgery is rapidly advancing and patient-reported outcome (PRO) measures are becoming an integral part of measuring treatment effectiveness</strong>. Traditionally the modified Harris hip score has been used as the main outcome measure."
+         },
+         {
+          "title": "How long do revised and multiply revised hip replacements ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9647039/",
+          "snippet": "Checking your browser before accessing pmc.ncbi.nlm.nih.gov \u00b7 Click here if you are not automatically redirected after 5 seconds"
+         },
+         {
+          "title": "Hip Revision: When Your Hip Replacement Must Be Replaced",
+          "url": "https://www.hss.edu/health-library/conditions-and-treatments/list/hip-revision",
+          "snippet": "<strong>The results of surgery and the durability of the revised hip replacement are sometimes less predictable than those of the primary operation</strong>. With every revision surgery, there is some loss of muscular mass, bone, or both."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_121392",
+      "args": {
+       "query": "\"0736\" site:aetna.com"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Ep8CCpwCAWkUfRO2C4hCXbZqbEbylF9l0Q_OhClY1MlZtSvDp9m4shsa0OX8iDbUjz4Z3hgMG1D50XEC1nfTvzYCqcbkIIPBq9Bikgeawp7P7QFc736UxwMX8krCLbbuUxUTtG_k2HJsy2Bzo4kvmR-G928dWqTO8RAj5RmxfEv0ePlIOSQQCJ4CYsr-Q7NiSOk2boy7Acyk-cF9uWPJ6f2VnSXWk4j-aYnQ58c701RXfZhA9rtUXqW9Uwv2KAz6L5cgtH2VOsgJO92tGX5qT5wHX_vYjQ_4IkEGwaU9Df-UKRnG9qyNi6ERmZnUOUCpKfOdgAZLF9Th3j9wHSsJisX9yT8Z3cSHvcXUkshoMLUplwy3WKpCXPywgybYqZ6MnK8="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"0736\" site:aetna.com",
+        "results": [
+         {
+          "title": "Hip Preservation Surgery - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0736.html",
+          "snippet": "Number: 0736 \u00b7 Policy Applicable CPT / HCPCS / ICD-10 Codes Background References \u00b7 This Clinical Policy Bulletin addresses <strong>hip preservation surgery</strong>, including: Femoro-acetabular surgery \u00b7 Hip arthroscopy \u00b7 Pelvic osteotomy \u00b7"
+         },
+         {
+          "title": "Athletic Pubalgia Surgery - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0750.html",
+          "snippet": "CPB 0736 - <strong>Femoro-Acetabular Surgery for Hip Impingement Syndrome</strong>"
+         }
+        ],
+        "result_count": 2,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_116340",
+      "args": {
+       "query": "\"0736\" \"Effective:\" Aetna OR \"0736\" \"Effective\" Aetna"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EuYTCuMTAWkUfRPcSXF5sRPCIpvDjU89FLvQm3ORLk9t07golhLhACGrdkZojLNplpLzdje2HkLuEe4E1X7JRGPrqr23sGmSBjJg_d3VdqKFdkCb8MYuRgBjYxpptlOUT9aopUtaH_DliHlcuCNJBFrzDX3rOn3fQT0-QUV2fyRbOQMFAuZ6fqIXECulMgxllTTRd-p87C_SbXBRuX4Fpf5jz2UxqdvIu8cNvKzBnulaAfeG0vIX1o8VOyJ6ABaSjUHWGMriHoMZ-PjAfWgPLGeK22Dm2V6eSdk7nwDKqT33hs4oM4pGQLLbaEv3GadrNY0POMZjZr5ZXVTLxf8Nd8nUNMURNRUl2nOCjmf7JgNPrxd0WijpIioarxO9CVxPMhpeS2FjFp_IunFLOiF0tqIlsqoBy1QSBGWV2YnsRrNHs6sHZQ5bUQSRlkqShxCBXQRUcl6rJGCGkpssAirs3lfCNIP2din3hhuJvp1x168DiwA9x4RRDhmTwl09xUg-wi6fmJzwVuveoovlhx_QU2waaDZXx50Hz53OKiQZN3U5V6_5Z5r2bHW8lXJLzo10SB22ZDC0WzjeNbjaglL3QAiP-bifcV0guurYGLNxbMr2NqHIlTfsZSBybQIHA_n1dF0yD3lmKi8ld2tx20sA0uDmwwhTwp-_jKx6CAVzSJGF4u3cSCjT2vJyQjEKXsR40c5sfYlFrjn23-6xmMYfBT-LDtkMnH-t918Q-dd9u3VJYtKzQH84dPeWGNIVRpOOP6IZWf6UksapRj0m3i40n3uZOZlUZoX2yCw8CzXEZ8lPOTHjTy2I-Nsw0-kaPdTaeQESH3DUAuWSdmhRfoGxo1MDcxHJwE4So3cXDQupjMYGeIIIwmqZd8SYX3N7HrNPgHKB74P_yP1Ynkt0kAiNYxppuPe_kaCsXF4s5NjEpwuxzIBZ7m6h1ywU4_lsEi8-Z5WrpCvgWFULBSSN8uo4-pkGUqyktOyJmNce1ylotm4VAV_3T7Q5lptl5GZEcHenV4YDjhNqLRBaWvldRJWCJopP4xFNXFNPTKWL6S_wmo7nasSV7NyiVARaVDNhXe1ktbVp52Z94dIWk0rIfutgAk3g7Z2rluHWHJhR1RICPfnt89tm8eX9Henk76BWSW0zNK6UdBB-b0bEIXc7o7nKqBL2bS6HJCx3sLLHTBpyErctzMQASYKSYYwsaTwyO2wyliaKH8IZZyTxKx8Hsf_2QRjgxMp3fOxcGMPw4CKzNvUcg0fPUf9Ly_SPX1zKL1gg_XZYDS0NS9NYKzyszhVZXQyGtzOUrbLJLOt8kmewtpshJ8XhKoCrcOPp_xBut02cELRGmqdPlpEdyLvfGUxJMU8ELquDru2j27ydCGc_FoN2rzbhBHWy3CPaQXLOwQs1PHe3dQ5iMZ4KJkYI6_HuSLyowj5FDJcDj6DFPtryAlOUun6xP_CB040gvQ0OJX5GxSdwgN_Dzd48zm5C_ty6O3aFatLMToGPMItAF5v4n0cCyMumNnzG54-poUKS0NmxQKWNykSn8uc4FLsM9pG_r4FCP07kKafU-yYoA_fkDWlLv5D0auIrK0l7FxulrL7YMZJrzdaZTqpCqIV_COBHg87e8motif4LKdjH2wpdzGcG-91gfmqnhij7Wtwo-1QXx7spr__9WCjk70LHRUd4Jvqbr0uvvvmcHwv70YZKTh451B4_-5H2WcU2HG_w0AdHnXd1_PU8n3crVRBbApOmkZFIl_O0ZHg-d8SwEHVvn5jvSqmiboMXKRKh-oOPACY70ATKZPowBfOG7rQsAnazEOvYfU2hF47CtjIKrdyCWWoSLWUIlDXrA-zjocbbHlTOfmiYa2uDxZW7X8cbD_aM09NvjD8Jm092LyNsF9kODagxuIawCoqmsuYIw6wlTlgU3ZpdVnBh8AU4yMjNO3sbV5cMnRrtLxqPbQAw6OHkRhx37OJCe5xZ2cPZ_lixRktVMiBlvzOJxxpOHEB9ePaMgWe2sqgnLYmZBM7ZEXAUPfKSgLXqqpDAgiH4RxVLbZ4zGbTpvzdin14eWAZZfYdC2NJia_lIK5CH2whXtMELAD7OvZYnTIzF4b6IkbmjKBd6wH1pdfNjeU7XeEJWCiFwynor9ddqVwkJelo0hjw-Z7v7i-_sc4K1R_W30l7pxAa49Gv_QXApOKL18XN9jAbHmW0Ar6SoJFO3tVOIpUNoPg4DDtgBt7sCY0gcvI54m7tNmRveos-xhJmpNbQMPFzBmqMF0DOIbcpvAV3AsUnhw0-3qIIsWYp3GbtUWqnxMW59MyLIUodduq7LgYAnPWdH-eBqI_2W2sExAlvExHmTn6K6jnTQd3shs-aT-bcpPjdJQdgsIPBaRpUcE-3bwAV5L9CBKIA_oztQRGkDoryIldv0vJG1KkqbR3MhpnhH23wcQ3xK5evDefEtKj_N4UgdDKy46dFEXf1eCKXqcoNmzFN_NkUYu0abMliAAu7hfjpdCdVpKkwyWxbpGgufMeWNaPm4hj7TXGfyEV4jITkFhl7M59pwUGFZ4Ra2lBkF4RmpDgj5pfpYJm3aHa44TqM80QP0xGi68TpNCypV1ajxue2Sz-fNPvnNHIxLIhLfV2q18ftqLn8S8eEFOUsTWkb3yb0WyB-SdwLwL22C51zlUlhJY-WdvW7u4H-RxhGrGhV1SybZs8tlAuGde7-Dp2fbuoKjeIUxFOD_1jw0HEINdU7MBJH8_PoDSf-llDqPkj_i33rX7gh95Z00t_UgFQYg8F1v5TdWgy8kYZip3uJWfcNkue82jFv4KgP8WpsmojbFqJ72l66hzHHk2-kQ4N1v2J9Ekiz21TwWa3qmEWhm7nXnwEYGesBaNk4CB0uByo-eKt9MSx9Je7Lw59yq14MOolxQnuwHelhNEB6VkJ9udm1eUBCL1Dqx3dbvNlNJrlh150ZY8Tko2wcWMSAupnss-ql2VRsCKaF9EZ6k2Jxm7K-uDphd0GP3ubxSmszospbx7tulLjy4zxx1_1wOGGvFv0ui1eJf9M1NjvNW8-iNQyNxMjRQ1aLEn6jVNwuJs2LMlFmiD7i1DrGWiVmwS05xQfSGQlMRKGQz64cGC8C4-Xfxui4VFs3Lu601gr4lREUd78TVsTQkAldNqh8zm_R8XWEKfHNoZUAYhcOfOEeBMioGSeEvRm4X0rHNHyeVgHprBfcvNCLrXQFpCBMtE5-uXudFv7_V6s9MeW2dEYxTmpwXBme3jMLMecpQ_CYyHefX_AHVy7tlQxT4KdtTmmjsc7UnmcHfqQryokGX8vqY4Y8iaOzUTpP-mNYEF06VSVCpVXZk-YhGjMeYjqIGTKiTQuym65U1fIODPdOALGhViAhXuv1HlUrXrHg="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"0736\" \"Effective:\" Aetna OR \"0736\" \"Effective\" Aetna",
+        "results": [
+         {
+          "title": "Hip Preservation Surgery - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0736.html",
+          "snippet": "Number: 0736 \u00b7 Policy Applicable CPT / HCPCS / ICD-10 Codes Background References \u00b7 This Clinical Policy Bulletin addresses <strong>hip preservation surgery</strong>, including: Femoro-acetabular surgery \u00b7 Hip arthroscopy \u00b7 Pelvic osteotomy \u00b7"
+         },
+         {
+          "title": "Athletic Pubalgia Surgery - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0750.html",
+          "snippet": "The following procedures are considered ... for athletic pubalgia (also known as core muscle injury or &quot;sports hernia&quot;). CPB 0736 - <strong>Femoro-Acetabular Surgery for Hip Impingement Syndrome</strong>..."
+         },
+         {
+          "title": "Goodnight Nobody: Aetna's policy #0736 is UNFAIR and UNETHICAL",
+          "url": "http://susie711.blogspot.com/2011/11/aetnas-policy-0736-is-unfair-and.html",
+          "snippet": "This is what they said: We recently ... concluded that FAI surgery is experimental and investigational because <strong>it has not been proven that surgical treatment is more effective than treatment without surgery</strong>, or whether one type of FAI surgery is more effective than anoth..."
+         }
+        ],
+        "result_count": 3,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_123365",
+      "args": {
+       "query": "site:aetna.com/cpb/medical/data/700_799/0736.html \"Review History\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtIQCs8QAWkUfRMhyedZMi46IQvbUsg54UcY-UKLd1AaDt621MFVKZWbpns8jI3Xfpa6ESGHEdRWaC-ydGrSVnyGlo2BNWb8jtAqMh_y_HbzGw4hUjAze4oHazFqoxHCC7WeeTb2KbGxs2vddJ28-Xqxf_IlHzFb7LDMQLCWVSJLftTEX4k6HRYOoqcbtGYXbaOR77jHNHTr29HtLreNL7auqb8iO6tUCQqArVjPXuKBfVUiZhZm8HTZuqjHCD7gYb5uOLTOfdfcpnkQKeH_hNHu__S5mwhPQhprwtycSt8aH19_uFJSM68AiXOa0yUmTWcXVu-1vrGXBFTyJAUj_6GO9pgi2OKIahnidg6-2BpQfHU1xqu1rBgO9TZ3k7bXFfqmpYSZZuVS5MN1oLqtk-8wC_B9s5fi0a4_hH3LaoZfHFhhbW86lP8qtGxx0InAL8iqiSlIMWYcigNT_3aCB-BMI6otChaf4ImhV-UIulxxoFFi90OyMOqamOc32AaMNa_M-zZEpRC9dPSQEbYL4dOYk-bj-AO0QljL1h1N_BIoNSbY5KOuBwAHOoTZaoXw7G-No_fDJHO_IrAOJEOTATEs0IGVqugBXs_tIccbt8pEF7_if8LEBePFoqXnmEZMuOyu9Xw9Pb1A4rALLW7UdHoRX1KDbOnmVO8CY8ogNAcHp8KVqZE5FNjDJOUIcixeLG4Z7xXFsLv12nFD5pdP6lzsfiiIOp3vEkXZ1FtBLmPS2JFws02Xd4FvKKtbyfbtvLv37UxSwwCSzSUsTiUdYuEoxtT4uY1gUv4fGYFtpeSf-1-zMVAnyX5VLyHeO-Qq7NnBWd9ze7K53VaCOrjOC1u2Y9cxPfFuCMpsV6CEcpYBOAXxutRIiN0tFstvlutNQp-b9rY4-OSl_FbHSCAKR1fpQ8bJBzDIk6UIC87HS3z1_P5D3DuLEClA93_4ufG9ZdLgDlmdvHakPfB5aIiKDvDzSLfgkIvYjzrEZQ1DhK-iuhAHBrfJ9Tp2hgIotLXDXoT0Zioqw10e4ZiYc35_kSp4wsimFaClLbk6DG2ibgfsSreTcAMvKi8ljQ8-GvAzs9QgjJoDmeQBmMeQ30_q5ZN1f6zAFN0HLATSlObOhi_CmRvZJcdEdo_E8YllI-Z7azbZAfQA8KsdGhIIJmMXCC6QUSnlJC-66145T4Z68NpUaSVihe5Sof9LtQA22n1Cjv4oWcb16-qe0jb9lJ8OshzfEovUaM5Ig_X1ocWnZYaDOXjBk95hsbsLO6LqSashaoJWS8xkc0kTO0g7OtExOnBgHwBahCWdOR7Z0osmZhTwpPVuekkzDA5LspVOcMYgeSo9bwNGKFKemr9CPqCMEEbfTljT2xYR4rHILCqjuh8pbzzehaN_b_pTCLo6QMIuYL0BVTFqKfVpXM4s4yK_DwcY_gNfH-eusTuuEd3Njkx1evPHn3S-FiLvZiaWUMfeQJiOUNq7RlZi8M2FSi2_8tLhuVdW2Wx9sct0HmKctzUSaAB-YZDclGzVoJD2GHJOkcBpIqSTBcqK2VttdPSC-wJ39M2lOag9oXCxrn9x-dN0bo3VO9w2mCpWDIU0rDfO1yvTyPkbQUSl6YyyaPj-wYVi9QbLGcxK0g4z4P3q4gkNzT8zhM18BhJceA2gZU8Cgf21HGQfQakolKPSJvige3LYFibMEHKncfcy4TMeu8r4T63o-QDIN1cXIZtV1qfoCaQdmGvcMakvSyf-BWX4_zva5lrNgy4T1CQmTCAeoHldZLgT96CSez9o1KrLwAm6KUnDW1SIt6e2vCH1wqt6FO-sKKQlTe3E-uKjSe0dag31SrF4G-d0jr5qNSM3yzpFz3OUftas2XIMuprWGozez2zRiffIXD3lanTdW4eM_PiYIgTu007C6nlqE5uN1tLakqI_1arv7_7NK2ACjthk0_x9IjQMimYNY1oFjv0xZQZRvdCbXbs8sc2UlRl6CmYACxauj7QyY2vk-JF-QuRrXAKQrX1YgxoJKrUwbUttADFwSLqx21az_EK7fY0DR3CgQs1R3B9p5jPoRNVF-g4Ex-D0WWQDewemTXmmNkJW_F2eaA72rgnGICn0emLag5J7FmfatOouVQpCe3Fr4Pv7tacHnKV9isF2LZixH2_q4SX4y4sWbW0BbdksNxtbrC5kBgU_PiPRJ6dyDzZa31H9zbcmKf0O0TcA5nZ0wga4UZTqEj4aTs_dKGZy14gNhW1RUezA2FUMTE-il4nsMkf0MPvExgXbEDQKuVsjBWxToQ-k_0yuuXIly7ri2gL64eb7cygY9dUtB8Jb4wLxUTcYDhtpQ2a_I7wbLp1zlJTZTi3k0kq5pz_4q44pq9DqtsquIZMUJzpwBJLpx4o9ejTlaarXl73o4wqrbZO555VT3qx-BoADFktmT-Wvlp7SS-NjhQG7sH4tM4-3VS1vTBsq_N7aVeyDr21KsQmnV7x21YdmUi2zIf5CaX8ZnHLZTWpG2ymmadybyCVFDX_s1OvpMmYN3nzcnCg3j8GFqa8UV3udjRsDr8qVNjhxRgKRUv_HhMSX-StsQglb2yBpXfTaOGr5joA9yEzTHePONJnfiEOC2FNczq6bY74Bx9NcsXUs_GvkifSqSHkFbKqP4be0afC5ZGPzOfD74wTc7XBXiEwlASGxRXaaGMzhcLHZnrQl4GUjDGvAoyXuH5Yk5kNN06KANOcwvwxJl8fC7u6rUjy3REGYurccElZNm0fV75NYbrUn87vr43z6TgYANerjM5_QXzbljl0_MJ_VSAUgne8xum7IQ9a-0rwLR6bD9vE5uWiYQg0S_Jrw_EnKAEeeP1M9oiQ8"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:aetna.com/cpb/medical/data/700_799/0736.html \"Review History\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_197725",
+      "args": {
+       "query": "\"0736\" OR \"Hip Preservation Surgery\" site:aetna.com/health-care-professionals/clinical-policy-bulletins/"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtgECtUEAWkUfRPlcAT4NnpZqwGbHncHX82nzcnPXsYO8jv9PwjiyEmhEAnbtdaAW5ynU4j9-rpr4Ogj8lZewA7fq-07StrgKk_y3QFutNyCft6j9Qp58XqSEkPV2ntQVbpuRopiLroO-j-LcEcNZKuRPgtNsl5zslMJl4A9flUzfoxI5I0vyk5K3B02ex9-Qgy-OUH2mUdL_AGFi3uv4eQ81JCDQxfcymEhA6o_EZdZUajlqEs9uahFnlpd9YBYP0OwJzaxNNiZ3vnqJRb7gxNvludoa6EskYBS2T_Z25o67KAp2uMw7pYpr1bVGsIYObW0l8KYUp-kD7FIG_wW1Fzf8TFbtkg0YgxjDBBRzjZpvfwzxwhGJxQfgEvmFD8FexBiuP39zJL1VG2X3ajXIgCl8lvXp33NSJmfODqaLe_qn9RgRGnyq_SuVpf7exQ08XwSIUKSZ4WCb5XV14GM3VgOd9AKz_xuGrq1lS4KGmrMoWoZ262Ok_47cUV59J9I-P7yQ3Qnt7d0-q-T0wzK6qD3b36I7Rrij817uatkom6iBQdVhcE4NHeM8Bh-l4OkbJOi99_r9ypkraiKcC7CfStYQ0cGMATCnjSMDqtHlnrSLXWNwuVm1oRQ9U5m2LBsmqvbE1Y5jT33Hpm2zJuNFDsNDU38ZgA7J8w6dk25CTOGAkb0uOJ27Ihn0Utu_CgXkQbVgYmHCwMYKBMrNhKCANgyIbtkORhnNehGD-ss9hWezvC4OGM7NQ8-H5OQCXDx38qdslb9meuzoASfoSnpcuK1-sDmNM_vwNXD"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"0736\" OR \"Hip Preservation Surgery\" site:aetna.com/health-care-professionals/clinical-policy-bulletins/",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_82445",
+      "args": {
+       "query": "0736 \"Review Date\" OR \"Effective Date\" OR \"Last updated\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "ErIFCq8FAWkUfRM8LwL5ycrTkmOQ3m4uJdn7AGIr6lsdIN-B7CAFTAQ-QNgAaY4VxslMcNJoIZhvFg_IO_w2-kWcK1NysoKDNqK-iACWXC8e7Yf8RZW8Zwi_q2tno54E5nSPqPFxNRqszMUMm9LShZoGyAzghtrHMK2Fwn2-mXfAGLnk55hc4-4P9znxNPvnVArhM_tZEYQ23rPD43rl3Sy0DZ0k-hovZHcAgHCHJXbthFqWeReLaiiEujI3KYrmKbxu1g4EffDCsLOnyYi9rDe6oLoJ8edsEbQH7-xOJMYLLfhFzO5_NorRDedwnvooPrc13SEyReG-ceQaEnmbwTypv6cwbKt9HCVMuqbMd4EH0hFhTiwdkJnu_D5VhfwMLgwWMmFs8cZY9_0Lz2hTqZEtX0QrNchEdt_9Z19t_e6vOmU2Dy9iGDaX6BKjlnsQGxEwvw_omuPHEr6KEJCNCc05qif1kQeOFcqhFdEqv8NSW3w2NiU5_k5hnFXn4S-tulEAoQIWsb_06LFQzm_tdRHqAtHwSEaMijjqNhcd4FdNmoRSlRBS1cRMGc_OL_A1Lf537NlLXMYbgKrnC93yXnDXN8k271c7KoK4vTBptkn9jT85qxPvzmS1CR1leaoscOu8e1o1IOw0dqIqdiiKmY7j-nJiEVhW9COh6tmdKhTAnZ4UeWpSmbBJuxmUr3umiLYxWiB7s9PjV7qP2_4Y60jfb8brc2zBpB1MsKwbsvHOexs7nHIlP1C8dP1FLGBB-1MtVqNndgQKdExTlLGELvRcOOWWNwdOyFn9BOVV5J1KaHSZ_8Wd9aj5D5rc4eOTgt2t7cnZPUfPDZBHAbXL3focpKm9L71UlULoRIqbSekO5WXSLnAHS8DATXT7yusD-MNBXDTTo70g6hO7c21K3ntguH2H"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "0736 \"Review Date\" OR \"Effective Date\" OR \"Last updated\"",
+        "results": [
+         {
+          "title": "Review official source change: sg-customs-crew-concessions \u00b7 Issue #136 \u00b7 oelmaghreby-creator/StationInformation",
+          "url": "https://github.com/oelmaghreby-creator/StationInformation/issues/136",
+          "snippet": "<strong>The rule&#x27;s effective date is recorded when the authority publishes one</strong>. An independent second-person reviewer name and review date are recorded. lastVerified and nextReviewDue are set for reviewed records; records still at research_pending keep ..."
+         },
+         {
+          "title": "Review Date Sample Clauses: 159 Samples | Law Insider",
+          "url": "https://www.lawinsider.com/clause/review-date",
+          "snippet": "The annual review date of this Agreement (the \u201cReview Date\u201d) as required by Development Agreement Law shall be <strong>approximately twelve (12) months from the Effective Date and every twelve (12) months thereafter</strong>."
+         },
+         {
+          "title": "What is Effective Date? | Example of Effective Date - Fincash",
+          "url": "https://www.fincash.com/l/basics/effective-date",
+          "snippet": "Therefore, for policies and conditions, such dates are <strong>not regarded as an effective date, but last updated or last revision</strong>."
+         },
+         {
+          "title": "Disclaimer",
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/monitoring-programs/medicare-ffs-compliance-programs/medical-review/downloads/mm8036-manual-medical-review-of-therapy-services.pdf",
+          "snippet": "<strong>shall apply to specifically identified providers on the effective date determined by CMS for the phase</strong>."
+         },
+         {
+          "title": "eCFR :: 38 CFR Part 3 Subpart A - Effective Dates",
+          "url": "https://www.ecfr.gov/current/title-38/chapter-I/part-3/subpart-A/subject-group-ECFR429f47d98271c40",
+          "snippet": "Except as otherwise provided, the effective date of an evaluation and award of pension, compensation, or dependency and indemnity compensation based on an initial claim or supplemental claim will be <strong>the date of receipt of the claim or the date entitlement arose, whichever is later</strong>."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_125577",
+      "args": {
+       "query": "site:aetna.com/cpb/medical/data/700_799/0736.html \"2023\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EoUJCoIJAWkUfROlusBtVNNS30xIa8v8MMIzyLfwOEaqkxY4b19LHVj7BE1x_cPbVBgDIa-YWhgLG1tGI5au8BWnHXCucIBAIod_2Hv4illkWbXlrFY0yPs8ocevUjVkWPlaY6TIBCldpIBsAF90hXqyN8Ors0bnBSeLh0sQQ_WyWetFuH1dVtlDtIlSTNcebX8MXIoWfCDFxhqJyS4Z_t8QmPZBP3GYoBBVRhFUCpmfBD-uZWdkW-WMjO5Se5jsT6CnpFQSauhv0rfMDj7K4kLr63AZtL7vDGIRl5g1loUY5-DJvii73jSg2oRytIp5GvFweF9JWEdYbgPkAcYkGIUUGyU3AIoN-sSdzXi0LeM6KleJkNQlFxf3TM0vitTb_slkKzX7jlhLjzJSAeKyfldYorHHJ-xnjNyuOlAYI-p24_w9b2PJwzjTC2ZmmIywzfgKNk46qAb41i88wd9pRkl4M-qhpbNdncz4sQtxMX300yCbS6OjMxsgVl-XyO8wdA7YyES6yn28HXfQWcEfmitrhEsJ1RkObl0-MHxT39ag04gyEi25ohys6j5gufF7zs0jPoRS3tJiW23SanL3Kr0mleWBeD7ZeyfnQvTzeLEM2CTF3PVu2Gi7a-dhVscge6wJwc8BTduN2LgwH2XKL-Ca-vfofIp6EkOJvl3OMHjL_QyhAo0nmuSDj4xvDehuOrdyrGvMxd5L5mh0XK1ZABH089fZCPAcRDq_V2pxZIpeAAc-SvD004jhOhZYBdBDdDeBCKyLRuxUOuIEDWXkeESUvhHnFrBiBf_jpyIk7VkU1XWa1bUByzTldtTzu2UMNXVl4uFbGXVWhd6RwABvIUBVmcCHynrqLy0u6z4BDxgqEsPe8KpMzK5_kQ6vnaBO9PQvr1mPPQxRW4YjlEpAZW7TkEQbkyBK9o2cXoMiAXdT1eaiZOQEb_pOjAFgdM7sZkgjfxLcfYhWc_-NCBw74iKHfjlyO6P0KanuPZnL22fZGP4dHwDFzsFjVN-nhdJd6Jb1FGSIjPi-01gAh3cZiQfnAKUZ5t_bvJK8eHlk6OvWkhDlJQajpvR18JPX-BFeJDbeIBzpksB3xbbXBr97TXsh4_ExfC43_q6n2V0vbECQutJs1jicwoxmc_qzS8LGUAGXyETPQtUv0OwBPjppGosZH01HQ9FZi25wEHNwLFRqC2hvcD-Yj2rD7wu7vKEu6bX2EhEyzemI-BH_VZC3Zrj3A9aMz-s659TupSdNrrvkXVLX5Zb79y6ZRMTSOL3dz-YOPhCeRQLG0MxPCVxZ0nFlYhpBC3Dx10bcRBZzDgyQyEBkHylSMyfrMxSN00EIEwi42KKVt90if5ilvCBXQ_UPyLtD7I6VMcOS8hBIw0SfIyimD_wUM-eii3P-eQ8h0xEGClAtpy75pgzEUlC-tfyD6cH-FSpmgQ1LGsBGenq97A1uV1BSiFi0B0XkL5ngezcg9z7Zr5fFIFR8cAJQJBwy45oyB1D6HGMIFP3eZzi0hpgcxwBTeL-2GuHi0_y2QQuMDmYL8cU="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:aetna.com/cpb/medical/data/700_799/0736.html \"2023\"",
+        "results": [
+         {
+          "title": "Hip Preservation Surgery - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0736.html?links=false",
+          "snippet": "Centers for Medicare &amp; Medicaid Services (CMS), Medicare Coverage Database [Internet]. Baltimore, MD: CMS; updated periodically. Available at: Medicare Coverage Center. Accessed November 7, <strong>2023</strong>."
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_99243",
+      "args": {
+       "query": "site:aetna.com/cpb/medical/data/700_799/0736.html \"2024\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Eo4CCosCAWkUfRO-jsBWlIVgvK2QeZt-7cPTmWJaGtajWqQTEznzflfIEDDyhDIuV6j7HLflkQ7IO6BBQAbCDnSS9oFxrepHlOOtJnmUqzHOL5bAj02raQI2vTQ_3Z2TFLJaIQ7VWDZvyMd1EbtqF6cbGlkQYSBfD2FryIcbLWUzAO9JpxKrv00USj-ClQEKrl6tzCP4BXg7QfIoaLN0Y3lw9o-Deom2uvdwqh1_v-VnSn5oBPjB2w3HXaMOLjzI-sl_CinkBVtEfI3AKFZPf6CY7lgh9aNOcp1M_S8YFjbP23oiO6YgJfI-_6ZS7Z9zjUnnMkcYHNPjC7Uh926o60l1QHuT6rbIlByRqu0bVjKX"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:aetna.com/cpb/medical/data/700_799/0736.html \"2024\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_120405",
+      "args": {
+       "query": "site:aetna.com/cpb/medical/data/700_799/0736.html 2023 \"Review\" OR \"Revised\" OR \"Effective\" OR \"History\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtEFCs4FAWkUfRM3PojdFdQFiX0k10nE-Hkhhmj9_z38c6LudV4B3nGEtwU4w0MN2_KxWVUVIacMu48RwZ2Rzc2nBi-GfbS3vwRQdpUQGJ7CDeJ5kTfZEzZCUduWS42musIluzsJoIPwuihrlQEukM_q6WTcScEQis7njRlCCTBnEQE0N9DG5N7okixELRxPS2OJn8Uq39VdYQs69xPmeHlAxD6n9ormLfXDjQ5dDJqUyTQz4QYeog1ID0P8oLMl2TkbQA1jK5m4UiuJ6HPawCvNq4uEGykXyOVJwCKc1nyBj0AZzpDUqzHoC82Sz6BQDrOhUW7QShUrttlu2B9xg2Ztc56XECesRpeXfZJgJ3HdLNCnQWzVa5YqWYpaMhClvA48tAehPerfeI1YqGHHUU2f7qKaJkIw-cBPdSIBbzvhpuhJiZv712sZM_jmqjExRNg4TmWbH7qnHuDp7QAHb8UeyKmD3KOZwkqBZUePUIfRl_0SHkp7L_OKrrNHwnB_8hQdJntIwzJ5vSOUTpfbhOwhcYZjQ7K7r6fm1HUQCc0tC6k57S9nU3QOXm1ZLpzrabceFp0FS7IvKeO9qsdGcqU_5UyH7Ywfdw0h-aDrRYZOiDJnkEAw4Be5XAqxPJQWI9vcRxgD3FEukCAs2tA4TZvfvn5er9l_E8MBnHZ1La8vdHyypYFoO1yZk0LoGKB-vbxTjGp9FC1MFAXJMlnTR8wtLIebeaADVM80VZmdgpvL4qW0U4YLdX-v8S8p23iXuvRq7EhAl12aCx-Ni86tbK83AQL5WRgw5DHVBtbZvhWx4UEPx9ygzTvY7Pz8GHpeEP_t_qbP8IoUKBHpPWPO5rCPCnO3Fq3R8BxWoKhq-tXvq3sjiX67FxgcD9fxMTBZ3ywqLpwpgv8TuBtrK4ca-3yp4nCrLKBUVVnPl1AMLPvFpC3XojS8vG5JlgT7UJvrLv-ITA=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:aetna.com/cpb/medical/data/700_799/0736.html 2023 \"Review\" OR \"Revised\" OR \"Effective\" OR \"History\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_205326",
+      "args": {
+       "query": "site:aetna.com/cpb/medical/data/700_799/0736.html \"Last\" OR \"Review\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Eo8FCowFAWkUfRM6mHr0glaHqF8elQb-0BekI8NTQQSTf_NwcNhIrDUR1BYJ87z2u3xKRJI1EeBMZoIchNzM68Ykre5QTlm2QR7pWSPlASRJVsxlbQKb5jHmKDMmAUU_MlubMCLGVozjqavw--rA7bHPSwx6KnXFSYGH04qcApM2rjXzqXcuuX1Q-57VH3Uu7P-8aUG3B2TAf_STJfuCIdDqbwZIE3-e8bjH0CXwgzfZHYsDCjW6oV46K66ui7K-oGRgK_YGXDwjmsLkajEBRjOXTk_IwJbFvWYPTR5azdGRGrvp2fy3VlE4vmd4Txq1bk95OxNxSIMunwOLRMaQ819lbFxmpOs9TuSpaE9I-guT7KIURrjm0is-SZIxaQrzF3KzRp6GdciOeiNUBy4ieV9SIW71cyRzml5N90Ej71Vl6mRCt6E8di5PtHaK-cd9A6D4NnHeHybI9mS565YUHsoMiqX4Vr_JXp0ae3Wi00F8vrZttDgWtl28GQyTVSnfkhvUwrJq8_4iQbv0UPQkkz2CR92F3IiREE-Xo9CpmOAheTnW-cGrF-zePD9CjlG21Ifi6yOVI4KihOjNGtC96wLC4Uld5xZpE5KANwMkAw-y5mPkKeqEZH436VC1TSwHriKKfHjjqwcY2qgXIt6UbveQksk1sMiuRyG4DorivJvKHM3asK4nBzAZBJNJKBu_i2Se8bZ-JXGF4MewOxbHFpN_SxN532gZB_0sxlF-doiij3u-LnmRLvw-5SzzQvySP5zuF5idFi0He0OgF2tBg12VVNvyvvlUwQtkeWcxWWh_Yp89cE39rvdDg1EBFDK2POf5mHknFx6oJI7Qvp2X3jA_2V-9uSAPD2c66zrKLF7f1w=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:aetna.com/cpb/medical/data/700_799/0736.html \"Last\" OR \"Review\"",
+        "results": [
+         {
+          "title": "Hip Preservation Surgery - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0736.html?links=false",
+          "snippet": "The CRD noted that most studies of femoroacetabular surgery included in Matsuda et al.&#x27;s systematic evidence review did not report confidence intervals, and only one study provided power calculations and defined clinically meaningful changes in outcomes."
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_87569",
+      "args": {
+       "query": "\"CPB 0736\" \"Last Review\" OR \"Effective\" OR \"Revised\" OR \"Date\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Er0ECroEAWkUfRMLAVOvl75j1ZGCAuth8mYlmeurVi5EU0OQgQ9bmTvxc7-wGUpNY3mxi6rFp47gyZoUIluuCY-2pf59OwllApSE0quqZkFLGlFJ2v-sUv0HRwVi6fwM0LJ9GD__fpPvAqUy6_WZY6oP3I6Zjry7OUn20bTC44-GjCSl7z0Y1Ovv1B2v44IOoc1tROHFQBuXOR7kFJujlM9b8HnLSeieDc3oVdO0ZbU9zK_L23KPs6WLZs6s2UHcnrDWvtPzFjpiJ_T6LejGMUiMooC1QjoN0JkOCiDlLYUaVgbY8n5uOjV_MaDenw22Eb7rVy8J8KJbASETYG0STJxPsOjk6pe_wtolOaTmC-teRLGEP3IPSGPP_3Q75Um08IZPn5k2m0YKQZ2XtxNaHCEgpxccUwjjphNhZWuYlvqXHc18XdisaWSOLXSA0ZC2OeJvnTMCMrgExtwQ36j42Z5usN6iuX7v2VcWEpOl5hIQt0qFHcYiBwlX6la1mzUgsnrLoxxIp-fDbJWLjc5VBM600onZNh0PSJJNlI2o9bk-cs9dK_nCiAvnOye6d-Utkbwrm5ocZoGf0-JMB6lzfAmKjgo7LOa2yzIFKavCmGQ0fPbgosYbxAnZM413zYes7L8FOuXJiBDjk4982ZkSNUkcalYHxj-GkgWByinqHXalip9-dEYuOqvnNvgnGbs4RmbJuYy4Ft9G7hp_E_TvQ0xH6ZX8hT8LDu_HXDLl8gjmhBaYvoQJI8KJtKlNjc_3"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"CPB 0736\" \"Last Review\" OR \"Effective\" OR \"Revised\" OR \"Date\"",
+        "results": [
+         {
+          "title": "Medical clinical policy bulletins \u2013 Health care professionals | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/clinical-policy-bulletins/medical-clinical-policy-bulletins.html",
+          "snippet": "CPBs include references to standard HIPAA compliant code sets to assist with search functions and to facilitate billing and payment for covered services. New and revised codes are added to the CPBs as they are updated. When billing, you must use the most appropriate code as of the effective date of the submission."
+         },
+         {
+          "title": "2024 EACTS/EACTAIC/EBCP Guidelines on cardiopulmonary bypass in adult cardiac surgery | European Journal of Cardio-Thoracic Surgery | Oxford Academic",
+          "url": "https://academic.oup.com/ejcts/article/67/2/ezae354/8011475",
+          "snippet": "To ensure that guideline ... CPB since the last publication [6] and acknowledging that most guidelines become outdated <strong>5 years</strong> after their previous publication [7], a timely, complete joint revision of the CPB guidelines ..."
+         },
+         {
+          "title": "2019 EACTS/EACTA/EBCP guidelines on cardiopulmonary bypass in adult cardiac surgery - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10634377/",
+          "snippet": "It has been proven that their use can save lives, time and money as well as reduce the rate of complications [115]. It therefore appears logical to assume that the use of pre-CPB checklists will have similar effects, particularly with regard to complications during CPB. Checklists should be used in an appropriate, diligent and professional manner. They should be adapted to the specific working environment; they should consider emerging technologies; and they should be revised at time intervals consistent with institutional protocol."
+         },
+         {
+          "title": "AAPC CPB Updated & Revised (2024-2025): Healthcare Billing & Coding Practice Questions | Exams Nursing | Docsity",
+          "url": "https://www.docsity.com/en/docs/aapc-cpb-updated-revised-2024-2025-healthcare-billing-coding-practice-questions/12182773/",
+          "snippet": "Download Exams - AAPC CPB Updated &amp; Revised (2024-2025): Healthcare Billing &amp; Coding Practice Questions | Johns Hopkins University (JHU) | A series of questions and answers related to healthcare billing and coding practices, focusing on topics such as"
+         },
+         {
+          "title": "Mastering the Best Practices: A Comprehensive Look at the European Guidelines for Cardiopulmonary Bypass in Adult Cardiac Surgery",
+          "url": "https://www.mdpi.com/2308-3425/10/7/296",
+          "snippet": "Submission received: 3 June 2023 / Revised: <strong>5 July 2023</strong> / Accepted: 6 July 2023 / Published: 12 July 2023 \u00b7 (This article belongs to the Section Cardiac Surgery) ... The successful outcome of a cardiac surgery procedure is significantly dependent ..."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_161858",
+      "args": {
+       "query": "\"Hip Preservation Surgery\" site:aetna.com/cpb/medical/data/"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "ErwGCrkGAWkUfRM41szy5fcmCAGu8vQZFvkZ0TFAAd_Jp3Km3lgmt6D8SVGB_iA4bIENYU60VOloHfCOkarD4rN7svqg_Ot5BQjtq5QaLj5R65MtJd1GL80vKQXncYWdcyWSzT3cwlkgM3ZjItLmqVAeYBLMQWe2-gzP53GAdD6ypjKKQ_KKRDEMSxsuFuiLDesGwTf4yewkzh2JYaOQFBds64040-IqrmAnTYp0dMNGPB2H3hbI6Rg_CllxKZDk86OlIoCXx36WtRZ8dgKXMFChFOrO61FcnpYzNIvmf4X3VpSFHKKOKqXMntETkE1kx2FyuEuYWfh1ngQ-6lPgoJ_tjZzKHczDIhXqDQvUeQY7_dFhiorZFsEZEYkipFXM9ThDsbquNm21N5m5fHj5OQTZV73OBjtIRQmGfMU6TLgn2m1TI0xMiyo4jWTajph3hkfaQAavzXG3NNaQPbHZUxX4JgWG3mV8c9-Y27JK64Zx5GnVq95TzVAkblcdaMepwDSWQGopTr1gkwO0c3uQ6giObl_aUUXRHMxy4vC5E-0597B40DLMShAtr0MD-v6j0ipQj0GuVw2Ml429rAkKgCX-9tEx0XAGKyk6_VIsInUUjV0ryijB1xl9kus3fQmGnpyDyrUHSzQGV_T5R0TbM6GHpRx-6O54Ih0Vt1VLT8MeUFnPDC3AhzZrO0hgmly3FjQ9ulqAR4iKOudZq24QLndJJnLKd8FqOQmMt9iIqvSSlWtm9jWEUukin9hztlbVlPeLsISKds-sVPz44CLNKgYYX5z7lWIJobwKT8X8QbgJvVEGEnkLfH3VJpTXQfi80c-JAqs-FRQFLfQ_F6h0oyWZfo2ppM7qMwrcjz-csK8rG07_CgK5jIWl2r4zrDiKjWk5vc65dGAQOfOIsgJLRheP-WOcULffJ1rcODPwSuyEIRsuW6vvSZ1l0ap5yVh8csyG0fbPcIxbZCSIVC_UvyyX2llXenXdqBrm7TzpL29UcQMjH_wVsJhKCiV-6XGnhxgrseXYi7ahirAuGgNWmlUki1lmcw8q4dvls5bhWY9tuUDRU_wt7trc2uzyYLnBzEDoVucjH4UufmG4rpy2"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Hip Preservation Surgery\" site:aetna.com/cpb/medical/data/",
+        "results": [
+         {
+          "title": "Hip Preservation Surgery - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0736.html",
+          "snippet": "From the same incision, the surgeon can also access the hip joint to debride extra bone from the head/neck as needed. <strong>Hip dislocation and debridement</strong> are usually performed through an incision over the side of the hip, where the surgeon can dislocate the hip after preserving the vascular supply ..."
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_227751",
+      "args": {
+       "query": "\"Last Review\" site:aetna.com/cpb/medical/data/700_799/0750.html"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtEGCs4GAWkUfROtubCJT0W14CADPaJaorMpwzt2F2La-ZP18dX6YYlGCKFCO4rcollQH49WSIti_jDSEbN6Q9SFONHzQCxOthn4NoaKhtRn--woY-2MQwOAtXUcZwOioIHyJi04TWpv_RjbD0USHfpCevspseYSMfi0wQK8WD4-Nbo0qK8O1TUyY72MsBmRm_ox4YcQLMH6ZWexOUHSzhLKx-5r7wkR4NrX3sqvep9JtbSywIBKhkpE5RpvepnPjqbSpzH9YSUlcMJ6WBrS3ucluHMYc6IFFdphGFhw6YrJi-2ehwT52X-ree0nqrbHFCE6bkborRRfcHQUEsrEefJZGOuwUVPIn91BhsKKxeWHz18MQ5t0Ec-CD0YOV7TTiV6wNjYlEuOiLx4iN0qlmwoCg6pcZ4SCd2aF95RrpXCodrht1MXXJXMGy-9KDWLFDkpm58Ty1E2mLN5jT7Jn0oorCUipoJNNg2xsYMzO4s-zirKiGhwoPeBgKJFfZxc0qvXfzpa2GZ21i2NQGYxPRfW8l3L0WV3wOYsYYkk37JoQDAtj5MYlcp-ypvtJft823R4pwcoQ6RjI0eEA9ZLFHoWwgn8xouSk-gid_zPC4V3du-Tax7C5gV79d4qSCQUJP2lclvFUlsoPlJr3BilyDGRsb0Klyh3xKekhQaBPNVpzx8_chi4rbMYn3RUsHlo2xAe_K3EPkP0Mhv2CG8qNVIquIuRIujicsq0KMnAUrcz5g-dJLS1dOLVxv3C30EfsQ-uIDKsRSqKGKVIFSIhZCJq3-clnCQMg8vSLzEhZWIfJ9OZILd7nGGUtwF7-lED4mFRm512udaCFuoWYQWzw57BX1SgdAJNzh46PH11kln79KLa6Lm70-MAlgTVExbbD2-RhSpqb0CCdr7Ut0fvn2_EGZRuYmyH7LsZEDJ54bCDSX7zbEqaqasUX93dbVkaAdkU0h3OTIFNNSSuUgvGC9u9ynCPou1SAw_uyD5TXedKmd7l6ubZCIfJgcM1f03x5psihnJyy9oRKlfolIF7VBNvVzhZmfC8SeZhCcoN4OghRWnfCiAYrBT19OL36UYeWkLldg4sWXzla6qwGyzDYmfFJHPi34zLElg3R8C3HTqv1MwSs"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Last Review\" site:aetna.com/cpb/medical/data/700_799/0750.html",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_119160",
+      "args": {
+       "query": "\"Clinical Policy Bulletin\" \"0736\" \"Last Review Date\" OR \"Last Review\" OR \"Revised\" OR \"Effective Date\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Et8DCtwDAWkUfRPAUaURhdmOf7ZMPeIdrZIACCFYYGwrTEA1g6952M5GNdPUDjo4aqM3qLzXrMsAELNIsBdtqp5pTJSw9-_D8qL_8SoZuJ_G0riXOQT2YBX6DgZkekfoNpKpQmyK8kb7PiTRfc_KQux2G7XKE7OPb1578pHihgb-GLSpjHWenbvW4fpgJwCzTl0fuQUMVGJQPGWpb2DnWlWG7PLPcHMUdg-N4ek6__AeLLSY3CSTNbI8wtp6UcK5BhnZf1N18PqZ1adXNmqBY_GDGQBA9Ya-ut9JZahrwjuqZQZTjK0lHmQM4YLZq54LjDVbuSiPTvEV_JQG_Jz4U2nbmmMhwKhuDOH3-ciukckyliLeqX080hWZhZ9gGpYbtMpz_adULMb03hTclDuqD7b_HnESkqTakI_u3b7m5AiWwCd2luPaJAZx74eXQtuEVVW1tpO84OdRNQRJpnPSWJA9l29nsh6Vw6KtzE8ymrUb5BylAhIqO2IAoaqxMy9womuyydJTT8A1zNIgWqEyQI7yHInlBSm3sY2G5Bi4sVqWqi9W5IW6OUz49xf_5LGTEkesFPTFmNy5iPhXxfU8bC-OXGsxqu4-6vvssj0TtO8S12Kiz3rHKaI5CiYVNjYv3DE="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Clinical Policy Bulletin\" \"0736\" \"Last Review Date\" OR \"Last Review\" OR \"Revised\" OR \"Effective Date\"",
+        "results": [
+         {
+          "title": "Medical clinical policy bulletins \u2013 Health care professionals | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/clinical-policy-bulletins/medical-clinical-policy-bulletins.html",
+          "snippet": "CPBs include references to standard HIPAA compliant code sets to assist with search functions and to facilitate billing and payment for covered services. New and revised codes are added to the CPBs as they are updated. When billing, you must use the most appropriate code as of the effective date of the submission."
+         },
+         {
+          "title": "UnitedHealthcare Oxford Administrative Policies | UHCprovider.com",
+          "url": "https://www.uhcprovider.com/en/policies-protocols/commercial-policies/oxford-policies.html",
+          "snippet": "Effective Date: <strong>01.01.2026</strong> \u2013 For a list of applicable Medical (Clinical) Policies for Oxford, refer to UHCprovider.com/policies &gt; For Commercial Plans &gt; Medical &amp; Drug Policies."
+         },
+         {
+          "title": "UnitedHealthcare | Surest medical & drug policies | UHCprovider.com",
+          "url": "https://uhg1-prod.adobecqms.net/en/policies-protocols/commercial-policies/surest-medical-drug-policies.html",
+          "snippet": "The medical policies, medical benefit drug policies, and corresponding update bulletins for UnitedHealthcare | Surest are listed below. ... A monthly notice of recently approved and/or revised medical policies and medical benefit drug policies is provided below for your review."
+         },
+         {
+          "title": "Clinical Policy Bulletins \u2013 Health Care Professionals | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/clinical-policy-bulletins.html",
+          "snippet": "CPBs include references to standard HIPAA compliant code sets to assist with search functions and to facilitate billing and payment for covered services. New and revised codes are added to the CPBs as they are updated. When billing, you must use the most appropriate code as of the effective date of the submission."
+         },
+         {
+          "title": "Medical & Drug Policies for UnitedHealthcare Commercial Plans | UHCprovider.com",
+          "url": "https://www.uhcprovider.com/en/policies-protocols/commercial-policies/commercial-medical-drug-policies.html",
+          "snippet": "The Medical Policies, Medical Benefit Drug Policies, and corresponding update bulletins for UnitedHealthcare Commercial plans are listed below. For California members, note that the materials provided to you are guidelines used by this plan to authorize, modify, or deny care for persons with similar illnesses or conditions. Specific care and treatment may vary depending on individual need and the benefits covered under your contract. ... A monthly notice of recently approved and/or revised Medical Policies and Medical Benefit Drug Policies is provided below for your review."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_124621",
+      "args": {
+       "query": "\"0736\" filetype:pdf site:aetnabetterhealth.com"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EuUBCuIBAWkUfRMtrMMpJon43S6o_we-JGW8IfRk2kfNro67t7mYn6h7wEiRkIwSgz0e7XVWejTO0vhyracJ_8hItnXD0hXz2emTueTdrdbxPTW512XI0VgOpKH9NiJbcg15XJOX3vQjWpvjUS76ZJhItgXd0UvN4IKei7a-l7WjCMF9RIGgDjjAe7Y51xvNKUq_GHVpBSnN8DwyYBE1K-B9DeHQFZl2bPjnNCog1hxngtS7k-VO2puSYnz0ll0pgrk6P95h-yPJnFhm2Q1TDZdV9heRlgiqwYGPJTN9OBdGh4lMIlXEXg=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"0736\" filetype:pdf site:aetnabetterhealth.com",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_105172",
+      "args": {
+       "url": "https://www.aetnabetterhealth.com/pennsylvania/assets/pdf/provider/guidelines/medical/Medical/0736%20Femoro-Acetabular%20Surgery%20for%20Hip%20Impingement%20Syndrome-.pdf"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "ErgDCrUDAWkUfRMpf5AcgTqyfchufqaENJA47A7od_ug4QrtwlCq6arfiO0WglN2INKtlITzgX0dsYwm7DBmf4spnvRjX2ImKgohXO3l0iS1FU56DMRmmiVDJMM28X1cvGL7FmCPjqtk3DYafg7IKaHRhLr6NsD9Zr52OC2RiiPlKZ0t7Spolpd0TMc64W48jWazXVjcNADRIE6zUo3D1yFkUlVadsp-iS_blCbVhKxcOB4DOM-k_aXVtpspcccvBmLwN-zuturG_qpWHPQEj_G8zmqJHPCRS7MQnHsvBJrx1S6Zo4EW-w5TZWUZ5vjNpZocDukAnstmqtG3Bdc647ejpfzZ5CLMKEFgamW6MVuVZypG-On63I3jebrCpF27RAHOOnoGPpHMtnLoirOuT5przwXrZRxE5RHhySda4xfwgfhIvHbXCquFWY1P0T-tHNTMZXsuWAUKDpDWGUckCwJ_TxqWghXTsc3XGVnBxB9stLu5SWhabVN2khTyjWS0EVY1dPnVN7rfZuOhVVlOqaQnrZ2VPU71qy8HSLuIgeehW6Ekk-jdoZV12uORYY-pgu2u5iX5JCEGjFg="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://www.aetnabetterhealth.com/pennsylvania/assets/pdf/provider/guidelines/medical/Medical/0736%20Femoro-Acetabular%20Surgery%20for%20Hip%20Impingement%20Syndrome-.pdf",
+        "final_url": "https://www.aetnabetterhealth.com/pennsylvania/assets/pdf/provider/guidelines/medical/Medical/0736%20Femoro-Acetabular%20Surgery%20for%20Hip%20Impingement%20Syndrome-.pdf",
+        "http_status": 404,
+        "content_type": "text/html; charset=iso-8859-1",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "404 Not Found Not Found The requested URL was not found on this server.",
+        "text_truncated": false
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_126843",
+      "args": {
+       "query": "\"0736\" \"Femoro-Acetabular Surgery\" OR \"Hip Preservation Surgery\" site:aetnabetterhealth.com"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpUCCpICAWkUfRPrjrfDmkQdJqbnqND2fmX0mG2Rfu7cifWR5IEmVI3VYgHHAEX7I1wfQlYpjwwfWkjA7QqZL-06dH2z5waQNOcchy1aCzC2BhR-A47pKxCTy1ho6orKXNn7Ji64d48sIjqxl25kd9JzHRBcLAxool3MYM4ipT7KSF9SnnafY-xrWYND8_qaDrp9Tn8XNYnseE-uMZ2qrS69C7Z_ew0QQ99vPv3vduEnSZxQKnAreZEoilgeaxZoFOTslQCqdoBH59p6i7wKptcF7dRx2vRe5MtKJQmLX6AHqRqRlIHZDf16vYJnnP2qBQDtfaCT0hFiqxgprctdjyxEyXS5Nn8G5Pumu8jfSrZePt169JcbPQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"0736\" \"Femoro-Acetabular Surgery\" OR \"Hip Preservation Surgery\" site:aetnabetterhealth.com",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_61601",
+      "args": {
+       "query": "Aetna \"CPB 0736\" \"Last Review\" OR \"Effective\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Eu4DCusDAWkUfRO5kYzYbtRWr-31mFctEHO5i1kb8iLteWGYyTloBsfBZObCM4a_pYsUDXv431XcCqEJ3eCwGU6cYxZsElzri7AV0kVWVwdfC2HYBs1vV9D7Icel_LrMmL28RnOHXPZz_CIA7UHo0q6RDVt385AdBNhJUWgYUKHbnRmQjN40-CtS1uGwogOJ6KcR9f_M-OGIoV_iYxcTV-HYMmb4HKAwA0ZpBDXQnQH_9ZRCS4sRo5p6aWnYvxFbWHZAYEwtdtzR1EeKL4ezz8z_kovg6Fyn_uazCGtW1uFf07jnUpnKwIO6V0ZMF2xno9viTDgM3hOBG4y291Hqooll-N1JLQNoRY5W3eCEeGDXsekPwDaTXEOT-_q-yte3x2g6Rp5S1139MNlDo1ztS6HJy1_8ItJSb_OJekIJpt8TIEE5CGv6DBSVEmfVB5rMDTeFGy74Vh9HAvJ3kOsiCu1CxdKwoz7luMD4_I-RCZdM3W_JkA93mjBmgfTUhSk1FpPC3h_lTRqkFiSGS5cx0CIDJRRUf2cZVUt7poesctSHdP5Mno3RpdEo8RhCaIVCvPC7CMIRolA2tTH33Sg0ADraaw3npowcii2t3bSLEIitCnzncVvzvzJToC5iVJGEQ6jQKScnLZaanM7Jj4ShP7U="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Aetna \"CPB 0736\" \"Last Review\" OR \"Effective\"",
+        "results": [
+         {
+          "title": "Medical clinical policy bulletins \u2013 Health care professionals | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/clinical-policy-bulletins/medical-clinical-policy-bulletins.html",
+          "snippet": "The CPB review dates below are the anticipated start dates of the CPB review process for each CPB listed. The \u201cLast Review\u201d date appearing on the CPB is <strong>the date the review is completed and the CPB is published</strong>."
+         },
+         {
+          "title": "Clinical Policy Bulletins (CPB) FAQs for Providers | Aetna",
+          "url": "https://www.aetna.com/faqs-health-insurance/health-care-professionals-cpb-faqs.html",
+          "snippet": "Last Review: The date of the latest version of the CPB is next to the Last Review link. This link also describes the most recently added changes to the policy. Effective: <strong>The date of the original version of the policy</strong>."
+         },
+         {
+          "title": "Hip Preservation Surgery - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0736.html",
+          "snippet": "Outcome data were extracted and ... and arthroscopic methods for treating symptomatic FAI are <strong>effective in improving pain and function in short-term to midterm studies and are relatively safe procedures</strong>...."
+         },
+         {
+          "title": "Clinical Policy Bulletin (CPB) FAQs for Health Care Providers",
+          "url": "https://qawww.aetna.com/faqs-health-insurance/health-care-professionals-cpb-faqs.html",
+          "snippet": "Last Review - The date of the latest version of the CPB is listed next to the Last Review link. This link also provides a description of the most recently added changes to the policy. Effective - <strong>The date of the original version of the policy</strong>."
+         },
+         {
+          "title": "Athletic Pubalgia Surgery - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0750.html",
+          "snippet": "The following procedures are considered ... the effectiveness of these approaches has not been established: Intra-tissue percutaneous electrolysis for the treatment of chronic groin pain. Pulse-dose radiofrequency for the treatment of athletic pubalgia, Surgical treatment (e.g., pelvic floor repair) for athletic pubalgia (also known as core muscle injury or &quot;sports hernia&quot;). CPB 0736 - ..."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_130910",
+      "args": {
+       "query": "\"0736\" \"Last Review\" \"2023\" OR \"2024\" OR \"2025\" OR \"2026\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqkXCqYXAWkUfRPKLXoEnMCah-z9evM-V_SsVqg2HyocpUUrDjPU2VQx136uPEaU2ihWZxHpl5Z-M5bsujhjbHXt1_9NG3_Pv12JIjQq1rfOO5fzTFsn3M-f9IY_Tm7TuRa_ahBb6HSjknddmqLlSjx-6BCHL3EDI2_zRMVrTu-qLDC31z20ZNOzwc5Jx_jGp95r-fJwILmxFrTpD_aVA2KJOdkn42F2S9ADrOJ_y9liCRm4F6Ih5VLA73ZlR5lDZeJzLqf-kS5k4jAHfejS6n6KXJ3zDEYm3LefwIlpuM7M8cP62R4QYGov3fqNlSuJOQy158Jsykqc74ONKEao9EaynGirShIxy-IFmL-5GkoeTtyMOsgpVgu_zFFFXQ8UnHirY2qD-Ern_VoJNCFhBrZGCMGwuDXOSwuuTpCtatxgw5-p-W2gXPZyvHMDetnRViXgSprANg4pBocA96PTP4OlKx0B7v1sj3r3jOhsK8KVqEyZUsDfedvNHqCefn1S0y3Y0gTMwFqSc5Tc415Olnbmh-ItifuzMEY5-CzKDV94d-EuQjW3MzDwnBQbh-qyNeTeVrdRPeI1XwDOYRt1efLsEzxr1DktfJEwStjInf-Q_Sba_jsbURzYGIY2MqWif4oGoW7AwNPwqV1Opi2STIESt0GwE0Vi6UYq3WHBoS7SK9BjHoIrKP6fE47i3Yx9yp-EIYA_VdXwwUcTukUvZjFrOVGFizLHi27MCiUWUZxZe31DnQm5_qjdWCptsHwHRW6eBvGdklyoTzMPG2PtAs4gBngzCdymMLFCuCwW1s7GhjevB0Mw_iVKLlVa_joaMp21KdJ4YdkguLfkk1PNvShMnQVH04t1g5HsUSGWZnGY-ZSXfubN_2h76Qo96EjNIofVZh8WtKUVlaERpB9JsHRSAxN6QGESIqWy6nt9u3lx8FYRVTG0ksqtnkdYaCa5KhB-CMbOc3VMAJ_Emj5yLkwHQh48lkJV3jL4pkggAtL0-m2Atr0vqveEDCOuD1aCC1HjwfKLkkco0X3eM5bigrL8s6tuPFKrkH0Gpka2ZRjraGiEjCXbX_Gh9fT8bDj2W5aKBXZ314HFIbikQJKDOHFKZC-t_V7MBpssYHsrT4lu0h9FB4ddRZwuYMfqfV_-tmwEFWrIa3bWn18_cd5DmgYJZCRHrygZ9bXBzUnagm5okCD82soX8kizRK8K5zEaxcxRU4vrsd-Bk6UBSpvbLvQHJNIpRgKufWvRLftkQvd5Ov1xeZFrPjV-Yiz9E4XQT1JkIMT1zjTrY9CyX7ps3BBUFJTDRd7kDpZx2aiY7qFZ49AZToadSSNn6ZNll5__FCKyoknug4mev6IF3UbZLlPImxT2GlFA4i2GTM5zlG19tJRF-QAMVi1TBXxeiEnyV6wfaL_wzhfFQqlqi_ZcWvYOkPRPmaLGwKsNS9eZQXanu-9MJq0flCzSTFtjBksbvj8j2DySAZGH96JTre4MYzIfZrsOcRWIWrkosNAmOF2cJF1vmnUe5-t802VAN4_DEHxT8odbE68zPHOAyjiJjAYmMSGBuj4_Za9Y67n4hTrdk4E-w9mCR-9vNH9ceQalqvN1TTKu25mCZtvzLIxyWxPvVaa1ev4dn0Vj1XG_8297MvIpARbnwToiwVMy5AP9RqJ9pNMZNz0_sgf3Y0JuhUFzTH7tqzhYnp2_ZaG9zevx8-oGpI3lsO5qSgac_sdgq5bdIwVyC0AHhD6SojgZXQPBzB2IIjSRwDxa2auw7-RrH_X8amQM2OEkFMr1f1Ydb5cCNtklCgYFWOOsoMkyCn4d5ImqA4zSlbojFIwDkxov82vH2rMd-hYxhzLB8fyZlwwHjLgBQXEnbrAA4m-Dq1Z-Ehrp8fp9pabhPZHDlZdf45YdrOVd8SFAv6mAoqe7w9x5C1Si0dnI65wyAw0mI7frUGzMlQIXwzJFQc8HSIGqjK7APPouVwQesPefSR6LlrEzA3AV-F5aXUXN8lK7ZPYFH1_myvx93ZnmNYjjKSes3dZW2eVKklzMAyP7ELy2UAY_of4XPm4HrPT8yZQ77IeABkMyedww6iDBtukenJHi0t9V5m-vGjHYSuUT7bwP7dz_W3hbbshS3e1hY5UHgoTTC3QBp73V4IcMAOgO2HE7Cuz-TpZVn6ddMmhT24fnyGSeFxAXKX0bPqHMcPcvLf2Rl6c9S58wfh9ctndf8wVg6NkIAdrz6Jyq7sCeLs6aB15OrE8A2ignIqgRihERg40Tyal98c_ZiNZ2uBg3m7YqIkaxfto1_pOmMfnL4t17i_7MdOoYGrzLnygfQTVGPlewjyuLrGI7xxwfXZwqhDC4iB1fO6k7LLJObFRPnbUaGzskZUwSXlfMgq750SvpkYzRr0ak6aprzNbRG072jA_6Ok3ysfZx7VWpDZbiUSEj-Tq7tnULYY6taZKEaGKHI6QdGC1FlyNeps0uicYO9OywZUSwX2eNodtoESBBjLuO7xwWmrAEEOjRiPG4KHFXWECJtVwqUMoVpjGFOsbceYUyVnNAwudenoCq7ckgGT_xEx8xWkJr3bQ6Ff2tEVbJwFzpzABAUyCRXrEnZ-upqIvND8gCEE2hm6c8NqNdnTgb9t3TqrAWiqBF_C1-awceVmlowSb_IhJPjRqVtqKUezM2REy7x3fvVlTz6CuIvZusw_H-Tl3ks_5kcE2fn2Z4mfxIG3PtX_KIy0GAmVkFA-Ai3GfaFou5wG94riKDMo8q-_KfUADnsHt9KJlZBHvT4Rzdkqtc3uLgkpVDjkuZSPaMNczbEx1jxEW7hObOd6zeHzYRNhVsnyaNKfcLJD7RbjvNETTuyb7XO_4Ug7FB9PspPAJdzlSSH5MiCgGjC-gDqt90VgJ5Lh9i5at-2czbvgXg3hVMiZTqu0Oxi7_ufvF4NiAV_QR_oLpOaugsxJAUXYwxy0UBsWO_a89sfyLw9UPdL78BaukX28sohItQPwPl-jF3SWtOTe7TpB0zLq8xvFg9YQ_jyGkJRJ5X-udiYBXEDCTz8VwqXYX_0RaIO0Rurl9cPMrCyEJdVGA17eE4sw2HeTybIAj9zxepcW09ZNtCvJqBKm5aH7kL1XZcohVZ5LXedDhIGqHNbshDUcmDQhCZflZRkIc22Il05lcGF2IBYwvdQHA5HMd19LcHcpsatRmTY7tM8aC2Lpe8dFtWiwBG-wVeehn2o1yPxJKJ8GDtEyEloVpogn1CGklv-a9gtSc-SI7uDulsVSLqlyoq8fjlD1Jexnoo91fpiC-GDggdsvHmFB-kqxscGVmsPA5Sz81bIvGBBns4lqTNG5eNZaTNHof5TOJ8x9GdfHM6tu54g_q89eyGp8AORQETaWpEa787wDWZGiEi838fq-nmzSI89IyPqdfJ4KxeOHjTw-4X_Xp-QYCddpKrTx0FUF6V37Swh2OWMC1jDmxM7x7fEBGgjA8GV5VdvQcp7-Zc1ac5SakSmw1Z9eOpFAfXv6_DsA70RPe2ftbD7pp9N6m47Fphh4toNG8vRPpMlp0fALIg4man8A--743yJgLZQd3J8CGQ0EimHYQEQWOw6AiSDb678ox4yZteuBua3KLzxo2abinSHZK3OcGNR3S2PZjBnIJJRuzbmnS7-9LYsCxMkfvn13Ysc1wY7AEiBa7SKivsy14vRj-6DEss-6PVW1JuLVLL_9gQ5P4h61bHCfzXBPo0glRLbTscMFYwdNdP8Unru3tbVa53RTUv1L1gVa9kxmhPO_sGJuWWsw5WSqos5CV77WUZ6rA_2bYKUgKTinlQw8SC-boU6Luxjaaaf720506fPlbK41ZYL0a3B46foyGqIoG7slmk-Kj4dvzAjR0YFKn2_Kij83eWxSI63H4zMrj-AohU8T5bxkgqzNCCpietq3XEt7qhTooleeJ9AevHmmM71ycJzgqaUsXefhHHus455pDUaekPbAlW2xKCmOEAVTfyAhtaAg5h"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"0736\" \"Last Review\" \"2023\" OR \"2024\" OR \"2025\" OR \"2026\"",
+        "results": [
+         {
+          "title": "Zhong Ji Longevity Science Group Limited (0767) AI Stock Analysis | Smart Price Targets & Insights - TipRanks.com",
+          "url": "https://www.tipranks.com/stocks/hk:0767/stock-analysis",
+          "snippet": "<strong>The score is held back primarily by weak financial performance\u2014ongoing net losses, compressed margins, and negative operating/free cash flow in 2024\u20132025</strong>\u2014despite the support of a conservatively levered balance sheet."
+         },
+         {
+          "title": "A grand thank you to reviewers 2024\u20132025 \u2013 and an overview of 36(4) | The Economic and Labour Relations Review | Cambridge Core",
+          "url": "https://www.cambridge.org/core/journals/the-economic-and-labour-relations-review/article/grand-thank-you-to-reviewers-20242025-and-an-overview-of-364/EA9D1CB765B57C2614237CB47B142AD7",
+          "snippet": "In this issue, we have sought to lift the curtain just a little on the invisibility of peer reviewers. Following this Editorial is, we think, <strong>a list of most of the peer reviewers for this journal from late 2023 to late 2025</strong>."
+         },
+         {
+          "title": "Federal Register :: Semiannual Reporting",
+          "url": "https://www.federalregister.gov/documents/2026/05/07/2026-09095/semiannual-reporting",
+          "snippet": "Enter a search term or FR citation e.g. 88 FR 382 30 FR 7878 2024-13208 USDA 09/05/24 RULE 0503-AA39 SORN \u00b7 Choosing an item from full text search results will bring you to those results. Pressing enter in the search box will also bring you to search results. Choosing an item from suggestions will bring you directly to the content. Background and more details are available in the Search &amp; Navigation guide. A Proposed Rule by the Securities and Exchange Commission on 05/07/2026"
+         },
+         {
+          "title": "Q1. Q1.",
+          "url": "https://tea.texas.gov/data-reports/grants/grants-administration/grants-awarded/2024-2026-esf-focused-support/25610139-001-belton-isd.pdf",
+          "snippet": "2023 federal accountability identification)? Q7. Q7. 7. Do you commit that the campuses in this grant application will remain in operation \u00b7 throughout the grant cycle and remain Title I served for the 2024-2025 and 2025-2026 \u00b7 school years? Yes \u00b7 Yes \u00b7 No \u00b7 No \u00b7 Yes \u00b7"
+         },
+         {
+          "title": "McCormack Graduate Programs Earn #1 SportBusiness Ranking : Isenberg School of Management : UMass Amherst",
+          "url": "https://www.isenberg.umass.edu/news/mccormack-graduate-programs-earn-1-sportbusiness-ranking",
+          "snippet": "McCormack Department of Sport Management Year in Review 2025 Read More"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_98484",
+      "args": {
+       "query": "\"Clinical Policy Bulletin\" \"0736\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqwWCqkWAWkUfRPsJUuslXGnGUXx5kpbEbvP2mll2gLNpSlXAfQHyX0GQY3mQ-L-2TEaAi2TrueA4n3TLf0_hiJiSGoWZfAEXTFVRh8xQwsFMlbn3d425Oeax_KjEVxPt3aS5K8jzwlxGK7LYgk2ShtMMxQ-n1hQnnbgOKGnPP6CdGWFIDsA_ryorxStFIS7iWfZBG2IHQ4k5dn4Oi6BHGBoXmU-b9APr-XhSSBmf4Wjk8uOBu-CzodEaTb__8PiBpxUMjHMU4IvfOnD-p5T0nohuuuhQtJwax6Z0bjX--hFO76Wb1FCtD9xcSDzLE3iVWw4ecL6wKLMlbYRIEFk5QDKn4FEGzCapVTxQP4Kp9dzlBqGTATD53wIcR1FRwR97IyXd_gAGUXBLN4GraQkkai53snCKT_tqvwSpiT3opGCAUsKY7Kqu6r9Rcz88zcWVXHDPtZ2MgKJ4Ihwvh2t0-z2V3wXXry7hBkvmlw5-WaAupnw2B0_wQZmr99haKp0Y77aQ0dt5u-W9PdDLgfUewYl6aDsIWphGolRvSCDI08NkHlnOLQgkocqRoev8W0pNbIHh8ndr-oBqHkk50AP96SAV5tNmpqGIKwXah0tqIe6BEgdzMITkhaSAGF-4lu3x18zraEg6WLOzwV1NIoHAKvEPlFfKTf39SXcu6QyfPiO_fZzcAeix6culId9mQqyd9XS40JQU3LAXxHk6ycJHywsvtVUlq6ofYJsNqBOZzUJJyC4TA6KWHJxY--4fQMY6Dw6CrrDauW8o4qUqKOrhFEgSVPBcTV0fMrsizEN9jkih_keRrGMvSXi-snTPVZTxdCIbbLi468Jtq10H7_-eeqWm-o6ONLuzrcwQjwciWRqwpoBOpELt-X24AtFdiUO7s8pST0g5i_aWDF19gE1e-ftoiZe4UyDPUIIE-nRr7ltICMl89KfNDbrxzFL72561JyDfgGId1pQBcZLH0dwlgEyzmn6aa_wDgLsUjdD4-zXb21s_4YtRvTq-tIt4RurUZKg-ZXHWKLmyPBc5fImxgt1lou1Ihttqr7Cp7XkTNbscSRcbYRkN3RFBpbxiptCHsaP79T2jEUnjdfoCsdSfAOQuFFGpoP5NKhLijUetls2TUAOb1IB2-TAAEL3bPWDxJ5kMh3bEm7ix1z3NHDDQYwSmDg8SbTXgIxBK6uZJkfGiim7bGxiZpZ7DDUWLewKS1CUBZtHJth82GZayc7HYLsLkm9IFTHrfkiRFmLkfv1dMPXTs7hjNlEjVc7NKFKyVY7TM5KzitGNJYYfrLzK84am7iGWA2EihC_J4xP1qPIcqhVcIFKAKToaGiAUhjrBsqbrGt6DEPXgIgGaV9Z8ZO2cTt0v_PSOBjRpLpyJrryP-TAuFsC1Ko5YzrmdzJDWydgVSSMe3ORzO9UwV9KbmqUab3j9pj5toSKZCYDGb_bEAlmvkUfCVM9jXJ2R05bvm8Ht_dxYkjC7vgrAKuKus94O2NgiQsOiwrQ4gzorh0i05RrGmcDQBYhK96kovpRZzaYCa-XjhQMKerbKyehqg3DxUaf4iaMR2Sxsc5QmQD2q6Y42Ql4XgkWoJM3apSjSD1wjfd49ShHhFBxGUMe3t1BSMBF_AUHFG9ji1cbK48Z-ssCO39rUhA6N4qHxXQqfNzmPlc7lVj8Ztb1cl22bpX5U5fLO2iFipdZ_tDtR3PKeJ8Ds2VmMwO_bjLBvq1e-qJbt16KG_C-MG_fIc-CuLcGCv4GURyuXgd1kwKvg0e46QNXbps-QF_ph5ZrNny5gfhEQlcXTqXErxmOQZwvctoUGlVkrokQ9m3RZmf8zhLsFOULX_Tfqockea13IWUoeRVJUO7KolzkgCwzYyHKunEefgm3iAOYiQo-2mkUlkROPv85CIlCY0ziGIW_lGfMvbnlFJnrpIiAwwyd6aGjrlPVOShWOrVAvYpopuTTsOhSre8MkRsFfhboHlGL9P7mErgP1Dqg8rgCapeDqnAVskEguQhXONcNDLddxu_EgnDH-PpX9HPd-uEIsEAzwzzQq9CNk9QNsreo4KV6Dw6c32JEXK8PfSxD9-SRlNUjKl521ehxNBVBwQyv4K7mgMhygn15aNlIzaKbzDOGRZAq6TxxKEo6EO6QWBRlKv_AaEcgPXmIe65fY5cEGuVh7iUItpF0ODg0GCBcHKuH10Y99_3dhhxLbisXiAN9BKaBjXdDrwNxlvi-JOkNeb6ca_JpZxn9ZN-A8i1nolJlpwi7dEWurWzP9Mq359NnxPc4A6QOg1MvjHcRkOrzfvPNaIRPcu7rbtvyNNyPTsDj73SPFc0JA7ilUpX6ambGzoesjuXdLNkJPruYA1UKukD6F8fjzzOB0ZszSjMUMXs8tXzr8d50YrhteEUcsyLaSSwqWK5mMs6URKahpTKJYUAXj7eARlHW7aGy8UcpWQfZj_MCvIcBKftv6-vicv7vNEc5iyEzbOpHxpg9osvVHr57yhR5Bq8bp7IucGrF01YDAUot5JZ7ow3FMTPBCTwRiYiTK31RLscoRVfJtTr_uDkUR-Kn__2HJYsp0IP_A5ojqs-ZeWmtZlj8vzPXDE6lArFyV2FaWrlPsHqYdBKXjSZ7V_yowo2Ah0_YccDI7zZ2id286il-YPaTBzPuv3CtdKWZ36PdnSJ_-GCY-ndvKvFoRCbmnNyZ9vWBB-CaPGLql6WlHmqQWaPRG4KOwx8vTLmMyX5-Y2T6MbpYeq3RvJtz9M6ijBFGp3CG-r4QEph96l7uejqWRnsQjzrE1LzejuyHbR5FyhrjZWnrUdXKt_c_w4FxLf0fF_h_DyA_aSs1rpLvhRbMWoJW2OSzcpu2BEh40eJ3cJmZhg8tuL2Pgc5sGe0MsPpHRbJ4-i1Y9-qAzmfOaC94dimLM2vVKULeGy1QjKvBKFkTfrls2T6nmDXm-_m-gN4NK39TN9nCBpUMRgskZO2O-AaLN9970nx_Seq7XvlOypxWBiO6qbrhCSQUnyrBFpUqvsQBTtwmy8nNkUX_f7p1uTkf23fvrb59b40bgjJTBzkUD0u5n--uaLg6Xre24iE5juMEMuRZPniGS_KnYlz_hOSh_rT4R7oWFPiE539IMIGmYcQW-XgsLMa8lmM3vI_A2i6YAE2bVWPwcfmeUJFF0Rgj8SBhhPt7P27jH8NdO8J30Q61WmnjkQZush5-gJBj5i8GAFW_kZ0GIKMiaaCds0CHUKngCumKffYPWWloZQQ7YgvE2WQd6od1zRcOVUam-sCQWxdf-d1nMaeA3W81gvamPySR1lysPHCb-HObKXOOH650TQneAT5FYuQtjuiIFQYqk92yzrYKtjfl-uOhsS6Iztp3Ou2gZMSqHH0XRsYFxi4smhhnukzUzE67Aeqdwk_rwJcwSz_aa--p2hOblQWBMUfTiNGmmNnq0ST4vWR_Pxf9R2vLR9RWAcFaJ7a1Rrhrp4fR_-L5qH4kG-3xTbUOe3R0Zf3SmQ482E_sGJ8kOHHTu_dxH3A_fvq9FR2ar626_EA7Jn_SUx-y7nSQBAfkxwE5mPQyXRpyvUXOLKpYKbunZ6Rr2aZ4OEQTqzeDiNBberIkC73wKumxvkhRDX2afnirifuFj3JLuAJoAF5XHFBS196EIdvISJWgWBlTBVQkQTEluqCHAjr1dCfY3Adf2Ox5wrNRZU7V-gQQGgrrmcqfnxVg13Az7NjjscB_Oc_R8j3_saHID4TBxxBk-9_sNbcENvXn4HaJOLalPMgXdi5mtYsKxvbDfYS354tYZoHnfXceKpitUm3YbDtGrIZEV0O0uBsuELAIU-g=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Clinical Policy Bulletin\" \"0736\"",
+        "results": [
+         {
+          "title": "Hip Preservation Surgery - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0736.html",
+          "snippet": "Medical Clinical Policy Bulletins \u00b7 Print \u00b7 Share \u00b7 Number: 0736 \u00b7 Policy Applicable CPT / HCPCS / ICD-10 Codes Background References \u00b7 This Clinical Policy Bulletin addresses <strong>hip preservation surgery</strong>, including: Femoro-acetabular surgery \u00b7 Hip arthroscopy \u00b7"
+         },
+         {
+          "title": "Goodnight Nobody: Aetna's policy #0736 is UNFAIR and UNETHICAL",
+          "url": "http://susie711.blogspot.com/2011/11/aetnas-policy-0736-is-unfair-and.html",
+          "snippet": "I just received an email from Aetna re: my petition signature. This is what they said: We recently conducted an exhaustive review of our Clinical Policy Bulletin (CPB) for FAI surgery, as documented on our public web site in CPB 0736 at http://www.aetna.com/cpb/medical/data/700_799/0736.html."
+         }
+        ],
+        "result_count": 2,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_141012",
+      "args": {
+       "query": "Aetna commercial appeal submission address Virginia"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqseCqgeAWkUfRO2wreuZ4qNpBvNVgnchzlYcW5dCIuWrnGiine4ns5N2btsfIqbpQoE0jcb_DGg1uLKsPOoEvGpeN3VIoavMPg0TrVYp18sEgYC6JcX5wrsg9pN2ECRSahauG2RzRz0SMM3lmGnxJtZOQUiQ1PLiRNOi1p7jsaB6DyIhvkbP4651yPdMnu9R_m_qOkBfienVOzzJqDM0qZUCxkoMJG85MWr9Zn6LeFsGjXcSS8ihaelXQDk2PFxwSo3lwbdEl6EtluRl6wYJHuGHFHZRQuZmlokG-fOLSI0uU0T2fd9AeZqxbf08MOoGBb3kVzQPxALXLTwDhu_7q_rOg_YWdGskwRQ13b75U1Hjox4wa_QyLyAfYP_lz0bT68TCQ9pKWgySgSVTm9T3FANkkdRbPPXdb9695_QCmzLkt1Es3dWBieymNWn3LkKmgeR5eltd8cUnkB9hCxJYc7rfYMt0CKBUSBwE6_lmuLd6vCG9cnucbUbtg2RlWq_rn-iuJiuKrweFx0kAYqSt6Rh5UIXyuTEHaEHiT57vwTmoaTyEUJkiqTJTBW5r5DBi66NZI5FN-YgVUgVo4qjG-Ho4NkK5inz9gFu8o7aZpvHlPTx--n3PHzH5QSZbCGvgEs0vNK4GQjOxCJUK9mmR3cu0dY5SmUw2X-kbjdX4SZkxS0T4hg1wTNRu5E-x9AuUjODChOm7GtzJSZWRq2E7WilDDxiwGUbiaYtAy_Lff-4nSTOQbZbOyiEZd2r9lHLLET_EJPB0wWrwLnUWWS9Zov37ZJVrJ-2iQVkZDsVEZHKb183as0PFSBUA9-vnSY5mFjcFSFO1IgdU4pU34f4qRG4DvYFWVSwdUsF_Ec9Ta6Fs2K6AjqZyEEsiilz6h6jS7nrCEItP2txkKaK2Yg2BmfM9MyYtZ7RUIfktIdG5Awk12gLzbCWOY3fKve4EzWKL7uAcxcX_ynO9wZ4jvLH71tDFtwSsD3HOUX0nApC2aBdvnMuXAetZeobsPAvhUxcLCIWQXw3HO_u9VrhakwXDlNnF8KpgpMV4ksGFtxmX-AKPwsL5t8mvmqd8KFwn-jQG87e0YLHN3--SzWVanLRPgGxskmE8wg_CdAF8q-KOhVOv7zXG2RIibsUr4Ep29zRKvxML9splRLwHgI4uUJtrGtsbN1cyP-yMsfoogJAZcw7wY-Cp4-_e91H2hg3wYWJMJ7QzDPYErrym7G5MHMmm287OxeDR6sofFWAeAeOhsLzw65PSxyWkqoO5286LmusVLvTq0KS6wBA3gK8TXDHvL1L0cTM-EyOCV0RlzTdpbcivC02U6AUhMkRq6_ehIObryblRfZTvN1bhleVlQ_TOEraWQSZogPzrK55cixsdERNJZiQJi3KKsFY6u4fz7nRqF_3tdvJTrHWBtmR3aLIsaTCNj8ZobFVVqBMC6nMXaTIJY59t8wiMai_rg0dV5O2LcaUeNOHpYrkgYoeO-Bwic-D65eWqgA6St77O9UnrqvCSmjQWMJJlIZhOjgwaB392TMIhdn-6GUH7M9v3_vDHvDFNOV-az6kV3gwejtMVSxXll93HB3vo9h7XcNaGVGf3qaCaI_-wRq-wlzhgf5r8ng1it0ACeYQHWQFhHW579bOn5v_dwHTPttFIUpcmXDp6sszyNotPix1WAnHyq3Hvj-gFlu69QWu2gRAQjukH2jUMTDtp42egpwxhYR1NUz3Lk0ZeRd4eZWILfJaE5WpvfIJ0_LEIs5lOW42YTbJYwGQdQU0Ar3YLtT-K6k-bel849VzAevn-HeazkXG6orCZb0qKQPBc2EbODuc7hQcV691keQIHCzV02HvyqZtbmpuibK3HbFaMEfvco-11lwW0C0DRJ_x7cATyWRaK5mrc_xs7MfcA1zIMGaOGpqn9nQjFRWoQM-hK3STcOdGdRJnP19EsiSNy6m_2XvI1z-OQDhkCX3OvVexUlYnrMsQG_dGxfPmp-l2xTuQAF7MpZwMGexsXoY9tSjZ8Bg9RGeSucNhQPvblNdIJFQ9EYc9JuUC8xW9botMqu2XZXZWT_iV6Io3nQKao215vPyQmAFVWl8m8EheZdC1kJJl9h1TaDwOsA7SrbapOEmdZ9haXokB1Wu7b5gdMGkjPUYLXp2v3y3LQoDWlM_xMDt4j8IJKE9n0cNPuIYg48Viv94EeMPjfSu8w3Q4EbjwLSRtD4Emy9EENM9pM9rPmh9lbMQK_fLExjVRiFSWRXeGnH5QZDayqA6xABjOnoWjneWvsCiNZ6JUjVbXSkFvh-GrgzL9mdUnsvSM81DRjzf4DxxrJCGIncDBNoAIJaWYwHrgYix5jUgj9B1gCgBbF3NyR0vzn7UUq8obX5cmtf9-lU_J_G37cGp76RWtzQk8VCtnY55ErRMR6ZCBswG_JXYM3h0TjqL37PWOQGlzAWCizK5UtvDDS3MRXC7rSE3TICPNR5hSlH4pJ0_J68Lsn8joSPt12f0FkzqnKE3-3Th6PyJwP4s-e5yhQTrYn4UhyWU3vKTscOfI8NZ0YOaYMZh2u4qrliczZiqq8xa6SiRBr-M0T0s9QySVBD_kOFlE7-5KekkgtTrOz7VmSuZHsE-oPN1SUd1yUcDG80yGD1EXLMdeTKPBj6o0urFMT-Fo1RbSnQMw6nF5uU6d8edjG2iNnmaiu-2ozKDs6gFn-MeALpA3cN64zaC1_VAJecVLJwMYzpZphQI6GZT71kUyNYQRqjG2kA_h_ZcVI_rzc6Cu-TIllEVi1sX7JGTSUUqqQMHKRnmySPTeJRwhHtH_WlphC1dExo93kefpqhFwFAnHINXASMigK4pJXU3TzxoSRck18TgW2Y2BMscapzwLh3qYUslKyfyJArFUx8ULAec3VWL125_Gbt3Rm-lIfxV7kfcER2ZyhXGqosn7Vc6PaWy3C12IrRiPWlrmttDhhjXdarCHR4ByCeJvXCCcUyIbt7M2hBUTR1qnhDNtqGXwsjo_BknXtXhmSWv2ErxEpYXLP37oWPJqyh05JiwU0FPFgOE3igvrnoOMxmh0gTAziy3OtE9B6pRqN4HjyEMmPk32HzCw4is5K5H8UXSuRM8xExk6Dk7VxVKtVtLwfXMwbMHKvOMNpNir4H4Kht-yfLAISdGyollMk-yVISYX_nE9Q3-lN69yRn5n2xylpMd87tPhCqc82rKg9wjD8ta93YylWXdQrPfuy_kLyFS8ffSPBiVKlEGhn8lNPZy-MsuBlOl_aAeAiFZi_1X4FKLXtx5ZJTUQs8krozHR9ZUO4nOiFC0sVOtm-b8UGbnT9p0VgVRaoYN3d0hiGOlJF5--xAaGtkzBaBg-fkW9UwIrV61QtQfGcw540ccmYzH-8QY16CpFfTJBi1scP9eaffqqx8VFW9BjGa6H27jjz4lMGI2fCiMWLsLJuPMEy7-9OQqJQdZpEnu1rEY-uoWzpdrSNyOWRMLVdsEa1Qe-c6U51rQ3F-WqDoT_shJuEPEmzelFH9ipU10Chg1q7cFsW6CmcM4kEqENa--pIWNYgG1baiuZDX-sqgLx_WlXFeVUzHgjWohvROxiLqXlSP6U4hgSUR4Be6hrT5nuHR7yjT7RUu805LY-GZPkdXvGVlQiuspKvWsNE1ntRwAWIGdDu6RGNliwbByYvYdrgU71DslZD8nwaGmkAFLv5HZCff_wbJm5mD3R5pydHmuedpXGnJHjaQvqeoM23paAHg6tV-6GjsuLMkCTgKByLIxCLvMktCbKuqezOfAzDN7N9zEbymTTY1vUWFdHgwew9mmt5k35V7vBVlC7_maRTegGr4O77qJD2TzPJRRXL4F0_qUYhn2kIbxiPWZ0Q7kNlC7jN1-3oipzUynFb-evLlXyjKSXiDYkT0YPRjS-oEQmg2aZsnzF6GeS-D2N6kyzby3t7Jwx647yiJ_A86w0T5b_Kr5yOfrrxIjT3WBrY7dzHJTr-fcvfRCwx3v7YDYWSzFSTrlAxEpau3of0jtRnV9LEmw7DNa4NI31OJvZ0M-cyF_qsZM9SLKwM-60rThF1tFh8CRMgERoIeoWGOujt78jLaiM5FvzPZteo3gJ2RJVYLnV0r5uK37x9ldIm4xrjmVlstLPbpzyP7ju7FZO2-oT5bst04CpIXCoNp9mY2DtkSaeq8V3zRi2XkJoLJNuOOD7tU_aUXRVYkLvgNA0TRy32YgGxl0Hj62hJ_74lyMNpT2M9lefRheHRAgel6MZ8k74kdoXag5nfTDlN_yTtQEZVVNy1C_Nnd7HP5D-IbuEYYdkGcrhI8geQV8JND3PLPkcZcAnI8ntbeA04beDG1OYRWBiduMoi-yzIKh1u2fpHAIWwzx2xRmFWpT5I05D2PZcYx_QzHG83ovAKhAdL7MQt1A-4C4wZ2V0qESIeNpVG3v9zjRp4bLX75oB0WbjNlb6SSW5X_08y3VK3dokXjTj1LYtIVzrDPM6W3qgRwpJ-Ycewdir3eWWkARJdPZ6o6IRVwoZS0Dx4-ud2zHTEbhJZHPMSh_1lZRB-wQ-VwmRxnjKVloU_fRo7yVM0Bded1h-9hQolw-c7GNYhyYga6uu3-hSP_HvcbNflMKR2CmCWbyljdlkZul7o36NYKVvHM3iGfUPPC3VIcAGnYAGYL17NOxlKL01vL2tgN5b5yOIOvkQ87Vv7fDSeEdSoPsMew1usxYf1W0rxnMmJk-sJLJCjRfkTgLtRdI8ijRkT3MrPRFNpl1u6KEyMzVDCLyD81gQa1iggUq6o_AN8651U5Yw00zhKkmm2aZam3F58YytUEwtBboXx-XLe4k58jFsoUcx-rMGTHE_N0ppSGE-rGshLcA4_soMKIXqhKbPG9_bhaZnpV492gPwUhmcwKfFNHsfrZxRXyXjSrR79vS2fXCGNMPY_VyH-eG5zwjfBURtMg8NfiGzEvyV_H4jQFpE92sad09iJU5FQVnc2YKuc8vV0z0uP5Kkt0hgzc0ThhCEXs9hbBddjs7dHiyurp8gwTp8AIgqeb0zcCxfPe1Ie1jWVm3Db9-9jIq7EP8pVZ2CozS-YHPRFwHV_3hB7TgCAPh8Qb80CGeXgQZhA7vQyY1poliW4W_5h06lsAhhIBe4JYnJUm-OOg7ce8VnPcVUICyqYrHYARhcs1jrn2M72LrcidMjvOcrKzZw1_9f2A=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Aetna commercial appeal submission address Virginia",
+        "results": [
+         {
+          "title": "File a Grievance or Appeal (for Providers)",
+          "url": "https://www.aetnabetterhealth.com/virginia/providers/grievance-appeal.html",
+          "snippet": "Powered and protected by \u00b7 Privacy"
+         },
+         {
+          "title": "Aetna Better Health\u00ae of Virginia 9881 Mayland Drive Richmond, VA 23233",
+          "url": "https://www.aetnabetterhealth.com/content/dam/aetna/medicaid/virginia/provider/pdf/Authorization%20Release%20for%20Standard%20Appeal.pdf",
+          "snippet": "Aetna Better Health\u00ae of Virginia \u00b7 <strong>9881 Mayland Drive</strong> \u00b7 Richmond, VA 23233 \u00b7 Authorization Release for Standard Appeal \u00b7 An Authorized Representative is a person you choose to act for you during an appeal of \u00b7 services you have been denied."
+         },
+         {
+          "title": "Disputes and appeals overview | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/disputes-appeals/disputes-appeals-overview.html",
+          "snippet": "Find the mailing address for your state.* ... It depends on the request and whether a specialty unit needs to review it. In most cases, you&#x27;ll receive an EOB or letter within 30 business days of us receiving the request. ... Check your status. Filed through Availity? Log in to track your request. ... File your appeal within 60 calendar days of the reconsideration decision."
+         },
+         {
+          "title": "Form for Filing an Appeal, Formal Complaint or Suggestion",
+          "url": "https://member.aetna.com/MemberPublic/featureRouter/forms?page=commGrievnForm",
+          "snippet": "Are you sure you want to cancel your request? No information will be saved"
+         },
+         {
+          "title": "Aetna Appeal Form Guide 2026: Provider Dispute Form, Portal & Submission Steps | Muni Health",
+          "url": "https://muni.health/blog/aetna-appeal-form-guide-2026",
+          "snippet": "Aetna has two provider appeal forms: the Practitioner and Provider Complaint and Appeal Request (commercial and non-Medicare plans) and the Medicare Provider Complaint and Appeal Request (Medicare Advantage plans). Both are available on Aetna&#x27;s healthcare professionals forms page. The fastest path is Availity \u2014 no separate form is required when filing online, and you get an immediate case number. Before filling out any form, identify which track your denial falls under. The form, the deadline window, and the submission routing differ between the two."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_183022",
+      "args": {
+       "query": "Aetna commercial member appeal mailing address"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EogGCoUGAWkUfROrKr54XZ7EFrgd1UAKBK-EF8vio3cZTFNwrEYGVncptvSCzBeE3DnG_RoRD-KHJtnry0-wifg0DdMz_dyH5kAL4D4ubO_IcNYIgodGbVl56hoaM-oTL24-IJ-sGFgAxZb4CjlnDrGqgCYjbYi0ghniQ5qRD1UZEKkQ3f_uW5r3OWU1Og2OJr1niEdXS3qY0LhnagEZfAT8JH_2uOTq1fU_0PXWKSKKwb0Ca9nPvYWEEwpJCb5m6nSpoPz5rNZXShJtdzPpQA014XOdpc87FkEcG09YEXLqwgmvwIIQF0Sfk_nRPDHClLfRntK19mUQKewLj2uHkg0_0RHppUXU4P2FC2nNVMCj5eZkwTUshXT9n3Nv3-MHxNBdFjM-jkbu9L6XxacuKGl4oHSvYBkf_BqKJG58L4DUJ-TifZGb162-Oo7G_VlksMNsYi4jIMNTQL_vuTy6qY1pNHH5UJPmmQH5SEewUnPQL6cUnQ_4eA_dhJ-1yovW5cPD-OfDPI2xC0qTkWbp56_gAJm7hm1YMI2_0uzx_PfjGJpy4R-CMz3pHqcMjOzts3z2PmIi1IBl9S6DA8VvmLUD2F4IAQ166558M4zDk8jezHHhuQRN-Zs-nGjMzb7eBIJuh8vVL7sI_wh2_-Wb-s1oG2U-g98Co4l11H1fC_JEFzJ1wbQBinXrcF78HuY4gec619HQxn8zvc6DAHS0Zg3lgt0tYq62S5ELTCja9q_foFLEcFKv24nBdHCTfsipMDQtekK8LFrobJz9ZewGHP9guDR86NTEd-vBOc9V4D8XWRKkB3JYd08ELiQ9n-5FLQKEUeihH60gz3DR8pvD3yZW1ukJGiOivd5mw7GSONB888v6dsE-u27xIFJtt3IDD-S3QBvk17dX3regsU8yIcGWV50dC3X1dOpQAWKHDMtN03nGWvgn1jHpU2uEKSa6tZL9K9RQh_UEzXIF21jyapUKi69qlHaXFcOKeevHMW2wi11ceaYDePqvlcA7YIFrBo6XFWDZ9GH8C6A="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Aetna commercial member appeal mailing address",
+        "results": [
+         {
+          "title": "Disputes and appeals overview | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/disputes-appeals/disputes-appeals-overview.html",
+          "snippet": "Find the mailing address for your state.* ... It depends on the request and whether a specialty unit needs to review it. In most cases, you&#x27;ll receive an EOB or letter within 30 business days of us receiving the request. ... Check your status. Filed through Availity? Log in to track your request. ... File your appeal within 60 calendar days of the reconsideration decision."
+         },
+         {
+          "title": "1 Member Complaint and Appeal Form",
+          "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/data/forms_library/68192.pdf",
+          "snippet": "Member\u2019s E-mail Address \u00b7 Please provide the following information for the person you are submitting the request for. First Name \u00b7 Last Name \u00b7 Birthdate (MM/DD/YYYY) Relationship to person requesting the appeal: Self \u00b7 Spouse \u00b7 Child \u00b7 Other \u00b7 Note: If your selection is spouse, child (18 years of age or older) or other, please submit a completed an Authorized \u00b7"
+         },
+         {
+          "title": "Practitioner and Provider Complaint and Appeal Request",
+          "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/healthcare-professionals/documents-forms/provider-complaint-appeal-request.pdf",
+          "snippet": "You may use this form to appeal multiple dates of service for the same member. ... Note: If you are acting on the member\u2019s behalf and have a signed authorization from the member or you are"
+         },
+         {
+          "title": "Aetna Appeal Email: How Providers Submit Appeals in 2026 | Muni Health",
+          "url": "https://muni.health/blog/aetna-appeal-email-2026",
+          "snippet": "Generate winning appeal letters in seconds with AI that knows medical necessity inside and out.Try Muni Appeals \u2014 Free \u00b7 <strong>Aetna does not use a single national fax number or mailing address for all appeal submissions</strong>."
+         },
+         {
+          "title": "Request for an Appeal of an Aetna Medicare Advantage ...",
+          "url": "https://www.aetna.com/content/dam/aetna/pdfs/wwwaetnamedicarecomSSL/group/2024/appeals/aetna_GRP_medicare_appeal_form.pdf",
+          "snippet": "us by mail or fax: Address: Aetna Medicare Appeals \u00b7 <strong>PO Box 14067 \u00b7 Lexington, KY 40512</strong> \u00b7 Fax Number: 1-724-741-4953 \u00b7 You may also ask us for an appeal through our website at www.aetnamedicare.com. Expedited \u00b7 appeal requests can be made by phone at 1-888-267-2637."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_91980",
+      "args": {
+       "query": "Aetna \"Member Complaint and Appeal Form\" \"68192.pdf\" OR \"68192\" OR \"68192-A\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpkDCpYDAWkUfRNBzMBdCySfTFYel_lj7coizx3GbYXg5TqC3hJze1ZNJLWz6kb_0S_spQ7mFVwkFlYCalJQM3RXaKD0WNW_2dIDslbdXJX9rioHwnOVdByMnq8vLQsuvqaJ-70bxZ2hI8MsZItw7sQAypd5vV32lIqVC0KlkI3uX3I_aA62EwIYoxaB99iP3UmP_RjplO1KFWXhyTbI2MpxGYs5v3te1KU_A0mplxZOHxfEtaLWwJ2DCHYBeasNnx9Rs_vlNssK8LBfEEzKjNtfH8OHISv-vcX9QqJew0MlzYv1OUZ6BKANMFNx8jaTPZBzB97ucVxI1JIT05VsNkXxHU0fzqWtDHF8faAk1n4s-uE60dVmBLlqTVFve6-eKP_IPzzl2dqZ2pc0jarEO9Nj2ZiMvDLRuPMoerEu4bAG_Z3jzGJfcpEZ8Aeabv2WMT5-gvM0l5SCU4mIVqpCa48f8n-2Q2X6zOD-BU8TUqW0hUhNtt400JcG1eOfkU1PSEe1h3IuyALDbrB9aK_-tWwMmNj2XqC8X8HCWA=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Aetna \"Member Complaint and Appeal Form\" \"68192.pdf\" OR \"68192\" OR \"68192-A\"",
+        "results": [
+         {
+          "title": "GR-68192-3 (11-17) Banner|Health 1 Member Complaint and Appeal Form",
+          "url": "https://www.banneraetna.com/content/dam/aetna/pdfs/wwwbanneraetnacom/6-BA_Member_Complaint_Appeal-GR-68192-3.pdf",
+          "snippet": "GR-68192-3 (11-17) Banner|Health \u00b7 1 \u00b7 Member Complaint and Appeal Form \u00b7 NOTE: Completion of this form is voluntary. To obtain a review, you or your authorized representative may \u00b7 also call our Member Services Department using the telephone number displayed on the member ID \u00b7 card or submit a request in writing to the address listed at the end of your Explanation of Benefits \u00b7 (EOB) or other correspondence received from Banner|Aetna."
+         },
+         {
+          "title": "1 Member Complaint and Appeal Form",
+          "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/data/forms_library/68192.pdf",
+          "snippet": "GR-68192 (8-25) K \u00b7 R-POD \u00b7 SIGN \u00b7 TTY: 711 \u00b7 English \u00b7 To access language services at no cost to you, call the number on your ID card. Amharic \u00b7 \u12e8\u124b\u1295\u124b \u12a0\u1308\u120d\u130d\u120e\u1276\u127d\u1295 \u12eb\u1208\u12ad\u134d\u12eb \u1208\u121b\u130d\u1298\u1275\u1363 \u1260\u1218\u1273\u12c8\u1242\u12eb\u12ce\u1275 \u120b\u12ed \u12eb\u1208\u12cd\u1295 \u1241\u1325\u122d \u12ed\u12f0\u12cd\u1209\u1361\u1361 \u00b7"
+         },
+         {
+          "title": "1 Member Complaint and Appeal Form NOTE:",
+          "url": "https://www.aetnafeds.com/pdf/Member_Complaint_and_Appeal_Form_68192w.pdf",
+          "snippet": "Member Complaint and Appeal Form \u00b7 <strong>Completion of this form is voluntary</strong>. To obtain a review, you or your"
+         },
+         {
+          "title": "1 Member Complaint and Appeal Form",
+          "url": "https://www.aetnastudenthealth.com/content/dam/aetna/pdfs/aetna-student-health/resources-and-forms/member-complaint-and-appeal-form.pdf",
+          "snippet": "Member Complaint and Appeal Form \u00b7 NOTE: Completion of this form is voluntary. To obtain a review, you or"
+         },
+         {
+          "title": "Member Complaint and Appeal Form",
+          "url": "https://www.shpnc.gov/documents/shp-documents/aetna-complaint-appeal-form/download?attachment=",
+          "snippet": "Member Complaint and Appeal Form \u00b7 NOTE: Completion of this form is voluntary. To obtain a review, you or your authorized representative may"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_104936",
+      "args": {
+       "query": "\"68192\" \"Aetna\" \"Appeals\" OR \"Address\" OR \"PO Box\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsIECr8EAWkUfRPUSSucWi4lQYx2YwUITYt7Hjr6YVA7P7oqFoQXR4XG7n460pS3X01ZnGDWF0iGiCv5ChhWwgLAgjk785gf7VgbGCHoW_wLVD1vIsrTMN3DqUMn-ay5FfnBhnBbDEnDQ42JIym7Krfpoci14WXcKbHkTq2_31zijiBmoliOF6uX2OA-FQolVt3nGoajDOP4L-oxncH0kn4Eb5kjCwNDq46nEoaF7gnH_F3P5ZSTzvHnJfQvP3sv_bNHnvoesm-OqIwsr6JtLV04MOwa58xAynre4aGAoJPtXsmnXB2PolTxEciIEK4OlMEBmJ-CLGcnHESkYzTF35G0S6EqkYqnpj3UMc8HjwDFOPG7KjJ5BmAFdD5HwkvvihwN7_6j-gwwanoJhMtMaLWZrK81daaQQLj7VSLsIKfPAVZfYzn8nGjmQKnwGrtiEbxDXx-m6EWMWMZ5OWn_JlhBRT25rsZTty36ih0Iz8vm1YfsSMMA8W25p-qjG32xp5xPYuh7KZLO_35mxHilr0vRP6mCinGWqoZze60iLuyfGVxCSVRV9-1PsPdZ_BZeFsrUP_hITDM33n1t7O4gvvR-wG2V7tI-nScBCrdy2rQIIfhsd5EsyC2EoMGiMCb_qv6KdnwTDmfTWghJ2i0Ct_FGdXHECnZX1kSt1a7zCanaVY1FX6ZF24puf4EJQn37fPQGu0CIvyGqrQEZmvmoYkMIpiO2WqIe40shDPZodv0n-O-pyv1l0Kl8S8Hn7JODKcDUqIU="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"68192\" \"Aetna\" \"Appeals\" OR \"Address\" OR \"PO Box\"",
+        "results": [
+         {
+          "title": "1 Member Complaint and Appeal Form",
+          "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/data/forms_library/68192.pdf",
+          "snippet": "<strong>PO Box 14463</strong> \u00b7 Lexington, KY 40512 \u00b7 Or use our National Fax Number: 859-425-3379CRTM \u00b7 GR-68192 (8-25) K \u00b7 R-POD \u00b7 SIGN \u00b7 TTY: 711 \u00b7 English \u00b7 To access language services at no cost to you, call the number on your ID card. Amharic \u00b7 \u12e8\u124b\u1295\u124b \u12a0\u1308\u120d\u130d\u120e\u1276\u127d\u1295 \u12eb\u1208\u12ad\u134d\u12eb ..."
+         },
+         {
+          "title": "Member Complaint and Appeal Form",
+          "url": "https://member.aetna.com/memberSecure/assets/pdfs/forms/68192.pdf",
+          "snippet": "<strong>PO Box 14463</strong> \u00b7 Lexington, KY 40512 \u00b7 Or use our National Fax Number: 859-425-3379CRTM \u00b7 GR-68192 (12-22) I \u00b7 1 \u00b7 R-POD \u00b7"
+         },
+         {
+          "title": "1 Member Complaint and Appeal Form NOTE:",
+          "url": "https://www.aetnafeds.com/pdf/Member_Complaint_and_Appeal_Form_68192w.pdf",
+          "snippet": "Aetna \u00b7 <strong>PO Box 14463</strong> \u00b7 Lexington, KY 40512 \u00b7 Or use our National Fax Number: 859-425-3379CRTM \u00b7 GR-68192 (10-18) G \u00b7 R-POD \u00b7 SIGN \u00b7 GR-68192 (10-18) G \u00b7"
+         },
+         {
+          "title": "GR-68192-3 (11-17) Banner|Health 1 Member Complaint and Appeal Form",
+          "url": "https://www.banneraetna.com/content/dam/aetna/pdfs/wwwbanneraetnacom/6-BA_Member_Complaint_Appeal-GR-68192-3.pdf",
+          "snippet": "Banner| Aetna \u00b7 <strong>PO Box 14463</strong> \u00b7 Lexington, KY 40512 \u00b7 Or use our National Fax Number: 859-425-3379CRTM \u00b7 SIGN \u00b7 GR-68192-3 (11-17) Banner|Health \u00b7 2 \u00b7 Nondiscrimination Notice \u00b7 Banner|Aetna complies with applicable Federal civil rights laws and does not discriminate, exclude \u00b7"
+         },
+         {
+          "title": "GR-68192 (9-14) E R-POD Member Complaint and Appeal Form",
+          "url": "https://content.civicplus.com/api/assets/993032ef-5c1b-4725-b787-db4e67709e7d?scope=all",
+          "snippet": "GR-68192 (9-14) E \u00b7 R-POD \u00b7 Member Complaint and Appeal Form \u00b7 NOTE: Completion of this form is voluntary. To obtain a review, you or your \u00b7 authorized representative may also call our Member Services Department \u00b7 using the telephone number displayed on the member ID card or submit a \u00b7 request in writing to the address listed at the end of your Explanation of \u00b7 Benefits (EOB) or other correspondence received from Aetna."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "text": "```json\n{\n  \"policy_found\": true,\n  \"policy_title\": \"Hip Preservation Surgery\",\n  \"policy_number\": \"0736\",\n  \"policy_url\": \"https://www.aetna.com/cpb/medical/data/700_799/0736.html\",\n  \"effective_date\": \"Not explicitly listed on the public HTML policy page (references in the document incorporate medical literature updated through at least November 7, 2023)\",\n  \"criteria_quotes\": [\n    \"Aetna considers femoro-acetabular surgery, open or arthroscopic, for the treatment of hip impingement syndrome medically necessary for persons who fulfill all the following criteria:\",\n    \"Diagnosis of definite femoro-acetabular impingement (FAI) defined by appropriate imaging studies (X-rays, MRI or CT scans), showing labral pathology (e.g. partial or full thickness labral tearing or labral damage) with one or more of the following: cam impingement (alpha angle greater than 50 degrees) pincer impingement (acetabular retroversion or coxa profunda) (center edge angle greater than or equal to 40 degrees), or pistol grip deformity (non-spherical femoral head shape); and\",\n    \"Moderate to severe symptoms typical of FAI (hip or groin pain that is worsened by flexion activities (e.g., squatting or prolonged sitting) that significantly limits activities, with duration of at least 6 months where diagnosis of FAI has been made as above; and\",\n    \"Positive impingement sign with sudden pain on 90 degree hip flexion with adduction and internal rotation or extension and external rotation; and\",\n    \"Failure to respond to all available conservative treatment options including: activity modification (e.g., restriction of athletic pursuits and avoidance of symptomatic motion), pharmacological intervention (e.g., non-steroidal anti-inflammatory drugs [NSAIDS]), injections of local anesthetics into the joint) and physiotherapy. The treatment should be for at least 12 weeks in the past year with at least 6 weeks being formal physiotherapy (in-person with a licensed physical therapist not virtual). Physical therapy (PT) needs to be confirmed either by the actual PT notes, or by documentation in the member claims history; and\",\n    \"Absence of advanced osteoarthritis change on pre-operative X-ray (Tonnis grade 2 or more) or severe cartilage injury (Outerbridge grade III or IV); and\",\n    \"Absence of joint space narrowing on plain radiograph of the pelvis. Joint space is not less than 2 mm wide anywhere along the sourcil; and\",\n    \"Member does not have generalized joint laxity especially in diseases connected with hypermobility of the joints, such as Marfan syndrome and Ehlers-Danlos syndrome; and\",\n    \"Member does not have osteogenesis imperfecta; and\",\n    \"All other potential sources of hip pain have been ruled out.\",\n    \"Aetna considers hip arthroscopy to repair a labral tear medically necessary for: Traumatic labral tears causing mechanical symptoms; or An adjunct to FAI surgery.\"\n  ],\n  \"appeal_deadline\": \"2027-01-28 (within 180 days of the August 1, 2026 notice date)\",\n  \"submission_route\": \"The appeal can be submitted by mail to: Aetna, PO Box 14463, Lexington, KY 40512. It can also be submitted by fax to Aetna's National Fax Number: 859-425-3379. Additionally, members can file an appeal or obtain assistance by calling the Member Services Department at the telephone number displayed on the back of their member ID card, or by logging into the member portal online.\",\n  \"how_to_obtain_criteria\": \"The clinical criteria for CPB 0736 are publicly accessible on Aetna's website at the provided URL. If the patient needs a copy of the criteria directly from Aetna or is unable to access them online, they can request them by calling Aetna's Member Services Department at the number on their member ID card or by submitting a written request to the address shown at the end of their Explanation of Benefits (EOB).\",\n  \"confidence\": \"high\",\n  \"notes\": \"CPT code 29914 (Arthroscopy, hip, surgical; with femoroplasty) is used for treating cam lesions under the FAI diagnosis and is governed by Aetna's Clinical Policy Bulletin (CPB) 0736. To satisfy medical necessity, the patient must have specific radiographic evidence (e.g., an alpha angle > 50 degrees), documented symptoms lasting at least 6 months, a positive physical exam sign (impingement sign), and at least 12 weeks of conservative therapy within the past year (including at least 6 weeks of documented, formal, in-person physical therapy).\"\n}\n```",
+     "thought_signature": "ErRcCrFcAWkUfRP_00oy7MQmndG-ML2cEceW9V7fESF1MwRnkw4tM7j5bfHNowCvd9ME3jN1QlcLB-jkM8OgtDWBNRHSnsYqnx-v3zzBG--9tWeAUoiqK9Z4of1oE6ZnOMdHZ21LoIQhSwt2BBxKm-x-DpkZXkMvsXLlu3vMI5rWwRGf7mZRrwa7m7a_UwnBKkPNBo1TqD7NVsbhHOndBsYxGoc7pEwHI1HXiI-aIpyIUn7j2XQnQ4seKEL1KgIvzxdyGYaCTu-wc5NSrRWji-bki47dqhTEy6LxRaCRaNSV58XFDLNqrTD_15tnDmkMelULdX6cFKobFutLAZu-y24sBY4vrWLl_JE6tIi_u5nPL0zBElDPpjaPr9kBZ8axyYZRgCPRPaB7Sn2iMoEwl_bI16CxYdrQAmm6zDkaR1oryxaftfQMQWmks_pQWaFmKxTUQsT0eeVktsyINIkLAgmEsiTf1PR1XNooGSArbI2b42HVYesmbL8AwCfoORMo1EnTIkqZlG7Csbj5aDljzpHXLHhKhogPc5pJmDy9hb9-zc10D1eKcUcoZ6lsTG1rUl4XgVsmmN-2hEEpt7ezd--lbHKLuyxg2NXg0VCtX7elCwFPzKtCP0sgsUanQ5s4DCoQVh5xGo59CTjPV3xKSlgRTPRR5e2T4aReyyu_YwrGsEBGPo5NSZyQHrV6oL1SKVyVI3r6GvjPm71Q84CsDulx1TT5NeUqiWeJGMVIysnPVOmyHqppqATxcXNIS0Hl2Gg8Yztew5s6d7bVVTau1g_E1lUvq67lcugFMz5JEpYDfaXlBfKEM03qQjONsPlrBlB73k-q5XCZ6Iz5Dg0EmoArkXiDJTEzr2qTGawlMcpWWmlkP4t2wSyfUoQvOLPQNa5kLu5BgoCZS_bkyCvjW_S_s3moaktnhD0rUMLrmenB_fWquYV3nf73IBKnC83ECZk8gWbsZ9jRzf_ozxDX2IsQ7qDI1Yk4FFoGzUL15l3VhPO0IHF51W-j7OZrz3Gnskc6opG_Ca9p68ze6Z0nisFOKq1UXoSoyjxJpJe_N0JswEDojr99qT-iJ_LdT2WCdxQ__MIu2ADjt4RWQQR4xbw4_Xyu0_V9TFF9RdwvqOoji9QjJa6GPaWc4kbzLH6SCWMzUAnXjBdTMjD8S8DbUJoCC9jUZhPuUua8VAdaItlEWD4Bnx89GHcd6H7dM0JGSzoprPv-e-iwoNZCTT1kxvY529noEADYR3MAJlY4UUWwT8YhO5Dv_z9CDByYurd0UKl5UzWExRJb8VLIlaUQVX2uoYIFjvNVguOMTmn1JV3C0_RkrReszIxcZwej5lfeN48NvP09W2KPHHwRGahtvCrCG44MvVNR2hO17LTDXlsJJJa99gDSlRuYpnHpKBNBT3z6bCD1UrCQTgo5Y9_7xgEhPzesrr-xu5GzlihMr4I83enM5E_g7fMFxvXvVurG78L7QYRVOVGOLbgzM6XMliBoenIwhEs5R8ATNPvuPx7MZfIUSTGobzs5jgE5l8-bbsmagaZjTxw4LrkWLgMWNKNfvdpXpabuiGrEYS956f7uW4JIvu2PR7fJbWiYgppHIQ8jaYZKgjGq1wALqVfg8-reakGP5hTckci9RrS2vKB1zQrNemi-s9vlWdbpBhh7IN7P3XRV2b8aal_O5Yz8t_mnZEeJUV4U2Ef-6xp1BNYlWJ2sBgkP-8t8fu5cWf074rE1EJBJcIa-aDWGuzkRGKZ7mQkYmHPhgagxK7PkyGfSTYBtutiA0OIW1xBL_9NpawMW48mQXxy2Zr8MI-zJr8OdVlXyT9hXF8FvSEbTI7q3uOPecAmgiEqfyeE63zM-WYO5SmBCLln_dS-ug4-tU-wuEI83GJ5_2B6vMyc7SqgjROnu1ERvpaLea4_FiCGkiWTggj3wmirQl6Jm2xP1N-wU7Ev1nI2Ntq2Hc0iKsCBcWIeRvivpKD043IJ-a_fTFsh1S2ecLyeVR1EqpoppLgqOMHspCAj6EbnfGFJ1aRkNovs8cg-2Kl3XGxa6CKy4YJMD25TFIeioZzpyVpss86Hh5B8KT5Nbl-DEZmjwM0kbKsgH9YulzcGB2QsG9irSHWIhxf1SBhRIPeaXBXbEm-kfLjqYShKONHRAzfYJROeMRDM4to0z8EKYa6uUv44Jkvdj_cvZcDCHxAyqOtE_CJQEBCyV_7Gz1ckLwDQY63TCuZWh4R_-BIqNuCwGtQKYzp-NFn2u19lEZrrXwI2Zj7IHwOc1f-p9LuAoi6B_cgNK0zfurQVXXW10a7RuS8KWT3pLKfuv_N_AJLSflK7flCLBPY9J9i3sd6KEUXkKkFRNLckMyHNMixaM0fD2M8AGM2Ew1RMq5P1A65XQo5JfjOmY4ooiWAwTPZXV3ePOZWT2mTSSiXIzu62VewXji5oZtoer4CoskpAsDdgn7ZC7d1LesSet6gkuDDF45Jg9Sfkv3c2cqOEdOVWSIi2OYZwGjE585XTNeCvq6qYbWej59zNK-S8VuoMMRFvY1_Ci9JI1utOml5nydWOW2hMT6ak74r_o1Nx8fTqx6b5KC-cDuIhG-w5q_8F2a7L9X5ErM0nU0DQoXF49DxqhYIAwqiwojxtmVb9TXYc0-0IDdHORRe5iCb10TCfdARXmGKON21PhzvI0w4gbkU12VzADbjM-DQg5Cm5a7S_jtlApnLuS548kf_TIz6lyqeqx2LRaSlzrLAhMY7IlDUzVGKTtjqGHEMqTLZfPs4IXsAGGMHCATm0_WS7Ecp9SKEhxIAXtDDZKRV_RFQgW33R_t9ERvxoQPe_gVVfSHlXzdSCQQo-MH6jycnjkFraPqflW0TG-4DhOkxdoMMCSV8jXw6AKjaZfhC5Cazn72lSf6XFQw83FPdBkjA_KXRuCepRljUl-idR1PY4EXx6j8PfNbQewcQmiXn6bGJVSVSCgHY65PaLBrCqDi03-5YCTK6h-AfUYs0Sl1pj8qQ9G8VEihEFEmBOcIq8hdwK0HEtXhb28H-JfLPlQeH_SMTfqgotLgTK_MUD8UNHpd5zYmue-He6UaKW8bNQLqekYXDh0G5gz8uccudmVvEWQd3HPEV9dZ1lVpcwGc7UhZOT8rDPGacZvHdHMIRXiCCP7tazj4E2m7WfNPH8YU9e-LEzLugQNXnteKqm-SEGf7MTSlqdt6TGJgYIOUbMSmj0IP7iQlspJ0dSk81yaAKX5id9Yg4QBs7eUJ3TAqthPmjzG145jjmAYtVu33wiF0VWvyemihbtYviXgMb43iEB8NlD4W3qXJfcBjoZupZPouCRKHUmGiw1_BD2ll8teeQGsORmgO18EMy72m6_5R_mYCg8SvmcFG-eVdyPSKYdhnloHMzsYfuENS4yu6s1xKEr7w8GDnhKkGZMqe7Ka47dRk4ayrqrVjsH2enffd8h4lWbwxRgmlVx0EFyZWMPe32M3eeypk9NlsAKYfDBVNepPzQ0nODhQpx4q0r-2HwK1yR3kkGHtvuobyK5weC2sZQBi38_gUfFTHW4eMXsjTNT6h7WGqzlp20Q_BijTkkKQJPkof_0DEvGpQwrvWZ_2Xt_koyu9BqFDDTttM8xpTt1H9hJcr5-CazJHXugYT5s0sKEW7KQSCD-J8hs8ys8Z2atfQsO_i5z6Sk5UtB4aFNxXI8b4aG6y_bdDTcdlrDk5-FI0eDjKLFe9Yq4bB6U4G-4shNkc8iARXECo0_pTFsZQF3Q2EcJPWpEuseSIqD0xtrztX0FNmt35MOgzyXONM4UfeL9y-g85kB9-OL8lWFs_1ziL0O-TEUUu1FoI7vAsgZaBrgEfU6qQwTGiBNZEVUi8tAhyIBlEHIPKTZ5M8xaM7tcNyzKiMZ7mFwA84EGTmrByWFFRdihgnZsaKRKUbnm6zf4whjqyxH5n0qkTEcPuYET0YP2EkOQTrwpTeERh8Q-ydYxbnPtzgxe0JQEEuaiFrE9GoFf0T5AZpiSSeJGMaKNh6y-STryuiACjUpL9WK0qBBWuStvL5Ce0nTiQi_napXiQu5tbkG4TiCnGfvAGn_cW8HzH1a8P1D0LY4GBEYe0D3_-l1dWGvg2jPHelfd92rRXY2riwSyr7KqAfOJVJLNb_D4xYqz2vznxrpvAw9DKGEwDinwtdOuKN10eW7wVxx8AWp_HJcKd2cUxvDh3yJg73CwbCAoTroY7oCL_gSd-rOwIgdKOQP2riJQVj4_7Doklj3LpNjHEbly_57rj1BG2RpbiWCuA0u0hxKX1AXhjuNnN7Vlgcbz3dRMj88XK5gaykjgzm5pjPfg029BchqIxaUHr_UFyn6GWAtrSSL0ALuXGcJVDW4to6235SaNYc0_I1aNGNctpEIaxP63xBjSs6DyxE1gukiUJJax3tu720rgAPDe-ySvikMUsE-Ezg1qFcUpja-kmbz5rvfvafm7WnYbp5rUZV8VheZWJUreNtdX8MAB2Cuo_bXzZp84SV7DHGDoTKKSzVbUNSFcNy4kKwEZNp82LPBuIVHMDujzBvNUq2KYcMhrxmPQwOuEgxkOU7g8rFDEfovObmgtV8XoXtWy21cCXw24My7_aeLRr09sRTXhZxE4iYSaAOD7LOB5R5PXriqJjSNjU7mAyh4fA3XdraF2IWb76ZYgoDZg7-MTGvudabrf6OhpUSMvV8bgZhOrCHdgAhwaeC2ZtVcoOclmFzah8g6skwB2345SkPdmL-JKvFeW36zm3YTk0KnHsJM4veuphmm8E2-VpQY68Vi3YTjYrQm2vBvL6F6DPFAVtpRbICNwY4iWegdA3h20X9rm-3wFiEDu4mIlyu0Ai9sy10TYy4ow31hK4U02j3OAZmf_psBaRaUWDmgf2F6klzUHQL_x1K5j623mYktX1F9RTCxr5FlWaL1QCpYVPkVqxNgDTnd4Wb9vCGlPSjXz1ST5-zEeSKRKqXnRe914G9p00fZWu1LceuqVx5ijz-nMBmq2VKHJLKkKrlQHxRKK6yvvwVWNxCL4BbWLNyuzz4cFfdnMBFHAWJtKeO8KFNMgjkGJgY8JyAvJsUYhtz8Jbmon1WQECYImXIAywc7OmUaz-Xc1Gei12aDVZIWPjbYZep0h3zMYLvioKUzBZtQrdxzlAExRJ_wQOaizlk-rzHT1RFnxf-w5L4CJh7-HFahfG3FtR1liqAEcRrdsMwchMd3kjnOm6x0E3d4ZyVlwaNG9PAxE8oQot6MuijC3cKfEFSBMC7ZlYZTMzPiua4YU_JgwqEqvQRZ6TTWW7Xo99i_9Nm4pPgkmbkQwBOIeMBa80pnPpG42EuBHXS9usig7ty6d5fwtwAKrSgg8NUSfeMuaMG6nA8BDVg1FokmuIMiXfPWpG6eXq41ZkjoiBrCl2vi1lro2jfcOgNPD5fc_Dndc8EeZzLaetrx0Mt-5FGFOGeWNm4cdRzOZgGLPf44tCb_92t2H4BxdIGFBVdGW6lryhFogPFlsQGL935_AskFgOxiHfsW9eDyDakxTbA9xsLJn5fM4VHYP6tis8xZKnNi4ijtODB0isu_Kq9yqzKRcKd0_cGAEw7OnqbXNkAP_-T5m49qUsLAhP2n1tjHXArdt3Zrq5xZX3OO7qPrLUYU_EIDHK2UljH44UCxmRvRZouLhhivSIC6BHH5pl230TU5LUQ3vvl4-kkdKH27N7sKrWR3Mu22NbWEQl570hZ-IIa_EWDwuAArzktJxPZeHqnx3J3ZzYeYuKjnJOTeoizx5JRKjXvR-HypZpYPSlbFYxLNytFRO_qprIO4iICXgS_4wXGk3qe2BMOMbPDdow0yMoffOqmn8swy93Csepa-Cs80Lw1a0M2AHARqCTum1XCvEH9TUF26LyCTIWVfA22HEgEXE437_e0IO7WX6RyhzVOaDTIeOYP1ZSoVnOtene8pw3ErsmU-tDulHbrq2B-3_a4PTqBxLs1mWOWmgegdFyjLDgK3dPLy4u6lsNNzHJc5vW2TV5CLn4vXfvKpQ3G6ZeEDy2eWs5QBbb-NBPHz9Sf6mtZyIcyvmMh1F6YsSKw6Dy_SOcHKUO18n7k6bQs_dvLJelSBFW6o45bUswSf5Ei8fYanJDZ1cYFM8Okt4sCKIWomeaCwDz2mDqGZxf2Jg_TUSUY6yCQpwc3G5Fi-Ji_gi3_i7_EgqPGKt0KczASTK7rC0A797c0TKmNj9_1oiqey9inoTVjcnSSTtFNMtGHAqz29oItJTrm0a0-nXQqGk15U3SKFLdFl0NiaKjctrWEtJK2hRBwH3vf_voyplWeByTaFcl4NzS0hsg_XfwF0XitXYtQmU9fGRfCuX4y8jRq7_XsTG6cWsesPCRxHvuITPQbefJCH0RQTYLIbzUwXYfaT437tpnoTHn61guOfDhFqXy7NL8IyFSQtIJKb7tdlhXVqlY8UuPQcINFyT9pDVFnq9AGgbcT0AEWnXhaVPerAYFCbogLdF0cl-YBm54EydKa7SN1VHJKcx-2fH1cCdnDf11uJ1uvrNw5fnMlgwF6fRJ2mNqSz7aotM15l0RJtDS4MFkkxdOgvjOAtwNUa6IxgkprFJ-SRTenDvOV0n_zuvzXdtA90kFEAv-BF172BVBYZ6g_l8-f1LoHTMAIUtl-3_11z_2IqxC93NYlGiMgI5XyB_T_gPQqDDA72XyLrJUKiY81zmGR5lyc6uz-HPXcoEnQUStkX8xpWin70xOkw-cigwqLSNpsqBnyM8-AnHSnGVCIfs7jcBuBCS5m_V_YcDijnrA6VGno4nJsnRFzbO9L-HsLamdN4ua8e1ndvbUQx6nPgH3NSwuxQuONtsvn97jFCt7qigKBZDtZkD3eczQpFvKniT6pbtvKiYACqLJC0eTIw5RyGhPZ9nuwKP0O81rsm9B4bpSDQJJB8l9gIgnnqlKPHvK_cPpQhd_YT0s8wXSXFl4Ay6iueYDau2BXiWxTcRnlPkzUBfHSM-WJahtYcwF5NQdzdzyh5LSxRKyGYCZxLidHObO2wkBR4KSX49q9SxcviUfriqP6jmcggci1ll1rT0FCwzyuM4yT_OpsN43eVmuYrzuw2YViueBAQ7mArpDBt9xjQxrwCPRvuHkIW2s9aTG1ZSgVCepI423enkxuBrkvur9HsX1e9UyM04JCRv255uLtXP1jDgah1UxJf8lDKodrOZLWFaSwPEstYA63CpY7eYWzqn3XQINB7Lbb-2dtXLdQzWOTh9g-m-F9Y884rc8lA4FXHVrfny01bOWJZXeqMMhXP9dI6BJvQ2EeYybR_bT-i4jsNbutn057_VMkYpFdwhjkQiPe9c45p98jksOKW7PO59I6SBbH5DLbyXk2Uemg4FD_Cv7CHNcCZRekkKmlGfOkgnRszOI3jaro-gGAYAH5Y2Pt40rYRT2_Eq7b04dQlHjbvHQUPAmaoFJPDP6vXMHKGvY89fjsIj_xAKJYKsC2121t_k8r2w4lJfQpUQd3J317uzfoli6T1oB1yplGgk3-RNAy5RUovxBnUacJ_XvHBp0L5nkqEiiRFiYaghHULatMti-PwY00beDtRGU0rgXHvakfSj3s8upz_L1C7cGDVo5oYyu4WhxUweu_MenhUb0d_VpIG1NPT82rTg0sWOkhuYqWNr-wt8PSwFJzFTPFeZhjG1o8OiQDUwPdwUi0YJzjsgs3iggTAjPKeDdPxxd-6X6Ygc-eVZWfvEYKatMzKOOOhoSYqv53IO-9z1dHwo2vJ_lnIbJvGIvZJUF4uqnhrtWJjtNH3IuE89WRRyqMvGM_tR7bc2kxjsjdJAeYEine-e1FflncgS0S7pQqVuBcy2sldXC60dI1BFtPwjDXnlRUpJ-EVfml7L2KmG3JXDFPIC9wCcybJP42WCrh2lFM3e0zTOFMWmsz9BJvk-P0CJTF57S5rZIWaGy5P_CXJZhWXwcbvr772rYsSUUpxtmNux1ahKmdIwcBOGdbhxBlsBcfrp2QnpcoLLeZ81Zg0adWhLZ2-iiVHMf1lkDOw17Z5ukgA09YExp9Lis7bLZEvHLbkyWk5PsU1bdCDffrCZQFOUiCvGCwYaXC3jFEOjHUa7-6riT6OnIPh4f4Gd7SmaV_lSdDMKjKy-ZgSG50WOcQP3uoRTSQwhxiOanUWwx-1ZbQXs_dq_cR9BUdKYkEPXHyZr-s3eoFDYeaXEAkfwxRpJVoGDhXmjvT7d_7dzzqBBoj7slCbjxKSepmzNcvqH_pTqwT4FkZGSkyk6cZ_bBE3rZhPuIjAINBL8HSbe42FT8oBP3nblbLEStF2_ZVQ2c_aa8Col7ek2be91fTUqjJKokEst-pJLQbyQCZrv6eTDVvOj4yt5pZ31LFj5ZRJbwShTY5ZIleuyHLbLXXCadYLeiLqehMKdo3_Sd7aSSfjfpTOW4sVkWJtEH9T3BjlgSH-2XDAP_L5-MiwNMGnofu24AnObIEq73Aa3-ZuTXEURDrV3_YQBZdm8AGraU8QXM4oNXCZoJLZwSAnS4KGtNLKfZwsSOGAs2oSJVhC30zW63UKNn_gF8Nu_cGTq04EstD3zN0dP9DAivopmYj61j7DgR7FHGvu4MoqqgAChT5oCh89j8FwZpZft6Rkpz4TJ-dlUOsiG7o_nMPrGLgQ5oZUBa04wnIXShMOzDyoiKf9-Kv_ArJ0ODEuMHvYUocWgbDrBuyLbWS1gO0r5BT8kZctNEmQ4H2e-ZwXy5VWn-QlsJawdErSo-ef7g3nz8oe4veVWL0_mklSu-UVcoXV89SDpntqy1ztGQy6_2HvA5RlzV19-fHaePdCqyfFTz5iSNVRQgCJM9_d6iLzhOLWpWK7pAgJB0mvnqwNEJUoBtDwZeG-5wcaho5GYOwxG-lveStXGAOheIRFJl6U9V8R5e9TZRDlbZ8hPD4qnWcGt3dnQJZhHia9ZCOWqY7cw4rZC2QSyz1nWWSOdhXnT-VRwpVgARldBhEwJkudn-ksTwJh5dtu0ZMGNlkzJtyNUSeq_byeINW9jPsYLwcM8RNTtlMWuSvfxJXJIWcVlWvu-zbqFCHalJf4ppaf74VfprZFrCBN5hmAm70eFjCfamgC1Usn5Mg7feC7JssHYH6GsYAB1usx0g3X13fiCJDPda1NHC-8qdmvxj21P0PEQkm2eeh0xbP5ebPaBVElugwmWkxXrUlhmOA3dGyfn39Ko_HGXZGiRUqias-jowsrGWY-hEplQgisKEa3gaKsc6QhHDK4kO3nyoxkH1E6ZCqvTLBEnQEjM2KsSEvM-8TUkp6wQeOO60w8Ulc3ANjyllgtF2TCRo_sc-cXZFFCDchvEWBdueoSn3zza0RWEEdEedSFuw1SsGlYOBoBG_UDKVO6jxZl5zJw76ZoAfnLbIFHw1q8VNlmgO0IbHlvQhEe4oI_Fu7aWo7x2cLfwtM4VP1rA5yVxStMemRHCaLaNM31oaMAUbMeDZdvjGyqkE4aB0TZV3FdSQjkjReIZPhDpJmy3-nhNHPb396mwvw0hYM59N4xotUtYQY4U2SUMQlmuK7XhGtzRkbprGHiT3UKzHDvHx8ByU7MxfHTFS4j7u9UqkB6OWKfhDp8PGkysZ786Xc4mf5NpSvyq3LU7jI8iao3E1Qk0QGNSYXYL3P_I7qrrnRStz8lKVlE348Znpy3aSMkXshPZvR5HGJkR949-wC-X78MxWMkpdhzUYXbuntSGz2_kXnkPASz0LZHBVTEfRY0u8AE-r_18_JyO5iQC07VC5rYT_8Vst73kAgFTCvVLdg_hyWfkx6oxYtu3u28jj9rKxJ6b6rbTO_YCz2Q2UmMlhyV1tv0nwdjFsEj4Bk2yyoN8_pDLtKIDvYR30QR9OEOcsiC8JPdpvZjr8cu-Ofn3NdMknycJsshhVgixN_iDxzliRZ0ZX5mDY28DGzR4BflVETQPu-umOn1QwOt6cDHiJa0X32pSB91sw7Q_H3ueKrsONsLpRXS1FogZK5VYkL2Ow4LIcBSby6GJ5l_W_BMzXdjgCgwJKMT_2Fqcbr0ZsAX3AtLP2FAsmKTlisDNIySPyYezyaYczKocbAcf-2XBeM6eO1OJQ6OdCYWsh6jgC9pf5uG82NX4xk67gznpNLsqX2y7I8B1XXIM9BpI8DEFw90G6ZzXPNlSPkcWzxZZ_zr70h9Kr9voc5PI1ovdNeCmScy2pCVyB_OCohzC_2kfiyGVHJrpm5nf-tGY_gBIPUDYwJ0XUlt0ILFIQH19zSdX_lTedbFWP2adQ0FJsXsKlhS2oW6ZVHF0rRA8UnSMNxywJ7VhmF0u9szRp3R3l3zRU5U_ufQUzjwcirvg1GTqviRfRKbZwxKEwgxx7HMzPr-Dan25g09OXHHEaR0PcuhWS0Gmr-eg8K5oNv4AAN-QoXFcz3HX8GvcxCP6ri8Yvaqy15nkXbu2BmNFaUnJRL50dkbmU8hg9XJg9hFST4JCDqfmf_YQRNJjHd-lhmk3QO-G4U0UhhsD8q34SvebshFUT0bW0IIO_-Gf-HQNVt3odJd9nLzWjWZeipqx0W4f2DgX3uqnaFmxRgGgT9SzmXsr0AMoP9Tq6LY_hiYA5G7g0huHEuibW4JySPwZXuZW1Zt8JYE3nRvO4e1Yv7k5VdQqCMfxBrob8pIcxmwWufTkzIhyzpYod-pS5wS9ewxLZrZ53lw9HbFFL6zlDwmKynpVQ9LaQDF4ZSEvZgi11w1PBZSvwkRQzihmO48wdG-2BHlZ73BAyCkuxmV4c3JfnQWU5JX2k5F0MrYF-3v8JFAZt3YTBE4ZJoFL5US1pph6taJ1KBSqB9sVl8n50lpwNROaRtkadczrNfzJfgS2NWYYxQ7IGdSitQw48EFVF1tQppSxgXACp8sf4TJET5HELP3MGlGBNQ3VbftbUkrk2aAscDjoiMAO6lND79euCGSuV1g8GYNwtJToD7ADVcGB1cwhnjtWtm9eM3gQZSt6Wd3sIJlo-rrkuksukqVANjtAZkqgBCcBL0tokKXLjKCEfHYN_NlK7FKChVlKK967xTBFFT0qb-m6akpInmgDfnDGtLKWHm3HtFJx1eRWPB6-LOt666T0YS3F0CzGlaYEK2RGScS6kq3-o07xUzgFw5GeuzuHVbwnDQVxUft5bDmzhbM52xoTqzRAeG9TryanIorrQjDTFIBeOYE2aRDW4BGFo9X9bJaVidtUPSa9XUqYUT7id57xHZEnka0FqT6f4iHVpNnFoEXjOMDp6Geo0tra7mSKKxP0VwIoFg_PaKln8tzNyOYIHz-4H8nvCK3Vm7leYcn76u9uHaMWag-HwuRksyqlrcHzuyBijGIIz_wV45m7fAj9um9vw_voKc84BAIevo4hrpo5jozftMCtvLRhP6mdyaPfJH9bAgGWAjgUwi_kkw3PiXp5TYvJZikh52QRXAnIleo9H2SGqgq0HeV_tPPEHOq3AqINP4yR1OwiZrb19MWpw0tISs-VXW0OUPfoV-B9r_bjlnacvDhVgn8PftCIqPJ4-J24rJgw-6ePQDCw2j_kZxFH-uyx50w3vqH0kNs0KX6X2_f7w14XuUHeRWAAJRiOpKNC3poZCgL0kFgRsAWkH-q28O_efqU6fr6qld11jObWhZx6Eo9cuGUFD_zSWiGiMpuXJ4S94kmxiw5ZI9_nK-IccZeIhWJer-xE86k-HUZPzI3rCocvwb5P-hMQoqNhpZxGZiCBv-jTXIjGSDrEgiriv53pYIZDHSOg92CxSl0-QIdEEQUnBd9SOqMLDntfFjLAGZ9mhIOePwug5Hr17P6S6e0X1Bn2DGerH-X5rssaG81soXVl1ClwmcLPsR-K_uUcPka_YID1GSMKo-URtAv_nbJtWVucnuWm-xbAyDGnu4-tVtcdpzoxFenG6mekfr3qf3DCQMj-eCzZQG2z92zJRfI9NV8_MfnyKydxrZEhtsifin-g2zzH7y04sgseGgQFlkejsL64Bo_eQT4fy4Qff_sRyaa-fPb1c71mO7DzZT_h6VT8BRxENSRVbFsfS1vJe1jwLK7zp4rT09L_BdiVdBwronG1ADZbVA6-tlGbXIMvXqM8jcSmmapeElqkTyQJjgSspzJco8G0mfeqjpWXJqi899AfT0Y3qATGdz7g5_m2mOJoGCoFdxh1Od7bdIEN5vIjBIoXPlZPW3tCmNyDgWThx7BJNF9bqDmvkJu7vlCBp8vOMamA2oQo9YZ3YjVEWNSSXMuJlT1nOO83sIZqxae1Pq6rOWnwuJF99dHuaqDq_rkVGyB0DqrXHKO0ffXQ_913-nYgR_yEon2ji_BBs8Ck_ZiItUbwcVZ8BrLQiBZsJbU1KH10csmQWlaiNGO6Zrsp3s00_WX-DtIyhI4sprJk9-LTa51WO6Eha0SSLGVECT5sHx8AFq50VR_8waS21aZ4w93SYw0aJXi_Wt4vuaR5gC5GWe5wx_3OkAlndT4fiGpssQSMv_iwi8kseVxNBVdRM0oNVoXMsRwoBRSmIpk-8UpTRFPBJxuSYlnT4TkqlICiRRlSDEi1Ef6Hma-5KjsA_WsCHefG9SVVdS8HTvm7ZJLQGvvteYyhK1C7oDELeWgdg6w-Hx2Fd6kxpkyGo5ipI1iZMs8tybrxlSUZAJ-fxad7PordrF8LK0He4G9f-RpMUFWZoRqN0XqCv3CIa5vFmSgc_QeEWmBVK0C2Qfa1wBS2uIpqJF5H4ipAWTCBn-6X79FNqdE9RdEzTIcczL6QFwLegbO6pBXGFPR1HYjRxuZt0hw1ZFZ2-JiE7nrj-tLFVuQ5OHfYVFib-2Yt5f-Kw3qDvAruiRjPYiMUPnMd2HaJTNhIqdIBFpTNLBnh4bBmu4SN0mpN4gTR7tq6is-gOLifb6uqt49ZVolB09gI6dowhmcHGjYTXeQVjntr0GvvUWcaiNI_af5gHcbivXdEYcAS1zoePlOWN2Q-6JLA5CuCGuJxMZN8zGRedIvlm5kW3EbitHKSJl6hHqO9RULp3QVPD3OG7y5OFC5izAlbItNu1ORct7Y6ygUsyTylApDS7e4OEEaGVd4avioOz5qJSDdHW5kGeZJUvJiYZgUgqEabQ-SdA-zaNPpxb0cRJE7uxR5wTowTHaOHzdOXPWm1xZryCWGe3v3OOPJDDG21hF0XfZkyShvLgiTnEeUgGuZ-JyzscvYu5OBSHBavvKY2-aqT3lZ4o3hD_Mf2jGe5p0N_zpSJ-o7msYh0WQB_jO-cu7eTYzJ9BTHcVovy4TLG8Cn8jh-VxbzyVAl8RqpRw8v7K6u7W4GaMQxEBGrNjQxuwxlrTSBO2Xyx7GMgFLgC5Qau8caampJ2f6rs6KpdUOw0J8DFeoiPv_x2e_7HjLXTiY03tUs42dW3f9n40tGpaVvaQq9VRfy_KP8jx88ckA2QIPYddF5FJHjw5jPptVZyDd21R-H8_OiMBBugr_UxZPHXTXTlyhJxjN33o4WLWXaHuiQzq3AQycfd5bbQ4LhVovmI6Qds3G0VJR24YjylWoBbRocYWiInoYJdTVy3qkt5K2TrgFmlhG-cg5za21ccNiKMKDWEMnedbB7n8OVHMKaJWYFZwZ64Rsgta-lbXGiXLuW53BgmdD5D6W-T65uUtW-MODtvT5YaRcdkroLK0QvMylT2GGylk6IiyzdDjFj09jvjX8rUBDnE8iQy3fExg4eePvi_936qpIY4WUFn63bnAEiRV5jveJhgZKGr0U8_TeJzFGg-j29k5-KYY1P1uXx8ntcb7qmbcACAcWMBGQbV2RJbnUKQELkVHtn8DdP9wEE6TZigxC4aXcH9TjQx6krupSDbN8r36n99GjyiBLn1igt7i4P7m4h-1ub5IpQf04-yfWpyit6aYBkCEfb0w2MfeOxY6SCZxgdMSSgE0aec5qk6v96GDqoNRsaPQfFq5P0sOOgX62JQlFZeCXJ2VuGSUyw70OPI2mPtbDdA0BkrDKhSaaQa9W0vpH8v1xxHTUvvDKQf8E7qyLuzndeuexGSVwAiJ3Ih-hC0TD7TOE19krrQDxmd0fl8sIqKFyt__XLDtL-bi07oYbazG3zGIR77q4NrzZ81mZw2e-AaXVgFZJ9v37VWGJqSwHTD-V0dMmp4LViLAyacd2yTNlN-oIwOOMNT2plrJI1IJRfUqaHHN80JrjZQFBL5-vqZWEv6kBucN0ZWh7-i7udBtj4R7FROVtrhC3fFjxGPoJPc1xk-kjqX2z_2KVcaSOwLWFDrAmfd3eoh-oAbxgT3ZSN70thjoKv3D2nOju_n1GAHlEiVd7vojzGzjTSzskhn0R4u1sQtTWQKWlw-oOYVcsP50w04SOeweEgoroLkn0cWC2P5Cf4piSN1gSE2PT2BNK1IhDfd1OyHkqTZkeGzPtpzQhdihBTU35yvWVXQ3WAyF9gtn9Du2xPgy-_0fBLbA34rOu6aZ7PUq3zvEY9sOHo42l49MbuZzjsR4HwHYRyPepeAZg4dKM5wAFJLJcHFZjzSUd_fGwBf0uCmm_vFIUp2NBl50_nOY13ox7S9r3X0euuI9V7e5LcODXmRmi_aoqV_M4HyIWzqlM37xC4uCHLPc-tEOSOYl71Fj70SmcjuWyhazTGpOC3YULBCHRe_lVFeZeF0pwBLnavd6Y1rqEKk9xlKXTj1Bn50NttkwfGnOVDDqhjxyF-SdO6PPLiqy0CaqfDpGF6FE2oMmkQ1VBv2HwmNkIwD5ccwb4fmd_qJTQtyvCLwSVMJlIiJ-ScY6UU0Dg3CHBuNrqRFHcMem_SoTinxoIkJSkGbgRkybwwWFOtOSEm38P1gvawuUxNGBMh0WnDSgUE0gAV36hdwUz8aDSZ6z6CxD-YUIs8XR3uEB9vHyHrShZfO9X5KDU1Agjff_pTFlC0hYneB5GUPPUcFrALWz6gb9P989ar3a0o8JT2ZPJleM6BuGi6UzQX0kNeJgiijmmyjTSfp0bBKmSFMCyAiP6fhQ7DU2725c1IJvV3_tJM-848GWjlslRCWql1KjVbYSCMbVrzO8olf6LfltBiRnL1u8J5cHbwfKRLICorhe3z2_rl2SKQ6LPzh56SVppJg9U4y2ySKTcm73pdfVBc_F4jLa1LfNbS5yHCLWJhjdWk4Qb4pI59B1BcSNKjDXyAIUIsnsJ3zT8GJLzfQ1DYmiwP7xjjxwcKbDQDSW3fcNK0wyuK-H7exenmstSj2s-zbkxCFlwVE6Gfw9MVznZbb-9sWwm5hjl_lFUJDkOHRyCLlAKKoy6oMSn7gaGxhL2T0Wa4CxiTCf3DJGj66iHR9UNy2UCsuXBjzJ2NxDG9cqERKeAioYODdNjPIgNTj4iHNGFqsWrJESCeq5Ww7O8DZZodt2__Y5_VyoRWBMw-E8ScZEOL2_GEOISsLXoaVTiyRlSNzluiR33IHcVQVBrOTL2IHJBmOCdV-QvB1s2lhKS4dk3Ir_Y3dW7g2sadohQGTlvVqlg1zBxsvZhmbwr7j4fcGhN12ypzBF-U56oNDtTUFmG-SdE9YS9LAOQEa976KnGabtJrjPHnDwOR_rXCwebRMBkhhYXklOHuoHnBCOGQJK2vaj0zI3fZ0QClW4Z1pFR94R6LlLnJ0KkzLnSAU926FTQ7rgyf-4ElesCP_Oncbu2yBSg2LdrjJDmP_2rcDLQ-DN1iqD9FvDGrbOk6xW5ce94N_wUjsZ2giwXzKzUMFXW8vVqLYlVMPFEnB4nTFhLpfGRzBjdYMMzIUkfcyBj_5mhcnI1WnvN1Vjkzx4R_eLROew0EGIhXMztbzUnTorioqPln4bdJh2bQO28Ey7oeY="
+    }
+   ],
+   "role": "model"
+  }
+ ],
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 209643,
+  "output_tokens": 3203,
+  "cache_read_input_tokens": 710147
+ },
+ "model": "gemini-3.5-flash",
+ "tool_calls": 52,
+ "elapsed_s": 240.8,
+ "run_id": "r-032c3dbf565c",
+ "case_id": "poc-ac94c7bbde"
+}

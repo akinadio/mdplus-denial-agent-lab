@@ -1,0 +1,474 @@
+{
+ "answer": {
+  "policy_found": false,
+  "policy_title": "Molina Clinical Policy: Shoulder Arthroscopy (Policy No. 404) \u2014 publicly available umbrella policy",
+  "policy_number": "404 (MCP-404)",
+  "policy_url": "https://www.molinahealthcare.com/~/media/Molina/PublicWebsite/PDF/Common/Molina%20Clinical%20Policy/Shoulder%20Arthroscopy%20Guidelines_R.pdf",
+  "effective_date": "2021-06-09 (original effective date shown in a Molina version of the policy); no later revision date was publicly verified",
+  "criteria_quotes": [
+   "Please see MCG criteria for rotator cuff repair.",
+   "The denial notice states that the records did not document \"an adequate trial of conservative treatment prior to the requested surgery.\""
+  ],
+  "appeal_deadline": "2027-02-05, as stated in the denial notice. Molina Mississippi Marketplace materials also state that an internal review of an adverse determination may be requested within 180 days from receipt of the adverse determination.",
+  "submission_route": {
+   "phone": "(866) 472-9484, Monday through Friday, 8:00 a.m. to 6:00 p.m. Central Time",
+   "mail": "Attn: Grievance Coordinator, 1020 Highland Colony Parkway, Suite 602, Ridgeland, MS 39157",
+   "fax": "(844) 808-2407",
+   "instructions": "For a written appeal, include the denial reference number, member information, the requested service and CPT code, and all supporting clinical records or other information to be considered. Molina's Mississippi Marketplace page identifies these telephone, mail, and fax routes for grievances and internal reviews involving adverse determinations."
+  },
+  "how_to_obtain_criteria": "The publicly available Molina Policy No. 404 does not state the rotator-cuff-repair medical-necessity criteria; it directs readers to MCG criteria. Request from Molina, in writing and with reference number POC-AA9EA32E7D-95281, the complete MCG criteria or other clinical-review criteria actually applied to CPT 29827, including the version and effective date. The request may be sent with the appeal to the mailing or fax address above. Ask Molina and the treating provider's utilization-management department for the criteria used in the adverse determination.",
+  "confidence": "moderate",
+  "notes": "A public Molina document titled \"Shoulder Arthroscopy\" and numbered 404 was located, but its rotator-cuff-repair section is not publicly available in the retrieved text and expressly refers to proprietary MCG criteria. Therefore, the specific publicly available document containing the governing medical-necessity criteria for CPT 29827 could not be verified. The public Molina Mississippi Marketplace page supports the 180-day internal-review period and the submission routes listed above."
+ },
+ "raw_text": "{\n  \"policy_found\": false,\n  \"policy_title\": \"Molina Clinical Policy: Shoulder Arthroscopy (Policy No. 404) \u2014 publicly available umbrella policy\",\n  \"policy_number\": \"404 (MCP-404)\",\n  \"policy_url\": \"https://www.molinahealthcare.com/~/media/Molina/PublicWebsite/PDF/Common/Molina%20Clinical%20Policy/Shoulder%20Arthroscopy%20Guidelines_R.pdf\",\n  \"effective_date\": \"2021-06-09 (original effective date shown in a Molina version of the policy); no later revision date was publicly verified\",\n  \"criteria_quotes\": [\n    \"Please see MCG criteria for rotator cuff repair.\",\n    \"The denial notice states that the records did not document \\\"an adequate trial of conservative treatment prior to the requested surgery.\\\"\"\n  ],\n  \"appeal_deadline\": \"2027-02-05, as stated in the denial notice. Molina Mississippi Marketplace materials also state that an internal review of an adverse determination may be requested within 180 days from receipt of the adverse determination.\",\n  \"submission_route\": {\n    \"phone\": \"(866) 472-9484, Monday through Friday, 8:00 a.m. to 6:00 p.m. Central Time\",\n    \"mail\": \"Attn: Grievance Coordinator, 1020 Highland Colony Parkway, Suite 602, Ridgeland, MS 39157\",\n    \"fax\": \"(844) 808-2407\",\n    \"instructions\": \"For a written appeal, include the denial reference number, member information, the requested service and CPT code, and all supporting clinical records or other information to be considered. Molina's Mississippi Marketplace page identifies these telephone, mail, and fax routes for grievances and internal reviews involving adverse determinations.\"\n  },\n  \"how_to_obtain_criteria\": \"The publicly available Molina Policy No. 404 does not state the rotator-cuff-repair medical-necessity criteria; it directs readers to MCG criteria. Request from Molina, in writing and with reference number POC-AA9EA32E7D-95281, the complete MCG criteria or other clinical-review criteria actually applied to CPT 29827, including the version and effective date. The request may be sent with the appeal to the mailing or fax address above. Ask Molina and the treating provider's utilization-management department for the criteria used in the adverse determination.\",\n  \"confidence\": \"moderate\",\n  \"notes\": \"A public Molina document titled \\\"Shoulder Arthroscopy\\\" and numbered 404 was located, but its rotator-cuff-repair section is not publicly available in the retrieved text and expressly refers to proprietary MCG criteria. Therefore, the specific publicly available document containing the governing medical-necessity criteria for CPT 29827 could not be verified. The public Molina Mississippi Marketplace page supports the 180-day internal-review period and the submission routes listed above.\"\n}",
+ "transcript": [
+  {
+   "role": "system",
+   "content": "You are helping a patient respond to a health insurance denial. Answer precisely and only from evidence you actually retrieve. If you cannot find the governing policy, say so plainly rather than naming a document you are unsure of."
+  },
+  {
+   "role": "user",
+   "content": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-09\nMember: Riley Brooks\nMember ID: W997409334\nPlan: Molina Healthcare (Commercial/ACA), state of Mississippi\n\nDear Riley,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Rotator cuff repair\n    Procedure code (CPT): 29827\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-05).\n\nReference number: POC-AA9EA32E7D-95281\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+  },
+  {
+   "id": "rs_08ddbb40daa2effe016a9b6d0890b087d28dd362831a94b219",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm20LS-johYx0z9-jHkj0t9Y8Z_AY_ntUsfdshQtZlOHxRf0Ls_fpfbPCZ4Al5ZIqKvTAmNlXR-XHzKEzpkPe3LZ2YBGxCBlQhckJZuXaeKCKpNhGJpiSgqOxM9YuyJNRLh3AlHOtMMSBbzH9UiW0Jr_XrwpH0s1-upMOFVicKyvgUV6_Y4viUV_Jw2ppQ_TnnwDBLdvmSdntawZr69_jXtvrPE3YcfSI2rRJeXjSnrCqu4eh5rVzaxDVLR4vwEF8akc2KqS0wCIw3I08M_Ksoh3uSEuDACXEOa48BndmEYPhpub685x7faq_xFLJK0kZBaqji2fZFkrqhXXt4ag13wOH5Xz9q-rTO1VGc-xlEM5ppw6sLbx9zl4WeTVQWR1LSaoksuw1g-z3Fs6hgjMZR7fZtXpe0YAxcxL0WUNxi2Mm1lFCQu1X2fS4LKYdmu7hM1hFsCayd7ONWuIW4DfeCD_z_bzvvayMoRJ1Hu4delrPrHG418OvKSiy0UdmX5_Ao16IB7LXitcW2kA4s6udMPWoXpVxjWXueki73_CWiE6t81Em6B09WXZ6Lmm8ip_w46pPOoFxZrTjR8PBY6WyCobN9qLdgx0ZWj80tEZtNadMh1d3Hb1p-p2n2E9Pjg_X8V7MsGPETU9Dq7nEm5h1eneX9kXFsxzdCjgfGmnXPfjl1R9Q_daowq2ZgMC8IAHgkhPSV2XPTUvGswikUMG--N0Als9v0I2dLSfM-N2v1jqJMgx6s5NJCVB7NVRxWWBG3nT30JOg2Rij5UdugrjCDymQ1VOAYgYsmcyiLhP5RFvndjdzpiK_Xx8CGXwJR6vyMaFgIJmZiYC3YybGX0RAIFtYbsax-WRNi_PcweWmolBZK98bM9KGRx-KLUFSnojWMH2VviZGDzh1zgWcUFBnYAF-4lJSc38E-pT09IqiuQSgD3V6up7hb-Xi9UZHXK40YoaAwMAJO_fJJpBihb0zMmZ05un-LfdrIeqbZkCo_FbMx71_vEUEqIoDu3kwDDuIbWUiOa5ILuO3xIguRZmA2xYOG3EtRJnF6bMWpVwYQcCQTqYYJCFgeSFvi1P_vrUy5waVwcM3AxMa9nr0Z7YGobmazp6Jr-sFWMh675qPjlWm1mVYUcDxvHECG1kLKy0qFFLcemdA3KwlBIH8DwQ61TNO70ZL2vdkYOffb5XVWoUFAAQNv0tORNni1iGhQ1X_pfGxZPZ9pXa0eCfk1B5U-JhHLQ95Fi6VWONSMLfJEIQXSlv7i2dwrR2iEe0KkZr1QSmi0YzVDFlZ8tTHak0O2RMzE5lpr6MGcWfZCj89ZzY9pVsyh7wJLw1dfB3lpOp7Yp1U",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:molinahealthcare.com Mississippi rotator cuff repair CPT 29827 medical policy conservative treatment Molina commercial 2026 PDF OR shoulder surgery policy CMM-312 Rotator Cuff Repair Surgery Criteria Requirements 29827 Mississippi appeal form address commercial ACA 180 days\",\"count\":10}",
+   "call_id": "call_oeSE7pDSuNc7fB4v26cEav8I",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08ddbb40daa2effe016a9b6d0ae5ec87d29e60f66193cb0584",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Molina Healthcare Mississippi provider manual commercial appeal adverse benefit determination 180 days submit appeal address 2026\",\"count\":10}",
+   "call_id": "call_iB9jqhKuyt80sZzYaV7XWZn7",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08ddbb40daa2effe016a9b6d0ae60087d2abeffa72126f2961",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Molina Healthcare medical policy rotator cuff repair surgery CPT 29827 policy number PDF\",\"count\":10}",
+   "call_id": "call_Ko52rShIgV16cHxfx5BIFtuC",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08ddbb40daa2effe016a9b6d0ae61087d2849741ba08c64caf",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_oeSE7pDSuNc7fB4v26cEav8I",
+   "output": "{\"query\": \"site:molinahealthcare.com Mississippi rotator cuff repair CPT 29827 medical policy conservative treatment Molina commercial 2026 PDF OR shoulder surgery policy CMM-312 Rotator Cuff Repair Surgery Criteria Requirements 29827 Mississippi appeal form address commercial ACA 180 days\", \"results\": [{\"title\": \"Subject: Shoulder Arthroscopy Guidelines Original Effective Date: 6/9/21\", \"url\": \"https://www.molinahealthcare.com/-/media/Molina/PublicWebsite/PDF/Providers/wa/Medicaid/resource/mcp-mcr/MCP-404-Shoulder-Arthroscopy-Guidelines.pdf\", \"snippet\": \"Please see M C G criteria for rotator cuff repair.\"}, {\"title\": \"Shoulder Arthroscopy Guidelines\", \"url\": \"https://www.molinahealthcare.com/-/media/Molina/PublicWebsite/PDF/Providers/il/resource/Shoulder-Arthroscopy-Guidelines_MCP_404.pdf\", \"snippet\": \"Please see MCG criteria for rotator cuff repair.\"}, {\"title\": \"Frequently Used Forms\", \"url\": \"https://www.molinahealthcare.com/providers/mi/medicaid/forms/fuf.aspx\", \"snippet\": \"The files below are in PDF format () \u00b7 ADA Attestation Form\"}, {\"title\": \"Molina Clinical Policy Shoulder Arthroscopy: Policy No. 404\", \"url\": \"https://www.molinahealthcare.com/~/media/Molina/PublicWebsite/PDF/Common/Molina%20Clinical%20Policy/Shoulder%20Arthroscopy%20Guidelines_R.pdf\", \"snippet\": \"Molina has provided the best healthcare quality and affordability for more than 30 years. See what sets us apart.\"}, {\"title\": \"2022-Provider-Manual.pdf\", \"url\": \"https://www.molinahealthcare.com/-/media/Molina/PublicWebsite/PDF/Providers/tx/medicaid/manual/2022-Provider-Manual.pdf\", \"snippet\": \"Enrollees who request one. Molina will also furnish a Service Coordinator to a\"}], \"result_count\": 5, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_iB9jqhKuyt80sZzYaV7XWZn7",
+   "output": "{\"query\": \"Molina Healthcare Mississippi provider manual commercial appeal adverse benefit determination 180 days submit appeal address 2026\", \"results\": [{\"title\": \"How to Appeal a Denial | Medicaid | Molina Healthcare of Mississippi\", \"url\": \"https://www.molinahealthcare.com/members/ms/en-us/mem/medicaid/overvw/quality/cna/appeal.aspx\", \"snippet\": \"You asked for your benefits to continue within ten (10) calendar days from the date on the denial letter, or Notice of Adverse Benefit Determination letter, or on or before the date when changes to your benefit start, which date is later; The appeal involves services that Molina had already authorized;\"}, {\"title\": \"Complaints and Appeals\", \"url\": \"https://www.molinamarketplace.com/marketplace/sc/en-us/Members/Members%20Resources/gna\", \"snippet\": \"In the case of an Adverse Benefit ... which We describe below \u00b7 <strong>You must appeal an Adverse Benefit Determination within 180 days after receiving written notice of the denial (or partial denial).</strong>...\"}, {\"title\": \"Molina Healthcare Appeal Guide 2026: Timely Filing, Denials & Medicaid Rules | Muni Health\", \"url\": \"https://muni.health/blog/molina-healthcare-appeal-guide-2026\", \"snippet\": \"<strong>Submit in writing with the claim number, date of service, and denial reference number. Molina must acknowledge receipt and issue a decision within 30 calendar days for standard, or 72 hours for expedited determinations. ACA Marketplace claims: Submit an internal appeal within 180 days of receiving the EOP</strong>...\"}, {\"title\": \"PROVIDER MANUAL (Provider Handbook) Molina Healthcare of Mississippi, Inc.\", \"url\": \"https://www.molinamarketplace.com/marketplace/ms/en-us/Providers/-/media/BBAB39D4707E47F7A07EC918C263857A\", \"snippet\": \"Molina requires all contracted Providers to participate in and comply with Molina\u2019s electronic \u00b7 solution requirements which include but are not limited to electronic submission of prior \u00b7 authorization requests, prior authorization status inquiries, health plan access to electronic \u00b7 medical records (EMR), electronic Claim submission, electronic fund transfers (EFT), electronic \u00b7 remittance advice (ERA), electronic Claim appeal and registration for and use of the Availity\"}, {\"title\": \"For more information, please refer to the Provider Manuals. Claims\", \"url\": \"https://www.molinahealthcare.com/-/media/Molina/PublicWebsite/PDF/Providers/ms/medicaid/MHMS0586ClaimsProviderCheatSheet-MSCAN-CHIP-NEW_R.pdf\", \"snippet\": \"https://www.molinahealthcare.com/providers/ms/medicaid/ ... The provider should file a corrected claim. ... Claim Disputes/Appeals at <strong>(844) 808-2409</strong>.\"}, {\"title\": \"How to Appeal a Denial | CHIP | Molina Healthcare of Mississippi\", \"url\": \"https://www.molinahealthcare.com/members/ms/mem/chip/overvw/quality/cna/appeal.aspx\", \"snippet\": \"If applicable, decisions by skilled ... and annual resident review requirements. ... <strong>All appeals must be filed within sixty (60) calendar days from the date on the Notice of Adverse Benefit Determination (denial letter).</strong>...\"}, {\"title\": \"Provider Manual (Provider Handbook) Molina Healthcare of Mississippi, Inc.\", \"url\": \"https://www.molinahealthcare.com/-/media/Molina/PublicWebsite/PDF/Providers/ms/medicaid/32377OTHMDMSEN_2023CHIPProviderManual_nob_FNL_R-6-17-2024.ashx\", \"snippet\": \"materials found on MolinaHealthcare.com and information delivered in digital form meet Section \u00b7 508 accessibility requirements to support Members with visual impairments. Key Member information, including Appeal and Grievance forms, are also available in threshold\"}, {\"title\": \"Appeals\", \"url\": \"https://www.molinahealthcare.com/members/sc/mem/medicaid/overvw/quality/appeals.aspx\", \"snippet\": \"This letter told you about the denial or other adverse benefit determination (a decision not made in your favor). You can call us at <strong>(855) 882-3901</strong> to file your appeal, or you can send your appeal in writing. To send us an appeal in writing, mail the document to: ... If you want to file an ...\"}, {\"title\": \"Appeal a denial\", \"url\": \"https://www.molinahealthcare.com/members/mi/mem/medicaid/overvw/quality/cna/denial.aspx\", \"snippet\": \"You have <strong>60 calendar days from the date of the original adverse benefit determination to file an appeal</strong>. You have the right to appeal by phone or in writing to the Designated Appeals Reviewer for Molina Healthcare. Molina Healthcare\u2019s Appeals &amp; Grievance (AnG) Specialist can help you write ...\"}, {\"title\": \"Claims & Appeals\", \"url\": \"https://www.molinahealthcare.com/providers/nm/medicaid/resource/Claims-Appeals.aspx\", \"snippet\": \"Learn more about EDI Submitting electronic claims Molina Healthcare offers a direct submit/web-based claims option through Availity. This functionality is available via the provider portal on our website. There is no charge to participating providers for submitting claims through the Availity tools.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_Ko52rShIgV16cHxfx5BIFtuC",
+   "output": "{\"query\": \"Molina Healthcare medical policy rotator cuff repair surgery CPT 29827 policy number PDF\", \"results\": [{\"title\": \"Molina Clinical Policy Category 3 C P T (CPT) Codes: MEDICARE\", \"url\": \"https://www.molinaclinicalpolicy.com/molinaclinicalpolicy/-/media/Molina/PublicWebsite/PDF/Common/Molina-Clinical-Policy/Category-III-CPT-Codes-MEDICARE_R.ashx\", \"snippet\": \"Molina Clinical Policy \u00b7 Category 3 C P T (CPT) Codes: MEDICARE\"}, {\"title\": \"October 13, 2020 Provider Memorandum\", \"url\": \"https://www.molinahealthcare.com/-/media/Molina/PublicWebsite/PDF/Providers/il/Provider-Memos/Provider_Memo_Appropriate_Procedures_ASC_Final508.pdf\", \"snippet\": \"29827** <strong>Arthroscopy shoulder rotator cuff repair</strong> \u00b7 29880** Arthroscopy knee surgery with meniscectomy, medial AND lateral, meniscal \u00b7 shaving \u00b7 29881** Arthroscopy knee surgery with meniscectomy, medial or lateral, meniscal shaving \u00b7 42820 \u00b7 Tonsillectomy and adenoidectomy under age 12 \u00b7\"}, {\"title\": \"Shoulder Replacement Surgery (Arthroplasty)\", \"url\": \"https://ldh.la.gov/assets/medicaid/MCPP/8.17.21/378_UHC_CS109LA.N_surgery_of_the_shoulder.pdf\", \"snippet\": \"29827 \u00b7 <strong>Arthroscopy, shoulder, surgical; with rotator cuff repair</strong> \u00b7 29828 \u00b7 Arthroscopy, shoulder, surgical; biceps tenodesis \u00b7 CPT\u00ae is a registered trademark of the American Medical Association \u00b7 U.S. Food and Drug Administration (FDA) This section is to be used for informational purposes ...\"}, {\"title\": \"Shoulder Arthroscopy and Open Procedures\", \"url\": \"https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp436.pdf\", \"snippet\": \"Rotator cuff repair (arthroscopic or open) (<strong>CPT 23410, 23412, 23420, 29827)</strong> may be \u00b7 considered medically necessary when all of the following criteria are met: o Severe, debilitating pain and/or documented loss of shoulder function to the extent \u00b7 which interferes with activities of daily ...\"}, {\"title\": \"Medicare NCCI 2023 Coding Policy Manual \u2013 Chapter 4\", \"url\": \"https://www.cms.gov/files/document/medicare-ncci-policy-manual-2024-chapter-4.pdf\", \"snippet\": \"performed in a different area of the same shoulder than the other procedure. CPT codes \u00b7 29824 (Arthroscopy, shoulder, surgical; distal claviculectomy including distal articular \u00b7 surface (Mumford procedure)), 29827 (<strong>Arthroscopy, shoulder, surgical; with rotator cuff</strong> \u00b7\"}, {\"title\": \"Surgery of the Shoulder \u2013 Commercial and Individual ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-shoulder.pdf\", \"snippet\": \"29827 \u00b7 <strong>Arthroscopy, shoulder, surgical; with rotator cuff repair</strong> \u00b7 29828 \u00b7 Arthroscopy, shoulder, surgical; biceps tenodesis \u00b7 29999 \u00b7 Unlisted procedure, arthroscopy \u00b7 CPT\u00ae is a registered trademark of the American Medical Association \u00b7 Clinical Evidence \u00b7\"}, {\"title\": \"Appeals Independent Review Organizations\", \"url\": \"https://www.molinamarketplace.com/-/media/Molina/PublicWebsite/PDF/Common/summaryofappealsandiros.pdf\", \"snippet\": \"29827 \u00b7 <strong>SURGICAL ARTHROSCOPY SHOULDER W/ROTATOR CUFF RPR</strong> \u00b7 0 \u00b7 2 \u00b7 2 \u00b7 29874 \u00b7 ARTHROSCOPY KNEE REMOVAL LOOSE/FOREIGN BODY \u00b7 0 \u00b7 1 \u00b7 1 \u00b7 29875 \u00b7 ARTHROSCOPY KNEE SYNOVECTOMY LIMITED SPX \u00b7 0 \u00b7 2 \u00b7 2 \u00b7 29876 \u00b7 ARTHROSCOPY KNEE SYNOVECTOMY 2 OR GT COMPARTMENTS \u00b7\"}, {\"title\": \"SHOULDER ARTHROSCOPY Original Date: August 2016 ...\", \"url\": \"https://ldh.la.gov/assets/medicaid/MCPP/3.16.23/2/1889_LHCC_Shoulder_Arthroscopy_2023_Redline.pdf\", \"snippet\": \"CPT Codes**: - <strong>Shoulder Rotator Cuff Repair: 23410, 23412, 23420, 29827</strong> \u00b7 - Shoulder Labral Repair: 23450, 23455, 23460, 23462, 23465, 23466, 29806, 29807 \u00b7 - Frozen Shoulder Repair/Adhesive Capsulitis: 29825, 23700 \u00b7 - Shoulder Surgery Other: 23120, 23125, 23130, 23405, 23415, 23430, 23700, ...\"}, {\"title\": \"CPT 29827 Arthroscopic Rotator Cuff Repair Reimbursement | OpenPayer\", \"url\": \"https://www.openpayer.com/billing-codes/cpt-29827-arthroscopic-rotator-cuff-repair-shoulder\", \"snippet\": \"CPT code 29827 denotes an <strong>arthroscopic repair of a torn rotator cuff</strong>, a commonly performed minimally invasive shoulder surgery to reattach and repair torn tendon tissue. Nationally, this code is central to musculoskeletal surgical billing for sports-related and overuse shoulder injuries that ...\"}, {\"title\": \"Subject: Shoulder Arthroscopy Guidelines Original Effective Date: 6/9/21\", \"url\": \"https://www.molinahealthcare.com/-/media/Molina/PublicWebsite/PDF/Providers/wa/Medicaid/resource/mcp-mcr/MCP-404-Shoulder-Arthroscopy-Guidelines.pdf\", \"snippet\": \"Please see M C G criteria for rotator cuff repair.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "id": "rs_08ddbb40daa2effe016a9b6d0e222487d2978f18e146959271",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm20P8T_OqU1W8SsGyGFn2FkbE2Cov8JfoEKhUTKz4CAEwlTWUdm3vJeqYztx7aM12iV2sVdE8N-PjEsgeggFUvt9U6aFJNrYbJNauiNZTCMy_x7CLbb85wNxwa9BXsdNM5Yx5r6LBHR8C7C2cRxZMd8ia3K03zGGMXcuoGm9m7GY7infqALmNg6bofLa9yJvyBZfnjH8qYEww0CtB96epkJCeNCkOYotScRUXTNSRKz9xaz_wB5pVoxOoQk3u6VTkvFwBwhMzgx3hBBvtz5biGdfbjUjJIqcccF014zHkqt5lFToo6z5QgG4BM6VIOIUMUUve34cMBuotXh77sngphe63vHTBG0np9YKcKgSVYDHhTtpQB5Eaw5c-y-rBVHs3HmASP-YD2iGKe73hL7-M_aGx1FoB_STfvJygwjd6n-BorMYTLzhBdFv0dNvSKC8gGfMj7o8RUAmMbx6FouOjYuG5EUN9KzPUK6kpHS7x6TDNds3_GduOB9x_2swHdY_ow0dcmoY2gUJTvd8z_zMnbVoPvsPJ6SKXeB6pyWA10AmDTUnZL4Rqot-wuvLnyGspkk56WksO2_5vu5b5j8zlmiT6VNeVZ4L03ASPvZrIffBKEkj0z_jP0m34oH-xy65MVEi68bV7EZzoJpNfkGCNzC_2M7mm0qARe4sRdvtD8pPWf9wPwawIJYFarLHG5Ln4mtPM13zTnDhrGKX5jmh_vWD1N8keY8tDY01-rFUb-rrYBkLnQTj7kkkRu7g4HebIK_M0Z-0YSPpSFUlo7npXe52zH33V1N1meFvEeCd3GE19nHMOFgqZx9eL_EsiAVyoHir8aNZ-7Gy2Vd-wn-lJrojAAiWXll1CO-BYF2HLgwKA1vFKHWz2TEUhPjiZs61irz6R_K1yvUCiwZrz8eOwzAhKXP5tmwzrKYfbjGV2fYpaOZfcpm_qmGwxcsV4JYjoX-75ocPUXaY4gpBEZeomQKwbMQODVJyMOKNVImFZEvuT2lENlOZYHpvZC2CtLGH_wFfqbRK1nsai6A16mY3O2fjT4_QdQxo3jpJVtl7RX5fWdKp9JBFxzNbe6Fm28gDrQAAWIYy1AG80XN1_Bb8-gaOobjUIhEsPJns-efxAJPXFJOUJUJhVA1sDnIL7tPmJ9fvS3Xt1n688Jed7UGT7U5tb2iHszGmh3bs8k5LI4MTITIvyQshrM2Y5eE3TtynqblMP-ayKDnqz-TVhbtkrcdnYyfOMWc8HH9ImN55Lnd28lRvuArvzwFClQIWA3ywHuT7S-DiF55BRsOMFmYd9SfnGA==",
+   "status": null
+  },
+  {
+   "arguments": "{\"url\":\"https://www.molinahealthcare.com/~/media/Molina/PublicWebsite/PDF/Common/Molina%20Clinical%20Policy/Shoulder%20Arthroscopy%20Guidelines_R.pdf\"}",
+   "call_id": "call_j4My3oqxFVDuPm8PgjC2YGSh",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_08ddbb40daa2effe016a9b6d0fa59887d28e3730bb89a740fe",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:molinamarketplace.com/marketplace/ms \\\"180 days\\\" appeal commercial Molina Mississippi address appeal grievance members ACA handbook PDF\",\"count\":10}",
+   "call_id": "call_D7WcSlnn5VQsjrSk7tGJHWak",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08ddbb40daa2effe016a9b6d0fa5ac87d281cdd066a0039e4b",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:molinamarketplace.com/marketplace/ms/en-us/Members appeal adverse benefit determination 180 days Molina Mississippi Marketplace\",\"count\":10}",
+   "call_id": "call_DO1ZvhukyNQEhAVjJjMBHged",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08ddbb40daa2effe016a9b6d0fa5b487d2b294d0dc24e4b061",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_j4My3oqxFVDuPm8PgjC2YGSh",
+   "output": "{\"url\": \"https://www.molinahealthcare.com/~/media/Molina/PublicWebsite/PDF/Common/Molina%20Clinical%20Policy/Shoulder%20Arthroscopy%20Guidelines_R.pdf\", \"final_url\": \"https://www.molinahealthcare.com/~/media/Molina/PublicWebsite/PDF/Common/Molina%20Clinical%20Policy/Shoulder%20Arthroscopy%20Guidelines_R.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"error\": \"fetch blocked or unreadable: extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_D7WcSlnn5VQsjrSk7tGJHWak",
+   "output": "{\"query\": \"site:molinamarketplace.com/marketplace/ms \\\"180 days\\\" appeal commercial Molina Mississippi address appeal grievance members ACA handbook PDF\", \"results\": [{\"title\": \"Complaints and Appeals\", \"url\": \"https://www.molinamarketplace.com/marketplace/ms/en-us/Members/Members%20Resources/gna\", \"snippet\": \"Molina will notify You and Your ... Grievance.. <strong>You or Your Authorized Representative may file a request for an internal review of an Adverse Determination within 180 days from receipt of the Adverse Determination</strong>....\"}, {\"title\": \"Drug and Biologic Coverage Criteria\", \"url\": \"https://www.molinamarketplace.com/marketplace/ms/en-us/Providers/-/media/10B686F1CAB9426F88C9ECFD6F298FE0.ashx\", \"snippet\": \"<strong>last 180 days, medical necessity for the member will be reviewed using the updated FDA label information</strong>. Coverage will be determined on a case-by-case basis until the criteria can be updated through Molina\"}], \"result_count\": 2, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_DO1ZvhukyNQEhAVjJjMBHged",
+   "output": "{\"query\": \"site:molinamarketplace.com/marketplace/ms/en-us/Members appeal adverse benefit determination 180 days Molina Mississippi Marketplace\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "arguments": "{\"url\":\"https://www.molinamarketplace.com/marketplace/ms/en-us/Members/Members%20Resources/gna\"}",
+   "call_id": "call_DdMd5jviFNSIUqRryyvlpIJP",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_08ddbb40daa2effe016a9b6d18958487d2bfec1f0bdde92083",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Molina Mississippi Marketplace member handbook 2026 appeal address Molina Marketplace Appeals P.O. Box 22702 Long Beach CA\",\"count\":10}",
+   "call_id": "call_CcHN8zCieRFNYCUFMqoWHBps",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08ddbb40daa2effe016a9b6d18959887d2a900d4775cdb68c7",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Molina Marketplace Mississippi appeal form submit appeal address 180 days P.O. Box\",\"count\":10}",
+   "call_id": "call_q099BBcUCqC1V5eoOHiIKh11",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08ddbb40daa2effe016a9b6d1895a487d2b49beca63b905720",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_DdMd5jviFNSIUqRryyvlpIJP",
+   "output": "{\"url\": \"https://www.molinamarketplace.com/marketplace/ms/en-us/Members/Members%20Resources/gna\", \"final_url\": \"https://www.molinamarketplace.com/marketplace/ms/en-us/Members/Members%20Resources/gna\", \"http_status\": 200, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Complaints and Appeals Skip to Main Content Complaints and Appeals Select your State and Language \u00d7 Find out if you can become a member of the Molina family. Pick your state and your preferred language to continue. State California Connecticut Florida Idaho Illinois Kentucky Michigan Mississippi Nevada New Mexico Ohio South Carolina Texas Utah Washington Wisconsin Language English Espa\u00f1ol Save Changes Cookies We use cookies on our website. By using our website, you consent to our use of cookies in accordance with our Privacy Policy. Read more Agreed Close Find helpful resources, plan materials, payment information and more. Enter a query above to search our website. Categories Email this page \u00d7 Email to Subject Recaptcha Error Send Email Thank You! Your message has been sent. Unable to send email, contact IT Support Team Select your plan to look up covered drugs \u00d7 Please note that these links will take you to an external website. Select your plan year to find a pharmacy \u00d7 Please note that these links will take you to an external website. \u00d7 Thank you! Open as a new window for survey Take a survey Tell Us what You Think.. \u00d7 We appreciate your feedback about our website. Rate This Page Overall Satisfaction with this Website Great Good Okay Bad Very Bad Ease of Use Great Good Okay Bad Very Bad Information Great Good Okay Bad Very Bad 1. What is the reason for your first visit Please choose one Login to a secure website (i.e. myMolina) Find a doctor/hospital/other provider Learn about Molina products/services Learn about career opportunities @ Molina Other 2. Are you a: Please choose one Molina member Possible future member Health Care Professional Community based organization For questions or comments about your coverage, or for more information, please Contact Us . By submitting my information via this form, I consent to having Molina Healthcare collect my personal information. I understand and agree that my information will be used and shared in accordance with Molina Healthcare's Privacy Policy and Terms of Use. Submit Almost There\u2026 Let us help you enroll today! \u00d7 Call today to speak to an agent (855) 542-1974 Monday \u2013 Friday 8:00 a.m. \u2013 6:00 p.m. Have an agent contact you First Name Last Name Phone Number Email ZIP Code We've received your information and a representative will be in touch with you shortly. {80692560-8A36-43CB-8836-C57F3A6E0584} Unable to process request temporarily *This is a solicitation for insurance and an agent may contact you. By providing your email address, you are opting to receive health plan information and marketing email communications. You can unsubscribe at any time. Get your Estimated monthly premium Something new is on the way! Molina's website is getting a fresh new look while continuing to provide the same trusted benefits, services, and information You can now see your prior authorization letters in the My Health Record section of your Member Portal. Log in or register today! Menu Menu Close Menu Individuals & Families Enroll Now Services Prescription Drugs Virtual Care Adult Routine Vision Pediatric Vision Case Management Guidelines to Keep You Healthy Health Education Programs Nurse Advice Line Find a Doctor Find Urgent Care Find a Pharmacy Search Drugs Helpful Videos Contact us Individuals & Families Getting Started Make a Payment Forms and Documents When can you Enroll? FAQ Members Member Resources My Molina Complaints and Appeals Molina Healthy Rewards Surprise Medical Bill Protections Newsletters Molina Help Finder Quality Service Member Rights & Responsibilities HEDIS New Technology Fraud Quality Improvement Program Patient Safety Program QHP QHP Results Find a Doctor Search Drugs Find a Pharmacy Helpful Videos Contact us Members Getting Started Make a Payment Forms and Documents When can you Enroll? FAQ Providers Forms and Documents Policies Benefit Interpretation Policies Fraud Prevention Tips Member Rights & Responsibilities Reimbursement policies HIPAA HIPAA Transactions HIPAA Code Sets Unique Identifiers HIPAA Resource Center Privacy of Health Info HIPAA Security Contact HIPAA EDI ERA/EFT EDI ERA/EFT Join Our Network Drug List Health Resources Quality Improvement HEDIS Reference Information QHP Reference Information Clinical Practice Guidelines Preventive Health Guidelines Behavioral Health Toolkit Health Management Integrated Case Management 24 hour Nurse Advice Line Opioid Safety Resources Utilization Management HEDIS/CAHPS Tip sheets Join Our Provider Network Provider Education Series Communications Overview Provider Newsletter Resources & Training Provider News and Update Contact Us Providers Forms and Documents FAQ Brokers Become a Broker Broker Services Team Why Choose Molina Payment Methods Broker Portal View Plans On Exchange Plans Plan Documents Marketing Materials Broker FAQs Contact Us Brokers About Why Molina Our Doctors Members Stories In the Community Company Information About Us News and Media Pricing Transparency Staying Healthy About Getting Started Make a Payment Forms and Documents When can you Enroll? FAQ Member Login Enroll opens as a pop up Enroll Now A A A Select Language English Espa\u00f1ol Select State California Florida Idaho Illinois Kentucky Michigan Mississippi Nevada New Mexico Ohio South Carolina Texas Utah Washington Wisconsin Member Login Home Members Member Resources Complaints and Appeals Print the contents of the page Share this page Email share opens as a popup Email Facebook share opens as a tab Facebook Twitter share opens as a tab Twitter GRIEVANCES Definitions for This Section \u201cAuthorized Representative\u201d means an individual who is authorized to act on Your behalf with respect to a Grievance, either by law or in accordance with Molina\u2019s processes \u201cGrievance\u201d means any dissatisfaction with Molina that is expressed, in writing, to Molina by You, or Your Authorized Representative: \u201cExpedited Review\u201d means a review of a Grievance involving an Adverse Determination where the standard resolution process may include any of the following: Serious jeopardy to Your life or health (or the life or health of Your unborn child) or Your ability to regain maximum function; or In the opinion of the treating physician, would subject You to severe pain that cannot be adequately managed without the care or treatment that is the subject of the Grievance; or Is determined to be an expedited Grievance by the treating physician \u201cStandard Review\u201d means a review that does not require a decision to be made on an urgent basis and does not involve any of the conditions listed above in \u201cExpedited Review\u201d. What if I Have a Complaint, also known as a Grievance? If You have a problem with any Molina Healthcare services, We want to help fix it Member Grievance/Appeal Request Form Filing a Grievance You or your Authorized Representative may file a Grievance by phone by calling Molina toll-free at (866) 472-9484 , Monday through Friday, 8:00 a.m. to 6:00 p.m. CT. If You are deaf or hard of hearing, You may contact Us by dialing 7-1-1 for the Telecommunications Relay Service. You can also submit Your Grievance in writing, along with any supporting materials by mail or fax to: By mail: Attn: Grievance Coordinator 1020 Highland Colony Parkway, Suite 602 Ridgeland, MS 39157 By fax: Fax: 1 (844) 808-2407 You can also submit Your Grievance in writing to the Mississippi Insurance Department MISSISSIPPI INSURANCE DEPARTMENT P.O. BOX 79 JACKSON, MISSISSIPPI 39205-0079 You may also call 1 (800) 562-2957 or 7-1-1 (TTY) and ask for 1 (601) 359-3569 to request a complaint form. The Complaint Form is also available at http://www.mid.ms.gov/consumers/online-complaint.aspx You may e-mail them at: consumer@mis.ms.gov . You can find additional information regarding Grievances on Our website at: MolinaMarketplace.com Molina will acknowledge receipt of the Grievance in writing within five business days of receiving it. If Your Authorized Representative filed the Grievance on Your behalf, We will also provide a notice that health care information or medical records may be disclosed only if permitted by law. We will also include an informed consent form. Molina will notify You and Your Authorized Representative (if applicable) in writing of the resolution of Your Grievance within 30 calendar days from the time we received Your written Grievance.. Requesting Internal Review of a Grievance Involving an Adverse Determination You or Your Authorized Representative may file a request for an internal review of an Adverse Determination within 180 days from receipt of the Adverse Determination. Please be sure to include any documents or information you would like Us to consider when We review your appeal. Molina will respond You in writing. For a Standard Review, Our response will be provided to You within 30 calendar days of receipt of Your request. The time period may be extended for an additional 14 calendar days, if Molina provides You or Your Authorized Representative, with written notification, within the first 30 calendar days, of the date when Our resolution will be provided to You and, the reason additional time is needed. For an Expedited Review, Our response will be provided to You within 72 hours of receipt of the request If You are not happy with Our response, You, or Your Authorized Representative may request an External Review of a Grievance involving an Adverse Determination from the Mississippi Insurance Commissioner, as outlined below. Requesting External Review of a Grievance Involving an Adverse Determination If You are not happy with Our response to Your request for review of a Grievance involving an Adverse Determination based on Medical Necessity, appropriateness of care, health care setting, level of care, or effectiveness of care, You or Your Authorized Representative may make a request for an External review to the Mississippi Insurance Department at the phone number, address or website shown below. Except for Expedited Review requests, You must exhaust Molina\u2019s internal review process before making a request for an external review. When filing a request for an external review, You will be required to authorize the release of any medical records that may be required to be reviewed for the purpose of reaching a decision on the external review. A decision will be rendered by an independent review organization within 45 days of receiving your request. If Your request qualifies for an Expedited Review of the Adverse Determination, a determination will be rendered on an external review as expeditiously as possible, but in no event more than 72 hours after receipt of an expedited review request that meets all applicable requirement. . If the request is for a review of a Grievance based on an Adverse Determination that the service or treatment is experimental or investigational, You may also be entitled to file a request for external review of our denial with the Mississippi Insurance Department. An independent review organization will review your request and provide notice to you of its decision. Any such external review must be initiated within 4 months of the receipt of notice of an Adverse Determination. Requests for external review must be submitted through the Mississippi Insurance Department Submitting a Grievance to the Office of the Commissioner of Insurance You may resolve Your problem by taking the steps outlined above. You may also file a complaint with the MISSISSIPPI INSURANCE DEPARTMENT . The MISSISSIPPI INSURANCE DEPARTMENT is a state agency that enforces Mississippi's insurance laws. You may contact the MISSISSIPPI INSURANCE DEPARTMENT by writing to: MISSISSIPPI INSURANCE DEPARTMENT P. O. Box 79 Jackson, MS 39205-0079 You may also call the MISSISSIPPI INSURANCE DEPARTMENT Complaints Department at 1(800) 562-2957 or 7-1-1 (TTY) and ask for 1 (601) 359-3569 to request a Complaint Form. The Complaint Form is also available at http://www.mid.ms.gov/consumers/online-complaint.aspx You may e-mail them at: consumer@mid.ms.go\", \"text_truncated\": true}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_CcHN8zCieRFNYCUFMqoWHBps",
+   "output": "{\"query\": \"Molina Mississippi Marketplace member handbook 2026 appeal address Molina Marketplace Appeals P.O. Box 22702 Long Beach CA\", \"results\": [{\"title\": \"PROVIDER MANUAL (Provider Handbook) Molina Healthcare of Mississippi, Inc.\", \"url\": \"https://www.molinamarketplace.com/marketplace/ms/en-us/Providers/-/media/BBAB39D4707E47F7A07EC918C263857A\", \"snippet\": \"the grievance. If a Member submits an appeal, the Provider will participate by providing medi<strong>cal</strong>\"}, {\"title\": \"Contact us\", \"url\": \"https://www.molinamarketplace.com/marketplace/ms/en-us/Providers/Contact-Us\", \"snippet\": \"As of February 1, 2026, authorization requests must be submitted through Availity, except for <strong>Pharmacy and delegated UM ve</strong>ndors (Evolent, Healthmap, ProgenyHealth).\"}, {\"title\": \"Member Handbook | Molina Healthcare of Mississippi\", \"url\": \"https://www.molinamarketplace.com/members/ma/en-us/sitecore/content/MolinaHealthcare/members/ms/mem/medicaid/overvw/handbook.aspx\", \"snippet\": \"This information tells you which services need approval before you get care and shows how man<strong>y requests are approved, deni</strong>ed, or approved after an appeal.\"}, {\"title\": \"Mississippi Providers Home\", \"url\": \"https://www.molinahealthcare.com/providers/ms/medicaid/home.aspx\", \"snippet\": \"Mailing Address Molina Healthcare of Mississippi, Inc. <strong>PO BOX 22618 Long Beach, CA 90801</strong> ... If your claims are mailed to our Jackson, MS office, they will be returned unprocessed. ... If you chose to submit a written appeal and/or grievance, it must be submitted by mail to the address listed below.\"}, {\"title\": \"PROVIDER MANUAL Molina Healthcare of Mississippi, Incorporated\", \"url\": \"https://www.molinamarketplace.com/Marketplace/MS/en-us/Providers/Provider-Forms/~/media/Molina/PublicWebsite/PDF/providers/ms/Marketplace/2022_MS_Marketplace_ProviderManual242022.pdf\", \"snippet\": \"Appeal and registration for and use of the Provider Portal.\"}, {\"title\": \"Providers\", \"url\": \"https://www.molinamarketplace.com/marketplace/ms/en-us/Providers\", \"snippet\": \"Please notify Molina Healthcare at least 30 days in advance when you have any of the followin<strong>g: Change in office location,</strong> office hours, phone, fax, or email ... For providers seeking to appeal to denied Prior Authorization (PA) on behalf of ...\"}, {\"title\": \"Molina Marketplace of Mississippi\", \"url\": \"https://www.molinamarketplace.com/marketplace/ms/en-us\", \"snippet\": \"Select your State and Language \u00b7 Find out if you can become a member of the Molina family. Pi<strong>ck your state and your prefer</strong>red language to continue\"}, {\"title\": \"Molina Provider Phone Number and Claim Address & TFL (2026)\", \"url\": \"https://medicalbillingrcm.com/molina-healthcare-phone-number-and-claim-address/\", \"snippet\": \"Molina Healthcare is a managed care insurance company and its head office situated in Long Be<strong>ach, CA, USA. Molina Phone nu</strong>mber up\"}, {\"title\": \"Forms and Documents\", \"url\": \"https://www.molinamarketplace.com/marketplace/ms/en-us/Providers/Provider-Forms\", \"snippet\": \"2026 Marketplace Provider Manual Download 2026 Marketplace Provider Manual\"}, {\"title\": \"PROVIDER MANUAL Molina Healthcare of Mississippi, Inc.\", \"url\": \"https://www.molinamarketplace.com/marketplace/ms/en-us/Providers/-/media/67A1128E61C94ED1BA4AF5D4E4108131.ashx\", \"snippet\": \"Molina Healthcare of Mississippi, Inc \u00b7 The Provider Manual is customarily updated annually b<strong>ut may be updated more</strong>\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_q099BBcUCqC1V5eoOHiIKh11",
+   "output": "{\"query\": \"Molina Marketplace Mississippi appeal form submit appeal address 180 days P.O. Box\", \"results\": [{\"title\": \"Complaints and Appeals\", \"url\": \"https://www.molinamarketplace.com/marketplace/sc/en-us/Members/Members%20Resources/gna\", \"snippet\": \"In the case of an Adverse Benefit ... which We describe below \u00b7 <strong>You must appeal an Adverse Benefit Determination within 180 days after receiving written notice of the denial (or partial denial).</strong>...\"}, {\"title\": \"Mississippi Providers Home\", \"url\": \"https://www.molinahealthcare.com/providers/ms/medicaid/home.aspx\", \"snippet\": \"Mailing Address Molina Healthcare of Mississippi, Inc. <strong>PO BOX 22618 Long Beach, CA 90801</strong> ... If your claims are mailed to our Jackson, MS office, they will be returned unprocessed. ... If you chose to submit a written appeal and/or grievance, it must be submitted by mail to the address listed below.\"}, {\"title\": \"PROVIDER MANUAL (Provider Handbook) Molina Healthcare of Mississippi, Inc.\", \"url\": \"https://www.molinamarketplace.com/marketplace/ms/en-us/Providers/-/media/Molina/PublicWebsite/PDF/Providers/ms/medicaid/2024_ms_marketplace_providermanual_redline_102023-11-21-2023_R_noRed.pdf\", \"snippet\": \"Molina requires all contracted Providers to participate in and comply with Molina\u2019s Electronic \u00b7 Solution Requirements, which include, but are not limited to, electronic submission of prior \u00b7 authorization requests, prior authorization status inquiries, health plan access to electronic \u00b7 medical records (EMR), electronic Claims submission, electronic fund transfers (EFT), electronic \u00b7 remittance advice (ERA), electronic Claims Appeal and registration for and use of the Availity\"}, {\"title\": \"APPEAL PROCESS AND HEARINGS | Mississippi Department of Revenue\", \"url\": \"https://www.dor.ms.gov/forms-resources/taxpayer-guidance/appeal-process-and-hearings\", \"snippet\": \"This section describes the administrative appeal process to be followed when a person is aggrieved by certain actions of the Department and includes a description of the types of actions that may be appealed, how to file an administrative appeal, who may attend the hearing, and what to expect ...\"}, {\"title\": \"Claims & Appeals\", \"url\": \"https://www.molinahealthcare.com/providers/nm/medicaid/resource/Claims-Appeals.aspx\", \"snippet\": \"Learn more about EDI Submitting electronic claims Molina Healthcare offers a direct submit/web-based claims option through Availity. This functionality is available via the provider portal on our website. There is no charge to participating providers for submitting claims through the Availity tools.\"}, {\"title\": \"Marketplace Pre-Service Appeal Request Form\", \"url\": \"https://www.molinamarketplace.com/marketplace/ms/en-us/Providers/-/media/CB430D8FEF1A47EAB9D818DAA239AAA2\", \"snippet\": \"Pre-Service Appeal Request Form \u00b7 you want to appeal the decision we have made, you can write a letter or fill out this form. You have up\"}, {\"title\": \"For more information, please refer to the Provider Manuals. Claims\", \"url\": \"https://www.molinahealthcare.com/-/media/Molina/PublicWebsite/PDF/Providers/ms/medicaid/MHMS0586ClaimsProviderCheatSheet-MSCAN-CHIP-NEW_R.pdf\", \"snippet\": \"https://www.molinahealthcare.com/providers/ms/medicaid/ ... The provider should file a corrected claim. ... Claim Disputes/Appeals at <strong>(844) 808-2409</strong>.\"}, {\"title\": \"How to Appeal a Denial | Medicaid | Molina Healthcare of Mississippi\", \"url\": \"https://www.molinahealthcare.com/members/ms/en-us/mem/medicaid/overvw/quality/cna/appeal.aspx\", \"snippet\": \"We will call you and send you a letter within two (2) calendar days of extending the timeframe. The letter will include the reason why we need more time and how the delay is in your best interest. You have the opportunity to present Molina with evidence of the facts or law about your case, in person or in writing.\"}, {\"title\": \"Appeals\", \"url\": \"https://www.molinahealthcare.com/members/sc/mem/medicaid/overvw/quality/appeals.aspx\", \"snippet\": \"Please select one of the states in which Molina Healthcare provides services \u00b7 If you do not agree with Molina&#x27;s choice to deny a requested service(s), and you ask that we change our decision - this is an appeal. To make an appeal, you must contact Molina within 60 calendar days of the denial\"}, {\"title\": \"CLAIMS Billing Address\", \"url\": \"https://www.molinahealthcare.com/providers/mi/medicaid/manual/PDF/manual_MI_ClaimsAndEncounterData.pdf\", \"snippet\": \"your query looks similar to an automated request from a computer virus or spyware application or you may be trying to access our site from a blocked region \u00b7 To protect our users, we cant process your request\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "id": "rs_08ddbb40daa2effe016a9b6d1e9bac87d29797298b03bdf947",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm20gCJTf4YwP77qEWECoXFBtn4H0BRQCW96i-AjvVT2yuE6lGud-YPBJYhM33O_SD1mtPCUrTYAU_DoBwqI_RYddTnbiWFU2yXITyUnz3AlSSExWeB_nd6Nhm9-sB2dCP95KaIVKTfX6R9046_2My8vXvtNpOV_cAC2rfG0kxDuccTefsG9zapn5NJePkvicGbhlYoMZHHHjO9C1omnSDVyGjTufTfmz6QGEfw0mzkKgsmZBuNDUjXogzcQuvq8vKnYWOUwcYHD8xYeHqJzQl_vF4uDx-jGvUjPbSJ7XBCk14PekaIse7vAPXACLXnHfxdYxg0lNegVgcIA8gfwXX0KDzOStWnPfQOOydrPbAG50HeA8ae_6Fxmtj0SI7rqWEdbrVffE_N5Z4HRh2_CjD5w5SccZ3CXrR_aSzhZxi0j21i8GXnn4byhc-uBPT5DczrNeLcmSWP592aYZFgSjNUamcD8WF_SHKAV0-IkCJjvzcH2E7ffNB5gLuQve4i59wes1xlJ4BYPS2Zt2H1ajnXmgcp3ReF5XWPSGTrfC4RT1SPC2S9USo3rR4nC37ROqh69_vYhx5uAjiLH1to9hs4NcUaIxIqAePnYtLJKBVL2dr6FfhzuAJHZDU0c__cVkKMSrR_LBUoGDBcaGQqZj_oSOMl5uidj0JH399_kun3U1EY2UiEe2NXkGM2yVT4isegcvhYk-7d99f6itF2mXqknoWMsxPcPyx_sQAzvh7KSjvNFOmotk6fBAHG1I6MAkY6CDaEWCq6EJ2VnRn-JLK8s56iWIbY1esxrjpMMr_W7cCTkJrSOqlQNcj-ewXORJxJsNomoQurVqAJ9s38hsdek_4ao3nT1I8SXLtUxyamU8fb8dIHMM8QgR1xS5lAqS860ffwUZxHB2NOqKWqiU560V6iU5gh_iBs-s582sjvekZnyh48XsN-NaEMFGvKMS6ElMiRE7mlCbA5OryejGvgBM1o7PVtvZjVIOB6P80hzBa2nrQW42L1Pc6IAaqQ-jZkK8UQ3Yh0n1tS03RFLzC9XDXxlXkN8uQc0Sxjw7ZtnNwTO6N53J1PXaIeeJqZ9fHE9atuNm7r77cm7Knzaa_HSZBr9cxFtbo23DR6xltoBC4y1t8CWtKNJmbRSRFfyHA-k_kK8L2yhJFKCTfNTqdutM3LMzNXdKULqdJE6B1W6p2lp_jBJzS-Qh5pVW98QbieQm95jQtjmIqfzaRYTt0uXzLJU8DAotUrLyJC_9xPjgl5ie7UVNYSa2OKvKY0aS_nT3",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Shoulder Arthroscopy\\\" \\\"MCP-404\\\" Molina policy number effective revised rotator cuff repair\",\"count\":10}",
+   "call_id": "call_DteTUJ2pv51jnT9odwuS9yJd",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08ddbb40daa2effe016a9b6d1feb6087d299b3f467d040a000",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Molina Clinical Policy\\\" \\\"Shoulder Arthroscopy\\\" \\\"Policy No. 404\\\"\",\"count\":10}",
+   "call_id": "call_GJGG7wco040l6EmRzzdeatbt",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08ddbb40daa2effe016a9b6d1feb7487d28651525a6ca84290",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"MCP-404\\\" \\\"rotator cuff\\\" Molina criteria\",\"count\":10}",
+   "call_id": "call_veSSfMKFtzBFhO6Q7wE6w0Ie",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08ddbb40daa2effe016a9b6d1feb8087d2ad26698d748f6842",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_DteTUJ2pv51jnT9odwuS9yJd",
+   "output": "{\"query\": \"\\\"Shoulder Arthroscopy\\\" \\\"MCP-404\\\" Molina policy number effective revised rotator cuff repair\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_GJGG7wco040l6EmRzzdeatbt",
+   "output": "{\"query\": \"\\\"Molina Clinical Policy\\\" \\\"Shoulder Arthroscopy\\\" \\\"Policy No. 404\\\"\", \"results\": [{\"title\": \"Molina Clinical Policy Shoulder Arthroscopy: Policy No. 404\", \"url\": \"https://www.molinahealthcare.com/~/media/Molina/PublicWebsite/PDF/Common/Molina%20Clinical%20Policy/Shoulder%20Arthroscopy%20Guidelines_R.pdf\", \"snippet\": \"Molina has provided the best healthcare quality and affordability for more than 30 years. See what sets us apart.\"}, {\"title\": \"Molina Clinical Policy Shoulder Arthroscopy: Policy No. 404\", \"url\": \"https://www.molinaclinicalpolicy.com/~/media/Molina/PublicWebsite/PDF/Common/Molina%20Clinical%20Policy/Shoulder%20Arthroscopy%20Guidelines_R.pdf\", \"snippet\": \"Marketplace Pharmacy Policies are located here. Select your State at the top right of the page \u00b7 For Medicaid Pharmacy Policies, please review your State specific webpage via the MolinaHealthCare.com main page \u2013 select your State at the top of the page. For further questions, please contact ...\"}, {\"title\": \"Molina Clinical Policy Shoulder Arthroscopy: Policy No. 404\", \"url\": \"https://www.molinamarketplace.com/marketplace/tx/en-us/Providers/Policies/-/media/Molina/PublicWebsite/PDF/providers/tx/Marketplace/Policy/Molina%20Clinical%20Policy%20Shoulder%20Arthroscopy%20Guidelines.pdf\", \"snippet\": \"The drugs on the list are chosen by a group of doctors and pharmacists from Molina Healthcare and the medical community. Certain drugs on the Drug Formulary require preauthorization. Molina also has a process to allow you to request and gain access to clinically appropriate drugs that are not ...\"}], \"result_count\": 3, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_veSSfMKFtzBFhO6Q7wE6w0Ie",
+   "output": "{\"query\": \"\\\"MCP-404\\\" \\\"rotator cuff\\\" Molina criteria\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "id": "rs_08ddbb40daa2effe016a9b6d23329c87d29bbf4779505e59bc",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm20kj6N9nZvNxmqnA0l5PRfzNv00EW7kRfh4aG9vS64ZtpfSBo_eMc6Ae4qwne3-02ObcvnYdVlgAfxkpDoc40dZxpzgMNLePqF2oqtYgiTvh6x0-gkpecBw46MdlNwJWixJv4mfqHg2xXmz5By6r0s865xMBCKpZJxokbs7qnSKvFNy56ZO9wQSma3aljvSN_rJHU55dmppDeOLL0Y70o5OV_T2T__fmaS7HwsY9oeIAwx33Zoh3z8JtEf-VWD7LnWiS_f3Hs2GEdeNutGE4swonaH9KcZg6lKK-iSeRigXtUGlbmedt4hmiynoGlz9WsE6xNSQzbkQO9rN5rN4dV8egqPoVJXvjRECFWmRP4i9FyNMBgLRqo3CuJwbJ571Vyb-XhBs7x73STkU14h_7_eEDvQmu-s_oTmUkMscuzv7_K0PvZD9HrgGTT5dbGWBQ1fqvq8OnuhSf7WqQIoWeOdSPhwScq4faoQ97c8pFS6r-p6skIW4t1OF-_JecBOhGQDB-Z7Q9v1mPTw9wI9-gCBMQ_MAzu-t7xPJ6q8kjFpgNPuUoOu29C1An50jzWldwcceCEDtgRw3eKZIYkvytyVLTty4xts97LtUA_4fSdh66qkd7FILuN7-p21Dz00eeSz270Sf6ituRN7lOD9EA9oSBH3DawWjHNxv65n1-Jmn8H5-qrEzKfY2ci6ses7iYRJvGiwWVrq8Bbs6f7ccyiyPqHNSJz4qMufmhbGDfVFoV5rQIkXSye6ebZ2QBZDSpUnMyGXiPlG7ztEbOBLCzPjP2tLbAsBW3PKh9dXpha-oWZrZJkcffU4eFrBx36Bi_5WZN8Ut0UMxl_VpL-YyPXLujKHRdAWn4NUDJbRvPGpoM5BVWyEL-p383tM3pteiCTemfHleT_-7EeK0yO25kiFj31svE0UoEXU07mA0CyM5lee3pI__hU1Dd31VNFFbNMpJOkZXvaz8pIisdUH63gULEdKJ_PMN_wcFDFeCAYG527GzD28xlRkYO8Lv8x_DbMmE23kZXtUgc8nOpn6-cXZCB5HEVCIc9P6sgS9zxp0KprZzjXNH4xGaHIGSJ7ojyaCrwgUfO-pLycphzjCGTwxLfLxnIqswOJMsUlX2C9NB_i1JJpwHi-hC5VQG09YlDtvNTmZddEnpoIJo98XtuAb_ozDMvyKH2F84sfkoqtsCGDaQ4x7V6LH_wkrO8tvQjSmX5TXy5sQf8dRib0BdjWYpYfI3DzQ8ffqdndfuxJ1sEqRuRL9KBzdNnMMApYJItojd36TEjEv2zPHP6CStsTAnAPdTc45KsPumgpJxCTyEnkU=",
+   "status": null
+  },
+  {
+   "arguments": "{\"url\":\"https://www.molinamarketplace.com/marketplace/tx/en-us/Providers/Policies/-/media/Molina/PublicWebsite/PDF/providers/tx/Marketplace/Policy/Molina%20Clinical%20Policy%20Shoulder%20Arthroscopy%20Guidelines.pdf\"}",
+   "call_id": "call_mPnZwKQDHTb7eTjAxSgSs9zM",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_08ddbb40daa2effe016a9b6d24bd7087d28b88bd267a999a98",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://www.molinahealthcare.com/-/media/Molina/PublicWebsite/PDF/Providers/wa/Medicaid/resource/mcp-mcr/MCP-404-Shoulder-Arthroscopy-Guidelines.pdf\"}",
+   "call_id": "call_yuUFVW0lkYe8ygcjUflg2YjV",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_08ddbb40daa2effe016a9b6d24bd8087d2900203984f07dd8a",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Molina \\\"Please see MCG criteria for rotator cuff repair\\\"\",\"count\":10}",
+   "call_id": "call_GvCbV4HZ3Y51nnEAgTK8SWSc",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08ddbb40daa2effe016a9b6d24bd8c87d2b7aa0bc4fa2b2b5a",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_mPnZwKQDHTb7eTjAxSgSs9zM",
+   "output": "{\"url\": \"https://www.molinamarketplace.com/marketplace/tx/en-us/Providers/Policies/-/media/Molina/PublicWebsite/PDF/providers/tx/Marketplace/Policy/Molina%20Clinical%20Policy%20Shoulder%20Arthroscopy%20Guidelines.pdf\", \"final_url\": \"https://www.molinamarketplace.com/marketplace/tx/en-us/Providers/Policies/-/media/Molina/PublicWebsite/PDF/providers/tx/Marketplace/Policy/Molina%20Clinical%20Policy%20Shoulder%20Arthroscopy%20Guidelines.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"error\": \"fetch blocked or unreadable: extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_yuUFVW0lkYe8ygcjUflg2YjV",
+   "output": "{\"url\": \"https://www.molinahealthcare.com/-/media/Molina/PublicWebsite/PDF/Providers/wa/Medicaid/resource/mcp-mcr/MCP-404-Shoulder-Arthroscopy-Guidelines.pdf\", \"final_url\": \"https://www.molinahealthcare.com/-/media/Molina/PublicWebsite/PDF/Providers/wa/Medicaid/resource/mcp-mcr/MCP-404-Shoulder-Arthroscopy-Guidelines.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"error\": \"fetch blocked or unreadable: extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_GvCbV4HZ3Y51nnEAgTK8SWSc",
+   "output": "{\"query\": \"Molina \\\"Please see MCG criteria for rotator cuff repair\\\"\", \"results\": [{\"title\": \"Shoulder Arthroscopy Guidelines\", \"url\": \"https://www.molinahealthcare.com/-/media/Molina/PublicWebsite/PDF/Providers/il/resource/Shoulder-Arthroscopy-Guidelines_MCP_404.pdf\", \"snippet\": \"Please see MCG criteria for rotator cuff repair.\"}], \"result_count\": 1, \"error\": null}"
+  },
+  {
+   "id": "rs_08ddbb40daa2effe016a9b6d27682c87d29dca20da92a69cc9",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm20oMvwvAxmA9_PXc0QHo5OYa2MvKao2DCpBfi-TA8Lm8opzxPwuAY7ZBiVLv4UtGwOSn7J0BLfY6S2i3COCYSJZnYOYvnPRcJ3T63vY9wyMPv4eY60xJNUp5vVb2CZCruCTOLouifWAU03dkzQQtmLImi9znmSFxtaY4ajgqQHl-1UMwTNL4DLr2in3fYxs6oW31XSavyKODnbQ9AnRtCHzGKclfdEmcua-5ESHoucSndhQfC7SkKKWyrS0N3fDcsnRzMQvKqtmcdcFtZxNcCOo-yTE6n4EQ2feQVr5wIEnuZ_Ctx7hS0UHV2ufQZwd3J6pLOZNS7nU4Z8TVC8vCLi5FMlSFsySnCv9Iyc7p7vi3iGMoMZgoFXQL9e6ugTJ1wpALx1-OB817kFVizW3qZs9wJ5aepd0WzN7uHtNr0IC-Du_tLfNyLNnSXDNYB-NUbBqKtEX_NLyHGxc5BWm79SKNtIxMfYyE8AiHSHBhVUb-AFSlyUjAGBoAOe0SYCa7xP9WNe32bkjRiVdt4hfB41jw_qTNYJ8_pMpazppDACVzNzqQJe-c3GU05mPYPPGmCgbVp79r6Yd9dggONl1_CS9BhIsdL9B6P_TX6fxfVPNwwMTEcfCVSfCOzyRGBqs9imGBSowpXI2s4_KG01_B-byb9WA-9fj6aaodHYq0ihCH5nEhMfYrhIC7UMFDA6MheTFHrlzhl5bSmRaVIE2FnUtW07CZT1emc0IfC81sGeyKoj3NDi3L0-s5WiN_dwpTvI_oOJy5go-P1TPE4Ybn1VoDB-Nka1HOSKh8h9cmCypI7R5L9KQDAyMb22oLma6m0mjyfNbg8uZc_BHQ1LgU-joqtokFl-Kbi0L0TlK_7R4ymQk6ZPHrOVP3EjeRVjPEsaFk4F0U6rwvjdh-VWfJYOjqRDHuZECxRNpqhBX9dn1T5rglG58hZbalUDNaBe-ATB2YoDGXDcvHejfwe6_sDIPlE7G6cQAo7GPSjVjM1MT61_TDtqNuANKJaccLYGADM1lFxn6vGzx0e-ZkXaNmVhRLCvGgtFgX8nEF2_UA-2GmAssn86UAb2RsA84wunX6y7UBsB7131tgOe1PRNdaO130ax75cynsbczTOOuUcxxVDh8PjqhkGIrPz91a_sKXdnOMhLflo5A_VtI3eQVcgJ4WFHdQ3SLH8JAGrE_ra5NHYQ4i0HTlziG3XlZw6OBZo3cuY2b0fhMn4QDIpMWIbpDGTUeUvDxvDzz7NVTYrABByfxih8DZuVNQZsokfTVOHClpOot4fjCNOY4ouBk4b2An4aCVsJmfB-N2mwxE98TcYOfvnZBhWt8CzrKQmMiTeFp5I6txPNoIlbeEgU6fuZUNZ68R-NQOk54NW9-0w6OLxxnE8yDlccTOWy6clJ9BwL5uDejCoUfifPleaSN8LDwbG6lFC1pPTSezIowT1RNZW5yh6tc_jF-BE27_TF-i9C7AlOstGT5DUsAMgK4iG54WLT1OBwcg_bgBhYydSnSHI9aMgBFZxQeVD8ASsTn9wil7BRJIeJ9bjH48Q0FeGoVYfutAgrsZH0iU3DYVG3ySnQ3AZIQkfcuvNW8xyhSuXk1VTjT-S48_2E02Hr7NA-HViWcAkVwHtX4RSPSyv3Lss2M87xHjlpJk6AytrVRWF4mHUMWafE3UCgmWKQ48rjVLUUjKMpjSkJyMHNmbokICew=",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"Molina Shoulder Arthroscopy Guidelines MCP 404 \\\"rotator cuff repair\\\" \\\"conservative\\\"\",\"count\":10}",
+   "call_id": "call_f8bYuZMvNnJvvW19KMkLDBTU",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08ddbb40daa2effe016a9b6d27bf1887d29786745ef4352279",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_f8bYuZMvNnJvvW19KMkLDBTU",
+   "output": "{\"query\": \"Molina Shoulder Arthroscopy Guidelines MCP 404 \\\"rotator cuff repair\\\" \\\"conservative\\\"\", \"results\": [{\"title\": \"The American Society of Shoulder and Elbow Therapists' consensus statement on rehabilitation following arthroscopic rotator cuff repair - ScienceDirect\", \"url\": \"https://www.sciencedirect.com/science/article/abs/pii/S105827461500751X\", \"snippet\": \"Rotator cuff pathology results in approximately 450,000 operations per year, with the direct medical costs in the United States exceeding $7 billion per year12, 70, 81, 90, 111, 116. Although recent studies support conservative management for symptomatic full-thickness rotator cuff tears63, arthroscopic rotator cuff repair (RCR) for\"}], \"result_count\": 1, \"error\": null}"
+  },
+  {
+   "id": "rs_08ddbb40daa2effe016a9b6d29a72c87d2b5de4e2b8157f71f",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm20qZvFbgFcl2MeS3AhLDVQRsHg055Tb1aWxxDBL30fcS6b_cRVSmuLM9fkz7sHpHuA6Z4JMukU8_1gARRB0Rpw3vAYtb3V3jRSbZcdhVNUQdeCU9h6WnweRMrW27Uk_-1_znThp0vgWRGD81vOs2ywolGI06U27va1QFfQaHzzATKkKLtFc8Tfo6A3CQ0iUF5JYZAYRx1EoLXBpAN7F3tKh5TGFTioV-lh1ePHBwsYtR1VcjNFoffPoW2AVMPnjyn_O1ZxBs1_C_tS90r3Cm-gS5uqvXGY3g0DVrh9huDu3VdvWC5qdYCBATWFVKDofbeG_edcngJruHu7PIG3SSQviShebZnrB6u-o3EPvoXQbRIMgLvAzO1w_q05N5k3O6jIgwQjBFMc46_Z9Ee5Hop7iSzGYTrBk9ycGljjUFSpxtpVeg7PEcZlFkyysucSaPSGR6wHk26zjit7WPEkn3z9g1PLra_P0y0ivJrlrohZ9GjiDmFe8n9JxLBE7DVIWNIezhDTX6upL4D6hMHJ0G9QQjt9kusWCt9xdb3HRRxDMGAB2qNeVSODD8FRS6-ddBG0KdlqJgHrtMwcdlhnu35fLo6wdifWDvNoSM5-Gk7AnO4QdRbYF1LslprzUBTYF2TteXRrIh3w2uEeZv9kyT4UOBNwAbSvpv_sPJw3H_LLX0cBBjeGB3KmaM7kJnXPnuSR_UlsMeusdaXoXU-cLfGGvb_TkMaPs47eLqv_DkElpzrKPsAt8nf6meWeIYh2rNTqddv2LylDVS4QCL1kjVRmkLGT90cmszkwbkftm0S3m4UHZum2DZe6_rHEWnN-lwiAHFRdRWBcQG_pg8AWkX-5plLm5VrLvJaKmjPUKIUEuXNgld8SN_vUe2WXwCbT5P_x6BuMk_LF7Owf9mbWmWYc_FKudmBVTsBECbOHfVjFTUOIpX7o8aym27FgXtgCkXz9cjGtOe5AwrIjoXVXXWb1tpqXBgDkJponMWxJtU2JHUe7Qngt4qEvkWsKhAYldLVhMUoEuEQBupk00WkPn62W_fPDfO0fNAxW5O5yEmacQNvoTmhaz-gz9riut_fzWtVKC1_-KDwCQguMe9q7yOTpAB0M73pVn6B8q0eiYBmChXz8XLtTuekiv25Cef4hodICA5j_yWmxVICb_WhBtR4CWBYBCVKdGhdZPD7AE86zLcYelAQj9W5jvQrtNXrnUsmYbAte0Qd0Xip8AJj25srCnFO6JEGzM0reZ4wZctwriIme2HHmfQ-BRzzeaqThCJDM9Asyj4lA6neHypG7frBoA67vUolCRNEsqHMEDQsrsAAgHRu2lGkkPmQkVahNsXM7i",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Shoulder Arthroscopy Guidelines\\\" Molina \\\"Original Effective Date\\\"\",\"count\":10}",
+   "call_id": "call_CTLT1S6273qYVzRVLKSYLkvt",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08ddbb40daa2effe016a9b6d2ac3d487d2bb1ed04bd8862a58",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Shoulder Arthroscopy Guidelines\\\" Molina \\\"Last Revised\\\"\",\"count\":10}",
+   "call_id": "call_uSemd5V6nWbxDuzth2tgdwHA",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08ddbb40daa2effe016a9b6d2ac3e887d28e71fb66decfa358",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Shoulder Arthroscopy\\\" \\\"Original Date\\\" Molina \\\"Policy No. 404\\\"\",\"count\":10}",
+   "call_id": "call_ic33AFEQaOVPyRkJAu46yuiQ",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08ddbb40daa2effe016a9b6d2ac3f087d29438219551a8df78",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_CTLT1S6273qYVzRVLKSYLkvt",
+   "output": "{\"query\": \"\\\"Shoulder Arthroscopy Guidelines\\\" Molina \\\"Original Effective Date\\\"\", \"results\": [{\"title\": \"Subject: Shoulder Arthroscopy Guidelines Original Effective Date: 6/9/21\", \"url\": \"https://www.molinahealthcare.com/-/media/Molina/PublicWebsite/PDF/Providers/wa/Medicaid/resource/mcp-mcr/MCP-404-Shoulder-Arthroscopy-Guidelines.pdf\", \"snippet\": \"Severe, disabling pain and/or a documented loss of shoulder function which interferes with the ability to \u00b7 carry out age appropriate activities of daily living; and \u00b7 Demonstration of localized tenderness to palpation of the acromioclavicular (AC) joint [not required for ... \u2022 Other potential diagnostic conditions (e.g., fracture, thoracic outle t syndrome, brachial plex us disorder \u00b7 s, referred neck p ain and arthri tis) have been excluded. 7. Arthroscopic capsulorrhaphy (Bankart procedure) for shoulder instability and/or laxity may be considered medically necessary when ALL of the following criteria have been met:\"}], \"result_count\": 1, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_uSemd5V6nWbxDuzth2tgdwHA",
+   "output": "{\"query\": \"\\\"Shoulder Arthroscopy Guidelines\\\" Molina \\\"Last Revised\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_ic33AFEQaOVPyRkJAu46yuiQ",
+   "output": "{\"query\": \"\\\"Shoulder Arthroscopy\\\" \\\"Original Date\\\" Molina \\\"Policy No. 404\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "id": "rs_08ddbb40daa2effe016a9b6d2e33d487d2a93a181bb86059db",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm20v_B5ckHuRgqWeGNEzVRP1eZZ4lpQqtTLmNFi6_2cggTRYSS7r4pacGR_GYEfDnzZv8HfvUYoM5ZhcdHT0CLxr0KwZVXTm7laFJkqAI1pLBV1qEfQMRpWAMseQ3-JNO63SCCGVT3kDiix0AU6gOuLgFT16I4COL-y8Qwn4KNSrqktvOr7CmeHpQoSE41ljt1cd4KCvN6xPBWtEnSLYW3eiFXHCNQ8NtvpB_HCHaEhwIQW12QuypF9iTTJonL5zlLsqeD3AB2dG2xede1P4_E4Pupo6bjnv8FerUyuwpKGfHhDFMUg1K6NgJ7lWoGD90NlQ_6rP7jV9jrimyszPnVQAthxxQX8rYgCcIH6XCSVBzhaz6gTQTmk0VmxMjllQoQvTUIh76_guOb7-3Gf-Q_AinCba7YSfs1hgfg19nzko2TbPbgxPCYJA3X9Ku5bIfZXQOx1U_iKGorVRHlWGu2NYvRWaB12pOGrrwT4HI8Qu9JOD5-sVVjo2TtgqiEDfHkUyvXITVE6GT7hKhQI0OeBRUCBMNl1aZVzPf8WJZtEQgPQgtvfOao-gK_kWUrKXuG5rZVRQgcRdTborv_R059efnau2-cZgY4qv8bnSZW-LXZDKSIbcqwdW4Vo5w1ARNmHowl7_F9QBjVgbF0YylQ-gkoaYVQi2SHvghQhaTj6Q1Uy0ygiAzxmNx_umKhYQIz0glAdAiUWgdGDMcWuWUWMIha32h2HUmjhk6ii0ExgkoxW58HU3El2bgDsbN84Nd-bL7d4Yfjj4vgyDA51AfYFDIFLVqOtaAizcBXDVMz704Uc1Xm58RlNCJZZhlucUBHbDzBnm47u2f9xcu198q1_Qum21kp5cJ8a9DjDPKVXrhUKV_d0ms6vFWmEEY2GJCl58yCyfnwNWTC2ztvnfNkBtAPYtSRFGg6CAdEqE7-IGAo1zRk6jl_s2cbb0f3Q-dTMqA71WBCtDMThgaNq42P9AR2cxnv3ZRZAXZTjptPXkpXravVZy8qesy5QJZ_fsLj5_apFaZz_ysrlzkrU-JNP3fRw8ggbEr7kP91SPy0lI-W_2eQTGyVsx0mTvlT_xzNgMOXl-p6eWLFcmXlJLChJOLCIO3Aoi307_V6pfGLXCWrtZ6oSch7hQChJfnFbnB8S5_7oU8S0ooGVcgg4WebesJ1uNy1FTmxUY8WcTucQzm9qc0G8MjM5zP3i37iqDKyacPTy7QbpO9WyCgQtD9Ze8sw==",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:molinahealthcare.com/-/media/Molina/PublicWebsite/PDF \\\"Shoulder Arthroscopy Guidelines\\\" \\\"CPT\\\" \\\"29827\\\"\",\"count\":10}",
+   "call_id": "call_6e4WZNJzby2oEVJgm4naUdcD",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08ddbb40daa2effe016a9b6d2f78b487d2851d50e5fa28c0c2",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:molinahealthcare.com/-/media/Molina/PublicWebsite/PDF \\\"MCP-404\\\" \\\"Effective\\\"\",\"count\":10}",
+   "call_id": "call_JJiqWKiJ59T2d4p1zZUwY2eq",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08ddbb40daa2effe016a9b6d2f78c887d2b55416eaf8df27b9",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:molinahealthcare.com \\\"Please see MCG\\\" \\\"rotator cuff\\\"\",\"count\":10}",
+   "call_id": "call_BlVDuGHDe456NmUyffRHBFke",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08ddbb40daa2effe016a9b6d2f78d487d295466223cd4e8c2e",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_6e4WZNJzby2oEVJgm4naUdcD",
+   "output": "{\"query\": \"site:molinahealthcare.com/-/media/Molina/PublicWebsite/PDF \\\"Shoulder Arthroscopy Guidelines\\\" \\\"CPT\\\" \\\"29827\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_JJiqWKiJ59T2d4p1zZUwY2eq",
+   "output": "{\"query\": \"site:molinahealthcare.com/-/media/Molina/PublicWebsite/PDF \\\"MCP-404\\\" \\\"Effective\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_BlVDuGHDe456NmUyffRHBFke",
+   "output": "{\"query\": \"site:molinahealthcare.com \\\"Please see MCG\\\" \\\"rotator cuff\\\"\", \"results\": [{\"title\": \"Shoulder Arthroscopy Guidelines\", \"url\": \"https://www.molinahealthcare.com/-/media/Molina/PublicWebsite/PDF/Providers/il/resource/Shoulder-Arthroscopy-Guidelines_MCP_404.pdf\", \"snippet\": \"Please see MCG criteria for rotator cuff repair.\"}], \"result_count\": 1, \"error\": null}"
+  },
+  {
+   "id": "rs_08ddbb40daa2effe016a9b6d32572087d29f5765eeaab119f3",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm208glZK6gjxF8Tw8QlFG-ovrBzsvZrOS9xt_iG3GVnw2VbaBBMIyue7wNOMozausXgvEXay0X2U0K18czMcnSsA1Bja30T-We9hiKtc-5ln2BvvZKwuiWKSV2jICJLVg6Nc734EGdA7RCY0_AcEJH6XsIKZlIV_CHmNxCgYZqAeqXtAsTrP7lh6WWiVs1QKD-jkie-4WKsC-pUJQzMEU1hOcm9Gj-hGDdBguOCTTiVAdBZ-ThVvEZR92N1N4UTepx49sS3ixNMxOMN-URSElH9XGBJ7irtYHBwc6j8pabWvMiDef9fDK94Nz-IGCRMAzAM5_ULoDjD65ZeN-KjynjM-KjfcCgKw7jiDcRx-CKH6qMvRGd5FzfTPuynJ55XCxcZr6bH3W0w82DcHbuLMrturziC0Wf_SQSDpE8WH6Myxs5EE9G4VCqDN6NlvU4WLxNLaobqAgtoKyYS4uB97YGUkJr5oCPtKlze8OIagUt3whPmtyHfsfXPaTyJyBCyI57boSUFjsSKclKyTFw_XHN94XTBxDrwxB8NuUxBt1OcPC-S_1uEQsWDIQJiHccH-p86NysBziCnVF8B1QDXbLEHV-ArmJKpkPkObNU2mBGrYPVHiV6N7b0XY0hEpVAFGvjHOnkC8n517SMhMqxSibzFeG-t9txnSs-vL7kM6ZQ_d7FLlRznd-2sp-hn9lS4tnMtDKY0eKcHerCQNgHyCPMCBXl0hEbIWVfB0KBHU50GvTIRglWGdul20hbtSkTC8EMcLotxB604oScPKzGHj7-_5FEsfnywYi2-5YWC3dTVpB4dV2r2MZZvgkRQlmASXrZV0EF_HwF2O-b2IUchEQpLFjYE-Mcm4yNrr0Wx1u2viw_YmGay4A8Q5f5VdA0iIx7oLyHPf3tWet8T73cuZSvCbO45QZwoPsoYIh5vIz_699WS5tElqV2_M6i-pC-YbvtfTsutoWj_VedolCKmORK7IIYJLAEffbQZMCqdpfGb-vrpoBoXQ3EydX9NXqhDAorAvmE7CYfEKUXwB7NkkjOEQ5UjnjPqSj2RPtAQfZjHEA-CNOMz5rMzR0Bb2lfDyU2diOQh1QZWwzNSLtOCP2TwFX0akEGBzEZk626tQdW2OSFwnVdDyLpege1AZoAf30t86WPANZDETeD4BLf8hBWAFG9fNhxaCTDvt8bJB4EkXg2VsKPOzzaOWPBE4wbdtnVqMw4rOds8JFe3UkijEM0uzhtoButGfGIzb79-jO033Ht20CyA2rNSQyznrm_t0Xi0Karuew53-4_sBlA_1gY2PBHG3bujNDuRmsCKopW0WQGrk6z_-AdOFBNmWZkJcUQ3s80VXNlfF9u1e0WO6s5fNpu96JDPkVnZ4QRzKynS89sMo_hIzVkUNPL-a2hgOHRVT67dukTvhQjiRCAbHBfTh3PmUIIv4W7CsAoTPunmP1g9MvcCUd3HfIyp9jHBKPF0pA8lsAsONXaC8QGlAEWhFO_RaKOMHxXWDTkvV71GzYoDmau6kWn5l391ZFWl5-7V3sEkdTi_VY4noT-24ZPX7Uf3Wh1jjrH6KOBKSRzFsyVaE2nxEwbDlV3KI_mLDP8qo8-4Hvbv1ThYKSLdfv_Rpb9ZrUPQiwr2lqVhKmwV-gUOsRPeFjxQUBDpDugnuBpAQThGmz8EeNN3htsBOb8N7rRqYiFrNEaVuD-ZF9XjAOUPKkI3C0CT1WAffRbyyn00As8bxMwDc_Uw0rCPEio21cHb9BWsts79L0SyBe7r1rxkobbrTJdOw4rni9jgd4Wipc_PWKz1pnASp2cd5Gz9jsHJGh33WqoW4aEASpXmXFGbrfifrGG7B_jvK6tV5ArM7d-E-IEr83qgUOuDe_K8rDzG56KJNq6QsTViWP94Zwq7ZqLy5DQzW4VaEkBievV6P4dwKACA69ymdqujZTQ737U2nlRf7ImSqT7g-_ZI0fGrT0KR7YhfjEHhg_yyFq4LyrA0i1EkQmsd_bUUiFpbB6WzSIRjZcSjRG2kXj0B8zcteFjtd7bdeTHZlkCirXXDvbBHzybS04rKy6Wwtx6V8gUbdQshmK177d41xtBPjOilhG8SKk3JjB8EbkmJcIGEpEKM9Rpc8MqsngTXJvTWSjsQr4UqtU3HlxTyw5FxBRln02S1yIN6zV-3a_-6auxf9ipMNFVgZ_BiNvUaK7bshMnfGoyGeztPJasIkDLaj9IC1RBJ7IMehmBz4uOLyGdFS0l8uYWSGRBwTdEg4wmYTKKMZUtYiJEFPGLIR7r32NgtNRyyQhqMZDKR0rrHK9l2BOudS41omYrUEwi_Iyzo-vNXvVmOBZIzcuaiuLwj6UFzKLZ4wMLf_aqXaaETNUuMiGCbLxFkgA1J8HcP0QArhO-pBMaI0sRW3KJrSTOQqD5OaQ1nhS7UoE9HN6f32ZL6Ah8QRhOIw7yRg1i-_aXfFF82hU_k2klHeFVKiSMo8qg5VL-GZCgsRIItu3rGcIfAmDPb6NMLMAuSx8QeiMM8F2-hPh8mPdyWA5SJeFoL4g6M7bYe2c3aX4RU6B37my75V16WMiYwEkP-mgdiKUkGycTeMt_wPxMh9Nq8Kq8Kn8F3ymSYsBjOS38FY253AQLwLvKjlzHB8xno3oQY_U7UEXjtGUKmKQcVwQpT5D0TjDsmFD8J0FnFxgrTVpyxXraFbPkl_wii1XYOYLOMgWEa3Fh5eSiKpYpN1Zq_Q-yjx5KYLIN1yYYfv5_LzNdm8uJ9m2AmttaCMo6hHipriL_fCP9MThQTFT80vSC5oMNUw2uMmeYkKykGnEe74_EIHulRTm5PqefepuFeXL2N_Q0ktlnmFVG1za0sxdFG2Q0qYl1wrepwcu39e4u86DfOEfMobllNnxf5IXNEyyiL_Z-mrRv9W-IUMTXaK8MvROyliapxQIQtHixg60GxnMBJxqH89VHrMzrjaxoP0LMCmubxxniV0SlppXbzjcDFV38xh58R8NNf06S1ZoFeQOodmSAhoCeOPf5kLmkReHUhhk1bUYSy_kjvtG4HuMguvNM1odEhXigLGTdDk67oxoYW3m9kwp_VqHMPlvIOfat14msF0tTD-7e8VBeMQ3TIoNLZbCshmXlDTKODS3RNZ6Nm1xMnU19KJza66G5ZnuremiCCTxAAVmJ6R05dwpsipTi93N89BWBairgQuwO42HVDdT5ERGZu18URGW79JOOhOLJbJ296-Vz_fhSg-WrWKlxdrinZB0ngDmetEf2OrlxT_KGQxzWQEO0s2h0PrcoIwwpv_vhUY_1PxX0QIEDiq5GB864ZVoESSU0Ba2BCr9bcanBmzGryD2LC06ziHrhQpL0h8KI9zFBV8nKbV5wG4AGc7OhZEg7OcCfdrQe1MqtzOSaazgR4SMyLeFdnpcOo-MDbcEcM1f9TUvr6fM8Z3RGBmPHH1Di5YE1cs5aWy1vrNY-Ux0d9TvXK_VVFAwbZ6a_ctc40_EwQiICGdNFcZ9tckFcTJr0gCHJWPddxOdGjyZ3m61A_uGgsizq82IjIwMSArmLGyYpTveRzcssCLt6ZI_Vqx4QU9TsDvWRDXt9QGWuEmZuQU2FUMgOFpW7Dz6KO7mxELc0nW_qb7IZkf5x-DwgsygoeWz-oQ73tZuS6Nv_XnQNHPFOzzIOTL3XjtpgnaMoz8miXqw9-H5esyHddgfRVyzWiCDzfddS9XoIBCKhjgoh-LH2gsgB0ClkPKMyD-VzxI9wzE1Q2ZEnNWN94LJJbtIck2yu75TymO0Cs61Ci9RUsoJH2oQNpYiN3Oo3dHXtSimgxzVpX5PJ8fs4GKWqAjIpRGu4THDzDcAzowg37n_Ey5-Qs3GQch9yR0KDd3UAR1rWS18cqfAWaJ4_aCE19x8RjWwISqDnBtg3Dy7eHgXXWTKvpnvkUtmCL734REYi8LNXEEI_HXp9TlbbAZ1iGVWwxleW_D4A6y-wjP3S6oW_b3KzS2DBbB_Z8JadDVjBaaTH08c1Ffwrh93LmV6Oq_39any-nZ9-PLQ0X7XDcU22HByRUewZhu-hG6cjcVj2TnnAOnnogpwA75tUZHGy1-72OLyHlQkvs_IIocnqvyrJznsB4_r2PcO2qK-aO4pMTzxjzX5sBs8ihmS6MbsuadNO9cqYNVAY3QTfJQ8n6ZupTE4sGrUFDcl9dUj7jfOlcTQLztE8QYUhMre4xba7okgxc3LuWhVuo8C6E0eAamSOFeGAgckkKworj7sq9UR64vm_srbYQcgPpj_SVWM1-JmXbTWvHKAlgF7lU-LxXPrkvPPakgr3-LRc-3TnES0VdopnPW4YNF2aRGPsS7jygu1fnCtapzardAy_GMJuTm85yV-RFXKzguArY78lp1Sq0dUEgcLFyTVSwK8A-4Glgg5dNvAE-s5OHzIIrfOhgq9RoJ10G_oqDdUWljp5dAHaaZ_F0SXT69bxp58gva2JzmXs3RNgmz9XzrNyvPa78gtnuUaSaWXgVuDVnCBoXFVoRzGyfexGRcIzE8IdvMC4YW2iftBJ_CNaAhu8Ya4AD_3oNKeGuF87YPZS_QTTtK4_BLApxDdBUAIFxRY5i2v_JRk80SidoMftFF8ESSfMF7",
+   "status": null
+  },
+  {
+   "id": "msg_08ddbb40daa2effe016a9b6d37c2d087d29854eeb5bc234d37",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\n  \"policy_found\": false,\n  \"policy_title\": \"Molina Clinical Policy: Shoulder Arthroscopy (Policy No. 404) \u2014 publicly available umbrella policy\",\n  \"policy_number\": \"404 (MCP-404)\",\n  \"policy_url\": \"https://www.molinahealthcare.com/~/media/Molina/PublicWebsite/PDF/Common/Molina%20Clinical%20Policy/Shoulder%20Arthroscopy%20Guidelines_R.pdf\",\n  \"effective_date\": \"2021-06-09 (original effective date shown in a Molina version of the policy); no later revision date was publicly verified\",\n  \"criteria_quotes\": [\n    \"Please see MCG criteria for rotator cuff repair.\",\n    \"The denial notice states that the records did not document \\\"an adequate trial of conservative treatment prior to the requested surgery.\\\"\"\n  ],\n  \"appeal_deadline\": \"2027-02-05, as stated in the denial notice. Molina Mississippi Marketplace materials also state that an internal review of an adverse determination may be requested within 180 days from receipt of the adverse determination.\",\n  \"submission_route\": {\n    \"phone\": \"(866) 472-9484, Monday through Friday, 8:00 a.m. to 6:00 p.m. Central Time\",\n    \"mail\": \"Attn: Grievance Coordinator, 1020 Highland Colony Parkway, Suite 602, Ridgeland, MS 39157\",\n    \"fax\": \"(844) 808-2407\",\n    \"instructions\": \"For a written appeal, include the denial reference number, member information, the requested service and CPT code, and all supporting clinical records or other information to be considered. Molina's Mississippi Marketplace page identifies these telephone, mail, and fax routes for grievances and internal reviews involving adverse determinations.\"\n  },\n  \"how_to_obtain_criteria\": \"The publicly available Molina Policy No. 404 does not state the rotator-cuff-repair medical-necessity criteria; it directs readers to MCG criteria. Request from Molina, in writing and with reference number POC-AA9EA32E7D-95281, the complete MCG criteria or other clinical-review criteria actually applied to CPT 29827, including the version and effective date. The request may be sent with the appeal to the mailing or fax address above. Ask Molina and the treating provider's utilization-management department for the criteria used in the adverse determination.\",\n  \"confidence\": \"moderate\",\n  \"notes\": \"A public Molina document titled \\\"Shoulder Arthroscopy\\\" and numbered 404 was located, but its rotator-cuff-repair section is not publicly available in the retrieved text and expressly refers to proprietary MCG criteria. Therefore, the specific publicly available document containing the governing medical-necessity criteria for CPT 29827 could not be verified. The public Molina Mississippi Marketplace page supports the 180-day internal-review period and the submission routes listed above.\"\n}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": "final_answer"
+  }
+ ],
+ "stop_reason": "completed",
+ "usage": {
+  "input_tokens": 71611,
+  "output_tokens": 2398
+ },
+ "model": "gpt-5.6-luna",
+ "elapsed_s": 53.0,
+ "run_id": "r-f118fa26ed34",
+ "case_id": "poc-aa9ea32e7d"
+}

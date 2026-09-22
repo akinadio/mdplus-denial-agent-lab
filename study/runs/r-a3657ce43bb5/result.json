@@ -1,0 +1,1421 @@
+{
+ "answer": {
+  "policy_found": true,
+  "policy_title": "Hip Arthroplasty",
+  "policy_number": "7.01.96",
+  "policy_url": "https://www.excellusbcbs.com/documents/d/global/exc-prv-hip-arthroplasty-1",
+  "effective_date": "2025-10-15",
+  "criteria_quotes": [
+   "Total hip replacement is medically necessary, for ANY of the following conditions when ALL of the associated criteria have been met: ... B. Osteoarthritis, Avascular Necrosis (AVN), Inflammatory Arthritis ... 3. Failure of at least three (3) months of provider-directed non-surgical management;*",
+   "*Criteria exception: Three (3) months of provider-directed non-surgical management is not required when the medical record clearly documents why provider-directed non-surgical management inappropriate.",
+   "Non-surgical management with regard to the treatment of hip osteoarthritis is defined as any provider-directed, non-surgical treatment that has been demonstrated in the scientific literature to be efficacious and/or is considered reasonable care in the treatment of hip pain from osteoarthritis. The types of treatment can include but are not limited to relative rest/activity modification, weight loss, supervised physiotherapy modalities and therapeutic exercises, oral prescription and non-prescription medications, assistive devices (e.g., cane, crutches, walker, wheelchair), and/or intra-articular (i.e., steroid) injections.",
+   "Symptoms include BOTH of the following: a. Function-limiting pain at short distances (e.g., walking less than \u00bc mile, limiting activity to two city blocks, the equivalent to walking the length of a shopping mall) for at least three (3) months duration;* and ... b. Loss of hip function which interferes with the ability to carry out age-appropriate activities of daily living and/or demands of employment;"
+  ],
+  "appeal_deadline": "2027-02-07",
+  "submission_route": "Mail your appeal and supporting medical records to: Excellus BlueCross BlueShield, Customer Advocacy Unit, PO Box 4717, Syracuse, NY 13221. Alternatively, you can fax the appeal to 1-315-671-6656, or initiate/inquire by phone via Commercial Customer Care at 1-800-499-1275 or 1-800-614-6575.",
+  "how_to_obtain_criteria": "The policy is publicly available online at the provided URL. If the patient needs a printed copy or has questions, they can call Excellus Customer Care at 1-800-499-1275 and request Medical Policy 7.01.96 (Hip Arthroplasty).",
+  "confidence": "high",
+  "notes": "To successfully appeal, the patient's medical records must explicitly document at least 3 months of provider-directed conservative treatments (such as physical therapy, NSAIDs, activity modification, or steroid injections) and the failure of those treatments. If there is a medical reason why conservative therapy is contraindicated or inappropriate (such as joint collapse or severe advanced dysplasia), the provider must clearly document this clinical rationale to invoke the criteria exception."
+ },
+ "raw_text": "```json\n{\n  \"policy_found\": true,\n  \"policy_title\": \"Hip Arthroplasty\",\n  \"policy_number\": \"7.01.96\",\n  \"policy_url\": \"https://www.excellusbcbs.com/documents/d/global/exc-prv-hip-arthroplasty-1\",\n  \"effective_date\": \"2025-10-15\",\n  \"criteria_quotes\": [\n    \"Total hip replacement is medically necessary, for ANY of the following conditions when ALL of the associated criteria have been met: ... B. Osteoarthritis, Avascular Necrosis (AVN), Inflammatory Arthritis ... 3. Failure of at least three (3) months of provider-directed non-surgical management;*\",\n    \"*Criteria exception: Three (3) months of provider-directed non-surgical management is not required when the medical record clearly documents why provider-directed non-surgical management inappropriate.\",\n    \"Non-surgical management with regard to the treatment of hip osteoarthritis is defined as any provider-directed, non-surgical treatment that has been demonstrated in the scientific literature to be efficacious and/or is considered reasonable care in the treatment of hip pain from osteoarthritis. The types of treatment can include but are not limited to relative rest/activity modification, weight loss, supervised physiotherapy modalities and therapeutic exercises, oral prescription and non-prescription medications, assistive devices (e.g., cane, crutches, walker, wheelchair), and/or intra-articular (i.e., steroid) injections.\",\n    \"Symptoms include BOTH of the following: a. Function-limiting pain at short distances (e.g., walking less than \u00bc mile, limiting activity to two city blocks, the equivalent to walking the length of a shopping mall) for at least three (3) months duration;* and ... b. Loss of hip function which interferes with the ability to carry out age-appropriate activities of daily living and/or demands of employment;\"\n  ],\n  \"appeal_deadline\": \"2027-02-07\",\n  \"submission_route\": \"Mail your appeal and supporting medical records to: Excellus BlueCross BlueShield, Customer Advocacy Unit, PO Box 4717, Syracuse, NY 13221. Alternatively, you can fax the appeal to 1-315-671-6656, or initiate/inquire by phone via Commercial Customer Care at 1-800-499-1275 or 1-800-614-6575.\",\n  \"how_to_obtain_criteria\": \"The policy is publicly available online at the provided URL. If the patient needs a printed copy or has questions, they can call Excellus Customer Care at 1-800-499-1275 and request Medical Policy 7.01.96 (Hip Arthroplasty).\",\n  \"confidence\": \"high\",\n  \"notes\": \"To successfully appeal, the patient's medical records must explicitly document at least 3 months of provider-directed conservative treatments (such as physical therapy, NSAIDs, activity modification, or steroid injections) and the failure of those treatments. If there is a medical reason why conservative therapy is contraindicated or inappropriate (such as joint collapse or severe advanced dysplasia), the provider must clearly document this clinical rationale to invoke the criteria exception.\"\n}\n```",
+ "usd": 0.2388,
+ "transcript": [
+  {
+   "parts": [
+    {
+     "text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-11\nMember: Jordan Mercado\nMember ID: W484245232\nPlan: Excellus BlueCross BlueShield (Commercial/ACA), state of New York\n\nDear Jordan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total hip replacement\n    Procedure code (CPT): 27130\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-07).\n\nReference number: POC-FD00FECEC4-98407\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_104651",
+      "args": {
+       "query": "\"Excellus\" BlueCross BlueShield medical policy total hip replacement \"27130\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvMDCvADAWkUfRNq1v-NH_YDvkMYj53XySgzBomt6IDSkbDfnmA64n0FFU-btoLVLAgUNFoKs_JOCOk8f1W-X3QC0rNoZClwoQsTzTt9i3k5ACqMlUSF1p1h4oHmUNPX7b5_uDc0xYlDVpvP_pRmLG8ZV0jOmwCvFwTISudACLrWK_hBxxZPtck3wuLETNqyAuxp4-3m411JsD-SVtRKjUOvviLDrCHQVE8EK5q19aeNUyqsMAbjl5On2lYLJJmTXRobxk4y0J4OkxHwJgLJ8U1p7q2OkSL0Y1KTs_Z-BEC3EIMypjywuZZXLk0rbmYdf-EQeR09tGF0UsCnj1uo6-bfLi7ts_CK2yZcJ88GIns2MaYQ6zqt1X1RVAvxa5hsax8xHtl-zn6fPyx5dfFwH1o4nUEQv_q_pHjdFCaIQRg4rkPeo8g0RV5QvUvRE8SLorop45uA2F2s3QpXH6y6FJFeN1JufUYADFU1URu9bVYXJAoS6OwoLMTB6BvxSPoc2d0a8G0-b6oy6jrOjTZ3zvMHyFxGhBK9Gea_uzboT4ve6jEiS0G7C9qhyQ6CzG81-w72z9YCdmn8iA8oQt8yMQ2KjBPj2x2sQloKQdnvImYQ-IctkffvTVQ57pmGMP46Ft2Gh03rGYbwE7xN-ltF-TX5-UOteg=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Excellus\" BlueCross BlueShield medical policy total hip replacement \"27130\"",
+        "results": [
+         {
+          "title": "Page: 1 of 9 Proprietary Information of Excellus BlueCross BlueShield",
+          "url": "https://www.excellusbcbs.com/documents/d/global/exc-prv-hip-arthroplasty-1",
+          "snippet": "Proprietary Information of Excellus BlueCross BlueShield \u00b7 CPT Codes \u00b7 Code \u00b7 Description \u00b7 27125 \u00b7 Hemiarthroplasty, hip, partial (e.g., femoral stem prosthesis, bipolar arthroplasty) 27130 \u00b7 <strong>Arthroplasty, acetabular and proximal femoral prosthetic replacement</strong> (total hip \u00b7"
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_108846",
+      "args": {
+       "url": "https://www.excellusbcbs.com/documents/d/global/exc-prv-hip-arthroplasty-1"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EoUCCoICAWkUfRPyEInBsSmPrv5BFPQ4HWhjeChMlpOjZUmGbq9fTKxfKntJeDZb2IN2rZUEjeEqROGLuwPjgUNJ38sIZ3YwpiJxSrcKRKI3AbKSNzXuN5aPFSRZdtXwT6eSLO9ukKz7JmgymSdw7uPCi8VbWVkjZQMpD8yBC2BtTP8yex8Tj61Y99eAFxoghV7Alkq1f3EeSPQEiX7idQB_sXoW3YenQeEXfAmGEOjiyGzPg0j_Wf9GOl-_w5MaIhAF2sRR_muqXqZuySbU5zhA1t_nYM3ousJ9X9zT3NpZqYmuAg0GLNqUoBhI80DsMJ-AHVq8iJbIqmHu0rbq5I32DDnlsc8n"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://www.excellusbcbs.com/documents/d/global/exc-prv-hip-arthroplasty-1",
+        "final_url": "https://www.excellusbcbs.com/documents/d/global/exc-prv-hip-arthroplasty-1",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "Page: 1 of 9 Proprietary Information of Excellus BlueCross BlueShield MEDICAL POLICY Medical Policy Title Hip Arthroplasty Policy Number 7.01.96 Current Effective Date October 15, 2025 Next Review Date June 202 6 Our medical policies are based on the assessment of evidence based, peer-reviewed literature, and professional guidelines. Eligibility for reimbursement is based upon the benefits set forth in the member\u2019s subscriber contract. (Link to Product Disclaimer) POLICY STATEMENT(S) Partial Hip Replacement I. Partial hip replacement is medically necessary, for ANY of the following conditions when ALL of the associated criteria have been met: A. Femoral head/neck fracture, with 1. Imaging shows a fracture of the femoral head or femoral neck; and 2. Conservative management or surgical fixation is not considered a reasonable option; B. Avascular necrosis (AVN), with 1. imaging that shows AVN with collapse of the femoral head and 2. Symptoms include BOTH of the following: a. Function-limiting pain at short distances (e.g., walking less than \u00bc mile, limiting activity to two (2) city blocks, the equivalent to walking the length of a shopping mall) for at least three months\u2019 duration; and* *Criteria exception: Three (3) months of function-limiting pain is not required when the medical record clearly documents why provider-directed non-surgical management is inappropriate. b. Loss of hip function that interferes with the ability to carry out age-appropriate activities of daily living the demands of employment; AND 3. Failure of at least three (3) months of provider-directed non-surgical management.* *Criteria exception: Provider-directed non-surgical management may be inappropriate. The medical record must clearly document why. Provider-directed non-surgical management is inappropriate (e.g., collapse of the femoral head, inflammatory arthritis, advanced dysplasia). II. Partial hip replacement is not medically necessary for ANY other indication, or condition, or when ANY of the following are present: A. Active local or systemic infection; B. Vascular insufficiency, significant muscular atrophy of the leg, or neuromuscular disease severe enough to compromise implant stability or post-operative recovery; Medical Policy: Hip Arthroplasty Policy Number: 7.01.96 Page: 2 of 9 Proprietary Information of Excellus BlueCross BlueShield C. Charcot joint; D. Inflammatory arthritis affecting BOTH the femoral head and the acetabulum. Total Hip Replacement: III. Total hip replacement is medically necessary, for ANY of the following conditions when ALL of the associated criteria have been met: A. Femoral Head/Neck Fracture 1. Imaging shows a fracture of the femoral head or femoral neck; and 2. Conservative management or surgical fixation is not considered a reasonable option; B. Osteoarthritis, Avascular Necrosis (AVN), Inflammatory Arthritis 1. Imaging shows ANY of the following findings: a. T\u00f6nnis Grade two (2) -three (3) osteoarthritis; b. Avascular necrosis with collapse of the femoral head; c. I nflammatory arthritis affecting BOTH the femoral head and the acetabulum with joint space narrowing; AND 2. S ymptoms include BOTH of the following: a. Function-limiting pain at short distances (e.g., walking less than \u00bc mile, limiting activity to two city blocks, the equivalent to walking the length of a shopping mall) for at least three (3) months duration;* and *Criteria exception: Three (3) months of function-limiting pain is not required when the medical record clearly documents why provider-directed non-surgical management is inappropriate; b. Loss of hip function which interferes with the ability to carry out age-appropriate activities of daily living and/or demands of employment; AND 3. Failure of at least three (3) months of provider-directed non-surgical management;* *Criteria exception: Three (3) months of provider-directed non-surgical management is not required when the medical record clearly documents why provider-directed non-surgical management inappropriate. IV. A total hip replacement is not medically necessary for ANY other indication, condition, or when ANY of the following are present: A. Active local or systemic infection; B. Vascular insufficiency, significant muscular atrophy of the leg, or neuromuscular disease severe enough to compromise implant stability or post-operative recovery; Medical Policy: Hip Arthroplasty Policy Number: 7.01.96 Page: 3 of 9 Proprietary Information of Excellus BlueCross BlueShield C. Individuals undergoing dialysis and on a renal transplant list. Revision of Hip Replacement V. Revision of hip replacement (partial or total) is medically necessary for an individual who has previously undergone a partial or total hip replacement, when ANY of the following post- operative criteria has been met: A. Presence of ANY of the following: 1. Recurrent prosthetic dislocation/subluxation that is unresponsive to provider-directed non-surgical management; 2. Aseptic loosening; 3. Periprosthetic joint infection; 4. Periprosthetic fracture; 5. Instability of the implant (e.g., disassembly, modular neck failure); 6. Leg length discrepancy; 7. Osteolysis without eccentric wear (wear of elevated rim liner without wear superiorly); 8. Elevated serum metal levels as diagnosis for adverse local tissue reaction (ALTR) secondary to corrosion; 9. Unexplained, function-limiting pain at short distances (e.g., walking less than \u00bc mile, limiting activity to two (2) city blocks, the equivalent to walking the length of a shopping mall) for greater than six (6) months that is unresponsive to provider-directed, non- surgical management. VI. Revision of hip replacement is not medically necessary for any other indication or condition. RELATED POLICIES Not Applicable POLICY GUIDELINE(S) Not Applicable DESCRIPTION Total hip replacement is a surgical technique in which the femoral head and neck are removed, and the femoral canal (marrow space) is reamed out. The damaged hip joint is replaced with an artificial prosthesis composed of two or three different components: (1) the head that replaces the original femoral head; (2) the femoral component (a metal stem placed into the femur); and (3) the acetabular component, which is implanted into the acetabulum. The stem may be secured using bone cement or press-fit for the bone to grow into it. Medical Policy: Hip Arthroplasty Policy Number: 7.01.96 Page: 4 of 9 Proprietary Information of Excellus BlueCross BlueShield The Tonnis Classification System is commonly used to describe the presence of osteoarthritis in the hips, with grading as follows: 1. Grade 0: No signs of osteoarthritis. 2. Grade 1: Sclerosis of the joint, with slight joint space narrowing and osteophyte formation and no or slight loss of femoral head sphericity. 3. Grade 2: Small cysts in the femoral head or acetabulum, with moderate joint space narrowing and moderate loss of femoral head sphericity. 4. Grade 3: Large cysts in the femoral head or acetabulum, severe joint space narrowing or obliteration of the joint space, and severe deformity and loss of sphericity of the femoral head. Revision of hip replacement (partial or total) involves surgical reconstruction or replacement due to failure or complications of previous hip replacement. Non-surgical management with regard to the treatment of hip osteoarthritis is defined as any provider-directed, non-surgical treatment that has been demonstrated in the scientific literature to be efficacious and/or is considered reasonable care in the treatment of hip pain from osteoarthritis. The types of treatment can include but are not limited to relative rest/activity modification, weight loss, supervised physiotherapy modalities and therapeutic exercises, oral prescription and non-prescription medications, assistive devices (e.g., cane, crutches, walker, wheelchair), and/or intra-articular (i.e., steroid) injections. SUPPORTIVE LITERATURE In a meta-analysis, Smith and colleagues (2010) compared the clinical and radiological outcomes and complication rates of hip resurfacing (HRS) and total hip arthroplasty (THA). A systematic review was undertaken of all published (Medline, CINAHL, AMED, EMBASE) and unpublished or gray literature research databases up to January 2010. Clinical and radiological outcomes, as well as complications of HRS, were compared to those of THA, using risk ratio, mean difference, and standardized mean difference statistics. Studies were critically appraised using the CASP appraisal tool. A total of 46 studies were identified from 1,124 citations. These included 3,799 HRSs and 3,282 THAs. On meta- analysis, functional outcomes for subjects following HRS were better than or the same as for subjects with a THA, but there were statistically significant increases in incidence of heterotopic ossification, aseptic loosening, and revision surgery with HRS, compared to THA. The evidence base showed a number of methodological inadequacies, such as the limited use of power calculations and poor or absent blinding of both patients and assessors, possibly giving rise to assessor bias. The authors concluded that, on the basis of the current evidence base, HRS may have better functional outcomes than THA, but the increased risks of heterotopic ossification, aseptic loosening, and revision surgery following HRS indicate that THA is superior in terms of implant survival. In a 2019 retrospective cohort study, Inoue et al. compared post-operative complications and survivorship of total hip and knee arthroplasty in dialysis and renal transplantation patients. They included a total of 107 patients undergoing primary total joint arthroplasty, including 50 who were receiving dialysis and 57 who had a prior renal transplantation. The end point was defined as revision surgery secondary to post-operative complications. Researchers found a significantly higher rate of Medical Policy: Hip Arthroplasty Policy Number: 7.01.96 Page: 5 of 9 Proprietary Information of Excellus BlueCross BlueShield post-operative complications in the dialysis cohort (28%, n=14 of 50 joints) compared to the renal transplant cohort (7.1%, n= 4 of 57 joints). There was a higher rate of SSI and PJI in dialysis patients, compared with renal transplantation patients (18% versus 3.5%, P=0.02). In addition, there was an increased rate of revision surgery in the dialysis cohort, compared to transplant cohort (24% versus 3.5%, P=0.002). A multi-variate analysis considering demographics and comorbidities revealed that patients with renal transplantation were less likely to have revision surgery, compared to patients on dialysis as the time of arthroplasty (95 % CI, P=0.031), and demonstrated a strong trend for lower complications (95% CI, P=0.76), although the latter was not statistically significant. Researchers concluded that transplantation was independently associated with reduced rates of revision surgery in the setting of chronic renal failure, suggesting that those who are candidates may benefit from renal transplantation before undergoing elective TJA. PROFESSIONAL GUIDELINE(S) In the 2023 American Academy of Orthopaedic Surgeons adopted the evidence-based clinical practice guidelines for the Management of Osteoarthritis of the hip that state: \u2022 They strongly recommend conservative measures such as physical therapy, corticosteroid or hyaluronic acid injections, pharmacological management (NSAIDs) In the 2008 International Cartilage Repair Society guidelines for the management of hip and knee osteoarthritis, Part II, it states: \u2022 \u201cPatients with hip or knee OA who are not obtaining adequate pain relief and functional improvement from a combination of non-pharmacological and pharmacological treatment should be considered for joint replacement surgery. Replacement arthroplasties are effective, and cost-effective interventions for patients with significant symptoms, and/or functional limitations associated with a reduced health-related quality of life, despite conservati",
+        "text_truncated": true
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_104782",
+      "args": {
+       "query": "Excellus BCBS commercial member appeal submission address state of New York"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Eu8WCuwWAWkUfRPcXYQYjwDw6PTU6jXummV_W5IyoqZvOQHvj-ybh7lfDb1RaDyHNnrJCTOhyGu_eHE7x9mcT73KTC3-yDKH6EjHrQbXEz0nKaFcUfY-e7H2vRopRxmT0_kwudNPSJCVBqR2btKDq5bcCvlOQaIYq-5qvntI7XErjwTjXScEZWViSu9hVs4l6X2g5t3WjkIQzr865nnqHoh4AyQHNSLTkk-56OeR-tl5byffa8kjIL1_U_wSZei-acz5M8ZB-y6iROpZpTr7xIW7EntMbGIeiZLgJexQ2vCHufPOfIHmpzE_7rvspegtjwA9wAhDO1IeY_L-OgfJI_ui1QxQLD47D9xRMAgxQXTwxf1qdVTkA_wcL0P5i2i4eeRKfoWnsqGL9b82ojwkZNTupJx1ooe_wXm4lxAvNqFpY3iS2RKaaHxvftcRmxJfBR-MU6OUhdHaUgJ8IyJjrSfAoxdnpN7fTnRWVQLwn-X1f-2V7eHV6lByOo4IHcVdf-N_S_Dkzyl3N27QiJ8tivlU1PYWNHFjfBlAkHJyo6AIB8YZ3HaFgpWRmGQJHgik6_AJoBDQYmk0EeemLPC-6tsg3PkTBHcXsD3hEwx7bvf93_6feQpn4YgrlT7dRryWOIYScPIlCte64KwBfaNl4S-v90374aTXTU1ks-WwwE9yYYIZLvUEXHxpAF_nrEBD-UzlLrXZ4k6acUZLvfChl2jE7xdCwVzUrrwIlDbyrhLXXsyMuEg1UBzxI6XBDhvQ1YaWLN1eMAOEYioi5SATFFoJLZMhKHSN8bxvwqxFLNY8T2CDlnp8kcsLdAf5XU7xi_I9TCW7VJmkXvXBeUCaL3vwhOwF9uwmyzCxjYOJLmJezh6bCFgwEJgy-l01w-vWrg_ciBJ6bez0zi7AdnCGJyEse1iJqQhkWVBjvkc29Zd5RggUTOzwTos4Fcj-4F1mInB8JFJZx8jCa0PwQuuxX5iPo8KPpMKtQj0vO9TxhrKh2ijBFpLjbaE4Jbf-PJijyJWY7aagR0NiiJt6A6ClmCIylDNTOxYE71Njxa0e7CrDf5v4dFzBPGckf_Kx2tuV2-dZuNJsEZ9xYMNBVmeP6ApabH2MAROXWWgTz9Eg3MWdkO0YE6oyeX18_eMWUwqYH3BX4G3ewCsUjVEAdrK2fz03g_xALs-ILqm1F2spLxBDLCi_xzMEb34_oaTRKsdDri65X6hA4tRs1jBWHZFqGJLwwnkatnf0LFFb0rtiC81LzkeXZa-qBjkR1ol0iQ-gXOgVlG1y0YwkgELri9lNvqYVzE1rz9KGdy_dXLCZ4CtugI37D-AsuxpvjXCTxmWUgTXCc256EKot51ljsj__1Rh68gNfyYkq_l7RTZ3kxRdRkKSd6lC9-c-2uNe3wKQmGWI9lB9A5nv_iqPX78rxUpKyccV5EqCjORG5PofU5Cx_OS_QT3qvqZ9DzcaKkMHx54VKicKTQeWoJ4VhGqUTXvVqMq7q8z1dcMx40kE-gNja1BkjDXZWB312yHRAVx2S7tu7So-6KDkhp4Ig8sj2dfblB66omTO96qtTPQf7_sbEs41OmmnA5m1XlFGReIappoVzk4q7qkLfA1aPNuasFTUlMQWsr7-flcyCyNJww17L-OH_shols828keDJ5QNgjT7oWiXQxoyJBZGxQg3zQ3W3_w_1eDPDKeAC6-Sxy2SvVxCd4Ns_ubFeDtopu14LaSk2cPKpXmpcStDiNrE6LtcFMvb83IJ4SlwR2Zxw64FZQv23_9KSqEU1U2W0N7D2t8J4-euQpSAGWfWGuQAY-CvP371wqKbvR-MmLimbZ5mBxu3jumH1y7g0Rt6mV4ciUPHpYB9GQpdb8XIcN32JWwNYSDmWKoZaLi1o2EXES1f00aUAywML8DsXTWLIAuiqcckLqjP_Py70ptz7NfvpFdSyDlc85iF4TdJFOHyOK3OCQdaYxtoKfa5aE1k-eDjC9KsSsuuddSjU9ehgY3kX_S3MxtICHbVxDeBfm3caGwZvMQsIx_gjoDgG6x36VqcXAc0xiQB-1VJBsrvS4vU8nLnWFk507xcqG5CeIc66ZO-7kanZbRL7L2ifqBnz313UhGwW8XfEfKlfqJENXyDzJJwghsAjMKfSO1riocDuy6KNfo0uxQHEAuu3JBLGafg8dLvyt8OPjRvDDTTI3CwjRK1ZXpSikrinceCCS2h9d87mJpQ_CmLok0vQaMGWp1qZZJYk7jBYnfCemKO8xV6i2omybIrbtjYkbAE0yk6rvUqWOtFutWGmhv-hnUxykOcWK2sq9tDqU_tgHSgsL9bPQVlZzmE0JdLmgDxLF79X7qSvI1h22_VtiK6LTVAv3CJKvXPiDv2pXz7XdeZbaLN4iU_WFDMS8P8M_32Ad6Vtw5frGfkdvtkgZGWiJKUkXNnEP79Ax1MYQvHntsaERT0U_-f0tjzGEUqq5eQW0nTwH-wQ_CLartyoNzhqWPFAfBAhRX12bMJvL9ff4RgqCzjRMecJkuS0Pk0Bldli69gmY1d6XyEu30X2k2v_0HC_4VlZviGgl8EK176SQrr5xkXNc6ckheRU-jg0-jdxSdM_fFs0loCUwOwunoEhS-ibb3NmZToe7QUypd3OrRMJCWFqa_pYJTvrhyMKg45zz28nVdRhs8IxxVcbdsJ3Q19-Ss501KbROefj-9gBeL2a3ebxF-YISrbJSuURCp83pjl5sk7roAZnRECamI0rJS5wtq3o_0PS3RvgJd4j0w_0rPgi_7D-Ezlo5PcgKREVW7yFeeLRtbU-RN3v7FG5rms9ZNcV3O7Jutg9X31PJx6LhEIMQ4C3rOkJ1nqpysuSn11UqLwGJO-N2UlH4mtmugOtkDh2hiVrLSfACFj1QqBLzanHEc-SQHLZlGZx0wBjDbJe_hSlhR0jiwyMMLiea2y1fh6hAuVJYevJXh92CGz7Zev3kalG-bFN7eG1qM7y55dbxmnYmCoo6rzHmkzqwzda3tDEQVKALj61UiUL24-7UJF0MtIGvCIMHYDlPycp5i90YJ0dvDegFViVf1euJhMHATB0Ef9vR5r0p9RT_hd0GtLfvD0kmyRkG7bSP3IUQ6CliAOV3wc-36uGHrMpbxDKtmQ3pBtByvT9zg691WVGigciqTul_yHYHxeRMsvNsQCyq8Qjz6rDbDwtFL2Js-XNgwIoAzs5o2-Zu3Fv5eZPaoXzCp7wYUd_l3HURt-Q7UeKqXO9FpUW3YK-FrAmQFKIHpxrzicCU44Ftm6DWJR9U3heh1Tl5wNzWnja6jLItzAPUZaF_AemlriWegsnwzwkKqHz9TjsrK1-F6F20hIadl3jcp5_9hDPQAhELZlxLc1_xXYsLQxSlJREKCZuweNbbjR0vrltGG-PTYO98RC2akuJ04dJAvQ7cY_ks007vpbDAcf1rW4x-K9pBK2Rn_xPIMbLy0fhat3Fmm-F3apxmzWPahHnSFV9LKl8NjRxrG5YynH67CJK8koOKBr14dxdrZUq-LshezAhrdSV3QjagYWgQGROgvaBpQOv750lnrV7tzbA0Kki6yNA6rKCcJBbUae5cm6sO4AsnBw6RIMk4anc7xKFbf5O04ufWUtdHFnXB-bww1QiY0638g7cSvOzH9Ks6q9cdbyiKc7GtkylU20GmpZTkGls_n4-rUX6-npQd3pmbJfei_gvo2YOj456CLsbah8ttPzss8tVCu9wvPLYL65ea3tP-sjjWGYPICy1glBHsRPzva6evdEIw0WKcpCZfEiRC0j4OlbnX5sRdr-L4mVd3od0q7wqW8lXzbTthDFASY39Sq7Abcs8KEbogmeE_pIIo6Um6269v7ZLT7b-4yW9-_4STrDMH0QQCyJQA74uAPre5LnGhXgjSDlcToGNgQY="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Excellus BCBS commercial member appeal submission address state of New York",
+        "results": [
+         {
+          "title": "Provider Request for Grievance or Appeal",
+          "url": "https://www.nyspma.org/aws/NYSPMA/asset_manager/get_file/232374?ver=5",
+          "snippet": "Excellus BCBS Advocate Unit, <strong>PO Box 4717, Syracuse, NY 13221</strong> \u00b7 Please use only black pen to complete this form. Other colors or highlighters may not show when documents are \u00b7 scanned. All information on this form is required to ensure timely processing. Member and Provider Contact Information \u00b7"
+         },
+         {
+          "title": "Grievance and Appeals | Excellus BlueCross BlueShield",
+          "url": "https://www.excellusbcbs.com/plans/medicare-advantage/enroll/grievance-appeals",
+          "snippet": "Mail: Excellus BlueCross BlueShieldCDPHPUnivera Healthcare, Customer Advocacy Unit, <strong>PO Box 4717, Syracuse, New York 13221</strong>"
+         },
+         {
+          "title": "Frequently Asked Questions | Excellus BlueCross BlueShield",
+          "url": "https://www.excellusbcbs.com/contact/faq",
+          "snippet": "Whether it&#x27;s for a grievance or a medical appeal, the first step in the process is to file your concern. Call Customer Care at the phone number listed on your member card, or view our Contact Us page for a listing of phone numbers. You may also submit your grievance or request for appeal in writing."
+         },
+         {
+          "title": "Mailing Addresses | Excellus BlueCross BlueShield",
+          "url": "https://www.excellusbcbs.com/contact/mail",
+          "snippet": "Find the address you need to pay a bill, send a form, or correspond via mail. You can also log in to your member account for support 24/7."
+         },
+         {
+          "title": "Contact Us | Providers | Excellus BlueCross BlueShield",
+          "url": "https://provider.excellusbcbs.com/contact",
+          "snippet": "EDI Solutions can help with electronic transactions such as claim submissions, eligibility and claim status ... Contact the Web Help Desk for technical website issues. Contact By: Call 1-800-278-1247 Submit an inquiry online \u00b7 Monday - Thursday: 8 a.m. - 4:30 p.m. ET Friday: 9 a.m. - 4:30 p.m. ET \u00b7 Contact our team of certified risk adjustment coders who can assist with documentation and coding tips specific to your practice. Contact By: Risk.Adjustment.Provider.Contact@excellus.com"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_109568",
+      "args": {
+       "query": "Excellus \"PO Box 4717\" Syracuse NY 13221"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqwCCqkCAWkUfRO0AAgzxp4yMRh_82rWIXkju1H40ycsDHxdhzc3kfbw8fxvU_yjFrQ684aYxVLh-qdyy5zKMzXnujyuFZQ-IoNIFUvLnWoJFE6ipistg3Y66fyvIK7g4SHYhnAl8pgi7sbZ1FN6FJZDYsgs3UrvE3c1I4SgSLbyeiqzxIY1FWEryEGhyssy2enGCjXJVseudYH-I8B73JruP_pK7M-J5z2fPzA8pfPRxZZKn-2e98j5KTlRZ_W1bELo7WAs0V_n_VP1Ce25TFT3-WU3iYV4I8Ti6ZSEmC0FDn2gYAzaZrYSljjgOQrAjqTaxS6oWH2BDQuWRLPVlDAO79WW9cTvf8V8jwZ9pPB15wItBuN5XTq13KZkDHwW3yzZ4QX6C_7_WPJZkYQw"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Excellus \"PO Box 4717\" Syracuse NY 13221",
+        "results": [
+         {
+          "title": "Provider Request for Grievance or Appeal",
+          "url": "https://provider.excellusbcbs.com/documents/53971/224434/Request+for+Grievance+or+Appeal+Form.pdf/9c863ea7-1133-3063-f6a4-35a96c618ebb?t=1534257678486",
+          "snippet": "<strong>Excellus BCBS Advocate Unit</strong>, PO Box 4717, Syracuse, NY 13221 \u00b7 Please use only black pen to complete this form. Other colors or highlighters may not show when documents are \u00b7 scanned. All information on this form is required to ensure timely processing. Member and Provider Contact Information \u00b7"
+         },
+         {
+          "title": "Excellus BlueCross BlueShield Attn: Enrollment Operations PO Box 31790",
+          "url": "https://member.excellusbcbs.com/documents/d/global/exc-cwp-gahp-medicare-blue-ppo-plan-enrollment-form-odd",
+          "snippet": "PO Box 4717 \u00b7 Syracuse, NY 13221 \u00b7 <strong>Telephone Number: 1-800-614-6575 (TTY: 1-800-662-1220)</strong> Fax Number: 315-671-6656 \u00b7 You can file a grievance in person, or by mail or fax. If you need help filing a grievance, our Health \u00b7 Plan\u2019s Civil Rights Coordinator is available to help you."
+         },
+         {
+          "title": "Important Facts Regarding Your Authorization to Share ...",
+          "url": "https://www.cortlandcountyny.gov/DocumentCenter/View/1030/Authorization-to-Excellus-Health-Plan-to-Disclose-Protected-Health-Information",
+          "snippet": "PO Box 4717 \u00b7 Syracuse, NY 13221 \u00b7 Telephone number: 1-800-614-6575 \u00b7 TTY number: 1-800-421-1220 \u00b7 Fax: 1-315-671-6656 \u00b7 You can file a grievance in person or by mail or fax. If you need help filing a grievance, the \u00b7 Health Plan\u2019s Civil Rights Coordinator is available to help you."
+         },
+         {
+          "title": "Nondiscrimination Notice | News | Excellus BlueCross BlueShield",
+          "url": "https://news.excellusbcbs.com/non-discrimination-notice",
+          "snippet": "Online: Advocacy.Department@excellus.com \u00b7 Online: Advocacy.Department@UniveraHealthcare.com \u00b7 Online: Advocacy.Department@CDPHP.com \u00b7 Phone: 1-800-614-6575 (TTY 711) Fax: 1-315-671-6656 \u00b7 Mail: Advocacy Department Attn: Civil Rights Coordinator PO Box 4717 Syracuse, NY 13221 \u00b7"
+         },
+         {
+          "title": "165 Court Street, Rochester, NY 14647",
+          "url": "http://excellus.postclickmarketing.com/Global/FileLib/Student_Dental/Student_Dental_Enrollment_Form.pdf",
+          "snippet": "PO Box 4717 \u00b7 Syracuse, NY 13221 \u00b7 Telephone number: 1-800-614-6575 \u00b7 TTY number: 1-800-421-1220 \u00b7 Fax: 315-671-6656 \u00b7 You can file a grievance in person or by mail or fax. If you need help filing a grievance, the \u00b7 Health Plan\u2019s Civil Rights Coordinator is available to help you."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_129782",
+      "args": {
+       "query": "Excellus BlueCross BlueShield \"member appeal\" PO Box Rochester OR Syracuse OR Buffalo"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsECCr4CAWkUfRMS1hkHLUb8BEk1pdBP3iVMTp6CnaGfiPztME3vIu8aAYMgpPRweteVEkyhIX-kc8oPVB90PAoQM9kdVdOexrCvftNdJxQE1IVUuYyAEkanL6jS_JKChxSomZpBpfhRc8m-U-W5vty5iLR_fGqbCjwG0889xlaGkWm6-NaO9XxLwtWAQtTqmG7Buj8zyhwvsHPysNATA7je6TEgvbTidylqqkFcT1At5wHWDksXK7TBef2d6Gc4hu2lWjBS6RZOF-cyqePqtkWbMH60CsuY1IlGAWUXNiyOkwZFt9MEaxtFKHwk2-Yf4PUnUXmombyHO5-GHvMCTZ9SNSVXpTBV2xLGOCNUO27SmfLywjfL4K0adxaSlcJXPRznqE3eb2kqm90AFb-6rfvF2ESX36ny8fuB3rqfb5hcYvt_"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Excellus BlueCross BlueShield \"member appeal\" PO Box Rochester OR Syracuse OR Buffalo",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_142475",
+      "args": {
+       "query": "Excellus member \"appeal\" address"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EswBCskBAWkUfROEy6w-mQY3rmEwRv6MCkOdPPbnMCz0DVrEZx66sip9oXJ1vPv7CPvjwdt0A7QSKMffLWMHogriE_kKopJC2R_5HrZ3vjZJjryh8RNoqXP6WA_K1U8YR7xMePD89H1ksZX7Y5lBWNXdglR99OoMVkSqDoZuPhhm6I94uu_29Hr1PXqnN3aNDCpEO2NpZ0KoaOi5KQ2WLVAJ_2rdw_aYHuqVNhqpRNcDAASlxF-GWl1HDstD0OymvBsCv8D-VoLyxdRQKXHw"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Excellus member \"appeal\" address",
+        "results": [
+         {
+          "title": "Grievance and Appeals | Excellus BlueCross BlueShield",
+          "url": "https://www.excellusbcbs.com/plans/medicare-advantage/enroll/grievance-appeals",
+          "snippet": "Mail: Excellus BlueCross BlueShieldCDPHPUnivera Healthcare, Customer Advocacy Unit, <strong>PO Box 4717, Syracuse, New York 13221</strong> \u00b7 Email: Submit a grievance via secure eformSubmit a grievance via secure eform Submit a grievance via secure eform \u00b7 ..."
+         },
+         {
+          "title": "Provider Request for Grievance or Appeal",
+          "url": "https://www.nyspma.org/aws/NYSPMA/asset_manager/get_file/232374?ver=5",
+          "snippet": "Provider Request for Grievance or Appeal \u00b7 For Commercial and Safety Net products ONLY \u00b7 Please mail this form and medical records/supporting documentation to: Excellus BCBS Advocate Unit, <strong>PO Box 4717, Syracuse, NY 13221</strong> \u00b7 Please use only black pen to complete this form."
+         },
+         {
+          "title": "Member Rights | Medicare Members | Excellus BlueCross BlueShield",
+          "url": "https://medicare.excellusbcbs.com/resources/rights",
+          "snippet": "Get information and step-by-step guidance on how to file a grievance or appeal with your Medicare plan. Excellus BlueCross BlueShield is an HMO/PPO/HMO D-SNP plan with a Medicare contract and a contract with the New York State Medicaid program. Enrollment in Excellus BlueCross BlueShield depends on contract renewal."
+         },
+         {
+          "title": "Frequently Asked Questions | Excellus BlueCross BlueShield",
+          "url": "https://www.excellusbcbs.com/contact/faq",
+          "snippet": "Whether it&#x27;s for a grievance or a medical appeal, the first step in the process is to file your concern. Call Customer Care at the phone number listed on your member card, or view our Contact Us page for a listing of phone numbers. You may also submit your grievance or request for appeal in writing. See our Contact Us page for the address of your local office."
+         },
+         {
+          "title": "Find Forms and Documents\u200b | Excellus BlueCross BlueShield",
+          "url": "https://member.myhealthtoolkitex.com/web/public/brands/ex/manage-your-plan/find-forms-and-documents/",
+          "snippet": "Claim Appeal Form Designation to Authorize Rep to Appeal Form HIPAA Authorization Form International Claim Form Request Continuation of Care From a Non-Network Provider"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_79206",
+      "args": {
+       "query": "Excellus BCBS commercial member appeal address PO Box"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EuwDCukDAWkUfRMRJB5Jn_zdaooVS576O98okUca2ujfZ3D584TLVU53e7BrhKcf6XAeEPFCp_aOb5CX1HleXyUztLQdscvUNTWCuyW-qEqMlmvJPpc9x2lHWUtPMZPQR0yCB0bTqGmgr514tBGl81MN_U7hyp3e-YC6-FaWr-VPscNpkERHd8skYpTmvvvnutQzsy7NL1sAGGxmUBP5-IGuQ_gvW06u4H3-s5V_5kwN8AulNA9DBuYo-ZrQzAmkpIPgjQ7rLnIv-BX-YB-OKDnjjzmf9Ll6FFx_SahO5f1gwWE2Zk4lJel7f6YQQvT_3_3EuW8Yvhm9fd0oq-LCJnuEYSdlNlRcMTN_Nu1OJJ5lQeKvUwT3vmClJQw0OIbVZnyr-Oav8whU7BOg8z8425h72MfA6CLBTv0lYiih7r994LKgPcsvaSRscHUVp4mYLtqJhhJXW5S9tw_7Bi73vt8dLQtIx_fUxHY_Zz757tKrkoOg-PqWfGJV_qD-WaW6dyiBULhaPiQ6c01Mc7pYKSdZuqAP1beCIlFvGGEPK0CmEM2FFtYvMIqz6qfUu7NPaFJLUB7z5pukpgM7qMDfU9ak7_BIfXvGIgOACt5SOWo084qKe_AdCsVxHyrocv5Yn9iBIhmzjKIXGcE0XdVE"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Excellus BCBS commercial member appeal address PO Box",
+        "results": [
+         {
+          "title": "Grievance and Appeals | Excellus BlueCross BlueShield",
+          "url": "https://www.excellusbcbs.com/plans/medicare-advantage/enroll/grievance-appeals",
+          "snippet": "However, if you ask for more time, or if we find that helpful information is missing, we can take up to fourteen (14) more days to make our decision. Mail: Excellus BlueCross BlueShield, Customer Advocacy Unit, <strong>PO Box 4717, Syracuse, New York 13221</strong>"
+         },
+         {
+          "title": "Contact Us | Providers | Excellus BlueCross BlueShield",
+          "url": "https://provider.excellusbcbs.com/contact",
+          "snippet": "Excellus BlueCross BlueShield <strong>P.O. Box 21146 Eagan, MN 55121</strong> \u00b7 Email Provider Enrollment to submit your application and follow up on enrollment status. Visit our Join Our Network page for more information."
+         },
+         {
+          "title": "Mailing Addresses | Excellus BlueCross BlueShield",
+          "url": "https://www.excellusbcbs.com/contact/mail",
+          "snippet": "Excellus BlueCross BlueShield <strong>P.O. Box 21146 Eagan, MN 55121</strong> ... We use cookies and other technologies to optimize site functionality, analyze website traffic, and share information with social media, advertising, and analytics partners."
+         },
+         {
+          "title": "Provider Request for Grievance or Appeal",
+          "url": "https://www.nyspma.org/aws/NYSPMA/asset_manager/get_file/232374?ver=5",
+          "snippet": "For Commercial and Safety Net products ONLY \u00b7 Please mail this form and medical records/supporting documentation to: Excellus BCBS Advocate Unit, <strong>PO Box 4717, Syracuse, NY 13221</strong> \u00b7 Please use only black pen to complete this form. Other colors or highlighters may not show when documents are \u00b7"
+         },
+         {
+          "title": "Mailing Addresses | Medicare Members | Excellus BlueCross BlueShield",
+          "url": "https://medicare.excellusbcbs.com/contact/mail",
+          "snippet": "Excellus BlueCross BlueShield Attn: Medicare Division <strong>P.O. Box 21146 Eagan, MN 55121</strong>"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_126249",
+      "args": {
+       "query": "\"appeal\" OR \"grievance\" site:excellusbcbs.com commercial member OR patient"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtQCCtECAWkUfRNtz0Cb8Ple_5D3VXaI_KGHctfcSVxABxDTgQbi4_fuguRrg8VYOgbnz6wJnXfJgZWj0Ei8mmWrJm48SPEBoZUq4dFp0Eir65i4lRFO2okvI7buKYfhqe2BNrsOwIFcIeSU5C7aJQzEFkvzQyGXtXPDdwHHEaSSnUd92X-994HeNvW2_EMrt41R_rDnveQ-tEIam3kaQ1DGfwvlEtWY0WZRqW9gy3uQrIT77y4KoeYQm_uwvkKLP836KcllDUFb92kZmhWeC6bS_EH8sbxTprV3aqqdutdfZdLffKF5brvNXfjhy9SQXVS9y5kb1Ilx5wAo31bzOgUdOoOjsIsaLTxx649WysUj25VfdME9-9FoFj14Bm8SoRBFzQ8eVtafTaKirsMFnHXreRKkGXfvhlg7yYMbJtXrC-yNLsLrhPaCeSm3u3bOkqHKouF8YQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"appeal\" OR \"grievance\" site:excellusbcbs.com commercial member OR patient",
+        "results": [
+         {
+          "title": "Grievances and Appeals | Medicare Members | Excellus BlueCross BlueShield",
+          "url": "https://medicare.excellusbcbs.com/resources/grievances-appeals",
+          "snippet": "If we decide against you, we will send you written notice explaining why we denied your request and provide you with your appeal rights (See Appeal Level 1). You, your physician, the physician providing your treatment (Part C), or other prescriber (Part D) or someone you name may file a grievance, initial determination or appeal."
+         },
+         {
+          "title": "Provider Request for Grievance or Appeal",
+          "url": "https://provider.excellusbcbs.com/documents/53971/224434/Request+for+Grievance+or+Appeal+Form.pdf/9c863ea7-1133-3063-f6a4-35a96c618ebb?t=1534257678486",
+          "snippet": "Provider Request for Grievance or Appeal \u00b7 For Commercial and Safety Net products ONLY \u00b7 Please mail this form and medical records/supporting documentation to: Excellus BCBS Advocate Unit, PO Box 4717, Syracuse, NY 13221 \u00b7 Please use only black pen to complete this form. Other colors or highlighters may not show when documents are \u00b7 scanned. All information on this form is required to ensure timely processing. Member ..."
+         },
+         {
+          "title": "Grievances and Appeals | Providers | Excellus BlueCross BlueShield",
+          "url": "https://provider.excellusbcbs.com/policies/grievances",
+          "snippet": "The grievance and appeal process is intended to provide a reasonable opportunity for a full and fair review of an adverse determination. The process varies slightly based on federal and state regulations. For additional information, please refer to our Participating Provider Manual \u00b7 For Commercial Members - Section 4.12 Utilization Review Appeals and Grievances"
+         },
+         {
+          "title": "Member Contract and Other Legal Information",
+          "url": "https://www.excellusbcbs.com/documents/53978/236436/78124EP0000001-55_Contracts_ISG_2019_Essential+Plan+1_EFF-2019-01-01_1337767-1_2018-10-08_16-48-14_20705_414810_Prospective.pdf/040ac803-ead9-8107-b767-7b74f1f87144?t=1604082319792",
+          "snippet": "Appeal: A request for Us to review a Utilization Review decision or a Grievance again."
+         },
+         {
+          "title": "Behavioral Health: Care Management Program | Medicare Members | Excellus BlueCross BlueShield",
+          "url": "https://medicare.excellusbcbs.com/health-wellness/managing-conditions/mental-health-substance/care-management",
+          "snippet": "In addition, our plan also has a Behavioral Health Advocate who is available to assist members/member advocates or providers, that have received a denial of services. The advocate can assist with understanding clinical criteria, obtaining the clinical criteria, and/or filing an appeal or grievance for the denied service."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_98653",
+      "args": {
+       "query": "Excellus BlueCross BlueShield member appeal address commercial \"Rochester\" OR \"Syracuse\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "ErICCq8CAWkUfROZzNTtht5xuL1cfZyo-RXjCB8ob0a-_ZXyzfKQ_5ytvwaM4Pg8uj4coky-g0__QdVtDgkSGlY7m2FRh1Dt8tvwJ7SSeQKIJ1qGY-BSWe0noHCNdCDMdpgK1N2kl2GLRW4hTsiooq2fvexoVRIGg50r8b_mJL7czyGwRHj1bx-XItphYcuvkVxoNuvsi4KL3Fi9Lup9yhDcZ2LuGXMRAAqIz-QvWexQWRHBirryFuI6kRjuhUdEhPRLVGrsWNvafVr8vJKqkzu37VfnK83heT1zojUzdcBaRe6jj50iQiWH14LLH469WnByXl9npb0ZpD4rTAjXvN4RqQ8YaMBQh4Gp9j9HJuAMyI6k2FsGglFhShcqkvyP_rSHyXcAi_OvbC6PlQ6XxKXJ7jLi"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Excellus BlueCross BlueShield member appeal address commercial \"Rochester\" OR \"Syracuse\"",
+        "results": [
+         {
+          "title": "Excellus BlueCross BlueShield Directory - Greater Rochester Chamber of Commerce",
+          "url": "https://my.greaterrochesterchamber.com/memberdirectory/Details/excellus-bluecross-blueshield-1745554",
+          "snippet": "Special thanks to our Partner Members for their investment in our organization and the economic vitality of the Greater Rochester region \u00b7 To find certified MWBEs to support your supplier diversity efforts, click &quot;Advanced Filters&quot; and select True"
+         },
+         {
+          "title": "Excellus BCBS of Central NY | Insurance | Health - Corning Area Chamber of Commerce, NY",
+          "url": "https://www.corningny.com/list/member/excellus-bcbs-of-central-ny-104",
+          "snippet": "The company has financial strength rating of &#x27;&#x27;BBB+&#x27;&#x27; (Stable) by Standard and Poor&#x27;s. Previously, the company&#x27;s BlueCross BlueShield operations were known as: BlueCross BlueShield of Central New York, BlueCross BlueShield of the Rochester Area, and BlueCross BlueShield of Utica-Watertown. Today, Excellus BlueCross BlueShield maintains a strong local presence through four regional headquarters and additional field offices: Central New York Region, based in Syracuse with an additional office in Watertown; Central New York Southern Tier Region, based in Elmira with an additional office in Binghamton; Rochester Region, based in Rochester; and Utica Region, based in Utica with an additional office in Plattsburgh."
+         },
+         {
+          "title": "Contact Us | Brokers | Excellus BlueCross BlueShield",
+          "url": "https://broker.excellusbcbs.com/contact",
+          "snippet": "In the Central New York and Southern Tier regions: Excellus BlueCross BlueShield 333 Butternut Drive Syracuse, NY 13214-1803 \u00b7 In the Rochester region and nationwide: Excellus BlueCross BlueShield <strong>165 Court Street Rochester, New York 14647</strong>"
+         },
+         {
+          "title": "EXCELLUS BLUECROSS BLUESHIELD - Updated July 2026 - 17 Reviews - 165 Court St, Rochester, New York - Insurance - Phone Number - Yelp",
+          "url": "https://www.yelp.com/biz/excellus-bluecross-blueshield-rochester-3",
+          "snippet": "EXCELLUS BLUECROSS BLUESHIELD, <strong>165 Court St, Rochester, NY 14647</strong>, 4 Photos, (585) 325-3630, Mon - 9:00 am - 4:30 pm, Tue - 9:00 am - 4:30 pm, Wed - 9:00 am - 4:30 pm, Thu - 9:00 am - 4:30 pm, Fri - 9:00 am - 4:30 pm, Sat - Closed, Sun - Closed"
+         },
+         {
+          "title": "Excellus Bluecross, 333 Butternut Dr, Syracuse, NY 13214, US - MapQuest",
+          "url": "https://www.mapquest.com/us/new-york/excellus-bluecross-263109950",
+          "snippet": "Previously, the company&#x27;s operations were known as BlueCross BlueShield of Central New York, BlueCross BlueShield of the Rochester Area and BlueCross BlueShield of Utica-Watertown. The company is one of New York s largest nonprofit health plans. Excellus BlueCross BlueShield maintains its corporate headquarters in Syracuse, N.Y."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_160820",
+      "args": {
+       "query": "\"Utilization Review Appeals\" \"Excellus\" address OR \"PO Box\" OR \"Rochester\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "ErcDCrQDAWkUfRP-MMx7YEn0adAc941HiOMBcUyzUzDD3TVtCXtmUJW47tjS4iflO3c4rxoLLcSFNOxftbHVzbV2FEIvvslqyUYsP5oeyplzxwS34u0JBtceA2ppLQT2bDvC-qz469s2ThfsZzXuHfYK9G7G-GZRMwipFpCySpE1ugeqlegCsFiSZYq9c5HddyOAUyJss2TrMtI0hFzpRQHs89Qq3ASDvchSA0CcSvqG-hc-0vX8b12m4mkAdVRNBPwdr1szhEeXdz2L1maWnyAtL_s4qjlgnPqyK7ru9tK-60SAcRMciWgFqBIlrW9BFEeSgJb2InF4psc8ZIZuyuk2YrUrB7K2jOCwvtGWnKmAkaNzdg0sJtrVbv8n8p1wcKRqPurhvcxhtDxDvRXj3Is8BYrGuibvsLg19qcSZATYjkvIFmviI5iTRZdYrOYsCtQcpbzFthy4f9loklSwcB1MniYj2baPMaypigfAy4aX-Ll6gSPkuQtn5PVtlt0EuKUDtKX7JRNkInBlQfeX4yPq1Qg995lC0jxqqccar_i5CWhg2TJM5v4uIVM9QbtnWD35pgxoqaTiAA=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Utilization Review Appeals\" \"Excellus\" address OR \"PO Box\" OR \"Rochester\"",
+        "results": [
+         {
+          "title": "Local Blue Cross and Blue Shield Mailing Addresses Last Update 10/24/2013",
+          "url": "https://www.candrdirect.com/admin/forms/pressmen_MedicalOutofNetworkClaimsAddress.pdf",
+          "snippet": "Excellus BCBS \u00b7 Attn: Claims \u00b7 <strong>P.O. Box 22999</strong> \u00b7 Rochester, NY 14692 \u00b7 *New York \u00b7 All Excellus plans use this mailing address: Excellus BCBS \u00b7 Attn: Claims \u00b7 <strong>P.O. Box 22999</strong> \u00b7 Rochester, NY 14692 \u00b7 *New York \u00b7 All Excellus plans use this mailing address: Excellus BCBS \u00b7"
+         },
+         {
+          "title": "Contact Us | Brokers | Excellus BlueCross BlueShield",
+          "url": "https://broker.excellusbcbs.com/contact",
+          "snippet": "In the Central New York and Southern Tier regions: Excellus BlueCross BlueShield 333 Butternut Drive Syracuse, NY 13214-1803 \u00b7 In the Rochester region and nationwide: Excellus BlueCross BlueShield <strong>165 Court Street Rochester, New York 14647</strong>"
+         },
+         {
+          "title": "Grievance and Appeals | Excellus BlueCross BlueShield",
+          "url": "https://www.excellusbcbs.com/plans/medicare-advantage/enroll/grievance-appeals",
+          "snippet": "However, if you ask for more time, or if we find that helpful information is missing, we can take up to fourteen (14) more days to make our decision. Mail: Excellus BlueCross BlueShield, Customer Advocacy Unit, <strong>PO Box 4717, Syracuse, New York 13221</strong>"
+         },
+         {
+          "title": "Excellus BlueCross BlueShield | Rochester NY | Facebook",
+          "url": "https://www.facebook.com/ExcellusBCBS/",
+          "snippet": "Please call the number on the back of your member card. Page \u00b7 Insurance company \u00b7 <strong>165 Court St</strong>, Rochester, NY, United States, New York \u00b7 (800) 499-1275 \u00b7 SocialMediaExcellus@Excellus.com \u00b7"
+         },
+         {
+          "title": "Excellus BlueCross BlueShield Directory - Greater Rochester Chamber of Commerce",
+          "url": "https://my.greaterrochesterchamber.com/memberdirectory/Details/excellus-bluecross-blueshield-1745554",
+          "snippet": ", <strong>Rochester , NY , 14647-0001</strong> \u00b7 www.excellusbcbs.com \u00b7 healthcare insurers \u00b7 MWBE : No \u00b7 Primary \u00b7 \u00d7 \u00b7 Print Email Facebook LinkedIn X Pinterest \u00b7 Close \u00b7 Powered By GrowthZone \u00b7 Explore Greater Rochester Chamber&#x27;s membership directory ..."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_123064",
+      "args": {
+       "query": "\"Excellus\" \"Appeals\" OR \"Grievances\" \"PO Box\" OR address commercial -medicare"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqYCCqMCAWkUfROEM4quZasKsJumSCNpx1C_VLQP4Bk7K7aCFqhosUdpWxG0TYpuuyV1RWtco2YjhhTbd3wOWexw3CtNv-v9np_oS4awfu0tvdvUOtkr8ShaUUd5hQw3wgYTlu1hdL-9Q_ql449oqLuXlxVXcZnT7lqKQXpig_8rLCfOiefRmJko7S-90o4gIcLDecM4U7yIsEG_jkecjAUr0uHHoay9cR6gAip2QxTaIooPgosZd-HCI5GiccO3ZzCNcQfnm-Ykx4AFVZ0DnGZCfGUwunktABnsz31oBUkNXaWpugFfQs-X1ifWzcYe-pPfROfEP3pTwH-M-In83DuX38rAe7-_KfrKkOG_ihA1mh95jG0O5f6NJhcluxIYkySM21L-NOdM"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Excellus\" \"Appeals\" OR \"Grievances\" \"PO Box\" OR address commercial -medicare",
+        "results": [
+         {
+          "title": "Fax and Appeals Submission Contact Information",
+          "url": "https://www.health.state.mn.us/facilities/ehealth/auc/forms/docs/aucpayercontact.pdf",
+          "snippet": "PO Box 405 \u00b7 Minneapolis, MN 55440-0405 \u00b7 UnitedHealthcare \u00b7 Please visit \u00b7 uhcprovider.com \u00b7 Sign in and click \u00b7 \u201cClaims\u201d \u00b7 UnitedHealthcare Community Plan \u00b7 Attn: Appeals and Grievances Unit \u00b7 <strong>PO Box 31364</strong> \u00b7 Salt Lake City, UT 84131-0364 \u00b7 Contact: Provider Services (877) 440-9946 ..."
+         },
+         {
+          "title": "Email Us | Excellus BlueCross BlueShield",
+          "url": "https://www.excellusbcbs.com/contact/email",
+          "snippet": "Need help? Email Excellus BlueCross BlueShield with questions about your benefits, prior coverage verification, claims submission, prescription drugs, and more."
+         },
+         {
+          "title": "Appeals and Grievances | Ultimate Health Plans",
+          "url": "https://www.chooseultimate.com/Member/AppealsandGrievances",
+          "snippet": "Mail: Ultimate Health Plans, Appeals and Grievances Department, <strong>PO Box 6560, Spring Hill, Florida 34611</strong>"
+         },
+         {
+          "title": "Frequently Asked Questions | Providers | Excellus BlueCross BlueShield",
+          "url": "https://provider.excellusbcbs.com/resources/faq",
+          "snippet": "If you cannot find your letter, call the Excellus BCBS Web Help Desk at 1-800-278-1247 . Please note: Non-Participating Dental Providers who have not previously submitted a claim will be unable to register for an account due to not having a unique Provider ID number; the Web Help Desk will be unable to assist. Once the first initial claim is received, a notification letter will be sent to your office with instructions on how to register for the portal."
+         },
+         {
+          "title": "Local Blue Cross and Blue Shield Mailing Addresses Last Update 10/24/2013",
+          "url": "https://www.candrdirect.com/admin/forms/pressmen_MedicalOutofNetworkClaimsAddress.pdf",
+          "snippet": "Local Blue Cross and Blue Shield Mailing Addresses \u00b7 Last Update 10/24/2013"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_145657",
+      "args": {
+       "query": "\"Excellus\" member appeal \"PO Box\" OR \"165 Court\" OR \"Butternut\" OR \"Syracuse\" OR \"Rochester\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "ErICCq8CAWkUfROVkPVo3NjFuX57aXvbmHczIUHeXvGOSkBySN5XVf5qx4ExR12QXPZdWbYjwwcick-ZGaCq3EotdGMxoPY_yfrBgDgJnS91oQN9O6Zs9RcseCwx5KfMxyDvRl5EFRkwvdId9UZz8vkuDfYxvcQS4WFZWOSn1cMrNWj0xMiz_P4z2t5XJJgt8SSL4b9c7ZWk8bs_Uq_vg8Nzmjvtb_N604ahM3IJjuuR6PkwwdfwZ308lw0EuiWuST-bHCjC68oFidYtA-4dYxPXpvi4FV0oP7QXgpZW8i5_c33_i96yfbqZfwWZ8CkcvUohyItPEgJo5ZhwcEz4AWuS70I1Az6Vlw9CDAHSNcK80_8gmkRxtA0h3umm27CxiS29kaLZcoqCFbZE7uQv49JWcx9D"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Excellus\" member appeal \"PO Box\" OR \"165 Court\" OR \"Butternut\" OR \"Syracuse\" OR \"Rochester\"",
+        "results": [
+         {
+          "title": "Contact Us | Employers | Excellus BlueCross BlueShield",
+          "url": "https://employer.excellusbcbs.com/contact",
+          "snippet": "In the Central New York and Southern Tier regions: Excellus BlueCross BlueShield 333 Butternut Drive Syracuse, NY 13214-1803 \u00b7 In the Rochester region and nationwide: Excellus BlueCross BlueShield 165 Court Street Rochester, New York 14647"
+         },
+         {
+          "title": "Contact Us | Brokers | Excellus BlueCross BlueShield",
+          "url": "https://broker.excellusbcbs.com/contact",
+          "snippet": "In the Central New York and Southern Tier regions: Excellus BlueCross BlueShield 333 Butternut Drive Syracuse, NY 13214-1803 \u00b7 In the Rochester region and nationwide: Excellus BlueCross BlueShield 165 Court Street Rochester, New York 14647"
+         },
+         {
+          "title": "NYSHIP HMO Contact Information - CS.NY.gov",
+          "url": "https://www.cs.ny.gov/employee-benefits/nyship/shared/option-transfer/guide/hmo-contact.cfm",
+          "snippet": "165 Court Street, Rochester, NY 14647 Plan-primary Members: <strong>1-800-499-1275</strong> Medicare-primary Members: 1-877-883-9577 TTY: 1-800-662-1220 excellusbcbs.com/mygroup/nyship/"
+         },
+         {
+          "title": "Member Handbook, and Other Important Documents",
+          "url": "https://www.excellusbcbs.com/documents/d/excellus/blue-option-plus-full-handbook",
+          "snippet": "grievance with Excellus BlueCross BlueShield by: <strong>Mail: Advocacy Department, P.O. Box 4717, Syracuse, NY 13221 \u00b7 Phone: 1-800-614-6575 for TTY/TDD services, call 1-800-662-1220</strong> \u00b7 Fax: 1-315-671-6656 \u00b7 In person: 165 Court Street, Rochester, NY 14647, OR \u00b7 333 Butternut Drive, Syracuse, NY ..."
+         },
+         {
+          "title": "Excellus BlueCross BlueShield Directory - Greater Rochester Chamber of Commerce",
+          "url": "https://my.greaterrochesterchamber.com/memberdirectory/Details/excellus-bluecross-blueshield-1745554",
+          "snippet": "Special thanks to our Partner Members for their investment in our organization and the economic vitality of the Greater Rochester region \u00b7 To find certified MWBEs to support your supplier diversity efforts, click &quot;Advanced Filters&quot; and select True"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_87452",
+      "args": {
+       "query": "\"P.O. Box 4717, Syracuse, NY 13221\" \"appeal\" site:excellusbcbs.com"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvIFCu8FAWkUfRNu4HlOlnGsW-eUZIo-GOxI6VOSVfUK7fjCuzSxJUKkp9Tb-4vQCbEx6V9jtN_HOn9_KvCUOzUvl6ypK4lASlvAw5CX9od_evmZbtHNcXvnaNs0abDSc5txVmSAhdnTEzFvAoJc2BVKjFpC3skudIC5Ge9wuewFeXi14SA2IvvEkWU6C-nbMRH8KTds3t5x02jhFtB0wDPOM1SmiZ2ufEMkoLe1VOmyktffDupj7FVT15aZk09wP0inwYg204r9GtpbispBgJV-3M_oQGX3M8NADskeS_ep3zRjElLkK2YxU5kjNSBVW0fiGgzokl25Z0be5cJG8SZ-ZIwSXnmkFRktjQoG7fbBICapBotxiD9_6-kaEnxeltS1jCmOKBQQjRRpdT8v6Vl9OoqVry7p0nzDFiwHWbFpSbbbus-f-l3dMWDQXrNvpr029RNIc0aZkMvrGFDGf9ixkGluzHG1ylTbelmxZNRQ8AunoSeiNIvmWd_lYLJ2TW2iq_fqbS9lEUNDaANfGEygyvHxgyIMhPtvCb8a3xd-S66hFrOhtKMBR7vXTHvb0WdWhXt-ADLik_SzHGMJu0HNAxTOdy3p1H4LPDihaUodLc0h_XTaZ3UJfNjcjRodCb6BjkCUCqwisfU1dCtIzvGkZZgml_slR6j0NFoWKdvoAd6kZ-pGMXLV0gqGWVyq599MjTeP5Ii1QFNL_YEMiQxwwcid5fNBjk08cEJhzMpSqY4VFBi29L_Syve9aeru0xVKL3vitnv4iNfuicbGqn34biTF4rXF2NpwwSU8uuODV-Mn8D2saTaTKaiid2nuOsTyOZmRdlmMg3Tuz4WNFrJ9s-rNnicwy8DmnjAvl0MuC4p94Y6i8B2win2eHzgpHQvqJCSXAOAxAKEms4xHvDycvPAtcPQ9Bw7vxex_3MBxhy2t_CLZzlcQm5HSr6eT30bAdOYHQXOR0cUZUYDgnRB6glhF71X34po6Wlvc4ppjCAp92A=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"P.O. Box 4717, Syracuse, NY 13221\" \"appeal\" site:excellusbcbs.com",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_132984",
+      "args": {
+       "query": "\"PO Box 4717, Syracuse, NY 13221\" \"appeal\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EswBCskBAWkUfRORGzVAUPkQguSqHjhBAexutnb0cK_lSR6IGP_HNBhqcTeMuHpc1PGWtuZ3wUpjEEeICdZ1d118Ykcze3rm_0i6y9O1B4bnsPnVxlWpAZRbUxL_olVabUL2AMl7JfLJRVnldMGRfMYOv5VNI7bRRb-T8SIS92kMkOWfhIWcFLk1mkCegiVvcryiBTAAaVWtjSFjHEoYXREKHdIRwonTSilHhW4TjtH15LELYslqgXuSw-7KGy7nlt5KxvTpx1eYo2ItDPpd"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"PO Box 4717, Syracuse, NY 13221\" \"appeal\"",
+        "results": [
+         {
+          "title": "Provider Request for Grievance or Appeal",
+          "url": "https://www.nyspma.org/aws/NYSPMA/asset_manager/get_file/232374?ver=5",
+          "snippet": "<strong>Excellus BCBS Advocate Unit</strong>, PO Box 4717, Syracuse, NY 13221 \u00b7 Please use only black pen to complete this form. Other colors or highlighters may not show when documents are \u00b7 scanned. All information on this form is required to ensure timely processing. Member and Provider Contact Information \u00b7"
+         },
+         {
+          "title": "Provider Request for Grievance or Appeal For Commercial products ONLY",
+          "url": "https://provider.univerahealthcare.com/documents/54041/303553/Request+for+Grievance+or+Appeal.pdf/248e4375-de2a-eacf-fac3-b1e4486f917c?t=1534963265997",
+          "snippet": "<strong>Univera Healthcare Advocate Unit</strong>, PO Box 4717, Syracuse, NY 13221 \u00b7 Please use only black pen to complete this form. Other colors or highlighters may not show when \u00b7 documents are scanned. All information on this form is required to ensure timely processing."
+         }
+        ],
+        "result_count": 2,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_137978",
+      "args": {
+       "url": "https://www.excellusbcbs.com/documents/d/excellus/blue-option-plus-full-handbook"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EtsBCtgBAWkUfRPIAQ-eVzoE9G88HFC1LAtCZgRuHb9X1TZSzSbthb4gOfqa_SIR5w-RWDKxx7sWYj4X0afUqGry1jHafGXwzwBBj6MGYGljoZwIKbWSf1kq_w9AvJ21lZJv_p69i4xJB41rPDJD9Ww4w-pXwVaHxOqInQfLQnUCseKLkLiZiB0tcZonclITn4yOMT8zepU0B3q4YtwNnCf_m_cAwZxrKJTzV8oxgkERwjDekNXKexbcvHXkfy2H2u0Nn2sZdImYWOzrMAfCRXmy6fo3Ef3qFWoxrK2V"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://www.excellusbcbs.com/documents/d/excellus/blue-option-plus-full-handbook",
+        "final_url": "https://www.excellusbcbs.com/documents/d/excellus/blue-option-plus-full-handbook",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": " Member Handbook, and Other Important Documents This handbook is revised for July 2016. This handbook will tell you how to use your Managed Care Plan. Put this handbook where you can find it when you need it. Member Services: 1-800-650-4359 TTY: 1-800-662-1220 SERVICE AUTHORIZATION AND APPEAL CHANGES EFFECTIVE 6/1/2018 A nonprofit independent licensee of the BlueCross BlueShield Association (EBOP) D6589 5/1/18 BOP1_C B-6346 Page 1 of 2 NOTICE OF NON-DISCRIMINATION Excellus BlueCross BlueShield complies with Federal civil ri ghts laws. Excellus BlueCross BlueShield does not excl ude people or treat them differently because of race, color, national origin, age, disability, or sex. Excellus BlueCross BlueShield provides the following: \uf0b7 Free aids and services to people with disabilities to help you communicate with us, such as: \u25cb Qualified sign language interpreters \u25cb Written information in other formats (large print, audio, accessible electronic formats, other formats) \uf0b7 Free language services to people whose first language is not English, such as: \u25cb Qualified interpreters \u25cb Information written in other languages If you need these services, call Excellus BlueCross BlueShield at 1-800-650-4359. For TTY/TDD services, call 1-800-662-1220. If you believe that Excellus BlueC ross BlueShield has not given you these services or treated you differently because of race, color, national origin, age, disability, or sex, you can file a grievance with Excellus BlueCross BlueShield by: Mail: Advocacy Department, P. O. Box 4717, Syracuse, NY 13221 Phone: 1-800-614-6575 for TTY/T DD services, call 1-800-662-1220 Fax: 1-315-671-6656 In person: 165 Court Street , Rochester, NY 14647, OR 333 Butternut Drive, Syracuse, NY 13214 You can also file a civil right s complaint with the U.S. Depa rtment of Health and Human Services, Office for Civil Rights by: Web: Office for Civil Righ ts Complaint Portal at https://ocrportal.hhs.gov/ocr/portal/lobby.jsf Mail: U.S. Department of Health and Human Services 200 Independence Avenue SW ., Room 509F, HHH Building Washington, DC 20201 Complaint forms are available at: http://www.hhs.gov/ocr/office/file/index.html Phone: 1-800-368-1019 (TTY/TDD 800-537-7697) Page 2 of 2 ATTENTION: Language assistance services, free of charge, are available to you. Call 1-800-650-4359, TTY/TDD 1-800-662-1220. English ATENCI\u00d3N: si habla espa\u00f1ol, tiene a su disposici\u00f3n servicios gratuitos de asistencia ling\u00fc\u00edstica. Llame al 1-800-650-4359, TTY/TDD 1-800-622-1220. Spanish \u6ce8\u610f\uff1a\u5982\u679c\u60a8\u4f7f\u7528\u7e41\u9ad4\u4e2d\u6587\uff0c\u60a8\u53ef\u4ee5\u514d\u8cbb\u7372\u5f97\u8a9e\u8a00\u63f4\u52a9\u670d\u52d9\u3002\u8acb\u81f4\u96fb 1-800-650-4359, TTY/TDD 1-800-662-1220. Chinese \u0628\u0631\u0642\u0645 \u0627\u062a\u0635\u0644. \u0628\u0627\u0644\u0645\u062c\u0627\u0646 \u0644\u0643 \u062a\u062a\u0648\u0627\u0641\u0631 \u0627\u0644\u0644\u063a\u0648\u064a\u0629 \u0627\u0644\u0645\u0633\u0627\u0639\u062f\u0629 \u062e\u062f\u0645\u0627\u062a \u0641\u0625\u0646 \u0627\u0644\u0644\u063a\u0629\u060c \u0627\u0630\u0643\u0631 \u062a\u062a\u062d\u062f\u062b \u0643\u0646\u062a \u0625\u0630\u0627: \u0645\u0644\u062d\u0648\u0638\u0629 TTY/TDD 1-800-662-1220. \u0648\u0627\u0644\u0628\u0643 \u0627\u0644\u0635\u0645 \u06be\u0627\u062a\u0641 \u0631\u0642\u06451-800-650-4359 Arabic \uc8fc\uc758: \ud55c\uad6d\uc5b4\ub97c \uc0ac\uc6a9\ud558\uc2dc\ub294 \uacbd\uc6b0, \uc5b8\uc5b4 \uc9c0\uc6d0 \uc11c\ube44\uc2a4\ub97c \ubb34\ub8cc\ub85c \uc774\uc6a9\ud558\uc2e4 \uc218 \uc788\uc2b5\ub2c8 1-800-650-4350, TTY/TDD 1-800-662-1220.\ubc88\uc73c\ub85c \uc804\ud654\ud574 \uc8fc\uc2ed\uc2dc\uc624. Korean \u0412\u041d\u0418\u041c\u0410\u041d\u0418\u0415: \u0415\u0441\u043b\u0438 \u0432\u044b \u0433\u043e\u0432\u043e\u0440\u0438\u0442\u0435 \u043d\u0430 \u0440\u0443\u0441\u0441\u043a\u043e\u043c \u044f\u0437\u044b\u043a\u0435, \u0442\u043e \u0432\u0430\u043c \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u044b \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u044b\u0435 \u0443\u0441\u043b\u0443\u0433\u0438 \u043f\u0435\u0440\u0435\u0432\u043e\u0434\u0430. \u0417\u0432\u043e\u043d\u0438\u0442\u0435 1-800-650-4350 (\u0442\u0435\u043b\u0435\u0442\u0430\u0439\u043f: TTY/TDD 1-800-662-1220). Russian ATTENZIONE: In caso la lingua parlata sia l'italiano, sono disponibili servizi di assistenza linguistica gratuiti. Chiamare il numero 1-800-650-4359, TTY/TDD 1-800-662-1220. Italian ATTENTION : Si vous parlez fran\u00e7ais, des serv\\ices d'aide linguistique vous sont propos\u00e9s gratuitement. Appelez le 1-800-650-4359, TTY/TDD 1-800-662-1220. French ATANSYON: Si w pale Krey\u00f2l Ayisyen, gen s\u00e8vis \u00e8d pou lang ki disponib gratis pou ou. Rele 1-800-650-4359, TTY/TDD 1-800-662-1220. French Creole \u05e4\u05e8\u05d9\u05d9 \u05e1\u05e2\u05e8\u05d5\u05d5\u05d9\u05e1\u05e2\u05e1 \u05d4\u05d9\u05dc\u05e3 \u05e9\u05e4\u05e8\u05d0\u05da \u05d0\u05d9\u05d9\u05da \u05e4\u05d0\u05e8 \u05e4\u05d0\u05e8\u05d4\u05d0\u05df \u05d6\u05e2\u05e0\u05e2\u05df, \u05d0\u05d9\u05d3\u05d9\u05e9 \u05e8\u05e2\u05d3\u05d8 \u05d0\u05d9\u05e8 \u05d0\u05d5\u05d9\u05d1: \u05d0\u05d5\u05d9\u05e4\u05de\u05e2\u05e8\u05e7\u05d6\u05d0\u05dd \u05e8\u05d5\u05e4\u05d8. \u05d0\u05e4\u05e6\u05d0\u05dc \u05e4\u05d5\u05df1-800-650-4359, TTY/TDD 1-800-662-1220. Yiddish UWAGA: Je\u017celi m\u00f3wisz po polsku, mo\u017cesz skorzysta\u0107 z bezp\u0142atnej pomocy j\u0119zykowej. Zadzwo\u0144 pod numer 1-800-650-4359, TTY/TDD 1-800-662-1220. Polish PAUNAWA: Kung nagsasalita ka ng Tagalog, maaari kang gumamit ng mga serbisyo ng tulong sa wika nang walang bayad. Tumawag sa 1-800-650-4359, TTY/TDD 1-800-662-1220. Tagalog \u09b2k\u09af\u09cd \u0995\u02e0\u09a8\u0983 \u09af\u09bf\u09a6 \u0986\u09aa\u09bf\u09a8 \u09ac\u09be\u0982\u09b2\u09be, \u0995\u09a5\u09be \u09ac\u09b2\u09c7\u09a4 \u09aa\u09be\u09c7\u09b0\u09a8, \u09a4\u09be\u09b9\u09c7\u09b2 \u09bf\u09a8\u0983\u0996\u09b0\u099a\u09be\u09df \u09ad\u09be\u09b7\u09be \u09b8\u09b9\u09be\u09df\u09a4\u09be \u09aa\u09bf\u09b0\u09c7\u09b7\u09ac\u09be u\u09aa\u09b2b \u0986\u09c7\u099b\u0964 \u09c7\u09ab\u09be\u09a8 \u0995\u02e0\u09a8 1 1-800-650-4359, TTY/TDD 1-800-662-1220. Bengali KUJDES: N\u00ebse flitni shqip, p\u00ebr ju ka n\u00eb dispozicion sh\u00ebrbime t\u00eb asistenc\u00ebs gjuh\u00ebsore, pa pages\u00eb. Telefononi n\u00eb 1-800-650-4359, TTY/TDD 1-800-662-1220. Albanian \u03a0\u03a1\u039f\u03a3\u039f\u03a7\u0397: \u0391\u03bd \u03bc\u03b9\u03bb\u03ac\u03c4\u03b5 \u03b5\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac, \u03c3\u03c4\u03b7 \u03b4\u03b9\u03ac\u03b8\u03b5\u03c3\u03ae \u03c3\u03b1\u03c2 \u03b2\u03c1\u03af\u03c3\u03ba\u03bf\u03bd\u03c4\u03b1\u03b9 \u03c5\u03c0\u03b7\u03c1\u03b5\u03c3\u03af\u03b5\u03c2 \u03b3\u03bb\u03c9\u03c3\u03c3\u03b9\u03ba\u03ae\u03c2 \u03c5\u03c0\u03bf\u03c3\u03c4\u03ae\u03c1\u03b9\u03be\u03b7\u03c2, \u03bf\u03b9 \u03bf\u03c0\u03bf\u03af\u03b5\u03c2 \u03c0\u03b1\u03c1\u03ad\u03c7\u03bf\u03bd\u03c4\u03b1\u03b9 \u03b4\u03c9\u03c1\u03b5\u03ac\u03bd. \u039a\u03b1\u03bb\u03ad\u03c3\u03c4\u03b5 1-800-650-4359, TTY/TDD 1-800-662-1220. Greek \u06c1\u064a\u06ba\u060c \u0628\u0648\u0644\u062a\u06d2 \u0627\u0631\u062f\u0648 \u0622\u067e \u0627\u06af\u0631: \u062e\u0628\u0631\u062f\u0627\u0631 \u06a9\u0631\u06cc \u06a9\u0627\u0644 \u06d4 \u06c1\u064a\u06ba \u062f\u0633\u062a\u064a\u0627\u0628 \u0645\u064a\u06ba \u0645\u0641\u062a \u062e\u062f\u0645\u0627\u062a \u06a9\u06cc \u0645\u062f\u062f \u06a9\u06cc \u0632\u0628\u0627\u0646 \u06a9\u0648 \u0622\u067e \u062a\u0648 1-800-650-4359, TTY/TDD 1-800-662-1220 Urdu August 2023 D9475 Electronic Notice Option Blue Option Plus and our vendors can send you notices about service authorizations, plan appeals, complaints and complaint appeals electronically, instead of by phone or mail. We can send you these notices to you by email. If you want to get these notices electronically, you must ask us. To ask for electronic notices contact us by phone or mail: Phone\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..1-800-650-4359 Mail\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 PO Box 21146, Eagan, MN 55121 When you contact us, you must: \u2022 Tell us how you want to get notices that are normally sent by mail, \u2022 Tell us how you want to get notices that are normally made by phone call, and \u2022 Give us your contact information (mobile phone number, email address, fax number, etc.). Blue Option Plus will let you know by mail that you have asked to get notices electronically. 1 NYRX The pharmacy benefit section of your member handbook will no longer be valid after April 1, 2023. Instead, refer to the information below. PHARMACY BENEFIT CHANGE: Starting April 1, 2023, your prescriptions will not be covered by Blue Option Plus. They will be covered by Medicaid NYRx, the Medicaid pharmacy program. Most pharmacies in New York State take the Medicaid NYRx pharmacy program. If your pharmacy does not take Medicaid, you may: \u2022 Ask your doctor to send a new prescription to a pharmacy that takes Medicaid NYRx pharmacy program, or \u2022 Ask your pharmacist to transfer a refill to a pharmacy that takes Medicaid NYRx pharmacy program, or \u2022 Locate a pharmacy that takes Medicaid NYRx at: https://member.emedny.org. You will need to show the pharmacist either your Medicaid Card or your Health Plan Card. This will tell them your Client Identification Number (CIN). Medicaid NYRx has a list of covered drugs. Over-the-counter drugs and most drugs are on the list. This list of covered drugs can be found at: https://www.emedny.org/info/formfile.aspx. \u2022 Some drugs need prior approval before they can be filled. This list will tell you if a drug needs prior approval. Your doctor will call to get prior approval. \u2022 If your drug is not on this list: o Your doctor can ask Medicaid for approval to let you get the drug, or o Your pharmacist can talk to your doctor about changing to a drug that is on the list. Medicaid NYRx pharmacy plan also has a preferred drug list. This list can be found at: https://newyork.fhsc.com/downloads/providers/NYRx_PDP_PDL.pdf. \u2022 If you need a drug that is listed as a non-preferred drug, you will be able to get a one-time only fill of this drug from April 1, 2023, through June 30, 2023. \u2022 If you need a non-preferred drug, please contact your pharmacist or doctor so that they can get approval for you to get this drug. The Medicaid copayment structure is not changing. Your copayment might change depending on if the drug is preferred or non-preferred. 2 NYRX Your pharmacy benefit also covers certain supplies: \u2022 A list of covered supplies can be found at: https://member.emedny.org/. \u2022 A list of preferred diabetic meters and test strips can be found at: https://newyork.fhsc.com/downloads/providers/NYRx_PDSP_preferred_supply_li st.pdf. o Medicaid will allow a one-time only fill from April 1, 2023, through June 30, 2023, for non-preferred test strips. o You will need to change to a preferred diabetic meter and test strip. Do you have questions or need help? The Medicaid Helpline can assist you. They can talk to you in your preferred language. They can be reached at 1-855-648-1909 TTY 1-800-662-1220. They can answer your call: \u2022 Monday - Friday, 8 am \u2013 8pm \u2022 Saturday, 9am \u2013 1 pm October 2023 D9569 YOUR MEMBER HANDBOOK HAS BEEN CHANGED TO INCLUDE MORE SERVICES Medically Tailored Meals Services We\u2019re proud to offer benefits and services that help you live a healthy life. Starting October 1, 2023, you can join a no-cost Medically Tailored Meals program that provides healthy meals straight to your home. Through this program, you and other members who qualify can get: \u2022 Help from a registered dietitian and nutritionist. This person is a food and nutrition expert and will help give guidance and support in choosing healthy foods. \u2022 Up to two meals per day delivered to your home for six months at a time. You may be able to continue receiving meals as long as you are eligible for this program. These meals are tailored for your specific health needs and can help you gain access to healthy, nutritious foods. This program is offered to Blue Option Plus members who are 18 years of age or older. Members must have a secure place to store and heat meals and have cancer, diabetes, heart failure, or HIV/AIDS, and a certain number of inpatient hospital stays and/or emergency room (ER) visits within the last 12 months related to these conditions. Joining this program is up to you. If you decide not to join, it will not affect your Medicaid eligibility or benefits. To learn more about these services, call Member Services at 1-800-650-4359. D8994 YOUR MEMBER HANDBOOK HAS BEEN CHANGED TO UPDATE SOME SERVICES Gambling Disorder Treatment Provided by Office of Addiction Services and Supports (OASAS) Certified Programs. Starting January 1, 2023, Excellus BCBS Blue Option Plus will cover Gambling Disorder Treatment provided by Office of Addiction Services and Supports (OASAS) certified programs. You can get Gambling Disorder Treatment: \u2022 face-to-face; or \u2022 through telehealth. If you need Gambling Disorder Treatment, you can get them from an OASAS outpatient program or if necessary, an OASAS inpatient or residential program. You do not need a referral from your primary care provider (PCP) to get these services. If you need help finding a provider, please call Excellus BCBS Blue Option Plus member services at the number listed below. To learn more about these services, call Member Services at 1-800-650-4359. ILS_2207 YOUR MEMBER HANDBOOK HAS BEEN CHANGED TO INCLUDE MORE SERVICES Home Delivered Medically Tailored Meals Medically tailored meals are based on certain health needs. They are pre-cooked, prepared, and brought straight to your home. Members may get up to 21 meals per week. Meals are bought to your home every week for up to 6 months. Starting January 1, 2023, Blue Option Plus will cover Medically Tailored Meals (MTM) for members who: \u2022 Are at least 18 years old, \u2022 Have a safe place to store and heat meals, \u2022 Are limited in the ability to perform actions of daily life, such as: o meal preparation o trouble moving from place to place without assistance o food shopping; or o bathing. \u2022 Have cancer, diabetes, heart failure, HIV or AIDS, \u2022 Have a medical provider or an Excellus BlueCross BlueShield case manager referral for the MTM program, and \u2022 One of the following events happened over the last 12 months because of cancer, diabetes, heart failure, HIV or AIDS: o At least 2 in-patient hospital stays, or o At least 5 emergency room visits (not urgent care visits), or o At least 1 inpatient hospital stay and at least 4 emergency room visits (not urgent care visits) Our Intake team will call you if you are eligible. You can as well call Member Service at 1-800-650-4359 for more information. Joining this program is up to you. If you decide not to join, it will not affect your Medicaid eligibility or benefits. CORE YOUR MEMBER HANDBOOK HAS BEEN CHANGED TO UPDATE SOME SERVICES Behavioral Health Community Oriented Recovery and Empowerment (CORE) Services. Starting February 1,",
+        "text_truncated": true
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_229859",
+      "args": {
+       "query": "\"Excellus\" \"Appeals\" commercial address PO Box OR \"Court Street\" OR \"Butternut\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "ErIECq8EAWkUfRNhtS-eY51rpHzhc1-g7UZrLHP7g2Ax280uuOluZ3iS-sWr4SD1cZiqCIpA02yCwBmLZk-iXbrS07u4ndhaLO9VX8SoLTfseyPvZvD2vQEz2UtKP4bvDoGUPoiucFDWfnRCp51DMSnZyfFGMNGrE5tbL1wFWyO6u26jng_mNHu4_GQMslPTCN0jmpGKJIyI-gaijq99TqUCo3cLEU1E18UbmqyUglOPRtvcTaGMZykSP-Vz8ZsBtPNYw3Nj4fIhud6qQt_Hsjfr7eNIF3unSj0kPnfvqUXaAx3YPzAg5HYNVt8hwnFwTVUHZMuwcnKPnlpmer4OG9EdgECXsOZUCVZe4cKm-rtrOhFywOoBfhX2GrCzguu_F1T7YbgD1Fy3uu6h0UOXuyd4mWO36FPinwgNg1-tyzqYpXkatMINjR9svesVSZl-42EH43VFE92yr5IoCZv8NOaeSrA86yPuRbj0Inm4hfgaw17TkYu0a4cYs8jzxsy6TAE6ENLXEefxwRpXNM3SdgoHDinBHieCTf17X6k0d0Y-qB_I5uP30xB3myQpVuhu5abz4qlKzrMGxpHNk5liXiwmmGIGYwgUH2dQ4jkcYOQRz0dLue-X4gi2q07PhMpV4i5w9_A3W0bt0Ngsgmncn0i76ilMjRAb2TBT9vg-frFGR7249OR4ZVQCWQUHi46dP2uBhveDqx80qgDCxqKuYHarXIiz-6t7x7hh9gtqUgqxpBTuXA=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Excellus\" \"Appeals\" commercial address PO Box OR \"Court Street\" OR \"Butternut\"",
+        "results": [
+         {
+          "title": "Grievance and Appeals | Excellus BlueCross BlueShield",
+          "url": "https://www.excellusbcbs.com/plans/medicare-advantage/enroll/grievance-appeals",
+          "snippet": "Mail: Excellus BlueCross BlueShield, Customer Advocacy Unit, <strong>PO Box 4717, Syracuse, New York 13221</strong>"
+         },
+         {
+          "title": "Grievance & Appeals | Excellus BlueCross BlueShield",
+          "url": "https://www.excellusbcbs.com/medicare-coverage/enroll/grievance-appeals",
+          "snippet": "Excellus BlueCross BlueShield Customer Advocacy Unit <strong>PO Box 4717 Syracuse, New York 13221</strong>"
+         }
+        ],
+        "result_count": 2,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_171412",
+      "args": {
+       "query": "\"Excellus\" \"Customer Advocacy\" OR \"Advocacy Department\" commercial OR \"member\" OR \"grievance\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpwCCpkCAWkUfRM3_bz7QbiOB1WtG7uIFkaB1AcMHJYV4NGINfxT8TgHIBAO_eV_SSYI6wuL0Kcys0hXImq59X88PlD0kc4K4mtf57G53gdcZE3c9NSQKkT2LJCzwJklWwSTLz9hRJGi_ERdmPvxrytCwH0jfeuw5y02u34sXBuxjTih3muR5kWJIdIt05panuULnmUxSG7lr1nIQTeYdIH0bexH-5WJbVbn3N0dKLWa6pkmviqGtxZnIG_yJzgrERMrnQM5e9mzSeD2x_GP5GrJIljAKSFfURrZRel7-AqCzjAd5jQx_8CYmEAMUmMtgLjEEIvPv-0Y59wP8OFbLB3nj8YfZkqWgmdReBTii7SGTS7_ZrsW6GOYGDDfZhU="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Excellus\" \"Customer Advocacy\" OR \"Advocacy Department\" commercial OR \"member\" OR \"grievance\"",
+        "results": [
+         {
+          "title": "Provider Request for Grievance or Appeal",
+          "url": "https://provider.excellusbcbs.com/documents/53971/224434/Request+for+Grievance+or+Appeal+Form.pdf/9c863ea7-1133-3063-f6a4-35a96c618ebb?t=1534257678486",
+          "snippet": "Provider Request for Grievance or Appeal \u00b7 For Commercial and Safety Net products ONLY \u00b7 Please mail this form and medical records/supporting documentation to: <strong>Excellus BCBS Advocate Unit, PO Box 4717, Syracuse, NY 13221</strong> \u00b7 Please use only black pen to complete this form."
+         },
+         {
+          "title": "Grievance and Appeals | Excellus BlueCross BlueShield",
+          "url": "https://www.excellusbcbs.com/plans/medicare-advantage/enroll/grievance-appeals",
+          "snippet": "You may request the aggregate number of our grievances, appeals, and exceptions by contacting the Customer Service department at the numbers provided above."
+         },
+         {
+          "title": "Grievances and Appeals | Medicare Members | Excellus BlueCross BlueShield",
+          "url": "https://medicare.excellusbcbs.com/resources/grievances-appeals",
+          "snippet": "You may request the aggregate number of our grievances, appeals, and exceptions by contacting the Customer Service department at the numbers provided above."
+         },
+         {
+          "title": "Nondiscrimination Notice | News | Excellus BlueCross BlueShield",
+          "url": "https://news.excellusbcbs.com/non-discrimination-notice",
+          "snippet": "If you need these services, please call Customer Care using the phone number on the back of your member card or <strong>1-800-499-1275 (TTY 711)</strong> . If you believe that the Health Plan has failed to provide these services or discriminated in another way ..."
+         },
+         {
+          "title": "Excellus Blue Cross Blue Shield | BBB Complaints | Better Business Bureau",
+          "url": "https://www.bbb.org/us/ny/rochester/profile/insurance-companies/excellus-blue-cross-blue-shield-0041-31950/complaints",
+          "snippet": "We have completed our grievance review and have the following information to share with you based on our investigation of your grievance. You reported to the Better Business Bureau that Excellus ended your coverage exposing you to medical bills that otherwise would be covered."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_80544",
+      "args": {
+       "query": "\"Excellus\" \"member\" appeal OR grievance form commercial OR \"individual\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqQECqEEAWkUfROOn9ipi7U4mrMsPxUFo__HalyYebxQc00klpiOKFrl6I5YtGe21Wp1OKI1BIwFOL9ziGfY6Dil_QpJKnG4HHvSTdRq0uD8SaP13476MnU2l8GZrTTyjjmkGbsoyU_i_fNfG2VH_b7j3TEGDsbK20g0NLfJ9YeVQggPBN_Yu4Yj2SmRauQSa4DBm-2hE4Lbr4Y4VXjgNsWzZ1jA9FcOAFiP1M0KOVTefIMLOYdxrUcbnp2G4Mv2nFq89S6ylvi0xaH2udjsvPoeWSlAy_Vb8dA6prL3q9niovcnEr_7ej7BuZjx9qKw4ozuqD6ERoGH2FIG_D6wNuKuYGqyB2X7lwNZ1XI1ld0mdc_ie-OJDzrTAiNePfD0bo2Vwy9hBWikI8QJVUvK5pGdZoZSjcXOAsDkk8PJ1x4HVep-bDirV3ZKE6Er-EWJM_ow7kewJgAF38jQDk1OKrbOZLM8CWnPetr_8_GKIqwd0CYH7D4etg1jt56ZAXENyQxvwlA3FUWeJzUampmM_-Vs8lMZV_3fSmo8y1d8x6yYxnFZGzDAlR0-Xi1Z5t-rSd7xgw-umOe-9wFmS3gfdEp9chLN_bJwJtc7jH30SozFM6myx0khwkD-ySAK3C1mg6rSK6YLLAIA3Kf0SBUcku7XVc3o6Nr7lPLBxFBA023lfu4eTQxwtBbTmT2F0WU0seDXVQJ3qHJfd-g-VcaQAmCxEWkdbng="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Excellus\" \"member\" appeal OR grievance form commercial OR \"individual\"",
+        "results": [
+         {
+          "title": "Provider Request for Grievance or Appeal",
+          "url": "https://www.nyspma.org/aws/NYSPMA/asset_manager/get_file/232374?ver=5",
+          "snippet": "Provider Request for Grievance or Appeal \u00b7 For Commercial and Safety Net products ONLY \u00b7 Please mail this form and medical records/supporting documentation to: <strong>Excellus BCBS Advocate Unit, PO Box 4717, Syracuse, NY 13221</strong> \u00b7 Please use only black pen to complete this form."
+         },
+         {
+          "title": "Request for Redetermination of Medicare Prescription ...",
+          "url": "https://medicare.excellusbcbs.com/documents/53950/259670/Grievance+and+Appeals+Model+Re-determination+Request+Form.pdf/a3c889ab-55cb-f90e-7003-64eefed51568",
+          "snippet": "You may also ask us for an appeal through our website at <strong>myexcellusmedicare.com</strong>."
+         },
+         {
+          "title": "Excellus Blue Cross Blue Shield | BBB Complaints | Better Business Bureau",
+          "url": "https://www.bbb.org/us/ny/rochester/profile/insurance-companies/excellus-blue-cross-blue-shield-0041-31950/complaints",
+          "snippet": "View complaints of Excellus Blue Cross Blue Shield filed with BBB. BBB helps resolve disputes with the services or products a business provides."
+         },
+         {
+          "title": "A nonprofit independent licensee of the Blue Cross Blue Shield Association",
+          "url": "https://www.crouse.org/wp-content/uploads/2018/02/Excellus-BCBS-Member-Guide-2021.pdf",
+          "snippet": "or grievance \u00b7 You have the right to appeal \u00b7 Get updates throughout the \u00b7 year\u2014online \u00b7 - PAGE 14 - You should know \u00b7 - PAGE 15 - Notice of nondiscrimination \u00b7 - BACK COVER - We&#x27;re online \u00b7 Live Fearless \u00b7 2 \u00b7 Our Medicare PPO and Commercial \u00b7 plans are accredited by the National \u00b7 Committee for Quality Assurance \u00b7 MAKE THE MOST OF \u00b7 YOUR HEALTH PLAN \u00b7 At Excellus BCBS, we provide tools and support to make it easy to \u00b7"
+         },
+         {
+          "title": "Member Grievances and Appeals Process Update \u2013 Effective Immediately",
+          "url": "https://humboldtipa.com/forms/Anthem%20Member%20Grievances%20and%20Appeals%20Process.pdf",
+          "snippet": "forms, and plan responses to grievances, as well as access to interpreters, telephone relay systems and other devices that aid disabled \u00b7 individuals to communicate. G&amp;A associates are trained to ensure that Members, who submit oral or written grievances and appeals"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_125786",
+      "args": {
+       "url": "https://www.crouse.org/wp-content/uploads/2018/02/Excellus-BCBS-Member-Guide-2021.pdf"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "Et0CCtoCAWkUfRPJ54yJWW1wyNrcKoL9Myhy0iRZj2zoBWWT1GtX1-XjbfTM9d7v20ElyxmsqcQxdroS3T-STRaCiQNBlYRMgHCBIz6wStpz7WFjyRbJ4LxBwMpL4u9pTzogIa5BU_L42vKmWfS2t-34A7lxyC8nXrdO3U82ZulU7C5wRxR7E5pA-lDLugd_cHzeLw7CsaJHeHGq2lKdF3SLzOks0llQYRPocWKjk1kAVWH_UtgwvJV8rXZWVH-fhiqv1l_Qz9tcW5-hI7aukxq5mBtDYWEOblvF8Nm0q-jiiWp7ej6jL6IB3rrS5gMyxj6A0sfgUNvZzfngILr4_dhhgWVWPSyA6srLgsXlfZ_mqA1lAI_QOeWLKQYjBQKbdc0Zfytw4Wpm9z0MYBSTId9RwRDWTalAlbuav2paZmipf9UOIFQJAj_R5TOj6ncLkT3UXEwq2tYPsvlGZa3Orw=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://www.crouse.org/wp-content/uploads/2018/02/Excellus-BCBS-Member-Guide-2021.pdf",
+        "final_url": "https://www.crouse.org/wp-content/uploads/2018/02/Excellus-BCBS-Member-Guide-2021.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "A nonprofit independent licensee of the Blue Cross Blue Shield Association MEMBER GUIDEBOOK GO PAPERLESS! To receive your Member Guidebook (or other available documents) electronically, simply update your account settings on our website or mobile app. Register or login at ExcellusBCBS.com/login It\u2019s easy! THIS IS YOUR 2021 GUIDE This guidebook is published yearly for members whose health plan benefits are provided through a self-insured employer plan. The information contained here is not intended to provide medical advice or to take the place of medical care. This document does not contain all the specifics about your health insurance plan - those can be found when you login to your member account at ExcellusBCBS.com. Any questions you have should be brought to the attention of your health care provider. Please send comments or suggestions to: Editor, Member Guidebook Excellus BlueCross BlueShield 165 Court St. Rochester, NY 14647 KEEP YOUR CONTACT INFORMATION CURRENT Have you moved or changed your phone number? It\u2019s important to keep us informed of changes to your mailing address and other telephone number(s), so we may communicate with you regarding your health plan, member account and/or premium bills (if applicable). Visit ExcellusBCBS.com, or call the telephone number on your member card and our Customer Care representatives are happy to assist you. Our Marketplace plans are accredited by the National Committee for Quality Assurance Our Medicaid and Medicare HMO plans are accredited by the National Committee for Quality Assurance TABLE OF CONTENTS - PAGE 2 - Sign up. Stay informed. This is your 2021 guide Make the most of your health plan Keep your contact information current - PAGE 3 - We emphasize quality for you We speak your language COVID Support: We\u2019re here for you Get help Go paperless! - PAGE 4 - Manage your health and well-being Quitting smoking Coverage wherever you go Going away to college or on vacation? - PAGE 5 - Expand access to care through telehealth! After office hours Urgent care is convenient care When it\u2019s an emergency - PAGE 6 - Enjoy HealthyPerks\u2122 and healthy savings Establishing care with a new PCP Need to find a doctor? 24/7 nurse call line When you visit a specialist\u2026 Have Arthritis? Check these online decision-making tools - PAGE 7 - Well-child visits keep kids healthy Caring for you Give your baby the right start Lead poisoning CDC recommends HPV vaccine for preteens and teens - PAGE 8 - Preventive health visits by age Recommended immunization schedule - PAGE 9 - Are you eligible for special insurance enrollment Adult preventive care - PAGE 10 - 4 steps to better health Consider taking a risk health assessment Prescription coverage Have pharmacy coverage through Excellus BCBS? - PAGE 11 - HIV/AIDS/STI: What you should know Protecting your health information - PAGE 12 - Experimental and investigational procedures are not covered Know the facts Advance care planning Health plan medical policies available online - PAGE 13 - Important information about your plan How to submit a complaint or grievance You have the right to appeal Get updates throughout the year\u2014online - PAGE 14 - You should know - PAGE 15 - Notice of nondiscrimination - BACK COVER - We're online Live Fearless 2 Our Medicare PPO and Commercial plans are accredited by the National Committee for Quality Assurance MAKE THE MOST OF YOUR HEALTH PLAN At Excellus BCBS, we provide tools and support to make it easy to manage your plan\u2014and live a healthier lifestyle. Visit us online or download the mobile app. Get started at ExcellusBCBS.com/login or download our mobile app today! \u2022 View member card(s), benefits, coverage and claims \u2022 Estimate medical costs and check drug prices* \u2022 Learn how to save on prescriptions and get wellness discounts Plus, you can quickly connect to care: \u2022 Find a doctor, urgent care center, hospital, or other provider \u2022 Use Wellframe\u00ae mobile app to connect with your care manager, dietitians, and more* \u2022 Call the 24/7 nurse call line (no cost) *Features may vary by your plan\u2019s selected benefits as will the related features on the website and/or mobile app; talk to your employer\u2019s benefits administrator to see if this program is available to you. Stay Informed. Sign up for our email newsletter. Stay healthy and informed about your health insurance. Signup for our email newsletter at ExcellusBCBS.com/ email to receive updates and articles to help you make better health care decisions for you and your family. COVID SUPPORT WE\u2019RE HERE FOR YOU We want you to know that we are here for you and can help when you have questions. We also have a COVID-19 website to give you easy access to updates, helpful tips and more. Please share the following link with your family and friends: ExcellusBCBS.com/covid19 GET HELP You can visit our website at ExcellusBCBS.com to find a participating provider or doctor. Printed directories are available by request by calling the number on your member card. You can also log in using your member account, to view or request a member card(s), check the status of claims or referrals, view benefits and coverage, and more. MORE QUESTIONS? Call the phone number or your member card and our Customer Care advocates are happy to assist you. YOU CAN ALSO CALL THE APPROPRIATE NUMBER BELOW: For claims, benefits, and all other questions: \u2022 Call the number on your Member Card for personalized care. Don\u2019t have your card handy? \u2022 Call 1-800-499-1275 Hours: Monday\u2013Thursday, 8 a.m. to 7 p.m., Fridays, 9 a.m. to 7 p.m. For TTY/TDD: Call 1-800-662-1220 GO PAPERLESS! To receive your Member Guidebook (or other available documents) electronically, simply update your accounts settings on our website or mobile app. Register or login at ExcellusBCBS.com/login It\u2019s easy! 3 WE EMPHASIZE QUALITY FOR YOU We have a plan to meet your needs. Our mission is to improve the quality of life in the communities that we serve. We strive to empower members to become active participants in their personal health across their life\u2019s journey through educated and informed decision making. We collaborate with hospitals, primary care practitioners and specialists in all the communities we serve striving to ensure the safe, high quality and cost-effective care for you, our members. We routinely evaluate the quality of health care services and your experience/satisfaction rating of the health care services you received across our provider network. You can find information about our Quality Improvement Program and the progress made toward meeting its goals by visiting us at ExcellusBCBS.com or by calling Customer Care at the phone number on your member card. WE SPEAK YOUR LANGUAGE We offer a service that translates members\u2019 questions and medical providers\u2019 and/or doctors\u2019 answers into more than 150+ languages. Call Member Services at 1-800-650-4359 or TTY/ TTD, 1-800-662-1220 to talk to an interpreter. QUITTING SMOKING The New York State Smokers\u2019 Quitline offers useful and proven resources to help people who want to quit smoking. Call the Quitline at 1-866-NY-QUITS (1-866-697-8487) or visit their website at: www.nysmokefree.com Not In New York state? Quitline services in all U.S. states can be accessed through a toll-free national portal number provided by the National Cancer Institute at 1-800-QUIT NOW (1-800-784-8669) . Callers can access additional, language-specific quitline services via 1-855-D\u00c9JELO-YA for service in Spanish (1-855-335-3569), other languages are also available. MANAGE YOUR HEALTH AND WELL-BEING If you or a family member have a chronic condition, or need behavioral or mental health support, our care managers are experienced health care professionals available to guide you and help you navigate today\u2019s health care system, feel more in control, and support your wellbeing. Our Experienced Care Managers Doctors, registered nurses, care managers, behavioral health clinicians, registered dietitians, social workers, respiratory therapists, pharmacists, and other specialists. Conditions Physical, Mental and Emotional Health Preventive Care, Asthma, Diabetes, Heart disease or Depression Complex chronic conditions (e.g., HIV, COPD, cancer, stroke, spinal cord injury) Anxiety, Depression, Mental illness, Substance use, Autism, Eating disorders, and more. SINGLE POINT OF CONTACT Your experienced care manager can help you: \u2022 Identify and reach goals to maintain or improve your health, and identify barriers preventing health goals from being met. \u2022 Find answers to questions and provide education about conditions, treatment, or keeping up with your treatment plan. \u2022 Understand your medications and taking them as directed by your health care provider. \u2022 Provide education and support for self-care and decision-making. \u2022 Find services, resources, and care you may need, including referrals to programs or community resources, and support you and your family may need. \u2022 Arrange access to care and help navigate your insurance benefit information. \u2022 Talk with your health care provider to assist with arranging the best care for you. Contact a Care Manager at 1-800-860-2619 (8 a.m. to 4:30 p.m. EST), TTY 1-800-662-1220, or email us at Case.Management.Referral@excellus.com, help manage chronic or complex medical conditions. For Behavioral Health conditions, please call: 1-800-277-2198, TTY 1-800-662-1220. Your care manager will contact you the next business day. You can opt in or out of the care management program anytime. COVERAGE WHEREVER YOU GO With Excellus BlueCross BlueShield, you\u2019ll never have to worry about your insurance coverage. Regardless of where you live or travel, the BlueCard\u00ae Program goes with you. To find a participating doctor or hospital, call 1-800-810-BLUE (2583) or find a doctor online at ExcellusBCBS.com. 4 GOING AWAY TO COLLEGE OR ON VACATION? Don\u2019t forget to bring a copy of your Member Card. Your health plan can help you and your family obtain emergency care when needed. To request a duplicate Member Card, log on to ExcellusBCBS.com, check our mobile app, or call Customer Care at the number on your member ID card. Subscriber Name Subscriber ID Effective Date Plan Code RxBIN RxPCN Plan PCP Copay Children up to age 19 Specialist Copay Emergency Copay Plan Type Common telehealth services: \u2022 Non-emergency \u2022 Behavioral and mental health \u2022 Dermatology \u2022 Endocrinology \u2022 Neurology \u2022 And more! Visit with your primary care doctor or specialist via telehealth: Providers can treat a variety of conditions from the comfort of your own home. Visits can be conducted via telephone or video. Call and ask your provider in advance if a telehealth visit is the best option for you. Cost of a telehealth visit: \u2022 Payment responsibilities will vary by group and plan \u2022 Contact Excellus BCBS Customer Care to receive your benefit and cost for a telehealth visit. AFTER OFFICE HOURS If you get sick or hurt and need care after regular office hours, call your doctor\u2019s office first, unless it is an emergency medical condition. Your doctor/primary care provider (PCP) knows your medical history and is the best person to help you. Your PCP may use an answering service or another doctor who is on call to make sure you can get medical care when you need it. Your PCP or the on-call doctor will decide if you need treatment right away or if you can wait for regular office hours. If you do need care, your doctor may see you at their office, send you to their on-call doctor, send you to an urgent or after-hours care center, or send you to an emergency room. 5 URGENT CARE IS CONVENIENT CARE When a non-emergency medical issue doesn\u2019t require an emergency room visit, or if you can\u2019t get in to see your physician, you can visit an urgent care center and get the care you need. Please ensure the provider you select is participating with your benefit plan. Contractual rules still apply. For benefit information, log on to ExcellusBCBS.com or call Customer Care at the phone number on your Member Card. For a location near y",
+        "text_truncated": true
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_129286",
+      "args": {
+       "query": "\"How to submit a complaint\" \"You have the right to appeal\" Excellus"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Eo8FCowFAWkUfROhI0BAHbEOSurbE9BMuKTjU1T5AtZEzvYA6de4---hPer5CEpCF1Zex2Ob1BSgtBY6M3WVdiJRODtyay6yyezTb8Zp2HT0bVh2Mo_ymHHKN_w54G3UvqSJT6h2TQm7J1YYWDHE6_yjGuXxrCgAvoDOKoj7xZEh9kaocvgpmarqpBujSNrVO6Sa_VGWW6moe0Zd_33aPBcZfCrFZsS50QlxmlTbmHkYvE5GejciDrIsM0SU_lStL_1gzyv3GtlVIH_CnbBM6WJ2I1M7YQlFdBRlWA20MTGMF1z5oAb20mj6GakG-Cc1-_89IbcBZLUzsf4AoaKmDdCq82itXd4I_NdyDUaR2ktPiB_Gp5TLzP8MCu6l2a2zGsT1eczgHRCZlwUiwFCnejd4EleQgZ2jTVpUJjyK9__yjuNroqF_tLzJTlidbg7q90LJNMumYXcAVTusZ5484MgTTTxkvm-rQlbNd_lbXmH6w7pntmyd7A1SzDKWHjgdmxb3lKS2c6e9pnJcppv9YHc4TdW2qMEjRgxYdUaOKmJMwO1uop8saIVAs8t5U-Gi2Mp-VKlpJyCV1e08-_6l89sdF3rSup09ZS6Cqzs1dl4aD6FNxfQK_W4cY7XF4muup33dbPE1EuboOHHbDaXwYJOppHuMrQ6j9VkZFe0Qh_2FujobrX-x2ef6zxf-5fMLj2e3Vt7bUcVOJWMMHE_qZcgr2eYmLz0hOqa_sSUcbgFej5Xv4qSW-gTdHYnUvY6mT4BsHOgLDiHxudgtrQBltir-Sx93Vbnx4Wfprky5VQq7je551XoHtTp_lDwsNXCRjdurvnAoC4yNVfz7yosvFW8KTAYEbbh-5Zig3eIRM_5y1Q=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"How to submit a complaint\" \"You have the right to appeal\" Excellus",
+        "results": [
+         {
+          "title": "A nonprofit independent licensee of the Blue Cross Blue Shield Association",
+          "url": "https://www.crouse.org/wp-content/uploads/2018/02/Excellus-BCBS-Member-Guide-2021.pdf",
+          "snippet": "through Excellus BCBS? - PAGE 11 - HIV/AIDS/STI: What you \u00b7 should know \u00b7 Protecting your health \u00b7 information \u00b7 - PAGE 12 - Experimental and investigational \u00b7 procedures are not covered \u00b7 Know the facts \u00b7 Advance care planning \u00b7 Health plan medical policies \u00b7 available online \u00b7 - PAGE 13 - Important information about \u00b7 your plan \u00b7 How to submit a complaint \u00b7 or grievance \u00b7 You have the right to appeal \u00b7"
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_101901",
+      "args": {
+       "query": "\"How to submit a complaint or grievance\" \"You have the right to appeal\" Excellus"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Eq0DCqoDAWkUfRPXQ9wzgh-NOiCwb0Od92UV6GP-EMjeQumaivSY-4PRS-aObR-oOyy2r7pnQ6jFYDe3JxwAYFJzrQSr8A-0OrfZvWifIVrN6Glz9OWfWoSmBUvPNQ0k2Qp9ExVnufmyXYkSlrTa7Q2RxrF06yeALEsA6HsPSGARC_aH6AzMi_P_cvkIQmrGnH5bZ_eH9Xi7XFFtbG4VRx74q7N4J1gt0fL1p874W73e5x7N9GVHjKdYtD3IL8ENRguGja-lwsDD-UwEdkNSRWZ_nkwZoqorJyeVv_sSzrkuw2ciZ5CK2ye4i3EJvMNvQwVtHbMbeCFJD9GXE4FPCd6Kq7NabIT-qMNd6HcYC4lWWh4eQT0erzwHOjJN4tvg_eFbSkG16ws43PfjlFK5q3zRt_1yNceJtq5aMWynGJU57Wtw0axMgD5yRTeHJNqDJKMEAYtLZJl6q7AOh8gb3JxbkpqamM65LFsmQS7JqgkLdoshWq7b3P-y-V5YaKBjcuU9VkqHm2RcmNrL1kFvxlzHOScW6cOK2OfJxx-Pflb6vJCB4UWbW745hYoafNwL"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"How to submit a complaint or grievance\" \"You have the right to appeal\" Excellus",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_168528",
+      "args": {
+       "query": "\"Utilization Review\" appeal \"Excellus\" address OR phone OR \"Court Street\" OR \"Butternut\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EoICCv8BAWkUfRPNIYrs59szHA5CbD1eiNhg_1_k_5DmmCuAjm2LGtoOTfOmGsnA4a5Tujd7OfB5XlBjq_lzYoHHzcyXc55B-9n-c-TPV3VlJLOsXduY1ULOEad9ChSihf5Qa87HFej-emd7IVQ0dLTRBc3aFhnsF3_6BdfOpiA3FSUT5gMvp7YQE5qwGlzrIsH7LWxNu8kPiZ0uuq_6aUITmGpI1RYnqi5xMME8fVUM1kqbMFDpBqEYsJl0y3dggRrzuiqOxKERjMLOq9MH9KK1fcva5aL8t9uE1O-34hqWl79ggdGdRv_hHRKrL1Tdo6ZVSWefhdTLD1kzymAp7zFEEv8V"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Utilization Review\" appeal \"Excellus\" address OR phone OR \"Court Street\" OR \"Butternut\"",
+        "results": [
+         {
+          "title": "Federal BCBS Phone number, Claim & Appeals address",
+          "url": "https://muthubcbs.blogspot.com/2014/06/federal-bcbs-phone-number-claim-appeals.html",
+          "snippet": "Plan Name Customer Service Utilization Review Alabama, BCBS of Alabama 800-760-6852 Click here for full contact info Alaska, Premera BCBS of Alaska 800-722-4714 opt 2 800-722-4714 opt 3 Arizona, BCBS of Arizona 800-232-2345 Click here for full contact info Arkansas, BCBS of Arkansas 800-827-4814 Click here for full contact info California, Anthem Blue Cross of California 800-922-3242 (HMO) Click here for full contact info California, Blue Shield of California 800-541-6652 Option 6 Click here for full contact info Colorado, Anthem BCBS of Colorado 877-833-5742 Click here for full contact info Connecticut, Anthem BCBS of Connecticut 800-922-3242 (HMO) Click here for full contact info Delaware, BCBS of Dela"
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_84007",
+      "args": {
+       "query": "Excellus \"clinical appeal\" OR \"medical appeal\" address OR \"PO Box\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EuQDCuEDAWkUfRNB7-v49A5ckqwOBsjhu2Dxm17fCm_AlB8uYe_CqT3PUptn-7r3GT-pFtAY3L6NsuFeWwakXrJBTXmA9-ISlKTZYOAvGBQZ8h41bQIzaVlIFjHqU6Kg3CSlpqHp1vrAwq_G61jxa9GgenX25zZ0etajBAJt8qlQ6k1vFPzCz_-FY125RGZ4Gl_YoZ69m_btOAfHMIaO1xRR9nVEzGyEARxQw2O56Hx7yi1hRiCvtd0shwC3AdoAk0kh7zbAfno3ttl0HX96Mq06yq4xIHW0EP4fr23gfDLJ8amr1ejhm45rF-9nS4FYh1moMeRuYynU31BHb59-mVXQ6NnAj5qiAkSCQgbU8D0cPDuq1twBG5PeGPyzC2CybQfpmmrm1oXcFejW5905rKtZZhcwgY_X_1vIAiYGsAuBncoX_wMwmaL9X1Rj8sdVbyVnWbsLmYwO2W3jQPt_Bn--MJO4E7o3KGywkNkLZhKt5etkN0b0SJU9MUf_YTfN9WBtYeQ1t7uYzKnrAOKPiEzPIUp3b_eWLnPczURhtWbqnGwBKi37QsVR9kDda_qpCjRsW5MCByaY1_DCIjr9x2iOeh4uMlDcfKHcU8VJHFaFjWzzC5xUCnPooNQKAEmybfB3oiRG4A=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Excellus \"clinical appeal\" OR \"medical appeal\" address OR \"PO Box\"",
+        "results": [
+         {
+          "title": "Grievance and Appeals | Excellus BlueCross BlueShield",
+          "url": "https://www.excellusbcbs.com/plans/medicare-advantage/enroll/grievance-appeals",
+          "snippet": "However, if you ask for more time, or if we find that helpful information is missing, we can take up to fourteen (14) more days to make our decision. Mail: Excellus BlueCross BlueShield, Customer Advocacy Unit, <strong>PO Box 4717, Syracuse, New York 13221</strong>"
+         },
+         {
+          "title": "Provider Request for Grievance or Appeal",
+          "url": "https://www.nyspma.org/aws/NYSPMA/asset_manager/get_file/232374?ver=5",
+          "snippet": "Provider Request for Grievance or Appeal \u00b7 For Commercial and Safety Net products ONLY \u00b7 Please mail this form and medical records/supporting documentation to: Excellus BCBS Advocate Unit, <strong>PO Box 4717, Syracuse, NY 13221</strong> \u00b7 Please use only black pen to complete this form."
+         },
+         {
+          "title": "Grievances and Appeals | Medicare Members | Excellus BlueCross BlueShield",
+          "url": "https://medicare.excellusbcbs.com/resources/grievances-appeals",
+          "snippet": "However, if you ask for more time, or if we find that helpful information is missing, we can take up to fourteen (14) more days to make our decision. Mail: Excellus BlueCross BlueShield, Customer Advocacy Unit, <strong>PO Box 4717, Syracuse, New York 13221</strong>"
+         },
+         {
+          "title": "Po box 21146 eagan mn 55121: Fill out & sign online | DocHub",
+          "url": "https://www.dochub.com/fillable-form/158846-medical-claim-form-excellus-bluecross-blueshield",
+          "snippet": "Edit, sign, and share Medical Claim Form - Excellus BlueCross BlueShield online. No need to install software, just go to DocHub, and sign up instantly and for free."
+         },
+         {
+          "title": "Request for Research/Claim Adjustment/Claim Retraction",
+          "url": "https://provider.excellusbcbs.com/documents/53971/224437/Claim+Adjustment+or+Retraction+Request+Form.pdf/487a9312-becf-b59d-a870-98dbd9bd3ad8?t=1629391350341",
+          "snippet": "To submit this form electronically via the SDS Virtual Mailbox, go to Provider.ExcellusBCBS.com/authorizations/sds-portal \u00b7 To submit this form by mail, return to <strong>PO Box 21146, Eagan, MN 55121</strong>"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_153317",
+      "args": {
+       "query": "Excellus commercial member appeal fax"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Er4FCrsFAWkUfRMzvseoUKGgveV4986tZW6KoVMeYv-TvVdrg6h6OfqbYzngcIOcEONmWM41ur-wJjXsx5_PsWFme4aWfA-doUljetoElbIjmd7COs7MMiN5x3ST8tEjJnqw60G834fUfB2cp3ozXw5Ilr0_UC0qWnFR6iJCPKQyFw97nmiV5setWM1hvODc7Jny8VUfkda9BbiTHgEs5pf6FghRs6k2Cnvt77BrApJwDw_RlCir5AGVU8ebuiA6-2dB1xdrVeY_3bFRWQVrbjpgYyu-D5Uu2JYXr76ZPrZsJ4pn47sy1vFiDxRCxIbL2Bxu2JxHzsSLTqAfETundWrmrfY_R5YoUG4wSiBCKTYecw-br2Olhyzb259PURyzLOK7MuQqKTafFScs29py5IfZCuWAd24aoAwm_UnVYhtYIC08whQOIHN4pS1JDBbFsPPZq_XRGK23YHXR1ZIzCnZTCc6QI6Id3AygZlWQKSzMtjLQF7nwoaWQbzjhpS0yvIt9r5t7w-CUpujGZbXj6bT1HKpD-68mydGhGwxNX13sOoa9Lotp5JQddNauxJi7wC2LTgTPs44NdDuC-CpXg9LXv2CIcqw3ILB6U9AM5EBmTKyZFfz6Nj-RK803mYJrptmtf6BY0_fL3AZxNlRDU9wpawFxG5CfTlpBqjRD6UbXN4gLh50keijH6wZ6tz8wbNPMaNc-hhO42UjzWoYa7vXYnUdjnt0nLpdKdTVm2Iz_VKDR2qktGrGZ9drfQkm0_9QGHu_7OB_mbwJIWwpTLtHQuhxlRBCGuDEBS7RDQe5dyez_RUaMMetBW42QGGXv9sNuCp5YckvsXhGNEatyeWmR3Jj4yue1Dl3qHIYLc8M3RWFDJQk2LDIc6otvArI565ku67l0dcGz_2rdxJPJYPX-fMvxpGVzt_PebbHnHXPz"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Excellus commercial member appeal fax",
+        "results": [
+         {
+          "title": "Contact Us | Providers | Excellus BlueCross BlueShield",
+          "url": "https://provider.excellusbcbs.com/contact",
+          "snippet": "Contact By: Call 1-800-920-8889 Submit an inquiry online Fax <strong>1-800-956-2397</strong>"
+         },
+         {
+          "title": "Provider Request for Grievance or Appeal",
+          "url": "https://provider.excellusbcbs.com/documents/53971/224434/Request+for+Grievance+or+Appeal+Form.pdf/9c863ea7-1133-3063-f6a4-35a96c618ebb?t=1534257678486",
+          "snippet": "Provider Request for Grievance or Appeal \u00b7 For Commercial and Safety Net products ONLY \u00b7 Please mail this form and medical records/supporting documentation to: Excellus BCBS Advocate Unit, PO Box 4717, Syracuse, NY 13221 \u00b7 Please use only black pen to complete this form. Other colors or highlighters may not show when documents are \u00b7 scanned. All information on this form is required to ensure timely processing. Member and Provider Contact Information \u00b7"
+         },
+         {
+          "title": "Grievance and Appeals | Excellus BlueCross BlueShield",
+          "url": "https://www.excellusbcbs.com/plans/medicare-advantage/enroll/grievance-appeals",
+          "snippet": "Mail: Excellus BlueCross BlueShieldCDPHPUnivera Healthcare, Attention: Utilization Management, P.O. Box 21146, Eagan, MN 55121 \u00b7 In the faxed or mailed written request please include that this is an Initial Organization Determination request and provide the following:"
+         },
+         {
+          "title": "Find Forms and Documents\u200b | Excellus BlueCross BlueShield",
+          "url": "https://member.myhealthtoolkitex.com/web/public/brands/ex/manage-your-plan/find-forms-and-documents/",
+          "snippet": "Claim Appeal Form Designation to Authorize Rep to Appeal Form HIPAA Authorization Form International Claim Form Request Continuation of Care From a Non-Network Provider"
+         },
+         {
+          "title": "Request for Research/Claim Adjustment/Claim Retraction",
+          "url": "https://provider.excellusbcbs.com/documents/53971/224437/Claim+Adjustment+or+Retraction+Request+Form.pdf/487a9312-becf-b59d-a870-98dbd9bd3ad8?t=1629391350341",
+          "snippet": "To submit claim adjustments online, go to Provider.ExcellusBCBS.com/claims/request-adjustment"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_115919",
+      "args": {
+       "query": "\"Request for Grievance or Appeal\" Excellus fax"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Es0CCsoCAWkUfRNPbgvO_TP6b9y4PcE8guKTtwsQDD6NjEuELGFLLi-UZjfEB-ksMTBJjsaFz0haEH0rn3t8z07DZhWJWC91eAgAaqKJcKFcuq6yeSuzOM-QXwxnqkVoKgUEE0mG58iHc8rLhT-esBrRgq7cSJQnxz1sC-e2iSBWbsIhMTHpa_Plu5lpvIWzlWgHyNHEgW5UMs3xGL2MfMVlr5ewXTLh4FhR4Lqr89EZE-6Tv3F2tpjs6Y2JWoWxsiOB-HRpxsl6nl9otIGJ7nvIKO0RYqDw2qee-ndI8_a0hM59cLZAyPsHKzBZrNAHrJejNf1vMvhYfBngg_8ntDx4yCFagH8V8glaBJL2YbXOrc0YHaUdZDwWGh08trRQCzsyIoTIYAo9N-IMYFloRBKfOSPt40zIc4XTgwyn5hAycFyz6IYzWMq7wV1oQZQL"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Request for Grievance or Appeal\" Excellus fax",
+        "results": [
+         {
+          "title": "Provider Request for Grievance or Appeal",
+          "url": "https://provider.excellusbcbs.com/documents/53971/224434/Request+for+Grievance+or+Appeal+Form.pdf/9c863ea7-1133-3063-f6a4-35a96c618ebb?t=1534257678486",
+          "snippet": "Provider Request for Grievance or Appeal \u00b7 For Commercial and Safety Net products ONLY \u00b7 Please mail this form and medical records/supporting documentation to: Excellus BCBS Advocate Unit, PO Box 4717, Syracuse, NY 13221 \u00b7 Please use only black pen to complete this form."
+         },
+         {
+          "title": "Provider Request for Grievance or Appeal",
+          "url": "https://www.nyspma.org/aws/NYSPMA/asset_manager/get_file/232374?ver=5",
+          "snippet": "Provider Request for Grievance or Appeal \u00b7 For Commercial and Safety Net products ONLY \u00b7 Please mail this form and medical records/supporting documentation to: Excellus BCBS Advocate Unit, PO Box 4717, Syracuse, NY 13221 \u00b7 Please use only black pen to complete this form."
+         }
+        ],
+        "result_count": 2,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_85572",
+      "args": {
+       "url": "https://provider.excellusbcbs.com/documents/53971/224434/Request+for+Grievance+or+Appeal+Form.pdf/9c863ea7-1133-3063-f6a4-35a96c618ebb?t=1534257678486"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EpoDCpcDAWkUfRPPWcesZAOqQigQmWbqfq_Y_KoOOdcEfhJeZ7sGVGOk4vbJ1zqWkoSgL8u5SPYu2NHOm7QEA0lodXFDWddljQs9AaKECAWdAzZrS5-avO8SIkj1ii9m-T3omx0LT1IsFOUZ44qcni8hdi8wGpmFHhNEKUo7lWZokNAV27-v7_ONv2A5Oq0DKTTg-P5qNSRPRm0I1cPKQTcF9cO3oe04RrWyUlBgXtoHlZuNthydkNEJK6STmTNiZfegVI4prFIyT253EnkDlo12Cikjgl_hpAzZ965JpZIVW2drBJsOEVdF0RwWCVJNlRCFSHe9FfVwwO5StGQiBfa9787LrfJnnw8iTlJ2pzhmt4K_p1yBvDrQh7EGDKwWEn4js3ZNwQXwZRl86KAU1b9H-kOxbkbV5G_sLmmWlXOYlxfTl-ePghvrtuM5gEEplsl2hmejyYluLwkj366jmv0EtwbTTNzEt7UPVizrnd4sj-p2yC-AFFOMstaW7mXGxbcdyjl3dorrbw_Y4SvK9zKrsWsN-RxgPPCeaVk="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://provider.excellusbcbs.com/documents/53971/224434/Request+for+Grievance+or+Appeal+Form.pdf/9c863ea7-1133-3063-f6a4-35a96c618ebb?t=1534257678486",
+        "final_url": "https://provider.excellusbcbs.com/documents/53971/224434/Request+for+Grievance+or+Appeal+Form.pdf/9c863ea7-1133-3063-f6a4-35a96c618ebb?t=1534257678486",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": " Provider Request for Grievance or Appeal For Commercial and Safety Net products ONLY Please mail this form and medical records/supporting documentation to: Excellus BCBS Advocate Unit, PO Box 4717, Syracuse, NY 13221 Please use only black pen to complete this form. Other colors or highlighters may not show when documents are scanned. All information on this form is required to ensure timely processing. Member and Provider Contact Information Member Name:______________________________ Subscriber ID Number (include prefix): ___________________________________________ Date of Birth (MM/DD/YYYY): __________________ Provider Name____________________________________________________________________________ Contact Address_________________________________ Phone: ____________________________________________ Fax: ______________________________________________________ Email: __________________________________________ Claim Information Provider Name: NPI: Tax ID: Claim #: Claim Type: \uf06f\uf020CMS-1500/837P/Professional \uf06f\uf020UB-04/837I/Facility Denial Date Date of Service: (MM/DD/YYYY) Authorization Number (if applicable): Procedure Code(s): Please check one box to identify your Provider type Ancillary \u2013 Participating Provider Ancillary \u2013 Non-Participating Provider MD/DO/Facility \u2013 Participating Provider MD/DO/Facility \u2013 Non-Participating Provider If one of the following boxes applies to your inquiry, please check the appropriate box and fax form with all supporting documentation to 1-315-671-6656. Cases (other than retrospective) in which an immediate review is required for an expedited situation. Denial of Continued or extended health care services Denial of Requests for additional services in a course of continued treatment For all other inquiry types, please check the appropriate box and include all supporting documentation. Benefit Dispute Clinical Editing (Dispute, Denied Inclusive, Mutually Exclusive, Procedure Modifier Disallow) Exceeded Units Lack of Authorization/Referral Not Medically Necessary Inpatient / Level Two Inpatient Appeal Pay Percentage Reduction Timely Filing If none of these apply, please check this box and describe your request in the comments below. Comments: B-6023 ",
+        "text_truncated": false
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_102286",
+      "args": {
+       "query": "\"How to submit a complaint or grievance\" Excellus OR \"right to appeal\" \"Excellus\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EskNCsYNAWkUfRNZOx_YiI1qYXiS9TUrVdtoJrObf5wu5yXXPgUzd5RdPBbdQ2YoLxhseTHrmrzSe5TZjvCJvjCBAYpYgEHsVHEehXbK6xLLRO7RF_K13f_-9S8tMZEaHWqfaxpYJCW-Mg42idy8BlsbwWFpy5WrmdnvfE1SGoxbSxqZBbL8LgBRARjsZlb0FEJYKjIIosMkxjWCEuLcyqk9RlAp6wchL8hEBsIScvYxZFaVSnYvpa1RgoRUK7Q-2_EeMpFNWrtxobG6N6uy2exQGliJe0uMTZvn9KzFgnAylw9XxAQkQjIrxTuwXCfv-_3108L4DS8JzG1dDhVpPsppk7h_4W0JrU5psJdSDF35afln0G6Y47g0Ue3q1HKscwQI6695Wz60UkAyM8x2lTjMCqJlRxurR9-CBYdtBNsr8P_aUlk0fHK7bjn5vY_HbRfqpic3oW2pvXQjFO4LNZQLK22xaHapwQAGPdICjMJW_hac-w6edYIV6v4-IRmGNyGDav6WXR_PuyQDz6D5Pg0WsCb0iWOTxjzVSPqdaMUPWYYtwPw4xbnqn0Kjs2vVCzrKCbiXbsml2FPxcg2q3-Vh9umGlZqJa-RymHMWQ6nHSNJWgdRybLG3qfkEYBNJXlfOs3_AYmpwW3-pTIiXZYXgAkhkTUFhb_wSXDGPDlgQq-x0YIsG8IcQQN1-eT2yJOOyb53fLLgKq_FJYVONrBICpDpnyDkueS1XPZQt7bkugUELYBTboJT8KNWx-3lYkcRcliztq_h8bzjlnBNiOCZA0O9C2CRHTdl-tEFaK2wRaX0H5Ur4JSXeUVfUQEw330e0_D9zFEKKTjxddLonKijHWn5vzS6v81qedWMO9xnOojI28sOGF2ADWNaOzh1XEI2W2Et28ymkTlFhDmpvBc6sOON3PM_eJrzFKr-ocBxaKP6aZc6KQUK-btmCf2a__kSeY3VSh_z23FypvwMHl1ywvU1sklwcVBb-O7bUAuSKW1XQ4N1Tf8jx9n-ONyd3EbMA0SW-eMRiddiF9CtpRf9ktC1-GF2L-SPNbrD0OdDMnzkorQo7TbrJNGnat9YRokzVTonILhaD0eNhVvbfeP9B3TNdfbFmVv5V_pwyvKx3KjLJiN1nU69mQZdIDbjjqVN32Trdiqjeix_kc0oJskwdFeqHrQvGQXFsKHlFVKje8z2z9sHmUiR0zEca_D7CvlciF8JFcUxFbkY6kHrqjslmLSUdMkkk9TuzKDiOCZXwvaCnswP6wVZC9PzOAL8cBvTz_WLQlMuUqUAVd8fVFOlGBWhsYiM8gT89WGuoASl6FKmtIZCblrorfYCT4H_7J_Dot4yCNS_f6bAVmXXRC_7g322gDXAX1rZ5a8lF4ddxcDyiQVEMA_8hwu9wFR4KlTuK_o5kJAZBRlbKad55dU171cTBADNh4Njmpctv_xDOzX7Dd_pdRlYjVLXEbgwP96a3vsy6EmwvmVy7mqmLG5lyuRmKhsDTuftt3eQ6RM4s5g1iHiYVsoTwTOKm_IM339XBlbO7-9X8SNnMJO-MDY8X8ACBxu-yKj9DBP29avI8xCWgO53tofxDCqowHnfoNCrdLZSA-uCdxdlsjS9IIjUIHt-QVkrGJiHTOqPJ4X2xcoUbONMqQdp68Rs1XaciN8O0_k2nJNP3ZJWNz3h-kwnwH7ixXcGfxKnAi94pOCiebF0rYNt4nDhc6okQsZYeQWsK6J2VLnF_BYGD1DGM7vRAFr7iDXv2x4MLYfKFnddKhSrUHrDcPrL__MOxejYvQ-RpitGLAXTYJwws_PDaW--NzYedTqYroud4cU08PEMS1lCCJadA1Il8CmWIP2zGoE1EJHsDGCGWvVDoy98EizXa1YmXDtJwW0G1e4mUCecx-HuRGLq7x0QLAm0fLk7JrNy64hUW8KZKKG7r0_090EqIxiwvVWelKdJ-S5BrC9BGj3ZMeSTyzKOhl3INM3sYqzdjcJlEpTKAb4wtTax_UcgPmuWzjWMLsnZEsPNQZrUbPyuQ3Y-0uKI6sYqqDnU7WWY_2Q6UcADUCMfUR_LtMi7rJjriSZvnjOSDXSusctbQXCQ3OvWwKu0L4Hv4vREmo75zNmAxh2uPVM_-2keku8X5eQ9imQji-hEK-XtNl6Ol1gIAA46-TEaJPdOb8ZCwK_MS9wk44pfAVycdGz5E6r5IQVrdEJjcQE-txlMG129OeksgIxuwCZFfT06iZB4aDysnxLy3a7fx8w5S8cRSXmYAmaB8XqQWvLcpktqURuznPDFi4fmx03iCxt86X2HdRcegcKb7qKSm6RZA"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"How to submit a complaint or grievance\" Excellus OR \"right to appeal\" \"Excellus\"",
+        "results": [
+         {
+          "title": "A nonprofit independent licensee of the Blue Cross Blue Shield Association",
+          "url": "https://www.crouse.org/wp-content/uploads/2018/02/Excellus-BCBS-Member-Guide-2021.pdf",
+          "snippet": "through Excellus BCBS? - PAGE 11 - HIV/AIDS/STI: What you \u00b7 should know \u00b7 Protecting your health \u00b7 information \u00b7 - PAGE 12 - Experimental and investigational \u00b7 procedures are not covered \u00b7 Know the facts \u00b7 Advance care planning \u00b7 Health plan medical policies \u00b7 available online \u00b7 - PAGE 13 - Important information about \u00b7 your plan \u00b7 How to submit a complaint \u00b7 or grievance \u00b7 You have the right to appeal \u00b7"
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_72173",
+      "args": {
+       "query": "\"Excellus\" \"Customer Advocacy\" OR \"Advocate Unit\" \"appeal\" PO Box"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtIDCs8DAWkUfROXA5Aah4qAE63dfNv2wLolzXcGjKJ-4l4dmIiMdiORSa1wOWPAjBInDeTtFh0vPiMF6XjYdugKBIHLpsP1BuGzIqflwonBnTRafJyz93AYedrG0CyknQ1ZnFPwMTIYdVXvd3OYtI_za8ov7bsZlWaabvs-JHbC8v10mSRE2CeOKDPzGSvQdKxfTuubyFWBpJHvxvNpDdaCqdm6Q0V0EXVJpYcusUUgHfdQ364LxPVUq4WS-8QQsB1FseGYDxqWbDSS4C8Yzaip6kH06SgoK4OuNet56-yISw-4cwt32Ob_C4UFI7ZXHiOSpmTDEDRDARQgraEO6ALiSYJYM2AHc5uyROAI7XmyNy1IbB18gTWUx-syd_zAbjMZRCsIQIKwE6pyDooPoIh6Pavk-8ajCNcQiQX_Uhs1gjm4mtD1oCQ3Z6CfDdNKGGe5QMk_i9PC6G4owHKknJi0c7kN4qk4cvgh6bI2RU19aOpfPn45NoOwijc1tGN_iKl2acJ7bb2gqr8n1Wv3ck31NnYfITLfRCyBWeILz2y54Zj65s72H62EPHZVq1nKE3kaeQFxFrYS9gCpVa8mQMIJsWg9fc-Q1gfbznT-6ydYhz8Log=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Excellus\" \"Customer Advocacy\" OR \"Advocate Unit\" \"appeal\" PO Box",
+        "results": [
+         {
+          "title": "Grievance and Appeals | Excellus BlueCross BlueShield",
+          "url": "https://www.excellusbcbs.com/plans/medicare-advantage/enroll/grievance-appeals",
+          "snippet": "Mail: Excellus BlueCross BlueShield, Customer Advocacy Unit, <strong>PO Box 4717, Syracuse, New York 13221</strong>"
+         },
+         {
+          "title": "Provider Request for Grievance or Appeal",
+          "url": "https://provider.excellusbcbs.com/documents/53971/224434/Request+for+Grievance+or+Appeal+Form.pdf/9c863ea7-1133-3063-f6a4-35a96c618ebb?t=1534257678486",
+          "snippet": "Excellus BCBS Advocate Unit, <strong>PO Box 4717, Syracuse, NY 13221</strong> \u00b7 Please use only black pen to complete this form. Other colors or highlighters may not show when documents are \u00b7 scanned. All information on this form is required to ensure timely processing. Member and Provider Contact Information \u00b7"
+         },
+         {
+          "title": "Grievances and Appeals | Medicare Members | Excellus BlueCross BlueShield",
+          "url": "https://medicare.excellusbcbs.com/resources/grievances-appeals",
+          "snippet": "Mail: Excellus BlueCross BlueShield, Customer Advocacy Unit, <strong>PO Box 4717, Syracuse, New York 13221</strong>"
+         },
+         {
+          "title": "Grievances and Appeals | Medicare Members | Univera Healthcare",
+          "url": "https://medicare.univerahealthcare.com/resources/grievances-appeals",
+          "snippet": "Mail: Excellus BlueCross BlueShield, Customer Advocacy Unit, <strong>PO Box 4717, Syracuse, New York 13221</strong>"
+         },
+         {
+          "title": "Provider Request for Grievance or Appeal",
+          "url": "https://www.nyspma.org/aws/NYSPMA/asset_manager/get_file/232374?ver=5",
+          "snippet": "Excellus BCBS Advocate Unit, <strong>PO Box 4717, Syracuse, NY 13221</strong> \u00b7 Please use only black pen to complete this form. Other colors or highlighters may not show when documents are \u00b7 scanned. All information on this form is required to ensure timely processing. Member and Provider Contact Information \u00b7"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "text": "```json\n{\n  \"policy_found\": true,\n  \"policy_title\": \"Hip Arthroplasty\",\n  \"policy_number\": \"7.01.96\",\n  \"policy_url\": \"https://www.excellusbcbs.com/documents/d/global/exc-prv-hip-arthroplasty-1\",\n  \"effective_date\": \"2025-10-15\",\n  \"criteria_quotes\": [\n    \"Total hip replacement is medically necessary, for ANY of the following conditions when ALL of the associated criteria have been met: ... B. Osteoarthritis, Avascular Necrosis (AVN), Inflammatory Arthritis ... 3. Failure of at least three (3) months of provider-directed non-surgical management;*\",\n    \"*Criteria exception: Three (3) months of provider-directed non-surgical management is not required when the medical record clearly documents why provider-directed non-surgical management inappropriate.\",\n    \"Non-surgical management with regard to the treatment of hip osteoarthritis is defined as any provider-directed, non-surgical treatment that has been demonstrated in the scientific literature to be efficacious and/or is considered reasonable care in the treatment of hip pain from osteoarthritis. The types of treatment can include but are not limited to relative rest/activity modification, weight loss, supervised physiotherapy modalities and therapeutic exercises, oral prescription and non-prescription medications, assistive devices (e.g., cane, crutches, walker, wheelchair), and/or intra-articular (i.e., steroid) injections.\",\n    \"Symptoms include BOTH of the following: a. Function-limiting pain at short distances (e.g., walking less than \u00bc mile, limiting activity to two city blocks, the equivalent to walking the length of a shopping mall) for at least three (3) months duration;* and ... b. Loss of hip function which interferes with the ability to carry out age-appropriate activities of daily living and/or demands of employment;\"\n  ],\n  \"appeal_deadline\": \"2027-02-07\",\n  \"submission_route\": \"Mail your appeal and supporting medical records to: Excellus BlueCross BlueShield, Customer Advocacy Unit, PO Box 4717, Syracuse, NY 13221. Alternatively, you can fax the appeal to 1-315-671-6656, or initiate/inquire by phone via Commercial Customer Care at 1-800-499-1275 or 1-800-614-6575.\",\n  \"how_to_obtain_criteria\": \"The policy is publicly available online at the provided URL. If the patient needs a printed copy or has questions, they can call Excellus Customer Care at 1-800-499-1275 and request Medical Policy 7.01.96 (Hip Arthroplasty).\",\n  \"confidence\": \"high\",\n  \"notes\": \"To successfully appeal, the patient's medical records must explicitly document at least 3 months of provider-directed conservative treatments (such as physical therapy, NSAIDs, activity modification, or steroid injections) and the failure of those treatments. If there is a medical reason why conservative therapy is contraindicated or inappropriate (such as joint collapse or severe advanced dysplasia), the provider must clearly document this clinical rationale to invoke the criteria exception.\"\n}\n```",
+     "thought_signature": "EpRMCpFMAWkUfRO6Wgcd_WIaUJhO40Yfzgd_TTaoDpEZ1STCbxOEKcgTTH6s4pe3GFFaSHseeai2YYQAcb8zV9xjkxJbrygZYKgZbTazgj0MqlrK1u0zKJLPHXRd_n2eTkloVCYbsH4Zr0zyBE70OiI40XIvXzlGISpNqPFouE1o97TGkbmmsmkJV00rVUUJw0bcOHTxIjv654c9176yZumvWb6gitMu9JJRIibtiglkHK5EIQJGjOCRvXRd-Wsh-rlc8DG4oavn0vkYue3XmT7qTB5hzvni5EuxyEfx8-0bO-EvMGft9g_BcYqobacRbDp3v7M8uVBMj0kz8Slxaot_Q3ISIPo8UFPaq7wocNgItkfBIEf2-Xz9xjZ6MD6e-ZxRcA36WSpefAOfcrOcIq5dHBVPvR30gJn5r11p_Dfr959lvjZ9CvHHgbeB8Yj1DiLjonHCclyTE3R99_1y3WxVZC9bvhnP2Ob4SBOuHm_bsL0SkqIoo0RZgF8UMJA4pmiNMVFQnKbMqPM4g9-lF-7cKa1WcD6jEIBvpHp6dig5mh33ck4IBlFJBMGZn4291jongumGDl6pSvTzTYQ1Zxtr_HlldsShbQmHWPv_TWyah2B3z1HID4XiTN4rPnOcnfFBmXuKFxu-VdMm2pSOoQ0ap-0Stbu0p9rCoBuN8c7OufT3YpRHsP_sAMZnoKuB3-H7N6tP2yP8afTJBpJ6cUALnA7unUzKuuvnHMZ9x-kEgBe_XIIo_EcHtdU66ZMd6UmbH47q0lkmwOitgCYDuX8pTiASmHRHtD2kw7zlf0i_IZ8l5U0ulF9JFQz1SlA9x5zqlIKwNBrgTDrlKzhdZVzKMUJYhRPKF6qDDPNil3FrWZ9ln2VgnGt33cFPwDNG0088yx180PAXXv2hKZMiR6GBq_EMQXKPz5B-YpeVVvCpB2t7jWbULUHOOub82krywn7AOd6BXEa2HUyWb932yZvAVbJGoLTRSgT3E7weLtj5K6eMm-e429T8S6-MHeuJSZGwSgPcLE9EcDRyTKzFoWgoMwrx6hswxr2FKxc7Ca3IEejZUR1cW3bDTp6v3jPy5JZbpkZa3wCFegobLGvSJWPT1QOp1pBj7_uwH64ewCaPBIpXnXh1lCr0BNzl8aywbNCu_geT49PyZWFpYOqdLqJYxE1Yckp_YL3gPw8ADV2Bz73QcObRCS_FREtOP09pBys-ozqQfww0i12tDrzMPlxxZePBVPr6l14CNkJsZwdpCsnXsWzMzdXUqRwHqraKPcVjWHr_JsxdZGkm2MESGgkRomJkD9IYj6gJ_UuJit9bOPlJLl3hSA4TXyhOuy_5omeU6Y_uKNMF31JnfVkZVAklw8J4epLs5IJ5InQyoq8oT4uPDbvI0fngfLGdtyoXlfK1v33dYydkSnKAS2b8BJ1pkwEOK5GjcuQTMEBBIsRQF8rLjOV41WhtTgUbHKS_nh6adl013Mk9_RxHEl-szkrYw2mW7v3FWROFGpwtmoXv6iiIulahQuSNDVYFrZ1nH_RjmKizgHyXMAUslazqZVNPo29jupBJkJGGwaa3RswpW_uNoZCORmp0OEzMFrRTu0dKc76r7ljoI7b9NpeVPelugxVUmjvQss4VENMhit0aJE1TCwJbQidyWZG1OnfLG7xraAeVgpHMf1A0wwTzuIHkqT2wYFlZQYKKs3v2ah5dxMKo3xguArOq_3pv2UUUmeHlr9Jz3kL5n-MeMFjl5u0eSSNHqlexZBvH19EtAPUwdL39aU2Z7bvhrWCPLtAZCCLBiZu5D24BvUQj_K5tic0nV5J03de1oV7ytGI0d5WfGxi1OEySgMyKfylRNmFhwjeRjot2YYJnlQz2LARn_NnIfwEwLAwC7_ASqsaQ6tcIEZfTD7TKCjhINHlpP154L473cKs5bLXJBcZ3rP2tWP1bmKi0Ih_3mDMi36brh-bRHepnTqQ2WLfncVou1mNmhZ-39YWaPxRsc2kvDAOMWhH3sZmVFQs-yoh1Ij9Qg6rdnsSTyMtIQWk0PkbhjhoEg4WihGphR222oBNicDMs9WcobSh0DFtIC7N2It8sdviAJM_iNY30vHMDMZE4NeSU9csvoUT55Ro2ewcmNyyH2n5biVkzPCpRXnABmLMzlHkaIpWp7v95mLyLwqh-XJlFT-GG-5MezphihGpstqCVoasiAhgfU7EWLxwFrCOOY-nFxVbIhqyR80JOvw7iMzbKZMWwfFL8tAIMv9OcCFAm34k7f6CslLLaUMqFUnphwUOycg90zqHme8nuYyEyuUYw2GeF4FV5tDcYLrhCWxGkaukhJ6EnS7b4qat8rhQOdM27D7XTu9SfjnUImk3tiC5ageYUTxPlxE8CiycEjVnbkVoAMSVeWzlfJCBAG-dfvUNMfd3pK5C3WsS-Tv2OzETLZs5EDeKOxb3-aeNU338OaMXLSGVbWeqOl_LyaeKiyW6YISw05EZbbv-XDEZYqIZH2U0B0DZByjJnoU8QYXDU1taTgyR6CtZiplXSJOTV4fomfg9rEhU8rt-ZKfmCLwKPud8leec3g3_VWj9NPCBvCFJiNh8cGfxjVeurbiAfghFNPCtGWi55Icey947Rl4HyklxQwpLOdcEGazYHTzVpcSAfHoi1JorqtyIb7xPvzNT5-qqxalOgD-HE0V4Q60j78UyIDw0Mr6gTcr8PwzNLkzyunGwDUgOb3TO9GeKLvaQ9SonYn8fWvgMpgCE5fMwFCeEY-jhXQsZhcwM1dr1jHZXVT0Q-yjKmnEAkoEMCfEqE2D9FuV34kzeHA0XUOAbAv_gSovd88avelKuOwpWiBW9ACmQ07nT-gIQ5hQ3bcQjF6lHQSorA4mJzajwhaCg_YaJWCMhV2Xc8n1Fqo4BN2VtrEBkFGBYHtEdDCu8yrGsyZN8iSKe6gg3kkOS3lktNKaQFedcLI3Nz5V-j6Ps2hW7GycDognrWBWskDzOESwSoblmEIVt0daLY__xukNFPnnO15othsOOg_NJK3mJ0P_MtyxEeYVh0wPJowT4Y3kL5bOMvrIbwTVGEsWcKTRf16NXCgO_ZnL4AKVIQVTzFvxWZ4ybLjc0AaGSV5qqpuVRUOEYwbhtrP6vaNbD6Ej4Cx_tTpGy2-bc3QajJF_eSJPCuEK4eg943m-ZNlHdYAWl6I90hZZEsci0FVtPzpNukiWkxJM4M07BZQe1r-W_OIiDNL3v5i0eLAZbNXeV8hjqvwYrItyBHUyNrzfiK3PNxeA3YqwcBicHHhvhNuUZ8r6JRhtKVMS1grRF3Z4THVmntpmsxGSChjihwQkBJBcbISzKm8_lDx5Cb4mzLaMGaynLUCM1i3-kcMejLVqox3no9YOVnzVb7LQ1v2ApUsw4URXb7nAUi5Mqd9zuXd7fTizxFiTTaXTo6Bw-50RNri3Mvw12W6aqSTVuE69okLHwE5EAR0QvbR0WF5gKsFL3np483YMtUpiX_YxK49yRgE27oy-EFAllC_2y7FEAHC79ue9k1D5iCjI8_RiVdyosRdlaEuduhlW9J3BmaA0QdPUDK1pTfEjH2yHHDrnU25z87P9c5ARVprrngxOOeTnw4DhlSQ9Q2u7vI8AAIQYcCnLEPQBnVBf1wI__kLag-5itFYRmkmEkxAGFSdj5hUYQ1kxGf5--pJ-DA746juxwAlXCwG7o-nwZrCt1-wKPsMyHM46NSR_0d9fXYHhu5x_GWtK6VL1c_jOU0mE8Pt_63FoTRguqDTjgI5Qb2LIJBa0dNFuTxvd9Rowrtth8G3JbGicvTRy46ZWwtLf3FOxN9aUDw5UEQO076Dzo8qa4UdtY_wjEWi48SyTmpLshv2_hTsnsZ8hZjWVnNkijDfrkjU7vQwUixFJXR6gZBgFeRE6bfuHxWPHx358nD2GO7JAUDMLUlafhqzOR9rP5jb70O2bv9zqJ2ZRBcS-56D_PfXHEvARknhM8w_vvMJitbhRaRYBq5T3dtHswSRK0gFUuzajD60zSVQWpeTbJUBUlKbx5mG0eL3TMNLwBuwQ4nCOGSuPBA_BvgLmF9U3tE4xL01NAhmrhYVVcJWKA8yyfKsaH-9gYjXGX0Inoe6pesVOwXFiMKEH9Vm6icdOtKQ9sAHu31SjZcltwOHmgaQxOJJ5uq1Jb9QV71sSA7UENHWGHe5twBArUbE2yMwauoXnXEaN_UUrF8GhVVZ1sZl-anwv2ar9yvwqcK8B75NqSYDt8fwSQ4sXNRa3XIb7CHJeWSBEs9IJiXRUu6izMSpnnqTBlavfqHGTMMrVrA6lbpgvp6_R9woVk6wdFNZWhSLqqya4AzSkkk0Ppg3WQAbzy1xrThsrShBAdazd4zpa7eJDSOm7vA4-3_4O26OvtQKS4YhDSYmzRKTrknGymThjfFInIBF7Bd3nIiKkqFwx3xjt2Bq249vpvGXw7TcQ39ee9-O5in9TKe2V3X__wHOTLXvus6mzQ-wpQl0A1zEnKUoZXOralOA1MSVH1DPRdbD0Zccgjzk8F2LMbd_1o3Ic8MRuUR9LR8jAR89pEDBLR8RsR6qNNDvlaqqbwCoLiyHE8LVV1rYYjhqV4Pd8rG5C3qEdwwqaEDa1SJ4cQG29Aw2YqGZIohUBTHq_5zPkBL_5hpyYfsaRv0gcYIwPfNFNRVARZzVKwF0B89jAcgPMExIqs3vNw0kG4m1MBm3rm8nVBiF48XKeyWUFnuoP61O6rY5-K9JHGUOBHwHZC-YLOTBCEDDRvBcymrnI1FYQYqvi2F65kuRcttP-_lN1L0Vw2FRsGKPHxFIj2ATL4GPkBmqV4vZ7wuzm3_V3_SrsR6XYnEXSNjHs1qgrK0oFHKtckctz-o6irQvtS4mxZmcPuw7Ry-_FO34X8lylEABzf7YJs2408irB_St-ZXvDfKofwTJqRZOC71RG4kf3cJCbhYcvIeGeJ9KO8Waa2V8OkDLmqPnJwzmwAUTVR3_m5th5bKqNlM5evlcafszdaSaBcWMH1OKW88VZeup84nuWoVW2OxVMJeNGt3OTdNORQHl5ZSP6wUy1kkJ3kMS6d47eGE1x593whb-_LMnBFwyBS8tgWmnZWF-CHh3T9gYfvGJEPydfcBwa4Wyf1tRXKTdUbCGurU3lPMvSKTQlXvPt8O5-QLWpSJc0ya1DS1YZfOlZ1OC4E1SvJwoMTYcFcBwOwtpmOQVMClXi-tV1UIO_1IPMQDomWIGL5akFhPIoTq3T4uSt1M5lSlfAhNkNnomGVlkSVudfZC6LAL0qVEw5hq7U-BX9q97dOwKkfREJtOc83b85CFELDYyPqyEiasnrk2JmiPhE2DvADyMKKohDrOHr9woVtmSkLABMZviWnHST06qDckt2SgN5V-d1BwPDGI-mudM-FWEjLdEev2OGP1A1B1LMt2DvB7NMuSuA_VzGBkBJ-SYZUZt-vGx1o1rAPenGDgQCKMryeZVaV9BKrhlBobeKWB9AFEXGthwW5u1b8dO-K_MqOChk-ZkYlkgt_b1pIRNmf7AlwmbiWQbBUK171rMLtg2act4ECAxuBZ8zzlDuS56JGJqfM7_b3HGwtYaQCjTWzoqj54mjGvHfzU8MB2kNy73olc1w8A9jnQxdKrXa0oTHbiM2l_MatdVPAtZGQ4xLiKsu1lHv2TRmY89DI4O4FBauvACxK1OuoSrIOr53joSn27D4CBkTQEA0m_DEik3-ODE3QxZ5YiKax28alKY_cNAOLwr7WWUvnB5GmsuVhu_sqorP4IjQOco4MVgAoxQcjVVgw-uawUqwuKS5yurX7aT1BhCnkYP4_RjiLJQZbvcnxrHN1V83U4oVFOF3OPDl2oC-6rH68E62wkS8UDzKgWc1yEHtJQX3u37NI31E-fI5AvGnhYIhMZPBysB0kMs608FyZLmMDYJM6nJAR1Ufr0ZgCtlj4KXGtXnV_hoAjcB-Wg4biBlxYbJrrUhEMhNqRWG3K-bYeFS3xhZ2A_fkNYeCMubu1R8fV_UqMqcYbcFl_pS_a4FQpGhcEvhEZ6kxGF3G7hj52ZP2dr04Jscni-9UsiJM-IDODrfGVlRte_iWXClTnqUCH_hs8Itoq_QUH3m-1-15HF-I4ikOU0ETXTQvV-MaxIuj55xNRQEsFoPJuKjflQhg0hVks8doXlRSXdYPlSFMmj3DokJIdcHUdxEI5hLrRWXZHbPTaixYpD_BEJplunLasATl0GX6SSrFpHPIEOEqC3eeG0jcIWSr8z7hPKsrDw3NdO-GYgpNnDig_4pB2adb5Kq2L3OlNfSm6XCrVpqZG-62hYh5rRyn0_M0yTq6DdKTm7E__unrQPlbjZsSLP8BltuQ0bPQ4IC8GNzZYnB9AxWU3D1mU0ZuFVPBM0sNVmWKQRCY4FNumH50UbmEk_Ve81laZPJckLFPp12B7uCaiVPOZADXblgKuP-vzDB1mPfCjKJP1vMkvgODRMRW8NgQhDmOwJc8fMWMx5iaL8H96Isd5rf7Hc78apaKuQDucSmaW7HVY99fB8F_uqzgCXu5kdODkkaYLXfj4FP3dAmZMPMY-XqBTe9r9zuwdRKDhk49aTzVlL1YGthBIp4aDq8BxGycQ0GDfdI25wltfwiEMlR3IJpFTaIMiceZmN6UJTNfaJGQE02CQ5QaBco_xu9j7lWoX3N7xyV-WozlmeHSN8bejplwSe5Q07aE19cDwcging2pt2kiRUUk7GMCQfSLrAVpY5wZHxBv43dZ4JZk6PIeow1iZBR50LNko9fXZu2Ijr-t_ITISx8x73CwZLfcg_n0QD2nMD2xv4SwljuutRxw0NdtqcETec876iHL0irTCT77rK3A_jM2na0UxghnCaQYN5vG7Gxz1HHm4u0hvgXgvbq2IwcUJqkr3rSViCD-gCtWssMiprpBDcJmbr3A2e9Lc-DErBgH4P65WFA9HL3TaGLZfhkpqQ1TXHwCEPsyRW0tqz73p5XmuZvwTZzBfntNJi4dCvHytshBDPU631xoaWKu2FKY6fVCNfdEWEUr8Ee1foDwH9aikxoauK3QnYR4BOJGHwsP8RFfgQaKr1VmdJsg4LXVdm486LqXY4su0RJDw6jkdlEF51F9nO1_B1-wzuX-RfwhWuTJIx5tioTRlu3sMyuKKcfw1aFeWWxoz-GYB4g4A51eTU-h0ofbbHleOT6YqtcliaAwS7lUb_cqMqZASmAQBNL8kpvDx3emKMHWUNzfFwdYmTShZ4ejhanY2GFnZxH8ert9mN54ZGEu-EztkE1hf-7FmvZxyiA2vWdOaw5Gl_AaHS7ch16BzmgD_h-OxV33ZZshSzHxQYepC6nY5j_HwLwjl1p0l3QNkn1KL4Vjd-durHDTEGXeeoHpSpHp_-Y3WinDZ4sMNIWUhPUdqrfrJOwzoXX8DOMDp-XhLS7qWKb37GmiRggSyTjzIeAcb52L5RQAQoHl9svqukZqhOrAcD32c2z1mtCtPlJwl591aaF0oDkBo3tejYihJvT9E4jwwmtNbX8OWjdBI7SEyw1l51VErd4KznL9QwyWfSldZxCxzS0HDNgjz96L5yO2NHPaSzknQigJyOlSKvVNCwM8uX7zWSlXODc5nigyFuNwes2m3U4B7MWY2-4hcu5aik3jJ8P4p6sLUGvkyzcRQmMDgVk0yLdyiXEIfWpfgbu7yg_IXFTowS3tt_ZSBaZcoUWIFWqzsO4Z3JpiFLJiTNW8r1l4NZUtqLW-D4qUzi7kDmSLEH3d1liVzJUx1YPkVd_TEr3q-8zhbDAz2VDJX7wjNYkLsdRU4f-TBDtOuV71rHiFrpqxDe1yqY1h5HPgOrituyIavNTeDjwPRE8xKn1D3r9qNhVyKbbUY-flLbgrrDEqBsZyn2gDygrNS5yeR0uyQBDyuSThhw8P97rXAhGu-S-VY71vIqC56BlS-WAEdXrWRqFKhoLc-1LH6WFUjZfS7deGV8jP3LPnAveU0cFBjH06fcs2ozlBK9kNfFIO7Q9duIdoNYam77GS9XxnptwUwdgc2CiINX2hnms9AxZixeH-7cFPzCW2pl_Wp555zrid4--Sw-2jVFm_1G73fzd4YKmUYaJxsy0-qdmGC0FbjrpXzx-3IAaSqHa8vyKB0Hvtk1bMIC9sK6bOIpwdpNn2oI3JzimzKECQvSzjKEP3m5ywFAYrx5xJPFe860PbMLVIxEvnisrchOhwsCAWW61pP8RNKj2KqacxRnTeKSBVDA-rzpjrglqHMeS7dgyvtODzir1wIS9gXuUcSq2YefI14qwxswrH1VuV77IfmErNd04BSOP1huSVUbvdoreTYJlTw0FukMKPjDqXdyJBtRrtonJr8msTy_XCntfLC1mNOJxaAPLJvndd-5cWIRaei_syVDf240Nx7L7xMI3zSw4-IaEduXLPD2qwW8Bwi5J_zo6YXFSU8SrjyprfmquCMgxVOKTIODMtUYJKf_GdqhE5mBrQcz75u8ijwccxDosHwgSNlBlQU_LgmYO0j8w6sCUgoYvqbPxOn8CCRtKyfDI7zAyG7XEWkreFGYtyEgDfhC0W5gRBSXoOplfwNJmoJlYehhLtAlMWujIWaI1pqwxEX7h2Py7klZanud1L1EaUjAPVxiAkX-WR4OpXU1BugM_si9jZMlDSIYDnF0dqDQh5AvGi46IOiYSRAEMZjPnkO_T3x5-WM4Q_A_T_Ra-s2u2U4SGicIcSxyXIRCh372DJHpg0UEga1j387vm0UH2Mnl0sM7Z8riorND1gjvJhv8f7Wn-g0IcOnu1HfjvyW1ZtbcJ1nSK6-MA9XpVBm-_lrfXKsyd9p8E50JG03CYWWhDyw8gN4rgUziQ-09T_0Z6Nsi7-WvVDg9_YAIF41r1UvVO8ZDTjpCW4BDWetE_dsUuFL_aWTibMgLy_eBglGs7xVwlcvWocyAkFmR9NqzVZrmWRQzjGPi08fGrNHgKHFa08yU15YmOgr5lqUb3rIXIeAM-6UV8dLeeM212iX2zMBC9q8fqFoWUXz_Yj16YOLGh7e1cpvJXvi7gjXVZmvpk44q3NUzp3Cdfm5GKtfdldU3vx6qjvv77dX3pSpUi41yX6jSdRtH0tOED3Jl79ui9DU23g7-M3lEF6pm_d_xK_eaTHQ8i5Gtjo97rRG3XTkObpXdzH04Tzpl1P3Ztc-2tWmvSq8ljbjbvpwJvaPIZumg0Su5PTqB0o_YeBfDHuMqik-q5vxgi2Chxt-Ica0wzTMuSimBZTj-HC8kKfymnXWmx96LvvJVMUkAWW4cvT_QqmV0qNbN5ja71by5HXIGYr6LNMJzWvK69cT9bPdPfsVIligz0VZ5qK-lM8LiWyFyT-WkJ1W8QBZEHRAqIeGc5r6xfVZedk_yNYT-jICxCOlv9CeqG94xsCSggIXLVXkRJ_hfFbnULwXBkXnaBVHzTpoJGFuHjVOpCoDxXz-kk4jj6sRAYGGpJXr6aeLiII-lsgm_d8UiKBIqkJgvbi_OzmzdTEnuJ1OPkSFhYlI-wzf5L9a-89q2OuXnVEFvezM5nXo03OXELB-tkqj027cHAihOzAM36RJQMo0jCmQYTGQlZBcxY2AVD0KHsak60rHQdVu0Y5FvzWE8enuvevViCJuQaSeKr6UU4tgJowJBWmEUcYxOwsCAUr4ELKDMoD8Ib-0pvMXtM_YOsZiMQLGt3xpqDEFnY9KZlzrEjBvJaQgcaiYL8NvQyzB43FOdHhwgsWSMBzwgwwmNZbVBrl7NBL-R-Y6kgLaggofLagO-L-KLZDUtsrGdK-vMYyJZOB_KMEcVys_V3R2K7l34LgVO34UfUGMyocX_TjWlbEayuer0Q7IE7maYa1L8nBtjE3aZIfitvJREMSy7VPJcd7nIONtVWXiuM3WP7dqyvieg0F2Tqo42SGNkvPP65PntWvjEfQpSJwZkrxIIYAJz3EB44zebPaThXSakX5ufWve_elDqR4mwwcyTkHW9oUTH29d_YI2VZjeIWL8Qofc13SH73ui0RWBd5s2zBDXZdTESGQo58JzQrj_u2ICaduc_d-OJaUgYHaWJ6YYe7-B4NLlIVO5dbwZc2A81QiPKQQPS8yaKxBaSRvqhm7LG4eRFKNetC6__o9OLkEpOwfWhETandn25gyKHKa6jQuq3joxF6wvptURcGg9Y8_tQ_3I0HuuCl6AjlZNw9cudOfIMT4foV3x8LH0-vZW41tZn8KaHR8FQ4_dO0sr4auBUTSzX_Fqs882aZQFoY9Ko_a-m9Jub0P8gD50iNnYTDKxbMby4dTt13c5biPDqzAljp1S6dKOQZugOcoy7OYs0b17K2ALUXEGfq7tF_Vi-XHSBpkRMnp8VvyzxQELK9antBhd6AP-QyvjfpT3ENIw0Ii68hKiJmjzvo9kEd1BwSeZlWOTcxt7ryDDvqEDCdcwqYnp_zHauLz_wSTgnJCoj1RPkgcy-PXe0EtJ7_zvh44evFfb9swE2ulZBpp_QYSw7l-_DYZaNhohJA4uOxg0b9_Xv8jYFblwk_UeHVOx9jUX04CRRiLGIAGxbfnjsIYH4Q_QguRHVoZPwpOUcLxU5BIak-KDAwz__sDKJPAHfpjHN8Iv9RaHjgbyUsLm63t6v3wUXKKM4aFhts5Hb8i-JkIntp-HebhNnASqir0Kzz-7-9Yc9aFj_X4InVsNBobDvd0v1OVE7ahaF8Zjx1zvzJ9ijvlHDKLUQU5WpjeR2S1dyu-F-zvL4VgGIvQntXwWqJdceKqKdcveohHeshWa8H0bt4icr6VPVIAQxqd9-dCIneypowWNGPAKyM9z4L-SQoXnFF1XgxNIqEkIx70rcxWrWCJb6lBQnj_YPuOJudZ6eY3dSFtSup9cj8-eY82QfCg_v01U4KvFlk-PYKONxKQWqeMTt0lJL1f6lyqjWMY81p1klxMxC8vPIpn-87mhhq6aGnrcgrkgT344KolxSrM8hsKI2cPF_nFOS5Mt-tMsLHptCwHkmj61TY83KUs7NlfYqw1CucK0NOORR5DUPVaH7UTrDeOje5eJnN2H0S7_dfLLielNL2NddcXOqYlM_s8BpW26ygoyJ6EozTC1jbOLByS9fytDAECjlMW5hV6cWNeDr96wly2wQp2Wy2hQHRoMmnJ_DXkQv-qjHA6bCGPk8EsNaWOlpgOQc9gDILC0PUw9hgO-AGcEFwxNm9RRjdh7QhOMnvQfGPMHmKyOxq827Ofl8GO4v1yCCR4ZodMzv2tS79DS6exSaNIu4YYdQQmghibUvh581ERxCM1SlosPebPAzRWICUe-UrqQUhRj-qTwcwFlXSahRYWPvZGeSvaCn9lLhlUiY_T32pdHg4IfQqG-ZTrNnSR-1d9CEaW1_ABNMPkTzdaajfIXIHBGZqz7WEqhuFO7QA_Ft_B6XO-Pl6r1rIEedLZQPnYgofIwDIBDVsQOaewYFMxy5sKr-NzxIv_gn2InT2MfH29XEwoOXnfIOx8-YspgCCxoO6suKxutzhRzuZV-OTDr53LRrSNJvAsfIp2SG9O5QMPw4G_r458g6iOpjqy9pbfzE8qLy41JeWKfZykYIp4o7Xu5rreSYVAzlFPOYXFHPrfmbU4mwNX2sCeISjCkMbeA3BFKCeVVOTf09r8OSaLU9Ov78N4GJq73xoYT0lT2PA_Q1sCtATGfmQwwLGUbVRvf9g-vzt7_o8B25ZhJNFs1PyrG3NGRmYmQvxhrjVK8TkgyU9NWkjokcL1vFeiVm2R-jyuG6X3cTXw8cBJ3IKbe8mmao5FQDpWgyc66iZ_0GAczlY7lyyEJBodEi_MazA5uIzP59e1xXj5af0l6hI4XAN0kHYt_sqejbvQsb1VDzX4-pV4sGK-gx5RipAW-lyfLdbwpFHlKx2bi8BoDMSjardsVDF_J31nrIBF4DVJcQF3RNt8cjmkEfXl5IcoADF6Xu6TwMvwvc6xjLQJ7T6sj7XJev2lTH7ycPWVnSDq7UtEqckI4tZCA8HK5c_jegtUJzTgMy6Elz8jD_ruTCGSR4Pa9YQkdlbzC73qsdh-61CMXn0ESwntxxNBk6jl1v_FeY-GlmBofLkX0fuC9XSIpoHGJgwx7lh_NqtPF8UDJRXp4xUMMGHoLChNWiGcyS6Rygl6SnAbMPcW5oB0M6m9eRzlgkyiOCpJ95Io6ajn_35Q1dZ2zLdynkqM1porY-4R0rd1104OrHIph8pA9lCTibCxQOslxsrW4_wTbawZ7_rNFMuGFCF_mTIKsGUgN4b7xP5IZ7eXDZjtYEWw7SORwxdu0Mj9Sgs1B8C6zeIr_vWNlBTlAwsXO4LcVdv7277MqHFnz3ZcbrUiDCzx6DNGlQ6geNXsl3ZSYLUokzKRRX-tXY1SPC7fHXJqJ1fqK2Q5MmAODZ2FDl1oRMqqPO5GB1eVm4Gy8YqO_hB5bRqKAl_6LOuZNPmRERRC05ZUt1DEWlzf00KO2z2vmQfuHhXGOwX0cyyHuNKhODxlgGcG7-R_hZ3513CKa_iklkdSs4-8a3JbwgKRfPPWSOoR0BlXrV_AcxVBc3tOcLoiZQ1exDfNEQMYXe78xrefVDHgIOgqnm3rcDbo_pS8UruNAX76OJR0nYKnIgQXvOK9lzyzaooRcoMIMZQ6ohJb0sQIRAVsNxrCzEgRhgGhckpdDgU7cLDwPvCNmQuzQcjiueFjuURVhtrL78TF_5g-4EJYs54KRT5xyKscoP7INaOMQEDWtLk5wyzTleqUHmMxA4qVJW3TErkBh6gW0aFW_ohITCu8CZwoDLz43BRA1C4ylNelRyjAyS83wqWFvR6Vz0YpdCfb5OgQa0w7tpk3N__YmXgPJFkyfRPDMS1-cZKmDHSXHPwMZHunn5AGF98iw_sq8UO2tiV2VzZ7iLzXi054cbDgwC2DvRw3WN0_5HOPYOwd3ARTPqaQs1CM4RGPHWLTcHCUkwNkQYrkmadBy5bQ3h6M_WkqhLLGlLkJe0--SfG8rFKpA1lJDqu1GPy4zsWJvEbA=="
+    }
+   ],
+   "role": "model"
+  }
+ ],
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 118520,
+  "output_tokens": 1824,
+  "cache_read_input_tokens": 297068
+ },
+ "model": "gemini-3.5-flash",
+ "tool_calls": 28,
+ "elapsed_s": 92.2,
+ "run_id": "r-a3657ce43bb5",
+ "case_id": "poc-fd00fecec4"
+}

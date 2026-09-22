@@ -1,0 +1,586 @@
+{
+ "answer": {
+  "policy_found": true,
+  "policy_title": "Medical Policy Manual \u2013 Surgery, Policy No. 228: Shoulder Surgeries (Regence)",
+  "policy_number": "SUR228 (Regence Medical Policy \u2014 Surgery, Policy No. 228)",
+  "policy_url": "https://beonbrand.getbynder.com/m/64c4b6d560fd986a/original/Shoulder-Surgeries.pdf",
+  "effective_date": "Effective December 1, 2025; Last Review October 2025; Next Review December 2026",
+  "criteria_quotes": [
+   "I. Rotator cuff repair may be considered medically necessary when all of the following Criteria are met (A.-D.):",
+   "A. Documentation of function-limiting pain (e.g., loss of shoulder function which interferes with the ability to carry out activities of daily living and/or demands of employment); and",
+   "B. Either of the following criteria are met: 1. Failure to respond to at least three months of non-surgical management which includes documentation of physical therapy or prescribed home exercise program and one or more of the following unless contraindicated: a. Trial of anti-inflammatory medication; or b. Cortisone injection; or 2. The individual suffers from a discrete traumatic event that results in an acute full-thickness rotator cuff tear and has associated function limiting pain; and",
+   "C. Individual meets all of the following Criteria (1. and 2.) on physical examination when compared to the non-involved side: 1. Either of the following: a. Functionally limited active range of motion; or b. Measurable loss of strength of the rotator cuff musculature; and 2. One or more of the following positive orthopedic tests/signs: a. Drop Arm Test; or b. Painful Arc Test; or c. Jobe or Empty Can Test; or d. External Rotation Lag Sign (Dropping Sign); or e. Internal Rotation Lag Sign; or f. Lift-Off Test; or g. Bear Hug Test; or h. Belly-Press Test (Napoleon); or i. Belly-Off Test; or j. Neer Impingement Test; or k. Hawkins-Kennedy Impingement; or l. Hornblower Test (Patte); and",
+   "D. Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates a partial-thickness rotator cuff tear or a full-thickness rotator cuff tear that correlates with the individual's reported symptoms and physical exam findings."
+  ],
+  "appeal_deadline": "180 days from the date of the denial notice (2026-08-22), i.e., by 2027-02-18, as stated in the denial letter. This is consistent with the standard internal-appeal window described in Washington's Office of the Insurance Commissioner consumer appeals guide for individual/commercial ACA plans.",
+  "submission_route": "I could not verify, from a public source specific to this member's exact Regence BlueShield Washington commercial/ACA plan, the current mailing address, fax number, or online portal Regence uses for MEMBER (as opposed to provider) medical-necessity appeals. Regence's general member-appeals landing page (https://www.regence.com/member/members/member-appeals) is JavaScript-rendered and does not expose the address/fax/portal details to an unauthenticated fetch \u2014 it directs members to sign in to their online account to see plan-specific appeal instructions. Two things I did find, but which should NOT be assumed to apply to this member without confirmation: (1) a Regence dental EOC that lists an 'Appeals Coordinator, Regence BlueShield, P.O. Box 1408, Lewiston, ID 83501' / fax 1-888-496-1542 / phone 1-888-367-2112 \u2014 this is from a dental booklet, not a medical/ACA plan, so it may not be the correct address for this claim; (2) a UMP (Uniform Medical Plan/PEBB) appeal form administered by Regence \u2014 that is a state public-employee plan, not an individual/ACA commercial plan. Because using the wrong address could delay or jeopardize the appeal, the patient should get the exact submission address/fax/portal from the 'How to appeal' section of THIS denial notice itself (Regence is required to include it) or from the phone number on the back of the member's ID card, and/or by signing into the member account at regence.com to view the plan-specific appeal instructions.",
+  "how_to_obtain_criteria": "The medical-necessity criteria quoted above come from a publicly hosted copy of Regence's Medical Policy Manual, Surgery Policy No. 228 'Shoulder Surgeries,' which a third-party policy-tracking service (policyalerts.com) also confirms is tracked as a Regence BCBS commercial medical policy. To be certain this is the exact version Regence applied to this specific denial, the patient (or their provider) should: (1) call the customer service number on the back of the Regence member ID card or in the denial letter and ask for the specific medical policy number and version cited in the review, (2) request a free copy of the criteria and the reviewer's rationale \u2014 insurers are required to provide the specific rules, guidelines, or clinical review criteria relied on when requested, per ACA internal claims and appeals regulations (29 CFR 2590.715-2719 / 45 CFR 147.136) \u2014 and (3) check Regence's public provider policy library at https://www.regence.com/provider/library/policies-guidelines/medical-policy (this page requires a browser session/JS to search by policy name or ID; it was not retrievable via a plain HTTP fetch in this session).",
+  "confidence": "medium",
+  "notes": "High confidence that SUR228 'Shoulder Surgeries' is Regence's governing medical policy for CPT 29827 (rotator cuff repair) \u2014 the document's own header explicitly enumerates 'Rotator cuff repair' criteria as Section I, and it is independently listed as a 'Shoulder Surgeries' Regence BCBS policy by a third-party monitor. However: (a) the denial letter states the reason for denial was 'incomplete documentation,' meaning the reviewer could not evaluate criteria A-D above, not that the criteria weren't met \u2014 the appeal should focus on submitting the missing documentation (function-limiting pain, \u22653 months conservative treatment with PT and NSAID/injection trial, positive physical exam findings/orthopedic tests, and MRI/imaging report correlating with symptoms); (b) I was not able to verify the exact member-appeal mailing address/fax/portal specific to this Washington commercial/ACA plan \u2014 do not send the appeal to the dental or PEBB addresses found in this search without confirming they apply, and instead use the address/portal specified in the actual denial notice or member portal; (c) the policy document I retrieved is hosted on a vendor CDN (getbynder.com) rather than regence.com directly, though its content and formatting (SUR228 header) match Regence's known Medical Policy Manual numbering/branding style used elsewhere in the search results."
+ },
+ "raw_text": "```json\n{\n  \"policy_found\": true,\n  \"policy_title\": \"Medical Policy Manual \u2013 Surgery, Policy No. 228: Shoulder Surgeries (Regence)\",\n  \"policy_number\": \"SUR228 (Regence Medical Policy \u2014 Surgery, Policy No. 228)\",\n  \"policy_url\": \"https://beonbrand.getbynder.com/m/64c4b6d560fd986a/original/Shoulder-Surgeries.pdf\",\n  \"effective_date\": \"Effective December 1, 2025; Last Review October 2025; Next Review December 2026\",\n  \"criteria_quotes\": [\n    \"I. Rotator cuff repair may be considered medically necessary when all of the following Criteria are met (A.-D.):\",\n    \"A. Documentation of function-limiting pain (e.g., loss of shoulder function which interferes with the ability to carry out activities of daily living and/or demands of employment); and\",\n    \"B. Either of the following criteria are met: 1. Failure to respond to at least three months of non-surgical management which includes documentation of physical therapy or prescribed home exercise program and one or more of the following unless contraindicated: a. Trial of anti-inflammatory medication; or b. Cortisone injection; or 2. The individual suffers from a discrete traumatic event that results in an acute full-thickness rotator cuff tear and has associated function limiting pain; and\",\n    \"C. Individual meets all of the following Criteria (1. and 2.) on physical examination when compared to the non-involved side: 1. Either of the following: a. Functionally limited active range of motion; or b. Measurable loss of strength of the rotator cuff musculature; and 2. One or more of the following positive orthopedic tests/signs: a. Drop Arm Test; or b. Painful Arc Test; or c. Jobe or Empty Can Test; or d. External Rotation Lag Sign (Dropping Sign); or e. Internal Rotation Lag Sign; or f. Lift-Off Test; or g. Bear Hug Test; or h. Belly-Press Test (Napoleon); or i. Belly-Off Test; or j. Neer Impingement Test; or k. Hawkins-Kennedy Impingement; or l. Hornblower Test (Patte); and\",\n    \"D. Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates a partial-thickness rotator cuff tear or a full-thickness rotator cuff tear that correlates with the individual's reported symptoms and physical exam findings.\"\n  ],\n  \"appeal_deadline\": \"180 days from the date of the denial notice (2026-08-22), i.e., by 2027-02-18, as stated in the denial letter. This is consistent with the standard internal-appeal window described in Washington's Office of the Insurance Commissioner consumer appeals guide for individual/commercial ACA plans.\",\n  \"submission_route\": \"I could not verify, from a public source specific to this member's exact Regence BlueShield Washington commercial/ACA plan, the current mailing address, fax number, or online portal Regence uses for MEMBER (as opposed to provider) medical-necessity appeals. Regence's general member-appeals landing page (https://www.regence.com/member/members/member-appeals) is JavaScript-rendered and does not expose the address/fax/portal details to an unauthenticated fetch \u2014 it directs members to sign in to their online account to see plan-specific appeal instructions. Two things I did find, but which should NOT be assumed to apply to this member without confirmation: (1) a Regence dental EOC that lists an 'Appeals Coordinator, Regence BlueShield, P.O. Box 1408, Lewiston, ID 83501' / fax 1-888-496-1542 / phone 1-888-367-2112 \u2014 this is from a dental booklet, not a medical/ACA plan, so it may not be the correct address for this claim; (2) a UMP (Uniform Medical Plan/PEBB) appeal form administered by Regence \u2014 that is a state public-employee plan, not an individual/ACA commercial plan. Because using the wrong address could delay or jeopardize the appeal, the patient should get the exact submission address/fax/portal from the 'How to appeal' section of THIS denial notice itself (Regence is required to include it) or from the phone number on the back of the member's ID card, and/or by signing into the member account at regence.com to view the plan-specific appeal instructions.\",\n  \"how_to_obtain_criteria\": \"The medical-necessity criteria quoted above come from a publicly hosted copy of Regence's Medical Policy Manual, Surgery Policy No. 228 'Shoulder Surgeries,' which a third-party policy-tracking service (policyalerts.com) also confirms is tracked as a Regence BCBS commercial medical policy. To be certain this is the exact version Regence applied to this specific denial, the patient (or their provider) should: (1) call the customer service number on the back of the Regence member ID card or in the denial letter and ask for the specific medical policy number and version cited in the review, (2) request a free copy of the criteria and the reviewer's rationale \u2014 insurers are required to provide the specific rules, guidelines, or clinical review criteria relied on when requested, per ACA internal claims and appeals regulations (29 CFR 2590.715-2719 / 45 CFR 147.136) \u2014 and (3) check Regence's public provider policy library at https://www.regence.com/provider/library/policies-guidelines/medical-policy (this page requires a browser session/JS to search by policy name or ID; it was not retrievable via a plain HTTP fetch in this session).\",\n  \"confidence\": \"medium\",\n  \"notes\": \"High confidence that SUR228 'Shoulder Surgeries' is Regence's governing medical policy for CPT 29827 (rotator cuff repair) \u2014 the document's own header explicitly enumerates 'Rotator cuff repair' criteria as Section I, and it is independently listed as a 'Shoulder Surgeries' Regence BCBS policy by a third-party monitor. However: (a) the denial letter states the reason for denial was 'incomplete documentation,' meaning the reviewer could not evaluate criteria A-D above, not that the criteria weren't met \u2014 the appeal should focus on submitting the missing documentation (function-limiting pain, \u22653 months conservative treatment with PT and NSAID/injection trial, positive physical exam findings/orthopedic tests, and MRI/imaging report correlating with symptoms); (b) I was not able to verify the exact member-appeal mailing address/fax/portal specific to this Washington commercial/ACA plan \u2014 do not send the appeal to the dental or PEBB addresses found in this search without confirming they apply, and instead use the address/portal specified in the actual denial notice or member portal; (c) the policy document I retrieved is hosted on a vendor CDN (getbynder.com) rather than regence.com directly, though its content and formatting (SUR228 header) match Regence's known Medical Policy Manual numbering/branding style used elsewhere in the search results.\"\n}\n```",
+ "usd": 0.1513,
+ "transcript": [
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "text",
+     "text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-22\nMember: Avery Jennings\nMember ID: W675944637\nPlan: Regence BlueShield (Commercial/ACA), state of Washington\n\nDear Avery,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Rotator cuff repair\n    Procedure code (CPT): 29827\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-18).\n\nReference number: POC-CDC085AB1F-87245\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EsoCCpABCBIYAipAvSiTo+75W/jmsHXZnqHPCtlHZhgL2CgGTDJI11sA7Xm93rkLccjxlpyzolondJddjEDth0zQocqs+QCTUldSfjIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAe7qwdUGEgyK21hq6JF/JzI8QF0aDLpNve1glX+Zp2J7wyIwFitHRrJzUNdbVgtHg+YaEbcUbOU7KcxwdHKOU+t6OJSd35dsvYFhJd8jaQFsmEx4Kmf+HNqTLDGxjt9jCby1q1k+9fxHRKOYksF19yL0Hl1Qlhs3SIxRTRd+PffBcuGfZhBlqr6g1M7HTmguY+6K4d7Smtnd1M1eaQl3UgVYgM/gdxa2mWWEfw0ep3tUVpZYwRz0p2awkYADGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01SLwS5bHnaLVTckytE58pdZ",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Regence BlueShield medical policy rotator cuff repair 29827"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01R7jaDhd6ViMSMcTAyDaKRM",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Regence medical policy \"rotator cuff\" surgery criteria"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01SLwS5bHnaLVTckytE58pdZ",
+     "content": "{\"query\": \"Regence BlueShield medical policy rotator cuff repair 29827\", \"results\": [{\"title\": \"CPT Code 29827: Rotator cuff repair billing guide | Pabau\", \"url\": \"https://pabau.com/procedure-codes/cpt-code-29827/\", \"snippet\": \"CPT 29827 <strong>covers arthroscopic rotator cuff repair</strong>: 29.23 total RVUs, LT or RT on every claim, 29826 only as an add-on.\"}, {\"title\": \"PAYMENT POLICY SHOULDER ARTHROSCOPY Scope This policy applies to:\", \"url\": \"https://wa-provider.kaiserpermanente.org/static/pdf/provider/billing-claims/shoulder-arthroscopy.pdf\", \"snippet\": \"29827 \u00b7 <strong>Arthroscopy, shoulder, surgical; with rotator cuff repair</strong> \u00b7 29828 \u00b7 Arthroscopy, shoulder, surgical; biceps tenodesis \u00b7 Policy Definitions \u00b7 Arthroscopy - A procedure for diagnosing and treating joint problems. Prerequisite(s) Not applicable \u00b7 References \u00b7 National Correct Coding ...\"}, {\"title\": \"SUR228 | 1 Medical Policy Manual Surgery, Policy No. 228 Shoulder Surgeries\", \"url\": \"https://beonbrand.getbynder.com/m/64c4b6d560fd986a/original/Shoulder-Surgeries.pdf\", \"snippet\": \"29827 \u00b7 <strong>Arthroscopy, shoulder, surgical; with rotator cuff repair</strong> \u00b7 29828 \u00b7 Arthroscopy, shoulder, surgical; biceps tenodesis \u00b7 HCPCS \u00b7 None \u00b7\"}, {\"title\": \"MEDICAL POLICY \u2013 7.01.602 Shoulder Arthroscopy in Adults\", \"url\": \"https://student.lifewiseac.com/medicalpolicies/7.01.602.pdf\", \"snippet\": \"29827 \u00b7 <strong>Arthroscopy, shoulder, surgical; with rotator cuff repair</strong> \u00b7 29999 \u00b7 Unlisted procedure, arthroscopy \u00b7 Note: CPT codes, descriptions and materials are copyrighted by the American Medical Association (AMA). HCPCS \u00b7 codes, descriptions and materials are copyrighted by Centers for ...\"}, {\"title\": \"CPT 29827 Arthroscopic Rotator Cuff Repair Reimbursement | OpenPayer\", \"url\": \"https://www.openpayer.com/billing-codes/cpt-29827-arthroscopic-rotator-cuff-repair-shoulder\", \"snippet\": \"CPT code 29827 denotes an <strong>arthroscopic repair of a torn rotator cuff</strong>, a commonly performed minimally invasive shoulder surgery to reattach and repair torn tendon tissue. Nationally, this code is central to musculoskeletal surgical billing for sports-related and overuse shoulder injuries that ...\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01R7jaDhd6ViMSMcTAyDaKRM",
+     "content": "{\"query\": \"Regence medical policy \\\"rotator cuff\\\" surgery criteria\", \"results\": [{\"title\": \"SUR228 | 1 Medical Policy Manual Surgery, Policy No. 228 Shoulder Surgeries\", \"url\": \"https://beonbrand.getbynder.com/m/64c4b6d560fd986a/original/Shoulder-Surgeries.pdf\", \"snippet\": \"C. Individual meets all of the following Criteria (1. and 2.) on physical examination ... D. Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates a partial- thickness rotator cuff tear or a full-thickness rotator cuff tear that correlates with\"}, {\"title\": \"Medical Policy BSC7.14 Partial Thickness Rotator Cuff ...\", \"url\": \"https://www.blueshieldca.com/content/dam/bsca/en/provider/docs/medical-policies/Partial-Thickness-Rotator-Cuff-Tears-Acromioplasty-Subacromial-Decompression.pdf\", \"snippet\": \"demonstrates rotator cuff pathology (Grade II \u2013 see Policy Guidelines) that corresponds \u00b7 with the individual\u2019s symptoms and clinical findings. In-office reports (ultrasound and x- rays) should include a comprehensive description of the radiographic findings. In rare \u00b7 instances where the imaging is normal and does not support the need for this procedure, the history, physical exam, and MD rationale need to clearly show why surgery is\"}, {\"title\": \"Surgery of the Shoulder \u2013 Commercial and Individual ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-shoulder.pdf\", \"snippet\": \"This Medical Policy applies to Individual Exchange benefit plans. ... Surgery of the shoulder is proven and medically necessary in certain circumstances. For medical necessity clinical ... Click here to view the InterQual\u00ae criteria. Subacromial balloon spacers for the treatment of rotator cuff tears are unproven and not medically necessary\"}, {\"title\": \"BSC7.14 Partial Thickness Rotator Cuff Tears and ...\", \"url\": \"https://www.blueshieldca.com/content/dam/bsca/en/provider/documents/2023/authorizations/PRV_Partial_Thick_Rotator_Cuff_Tears.pdf\", \"snippet\": \"demonstrates rotator cuff pathology (Grade II \u2013 see Policy Guidelines) that corresponds \u00b7 with the individual\u2019s symptoms and clinical findings. In-office reports (ultrasound and x- rays) should include a comprehensive description of the radiographic findings. In rare \u00b7 instances where the imaging is normal and does not support the need for this procedure, the history, physical exam, and MD rationale need to clearly show why surgery is\"}, {\"title\": \"Shoulder Arthroscopy and Open Procedures\", \"url\": \"https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp436.pdf\", \"snippet\": \"If additional procedures not fully approved in the PA are performed during surgery, providers must submit \u00b7 clinical documentation with the claim showing intraoperative findings that support medical necessity. If \u00b7 the claim is denied for not meeting medical necessity, providers may request reconsideration through the ... Partial rotator cuff tears are commonly divided into three grades according to the Ellman classification,\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EpwDCpABCBIYAipAWTDjcZGIFagKmRKgjAweicMBg9M68KBA09d/kd5NOt8e7aTUJMeSkNBxrDIGFCIY4AEomHiB//Hq/uaeIXZsQzIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAfLqwdUGEgyQTuZHZ+F1ss8iZR8aDPAzkdeBujZL1uZukSIwjFAJYc0JV2RJGXO6iiebCj5wRxzMfbmzIKoEtdEX99EGJIW0A15ZvAGvJC0IfakWKrgBSTFL1SnytjiG6lYgfEgCxZAPKPa9hPaCXuz87v3x65QcFs13uZvPtcpHlyFaPj6fJ40CA7DJn0rxwNNUSMJGXG/2m4f2448h87EvR2aAh/xfXl9osJQb/1fED+Kt/6JmRNI2gyuLl37TPSiOI+/WUO+wfFqNrRY1WLslVTs+xUT4bQAflL0l1QSdTFk6Ay3ovfdW3jWuK3r4sxxktJcsVnsOZm5ylElHmfH8ITn/L70UibiTrflEpxgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01J9RHjpd5r5HNhxs7Bj3EGm",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "regence.com medical policy \"Shoulder Surgeries\" surgery 228"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_012uq3ATHzZXkWYeYdfdJVSG",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://beonbrand.getbynder.com/m/64c4b6d560fd986a/original/Shoulder-Surgeries.pdf"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01J9RHjpd5r5HNhxs7Bj3EGm",
+     "content": "{\"query\": \"regence.com medical policy \\\"Shoulder Surgeries\\\" surgery 228\", \"results\": [{\"title\": \"SUR228 | 1 Medical Policy Manual Surgery, Policy No. 228 Shoulder Surgeries\", \"url\": \"https://beonbrand.getbynder.com/m/64c4b6d560fd986a/original/Shoulder-Surgeries.pdf\", \"snippet\": \"NOTE: A summary of the supporting rationale for the policy criteria is at the end of the policy \u00b7 These results indicate that there is no clinically superior treatment option between ACR, MUA, \u00b7 Civan O, Bilsel K, Kapicioglu M, et al. Repair versus biceps tenodesis for the slap tears:\"}, {\"title\": \"Regence BCBS Medical Policy Updates - January 2023\", \"url\": \"https://policyalerts.com/regence-bcbs-medical-policy-updates-january-2023/\", \"snippet\": \"Shoulder Surgeries \u00b7 Skin Lesion Imaging and Spectroscopy \u00b7 Spinal Cord Stimulation \u00b7 Surgeries for Snoring and Obstructive Sleep Apnea Syndrome \u00b7 Thermography \u00b7 Treatment of Adult Sepsis \u00b7 Urinary Tumor Markers for Bladder Cancer \u00b7 Vagus Nerve Blocking Therapy for Obesity \u00b7 Ventral Hernia Repair \u00b7 Click here to view the Regence BCBS Blue Cross Blue Shield Medical Policy Updates \u00bb \u00b7\"}], \"result_count\": 2, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_012uq3ATHzZXkWYeYdfdJVSG",
+     "content": "{\"url\": \"https://beonbrand.getbynder.com/m/64c4b6d560fd986a/original/Shoulder-Surgeries.pdf\", \"final_url\": \"https://beonbrand.getbynder.com/m/64c4b6d560fd986a/original/Shoulder-Surgeries.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"SUR228 | 1 Medical Policy Manual Surgery, Policy No. 228 Shoulder Surgeries Effective: December 1, 2025 Next Review: December 2026 Last Review: October 2025 IMPORTANT REMINDER Medical Policies are developed to provide guidance for members and providers regarding coverage in accordance with contract terms. Benefit determinations are based in all cases on the applicable contract language. To the extent there may be any conflict between the Medical Policy and contract language, the contract language takes precedence. PLEASE NOTE: Contracts exclude from coverage, among other things, services or procedures that are considered investigational or cosmetic. Providers may bill members for services or procedures that are considered investigational or cosmetic. Providers are e ncouraged to inform members before rendering such services that the members are likely to be financially responsible for the cost of these services. DESCRIPTION Shoulder pathology is a common indication and can be treated through surgical and non- surgical methods. Depending on the severity and location of the pathology, a variety of surgical methods may be indicated. MEDICAL POLICY CRITERIA Notes: This policy only applies to certain member contracts. Please check the pre- authorization website for the member contract to confirm requirements. I. Rotator cuff repair may be considered medically necessary when all of the following Criteria are met (A.-D.): A. Documentation of function-limiting pain (e.g., loss of shoulder function which interferes with the ability to carry out activities of daily living and/or demands of employment); and B. Either of the following criteria are met: 1. Failure to respond to at least three months of non-surgical management which includes documentation of physical therapy or prescribed home exercise program and one or more of the following unless contraindicated: SUR228 | 2 a. Trial of anti-inflammatory medication; or b. C ortisone injection; or 2. The individual suffers from a discrete traumatic event that results in an acute full-thickness rotator cuff tear and has associated function limiting pain; and C. Individual meets all of the following Criteria (1. and 2.) on physical examination when compared to the non-involved side: 1. Either of the following: a. Functionally limited active range of motion; or b. Measurable loss of strength of the rotator cuff musculature; and 2. One or more of the following positive orthopedic tests/signs: a. Drop Arm Test; or b. Painful Arc Test; or c. Jobe or Empty Can Test; or d. External Rotation Lag Sign (Dropping Sign); or e. Internal Rotation Lag Sign; or f. Lift-Off Test; or g. Bear Hug Test; or h. Belly-Press Test (Napoleon); or i. Belly-Off Test; or j. Neer Impingement Test; or k. Hawkins-Kennedy Impingement; or l. Hornblower Test (Patte); and D. Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates a partial- thickness rotator cuff tear or a full-thickness rotator cuff tear that correlates with the individual\u2019s reported symptoms and physical exam findings. II. Labral repair with or without capsulorrhaphy may be considered medically necessary when all of the following Criteria are met (A.-D.): A. Documentation of function-limiting pain (e.g., loss of shoulder function which interferes with the ability to carry out activities of daily living and/or demands of employment); and B. Either of the following criteria are met: 1. Failure to respond to at least three months of non-surgical management which includes documentation of physical therapy or prescribed home exercise program and one or more of the following unless contraindicated a. Trial of anti-inflammatory medication; or b. Cortisone injection; or 2. The individual suffers from an acute traumatic dislocation with imaging SUR228 | 3 documenting either acute capsule-labral separation or acute bony Bankart lesion and documented recurrent episodes of instability; and C. Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates labral tear (e.g., SLAP, Bankart) and correlates with the individual\u2019s reported symptoms and physical exam findings; and D. All of the following are met (1. and 2.) based on physical examination when compared to the non-involved side: 1. Normal or minimally limited active or passive shoulder range of motion; and 2. One or more of the following positive orthopedic tests: a. O\u2019Brien\u2019s Test; or b. Biceps Load Test; or c. Clunk Test; or d. Anterior Slide Test; or e. Compression Rotation Test; or f. Speed\u2019s Test; or g. Modified dynamic labral shear; or h. A pprehension test; or i. A nterior or posterior load and shift test; or j. P ositive sulcus sign. III. Arthroscopic capsular release or lysis of adhesions may be considered medically necessary when all of the following criteria are met (A.-D.): A. Documentation of chronic refractory adhesive capsulitis or arthrofibrosis which has resulted from disease, injury, or surgery; and B. Documentation of function-limiting pain (e.g., loss of shoulder function which interferes with the ability to carry out activities of daily living and/or demands of employment); and C. Loss of range of motion in at least one plane of motion of the affected shoulder is reduced by 50% or more; and D. Failure to respond to at least three months of non-surgical management including at least two months of physical therapy and one or more of the following unless contraindicated: 1. Trial of anti-inflammatory medication; or 2. Cortisone injection. IV. Distal clavicle excision may be considered medically necessary when all of the following criteria are met (A.-D.): A. Documentation of function-limiting pain (e.g., loss of shoulder function which interferes with the ability to carry out activities of daily living and/or demands of employment); and SUR228 | 4 B. Documentation of one or more of the following positive orthopedic findings on physical examination: 1. Localized tenderness to palpation of the acromioclavicular (AC) joint; or 2. Cross Body Adduction Test; or 3. Resisted AC Joint Extension Test; or 4. Neer Impingement Test; or 5. Hawkins-Kennedy Impingement Test; and C. Failure to respond to at least three months of non-surgical management which includes documentation of physical therapy or prescribed home exercise program and one or more of the following unless contraindicated: 1. Trial of anti-inflammatory medication; or 2. Cortisone injection; and D. D iagnostic imaging study (e.g., MRI, CT, plain radiographs) demonstrating underlying pathology (e.g., AC joint arthritis, impingement, etc.) which correlates with the individual\u2019s reported symptoms and physical exam findings. V. Subacromial decompression or acromioplasty may be considered medically necessary as an add-on procedure only when performed with other medically necessary primary shoulder surgical procedures and when all of the following criteria are met (A.-D.): A. Documentation of function-limiting pain (e.g., loss of shoulder function which interferes with the ability to carry out activities of daily living and/or demands of employment); and B. Documentation of one or more of the following positive orthopedic tests on physical examination: 1. Cross Body Adduction Test; or 2. Resisted AC Joint Extension Test; or 3. Neer Impingement Test; or 4. Hawkins-Kennedy Impingement Test; and C. Failure to respond to at least three months of non-surgical management which includes documentation of physical therapy or prescribed home exercise program and one or more of the following unless contraindicated: 1. Trial of anti-inflammatory medication; or 2. Cortisone injection; and D. Diagnostic imaging study (e.g., MRI, CT, plain radiographs) demonstrating underlying pathology (e.g., AC joint arthritis, impingement, etc.) which correlates with the individual\u2019s reported symptoms and physical exam findings. VI. Biceps tenodesis may be considered medically necessary when all of the following Criteria are met (A.-D.): SUR228 | 5 A. Documentation of function-limiting pain (e.g., loss of shoulder function which interferes with the ability to carry out activities of daily living and/or demands of employment); and B. Failure to respond to at least three months of non-surgical management which includes documentation of physical therapy or prescribed home exercise program and one or more of the following unless contraindicated: 1. Trial of anti-inflammatory medication; or 2. Cortisone injection; and C. Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates labral tear/biceps tendon pathology (e.g., SLAP, Bankart, full-thickness subscapularis tear) and correlates with the individual\u2019s reported symptoms and physical exam findings; and D. Documentation of one or more of the following positive orthopedic tests on physical examination: a. O\u2019Brien\u2019s Test; or b. Biceps Load Test; or c. Clunk Test; or d. Anterior Slide Test; or e. Compression Rotation Test; or f. Speed\u2019s Test; or g. Upper cut test; or h. Popeye sign; or i. Yergason\u2019s test; or j. Proximal biceps (groove) tenderness. VII. Arthroscopic loose body or foreign body removal may be considered medically necessary when all of the following criteria are met (A.-D.): A. Documentation of function-limiting pain (e.g., loss of shoulder function which interferes with the ability to carry out activities of daily living and/or demands of employment); and B. Mechanical symptoms including painful locking, clicking, catching, and/or popping; and C. Failure to respond to at least three months of non-surgical management which includes documentation of physical therapy or prescribed home exercise program and one or more of the following unless contraindicated: 1. Trial of anti-inflammatory medication; or 2. Cortisone injection; and D. Advanced diagnostic imaging study (e.g., MRI, CT) is conclusive for the presence of a loose body or foreign body within the shoulder joint. SUR228 | 6 VIII. Diagnostic arthroscopy of the shoulder may be considered medically necessary as a separate procedure when all of the following criteria have been met (A.-C.): A. Documentation of function-limiting pain (e.g., loss of shoulder function which interferes with the ability to carry out activities of daily living and/or demands of employment); and B. Failure to respond to at least three months of non-surgical management which includes documentation of physical therapy or prescribed home exercise program and one or more of the following unless contraindicated: 1. Trial of anti-inflammatory medication; or 2. Cortisone injection; and C. Advanced diagnostic imaging study (e.g., MRI, CT) is inconclusive for internal derangement/pathology. IX. Synovectomy (partial or complete) is considered medically necessary when all of the following criteria have been met (A.-E.): A. Documentation of function-limiting pain (e.g., loss of shoulder function which interferes with the ability to carry out activities of daily living and/or demands of employment); and B. Individual demonstrates functionally limited range of motion (active or passive) on physical examination as compared to the non-involved side; and C. Failure to respond to at least three months of non-surgical management which includes documentation of physical therapy or prescribed home exercise program and one or more of the following unless contraindicated: 1. Trial of anti-inflammatory medication; or 2. Cortisone injection; and D. Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates underlying pathology consistent with the individual\u2019s reported medical condition (e.g., synovitis, joint effusion) which correlates with the individual\u2019s reported symptoms and physical exam findings; and E. Presence of ONE of the following: 1. Inflammatory arthritis (i.e., rheumatoid arthritis, gout, pseudogout, psoriatic arthritis); or 2. Pigmented villonodular synovitis; or 3. Synovial chondromatosis; or 4. Lyme synovitis; or 5. Hemophilia; or 6. Hemochromatosis; or 7. Non-specific synovitis (including proliferative synovitis, post-operative s\", \"text_truncated\": true}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EqsFCpABCBIYAipAIMNuXTA1p9Ts3sEOkHa2AIZgGTMXu6Gm5HlX4GaTWx7897Dqaa+PSfHdUEHJS76hW3bWhQF/SH3xDBrZ79W2NjIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAfjqwdUGEgxiTCwRXbqizyY5JW4aDNx5pbVLye6yMcIU4yIwq5aqig/QkVuDDZggMgUgHxnUb/RBz/v1C/7nj629VwWbXK78NWjJYaqgegm8q6CfKscDrLwUewqLTLEy/j0XHw939W5dDnawFenmVJiyZwjak8M+yP6ayEPlPvB489sCHFABnbCbs/zeCi8n9wr8VEomR+HwXad8JgD6SkSMKcPXK4x1EUH1BCHiI5HlRb9oC9nGCU1Fkf+KnZPqOZKS88XIAApenkQqCn7JG3dyZ9XL07ViG1XO8QDDcGUJ3BepF1O8JWIcH/tvrO1ONoWMK2CgFSlclZMK8+AgylY2JrVH9N5y1BWMKZMXxHRNx0C34QKawWr/hpq2hylXOuFji3tZvXMoTdKAPDQjeTeaQmHXva/ujdf0ZlMU7gXtkIvdfjX1f1+bTd0JVpbXpqXaDFxV6qzHkieXSeo2jKVPPNloXCNvFRr2wzIQ7c1GnSrlZ2s6DrMllOFeO6Hiyr8Wo1pVVauKZkr7HOcEsQHQ2bBk6TyQrUetSc8PHtpNcsPEjD6Awh+XBFAAMuZfahAhwvE+7QWA/YT0PwBq9+nJcI+Pip2FO0qTTV+k/Gt7a/pnSrzvIudrrUUJ7s1Qb+hZNqwQePQ75XQtnSLm/AFjqTEPXOFOEmgmZ+mTNH6V8/O404XB0KeuMrmZh3uxLtEm8+CENgFfZP/3NfUYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01HH1aDsUPgGDim64j4FQdxT",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "regence.com medpolicy \"SUR228\" OR \"Shoulder Surgeries\" policy"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01UrsDbPReWie3dBji7ajS1E",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Regence appeal process member medical necessity denial Washington provider portal address"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01HH1aDsUPgGDim64j4FQdxT",
+     "content": "{\"query\": \"regence.com medpolicy \\\"SUR228\\\" OR \\\"Shoulder Surgeries\\\" policy\", \"results\": [{\"title\": \"SUR228 | 1 Medical Policy Manual Surgery, Policy No. 228 Shoulder Surgeries\", \"url\": \"https://beonbrand.getbynder.com/m/64c4b6d560fd986a/original/Shoulder-Surgeries.pdf\", \"snippet\": \"VIII. Diagnostic arthroscopy of the shoulder may be considered medically necessary as a\"}, {\"title\": \"Regence BCBS Medical Policy Updates - January 2023\", \"url\": \"https://policyalerts.com/regence-bcbs-medical-policy-updates-january-2023/\", \"snippet\": \"Shoulder Surgeries \u00b7 Skin Lesion Imaging and Spectroscopy \u00b7 Spinal Cord Stimulation \u00b7 Surgeries for Snoring and Obstructive Sleep Apnea Syndrome \u00b7 Thermography \u00b7 Treatment of Adult Sepsis \u00b7 Urinary Tumor Markers for Bladder Cancer \u00b7 Vagus Nerve Blocking Therapy for Obesity \u00b7 Ventral Hernia Repair \u00b7 Click here to view the Regence BCBS Blue Cross Blue Shield Medical Policy Updates \u00bb \u00b7\"}], \"result_count\": 2, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01UrsDbPReWie3dBji7ajS1E",
+     "content": "{\"query\": \"Regence appeal process member medical necessity denial Washington provider portal address\", \"results\": [{\"title\": \"Member appeal process and forms\", \"url\": \"https://www.regence.com/member/members/member-appeals\", \"snippet\": \"Get help with your coverage questions, including information on how to file an appeal. Learn about the appeal process and find the appropriate appeal forms.\"}, {\"title\": \"For Exceptions Only Regence Provider Appeal Form\", \"url\": \"https://beonbrand.getbynder.com/m/c215f59eb7ede2c/original/Provider-Appeal-Form.pdf\", \"snippet\": \"Contracted providers submitting pricing \u00b7 disputes must use the Pricing Dispute Form located on the provider website. Please review the information about all other \u00b7 appeals on our provider website at regence.com: <strong>Claims and Payment&gt;Receiving Payment&gt;Appeals</strong>.\"}, {\"title\": \"Grievances and appeals\", \"url\": \"https://www.regence.com/medicare/grievances-appeals\", \"snippet\": \"Learn how to file a complaint (a grievance) about us or one of our plan providers, or to how to appeal, or request an independent review of, any action we take or decision we make about your coverage, benefits or services.\"}, {\"title\": \"UMP MEMBER APPEAL FORM Please return completed form to:\", \"url\": \"https://www.hca.wa.gov/assets/pebb/Reg-appeals-grievance-form.pdf\", \"snippet\": \"We need your permission to authorize Regence BlueShield to request any medical records needed to answer your appeal.\"}, {\"title\": \"Claims & appeals - Uniform Medical Plan\", \"url\": \"https://ump.regence.com/sebb/benefits/claims-appeals\", \"snippet\": \"When you use a network provider or network pharmacy, you don\u2019t need to submit a claim. There are some circumstances where you will need to submit a claim. Claims must be submitted within 12 months of the date of service.\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EpYCCpABCBIYAipAltd89R7hTNh9ZFJeZGiTctvGTqdJdNbu343gN83e4bdlIBuQLpxrR5jvPvF1vCpR0hyKvqi7zN03pnJ17Q1mnzIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAfvqwdUGEgwlrK3x4o8G6Yf6jSwaDBA4nk4cMnTu7yY8kSIwqwofnMEssGMRY/3snYpwF4gJapAccLC0joaMSciLXNAGARDOWuF+JQ5O9hM27EGcKjPy7OlWObPPfeTlZYWsir6R8AxM8lcWapz/+lawo4IXaxHN0OUg5ndYOm773UM7G6BzJ5cYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01L6eNGUmkQmp324hs8Wy7RE",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.regence.com/member/members/member-appeals"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01L6eNGUmkQmp324hs8Wy7RE",
+     "content": "{\"url\": \"https://www.regence.com/member/members/member-appeals\", \"final_url\": \"https://www.regence.com/member/members/member-appeals\", \"http_status\": 200, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Member appeal process and forms Find a doctor Find a dentist Contact us Sign in Individuals & Families Medicare For Employers For Producers For Providers Don't have a member account yet? Create one Sign in Individuals & Families Medicare For Employers For Producers For Providers Don't have a member account yet? Create one \u00d7 Find a doctor Find a dentist Contact us Go to Regence home page x Attention! You are about to leave regence.com and enter another website that is not affiliated with or licensed by the Blue Cross Blue Shield Association. Cancel Proceed Loading... x Attention! You are about to leave our Medicare website. Proceed Cancel \u00a9 2026 Regence health plans are Independent Licensees of the Blue Cross and Blue Shield Association serving members in Idaho, Oregon, Utah and select counties of Washington. Non-discrimination | Espa\u00f1ol | \u7e41\u9ad4\u4e2d\u6587 | Ti\u1ebfng Vi\u1ec7t | \ud55c\uad6d\uc5b4 | \u0420\u0443\u0441\u0441\u043a\u0438\u0439 | Tagalog | \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 | \u1781\u17d2\u1798\u17c2\u179a | \u65e5\u672c\u8a9e | \u12a0\u121b\u122d\u129b | Oroomiffa | \u0627\u0644\u0639\u0631\u0628\u064a\u0629 | \u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40 | Deutsch | \u0e9e\u0eb2\u0eaa\u0eb2\u0ea5\u0eb2\u0ea7 | ...\", \"text_truncated\": false}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EvIDCpABCBIYAipAsYNFxTxNSPeFO8H/pzS34xjltcyOA0ZvLLrDekcTWWicaQ0gvJEZuA432kO2zWnjq9ZcpAY+/1++dDK201yfqjIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAf/qwdUGEgwfW+5hT+iYKAsNzbQaDOr2ETUVp1HI+G1zOiIwQ6dqMAlE9VnGP+Bk29jxavKSDR83tZo7E4fhOq94tmpIkrx+/Nr3awY9a8JOWLu3Ko4CqNkLn7wvacds4WSOJtLX9+V1aXkaFjMSNi8TX1z8KYVZicPWRkhw8u9HH/GTyqzl+gSRSXhGsaB1G+TimHWoto0K5p3Wsd2foxGD35V0HFHRzXTi35r3eFZcByipS1C9mrDYcPVpsEtyr7TeKow0F9kJ1D7IDIyaYx5FnxG2DXsmVpAONMA1IS3iWYv1ZoZ7brOzisVbMDGN+whtQniYx4s4mOI7PdUslsYLZXI4SyYKPBAtjOrKuwt+TnSRaENjUitEGzbFU9zMPgoBpKVJ7wBsWMOA8XGpx1x0BC5eCYEvfhOmka4MMJC7ZIdROB/9cMybvTPTRzBtan7Hew5aJtJ4AL/AOFEVHES0/3gbGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_012ksYH9jNHTbaUfEKRFymTe",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Regence BlueShield Washington individual member appeal form address fax \"180 days\""
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01UzuyS6u8RxZRQDxQhZrU6h",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Regence member appeal form pdf \"Grievance and Appeal\" Washington"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_012ksYH9jNHTbaUfEKRFymTe",
+     "content": "{\"query\": \"Regence BlueShield Washington individual member appeal form address fax \\\"180 days\\\"\", \"results\": [{\"title\": \"Regence provider appeal form: Fill out & sign online | DocHub\", \"url\": \"https://www.dochub.com/fillable-form/336276-regence-provider-appeal-form\", \"snippet\": \"<strong>An Appeal must be submitted within 180 days or 6 months from the date of the Explanation of Benefits</strong>. All Appeal decisions are answered in writing.\"}, {\"title\": \"Regence Group Administrators Appeal Submission Form\", \"url\": \"https://www.printfriendly.com/document/regence-group-administrators-appeal-submission-form\", \"snippet\": \"Mail the form to <strong>RGA, Attn: Appeals Department, PO Box 52730, Bellevue WA 98015. Alternatively, you can fax the appeal to 1-855-462-8875.</strong> Ensure that all required fields are filled out and that you attach any necessary documentation.\"}, {\"title\": \"2021 BOOKLET FOR: WASHINGTON FLORAL SERVICE Regence ExpressionsSM\", \"url\": \"https://www.washingtonfloral.com/images/PDF_Files/Portal/Regence/2021_dental_booklet.pdf\", \"snippet\": \"sending it to Us at: Appeals Coordinator, Regence BlueShield, P.O. Box 1408, Lewiston, ID 83501 or \u00b7 facsimile <strong>1 (888) 496-1542</strong>. Verbal requests can be made by calling Us at 1 (888) 367-2112. Each level of Appeal, including Expedited Appeals, must be pursued within 180 days of Your receipt of\"}, {\"title\": \"How to appeal a health care insurance decision\", \"url\": \"https://www.insurance.wa.gov/sites/default/files/2024-10/appeals-guide.pdf\", \"snippet\": \"<strong>You must file a standard appeal within 180 days of receiving the denial in writing</strong>.\"}], \"result_count\": 4, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01UzuyS6u8RxZRQDxQhZrU6h",
+     "content": "{\"query\": \"Regence member appeal form pdf \\\"Grievance and Appeal\\\" Washington\", \"results\": [{\"title\": \"Grievances and Appeals - Washington State Local Health Insurance - CHPW\", \"url\": \"https://www.chpw.org/member-center/member-rights/grievances-and-appeals/\", \"snippet\": \"We provide the Member Appeal Form Online: Download the CHPW Member Appeal Form.\"}, {\"title\": \"Member Grievance and Appeals Form Member Name Member ID# Member Address\", \"url\": \"https://www.caresource.com/documents/grievanceappeal-form/\", \"snippet\": \"Member Grievance and Appeals Form \u00b7 Best phone number to\"}, {\"title\": \"Member Relations Grievance and Appeal Form\", \"url\": \"https://healthy.kaiserpermanente.org/static/health/en-us/pdfs/nw/nw_grievance_and_appeal_form.pdf\", \"snippet\": \"Grievance and Appeal Form \u00b7 We want to help you resolve your grievance or appeal. The more information and supporting\"}], \"result_count\": 3, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "text": "Good enough \u2014 found a Regence BlueShield appeals address for Washington members. Let me verify this is current and applicable to commercial/ACA members (not just dental booklet).",
+     "type": "text"
+    },
+    {
+     "id": "toolu_012jHBnFuRVj4fEQXV4pzg4s",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"Regence BlueShield\" \"Appeals Coordinator\" \"P.O. Box 1408\" Lewiston member appeal"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01T6irMYo3Z4tV7HfGW7o9MR",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Regence BlueShield member appeal \"1-888-367-2112\" OR \"Grievances and Appeals\" Washington commercial"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_012jHBnFuRVj4fEQXV4pzg4s",
+     "content": "{\"query\": \"\\\"Regence BlueShield\\\" \\\"Appeals Coordinator\\\" \\\"P.O. Box 1408\\\" Lewiston member appeal\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01T6irMYo3Z4tV7HfGW7o9MR",
+     "content": "{\"query\": \"Regence BlueShield member appeal \\\"1-888-367-2112\\\" OR \\\"Grievances and Appeals\\\" Washington commercial\", \"results\": [{\"title\": \"Grievances and appeals\", \"url\": \"https://www.regence.com/medicare/grievances-appeals\", \"snippet\": \"Learn how to file a complaint (a grievance) about us or one of our plan providers, or to how to appeal, or request an independent review of, any action we take or decision we make about your coverage, benefits or services.\"}], \"result_count\": 1, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "Er8FCpABCBIYAipAGcutVNvlVAZFTvUDUFrFU/BA0CeQx1/PD1tiqsZXvhMPDQe1aetehP2WtwRVaZf5xONZbl0GMAnGqoy/FBLZuTIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAYnrwdUGEgwppMI0ek2LPZRCCQEaDEkvRs1sh9we7/FhXCIw0khtbjHaH1/gKq9nqszXVpRi3Q96EJsEFe7Nec5ZHlLLjXXzKQJsn2Ja/Nvljto+KtsDLtRULDt49Eq/EBDb+aLaCTar9XzKVi1INqY557PwZ5qh+vb+AXPzfdrJvXJiwfu7FeDvhMe/cbaNmTACaavp1uADkICFv6NCPz0L+pUUMWa6uJSHhf4D9NS/BuTBfeY3uW2KCuOgWt1VIfrQA+RhfFCSApBKreLbM5R/4oRBE0XjKoWxIdXQ3QKCKaSyPShKws4FVqY4zvoOjldx9vOCx+iWwTxTURlah2a09l2NuZwyqsSBmd6nes0XULZl88oQtJ99qb2uCl7XY3fy//9iwPwn3cPF1uko5u4eT1Zl2Agm+v+2DHuXJD7yb+0jNZ1AVxwMdBSira9MhhEbC3hJ7ELBA6bQSLpl5HHT7c3zlRaU1okQBsPf6zrDUC5KCsbs+Zj9SgdDu7eP7XnKgWg43Qqs6/lMnVWINl6OVIcrfLoyqD+uXbJPYaxlYGtFhCauQ78XQSQNDOqn3/xYNKISZjH6QtyJxlziblFGkGbqDrUdYywr+Sc9bTy3hz3305X+vY1RJK2fsx+EdsyAKclIWkcUlLeJjG6dGyvZqyVnqfUHW/INn50YuWqsn4O+FvEXZnP42d17KyiKvmnKq2IGPPT/vgVFVWxlaUIn0vmCFQcmBH4dZFVd8S56bxgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_013h2xX2yJuK8JR7v14is2rK",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Regence BlueShield individual \"Certificate of Coverage\" OR \"Evidence of Coverage\" appeals \"medical necessity\" Washington 2026"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01UbpkydF4UdY3pqtLBtXjYw",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.insurance.wa.gov/sites/default/files/2024-10/appeals-guide.pdf"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_013h2xX2yJuK8JR7v14is2rK",
+     "content": "{\"query\": \"Regence BlueShield individual \\\"Certificate of Coverage\\\" OR \\\"Evidence of Coverage\\\" appeals \\\"medical necessity\\\" Washington 2026\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01UbpkydF4UdY3pqtLBtXjYw",
+     "content": "{\"url\": \"https://www.insurance.wa.gov/sites/default/files/2024-10/appeals-guide.pdf\", \"final_url\": \"https://www.insurance.wa.gov/sites/default/files/2024-10/appeals-guide.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"How to appeal a health care insurance decision | 800-562-6900 | www.insurance.wa.gov How to appeal a health care insurance decision A guide for consumers in Washington state Produced wi th funds provided by the Affordable Care Act and administered by the U.S. Department of Health & Human Services How to appeal a health care insurance decision | 800-562-6900 | www.insurance.wa.gov Table of contents Introduction ....................................................................................................................... 1 Where to start .................................................................................................................... 2 SECT ION A: Information about appeals STEP 1: Identify your plan and status 1.1 Identify your type of insurance coverage ............................................................. 3 1.2 Identify if your issue is \\\"pre-service\\\" or \\\"post-service\\\" ..................................... 4 1.3 Is your issue urgent? ............................................................................................... 4 1.4 Accidental billing error or intentional denial? ..................................................... 5 1.5 What does your plan cover? ................................................................................... 7 STEP 2: Learn who regulates your health plan and what to do once you've decided to appeal 2.1 Different plans have different regulators ............................................................. 8 2.2 Chart: Which law does your plan follow? ............................................................ 9 2.3 Where to find appeals information for plans not subject to state and federal requirements? ............................................................................................................... 10 2.4 What do do before you file your appeal ............................................................ 12 2.5 Gather all necessary documents .......................................................................... 13 STEP 3: The appeals process for grandfathered & non-grandfathered (\\\"other\\\") plans 3.1 Information about filing your appeal ................................................................. 14 3.2 Overview of the appeal process for grandfathered plans ................................ 15 3.3 Overview of the appeal process for non-grandfathered (\\\"other\\\") plans ....... 16 How to appeal a health care insurance decision | 800-562-6900 | www.insurance.wa.gov STEP 4: Increase your chances of winning your appeal 4.1 Tips for drafting your appeal ............................................................................... 18 4.2 Things to avoid when drafting your appeal ....................................................... 20 4.3 Summary of recommended best practices and tips - for all types of health coverage ........................................................................................................................ 22 4.4 Tips for writing a good appeal letter .................................................................. 26 Sample templates and letters............................................................................27-35 SEC TION B: Additional resources ................................................................................. 36 Appeals tracks 1-6 ...................................................................................................... 37-41 \\\"Keeping track of your communications\\\" log ............................................................. 42 Your \\\"Important information\\\" worksheet ................................................................... 43 FAQ about Washington state laws ................................................................................ 45 Glossary of terms............................................................................................................. 46 List of additional agencies, websites and places for you to use as a resource ........ 55 Information provided in this guide is intended as general summary information for the public. It's not intended to take the place of any applicable law or regulations. How to appeal a health care insurance decision | 800-562-6900 | www.insurance.wa.gov MIKE KREIDLER STATE INSURANCE COMMISSIONER STATE OF WASHINGTON OFFICE OF INSURANCE COMMISSIONER OLYMPIA OFFICE INSURANCE BUILDING P.O. BOX 40258 OLYMPIA, WA 98504-0258 Phone: (36 0) 725-7000 Dear Washing ton state resident: Federal health care reform impacts nearly everyone in our state. The Patient Protection and Affordable Care Act changes how health care is purchased and provided. One of my responsibilities as insurance commissioner is to advocate for Washington consumers and help you get the information you need to make insurance decisions. This guide is designed to help you understand your appeal rights under current law, determine what rights you have under the Affordable Care Act, and learn where to go for more information. If you ha ve any questions about the guide or an insurance issue, please call our Insurance Consumer Hotline toll-free at 1-800-562-6900 or e-mail me at AskMike@oic.wa.gov. We\u2019re here to help you. Sincerely, Mike Kreid ler Washington State Insurance Commissioner How to appeal a health care insurance decision | 800-562-6900 | www.insurance.wa.gov 1 Introduction This guide provides you with information about how to appeal a health care decision your health plan made. Specifically, it provides: \u2022 Information about what can be expected throughout the process. \u2022 Tips on how you can increase your chance of winning your appeal. \u2022 Information about how the appeals process will evolve with health care reform. \u2022 Additional resources for information not found in this guide. The Patient Protection and Affordable Care Act & Grandfathered plans With the passing of the Patient Protection and Affordable Care Act (PPACA, or ACA) often called \u201chealth care reform,\u201d on March 23, 2010, the new appeal rights were granted to consumers in certain kinds of plans. The pl ans that are expected to comply with the new law are either: \u2022 Plans that came into existence after the law was signed; OR \u2022 Plans that were in existence before the law was signed that have made certain changes resulting in reduced benefits, higher costs to consumers, or both.* Plans not expected to comply with the new law are those that existed before March 23, 2010, and have not made significant changes to the benefits or costs paid by the consumer. These plans are known as grandfathered plans. Because of this distinction, it\u2019s important for someone appealing a health care decision to know whether his or her plan is a grandfathered plan, or if it\u2019s considered an \u201cother\u201d kind of plan. (Discussed in greater detail in Step 3.1, on page 17.) By law, carriers must notify plan participants in writing if they are maintaining grandfathered status. Most likely, it will be in the benefits booklet sent out at the start of every plan year. *\u201cKeeping the Health Plan You Have: The Affordable Care Act and \u201cGrandfathered\u201d Health Plans:\u201d www.cms.gov/CCIIO/Resources/Fact-Sheets-and-FAQs/keeping-the-health-plan-you have-grandfathered.html. This guide will help you learn what options you have when you receive a denial from your health plan and will recommend best practices for your appeal. To file an actual appeal, you or your authorized representative will need to follow the process established by your health plan. How to appeal a health care insurance decision | 800-562-6900 | www.insurance.wa.gov 2 Where to start Appeals are generally made up of the same three phases: Phase 1 \u2015> Denial of request for service, payment, or coverage Phase 2 \u2015> Internal appeal to your health plan or carrier Phase 3 \u2015> External appeal to an independent review organization (if applicable) Depending on which phase you\u2019re in, you might want to read the whole guide, or you might want to read specific sections. The table of contents will help you navigate around the guide if you choose to read specific sections. If, at any poin t, you need help understanding the contents of this guide or you have a question that isn\u2019t answered here, please call our Insurance Consumer Hotline at 1-800- 562-6900. Our Consumer Protection Division is currently designated by the U.S. Department of Health and Human Services as the official ombudsman in the State of Washington for consumers who have questions or complaints about health care appeals. Recommended best practice When in doubt, ask your health plan to re-evaluate the denial Your health plan CANNOT drop your coverage or raise your rates because you ask them to reconsider a denial. You\u2019re allowed to ask for an appeal \u2013 it\u2019s your right. How to appeal a health care insurance decision | 800-562-6900 | www.insurance.wa.gov 3 SECTION A: Information about appeals STEP 1: Identify your plan and status 1.1 Identify your type of insurance coverage Find your source of coverage \uf0e0 Type of Plan Are you or your family signed up for a plan that your employer offers to the employees at your workplace, or that you buy through an association? If yes, then you have a group plan Do you have insurance through a public program? For example: Medicare, Apple Health or another kind of state or federally-sponsored program? If yes, then you have a government-sponsored plan Do you have a policy that you or a family member bought directly from an insurance company? If yes, then you have an individual plan If you have any of the policies listed below, you\u2019ll need to contact the provider of the policy to learn what appeal process might be available to you since these policies are not recognized as health plans by Washington state law.* \u2022 Long-term care insurance \u2022 Medicare supplemental coverage \u2022 Limited health care services \u2022 Disability income insurance \u2022 Coverage provided from an auto or homeowner's persona l injury claim \u2022 Worker's compensation coverage \u2022 Accident only \u2022 Fixed payment indemnity or \u201cmini-med\u201d insurance \u2022 Critical illness coverage (a policy for serious illness, like cancer) \u2022 Dental or vision only coverage \u2022 Short-term limited purpose insurance (for example, student coverage) * RCW 48.43.005(26)(a-l) How to appeal a health care insurance decision | 800-562-6900 | www.insurance.wa.gov 4 1.2 Identify your type of insurance coverage Chances are you received a denial from your health plan based on one of the following: \u2022 It refused to pay your medical provider for all or some of the care you\u2019ve already received, which is k nown as a \u201cpost-service\u201d determination, or \u2022 It denied approval for treatment you\u2019re currently receiving \u2013 or for future treatment your medical provider recommends \u2013 which is known as a \u201cpre-service\u201d determination. o If you have a pre-service issue, and it\u2019s an urgent medical situation, you may qualify for a shorter turnaround time on your appeal. For more information, see Step 1.3 below. If you have another type of issue (such as an eligibility issue), contact us at 1-800-562-6900 and ask if your issue qualifies for an appeal. 1.3 Is your issue urgent? If your situation\u2019s urgent, your health plan will decide your appeal faster than if it\u2019s a non- urgent issue. This is called an expedited appeal. Yo u can file an expedited appeal if you: \u2022 Are currently receiving or you were prescribed to receive treatment; and \u2022 Have an \u201curgent\u201d situation. Urgent means a medical provider believes a delay in treatment could seriously jeopardize your life or overall health, affect your ability to regain maximum function, or subject you to severe and intolerable pain. -OR- \u2022 Have an issue related to admission, availability of care, continued stay, or health care services received on an em ergency basis and have not been discharged. Yo u cannot file an expedited appeal if: \u2022 You already received the treatment and are disputing the denied claim, or \u2022 Your situation is not urgent. Who decides if your situation is urgent? A medical provider with knowle\", \"text_truncated\": true}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "Ev8FCpABCBIYAipAYw4V8/3uVIevRUgEcQaLLxgVOaXXGWfjhOabQ9+YIneQ61qz6AI5Nbb0JumRtZW/qIMBjS6Qht5egGFcfGlQLjIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAZHrwdUGEgyeW2ljhR26q/RUSaAaDPyaisYJzZR+AIMNPCIw3k53po0sjtcPgIMhoXEJC9SeZIFuGWi4Id8ih3H+kjd1IWKfcH3H1w51l6I/xFGsKpsE8A787k6O/G1Ce9i7P3x1DCrLYPjHZrUW+0FeqGjr9IlhoUXJzPWO0xTHWLT/v1tLc44fsTH1u3aT+eMQXRyDBEiD5ZA5JPGwEWD8RfvX+8dhZEgcQdICkpqn1XFIW4YPJ2LuRPTVo3Y5+kGEdZTChAqCisQM+cyTevDnfmOkXKZFm5AKO7FNNZPoGeCBQO3fFXZsX8Gfotgbx93pICY04uHnUsSX0tmue4bG/XE0a8s5EookxDbOJuKN+OQxowe2SbQ1i07fPtXBumBthRBer1SM+tPzmGi/gUn8I7i+7/QijMleSS94hSIKJtvSfHy6/96dJzOp7dyfBfT5x8vZgE+ZEI6X9OB+iOVXHKXV+R7zc6ormukmExBqYyWPI61KxniolGFo+81MvblXb1VvU/Drtp6hgSrJajec/sr9HFK2YBDOaigqDmk2hlqQWTHGiQGKHogqlktOcPmTFuhJQeValeyStal8d/FfXXL8H/Af8NdFXBYDMydLvaNpyywN2yi+p3ezxw753q4t7ZwxOKqX68QTACsIeu/hfzpAI+/fpi7Z6z+yzgrNkwiLCKIy3kjDQT612inV+mFd+7rP3DsunetSGwpahhIjGK3RK9AL8g2v3Nf1F1YL7KqOdHe4BZa5I76tvMPDIjRJ6PUAwmWPWh8enCdXXnRcB0Hrzzuz6cIp1NVF0KXlENI4UceCTgopdo5QBAkcH9AYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_012koBRecWZfoN4fS2Jn7zf8",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"regence\" \"member appeal form\" filetype:pdf medical"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01B4bDpcqTWF3UUxiqMtLKL8",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Regence BlueShield Washington \"P.O. Box\" appeals medical claims member 98111 OR 98104 OR 91059"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_012koBRecWZfoN4fS2Jn7zf8",
+     "content": "{\"query\": \"\\\"regence\\\" \\\"member appeal form\\\" filetype:pdf medical\", \"results\": [{\"title\": \"UMP MEMBER APPEAL FORM Please return completed form to:\", \"url\": \"https://www.hca.wa.gov/assets/pebb/Reg-appeals-grievance-form.pdf\", \"snippet\": \"If you are initiating an appeal ... require appeal authorization from that person in order ... Please explain the problem. Include background, time frames, and the names of anyone else you have spoken with to try and resolve the \u00b7 problem, any supporting documentation, and your expectations or suggestions for resolution. We need your permission to authorize Regence BlueShield to request any medical records needed ...\"}], \"result_count\": 1, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01B4bDpcqTWF3UUxiqMtLKL8",
+     "content": "{\"query\": \"Regence BlueShield Washington \\\"P.O. Box\\\" appeals medical claims member 98111 OR 98104 OR 91059\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EtAOCpABCBIYAipAR1bbRj4M5+zrAOvZxyGR6/Lh3aZieI2shlmPvDlXCAf1dBcYzOkgrFJTL0yqxjO4u5V2KG7CzX6NdtdF3CB8QDIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAZvrwdUGEgwyODlOmV4nNvi8hIgaDDvWM0LTFUfkaO7CcyIwgZOrmdFKK4uwkAZSxrZD51v/kgUPjW5kjziSYbh2JFJcOc15QDeG0MlljA2URH8BKuwMiOv3eCaYWbhUmaSLipr1rq0933UBcb8f9sgdBmtmOVH1EjAI2JPQMlBAmHxvH1vZRlE6KvqAlzcn9CjoukWlj2AaDlF4daMvb98ITRxptb0d9564NTkWYQ30Jia0uOxf2c09VwgdpDlyQ7F7QPVTvK7ODmO3RjShqtZBVYRZoI4bYLd3GKG3DQkgSDmHY2MLb6V4sTixx1P2l8pZ6+0pZ6L4F+nSMadDRQxRpvw05XYPdSEAQhEbDL8G1s1+AoGPCulVoAvrX83MoR30ZdXq39KktupGrk3x3KOFmDracuo6f/819IEqJCqa9sHys7VjZHdhGyDIZBNXMpjjeozhZE+O7qdy4meXkhMlg7/NKUaKZgJxORYD82Z6XnqDDVg6sYplL6qTYuv0FGvrf0WFmY7sFiYXHKq8f17rznqVNjga4uTYCgJH53KWS1kDZLyBkcuGYSpNUnn2MtcHsMkrtgoS/R9mYtDvf53XMNbnELTwnPYzKwUJOMXnY81hC61wyTJxA+j/x866jQ46eZiI4O7avLT5YGe6qxScAiREKB4Hz139gJwxSiyeVCYTmHNg44afNGGHWWoxMOTBH8WVUeKIVtj7LQlkdT+/8FxOLbB939KA2cYm8FxlCTxH88pViC6P64bHG7e0ubHtRZvguBmg2kySVtUrGMbG4KQF2Xga3JH2MsCGdy1VYJv7fL0N+yoYiTh6A5P98FcNVZPGIA5xQnPK17V1zkywEK5HMziO3FfnBCcoO23lalkAhc4JNajHfWhHvwNoX131d7wdMM2iJ8OPRigW31HXbWHIlGpbxyRxVpqmDHMbetOvLD40CPJRt7qMbW+J3yvZmaz16uVhy08wQsB68mNXxispOveOseG8HO7Ly0KJMl2ErqgInoms7uZySR7ItYBs0cyPOZsSdTfWDjZrRRC5FGPN+4tgb0mvRtPcAYZNjaWD9nA6Z78rwcEUVVxC6sWNaxrjjwwHNXTaiN/2cATdW0cLbOwFxac6XLCtRKOAprQDlcy5wuNSW4TH2bT6y/SFNfV+XhWz9XuR9CUE87mBmkQTYW6KhC1HmUnwA6UVQe02dqCz34bP2H8zIU7eCgruDa6E29i/o2GPcmUen7k6ysEroxU15fI1VnTtarbDFw6cx59CLUIBdoTqzV9yCLlYOJCxqdG9aJWjp89woGxDjJItIDcZ8xEvanHOeMuBe9TguO188e+GuA2DmAYd4/Vj6uLuU8lsP3J8oQ71zaZ4LOtj2BW7HyK/b2ee4UkOykkRDDv8fFCxqz2uLAr1NGYsdh6DdmVCXKPLzIOhZa4JWZbeq5pXwxqL8vtx4jgpdLSuYOVdZ16EXb1wZQnqxipPloe8Wtx9zTOYBzr8zlolnYJxB0rh0NCV3W5iSCEpUCFb6nysdRyQHNeYAa8PKkBCr5ltS6qyaorRKZpCqV9rO6UIVtYSuMDQydYL7mX1F80yka3UrXlQpvWUlohZkJ/1RtzMZldgCaaFAyt1Yra9ETSyMqAO6tk4gfuAcCB1wJO8aQA7ZafhgXaxot4mxxdIffhVgHf4H9dMBcSGT1dxPghxyG1XAFoTP0DP408ScudL1x3Ol1kzSBaLdTkbSeugkqpWywwX8pnveB8MqFVzM8PmE9W9G8N+3g4r4+0Of/PP3+lZRj7y+J74HvwVzTbJdbQRd1pvyCLRFIApj6mDoqewjNMqt/IluWAy/T6M5cmw1suH29tgbHCG2+ncoASNdy8WLg6QGrkkCWlKFFVGXSpWz9UTB9QMwaEN3A+DvTRfeC1VIYifvHJKt4ldn/k20FWQic6SbmKl4N5oUfe7Aw/4hjKt/4MgyPWadUCG2p+Q+FnrE6YjWwvwEVHeGmeVyINqaCWx0TxYddUbpHd8FCNrN6tuzLPNSUE19kE0C25YN60mtwLkJLrAWWk+eklYf1m0Gb0NmfCvc/K8A/KF7cyjkIV45OhAbrkAFg5pXn9IIfDtkMfHsTWeD8mj5a+C4InfRw7Eg7xG0Ivojx+NfWavzi3I8yw4hKqGp9UHgUWoKMgblxHMb061wj0hOqI6mMrUI0saf0SblBFN7uzy0ZllCiECX4WGdPJZo7nObYrr9oPRpYbQzOaVjfCpAEWXnJ7JNxvIbQkXkY+f3laLw82hA0oI5kEXmyYH/TknCb8fsLPGAMplWv4Cjf4TrLIGGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01P5yuXaPxxbb13YajoyjyRb",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"regence\" medical policy \"SUR228\" shoulder"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01D4ZjAf9HedGevDRy2fXw5j",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Regence medical policy manual list surgery policy number \"Shoulder Surgeries\" site:regence.com"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01P5yuXaPxxbb13YajoyjyRb",
+     "content": "{\"query\": \"\\\"regence\\\" medical policy \\\"SUR228\\\" shoulder\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01D4ZjAf9HedGevDRy2fXw5j",
+     "content": "{\"query\": \"Regence medical policy manual list surgery policy number \\\"Shoulder Surgeries\\\" site:regence.com\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "id": "toolu_01Ptyvpxi7LBaWJJs5z1CKUg",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://policyalerts.com/regence-bcbs-medical-policy-updates-january-2023/"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01Xbgmh4YEbe33T2kJ6X4xai",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"regence.com\" \"medpolicy\" shoulder surgeries pdf"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01Ptyvpxi7LBaWJJs5z1CKUg",
+     "content": "{\"url\": \"https://policyalerts.com/regence-bcbs-medical-policy-updates-january-2023/\", \"final_url\": \"https://policyalerts.com/regence-bcbs-medical-policy-updates-january-2023/\", \"http_status\": 200, \"content_type\": \"text/html; charset=UTF-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Regence BCBS Medical Policy Updates - January 2023 Skip to content LinkedIn Client Login Overview Features Policy Updates FAQ Search Search Submit Regence BCBS Medical Policy Updates \u2013 January 2023 January 9, 2023 Policy Alerts BCBS , Medical Policy Updates Post Views: 1,840 Click here to view the Regence BCBS Blue Cross Blue Shield Medical Policy Updates \u00bb January 2023 Regence BCBS Medical Policy Updates: Absorbable Nasal Implant for Treatment of Nasal Valve Collapse Adipose-derived Stem Cell Enrichment in Autologous Fat Grafting to the Breast Administrative Guidelines to Determine Dental vs Medical Services Artificial Intervertebral Disc Auricular Electrostimulation Autologous Blood-Derived Growth Factors as a Treatment for Wound Healing and Other Miscellaneous Conditions Bariatric Surgery Biochemical Markers of Alzheimer\u2019s Disease Bioengineered Skin and Soft Tissue Substitutes and Amniotic Products Biofeedback Biofeedback Cell Therapy for Peripheral Arterial Disease Coverage of Treatments Provided in a Clinical Trial Cytochrome p450 Genotyping Definitive Lower Limb Prostheses Detection of Circulating Tumor Cells in the Management of Patients with Cancer Digital Therapeutic Products Digital Therapeutic Products for Attention Deficit Hyperactivity Disorder Digital Therapeutic Products for Substance Use Disorders Electromagnetic Therapy Evaluating the Utility of Genetic Panels Expanded Molecular Testing of Cancers to Select Targeted Therapies Extracorporeal Shock Wave Treatment for Plantar Fasciitis and Other Musculoskeletal Conditions Extracranial Carotid Angioplasty/Stenting Genetic and Molecular Diagnostic Testing Genetic Testing for Epilepsy Genetic Testing for Inherited Susceptibility to Colon Cancer Genetic Testing for Mental Health Conditions Genetic Testing for Myeloid Neoplasms and Leukemia Hematopoietic Cell Transplantation for Acute Lymphoblastic Leukemia Implantable Bone Conduction and Bone-Anchored Hearing Aids In Vivo Analysis of Colorectal Polyps Investigational Gene Expression and Multianalyte Testing Molecular Testing in the Management of Pulmonary Nodules Neurofeedback Neurofeedback New and Emerging Medical Technologies and Technologies Orthopedic Applications of Stem Cell Therapy Oxygen Concentrators Pancreas Transplant Percutaneous Vertebroplasty, Kyphoplasty, Sacroplasty, and Coccygeoplasty Postsurgical Home Use of Limb Compression Devices Protein Biomarkers for Screening, Detection, and/or Management of Prostate Cancer Retinal Prosthesis Sacroiliac Joint Fusion Shoulder Surgeries Skin Lesion Imaging and Spectroscopy Spinal Cord Stimulation Surgeries for Snoring and Obstructive Sleep Apnea Syndrome Thermography Treatment of Adult Sepsis Urinary Tumor Markers for Bladder Cancer Vagus Nerve Blocking Therapy for Obesity Ventral Hernia Repair Click here to view the Regence BCBS Blue Cross Blue Shield Medical Policy Updates \u00bb Policy Alerts monitors Commercial and Medicare medical policies for changes. While medical Insurance carriers typically update medical policies annually, there are many reasons why they might review or update a policy. When reviews occur out of cycle they often go unnoticed. Policy Alerts keeps you updated when Payers make coverage changes to medical policies affecting your business. Policy Alerts continuously monitors Commercial and Medicare Payer coverage information to keep you up-to-date on medical Insurance decisions in real-time. When changes occur, instant email alerts are delivered to your inbox. Clients have access to detailed coverage reports and medical policies through the interactive Policy Alerts Dashboard portal. Save time each month and keep focused on important Payer medical policy reviews and coverage decisions affecting your business! Policy Alerts takes a client-focused hands-on approach and is constantly working to provide our customers with helpful insights and actionable analytics. We understand what our clients need and are dedicated to providing timely, accurate, and always up-to-date reports. Health economic and reimbursement information provided by Policy Alerts is gathered from third-party sources and is subject to change without notice as a result of complex and frequently changing laws, regulations, rules and policies. All product and company names are trademarks\u2122 or registered\u00ae trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them. This information is presented for illustrative purposes only and does not constitute reimbursement or legal advice. BCBS Regence Related Posts United Healthcare (UHC) Medical Policy Updates \u2013 March 2025 Click here to view the United Healthcare (UHC) Medical Policy Updates \u00bb March 2025 United\u2026 Blue Shield California Medical Policy Updates \u2013 February 2025 Click here to view the Blue Shield California Medical Policy Updates \u00bb February 2025 Blue\u2026 BCBS Louisiana Medical Policy Updates \u2013 February 2025 Click here to view the Blue Cross Blue Shield BCBS Louisiana Medical Policy Updates \u00bb\u2026 Recent Updates United Healthcare (UHC) Medical Policy Updates \u2013 March 2025 Blue Shield California Medical Policy Updates \u2013 February 2025 BCBS Louisiana Medical Policy Updates \u2013 February 2025 Humana Medical Policy Updates \u2013 February 2025 Cigna Medical Policy Updates \u2013 February 2025 Update Categories BCBS Medical Policy Updates Insurance Carriers Select Aetna AvMed Baylor Scott & White Health Plan BCBS BCBS Alabama BCBS Anthem BCBS Arizona BCBS Arkansas BCBS CareFirst BCBS Colorado BCBS Connecticut BCBS Empire New York BCBS Excellus BCBS Federal Employee Program (FEP) BCBS Florida BCBS Georgia BCBS Hawaii (HMSA) BCBS Highmark BCBS Highmark NENY BCBS Highmark WNY BCBS Horizon BCBS Illinois BCBS Indiana BCBS Kansas BCBS Kansas City BCBS Kentucky BCBS Louisiana BCBS Maine BCBS Massachusetts BCBS Michigan BCBS Minnesota BCBS Mississippi BCBS Missouri BCBS Montana BCBS Nebraska BCBS Nevada BCBS New Hampsire BCBS New Mexico BCBS North Carolina BCBS North Dakota BCBS Ohio BCBS Oklahoma BCBS Regence BCBS Rhode Island BCBS South Carolina BCBS Tennessee BCBS Texas BCBS Vermont BCBS Virginia BCBS Wellmark BCBS Western New York (BCBSWNY) BCBS Wisconsin Blue Cross Idaho Blue Cross Independence (IBX) Blue Cross Premera Blue Shield California (BSCA) Blue Shield Northeastern New York (NENY) Capital Blue Cross (CBC) Centene Corporation Centers for Medicare & Medicaid Services (CMS) Cigna Dean Health Plan Emblem Health Emblem Health (GHI/HIP) Fallon Health (FCHP) Geisinger Health Plan Group Health Cooperative (GHC) Harvard Pilgrim Health Care Health Alliance Plan of Michigan (HAP) Health Care Service Corporation (HCSC) Health New England (HNE) HealthNet HealthNow New York (HNNY) HealthPartners Humana Kaiser Foundation Health Plan Washington Kaiser Permanente Mass General Brigham Medica Medical Mutual of Ohio (MMOH) Moda Health Plan Molina Healthcare PacificSource Health Plans Paramount Healthcare PreferredOne Presbyterian Healthcare Services Prevea360 Health Plan Priority Health Providence Health Plan Scott & White Health Plan (SWHP) Tufts Health Plan UHA Health Insurance United Healthcare (UHC) UPMC WPS Health Insurance previous post: BCBS Kansas City Medical Policy Updates \u2013 January 2023 next post: Health Care Service Corporation (HCSC) Medical Policy Updates \u2013 January 2023 Stop spending time searching for medical policy changes and let us do it for you! Request Info \u203a Features Updates FAQ Search Overview Features Updates FAQ Health economic and reimbursement information provided by Policy Alerts is gathered from third-party sources and is subject to change without notice as a result of complex and frequently changing laws, regulations, rules and policies. This information is presented for illustrative purposes only and does not constitute reimbursement or legal advice. Enter your email address Subscribe By clicking \u201cSubscribe\u201d you agree to our Terms of Service and Privacy Policy . LinkedIn Copyright \u00a9 Policy Alerts 2026 \u2013 All Rights Reserved | Terms Of Service | Privacy Policy Back To Top Search Submit Cookie Preferences To provide the best experiences, we use technologies like cookies to store and/or access device information. Consenting to these technologies will allow us to process data such as browsing behavior or unique IDs on this site. Not consenting or withdrawing consent, may adversely affect certain features and functions. Functional Functional Always active The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network Preferences Preferences The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user. Statistics Statistics The technical storage or access that is used exclusively for statistical purposes. The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you. Marketing Marketing The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes. Manage options Manage services Manage {vendor_count} vendors Read more about these purposes Accept Deny View preferences Save preferences View preferences {title} {title} {title} Cookie\", \"text_truncated\": false}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01Xbgmh4YEbe33T2kJ6X4xai",
+     "content": "{\"query\": \"\\\"regence.com\\\" \\\"medpolicy\\\" shoulder surgeries pdf\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "text": "This confirms \"Shoulder Surgeries\" is indeed a Regence BCBS medical policy (as tracked by the third-party monitoring service that lists it under \"BCBS Regence\"). Combined with the SUR228 document itself (a generic Blue medical policy manual template used by Regence), this is good confirmation. Let me try to find the policy number as Regence labels it (they may call it differently, e.g., \"Surgery 228\" as shown).",
+     "type": "text"
+    },
+    {
+     "id": "toolu_01VkQVFAy4EeW26HbXyVxa32",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.regence.com/provider/library/medical-policies"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_011BWfxuJfDABjruCYQn6yMF",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "regence provider medical policy library search shoulder"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01VkQVFAy4EeW26HbXyVxa32",
+     "content": "{\"url\": \"https://www.regence.com/provider/library/medical-policies\", \"final_url\": \"https://www.regence.com/provider/library/medical-policies\", \"http_status\": 404, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"imperva_incapsula_resource\", \"error\": \"fetch blocked or unreadable: imperva_incapsula_resource\", \"text\": \"Not Found Find a doctor Find a dentist Contact us Sign in Individuals & Families Medicare For Employers For Producers For Providers Don't have a member account yet? Create one Sign in Individuals & Families Medicare For Employers For Producers For Providers Don't have a member account yet? Create one \u00d7 Find a doctor Find a dentist Contact us Go to Regence home page x Attention! You are about to leave regence.com and enter another website that is not affiliated with or licensed by the Blue Cross Blue Shield Association. Cancel Proceed x Attention! You are about to leave our Medicare website. Proceed Cancel \u00a9 2026 Regence health plans are Independent Licensees of the Blue Cross and Blue Shield Association serving members in Idaho, Oregon, Utah and select counties of Washington.\", \"text_truncated\": false}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_011BWfxuJfDABjruCYQn6yMF",
+     "content": "{\"query\": \"regence provider medical policy library search shoulder\", \"results\": [{\"title\": \"Medical policy table of contents\", \"url\": \"https://www.regence.com/provider/library/policies-guidelines/medical-policy\", \"snippet\": \"All available medical policies are listed below as the default display. Use the drop-down categories menu to browse policies by section, filter policies alphabetically by name or policy ID, or search policies.\"}, {\"title\": \"Medical, medication & reimbursement policies and guidelines\", \"url\": \"https://www.regence.com/provider/library/policies-guidelines\", \"snippet\": \"Our policies are used as guidelines for coverage determinations by all of our health care plans, unless otherwise indicated. View our medical, dental, medication and reimbursement policies and clinical guidelines.\"}, {\"title\": \"Library\", \"url\": \"https://www.regence.com/provider/library\", \"snippet\": \"View and print helpful materials for your office and stay up-to-date with news and announcements.\"}, {\"title\": \"Medical policy introduction\", \"url\": \"https://www.regence.com/provider/library/policy-guidelines/medical-policy/introduction\", \"snippet\": \"An overview to the development and review of medical policies. The purpose of a medical policy is to provide guidelines for determining coverage criteria for specific medical and behavioral health technologies, including procedures, equipment, and service\"}, {\"title\": \"Bulletins\", \"url\": \"https://www.regence.com/provider/library/bulletins\", \"snippet\": \"The Bulletin contains recent and upcoming changes to our medical policies and reimbursement policies. Published monthly, it is a supplement to our bi-monthly newsletter, The Connection. Subscribe to receive The Bulletin via email.\"}], \"result_count\": 5, \"error\": null}",
+     "cache_control": {
+      "type": "ephemeral"
+     }
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "id": "toolu_017SKwxRB8fbJk1UK3HReNZo",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.regence.com/provider/library/policies-guidelines/medical-policy"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_017SKwxRB8fbJk1UK3HReNZo",
+     "content": "{\"url\": \"https://www.regence.com/provider/library/policies-guidelines/medical-policy\", \"final_url\": \"https://www.regence.com/provider/library/policies-guidelines/medical-policy\", \"http_status\": 200, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Medical policy table of contents Find a doctor Find a dentist Contact us Sign in Individuals & Families Medicare For Employers For Producers For Providers Don't have a member account yet? Create one Sign in Individuals & Families Medicare For Employers For Producers For Providers Don't have a member account yet? Create one \u00d7 Find a doctor Find a dentist Contact us Go to Regence home page x Attention! You are about to leave regence.com and enter another website that is not affiliated with or licensed by the Blue Cross Blue Shield Association. Cancel Proceed Loading... x Attention! You are about to leave our Medicare website. Proceed Cancel \u00a9 2026 Regence health plans are Independent Licensees of the Blue Cross and Blue Shield Association serving members in Idaho, Oregon, Utah and select counties of Washington.\", \"text_truncated\": false}",
+     "cache_control": {
+      "type": "ephemeral"
+     }
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EpoLCpABCBIYAipAxbOK2qCVeWv1v3Z6P2ZlBbD4tZTxsA9X8E32hWy46ViTZaCUexT6DXSrMowfKh7hq/nrCUQAHBuGhydlWtvguTIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAbjrwdUGEgwHZSSHlzG/pSw5ZUwaDMll4+e1eAI6fl6GbSIwJzR7h5kZkaKCojW6tst+NEgPs8gIsLt3bhd68sehtxi2algWIDSdehwhg/shoobXKrYJkTJ29sOvV3H0fSBSx2JWCvle8JGRa/Ywlh+50tEdg+AZXlnj7a5K//+3wRZ3g3hFN+H4vTXUxo/5flocB4bp1EwdLG7cPqzBAvfj55N5duVB24c396cmMfiOSSySk73h4VIiKVn/Lk1F9F4QjgBoVFaYFDyA60Z4P+Lja7/D2jztO7LZyMviY217rvyyubOssSXT7vCvXjTA0yTgoWFENTw5E2S/dDjjaZyE7hsvm3/ZKlzClrDFjvjdvcfpGA21RyXeFpSSZzv1+3iG9EGVBtIstvb+k4C+ckQWLZ1et9CTddg/zLl0GowHmjDcZNtLlkXbV+B0EvTukWs1t3WNi7NofJdz64lSQPwrIY6PCxvdmoCEgR69O0mrmaVKToBxR3QGZheC35anD/oMmv2vNi+1eyRpbCf1IKSm+C9VtonOKKQxpOhRFswGqgwv2LRXJqgaaC5s6s9006XyoRR8KJ46cFwGqLA+oCDy1aQ9u2ST+CUDzUsl1BQsjTHK3KXdE9VFl3rlCJ9tYVLTOVNAepb1Q8yZk6PQmTVNTjZk8aPeLJxDzi+wv6F6bd7D3S0Z9OPrsRAlPX4jPp36FnYlg+5zsbpV/iQ4Y9v97nVQZk0WDKYwbqNq8D1c1ionD8wj3J59PqkQPogKo2ZzQoP/17FuLjTX/3aNIzriy3vUASbj4bEO7xM1Kz5VfTcnJfpu/M5tVmJzKOeW1AXiLUkTwQMdc0aDG/j7HbXm9DvPAaoT5mrAsBoGbmQVHki3qTj5CuvtnO4hggdKZRDdtJGRUhuUmaskICF3X8if65Irb89orMu0VtA9CSICY+HrL4NiYVZfb3pPWHNDAWEmX4UFYMCfm+ssJtneYSjVwTTR0RUZRjdYj9MyO+ehhpwna6EbBTFlImHZ0fyYHCPHZrXR29QOiQ4FkiFgJotVUmFM4jFq06avXegJ5SScrvEqeVksKfDqAdt3zxqecSovoG1Sk4D7MeVGW34YpVReGGfaGcSW7ldJIfMCTHLgcrM9COsyr/IwiBrQ0QtYnqOU6cOuYqGuHtR3yqYwT33oapArOp9cNhuZ7R5lP5C9Tenowx59VapZax8XzVQ82boswzn0oglw2ifdtT3OExYytHpVwJiI7hWT4Toq8XA51lLsIQLxNAWqsbBQEeHGG1Zdwg1HYKV5Q8ZL5C2wYD41sEvjEhRUczdJkRrvo9wbYCfg1xw3BI/RM4b0lahqzLva/exD5n6i0xN+XG0s2NuB2zWcVXS1R1TOgCf7aGdm7IYIgFh+prYwGao+n4EfFN+z1Dr6Qdscx4lcE0l6a28HtWupjAYu5Nks+nHiyYC2V3ZkBUmeZmAWpLmZG2sQTteODwqzLfoC//k6dlCkjvLpH3jnx6TLMdpjzuL3qDvNn34BUq744A8gq+t2NTrQda8YmMLfumBWyHKA5YashAdJQoULyaEGkD9DXWr7YG86XqzsYBh+9b7WDor5njXFUEUdqJQZ4UQsCXdJKsYRv4HagX0fTPtw3WofrZG6aW3U7KLjw4G+YVpVbC+nqXBHdZUgVQWY12l0jAGESakW+lQXBKptFDNA6qyiUaEWK4eRFEVDn64nlh22sBUMGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "```json\n{\n  \"policy_found\": true,\n  \"policy_title\": \"Medical Policy Manual \u2013 Surgery, Policy No. 228: Shoulder Surgeries (Regence)\",\n  \"policy_number\": \"SUR228 (Regence Medical Policy \u2014 Surgery, Policy No. 228)\",\n  \"policy_url\": \"https://beonbrand.getbynder.com/m/64c4b6d560fd986a/original/Shoulder-Surgeries.pdf\",\n  \"effective_date\": \"Effective December 1, 2025; Last Review October 2025; Next Review December 2026\",\n  \"criteria_quotes\": [\n    \"I. Rotator cuff repair may be considered medically necessary when all of the following Criteria are met (A.-D.):\",\n    \"A. Documentation of function-limiting pain (e.g., loss of shoulder function which interferes with the ability to carry out activities of daily living and/or demands of employment); and\",\n    \"B. Either of the following criteria are met: 1. Failure to respond to at least three months of non-surgical management which includes documentation of physical therapy or prescribed home exercise program and one or more of the following unless contraindicated: a. Trial of anti-inflammatory medication; or b. Cortisone injection; or 2. The individual suffers from a discrete traumatic event that results in an acute full-thickness rotator cuff tear and has associated function limiting pain; and\",\n    \"C. Individual meets all of the following Criteria (1. and 2.) on physical examination when compared to the non-involved side: 1. Either of the following: a. Functionally limited active range of motion; or b. Measurable loss of strength of the rotator cuff musculature; and 2. One or more of the following positive orthopedic tests/signs: a. Drop Arm Test; or b. Painful Arc Test; or c. Jobe or Empty Can Test; or d. External Rotation Lag Sign (Dropping Sign); or e. Internal Rotation Lag Sign; or f. Lift-Off Test; or g. Bear Hug Test; or h. Belly-Press Test (Napoleon); or i. Belly-Off Test; or j. Neer Impingement Test; or k. Hawkins-Kennedy Impingement; or l. Hornblower Test (Patte); and\",\n    \"D. Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates a partial-thickness rotator cuff tear or a full-thickness rotator cuff tear that correlates with the individual's reported symptoms and physical exam findings.\"\n  ],\n  \"appeal_deadline\": \"180 days from the date of the denial notice (2026-08-22), i.e., by 2027-02-18, as stated in the denial letter. This is consistent with the standard internal-appeal window described in Washington's Office of the Insurance Commissioner consumer appeals guide for individual/commercial ACA plans.\",\n  \"submission_route\": \"I could not verify, from a public source specific to this member's exact Regence BlueShield Washington commercial/ACA plan, the current mailing address, fax number, or online portal Regence uses for MEMBER (as opposed to provider) medical-necessity appeals. Regence's general member-appeals landing page (https://www.regence.com/member/members/member-appeals) is JavaScript-rendered and does not expose the address/fax/portal details to an unauthenticated fetch \u2014 it directs members to sign in to their online account to see plan-specific appeal instructions. Two things I did find, but which should NOT be assumed to apply to this member without confirmation: (1) a Regence dental EOC that lists an 'Appeals Coordinator, Regence BlueShield, P.O. Box 1408, Lewiston, ID 83501' / fax 1-888-496-1542 / phone 1-888-367-2112 \u2014 this is from a dental booklet, not a medical/ACA plan, so it may not be the correct address for this claim; (2) a UMP (Uniform Medical Plan/PEBB) appeal form administered by Regence \u2014 that is a state public-employee plan, not an individual/ACA commercial plan. Because using the wrong address could delay or jeopardize the appeal, the patient should get the exact submission address/fax/portal from the 'How to appeal' section of THIS denial notice itself (Regence is required to include it) or from the phone number on the back of the member's ID card, and/or by signing into the member account at regence.com to view the plan-specific appeal instructions.\",\n  \"how_to_obtain_criteria\": \"The medical-necessity criteria quoted above come from a publicly hosted copy of Regence's Medical Policy Manual, Surgery Policy No. 228 'Shoulder Surgeries,' which a third-party policy-tracking service (policyalerts.com) also confirms is tracked as a Regence BCBS commercial medical policy. To be certain this is the exact version Regence applied to this specific denial, the patient (or their provider) should: (1) call the customer service number on the back of the Regence member ID card or in the denial letter and ask for the specific medical policy number and version cited in the review, (2) request a free copy of the criteria and the reviewer's rationale \u2014 insurers are required to provide the specific rules, guidelines, or clinical review criteria relied on when requested, per ACA internal claims and appeals regulations (29 CFR 2590.715-2719 / 45 CFR 147.136) \u2014 and (3) check Regence's public provider policy library at https://www.regence.com/provider/library/policies-guidelines/medical-policy (this page requires a browser session/JS to search by policy name or ID; it was not retrievable via a plain HTTP fetch in this session).\",\n  \"confidence\": \"medium\",\n  \"notes\": \"High confidence that SUR228 'Shoulder Surgeries' is Regence's governing medical policy for CPT 29827 (rotator cuff repair) \u2014 the document's own header explicitly enumerates 'Rotator cuff repair' criteria as Section I, and it is independently listed as a 'Shoulder Surgeries' Regence BCBS policy by a third-party monitor. However: (a) the denial letter states the reason for denial was 'incomplete documentation,' meaning the reviewer could not evaluate criteria A-D above, not that the criteria weren't met \u2014 the appeal should focus on submitting the missing documentation (function-limiting pain, \u22653 months conservative treatment with PT and NSAID/injection trial, positive physical exam findings/orthopedic tests, and MRI/imaging report correlating with symptoms); (b) I was not able to verify the exact member-appeal mailing address/fax/portal specific to this Washington commercial/ACA plan \u2014 do not send the appeal to the dental or PEBB addresses found in this search without confirming they apply, and instead use the address/portal specified in the actual denial notice or member portal; (c) the policy document I retrieved is hosted on a vendor CDN (getbynder.com) rather than regence.com directly, though its content and formatting (SUR228 header) match Regence's known Medical Policy Manual numbering/branding style used elsewhere in the search results.\"\n}\n```",
+     "type": "text"
+    }
+   ]
+  }
+ ],
+ "stop_reason": "end_turn",
+ "usage": {
+  "input_tokens": 26,
+  "output_tokens": 5798,
+  "cache_creation_input_tokens": 24491,
+  "cache_read_input_tokens": 159971
+ },
+ "model": "claude-sonnet-5",
+ "tool_calls": 22,
+ "elapsed_s": 99.1,
+ "run_id": "r-9cdaaeaa7f06",
+ "case_id": "poc-cdc085ab1f"
+}

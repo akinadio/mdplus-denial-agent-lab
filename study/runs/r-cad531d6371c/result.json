@@ -1,0 +1,27 @@
+{
+ "answer": {
+  "policy_found": true,
+  "policy_title": "Molina Clinical Policy MCP-404 Shoulder Arthroscopy",
+  "policy_number": "",
+  "policy_url": "https://www.molinahealthcare.com/-/media/Molina/PublicWebsite/PDF/Providers/il/resource/Shoulder-Arthroscopy-Guidelines_MCP_404.pdf",
+  "effective_date": "Original Effective 6/9/21; Revision 6/9/21",
+  "criteria_quotes": [],
+  "appeal_deadline": "2027-02-05",
+  "submission_route": "Molina is run per state. Sign in at molinahealthcare.com or call the number on your card, and mail your appeal to the address on your denial letter. Online: molinahealthcare.com member portal By phone: The Member Services number on your ID card Deadline: Confirm the window on your denial letter -- but your denial letter is authoritative. Use the appeal address printed on your denial letter.",
+  "how_to_obtain_criteria": "Molina's own utilization-management page says criteria are MCG behind the secure provider portal, AND that you may phone to obtain the criteria used to make a final determination. Ask for 'the MCG guideline title and criteria applied to my determination'.",
+  "confidence": "high",
+  "notes": "payer policy public, criteria vendor-held; status=DOCUMENT PUBLIC, CRITERIA VENDOR-HELD"
+ },
+ "source": "policy_directory_vendor_held",
+ "route": {
+  "kind": "request_phone",
+  "vendor": "MCG",
+  "phone": "(855) 322-4082",
+  "how": "Molina's own utilization-management page says criteria are MCG behind the secure provider portal, AND that you may phone to obtain the criteria used to make a final determination. Ask for 'the MCG guideline title and criteria applied to my determination'.",
+  "warning": "Molina's shoulder arthroscopy policy MCP-404 was RETIRED on 12 June 2024, but old copies still load at several molinahealthcare.com URLs. If anyone cites MCP-404 at you, it is not current policy.",
+  "source": "molinahealthcare.com WA Medicaid Utilization Management"
+ },
+ "model": "claude-opus-5",
+ "run_id": "r-cad531d6371c",
+ "case_id": "poc-aa9ea32e7d"
+}

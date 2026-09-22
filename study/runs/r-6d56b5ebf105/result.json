@@ -1,0 +1,2336 @@
+{
+ "answer": {
+  "policy_found": false,
+  "policy_title": null,
+  "policy_number": null,
+  "policy_url": null,
+  "effective_date": null,
+  "criteria_quotes": [],
+  "appeal_deadline": "2027-02-15",
+  "submission_route": "The patient can submit their appeal through the following methods:\n1. Verbal Appeal (Phone): Call the TMHP Contact Center at 1-800-925-9126 or the Medicaid Fair Hearing line at 1-800-727-5436. Under Texas Medicaid rules, any verbal communication from a member expressing disagreement with a denial must be officially recorded and processed as an appeal.\n2. Written Appeal (Mail): Send a written appeal or a State Fair Hearing request to:\n   Texas Medicaid & Healthcare Partnership\n   Attention: Medical Affairs Support, MC-A13\n   P.O. Box 204270\n   Austin, TX 78720-4270\n3. Provider Reconsideration: The provider may also submit a formal reconsideration request using 'Form 1322, Medicaid Fee-For-Service Prior Authorization Reconsideration Request' electronically through the TMHP Portal.",
+  "how_to_obtain_criteria": "Because traditional Texas Medicaid does not publish its own proprietary, stand-alone clinical coverage policy for lumbar spinal fusions, the patient or their provider must contact the plan to request the specific guidelines used. The patient can request a copy of the applied clinical criteria (which are typically commercial decision-support guidelines such as InterQual\u00ae CP: Procedures: Spinal Fusion and Decompression or MCG\u2122 Care Guidelines) by calling the TMHP Contact Center at 1-800-925-9126 or by contacting the Texas Health and Human Services Commission (HHSC) Office of the Ombudsman at 1-877-787-8999.",
+  "confidence": "high",
+  "notes": "The denial letter specifies a 180-day appeal deadline of February 15, 2027. Traditional Texas Medicaid Fee-for-Service prior authorizations are administered by TMHP and reviewed using proprietary third-party guidelines (InterQual/MCG) rather than a publicly authored state-specific clinical policy document."
+ },
+ "raw_text": "```json\n{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": null,\n  \"effective_date\": null,\n  \"criteria_quotes\": [],\n  \"appeal_deadline\": \"2027-02-15\",\n  \"submission_route\": \"The patient can submit their appeal through the following methods:\\n1. Verbal Appeal (Phone): Call the TMHP Contact Center at 1-800-925-9126 or the Medicaid Fair Hearing line at 1-800-727-5436. Under Texas Medicaid rules, any verbal communication from a member expressing disagreement with a denial must be officially recorded and processed as an appeal.\\n2. Written Appeal (Mail): Send a written appeal or a State Fair Hearing request to:\\n   Texas Medicaid & Healthcare Partnership\\n   Attention: Medical Affairs Support, MC-A13\\n   P.O. Box 204270\\n   Austin, TX 78720-4270\\n3. Provider Reconsideration: The provider may also submit a formal reconsideration request using 'Form 1322, Medicaid Fee-For-Service Prior Authorization Reconsideration Request' electronically through the TMHP Portal.\",\n  \"how_to_obtain_criteria\": \"Because traditional Texas Medicaid does not publish its own proprietary, stand-alone clinical coverage policy for lumbar spinal fusions, the patient or their provider must contact the plan to request the specific guidelines used. The patient can request a copy of the applied clinical criteria (which are typically commercial decision-support guidelines such as InterQual\u00ae CP: Procedures: Spinal Fusion and Decompression or MCG\u2122 Care Guidelines) by calling the TMHP Contact Center at 1-800-925-9126 or by contacting the Texas Health and Human Services Commission (HHSC) Office of the Ombudsman at 1-877-787-8999.\",\n  \"confidence\": \"high\",\n  \"notes\": \"The denial letter specifies a 180-day appeal deadline of February 15, 2027. Traditional Texas Medicaid Fee-for-Service prior authorizations are administered by TMHP and reviewed using proprietary third-party guidelines (InterQual/MCG) rather than a publicly authored state-specific clinical policy document.\"\n}\n```",
+ "usd": 0.3642,
+ "transcript": [
+  {
+   "parts": [
+    {
+     "text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-19\nMember: Jordan Jennings\nMember ID: W374276116\nPlan: Medicaid (Medicaid), state of Texas\n\nDear Jordan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Lower back (lumbar) fusion\n    Procedure code (CPT): 22612\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-15).\n\nReference number: POC-7B726A30C1-53854\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_106592",
+      "args": {
+       "query": "Texas Medicaid lumbar fusion CPT 22612 criteria TMPPM"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Eu0FCuoFAWkUfRNeXIofl28c_zJD4TfTJQcNF5Xa7hzA9QgZvDUuF9Ky6awcG-K747GxQ4xHRkZXNzCRF5lN8ziTP-sJnOIPYgvKUWv-FWLaWiJSOFneIEcdD7CCozkkHjI9sXa0SSa1gbRcWKmcQ1bX8dPBWgeNsbllrDM5Orxe-_GOd1dc4dNNKkN1ok8PORcUvG2r6CjfghZcQD9vxXJ3ivG123BQPabdWLfCs9x7KPcmMxzpMZLKjy33dpOcdhQM0alejtt7pXEM9Hrs_6ilZfHoygJ4A2GcDV3iKQd4urpwYLXOuJY4Ks7Rew9mr0BptoZLxGojr2EMhr-iDY2SL41JqQAsroLCGsRQeg3Wfyu8wBrWBTTiCiiiQCeYr7_s9MD37XeSbw_KKACTjpabdc7XM9_HQnXcx5dz6S_iGWMcSVYtrr7YRyrxC2j7DUsEjlBSak4t9SpxHkstvldo-1Zy_P5hVK2kGlw-NiaEC09-i-s6k8GQKe3EVrHBVTM3dNA2dpmyl8XRW9p6sEql9M7JB70zHSNj-8RY0zXbqkthrvxhx85xz93GzgwFoQ7Cs_JxqEp2r0sX6ifGQMmLHXOw9XoDBPHaQunlM_4nQSC-XZxz8i1H8_9bZyw5egAhVYfaUKtBoJb26tkylyFoLGklReWItZF_kPSayG6A7ZZkdgQ1zzalv44lgAgrkDizmBDKW8FpKpQJGnY11SoUYBnrZiclxasMobGTWrDkb_LH39CUWE3N6-4Tg593JIrHIGXVkKpM6yu6RyVz2bQ59VYdB2dvpK2mCaAMvznjmachCEpW3ajHXPM4ncULqC0msaDNp16QaZ6Dboz2k6X8d-kAPcQ2WUjk9Q_4jAECT-EntMQOf9qSD7oaFq0FRNDxlD64waf-1A1kvgTmrTvluTrTw8ZR0fpKwbTUsbpD1O_cfwRgfPxmAahma8llq0nw4DY1g7ddCvbS8qsNkHDVIlQsnguEEqnLLDSrILE="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Texas Medicaid lumbar fusion CPT 22612 criteria TMPPM",
+        "results": [
+         {
+          "title": "CPT Code 22612 Description, Examples & Reimbursement Guide",
+          "url": "https://medibillmd.com/blog/cpt-code-22612/",
+          "snippet": "For example, Medicare will only provide coverage and payment for lumbar spinal fusion if it is <strong>proven to be reasonable and necessary for the diagnosis or treatment of illness or injury, or to improve the functioning of a malformed body part</strong>."
+         },
+         {
+          "title": "Texas Medicaid Provider Procedures Manual",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/tmppm/pdf-chapters/2022/2022-06-june/2_Med_Specs_and_Phys_Srvs.pdf",
+          "snippet": "CPT ONLY - COPYRIGHT 2021 AMERICAN MEDICAL ASSOCIATION. ALL RIGHTS RESERVED. ... The information in this handbook is intended for Texas chiropractors, nurse practitioners (NP), clinical \u00b7 nurse specialists (CNS), certified nurse midwives (CNM), certified registered nurse anesthetists \u00b7 (CRNA), podiatrists, geneticists, maternity service clinics, physicians, and physician assistants. The \u00b7 handbook provides information about Texas Medicaid\u2019s benefits, policies, and procedures."
+         },
+         {
+          "title": "Texas Medicaid Provider Procedures Manual | TMHP",
+          "url": "http://www.tmhp.com/resources/provider-manuals/tmppm",
+          "snippet": "This product includes CPT which is <strong>commercial technical data and/or computer databases and/or commercial computer software documentation</strong>, as applicable which were developed exclusively at private expense by the American Medical Association, 515 North State Street, Chicago, Illinois, 60610."
+         },
+         {
+          "title": "Coding & Reimbursement | Scoliosis Research Society",
+          "url": "https://www.srs.org/Education/Coding--Reimbursement",
+          "snippet": "As noted previously CMS guidelines are in direct conflict with CPT guidelines regarding the combination of posterior interbody fusion with decompression at the same level. As a result coding these procedures has been dependent on the guidelines of the specific payer. For Medicare/Medicaid (CMS) you may code for 22630/22633 with 63047 to document the work performed."
+         },
+         {
+          "title": "Article - Billing and Coding: Lumbar Spinal Fusion (A56396)",
+          "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=56396&ver=11",
+          "snippet": "Use this page to view details for the Local Coverage Article for Billing and Coding: Lumbar Spinal Fusion."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_92764",
+      "args": {
+       "query": "site:tmhp.com \"spinal fusion\" OR \"22612\" OR \"fusion\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtgCCtUCAWkUfRM12uft8f2d6AxbWrIiuptib2FJpkTWRtsydB48mQtxOwpvIGe97WLsEajynAqE5dntvgJ8k_x5YzjsDTzC1j1je6narwM99iNZkNAAkMVRmhEBm3w4PD1FNOA4zU6PZlvVmpDZ9bgc6MhPgzqjJs8sjxVdaewkdadwY-FLoOSD8GG8MpmTharvHARtTKgXGOSl8n3UPPPs72hXtyrf8ntOyPByW9zhIgbbnV-_ezdHnXduM0xv3gqhBb3oxbBEbC_q4NfJg5soPWvmiAftjTLaErk3XxgTxGi4BE0KK1tFwgeZ-yNiPcrEw-dUrgq_nN8CwBJtOeixDY3qAgfeTwCqysOWLDLF8W1OCFMi02rDIJ-jvl09InXTIJdiHdznwxaBEbZHetkqxxb_89OojgsRf9g09XRF9j_QGBMms1J03PBR7TumbuC2Owv7gtLxqRw="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:tmhp.com \"spinal fusion\" OR \"22612\" OR \"fusion\"",
+        "results": [
+         {
+          "title": "Texas Medicaid - Provider Procedures Manual",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/tmppm/pdf-chapters/2025//2025-07-july/2_13_med_specs_and_phys_srvs.pdf",
+          "snippet": "Sacroiliac Joint Fusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+         },
+         {
+          "title": "LTC Provider Bulletin, No. 79 August 2019 Long-Term Care",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/ltc/August-2019-LTC-Bulletin-No-79.pdf",
+          "snippet": "New Item: J2400. Involving the spinal cord or major spinal nerves \u00b7 New Item: J2410. Involving fusion of spinal bones"
+         }
+        ],
+        "result_count": 2,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_102276",
+      "args": {
+       "query": "site:tmhp.com/sites/default/files/file-library/resources/provider-manuals/tmppm/ \"spinal fusion\" OR \"lumbar fusion\" OR \"22612\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvgDCvUDAWkUfRMd6tmwZbJSS5XRDT_Ii7O0lNJaV7_zbtJDqmqYs32jINKCZCsI9kd6FSaeXz5AXIQOVtXhndCdo1FmKnZYQEuSLHtjrpCGH5ChKE0Fl_mtROBjY64LJtumehNk9iCT9QO9m0rganvfErHiX47FYxz6lE72v9ghDKmHAmkxgMMT_xQhPn1rRWf87n30koLMgo5bZyFup8838f_r7p8I74HHn19rX1COpVDD5GYk425rR4Ob5Lg5238TTxAxiEho6V7XjfGcDeGd6KFdtiPtTbHoQz5dSGZ6HYPHz9-zOO6y-LgiJYxbSqvYRH-DqoD7bgiPaxokNztCoSSweuvESw6G1LoWh1cIkI4kufKTF7zyaoAjnMs0cO7_H4KfnFKakE6ycTu5YPk1-P__zJOPi7GYKBgv4fSORx79pLyAV4YLbkX2vdLdbCWPLdJXKvAhGLtHPDSVOjy-pIRLa8hcNk1X5IwMEYRjk3LseB-g15T7-03n0k_Xrfkh8owaAdW2QJpPdUwNDFIWMrKO8o9_nPzmPbOsufniZzqYsoEiBHEzm5_xXt6Pzr23-QOK6ErX98OST0wNcek2W7ClJ6ebpljdP8oDei7pkVZYM3BT1imAy7zT_rkXsNpWi_r0TTeE2mTnExFJrmuu_RO10DAM57ER"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:tmhp.com/sites/default/files/file-library/resources/provider-manuals/tmppm/ \"spinal fusion\" OR \"lumbar fusion\" OR \"22612\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_129834",
+      "args": {
+       "query": "site:tmhp.com \"spinal\" \"fusion\" OR \"arthrodesis\" OR \"22612\" criteria OR policy"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Et0BCtoBAWkUfRNhd2mn9Jqi0ItgI_UdvrLdj4DFT-rg-TAq0hYn6lr1lhrncbf6VWMVVzmV6ohGP-3UYUWwDA7eZqPDa-sDItSncq2VFrjzDQ64SHPUkOfLcs-o1xUjJuCWxqpX_pG3cHmecl_byJpR4xXWJYQLQ0SNteNr8PCotRYs_OlK1LelsNO4baEBXvgulCuI8niMIu_2HRqPq-0TwTI1BjHPeLJ61Yu0X2C7PhtgN2iHzLpb3MquylFs3DR5OKqjbzsoby5FJFKUyrBmvE8Jf9qTy9c_YGuQY8c="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:tmhp.com \"spinal\" \"fusion\" OR \"arthrodesis\" OR \"22612\" criteria OR policy",
+        "results": [
+         {
+          "title": "Texas Medicaid Provider Procedures Manual | TMHP",
+          "url": "http://www.tmhp.com/resources/provider-manuals/tmppm",
+          "snippet": "The Texas Medicaid Provider Procedures Manual was updated on August 31, 2026, and contains all policy changes through September 1, 2026. The manual is available in both PDF and HTML formats.Claim form examples referenced in the manual can be found on the claim form examples page.See the release ..."
+         },
+         {
+          "title": "Remittance and Status Report Examples | TMHP",
+          "url": "https://www.tmhp.com/resources/provider-manuals/tmppm/rs-examples",
+          "snippet": "Remittance and Status (R&amp;S) Reports are generated for providers that have weekly claim or financial activity with or without payment. The R&amp;S reports identify pending, paid, denied, and adjusted claims. Advanced notification of upcoming policy changes are also included at the beginning of ..."
+         }
+        ],
+        "result_count": 2,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_161060",
+      "args": {
+       "query": "site:tmhp.com/sites/default/files/file-library/resources/provider-manuals/tmppm/ \"arthrodesis\" OR \"lumbar fusion\" OR \"22612\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvoCCvcCAWkUfRNbUVCtiJGjiKKpgCvbeIRvvFx9JslkSgdsvc01aGPThAYPmYjRctcZVu-tr_F1G2UW0labKHVl1g2lcxXDUytqDaWC4L70XioshWKrbUSeh1QpcyA621DRhfC6ok3o8qSFO9UtwAmKbxQUWCajBKNKXI9r58pbxZxb3wmwpJMguWSUBiAriAktp8FOB7rWtDA89GNgU9Gyj45migzhE2GZTiCNhNX6X_BlP3rE3yEv-RCU_mVKrJdBBoZXeUPCD-oNbpj8vfGhmGnSCWEpJLL9o4c_DtM2jjWqzGUFLGnJ8UYempBVO4PIKocBhHoU6Zuro3iQvX78dQ7hGSuctgW5G6tlgSZ7fV5m2sPZi22yet_YVNo0hKGP9ZoiTzvEu6EEnk5TL_46GfYPL2oV-hIb_Jd1Ia8T0v7dz3GedjGjQWXVsoYHtyvZyqi9S3oVuFBqFZuCpuAOfehTXnJNrRyLVqcWchddzL3mm8EqmydWZYNU"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:tmhp.com/sites/default/files/file-library/resources/provider-manuals/tmppm/ \"arthrodesis\" OR \"lumbar fusion\" OR \"22612\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_103287",
+      "args": {
+       "query": "texas medicaid \"spinal fusion\" criteria OR \"lumbar fusion\" OR \"22612\" OR prior authorization"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpQCCpECAWkUfRNiX8T4QHx80NxhWJO6A1bMEB08t4_f732Kb1RzyRdJweIKWXevUGcaJiuC4B0HGmNdfyPON2GeG3XxhJQUJBAbNq92zsPljxqIuJrgA22wosM2NNXPj1YCTr5dou5A36kgF7_uQ99pQEU0lvNMX6qYITxYPFQVYAEpePEu835FK-WpQtlw5CRkh3SlHQcWQT3kayaiQralE6G7EM8OLBgIRIaS6HSQ8BB62HJBcXzaFX7mPDYfOAOr-Du-kmKbHmYTiLg6CEQY1G0wE-RA09yDuMUGIZXBc8NtB5FB5qvMxgLOeIGz21j6iwpMq7iVZ1Ez0drC7_jnxdlSawrr9iaXqBk-BqCtbDE-Bphb"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "texas medicaid \"spinal fusion\" criteria OR \"lumbar fusion\" OR \"22612\" OR prior authorization",
+        "results": [
+         {
+          "title": "Spinal Fusion and Decompression \u2013 Community Plan ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/spinal-fusion-decompression-cs.pdf",
+          "snippet": "22612 \u00b7 <strong>Arthrodesis, posterior or posterolateral technique, single interspace; lumbar (with lateral transverse \u00b7 technique, when performed)</strong> 22614 \u00b7 Arthrodesis, posterior or posterolateral technique, single interspace; each additional interspace (List \u00b7 separately in addition to code for ..."
+         },
+         {
+          "title": "CPT code 22612: Posterior lumbar fusion billing guide | Pabau",
+          "url": "https://pabau.com/procedure-codes/cpt-code-22612/",
+          "snippet": "Two claims, two code sets, one surgery. That depends on the payer rather than the code. <strong>Medicare Advantage plans and most commercial insurers require prior authorization for lumbar fusion</strong>."
+         },
+         {
+          "title": "Spinal Fusion and Decompression Page 1 of 11",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/spinal-fusion-decompression.pdf",
+          "snippet": "22612 \u00b7 <strong>Arthrodesis, posterior or posterolateral technique, single interspace; lumbar (with lateral transverse \u00b7 technique, when performed)</strong> 22614 \u00b7 Arthrodesis, posterior or posterolateral technique, single interspace; each additional interspace (List \u00b7 separately in addition to code for ..."
+         },
+         {
+          "title": "CPT Code 22612 Description, Examples & Reimbursement Guide",
+          "url": "https://medibillmd.com/blog/cpt-code-22612/",
+          "snippet": "For example, Medicare will only provide coverage and payment for lumbar spinal fusion if it is <strong>proven to be reasonable and necessary for the diagnosis or treatment of illness or injury, or to improve the functioning of a malformed body part</strong>."
+         },
+         {
+          "title": "MEDICAL POLICY \u2013 7.01.542 Lumbar Spinal Fusion in Adults",
+          "url": "https://www.premera.com/medicalpolicies/7.01.542.pdf",
+          "snippet": "22612 \u00b7 <strong>Arthrodesis, posterior or posterolateral technique, single interspace</strong>; lumbar (with \u00b7 lateral transverse technique, when performed) Page | 10 of 39 \u00b7 \u221e \u00b7 Code \u00b7 Description \u00b7 22614 \u00b7 <strong>Arthrodesis, posterior or posterolateral technique, single interspace</strong>; each additional \u00b7"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_79776",
+      "args": {
+       "query": "site:tmhp.com \"spinal\" OR \"lumbar\" OR \"fusion\" OR \"arthrodesis\" prior authorization"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtQECtEEAWkUfRMYedb3V17Y7xlTQZ1rjP4YGtUOmjG9FAKE4Dc8pbS3HOmN4SNo5hu9c8mr5IhifKx37rf8tc47KWfs3hSHrcFHGfVY33KWROqG63raX8A-ThC32F5pU9O-sTrBhuPFlbv_wlZAeosLpL3jvtnXnKLBj2v-v5VDBw_rcnnVyLiQJJWZJKO20WbU-RAT7A4c4Ki5chMLKh2XQm2YAM8ZKcJgHs4v4IxvHCdSMp8BPaSPGE52izZn8f8aHhMhOYLdd7sypVwb7WhHzpFkhN6Cg1rK3gsS-bkSHj0fLLiRRe-j2rkL1MAT4Tf2GyaBzCHQ2ssUAlT9tNQqF_2dA2DOUuil5JI3inUfXAmxLbgSup1kI_3_US4l6P8nSiTkyZ--dyCalhsuHsrQj1AjtKXfSqxUmpsnxcRCoXU5E4BWVIUMCNLtd5SulvO1I8JUZfo8BV0QfnM_Mq9JKXpj-VZ3Mn22ZoTGJYx76Ni0c1-QSKllH9w6cTNMF5kgXzb9CUZY4Q35CUF1wIAWrOVxIIbxRi56FbwZkg58TrZZwwL_jN6NZFpsXs-pyQhJ1AXe69Yc6pcoFHpI_vyMeeVqV0F3z7Hv4oodNUaPti9cBm6Zjf0uGzG77OIZH7Fx9LKZ_C04la6-2mZxbia2UG3nwQjnSr4dSskfzY_f8SbSdzmwLsumtgJdBnoF5_Fc_M3_WMRreMQu8b70jnzIXVXaxiYgV8WOLMoPCPZiCFkRf55dd-KediOakxhFsbxAQVO7kLIjGKKDSFrNyCQ4EY31At0="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:tmhp.com \"spinal\" OR \"lumbar\" OR \"fusion\" OR \"arthrodesis\" prior authorization",
+        "results": [
+         {
+          "title": "Prior Authorization Criteria for Sacroiliac Joint Fusion Effective January 1, 2024 | TMHP",
+          "url": "https://www.tmhp.com/news/2024-02-15-prior-authorization-criteria-sacroiliac-joint-fusion-effective-january-1-2024",
+          "snippet": "The prior authorization request <strong>must be submitted with a provider statement or attestation that the client needs an SI joint fusion and the indications for that determination</strong>, including that the following diagnoses have been ruled out:"
+         },
+         {
+          "title": "CSHCN SERVICES PROGRAM PROVIDER MANUAL JANUARY 2026",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/cshcn/2026/2026-01-january/28_ortho_prosth_dvcs.pdf",
+          "snippet": "In addition to the general indication requirements, lower-limb orthoses will be considered for prior \u00b7 authorization with documentation of the following criteria for specific orthotic devices."
+         },
+         {
+          "title": "CSHCN SERVICES PROGRAM PROVIDER MANUAL OCTOBER 2025",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/cshcn/2025/2025-10-october/28_ortho_prosth_dvcs.pdf",
+          "snippet": "In addition to the general indication requirements, lower-limb orthoses will be considered for prior \u00b7 authorization with documentation of the following criteria for specific orthotic devices."
+         },
+         {
+          "title": "CSHCN SERVICES PROGRAM PROVIDER MANUAL JULY 2025",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/cshcn/2025/2025-07-july/28_ortho_prosth_dvcs.pdf",
+          "snippet": "thoracic-lumbar-sacral orthoses (CTLSO), halo procedures, spinal corset orthoses, and spinal orthoses ... indications in Section 28.3.1, \u201cPrior Authorization and Documentation Requirements\u201d in this chapter."
+         },
+         {
+          "title": "CSHCN SERVICES PROGRAM PROVIDER MANUAL MARCH 2024",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/cshcn/2024/2024-03-march/28_ortho_prosth_dvcs.pdf",
+          "snippet": "thoracic-lumbar-sacral orthoses (CTLSO), halo procedures, spinal corset orthoses, and spinal orthoses ... indications in Section 28.3.1, \u201cPrior Authorization and Documentation Requirements\u201d in this chapter."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_78085",
+      "args": {
+       "query": "\"Texas Medicaid Provider Procedures Manual\" \"spinal fusion\" OR \"lumbar fusion\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqMDCqADAWkUfRN73hCz7SU3qImuzfY3mnYKCwai4ISzw1eaIPbrKF1dCa32Joc3CCjoYVdLWfMrUGmzRaoc3Utc9dSVrkdj9qmY0fzSLwXgZRsqYgZ2fwxPVRZQMxmggGI2SVwfjUTXuNpSieO2hpaRnLXxU8cFqp6bCkDZ96v-0AmjdnCLUEcUx7R9KS88uR8v_5cFFg7xTgtm2A_N8bacvLWU5nBrlNhdxVKk8kN9mS7bfLmFNMUb8LCrqCrUp_Yyo8htePGtyVfc3f_uRdgii0fJhIeDiBL7Jbo-jm_f8vLg1Vsn7_U6ODpZrpl-njaBLDPOF2kP-EaoF0VsgywNkzVSbLBnF57vZYfp6fWLJnG2yf89UYvUCBkaVby7d4FmM3F1nzuKbsCaReMjfr8aFUEjf5JjAtVnH6pJLQh0egm260Lo3o36XjM-B5pOiLe9UtlcTrTkGNydatAE5hPxglut7D6t_YFuygg4mokbPxXC_1J20CZnoI8IrPiFBlchL_4kRp33wWzF_8Obf638c7Hb4HPFqYjN_D3PmwqQZheKgdU="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Texas Medicaid Provider Procedures Manual\" \"spinal fusion\" OR \"lumbar fusion\"",
+        "results": [
+         {
+          "title": "LCD - Lumbar Spinal Fusion for Instability and Degenerative Disc Conditions (L33382)",
+          "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdId=33382&ver=24",
+          "snippet": "When performed with initial primary laminectomy/discectomy for nerve root decompression or spinal stenosis, without documented spondylolisthesis or documentation of instability (e.g., documented intraoperative iatrogenic instability). Lumbar fusion at multi-levels (2 or more) for pure DDD unless case specific indications for two level or the rare three or more level planned fusion procedure is directly addressed in the pre-procedure record."
+         },
+         {
+          "title": "Minimally Invasive Spine Surgery Procedures Page 1 of 20",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/minimally-invasive-spine-surgery-cs.pdf",
+          "snippet": "Axial Lumbar Interbody Fusion (AxiaLIF): Also called trans-sacral, transaxial, or paracoccygeal Interbody Fusion and is \u00b7 <strong>a minimally invasive technique that is used in L5 to S1 (Presacral) spinal fusions</strong>."
+         },
+         {
+          "title": "LCD - Lumbar Spinal Fusion (L37848)",
+          "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=37848",
+          "snippet": "Lumbar fusion <strong>must be performed by a qualified surgeon in an operating room with the necessary equipment</strong>. For elective surgeries, providers should verify that the necessary equipment and hardware to perform the procedure on a patient is available prior to the induction of anesthesia."
+         },
+         {
+          "title": "Lumbar Fusion Surgery in Plano, TX | Advanced Spine Center",
+          "url": "https://www.advancedspinecenters.com/services/lumbar-fusion/",
+          "snippet": "First, a healthcare provider will check and confirm your medical history, current medications, and your emergency contacts. You will meet your anesthesiologist, who will discuss the surgery with you. You will then meet with your surgeon. They will confirm that you have signed a consent form, and then mark the surgery site. The exact steps of lumbar spinal fusion vary depending on the vertebrae to be fused, as well as the type of fusion. Other important procedural information includes the following."
+         },
+         {
+          "title": "Fusion Surgery - Texas Back Institute",
+          "url": "https://texasback.com/treatments/fusion-surgery/",
+          "snippet": "Spinal fusion surgery at Texas Back Institute involves fusing two or more vertebrae using bone grafts and hardware to stabilize the spine and alleviate pain."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_88057",
+      "args": {
+       "query": "site:tmhp.com \"22612\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsYBCsMBAWkUfRNSk9g8xJ_zPNczm6XKAqQpVWGtCOBDwL1nVv7L3gg37vwcRIrCGf3y_HLE6BkM3hbRCLsU6TK0t_EZymf2GTMTvuqkVhZSi4vQRD0ZtfKjjiKGBs_HlkUEksHzM7zRtYUgfYzSmSvxMMILFB7rwN934bcMiZ1_aaL2OWcrvFZjU4lgnkZwbwgtqSHk7-Y-ZnVRuwJooSDtY-sYoMQ_NRKyG5YhutnGhCc-y7gb5v9AHxiziL7WT5xYyy8QHvPt"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:tmhp.com \"22612\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_116975",
+      "args": {
+       "query": "\"Texas Medicaid\" \"22612\" OR \"lumbar fusion\" prior authorization"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "ErMDCrADAWkUfRNEKg7PxVCRe9N_xIFDVnNjy7zN1a661SfoQk9NeHHySf5r1dtxmWpKWNUDKFKysS-zP501OybuXJa10k8HBAR5KdVGshwci9mpvrECC8uCkj6CYWKQDZjYpc5QYAGFUx1b6yEF9TDVjeuLxrP6_tUx6ojqFl86gj9e3fRyRKQEX2OQC8TUbiI7uI_RfDRrVpxgl5TFnPnPRzT-yBbdkTKjz570_-PfkHfV3T0i9KID1VXCY8D-Vqs17Rx4kjKcqsyDF0FAfNefUyOks7I--kKRgoXNY06B0aiGepCdbgYxRqTxKYEiZ8cKF4P1FmkLipFYHlyJoHgL9iEYvLOaSZ5V8lKKdJmkom4BPoGyWuEkAFIQJSHiDPTZVPf-lhKGVJ23fthFW4ZUsrhCPlMiMR3tn4vSsVJQlXBelnGkI53ZY7NAprjojEs22Av-q0N9UKE7PqMswDxJ5_evWZD5O1rMDghXfC0V5VfzDjVDCt-yY8Bq71_iKrLdmBN0pE8YeIkDYXs7jd-AbWHU6Cowil2Ft2_uRt0SySGG74-7Wz2B5VJNRxiLfHZO7mun"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Texas Medicaid\" \"22612\" OR \"lumbar fusion\" prior authorization",
+        "results": [
+         {
+          "title": "CPT code 22612: Posterior lumbar fusion billing guide | Pabau",
+          "url": "https://pabau.com/procedure-codes/cpt-code-22612/",
+          "snippet": "Two claims, two code sets, one surgery. That depends on the payer rather than the code. <strong>Medicare Advantage plans and most commercial insurers require prior authorization for lumbar fusion</strong>."
+         },
+         {
+          "title": "CPT Code 22612 Description, Examples & Reimbursement Guide",
+          "url": "https://medibillmd.com/blog/cpt-code-22612/",
+          "snippet": "Hence, while billing for CPT code 22612, documents play a major role in reimbursement. For example, Medicare will only provide coverage and payment for lumbar spinal fusion if it is proven to be reasonable and necessary for the diagnosis or treatment of illness or injury, or to improve the functioning of a malformed body part."
+         },
+         {
+          "title": "Page 1 of 23 Lumbar Spine Surgery",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/6.14.24/2/1884_LHCC_Lumbar_Spine_Surgery_2024_July_redlines.pdf",
+          "snippet": "Lumbar Fusion - Single Level: 22533, 22558, 22612, 22630, 22633, +63052, +63053 \u00b7 - Lumbar Fusion - Multiple Levels: +22534, +22585, +22614, +22632, +22634, +63052, +63053 \u00b7 **See UM Matrix for allowable billed groupings and \u00b7 additional covered codes \u00b7 Last Revised Date: May December \u00b7"
+         },
+         {
+          "title": "LUMBAR SPINE SURGERY PROCEDURES",
+          "url": "https://www.nhpri.org/blobnhpri08e0944faa/wp-content/uploads/2025/12/Neighborhood-Health-Plan-Rhode-Island-Medicare-and-Medicaid-Members-Spine-Surgery-2026-01.01.26.pdf",
+          "snippet": "Lumbar Fusion - Single Level \u00b7 22612 \u00b7 22533, 22558, 22612, 22630, 22633, +63052, +63053 \u00b7 Microdiscectomy: 62380, 63030, +63035 \u00b7 Decompression: 63005, 63012, 63017, 63042, +63044, 63047, +63048, 63056, +63057 \u00b7 Instrumentation: +22840, +22841, +22842, +22845, +22853 \u00b7 Bone Grafts: +20930, +20931, +20936, +20937, +20938 \u00b7 Bone Marrow Aspiration: 20939 \u00b7 Neighborhood Health Plan Rhode Island Medicare and Medicaid Members Spine Surgery 2026 01.01.26.docx \u00b7"
+         },
+         {
+          "title": "\u201cFusion Confusion? CPT Coding Made Simple for Spinal Fusions\u201d - Healthcare Inspired",
+          "url": "https://healthcareinspiredllc.com/fusion-confusion-cpt-coding-made-simple-for-spinal-fusions/",
+          "snippet": "AOC 22614 may be reported with primary CPT codes 22600, 22610, 22612, 22630, or 22633"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_91736",
+      "args": {
+       "query": "site:hhs.texas.gov \"spinal fusion\" OR \"lumbar fusion\" OR \"22612\" OR \"arthrodesis\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "ErwCCrkCAWkUfRNsmXJrhD-xhxaTQHqPpkln_9GaFEGe9WidG3p5JqYNE-oqD0G7HtN3B4jqkkZ30xVEQuo6Y_oG5I6lQvj9i994-2Hk_AZ_6q4XWkB0fusiJbrp1oVOI9c5UT0GQSkAYj1s-B4jyxxu5aZpGNgK88k7ntpO6H1c4ZbXANKuDwSvN7YYcV4s5NAUqy_sbj152YfX__GzlyZBOfoMQpm2qavOO_k7vKQgJeWJFPLhQXGIyRnwfkf1smycaKb-F9oyT0hMmVvi5C5VwI7zBA39jCVUkHo6-HBthoLIFCFo1ANa9aVL7LAkQdQtVOllCkE1PG-4H7Au2YexIEP_LmPTXXLf4Sowf7CCILLFhFkiglu9a6kldIPHBmWcouK9cINshdPHMULO9QP4Qyjtty5VmhDYbbJzRA=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:hhs.texas.gov \"spinal fusion\" OR \"lumbar fusion\" OR \"22612\" OR \"arthrodesis\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_110045",
+      "args": {
+       "query": "\"Texas Medicaid Provider Procedures Manual\" \"spinal\" OR \"fusion\" OR \"arthrodesis\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Er4DCrsDAWkUfRPS9O-yN27PaxBIKWOySVvl6g3S1I6BjB4FF82JUbgjmOyhBNhBgnupQcYGc2V8GU_e4sAX7hHIyH-WB2ArztB06bZUy3_Bw5rC0SPmBNfNkdIV96VFxkuimavXgB9a66D2NpQU9GigdiEdXyDjWc1HKJFledOiMK2msRvn3fMlDoQ9aF-z9bM-i1gj7dSpfXwQ5YeNmJ9jaCMLLemcil2UZMMqE_w8JEnH2s9JB_TG5v_Bx4gQt2DtiwCr5vZJ1ktRDiMA6p76eYLncFm1OfAffGDEwNcEUBeGEnwld7JgaW3j8PfPWziccX7ORznv-i0aJpHrV1rXE6-VHIc6-QnTe6bb1-NbywkDccXRgnErhkLzCNb8egopdWnBQJ8KCZbQUrge3uaCr5indr7GB7sT7peUQNRi7HGxavy0fYCAzFMMFD0wNlLK6HERlhA_RWRZDSa0RDO5EX0zNqcaK9YoVbhRtY3rBw15HcgHEKC9W7ehoprj2Jsi_diiP35FWfIakeS3cCTdsM4MgNV0GIauO6Jc7NNlUlNhOED8q5Dxheuau71ma5B-bgPDDWmdVHVeUudRveE="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Texas Medicaid Provider Procedures Manual\" \"spinal\" OR \"fusion\" OR \"arthrodesis\"",
+        "results": [
+         {
+          "title": "Spinal Fusion and Decompression \u2013 Community Plan ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/spinal-fusion-decompression-cs.pdf",
+          "snippet": "Arthrodesis, posterior or posterolateral technique, single interspace; each additional interspace (List \u00b7 separately in addition to code for primary procedure)"
+         },
+         {
+          "title": "Spinal Fusion and Decompression Page 1 of 11",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/spinal-fusion-decompression.pdf",
+          "snippet": "Arthrodesis, posterior or posterolateral technique, single interspace; each additional interspace (List \u00b7 separately in addition to code for primary procedure)"
+         },
+         {
+          "title": "Spine Procedures \u2013 Medicare Advantage Medical Policy",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medadv-mp/spine-procedures.pdf",
+          "snippet": "cord, cauda equina and/or nerve root[s], [e.g., spinal or lateral recess stenosis]), single vertebral ... Arthrodesis, anterior interbody technique, including minimal discectomy to prepare interspace (other"
+         },
+         {
+          "title": "Lumbar Spine Fusion (outpatient) Cost in Texas",
+          "url": "https://www.mdsave.com/procedures/lumbar-spine-fusion-outpatient/d282f4c5/texas?page=01",
+          "snippet": "You need to enable JavaScript to run this app"
+         },
+         {
+          "title": "Spinal Fusion and Decompression (for Ohio Only) Page 1 of 12",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/oh/spinal-fusion-decompression-oh-cs.pdf",
+          "snippet": "Arthrodesis, posterior or posterolateral technique, single interspace; each additional interspace (List \u00b7 separately in addition to code for primary procedure)"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_119229",
+      "args": {
+       "query": "site:tmhp.com \"spinal fusion\" OR \"lumbar fusion\" OR \"arthrodesis\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvACCu0CAWkUfRPhl4hRtAEj-xIpW8c9VdNESiohpz6kQzdTtJl5-hIiQ8d6O0-Aw1WYQUogUhxteeXKcXqFRjEk8Kss4LHWTJ21ziATOu7i0utbA12wGdxuN684uNKXs8IfBsSWR0X8hOxx9KOmjTOmLH2rIm8Xm5o-NwT8_fjiyuKhV_cd43AniZ4A7e5Ydfw2XcbX9navtJKxsxtz55M3JiaTm9sdre_trb201XhYFMgJ9SNRyQpBS3k1SxmdmLrX0ITFdnViqabY19glAC2u9wr_YM3glrZLDP25FnaK42aAEcKa8PlKhbvoo7cZ62hwtn6CdsU7a9ffJhCcC580AGCsH_QWGXOv-Abq5gJvBDfZCBnGTNL8AsFOfcsGlsKN7Nvc_xpCfFhZDXoYm5qAbh6zqup_iP_IF1LnWXNNhiu-ZsdM_n-LqclS4x-O2exNphprZGFcxSz6fleNNciIBmS4vI-FqLj7H3LOOHi98jU="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:tmhp.com \"spinal fusion\" OR \"lumbar fusion\" OR \"arthrodesis\"",
+        "results": [
+         {
+          "title": "Tmhp",
+          "url": "http://www.tmhp.com/Hospital_Reimbursement/Grouper%2034%20APR-DRG,%20Effective%20September%201%202017.xls",
+          "snippet": "ACEMENT\u0005\u0000\u0000301-2\u0005\u0000\u0000301-3\u0005\u0000\u0000301-4\u0005\u0000\u0000302-1\u0016\u0000\u0000KNEE JOINT REPLACEMENT\u0005\u0000\u0000302-2\u0005\u0000\u0000302-3\u0005\u0000\u0000302-4\u0005\u0000\u0000303-11\u0000\u0000DORSAL &amp; LUMBAR FUSION PROC FOR CURVATURE OF BACK\u0005\u0000\u0000303-2\u0005\u0000\u0000303-3\u0005\u0000\u0000303-4\u0005\u0000\u0000304-18\u0000\u0000DORSAL &amp; LUMBAR FUSION PROC EXCEPT FOR CURVATURE OF BACK\u0005\u0000\u0000304-2\u0005\u0000\u0000304-3\u0005\u0000\u0000304-4\u0005\u0000\u0000305-1$\u0000\u0000AMPUTATION OF LOWER LIMB EXCEPT TOES\u0005\u0000\u0000305-2\u0005\u0000\u0000305-3\u0005\u0000\u0000305-4\u0005\u0000\u0000308-1\u0005\u0000\u0000308-2\u0005\u0000\u0000308-3\u0005\u0000\u0000308-4\u0005\u0000\u0000309-1\u0005\u0000\u0000309-2\u0005\u0000\u0000309-3\u0005\u0000\u0000309-4\u0005\u0000\u0000310-1,\u0000\u0000INTERVERTEBRAL DISC EXCISION &amp; DECOMPRESSION\u0005\u0000\u0000310-2\u0005\u0000\u0000310-3\u0005\u0000\u0000310-4\u0005\u0000\u0000312-1J\u0000\u0000SKIN GRAFT, EXCEPT HAND, FOR MUSCULOSKELETAL &amp; CONNECTIVE TISSUE DIAGNOSES\u0005\u0000\u0000312-2\u0005\u0000\u0000312-3\u0005\u0000\u0000312-4\u0005\u0000\u0000313-1&#x27;\u0000\u0000KNE"
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_157896",
+      "args": {
+       "query": "site:tmhp.com/sites/default/files/file-library/resources/provider-manuals/tmppm/ \"lumbar\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtkDCtYDAWkUfRPcqlVRSVSqQ-3i7hf2Y1kOx3b10d7CG1nQWe9LYyw6EdBXH7kbdvdOXHqBorpxcnKwiq4SYdATV06V3oOZFM_ehaDHHGRzByJpTKU8oqM1JXmztq83A5gZqvTz5pW_BV-wLCFPyceaZ6M3zBgIM-nozlTBlNrhUELtiY2TTyO7yzzdYuohmjEwmlWRI6s5JmDW1LCKyxx0XRKSVMH770mzCW2WjwcOq9QPHodyddFSlvy4h_prmv9wc9gsmxKfJn2u5xhwlK1BFoiIfsUiXpVn1IlI-paO4AT8_-8GDaGvxVBxgNrleM8UATluPlQsOco7X4JCq9C-elszuNDMnAfyjksr--1n2cZ2p--wUqUVjoKMdPKjbo2ARWUTjZ1lPGZvRXmuZKfkCp6OiIYeASrhYRtqf9Q9j0QnHCJjh6IDkacLbEjpVqWNG3q1zvtAo8BseP37YIpWLzVK34aZqyi9yvFjawIgwMCGm82atPFB-tG_Mxji1YXFIwMKeg-nuiY_ofPJlUJLOTh2eSFmcvfT8W2RWc3RBOwPEmyUds5N-H7KBTAji_jTvTnAUna9jM7FmjZMnif-q3DRiFITUZQnBpDMXja6iQAKOwK4fnXNBf8="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:tmhp.com/sites/default/files/file-library/resources/provider-manuals/tmppm/ \"lumbar\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_227072",
+      "args": {
+       "query": "site:tmhp.com \"prior authorization\" \"lumbar\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqwBCqkBAWkUfRMiCHZuZZX2S5ljRFiJNBrOduR5RsbRGFtEHMJCsUBQAJmjtcGyHLQmQrpcsjAC9tOfjeKxtqQj-Dkew9Ndr6ql8SRPQjjXZRfoJAqKHPgIs8qJH3P_UlGqmXj7XVoGvhzTOLIJlK76_ooyoEnDHLpittmxBlkiK8qVQ4o3rru2HNB7k0p68RvueOdPd-t6u3IJ5jwMhOLTAxznOGDdF0u65spluQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:tmhp.com \"prior authorization\" \"lumbar\"",
+        "results": [
+         {
+          "title": "Prior Authorization and Documentation Requirements",
+          "url": "http://www.tmhp.com/Manuals_HTML1/TMPPM/Archive/2016/Vol2_Children's_Services_Handbook.17.098.html",
+          "snippet": "At the end of the six-month authorization period, a new prescription is required for prior authorization of additional services. The actual date of service is the date the supplier has placed an order for the equipment and has incurred liability for the equipment. Spinal orthoses include, but are not limited to, cervical orthoses, thoracic rib belts, thoracic-lumbar-sacral orthoses (TLSO), sacroiliac orthoses, lumbar orthoses, lumbar-sacral orthoses (LSO), cervical-thoracic-lumbar-sacral orthoses (CTLSO), halo procedures, spinal corset orthoses, and spinal orthoses for scoliosis."
+         },
+         {
+          "title": "28_Ortho_Prosth_Dvcs",
+          "url": "https://www.tmhp.com/sites/default/files/microsites/provider-manuals/cshcn/html/CSHCN_Manual/28_Ortho_Prosth_Dvcs/28_Ortho_Prosth_Dvcs.htm?rhtocid=_28",
+          "snippet": "Spinal orthoses include, but are not limited to, cervical orthoses, thoracic rib belts, thoracic-lumbar-sacral orthoses (TLSO), sacroiliac orthoses, lumbar orthoses, lumbar-sacral orthoses (LSO), cervical- thoracic-lumbar-sacral orthoses (CTLSO), halo procedures, spinal corset orthoses, and spinal orthoses for scoliosis. Spinal orthoses will be considered for prior authorization with documentation of one of the general indications in Section 28.3.1, \u201cPrior Authorization and Documentation Requirements\u201d in this chapter."
+         },
+         {
+          "title": "Prior Authorization Criteria for Sacroiliac Joint Fusion Effective January 1, 2024 | TMHP",
+          "url": "https://www.tmhp.com/news/2024-02-15-prior-authorization-criteria-sacroiliac-joint-fusion-effective-january-1-2024",
+          "snippet": "The prior authorization request <strong>must be submitted with a provider statement or attestation that the client needs an SI joint fusion and the indications for that determination</strong>, including that the following diagnoses have been ruled out: Lumbar disc degeneration (diagnosis code M5136) Lumbar ..."
+         },
+         {
+          "title": "CSHCN SERVICES PROGRAM PROVIDER MANUAL JANUARY 2023",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/cshcn/2023/2023-01-january/28_Ortho_Prosth_Dvcs.pdf",
+          "snippet": "In addition to the general indication requirements, lower-limb orthoses will be considered for prior \u00b7 authorization with documentation of the following criteria for specific orthotic devices."
+         },
+         {
+          "title": "CSHCN SERVICES PROGRAM PROVIDER MANUAL JANUARY 2025",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/cshcn/2025/2025-01-january/28_ortho_prosth_dvcs.pdf",
+          "snippet": "In addition to the general indication requirements, lower-limb orthoses will be considered for prior \u00b7 authorization with documentation of the following criteria for specific orthotic devices."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_115220",
+      "args": {
+       "query": "\"Texas Medicaid\" \"22612\" prior authorization"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EuUDCuIDAWkUfRMlEiq5anHdYrfVcLmQ_Ej9HWpbqQvSd2uRqCG4JodBPl_j4lpF8kbmaZgKO9CoIYBDnltMS5Wogdq_6ue3wcNRDD8DbMAxsij4idBxP8jt7fBVV00vu_30z5N81SmVUj6e5bgqroeCAm0Kb624-h7uDhWmibd_cnnbDNnZblVAyduo61zi3T0nIwDt6EoZzU5UlcW2dGdXzLYTg7SGC5XzYiJgS5JxE2N3im3YHAXHCVPD-WpQYl6LOHte017YDFLTzHLzhRKiQjXAfXsA35uRZ6Zuc-WsOPi6l4xZ-dCuoim3qNEgkm1Hoa1cvC7SnCGgnPxI0aj6vAt2jEk0oeZ5sGEaqUoDEHkvrPdfICD5TImGhJjYWkI7gGOEGi4S3hBF6uA5fW9sl3TiuXQa-cTZnkiT9f5NRvQc2tqk8arOHxbjSjHfFdOC1IHFPScGycMVZlgRsEbxxSAMAaJW7u2oD77S8OUXKFbPHoeKJkE-8yuqbftLzv7qfVfTMOG21y9S3yVF5u2Zp2VHQCNSWVpDQBj_Y3QyzuT2vxOLBA5uAv91267e5UpgW8_kGwoSHoohFv-BLmcZA1ihVPsyDyHPnWu-nfcWvQJz7CigPGt7400r5kYreYx96Jpn5yo="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Texas Medicaid\" \"22612\" prior authorization",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_81205",
+      "args": {
+       "query": "\"22612\" Texas Medicaid"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsQBCsEBAWkUfRNsZLaFxVmqfkVHqeOiAF6oS0vd3T0Hczw95mgtX_veEc6gVU4yPi-lwa3nOEtSRoBl1M9QSBIt6hRIL4WQl-AN_y5rXZG5A0FH_qwCFHsrMt7JURGzDI_ja2hx8DaXI8K9d4VEHXqRh84Kvqg2Ml2-0she1qcDXILSRWLnTpQGd4VR-FEfqP8hhfyGpxTI2n2toi11XmeJUbZqsLT9fw8el3VNOcDhHGDf9NlzbsWoOcQ1tzkIP_LpDZLWfQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"22612\" Texas Medicaid",
+        "results": [
+         {
+          "title": "1 Medical Fee Dispute Resolution Findings and Decision General Information",
+          "url": "https://www.tdi.texas.gov/medcases/medfee23/m4231943.pdf",
+          "snippet": "occurred in their OP report. \u2026As the interspace was covered under 22612, no additional payment"
+         },
+         {
+          "title": "Page 1 of 3 MEDICAL FEE DISPUTE RESOLUTION FINDINGS AND DECISION",
+          "url": "https://www.tdi.texas.gov/medcases/medfee19/m4194894.pdf",
+          "snippet": "reporting payment policies as set forth in the Centers for Medicare and Medicaid Services (CMS) payment ... 4. 28 Texas Administrative Code \u00a7134.203(b) states \u201cFor coding, billing, reporting, and reimbursement of \u00b7 professional medical services, Texas workers&#x27; compensation system participants shall apply the following: (1) Medicare payment policies, including its coding; billing; correct coding initiatives (CCI) edits; modifiers\u2026\u201d \u00b7 On the disputed date of service, the requestor billed codes 22558-62, 22612-51, 22840, 22845-XU, and 22853."
+         },
+         {
+          "title": "Page 1 of 5 Texas Department of Insurance Division of Workers\u2019 Compensation",
+          "url": "https://www.tdi.texas.gov/medcases/medfee20/m4202331.pdf",
+          "snippet": "\u201cThe primary procedure code: <strong>posterior spinal fusion</strong> CPT 22612 along with the additional codes CPT 22614 X2"
+         },
+         {
+          "title": "Page 1 of 6 Texas Department of Insurance Division of Workers\u2019 Compensation",
+          "url": "https://www.tdi.texas.gov/medcases/medfee14/m4142065.pdf",
+          "snippet": "Per CCI edits, CPT code 22830 is a component of CPT code 22612; however, a modifier is allowed to"
+         },
+         {
+          "title": "Medicare Advantage and Dual Eligible Special Needs ...",
+          "url": "https://assets.humana.com/is/content/humana/FINAL_Medicare%20and%20DSNP%20Prior%20Authorization%20and%20Notification%20List%20-%201-1-2026pdf",
+          "snippet": "22610, 22612, 22614, 22630, 22632, 22633, 22634, 22800, 22802, 22804, 22808, 22810, 22812, 22818, 22819, 22830, 22836, 22837, 22838, 22840, 22841, 22842, 22843, 22844, 22845, 22846, 22847, 22848, 22849, 22853, 22854, 22856, 22857, 22858, 22859, 22860, 22861, 22862, 22867, 41 \u00b7"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_104873",
+      "args": {
+       "query": "\"Texas Medicaid Provider Procedures Manual\" \"InterQual\" OR \"MCG\" OR \"clinical criteria\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvEECu4EAWkUfRM4mW5C95-td_cCiuydgdSOUuen6VRYmAUJlhw6nIgl4QezV5zxgaD6Mw-Yscd3GdFfn6X80ouVryDvZU9iK6H1A6EQans1YpEkhEVvWYSU_R3Vz669lKhYmS-XcIPSvqWTq1Tw5onChxoF2wXiyLJZcsZehqXB0HL4ag2VDRFaUJIdWJ_h5Io8XhSP20YiSYlkiLDurqkukDpwF8bsGWBipGaSWT20UIoiwTj3WSWvRK1K4CObh3iG8E0ftoFcWxELRt2uSBJ8O0HZZIGi8HgBk1vvI_k2SJ5x_m0AviKb7omspSgYAuVieYI9h_HeSQBBg6fkuJTpQ5rv_p85_ibVLWJp6nBYlU08NwH6d6iJZOFFsK9w0FN5GwxTt0sLiQjuKzFdedcyBR3D5VD-YROdDVGiB-z6L4jfKDlgFIQCRQ61RiqSf9ISgDqOun5A9YanOMaXws88DfA9XwMOwSe8UAGLvgfaFYm2FSk4uOz5DZ_4cE-7RavJCkagpracsE1kdfP4GVNg4YHD3JsUpQTP4bwbxBgQ2Jc4zJwIoBoYmKLe96vWWMI0B_7UniHEu6TllDQtemnglDbYWlJrYVKOJL2bvfV2FgssX-JPUUjpx0rRm2aZX7hI4a_6PnEpuvXWQO2MGcL1gNHVLCX8u9km6wI5y_Mua2izaUKKbltx-yGPcVVpwSOcbkrmY9x-YPIAKx3gkYx9mY4SleCjlYPSJoMnFuw9jnF0vS_yojiLGB4TjAqDnxjfXQCGEhXuKCY5MHHB0IkqTMu553brA2Dml_y-CEivzYEXWDB7Y4v8ZSjZOZnWVxsuWA=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Texas Medicaid Provider Procedures Manual\" \"InterQual\" OR \"MCG\" OR \"clinical criteria\"",
+        "results": [
+         {
+          "title": "Clinical Utilization Management Guidelines",
+          "url": "https://www.provider.wellpoint.com/docs/gpp/TX_CARE_Feb20CUMG.pdf?v=202110051328",
+          "snippet": "<strong>available on the Medical Policy and Clinical UM Guideline subsidiary website</strong>. Their purpose is to \u00b7 help you provide quality care by reducing inappropriate use of medical resources. InterQual\u00ae Criteria or MCG care guidelines are used for:"
+         },
+         {
+          "title": "Search Medical Policies and Clinical Guidelines",
+          "url": "https://provider.wellpoint.com/texas-provider/resources/manuals-and-guides/medical-policies-and-clinical-guidelines",
+          "snippet": "InterQual Level of Care (LOC) criteria is used by some Medicaid plans for medical necessity review for medical inpatient concurrent review, inpatient site of service appropriateness, home health and outpatient rehabilitation. The InterQualTM guidelines licensed include: ... MCG care guidelines are licensed and utilized to guide utilization management decisions for some health plans."
+         },
+         {
+          "title": "Medicaid https://provider.amerigroup.com/TX",
+          "url": "https://provider.amerigroup.com/docs/gpp/TX_CAID_PA_Requirements.pdf?v=202105112145",
+          "snippet": "Medical Drug Benefit Clinical Criteria \u00b7 In addition, the following criteria/guidelines may be used: \u2022 \u00b7 Texas Medicaid Provider Procedures Manual (TMPPM) \u2022 \u00b7 MCG Care Guidelines (based on specific provider contracts, McKesson InterQual\u00ae Level of Care \u00b7"
+         },
+         {
+          "title": "Medical Policies and Clinical Guidelines | Wellpoint Texas, Inc.",
+          "url": "https://provider.amerigroup.com/texas-provider/resources/medical-policies-and-clinical-guidelines",
+          "snippet": "InterQual Level of Care (LOC) criteria is used by some Medicaid plans for medical necessity review for medical inpatient concurrent review, inpatient site of service appropriateness, home health and outpatient rehabilitation. The InterQualTM guidelines licensed include: ... MCG care guidelines are licensed and utilized to guide utilization management decisions for some health plans."
+         },
+         {
+          "title": "Access MCG Care Guidelines Clinical Criteria via Availity\u00ae | Blue Cross and Blue Shield of Texas",
+          "url": "https://www.bcbstx.com/provider/education/education/news/2024/05-20-24-access-mcg-guidelines-availity",
+          "snippet": "Prior Authorizations Lists for Blue Cross Medicare Advantage (PPO) and Blue Cross Medicare Advantage (HMO) \u00b7 Blue Cross and Blue Shield of Texas uses some, but not all, clinical criteria from MCG Care Guidelines when reviewing requests to determine medical necessity."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_161386",
+      "args": {
+       "query": "\"Texas Medicaid\" \"lumbar fusion\" OR \"spinal fusion\" criteria"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtADCs0DAWkUfROd1WTLFBW3p8i_Wt2WV3JxoC0-5Q75Mig_mY-ysXjrQBtdsVDH7i53Aqkafp-ccLRrM61LTm8njKiB62LtIx50V_NMOPiB_L31S1NgPQzCKg775w-dIwegp_IRHWqUfABlfL7FG6adRNdBNYZQTWLotczCLn1yscBGBvGnJ3QN9WPlwdaCX4Ryf3EspyOjjCI0uiqEBMW4zLjcFLbJbdgOhyLdJHzW28tkh68J6-pEkr2NzYJVrtZxfTxBHq-XGD5qyDiP1F9lpP8976W8nXo6lSPJ0_FU5mw8vrGsjnq0GxU9gBdB6GG0Dz2OSAdJefBYuJRLp5SzrQ1K_5PQR0Qzrth4IwoAZwFCslM6yC0b5tpThUVHfbT2QXW74ixU4t4Tw9CtdWm3B-UaeikI4eWMn5J53fEzTJRzXk1dA0NFio-FKPxMP7WK12FM5I84wzKyyaKl1XaEonFHnwBARvhUCG4X4iOXgW07zdkVgR3AQ7rcxfldyZmHy0HsRHhOBqcaQQg3a53PhALgGggbTHeA_hUi7Smj0_JeKHE25aexkYVUTQkViNSDmuYKTF0XnZeb6e-Rl0vipHBarr0f6_v3znOrpdOFZts="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Texas Medicaid\" \"lumbar fusion\" OR \"spinal fusion\" criteria",
+        "results": [
+         {
+          "title": "LCD - Lumbar Spinal Fusion (L37848)",
+          "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=37848",
+          "snippet": "... i. <strong>Iatrogenic causes, including expected instability as a consequence of another medically necessary spine procedure</strong>. If more than 1 level is fused under this indication, the record must reflect that each fused level is affected by 1 of the above conditions."
+         },
+         {
+          "title": "Article - Spinal Fusion Services: Documentation Requirements (A53975)",
+          "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=53975&ver=4",
+          "snippet": "Situations arise where a fusion is approved without conservative treatment being documented clearly when an emergent situation such as &quot;cauda equina syndrome&quot; is present. Also if an imaging report showing severe cord compression, osteophyte formation impinging on the spinal cord, loose pedicle screws affecting stability, severe fibrosis or formation of scar tissue compressing cord or nerves, and the patient&#x27;s history and physical findings correlate to the imaging the surgeon should clearly document these findings and the reasons that such findings require imminent intervention."
+         },
+         {
+          "title": "LCD - Lumbar Spinal Fusion for Instability and Degenerative Disc Conditions (L33382)",
+          "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdId=33382&ver=24",
+          "snippet": "Use this page to view details for the Local Coverage Determination for Lumbar Spinal Fusion for Instability and Degenerative Disc Conditions."
+         },
+         {
+          "title": "SURGICAL TREATMENT FOR SPINE PAIN (FOR ...",
+          "url": "https://ldh.la.gov/assets/medicaid/mcpp/6.9.20/493_uhc-surgicaltreatmentforspinepain.pdf",
+          "snippet": "Transforaminal lumbar interbody fusion (TLIF) which utilizes only endoscopy visualization (such as a percutaneous ... Spinal decompression and interspinous process decompression systems for the treatment of lumbar spinal"
+         },
+         {
+          "title": "Spinal Fusion and Decompression \u2013 Community Plan ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/spinal-fusion-decompression-cs.pdf",
+          "snippet": "flexible fusion on outcomes for the treatment of degenerative lumbar spondylolisthesis compared with nonoperative \u00b7 treatment. Due to the lack of clinical literature addressing this question, the work group was unable to make a ... U.S. Food and Drug Administration (FDA) This section is to be used for informational purposes only. FDA approval alone is not a basis for coverage. ... There are several devices used in spinal fusion and decompression procedures."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_149464",
+      "args": {
+       "query": "\"Texas Medicaid\" \"22612\" OR \"spinal fusion\" \"InterQual\" OR \"MCG\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EoMFCoAFAWkUfROO1T3XhjZ7lioPaaXASpGaDQlW0ZjjCHoPFQ05rNFZEBVCCfQxjV3ve09qruQC-1PWf2GF2STpYk2ZfT8UB2_1P9PyeRodY_p-2iVthpUtrJJKqUEWZLlHMrUXHmkbAwlHftnrZZIdsfXR6AZlgcf56rPPQlzZayt7IBXoHZvLr5nHz5NFo7ejvSOHxB-nLKmnC7-ZrNx87Iv-xz5cViNRAO32nJa77luc38X2I_yjukL5dvdWJo49fUCAEa3BQBdr9bjKQVuacfvaeBlCpX62dLXyZni9v6wqJB_NgZ6juPKT1eTrqrCZpi8qAHtXCX8ybf_Vtzbe-_StZJbc1Oo0GCym_lFLV08fS-Z_YITebnG5AFJ_RuIXUzVraZf037V2LtMAHZ501VPZsqmKVkfhxVQDC4V7p0tH6j20YQmVyjBq_6ySYiJIMt5YQMTk1UZrUheriDoKHb78LJX4IhLcXywJga_SMuXR7vGd9lcfiW9w0k87ZkW-VxN4NKdQ8kI7cCCY0YzKWwv9zjm3khNsJKA_tyNdxG21YkZbLXHFPxDbhTvaEE6YH7m7kPwoGDZlYnn6KfvWMOtibRpWWhOFXHmFEAGQ8Nmo67jszzTU43-jcbnUfqJRHZiYWYGDr1646iEYSY4W7EBybzzNcs3JbMwJ5eZ4esZ4Z6xewnYFqIS2BmcBaGIu6ypBLDkH5E54aZdxqV23P8BF-cIHEODfj9jkagWOEE9uvIuvKiroiMJ2xINr66scC9KV6zF-JKZ0myWcWnePlssu8ND5_U2H7LIIpLMUdfgzDN-mrUjEUNtn-jmvWsxY5D7SZ_I1k33YlnX9TYoPAHXyUQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Texas Medicaid\" \"22612\" OR \"spinal fusion\" \"InterQual\" OR \"MCG\"",
+        "results": [
+         {
+          "title": "Spinal Fusion and Decompression \u2013 Community Plan ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/spinal-fusion-decompression-cs.pdf",
+          "snippet": "For medical necessity clinical coverage criteria, refer to the InterQual\u00ae CP: Procedures:"
+         },
+         {
+          "title": "Spinal Fusion and Decompression Page 1 of 11",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/spinal-fusion-decompression.pdf",
+          "snippet": "For medical necessity clinical coverage criteria, refer to the InterQual\u00ae CP: Procedures:"
+         },
+         {
+          "title": "Spine Procedures \u2013 Medicare Advantage Medical Policy",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medadv-mp/spine-procedures.pdf",
+          "snippet": "Click here to view the InterQual\u00ae criteria. ... Medicare does not have an NCD for lumbar spine surgery. LCDs/LCAs exist and compliance with these policies is \u00b7 required where applicable. For specific LCDs/LCAs, refer to the table for Lumbar Spine Surgery. For coverage guidelines for states/territories with no LCDs/LCAs, refer to the UnitedHealthcare Commercial Medical \u00b7 Policy titled Spinal Fusion and Decompression."
+         },
+         {
+          "title": "LCD - Lumbar Spinal Fusion for Instability and Degenerative Disc Conditions (L33382)",
+          "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=33382&ver=24",
+          "snippet": "Use this page to view details for the Local Coverage Determination for Lumbar Spinal Fusion for Instability and Degenerative Disc Conditions."
+         },
+         {
+          "title": "Select Health Medical Policies Neurology/Neurosurgery Policies",
+          "url": "https://files.selecthealth.cloud/api/public/content/neuro-policies.pdf?v=08eb61ca",
+          "snippet": "ICER (Incremental Cost-Effectiveness Ratio) conferred a \u201cComparable\u201d rating for spinal fusion vs."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_149058",
+      "args": {
+       "query": "\"Texas Medicaid\" \"lumbar\" fusion OR decompression"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Eq4ECqsEAWkUfRMYmkBjEzx4dDdV7owlYfOgpV5jFpQQUcnjUDjrYOKcJXiAdGKSVKmQusnzyhV7Uxj3DsaF1aBbPStqa2nYFlwiLhroOmEdNznAHciWvOiSiTg1Wm_wb-wXPoa60_N05Oc_mqY_8Vk5Nx9T_wgojLhiD4CNDl85BFHDgqSB5tDuAS8RpIx2Ejovy9zmfgGBpuhAv18T8qQPOHTmNhMgXpeO3HrsyKU_oCR06uADfnvWayjhBnOXT_IXsbuOdQ0YViPldZUQZP4eupdVcrRkmEYQcDwMW2xCXZ5IdMosJyrBhIiXzCFKAX3rJprP5FlySs9ZP_waK1DXxV9LmQRckLKNV8yMM4aJyMx5rkuZvZhsBwBq-E4T6CFI76Afo9Mq1RKZ8CgxfLPk4IHUDCnt9_VTTKvtPUff5sG2CchjpzaPbabeX7C6b-hPVBoYNd_DrQ1jxkMTuuS6K49gw-dAu1MBSnURluQGukeeubRZ2VJPxTgXxns4wgw7o3taL1oOx90zfezIqMPZwJyFIPNwQd4ramj_bMdE_rUNcxr2lw8qAD8ZtsvNoUa3oJAo9xDBeJ818PbpwIQZpVN8ctR5ZL74sGB-AXy6ws51GTYstsEeQ_GPf301e_YmmyXQA1fGqCbIt1WCqeW1xgALnVF-6LsNsviS97GZi6kL96QFW6jEzvwvRCvpopFkVEBGXx1fbwAAiKr0NRia4HOi_Q2f3Im-eDdmMnvq"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Texas Medicaid\" \"lumbar\" fusion OR decompression",
+        "results": [
+         {
+          "title": "Spinal Fusion and Decompression \u2013 Community Plan ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/spinal-fusion-decompression-cs.pdf",
+          "snippet": "lumbar vertebral joint and affix it using pedicle screws. ECRI reported that evidence from a multicenter RCT showed that \u00b7 TOPS provided better clinical success [no reoperations, major device adverse events, fusion failures, or new neurological \u00b7 deficits and clinically significant Oswestry Disability Index (ODI) improvement] than decompression with fusion at the 2-"
+         },
+         {
+          "title": "NC Medicaid Medicaid and Health Choice Spinal Surgeries",
+          "url": "https://medicaid.ncdhhs.gov/documents/files/1a-30-2/open",
+          "snippet": "sagittal imbalance; when fusion is performed with spinal \u00b7 osteotomy. b. <strong>Medicaid and NCHC shall cover lumbar decompression surgery</strong> \u00b7"
+         },
+         {
+          "title": "LCD - Lumbar Spinal Fusion for Instability and Degenerative Disc Conditions (L33382)",
+          "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=33382&ver=24",
+          "snippet": "Therefore, any historical data supporting the medical necessity for the fusion (for example, duration and outcomes of physiotherapy, injection therapy, anatomic factors influencing the decision for surgery, etc.) must be included in the inpatient medical record as noted in the history and physical examination, operative note and/or copies of office notes. For example, fusion of iatrogenic instability (i.e., surgical resection of facet as essential portion of the required decompression rendering an unstable segment) should be documented in a pre-operative note and/or an operative note."
+         },
+         {
+          "title": "Common spine codes are reimbursed 13% less by Medicaid compared to Medicare, ranging from 46% to 160% by state - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2666548425000058",
+          "snippet": "For Medicaid, wide variability existed between states and between different codes, indicating that some state payment systems may lack objective metrics when determining rates. ... Spine surgery has evolved significantly over recent decades, with increasing numbers of procedures being performed. Predictive models have demonstrated that the demand for fusions, discectomies, and decompressions will continue to increase considerably over the next several decades [1,2]. Much of this increased surgical demand is due to the aging United States population."
+         },
+         {
+          "title": "Medicare Medical Policy Spinal Fusion and Decompression Procedures",
+          "url": "https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp358.pdf",
+          "snippet": "Medicaid Services (CMS). This policy does not take precedence over NCCI edits or MUEs. Please refer to the CMS website \u00b7 for coding guidelines and applicable code combinations. ... Decompression (PILD) for Lumbar Spinal Stenosis (LSS)."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_165234",
+      "args": {
+       "query": "site:tmhp.com \"22630\" OR \"22633\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvcCCvQCAWkUfRPJgbESON2IUuM9duNbIEuN6Q98iuTYjuf9UIXx_lBI-odmLShjmQtIBXtlNKYqz54wxB5GPiv3qT9omC2Ln3jLk82sAibk8Afpao3lVC-eO_jvBNNtxweqf4vud5waqfHR50200gmSCJNq8ihSfEztonBaiWifansttAJfQDhxKotGXdRAKoJ8shExq1AssIPutApHPuIXnsHgoxqKdC8zdNjj80xStPojAC6w4LNEAtJZbldUlcoWK_kd4FZo9M69HLq-vgDQeEgAvEsMa3k6k1B5d7Wc_cq-jEZZmFdMvBLGZXUnuECcPlbIYSS76fa2A3UiyO2n5TWSuZuu2HUoIIAL5QZB8QFxxpsNjz2-w-EJUf6MO1MXcnjt_OOQmY-nr8H9AC97XGHak7l8iSduFeBcvOaAdXc1r_9h2ov_dUdGeRG1mLWfXSu92OKJo8mxdJQKR3efrP2T_0vHzR7pwmu8HXvFnAYYN0T-_hAR"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:tmhp.com \"22630\" OR \"22633\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_193267",
+      "args": {
+       "query": "\"Texas Medicaid Provider Procedures Manual\" \"22612\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpMCCpACAWkUfRNSOkoArSj6v2Apnl-46YeA37imcx5v1XKpKny_pUNGcnjI6sycB3eYL_aC9hMTQ8_Lz9Dz4lUWHdaSQvUI_s0y6MANw8vSy--J0e7-iBx8E53CKpGity_bUBMBW2bR3DFSOKWwD6nlz6InklqWMjlaVYBdbR1fu_VI7l_O9K-AKfHs_haMlQXi3IDb-bXYPPay8tnCgs2NX7MCtnX_UQC3WoKC4mP39O3EcuhYsIj11641p0o7DosE0LUf3KDfe08T0D9HqS_4NzgmOw9HM6iYzPUcT1_oQfyXy8fWxxMderKdGlEa68030KVcf3tEbWr9mciPQ_8zwfpXT7R3AOOw0cAmP7layCJCwh4="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Texas Medicaid Provider Procedures Manual\" \"22612\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_144877",
+      "args": {
+       "query": "\"Texas Medicaid Provider Procedures Manual\" \"Arthrodesis\" OR \"spinal\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvcBCvQBAWkUfRP2uiSzXR-iS75N2sTMKwig4afQN4K37VuDx9XVbZSQ12hrqpe3YOZNtxUcjNgIvNz_5p3H5kcIyTT1HI_b-3VcgSIEneNfE0OCVlIiJeUEahHKxhoKwkbA9UNuNwGwFyvbGstHQXXZmBzVvNkK579gfNBIeCXFoaljqix7u1c83dHcii-Jlhk3ZMqR9gJsZ0esiDCXcPeUypp621rEmTEbUCo_LrXFGs0w2u8F-H4m-hTNBitd_xV_gesix52tBgNiqBiQGalyHHOySU7agG6hgwaykGBAgvTx67_7GCN1oapsr6fUaoCSS7oxg6ighA=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Texas Medicaid Provider Procedures Manual\" \"Arthrodesis\" OR \"spinal\"",
+        "results": [
+         {
+          "title": "GUIDELINE Version #: 2 Orthoses Guideline Page 1 of 19",
+          "url": "https://www.texaschildrenshealthplan.org/sites/default/files/pdf/Orthoses_Guideline_July%202021.pdf",
+          "snippet": "Thoracic-lumbar-sacral orthosis (TLSO), triplanar control, modular segmented spinal system, two rigid plastic shells, posterior extends from the"
+         },
+         {
+          "title": "Spinal Fusion and Decompression \u2013 Community Plan ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/spinal-fusion-decompression-cs.pdf",
+          "snippet": "decompression of spinal cord and/or nerve roots; cervical below C2, each additional interspace (List \u00b7 separately in addition to code for separate procedure) ... Arthrodesis, anterior interbody technique, including minimal discectomy to prepare interspace (other"
+         },
+         {
+          "title": "Spine Procedures \u2013 Medicare Advantage Medical Policy",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medadv-mp/spine-procedures.pdf",
+          "snippet": "arthrodesis, each contiguous defect (List separately in addition to code for primary procedure) ... facetectomy, foraminotomy or discectomy (e.g., spinal stenosis), 1 or 2 vertebral segments; cervical"
+         },
+         {
+          "title": "Texas Medicaid Provider Procedures Manual",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/tmppm/pdf-chapters/2020/2020-09-september/2_Med_Specs_and_Phys_Srvs.pdf",
+          "snippet": "<strong>Procedure code 98941</strong> will be denied as part of another service when billed for the same date of service ... Texas Medicaid does not reimburse chiropractors for X-ray services, office visits, injections, supplies, appliances, spinalator treatments, laboratory services, physical therapy, or other ..."
+         },
+         {
+          "title": "Policy 69 Arthrodesis with Additional Decompression",
+          "url": "https://aemprod.selecthealth.org/content/dam/selecthealth/Provider/PDFs/policies/medical-coding-reimbursement/69-arthrodesis-with-additional-decompression.pdf",
+          "snippet": "longitudinal ligament to look for free disk fragments (decompressing the spinal cord), or removing far \u00b7 lateral disk fragments to decompress the nerve roots.\u201d \u00b7 The National Correct Coding Initiative (CCI) Policy Manual for Medicaid and Medicare Services indicates \u00b7 that CMS does not allow separate payment for a laminectomy/laminectomy when done with arthrodesis"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_130758",
+      "args": {
+       "query": "site:tmhp.com \"lumbar\" OR \"spine\" prior authorization"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtsFCtgFAWkUfROwzbWaFCamdJGNAl2ox-kNVyqgz7ZPIz9qaoJjhN68Axx77gQGIlqBm8_VM1h3hEEtu5SH_CYKgZLJId6heTj44TbOzOhjvzvKV5SXXAtMeLQttBWId7t_pU-td5YDsTkQC6LvFiuBSeakZc3PJMABSeN2Bola8glLxUQlYxGFWZUXL3OIZKsSKTeinPE0PtCskhMkSBekjrM66TSUr7BGOJzhE6ri4Cvvs1YKqYk0WKtjzOHt0SzfHEec9C-uQCZN2awo1HhuV5IuRyw_YIa5lzEaahxmxWxk15Hr_veYpPkdRTg3RoIZyUgMprOJTWVgw5rHclprpJ_BQ-Af8dPoQdHC30HLoq1g5fXfFSZ9LPcvieSQowXdf0TpMUTNo9yI0LAesdkkdZ77ISLLRUsZHNJ9-nLiTNy9QgRy6z1CSUzKoN3shM2wEmmJn3whxeDwu8-c1OWA0E615wbRDRwSGpiESiRI0iUikr84uAzZl8IiIGRlGtBayi-C3w82IpSazrbY_vnhYoOgpdjH9-IaXYCzC4jrajrkZiglQp-vVkOScxgyYhS6KGW2mKVBrsnt2vNe7iJdExEmm9Q1OCCClxteKSrNMizNbCloSzYwj9kq-4dv9suf1PHBfIYA7qevaBMqCPc-iyF8VK3FE0mZkAoqiobik8vAh7z_8eHkly-LhnPqGo6UWxv5IXpUmcmGIn7aoNbNPlCTHBcFCGbSWZxtt1LG3N5LLAwtjEfxwft5KMGnq1-sTwadLoiPKui0SGRitxUd8Nz2vheza85jq55r6_N4d1wBxPgKUXaDoxk0dGlpM4kY0-ai-tREkjTJg87pESfZJ1knmZZlNUVVFq7hLqqcVvrWjzYcj1qX0kNVCe8_rg-O3QmYI_DypT8-Jn2Ka4dwVTMykHe3HdbP3ZJEQHT3VS0kzhYpjbZrRlJFOnPTMhFOOIo_2sH2XVrj9Y0="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:tmhp.com \"lumbar\" OR \"spine\" prior authorization",
+        "results": [
+         {
+          "title": "28_Ortho_Prosth_Dvcs",
+          "url": "https://www.tmhp.com/sites/default/files/microsites/provider-manuals/cshcn/html/CSHCN_Manual/28_Ortho_Prosth_Dvcs/28_Ortho_Prosth_Dvcs.htm?rhtocid=_28",
+          "snippet": "Requests for prior authorization <strong>must be in writing on a completed CSHCN Services Program Prior Authorization and Authorization Request for Durable Medical Equipment (DME) Form with all procedure codes included</strong>."
+         },
+         {
+          "title": "Prior Authorization and Documentation Requirements",
+          "url": "http://www.tmhp.com/Manuals_HTML1/TMPPM/Archive/2016/Vol2_Children's_Services_Handbook.17.098.html",
+          "snippet": "<strong>At the end of the six-month authorization period, a new prescription is required for prior authorization of additional services</strong>. The actual date of service is the date the supplier has placed an order for the equipment and has incurred liability for the equipment."
+         },
+         {
+          "title": "CSHCN SERVICES PROGRAM PROVIDER MANUAL OCTOBER 2025",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/cshcn/2025/2025-10-october/28_ortho_prosth_dvcs.pdf",
+          "snippet": "thoracic-lumbar-sacral orthoses (CTLSO), halo procedures, spinal corset orthoses, and spinal orthoses ... indications in Section 28.3.1, \u201cPrior Authorization and Documentation Requirements\u201d in this chapter."
+         },
+         {
+          "title": "CSHCN SERVICES PROGRAM PROVIDER MANUAL JULY 2025",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/cshcn/2025/2025-07-july/28_ortho_prosth_dvcs.pdf",
+          "snippet": "thoracic-lumbar-sacral orthoses (CTLSO), halo procedures, spinal corset orthoses, and spinal orthoses ... indications in Section 28.3.1, \u201cPrior Authorization and Documentation Requirements\u201d in this chapter."
+         },
+         {
+          "title": "CSHCN SERVICES PROGRAM PROVIDER MANUAL MAY 2025 ORTHOTIC AND PROSTHETIC DEVICES",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/cshcn/2025/2025-05-may/28_ortho_prosth_dvcs.pdf",
+          "snippet": "thoracic-lumbar-sacral orthoses (CTLSO), halo procedures, spinal corset orthoses, and spinal orthoses ... indications in Section 28.3.1, \u201cPrior Authorization and Documentation Requirements\u201d in this chapter."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_113576",
+      "args": {
+       "query": "\"Texas Medicaid\" \"lumbar fusion\" criteria"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EroECrcEAWkUfRNMfVn_mKeuBD2hxMScXhIBsUKHhqvL2dzli8_oaHerwaIgzXwXt6WC9CSqIBeN5v6Os_6Q0dNDs_NMH4EnEDSBSWMK5EWHCatQojfBf8r6YzAxvAzbWPmMvCsZbRQfzKiVty5O8nZ-JZS3j-mlcT9-iZb1fozoTd6lM734kq8c6wSDrr7fXTI3hGUZRMPJsEQjgUjAFy_cY8pyAyegqiZj4A9Ys7AGIFD9FeUTzE6m-sc0g2qrKwrXPKdabQIEgLuSffsoVqS0s_sJWb3t7sIemigeqP7YSiyP4ykVa6dj6NlIB7pWeJEGgaUUIBp2qmwv5LtjwXIyG-zdfHglw0-E_cBkGyu4NBz8v9MvdYI_lCYrc2wQJAKGaUzt-IxsdAQjKUfbPBZSL_rTL7fKtATJlXnh41HFB2zM4bfeG9gA-al7ihbm2nFVZKRwZp3LpzGjwQidcc0GyNEiP4xAA33VCeh14lnSjwTC78v7ZnncmNDJDHsZDGiOSqGrO33ILiH34DFc0qJS1PjVwj3vRQp_FiEtAQ2N1xCOR1ef7LzxQXqFQzK-94s0cTY_7_6iXHU_uI4q475gvMk_4DAZsuRWNOJLXzeZzy4R8Wr6FLpTzT0RZEUR1s35ch6YpdfvnJlgdJFfcoMCMp8spLAec6kyTuFdXE7cy2vWq1mSBvqBJfTPmYL9TN6FXxlbq0I8YxYHPm-U2uoj86BEVEX9U3iUKjAVSLlngIvXT5VRbLEPrZZk"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Texas Medicaid\" \"lumbar fusion\" criteria",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_148754",
+      "args": {
+       "query": "\"Texas Medicaid\" \"lumbar spinal fusion\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqcBCqQBAWkUfRPYYA1I2eIn6HATm-CyPtZ7j72cUdTskfx8EcVAv3LEVYTBysrrn4CeVFPVdQch2Asc4db9p-kyYtQTD7sKMPiBkZZ1978SG5AIxo6uG2ZTUdh-d5aWfV6JBeOSXtTD4rS6S-AotYD9U98vDPiZ0wXpYxm_dSUHJIMwScKLnw7JbpJE-TTY7TaHICCbs6JFLZbqPoqKEtvUQro4ld5AmH4="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Texas Medicaid\" \"lumbar spinal fusion\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_90199",
+      "args": {
+       "query": "site:tmhp.com/sites/default/files/file-library/resources/provider-manuals/tmppm/ \"Medical and Nursing Specialists\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EukFCuYFAWkUfRN85Nrqy1CGZ3U3ayBPAdR-21CqEW-zFV21uNrwss2CUy5VtjNAu0FK0cthA0qvS_liX6SEIuPkcaY4_VJULhltQivYhIX54cMt7KEioD9u3YC238e1E2UEvmkTc-thhzkj7N7PSMWgs9Qf5cdBGHAS-WVhNRmtHhS6dXDaMr7r_5TeGURYFRFDxLHrrK9QVEBJrUWGlscW3ZgMg2ScGNhsdy2VovyWHLVISATezKLQraFS9u0R7Z7LmK9Zy6oHIeOykAq2g0FmAYikkssf-FVH5PmhWUw7Zq0Tar9pBDalPblJ54bI8kvkGBV2e5PGx4IJimMyl3w-u8uYamgCEQiPrtiWwGQ6xh3q-w9fa-cQVXmOMy4GbsyUZ49eIgOluZhpmJpcww_JMFhNDGNQkK3UenPODPKwF0IfsyeGU87vkanPYOgHN-1nXYwagcnGXj7LK8rEPOBpknrCRRR4Sqr7QsJuhAdD1sw1oCbxg_9ezlXQQ55v-VYgBFPFzrGz9cHIQBJdK5dgRXIe7CpTKrLq-LESdfEIyob0xtrwAFQFJjk6Qe7cVHzILYf_fgI-gwYS1dKgmPeATjvrukhRYJ-Oew8KbnhCg9OPnjF_TKTcXlcqygJLxewjfBmbkLHcpL2kUjqcoNOXqRitKGhrNnnUNhA5ih9nMbkUIkhlG4RrgXgBJr3zO829KsuwmgYVrETWZLwPyZhVAo21FXBLN8uQ0CtUWiMJF2OqhxNW_EcF-pfaUiItHvh6fjTi4UCHYX5ee9S4RVVQDnHPer2KELgDxHKMC--brbwEs3Mel4-TMH-5hvEBwoVD_prUCikOxXV1tqm1IFPmZdG5vvnC6aXxjhEaARQFPvUhTtOhzsBitdqLyKJ5gRDfrjnQwaKewAJQ7V_kR3hqaKNpCHD2c87jeoeVmu6tgrarfAutztxiBCK4xy5X9EqRKwASNggE1J1qfaoIpY6gX7rbCLwzYP2CXw=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:tmhp.com/sites/default/files/file-library/resources/provider-manuals/tmppm/ \"Medical and Nursing Specialists\"",
+        "results": [
+         {
+          "title": "Texas Medicaid - Provider Procedures Manual",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/tmppm/pdf-chapters/2026/2026-04-april/2_13_med_specs_and_phys_srvs.pdf",
+          "snippet": "CPT ONLY - COPYRIGHT 2025 AMERICAN MEDICAL ASSOCIATION. ALL RIGHTS RESERVED. ... The information in this handbook is intended for Texas chiropractors, nurse practitioners (NP), clinical \u00b7 nurse specialists (CNS), certified nurse midwives (CNM), certified registered nurse anesthetists \u00b7 (CRNA), podiatrists, geneticists, maternity service clinics, physicians, and physician assistants."
+         },
+         {
+          "title": "Volumes 1 & 2",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/tmppm/archives/2016-06-TMPPM.pdf",
+          "snippet": "<strong>Medical and Nursing Specialists</strong>, Physicians, and Physician Assistants Handbook \u00b7 \u2022 \u00b7 Medical Transportation Program Handbook \u00b7 \u2022 \u00b7 Nursing and Therapy Services Handbook \u00b7 \u2022 \u00b7 Radiology and Laboratory Services Handbook \u00b7 \u2022 \u00b7 Telecommunications Services Handbook \u00b7"
+         },
+         {
+          "title": "August 2021 Texas Medicaid Provider Procedures Manual",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/tmppm/archives/2021-08-TMPPM.pdf",
+          "snippet": "Private Duty Nursing (PDN) Providers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43 ... Certified Respiratory Care Practitioner (CRCP) Services . . . . . . . . . . . . . . . . . . . . . . . . . . . . 44 ... Physical, Occupational, and Speech Therapy Providers."
+         },
+         {
+          "title": "July 2021 Texas Medicaid Provider Procedures Manual",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/tmppm/archives/2021-07-TMPPM.pdf",
+          "snippet": "Private Duty Nursing (PDN) Providers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43 ... Certified Respiratory Care Practitioner (CRCP) Services . . . . . . . . . . . . . . . . . . . . . . . . . . . . 44 ... Physical, Occupational, and Speech Therapy Providers."
+         },
+         {
+          "title": "February 2024 Texas Medicaid Provider Procedures Manual",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/tmppm/archives/2024-02-TMPPM.pdf",
+          "snippet": "THSteps medical and dental services providers \u00b7 Some provider types may apply for a waiver of the Medicare certification requirement of the application \u00b7 process if they do not serve Medicare-eligible individuals. The following provider types are eligible to \u00b7 apply for this waiver: \u2022 \u00b7 Audiologist \u00b7 \u2022 \u00b7 Dentist (D.D.S. or D.M.D.) \u2022 \u00b7 Nurse practitioner/clinical nurse specialist (NP/CNS) SECTION 1: PROVIDER ENROLLMENT AND RESPONSIBILITIES \u00b7"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_182986",
+      "args": {
+       "query": "site:tmhp.com/sites/default/files/file-library/resources/provider-manuals/tmppm/ \"2_13_med_specs_and_phys_srvs.pdf\" \"fusion\" OR \"spinal\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvUCCvICAWkUfRPuoo26oX546SClOMpAC_mWqOzp0Jd2QQokfgd80Q5gd-coUXKlJKDYUg9dhT8Pa43Et5dwNF8WoX0MPe5p41CuGuwlveQ0MtMK3wp7BqYAIyzcDztGn1Z1JE0GqGsXr5C8TVs-dOJnuCNrYzCQLP2Nay155B8TEXuNWMExD7_1NsveOGp29WZbfmv1wIMYqBwI-2Bjm1d9b8IFtPfcHpueMXl7dXd3yFRp7sE3CL8EItlXZvekJehIqBFDxfRnnuiOoBdCM0QHCx1rAqM9jkip8Fe7MNFHxjVW6dO5btf5tCEcW-rotisYfJNAqQbkrBgJB5UD8HHjUnAqo8JL3ww8e-0os0Ejt5SSswZdhjbCxQyqQRcMh7WSZZMD4sbVk2REhYn1pJRVfkEbUhUHYgHuRgRfjGS3DLFfgENOESkqgwctlXtdeFjaD3EKlRRKO9HZDOd3Wu0H4DubIbWxraI_UH0eK9R2sMOQ-1bh4A=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:tmhp.com/sites/default/files/file-library/resources/provider-manuals/tmppm/ \"2_13_med_specs_and_phys_srvs.pdf\" \"fusion\" OR \"spinal\"",
+        "results": [
+         {
+          "title": "Texas Medicaid Provider Procedures Manual",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/tmppm/pdf-chapters/2020/2020-10-october/2_Med_Specs_and_Phys_Srvs.pdf",
+          "snippet": "appliances, spinalator treatments, laboratory services, physical therapy, or other adjunctive services"
+         },
+         {
+          "title": "NEUROSTIMULATORS AND NEUROMUSCULAR ...",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/tmppm/pdf-chapters/2021/2021-08-august/27_Neurostim_Neuromusc.pdf",
+          "snippet": "NMES for Walking in Clients with Spinal Cord Injury. . . . . . . . . . . . . . . . . . . . . ."
+         }
+        ],
+        "result_count": 2,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_149307",
+      "args": {
+       "query": "Texas Medicaid appeal submission address \"appeal\" OR \"fair hearing\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Eo8GCowGAWkUfRMjFtLb4wEvNpBRmciDp3nPOe89Y4brvXVi89KiB2G_0NwACMNEde8w9a4solT-4BM1WVjLbRzHQRBLKbcPaZYF4nRlTCyS7mHIdXUdpFF0RPziAOqS8cbrgEbm4TEaPJjtf7dOBQuEzEEnwgNPUbqPqgMS5YEvj7-KTf788qzrhGo_mmu6h4d9xpkk41eb9H8MxgtFFO4LzsQzDxk3iKe3rqljhTM4lKQgeBk3i-TjWo0mWNvAbLDq_XfY9e3SGGfbhkpY9fuozQ8nu1xYkh8QKbEkwQMfZgsFnDkRGVo3H-mKu_2h0ZjbpeMgdoC-SI4kGsfsjUwkt-WhMjtarJPL-65fxbYoXa0JCbpOD0QvTiaMwbQ0SXSn36hHJ2ridzZNEHZ5slrpRL7Eh3rKZEDQpBrpzkRYCtU5VYuKPFvDgZ4gniBTSINYn5lvx1mHpuwb0CaJcSei0Rg7ZEFGd9VgcREjzq0bw3YxR5CQWVi7e5R0oDpH86yLy1b5k2x9KvTBi_yzmN0uFInSBeJB7Wql6T3LqVTGpIvDvH-W62ygfCXLbVsG9WYyTG829rqes-k_472Lb6hK-wuV3eJA8DADdbzaJo2yfQfVini3RWYhLmVqVjHl4TkS64LDqa56wgPzxF62S29NJw19enG1PfSVcT7BdDiz8AMSlgukGcavYlaObE5NOixindPGxXpaez1MNRbJtOFZl6Mdic0-_XP_sKq6it560jZoedXQ69sedTULvR4y8dmzeS8fpBA1TcwyaucK15R0BKq7Ep_VIbHIa3T7vUYd4rJmX-ZBkmqnDXEaWa1Un0tEkpuvEwGBymExg8DM23dP0iAM_n6vQQzMKclnKaV3z0VojvIKhUb2-ztAdmangHMfY7iqVFDjH0_l0YjjCwqaTdmx_1BVykbfR1zoomUh5N3BrtkfkHxvAlgka6c1kQgTApGfqYnG5tw2eBhnCEMWV09bYuMZ5MzPLlN-10sWPyPdwME9VMI28fetvNjoavWToK0F4i_j9MvLboQz5lcj"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Texas Medicaid appeal submission address \"appeal\" OR \"fair hearing\"",
+        "results": [
+         {
+          "title": "2900, Appeals and Fair Hearings | Texas Health and Human Services",
+          "url": "https://www.hhs.texas.gov/handbooks/community-care-services-eligibility-handbook/2900-appeals-fair-hearings",
+          "snippet": "All fair hearings are processed through the Fair and Fraud Hearings section of the Appeals Division of the Texas Health and Human Services Commission (HHSC). The appeals division receives appeal requests from applicants and people contesting actions taken for benefits and services of various programs. These include the Supplemental Nutrition Assistance Program formerly known as the Food Stamp Program, Temporary Assistance for Needy Families, all Medicaid-funded services, and other agency programs required by state or federal law, or rules, to provide the right to a fair hearing."
+         },
+         {
+          "title": "B-1030, Appeals Procedure | Texas Health and Human Services",
+          "url": "https://www.hhs.texas.gov/handbooks/texas-works-handbook/b-1030-appeals-procedure",
+          "snippet": "The individual may contact LSBS staff to request a fair hearing if still not satisfied with the results of the second review. CRU processes the appeal following the policy and procedures outlined in this section. ... The Texas Department of State Health Services (DSHS) handles appeals concerning specific services for Medicaid recipients including: ... For individuals who want to appeal service-related issues, staff must refer them to DSHS. DSHS individual notification letters include an address and telephone number for requesting appeals."
+         },
+         {
+          "title": "Complaints and Appeals | Texas Medicaid | Superior HealthPlan",
+          "url": "https://www.superiorhealthplan.com/members/medicaid/resources/complaints-appeals.html",
+          "snippet": "You must complete the internal health plan appeal process through Superior HealthPlan prior to requesting a State Fair Hearing. If you disagree with Superior\u2019s appeal decision, you have the right to ask for a Medicaid State Fair Hearing from Texas Health and Human Services (HHS) with or without an External Medical Review through an Independent Review Organization (IRO)."
+         },
+         {
+          "title": "1400, Submitting a Fair Hearing Request Summary | Texas Health and Human Services",
+          "url": "https://www.hhs.texas.gov/handbooks/fair-fraud-hearings-handbook/1400-submitting-a-fair-hearing-request-summary",
+          "snippet": "Revision 25-3; Effective May 15, 20251410 Right to a Fair HearingRevision 25-3; Effective May 15, 20251 TAC Section 357.19(b)(3)What Can be AppealedClients of Medicaid-funded services, TANF, SNAP and other agency programs in which state or federal law or rules provide a right to a fair hearing, ..."
+         },
+         {
+          "title": "C-6100, Appeals | Texas Health and Human Services",
+          "url": "https://www.hhs.texas.gov/handbooks/medicaid-elderly-people-disabilities-handbook/c-6100-appeals",
+          "snippet": "Individuals whose medical assistance is denied because of an SSA decision should file an appeal with the appropriate SSA office. Note: If an individual submits an application during the time the continued benefits are being processed, the application must be processed as normal. See Chapters B-2300, Eligibility Determination, B-3200, Application Process, and B-6400, Processing Deadlines. ... If an applicant or recipient requests a fair hearing, the burden of proof to uphold HHSC&#x27;s decision rests with HHSC."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_123183",
+      "args": {
+       "query": "\"Texas Medicaid\" administrative appeal address OR \"TMHP\" appeal address"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtcECtQEAWkUfRNPI62qL_TaYPKA7WeNzxDziZgy-VkUogqSdMljFGR2rkb0nG-AR0IPmvA0GPw2vxGJLBMT8PepqvtyMq07b95qpbLn7OCholWHEyZy3-ak--77OQrAzou526c9ItaG08xVzV17tnbYekAzGzNMlhqo02cPgV7UqRbmoGJqlHscu0kxW_JJaEbIXlYT2GHOO96jQApRVEWDpGPQruUKuIAh4hyyLynvF8K9RuC12mKmgmEIdaYzSKZOFVIj2ghK03yAeCt5gJ1NYj7zq0oQK81WVG0XydsV4drHbdfZ8AVj6uLatN95YcqLE-IonG3TNayBut6FEdS7m10pBRH7v_ycLe6wT_ET1ESYojCNn74-OGr2LRrxevm4bJGPz8BGP44rqmrox5wZpOwKtUPax2EnptRdQOdQKX_1rBg6596XHJJs5o6zogrWdiGJNw3S2_nOjyFPl5-OrsqTjrZkrhTPMSnR35vWVaj7cchtJXhq0do6CHns15xwW2yE-0KVkTxSeXTm2i4i-HlUG7GprdbZEAqw53RS-WKBrQ_zYkdSTsFBluAMePPz6AYDQV_2FUMo9iqudxzgPNAW-EAZATK7vRa_Up2ladGb8cMpze6JaSLT-Xe-f9iWAbcDTBh_54NQtbrX8NhAGEpnjF4ifDu56sCQ5hh-rmsm5U_CihKq-9_g3UfjYbs7nb0lMbN3klyu3F2iRFcVW4vuCSJUuEDDYMzDAmPKPDfXEL6wKvAm3bqchrNuXxntZDcZOfg_EBlvCn4Q795Ksazhrlwk00U="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Texas Medicaid\" administrative appeal address OR \"TMHP\" appeal address",
+        "results": [
+         {
+          "title": "Medicaid and CHIP Complaints and Appeals | Texas Health and Human Services",
+          "url": "https://www.hhs.texas.gov/providers/medicaid-business-resources/medicaid-chip-complaints-appeals",
+          "snippet": "Claims that originally were submitted to Texas Medicaid &amp; Healthcare Partnership (TMHP) for routing to the appropriate medical or dental plan can be appealed to TMHP using TexMedConnect or EDI. The appeals will be routed to the appropriate entity for processing. For additional information, read Texas Administrative Code, 1 TAC 354."
+         },
+         {
+          "title": "1_07_Appeals",
+          "url": "https://www.tmhp.com/sites/default/files/microsites/provider-manuals/tmppm/html/TMPPM/1_07_Appeals/1_07_Appeals.htm",
+          "snippet": "Complaint requests may be mailed to the following address: Texas Health and Human Services Commission HHSC Claims Administrator Operations Management Mail Code <strong>91X PO Box 204077 Austin, TX 78720-4077</strong> ... A provider who is dissatisfied with the determination contained in the Notice of Program ..."
+         },
+         {
+          "title": "Appeals and Administrative Review",
+          "url": "https://www.tmhp.com/sites/default/files/microsites/provider-manuals/cshcn/html/CSHCN_Manual/07_Appeal_Admin_Rev/07_Appeal_Admin_Rev.htm",
+          "snippet": "Paper appeals must be submitted to the following address: <strong>Texas Medicaid &amp; Healthcare Partnership Attn: CSHCN Services Program Appeals, MC-A11 12365-A Riata Trace Parkway, Suite 100 Austin, TX 78727</strong>"
+         },
+         {
+          "title": "Texas Medicaid Representative: Contact Number: Revised Date 8/20/2025",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/medicaid/texas-medicaid-quick-reference-guide.pdf",
+          "snippet": "Providers can also view letters sent to them from Texas Health and Human Services regarding the appeals. Questions about the status of submitted administrative appeals can be emailed to MCD_Administrative_Appeals@hhsc.state.tx.us. ... Go to www.tmhp.com and click Access TexMedConnect in the right-hand column."
+         },
+         {
+          "title": "TEXAS MEDICAID PROVIDER PROCEDURES MANUAL: VOL. 1 FEBRUARY 2026",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/tmppm/pdf-chapters/2026/2026-02-february/1_07_appeals.pdf",
+          "snippet": "Client\u2019s name and Medicaid ID number. ... Date of service. ... A copy of the R&amp;S Report showing the claim to which the refund is being applied. ... The specific reason for the refund. ... TPR subscriber information. ... Amount of insurance payment. Refer to: \u201cSection 8: Third Party Liability (TPL)\u201d (Vol. 1, General Information) for additional TPL ... An administrative appeal is a request for review of (not a hearing on) claims that are denied by TMHP"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_161031",
+      "args": {
+       "query": "Texas Medicaid client appeal form submission address OR fax OR online"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsoGCscGAWkUfRNDzLjbTwNEBHF6X-2xYWBiaH0jX38y0-XmlpPuq79a3cJQ77shtlgXtMiwOQ8Rg9vDZVFNn09MYZ2fpp-tEH9kWUTlpVcIfDFzwlKhv71YIucmOaJVuf3GCX2nZQyOrLxMpu27EV4fKiBmGNW4L0TbtTfsoYT274sp4UppsyPoBqRDmkGunJwIEYIJ8-6Vz83AUytHlRxoFr6NkNYQBHycJtOVsXrmLSzZYUXaj4Nwtty3pcv4u_JOLZl-pTIfiqVL4Avwd-GOshSk25W45v6SjfY_7A8ROpzQKJF0EGuf5zCme8_YA0PNHVzy6sMIYLrOmAjW0EtHOSI3p9MwMa7N1ysB1mdCIFAmsT1Nc_mETb0frYpYdrwa5btGjG-kfo4woAPvzjkZzABkumydGihNt0sqYJrhu2kbYlq0fVNgMlttAVfrg4TqEbsNHxciqMK2H80_mmQUcTaZpkn7-8BomN00iy-ZKG9FMIEZQVQ8X8kzi9dyokJXevMceDWidYeeMjfHKPMQXRHj_SwZHhgCQmk4iFQr3h0-pTaOVVgPcQHrOZokI-hDvtbFw9u6dHF0xpJ5DygEll8CtJL7wPXHWB75uP0wRroGZ5tg-IRyev24fpWT6Cw3ufuoj7sFfdZizFZt_nacnGNAIkggABRfP6fb7U65t3eNy-j9K-Z4ZzZMHcVem7CfzyAFnGSGSQ1EEnRhxDPCgkS7x5Pb_m704GONTpyJZ-riyMlvBeVgqECuLh4aLVh7AOQOaoGhy2baR3054YKTbCko0y8CyfVZe0Tl0snJJAmJKVRacXs1T0bbagop8zX2a8gQzHdIpIu_K7ryGA1kv9LbtSbHLwHhoC9agYXq-AMBbbqAcaMSE_DuAYDt0yiZOdNMJerRHAdESPuKWMpbmcEqJUQkU1IbMqmb5zkx4ZifPKOMQupKqbnBR9nHN7FsLjaOIcwPIccTZaTUphih0yaI6J4CbECnIx1ydG4QPZUkcCPWyguPCxPJiDqsGht02rT9wGlKWi23XjD9_rT3oaFQULqrpE-33RW4E2LUVYMiQXTU0b061NjiThyDPBtI3CAWCI3U3b7niw3vUFCTEnsFPlrVbPTTbdI="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Texas Medicaid client appeal form submission address OR fax OR online",
+        "results": [
+         {
+          "title": "Complaints and Appeals | Texas Medicaid | Superior HealthPlan",
+          "url": "https://www.superiorhealthplan.com/members/medicaid/resources/complaints-appeals.html",
+          "snippet": "If you have questions about the appeal form, Superior can help you. Call Superior at 1-877-398-9461 to request an appeal by phone, or call Member Services at 1-800-783-5386 for more information. You can send an internal health plan appeal in writing to: Superior HealthPlan ATTN: Medical Management 5900 E. Ben White Blvd. Austin, Texas 78741 FAX: 1-866-918-2266"
+         },
+         {
+          "title": "Texas Medicaid Representative: Contact Number: Revised Date 8/20/2025",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/medicaid/texas-medicaid-quick-reference-guide.pdf",
+          "snippet": "Providers can submit Medicaid fee-for service administrative appeals electronically through the TMHP Portal."
+         },
+         {
+          "title": "Medicaid Grievances and Appeals in Texas | Wellpoint",
+          "url": "https://www.wellpoint.com/tx/medicaid/complaints-grievances",
+          "snippet": "Call the Medicaid Managed Care Helpline toll-free at ... Submit an online form. ... Texas Health and Human Services Commission Office of the Ombudsman, MC H-700 PO Box 13247 Austin, TX 78711-3247 \u00b7 <strong>Fax a letter toll-free to 888-780-8099</strong>."
+         },
+         {
+          "title": "1_07_Appeals",
+          "url": "https://www.tmhp.com/sites/default/files/microsites/provider-manuals/tmppm/html/TMPPM/1_07_Appeals/1_07_Appeals.htm",
+          "snippet": "Medicare crossovers and inpatient ... (including routine inpatient hospital claims) to the following address: <strong>Texas Medicaid &amp; Healthcare Partnership Appeals/Adjustments PO Box 200645 Austin, TX 78720-0645</strong>..."
+         },
+         {
+          "title": "CSHCN SERVICES PROGRAM PROVIDER MANUAL MAY 2020",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/cshcn/2020-05-may/2020-05-07_Appeal_Admin_Rev.pdf",
+          "snippet": "supporting documentation must be submitted by mail or fax to: ... within 30 calendar days of the date of the letter from the CSHCN Services Program. If the information \u00b7 is not received within 30 calendar days, the case is closed. ... After an administrative review, providers or clients may request a fair hearing if they are dissatisfied with \u00b7 the CSHCN Services Program\u2019s decision and the supporting reason. The fair hearing is the final appeal process and is described in the Texas Administrative Code (TAC) Title"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_122497",
+      "args": {
+       "query": "site:tmhp.com \"prior authorization\" \"criteria\" \"medical necessity\" OR \"request\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpUQCpIQAWkUfRMK59ufvgOqdPYuF8UOs5Vv5pYiT6S4w76P2zvsHYkJssZqR5n2EyK6pXynRefTEzAL_Jfd2LVCc65UEcrItrDjXVbzkoP9Wmcr4IKHptnaYyhRQTJOoPblo-f67xT0aUCwBTgiRpqTAaI1JH5lky8fgFrY1oJfWxOZIgtNH2c2rCl2wgFmUQMmPSBZ9THpB5DAU2yrOpQl_M0NZVhK09TZQy8B7gyo0NSqbYU7SZsM3HwkcV0-_tSHZnIlnnfdIMdyYoJfs4_u8MU3OvZykyS61MOesL5msce1kand_XAIm1OiuqixpWl505cW_63RsOXQgYyanSBinSgdtZJyM85eMJzY_V_KQGa723rub2h5II2UBlr_GB2YsrkDoTctVmFhraASpnm3yJstAzPiTQbaxnzOK2kkYmpRdqCIMy1_nMvCF73BAMq1fRf2WWNrpEuN_BwyioL84jPgITvFixpg9KcaE7UKHpyEiBKa3luJ8MBFINCbf9qrVpkh_IJQF0JTrOrXqUkYI-glPtiPsxs5oCNSGRUAeD0UGSqLuxTeV9HrmHu0qWlxCE8WOIl7p7GwMkY7r7Ilqgqed9umFdJVu86xAgZNz63YEoc2tgVolzAAwnckpFznX2oVGPt8egVNqosfoaU3daVXG0MxrPldQycXsP_2jLiabKW2opeUaRv40WMSp00aOz_TFQZfqMlFUKhatoBbTGiQ-u-JRKOJLKVRlI0HSPC-fk8ps-NqLZ-MHIDK6b-fel1BUU0KEYgOwN1rZUsrw4g_eBb3Stx25l_mA7BLquMvrs-1FM4HsaW8xSzXFOQKnuL7EPMs_ER2X5CWDRpLjfSh-GLkiSSoh7b3hicBXwd2L66Kn2Hnj-wm0e6gPk4pa1rwiMT7PBGwGEmkVIYt-14tKo0fpLnsANn_nOjOgCgUvORU2_FlKH-gKatEqN0Ltir8eIvl__khDdqH4bkueyzjEfYWFFDjWUnHsTLayF35mJ18zF5Le5D7WFNIgMRJ5AlCgjM5GRFzfIiK1sf3YaGR_Y1pASLeTdkmqgcRLcIaHE5GBgUq6s286fdqqNst93IgGxdroHjPrklUgw6RusvsKLqTMKNnsUzz5GobJaoxAubS3XVhMlSUEBBvZOATxsTQFI29g6fEJoNxDLIIwAyNJeft5hzJa72psyz_ldJr2kzXWoxEl71cIGDrghiEqknrlePlo7y65-7mwisecbWWp5kvDk6edVlnkFD6XfQ4FxjZDBj87QIaa0DaC6pHB7GgROnxDmydSlgcCoop7gT0EWm-97y4_kavrTjoAWwQV3sp6a3uixCYuS5viEI2K66aR5_J7k9U_G2eoAesKv1DphSyEM7lnG4foa0o8xzBfViqG6YKzb3ZSesA7d-4H5VUNYD0gCVq5Z88vMqBHbnxgwSKY9KZNO-pzQyUaxDm6KFzh_aytwKsrMXbqWFkO4KsYyJr6_Ldyzo9c8Y11ha0BuIhPt8AOrh4oREfwn5eyQyZ3aRRLKehDUvaBRcbkxv0b-6BRUOcoUH9OCMsOe-mkHh-pFOzB0yeZVQd-th1Q2ohqI-iIZc8fgHK6GT2o-mnoUkU58RPZ3WcIn6n5mxe72eEuGxEOAEEEojLjk_U_8BkBgyjYFPIY-X6gMiy7rST-FAQbEa-X4NyQFy5MbT8v7edZRL1Km4EYIq5a1V9b1NMqgSjlt4O-uBYCcFpCKcXzi4TsZam3WeWe8dRgG5G0BD6s4mMncqTmCSfwNUmQIu2bKP-7miJgFmxICwx5WMNOGb9Tc21AYrxY0hBxlKc5EFWKAztnQO6sYecBrBLuf1a0TgD14nYExa7YhDXl1u5Pq9so3AajY-yhmhv2CZb7_Oi0jbmCXLLLQyLAW4VfMryid6lPZEO6ONOX_2wFOBniLMoeR4WTFoDkByHIkYrGqhznPbyzhAW6o6mG94GCdv-aodHoJovAG982JYlYV6gv6wLP6AKMg_u2EFjjWfrLFshyNAvh8GbGjiAI8pDF2_OlHngFy-T99aZnrxWoQagIjfCvqbccPze9h8NomSg7KST697DTVj2Jv1BSctCI66kWgojatNk792dV3GKjWYug8Xkoejr0zeRwxiSV2YtYrGXyjLEb5JaT8aETU7-Sc12JsN_FsXRH8QB6HmGbJNdUvcHZFLlvfxh45KwO1sZNmtSOuDv6Y47GtAYCbktMMkQUIs0qUHeR-4vfc56Ewu7m2YK15uM_F-g-x6C-gia1r4A0yO_hdVJWmA9tftTbm-l1S0ltOv7yjvd-tfd85zg4XmGIMsJSg8p8m3pYuEgKqoQ7YpIoZaO3wMQ1tFeLoMv6MYpuHWYDPfWD48rIpfbZaRqrYSdM5L7HGaHrnJ-TqFe_BRZjUIQSnmIZACrcRMYCCMemeJNAHUYhdKrwnWdbqFwOKl-Q9PEHJ9tyQzCRIocuKSiHOf9mdYKQN4dHQcdKOtZ7wrfycNavhnV7_iNLm9Yt7NVvbnWOerUmeT1tqIPAitgRgV77p7GEd5TJ3RQyB_zrtJB3GMX6evK18seP9N4xC5tHKSc4ueSFyBsLctyAhZQ6erYAgzdKgT-7vrzeGbsLxGEAFK4YWIPJ9dPY-JjJZ9pfT5hNpKvD4tSkLBEoaJ-mhE9w6KivCTZz6OOG-xfhSAEIXT2yzOBSw5p1FvtWrMGaQrKHNL_MruJhKSyIKwvcC9sDw0kuQWa4B62TWquF2Cn0ryztosZeh2yueM="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:tmhp.com \"prior authorization\" \"criteria\" \"medical necessity\" OR \"request\"",
+        "results": [
+         {
+          "title": "1_05_Prior_Authorization",
+          "url": "https://www.tmhp.com/sites/default/files/microsites/provider-manuals/tmppm/html/TMPPM/1_05_Prior_Authorization/1_05_Prior_Authorization.htm",
+          "snippet": "To avoid unnecessary denials, the request for prior authorization <strong>must contain correct and complete information, including documentation of medical necessity</strong>. The documentation of medical necessity must be maintained in the client\u2019s medical record."
+         },
+         {
+          "title": "04_Authorizations",
+          "url": "https://www.tmhp.com/sites/default/files/microsites/provider-manuals/cshcn/html/CSHCN_Manual/04_Authorizations/04_Authorizations.htm",
+          "snippet": "If a client requires a service that has diagnosis restrictions, providers may request prior authorization with <strong>documentation of medical necessity for diagnoses not listed in the policy</strong>."
+         },
+         {
+          "title": "Special Medical Prior Authorization (SMPA) Request Form",
+          "url": "https://www.tmhp.com/sites/default/files/provider-forms/pa-forms/F00087_Special_Medical_Prior_Authorization_(SMPA)_Request.pdf",
+          "snippet": "Prior Authorization Request Submitter understand and agree that failure to provide true and accurate \u00b7 information, omit information, or provide notice of changes to the information previously provided \u00b7 may result in termination of the provider\u2019s Medicaid enrollment and/or personal exclusion from Texas"
+         },
+         {
+          "title": "F00050 Page 1 of 10 Revised Date: 7/12/2023 | Effective Date: 10/21/2021",
+          "url": "https://www.tmhp.com/sites/default/files/provider-forms/pa-forms/F00050_CSHCN_Prior_Authorization_and_Authorization_Request_for_DME.pdf",
+          "snippet": "Requests for authorization of a travel restraint <strong>must document the medical necessity of transporting the</strong> ... Provider must submit documentation indicating the plan for training the school and home caregivers in the ... Provider must submit documentation indicating the plan for training the ..."
+         },
+         {
+          "title": "CSHCN Services Program Prior Authorization for Inpatient ...",
+          "url": "https://www.tmhp.com/sites/default/files/provider-forms/pa-forms/F00058_Prior_Authorization_for_Inpatient_Hospital.pdf",
+          "snippet": "All providers must be ... from ... it will be denied. All applicable information must accompany the \u00b7 request <strong>documenting the emergent conditions that necessitated the inpatient admission</strong>...."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_150210",
+      "args": {
+       "query": "Texas Medicaid \"State Fair Hearing\" request address OR phone OR fax"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpsDCpgDAWkUfRPZD6-6L76nZ4ku-BZ8iMEU00SZRLZnWHD54oIbuZzkbZ7u4VwMaOA92v4peItGD7gnsJLLou5LXEzlaX7QfPP6mTQ6eWVixTgir5A0nV5LPvmtnJ4wHl0t5Cl2t9iMmDUSproi13B6hA_iL_Ud4_0petGDrom6S6PPQRafD2wPkSp8wVJp4xo-C14xapHb9f9YUSBCeU8lozkV3Q2XjKuJVJDh2Q9HQkQyS14vfg3a1IDP89r0_9B7PJt63M-LZ7l3HblC34uuJMr90e_oM6SkvcwvJWWTdLBJnOrMeQnKlVQhA_6FH3N4W0mCVwg9wMUtf05zc9WX7y0LmFDqdUmp7TIgLurDrGDRd-jFCkHP8Q9vrz5LhI0YQs6fZKMAY7AcmqnCsMnOBZEQUJj6ZQECbufcJCVW27teEtZfuw1oMhMO-jBF4OY59sDcNA5CDE5ABbfPgksTTRwGSS2cWmFl2xGJDqI5ZcegV9f3tXPYccaMtsty1uyVFWERtvxhwJmaREeMFSjKJKwYKxRGOQ7N96_N"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Texas Medicaid \"State Fair Hearing\" request address OR phone OR fax",
+        "results": [
+         {
+          "title": "State Fair Hearing Information STAR Medicaid - Community Health Choice",
+          "url": "https://www.communityhealthchoice.org/texas-star-medicaid-plan/member-resources/state-fair-hearing-and-external-medical-review/",
+          "snippet": "To ask for a State Fair Hearing, ... Affairs 4888 Loop Central Dr. Suite 600 Houston, TX 77081 <strong>Phone: 713.295.2294 or toll-free at 1.888.760.2600 Fax: 713.295.7033</strong>..."
+         },
+         {
+          "title": "7200, State Fair Hearing Procedures for STAR+PLUS HCBS Program | Texas Health and Human Services",
+          "url": "https://www.hhs.texas.gov/handbooks/starplus-program-support-unit-operational-procedures-handbook/7200-state-fair-hearing-procedures-starplus-hcbs-program",
+          "snippet": "Other agencies that may be involved ... or Texas Medicaid &amp; Healthcare Partnership (TMHP) will: generate their own state fair hearing evidence packet; upload their state fair hearing evidence packet to the HHSC Benefits Portal; and \u00b7 mail their state fair hearing evidence packet to the applicant, member or AR. The hearings officer mails Form H4803 to the applicant, member or AR when the state fair hearing is first requested. The applicant, member or AR may fax or mail evidence ..."
+         },
+         {
+          "title": "7300, State Fair Hearing Requests \u2013 Appealing MCO Actions | Forms and Handbooks",
+          "url": "https://fhb.hhs.texas.gov/handbooks/star-kids-handbook/7300-state-fair-hearing-requests-appealing-mco-actions",
+          "snippet": "PSU staff must refer to Appendix XXI, creating an Appeal in TIERS, in the STAR Kids Program Support Unit Operational Procedures Handbook (SKOPH), for detailed instructions on entering a State Fair Hearing request in TIERS. TIERS records the names, titles, addresses and phone numbers of all people, or their designees, who should attend the hearing."
+         },
+         {
+          "title": "State Fair Hearings & External Medical Reviews | Community First Health Plans - Medicaid",
+          "url": "https://medicaid.communityfirsthealthplans.com/resources/members/star-kids/state-fair-hearings-external-medical-reviews-2/",
+          "snippet": "State Fair Hearing and External Medical Review Request Form \u2013 SPAN \u00b7 Call us toll-free at 1-800-434-2347, email us at qmappeals@cfhp.com, or <strong>mail or fax this form to us</strong>."
+         },
+         {
+          "title": "How to File a State Fair Hearing/External Medical Review",
+          "url": "https://www.molinahealthcare.com/members/tx/en-us/mem/medicaid/star/quality/cna/hearing.aspx",
+          "snippet": "To request, receive or get a status update on a State Fair Hearing and External Medical Review, you or your assigned representative can contact Molina Healthcare in writing or by telephone at: <strong>Molina Healthcare of Texas PO Box 182273 Chattanooga, TN 37422</strong> Attention: Appeals and Grievances Department"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_186853",
+      "args": {
+       "query": "\"Texas Medicaid\" \"fee-for-service\" client OR member appeal prior authorization OR fair hearing"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsIGCr8GAWkUfRMUD1XohZLo8FDFHJ4RnjTxJgGUQv-uX9gqQCNFNd9mTOgCDWmdOt03fCWJ_-ov26jxSlFMzwO4oUvDmzuiUJYhraK9nC7JV2IgXdmTjMZaZ0xXR4VHjL2sT5R2O9f9WNH0OPZ3ZC6X31wnk5At1k9hLxilWCTvN0tHXtBu3Lg9Xp3r3DJCJes10Y1D240XTek3msq6QI_XEqiW8Qv2skqT1VsV0sg99qe4tY-WXznCkJjjxBHJbpMU-opbjKZ71FrKZiBQgWfkGCCbIwXKx7WGh26CLnMMH-W9TSDfT9D8O5Lz1vEaoRFmYI2fOyGVyeumSkwg4dIQduxZBj0tVwU4FlRXCbj6r0unu5wUrf10MXGfdH95qXj-_uY8CXlJmBBWTavrW9Xki2NfnPnnwyjpNO72s_hjTDbCV7-_hLChj6LoaHdi-JI1DG2WTMfyg-VprJN-hx4voJJvoPUOYWj2Gu20xY4zcyAO8Wm-fOPwj9WR3qWHRAfuD9JEqMPumwQ6Ge1-oLyrJDqqr5r8sTpYeEoCsHVxSg9MTp5SqlsoCej6-fd4Je8367DO5sZ4QIyxgaqcaQRDHh8-9mlG6X2Uxu-wNdjRkOMwTqmU9pP6IcumctrJXg9EvB-tlHS9S7z9R6dbZs0gkPE1pfOaoPOFUDvxBwIcax31HnUhhBVNwD5k43nhbChEWC7xhIN0AELd5-GtyKrzXJrWZfMCRmSLCi2fUbjGSMKNDoqxUMfadnyozUpnG_vKUPYTTLZspbJpFQuhXGQinlbmL0TCRFm_Ste4tuhbtyUEr4-XWTHq43uezVNvJWmC1uX4_FRpfR8Lo45pSjwRoNH8zwajJkW0yHo1QxiUxeucLQovnWrph3RogSU2rQQc9LAVCc-2RpdcvrUGRRuPT_gpKMDccgbH1MFY8vMcA_0V4Ic00f8aIphxDDnRTj0YQQaDbD7CLTxdu0RzWUXHGCPazA-GFE48aX_2F888usqun-blGzeWgKjFLFSK7pOTjQn0Ve_hpnl0SE44gwKSdHbBrlKPdsg17oxWqxEYo8vxz-yxE50GOk28ztzIuQ6p8yHJL1Lj4xkPariQg7XPxeec"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Texas Medicaid\" \"fee-for-service\" client OR member appeal prior authorization OR fair hearing",
+        "results": [
+         {
+          "title": "Form 1322, Medicaid Fee-For-Service Prior Authorization Reconsideration Request | Texas Health and Human Services",
+          "url": "https://www.hhs.texas.gov/regulations/forms/1000-1999/form-1322-medicaid-fee-service-prior-authorization-reconsideration-request",
+          "snippet": "InstructionsUpdated: 5/2024PurposeThe Medicaid Fee-For-Service Prior Authorization Reconsideration Request Form is <strong>required to initiate a request for reconsideration of a previously denied prior authorization</strong>. This form briefly describes the steps for reconsideration and is only for patients ..."
+         },
+         {
+          "title": "Attachment F HCBS Fair Hearing Procedures",
+          "url": "https://www.hhs.texas.gov/sites/default/files/documents/laws-regulations/policies-rules/1115-waiver/waiver-renewal/attachment-f-fair-hearing-procedures.pdf",
+          "snippet": "currently being received by the Member, including the benefit that is the subject of the MCO \u00b7 internal Appeal, if all of the following criteria are met: ... If the MCO or state fair hearings officer reverses a decision to deny, limit, or delay services that \u00b7 were not furnished while the MCO internal Appeal was pending, the MCO must authorize or"
+         },
+         {
+          "title": "SECTION 5: FEE-FOR-SERVICE PRIOR AUTHORIZATIONS",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/tmppm/pdf-chapters/2022/2022-03-march/1_05_Prior_Authorization.pdf",
+          "snippet": "the prior authorization number is on the claim the first time it is submitted to TMHP for consideration ... Claims for procedure codes awaiting a rate hearing are denied. TMHP automatically reprocesses \u00b7 affected claims; providers are not required to appeal the claims unless they are denied for additional"
+         },
+         {
+          "title": "7200, State Fair Hearing Procedures for STAR+PLUS HCBS Program | Texas Health and Human Services",
+          "url": "https://www.hhs.texas.gov/handbooks/starplus-program-support-unit-operational-procedures-handbook/7200-state-fair-hearing-procedures-starplus-hcbs-program",
+          "snippet": "Refer to Section 7221.2, Financial ... denials. ... Revision Notice 25-5; Effective Dec. 17, 2025 \u00b7 <strong>An applicant, member, guardian or authorized representative (AR) may appeal a decision verbally or in writing</strong>...."
+         },
+         {
+          "title": "Texas Medicaid Appeals and Fair Hearings: How to Appeal | Brevy Care",
+          "url": "https://brevy.com/medicaid/texas/appeals-and-fair-hearings",
+          "snippet": "<strong>Your appeal goes through the Texas Health and Human Services Commission (HHSC), which runs Texas Medicaid and holds fair hearings before an impartial hearings officer</strong>.1U.S. Government Publishing Office. (n.d.). 42 CFR \u00a7438.402 \u2014 Electronic Code of Federal Regulations (eCFR)."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_147949",
+      "args": {
+       "query": "\"Form 1322\" \"Medicaid Fee-For-Service\" OR \"Reconsideration\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Es8CCswCAWkUfRMiTFzOy2jzLYkn6Lj6zIyGWZdTK4Y1ZRSf9gPKJ9MPDaJHpBlUoEz93mLof28NBwECoseg7_Dsh8qG8xl0VCT5kVDFQoRijLZiPBt9JUPrXS7ZFV_oDWlmq80GuxovBya0bfA9e0zre12KOfgtzuvjP295dIGIEFxVhIVSavxMDXzddT6QnBr8MH0XZAusezXOz5IaOnh1yOWKRsD81wKkM-MX_U3tjOOsGVzW6sdKkQFDOzEhu3TaueV5Wepp2FmwxwFCG57TgV5KcWdMbtMqdr_AcVqmKSjKMOKhBA6NyWi0mjW4kiXxQ3hfBJCiOZzjr5XOxsXRX2iHjHzGk9ekCXYc3zFTcjzQVKMUWGyHojO0S7pqOZbAoBzmLVUuy1FLcLO0oZXH1B6x7t-xnUR0wJZGCkLhDfeac_6U-nVxJz74vLboDHc="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Form 1322\" \"Medicaid Fee-For-Service\" OR \"Reconsideration\"",
+        "results": [
+         {
+          "title": "Form 1322, Medicaid Fee-For-Service Prior Authorization Reconsideration Request | Texas Health and Human Services",
+          "url": "https://www.hhs.texas.gov/regulations/forms/1000-1999/form-1322-medicaid-fee-service-prior-authorization-reconsideration-request",
+          "snippet": "InstructionsUpdated: 5/2024PurposeThe Medicaid Fee-For-Service Prior Authorization Reconsideration Request Form is <strong>required to initiate a request for reconsideration of a previously denied prior authorization</strong>. This form briefly describes the steps for reconsideration and is only for patients ..."
+         },
+         {
+          "title": "Download fillable Form 1322, the latest PDF version applicable for 2025.",
+          "url": "https://www.templateroller.com/template/2070497/form-1322-texas-medicaid-prior-authorization-reconsideration-request-texas.html",
+          "snippet": "Q: What is the purpose of Form 1322? A: The purpose of Form 1322 is <strong>to request a reconsideration for prior authorization denials for Medicaid services in Texas</strong>."
+         },
+         {
+          "title": "Medicare Reconsideration Request Form",
+          "url": "https://www.cms.gov/medicare/cms-forms/cms-forms/downloads/cms20033.pdf",
+          "snippet": "time, but all evidence must be received prior to the issuance of the reconsideration."
+         },
+         {
+          "title": "Second Level of Appeal: Reconsideration by a Qualified Independent Contractor | CMS",
+          "url": "https://www.cms.gov/medicare/appeals-grievances/fee-for-service/second-level-appeal",
+          "snippet": "<strong>A reconsideration must be requested in writing</strong>. Instructions for filing a reconsideration request are on the MRN, and can also be found on the website of the Medicare Administrative Contractor (MAC) that issued the redetermination."
+         },
+         {
+          "title": "Reconsideration Request Form effective 08_25_2025.V3 - Mississippi Division of Medicaid",
+          "url": "https://medicaid.ms.gov/reconsideration-request-form-effective-08_25_2025-v3/",
+          "snippet": "Reconsideration Request Form effective 08_25_2025.V3"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_102715",
+      "args": {
+       "url": "https://www.hhs.texas.gov/regulations/forms/1000-1999/form-1322-medicaid-fee-service-prior-authorization-reconsideration-request"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EuICCt8CAWkUfRNDtBfj2ES3Le0q8N7DVRw_5832-6M6jYP5dY-sFOEqJbqaQGalfJlk0J9d-hFHM05kaUFS-Fou2iLQvyDsxiPVvkDYotwULGoUkiPxg8l7wweNupGFnw5kZwwtPhsEF0v8FneCw3w5e64ehRzmIZTJ-KCezMEzxP4ipfpx4y6-UkDT2prKrWd_UAchqJwxInFH1Sj2i4F8w_2lSb0I_XY_qgqd4syUbVVLt5VgMq-jRiGjWm7i0rX6FlHlAc8RJWhMfF4VDqsurGrvd_LeqAxAS_8QqJsC8e6fB0Ei2NY62moTa_s9vGotri6jlp3qR5dAzgxg7yPaqFw_pDfJIiS7Y_eBicD0E5em3aSTaWX2BDKC5T8eQrIX_5DSRGWjntgVqQ6OGyVQHWpwvhay0vLa2q_7QPxfECKsgsoCdHnz-SypVPUa215K34OOIz6_q27W0ZGb76XYiWs6"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://www.hhs.texas.gov/regulations/forms/1000-1999/form-1322-medicaid-fee-service-prior-authorization-reconsideration-request",
+        "final_url": "https://www.hhs.texas.gov/regulations/forms/1000-1999/form-1322-medicaid-fee-service-prior-authorization-reconsideration-request",
+        "http_status": 403,
+        "content_type": "text/html",
+        "login_wall": true,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "Access Denied Access Denied You don't have permission to access \"http://www.hhs.texas.gov/regulations/forms/1000-1999/form-1322-medicaid-fee-service-prior-authorization-reconsideration-request\" on this server. Reference #18.ca0c2e17.1790023427.42f1ef3 https://errors.edgesuite.net/18.ca0c2e17.1790023427.42f1ef3",
+        "text_truncated": false
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_83100",
+      "args": {
+       "query": "\"Form 1322\" \"Medicaid Fee-For-Service\" instructions fax OR mail OR address OR email"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsIBCr8BAWkUfRO0XDm1bUQwG-ku0PANUhd1lakhPb6xWWP-S1GmF4IU5pp8YgKV0RGcBTi0jxMWXb93JqRhDmxHKuh8ypbYFFu_hrPXaovnUnU5Mv0m_W1gKvt4x5HAtc7ilBxxbXyYNtyE087Hi25kVttfaF31BJFoqZYxacKfRvbsmbWPMcjhVErd8GPGEHL3ru9y2fGrdHsxT5CtxXIhJhCg1Hc4iXoeRgBzOk0-MEoQjjQYsgXGGF5JGwjjYYDVVSc="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Form 1322\" \"Medicaid Fee-For-Service\" instructions fax OR mail OR address OR email",
+        "results": [
+         {
+          "title": "Form 1322, Medicaid Fee-For-Service Prior Authorization Reconsideration Request | Texas Health and Human Services",
+          "url": "https://www.hhs.texas.gov/regulations/forms/1000-1999/form-1322-medicaid-fee-service-prior-authorization-reconsideration-request",
+          "snippet": "InstructionsUpdated: 5/2024PurposeThe Medicaid Fee-For-Service Prior Authorization Reconsideration Request Form is required to initiate a request for reconsideration of a previously denied prior authorization. This form briefly describes the steps for reconsideration and is only for patients ..."
+         },
+         {
+          "title": "Form 1322, Medicaid Fee-For-Service Prior Authorization Reconsideration Request | Texas Health and Human Services",
+          "url": "https://hhs.texas.gov/regulations/forms/1000-1999/form-1322-texas-medicaid-prior-authorization-reconsideration-request",
+          "snippet": "Some forms cannot be viewed in a web browser&#x27;s PDF viewer and must be opened in the Adobe Reader application on your desktop system. Click here for instructions on opening this form. ... The Medicaid Fee-For-Service Prior Authorization Reconsideration Request Form is required to initiate a request for reconsideration of a previously denied prior authorization."
+         }
+        ],
+        "result_count": 2,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_172496",
+      "args": {
+       "query": "\"Texas Medicaid\" \"fair hearing\" request address OR fax OR phone OR online"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpoGCpcGAWkUfRMA5kwEMgunJZVpAwfQ7quViB8MWHp9iq7aDRJ9H4J3aEpP5PqEvn0S4ojh7ZB9E3mqVgfDx6Vy4b-MzLZhDbNuecwYBTiaQKC9ROaLgzfC1uARalTxELZfSvQHdCRkBPr_XfwvtNt7a-SStuHz1IE6_CWGtFB1k3aW7zwX3_m16qCr99qLGE0vh_t2eAXxnI-kMX0UJ3sSeIkSZme2Mk6u9XucovtiNSRfM37hw9qhixbhtcn4xMwV2-A9YpPIqDK83akwvIu3gXpuQkR5xsMiKSChABiXsa6-7SG_sXlrJBoTc7TSJlklt6w1rxSLKu7E-Ytf1nyXaaoDXWsnAVPXmpNCQyerBR0i72FTA72CmIbsZA2ykmyJ_yR_Jb9VPmpQtIXCHqglFLQ-fm4hPRX_wYns6guKxx_T4yXEN0YzV_SmAmWA4PpZFoQr90A_yAZhQ9Tn1RWKKuH-SeJJt956m8LsyjOlisdKrAoRYzq2fKcOZGWIjVh9uv6r7GOx0Fn2nNGl6Pf-RFUuqRR3q64614yVZMo2snRibnsLy4g7wq2ZgTQ_7sURbEZYAZtbO78QFRXtRuJ4VebGLuAEeR6j7zm0yRhlls7vzvIfwDZXDQXotl1VsRDGewtXnCTpIImtvTiPD9BFawHllZUdjNHD5wjXJXJi78UCIMju2P83XGOxqqgCIylueQIocfLYwLyuFo0zrT_hb-I_ogW15GA86rZ7QctwlRUwet5o4AOVieXHmn2PoyCDN2KFqeS9cuxwjHXUjCOnNRTFxeNEyvTM3DzKY3mugG-tP5lVCyp6HWIbvE37uM7ru1S8PclpLrnrT3aE4o9mBhpO93dWxgwUZv0VCf2sMmGQLjV4hKefJyHbA3gHVFoLqGUG69erxdaWXFAejVIDI3sLParRQluaMBEXWkV8CgjvE4ll0mc8RckqlO-7PKLrXdvNXz6tP6_aEcFZgaA1MVLcLKc0PNdGco0EzLQJmCiZSRkezLWpUfQer62Qad3CRwrc7E1-uVcpESqLQPt5PJJaeX_OiW2CeEg="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Texas Medicaid\" \"fair hearing\" request address OR fax OR phone OR online",
+        "results": [
+         {
+          "title": "State Fair Hearing Information STAR+PLUS - Community Health Choice",
+          "url": "https://www.communityhealthchoice.org/texas-starplus/state-fair-hearing-information-starplus/",
+          "snippet": "Medical Appeals Department-Medical Affairs 4888 Loop Central Drive, Suite. 600 Houston, TX 77081 <strong>Phone: 713.295.2300 or toll-free at 1.888.435.2850 Fax: 713.295.7033</strong> or the HHSC Intake Team at [email protected]."
+         },
+         {
+          "title": "7200, State Fair Hearing Procedures for STAR+PLUS HCBS Program | Texas Health and Human Services",
+          "url": "https://www.hhs.texas.gov/handbooks/starplus-program-support-unit-operational-procedures-handbook/7200-state-fair-hearing-procedures-starplus-hcbs-program",
+          "snippet": "Other agencies that may be involved in a state fair hearing, such as the managed care organization (MCO), Centralized Representation Unit (CRU) or Texas Medicaid &amp; Healthcare Partnership (TMHP) will: generate their own state fair hearing evidence packet; upload their state fair hearing evidence packet to the HHSC Benefits Portal; and \u00b7 mail their state fair hearing evidence packet to the applicant, member or AR. The hearings officer mails Form H4803 to the applicant, member or AR when the state fair hearing is first requested. The applicant, member or AR may fax or mail evidence to the hearings officer if desired."
+         },
+         {
+          "title": "Complaints and Appeals | Texas Medicaid | Superior HealthPlan",
+          "url": "https://www.superiorhealthplan.com/members/medicaid/resources/complaints-appeals.html",
+          "snippet": "Fill out the \u2018State Fair Hearing and External Medical Review Request Form\u2019 provided as an attachment to the Member Notice of Superior\u2019s Internal Appeal Decision letter and <strong>mail or fax it to Superior by using the address or fax number at the top of the form</strong>; or"
+         },
+         {
+          "title": "Medicaid Grievances and Appeals in Texas | Wellpoint",
+          "url": "https://www.wellpoint.com/tx/medicaid/complaints-grievances",
+          "snippet": "<strong>Most State Fair Hearings are held by telephone, so you won&#x27;t need to attend in person</strong>. HHSC will give you a final decision within 90 calendar days from the date you asked for the hearing."
+         }
+        ],
+        "result_count": 4,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_110354",
+      "args": {
+       "query": "texas \"fair hearing\" request PO Box OR address OR fax OR phone OR \"Austin\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqsCCqgCAWkUfROl9X7AY0g1EnxFLvtNYdbnetoUBZx328WFRUm8QCOtoThCAWi-Qn2B3Z706HCHo_xBwWcxaTRFO4oBAxvofZW0AMmO7zkTbfyIaPIcXWYyTpApR0EEHq06c0xnaDGXalrFTN3CcmG51zmah5r8YoGnFfY0FalW7SlbMeTxAB8Ha7IW6vleDumJXnv82OCNAZAmVYX8uY0t5muq_qHvsM3Po8_KhIKTXwEwoZPLiFndl0eqDTCMfrJx1R_CUXRimFN8M3AhmW7J6eFLpWRIiLz6wsGhZKmD5jLhUoMbcs6_jd7Usibm7TMii6Hr52YCHtOJgZ29UNH77qgjv83LqxDZ0fRWwobjYn2JZKLSNiOR2ltQUfIFfbWM50uPdQ595l4p0UE="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "texas \"fair hearing\" request PO Box OR address OR fax OR phone OR \"Austin\"",
+        "results": [
+         {
+          "title": "Form 2361, PASRR Specialized Services Fair Hearing Request | Texas Health and Human Services",
+          "url": "https://www.hhs.texas.gov/regulations/forms/2000-2999/form-2361-pasrr-specialized-services-fair-hearing-request",
+          "snippet": "Health and Human Services Commission (HHSC) Attn: PASRR - Fair Hearing Requests <strong>P. O. Box 149030</strong>, Mail Code W-356 Austin, TX 78714-9030"
+         },
+         {
+          "title": "B-1030, Appeals Procedure | Forms and Handbooks",
+          "url": "https://fhb.hhs.texas.gov/handbooks/texas-works-handbook/b-1030-appeals-procedure",
+          "snippet": "in person, over the telephone or ... mail \u2014 the advisor/supervisor faxes or mails the appeal using the fair hearing cover sheet to the <strong>expedited fax line (1-866-559-9628)</strong> for processing...."
+         },
+         {
+          "title": "B-1030, Appeals Procedure | Texas Health and Human Services",
+          "url": "https://www.hhs.texas.gov/handbooks/texas-works-handbook/b-1030-appeals-procedure",
+          "snippet": "in person, over the telephone or ... mail \u2014 the advisor/supervisor faxes or mails the appeal using the fair hearing cover sheet to the <strong>expedited fax line (1-866-559-9628)</strong> for processing...."
+         },
+         {
+          "title": "1 Texas Health and Human Services \u25cf hhs.texas.gov \u25cf Revised: 03/2023",
+          "url": "https://www.hhs.texas.gov/sites/default/files/documents/fair-hearing-procedures.pdf",
+          "snippet": "Your rights are the same for both phone and face-to-face hearings."
+         },
+         {
+          "title": "State fair hearing and external medical review request form",
+          "url": "https://www.wellpoint.com/content/dam/digital/wellpoint/documents/medicaid/texas/medicaid-fair-hearing-request-form-(english)-tx.pdf",
+          "snippet": "wellpoint.com/tx/medicaid \u00b7 1038470TXMENWLP 06/23 \u00b7 State fair hearing and external medical review request form \u00b7 To ask for a state fair hearing and external medical review, you can call us at 833-731- \u00b7 2160 (TTY 711)/STAR Kids 844-756-4600 (TTY 711), or <strong>mail or fax this form to us</strong> \u00b7 ..."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_79235",
+      "args": {
+       "query": "\"Texas Medicaid\" \"Fair Hearing\" request address PO Box"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtoCCtcCAWkUfRO-z5dyJds-3XJ9syAzPIgLoTovAOpek6-8blpom04bblJgij8pZ_7M672p2V1kM_XpNHaTMhzaPNhRitEw8MFGrbygCddZxFgD6zNa3U4JwweYAOujA3q5duePzrX_A_szf3Zz2smdn5hJF-848vdQn1fPIE7SeiCBud9XOF14zLPztlkFzEBFJynIE8iwUcgPsY9Yi5pCzi9mz77COpeq-UKzugAQw9eN5OypaW_izB9On7d7JoI3LT6D4_2eoxqZcgRK8dywlFbigM7-XE5QhKs9n8r-3uHSjGdT9RzHRGM2ZjX-wLPhjaUJITIGvZlNMVKct63KETOHz6y1J0A2CYATaRfm6be1BVrTur4uxRlHUcRsrGX_l1SsmT63BkCDTmrb2rdegiZvrYwu_UC-g9Z7aCjpvLbcFaXF_pMRM89PkuFxLvCtbxYJ11HVzpo2Lg=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Texas Medicaid\" \"Fair Hearing\" request address PO Box",
+        "results": [
+         {
+          "title": "State Fair Hearing Information STAR+PLUS - Community Health Choice",
+          "url": "https://www.communityhealthchoice.org/texas-starplus/state-fair-hearing-information-starplus/",
+          "snippet": "600 Houston, TX 77081 Phone: ... Community Health Choice Texas, Inc. Attention: Medical Affairs-BH Appeals <strong>P.O. Box 1411 Houston, TX 77230</strong> 713.295.2300 or toll-free at 1.888.435.2850 or TTY 7-1-1 Fax: 713.576.0394/Attention: ..."
+         },
+         {
+          "title": "Appealing a Health Insurance Decision for a child with a disabilityNavigate Life Texas",
+          "url": "https://www.navigatelifetexas.org/en/insurance-financial-help/appealing-a-health-insurance-decision",
+          "snippet": "You can ask for a fair hearing ... &amp; Health Care Partnership Attention: Medical Affairs Support, MC-A13 <strong>P.O. Box 204270 Austin, TX 78720-4270</strong>..."
+         },
+         {
+          "title": "Claims | Blue Cross and Blue Shield of Texas",
+          "url": "https://www.bcbstx.com/provider/medicaid/claims-and-eligibility/claims",
+          "snippet": "Complaints address: Blue Cross and Blue Shield of Texas Attn: Complaints and Appeals Department <strong>PO Box 660717 Dallas, TX 75266-0717</strong> ... Submit appeals within 120 calendar days from receipt of remittance advice (RA). Members can ask for an External Medical Review (EMR) and State fair Hearing ..."
+         },
+         {
+          "title": "Form 4800-D, Fair Hearing Request Summary | Forms and Handbooks",
+          "url": "https://www.hhs.texas.gov/regulations/forms/4000-4999/form-4800-d-fair-hearing-request-summary",
+          "snippet": "If the agency representative is located through the MOR search feature, then these fields will automatically populate. B. Office Mailing Address \u2014 Enter the supervisor&#x27;s office mailing address, including the street number, fraction, suite number, direction, street name and street type (if applicable). Enter the agency supervisor&#x27;s mail code. Enter the agency supervisor&#x27;s email address. Enter the name of any other participants who are required or have requested to attend the fair hearing."
+         },
+         {
+          "title": "Medicaid Grievances and Appeals in Texas | Wellpoint",
+          "url": "https://www.myamerigroup.com/tx/benefits/complaints-appeals.html",
+          "snippet": "Call the Medicaid Managed Care Helpline toll-free at ... Submit an online form. ... Texas Health and Human Services Commission Office of the Ombudsman, MC H-700 <strong>PO Box 13247 Austin, TX 78711-3247</strong>"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_186766",
+      "args": {
+       "query": "\"P.O. Box 204270\" Austin OR TMHP"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtICCs8CAWkUfRPAMor2uDG43y-ogf4G24_JRL12YZk90s9DJQKzTtWf8juERZUSjjIOO5DsW36R_0qwGTfoYWybVzCQwW5lLCZzgGuFIfGcZaFufIOpVIVtJ7SSqsjvsNxTLU5BKXnS-RaFFvWQraMEOA5dZnYK6AVJEqYsJAmwUOJsQcB-OVGaE8KNi8YN5P9tZJ0Fmjd65ApgdEilfnbQR1sEb_DT4Os3ezX6MxdnnYfs7IKLdu9oRLda57iabgKTr121IZYcQNJ8nD-sFoIf8uRs3AdZiQrBy2pYZv_-hlZ7rm-BjsSuLurLG449kQO7nnwE7aSTxiQk6N0-wPS-xYmMaEzfsqfWF9I407eVkgPHnzLNQQuaMH6HS9Dp9A8faNJyU1b2X_hT4F1nag77w3rTZH1qthQ56F5lvJ4rQNvH7ZnPoVMEkTflNurZVnw8fOQ="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"P.O. Box 204270\" Austin OR TMHP",
+        "results": [
+         {
+          "title": "Texas Medicaid Representative: Contact Number: Revised Date 8/20/2025",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/medicaid/texas-medicaid-quick-reference-guide.pdf",
+          "snippet": "PO Box 204270 \u00b7 Austin, TX 78720-4270 \u00b7 TMHP CONTACT CENTER \u00b7 The TMHP Contact Center <strong>(800-925-9126)</strong> is available from \u00b7 7 a.m. to 7 p.m., Central Time, Monday through Friday \u00b7 and helps providers and clients. TMHP refers clients to \u00b7 their caseworker or the local Health and Human Services \u00b7"
+         },
+         {
+          "title": "Children with Special Health Care Needs (CSHCN) Services Program",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/cshcn/archives/2025-02-CSHCN_Manual.pdf",
+          "snippet": "PO Box 204270 \u00b7 Austin, TX 78720\u20134270 \u00b7 INTRODUCTION \u00b7 FEBRUARY 2025 \u00b7 CPT ONLY - COPYRIGHT 2024 AMERICAN MEDICAL ASSOCIATION. ALL RIGHTS RESERVED. 5 \u00b7 1.4 \u00b7 TMHP-CSHCN Services Program Contact Center \u00b7 The TMHP-CSHCN Services Program Contact Center at <strong>1-800-568-2413</strong> is available Monday ..."
+         },
+         {
+          "title": "How to Change Administrative Rights on a Provider\u2019s Texas Medicaid & Healthcare Partnership Account | Electronic Health Record Incentive Program",
+          "url": "https://healthit.hhsc.texas.gov/policies-and-procedures/attestation/how-change-administrative-rights-provider%E2%80%99s-texas-medicaid",
+          "snippet": "Information can be faxed to: 512-514-4228 or mailed to: TMHP Attn: EDI Help Desk MC-B14 P.O. Box 204270 Austin, Texas 78720-4270"
+         },
+         {
+          "title": "Provider Manual Children with Special Health Care Needs Services Program",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/cshcn/archives/2015-10-CSHCN-Manual.pdf",
+          "snippet": "PO Box 204270 \u00b7 Austin, TX 78720\u20134270 \u00b7 1.4 <strong>TMHP-CSHCN Services Program Contact Center \u00b7 The TMHP-CSHCN Services Program Contact Center at 1-800-568-2413</strong> is available Monday \u00b7 through Friday, from 7 a.m. to 7 p.m., Central Time, and is the main point of contact for the CSHCN \u00b7"
+         },
+         {
+          "title": "Steps to Change Administrative Rights for a TMHP Provider Account | Electronic Health Record Incentive Program",
+          "url": "https://healthit.hhsc.texas.gov/program-notices/steps-change-administrative-rights-tmhp-provider-account",
+          "snippet": "Information can be faxed to: (512) 514-4228 or mailed to: <strong>TMHP Attn: EDI Help Desk MC-B14</strong> P.O. Box 204270 Austin, Texas 78720-4270"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_72111",
+      "args": {
+       "query": "\"P.O. Box 204270\" \"Medical Affairs Support\" OR \"MC-A13\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EssCCsgCAWkUfRMBvO53N6WMr_oJEBw9NlxgkOF050TclX-MThfbVHq7lEtm0dQJ1rsp_Em6cHb5X5Yz4OSvoAlbJ7EYgl3Y8pFToM0GPiobzvpO3VHRXoQePBDb8ilpv381FCurSD_zEzpiV60UE8mac05uaDH-dWjDJstu50cGblLHnlrGRwt7N6ajbe8YCwfOtUy4NHZGKea6aOjZzWlUlNWuedkaU4pbtVGSEmGDhLUtHwRLCDNWKVbCD08Bdk4x51pDPnYbMFbYDe7NUkOpecH5XMDpfGCTOrX30NsqLM9aBLSvAfudMVmKtj0pH8LIY8yIK5mgGVS24Zr4qeAOmkMfRqfP_Q4xlaPLFxYc-G6mAmdKlya60hQVBdwltXvsKzdD2zDMOjCsE8tHaMvuxmuxxE64FmdAiIytwo9RvpkaD8HGypBR4rg1fg=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"P.O. Box 204270\" \"Medical Affairs Support\" OR \"MC-A13\"",
+        "results": [
+         {
+          "title": "Appealing a Health Insurance Decision for a child with a disabilityNavigate Life Texas",
+          "url": "https://www.navigatelifetexas.org/en/insurance-financial-help/appealing-a-health-insurance-decision",
+          "snippet": "<strong>Texas Medicaid &amp; Health Care Partnership Attention: Medical Affairs Support, MC-A13 P.O. Box 204270 Austin, TX 78720-4270</strong>"
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_114326",
+      "args": {
+       "query": "site:navigatelifetexas.org \"Medical Affairs Support, MC-A13\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "ErUECrIEAWkUfRPtXzHqb54kA2MyH0oznkH49bvPiv0FfOU_KqtiCFPKubcMXNryRBAaaL9ZNtwWMPRmHG4XDdtHW6Xd4oKRrgsoHK9ml575whz8KWF5k8leoIbIgeJJMlGxSwgAZOFfR6S2lbPbGFQIMz1fRHeCBnoh4r2dVgQF-_-vU_y-F785P9IULKnLHXu4LOg5Elz6Gn4GQd9dwu_ynFKw9aTBBjlF7AKjtKgfiq-wr3E-drmCT-hqVwbXRTYhr9TKKH23ph5MOEkDmeNcLYBh4vg9TdbsTl_X6abKsKygagT2V_GCXL6H3_1e9JUEgvyuuP8KuKNEOLWMVoZ_r5NvfnyzNRi3i3b0MUrVJvMboH6D8NXhfvrxrjy0IUNsbyp13GSVUuRiS2jaLyCsak8KkF56I1zGILzbouNy57cn6EKAoeeoh6oX-4P9DVaKi0AJwQmOsI4hr1uLmpgWQYoJ4BG330S8lmp4RhmUbEZfNyuzddVBh-YIXnNjKr_Rxe98_W-sGjqfS7Lr5vmlSyvTYYNTIf9FLCgqXNm14UW0nLtf2KGlnAOajTcDO3fRJyBX_WRYismdDRKuVcW8ZJnTZI9XJA8jj_JPYN3w1gt4TfGHwWrDvO5UH1YLqYHm578bQQ5w71q2TG1ma2p0IxXN-RgT1RlRDGivWjncMt1M9HkmSAQE3ZXuGdOK35vmtzXBw1K0EWmhZ-WyT_xNHO3anV4RbWDbcMaE7lENTJgXKViI2Q=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:navigatelifetexas.org \"Medical Affairs Support, MC-A13\"",
+        "results": [
+         {
+          "title": "Appealing a Health Insurance Decision for a child with a disabilityNavigate Life Texas",
+          "url": "https://www.navigatelifetexas.org/en/insurance-financial-help/appealing-a-health-insurance-decision",
+          "snippet": "Texas Medicaid &amp; Health Care Partnership Attention: <strong>Medical Affairs Support, MC-A13</strong> P.O."
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_55911",
+      "args": {
+       "url": "https://www.navigatelifetexas.org/en/insurance-financial-help/appealing-a-health-insurance-decision"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EvwBCvkBAWkUfRPE69Ua4aF8EJpMHM1erOBrLXwYB75zCmCO0Iwo6VQoAszi0eVsGsrGP1qwXc6INc6raSoqLdgTXA3qal3QVGXH-q8cDHripA-g4arXFn8lMJMCUU10Mwb0sQzymV1KW0Qd71Q1dmbIepOq7EHuhVrVRJbRT6L8LUmnhm5mMw64g6SwKLbHHZqGerdwks_v_EaUptWRsUv4Hyon0qNXGiMr6z_HNjjhZFP52fDX465o1wvNa-566r8vVqh9hSeUc4bp3P2NNvdKpuOZKbK3j8VDnqYl5yYeAskp9JiiAhIXzqigC7kbNcq9yK06lC4Cd_H16bEn"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://www.navigatelifetexas.org/en/insurance-financial-help/appealing-a-health-insurance-decision",
+        "final_url": "https://www.navigatelifetexas.org/en/insurance-financial-help/appealing-a-health-insurance-decision",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "Appealing a Health Insurance Decision for a child with a disabilityNavigate Life Texas Espa\u00f1ol or Navigate Life Texas: Resources for kids with disabilities and special needs Menu Diagnosis & Health Care Diagnosis & Health Care Overview What To Do If You Suspect Something is Different My Child Has a Diagnosis. Where Do I Start? Diagnoses for Disabilities Early Childhood Intervention (ECI) Diagnosis & Health Care FAQ Diagnoses Brain Injuries Learning Disabilities Zika-Related Conditions Blindness and Visual Impairment Dyslexia and Related Conditions Mental and Behavioral Health Mental and Behavioral Health Overview When to Get Help Finding Mental Health Resources Behavior Problems Risky Behavior Mental Health for Children With IDD Psychiatric Medication: How Families Decide Recognizing the Effects of Trauma Mental Health Crises Rights to Mental Health Services When Behavior is Misunderstood Juvenile Justice System Process Multiple Disabilities, Rare Conditions or Undiagnosed Multiple Disabilities, Rare Conditions, and Undiagnosed A Diagnostic Odyssey Through Genetics Genetic Disorders Understanding Invisible Disabilities Health Care Planning & Organizing How to Talk to Your Doctor Medical Home Care Notebook Electronic Health Records (EHR) Health Care Specialty and Therapy Glossary When You Leave the Hospital Before Your Baby Transition to Adult Medical Care Telehealth and Telemedicine Developmental Milestones Birth to 3 Years 3 Years and Beyond Equipment Medical Equipment and Supplies Assistive Technology and Adaptive Equipment Eating & Oral Health Oral Health Dental Care Challenges with Eating Eating Disorders Education & Schools Education & Schools Overview Right to a Public Education School Choices After School Activities Attendance and Truancy Rules Organizing School Records Education & Schools FAQ Special Education Special Education 101 Early Childhood Special Education Program (ECSE) Getting ECSE Services Section 504 Educational Placements Admission, Review, and Dismissal (ARD) Process Your Child\u2019s Individualized Education Program (IEP) Behavior Intervention Plan (BIP) Trouble Getting the Right Services Special Education Advocates and Advocacy Relationships Bullying Engaging Your Child\u2019s School Friendships After High School Friendships and Social Skills Transitions After Public Education Transitioning Between Schools College and Alternatives Transition Planning in the IEP Insurance & Financial Help Insurance & Financial Help Overview Supplemental Security Income (SSI) Social Security Disability Insurance (SSDI) Medicare Funding and Services From Age 18 Non-Government Funding and Grants Help With Utility and Energy Costs Insurance & Financial Help FAQ Medicaid Medicaid Overview Medicaid Buy-In Transportation STAR Kids \u2013 Service Coordination Health Insurance Premium Payment (HIPP) Community First Choice Program Medicaid Waivers Medicaid Waivers Overview Home and Community-Based Services (HCS) Community Living Assistance and Support Services (CLASS) Medically Dependent Children Program (MDCP) STAR+PLUS Home and Community-Based Services (HCBS) Texas Home Living (TxHmL) Youth Empowerment Services (YES) Deaf Blind with Multiple Disabilities (DBMD) Benefits & Insurance Benefits and Insurance Overview Appealing a Health Insurance Decision Health Insurance Premium Payment (HIPP) CHIP for Children With Special Health Care Needs Family Support Family Support Overview Tips for Foster Parents and Caregivers Family Support FAQ The New Normal Self Care Accepting, Grieving, and Adapting to Life Helping Your Child Live With Chronic Illness Relationships Parenting Connecting With Other Parents Teenagers Siblings Personal Network When Behavior is Misunderstood Divorce Counseling for Parents Person-Centered Thinking Friendships After High School How to Talk to Your Doctor Friendships and Social Skills Recreation for Teenagers and Adults With Disabilities Planning & Organizing Emergency Preparedness When You Can No Longer Provide Care Person-Centered Planning Medical Home Care Notebook Electronic Health Records (EHR) Living Situations Home Modifications Military Families New Assignments Rural Home Housing Choices for Young Adults Support Services Respite Care Day Care Government-Funded Organizations Sending Your Child to Camp Health Care Specialty and Therapy Options Getting the Right Education Services Personal Attendant Care Community First Choice Program Legal & Rights Legal Help Wills and Trusts Letters of Intent Juvenile Justice System Process Legal Rights If Your Child\u2019s Rights Are Violated Legal Options From Age 18 Legal Guardianship Rights to a Public Education Decision-Making and Power of Attorney Using Your Voice to Advocate and Change Systems Eating & Oral Health Dental Care Oral Health Challenges with Eating Transitions Major Life Events Puberty and Sexuality When Your Child Passes Away Moving to Texas Divorce Planning for Transition to Adulthood Transition to Adult Medical Care Friendships After High School Transition to Adulthood Transition to Adulthood Overview Planning for Transition to Adulthood Funding and Services From Age 18 Transition to Adult Medical Care Friendships After High School Recreation for Teenagers and Adults With Disabilities Personal Stories Transition to Adulthood FAQ Adult Children: Ensuring Support College & Career After Public Education College and Alternatives Careers Independence Building Independence Making Adult Decisions Money Driving and Transportation Options Living Situations Housing Choices for Young Adults Group Homes for Young Adults Day Habilitation Programs for Young Adults Legal Legal Help Legal Options From Age 18 Legal Guardianship Decision-Making and Power of Attorney Find Services, Groups & Events Find Services, Groups & Events Overview State Agencies & Services Video Library Blog Suggest a Parent Group Suggest a Service Suggest an Event Suggest a Resource Suggest a Correction Blog Home Insurance & Financial Help Benefits & Insurance Appealing a Health Insurance Decision Appealing a Health Insurance Decision Jump to topics on this page: 11 Tips for Appealing Insurance Denials Getting a Denial Filing an Appeal With Medicaid Filing an Appeal With a Private Insurance Company Beyond the Appeals Process Suggested Links to Additional Resources You\u2019re at a doctor\u2019s office and you find out that your child needs surgery, a different piece of equipment, or a new medicine. And your child\u2019s health care coverage or insurance provider tells you they won\u2019t cover it. We\u2019ve been there. We\u2019ve asked the doctor if there are perhaps different ways to help our child. We\u2019ve read through the insurance benefits or called Medicaid to see if a needed treatment was clearly excluded. We\u2019ve tried to find another medicine or a cheaper piece of equipment. But the answer is clear: This specific prescription or surgery is medically necessary. And it\u2019s time to advocate for what our child needs with their insurance or benefits provider. You have the right to appeal (ask for a second opinion on) insurance and benefit denials on behalf of your child. You have this right if your child has health care benefits through Medicaid, your work, or a private insurance policy. You can appeal a denial whether you are asking for the coverage before your child gets a service or prescription (this is called preauthorization) or afterward. 11 Tips for Appealing Insurance Denials Don\u2019t immediately take no for an answer. Read your child\u2019s policy carefully \u2013 research it for approved treatments, equipment, medications, and more. Get a written explanation of the denial. Do not accept filing errors. Ask your insurance agent or group policy administrator at work for help. Contact your child\u2019s insurance company or health care benefits program directly. Complain in writing if phone calls don\u2019t get the job done and keep a copy of letters you send. Write follow-up letters and keep copies. Call the Texas Department of Insurance (TDI) for outside help \u2013 800-252-3439 . Get support from your child\u2019s doctors. Keep an eye out for violations by your child\u2019s insurance company or coverage program. Getting a Denial Once you \u2013 or your child\u2019s doctor \u2013 has filed a claim (request for coverage) for your child, your child\u2019s insurer (Medicaid or other insurance plans) must send you a written denial letter if they are not going to cover the requested service. This letter should tell you all the reasons your child\u2019s claim has been denied and that you have a right to appeal. It should also say which person to talk to if you are going to appeal your child\u2019s denial of services. If the letter doesn\u2019t make the reasons for denial or the appeal process clear, call your child\u2019s claims representative directly (the phone number should be on your child\u2019s insurance or Medicaid card) and have them explain it to you. Take notes on any conversation you have with your child\u2019s insurance or benefits provider about the denial. Put the phone numbers, names, and notes in the place you keep your child\u2019s medical records organized . If your child has an insurance or Medicaid-related case manager, this is also a good time to call them. Your child\u2019s case manager might be able to help you get a decision changed before you file a formal appeal. Filing an Appeal With Medicaid If your child has Medicaid, you can call your child\u2019s Medicaid provider or case manager and tell them that you want to appeal your child\u2019s denial of coverage. They will assign a person to help you with this. In Texas, Medicaid workers must count any phone call disagreeing with a denial of service as an appeal of that denial. It\u2019s a good idea to call as soon as you receive the denial. There is a deadline to make an appeal, which should be included in the letter you get about your child\u2019s denial of coverage. Make sure to call with your appeal before the deadline and make a note of the time of your call so you don\u2019t have to explain a late appeal. Medicaid must give you a written decision about your child\u2019s appeal within 30 days of receiving your phone call. If your child is in an urgent or life-threatening situation, ask Medicaid for an expedited appeal when you call. In this case, Medicaid has to answer you within 1 day of your call if your child is in the hospital, and within 14 days otherwise. Getting a Medicaid Fair Hearing If you have made an appeal, and your child\u2019s Medicaid provider still says no, you can ask for a fair hearing within 90 days of the date your appeal was rejected. You can ask for a fair hearing for your child by calling 800-727-5436 and picking \u201cfair hearing request information.\u201d Or, you can ask in writing and send it to the following address: Texas Medicaid & Health Care Partnership Attention: Medical Affairs Support, MC-A13 P.O. Box 204270 Austin, TX 78720-4270 Medicaid will send you a letter with the date and time of the fair hearing, along with what you need to know to get ready. The hearing will take place by phone or in person. At the hearing, be ready to explain why the denied service is medically necessary for your child. You can bring along your own witnesses like your child\u2019s doctor or therapists, have them on the phone with you, or ask them to send letters explaining this. You will get a final decision within 90 days of the hearing (or sooner for an urgent need), and your child\u2019s Medicaid provider will have to follow this decision. Filing an Appeal With a Private Insurance Company Once your child\u2019s insurance claim has been denied, you can file an appeal directly with your child\u2019s insurance company. This is called an internal appeal. You have up to 180 days (or 6 months) from the date of your child\u2019s denial letter to file this appeal. To file an internal appeal: Write a letter to your child\u2019s insurance company stating that you want to appeal their denial of services to your child. Include your child\u2019s name, claim number, and health insurance ID number. Your insurance company might have a form that you can use. Include letters from your ch",
+        "text_truncated": true
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_173508",
+      "args": {
+       "query": "\"Medical Affairs Support, MC-A13\" OR \"Medical Affairs Support\" \"P.O. Box 204270\" fax OR phone"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EoUKCoIKAWkUfRPmendK0GI-QE7-Fbhxa_AH-89rj3ONBwtqhoSOKsvOXD1lB_fAfrIvnRk6tHkxFfwjWJTdVTSu5orwvlx_TFxZ0osG8L1aN1dGDAEaiv8MciLMzxMWw7qYv7oGPB3pKbqJAATLKIoAyVgH2ERPHNRCGrDZJOGPCmmi3S9aOwdNUuDZgiTfDwI6DZbqqVA__JDRKt2GWN3X7K3L67CO_E5rO5y-1E8Uc7SEAbZqOpsROWWPM1Z0Tyn3PmgHU4f7NErvMbSpzFvjk08td-XzB6f0gRfu234maAa1TGNqH6M4J0RJK50xeYffHtyCON_cfbyRzt06s48kqvC7iEuyFQ0EKpU55NyvsXk---UjCxYp7DFJlRqSLjnXv1bkMmaCq_EtIufKpuvGx97wLdcMbQOBSqeODtTDT0BSjwQxjZrhDKAkIRv4JNjszkDGAJAS1EjCnchqDF12PoXLcqLhT9CnSvEjCKvkk22LV_Dpp1uIvZBcPf3NRWg4wcoY1Dt-_OWfltFckZpeFoMfTY96yftjnMJ_ofbWY1soUbAkp5v2wxJJrzxrXS2zOicQjEQIXR6Oe3eNHL7aBBPUSLJVmU8yz1T2Qb_a5D1LaKWPU7HzB-oU-lNeLH5XCaOwLstD-vQi5v7l6myrAxKAbfWkP54YXW1_mhw0uM1PXcyxDGtinqcbOcgohgeG1AXGySdeMojp6jmivcvn4zuS7f3Wl62HkO9FWW_gzxCZXDYRUAw3F96s7_Z-DJFjuzTTeOtTCoAaUrRGl5cYGDT1irGaZVJnorVXEQt2rBGp7ONyc3r7788bXAi10cAC7G0oOceJI0H4HvArDkaUzvGYgJNwCAsis5h83Ev362O8nLJnk1rEdq953z95tDwGG1YbfzFaPh9HJXAjhZxpujMuUaospfcC6BnXuxyPX_WjrTyH_O-l_HZtXkUDhfwguDYXg5LpbisDx5agZZo6yPSc4OO94vHcBQfmIFzoLE70MHdNEaJJCrXyFy4_SWWjIiD8XDxbA7bJJ0B7Yl0O4z4s5tmYGv59TaV2UisAuHNd49L8V0j3nGjjHg2AMjRTCbxjFyGLNR4EkRcmn1GKDISiE2EH3S4Ojo45q6AIHi0jJboCQPCWt-9RjTL2j3LbHPuemnw8OrlS7oAQ5JQNg5brWTGNmgQTXAo5bSF7ngbc-Yp9K16gln5CDCNfOGmrp10tfU7fM2eK5jBpyMmCzCdf0VhY3DC65eOB2Wjihz3BE90CZ4_oa31e9FCD6OzLoRSTaSjYMFEbgQP-JZISNMVyo25bm_IxBHh9CKhFGeOn2waRxvKCRgQ7FcCWdpDxZw3xkV9PZGAilVYhvCI9iFGAwIaCZpbmZbR1WxPj0xIY6bFFrNHKDG17XegjHGryzlasNEckH0qQME1j82RWVF-Yaku98ugWR2G-v0AspKZFpDAJWnKWf9mAEQHihpWhhHrSBQPJ7kHhdzW9xK5PqybCp7g9RfsdEY3CAdDRVTQLz7iZ9Q_1oUOaG4rGYBETrglNih5cm8qIH_xNcv8PqNPJju5T3TX9IbKcHdzX18DsYwf-qG0Tw5XAPckIw1mIBkvcJc6LLI-B5emq29lwRibl535Yd8_8XjKizGf1AlZRK36gwG4fgIKxE4Wt0NPKhNT15TkYXAMKV_tiMn-Z_GuzuLeDT1vd8EkjFPcoCsrzPbp6fQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Medical Affairs Support, MC-A13\" OR \"Medical Affairs Support\" \"P.O. Box 204270\" fax OR phone",
+        "results": [
+         {
+          "title": "Appealing a Health Insurance Decision for a child with a disabilityNavigate Life Texas",
+          "url": "https://www.navigatelifetexas.org/en/insurance-financial-help/appealing-a-health-insurance-decision",
+          "snippet": "Texas Medicaid &amp; Health Care Partnership Attention: Medical Affairs Support, MC-A13 P.O. Box 204270 Austin, TX 78720-4270"
+         },
+         {
+          "title": "Contact us | VA Alexandria health care | Veterans Affairs",
+          "url": "https://www.va.gov/alexandria-health-care/contact-us/",
+          "snippet": "Find phone numbers and contact information at Alexandria VA Health Care System for frequently requested services like patient advocates, medical records, billing and insurance, and more."
+         },
+         {
+          "title": "Contact us | VA Palo Alto health care | Veterans Affairs",
+          "url": "https://www.va.gov/palo-alto-health-care/contact-us/",
+          "snippet": "Find phone numbers and contact information at VA Palo Alto health care for patient advocates, medical records, billing and insurance, and more."
+         },
+         {
+          "title": "Contact us | VA San Francisco health care | Veterans Affairs",
+          "url": "https://www.va.gov/san-francisco-health-care/contact-us/",
+          "snippet": "Find phone numbers and contact info at San Francisco VA Health Care System including patient advocates, medical records, billing and insurance, and more."
+         },
+         {
+          "title": "Contact us | VA Asheville health care | Veterans Affairs",
+          "url": "https://www.va.gov/asheville-health-care/contact-us/",
+          "snippet": "Find phone numbers and contact information at VA Asheville Healthcare System for frequently requested services like patient advocates, medical records, billing and insurance, and more."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "text": "```json\n{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": null,\n  \"effective_date\": null,\n  \"criteria_quotes\": [],\n  \"appeal_deadline\": \"2027-02-15\",\n  \"submission_route\": \"The patient can submit their appeal through the following methods:\\n1. Verbal Appeal (Phone): Call the TMHP Contact Center at 1-800-925-9126 or the Medicaid Fair Hearing line at 1-800-727-5436. Under Texas Medicaid rules, any verbal communication from a member expressing disagreement with a denial must be officially recorded and processed as an appeal.\\n2. Written Appeal (Mail): Send a written appeal or a State Fair Hearing request to:\\n   Texas Medicaid & Healthcare Partnership\\n   Attention: Medical Affairs Support, MC-A13\\n   P.O. Box 204270\\n   Austin, TX 78720-4270\\n3. Provider Reconsideration: The provider may also submit a formal reconsideration request using 'Form 1322, Medicaid Fee-For-Service Prior Authorization Reconsideration Request' electronically through the TMHP Portal.\",\n  \"how_to_obtain_criteria\": \"Because traditional Texas Medicaid does not publish its own proprietary, stand-alone clinical coverage policy for lumbar spinal fusions, the patient or their provider must contact the plan to request the specific guidelines used. The patient can request a copy of the applied clinical criteria (which are typically commercial decision-support guidelines such as InterQual\u00ae CP: Procedures: Spinal Fusion and Decompression or MCG\u2122 Care Guidelines) by calling the TMHP Contact Center at 1-800-925-9126 or by contacting the Texas Health and Human Services Commission (HHSC) Office of the Ombudsman at 1-877-787-8999.\",\n  \"confidence\": \"high\",\n  \"notes\": \"The denial letter specifies a 180-day appeal deadline of February 15, 2027. Traditional Texas Medicaid Fee-for-Service prior authorizations are administered by TMHP and reviewed using proprietary third-party guidelines (InterQual/MCG) rather than a publicly authored state-specific clinical policy document.\"\n}\n```",
+     "thought_signature": "Evs9Cvg9AWkUfROcrn4XwTqcg7-PLj5HY-s_XyiNFnCrUAxDZgHU3-6svray9WBH2C85dtDR8NCd5PJG4ZU8wkrvnbqF__m1N5wps-mET3xVpMEZ00nP7wD7BxkMBOWRMAUi7i2YA-pVggSvRX94f8fuRVSTun4zfiaspf3OgUkJVjdFSC08ZbYHsR4Q6ghN-UTIHRKeXJjj1Rvjat4InCnosPfNPb8XFLTtUZDQi5qESixwr4sLSk5FIaLjJhapYkLdDw2dqfHaQlMlh-fvA551r9Vwn1D8K70qK4-ohFtnCqKY-ur9P7fcAZTWVuO606f4FrwVXwFA_9Gex3oGVu_pC8c2o84pUylCdRNv423SGbAtADNFtchvS67H3_-K14D8amotaR7oMEih8TovsdkV2hJUOEVMD1FaICP8RgfNaNxvfN7wWB7PoAddCmBi8RXXqZWuH4bozvLnd8jL-v1ZtsSzbDXoNmZQ-p1vq0aXi21OTBsxB9UdYIzLNXDhVKD9p0e8ASvl6yZJcHfPC7CA-6KeDUm3Ct35uNtVwbv6qUjKwm0gM2Mg9A0cjX34RNrzjmCNA20j7V5izOAReobT-XxD9GHWKe-seEsjWgLkJeli9AlPv7iabunAdWn0O93IeFN86zGITyEkoJzbT2bwvsQSTsxEhZWWk7uthyx1l4iuPHNDA79f5rbjmBo0r7ysm_dMjOdtR9x-XWbHLhr8hGMfqgGqjmzTpIkVx1DkcbXcMcKvlMF8XDyviQe0YHMJ-TMLlfVGQd3ICRyl9Onz4ArTHA_5tGY09uekyKGaJYaoGRqxhOTCx-f07VUh-aIP-AZsKpJbwOs3_gJTy9RObzr8xX_afSxJfkzD8QKKxpciIU7A7oWcw8h_apB8XpBzy_yU4SXpeqW_6_wdf3PrXBmF3VD1xdIXvNYi6RXa3fTPnVxV-35YFMK3kcTXmY_RUXe38_VHkHmtLzq3b_iTslO8wIpT7rO6qRybNF6IJ0ZEay-xyw1MAcGWWub_-wgw_W-YFZeJ3Op1OTdNOAukRRWS6MGQPJGKpo3anl1bug7iaTgEqhWtwKuTr3WcGh8G_oypjhz10EpyunupYAKhNUDY4l9105JB1x8qMG8HKfxaGEKfEQRGv9kfdbOgYBU_yz_a3yD6cJd72HcO5dW0TPxaDoe4smifykv3xcAHARUPEslGt2S-cTl9SsaLk7jfSDQqdloopXHSueTzTHZm8ncLOYnwChwAfxlbTfREzGRhi6Z0ejh3SoJIf9-Py2yYCxWzQuRexgsyK2YHDZEAedqv5qKRbLMWJIHIQmAffZzE7cwwnJmxJ1zXWqsw10mJX8cRR88ZTHhE1UgQdfH8tIhIz_eJ4z8LFrRgRIWJ2VsGc-HQHkqyKr8gqHUbaRL7lfXeVhgmNYfPT8fKhuBG_aKqBcu230gdjHA2nmh1R0fGANof1hf91idmJGW7xgndcZWXMfZOF1a9aeOVr1TEYlHNI3aYoa2u5bn37M2wXOtD5WWYGlGbH61OsaBbjXlqioMDh0Av6BcUKpeFyOSed0UIcTfeu1e5yQiZhIXLdbMpyKNVBYMNCXkleWdLIwu0mC8cWuwhRZpYNyWMZXRpkbkI9LVIKfB0w1hFpAkqsf7sasZ8JMpPASTyV8XZsN2Yi9CObV_6bIhcO3QCZYsBo6ddCk3jcy-_99TPxYtXgbrDEXAdF_vLeMlaTMKXh9z3e6JmTfwsKDqrjO6Rc_QJ_CU7FJwXSFSsXrvbGTrajdPxu_A_cGZL7DWQOaYci2J1y2e6ol3vWM5yYyJvdmgVg7fNKhrkO4zU_MJbYspeLjANGKb4mkaG160YcebKkZVUfUdUfHeV_Zj5LHAw0V0ewW8BFXgV2M8Dm1Lzh3yhfpo-S5CBBAAppQIoryIviR6U6oq9swvv3uW9c-AeFc-ZPDhAJhqaJti6enhABE7rejzK63Orr53Yl4WxwaU5KOCDFGRkYah2WlPYBbET56De7Ng1IBLJB5sVgYI7FVV7EiwUb9-qxOCqRLPiffnZKJkwsRO0w_nyhVY5xWXIopp2Ajt5aI9eLKp07qqIpO_PGm-qWKUyIsA1FuKLl1l97wBCCSHZUjaoMIZudUEhNq4epyD_7Wc2a9um9U_JRdBaOBDSRRX25elDu_2r6rQMhaF6shkARdYmC2SpTmh9tTuUfwBFLdgrmXRzsIKqlMR2kuahqwYK1Ru-Nhs42C0c8yvua9V3y7ULwLBBTwGwuLlwt1RlnYzbVDIJGyDhLF-VPpEme10rwwTXTpJq8fiFQJ4s6_DlB3H0NaTduCFR_hMCo_DGyTkpLM6w5GzoURmcv_PuAtBlJTo5d7rZO92TMkqWIdHA83pp2PTl9rIO9IL1RcWB3qvHRxfJPN-082A-1HpbCfChRajurHsVln6Eze6q2_6QWZS1u2d068TFxAF5YnD_ibIOl0canRM7pApJJGw0o_x6g4u_GJ0pVEVfJef-RyqDa66mAvnToHIUWuYUuvNjOLOfGpnURZUnkmwoYTsWEWtewecug4s2hkmBlQmrbhMrKCxkN8S_4fZydMNIvu10uSIJmPVKiuqzoXJEDVH-ipnN2gOTkv-AX8uVuC7Sbyp8PtT3YQCk9EB9tpUXwEHyZ3kgSFyjXz77vNcefRjTHEHVr5m0eBGAQXjK8eMDB4jgGUFzTI_ySs4ZGPy5UGINzuPNLJdmGSUEvEPD8cpOBGIZDAjpLkqeC9__-UmoscOuEezJPjCJj-0xbWL_ltiV5mZS7asHaaUV3G6cDNeZiCcRX5mDTI-3uWWdNQR9DDDOoZXePTNWFj8ispjtUiChhMWcoHc_7hCs2o8bh-CBrrhD8dF6JeP9bqGjn_X1T30m2KAbGofG3V8OAzV2b8lGGXkvs4vH3Uq_yQLcIyE65_sUbtvToPHStACte08oeaIHGY4KkmAnevQCvMjr_l4PXwwvOBADdk3YoTIylmXW254opv1_c_PV-8NTR9-Ts7l4EGvMXrf_mGWtkd7dtJA2ix2MqkCeDxWk-3f8e9fyRSQYWwLjTDukPBUBFUiuBvsUMl2Lj21EBUgJasDV5ys8H7823CXE1ZW9Jh_QC37YVTw94F9mb2MubG6Wb4IHXueahF-mqq2SMYLQNNrWVFsMU1eGSayNzSLrfQ7zbvuKL_oIH9XlKmBGlp1hjBwynU4ps5nC0fA0wQ4AwIEebIpH4Ly0USDvCGphpdwfTcir2uyom0ux6mS8trwZWpo6zzozr18HUDl31VnnDasgKnDJ79EfRgWMow81GB7PW4wyrMmw1BHcMmXzodjHeJOmtFGghPma_J3CQVprJ1I_kEjHZcvUIPdxtatSNYx6mAa9PWdNZ-h3nCzlmZ5QeppacWUNC3lQEl9tAoj7x9U-vhkgvhB0q93vp2MN0GYZ-lqh8sT5TGOKXCnC15Pg17zdvH31tPZsqfI3J3xSB3QXlLF8D_2m6usKDuszHM_BI4kz3VRahaYqbpd2dRCUyZFTDghDNqgEckA_XkH0A5kxniaBw4N58Z7JI21sk8lglsv1hMUPuwfXA-NS12-iT1G0xwnCzAw6LGjIp8t1VIBgE1mgoUGiCVcCoiZd-TM3c7mGvsd3BsuIXm-49sGu9w90-A0ZjWqEieiR_irftaFCXeL1oMbLFz5qRFX7lbej9jffyw011Zmn9nOQf8mGgHQHNPx4QSo-lseC2jHlJIA1wd-lkSNbN4Qq4HKga-LwE262uE2mlxOIhh3nTBn4fBpiILlcEw750JFP1SeVAR88-_0d2WfUbhjN9UCx53Js5zA6RlEvC7ipfW9LA-pZtILhaS_otRLKfg525zwJsm_w3P-BcxVMIcNgVLQkxuKmAIxz1btpwfu3SJRgiMgf_K9Obfrq_yM7Vo5fevC9dVoVOJqb5ribnQcg4U1HCqedSIdmgLeoZxWlnnBI_b1PhSO_E_mpc38KqodXQNIgVCnajPNxtBQh5QHZtnYLecO7W7f7Ftl-mVdnVkUU5WzcThWkA9ml2EJnDj-_KQTd4n1eTlzjl-6kneLjUMFN2SKUoeiKnrJnY_ZlQkKxJ-jO28HogJfeIoSuwOW5Jn4NFaZqUhO3lMWUojJZ-bYwdhxb205UsgMLqf5GPbVDN3tQz93wyUoxIcF8tVqXfmAUhZqmbPpoCREYDEM4rQcV_m_OYl4NaOYd3dZ7zeA5KkAJP2ZMVm7kzZMS2OU6GyebUNClPdIyF-z-N4bBdYbIn1Z3F5xenR0t0z4H5Obx6VFXUqxfQQ_T__Y64VebQBIHPTsC8H2KK_avTu0Qc4n1a9a813Apk7JQXdVLi-xcFkQx1eIRqJdH2kxE6zxKADUorCFQD0LQBr6RTvmqvazaou2BuLu9IM9MbwEsKm281pPApHILL1OMN7m2YgIGqkoydzKxPwQ2xCRYCwpdS2FOuYA8Nq_qXWj98SG_RG2QL2pKquwxuw4zR6xzVK14kVQUghMxifxJN-Jzk5fBzFiN-iBk4QSqjVRCYma1MkANmq4lxW0i-mFlImsvDHfxa95tdCupCvADx7aXxh3z0d3bPiARq0khMFSVRbaC2V3WjeZ6lUz_nJihaHWAVr5ldp4p5u2ieV6csJbUmvlbrxgjQEaXMMobMNbSchJrjveko0b-A-KXoXxP6BGo8EK54nbpS-b38VCc-3PcD385Vf0GQWlObjnXqyk-ChqSfQy4V5BmKOZG2PCHjNZrhE35lqWRZd8xfHDhTJHHe0EIeNNI-wFbEKat-vl3ahLpHym1s2EHTBceW-nGjievTcBEcMgsfIGdtflCAIkoG00bydAXng4HxNakGS3m0mxrn6EicgtLrXf25gNFjwOVQvbSLRRIdFYhBLpJ6geeT-Ia_LXBeY8RU3wQY8k7gUe1vdN_ujLUiskIXxhKsHYzuoxV2-eS7_Og1Iktmlmky9JElrxdeT544uiFmSR_sFUZ7jwjxPHQjvhOr1pPE5bmt1b0h2Y3rrMgmEYHpH3LGwOxt5byojAjYAFotdrtR1IE8YP1hEbgWoc2MHmJ4A6x6hGL-P_6__CQPabQBtojUL7NZM8JTifDBkiYM-IWbu3vst9guGfaMui0mSKxrGtebbhTYm5BjTztv4dR6pskeZWK74g3qSMJXv8fvx_m0wK7ZWcaU_sSf389OFQ9wWvPp3qPl6havWM3m8Fc8yLIDvO4zF-xXT71pzlJYiKS6DNJFHnHDdt6INhenAxsCVmYeCW0QMOeYm-qq1QoujRQknGmr50przwvosKY9u7GIoRAk50igw5LiJefPswqODR5EweVzNZ6iar_eUoWwlHEKHWUNBhHZeNqkoz1qaW-IncWQ8z3DQR_bPWmi1VzkR2-Em1rqwKzxcEbG3w9Cbbvk-2nxv7AO03D7Z3xN8rTeDxtvqurk3RkgHcdiIx0RhKUNO0vjI0eEQmPeGqq13VaX3Z8scEqX1Q9at-Q80MisbVhcNVwJJNz9IZRSLP0ryPUJ031wfmAMYmUvTVViBNFwyUYC0ORAS-267WkKaxaTDMcy9RW8KOq7A9oX3NeQg6D1kh6YcUCzV26i_zk1H0G4IVZ3QATenZQldZnAwaIcTgjA1DVUmVulJ4ouAU7a6eAp4gJGehUrvHYQ-eY_0bqGGtz6SmtMvVaZdqy220lI32e2YHjxqAbSxvwEcFx9V91KbVAbKHpb0RvxdIPLpPeISumMmp83FmzG1380PEmwag9sHRZj_LAIO8vEC1XJaONFaIbmm2v4fSADiwZVUIfam-iFBHAZaRbDpIKHtlOGPJOGvJRlqGyI2eKSUCLQ7FXzu-Hp9z3wP_DuPIwS_mvh3Cyr__dAnmjieIaXdPo5a3pWPmkgiuc65MGrPOvUZXss2ySvZFAXZES1NwXveXS9V2jCxanIuybXlXcZBj_mMQnVxuvna5Pz03jH3XE4AaB5-EKbfBKXaUTFIKH1xecU5BOX8xSWh2l0bfX_sj6Ozl-n78HMBRM2rAxWOoTiBgb6Ly7Pt1kry22koGl2KyXpr2h_eFFqUNG-KMf_zkdMKz3tk8o4w2IInlPnUK_9TNBPPGDuhyB1_6JRC2ukjsDNi1HYxr83ZEq9IDYiISNcbUqMjCIBZSUa17vTiNY8Ar5xxzp_7JIB1pQg669s7Sp8tBre4lFYf_QAlxM2hWLYdUmE39pWDGz9M0KNkIIx1M3H-48yeTUak1M_R5NP6VHNRtpqgHqZVQ-G42orQ7ol6CBvnuct1VB_0URZMkT5SA8NTnOLZFe-OKkmgCn3pA6DTjWsgQjY3M9axSvGhq2q4aa7IMF6ZplSEbB6bbdfzOYo4x1NQZjG4bcPdJMeImIx1g1WBlwksKA-ltuEoMGgWuoATSyTpypi_AqTY8G79FF5g51IQHOZ1AB_xc5D3mK2JNv63SeOriyuUzXsUTuR_tSWFBs5pm0uY8nvW64e-7KH1uaq0IWgRSVNy_eQIjquncT23TEwfvCmd5Qn7WFqyhQZBV1wD5VSjYR0OwoIzzBaFW72wkFPTeYyQcXxEzTeSAb7aTCsqkYrGsrQNDN3DGBHby_ZokoxB6Q2XOV4G_itEb_MSoU4jYP5bHgtUhleRSLABwsYyhkq3d8nn5mgp_EwqwGOXbD-NJ-CIgz3kO0W0s0WoCLvmOfgZm24pDcq4ctdsZZCC_VLmXaXJTgRP_XCWBr-ZEs1EmBAjEMfGCQ_3KCCN6-_jowwCsmjkU2pFjL0JoYTBMfbdSMvwxksqFBb5fSIUFB1CQY6uOEfwKOJt0XRiKE0GAiUW1NCCB1eI_IGZWjftPVT_CJv7X41uJhlznzN5tRFebvClETpONaKtHUiAbQ9DvVfyM_aZGvpQlom572jMbnS-Q91wWu1j5U1PTNpEQx_BTxbe8LIy3FuwJmyFcgiDg9bVIIgDe7IZTcpLamoAKx0of9Kl2KGfGPdp5tMwtAzpukHM9LVKayBv5pWPjaNprF8FtWV70PiWgS3VaOubqJafMQ-uaxQ1rm1EMjO6BM_ncps9PePNdUIuz92iF_U1KOf6cuCgD8SdMcXpQHl3cwq4acUO5UTfweUc8FFxz596DjUDYqs3xZU6RCHVjPIa_qLEceziYVv3uyqJ09vfElbUmsl8i5hOX2-hMoX2hjVp8oEgQ-kqXeDWfgpuFcQ0VZYsQ_dn-9SPmJ5AEmhFGk7PwXmjU18es0N9YuIdHhVSyc1frPHWxq8u-pC9XDX4lzaQUY6t0dWdyfFc-ZMwsNt8xkBAgIa4k0gXdwShFwuEbLDhiC_O31wmjuQY6y_Sptdy1s5ItMy6dYJ6TFvL36DY2iyD9ucd_iMGS7xns81dIm8XyCVLHG4cu5zNOpG7JB1S3_FzF7-_4zkYtbJ8h0fcSZU_MGJWLnTPYb-wXeGmJEHiT1yd0UH4cEWL6DQv5Jr3hNU6ktDXCy_kNOLvb5YtSPoFqoLlpzcpC5pChQw0wQxsq393hJrIZpoDMYKSXFyEnjT9TxXJw2U0ByuRZREXk2VgG4kkLU0m7MmzJDrET6VOoMSsmqLkL15zzM6bLdpHlUnjiCu9E5Qn6099ZgstnH_tdfK97z4E2ItbcdGbTt3VEOeH0C7iJ9sP5YbV-gJ7lfVqg2j2jrbH2e7VT_FCRNxCBIYnQB_O6SaYvVTtcxESFhX2FURbW6H2uh2xDNAuNXzTXDNn0sycit-TWXWxcAWZ616He8EnPbk0AgsO_BQolJBJJ29KcatdAAIRWRtX2ngP-XvxbMAswEmLzgbvznT1xD6q4R5Tow0iIi3b8qu6Pf3FiOAHhPfx5lNA0PkKiLcAAg1TetdazSB2yzyAYKST3rpvgq4qeeEmKh6CPaJZDJGMnSNEen61LLYmUOiXGoE41yP8eyZHELOxmq3dmKkCULDb_kUyE0hpELYdhsubXQMmi16B8LA0x8vwLLgnE3MBVvMmtX9vrR3gfoRKIPkM_LRZ-u7cxg_wKGLP-K0nws-nFK73QPOYwWV8rBJW8HuFuL-E0MGyCJOJEMJKT_QehQWK8C6b3h15LY76HjKul3fhcCbqD2brGjuOK0s-fEe7Pj__3l7IkbD7IXqDTSS9KpF3VVLZexTNyoyDG56YqMUuWbW_T-V3EZWF4oGTCb3LS2hklA6sqPPri0O5gBZrA5gnw1a5qgi_BQLoRYx1eXI5B9eDjIa5BGDKP94URcTJHsG1lRVp5DD5BCqV1GFnmbZFBK-vDp3uR8oL99rLgcALrAg5Rp-UL_14IwKp7_eh7CL8jD2IIyf4dwZoU5hPQ5rk2Ha7Dqh_i9yndXJz-dm09c0nihlWJH07L6yCWb4KwAmdOv7TyW8BZWUJKfB7jJ3RiHylZWMCTejaejpl3gRp-hv9rF8-BBPEofmxfIlPNsYr0yF5i-rPw4YlSWbtUSXGqN55vASbs0bwdAvneT9HEGM3GvyD2Clp7eGqVJ7lBmeC6ByjGYqSvtptD8e5TPyOw7Z7MhEeVvN2a_2ZNCRNUakIDSXwSPalN0JIBQPFQE9Iicb1yPAHRJhjlGk1k0NqKaoVrfc62C1XAzc6Fmr-cn3FLZVfLL5LhV8ZdLKtnFBqf8LI_RQ0Zq7ODVxbzRVnV_rs6fxeMJptomnPy0jzVoKffNn-rfBDbF6WlqellOen2UU8Q2LXoRoNHHkeM7QOUng69--CrrJb5ycArX1RMfEAL4vi3G901eW1mU-S0yUfbFTQY2BlqW0uee4UYdGhzZrVo3pG_aG6Q0kEuveUQ9eeHkc72FeuMBMmbGww4fsPv2Be_HcPZ9ZsNYqPSnHqg8-l1thAbeVb01UUHcARwToaDkTh9tMqvz1rA5wMA62OF8dE1hb61NqTpuXJ1ngHijPUWaza4zxO7VLycZqZsgoTPA6kHMd3Qh8JWRPFpWP8fpGObKEKIkltKkuScZUODTRuj2yWUB53PDYsorC2xGFNv8FNa6OiRlLUHrHrP5_WMEcJr0ALzUS3TbnOL6B0Nm99RW2g6gLw5Rm9Dp5-sc6ApIvWt0wd_M6PJq3iAPpI3P_TIyHj9LpdHkS5LcwRKsuq6eJ46WcuvmeDjXnmJTW3rupP8g4RtcEPdt-bcFI7y8ykbgZrcxvTSYJNhii0U91u3VMyh-nuyx7S00dZKWQNmfrGn-m_QsRYTFFFhDtxEvvL_fBcybpaaH8FsITG4yoSk6g2FobS9YZ9q-nKZKQN_6bIsMsYQ-x7AIlwX7c9sJUKahNQf55wOa-b0GaeTDqNK1-Y5uGGgEXdo_IthyEqgyN44cFmJfIz28a9s10zLdHe3eB82hV9rQfKZA-yiiy3FZAtgwsH52LsoK5B9oRLJfOEMwcvjM_KIyCJ5eIFXl_MWsBbktYmOrQ7uuuj0AyVdsNbTeyyBU-qPhhWXzR8fK96WVhE7mHCPv_AGIg4qMLP0tvEYUTWaeXYTZP7s6nDZaabEhnZ5YHmboD4UlSZw0S0xz_iPW_tDSazstbYFDEhiRLYGOeQ9v2Dr3A-MWIByf9poEHYKfVsp0sJ936SduhmR9M0MQPtFrpErzg0G6QCOXUX9AGRkQDIJKcdCx2v2m9pl8dyCTnXXp7NdccWmFdPhBCSyH1Waz2OCb8RLb0A-iWCgZmo9pwa9CSDBY0tQB1XBTfUF3z8nSHXKNCZSx0X7CzcqPwCh_j7GAWXNQAI5Q3AF2dVYtpyTw5VgFkAC5LgXbyQWG-UJ1rt6nW_CHOT7b0dEZEDQ6MrThK1MsSH-kNm0aoT88iGOIhIGUFEy9IX6aXUj6htSG3GTPeMdFddRzyqv6IjZV-JqABMfVUW260zJXwRYnqkCsrtNSSwawuPiomtejYk2P1p3lMwsQGn2MMgvexNBKKhJhzJKG-KXAwtUMfbQcfBw9umOJs07jfgvOyLKqMwIyvh1GhYFcy1QPqiQRXOH0gUKrUTy8uD-W2lgwbJd3qUUwnWW2bMJnVeVBtz6j3pjZVmlwe9JB9iN5QYJpVl8jJnWqbu_YGMdJm24kx_g-_LfAGwY8aMbVkMK_u7IEyyXVp9mE2Fplkb_MI0YLJWw0DbpXWTgqhTcz-rLWGklup1n70DuXTtdCamoSGRpHMw89wR4-Sj4il-RYAdFXPrdHVbKuxfZ_LtY2E3w2MmqHpkuhKbeWR_fRUsq-vlh2R_lVqkkWhINSEjzJTyMB4qW75psJY1D_BdEq7OFQ9JwQA4Bc20nP65oBcwMtS7tssjoX8gzrFippjlXD0d2hP9qZTGnXpHlgmponm2JHpboRXMQUzyVx4j091ehQDkiC9hB0P3G8_92AMI6il6lLCaUqxDYsg1YQFC6oc3NWDtXAJU285g0FBbz5JtuoInR0SRseuwpgbpJ_FFPflz3Uex8FoDYEEDxPl7feEDvLHjiLRJYL_txifh4EcU7Kyvew3EGyfYs3ssvmfC_-AfBiTOotNxM-3qBBDLFp92pm4BbCpvkNL9LVMP1SpFIJ3kFMB8zVYgIR6ts6dBtlOxIttOhLzlyvYff-ayNifnL9upkSB61siIS2XBoUpHQbNDwCvDG-IxSCg3bEnl8="
+    }
+   ],
+   "role": "model"
+  }
+ ],
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 179905,
+  "output_tokens": 2237,
+  "cache_read_input_tokens": 494634
+ },
+ "model": "gemini-3.5-flash",
+ "tool_calls": 46,
+ "elapsed_s": 192.5,
+ "run_id": "r-6d56b5ebf105",
+ "case_id": "poc-7b726a30c1"
+}

@@ -1,0 +1,1698 @@
+{
+ "answer": {
+  "policy_found": true,
+  "policy_title": "Evolent Clinical Guideline 1761 for Hip Arthroplasty (compiled within the 2026 Evolent Clinical Guidelines for Medical Necessity Review)",
+  "policy_number": "Evolent_CG_1761 (formerly NIA_CG_313)",
+  "policy_url": "https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/1880_LHCC_Hip_Arthroplasty.pdf",
+  "effective_date": "July 1, 2026",
+  "criteria_quotes": [
+   "There is persistent pain and documented loss of function with radiographic evidence of advanced disease from any of the following: ... Avascular necrosis confirmed by imaging (radiographs, MRI, or other advanced imaging) [or] Radiographs demonstrate bone-on-bone articulation",
+   "Radiographic findings show evidence of advanced arthritic changes, described as T\u00f6nnis grade 2 or 3 [see Grading Appendix] or described as X-rays showing advanced changes (e.g., severe narrowing, bone-on-bone compartment collapse, subchondral sclerosis or cysts, osteophyte formation and/or bony deformity etc.)",
+   "X-rays described only as showing 'severe', 'advanced' or 'end-stage' arthritis require more definitive descriptions as stated above (weightbearing X-rays are not required)",
+   "NOTE: MRI should not be the primary radiographic test used to determine the presence or severity of arthritic changes in the joint."
+  ],
+  "appeal_deadline": "2027-02-02",
+  "submission_route": "Appeals can be submitted in person, by mail, or by fax to: Harvard Pilgrim Health Care, Appeals & Grievances Department, 1 Wellness Way, Canton, MA 02021 | Fax: (617) 509-3085. Alternatively, members can request an appeal by phone through Member Services at 888-333-4742 (TTY: 711).",
+  "how_to_obtain_criteria": "The patient can obtain these clinical guidelines by calling Harvard Pilgrim's Member Services department at 888-333-4742, requesting them through their provider, or accessing the public Evolent/NIA portal via radmd.com.",
+  "confidence": "high",
+  "notes": "Harvard Pilgrim Health Care manages joint replacements through its partner Evolent (formerly National Imaging Associates, Inc. or NIA). Their prior authorization criteria use Evolent's clinical guidelines (specifically CG_1761 for hip arthroplasty). In the compiled 2026 guidelines, this policy is effective July 1, 2026, which governs the denial notice date of August 6, 2026."
+ },
+ "raw_text": "{\n  \"policy_found\": true,\n  \"policy_title\": \"Evolent Clinical Guideline 1761 for Hip Arthroplasty (compiled within the 2026 Evolent Clinical Guidelines for Medical Necessity Review)\",\n  \"policy_number\": \"Evolent_CG_1761 (formerly NIA_CG_313)\",\n  \"policy_url\": \"https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/1880_LHCC_Hip_Arthroplasty.pdf\",\n  \"effective_date\": \"July 1, 2026\",\n  \"criteria_quotes\": [\n    \"There is persistent pain and documented loss of function with radiographic evidence of advanced disease from any of the following: ... Avascular necrosis confirmed by imaging (radiographs, MRI, or other advanced imaging) [or] Radiographs demonstrate bone-on-bone articulation\",\n    \"Radiographic findings show evidence of advanced arthritic changes, described as T\u00f6nnis grade 2 or 3 [see Grading Appendix] or described as X-rays showing advanced changes (e.g., severe narrowing, bone-on-bone compartment collapse, subchondral sclerosis or cysts, osteophyte formation and/or bony deformity etc.)\",\n    \"X-rays described only as showing 'severe', 'advanced' or 'end-stage' arthritis require more definitive descriptions as stated above (weightbearing X-rays are not required)\",\n    \"NOTE: MRI should not be the primary radiographic test used to determine the presence or severity of arthritic changes in the joint.\"\n  ],\n  \"appeal_deadline\": \"2027-02-02\",\n  \"submission_route\": \"Appeals can be submitted in person, by mail, or by fax to: Harvard Pilgrim Health Care, Appeals & Grievances Department, 1 Wellness Way, Canton, MA 02021 | Fax: (617) 509-3085. Alternatively, members can request an appeal by phone through Member Services at 888-333-4742 (TTY: 711).\",\n  \"how_to_obtain_criteria\": \"The patient can obtain these clinical guidelines by calling Harvard Pilgrim's Member Services department at 888-333-4742, requesting them through their provider, or accessing the public Evolent/NIA portal via radmd.com.\",\n  \"confidence\": \"high\",\n  \"notes\": \"Harvard Pilgrim Health Care manages joint replacements through its partner Evolent (formerly National Imaging Associates, Inc. or NIA). Their prior authorization criteria use Evolent's clinical guidelines (specifically CG_1761 for hip arthroplasty). In the compiled 2026 guidelines, this policy is effective July 1, 2026, which governs the denial notice date of August 6, 2026.\"\n}",
+ "usd": 0.3074,
+ "transcript": [
+  {
+   "parts": [
+    {
+     "text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-06\nMember: Taylor Grant\nMember ID: W785887548\nPlan: Harvard Pilgrim Health Care (Commercial/ACA), state of Connecticut\n\nDear Taylor,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total hip replacement\n    Procedure code (CPT): 27130\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-02).\n\nReference number: POC-E71C638D4F-57015\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_148040",
+      "args": {
+       "query": "\"Harvard Pilgrim\" \"total hip replacement\" OR \"27130\" medical policy"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsUGCsIGAWkUfRMTrNXT4rSmKFaRXHAaShGEaLx9M1mysTWh4uFm1rPNsV6FcX5dJL7Yn5ezMnSlUM2MyMTtZbV58lI-EHQGgHQ140YbXRJssj8-BhbG672Kmo9tf5HPkGwQY4eEad8yPHogt5m97vqmorKya5WrbYHbxGtDOzK7mO_diOWgsm5n5quCqsEzmODfNehKTEojg8OxIfOz75JS5eKkFnmGdU7SeFIPsm_as9cV87ktrZdQ0-I0xej8g3bJatSKurRudwqPFC6GYyrVui88dd1cx7-fg7-6mVn4wG44xj2esFIYsHh0iinPkQz0bpi9f7XU0RJN_fNGxKweFe4hROr8sGk3KjdUazl1cRIqVKlVxT07vOEHe1v6s2OOZF6o6zP_lmY0FeDJz5bOPkGQJJT7beg81TyFI-N-tUlkz67x3W4ANbgQvaX9KkQrQ_0k9axJq2FzdyPnQ7f2BwGNNFPVAE8HqIlj7vFnbMuoq1rQF1aCs3H39EcN1eRkhaNdv19_5HVA9kQcb0f3-0cNP3HAkEA3OU0LTGqo05mqiEIYlh5GtOhAzITZmCE4ztLlR5Mu1hbZZ9NWRrbjaYwNxX-QmZKOSULXcjKuE5mnC6D46hAXBHck6usu17SdqrlNs6wHwhdTo4ff-OIDfGNJIVCdsak1fTZoJaszJpRJu0WxF6XMxUm9X5O10wzcxgKI79s5BjkMurUZ5vB2jjQoYCF0O2I0zMKrXqEmRT3gvV63cw-nyUGIjCOHVGJgb_aHVq4SXGoubNguIQhiY3i_4viLH7OLjCve5YDDDRpTrT3fKsO8RPDEfxlZCCuYnmiK9zLnDiy0Id0iuARUv6sEZuInVJ3Uq4stDhRgmDQ_T-NNyACnYzsWcNj6yR-5czYm2s1dz6nsMtH26DXYpKirQMfpEe4Nr1lb1pSI76sfMIf3bQjr3Ihr8zyd2LoY5oO-lLW_UkXJwp_uwisRnY3c7xBLePSgI-h5uimkVrWqDuRfIfq-uBihp6BWtm1zzTKzt6oZTqDxOrEjoUwoDErZMxrf8cAnHvyvj5PgYMhm16v4apofObXAtHCz5G_ZI4gYH7XKA0Bvsn39vBo_QLkr59Qd"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Harvard Pilgrim\" \"total hip replacement\" OR \"27130\" medical policy",
+        "results": [
+         {
+          "title": "Medicare Medical Policy Total Hip Arthroplasty (THA)",
+          "url": "https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp133.pdf?sc_lang=en&rev=f1cc622fff4e4633b16d4e9991eb7218&hash=1951D520A65C5178694FD5B2B11E51E6",
+          "snippet": "27130 \u00b7 <strong>Arthroplasty, acetabular and proximal femoral prosthetic replacement (total hip \u00b7 arthroplasty), with or without autograft or allograft</strong> \u00b7 27132 \u00b7 Conversion of previous hip surgery to total hip arthroplasty, with or without \u00b7 autograft or allograft \u00b7"
+         },
+         {
+          "title": "Radmd",
+          "url": "https://www1.radmd.com/sites/default/files/2024-12/Harvard%20HKS%20Matrix%202025.pdf",
+          "snippet": "27130, S2118 \u00b7 Femoroacetabular \u00b7 Impingement (FAI) Hip Surgery \u00b7 29914 \u00b7 29914, 29915, 29916 \u00b7 Loose Body Removal: 29861 \u00b7 Chondroplasty: 29862 \u00b7 Synovectomy: 29863 \u00b7 Hip Surgery \u2013 Other \u00b7 29863 \u00b7 29860, 29861, 29862, 29863 \u00b7 2 \u2013 Harvard Pilgrim Health Plan \u2013 Hip, Knee, and Shoulder Utilization Review Matrix 2025 \u00b7"
+         },
+         {
+          "title": "MEDICAL POLICY \u2013 7.01.573 Hip Arthroplasty in Adults Effective Date:",
+          "url": "https://www.premera.com/medicalpolicies/7.01.573.pdf",
+          "snippet": "27130 \u00b7 <strong>Arthroplasty, acetabular and proximal femoral prosthetic replacement (total hip \u00b7 arthroplasty), with or without autograft or allograft</strong> \u00b7 27132 \u00b7 Conversion of previous hip surgery to total hip arthroplasty, with or without autograft \u00b7 or allograft \u00b7"
+         },
+         {
+          "title": "Total Joint Replacement (Hip and Knee) for Medicare",
+          "url": "https://onbaseext.phs.org/PEL/DisplayDocument?ContentID=OB_000000001634",
+          "snippet": "(L36007) for Medicare and LCA (A56796). The <strong>Prior Authorization requirement</strong> will continue for hip codes: 27130, 27132, 27134; &amp; knee codes: 27447, 27486, and 27487."
+         },
+         {
+          "title": "Procedure Price Lookup for Outpatient Services | Medicare.gov 27130",
+          "url": "https://www.medicare.gov/procedure-price-lookup/cost/27130/",
+          "snippet": "<strong>If you have a supplemental insurance policy, it may cover your procedure costs</strong>. If you have a Medicare Advantage plan (like an HMO), talk to your plan about costs."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_134973",
+      "args": {
+       "query": "site:harvardpilgrim.org \"hip\" OR \"arthroplasty\" OR \"joint replacement\" OR \"27130\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtYDCtMDAWkUfRNQJyU1jTTJzbppen8mY2H3eQNCGsBT4S1LL9o5RoCMs-6922xbZgEqPB_z1m-H_5N-I3M9Y9sx9AWz48gsgnds-JXFFmnAk9jmZ_mu9fA7W0QqWftltlMnh12wu043P03_48z2zTuSGkDUq8bXkvmQ5-pXFdAJP0AnavNsU4Rcza3nG0bd0XvGp_5Xqfq0l5DTlLA9nuN3yTmY1eObDXbbFXM18wpEulOr-1N8P0sWZvL_loE5_4wUAGCvvgCv8AOtZxASiONZXSCMOt57UJ41GguYSG5fkGTiuiMgpfNgX-U7XLJNrE9yJZJ6e4dgkoFYB2remkLC3xBlxR3E4BpE4T1DOfueaZ9R_lbQAjyqKJYVVpTiJyQHPy2sHpiJG2irWv6m1GZzoNnSpqc56rt_pBIoMWrAqDvVh-wwqSB_UbsbqSzauG1gSOVew9kpXSvjoHiMMN1dOHjCF2aLCtMGdhdCSj4GPZSYjQlCojKRogkTUj7ZxhN_OQmR0A3WX_HFBNZJOiTYjLNJgnmebuzdrOy7K-k3CnEolEwV31k9TgYin-SGxkx-bRzerv80IlI7fsbeXo_L3DB-h7bXIWf9ccCcH0pMK5Wlbyb23a8="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:harvardpilgrim.org \"hip\" OR \"arthroplasty\" OR \"joint replacement\" OR \"27130\"",
+        "results": [
+         {
+          "title": "Prior authorization for care | Harvard Pilgrim Health Care",
+          "url": "https://www.harvardpilgrim.org/public/prior-authorization-for-care",
+          "snippet": "Hip arthroplasty/hip replacement \u00b7 1 \u00b7 Hysterectomy \u00b7 Knee arthroplasty/knee replacement \u00b7 1 \u00b7 Shoulder arthroscopy \u00b7 1 \u00b7 Sinus \u00b7 Spine surgeries, including: 1 \u00b7 Artificial cervical disc \u00b7 Lumbar decompression \u00b7 Lumbar fusion (single and multiple level) Lumbar microdiscectomy \u00b7"
+         },
+         {
+          "title": "Commonly asked questions | Harvard Pilgrim Health Care",
+          "url": "https://www.harvardpilgrim.org/public/commonly-asked-questions",
+          "snippet": "Commonly asked questions | Harvard Pilgrim Health Care"
+         },
+         {
+          "title": "Administrative Guide for Clients, Brokers and Certain Third ...",
+          "url": "https://www.harvardpilgrim.org/documents/broker/administrative-guide",
+          "snippet": "Notwithstanding the above grid, employers should be notifying <strong>HPHC</strong> as soon as possible for the following reasons: \u00b7 Agreement for fully insured or Administrative Services Agreement and Business Associate Agreement for self-insured, \u00b7 Prescription Drug Coverage Brochure (included if the group ..."
+         },
+         {
+          "title": "Benefit Handbook PPO HSA FOR INDIVIDUAL MEMBERS MASSACHUSETTS",
+          "url": "https://www.harvardpilgrim.org/rest/eoc/content?pdId=PD0000006879&type=handbook",
+          "snippet": "PPO HSA FOR INDIVIDUAL MEMBERS \u00b7 This Benefit Handbook is the legal document that defines the relationship between Members and HPHC Insurance"
+         },
+         {
+          "title": "HP Health Info - Order ID Card",
+          "url": "https://www.harvardpilgrim.org/hpimages/tour/info_card.html",
+          "snippet": "If you lose your HPHC membership ID card, you can easily order a replacement. Only subscribers can order ID cards online at this time. Subscribers can order ID cards for dependent members who are covered by their policy, or dependent members can contact Member Services"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_114076",
+      "args": {
+       "query": "\"Harvard Pilgrim\" \"hip\" \"criteria\" OR \"policy\" OR \"InterQual\" OR \"National Imaging Associates\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Er4DCrsDAWkUfRNIMMZOmSOo68ydfr5dLQa0ghBHTNtVAivkO0x39OtIDElwO-D19ZSzt0mZedFdOBwAAOqIafcDWlS1ckAglGo9Gs4dI3opbQlM98_4IDQSVRnM4rGK43DY-P3GYQPNhabN5MYq4O9ICaoRqL419pmdQY_AyWAq8sLpYH_JEdStR5bFxYo9quCbLg-Cf6ILHUuQdkKIDFXGYYovxNvUH7EoUeIXQxQqRFatDSvA5Fs6nB2QjfthdAkt36o1OqVi_fH5ehwGcTX4QoifOMX-y0sqCCduDH-6jxbXXa8EVjKkScgeOlKO3LFVN6jtK07RkRujVI7MdJbeVBdKamy9bPINp3pzb93tqBtny01YY6m-FaI1KoZtz8TwuPoqKrvtFHUjK4VxIsaZ80k5LdeuX_BzE_-qusCT40Af24CegXtgnPsrTTWnWk99kU1zZ_jeQbz6tXdQ1HCKteWYO4wKreYeWyg0w4hJn7v1zXxYTuc0FVkpqbCGNETenjquOIkC9q90AX2OIOlZhgJ3fB7jbcKsttU1xBJBY9GD66-wPcJ-3aqKQSloW8z42Nw8tNRegLlpWBSueOM="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Harvard Pilgrim\" \"hip\" \"criteria\" OR \"policy\" OR \"InterQual\" OR \"National Imaging Associates\"",
+        "results": [
+         {
+          "title": "Point32 Manual Wheelchairs Form",
+          "url": "https://genhealth.ai/policy/point32/8c7175b6-manual-wheelchairs",
+          "snippet": "<strong>This policy utilizes InterQual\u00ae criteria and/or tools, which Harvard Pilgrim may have customized</strong>. You may request authorization and complete the automated authorization questionnaire via HPHConnect at www.harvardpilgrim.org/providerportal. In some cases, clinical documentation and/or color ..."
+         },
+         {
+          "title": "Elective Admission Notification",
+          "url": "https://www.point32health.org/documents/d-1-elective-admission-notification-pm",
+          "snippet": "Hospitals must notify Harvard Pilgrim when a member is scheduled for an inpatient elective service. In addition, some \u00b7 elective procedures/services require prior authorization. (Refer to the Authorization Policy for specific information.) Inpatient elective services will be subject to review using InterQual criteria to determine the appropriateness of the setting"
+         },
+         {
+          "title": "National Imaging Associates Inc. (NIA)* Medical Specialty ...",
+          "url": "https://www1.radmd.com/sites/default/files/2023-12/Harvard%20MSS%20FAQ%2010.26.2023.pdf",
+          "snippet": "National Imaging Associates Inc. (NIA)* ... Solutions Program Services. ... Harvard Pilgrim Health Care membership."
+         },
+         {
+          "title": "Harvard Pilgrim Health Care Medical Specialty Solutions ...",
+          "url": "https://www1.radmd.com/sites/default/files/2023-12/Harvard%20MSS%20QRG%2010.26.2023.pdf",
+          "snippet": "* Effective 1/20/2023, National Imaging Associates, Inc. is now a subsidiary of Evolent Health. Evolent Health and its affiliates and \u00b7 subsidiaries collectively referred to as \u201cEvolent.\u201d ... Harvard Pilgrim Health Care entered into an agreement with National Imaging Associates, Inc."
+         },
+         {
+          "title": "InterQual Medical Review Tip Sheet",
+          "url": "https://www.harvardpilgrim.org/provider/wp-content/uploads/sites/7/2021/10/InterQual-Medical-Review-Tip-Sheet.pdf",
+          "snippet": "Tools and resources to assist Harvard Pilgrim network providers, including authorization and payment policies, pharmacy, billing and reimbursement, forms, newsletter, quality programs, and more."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_111388",
+      "args": {
+       "query": "\"Point32Health\" \"hip\" OR \"arthroplasty\" OR \"27130\" OR \"joint replacement\" policy OR \"criteria\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvQCCvECAWkUfROprDrgpp2co2s2TZGwDrafAq6JtVonO7Li8sJR0uZlv1VTjmj-1lYQE3X3Pm3zn08MWLQEhZRfQoBe2oZKZKFftr7ovP_XY4G5ntjrFNpvie5f0jhqiHTNTNnHztEXhP94Pstn_6bdjYUYCBGYjYqtuG1EFJua-slGp8upc7xHjE34vkzaFt3DZdfXxuIDfECfn34bFNYLgRcic8aET44d4irDNUL0YvRc32A7-ckcKnPrC_EMG2pFypkgXNFN2f5_JO8rFSO5TjlKs8_-l15KlRfWqGEWWV79PDqyEisTs1X9V6z9uXEi7buZqQBwgmdf5i_3UrMzcTZ2V4Tb5UAK6MNXEv64lyxonNGysgsk0rPpzAJfJBAJrjMr8QzYK2Gj7JjvIkfLhnwvqQgmT5ovcGYt9TiOuGLhTJIKBT4JvYf1szBNmXO1CHb1G_fEcw1ZGzWUJd67RLfAg6ZSxV9lGqzq11s_cmniilur"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Point32Health\" \"hip\" OR \"arthroplasty\" OR \"27130\" OR \"joint replacement\" policy OR \"criteria\"",
+        "results": [
+         {
+          "title": "Total Joint Replacement (Hip and Knee) for Medicare",
+          "url": "https://onbaseext.phs.org/PEL/DisplayDocument?ContentID=OB_000000001634",
+          "snippet": "Authorization requirement will continue for hip codes: 27130, 27132, 27134; &amp; knee codes: 27447, 27486,"
+         },
+         {
+          "title": "Total Hip Replacement Surgery CPT Code 27130: Complete Billing and Coding Guide - Orthopedic Billing Expert",
+          "url": "https://orthobillingexpert.com/total-hip-replacement-surgery-cpt-code/",
+          "snippet": "For most patients, this is considered only after conservative treatments\u2014like injections, pain relievers, or physical therapy\u2014fail. <strong>Use CPT 27130 only when the surgeon performs a primary total hip replacement</strong>."
+         },
+         {
+          "title": "CPT 27130: Total Hip Arthroplasty (Acetabular and ...",
+          "url": "https://www.openpayer.com/billing-codes/27130-arthroplasty-acetabular-and-proximal-femoral-prosthetic",
+          "snippet": "CPT code 27130 is a critical billing code for total hip arthroplasty, a procedure that <strong>replaces both the acetabular and proximal femoral components of the hip joint with prosthetic implants</strong>."
+         },
+         {
+          "title": "CPT Code 27130: Total Hip Arthroplasty (THA), with or without autograft or allograft",
+          "url": "https://www.carepatron.com/procedure-code/cpt-code-27130",
+          "snippet": "CPT 27130 refers to total hip arthroplasty, a surgery where both the femoral head and acetabulum of the hip joint are replaced with prosthetic components."
+         },
+         {
+          "title": "CPT Code 27130: Description, Cost, Scenarios, and Rules",
+          "url": "https://transcure.net/medical-billing/code/cpt/27130/",
+          "snippet": "CPT code 27130 applies only when <strong>neither hip component has been previously replaced, and the joint has no prior surgical construct being converted</strong>. Any prior hip surgery that is now converted to a total hip arthroplasty routes to 27132."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_61867",
+      "args": {
+       "query": "site:radmd.com \"Harvard\" \"hip\" OR \"arthroplasty\" OR \"joint replacement\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsUDCsIDAWkUfRPxBB0yGRBqnVnExrgYnHHfS8YR9VbRBUsN2Mb4OysyadYBXs30F7Nc3jQ0RKpirWlB11VdgZaVG7JJ98YM3tHfDjiEpXirrBx8LWarmjHyMc2fmHw3ZhwuzsPUre5sWV_hDlTsTf_Zy1HaIntxOZChOny2KWyQ-XPZpngnzqCho5v6n4FYUeGq1AwLCi46kmRgtJBD65g8IaBeVVJpV3ZIueESh8m0kfdnBASLVecfOhMEkIIcAW04Tfh5CZUGbweWBkqGqD9IcEXZUYRLGZRe9e3IBnDZXGq9MPZmQunVGQQrs1FOuHQ2bexMawAF1eU1GsSAg-b3dyt-7hc6Le96Ibt4vxY9mX7Qi-LnT2Z-0qwbJVqr1Fu5nrP4fomkmz9kEAU6GstlSJ-VkedP9ud0AM8knncSw3ZWk6FoY1KIhezvMVdPTTNumley3kbDnjBNTEqdQ__shJO9VcZ2cCFiYCJ5RGBWR7kftpDh4fuN9kMQST25MvFTeJ9ntY7aP2WXyMnbFBYtemyzQhk8VUw2Qv0Wk6UHBodqd12UM51nDPwoKVVUC2x1vebD0RU6EdpRG9yoeGgxVrrL21Tz"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:radmd.com \"Harvard\" \"hip\" OR \"arthroplasty\" OR \"joint replacement\"",
+        "results": [
+         {
+          "title": "Radmd",
+          "url": "https://www1.radmd.com/sites/default/files/2024-12/Harvard%20HKS%20Matrix%202025.pdf",
+          "snippet": "Arthroplasty/Resurfacing \u00b7 27130 \u00b7 27130, S2118 \u00b7 Femoroacetabular \u00b7 Impingement (FAI) Hip Surgery \u00b7 29914 \u00b7 29914, 29915, 29916 \u00b7 Loose Body Removal: 29861 \u00b7 Chondroplasty: 29862 \u00b7 Synovectomy: 29863 \u00b7 Hip Surgery \u2013 Other \u00b7 29863 \u00b7 29860, 29861, 29862, 29863 \u00b7 2 \u2013 Harvard Pilgrim Health Plan \u2013 Hip, Knee, and Shoulder Utilization Review Matrix 2025 \u00b7"
+         },
+         {
+          "title": "Harvard Pilgrim Health Care Musculoskeletal ...",
+          "url": "https://www1.radmd.com/sites/default/files/2023-12/Harvard%20MSK%20QRG%2010.16.2023.pdf",
+          "snippet": "Harvard Pilgrim Health Care has a partnership with National Imaging Associates, Inc. (NIA)1 to provide \u00b7 utilization management for the Musculoskeletal Care Management (MSK) Program. This program \u00b7 includes prior authorization for non-emergent MSK procedures: outpatient interventional spine pain \u00b7 management (IPM) services; and inpatient and outpatient hip, knee, shoulder, lumbar and cervical spine"
+         },
+         {
+          "title": "National Imaging Associates, Inc.* 2024 Evolent Clinical Guidelines",
+          "url": "https://www1.radmd.com/sites/default/files/2023-12/2024%20Musculoskeletal%20Surgery%20Guidelines_FINAL_HMSA_Joints.pdf",
+          "snippet": "Hip resurfacing arthroplasty may be considered medically necessary when ALL of the following ... Arthritis is the most common cause of chronic hip pain and disability. Degenerative, age-related \u00b7 osteoarthritis causes cartilage to wear away and eventually the bones within the joint rub \u00b7 against each other causing pain and stiffness. In a total hip replacement, the femoral head and"
+         },
+         {
+          "title": "2024 Evolent Clinical Guidelines for Medical Necessity Review - HMSA",
+          "url": "https://www1.radmd.com/sites/default/files/2024-07/2024%20Evolent%20Musculoskeletal%20Surgery%20Guidelines%20-%20HMSA%20FINAL%20eff%20070124.pdf",
+          "snippet": "This guideline addresses elective, non-emergent hip arthroplasty (hip replacement) procedures, including total hip arthroplasty, resurfacing arthroplasty, and revision/conversion arthroplasty \u00b7 procedures. Scope \u00b7 Arthritis is the most common cause of chronic hip pain and disability. Degenerative, age-related \u00b7 osteoarthritis causes cartilage to wear away and eventually the bones within the joint rub \u00b7"
+         },
+         {
+          "title": "HMSA Joint Surgery (Hip, Knee and Shoulder)",
+          "url": "https://www1.radmd.com/sites/default/files/2023-12/HMSA%20Joint%20Surgery%20(HKS)%20Utilization%20Review%20Matrix%202024%2001.01.24_FINAL.pdf",
+          "snippet": "Arthroplasty/Resurfacing \u00b7 27130 \u00b7 27130, S2118 \u00b7 Femoroacetabular \u00b7 Impingement (FAI) Hip Surgery \u00b7 29914 \u00b7 29914, 29915, 29916 \u00b7 Loose Body Removal: 29861 \u00b7 Chondroplasty: 29862 \u00b7 Synovectomy: 29863 \u00b7 Hip Surgery \u2013 Other \u00b7 29863 \u00b7 29860, 29861, 29862, 29863 \u00b7 HMSA Joint Surgery (HKS) Utilization Review Matrix 2024 01.01.24_FINAL \u00b7"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_85302",
+      "args": {
+       "query": "site:radmd.com \"Harvard\" \"Guidelines\" OR \"Guideline\" \"Hip\" OR \"Arthroplasty\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtMDCtADAWkUfRMeCRNwlfHrVFOnCH7xdwIUEDOgxPj0spPpY_gA2-IxrccMKhDBmqtuIN8KudVOLtXdwSTyMAmfpxkmuvQcbzxVpzYWhwdVNLFaNSrw6HJGo_1caHmlf1Ra2uKI5BJzeEtd9qRTnLwlhIv4KDnNxTLOa6_2H14LD4Xz1Jxto36OJ-nQmVAUCMmXnXa1EAioK0oWy0Zv8QWXyaQudWlHrqsMCj7HpaMS1zUvoohT_90SNA3nU2GqL0qhPuFSrm77BDzi-MJd0gPnvVEBMbPhOBKwC6BvTUym2ok_LHchByTLDKYZPkVJJ55S27Bk_4YxX3HobSJ6ERr0lSXEIiMJ0i8jp2CgZVhEgAYj_5HbI_8yOdTMVK_aNEYBsnywYWgfHpjFLHPSC-DN5lyb2IPciR77TRtkI6vhb-RfOc-ipd8Gm0ypj3gxZSZYJA6PYPx9QQUqFKRxbJ02YTCbtVwjOEJKGFg80Z0qyPxd6JRblegqBPx4kVoKakfGq85ghytLci4vkKfyiGwRrt15s1qieVoOel38xkNEJxnXewuh3bEiqOgJat-35VnL0XiklZ8akWiYsXM40et43nP-XrDewKpKazpaJNRNsm7oRz8="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:radmd.com \"Harvard\" \"Guidelines\" OR \"Guideline\" \"Hip\" OR \"Arthroplasty\"",
+        "results": [
+         {
+          "title": "Radmd",
+          "url": "https://www1.radmd.com/sites/default/files/2024-12/Harvard%20HKS%20Matrix%202025.pdf",
+          "snippet": "Arthroplasty/Resurfacing \u00b7 27130 \u00b7 27130, S2118 \u00b7 Femoroacetabular \u00b7 Impingement (FAI) Hip Surgery \u00b7 29914 \u00b7 29914, 29915, 29916 \u00b7 Loose Body Removal: 29861 \u00b7 Chondroplasty: 29862 \u00b7 Synovectomy: 29863 \u00b7 Hip Surgery \u2013 Other \u00b7 29863 \u00b7 29860, 29861, 29862, 29863 \u00b7 2 \u2013 Harvard Pilgrim Health Plan \u2013 Hip, Knee, and Shoulder Utilization Review Matrix 2025 \u00b7"
+         },
+         {
+          "title": "Harvard Pilgrim Health Care Musculoskeletal ...",
+          "url": "https://www1.radmd.com/sites/default/files/2023-12/Harvard%20MSK%20QRG%2010.16.2023.pdf",
+          "snippet": "2 \u2013 Harvard Pilgrim Health Care - MSK QRG (revised September 2023) Outpatient and Inpatient Hip Surgeries: \u2022 \u00b7 Revision/Conversion Hip Arthroplasty \u00b7 \u2022 \u00b7 Total Hip Arthroplasty/Resurfacing \u00b7 \u2022 \u00b7 Femoroacetabular Impingement (FAI) Hip Surgery (includes CAM/pincer &amp; labral repair) \u2022 \u00b7"
+         },
+         {
+          "title": "2025 Evolent Clinical Guidelines for Medical Necessity Review - HMSA",
+          "url": "https://www1.radmd.com/sites/default/files/2025-07/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines%20-%20HMSA%20FINAL%20eff%20070125.pdf",
+          "snippet": "<strong>Evolent Clinical Guideline 1761</strong> for Hip Arthroplasty \u00b7 <strong>Evolent Clinical Guideline 1761</strong> for Hip Arthroplasty \u00b7 Guideline Number: Evolent_CG_1761 \u00b7 Applicable Codes \u00b7 &quot;Evolent&quot; refers to Evolent Health LLC and Evolent Specialty Services, Inc. \u00a9 2015 - 2025 Evolent."
+         },
+         {
+          "title": "2023 NIA Clinical Guidelines For Medical Necessity Review",
+          "url": "https://cms.radmd.com/sites/default/files/2023-09/2023-nia-musculoskeletal-surgery-guidelines.pdf",
+          "snippet": "MUSCULOSKELETAL SURGERY (HIP, KNEE, SHOULDER (HKS)) GUIDELINES \u00b7 HIP ARTHROPLASTY \u00b7 HIP ARTHROSCOPY \u00b7 KNEE ARTHROPLASTY \u00b7 KNEE ARTHROSCOPY \u00b7 SHOULDER ARTHROPLASTY \u00b7 SHOULDER ARTHROSCOPY \u00b7 EXPANDED SPINE SURGERY PROCEDURES GUIDELINES \u00b7 DEFORMITY SURGERY \u00b7"
+         },
+         {
+          "title": "2026 Evolent Clinical Guidelines for Medical Necessity Review",
+          "url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+          "snippet": "MUSCULOSKELETAL SURGERY (HIP, KNEE, SHOULDER (HKS)) GUIDELINES \u00b7 HIP ARTHROPLASTY \u00b7 HIP ARTHROSCOPY \u00b7 KNEE ARTHROPLASTY \u00b7 KNEE ARTHROSCOPY \u00b7 SHOULDER ARTHROPLASTY \u00b7 SHOULDER ARTHROSCOPY \u00b7 EXPANDED SPINE SURGERY PROCEDURES GUIDELINES \u00b7 DEFORMITY SURGERY \u00b7"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_105542",
+      "args": {
+       "url": "https://www1.radmd.com/sites/default/files/2024-12/Harvard%20HKS%20Matrix%202025.pdf"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EqQFCqEFAWkUfRO7ApXSX-gHYDO0ZODbkP01xMHyZy3svGx-C1wOuf2AMl0ZHqxxdCTdbnbcskMJbGGDYT3K72_E-QA3492XWFBj8034B1fNvGt2AXyqoNMyiUdb4Ug_Q-D-894JjcRYU0SiyeyDL5uFQ3XV_nzkCQb0DyfQfhJzb0zarKeiaMPVQ-n05dlFwN8kE6RZSZjppQ65zgI_lTYu8swov9PvsJg_N5OuwESvw8BKSwQ7L8zGlP2xuIH-jfbdK3g7KirYRhFp9Rehh5MFMDUH63KFfhApwiGu7sWnEliETbL-VwhM0r6dEbfHE3nyJ54MCwzUcQwnBRnvo6vQoNz516YxaEny23ENqWnsFAGxpazOaBQMq3wAvpz6e7r8SzwkZd9vpIoMpvWgw2rBtMDq3wp6qQifKWYR6RLws8CJZQsUWLnwyX3B9YO-0a5Q-_CMMt5hzx5-MmdwNDTDwEt_Y7UflEQhqm-aPg8hCidnMKRGVzUVH7AoTBWkxTPY2qEK7cmygGRBqU3Rl7Q4GUVFZxQ8YwERnXb7gPutBVo_oG65Qzza_sqOKiiIvTdxQBAiP5OR8xVhz3vxELXeBVdxrhy9g7Ps0jQmbjC0-zK0bYC_HVNWRQfGWl-E143MWJ70fbG0qUUYjMejoJV3X11WJc-cAovcu6IBQ_Ru8XCADPA-hPm3mkS3AMiwrI5b-7r6SEGIJ20AC4DwTJ6fYtFiOz04e2ILOnrTRRrxbHbQQ1V51FbHyZRmhR_6NS1lbajH-ri7LqLNFMf1NvagVVrFXCYUtCoa3U1eBT4Hu-RdePX5oj6FURoONURX0D_Nc1khmbyIWoYSWK82MXV1CyVDjO_ogTDZ6ECcM9urEML3z_ldM-sxg2Oau9cw0EEVW0rF1g=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://www1.radmd.com/sites/default/files/2024-12/Harvard%20HKS%20Matrix%202025.pdf",
+        "final_url": "https://www1.radmd.com/sites/default/files/2024-12/Harvard%20HKS%20Matrix%202025.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "1 \u2013Harvard Pilgrim Health Plan \u2013 Hip, Knee, and Shoulder Utilization Review Matrix 2025 Harvard Pilgrim Health Plan Utilization Review Matrix 2025 Musculoskeletal Surgery (Hip, Knee, and Shoulder) HIP SURGERY Primary Surgery Request Primary CPT Code Primary Surgery Allowable Billed Groupings Additional Covered Procedures/Codes Authorization is provided for the primary surgery requested. There are multiple CPT codes that can be associated with each procedure. These are assumed to be part of the primary surgery request and when completed in combination, do not require a separate authorization. Revision/Conversion Hip Arthroplasty 27134 27132, 27134, 27137, 27138 Total Hip Arthroplasty/Resurfacing 27130 27130, S2118 Femoroacetabular Impingement (FAI) Hip Surgery 29914 29914, 29915, 29916 Loose Body Removal: 29861 Chondroplasty: 29862 Synovectomy: 29863 Hip Surgery \u2013 Other 29863 29860, 29861, 29862, 29863 2 \u2013 Harvard Pilgrim Health Plan \u2013 Hip, Knee, and Shoulder Utilization Review Matrix 2025 KNEE SURGERY Primary Surgery Request Primary CPT Code Primary Surgery Allowable Billed Groupings Additional Covered Procedures/Codes Authorization is provided for the primary surgery requested. There are multiple CPT codes that can be associated with each procedure. These are assumed to be part of the primary surgery request and when completed in combination, do not require a separate authorization. Revision Knee Arthroplasty 27487 27486, 27487 Total Knee Arthroplasty (TKA) 27447 27447 Partial-Unicompartmental Knee Arthroplasty (UKA) 27446 27446, 27438 Knee Manipulation under Anesthesia (MUA) 27570 27570, 29884 3 \u2013 Harvard Pilgrim Health Plan \u2013 Hip, Knee, and Shoulder Utilization Review Matrix 2025 KNEE SURGERY Primary Surgery Request Primary CPT Code Primary Surgery Allowable Billed Groupings Additional Covered Procedures/Codes Authorization is provided for the primary surgery requested. There are multiple CPT codes that can be associated with each procedure. These are assumed to be part of the primary surgery request and when completed in combination, do not require a separate authorization. Knee Ligament Reconstruction/Repair 29888 27405, 27407, 27409, 27427, 27428, 27429, 29888, 29889 Meniscectomy: 27332, 27333, 27403, 29868, 29880, 29881, 29882, 29883 Autologous chondrocyte implantation: 27412 Osteochondral Allograft/Autograft: 27415, 27416, 29866, 29867 Anterior tibial tubercleplasty: 27418 Reconstruction of Dislocating Patella: 27420, 27422, 27424 Lateral Release: 27425, 29873 Loose Body Removal: 29874 Synovectomy: 29875, 29876 Chondroplasty: 29877 Microfracture: 29879 OCD Lesion: 29885, 29886, 29887 4 \u2013 Harvard Pilgrim Health Plan \u2013 Hip, Knee, and Shoulder Utilization Review Matrix 2025 KNEE SURGERY Primary Surgery Request Primary CPT Code Primary Surgery Allowable Billed Groupings Additional Covered Procedures/Codes Authorization is provided for the primary surgery requested. There are multiple CPT codes that can be associated with each procedure. These are assumed to be part of the primary surgery request and when completed in combination, do not require a separate authorization. Knee Meniscectomy/Meniscal Repair/Meniscal Transplant 29880 27332, 27333, 27403, 29868, 29880, 29881, 29882, 29883 Autologous chondrocyte implantation: 27412 Osteochondral Allograft/Autograft: 27415, 27416, 29866, 29867 Anterior tibial tubercleplasty: 27418 Reconstruction of Dislocating Patella: 27420, 27422, 27424 Lateral Release: 27425, 29873 Loose Body Removal: 29874 Synovectomy: 29875, 29876 Chondroplasty: 29877 Microfracture: 29879 Misc. (see code description): G0289 OCD Lesion: 29885, 29886, 29887 Knee Surgery \u2013 Other 29879 27412, 27415, 27416, 27418, 27420, 27422, 27424, 27425, 29866, 29867, 29870, 29873, 29874, 29875, 29876, 29877, 29879, 29885, 29886, 29887, G0289 5 \u2013 Harvard Pilgrim Health Plan \u2013 Hip, Knee, and Shoulder Utilization Review Matrix 2025 SHOULDER SURGERY Primary Surgery Request Primary CPT Code Primary Surgery Allowable Billed Groupings Additional Covered Procedures/Codes Authorization is provided for the primary surgery requested. There are multiple CPT codes that can be associated with each procedure. These are assumed to be part of the primary surgery request and when completed in combination, do not require a separate authorization. Revision Shoulder Arthroplasty 23474 23473, 23474 Total/Reverse Shoulder Arthroplasty or Resurfacing 23472 23472 Partial Shoulder Arthroplasty/Hemiarthroplasty 23470 23470 Frozen Shoulder Repair/Adhesive Capsulitis 29825 29825 Manipulation under Anesthesia: 23700 Shoulder Labral Repair 29806 23450, 23455, 23460, 23462, 23465, 23466, 29806, 29807 Claviculectomy: 23120, 23125 Acromioplasty: 23130 Coracoacromial ligament release: 23415 Biceps Tenotomy/Tenodesis: 23405, 23430, 29828 Synovectomy: 29820, 29821 Debridement: 29822, 29823 Distal Clavicle Excision (Mumford procedure): 29824 Subacromial Decompression: +29826 6 \u2013 Harvard Pilgrim Health Plan \u2013 Hip, Knee, and Shoulder Utilization Review Matrix 2025 SHOULDER SURGERY Primary Surgery Request Primary CPT Code Primary Surgery Allowable Billed Groupings Additional Covered Procedures/Codes Authorization is provided for the primary surgery requested. There are multiple CPT codes that can be associated with each procedure. These are assumed to be part of the primary surgery request and when completed in combination, do not require a separate authorization. Shoulder Rotator Cuff Repair 29827 23410, 23412, 23420, 29827 Claviculectomy: 23120, 23125 Acromioplasty: 23130 Coracoacromial ligament release: 23415 Biceps Tenotomy/Tenodesis: 23405, 23430, 29828 Synovectomy: 29820, 29821 Debridement: 29822, 29823 Distal Clavicle Excision (Mumford procedure): 29824 Subacromial Decompression: +29826 Shoulder Surgery - Other 23415 23120, 23125, 23130, 23405, 23415, 23430, 23700, 29805, 29819, 29820, 29821, 29822, 29823, 29824, 29825, +29826, 29828 7 \u2013 Harvard Pilgrim Health Plan \u2013 Hip, Knee, and Shoulder Utilization Review Matrix 2025 \u2022 Musculoskeletal surgery services rendered through the Emergency Department are not managed by Evolent (formerly National Imaging Associates, Inc.) \u2022 Evolent does not prior authorize or manage the facility precertification for musculoskeletal surgery services \u2022 NOTE: If any joint surgery is to be performed bilaterally on the same date of service, separate authorizations are required",
+        "text_truncated": false
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_80992",
+      "args": {
+       "query": "\"Evolent\" \"Hip Arthroplasty\" AND (\"imaging\" OR \"X-ray\" OR \"radiographic\") guidelines OR criteria"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpUICpIIAWkUfRNxYFu8lRos05EddgXZ97eyBe4LV77OFfHNPMivcIdq0lfik9uCw7Cv5GMEydW7i6hX43ruNqUMj_TueN1egbEbfxX4FCo_O_i-4Wf7cr0K0KBdQhzCL4OVUVAxFS7_vsbijU1mGYPdJaRj14aOLtFzi51GqLmY3T7212RzhgFLKZ8fo5-xW4-dDu12kIqnYOi4dVdCffgPQOR_YBHcG28emZgCRSv_WdK5VXjT6G6dpoPigGlkZDljQrJZiBrirgR2OjQMAj5vDD6-QmqYyivF8vMLc2GCTyJgo-iJa0kHxR0c8M9AdJ5dBnXhw7aKQ0ZWQeqqWstMBDxFwgFqUfQRbuRnHh1pMzXk77MhZ5DSW0iyu8xNfUSU80n6OImCiOkh-SVsKczu9muy5ky9mHh0CFmYnSq7VoAsD_h5SxHLiJsQ-MPYY0AEhJ9iSFyvPhrgMtbD0S5UB2BRTlxAvimobsCRVa67VCNXyKx3RXMJSG3XWmCtaYMR_tU6JXhhqVsQkD-hMl-HKisMqm1edYP0SFrHvM6kREXYZxKtUNh_NNWOMULVzZRPVO4jq8dNrgMvndEDFOeFecIldzaCPJplw6XVzymn6qPf7dLwn1PsUUCMiF315ZT-cco2njgxetMiZQcevATIBaFygJ5ZLRIZd9wavX7le97D0xu-7TqKhNErjf9z5y29zEkj1CunQsvnZwUfxYFFrAgb4n5_C1FBWriMEKYL2DNSvp13Bh2ciTm9n_8p2adMQDzw0TpYPZSYtQPJ9IMhRtGnEMDw1stXcIxZbzUUJIn2DNMMTdvXJlLKxcsbPYHzU_P83ZeMFVgl7ws2RHSLHw0qAysV8baw92RvawDkQMEuhgiqzQ8GTqxnbfZU2h-IVIXF1yBzj6pEBELHNNi3t3l18yuVoo1ZoO96LZNCTPNqzDfrrYVwG-ca3AbjTd1mtgjZJDzTTsC6iOnCMWzRGMqefmXPBbG8oDOVUQ8hX7sJ9UGoTlU4prV-zjX3EKSANqdbPss8YwJuP3MHquADyL4hqg3fcgI5_611hpm768PW5ZjYp9R7Ab7bHKl3ysmE3EP33w9j2IsvJkbBGVJYndBr2l8cLgS4I9Y8doYIRU93pvKey_3buGRtuf0zV7vfNVJW1vT58ffyF8ucgZKvyEVP4GRQpFrO8XhUxNe-GcvanK2WW0rJvDzMwKW2l1bs5peV6MCoWJ8hfIT8w2XTkQ139Ovvtmjq5n57lFKKNWOqDutFhW7tfuOK_0TdCPcrKJt1LNsz5fC03tpjzU9EAzPdP3E9W3wlgqisXazK6xO2jWaidkbYQ1f7BHPxIMPufLDcZJ890ur0_5zHS_gb0-xc-dcNl20DpxisPwJzQHt06hBoVw=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Evolent\" \"Hip Arthroplasty\" AND (\"imaging\" OR \"X-ray\" OR \"radiographic\") guidelines OR criteria",
+        "results": [
+         {
+          "title": "Postoperative radiograph of the hip arthroplasty: what the radiologist should know - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4656234/",
+          "snippet": "This pictorial review aims to provide the radiologist with simple and systematic guidelines for the radiographic evaluation of a hip prosthesis. Currently, there is a plethora of commercially available arthroplasties, making postoperative analysis ..."
+         },
+         {
+          "title": "National Imaging Associates, Inc.* 2024 Evolent Clinical Guidelines",
+          "url": "https://www1.radmd.com/sites/default/files/2023-12/2024%20Musculoskeletal%20Surgery%20Guidelines_FINAL_HMSA_Joints.pdf",
+          "snippet": "No Differences in Hip Joint Space Measurements \u00b7 Between Weightbearing or Supine Anteroposterior Pelvic Radiographs. Arthroscopy. Nov \u00b7 2020;36(11):2843-2848. doi:10.1016/j.arthro.2020.07.009 ... Femoroacetabular Impingement Syndrome: Preliminary Results of Clinical Responsiveness. Arthritis Care Res (Hoboken). Aug 2019;71(8):1074-1083. doi:10.1002/acr.23728 \u00b7 17. Ebert JR, Raymond AC, Aujla RS, D&#x27;Alessandro P."
+         },
+         {
+          "title": "2024 Evolent Clinical Guidelines for Medical Necessity Review - HMSA",
+          "url": "https://www1.radmd.com/sites/default/files/2024-07/2024%20Evolent%20Musculoskeletal%20Surgery%20Guidelines%20-%20HMSA%20FINAL%20eff%20070124.pdf",
+          "snippet": "and the reason that alternative imaging cannot be performed must be included in the ... Arthritis is the most common cause of chronic hip pain and disability."
+         },
+         {
+          "title": "Clinical guidelines",
+          "url": "https://www.amerihealthcaritasoh.com/content/dam/amerihealth-caritas/acoh/pdf/provider/resources/radiology/policies-20250326/Lower_Extremity_MRI.pdf.coredownload.inline.pdf",
+          "snippet": "results and the reason that alternative imaging cannot be performed must be included in the ... Some indications are for MRI, CT, or MR or CT Arthrogram. More than one should not be ... MRI (NIA_CG_037) is the preferred study. \u2022 If labral tear is suspected and fulfills above criteria, then bilateral hip MRIs are the"
+         },
+         {
+          "title": "ACR Appropriateness Criteria\u00ae Imaging After Total Hip Arthroplasty - Journal of the American College of Radiology",
+          "url": "https://www.jacr.org/article/S1546-1440(23)00615-4/fulltext",
+          "snippet": "<strong>Noncontrast MRI is usually appropriate for identifying adverse reaction to metal debris related to metal-on-metal articulations</strong>. For assessing patients after hip arthroplasty, who have trochanteric pain and nondiagnostic radiographs, ultrasound, or MRI are usually appropriate studies."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_144271",
+      "args": {
+       "query": "site:radmd.com \"HIP ARTHROPLASTY\" AND \"clinical guideline\" OR \"guideline number\" OR \"criteria\" OR \"27130\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqUGCqIGAWkUfRN-AkeV1xrLMCA9OASUiWvSPupadR8tqYx6JG3fkzBGXc4Sz9sufXWaOStt-VQbLHW-2oGxQWN6e_VRl10CO6kzGaWD-urYjEqOkz8_7ouLKZe0PdwDT11rOOugqx8pZZfNpjzxGwL1npnKArCFqFwzIc3zyc7K-fdwdW00jOgg_jrg25Z_MxuA8S6lRvQ9Z8JG2LRiqABnRI2HYPrBNu4uRlgbykDtn9qTPW7JWV6eLC_xSkM-kRWIw43jwm8eNh_v3huWwA4fmxr97W9zob8JUcb96S24yfhlm_f2DXR_tSKo4WCDCtpLs6-8WZwAP4hztKnv74kB8XPiM4ZmuHUx_7T31rb0a6b_esNPo4aBZCORJeLFduVDcK4mW9kSLFhBSi0jVfamN6WIqJDFySH9_kb85hfTfLS44J1ZHBRwan1PQctpiSNfg3bSVSmtF0eZztH0q2X8K967IMUql2DW2fl_I8WwnXd4IFZqEKPXooOO37vWKLiqMrasmZ4oyTDDhRMQMZxxr8ceDmXgKUy1XRaMVq4um3W9UpWEN9_CXfenZuzuYeSSGULhhg-_gPV9E5J0ipwNCss6nYbnPAmk6CGnq3IQMLCEqeD3G02Gn_NAmm8nMp7xVIEY17HmvCgsYdC2AXFuT8Qj5_hS1LCSqiU0DqDX4NFBrcUnoTxVWgJY-E49Ze3-ELoSD0vkk6L0xoGLhXFfA-50bRQkUN2j8jUyZOAepjeULfWGCFyxSbnoal0eswaJSC-qeLTxExiZsrnPku3zOpgjLwhUgUAs2pvomB2lZMyQ-xzYUPAGoU_XECkLKEY-cbQ0S6uBZVUV18K_ieT7NlSIfczJDEkhZ68KQ9-VIpYABoXDFGceCXKWC6yPovIcFlUxBXwIt9IC-JrSISQgRMuKm9Hn9XHV28Eh0RbtF_a3rfKlJ3klqmmm39EMIV033o8aCeAE3tG1qp0kCiDLib9ipOm43kn0oAX0A9vj83CX0WLgj5R0GRn_NAQhHCyFu2aOZ67gAg7na_ZhZFh3TzA4knzKVmK6U9X2JEQEmpSr91yaIQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:radmd.com \"HIP ARTHROPLASTY\" AND \"clinical guideline\" OR \"guideline number\" OR \"criteria\" OR \"27130\"",
+        "results": [
+         {
+          "title": "2024 Evolent Clinical Guidelines for Medical Necessity Review - HMSA",
+          "url": "https://www1.radmd.com/sites/default/files/2024-07/2024%20Evolent%20Musculoskeletal%20Surgery%20Guidelines%20-%20HMSA%20FINAL%20eff%20070124.pdf",
+          "snippet": "Total Hip Arthroplasty (THA): 27130, S2118 \u00b7 - Revision/Conversion Hip Arthroplasty: 27132, 27134, 27137, 27138 \u00b7 **See UM Matrix for allowable billed groupings and \u00b7 additional covered codes \u00b7 Last Revised Date: December 2023 \u00b7 Guideline Number: Evolent_CG_313 \u00b7"
+         },
+         {
+          "title": "National Imaging Associates, Inc.* 2024 Evolent Clinical Guidelines",
+          "url": "https://www1.radmd.com/sites/default/files/2023-12/2024%20Musculoskeletal%20Surgery%20Guidelines_FINAL_HMSA_Joints.pdf",
+          "snippet": "Total Hip Arthroplasty (THA): 27130, S2118 \u00b7 - Revision/Conversion Hip Arthroplasty: 27132, 27134, 27137, 27138 \u00b7 **See UM Matrix for allowable billed groupings and \u00b7 additional covered codes \u00b7 Last Revised Date: May 2023 \u00b7 Guideline Number: NIA_CG_313 \u00b7"
+         },
+         {
+          "title": "OK Complete MSK Joint Surgery UM Matrix.docx 1 2024 Utilization Review Matrix",
+          "url": "https://www1.radmd.com/sites/default/files/2024-04/OK%20Complete%20MSK%20Joint%20Surgery%20UM%20Matrix.pdf",
+          "snippet": "Total Hip \u00b7 Arthroplasty/Resurfacing \u00b7 27130 \u00b7 27130, S2118 \u00b7 Femoroacetabular \u00b7 Impingement (FAI) Hip \u00b7 Surgery \u00b7 29914 \u00b7 29914, 29915, 29916 \u00b7 Loose Body Removal: 29861 \u00b7 Chondroplasty: 29862 \u00b7 Synovectomy: 29863 \u00b7 Hip Surgery \u2013 Other \u00b7 29863 \u00b7 29860, 29861, 29862, 29863 \u00b7"
+         },
+         {
+          "title": "Radmd",
+          "url": "https://www1.radmd.com/sites/default/files/2024-12/Harvard%20HKS%20Matrix%202025.pdf",
+          "snippet": "Total Hip \u00b7 Arthroplasty/Resurfacing \u00b7 27130 \u00b7 27130, S2118 \u00b7 Femoroacetabular \u00b7 Impingement (FAI) Hip Surgery \u00b7 29914 \u00b7 29914, 29915, 29916 \u00b7 Loose Body Removal: 29861 \u00b7 Chondroplasty: 29862 \u00b7 Synovectomy: 29863 \u00b7 Hip Surgery \u2013 Other \u00b7 29863 \u00b7 29860, 29861, 29862, 29863 \u00b7"
+         },
+         {
+          "title": "2023 NIA Clinical Guidelines For Medical Necessity Review",
+          "url": "https://cms.radmd.com/sites/default/files/2023-09/2023-nia-musculoskeletal-surgery-guidelines.pdf",
+          "snippet": "following a literature search of pertinent and established clinical guidelines \u00b7 and accepted diagnostic imaging practices. All inquiries should be directed to: Stacy Shupe, NIA Compliance Officer \u00b7 NIA/Evolent \u00b7 800 N. Glebe Road, Suite 500 \u00b7 Arlington, VA 22203 \u00b7 Fax: 888-656-0398 \u00b7 3 \u00b7 TABLE OF CONTENTS \u00b7 MUSCULOSKELETAL SURGERY (SPINE) GUIDELINES \u00b7 CERVICAL SPINE SURGERY \u00b7 LUMBAR SPINE SURGERY \u00b7 MUSCULOSKELETAL SURGERY (HIP, KNEE, SHOULDER (HKS)) GUIDELINES \u00b7 HIP ARTHROPLASTY \u00b7"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_107525",
+      "args": {
+       "query": "\"Evolent_CG_313\" OR \"NIA_CG_313\" OR \"CG_313\" OR \"CG313\" \"Hip Arthroplasty\" OR \"hip\" OR \"27130\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Ep4DCpsDAWkUfRM06FZa6Oss3EwKghNwJFFJwXNAuEgq-UwO88Jn_bVn4u0v9O-aJkdsBANDuph4j6NJIURstcYgb3xZd3QukZkMtY82ELL0HOobPukpgzcpTXJgJkWLN3MO08EJkd6SlSM7VSP1DbdWTqowv-mORRJx3dZydaEMxfz6pNt4eWUVfHrAIG9pcB_DjHaxUo0NCEK_-7iwEo9L0FU_-nV_ozg-bQ-WPaARN0ASAo6nLuGWuNa5YNqFhWXTBayJCGS7VGpb2RiWPd7neosEQO0Q52tEd8NTAarsn5Uz4rVOUSE_eef29UEQnenGcnKNfAMlt89xJ0_QQLrw9U-n_UPu_iTwg85vB3cnGbCT2de2CGR1gkMRxgfhH2i1Cc9SAVYcg2qL4Rtg9UG-vwHzYU-nE2RvJikgndz4PVPA202VQpnGchepcTDXC2mTwEIdhsjBdvJ9WTOWP6Rc8raJWtqPu7sfztlFofCDbMbQU18iQTvfhBArEs8i9D8Z62SEi3dL0_rzJm-QR7faDRtM1B46JFMzfTGStLRW"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Evolent_CG_313\" OR \"NIA_CG_313\" OR \"CG_313\" OR \"CG313\" \"Hip Arthroplasty\" OR \"hip\" OR \"27130\"",
+        "results": [
+         {
+          "title": "CPT Code for Total Hip Arthroplasty | 27130 Explained",
+          "url": "https://medheave.com/orthopedic-billing-services/cpt-code-for-total-hip-arthroplasty/",
+          "snippet": "The CPT code for total hip arthroplasty (THA) is 27130 \u2014 <strong>arthroplasty, acetabular and proximal femoral prosthetic replacement</strong>. It reports a primary"
+         },
+         {
+          "title": "CPT Code 27130: What It Is, Modifiers, Reimbursement",
+          "url": "https://www.mdclarity.com/cpt-code/27130",
+          "snippet": "CPT code 27130 is for a <strong>total hip arthroplasty</strong>, which is a surgical procedure that involves replacing the entire hip joint with a prosthetic implant. This procedure is typically performed to relieve pain and improve function in patients suffering from severe hip arthritis or other hip joint ..."
+         },
+         {
+          "title": "CPT 27130 \u2014 Primary total hip arthroplasty replacing both the acetabular socket and proximal | Mira Health",
+          "url": "https://mirahealth.care/reference/cpt/27130/",
+          "snippet": "CPT 27130: <strong>Primary total hip arthroplasty replacing both the acetabular socket and proximal femoral components with prosthetic implants, with or without bone graft</strong>. Medicare $1,162.02, 34.79 total RVUs, 90-day global period."
+         },
+         {
+          "title": "CPT\u00ae Code 27130 - Repair, Revision, and/or Reconstruction Procedures on the Pelvis and Hip Joint - Codify by AAPC",
+          "url": "https://www.aapc.com/codes/cpt-codes/27130",
+          "snippet": "CPT Code 27130, Surgical Procedures on the Pelvis and Hip Joint, <strong>Repair, Revision, and/or Reconstruction Procedures on the Pelvis and Hip Joint</strong> - Codify by AAPC"
+         },
+         {
+          "title": "27130 Arthroplasty, acetabular and proximal femoral ...",
+          "url": "https://genhealth.ai/code/cpt4/27130-arthroplasty-acetabular-and-proximal-femoral-prosthetic-replacement-total-hip-arthroplasty-with-or-without-autograft-or-allograft",
+          "snippet": "<strong>Total Hip Arthroplasty (THA) Commonly known as hip replacement surgery, which may involve acetabular and proximal femoral prosthetic replacement with or without the use of autograft or allograft</strong>."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_135767",
+      "args": {
+       "query": "site:radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf \"HIP ARTHROPLASTY\" OR \"27130\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqoHCqcHAWkUfRMBDnAE1Zmw7ynYS_dHKuzTT-aaw6hhNU-mexehYDKCbR0Q0jTflf7p04rSQzctUSLXgKrapEZvpV1Rigw2jPePjhFOZALYtYczLVVUA7kccO1U7CwDG8zIR6y05e9T7XmA8kFkP1vG_w_7KH23m-RJ7wdyCHRAsJAiDuQnipdxjqm7a7ebbhIgS77yzsic_LgZn-GVH4VKNgdVvgtDiGiNP6bDObT2PUwNO6fNY8lJaHfio3vU9H5RD_5I47wNw_BcNc_WEaBWG3uv6YoLqYuCmTXA-ltXuU6mNtFmQVT5a3vbvc9Agf8RLfUojP9Z_B9SPjFNvNH6Gnj5lGkP6qmVO5KVl9ALPLxYTlRdkfYMcDFsIZZuznHldWOYpkmllGkBbdimCP0lUXAZ4q88eKt2dA-XcO3_nGY2s-NL7T8dWInFe0UaWS07_H0UtFFhH9kTB1sZu6aLixw7adMdMT2nRFT_GJAotHagsmeoxU8gJpRa1UtNGcJqdWoXWGA5JDp3o-IR28EAvVa_RS2xp-Aqh-78vGHFoAY8iXst4OYG56iQX-R2rm9ewLL9QCnIvlEd9yqyFG0EI7ezpYm-zvuR_BgbKXQi6_zNkhVgWAJU7k0PqN34aFJMODRsNkba2dOdrhvKlWFQ8RCuJW1K_4XROgcnyidqVRMAPi3iR_inipB3iOY2r73yjrSniM-r_YsL996oBGMktRi5_scDzxxolNwJUV4rU1RE0XILtWOASFej13aOF9KdZR6eKy3s-BDviZ9Ul9DsHTXeW9uBNj8_SA0OudL7QK3rkf3J2xKplqnv2ukelE935RvA2v4l6Id5MwBJRPq0uPuD6-UzMuinHtkSUh407tsyQcxlFAgd06OATP7yr-QGbwHQZltAcCUm7FHBRhMJs6Q1QOHcsyCdZejHUCaiUtt3O_6sE7LTiYkZAiu-GR47lunVkSSf-G1jE1sGW92VVPdJnt8XRWdEE3pT0UKn7kLepnX6Kym7GX3sfvfVKkijqW8cqKmQB5mI-_uZc02U3glIuN-om-2OnE7FwqdWctJ3Zk5KrLqmkcBTYBCqPL5QI9w2qKlokJGf1sDtNbzcnktp1x3s-iaxkxVShDfJC5Plj_GNwNrg5s6-MxwSS4NrfSQ0tuODx9aq77qy7se5JJTH5FYCAarrwwxoNioIdoiZF4_KkIKIW8XJEATY0-nJuqlPqs-i7aUxGM8P2irx1vd9FXMr9y2RIwQ="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf \"HIP ARTHROPLASTY\" OR \"27130\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_109087",
+      "args": {
+       "url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EvUCCvICAWkUfRMree65he0AMh2aJhkDbLTlNuR5ylMXGbe9_024uSVYj2OSuq-DGyZuhtqmTjJ3U5nWyuUQibXtEqKj1afRrV1RVT8K5j2WJAXY-wa5YZxJn0x4s9xeLUIMe8onDOrl6CXxa2gN6nmQLbI8lWj0t5n_Dthwtu2_EFyJ8Ii6q3txE1DbdZTQWs8psqT9tyme9iqHKYOageedY_23BfnOphaq1SScKSJr4XB_iVftLezw9n1J51GS77lbGIJgAyvvs2JEkzh9nmtm4zudrtmsZRwXcxF_mOk6RrXAcJYeqpdItwO7wMifqkCtnHhUf1Wn36kXNS-jy9rXPKAwM0HHo7DBZZckUjEaCOsjn44jbYlJ955wnoNT2J-ABaznHNEs-9OcAUuyrgBMC6IrU4qUVcn7MqHJkpRNOBhVWHeN2dZyRh87Az2Gef7t6R9RVKwdTckuJOu5t97HR0bb_AmLWd_k6UobcxV8GTrQZkY9Xw=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+        "final_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "2026 Evolent Clinical Guidelines for Medical Necessity Review MUSCULOSKELETAL SURGERY GUIDELINES Effective July 1, 2026 \u2013 July 1, 2027 Guidelines for Clinical Review Determination Preamble Evolent is committed to the philosophy of supporting safe and effec tive treatment for patients. The medical necessity criteria that follow are guidelines for the provision of diagnostic imagi ng. These crite ria are designed to guide both providers and reviewers to the most appropriate diagnostic tests based on a patient\u2019s unique circumstances. In all cases, clini cal judgment consistent with the standards of good medical practice will be used when applying the guidelines. Determinations are made based on both the guideli ne and clinical information provided at the time of the request. It is expected that medical necessity decisions may change as new evidence-based i nformation is provided or based on unique aspects of the patient\u2019s condition. The treating cl inician has final authority and responsibility for treatment decisions regarding the care of the patient. Guideline Development Process These medical necessity criteria were developed by Evolent for the purpose of making clinical review determinations for requests for therapies and diagnostic procedures. The developers of the criteri a sets included representatives from the disciplines of radiology, internal medicine, nursing, cardiology, and other specialty groups. Evolent\u2019s guidelines are reviewed yearly and modified when necessary following a literature search of pertinent and established clinical guidelines and accepted diagnostic imagi ng practices. All inquiries should be directed to: Evolent Specialty Services, Inc. c/o Privacy 1812 N. Moore St, Suite 1705, Arlington, VA 22209 Fax 800-830-1762 / Privacy@Evolent.com 2026 Evolent Clinical Guidelines - Muscoskeletal Surgery Guidelines Page 2 TABLE OF CONTENTS MUSCULOSKELETAL SURGERY (SPINE) GUIDELINES CERVICAL SPINE SURGERY LUMBAR SPINE SURGERY MUSCULOSKELETAL SURGERY (HIP, KNEE, SHOULDER (HKS)) GUIDELINES HIP ARTHROPLASTY HIP ARTHROSCOPY KNEE ARTHROPLASTY KNEE ARTHROSCOPY SHOULDER ARTHROPLASTY SHOULDER ARTHROSCOPY EXPANDED SPINE SURGERY PROCEDURES GUIDELINES DEFORMITY SURGERY THORACIC SPINE SURGERY SPINE SURGERY, OTHER LUMBAR ARTIFICIAL DISC REPLACEMENT SACROILIAC JOINT FUSION 2026 Evolent Clinical Guidelines - Musculoskeletal Surgery Guidelines Page 3 Page 1 of 22 Evolent Clinical Guideline 1759 for Cervical Spine Surgery Evolent Clinical Guideline 1759 for Cervical Spine Surgery Guideline Number: Evolent_CG_1759 Applicable Codes \"Evolent\" refers to Evolent Health LLC and Evolent Specialty Services, Inc. \u00a9 2008 - 2026 Evolent. All rights Reserved. Original Date: July 2008 Last Revised Date: December 2025 Implementation Date: July 2026 TABLE OF CONTENTS STATEMENT ................................................................................................................................................ 3 GENERAL INFORMATION ............................................................................................................................... 3 PURPOSE .................................................................................................................................................... 3 SCOPE ........................................................................................................................................................ 3 SPECIAL NOTE ............................................................................................................................................ 3 INDICATIONS ............................................................................................................................................... 4 ANTERIOR CERVICAL DISCECTOMY WITH FUSION (ACDF) - SINGLE LEVEL ..................................................... 4 ANTERIOR CERVICAL DISCECTOMY WITH FUSION (ACDF) \u2013 MULTIPLE LEVELS............................................... 5 CERVICAL POSTERIOR DECOMPRESSION WITH FUSION (CPDF) - SINGLE LEVEL ............................................ 6 CERVICAL POSTERIOR DECOMPRESSION WITH FUSION (CPDF) \u2013 MULTIPLE LEVELS ...................................... 8 CERVICAL FUSION FOR TREATMENT OF AXIAL NECK PAIN .............................................................................. 9 Fusion In Individuals with Non-Radicular Cervical Pain ....................................................................... 9 Cervical Posterior Decompression ...................................................................................................... 10 CERVICAL ARTIFICIAL DISC REPLACEMENT (SINGLE OR TWO LEVEL)............................................................ 11 CERVICAL FUSION WITHOUT DECOMPRESSION ........................................................................................... 12 Cervical Anterior Decompression (Without Fusion) ........................................................................... 12 RISK FACTORS AND CONSIDERATIONS ............................................................................................... 12 CODING AND STANDARDS ..................................................................................................................... 13 CODES ...................................................................................................................................................... 13 APPLICABLE LINES OF BUSINESS ................................................................................................................ 16 BACKGROUND .......................................................................................................................................... 16 *CONSERVATIVE TREATMENT ..................................................................................................................... 16 **HOME EXERCISE PROGRAM (HEP) .......................................................................................................... 17 SUMMARY OF EVIDENCE ........................................................................................................................ 17 ANALYSIS OF EVIDENCE ......................................................................................................................... 18 POLICY HISTORY ...................................................................................................................................... 19 LEGAL AND COMPLIANCE ...................................................................................................................... 20 GUIDELINE APPROVAL ............................................................................................................................... 20 Committee ........................................................................................................................................... 20 Page 2 of 22 Evolent Clinical Guideline 1759 for Cervical Spine Surgery DISCLAIMER .............................................................................................................................................. 20 REFERENCES ............................................................................................................................................ 21 Page 3 of 22 Evolent Clinical Guideline 1759 for Cervical Spine Surgery STATEMENT Operative treatment is indicated only when the natural history of surgically treated lesions is better than the natural history for non-operatively treated lesions. All operative interventions must be based on a positive correlation with clinical findings, the natural history of the disease, the clinical course, and diagnostic tests or imaging results. All individuals being considered for surgical intervention should receive a comprehensive neuromusculoskeletal examination to identify pain generators that may either respond to non-surgical techniques or may be refractory to surgical intervention. General Information \u25cf It is an expectation that all patients receive care/services from a licensed clinician. All appropriate supporting documentation, including recent pertinent office visit notes, laboratory data, and results of any special testing must be provided. If applicable: All prior relevant imaging results and the reason that alternative imaging cannot be performed must be included in the documentation submitted. \u25cf The guideline criteria in the following sections were developed utilizing evidence-based and peer-reviewed resources from medical publications and societal organization guidelines as well as from widely accepted standard of care, best practice recommendations. Purpose This guideline outlines the key surgical treatments and indications for common cervical spinal disorders and is based upon the best available evidence. Spine surgery is a complex area of medicine, and this document breaks out the clinical indications by surgical type. This guideline does not address spinal deformity surgeries or the clinical indications for spinal deformity surgery. Scope Spinal surgeries should be performed only by those with extensive and specialized surgical training (neurosurgery, orthopedic surgery). Choice of surgical approach is based on anatomy, pathology, and the surgeon's experience and preference. Instrumentation, bone formation or grafting materials, including biologics, should be used at the surgeon\u2019s discretion; however, use should be limited to FDA approved indications regarding the specific devices or biologics. Special Note In order for surgeries to be considered medically necessary there must be clear medical records that demonstrate a clear surgical plan that matches the request for surgery. Page 4 of 22 Evolent Clinical Guideline 1759 for Cervical Spine Surgery INDICATIONS Anterior Cervical Discectomy with Fusion (ACDF) - Single Level When one of the two following criteria are met (1\u20138): \u25cf Positive clinical findings of myelopathy with evidence of progressive neurologic deficits consistent with spinal cord compression - immediate surgical evaluation is indicated. Symptoms may include (7): \u25cb Upper extremity weakness \u25cb Unsteady gait related to myelopathy/balance or generalized lower extremity weakness \u25cb Disturbance with coordination \u25cb Hyperreflexia \u25cb Hoffmann sign \u25cb Positive Babinski sign and/or clonus \u25cf Progressive neurological deficit (motor deficit, bowel or bladder dysfunction) with evidence of spinal cord or nerve root compression on magnetic resonance imaging (MRI) or computed tomography (CT) imaging - immediate surgical evaluation is indicated When ALL of the following criteria are met (6\u20138): \u25cf Cervical radiculopathy or myelopathy from ruptured disc, spondylosis, spinal instability, or deformity \u25cf Failure of conservative treatment* for a minimum of six (6) weeks within the last six (6) months; NOTE - Failure of conservative treatment is defined as one of the following: \u25cb Lack of meaningful improvement after a full course of treatment; OR \u25cb Progression or worsening of symptoms during treatment; OR \u25cb Documentation of a medical reason the member is unable to participate in treatment Closure of medical or therapy offices, patient inconvenience, or noncompliance without explanation does not constitute \u201cinability to complete\u201d treatment. \u25cf Imaging studies confirm the presence of spinal cord or spinal nerve root compression (disc herniation or foraminal stenosis) at the level corresponding with the clinical findings. Imaging studies may include: \u25cb MRI (preferred study for assessing cervical spine soft tissue) \u25cb CT with or without myelography\u2014 indicated in individuals in whom MRI is contraindicated; preferred for examining bony structures, or in individuals presenting with clinical symptoms or signs inconsistent with MRI findings (e.g., foraminal Page 5 of 22 Evolent Clinical Guideline 1759 for Cervical Spine Surgery compression not seen on MRI) As first-line treatment without conservative care measures in the following clinical cases (1,2,6,9): \u25cf As ou",
+        "text_truncated": true
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_58438",
+      "args": {
+       "query": "\"Evolent\" \"Clinical Guideline\" \"Hip Arthroplasty\" OR \"1761\" OR \"313\" OR \"1761\" OR \"1760\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "ErsFCrgFAWkUfRNGjIBPQNBsEuqQIMlwUz-eEzuBSLFpApRdslz1Bakui0uiP0uVbxiRg6PTmRZoPL7PgVUoFeKEfcPdTkOMdJ0lRL_DGhVmiLbWjfV4a3393CtMFb7-9KQs-d20vmHvSia90w1XxlL7cn7AcTCtZL6W30Y2r8KeyLQjb0rs6Xjcx4thiu0IfElBNZzSSkbTb6avas-Amk70DFHWt2fE7zmqXbxqmMRgPUWwH1xn5ZVro-AzUWOI3PCWZajHNgEAUW_bzC4Y0Ok-gLS8N0CX25CTwm6xqOxX5jnh67ZmgF3qhW0n0CSe87V85Ou28OfgIWfMV8x--TSFDhcAlPMp7NAAGWZuf1K4BOizQRoXRO5NurWvw-Px8GFWgDdhhS-yjRMmmFy-v5zVuRoX757IJMlUn-pNPJKJwCW3nfv2RdGAUXlhZqzzxNdWeAPPthvKsBdldsKbSaIf5JB8Z-fo8jIytVul-ilwoN4z2NJDuIfxf8WsijMW5UXN_bmHve-KjvUiHkqXonMKo3392X7x_nEypxe2BzHAtSNvofZuPG33o-BIaiDaRCXdMdokV-V4QZItpv9zX_qtr2Wu2xVcXeQvVwBJkcF3qSJ9hySDnkvt9mJX9Tgz6qoWreCgNWTABzekeKI91QPipcv3GCBN3RtCcbug0IJbhqQraEs4czqgc3WJKaaCiOuocUxXC-vma6vvbjtgk-MIOFnxTFDOWzN1e-mRD8CchnXT3Q3R8R0r1HGDYLjtfTUEuF_5hYQnzYaYcCgioGTYmxMrro5gVvGxMOJeu0dpnsD6FYufSc3eP15B6imEKN_aYCIjU6-W_zoUNun7XZtawWQL4hWEAA87ZRav4XNsFdYSZaJj1kYzK2YffXkBKXMmjHosQcFwRVoU_l339CGx2arWQL4pwGBiTZl4"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Evolent\" \"Clinical Guideline\" \"Hip Arthroplasty\" OR \"1761\" OR \"313\" OR \"1761\" OR \"1760\"",
+        "results": [
+         {
+          "title": "2025 Evolent Clinical Guidelines for Medical Necessity Review",
+          "url": "https://cms.radmd.com/sites/default/files/2025-01/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+          "snippet": "Evolent Clinical Guideline 1761 for Hip Arthroplasty \u00b7 Evolent Clinical Guideline 1761 for Hip Arthroplasty \u00b7 Guideline Number: Evolent_CG_1761 \u00b7 Applicable Codes \u00b7 &quot;Evolent&quot; refers to Evolent Health LLC and Evolent Specialty Services, Inc. \u00a9 2015 - 2025 Evolent."
+         },
+         {
+          "title": "2025 Evolent Clinical Guidelines for Medical Necessity Review - HMSA",
+          "url": "https://www1.radmd.com/sites/default/files/2025-07/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines%20-%20HMSA%20FINAL%20eff%20070125.pdf",
+          "snippet": "Evolent Clinical Guideline 1761 for Hip Arthroplasty \u00b7 Evolent Clinical Guideline 1761 for Hip Arthroplasty \u00b7 Guideline Number: Evolent_CG_1761 \u00b7 Applicable Codes \u00b7 &quot;Evolent&quot; refers to Evolent Health LLC and Evolent Specialty Services, Inc. \u00a9 2015 - 2025 Evolent."
+         },
+         {
+          "title": "2024 Evolent Clinical Guidelines for Medical Necessity Review - HMSA",
+          "url": "https://www1.radmd.com/sites/default/files/2024-07/2024%20Evolent%20Musculoskeletal%20Surgery%20Guidelines%20-%20HMSA%20FINAL%20eff%20070124.pdf",
+          "snippet": "Revision/Conversion Hip Arthroplasty: 27132, 27134, 27137, 27138 \u00b7 **See UM Matrix for allowable billed groupings and \u00b7 additional covered codes \u00b7 Last Revised Date: December 2023 \u00b7 Guideline Number: Evolent_CG_313 \u00b7 Implementation Date: July 2024 \u00b7 Table of Contents \u00b7"
+         },
+         {
+          "title": "National Imaging Associates, Inc.* 2024 Evolent Clinical Guidelines",
+          "url": "https://www1.radmd.com/sites/default/files/2023-12/2024%20Musculoskeletal%20Surgery%20Guidelines_FINAL_HMSA_Joints.pdf",
+          "snippet": "<strong>Injections Increase the Rate of Periprosthetic Infection After Total Hip Arthroplasty</strong>."
+         },
+         {
+          "title": "Clinical guidelines",
+          "url": "https://www.amerihealthcaritasoh.com/content/dam/amerihealth-caritas/acoh/pdf/provider/resources/radiology/policies-20250326/Lower_Extremity_MRI.pdf.coredownload.inline.pdf",
+          "snippet": "34. Fritz J, Lurie B, Miller TT, Potter HG. MR imaging of hip arthroplasty implants."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_116754",
+      "args": {
+       "query": "\"Evolent Clinical Guideline 1761 for Hip Arthroplasty\" OR \"Evolent_CG_1761\" OR \"Guideline 1761 for Hip Arthroplasty\" OR \"Guideline Number: Evolent_CG_1761\" OR \"Evolent_CG_1761\" OR \"NIA_CG_313\" OR \"Evolent_CG_313\" OR \"CG_1761\" OR \"CG1761\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Ep4GCpsGAWkUfRP9uUiHhEvpWGjz5ikFC4YQTVsqaU1sLVu1cFX2R7xt9J7YHHBX7tEalCmYYWNRWNNthIA9Yaa0MU_zMm4xLWLBePH-XeZ8GAGvJjGT0dKRDUETV1_YxjzlRYcIOzKorcml19mFla41VBVwXW3qlXiUHEeva4NVZ4LBzDbUgDrSbBZcXWw7DgJohk8b8fOt5W8fJe9kexKROt8DlZt0-bORlERLOzWi0-ZTD0rzO99txuOo53rLCIZfFltZg1qu0xe_57tgACG5WtSoQuL40GszrWF9-cc0Rcrz048Oqu5GJ3Tf9HCYJpvfcTUp0TEtnu6zDNF1gooElXbmpK3nMZd41zCmGNYjq8t-pe7ghIbUFz3uD5NuNqcx79nDFEHBPiqLC2-JQ__X-2vlY374e9hhBqs_W4rcfwddXtfPtD-7M_mWrMI-cdVDELB1a9Z5otWI9nXK0pt3BISKxRBA2aHW9t4xBniYGLGT59f-RbC7DnVhSEfCQJn0Ej6G8fQL6gZCuAN06PVL8qZcO1s9g6q4VlM0sdRZH9JMZRXcsfKD4RjMjgRT9WCvFkX-9Pv77LIo9QONQVk6Y3LfX2N1ZNaOexJWd_yUJ2RFflnNOV4239dWn9kciHUbF9Lh__mFOTVqHPBe08Y59Hb_2hCpOUju8VUengjtxrpGgs6fAzv6PhjLhi3_HwJiF7zWuDHZlc-S03KT84deljFp7if75s3Lpd2liOgEL8MKsFyGlMWwG363Lo5N9zjVwtaPlgMQzFepbKvcz47gf0vdifFBEkgCzL54teUK1DdpJaPuVMvtsCAytybW7_OkkUOT8_gXjO0_c0v49FGr5uuzfrhk3jk1zJ1O1VGGTsHg2ZZfzEQi_ciAZ-so2AhDXEN57yYHJfT6yrtEVTnj8Rk0_mgxQUxCjHqtJ8cFHI7XQsAcjNAyPnVww45hoiGTwV639kLyRkw1oucsKTFSWGNkF0R8kXiROD-w16SqtKkoGkxOqSDbMTpIrV-5fYQoUprzUj7MNSw86iI_8Jre_-8KqdZGq_iF7-5jEOqN"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Evolent Clinical Guideline 1761 for Hip Arthroplasty\" OR \"Evolent_CG_1761\" OR \"Guideline 1761 for Hip Arthroplasty\" OR \"Guideline Number: Evolent_CG_1761\" OR \"Evolent_CG_1761\" OR \"NIA_CG_313\" OR \"Evolent_CG_313\" OR \"CG_1761\" OR \"CG1761\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_82145",
+      "args": {
+       "query": "\"Evolent Clinical Guidelines for Medical Necessity Review\" \"Hip Arthroplasty\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Eo4ECosEAWkUfRMieztRWvEIlLun-Re-NpKKWZZn1BiitsjYIKHWRz5rZOpT7DNJIReklEEWCK7sinp1mjykmoeXBEVvLVfbiUilx0fPbcBwr1K4pTWvRB10Ws2L_RoC1Znqz8ZYledwgXH8rCCiY0s3oyZBFpExlx9g_qP7AgIN47Hwm74FiOhUiA16XcKV5RxirNqKamzECkopPFFECR5d91Vc84tZ7J0LxYFi9nikf8f6iVZ5f8nPbyVLyCsDfFKoUKDD1Lxw6btk2M81-v4EtyOxxbEq4Zg0_9jMaeSBFoIrmG9DPAJOPUNqxvsJSmUNa8v0VW1jkhHmpY8Gzulz1tN7hCR003YouLHqc1aJt5uJPO2TfZQ8hDPPwsZqa1zvU3g0JaYDVDm2ge9al4zIc6f1xDSgj8ZtsBloH8dy2zKCUNyJfCTCOyLHE5uJpZt5WmJFrZOCnPzOkzOc9-rN6rYg7zAt9wjmRmO-xK7k2J6znMCuxEJfslGNEujwt_JQaImM2B6uKTeS-9uDD9gZCNTRVeRKqZIPaamsokefuaGmP1NX0ODv0hnKTvx2_Gob7qSQhgW-l6NnKXJ8APbdQgCRGvV4kwdkLHshlzolFKrps1P0GkqOUtbuF23-SivOQroVS5gZfrO-lntohBLV2rfa0HTY_Cy0_yafAWvvs5P14ykJp7NTFbGkZrGJ-A=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Evolent Clinical Guidelines for Medical Necessity Review\" \"Hip Arthroplasty\"",
+        "results": [
+         {
+          "title": "2025 Evolent Clinical Guidelines for Medical Necessity Review",
+          "url": "https://cms.radmd.com/sites/default/files/2025-01/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+          "snippet": "<strong>Evolent Clinical Guideline 1761</strong> for Hip Arthroplasty \u00b7 <strong>Evolent Clinical Guideline 1761</strong> for Hip Arthroplasty \u00b7 Guideline Number: Evolent_CG_1761 \u00b7 Applicable Codes \u00b7 &quot;Evolent&quot; refers to Evolent Health LLC and Evolent Specialty Services, Inc. \u00a9 2015 - 2025 Evolent."
+         },
+         {
+          "title": "2024 Evolent Clinical Guidelines for Medical Necessity Review - HMSA",
+          "url": "https://www1.radmd.com/sites/default/files/2024-07/2024%20Evolent%20Musculoskeletal%20Surgery%20Guidelines%20-%20HMSA%20FINAL%20eff%20070124.pdf",
+          "snippet": "TOTAL HIP ARTHROPLASTY (THA)..............................................................................................................................."
+         },
+         {
+          "title": "2025 Evolent Clinical Guidelines for Medical Necessity Review - HMSA",
+          "url": "https://www1.radmd.com/sites/default/files/2025-07/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines%20-%20HMSA%20FINAL%20eff%20070125.pdf",
+          "snippet": "<strong>Evolent Clinical Guideline 1761</strong> for Hip Arthroplasty \u00b7 <strong>Evolent Clinical Guideline 1761</strong> for Hip Arthroplasty \u00b7 Guideline Number: Evolent_CG_1761 \u00b7 Applicable Codes \u00b7 &quot;Evolent&quot; refers to Evolent Health LLC and Evolent Specialty Services, Inc. \u00a9 2015 - 2025 Evolent."
+         },
+         {
+          "title": "2026 Evolent Clinical Guidelines for Medical Necessity Review",
+          "url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+          "snippet": "2026 Evolent Clinical Guidelines - Muscoskeletal Surgery Guidelines \u00b7 Page 2 \u00b7 TABLE OF CONTENTS \u00b7 MUSCULOSKELETAL SURGERY (SPINE) GUIDELINES \u00b7 CERVICAL SPINE SURGERY \u00b7 LUMBAR SPINE SURGERY \u00b7 MUSCULOSKELETAL SURGERY (HIP, KNEE, SHOULDER (HKS)) GUIDELINES \u00b7 HIP ARTHROPLASTY \u00b7"
+         },
+         {
+          "title": "2025 Evolent Clinical Guidelines for Medical Necessity Review",
+          "url": "https://www1.radmd.com/sites/default/files/2025-01/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+          "snippet": "<strong>Evolent Clinical Guideline 1761</strong> for Hip Arthroplasty \u00b7 <strong>Evolent Clinical Guideline 1761</strong> for Hip Arthroplasty \u00b7 Guideline Number: Evolent_CG_1761 \u00b7 Applicable Codes \u00b7 &quot;Evolent&quot; refers to Evolent Health LLC and Evolent Specialty Services, Inc. \u00a9 2015 - 2025 Evolent."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_84936",
+      "args": {
+       "query": "\"Evolent Clinical Guideline\" \"Hip Arthroplasty\" AND (\"imaging\" OR \"X-ray\" OR \"radiograph\")"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtgLCtULAWkUfROZ4p0B0hC_dlstE-7yi00Airm-EnvOlnEWPcxig0ZQ1xTFHxIFlCVKuSSNwrvYRVsRIRjE_qHHHHEFDUzvTFdg69uE4ArRSBGwNVPKgYefZLuFXYT9MA5mJp-C29CtyfyVd7nrdFDP_z9pNl12eyE0sDXE_zHPzfmRve7v_-6e7ACYGFnFJqyz95xrSeDVYvGPeldVTRfgiUYp9gF61H05qDxVCIjNXwfoEqNTL5Vd2pgG6g4tpn8EgXKRWv_mVXdWErPsYNbF63SpPHNAM4lvqCif8Ly5zvaUFDB0Q7wRcUJcSmP_Xep1epj3il4i11YCQIKjH_3C6aRLYxGu9uSf9UbyHKlO32Hp_NznPiqmi9SztkimKDJ9Wx3iW2XQbww08UU25mn0KCS0rn-PkcLMTRAxvvwUSRu0D4yl2dRvlk5iuhBSltWXpZJoSyZo30OlpjMJjX_Cy71zdQh7PYwR6TyXyam6n9pyJ9lhBwHRpkwA_t-irQLGfSO-Z2DVKBc8jUSqzCB2S_Wz6Ymu7LWk-PPhK_vZb3sViArsatw1635vVnqxTC9-g_cKu__IAYSHdoKqIXlhtQtBpVs8ykq1ZbYcIjsRHSvGKO72f3RGjDXZ2EnavgXlc8r2vrXBRZF0PnDqTh72_R2bgKE2WI4I5UabkH1sNHffOmq8Pttzbi2uVdUjDIULbJIFqqHbxNLCTA19V5Zyvd5Dnd3DY6S6GslyUYLtRQFDpwt6eLVpid4kzfCVfScvyT2LZcWzhr7dqwgHDskNNSlHc3tQXsECZ_6VUN7aV8xYB8HAnP61-sU673EwBTWfzzjp-FbmBQ0QVG2Q9WkZefhDfn4ZR38Xj-rw7_BqnW8jg3EmJIgs-totBRwDDv70ItJqgMJtADsAVavBtO9usTNkylLbVaCnnWo46kA5DfHa5YUJmJ7zwzaUPx5rBAkM2tpiST9R1PrnAaT6pE_wH_XKBOrKdWYlLTL6YEULjkKKzpK3fZrM_p8c_-Lh9H-b6mJ39FVjjwx4bECJnWcYfVfGhhKUiA1qW5vHCperS-TSqorh65bthKTYsIDM94wAUxEHjuSdT4Kgg5QkUMpE5RVO6dl4xr2Y2KvODs67vBUmGMqBQ4P_wUS6_S5-SCRe6o4ruetpZGTBTCOvlq3t5m4cXhUGZYtzwreIhoKvimc0-cBSoSISzk3ISSfk4QRKmkeBXp3ItnjJ7dc2VaG6f0MOvHoD_LHTVd06h5xH-J68kIJsFhr0zl3gdgWQg-QXL9b-n_t7RiVjnaMeH_KtniHQhojBi2URF4md21N2IYqMM9NqxucjRPwHlIPB9p8eyHbbySXuz6d5ANnFFEuZj1mRumLCJwnZ51q3jZpgqsUpnNxrK06UZpYFqdNYO43vA5jG-jxx1anF5ocpJk8Ex9ekrGEnBtM3niTQyanskJbSk4oRfHjqnXrk187KJPK_6P-LHDwkQFg4JtsATgLoovRoRP2m9SxJFIZ-4zCKOMehPqzXIGvYG9ZooqV_2TrBd7MKjuMLQRJXGt4Ck_2JPYljae8-O5ECAwMaPoBwTGe2P_akMJrY0zK_06fdWd4C05WGl9ty59MMtE4MuGNCZtL030IIeoO0h53Hu09kQ_yWG8lx8uTSKVtpdcBMH_U13ZCSZQZmiANxMv7v9FbF0XpqCPs3N3cFv_Yf907yjVFROm0uNeNsM5Cg9_6U6-7lc56Y_pRhQahHV8dm9FPKXsI4iDLSVkaolUxUlZZfWgNMxCHHsngR0JKuapMYJz2uzgvWoKVdbREmzJlygxq0vqvM-OZm9zAWn_72kSFIMzLW_C86UdcDollI2aStyoEo22sG3fcGzvRcQgIUSW5Va4Jgz8_2gq34Tuk_ivrP5bApIDciwdJCypPxR2TYvv5MZMtlrGDeIljOPuzH6Tgwidl9RlteID7KTUT2QnTUqDX735GrUbqVzr4MM7nVi3yIMCamUkZZPoE="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Evolent Clinical Guideline\" \"Hip Arthroplasty\" AND (\"imaging\" OR \"X-ray\" OR \"radiograph\")",
+        "results": [
+         {
+          "title": "National Imaging Associates, Inc.* 2024 Evolent Clinical Guidelines",
+          "url": "https://www1.radmd.com/sites/default/files/2023-12/2024%20Musculoskeletal%20Surgery%20Guidelines_FINAL_HMSA_Joints.pdf",
+          "snippet": "Between Weightbearing or Supine Anteroposterior Pelvic Radiographs. Arthroscopy. Nov \u00b7 2020;36(11):2843-2848. doi:10.1016/j.arthro.2020.07.009 \u00b7 12. Forlenza EM, Burnett RA, Korrapati AB, Yang J, Forsythe B, Della Valle CJ. Preoperative \u00b7 Corticosteroid Injections Demonstrate a Temporal and Dose-Dependent Relationship with the \u00b7 Rate of Postoperative Infection Following Total Hip Arthroplasty..."
+         },
+         {
+          "title": "Page 1 of 16 Evolent Clinical Guideline 1762 for Hip Arthroscopy",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/06-12-2026/1881-LHCC-ECG-1762-for-Hip-Arthroscopy-2026-redline.pdf",
+          "snippet": "\u25cf Indeterminate radiographs AND Magnetic Resonance Imaging (MRI) findings \u00b7 \u25cf No radiographic findings of any of the following: \u25cb \u00b7 Significant arthritis (joint space &lt; less than 2 mm on X-ray or subchondral edema on \u00b7 MRI) (3) Page 5 of 16 \u00b7 Evolent Clinical Guideline 1762 for Hip Arthroscopy \u00b7"
+         },
+         {
+          "title": "2024 Evolent Clinical Guidelines for Medical Necessity Review - HMSA",
+          "url": "https://www1.radmd.com/sites/default/files/2024-07/2024%20Evolent%20Musculoskeletal%20Surgery%20Guidelines%20-%20HMSA%20FINAL%20eff%20070124.pdf",
+          "snippet": "and the reason that alternative imaging cannot be performed must be included in the ... Arthritis is the most common cause of chronic hip pain and disability."
+         },
+         {
+          "title": "Postoperative radiograph of the hip arthroplasty: what the radiologist should know - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4656234/",
+          "snippet": "Therefore, we recommend a routine, <strong>standing anteroposterior (AP) pelvic radiograph, with the hips in extension and maximal internal rotation</strong>; the centre of the x-ray beam focused on the pubic symphysis to ensure the inclusion of the entire hip prosthesis and cement [7]. In our institution this ..."
+         },
+         {
+          "title": "2025 Evolent Clinical Guidelines for Medical Necessity Review",
+          "url": "https://www1.radmd.com/sites/default/files/2024-12/2025%20Evolent%20Advanced%20Imaging%20Guidelines-compressed_1.pdf",
+          "snippet": "<strong>ABNORMAL INITIAL X-RAY OR ULTRASOUND</strong> ........................................................................................ 2 \u00b7 PRE-OPERATIVE EVALUATION ..........................................................................................................."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_84899",
+      "args": {
+       "query": "\"Evolent\" \"Hip Arthroplasty\" OR \"total hip replacement\" OR \"27130\" AND \"clinical guideline\" OR \"criteria\" \"2026\" OR \"2025\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Ep0FCpoFAWkUfRNydIv_tSW4WniwObfHQ12kemk26H7DovG8xJFexE9Y0A5LzVbuYALRc6MjUuVltFLJ_DvjOYk_aVkyCh8oI8hv8tSIcDimenJpu0ON3-BDA18jiUV8TUF3FMiBVsln2WA2WPcdHpC_2yPp8bsij0A5hS1d70Cju3fBAwQZE5kKzq4J9Kaw2OQTsjOGjQeFhAT7NXAO2HGGQUhRL6yakN2CQDXUG1ld8RNTuH96KZn3yBM8xc-oM3mkF4Kq-x57X3AmW9WPBmC1oo-C5am2mM4UhHlXKZ3O_2oaryYIijY3BrwM-Iitce7LfHWWUbq-Ieh8xM2wwLgds3kWbWvqp_DTF85F6qKjNo6KLeK13hfNUYR-q9WUNSL6h3pBCvsk6sXeO4C4NU2Zt1PhUNLzJNBl1D86gotiJSKO7dbquStwX-wtrEyBIuZA8On1PdM_PdzrWhIF_iCM7NR228A1RxgsIVaiPHQl7F4ZPVG6_ibkhjObG2r2EHeDE-0veilBRGMO1ssNSCZTnTUEiMsh4OQuU5Qz-MspjnY5_JuT4bqPfZX22HOZriKFWIcoEXoF8Udw-sxvHhy-XUf4tBFLFOCL5Mwa2PZWrf1eIeTU_yEJkVWGVxABySLCzGqGHtBk5qCKh-XxkpMdQ2fVU3eBvLHxOrgd5kRjvNe_EI1b2EGv-Xv0pvK5g1bUWXkuibaKlCCsxA0DhxS81lU_3sbhWHxHu5G27cQsdqx-fYxXjxn2XMQdYtczQQWqA5WlvVR4CAkuToxsq3GhY-ul3JohzoKgCdYGrj970pdknzjjoq_Fye_J44kL8q3KfWXeYBptjvmxhLwyEpFx63ptFzcYELfLPRf9z6kSERRLnExBimdSHFg1l2Oh"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Evolent\" \"Hip Arthroplasty\" OR \"total hip replacement\" OR \"27130\" AND \"clinical guideline\" OR \"criteria\" \"2026\" OR \"2025\"",
+        "results": [
+         {
+          "title": "Total Hip | Clinical Review Criteria",
+          "url": "https://wa-provider.kaiserpermanente.org/static/pdf/hosting/clinical/criteria/pdf/totalhip.pdf",
+          "snippet": "A. <strong>Hip arthroplasty may be considered medically necessary for a replacement/revision of a previous arthroplasty</strong>"
+         },
+         {
+          "title": "2024 Evolent Clinical Guidelines for Medical Necessity Review - HMSA",
+          "url": "https://www1.radmd.com/sites/default/files/2024-07/2024%20Evolent%20Musculoskeletal%20Surgery%20Guidelines%20-%20HMSA%20FINAL%20eff%20070124.pdf",
+          "snippet": "*Evolent \u00b7 Clinical guidelines: HIP ARTHROPLASTY \u00b7 Original Date: November 2015 \u00b7 CPT Codes**: - Total Hip Arthroplasty (THA): 27130, S2118 \u00b7 - Revision/Conversion Hip Arthroplasty: 27132, 27134, 27137, 27138 \u00b7 **See UM Matrix for allowable billed groupings and \u00b7"
+         },
+         {
+          "title": "MEDICAL POLICY \u2013 7.01.573 Hip Arthroplasty in Adults Effective Date:",
+          "url": "https://www.premera.com/medicalpolicies/7.01.573.pdf",
+          "snippet": "August 6, 2025. Complications of total hip arthroplasty - UpToDate. Accessed February 19, 2026."
+         },
+         {
+          "title": "2025 Evolent Clinical Guidelines for Medical Necessity Review",
+          "url": "https://cms.radmd.com/sites/default/files/2025-01/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+          "snippet": "Atraumatic instability due to Down Syndrome-related spinal deformity, rheumatoid arthritis, \u00b7 Important Predictor of Post-Operative Efficacy in Patients with Degenerative Cervical Myelopathy \u00b7 Cervical Spondylotic Myelopathy: A Nationwide Propensity-Matched Analysis of Complications,"
+         },
+         {
+          "title": "CPT\u00ae Code 27130 - Repair, Revision, and/or Reconstruction Procedures on the Pelvis and Hip Joint - Codify by AAPC",
+          "url": "https://www.aapc.com/codes/cpt-codes/27130",
+          "snippet": "CPT Code 27130, Surgical Procedures on the Pelvis and Hip Joint, Repair, Revision, and/or Reconstruction Procedures on the Pelvis and Hip Joint - Codify by AAPC"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_112850",
+      "args": {
+       "query": "site:radmd.com \"Evolent Clinical Guideline 1761 for Hip Arthroplasty\" OR \"Guideline Number: Evolent_CG_1761\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Eo4GCosGAWkUfRM83DIq8Hw3cfvqVvB8G2fpB38mrZCvMwykemQM-zju5KxF6N-K3f4n7iWOMJcayid_8OFh0iOYi-ZVlF9acB-ycZ_jx44TBShfkdnmYu5FjBKOZBWtg22RMQEx6ydCXWb1SCBIwrP_b-BP_sIZzl6TWjm6nrnZ7MJvKYMsgxMLSOrdJnJhklVn9-FNnnnZoM-Vjess-oSiCxL-5KAQW7diojpN2eKXRO4N1-dWxpK-68OJDkY9-dY0d2EePjD2oOxMukpT7QCKNDPM5GfVTpodFDTNbOW2mWa0nLx3BhKguE7i4dWlv_n5aznAUpnHGzzN0FAifxQNeY7PoBFtF4Hs0NQJfB1gTeKpIhyaN5ydOPL-t4jY-5XYDuU5jAXgdfKLOLB5K6myu40kYFkIPgE7MZDk8cczvx--06fxZM5sQxdinfrHj3S5twREN90CSdsdSTwZgffz6DjrMP-8VwCR8nK4quOL5lvrfXUGiZLtnEtyq_Fk_Fpush_x_xfkoTNmF1pXH-HoEy7fnt2gYc5JvjYd96yy25JSt_yi8QO1-XGtH3IH7WVORIaWTSSWQw7pLY6zZeerEPIz0mdHyg1fUSsc09cIl-AFHVFAyRzVBvxOb2sKNH7l5eocROr4yKjhspMG8RD1ablZebjAoNFy2S6JHalgPFpysYyBvK4BnpglnNcdLfHr2toAd31uQX0a8fwRGaJ3RLA1PB1pabb3Ke3rA-3S0aJZISmogwLSXTYGD7EdGsOklCgK8fdBKUE0g9HjG8bTDa7U28zRMKBR0Q6O4lzGUQxCn9B87AhakIb3AGornooRCp_dujz5L9vfWGwe-avE9YGtpqjjJ6WToQj6J6UUUXwBoq28-vnWTGnzuZTU1z809DzeRH1kSh8ueEq-_qU0KOSfnjYSCziZtD-ATrinWSh98X61mQ4cJfk4dT9FyrudE388FW7vDWMEL3CTSMkZQ_pEg_bBeTCUyPUuewVChIbgoZXiwOZKaD-RJ89KFF59q0DPd7T0sfrLa2RoGkM="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:radmd.com \"Evolent Clinical Guideline 1761 for Hip Arthroplasty\" OR \"Guideline Number: Evolent_CG_1761\"",
+        "results": [
+         {
+          "title": "2025 Evolent Clinical Guidelines for Medical Necessity Review",
+          "url": "https://cms.radmd.com/sites/default/files/2025-01/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+          "snippet": "Evolent Clinical Guideline 1761 for Hip Arthroplasty \u00b7 Guideline Number: Evolent_CG_1761 \u00b7 Applicable Codes \u00b7 &quot;Evolent&quot; refers to Evolent Health LLC and Evolent Specialty Services, Inc. \u00a9 2015 - 2025 Evolent. All rights Reserved. Original Date: November 2015 \u00b7"
+         },
+         {
+          "title": "2025 Evolent Clinical Guidelines for Medical Necessity Review - HMSA",
+          "url": "https://www1.radmd.com/sites/default/files/2025-07/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines%20-%20HMSA%20FINAL%20eff%20070125.pdf",
+          "snippet": "Evolent Clinical Guideline 1761 for Hip Arthroplasty \u00b7 Guideline Number: Evolent_CG_1761 \u00b7 Applicable Codes \u00b7 &quot;Evolent&quot; refers to Evolent Health LLC and Evolent Specialty Services, Inc. \u00a9 2015 - 2025 Evolent. All rights Reserved. Original Date: November 2015 \u00b7"
+         },
+         {
+          "title": "2025 Evolent Clinical Guidelines for Medical Necessity Review",
+          "url": "https://www1.radmd.com/sites/default/files/2025-01/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+          "snippet": "Evolent Clinical Guideline 1761 for Hip Arthroplasty \u00b7 Guideline Number: Evolent_CG_1761 \u00b7 Applicable Codes \u00b7 &quot;Evolent&quot; refers to Evolent Health LLC and Evolent Specialty Services, Inc. \u00a9 2015 - 2025 Evolent. All rights Reserved. Original Date: November 2015 \u00b7"
+         }
+        ],
+        "result_count": 3,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_139080",
+      "args": {
+       "query": "\"Evolent Clinical Guideline 1761 for Hip Arthroplasty\" AND (\"imaging\" OR \"X-ray\" OR \"radiographs\") OR \"conservative\" OR \"criteria\" OR \"medical necessity\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Eu0GCuoGAWkUfRNHeffybZDt5uIaZ66lyd2z_2PVjbQ-NW49syxvRUg9ZRD60eq61Ln6G--nkO7P1huaYDD1CmCWjNneUFaQuatek3dIy9F2qjmloC92pwhADGU4rmdWTZTsd1wTJ4IAT6OuFx0IVK0PsSF9VLriVtApoobhrQkUnKdGcT2msBit3PNWllQxBg-ZZs-hD8TLFkGW4CDyFXPLnx1-B3bTANF_q6h7nNbVhZvSCLsqEgy_ORCMWEcsRVQeUrkXDptbDhoK9M0ZNFEAKDqzw7NneO8kNEZFVFJpYyaA3hY3g0_LirDZeyJKPDR73CfufAlWGi5aymblryM8nj1lE62WHFJTCS_BlzwKPcPGX9KX8sjOw-0jaRpZfgCFgH1OOsK8CB3-Ow_kZJsQUrWQABkvQvKq2erbOkFXQR4AglsLnTDNF16TFjGaF2mlUWVhdKgEF7ti3OPrpKx6-dGmWaxkMODUPDDr173EsxyNvY9Tw8B48iPFOxpJvcuMdI5KkLjDQS0KQUi8JDgrI-OOS4JpCEdqCWWdkO8K7BnZxJ4rCBrb_i5cam9fqezSqp-Ztj5ufGqMPWM2AhnlvyHDGvZHunY4FSpDiRA7vI3-sdtErGku9QdKD7WyKsLkxQJteuiiPOEGmkYBh7_6EM0zJKOUB00sbsVZAr74W4boPpvEqPhxlwTYmsO3B4QNzVq-oNkrncfRR-0wK6t6ju3491KhDt0RqTyYBvxGfDpWj7PTiC3bB_zYevZBkP3xybjMLMpe_sJxKU9BGJn5smKEPzd5o9Wm1Ff7vGaFyuAoJRKjRxCgXHIzcFX9JH4FfOwLIUkX4SSyswJ0dTOovCV60s5HK0Iv_REjTjQOJyImfA5k0-HACLQkuZ5O2gVwFRBA64yDItHD9lX-j2o6G_ZQtYZ9yAm6HhGj8QvmZj5O9TWQ34HFf6M-2Wmq2zmp9D2hJF8wwV8o3mMAo9GO-v2IaeoUYzxxIYidF9x9mVRxIemAhKFL-SNrT8N5EY3qys9Ds1DumrBRPGwtqf51QDonPh1L2F-FtcH22Uri7wQnDYDTQVj8m1fg3jRwZeJtAZkLMCVd7XaY1V3aNlGY9Re4gcs6bqAYyP51wpN4pYDs6NOf8xUXbB5zpp77uLXHQZlabjvh2nGMtXNv9g=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Evolent Clinical Guideline 1761 for Hip Arthroplasty\" AND (\"imaging\" OR \"X-ray\" OR \"radiographs\") OR \"conservative\" OR \"criteria\" OR \"medical necessity\"",
+        "results": [
+         {
+          "title": "2024 Evolent Clinical Guidelines for Medical Necessity Review - HMSA",
+          "url": "https://www1.radmd.com/sites/default/files/2024-07/2024%20Evolent%20Musculoskeletal%20Surgery%20Guidelines%20-%20HMSA%20FINAL%20eff%20070124.pdf",
+          "snippet": "TOTAL HIP ARTHROPLASTY (THA)..............................................................................................................................."
+         },
+         {
+          "title": "Imaging of the Extremities 2025-11-15 | Carelon Clinical Guidelines and Pathways",
+          "url": "https://guidelines.carelonmedicalbenefitsmanagement.com/imaging-of-the-extremities-2025-11-15/",
+          "snippet": "Please refer to the health plan medical policy/guidelines and federal/state coverage mandates applicable to these techniques which supersede Carelon guidelines. <strong>Advanced imaging is considered medically necessary following nondiagnostic radiographs or ultrasound</strong>."
+         },
+         {
+          "title": "Page 1 of 16 Evolent Clinical Guideline 1762 for Hip Arthroscopy",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/06-12-2026/1881-LHCC-ECG-1762-for-Hip-Arthroscopy-2026-redline.pdf",
+          "snippet": "we only reference the relevant portion of the corresponding Evolent Clinical Guideline that is \u00b7 applicable to the specific service or item requested in order to determine medical necessity."
+         },
+         {
+          "title": "MEDICAL POLICY \u2013 7.01.573 Hip Arthroplasty in Adults Effective Date:",
+          "url": "https://www.lifewisewa.com/medicalpolicies/7.01.573.pdf",
+          "snippet": "section. Hip arthroplasty may be considered medically necessary when criteria are met. ... Interim Review, approved February 20, 2020. Added note that indicates non-surgical \u00b7 medical management is not required if radiographic or imaging findings show"
+         },
+         {
+          "title": "2024 Evolent Clinical Guidelines For Medical Necessity ...",
+          "url": "https://www1.radmd.com/sites/default/files/2023-12/2024%20Musculoskeletal%20Surgery%20Guidelines_FINAL_HMSA_Joints.pdf",
+          "snippet": "arthroplasty, a metal cup is placed in the acetabulum and a metal cap is placed over the head of \u00b7 the femur with limited removal of the femoral head and neck. In some cases, the hip prosthesis may wear out or loosen. If loosening is painful, a second \u00b7 surgery, such as a revision or conversion may be necessary."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_79008",
+      "args": {
+       "query": "\"Evolent Clinical Guideline 1761 for Hip Arthroplasty\" OR \"Guideline Number: Evolent_CG_1761\" OR \"Guideline Number: NIA_CG_313\" OR \"Evolent_CG_1761\" OR \"NIA_CG_313\" AND \"imaging\" OR \"X-ray\" OR \"radiograph\" OR \"criteria\" OR \"indications\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqwHCqkHAWkUfRPdg9QxF0XzT2fd0yVVEdjYkKl19i-kbS2V1ZmxtjdLrKZTUwgxcgtB_Bof2l5uGYZbNBUmcKf2aF0r6JLvFv1DUzfjFaptjtax3XGm6oOh1_wNxcwsI0OvVMEVCKBBVUjxO-W7iALlwGHTqOGa95Df9Wi4K5-kRrfdSV6FDmhZf4fHufVWK1DfGfI10VXsefsSq9aGWX3W53f7tx41bGjhKTkzXV-OXzZPQUzv7cQU6EwlYO9iFQvvzsyIx2BisntXyeNEv7Qpfa0-WcUekVEcuMx0dw2zjmgZfuW6Oa7K5iTvVxy01ZuZbrpyKIEwyhJpCdyoPLtEMGwKjELax3d1Q8Zgy0yjf8KlMyVt6Or9MFPaQ3wkh5P_uAyH2s4VNB8y4NjDpCTJunISnS8UrwQmry7E_e7D9prb3AL0pD7Ud7jUPti7grXQoRyBYcXcbDzL4R49PTaculMHFTBo9VX3J5KJ-Oe21FKWwnbBbYRukrUkP82rLa3z-GrUE0rMeionSrCL1ZEuINZFP-3_jhfCSZhhFo81PwLfca19Zv2RNZPBWcF1E2qWMVbsrjrWaGg8odPFkMzUP0flL3UeNwqVtZbtROTM3oRMufj-EZHERbFmx2wvr-0WguuYNfdRbtPuLJKNVKGcSKIoF9p57QP5VKxbb6USRRWYolirDAkfZBy5kooMR0a26vIQA6lYi3mkN5PBLGRYNz0GRWFzIHXGb1q76t8lEJwiai09_vueDsypnxta2y0BOd-ITuTBLsyi5UEU_qryRzM3lR5WGsrlOnMModkoNIzAQKEemjgPpX22Ah_bfKYsjwFbna9d7G1gWexcG4ZFukcv-h1iNttxZ93X4O9owB2Isg8Er_TetJHKeIIHjQFzB-o9t8FKGVdA4Fmv82UokY4MrMi38yA1JtReuTNsma8N6SaN7QK7b_pNLa4cALzUgDhvwPjvVPqBStP9xA_ky5560h4nALqfjqJ1K6MXW74C3bGJruybBVY5gf_9PjrdoO-5oi1A6jEVB3zQIpeunsMDEuN6XOFtrGvrm3Ob7VEHWUnKvE0Y4ywbMEwqqWbp8aUGJQKYJpAed8fo9aMDEx0QZnIPOGJca8anc8vsvPxc-EGPV41xkiTsQo_JDr55s3BZv3PzdxvkrINVEENwitrThvAJyxC4dK6p7UMl2a1lEQpdU4keM7kOyiXPBc3dbcxJ_jYv-_MxcXjt_mLLM6YQPvL7ucS8NU4nUA=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Evolent Clinical Guideline 1761 for Hip Arthroplasty\" OR \"Guideline Number: Evolent_CG_1761\" OR \"Guideline Number: NIA_CG_313\" OR \"Evolent_CG_1761\" OR \"NIA_CG_313\" AND \"imaging\" OR \"X-ray\" OR \"radiograph\" OR \"criteria\" OR \"indications\"",
+        "results": [
+         {
+          "title": "National Imaging Associates, Inc.* 2024 Evolent Clinical Guidelines",
+          "url": "https://www1.radmd.com/sites/default/files/2023-12/2024%20Musculoskeletal%20Surgery%20Guidelines_FINAL_HMSA_Joints.pdf",
+          "snippet": "<strong>Rate of Postoperative Infection Following Total Hip Arthroplasty</strong>. J Arthroplasty."
+         },
+         {
+          "title": "Clinical guidelines",
+          "url": "https://www.amerihealthcaritasoh.com/content/dam/amerihealth-caritas/acoh/pdf/provider/resources/radiology/policies-20250326/Lower_Extremity_MRI.pdf.coredownload.inline.pdf",
+          "snippet": "MRI (NIA_CG_037) is the preferred study."
+         },
+         {
+          "title": "Page 1 of 15 Evolent Clinical Guideline 1763 for Knee Arthroplasty",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/1882_LHCC_Knee_Arthroplasty.pdf",
+          "snippet": "imaging results and the reason that alternative imaging cannot be performed must be ... See legislative language for specific mandates in the State of Washington. ... Evolent Clinical Guidelines do not constitute medical advice."
+         },
+         {
+          "title": "Page 1 of 18 Evolent Clinical Guideline 057-4 for Lower Extremity MRI",
+          "url": "https://www.ldh.la.gov/assets/Medicaid/MCPP/11_21_24/848_ACLA_Evolent_Clinical_Guideline_057_4_for_Lower_Extremity_MRI_2025_redlines.pdf",
+          "snippet": "Evolent Clinical Guideline 037 for Pelvis MRI is the preferred study. \u25cf Labral tear is suspected and fulfills above criteria, then bilateral hip MRIs are the ... When needed for clarification of vascular invasion from tumor after prior imaging. ... Disclaimer: National Imaging Associates, Inc. (NIA) authorization"
+         },
+         {
+          "title": "ACR Appropriateness Criteria\u00ae Imaging After Total Hip Arthroplasty - Journal of the American College of Radiology",
+          "url": "https://www.jacr.org/article/S1546-1440(23)00615-4/fulltext",
+          "snippet": "This article reviews evidence for performing various imaging studies in patients with total hip prostheses. Routine follow-up is generally performed with radiography. Radiographs are also usually the initial imaging modality for patients with symptoms related to the prosthesis."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_148263",
+      "args": {
+       "query": "\"Evolent Clinical Guideline 1761 for Hip Arthroplasty\" OR \"Guideline Number: Evolent_CG_1761\" filetype:pdf"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsEKCr4KAWkUfRPm6aMWwp4Ex9Oy_aR_tAhnHUnJeR2-_Gilr1fYV_aEOahe2fCtzmjzDMESe91uGAawvTq3ePlM2y9Kt4V7QkiXlQKQ9bgO7l-xeyazOey1yLNv8Q10QU560KoFST8gl8LCrG5OVapCZscqunt-EpbWWNlK-n7gW0DSG1ehgr_5OQCmPDHg0UaC3sxvq9oM7-BEBpPCuybXrCtvDN700NvjNirAJC7yQfNJniAgQsVBxaPI-zcsvkcEC1LKO21u9zVp0PlZbJZPKk2M9KflkZ04ffZdMtLJrHjH9DYJQVg4VUX1Tb2s1lJQzYZqRbXp5drO-5K-6yOO8pvTKOa-sZyZmLBrUgO7DGdR_lmQ6apFG5i5X6iS-2LS50m4NFTqmtjjzx4aC1xVmdDsRm1HGEwJKV5dIrEkXaazS7d5RaHSmVcrarKawfrnxOTHqQFjgv0vy2A4Rpwu-yaIv8Es9Hkw76Lp-BWH0F8DPt5A8XunjTMeHHM-d82uhxGnJhBBtX2SF3vHyUtEKB4CM8FMDR2JLschUcrWmogt5OuyS7LoH1QyF9zDCuXKBEcZCP9jPoU6VYHwAi3AKVuf9I7v4KWgowmvbV34jQ_rryN6ddDLEkTm4MM46Cqjs-cR7H9ZmcFscJtHIp6RueMSYr-l0t0_ohhVv4VBn9oRNyO0I6zf1TPRRrjDyhSs2-y7ZFbZyk9Vc-NWumoAkMELnAUZ6o2MEw1zSI1G-7q0NLa163dlV9YS7rQgBrVAiv_t97zfoyAmsD-sQlZ_1KdlJYWV4fzZaPXxjo1Yb0mVzCo0vn9ILki5Oln1X0Qo5wtOkbSkkJBwhMBdgly0e5wY3HLegGLsF_Nm0MRp_nz9VPXsi_Fz4023C2BWpRqGb7YnSmIHswbbKXGzxjaTr4UpZsQ2ldQDf3gnRz7hy3cquoHe4GvhhHr5FphKOw-LotX9vapBoWFXrlpH3mCi_hpP_ebp4rsyWYgW6lB-V2KtUtyOB4rhndPU2X_15VAlWQCf0XABGGqSNEFY6365e7d6hK0HPNxpOVMOHsAkDvjDu_2u33YrmTarFRKd4wVtxffmb_fXT2CEp1vlS2SvhsiP_u_TA2LrdmWtkwVR86jRFn_xbaRGyT-LXScQekC8qnCrkKQr4qf-tUgPT9okIWGvqzMqcUhufYzE3rAfpeoog0rdauwaGb-v2cDEd4yrBqAUoKyDaZTlZTWvMayH9IfdwcQeYJn9n8BareVBrfP4cahfgkXwgJjzh0mdI7tlR7EL7gEZuqQyM4z8gBnIYODESKx22U1gw1tlERRfN6NzGoM7qQYY8TI50B3Kthypf2YT5nIL1noinNPp0C5FN-cV3wrhS1EwOOxbFQ9Jy8MvLwv7DIlbmvs9BGts9JWGI8oXE1SjBWBrCq_UwkouF4u1PE9CooZsg1JqsC0kG6uWdVXJnDMgUQruIV7LTFl6IGdoVYNX2YwNyjnUEpSWwn2f7nyIsmTPlL4KJbyGCNQo6wVpi9qxX2lDILvv4dDWCMnchIk4kzx1gV9oXzrlBi1ZofdQFhoIsjJudUtZS_Ash-bB8-DZfgOGB5lipFzGcwtqtcshQXWhTDnp3C-MwVmeTxpxrwxfoJJ-DvC-_inOVTB4L_pOlECe-144iQCY2MwtShz1kBs9XMHaazcN7DaeiYNkGGqVERBGI_F1katjPaR0v8QIomhiEtxy1qs_RGlOgIwRoT1Zzfz7QFyqzaMwIrVz-DB1Xfvm4oXhjKFEJyrB7_Cac3LXtnoG-1kU-w=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Evolent Clinical Guideline 1761 for Hip Arthroplasty\" OR \"Guideline Number: Evolent_CG_1761\" filetype:pdf",
+        "results": [
+         {
+          "title": "Evolent Clinical Guideline 1761 for Hip Arthroplasty",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/1880_LHCC_Hip_Arthroplasty.pdf",
+          "snippet": "The Louisiana Department of Health protects and promotes health and ensures access to medical, preventive and rehabilitative services for all citizens of the State of Louisiana."
+         },
+         {
+          "title": "2025 Evolent Clinical Guidelines for Medical Necessity Review",
+          "url": "https://cms.radmd.com/sites/default/files/2025-01/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+          "snippet": "Evolent Clinical Guideline 1761 for Hip Arthroplasty \u00b7 Guideline Number: Evolent_CG_1761 \u00b7 Applicable Codes \u00b7 &quot;Evolent&quot; refers to Evolent Health LLC and Evolent Specialty Services, Inc. \u00a9 2015 - 2025 Evolent. All rights Reserved. Original Date: November 2015 \u00b7"
+         },
+         {
+          "title": "2025 Evolent Clinical Guidelines for Medical Necessity Review - HMSA",
+          "url": "https://www1.radmd.com/sites/default/files/2025-07/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines%20-%20HMSA%20FINAL%20eff%20070125.pdf",
+          "snippet": "Evolent Clinical Guideline 1761 for Hip Arthroplasty \u00b7 Guideline Number: Evolent_CG_1761 \u00b7 Applicable Codes \u00b7 &quot;Evolent&quot; refers to Evolent Health LLC and Evolent Specialty Services, Inc. \u00a9 2015 - 2025 Evolent. All rights Reserved. Original Date: November 2015 \u00b7"
+         },
+         {
+          "title": "2025 Evolent Clinical Guidelines for Medical Necessity Review",
+          "url": "https://www1.radmd.com/sites/default/files/2025-01/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+          "snippet": "Evolent Clinical Guideline 1761 for Hip Arthroplasty \u00b7 Guideline Number: Evolent_CG_1761 \u00b7 Applicable Codes \u00b7 &quot;Evolent&quot; refers to Evolent Health LLC and Evolent Specialty Services, Inc. \u00a9 2015 - 2025 Evolent. All rights Reserved. Original Date: November 2015 \u00b7"
+         }
+        ],
+        "result_count": 4,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_113610",
+      "args": {
+       "url": "https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/1880_LHCC_Hip_Arthroplasty.pdf"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EpUECpIEAWkUfRN6apSGZ0iT-ChJXPaqVY-X9IqtyAG2jTNU3M8PJqqeNw6eo8ID7mihInS27ljI3GwwWNhvTUQb_P7Rk5dKWy_-EEA5wqgj3Xh_EZsalfGYpBskgo7cztMQARZbCnC5gmuLQCJvKlQQytf_ApRumbxmKLZiR1r2tNi3fkrzKdS6oTlh_TEtL0e66_l3x1TKJJ31K3Jk9zQ6GzqmPbE9dX49ayFvF7dErjSCQWH5-EAemRIhf2wzFH2UjUNpYGxHapKMFaiFFJ0fQUJyE5KCj-FYknMtWvM9399dXjXMo2XwgocbPwHI3v5w5h94iHXEcopuFUCdjJxhVSLKDu3ItrpER_lRmOf4KZJLjH0ouJkp9iotLktU6MoHFM3ZBiwcLEFRYyjRiktuwbdvYAFkTBhvirQwsKFhckYaSm_qoAs62PXFw8ZdwwdVEl13cNaBg3aPLJejPQCiY3gWuk6d1-wMsGISgp9apEJhACcu1sxYAIXRov6ZXzDPZzOHr31SFM0WjwQax33IngJpzeboueP6saQYWjK9e8V5wguJP0OjUIB2MDs9_Uuz7VfaspFmRbQ7uQxNzo2hitaZixrfIOdf83cyNngEERkTmyWH3pYC4A851lFZoiygOGqAdyyxAcl2QbqgvOhXR8gT0nrClFT8MksMpJl_ciQUxqchV2Ubk5m_-q9VmMME_j48qpc="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/1880_LHCC_Hip_Arthroplasty.pdf",
+        "final_url": "https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/1880_LHCC_Hip_Arthroplasty.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": " Page 1 of 12 Evolent Clinical Guideline 1761 for Hip Arthroplasty Evolent Clinical Guideline 1761 for Hip Arthroplasty Guideline Number: Evolent_CG_1761 Applicable Codes \"Evolent\" refers to Evolent Health LLC and Evolent Specialty Services, Inc. \u00a9 2015 - 20242025 Evolent. All rights Reserved. Original Date: November 2015 Last Revised Date: December 2023November 2024 Implementation Date: July 20242025 TABLE OF CONTENTS STATEMENT ................................ ................................ ................................ ................................ .... 2 GENERAL INFORMATION................................ ................................ ................................ .................... 2 PURPOSE ................................ ................................ ................................ ................................ ........ 2 SCOPE ................................ ................................ ................................ ................................ ............ 2 SPECIAL NOTE ................................ ................................ ................................ ................................ . 2 GENERAL REQUIREMENTS ................................ ................................ ................................ ............ 2 INDICATIONS ................................ ................................ ................................ ................................ ... 3 TOTAL HIP ARTHROPLASTY (THA) ................................ ................................ ................................ ..... 3 Simultaneous Bilateral THA ................................ ................................ ................................ ....... 4 Absolute Contraindications ................................ ................................ ................................ ........ 4 Relative Contraindications ................................ ................................ ................................ ......... 4 HIP RESURFACING ARTHROPLASTY................................ ................................ ................................ .... 5 Absolute Contraindications ................................ ................................ ................................ ........ 5 REVISION/CONVERSION ARTHROPLASTY ................................ ................................ ............................ 6 LEGISLATIVE LANGUAGE ................................ ................................ ................................ .............. 7 WASHINGTON ................................ ................................ ................................ ................................ .. 7 20131114B \u2013 Hip Resurfacing (Re-review)................................ ................................ ................. 7 CODING AND STANDARDS ................................ ................................ ................................ ............ 7 CODING ................................ ................................ ................................ ................................ .......... 7 CPT Codes ................................ ................................ ................................ ................................ 7 APPLICABLE LINES OF BUSINESS ................................ ................................ ................................ ....... 7 BACKGROUND ................................ ................................ ................................ ................................ 7 GRADING APPENDIX ................................ ................................ ................................ ......................... 8 T\u00f6nnis Classification of Osteoarthritis by Radiographic Changes................................ ................ 8 POLICY HISTORY ................................ ................................ ................................ ............................ 8 LEGAL AND COMPLIANCE ................................ ................................ ................................ ............. 9 GUIDELINE APPROVAL ................................ ................................ ................................ ...................... 9 Committee ................................ ................................ ................................ ................................ . 9 DISCLAIMER ................................ ................................ ................................ ................................ .... 9 REFERENCES ................................ ................................ ................................ ................................ 11 Page 2 of 12 Evolent Clinical Guideline 1761 for Hip Arthroplasty STATEMENT General Information It is an expectation that all patients receive care/services from a licensed clinician. All appropriate supporting documentation, including recent pertinent office visit notes, laboratory data, and results of any special testing must be provided. If applicable: All prior relevant imaging results and the reason that alternative imaging cannot be performed must be included in the documentation submitted. Purpose This guideline addresses elective, non-emergent hip arthroplasty (hip replacement) procedures, including total hip arthroplasty, resurfacing arthroplasty, and revision/conversion arthroplasty procedures. Scope Arthritis is the most common cause of chronic hip pain and disability. Degenerative, age- related osteoarthritis causes cartilage to wear away and eventually the bones within the joint rub against each other causing pain and stiffness. Special Note See legislative language for specific mandates for the State of Washington GENERAL REQUIREMENTS \u25cf Elective hip arthroplasty may be considered if the following general criteria are met: \u25cb Hip pain with documented loss of function, which may include painful weight bearing, painful or inadequate range of motion to accomplish age-appropriate activities of daily living (ADLs) and/or employment, and mechanical catching, locking \u25cb Individual is medically stable and optimized for surgery, and any treatable comorbidities are adequately medically managed such as diabetes, nicotine addiction, or an excessively high BMI. There should also be a shared decision between the patient and physician to proceed with a total joint replacement when comorbidities exist as it pertains to the increased risk of complications (1) \u25cb Individual does not have an active local or systemic infection \u25cb Individual does not have active, untreated drug dependency (including but not limited to narcotics, opioids, muscle relaxants) unless engaged in treatment program \u25cb Individual has good oral hygiene and does not have major dental work scheduled or anticipated (ideally, within one year of joint replacement), due to increased post-surgical infection risk \u25cf Clinical notes should address: \u25cb Symptom onset, duration, and severity Page 3 of 12 Evolent Clinical Guideline 1761 for Hip Arthroplasty \u25cb Loss of function and/or limitations \u25cb Type and duration of non-operative management modalities \u25cb Discussion with patient regarding decision making and timing \u25cf Non-operative management must include at least TWO or more of the following unless otherwise specified in clinical indications below (2): \u25cb Rest or activity modifications/limitations \u25cb Weight reduction for individual with elevated BMI \u25cb Protected weight-bearing with cane, walker, or crutches \u25cb Physical therapy modalities \u25cb Physician-supervised exercise program (including home exercise program) \u25cb Pharmacologic treatment: oral/topical NSAIDS, acetaminophen, or analgesics \u25cb Intra-articular injection(s) INDICATIONS Total Hip Arthroplasty (THA) There is no medical necessity to perform THA in individuals with severe radiological disease and no symptoms, except in the case of malignancy. THA may be considered medically necessary as indicated in either sections 1 or 2 (1,3,4): \u25cf Section One \u25cb There is persistent pain and documented loss of function with radiographic evidence of advanced disease from any of the following: \u25a0 Rheumatoid arthritis \u25a0 Femoral neck fracture \u25a0 Malignancy \u25a0 Dysplasia \u25a0 Avascular necrosis confirmed by imaging (radiographs, MRI, or other advanced imaging) \u25a0 Radiographs demonstrate bone-on-bone articulation \u25cf Section Two \u25cb There is persistent pain and documented loss of function for at least 12 weeks and includes all the following: \u25a0 Physical exam demonstrates findings of hip pathology as evidence by one or more of the following (PE is not required if bone-on-bone narrowing is present on X-ray): \u25a1 Painful, limited range of motion or antalgic gait \u25a1 Contracture \u25a1 Crepitus Page 4 of 12 Evolent Clinical Guideline 1761 for Hip Arthroplasty \u25a1 Leg length difference \u25cb Radiographic findings show evidence of advanced arthritic changes, described as T\u00f6nnis grade 2 or 3 [see Grading Appendix] or described as X-rays showing advanced changes (e.g., severe narrowing, bone-on-bone compartment collapse, subchondral sclerosis or cysts, osteophyte formation and/or bony deformity etc.) X-rays described only as showing 'severe', 'advanced' or 'end-stage' arthritis require more definitive descriptions as stated above (weightbearing X-rays are not required) NOTE: MRI should not be the primary radiographic test used to determine the presence or severity of arthritic changes in the joint. \u25cb Failure of at least 12 weeks of non-operative treatment, including at least two of the following \u25a0 Rest or inactivity modifications/limitations \u25a0 Weight reduction for individual with elevated BMI \u25a0 Protected weight-bearing with cane, walker, or crutches \u25a0 Physical therapy modalities \u25a0 Physician supervised exercise program (including home exercise program) \u25a0 Pharmacological treatment: oral/topical NSAIDs, acetaminophen, or analgesics \u25a0 Intra-articular corticosteroid injection \u25cb No corticosteroid injection into the joint within 12 weeks of surgery (1,5,6,7) Simultaneous Bilateral THA \u25cf ALL Requests for simultaneous bilateral total hip replacements should clearly indicate why simultaneous THA is preferable to staged procedures. Associated risks with simultaneous bilateral total hip replacements should also be discussed with the individual and documented in the medical record (8,9) Absolute Contraindications \u25cf Active infection (local or remote). If a local or remote infection is documented in the patient\u2019s history, records should clearly demonstrate that the previous infection had been treated and symptoms have resolved or that the individual has no clinical signs or symptoms of the previous infection at the time of the operation (3) \u25cf Any corticosteroid injection into the joint within 12 weeks of surgery (1,5,6,7) Relative Contraindications (3,4) \u25cf Prior infection at site (unless aspiration with cultures and serology [CBC with differential, ESR, CRP] demonstrates no infection). If prior infection at site, tissue biopsies should be sent intra-operatively to exclude latent/dormant infection \u25cf Documented allergy to any proposed component \u25cf BMI > 40kg/m2; without discussion of increased risk conferred by BMI \u25cf Compromised soft tissue envelope Page 5 of 12 Evolent Clinical Guideline 1761 for Hip Arthroplasty \u25cf Uncontrolled comorbidities (10) Hip Resurfacing Arthroplasty Hip resurfacing procedures will be reviewed on a case-by-case basis. Hip resurfacing arthroplasty may be considered medically necessary when ALL of the following criteria are met (11,12): \u25cf Pain and documented loss of function are present for at least 12 weeks \u25cf 12 weeks of non-operative treatment have failed to improve symptoms \u25cf Physical exam has typical findings of hip pathology as evidenced by one or more of the following: \u25cb Painful, limited range of motion or antalgic gait \u25cb Contracture \u25cb Crepitus o Leg length difference \u25cf Imaging demonstrates advanced hip joint pathology of at least T\u00f6nnis grade 2 or 3, or avascular necrosis involving less than 50% of the femoral head [see Grading Appendix] \u25cf Male patient is less th",
+        "text_truncated": true
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_99759",
+      "args": {
+       "query": "site:radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf \"1761\" OR \"Hip Arthroplasty\" OR \"27130\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsUKCsIKAWkUfRPcXcc0-7qArS3mHoD8ZY21Tk6TLT955m5zduRpZFhm1w0eARWxxwHkDf0cco74ZTMccIqvYbL2VKUGfaj_PML7qEDTyEWQy57375AR52Pn6Ldh8AjUHr0jSaLE_V7Rby8LcE_38zsVeMuJiWeqaCATCZR_T-YmarNMQ69tWb6yliW4hO5qtsWqkpZSRfoyqjJIEzogrBIKyBHRLyOt5tmEu2xDP0i7J5JNg1dydnffT3ocwbMkpOy4du-3MOP_Ha7TRCXsK1NeReG9KGaRgPOKPM7XpmXeLcAtkd506eUEEh_LFxI1232tnElgkT6OJxQ_K8jwjy9v5V7lb82gI-fG-HOl8Uo_xkLn_vsypiWryVIbyyMvv58av_6e5fBY5Czl-rXgrWjOeQrBLIvGe5eDTvc_qk6LCKH9187H0dMFgAZngnGugfdwjNQdDZ5hudXlLgO6eYh3vKFFMOjqj4un47nLY83CFzGgbmwgZMlxfpFXtP4Of-txbsLvWE7Mc7RK-96KkIWruTrUj3f8C5iTFf4VSnTjOjeB1e7yMvdU39nHgqxKXnjt9PUVAX9kML3e29pgHk-LKaVcPaSGw4BnfwJYqccTQOMtkUK_p2GUjEa0DiC28NziOsClgQmFyiF9MRGRMHSfEgDpcXvCgfw6BzobqycoL4rx26R0XxhtbN3CoSxeQHe8b3zDSq9NQrxMkNrW25izq4ktIGhLEM6v2vpVSE9ETYoxLyMf5Oq6b21X87ndp2xEmOTp6FH1ZURtpQ4Geo0FeqBZU-2tq5ez21m92dEHkO6R_UNYjdfYuvJCQYSv7UM7alKAmyYHmhUnaKCnC9OZX-KT7OPYaL9s_IKdOI8zvhdqglXeDGhx96Oi_8x0F1lo4lo8VZDaw4ttqG2dP-bAeKT2V-rAx5X0WFMkJhdCxvEL-Fi_i71gH6tpNyzip4-dC7yjLJLACeFN5pYEbgjXfT15kuCtwKIKFMm-QIt_1_NYLaPxvSOdyOmtCvuIRtE6Cz7oKh1qs6_nQPGiJ-Vdf0-jRjFpw0tyUF4-dnfEPbLl4MN-KY8rsi7GquPUT7GQWN5mqh3eMVxHuKKS-ZJI8RE7jt4RuEmfiVexHflWQ5BI78aNgVl34hJlJ4ilb_JfPtgZN-P1EJkMsy6mBdBRtl4MS-BMYGNbDo99SnusLX0cb9KSpYhxRunAYOEK9e8TlSsPITJo9ZAe0DFPNepxom0TT_pPBGRJOl9_6g_0GSR7MpE-EGgSi6BRSYUF451wIrdgXpVnMs1B02e5VWvFHyARKMJA9SlhmesuEoj_GfgjAN__wL3QFEO4U7zzd94HK8B7BqOuQPAc-R2XUvil-T5aEe42cKHRAgIE2F6lgkXWGHHAUhiNLlxiT9rajLJSGPQ9XyJ3nmhsCm5ASoYzJCbtnGDQf4CT44gGVpbIYCj6xw2wmUoBTPxzhvDxV1EEyBAA5s122LsGU85E_EtGX5exZFDoL6BR0nGw1qIZdqjfHFY9U_nxXgmkE_YAVwwL8jkWIDjKOhXnJQNTwEYFfofLx9YAme1t77ZxdD1bCiWBg4ZO43ORFjWzPk1KgOt8GWNI2gXIAXlZyqFNL43EKZNYBMk841CC2WtQveF4s-RyhRTbeE1SO00NkA-u58sVhNr32IFATtCNpnKfjqQi-lDhTxShK1YngWhHUBMyRh20bPu-Jmlyt1EaLkUtANUUO30oUtAzzMVbLhy15HnRf933nW0DsvrrEzi5TTW-tNlkRjOLnzt15APrYuyGcRm5moNfSrw="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf \"1761\" OR \"Hip Arthroplasty\" OR \"27130\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_115878",
+      "args": {
+       "query": "\"2026 Evolent\" AND \"Hip Arthroplasty\" OR \"1761\" OR \"Evolent_CG_1761\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtACCs0CAWkUfROyNoFNXlRvcpMJb1OOlXnCk4QJE6FBRFi7eeraJP2alvCKNOMQ5cA2Shns9do7MBTNmxtYyQZdJhIiub9qKk-CC-gLsicEvyuQOsUjguAvt05UWaYTNhYN1SZ5wlBH8ZpBm2AVIyPxgdasN9W59pkjOVU-vgZEkZsQ2C0WvFXOyOAtIcjjBalzXUPr4fS_49ER7ketsNGvL0--hU2GHpK-eYK0CLZk7CTiPJxY8HvEhu6St4e8vruwi5ZT99JEjPIdpQR6VvCfOpX584f7eXie0x31GI-y5CcNhS8FHiq1q26a4p0-qnRLsrtWYbdZFAq3PYwqMc40_LfWtRjpsv0OWnEDm4bAUNP9YojoujjFE0rmXp_KUnMQdrSF1OqC4pFSdMpiGn2jVdsyM2gwDrXpWJFJdyJOrEVidZw7VDo88W4v1O9rMRTS"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"2026 Evolent\" AND \"Hip Arthroplasty\" OR \"1761\" OR \"Evolent_CG_1761\"",
+        "results": [
+         {
+          "title": "2025 Evolent Clinical Guidelines for Medical Necessity Review",
+          "url": "https://cms.radmd.com/sites/default/files/2025-01/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+          "snippet": "Evolent Clinical Guideline 1761 for Hip Arthroplasty \u00b7 Guideline Number: Evolent_CG_1761 \u00b7 Applicable Codes \u00b7 &quot;Evolent&quot; refers to Evolent Health LLC and Evolent Specialty Services, Inc. \u00a9 2015 - 2025 Evolent. All rights Reserved. Original Date: November 2015 \u00b7"
+         },
+         {
+          "title": "2025 Evolent Clinical Guidelines for Medical Necessity Review - HMSA",
+          "url": "https://www1.radmd.com/sites/default/files/2025-07/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines%20-%20HMSA%20FINAL%20eff%20070125.pdf",
+          "snippet": "Evolent Clinical Guideline 1761 for Hip Arthroplasty \u00b7 Guideline Number: Evolent_CG_1761 \u00b7 Applicable Codes \u00b7 &quot;Evolent&quot; refers to Evolent Health LLC and Evolent Specialty Services, Inc. \u00a9 2015 - 2025 Evolent. All rights Reserved. Original Date: November 2015 \u00b7"
+         },
+         {
+          "title": "2025 Evolent Clinical Guidelines for Medical Necessity Review",
+          "url": "https://www1.radmd.com/sites/default/files/2025-12/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines%20v2.pdf",
+          "snippet": "Evolent Clinical Guideline 1761 for Hip Arthroplasty \u00b7 Guideline Number: Evolent_CG_1761 \u00b7 Applicable Codes \u00b7 &quot;Evolent&quot; refers to Evolent Health LLC and Evolent Specialty Services, Inc. \u00a9 2015 - 2025 Evolent. All rights Reserved. Original Date: November 2015 \u00b7"
+         }
+        ],
+        "result_count": 3,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_91278",
+      "args": {
+       "query": "\"Harvard Pilgrim\" \"appeal\" address OR \"fax\" Connecticut OR \"Commercial\" OR \"member\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EoYXCoMXAWkUfRPh-EBY-8lqDGXX28MEfisP0gUjh5mPzWlzGW5eM2pf9NT47ZZu5gRSRIFjBa843rGEonD-THY6uEjx3Iuaq4FuGK2gHlfJovkdCdXl4xWDx-36VOLvFudBAIxF2WN4E5xkRKMCwjd1FrBFfHOSHZabiAGaNODbr3hvRqVJTwz9U1sDPKmBMrcQSmwawN5AmZOtFrG3Lbkhg794a5eQ6D12UXnmxhzAbi_3skIcfMzchC5LU_znZ0l8hLX_O8xY0_aZpFVqpocrz8NuXCMuGrsSe2cIdw56F7c6ruaTzIJGKr2nRo-Fe-yIIw9yQXaGGCB3sVA24VHIu7qj8Yx4tdK9Ff9zPn8hdv1gRSwejZSnK9jGfpttbLNx416ADECnLrpVy0otF6F4RZOMYZPy6SoNd6CuT3f-t0-9y3u38TzPHfOGmet5GdjcfJXWWT1a0yOxM2a2hCiUlWr-bUTlphlT2KqDn47YyOt43AcgvjoKwCDQK1hGrrlo8J0Nd6yHrIK9hADzmOfPJ-80cDXn2iVTJaqgZARQQqNZhmO46kI7cxzRn24MLEh-IEYVtUA-ak-9yszZSLpgAxETllx2v4Os79y2vO1o1G2UGkHPux-r_0BXK8NS4yU8Grrflkyy6ttY9MorJiFZmB2ucEDALj6EYKw8sOWTdH98Vns3kYSDM9em6lBPnl6H_nCNNHdaysEXE8t2kJJ5n3wMK0veJGufPYtqqDSSzOxKkwcb4P5S55wrSPgyqTC3PxFh8Rh2Ftfb_fMh7VJ0lQCFWWgVuJ6Xgk79QyFm_5l0JzxKO3eGzzUARlwoZHeZrEPJP4J2R__7K22vPKKlcJx-hSgK5hfhEfA73xpfzeJiLlGMtSee45CVQF_LDDTSHtVFBoFfLw6oQDuvwNNNlHf3zyzEHrqH6qVRmg0vEBWRUJLuq2tneZ47U2G4Ej4WBs0x1EGOYgtX4EZzpC6Pf0wwLMYzV2QElFG_bLiVRH0ENgRWnnTNe5HMJGdotgTg1ehzINdC7pkdhRz1Nt0HmTNHSTYV8c7aNlXzODF-QzgUOfPhjA2-3VLLzcgIo9_dKORTKxCRfYdmEaCtunUG4Eop8J0QHR--jK63KrPrihGJlfJFMzg-hwW7_i01LW6DDXbaVDdCGmxvC3lVaAKFpZkkfr1t-Pd5cnu1Wp-kQ2RPAtcXZH_nwxYgo5_3FyuwI78c8teD7V1_FNn0hkB6rdNRZX6rxnPOTIRagKKRpTvYrKLOU-rh8o1deaLpPAckApQuZjHGQ-K2-sIYi5G-nshZh1JihvApPOq6vs5_25152TAv1hAiUZvOmp-IpwjfZEKFR9s9HVyC6oJCT5McTpztAx6KV1a2008tSJS_6_Mp8xc4098xIMtUCgj_cl-DtaFmMVDM6wntMvr8s4V7BCvlazuxwJpxLQadUue5pB0oad_om5PxD7BdIgzW_FuuqrAQBGRVMY0dZiKKdfGfRCXeca2H1qimbhA-4iEeZFLE5ZUPB1hwmGiAjVVV1ypZ3AycXMCcbRi_ONi48d1_VAimbInxe1ubGg1RNRMEvwB-FVZ5eu15Bm5vW0nxeVBit3CsAwEijg42Jy5eitebc43ElMlS8BOb61KDa1BiqOLgcZB-rA0obNctqBrs-MzZQHvp0JLJXzgkKHaQfCMPLVMvouQ3xblezxvJrUqdwyXSakV73Ep-WTmecJOV5WVfIBQP7ffpyoLeOC953lS_-EEqXKCg5aUue7EREf-I9OydELqf2vnRGo1HQ97zqURVd3d_6q3ZR6769UEbAuHFox_X0DlyE1Tr1-cSN1Pyj1YYTtQzhu4lAn6MNKt5zBRe17dl3J5CclcZvcQUSd7oGw2fY09rBg724kt7Qzktik-Z3KNmAHk4mg3PvRaczDfin7X34YRDJwXFdlNpEHFkeiq2o9V96WKhZaxDV1FySI3rn71zFUuWzv-fx8NtnzePDzBDYLSwrj3quhFlg-MA6N5o-tkOmJ6mVIVd8U91K5tknDCJZdwluN0PRyN_Nls92We-T9d-rdPtu8DrvHzoSMzRMYZ73ipRoNkCh79K-EeBcdci2KUxpVpbZbO0Oh33Gky37k7BmF1Y9I6HkeGw7ConAh5aYbT7nd01DsRLJHjjQqojYRNPViSY9AvTGM9twa01LDCOxAZO8MptyYiiV0eAu_RUZV38ffJD1mastQO_dW4sQpy9gnZhfo46kPKWjQJ8BFLxbq6RGjtkQovRxrRrMcWo5SGcsjR5yvR_4iE--2CkSbNHVYUWtRm67Jn3ahmD1wlyLPscDbZq6bFBnHwiFw_u0JHz5eGfZ4JVe03UFgMDOfq3_PMrR_AY8ox2lB98DtS3WCMWEC3MC5o5ubV7v3ECPnf0B8W2oV3Opo-6zJzcOHqRIFV7ywxXEBIJdiaG_tpAsxMUefQ5ymfnFgcgZsj6eA6oep2MluvTksx_WGWkjBkv1OOCnqvLhjTbkHvIXDm9vGcKX5-2j-NQkXgt_0p-nt5uE6p8K9dj5efPPm8SPRQU8N0MFBJ_2R4pVBPqmcw6I6S64kMCRtWCiPNBmfFxwrrof-Q4lBG1hBV3zbWyNeCJCR4qWZ8TRsFryY7vnzRySozfh-cDqXFLFzkF2PUdqxsZcVEPEvfsOK9MLNgoS21Aw5CJlzwDSFePUHky_8XWjJ7IeUtbzhNK0GOExjoBNevOHey1L1DpzxNf8MWFtsGZr7IOXZQ9d8fg-M2d94FZ7Rro_qITzhww0YJj-9ESA-IgYm9nZ1_aqnFPstbosm5TcWTN7csHKfYnypitlSxAGjRBNNCPQaMFcq2z0M6znirIvvRNURRaBxQriS8SQq_P_HW8GR1I_tIq8bvPvuhjt8MrqNKWv3K0VX5LXwQc0Z6xpsJrNZlWwP6l4PwS9d6WBV5g0g-D7cKSvdVGkme7_SAXDuC03rdEkTE_r3IET5fOziOxNXVR4PEg2K6_cSmYk8i6n9vcnk_7tMB4JEFNRHq5QFDabJvBTYVAHLKje19JITNWlfX-DSRBA4gbMXqQTAgO7vfhqcvW5JnRdC1ztpKDl2PtWenUuoNQ5P46C3Z9mUr9HYaeVmUlNVmGPPxyyxDl0Ju1qtNx67-eo6PO8cOgcGj8nh_41erV7LhfkQ4KUPLnyU8GinMWIpOQrsyffIOkARhjPjzVYA6K_KgOS-YOkRTIeDmttba68xtJhTgtZZw4JjcxSDMtHYogGxufgam5E5weyB3hdrXZpyvOYrstoAgRCXLBUqU7frEYnx6y1Xt_Lfuhjo-RzfHqPuJ6AhUImNs9CEqK001hzOhTlX2mQ3nqSOn4lkyLFwNIzbfIFJnalumpiGbXJsg0H7dy5uaFqX7-wPxtVs59Y4eQc4CUX5fjzCuwAfNah7zo34sLhAuG_4kYGMsPGh3AiZ04LNMzCySw1P2INpzrQlyZqMzgUrvrtsD10DkW-n3SXQmkGr-feLbU_36wOoPuVUi1B8EuSDZ4R8bTrUAkivlO-tLZK3bWMAzYOnVnA5t7TtHcrsjrmOe5zloYZXHWEky7lR0rxeyZFJrbmHmUHN58xsTQy-ok3j9EgWQcLy6EKuHv_ufi4gCUJLBwYx087uFVxKVBx3qk7Dj_qZEnYs7VP0cqnZPvIK0u4XTt4SGFc4uQvfvxiFqHQp3QE4FdhUmb6gfwriSyYKdHQB9imvIl7yYL7ZN3QuKjQvT9kaBpLe7R1waL_99jMSxy65lvqvofgRjmQPe0C5oad4Gzp-GT8j9UO6-gf8W3EbDjtGmSFxH4CyjSio9co8o3eMcX4_Yr_2Aiqrt4aumU6P2dT1jU2DzEjeq1hii5BWpt2gfREkkByhXn0KFLTzdmUJrgL8s-zVtseSgv9ZD9A100QlfsKnJwDsGfxsdrllva3s5swg=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Harvard Pilgrim\" \"appeal\" address OR \"fax\" Connecticut OR \"Commercial\" OR \"member\"",
+        "results": [
+         {
+          "title": "Contact us | Harvard Pilgrim Health Care",
+          "url": "https://www.harvardpilgrim.org/public/contact-us",
+          "snippet": "Send a secure email to Member Services."
+         },
+         {
+          "title": "Privacy disclaimer statements | Harvard Pilgrim Health Care",
+          "url": "https://www.harvardpilgrim.org/public/privacy-disclaimer-statements",
+          "snippet": "Open weekdays 8:30 a.m. \u2013 5 p.m. Fax: <strong>(617) 509-3085</strong> \u00b7 To request an appeal by phone, call Harvard Pilgrim\u2019s Member Services department at 888-333-4742."
+         },
+         {
+          "title": "Appeals - Point32Health Provider",
+          "url": "https://www.point32health.org/provider/provider-manuals/harvard-pilgrim-health-care-commercial-provider-manual/appeals-hphc-c-pm/",
+          "snippet": "Back to Harvard Pilgrim Health Care Commercial Provider Manual \u00b7 Provider Appeals Overview \u00b7 Filing Limit Appeals \u00b7 Referral Denial Appeals \u00b7 Duplicate Denial Appeals \u00b7 Notification or Prior Authorization Appeals \u00b7 Contract Rate, Payment Policy, or Clinical Policy Appeals \u00b7 Request for Additional Information Appeals \u00b7 Member Appeals Overview \u00b7"
+         },
+         {
+          "title": "Designated Representative Form",
+          "url": "https://www.harvardpilgrim.org/public/docs/designation-of-representative-form",
+          "snippet": "on Member\u2019s behalf to receive their health information from Harvard Pilgrim and/or make changes related \u00b7 to enrollment, premium payments, benefits, claims, address changes, PCP changes, requests for special \u00b7 communications, and/or assistance with complaints, grievances or appeals."
+         },
+         {
+          "title": "Appeals HARVARD PILGRIM HEALTH CARE-PROVIDER MANUAL G.2 August 2025",
+          "url": "https://www.point32health.org/documents/g-provider-appeals-overview-pm",
+          "snippet": "Mail all provider claim appeals to: Harvard Pilgrim Health Care, P.O."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_86899",
+      "args": {
+       "query": "\"Harvard Pilgrim\" \"Member Appeals\" OR \"Appeals and Grievances\" address OR \"P.O. Box\" OR fax"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsgDCsUDAWkUfRNOp8EHyWBpqAcyzCFHSndIimau9Mee6UKBcqpcjzSwMn215bCgI44OqdUTfBHvw64ykg2DJ0x5LksMt7a-DVAvHBHjQJnuJPH9xlYuBCyGoKQKq660GRt2lyTHWTGuXH2GFzI1z6fCbLTkl79EyD4wuT3khGaNSXqsTQ6LDE44YYT8Fwd6DRwZZ2tAQy9R9XnsuHmXY9znBsT7aJ5Ij8pf-T7ax3an-GBphWago6nr8XAzjehDPYt4_3H8IbWbhLhca6C6x47U8xGsMCSF4oh_W7TI2GEKAV7Ofqk2lrI1pn-LIYcwVvT1cpmQJ-EwmbxU8uNaktdxNOY8-SvomMrUXOTijgArlmzIvNtrbQPLZFH3ihbpMLptproFU8l3lvzyVi69ilkRUeatlhw0UZfd1eABedu_Dp_qxONX7Ko-x98E3q2rKwOVfLzXUtdiTTTdDAHBwrQu1XNZ0uWrNvHS5JiYww0S15L_ayoWTAxbPiQbplxk8JnabrXeaMzrAG8uAeu1_ZUlT3ab5zk6WlWFeaeaAybkCot3_GVWHzcrlyaDIFYiKyzUfs200CYD1XpYd9x5c1iLME8kxLhyfLnO"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Harvard Pilgrim\" \"Member Appeals\" OR \"Appeals and Grievances\" address OR \"P.O. Box\" OR fax",
+        "results": [
+         {
+          "title": "Privacy disclaimer statements | Harvard Pilgrim Health Care",
+          "url": "https://www.harvardpilgrim.org/public/privacy-disclaimer-statements",
+          "snippet": "Open weekdays 8:30 a.m. \u2013 5 p.m. Fax: <strong>(617) 509-3085</strong> \u00b7 To request an appeal by phone, call Harvard Pilgrim\u2019s Member Services department at 888-333-4742. For TTY service, call 711. Representatives are available Mondays, Tuesdays and Thursdays 8 a.m. - 6 p.m.; Wednesdays 10 a.m. - 6 p.m.; ..."
+         },
+         {
+          "title": "Harvard Pilgrim Appeal Form - Fill and Sign Printable Template Online",
+          "url": "https://www.uslegalforms.com/form-library/529164-harvard-pilgrim-appeal-form",
+          "snippet": "Call: (888) 609-0692, TTY 711. Fax: (617) 509-4232. Mail. Harvard Pilgrim Health Care. Medicare Advantage Stride. Appeals &amp; Grievances. <strong>P.O. Box 328.</strong>"
+         },
+         {
+          "title": "Harvard Pilgrim Provider Appeal Form - Fill Out and Sign Printable PDF Template | airSlate SignNow",
+          "url": "https://www.signnow.com/fill-and-sign-pdf-form/328563-harvard-pilgrim-provider-appeal-form",
+          "snippet": "Online Submission: Many providers choose to submit their appeals electronically through the Harvard Pilgrim portal. Mail: Providers can also print the completed form and send it via postal mail to the designated address. Fax: Some providers may opt to fax the appeal form directly to Harvard Pilgrim, ensuring that it is received promptly."
+         },
+         {
+          "title": "Harvard Pilgrim Health Care includes Harvard Pilgrim",
+          "url": "https://www.harvardpilgrim.org/public/docs/member-reimbursement-form-instructions",
+          "snippet": "can file a grievance in person or by mail, fax or email."
+         },
+         {
+          "title": "Transparency information | Harvard Pilgrim Health Care",
+          "url": "https://www.harvardpilgrim.org/public/transparency",
+          "snippet": "Telephone: 1-800-436-7757 Fax: <strong>1-617-624-5046 hpc-opp@mass.gov</strong> Website: http://www.masshpc.gov/OPP \u00b7 In Rhode Island, you can request external review by an Independent Review Organization designated by the Rhode Island Office of the Health Insurance Commissioner (OHIC)."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_102295",
+      "args": {
+       "query": "\"Harvard Pilgrim\" \"Appeals\" OR \"Appeals and Grievances\" PO Box OR \"P.O. Box\" OR \"Canton\" OR \"Quincy\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Es4CCssCAWkUfRM933QOgTd6In7v-T3EMcE8DpOHLLH3IKiRGaEE4413sgrH8feGppogaKHHLm5-mHwqq7pM6HDGXFspzIgG2C6tmi5JJtIJ0PDUP1gxEXv5i35Fe2cC5mdzZQ5eXyhopUQ-14Nqm9l_nZU0A35c5DcUW3UJL84CXIQIrXcOXzCYIrBThn93JBsqC4zKkh5vXhgUTgGQho1esQo9-o89jZ1iXTdZrqBHBFjsETOtd5CkF9OSMj4YrE-s0JCLhT-TLAJ-eb80sb1vHAi71CQly9yhVEeoGf_xamWtu-vfW-a2eU-KFjyWy3NGWFp9ZoMFtyK9dzYPngglILcNmCyb1YGhOEyd3JKfcpNFtGfdP73dNqCZix88_9bOGZHlm6EW6D84Am0sxiLLUXDl9WJARlXym9fTyrsSRJwAAjOBhFZTIl5CNQBVRw=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Harvard Pilgrim\" \"Appeals\" OR \"Appeals and Grievances\" PO Box OR \"P.O. Box\" OR \"Canton\" OR \"Quincy\"",
+        "results": [
+         {
+          "title": "Appeals HARVARD PILGRIM HEALTH CARE-PROVIDER MANUAL G.2 August 2025",
+          "url": "https://www.point32health.org/documents/g-provider-appeals-overview-pm",
+          "snippet": "Mail all provider claim appeals to: Harvard Pilgrim Health Care, <strong>P.O. Box 699183</strong>, Quincy, MA 02269-9183"
+         },
+         {
+          "title": "2024 Medicare Part D appeals and grievances | Harvard Pilgrim Health Care",
+          "url": "https://www.harvardpilgrim.org/enroll/2024-medicare-advantage-stride/2024-medicare-part-d-coverage-decisions-appeals",
+          "snippet": "Mailing address: Harvard Pilgrim Health Care Appeals &amp; Grievances <strong>P.O. Box 328 Canton, MA 02021</strong>"
+         },
+         {
+          "title": "2024 Medicare Stride appeals & grievances | Harvard Pilgrim Health Care",
+          "url": "https://www.harvardpilgrim.org/enroll/2024-medicare-advantage-stride/2024-coverage-decisions-appeals-grievances",
+          "snippet": "Mail Harvard Pilgrim Health Care Attention: Medicare Advantage Appeals &amp; Grievances <strong>PO BOX 328 Canton, MA 02021</strong>"
+         },
+         {
+          "title": "Coverage Decisions, Appeals & Grievances | Harvard Pilgrim Health Care",
+          "url": "https://www.harvardpilgrim.org/sites/ContentServer;jsessionid=puJ69AebLtqSJyz_xpUmflrqclk2yRaOE8_QYs9v_wuzgroxHEge!1225211339!-1763632256?c=Page&rendermode=preview&cid=1471925538804&pagename=HPH/HPH_Layout",
+          "snippet": "<strong>Box 690345</strong> Quincy, MA 02269 \u00b7 Contacting the Centers for Medicare &amp; Medicaid Services (CMS) Call: (800) MEDICARE (800-633-4227), TTY (877) 486-2048 \u00b7 Write: Centers for Medicare &amp; Medicaid Services 7500 Security Boulevard Baltimore, MD 21244-1850 \u00b7 Visit: www.medicare.gov Medicare.gov ..."
+         },
+         {
+          "title": "2024 appeals & grievances - Harvard Pilgrim Health Care - Individual Enrollment",
+          "url": "https://www.harvardpilgrim.org/enroll/2024-coverage-decisions-appeals-grievances/",
+          "snippet": "Mail Harvard Pilgrim Health Care Attention: Medicare Advantage Appeals &amp; Grievances <strong>PO BOX 328 Canton, MA 02021</strong>"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_146753",
+      "args": {
+       "query": "\"Harvard Pilgrim\" \"Member Appeals\" OR \"Appeals and Grievances\" \"Quincy\" OR \"Canton\" OR \"P.O. Box\" OR \"P.O. Box 69\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsECCr4CAWkUfRPQdWGET9T03XYSaq1i8Ys5xWYnj8-wdYytdzNQAqHV-a_exa4_uLAvHq4R0GjacsM6XCqPZVClpbCXu-n_jwikvFRRlTMlwEISJHVi2Ux7v_gajQzjw0Q7hdZL5Kfxj25060hFl4EKVki7sRVlEFECjPmJRAUQqdux_UTIU23axyAUNmYsSTknzdTDgNxvwEPjO0gbzfgWfFKalnRnbjt78NM21y_UQtKaxacvDHCU5bU5e8pb6X2oHu7CsB4naeEYD04UpiZkNW7EQa-FNd6r5XBNEoFTDXCkN5fwKO237uGL_UWmJgwDr_qEEgnncus1sNAHgD6sMSRCu398wV1MRXRkw2oVLp9tenBFzsL8N-YPrNk_ttC1uwUl0aug9O8xUB-MoacTHp5DtlROnGg27f6ipxSAOH7u"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Harvard Pilgrim\" \"Member Appeals\" OR \"Appeals and Grievances\" \"Quincy\" OR \"Canton\" OR \"P.O. Box\" OR \"P.O. Box 69\"",
+        "results": [
+         {
+          "title": "Appeals HARVARD PILGRIM HEALTH CARE-PROVIDER MANUAL G.2 August 2025",
+          "url": "https://www.point32health.org/documents/g-provider-appeals-overview-pm",
+          "snippet": "Mail all provider claim appeals to: Harvard Pilgrim Health Care, <strong>P.O. Box 699183, Quincy, MA 02269-9183</strong>"
+         },
+         {
+          "title": "Coverage Decisions, Appeals & Grievances | Harvard Pilgrim Health Care",
+          "url": "https://www.harvardpilgrim.org/sites/ContentServer;jsessionid=puJ69AebLtqSJyz_xpUmflrqclk2yRaOE8_QYs9v_wuzgroxHEge!1225211339!-1763632256?c=Page&rendermode=preview&cid=1471925538804&pagename=HPH/HPH_Layout",
+          "snippet": "<strong>Box 690345</strong> Quincy, MA 02269 \u00b7 Contacting the Centers for Medicare &amp; Medicaid Services (CMS) Call: (800) MEDICARE (800-633-4227), TTY (877) 486-2048 \u00b7 Write: Centers for Medicare &amp; Medicaid Services 7500 Security Boulevard Baltimore, MD 21244-1850 \u00b7 Visit: www.medicare.gov Medicare.gov ..."
+         },
+         {
+          "title": "Harvard Pilgrim Provider Portal",
+          "url": "https://www.harvardpilgrimproviderportal.com/",
+          "snippet": "However, with correctly submitted ... and providers. The email address for Harvard Pilgrim Health Care is <strong>P.O. Box 699183, Quincy, MA 02269-9183</strong>...."
+         },
+         {
+          "title": "Harvard Pilgrim Access America P.O. Box 699183 Quincy, MA 02269 1-888-333-4742",
+          "url": "https://www.harvardpilgrim.org/public/docs/access-america-claim-form",
+          "snippet": "<strong>can file a grievance in person or by mail, fax or email</strong>."
+         },
+         {
+          "title": "2024 appeals & grievances - Harvard Pilgrim Health Care - Individual Enrollment",
+          "url": "https://www.harvardpilgrim.org/enroll/2024-coverage-decisions-appeals-grievances/",
+          "snippet": "Requesting a Part D (Pharmacy) Appeal, or Grievance Requesting a Part C (Medical) Appeal or Grievance Filing an AppealRead More"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_113333",
+      "args": {
+       "query": "site:harvardpilgrim.org \"Appeals\" \"Quincy\" OR \"Canton\" OR \"P.O. Box\" OR \"P.O. Box 69\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpsFCpgFAWkUfRPwZ4PFuHi6uniLm90lpJ4cZmEQx__3MhC56hbeX7cKjMvD2VMyXYwpCcdIhYi418BYCx-UBT8o7aHMKozHX30HqIKxBfJyj6fE5S8IBevS0XYtCjQbs1HcVubuRcOLiUvR6uvdLqolQEM89_frYkoK9Wo0xiXb47_ZPA9lTMEOuxuzFXhZ8IereMbW2PHk-IZHkY4b_l-VoylzfmLEdO3Qp8bCOD_X_fnAeGv_VRCrLrDjj_cAmrmTfLlzt_JwVLgQlC_F3Al9A1AVSnFA8RFDvBPZFsIldJ749ClfUI-tR9lUfxBFI4yyj9G9aVMZgP0patsr0ziC0HQwXuYIaHeKWVy-KH_Ico5ZIBRU29rk8Nutu9xieHg9q6msjhAV-cCv3bAMSqXhXBrP4_2GXBY76CNugzhHpznJcRQRkysT17BKmKls69qmHWzD1p7XXHYQeEaSMgPxFe9-0H-GnIy9ttOfriNFrZtHDeDOen7tiC0dFmVNuCQ6bgS9OLJd593GbiOFiwjP4PdPjeGZ8Xddc477-ViditVUhpf3yR6GcaD8O8x0nEIyghzRllViKOL_U3TNDHcODZyXCA7gRMOIEHvfxeDRGzzpW-_9jjon1OhAtNLVp3hX1GDD_0BfLX2wnvoGIbcKxbMFJzF6An-a8XeLnB40IVUhVe-YejVAJcFSOLENhXYlaWbt3moHxJ3UnSWR6-SEd-reQUB0iotHGQ8IBh87Fl_RtMxoOuSxjgOJlB9p3vODC_6cm9UT_Eo82Ti0F3IP8IvyLn67gisE0BZaNLe2CGPSA_kN0LVQ19K0G7vx9FG7EFMdAvr_bBgBIXCBohObtcqKBRoai30m53fDrA0ZetHXGkGFTqM6S7MUCg=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:harvardpilgrim.org \"Appeals\" \"Quincy\" OR \"Canton\" OR \"P.O. Box\" OR \"P.O. Box 69\"",
+        "results": [
+         {
+          "title": "2024 Medicare Stride appeals & grievances | Harvard Pilgrim Health Care",
+          "url": "https://www.harvardpilgrim.org/enroll/2024-medicare-advantage-stride/2024-coverage-decisions-appeals-grievances",
+          "snippet": "Mail Harvard Pilgrim Health Care Attention: Medicare Advantage Appeals &amp; Grievances <strong>PO BOX 328 Canton, MA 02021</strong>"
+         },
+         {
+          "title": "Frequently asked questions | Harvard Pilgrim Health Care",
+          "url": "https://www.harvardpilgrim.org/employer/faq",
+          "snippet": "Harvard Pilgrim Health Care P.O. Box 295 Canton, MA 02021"
+         },
+         {
+          "title": "Administrative Guide for Clients, Brokers and Certain Third ...",
+          "url": "https://www.harvardpilgrim.org/documents/broker/administrative-guide",
+          "snippet": "appealing coverage decisions. Harvard Pilgrim Health Care \u00b7 Phone: 888-333-4742 \u00b7 Member Services Department \u00b7 Fax: 617-509-1050 \u00b7 1 Wellness Way \u00b7 Canton, MA 02021-1166 \u00b7 Members may also use HPHC\u2019s Interactive Voice Response System (IVR) for certain transactions."
+         },
+         {
+          "title": "Questionnaire Member Name: HPHC ID: Date of Service:",
+          "url": "https://www.harvardpilgrim.org/public/docs/accident-questionnaire-form",
+          "snippet": "Return form to <strong>Harvard Pilgrim Health Care, P.O. Box 699187, Quincy, MA 02269</strong>."
+         },
+         {
+          "title": "EFFECTIVE DATE: 01/01/2020 FORM #1844_05 Value Five-Tier",
+          "url": "https://www.harvardpilgrim.org/rest/eoc/content?pdId=PD0000006595&type=rx_brochure",
+          "snippet": "Benefit Handbook including, but not limited to, appeals and grievance processes, utilization \u00b7 review procedures and coordination of benefits and subrogation policies. PRESCRIPTION DRUG COVERAGE \u00b7 | 11 \u00b7 VALUE FIVE-TIER PRESCRIPTION DRUG BROCHURE - MAINE \u00b7 12 \u00b7 | PRESCRIPTION DRUG COVERAGE \u00b7 VALUE FIVE-TIER PRESCRIPTION DRUG BROCHURE - MAINE \u00b7 PRESCRIPTION DRUG COVERAGE \u00b7 | 13 \u00b7 Harvard Pilgrim Health Care, Inc. 1600 Crown Colony Drive \u00b7 Quincy..."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_55647",
+      "args": {
+       "query": "\"Harvard Pilgrim\" \"1 Wellness Way\" Canton appeals OR grievance"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpEFCo4FAWkUfRM-3piLOb4mpqXFtmq2rS_QjZ104WFEl2Ld8hQY1H8sl_A9CUAwWOvvDhDFSsp2R9J-idSIsvHtgZ52pMeP2ieDUKfLU8_-9tgU6spmkCr2SHrBe0LR0bnCjoOaJFL1lvWx3KiR_cc70RQGs80NaLGr-ERGEQp-2IL6sLd36YBdGvouajCNg9i5lRsU6LxzBItPhHaitwi0RN2Hg6GVBBK1pkEquHpXAE1bNgsfGcTXopcXLx6ZCapJ7BEyZnizMKoPEKBfMet0kZfMzTxWnydCiBih88bIR04ZHHav6ofm_OcAPJ03xAiPVyXexAaNn7jZBZxy6Srou-f1CYqgoFIG0wQ5loo7ZcU-qPQ5Bx7hS0vhOus26JFrNIn5WGKtdDEC71ZmFF18ZnckMdetra_emd1McNwi-rs9XXPLHAvl7O-0SxxiJNRaEgk14pGsP5Woueul3uI3Kv1Fcte9MrU4DyjtayKyThsHrNrW2F1RCc1drpC7CKP3Rhjw4CdN-V5TpUBsz5c_sKc_Ubi_dgOvJw_7zhEzrWYu0bO9eH3IxRMJxxsBN2FYVKg2qtOoEqaeeJYmD7agRAOMIaUyA10Y-UWDYWVr7HSRyrQiLVonSBi6qqG9ua-Lv7f1h3bqoLFUEfU8X012TFDl5cQUCF1I6yCgiHU_egWHnuI__lW3EksLsq_7zJcf43elIIGp_5fmEw8IOYlBU0ciy_TS2ZFNlf6H4hSoHsNLxIDQwxMoDPbaScPyHjUfRZxMbur0XZofIypBFVBpYL_E6z2wgqxK0o_r_AGrgVDNf8PWQpEgj6I2_AvVm7QYDnJXKpGGI0NMFOZVEFwfM63t3RSQCuxx4iDeLwz_9MFP"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Harvard Pilgrim\" \"1 Wellness Way\" Canton appeals OR grievance",
+        "results": [
+         {
+          "title": "Privacy disclaimer statements | Harvard Pilgrim Health Care",
+          "url": "https://www.harvardpilgrim.org/public/privacy-disclaimer-statements",
+          "snippet": "Harvard Pilgrim Health Care Special Investigations Unit 1 Wellness Way Canton, MA 02021 \u00b7 <strong>A member, or authorized representative(s) acting on behalf of a member, may request an appeal for any decision made by Harvard Pilgrim to deny coverage for health services</strong>."
+         },
+         {
+          "title": "Benefit Handbook HMO MASSACHUSETTS EFFECTIVE DATE: 01/01/2026 FORM #2544_12",
+          "url": "https://www.harvardpilgrim.org/rest/eoc/content?pdId=PD0000202448&type=handbook",
+          "snippet": "Harvard Pilgrim Health Care \u00b7 Member Services Department \u00b7 1 Wellness Way \u00b7 Canton, MA 02021\u20131166 \u00b7 <strong>Phone: 1-888-333-4742</strong> \u00b7 www.harvardpilgrim.org \u00b7 The Office of Patient Protection. The Office of Patient Protection of the Health Policy \u00b7 Commission is the agency responsible for enforcing ..."
+         },
+         {
+          "title": "Benefit Handbook HMO HSA MASSACHUSETTS EFFECTIVE DATE: 01/01/2026 FORM #2545_12",
+          "url": "https://www.harvardpilgrim.org/rest/eoc/content?pdId=PD0000202445&type=handbook",
+          "snippet": "Harvard Pilgrim Health Care \u00b7 Member Services Department \u00b7 1 Wellness Way \u00b7 Canton, MA 02021\u20131166 \u00b7 <strong>Phone: 1-888-333-4742</strong> \u00b7 www.harvardpilgrim.org \u00b7 The Office of Patient Protection. The Office of Patient Protection of the Health Policy \u00b7 Commission is the agency responsible for enforcing ..."
+         },
+         {
+          "title": "Benefit Handbook THE HARVARD PILGRIM HMO MASSACHUSETTS",
+          "url": "https://www.harvardpilgrim.org/public/docs/ma-handbook",
+          "snippet": "Harvard Pilgrim Health Care \u00b7 Member Services Department \u00b7 1 Wellness Way \u00b7 Canton, MA 02021 \u00b7 <strong>Phone: 1-888-333-4742</strong> \u00b7 www.harvardpilgrim.org \u00b7 The Office of Patient Protection. The Office of Patient Protection of the Health Policy \u00b7 Commission is the agency responsible for enforcing ..."
+         },
+         {
+          "title": "Benefit Handbook HMO FOR INDIVIDUAL MEMBERS MASSACHUSETTS",
+          "url": "https://www.harvardpilgrim.org/rest/eoc/content?pdId=PD0000201823&type=handbook",
+          "snippet": "Harvard Pilgrim Health Care \u00b7 Member Services Department \u00b7 1 Wellness Way \u00b7 Canton, MA 02021 \u00b7 <strong>Phone: 1-877-907-4742</strong> \u00b7 www.harvardpilgrim.org \u00b7 The Office of Patient Protection. The Office of Patient Protection is part of the Health \u00b7 Policy Commission."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_139624",
+      "args": {
+       "url": "https://www.harvardpilgrim.org/public/privacy-disclaimer-statements"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EtwICtkIAWkUfRNec5foe0eMrdsv19jPFVYJuMjJp8yIeo_QjsNBaiGRUiWP7kwpCdgf0KyAJtA5qORoUnZTy_fr3i3OcMRJ-w9Oq5V3stskkSfW_D3vtQwRbP7FuiFmKkNnd9DOXDnd4oARV9KjamjRrndyRZfJV3MM4QJCgyYV_udpLYz8J2gmMztHB8ZXR4iigsM_3aUTiy7FpFr-oozVddlIcUwrilFS86i1k8K_i_6P5I6GCiPAapSqLhq5A4QqManupZRub4gYVZ2GsxipZwFAOteHI6QMSWVDvtNbkSkLFCzJh6VwuAdLpb4uW10-CkJu6jBAg4FrTD9-85q8o_4iBDPkEI9ymKczHAxG01z1HTiS337EA2J7xTkovHqgDDEpUkHlmaVlVe3FgQ77gK-o1NyXNOuYtY1OAE6dq18XIPBRKGCNx0EWd4T9WxOsN-VTBaek6vVvXpPAmFJ1odk-VudwZDI4myd1AsTXgtXU9A52tEdvqXEP953GBkwvKLDGopYvxPyrwM2RC3wUOH63Kl2BNw9vTGku-eG2qfbX3y8VhQyhr-4EqI5pfVhgV2mHNA19LOZH5OPvuuydrFGNQJ0T5aMpI5fYYHpSSwWsNU5VXYN2_PGbUuLTIinxf-5U9Hk_BoBSJ57Uw_oVcGvCNJxIwEczVPLbz6zf0zyZ9_bSP_DWruschdnk5Qz7ZOfR5hZiNLSpfs1Opq8R0aWY4tGW-lsL_hZt93c1Q0LyyJD12p-RxQnCyfCoJQZX5veyqsKFK4l_-Jg6SRm-xPsWYbkI7IBvw1pN6poFO8TvSLjOBfP0h7uby_wDnHz9_0PCLM9OElyDCqRY8GPYlYy3q0ff5bpK5Wqbhw6WF7zV6PiM20xkqvY3AjCozeyPvkHeKFEUaZvoXLq9etHZZkPhoJUBJtFi6E48mOKO0CvOZl_g3YWvkv82OFZsNu6pZaOu3HbusoM6QbZcyJm3Vika6uxj5KGpJJqy0ETjWLG3H83hqTd5VuQ3LvBhTr-uMCJzWWE1-8JzFE_3WTt_FV82U5I4kcecRpQkui1Dbszo67xPrPa9aOG2plzHVflOluvTzhvRmmRR8v2tP5fL7ITHm64xM5xY4k1x82aTCZrBgOBdQPHne-zPJAA6pX7GJPML0Pse2lni9meT4EQasKmaJ1O3J_C7rytUrFOSFPq8FIS4EJiaHEXzb2tEHDtDNpBOVnyOe5HcxcuIp_ivxehS1fA_rjEVenLJNUZFeLVDri731Mrsc5uFghSR9clEKtLiQHWZLstAWLCVuHl_6Vj1mn8Gm0PMjZh89IlmYtX8QgUAZ2r6m_ly_aAcfZOHsP_vSI4EIFxsMBmn73wELCQAT72MTibOXdH3SlrHet-nDmVZEhwVnBwqHQ3tWVFV8K3XJoZSEx8NwI_Pxtg5RuMxkIJ2iq5S1pLxaVmBBRXRveti4JS8A1ihbNWv9L2St9y7BY-AanHxsJ2V"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://www.harvardpilgrim.org/public/privacy-disclaimer-statements",
+        "final_url": "https://www.harvardpilgrim.org/public/privacy-disclaimer-statements",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "Privacy disclaimer statements | Harvard Pilgrim Health Care Skip to main content We use cookies We use cookies and other activity trackers on our website to help improve your experience. You agree to their use by continuing to use our site. Learn more about online privacy and security . Viewing: Member login Main Menu Member Broker Employer Provider Viewing : Visit our site as a: Member Back View Insurance Plans Shop plans Health & wellness Resources Broker Employer Provider Need language assistance? Find a provider Contact us Member login You're Viewing: View our site as a: Member Broker Employer Provider Back View Insurance Plans: Shop plans Health & wellness Resources Harvard Pilgrim Health Care Home Need language assistance? Find a provider Contact us Login Breadcrumb Privacy disclaimer statements Privacy Browsing or searching our website In the normal course of visiting the Harvard Pilgrim website, downloading information, or searching for our products or services, we (or a third party on our behalf) may gather and store certain information about your browsing activity automatically. We use this information to help us make the site more useful to visitors \u2014 to learn about the number of visitors to our site and the types of technology our visitors use. Unless specifically stated otherwise, no additional information will be collected about you. We (or a third party on our behalf) may collect and store the following types of information about your browsing activity: Your computer's IP address. (An IP address is a number that is automatically assigned to your computer whenever you go on the internet.) The domain from which you access the internet (for example, gmail.com, if you are connecting from a Google email account). The internet address of the website, if any, from which you came to our site. The date and time you arrived at our site and how long you spent visiting the site. The name and version of your computer's operating system and browser (this information is supplied automatically by your computer). What pages you visit within our website. Cookies Some pages on this website employ browser session \"cookies.\" A cookie is a small piece of data that a website transfers to your computer's hard drive to allow the server to distinguish your session from that of others while you are connected. Requests to send cookies are not designed to collect information about you, but only about your browser session. The cookies make it easier for you to use the dynamic features of our website. The cookies and the information about your session are automatically destroyed shortly after you close your browser. The information is not permanently stored on your computer. We do not collect personal information about you except as described previously. Use of protected health information (PHI) Harvard Pilgrim is committed to ensuring the privacy and confidentiality of our members' protected health information (PHI). We collect and disclose such information only according to our strict confidentiality policies and federal and state laws designed to maintain privacy, including the Health Insurance Portability and Accountability Act of 1996 (HIPAA) Privacy Rule. The HIPAA Privacy Rule took effect on April 14, 2003, and requires Harvard Pilgrim to provide its members with a Notice of Privacy Practices. The notice explains how we use information about our members and under what conditions we are permitted to share that information with others. Unless otherwise permitted by HIPAA, we will not disclose to third parties that are not our vendors any identifying data, including name, mailing address, email address and phone number, unless you authorize such disclosure, or such disclosure is required by law. To ensure privacy of your data, never share your username and password with anyone. Be sure to consider the content of any questions, the location of your email account and who, besides yourself, may have access to it. We collect personally identifiable data through our web services in the following ways: Through members' secure accounts Within \"Contact Us\" \u2014 Lets users tell us what they think about our website via email and is emailed directly to the web manager Via email sent directly to Member Services By HealthTrio, our partner that collects personally identifiable data and is covered under a business associate agreement Website security Security is a priority at Harvard Pilgrim. Appropriate measures are taken to protect the confidentiality, integrity and availability of information about our members, providers, employers, brokers and anyone else who may want to use our website. Only authorized users are allowed to access protected health information (PHI). Harvard Pilgrim enforces a high level of protection for securing transmissions between a user's browser and this website. Content on this site is protected against unauthorized access. Email security Please be aware that communications sent using unencrypted email are not inherently secure. It is possible that they can be intercepted while in transit and read. Harvard Pilgrim cannot guarantee the confidentiality or security of any information you send to us over the internet when it is sent using unencrypted email. Harvard Pilgrim will not be responsible for any breach of confidentiality resulting from your use of unencrypted email transmission. Harvard Pilgrim maintains a corporate email policy governing the use of email when communicating confidential and/or health information, which includes implementing reasonable and appropriate safeguards when communicating via email. We periodically email well-being and benefit-related information to our members to help them make the most of their plan. Each time we send an email, the recipient is given the opportunity to opt out of receiving similar emails in the future. Communicating with us Medical questions or concerns about your care or treatment should be directed to appropriate health care professionals. Harvard Pilgrim will not respond to requests for personal medical advice made through this website. If you require an immediate response to non-medical questions or problems, please call Member Services at 888-888-4742 (TTY: 711 ). Email forms on our site should not be used for confidential personal medical issues but for general topics or product questions. If you wish to discuss personal information related to Harvard Pilgrim services, you should call Member Services, and not use email. We will share your comments and questions with our member services coordinators and those employees most capable of addressing your questions and concerns, as covered under personal health information, above. Your email may not be encrypted and may be accessed and viewed by other internet users without your knowledge while in transit to us. See email security. Copyright use limitations \u00a9 2025 Harvard Pilgrim Health Care, Inc. All rights reserved. The information posted on this website is protected by copyright and other intellectual property rights. It may be displayed, reformatted and printed for personal, non-commercial use only. Any copy of information obtained through the website must include the copyright notice. Removing or altering the copyright notice on any material on this website is prohibited. Use or misuse of Harvard Pilgrim's trademarks, service marks or logos is expressly prohibited and may violate state and federal law. Notice of Privacy Practices This notice describes how medical information about you may be used and disclosed and how you can get access to this information. 1 Please review it carefully. Download the Notice of Privacy Practices (pdf) Download the Notice of Privacy Practices for Medicare Advantage (pdf) Fraud, waste and abuse You can help us to detect and prevent health care fraud and abuse. It is important that you review activity statements, explanations of benefits and claim summaries to ensure that you actually received the services that are billed to Harvard Pilgrim. Here are some examples of potential fraud and abuse: Bills for health care services that were never provided Bills for a higher level of service than you actually received Bills for services or laboratory testing that you feel were not medically necessary Providers who agree to routinely waive large cost sharing obligations without requesting financial documentation Providers who bill you for cost-sharing amounts that are greater than the obligations listed on your explanation of benefits forms A request to loan your member ID card to others for the purpose of getting health care services or prescription drugs Receiving medications, cream, or durable medical equipment through the mail as a result of a phone solicitation For more information about fraud and abuse, review Harvard Pilgrim\u2019s Fraud, waste and abuse policy (pdf) . To report potential health care fraud and abuse, or if you have questions, please call our confidential hotline number at 877-824-7123 . You are not required to provide your name or member information; anonymous reporting is accepted. You can also send an anonymous letter to us at: Harvard Pilgrim Health Care Special Investigations Unit 1 Wellness Way Canton, MA 02021 Appeals A member, or authorized representative(s) acting on behalf of a member, may request an appeal for any decision made by Harvard Pilgrim to deny coverage for health services. This applies to (a) health services already received (i.e., denied claim); and, (b) requests to authorize coverage for services in advance (i.e., denied pre-authorization or prior approval). A request for an appeal must be submitted within 180 days of the date of service, or within 180 days from the date payment for a service is denied by Harvard Pilgrim. Appeals submitted beyond the 180-day time frame will not be accepted for review. To process your appeal request, we will need some specific information from you. Here\u2019s what is important to include: The circumstances related to your request, and why you feel the decision should be changed Any information that supports your request (such as letters from your doctor or specialist) Copies of any bills related to your appeal Any relevant medical records so that we may assess clinical necessity All appeals are reviewed and responded to in accordance with all state, federal and National Committee for Quality Assurance (NCQA) guidelines Requests for appeals may be submitted to Harvard Pilgrim in person, by mail or by fax to: Harvard Pilgrim Health Care Appeals & Grievances Department 1 Wellness Way Canton, MA 02021 Open weekdays 8:30 a.m. \u2013 5 p.m. Fax: (617) 509-3085 To request an appeal by phone , call Harvard Pilgrim\u2019s Member Services department at 888-333-4742 . For TTY service, call 711 . Representatives are available Mondays, Tuesdays and Thursdays 8 a.m. - 6 p.m.; Wednesdays 10 a.m. - 6 p.m.; and Fridays 8 a.m. - 5:30 p.m. If you have additional questions about the appeal process, please refer to the Appeals and Complaints section of your Benefit Handbook or contact Member Services. General disclaimer Harvard Pilgrim Health Care, Inc., along with our partners, supplies all information posted on this website. While we try to maintain only current and accurate information, we disclaim any implied warranty or representation about its accuracy or completeness, or appropriateness for a particular purpose. As the recipient of this information, you assume full responsibility for using the information on this website, and you understand and agree that Harvard Pilgrim is neither responsible nor liable for any claim, loss or damage resulting from its use. The mention of specific products or services at this site does not constitute or imply a recommendation or endorsement by Harvard Pilgrim, unless it is explicitly stated. The views and opinions of authors do not necessarily state or reflect those of Harvard Pilgrim. This website may provide specific health information, none of which is intended to be",
+        "text_truncated": true
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "text": "{\n  \"policy_found\": true,\n  \"policy_title\": \"Evolent Clinical Guideline 1761 for Hip Arthroplasty (compiled within the 2026 Evolent Clinical Guidelines for Medical Necessity Review)\",\n  \"policy_number\": \"Evolent_CG_1761 (formerly NIA_CG_313)\",\n  \"policy_url\": \"https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/1880_LHCC_Hip_Arthroplasty.pdf\",\n  \"effective_date\": \"July 1, 2026\",\n  \"criteria_quotes\": [\n    \"There is persistent pain and documented loss of function with radiographic evidence of advanced disease from any of the following: ... Avascular necrosis confirmed by imaging (radiographs, MRI, or other advanced imaging) [or] Radiographs demonstrate bone-on-bone articulation\",\n    \"Radiographic findings show evidence of advanced arthritic changes, described as T\u00f6nnis grade 2 or 3 [see Grading Appendix] or described as X-rays showing advanced changes (e.g., severe narrowing, bone-on-bone compartment collapse, subchondral sclerosis or cysts, osteophyte formation and/or bony deformity etc.)\",\n    \"X-rays described only as showing 'severe', 'advanced' or 'end-stage' arthritis require more definitive descriptions as stated above (weightbearing X-rays are not required)\",\n    \"NOTE: MRI should not be the primary radiographic test used to determine the presence or severity of arthritic changes in the joint.\"\n  ],\n  \"appeal_deadline\": \"2027-02-02\",\n  \"submission_route\": \"Appeals can be submitted in person, by mail, or by fax to: Harvard Pilgrim Health Care, Appeals & Grievances Department, 1 Wellness Way, Canton, MA 02021 | Fax: (617) 509-3085. Alternatively, members can request an appeal by phone through Member Services at 888-333-4742 (TTY: 711).\",\n  \"how_to_obtain_criteria\": \"The patient can obtain these clinical guidelines by calling Harvard Pilgrim's Member Services department at 888-333-4742, requesting them through their provider, or accessing the public Evolent/NIA portal via radmd.com.\",\n  \"confidence\": \"high\",\n  \"notes\": \"Harvard Pilgrim Health Care manages joint replacements through its partner Evolent (formerly National Imaging Associates, Inc. or NIA). Their prior authorization criteria use Evolent's clinical guidelines (specifically CG_1761 for hip arthroplasty). In the compiled 2026 guidelines, this policy is effective July 1, 2026, which governs the denial notice date of August 6, 2026.\"\n}",
+     "thought_signature": "EohHCoVHAWkUfROhvGIOTtf0zK8guIt3H4hxmr4zuzJQntJ4t1MoA7up177PuypJC6T_7whzzjtUbww1bw4ywDqv4A4QPJK9Qk8QTqeYlpLsSOb_WJQKy_9G5ko7Ehvbfm4gI9Ut1MvFs8pkOp_xyxEykUGYQ_kavw5SjZA7oL40HYJ61g4_IZ-02FuT5nSvtnMjWf7oHOoo46YeVHHQjZYOX3RgfL6xjqcOjwaNnaGwHvU2xgAMviZc6yechOUz9GB4qPUDiYMKX3O_5RqZ7Fl_mU9tDFuTu8168hfIC-U_LG1fKeEJZ3Jc31JYVZkLKVfo29ZhENQTJkBSShr5ToSu6pmbYCmfi_0Ci1XwNNFYKVgJd4oAjIoW2X5Hvu8A7qVBjyojpbNFjsrzhBsk2bjxeq9ih9pL-hrrjyP4JC5EhtLeyBKXkNp8_ck4Lz3fw9ZLXzwuJMe-I96fGghK_9zjKG0NL97lEPs38_OiM3jKqa3iwLe0HFdSre6FgoKcYkZe20KqAj0Errjtq3U_NeFdtibvPWbgvMhJfXwy21cQwi4fkA9TWewEELE0fdbbxEY1M1O_zqJVRWrCqH01KGwfKf7RvZmRNFmTM2UavD7_DIZlUOBlnTawtC9csGnHjyN1ydEsj3c5i8YMW-9eUD0V8VqwUl4mDdtFYogRQtVb1X5toLu5bTyfHjEWvaBNa1OYJ-ZNxYUyJfz91pA83V71KUur6qlYlc5-m6TXMbfs_tPcyAHZetXrSfKupfGXAsnpyzFiM9slYd-i1SgfW4zo_pbU-JwnbcZvbmF2-uwLL4zIC3CS-AA8-LFgH_1chEBFwq9cdcjD6GrTwCANPQNRgVh86SZ4GzLrHrpHJA-492aEB9FOD6i7YmDW9IZXYF3tdtrWW1b2c5RqzE9id3RCtV_H27mhYJ5kP1f5juOmuKyWGD3LvntaCKVauF4jQ59Ilajz8qf8PIR9NAKXuRTSb2X21iPTIaMt519yrjsGuccp2HKdYamsGxT00vHAY5wktVPW828vZripWY08kBYLOQQ4Nb4_KnWQ9p0J6cbRDt5rnSqPBpgU_LPfi7di4cw9rGAmB0YVlkhYppHT7PWWpNTzX7PRjyQ7jaZJVPZtr_xWku7txLHkqNUviGrJnYq-cErqtDWB6fSefWoEgR9CXUZhiH0a8sZ1d7vry21AJwEVAIgZgxmf1AgRjDQlM-CTWlm_otl-rxETbB43qH_AWflFBi-6c5ajN4azOGLgN3SAMxm9rtLvowu8Hh0TGrSTBFzldPX0ePraQI0VQ_bIng9E7xYjuDtQf7NRndgCKx-rPXi_61GG0DE5H0I_vR2LML0-dNWJQlcmiPOFroqjk0sb0kbEKBEYQM9WSPtWX_F9admHFK_Hua42fBXdnyI-4nHaf7Li_3h3jRp_xdKvZzUcpyvMIOYGGksfMF7jqqiqDPq2Aw5OHuyEDyka0VZq-5S6Yauj3vtjXnKXXTRLSJKw6fmZKmaSe3JpI5Wck3xR4jHXbJQ6-hL8CPP4sVXGLr_Ciyq-GZzi3Gt7O9W15teDj6HYzN50Auebd2OQzzdkpFg7FHpD9_foK9EwjvP1L4pC4JO8my_cUf2GH_ri38w7eXFZGl1rJ_SElXDgf4QUMcyPMk0MnUVkOlZUWw0umAUZRkd0stdRH5w2ESOv_ab3SbtR7YhP-7as7pwN6A0ZxYyMz2PvV5E7xQNR9QKHq9WRRFRFa5-kNt7meKLctAXXMo2y1fKOm3y33EUSKUwO3UNbYSof0OJy12Y-341foFBKcmdTHfUZAEi7aTlqsqOpRWakxBOvTgJpfjqyB2uWs7XR2Q-zaZGcigKD1TlMTAVttsomEdi_c0RG_emrRUn_4DULiG5MHae1jmmvFA-HLbLHXI0AhE_EVmr3Ia9M_6F4uSRcqx4csxxYb4ImaU_98k5HG_oV94bg0RyHMjdnSrL2_adUGVRD1EIGgeV_yUebCzg8-CuyG6oUUysLgrBGDw8D9PycaK-jM0lcUV-tCNI3Z4K_nM9FktSdWkHjqFMygBmla2OoBGas_WOolsPu5jPu6P2yBlvOWqo27UKViRT1Vz_Y5haqMVhJK0UzL12ZJnmb8tglJ20h3HX5o4kVlxiHHr5Gsjt1sIN_l7SaMMyE-t64-e44Pr8t4KHOf9aShOrrykl3tJ_TGw05dRuZgXT-bOxcUqXwnZls7FTumDkK6Ku4GkzNB6moQ0mqDAct026TM_Ik5dObTAuz9Tr1bT8qziN2BKR9rlBmBbqsQbb6enzYzlZ5P09X976FXMLoTv1HzSVvqYEtRaE80ABg0GAZmFs-bPZy7XoOXpNhGAtwWSVCL6Nhny8Qyk3jUaaRp4pN1c2B2ciEUkWUKlC3Xa0rnP1O3iw4jSIT82g3KUhWxZ2Dna-tYfLwtNZnjuViJBPppOogXEFCLsEYpCOkiopPdi3E1mg36sGp3pO0E9TigPxklikZN6nFEmZwq2zmT0nXVRkoj7T8aE9lDd1-hLwxM8l4kIfBewODwZh4KUU1axFvOLmCC099ykw3vkUK3dR8Jiecy53dhVvYAMqa8vJZdvMvBJeHBL8sqb9N2VTg4yMltf_DPP7ziYYVsB2Y15fs_Igrua5lNijFkqNaIjwE1jNu4ZxVoSYwZcnD-FSP5v5fTUaRZ01IjPc8tyElAn6Yar1bRYbhPfO-1wKqI0WQC4lPeacJ-Vkyz4Kj3eyF_Y0ddIDXzR2nZN3cwQOActDcsIywEP0E5_SxI16h2C98Eya0hx2MhD-BxJ-NFNMkUXfyC_kwz2m4GhU21GPs5P7SF0Su1FT0iiX2N_Pa20okQsUV5hm02PQDTXN-bt7ssCC_lVuw6V2Os72CTfgg2jpLjEB_znIV0JTSMPuuAu1SUuxahLNFGqAa6yxVPT25ct3vOnaI4ojF-XtIX6ZS6GgSCTjUxBpknDs6CyRnsM_aqpckrrCOuN77VLLNKEkAk9kzUHGfHaTCCtp6ROoJQGFfX6IXNFd-dNvOSDYeeV-oUGC7-8usKDk5bgY95XN_yqoYhEAxPYWnOxY7e8pvtNH8jb0z055jjDFbX4-PmAJKVmUTlU2FlAS0TtxsuwjRThzYUNqEwMopZOsqCdnsh4N2_FSA2LAOqMw-1BQukl0J1k8oah9CHLeFxBOHQffMxfStytex2DpQGGs69u8a2IMHFm3G69h3I7CFJX5R5htqq7EwndDYStlZ0Gik4oDEnT8AULQK7VAxewFOoq3AJZHGPuP-n6-xkGc5luWNyN288zloPKEpzlDQH0ilG9IE8mW84WpWEvtquR5GJZEUWghu7DswSeKlVje7n2TDaxfUruxlq26o-o4trYdWa7NtAfuQGr-ipTwR5LiQ65XYw0aIo8_gGw-so_ykM0v3xoc06tfj-5UgHjkHeeofmwv0sHXU865aQOPB9N91cRLyuf8grJLoO4IQzHnLM5jEb5GrGnofEtL1FEbYLazJL8C74lI8FyHW0WoydBFwQ5O_QqMGKWcsAwXbxNU3vEv_2b5OBwRiuh0JfdTdavE6RzITXXq7XbF3mZDSqwb9RqNzH4BxX1KfJGt6hnZrL2W_IubREGEtvfjBZ_j-22UkYi9CMyhmoSyqL5etu0vRIiIBEdnDlP1sp9aUD8lkhDW54dzBOwGuOb0P7T8wRVr62PZBC_uFKY8LB6P1uXAB-xmqcmNRazZnEl20GJ7EjIpSRup3u1nPVmO6VVSzRy0LE4w_3-_XJlCjeWnIxy6rAlF3MOTwmvUnsP769J5lXmS-QekEEpQSK1XImB_AJPksq1U0UCVQen63lYnf--RDNQ3YoA3GqHMKcQzIbBthZ4PFzYVaQBG0mO7pFgTk0ZrcZZNVpNw-u7RaTAlYU_9zHATwNk04kh2xMRpzTmrvoUWwjvyZqgQ5gU0wtcc7X3f0rK0WyrJmA5UmPnQBqSR8_gWo9ekLSujacpelM4CcN1E1JImlTUWrsqRloZiDW7BvhHb3HwJ4gKZnI8ka23xvsE72jfWzgGCKkgOPDhI-zoeZX2x9MuVCvbX7a7xJUvUA4KGeGhR7GQWfM2Ury_PSjBAYQEU8X_RgnGjaqghzEct9mdzTMZTcI_gH6pQgCP_JUKatwS8rg1VGT3dEyBj3r0yaYJ8Z4tX8RQBrNmEdepXp_7N_CHMR_Y9q0ZoHdH44puWYzUCrRcQ8NnhxbA3yQhO2LGl1rlKs5qllLucAypoLLr16CzLr-RqK_L3IC9Q-JNPZpmcsOZLw0N_J6I7otZNUZxZvS6jZz9eryQVfGO_Tcag_ABhaRdnfua_jd-ZIdNo1GtS9EtChT0rjqkzrr6LAdmXZGXbdsOjBNS-vJ41eZJ_MW9PcPBrfTd72kPwDu9iz_LAwUl6r7nUUfHD6kdwsZWPUCAdCS26TTuVDNAVTOBdxRWO3w1vVAsu6hjCDv-9TmmsGYCWtUsGTdrcx5XNr2NXbRVspC42cLDkpJRcKdJyGIedwLcLzcpsm57Cr8Nh8koKaNPP13m6Ciu2KkXjJDHhHcgMzKUevFAZY1oy9_g-7xqNERznwi8Wq7i8RBKE0sXYDUF35Fxk0nJuYdfQGTSv-8JdX98hLZCWfp1octHgSbvYk33hPLh4971wDQ3ZuDQ56hbW7G_S5z-xRP2VKA_q4U-zLUEGOa9iwvDjFPoJYtl2GQZ8pKf8VQVYI02UElSXehcTNNztb7TQJb1RRdXpNY6CvOxG0MWSgcX8ljnJt1qtYIYQgl_dreOhxG5KWzjNuCfLNf3jyPVzeRSBFf1N6JONvNzUyQV5nKc3wl4s9iS_w-faLmlf-IiMx9UWHWFRWryCJwC1CZsTFCKSFZQcIdRDRN7O-VTtZFFEgUqYmigmgvLGJkH5a89OtRljjnvWvJTgpk5zXOGmIcIcqm8Bf946JL6NtxVvm-DdyurPTkYo7eM-oDilxpqWQrzUSNR2Amw7cZbLyxhlN8_VnHz8nSJIMzalg51oIPbBpWjelGa-p3JBQqXJgZ1eMkIQPA4PTqeuQHyVWncMfwT5GkWN-DRN9AVflKw3L4eS19E4RExJi5Y4peUKoBsjAt8CuEVLScXFigWaEqKVLopaBgXNMh3DpFCDfcLKMxUSIbLWu-AM_5pL_qxyY0CjXZfUJ8qEGBlnqOVSUdSHQRNlJWLzBNUrK2G6Xow1fD3nf6arRoxPNU63eyDq1A9wjkBJCGiCRIpk-GmX4tnhRpqDUwBEqvMOw2KzCNdwcfvqzegzM2VSxQu4kaixyQ_DBtMrg-a2Xv4FW160yy_tl1djrTMF31cqjRc7noWbfi2Mco9M6Y6PqW8WHGBUr1zqQfTOH-MAPnNX07aXl4W-GR31hdR9EO40KEiugog_CP-xTrr0TlPZOQbEatsTJQiDActT2gZeBtG-ewmRH4vQ8i1cfVg9kmN5-HBW8dkgL07O7LqqcKIajUtkFF4HqX7SoJzM_OfGLMSNJKB_5yQx9-dTgvPBNeSzU01GYwhREfqc15aOJdf8TyZZU-dY3p6ueq_Xoa_XnuZIE9_C8bPMV09jvFHA5oeiWzZRKtTwpiyhjTtsEUuODETC5ZbU4g3Gm9eD__3GXofnRu5G3V5ZvmNG6uTQ8NLu28f47SUv_nQ21O3pEqkaOCKp8UDZGAK4-YbX2yloDAu4lx9bQOA39RO1XMvktO4fpb8JoZa7sgjWu9M-KNrDJ7Kakp_tEPuyFToVQol_XdBIXMEydHsqO7mrMV55ry7Tq9lbqWO81D2hsyZPsFIaKtjLlclWLmcHSUCQSniSuiNxvi3D54NO4LQBuS2gKPQgngPBCQ5HcmIMw2Yl6U-4zrkuKU_2vMdfkn7qk1z0aiHn8r8V3WwMNpxon3qAxmRCq275LowbBEEy2CmZ8tGv7w1ChhO5YgAMsqjtzaHYAAPlCrud4TYtvM5c5qvWPVrHEhst3wFWLOkhfM7lqEhDftish81zGpwMk5B2LYeoOb54VRG0Y4FrByKRMqF5nLgaMeB4d1sLorG_TaWRAu5_lZd3ec9jY4GZY_UHeLkf0Sf316VXzmUKPfs19ppSlT7ODCce4wZK9HrCyr4d5bgQqNfN30v7MYukfvs6ES4sRMJ-v6fB1XBmkUlPs9IUeajx71idxm1pQHlroY2U3H4PDG44DQ-1qcBED3imFeFu3a1Z4EEzQfadbEjW2_URqUGY_NZjyd46Qvep0fncmn1XvZ0gKKfGIEpy3BVl-Z5mk_lSMMAy7DgKJFDqU-oB2xFKmbWC11r2n7RtZOm-h-J5vKb--tgQCcIlrQWSmuqSskG7VVWvzO-uLqN_k087VSwklikoHsZu0g_iOOoTWzusr8DG4XGmydz1YB7El-dknj7BhAbZ-Nijp0UlO8z4N8ws56InZLl1LQtkVjBZ-ZEbXJo0nF8YwoNsK3jTJtxCggGWQKQnxKtTcVJRbPMpLU6UEuo4LUKB4wiuSt51_pi8Ui98ZOI3-A_szQD3FLHHsx9AnX01CAxgjmh63ZRNG7ZThvYtURv5w2NoIKHQOJ0OZdN-eHzkxoATacgLI-JPHqPq2U1qEgxQclPzUDjt2t89hXMc2utdCqkt0PeOUzkHlttHTR5c_IIar5hEB5cbNhKKFrjsSBoz4DUghTsA2tWIxDLYmqf4BT-b2CNWYB4qBlzC95kcLfqBLORTSm5Ny9FE8SIHnkPGmUt2zYsyMy6y08aGdK1H1rj0RdW2UMBy0O_O7T8ENFjufF_4Bj1sLZzRhB4r-xmP2TIGIM0SIVKpGDrxejNn2JjEhOrr014tWfbUupfPDDGq_SawvAqUtT1EqZbhgDt4C-qAC4T9IWYce3LwnjLLZD0R2TFy9d5Nei2vLxwq35hHAko-P3orRUPnKmzviLVOs3s04rDnkXD_4jfM9rKHjCiGBR3cFqhtrK8pEtMKBC8B96AtesT3dCxyce0EwyK5dnKf-g5Ap62ZbbFSXYZhyhUQ6QRRMJGXgTq3E3Jr6vElDLuor7PpMidQPVnPkTY2zq_YLsaT90XFYHgicwEYsQ1wCAkTg5egv6j0pD9P2zSBo_Utqe47AH8r1l__LdngmyZ_08L6xlM5LnE4bALAY6CIpbBBV0zc8xvwOB_fyoVNWGZtbnpqw6TVZT13KTRZxzVT-NKl8W1JPNb7JWfdE3NwQ8vA9NXBzPLrmsvNpvomHWHBXRVXTPE0_h7Y0nUIolehB1Ub2rJnTDffYanLmrjfLRhDnl_k4l3lWyQxLcQPAirWezKGJfv7vphpHz3hN7Rt8FppNjg-FnheE04C7ibwE-ghTChUbaPsSauizw_DbZx0RHWr_jENmKBo3yy7L2JLwxEZU1jdwiRJYv5Gdr6trqsQc-u7TOxoPAGb4NxbnkCM_Qc-JMx878V9-VDtNBWnkEN1jViAD1ndxEYCvss0RFVhqkDgQ63hTDysiQgzaqIlv71a8zA9T0IiCa_dCveAzfDdLTFE14BbSosQgC5XDRydwzszppycWfQn6mIWoAoDDr3D8gppprqYkODN2nmE10dWj0ibAI5Qir98LJLw968vMzhrMvd0O5NFWewPIWU_bbRMAEf19s4LE5Jl_hFhpjKXD7qWu5AXAcnielGv5DWJssBXc2IUMzwkeXM4d9n4Rc8ul4Q-m3RrLcJSMlaLW2DCYQ0gsz1T8d6L5cQi8_KqrcqzEsdZ4zX_9Py5rTFx6gnb2o_d5cDjdeu_0E2qB-9AJP9LlUGjpU_sUvgb7Oxao_MqDDR14e3IgEnfTokYagfqToXwdCt0h6ql0ivMPdk8uXJH7jWKL5oS9GGtu0ShWs0lnM4k5ZiFbVjuG2U0AWpindsQcw5S2AeCiooJiDivrNr6xFRCabvv3PWSkXl7ddHyxzsYzbGgQjaq_nhwPbPHhCoJMvotrUpsFEsGDZZkhzEh66zP1QF6NtnsSFxcnm3kJj-sr_THcySMxtvruRriexHIfIE532I29hMSGp9yjRDupSi5-aRCJrOmo9pkfuTT77VJZNayJDAqitY0rjCwJ9Oi4dCtwYS3jVBxo0YRH4VYmwHhpiYf7rjVMPG0tjmjisrH4ofkaTs4QZs-qT5PTy2gbGUJ3zvoicOfCaRDF5fX5ZIS7m8AreCm6WLFP9Zv33BRGXxLZHUTzZsqA2Q-LRkSH33dPhAJhZw_xaqmudBnXq0kpZ5en21tjuVS65QoG20WJINY31jCCpJGq5T4ia-WLrgwsrK00ezmcRM13o2Xf9U2CHzS4ergr0F7kOzluLdhMYgM8nm3iSFSmmZLLhmXDj3UzH2-UyQud9F6Ec0zuKTLE2DkOEyzfc2D1Wi1UlkK9D7hmGMKJnzw5k7Jwqpryf3XixIaEZAvcd7koJf8y-jqyx4FIEZQqBwH6XypwPcodnhqgNCR_DZ1waYf8kmstA5xDROzynUup1P1dFrgPCd92NKFktxVMVatxTm424HtxDoYJalGAN_5KpodPmg8HbSxOl-JIXPNMWnfQLL-B_LAT6_lhrgeyWIcCa3T8BtDmImjFn-bTGGjQnlDfvWddsis0vEKxz5viAi_ljdLOYB17jcvRO-ojsiksf2X-mkbvo8OmBWeZ4gtrGy5TXqSvw3v5ZdOaI1XVpZVjiooqcIrSnZKyTK6dQWNGskM9v3WiYsbh-9yTNTrGAvjldl3BxUTY6SONyb4BhSYmpsosFhlmr4EpFqs9fSlOAVfLnKIKtrY-v1iQVsfTg4S3fBi1WQ5ZbcBxSGDNHjLN3KVyupWV9GRqgW8GxMejMU78M8lzHjepBiU4httUQNis4o9iMexfJTzbBM0SQ_UAeOM1nFCc_d3sJS5bqqNepWDrmyvnSYEr6auJnxk7vJUNjRIggiiaWdYOD5M4-d9WXEDsISYA7aH4gZ0AJZKCZiwDzPOxqRjzCrs7x_HTJx3kQzurtTIo1MaIPUcSmv874j7h_tJDUxBBGiuwCldrJp3xZ7HAOot0Xl2dtXEAH96IvWihd6FJdIbFfLZryV31yfEYfa5C18Br2uoCoalDSZN2_qojxT19X-Mxu49dqLQJ1nteIO2DFE3IlTD2nsKNmDGz91AnqrmyP66t7m8VckUGT4wjsn_FbJT1ZZqmBApjBEbNaYcgVH9CpT8nji7ylG1sKnDJIJLDxayPWXPs5KrhfhEz1jq88Sl9HN6pzHIwDf9tLm4Zusim68YbxpHjUypw5aMwbRF2ezOOPNlA9PCQc1XUN7o0kEMeG9H9___Jj8VcFkcLXalzLUlcoHJxcGcTsLJJ5a9Uza5sTkqtqpZ9LutbgTKVS2u0QKH7EI5kvgZWNjVvoEvfHL9ffEuH0GdiIUsubEJcUuMdngPDbk_Yx81BS-By_c1AagWb4t9H4vsFkgM0Judyj0skAGcnowBXeaMoe8CdxoTBa42K7PD1W4pCPYhX94tVpRHuDzGNkACRPoKJ0as8n7IT3Xc-txtdL1hv9-yvS8SdwziYby0yMrKqbICGy7NR7oINsMLUKqxzNjTb_E0r32QoyjexB9jYJCLnWgkjOsMUxPs0cS7PXukaUnrD-HeAiZOQLmQdUWFZdDqQtUTlEsTMMcdB4yJm2fvmU9khyVHwIEEcRxjiRcgUBN7thFss6MEprPZn_4_keg3DALtyM5uMv_heiJ70h7g8Z8jAdLdGdjlUZXou7ak96gGd8eRFokj00yMQXmaKqvBNCAXHFkxH7iSe89b7FfshdaMNmLLWnns4oXCXwYp7GcvbzbZT4y0B0FHZ-rqT2RB6Oagr9ZMwvD_NO_rrIlSE8ZkdPdxmID98YIYHbVPOKQv3L_TAXAykrovfZGxw-h7DxagIzJ0D-cg647J8ov0XRxX9B8zMMNRDzB4_MgvNUydR5kq7CulQYLmnAc8JnLEenwFpVsJdM36XDhuf3LSSAxligBPVYsyt0bV8uXwQ3fTsa2k6LzwPc50Iw6aTNXZdhvKwAG3yTqpENnN1bU1x5QeuhMi1BI9rycBUZN_PkgfMtflRv02XXJ30P77Xlx9HncuY-QkXnPQ8UfIM0tJWwVYtIVY7AidhOfVKj_gOPdtbAQeICmOfaq-_0dmGkeLWZo_w3l2N1Y7f0nF9hRtJSciR2pH2eYUW9LqeMGE_zCOpypdLEnzjO05XtNXFhIbzP9vqY1keEK2gej_yCQewdSUVQTiPVV2bbZH7nm_-yp7W7OduBTOkH8iYN5VSRup8asnP6n-P-mGh9hCwXh4Bztob3PP_jYuGEY2LaFUGOGcZmqx3enw9BSx21kFQ1QPMJ-OrKyPp-zgh5IlwRRlJxWvOiBubNMSSSun36m2kzgFbhczwUKb2RWYahzKuNE0BPnicx3qIfYXiTfJRL0iLocUlPVVoaCeaBFX0e6wIxw-B91KUjEjIb2kD6b5mRi-t0OrticvucraFUw9PAjCECdFIM2KnQEluZvZalufYZ7wBdasG2AfKtgfsoEWkySds-2b4CxGwGj6H_eYOKUZHJ3R7UKZHHpDyyVbMGfNCsAJXhnahv9gzSqHmBLr-ekJTYWi8zm8gIW5wfYVCByWhmfBMS8fMLntOU2033b7UT8dho-GUrz4eGqHvkm04vV3hUk1D1XoBE1LLKzuys7l6GN0Xe8_q2v_WispE1Y_OSpHeqwp7tDzVsK6pZF2295akgztoztpjdueOyyzSUrBHvOr2h-kgzkqBEaiFKk8YIE8Qh-FCsaqDj7kCwEQX9Nuxy35or07LVtCUQscKEbK3Ghx6anXFSVityvmi_5bLwyib52PtXLqrJD-LzhibGqPRI9UEc4vQ94ATUmYkQdYYGyLVVG6YNnTo3-CkjMxOv8wcaLtKuiXBY7g0U_TNWk5xdhPDk9ouPYL3JmoV2PxlUjObUnaeD6Q3rSoaK3If8i2wuOF8VmU6qKMKRYsdolql7EvoLfAmZBo2FuEPR13KD915r9MmD8CDY8QTeo9m1p5xAvc0fhm0nPieMCIteBRTkocTwayY3OCgtwfdvLr0JVCzHaT4KRFjzALvPtwncsDASq5fZwJ1ri4ljXn7ZQu1ck-EOy2tRMtsgFSLNx9OA0WlNvAK8RC2JTs4KLdz2-4b8zGYrT_2ZLRF4IYKVeDHwnAhcyVPrSTSaFxrBs44H4r90F400jRj1sDjyQTab-TYLCsF4quZ1fqRK_gwPCnGYe1-hCW6gTrld3bu-JJeYhqxe7b8kc87vTzshJw7c5ZikbtYS0Cc0FarJQX-YifEaEEsUkxB8iCu0GVYkR4vw_3T6fFMJjru1S3sXbpFyJ4Yfhxs7uo-L_UnKhAKtUirPEgJdauM3m9-qPITIy3ex28MzRUHj_8b8KZmLGsT6pzRab7m7iF-8usNJC1vDtdFjKp6f3TTBBSah6rzds7SJjCti3UYCpyZ_l99_V1WmpqSPEZm197njsbc2zlMaHw96EXba4pVgfuHybIj3SirGuGbG1zyhzT6t3PPWB-VrS3Nx72Cc4KCAP6Dyjb6hBDn5YS_BSeXfQj-KHntHpDrRM2-5dS7ho8KTISTQ_3PPqqqsNw_bBdwoUWdEfx_Ge80Ow5Yaj-7Vhjad4akZPrBuMCTFodEuswIjycpLIx2jFg7VphyiBbHBKSN6Mx5NTP0LMNgP-XoDs_ovH_4jGgUxsrtUY2lKgiR8wVlZ3sRJX5sLZ1wf3TRN1CCGH4YNtK5Sq2wR44tGm8UDaqSM1EY7NUZdWKXG_RxKSXlz72YI48Fw2GRKW298QF6YG5gjjx41p_1fjI7R7wSX6xEXG4H4ZNDAHLVqVd7yXfnFKCxvXn-5QCMcw3R1L7TsTRXLCgn4tZdSJHQLcJ4t-Xv4s8ZumAdTfDudkckEUTffRgrVUk9ipVclaZAkgWZMDza1Av2cNZS2My7oTbS45bW4fNG_EtLDxwjy0F2KzuAIpIvjRyJt1kaszLZUWVIb9lvMe3vzDYpRmdLTPG0U9_Ip8bxYipbzUbs902LnwS8w_Z1MlqMvWAFsF4k7eTHOKdit1Kr2qDRz8ytmw4ktO_4ja79sAuZsOmQoVRLZdd_v41NMFV0dny-IUfpRmbkE7CpD-6W3GL55h9abzMTpadMVNVuiIPZojs05DTAn7l_"
+    }
+   ],
+   "role": "model"
+  }
+ ],
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 147418,
+  "output_tokens": 2361,
+  "cache_read_input_tokens": 433732
+ },
+ "model": "gemini-3.5-flash",
+ "tool_calls": 31,
+ "elapsed_s": 189.9,
+ "run_id": "r-381994214c2e",
+ "case_id": "poc-e71c638d4f"
+}

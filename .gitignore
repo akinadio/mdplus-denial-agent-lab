@@ -75,17 +75,20 @@ mdplus_denial_agent_lab.egg-info/
 !data/policy_platform/research*/
 !data/policy_platform/research*/*.json
 
-# Study outputs: keep the case sets and keys, never the raw runs.
-study/runs/
-study/unblinding.json
-study/scores.json
-study/letter_grades.json
+# Study outputs ARE the evidence: every letter, every search transcript, every
+# grade and score, tracked in full (2026-09-22). A reader of the paper, or an
+# auditor, must be able to open the exact letter behind any number.
+!study/runs/
+!study/unblinding.json
+!study/scores.json
+!study/letter_grades.json
 
 # Runs and keys superseded by a rebuild; kept locally for forensics only.
 study/_superseded/
 
-# Fetched policy text, rebuildable from the URLs in the directory.
-data/policy_platform/policy_text_cache/
+# Fetched policy text: the documents as they read when the quotes were
+# verified. Policies change; the snapshot is what the study's checks ran on.
+!data/policy_platform/policy_text_cache/
 # Scratch and backups, never the repo's
 COMMIT_MSG.txt
 data/policy_platform/*.pre-*

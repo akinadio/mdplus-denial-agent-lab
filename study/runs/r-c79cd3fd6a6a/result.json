@@ -1,0 +1,35 @@
+{
+ "answer": {
+  "policy_found": true,
+  "policy_title": "Cohere Medical Policy - Shoulder Arthroscopy (Version 5), Avera Health Plans",
+  "policy_number": "",
+  "policy_url": "https://help.coherehealth.com/payer-info/en/articles/13602157-avera-health-plan-commercial-guidelines#shoulder-arthroscopy-v5",
+  "effective_date": "current, versioned per guideline",
+  "criteria_quotes": [
+   "Advanced imaging with radiologist report that demonstrates ANY of the following:",
+   "Full-thickness rotator cuff tear; OR",
+   "High-grade partial-thickness rotator cuff tear; AND",
+   "Documentation must include a recent and detailed history, physical examination related to the onset or change in symptoms, relevant lab results, prior imaging, and details of previous treatments.",
+   "Significant pain or functional impairment that impacts activities of daily living (ADLs); AND",
+   "Documentation of an acute rotator cuff tear (RCT) after an inciting event or injury; OR",
+   "Documentation of a chronic RCT and ALL of the following22:",
+   "Failure of conservative managementA, including ALL of the following:",
+   "Anti-inflammatory medications, non-opioid analgesics, neuropathic medications, or other pain\nmedications, if not contraindicated; AND",
+   "Physical therapy (PT) and/or documentation of patient compliance with a home exercise\nprescription/plan (HEP) provided by a physician or physical therapist targeting the\nrequested region; AND",
+   "PT/HEP trialed for a duration of 3 months or more; OR",
+   "Progression or worsening of symptoms due to PT/HEP; AND",
+   "Corticosteroid injection if medically appropriate10; OR",
+   "Documentation that corticosteroid injection is contraindicated; OR",
+   "The patient has completed a full course of conservative management without meaningful improvement.\nPatient noncompliance, closure of therapy offices, and patient inconvenience do not constitute a failure of\nconservative treatment."
+  ],
+  "appeal_deadline": "2027-02-07",
+  "submission_route": "Use the appeal address printed on your denial letter, or call the number on the back of your insurance card and ask where member appeals are filed.",
+  "how_to_obtain_criteria": "",
+  "confidence": "high",
+  "notes": "directory hit; status=VERIFIED"
+ },
+ "source": "policy_directory",
+ "model": "claude-opus-5",
+ "run_id": "r-c79cd3fd6a6a",
+ "case_id": "poc-f4d8086686"
+}

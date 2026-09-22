@@ -1,0 +1,434 @@
+{
+ "answer": {
+  "policy_found": false,
+  "policy_title": null,
+  "policy_number": null,
+  "policy_url": null,
+  "effective_date": null,
+  "criteria_quotes": [],
+  "appeal_deadline": "2027-02-09 (180 days from the 2026-08-13 notice date). Blue Cross NC's own member-appeals guidance independently confirms a 180-day filing window from the date of the adverse benefit determination letter.",
+  "submission_route": "File a Level 1 (and if needed Level 2) Member Appeal using the Blue Cross NC 'Member Appeal Form.' Submit by mail to: Member Rights and Appeals, Blue Cross and Blue Shield of North Carolina, P.O. Box 30055, Durham, NC 27702-3055; or by fax to 919-765-4409 (a different fax, 919-765-2322, applies only to State Health Plan PPO members, which does not appear to apply here). Include member name, member/subscriber ID (W927303466), the service/claim reference number (POC-332858B095-32885), the reason for appeal, and all supporting medical records/imaging. A representative can be authorized via the separate 'Member Appeal Representation Authorization Form.'",
+  "how_to_obtain_criteria": "I could not find a standalone, publicly posted Blue Cross NC 'medical policy' document that states specific medical-necessity criteria for unicompartmental/partial knee arthroplasty (CPT 27446). Blue Cross NC's provider site states that it discontinued its public medical-policy search tool for many services and now uses licensed MCG (Milliman Care Guidelines) Care Guidelines, administered through the 'MCG Cite Guideline Transparency (CGT) Portal,' for medical-necessity review. Per Blue Cross NC's own site: 'The medical policy search tool is no longer active. Publicly accessible medical policies can be found in the Alphabetical and Categorical listings below. Guidelines that are not publicly accessible can be viewed by logging in to the MCG Cite Guideline Transparency (CGT) Portal.' A knee-arthroplasty-specific MCG guideline was not found among Blue Cross NC's publicly listed 'Commercial Surgery' policy updates I was able to retrieve (which instead cover adjacent topics like patient-specific instrumentation and computer-assisted navigation, not the core indications for CPT 27446). Because federal ACA claims-and-appeals regulations (29 CFR 2560.503-1 / 45 CFR 147.136) require that, on request, the plan disclose the specific internal rule, guideline, protocol, or criterion relied upon in a denial (or a statement that none exists), the patient/provider should: (1) call the number on the back of the member ID card or the number in the denial letter and explicitly request, in writing, 'the specific medical policy, clinical guideline, or MCG care guideline criteria applied to deny CPT 27446 for this member, including the guideline number/title/version'; (2) ask the treating orthopedic surgeon's office (or the patient, via an authorized representative) to request MCG Cite Guideline Transparency Portal access/printout for the specific 'Knee Arthroplasty' guideline used in this determination; and (3) request this at the same time the appeal is filed, since Blue Cross NC is obligated to provide it as part of the adverse benefit determination and appeal process.",
+  "confidence": "medium",
+  "notes": "I verified, from Blue Cross NC's own provider website, that (a) it no longer maintains a fully public medical-policy search tool for many services and instead relies on the MCG Cite Guideline Transparency Portal (login-gated) for medical necessity criteria such as knee arthroplasty, and (b) it independently confirms a 180-day appeal window and gives the same mailing/fax route as the denial letter. I was not able to locate and read the actual text of the MCG 'Knee Arthroplasty' guideline (or an equivalent public BCBSNC document) that Blue Cross NC applied to this CPT 27446 denial, so I cannot quote its medical-necessity criteria. A similarly named 'Knee Arthroplasty' MCG-based guideline exists publicly for a different Blue plan (BCBS Florida, mcgs.bcbsfl.com), but that is a different license/company's implementation and cannot be assumed to be identical to what Blue Cross NC applied to this North Carolina commercial member \u2014 I am not naming it as the governing document here because I could not confirm it is the same version/criteria Blue Cross NC used. The patient's appeal letter should explicitly request the exact guideline document and version relied upon, and should be prepared to submit imaging, radiology reports, and the surgeon's clinical notes addressing single-compartment (unicompartmental) degenerative changes, failed conservative treatment, and absence of contraindications (e.g., significant multicompartmental disease, inflammatory arthritis, or ligamentous instability), which are the typical criteria payers use for CPT 27446, pending confirmation of Blue Cross NC's actual applied criteria."
+ },
+ "raw_text": "```json\n{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": null,\n  \"effective_date\": null,\n  \"criteria_quotes\": [],\n  \"appeal_deadline\": \"2027-02-09 (180 days from the 2026-08-13 notice date). Blue Cross NC's own member-appeals guidance independently confirms a 180-day filing window from the date of the adverse benefit determination letter.\",\n  \"submission_route\": \"File a Level 1 (and if needed Level 2) Member Appeal using the Blue Cross NC 'Member Appeal Form.' Submit by mail to: Member Rights and Appeals, Blue Cross and Blue Shield of North Carolina, P.O. Box 30055, Durham, NC 27702-3055; or by fax to 919-765-4409 (a different fax, 919-765-2322, applies only to State Health Plan PPO members, which does not appear to apply here). Include member name, member/subscriber ID (W927303466), the service/claim reference number (POC-332858B095-32885), the reason for appeal, and all supporting medical records/imaging. A representative can be authorized via the separate 'Member Appeal Representation Authorization Form.'\",\n  \"how_to_obtain_criteria\": \"I could not find a standalone, publicly posted Blue Cross NC 'medical policy' document that states specific medical-necessity criteria for unicompartmental/partial knee arthroplasty (CPT 27446). Blue Cross NC's provider site states that it discontinued its public medical-policy search tool for many services and now uses licensed MCG (Milliman Care Guidelines) Care Guidelines, administered through the 'MCG Cite Guideline Transparency (CGT) Portal,' for medical-necessity review. Per Blue Cross NC's own site: 'The medical policy search tool is no longer active. Publicly accessible medical policies can be found in the Alphabetical and Categorical listings below. Guidelines that are not publicly accessible can be viewed by logging in to the MCG Cite Guideline Transparency (CGT) Portal.' A knee-arthroplasty-specific MCG guideline was not found among Blue Cross NC's publicly listed 'Commercial Surgery' policy updates I was able to retrieve (which instead cover adjacent topics like patient-specific instrumentation and computer-assisted navigation, not the core indications for CPT 27446). Because federal ACA claims-and-appeals regulations (29 CFR 2560.503-1 / 45 CFR 147.136) require that, on request, the plan disclose the specific internal rule, guideline, protocol, or criterion relied upon in a denial (or a statement that none exists), the patient/provider should: (1) call the number on the back of the member ID card or the number in the denial letter and explicitly request, in writing, 'the specific medical policy, clinical guideline, or MCG care guideline criteria applied to deny CPT 27446 for this member, including the guideline number/title/version'; (2) ask the treating orthopedic surgeon's office (or the patient, via an authorized representative) to request MCG Cite Guideline Transparency Portal access/printout for the specific 'Knee Arthroplasty' guideline used in this determination; and (3) request this at the same time the appeal is filed, since Blue Cross NC is obligated to provide it as part of the adverse benefit determination and appeal process.\",\n  \"confidence\": \"medium\",\n  \"notes\": \"I verified, from Blue Cross NC's own provider website, that (a) it no longer maintains a fully public medical-policy search tool for many services and instead relies on the MCG Cite Guideline Transparency Portal (login-gated) for medical necessity criteria such as knee arthroplasty, and (b) it independently confirms a 180-day appeal window and gives the same mailing/fax route as the denial letter. I was not able to locate and read the actual text of the MCG 'Knee Arthroplasty' guideline (or an equivalent public BCBSNC document) that Blue Cross NC applied to this CPT 27446 denial, so I cannot quote its medical-necessity criteria. A similarly named 'Knee Arthroplasty' MCG-based guideline exists publicly for a different Blue plan (BCBS Florida, mcgs.bcbsfl.com), but that is a different license/company's implementation and cannot be assumed to be identical to what Blue Cross NC applied to this North Carolina commercial member \u2014 I am not naming it as the governing document here because I could not confirm it is the same version/criteria Blue Cross NC used. The patient's appeal letter should explicitly request the exact guideline document and version relied upon, and should be prepared to submit imaging, radiology reports, and the surgeon's clinical notes addressing single-compartment (unicompartmental) degenerative changes, failed conservative treatment, and absence of contraindications (e.g., significant multicompartmental disease, inflammatory arthritis, or ligamentous instability), which are the typical criteria payers use for CPT 27446, pending confirmation of Blue Cross NC's actual applied criteria.\"\n}\n```",
+ "usd": 0.1114,
+ "transcript": [
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "text",
+     "text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-13\nMember: Harper Delgado\nMember ID: W927303466\nPlan: Blue Cross and Blue Shield of North Carolina (Commercial/ACA), state of North Carolina\n\nDear Harper,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Partial knee replacement\n    Procedure code (CPT): 27446\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-09).\n\nReference number: POC-332858B095-32885\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EuECCpABCBIYAipAH0uLr6DzD4XvkXPflgftwUJdZ4IHNAQG1PNPCSsImp8zAeyHS2AuXmI9yHjJGo/Ot03mekPs74Y51tBTEb/d4TIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAc/qwdUGEgwRZ+Ls0kFldHkAy/0aDD5eMNfvOxYOBClAUCIwyLyGW4w+QD24J4QTLOF8gaJUdgML9NIBw2YpuF3PQ+ruNo9b/Ptdc5I0cDpe60SiKn5zA5OxE3b6YZ8DcqC0/gTXlB/q5iQj4pBN6J0Yl0t44rlSELB5Avxtz8S3Qj+1mYAkwVpT/5HO33lGMpBdnuf7LQZPetlH6BfvRvxsGZe41iz8gbRr7TIpD9fj9/2OlVKT6kQz3x+2OEcddjRrNQlcHbO1bPGGBS8+zi4hVakYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01WCX3R1qcxPeG9GqV2kK9d8",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Blue Cross Blue Shield North Carolina medical policy unicompartmental knee arthroplasty 27446"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01A3yWmX14pQYLQeDMpqgTX6",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "BCBS NC medical policy partial knee replacement CPT 27446 medical necessity"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01WCX3R1qcxPeG9GqV2kK9d8",
+     "content": "{\"query\": \"Blue Cross Blue Shield North Carolina medical policy unicompartmental knee arthroplasty 27446\", \"results\": [{\"title\": \"Subject: Knee Arthroplasty - Medical Coverage Guideline\", \"url\": \"https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-60&pv=false\", \"snippet\": \"<strong>(10-year prosthesis survival of 90 versus 95 percent, respectively).</strong> Unicompartmental knee arthroplasty is\"}, {\"title\": \"Medical policies and guidelines | Providers | Blue Cross NC\", \"url\": \"https://www.bluecrossnc.com/providers/policies-guidelines-codes/medical-policies\", \"snippet\": \"Find Commercial and Medicare medical policies, administrative and reimbursement guidelines for procedures, and correct coding guidance.\"}, {\"title\": \"Medical Policies\u200b | Blue Cross Blue Shield of North Carolina\", \"url\": \"https://provider.bcbssc.com/web/public/brands/nc/manage-your-plan/understanding-insurance/medical-policies/\", \"snippet\": \"How do we decide which health care services to cover? We take a number of factors into account, including: \u00b7 We also determine if services are medically necessary. To do so, we rely on our medical policies\"}, {\"title\": \"Status Active Medical and Behavioral Health Policy Section: Surgery\", \"url\": \"https://www.aapc.com/codes/webroot/upload/general_pages_docs/document/Knee_Arthroplasty_(Knee_Replacement).pdf\", \"snippet\": \"Medical and Behavioral Health Policy \u00b7 Policy Number: IV-122\"}, {\"title\": \"Patient-Specific Instrumentation (e.g., Cutting Guides) for Joint Arthroplasty | Providers | Blue Cross NC\", \"url\": \"https://www.bluecrossnc.com/providers/policies-guidelines-codes/commercial/surgery/updates/patient-specific-instrumentation-eg-cutting-guides-for-joint-arthroplasty\", \"snippet\": \"Use of patient-specific instrumentation (e.g., cutting guides) for joint arthroplasty, including but not limited to use in unicompartmental or total knee arthroplasty, is <strong>considered investigational</strong>.\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01A3yWmX14pQYLQeDMpqgTX6",
+     "content": "{\"query\": \"BCBS NC medical policy partial knee replacement CPT 27446 medical necessity\", \"results\": [{\"title\": \"Medical policies and guidelines | Providers | Blue Cross NC\", \"url\": \"https://www.bluecrossnc.com/providers/policies-guidelines-codes/medical-policies\", \"snippet\": \"Blue Cross NC uses MCG care guidelines to help review medical necessity for health service requests.\"}, {\"title\": \"Medical Coding Knee Replacement 2026\", \"url\": \"https://codingclarified.com/medical-coding-knee-replacement-2026medical-coding-knee-replacement/\", \"snippet\": \"CPT\u00ae 27446 reports <strong>unicompartmental (partial) knee replacement</strong>. Revision knee arthroplasty procedures are reported with CPT\u00ae 27486, 27487, or 27488 depending on the components revised or removed.\"}, {\"title\": \"CPT code 27446: partial knee arthroplasty billing | Pabau\", \"url\": \"https://pabau.com/procedure-codes/cpt-code-27446/\", \"snippet\": \"Criteria vary by jurisdiction, but most contractors look for the same things: <strong>Radiographic evidence of isolated medial or lateral compartment arthritis</strong> ... You can read the active LCDs for knee arthroplasty in the CMS Medicare Coverage Database.\"}, {\"title\": \"Subject: Knee Arthroplasty - Medical Coverage Guideline\", \"url\": \"https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-60&pv=false\", \"snippet\": \"Original Effective Date: 10/15/16 \u00b7 Subject: Knee Arthroplasty\"}, {\"title\": \"Policies, guidelines and codes | Providers | Blue Cross NC\", \"url\": \"https://www.bcbsnc.com/providers/policies-guidelines-codes\", \"snippet\": \"These guidelines detail when certain medical services are considered medically necessary by Blue Cross and Blue Shield of North Carolina (Blue Cross NC), and whether or not they are considered investigational by Blue Cross NC.\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EtkDCpABCBIYAipABoCZ2AfkMMraMX64rkkQQOyKw17gIlz7CCtMp+UIWlknh+RxrRuza4nsgjgXMASqbn/l8y225gMGLj17WcmMsTIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAdTqwdUGEgxA1HyoPJV6ozHEiIcaDCrJJRcnJVgvh8LUjSIwEs47shcnj1WChgs1TDTZw0nzZYVxGOFMhC/HC6WVZVvTv+VBnrJRS+ktjnWEp6k7KvUBDJiG397pjHn1T4I8XMO1oLXCLBYMzdqKa9On0g3C6L6uCtFcdHv0uEVT1wyN20t5eI949VKNUJl4bkvU8lBZ37Tnyr7Sbt7r44j5YZgCqNJpmsw8i2ggX0B0/k5ZmdvNXFWdMFeDQDPuHMc8sLiLyFrzLwruGADqvBuvlSfR24TksHoI3bJqTqKV+KNEnjOZPJSrVWKKSLFQM7nBwgLtEWatU7P+cS4gQqAIEpBT7LT8o2DstLhgqDfytVD2JCYt0znoNABTUE0zljfWN17dYhW+QLHIwWtrYG6lHRsJ1zN2Tj0GMzhn20lBQqEqb1ysjpAgk88YAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01PX3tFhi4fpMoULh4RiyhMq",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.bluecrossnc.com/providers/policies-guidelines-codes/medical-policies"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01Ukd7J8LZaT6NzcgFYXRHQV",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "bluecrossnc.com knee arthroplasty medical policy surgery"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01PX3tFhi4fpMoULh4RiyhMq",
+     "content": "{\"url\": \"https://www.bluecrossnc.com/providers/policies-guidelines-codes/medical-policies\", \"final_url\": \"https://www.bcbsnc.com/providers/policies-guidelines-codes/medical-policies\", \"http_status\": 200, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Medical policies and guidelines | Blue Cross NC Providers Medical policies and guidelines Find Commercial and Medicare medical policies, administrative and reimbursement guidelines for procedures, and correct coding guidance. size lg orientation horizontal alignment center is-hero true no-alt-text true hide-image-mobile false sticky-bar-enabled false show-sticky-text-mobile false lh-theme primary-extra-dark lh-content-width md lh-padding-top xl lh-padding-bottom xl lh-gutters tight search-input-name medical policies search search-label Search policies and guidelines lh-id top lh-context-id container-707d15aab7 lh-theme neutral-light lh-spacing default lh-content-width sm lh-padding-top xl lh-padding-bottom xs lh-gutters default set-name medical policies search collection-id 56602 front-end-id 56452 results-formatter list search-type redirect search-page /content/bcbsnc/us/en/providers/policies-guidelines-codes/medical-policies/medical-policies-search always-sort false combination-logic OR tags content-types:medical-policies is-results-container true form-name medical policies search analytics-search-type medical policies search pagination-type numeric results-per-page 10 search-sets-formatter list cell-padding default divider horizontal error-message No results found. lh-theme neutral-light lh-padding-top none lh-padding-bottom none Commercial policies lh-id commercial lh-context-id container-707d15aab7 lh-theme neutral-light lh-spacing default lh-content-width md lh-padding-top lg lh-padding-bottom xxs lh-gutters default is-fragment true reference /content/bcbsnc/us/en/fragments/providers/commercial-policies Medicare policies lh-id medicare lh-context-id container-707d15aab7 lh-theme neutral-light lh-spacing default lh-content-width md lh-padding-top sm lh-padding-bottom xxs lh-gutters default is-fragment true reference /content/bcbsnc/us/en/fragments/providers/medicare-policies lh-theme neutral-light lh-padding-top md lh-padding-bottom md\", \"text_truncated\": false}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01Ukd7J8LZaT6NzcgFYXRHQV",
+     "content": "{\"query\": \"bluecrossnc.com knee arthroplasty medical policy surgery\", \"results\": [{\"title\": \"Patient-Specific Instrumentation (e.g., Cutting Guides) for Joint Arthroplasty | Providers | Blue Cross NC\", \"url\": \"https://www.bluecrossnc.com/providers/policies-guidelines-codes/commercial/surgery/updates/patient-specific-instrumentation-eg-cutting-guides-for-joint-arthroplasty\", \"snippet\": \"Minimum 5-Year Outcomes of a Multicenter, Prospective, Randomized Control Trial Assessing Clinical and Radiological Outcomes of Patient-Specific Instrumentation in Total Knee Arthroplasty. J Arthroplasty. Jan 22 2022. Specialty Matched Consultant Advisory Panel 6/2022 \u00b7 Specialty Matched Consultant Advisory Panel 6/2023 ... 11/25/14 New policy developed. Use of custom implants or patient-specific instrumentation (e.g., cutting guides) for joint arthroplasty is considered investigational for all applications. Medical Director review 10/2014.\"}, {\"title\": \"Medical policies and guidelines | Providers | Blue Cross NC\", \"url\": \"https://www.bluecrossnc.com/providers/policies-guidelines-codes/medical-policies\", \"snippet\": \"Find Commercial and Medicare medical policies, administrative and reimbursement guidelines for procedures, and correct coding guidance.\"}, {\"title\": \"Computer Assisted Surgical Navigational Orthopedic Procedures | Providers | Blue Cross NC\", \"url\": \"https://www.bluecrossnc.com/providers/policies-guidelines-codes/commercial/surgery/updates/computer-assisted-surgical-navigational-orthopedic-procedures\", \"snippet\": \"The main difference found between total knee arthroplasty with computer-assisted navigation and total knee arthroplasty without computer-assisted navigation is increased surgical time with computer-assisted navigation. Few differences in clinical and functional outcomes were seen at up to twelve years post-procedure. The evidence is insufficient to determine that the technology results in an improvement in the net health outcome. This policy may apply to the following codes.\"}, {\"title\": \"Total Facet Arthroplasty | Providers | Blue Cross NC\", \"url\": \"https://www.bluecrossnc.com/providers/policies-guidelines-codes/commercial/surgery/updates/total-facet-arthroplasty\", \"snippet\": \"Please refer to the Member\u2019s Benefit Booklet for availability of benefits. Member\u2019s benefits may vary according to benefit design; therefore member benefit language should be reviewed before applying the terms of this medical policy. Not applicable. Total facet arthroplasty is considered ...\"}, {\"title\": \"Orthotics | Providers | Blue Cross NC\", \"url\": \"https://www.bcbsnc.com/providers/policies-guidelines-codes/commercial/other-treatments/updates/orthotics\", \"snippet\": \"BCBSA Medical Policy Reference Manual [Electronic Version]. 1.03.03, 11/14/13 \u00b7 Papotto BA, Mills T. Treatment of severe flexion deficits following total knee arthroplasty: a randomized clinical trial. Orthop Nurs. 2012 Jan-Feb;31(1):29-34 \u00b7 Stephenson JJ, Quimbo RA, Gu T. Knee-attributable medical costs and risk of re-surgery ...\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EtwHCpABCBIYAipA/EcteNHhCd+1RgF+i6bbNWL+/PZCTiq776K2zl+w6OlBukrGP44YHabgqA86EjG5BVl99CUXxljZkbkf7O0ruTIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAdrqwdUGEgws2Bem+y1xYzqaq94aDLtCYqcy78iWgn7K9SIwiyZqJl8RKCKn+tSZ5AWiBv6WR95Vxb2RlNjBrf7V41T6FiQ5XkOUYhHua8PblX3eKvgFQ5x21G9HL8IZOBR7IpAlMHF8dv6Bymt7XtTvamVxe0M705q3tBGeFpsO+G9lp3bFA97n7cIdf6GPV5l26pfcPr+my7gjgazpH6T0HnEZdnKw/gEPfG10GDBjyd7cW0hC4MjH+RAZotDxtKoWCexTQxO9fucFaEsE+JnMebRzPUWIJP8dOuJe0o+nsgzqzZi7n6dF8E3Rai3UMPk3Bq0U60iewppz0/5qz9LeIJ6L+403Z1jy41lhT6go2BChbDml/skkGtkAO/OIs+MyuxdRMslZVavo2Ij63EzlHKTxBICnR+iRizLvzrK7gjVwQOlM9PDjm0DANMJ8YgCrUN7IPf0uUQ46CKXFX2itEO2HLa4LSVvCb36A3ieIlFX7q4wVV4kCG5iwpFbUMPJX99CW54uy5dcRKZlNZ5GT6yCbQgSu+HczLewI6k5RbEnuz2+rs4dFujzOYt5BPU9XHk3IJ8nz1eqDjLy/v9ewhyEpLwVR6C6wkplQQ/PTQqDxVTV8SQfGvxPpiHBZImIktBSdQn2uEmKsg4G9sKs0VyvewF3gcE8v4skcR3PPg1AmHJH+Vka59MgOx8mefrCK05dOwAxB3Nb89enoObLzMDKLw8LYou10hH4Hv5wqYmjWQw7xxn+XbjxsTPeuGH86Gc58vVdNGL486FoFU0en2YRXNaovBR7LQ9hO0FWqMKhLeefWU8ojM3t0kV18bB+3JL92aVFD7Fd+kQBwsAIjhdw47gHBblDsHDPwtFTJDcb5kEzitR+RCkdXLeOagcA7pJ6yb2TSM1G7BdGZc8IQjex3ogm3yK/7/0rJqGwcesAFAG7mcHaIV5F+8z2QKuvZcytHj2JJ21P8pd9dQlZlmFK6/uWCo+aluBRY6A8dfVtX50fdK9ycgfoNNaTJcNrHh/H/F61aj38wrORhQc5Wj+bGWrdEWQyl7R86htbbaAQa4Zh6EL3SChrPdCEkZBV2uI+Lk69g5LddoDbmnMjViKd7b7/m/ZqKs593nhgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01BXLAET8t4dwsHpeZJfhFEH",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"Blue Cross NC\" \"Knee Arthroplasty\" medical policy site:bluecrossnc.com OR site:bcbsnc.com"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01Rfyq9Sp2Uw4ipsCexXUGyg",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Blue Cross NC prior authorization \"unicompartmental knee\" OR \"partial knee replacement\" MCG criteria"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01BXLAET8t4dwsHpeZJfhFEH",
+     "content": "{\"query\": \"\\\"Blue Cross NC\\\" \\\"Knee Arthroplasty\\\" medical policy site:bluecrossnc.com OR site:bcbsnc.com\", \"results\": [{\"title\": \"Patient-Specific Instrumentation (e.g., Cutting Guides) for Joint Arthroplasty | Providers | Blue Cross NC\", \"url\": \"https://www.bluecrossnc.com/providers/policies-guidelines-codes/commercial/surgery/updates/patient-specific-instrumentation-eg-cutting-guides-for-joint-arthroplasty\", \"snippet\": \"Minimum 5-Year Outcomes of a Multicenter, Prospective, Randomized Control Trial Assessing Clinical and Radiological Outcomes of Patient-Specific Instrumentation in Total Knee Arthroplasty. J Arthroplasty. Jan 22 2022. Specialty Matched Consultant Advisory Panel 6/2022 \u00b7 Specialty Matched Consultant Advisory Panel 6/2023 ... 11/25/14 New policy developed. Use of custom implants or patient-specific instrumentation (e.g., cutting guides) for joint arthroplasty is considered investigational for all applications. Medical Director review 10/2014.\"}, {\"title\": \"Orthotics \u201cNotification\u201d | Providers | Blue Cross NC\", \"url\": \"https://www.bluecrossnc.com/providers/policies-guidelines-codes/commercial/other-treatments/notifications/orthotics-notification\", \"snippet\": \"BCBSA Medical Policy Reference Manual [Electronic Version]. 1.03.03, 11/14/13 \u00b7 Papotto BA, Mills T. Treatment of severe flexion deficits following total knee arthroplasty: a randomized clinical trial. Orthop Nurs.\"}, {\"title\": \"Computer Assisted Surgical Navigational Orthopedic Procedures | Providers | Blue Cross NC\", \"url\": \"https://www.bluecrossnc.com/providers/policies-guidelines-codes/commercial/surgery/updates/computer-assisted-surgical-navigational-orthopedic-procedures\", \"snippet\": \"BCBSA Medical Policy Reference Manual [Electronic Version]. 7.01.96, 4/25/06 \u00b7 Ontario Health Technology Advisory Committee (OHTAC) Ministry of Health and Long-term Care. Medical Advisory Secretariat (March 2004). Computer assisted Hip and Knee Arthroplasty: navigation and robotic systems.\"}, {\"title\": \"Continuous Passive Motion in the Home Setting | Providers | Blue Cross NC\", \"url\": \"https://www.bcbsnc.com/providers/policies-guidelines-codes/commercial/home-health-dme/updates/continuous-passive-motion-in-the-home-setting\", \"snippet\": \"Statements in the When Not Covered ... Policy Guidelines: &quot;Following total knee arthroplasty, <strong>CPM in the home setting will be allowable for up to 17 days after surgery while patients are immobile or unable to bear weight</strong>....\"}, {\"title\": \"Ablation and Neural Therapy Procedures for Headache and Pain Management | Providers | Blue Cross NC\", \"url\": \"https://www.bluecrossnc.com/providers/policies-guidelines-codes/commercial/surgery/updates/ablation-and-neural-therapy-procedures-for-headache-and-pain-management\", \"snippet\": \"Surgical procedures intended to ... in the knee (eg, abrasion arthroplasty, microfracture techniques, autologous chondrocyte implantation) are <strong>appropriate only for younger individuals with focal cartilage defects secondary to injury</strong> and are not addressed in this policy.\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01Rfyq9Sp2Uw4ipsCexXUGyg",
+     "content": "{\"query\": \"Blue Cross NC prior authorization \\\"unicompartmental knee\\\" OR \\\"partial knee replacement\\\" MCG criteria\", \"results\": [{\"title\": \"Subject: Knee Arthroplasty - Medical Coverage Guideline\", \"url\": \"https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-60&pv=false\", \"snippet\": \"stage OA that are limited to a single compartment. Most unicompartmental arthroplasties involve the \u00b7 medial compartment, although isolated lateral and patellofemoral arthroplasties also may be performed. Compared with patients undergoing total knee arthroplasty, patients with unicompartmental arthroplasty\"}, {\"title\": \"Medical Policy Med_Clin_Ops-009 Knee Arthroplasty (Total or Partial)\", \"url\": \"https://www.centralhealthplan.com/chp/-/media/Project/CentralHealthPlan/Members/ClinicalCriteria/Med_Clin_Ops-009.pdf\", \"snippet\": \"and Care Guidelines\u00ae are trademarks of MCG Health, LLC (MCG). ... The purpose of this policy is to establish the clinical review criteria that support thedetermination of \u00b7 medical necessity for Total Knee Arthroplasty (TKA) and partial or unicompartmental knee ... A. Initial/Primary Total Knee Arthroplasty or Partial Knee Arthroplasty \u00b7 Prior Authorization is required for elective Total or Partial Knee Arthroplasty and maybe\"}, {\"title\": \"MEDICAL POLICY \u2013 7.01.550 Knee Arthroplasty in Adults Effective Date:\", \"url\": \"https://www.premera.com/medicalpolicies/7.01.550.pdf\", \"snippet\": \"Unicompartmental knee replacements are an option for a small percentage of individuals with\"}, {\"title\": \"Highmark Commercial Medical Policy-PA, WV, DE Medical Policy: S-299-001\", \"url\": \"https://securecms.highmark.com/content/dam/medpolicy/en/highmark/mpu/S-299-001-dft-PA,%20WV,%20DE.pdf\", \"snippet\": \"Partial knee replacement not meeting the criteria as indicated in this policy is considered not medically\"}, {\"title\": \"Total Joint Replacement (Hip and Knee) for Medicare\", \"url\": \"https://onbaseext.phs.org/PEL/DisplayDocument?ContentID=OB_000000001634\", \"snippet\": \"Knee revision or repeat procedure for failed previous joint replacement/arthroplasty. ... Hip revision or repeat procedure for failed previous HIP replacement/arthroplasty. ... When the procedure is indicated for advanced joint disease. ... For Unicompartmental Knee Replacement (See <strong>MPM 41.0</strong>).\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "ErAFCpABCBIYAipAu9r5yul+A6inNFFOG57YD8edIeGK6RSXdPznwt/eUbZ2KMDIb2RHuiQK+6OR8UeLCozOcon5MV9PoXfrAkIbYzIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAd/qwdUGEgxU6rPNGTPmpJ1CzAEaDLTTQh8KCDWihcTHoCIwoWrFUdwANtvFDsxz+wMLQKmNvO47/mXtt2oLCLU6jPiUP2s6GY4JSWYW+vDwtViiKswD0j5yCOi+MPfslISNsySD8EMAM+sbPtJ4oCUCK4KahzB9ePHMN6GYKU0mFNvA2JWrKewwaMPYgIFq5Mzt1NmtdA2Wm2H9g5PRineeg+ijQuqHnn+vYf2Nzvw4bod/YN3TWtLtioVAC6iIf/f+B1lL9kTd6x59anOSMCQYir9U0kY23Lr1nM8A2ptkgDDps3PW9L7TIa4Sli/ec9UqIoLl0j5XJJJfYL5fMTrRd8pAFOsPl4Yw4woujXPcat2gDApLm/04pi79Uv5KUKUKaWI+4pcML8Onb/8xIi1cSwSmP/pUvdphGPjNhF35zc36ieYq3pAc0Zzyapmd7TNTXPfNxAzQI4pe8YkKyApA15SFIAzAjtM/s3UYGInUZEuXhcwHHUBGwbn65dp6Zz1t4lcr5ushRgLP3piBB+d6g+YUyH/P4kGUGUdyVw1CQLWGTxKMWOryWKHK1Z9QWm1cUXOrXTEWEmxmQdU5rH20x1hXzrmzfRQIwyQbuHTjNPZXTfXudJF6qVmtTaVXnEKKOXkrsFGf2BfA9raVS3idXK/9+u87kNWJ+KS3BelydEmAyyFi+FW1Ua1lR4LhrWwQP9bj/E6sZ+xz4H6ja9Dv/xgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01PCXYn6Vph82nhFFfyTMS7H",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "bluecrossnc.com \"Total Joint\" OR \"Knee Replacement\" commercial policy surgery updates list"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01SurSTjHpgtyxAo3qaeMpuM",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.bluecrossnc.com/providers/policies-guidelines-codes/commercial/surgery"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01PCXYn6Vph82nhFFfyTMS7H",
+     "content": "{\"query\": \"bluecrossnc.com \\\"Total Joint\\\" OR \\\"Knee Replacement\\\" commercial policy surgery updates list\", \"results\": [{\"title\": \"Computer Assisted Surgical Navigational Orthopedic Procedures | Providers | Blue Cross NC\", \"url\": \"https://www.bluecrossnc.com/providers/policies-guidelines-codes/commercial/surgery/updates/computer-assisted-surgical-navigational-orthopedic-procedures\", \"snippet\": \"Outcomes-based evaluations supporting computer-assisted surgery and minimally invasive surgery for total hip arthroplasty. Expert Rev Med Devices 2007; 4(6): 873-883 \u00b7 BCBSA TEC Assessment [Electronic Version]. 2007 \u00b7 BCBSA Medical Policy Reference Manual [Electronic Version]. 7.01.96, 1/8/09 \u00b7 Kim YH, Kim JS, Choi Y et al. Computer-assisted surgical navigation does not improve the alignment and orientation of the components in total knee arthroplasty. J Bone Joint Surg Am 2009; 91(1):14-19\"}, {\"title\": \"BCBSNC and OrthoCarolina Team Up to Reduce Cost and Improve Quality of Knee Replacement Surgeries\", \"url\": \"https://mediacenter.bcbsnc.com/news/bcbsnc-and-orthocarolina-team-up-to-reduce-cost-and-improve-quality-of-knee-replacement-surgeries\", \"snippet\": \"CHAPEL HILL, N.C. \u2014 Starting ... arrangement with OrthoCarolina. Under the new agreement, <strong>BCBSNC customers will pay a single price for knee replacement surgeries</strong> and benefit from OrthoCarolina\u2019s coordinated care ...\"}, {\"title\": \"Subject: Knee Arthroplasty - Medical Coverage Guideline\", \"url\": \"https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-60&pv=false\", \"snippet\": \"Joint Replacement (Hip and Knee) (L33618) (10/01/15) (Revised 01/08/19). 8. Cram P, et al. Total knee arthroplasty volume, utilization, and outcomes among Medicare \u00b7 beneficiaries, 1991-2010. JAMA 308.12 (2012): 1227-1236. 9. Della Valle CJ. (2010). Javad Parvizi, MD. J Am Acad Orthop Surg, 18, 771-772. 10. Fernandes L, et al. EULAR recommendations for the non-pharmacological core management of hip \u00b7 and knee osteoarthritis.\"}, {\"title\": \"Temporomandibular Joint Dysfunction Surgery | Providers | Blue Cross NC\", \"url\": \"https://www.bluecrossnc.com/providers/policies-guidelines-codes/medicare/surgery/updates/temporomandibular-joint-dysfunction-surgery\", \"snippet\": \"Total joint replacement with the TMJ Fossa-Eminence/Condylar Prosthesis System\u2122 \u00b7 Partial joint replacement with the TMJ Fossa-Eminence Prosthesis\u2122 5. This policy may apply to the following codes.\"}, {\"title\": \"Program Selection Criteria: Knee and Hip Replacement ueD isti nction\u00ae\", \"url\": \"https://www.bcbs.com/dA/58e1814c82/fileAsset/Selection_Criteria_KneeHip_Replacement_2019.pdf\", \"snippet\": \"Hip and Total Knee Replacement. www.jointcommission.org ... Blue Cross Blue Shield Association is an association of independent Blue Cross and Blue Shield companies. ... Knee and Hip Replacement for the 2019 designation cycle. Informational Metrics for Ambulatory Surgery Centers\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01SurSTjHpgtyxAo3qaeMpuM",
+     "content": "{\"url\": \"https://www.bluecrossnc.com/providers/policies-guidelines-codes/commercial/surgery\", \"final_url\": \"https://www.bcbsnc.com/providers/policies-guidelines-codes/commercial/surgery\", \"http_status\": 404, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Page not found Page not found Sorry, but it appears the page or document you were looking for may have been moved. The site administrator has been notified. Go home\", \"text_truncated\": false}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EuYFCpABCBIYAipAnPJCTM+xbvWoLCxB1Sb8cv5PDM4vQr+OMrVqNJRHvPQsA7XGf7W1qORmBDXTFfYYByH33ZzJ750BkP7zuQUMeDIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAeXqwdUGEgygAM8Wh6jhsBi20rwaDEZ1m0GDe+0qkHBCCyIwGaYimHiZ3jOxFfreB2ULMOXYiHrI04jHqLTBzn5ellwnUUV+odZF+bmL2E7G9+o/KoIEQER4KZZBLWn2gb7Uigw04Nicnu5TJz+XtbxLnxorAzxWKPxqAsbRj7l7D6KS/afiSpG9mZya7xP/fQdmIPNUsOFlvCCkeAQLpXxXSGbFlg8o/tcaGo5YtXUs1fPGHq3IsY0xjfBAw5IqXz/ZiYiHoA44d6pVv6i5ieytssJuadtfz8GIaTzRLv1LI4S3/MmL6IonWKyZyByKuqNdfmFEq+Rrbi4lfkncukGuqx1R5LRYICtHXVdgvnW4z7fGlbqOwh2fufLQeZ2xTn72FmYuZOCkJHJ3bmSNQIJw4UXwqSg0oTH21ONcMJg0iDXcvc2vPb/WqnSVXH6snXHRZ7JObkWmRxRnTVFiTbNQ1eTeCM+Tng9H84Jb1EH5CMmsXtRaKWhfe7osW4VB24rVLaJMojCfB/ga5uiYcNfuduW1Eclcy2u7qqaXeJJYe/0XfO9bv/OKYot69FpHgJks3GVgwdwSrT0d+3flyN2Qj2s6qYcpxlncyMAe/WEV1ZcrNG8lh/gIbW0jpoXtsj6zlPPXJ+zBq15p7niOhPF6yggqpndTbTYXdVU4JfAnfULESCgCHETNDbdwS0YX3i1sFJbp+h91e4iDQ2VwDPnC3KvS0OSbIRc7EEGo0GBcV310K5SdKciIYYmYonGRwuZ+XtS/XPCOZ4hhVfI8sZE5sOyQZRfR+BgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_016TdrmLApLLGpYWc1AuGXZ8",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"Blue Cross NC\" \"MCG\" prior authorization criteria lookup tool orthopedic"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01AhoGbqu2Yyjm6vqKbm22uH",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Blue Cross NC \"medical policy\" search \"knee\" total OR partial replacement site:bcbsnc.com"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_016TdrmLApLLGpYWc1AuGXZ8",
+     "content": "{\"query\": \"\\\"Blue Cross NC\\\" \\\"MCG\\\" prior authorization criteria lookup tool orthopedic\", \"results\": [{\"title\": \"Search Medical Policies and Clinical Guidelines\", \"url\": \"https://provider.healthybluenc.com/north-carolina-provider/medical-policies-and-clinical-guidelines\", \"snippet\": \"Our member\u2019s Medicare plan may make coverage decisions using criteria from the clinical care guidelines provided by MCG Health. <strong>Visit the MCG Health website and follow the steps in their Coverage Guidelines tool to access criteria</strong>. ... Providers, improve your prior ...\"}, {\"title\": \"Medical policies and guidelines | Providers | Blue Cross NC\", \"url\": \"https://bluecrossnc.com/providers/medical-policies-and-coverage/search-medical-policy\", \"snippet\": \"Use the <strong>Medicare prior authorization drug search tool</strong> to access each drug&#x27;s criteria and request forms.\"}, {\"title\": \"Search for a Medical Policy | Providers | Blue Cross NC\", \"url\": \"https://pstage.bluecrossnc.com/providers/medical-policies-and-coverage/search-medical-policy\", \"snippet\": \"<strong>The medical policy search tool is no longer active</strong>. Publicly accessible medical policies can be found in the Alphabetical and Categorical listings below. Guidelines that are not publicly accessible can be viewed by logging in to the MCG Cite Guideline Transparency (CGT) Portal.\"}, {\"title\": \"Medical policies and guidelines | Providers | Blue Cross NC\", \"url\": \"https://www.bluecrossnc.com/providers/policies-guidelines-codes/medical-policies\", \"snippet\": \"Use the <strong>Medicare prior authorization drug search tool</strong> to access each drug&#x27;s criteria and request forms.\"}], \"result_count\": 4, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01AhoGbqu2Yyjm6vqKbm22uH",
+     "content": "{\"query\": \"Blue Cross NC \\\"medical policy\\\" search \\\"knee\\\" total OR partial replacement site:bcbsnc.com\", \"results\": [{\"title\": \"Orthotics | Providers | Blue Cross NC\", \"url\": \"https://www.bcbsnc.com/providers/policies-guidelines-codes/commercial/other-treatments/updates/orthotics\", \"snippet\": \"BCBSA Medical Policy Reference Manual [Electronic Version]. 1.03.03, 11/14/13 \u00b7 Papotto BA, Mills T. Treatment of severe flexion deficits following total knee arthroplasty: a randomized clinical trial. Orthop Nurs.\"}, {\"title\": \"Temporomandibular Joint Dysfunction Surgery | Providers | Blue Cross NC\", \"url\": \"https://www.bcbsnc.com/providers/policies-guidelines-codes/medicare/surgery/updates/temporomandibular-joint-dysfunction-surgery\", \"snippet\": \"Revision Date: November 14, 2023: Added the following statement to the beginning of policy: \u201cThis policy was implemented in the absence of National Coverage Determinations (NCD) or Local Coverage Determinations (LCD) coverage criteria.\u201d Statement added to align with the 2024 CMS Final Rule. Revision Date: March 22, 2024: Annual Review. Added verbiage to reflect the corporate policy. Removed code 21089. Revision Date: April 17, 2025: Annual Review. Updated language to align with Corporate Policy. Added references to include Medicare Benefit Policy and MCG guidelines.\"}, {\"title\": \"Continuous Passive Motion in the Home Setting | Providers | Blue Cross NC\", \"url\": \"https://www.bcbsnc.com/providers/policies-guidelines-codes/commercial/home-health-dme/updates/continuous-passive-motion-in-the-home-setting\", \"snippet\": \"BCBSA Medical Policy Reference Manual [Electronic Version]. 1.01.10, 12/11/08 \u00b7 Harvey LA, Brosseau L, Herbert RD. Continuous passive motion following total knee arthroplasty in people with arthritis.\"}, {\"title\": \"Modifier Guidelines | Providers | Blue Cross NC\", \"url\": \"https://www.bcbsnc.com/providers/policies-guidelines-codes/commercial/reimbursement/notifications/modifier-guidelines-notification-07-18-2023\", \"snippet\": \"Categories of these planned surgeries ... (total, partial, revision), congenital/deformity procedures, chronic/sub-acute conditions, and transplant procedures. Evaluation and management services with modifier 57 for these categories of planned surgery will be denied when billed outside the consultative and emergency settings noted above. Evaluation and management services performed the same day as a 90-day global medical or surgical ...\"}, {\"title\": \"Modifier Guidelines | Blue Cross NC\", \"url\": \"https://www.bcbsnc.com/providers/policies-guidelines-codes/commercial/reimbursement/updates/modifier-guidelines\", \"snippet\": \"Categories of these planned surgeries ... (total, partial, revision), congenital/deformity procedures, chronic/sub-acute conditions, and transplant procedures. Evaluation and management services with modifier 57 for these categories of planned surgery will be denied when billed outside the consultative and emergency settings noted above. Evaluation and management services performed the same day as a 90-day global medical or surgical ...\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EsoECpABCBIYAipAX9oCDnVOGNxwqLDh/GHS2/nZm85f+DxvGuCR67oW0SY58qJnvTlHd54poptsU9WI9giIqYZMrXT+6CjHE8pL4jIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAevqwdUGEgxte2YgA94pXh7Ei+YaDPmmFLB0Efn4cmUsFyIwwrGZYiXD8WOH0JzM4G18eC34lgktoHAgJXu5wGSQui1bDaDvAI5w23Nj4kZJKiAuKuYCssokLgSnb3f6zFj3WRHpNmJQywcsA0c2SbprwBXDuvaXwwq2jjYxlS7NxdHFZV/YqU2lyWaPy8U5mPfYu8NSdMBg07RjBITIv4Z6FyMx29Aik1cs2JzWkOoaVpo8GW/0LgdTu06k8GlaXtDBA+ySF5OPVEY54pa9G+wUF3oRL09DI3mmRovPCBOv41lFC/Ji68oTOC/C8OjXzolGPRHtP94zf8xlccShW9o+Bykh1Cf6wfhAybARRZoBCWNxjFQITrg2L0W+GpH2xjhpBSAwbX4j/la8QsVpTsB8NtMec+1S09faasq4YZgJwj6pQn8MjHk2wMgCN60UG+yj6+FlrOBNBwqPggY9smv2CGYqpXRjDtjAohuU9ajyBCmt9bJfi4tG00bMn6OJIWPxe15gu0UaDpJovnmw+pa0lMazACWptQT4i3L0xVmIafAs5VZ/kDUbqZaFu4ZatQkMOPc/nxS5bjik1RgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01F6NqdjZoSk7FnrfNaqNQog",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://pstage.bluecrossnc.com/providers/medical-policies-and-coverage/search-medical-policy"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01UWyUyicpBFy4BJjYtHaiVK",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "MCG Cite Guideline Transparency Portal Blue Cross NC login access criteria"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01F6NqdjZoSk7FnrfNaqNQog",
+     "content": "{\"url\": \"https://pstage.bluecrossnc.com/providers/medical-policies-and-coverage/search-medical-policy\", \"final_url\": \"https://pstage.bluecrossnc.com/providers/medical-policies-and-coverage/search-medical-policy\", \"http_status\": 403, \"content_type\": null, \"login_wall\": true, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"403 Not allowed. Error 403 Not allowed. Not allowed. Trace-id: d0a515a4-32e3-4993-82ba-7fd277ffa473\", \"text_truncated\": false}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01UWyUyicpBFy4BJjYtHaiVK",
+     "content": "{\"query\": \"MCG Cite Guideline Transparency Portal Blue Cross NC login access criteria\", \"results\": [{\"title\": \"MCG Implementation of Cite for Care Guideline Transparency | Blue Cross NC\", \"url\": \"https://www.bluecrossnc.com/provider-news/mcg-implementation-cite-care-guideline-transparency\", \"snippet\": \"Blue Cross and Blue Shield of North Carolina (Blue Cross NC) has partnered with Milliman Clinical Guidelines (MCG) Health to implement Cite for Care Guideline Transparency. Effective July 1, 2022, our medical policies will be located in the Blue E provider portal.\"}, {\"title\": \"Search for a Medical Policy | Providers | Blue Cross NC\", \"url\": \"https://pstage.bluecrossnc.com/providers/medical-policies-and-coverage/search-medical-policy\", \"snippet\": \"Guidelines that are not publicly accessible can be viewed by logging in to the MCG Cite Guideline Transparency (CGT) Portal. ... These guidelines detail when certain medical services are considered medically necessary by Blue Cross NC, and whether or not they are considered investigational by Blue Cross NC. (For more information concerning medical necessity and investigational criteria, please see these specific policies.)\"}, {\"title\": \"MCG Cite Guideline Transparency Tool | Wellcare\", \"url\": \"https://www.wellcare.com/en/new-york/providers/bulletins/mcg-cite-guideline-tool\", \"snippet\": \"The tool will not affect your process for notifying Wellcare of admissions or for seeking Prior Authorization approval. Login to the Wellcare Secure Provider Portal. <strong>Select Review Medicare Medical Necessity Criteria located on the \u201cCare Management\u201d tab at the top</strong>.\"}, {\"title\": \"Page 1 of 3 MCG Cite Guideline Transparency Access Quick Reference Guide\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/TipSheets/MCG-Cite-Guideline-Reference-Guide.pdf\", \"snippet\": \"following these instructions, you will have access to view MCG guidelines via the Fidelis \u00b7 Care Provider Portal.\"}, {\"title\": \"Notification of Guideline Revisions Effective March 1, 2023 (Posted December 13, 2022) | Providers | Blue Cross NC\", \"url\": \"https://www.bluecrossnc.com/providers/policies-guidelines-codes/notifications/commercial-medical-notification-12-13-22\", \"snippet\": \"Guideline notifications given 12/13/22 for effective date 3/1/23. These updated guidelines will be viewable 3/1/23 by logging in to the MCG Cite Guideline Transparency (CGT) Portal, however, the revisions to the guidelines are noted below.\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "text": "This confirms the picture. Let me fetch the provider-news article for exact details on the MCG Cite implementation.",
+     "type": "text"
+    },
+    {
+     "id": "toolu_018oPXF2t4gtrqbJQe2iq7fE",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.bluecrossnc.com/provider-news/mcg-implementation-cite-care-guideline-transparency"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01L7vSgkjRoAsS4oVR4xAYjw",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Blue Cross NC appeal address prior authorization denial \"member appeal\" submit fax mail"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_018oPXF2t4gtrqbJQe2iq7fE",
+     "content": "{\"url\": \"https://www.bluecrossnc.com/provider-news/mcg-implementation-cite-care-guideline-transparency\", \"final_url\": \"https://www.bcbsnc.com/provider-news/mcg-implementation-cite-care-guideline-transparency\", \"http_status\": 404, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Page not found Page not found Sorry, but it appears the page or document you were looking for may have been moved. The site administrator has been notified. Go home\", \"text_truncated\": false}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01L7vSgkjRoAsS4oVR4xAYjw",
+     "content": "{\"query\": \"Blue Cross NC appeal address prior authorization denial \\\"member appeal\\\" submit fax mail\", \"results\": [{\"title\": \"Understanding the medical appeals process | Member knowledge center | Blue Cross NC\", \"url\": \"https://www.bluecrossnc.com/members/knowledge-center/appeals\", \"snippet\": \"Complete the Member Appeal Representation Authorization Form (PDF) to choose a trusted representative to help with your appeals. ... Member Rights and Appeals Blue Cross and Blue Shield of North Carolina <strong>PO Box 30055 Durham, NC 27702-3055</strong>\"}, {\"title\": \"Member Appeal Form Instructions to help you complete the Member Appeal Form\", \"url\": \"https://www.bcbsnc.com/content/dam/bcbsnc/pdf/members/health-plans/claim-information/member-appeal-form.pdf\", \"snippet\": \"This form and information may be submitted via fax or mail to: ... <strong>P.O. Box 30055</strong> ... In accordance with Blue Cross and Blue Shield of North Carolina (Blue Cross NC) policies, all information contained herein or\"}, {\"title\": \"Member Appeal Form 1 of 3\", \"url\": \"https://www.shpnc.gov/documents/shp-documents/member-appeal-form/download\", \"snippet\": \"form and information may be submitted via fax or mail to: ... <strong>P.O. Box 30055</strong> ... In accordance with Blue Cross and Blue Shield of North Carolina (Blue Cross NC) policies, all information contained herein or\"}, {\"title\": \"BlueCross BlueShield NC Member Appeal Form Instructions\", \"url\": \"https://www.printfriendly.com/document/bluecross-blueshield-nc-member-appeal-form-instructions\", \"snippet\": \"You can mail the completed form to: Member Rights and Appeals, Blue Cross and Blue Shield of North Carolina, P.O. Box 30055, Durham, NC 27702-3055. Alternatively, you may fax the form to <strong>919-765-4409</strong> or, if applicable, fax to State Health Plan ...\"}, {\"title\": \"Member appeal representation authorization form | Providers | Blue Cross NC\", \"url\": \"https://www.bluecrossnc.com/providers/forms-documents/member-appeal-representation-authorization-form\", \"snippet\": \"Mail the completed form and appeal request to: <strong>Blue Cross NC, PO Box 30055, Durham, NC 27702-3005.</strong>\"}], \"result_count\": 5, \"error\": null}",
+     "cache_control": {
+      "type": "ephemeral"
+     }
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "text": "Let me get the appeals page and member appeal form for exact submission details.",
+     "type": "text"
+    },
+    {
+     "id": "toolu_01Mrvd3eJD8rXvt9hyiyfWWk",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.bluecrossnc.com/members/knowledge-center/appeals"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_017bB2ropUZG2DvZ4C9kHA2F",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.bcbsnc.com/content/dam/bcbsnc/pdf/members/health-plans/claim-information/member-appeal-form.pdf"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01Mrvd3eJD8rXvt9hyiyfWWk",
+     "content": "{\"url\": \"https://www.bluecrossnc.com/members/knowledge-center/appeals\", \"final_url\": \"https://www.bcbsnc.com/members/knowledge-center/appeals\", \"http_status\": 200, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Understanding the medical appeals process | Blue Cross NC Knowledge Center Understanding the medical appeals process Was your medical claim denied when you think it should have been approved? Learn how to file an appeal. is-hero true no-alt-text true hide-image-mobile false sticky-bar-enabled false show-sticky-text-mobile false lh-overlay false lh-theme primary-extra-dark lh-alignment center lh-content-width md lh-padding-top xl lh-padding-bottom xl lh-margin-top none lh-gutters tight Why file an appeal? As a Blue Cross Blue Shield of North Carolina (Blue Cross NC) member, you have the option to file an appeal when a medical claim is denied. You may choose to file an appeal to dispute a payment, coverage decision, or for other adverse benefit determinations. lh-id container-541eee634f lh-context-id container-541eee634f lh-theme neutral-light lh-spacing default lh-content-width md lh-gutters default lh-padding-top md lh-padding-bottom sm is-grid true grid-gap default lh-id container-8950800a7c lh-theme neutral-light lh-spacing default lh-content-width xl lh-padding-top sm lh-padding-bottom xl lh-gutters default layout vertical-left theme white media-type none gradient true title What is an adverse benefit determination? heading-level h3 heading-size sm rte-description An adverse benefit determination means a denial of coverage. This may happen if your health insurance: Has denied a benefit Won\u2019t pay for a service you\u2019ve already gotten Has canceled coverage is-grid-item true span 6 span-tablet 6 span-mobile 12 desktop-span 6 tablet-span 6 mobile-span 12 vertical-align stretch layout vertical-left theme white media-type none gradient true title What is an Adverse Benefit Determination Letter? heading-level h3 heading-size sm rte-description An Adverse Benefit Determination Letter, or denial letter, may be sent to you when a claim is denied. It includes details about: Why your claim was denied What information is needed to process an appeal How to file an appeal is-grid-item true span 6 span-tablet 6 span-mobile 12 desktop-span 6 tablet-span 6 mobile-span 12 vertical-align stretch Helpful appeals process information lh-id container-2ef28e3fa5 lh-context-id container-2ef28e3fa5 lh-theme primary-light lh-spacing default lh-content-width fluid lh-padding-top sm lh-padding-bottom xxs lh-gutters default If you decide to appeal a denied medical claim, you'll need to know some important information about the process and submit forms that will officially begin your appeal. lh-id container-2ef28e3fa5 lh-context-id container-2ef28e3fa5 lh-theme primary-light lh-spacing default lh-content-width md lh-padding-top xs lh-padding-bottom sm lh-gutters default is-grid true grid-gap default lh-id container-2ef28e3fa5 lh-theme primary-light lh-spacing default lh-content-width xl lh-padding-top xs lh-padding-bottom xs lh-gutters default layout vertical-left theme white media-type none gradient true title When to file an appeal heading-level h3 heading-size sm rte-description You might file an appeal if your claim was denied for any of the following reasons: Your plan doesn't cover services or procedures listed on the claim or was denied due to a benefit limit. The procedures received are considered not medically necessary, experimental, investigational, or cosmetic. The coverage requires preauthorization. Important Note: You must submit your appeal within 180 days of the date on the Adverse Benefit Determination or denial letter. is-grid-item true span 6 span-tablet 6 span-mobile 12 desktop-span 6 tablet-span 6 mobile-span 12 vertical-align stretch layout vertical-left theme white media-type none icon-size xxl gradient true title How to start your medical appeal heading-level h3 heading-size sm rte-description Use the Member Appeals Form (PDF) to file appeals. A Spanish language appeals form is available in our member forms library. Review the appeal instructions in your explanation of benefits (EOB), found in the Blue Cross NC member portal , or in your Adverse Benefit Determination Letter. Gather necessary information, including medical history, health records, referrals, or additional facts. Keep records of all claim documents and phone conversations, including dates, times, and notes taken. Complete the Member Appeal Representation Authorization Form (PDF) to choose a trusted representative to help with your appeals. is-grid-item true span 6 span-tablet 6 span-mobile 12 desktop-span 6 tablet-span 6 mobile-span 12 vertical-align stretch layout vertical-left theme white media-type none gradient true title What to include on your appeal heading-level h3 heading-size sm rte-description Make sure you include: Your name Your subscriber ID or member ID number (found on your member ID card) Service / claim information Reason for the appeal Any comments, supporting documents, records, and other information you'd like us to consider is-grid-item true span 6 span-tablet 6 span-mobile 12 desktop-span 6 tablet-span 6 mobile-span 12 vertical-align stretch layout vertical-left theme white media-type none icon-size xxl gradient true title Where to send your appeal heading-level h3 heading-size sm rte-description Medical appeals forms can be submitted by US mail or by fax: Mailing address: Member Rights and Appeals Blue Cross and Blue Shield of North Carolina PO Box 30055 Durham, NC 27702-3055 Fax number: 919-765-4409 is-grid-item true span 6 span-tablet 6 span-mobile 12 desktop-span 6 tablet-span 6 mobile-span 12 vertical-align stretch is-grid true grid-gap default lh-id container-785f6d793f lh-theme primary-light lh-spacing default lh-content-width sm lh-padding-top sm lh-padding-bottom xl lh-gutters default layout vertical-center theme primary-dark media-type none icon-size xxl gradient true title Need to file a dental appeal? heading-level h3 heading-size sm rte-description Dental appeals use a different process than medical appeals, so you\u2019ll need to submit a different form to get started. cta1-variant outlined cta1-text Learn About Filing Dental Appeals cta1-href /content/bcbsnc/us/en/members/health-plans/member-forms#accordion-db749a17ec-item-e43c9f4739 cta1-analytics-id card-1-a31b0bd4bc-f3b1fe8cf3-Need to file a dental appeal? is-grid-item true span 12 span-tablet 12 span-mobile 12 desktop-span 12 tablet-span 12 mobile-span 12 vertical-align stretch How long is the appeals process? Blue Cross NC will review your appeal to determine whether the services you received are covered by your plan. Depending on your plan and the level of review your appeal requires, the timeline for deciding on your appeal may vary. You can learn more about how long appeals may take by checking your Benefits Booklet in your member portal . You can also contact us for more information. lh-id container-4e237ec3a2 lh-context-id container-4e237ec3a2 lh-theme neutral-light lh-spacing default lh-content-width md lh-gutters default lh-padding-top md lh-padding-bottom xl Take the confusion out of insurance Get reliable answers to your insurance questions, such as how to get prior authorization and submitting a claim. lh-id container-15db725b95 lh-context-id container-15db725b95 lh-theme primary-dark lh-spacing default lh-content-width xl lh-padding-top xl lh-padding-bottom none lh-gutters default is-grid true grid-gap default lh-id container-15db725b95 lh-theme primary-dark lh-spacing default lh-content-width xl lh-padding-top md lh-padding-bottom xs lh-gutters default layout vertical-left theme white media-type image image https://delivery-p174711-e1869819.adobeaemcloud.com/adobe/assets/urn:aaid:aem:144b62b1-5879-406a-8041-89e3fcbcb5bb/as/hero.avif?assetName=hero.jpeg icon-size xxl gradient true title How to submit a claim heading-level h3 heading-size xxs cta1-variant text cta1-text Read More cta1-href /content/bcbsnc/us/en/members/knowledge-center/submit-a-claim cta1-icon lh-icon--caret-right cta1-analytics-id curated-articles-card-8aebe66e84-13067659f5-How to submit a claim is-grid-item true span 4 desktop-span 4 vertical-align stretch layout vertical-left theme white media-type image image https://delivery-p174711-e1869819.adobeaemcloud.com/adobe/assets/urn:aaid:aem:0c124804-5e3b-470a-a461-07f8ee745e25/as/how-to-read-eob.avif?assetName=how-to-read-eob.jpeg gradient true title How to read your explanation of benefits heading-level h3 heading-size xxs cta1-variant text cta1-text Read More cta1-href /content/bcbsnc/us/en/members/knowledge-center/how-to-read-eob cta1-icon lh-icon--caret-right cta1-analytics-id curated-articles-card-8aebe66e84-b4e878b6aa-How to read your explanation of benefits is-grid-item true span 4 desktop-span 4 vertical-align stretch layout vertical-left theme white media-type image image https://delivery-p174711-e1869819.adobeaemcloud.com/adobe/assets/urn:aaid:aem:61e26931-e1b6-4d82-b060-82564956a737/as/what-is-step-therapy.avif?assetName=what-is-step-therapy.jpeg icon-size xxl gradient true title What is step therapy? heading-level h3 heading-size xxs cta1-variant text cta1-text Read More cta1-href /content/bcbsnc/us/en/members/knowledge-center/what-is-step-therapy cta1-icon lh-icon--caret-right cta1-analytics-id curated-articles-card-8aebe66e84-1b36b24f14-What is step therapy? is-grid-item true span 4 desktop-span 4 vertical-align stretch alignment center size large button-type lh-button variant outlined text Find More Articles media-label label link /content/bcbsnc/us/en/members/knowledge-center analytics-id curated-articles-cta-8aebe66e84-082f604b78-Find More Articles full-width false full-width-mobile false lh-id container-15db725b95 lh-context-id container-15db725b95 lh-theme primary-dark lh-spacing default lh-content-width xl lh-padding-top xxs lh-padding-bottom xl lh-gutters default\", \"text_truncated\": false}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_017bB2ropUZG2DvZ4C9kHA2F",
+     "content": "{\"url\": \"https://www.bcbsnc.com/content/dam/bcbsnc/pdf/members/health-plans/claim-information/member-appeal-form.pdf\", \"final_url\": \"https://www.bcbsnc.com/content/dam/bcbsnc/pdf/members/health-plans/claim-information/member-appeal-form.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \" Member Appeal Form Instructions to help you complete the Member Appeal Form Timeframe to request an appeal: This form must be completed and received at Blue Cross and Blue Shield of North Carolina (Blue Cross NC) within 180 days of the date on the notice of the adverse benefit determination. How to complete this form: Please complete as much of the form as you can. \u2022 Member Information: This information may be found on your Blue Cross NC ID card. \u2022 Patient Information: Provide information for the person the request is for. If same as member information, leave blank. \u2022 Service/Claim Information: Tell us about the service, claim and/or item for which you are appealing. This information may be found on correspondence from Blue Cross NC. \u2022 Reason for Appeal: Tell us why you are requesting an appeal. Use additional paper if necessary. \u2022 Print First and Last Name: Print the name of person listed in the Patient Information section if 18 and older. If under age 18, print the name of the parent/guardian. \u2022 Signature: Signature of person listed in the Patient Information section if 18 and older. If under age 18 the signature of parent/guardian is required. How to submit this form: Enter your information directly, then print your completed form. Or, print a blank form to fill in by hand. Mail or fax the completed form together with any supporting documents to: Member Rights and Appeals Blue Cross and Blue Shield of North Carolina P.O. Box 30055 Durham, NC 27702-3055 Fax: 919-765-4409 Fax (State Health Plan PPO): 919-765-2322 Choose an authorized representative: You have the right to choose an authorized representative to help you with your appeal. To appoint an authorized representative, complete the Member Appeal Representation Authorization Form. What happens next: We\u2019ll send you a letter letting you know that we received your appeal request. We\u2019ll review your appeal, including all supporting documentation provided. Questions: Please contact Customer Service at the number on the back of your Blue Cross NC member ID card. 1 of 3 Member Appeal Form This form is for filing a Level 1 or Level 2 member appeal. NOT to be used for Federal Employee Program (FEP). In order to start this process, this form must be completed in its entirety, signed, dated and submitted for review within 180 days of notification of the date of the adverse benefit determination. Please attach copies of all documentation you may have in relation to this appeal, including but not limited to medical records and inc lude any additional information that may support your appeal. This form and information may be submitted via fax or mail to: Member Rights and Appeals Blue Cross and Blue Shield of North Carolina P.O. Box 30055 Durham, NC 27702-3055 Fax: 919-765-4409 Fax (State Health Plan PPO): 919-765-2322 In accordance with Blue Cross and Blue Shield of North Carolina (Blue Cross NC) policies, all information contained herein or attached is subject to review by any Blue Cross NC staff member as is appropriate. Member Information Today\u2019s Date ID Number Date of Birth First Name Last Name Primary Phone Number Street Address Alternate Phone Number City, State, ZIP Patient Information (If same as above, leave blank) First Name Last Name Date of Birth Service/Claim Information Claim Number(s) Reference/Authorization Number(s) (if applicable) Provider Name Date(s) of Service(s) 2 of 3 Member Appeal Form Reason for Appeal (If additional space is needed, attach additional detail as necessary) Print First and Last Name Signature BLUE CROSS\u00ae, BLUE SHIELD\u00ae, and the Cross and Shield symbols are registered marks of the Blue Cross and Blue Shield Association, an association of independent Blue Cross and Blue Shield Plans. Blue Cross and Blue Shield of North Carolina is an independent licensee of the Blue Cross and Blue Shield Association. U36019a, 7/20. 3 of 3 \", \"text_truncated\": false}",
+     "cache_control": {
+      "type": "ephemeral"
+     }
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EoUQCpABCBIYAipA7XmEKxjYB0SjnU16gMprsr72lDLPCWOGGbkLU8+zMkTB9aSKGkYdNgLRXBOFZkLNLotcTkR7QMeCQl0QU2O/dDIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAf3qwdUGEgzvFVuihZSPfYvRe/gaDJu3J5pxNQQa1FgZsCIwe1S4LhMw6CvB6VM3bgigvyylFloMPu8/ZQ0ONwg1NKUC7PU79ZcMxO2QFu8rzXETKqEOr9hbBEZMDHFQLKewFLQSt1Wa9SG94zkk+Ws5u5WtM6muLYkGaAlDcpBinDPKUJTfzBOakpxXj+e5vnBoJJoA7W8QXxuC3MS9O27Jemw0q5HH3b11iHQ2ZFPRcBISKLNpfRB1JhXH0tCG11XpMcGuNnAoX+aW5UIS0D/0q3mKSp8l67UnkNquFoVOViI64v0/EYe2BodH3gmshA6lpWSP2JLgsBf62ymWBubFtvhWb4UyOc/mPa97LJH/C1UtnMMb2T+7fww9Ur9ly+NI697ilxkWsJgUWFYGAH03F/fR9i076RknalRN8zNWvfhEtzxFhhHlDtI4UEhx+QvIusH4HCqhG3iXDtVllYd/grjnRKjMM4jYs++oIamq2EzCG3JoQbwZz+VMk1eIcWZcrd3MWxdECWvI1mDjHrFUGvrSdjEXNWas9qSlMi9W0otK59wYIwA7jHynHnt3w14rTVp6fAD+n6J3pMqWxxQrfol2Yowp+Ny+Z5l4ER/o5IK75kHfCuNTrLoXUt+Y5+wmxwDZk94sSwcHlqw8hVv91XfjEXCDPO3S64N1s3OU1tLcIcEpRyRegjYCOtVNMS4S8bV60XyWpCdRXyir5LifZgfkxUrMxpNOjVCIHxQfB/Yj5Ip4lljX0fhSotwcWQxk0gi7Z3Pw7Mm5MK7Xs3z+hT0JDW0nrNvl6eCE6NQH/uUUlcJzgUn6d0n++nFF/ZVxj01pXQ/dMMurxIkqKfou+5aRg5Iy73iQBOas59Ts6tl/2nsZ1mOchuV68JXNPZlQF1/Fce5LhvBnM3wVt17DaHFVyeBs4KI/782ukrBe62QUHJg91wcIt1xfs+6gxO6rrQ0oBXRpXI1eDKzJHlVKjE6UKwIRM1UwruKCVk2LUhm5ZtRSS4ZRAATnyO8rIOADN1Vm8CQ9uIskaDW2fXJrj9c2uMA7pJT1cmRtGIimwS2Q9LQrl2O9UcB3+UuoxEULz3SD3P3finhIKX0Uzn5kjRk9t8c6x4XVBcBvJmT9wF3tND8JRI2jeHsv520oTFZopm47SRC/np10Z1/6O3BrOSEOZWpFVuUvj/5TWYnGuin21v0Jr89cch0XO0nvGePPUseYMd4kn+yWtKJQ3bXAyCcG2M26jKcsFx5w0mlsqp+ICPS91M4yiEckEtGQr7oKHeU8ajPgdo3mgS3cXw0U7c6Jj/yk20sGTVJ6x02QYVk3R6CKZr6/Lv28Nx5/PsnehajmNoSiOVh9Z9dPdAqfSNCUJ1i0422uZcxRULFgZ66M5vGyqV5X37rRYmw7vsdfu+ZwGR4LLfVLPTIA/zBldTiQm57254XqWTaDKj3SIFbotxdSQ+5oJ9Hn6B2295FXF9lyAwLprhm2rJv16/FGSZuKMssdncjjirPHP5Q13HKeCCtbQ5ELqcQnGppWw2UaywtQfnFyL2gBjqhAzsjatNI3iK8OLRIxB85sOb7P04wlZIOI/PdeGr4wMj2pzOUiXSYjIPEWz64R3jlCiwCz5Zc0YtowPlKynwMinig95OtWhFk1B9mHWBBzBpyWh3Hl4WVhfOT0B5hRAurlAjUBTgXJEmMYQFcm66y7bfr4wFx6//i0rQMuwfDrLjipAhehzAVE/9zlxvDCtHWyhUK5/BXeUv3cwvVw29ehk1JTiLB1zks20T/XMIDp0E/KXI/TtFCqLxReC/6OL6imOTkaZDGj5MY1N9oh/Jtf6QIG5sHFpyt+DQpEvC4mL/dgu3vSqJNx9irWHKiqB+2MkCqg2hKwjZ1AGKyyNGtPmj48dS8DdGFntnJeTNEANYRqoRtHK+XCYrWKGFmJdY+YrvhdJdgOv4+rnlgJyRBE5IYBVuMLVE8mFi381RVFjQ/OJfK4xzWMozW/h0GIjsUpyb7P5QXrRQTYt60jJtr4GISyg4NVThVF/qR1zxTIruntvvgJ2jiFW9pH1yvu7xZl3Bku8FaMdshG5IW5ml+r/ZAR9oewN3QEFaeEVvi2+y2L4sMy2kNL9yFo/fcwDuoCeYNU/QhsocKrOkiMqFpq3u9lTGt6vMnLrxHyOxCjAkgW8Uz9PG+8GyrrxHdBK3v3W1g6L+RY+wgpUzva+PJbOAGrdmwyTLmVXPiTROFr6C3dMvQpDPYEwkz2XVXloeOtgLW7CqhnVGweMXHpPiTeiaLD9HilVvcHwNG1r4/GqkizP5ooCWpc1mXFb1BT6v/q+NoI08Vl86c1AdTLcTY1Q4KCA+fGaWNxHcHx2wx5Szf4tfRFIRTq7k/JMHw3xkmeNwFHZjh6Zqje00Z8qki3z1lLKb/+e+pot0hFSrBbVaLCPFzCIl4baBS0H82jwGNU1lumPWU42O6RfNJnE8fWgI3ThtFqAoWcF3tnZr9E+OC4UfDuUt3ggWJ+9S3bZ6MVL+s6HSmxaa/Nuiz1DlZOa49wT6glOxOjbxgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "```json\n{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": null,\n  \"effective_date\": null,\n  \"criteria_quotes\": [],\n  \"appeal_deadline\": \"2027-02-09 (180 days from the 2026-08-13 notice date). Blue Cross NC's own member-appeals guidance independently confirms a 180-day filing window from the date of the adverse benefit determination letter.\",\n  \"submission_route\": \"File a Level 1 (and if needed Level 2) Member Appeal using the Blue Cross NC 'Member Appeal Form.' Submit by mail to: Member Rights and Appeals, Blue Cross and Blue Shield of North Carolina, P.O. Box 30055, Durham, NC 27702-3055; or by fax to 919-765-4409 (a different fax, 919-765-2322, applies only to State Health Plan PPO members, which does not appear to apply here). Include member name, member/subscriber ID (W927303466), the service/claim reference number (POC-332858B095-32885), the reason for appeal, and all supporting medical records/imaging. A representative can be authorized via the separate 'Member Appeal Representation Authorization Form.'\",\n  \"how_to_obtain_criteria\": \"I could not find a standalone, publicly posted Blue Cross NC 'medical policy' document that states specific medical-necessity criteria for unicompartmental/partial knee arthroplasty (CPT 27446). Blue Cross NC's provider site states that it discontinued its public medical-policy search tool for many services and now uses licensed MCG (Milliman Care Guidelines) Care Guidelines, administered through the 'MCG Cite Guideline Transparency (CGT) Portal,' for medical-necessity review. Per Blue Cross NC's own site: 'The medical policy search tool is no longer active. Publicly accessible medical policies can be found in the Alphabetical and Categorical listings below. Guidelines that are not publicly accessible can be viewed by logging in to the MCG Cite Guideline Transparency (CGT) Portal.' A knee-arthroplasty-specific MCG guideline was not found among Blue Cross NC's publicly listed 'Commercial Surgery' policy updates I was able to retrieve (which instead cover adjacent topics like patient-specific instrumentation and computer-assisted navigation, not the core indications for CPT 27446). Because federal ACA claims-and-appeals regulations (29 CFR 2560.503-1 / 45 CFR 147.136) require that, on request, the plan disclose the specific internal rule, guideline, protocol, or criterion relied upon in a denial (or a statement that none exists), the patient/provider should: (1) call the number on the back of the member ID card or the number in the denial letter and explicitly request, in writing, 'the specific medical policy, clinical guideline, or MCG care guideline criteria applied to deny CPT 27446 for this member, including the guideline number/title/version'; (2) ask the treating orthopedic surgeon's office (or the patient, via an authorized representative) to request MCG Cite Guideline Transparency Portal access/printout for the specific 'Knee Arthroplasty' guideline used in this determination; and (3) request this at the same time the appeal is filed, since Blue Cross NC is obligated to provide it as part of the adverse benefit determination and appeal process.\",\n  \"confidence\": \"medium\",\n  \"notes\": \"I verified, from Blue Cross NC's own provider website, that (a) it no longer maintains a fully public medical-policy search tool for many services and instead relies on the MCG Cite Guideline Transparency Portal (login-gated) for medical necessity criteria such as knee arthroplasty, and (b) it independently confirms a 180-day appeal window and gives the same mailing/fax route as the denial letter. I was not able to locate and read the actual text of the MCG 'Knee Arthroplasty' guideline (or an equivalent public BCBSNC document) that Blue Cross NC applied to this CPT 27446 denial, so I cannot quote its medical-necessity criteria. A similarly named 'Knee Arthroplasty' MCG-based guideline exists publicly for a different Blue plan (BCBS Florida, mcgs.bcbsfl.com), but that is a different license/company's implementation and cannot be assumed to be identical to what Blue Cross NC applied to this North Carolina commercial member \u2014 I am not naming it as the governing document here because I could not confirm it is the same version/criteria Blue Cross NC used. The patient's appeal letter should explicitly request the exact guideline document and version relied upon, and should be prepared to submit imaging, radiology reports, and the surgeon's clinical notes addressing single-compartment (unicompartmental) degenerative changes, failed conservative treatment, and absence of contraindications (e.g., significant multicompartmental disease, inflammatory arthritis, or ligamentous instability), which are the typical criteria payers use for CPT 27446, pending confirmation of Blue Cross NC's actual applied criteria.\"\n}\n```",
+     "type": "text"
+    }
+   ]
+  }
+ ],
+ "stop_reason": "end_turn",
+ "usage": {
+  "input_tokens": 18,
+  "output_tokens": 4518,
+  "cache_creation_input_tokens": 20890,
+  "cache_read_input_tokens": 69844
+ },
+ "model": "claude-sonnet-5",
+ "tool_calls": 16,
+ "elapsed_s": 66.1,
+ "run_id": "r-eb1f31fa21b3",
+ "case_id": "poc-332858b095"
+}

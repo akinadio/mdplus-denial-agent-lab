@@ -1,0 +1,798 @@
+{
+ "answer": {
+  "policy_found": true,
+  "policy_title": "Clinical Policy: Disc Decompression Procedures",
+  "policy_number": "CP.MP.114",
+  "policy_url": "https://www.ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf",
+  "effective_date": "Date of last revision: 04/25 (the posted policy identifies this as its last-revision date; a separate effective date was not located)",
+  "criteria_quotes": [
+   "It is the policy of health plans affiliated with Centene Corporation\u00ae that open discectomy and microdiscectomy are medically necessary when meeting all of the following:",
+   "Age \u2265 18 years",
+   "Diagnosis of herniated lumbar disc"
+  ],
+  "appeal_deadline": "2027-02-19. The denial notice states that the appeal must be received within 180 days of 2026-08-23.",
+  "submission_route": "Complete Ambetter of Illinois's member Grievance, Appeal, Concern or Recommendation form and identify the denial's tracking/authorization number. Submit it to: Ambetter of Illinois, Attn: Appeals and Grievances Department, PO Box 10341, Van Nuys, CA 91410. The form also lists fax 1-833-886-7956 and phone 1-855-745-5507; TDD/TTY is 1-844-517-3431. The appeal form is https://www.ambetterhealth.com/content/dam/centene/ambetteril/pdfs/IL-MbrGrievanceApealConcrn.pdf",
+  "how_to_obtain_criteria": "The Ambetter of Illinois clinical-policy page lists CP.MP.114 as the policy for Disc Decompression Procedures and says members may contact Member Services and ask to be directed to the Medical Management department. Request the complete version of CP.MP.114 that was in effect on the date of the authorization decision, the exact clinical-review criteria applied to CPT 63030, the specific criteria the reviewer found unmet, and any InterQual or delegated-vendor criteria if those were used. The public policy page states that InterQual may be used when Ambetter has no applicable clinical policy and that delegated-vendor guidelines may also support medical-necessity determinations.",
+  "confidence": "medium-high",
+  "notes": "The Ambetter Illinois public policy page identifies CP.MP.114 as the applicable clinical policy, and the posted PDF search record identifies its last revision as 04/25. The publicly retrievable text confirms the adult-age and herniated-lumbar-disc requirements, but the PDF could not be text-extracted through the available web retrieval system; therefore, I have not quoted additional criteria that I could not verify directly. Because the denial date is August 2026 and the posted policy's last revision is April 2025, ask Ambetter to confirm that this was the version and criteria actually used for this denial."
+ },
+ "raw_text": "{\n  \"policy_found\": true,\n  \"policy_title\": \"Clinical Policy: Disc Decompression Procedures\",\n  \"policy_number\": \"CP.MP.114\",\n  \"policy_url\": \"https://www.ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf\",\n  \"effective_date\": \"Date of last revision: 04/25 (the posted policy identifies this as its last-revision date; a separate effective date was not located)\",\n  \"criteria_quotes\": [\n    \"It is the policy of health plans affiliated with Centene Corporation\u00ae that open discectomy and microdiscectomy are medically necessary when meeting all of the following:\",\n    \"Age \u2265 18 years\",\n    \"Diagnosis of herniated lumbar disc\"\n  ],\n  \"appeal_deadline\": \"2027-02-19. The denial notice states that the appeal must be received within 180 days of 2026-08-23.\",\n  \"submission_route\": \"Complete Ambetter of Illinois's member Grievance, Appeal, Concern or Recommendation form and identify the denial's tracking/authorization number. Submit it to: Ambetter of Illinois, Attn: Appeals and Grievances Department, PO Box 10341, Van Nuys, CA 91410. The form also lists fax 1-833-886-7956 and phone 1-855-745-5507; TDD/TTY is 1-844-517-3431. The appeal form is https://www.ambetterhealth.com/content/dam/centene/ambetteril/pdfs/IL-MbrGrievanceApealConcrn.pdf\",\n  \"how_to_obtain_criteria\": \"The Ambetter of Illinois clinical-policy page lists CP.MP.114 as the policy for Disc Decompression Procedures and says members may contact Member Services and ask to be directed to the Medical Management department. Request the complete version of CP.MP.114 that was in effect on the date of the authorization decision, the exact clinical-review criteria applied to CPT 63030, the specific criteria the reviewer found unmet, and any InterQual or delegated-vendor criteria if those were used. The public policy page states that InterQual may be used when Ambetter has no applicable clinical policy and that delegated-vendor guidelines may also support medical-necessity determinations.\",\n  \"confidence\": \"medium-high\",\n  \"notes\": \"The Ambetter Illinois public policy page identifies CP.MP.114 as the applicable clinical policy, and the posted PDF search record identifies its last revision as 04/25. The publicly retrievable text confirms the adult-age and herniated-lumbar-disc requirements, but the PDF could not be text-extracted through the available web retrieval system; therefore, I have not quoted additional criteria that I could not verify directly. Because the denial date is August 2026 and the posted policy's last revision is April 2025, ask Ambetter to confirm that this was the version and criteria actually used for this denial.\"\n}",
+ "transcript": [
+  {
+   "role": "system",
+   "content": "You are helping a patient respond to a health insurance denial. Answer precisely and only from evidence you actually retrieve. If you cannot find the governing policy, say so plainly rather than naming a document you are unsure of."
+  },
+  {
+   "role": "user",
+   "content": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-23\nMember: Morgan Foster\nMember ID: W162894592\nPlan: Ambetter (Commercial/ACA), state of Illinois\n\nDear Morgan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Lower back disc surgery / decompression\n    Procedure code (CPT): 63030\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-19).\n\nReference number: POC-F4C641ED8B-99591\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+  },
+  {
+   "id": "rs_0400d26461bed027016a9b6a73b82487d28fa93c7301368483",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2p14yxc2MtE18nwL-KXna74tIzyJGakAm9RKKcplzAOoDKT9v4NqNP6OGozvVKcZTb99ca8ipL_HeXEtGV-_2cRYBXHz3yuNwbsR3JlJz7k2SkT876D0aSjJOzTyrSx_DmYTSDezl57WlBLsfHxUCL12iaMwNVCajm4GY39oAbAzsIFrpL5zYgfDfw4Fsz6otdQOWw6fPW3YHBF36gK5HtCOm-aXaxcoAhUiKnEpF9Pg3sVKMd9loKQ6FXkQC9JPCuKLHZJN-oSQ0b-bwOGSVFgpzpT2kNta9Ofm2JfcPkNOVn0K3fnkQRIPDZE7_wO3S0IihLd0YDnBBBB1fc7ai3U5kdY4grA2nzESMkWbnzEAT8XrBgV-3M-6V24KhX_obVlNTyBGbTdIiJlXdSeg-V6HlQiV7UdI_LNadO8MIIYyIm05inbrvNJxw71HVXrjpvcM4OwSjH6z0w0w6TSuM3B0U1c18-6uCJaIiPiO-h5L758k4mK6028J53Nn-sGijbUT_gjFmAa7XlJVmgfeNV-YEzUr4EdZMbWcTdJV4IiDI1kijTN6lQXbjNjmA8fsX2srle_cAMBw-xuFfptMhKMny5TcmQzJp4Q6wKmuBXqIeaWFeIrJc4RZw5zbT72ZlQ4f3vGfirlRF-rPpXAbrbS-r38Eg6-oSku9TngLPuOLvJzFp_x9_44yS9e2GSfjZBXoc3YGrDl-g2CBxfAwDGOYrd1ALasw-HMmv1vtcisfpuLcJFnd-WNutuSuNQ-9HSQEjRktrV9W5svIbjjYEMKn_y7CKCPyph0mw1BVUQp2HUC1q0lQPRlWvQIgG2nI6koNz81KtA0K_lEveUJ6rWWmi7FmFoG_zjAdKqT6OyuqVQXgljqKqAJHXPDEBra4zMgGl3-ZIQ1KtCOJ8gxS0wZTdSEudZz8-XioJN4L-mrFeAro-38h0UEOQqZcdd3K0BTK-csmG3l_SdkClqvld-2ZOlMAg-LeEDxCYld8npihk4f6mu5uuLLjxYrWMcVLrclNEhEBHM9KGz7dYZ5jB87JHJB3Ox-RPteeVfTSmMqBAPvWOoA9-oUFbHDB24qVF-EYi43ZRDaerseEiD9ZwWquI9j5IQI2EtlPDO65QXmsvMV2oOiruyQwpdibrorj7IuUWv0Y4f35incZzoGlrYSfaMoiLEW2yxj7A3lgFGiwE18NSS48oK49HdNWqeC44atfYqwfMHTKW9p5-S4WQGm9fVLt0KPYMnp3RGRMVUaPICsI_067yaQonDtOTtsHqdSTzlM0Fck3__Ea6CO4_-072Wktoxfv-k9Om2Qh9aHn1A=",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:ambetterhealth.com Illinois medical policy 63030 lumbar discectomy decompression Ambetter policy pdf 2026 \\\"63030\\\"\",\"count\":10}",
+   "call_id": "call_uSNMvKiDpIK2JOYGIAmOwF1D",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a75a93087d2a7a432bce641aab7",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Ambetter Illinois clinical policy 63030 discectomy lumbar medical necessity\",\"count\":10}",
+   "call_id": "call_o4eg5BidsKITB0KZqgr2ViDj",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a75a94487d2a7240819d0dcf6f2",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:provider.ambetterhealth.com 63030 medical policy\",\"count\":10}",
+   "call_id": "call_KMMeki8WSQQme5DvphnKafzj",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a75a94c87d29ec7016a92fa1717",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Ambetter Illinois appeal adverse benefit determination submission address 180 days 2026 marketplace certificate evidence coverage appeal form\",\"count\":10}",
+   "call_id": "call_TtFQkKoC798K6S4uEEuKXRdL",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a75a95487d29fb5ee40a453ed43",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_uSNMvKiDpIK2JOYGIAmOwF1D",
+   "output": "{\"query\": \"site:ambetterhealth.com Illinois medical policy 63030 lumbar discectomy decompression Ambetter policy pdf 2026 \\\"63030\\\"\", \"results\": [{\"title\": \"Procedure Code Procedure Code Description Effective Date of Prior\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/Superior/Ambetter/PDFs/SHP-20239574-AMB-Effective-Codes-P-508-11032022.pdf\", \"snippet\": \"UTILIZE AMBETTER&#x27;S ONLINE \u00b7 PRIOR AUTHORIZATION TOOL FOR PRIOR AUTHORIZATION \u00b7 REQUIREMENTS \u00b7 63030 \u00b7 LOW BACK DISK SURGERY \u00b7 11/01/2019 \u00b7 63035 \u00b7 SPINAL DISK SURGERY ADD-ON \u00b7 11/01/2019 \u00b7 63040 \u00b7 LAMINOTOMY W/DECOMP NERV ROOT RE-EXPLOR; CERV \u00b7 11/01/2019 \u00b7\"}], \"result_count\": 1, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_o4eg5BidsKITB0KZqgr2ViDj",
+   "output": "{\"query\": \"Ambetter Illinois clinical policy 63030 discectomy lumbar medical necessity\", \"results\": [{\"title\": \"Clinical Payment Policies | Ambetter of Illinois\", \"url\": \"https://www.ambetterhealth.com/en/il/provider-resources/clinical-payment-policies/\", \"snippet\": \"\u00bfHablas Espa\u00f1ol?Affordable Health Insurance in Illinois | Ambetter from IlliniCare Health En Affordable Health Insurance in Illinois | Ambetter from IlliniCare Health ... Clinical policies are one set of guidelines used to assist in administering health plan benefits, either by prior authorization or payment rules. They include but are not limited to policies relating to evolving medical technologies and procedures, as well as pharmacy policies. Clinical policies help identify whether services are medically necessary based on information found in generally accepted standards of medical practice; peer-reviewed medical literature; government agency/program approval status; evidence-based guidelines and positions of leading national health professional organizations; views of physicians practicing in relevant clinical areas affected by the policy; and other available clinical information.\"}, {\"title\": \"CPT Code 63030: Lumbar Microdiscectomy Guide [Coding Guide] - BrainyBio.blog\", \"url\": \"https://brainybio.blog/cpt-code-63030-lumbar-microdiscectomy\", \"snippet\": \"In addition to radiculopathy, 63030 <strong>may be indicated for patients with acute disc herniation leading to cauda equina syndrome</strong>, although this is an emergency scenario. In elective cases, the surgeon must demonstrate that the Medical Necessity for the laminotomy and discectomy is supported by ...\"}, {\"title\": \"cpt 63030 vs 63047 | Medical Billing and Coding Forum - AAPC\", \"url\": \"https://www.aapc.com/discuss/threads/cpt-63030-vs-63047.92013/\", \"snippet\": \"spinal or lateral recess stenosis]), ... You should report 63030 when laminotomy is performed with a diskectomy, <strong>to treat spinal disc herniation using either an open procedure or under endoscopic assistance</strong>, CPT says....\"}, {\"title\": \"Page 1 of 8 Clinical Policy: Disc Decompression Procedures\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf\", \"snippet\": \"Clarified that <strong>open discectomy and microdiscectomy are medically \u00b7 necessary</strong>, while minimally invasive discectomy procedures are not.\"}, {\"title\": \"Spinal Surgery: Laminectomy and Fusion - Medical Clinical Policy Bulletins | Aetna\", \"url\": \"https://www.aetna.com/cpb/medical/data/700_799/0743.html\", \"snippet\": \"Aetna considers the following medically necessary: Cervical laminectomy (and/or an anterior and/or posterior cervical discectomy and fusion) for individuals with herniated discs or other causes of spinal cord or nerve root compression (osteophytic spurring, ligamentous hypertrophy) when all of the following criteria are met (see also Additional Notes section):\"}, {\"title\": \"Effective 07/31/26: Criteria Change for Disc Decompression Procedures\", \"url\": \"https://www.superiorhealthplan.com/newsroom/eff-073126-criteria-change-for-disc-decompression-procedures-05282026.html\", \"snippet\": \"Our vendor, Berkeley Research Group, experienced a privacy incident. To learn more, please read the notice \u00b7 Beginning on July 31, 2026, Ambetter Health (Ambetter from Superior HealthPlan and Ambetter Health Solutions) will utilize Clinical Policy as the medical necessity review criteria of ...\"}, {\"title\": \"Clinical & Payment Policies\", \"url\": \"https://www.ambetterhealth.com/en/ia/provider-resources/clinical-payment-policies/\", \"snippet\": \"In addition, Ambetter Health may from time to time delegate utilization management of specific services; in such circumstances, the delegated vendor\u2019s guidelines may also be used to support medical necessity and other coverage determinations.\"}, {\"title\": \"CPT 63030 \u2014 Single-interspace lumbar laminotomy with nerve root decompression, including par | Mira Health\", \"url\": \"https://mirahealth.care/reference/cpt/63030/\", \"snippet\": \"63030 <strong>covers an open posterior laminotomy at one lumbar interspace where the surgeon removes enough lamina, bone, and ligamentous tissue to decompress the affected nerve root</strong> \u2014 including partial facetectomy and/or foraminotomy as needed, plus ...\"}, {\"title\": \"What Is CPT Code 63030? Lumbar Discectomy Explained - Biology Insights\", \"url\": \"https://biologyinsights.com/what-is-cpt-code-63030-lumbar-discectomy-explained/\", \"snippet\": \"CPT 63030 <strong>does not include any procedures that involve stabilizing the spine</strong>, such as spinal fusion or the insertion of instrumentation like screws and rods. If the discectomy is performed as part of a larger surgery that includes a fusion, ...\"}, {\"title\": \"MEDICAL POLICY \u2013 7.01.551 Lumbar Spine Decompression Surgery: Discectomy,\", \"url\": \"https://www.premera.com/medicalpolicies/7.01.551.pdf\", \"snippet\": \"New policy. <strong>Lumbar decompression surgery may be considered medically necessary</strong> \u00b7 when applicable criteria are met. Effective May 18, 2014 with 90-day hold for provider ... Replace policy. Policy criteria revised for lumbar discectomy MRI sub-bullet to add\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_KMMeki8WSQQme5DvphnKafzj",
+   "output": "{\"query\": \"site:provider.ambetterhealth.com 63030 medical policy\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_TtFQkKoC798K6S4uEEuKXRdL",
+   "output": "{\"query\": \"Ambetter Illinois appeal adverse benefit determination submission address 180 days 2026 marketplace certificate evidence coverage appeal form\", \"results\": [{\"title\": \"IL - Grievance, Appeal Concern or Recommendation Form\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambetteril/pdfs/IL-MbrGrievanceApealConcrn.pdf\", \"snippet\": \"Member\u2019s Ambetter ID #: Street Address: City \u00b7 State \u00b7 ZIP code \u00b7 Member\u2019s Phone Number: For an Appeal request, provide the Tracking/Authorization Number of your denial: Additional information to support the grievance, appeal, concern or recommendations (or \u00b7 attach): Member or Representative: Daytime Phone #: Date: *You must file an appeal within 180 calendar days from the date noted on your adverse \u00b7 determination notice (denial).\"}, {\"title\": \"APPEALS/RECONSIDERATIONS (MEDICAL) AND GRIEVANCES GUIDE The h tPro\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambetteril/pdfs/IL-Provider-Appeals-Grievances-Guide.pdf\", \"snippet\": \"Reconsiderations involved an MA plan reviewing an adverse \u00b7 organization determination, the findings they based them on,\"}, {\"title\": \"Ambetter Claim Denied? Fight Back \u2014 ClaimBack\", \"url\": \"https://www.claimback.app/appeal-ambetter\", \"snippet\": \"<strong>You have 180 days from your denial to file an internal appeal</strong>. After an adverse internal decision, you have 4 months to request external review by an Independent Review Organization (IRO).\"}, {\"title\": \"GA - Grievance, Appeal Concern or Recommendation Form\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/peachstate/ambetter/PDFs/GA-MbrGrievanceApealConcrn.pdf\", \"snippet\": \"Adverse Benefit Determination means any denial, reduction, or termination of, or a failure to provide or make\"}, {\"title\": \"Appeal Timeframes and Guidance SHP_202511846\", \"url\": \"https://www.superiorhealthplan.com/content/dam/centene/Superior/Provider/PDFs/appeals-guidance-training-508.pdf\", \"snippet\": \"Ambetter: <strong>180 calendar days from the date of the denial letter to appeal the decision</strong>.\"}, {\"title\": \"Grievance, Appeal, Concern or Recommendation Form\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/Centene%20Corporate/web-files/ambetter-shared/solutions/AMB-Solutions-Grievance-Appeal-Concern-Member.pdf\", \"snippet\": \"deny benefits or services was appropriate. The appeal is your dispute of the adverse benefit determination made by\"}, {\"title\": \"PROVIDER REQUEST FOR RECONSIDERATION AND CLAIM DISPUTE FORM\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambetteril/pdfs/IL-AMB-Claim-Dispute-Form.pdf\", \"snippet\": \"Use this form as part of the Ambetter Insured by Celtic Request for Reconsideration and Claim Dispute process. ... A Request for Reconsideration (Level I) is a communication from the provider about a disagreement with ... A Claim Dispute (Level II) should be used only when a provider has received an unsatisfactory response to ... The Request for Reconsideration or Claim Dispute must be submitted within 180 days for participating\"}, {\"title\": \"Grievance and Appeals Forms | Ambetter from Sunshine Health\", \"url\": \"https://www.ambetterhealth.com/en/fl/provider-resources/manuals-and-forms/grievance-appeals/\", \"snippet\": \"An Appeal is the mechanism which allows providers the right to appeal actions of Ambetter such as a prior authorization denial, or if the provider is aggrieved by any rule, policy or procedure or decision made by Ambetter. A provider has hundred eighty (180) calendar days from Ambetter\u2019s notice of action to file the appeal.\"}, {\"title\": \"Grievance and Appeals Forms | Ambetter from Coordinated Care\", \"url\": \"https://www.ambetterhealth.com/en/wa/provider-resources/manuals-and-forms/grievance-appeals/\", \"snippet\": \"Information regarding this process can be found at <strong>AmbetterHealth.com/en/wa</strong>. Depending on the nature of the complaint/grievance, the member will be offered the right to appeal our decision. At the conclusion of this formalized process, the member will receive written confirmation of the ...\"}, {\"title\": \"37710MS011-2026 AmbetterHealth.com 2026 EVIDENCE OF COVERAGE\", \"url\": \"https://api.centene.com/EOC/2026/37710MS011.pdf\", \"snippet\": \"appeal or external review process of an adverse benefit determination who is any of the following:\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "id": "rs_0400d26461bed027016a9b6a7936f087d294f4a036e9c863ec",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2p7TjQ7CM1wvTzd1gLCy5dWW4zoq1HEhOWElnxiTgn7VD9IHKKm8lvuU3pzNtkKq7JK_emU43jhPgLASCr5W3BzFy5mdQTY-TKVxCX-rS-Y8TM7fXs0tgJG3ojizm_j9NbC2KOjvTGyC8X8zijRLpGsGOhS-X3IIF3yHjREFtZYg4U3uSVLIqqkOLB_0L0QreqFPZq9cVGxM4bTdVyVwEaOcwx_sxpjlqb1vKCyPYb9cAacKtH08hJIjEjGzU1esPqvAW471D90qlUmZelefbmTOfmaJ9f_W0PZSW17s4IPjKW-f4Sj8CctoYH5f8vJ-6_yK5lvlsgLxX9Q8imd9rSKz5EOvFI6fy4yLGOe9uXzNmP-D9JTZHPrDA-hcdC-WnmhxFj4PM45revBZ8gPrEQ9p_VMmA-ZWSHj77UU-0mr7OE0F9EXa6O1Gbrhr1OfaiDBI0vb-OrCqWXEaVi3V4Y98fPP8ZrmP59SxOfaXqhpRAduc0C2SHB0aU68TU8KlQab9paadEbHmVrV7iSYWSvaTP0a84oqXdNmTBFQs8DunRwSi_IBDkDPcREFsiz8FybbmLWN_MKOQLpDGugm936ZRFX-3vwTXKod0kWVABKnawYG0IK-1o3nrbE_PeToZikKsCsDWEfBOAbAB296uBBDQlk5MIxEFlmsnKgC6GpWNsAR_gbgZAWM2FS-CbZP49S0SFuk_9956BwyarOJJTbbmpbmODVM5MyAWAcIvRAEckgHGgJ2GGnMxyNB69yP9VhLBpPXkHVs3DZum-Pk23Hrz0YYH1iT1xxWTcouI9q-wj0JfRFtbAVTHLEMGLxAfSz6bpos8cFc9X3zkHEBPsc2gf5xTzG5NCiU6DzHlvMKMRNdKWD_S7Si1xuy7t1ReXrVng8O0AA5O6lbwCBYe2q-9ntX5NRqeMw5E_KB7yD2lr1OuhOPlhO8ULPppPIu2ytKjNjRUUwaZmAvkkPd-IrH7NXs-mACdSyPT1nRMBla7xe687usR24Ejmmes7atf0nPpQLXBLJLlT1JRlec32CDs2npzbb4ihNxEuzHicCHXyQU1H3gyq4RkVf2Ns7BW92l0MY0RmkmMXQTYsli03rvoi32CWFnjSDazs2jFNESJGmtsMG-NY2yXLx5QruXMgpYjg3oyV_668MOTkl4Z54ePb69OspyuuzLrUOUUJwWC0PuH5EAtZnldelGaQq7JOGQm2qJhsCK3Zlvqfl0GVBD0Kt16oJ-Hjz8OwvSrJeMQ7klB51JX0RdbOWvpXjEhtlxZFUKZEQ18H36K7UhtLhmnQ==",
+   "status": null
+  },
+  {
+   "arguments": "{\"url\":\"https://www.ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf\"}",
+   "call_id": "call_CxGxFywWcBLP7UvypFewDRoK",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a7b22fc87d2928214201d1f6109",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://www.ambetterhealth.com/en/il/provider-resources/clinical-payment-policies/\"}",
+   "call_id": "call_sAoopHANefr5PPq7XUvEYH3Y",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a7b230c87d292e5921b1c180b71",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://www.ambetterhealth.com/content/dam/centene/ambetteril/pdfs/IL-MbrGrievanceApealConcrn.pdf\"}",
+   "call_id": "call_RthNKwJQC2EiAmH4TlXQtKss",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a7b231487d2a0a25e59c3f9270f",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"CP.MP.114\\\" \\\"Effective\\\" Disc Decompression Procedures Ambetter Illinois 2026\",\"count\":10}",
+   "call_id": "call_Yh2dS5dwNJ9yOKoasucnr5yG",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a7b231c87d2ad1f3e8e0bbe22e4",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf \\\"Policy Number\\\" \\\"Effective Date\\\"\",\"count\":5}",
+   "call_id": "call_iq8PMIxhHzFrj3TlPJy663TJ",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a7b232087d2872df7a09c4c8c4d",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_CxGxFywWcBLP7UvypFewDRoK",
+   "output": "{\"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf\", \"final_url\": \"https://www.ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"error\": \"fetch blocked or unreadable: extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_sAoopHANefr5PPq7XUvEYH3Y",
+   "output": "{\"url\": \"https://www.ambetterhealth.com/en/il/provider-resources/clinical-payment-policies/\", \"final_url\": \"https://www.ambetterhealth.com/en/il/provider-resources/clinical-payment-policies/\", \"http_status\": 200, \"content_type\": \"text/html;charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Clinical Payment Policies | Ambetter of Illinois Skip to Main Content Pay Now Need Help? Login Member Provider Broker Pay Now Need Help? Login Member Provider Broker \u00bfHablas Espa\u00f1ol? Affordable Health Insurance in Illinois | Ambetter from IlliniCare Health En Affordable Health Insurance in Illinois | Ambetter from IlliniCare Health Search Enter Keyword Search Our Health Plans show Our Health Plans menu About Our Plans Programs & Perks My Health Pays Rewards\u00ae Coverage Area Map Ways to Save What is Ambetter Health? Shop and Compare Plans Find a Provider Shop and Compare Plans Use your ZIP Code to find your personal plan. See coverage in your area Find doctors and hospitals View pharmacy program benefits View essential health benefits Find and enroll in a plan that's right for you. Join Ambetter Health show Join Ambetter Health menu Become a Member Become a Provider Become a Broker Enroll in a Plan How to Enroll in a Plan Four easy steps is all it takes What you need to enroll Special Enrollment Information For Members show For Members menu Pay Now Find a Provider Drug Coverage Forms and Materials Ways to Pay New Members Renew Your Plan HealthHub Member News Consumer Advisory Committee Mental Health Resources Member Login Find everything you need in the member online account View your claims Review your plan benefits Print your ID card View rewards points total For Providers show For Providers menu Provider Login Drug Coverage Pre-Auth Check Provider Resources Clinical and Payment Policies Provider News Provider Toolkits No Surprises Act Provider Updates For Brokers show For Brokers menu Broker Login Drug Coverage Enroll a Client Now Coverage Area Map Broker Contact Shop Our Plans close navigation Main Menu Our Health Plans show Our Health Plans menu About Our Plans Programs & Perks My Health Pays Rewards\u00ae Coverage Area Map Ways to Save What is Ambetter Health? Shop and Compare Plans Find a Provider Shop and Compare Plans Use your ZIP Code to find your personal plan. See coverage in your area Find doctors and hospitals View pharmacy program benefits View essential health benefits Find and enroll in a plan that's right for you. Join Ambetter Health show Join Ambetter Health menu Become a Member Become a Provider Become a Broker Enroll in a Plan How to Enroll in a Plan Four easy steps is all it takes What you need to enroll Special Enrollment Information For Members show For Members menu Pay Now Find a Provider Drug Coverage Forms and Materials Ways to Pay New Members Renew Your Plan HealthHub Member News Consumer Advisory Committee Mental Health Resources Member Login Find everything you need in the member online account View your claims Review your plan benefits Print your ID card View rewards points total For Providers show For Providers menu Provider Login Drug Coverage Pre-Auth Check Provider Resources Clinical and Payment Policies Provider News Provider Toolkits No Surprises Act Provider Updates For Brokers show For Brokers menu Broker Login Drug Coverage Enroll a Client Now Coverage Area Map Broker Contact Shop Our Plans Pay Now Need Help? Login Member Provider Broker Pay Now Need Help? Login Member Provider Broker \u00bfHablas Espa\u00f1ol? Affordable Health Insurance in Illinois | Ambetter from IlliniCare Health En Affordable Health Insurance in Illinois | Ambetter from IlliniCare Health Search Enter Keyword Search Clinical Payment Policies | Ambetter of Illinois Clinical & Payment Policies Clinical Policies Clinical policies are one set of guidelines used to assist in administering health plan benefits, either by prior authorization or payment rules. They include but are not limited to policies relating to evolving medical technologies and procedures, as well as pharmacy policies. Clinical policies help identify whether services are medically necessary based on information found in generally accepted standards of medical practice; peer-reviewed medical literature; government agency/program approval status; evidence-based guidelines and positions of leading national health professional organizations; views of physicians practicing in relevant clinical areas affected by the policy; and other available clinical information. All policies found in the Ambetter of Illinois Clinical Policy Manual apply to Ambetter of Illinois members. Policies in the Ambetter of Illinois Clinical Policy Manual may have either a Ambetter of Illinois or a \u201cCentene\u201d heading. Ambetter of Illinois utilizes InterQual\u00ae criteria for those medical technologies, procedures or pharmaceutical treatments for which a Ambetter of Illinois clinical policy does not exist. InterQual is a nationally recognized evidence-based decision support tool. You may access the InterQual\u00ae SmartSheet(s)\u2122 for Adult and Pediatric procedures, durable medical equipment and imaging procedures by logging into the secure provider portal or by calling Ambetter of Illinois. In addition, Ambetter of Illinois may from time to time delegate utilization management of specific services; in such circumstances, the delegated vendor\u2019s guidelines may also be used to support medical necessity and other coverage determinations. Other non-clinical policies (e.g., payment policies) or contract terms may further determine whether a technology, procedure or treatment that is not addressed in the Clinical Policy Manuals or InterQual\u00aecriteria is payable by Ambetter of Illinois. If you have any questions regarding these policies, please contact Member Services and ask to be directed to the Medical Management department. Clinical Policies Acupuncture (IL.CP.MP.560) (PDF) Adopted Clinical Practice and Preventive Health Guidelines (CPG Grid) (PDF) Air Ambulance (CP.MP.175) (PDF) Allogeneic Hematopoietic Cell Transplants for Sickle Cell Anemia and \u03b2-Thalassemia (CP.MP.108) (PDF) Allogeneic Hematopoietic Progenitor Cell Therapy (CP.MP.249) (PDF) Applied Behavior Analysis (CP.BH.104) (PDF) Applied Behavioral Analysis Documentation Requirements (CP.BH.105) (PDF) Assisted Reproductive Technology (CP.MP.55) (PDF) Bariatric Surgery (CP.MP.37) (PDF) Behavioral Health Treatment Documentation Requirements (HIM.CP.BH.500) (PDF) Biofeedback (CP.MP.168) (PDF) Biofeedback for Behavioral Health Disorders (CP.BH.300) (PDF) Bone-Anchored Hearing Aid (CP.MP.93) (PDF) Burn Surgery (CP.MP.186) (PDF) Caudal or Interlaminar Epidural Steroid Injections (CP.MP.164) (PDF) Clinical Trials (CP.MP.94) (PDF) Cochlear Implant Replacements (CP.MP.14) (PDF) Concert Genetic Testing: Cardiovascular (V2.2025) (PDF) Concert Genetic Testing: Dermatology (V2.2025) (PDF) Concert Genetic Testing: Endocrinology (V2.2025) (PDF) Concert Genetic Testing: Gastroenterology (V2.2025) (PDF) Concert Genetic Testing: General Approach to Genetic and Molecular Testing (V2.2025) (PDF) Concert Genetic Testing: Hematology (V2.2025) (PDF) Concert Genetic Testing: Hereditary Cancer (V2.2025) (PDF) Concert Genetic Testing: Identity and Forensics (V2.2025) (PDF) Concert Genetic Testing: Immunology and Rheumatology (V2.2025) (PDF) Concert Genetic Testing: Multisystem Genetic Conditions (V2.2025) (PDF) Concert Genetic Testing: Nephrology (V2.2025) (PDF) Concert Genetic Testing: Neurology (V2.2025) (PDF) Concert Genetic Testing: Nutrition and Metabolism (V2.2025) (PDF) Concert Genetic Testing: Opthamology (V2.2025) (PDF) Concert Genetic Testing: Orthopedics (V2.2025) (PDF) Concert Genetic Testing: Otolaryngology (V2.2025) (PDF) Concert Genetic Testing: Preimplantation Genetic Testing (V2.2025) (PDF) Concert Genetic Testing: Prenatal and Preconception Carrier Screening (V2.2025) (PDF) Concert Genetic Testing: Prenatal Diagnosis (V2.2025) (PDF) Concert Genetic Testing: Prenatal Screening (V2.2025) (PDF) Concert Genetic Testing: Respiratory (V2.2025) (PDF) Concert Genetic Testing: Toxicology and Pharmacogenetics (Version A) (V2.2025) (PDF) Concert Genetic Testing: Transplant (V2.2025) (PDF) Concert Genetics Oncology: Algorithmic Assays (V2.2025) (PDF) Concert Genetics Oncology: Cancer Screening and Surveillance (V2.2025) (PDF) Concert Genetic Oncology: Hematologic Malignancy (V2.2025) (PDF) Concert Genetics Oncology: Solid Tumor Molecular Diagnostics (V2.2025) (PDF) Cosmetic and Reconstructive Procedures (CP.MP.31) (PDF) Deep Transcranial Magnetic Stimulation for the Treatment of Obsessive Compulsive Disorder (CP.BH.201) (PDF) Diaphragmatic/Phrenic Nerve Stimulation (CP.MP.203) (PDF) Disc Decompression Procedures (CP.MP.114) (PDF) Discography (CP.MP.115) (PDF) Donor Lymphocyte Infusion (CP.MP.101) (PDF) Durable Medical Equipment and Orthotics and Prosthetics Guidelines (CP.MP.107) (PDF) Electric Tumor Treating Fields (Optune) (CP.MP.145) (PDF) Experimental Technologies (CP.MP.36) (PDF) Facet Joint Interventions (CP.MP.171) (PDF) Facility-based Sleep Studies for Obstructive Sleep Apnea (CP.MP.248) (PDF) Fecal Incontinence Treatments (CP.MP.137) (PDF) Fertility Preservation (CP.MP.130) (PDF) Fetal Surgery in Utero for Prenatally Diagnosed Malformations (CP.MP.129) (PDF) Gastric Electrical Stimulation (CP.MP.40) (PDF) Gender-Affirming Procedures (CP.MP.95) (PDF) Heart-Lung Transplant (CP.MP.132) (PDF) Home Births (CP.MP.136) (PDF) Home Ventilators (CP.MP.184) (PDF) Hospice Services (CP.MP.54) (PDF) Hyperhidrosis Treatments (CP.MP.62) (PDF) Implantable Hypoglossal Nerve Stimulation for Obstructive Sleep Apnea (CP.MP.180) (PDF) Implantable Intrathecal or Epidural Pain Pump (CP.MP.173) (PDF) Implantable Loop Recorder (CP.MP.243) (PDF) Implantable Wireless Pulmonary Artery Pressure Monitoring (CP.MP.160) (PDF) Intensity-Modulated Radiotherapy (CP.MP.69) (PDF) Intestinal and Multivisceral Transplant (CP.MP.58) (PDF) Intradiscal Steroid Injections for Pain Management (CP.MP.167) (PDF) IV Moderate Sedation, IV Deep Sedation, and General Anesthesia for Dental Procedures (CP.MP.61) (PDF) Lantidra (donislecel): Allogenic Pancreatic Islet Cellular Therapy (CP.MP.250) (PDF) Liposuction for Lipedema (CP.MP.244) (PDF) Long Term Care Placement (CP.MP.71) (PDF) Lung Transplantation (CP.MP.57) (PDF) Lysis of Epidural Lesions (CP.MP.116) (PDF) Mechanical Stretching Devices for Joint Stiffness and Contracture (CP.MP.144 ) (PDF) Multiple Sleep Latency Testing (CP.MP.24) (PDF) Neonatal Abstinence Syndrome Guidelines (CP.MP.86) (PDF) Neonatal Sepsis Management (CP.MP.85) (PDF) Nerve Blocks and Neurolysis for Pain Management (CP.MP.170) (PDF) Neuromuscular and Peroneal Nerve Electrical Stimulation (NMES) (CP.MP.48) (PDF) NICU Apnea Bradycardia Guidelines (CP.MP.82) (PDF) NICU Discharge Guidelines (CP.MP.81) (PDF) Nonmyeloablative Allogeneic Stem Cell Transplants (CP.MP.141) (PDF) Obstetrical Home Care Programs (CP.MP.91) (PDF) Orthognathic Surgery (CP.MP.202) (PDF) Osteogenic Stimulation (CP.MP.194) (PDF) Outpatient Cardiac Rehabilitation (CP.MP.176) (PDF) Outpatient Oxygen Use (CP.MP.190) (PDF) Pancreas Transplantation (CP.MP.102) (PDF) Panniculectomy (CP.MP.109) (PDF) Pediatric Heart Transplant (CP.MP.138) (PDF) Pediatric Kidney Transplant (CP.MP.246) (PDF) Pediatric Liver Transplant (CP.MP.120) (PDF) Pediatric Oral Function Therapy (CP.MP.188) (PDF) Percutaneous Left Atrial Appendage Closure Device for Stroke Prevention (CP.MP.147) (PDF) Phototherapy for Neonatal Hyperbilirubinemia (CP.MP.150) (PDF) Physical, Occupational, and Speech Therapy Services (CP.MP.49) (PDF) Posterior Tibial Nerve Stimulation for Voiding Dysfunction (CP.MP.133) (PDF) Proton and Neutron Beam Therapies (CP.MP.70) (PDF) Reduction Mammoplasty and Gynecomastia Surgery (CP.MP.51) (PDF) Repair of Nasal Valve Compromise (CP.MP.210) (PDF) Sacroiliac Joint Fusion (CP.MP.126) (PDF) Sacroiliac Joint Interventions for Pain Management (CP.MP.166) (PDF) Sclerotherapy and Chemical Endovenous Ablation for Varicose Veins and Other Symptomatic Venous Disorders (CP.MP.146) (PDF) Selective Dorsal Rhizotomy for Spasticity in Cerebral Palsy (CP.MP.174) (PDF) Selective Nerve Root Blocks and Transforaminal Epidural Steroid Injections (CP.MP.165) (PDF) Skin and Soft Tissue Substitutes for Chroni\", \"text_truncated\": true}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_RthNKwJQC2EiAmH4TlXQtKss",
+   "output": "{\"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambetteril/pdfs/IL-MbrGrievanceApealConcrn.pdf\", \"final_url\": \"https://www.ambetterhealth.com/content/dam/centene/ambetteril/pdfs/IL-MbrGrievanceApealConcrn.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"error\": \"fetch blocked or unreadable: extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_Yh2dS5dwNJ9yOKoasucnr5yG",
+   "output": "{\"query\": \"\\\"CP.MP.114\\\" \\\"Effective\\\" Disc Decompression Procedures Ambetter Illinois 2026\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_iq8PMIxhHzFrj3TlPJy663TJ",
+   "output": "{\"query\": \"site:ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf \\\"Policy Number\\\" \\\"Effective Date\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "id": "rs_0400d26461bed027016a9b6a7db21087d28cfedb6eccb04444",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2p_ZH3mPHFXhU9d312QUmkG28CcLF2uGxjUnZL4p6wWa3ZYcTo8VvDRWPSTP59U9Iirff3BwogdBJ1ZY6gyz122-uu8NgO_q2JkaB9MOsv1KtQtRmMxpY0n9uOVlWxNTc0IlfnWtMblPuz5PFybaryRl5_HqgugbStAdGBrGqmcOTJtbBPoEKDpHCn3BGHe3h4oNuVZ3Xx9C-eboup215hjT5yehFy-qaG00EqaBMDBr86F5FAnl-VadMaZERBGXF3wmgGUxY04tBYm6OhymMJq__IILP1vMeqakG0uBN5au_Tr5p4Ozvsb1sQ2kwUHcDmg_aRKSLmfOOUesyl6Fr9i7pxYaW9yvaulRTjc6GyrtnCesBpJA3nkBxTyL7e1cZ__8b1n_hDJWPPgFzxsncjzDPSV1_2GtoVmA0zRJLX-i1O2hE-voYJtDDTT6xmNBysRhSVQoHGUWqGTFpe7ZX8ZxTlAqh17hEGbLHlNMULYXPRmgndzKl1XYa64-74tasSx76BC8FO4dhEKFOPrA7NdLSTfAyWbjEh9hlI4BolaGTHtklA9utiNdwVbcI3Xw4P-kla7XFRQiQv3jrEU21wXSJo50j4iH6yHROf0vZOec6dE3c9VtjAc1syJA2jmu59grt9wdBGhu5rnvovwUc7GXqJ18pV5xvWs1YvHkliQoVe0IKXjsNqwXf3agTNkJX0MiaZQWlMV9Pa2GiQfhIAepC3tocHHeEp7OE7-5cBsxaJDCje3tqeeh0BPkpapdCds_EoeErJX2BT92sS_NFdDWqzheJzctrQHZUYzHwGf0ayp5VmE_iXl1pU-RedX9Ch0Y1PBfwD81enSm_CJMsvi2JqrfaOpYeXPnlaHrnVYxT5pYVozdf2NPGooaPwyUCrggp0a5FC7Q9qwE0SMJSEknDxla5GQ-ZNUPdw_lwlgoSVtFPRAvnCHBMghIZzyvp869SgYWVMLXQLzmkHcN1rL7WPsBlJJRmwf8WeL-CcMYjmQ7020Sha1t9kp9468Ux6aSXF6dsTf60DLJxpb7hjO1OLnK_FQjB5Pnk5AMNND4lvgAPEnmWY0jt_M6bBAHxU4TDSTRo0YPxCU0EiDADKoUZniEKpOCYg2lta8TmN1wHWqPk8orchh0EfkXyx54SCJyYvkqIAWasGF66uRF9GOEHc0Ii_5asQU3LRTNLB7x5dhJrMFJE7oKhOetzF7urvHzCWd9AxF5HSYtlWQP5gOO0kA9RPAESnSo7EjWbr7-Ec=",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Disc Decompression Procedures\\\" \\\"CP.MP.114\\\" \\\"medically necessary\\\"\",\"count\":10}",
+   "call_id": "call_iVtaHYbUY25GCbdx4GBRzWa8",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a7ef77487d2aca472035f8930b4",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"CP.MP.114\\\" discectomy criteria\",\"count\":10}",
+   "call_id": "call_l3G7vrZ0msTXxV2TfXO4x3Rf",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a7ef78487d2ba9af0eead390cf7",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"CP.MP.114\\\" \\\"Open discectomy\\\"\",\"count\":10}",
+   "call_id": "call_C06I0yW5umPcU07alvxRN0CZ",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a7ef78c87d2983941a46ac40143",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Disc Decompression Procedures\\\" Ambetter \\\"lumbar\\\" \\\"criteria\\\"\",\"count\":10}",
+   "call_id": "call_cASjN4ofKGqIv1wMhTAjZV4Z",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a7ef79887d291ca64a3a352ca38",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_iVtaHYbUY25GCbdx4GBRzWa8",
+   "output": "{\"query\": \"\\\"Disc Decompression Procedures\\\" \\\"CP.MP.114\\\" \\\"medically necessary\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_l3G7vrZ0msTXxV2TfXO4x3Rf",
+   "output": "{\"query\": \"\\\"CP.MP.114\\\" discectomy criteria\", \"results\": [{\"title\": \"CP.MP.114 - Disc Decompression Procedures\", \"url\": \"https://www.healthnet.com/content/dam/centene/healthnet/pdfs/general/ca/policies/CP.MP.114.pdf\", \"snippet\": \"Policy split from CP.MP.63 Pain Management Procedures. Clarified that open discectomy and microdiscectomy are medically \u00b7 necessary, while minimally invasive discectomy procedures are not. Added criteria for open/microdiscectomy.\"}, {\"title\": \"Clinical Policy: Disc Decompression Procedures Reference Number: CP.MP.114\", \"url\": \"https://network.carolinacompletehealth.com/content/dam/centene/carolinacompletehealth/policies/clinical-policies/CP.MP.114%20-%20Disc%20Decompression%20Procedures.pdf\", \"snippet\": \"Policy split from CP.MP.63 Pain Management Procedures. Clarified that open discectomy and microdiscectomy are medically \u00b7 necessary, while minimally invasive discectomy procedures are not. Added ... Added background information, CPT, and ICD-10 codes. ... Revised I.C.1.a. from a score of &lt; 2 on the Medical Research Council 0 to 5 \u00b7 muscle strength scale to a score of &lt; 3 per 2017 IQ criteria...\"}, {\"title\": \"Page 1 of 6 Clinical Policy: Disc Decompression Procedures\", \"url\": \"https://www.pahealthwellness.com/content/dam/centene/Pennsylvania/policies/clinical-policies/PA.CP.MP.114%20Disc%20Decompression%20Procedures_REV_MAY_2025.pdf\", \"snippet\": \"<strong>0 to 5 muscle strength scale to a score of &lt; 3 per 2017 IQ criteria</strong>. Codes updated. Annual review; updated the investigational listing of percutaneous \u00b7 lumbar discectomy to specifically mention MILD. Coding reviewed. Specified that CPT 0275T is a code that does not support coverage\"}, {\"title\": \"Page 1 of 8 Clinical Policy: Disc Decompression Procedures\", \"url\": \"https://ldh.la.gov/assets/medicaid/MCPP/8.12.22/1383_LHCC_LA.CP.MP.114_Disc_Decompression_Procedures.pdf\", \"snippet\": \"Reference Number: LA.CP.MP.114 \u00b7 Coding Implications \u00b7 Date of Last Revision: 1/20227/22 \u00b7 Revision Log \u00b7 See Important Reminder at the end of this policy for important regulatory and legal information. Description \u00b7 Microdiscectomy or open discectomy (MD/OD) are the standard procedures for symptomatic \u00b7\"}, {\"title\": \"Page 1 of 7 Clinical Policy: Disc Decompression Procedures\", \"url\": \"https://www.louisianahealthconnect.com/content/dam/centene/louisiana-health-connect/policies/clinical-policies/LA.CP.MP.114%20Disc%20Decompression%20Procedures%207.24.pdf\", \"snippet\": \"Reference Number: LA.CP.MP.114 \u00b7 Coding Implications \u00b7 Date of Last Revision: 07/24 \u00b7 Revision Log \u00b7 See Important Reminder at the end of this policy for important regulatory and legal \u00b7 information. Description \u00b7 Microdiscectomy or open discectomy (MD/OD) are the standard procedures for symptomatic \u00b7\"}, {\"title\": \"CP.MP.114 - Disc Decompression Procedures\", \"url\": \"https://www.coordinatedcarehealth.com/content/dam/centene/Coordinated%20Care/policies/clinical-policies/CP.MP.114.pdf\", \"snippet\": \"Coordinated Care exists to improve the health of its beneficiaries through focused, compassionate care. Get insured or become a provider today.\"}, {\"title\": \"Clinical Coverage Guidelines (CCGs) | Wellcare\", \"url\": \"https://www.wellcare.com/en/texas/providers/clinical-guidelines/ccg-list\", \"snippet\": \"Disc Decompression Procedures: CP.MP.114 \u00b7 Microdiscectomy or open discectomy (MD/OD) are the standard procedures for symptomatic lumbar disc herniation and they involve removal of the portion of the intervertebral disc compressing the nerve root or spinal cord (or both) with or without the aid of a headlight loupe or microscope magnification.\"}], \"result_count\": 7, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_C06I0yW5umPcU07alvxRN0CZ",
+   "output": "{\"query\": \"\\\"CP.MP.114\\\" \\\"Open discectomy\\\"\", \"results\": [{\"title\": \"Clinical Policy: Disc Decompression Procedures Reference Number: CP.MP.114\", \"url\": \"https://network.carolinacompletehealth.com/content/dam/centene/carolinacompletehealth/policies/clinical-policies/CP.MP.114%20-%20Disc%20Decompression%20Procedures.pdf\", \"snippet\": \"Reference Number: CP.MP.114 \u00b7 Coding Implications \u00b7 Last Review Date: 05/20 \u00b7 Revision Log \u00b7 See Important Reminder at the end of this policy for important regulatory and legal \u00b7 information. Description \u00b7 Microdiscectomy or open discectomy (MD/OD) are the standard procedures for symptomatic \u00b7\"}, {\"title\": \"CP.MP.114 - Disc Decompression Procedures\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf\", \"snippet\": \"Reference Number: CP.MP.114 \u00b7 Coding Implications \u00b7 Date of Last Revision: 04/25 \u00b7 Revision Log \u00b7 See Important Reminder at the end of this policy for important regulatory and legal \u00b7 information. Description \u00b7 Microdiscectomy or open discectomy (MD/OD) are the standard procedures for symptomatic \u00b7\"}, {\"title\": \"Page 1 of 8 Clinical Policy: Disc Decompression Procedures\", \"url\": \"https://network.carolinacompletehealth.com/content/dam/centene/carolinacompletehealth/policies/cch-centene-cp/CP.MP.114.pdf\", \"snippet\": \"Reference Number: CP.MP.114 \u00b7 Coding Implications \u00b7 Date of Last Revision: 04/25 \u00b7 Revision Log \u00b7 See Important Reminder at the end of this policy for important regulatory and legal \u00b7 information. Description \u00b7 Microdiscectomy or open discectomy (MD/OD) are the standard procedures for symptomatic \u00b7\"}, {\"title\": \"CP.MP.114 - Disc Decompression Procedures\", \"url\": \"https://www.healthnet.com/content/dam/centene/policies/clinical-policies/CP.MP.114.pdf\", \"snippet\": \"Reference Number: CP.MP.114 \u00b7 Coding Implications \u00b7 Date of Last Revision: 04/26 \u00b7 Revision Log \u00b7 See Important Reminder at the end of this policy for important regulatory and legal \u00b7 information. Description \u00b7 Microdiscectomy or open discectomy (MD/OD) are the standard procedures for symptomatic \u00b7\"}, {\"title\": \"Page 1 of 6 Clinical Policy: Disc Decompression Procedures\", \"url\": \"https://www.louisianahealthconnect.com/content/dam/centene/louisiana-health-connect/policies/clinical-policies/CP.MP.114.pdf\", \"snippet\": \"Reference Number: CP.MP.114 \u00b7 Coding Implications \u00b7 Last Review Date: 05/19 \u00b7 Revision Log \u00b7 See Important Reminder at the end of this policy for important regulatory and legal \u00b7 information. Description \u00b7 Microdiscectomy or open discectomy (MD/OD) are the standard procedures for symptomatic \u00b7\"}, {\"title\": \"Clinical Coverage Guidelines (CCGs) | Wellcare\", \"url\": \"https://www.wellcare.com/en/texas/providers/clinical-guidelines/ccg-list\", \"snippet\": \"Disc Decompression Procedures: CP.MP.114 \u00b7 Microdiscectomy or open discectomy (MD/OD) are the <strong>standard procedures for symptomatic lumbar disc herniation</strong> and they involve removal of the portion of the intervertebral disc compressing the nerve root or spinal cord (or both) with or without the ...\"}], \"result_count\": 6, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_cASjN4ofKGqIv1wMhTAjZV4Z",
+   "output": "{\"query\": \"\\\"Disc Decompression Procedures\\\" Ambetter \\\"lumbar\\\" \\\"criteria\\\"\", \"results\": [{\"title\": \"Page 1 of 8 Clinical Policy: Disc Decompression Procedures\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf\", \"snippet\": \"I. It is the policy of health plans affiliated with Centene Corporation\u00ae that open discectomy and \u00b7 microdiscectomy are medically necessary when meeting all of the following: A. <strong>Age \u2265 18 years</strong>; B. Diagnosis of herniated lumbar disc;\"}, {\"title\": \"Page 1 of 6 Clinical Policy: Disc Decompression Procedures\", \"url\": \"https://www.louisianahealthconnect.com/content/dam/centene/louisiana-health-connect/policies/clinical-policies/CP.MP.114.pdf\", \"snippet\": \"minimally invasive procedures for spinal decompression are investigational: A. Percutaneous Lumbar Discectomy (manual or automated [APLD] and/or MILD);\"}, {\"title\": \"Page 1 of 7 Clinical Policy: Disc Decompression Procedures\", \"url\": \"https://www.healthnet.com/content/dam/centene/healthnet/pdfs/general/ca/policies/CP.MP.114.pdf\", \"snippet\": \"I. It is the policy of health plans affiliated with Centene Corporation\u00ae that open discectomy and \u00b7 microdiscectomy are medically necessary when meeting all of the following: A. <strong>Age \u2265 18 years</strong>; B. Diagnosis of herniated lumbar disc;\"}, {\"title\": \"Page 1 of 8 Clinical Policy: Disc Decompression Procedures\", \"url\": \"https://ldh.la.gov/assets/medicaid/MCPP/8.12.22/1383_LHCC_LA.CP.MP.114_Disc_Decompression_Procedures.pdf\", \"snippet\": \"I. It is the policy of Louisiana Healthcare Connections that open discectomy and \u00b7 microdiscectomy are medically necessary when meeting all of the following: A. <strong>Age \u2265 18 years</strong>; B. Diagnosis of herniated lumbar disc;\"}, {\"title\": \"Page 1 of 8 Clinical Policy: Disc Decompression Procedures\", \"url\": \"https://network.carolinacompletehealth.com/content/dam/centene/carolinacompletehealth/policies/cch-centene-cp/CP.MP.114.pdf\", \"snippet\": \"I. It is the policy of health plans affiliated with Centene Corporation\u00ae that open discectomy and \u00b7 microdiscectomy are medically necessary when meeting all of the following: A. <strong>Age \u2265 18 years</strong>; B. Diagnosis of herniated lumbar disc;\"}], \"result_count\": 5, \"error\": null}"
+  },
+  {
+   "id": "rs_0400d26461bed027016a9b6a827e8487d29c4e300fd347bd8c",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2qEZYRNO79moe4IPPjsbR-KvmX4pap6omBpMQeIM1gBQ5Y26nflspX9NYtYh7q9d0-BxyjwvRN-p4AHWY00eI2rcRhbmVZdu3g5BaUppJKneRFf42Har-bZsH35OViqTNKQZyyabvWyeQK4TWfc2Gc0RQIFOuXyxTWimNn3o1872XtEOvkPf5OBq2xhauQSduXhNvKu4J69J3SBk5G7GoOH7lujeoyhRld4IIdOMaGv5PNR8D2Tjnr6X5SFrG1rRwWIdXfSfIdwnzNrkmwnpaup57_6RqEZ18yJX7AIhdzb84Se3oE-nGKNJKqWV2QJsKNA0cXqnLLYOI64VpWI9OGSXdKQTvIk_mRls5OIND1W3PlZ-yjC7dSACtQqn4uS7HQNpCBplMsZuucBxzQu2txjNR0kyd6l6K6JzRf0tWk9S1QBa8OQV8U_X-Z-J_dTmuXkv3n1_7J0XhwbTj5BHf7N-ltxJLqdQ4N8P4uRtlG0LYX6LKulaNeLLFxBI9RLi3tUHJ5aUm4TkWM0jr2Dz0IpR7Ju-OT2WoxfNqGhlNUPOM9kMZFOjFOD4EFCoBFiK7kxJ4QwdrHDgpwRw8LXgyGrL8qcQt6MJt_TWdeSx67JuwtRcOWyH4vXs9F0z3UiP49LXdIrB0S8XRgSQMChE5BrdXRMCFQVru_2aVOf0s2MfZeT9KWlmD-V9eywTDKyzXl1aIqrIkxzWt1mL9qRc-h6VoE93Z8ZxClzQ5-c6FCxpmMa2vbmifcpvW18X-VfxxCyZj89OFA8K_kePoua8HrIKjlvTXQwFB-TO6VwOuPzajtFYNfFTiAhK7YggwrCrnOA0E_q3zov69aFHod_4BPcWpyFSdCS8tpem04Heaa1UTLy9ah_x_16WRxEUr173PggpV3l38MYTSizmOUddMJauUm0m7xnpbCxjx6qEQSgaHyfGgLhWc8xkuQSDvr8MaEvZMrodQ4CKF3rzZZ9ApB3DLqfbeqh7RLnB6hBz83hRFMkZXxUPgHhXyNlnTgeZJdNhyg3NobD5VSxianpw7KFVmL9zOJAafhUWbxAa17XQ1UiI9I-JU4z6OOxP1jABTqh0ElnBztBIAnbdXM00jBG5lt6w13sS1N2j1PoPjFs1K2BB3mBiJIQQuLU1D-JnhttliAjU1TGx5H_axcEi51B8MeMpBDx9GaYXmFhUATfesDtPgr-2u50KkW9SLOmPjNLCVev0pa9qTMu_APSVC89SQlSHOehS-jZOnaE4We25NWrtYPGouaBE9Wf77fxno5VuKLsr0BOOISsTSQ7TBaEag==",
+   "status": null
+  },
+  {
+   "arguments": "{\"url\":\"https://network.carolinacompletehealth.com/content/dam/centene/carolinacompletehealth/policies/clinical-policies/cch-centene-cp/CP.MP.114.pdf\"}",
+   "call_id": "call_CinVlqtFGGWIobj3ov8fwsSE",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a844d2087d2aaab2b9d737c21b9",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://www.healthnet.com/content/dam/centene/healthnet/pdfs/general/ca/policies/CP.MP.114.pdf\"}",
+   "call_id": "call_idOOEEnyAzq3zyGEMbBdIXbi",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a844d3087d299971280d6669ae9",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf \\\"C.\\\" \\\"conservative\\\" OR \\\"neurologic\\\"\",\"count\":10}",
+   "call_id": "call_rOnCI7EuQN7cleCydfSeTxQe",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a844d3887d2bd889d7e3ecedf1f",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf \\\"I.A\\\" \\\"I.B\\\" \\\"I.C\\\"\",\"count\":10}",
+   "call_id": "call_LTtUIn2caytRlVKHKlc1VcbD",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a844d3c87d2a3a60ca6038cb2e4",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_CinVlqtFGGWIobj3ov8fwsSE",
+   "output": "{\"url\": \"https://network.carolinacompletehealth.com/content/dam/centene/carolinacompletehealth/policies/clinical-policies/cch-centene-cp/CP.MP.114.pdf\", \"final_url\": \"https://network.carolinacompletehealth.com/content/dam/centene/carolinacompletehealth/policies/clinical-policies/cch-centene-cp/CP.MP.114.pdf\", \"http_status\": 404, \"content_type\": \"text/html;charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Page Not Found Skip to Main Content WellCare of North Carolina is now Carolina Complete Health. Learn more about the merger. X Home For Members Join the Network Pre-Auth Tool Tailored Plan Portals CCH Portal WellCare Portal Enter Keyword Search About Us Provider Relations Provider Engagement Careers Contact Us Provider-Led Innovation Provider Experience Team Provider Resources Ambetter Medicare Manuals, Forms, and Guides Education and Training Claims and Billing Prior Authorization Clinical Policies Payment Policies Administrative Policies Tailored Plans Pharmacy Clinical Practice Guidelines Behavioral Health Transportation Services Home Health and Personal Care Services Quality Improvement Risk Adjustment Continuity of Care Plus Program In Lieu of Services (ILOS) Healthy Opportunities Health Equity Tobacco-Free Policy Resources Prior Authorization Provider Communications Contact Us About Us Provider Relations Provider Engagement Careers Contact Us Provider-Led Innovation Innovation Pilots Provider Experience Team Provider Resources Ambetter Medicare Manuals, Forms, and Guides Education and Training How to Attend a New Provider Orientation Claims and Billing FQHC Billing Guidance Claims and Billing Frequently Asked Questions Holiday Check Run Schedules Prior Authorization Clinical Policies Proposed Policy Revisions Provider-Led Clinical Policy Policy Updates Payment Policies Administrative Policies Tailored Plans Partners Tailored Plan Provider Resources Trillium Tailored Plan Provider Resources Pharmacy Outpatient Pharmacy Benefit Physician Administered Drug Program Over-the-Counter Benefit Clinical Practice Guidelines Behavioral Health Behavioral Health Integration METS Partnerships in Care (PiC) Program Transportation Services Home Health and Personal Care Services Quality Improvement Providing Quality Care Risk Adjustment Continuity of Care Plus Program In Lieu of Services (ILOS) Healthy Opportunities Health Equity Tobacco-Free Policy Resources Prior Authorization Provider Communications Contact Us SEARCH MENU Enter Keyword Search Home For Members Join the Network Pre-Auth Tool Tailored Plan Portals CCH Portal WellCare Portal Error Page Not Found Server Error Page Not Found Sorry, but we can't seem to find the page you are looking for. Here are some other useful pages: Home Join CCHN About Us Contact Us Page Last Updated: 05/22/2024 Home Join the Network About Us Contact Us Accessibility Terms and Conditions Privacy Policy Site Map Provider Services Phone: 1-833-552-3876 Monday \u2013 Saturday 7 a.m. to 6 p.m. \u00a9 Copyright 2026 Carolina Complete Health Network, Inc.\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_idOOEEnyAzq3zyGEMbBdIXbi",
+   "output": "{\"url\": \"https://www.healthnet.com/content/dam/centene/healthnet/pdfs/general/ca/policies/CP.MP.114.pdf\", \"final_url\": \"https://www.healthnet.com/content/dam/centene/healthnet/pdfs/general/ca/policies/CP.MP.114.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"error\": \"fetch blocked or unreadable: extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_rOnCI7EuQN7cleCydfSeTxQe",
+   "output": "{\"query\": \"site:ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf \\\"C.\\\" \\\"conservative\\\" OR \\\"neurologic\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_LTtUIn2caytRlVKHKlc1VcbD",
+   "output": "{\"query\": \"site:ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf \\\"I.A\\\" \\\"I.B\\\" \\\"I.C\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "id": "rs_0400d26461bed027016a9b6a8748c887d29c1942adc2b76f6c",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2qJA6gVEJFpOuHwWxtZg4xJ2myLKVWg_qJLRAF6Ssc5L1s0zdtBYNC4BRo0nTAnqbWdiJE5U8QFDSigMlJonIk2fNw4Ua88VavbNIqMUKzNO4Xob2bin6JzRtSHYwiLNHobsN5ls9RLRYQZpfkrJKYJN_79pflRoGctuvmPZR8fy3nUaJ8A8vkYAphTVvdZe5VPDLdzSpld7CvW_0yVYZ_zv-99SgJlhqV2m2Cws64DFx87uZPqWdUFtw-yRZEboGpe-OmrHYqbxdfoTpoKGYZ7pFtLkEtMAEJxtFvv_A7ub_8Xh9uXR6hUv5fJiIeg14n5oYFwbkTjE5XcvZgmYWcshzgdJKL7L5rZljKOgLvLHALtyEk-1royPhODi010aGXCRLdvGyOaBR216XUrqRFj7SRXaWprG7oOEt-ClYpn-5ft4bNsevL6p2-wCsgdteWKDl2JlCFOJQy7Z2JKHmx8gBoemOJuyf2bubQoU99Maxuq6nXEnaRwz0GJ7i72x7xr3L5tOwY0jHQU4RqQryO1y-LHHZ0FjcHHI8gbIFCTFIaFEDARdqUbHlX_uGeseGcgQ9WUXJJdumxW84MHSOHjcXOZndWXUd9t4WhhvwrzUCTKhElK9OFbqY5QRdJirYS0ESKEylFqq_MXelMaNpcQ12wQOGt78uso9Ey8EPdGVKiz4qbXwebfTtTK8p6P2X6CYXzNy8v9JvOtpGuuDFgr5RCj1UzlnA1xXXrMrk-bxIvwp6qfMyxqqwhRwDKF-AnIXNU3m3_qcqzsAocdfI1b1sp06ZyHOLfEcDuKcEqSU_TLt82DBPLvx4ohf2uvw1aHfZPRAKFZUur5rBJLXaNskZPQKBm6UMx3Fhey49FuznWkKpQW4r9C8w6nJFdCzvFiz8bX2O855lR9Z-KC-G0vlRigq_DtyCV-8dQl1zHP5AHnAFN9pTfJFYk97iN0cI8gwneQik5hi-aX_QBYUZFEjqnGgHDjLgvD6zEoZfvRvTk7yhEyk9sfPOpd4EMZL2ULZF_jOcdFQigv1puUhLduN1XQdUGKoZPVGSeXCdrwOVrMOZtH-KzXsRP21BevHooXiJqbFYUXkD2VjOOoVOtkEjBTNyYPFc8azbKG9hkKQepKZszC8zgNf7VI7XLx9PM2vLLldc8BjWVtOf940Ag1AO-DZpnaZbrTNEVMbcNEXUXDG_sKp2nm8jC1Xact7tzwmPi6GaFCDRWVg1B0JCO02FqV3cp-FYAdSLUcH3IhoBd0vmbNlud9ytZJUDXwRcja8FUSRNK29whUIIEw0VDveA==",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Diagnosis of herniated lumbar disc\\\" \\\"Age \u2265 18 years\\\" discectomy \\\"conservative\\\" Centene\",\"count\":10}",
+   "call_id": "call_MOi3hnaquXE7EgXzIg4u5Wu8",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a88f23887d2a644d564218355d4",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"open discectomy and microdiscectomy are medically necessary\\\" \\\"all of the following\\\"\",\"count\":10}",
+   "call_id": "call_3jBn3i8lE0CFWPgO409PXVRA",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a88f25087d2bb5eae931e02890a",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Disc Decompression Procedures\\\" \\\"Failure to improve\\\" microdiscectomy Centene\",\"count\":10}",
+   "call_id": "call_e4Q0rTrOZ14oluJjNIatykD3",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a88f26087d2968069dbc7042331",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Disc Decompression Procedures\\\" \\\"Progressive motor weakness\\\" Centene\",\"count\":10}",
+   "call_id": "call_JDhgxD7JexNZ7JRTT0ZXuxcZ",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a88f26c87d29c1741b63113dc5e",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_MOi3hnaquXE7EgXzIg4u5Wu8",
+   "output": "{\"query\": \"\\\"Diagnosis of herniated lumbar disc\\\" \\\"Age \u2265 18 years\\\" discectomy \\\"conservative\\\" Centene\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_3jBn3i8lE0CFWPgO409PXVRA",
+   "output": "{\"query\": \"\\\"open discectomy and microdiscectomy are medically necessary\\\" \\\"all of the following\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_e4Q0rTrOZ14oluJjNIatykD3",
+   "output": "{\"query\": \"\\\"Disc Decompression Procedures\\\" \\\"Failure to improve\\\" microdiscectomy Centene\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_JDhgxD7JexNZ7JRTT0ZXuxcZ",
+   "output": "{\"query\": \"\\\"Disc Decompression Procedures\\\" \\\"Progressive motor weakness\\\" Centene\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "id": "rs_0400d26461bed027016a9b6a8d807487d28464d446e54b2a93",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2qPd4chgg-P_dtie8Xo14JQXVdAqCLKevnF9zkKSo-eo8qpUIR4mtW0Ork1kUh5PTlykZNam-fWxhJc6Fny7Ut-xVIZB6TJnOugOoPzxZG2FYBldd_AveU1kg5jNQCicZpycgCkVkgV_4Xv52wjNxcxExQFt6Ele82ibS8-1LcEh_v0cPwF-Yiml_geU3_EmI1NO1QGUhE6Jr01-tSyZSov-Ey8EteELzdIfmLKv70bHkSkZ5mOEKx5dedZWpeKEik_mA8w3YBIL0RX8umHxzR-bNV1YNlLyGDlomlXmkL7xdRAOjWUGwquUAnRIRB0nuowxWVtN-ZtpBMvtyY96dloRjXegtb0JEHktxEAv5S0HA20I3y80MRvxLXQq0Rzm7QS9euIpxY2JMef-Coym9mjOXDXcuOWzbHTnXQHuMPSnzST0MU-l3lQPKYoUeQcCnPf9SDedrCKDnKkSBxo3xQ6hvfVd_a-4MCQhRR90TFbahyluZ55CwnSO5pMBug75Tcl3Vptw8UE4PbXBTwaJUq0e29s4AGwl9ozTGTTxtFvgf7L7Kz9fr_NE8FZ3o-gHu7R2zfYc0Y5ybrdv1QCunoqn13I7eJ_Mt2X-SloIs6frWBoieJlneChtOPCDMIR0vKNVFooZQAHxwv6DPCHms5mvgQPl7z0AcgzLru91SsTHerqsgvCYOJRVG6UYn6is-e0xKW4j7MYDDqiGIylWUEiVTPP5ck6qyNGAI23mu2i98_PmLaXBZU_HTHFknf12isQLTct3xhHaR7ICwjTu9HBqbMPg4LjIauw4MmXQYn7MaBPHHnRnRhOjwnK-juNiRpWEJCj8sEe0FqKaY-Vi9dRCdHeRwUDtDXdOqH06bcokFTmeOMN0iUZAxHMYKMIYIU9ZkouO6KvuvrKjX5pnQSgOhQXNQOz9X8043_hwA_xNEH_ATPJh3oeyJxEZKTx0rhkfglfEpYozwV2wKR0mVh79-m2GtvJLXU0a0CBsh0LJ2wThHqSYsxvQk6O1XqpIYOaaDD9s2VRLN1ILXGcU_BfcbMt-GEjtFtK5Cmi0fGlfQxsc5BoAco4cXDLf6pbMXSAEHY4fNXmT0Akw381wBPkT4KUWnxV3XL1i43MG7Edqsj_Sgk65sHZQ-hKwTQZ_i6tgpZhH4ENcKzfJdDPQykk8LUjecr6vPtVcWJe1H7CbIfKx7MVufWzx_qLMd-vcp3N4o6fZPLfxQQ_JkzswgcGzXsroLgZSXb9vJCWhRhrsRRVqhmQc3XjO5zjlHCaOBoe",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"CP.MP.114 \\\"Conservative treatment\\\" lumbar discectomy\",\"count\":10}",
+   "call_id": "call_1kRt39WS7E8ZiU9vthEtzYpb",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a8edfa487d2bc3c5248c5f48a3b",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"CP.MP.114 \\\"radicular pain\\\"\",\"count\":10}",
+   "call_id": "call_141hufWKeum05IVCIAMKb6SU",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a8edfb887d2b0f738f416677791",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"CP.MP.114 \\\"MRI\\\" \\\"motor\\\"\",\"count\":10}",
+   "call_id": "call_s8F2PtgOXa2TY1cCip7e3RQq",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a8edfc087d2b41280676daac825",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"CP.MP.114 \\\"six weeks\\\" discectomy\",\"count\":10}",
+   "call_id": "call_OUOzJYwQB74zBbNalEk3aXO8",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a8edfcc87d2b8534a1e8cf68882",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_1kRt39WS7E8ZiU9vthEtzYpb",
+   "output": "{\"query\": \"CP.MP.114 \\\"Conservative treatment\\\" lumbar discectomy\", \"results\": [{\"title\": \"Surgical versus conservative treatment for lumbar disc herniation: a prospective cohort study - PMC\", \"url\": \"https://pmc.ncbi.nlm.nih.gov/articles/PMC5223716/\", \"snippet\": \"Lumbar disc herniation is considered ... often spontaneously regresses without surgery.8\u201310 Conservative treatment, including <strong>physical therapy, pharmacological treatment and infiltrations</strong>, is an alternative approach for symptomatic patients; 90% of sciatica cases due to lumbar ...\"}, {\"title\": \"Rehabilitation Guidelines for Conservative Management of ...\", \"url\": \"https://www.massgeneral.org/assets/MGH/pdf/orthopaedics/sports-medicine/physical-therapy/rehabilitation-protocol-conservative-management-of-lumbar-spine-disc-displacement.pdf\", \"snippet\": \"Massachusetts General Brigham Sports Medicine \u00b7 Rehabilitation Guidelines for Conservative Management of\"}, {\"title\": \"LUMBAR SPINE SURGERY Original Date: June 2013 CPT ...\", \"url\": \"https://ldh.la.gov/assets/medicaid/MCPP/10.11.23/2/1884_LHCC_Lumbar_Spine_Surgery_2024_redlines.pdf\", \"snippet\": \"conservative treatment and are <strong>not considered an indication for early surgery</strong> OR\"}, {\"title\": \"Subject: Thoracic and Lumbar Spine Surgery\", \"url\": \"https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-48&pv=false\", \"snippet\": \"Scheduled review. Revised criteria for lumbar discectomy/microdiscectomy; lumbar \u00b7 decompression (laminectomy, laminotomy, facetectomy and foraminotomy); single level \u00b7 and multiple level lumbar spine fusion. Revised definition of conservative treatment,\"}, {\"title\": \"Review of Recent Treatment Strategies for Lumbar Disc Herniation (LDH) Focusing on Nonsurgical and Regenerative Therapies\", \"url\": \"https://www.mdpi.com/2077-0383/14/4/1196\", \"snippet\": \"Conservative treatment is <strong>primarily performed for the treatment of patients with lumbar disc herniation (LDH),</strong> but if it does not respond, surgical treatment can be performed. Surgical intervention has a positive effect on the rapid improvement ...\"}, {\"title\": \"Surgical versus conservative management of lumbar disc prolapse: A systematic review and meta-analysis - Journal of Musculoskeletal Surgery and Research\", \"url\": \"https://journalmsr.com/surgical-versus-conservative-management-of-lumbar-disc-prolapse-a-systematic-review-and-meta-analysis/\", \"snippet\": \"Conservative management, comprising <strong>analgesics, physical therapy, structured exercise, and occasionally epidural steroid injections</strong>, remains the first-line treatment for most patients.\"}, {\"title\": \"The role of conservative treatment in lumbar disc herniations: WFNS spine committee recommendations - PMC\", \"url\": \"https://pmc.ncbi.nlm.nih.gov/articles/PMC10882128/\", \"snippet\": \"<strong>To formulate the most current, evidence-based recommendations for the conservative management of lumbar disc herniations (LDH).</strong> A systematic literat\u00fcre search was performed 2012\u20132022 in PubMed/Medline and Cochrane using the keywords \u2018\u2019lumbar disc ...\"}, {\"title\": \"Page: 1 of 18 Proprietary Information of Univera Healthcare MEDICAL POLICY\", \"url\": \"https://www.univerahealthcare.com/documents/d/global/uni-prv-lumbar-microdiscectomy-1\", \"snippet\": \"Overall, the literature suggests that lumbar discectomy provides effective clinical benefit in carefully \u00b7 selected patients with sciatica. There is strong evidence in favor of microdiscectomy surgery over \u00b7 conservative treatment at short-term follow-up.\"}, {\"title\": \"Lumbar Discectomy vs Conservative Treatment: When Is Surgery the Better Option? | NJ Brain & Spine\", \"url\": \"https://njbrainspine.com/lumbar-discectomy-vs-conservative-treatment/\", \"snippet\": \"Learn when lumbar discectomy is the better option compared with conservative treatment for herniated discs. Understand symptoms, recovery, and decision-making from NJ Brain &amp; Spine specialists.\"}, {\"title\": \"Indications for surgery versus conservative treatment in the management of lumbar disc herniations: A systematic review - ScienceDirect\", \"url\": \"https://www.sciencedirect.com/science/article/pii/S2772529425014389\", \"snippet\": \"The first block included terms describing lumbar disc herniation, such as \u201clumbar disc herniation\u201d, \u201cintervertebral disc displacement\u201d, \u201cherniated disc\u201d, and related synonyms. The second block focused on surgical procedures, incorporating terms such as \u201csurgery\u201d, \u201cdiscectomy\u201d, \u201claminectomy\u201d, \u201cmicrodiscectomy\u201d, \u201cspinal fusion\u201d, and \u201csurgical decompression\u201d. The third block addressed surgical indications and clinical presentations, including terms such as \u201csurgical indication\u201d, \u201ctiming of surgery\u201d, \u201cneurological deficit\u201d, \u201ccauda equina\u201d, \u201cmotor weakness\u201d, and \u201cradiculopathy\u201d. The full search strategy is detailed in Supplementary Table 1.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_141hufWKeum05IVCIAMKb6SU",
+   "output": "{\"query\": \"CP.MP.114 \\\"radicular pain\\\"\", \"results\": [{\"title\": \"Page 1 of 8 Clinical Policy: Selective Nerve Root Blocks and Transforaminal\", \"url\": \"https://www.azcompletehealth.com/content/dam/centene/az-complete-health/policies/clinical-policies/CP.MP.165.pdf\", \"snippet\": \"SNRB and TFESI criteria reviewed and updated in CP.MP.118.\"}, {\"title\": \"Selective Nerve Root Blocks and Transforaminal Epidural ...\", \"url\": \"https://www.louisianahealthconnect.com/content/dam/centene/louisiana-health-connect/policies/clinical-policies/LA.CP.MP.165-SNRB-and-TFESI-1.22.pdf\", \"snippet\": \"B. One transforaminal epidural ... chronic pain is considered \u00b7 medically necessary when all of the following are met: 1. TFESI is requested for a single level bilaterally or up to two levels unilaterally; 2. If a cervical TFESI is requested, non-particulate steroid must be used and the \u00b7 procedure must be conducted with real-time imaging, such as fluoroscopy; 3. There is persistent radicular pain caused ...\"}, {\"title\": \"2. Cervical radicular pain\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/37272250/\", \"snippet\": \"Checking your browser before accessing pubmed.ncbi.nlm.nih.gov \u00b7 Click here if you are not automatically redirected after 5 seconds\"}, {\"title\": \"Cervical Radiculopathy - Physiopedia\", \"url\": \"https://www.physio-pedia.com/Cervical_Radiculopathy\", \"snippet\": \"... All of the criteria previously ... The adjacent level has radicular pain <strong>correlating with at least moderate foraminal stenosis or lateral recess herniation or EMG changes, motor deficits or reflex changes correlated to adjacent level</strong>....\"}, {\"title\": \"Cervical radiculopathy: Pain, muscle weakness and sensory loss in patients with cervical radiculopathy treated with surgery, physiotherapy or cervical collar A prospective, controlled study - PMC\", \"url\": \"https://pmc.ncbi.nlm.nih.gov/articles/PMC3454639/\", \"snippet\": \"We conclude that pain intensity, muscle weakness and sensory loss can be expected to improve within a few months after surgery, while slow improvement with conservative treatments and recurrent symptoms in the surgery group make the 1-year results about equal. Key words: Anterior cervical fusion, Cervical collar, Cervical radicular pain, Muscle strength, Physiotherapy\"}, {\"title\": \"Radicular Pain Syndromes: Cervical, Lumbar, and Spinal Stenosis - PubMed\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/30522138/\", \"snippet\": \"Back pain is a top primary and urgent care complaint; radicular pain <strong>can be caused by herniation of the nucleus pulposus (intervertebral disc), spinal stenosis, or degenerative changes to the vertebrae</strong>.\"}, {\"title\": \"Lumbar radicular pain - PMC - NIH\", \"url\": \"https://pmc.ncbi.nlm.nih.gov/articles/PMC9402780/\", \"snippet\": \"Checking your browser before accessing pmc.ncbi.nlm.nih.gov \u00b7 Click here if you are not automatically redirected after 5 seconds\"}, {\"title\": \"Radiculopathy - Red Flag Symptoms - Symptomatic Management - TeachMeSurgery\", \"url\": \"https://teachmesurgery.com/orthopaedic/spine/radiculopathy/\", \"snippet\": \"Patients often experience radicular pain, which is <strong>typically described as a burning or strap-like discomfort</strong>, and may present with &quot;red flag&quot; symptoms indicating more serious underlying issues.\"}, {\"title\": \"Cervical Radiculopathy | PM&R KnowledgeNow\", \"url\": \"https://now.aapmr.org/cervical-radiculopathy/\", \"snippet\": \"Chronic/stable presentation A more insidious presentation has been associated with spondylosis, where a gradual narrowing of the neuroforamen from the narrowing of discs or generation of osteophytes over time produces a progressive compression or inflammation/irritation of the nerve. In this case, the symptoms will be subacute, with chronic neck discomfort plus progressive radicular pain associated with numbness and weakness in the dermatome or myotome.\"}, {\"title\": \"Medication recommendations for treatment of lumbosacral radiculopathy: A systematic review of clinical practice guidelines<inlineGraphic alt='image' href='' location='graphic/pmrj13142-gra-0001.png'></inlineGraphic>\", \"url\": \"https://onlinelibrary.wiley.com/doi/10.1002/pmrj.13142\", \"snippet\": \"Objective The purpose of this systematic review was to ascertain guideline-recommended pharmaceutical approaches to lumbosacral radicular symptoms, assess the quality of the clinical practice guidel...\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_s8F2PtgOXa2TY1cCip7e3RQq",
+   "output": "{\"query\": \"CP.MP.114 \\\"MRI\\\" \\\"motor\\\"\", \"results\": [{\"title\": \"Neuroimaging Patterns and Function in Cerebral Palsy\u2014Application of an MRI Classification - PMC\", \"url\": \"https://pmc.ncbi.nlm.nih.gov/articles/PMC7887285/\", \"snippet\": \"The CP classification and the MRICS was applied, and The Gross Motor Function Classification (GMFCS) and the Bimanual Fine Motor Function (BFMF) classification were used. The following associated impairments were documented: intellectual impairment, active epilepsy, visual impairment, and hearing impairment.\"}, {\"title\": \"MRI and Motor Outcomes in Children with Cerebral Palsy - PMC\", \"url\": \"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4747131/\", \"snippet\": \"A total of 272 children were identified from the Victorian Cerebral Palsy Register with a diagnosis of CP and WMI on MRI. Their MRI findings were divided into broad patterns of injury that reflected pathogenesis &amp; timing of injury: unilateral, asymmetrical, or symmetrical, then based on location: anterior, mid, and posterior white matter. These data were then analyzed using Chi square tests to assess the strength of association between known Gross Motor Function Classification System (GMFCS) levels and symmetrical WMI, and between motor topography groups for children with symmetrical WMI &amp; bilateral CP.\"}, {\"title\": \"Profile of children with cerebral palsy spectrum disorder and a normal MRI study | Neurology\", \"url\": \"https://www.neurology.org/doi/10.1212/WNL.0000000000007726\", \"snippet\": \"Neuroimaging classification was ascertained by university-based pediatric neuroradiologists and split into 2 categories: normal and abnormal MRIs. Six factors were then compared between those 2 groups: prematurity, perinatal adversity, presence of more than 1 comorbidity, CP subtype, bimanual dexterity (Manual Ability Classification System [MACS]), and gross motor function (Gross Motor Function Classification System [GMFCS]).\"}, {\"title\": \"MRI and identification of causes of cerebral palsy - Cerebral palsy in under 25s: assessment and management - NCBI Bookshelf\", \"url\": \"https://www.ncbi.nlm.nih.gov/books/NBK533235/\", \"snippet\": \"Ideally, MRI would be used at the time of presentation in a child with suspected cerebral palsy where there is no clear aetiology based on obstetric perinatal or postnatal history, neurological examination or other investigations, or if there is any unexpected change in clinical or developmental profile. It is important to rule out disorders other than cerebral palsy, as patients incorrectly diagnosed with cerebral palsy but with a progressive motor disorder may not get access to available therapies, which may adversely impact on their health-related quality of life.\"}, {\"title\": \"MRI classification system (MRICS) for children with cerebral palsy: development, reliability, and recommendations - Himmelmann - 2017 - Developmental Medicine & Child Neurology - Wiley Online Library\", \"url\": \"https://onlinelibrary.wiley.com/doi/10.1111/dmcn.13166\", \"snippet\": \"The development of a classification system was based on the concept of the underlying pathogenic MRI patterns in children with CP. Typical illustrations of these patterns including subgroups and descriptions in the context of clinical cases were searched for and agreed on by the authors. A manual was developed in the process and tested with respect to comprehensibility and applicability during several SCPE workshops. Type of CP and gross motor function according to Gross Motor Function Classification System (GMFCS)20 were described together with MRI findings.\"}, {\"title\": \"Frontiers | The Role of Neuroimaging and Genetic Analysis in the Diagnosis of Children With Cerebral Palsy\", \"url\": \"https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2020.628075/full\", \"snippet\": \"In the miscellaneous category, the precise nature of the MRI finding has to be considered as it could indicate a genetic origin. Cerebral palsies (CP) cover a group of diseases characterized by common clinical characteristics: CP is permanent, but not unchanging; it involves a disorder of movement and/or posture and of motor function; it is due to a non-progressive interference/lesion/abnormality; this interference/lesion/abnormality is in the developing/immature brain (1).\"}, {\"title\": \"Early Identification of Cerebral Palsy Using Neonatal MRI and General Movements Assessment in a Cohort of High-Risk Term Neonates - ScienceDirect\", \"url\": \"https://www.sciencedirect.com/science/article/pii/S0887899421000230\", \"snippet\": \"Cerebral palsy (CP) is the most common motor disability of childhood. Its early identification is an important priority for parents and is critical for access to early intervention resources, which may optimize function. A prospective cohort of term neonates at high risk for CP was assessed by neonatal magnetic resonance imaging (MRI) to determine myelination of the posterior limb of the internal capsule, General Movements Assessment to assess typical fidgety movements at age three months, and followed to at least age two years to determine diagnosis of CP based on neurological examination.\"}, {\"title\": \"Trends in brain MRI and CP association using deep learning | La radiologia medica | Springer Nature Link\", \"url\": \"https://link.springer.com/article/10.1007/s11547-024-01893-w\", \"snippet\": \"The DL models trained on the joint adventure of Sag mainly focused on the last deeper slices and hence produced poor results. From the visualized results, the vulnerable MRI slices associated with CP spread to the brain regions, including the temporal, rhizomatic, parietal, occipital, angular, insula, cerebellum, hippocampus, and superior motor area on the left side of the brain.\"}, {\"title\": \"Understanding causation of cerebral palsy by using magnetic resonance imaging - ScienceDirect\", \"url\": \"https://www.sciencedirect.com/science/article/abs/pii/S1751722208001364\", \"snippet\": \"This review aims to describe the role of MRI in elucidating the aetiology, or at least the pathogenesis, of CP. CP of postneonatal origin is not covered here as causation is usually evident, such as trauma, infection or near drowning. The questions are addressed of how often brain lesions or maldevelopments are seen in children with CP, and whether their topography explains the motor system involved (e.g.\"}, {\"title\": \"Spectrum of findings of magnetic resonance imaging of brain in cerebral palsy | European Journal of Cardiovascular Medicine\", \"url\": \"https://healthcare-bulletin.co.uk/article/spectrum-of-findings-of-magnetic-resonance-imaging-of-brain-in-cerebral-palsy-3772/\", \"snippet\": \"A statistically significant association was found between MRI findings and the hemiplegic type of CP (p = 0.025), suggesting that <strong>specific structural lesions such as infarcts and cortical dysplasia may underlie unilateral motor deficits</strong>.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_OUOzJYwQB74zBbNalEk3aXO8",
+   "output": "{\"query\": \"CP.MP.114 \\\"six weeks\\\" discectomy\", \"results\": [{\"title\": \"CP.MP.114 - Disc Decompression Procedures\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf\", \"snippet\": \"necessary, while minimally invasive discectomy procedures are not. Added criteria for open/microdiscectomy. Added background information, CPT, and ICD-10 codes. ... References reviewed and updated. Reviewed by specialist. Added \u00b7 interspinous/interlaminor process stabilization device as \u00b7 investigational. Added C1821 as HCPCS code not supporting medical \u00b7 necessity and CPT codes 22867, 22868, 22869, and 22870 as not\"}, {\"title\": \"Page 1 of 8 Clinical Policy: Disc Decompression Procedures\", \"url\": \"https://network.carolinacompletehealth.com/content/dam/centene/carolinacompletehealth/policies/cch-centene-cp/CP.MP.114.pdf\", \"snippet\": \"Policy split from CP.MP.63 Pain Management Procedures. Clarified that open discectomy and microdiscectomy are medically\"}, {\"title\": \"Page 1 of 6 Clinical Policy: Disc Decompression Procedures\", \"url\": \"https://www.pahealthwellness.com/content/dam/centene/Pennsylvania/policies/clinical-policies/PA.CP.MP.114%20Disc%20Decompression%20Procedures_REV_MAY_2025.pdf\", \"snippet\": \"Reference Number: PA.CP.MP.114 ... are the standard procedures for symptomatic \u00b7 lumbar disc herniation, and they involve <strong>removal of the portion of the intervertebral disc</strong> \u00b7...\"}, {\"title\": \"Microdiscectomy Surgery: Treatment for a Herniated Disc\", \"url\": \"https://www.hss.edu/health-library/conditions-and-treatments/microdiscectomy\", \"snippet\": \"However, <strong>microdiscectomy recovery typically requires a six-week period of modified activity and includes a course of physical therapy starting between four and six weeks after surgery</strong>.\"}, {\"title\": \"Back Pain After Lumbar Discectomy/Laminectomy\", \"url\": \"https://qpp.cms.gov/docs/QPP_quality_measure_specifications/CQM-Measures/2020_Measure_459_MIPSCQM.pdf\", \"snippet\": \"CPT only copyright 2019 American Medical Association. All rights reserved. ... For patients 18 years of age or older who had a lumbar discectomy/laminectomy procedure, back pain is rated by the \u00b7 patients as less than or equal to 3.0 OR an improvement of 5.0 points or greater on the Visual Analog Scale (VAS) Pain \u00b7 scale at three months (6 to 20 weeks...\"}, {\"title\": \"Microdiscectomy Recovery Time: Week-by-Week Timeline | Empire\", \"url\": \"https://empirespineandpain.com/pain-management/microdiscectomy-procedure-recovery-success/\", \"snippet\": \"According to Cleveland Clinic, recovery from a discectomy generally takes one to four weeks for the surgical area to settle, with light activity around two weeks, <strong>routine activity by about six weeks</strong>, and strenuous work or contact sports closer ...\"}, {\"title\": \"Blue Shield of California 601 12th Street, Oakland, CA 94607\", \"url\": \"https://www.blueshieldca.com/content/dam/bsca/en/provider/docs/medical-policies/Lumbar-Spine-Surgery.pdf\", \"snippet\": \"<strong>must be free from smoking and/or nicotine use for at least six weeks</strong>\"}, {\"title\": \"ACDF (Anterior Cervical Discectomy & Fusion) Surgery\", \"url\": \"https://my.clevelandclinic.org/health/procedures/acdf-surgery\", \"snippet\": \"During your recovery, your surgeon ... after surgery. You can participate in light daily activities but <strong>avoid anything strenuous for at least six weeks</strong>....\"}, {\"title\": \"Lumbar microdiscectomy and post-operative activity restrictions: a protocol for a single blinded randomised controlled trial - PMC\", \"url\": \"https://pmc.ncbi.nlm.nih.gov/articles/PMC5520336/\", \"snippet\": \"[7] demonstrated no significant difference in outcome measures between patients who observed two weeks or six weeks of activity restrictions though was underpowered to detect differences in reherniation rates. The only prior studies investigating the impact of removing post-operative restrictions reported no increased risk of reherniation or reoperation in patients not observing activity restrictions following lumbar discectomy surgery but these studies lacked a comparator group and their design was subject to potential bias [5, 6]. Modern lumbar discectomy is now minimally invasive and results in less tissue destruction, further undermining the hypothetical rationale for activity restriction.\"}, {\"title\": \"Diskectomy: What It Is, Purpose, Procedure & Recovery\", \"url\": \"https://my.clevelandclinic.org/health/procedures/discectomy\", \"snippet\": \"Return to light activities two weeks after surgery. <strong>Resume routine activities</strong> six weeks after surgery.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "id": "rs_0400d26461bed027016a9b6a92ed3087d28fc8a29bb300839c",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2qUqBYf10NarTfDiD4bGDw4fHMWB8WZqRbe3qcP3Z5WU43PXWVIx8PgNwvS6KyDxYe1SbebkdRBkReybKgRmo522Cgrh700x1L-dR4gjGhAtn6c9kxFzrTBtk7uhGDRZ5baw-Jhop1UkIz-Sber4Iq-x_oE8W6liXmRD8cGc4ov470L3AhP0yyhUxpERM8Sa3hnKLufT70k5CMgpbcv1C6fCTMwfYAzONwgQCryRrWyrjkXxwbF6hVBhORicAsh6R4VVafqHw2I41V83ioq3PXPJ6RNEQ7cyySSSYt6D6jogIIUw_6xvta9QgzJjvVzBQ8yPIkymCTPHAwXEidjyXpUG264Nln79vLMnqgGZ3SklEoTGSIwhpLDdxy9q8DbjdZmIrsK_hwiNbe0aeSfkQ7xAzZPAFFnDXJC1la0CPaMcrlUQIG58nGFsJMTRtkJ1-N4PE1Y3fL-Onx3lT_ml9j4WLihETAvYI5LH15JlmAlUde67gDYjrXEVzyyOMCgaJ6Cc6tUU92WV6QCC6wAgEHrZH2Kb-YwRTMPlpW_dSo4Pr7WYIR1liB35NKtIo7u0kQv_zx5aQP-T0uz8Ew7cEbxKWV-Jq3WKg04JtT30EEzf096qq8sWiLoR0ULy7WjC9FWBpDsPeY8G9fLdfVEejDX95DRFhgrh4MNYZP8dSUOP8g2Vm5ZMckUeAcoM_kp2jKsn4DMAjllhJACkVY3tdEBkAGMcD57mL2ZZAfP4iX7kBJ-GTg36HHEjwuzDyXK4KQexqr3lzd8PlhK324JY4KLUufXPUooaSUgU2GbwAwet_YBov7_TIWvrpLZG7pExNvKts8W3M6zgAqr4m2Z2JP3PZAsOIOs9v3Q2cPv6x_PdNzY2WwWQ9yEOr_1HUL1NxpaehKU3jM4p66GyX_A9_97VNspoQvlxEbTh_czFdsvRjcZzgAgvfNPHAhGYsEeV28T1oALKwj5CdJiacIWGviwwsHWZFcuORc4HDpmGrud4LcQw3zAd9TUZd3JTGeQxiwQbL1tZwn2ZTfOhZnz--XtG9xFhgwBlJFknSmhAQwIVe81lGQlcbNFqRSDglNi3EeBVPFrFWeTLOlIybgB261iT8ncJFCVVgVNY-X1yHUJX-o8YnThSrdjQqLoteW8oEaUunbxeKnrrQUXmlSTIVUT3k2J5L2pJu4Wl6RAvL7FU-e8mUH559-zfmbDhG0PyBTirIcp57YfcRhgqsnBabBGnYKb2GIqf4lynr91KfBcRon058z-S_Q-3rCXgJrQ_Tgj9BROO1x-aXcGEsFjFrm02ApVzNrgu4IlY1VTzX1jOR16zDf2-BSiOSzWyWzlgkygEl4hsFwBIMs6QzDX9RZW3g==",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"\\\"CP.MP.114\\\" \\\"I.C.1\\\"\",\"count\":10}",
+   "call_id": "call_d0my8CTOFL5j45WfjXncOncF",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a94641087d28a03febdd444b2e8",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"CP.MP.114\\\" \\\"I.C.2\\\"\",\"count\":10}",
+   "call_id": "call_G9taz7TmfLVya5kJtpx4flnw",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a94642087d29119e08b9b6cacb1",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"CP.MP.114\\\" \\\"neurologic\\\" discectomy\",\"count\":10}",
+   "call_id": "call_QV6MdkPZJ5UP4AfrLuiv25d5",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a94642887d281143f9bc5fa9d74",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"CP.MP.114\\\" \\\"conservative\\\" \\\"herniated lumbar disc\\\"\",\"count\":10}",
+   "call_id": "call_krMCkC5fWzcrVoxCtNh55zBY",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a94643087d2babe1ac3f15d7a85",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_d0my8CTOFL5j45WfjXncOncF",
+   "output": "{\"query\": \"\\\"CP.MP.114\\\" \\\"I.C.1\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_G9taz7TmfLVya5kJtpx4flnw",
+   "output": "{\"query\": \"\\\"CP.MP.114\\\" \\\"I.C.2\\\"\", \"results\": [{\"title\": \"CP.MP.114 - Disc Decompression Procedures\", \"url\": \"https://www.healthnet.com/content/dam/centene/healthnet/pdfs/general/ca/policies/CP.MP.114.pdf\", \"snippet\": \"Clinical Policy: <strong>Disc Decompression Procedures</strong> \u00b7 Reference Number: CP.MP.114 \u00b7 Date of Last Revision: 05/24 \u00b7 Coding Implications \u00b7 Revision Log \u00b7 See Important Reminder at the end of this policy for important regulatory and legal \u00b7 information. Description \u00b7\"}, {\"title\": \"CP.MP.114 - Disc Decompression Procedures\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf\", \"snippet\": \"Clinical Policy: Disc Decompression Procedures \u00b7 Reference Number: CP.MP.114 \u00b7 Coding Implications \u00b7 Date of Last Revision: 04/25 \u00b7 Revision Log \u00b7 See Important Reminder at the end of this policy for important regulatory and legal \u00b7 information. Description \u00b7\"}, {\"title\": \"CP.MP.114 - Disc Decompression Procedures\", \"url\": \"https://www.ohanahealthplan.com/content/dam/centene/OhanaHealthPlan/Medicaid/Policies/ClinicalPolicies/CP.MP.114.pdf\", \"snippet\": \"Clinical Policy: Disc Decompression Procedures \u00b7 Reference Number: CP.MP.114 \u00b7 Coding Implications \u00b7 Date of Last Revision: 04/25 \u00b7 Revision Log \u00b7 See Important Reminder at the end of this policy for important regulatory and legal \u00b7 information. Description \u00b7\"}], \"result_count\": 3, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_QV6MdkPZJ5UP4AfrLuiv25d5",
+   "output": "{\"query\": \"\\\"CP.MP.114\\\" \\\"neurologic\\\" discectomy\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_krMCkC5fWzcrVoxCtNh55zBY",
+   "output": "{\"query\": \"\\\"CP.MP.114\\\" \\\"conservative\\\" \\\"herniated lumbar disc\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "id": "rs_0400d26461bed027016a9b6a98580887d29d884078fa26ae37",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2qae66EEozYLfGiDv6mznKsmj6JmlJzok1NyFTA39L6am-by47fyQrTEb_Sja1YE3pjq9C--PSzKXFCqS33Qux0a-D8BhCKTprDIs5Cf8S6OJ5UbVRQQTHC30S7L6lPMqecXyuPQFOhOKg5dawGcI8GNsL33bgBMUYp-9kV6j4BDLPIcwcBrXauy3G7Aus0l4z7eGq3PhPlOWgccQ6qR1hv1otyD-2YNdiaPbH5eimVVLJpM9GNIaBmqXFaMVLQS4pNVh1gJDDbJM2TPzK5--BYG8OY4cKZhKT4aRIVCTcFdsJhaAHFcwEHy0b6bVfN62gBsLsWJ1feppQEunDAFH7VOyXBWHpbd9fsAcP_iIVTMM5Q8YZPa4yKXLqUNIe0GfbfJVP-5RCmV7Usx_GI8eVC8GkfrHfo-RlnKXsizZ7YfoJDhXbaYl_BRQ72eXKkB-U0bSG_wNpwy8XHXXa3eCKvCC-3ew9y1PbIiXbC-xt62ewAjoeWGDk7OL89Hvju0fqK3R6VejAe7HOyKrgHfUo69aMh_-ODBBEXaDSlxnOzUJeU4G82LgTa45RGmEkPq7SeNDliLN8f3VlpaY51noVCQmeTdU89z3KAc2yZNwKpQlsF3_Vf5YpNAKlmLm3I1uNuakww3JyUJ9w00EqOJiDclm3Y0eWEWI2IbpDA6yJ8JtEBA0E5gMNuAfz3qqjVkDDjKw_LCkfQKJtg5e1TZvfiKKll5F-MXQAPhAhU4XNbDd3E9cr2j7nTcFOKbvg1SDGVZszerwu6zligAqNEF9QUKHFD2WkkQQML6WCrjPURityqxe0w1wCE5g3_7i1gjt3xGIAzzp5bzvLFiqh9_PQ-wkZFOxIpXep6SPDcFj-SlgW1RWJi1HBiNWVUEkCkGKXxS-oBNzLaIGWEgu6bWZbKjWIcQ-GLsp47QVc3M783HY_k-5iFRkYb30ye90avJYb1rrjpBcMRrlLNSDRBIuDLJr472ERM_wSFmFnowrhL-WG-yZqbvdzcu1-tZlZfNKoZVAVoRZFTsqDwA5Q8LhiQ3DbPjpS_V6m6ry1fseXYIVk-Hho5rV2wtMy_STV0OStoOtr5iag3EV5BQEAX2npV5vRDbSOEH0_1MlfJPCa5NR25x0lXcarlwUVsHScrzu_lOSigwzIkODqf_4AHPyIRNECyUPhjD6dAhpfmUCA8V0EjpdiazQmVlzRABnCga73FSH9tS2qQU7gW5UKwhzFr2HGqlkBeYZOlyBGaL9sAU2toV_xSvENJINbsjO0IkhWi2MJQ4lKozRRuoNeRaujWqMXlybjWjBA-_bU9-dPHM3FqGltnyD_8FUOluMFCnPUfk92xFgWgDG3psErcNnOTBwL9iZOpTVMeqiohP0xqYV0wWfrK0nE7iqFiK3k-1US5GYM9G8lHWWBOZtT1-sGh4r9GVgfV7lAuhrBjLE5lRknJxS30FeI4_ZmdFM7UCqMADeczEPgAYXZ27R_xqv2cz4cU0W5Jnn3x6YRe2DbcfXuHl9p1jHC1JFBA8LaAWNzuu5c_tdPzUosToBe45kprF-o4sRnWm9uXG5JYLL8Jo0A=",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:pahealthwellness.com/content/dam/centene/Pennsylvania/policies/clinical-policies/PA.CP.MP.114 \\\"medically necessary when\\\"\",\"count\":10}",
+   "call_id": "call_GSIBPvlZguUj8jgEbPz22w8F",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a9aad5c87d29c0c1dfb8204396a",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:pahealthwellness.com/content/dam/centene/Pennsylvania/policies/clinical-policies/PA.CP.MP.114 \\\"Age\\\"\",\"count\":10}",
+   "call_id": "call_UZdL9YK328EY4X21oMIuc8Tf",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a9aad6887d2b350fd431c188c26",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:pahealthwellness.com/content/dam/centene/Pennsylvania/policies/clinical-policies/PA.CP.MP.114 \\\"MRI\\\"\",\"count\":10}",
+   "call_id": "call_RMwY6ORDsE2qsZQZLAlRW6LJ",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a9aad7087d2ab5dfc883190de21",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:pahealthwellness.com/content/dam/centene/Pennsylvania/policies/clinical-policies/PA.CP.MP.114 \\\"weakness\\\"\",\"count\":10}",
+   "call_id": "call_oG2wVlGx3Xxv8a1A3kzcziVz",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a9aad7487d2b6bc7f6fafcbc760",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_GSIBPvlZguUj8jgEbPz22w8F",
+   "output": "{\"query\": \"site:pahealthwellness.com/content/dam/centene/Pennsylvania/policies/clinical-policies/PA.CP.MP.114 \\\"medically necessary when\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_UZdL9YK328EY4X21oMIuc8Tf",
+   "output": "{\"query\": \"site:pahealthwellness.com/content/dam/centene/Pennsylvania/policies/clinical-policies/PA.CP.MP.114 \\\"Age\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_RMwY6ORDsE2qsZQZLAlRW6LJ",
+   "output": "{\"query\": \"site:pahealthwellness.com/content/dam/centene/Pennsylvania/policies/clinical-policies/PA.CP.MP.114 \\\"MRI\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_oG2wVlGx3Xxv8a1A3kzcziVz",
+   "output": "{\"query\": \"site:pahealthwellness.com/content/dam/centene/Pennsylvania/policies/clinical-policies/PA.CP.MP.114 \\\"weakness\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "id": "rs_0400d26461bed027016a9b6a9d300087d29adb015051819528",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2qfo2vM3tmf9Krkp2no-caWP5KvQs5vFlpkfw7D5YFyKDz1Pfj6cDXxRSSSuivLT6CZS54AsBN9Ma_wiTbHcGj99djkaeIuxT2QcOWLIkhUQJeKOYwFxN0Q9ge2ZYUt6BnSoomIVq6Z4BwBsegTaMxE247ZRdlJJOr1QrKfSMUFgseF-6rduJCHFAnrVoEgcfiOmQppPBV75a5L7Obn33Pk6M53bA6v4Y9aNaEKB2orqsx6YDFyA_7k2LJaA5qc78l7xA_RJtjdzlUF6s9Uu8Q4kRomPnQ0ZYeAJF3dchAgkigUj3CxduHlDSUkEBOeg6yI08Q7luW2KtViJolLYD618aRU0pLYuXaTJwY6YYWOl_lfp4JU7fIsU58cqaDC_BeKvx7Ewxa-8M-Vg9Q-jRvW53RDuqlGYEXj_lGhqdUIoS-rQn-qE2e3XPd_hO10CXssot3_uoH5pp6016fdCEWhr2M09A-kuq-_nT4zG3i5eTN2VHqb9fkGAmHHVIUu1TYStHk-FVvhBbLswrtQ4-U8Hp3fSyScgS2YL1bJl6gUpPFbJk3uQNbTRzN8NqB8cdiW0AZNJ1zPr69kEIKWXc1IMCtJWsdc8ZAd5-vvbx7aWcaEyzeNInFou9nBb7ZE67NUap9Qdxz9-qT6vbx_mB5x0Jo7tW8T5b1aYYf4k3mo0Zexgmcdk101293dYZqukDyMvzL7WcHUb9xncECufift0IdF1D3Y-OaWRgj5sD9i3B-w9WmPjyDyoFhgoOCMV80Z3gNP6GYnb6FyUWamRmEiwfYETtXLbDRQEvsyJzfA7tIKiFVToj_ixX1WwxanGC3qrOqHzTkMwhOafay-zM9W2i-FZMWrtyyWd55ZCi1IrQ4XfAU_AKy5ied3T2jSEV8Cp0RAu92I5OJ9c_En_G0vZTG1qn4jrwA3vXNj92Y4gx9E-q8qYyQ-HPQR_ppep5WDLoJbb45YpDClyNLDTkMmKsIwmNZAS6KgVP1t1I6rmT_sQcfAWoFk-NjW6m8_m8d-EXs9y6QX-QVqqqRnOXn2eU8qzb-_hzCa0fdNkexOCdsBRP2dpqkVCsLH1nWZPWkx--z_-ANeMFLFnPOHBhk9ECtIVIrsSzgl59HLCry-Q6gQQQ14AgYIAqyBABxBB333U53yZ73uFFADsfSBik24DVaf5dDbtlj3H1G3uxk04XT5D06ZbV0lkR0LDRY96m7gOMvNRf4iEiYNStUndaI4YHzPg6t3JxKajU-TMfqWYO4=",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:ambetterhealth.com/content/dam/centene/ambetteril/pdfs/IL-MbrGrievanceApealConcrn.pdf \\\"Mail\\\" OR \\\"fax\\\" OR \\\"Appeals\\\"\",\"count\":10}",
+   "call_id": "call_X6NcoMagp4E7Zz3T4YqzOYLa",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a9ed6e087d2b340ca41e27b9c9a",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Ambetter of Illinois member appeal address fax medical appeal\",\"count\":10}",
+   "call_id": "call_SGeBRURiG6nBJssB8I1t6Zem",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a9ed6f087d290bb4f2f55c2c00e",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:ambetterhealth.com/en/il \\\"Appeal\\\" \\\"P.O. Box\\\" Ambetter\",\"count\":10}",
+   "call_id": "call_C0cJH1trER9FTLCMFceah5oT",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a9ed6f887d2b3a4fd3e2d95c5bb",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Ambetter Illinois Member Services appeal phone 2026\",\"count\":10}",
+   "call_id": "call_uz1sjmfVdJyDw2VD6wzZm630",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6a9ed70087d2917f5a06cc7d7057",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_X6NcoMagp4E7Zz3T4YqzOYLa",
+   "output": "{\"query\": \"site:ambetterhealth.com/content/dam/centene/ambetteril/pdfs/IL-MbrGrievanceApealConcrn.pdf \\\"Mail\\\" OR \\\"fax\\\" OR \\\"Appeals\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_SGeBRURiG6nBJssB8I1t6Zem",
+   "output": "{\"query\": \"Ambetter of Illinois member appeal address fax medical appeal\", \"results\": [{\"title\": \"IL - Grievance, Appeal Concern or Recommendation Form\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambetteril/pdfs/IL-MbrGrievanceApealConcrn.pdf\", \"snippet\": \"Ambetter of Illinois \u00b7 Attn: Appeals and Grievances Department \u00b7 <strong>PO Box 10341 \u00b7 Van Nuys, CA 91410 \u00b7 Phone: 1-855\u00ad745\u00ad5507 \u00b7 TDD/TTY: 1-844-517-3431 \u00b7 Fax: 1-833-886-7956</strong> \u00b7 Member\u2019s Name: Member\u2019s Ambetter ID #: Street Address: City \u00b7 State \u00b7 ZIP code \u00b7\"}, {\"title\": \"APPEALS/RECONSIDERATIONS (MEDICAL) AND GRIEVANCES GUIDE The h tPro\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambetteril/pdfs/IL-Provider-Appeals-Grievances-Guide.pdf\", \"snippet\": \"<strong>Member grievances may be filed verbally by contacting Customer Service or submitted in writing via mail, email or fax</strong>. Providers may also file a grievance on behalf of the member with the member\u2019s written consent, AOR forms are available on ... NOTE: Ambetter does not accept media storage ...\"}, {\"title\": \"AMBETTER QUICK REFERENCE GUIDE JANUARY 2026 Convenient Self-Service\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambetteril/pdfs/IL-Ambetter-Provider-QRG.pdf\", \"snippet\": \"admissions). Phone authorizations must be followed by a fax ... <strong>Ambetter does not accept handwritten, faxed or replicated claim forms</strong>.\"}, {\"title\": \"Grievance, Appeal, Concern or Recommendation Form\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/Sunshine/Ambetter/PDFs/FL-FORM-MEMBER-GRIEVANCE-APPEAL-CONCERN-FORM_read-Level-6-3.pdf\", \"snippet\": \"Fax <strong>1-866-719-5373 (Appeals)</strong> Fax 1-866-550-3248 (Grievance/Complaint) Member\u2019s Name: Member\u2019s Ambetter #: Street Address: City \u00b7 State \u00b7 Zip \u00b7 Member Phone Number: Tracking Number (if applicable. Found in upper left hand corner of denial letter): Additional information to support the ...\"}, {\"title\": \"Contact Ambetter of Illinois | Ambetter of Illinois\", \"url\": \"https://www.ambetterhealth.com/en/il/contact-us/\", \"snippet\": \"Have a question or concern about Ambetter of Illinois? We&#x27;d love to hear from you! Please fill out this quick form and we will be in touch with you.\"}, {\"title\": \"APPEALS/RECONSIDERATIONS (MEDICAL) AND ...\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/mhsindiana/Ambetter/PDFs/IN-Provider-Appeals-Grievances-Guide.pdf\", \"snippet\": \"Member grievances may be filed verbally by contacting Customer Service or submitted in writing via mail, email or fax. Providers may also file a grievance on behalf of the member with the member\u2019s written consent, AOR forms are available on ... NOTE: Ambetter does not accept media storage ...\"}, {\"title\": \"PROVIDER REQUEST FOR RECONSIDERATION AND CLAIM DISPUTE FORM\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambetteril/pdfs/IL-AMB-Claim-Dispute-Form.pdf\", \"snippet\": \"Use this form as part of the Ambetter Insured by Celtic Request for Reconsideration and Claim Dispute process.\"}, {\"title\": \"P a g e 1 | 5 Ambetter Provider Claims & Payments FAQ\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/Coordinated%20Care/ambetter/PDFs/508-Ambetter-Provider-Claims-FAQ.pdf\", \"snippet\": \"An &quot;Appeal&quot; is regarding a member-driven inquiry related to an authorization/medication. An \u00b7 inquiry related to any disagreement with the way a claim processed after a service was rendered is a \u00b7 Reconsideration or Dispute (a second level reconsideration). ... A member has 180 calendar days from Ambetter&#x27;s notice of action to file the appeal.\"}, {\"title\": \"Provider Toolkit Quick Reference Guide\", \"url\": \"https://www.ambetterhealth.com/en/il/provider-resources/provider-toolkit/provider-toolkit-quick-reference-guide/\", \"snippet\": \"\u00bfHablas Espa\u00f1ol?Affordable Health Insurance in Illinois | Ambetter from IlliniCare Health En Affordable Health Insurance in Illinois | Ambetter from IlliniCare Health ... Keep our Quick Reference Guide nearby to make pre-visit planning and post-visit tasks quick and easy. ... Find recommended services that a member has not completed.\"}, {\"title\": \"Grievance and Appeals Forms | Ambetter from Superior HealthPlan\", \"url\": \"https://www.ambetterhealth.com/en/tx/provider-resources/manuals-and-forms/grievance-appeals/\", \"snippet\": \"Written complaints can be sent on paper or electronically. To file the member complaint, send to: Ambetter from Superior HealthPlan Complaints Department 5900 E. Ben White Blvd. Austin, TX 78741 Fax: <strong>1-866-683-5369</strong>\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_C0cJH1trER9FTLCMFceah5oT",
+   "output": "{\"query\": \"site:ambetterhealth.com/en/il \\\"Appeal\\\" \\\"P.O. Box\\\" Ambetter\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_uz1sjmfVdJyDw2VD6wzZm630",
+   "output": "{\"query\": \"Ambetter Illinois Member Services appeal phone 2026\", \"results\": [{\"title\": \"Contact Ambetter of Illinois | Ambetter of Illinois\", \"url\": \"https://www.ambetterhealth.com/en/il/contact-us/\", \"snippet\": \"Have a question or concern about Ambetter of Illinois? We&#x27;d love to hear from you! Please fill out this quick form and we will be in touch with you.\"}, {\"title\": \"IL - Grievance, Appeal Concern or Recommendation Form\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambetteril/pdfs/IL-MbrGrievanceApealConcrn.pdf\", \"snippet\": \"Ambetter of Illinois \u00b7 Attn: Appeals and Grievances Department \u00b7 PO Box 10341 \u00b7 Van Nuys, CA 91410 \u00b7 Phone: 1-855\u00ad745\u00ad5507 \u00b7 <strong>TDD/TTY: 1-844-517-3431</strong> \u00b7 Fax: 1-833-886-7956 \u00b7 Member\u2019s Name: Member\u2019s Ambetter ID #: Street Address: City \u00b7 State \u00b7 ZIP code \u00b7\"}, {\"title\": \"AMBETTER QUICK REFERENCE GUIDE JANUARY 2026 Convenient Self-Service\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambetteril/pdfs/IL-Ambetter-Provider-QRG.pdf\", \"snippet\": \"Ambetter understands that having access to the right tools can help you and your staff streamline day-to-day administrative \u00b7 tasks. The Provider Portal is the fastest way to get help with those routine tasks. Keep this Guide accessible to make pre\u00ad \u00b7 visit planning and post-visit tasks quick and easy. ... Members should call Member Services, 24 hours a day.\"}, {\"title\": \"Handbooks & Forms for Members | Ambetter of Illinois\", \"url\": \"https://www.ambetterhealth.com/en/il/resources/handbooks-forms/\", \"snippet\": \"You can also use our online searchable directory called Find a Provider to do so. If you would like a provider directory mailed to you, please call Member Services at <strong>1-855-745-5507 (TTY/TDD 1-844-517-3431).</strong>\"}, {\"title\": \"Contact Us | Aetna Medicaid Illinois\", \"url\": \"https://www.aetnabetterhealth.com/illinois-medicaid/contact-us.html\", \"snippet\": \"Learn how to file a grievance or appeal a decision you disagree with.\"}, {\"title\": \"Ambetter: Contact Us | Customer Service | Ambetter\", \"url\": \"https://www.ambetterhealth.com/en/contact-us/\", \"snippet\": \"If you have questions about your health insurance coverage, we&#x27;d love to hear from you. Select your state to contact an Ambetter representative in your area.\"}, {\"title\": \"P a g e 1 | 5 Ambetter Provider Claims & Payments FAQ\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/Coordinated%20Care/ambetter/PDFs/508-Ambetter-Provider-Claims-FAQ.pdf\", \"snippet\": \"An &quot;Appeal&quot; is regarding a member-driven inquiry related to an authorization/medication. An \u00b7 inquiry related to any disagreement with the way a claim processed after a service was rendered is a \u00b7 Reconsideration or Dispute (a second level reconsideration). ... A member has 180 calendar days from Ambetter&#x27;s notice of action to file the appeal.\"}, {\"title\": \"Ambetter Customer Service Phone Number 1-877-617-0390, Email, Help Center\", \"url\": \"https://ambetter.pissedconsumer.com/customer-service.html\", \"snippet\": \"Currently, Ambetter customer service does not offer live chat features. However, there are several numbers that customers can use to talk to the customer care representative who will resolve your concerns. You also have the option to reach out to customer service using the corporate office address.\"}, {\"title\": \"Health Plan Renewal Information | Ambetter of Illinois\", \"url\": \"https://www.ambetterhealth.com/en/il/resources/renewal-information/\", \"snippet\": \"Log in to your Online Member Account beginning November 1st to review your plan details. Call us at <strong>1-844-907-0983 (TTY 711)</strong> if you need help. Renew by December 15th for January 1st coverage. ... Talk to our Team: <strong>1-844-907-0983 (TTY 711)</strong> or call your broker.\"}, {\"title\": \"Ambetter Illinois - Carekit.com\", \"url\": \"https://www.carekit.com/ambetter-illinois/\", \"snippet\": \"Si tiene alguna pregunta sobre su salud o beneficios, llame a Servicios al Miembro al <strong>1-855-745-5507 (TTY 1-844-517-3431)</strong> \u00b7 If you have any questions about your health or benefits, call Member Services at <strong>1-855-745-5507 (TTY 1-844-517-3431)</strong> \u00b7 Si tiene alguna pregunta sobre su Care Kit, llame ...\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "id": "rs_0400d26461bed027016a9b6aa26db487d29aafa530b215f91b",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2qlSyncPfJ8856vAptvHo8XRQTdGDwY9zM4LcH0FymqOjuAn7kDmWvgF0mWC_t4MbVs70uRossIoQugTauEprGCMDdnj6W15InWPFci8b7C9EVI-4FNt_9q6veNSg9PDL14ySI4unnyxnejuBfbPdm95Ide35m9xffD3b7r2fCnTAmOt0pHHQTknfOgNXwEvYmBs_bT20XYGwYkrf-bfeFEeqnZIZVkk8E8atA5sjCGqM35kLWXKAUMksxa542iWEj88EdKaeku0FcXfm2Uxt4HOueg_TJEXB_Cuyrlrn4SEKgPDuM6YFnaVasjaWXAQ0UhpokJtzVEECOXusmOPELFQa15Z3LIpHXNFvPJbKDKNFZM36YMVQ5ilMuDssj86rJ-ekE5IvbLuJmXcMVyb6D945poJS0HkSRlpbtVRPCV_WMXl8Am3IxqjKq-WGaDZHmqkfXjRWGR3aQ93FMjcjh0QCrh9Vutei-ZSxfwjP1uD5wfiUyxFY2C-t5rtNc5c85e4Ftx8yZo1T4OyIMR1nv-nGBnLwK1q3VZJRwPAfwdW1lWn5-a-p7flHnbeE0id4qDkDxgKSpNrjlWaB7LQ1bSz23gZKHr8KX9LgmyyhVs34fybksyArFOvgeACxDn_J3k2ypb0Id32BXS0WqvRbQpkGeUaG4SobVNjd6Z45aXGpETumjualvB10grBmlUOEnT0lI9XTC70TT_jbv0WsZBS5F0w1I6U-hVdleU9Mx6ZHpHz6I-sgQES0UbgiGTIz4lD1y8HBdwcGp6Ba4p4irI_4BDH0EYUBKbFhrsSfmF3Xi-nAM7OVFJbh6XHAYkm5y68_SRVMdDwwWepi_E5Sa9M_wd9wGpaQ0ujEbP2wEB9ti4lWf6-fKdicjSaBLvzeYnnYHxRTM5AXOlYBX8CKjo5nFZ88pgINTDjFVUNRgllOoV66kcGHtE-5dmxpXYtZNlGo5W3eR3uQdES3AfqeJO4jfdLS_OIrXewjP4ttJImL586BMpou4pgxTUwlFsE-Ft5rhAQmullMNokrSX42ZrhFekgIRTA0c4POyZKs1g8GdjFx5caEe2BAjAWr4SSi3JnPGIj4c7CR-HAR2I5IWDLfoGdOddbBbSZXnl1_SCOxA_POoJLJ8INEOCPfX8aJrtekk3RHCvKBi-ZCObFbnM0HpqhJvynfQQyKByVL4mPYi9yZvz5jC3yOeN8CI3iuqrCCb-GJx47QKJYuJOVlzpwWA7RyUqXEoga__y_4InvoilRJQEDK_0Ei8H_3yUoDCw0iaDQ0VXAMYwvISqZvLwgbiV6QTORY-J1GqHK49crv0hqyFWRrO9atef9mx9O4EbXFjfFF44Q4JisHAjc5QD7uGKli_yZGwVLhGPP2d0x9rtvS-w8_ZwVj9D0sehUBhp4c66ua-Wi-aVsOSEdF24giQCyPioAxQtTwRcoAhMuDSFKIagu1lb6s47AoT3X_uaYVhIEtJr0RoU73F6uKcCwUiQMsKbHErGqm7vpXUv2fC8DfuYNZXPWav9_C3O8ltIC2rk4wEqBVTe5BLtwOpZIX77RNIhqmD_m7pLObX6d4OGbFWLLEz8iU5ZRFbfuXGprxzMxP_qexJhxNxLD8KqJbXhbdtO5ra9-EQ4Jrp9FHZxbN3wfIaJE62Ss2hNqndIh7PYAmMdtXuhn2ExLuNb9s_SXbiDXbVTrsRA_uvTa4De4gacH17Wc4ijlY5Sh_VMD34A-u-6SXn94I6MZRmk1PQdCYS7SZr6ygptXoF0HCe21ayQ2-yFhOLIstHDR4hKMCHDj4xoT9K-ZqWdkFyynpYpLTJLgu5VvPOS1Q0rAPxct60R2SCflMhXN81CpG8CG4N94OezuBbC7ES4pV2HuuKAdd6nVHARZpY841ajr-nlQCVp094KlUf1sfraTLmW4G0e8ImwERpWCWLR6PmF5WtGeTrqnz0cX2_R_aX195lLCkXZFcs4AosHlFlbxXp1nQlM9sbrpmo7ZxtU_xChQkKFoW7KNCzF4qpuMBhaQwG9I7af5BjuC2jdPzu9np4uuNp0tKVs6zRHx5hPavGqRi7P0RmLvG0ycNWsKizwV9AE4ErabB4v_gj31OKO6nL0uZ4GhGYNCK6gaXgUQXBm3Pc-ymU8wYZTPo5pYnefiwwUwkA77XKXXlVzPWyfut5_RJ7Bg08WKvACD0NrWIYB_Rjvlji-F1UjbTh5lfygo6o7heeNWZDQh18GwRzrUKEDKAONNqJyePBaX3_niuaEVnyhRs96O5PjJerlOza1pDw=",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"Centene \\\"Age \u2265 18 years\\\" \\\"Diagnosis of herniated lumbar disc\\\"\",\"count\":10}",
+   "call_id": "call_CCjxA7pgulkldq5Cdb0E7Jnv",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6aa5376087d2867ee7ecf68d763c",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Diagnosis of herniated lumbar disc\\\" \\\"open discectomy\\\"\",\"count\":10}",
+   "call_id": "call_9IoCWZ4IgQCVW8XJsfeSdPIE",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6aa5377487d2861367aef778c9a8",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Age \u2265 18 years\\\" \\\"herniated lumbar disc\\\" microdiscectomy\",\"count\":10}",
+   "call_id": "call_hI7nvX9JQ1qHUVhfmiX5iUA1",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6aa5377c87d2a114cfd6a6ad9169",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Medical Research Council\\\" \\\"CP.MP.114\\\"\",\"count\":10}",
+   "call_id": "call_oouslfOdeon0tD8iA6NE4ERg",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0400d26461bed027016a9b6aa5378087d29cd336b6fe0344f1",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_CCjxA7pgulkldq5Cdb0E7Jnv",
+   "output": "{\"query\": \"Centene \\\"Age \u2265 18 years\\\" \\\"Diagnosis of herniated lumbar disc\\\"\", \"results\": [{\"title\": \"Page 1 of 8 Clinical Policy: Disc Decompression Procedures\", \"url\": \"https://network.carolinacompletehealth.com/content/dam/centene/carolinacompletehealth/policies/cch-centene-cp/CP.MP.114.pdf\", \"snippet\": \"I. It is the policy of health plans affiliated with Centene Corporation\u00ae that open discectomy and \u00b7 microdiscectomy are medically necessary when meeting all of the following: A. Age \u2265 18 years; B. Diagnosis of herniated lumbar disc;\"}], \"result_count\": 1, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_9IoCWZ4IgQCVW8XJsfeSdPIE",
+   "output": "{\"query\": \"\\\"Diagnosis of herniated lumbar disc\\\" \\\"open discectomy\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_hI7nvX9JQ1qHUVhfmiX5iUA1",
+   "output": "{\"query\": \"\\\"Age \u2265 18 years\\\" \\\"herniated lumbar disc\\\" microdiscectomy\", \"results\": [{\"title\": \"Page 1 of 8 Clinical Policy: Disc Decompression Procedures\", \"url\": \"https://network.carolinacompletehealth.com/content/dam/centene/carolinacompletehealth/policies/cch-centene-cp/CP.MP.114.pdf\", \"snippet\": \"microdiscectomy are medically necessary when meeting all of the following: A. <strong>Age \u2265 18 years</strong>; B. Diagnosis of herniated lumbar disc;\"}], \"result_count\": 1, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_oouslfOdeon0tD8iA6NE4ERg",
+   "output": "{\"query\": \"\\\"Medical Research Council\\\" \\\"CP.MP.114\\\"\", \"results\": [{\"title\": \"CP.MP.114 - Disc Decompression Procedures\", \"url\": \"https://www.healthnet.com/content/dam/centene/healthnet/pdfs/general/ca/policies/CP.MP.114.pdf\", \"snippet\": \"Policy split from CP.MP.63 Pain Management Procedures. Clarified that open discectomy and microdiscectomy are medically\"}, {\"title\": \"CP.MP.114 - Disc Decompression Procedures\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf\", \"snippet\": \"Policy split from CP.MP.63 Pain Management Procedures. Clarified that open discectomy and microdiscectomy are medically\"}, {\"title\": \"CP.MP.114 - Disc Decompression Procedures\", \"url\": \"https://www.ohanahealthplan.com/content/dam/centene/OhanaHealthPlan/Medicaid/Policies/ClinicalPolicies/CP.MP.114.pdf\", \"snippet\": \"Policy split from CP.MP.63 Pain Management Procedures. Clarified that open discectomy and microdiscectomy are medically\"}], \"result_count\": 3, \"error\": null}"
+  },
+  {
+   "id": "rs_0400d26461bed027016a9b6aa905a887d2b146d99d62a40f24",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2qyVp6YlDt_q5rlqzk9_Rrpk909pmtJQ5yH6sCrAIa554adDgTtujRL8KQ1f3VMatMvkS3ca4hU8UX11-G0M9eV04oUdkphTuJ4Yc8eHmc_tALeNEB5mAh3WqPDOCanJ2Hf7qKykQcge-v7BPaJXoeZ8URZGGafdM26bzqBckbWQJuJnfr9djLTJfLknkn5tJJF_5A7mb0YORMonue0LWFK-EWnu2Tob0HPKI-A6NU5KoGjU6j64vn0rOYzWSV7rgucW6sK0hanFLINvkUDtcSBeHGItBXXaTUsrLdAsgf8bnFE3xY2MAc_xM6SFBPScmYYzSA61FJXef_Sg0NhzziodfODAoP8wkkWdA2UpUnU8rJjuERgeMT_FPMTwJaT8vO5x6pi-oVPeE_aFBDuttbjHUuofSmrmZocS5BrsXVajlF0Y57L1KDyJClQAZu40OBaUbzlYmAUFqEn_N9HXBnadtaZ7AbC5eZ5RVdd_QCMhomdQW-7y9tX4644Cl_GpRzrOy2zpWzkWBz598oxUqZuGTMTK3ljmdfZw7atdFQLVyZpN8S86Hyc5LeMOz8lXxlG5JMKa4iG-HRAr-LERIYA8eIA7W9EAWt53361ygh4N0oEnO9hNFW6HWvunKHeWxsHCQ7NA6FrsaPoc8FN37YFkkREYJZneo8efut0CeQgZpk4dIaQSMjMC0gvXXDfpIUWr_tV8-YoXLQBHx4NYFyIQvDSprmd_zNCwzr9RXzpdOUmrb7O1Uba039uNhTsCO5OO6I3ZmcbKPvr8WSaJ8ZkD-YFnQaDPOcWZHhTxykMaWG7-YGUOocWaEEXjkOt5YLawKztD__CNr0eXJQy_W1CBO8wx3oISJtQvSLYVMlT8CX1u8okpm3vKv365b0CXkGOAUms-Dckz_ExmnRDU2xcATVbMcNeC1pMtHyRYpJSu41LvrNbqizC390g6iPeSjYRHbfYdKLvUh9fAFtx1t4sGF9OQpUxKzZzoxdL6YfRMSKKz0KKOU3A_6f56H5lrXXbACDm3Bzs0jhEEjivcSIVVfYsWwbDRfUC2CQ4zFrrJQcvLgzACFW7X1uDOUvtb9naeIwJDBdddhE6qFMHdpbOlDdKLW0CHLIwhj-6-7eBjqKOa87cByiqCsZMA-uQoKF3AmaSLHjYNRu_5hIw09z_-V3bZUL6sUhE2sLNmWnW34Jtyd8n3Y2L2UvFiUzFuAGWi3BDdLJzDBtrF1zAbld4J0RB3SDGgGfvtxgYnrXko62lN7X40pqQIeFx5hTzCmtf0IwysDGLnWcp0q4b7Lp1iFgchit4V6qTm9xORYhW-XRPSQ21Ay1MuWdt--s3UrCLpHB-X-gOff4WNM-Eg_HAzDubTcN_Qv6ONvZAHo7GHV28GQVAjoXVwQCnxAEZd1wD378tbZ5sWbMjSROOYXIBGuplrXwqiwE3LKpqpOsh-v0eiMUwfdLULVlruLB3ylV9vZjRAOh4U8FI2Y4-0LYoPEMqCJ-cdg0Tq9rkiOU39YA5ShSp1R7ZRZ7U_d-T7syKnEmXCqZc5Pk_PN5YVoNz2hOtOn2eYI6RSKcpIg8IsHD0Hnf_SkWVjVJCi9P6xOaHlGEB_cbkzboBtYTivQn2wjuBWHm9GJmpvzgl7mMtv1DlUhFlxlKoqyCV6DDGMsPJKXZD3ftWtwBWrgf6JH6fNKrvx8AiIXaQIwJkq4zGtMKRDUTCqHaHccWm_wO-tTJr3RDgkDvCaeVueO0EMXGtzgnNttv_V6udlXHIdlaY6matPEMa_xRIY6bZ3dXgaaUSxXeglLJSjqyQmCdK1kH0dZNeTLVs3yN2bUC3inGRTu637MfJRJc52ilbd-HzRUzQqo4N8F87VGr62HtgNlY2urZSUwoBwaWWZStMXi7xMmDwsojRo-VYpPJYQf9pmZx-Ah-MJ3cg9jEjT1foGmwk6aiasvbII6zLUZjPGpZ4AdX3xh51_L7UvgZHA_Jfwj2d5wiXiP-r3MjdgDkKvxjTtlT1waNKvSX0gUxz6YaWwUN60R3j5lF9OdmD7XhQ0pvk8NfiDaxe_3afAbDC4XuY1iew9vevv3zIBn_vr3ig2wg_Q6JIzJE-ac2fBTh6f3RcNP-sjiA4ehrxPgWh1v3O1I2xNLdgNu2Y7usWKaSivdCsq83AVB-jtfC0fC4PA1aeQgiQFzCrB0m710gV2adLyDljRjCFg1LZW3vOswfpsOJ4QMzssa48GAsSmAk_dIfEGGClRhO7xl07nCitcjyDx9-bJY0GKU9zNTd6N_FeY-EqAxxTzQajtGJ3Df2reCUS4Je6q2Hok0fby4uB5lb2VBviA8vH5KKyNYhsvKX36T-I_t5x_Rc-S9hqVLt2qnYdKE9QJXjTvNHkObfXyupIJ2cEqXTaQgrXoYAIpGUHTRnNZZplfno9nodx5xN5CewehQGLNXzQe8ti-4qNTummcEzTmeL9GHvocaXCeqvs2HJI6bEb-UawMaaEKbJ_HkLI5w08lYOYaPmTFisOZvMcIY-d_ZnRCxgMu-sIE1xX5oRTMPR0EQej2fZRvycbNhM7qKNWdQsYjc0ZXa56l5yt2neKEwKy0y4T19tvN9yYn5kcuqTlQpHrzg8FYzWo2ytKPg54NBAM8PnLxAT3i-IV0_XCeALjxHRKTh8q20uqjuOGB-DfERlkk2edmMPltSQ6LpAaePn8NQXBk9ahESM88FpDLQLjsMeB8tP9k4oFudBwfxe2FzvGKH1hmoPthjteMHdqxwY6H2HaqdrGEiYctALHaSzh-jHpsoYlrGxJCCiqPlfZ7uIC5K0r_KToozKtZarh-RPaoxY3Ai0gKT12jTnMMP0Q64eiHL7cSRUasg7XZ-5jl4BB4HzWdO2oAZIKohx6hBjAwKMOx3Kg2NxfHGDMqtbGV1kQPzEC1v1eIIoMS6EX4UXH6TjXvuG4pcls8A-54Jo9M0xl8TxJw8QmtwVNWQ40XDZlcmpxZuBYBHmP0ye2mVYG8W422xyCuIvz_H2KtpaD4CVUxUhHkmZE9HS1o7QF9ds8dEySBgIKajaOyhiRHrKtHzHJ-HySShSkuDXzUeD32wSF6wt4bXoh9bSJrg0YNlq3oLRnYXl74iefTixf29AC0Iss8lCkL0pbmcvClIMG7oN6SjXOD7RvyaiGPZCGS4K5s6_ldPqzLKAW7OU_uOur863WQkBFmmTHV21-qdC6ni6adgnKWZLWYlewo_rQ7e2bs2iYX60pNi8=",
+   "status": null
+  },
+  {
+   "id": "msg_0400d26461bed027016a9b6aac765087d2af499cfdf2083e7c",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\n  \"policy_found\": true,\n  \"policy_title\": \"Clinical Policy: Disc Decompression Procedures\",\n  \"policy_number\": \"CP.MP.114\",\n  \"policy_url\": \"https://www.ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf\",\n  \"effective_date\": \"Date of last revision: 04/25 (the posted policy identifies this as its last-revision date; a separate effective date was not located)\",\n  \"criteria_quotes\": [\n    \"It is the policy of health plans affiliated with Centene Corporation\u00ae that open discectomy and microdiscectomy are medically necessary when meeting all of the following:\",\n    \"Age \u2265 18 years\",\n    \"Diagnosis of herniated lumbar disc\"\n  ],\n  \"appeal_deadline\": \"2027-02-19. The denial notice states that the appeal must be received within 180 days of 2026-08-23.\",\n  \"submission_route\": \"Complete Ambetter of Illinois's member Grievance, Appeal, Concern or Recommendation form and identify the denial's tracking/authorization number. Submit it to: Ambetter of Illinois, Attn: Appeals and Grievances Department, PO Box 10341, Van Nuys, CA 91410. The form also lists fax 1-833-886-7956 and phone 1-855-745-5507; TDD/TTY is 1-844-517-3431. The appeal form is https://www.ambetterhealth.com/content/dam/centene/ambetteril/pdfs/IL-MbrGrievanceApealConcrn.pdf\",\n  \"how_to_obtain_criteria\": \"The Ambetter of Illinois clinical-policy page lists CP.MP.114 as the policy for Disc Decompression Procedures and says members may contact Member Services and ask to be directed to the Medical Management department. Request the complete version of CP.MP.114 that was in effect on the date of the authorization decision, the exact clinical-review criteria applied to CPT 63030, the specific criteria the reviewer found unmet, and any InterQual or delegated-vendor criteria if those were used. The public policy page states that InterQual may be used when Ambetter has no applicable clinical policy and that delegated-vendor guidelines may also support medical-necessity determinations.\",\n  \"confidence\": \"medium-high\",\n  \"notes\": \"The Ambetter Illinois public policy page identifies CP.MP.114 as the applicable clinical policy, and the posted PDF search record identifies its last revision as 04/25. The publicly retrievable text confirms the adult-age and herniated-lumbar-disc requirements, but the PDF could not be text-extracted through the available web retrieval system; therefore, I have not quoted additional criteria that I could not verify directly. Because the denial date is August 2026 and the posted policy's last revision is April 2025, ask Ambetter to confirm that this was the version and criteria actually used for this denial.\"\n}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": "final_answer"
+  }
+ ],
+ "stop_reason": "completed",
+ "usage": {
+  "input_tokens": 134239,
+  "output_tokens": 3136
+ },
+ "model": "gpt-5.6-luna",
+ "elapsed_s": 63.1,
+ "run_id": "r-34329bd0e02f",
+ "case_id": "poc-f4c641ed8b"
+}

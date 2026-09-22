@@ -1,0 +1,248 @@
+{
+ "answer": {
+  "policy_found": false,
+  "policy_title": null,
+  "policy_number": null,
+  "policy_url": null,
+  "effective_date": null,
+  "criteria_quotes": [],
+  "appeal_deadline": "The notice states the appeal must be received within 180 days of the notice date (2026-07-31), i.e., by 2027-01-27. NOTE: this figure could not be independently corroborated and appears inconsistent with standard Georgia Medicaid managed-care appeal timelines (see notes below) \u2014 the patient should not rely solely on the 180-day figure without confirming it with the actual payer.",
+  "submission_route": "Not specified in the letter itself (no address, fax, phone, or portal is given). Based on how Georgia Medicaid appeals generally work, submission would be either: (a) directly to the member's Medicaid Care Management Organization (CMO) \u2014 e.g., Amerigroup/Wellpoint, CareSource, Peach State Health Plan (Centene), or Humana Healthy Horizons \u2014 by phone, mail, fax, or the CMO's member portal, if the member is enrolled in Georgia Families managed care; or (b) to Georgia Department of Community Health / the state's Medicaid fee-for-service prior authorization/appeals unit (via the GAMMIS provider/member portal at mmis.georgia.gov) if the member is in fee-for-service Medicaid rather than a CMO. The letter does not disclose which of these applies.",
+  "how_to_obtain_criteria": "The denial letter identifies the payer only as 'Medicaid, state of Georgia' without naming the specific administering entity. Georgia Medicaid is delivered either through fee-for-service (administered by the GA Dept. of Community Health) or through one of several private Care Management Organizations (CMOs) under the 'Georgia Families' managed-care program (Amerigroup/Wellpoint, CareSource, Peach State Health Plan/Centene, or Humana Healthy Horizons). Each of these entities maintains its own separate clinical/medical-necessity policy for total hip arthroplasty (CPT 27130), typically built on a third-party criteria set (e.g., InterQual or MCG) plus plan-specific medical policy bulletins; none of these are unified into one public 'Georgia Medicaid' policy for this procedure. Because federal Medicaid managed-care rules (42 CFR 438.404) require that an adverse benefit determination notice include the specific reason for the denial and, on request, the criteria or guidelines used, the patient (or their provider) should: 1) Call the number on the back of the Medicaid ID card or the member services number in the denial packet to confirm which CMO (or FFS) issued this determination; 2) Request in writing (referencing Reference #POC-321500D934-38813) a copy of the specific medical policy, clinical criteria, and reviewer's notes used to reach the 'incomplete documentation' determination \u2014 plans are obligated to provide this on request; 3) Ask specifically what documentation was missing, since the denial reason given ('incomplete documentation') is not itself a clinical-necessity criterion but a procedural one, and the plan must specify exactly what records (e.g., X-rays, conservative treatment trial notes, ROM/pain scores, failed physical therapy documentation) are needed to complete the review.",
+  "confidence": "low",
+  "notes": "I searched Georgia Department of Community Health (DCH) Medicaid fee-for-service manuals (mmis.georgia.gov) and the major Georgia Medicaid CMOs, and I could not locate a standalone, publicly posted 'Total Hip Arthroplasty medical necessity' policy specific to Georgia Medicaid CPT 27130. The letter itself does not name the specific CMO or confirm FFS status, which is necessary to identify the correct governing document, since each CMO applies its own (often licensed, not fully public) clinical criteria. I did find, for reference only, a CMS document titled '0184-Total Hip Arthroplasty: Medical Necessity and Documentation Requirements' covering CPT 27130/27132/27134/27137/27138, but this is a Medicare program-integrity/compliance resource tied to Medicare Administrative Contractors (FCSO, NGS, Novitas, Palmetto, Noridian, WPS, CGS) \u2014 it is NOT a Georgia Medicaid document and should not be cited as the basis for this Medicaid denial. I also found that Georgia Medicaid CMOs (e.g., Peach State Health Plan, CareSource) publish member appeal timelines of 60 calendar days from the adverse benefit determination notice \u2014 shorter than the 180 days stated in this letter \u2014 so the patient should treat 180 days with caution and confirm the true deadline directly with whichever plan issued this denial, and should not delay filing. Given the reason cited ('documentation incomplete') rather than a specific clinical-criteria failure, the most actionable immediate step is for the provider to resubmit with complete clinical documentation (imaging, conservative treatment history, functional/pain assessments) rather than to rebut clinical criteria the payer has not yet clearly cited."
+ },
+ "raw_text": "Based on my research, I was not able to identify a single, specific, publicly-available \"governing medical policy\" document that matches this exact denial. Here is my honest assessment with sourced findings:\n\n```json\n{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": null,\n  \"effective_date\": null,\n  \"criteria_quotes\": [],\n  \"appeal_deadline\": \"The notice states the appeal must be received within 180 days of the notice date (2026-07-31), i.e., by 2027-01-27. NOTE: this figure could not be independently corroborated and appears inconsistent with standard Georgia Medicaid managed-care appeal timelines (see notes below) \u2014 the patient should not rely solely on the 180-day figure without confirming it with the actual payer.\",\n  \"submission_route\": \"Not specified in the letter itself (no address, fax, phone, or portal is given). Based on how Georgia Medicaid appeals generally work, submission would be either: (a) directly to the member's Medicaid Care Management Organization (CMO) \u2014 e.g., Amerigroup/Wellpoint, CareSource, Peach State Health Plan (Centene), or Humana Healthy Horizons \u2014 by phone, mail, fax, or the CMO's member portal, if the member is enrolled in Georgia Families managed care; or (b) to Georgia Department of Community Health / the state's Medicaid fee-for-service prior authorization/appeals unit (via the GAMMIS provider/member portal at mmis.georgia.gov) if the member is in fee-for-service Medicaid rather than a CMO. The letter does not disclose which of these applies.\",\n  \"how_to_obtain_criteria\": \"The denial letter identifies the payer only as 'Medicaid, state of Georgia' without naming the specific administering entity. Georgia Medicaid is delivered either through fee-for-service (administered by the GA Dept. of Community Health) or through one of several private Care Management Organizations (CMOs) under the 'Georgia Families' managed-care program (Amerigroup/Wellpoint, CareSource, Peach State Health Plan/Centene, or Humana Healthy Horizons). Each of these entities maintains its own separate clinical/medical-necessity policy for total hip arthroplasty (CPT 27130), typically built on a third-party criteria set (e.g., InterQual or MCG) plus plan-specific medical policy bulletins; none of these are unified into one public 'Georgia Medicaid' policy for this procedure. Because federal Medicaid managed-care rules (42 CFR 438.404) require that an adverse benefit determination notice include the specific reason for the denial and, on request, the criteria or guidelines used, the patient (or their provider) should: 1) Call the number on the back of the Medicaid ID card or the member services number in the denial packet to confirm which CMO (or FFS) issued this determination; 2) Request in writing (referencing Reference #POC-321500D934-38813) a copy of the specific medical policy, clinical criteria, and reviewer's notes used to reach the 'incomplete documentation' determination \u2014 plans are obligated to provide this on request; 3) Ask specifically what documentation was missing, since the denial reason given ('incomplete documentation') is not itself a clinical-necessity criterion but a procedural one, and the plan must specify exactly what records (e.g., X-rays, conservative treatment trial notes, ROM/pain scores, failed physical therapy documentation) are needed to complete the review.\",\n  \"confidence\": \"low\",\n  \"notes\": \"I searched Georgia Department of Community Health (DCH) Medicaid fee-for-service manuals (mmis.georgia.gov) and the major Georgia Medicaid CMOs, and I could not locate a standalone, publicly posted 'Total Hip Arthroplasty medical necessity' policy specific to Georgia Medicaid CPT 27130. The letter itself does not name the specific CMO or confirm FFS status, which is necessary to identify the correct governing document, since each CMO applies its own (often licensed, not fully public) clinical criteria. I did find, for reference only, a CMS document titled '0184-Total Hip Arthroplasty: Medical Necessity and Documentation Requirements' covering CPT 27130/27132/27134/27137/27138, but this is a Medicare program-integrity/compliance resource tied to Medicare Administrative Contractors (FCSO, NGS, Novitas, Palmetto, Noridian, WPS, CGS) \u2014 it is NOT a Georgia Medicaid document and should not be cited as the basis for this Medicaid denial. I also found that Georgia Medicaid CMOs (e.g., Peach State Health Plan, CareSource) publish member appeal timelines of 60 calendar days from the adverse benefit determination notice \u2014 shorter than the 180 days stated in this letter \u2014 so the patient should treat 180 days with caution and confirm the true deadline directly with whichever plan issued this denial, and should not delay filing. Given the reason cited ('documentation incomplete') rather than a specific clinical-criteria failure, the most actionable immediate step is for the provider to resubmit with complete clinical documentation (imaging, conservative treatment history, functional/pain assessments) rather than to rebut clinical criteria the payer has not yet clearly cited.\"\n}\n```",
+ "usd": 0.0718,
+ "transcript": [
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "text",
+     "text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-07-31\nMember: Harper Novak\nMember ID: W970661607\nPlan: Medicaid (Medicaid), state of Georgia\n\nDear Harper,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total hip replacement\n    Procedure code (CPT): 27130\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-27).\n\nReference number: POC-321500D934-38813\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EokHCpABCBIYAipArPSDtnu9OTF2E//g3zcQl+IMUTCHEXPwTt/S60lCsSKDpSlwWQcLl9++8/kcXiTddxRsQTBPCR2hnRuTJC99qTIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAdjywdUGEgyaZTot0dWoMSZOj44aDHCme/TX4DGW3yMGxiIw+9Tfia/jKyzCwbfHCAyTVAu+LTBlMSFFVv/JavNEJT7fiermN9eHHAih7GBfG8aMKqUFxsI3oc9AknTVXSkZqXnWgxBhOlZfon3aOqduB/zjwWWoOcbxylgjBpsn1gusH/47aZXzFPhioXs/hbSreIo2a42lH6yhfldRMK1x64x2Lcjz6Z83vb0XKc4NEHfxExhDk4hXR5yOXuhVlHyqPFfkCimI3quUNH082dl+s7HvPlPFl1tDZb8i/ipzt2bJVdSXQR/pfEXGw3BkyqzAc8lltnaUC8nJtLrfcWyOGAPszAn2lQ24DPr9Y1TMkZcYc+o7JL/rDoJmwPAx+yrFgmyHKTTae1L9kB4SRf4X4VO2mpSx/9MH7pKacn9osSzag2hLisrr5oI21U5rzSS6vuraPMsVHIhEoUIlvJkTLMnYpZPTDLRsUAIx0NAAGSDTT1W0Z7WiiARiCEwMVidwO0+zTKRB1T+F51EfI49PW0a2pntWeo71sPUMNYCJ+/8PYpk9hwBQX4vJPZrlXXLLDq0CftJDw/Run7Fpwxm+JfwBbB6q7INNW1oaDGliVT9TuD1YEJznk/3uPAshm9q85NjbTIbBrbcb1q7wa6v/JSfr9i1tY70zKvwjgxiz7KJS8bp1WLEaQVlpt70riFWohlzBZZW0rTtYTexqdZMopiRpUFJYLo9+/JpqxgqA3ErsvjrntEsqkyDORXQMnrDnEDlXf5lYdQgO2D8K9TiInrz6JWpdmUwE5u2U8aj9hIRHNo580zKavjDqwG6oOocmSd41Seb9dBb1jAgxVuwKvO9KBEcsdj3C4EkRQQscDzCtCx9Xn+tk4/CQHDowHyQWQf1VsrdKRXz5MXqgDtSDLUcFTcO87XUjDuwAz1Mq7tS06A5gE0ZdpeDigchzdCoM5blXupscdgzfT7880/9s0NjRv4dI+QnaBVVZefQBY8QMp67ed29PrXAYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01LK6rKJtayh6k7ZyE4bvXoG",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Georgia Medicaid total hip replacement 27130 medical necessity policy"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01S1cVYeGx3JExJYscSJLabu",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Georgia Department of Community Health total hip arthroplasty prior authorization criteria"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01LK6rKJtayh6k7ZyE4bvXoG",
+     "content": "{\"query\": \"Georgia Medicaid total hip replacement 27130 medical necessity policy\", \"results\": [{\"title\": \"0184-Total Hip Arthroplasty: Medical Necessity and Documentation Requirements | CMS\", \"url\": \"https://www.cms.gov/httpswwwcmsgovresearch-statistics-data-and-systemsmonitoring-programsmedicare-ffs-compliance/2a232-total-hip-arthroplasty-medical-necessity-and-documentation-requirements\", \"snippet\": \"27130, 27132, 27134, 27137, 27138 (FCSO, NGS, Novitas, Palmetto, Noridian, WPS, and CGS)) PCS Codes (FCSO ONLY) - 0SP90JZ, 0SPB0JZ, 0SR9019, 0SR901A, 0SR901Z, 0SR9029, 0SR902A, 0SR902Z, 0SR9039, 0SR903A, 0SR903Z, 0SR9049, 0SR904A, 0SR904Z, 0SR9069, 0SR906A, 0SR906Z, 0SR907Z, 0SR90EZ, 0SR90J9, 0SR90JA, 0SR90JZ, 0SR90KZ, 0SRB019, 0SRB01A,0SRB01Z, 0SRB029, 0SRB02A, 0SRB02Z, 0SRB039, 0SRB03A, 0SRB03Z, 0SRB049, 0SRB04A, 0SRB04Z, 0SRB069, 0SRB06A, 0SRB06Z, 0SRB07Z, 0SRB0EZ, 0SRB0J9, 0SRB0JA, 0SRB0JZ, 0SRB0KZ, 0SW90JZ, 0SWB0JZ\"}, {\"title\": \"CPT Code 27130: Total hip arthroplasty billing guide | Pabau\", \"url\": \"https://pabau.com/procedure-codes/cpt-code-27130/\", \"snippet\": \"Confirm authorization requirements ... not require prior authorization for CPT 27130, but <strong>documentation must still meet LCD medical necessity criteria for the claim to pay</strong>....\"}, {\"title\": \"CPT Code 27130 Description, Usage Examples & Billing Guide\", \"url\": \"https://medibillmd.com/blog/cpt-code-27130/\", \"snippet\": \"You can check out the \u2018Applicable Modifiers for CPT Code 27130\u2019 for a detailed overview of the appropriate use of modifiers. <strong>Typically, Medicare covers CPT code 27130 if it is medically necessary</strong>.\"}, {\"title\": \"Total Hip Replacement Surgery CPT Code 27130: Complete Billing and Coding Guide - Orthopedic Billing Expert\", \"url\": \"https://orthobillingexpert.com/total-hip-replacement-surgery-cpt-code/\", \"snippet\": \"Others require two separate lines: 27130-RT and 27130-LT. Medicare often requires specific reporting, so always verify payer rules. Double-check patient eligibility and coverage before surgery. <strong>Use precise ICD-10 codes that prove medical necessity</strong>.\"}, {\"title\": \"Total Joint Replacement (Hip and Knee) for Medicare\", \"url\": \"https://onbaseext.phs.org/PEL/DisplayDocument?ContentID=OB_000000001634\", \"snippet\": \"Authorization requirement will continue for hip codes: 27130, 27132, 27134; &amp; knee codes: 27447, 27486,\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01S1cVYeGx3JExJYscSJLabu",
+     "content": "{\"query\": \"Georgia Department of Community Health total hip arthroplasty prior authorization criteria\", \"results\": [{\"title\": \"GEORGIA DEPARTMENT OF COMMUNITY HEALTH DIVISION OF MEDICAL ASSISTANCE\", \"url\": \"https://www.mmis.georgia.gov/portal/Portals/0/StaticContent/Public/ALL/FORMS/DMA%20610-Prior%20Authorization%20Request%2020211014190842.pdf\", \"snippet\": \"GEORGIA DEPARTMENT OF COMMUNITY HEALTH \u00b7 DIVISION OF MEDICAL ASSISTANCE\"}, {\"title\": \"Prior Authorization Process and Criteria | Georgia Department of Community Health\", \"url\": \"https://dch.georgia.gov/providers/provider-types/pharmacy/prior-authorization-process-and-criteria\", \"snippet\": \"The Georgia Department of Community Health establishes the guidelines for drugs requiring a Prior Authorization (PA) in the Georgia Medicaid Fee-for-Service/PeachCare for Kids\u00ae Outpatient Pharmacy Program.\"}, {\"title\": \"HFRD | Georgia Department of Community Health\", \"url\": \"https://dch.georgia.gov/divisionsoffices/hfrd\", \"snippet\": \"An official website of the State of Georgia. How you know \u00b7 The .gov means it\u2019s official\"}, {\"title\": \"Prior Authorization Criteria N - Z | Georgia Department of Community Health\", \"url\": \"https://dch.georgia.gov/providers/provider-types/pharmacy/prior-authorization-process-and-criteria/prior-authorization\", \"snippet\": \"The Georgia Department of Community Health establishes the guidelines for drugs requiring a Prior Authorization (PA) in the Georgia Medicaid Fee-for-Service/PeachCare for Kids\u00ae Outpatient Pharmacy Program.\"}, {\"title\": \"PART II POLICIES AND PROCEDURES for DURABLE MEDICAL EQUIPMENT\", \"url\": \"https://www.mmis.georgia.gov/portal/Portals/0/StaticContent/Public/ALL/Handbooks/Durable%20Medical%20Equipment%20Q2%20-%20April%202026%2020260401133024.pdf\", \"snippet\": \"<strong>The treating physician must have an in-person examination with the beneficiary within the ten (10)</strong> \u00b7 REQUIRED- A face to face is required either upon expiration of the order OR every 12 months; \u00b7 Georgia Medicaid requires that a physician must document that a physician, or a nurse practitioner,\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EtMICpABCBIYAipAoADxdIgtppcBo6NsgQ6BJCfyeN+PT8qbvTr/t8crkB4k7FzaLON+kfhUgdYKRWGWgbphjS9+GFXF6uFg03qmCTIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAd/ywdUGEgye4lqB20HC8L8idMwaDMGB0y3NHg2l9HsMVCIwgdhPKZYPrQgyDc98foH4eEY/vAgroogm3oNDVWmMw6rYuk1QVnUUiTf+KGD5O1qJKu8GLe23hkJ0lqk1HQ4v0p/tOwMRYTdJdo40cGlzLf79oJ9e7acGqSdJIN4UG7qv53gM/Pa+unEcLKVBXv+Ie6C6As1ZpR3++9J0AXXBukKHT2HSRFU+g/WFB2HyI85CWyJ/TjjzDOSG0HN28lonHuxKiaD3NGIcoZnH9jwPghJ0qswK95G3uoJh+IH+INQQhiERTBdV0ULNWGJex2ub8jclTGt0bOsW7P0gRl+uJ1Etsfe1+ndvXPuzCYghMImhxJkYA4UIMRwxS1qPRy05bkWBG7GPQMmTMxg7WSiXQBXU7Xgy8R71xnnWlHgyxx8yC9DE2yFhWuRospI5Hm8e4rItH4ztv30aOW250PW4knBeILg54N11HR2jVHbhdQOTyEOEPoNAW8f0AY1zns8KxWSAWZ+6m3+iZHyekAyY+FicX6/1P94aK3RDJZxQfxI6fltB5z3LZT9DV9/0db4ZzNBJ80X3Ew8nU19/y2FXfPU1248DrcxPAeG3S1hrL8O5UEYysgr2RD+5FavKBmm+Xg9zCW5+emP5cZKL2Ri8JBAL3vdq/AQSq7IVIsX/rxhACh2g9ipJWd98J6CdvX696BcoEn+cSdDbANNFD+HYMbu9TtjPrfX8L3b+U8I3IlFwxfNk9/nBcYWDWxn566fUgBgPfvj6/0B+8spMLvImRljbbbkttjfbp8xymtjLZq8zTMjrutJukBXk1878btTq5fwxgJgKGwDwhSlkq3yNeGhFMsjgP56VmDfEdOVPGkbV3SQ2vCq775PYGcQRQCfmtQ9/wyd8hu/2nDQ49DhRONrCOEvr7G3xEDR+O2tx7Gm8ZkYSC/7HqiH7Y2tMY9hxYT56CRRpXRMOeajz2G8isutZAvMPMJRdaXyosarYopSTSS0SPHiFhsynvAnuJK26WMOxApokgAV6igOzOAN46xZQsMi/rZ58mXv6vBxejISovVDK2c5GhlQECoDv5cGNRSbsVrKQX700hIMKYVm8YJ/jV5gSakSNMxMYLrGo/nS8CCx+Mq9+HCCJsTCEjHAPckz5acuitYZKpLtnoPWqpytYlkgrUGBntZR6UGEMH5lDiy4bzwnYp2mkYTj8b+PUVIhwwrBkHMjVgvK7XqWbkV2lGzy+SfBJBcAv7718qhtQJ313aPfaXy9MDlp9KGaDKH1NGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_011CyWLyrqpENCdSzikumv1y",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "mmis.georgia.gov Part II Policy Manual physician services hip arthroplasty prior authorization"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01YSP6zgCPjuQE48XHkawQjY",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Georgia Medicaid CMO \"total hip\" prior authorization medical necessity criteria"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_011CyWLyrqpENCdSzikumv1y",
+     "content": "{\"query\": \"mmis.georgia.gov Part II Policy Manual physician services hip arthroplasty prior authorization\", \"results\": [{\"title\": \"PART II POLICIES AND PROCEDURES for DURABLE MEDICAL EQUIPMENT\", \"url\": \"https://www.mmis.georgia.gov/portal/Portals/0/StaticContent/Public/ALL/Handbooks/Durable%20Medical%20Equipment%20Q2%20-%20April%202026%2020260401133024.pdf\", \"snippet\": \"Services That Require Prior Approval (Rev.\"}, {\"title\": \"PART II POLICIES AND PROCEDURES for EDWP-CCSP and SOURCE GENERAL SERVICES\", \"url\": \"https://www.mmis.georgia.gov/portal/Portals/0/StaticContent/Public/ALL/Handbooks/EDWP-CCSP%20and%20SOURCE%20General%20Services-Q4-2025%2020250917140628.pdf\", \"snippet\": \"Prior Authorization Request <strong>DMA-80 (6/87)</strong>.....................................................................................................\"}, {\"title\": \"Appendix C: Medicaid Issuance :: Policy and Manual Management System (PAMMS)\", \"url\": \"https://pamms.dhs.ga.gov/dfcs/medicaid/appendix-c/\", \"snippet\": \"Prior Authorization for the service ... at mmis.georgia.gov. For physicians to have procedures prior approved, they should <strong>submit the Prior Authorization via the GAMMIS web portal</strong>....\"}, {\"title\": \"Georgia - Prior Authorization\", \"url\": \"https://www.mmis.georgia.gov/portal/ResourceProxy.aspx?iCProxyTo=MC1lZHVjYXRpb24vZGVmYXVsdC5hc3B4\", \"snippet\": \"<strong>This manual providers users instructions on entering O&amp;P and Hearing Services authorizations via the MMIS portal</strong>.\"}, {\"title\": \"Provider Notices and select \u201c Part 1 Policy Review\u201d\", \"url\": \"https://www.mmis.georgia.gov/portal/Portals/0/StaticContent/Public/ALL/NOTICES/Part%201%20Policy%20Review%20July%202021(REVISED)%2020210714122019.pdf\", \"snippet\": \"\u2012 Providers must <strong>submit the inquiry electronically via the GAMMIS Web Portal (www.mmis.georgia.gov) secure home page link: Prior Authorization/Medical Review Portal/Provider Inquiry Form (DMA-520A).</strong>\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01YSP6zgCPjuQE48XHkawQjY",
+     "content": "{\"query\": \"Georgia Medicaid CMO \\\"total hip\\\" prior authorization medical necessity criteria\", \"results\": [{\"title\": \"0184-Total Hip Arthroplasty: Medical Necessity and Documentation Requirements | CMS\", \"url\": \"https://www.cms.gov/httpswwwcmsgovresearch-statistics-data-and-systemsmonitoring-programsmedicare-ffs-compliance/2a232-total-hip-arthroplasty-medical-necessity-and-documentation-requirements\", \"snippet\": \"DescriptionDocumentation will be reviewed to determine if total hip arthroplasty meets Medicare coverage requirements.Affected Code(s)\"}], \"result_count\": 1, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "ErsFCpABCBIYAipARW2kO1fA2uRXCc4v7vTffFBSU8Dj+jgBmi/crhXNpSV4nvgDLHzUzUV0O+xyvgJFUtCxKoxkWGhkNJU8IYDr/TIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAeXywdUGEgx42OPMNzds1Emz4n4aDCDKyR0w3jtN1Myr1CIwgFsXI7PaZzMoTHjYvp25VvKpUV7sadMGkaw5qhZxi/GI0VuJknKTr31P7SdOa6gRKtcDWZq7PXZX+TSdRAkErEXvXWtypmIsym/yza1rO1R+DJDysiUxNUw/FFSOutFyn/S0kS85Y0xtl2UPN25KPDubO6c9cOoEyNEE1qdlGK9F5sHAXF7tEDspVNKMzRlrBvvvYpAXkJzkyLx09T4H8GBqY1DKtJgnfTE/miImhYM4GJps8lXyDAghJ6Cg0Zl65kYKPHRofWK5WVU7ngBPlNtaDRG8+d3Y1WUAPwoyl9MDyVlSxgHUeeZ4ftguSvNUR2RAQptsUo8j6ZqCJRVIMrtuS3Yk1UbQse1EtxpouiNhF39T/fAahP0JRwaxx+yLSHUobXogNdrqwoH+N/FDeABxA5GLvUGbRhUNAuo/oFhSIeD4WXWQPo1bpbGnlKOLx02ZUEOzeBWLhv8Hlp8pjOLdCqog6r4rpoEi4XehLurTsVLoMLhSdpb6MkCKGRt9rcOb3sMXGikJo9fniqGZTjlQO8F8WmZ8tVumN+5Wvlh47jgHskpoqJm9R6gkdrwuVoaIPeFyJRPd/LMCZsp2ZPXP5Qid6W/nHZp/8y3ggUrY+oxEqVNxjIBaTJUsjl4F/g9JWZg69nrnlMqHLEYBu4G3GtDq/416vIVb8q5t/1Nqg4s6IO5xcxSFGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01LYQDWB9LHqhxEWzZX2mnHG",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Georgia Medicaid \"Part II\" \"Surgical Services\" manual mmis.georgia.gov pdf"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01KNVZaEvTFTNcTtRbX36Kri",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"Physician Services\" Georgia Medicaid manual \"hip\" prior authorization mmis.georgia.gov"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01LYQDWB9LHqhxEWzZX2mnHG",
+     "content": "{\"query\": \"Georgia Medicaid \\\"Part II\\\" \\\"Surgical Services\\\" manual mmis.georgia.gov pdf\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01KNVZaEvTFTNcTtRbX36Kri",
+     "content": "{\"query\": \"\\\"Physician Services\\\" Georgia Medicaid manual \\\"hip\\\" prior authorization mmis.georgia.gov\", \"results\": [{\"title\": \"TELHEALTH GUIDANCE JANUARY 1 2024 DEPARTMENT OF COMMUNITY HEALTH 1\", \"url\": \"https://setrc.us/wp-content/uploads/2024/02/GA-2024-Telemedicine-Guidance_12202023_NG-revision_Q1-2024_Final-20231221203701.pdf\", \"snippet\": \"Medicaid programs) are not offered for telehealth when utilized in \u00b7 the CBHRS category of service. Telehealth costs are attributed to ... Georgia for behavioral health and physician health services.\"}], \"result_count\": 1, \"error\": null}",
+     "cache_control": {
+      "type": "ephemeral"
+     }
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "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",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01DdTJHogE3mtwF7uHKgyW6z",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Georgia Medicaid Fee-for-Service member appeal process denial DCH how to file"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01CSLoT2wSRLc3ffr8nqDRma",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Georgia Medicaid CMO list Amerigroup CareSource Peach State Humana Healthy Horizons appeal address"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01DdTJHogE3mtwF7uHKgyW6z",
+     "content": "{\"query\": \"Georgia Medicaid Fee-for-Service member appeal process denial DCH how to file\", \"results\": [{\"title\": \"Filing an Appeal | Georgia Medicaid | Peach State Health Plan\", \"url\": \"https://www.pshpgeorgia.com/members/medicaid/resources/complaints-appeals/filing-appeal.html\", \"snippet\": \"An appeal may be filed <strong>orally by phone, or in writing (mail or fax).</strong> This needs to be within 60 calendar days of when you get the notice of adverse benefit determination (denial notice).\"}, {\"title\": \"Georgia GA-24-0037\", \"url\": \"https://www.medicaid.gov/CHIP/Downloads/GA-24-0037.pdf\", \"snippet\": \"<strong>writen no\u019f\ufb01ca\u019fon of receipt of an Appeal request within ten (10) business days</strong>. The CMO will research \u00b7 all aspects of the case including reviewing medical policy, the claims system and any documenta\u019fon \u00b7 submited by the physician. The CMO will assure that all reviews are conducted by ...\"}, {\"title\": \"How and When to File an Appeal | Georgia \u2013 Medicaid | CareSource\", \"url\": \"https://www.caresource.com/ga/members/tools-resources/grievance-appeal/file-appeal/medicaid/\", \"snippet\": \"You must submit an internal appeal to us within 60 calendar days of receiving the Adverse Benefit Determination. <strong>Appeals can be submitted by phone, in writing or by fax or email</strong>. ... CareSource Attention: GA Member Appeals P.O.\"}, {\"title\": \"Appeal an Eligibility Decision | Georgia Department of Community Health\", \"url\": \"https://dch.georgia.gov/appeal-eligibility-decision\", \"snippet\": \"You will have 30 days from the date of a Pathways denial to request a Fair Hearing. <strong>Fair Hearings are handled through the Office of State Administrative Hearings (OSAH).</strong> You will receive a notice in the mail with instructions about how to file ...\"}, {\"title\": \"BILLING RESOURCE MANUAL December 2013\", \"url\": \"https://dch.georgia.gov/sites/dch.georgia.gov/files/GA_Department_of_Public_Health_Billing_Resource_Manual.pdf\", \"snippet\": \"Appeals/Payment Disputes: <strong>Within 3 months of the month in which the denial occurred</strong>.\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01CSLoT2wSRLc3ffr8nqDRma",
+     "content": "{\"query\": \"Georgia Medicaid CMO list Amerigroup CareSource Peach State Humana Healthy Horizons appeal address\", \"results\": [{\"title\": \"Care Management Organizations (CMO) | Georgia Medicaid\", \"url\": \"https://medicaid.georgia.gov/programs/all-programs/georgia-families/care-management-organizations-cmo\", \"snippet\": \"You can learn more about Amerigroup Community Care at www.myamerigroup.com/ga. You can also download a provider contract at this web site. To request a package by mail or a visit by one of our Georgia provider representatives, call us at 1-800-249-0442. ... CareSource is one of the nation\u2019s largest Medicaid managed care plans, CareSource has been providing life-changing health care coverage to people and communities for nearly 30 years.\"}, {\"title\": \"Georgia Families\u00ae Quick Reference Guide: PROVIDERS Project Background\", \"url\": \"https://www.caresource.com/documents/georgia-families-provider-quick-reference-guide/\", \"snippet\": \"Refer to the CMO Provider Manual for mailing addresses. \uf0b7 Electronically through trading partner clearinghouses \u00b7 \uf0b7 Electronically through the appropriate provider website at the following links: o Amerigroup: https://providers.amerigroup.com/pages/ga-2012.aspx \u00b7 o CareSource: https://www.caresource.com/providers/georgia/medicaid/authorization-claims-and-appeals/claims/ o Peach State: http://www.pshpgeorgia.com/for-providers/electronic-transactions/edi/\"}, {\"title\": \"Georgia Families | Georgia Medicaid\", \"url\": \"https://medicaid.georgia.gov/programs/all-programs/georgia-families\", \"snippet\": \"For information on contracting as a health partner: visit <strong>CareSource.com/providers/Georgia or call 1-855-202-1058.</strong> ... Peach State Health Plan (Peach State) is a physician-driven, Georgia-based Medicaid managed care plan. Backed by our parent company, Centene Corporation\u00ae, Peach State draws ...\"}, {\"title\": \"Medicaid Managed Care | Georgia Department of Community Health\", \"url\": \"https://dch.georgia.gov/medicaid-managed-care\", \"snippet\": \"GA CMO Encounter Report - Amerigroup April 2024 thru March 2026 (PDF, 1012.89 KB) - Posted 06/10/26 \u00b7 GA CMO Encounter Report - CareSource April 2024 thru March 2026 (PDF, 770.6 KB) - Posted 06/10/26 \u00b7 GA CMO Encounter Report - Peach State April 2024 thru March 2026 (PDF, 766.38 KB) - Posted ...\"}, {\"title\": \"Constituent Services FAQs | Georgia Department of Community Health\", \"url\": \"https://dch.georgia.gov/divisionsoffices/office-government-relations/constituent-services-faqs\", \"snippet\": \"You can search for providers accepting Georgia Medicaid/PeachCare for Kids\u00ae here or by calling our Powerline at 1-800-822-2539. Who should I contact if I have questions about the benefits or services offered through my Medicaid Care Management Organization (CMO)? To inquire about covered benefits and services, please contact your CMO directly. Amerigroup: 1-800-600-4441 (TTY 711) or www.myamerigroup.com/GA \u00b7 CareSource: 1-855-202-0729 (TTY 1-800-255-0056) or https://www.caresource.com/ga/plans/medicaid/\"}], \"result_count\": 5, \"error\": null}",
+     "cache_control": {
+      "type": "ephemeral"
+     }
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "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",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "Based on my research, I was not able to identify a single, specific, publicly-available \"governing medical policy\" document that matches this exact denial. Here is my honest assessment with sourced findings:\n\n```json\n{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": null,\n  \"effective_date\": null,\n  \"criteria_quotes\": [],\n  \"appeal_deadline\": \"The notice states the appeal must be received within 180 days of the notice date (2026-07-31), i.e., by 2027-01-27. NOTE: this figure could not be independently corroborated and appears inconsistent with standard Georgia Medicaid managed-care appeal timelines (see notes below) \u2014 the patient should not rely solely on the 180-day figure without confirming it with the actual payer.\",\n  \"submission_route\": \"Not specified in the letter itself (no address, fax, phone, or portal is given). Based on how Georgia Medicaid appeals generally work, submission would be either: (a) directly to the member's Medicaid Care Management Organization (CMO) \u2014 e.g., Amerigroup/Wellpoint, CareSource, Peach State Health Plan (Centene), or Humana Healthy Horizons \u2014 by phone, mail, fax, or the CMO's member portal, if the member is enrolled in Georgia Families managed care; or (b) to Georgia Department of Community Health / the state's Medicaid fee-for-service prior authorization/appeals unit (via the GAMMIS provider/member portal at mmis.georgia.gov) if the member is in fee-for-service Medicaid rather than a CMO. The letter does not disclose which of these applies.\",\n  \"how_to_obtain_criteria\": \"The denial letter identifies the payer only as 'Medicaid, state of Georgia' without naming the specific administering entity. Georgia Medicaid is delivered either through fee-for-service (administered by the GA Dept. of Community Health) or through one of several private Care Management Organizations (CMOs) under the 'Georgia Families' managed-care program (Amerigroup/Wellpoint, CareSource, Peach State Health Plan/Centene, or Humana Healthy Horizons). Each of these entities maintains its own separate clinical/medical-necessity policy for total hip arthroplasty (CPT 27130), typically built on a third-party criteria set (e.g., InterQual or MCG) plus plan-specific medical policy bulletins; none of these are unified into one public 'Georgia Medicaid' policy for this procedure. Because federal Medicaid managed-care rules (42 CFR 438.404) require that an adverse benefit determination notice include the specific reason for the denial and, on request, the criteria or guidelines used, the patient (or their provider) should: 1) Call the number on the back of the Medicaid ID card or the member services number in the denial packet to confirm which CMO (or FFS) issued this determination; 2) Request in writing (referencing Reference #POC-321500D934-38813) a copy of the specific medical policy, clinical criteria, and reviewer's notes used to reach the 'incomplete documentation' determination \u2014 plans are obligated to provide this on request; 3) Ask specifically what documentation was missing, since the denial reason given ('incomplete documentation') is not itself a clinical-necessity criterion but a procedural one, and the plan must specify exactly what records (e.g., X-rays, conservative treatment trial notes, ROM/pain scores, failed physical therapy documentation) are needed to complete the review.\",\n  \"confidence\": \"low\",\n  \"notes\": \"I searched Georgia Department of Community Health (DCH) Medicaid fee-for-service manuals (mmis.georgia.gov) and the major Georgia Medicaid CMOs, and I could not locate a standalone, publicly posted 'Total Hip Arthroplasty medical necessity' policy specific to Georgia Medicaid CPT 27130. The letter itself does not name the specific CMO or confirm FFS status, which is necessary to identify the correct governing document, since each CMO applies its own (often licensed, not fully public) clinical criteria. I did find, for reference only, a CMS document titled '0184-Total Hip Arthroplasty: Medical Necessity and Documentation Requirements' covering CPT 27130/27132/27134/27137/27138, but this is a Medicare program-integrity/compliance resource tied to Medicare Administrative Contractors (FCSO, NGS, Novitas, Palmetto, Noridian, WPS, CGS) \u2014 it is NOT a Georgia Medicaid document and should not be cited as the basis for this Medicaid denial. I also found that Georgia Medicaid CMOs (e.g., Peach State Health Plan, CareSource) publish member appeal timelines of 60 calendar days from the adverse benefit determination notice \u2014 shorter than the 180 days stated in this letter \u2014 so the patient should treat 180 days with caution and confirm the true deadline directly with whichever plan issued this denial, and should not delay filing. Given the reason cited ('documentation incomplete') rather than a specific clinical-criteria failure, the most actionable immediate step is for the provider to resubmit with complete clinical documentation (imaging, conservative treatment history, functional/pain assessments) rather than to rebut clinical criteria the payer has not yet clearly cited.\"\n}\n```",
+     "type": "text"
+    }
+   ]
+  }
+ ],
+ "stop_reason": "end_turn",
+ "usage": {
+  "input_tokens": 10,
+  "output_tokens": 4593,
+  "cache_creation_input_tokens": 8987,
+  "cache_read_input_tokens": 17068
+ },
+ "model": "claude-sonnet-5",
+ "tool_calls": 8,
+ "elapsed_s": 59.0,
+ "run_id": "r-4931741b775a",
+ "case_id": "poc-321500d934"
+}

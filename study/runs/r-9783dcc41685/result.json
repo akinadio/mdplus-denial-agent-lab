@@ -1,0 +1,614 @@
+{
+ "answer": {
+  "policy_found": true,
+  "policy_title": "Femoroacetabular Impingement Surgery (Surgery, Policy No. 160) \u2014 Regence Medical Policy Manual",
+  "policy_number": "SUR160 (Surgery, Policy No. 160)",
+  "policy_url": "https://blue.regence.com/trgmedpol/surgery/sur160.pdf",
+  "effective_date": "Effective: March 1, 2026 (Last Review: January 2026; Next Review: November 2026). Note: the document itself states a revised version becomes effective October 1, 2026 \u2014 confirm which version applied to Jordan's August 23, 2026 denial.",
+  "criteria_quotes": [
+   "I. Open or arthroscopic surgical treatment of femoroacetabular impingement (FAI) may be medically necessary in skeletally mature patients when all of the following criteria (A-E) are met:",
+   "A. Moderate-to-severe hip pain that is worsened by flexion activities (e.g., squatting or prolonged sitting) that significantly limits activities",
+   "B. Unresponsive to conservative therapy for at least 3 months or clinical documentation that conservative therapy is contraindicated (e.g., history of falls due to mechanical instability of hip joint)",
+   "C. Positive impingement sign on clinical examination (i.e., pain elicited with 90 degrees of flexion and internal rotation and adduction of the femur)",
+   "D. All of the following criteria must be met: 1. Imaging (conventional x-rays, MRI, MRI arthrogram) documents morphology indicative of cam-type or pincer-type FAI (See List of Information Needed for Review); and 2. No evidence of advanced osteoarthritis, defined as Tonnis grade II or III, or joint space of less than 2 mm, except when there is mechanical instability.",
+   "E. Requested procedures must be consistent with the anatomical abnormalities documented.",
+   "II. Open or arthroscopic treatment of FAI is considered not medically necessary when Criterion I. is not met. Note that capsular plication, capsular repair, acetabular or femoral chondroplasty, acetabular or femoral microfracture, labral reconstruction, iliotibial band windowing, trochanteric bursectomy, abductor muscle repair, and/or iliopsoas tenotomy, when performed at the time of any FAI surgery, would be considered a component of and incidental to the FAI procedure.",
+   "LIST OF INFORMATION NEEDED FOR REVIEW: History and Physical; Documented symptoms and conservative treatments attempted specific to policy criteria 1.B.; Physical exam findings; Imaging that documents morphology indicative of cam-type or pincer-type FAI such as one or more of: pistol-grip deformity, femoral head-neck offset with an alpha angle greater than 50 degrees, positive wall sign, acetabular retroversion (overcoverage with crossover sign), coxa profunda or protrusion, damage of the acetabular rim."
+  ],
+  "appeal_deadline": "180 days from receipt of the written adverse benefit determination \u2014 consistent with both the denial letter (deadline stated as 2027-02-19, i.e., 180 days from the 2026-08-23 notice date) and Regence's published Administrative Manual, which states Level One Internal Appeal must be requested 'within 180 days of receipt of the written notification of an adverse benefit determination.'",
+  "submission_route": "Per Regence's Washington ('WW') member appeal form (Form 4581WA, Eff. 11/2023) for Commercial and Individual plans: mail to 'Regence BlueShield, Attn: Regence Level 1 Member Appeals, PO Box 1106, Lewiston, ID 83501-1106'; fax to 1 (877) 663-7526; or email MemberAppeals@regence.com. Members may also appeal verbally by calling the Customer Service number on the back of their member ID card, which can provide/help complete the written appeal form. If the Level One appeal is denied, a Level Two internal appeal (if available under the plan) may be requested within 180 days of that decision, followed by the right to an external/independent review by an Independent Review Organization (IRO). NOTE: Regence's general Administrative Manual describes routing external reviews through the Idaho Department of Insurance, but for a Washington-issued (Regence BlueShield) commercial/ACA plan, external review is normally administered under Washington's own IRO process via the WA Office of the Insurance Commissioner (RCW 48.43.535/.537) \u2014 the patient should confirm the correct external-review pathway from the specific denial/appeal-decision letter or by calling Regence Customer Service, since this was not independently confirmed in a document specific to this plan.",
+  "how_to_obtain_criteria": "The full, current text of the applicable Regence medical policy (including references and the 'Summary of Evidence' section supporting the criteria) is publicly posted at https://blue.regence.com/trgmedpol/surgery/sur160.pdf and via the payer's medical policy table of contents at https://www.regence.com/provider/library/policies-guidelines/medical-policy. Because the policy shows a scheduled revision effective October 1, 2026, the patient/provider should also call Regence Customer Service (number on the ID card) or ask the treating surgeon's office to request the specific version of Policy SUR160 that was on file and applied on the date of the prior-authorization review, to be certain which exact criteria set governed this denial.",
+  "confidence": "medium-high",
+  "notes": "This is a Regence-specific (not generic BCBS Association) medical policy document, retrieved directly from Regence's own policy hosting domain (blue.regence.com / trgmedpol), which is the correct governing document for Regence BlueShield's medical necessity review of CPT 29914 (arthroscopic FAI/femoroplasty). The letter does not specify which underlying diagnosis (e.g., FAI vs. labral tear alone) drove the request, but CPT 29914 (femoroplasty for cam lesion) is exactly the code addressed by SUR160, so this is very likely the operative policy. Two caveats for the patient: (1) the policy document itself notes a pending revision effective October 1, 2026 \u2014 if the PA determination is dated close to that transition, ask Regence in writing which policy version (and criteria) applied; (2) I was not able to independently verify a Washington-specific external-review routing address different from the Idaho DOI language in Regence's general Administrative Manual \u2014 the patient should get the precise external-review instructions from their actual Level 1/Level 2 appeal denial letters or by calling the number on their ID card, and can also contact the WA Office of the Insurance Commissioner (1-800-562-6900) for guidance on Washington's independent review process for state-regulated Regence BlueShield plans."
+ },
+ "raw_text": "```json\n{\n  \"policy_found\": true,\n  \"policy_title\": \"Femoroacetabular Impingement Surgery (Surgery, Policy No. 160) \u2014 Regence Medical Policy Manual\",\n  \"policy_number\": \"SUR160 (Surgery, Policy No. 160)\",\n  \"policy_url\": \"https://blue.regence.com/trgmedpol/surgery/sur160.pdf\",\n  \"effective_date\": \"Effective: March 1, 2026 (Last Review: January 2026; Next Review: November 2026). Note: the document itself states a revised version becomes effective October 1, 2026 \u2014 confirm which version applied to Jordan's August 23, 2026 denial.\",\n  \"criteria_quotes\": [\n    \"I. Open or arthroscopic surgical treatment of femoroacetabular impingement (FAI) may be medically necessary in skeletally mature patients when all of the following criteria (A-E) are met:\",\n    \"A. Moderate-to-severe hip pain that is worsened by flexion activities (e.g., squatting or prolonged sitting) that significantly limits activities\",\n    \"B. Unresponsive to conservative therapy for at least 3 months or clinical documentation that conservative therapy is contraindicated (e.g., history of falls due to mechanical instability of hip joint)\",\n    \"C. Positive impingement sign on clinical examination (i.e., pain elicited with 90 degrees of flexion and internal rotation and adduction of the femur)\",\n    \"D. All of the following criteria must be met: 1. Imaging (conventional x-rays, MRI, MRI arthrogram) documents morphology indicative of cam-type or pincer-type FAI (See List of Information Needed for Review); and 2. No evidence of advanced osteoarthritis, defined as Tonnis grade II or III, or joint space of less than 2 mm, except when there is mechanical instability.\",\n    \"E. Requested procedures must be consistent with the anatomical abnormalities documented.\",\n    \"II. Open or arthroscopic treatment of FAI is considered not medically necessary when Criterion I. is not met. Note that capsular plication, capsular repair, acetabular or femoral chondroplasty, acetabular or femoral microfracture, labral reconstruction, iliotibial band windowing, trochanteric bursectomy, abductor muscle repair, and/or iliopsoas tenotomy, when performed at the time of any FAI surgery, would be considered a component of and incidental to the FAI procedure.\",\n    \"LIST OF INFORMATION NEEDED FOR REVIEW: History and Physical; Documented symptoms and conservative treatments attempted specific to policy criteria 1.B.; Physical exam findings; Imaging that documents morphology indicative of cam-type or pincer-type FAI such as one or more of: pistol-grip deformity, femoral head-neck offset with an alpha angle greater than 50 degrees, positive wall sign, acetabular retroversion (overcoverage with crossover sign), coxa profunda or protrusion, damage of the acetabular rim.\"\n  ],\n  \"appeal_deadline\": \"180 days from receipt of the written adverse benefit determination \u2014 consistent with both the denial letter (deadline stated as 2027-02-19, i.e., 180 days from the 2026-08-23 notice date) and Regence's published Administrative Manual, which states Level One Internal Appeal must be requested 'within 180 days of receipt of the written notification of an adverse benefit determination.'\",\n  \"submission_route\": \"Per Regence's Washington ('WW') member appeal form (Form 4581WA, Eff. 11/2023) for Commercial and Individual plans: mail to 'Regence BlueShield, Attn: Regence Level 1 Member Appeals, PO Box 1106, Lewiston, ID 83501-1106'; fax to 1 (877) 663-7526; or email MemberAppeals@regence.com. Members may also appeal verbally by calling the Customer Service number on the back of their member ID card, which can provide/help complete the written appeal form. If the Level One appeal is denied, a Level Two internal appeal (if available under the plan) may be requested within 180 days of that decision, followed by the right to an external/independent review by an Independent Review Organization (IRO). NOTE: Regence's general Administrative Manual describes routing external reviews through the Idaho Department of Insurance, but for a Washington-issued (Regence BlueShield) commercial/ACA plan, external review is normally administered under Washington's own IRO process via the WA Office of the Insurance Commissioner (RCW 48.43.535/.537) \u2014 the patient should confirm the correct external-review pathway from the specific denial/appeal-decision letter or by calling Regence Customer Service, since this was not independently confirmed in a document specific to this plan.\",\n  \"how_to_obtain_criteria\": \"The full, current text of the applicable Regence medical policy (including references and the 'Summary of Evidence' section supporting the criteria) is publicly posted at https://blue.regence.com/trgmedpol/surgery/sur160.pdf and via the payer's medical policy table of contents at https://www.regence.com/provider/library/policies-guidelines/medical-policy. Because the policy shows a scheduled revision effective October 1, 2026, the patient/provider should also call Regence Customer Service (number on the ID card) or ask the treating surgeon's office to request the specific version of Policy SUR160 that was on file and applied on the date of the prior-authorization review, to be certain which exact criteria set governed this denial.\",\n  \"confidence\": \"medium-high\",\n  \"notes\": \"This is a Regence-specific (not generic BCBS Association) medical policy document, retrieved directly from Regence's own policy hosting domain (blue.regence.com / trgmedpol), which is the correct governing document for Regence BlueShield's medical necessity review of CPT 29914 (arthroscopic FAI/femoroplasty). The letter does not specify which underlying diagnosis (e.g., FAI vs. labral tear alone) drove the request, but CPT 29914 (femoroplasty for cam lesion) is exactly the code addressed by SUR160, so this is very likely the operative policy. Two caveats for the patient: (1) the policy document itself notes a pending revision effective October 1, 2026 \u2014 if the PA determination is dated close to that transition, ask Regence in writing which policy version (and criteria) applied; (2) I was not able to independently verify a Washington-specific external-review routing address different from the Idaho DOI language in Regence's general Administrative Manual \u2014 the patient should get the precise external-review instructions from their actual Level 1/Level 2 appeal denial letters or by calling the number on their ID card, and can also contact the WA Office of the Insurance Commissioner (1-800-562-6900) for guidance on Washington's independent review process for state-regulated Regence BlueShield plans.\"\n}\n```",
+ "usd": 0.1671,
+ "transcript": [
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "text",
+     "text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-23\nMember: Jordan Brooks\nMember ID: W436997835\nPlan: Regence BlueShield (Commercial/ACA), state of Washington\n\nDear Jordan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Hip arthroscopy\n    Procedure code (CPT): 29914\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-19).\n\nReference number: POC-41FE448BEA-64337\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EsYCCpABCBIYAipArYwUxslKSqtiTka69/hb4CrFxx3x1M8qiebwU2csxWhYNDns+vh7KBiupnE5YiRr+HG9SftsT3HkP2ZtFya20jIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAZLrwdUGEgwmf1pXpnjNxtft+2UaDFj57H69uD+rLfvKPyIw5tgpt4uPERIHCcD8QHdjfxwyWX5C+jvQFdVYDJBHaWGEv26dQTqlegnq8wQKln1DKmPUC0KbNohJTuQofxjbLl/K7dOEv6xaDQTZV0lmHmCH2/J8Dz7Qh1d16zucsvM4uELTIdhMSDp1Q5nU5QuHR5dXuj/MFQHC8f1OktBr/Br8arznyZolxX+nkhY40K5TzWifvV4YAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01J3hcG1MVYdNGBghrQ6nQGk",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Regence BlueShield medical policy hip arthroscopy femoroacetabular impingement"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01LotjCF2ehL3p3uF1z6z9Tu",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Regence medical policy \"hip arthroscopy\" criteria CPT 29914"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01J3hcG1MVYdNGBghrQ6nQGk",
+     "content": "{\"query\": \"Regence BlueShield medical policy hip arthroscopy femoroacetabular impingement\", \"results\": [{\"title\": \"7.01.118 Hip Femoroacetabular Impingement (FAI) ...\", \"url\": \"https://www.blueshieldca.com/content/dam/bsca/en/provider/docs/2023/June/PRV_Surgical_TX_FemorImp.pdf\", \"snippet\": \"I. Open or arthroscopic treatment of femoroacetabular impingement (FAI) may be considered \u00b7 medically necessary when all of the following conditions have been met: ... A. Candidates should be skeletally mature with documented closure of growth plates (e.g., ... A. Moderate-to-severe hip pain (which may include pain referred to the groin, buttock, or\"}, {\"title\": \"Surgical Treatment of Femoroacetabular Impingement\", \"url\": \"https://www.bcbsms.com/policy-search/medical/policy-detail/surgical-treatment-of-femoroacetabular-impingement\", \"snippet\": \"Open or arthroscopic treatment of femoroacetabular impingement may be medically necessary when all of the following conditions have been met: ... <strong>Candidates should be skeletally mature with documented closure of growth plates (e.g., \u226515 years of age).</strong> ... Moderate-to-severe hip pain that ...\"}, {\"title\": \"Hip Arthroplasty for Adults\", \"url\": \"https://www.blueshieldca.com/content/dam/bsca/en/provider/docs/medical-policies/Hip-Arthroplasty-Adults.pdf\", \"snippet\": \"respond to conservative therapy or hip preservation \u00b7 surgery, including but not limited to synovial \u00b7 osteochondromatosis and pigmented villonodular \u00b7 synovitis \u00b7 2. Tumor involving proximal femur or acetabulum \u00b7 3. Unstable fracture of the femoral neck or acetabulum \u00b7 4. Symptomatic findings of FemoroAcetabular Impingement \u00b7\"}, {\"title\": \"Hip Femoroacetabular Impingement (FAI) Surgical Treatment\", \"url\": \"https://www.blueshieldca.com/content/dam/bsca/en/provider/docs/medical-policies/Hip-Femoroacetabular-Impingement-FAI-Surgical-Treatment.pdf\", \"snippet\": \"I. Open or arthroscopic treatment of femoroacetabular impingement (FAI) may be considered \u00b7 medically necessary when all of the following conditions have been met: ... A. Candidates should be skeletally mature with documented closure of growth plates (e.g., ... A. Moderate-to-severe hip pain (which may include pain referred to the groin, buttock, or\"}, {\"title\": \"Femoroacetabular Impingement (FAI) Surgery\", \"url\": \"http://blue.regence.com/medicare/sur/m-sur160.pdf\", \"snippet\": \"We cannot provide a description for this page right now\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01LotjCF2ehL3p3uF1z6z9Tu",
+     "content": "{\"query\": \"Regence medical policy \\\"hip arthroscopy\\\" criteria CPT 29914\", \"results\": [{\"title\": \"1 Medical Policy Surgical Treatment of Femoroacetabular Impingement\", \"url\": \"https://www.bluecrossma.org/medical-policies/sites/g/files/csphws2091/files/acquiadam-assets/145%20Surgical%20Treatment%20of%20Femoroacetabular%20Impingement%20prn.pdf\", \"snippet\": \"CPT codes: Code Description \u00b7 29914 \u00b7 <strong>Arthroscopy, hip, surgical; with femoroplasty (ie, treatment of cam lesion)</strong> 29915 \u00b7 Arthroscopy, hip, surgical; with acetabuloplasty (ie, treatment of pincer lesion) 29916 \u00b7 Arthroscopy, hip, surgical; with labral repair \u00b7\"}, {\"title\": \"Hip Arthroscopy | Clinical Review Criteria\", \"url\": \"https://wa-provider.kaiserpermanente.org/static/pdf/hosting/clinical/criteria/pdf/hip-arthroscopy-procedures.pdf\", \"snippet\": \"29999 Unlisted procedure, arthroscopy ... \u00b7 Description \u00b7 27299 \u00b7 Unlisted procedure, pelvis or hip joint \u00b7 29914 \u00b7 <strong>Arthroscopy, hip, surgical; with femoroplasty (i.e., treatment of cam lesion)</strong> 29915 \u00b7...\"}, {\"title\": \"Hip Arthroscopy for Femoroacetabular Impingement Page 1 of 9\", \"url\": \"https://fallonhealth.org/-/media/Files/ProviderPDFs/MedicalPolicies/HipArthro.ashx\", \"snippet\": \"For members who do not meet the ... are included below for informational purposes only; inclusion of a code does not ... <strong>Do not report CPT 29914, 29915 in conjunction with 29862, 29863</strong>....\"}, {\"title\": \"MEDICAL POLICY \u2013 7.01.592 Surgical Treatment of Femoroacetabular Impingement\", \"url\": \"https://www.premera.com/medicalpolicies/7.01.592.pdf\", \"snippet\": \"literature review through February 9, 2024; references added. Open or arthroscopic \u00b7 treatment of femoroacetabular impingement (FAI) may be considered medically \u00b7 necessary when criteria are met. Added CPT codes 29914-29916.\"}, {\"title\": \"Surgery of the Hip \u2013 Commercial and Individual Exchange ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-hip.pdf\", \"snippet\": \"<strong>primary hip procedure and not separately reimbursable</strong>. Debridement during hip arthroscopy is considered integral to the \u00b7 FAI surgery codes 29914, 29915, and 29916 and would therefore not be separately reimbursable.\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EsUFCpABCBIYAipAMHJygCbZnQNs1gjwraAjT8OrCEpLElLJbZckmGQJqcTMSkilpOZ41C/oN4BAUGSweToZ4fsI9Fa/xzmJndaWXzIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAZfrwdUGEgymz6KSuyAFpYKVPR8aDCRBOOUF6kVceLVr0SIwMLSXvRDuU47vgUxKpQ2s00/ew//4wdYozbGJY4kbXdTEuhNxleMob17qeIJiNBHNKuEDaGOIYvW2iU7Zk4EWR2d/7n0RrNZcF2pjF1dbAZogXSX9+jJxo9GVI8nFnhEQdOeD1wDMSOyrtZ+5g0faXTP/7xZVrhVC5OSeR8LyUn/qZlV+F5qpZLJMeXMDzPTVLPR9aLaIRNTKiDkJ5kQzQlrzQwQZmpSdWeTCTZYS4bGu6QWioP8HTk8whui9H+uZpQ9jU+6IlNonUL1ehkfky4doSQNDyBTe7xfDd34Z2Ft/QPKi9jDWMOc/2i6HnfCIio1vYqJxaqML2qFl9BvF09Fm+/ZLqrMRx40ck4D25k0+/WoR/aUW4cxkxisajK2mGut68NpivuttCBhgJfOwmbaNgxcqvlMG/yk53QEMTdGdv097oOOGu5o+eY71Qufb2sJVDSBNxJKbDYYk+5HrygMvXPn9iKhB5QwDAgYJkt10JtQNLDTJZfgcNmHqy5wkGUjVrnSt+Qvmd+pm0c/DO7ZUieUiY+eag4Dd4txQN55tK61iYr+8kmnZotPEgthLx7Fox5NlInPTGru8IwvzhKfxnrJFPqmgHu+aQa94wbmxhH06R4l3tjcw2nQl0aSG6dpMF5ONpV1cV70YGRTMbaQ4ax90qC8XqwdV/aAN4yEjcYrSo09lxOumRxrHV7C0IEGCwBgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01B3vNjyvWKTdVxRdk3mqNrs",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "regence.com medical policy \"Surgical Treatment of Femoroacetabular Impingement\""
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_016TUknhxvhDE2udnBtP1BfR",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "http://blue.regence.com/medicare/sur/m-sur160.pdf"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01B3vNjyvWKTdVxRdk3mqNrs",
+     "content": "{\"query\": \"regence.com medical policy \\\"Surgical Treatment of Femoroacetabular Impingement\\\"\", \"results\": [{\"title\": \"Surgical Treatment of Femoroacetabular Impingement\", \"url\": \"https://www.bcbst.com/mpmanual/Surgical_Treatment_of_Femoroacetabular_Impingement.htm\", \"snippet\": \"If there is a conflict between the Medical Policy and a health plan or government program (e.g., TennCare), the express terms of the health plan or government program will govern. ... There is a lack of evidence to evaluate the effect of surgical treatment in other conditions to improve acute and chronic pain or health outcomes. ... BlueCross BlueShield Association. Evidence Positioning System. (5:2025). Surgical treatment of femoroacetabular impingement...\"}, {\"title\": \"Surgical Treatment of Femoroacetabular Impingement\", \"url\": \"https://www.bcbsms.com/policy-search/medical/policy-detail/surgical-treatment-of-femoroacetabular-impingement\", \"snippet\": \"Femoroacetabular impingement can also be a source of hip pain and decreased hip internal rotation in the pediatric population. When nonoperative management of femoroacetabular impingement in children and adolescents is ineffective, surgical procedures may be indicated.\"}, {\"title\": \"1 Medical Policy Surgical Treatment of Femoroacetabular Impingement\", \"url\": \"https://www.bluecrossma.org/medical-policies/sites/g/files/csphws2091/files/acquiadam-assets/145%20Surgical%20Treatment%20of%20Femoroacetabular%20Impingement%20prn.pdf\", \"snippet\": \"The evidence is insufficient to determine the effects of the technology on ... functional outcomes, health status measures, quality of life, and change in disease status. Open hip \u00b7 <strong>dislocation surgery and arthroscopic surgery</strong> are the most common surgical techniques performed on\"}, {\"title\": \"Surgical Treatment of Femoroacetabular Impingement\", \"url\": \"https://mn-policies.exploremyplan.com/portal/web/medical-policies/-/mp-421\", \"snippet\": \"Femoroacetabular impingement can ... ineffective, operative procedures may be indicated. Surgical techniques include <strong>arthroscopy, open hip dislocation, limited open with arthroscopy, and osteotomy</strong>....\"}, {\"title\": \"MEDICAL POLICY \u2013 7.01.592 Surgical Treatment of Femoroacetabular Impingement\", \"url\": \"https://www.premera.com/medicalpolicies/7.01.592.pdf\", \"snippet\": \"Relevant outcomes are symptoms, functional outcomes, health status measures, quality of life, and change in disease status. <strong>Open hip dislocation surgery and arthroscopic surgery</strong> are the \u00b7 most common surgical techniques performed on individuals with femoroacetabular\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_016TUknhxvhDE2udnBtP1BfR",
+     "content": "{\"url\": \"http://blue.regence.com/medicare/sur/m-sur160.pdf\", \"final_url\": \"https://beonbrand.getbynder.com/m/900b439d96772aae/\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Surgery M-SUR160 1 Medicare Advantage Policy Manual Policy ID: M-SUR160 Femoroacetabular Impingement (FAI) Surgery Published: 03/01/2026 Next Review: 11/2026 Last Review: 01/2026 IMPORTANT REMINDER The Medicare Advantage Medical Policy manual is not intended to override the member Evidence of Coverage (EOC), which defines the insured\u2019s benefits, nor is it intended to dictate how providers are to practice medicine. Physicians and other health care providers are expected to exercise their medical judgment in providing the most appropriate care for the individual member, including care that may be both medically reasonable and necessary. The Medicare Advantage medical policies are designed to provide guidance regarding the decision-making process for the coverage or non-coverage of services or procedures in accordance with the member EOC and Centers of Medicare and Medicaid Services (CMS) policies and manuals, along with general CMS rules and regulations. In the event of a conflict, applicable CMS policy or EOC language will take precedence over the Medicare Advantage Medical Policy. In the absence of a specific CMS coverage determination for a requested service, item or procedure, the health plan may apply CMS regulations, as well as their Medical Policy Manual or other applicable utilization management vendor criteria developed with an objective, evidence-based process using scientific evidence, current generally accepted standards of medical practice, and authoritative clinical practice guidelines. Some services or items may appear to be medically indicated for an individual but they may also be a direct exclusion of Medicare or the member\u2019s benefit plan. Medicare and member EOCs exclude from coverage, among other things, services or procedures considered to be investigational (experimental) or cosmetic, as well as services or items considered not medically reasonable and necessary under Title XVIII of the Social Security Act, \u00a71862(a)(1)(A). In some cases, providers may bill members for these non-covered services or procedures. Providers are encouraged to inform members in advance when they may be financially responsible for the cost of non-covered or excluded services. Members, their appointed representative, or a treating provider can request coverage of a service or item by submitting a pre-service organization determination prior to services being rendered. DESCRIPTION Surgery for femoroacetabular impingement (FAI) reshapes the misshapen head of the femur and/or the acetabulum as an alternative to total hip replacement or hip resurfacing. It can be done as an open or arthroscopically. Other terms that may be used for FAI include, but may not be limited to, acetabular rim syndrome, acetabular retroversion, pistol grip deformity of the proximal femur, and bone spurs of the hip. Terms which may be used to describe FAI surgery include hip decompression, joint preserving surgery, resection osteoplasty, osteotomy (periacetabular for reorientation of a retroverted acetabulum, trochanteric or intertrochanteric), and hip debridement. However, it should be noted these terms apply to other orthopedic operative procedures as well. MEDICARE ADVANTAGE POLICY CRITERIA Note: This policy addresses femoroacetabular impingement (FAI) and does not address Surgery M-SUR160 2 acetabular dysplasia, considered a part of developmental dysplasia of the hip (DDH), formerly described as congenital hip dislocation. CMS Coverage Manuals None National Coverage Determinations (NCDs) For Medicare Coverage Determinations and Articles, see the Medicare Coverage Database None Noridian Healthcare Solutions (Noridian) Local Coverage Determinations (LCDs) and Articles For Medicare Coverage Determinations and Articles, see the Medicare Coverage Database None Medical Policy Manual Medicare coverage guidance is not available for FAI surgery. Therefore, the health plan\u2019s medical policy is applicable. See also the health plan\u2019s medical policy for capsular plication, capsular repair, labral reconstruction, iliotibial band windowing, trochanteric bursectomy, abductor muscle repair, and/or iliopsoas tenotomy, when performed at the time of any FAI surgery. Femoroacetabular Impingement Surgery, Surgery, Policy No. 160 (see \u201cNOTE\u201d below) NOTE: According to Title XVIII of the Social Security Act, \u00a71862(a)(1)(A), only medically reasonable and necessary services are covered by Medicare. In the absence of a NCD, LCD, or other coverage guideline, CMS guidelines allow a Medicare Advantage Organization (MAO) to make coverage determinations, applying an objective, evidence-based process, based on authoritative evidence. (Medicare IOM Pub. No. 100-16, Ch. 4, \u00a790.5). The Medicare Advantage Medical Policy - Medicine Policy No. M-149 - provides further details regarding the plan\u2019s evidence-assessment process (see Cross References). POLICY GUIDELINES REQUIRED DOCUMENTATION The information below must be submitted for review to determine whether policy criteria are met. If any of these items are not submitted, it could impact our review and decision outcome: \u2022 Procedure(s) to be performed (including any additional procedure anticipated to be done, such as capsular plication or repair, labral reconstruction, iliotibial band windowing, trochanteric bursectomy, abductor muscle repair, or iliopsoas tenotomy); \u2022 History and physical must include documentation of symptoms, including response to conservative therapy (i.e., activity modification, restriction of certain athletic pursuits, etc.); \u2022 Imaging documenting morphology indicative of cam-type or pincer-type FAI (conventional x-rays, MRI, MRI arthrogram); Surgery M-SUR160 3 \u2022 Documentation of presence or absence of advanced osteoarthritis and/or severe chondral damage. REGULATORY STATUS Surgical treatment of femoroacetabular impingement is a procedure and, therefore, is not subject to regulation by the U.S. Food and Drug Administration (FDA). CROSS REFERENCES None REFERENCES None CODING NOTES: \u2022 There is no specific CPT code for open femoroacetabular impingement (FAI) surgery, and therefore, the appropriate code for reporting this procedure is the unlisted code 27299. \u2022 There are specific CPT codes for arthroscopic treatment of FAI (CPT 29914-29916), and these codes should be used accordingly. CPT codes 29862 and 29863 are for arthroscopic surgery on the articular cartilage, labrum, and/or synovium of the hip joint, not for repair of FAI pathology and, therefore, should not be used to report arthroscopic FAI surgery. Codes Number Description CPT 27299 Unlisted procedure, pelvis or hip joint 29914 Arthroscopy, hip, surgical; with femoroplasty (ie, treatment of cam lesion) 29915 Arthroscopy, hip, surgical; with acetabuloplasty (ie, treatment of pincer lesion) 29916 Arthroscopy, hip, surgical; with labral repair HCPCS None \", \"text_truncated\": false}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EtUGCpABCBIYAipAmzC6SveTc5VTp6rjxKqDVbSqUtAq9voQX/J7ZCxgqN8r9pnJyB4NacdeGzqSjJVfB4Uek9UuI0CVEbClLrQEAzIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAZ7rwdUGEgzst8j7BOBpqTpUEUoaDNY8uOcqv0Z/fO33FCIwKeBW4ibRGv11K5zYElVSDeo+VKooWXnnyh0fvlcDpnfZ+yMMVJmmI9HsjKIf+ICNKvEE+xfjCQJL2O7qpETwKCwr7Rzfso3qQDqyWTiAlH8C8cpbA0dJIjtAJcZPxDtENpBACNzfXkUmJ7uut8WTybszk1RyjvAM4gddx9qx7O9zFvK4LaSWrqBNoUWOrrgYOspkEHesdb1CtokqQQW2TRIhpQ5pGJDVz+QjLBnO8PgCpMg/4ElfxiKe2fGiiVE7+Nk1IWl52T+sJYb7mTXczWn6nVgkggbhfnFT/LVPsCpAXDzfvUsJfOsgIQf+38kLaiDqg9Ok83wmehEuyAM1G9t6CY08THHA+I2a2QDvxoVE6nZaNVDxioe/T/fxVSRxlxxeQ4e0ICXS8OnpnDHV5CSt0MzB5tA+wA1fwZzshum2F1LtYt9NLt/8AGaWjBRs4mCRniwFWigpeqHYyg8nEXJQJ72ivtBZf1Mbxt8HXiZqqFZ/GdHD4ywkE7lHH7K07CvEDFldX5pptZpU/6/oCLufsNgaib919LklFBFX7xlQY1yTWaHGwxEoBb5jZC1Ml42XeGIPRyOK9jhUcFgXSJDKmyR0dTJiTuWUA1oxY/a6YXFxJah5DWLHSm3L9Lq4Oye+SNEU1MJNkseK+V1mjOoZFU9mKZgo6AfEL80SR/3cqibUyjCJlxxzuebNDf/1oAQq4KmRvhyEjc1z/qTuK0G/w/U0rsZAsvpWnbb3NAqjReHX7IFrIqXrzclMS6brtvceAJVKLq8Q1DVfSxtmdoPlpGjYK3jskJ6blAtH/92n+Fi59e8DTx+5XQPGebiS7+N5ui4bVOa9gOTyq97GJxKM0v0HTlMBfFBVlRfK4HpG81gmRv5iyyGttzeHEcag+HIngRgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_016Qz7uunpudYRsXCZb19mhd",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "regence.com medical policy manual \"Femoroacetabular Impingement\" surgery policy 160 commercial"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01WpZkTMyrTVuZz1ZSXp5J6U",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"regence\" \"medical policy\" \"hip arthroscopy\" OR \"femoroacetabular impingement\" site:regence.com"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_016Qz7uunpudYRsXCZb19mhd",
+     "content": "{\"query\": \"regence.com medical policy manual \\\"Femoroacetabular Impingement\\\" surgery policy 160 commercial\", \"results\": [{\"title\": \"Femoroacetabular Impingement (FAI) Surgery\", \"url\": \"https://blue.regence.com/medicare/sur/m-sur160.pdf\", \"snippet\": \"We cannot provide a description for this page right now\"}, {\"title\": \"Surgery for Femoroacetabular Impingement | Providers | Blue Cross NC\", \"url\": \"https://www.bluecrossnc.com/providers/policies-guidelines-codes/commercial/surgery/updates/surgery-for-femoroacetabular-impingement\", \"snippet\": \"The mismatch can arise from subtle morphologic alterations in the anatomy or orientation of the ball-and-socket components ( eg, a bony prominence at the head-neck junction or acetabular overcoverage), with articular cartilage damage initially occurring from abutment of the femoral neck against the acetabular rim, typically at the anterosuperior aspect of the acetabulum. Although hip joints can possess the morphologic features of femoroacetabular impingement without symptoms, femoroacetabular impingement may become pathologic with repetitive movement and/or increased force on the hip joint.\"}, {\"title\": \"1 Medical Policy Surgical Treatment of Femoroacetabular Impingement\", \"url\": \"https://www.bluecrossma.org/medical-policies/sites/g/files/csphws2091/files/acquiadam-assets/145%20Surgical%20Treatment%20of%20Femoroacetabular%20Impingement%20prn.pdf\", \"snippet\": \"An association between femoroacetabular impingement and athletic pubalgia, sometimes called sports \u00b7 hernia, has been proposed. Athletic pubalgia is an umbrella term for a large variety of musculoskeletal \u00b7 injuries involving attachments and/or soft tissue support structures of the pubis (see medical policy #695, Surgery for Groin Pain in Athletes).\"}, {\"title\": \"MEDICAL POLICY \u2013 7.01.592 Surgical Treatment of Femoroacetabular Impingement\", \"url\": \"https://www.premera.com/medicalpolicies/7.01.592.pdf\", \"snippet\": \"Best Practice Guidelines for Hip Arthroscopy in Femoroacetabular Impingement: Results \u00b7 of a Delphi Process. J Am Acad Orthop Surg. Jan 15 2020; 28(2): 81-89. PMID 31181030 \u00b7 47. National Institute for Health and Clinical Excellence (NICE). Arthroscopic femoro-acetabular surgery for hip impingement\"}, {\"title\": \"Hip Preservation Surgery - Medical Clinical Policy Bulletins | Aetna\", \"url\": \"https://www.aetna.com/cpb/medical/data/700_799/0736.html\", \"snippet\": \"Hip impingement syndrome, also known as femoro-acetabular impingement (FAI) syndrome, is a recently accepted pathological condition that primarily affects young and middle-aged adults. It is characterized by hip pain felt mainly in the groin and can result in chronic pain and decreased range of motion in flexion and internal rotation. Femoroacetabular impingement (FAI) occurs as a result of friction in the hip joint caused by abnormal contact between the femoral head and the rim of the acetabulum (hip socket).\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01WpZkTMyrTVuZz1ZSXp5J6U",
+     "content": "{\"query\": \"\\\"regence\\\" \\\"medical policy\\\" \\\"hip arthroscopy\\\" OR \\\"femoroacetabular impingement\\\" site:regence.com\", \"results\": [{\"title\": \"Femoroacetabular Impingement (FAI) Surgery\", \"url\": \"http://blue.regence.com/medicare/sur/m-sur160.pdf\", \"snippet\": \"We cannot provide a description for this page right now\"}], \"result_count\": 1, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EqUDCpABCBIYAipAfLDNZiGFAEoZ8T+MIUKZr3vDZ9xWxix9xONpezg6KUlecIZPVz1uj6zgBn/n4SZPREcY77EcjFCrk63/UD3LaTIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAaLrwdUGEgxQbuHzffyNJGKAywgaDPjL9owv79PRyuGTLyIwb+rkilSXmDGJg8llstMK/VwcDH6eldHU5N2GIxTCYnsyJ7cyLb0H0JH+9dkZj23wKsEBwragNC7SYEe6Mm1rsYwIhbu+hjUYhmtgQoLKI9VvrOQxP5U0903uwK+D+8ibWScBcvcDv5Lx7cJ5Uy27y50ocCqU9+/SMpGgevV2T2aaXjyR0KHVI/ykZZfHzTAnaGPPkWKjST/ZHkhOKp7LRq0RbK4o9mH2dfN5GftBxfWZh0FaE0NDipVH2yvEu4EnesvyqW2tjub56sC6PorrcnSeAqVebTtzocj9d/S/Uisseb0GayNrCWRHP5lInmOdF2BmFBgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01GtQsdfb6HuAJDQE411aZSe",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "regence provider \"medical policy\" search \"Surgery\" number 160 femoroacetabular"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01LzvrTGqKTwkHhZ1L1YAruW",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "regence.com \"medical policies\" list surgery orthopedic hip"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_011AEFSZgSUJBfQ4ZqXqYVS6",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.regence.com/provider/library/policies"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01GtQsdfb6HuAJDQE411aZSe",
+     "content": "{\"query\": \"regence provider \\\"medical policy\\\" search \\\"Surgery\\\" number 160 femoroacetabular\", \"results\": [{\"title\": \"Surgery Table of Contents\", \"url\": \"https://blue.regence.com/trgmedpol/surgery/index.html\", \"snippet\": \"Surgery table of contents for The Regence Group Medical Policy Manual\"}, {\"title\": \"Femoroacetabular Impingement Surgery\", \"url\": \"https://blue.regence.com/trgmedpol/surgery/sur160.pdf\", \"snippet\": \"Surgery table of contents for The Regence Group Medical Policy Manual\"}, {\"title\": \"Surgery of the Hip \u2013 Commercial and Individual Exchange ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-hip.pdf\", \"snippet\": \"Hayes, Inc. Health Technology Brief. <strong>Arthroscopic hip surgery for femoroacetabular impingement</strong>.\"}, {\"title\": \"Surgery of the Hip Page 1 of 8 Surest Medical Policy Effective 05/01/2026\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/surest/surgery-hip-sur.pdf\", \"snippet\": \"Hayes, Inc. Health Technology Brief. <strong>Arthroscopic hip surgery for femoroacetabular impingement</strong>.\"}, {\"title\": \"Joint Procedures \u2013 Medicare Advantage Medical Policy\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/index/mamp/joint-procedures-10012025.pdf\", \"snippet\": \"Policy titled Surgery of the Hip. Acetabuloplasty: Resection of the Femoral Head (e.g., Girdlestone Procedure) Medicare does not have an NCD for acetabuloplasty; resection of the femoral head (e.g., Girdlestone procedure). LCDs/LCAs do not exist. For coverage guidelines, refer to InterQual\u00ae CP: Procedures, Arthrotomy, Hip. Click here to view the InterQual\u00ae criteria. ... Medicare does not have an NCD for femoroacetabular impingement (FAI) syndrome.\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01LzvrTGqKTwkHhZ1L1YAruW",
+     "content": "{\"query\": \"regence.com \\\"medical policies\\\" list surgery orthopedic hip\", \"results\": [{\"title\": \"Medical policy table of contents\", \"url\": \"https://www.regence.com/provider/library/policies-guidelines/medical-policy\", \"snippet\": \"All available medical policies are listed below as the default display. Use the drop-down categories menu to browse policies by section, filter policies alphabetically by name or policy ID, or search policies.\"}, {\"title\": \"Medicare Advantage medical policy table of contents\", \"url\": \"https://www.regence.com/provider/library/policies-guidelines/medical-policy/ma-medical-policy\", \"snippet\": \"<strong>All available Medicare Advantage medical policies are listed as the default display</strong>. Use the drop-down categories menu to browse policies by section, filter policies alphabetically by name or policy ID or search policies.\"}, {\"title\": \"The Regence Group Medical Policy Manual Table of ...\", \"url\": \"https://blue.regence.com/medicare/contents/index.html\", \"snippet\": \"<strong>All available Medicare Advantage medical policies are listed as the default display</strong>. Use the drop-down categories menu to browse policies by section, filter policies alphabetically by name or policy ID or search policies.\"}, {\"title\": \"Regence | Medical policies\", \"url\": \"https://www.assets.regence.com/medicalrouter/index.jsp?stcd=or&thispage=trgmedpol%2Fsurgery&type=policy\", \"snippet\": \"<strong>Ablation of Primary and Metastatic Liver Tumors</strong> \u00b7 Absorbable Nasal Implant for Treatment of Nasal Valve Collapse\"}, {\"title\": \"Medical policy introduction\", \"url\": \"https://www.regence.com/provider/library/policy-guidelines/medical-policy/introduction\", \"snippet\": \"An overview to the development and review of medical policies. The purpose of a medical policy is to provide guidelines for determining coverage criteria for specific medical and behavioral health technologies, including procedures, equipment, and service\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_011AEFSZgSUJBfQ4ZqXqYVS6",
+     "content": "{\"url\": \"https://www.regence.com/provider/library/policies\", \"final_url\": \"https://www.regence.com/provider/library/policies\", \"http_status\": 404, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"imperva_incapsula_resource\", \"error\": \"fetch blocked or unreadable: imperva_incapsula_resource\", \"text\": \"Not Found Find a doctor Find a dentist Contact us Sign in Individuals & Families Medicare For Employers For Producers For Providers Don't have a member account yet? Create one Sign in Individuals & Families Medicare For Employers For Producers For Providers Don't have a member account yet? Create one \u00d7 Find a doctor Find a dentist Contact us Go to Regence home page x Attention! You are about to leave regence.com and enter another website that is not affiliated with or licensed by the Blue Cross Blue Shield Association. Cancel Proceed x Attention! You are about to leave our Medicare website. Proceed Cancel \u00a9 2026 Regence health plans are Independent Licensees of the Blue Cross and Blue Shield Association serving members in Idaho, Oregon, Utah and select counties of Washington.\", \"text_truncated\": false}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "text": "Let's fetch the actual commercial policy document sur160.pdf.",
+     "type": "text"
+    },
+    {
+     "id": "toolu_01XMcFdjP3PrNQBrtXG8Wohr",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://blue.regence.com/trgmedpol/surgery/sur160.pdf"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01XMcFdjP3PrNQBrtXG8Wohr",
+     "content": "{\"url\": \"https://blue.regence.com/trgmedpol/surgery/sur160.pdf\", \"final_url\": \"https://beonbrand.getbynder.com/m/44215e0cc478da83/\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"SUR160 | 1 Medical Policy Manual Surgery, Policy No. 160 Femoroacetabular Impingement Surgery Effective: March 1, 2026 Next Review: November 2026 Last Review: January 2026 IMPORTANT REMINDER Medical Policies are developed to provide guidance for members and providers regarding coverage in accordance with contract terms. Benefit determinations are based in all cases on the applicable contract language. To the extent there may be any conflict between the Medical Policy and contract language, the contract language takes precedence. PLEASE NOTE: Contracts exclude from coverage, among other things, services or procedures that are considered investigational or cosmetic. Providers may bill members for services or procedures that are considered investigational or cosmetic. Providers are e ncouraged to inform members before rendering such services that the members are likely to be financially responsible for the cost of these services. DESCRIPTION Surgery for femoroacetabular impingement surgery reshapes the misshapen head of the femur and/or the acetabulum as an alternative to total hip replacement or hip resurfacing. It can be done as an open or arthroscopic procedure. MEDICAL POLICY CRITERIA Note: This policy addresses femoroacetabular impingement (FAI) and does not address acetabular dysplasia, considered a part of developmental dysplasia of the hip (DDH), formerly described as congenital hip dislocation. I. Open or arthroscopic surgical treatment of femoroacetabular impingement (FAI) may be medically necessary in skeletally mature patients when all of the following criteria (A-E) are met: A. Moderate-to-severe hip pain that is worsened by flexion activities (e.g., squatting or prolonged sitting) that significantly limits activities B. Unresponsive to conservative therapy for at least 3 months or clinical documentation that conservative therapy is contraindicated (e.g., history of falls due to mechanical instability of hip joint) NOTE: This policy has been revised. The revised policy will be effective October 1, 2026. SUR160 | 2 C. Positive impingement sign on clinical examination (i.e., pain elicited with 90 degrees of flexion and internal rotation and adduction of the femur) D. All of the following criteria must be met: 1. Imaging (conventional x-rays, MRI, MRI arthrogram) documents morphology indicative of cam-type or pincer-type FAI (See List of Information Needed for Review); and 2. No evidence of advanced osteoarthritis, defined as Tonnis grade II or III, or joint space of less than 2 mm, except when there is mechanical instability. E. Requested procedures must be consistent with the anatomical abnormalities documented. II. Open or arthroscopic treatment of FAI is considered not medically necessary when Criterion I. is not met. Note that capsular plication, capsular repair, acetabular or femoral chondroplasty, acetabular or femoral microfracture, labral reconstruction, iliotibial band windowing, trochanteric bursectomy, abductor muscle repair, and/or iliopsoas tenotomy, when performed at the time of any FAI surgery, would be considered a component of and incidental to the FAI procedure. NOTE: A summary of the supporting rationale for the policy criteria is at the end of the policy. LIST OF INFORMATION NEEDED FOR REVIEW It is critical that the list of information below is submitted for review to determine if the policy criteria are met. If any of these items are not submitted, it could impact our review and decision outcome. \u2022 History and Physical \u2022 Documented symptoms and conservative treatments attempted specific to policy criteria 1. B. \u2022 Physical exam findings \u2022 Imaging (conventional x-rays, MRI, MRI arthrogram) that documents morphology indicative of cam-type or pincer-type FAI such as one or more of the following: i. pistol-grip deformity ii. femoral head-neck offset with an alpha angle greater than 50 degrees iii. positive wall sign iv. acetabular retroversion (overcoverage with crossover sign) v. coxa profunda or protrusion vi. damage of the acetabular rim CROSS REFERENCES None BACKGROUND Femoroacetabular impingement (FAI) results from localized compression in the joint due to an anatomical mismatch between the head of the femur and the acetabulum. Symptoms of SUR160 | 3 impingement typically occur in young to middle-aged adults prior to the onset of osteoarthritis, but may be present in younger patients with developmental hip disorders. The objective of surgical treatment of FAI is to improve symptoms and reduce further damage to the joint. The anatomical mismatch can arise from subtle morphologic alterations in the anatomy or orientation of the ball-and-socket components (for example, a bony prominence at the head- neck junction or acetabular overcoverage) with articular cartilage damage initially occurring from abutment of the femoral neck against the acetabular rim, typically at the anterosuperior aspect of the acetabulum. Although hip joints can possess the morphologic features of FAI without symptoms, FAI may become pathologic with repetitive movement and/or increased force on the hip joint. High-demand activities may also result in pathologic impingement in hips with normal morphology. Two types of impingement, known as cam impingement and pincer impingement, may occur alone or more frequently together. Cam impingement is associated with an asymmetric or nonspherical contour of the head or neck of the femur jamming against the acetabulum, resulting in cartilage damage and delamination (detachment from the subchondral bone). Deformity of the head/neck junction that looks like a pistol grip on radiographs is associated with damage to the anterosuperior area of the acetabulum. Symptomatic cam impingement is found most frequently in young male athletes. Pincer impingement is associated with overcoverage of the acetabulum and pinching of the labrum, with pain more typically beginning in women of middle age. In cases of isolated pincer impingement, the damage may be limited to a narrow strip of the acetabular cartilage. It has been proposed that impingement with damage to the labrum and/or acetabulum is a causative factor in the development of hip osteoarthritis, and that as many as half of cases currently categorized as primary osteoarthritis may have an etiology of FAI. Other terms that may be used for FAI include the following: \u2022 Acetabular rim syndrome \u2022 Acetabular retroversion \u2022 Pistol grip deformity of the proximal femur \u2022 Bone spurs of the hip Nonsurgical treatments include modification of activities and avoidance of specific movements that elicit symptoms and non-steroidal anti-inflammatory drugs. Intra-articular steroid injections and physical therapy with hip strengthening exercises may reduce symptoms. Hip stretching exercises such as yoga usually make symptoms worse. Various open surgical and arthroscopic techniques have been described. Previously, access to the joint space was limited and treatment consisted primarily of debridement or labral reattachment. A technique for hip dislocation with open osteochondroplasty that preserved the femoral blood supply was reported by Ganz (2001). Visualization of the entire joint with this procedure led to the identification and acceptance of FAI as an etiology of cartilage damage (the association between abnormal femoral head/neck morphology and early age onset of osteoarthritis had been described earlier by others) and the possibility of correcting the abnormal femoroacetabular morphology. Open osteochondroplasty of bony abnormalities and treatment of the symptomatic cartilage defect is considered the gold standard for complex bony abnormalities. However, open osteochondroplasty is invasive, requiring transection of the greater trochanter (separation of the femoral head from the femoral shaft) and dislocation of SUR160 | 4 the hip joint to provide full access to the femoral head and acetabulum. In addition to the general adverse effects of open surgical procedures, open osteochondroplasty with dislocation has been associated with nonunion, and neurologic and soft tissue lesions. Less-invasive hip arthroscopy and an arthroscopy-assisted mini-approach were adapted from the open approach by 2004. Arthroscopy requires specially designed instruments and is considered to be more technically difficult due to reduced visibility and limited access to the joint space. Advanced imaging techniques, including computed tomography (CT) and fluoroscopy, have been utilized to improve visualization of the three-dimensional head/neck morphology during arthroscopy. The following terms may also be used for FAI surgery (though these operative terms apply as well to other orthopedic procedures): \u2022 Hip decompression \u2022 Joint preserving surgery \u2022 Resection osteoplasty \u2022 Osteotomy (periacetabular for reorientation of a retroverted acetabulum, trochanteric or intertrochanteric) \u2022 Hip debridement An association between FAI and athletic pubalgia, sometimes called sports hernia, has been proposed. Athletic pubalgia is an umbrella term for a large variety of musculoskeletal injuries involving attachments and/or soft tissue support structures of the pubis. It is believed that if FAI presents with limitations in hip range of motion, compensatory patterns during athletic activity may lead to increased stresses involving the abdominal obliques, distal rectus abdominis, pubic symphysis, and adductor musculature. The condition is more common in men than in women and is associated with sports in which high speed twisting of the hip and pelvis occur (e.g., football and hockey). Under surgical exploration, a variety of musculotendinous defects, nerve entrapments, and inflammatory conditions have been observed. These defects are often discovered and repaired during open or minimally invasive exploratory laparoscopy. Surgery for athletic pubalgia has been performed concurrently with treatment of FAI or might be performed following FAI surgery if symptoms do not resolve. However, there is little definitive evidence to determine if surgical repair improves health outcomes in patients with athletic pubalgia. The recognition and treatment of FAI has also brought attention to the possibility of cam-type FAI after slipped capital femoral epiphysis (SCFE). The standard treatment for SCFE is stabilization across the physis by in-situ pinning, although it is not uncommon for patients with SCFE to develop premature osteoarthritis requiring total hip arthroplasty (THA) within 20 years. Treatments being evaluated for pediatric patients with SCFE-related FAI include osteoplasty without dislocation, or with the open dislocation technique described by Ganz. The Ganz technique (capital realignment with open dislocation) is technically demanding with a steep learning curve and a high risk of complications. Therefore, early treatment to decrease impingement must be weighed against increased risk for adverse events including avascular necrosis in patients with SCFE. It is known that surgical treatment of FAI pathology is less effective for pain reduction in patients with late-stage osteoarthritis. In addition, delay in the surgical correction of bony abnormalities may lead to disease progression to the point where joint preservation is no longer appropriate. It is believed that osteoplasty of the impinging bone is needed to protect the cartilage from further damage and preserve the natural joint. Therefore, if FAI morphology SUR160 | 5 is shown to be an etiology of osteoarthritis, a future strategy to reduce the occurrence of idiopathic hip osteoarthritis could be early recognition and treatment of FAI before cartilage damage occurs. Note: The surgical procedure may be done arthroscopically or as an open procedure based on the evaluation and recommendation of the treating surgeon. It is preferable that any surgeon performing a surgical procedure have current, appropriate experience applicable to that procedure. Surgical treatment of FAI should be performed only in cente\", \"text_truncated\": true}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EvQDCpABCBIYAipAZQaf9zSOZfvBd+MiK3n4o/LMuqG/0R5zmzBO2mmeS0DwWg2fyP67AhPEGU1KDPq66/IZavNs8EB/36YlvzYm9zIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAavrwdUGEgy1TAKzhhLmukrlXZ8aDHhpM5qmZ2pjJi3FjCIwrNE1m77WjlP9YG/2lA8MEPGO/oEeODk69tkfzI6jzHQctIyC6apxO5vL2yCdvmU9KpACeb3JWPZd/aCLEsw1JzI0VISx0t2ecwM7DCeEDBC5vzxt9LsnK2+fAkHcPQCmN4yVIKaxCJzYA1bkO3EizCll6FwLDePRBdUHuWionv+kf+RAJ6Fj8LyCq93fH9sl/6RJHExonDFIf8Sgt8kvKR63NUAEUayw1H/dBWXVfLLFcaAFjaUGUT10w5fARWusdPG1uNycsujFfD3QX+j4VJlPh7sn7/WdDHjHrP8ewyJl5+mJ3IAkyWU6Agz1H0zCvBuWXC3QysoH6lUhstXDDHuWzOR9veIQObrZOIxcuP/MxCVvtqEJs7f0gEjax2Ivnnfgwu8eODEL6MdgXgchFs2NrJapyGh2JdsxoTcoC2tRL9cYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01RpSyDupYXeUakCKcoaKj97",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Regence BlueShield Washington member appeal address \"180 days\" adverse benefit determination submit appeal"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01RpSyDupYXeUakCKcoaKj97",
+     "content": "{\"query\": \"Regence BlueShield Washington member appeal address \\\"180 days\\\" adverse benefit determination submit appeal\", \"results\": [{\"title\": \"Regence Group Administrators Appeal Submission Form\", \"url\": \"https://www.printfriendly.com/document/regence-group-administrators-appeal-submission-form\", \"snippet\": \"To submit the completed appeal form, please return it by mail or fax to Regence Group Administrators. Mail the form to <strong>RGA, Attn: Appeals Department, PO Box 52730, Bellevue WA 98015.</strong> Alternatively, you can fax the appeal to 1-855-462-8875.\"}, {\"title\": \"Regence provider appeal form: Fill out & sign online | DocHub\", \"url\": \"https://www.dochub.com/fillable-form/336276-regence-provider-appeal-form\", \"snippet\": \"<strong>An Appeal must be submitted within 180 days or 6 months from the date of the Explanation of Benefits</strong>. All Appeal decisions are answered in writing.\"}, {\"title\": \"2021 BOOKLET FOR: WASHINGTON FLORAL SERVICE Regence ExpressionsSM\", \"url\": \"https://www.washingtonfloral.com/images/PDF_Files/Portal/Regence/2021_dental_booklet.pdf\", \"snippet\": \"Appeals can be initiated through either written or verbal request. A written request can be made by \u00b7 sending it to Us at: <strong>Appeals Coordinator, Regence BlueShield, P.O. Box 1408, Lewiston, ID 83501</strong> or \u00b7 facsimile 1 (888) 496-1542. Verbal requests can be made by calling Us at 1 (888) 367-2112.\"}, {\"title\": \"How to appeal a health care insurance decision\", \"url\": \"https://www.insurance.wa.gov/sites/default/files/2024-10/appeals-guide.pdf\", \"snippet\": \"<strong>You must file a standard appeal within 180 days of receiving the denial in writing</strong>.\"}, {\"title\": \"Understanding the medical appeals process | Member knowledge center | Blue Cross NC\", \"url\": \"https://www.bluecrossnc.com/members/knowledge-center/appeals\", \"snippet\": \"Important Note: You must submit your appeal <strong>within 180 days of the date on the Adverse Benefit Determination or denial letter</strong>.\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "ErIECpABCBIYAipAs4ND90humRJ7fK+7lY4I5+LJy0ndP8ppCN7RDg7K4c5cs3wTpF3M1p80D/xfLJ5zfwKdxiHQ7ND1LZWofVBZATIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAa7rwdUGEgw+vNlPDpXtOUxRp4IaDK7cf0sK4HR5FOsBziIwz6tTniPJV+sZv2vtNCjNETQgullnB9b5Sfa180YPpVhBxWIwbi/lKMckoWztjzWEKs4C0l5hXlG2wMJmE16ZnRos8EKH5owrbTLYzj3+OCPH81Jh7J2DqnIIdFLn/LJ46JXcOTOAfoKH7w1i/IpmFyS5IPmO+YVv8+L3aUoGkZu39kaZ0Arl2LA6UFInzZuvJFvt/njmFiy2cQJVyjiUpw8Wg0082TPGNMtvrVtSpBYWKtnXDnUBLDRIjpCUgqll9wFR6tAEsaF23OkdpCt6PBWPGpJBvVRgPHcBK5i0dk/DP95w47ECGjXuAw2Szrbm39JrmERpv8sr8kHRxYR31JrLZ1COvj5bFpSn+8zcX0bPoiqsmy2HZuI0dianXHfoJ0KulyK5IoQ9j9xfXRdOBswy+UmRDHPLgocZL47lvyEpc0xFu/INZW+IZSwttoYVvZ8xVB+/Td6qniwUjRix+IUDrg66aOeR6xOVD0DIqIbYTX7domrHsAiTlDmL4JV33xgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01QAUEpZ89xR3RLfQWCLXvzq",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"Regence BlueShield\" member appeal \"P.O. Box 1408\" Lewiston ID"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01FCgnyS1MhiqD6G6uhV5QGp",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Regence BlueShield how to file an appeal member website"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01QAUEpZ89xR3RLfQWCLXvzq",
+     "content": "{\"query\": \"\\\"Regence BlueShield\\\" member appeal \\\"P.O. Box 1408\\\" Lewiston ID\", \"results\": [{\"title\": \"2021 BOOKLET FOR: WASHINGTON FLORAL SERVICE Regence ExpressionsSM\", \"url\": \"https://www.washingtonfloral.com/images/PDF_Files/Portal/Regence/2021_dental_booklet.pdf\", \"snippet\": \"sending it to Us at: Appeals Coordinator, Regence BlueShield, P.O. Box 1408, Lewiston, <strong>ID 83501</strong> or\"}], \"result_count\": 1, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01FCgnyS1MhiqD6G6uhV5QGp",
+     "content": "{\"query\": \"Regence BlueShield how to file an appeal member website\", \"results\": [{\"title\": \"Member appeal process and forms\", \"url\": \"https://www.regence.com/member/members/member-appeals\", \"snippet\": \"Get help with your coverage questions, including information on how to file an appeal. Learn about the appeal process and find the appropriate appeal forms.\"}, {\"title\": \"UMP MEMBER APPEAL FORM Please return completed form to:\", \"url\": \"https://www.hca.wa.gov/assets/pebb/Reg-appeals-grievance-form.pdf\", \"snippet\": \"We need your permission to authorize Regence BlueShield to request any medical records needed to answer your appeal.\"}, {\"title\": \"Grievances and appeals\", \"url\": \"https://www.regence.com/medicare/grievances-appeals\", \"snippet\": \"Learn how to file a complaint (a grievance) about us or one of our plan providers, or to how to appeal, or request an independent review of, any action we take or decision we make about your coverage, benefits or services.\"}, {\"title\": \"Regence Appeal Form for Medicare Advantage Claims\", \"url\": \"https://www.printfriendly.com/document/regence-appeal-form-medicare-advantage-claims\", \"snippet\": \"To submit the appeal form, you may <strong>mail it to Regence BlueCross BlueShield of Oregon at PO Box 1106, Lewiston, ID 83501-1106.</strong> Alternatively, fax the completed form to 1 (888) 496-1542 or email it directly to MemberAppeals@regence.com.\"}, {\"title\": \"Regence provider appeal form: Fill out & sign online | DocHub\", \"url\": \"https://www.dochub.com/fillable-form/336276-regence-provider-appeal-form\", \"snippet\": \"<strong>Indicate whether this claim has been appealed before by selecting &#x27;Yes&#x27; or &#x27;No&#x27;.</strong> If &#x27;Yes&#x27;, attach a copy of the previous appeal determination letter. Fill in the Regence Claim Number(s), Date(s) of Service, Member ID Number, Member Name, and Member Date of Birth.\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EtQCCpABCBIYAipAHWaTUTmIX5SISxO1Nd6jnqeOG2P7IfutrHMjHnoeczRTmzhVGr/arKJVbilQyQr0syr630MuvV25QT3jnljHrDIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAbLrwdUGEgxUm909l4wOtwD2f2caDA57z/ghtw4ro2ke4CIwylIW/6jbTVAnRF6OE3r0C130j0gS1jO4FPdgx+r9scKfV9MrICSiEEbVoEHrqdgpKnGUo2wq2A67+P0r8srpajHHAUdblHhrFps13PpMpEK1AVvWlRf9tmJ7LNdGTojkaABZ0ocCsRSickSMvsPJxXhtWZKdoNDod1RGgjTL6cz59/pM4R1ppaMcsdGsdeSJnog5mwCnzoZudmZKz5OZPxyGqxgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01PV57kRtsj3bRAdGwCJfLya",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.regence.com/member/members/member-appeals"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01PV57kRtsj3bRAdGwCJfLya",
+     "content": "{\"url\": \"https://www.regence.com/member/members/member-appeals\", \"final_url\": \"https://www.regence.com/member/members/member-appeals\", \"http_status\": 200, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Member appeal process and forms Find a doctor Find a dentist Contact us Sign in Individuals & Families Medicare For Employers For Producers For Providers Don't have a member account yet? Create one Sign in Individuals & Families Medicare For Employers For Producers For Providers Don't have a member account yet? Create one \u00d7 Find a doctor Find a dentist Contact us Go to Regence home page x Attention! You are about to leave regence.com and enter another website that is not affiliated with or licensed by the Blue Cross Blue Shield Association. Cancel Proceed Loading... x Attention! You are about to leave our Medicare website. Proceed Cancel \u00a9 2026 Regence health plans are Independent Licensees of the Blue Cross and Blue Shield Association serving members in Idaho, Oregon, Utah and select counties of Washington. Non-discrimination | Espa\u00f1ol | \u7e41\u9ad4\u4e2d\u6587 | Ti\u1ebfng Vi\u1ec7t | \ud55c\uad6d\uc5b4 | \u0420\u0443\u0441\u0441\u043a\u0438\u0439 | Tagalog | \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 | \u1781\u17d2\u1798\u17c2\u179a | \u65e5\u672c\u8a9e | \u12a0\u121b\u122d\u129b | Oroomiffa | \u0627\u0644\u0639\u0631\u0628\u064a\u0629 | \u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40 | Deutsch | \u0e9e\u0eb2\u0eaa\u0eb2\u0ea5\u0eb2\u0ea7 | ...\", \"text_truncated\": false}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EtwGCpABCBIYAipAQXh662fQj2igaWprZbrbLSyrYN76ohpYXcBIWz8uB+X288//47DkQHFWGuSycVhUbxB2EsLkkUH2f9juFpqCPzIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAbjrwdUGEgyChYgoVRMHE/KhiT0aDKyDVR8lKL1REZyPTSIwyo9S4gvXkaSqBMMAtaI7s1V0rfPLZWL8bJTrnnWt+UuI4GzpADHS1gRwUmQ1bVF7KvgElAp8SRLGcJAPOOz+TDiFb7QdOnLpmT8+pxgk7s6zW0C8jXh+MUK9yp1SxGhEuNb2veFu34JgOM8IkFUFWZ8AdfUawpTc4ATHB/8mgUiU3VqM2jH84Bt5mv6IAjModPaW1WoPgUmsXKCtE1Jdtj62cMpfvSV12xgr25wUH+WlEwrFPdlTiW65NDSOtnFo2xPZWINS+KT28sJzJp149u4pYLVmBK8BRvse5eQ3RuIi6HWRnIOgA23jQUSftQMmoI4OeLvfuWUHSmoX3s5ZQb0IRPFl94xk1gPiX24X01l22VKkI7yrg3yZJWUS/Y6R2qQQ53H4ZjzyIVxkLs9F+0JtP1a28VVf0zv2oPnNJJVXz1RKSAtVZZb5eB5FZ7ACSm61BEGmfXh0aNMCH2Qlu3NHD0SjjrA3RNr9uEHmeN/Sjn5rhwf7/46zZWPWWArMNqmpfcjfUANrWDm7CCYgQVvbT194OOq0fpHJbfTPNDEZBhZlJxNv+DH7vU0vKfF6Yr2KhJ7E6R/Yug9zCT7dHKHt1moxbZcB5gtFpTyFzfNt4fnL3QAUUy4zyer1MAHutVCUyX1PkNQGiyUv9Y0f8rVIsc3J+CR1sXBe3hkq6jQllPsFfKWk5gWQcpAVOgGMCd7IK/cDxgY6PE05TufNpnhNAm6zpvHjxvKUNvsAhcfAj2a4x4y1gURLwuAM9ppkZStSIKASLqbfOBfgCs/i+9ykZrHFLc25tbma2HJFa25wFqCuEdZ5If/9rwCo5duWOdGQ3gUVV838lJHZLkqQlDG3Ji5kkybY8RTtEG1BD6HnuMrI0kKIIHTY3uyT8Zy8jkM0BZsMxVALNREYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01K7PwCFGAQxYmnPHjYgpAPQ",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"Regence BlueShield\" \"Appeals\" \"P.O. Box 1106\" OR \"PO Box 1106\" Lewiston member"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01DnD3rGMV8bzpEaRshqu6tT",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Regence BlueShield certificate of coverage \"first level appeal\" \"Regence BlueShield\" address Lewiston"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01K7PwCFGAQxYmnPHjYgpAPQ",
+     "content": "{\"query\": \"\\\"Regence BlueShield\\\" \\\"Appeals\\\" \\\"P.O. Box 1106\\\" OR \\\"PO Box 1106\\\" Lewiston member\", \"results\": [{\"title\": \"UMP (Regence) Medical appeals and grievance form\", \"url\": \"https://www.hca.wa.gov/assets/pebb/Reg-appeals-grievance-form.pdf\", \"snippet\": \"Regence BlueShield \u00b7 PO Box 1106 \u00b7 Lewiston, ID 83501-1106 \u00b7 or by fax to: 1-877-663-7526 \u00b7 Email: UMPMemberAppeals@regence.com \u00b7 UMP Customer Service \u00b7 PEBB 1 (888) 849-3681 \u00b7 TRS: 711 \u00b7 UMP Customer Service \u00b7 SEBB 1 (800) 628-3481 \u00b7 TRS: 711 \u00b7 Member Name \u00b7\"}, {\"title\": \"APPEAL FORM Please return completed form to: Commercial and Individual\", \"url\": \"https://beonbrand.getbynder.com/m/3bac70e7c06077f3/original/Appeal-Form-OR.pdf\", \"snippet\": \"Regence BlueCross BlueShield of Oregon \u00b7 PO Box 1106 \u00b7 PO Box 1106 \u00b7 Lewiston, ID 83501-1106 \u00b7 Lewiston, ID 83501-1106 \u00b7 or via fax at <strong>1 (888) 496-1542</strong> \u00b7 or via fax at 1 (877) 663-7526 \u00b7 Email: MemberAppeals@regence.com \u00b7 Email: MemberAppeals@regence.com \u00b7\"}, {\"title\": \"2015 Idaho Member Reimbursement Form\", \"url\": \"https://www.cityoflewiston.org/DocumentCenter/View/353/Regence-Claim-Form-PDF\", \"snippet\": \"Regence BlueShield of Idaho \u00b7 PO Box 1106 \u00b7 Lewiston, Idaho 83501 \u00b7 FORM PD021 - Page 2 of 3 (Rev. 11/15) (mm/dd/yyyy) (mm/dd/yyyy) (mm/dd/yyyy) INSTRUCTIONS FOR FILING A CLAIM \u00b7 IMPORTANT: Use this form for all medical, pharmacy, dental, and vision services covered by Regence.\"}, {\"title\": \"PO Box 1106 Lewiston, ID 83501 MEDICAL CLAIM FORM\", \"url\": \"https://www.hca.wa.gov/assets/pebb/ump-regence-medical-claim-form.pdf\", \"snippet\": \"<strong>Use this form to submit reimbursement requests for services received from a non-network provider</strong>. Please complete a separate \u00b7 form for each family member. The time limit for filing claims is one year from the date of service/purchase. Note: This form may be\"}, {\"title\": \"Regence BlueShield Mail form to: PO Box 1106\", \"url\": \"https://www.washingtonfloral.com/images/PDF_Files/Portal/Regence/2021_regence_application_change.pdf\", \"snippet\": \"<strong>Washington Floral Service</strong>. A wholesale distributor of fresh flowers, plants, floral supplies.\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01DnD3rGMV8bzpEaRshqu6tT",
+     "content": "{\"query\": \"Regence BlueShield certificate of coverage \\\"first level appeal\\\" \\\"Regence BlueShield\\\" address Lewiston\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "Er0FCpABCBIYAipANH4iahIl9jPrPQmajEcTjoeyH6mbnP4HCBinou6y6MDogZ/Lk98aXnj/SlvvwWyzH9uwgWkNJunGoXf/t7OytzIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAcDrwdUGEgyymXOX2FwO09T3qDwaDK9iaRLEun3B3k0QnCIwwdhStJYR/rG4INg45WyHbHd2RJ7yKFR+6ct3W+siy+iP4uIE371XMtZA3UHrJJicKtkDU8N+2zqfBr8oTUloJpV5WrdeP8prTLHwaLiyL1TdOFGQBClLCQ0OxtmyOHBMZ3p/PBxQApK+xrlUuiHd5hDVLTB6j3s5yBiCUuziX530LeIFEvhPhO1BmVEIdDxvprlLF7Bcn31AcOE2NgpxKvevtx+qONqAu6hAtpIDv2JRp5NvBFPybgcjXQkCyWJH7KEfxSb+Ypk85A6Ci4H+rPuD5qvdLApzsq3Um0kfKtKkUeLQ4nzfyXP/oU6t0gi9uDFXD7u3BidnCB2LcO5GxYxKYPwzjAzpuDCBG4/X0lToK2rvwCdnrkkXpLoqe/M7XPaUHK/+nKR+m/kFBX/qcRGeWbrAVaStr1mIJ6IE2YoKHlxG6XzaCxr7WjuubHNv5VAdunlP81GlnaitmZawptik8yewp2hrHc2avCU/IkvsKOpVpV3/FxIkwG+YJfTyQhYh3T7Jz4gh4Qqg34aGU2+atlUzSmzKiPyhNTYHXCrGCW6QxXpbCx91U3eGoqLJdWUm/c1whdrk72p9wPWwpYFwuV4g/afwnbF9veCij/j0Oao45iHHHSKi3qbAndISjofaqOHUloOq+GNiKeSXYGRWtx0bK1RDG/IwDcsipHtQ8bH/GH3OXNx3yVoYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01JNxHcXLGWj1rxMdc8Ds9wL",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://beonbrand.getbynder.com/m/3bac70e7c06077f3/original/Appeal-Form-OR.pdf"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01JNxHcXLGWj1rxMdc8Ds9wL",
+     "content": "{\"url\": \"https://beonbrand.getbynder.com/m/3bac70e7c06077f3/original/Appeal-Form-OR.pdf\", \"final_url\": \"https://beonbrand.getbynder.com/m/3bac70e7c06077f3/original/Appeal-Form-OR.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"APPEAL FORM Please return completed form to: Commercial and Individual Self-Funded Groups (ASO) Medicare Advantage appeal forms are available at www.regence.com/medicare/ grievances-appeals. Regence BlueCross BlueShield of Oregon Attn: ASO Member Appeals Attn: Regence Level 1 Member Appeals Regence BlueCross BlueShield of Oregon PO Box 1106 PO Box 1106 Lewiston, ID 83501-1106 Lewiston, ID 83501-1106 or via fax at 1 (888) 496-1542 or via fax at 1 (877) 663-7526 Email: MemberAppeals@regence.com Email: MemberAppeals@regence.com Contact the phone number on the back of your member identification card for assistance with filling out this form. Patient Name Date of Birth Phone Number Address City, State, ZIP Code E-Mail Address (optional) Identification Number (numerics only, without alpha prefix) Group Number Today\u2019s Date Doctor/Hospital Name Date(s) of Service or Incident Claim Numbers (if available) Note: If you are initiating an appeal on behalf of another person who is not a minor, Regence BlueCross BlueShield of Oregon (Regence) must also receive a completed HIPAA authorization form, signed by that person, which can be found on the regence.com website. Please explain the problem. Include background, time frames, and the names of anyone else you have spoken with to try and resolve the problem, any supporting documentation, and your expectations or suggestions for resolution. List any supporting documentation attached to this form: We need your permission to authorize Regence to request any medical records needed to answer your appeal. This includes information about alcohol or drug abuse, mental health, AIDS or HIV virus, if applicable. This authorization begins today and remains in effect so long as your appeal is being reviewed. You will receive an acknowledgment letter for this appeal with information about the appeals process. PRINTED NAME RELATIONSHIP TO PATIENT SIGNATURE OF PATIENT OR AUTHORIZED REPRESENTATIVE * (Patient\u2019s parent/guardian may sign if patient is a minor child) TODAY\u2019S DATE THIS SECTION TO BE COMPLETED BY OFFICE STAFF Did the member fax or mail in supporting documentation? Check box if Yes \uf0a3 Did the member provide this authorization verbally? Check box if Yes \uf0a3 \uf07d *F4581.XOR0EN03200101* *F4581.XOR0EN11230101*FORM 4581OR Page 1 of 1 (Eff. 11/2023) v2 Regence BlueCross BlueShield of Oregon is an Independent Licensee of the Blue Cross and Blue Shield Asso ciation\", \"text_truncated\": false}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "ErsFCpABCBIYAipArOyU1gmQ5YWRhEG1tQkMtDesx1nNmll/ijO8ZRRq+IyVUdU6KUcmEgjdalhI477AINFZMCcTtoSnlNM15BX7CjIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAcPrwdUGEgx0rdxyoub6T1cBsF8aDFNK1vbdhP29BFv4rCIwIJ6WinbswH5vYcUg3k0mqJriLHy6MMoiPPgRNxB704j9Lr1zqIbXFAHmeZS7VeyDKtcDCIBAGmQxDBH8psxLQe918UcZEl4EKC9vBcXnRG12bfivtchwWGzSwj2IiEtvKxENzqlQ92yESziggJPVLEumwqtv2KrBDGuRubqGhlx9jo4ktcXdW6cceJPv4zUocC0BNkhYfKLFWt+Qte8Q2yi0ze1vAKDlAnTB7NUJ4u+jmYlt6+nJnFv0w810wYQ2jEmf86X59vr1R3ldqYw0NaQwn6WMS8mrNFE8cc5rqgF45/l45YKEaBahi+aj0i6Zyf6ZwyTWcGh5jm4Yat9Kg42ZjqY35fMJFhzL8QvWucwRS1NlUGOrNAyDAR4es2KZ0R151gbP4dZyUo1fRIDevKySifSW4PtT2avXgNdi/47TUZcFKhgVqpzzMgfkQHiFJ8gY0znr2e59VWLjUg53rd2m3JlxTgJskwvul0wKs4I8313Yso+37LYyO7VsQQL7w+8vaBkvi6EXm0D6YMHxCQBARM1WD9iRqW2uUw+hNkfkxA5UQ5jRKIYc89q472gHnAHV16KwykOftPs/HCexmk6rNbLPu3PJ4Z81c3atwmtxmH2loXYXQ8dbBgwPLum4EjqrSL9LXDSIcZPwz5GLbjHw0Dwx06xIJSA9q4Tjs5ggdzaqSenLChVJGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01KNfunKELJw1jNuPeLnQR2E",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"Regence BlueShield\" Washington appeal form member PO Box Lewiston -Oregon -Idaho"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01EYGRKz6C1UUjN9ginNDPvM",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Regence BlueShield Washington \"Level 1 Member Appeals\" form"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01KNfunKELJw1jNuPeLnQR2E",
+     "content": "{\"query\": \"\\\"Regence BlueShield\\\" Washington appeal form member PO Box Lewiston -Oregon -Idaho\", \"results\": [{\"title\": \"PO Box 1106 Lewiston, ID 83501 MEDICAL CLAIM FORM\", \"url\": \"https://www.hca.wa.gov/assets/pebb/ump-regence-medical-claim-form.pdf\", \"snippet\": \"<strong>used for claims for PEBB and SEBB Uniform Medical Plans</strong>. Network providers will submit claims to Regence directly.\"}, {\"title\": \"UMP MEMBER APPEAL FORM Please return completed form to:\", \"url\": \"https://www.hca.wa.gov/assets/pebb/Reg-appeals-grievance-form.pdf\", \"snippet\": \"We need your permission to authorize Regence BlueShield to request any medical records needed to answer your appeal.\"}, {\"title\": \"Washington - Blue Cross and Blue Shield's Federal Employee Program\", \"url\": \"https://www.fepblue.org/contact-us/washington\", \"snippet\": \"Regence Blue Cross Blue Shield <strong>P.O. Box 1388</strong> Lewiston, ID 83501-1388\"}, {\"title\": \"APPEAL FORM Please return completed form to: Commercial and Individual\", \"url\": \"https://beonbrand.getbynder.com/m/664d69bc46ce2278/original/Appeal-form-WW.pdf\", \"snippet\": \"We need your permission to authorize Regence to request any medical records needed to answer your appeal.\"}, {\"title\": \"2021 BOOKLET FOR: WASHINGTON FLORAL SERVICE Regence ExpressionsSM\", \"url\": \"https://www.washingtonfloral.com/images/PDF_Files/Portal/Regence/2021_dental_booklet.pdf\", \"snippet\": \"sending it to Us at: Appeals Coordinator, Regence BlueShield, <strong>P.O. Box 1408, Lewiston, ID 83501</strong> or\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01EYGRKz6C1UUjN9ginNDPvM",
+     "content": "{\"query\": \"Regence BlueShield Washington \\\"Level 1 Member Appeals\\\" form\", \"results\": [{\"title\": \"Washington | Parity Registry\", \"url\": \"https://www.parityregistry.org/resources/washington/\", \"snippet\": \"Call Member Services: 800-365-3155 Appeal form found here Mail forms to: Regence BlueCross BlueShield of Oregon Attn: Regence Level 1 Member Appeals PO Box 4208 Portland, OR 97208-4208\"}, {\"title\": \"January 2025 - 1 - Appeals for Members regence.com\", \"url\": \"https://beonbrand.getbynder.com/m/5e437e25890a609d/original/Administrative-Manual-Appeals-for-members.pdf\", \"snippet\": \"applicable non-optional appeal levels must be exhausted before the member may\"}], \"result_count\": 2, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "ErQCCpABCBIYAipAWEJZsS1rBtYmxPjdpaCzOpPGmrq0eFXd1uVF1fbcXtK8U2Q//tfeZ1FS8LoySE24Gs0mlI2di1WQ1B+4Q6YFTTIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAcfrwdUGEgyTNLbbXydSCuMumqkaDCiiYDNZvjtQ5Jps7CIw6+ZX4ysAirkaTzvVQXTlyl3WanAigSbedLZK8rqU+sEitehTyMgsJfCCBgoJpvf1KlFkULLiLU2jroQ7UewUOAo4soj9pkMgtcMwRbRaTFk1riZw8GTFDFJ6q4ZtF8T2vwEpYy+WYx/0hEWlOV+PdWO1n7fV6aa49JRqZl+u6/x/JsQYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_011HLoDaqbvzaahFAzYPycTX",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://beonbrand.getbynder.com/m/664d69bc46ce2278/original/Appeal-form-WW.pdf"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01S7Vd4vL2pap4UWEJErzKPV",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://beonbrand.getbynder.com/m/5e437e25890a609d/original/Administrative-Manual-Appeals-for-members.pdf"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_011HLoDaqbvzaahFAzYPycTX",
+     "content": "{\"url\": \"https://beonbrand.getbynder.com/m/664d69bc46ce2278/original/Appeal-form-WW.pdf\", \"final_url\": \"https://beonbrand.getbynder.com/m/664d69bc46ce2278/original/Appeal-form-WW.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"APPEAL FORM Please return completed form to: Commercial and Individual Self-Funded Groups (ASO) Medicare Advantage appeal forms are available at www.regence.com/medicare/ grievances-appeals. Regence BlueShield Attn: ASO Member Appeals Attn: Regence Level 1 Member Appeals Regence BlueShield PO Box 1106 PO Box 1106 Lewiston, ID 83501-1106 Lewiston, ID 83501-1106 or via fax at 1 (888) 496-1542 or via fax at 1 (877) 663-7526 Email: MemberAppeals@regence.com Email: MemberAppeals@regence.com Contact the phone number on the back of your member identification card for assistance with filling out this form. Patient Name Date of Birth Phone Number Address City, State, ZIP Code E-Mail Address (optional) Identification Number (numerics only, without alpha prefix) Group Number Today\u2019s Date Doctor/Hospital Name Date(s) of Service or Incident Claim Numbers (if available) Note: If you are initiating an appeal on behalf of another person who is not a minor, Regence BlueShield (Regence) must also receive a completed HIPAA authorization form, signed by that person, which can be found on the regence.com website. Please explain the problem. Include background, time frames, and the names of anyone else you have spoken with to try and resolve the problem, any supporting documentation, and your expectations or suggestions for resolution. List any supporting documentation attached to this form: We need your permission to authorize Regence to request any medical records needed to answer your appeal. This includes information about alcohol or drug abuse, mental health, AIDS or HIV virus, if applicable. This authorization begins today and remains in effect so long as your appeal is being reviewed. You will receive an acknowledgment letter for this appeal with information about the appeals process. PRINTED NAME RELATIONSHIP TO PATIENT SIGNATURE OF PATIENT OR AUTHORIZED REPRESENTATIVE * (Patient\u2019s parent/guardian may sign if patient is a minor child) TODAY\u2019S DATE THIS SECTION TO BE COMPLETED BY OFFICE STAFF Did the member fax or mail in supporting documentation? Check box if Yes \uf0a3 Did the member provide this authorization verbally? Check box if Yes \uf0a3 \uf07d *F4581.XWA0EN03200101* *F4581.XWA0EN11230101*FORM 4581WA Page 1 of 1 (Eff. 11/2023) v2 Regence BlueShield serves select counties in the st ate of Washington and is an Independent Li censee of the Blue Cross and Blue Shield Asso ciation\", \"text_truncated\": false}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01S7Vd4vL2pap4UWEJErzKPV",
+     "content": "{\"url\": \"https://beonbrand.getbynder.com/m/5e437e25890a609d/original/Administrative-Manual-Appeals-for-members.pdf\", \"final_url\": \"https://beonbrand.getbynder.com/m/5e437e25890a609d/original/Administrative-Manual-Appeals-for-members.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"January 2025 - 1 - Appeals for Members regence.com Regence Administrative Manual Appeals for Members This section contains information about the member appeal process. Medical, hospital and dental provider appeals information is available in the Appeals for providers section of this manual. Member Appeal Policy and Procedures Our Member Appeal Policy applies to all insured group and individual contracts issued by us except for the BlueCross BlueShield Federal Employee Program \u00ae (BCBS FEP\u00ae), Medicare beneficiaries, Medicaid and certain other government programs. An appeal must be initially submitted to us within the timeframes noted below. Failure to initiate appeal within this time period (absent the Plan\u2019s finding, in its sole discretion, of acceptable extenuating circumstances) will preclude all further rights to appeal and may jeopardize the member\u2019s ability to contest the denial or other action in any forum. All applicable non-optional appeal levels must be exhausted before the member may contest the action in any forum, including through filing a lawsuit. Joint Administration Appeals requested on behalf of joint administration members need to be submitted to AmeriBen; MagnaCare or Zenith American Solutions within 180 days of receipt of the written notification of an adverse benefit determination. AmeriBen; MagnaCare or Zenith will send a copy of the written determination to the member and provider. AmeriBen Appeals requested on behalf of members for the following joint administration groups are handled by AmeriBen: \u2022 Alpha Media (group #70000010) \u2022 Alsco Inc. (group #70000002) \u2022 Avalon Health Care, Inc. (group #70000007) \u2022 CHG Healthcare Services (group #70000004) \u2022 CTI Foods (group #70000011) \u2022 J-U-B Engineers, Inc. (group #70000009) \u2022 The Terteling Company Inc. (group #70000015) Appeals requested on behalf of members for the groups listed above should be submitted to: AmeriBen Attention: Appeals Coordinator P.O. Box 7186 Boise, ID 83707 January 2025 - 2 - Appeals for members regence.com Regence Administrative Manual MagnaCare Appeals requested on behalf of IAFF Health and Wellness Trust (IAFF HWT) (group #70000014) members are handled by MagnaCare: MagnaCare Attention: Appeals P.O. Box 8085 Garden City, NY 11530 Zenith American Solution Appeals requested on behalf of members of the following joint administration groups are handled by Zenith American Solutions: \u2022 U.A. Local Union 290 Plumber, Steamfitter & Shipfitter Health Trust (U.A. Local Union 290) (group #70000003) \u2022 UFCW Local 555-Employers Health Trust (group #70000005) Appeals requested on behalf of members for the groups listed above should be submitted to: Level 1 member appeals for U.A. Local 290 and all appeals for UFCW Local 555-Employers Health Trust: Zenith American Solutions Benefits and Claims department Attention: Appeals Coordinator 12205 SW Tualatin Road, Suite 200 Tualatin, OR 97062 Level 2 member appeals for U.A. Local 290: The Board of Trustees U.A. Union Local No. 290 Plumber, Steamfitter and Shipfitter Industry Attention: Appeals Coordinator 12205 SW Tualatin Road, Suite 200 Tualatin, OR 97062 Provider appeals for joint administration members should be submitted to Regence following standard Regence guidelines. Appeal Levels Self-funded plans establish their own appeal processes and some aspects of the appeal process required by the Affordable Care Act or state regulations may not apply to them. Please contact Customer Service for details. January 2025 - 3 - Appeals for members regence.com Regence Administrative Manual Level One Internal Appeal The member or member\u2019s representative has the right to request an appeal within 180 days of receipt of the written notification of an adverse benefit determination. If a member chooses to file an appeal, they may appeal in writing or verbally by contacting Customer Service for assistance. Customer Service can provide the member with a form for a written appeal. An appeals specialist will acknowledge receipt of the appeal and gather the necessary information to thoroughly investigate the issue. Level one appeals are reviewed by an employee or employees who were not involved in the initial decision. In appeals that involve issues requiring medical judgment, the decision is made by employees who are healthcare professionals. Upon completion of the review, the appeals specialist will send a written response to the member. We attempt to respond to all appeals within 14 calendar days (self -funded plans may have different timeframes; investigational post-service issues are responded to within 20 working days; and other post -service issues are responded to within 30 calendar days. If the decision is not in the member\u2019s favor, the member or member representative will be informed of their right to further appeal. Level Two Internal Appeal When an additional internal level of appeal is available for the member\u2019s Plan, the member or member\u2019s representative may request a level two appeal within 180 days of receipt of the first level appeal decision. Level two appeals are reviewed by an employee or employees who were not involved in, or subordinate to anyone involved in, the initial or the first -level decision. We attempt to respond to preauthorization appeals within 15 calendar days and post - service appeals within 30 calendar days. If the decision is not in the member\u2019s favor, our notification will include information about the right to request an external review by an Independent Review Organization (IRO). Voluntary External Appeal - IRO The member or member\u2019s representative may submit a written request for external review to the Idaho Department of Insurance (DOI) within 4 months of receipt of the previous determination (self-funded plans may have different timeframes and processes). If the request is eligible, the DOI will assign it to an Independent Review Organization. We will deliver the appeal, including all documentation, to the IRO within 14 days of assignment. An IRO is an independent organization employing physicians and other medically - qualified individuals or experts with appropriate clinical expertise, which acts as the decision maker for external appeals (regular or expedited), through assignment to the Plan via regulatory requirements. The IRO practitioner rendering the decision will not have been involved in the original Appeal determination. The IRO does not have any direct financial interest in the Plan or outcome of independent reviews. January 2025 - 4 - Appeals for members regence.com Regence Administrative Manual The IRO will provide to the member and/or appeal representative, us , and the DOI, in writing: \u2022 the decision by the IRO \u2022 a full description of the IRO\u2019s rationale The IRO\u2019s decision is binding. Expedited (Urgent) Appeals An expedited appeal may be requested for urgent care requests if: \u2022 the member or the member\u2019s physician reasonably believes that the application of time periods for making regular appeal determinations for a pre-service or concurrent issue could seriously jeopardize life or health of the member or others, due to the member\u2019s psychological state, or the ability to regain maximum function, or \u2022 a physician with knowledge of the member\u2019s medical condition reasonably believes that the application of time periods for making regular appeal determinations for a pre-service or concurrent care issue could subject the member to severe pain that cannot be adequately managed without the disputed care or treatment, or concerning admissions, continued stay or other health care services for a member who has received emergency services but has not been discharged from a facility. Internal Expedited Appeal The member, their representative or the physician may request an expedited appeal either verbally or in writing. The member, provider or member representative may provide additional written documentation supporting the member\u2019s position. Expedited appeals are responded to within 72 hours from the receipt of the request. If the decision is not in the member\u2019s favor, the member or member\u2019s representative will be informed of their right to further appeal. Voluntary External Expedited Appeal \u2013 IRO If the member is dissatisfied with the outcome of the previous appeal, the member or member representative may request an external review by an Independent Review Organization by submitting a written request to the Idaho Department of Insurance (DOI). If the request is eligible, the DOI will assign it to an IRO. We will deliver t he appeal, including all documentation, to the IRO within 14 days of assignment (self- funded plans may have different timeframes and processes). An IRO is an independent organization employing physicians and other medically - qualified individuals or experts with appropriate clinical expertise, which acts as the decision maker for external appeals (regular or expedited), through assignment to the Plan via regulatory requirements. The IRO practitioner rendering the decision will not have been involved in the original Appeal determination. The IRO does not have any direct financial interest in the Plan or outcome of independent reviews . The IRO will respond within 72 hours of their receipt of the request and will provide to the member and/or appeal representative, us , and the DOI, in writing: January 2025 - 5 - Appeals for members regence.com Regence Administrative Manual \u2022 the decision by the IRO \u2022 a full description of the IRO\u2019s rationale The IRO\u2019s decision is binding. A participating physician, can minimize complaints and appeals by: \u2022 Acknowledging and upholding members\u2019 right to complaints, grievances and appeals \u2022 Explaining these rights to members who express a concern or dissatisfaction \u2022 Assisting us in timely resolution by submitting requested records or input within seven days of the request Definitions \u201cAppeal\u201d includes any grievance, complaint, reconsideration or similar terms as used in some jurisdictions, and is a written or oral request from a member, their personal representative, treating provider or appeal representative, to change a previous deci sion (Adverse Benefit Determination) made by us concerning: \u2022 access to health care benefits, including an adverse determination made pursuant to utilization review; \u2022 claims payment, handling or reimbursement for health care services; \u2022 matters pertaining to the contractual relationship between a member and the Plan; or \u2022 other matters as specifically required by law or regulation. \u201cAppeal representative\u201d is a representative of the member for the purpose of the appeal. The appeal representative may be the member\u2019s treating provider, personal representative, or another party, such as a family member, for whom the member or their personal representative has signed a valid authorization. If we do not receive an authorization, we will only disclose the determination and any personal information to the member, their personal representative or treating provider. \u201cPersonal representative\u201d means a person who is legally authorized to act on behalf of an individual for health care decisions. For example: parents of a minor; a person holding a power of attorney; conservator; or person appointed by a court; so long as the power granted to the person includes managing the individual\u2019s health care affairs. \u201cAuthorization\u201d is an individual\u2019s written permission for use and disclosure of their personal information for a specific purpose and timeframe in accordance with our privacy policy. Note: Authorization to Disclose Protected Health Information forms are available on our member website, regence.com : Resources/Forms-documents. \u201cAdverse benefits determination\u201d means any of the following: a denial, reduction, or termination of, or a failure to provide or make payment (in whole or in part) for, a benefit, including any such denial, reduction, termination, or failure to provide or make payment that is based on a determination of any of the f ollowing: \u2022 eli\", \"text_truncated\": true}",
+     "cache_control": {
+      "type": "ephemeral"
+     }
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "text": "Now I have everything needed to compose a complete, well-sourced answer.",
+     "type": "text"
+    },
+    {
+     "id": "toolu_01SfcS6ypGhEnSjm8x97UNoL",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Regence WA external review Washington Office Insurance Commissioner IRO (not Idaho DOI)"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01SfcS6ypGhEnSjm8x97UNoL",
+     "content": "{\"query\": \"Regence WA external review Washington Office Insurance Commissioner IRO (not Idaho DOI)\", \"results\": [{\"title\": \"Independent review organization process | Office of the Insurance Commissioner\", \"url\": \"https://www.insurance.wa.gov/independent-review-process\", \"snippet\": \"Learn how to register as an independent review organization (IRO) and report your decisions. New rules Under RCW 48.43.537, <strong>all entities acting as IROs in Washington state need to register and certify through our online portal</strong>. How to register First, you need a current business license from ...\"}, {\"title\": \"Rev.10162017\", \"url\": \"https://www.insurance.wa.gov/sites/default/files/2024-09/iro-application.pdf\", \"snippet\": \"WASHINGTON STATE OFFICE OF THE INSURANCE COMMISSIONER INDEPENDENT REVIEW \u00b7 ORGANIZATION (IRO) APPLICATION FOR CERTIFICATION\"}, {\"title\": \"Independent Review Organization certification | Washington State Office of the Insurance Commissioner\", \"url\": \"https://fortress.wa.gov/oic/onlineservices/IRODecision/Pub/IRORegistrationInformation.aspx\", \"snippet\": \"<strong>Use our online tool to submit your Independent Review Organization certification request with the Washington state Office of the Insurance Commissioner (OIC).</strong>\"}, {\"title\": \"Independent review decisions | Washington State Office of the Insurance Commissioner\", \"url\": \"https://fortress.wa.gov/oic/consumertoolkit/search.aspx?searchtype=indrev\", \"snippet\": \"REGENCE BLUESHIELD \u00b7 STATE FARM MUTUAL AUTOMOBILE INSURANCE COMPANY \u00b7 UNITEDHEALTHCARE INSURANCE COMPANY \u00b7 UNITEDHEALTHCARE OF OREGON INC \u00b7 UNITEDHEALTHCARE OF WASHINGTON INC \u00b7 Independent Review Organization \u00b7 All \u00b7 ADVANCED MEDICAL REVIEWS, LLC. ALLMED HEALTHCARE MANAGEMENT INC (IRO) Allmed Healthcare Management LLC \u00b7\"}, {\"title\": \"Regence Blue Cross Blue Shield | Office of the Insurance Commissioner\", \"url\": \"https://www.insurance.wa.gov/regence-blue-cross-blue-shield\", \"snippet\": \"An official website of the Washington state government \u00b7 The .gov means it\u2019s official. A .gov website belongs to an official government organization in the United States\"}], \"result_count\": 5, \"error\": null}",
+     "cache_control": {
+      "type": "ephemeral"
+     }
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EosGCpABCBIYAipAQwHro8y6SvogL9XGEqw3VTRbh6JSDLNjMhwF5t7d/cFMw5wyhPqUDOuoJd5r+YPlM5N1QpH41NFty9HSD46XgDIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAc/rwdUGEgwOKElZqTtATqNDwS8aDNYp+tbJFlDJeAumtiIwiKTCKvJrYlFE/02Gpyt/sE24DnN9CJmGdUvxYK4/Ozd32LhEmDPPNUHTo+SM1Q8MKqcEeIzbYtcr0tMUUFeyVyyIpqnnrHecR/VgWEho5neLH2zj2RHkv1p6WSeM+I70HzB5YU5IoLMhmbwo8veiUh5+VV8x9C65Sc55X8vaioBnerNh0WV/xxqoGYm24IKdj0Cfh0fiEsTgAWp2BFIHNkKay+moshNsvqZZr4SM0KwzdEcDqwAc7R5OHUOS8GFuff+wbNewdybiep9JGIcEW280H1pJSmalDZ5f+siCgmLZCyXWOPxpa+ZFF0rElUwcZo82ZVrB3F/cS+WUR2sn0pyt8DPKAmBVazQ5xezD21x9UoTPZINzTiuxZD9AkWFviO/HO9JtdwxEKUWQnpmwlMiLln9hNn/xV2YCNHgrkMLHs+yjYOHdDoocsrJc4jiDhaoVWzzfT+OdgUqfFV9eUi7Z8BLbweV9uAWVhwJl7PtTn4WwmvWJ65oFbs2ZAVClHN3rO61gTD+h7428Cbxcz79jwaiQoXCq8uknHIJXckME3m7rEDAOlEnf5UfBW2JU48nxaqpVqFhl7MYaLaJarKC5qAzW6bC51jAM0fkjTIhNcOyilo7C4ekQpPflO5d8IwpwSL4zKRg8FYA3qFozpKNokie1QCkq7zCk7r4TZPobjPkWVyQSoeCtSddmqcp65taeGdmKJK9BrAWjGQ2WQC8j2OK0PjbxCkfHq2Bb3GHOB5g9MC/H/RCzP0/HVRQyQ6iPp5FPjzBFsmTXvTalAfvz1RjVmRP46ZwYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "```json\n{\n  \"policy_found\": true,\n  \"policy_title\": \"Femoroacetabular Impingement Surgery (Surgery, Policy No. 160) \u2014 Regence Medical Policy Manual\",\n  \"policy_number\": \"SUR160 (Surgery, Policy No. 160)\",\n  \"policy_url\": \"https://blue.regence.com/trgmedpol/surgery/sur160.pdf\",\n  \"effective_date\": \"Effective: March 1, 2026 (Last Review: January 2026; Next Review: November 2026). Note: the document itself states a revised version becomes effective October 1, 2026 \u2014 confirm which version applied to Jordan's August 23, 2026 denial.\",\n  \"criteria_quotes\": [\n    \"I. Open or arthroscopic surgical treatment of femoroacetabular impingement (FAI) may be medically necessary in skeletally mature patients when all of the following criteria (A-E) are met:\",\n    \"A. Moderate-to-severe hip pain that is worsened by flexion activities (e.g., squatting or prolonged sitting) that significantly limits activities\",\n    \"B. Unresponsive to conservative therapy for at least 3 months or clinical documentation that conservative therapy is contraindicated (e.g., history of falls due to mechanical instability of hip joint)\",\n    \"C. Positive impingement sign on clinical examination (i.e., pain elicited with 90 degrees of flexion and internal rotation and adduction of the femur)\",\n    \"D. All of the following criteria must be met: 1. Imaging (conventional x-rays, MRI, MRI arthrogram) documents morphology indicative of cam-type or pincer-type FAI (See List of Information Needed for Review); and 2. No evidence of advanced osteoarthritis, defined as Tonnis grade II or III, or joint space of less than 2 mm, except when there is mechanical instability.\",\n    \"E. Requested procedures must be consistent with the anatomical abnormalities documented.\",\n    \"II. Open or arthroscopic treatment of FAI is considered not medically necessary when Criterion I. is not met. Note that capsular plication, capsular repair, acetabular or femoral chondroplasty, acetabular or femoral microfracture, labral reconstruction, iliotibial band windowing, trochanteric bursectomy, abductor muscle repair, and/or iliopsoas tenotomy, when performed at the time of any FAI surgery, would be considered a component of and incidental to the FAI procedure.\",\n    \"LIST OF INFORMATION NEEDED FOR REVIEW: History and Physical; Documented symptoms and conservative treatments attempted specific to policy criteria 1.B.; Physical exam findings; Imaging that documents morphology indicative of cam-type or pincer-type FAI such as one or more of: pistol-grip deformity, femoral head-neck offset with an alpha angle greater than 50 degrees, positive wall sign, acetabular retroversion (overcoverage with crossover sign), coxa profunda or protrusion, damage of the acetabular rim.\"\n  ],\n  \"appeal_deadline\": \"180 days from receipt of the written adverse benefit determination \u2014 consistent with both the denial letter (deadline stated as 2027-02-19, i.e., 180 days from the 2026-08-23 notice date) and Regence's published Administrative Manual, which states Level One Internal Appeal must be requested 'within 180 days of receipt of the written notification of an adverse benefit determination.'\",\n  \"submission_route\": \"Per Regence's Washington ('WW') member appeal form (Form 4581WA, Eff. 11/2023) for Commercial and Individual plans: mail to 'Regence BlueShield, Attn: Regence Level 1 Member Appeals, PO Box 1106, Lewiston, ID 83501-1106'; fax to 1 (877) 663-7526; or email MemberAppeals@regence.com. Members may also appeal verbally by calling the Customer Service number on the back of their member ID card, which can provide/help complete the written appeal form. If the Level One appeal is denied, a Level Two internal appeal (if available under the plan) may be requested within 180 days of that decision, followed by the right to an external/independent review by an Independent Review Organization (IRO). NOTE: Regence's general Administrative Manual describes routing external reviews through the Idaho Department of Insurance, but for a Washington-issued (Regence BlueShield) commercial/ACA plan, external review is normally administered under Washington's own IRO process via the WA Office of the Insurance Commissioner (RCW 48.43.535/.537) \u2014 the patient should confirm the correct external-review pathway from the specific denial/appeal-decision letter or by calling Regence Customer Service, since this was not independently confirmed in a document specific to this plan.\",\n  \"how_to_obtain_criteria\": \"The full, current text of the applicable Regence medical policy (including references and the 'Summary of Evidence' section supporting the criteria) is publicly posted at https://blue.regence.com/trgmedpol/surgery/sur160.pdf and via the payer's medical policy table of contents at https://www.regence.com/provider/library/policies-guidelines/medical-policy. Because the policy shows a scheduled revision effective October 1, 2026, the patient/provider should also call Regence Customer Service (number on the ID card) or ask the treating surgeon's office to request the specific version of Policy SUR160 that was on file and applied on the date of the prior-authorization review, to be certain which exact criteria set governed this denial.\",\n  \"confidence\": \"medium-high\",\n  \"notes\": \"This is a Regence-specific (not generic BCBS Association) medical policy document, retrieved directly from Regence's own policy hosting domain (blue.regence.com / trgmedpol), which is the correct governing document for Regence BlueShield's medical necessity review of CPT 29914 (arthroscopic FAI/femoroplasty). The letter does not specify which underlying diagnosis (e.g., FAI vs. labral tear alone) drove the request, but CPT 29914 (femoroplasty for cam lesion) is exactly the code addressed by SUR160, so this is very likely the operative policy. Two caveats for the patient: (1) the policy document itself notes a pending revision effective October 1, 2026 \u2014 if the PA determination is dated close to that transition, ask Regence in writing which policy version (and criteria) applied; (2) I was not able to independently verify a Washington-specific external-review routing address different from the Idaho DOI language in Regence's general Administrative Manual \u2014 the patient should get the precise external-review instructions from their actual Level 1/Level 2 appeal denial letters or by calling the number on their ID card, and can also contact the WA Office of the Insurance Commissioner (1-800-562-6900) for guidance on Washington's independent review process for state-regulated Regence BlueShield plans.\"\n}\n```",
+     "type": "text"
+    }
+   ]
+  }
+ ],
+ "stop_reason": "end_turn",
+ "usage": {
+  "input_tokens": 28,
+  "output_tokens": 5540,
+  "cache_creation_input_tokens": 29081,
+  "cache_read_input_tokens": 194584
+ },
+ "model": "claude-sonnet-5",
+ "tool_calls": 22,
+ "elapsed_s": 86.8,
+ "run_id": "r-9783dcc41685",
+ "case_id": "poc-41fe448bea"
+}

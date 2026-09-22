@@ -1,0 +1,460 @@
+{
+ "answer": {
+  "policy_found": false,
+  "policy_title": null,
+  "policy_number": null,
+  "policy_url": null,
+  "effective_date": null,
+  "criteria_quotes": [
+   "the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery."
+  ],
+  "appeal_deadline": "2027-02-09. The notice states that the appeal must be received within 180 days of 2026-08-13.",
+  "submission_route": "Submit the appeal in writing to: MVP Health Care Appeals Department, 625 State Street, Schenectady, NY 12305. MVP\u2019s member appeal page also states that an appeal may be filed by telephone through the Member Services/Customer Care number on the back of the member ID card or in person at an MVP location. Supporting documents may be faxed; for non-Medicare members, MVP lists 518-386-7600. The page states that an appeal itself cannot be filed by fax.",
+  "how_to_obtain_criteria": "Request the exact medical-necessity policy and clinical-review criteria used for CPT 29881 by calling the Member Services/Customer Care number on the back of the MVP ID card. Ask MVP to provide the policy title, policy number, version or effective date, the specific criteria applied, and the clinical-review rationale for reference POC-5EDC35C98D-81118. The treating provider can also request the criteria and the records relied upon in the prior-authorization review.",
+  "confidence": "moderate",
+  "notes": "MVP publicly posts a large compilation titled \u201c2026 MVP Health Care Medical Policies,\u201d with search results identifying versions updated February 1, April 1, and June 1, 2026. However, I could not verify from the publicly retrievable material a distinct policy document containing the governing medical-necessity criteria for CPT 29881, its policy number, or the exact conservative-treatment requirements. MVP\u2019s public appeal page is https://www.mvphealthcare.com/members/resources/appeals."
+ },
+ "raw_text": "{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": null,\n  \"effective_date\": null,\n  \"criteria_quotes\": [\n    \"the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\"\n  ],\n  \"appeal_deadline\": \"2027-02-09. The notice states that the appeal must be received within 180 days of 2026-08-13.\",\n  \"submission_route\": \"Submit the appeal in writing to: MVP Health Care Appeals Department, 625 State Street, Schenectady, NY 12305. MVP\u2019s member appeal page also states that an appeal may be filed by telephone through the Member Services/Customer Care number on the back of the member ID card or in person at an MVP location. Supporting documents may be faxed; for non-Medicare members, MVP lists 518-386-7600. The page states that an appeal itself cannot be filed by fax.\",\n  \"how_to_obtain_criteria\": \"Request the exact medical-necessity policy and clinical-review criteria used for CPT 29881 by calling the Member Services/Customer Care number on the back of the MVP ID card. Ask MVP to provide the policy title, policy number, version or effective date, the specific criteria applied, and the clinical-review rationale for reference POC-5EDC35C98D-81118. The treating provider can also request the criteria and the records relied upon in the prior-authorization review.\",\n  \"confidence\": \"moderate\",\n  \"notes\": \"MVP publicly posts a large compilation titled \u201c2026 MVP Health Care Medical Policies,\u201d with search results identifying versions updated February 1, April 1, and June 1, 2026. However, I could not verify from the publicly retrievable material a distinct policy document containing the governing medical-necessity criteria for CPT 29881, its policy number, or the exact conservative-treatment requirements. MVP\u2019s public appeal page is https://www.mvphealthcare.com/members/resources/appeals.\"\n}",
+ "transcript": [
+  {
+   "role": "system",
+   "content": "You are helping a patient respond to a health insurance denial. Answer precisely and only from evidence you actually retrieve. If you cannot find the governing policy, say so plainly rather than naming a document you are unsure of."
+  },
+  {
+   "role": "user",
+   "content": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-13\nMember: Cameron Brooks\nMember ID: W412154328\nPlan: MVP Health Care (Commercial/ACA), state of Vermont\n\nDear Cameron,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Knee arthroscopy / meniscus surgery\n    Procedure code (CPT): 29881\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-09).\n\nReference number: POC-5EDC35C98D-81118\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+  },
+  {
+   "id": "rs_00a9d5218c879e27016a9b6e6a903887d29701674f26e4a3b5",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm25uzSaLY-0efWbzrlqy-w__HO54Kv8kw0LjZ1ps6acZQ-jbO4Ac5jJCEFoBxQQZ3hRfSU15eKfIINkBxApryxffJCr1ALspb-ziPvMKqvqEush7b7cfqQBDBo45gflDSBInxCOdhN18co8HYz8aZDRr6uJBwsT7t0SbEkSNJVBfXo43aTr8wwvjor-mzqyI34wMPrZczuwwwJHB4j2uE1AiPOuQcTinw0mBFqy51r67xd7LmyHtZ6pmqTNWfVGQKAlmH4U64v4Qh6Fi813WwnbGTJnfSJmuycX_hnKvJHhJ9nig3_Qk8e8NvC6pBMt7kzgVds_HwsfdB2P_m-BGRBqcMVwDrZqtsJDRD5xYg9hnWdbZbkz206etZeKevxFVdVEMlquI6OLM3Bo44SYGdNWdLJOTekN3fC8QBtW3yzuE3g_VvB9OgYHuF8sq9cb7tgCShjXqLXiqPht_YuIEtezxjSKlyhmjUASlExMoUI1PXitExCEONfyFmM-o83tSBru4HCrvRz7CsH0_PP4B64xIEIYg3G052gZtOnG17fYclPEVdaSSzcqsahjN_YuMGZNu_efJqe3vw43W9NMTgf1wLnIpWzek4wh7_o2WP1vwph6ycWSTBtEfmp7-FADrPZwaRAEoNWlmAxpD4b9yTjZSIGezPOWyt59gj2CdWWf3APCLmoaVxoYbWlkYyLw6Q5O-50mdHZbVMYk-t8fcUFUMxFVKXRD6QGlJAsHgMEzFMfGf5KL-xoox2lqHTtBidG8P4nqtZj9DCZW3nDdvKvBsNZL7YXiTbdcAkUSc0hsdNiFF9TT_vzbQfg8J-ALwsPzMKkZoe6zpWIbrNPU4pTz2mIMVOmb3TScXtGxRRgqanDxmeft0SIhvtpHdZGK4Xc8FrLl0wgKbaazUbPnSdxDFoyoZHB4-9DD-CaOEnwbFUVgiqWD4UqycA6cNTqkLK61oLqxgcm7fYcU1bTBu39Z1dZLeTJpTYzbpgMZFIxcBBeN0juukW5WtnkB_BKDUELeblZjzLaiRc2Ii2iDzKBMLTbVyg5K0cOMYd7inKbMu0W2-H7PfxZD64Yw1xdCMTxyHcwxlAYN4p-vpElD1vUiNnA_xRdhevuNp4MgiIloPMG-dULyhLZR4hRPFx1O_Tikf_vC_hFfeMfbNLxEOAFFYuUa4qszz_D-MoojNtPuFmsWUKwTiI45KsEARrXseqh9rcG9W__GEx2VWl12Jt7HRpL4aF7f1DMCWnQaoj00lcC1aH-Tu6geBg9eer2RvhjKu",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:mvphealthcare.com Vermont medical policy knee arthroscopy CPT 29881 meniscus conservative treatment policy PDF MVP Health Care commercial Medicaid 2026 near future effective date appeal address Vermont member appeal form 180 days\\n\\n1. Identify the payer's governing medical policy for the denied procedure --\\n   the specific document containing the medical-necessity criteria this payer\\n   applies to this CPT code.\\n2. Give its title, policy number, URL, and effective or last-revised date.\\n3. Quote the medical-necessity criteria the patient must address.\\n4. State the appeal deadline.\\n5. State where and how to submit the appeal.\\n\\nIf no such document is publicly available, say so explicitly and explain how\\n the patient can obtain the criteria that were applied to them.\\n\\nAnswer as JSON with keys: policy_found (true/false), policy_title,\\npolicy_number, policy_url, effective_date, criteria_quotes (list),\\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes.\" ,\"count\":10}",
+   "call_id": "call_ZCA4e5FjzBZdh5IRvSDCDODi",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_00a9d5218c879e27016a9b6e6e14c487d2919dd84edacedb20",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"MVP Health Care knee arthroscopy meniscectomy medical policy CPT 29881 PDF conservative treatment commercial policy number\",\"count\":10}",
+   "call_id": "call_Hp7U9TVW3T9yxkwCwPTqTuaW",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_00a9d5218c879e27016a9b6e6e14d887d28a6a6a6b78120650",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:mvphealthcare.com \\\"29881\\\" \\\"Medical Policy\\\"\",\"count\":10}",
+   "call_id": "call_be9jQytBZkFoPi1baunCosPj",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_00a9d5218c879e27016a9b6e6e14e087d2b25bcded5b028805",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:mvphealthcare.com appeal adverse benefit determination commercial Vermont submit appeal address 180 days\",\"count\":10}",
+   "call_id": "call_KNbhm3SuMctdYTywmLyfV8WJ",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_00a9d5218c879e27016a9b6e6e14e887d2a1b7597562dccac5",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_ZCA4e5FjzBZdh5IRvSDCDODi",
+   "output": "{\"query\": \"site:mvphealthcare.com Vermont medical policy knee arthroscopy CPT 29881 meniscus conservative treatment policy PDF MVP Health Care commercial Medicaid 2026 near future effective date appeal address Vermont member appeal form 180 days\\n\\n1. Identify the payer's governing medical policy for the denied procedure --\\n   the specific document containing the medical-necessity criteria this payer\\n   applies to this CPT code.\\n2. Give its title, policy number, URL, and effective or last-revised date.\\n3. Quote the medical-necessity criteria the patient must address.\\n4. State the appeal deadline.\\n5. State where and how to submit the appeal.\\n\\nIf no such document is publicly available, say so explicitly and explain how\\n the patient can obtain the criteria that were applied to them.\\n\\nAnswer as JSON with keys: policy_found (true/false), policy_title,\\npolicy_number, policy_url, effective_date, criteria_quotes (list),\\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes.\", \"results\": [], \"result_count\": 0, \"error\": \"search backend returned HTTP 422: {\\\"type\\\":\\\"ErrorResponse\\\",\\\"error\\\":{\\\"id\\\":\\\"3fa819c6-fb94-4349-aa9b-1ad7ceb96fef\\\",\\\"status\\\":422,\\\"detail\\\":\\\"Unable to validate request parameter(s)\\\",\\\"meta\\\":{\\\"errors\\\":[{\\\"type\\\":\\\"too_long\\\",\\\"loc\\\":[\\\"query\\\",\\\"q\\\"],\\\"msg\\\":\\\"Search query must be at most 600 characters (you entered 990).\\\",\\\"input\\\":\\\"site:mvphealthcare.com\"}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_Hp7U9TVW3T9yxkwCwPTqTuaW",
+   "output": "{\"query\": \"MVP Health Care knee arthroscopy meniscectomy medical policy CPT 29881 PDF conservative treatment commercial policy number\", \"results\": [{\"title\": \"Medical Policy Arthroscopic Knee Surgery\", \"url\": \"https://centralhealthplan.com/chp/-/media/Project/CentralHealthPlan/Members/ClinicalCriteria/MED_Clin_Ops-021.pdf\", \"snippet\": \"Arthroscopy, knee, surgical; with meniscectomy (medial AND lateral, including any \u00b7 meniscal shaving) including debridement/shaving of articular cartilage \u00b7 (chondroplasty), same or separate compartment(s), when performed \u00b7 29881 \u00b7 Arthroscopy, knee, surgical; with meniscectomy (medial OR lateral, including any \u00b7\"}, {\"title\": \"CPT Code 29881: Knee Arthroscopy with Meniscectomy | Pabau\", \"url\": \"https://pabau.com/procedure-codes/cpt-code-29881/\", \"snippet\": \"CPT 29881 <strong>covers arthroscopic meniscectomy of the knee, medial or lateral compartment</strong> \u00b7 Modifier RT/LT indicates laterality; Modifier 59 separates distinct procedures \u00b7 Medicare reimbursement averages $850-$1,200 depending on facility and ...\"}, {\"title\": \"Surgery of the Knee \u2013 Commercial and Individual ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf\", \"snippet\": \"<strong>the meniscal lesion, the degree of meniscectomy, and the size of the CMI were risk factors for failure</strong>.\"}, {\"title\": \"Medicare NCCI 2023 Coding Policy Manual \u2013 Chapter 4\", \"url\": \"https://www.cms.gov/files/document/medicare-ncci-policy-manual-2024-chapter-4.pdf\", \"snippet\": \"For example, since CPT codes 29880 ... when performed) and 29881 (<strong>Arthroscopy, knee, surgical; with meniscectomy (medial OR lateral, including any meniscal shaving) including debridement/shaving of articular cartilage (chondroplasty) same or separate</strong> \u00b7...\"}, {\"title\": \"CPT 29881: Arthroscopic Knee Partial Meniscectomy\", \"url\": \"https://www.openpayer.com/billing-codes/cpt-29881-arthroscopic-knee-partial-meniscectomy\", \"snippet\": \"CPT code 29881 represents <strong>arthroscopic knee surgery for partial meniscectomy</strong>, a commonly performed procedure to remove a torn or damaged meniscus and, when needed, to reshape articular cartilage. This code is widely used in musculoskeletal care and matters nationally due to its volume, implications ...\"}, {\"title\": \"CPT Code 29881: Description, Cost, Scenarios, and Rules\", \"url\": \"https://transcure.net/medical-billing/code/cpt/29881/\", \"snippet\": \"This code reports the <strong>arthroscopic removal of torn meniscal tissue from one compartment of the knee</strong>. CPT code 29881 includes the diagnostic arthroscopy, the meniscectomy with any meniscal shaving, and any chondroplasty performed anywhere in ...\"}, {\"title\": \"CPT Code 29881: Knee Arthroscopy with Meniscectomy (Medial or Lateral)\", \"url\": \"https://www.carepatron.com/procedure-code/cpt-code-29881/\", \"snippet\": \"To support proper coding and reimbursement for the <strong>29881 CPT code</strong>, documentation must clearly describe the procedure performed and the clinical need. Key elements include: Indication for surgery (e.g., knee pain, torn meniscus, or failed physical ...\"}, {\"title\": \"CPT 29881 \u2014 Knee arthroscopy with surgical removal of the medial or lateral meniscus, includ | Mira Health\", \"url\": \"https://mirahealth.care/reference/cpt/29881/\", \"snippet\": \"CPT 29881: Knee arthroscopy with surgical removal of the medial or lateral meniscus, including any associated cartilage shaving or debridement performed in the same or a separate compartment. <strong>Medicare $515.71, 15.44 total RVUs, 90-day global period</strong>. ...\"}, {\"title\": \"Medicare NCCI 2022 Coding Policy Manual\", \"url\": \"https://www.cms.gov/files/document/chapter4cptcodes20000-29999final11.pdf\", \"snippet\": \"Since CPT codes 29880 (Arthroscopy, ... when performed) and 29881 (<strong>Arthroscopy, knee, surgical; with meniscectomy (medial OR lateral, including any meniscal shaving) including debridement/shaving of articular cartilage (chondroplasty) same or separate</strong> \u00b7...\"}, {\"title\": \"Joint Procedures \u2013 Medicare Advantage Medical Policy\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/index/mamp/joint-procedures-10012024.pdf\", \"snippet\": \"CPT Code \u00b7 Description \u00b7 Surgery of the Knee \u00b7 29880 \u00b7 Arthroscopy, knee, surgical; with meniscectomy (medial AND lateral, including any meniscal \u00b7 shaving) including debridement/shaving of articular cartilage (chondroplasty), same or separate \u00b7 compartment(s), when performed \u00b7 29881 \u00b7\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_be9jQytBZkFoPi1baunCosPj",
+   "output": "{\"query\": \"site:mvphealthcare.com \\\"29881\\\" \\\"Medical Policy\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_KNbhm3SuMctdYTywmLyfV8WJ",
+   "output": "{\"query\": \"site:mvphealthcare.com appeal adverse benefit determination commercial Vermont submit appeal address 180 days\", \"results\": [{\"title\": \"2023 Provider Policies Your guide to working with MVP Health Care \u00ae.\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider-policies-and-payment-policies/2023/october/mvp-provider-policies-effective-october-1-2023.pdf\", \"snippet\": \"requesting an External Appeal of a concurrent adverse determination, including a Provider \u00b7 requesting the External Appeal as the Member\u2019s designee, is prohibited f rom seeking \u00b7 payment, except applicable co-pays, from a Member for services determined not medically ... Participating Provider have only one level of internal appeal. An appeal must be submitted \u00b7 within 180 days of the date on MVP\u2019s remittance advice.\"}, {\"title\": \"2026 Provider Policies Your guide to working with MVP Health Care \u00ae.\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider-policies-and-payment-policies/2026/april/mvp-provider-policies-effective-april-1-2026.pdf?rev=66ec2891ca3e449eb21fbe46c4d979b4&hash=D54DD38CCA22176F7A7D829C243E50A0\", \"snippet\": \"requesting an External Appeal of a concurrent adverse determination, including a Provider \u00b7 requesting the External Appeal as the Member\u2019s designee, is prohibited from seeking \u00b7 payment, except applicable co-pays, from a Member for services determined not medically ... Participating Provider have only one level of internal appeal. An appeal must be submitted \u00b7 within 180 days of the date on MVP\u2019s remittance advice.\"}, {\"title\": \"2025 Provider Policies Your guide to working with MVP Health Care \u00ae.\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider-policies-and-payment-policies/2025/january/mvp-provider-policies-effective-january-1-2025.pdf\", \"snippet\": \"requesting an External Appeal of a concurrent adverse determination, including a Provider \u00b7 requesting the External Appeal as the Member\u2019s designee, is prohibited from seeking \u00b7 payment, except applicable co-pays, from a Member for services determined not medically ... Participating Provider have only one level of internal appeal. An appeal must be submitted \u00b7 within 180 days of the date on MVP\u2019s remittance advice.\"}, {\"title\": \"2024 Provider Policies Your guide to working with MVP Health Care \u00ae.\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider-policies-and-payment-policies/2024/january/mvp-provider-policies-effective-january-1-2024.pdf?rev=ab40daee212942528e05d2f07b9fac35&hash=FEEAEA63B925A43D65CAD6FD5983C38A\", \"snippet\": \"requesting an External Appeal of a concurrent adverse determination, including a Provider \u00b7 requesting the External Appeal as the Member\u2019s designee, is prohibited from seeking \u00b7 payment, except applicable co-pays, from a Member for services determined not medically ... Participating Provider have only one level of internal appeal. An appeal must be submitted \u00b7 within 180 days of the date on MVP\u2019s remittance advice.\"}, {\"title\": \"Claims and Appeals Information for Providers | MVP Health Care\", \"url\": \"https://www.mvphealthcare.com/providers/claims-and-appeals\", \"snippet\": \"A complete and accurate claim, ... free from errors or conflicting information. <strong>Claims must be submitted within 180 days of the date of discharge or the date of service rendered</strong>....\"}, {\"title\": \"VT 3 HMO 2023 COC Page 1 This is Your HEALTH MAINTENANCE ORGANIZATION\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/cocs/2023/6-vermont-large-group/vt-3-hmo-2023-coc.pdf?rev=179ffe8e4cd5447ba099c6ccd3d6d023&hash=ACC00FDAD1814B4020E8422045A1F696\", \"snippet\": \"<strong>decision on a case-by-case basis</strong> if We determine the alternate or extended benefit is in the best ... Nothing in this provision shall prevent You from appealing Our decision.\"}, {\"title\": \"VT 4 HMO 2024 COC Intrx\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/cocs/2024/vermont-large-group/vt-4-hmo-2024-coc-intrx.pdf\", \"snippet\": \"<strong>decision on a case-by-case basis</strong> if We determine the alternate or extended benefit is in the best ... Nothing in this provision shall prevent You from appealing Our decision.\"}, {\"title\": \"Your Child Health Plus - Member Guide\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/handbooks/mvp-child-health-plus-member-guide-english.pdf?rev=28db5cd1a132434ca1e836af2b0a544e&hash=F7D91AA07515054D540E0CFEE371E2C1\", \"snippet\": \"<strong>You must request a Standard Appeal within 180 days</strong> after\"}, {\"title\": \"mvp health plan, inc. provider resource manual\", \"url\": \"https://content.mvphealthcare.com/provider/documents/Provider_Resource_Manual/Q4_2016/MVP_Health_Care_ProviderResourceManualSection_7_Claims.pdf\", \"snippet\": \"<strong>Customer Care Center for Provider Services at 1-800-684-9286</strong>. The provider will have 180 \u00b7 days from the notification date to determine if the member has other insurance that was in effect\"}, {\"title\": \"2021 Provider Resource Manual Your guide to working with MVP Health Care \u00ae.\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/wp-content/mvp-provider-resource-manual-effective-april-1-2021.pdf\", \"snippet\": \"HPI performs eligibility checks, benefit determinations, utilization \u00b7 management, claims finalization, and Provider payments. HPI administers the Member and Provider call center \u00b7 and web service portals. Members enrolled in these plans have access to MVP\u2019s regional network in New York and \u00b7 Vermont, as well as Cigna\u2019s national medical network and the First Health/MagnaCare national behavioral health\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "id": "rs_00a9d5218c879e27016a9b6e7194dc87d28301b04d5ae3c841",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm25zP2G1QuUll_I0nSDaSaBt6FgsxdK96SBTak2bNUTiKGe8myx3BlWfchMRuQnifsMu6CCbNCBQdhO0zmd-oHV1dseDwN8iRU3kjnv5FHPmTE2KKPLK0sWZ3YFjSe7vCiyW25w2BdjGHaQ9CkuMaiijr3QymeJU2xBCi7eeOSserZvjzYkNFaF2ldi9rOf7AORq6ZxZkwos10aGFCcsgyAKXZVbLJV4Lc_exNtNbozI8047RkGRw_8OT2jrsdA7N7OlZPrKOdGZHPyzabPEQihcEckf9wUMsoFIW5Oz4iHXOhULsjCQ42tl90nwo3GqWMKWY5kvmoJx90X37GR-p8cSFOvN5D3Qp_lm7rZ8xBe3uSOveTxBfrcpXi-pGgHSevPZLveS5_0UCvhlHckMpEGBkrf8uaXV9wWZ9b7skcAdKR2O2qoTpIm2-zj2RAwIZx_tvu2VJFdIzFHWpvW4nB3OYOeZAh9RQ6mZdubc-1bVXCk01AwUxkkBbRuORW50iUjDvZkM6BQm4CO0MrcFWHXdQItn2-QFycl3fltEnYy8-UhfS-rDBaxqyle6z6JvkEC35Ro-pG_lBrD-Ca-77nimy3vyrWVOSeHZENu4kjW5y8qjJ-miv8njPUO7-senmV6bOJG9AM_LhSnbB1_aQVRHo7UPnoxzw3ltNdsqN6OmdubRT_d1FPg2YxP7v-JAmvi909lqYiZA-rxoNJnd7pvRPp6i1W2cojQnwJc4sFigsRNrEOPieVfjjGttmWi57j5CGwGVsvrQTkBRxEIMKGVHO41IbxDvScs8XGLZlEZjVjVOB_sLbjttXjvPiz9pYyyt4ZG3AG9Vxy5i15Me9UTqBe--dg3WpvPvVhF2EUHmdxSw_vxGV45EIxCkvfzKmYJsu1ppyUQeT_l5G1k1CPxIs_CS67hsXNaZImF-Wm0uS8KcYV5abgKnNkYurxQaikvSxP-cuC5BoVNOdfyAXdSobvsFlucSDzoCmYPP7c_W_MxcyM-BoWDbZIc6CM90cD_6ffC42zEeRUjMx9fb55TUfrEMQDhaRg6tdA-6vjOov3myVdXEuXcIzL6TQf4TnLt9CHV6NKRb_dcn7HKFc6GWdaj48Nsm_abNi3K9_qGYbwyFjkKOeLcBcE5iI6gb6g63dlGxvpR9Yy9RZrJrc28XiLbAXbW7qoNskhQIgd5saDmXfnSLSp7kPx3sqJg-RPWX1t4PH9YEfo4z90-MsanPgn-AWVFFAQOXYkrFHP_SWnS5_RgTdeP8tMck0JDMJWs4",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"MVP Health Care medical policies knee arthroscopy policy PDF\",\"count\":10}",
+   "call_id": "call_DQnaYNZb79rf8v04lrcIGeuo",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_00a9d5218c879e27016a9b6e7310d087d2953b6250059e2ab2",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"MVP Health Care clinical criteria arthroscopy knee meniscus conservative treatment\",\"count\":10}",
+   "call_id": "call_1a9Zu0gaUEX51Au6KtFVTNu3",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_00a9d5218c879e27016a9b6e7310ec87d2bf04171623d69278",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"MVP Health Care member appeal form Vermont address medical necessity denial\",\"count\":10}",
+   "call_id": "call_Mag5SJ937u2n0LPlAN1CupNl",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_00a9d5218c879e27016a9b6e7310f887d289f93ef20a527b0b",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:mvphealthcare.com \\\"Medical Policies\\\" \\\"Knee\\\" arthroscopy\",\"count\":10}",
+   "call_id": "call_rCBP0PLboOCaTpWEZ6WgYg49",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_00a9d5218c879e27016a9b6e73110087d29d055e638b5bd580",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_DQnaYNZb79rf8v04lrcIGeuo",
+   "output": "{\"query\": \"MVP Health Care medical policies knee arthroscopy policy PDF\", \"results\": [{\"title\": \"2026 MVP Health Care\u00ae Medical Policies Updated April 01, 2026 Page 1 of 1326\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider/mvp-health-care-medical-policies.pdf?rev=99abc5cd02ca49a6804ce0240a3c8471&hash=683587E8EDC077A0423B8DBA16831E85\", \"snippet\": \"Result in Improved Functional Outcomes Following Primary Total Knee Arthroplasty. J Arthroplasty. 2018 Jun;33(6):1663-1667. ... Function Independent of Comorbidities in Medically Complex Patients. Arch Rehabil \u00b7 Res Clin Transl. 2022 Jan 12;4(2):100178. ... \u2666 Note: Prior authorization requirements for HDHP products are the same as the base product (e.g. HDHP \u00b7 HMO auth requirements are the same as listed for HMO). \u00a9 2026 MVP Health Plan, Inc.\"}, {\"title\": \"Policies MVP Health Care\u00ae policy and procedure guidelines. 2025 Payment\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider-policies-and-payment-policies/2025/july/mvp-payment-policies-effective-july-1-2025.pdf?rev=56f2880bb2234357a63db7f1bae06143&hash=B85DCE8FE8A5019AA7133CC3EF8632EE\", \"snippet\": \"When multiple Arthroscopic, Endoscopic, and Gastrointestinal Scope Procedures within the same code family are \u00b7 performed on the same date of service, the procedure with the highest RVU will be reimbursed according to the \u00b7 Provider fee schedule. The reimbursement of additional procedures will follow the Medicare ...\"}, {\"title\": \"Member Medical Policies February 01, 2026\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider/mvp-health-care-medical-policies.pdf?rev=5fec8243e4ed4abc8b083153cab4a11c&hash=4615EE506C52F7A1B7931D52868446D7\", \"snippet\": \"MVP Health Care: Comprehensive NY health insurance. Access affordable health plans through individual, family, and employer-based coverage.\"}, {\"title\": \"Policies MVP Health Care\u00ae policy and procedure guidelines. 2026 Payment\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider-policies-and-payment-policies/2026/april/mvp-payment-policies-effective-april-1-2026.pdf?rev=31391e10e22940a29df71f00a5260904&hash=6733592E7D7ED05A86040CA3C4085A77\", \"snippet\": \"When multiple Arthroscopic, Endoscopic, and Gastrointestinal Scope Procedures within the same code family are \u00b7 performed on the same date of service, the procedure with the highest RVU will be reimbursed according to the \u00b7 Provider fee schedule. The reimbursement of additional procedures will follow the Medicare ...\"}, {\"title\": \"2022 Payment Policies MVP Health Care\u00ae policy and procedure guidelines.\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents-by-section/providers-policies-payment/mvp-payment-policies-effective-january-1-2023.pdf?rev=13d245f7c1814e51a66fd4bed5fc1818&hash=C32EB13FA54F26557111A03EE17903C8\", \"snippet\": \"MVP will reimburse for this procedure separately from critical care services. ... When multiple Arthroscopic, Endoscopic, and other Non Gastro Intestinal Scope Procedures within the same code \u00b7 family are performed on the same date of service, the procedure with the highest RVU will be reimbursed according \u00b7 to the provider fee schedule. The reimbursement of additional procedure will follow the Medicare reimbursement\"}, {\"title\": \"2026 MVP Health Care\u00ae Medical Policies Updated June 01, 2026 Page 1 of 1333\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider/mvp-health-care-medical-policies.pdf?rev=d26a968a60224b3687000ea81b1aa301&hash=93B817477BA8973FE92F81140FD0416B\", \"snippet\": \"Result in Improved Functional Outcomes Following Primary Total Knee Arthroplasty. J Arthroplasty. 2018 Jun;33(6):1663-1667. ... Function Independent of Comorbidities in Medically Complex Patients. Arch Rehabil \u00b7 Res Clin Transl. 2022 Jan 12;4(2):100178. ... \u2666 Note: Prior authorization requirements for HDHP products are the same as the base product (e.g. HDHP \u00b7 HMO auth requirements are the same as listed for HMO). \u00a9 2026 MVP Health Plan, Inc.\"}, {\"title\": \"2023 Payment Policies MVP Health Care\u00ae policy and procedure guidelines.\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider-policies-and-payment-policies/2023/july/mvp-payment-policies-effective-july-1-2023.pdf?rev=a078143cd5c14ec7892cdea5789ac5c5&hash=71CD526F77D6B1FFA348AC210F79F0FC\", \"snippet\": \"New York State Medicaid Update February 2019 Special Edition Volume 35 Number 2 (ny.gov) MVP Applied Behavior Analysis Policy, (MVP Provider Policies) ... When multiple Arthroscopic, Endoscopic, and other Non-Gastrointestinal Scope Procedures within the same code\"}, {\"title\": \"2026 MVP Health Care\u00ae Medical Policies\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider/mvp-health-care-medical-policies.pdf\", \"snippet\": \"MVP Health Care: Comprehensive NY health insurance. Access affordable health plans through individual, family, and employer-based coverage.\"}, {\"title\": \"Policies MVP Health Care\u00ae policy and procedure guidelines. 2024 Payment\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider-policies-and-payment-policies/2024/january/mvp-payment-policies-effective-january-1-2024.pdf?rev=31f95434aea54ec49aa2db584dc1cfe2&hash=DD59CC987FBB17092B07452F364F3828\", \"snippet\": \"ABA Services are not covered for MVP Medicare Advantage Plans or Health and Recovery Plans (HARP). Temporary Telehealth Waiver: In accordance with CMS temporary waiver [\u00b7], MVP shall reimburse ABA Services \u00b7 provided via video-enabled telehealth services through December 31, 2023. Upon termination of the CMS waiver, ABA Services will not be reimbursed when provided via telehealth. ... When multiple Arthroscopic, Endoscopic, and other Non-Gastrointestinal Scope Procedures within the same code\"}, {\"title\": \"Provider Payment and Laboratory Policies | MVP Health Care\", \"url\": \"https://www.mvphealthcare.com/providers/reference-library/provider-resource-manual/\", \"snippet\": \"The policies are <strong>designed to serve as a reference tool for Providers and facilities</strong>. Its purpose is to enhance and reinforce the understanding of the roles and responsibilities of MVP Participating Providers. In turn, this will help ensure that patients\u2019 needs are met within the health care ...\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_1a9Zu0gaUEX51Au6KtFVTNu3",
+   "output": "{\"query\": \"MVP Health Care clinical criteria arthroscopy knee meniscus conservative treatment\", \"results\": [{\"title\": \"page 1 guidelines for medical necessity determination for knee arthroscopy\", \"url\": \"https://www.mass.gov/doc/guidelines-for-medical-necessity-determination-for-knee-arthroscopy-0/download\", \"snippet\": \"Arthroscopic Partial Meniscectomy versus Sham Surgery for a Degenerative Meniscal Tear.\"}, {\"title\": \"Knee arthroscopy versus conservative management in patients with degenerative knee disease: a systematic review | BMJ Open\", \"url\": \"https://bmjopen.bmj.com/content/7/5/e016114\", \"snippet\": \"Objective To determine the effects and complications of arthroscopic surgery compared with conservative management strategies in patients with degenerative knee disease. Design Systematic review. Main outcome measures Pain, function, adverse events. Data sources MEDLINE, EMBASE, the Cochrane ...\"}, {\"title\": \"Arthroscopic surgery for degenerative knee arthritis and meniscal tears: a clinical practice guideline | The BMJ\", \"url\": \"https://www.bmj.com/content/357/bmj.j1982\", \"snippet\": \"Knee replacement is the only definitive therapy, but it is reserved for patients with severe disease after non-operative management has been unsuccessful.4 5 Some believe that arthroscopic debridement, including washout of intra-articular debris, with or without arthroscopic partial meniscectomy to remove damaged meniscus, may improve pain and function.\"}, {\"title\": \"Knee Arthroscopy | Clinical Review Criteria\", \"url\": \"https://wa-provider.kaiserpermanente.org/static/pdf/hosting/clinical/criteria/pdf/knee_arthroscopy_procedures.pdf\", \"snippet\": \"<strong>repairable, arthroscopic partial meniscectomy of only the torn segments is recommended</strong> (Yoldas 2003). Subtotal \u00b7 or complete meniscectomy is however performed when the entire meniscus is torn and irreparable. Meniscectomy \u00b7 leads to deterioration of the articular cartilage and narrowing of ...\"}, {\"title\": \"Medical Policy Arthroscopic Knee Surgery\", \"url\": \"https://centralhealthplan.com/chp/-/media/Project/CentralHealthPlan/Members/ClinicalCriteria/MED_Clin_Ops-021.pdf\", \"snippet\": \"Treated by Arthroscopic Debridement. Open Orthop J. 2017;11:1147-1153. Published 2017 Oct 31. doi:10.2174/1874325001711011147 \u00b7 59. Mutlu S, Mutlu H, Mutlu B, Guler O, Duymus TM. Symptoms of discoid lateral menisci. J Orthop. 2014;11(4):180-2. Published 2014 Jul 18. doi:10.1016/j.jor.2014.06.005 \u00b7 60. Yaniv M, Blumberg N. The discoid meniscus.\"}, {\"title\": \"Knee Arthroscopy and Open, Non- Arthroplasty Knee Repair\", \"url\": \"https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-65&pv=false\", \"snippet\": \"squat, unstable knee), type of tear (eg, complex tear extending to the articular surface), presence of \u00b7 osteoarthritis or damage to the articular cartilage or other structures, and likelihood that leaving meniscus \u00b7 unrepaired will lead to further damage of the articular cartilage. Surgical options include partial or total \u00b7 meniscectomy and repair of the meniscal tear. Open or arthroscopic surgery can be performed.\"}, {\"title\": \"Acute Isolated Meniscal Pathology\", \"url\": \"https://www.aaos.org/globalassets/quality-and-practice-resources/acute-meniscal-pathology/amp-cpg.pdf\", \"snippet\": \"<strong>diagnosing medial meniscus tears (P=0.12),</strong> with arthroscopy being used as the reference standard.\"}, {\"title\": \"REPLACES PRIOR MA KNEE INJURY TREATMENT GUIDELINES\", \"url\": \"https://www.mass.gov/doc/knee-injury-treatment-guideline-march-2024/download\", \"snippet\": \"4) Failed conservative care wherein patient has not regained preinjury knee function in the presence \u00b7 of imaging evidence of internal joint damage that may be amenable to arthroscopic intervention. Debridement of the meniscus is not recommended in patients with severe arthritis as it is unlikely to\"}, {\"title\": \"Arthroscopic surgery for degenerative knee arthritis and meniscal tears: a clinical practice guideline - PMC\", \"url\": \"https://pmc.ncbi.nlm.nih.gov/articles/PMC5426368/\", \"snippet\": \"Knee replacement is the only definitive therapy, but it is reserved for patients with severe disease after non-operative management has been unsuccessful.4 5 Some believe that arthroscopic debridement, including washout of intra-articular debris, with or without arthroscopic partial meniscectomy to remove damaged meniscus, may improve pain and function.\"}, {\"title\": \"Knee Arthroscopy and Arthroplasty Clinical Coverage Criteria\", \"url\": \"https://www.chpw.org/wp-content/uploads/content/provider-center/policies/Knee_Arthroscopy_and_Arthroplasty_Clinical_Coverage_Criteria_-_MM202.pdf\", \"snippet\": \"<strong>treat a joint&#x27;s interior</strong>. An arthroscope is a small tube that is inserted into the body.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_Mag5SJ937u2n0LPlAN1CupNl",
+   "output": "{\"query\": \"MVP Health Care member appeal form Vermont address medical necessity denial\", \"results\": [{\"title\": \"2013-2026 MVP Health Care Claim Adjustment Request Form Fill Online, Printable, Fillable, Blank - pdfFiller\", \"url\": \"https://adjustment-request-form.pdffiller.com/\", \"snippet\": \"CLAIM ADJUSTMENT REQUEST FORM Please attach a copy of this completed form when returning claims to MVP Health Care for adjustments. Mvphealthcare. com/provider/morecontactinfo. html. DO NOT USE THIS FORM TO SUBMIT APPEALS FOR No Authorization / Prior Authorization Obtained Before Service Rendered / Medical Necessity / Inpatient Hospital Please submit one claim per adjustment form...\"}, {\"title\": \"How to File an Appeal | MVP Health Care\", \"url\": \"https://www.mvphealthcare.com/members/resources/appeals\", \"snippet\": \"<strong>You may file an appeal when you believe MVP made an incorrect or incomplete decision about your care or coverage</strong>. This includes situations like: Denials or limitations of coverage for a service or treatment\"}, {\"title\": \"CLAIM ADJUSTMENT REQUEST FORM Please attach a copy of this completed form when\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents-by-section/providers-forms/claim-and-risk-adjustment-forms/1475529487wpdm_mvp-claim-adjustment-request-form-5-13.pdf?rev=72cdadf0c93e4f84a688b5280b280786&hash=8501E726420699222093FAA9751EAD5E\", \"snippet\": \"For Appeals mailing addresses, go to <strong>www.mvphealthcare.com/provider/more_contact_info.html</strong>. ... No Authorization / Prior Authorization Obtained Before Service Rendered / Medical Necessity / Inpatient Hospital\"}, {\"title\": \"Members | Department of Vermont Health Access\", \"url\": \"https://dvha.vermont.gov/members/appeals-and-fair-hearings/members\", \"snippet\": \"You can call the Vermont Health Connect, Green Mountain Care Customer Support Center at 1-800-250-8427 (TDD/TTY) 1-888-834-7898 \u00b7 You can submit the following online form:\"}, {\"title\": \"Y0051_5282_C (02/2021) MVPMCR0193 (02/2021) Grievances and Appeals\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/wp-content/mvp-grievances-and-appeals-for-mvp-medicare-advantage-members.pdf\", \"snippet\": \"<strong>Y0051_5282_C (02/2021)</strong> \u00b7 MVPMCR0193 (02/2021) \u00b7 Grievances and Appeals \u00b7 Information on Grievances, Initial Determinations, Exceptions, and Appeals \u00b7 Grievances \u00b7 What is a Grievance \u00b7 A grievance is any complaint, or dispute, other \u00b7 than an organization determination, expressing \u00b7 ...\"}, {\"title\": \"Healthcare External Appeal | Department of Financial Regulation\", \"url\": \"https://dfr.vermont.gov/consumers/file-complaint/insurance/healthcare-external-appeal\", \"snippet\": \"The external reviewer will either uphold or reverse the insurer\u2019s decision, and the decision is binding on the insurer. <strong>Your external appeal must be requested within 120 days or 4 months (whichever is longer) of receiving the final denial letter from your insurer</strong>.\"}, {\"title\": \"2023 Provider Policies Your guide to working with MVP Health Care \u00ae.\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider-policies-and-payment-policies/2023/october/mvp-provider-policies-effective-october-1-2023.pdf\", \"snippet\": \"appeal and complaint procedures when necessary. MVP will not retaliate or t ake any \u00b7 discriminatory action against a Member who files an appeal or complaint. ... An appeal is a request for MVP to change a decision that has been made. It may concern \u00b7 whether a requested service is a benefit covered by MVP, or the way a complaint h as been \u00b7 resolved. An External Appeal is the review of MVP\u2019s denial based on Not Medically\"}, {\"title\": \"Claims and Appeals Information for Providers | MVP Health Care\", \"url\": \"https://www.mvphealthcare.com/providers/claims-and-appeals\", \"snippet\": \"Access provider claims, appeals, reimbursement guidance, and related resources from MVP Health Care.\"}, {\"title\": \"Provider Manual dvha.vermont.gov/ vtmedicaid.com/#/home\", \"url\": \"https://vtmedicaid.com/assets/manuals/VTMedicaidProviderManual.pdf\", \"snippet\": \"Member Appeal Process ............................................................................................................\"}, {\"title\": \"Vermont | Coverage Rights\", \"url\": \"https://coveragerights.org/vermont/\", \"snippet\": \"Request documents. If your insurer did not send you the determination letter, your policy, the medical necessity criteria, or instructions and forms for filing an appeal, <strong>call your insurer and request these documents</strong>.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_rCBP0PLboOCaTpWEZ6WgYg49",
+   "output": "{\"query\": \"site:mvphealthcare.com \\\"Medical Policies\\\" \\\"Knee\\\" arthroscopy\", \"results\": [{\"title\": \"2026 MVP Health Care\u00ae Medical Policies Updated April 01, 2026 Page 1 of 1326\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider/mvp-health-care-medical-policies.pdf?rev=99abc5cd02ca49a6804ce0240a3c8471&hash=683587E8EDC077A0423B8DBA16831E85\", \"snippet\": \"https://www.health.ny.gov/health_care/medicaid/redesign/behavioral_health/childre ... Result in Improved Functional Outcomes Following Primary Total Knee Arthroplasty.\"}, {\"title\": \"2026 MVP Health Care\u00ae Medical Policies Updated June 01, 2026 Page 1 of 1333\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider/mvp-health-care-medical-policies.pdf?rev=d26a968a60224b3687000ea81b1aa301&hash=93B817477BA8973FE92F81140FD0416B\", \"snippet\": \"https://www.health.ny.gov/health_care/medicaid/redesign/behavioral_health/childre ... Result in Improved Functional Outcomes Following Primary Total Knee Arthroplasty.\"}, {\"title\": \"contacting professional relations MVP Corporate Headquarters 1-888-363-9485\", \"url\": \"https://content.mvphealthcare.com/provider/documents/MVP_Health_Care_Healthy_Practices_NovDec2012_VMC.pdf\", \"snippet\": \"An additional Indication was added, ... Procedures performed for the treatment \u00b7 of degenerative joint disease or osteoarthritis of the \u00b7 <strong>knee are not covered</strong>. Knee arthroscopy is covered for...\"}, {\"title\": \"2026 MVP Health Care\u00ae Medical Policies Updated February 01, 2026 Page 1 of 1317\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider/mvp-health-care-medical-policies.pdf?rev=8594787367bd4af5a0083f851d4d83ac&hash=27FA3D757FE7AA4B9856512A73041B04\", \"snippet\": \"https://www.health.ny.gov/health_care/medicaid/redesign/behavioral_health/childre ... Result in Improved Functional Outcomes Following Primary Total Knee Arthroplasty.\"}], \"result_count\": 4, \"error\": null}"
+  },
+  {
+   "id": "rs_00a9d5218c879e27016a9b6e77610087d292f0b7aa21a729f9",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2540DajF7Qu5XKFIn-ijxoDGOmBWbJegPbnz2Pokw1U9PRVIpXD2Qye5-nr0ga0_IUtKzaKvnf4gtJY0SdD9VX94GlN0CwmlFagwXB6PBJSKYELvvnekjrGEjRv_cEmBRqL-qPYB-3Tp4ZvhTIC2od28-DGSfovXEaBbeIke3gfvjRg09pLr_Sv_RGyHfDHPTlaCoGqibIoFSK3ScRrmgI2L-6wX-d0b3OccCiJg0myk5QtmOcV4xNWy0zciC3jKgBsULUjPDNtitodt1-JnJ7naYXKge_qgM1GxAf2QfRQEUXCHlqmZRurK9_n9Q-2NlKFb91mZLHPnW7JYfvjW5QjmSJ5-UtSHcQRSh4XOfdUnzJIYtTsII04b2iHpK85b1svW3s27iiPJcZB-g8g9cdTDmSzyIc1j__AbsiTusCiieD354hJ2yvbkO0yn59w4x2HmXOZ7PGpPse5_uYo79NALhjMPnYKZq6nUqTr5ZPniFCFf7Pjxneg6nmVIHCwMe1I5WycsjG9PmWLY8vud9FDxpqZqgn4qwv-q--qzUPPE8IHWBhtT4WkZn56zdShW6ZVM2m8ZZHPPTvS-4YVZoqf9oH7eOES9yivxm9XQJaHBdUU4j8LWrZ8oMAticRGqTAkQDmyeLHsvwe0p4AbmF4aF0S0Zb8NvyNxffh890AsFRH2tYe0vZywz2EmNLNIM_C7xoGc6uT_Ffc98ywlJdZgwlEvXoQEh-NomycMP1uJYoyyhownD7v2sHpemTCegv3y5JK-D3SmzfVCkWLJOIarAw2tDaRaX3CczUx4j-T3KtHj6GxpH8acTAG1sDYF6n1ih4tsaNAUd0G-yi8lmaYcL8MwofVKNHSRjTfktP6ts1MwzBOB0kckCHlPGh_X_lHaLHSCLUOByuvcfdIVwBRX8T19y_Kd7QBDUXef5LGk-ZGQ5Pee-Coap466ToqBQAhCai7tkXZGDyMXXMsUnRcOSvjoCZLfbnnfpAONB36SxPHVYCRG4MlWDcCdzFjQAiTRLAeWixhe9W4Fbw84NoKw8BRvIR1sBfkvMU6t7pyXtQ7CZl5qnxTSpYh7NbrBlevUZ9yOm7GibDWMAAMHzg02QFWSz6TkS9FjuREcFWOF22X0aGy45lCO4k62ZFbZMykkCZ5VadxYc1Ksk5CUL4oxexqt9EaibLyPPnrC3kDzANwx-fLjZYIWnt1S7v_7wA_aR0NjTMtHTFBP3LDhFfRHzA==",
+   "status": null
+  },
+  {
+   "arguments": "{\"url\":\"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider/mvp-health-care-medical-policies.pdf?rev=d26a968a60224b3687000ea81b1aa301&hash=93B817477BA8973FE92F81140FD0416B\"}",
+   "call_id": "call_OcInQFQAbFNgwJYnHLQYjaJE",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_00a9d5218c879e27016a9b6e77b3f087d2b1bf18e5a56326e6",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_OcInQFQAbFNgwJYnHLQYjaJE",
+   "output": "{\"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider/mvp-health-care-medical-policies.pdf?rev=d26a968a60224b3687000ea81b1aa301&hash=93B817477BA8973FE92F81140FD0416B\", \"final_url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider/mvp-health-care-medical-policies.pdf?rev=d26a968a60224b3687000ea81b1aa301&hash=93B817477BA8973FE92F81140FD0416B\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"error\": \"fetch blocked or unreadable: extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "id": "rs_00a9d5218c879e27016a9b6e7b955c87d2bdf354cfeead4ce2",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm259pwst7tF9KGJ4Qu92WPOzGl8MQNRWYWA_NhRJRGuq3xc4aOQ7pzZ13WF4-719gUy7gDbcZe004Mc1u1fYMFSonu51wGmPe22_kdX5GgeBCDHjlBl9ySWgH_yfeyvOdhMuuGTsmQAv3ZuajSi1FjLA7dYpNDDG6DorEooGxrMDHFDiIvJkNaIDjIq60dOXdlByGRuu4U9p8-FHiP60aCnTTgTE5PyU3OqVp0Wk03UQr_ruxQ-T6uNxL0-jiRopHGnIuSMfrihrQ5e1hkpiIKpduYfBVPK8VGgTrtv6YM3SEg1EhCNOvGs8TPX3wwFxdnth4XGP2Ky-rzmQUXC7cn65pHuxb5MvvJttMgfEqIsrfMgun2EMJrbjpvrqERwG8jttMp-s37CIRRAJGZ2FTpt6xMxwCPVtdY4SogjZ0PcLlKe9XQ8keWOyaSLDmD6ngxmnasoszAP5AhgZHvSyDsk-fIxRlhGBNxf7m7E_LeqeSOlJe-_zerw9-nROOMP2uTYIFydEpqm1P3Sd_IltWxeYFTT0-EuH-ACtB3pGGxa2iic-Df1IcTZyffN6yny_zB1BTWox2A2QH-PEYhsHuZ3JlOwGMeqweQrVu7Mnx9idDOE3KvmJLE6NoA8vFV7UylDb3QmyRpF6YaEWCZiJAiMqDjPemSHdgplNVvZL3X9-qQZjs03H1o0a0rLQGXLnglwR_hnTDTT-c8Hnxx0EEnfkuIG7NEFrK1uZQWARARgNoAdk9LIaFJ2s57r86Ek5M7aC6E4x0GzLFgr2Q-LaajMnzNlNOgrUIKhFn5K0NXbM9dwqW7sfWnd80MPvq2kwGXDkuIbMi1fFyoNy1rcfpU0QFiEJQ_eRQRI_w03zO1n9sV_8kqNUwDDqKiSRoLF6GurCYupusU8G3yeUODNEb_A6qNc-CGKYtQoFA0sWStdtxutzGJ7R9tU8ryWdF5a2AlQLUHpAm139nPBRNv5-g782evDyUALXp_0k-Kbp4DyzAIW6VcN3lir6oDtJ7mGthjHxNy-kozT4z17W3I7EmKzuDKpayQ9EzFHxyhXlPOCUdE8rhpbtO3ZhHbzRbohNyNdgqVan1Tka1OXuYtEeFWjWTVSaBxaAzUrZK-28kNYc1FiAceUFMH1z6RJLkuvkTpG1CpXLVe0tRdxhabdeRSlmwifvIREbczBHi7hfhXWfPkob-CYIhnQhvZ9Cagj59eogWSggaYXnHdUSQgCqrCrn9Q==",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider/mvp-health-care-medical-policies.pdf \\\"arthroscopy\\\" \\\"meniscus\\\"\",\"count\":10}",
+   "call_id": "call_GxqSqpq5OOePp91p1L4DW2OJ",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_00a9d5218c879e27016a9b6e7d652887d292646159b3900fd3",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider/mvp-health-care-medical-policies.pdf \\\"Knee Arthroscopy\\\"\",\"count\":10}",
+   "call_id": "call_Hvhm1Nf68SPvY6E4ocMdPruq",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_00a9d5218c879e27016a9b6e7d653887d2925797267f6e9aad",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider/mvp-health-care-medical-policies.pdf \\\"29881\\\"\",\"count\":10}",
+   "call_id": "call_pZeZXyKliHbVWLwWPBNnvEsC",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_00a9d5218c879e27016a9b6e7d654087d285e68cfc685a8709",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"MVP Health Care appeal address commercial member Vermont prior authorization denial appeal mail fax phone\",\"count\":10}",
+   "call_id": "call_rI9mVuTBlzNzfGHPHnmUCh2l",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_00a9d5218c879e27016a9b6e7d654487d283571f1fd062c9bc",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_GxqSqpq5OOePp91p1L4DW2OJ",
+   "output": "{\"query\": \"site:mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider/mvp-health-care-medical-policies.pdf \\\"arthroscopy\\\" \\\"meniscus\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_Hvhm1Nf68SPvY6E4ocMdPruq",
+   "output": "{\"query\": \"site:mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider/mvp-health-care-medical-policies.pdf \\\"Knee Arthroscopy\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_pZeZXyKliHbVWLwWPBNnvEsC",
+   "output": "{\"query\": \"site:mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider/mvp-health-care-medical-policies.pdf \\\"29881\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_rI9mVuTBlzNzfGHPHnmUCh2l",
+   "output": "{\"query\": \"MVP Health Care appeal address commercial member Vermont prior authorization denial appeal mail fax phone\", \"results\": [{\"title\": \"How to File an Appeal | MVP Health Care\", \"url\": \"https://www.mvphealthcare.com/members/resources/appeals\", \"snippet\": \"Medicare Members or their providers can send supporting materials by fax to <strong>1\u2011800\u2011398\u20112560</strong>. All other MVP members can send materials to 518\u2011386\u20117600. If you\u2019d like, you may appoint someone to help you with the appeals process. This is called an authorized representative.\"}, {\"title\": \"2025 Provider Policies Your guide to working with MVP Health Care \u00ae.\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider-policies-and-payment-policies/2025/july/mvp-provider-policies-effective-july-1-2025.pdf?rev=24ea4dcb668a420e8f43d3b341eb4cc6&hash=81DD53F457A22E8C58F2927416A37A5C\", \"snippet\": \"Mail, fax, or deliver the request in person. <strong>Use the address above or fax the appeal \u00b7 to MVP Member Appeals Department at (800)-398-2560</strong> \u00b7 The request must be filed within 65 calendar days from receipt of the initial denial notice\"}, {\"title\": \"MVP Contact Information for Providers| MVP Health Insurance\", \"url\": \"https://www.mvphealthcare.com/contact-us/for-providers-resources\", \"snippet\": \"MVP Formularies for all products are available on our Provider Pharmacy page. For formulary exception and prior authorization requests, a Medication Prior Authorization Request form should be submitted. This, and all medication request forms, can be found on our Provider Forms page.\"}, {\"title\": \"2013-2026 MVP Health Care Claim Adjustment Request Form Fill Online, Printable, Fillable, Blank - pdfFiller\", \"url\": \"https://adjustment-request-form.pdffiller.com/\", \"snippet\": \"Email, fax, or share your mvp provider appeal form form via URL.\"}, {\"title\": \"Claims and Appeals Information for Providers | MVP Health Care\", \"url\": \"https://www.mvphealthcare.com/providers/claims-and-appeals\", \"snippet\": \"Please enter the related Tax ID, NPI, and Member information then follow the prompts. <strong>Call 1-800-684-9286</strong> \u00b7 MVP\u2019s claims policies ensure accurate submission, prompt processing, and consistent Provider results.\"}, {\"title\": \"Mvp appeal form: Fill out & sign online | DocHub\", \"url\": \"https://www.dochub.com/fillable-form/39811-mvp-claim-adjustment-request-form\", \"snippet\": \"To submit the completed MVP Prior Authorization Request Form, email it to authorizationrequest@mvphealthcare.com or fax it to <strong>1-800-280-7346</strong>. Ensure that all relevant supporting documents are included to facilitate a smooth review process.\"}, {\"title\": \"2026 Provider Policies Your guide to working with MVP Health Care \u00ae.\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider-policies-and-payment-policies/2026/april/mvp-provider-policies-effective-april-1-2026.pdf?rev=66ec2891ca3e449eb21fbe46c4d979b4&hash=D54DD38CCA22176F7A7D829C243E50A0\", \"snippet\": \"<strong>Use the address above or fax the appeal \u00b7 to MVP Member Appeals Department at (800)-398-2560</strong> \u00b7 The request must be filed within 65 calendar days from receipt of the initial denial notice\"}, {\"title\": \"Contacting MVP About Provider Claims\", \"url\": \"https://www.mvphealthcare.com/contact-us/for-provider-claims\", \"snippet\": \"Appeals should be submitted to the MVP Member Appeals Department at the address below.\"}, {\"title\": \"MVP Health Care Provider Portal, Phone & Payer ID (2026) | QuickIntell\", \"url\": \"https://quickintell.com/payers/mvp-health-care\", \"snippet\": \"Standard timely filing is 120 days from date of service for participating providers. <strong>Electronic claims (837), eligibility (270/271), prior auth (278), and ERA (835)</strong> are supported. Use the provider portal for eligibility, claims status, prior authorization, and appeal workflows.\"}, {\"title\": \"2023 Provider Policies Your guide to working with MVP Health Care \u00ae.\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider-policies-and-payment-policies/2023/october/mvp-provider-policies-effective-october-1-2023.pdf\", \"snippet\": \"Appeal decision reversing the final adverse benefit determination, the plan immediately ... Members can contact Vermont Legal Aid at <strong>1-800-917-7787</strong>. ... A complaint is a written or verbal expression of dissatisfaction with MVP.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "arguments": "{\"url\":\"https://www.mvphealthcare.com/members/resources/appeals\"}",
+   "call_id": "call_r63mo4Bgs2ixFtRlwwnpyDzs",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_00a9d5218c879e27016a9b6e80a46c87d29e6b9bbe43bc52cf",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_r63mo4Bgs2ixFtRlwwnpyDzs",
+   "output": "{\"url\": \"https://www.mvphealthcare.com/members/resources/appeals\", \"final_url\": \"https://www.mvphealthcare.com/members/resources/appeals\", \"http_status\": 200, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"How to File an Appeal | MVP Health Care MVP Health Care Brokers Employers Navigators Providers Register Gia Sign In Plan Options Find Care Member Resources Contact Us Plans Medicare Advantage All-in-one plans with medical and drug coverage for people over 65 and select others. Dual Special Needs (D-SNP) Coordinated coverage for people with Medicare and Medicaid (D SNP). Individual and Family Affordable, customized coverage for you, your spouse, or your family. Essential Plan An affordable health insurance plan with no deductible and a $0 monthly premium. Medicaid Free or low-cost coverage from one of the top-rated plans in New York State. Child Health Plus (CHP) Affordable coverage and $0 co-pays for children under 19. Additional Plans Dental and Vision Employer-Sponsored Affordable, customized group coverage for large and small businesses. Member Services Gia Popular Access bills online, submit claims, find providers, and more through your Gia online account. FAQs Get answers to questions about coverage, financial information, plan management, and many others. Forms Find commonly used forms for reimbursement, enrollment, claims and more. Make a Payment Quickly pay your MVP health plan premiums online, by phone, or by mail. Health and Well-Being Community Events Health and Wellness Well-Being programs and resources to help you live well and stay well. Living Well Blog Helpful information about the way your insurance plan keeps you covered. Prescription Benefits Search Search Close Search Search Close MENU Plan Options Find Care Member Resources Contact Us Plans Medicare Advantage All-in-one plans with medical and drug coverage for people over 65 and select others. Dual Special Needs (D-SNP) Coordinated coverage for people with Medicare and Medicaid (D SNP). Individual and Family Affordable, customized coverage for you, your spouse, or your family. Essential Plan An affordable health insurance plan with no deductible and a $0 monthly premium. Medicaid Free or low-cost coverage from one of the top-rated plans in New York State. Child Health Plus (CHP) Affordable coverage and $0 co-pays for children under 19. Additional Plans Dental and Vision Employer-Sponsored Affordable, customized group coverage for large and small businesses. Member Services Gia Popular Access bills online, submit claims, find providers, and more through your Gia online account. FAQs Get answers to questions about coverage, financial information, plan management, and many others. Forms Find commonly used forms for reimbursement, enrollment, claims and more. Make a Payment Quickly pay your MVP health plan premiums online, by phone, or by mail. Health and Well-Being Community Events Health and Wellness Well-Being programs and resources to help you live well and stay well. Living Well Blog Helpful information about the way your insurance plan keeps you covered. Prescription Benefits MVP Health Care Brokers Employers Navigators Providers English MVP Health Care Resources How to File an Appeal How to File an Appeal With MVP Health Care Learn how to file an appeal with MVP Health Care. Understand your rights, when to appeal, how to submit an appeal, and what to expect after you file. How to File an Appeal With MVP Health Care Learn how to file an appeal with MVP Health Care. Understand your rights, when to appeal, how to submit an appeal, and what to expect after you file. What is an Appeal? If MVP says \u201cno\u201d to a service, medication, benefit, or claim, you have the right to ask us to take another look. This is called an appeal . An appeal is a formal request for MVP to review a decision you disagree with and reconsider it based on the full details of your situation. Appeals exist to ensure that every member receives a fair, thorough review. They also give you an opportunity to share additional information that may not have been part of the original decision. When to File an Appeal You may file an appeal when you believe MVP made an incorrect or incomplete decision about your care or coverage. This includes situations like: Denials or limitations of coverage for a service or treatment Refusals to pay for a prescription drug Determinations that a service or treatment is not medically necessary Denials of payment for a claim you believe should be covered Many members file appeals after receiving a denial notice or an Explanation of Benefits (EOB) showing that a claim was not paid. Others appeal decisions that affect ongoing care, medications, or services recommended by their provider. How to File an Appeal You can file an appeal in writing, over the phone, or in person. You may use whichever method is most convenient for you. Some members prefer to call and explain their situation, while others choose to submit a letter and related documents in writing. To file in writing Send a letter and any related documents to the MVP Health Care Appeal team at the address below: MVP Health Care Appeals Department 625 State Street Schenectady, NY 12305 To file over the phone Call the Member Services/Customer Care Center at the phone number on the back of your MVP Member ID card. To file in person Walk-ins are available during normal business hours at the following locations: Schenectady 625 State Street Schenectady, NY 12305 Rochester 20 S Clinton Ave Rochester, NY 14604 To share files by fax While you can\u2019t file an appeal by fax, you or your health care provider can send supporting materials. When sending materials by fax, it\u2019s best to include your full name and contact information. Medicare Members or their providers can send supporting materials by fax to 1\u2011800\u2011398\u20112560 . All other MVP members can send materials to 518\u2011386\u20117600 . Getting Help from an Authorized Representative If you\u2019d like, you may appoint someone to help you with the appeals process. This is called an authorized representative. Your authorized representative can be a family member, trusted friend, health care provider, or other advocate. They can help you gather information, communicate with MVP, and submit appeals on your behalf. What Happens After You File an Appeal? Once we receive your appeal, we will review all available information. This will include the information you submit as well as other documents like medical records, provider notes, and any further details related to the situation. When a decision is made, you will receive a written notice. The notice will explain the outcome of your appeal. If additional steps are available, those options will also be clearly explained. Help and More Information For complete details about your appeal rights, timelines, and what to expect, review your plan documents . Most members with Individual and Family Plans , Medicare , Medicaid , Child Health Plus (CHPlus) , HARP and Essential Plans can find plan documents in their Member Guide in Gia\u00ae . If you use Gia on your computer, sign into Gia , then select My Plan , then My Benefits . In the Gia by MVP mobile app, tap Benefits and Coverage . Finding documents for other plans Other members can request a copy of their plan documents by calling the Member Services/Customer Care Center at the phone number on the back of their MVP Member ID card. Contact Us Who We Are About Us Careers Community Events Locations Corporate Giving News Center Explore Plans Individual and Family Plans Child Health Plus Employer-Based Plans Medicare Advantage Plans NY Medicaid Sign In Members Brokers Employers Providers Electronic Notice Opt In and Secure Messaging Gia\u00ae Features Non-Discrimination & Language Privacy Practices & Compliance Reporting Overpayments Site Help Privacy Policy Website & Mobile Terms of Use SMS Terms of Use Fraud and Abuse Copyright \u00a9 2026, MVP Health Care. All Rights Reserved.\", \"text_truncated\": false}"
+  },
+  {
+   "id": "rs_00a9d5218c879e27016a9b6e827b8087d29b2e56ef8f311281",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm26EYWqEUwVW3-M81nHV01BPCSYZ8Tpia55DmfmSfZDagn82DCXDv06eFrzFUPY7IJ2sp5LPgtDfvNe9Ui01g4of1N13_WWP0W1rqTYLi7ZqzM23K2HLCIH8ImdLT471ojqfDG0rBdWsU4SDQMrJxttpd5-wo0eNt1B7YYq3yaCGYU6VcupgEEnf5-op82EAuwfxGhXj7VT9gRR--iYEv1YOumtOE6Dz5NCiVh7TpvX4NCCYf8PPueiM2ZXoumnv_vQUdtYqB9cdeN5_l6t3jHOE9mSEz1aa939C00bMLrRfdsPC5yWRTBJ7DpTfd4jG9jv7gIvv-tfEdvztqjVnT5T4qph4pA8yCyTMzI7ds52979Q52Ay_hlBACZugUGZvZbGfLyFc2XQNK9xdoptYeTBc5bbafTDjGyIOe5kckfPw0BfhGsdL55v045_vOP9mVAut8SY6fgMV4fjhWVTZ27lXDoaCWam6dFiARTldkZ1XCyvH5yzBJ1x7qCzZ1kBg_lnkdWGF-C1VsguE18aibQ_7ZO8pYHiV_9U7bLpMwOITXuid5lRxTnOaEHnDPjHBGLa5J-fMBz_M2GZyzIOK5h8wiUeJLuUM_mbLbSHjZede3I6upnA6Io5hAa-RGYVJArNrCsygR1ewlztqjA_I4AJEGfmLdriLwBBTrBZm3ifur1VyPFgEPNA0-UZvnPuYht8MK9VZZxhcb45Rm3vEr816Q7-rBQiv-Sk4IBt5cLvP5KHTmlzOwsJDRam6g5QK04sofWddshEglNsfrUmDG2mC_3UopixmxAZMgkjEDuKdO8ZiecyJRHaKDh0VnxoWZaPAOCsIlrtyWczKbMZ4s3vde6iEqfMaLlN7muftWzxhjFrGQTz-15FFrzuwHFbCgy40ryoI-mxXbuUe7rzJm7heZISr3Egw_tHw4AYVjhAFLByjd19a2Kv3H8T7LGqMtOw0K7CPEJjD7K28Sman_SIq0qjFaRfilhV5yfTrwTri61D52gu_2lSocmD20VE_xPKLn6Nx_Kr4yu8tGVskxXQmlFYyyENSA17PNqUlrcOiK1cWBwG5ScqLLcn2Ywi3A3gy0Gs2tQuigaMBR7h4XpFNfGqITkTr4nqF3bdidR9bYc8SS56x1xqclsKmwmQ_l-jaVP_XjLEImAAekmhJEXKWeJafQOpNmJZV2QAOj9oomjjRjlsHMZwsoSnkrf7Ar6cuBrnbnlVa8jk6hfUY4SL7vKqvDftleL9r5-JdASmgh7QT0v708Zvvv3MLcywHizx1pj7g2mcpMqIx5oiwE-tF8b2gI3rECI0vrSEvmRaBooPgzEw4MH84DSrtg98pFVTEag3m77aKg9iHGfkAoaMAonTZFO0VkydiyfjBA6iF6we4JcA5q5eICXOJE8WsWKCNtEvhdHSxToIU6j9tftRYlZ5sVh4kSf1pT63o9l2CVkyWzhg7ijhaVh4NJ7RApM3mg_p3GO7ck5y1OhmqzXmjWexSIECdASkplGcGHRsxaOZE6PM3wd3IXjBSNtDaUy27LtVmqGDvHUZ-m0TumeXkKvd1prubbqlSfTlgOVWu-txLf3ckOsmpX0CdbBGcsybLYSWdqnbY94gvgW4IFcQAi1egqjxFTYvkvuZd6HeUv9sdAwXKuER6oJbcsgNXmMpczN2jR_7DhBstqAvMUDEa340SEuzBcmr30FHEYyZYHfdIIUlNqn--PeNGCy1sMEbq",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"\\\"MVP Health Care\\\" \\\"Knee Arthroscopy\\\" policy\",\"count\":20}",
+   "call_id": "call_d5K4Lb6mdozYVOfOCleuSOAh",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_00a9d5218c879e27016a9b6e848cfc87d283694005dd31ec70",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"MVP\\\" \\\"Arthroscopic Knee Surgery\\\" medical policy\",\"count\":20}",
+   "call_id": "call_VzNswfMXvkL7GMVkv2YnvrUE",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_00a9d5218c879e27016a9b6e848d0c87d2922bdd5bbf247c10",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"MVP Health Care\\\" \\\"meniscectomy\\\" medical policy\",\"count\":20}",
+   "call_id": "call_ZQ7waTZXsgVj7aGsHOs5B0b2",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_00a9d5218c879e27016a9b6e848d1487d2b33d68d625ba2b1b",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"MVP Health Care Medical Policies\\\" \\\"arthroscopy\\\"\",\"count\":20}",
+   "call_id": "call_h7tleeGgK0QE5Kia7z83vQaT",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_00a9d5218c879e27016a9b6e848d1c87d28b323fe10bcadeb5",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_d5K4Lb6mdozYVOfOCleuSOAh",
+   "output": "{\"query\": \"\\\"MVP Health Care\\\" \\\"Knee Arthroscopy\\\" policy\", \"results\": [{\"title\": \"2023 Payment Policies MVP Health Care\u00ae policy and procedure guidelines.\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider-policies-and-payment-policies/2023/july/mvp-payment-policies-effective-july-1-2023.pdf?rev=a078143cd5c14ec7892cdea5789ac5c5&hash=71CD526F77D6B1FFA348AC210F79F0FC\", \"snippet\": \"Knee Arthroscopy \u00b7 \u2022 \u00b7 Laryngoscopy w/operating microscope \u00b7 \u2022 \u00b7 Bronchoscope/wash \u00b7 ARTHROSCOPIC, ENDOSCOPIC, AND \u00b7 OTHER NON-GASTRO INTESTINAL \u00b7 SCOPE PROCEDURES \u00b7 Policy \u00b7 Notification/Prior Authorization Requests \u00b7 Billing/Coding Guidelines \u00b7 History \u00b7 MVP Health Care Payment Policy \u00b7\"}, {\"title\": \"Policies MVP Health Care\u00ae policy and procedure guidelines. 2025 Payment\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider-policies-and-payment-policies/2025/july/mvp-payment-policies-effective-july-1-2025.pdf?rev=56f2880bb2234357a63db7f1bae06143&hash=B85DCE8FE8A5019AA7133CC3EF8632EE\", \"snippet\": \"Knee Arthroscopy \u00b7 \u2022 \u00b7 Hip Arthroscopy \u00b7 \u2022 \u00b7 Laryngoscopy w/operating microscope \u00b7 ARTHROSCOPIC, ENDOSCOPIC, AND - GASTROINTESTINAL SCOPE PROCEDURES \u00b7 Policy \u00b7 Notification/Prior Authorization Requests \u00b7 Billing/Coding Guidelines \u00b7 History \u00b7 MVP Health Care Payment Policy \u00b7\"}, {\"title\": \"Policies MVP Health Care\u00ae policy and procedure guidelines. 2026 Payment\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider-policies-and-payment-policies/2026/april/mvp-payment-policies-effective-april-1-2026.pdf?rev=31391e10e22940a29df71f00a5260904&hash=6733592E7D7ED05A86040CA3C4085A77\", \"snippet\": \"Knee Arthroscopy \u00b7 \u2022 \u00b7 Hip Arthroscopy \u00b7 \u2022 \u00b7 Laryngoscopy w/operating microscope \u00b7 ARTHROSCOPIC, ENDOSCOPIC, AND - GASTROINTESTINAL SCOPE PROCEDURES \u00b7 Policy \u00b7 Notification/Prior Authorization Requests \u00b7 Billing/Coding Guidelines \u00b7 History \u00b7 MVP Health Care Payment Policy \u00b7\"}, {\"title\": \"Policies MVP Health Care\u00ae policy and procedure guidelines. 2024 Payment\", \"url\": \"https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/provider-policies-and-payment-policies/2024/january/mvp-payment-policies-effective-january-1-2024.pdf?rev=31f95434aea54ec49aa2db584dc1cfe2&hash=DD59CC987FBB17092B07452F364F3828\", \"snippet\": \"ABA Services are not covered for MVP Medicare Advantage Plans or Health and Recovery Plans (HARP). Temporary Telehealth Waiver: In accordance with CMS temporary waiver [\u00b7], MVP shall reimburse ABA Services \u00b7 provided via video-enabled telehealth services through December 31, 2023. Upon termination of the CMS waiver, ABA Services will not be reimbursed when provided via telehealth. ... When multiple Arthroscopic, Endoscopic, and other Non-Gastrointestinal Scope Procedures within the same code\"}], \"result_count\": 4, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_VzNswfMXvkL7GMVkv2YnvrUE",
+   "output": "{\"query\": \"\\\"MVP\\\" \\\"Arthroscopic Knee Surgery\\\" medical policy\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_ZQ7waTZXsgVj7aGsHOs5B0b2",
+   "output": "{\"query\": \"\\\"MVP Health Care\\\" \\\"meniscectomy\\\" medical policy\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_h7tleeGgK0QE5Kia7z83vQaT",
+   "output": "{\"query\": \"\\\"MVP Health Care Medical Policies\\\" \\\"arthroscopy\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "id": "rs_00a9d5218c879e27016a9b6e8844d487d2a21ac9fbae89ca59",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm26KrIPTZTuf0Pso_sVhUv01V94Gdy3nQS6UKE__pwPdFXetLGg-QPThwcj0jxi-SRaRpsXju1BMmyFZjMCZi1nhFYArItcsQHju_u8DWEnYSS-oDy6n6UQepFgW5S2XZ1mAMjmQ89eZwZ2-R48G9i8m4iHXc3mMy69XYjaT1FKoa8RXQrhy5gsSTateU0srU1u7tnPwmC4JTWKepc0qd6BcBPLXGlLxxFk_hl1gu-NamejzAvuANH1zC_ks2beBupiUL5MgICH_tLzluNxRk7WeVfV2eCZeAPoEVw6tSxOMAzmntx5EWdSH8R60MP-DaAnWJJLm95w3jAX420tWhvv1xWDo6b47Xj9x5feqmk13HD134FU_fjYWT2Bg1i8eirrHp2C5iXHEJMtoyfEJDiJJHdP73fg6HfLV5TNZRZaxgrSCHcfZYTgL8krMj6oo0Cwvg1ONfYgO57FjJFWtcl_qYmEIdpNnnpyFrELYiyjxYyRZContmwlSQKaVe8kqUi1BFGQvk-gNw0gR8rNyt62Z7zen7eixlm_7WNPpxvAkP2hbot3L_CGF14UnKwyU6fL_FqJp4YFSe4qMqgFktBKEqX17HI__eVmuYq7jmMxip9fOobC6j7gYeuVYyQ9WRnViPDgdAc6t_vANHOd0EvtatFfqEjDRbCMbfXxjlP8bZCtXodZFSiGXKr0LAVmaiDB1F30eggF573V8l3YOb8YFG2GIQV-fr0MI3b4nTZTstIuv02pSTKWhObrxaNiKsGaoddkCMXrxFf-tLJi3-yKy7_qoyBVdw-8P8xTSkiALoivqUwH0oI5ZRDMAzobJInbXHEDxxY-X_WtWmQAuEKnxh3HybrFT3iBK_1elvc3jnfwSJ6bBkcoYmAKDRaz7u-Si4HPO3s1ZLNTvIbF42Y3Xa_kFcUw8GxntZb52uKm5bNcDwOOJkQlNSJJQojrjhi6CTOQ6SQSGNcJyNLuazShYebxgM1xoXipzZ4gJ490nspA-Xdf9vO7vLqsL-msQMnUWU9Biq1tYCVphpZTa_dxabhpGWnJ1_yrXduGDL3caPRwG-WwX5Te0jbygs0Q--zoC2hOnQPAgJPGOYFIZifvaGDDFzXbkK0ogummlU7JoxHAymTRHpRBmb_qXEOqwYnVuTklYiajlq8S-nWiS4_qCdphueO6EdTMD77IO_6uC3XNvvD9o6hEYbLAaD_0dWoLYc685yf_dOANZoYSV-2ca_2cJxw-Tio236EA9h3RNMHWQtJD77K9qCpteD-o8DCyAZ0JaCzJtSeYwwu7bU_BlAdb5_xEeXZNarjzzOgm7uMAjumbiIN1lhoDuOt_O6jAyyp7mGn0okltuCIMZyu2_cVTSY_PAu1zvUdnz7hMTB7a5v-CoAoFNS_LHtyV_5hcmbiMWgiwMWdZv8xYFnbwesHBWDfcbSGleeXhfaH3W6H7InK9c0z6zvvukg6WG9UuO5xDDbJaP73xHau-cfHCRFZR3XmJJgG1EUtM9Paaohsl4od_9Zghwsh04l7qt7a3Pfl9KPNYSYgnk7BEUlz9ogy-3RQcb9lDXpODgS18lSZbTuAJcyuZ_pRwlWiqFefFoL2U5mrgVhnpodlwHOEB8KfSCDqc1EoL4et2yW8RizcFF3ftDMz68TYUgmxjCFmeFM5sS6TNvACxe-dsePv6KnQ==",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:mvphealthcare.com \\\"conservative treatment\\\" knee arthroscopy\",\"count\":10}",
+   "call_id": "call_aZe6c9dzkwxKQ2ZhvGSZ0p8n",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_00a9d5218c879e27016a9b6e8a190087d2b681c92140dceea7",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:mvphealthcare.com \\\"conservative therapy\\\" meniscus\",\"count\":10}",
+   "call_id": "call_D9omQ5KjHixPnqBBouOFmklA",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_00a9d5218c879e27016a9b6e8a191087d285d5251d64fbc0c6",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:mvphealthcare.com \\\"failed conservative\\\" knee arthroscopy\",\"count\":10}",
+   "call_id": "call_hJrIZz102WBywQDxvmQHmazk",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_00a9d5218c879e27016a9b6e8a191887d28828b35b6e01fc71",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:mvphealthcare.com \\\"Knee Arthroscopy\\\" \\\"Policy Number\\\"\",\"count\":10}",
+   "call_id": "call_wkfRbg4cizdFx0Ipfstjuxxc",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_00a9d5218c879e27016a9b6e8a192487d2afc89dda22e1bd0a",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_aZe6c9dzkwxKQ2ZhvGSZ0p8n",
+   "output": "{\"query\": \"site:mvphealthcare.com \\\"conservative treatment\\\" knee arthroscopy\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_D9omQ5KjHixPnqBBouOFmklA",
+   "output": "{\"query\": \"site:mvphealthcare.com \\\"conservative therapy\\\" meniscus\", \"results\": [{\"title\": \"contacting professional relations MVP Corporate Headquarters 1-888-363-9485\", \"url\": \"https://content.mvphealthcare.com/provider/documents/MVP_Health_Care_HealthyPractices_SepOct_West.pdf\", \"snippet\": \"conservative therapy including <strong>non-steroidal anti- inflammatory drugs (NSAIDS), physical therapy, and an exercise program (if appropriate).</strong> Sclerotherapy for Varicose Veins of \u00b7 the Lower Extremity \u00b7 The policy has been updated to state use of \u00b7 sclerosing solution in varicose veins &lt;3mm ...\"}], \"result_count\": 1, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_hJrIZz102WBywQDxvmQHmazk",
+   "output": "{\"query\": \"site:mvphealthcare.com \\\"failed conservative\\\" knee arthroscopy\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_wkfRbg4cizdFx0Ipfstjuxxc",
+   "output": "{\"query\": \"site:mvphealthcare.com \\\"Knee Arthroscopy\\\" \\\"Policy Number\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "id": "rs_00a9d5218c879e27016a9b6e8d8fd487d2b52e98cedb407bf3",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm26WITuMr4Uy__yd10ig1PpRcixpIIgHAHO4R5fbi0o4ougIPkBMwA_yKg9rIdQwi6nWKRzT0wNMsRxre1CIPICO-d0PZJHtXK-EZmX5iriS7fhuNt04RsNyBIvSeDzm3KjTg-AfO5UUmMlsQ5bEe7aGtVZvQslInJZUOVG4-s9QtEL9k7iCJSVT2Lxsz-aDNQrdkb2cxER1zWki1FhIIF2LGUYE5A8N0K5HmcGNrD-edrTvjoAdZO6HGrNguw4jgZ0ibKasjjkAHMC10bLiAWxmnYVZOm28TPdo2TKJxB_KX3-fP2-GJrTi78WIYV5d_0HFtSUKBoC2AZwTjqmK94t3FESQBmcfWpmbGueVCrM0ryAC1gsNEw_97O_92wyP3vc0dEFBmFS-PTjMQa8xn6ApbyB5g2Vk5cACWJazY495CDBuBxOWXRQO2CBf-oCSudlCJJ0I6ymnZSTZxD-tbGMO66xv02Cih3pk76EDBSFsXEHVQFGcG30PtwvLYDqumtRQzHjCb4JqBMcmGsHDbyogKReufJ-2sYNwvkreTyUIepUbudR0bm4Y-8N6A2tOUnTKgJ0mONQnt9CK2eMldzyT7dBMXduasgMUj2xiqh7EqGfVA6HOXloMaoH1MejP1j8Kf2FNCACwl-iNLRk1dz41aDbC4zJ89IDM0bPvf6Xabp74xQp6UDFoJBdbTSZ7GyMrxle2HLplXi-Pe2T7ciztUFOs-LEWmNjBokKIYfNrvTybyj6JBCEXdanG7A-SDOls9RzPwqfGFL0yZgOHh-f1qgxoIlimRwPt4IIarEh_KOJALpdX55OZHbhworWlnsg_PNPr4WAu66OcjtuDSZl28AgMlG89ug9I7DuEtbVFf_mqEoK0louj2D3zMXpB7O_7rO8uCDY8u1MgBd4gD3GI3105fMNp8pFq9kWCbcJz9Vj_M7FQhPSCs-WozfWpbZpc0_0qDyZWYX7Ta9_TGQwsbJCyC0lKXlAa1Y_1C1nxWkzkWwSZ5L7qvy7OZHU8206hWROSAhJvJ3TOjHsKSPVYYTVjsbx7oTpteT1KfwlcK07iJcY_EMabxbibLPfT_2SE4pEi3IDoFFmDgNW-xKAMYnt063vhKa5lqyw-Q1Mj68quNVTsmp4MOnbzkCvD_Pbl_Pm9MIJNr11Cmei0hbMvEiLHmZFcF5HL68GQEuiOjeAvxRJ3rtINXeQqN7ofru_PeOSV5J37CJMXpAbmhycjHFmgwRTPoPby3zFWZhGyYFPzyI8WC6rjWZ7TOJ8E3gXEBc1gX9QwAYPf3fVcoaQ0gzxYkdxWCiIeJ8jU6kbrnhS4I5Zf0pr2hFz00Pm-LdgGt_IfMzOjXU8NBQgyIKqEQILyWXTklxXQQ8KNbFpgHFrAVprhhnuitpEA-mvZaQ4UNGlA8yyqcZeBH5JIqtGTsyKm06DW6IEU_1zyC4yEKwtPYuSsToWGB1zyh1zD4kusi_jYEVe3YFlNYIvHRx0dja1hq7t98VHc7IoWyBJej8bR8OcoWfAtK88jirMgSMO1MNb896S8EgssUzK4XFo_WoI-TcxW2Zn_9rKd5-bBUhbGyz0jbSmG9WULP9L5yrz3JUgM4FNnCHmdLzrQbJE15oQIPuQZhUoKP5oqw825JFX_u8uxY9hBpsEpi5xoQgaFByFV35t76qJOE5lBXc1grhm1328TxHYCxLGSE1mS8p8o6owOLh9trlUYI3gvXdR7p3vYkYQyVshZBZ8yqSaL8GnvyLX7lN3vnccLrQ-GTadUtiSZvnWRMIs8uJCcIw5r5Tha0GjPbefuVO0ulByQlO0OgplgoAk_ePZdAYkyS1qSDcn_TLLRsA-HGnjLLN56835399KLvJzba4msLcfs5aFyubkLMg3ApPRlFFhCnvVJJYDxWKxCI2yXDcL_uB3O6SbsN8rIRMgApQoHW9tln9Iq-BTNYyuEdt74EdHRNDV142V7ugtWb8Wv5-rNqSmGCO_DDd59SyNaO_Bm7fVSvFruAFiv8mkLqNfKdE_QXVttVLqvC4mg71KEUi51IbZlhYtgqd2o7Iefp0RO273S-iRrbCjIYIquY2ZTHt1acLFZfgFqWJb2k3z81ow9AewkJTTY0-MlNbpRgbB7TMQo4wkAuHWBwKvuQi2xS73LtEzPuik5oUWlYqXiKfNCBBZWddD0wm-CyWuPv40RPg6MoeiyDLbwptOrnuD446xwd8MFLtg49EJ_rHieHjYAoMsqXHgwb2ihyHCSVsv2SI4A1bqGaQSupCIZ6fblAJNL7C2GjqHi5S3vMjs_yNIDLQgr-ePybXf4Si7Em9g1OjYXgyAZpUaZj_LHnWKliAJv-cedajjCLbKyy5EbiGsq8vnFSupEB5mqUCvhQb1S5-ddu9WVVAALpz4lAiLOmmgIR1OHMfaEvRoPBr2_XpNuBD-NuoYn2o7Zs-ZgQD-Q_MBgXFSeZm8RrGvHQ7oGk9PO4cLt60h56AhPNDtMvbJLzOnD_5f2OvShmzaQYXHesxBFgUVZJczX4B-rzJD3VGHyMYfx7igcDXMNGnWKhM1fFIacbDDtw_fK3EUnUc3tPaqWmjiMtI2Bz-Po0uws3ata3Z67jXZZyUeOZ412rK9XZ3HyMWZxqpywMQa2y_n2lGSlgqDYaoEe11baOno3cyUBX_ekwaAHY5s8oyiBgCFaEj7PXjlXcSTvTe_Q2pjuapxwjVqdNa-iSSDn8T6DWilaaP2Ag7g7eLNhfpHwty114qhBJ11GMZMH6gzufDy8KQ0o-TeS8rZMeRp_LFP4pR_WZVhRwqXHRonHGHo3ZPJZjeAAywRMXnVJNNFixriUZPGPm4-awzdFXfWmB9ZylCW24AdJ9f21FDHuJuCtS-pVY7zLB_LKrYB7dd9x1fVfpBmzL93X370elt3lcjJENqJ95J-a0y4rYPlTvN5q-XxOIP5IUDooWPgGIyZsQag1DxdYhrca5eAA5S1fB3TjxS42FiKg-eXeKl23xaMjj0cGbBDUj2W3M0LGL-0tO1Y9w46N_9SsZDDXDJs7n4tR_onDA-Ni3q0Tcih3UPF6dnHWYXQnJnTMFM-gDdUbcXAxEFvm_kHd-4A-JbVnM35mPRqXdigY2VdC-0rB4lXipJGXQoM-TQ2Qp6kKYlvYZpl6M0tn_a4SjjTk5ffBRJmsdbUR4iDlW2ouK5wWLseLemhXk02An25nRN46EQdlRdsoVo0LXgdzYmlqQKbpkAGmRH9o6YgSuJlBRbpAPSNp5GCmBhJmLDOsUL4RipYz2sQIc9Bk4ot5q96dMU-XUdyki2cn6E2K31E7R-ymLdUUhMdDdQE6gxfE3IABBqReFdWTzSHwNQgAS_Dl5EPBzkCsMhbVi6l-Jg2-u0FDBhVQOr2RByWHVSY8Dn0OUQmEL3J-vMnz9fpSUyrYfr4hC7BVazvIBei2TeAjgVVL70u2ejnUgGbHOHLSFPORuQ-zXIkPxyBe_N_P63OqwECDTiUaxfu0Nv2N0Q7SSNsX5b2AdpzgBf7ASmMN4pD4QNIH7Mppwi7GGFVC145UTXDdB3E5OzRizu9VAZKBBmhmUfBF-LMTE1YIUksovFhg3nonF9Xk_hOJtzqEfMCaeAsR8j9_FSJ_SCfkCFRpzoIIgJSy5UM36T_tnrSkXY_T9obM2YnbnlpOeZplAODk2-RPWSdYhaZJsW3ewvWScmtpQ1j9p1v__01jE78Klaem6eHxLCSLMHOwx7Jk_HXVhB1_0xGIznnLI5x8vx7LfI2_UpaJTWpCbPGlVQs5HmikTwZ-RYXQqhFrQZj73d7WqEHAIniQX9HYLWM-a9U8ShbrPXVVQeLM01e7nUc05tJ3BrBjTFwo2Vadk3lkl0WdChBpL8ekEpZFmEg1lPF7B_srzvL6Le9RZr1Hu22Y2wz9XY2Itx2v5egs89ZtmId1Il0JzICYHrsKyb8-3zZoik4uIeOSJSHAMxBS3uPP6YTuEfjPDu7P6gBeHfC4W2zmSzknG0z3Urld4mosM0nTBMON4ZFJA9y8MgQsAGPcc_lLH5F7ype95OKcJLkeJrbV_DeRXEzROuCp_wKbyHQ3UbHax-2Bon4l-tQQN6IAPMTYIM5fKyhS4YleBQhj_o_LxKt6A9OpL67Fme4ViXaGIdJOzEvqHFf3Qvr7QmvTONpEUnrH2C1zAPg_lmebwyOLAt5P7RepN7SZmE3XrIHPYAAzZLZOipbUDBpznvOuyU5U_O1_3Q12GmlO7Q==",
+   "status": null
+  },
+  {
+   "id": "msg_00a9d5218c879e27016a9b6e92a2a887d29e9ffb2095b1ada3",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": null,\n  \"effective_date\": null,\n  \"criteria_quotes\": [\n    \"the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\"\n  ],\n  \"appeal_deadline\": \"2027-02-09. The notice states that the appeal must be received within 180 days of 2026-08-13.\",\n  \"submission_route\": \"Submit the appeal in writing to: MVP Health Care Appeals Department, 625 State Street, Schenectady, NY 12305. MVP\u2019s member appeal page also states that an appeal may be filed by telephone through the Member Services/Customer Care number on the back of the member ID card or in person at an MVP location. Supporting documents may be faxed; for non-Medicare members, MVP lists 518-386-7600. The page states that an appeal itself cannot be filed by fax.\",\n  \"how_to_obtain_criteria\": \"Request the exact medical-necessity policy and clinical-review criteria used for CPT 29881 by calling the Member Services/Customer Care number on the back of the MVP ID card. Ask MVP to provide the policy title, policy number, version or effective date, the specific criteria applied, and the clinical-review rationale for reference POC-5EDC35C98D-81118. The treating provider can also request the criteria and the records relied upon in the prior-authorization review.\",\n  \"confidence\": \"moderate\",\n  \"notes\": \"MVP publicly posts a large compilation titled \u201c2026 MVP Health Care Medical Policies,\u201d with search results identifying versions updated February 1, April 1, and June 1, 2026. However, I could not verify from the publicly retrievable material a distinct policy document containing the governing medical-necessity criteria for CPT 29881, its policy number, or the exact conservative-treatment requirements. MVP\u2019s public appeal page is https://www.mvphealthcare.com/members/resources/appeals.\"\n}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": "final_answer"
+  }
+ ],
+ "stop_reason": "completed",
+ "usage": {
+  "input_tokens": 71994,
+  "output_tokens": 2185
+ },
+ "model": "gpt-5.6-luna",
+ "elapsed_s": 44.8,
+ "run_id": "r-9955aab1309e",
+ "case_id": "poc-5edc35c98d"
+}

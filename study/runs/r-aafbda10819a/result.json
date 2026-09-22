@@ -1,0 +1,742 @@
+{
+ "answer": {
+  "policy_found": false,
+  "policy_title": null,
+  "policy_number": null,
+  "policy_url": null,
+  "effective_date": null,
+  "criteria_quotes": [],
+  "appeal_deadline": "Your letter states 180 days from 2026-08-03 (deadline 2027-01-30). However, Arkansas Medicaid's own published fair-hearing rules (via AFMC, the state's UM contractor) state that a Medicaid recipient's fair hearing request must be received by DHS within 35 calendar days of the date on the denial letter \u2014 i.e., by approximately 2026-09-07. Because of this conflict, do not rely on the 180-day figure; file your appeal/fair-hearing request as soon as possible, well within 35 days, to protect your rights.",
+  "submission_route": "Two parallel channels exist: (1) Provider 'reconsideration' \u2014 the treating provider can request reconsideration in writing within 35 calendar days of the denial letter, submitted electronically via the Arkansas Medicaid Healthcare Provider Portal or by mail/fax to AFMC (phone 800-426-2234), including the denial letter and additional medical necessity documentation. (2) Member 'Fair Hearing' \u2014 you (the beneficiary) may request a fair hearing in writing, sent to: Arkansas Department of Human Services, Office of Appeals and Hearings, P.O. Box 1437, Slot N401, Little Rock, AR 72203-1437 (physical location 7th and Main Streets, Little Rock). This must be received within 35 calendar days of the denial letter date per AFMC/DHS published guidance.",
+  "how_to_obtain_criteria": "1) Call AFMC Clinical Services at 479-649-8501 (option 1) or 800-426-2234 and ask specifically which MCG (Milliman Care Guidelines) guideline title/edition and which 'AFMC In-House Guideline for Level 1 Approval of Surgical Procedure' were applied to this CPT 63030 request, and ask for a written copy or summary of the criteria used, citing your reference number POC-007830134D-50943. 2) Under Arkansas Medicaid Fair Hearing rules, request the complete case file/rationale used in the determination as part of your appeal \u2014 the payer must be able to produce the specific criteria relied upon. 3) The treating surgeon's office can also request the AFMC physician reviewer's specific rationale as part of a reconsideration request, since only a physician advisor (not just a nurse screener) can issue a full denial. 4) Ask your provider or DHS caseworker for a copy of Arkansas Medicaid Physician Provider Manual Section 261.000/262.000, which at minimum confirms the PA requirement and process (I could not access the current manual text online due to a site access restriction, but it is a public regulatory document obtainable from Arkansas DHS or AFMC).",
+  "confidence": "low-medium",
+  "notes": "I could not find a single, publicly retrievable 'medical policy' document with quotable medical-necessity criteria specific to CPT 63030 for Arkansas Medicaid. The substantive clinical criteria appear to be MCG (Milliman) Care Guidelines, which AFMC states explicitly are proprietary and cannot be distributed/printed outside a gated verification portal (https://review.afmc.org/clinical-guidelines) \u2014 I was not able to log in or retrieve the guideline text. The procedural authorization framework (Sections 260.000-262.000 of the Arkansas Medicaid Physician Provider Manual) is public in principle, but the current manual file returned an HTTP 403 (login/access wall) when I tried to fetch it directly; only older/historical versions and transmittal notices were accessible, and none contained substantive spine-surgery clinical criteria (they largely listed billing codes and procedural rules). I also could not confirm with certainty whether Emerson's Arkansas Medicaid coverage is fee-for-service (reviewed by AFMC) or through a specific managed care entity (e.g., Arkansas Total Care, Empower Healthcare Solutions, or Summit Community Care) \u2014 the letter names only 'Medicaid, state of Arkansas' with no MCO, and the reference-number format (POC-...) did not match any pattern I could positively identify as a specific MCO's numbering scheme. IMPORTANT: There is a material conflict between the 180-day appeal deadline stated in the denial letter and the 35-calendar-day fair-hearing deadline published by AFMC/Arkansas DHS for Medicaid recipients. The patient should treat 35 days as the operative deadline out of caution and seek written clarification/confirmation of the correct deadline immediately, ideally also contacting Arkansas Legal Aid or DHS directly to confirm which deadline governs THIS specific determination, since the letter itself is the payer's own representation and may be enforceable against the payer even if it conflicts with AFMC's general published rule."
+ },
+ "raw_text": "## Summary of findings\n\nI was **not able to locate a specific, publicly\u2011posted \"medical policy\" document containing the medical\u2011necessity criteria for CPT 63030** that this payer applied. Here is what I *could* verify, and what remains missing.\n\n### What I confirmed\nThe notice identifies the payer only as \"Medicaid, state of Arkansas\" with no managed-care organization named, which corresponds to the **Arkansas Medicaid fee\u2011for\u2011service program**. For that program:\n\n- Surgical procedures (including spine procedures) requiring prior authorization are governed procedurally by the **Arkansas Medicaid Physician/Independent Lab/CRNA/Radiation Therapy Center Provider Manual, Section II \u2014 \u00a7260.000 \"Prior Authorization,\" \u00a7261.000 \"Obtaining Prior Authorization of Restricted Medical and Surgical Procedures,\" and \u00a7262.000 \"Procedures That Require Prior Authorization.\"** This section only establishes *which CPT codes need PA and how to submit*, not the clinical criteria. I could not load the current manual text directly (humanservices.arkansas.gov returned 403 Forbidden for the manual files), though historical versions confirm this section structure.\n- The actual **medical\u2011necessity clinical criteria** used to review surgical prior\u2011authorization requests (the entity that reviews these on behalf of Arkansas Medicaid is **AFMC**, the state's UM/PA contractor) are stated by AFMC to be **MCG (Milliman) Care Guidelines**, supplemented by \"**AFMC In\u2011House Guidelines for Level 1 Approval of Surgical Procedure**\" for initial nurse-level screening. AFMC's own site states: *\"AFMC uses MCG care guidelines to help review medical necessity for health service requests. MCG care guidelines are the protected intellectual property of MCG. AFMC is not able to distribute them without the permission of MCG.\"* Access is only through a gated, non\u2011printable third\u2011party portal after accepting terms \u2014 I could not retrieve or quote the actual lumbar\u2011discectomy criteria text from it.\n- I also found an important **discrepancy about the appeal deadline**: your letter states 180 days, but AFMC's published description of the Arkansas Medicaid fair\u2011hearing process (consistent across multiple AFMC review-service pages and an Arkansas Register regulation) says: *\"The Medicaid client may request a fair hearing... The fair hearing request must be in writing and sent to the Appeals and Hearings Section of DHS within 35 calendar days of the date on the denial letter.\"* This is far shorter than what your letter says, so I flag it as something to resolve immediately (see notes).\n\n```json\n{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": null,\n  \"effective_date\": null,\n  \"criteria_quotes\": [],\n  \"appeal_deadline\": \"Your letter states 180 days from 2026-08-03 (deadline 2027-01-30). However, Arkansas Medicaid's own published fair-hearing rules (via AFMC, the state's UM contractor) state that a Medicaid recipient's fair hearing request must be received by DHS within 35 calendar days of the date on the denial letter \u2014 i.e., by approximately 2026-09-07. Because of this conflict, do not rely on the 180-day figure; file your appeal/fair-hearing request as soon as possible, well within 35 days, to protect your rights.\",\n  \"submission_route\": \"Two parallel channels exist: (1) Provider 'reconsideration' \u2014 the treating provider can request reconsideration in writing within 35 calendar days of the denial letter, submitted electronically via the Arkansas Medicaid Healthcare Provider Portal or by mail/fax to AFMC (phone 800-426-2234), including the denial letter and additional medical necessity documentation. (2) Member 'Fair Hearing' \u2014 you (the beneficiary) may request a fair hearing in writing, sent to: Arkansas Department of Human Services, Office of Appeals and Hearings, P.O. Box 1437, Slot N401, Little Rock, AR 72203-1437 (physical location 7th and Main Streets, Little Rock). This must be received within 35 calendar days of the denial letter date per AFMC/DHS published guidance.\",\n  \"how_to_obtain_criteria\": \"1) Call AFMC Clinical Services at 479-649-8501 (option 1) or 800-426-2234 and ask specifically which MCG (Milliman Care Guidelines) guideline title/edition and which 'AFMC In-House Guideline for Level 1 Approval of Surgical Procedure' were applied to this CPT 63030 request, and ask for a written copy or summary of the criteria used, citing your reference number POC-007830134D-50943. 2) Under Arkansas Medicaid Fair Hearing rules, request the complete case file/rationale used in the determination as part of your appeal \u2014 the payer must be able to produce the specific criteria relied upon. 3) The treating surgeon's office can also request the AFMC physician reviewer's specific rationale as part of a reconsideration request, since only a physician advisor (not just a nurse screener) can issue a full denial. 4) Ask your provider or DHS caseworker for a copy of Arkansas Medicaid Physician Provider Manual Section 261.000/262.000, which at minimum confirms the PA requirement and process (I could not access the current manual text online due to a site access restriction, but it is a public regulatory document obtainable from Arkansas DHS or AFMC).\",\n  \"confidence\": \"low-medium\",\n  \"notes\": \"I could not find a single, publicly retrievable 'medical policy' document with quotable medical-necessity criteria specific to CPT 63030 for Arkansas Medicaid. The substantive clinical criteria appear to be MCG (Milliman) Care Guidelines, which AFMC states explicitly are proprietary and cannot be distributed/printed outside a gated verification portal (https://review.afmc.org/clinical-guidelines) \u2014 I was not able to log in or retrieve the guideline text. The procedural authorization framework (Sections 260.000-262.000 of the Arkansas Medicaid Physician Provider Manual) is public in principle, but the current manual file returned an HTTP 403 (login/access wall) when I tried to fetch it directly; only older/historical versions and transmittal notices were accessible, and none contained substantive spine-surgery clinical criteria (they largely listed billing codes and procedural rules). I also could not confirm with certainty whether Emerson's Arkansas Medicaid coverage is fee-for-service (reviewed by AFMC) or through a specific managed care entity (e.g., Arkansas Total Care, Empower Healthcare Solutions, or Summit Community Care) \u2014 the letter names only 'Medicaid, state of Arkansas' with no MCO, and the reference-number format (POC-...) did not match any pattern I could positively identify as a specific MCO's numbering scheme. IMPORTANT: There is a material conflict between the 180-day appeal deadline stated in the denial letter and the 35-calendar-day fair-hearing deadline published by AFMC/Arkansas DHS for Medicaid recipients. The patient should treat 35 days as the operative deadline out of caution and seek written clarification/confirmation of the correct deadline immediately, ideally also contacting Arkansas Legal Aid or DHS directly to confirm which deadline governs THIS specific determination, since the letter itself is the payer's own representation and may be enforceable against the payer even if it conflicts with AFMC's general published rule.\"\n}\n```\n\n**Bottom line:** I can identify *who* reviews this determination (AFMC, using MCG/Milliman Care Guidelines plus AFMC's own Level-1 surgical approval guidelines) and the procedural manual sections that require prior authorization, but I could not retrieve or quote the actual medical-necessity criteria text for CPT 63030, because that content is proprietary/licensed and gated behind a non-public portal, and the state provider manual pages I tried were access-restricted. I'd recommend the patient/provider directly request the specific criteria and file (citing reference POC-007830134D-50943) from AFMC and, given the appeal-deadline discrepancy, file the appeal immediately rather than waiting.",
+ "usd": 0.2319,
+ "transcript": [
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "text",
+     "text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-03\nMember: Emerson Iverson\nMember ID: W898477218\nPlan: Medicaid (Medicaid), state of Arkansas\n\nDear Emerson,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Lower back disc surgery / decompression\n    Procedure code (CPT): 63030\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-30).\n\nReference number: POC-007830134D-50943\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EuEECpABCBIYAipAJf3l16p/Rp7XXqDmhPw7yQfXXPZ6zNyb6Vn5zDs93UAC5AY2kfdj5hxSaLAhH4beHKcihpmO/L2KCX7T+A2gBzIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAdvxwdUGEgwmqzMSqraScQbKdtsaDM8tzOTMvvPUtn58UiIwzHEAejOJ5LNay4fZDtRIQeCXQrkoF0luoDqcEoQNYjPIs8XjecasU2EfiTqsX4zgKv0CJun+OUvN0y5wJ/S7ljT0hzmYiTZDMF3cs0PO36jQdwg+gUYwbL6Hlrv0WikuwNn9G4cdHFM9wAXbMXlj4RG9HGTyfyYtWe8GGEHgrnG3rG3edUtuseLTDVhwLraP5J4MNd0jZtzKQoBkE5fBZKR0ifKOKv0r0vL3ti5A2BG29opVT8eKmjXCcSzq67m5KnCG6Q8MNPlPNWXcDw7hvbgJoTeO0ww6nxUpLwikIpXcG/yIZwp+83mJReznI0lFUUCSqbm1GMVra9mWfpRF++d4eLzrhYIGcJ/ViFXEZqmi+gaHO0gfkmyIw51Z5S3/QWDRgz1FkEfi+ohclL+PEvm4zHHYD8i47LuvN5vaGkmJFeCUqaYlnd7IQpCGNRNuMrRaXwaGRfYr/SGVeWx07QSmGe/uCbYRPFBH+Yf3LTTr8s51yDstOyUIGsuoRd5Q1PKP8F9KGGOqerG7o2MQhnElBzklZgcVjOj3khoUQG5RrHxbqODJY5oM/5RBEpMMGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_017ivKRNgMR1MP4queMz2EL1",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Arkansas Medicaid CPT 63030 medical necessity policy lumbar discectomy"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01FWxvadBU5b55DrBHCUwizx",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Arkansas Medicaid prior authorization spine surgery medical necessity criteria"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_017ivKRNgMR1MP4queMz2EL1",
+     "content": "{\"query\": \"Arkansas Medicaid CPT 63030 medical necessity policy lumbar discectomy\", \"results\": [{\"title\": \"CPT Code 63030: What It Is, Modifiers, Reimbursement\", \"url\": \"https://www.mdclarity.com/cpt-code/63030\", \"snippet\": \"Additionally, this code <strong>covers the excision of a herniated intervertebral disc if necessary</strong>. The procedure is specific to one interspace in the lumbar spine, which is the lower back region. For CPT code 63030, several modifiers may be applicable depending on the specific circumstances of the ...\"}, {\"title\": \"Spine Surgery Billing Guidelines\", \"url\": \"https://www.medisysdata.com/blog/spine-surgery-billing-guidelines/\", \"snippet\": \"Microdiscectomy (L4-L5): CPT Codes: 63030 for a <strong>single-level discectomy without fusion</strong>.\"}, {\"title\": \"CPT Code 63030: Lumbar Microdiscectomy Guide [Coding Guide] - BrainyBio.blog\", \"url\": \"https://brainybio.blog/cpt-code-63030-lumbar-microdiscectomy\", \"snippet\": \"In addition to radiculopathy, 63030 ... is an emergency scenario. <strong>In elective cases, the surgeon must demonstrate that the Medical Necessity for the laminotomy and discectomy is supported by both clinical exams and objective diagnostic imaging</strong>....\"}, {\"title\": \"Procedure Price Lookup for Outpatient Services | Medicare.gov\", \"url\": \"https://www.medicare.gov/procedure-price-lookup/cost/63030/\", \"snippet\": \"Use official Procedure Price Lookup tool to compare national average to Medicare costs in ambulatory surgical centers, hosptial outpatient departments\"}, {\"title\": \"cpt 63030 vs 63047 | Medical Billing and Coding Forum - AAPC\", \"url\": \"https://www.aapc.com/discuss/threads/cpt-63030-vs-63047.92013/\", \"snippet\": \"I recently had another coder tell me that <strong>63030 is only used when a discectomy has been done</strong>. I have not been using the code for just that-- my interpretation is and/or meaning a discectomy does not always have to be done. This is the surgery we were discussing has the dx of lumbar stenosis. my...\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01FWxvadBU5b55DrBHCUwizx",
+     "content": "{\"query\": \"Arkansas Medicaid prior authorization spine surgery medical necessity criteria\", \"results\": [{\"title\": \"Prior Authorization | Arkansas Medicaid Review Services | AFMC\", \"url\": \"https://review.afmc.org/review-services/prior-authorization\", \"snippet\": \"Arkansas Medicaid requires that some surgical procedures be authorized by AFMC prior to the performance of the procedure. Procedures can require authorization regardless of whether they are performed on an inpatient or outpatient basis. A registered nurse Clinical Services Specialist initially screens the prior authorization requests. If the documentation submitted supports medical necessity, the Clinical Services Specialist may approve the prior authorization.\"}, {\"title\": \"Arkansas Code-Title 23-Subtitle 3-Chapter 99-Subchapter 11. Prior Authorization Transparency Act - Managed Care Contracting\", \"url\": \"https://managedcarelegaldatabase.org/state-law/chapter-99-healthcare-providers-subchapter-11-prior-authorization-transparency-act-4/\", \"snippet\": \"(B) \u201cEmergency healthcare service\u201d includes the medically necessary surgical treatment of a condition discovered in the course of a surgical procedure originally intended for another purpose, so long as the subsequent surgical procedure is a covered benefit under the healthcare plan, and whether or not the originally intended surgical procedure or the subsequent surgical procedure for the condition discovered during surgery is subject to a prior authorization requirement;\"}, {\"title\": \"Prescription & Prior Authorization Request for Medical ...\", \"url\": \"https://www.humanservices.arkansas.gov/wp-content/uploads/DMS-679A.doc\", \"snippet\": \"We Care. We Act. We Change Lives. Together we improve the quality of life of all Arkansans by protecting the vulnerable, fostering independence, and promoting better health.\"}, {\"title\": \"016.06.12 Ark. Code R. \u00a7 012 - Provider Manual Update Transmittal Prosthetics 1-12 and Provider Manual Update Transmittal Section V 1-12 | State Regulations | US Law | LII / Legal Information Institute\", \"url\": \"https://www.law.cornell.edu/regulations/arkansas/016-06-12-Ark-Code-R-SS-012\", \"snippet\": \"<strong>If a beneficiary&#x27;s condition warrants a modification or replacement and the $3,000.00 SFY benefit limit has not been met</strong>, the provider may submit documentation to AFMC, to substantiate medical necessity.\"}, {\"title\": \"Arkansas Medicaid Prescription Drug Program Statement of Medical Necessity\", \"url\": \"https://eforms.com/download/2017/05/Arkansas-General-Request-Prior-Authorization-Form.pdf\", \"snippet\": \"complete the appropriate prior authorization request, Medically Necessary (Medwatch), and Informed Consent forms that can be found at \u00b7 https://arkansas.magellanrx.com -&gt; Provider -&gt; Resources -&gt; Forms\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EpoECpABCBIYAipADNQG6upRMJyfQiWHTo4z/v3MiaBQH4UcbHA2y0LeePrMJ5aze0TExnciHo30LS/wpAeCEKrAPF8TzQ3XdKGqRzIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAeDxwdUGEgy+ZRQCE1Zlh9KlqpAaDJ1yO7ollFzouYEMNCIwDoyXs7ANSZwuiVzAXmewM1bFejbpP7476RcA9kVB2evSQMRv3kIkhWk2EQ7R/IpZKrYC4j4Zu6E9+EY6zsm+Ory7tp3RMWrGvrUDlXlM1LIqRi+FEhG0v1ZzTWs0ot0guABT5FrdjaxO/CFYxlfrmdjku9mICxbAfBqpbFoV/OQrDSjbJ4gsTxPj34iEB7eRQhy/COJ5ybSNdk1AZUqBXLetNqtFkzbTBfxxdoj/v2kOT3/zYQfs5bQ7n1apx68K4yRM1YMAmu80pid8CJByoFj/lL6ClnL/rZBtXykKWCjjpA1a3Zk6fNBbOqhLKFZ73lbzAj0WE+V0dVeiYfu1YZEPof40Y1AlxiZEJVUpzqFywhFJnhFPNtQRWWrzyanJmzaFTHqLe9TEmDjPf26Dv2EsHndZun2+6F1KtC65Pvv8pFND2pCLzhg6/iCjVaiXNdjAuN0QK2t9zmsAEo5La3e6cVjU1ywQOxgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01T8xDgFx4jszBAPD9W2cqu7",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "AFMC Arkansas Medicaid surgical prior authorization manual InterQual criteria spine"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01UvrDeXHjfUk6cTQpZ3GwoE",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Arkansas Medicaid provider manual Section II Surgery prior authorization criteria back surgery"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01CmLFzjwXWXrUN3uM7AxLZJ",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://review.afmc.org/review-services/prior-authorization"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01T8xDgFx4jszBAPD9W2cqu7",
+     "content": "{\"query\": \"AFMC Arkansas Medicaid surgical prior authorization manual InterQual criteria spine\", \"results\": [{\"title\": \"Prior Authorization | Arkansas Medicaid Review Services | AFMC\", \"url\": \"https://review.afmc.org/review-services/prior-authorization\", \"snippet\": \"See \u201cObtaining Prior Authorization of Restricted Medical and Surgical Procedures\u201d in the Arkansas Medicaid Physician\u2019s Provider Manual, Section 261.000.\"}, {\"title\": \"Arkansas Department of Health and Human Services Division of Medical Services\", \"url\": \"https://www.sos.arkansas.gov/uploads/rulesRegs/Arkansas%20Register/2007/jun_2007/016.06.07-028.pdf\", \"snippet\": \"Medicaid provider manual. ... Specimen handling is not covered. ... Burn dressing changes are not included in outpatient surgical groups.\"}, {\"title\": \"Medicaid Review and Prior Authorization Services | AFMC\", \"url\": \"https://review.afmc.org/review-services\", \"snippet\": \"AFMC\u2019s Fort Smith office ensures efficient, necessary health care services for public and private plans, enhancing care quality and preventing fraud.\"}, {\"title\": \"medicaid update - ARKANSAS PHYSICIAN - AFMC.org\", \"url\": \"https://medicaid.afmc.org/images/Provider-Relations/Arkansas-Physician-Medicaid/ArkMedicaidPhysicianNewsQTR_1_2025_20240705_v15.pdf\", \"snippet\": \"<strong>Each Prior Authorization request will have a unique, numeric identifier</strong>.\"}, {\"title\": \"Arkansas Medicaid Provider Portal Prior Authorization Process Karen Young\", \"url\": \"https://www.arkmed.org/wp-content/uploads/2019/09/AFMC-MMIS-Presentation.pdf\", \"snippet\": \"Arkansas Medicaid \u00b7 Provider Portal Prior \u00b7 Authorization Process \u00b7 Karen Young \u00b7 Training and Program Developer \u00b7 MMIS, AFMC \u00b7 Agenda \u00b7 New AFMC PA process on the Healthcare Portal \u00b7 Top denials for AFMC prior authorizations \u00b7 Contact information\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01UvrDeXHjfUk6cTQpZ3GwoE",
+     "content": "{\"query\": \"Arkansas Medicaid provider manual Section II Surgery prior authorization criteria back surgery\", \"results\": [{\"title\": \"section ii - AMBULATORY SURGICAL CENTER\", \"url\": \"https://humanservices.arkansas.gov/wp-content/uploads/070629_ASC_II.doc\", \"snippet\": \"|220.000 PRIOR AUTHORIZATION | ... requires prior authorization (PA). 1. Clinical criteria for PA are <strong>whether the procedure is medically necessary and/or appropriate to the particular condition or disorder</strong>....\"}, {\"title\": \"Prior Authorization | Arkansas Medicaid Review Services | AFMC\", \"url\": \"https://review.afmc.org/review-services/prior-authorization\", \"snippet\": \"See \u201cObtaining Prior Authorization of Restricted Medical and Surgical Procedures\u201d in the Arkansas Medicaid Physician\u2019s Provider Manual, Section 261.000.\"}, {\"title\": \"All Providers - Arkansas Department of Human Services\", \"url\": \"https://humanservices.arkansas.gov/divisions-shared-services/medical-services/helpful-information-for-providers/manuals/all-prov/\", \"snippet\": \"Provider Manual The following sections of the Arkansas Medicaid provider manual apply to all provider types. For information specific to your provider type, refer to Section II of that provider manual. To see the full history of Notices of Rulemaking and Official Notices for all provider types, please download from the manual \u201cOther Policy-Related Notifications [\u2026]\"}, {\"title\": \"Arkansas Department of Health and Human Services Division of Medical Services\", \"url\": \"https://www.sos.arkansas.gov/uploads/rulesRegs/Arkansas%20Register/2007/jun_2007/016.06.07-028.pdf\", \"snippet\": \"PA is Medicaid coverage and \u00b7 reimbursement; frequently, additional regulations and conditions apply to a case but have \u00b7 no connection to the PA. Examples of such conditions follow. ... The beneficiary must be eligible on the date of service. ... The procedures in this section, 221.100, apply to all requests for PA of outpatient surgeries. ... In approved cases, AFMC assigns a prior authorization control number to the case.\"}, {\"title\": \"016.06.03 Ark. Code R. \u00a7 019 - Section I - All Medicaid Provider Manuals; Section II & III - All Medicaid Provider Manuals | State Regulations | US Law | LII / Legal Information Institute\", \"url\": \"https://www.law.cornell.edu/regulations/arkansas/016-06-03-Ark-Code-R-SS-019\", \"snippet\": \"D. The recipient will not be responsible for billings denied because of errors made by Medicaid or the fiscal agent or due to changes in state or federal mandates. E. The recipient may not be billed for services denied because a provider failed to request required approval for a service or failed to meet procedural requirements. For instance, a provider may not bill a recipient for a non-emergency surgery for which prior authorization is required but was not requested.\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01CmLFzjwXWXrUN3uM7AxLZJ",
+     "content": "{\"url\": \"https://review.afmc.org/review-services/prior-authorization\", \"final_url\": \"https://review.afmc.org/review-services/prior-authorization\", \"http_status\": 200, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Prior Authorization | Arkansas Medicaid Review Services | AFMC AFMC Main Site Facebook Instagram Linkedin X Youtube Search Home Clinical Services Assistant Surgeon Emergency Room Extension of Benefits Hyperalimentation Medicaid Utilization Prior Authorization Prosthetics Retrospective Review Physician Reviewers Contact Us Retrospective Review Clinical Services Appealing a Denial Under the Medicaid Fairness Act, recipients and providers may request a hearing to appeal a denial. Learn more about the Medicaid Fairness Act. Know Your Rights Become a Physician Reviewer Attention Arkansas Physicians! We value your expertise and participation. Learn how to become a physician reviewer and join our amazing team. Earn Extra Income Surgical Procedure Prior Authorization Arkansas Medicaid requires that some surgical procedures be authorized by AFMC prior to the performance of the procedure. Procedures can require authorization regardless of whether they are performed on an inpatient or outpatient basis. A registered nurse Clinical Services Specialist initially screens the prior authorization requests. If the documentation submitted supports medical necessity, the Clinical Services Specialist may approve the prior authorization. If the Clinical Services Specialist is unable to approve medical necessity of the requested service, the review is referred to a physician advisor for determination. AFMC utilizes physicians who are licensed in the state of Arkansas to review the prior authorization requests. The physician advisor uses his/her medical judgment in accordance with established Medicaid policies to review medical necessity of the requested service. Providers are encouraged to utilize the preferred method of submitting electronic requests through the web-based Arkansas Medicaid Healthcare Provider Portal. If you are not currently enrolled to submit electronic requests, please visit the link below or reach out to your provider representative for assistance. Benefits of utilizing the Arkansas Medicaid Healthcare Provider Portal for electronic submissions are as follows: Reduces time and expense associated with paper submissions 24/7 access for providers to submit requests and review results Requests can be tracked from submission to completion. Providers can view decision results immediately upon review completion. FREE Secure and HIPAA compliant Records can be directly attached to the request. Arkansas Medicaid Provider Portal AFMC/MMIS Outreach Specialist Information Sheet For telephonic requests, call AFMC at 800-426-2234 between 8:00 a.m.-12:00 p.m. and 1:00 p.m.-4:30 p.m. Monday through Friday , except for holidays. All calls are monitored for quality assurance purposes. See \u201cObtaining Prior Authorization of Restricted Medical and Surgical Procedures\u201d in the Arkansas Medicaid Physician\u2019s Provider Manual, Section 261.000. CPT codes that require prior authorization by AFMC can be found in your Arkansas Medicaid Physician\u2019s Provider Manual ( Section 262.000 Procedures That Require Prior Authorization). These manuals, as well as the manual updates, are disseminated to all Arkansas Medicaid providers by Medicaid . The following information is required for AFMC to conduct a review for the medical necessity of a prior-authorization procedure: Patient name and address (including zip code) Patient birthdate Patient Medicaid number Admission and procedure date Hospital or ambulatory surgery center name Facility Medicaid provider number Medicaid provider number of physician performing procedure CPT code for procedure(s) Principal diagnosis and any other diagnoses Signs/symptoms of illness Medical indication for justification of procedure(s) Notice of adverse actions, reconsideration, appeals and hearings If AFMC is unable to fully approve any requested service, all applicable parties are notified in writing of the review determination along with detailed instructions on how to request an appeal. Reconsideration requests The provider may request reconsideration of the denial within 35 calendar days of the date on the denial letter. Requests must be made in writing and include a copy of the denial letter and additional documentation to substantiate the medical necessity of the requested services. Requests received after 35 calendar days of the denial date will not be accepted for reconsideration. If the denial decision is reversed during the reconsideration review, an approval is forwarded to the provider specifying the approved units and services. If the denial decision is upheld, the provider and the Medicaid client will be notified in writing of the review determination. Reconsideration is available only once per prior authorization request. Reconsiderations can be submitted utilizing the same methods as the initial request; however, the preferred method is electronically through the Arkansas Medicaid Healthcare Provider Portal. Fair hearing requests The Medicaid client may request a fair hearing of a denied review determination made by either the Utilization Review Department of Human Services (DHS) or AFMC. The fair hearing request must be in writing and sent to the Appeals and Hearings Section of DHS within 35 calendar days of the date on the denial letter. Providers may refer to Section 190.000 of the Arkansas Medicaid Provider Manual for more information. Medicaid Provider Fair Hearing requests must be sent to Arkansas Department of Health , Medicaid Provider Appeals Office, 4815 West Markham Street \u2013 Slot 31, Little Rock, AR 72205. Contact us If you have further questions on specific reviews, please email us at This email address is being protected from spambots. You need JavaScript enabled to view it. or contact AFMC\u2019s Clinical Services Department at 479-649-8501 , option 1. AFMC Contact Facebook Instagram Linkedin X Youtube Search USEFUL LINKS Arkansas Department of Human Services Arkansas Medicaid Healthcare Portal Arkansas Department of Health Arkansas Medicaid Health Utilization Management 01/01/2027 \u00a9 2026 AFMC Privacy and Terms Corporate Culture Disclaimers Code of Conduct Accessibility Transparency in Coverage Home Clinical Services Assistant Surgeon Emergency Room Extension of Benefits Hyperalimentation Medicaid Utilization Prior Authorization Prosthetics Retrospective Review Physician Reviewers Contact Us Retrospective Review\", \"text_truncated\": false}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "Eq8ICpABCBIYAipAcnG/aJU/B94yQWCrp/3BSR/49SaXVvR6g9uWEsZshayISw/80k4/DGACOF3lI+CCZ0tnaME1Lx+xtiIyBy+WVzIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAenxwdUGEgyRf/RfZDgw5o9u0lIaDPRYGg+wUMmF/5TjryIw5MMX1yM+UvdJ6fyOz+o2S1c+CGp2Guri6c9rXYXNzmTWq4ZHoDZ5t86dRtl2mlBhKssGCyRHlph2JhiYpMttitZf7N8zTF92j15dfeOOaFI9VujxPdtFQxZwnq3mOPkhBBfv6RlecxkmJc0iAJAD0vieFnJpBPNvBrBs1CfT0v0Wn5eR71gtz4b2x9AgtDlUlcWzmEkaxTk7EkeQpzPkeJOvzPPf4mHmM+tvUo5plY8T1cSauk1wAGalFCsPjmy0dCYkvPahy03GwMByS+4pELJHwEPlmC2z5th9pwHcsqcjThn3j2odlvdTDuKLBlPIMbecBQILiEh3+M+SlkWDnjEN5pKIIPSdmcaLo5Q1+yOo0W86xEK6db7QMH40kKnQHvsO2cV5gKaEiXLGqcIfTHC/00AjLfrkVB7ofgXLzjRNGgXhhA0n/2Lwc80b44zLxw6zduuZe6OwJ6VwJtto4hYEpooHm09jkWA1Be7V/9gEj6nu7FLlplbW9/sOLeHuT+nLxxtAEKq0/0M4Ui4EyC6g4PocE7Dl0gv2eMg4P3AEV+mdhU5EcnTKHOc6EJiz/Wc/CUSnxNmFoVmYjm3pRPhC1CKzIscNk6+Ptm1OGDJRt87wprSxa/1o3CvUP39nYKMBHMBak5KucqhV3qRDl+SbnkWf1AgJo5CiYDfr9B2urzULcn+/V2vi4Si8Vp6z0QX+SfyHJSd7fzjmNca615CvEk0mohbbMmaRmo6mj5pgxkruSjMLJYuWNCYEsiOBHkBypoHjNMNg0xajUPgUCBiQjlryv2e8/gCz0bb2/8bbBKuPayxH6hIiYnP//ZOXYC/LhB5VGwnlk21HQLXbwVk8vUiV4NzhNQ6yNwi3A4FnI+DzFZ88FtBi5Ebl0I9O5lo6BgQI7xPHy8sjE5RbTrG/LwGuHh/x20KFv2/xORm9PH9ScyDRt+siRUOkH+COMClFBcFLOWKBFF241oPtvCaDTo5/wt5m/TF5Vst0PW+hz4q6zlyt+aoS82ZGYOA42OHseGj4FZb3MErlEmi9Jbf4nYQgl+IBcM5Hdgvbt0uiAPcsF9yWA1Yh5wn0APCPWxlK2gYqM9gYFh2BltoV9OMBvFY74/ekM9/p0SNNfblq8/yHvF3qsnZUxABaglMu0zAeKXahXNheqgrtQRtubu1d2HVhWHLGMJZsFTwYGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01GhGTLvBTRts5kVVxVUQF4B",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Arkansas Medicaid Physician Provider Manual Section 261.000 262.000 prior authorization restricted procedures"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01HjahyBUwYvTosuEK11ipND",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"Arkansas Medicaid\" physician provider manual pdf section II 262.000 CPT list prior authorization"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01GhGTLvBTRts5kVVxVUQF4B",
+     "content": "{\"query\": \"Arkansas Medicaid Physician Provider Manual Section 261.000 262.000 prior authorization restricted procedures\", \"results\": [{\"title\": \"Prior Authorization | Arkansas Medicaid Review Services | AFMC\", \"url\": \"https://review.afmc.org/review-services/prior-authorization\", \"snippet\": \"See \u201cObtaining Prior Authorization of Restricted Medical and Surgical Procedures\u201d in the Arkansas Medicaid Physician\u2019s Provider Manual, Section 261.000. CPT codes that require prior authorization by AFMC can be found in your Arkansas Medicaid Physician\u2019s Provider Manual (Section 262.000 Procedures That Require Prior Authorization).\"}, {\"title\": \"Division of Medical Services - Arkansas.gov\", \"url\": \"https://www.sos.arkansas.gov/uploads/rulesRegs/Arkansas%20Register/2009/oct_2009/016.06.09-036.pdf\", \"snippet\": \"Section 221.100 is revised to update information about Family Planning aid categories. Section 251.270 is revised to provide coverage information regarding Bariatric Surgery. Sections 261.000 and 262.000 are revised to add <strong>Bariatric surgical CPT procedure codes</strong> to the\"}, {\"title\": \"Arkansas Department of Health and Human Services Division of Medical Services\", \"url\": \"https://www.sos.arkansas.gov/uploads/rulesRegs/Arkansas%20Register/2007/jun_2007/016.06.07-019E.pdf\", \"snippet\": \"<strong>The physician must request prior authorization for the abortion procedures and for anesthesia</strong>. Refer to section 260.000 of this manual for prior authorization procedures.\"}, {\"title\": \"Division of Medical Services - Arkansas Secretary of State\", \"url\": \"https://www.sos.arkansas.gov/uploads/rulesRegs/Arkansas%20Register/2008/oct_2008/016.06.08-035.pdf\", \"snippet\": \"<strong>The physician must request prior authorization for the abortion procedures and for anesthesia</strong>. Refer to section 260.000 of this manual for prior authorization procedures.\"}, {\"title\": \"200.000 PHYSICIAN/INDEPENDENT LAB/CRNA/RADIATION THERAPY CENTER GENERAL\", \"url\": \"https://humanservices.arkansas.gov/wp-content/uploads/PHYSICN-3-22up.doc\", \"snippet\": \"t of Non-Union Fractures (Exogen) ... 258.000 Hyperbaric Oxygen Therapy (HBOT) 260.000 PRIOR AUTHORIZATION 261.000 <strong>Obtaining Prior Authorization of Restricted Medical and Surgical Procedures</strong> 261.100 Obtaining Prior Authorization 261.110 Post-Procedural Authorization Process ...\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01HjahyBUwYvTosuEK11ipND",
+     "content": "{\"query\": \"\\\"Arkansas Medicaid\\\" physician provider manual pdf section II 262.000 CPT list prior authorization\", \"results\": [{\"title\": \"Prior Authorization | Arkansas Medicaid Review Services | AFMC\", \"url\": \"https://review.afmc.org/review-services/prior-authorization\", \"snippet\": \"See \u201cObtaining Prior Authorization of Restricted Medical and Surgical Procedures\u201d in the Arkansas Medicaid Physician\u2019s Provider Manual, Section 261.000. CPT codes that require prior authorization by AFMC can be found in your Arkansas Medicaid Physician\u2019s Provider Manual (Section 262.000 Procedures That Require Prior Authorization).\"}, {\"title\": \"Arkansas Department of Health and Human Services Division of Medical Services\", \"url\": \"https://www.sos.arkansas.gov/uploads/rulesRegs/Arkansas%20Register/2007/jun_2007/016.06.07-019E.pdf\", \"snippet\": \"The Arkansas Medicaid Program covers CPT procedure code 96900 - Actinotherapy (ultraviolet \u00b7 light). The physician must submit documentation with claim to establish medical necessity. 262.000 \u00b7 Procedures That Require Prior Authorization \u00b7 7-1-07 \u00b7 The following procedure codes require prior authorization: Procedure Codes \u00b7\"}, {\"title\": \"All Providers - Arkansas Department of Human Services\", \"url\": \"https://humanservices.arkansas.gov/divisions-shared-services/medical-services/helpful-information-for-providers/manuals/all-prov/\", \"snippet\": \"Provider Manual The following sections of the Arkansas Medicaid provider manual apply to all provider types. For information specific to your provider type, refer to Section II of that provider manual. To see the full history of Notices of Rulemaking and Official Notices for all provider types, please download from the manual \u201cOther Policy-Related Notifications [\u2026]\"}, {\"title\": \"Division of Medical Services - Arkansas Secretary of State\", \"url\": \"https://www.sos.arkansas.gov/uploads/rulesRegs/Arkansas%20Register/2008/oct_2008/016.06.08-035.pdf\", \"snippet\": \"<strong>prior authorization if done inpatient (e.g., laparoscopic sterilization).</strong>\u2016 \u00b7 Section 256.000 has been updated to delete obsolete information about coverage for this procedure. Arkansas Medicaid Health Care Providers \u2013 Physician/ ... Section 261.130 has been deleted.\"}, {\"title\": \"Division of Medical Services - Arkansas.gov\", \"url\": \"https://www.sos.arkansas.gov/uploads/rulesRegs/Arkansas%20Register/2009/oct_2009/016.06.09-036.pdf\", \"snippet\": \"Thank you for your participation in the Arkansas Medicaid Program. ______________________________________________________ ... The beneficiary must be between 18 and 65 years of age. ... A. The procedures represented by the CPT and HCPCS codes in the following table \u00b7 require prior authorization (PA). The performing physician or dentist (or the referring\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "Ep8DCpABCBIYAipAbq+sAzIvmYnobiLgLmzes5cAHA6Bfk9wXBBa+cX1/RpY5hkG0ajpxE/jf7f8GlnCVQeUvLISo26DgM6ynvM4ejIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAe3xwdUGEgxlwVHwZ7RhE7z3llIaDLuUhfd9r8PoiyAV6yIwi70L/LbmCV4q7FinZ88GwfVRfEjZ/BFRv8fAOv1WG1QqATbgGxEuWip6bIoCtE7fKrsB097iHJvNbXjrgQMlRIYgz+EdVeAIbd/CigR5LGq1CqEL9+JsjhA9Pr1jHbcUJJNQap3cLFiU37p0o7HRa/LxRXoKxiCtXoJ4Wxf+VphKgUSWatrMpkJTzXy0e9+5T4WaMqBeZA/fFKRRGLHW5FFlT6e0ZtNYR3p9tEy4EZEzuc1HaQw5SjNRWzJT4+znaiSPs3ahrtYbrne9SMUbmCHHnj3W1aYHMhaktdg8mrBlPK5l10G0hgAvFcBS3BgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01YUSpHc7iAEWmujHSTTPpoZ",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://humanservices.arkansas.gov/wp-content/uploads/PHYSICN-3-22up.doc"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01YUSpHc7iAEWmujHSTTPpoZ",
+     "content": "{\"url\": \"https://humanservices.arkansas.gov/wp-content/uploads/PHYSICN-3-22up.doc\", \"final_url\": \"https://humanservices.arkansas.gov/wp-content/uploads/PHYSICN-3-22up.doc\", \"http_status\": 403, \"content_type\": \"text/html\", \"login_wall\": true, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"403 Forbidden 403 Forbidden nginx\", \"text_truncated\": false}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EuQCCpABCBIYAipAjyHUggnkiodI4M2GNbAiDlJcbMNy8Zfn0M4vHrl013QDWBfHK2w8Em/XtrHfa/aOL2E4515OhZVV9f5eI2nX1TIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAfDxwdUGEgw4jySS/pPXkKGRAIgaDG23RIBx/Dr4ftwhiCIwK7jsSmY53s0TBOFGHn3rsLBN7Ki7VfKMB/I5mVn0xEgZ/uxU5lGBtBuFXYlSpBBtKoABqNua4MlSOxZ7XAH3to1JRao+Muo1YWj9t5Fqn0QTOMzdO+UhpEsg5x048seC4UVk1gxd8PwTSZLpTe/ri/lSjtsBxWoAxfBnKJTq24l9wAagKoPAwIw7TjoB1YZ5zpFfbwG1akWNwS4BiAOiwwxbTDX4i2RFYOIv25rnWD+Tlf8YAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01NR2iCxzX77kc3cBmV4zFvs",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "humanservices.arkansas.gov physician provider manual section 261.000 262.000 spine surgery back CPT"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01Ng9bpnGFkU74oWSqvrKZkr",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Arkansas Medicaid \"262.000\" procedures require prior authorization list spine laminectomy"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01NR2iCxzX77kc3cBmV4zFvs",
+     "content": "{\"query\": \"humanservices.arkansas.gov physician provider manual section 261.000 262.000 spine surgery back CPT\", \"results\": [{\"title\": \"Arkansas Department of Health and Human Services Division of Medical Services\", \"url\": \"https://www.sos.arkansas.gov/uploads/rulesRegs/Arkansas%20Register/2007/jun_2007/016.06.07-019E.pdf\", \"snippet\": \"<strong>providers must use the CPT procedure code for the vaccine administered</strong>. Electronic and paper ... P.O. Box 1437, Slot S-295 ... Section 229.110 has been updated with new instructions for completion of the DMS 671 form. Section 262.000 has been updated with the modifiers \u201c80-82.\u201d\"}, {\"title\": \"PHYSICIAN Procedure Codes\", \"url\": \"https://humanservices.arkansas.gov/wp-content/uploads/PHYSICN_ProcCodes.xlsx\", \"snippet\": \"We Care. We Act. We Change Lives. Together we improve the quality of life of all Arkansans by protecting the vulnerable, fostering independence, and promoting better health.\"}, {\"title\": \"MEDICAL SERVICES POLICY MANUAL TABLE OF CONTENTS Section A\", \"url\": \"https://humanservices.arkansas.gov/wp-content/uploads/Medical_Services_Policy_Manual.pdf\", \"snippet\": \"helps cover physician services, supplies, home health care, outpatient hospital services,\"}, {\"title\": \"Division of Medical Services - Arkansas.gov\", \"url\": \"https://www.sos.arkansas.gov/uploads/rulesRegs/Arkansas%20Register/2009/oct_2009/016.06.09-036.pdf\", \"snippet\": \"Sections 261.000 and 262.000 are revised to add <strong>Bariatric surgical CPT procedure codes</strong> to the\"}, {\"title\": \"Section I All Provider Manuals\", \"url\": \"https://humanservices.arkansas.gov/wp-content/uploads/Section_I.doc\", \"snippet\": \"Section I - GENERAL POLICY | | |CONTENTS | | 100.000 GENERAL INFORMATION 100.100 Introduction 101.000 Provider Manuals 101.100 Provider Manual Organization 101.200 Updates 101.300 Obtaining Provider Manuals 102.000 Legal Basis of the Medicaid Program 103.000 Scope of Program 103.100 Federally ...\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01Ng9bpnGFkU74oWSqvrKZkr",
+     "content": "{\"query\": \"Arkansas Medicaid \\\"262.000\\\" procedures require prior authorization list spine laminectomy\", \"results\": [{\"title\": \"Prior Authorization | Arkansas Medicaid Review Services | AFMC\", \"url\": \"https://review.afmc.org/review-services/prior-authorization\", \"snippet\": \"See \u201cObtaining Prior Authorization of Restricted Medical and Surgical Procedures\u201d in the Arkansas Medicaid Physician\u2019s Provider Manual, Section 261.000. CPT codes that require prior authorization by AFMC can be found in your Arkansas Medicaid Physician\u2019s Provider Manual (Section 262.000 Procedures That Require Prior Authorization).\"}, {\"title\": \"Division of Medical Services - Arkansas Secretary of State\", \"url\": \"https://www.sos.arkansas.gov/uploads/rulesRegs/Arkansas%20Register/2008/oct_2008/016.06.08-035.pdf\", \"snippet\": \"Section 256.000 has been updated to delete obsolete information about coverage for this procedure. Arkansas Medicaid Health Care Providers \u2013 Physician/ ... Section 261.130 has been deleted. Section 262.000 has been updated to include new procedure codes made payable and to delete\"}, {\"title\": \"Division of Medical Services - Arkansas.gov\", \"url\": \"https://www.sos.arkansas.gov/uploads/rulesRegs/Arkansas%20Register/2009/oct_2009/016.06.09-036.pdf\", \"snippet\": \"the assigned PA control number or Medicaid will deny it. ... The following revenue codes require prior authorization. ... P.O. Box 1437, Slot S-295 \u00b7 Little Rock, AR 72203-1437 ... Section 221.100 is revised to update information about Family Planning aid categories. Section 251.270 is revised to provide coverage information regarding Bariatric Surgery. Sections 261.000 and 262.000 are revised to add Bariatric surgical CPT procedure codes to the\"}, {\"title\": \"TO: Arkansas Medicaid Health Care Providers \u2013 Physician/Independent\", \"url\": \"https://humanservices.arkansas.gov/wp-content/uploads/PHYSICN-127.doc\", \"snippet\": \"Section 261.130, Prior Authorization ... authorization of Hyaluronon (sodium hyaluronate) injections. Section 262.000 is included as procedure codes <strong>J7319 and J7330</strong> have been added as procedure codes that require prior authorization....\"}, {\"title\": \"|section ii - PHARMACY | |\", \"url\": \"https://humanservices.arkansas.gov/wp-content/uploads/PHARMACY_II.doc\", \"snippet\": \"The Arkansas Medicaid Pharmacy Program does not accept NCPDP paper claim forms for covered outpatient medications. Vendor systems are widely available for incorporation of electronic claims submission in the pharmacy practice. |262.000 CMS-1500 Billing Procedures | | |262.200 National Place ...\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EukICpABCBIYAipAVr69WoTbVk4cA6lCSBNkEOSPy91c9h+5efs2oOSVp3a9quml8abA9Gxvy8/+tMsAhOQPO/0w8cM3aORwi4t7TzIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAffxwdUGEgw1hZmAyBsERERjvSsaDImvn+UOJU2YtZDQ7CIwPI9bRZ78w41O/xb4O5SiUrmJOpBevJGSW/gE3/dPcx+j8SLHA7v1Spc/gapCjOhMKoUH1lt2N0wyLrVAh+azfl7z92UuFgPU74ore1RFXZKAF+s7Tjtq+crmjrOd9ee8lRcMPMN6FIZMENuoA4sPsCr3mHbX/dycPk2neLj66+GvGzEJag0vGOWERrdYwYtp/upcLSN2ze0yNnFr2Usn//euiby39nM1vuidGpTHe+kmEmmgqJJpi+rMTYjKN3wGbCfYhIsWqhJcmQ17S0AwqwcaN9Z+gaQXs5X+fmbeNYLWeuu7RodQPT+ZGIsrLi/P41zESUHqu0xZdZJiyPwCIdMKhbvehjQC5nJWDz1mooFnCEJlKzZs73jqeBghdu72dWsIptRVlk0ip0Db9HorjdURVoqaNIi9mur+F45eaB2fv8YfAib8s1vCLynPaLuYB9iUODbiqM4z3xRmhDwUQlP5vtCkdx/l+MBQa3OVpJfPEpyhdsCl8zI/MruRVHKn0ofoMKF1tsQfFVy9HOIMF9jmhsT9lwX1KUoXvO4nvix+MvY7R9KJke5C4W5wYTXcplDDVrcNCm/7VnSfVZQYvycY5WojcCPmrF+R7/3BNgjLyy0P7cNbg0C/h28Ngxsjop8VAtPEpYokwTX3BVO++41HqxBlJfcVYXsm5jVVJe5/u3e/IiFgfAHp2CC2mCY4qJCCNviUqygWpsVxwc0cHxqztgDeY2dwJLwDZ6RSeD0wlPnbbvXw6/WFfXbcbNPcWO1YZtTs6+PlSd+ZAhPCTJHu0XdS1kM56o8WUiVKW0ELpNDzCLi6QcqoH20T/8oIH0/a8h1AvFe+O05F6aCjqjDdw2oFC/VEKOdenje352bFCp/u0FqePVj3lDCw+3aM3rNSjPOSBuMgCQmotAgT+cWUPFKLooI5T2CidfHykv7/ACqL+vIfO7h69ebL3nA41zdZ83j9cjhw0lYyfrJ7QWRgzao0gPwVqnYNWLzXn5AO7kXsgyH2NOz46PLPLG2zZV4wagdhMcfw3Gjq4QataHvQ5vdZ3gHVgQ3BwykQMU1CcPd4aK9LYtig/MLSnaZ8mUYu9CbwwjkehWAsCsrPhiteZYnKV+x46d/D8x/0qsIRsTZ3ZGwwrv58jwVn7TlA9xVR12lag8tVEzYVgpbLAJXFbFvwyAJtied+TYdIKD02/J77I0fkld7Uqf674aSWwbvq/qRvzz8OjhWLf19ulNnnNLxB0lid4piswisSi5jjY2iyfq+HZxgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01WnCuUEPfRkn4KmwL9XEuyu",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "AFMC Arkansas Medicaid clinical criteria laminectomy discectomy spine surgery guidelines"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01FhgyCWoho1Gir8ehb4u8ig",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://review.afmc.org/review-services"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01WnCuUEPfRkn4KmwL9XEuyu",
+     "content": "{\"query\": \"AFMC Arkansas Medicaid clinical criteria laminectomy discectomy spine surgery guidelines\", \"results\": [{\"title\": \"ARCHIVED Spine Surgery 2024-01-01 [for Healthy Blue Louisiana Medicaid] to 2026-04-04 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2024-01-01/\", \"snippet\": \"Anterior cervical discectomy/fusion/internal fixation (ACDF) \u2013 decompression of the nerve roots or spinal cord by disc or osteophyte removal, with or without a fusion \u00b7 Posterior cervical foraminotomy \u2013 for nerve root decompression in cases of soft posterolateral disc herniation or bony foraminal stenosis \u00b7 Posterior laminectomy with or without fusion \u2013 for congenital stenosis, multilevel central stenosis from spondylosis, or multiple discontinuous levels where fusion is recommended to prevent kyphotic deformity.\"}, {\"title\": \"Spinal Surgery: Laminectomy and Fusion - Medical Clinical Policy Bulletins | Aetna\", \"url\": \"https://www.aetna.com/cpb/medical/data/700_799/0743.html\", \"snippet\": \"Cervical laminectomy (and/or an anterior and/or posterior cervical discectomy and fusion) for individuals with herniated discs or other causes of spinal cord or nerve root compression (osteophytic spurring, ligamentous hypertrophy) when all of the following criteria are met (see also Additional Notes section):\"}, {\"title\": \"Spine Surgery 2025-11-15 updated 2026-01-01 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15-updated-2026-01-01/\", \"snippet\": \"Anterior cervical discectomy/fusion/internal fixation (ACDF) \u2013 decompression of the nerve roots or spinal cord by disc or osteophyte removal, with or without a fusion \u00b7 Posterior cervical foraminotomy \u2013 for nerve root decompression in cases of soft posterolateral disc herniation or bony foraminal stenosis \u00b7 Posterior laminectomy with or without fusion \u2013 for congenital stenosis, multilevel central stenosis from spondylosis, or multiple discontinuous levels where fusion is recommended to prevent kyphotic deformity.\"}, {\"title\": \"Spine Procedures \u2013 Medicare Advantage Medical Policy\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medadv-mp/spine-procedures.pdf\", \"snippet\": \"facetectomy, foraminotomy or discectomy (e.g., spinal stenosis), 1 or 2 vertebral segments; cervical\"}, {\"title\": \"ARCHIVED Spine Surgery 2024-10-20 to 2025-11-14 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2024-10-20/\", \"snippet\": \"Anterior cervical discectomy/fusion/internal fixation (ACDF) \u2013 decompression of the nerve roots or spinal cord by disc or osteophyte removal, with or without a fusion \u00b7 Posterior cervical foraminotomy \u2013 for nerve root decompression in cases of soft posterolateral disc herniation or bony foraminal stenosis \u00b7 Posterior laminectomy with or without fusion \u2013 for congenital stenosis, multilevel central stenosis from spondylosis, or multiple discontinuous levels where fusion is recommended to prevent kyphotic deformity.\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01FhgyCWoho1Gir8ehb4u8ig",
+     "content": "{\"url\": \"https://review.afmc.org/review-services\", \"final_url\": \"https://review.afmc.org/review-services\", \"http_status\": 200, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Medicaid Review and Prior Authorization Services | AFMC AFMC Main Site Facebook Instagram Linkedin X Youtube Search Home Clinical Services Assistant Surgeon Emergency Room Extension of Benefits Hyperalimentation Medicaid Utilization Prior Authorization Prosthetics Retrospective Review Physician Reviewers Contact Us Retrospective Review Clinical Services Appealing a Denial Under the Medicaid Fairness Act, recipients and providers may request a hearing to appeal a denial. Learn more about the Medicaid Fairness Act. Know Your Rights Clinical Criteria Find more information about the clinical criteria used by AFMC. View Clinical Guidelines Become a Physician Reviewer Attention Arkansas Physicians! We value your expertise and participation. Learn how to become a physician reviewer and join our amazing team. Earn Extra Income Clinical Services Medicaid Review and Prior Authorization for Hospitals AFMC\u2019s Fort Smith office is URAC Accredited in Health Utilization Management. Our clinical Services team, which consists of physicians and registered nurses, conducts more than 185,000 medical case reviews per year. These include prior authorizations and retrospective utilization reviews to ensure that all health care services reimbursed by our clients are provided in the most efficient manner and are medically necessary. Clinical Services reviews enable hospitals to deliver the highest quality of care while preventing fraud and abuse. Services Assistant Surgeon Prior Authorizations Emergency Room Retrospective Review Extension of Benefits Hyperalimentation Prior Authorization Medicaid Utilization Management Program for Continued Inpatient Stays Surgical Procedures Prior Authorization Orthotics and Prosthetics Retrospective Review of Inpatient Admissions Practice Review AFMC\u2019s Fort Smith office provides URAC-accredited Health Utilization Management reviews for public and private health plans to ensure all health care services reimbursed are provided in the most efficient manner and are medically necessary. Our Clinical Services staff enables providers to deliver the highest quality of care, while at the same time preventing fraud and abuse. Extension of Benefits Hyperalimentation Prior Authorizations Orthotics and Prosthetics AFMC Contact Facebook Instagram Linkedin X Youtube Search USEFUL LINKS Arkansas Department of Human Services Arkansas Medicaid Healthcare Portal Arkansas Department of Health Arkansas Medicaid Health Utilization Management 01/01/2027 \u00a9 2026 AFMC Privacy and Terms Corporate Culture Disclaimers Code of Conduct Accessibility Transparency in Coverage Home Clinical Services Assistant Surgeon Emergency Room Extension of Benefits Hyperalimentation Medicaid Utilization Prior Authorization Prosthetics Retrospective Review Physician Reviewers Contact Us Retrospective Review\", \"text_truncated\": false}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "text": "There's a \"Clinical Criteria\" link \u2014 let's follow it.",
+     "type": "text"
+    },
+    {
+     "id": "toolu_0166yGJWzTAH6uKSJ7hG6pja",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "AFMC \"View Clinical Guidelines\" clinical criteria review.afmc.org"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01FSASdNWnLAHWjBywDH8S9z",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://review.afmc.org/clinical-criteria"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_0166yGJWzTAH6uKSJ7hG6pja",
+     "content": "{\"query\": \"AFMC \\\"View Clinical Guidelines\\\" clinical criteria review.afmc.org\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01FSASdNWnLAHWjBywDH8S9z",
+     "content": "{\"url\": \"https://review.afmc.org/clinical-criteria\", \"final_url\": \"https://review.afmc.org/clinical-criteria\", \"http_status\": 404, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Error: 404 Page not found 404 Page not found Home Page\", \"text_truncated\": false}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "ErgCCpABCBIYAipAJA7k1Nszv3nQzDUgyrnlbKw8/aAj86iCydRytl/PYrhOF7OHagSWAVo9RthPbvrhupsnacCrCT84l9hhLhQbFjIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAf3xwdUGEgzWHvB4NbQ0dn4eljAaDMcI32SEGqMVvRLOaCIwIRwfB22B22KKz0Y/Jz0jtR1FM37dpFdf8hmib3sqiyi/WQFAdvPerIuAONE0F3CiKlXcD6L7DjuMrTI0mi6mM9jo0BqysHHTm1w2/ev5xLvWmtjS7ueNT5SkZH3PlfB1mjy7FympXuZCSdE6epbsAo1CDcP17dDPUM2DdSmsgfiDO+v+IjlTGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01Es9KTvhwaX5SSF6i4FwezZ",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://review.afmc.org"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01Es9KTvhwaX5SSF6i4FwezZ",
+     "content": "{\"url\": \"https://review.afmc.org\", \"final_url\": \"https://review.afmc.org/\", \"http_status\": 200, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Health Utilization Management Review Services | AFMC AFMC Main Site Facebook Instagram Linkedin X Youtube Search Home Clinical Services Assistant Surgeon Emergency Room Extension of Benefits Hyperalimentation Medicaid Utilization Prior Authorization Prosthetics Retrospective Review Physician Reviewers Contact Us Retrospective Review Helping Providers Meet Quality Standards of Care Health Utilization Management Review AFMC\u2019s Fort Smith office provides health utilization management reviews for public and private health plans to ensure all health care services reimbursed are provided in the most efficient manner and are medically necessary. As a result, professional clinical services staff enable providers to deliver the highest quality of care while at the same time preventing fraud and abuse. Let's Improve Together Our Clinical Services Acute Care Unit Review Behavioral Health Durable Medical Equipment Prior Authorizations Emergency Medicaid and Out-of-State Service Review Emergency Room Retrospective Review Extension of Benefits Hospital Acquired Conditions Retrospective Review Hyperalimentation Prior Authorizations Inpatient Stay Retrospective Review Medicaid Utilization Management Program Molecular Pathology Prior Authorizations Viscosupplementation Surgical Procedure, Assistant Surgeon and Hyperbaric Oxygen Treatment Prior Authorizations Transplant Prior Authorizations AFMC Contact Facebook Instagram Linkedin X Youtube Search USEFUL LINKS Arkansas Department of Human Services Arkansas Medicaid Healthcare Portal Arkansas Department of Health Arkansas Medicaid Health Utilization Management 01/01/2027 \u00a9 2026 AFMC Privacy and Terms Corporate Culture Disclaimers Code of Conduct Accessibility Transparency in Coverage Home Clinical Services Assistant Surgeon Emergency Room Extension of Benefits Hyperalimentation Medicaid Utilization Prior Authorization Prosthetics Retrospective Review Physician Reviewers Contact Us Retrospective Review\", \"text_truncated\": false}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EpADCpABCBIYAipA2HkkPyu0FhH4tiaQz8fQZRCEkGVmUnEZkTKbVX6OUnpQs7uIWZRgO3oZmNH7Ahlu/6jpcpTsxSXLcWWmJftQCDIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAYDywdUGEgwYxJY4HFKsC3g/k54aDN4tuXbDUfeDJ0nRkCIwUREaDidIaVNWe+8wf9h2ZEZZArtCOke71dXRNNgNkmlw1dbZkHd1NgjcBv5KZBDQKqwBbBtBirnpxMHpRblCkNmCgw4ZpUW+pRUsAFwakxFmwc4oKwOOjp/Fv/Fhs1zvUCjlNZvymzlHDct4tHBsSpO2Zz6x5I4IdtwKWRPVP2YzZXouG0RfhqY58KL5td4R/V2Q6svkUwbARQvXutwx/rpVAjtkCujNp2BBjTdU1aZR/cSZuA+MD2O9nSfCZH8af8QKI2sAOypdZZ3ZLrcuLtmNO9cZgo3uZ5Tk2ZFG1RgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01WXwB9JmpS5HZMMJxoMd1Sr",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://review.afmc.org/review-services/clinical-criteria"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01N9y5A8h8XNvAU1xybcsbYW",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://review.afmc.org/clinical-guidelines"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01WXwB9JmpS5HZMMJxoMd1Sr",
+     "content": "{\"url\": \"https://review.afmc.org/review-services/clinical-criteria\", \"final_url\": \"https://review.afmc.org/review-services/clinical-criteria\", \"http_status\": 404, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Error: 404 Page not found 404 Page not found Home Page\", \"text_truncated\": false}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01N9y5A8h8XNvAU1xybcsbYW",
+     "content": "{\"url\": \"https://review.afmc.org/clinical-guidelines\", \"final_url\": \"https://review.afmc.org/clinical-guidelines\", \"http_status\": 200, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Clinical Guidelines AFMC Main Site Facebook Instagram Linkedin X Youtube Search Home Clinical Services Assistant Surgeon Emergency Room Extension of Benefits Hyperalimentation Medicaid Utilization Prior Authorization Prosthetics Retrospective Review Physician Reviewers Contact Us Retrospective Review Review Services Clinical Guidelines AFMC uses MCG care guidelines to help review medical necessity for health service requests. MCG care guidelines are the protected intellectual property of MCG. AFMC is not able to distribute them without the permission of MCG. MCG has provided a tool that allows AFMC members and prospective members to review relevant MCG care guidelines, however you will not be able to print them. Follow the instructions below for access to MCG care guidelines. Click here to access the MCG care guidelines , read the disclaimer, and accept the terms and conditions. Complete the User Information form. Complete the verification process to continue Click on the arrow icon to expand the list of guidelines in the content group. Click on the guideline you wish to view. Additional guidelines: AFMC In-House Guidelines for Level 1 Approval of Durable Medical Equipment AFMC In-House Guidelines for Level 1 Approval of Surgical Procedure AFMC Contact Facebook Instagram Linkedin X Youtube Search USEFUL LINKS Arkansas Department of Human Services Arkansas Medicaid Healthcare Portal Arkansas Department of Health Arkansas Medicaid Health Utilization Management 01/01/2027 \u00a9 2026 AFMC Privacy and Terms Corporate Culture Disclaimers Code of Conduct Accessibility Transparency in Coverage Home Clinical Services Assistant Surgeon Emergency Room Extension of Benefits Hyperalimentation Medicaid Utilization Prior Authorization Prosthetics Retrospective Review Physician Reviewers Contact Us Retrospective Review\", \"text_truncated\": false}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "Er0GCpABCBIYAipAOBNBJdPUaKaPDaWcLeFU0YUtNXrReh9D4YhFjiADzVxWcKTzlwXIj9VU8U3Wl8s3gfQYzzOX/RK9NluOqBFlIDIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAYbywdUGEgwEA/iDGDRE/BdvbkUaDKKW81w8dqbIO2nKiyIwouoUJg/u+E0aWl0sy4f4QO+za4NNOyLHwoZCIU25hl038oCUuZnmxHBe4LIheRmOKtkEzxAaD7UAQGtmzG0YKn7k7FrcZ3S2S908IMZuvsJm/pVu7X9U29S2irJx2v8kRzm4FU3IhIs62fS8oQbu39/Lc5CPvDSrDV7Og71Sj/+Q976RJf2ppjbwOqs/6uXxvv10KYblvZm1kRiaYvRK7NSV26ufnwAt36VHN6H8rbBRURQVBW0aN+401MZMTZrsjLB66fP1jFCn9iqD2XL6ZrnGfMkegDIx+MCfay0nbQTT9QCkWjq4XQLY5XwwffNJZfhZjwHk7E8Wkeh7VdnNFjGepmYwPcR7Qnq/ZMxfRhegCjWVt3CA3IbNROiCrLzzSVG7K++id30m3E8CJkgr/e0mHIAJbBzNodxPeAtvgwhBB5W6zTR60WIPbvtxdwp7Cl4IRBzPBxrB83CoF4/+R/9ozGf/nYV6x3PAE4BQNlGdumjLwtmDUXpUa9025rkpbUKRPQlR2bKa6dauhAFqPek5O3gB7bLtXZdmRz+g8UpxfT3VmGGmv9XAgXm97hO0y0QAhBdIh7cshKJk/GHgLYLoSd537/+kusiYsgWUHbNVx+v7lfu23YSCXdbQty+KJV7K0BK6xbcDfcVdfgnNAaSynoY2UKzzTmPjVhWBtkUOoC52JezwIjRWxUWdVnsgwxwJuPDIVcUEJYy3L83xS+DwFe6IDjHr00ZGRj3dVtEiccaTL+Clg3pd0WZTkjraIer2HOMhWpOpUrM58/kJIuj+Ledp+jtzSYf31YX/Of6O57EetTNDt6LlaziHRuOagXorLM1vHdbkqTOH4isQijnlC6bQCSrhVe3HpBgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01L1Tyei2TW1rpvVq3XXF2j8",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"AFMC In-House Guidelines\" \"Level 1 Approval of Surgical Procedure\""
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_019Wy7C8zpkA7xSZyRCVxp1b",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "MCG care guidelines lumbar discectomy laminotomy medical necessity criteria ODG"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01L1Tyei2TW1rpvVq3XXF2j8",
+     "content": "{\"query\": \"\\\"AFMC In-House Guidelines\\\" \\\"Level 1 Approval of Surgical Procedure\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_019Wy7C8zpkA7xSZyRCVxp1b",
+     "content": "{\"query\": \"MCG care guidelines lumbar discectomy laminotomy medical necessity criteria ODG\", \"results\": [{\"title\": \"Subject: Thoracic and Lumbar Spine Surgery\", \"url\": \"https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-48&pv=false\", \"snippet\": \"Posterior or anterior spinal fusion with instrumentation meets the definition of medical necessity for the ... Muscular weakness in a pattern associated with spinal nerve root compression. ... Lumbar laminectomy also meets the definition of medical necessity for space-occupying lesions of the\"}, {\"title\": \"Spine Surgery 2025-11-15 updated 2026-01-01 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15-updated-2026-01-01/\", \"snippet\": \"Lumbar discectomy, foraminotomy, ... the following conditions: <strong>Acute neurologic deterioration including signs and symptoms of cauda equina syndrome, or rapid progression of neurologic deficits confirmed by imaging, regardless of underlying pathology</strong>....\"}, {\"title\": \"Treatment Supplement to ODG by MCG\u00ae for Tennessee Workers\u2019 Compensation Utilization Review\", \"url\": \"https://www.tn.gov/workforce/injuries-at-work/bureau-services/bureau-services/medical-programs-redirect/assistance-for-medical-providers/treatment-supplement-to-odg-for-tn-workcomp-ur.html\", \"snippet\": \"Supplemental spine treatment recommendations for use in Tennessee workers&#x27; compensation utilization review. These recommendations supplement ODG by MCG guidance for spinal conditions covered under the Tennessee Workers&#x27; Compensation Law.\"}, {\"title\": \"Spinal Surgery: Laminectomy and Fusion - Medical Clinical Policy Bulletins | Aetna\", \"url\": \"https://www.aetna.com/cpb/medical/data/700_799/0743.html\", \"snippet\": \"Removal of the entire bone at that level is not indicated due to compression of neural elements or other reasons (corpectomy or laminectomy are not requested and no need for these procedures is documented); Pelvic fixation is considered medically necessary where criteria for lumbar fusion (in I.1.9) are met, for any of the following:\"}, {\"title\": \"1 Appendix B Methodology Description AGREE II www.mcg.com/odg\", \"url\": \"https://www.odgbymcg.com/documents/methodology.pdf\", \"snippet\": \"questions of medical necessity and appropriateness of care.\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "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",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01Me1PHCd8Cv9jR8KbA1AwJJ",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Arkansas Medicaid Fairness Act fair hearing appeal deadline \"35 days\" recipient"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_0128t1Vpaa58j6wzqx5E9fQL",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://review.afmc.org/know-your-rights"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01Me1PHCd8Cv9jR8KbA1AwJJ",
+     "content": "{\"query\": \"Arkansas Medicaid Fairness Act fair hearing appeal deadline \\\"35 days\\\" recipient\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_0128t1Vpaa58j6wzqx5E9fQL",
+     "content": "{\"url\": \"https://review.afmc.org/know-your-rights\", \"final_url\": \"https://review.afmc.org/know-your-rights\", \"http_status\": 404, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Error: 404 Page not found 404 Page not found Home Page\", \"text_truncated\": false}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "id": "toolu_01BpCx6mNbXGhpaaaofPd3dY",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Arkansas Medicaid Fairness Act appeal hearing rights recipient AFMC"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01XnGaf2VQEARqbWBBGTq5do",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://review.afmc.org/know-your-rights/"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01BpCx6mNbXGhpaaaofPd3dY",
+     "content": "{\"query\": \"Arkansas Medicaid Fairness Act appeal hearing rights recipient AFMC\", \"results\": [{\"title\": \"Prior Authorization | Arkansas Medicaid Review Services | AFMC\", \"url\": \"https://review.afmc.org/review-services/prior-authorization\", \"snippet\": \"The Medicaid client may request ... Department of Human Services (DHS) or AFMC. <strong>The fair hearing request must be in writing and sent to the Appeals and Hearings Section of DHS within 35 calendar days of the date on the denial letter</strong>....\"}, {\"title\": \"Medicaid Utilization Management Program | Review Services\", \"url\": \"https://review.afmc.org/review-services/medicaid-utilization\", \"snippet\": \"Under the Medicaid Fairness Act, <strong>recipients and providers may request a hearing to appeal a denial</strong>. Learn more about the Medicaid Fairness Act. ... Attention Arkansas Physicians!\"}, {\"title\": \"Medicaid Extension of Benefits | Review Services | AFMC\", \"url\": \"https://review.afmc.org/review-services/extension-of-benefits\", \"snippet\": \"Please see Section 190.000 et al. in the Arkansas Medicaid Provider Manual for information regarding administrative appeals. <strong>The Medicaid client may request a fair hearing of a denied review determination made by either the Utilization Review Department of Human Services (DHS) or AFMC</strong>.\"}, {\"title\": \"Retrospective Review Services | Medicaid Hospital Stays | AFMC\", \"url\": \"https://review.afmc.org/review-services/retrospective-review\", \"snippet\": \"The Medicaid client may request ... Department of Human Services (DHS) or AFMC. <strong>The fair hearing request must be in writing and sent to the Appeals and Hearings Section of DHS within 35 calendar days of the date on the denial letter</strong>. Providers may refer to Section 190.000 of the ...\"}, {\"title\": \"Retrospective Review - AFMC.org\", \"url\": \"https://review.afmc.org/retrospective-review\", \"snippet\": \"The Medicaid client may request ... Department of Human Services (DHS) or AFMC. <strong>The fair hearing request must be in writing and sent to the Appeals and Hearings Section of DHS within 35 calendar days of the date on the denial letter</strong>. Providers may refer to Section 190.000 of the ...\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01XnGaf2VQEARqbWBBGTq5do",
+     "content": "{\"url\": \"https://review.afmc.org/know-your-rights/\", \"final_url\": \"https://review.afmc.org/know-your-rights/\", \"http_status\": 404, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Error: 404 Page not found 404 Page not found Home Page\", \"text_truncated\": false}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EogKCpABCBIYAipADg2LEHEbMbiWEp2xzOJO/IaHkV0ckSxuM1zhcanJmL3uh7oFnXFv7ZuqrUChDp85ZzR1aYFWWJo9AMyzB9B03jIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAZzywdUGEgymrbtFEEZEpR+7bcsaDOQCMsnh0mTxYtHYACIwK1N37Tp0RlG35WzlFDEcAzYdrWxA/alQy5ckUNnOEmxMPWSd3VzM1gGb1y1yWMcIKqQIhHbRWgK8r9sSA59Qi166460a9RRIilLuXxIbXgvWjZWTIE/ipXj/k56aPiJc50O5R4GRLqDtU4bvfHNLuBy4m+nyaVdbb3z8ydccijJvIbxjnD6TyJ/VcrX+Fc5XfnAnkb/ws5JgWaR6bvq2zlym/MgayZQAauLQe5YvK1JTQfQQ2urHUGZsijy8mSZDveHN2aJZgNnrwzDqFo06fao1kZY4niRmZYkNlX+fcUeoJDGWV9jSz1uDMmuZeaYEyE77vSrmXpQ+xTY9D3L6tRSCYRGwbi7TPfUAY1Q+ULP96Qn5Oq4RBj1fYZdrgQYwonxaSYwfxYAIUoEukdClM4ROizOOEiOlepBE6q9LF6z7lheXuVhuaDsflgl066pZyU6FsgZ660vi7EFTMc7iex8kPJkgZmVr36a69oBDjuZc6oYJMe0bGi150Yp6Tn/Wf9FQxixL+4eqltCp1dfDQm5wh6fHFth6qTcJW3jMEEaA9KfGmkHsK7HOozUhPXzrJNYUR49AGiPvduE/sNIQgbLvt3elpFtZg4qyrgEn9v2rrnxRxaZAjqDxBezg1ii9+x/dlJZarxlk1ctdjhcxPJM/DLfBEu50qiKl3gFgdOjAH1BQKInSuK1wny3lZwzKllxm39rr4Vhg+qbaPHxFznyFInjQnmOazvhdLQnNdJJCMmFDSK2s2rhl0f6hLHR9E1ROg6zELVArHLZclH2hSTezNtqix1LxzHGNhqWUFm8mcWDFy6Y32BuQwT3/jZoSRFoyKAAMh/aapDN4IBFYRxmzhkf08xqLYFl2dc9tT/VwhTBqtDCD/eZavN0HCuT6TM8GUyYc5miO43J/kyP+Z5pjTTatpoN1rSOrnSKZ5FObFLaU59Nz1AdebiM2rBr5wSBlwlGNlHA8I/m7C8+n7yJlLCiMEvc/TbAzSsdO5H1C62Uoc9pv7O9th4z+kr62qqeme2WK2CAAUuuU0GeW9duCmcJQA7RuqEYAtjJSbO4yAqPkxaYDi9N5svH5oB/wSdL6V6YqCSshUlraLqD6tqVT3Mg2hkWcnQc6NW9c9bn3+17RLqt/lB3FJV2tMTF7yPrJqMD7mxxSw6cu7CpE2+XFzQE1pXiud64WUj+8hmGWJ6U+Kwsux9cTaBTbfT/pgVxIvULpcG/WoOMolgIEKUxZyiGAlNIIFgIkEG/DamjoJaB210mDS47rcuw/z/eQFToCLgTr1mrYg7QfanQK/mzwCN5lQs6y6rfQV2JSlPiRI4UCbsRyyY6MSs9MLTWw7f1K3JocvUVaCEQvpXIT2rzcrA7VH3U0I01gRv9bYXjQp4XdJDh6SGg5oYBnYPIV9SITS/Z37F0B2IdWeM/lBdARoOH0ki8wPOKMm3wtYwyaf2pwQTsRRem+pu9hcOicR7Pe2kDDfRgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01HYfoTUcwUToswnCgdLkwMU",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Arkansas DHS \"Appeals and Hearings Section\" address fair hearing request Medicaid"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01HYfoTUcwUToswnCgdLkwMU",
+     "content": "{\"query\": \"Arkansas DHS \\\"Appeals and Hearings Section\\\" address fair hearing request Medicaid\", \"results\": [{\"title\": \"Credits - View Document - Arkansas Regulations - Westlaw\", \"url\": \"https://govt.westlaw.com/arreg/Document/N374D9BC0E01D11DEA131BFC9CC7E74B4?viewType=FullText&originationContext=documenttoc&transitionType=CategoryPageItem&contextData=%28sc.Default%29\", \"snippet\": \"The Medicaid beneficiary may request a fair hearing of an adverse review determination from the Department of Health and Human Services (DHHS). <strong>The appeal request must be in writing and sent to the Appeals and Hearings Section of DHHS within thirty-five calendar days of the date on the denial</strong> ...\"}, {\"title\": \"Appealing - ARKids First - Arkansas Law Help at Legal Aid of Arkansas\", \"url\": \"https://a.arlawhelp.org/arkids-first/arkids-first/appealing\", \"snippet\": \"Send your appeal letter right away. If the DHS does not get your appeal letter within 30 days of the date on the letter you got from Medicaid or ARKids First, your appeal will be denied. ... <strong>Department of Human Services, Appeals and Hearings Section P.O.</strong>\"}, {\"title\": \"Division of Medical Services P.O. Box 1437, Slot S295, Little ...\", \"url\": \"https://humanservices.arkansas.gov/wp-content/uploads/Iterested-Persons-Posting-Packet-Medicaid-Administrative-Reconsiderations-and-Appeals-R248.pdf\", \"snippet\": \"A beneficiary may appeal a denied extension of inpatient days by requesting a fair hearing. ... A beneficiary may request that services be continued pending the outcome of an appeal. ... DMS will authorize the services and notify the provider and beneficiary. ... Medicaid allows only one reconsideration of a denied benefit extension request.\"}, {\"title\": \"Medicaid Extension of Benefits | Review Services | AFMC\", \"url\": \"https://review.afmc.org/review-services/extension-of-benefits\", \"snippet\": \"The fair hearing request must be in writing and sent to the Appeals and Hearings Section of DHS <strong>within 35 calendar days of the date on the denial letter</strong>. Providers may refer to section 190.000 of the Arkansas Medicaid Provider Manual for more information.\"}, {\"title\": \"Retrospective Review Services | Medicaid Hospital Stays | AFMC\", \"url\": \"https://review.afmc.org/review-services/retrospective-review\", \"snippet\": \"The Medicaid client may request ... hearing request must be in writing and sent to the Appeals and Hearings Section of DHS <strong>within 35 calendar days of the date on the denial letter</strong>. Providers may refer to Section 190.000 of the Arkansas Medicaid Provider Manual for more ...\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "Eq4CCpABCBIYAipAMM0LnoFgTz/TvCRhaBkJeWdhwCPwah+cn+aRyupwQe44ADgCdHHHTl4DqyNHyTa6Q1zy1G6OSPkZBrA4Wc+rejIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAZ7ywdUGEgy6vIm8LJ0HF6NZjg0aDMDFkf5D+cBx7RW4PCIw68OH3qGeLTO68Y8yQuIQ8GeeivVjGTHSIkJEEkpVsodilP90VsRTCMc1v5ZkvkY4Kkum6u0dxaKEhwHv74NL0VCGrS84a2hK6yp/LYfjzl5v5HJU6tGoQLGtDDEnu6l7Iq/mytTDnJ62YJwOLB7Ihy7evswnjpyF4DMjQ3oYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01RaJu1mubowUcGuSKEEjxzk",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"Appeals and Hearings Section\" Arkansas DHS P.O. Box address Little Rock Medicaid fair hearing"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01RaJu1mubowUcGuSKEEjxzk",
+     "content": "{\"query\": \"\\\"Appeals and Hearings Section\\\" Arkansas DHS P.O. Box address Little Rock Medicaid fair hearing\", \"results\": [{\"title\": \"Division of Medical Services P.O. Box 1437, Slot S295, Little ...\", \"url\": \"https://humanservices.arkansas.gov/wp-content/uploads/Iterested-Persons-Posting-Packet-Medicaid-Administrative-Reconsiderations-and-Appeals-R248.pdf\", \"snippet\": \"Arkansas Department of Health, Office of Medicaid Provider Appeals.Mail or deliver the \u00b7 appeal to the Office of Appeals and Hearings, Arkansas Department of Human Services, <strong>P.O. Box 1437, Slot N401, 7th and Main Streets, Little Rock, AR 72203-1437</strong>.\"}, {\"title\": \"Appealing - ARKids First - Arkansas Law Help at Legal Aid of Arkansas\", \"url\": \"https://a.arlawhelp.org/arkids-first/arkids-first/appealing\", \"snippet\": \"Make sure the DHS gets your appeal ... your appeal will be denied. ... Department of Human Services, Appeals and Hearings Section <strong>P.O. Box 1437, Slot N401 Little Rock, AR 72203</strong>...\"}, {\"title\": \"Asking for a Hearing - ARKids First - Arkansas Law Help at Legal Aid of Arkansas\", \"url\": \"https://a.arlawhelp.org/arkids-first/arkids-first/asking-for-a-hearing\", \"snippet\": \"Department of Human Services, Appeals and Hearings Section <strong>P.O. Box 1437, Slot N401 Little Rock, AR 72203</strong> \u00b7 Before a hearing, you should do all of the following: get your facts in order, so you can explain clearly \u00b7 bring any letters, papers, or other items that help show what happened \u00b7 ...\"}, {\"title\": \"Medicaid Utilization Management Program | Review Services\", \"url\": \"https://review.afmc.org/review-services/medicaid-utilization\", \"snippet\": \"Providers may refer to section 190.000 of the Arkansas Medicaid Provider Manual for more information. Medicaid Provider Fair Hearing requests must be sent to Arkansas Department of Health, Medicaid Provider Appeals Office, <strong>4815 West Markham Street \u2013 Slot 31, Little Rock, AR 72205</strong>.\"}, {\"title\": \"Prior Authorization | Arkansas Medicaid Review Services | AFMC\", \"url\": \"https://review.afmc.org/review-services/prior-authorization\", \"snippet\": \"Providers may refer to Section 190.000 of the Arkansas Medicaid Provider Manual for more information. Medicaid Provider Fair Hearing requests must be sent to Arkansas Department of Health, Medicaid Provider Appeals Office, <strong>4815 West Markham Street \u2013 Slot 31, Little Rock, AR 72205</strong>.\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "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",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01BpyjgKTyKGm2VEu7dpcamo",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://humanservices.arkansas.gov/divisions-shared-services/medical-services/helpful-information-for-providers/manuals/all-prov/"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01R64skMPUi7FPrzMBMq4gd6",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Arkansas Medicaid physician provider manual \"261.000\" site:humanservices.arkansas.gov OR site:medicaid.mmis.arkansas.gov"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01BpyjgKTyKGm2VEu7dpcamo",
+     "content": "{\"url\": \"https://humanservices.arkansas.gov/divisions-shared-services/medical-services/helpful-information-for-providers/manuals/all-prov/\", \"final_url\": \"https://humanservices.arkansas.gov/divisions-shared-services/medical-services/helpful-information-for-providers/manuals/all-prov/\", \"http_status\": 403, \"content_type\": \"text/html\", \"login_wall\": true, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"403 Forbidden 403 Forbidden nginx\", \"text_truncated\": false}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01R64skMPUi7FPrzMBMq4gd6",
+     "content": "{\"query\": \"Arkansas Medicaid physician provider manual \\\"261.000\\\" site:humanservices.arkansas.gov OR site:medicaid.mmis.arkansas.gov\", \"results\": [{\"title\": \"HOSPITAL-6-22 provider manual update\", \"url\": \"https://humanservices.arkansas.gov/wp-content/uploads/HOSPITAL-6-22up.doc\", \"snippet\": \"ty) 252.000 Reimbursement for ... 254.000 Medicaid Credit Balances 255.000 Filing a Cost Report 256.000 Access to Subcontractor\u2019s Records 257.000 Rate Appeal and/or Cost Settlement Appeal Process 260.000 HOSPITAL/PHYSICIAN REFERRAL PROGRAM 261.000 Introduction 262.000 ...\"}, {\"title\": \"Arkansas\", \"url\": \"https://medicaid.mmis.arkansas.gov/Download/provider/provdocs/Manuals/TCM/TCM_II.doc\", \"snippet\": \"If you saved the old web address (https://medicaid.mmis.arkansas.gov) to your favorites, please update your bookmarks now \u00b7 If you are not automatically redirected, visit the new web address: https://humanservices.arkansas.gov/divisions-shared-services/medical-services\"}, {\"title\": \"System Redirect\", \"url\": \"https://medicaid.mmis.arkansas.gov/Download/provider/provdocs/Manuals/SectionI/Section_I.doc\", \"snippet\": \"If you saved the old web address (https://medicaid.mmis.arkansas.gov) to your favorites, please update your bookmarks now \u00b7 If you are not automatically redirected, visit the new web address: https://humanservices.arkansas.gov/divisions-shared-services/medical-services\"}, {\"title\": \"TO: Arkansas Medicaid Health Care Providers \u2013 Physician/Independent\", \"url\": \"https://humanservices.arkansas.gov/wp-content/uploads/PHYSICN-127.doc\", \"snippet\": \"TO: Arkansas Medicaid Health Care Providers \u2013 Physician/Independent Lab/CRNA/Radiation Therapy Center ... |REMOVE |INSERT | |Section |Date |Section |Date | |203.120 |5-1-06 |203.120 |8-1-07 | |220.000 |10-13-03 |220.000 |8-1-07 | |243.500 |10-1-06 |243.500 |8-1-07 | |\u2014 |\u2014 |244.003 |8-1-07 | |244.100 |10-1-06 |244.100 |8-1-07 | |251.280 |10-13-03 |251.280 |8-1-07 | |253.000 |10-1-06 |253.000 |8-1-07 | |261.000 |10-1-06 |261.000 |8-1-07 | |261.130 |10-1-06 |261.120 |8-1-07 | |261.240 |4-1-07 |261.240 |8-1-07 | |262.000 |10-1-06 |262.000 |8-1-07 | |292.110 |10-1-06 |292.110 |8-1-07 | |292.200 |4-3-06 |292.200 |8-1-07 | |292.440 |10-1-06 |292.440 |8-1-07 | |\u2014 |\u2014 |292.511 |8-1-07 | |292.552 |omitted |292.552 |8-1-07 | |292.561 |10-1-06 |292.561 |8-1-07 | |292.575 |7-1-05 |292.575 |8-1-07 | |292.580 |10-13-03 |292.580 |8-1-07 | |292.590 |7-1-05 |292.590 |8-1-07 |\"}, {\"title\": \"Section II ARKids First - B\", \"url\": \"https://humanservices.arkansas.gov/wp-content/uploads/090601_ARKIDS_II.doc\", \"snippet\": \"|261.100 <strong>Timely Filing</strong> |10-13-03 | The timely filing requirements outlined in Section III of your Arkansas Medicaid Provider Manual apply to the ARKids First-B Program. |262.000 ARKids First-B Billing Procedures | | |262.100 CPT and/or HCPCS Procedure Codes |7-1-07 | National codes must be ...\"}], \"result_count\": 5, \"error\": null}",
+     "cache_control": {
+      "type": "ephemeral"
+     }
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EtoFCpABCBIYAipAXisDVLT9upLHA0VvnxN1qp7r6C5kL35fsfg4q3aRH9Pq63tVJCTt+IL2oWdeYlZ0wG1fMBFokB/90BonY1uupjIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAa/ywdUGEgwg4FCSJf7z34KXkRkaDIsrDWGg8y/XkLdhNSIwtk9lfPaGcO7tvH8qUAW3EL4Wq4+91VMXpkYgVRB2uPoRxZDGFmpcqQK4KDqNpYPpKvYDVndIEeTrx8yK3hGLIWLM1yF+9RYTfoBT5fmuba8QJkANT1taiI15LF2lR0LgKmtRSgjAu/nlFbz8xUusL1mYVeGXGus2FYlGRz8Wrl5s6z48+TfNEWe8XDS1uSpXRs9luo2VTepXw7l4S95vHIR9jshcheJGOjARq8VWm/bSaYxBKRZZLqU1g9wdrNNeQG075iLsgwbnYjIAf1EJCo991bieh1zHJ1mv0/h9zmvOVmHWKcYe8tivWVt+281leZh08TeqzTe3nz4WYoydhiAcdMCoM+l/88TwXor+hzGAR7NnYBxRSy24GtMd5JVrFkvkcLDhuO2ithVnm5vtUT7ReVPSO1SCQNWUDs22l/1vCQ7Z+I42yAXBCELgyGgFOLz1D2CO0OikR+uil0CohjcuUGrJLXsBYTh7LtvSFiWdfCJDvKqYVdfR4l0MbZShDrmmToukJr/ZPYzuZpTU4B2Jp+nhJ5dh/kKogl4JV0yPf79fcDguJAOud8DrKvMVFBEHb7RUeZPeqtZ9NpAreBNg+fyKiqm/tQ0mHyRWMPevkg1tvir+ki5TMyK3l1t0HELAi58/f8R90wjmSqNHVRM6o0lyOIPuPGAyJch3XXmWsjo7Tskisi1t5RMUPNuEjO2dVpKlViTcnWnK0B6RI2NPd9Ev9O8LvRgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01UB8cxc3JkiqnRBHn5XF6R9",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.sos.arkansas.gov/uploads/rulesRegs/Arkansas%20Register/2007/jun_2007/016.06.07-019E.pdf"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01UB8cxc3JkiqnRBHn5XF6R9",
+     "content": "{\"url\": \"https://www.sos.arkansas.gov/uploads/rulesRegs/Arkansas%20Register/2007/jun_2007/016.06.07-019E.pdf\", \"final_url\": \"https://www.sos.arkansas.gov/uploads/rulesRegs/Arkansas%20Register/2007/jun_2007/016.06.07-019E.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Arkansas Department of Health and Human Services Division of Medical Services P.O. Box 1437, Slot S-295 Little Rock, AR 72203-1437 Fax: 501-682-2480 TDD: 501-682-6789 Internet Website: www.medicaid.state.ar.us www.arkansas.gov/dhhs Serving more than one million Arkansans each year TO: Arkansas Medicaid Health Care Providers \u2013 ARKids First-B DATE: July 1, 2007 SUBJECT: Provider Manual Update Transmittal #58 REMOVE INSERT Section Date Section Date 262.100 11-1-06 262.100 7-1-07 262.110 8-1-06 262.110 7-1-07 262.120 8-1-06 262.120 7-1-07 262.140 8-1-06 262.140 7-1-07 262.200 10-13-03 262.200 7-1-07 262.400 11-1-06 262.400 7-1-07 262.430 9-1-06 262.430 7-1-07 Explanation of Updates Effective for claims received on or after July 1, 2007, the provider manual revisions described in this update transmittal are implemented. The Type of Service field has been deleted from the revised CMS-1500 (08/05) form. This field is no longer required. Section 262.100 is updated to remove obsolete information. Sections 262.110, 262.120, and 262.140 are updated to remove obsolete references to using a type of service code. Section 262.120 additionally has a new local code added (Z1825) and an additional local code (Z0428) that was previously not entered with it\u2019s description. Section 262.200 is re-titled National Place of Service Codes. Section 262.400 is updated to remove obsolete reference to using a type of service code. Section 262.430 is updated to remove obsolete reference to using a type of service code. Paper versions of this update transmittal have updated pages attached to file in your provider manual. See Section I for instructions on updating the paper version of the manual. For electronic versions, these changes have already been incorporated. If you need this material in an alternative format, such as large print, please contact our Americans with Disabilities Act Coordinator at (501) 682-6789 (TDD only). If you have questions regarding this transmittal, please contact the EDS Provider Assistance Center at 1-800-457-4454 (Toll-Free) within Arkansas or locally and Out-of-State at (501) 376-2211. Arkansas Medicaid Health Care Providers \u2013 ARKids First-B Provider Manual Update Transmittal #58 Page 2 Arkansas Medicaid provider manuals (including update transmittals), official notices and remittance advice (RA) messages are available for downloading from the Arkansas Medicaid website: www.medicaid.state.ar.us. Thank you for your participation in the Arkansas Medicaid Program. ______________________________________________________ Roy Jeffus, Director ARKids First-B Section II SECTION II ARKIDS FIRST - B CONTENTS 200.000 ARKIDS FIRST-B GENERAL INFORMATION 200.100 Introduction 200.110 ARKids First-A and ARKids First-B 200.200 Eligibility 200.300 ARKids First-B Identification Card 200.310 When a Participant\u2019s ARKids First Eligibility Changes 200.320 Provider Verification of Eligibility 200.330 ARKids First ID Card Example 200.340 Non-Receipt or Loss of ID Card 210.000 PROGRAM POLICY 211.000 Provider Participation Requirements 220.000 COVERAGE 221.000 Scope 221.100 ARKids First-B Medical Care Benefits 221.200 Exclusions 222.000 Benefit Limits - ARKids First-B 222.100 Medical Supplies Benefit Limit 222.200 Durable Medical Equipment (DME) Benefit Limit 222.300 Dental Services Benefit Limit 222.310 Preventive Dental Screens 222.400 Vision Care Benefit Limit 222.500 Home Health Benefit Limit 222.600 Preventive Health Screens 222.610 Schedule for Preventive Health Screens 223.000 Extension of Benefits 223.100 Procedure for Extension of Benefits 224.000 Cost Sharing 224.100 Copayment 224.200 Coinsurance 224.210 Durable Medical Equipment Coinsurance 224.220 Inpatient Hospital Coinsurance 240.000 PRIOR AUTHORIZATION 240.100 Inpatient Hospital Medicaid Utilization Management Program (MUMP) 240.200 Prior Authorization (PA) Process for Interperiodic Preventive Dental Screens 240.300 Prior Authorization (PA) for Outpatient Mental Health Services 240.400 Prior Authorization for Other Services 241.000 Participant Appeal Process 250.000 REIMBURSEMENT 260.000 BILLING PROCEDURES 261.000 Introduction to Billing 261.100 Timely Filing 262.000 ARKids First-B Billing Procedures 262.100 CPT and/or HCPCS Procedure Codes 262.110 Medical Supplies Procedure Codes 262.120 Durable Medical Equipment (DME) Procedure Codes 262.130 Preventive Health Screening Procedure Codes 262.140 Speech-Language Pathology Procedure Codes 262.200 National Place of Service Codes 262.300 Billing Instructions \u2013 Paper Claims Only 262.400 Billing Procedures for Preventive Health Screens ARKids First-B Section II 262.410 Primary Care Physician Referral Requirements for Preventive Health Screens 262.420 Limitation on Laboratory Procedures Performed During a Preventive Health Screen 262.430 Vaccines for Children Program ARKids First-B Section II 262.000 ARKids First-B Billing Procedures 262.100 CPT and/or HCPCS Procedure Codes 7-1-07 National codes must be used for both electronic and paper claims. Where only a local code is available, it can be used indefinitely, but it can be billed only on a paper claim. 262.110 Medical Supplies Procedure Codes 7-1-07 The following medical supplies procedure codes may be billed by Medicaid-enrolled Home Health and Prosthetics providers for ARKids First-B participants. A4206 A4221 A4222 A4253 U1 A4256 A4259 U2 A4265 A4310 A4311 A4312 A4313 A4314 A4315 A4316 A4320 A4322 A4326 A4327 A4328 A4330 A4338 A4340 A4344 A4346 A4348 A4351 A4352 A4354 A4355 A4356 A4357 A4358 A4359 A4361 A4362 A4364 A4367 A4369 A4371 A4397 A4398 A4399 A4400 A4402 A4404 A4405 A4406 A4450 A4452 A4455 A4558 A4561 A4562 A4623 A4624 A4625 A4626 A4628 A4629 A4772 A4927 A5051 A5052 A5053 A5054 A5055 A5061 A5062 A5063 A5071 A5072 A5073 A5081 A5082 A5093 A5102 A5105 A5112 A5113 A5114 A5120 A5121 A5122 A5126 A5131 A6154 A6234 A6241 A6242 A6248 A7520 B4086 E0776 Procedure Code Required Modifier(s) Description A6257 \u2014 Transparent film, each ( 16 square inches or less) A6258 \u2014 Transparent film, each (m ore than 16, but less than 48 square inches) A6259 \u2014 Transparent film, each (more than 48 square inches) A6216 A6219 A6228 \u2014 Gauze pads medicated or non- medicated, each (16 square inches or less) ARKids First-B Section II Procedure Code Required Modifier(s) Description A6217 A6220 A6229 A6403 \u2014 Gauze pads medicated or non- medicated, each (more than 16, but less than 48 square inches) A6204 A6218 A6221 A6230 \u2014 Gauze pads medicated or non- medicated, each (more than 48 square inches) A6441 A6446 \u2014 Gauze, non-elastic, per roll (1 linear yard) A6242 A6245 \u2014 Hydrogel dressing, each (16 square inches or less) A6243 A6246 \u2014 Hydrogel dressing, each (m ore than 16, but less than 48 square inches) A6244 A6247 \u2014 Hydrogel dressing, each (m ore than 48 square inches) A6248 \u2014 Hydrogel dressing, each (1 ounce) A6234 A6237 \u2014 Hydrocolloid dressing, each (16 square inches or less) A6235 A6238 \u2014 Hydrocolloid dressing, each (more than 16, but less than 48 square inches) A6238 U1 Hydrocolloid dressing, each (more than 48 square inches) A6196 \u2014 Alginate dressing, each (16 square inches or less) A6197 \u2014 Alginate dressing, each (more than 16, but less than 48 square inches) A6198 \u2014 Alginate dressing, each (more than 48 square inches) A6197 \u2014 Alginate dressing, each (1 linear yard) A6209 A6212 \u2014 Foam dressing, each (16 square inches or less) A6210 A6213 \u2014 Foam dressing, each (more than 16, but less than 48 square inches) A6211 \u2014 Foam dressing, each (more than 48 square inches) A6200 A6203 \u2014 Composite dressing, each ( 16 square inches or less) A6201 A6204 \u2014 Composite dressing, each (m ore than 16, but less than 48 square inches) A6202 A6205 \u2014 Composite dressing, each (more than 48 square inches) A4253 \u2014 Blood glucose test or reagent strips for home blood glucose monitor, per 50 strips A4353 \u2014 Urinary intermittent cat heter with insertion supplies A4394 \u2014 Ostomy deodorant, all types, per ounce ARKids First-B Section II Procedure Code Required Modifier(s) Description A4365 \u2014 Adhesive remover wipes, any type, per 50 A4368 \u2014 Ostomy filters, any type, each A6449 A6452 \u2014 Gauze elastic, all types, per roll (linear yard) A4483 \u2014 Moisture exchange/agreer, dis posable, for use with invasive mech B4100 \u2014 Food thickener, administered orally, per oz. A6549* \u2014 Stocking (Jobst) *NOTE: A4221, A4222 and A6549 must be prior authorized. Form AFMC-103 must be used for the request for prior authorization. View or print form AFMC-103 and instructions for completion. The costs of B4100 and A6549 are not subject to the $125 medical supplies monthly benefit limit. The following procedure code must be utilized when billing for Pedia-Pop. Reimbursement for this product is provider\u2019s cost plus ten percent. Pedia-Pop is only for oral consumption, and only in frozen form. Z2487 Pedia-Pop 1 unit = 1 box Maximum = 2 units per date of service NOTE: Pedia-Pop must be billed on paper. 262.120 Durable Medical Equipment (DME) Procedure Codes 7-1-07 The following DME HCPCS procedure codes may be billed by Medicaid-enrolled prosthetics providers for ARKids First-B participants. HCPCS code Capped rental, purchase or rental only A4635 Purchase only A4636 Purchase only A4637 Purchase only E0100 Purchase only E0105 Purchase only E0110 Purchase only E0111 Purchase only E0112 Purchase only E0113 Purchase only E0114 Purchase only E0116 Purchase only E0130 Purchase only E0135 Purchase only E0140 Purchase only ARKids First-B Section II HCPCS code Capped rental, purchase or rental only E0143 Purchase only E0147 Purchase only E0153 Purchase only E0154 Purchase only E0155 Purchase only E0157 Purchase only E0158 Purchase only E0161 Purchase only E0163 Purchase only E0164 Purchase only E0166 Purchase only E0167 Purchase only E0175 Purchase only E0180 Purchase only E0181 Capped rental E0182 Purchase only E0184 Purchase only E0185 Purchase only E0189 Purchase only E0190 Purchase only E0191 Purchase only E2601 E2602 Capped rental E0196 Purchase only E0197 Purchase only E0200 Capped rental E0202 Rental only E0205 Capped rental E0217 Capped rental E0225 Capped rental E0235 Purchase only E0236 Capped rental E0238 Purchase only E0239 Capped rental E0249 Purchase only E0250 Capped rental E0255 Capped rental ARKids First-B Section II HCPCS code Capped rental, purchase or rental only E0260 Capped rental E0271 Capped rental E0272 Capped rental E0273 Purchase only E0275 Purchase only E0276 Purchase only E0280 Purchase only E0325 Purchase only E0326 Purchase only E0424 Rental only E0430 Rental only E0435 Rental only E0439 Rental only E0443 Purchase only E0444 Purchase only E0480 Capped rental E0560 Purchase only E0565 Capped rental E0570 Purchase only E0575 Capped rental E0585 Capped rental E0600 Rental only E0605 Purchase only E0606 Capped rental E0607 U1 Purchase only E0630 Capped rental E0650 Capped rental E0667 Capped rental E0668 Capped rental E0691 Rental only E0692 Rental only E0693 Rental only E0694 Rental only E0720 Capped rental E0730 Capped rental E0740 Purchase only ARKids First-B Section II HCPCS code Capped rental, purchase or rental only E0745 Capped rental E0747 Rental only E0840 Purchase only E0850 Purchase only E0860 Purchase only E0870 Purchase only E0880 Purchase only E0890 Purchase only E0900 Purchase only E0910 Capped rental E0920 Capped rental E0930 Capped rental E0935 Capped rental E0940 Capped rental E0941 Capped rental E0942 Purchase only E0944 Purchase only E0945 Purchase only E0946 Purchase only E0947 Purchase only E0948 Purchase only E1130 Capped rental E1140 Capped rental E1150 Capped rental E1160 Capped rental E1224 Capped rental E1390 Rental only E1391 Rental only E2611 Purchase only E2612 Purchase only ARKids First-B Section II Procedure Code Required Modifier Description Capped rental, purchase or rental only E1340 NU Durable medical equipment repairs/parts only repairs will not be approved for more than the allowed purchase price of new equipment. (The manufacturer\u2019s invoice must be attached to the repair c\", \"text_truncated\": true}",
+     "cache_control": {
+      "type": "ephemeral"
+     }
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "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",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "## Summary of findings\n\nI was **not able to locate a specific, publicly\u2011posted \"medical policy\" document containing the medical\u2011necessity criteria for CPT 63030** that this payer applied. Here is what I *could* verify, and what remains missing.\n\n### What I confirmed\nThe notice identifies the payer only as \"Medicaid, state of Arkansas\" with no managed-care organization named, which corresponds to the **Arkansas Medicaid fee\u2011for\u2011service program**. For that program:\n\n- Surgical procedures (including spine procedures) requiring prior authorization are governed procedurally by the **Arkansas Medicaid Physician/Independent Lab/CRNA/Radiation Therapy Center Provider Manual, Section II \u2014 \u00a7260.000 \"Prior Authorization,\" \u00a7261.000 \"Obtaining Prior Authorization of Restricted Medical and Surgical Procedures,\" and \u00a7262.000 \"Procedures That Require Prior Authorization.\"** This section only establishes *which CPT codes need PA and how to submit*, not the clinical criteria. I could not load the current manual text directly (humanservices.arkansas.gov returned 403 Forbidden for the manual files), though historical versions confirm this section structure.\n- The actual **medical\u2011necessity clinical criteria** used to review surgical prior\u2011authorization requests (the entity that reviews these on behalf of Arkansas Medicaid is **AFMC**, the state's UM/PA contractor) are stated by AFMC to be **MCG (Milliman) Care Guidelines**, supplemented by \"**AFMC In\u2011House Guidelines for Level 1 Approval of Surgical Procedure**\" for initial nurse-level screening. AFMC's own site states: *\"AFMC uses MCG care guidelines to help review medical necessity for health service requests. MCG care guidelines are the protected intellectual property of MCG. AFMC is not able to distribute them without the permission of MCG.\"* Access is only through a gated, non\u2011printable third\u2011party portal after accepting terms \u2014 I could not retrieve or quote the actual lumbar\u2011discectomy criteria text from it.\n- I also found an important **discrepancy about the appeal deadline**: your letter states 180 days, but AFMC's published description of the Arkansas Medicaid fair\u2011hearing process (consistent across multiple AFMC review-service pages and an Arkansas Register regulation) says: *\"The Medicaid client may request a fair hearing... The fair hearing request must be in writing and sent to the Appeals and Hearings Section of DHS within 35 calendar days of the date on the denial letter.\"* This is far shorter than what your letter says, so I flag it as something to resolve immediately (see notes).\n\n```json\n{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": null,\n  \"effective_date\": null,\n  \"criteria_quotes\": [],\n  \"appeal_deadline\": \"Your letter states 180 days from 2026-08-03 (deadline 2027-01-30). However, Arkansas Medicaid's own published fair-hearing rules (via AFMC, the state's UM contractor) state that a Medicaid recipient's fair hearing request must be received by DHS within 35 calendar days of the date on the denial letter \u2014 i.e., by approximately 2026-09-07. Because of this conflict, do not rely on the 180-day figure; file your appeal/fair-hearing request as soon as possible, well within 35 days, to protect your rights.\",\n  \"submission_route\": \"Two parallel channels exist: (1) Provider 'reconsideration' \u2014 the treating provider can request reconsideration in writing within 35 calendar days of the denial letter, submitted electronically via the Arkansas Medicaid Healthcare Provider Portal or by mail/fax to AFMC (phone 800-426-2234), including the denial letter and additional medical necessity documentation. (2) Member 'Fair Hearing' \u2014 you (the beneficiary) may request a fair hearing in writing, sent to: Arkansas Department of Human Services, Office of Appeals and Hearings, P.O. Box 1437, Slot N401, Little Rock, AR 72203-1437 (physical location 7th and Main Streets, Little Rock). This must be received within 35 calendar days of the denial letter date per AFMC/DHS published guidance.\",\n  \"how_to_obtain_criteria\": \"1) Call AFMC Clinical Services at 479-649-8501 (option 1) or 800-426-2234 and ask specifically which MCG (Milliman Care Guidelines) guideline title/edition and which 'AFMC In-House Guideline for Level 1 Approval of Surgical Procedure' were applied to this CPT 63030 request, and ask for a written copy or summary of the criteria used, citing your reference number POC-007830134D-50943. 2) Under Arkansas Medicaid Fair Hearing rules, request the complete case file/rationale used in the determination as part of your appeal \u2014 the payer must be able to produce the specific criteria relied upon. 3) The treating surgeon's office can also request the AFMC physician reviewer's specific rationale as part of a reconsideration request, since only a physician advisor (not just a nurse screener) can issue a full denial. 4) Ask your provider or DHS caseworker for a copy of Arkansas Medicaid Physician Provider Manual Section 261.000/262.000, which at minimum confirms the PA requirement and process (I could not access the current manual text online due to a site access restriction, but it is a public regulatory document obtainable from Arkansas DHS or AFMC).\",\n  \"confidence\": \"low-medium\",\n  \"notes\": \"I could not find a single, publicly retrievable 'medical policy' document with quotable medical-necessity criteria specific to CPT 63030 for Arkansas Medicaid. The substantive clinical criteria appear to be MCG (Milliman) Care Guidelines, which AFMC states explicitly are proprietary and cannot be distributed/printed outside a gated verification portal (https://review.afmc.org/clinical-guidelines) \u2014 I was not able to log in or retrieve the guideline text. The procedural authorization framework (Sections 260.000-262.000 of the Arkansas Medicaid Physician Provider Manual) is public in principle, but the current manual file returned an HTTP 403 (login/access wall) when I tried to fetch it directly; only older/historical versions and transmittal notices were accessible, and none contained substantive spine-surgery clinical criteria (they largely listed billing codes and procedural rules). I also could not confirm with certainty whether Emerson's Arkansas Medicaid coverage is fee-for-service (reviewed by AFMC) or through a specific managed care entity (e.g., Arkansas Total Care, Empower Healthcare Solutions, or Summit Community Care) \u2014 the letter names only 'Medicaid, state of Arkansas' with no MCO, and the reference-number format (POC-...) did not match any pattern I could positively identify as a specific MCO's numbering scheme. IMPORTANT: There is a material conflict between the 180-day appeal deadline stated in the denial letter and the 35-calendar-day fair-hearing deadline published by AFMC/Arkansas DHS for Medicaid recipients. The patient should treat 35 days as the operative deadline out of caution and seek written clarification/confirmation of the correct deadline immediately, ideally also contacting Arkansas Legal Aid or DHS directly to confirm which deadline governs THIS specific determination, since the letter itself is the payer's own representation and may be enforceable against the payer even if it conflicts with AFMC's general published rule.\"\n}\n```\n\n**Bottom line:** I can identify *who* reviews this determination (AFMC, using MCG/Milliman Care Guidelines plus AFMC's own Level-1 surgical approval guidelines) and the procedural manual sections that require prior authorization, but I could not retrieve or quote the actual medical-necessity criteria text for CPT 63030, because that content is proprietary/licensed and gated behind a non-public portal, and the state provider manual pages I tried were access-restricted. I'd recommend the patient/provider directly request the specific criteria and file (citing reference POC-007830134D-50943) from AFMC and, given the appeal-deadline discrepancy, file the appeal immediately rather than waiting.",
+     "type": "text"
+    }
+   ]
+  }
+ ],
+ "stop_reason": "end_turn",
+ "usage": {
+  "input_tokens": 34,
+  "output_tokens": 9743,
+  "cache_creation_input_tokens": 33261,
+  "cache_read_input_tokens": 256126
+ },
+ "model": "claude-sonnet-5",
+ "tool_calls": 28,
+ "elapsed_s": 135.2,
+ "run_id": "r-aafbda10819a",
+ "case_id": "poc-007830134d"
+}

@@ -1,0 +1,372 @@
+{
+ "answer": {
+  "policy_found": false,
+  "policy_title": null,
+  "policy_number": null,
+  "policy_url": null,
+  "effective_date": null,
+  "criteria_quotes": [],
+  "appeal_deadline": "2027-02-06, as stated in the denial notice (180 days from the notice date of 2026-08-10).",
+  "submission_route": "The denial notice does not state an appeal mailing address, fax number, portal, or form. Dean Health Plan's publicly indexed grievance-and-appeals page states that a grievance or appeal must be submitted in writing, but the page was not accessible for retrieval. Contact Dean Health Plan Member Services at 1-800-952-3455 (TTY 711) to obtain the correct written-appeal address or submission instructions. Include member Quinn Grant, member ID W331641494, reference number POC-5BC8A5312C-11722, the requested CPT 22551 service, and a copy of the denial.",
+  "how_to_obtain_criteria": "Ask Dean Health Plan, in writing or through Member Services, for the complete medical policy and clinical-review criteria used for this specific denial, including the policy title and number, effective date, the conservative-treatment requirements, and the records or documentation the reviewer found missing. Ask the treating provider to request the same criteria and the utilization-review file. The publicly available Dean Health Plan Master Service List confirms that CPT 22551 is included in the cervical decompression-with/without-fusion category, but it does not provide the medical-necessity criteria and therefore is not sufficient to identify the governing policy.",
+  "confidence": "High that no publicly retrievable Dean-specific medical-necessity policy containing the criteria for CPT 22551 was located; moderate regarding the submission instructions because Dean's appeals page was blocked and the denial notice omitted the route.",
+  "notes": "I found Dean Health Plan's provider resources page, its Master Service List updated July 1, 2026, and its grievance-and-appeals page. The Master Service List identifies CPT 22551 but does not state the conservative-treatment criteria. I did not find evidence sufficient to name a specific governing policy, policy number, URL, or effective date. The appeal deadline is taken directly from the notice."
+ },
+ "raw_text": "{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": null,\n  \"effective_date\": null,\n  \"criteria_quotes\": [],\n  \"appeal_deadline\": \"2027-02-06, as stated in the denial notice (180 days from the notice date of 2026-08-10).\",\n  \"submission_route\": \"The denial notice does not state an appeal mailing address, fax number, portal, or form. Dean Health Plan's publicly indexed grievance-and-appeals page states that a grievance or appeal must be submitted in writing, but the page was not accessible for retrieval. Contact Dean Health Plan Member Services at 1-800-952-3455 (TTY 711) to obtain the correct written-appeal address or submission instructions. Include member Quinn Grant, member ID W331641494, reference number POC-5BC8A5312C-11722, the requested CPT 22551 service, and a copy of the denial.\",\n  \"how_to_obtain_criteria\": \"Ask Dean Health Plan, in writing or through Member Services, for the complete medical policy and clinical-review criteria used for this specific denial, including the policy title and number, effective date, the conservative-treatment requirements, and the records or documentation the reviewer found missing. Ask the treating provider to request the same criteria and the utilization-review file. The publicly available Dean Health Plan Master Service List confirms that CPT 22551 is included in the cervical decompression-with/without-fusion category, but it does not provide the medical-necessity criteria and therefore is not sufficient to identify the governing policy.\",\n  \"confidence\": \"High that no publicly retrievable Dean-specific medical-necessity policy containing the criteria for CPT 22551 was located; moderate regarding the submission instructions because Dean's appeals page was blocked and the denial notice omitted the route.\",\n  \"notes\": \"I found Dean Health Plan's provider resources page, its Master Service List updated July 1, 2026, and its grievance-and-appeals page. The Master Service List identifies CPT 22551 but does not state the conservative-treatment criteria. I did not find evidence sufficient to name a specific governing policy, policy number, URL, or effective date. The appeal deadline is taken directly from the notice.\"\n}",
+ "usd": 0.0154,
+ "transcript": [
+  {
+   "role": "system",
+   "content": "You are helping a patient respond to a health insurance denial. Answer precisely and only from evidence you actually retrieve. If you cannot find the governing policy, say so plainly rather than naming a document you are unsure of."
+  },
+  {
+   "role": "user",
+   "content": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-10\nMember: Quinn Grant\nMember ID: W331641494\nPlan: Dean Health Plan (Commercial/ACA), state of Wisconsin\n\nDear Quinn,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Neck (cervical) fusion (ACDF)\n    Procedure code (CPT): 22551\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-06).\n\nReference number: POC-5BC8A5312C-11722\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+  },
+  {
+   "id": "rs_0e14acd4918609a7016ab059f7696887d192bf58562e936a4b",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqsFn4jQ1pXaWx1_dI3u1ZkijN7jcaeZkiCicFiGsXltClXi4i8yIerofOoGoisX84HMmETfv9kvfhtkO-ioVSnWhBk3DvCxWotAAFHRP0RHo9bz96E5KRKRvr4p6qVH4wuhnSE7p3r2Y7eA_BxnrDEfK5pO1rUKs9Kz-bpZAQIFbjoaxXf08j5fK0KRjQxtiBmWJpKcPKiepvOW34O1Ks_Rf2SOFNOslVeagT_oTPlI4XMtVaUU5gLEFj4v-NNnlwvb4oAEyyvplAt30eFJGkBR3CNpzZOtEiRNKWgLGqlW7f-aOdDMivu7zCwyyrH-U_lIozVh8WVKYehagU-lI94hkfOHBcJz9s_HIGxbnMkPbQEyJHeICwySyE5xtmyRIswWz3-4SjqAp7zeMU-UH6a50jpqtIsmRsZ-ZE77wHwySIaDR_gASlMq1ecPgr2jL5t977bXvZGYJbSFJc4hT5n9aFmyl9HgNXL7Mlf-yPwCKmpDc4xInBbyGE8WbBzRWp0LdHRoLip85AHYEuRZ9XpoqohLHLSoXGgRvQ25kGIyS6KNW1kWzPoX26L1AXkCZAKvy8R75IykUkoea8PBu_Eb0Nas6Ooqm_YU5OvjaxxuokG1XdSFK7C6Lhf5hmg42zbWkza6Pzl9wLi66QiY-U1LPh9XiKM_4I50UXnEjrm00GDcrLE589LyS6WHtuyp2iu4nqyvjLnR0iKpgprrHgMrwJQRLh2iH_fomYL9ZV-DHJAZd4hDd9RZOgfDPFPKpU3kZy1tiuphHWU3QqI9jc8r0D2vZ6aQ10JfTh3ztBBYz8p3t8npb6E5OuMOVtKBTLCzxmTThTrncnh42Taq5L1vyCftZEZVyWArv71nkW2LdE1607GtNwz1LzjYn2xLwnCA3Y17XkAdKSmSvejQugfZ6Ya1aJaO1c1fOSzhT-3PyRCNPFF8WDZ226dwfYqVFJ_OyDJlxVPjungvpSJqizfyJ_uMNQK5GBR8aBdhK5cgfYtMJojF-fCpsh1zAaSjlgle0pMOPOj-wJbXVgwF2HFlyaXC03QVSpTzBjQuZuk7wSdwKpY-glA1CE-Z3uSgjfQcx_GRK7a4YrQ4Wxsph0LEoIJ6rqH8GGkgCLWxC_eXyNDRjbNR6ZW0CjmTvCM4qr33uvDMoMRwdX8Ui2Cp8xP0pQJKoD6gmRRryVVmlhRUfjAdXqokberELqhRIcmcp6aq93jyUZ1yjKrTHhcorWraC6ruNu-5tU71pBDjtZZtM8zdAtqM9tFNBHJDQyb4g_Fi7cLzOO_kIBfh4BYsIY3ME-_Hti8a9aPLG0E7wnM57VjKU=",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:deancare.com medical policy cervical fusion 22551 conservative treatment Dean Health Plan Wisconsin PDF 2026\",\"count\":10}",
+   "call_id": "call_CaIMS3pyNYsKPEJPlyD4sPJ0",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0e14acd4918609a7016ab059f8644487d1ad5a76aed392d2c6",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Dean Health Plan medical policy cervical spine fusion anterior cervical discectomy fusion policy\",\"count\":10}",
+   "call_id": "call_1vgI1gc1aWSIoMPhD3Qq7lP2",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0e14acd4918609a7016ab059f8645c87d1943fc23cc4f847d5",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Dean Health Plan provider medical policies spinal fusion cervical 22551\",\"count\":10}",
+   "call_id": "call_X3eMardGQ3VwkWnQwYVGN9QX",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0e14acd4918609a7016ab059f8646487d191ac0c79c1b3c529",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_CaIMS3pyNYsKPEJPlyD4sPJ0",
+   "output": "{\"query\": \"site:deancare.com medical policy cervical fusion 22551 conservative treatment Dean Health Plan Wisconsin PDF 2026\", \"results\": [{\"title\": \"Dean Health Plan Utilization Management Policy Bone Growth Stimulators\", \"url\": \"https://www.deancare.com/getmedia/39612727-0302-423d-99af-99e6317d1ad9/Dean-Bone-Growth-Stimulators-BGS-9076.pdf?ext=.pdf\", \"snippet\": \"<strong>electromagnetic field stimulation for cervical fusion</strong>.\"}, {\"title\": \"Dean Health Plan\", \"url\": \"https://www.deancare.com/\", \"snippet\": \"Find affordable Dean Health Plan insurance coverage options for southern Wisconsin \u2014 including individual and family, Medicare, Medicaid, and employer plans.\"}, {\"title\": \"Dean Health Plan by Medica Master Service List\", \"url\": \"https://www.deancare.com/getmedia/d4696fb0-6037-40d0-ad41-0028bba682ac/Dean-Health-Plan-Master-Service-List.pdf\", \"snippet\": \"22533, 22534, 22548, 22551, 22552, 22554, 22556, 22558, 22585, 22590, 22595, 22600, 22610, 22612, 22614, 22630, 22632, 22633, 22634, 22800, 22802, 22804, 22808, 22810, Coverage of any medical or drug intervention discussed in this document is subject to the limitations and exclusions outlined in the \u00b7 member\u2019s benefit certificate or summary plan description (SPD) and to applicable state and/or federal laws. Updated: July 01, 2026 \u00b7\"}, {\"title\": \"Evidence of Coverage for 2026:\", \"url\": \"https://www.deancare.com/getmedia/9e1bf429-5b8e-48ab-a784-212c9b00401b/Dean-Advantage-2026-Complete-EOC.pdf\", \"snippet\": \"As a member of our plan, you pay a monthly plan premium. For 2026, the monthly plan\"}, {\"title\": \"State of Wisconsin Group Employees - DHP\", \"url\": \"https://www.deancare.com/Members/state-of-wisconsin-employees\", \"snippet\": \"Find Dean Health Plan benefits and wellness resources for State of Wisconsin group employee members.\"}, {\"title\": \"2026 Group Plan Book STATE OF WISCONSIN GROUP HEALTH INSURANCE PROGRAM\", \"url\": \"https://www.deancare.com/getmedia/ed0894c6-4e67-4a62-88c0-7d895be0dc46/DHP-ETF-Plan-Book-2026.PDF\", \"snippet\": \"Find affordable Dean Health Plan insurance coverage options for southern Wisconsin \u2014 including individual and family, Medicare, Medicaid, and employer plans.\"}, {\"title\": \"Wisconsin plans - DHP\", \"url\": \"https://www.deancare.com/Shop-Plans/Individual-Family-Plans/Wi-plans\", \"snippet\": \"<strong>Sign up during open enrollment from November 1 through January 15, 2026</strong>.\"}, {\"title\": \"Wisconsin Dean AdvantageSM (HMO-POS and HMO) Plans Summary of Benefits\", \"url\": \"https://www.deancare.com/getmedia/854a7df1-3293-40b5-afaf-03b49a4c9ab9/Dean-Advantage-2026-Summary-of-Benefits.pdf\", \"snippet\": \"Dean AdvantageSM (HMO-POS and HMO) Plans \u00b7 <strong>January 1, 2026 \u2013 December 31, 2026</strong>\"}, {\"title\": \"H5264-005 MCR60746-101025A H5264_60746_C H5264_005_EOCSV0126_C BPL# 44090\", \"url\": \"https://www.deancare.com/getmedia/05b95d29-5fff-4272-9f9d-df8699344764/Dean-Medicare-2026-Cost-Shared-Value-EOC.pdf\", \"snippet\": \"As a member of our plan, you pay a monthly plan premium. For 2026, the monthly plan\"}, {\"title\": \"INDIVIDUAL + FAMILIES 2026 Dean Health Plans\", \"url\": \"https://www.deancare.com/getmedia/009c4312-c207-4bc7-8693-adebab70b3e2/2026-Dean-IFB-Product-Brochure.pdf\", \"snippet\": \"<strong>Wisconsin, and not enrolled in Medicare</strong>.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_1vgI1gc1aWSIoMPhD3Qq7lP2",
+   "output": "{\"query\": \"Dean Health Plan medical policy cervical spine fusion anterior cervical discectomy fusion policy\", \"results\": [{\"title\": \"Spinal Fusion and Decompression Page 1 of 14\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/index/comm-plan/spinal-fusion-decompression-cs-11012026.pdf\", \"snippet\": \"decompression of spinal cord and/or nerve roots; cervical below C2, each additional interspace (List \u00b7 separately in addition to code for separate procedure) ... Arthrodesis, anterior interbody technique, including minimal discectomy to prepare interspace (other\"}, {\"title\": \"Cervical Spinal Fusion/SUR712.041 Page 1 Policy Number SUR712.041\", \"url\": \"https://medicalpolicy.bcbstx.com/content/dam/bcbs/medicalpolicy/pdf/surgery/SUR712.041_2023-05-01.pdf\", \"snippet\": \"anterior cervical discectomy and fusion for the treatment of symptomatic cervical disc disease.\"}, {\"title\": \"Spinal Fusion and Decompression \u2013 Community Plan ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/spinal-fusion-decompression-cs.pdf\", \"snippet\": \"decompression of spinal cord and/or nerve roots; cervical below C2, each additional interspace (List \u00b7 separately in addition to code for separate procedure) ... Arthrodesis, anterior interbody technique, including minimal discectomy to prepare interspace (other\"}, {\"title\": \"Spinal Fusion and Decompression Page 1 of 11\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/spinal-fusion-decompression.pdf\", \"snippet\": \"facetectomy, foraminotomy or discectomy (e.g., spinal stenosis), 1 or 2 vertebral segments; cervical\"}, {\"title\": \"Medicare Medical Policy Spinal Fusion and Decompression Procedures\", \"url\": \"https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp358.pdf\", \"snippet\": \"Discectomy, anterior, with decompression of spinal cord and/or nerve root(s), including osteophytectomy; cervical, single interspace \u00b7 63076 \u00b7 Discectomy, anterior, with decompression of spinal cord and/or nerve root(s), including osteophytectomy; cervical, each additional interspace (List separately in \u00b7\"}, {\"title\": \"Spine Procedures \u2013 Medicare Advantage Medical Policy\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medadv-mp/spine-procedures.pdf\", \"snippet\": \"<strong>Medicare does not have a National Coverage Determination (NCD) for cervical spine fusion surgery</strong>.\"}, {\"title\": \"Spinal Surgery: Laminectomy and Fusion - Medical Clinical Policy Bulletins | Aetna\", \"url\": \"https://www.aetna.com/cpb/medical/data/700_799/0743.html\", \"snippet\": \"Cervical laminectomy (and/or an anterior and/or posterior cervical discectomy and fusion) for individuals with herniated discs or other causes of spinal cord or nerve root compression (osteophytic spurring, ligamentous hypertrophy) when all of the following criteria are met (see also Additional Notes section):\"}, {\"title\": \"Spinal Fusion and Decompression (for Ohio Only) Page 1 of 12\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/oh/spinal-fusion-decompression-oh-cs.pdf\", \"snippet\": \"facetectomy, foraminotomy or discectomy (e.g., spinal stenosis), 1 or 2 vertebral segments; thoracic ... foraminotomy and/or excision of herniated intervertebral disc; each additional interspace, cervical or\"}, {\"title\": \"Spinal Fusion and Decompression (for North Carolina Only) Page 1 of 8\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/nc/spinal-fusion-decompression-nc-cs.pdf\", \"snippet\": \"facetectomy, foraminotomy or discectomy (e.g., spinal stenosis), 1 or 2 vertebral segments; cervical\"}, {\"title\": \"Subject: Cervical Spine Surgery - Medical Coverage Guideline\", \"url\": \"http://mcgs.bcbsfl.com/MCG?mcgId=02-20000-45&pv=false\", \"snippet\": \"Coric D. ISASS Policy Statement - Cervical Artificial Disc. Int J Spine Surg. 2014 Dec 1;8:1-11. 15. Davis RJ, et al. Two-level total disc replacement with Mobi-C cervical artificial disc versus anterior \u00b7 discectomy and fusion: a prospective, randomized, controlled multicenter clinical trial with 4-year\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_X3eMardGQ3VwkWnQwYVGN9QX",
+   "output": "{\"query\": \"Dean Health Plan provider medical policies spinal fusion cervical 22551\", \"results\": [{\"title\": \"Medicare Medical Policy Spinal Fusion and Decompression Procedures\", \"url\": \"https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp358.pdf\", \"snippet\": \"22551 \u00b7 <strong>Arthrodesis, anterior interbody, including disc space preparation, discectomy, osteophytectomy and decompression of spinal cord and/or nerve roots; cervical</strong> \u00b7 below C2 \u00b7 22552 \u00b7 Arthrodesis, anterior interbody, including disc space preparation, discectomy, osteophytectomy and ...\"}, {\"title\": \"Spinal Fusion and Decompression Page 1 of 11\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/spinal-fusion-decompression.pdf\", \"snippet\": \"22551 \u00b7 <strong>Arthrodesis, anterior interbody, including disc space preparation, discectomy, osteophytectomy and \u00b7 decompression of spinal cord and/or nerve roots; cervical below C2</strong> \u00b7 22552 \u00b7 Arthrodesis, anterior interbody, including disc space preparation, discectomy, osteophytectomy and \u00b7\"}, {\"title\": \"Spinal Fusion and Decompression \u2013 Community Plan ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/spinal-fusion-decompression-cs.pdf\", \"snippet\": \"22551 \u00b7 <strong>Arthrodesis, anterior interbody, including disc space preparation, discectomy, osteophytectomy and \u00b7 decompression of spinal cord and/or nerve roots; cervical below C2</strong> \u00b7 22552 \u00b7 Arthrodesis, anterior interbody, including disc space preparation, discectomy, osteophytectomy and \u00b7\"}, {\"title\": \"Spinal Fusion and Decompression Page 1 of 14\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/index/comm-plan/spinal-fusion-decompression-cs-11012026.pdf\", \"snippet\": \"22551 \u00b7 <strong>Arthrodesis, anterior interbody, including disc space preparation, discectomy, osteophytectomy and \u00b7 decompression of spinal cord and/or nerve roots; cervical below C2</strong> \u00b7 22552 \u00b7 Arthrodesis, anterior interbody, including disc space preparation, discectomy, osteophytectomy and \u00b7\"}, {\"title\": \"Spinal Fusion and Decompression (for North Carolina Only) Page 1 of 8\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/nc/spinal-fusion-decompression-nc-cs.pdf\", \"snippet\": \"22551 \u00b7 <strong>Arthrodesis, anterior interbody, including disc space preparation, discectomy, osteophytectomy and \u00b7 decompression of spinal cord and/or nerve roots; cervical below C2</strong> \u00b7 22552 \u00b7 Arthrodesis, anterior interbody, including disc space preparation, discectomy, osteophytectomy and \u00b7\"}, {\"title\": \"Dean Health Plan by Medica Master Service List\", \"url\": \"https://www.deancare.com/getmedia/d4696fb0-6037-40d0-ad41-0028bba682ac/Dean-Health-Plan-Master-Service-List.pdf\", \"snippet\": \"Cervical \u00b7 \u2022 Decompression \u00b7 With/Without Fusion \u00b7 \u2022 Disc Arthroplasty \u00b7 Lumbar \u00b7 20930, 20931, 20936, 20937, 20938, 20939, 22206, 22207, 22208, 22210, 22212, 22214, 22216, 22220, 22222, 22224, 22226, 22510, 22511, 22512, 22513, 22514, 22515, 22532, 22533, 22534, 22548, 22551, 22552, 22554, 22556, 22558, 22585, 22590, 22595, 22600, 22610, 22612, 22614, 22630, 22632, 22633, 22634, 22800, 22802, 22804, 22808, 22810, Coverage of any medical or drug intervention discussed in this document is subject to the limitations and exclusions outlined in the \u00b7\"}, {\"title\": \"Spinal Fusion and Decompression (for Ohio Only) Page 1 of 12\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/oh/spinal-fusion-decompression-oh-cs.pdf\", \"snippet\": \"22551 \u00b7 <strong>Arthrodesis, anterior interbody, including disc space preparation, discectomy, osteophytectomy and \u00b7 decompression of spinal cord and/or nerve roots; cervical below C2</strong> \u00b7 22552 \u00b7 Arthrodesis, anterior interbody, including disc space preparation, discectomy, osteophytectomy and \u00b7\"}, {\"title\": \"7.01.560 Cervical Spine Surgeries: Discectomy, ...\", \"url\": \"https://www.premera.com/medicalpolicies/7.01.560.pdf\", \"snippet\": \"single-level cervical decompression and single level cervical fusion procedures after \u00b7 90-day provider notification. Site of service review added to CPT codes 22551, 22554,\"}, {\"title\": \"Spine Procedures \u2013 Medicare Advantage Medical Policy\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medadv-mp/spine-procedures.pdf\", \"snippet\": \"Medicare does not have an NCD for cervical spine surgery (other non-fusion procedures). LCDs/LCAs do not exist. For coverage guidelines, refer to the UnitedHealthcare Commercial Medical Policy titled Spinal Fusion and\"}, {\"title\": \"Cervical Spinal Fusion/SUR712.041 Page 1 Policy Number SUR712.041\", \"url\": \"https://medicalpolicy.bcbstx.com/content/dam/bcbs/medicalpolicy/pdf/surgery/SUR712.041_2023-05-01.pdf\", \"snippet\": \"20930, 20936, 22548, 22551, 22552, 22554, 22590, 22595, 22600, 22840, 22841, 22842, 22843, 22844, 22845, 22846, 22847, 22853, 22854, 22859 \u00b7 HCPCS Codes \u00b7 None \u00b7 *Current Procedural Terminology (CPT\u00ae) \u00a92020 American Medical Association: Chicago, IL. References \u00b7\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "id": "rs_0e14acd4918609a7016ab059fb7db487d1877e755d94987a03",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqsFn8OVYTdx0NtKCxU3GFYooDbohxwXUl6hT3Jf53eAs8xylsIHjUBJOJRvWJwDAJDD2fKKY7yBk4V5J_d8M7yP1EQbuItn7XhUuVZvoTdKZnS3FzTfAbKpz5lfV8PM8I58JT6YNL-jl-LrUQQkuX-SjNA9Kt8XTIQbuXnw5foAbhwOKNwCHwFppKmcMCZx5PsUn6HPlGDI_FKaccTjr61dgjiSwr9tFvv9v1112X4KT4_wXk1EkONAWtJpP5E5i5xnRMJY5D2aU2tX94L7nkn4xJGgQtN-lBVav96dNIrICvDm7sp4Emo8E9Nied8pu97WwUNdjhVoykU6iRNat5ejq6RDkwZL8cyImUHYCl-szOgVto7gxUsb1UEsM8YnqfJZupXaHiHSPx5AoQ556oly361YMiZs5Mf-093uat9rX5ShqO20g7xCnHeWZ_m2Msyb2vdIE_q38EKflH627y_DnUqV_3Eec8oH8f528-W6izqcAfxzS3kq5kPZ5Cveaod0IbYz91TUYL39t2gv7hQBFJXtJl8tjZ4KKbc4yVIQNriUc0h6YCd-AY1w8WyN1VvFLODPgAARhI4ABX9auMXIkJqR5XrILG4jGhdbTusCk62u4C6lZd--VYnGBVVbIGHnXt6hVPOqRKGvgxrmmFbjMr8AEKv6m50HLZg4lSqv8wqrBm7AzV3xGGm7f1VbEDhImFvFrixQAqM4WOdBCJSG_DfDqos9TLqa4GthULZuH4zk4vyREtEA27iPDkVkv7zX6cVQovGminnlajQqq-lrPe0d36b9bUBCoGUvoh-mTaKMWYCAQblK2pAt1HuZy4W3Kdm0SSLpEL_ns1vUqBaURnsvx99z8uv9sDtUrnr3JKjs0UebHWGiRJXIiIFUYRnTvzy2D2RKwktE8JOJTt92mGV4Iz5yFowIWUDQnAzNY0t-5tt3B5PI56vqFVunLlatyXKhKIMoxRiND6bpfxHGf7ALipdz0oKj4JWd4NQOh2_iY_g3y-qmqTsZgA4f6tm-w4qnn96B5nNg59_cvyoRSLxCPaIRQLSSb_trln_irsLtLU5HUU_-iGD1z3G1a0sUZX6dnrUR4tLSxIOjUvJMcn8M32ZSEVJ1u7XJLtnocOUq7KESL_OHbXX_fNagXxbLBV5RlYzeBoQUggurfomKKJImSCZR-YryCsj5QzksrEAs8teeJsotsj1cBAUX_QdtuqR60__mZ1wSu04mljVOnSqXsAtIRjVM-WNqCRayutSnlj0rzhBUVdGDXSCqRNd2OjytUdtibZN5eKz4zULAxafCoiRJXVCo0fU_FROYoRZNOgaiYw8bnM1u81-85JTNTGPiIjIihiqIB_wXyllqfJog==",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:deancare.com/getmedia \\\"Spinal Fusion\\\" medical policy Dean Health Plan commercial PDF\",\"count\":20}",
+   "call_id": "call_RmlWJFRm4efOwKBHbphPOy6a",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0e14acd4918609a7016ab059fc8da887d1aeaa8b42c31fd02b",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:medica.com medical policy spinal fusion decompression cervical commercial 22551\",\"count\":20}",
+   "call_id": "call_zqkxtJF3DbSnLzpXQMP6uiOR",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0e14acd4918609a7016ab059fc8db887d1b1173ad0c2570d25",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Dean Health Plan adverse benefit determination appeal submit address commercial Wisconsin appeal 180 days criteria medical policy\",\"count\":10}",
+   "call_id": "call_GitYSCB0B40YWOJnrJmghWkI",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0e14acd4918609a7016ab059fc8dc087d19fac1f1c56f43e62",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_RmlWJFRm4efOwKBHbphPOy6a",
+   "output": "{\"query\": \"site:deancare.com/getmedia \\\"Spinal Fusion\\\" medical policy Dean Health Plan commercial PDF\", \"results\": [{\"title\": \"Dean Health Plan Utilization Management Policy Bone Growth Stimulators\", \"url\": \"https://www.deancare.com/getmedia/39612727-0302-423d-99af-99e6317d1ad9/Dean-Bone-Growth-Stimulators-BGS-9076.pdf?ext=.pdf\", \"snippet\": \"Hodges SC, Eck JC, Humphreys C. Use of electrical bone stimulation in spinal fusion. J Am Acad of \u00b7 Orthop Surg. 2003;11(2):81-88. 15. Khan U, Laurencin CT. Fracture repair with ultrasound: clinical and cell-based evaluation. J Bone Joint \u00b7 Surg Am. 2008;90(Suppl 1):138-144. ... Dean Health Plan Medical Policy MP9076 (No.\"}, {\"title\": \"Dean Health Plan Coverage Policy Recombinant Human Bone Morphogenic\", \"url\": \"https://www.deancare.com/getmedia/3e650d14-710b-4d89-ad9b-74f0ba9de48b/Dean-Recombinant-Human-Bone-Morphogenic-9763.pdf?ext=.pdf\", \"snippet\": \"<strong>commercially available for use in the United States</strong>. BMP is being purported for use in treating \u00b7 orthopedic conditions, such as use in spinal fusion and tibial repair procedures.\"}, {\"title\": \"Dean Health Plan Coverage Policy\", \"url\": \"https://www.deancare.com/getmedia/cca54a75-4da2-4c51-87fc-822755ce7e18/Dean-Stem-Cell-Therapy-Ortho-9758.pdf?ext=.pdf\", \"snippet\": \"Coverage Policy \u00b7 Stem cell and cellular bone matrix products for orthopedic applications, including but not limited \u00b7 to, treatment of osteoarthritis, bone fractures and nonunions, and as an adjunct to spinal fusion, is <strong>investigative and unproven and therefore NOT COVERED</strong>.\"}], \"result_count\": 3, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_zqkxtJF3DbSnLzpXQMP6uiOR",
+   "output": "{\"query\": \"site:medica.com medical policy spinal fusion decompression cervical commercial 22551\", \"results\": [{\"title\": \"Page 1 of 20 Medica Prior Authorization (PA) and Notification Requirements\", \"url\": \"https://partner.medica.com/-/media/documents/provider/prior-authorization-list.pdf?la=en&hash=392580B6BE76D1B16237791F536DCD38\", \"snippet\": \"Cervical \u00b7 \u2022 Decompression \u00b7 With/Without Fusion \u00b7 \u2022 Disc Arthroplasty \u00b7 Lumbar \u00b7 \u2022 Discectomy, Foraminotomy&amp; Laminotomy \u00b7 \u2022 Laminectomy \u00b7 \u2022 Fusion &amp; Treatment \u00b7 of Spinal Deformity \u00b7 \u2022 Disc Arthroplasty \u00b7 20930, 20931, 20936, 20937, 20938, 20939, 22206, 22207, 22208, 22210, 22212, 22214, 22216, 22220, 22222, 22224, 22226, 22510, 22511, 22512, 22513, 22514, 22515, 22532, 22533, 22534, 22548, 22551, 22552, 22554, 22556, 22558, 22585, 22590, 22595, 22600, 22610, 22612, 22614, 22630, 22632, 22633, Yes \u00b7\"}, {\"title\": \"2025 Medicare Prior Authorization List (PDF)\", \"url\": \"https://partner.medica.com/-/media/documents/provider/2025-medicare-prior-authorization-list.pdf?la=en&hash=8737F988263711DCCAD3194625C49A0B\", \"snippet\": \"Fusion &amp; Treatment of Spinal \u00b7 Deformity \u00b7 \u2022 \u00b7 Disc Arthroplasty \u00b7 \u2022 \u00b7 Posterolateral or Intertransverse \u00b7 Lumbar Fusion (autograft not \u00b7 feasible) Sacroiliac Joint Fusion \u00b7 (Percutaneous/Minimally Invasive \u00b7 Techniques, Open) 20930, 20931, 20936, 20937, 20938, 20939, 22206, 22207, 22208, 22210, 22212, 22214, 22216, 22220, 22222, 22224, 22226, 22510, 22511, 22512, 22513, 22514, 22515, 22532, 22533, 22534, 22548, 22551...\"}, {\"title\": \"2026 Medicare Prior Authorization List (PDF)\", \"url\": \"https://partner.medica.com/-/media/documents/provider/2026-medicare-prior-authorization-list.pdf?la=en&hash=CDD7D8BC21E599E397F1CBD3C75EB5F4\", \"snippet\": \"Cervical \u00b7 \u2022 \u00b7 Decompression With/Without \u00b7 Fusion \u00b7 \u2022 \u00b7 Disc Arthroplasty \u00b7 Lumbar \u00b7 \u2022 \u00b7 Discectomy, Foraminotomy, &amp; Laminotomy \u00b7 \u2022 \u00b7 Laminectomy \u00b7 \u2022 \u00b7 Fusion &amp; Treatment of Spinal \u00b7 Deformity \u00b7 \u2022 \u00b7 Disc Arthroplasty \u00b7 \u2022 \u00b7 Posterolateral or Intertransverse \u00b7\"}, {\"title\": \"Mechanized Spinal Decompression Traction Tables for ...\", \"url\": \"https://partner.medica.com/-/media/documents/provider/coverage-policies/mechanized-spinal-decompression-traction-tables-cp.pdf?la=en&hash=799DCA7F3B38E91DF59B4B3E5F3E5201\", \"snippet\": \"Medica Coverage Policy \u00b7 Mechanized Spinal Decompression Traction Tables for Low Back Pain\"}, {\"title\": \"Medica Coverage Policy Laser Spine Surgeries Page 1 of 2 Policy Name:\", \"url\": \"https://partner.medica.com/-/media/documents/provider/coverage-policies/laser-spine-surgeries-cp.pdf?la=en&hash=15997F171C5EBFAD79B7C2D0F3F5CD13\", \"snippet\": \"<strong>ablating bone spurs, herniated and bulging disks, and structures associated with spinal stenosis</strong>. ... Laser spine surgeries are procedures and are, therefore, not subject to FDA approval. Instruments used in these ... Numerous lasers, endoscopes/arthroscopies, and associated supplies have received ...\"}, {\"title\": \"Last Update: 10/1/2024 Medicare Advantage Plans Prior Authorization List\", \"url\": \"https://central.medica.com/DocumentLibrary/PDF/Medicare/Medicare-Medical-Prior-Auth-Form\", \"snippet\": \"22224, 22226, 22510, 22511, 22512, 22513, 22514, 22515, 22532, 22533, 22534, 22548, 22551, 22552, 22554, 22556,\"}, {\"title\": \"Medica Coverage Policy\", \"url\": \"https://partner.medica.com/-/media/documents/provider/coverage-policies/bonemorphprotein_cp.pdf?la=en&hash=A64B6A8375A81ADAA1CC7B5917EF4E46\", \"snippet\": \"the United States. BMP is being purported for use in treating orthopedic conditions, such as use in spinal fusion and\"}, {\"title\": \"Medica Central Master Service List\", \"url\": \"https://partner.medica.com/-/media/documents/wfh/wfh-master-service-list.pdf?la=en&hash=FB101501EB7DB9745A620EF3E71269BC\", \"snippet\": \"Coverage of any medical or drug intervention discussed in this document is subject to the limitations and exclusions outlined in the \u00b7 member\u2019s benefit certificate or summary plan description (SPD) and to applicable state and/or federal laws\"}, {\"title\": \"Reimbursement Policy: Add-On Code Page 1 of 196 Policy Name: Global Days\", \"url\": \"https://partner.medica.com/~/media/Documents/Provider/Global-Days-Assignments-Code-List.pdf\", \"snippet\": \"22551 \u00b7 090 \u00b7 22554 \u00b7 090 \u00b7 22556 \u00b7 090 \u00b7 22558 \u00b7 090 \u00b7 22586 \u00b7 090 \u00b7 Reimbursement Policy: Global Day Assignment Code \u00b7 Page 30 of 196 \u00b7 22590 \u00b7 090 \u00b7 22595 \u00b7 090 \u00b7 22600 \u00b7 090 \u00b7 22610 \u00b7 090 \u00b7 22612 \u00b7 090 \u00b7 22630 \u00b7 090 \u00b7 22633 \u00b7 090 \u00b7\"}, {\"title\": \"Medica Central Coverage Policy Laser Spine Surgeries 1 of 2 Policy Name:\", \"url\": \"https://mo-central.medica.com/Document-Library/pdf/Medical-Policies/Laser-Spine-Surgeries-9768\", \"snippet\": \"Laser spinal surgery has been purported for use in multiple spine surgery techniques, including\"}, {\"title\": \"Medica Coverage Policy Page 1 of 2\", \"url\": \"https://partner.medica.com/-/media/documents/provider/coverage-policies/synthetic-cartilage-implants-cp.pdf?la=en&amp=&hash=7CDACBAA2606A573BBD3EB7FBF7854FC\", \"snippet\": \"<strong>removal of bone spurs and inflamed tissue, and in severe cases, surgical fusion of the joint</strong>.\"}, {\"title\": \"The information in this directory is correct as of 08/2026.\", \"url\": \"https://www.medica.com/-/media/Documents/Medicaid/2026/2026-SNBC-Provider-Pharmacy-Directory-Vol-1.pdf?rev=de83d7d3e607447c8dd02447d45d7cf6&hash=DD9EE931C2C3BDA73C5304CA1415D788\", \"snippet\": \"The information in this directory is correct as of 08/2026 \u00b7 For the most current information, visit Medica.com/AccessAbility and click on Physicians and Facilities to use\"}, {\"title\": \"Medica Central Coverage Policy Recombinant Human Bone Morphogenic\", \"url\": \"https://mo-central.medica.com/Document-Library/pdf/Medical-Policies/Recombinant-Human-Bone-Morphogenic-9763\", \"snippet\": \"<strong>recombinant human bone morphogenetic protein (rhBMP-2) used in spinal fusion</strong>.\"}, {\"title\": \"Medica Central Coverage Policy Implantable Peripheral Nerve\", \"url\": \"https://mo-central.medica.com/Document-Library/pdf/Medical-Policies/Implantable-Peripheral-Nerve-9769\", \"snippet\": \"<strong>limbs, including unilateral or bilateral pain</strong>. It has also been FDA approved for spinal cord\"}, {\"title\": \"Reimbursement Policy: Discontinued Procedure Page 1 of 2\", \"url\": \"https://partner.medica.com/-/media/documents/provider/discontinued-procedure-policy.pdf?la=en&hash=6C5505860D50788BD6A26582E23A5429\", \"snippet\": \"Reimbursement Policy: Discontinued Procedure \u00b7 Disclaimer: This reimbursement policy is intended to provide general guidance regarding Medica\u2019s policy for the\"}, {\"title\": \"H8889-001, 003 MCR60722-101025A Y0088_60722_C BPL# 44057, 44059\", \"url\": \"https://www.medica.com/-/media/Documents/Medicare/Advantage-Solution/2026/2026-Advantage-Solution-H8889001-EOC_v2.pdf\", \"snippet\": \"MCR60722-101025A Y0088_60722_C \u00b7 RX BPL# 94209, 94211\"}, {\"title\": \"Plan Documents for Medicare Advantage Solution Members | Medica\", \"url\": \"https://www.medica.com/shop/medicare/plan-materials-forms/medica-medicare-advantage-solution-plan-materials\", \"snippet\": \"Review plan documents and plan information for Medica Medicare Advantage Solution Members.\"}, {\"title\": \"Medica\u00ae Missouri Policy of Coverage for Individuals and Families\", \"url\": \"https://www.medica.com/documents/download?id=574230\", \"snippet\": \"Plan Identifier 2020-IFBSMBCMO, 2020- \u00b7 Cancellation Within First Ten Days\"}], \"result_count\": 18, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_GitYSCB0B40YWOJnrJmghWkI",
+   "output": "{\"query\": \"Dean Health Plan adverse benefit determination appeal submit address commercial Wisconsin appeal 180 days criteria medical policy\", \"results\": [{\"title\": \"Grievance and Appeals Process - DHP\", \"url\": \"https://www.deancare.com/Legal/Grievances-Appeals\", \"snippet\": \"These requests are subject to the non-formulary exception process described later in this section. To file a grievance/appeal, you or your authorized representative must send your grievance/appeal to Us in writing at the following address: <strong>Dean Health Plan, Inc.</strong>\"}, {\"title\": \"Grievances and Appeals | Medica\", \"url\": \"https://www.medica.com/employeebenefits/wisconsin-medica-employees/grievances-and-appeals\", \"snippet\": \"An Adverse Determination is a denial, reduction, or termination of benefits because the care does not meet Our definition of medical necessity, appropriateness, health care setting, level of care or effectiveness. To file a grievance, you or your authorized representative must send your grievance to us in writing within 180 days of the original Adverse Determination at the following address:\"}, {\"title\": \"Medicare coverage decisions, grievance, + appeal rights\", \"url\": \"https://www.deancare.com/Medicare/Medicare-Member-Center/dean-advantage-member-center/Grievance-and-appeal-rights\", \"snippet\": \"For Medicare Part D drug payment requests: Dean Health Plan Attn: Part D Member Claims Department PO Box 1039 Appleton, WI 54912-1039 \u00b7 An appeal means we will review an unfavorable coverage determination. A grievance is any complaint or dispute (dissatisfaction) other than one involving an organization determination.\"}, {\"title\": \"\u00a9 2026 Dean Health Plan, Inc. | DHP-OPS11011998-1-01223A\", \"url\": \"https://www.deancare.com/getmedia/969fdf2c-a642-47e9-9358-3ad8f96a9696/Dean-Providers-Claim-Review-Appeal-Request-form.pdf\", \"snippet\": \"All other adjustments and appeals ... incorrect order of payment or other ... \uf06d Medical policy \u2013 <strong>request a determination of medical necessity or a denial for failure to obtain prior authorization</strong>....\"}, {\"title\": \"Wisconsin | Coverage Rights\", \"url\": \"https://coveragerights.org/wisconsin/\", \"snippet\": \"If your insurer did not send you the determination letter, your policy, the medical necessity criteria, or instructions and forms for filing a grievance, call your insurer and request these documents. Call your health care provider\u2019s office. Contact your health care provider\u2019s office to ask for help with the grievance process. Someone in his or her office might help you fill out the forms to file a grievance and draft a strong appeal letter.\"}, {\"title\": \"DeanCare Gold (Cost) Member grievance and appeal rights - DHP\", \"url\": \"https://www.deancare.com/Medicare/Medicare-Member-Center/DeanCare-Gold-Cost-Members/DeanCare-Gold-Cost-grievance-and-appeal-rights\", \"snippet\": \"<strong>1-608-828-1978 or 1-888-422-3326</strong> Medical fax for Medical coverage determination: 1-608-252-0840 \u00b7 Dean Health Plan by Medica P.O.\"}, {\"title\": \"Disputes and appeals overview | Aetna\", \"url\": \"https://www.aetna.com/health-care-professionals/disputes-appeals/disputes-appeals-overview.html\", \"snippet\": \"Colorado, Connecticut, Delaware, ... Wisconsin or Wyoming, ... The time frame is <strong>180 calendar days for utilization review or claims appeals issues based on medical need or experimental/investigational coverage criteria</strong>....\"}, {\"title\": \"Coverage Appeals Job Aid\", \"url\": \"https://www.cms.gov/marketplace/technical-assistance-resources/appeal-help/appeal-decision.pdf\", \"snippet\": \"Appeal Rights\u201d section of their plan or issuer denial letter for additional instructions about how ... <strong>A consumer has 180 days from receipt of denial to file an internal appeal</strong>.\"}, {\"title\": \"Unit 5: Denials, Adverse Benefit Determinations, Grievances, and Appeals\", \"url\": \"https://providers.highmark.com/resources-and-education/highmark-provider-manual/chapter-5-care-and-quality-management/unit-5-denials-adverse-benefit-determinations-grievances-and-app.html\", \"snippet\": \"The appeal must be filed <strong>no later than 180 days after receipt of the original denial notification</strong>.\"}, {\"title\": \"Member Benefit Appeal Request Form\", \"url\": \"https://liunawisconsin.org/api/media/view/fid/170/file.pdf\", \"snippet\": \"If you are not satisfied with the ... fill out the below form and return within: \u2022 <strong>180 days after you receive the notice of denial for eligibility, healthcare, prescription drug, or Weekly Accident and Sickness Benefit claims</strong>...\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "arguments": "{\"url\":\"https://www.deancare.com/Legal/Grievances-Appeals\"}",
+   "call_id": "call_axrXPTBwE7OEaFUig23BjCLj",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_0e14acd4918609a7016ab059ffad9887d1834474678a876c67",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_axrXPTBwE7OEaFUig23BjCLj",
+   "output": "{\"url\": \"https://www.deancare.com/Legal/Grievances-Appeals\", \"final_url\": \"https://www.deancare.com/Legal/Grievances-Appeals\", \"http_status\": 403, \"content_type\": \"text/html; charset=UTF-8\", \"login_wall\": true, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Sorry for the inconvenience You were blocked from accessing the website. If you need to speak to someone right away, call Medica Member Services at 1-800-952-3455 (TTY 711) . Please reference the following information. The RayID and the IP Address: a3e42a225f374b86, 76.98.205.249 We're here to help Monday to Friday from 9 a.m. to 5 p.m. CT. 1-800-952-3455 (TTY 711) Contact us \u00a9 2026 Medica\", \"text_truncated\": false}"
+  },
+  {
+   "id": "rs_0e14acd4918609a7016ab05a01363087d1884bb9495f7fc562",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqsFoCYWQklNUYVyoJchCvIiQ0KSmdC6ZAQ8nwpUuy8IyAhl4Jp_I0T-vhNMVvfO6oLpyjk8Q0DUq1BvidB2Y18tZ7DoTDHRbstr6ZilbcG3Q17HxDrnbyq1eAXrw2jsFDO4PQOI1SP_jj5r4vhsr4htXrAPLPI8IU8LSo1gzIIqTWKsvbxswQ3UqeaPCVTAn-sAat2c1Px6bk2bQcThKIqq61yt72AizyX1969-42Q_-SjCL6WQSjpOVmgjQp5jRtaNAvxH4Tnb9BUIUsXO5b191w784yTg3imrtF2XHba5JxVZxlFrLlekKrHvRW562LTPWoS11JYNJhwRAIP4dJGjfpRniyFOvybw8xv6Ri0YDwaV2amExnaCsx7lrAHgWWBU-NsLEy02EJRT0Sk4ENAO8Xxi1aoLJi891wjggMYEBRNn19fePRS-YnM-KstsCfF9TAUgqKd4tGPdAmKlkc7a8zip9K98JE_n9VTdYK6SZzWWyz2NFqie58t1hyjRKphMRgblza3WtVG6kGEevkeHP3scRuKLSvHyiTKN3i9vfzGyo_fJcydTW18WaRMCXoRR35OZoF1AewYh1eFvlFXmHKfvVuMTWt7CFjyefZlv-P8DBmLMrt_Zk1Un6xetxO7PdFuFxN6WhKaiggpckjSn2CfIBPnw6cG0r9DU34GF25DPyXDSkFb3jHSfW0spiIqPEkfDKYA4b7lhm9LaG3iicnWxpjS5xQkf3P-TJbQ9FTRar8hfnYHALNCaI0obTLRT_lz5bfx37zJgGOy7g2K4QCPbCoz4Aw638Jh67t2LMDO34Y76MRsT5rObARYqaClKslEMqTIEB1M-X2Z8WQoaVgHrjYX0cQkt5XUhBeF44f9yUH4gQ-OxZJLXunz1VFJ3-bfoGh7i081LV_SAoSo1MYvayCcdc_-YCPGKOQDISKpqA4HPkaAIAyB-wUqJvJ3uIGtbHqpz0QAedGKxFuGiU6tJUeGq3giwBUxlrbjjW2U1bh9bCSBbl4SfzbmFDc_NxJbWnxJ3n5Wf3geGrPWeDDo8L9xqO3jZkadhd-xiRQ1ki9J0xhIN2NoVJfNRX3-UVEo9Gg8vK2UJypKMrYx3dJB8H6TbZ8hW-EtC2CXpWqU8hrln1VTygR86dsRMr-hg4-3AypIYUfqZuCoBfVOF5wejaRE5J6sZRVeZVJghKentM4GIDi0oRbc_DCCp-7Sno3tS34Sf4el3Cwg1zrcY9u9aHYFN__FrY0pUmE6UDkvSYBoL9HCKKIjFvtrLLrluJtNjqGVpmNJM6VMYs9TN7RONrw1ot2NfKKgST580ITdZR1LqhKTTdxcFBerGAQ_o5W",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Dean Health Plan Medical Policy\\\" \\\"cervical\\\" fusion\",\"count\":20}",
+   "call_id": "call_AtdcKdeOxwLFBeiEhI0tYJlP",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0e14acd4918609a7016ab05a02324c87d187b232b3490000ad",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Dean Health Plan\\\" \\\"22551\\\"\",\"count\":20}",
+   "call_id": "call_NSBgm3iEIjPk8dbnHTzxgFkq",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0e14acd4918609a7016ab05a02326887d18e0c1a00ab5dd07f",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:deancare.com \\\"medical policy\\\" \\\"spinal\\\" \\\"fusion\\\"\",\"count\":20}",
+   "call_id": "call_WFn4dOb817RvJuQu83yl53Rz",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0e14acd4918609a7016ab05a02327c87d1837e798503681284",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Dean Health Plan by Medica coverage policies medical policy list\",\"count\":10}",
+   "call_id": "call_fVkD6kPq8anaW79DQcIdgOsI",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0e14acd4918609a7016ab05a0232b087d188d925021ab47f5e",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_AtdcKdeOxwLFBeiEhI0tYJlP",
+   "output": "{\"query\": \"\\\"Dean Health Plan Medical Policy\\\" \\\"cervical\\\" fusion\", \"results\": [{\"title\": \"Dean Health Plan Utilization Management Policy Bone Growth Stimulators\", \"url\": \"https://www.deancare.com/getmedia/39612727-0302-423d-99af-99e6317d1ad9/Dean-Bone-Growth-Stimulators-BGS-9076.pdf?ext=.pdf\", \"snippet\": \"(Orthofix Medical, Inc.) for Facilitating Healing after Cervical Fusion. February 2021. Plymouth Meeting, ... 48. Hayes, Inc. Hayes Directory Annual Review: Noninvasive Electrical Bone Growth Stimulators for Acute, Delayed Union, and Nonunion Fractures. October 2020. Lansdale, PA. 49. Hayes, Inc. Hayes Directory Annual Review: Noninvasive Electrical Bone Growth Stimulators for Spinal \u00b7 Fusion or Foot and Ankle Indications. January 2021. Lansdale, PA. ... Dean Health Plan Medical Policy MP9076 (No.\"}, {\"title\": \"Medica Central Utilization Management Policy Bone Growth Stimulators\", \"url\": \"https://mo-central.medica.com/Document-Library/PDF/Medical-Policies/Bone-growth-(Osteogenesis)-stimulators-9076\", \"snippet\": \"Dean Health Plan Medical Policy MP9076 (No. III-DEV.07) ... J Musculoskelet Neuronal Interact. 2007;7(3):253-265. 5. Divelbiss BJ, Adams BD. Electrical and ultrasound stimulation for scaphoid fractures. Hand \u00b7 Clinics. 2001;17(2):697-701. 6. ECRI Institute. Emerging Technology Evidence Report: Electrical Bone Growth Stimulation \u00b7 (Cervical-Stim) for Facilitating Healing after Cervical Fusion...\"}], \"result_count\": 2, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_NSBgm3iEIjPk8dbnHTzxgFkq",
+   "output": "{\"query\": \"\\\"Dean Health Plan\\\" \\\"22551\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_WFn4dOb817RvJuQu83yl53Rz",
+   "output": "{\"query\": \"site:deancare.com \\\"medical policy\\\" \\\"spinal\\\" \\\"fusion\\\"\", \"results\": [{\"title\": \"Dean Health Plan Utilization Management Policy Bone Growth Stimulators\", \"url\": \"https://www.deancare.com/getmedia/39612727-0302-423d-99af-99e6317d1ad9/Dean-Bone-Growth-Stimulators-BGS-9076.pdf?ext=.pdf\", \"snippet\": \"Hodges SC, Eck JC, Humphreys C. Use of electrical bone stimulation in spinal fusion. J Am Acad of \u00b7 Orthop Surg. 2003;11(2):81-88. 15. Khan U, Laurencin CT. Fracture repair with ultrasound: clinical and cell-based evaluation. J Bone Joint \u00b7 Surg Am. 2008;90(Suppl 1):138-144. ... Dean Health Plan Medical Policy MP9076 (No.\"}, {\"title\": \"Dean Health Plan Coverage Policy\", \"url\": \"https://www.deancare.com/getmedia/cca54a75-4da2-4c51-87fc-822755ce7e18/Dean-Stem-Cell-Therapy-Ortho-9758.pdf?ext=.pdf\", \"snippet\": \"appropriate health care providers to obtain needed medical advice, care, and treatment. Coverage Policy \u00b7 Stem cell and cellular bone matrix products for orthopedic applications, including but not limited \u00b7 to, treatment of osteoarthritis, bone fractures and nonunions, and as an adjunct to spinal fusion, is investigative and unproven and therefore NOT COVERED.\"}, {\"title\": \"Dean Health Plan Coverage Policy Recombinant Human Bone Morphogenic\", \"url\": \"https://www.deancare.com/getmedia/3e650d14-710b-4d89-ad9b-74f0ba9de48b/Dean-Recombinant-Human-Bone-Morphogenic-9763.pdf?ext=.pdf\", \"snippet\": \"orthopedic conditions, such as use in spinal fusion and tibial repair procedures.\"}], \"result_count\": 3, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_fVkD6kPq8anaW79DQcIdgOsI",
+   "output": "{\"query\": \"Dean Health Plan by Medica coverage policies medical policy list\", \"results\": [{\"title\": \"Provider Resources - DHP\", \"url\": \"https://www.deancare.com/providers\", \"snippet\": \"Information and resources to help you better serve your patients. Access your Dean Health Plan provider portal, forms and manuals, coverage policies, and more.\"}, {\"title\": \"Dean Health Plan brochure\", \"url\": \"https://www.opm.gov/healthcare-insurance/healthcare/plan-information/plans/BrochureJson?brochureNumber=73-189&year=2024\", \"snippet\": \"The Office of Personnel Management (OPM) has determined that Dean Health Plan&#x27;s prescription drug coverage is, on average, expected to pay out as much as the standard Medicare prescription drug coverage will pay for all plan participants and is considered Creditable Coverage.\"}, {\"title\": \"Dean Health Plan by Medica Master Service List\", \"url\": \"https://www.deancare.com/getmedia/d4696fb0-6037-40d0-ad41-0028bba682ac/Dean-Health-Plan-Master-Service-List.pdf\", \"snippet\": \"For all other providers, Dean Health Plan ASO members need to verify that their providers have submitted a prior authorization before the \u00b7 service is performed in order to avoid incurring additional financial liability. ... For ASO plan members, prior authorization and plan coverage of any medical intervention discussed in the Dean Health Plan Master\"}, {\"title\": \"Dean Health Plan by Medica | ETF\", \"url\": \"https://etf.wi.gov/insurance/2026/dean-health-plan-medica\", \"snippet\": \"It\u2019s a different kind of healthcare model where providers and coverage coordinate to better care for you. You\u2019re covered with 31 hospitals and many conveniently located primary care sites in 20 counties throughout southern Wisconsin. Take advantage of one of the largest provider networks in southern Wisconsin with: ... New ID cards: Cards with new member IDs and group numbers will be issued. All current medical authorizations that exist will carry over to your new member ID.\"}, {\"title\": \"2025 Dean Health Plans I N D I V I D U A L S + FA M I L I E S\", \"url\": \"https://www.deancare.com/getmedia/1c181c25-7809-40a2-9dca-43fa03718f9f/Dean-Individual-Plan-Book-2025.pdf\", \"snippet\": \"The higher the coverage level, the higher the premium. Premiums are higher for Gold plans because the insurer \u00b7 covers more of the medical care costs for you and everyone on your plan.\"}, {\"title\": \"Dean Health Plan home\", \"url\": \"https://memberauth.deancare.medica.com/\", \"snippet\": \"Do you have a Medicare Supplement (Medigap) Plan? click here to sign in \u00b7 REGISTER \u00b7 Get easy access to your insurance plan information \u00b7 View your benefits \u00b7 Find an in-network provider \u00b7 Download your ID card \u00b7 Get answers about coverage \u00b7 And more \u00b7 Create an account \u00b7 Contact Us \u00b7 Privacy Policy \u00b7 Terms of Use \u00b7 All rights reserved. If you need assistance accessing information or documents on the Dean Health Plan website and require the information be provided in an alternate format, please contact the Customer Care Center.\"}, {\"title\": \"2024 Dean Health Plan by Medica Member Resources ...\", \"url\": \"https://www.deancare.com/getmedia/01442519-d6c8-4ff2-afb8-646dce4792ef/Dean-Provider-Network-Member-Services-Reference-Guide.pdf\", \"snippet\": \"replacement products that include Medicare Part A and Part B benefits plus value- added coverage and supplemental benefits bundled into a single, convenient plan. ... Applicable to: Individuals enrolled in Dean Health Plan by Medica benefit plans.\"}, {\"title\": \"Member Benefits - DHP\", \"url\": \"https://www.deancare.com/Members\", \"snippet\": \"... Review plan details for employer ... and all the benefits that come with it. You\u2019ll find more about plans including: <strong>Gold (Cost), Select (Supplement), and Dean Advantage (MAPD) plans</strong>....\"}, {\"title\": \"Medical Management for Providers - DHP\", \"url\": \"https://www.deancare.com/Providers/Medical-Management\", \"snippet\": \"Exception to coverage request form (PDF) for new FDA-approved that have been on the market less than a year. ... Musculoskeletal, Interventional Pain Management, Cardiology and Radiology Pharmacy Mental health Genetic testing \u00b7 Medical policies Medical policy drug documents ASO prior authorization Clinical guidelines Other clinical guidelines\"}, {\"title\": \"Dean Health Plan by Medica | Insurance - directory \u2013 Greater Madison Chamber of Commerce\", \"url\": \"https://members.madisonbiz.com/list/member/dean-health-plan-by-medica-326\", \"snippet\": \"Since 1983, Dean Health Plan has supported southern Wisconsin residents. We offer a range of insurance options, including commercial and individual plans, Medicare, Medicaid, and third-party administrator services.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "arguments": "{\"url\":\"https://www.deancare.com/Providers/Medical-Management\"}",
+   "call_id": "call_4tgF0ECZf1RMfnpTisfaEPnR",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_0e14acd4918609a7016ab05a05923087d1b9eefe4d410a17a6",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_4tgF0ECZf1RMfnpTisfaEPnR",
+   "output": "{\"url\": \"https://www.deancare.com/Providers/Medical-Management\", \"final_url\": \"https://www.deancare.com/Providers/Medical-Management\", \"http_status\": 403, \"content_type\": \"text/html; charset=UTF-8\", \"login_wall\": true, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Sorry for the inconvenience You were blocked from accessing the website. If you need to speak to someone right away, call Medica Member Services at 1-800-952-3455 (TTY 711) . Please reference the following information. The RayID and the IP Address: a3e42a459cea4b86, 76.98.205.249 We're here to help Monday to Friday from 9 a.m. to 5 p.m. CT. 1-800-952-3455 (TTY 711) Contact us \u00a9 2026 Medica\", \"text_truncated\": false}"
+  },
+  {
+   "id": "rs_0e14acd4918609a7016ab05a07047887d18325ab58bfe65e35",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqsFoImEtEWJ9gNPdekX8NuFLv4-WfalyFwMdQFgUdTvj3Bm8PL9ohP767N2U3bT11tyw4ycFVPQvvGKKC887aaOo0z6j2Aj_ymrREYjzgn94-jJFAkyJ7hMZg9CZMI01EukU1wc4yQIXIJwuLIuLlbYd7JqanJ7UbtJoMpZQDGXlDCBG6kzCrxzMOPxMRpRVAfexxotd_xjwS4B1YMqLoVpDxohgLo46m002icmpcbT15a764FTqAAHGCIVqwjQIesoxWYIB4X3zIbkyI60z0gHlOLYnAGkZ8bmV6G6_Y3-3aQJbLIcOP5naQswQP-Z_x2Bfznv0QseKgCDVDqbUukYayzyjguwdY0aNn9WaqcV5sPNCq87oBl7uh7bAKZwigboupo8tV6fMFFh-PKsCyjXV8SnMgEOK-7OauOVGC4tzoyghIYpihbb0W5xu5PSNJFpoLfFxd6OadaGoozI9PNT6DXMy18yI1uhkA9yzUUnaVfYIJW8GYl08mvAqd5SBP0VkyY9ElEEUoHSLaH1nRN84Votv_2K-xLfpoQA9gAVRtzKNBUxf12YnNS1OjMKX0mueoghJhzJFSzwUwe6kMEJaHycY9XjJdfLihw5Y0vW4Fg8iQbZTVsF-oYiLj8ViLQxOaaF0J3D6nIqnWY-y-MqYqmvo9GrPCAfvQ6bcu3fJElck4YW2m3jQvtDRcELhUlYDEzv74aEKzuLTyxlllDXl6BQIR-9rp5beppbUDGgLJ3oBMiEq95gCOTHLXBjT5mIflpMnc2jEfh4Q_qiBx5ZroVQeI3Lh_-uyKF3PnIwmTFdtmqJG4zwF-FvOj-Le6kYme7cU14dqCVPvAE5PYqbSAUHGSFguxF20PaAvz6n6tCb1-7FNSbH8sXpsGXPZ8_SdbcquSCKYdmK6kPkujRUhgpjI0TGnPTb8AA1vsKu_7HXAT0KNoyGauJ7wN3VFqOo-K3NYuj-grwoWNTQHCd6adlnmWOPMnEpN9g_1Dkf6qVSL4q5FIDES1B7G5iplfdp7JEa9Ae6Tg4FhHWQaNgt3qPTtvKe3-rGGIaFxMYoDm7r74lW-e11fv4wp1aNubWB1NFsXSeabZ6uzH-E7W0PCrYHDb3FY-W3s9a3fucXMRpxPvheVrbfQgTB2bTEbiHZgFDHwqTsxhUJlyrRc1m8LOkd8TyQ-e8cd7twQyvrecxujIUwZkjfWPJO3oglTF6O-5Q9tteu7hRCfHR1d9xrbTy5J1_DmuKIVYe6LRzws61NM=",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:deancare.com/Legal/Grievances-Appeals \\\"Dean Health Plan, Inc.\\\" address grievance appeal commercial\",\"count\":10}",
+   "call_id": "call_k5reN95impjkTgydhhWARGDi",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0e14acd4918609a7016ab05a080a8487d1843c01d6be211f27",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Dean Health Plan, Inc.\\\" \\\"Grievance and Appeals\\\" \\\"PO Box\\\" Wisconsin\",\"count\":10}",
+   "call_id": "call_SZWfXRrzg1BPQ7pSUOqYcAxm",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0e14acd4918609a7016ab05a080a9487d1831779510deab0b2",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:deancare.com \\\"To file a grievance/appeal\\\" \\\"written\\\" Dean Health Plan\",\"count\":10}",
+   "call_id": "call_H75yfr5S4Cdt2RgZ4EvW0fzD",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0e14acd4918609a7016ab05a080aa087d1b4848b571dc36734",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Dean Health Plan commercial appeal fax medical necessity Wisconsin 1-800-952-3455 address\",\"count\":10}",
+   "call_id": "call_o90R9EgBWpcKqa8T4ctXu4Bz",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0e14acd4918609a7016ab05a080aa887d193b3311e5dbc77f8",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_k5reN95impjkTgydhhWARGDi",
+   "output": "{\"query\": \"site:deancare.com/Legal/Grievances-Appeals \\\"Dean Health Plan, Inc.\\\" address grievance appeal commercial\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_SZWfXRrzg1BPQ7pSUOqYcAxm",
+   "output": "{\"query\": \"\\\"Dean Health Plan, Inc.\\\" \\\"Grievance and Appeals\\\" \\\"PO Box\\\" Wisconsin\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_H75yfr5S4Cdt2RgZ4EvW0fzD",
+   "output": "{\"query\": \"site:deancare.com \\\"To file a grievance/appeal\\\" \\\"written\\\" Dean Health Plan\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_o90R9EgBWpcKqa8T4ctXu4Bz",
+   "output": "{\"query\": \"Dean Health Plan commercial appeal fax medical necessity Wisconsin 1-800-952-3455 address\", \"results\": [{\"title\": \"Contact us - DHP\", \"url\": \"https://www.deancare.com/Contact-Us\", \"snippet\": \"Send a secure message to Dean Health Plan member services or sales and client services. You can also call using the phone number for your type of plan.\"}, {\"title\": \"Grievance and Appeals Process - DHP\", \"url\": \"https://www.deancare.com/Legal/Grievances-Appeals\", \"snippet\": \"You may file a complaint online or print a complaint form at: oci.wi.gov/. You may also request a complaint form by writing to: Office of the Commissioner of Insurance <strong>P.O. Box 7873 Madison, WI 53707-7873</strong> Or calling (608) 266-0103 (Madison) or toll free at 1-800-236-8517 (Statewide).\"}, {\"title\": \"Medicare coverage decisions, grievance, + appeal rights\", \"url\": \"https://www.deancare.com/Medicare/Medicare-Member-Center/dean-advantage-member-center/Grievance-and-appeal-rights\", \"snippet\": \"Dean Advantage Plans Attn: Part D Member Complaints Dept <strong>P.O. Box 56099 Madison, WI 53705-9399</strong> ... The Office of the Medicare Ombudsman (OMO) helps you with complaints, grievances, and information requests. See the Ombudsman website. ... 1-800-Medicare (1-800-633-4227) Recorded and live help ...\"}, {\"title\": \"Health Plan and Vendor Contact Information | ETF\", \"url\": \"https://etf.wi.gov/insurance/health-plan-and-vendor-contact-information\", \"snippet\": \"Find the address, phone number, and other contact details for health plans and vendors.\"}, {\"title\": \"Dean Health Plan by Medica | ETF\", \"url\": \"https://etf.wi.gov/insurance/2026/dean-health-plan-medica\", \"snippet\": \"To find providers on the Providers and Information section of the State of Wisconsin Group Health Insurance Program webpage, select \u201cDean Health Plan HMO Network\u201d or \u201cDean Health Plan Commercial HMO\u201d (PDF).\"}, {\"title\": \"\u00a9 2026 Dean Health Plan, Inc. | DHP-OPS11011998-1-01223A\", \"url\": \"https://www.deancare.com/getmedia/969fdf2c-a642-47e9-9358-3ad8f96a9696/Dean-Providers-Claim-Review-Appeal-Request-form.pdf\", \"snippet\": \"All other adjustments and appeals must be received within ... \uf06d Eligibility \u2013 payment issues for ineligible charges, claim processed as incorrect member, incorrect order of payment or other ... \uf06d Medical policy \u2013 request a determination of medical necessity or a denial for failure to obtain prior authorization.\"}, {\"title\": \"DeanCare Gold (Cost) Member grievance and appeal rights - DHP\", \"url\": \"https://www.deancare.com/Medicare/Medicare-Member-Center/DeanCare-Gold-Cost-Members/DeanCare-Gold-Cost-grievance-and-appeal-rights\", \"snippet\": \"The Wisconsin Insurance Commissioner has set minimum standards for Medicare Cost insurance. These plans meet these standards. For an example of these standards and other important information, see the Wisconsin Guide to Health Insurance for People with Medicare (PDF). Dean Health Plan, Inc.\"}, {\"title\": \"Dean Health Plan | BBB Business Profile | Better Business Bureau\", \"url\": \"https://www.bbb.org/us/wi/madison/profile/health-and-wellness/dean-health-plan-0694-1007205\", \"snippet\": \"Not BBB Accredited. Health and Wellness in Madison, WI. See BBB rating, reviews, complaints, and more.\"}, {\"title\": \"Dean Health Plan by Medica | Insurance - directory \u2013 Greater Madison Chamber of Commerce\", \"url\": \"https://members.madisonbiz.com/list/member/dean-health-plan-by-medica-326\", \"snippet\": \"Since 1983, Dean Health Plan has supported southern Wisconsin residents. We offer a range of insurance options, including commercial and individual plans, Medicare, Medicaid, and third-party administrator services.\"}, {\"title\": \"Dean Health Plan\", \"url\": \"https://www.deancare.com/\", \"snippet\": \"Find affordable Dean Health Plan insurance coverage options for southern Wisconsin \u2014 including individual and family, Medicare, Medicaid, and employer plans.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "id": "rs_0e14acd4918609a7016ab05a0c4a8487d1a004129d0a27aa41",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqsFoNtPcftvkanj7727fouhBoLwoltAUhNUoUoxY8K1fJC2qP6V_maXcmBcO-AENdDF9aZOBy5ui9vvSDwyMER3P5trDA4nhapmhRgAHLV64hOkLDq96ClMLPatrOO9PLUVDjLCGOD7oGMRPnsU07oVgcT_wEwmfESFjN8uT9H-WNdvy3OG5vEr-5kAa_0C77rTsZ5BHgTOxIJ-pUnOMRMfxJ1GHfiLRqYH45MZCGkxBIasCRs_uQ_14wbaTXQqjKetwG9UoMn4a3BVgHLQfm5uuIYM_ReAxnFmbAtJqeKmpodrFKH7N78rXZjLu9R0Z5vyZXgy2-zbG3a7ACG0WP6clMhtxIQhCkZ8vmr1a_S1OVDKOfP-Vpp8wjrqtl-eKyYjzXvaR2Yf9A8TNlde_70V5n3OfhzroVG_vWu1AxYuEuQi7fet-07NUwvDkgddL9AI0QqDt7emh_Q8LdylA_1ACBK22TACBgHSwksjs2H-d3DsYTKP6LZf66Th2YXSpH28bA9RdU3acNaK2kP21n_1QB3RIV4T4ZWHeAga3Zi1oO2UCX0kE57Z1iu0tl_Upo-kHlm7neJcg-0gdvWb-n9t4E0l2B1GsJrfyj61cWvx0o5KUQwteG15GLslT4-ze6Ktqt8EeERg5-NGtoU0gK3NxjvxHQXTwoqClyjVOx5otdxyrcqltsOyn7-mzGB8egI-BTkpoP3P-OWUiAtTkFh_WDsC3FSZvh0JJRZt9kexK6mcMLVSUG6B4C5vXQbiFBmlo5yaJd1WVYLa2S5NhrKEtZsCgmvidDbNyAGjh9rxJwLIv8iOL--srU74Zm1e7anzBg_ZyHGMnZzHl3AriL9wi7KYgM0qzxGT82gII7DqRV0YO1zS8utHf9FmVLDkhFgXdqtWNh_thgIYrG52dCyBw8YJLYQ_f23cXDGu43Vg6h9nknz_36lEVhtunJjx2WYBlbsrzHdThevbVVGudtu6p-DfchwhQclSeHsDHNyxQoZ8sV5w79OKQPqx8JpZwH6cQ01h-JnxWGSXV_4xzwOa9l8yYDqIVg7cdv3VrhhKxCBOZMrTn5wI6OG6r9wNDLSFEAuDTw8G4W5A_tZKtsGRkW3bcdQfEt_bPXQA3ONqvhM3YCXdsQ901KQp8ND7TgjzBdnTgVzSjpnCDRfkzdx1sCW661NHdAxDP5WsUp6nzcZE5P_p_uw7f1koIGa30YRi-_HIu-grIN3Q2MnuwyMRhMpe-hXHZ8pNcU8OzRAPBSunA=",
+   "status": null
+  },
+  {
+   "arguments": "{\"url\":\"https://www.deancare.com/getmedia/969fdfc2-a642-47e9-9358-3adf96a9696e/Dean-Providers-Claim-Review-Appeal-Request-form.pdf\"}",
+   "call_id": "call_DsaZTQ90sM28cBg9G9IwPUg5",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_0e14acd4918609a7016ab05a0c79a487d1908f1d480ed1a8a6",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_DsaZTQ90sM28cBg9G9IwPUg5",
+   "output": "{\"url\": \"https://www.deancare.com/getmedia/969fdfc2-a642-47e9-9358-3adf96a9696e/Dean-Providers-Claim-Review-Appeal-Request-form.pdf\", \"final_url\": \"https://www.deancare.com/getmedia/969fdfc2-a642-47e9-9358-3adf96a9696e/Dean-Providers-Claim-Review-Appeal-Request-form.pdf\", \"http_status\": 403, \"content_type\": \"text/html; charset=UTF-8\", \"login_wall\": true, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Sorry for the inconvenience You were blocked from accessing the website. If you need to speak to someone right away, call Medica Member Services at 1-800-952-3455 (TTY 711) . Please reference the following information. The RayID and the IP Address: a3e42a725a624b86, 76.98.205.249 We're here to help Monday to Friday from 9 a.m. to 5 p.m. CT. 1-800-952-3455 (TTY 711) Contact us \u00a9 2026 Medica\", \"text_truncated\": false}"
+  },
+  {
+   "id": "rs_0e14acd4918609a7016ab05a0e71f887d1a30e4e26e25366c5",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqsFoUjP4KDB-4Hi6CefGJRCgL3-p5NaI3IWMcUTlhJgdTATHKH01kGrjdBXAHAbL0u2y-dAcAfsUOp6aGQROkaiqrdwvo4artHjcl_m5W3Tckf9CaFlFam-65p4UwlpAnpSV7Vycts4BzsoWlE6nQqdUU0qp51kXVu6pkdCVFwB5aQo-qIUzfv3mDQWfMTWtBt7vbXI8U0o3lekdAQnIY4bKJtVvmsve86a_BgERy9ncONBNeonpVG1g8v1v3EGNAbDt3J3CYKwh0NNcAhljES2EH3sfX987PdEfGqwMxJI_--ykIjOgeEoUfqIgsV464KYLxnJUfXPVklosVS0dbXPNTbsOli805QwzXFE4wbNOH9aj4ZMVWrRvjJ414PhZXk91nG3qU-sKB34TnL6RjxgGREo7nawa8g0twEwWHHlqNKLwmIg0ZGQyBkMa5aytojNZtCyaYFiKOFg_zi-CssG4BRQ8kCLeDq2moat-GQSK1gFdxkb6oeKyIVGLwNrRR5YFMN6j_R_08Czxb0LV8_u84vAIi7fYAsIWzDZJCR3ZGqqN2D9pQ3Eu0iV0kfjbQc_2SaE3bIdgspOkuChYLFYF1YlqyaKnKvvJSrAkd58ModBEHJOIUFjrAy1bWUwHLc4hxASZKZdim8HL3EWq4imyDrF8gpdrB_b9yrAAfDZPGxKf2QTVzUbf9zcbrg_TaSgYgYKAsyRvzCuVm9cszG65BtKsNBjF24KCDB0xZPx1MHHYpbcQNqkeofJkF8M3u9P289dPkQ9GD0quHf5-MvkJmAQkPJAENSoRn8L-OIEUEEsqi5cLTywNLYvIm5u3cdqH3_NEuDvF0dTs2JPMRqRVhRCeLdl_NlmFxfnP6PvnGmhjiaZTWZuM4WfLRjH1saJw6Mos-X8srnIURmIVG_pEvIXBtU8iOdUREgkKgBFDsVI6tJv3N9FRTl5lhORKDencCc0NP1y1zykYBuFj5eJHTulM5BZYOprvI5BVK4wFddCrUqUvIbWmf-wLiAKswFKmpnDqFr1hT8jwfoJN3-VYJkgCZlJvajxmUR0_nhhj3S04x8jvK4_87s9SuHKQRW4H1bBZuH9KTjVRELLMWL5R8b9yR7hQFZJ-ZvGdwQ-G46qdBRxtMSGrkL8PnBMPhOljj8j8xZB-T1Q58UmIecEoEXepQ8AsTxpBYln--aUvcoIZLo9swAtv9jc_Hfbz9M1DVj71OoLWL6dKOxEPB9TJqCu_uw-qmHk5kgAJW3Jom4GtudPKZDJrNjQTpmW2F4fS4zPSZGk6pDVdax17VQf8G7xEwkr_tWIgxZk1Tzw_PmrU50BRur2f7BhMcTKXB5uXUX3ZnVLpH96nN43PYcUhxy-NejUqo9HUgsVtK3hVcufgY5xvChyZAtg2uytJc8eAlDae2EME_HG8LwTuMBL12C5rJYW8MKdjkzSXQfmnPpLyFfBPEtOJEn8bWEHYf2HMMGCKWLH1T6qlYnMse4GcDuBToG1QscWbrPrzSVvwLfVwLK0svkvpJOZGmGRe3D8zX-pYgOH7-v6jYLPmxjv8RY1V67ZOySByWEm5BvYchjoJMrsOQBBTfvPBUUdPdVoIEO8pOobBIA4cPwdO64WjBmmYjhzd5zaL9KplktPQZZiHBiPGUDo5PpMl0edydCin_bZ_QEN_VB_h0289Itglnm3l3CWf-MVrBW_ff3EG2XC9AQs5h22PaQ3GBW0l2V8zZsMsLwY_ooAhciWJW8taasrmsvApQgCqCqZW_VZNCNRPB4D-vc_gTI1Fx4wm0RNpa4JpAvK5IlY-BwLRfva3qh9njFOlBPlEj3mMC3WjAroyUO5QzeGMts0bsQHBAId8wa-Vk8k3EWzt02OTUJHGDl2_ALdR1_5bofsjSza8ALmuxykDXY3ctP-ApS6uiT5OLG_OTghei0Pmtx4sZ-JhU6zCHU1WUHamr-JGzgpq0tAb-vYMwuD5JrXgF1l5EA2JKVgDCMIpyOsC-Ph71oHJcy4O2XiU-uLTZa8BIt7OTbv9l1m0SrIZ788XmkmCYAe-yFV9cJTWMGSymR8xtPqMKIY2Cb3UK953j7W2iNr7V8e1ZLTJZuR4oEdL0n7pPGlJbHNFiolxT3on7ezGMBmh1GCrZraQFwK-BaB0Bx7BQaEZVYX-peCIfybNXGTf-sf-_-faIpD9C52BhZ3qSAuEW4uo67a0VSF_t2hfOqoZSu6lXvgKbU46JtQS-eDrVQ1pSorbBLMuJ1W9CK_PU6qVuVPnMwfNUUR5n6MesLqiQgmpBUcKIjLWcaCQcbXtOWyCEpnH-CrnR6ZA_rr-x7gOzDeqYL7eixyYScQKLaBYamOJ4yR12A2XSZYXY2JtFjxIshicS-Y6fSwlhmQMOwNdfAGlXnKJo4Od9xKyWXWW4MGaRpao4uS30YNrfb0GAHxaEBYGeIDejKHZj3WeEtynsPWz8gTa7jV-U2AObVy1yVTsilIlHvojLxagjmizkJky4jlpZ5Eq1phTxhOGaIUSOKmer32D2MwT_KiwRF5TaxeVtZ8N-YGWKCb4_PPtQ-sJbft1pvPl0F7yqOD7HsEXwUY7ueslkThmDAyOJjoDLQbS-icmOarySnsHYHNBvs1iCgJcbQUbg3n8e_8x9yuMzKhZx1t2HDxqI0YhBtBDT3yVbsIhvtlekuRL3zeWwvhXQQhk1jrc-UWBMfYozghQg5xFd8KupWdHl583UoRKaFnYrHTovPp_xgZr5Xe-s7PbNHFxszbnDVc2OS77cNdT3trBwxeSyiy9_8Ia4HXwwPA1Fk_6Fhhk9Ooypzrowk9WCDA6uHCVYyAV6B212CJrFONz2OqCAUe1vP7dd6HqFezorjxIqTnBggKAMyXIxfjBvXkZiejQ8mCleJ1shltp60cE9BURowYHMsu5aP1f3WGEFNssbtVT8N1LcWoGSkNA0fjNmnBWdSKazO7VFqQ9jsg8UYIngw9p7XkXWaL5z6H8HX_weKlWG42a2DXbMU42MWhexJgzJtfqO37_S_JlWC8qGEYcZpKOCv9XvttlYo9mNoJbXxlxhlZzVTkhvJDetaQHMpJBzxpS4TY67_OFqRwaVDHB6pgTIH_1C9i_HwYiKgS58e0US8k7kWozVXA2ax5P6KPGsb_rBwVxKfdyFK_a-RlenhN-iELyU-EEw90MdPZ5nYJuky6OSt-CmTAw68_-rWxBeXf6ds-NyLxmTO4kYrySfjxnGrM5NGl3ihO6o-ZRPm1_0yrLwuKmbv3WdebW0vmS2NDfHhDCaRXbWxC3s-iuENjVRaqRQASKxglmKWidYmqcurwGS15E0WTlZUrQ9djBL9Bs1dUEh8tRe7EHN6s7DiKnQmHluaGUMuF0fegt9rZL0L-JooLNnYI5Bu7_ATW4yPB8mIpG5NQU8yzWs4VivTlEP4PzdPfCoGJg=",
+   "status": null
+  },
+  {
+   "id": "msg_0e14acd4918609a7016ab05a10f8a087d18a988547041f6db8",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": null,\n  \"effective_date\": null,\n  \"criteria_quotes\": [],\n  \"appeal_deadline\": \"2027-02-06, as stated in the denial notice (180 days from the notice date of 2026-08-10).\",\n  \"submission_route\": \"The denial notice does not state an appeal mailing address, fax number, portal, or form. Dean Health Plan's publicly indexed grievance-and-appeals page states that a grievance or appeal must be submitted in writing, but the page was not accessible for retrieval. Contact Dean Health Plan Member Services at 1-800-952-3455 (TTY 711) to obtain the correct written-appeal address or submission instructions. Include member Quinn Grant, member ID W331641494, reference number POC-5BC8A5312C-11722, the requested CPT 22551 service, and a copy of the denial.\",\n  \"how_to_obtain_criteria\": \"Ask Dean Health Plan, in writing or through Member Services, for the complete medical policy and clinical-review criteria used for this specific denial, including the policy title and number, effective date, the conservative-treatment requirements, and the records or documentation the reviewer found missing. Ask the treating provider to request the same criteria and the utilization-review file. The publicly available Dean Health Plan Master Service List confirms that CPT 22551 is included in the cervical decompression-with/without-fusion category, but it does not provide the medical-necessity criteria and therefore is not sufficient to identify the governing policy.\",\n  \"confidence\": \"High that no publicly retrievable Dean-specific medical-necessity policy containing the criteria for CPT 22551 was located; moderate regarding the submission instructions because Dean's appeals page was blocked and the denial notice omitted the route.\",\n  \"notes\": \"I found Dean Health Plan's provider resources page, its Master Service List updated July 1, 2026, and its grievance-and-appeals page. The Master Service List identifies CPT 22551 but does not state the conservative-treatment criteria. I did not find evidence sufficient to name a specific governing policy, policy number, URL, or effective date. The appeal deadline is taken directly from the notice.\"\n}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": "final_answer"
+  }
+ ],
+ "stop_reason": "completed",
+ "usage": {
+  "input_tokens": 69380,
+  "output_tokens": 1643
+ },
+ "model": "gpt-5.6-luna",
+ "tool_calls": 17,
+ "elapsed_s": 29.5,
+ "run_id": "r-194a264adab3",
+ "case_id": "poc-5bc8a5312c"
+}

@@ -1,0 +1,372 @@
+{
+ "answer": {
+  "policy_found": false,
+  "policy_title": null,
+  "policy_number": null,
+  "policy_url": null,
+  "effective_date": null,
+  "criteria_quotes": [],
+  "appeal_deadline": "2027-02-19. The denial notice states that the appeal must be received within 180 days of 2026-08-23.",
+  "submission_route": "Regence's January 2025 Administrative Manual\u2014Appeals for Members states that a member may request a Level One internal appeal within 180 days by appealing in writing or verbally through Customer Service. Customer Service can provide the written-appeal form. Use the Customer Service contact information on the member ID card or denial correspondence. The publicly retrieved Regence materials did not provide a Washington commercial/ACA mailing address or fax number specific to this member.",
+  "how_to_obtain_criteria": "Ask Regence Customer Service and the provider's utilization-management/prior-authorization department for the exact medical policy and clinical review criteria applied to CPT 29914, including the version/effective date, the clinical rationale, and the records relied upon. Request this information with the appeal and identify reference number POC-41FE448BEA-64337. The public Regence policy pages were accessible, but the specific commercial/ACA policy used for this denial could not be identified from the retrieved material.",
+  "confidence": "Low to moderate",
+  "notes": "The retrieved Regence policy-library material confirms that Regence publishes medical policies used as coverage-determination guidelines, but it did not expose a specific commercial/ACA policy for CPT 29914. A publicly indexed Regence document titled \"Femoroacetabular Impingement (FAI) Surgery\" was identified, but it is located under Regence's Medicare materials and therefore cannot reliably be treated as the governing policy for the commercial/ACA plan described in the denial. Because the applicable commercial policy was not verified, no medical-necessity criteria are quoted."
+ },
+ "raw_text": "{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": null,\n  \"effective_date\": null,\n  \"criteria_quotes\": [],\n  \"appeal_deadline\": \"2027-02-19. The denial notice states that the appeal must be received within 180 days of 2026-08-23.\",\n  \"submission_route\": \"Regence's January 2025 Administrative Manual\u2014Appeals for Members states that a member may request a Level One internal appeal within 180 days by appealing in writing or verbally through Customer Service. Customer Service can provide the written-appeal form. Use the Customer Service contact information on the member ID card or denial correspondence. The publicly retrieved Regence materials did not provide a Washington commercial/ACA mailing address or fax number specific to this member.\",\n  \"how_to_obtain_criteria\": \"Ask Regence Customer Service and the provider's utilization-management/prior-authorization department for the exact medical policy and clinical review criteria applied to CPT 29914, including the version/effective date, the clinical rationale, and the records relied upon. Request this information with the appeal and identify reference number POC-41FE448BEA-64337. The public Regence policy pages were accessible, but the specific commercial/ACA policy used for this denial could not be identified from the retrieved material.\",\n  \"confidence\": \"Low to moderate\",\n  \"notes\": \"The retrieved Regence policy-library material confirms that Regence publishes medical policies used as coverage-determination guidelines, but it did not expose a specific commercial/ACA policy for CPT 29914. A publicly indexed Regence document titled \\\"Femoroacetabular Impingement (FAI) Surgery\\\" was identified, but it is located under Regence's Medicare materials and therefore cannot reliably be treated as the governing policy for the commercial/ACA plan described in the denial. Because the applicable commercial policy was not verified, no medical-necessity criteria are quoted.\"\n}",
+ "usd": 0.0095,
+ "transcript": [
+  {
+   "role": "system",
+   "content": "You are helping a patient respond to a health insurance denial. Answer precisely and only from evidence you actually retrieve. If you cannot find the governing policy, say so plainly rather than naming a document you are unsure of."
+  },
+  {
+   "role": "user",
+   "content": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-23\nMember: Jordan Brooks\nMember ID: W436997835\nPlan: Regence BlueShield (Commercial/ACA), state of Washington\n\nDear Jordan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Hip arthroscopy\n    Procedure code (CPT): 29914\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-19).\n\nReference number: POC-41FE448BEA-64337\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+  },
+  {
+   "id": "rs_0adec2a142902071016ab05e8376c087d19c10cf6041c9eb42",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqsF6ESP_SHqBeGJsR8Eh4byQY_UGYvAJ6Dss6zRQLA_w1KRTFTCF9nN9EZtkE2U_3UtnyKy_dTfucF2LhHgXsZT4bdqQNENQLpZmTmyOVr5SWUcWT510CbwOz8LPJX-HVw_rbkISsbEAHIjjwDgOoBiW5VbZfGyQTsJMrH-_Uq07no9jFUtSTirYH3vNDCnYqhOD7W0LPcr-TtoKNHmTGUKrzPMHi_hf9KGyrZ8tzbbVrLyUfL-DUirIsSCwTJXZKLPSGE_1kgE09r1By14-uwTECK1CwZR-H8QT-RpK_Z1lWwmd-zRQ6oAlm7lsZCx82GPzI3laZ9lEvdqYpUApJtu7MzcPIfAtQontVZd_PB0Nm-_tKqgv6tRO-eO8S1g-20wvfzyJrnBvHQZhMlzajJqxoiQ0wpACG60WaJpIFdftmnuqXA617haeubANw5l611WTevkoDhYiBxn1XQNkJmug7QSty6TJ6SUECetP9pTV8FTI6cLYV1xoMmwvlNP4JpZ7gc_v9VZQzfALInEnAMQ2ibxijULKRMIOD_t7Dwem_o4WsnBj2DCm6SULOqRHWyQhgwgSO0wFIDFybT4rpPkDrjN-sjn0b0AS2PNahTQNCcFzlfL1dI6PWhLkaNImNh5TYK1IZvmAW-SKeDF8H96cFTs8psZoMxm4BVTlzI1wDELmLFZehtdPDQYVBpy3HdaKlexj5vGAHxu62jpWzZwHhQa6Ekcy7yvJM4AocDHlbuXjA3HxACtEFGb_CGVPEshA0QnfZnT7IHnrf6HphCOkTi_ohwSrvlJm5zohkfvxDazkTNxUmy1sI-9G1EoUY40h_gNKUu4VN4YeOwBIPZYxLXAUO_32U9Hu878QxbClSLx13h2AAfa8Vr66cOdQqImBci7E4KqWRopwYc9k22H4CoBTFLKXbzLHFdsdToz8NsdnWW8IaOt5d3Bv7_cx2pzCKl9z6vJ8jClxZfAXW5paA2FseVd8HmUnuHAR1BZ5bbLml9dYPQoyXaDuDk7C3oaggafDUkCh2gb29Ru2qmm9X0ToIT0ylwqlYRwjQhNx2zKfXZHQj78lXYpqr2kPaNdJWkug_rW9u0zdyl_mtDWOrc29bCvObvLBhyNmhnZZ9Cha9NtbpG-nYxRpMSXgNNDPiHM4ihj7__0h_QZJ7RM_bFlbxqW6cbKIQ5Moh4I_37gMF4ZwY47HYP4Q40wq0comX8F47y-yWZR2hY-8kVkwPPMbBhCkD4XrQSrJEYpTWXqkeLKqpRJFKwHq1g56Kz_dj",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:regence.com medical policy CPT 29914 hip arthroscopy Washington Regence BlueShield medical necessity policy PDF self insurance commercial ACA\\\"\",\"count\":10}",
+   "call_id": "call_ofBFrHSzn2aoCa4Ri4s5pgWi",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0adec2a142902071016ab05e84ae2487d187f93635a1d73a54",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Regence medical policy hip arthroscopy femoroacetabular impingement CPT 29914 policy number\",\"count\":10}",
+   "call_id": "call_L49uoPJfJO3Pi0n5qkT6P62T",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0adec2a142902071016ab05e84ae3487d181700bfa01adf7ec",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:regence.com \\\"29914\\\"\",\"count\":10}",
+   "call_id": "call_BXpYtiquzumgcNJmeWZmzC2n",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0adec2a142902071016ab05e84ae3c87d1baa1512377db73cc",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Regence Washington appeal adverse benefit determination submit appeal address commercial 180 days provider member handbook\",\"count\":10}",
+   "call_id": "call_IDWU6UGNs0ep1DlZ7DCivPMu",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0adec2a142902071016ab05e84ae4087d1800735b5b07be78e",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_ofBFrHSzn2aoCa4Ri4s5pgWi",
+   "output": "{\"query\": \"site:regence.com medical policy CPT 29914 hip arthroscopy Washington Regence BlueShield medical necessity policy PDF self insurance commercial ACA\\\"\", \"results\": [{\"title\": \"Medical policy recent updates\", \"url\": \"https://www.regence.com/provider/library/policies-guidelines/medical-policy/recent-updates\", \"snippet\": \"View policies that have recently been revised and a summary of changes.\"}, {\"title\": \"Reimbursement Policy\", \"url\": \"https://www.regence.com/provider/library/policies-guidelines/reimbursement-policy\", \"snippet\": \"List of our health plan reimbursement policies.\"}, {\"title\": \"Regence BlueShield Policy Individual Group Number: 38005001\", \"url\": \"https://apis.regence.com/v1/publicdocuments/sales/individual/productId/WMW30515/docType/OM/pdf?brand=blu\", \"snippet\": \"Regence BlueShield Policy \u00b7 Individual Group Number: 38005001\"}, {\"title\": \"Medical, medication & reimbursement policies and guidelines\", \"url\": \"https://www.regence.com/provider/library/policies-guidelines\", \"snippet\": \"Our policies are used as guidelines for coverage determinations by all of our health care plans, unless otherwise indicated. View our medical, dental, medication and reimbursement policies and clinical guidelines.\"}, {\"title\": \"Regence BlueShield Policy Individual Group Number: 37000402\", \"url\": \"https://apis.regence.com/v1/publicdocuments/sales/individual/productId/WMW30522/docType/OM/pdf?brand=blu\", \"snippet\": \"Regence BlueShield Policy \u00b7 Individual Group Number: 37000402\"}, {\"title\": \"Regence BlueShield serves select coun\u019fes in the state of\", \"url\": \"https://regence.com/go/2024/booklet/WW/SilverHSA5150Preferred\", \"snippet\": \"<strong>Medical services and supplies must be Medically Necessary for the treatment of an Illness or Injury</strong>\"}, {\"title\": \"Commercial Pre-authorization List\", \"url\": \"https://www.regence.com/provider/pre-authorization/commercial\", \"snippet\": \"This Commercial Pre-authorization List includes services and supplies that require pre-authorization or notification for commercial plan products.\"}, {\"title\": \"Medical policy disclaimer\", \"url\": \"https://blue.regence.com/trgmedpol/\", \"snippet\": \"Disclaimer for use of our medical policies\"}, {\"title\": \"Medical Policy and pre-certification/pre-authorization information for out-of-area members\", \"url\": \"https://www.regence.com/provider/policy-pa-router\", \"snippet\": \"Use this router to view the Blue Plan&#x27;s medical policy or general pre-certification/pre-authorization information for out-of-area members.\"}, {\"title\": \"Regence Regence BlueCross BlueShield of Oregon\", \"url\": \"https://apis.regence.com/v1/publicdocuments/sales/individual/productId/OMO30236/docType/OM/pdf/AllianceSilver3500EPOLegacyLHP?brand=blu\", \"snippet\": \"Regence BlueCross BlueShield of Oregon \u00b7 is an Independent Licensee of the BlueCross and\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_L49uoPJfJO3Pi0n5qkT6P62T",
+   "output": "{\"query\": \"Regence medical policy hip arthroscopy femoroacetabular impingement CPT 29914 policy number\", \"results\": [{\"title\": \"MEDICAL POLICY \u2013 7.01.592 Surgical Treatment of Femoroacetabular Impingement\", \"url\": \"https://www.premera.com/medicalpolicies/7.01.592.pdf\", \"snippet\": \"literature review through February 9, 2024; references added. Open or arthroscopic \u00b7 treatment of femoroacetabular impingement (FAI) may be considered medically \u00b7 necessary when criteria are met. Added CPT codes 29914-29916.\"}, {\"title\": \"Hip Arthroscopy for Femoroacetabular Impingement Page 1 of 9\", \"url\": \"https://fallonhealth.org/-/media/Files/ProviderPDFs/MedicalPolicies/HipArthro.ashx\", \"snippet\": \"<strong>There is no specific CPT code for open femoroacetabular impingement (FAI) surgery</strong>; the appropriate\"}, {\"title\": \"Surgery of the Hip \u2013 Commercial and Individual Exchange ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-hip.pdf\", \"snippet\": \"<strong>primary hip procedure and not separately reimbursable</strong>. Debridement during hip arthroscopy is considered integral to the \u00b7 FAI surgery codes 29914, 29915, and 29916 and would therefore not be separately reimbursable.\"}, {\"title\": \"Surgery for Femoroacetabular Impingement | Providers | Blue Cross NC\", \"url\": \"https://www.bluecrossnc.com/providers/policies-guidelines-codes/commercial/surgery/updates/surgery-for-femoroacetabular-impingement\", \"snippet\": \"Code 29915 cannot be reported with the hip arthroscopy codes for chondroplasty (29862) or synovectomy (29863). Code 29916 cannot be reported with 29915, 29862 or 29863. This service was previously submitted with 29999. With specific codes now available, services should not be submitted using the unlisted code.\u201d(mco) 6/21/11 Billing/Coding section updated to state the following: \u201cCode 29914 ...\"}, {\"title\": \"Hip Preservation Surgery - Medical Clinical Policy Bulletins | Aetna\", \"url\": \"https://www.aetna.com/cpb/medical/data/700_799/0736.html\", \"snippet\": \"Note: CPT Code 29862 - Debridement during hip arthroscopy is considered integral to the FAI surgery codes <strong>29914/5/6</strong> and would therefore not be covered.\"}, {\"title\": \"Surgery of the Hip Page 1 of 8 Surest Medical Policy Effective 05/01/2026\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/surest/surgery-hip-sur.pdf\", \"snippet\": \"<strong>primary hip procedure and not separately reimbursable</strong>. Debridement during hip arthroscopy is considered integral to the \u00b7 FAI surgery codes 29914, 29915, and 29916 and would therefore not be separately reimbursable.\"}, {\"title\": \"Femoroacetabular Impingement (FAI) Surgery\", \"url\": \"http://blue.regence.com/medicare/sur/m-sur160.pdf\", \"snippet\": \"We cannot provide a description for this page right now\"}, {\"title\": \"Coding Communication: Arthroscopic Femoroplasty/Acetabuloplasty/Labral Repair (29914-29916) (September 2011) - AMA CPT\u00ae Assistant\", \"url\": \"https://www.findacode.com/newsletters/ama-cpt-assistant/coding-communication-arthroscopic-femoroplasty-acetabuloplasty-9.html\", \"snippet\": \"Septempber 2011 pages 5-7 Coding ... repair). Codes 29914, 29915, and 29916 represent <strong>procedures performed specifically for the treatment of femoroacetabular impingement (FAI).</strong>...\"}, {\"title\": \"Surgery of the Hip (for New Jersey Only) Page 1 of 9\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/nj/surgery-hip-nj-cs.pdf\", \"snippet\": \"<strong>primary hip procedure and not separately reimbursable</strong>. Debridement during hip arthroscopy is considered integral to the \u00b7 FAI surgery codes 29914, 29915, and 29916 and would therefore not be separately reimbursable.\"}, {\"title\": \"CPT\u00ae Code 29914 - Endoscopy/Arthroscopy Procedures on the Musculoskeletal System - Codify by AAPC\", \"url\": \"https://www.aapc.com/codes/cpt-codes/29914\", \"snippet\": \"In this procedure, the provider performs surgical arthroscopy of a hip with femoroplasty to treat a cam lesion. Femoroplasty means re\u2013shaping the head of the thigh\u2019s femur bone to restore its spherical shape. A cam lesion is a bump on the surface of the femoral head that causes femoroacetabular impingement, a condition of too much friction in the hip joint.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_BXpYtiquzumgcNJmeWZmzC2n",
+   "output": "{\"query\": \"site:regence.com \\\"29914\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_IDWU6UGNs0ep1DlZ7DCivPMu",
+   "output": "{\"query\": \"Regence Washington appeal adverse benefit determination submit appeal address commercial 180 days provider member handbook\", \"results\": [{\"title\": \"January 2025 - 1 - Appeals for Members regence.com\", \"url\": \"https://beonbrand.getbynder.com/m/5e437e25890a609d/original/Administrative-Manual-Appeals-for-members.pdf\", \"snippet\": \"Regence Administrative Manual \u00b7 Level One Internal Appeal \u00b7 The member or member\u2019s representative has the right to request an appeal within 180 \u00b7 days of receipt of the written notification of an adverse benefit determination. If a \u00b7 member chooses to file an appeal, they may appeal in writing or verbally by contacting \u00b7\"}, {\"title\": \"Member appeal process and forms\", \"url\": \"https://www.regence.com/member/members/member-appeals\", \"snippet\": \"Get help with your coverage questions, including information on how to file an appeal. Learn about the appeal process and find the appropriate appeal forms.\"}, {\"title\": \"Regence Group Administrators Appeal Submission Form\", \"url\": \"https://www.printfriendly.com/document/regence-group-administrators-appeal-submission-form\", \"snippet\": \"To submit the completed appeal form, please return it by mail or fax to Regence Group Administrators. Mail the form to <strong>RGA, Attn: Appeals Department, PO Box 52730, Bellevue WA 98015.</strong> Alternatively, you can fax the appeal to 1-855-462-8875.\"}, {\"title\": \"Member Appeal Submission Form F-005-004 CONFIDENTIAL Page 1 of 4\", \"url\": \"https://wa.accessrga.com/asset/67a1745e59946\", \"snippet\": \"We must receive this Form <strong>within 180 calendar days of the initial adverse benefit determination date</strong>.\"}, {\"title\": \"Regence provider appeal form: Fill out & sign online | DocHub\", \"url\": \"https://www.dochub.com/fillable-form/336276-regence-provider-appeal-form\", \"snippet\": \"<strong>An Appeal must be submitted within 180 days or 6 months from the date of the Explanation of Benefits</strong>. All Appeal decisions are answered in writing.\"}, {\"title\": \"Pricing disputes & appeals\", \"url\": \"https://www.regence.com/provider/claims-payment/payment/appeals\", \"snippet\": \"Learn about our pricing dispute and appeal processes, including: Disagreement with a contracted allowable rate applied to a claim or claim line, contractual adverse determination and disputes, external audit and investigation, provider contract terminatio\"}, {\"title\": \"UMP MEMBER APPEAL FORM Please return completed form to:\", \"url\": \"https://www.hca.wa.gov/assets/pebb/Reg-appeals-grievance-form.pdf\", \"snippet\": \"We need your permission to authorize Regence BlueShield to request any medical records needed to answer your appeal.\"}, {\"title\": \"Appeals for Providers\", \"url\": \"https://beonbrand.getbynder.com/m/22b132f0ffe521dc/original/Administrative-Manual-Appeals-for-providers.pdf\", \"snippet\": \"Oregon, Regence BlueCross BlueShield of Utah, and Regence BlueShield (in select counties of Washington). When information \u00b7 does not apply to all these plans across the four states, then this administrative manual will identify the plan(s) or state(s) to which ... I. Definitions ... Determination Appeal Process. ... Adverse Determination when the Provider is at financial risk for the services.\"}, {\"title\": \"Regence Provider Appeal Form: Complete with ease | airSlate SignNow\", \"url\": \"https://www.signnow.com/fill-and-sign-pdf-form/287028-regence-provider-appeal-form\", \"snippet\": \"Use a regence provider appeal form template to make your document workflow more streamlined. ... (optional) Today&#x27;s Date Claim Numbers (if available) Note: 1) <strong>Appeals must be received within 180 days from the date of initial adverse determination</strong>.\"}, {\"title\": \"Grievances and appeals\", \"url\": \"https://www.regence.com/medicare/grievances-appeals\", \"snippet\": \"Learn how to file a complaint (a grievance) about us or one of our plan providers, or to how to appeal, or request an independent review of, any action we take or decision we make about your coverage, benefits or services.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "id": "rs_0adec2a142902071016ab05e8829a887d19efbc3b02d517b1e",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqsF6Jgh7qeTt0JtjFyHkHtjuRFwWXPsY0G-sw9yAut50nOPnQxU2KWhe5mERqzha3ZKgy6u1WFwAWmNCVtYqi0Z9481aWuaRUjFsD0MFdYfe-Scg4jSpJ1OrlOrYqnS-IanHyD0z7I3Jr6MNU6TZr6ejdmllDKc-X1SQGuDrG5m7J4vDKvbQjpHg7_sydI_D5KhOkGUDqLR_5gmPz9OpFUyXMUinraQYkOi5FocmzwNFy-X-JO3sG3PPiTBL5--tf7euGLZNuVcXE0SbQ4DIOOyTVCB5ln22rIl7L7v7PEIQRuKNfHpeeCx68p9FZQp1neK_x7MB3lUo1Y9XDIsguNG45gdxrfa6ZwYy3yBc6rD_d4kLTmJgo5wIgcC0Bqaq1Q3dtDQA3iMr4q_k_8UYwhV17kvBUYMskYWNX2d_BhUBA3LVDIovL-4IzoWYNOTpKsjdbjffz7lhGO-MW4NRHnf0a_buuWDHnExBYeuvkHUdzZZE5yZKoD-6Zf5WTsAj_n53kdErHAf9M7viuGrCz3IT-A-GkhRUZGJi5JcgC2IRtYjAIFzs_amEzMyevj1YPoWLUF7P3x5ADtb4XdAwAt23Gr0XPvJvAiBIlo9laLltJ4Pqw-iTcGOd9iqONAdqHwEk3_rWI3fKz7h2vY3L6TMHMlmikVqedYJ20uYN9_4ujLN82lBk9o6t1XPiLPApo_nAIHyPnoV3CBvi6AFEudE5xTLQ_u2Jk_Gyks0pAB65nx_fH4zxQd7tyYttyoLRABcNCp1HN_Yx4i5OFJD9IHLMgMwvy3-kPfn-hpbR_gef6bIAx2Q-Vnnmowi-tA1B2-DdOTWmntUzLg0CjtHVBxLMupuoK9TApMsUgNVcLCHAy-LWDyAUlTPj1B3Cloa8EdMrtIwDI4KQAG_TvsNP17NDHXKe_te9od18MmqIP-zHxNFTxBfxCfWSHxjoW2h2mRtPOtAhJMQkywiFDay7QtfUVvO5z3R0lXwl8FaMEhxWkBpSMHXbvD_dAAR-cmBWWZHZaNJ8GUUCZQlluAu2rGz11Bnhkjtj-Juy9_k2L5HyJ3tzQnKH6iaY_Uvo8eUE9WCKsL9xhNY3k1ZYNvKru5YfosBrGtbhPgKDPeyH3q8osQF1IHA1-UcFHOzApAoVV5FvdR5LHjbZA1OOBmo7PQ_T6WKSMupjUF9U4LqW6lmktkxqiotyU6v9a9jBU7Uw_9Dv4zc9cppmLhnJ3KNDIpwT0Y8JZ_5pJkLt727RA42RWIImwAmXzcjXCb1aYwipesrDD",
+   "status": null
+  },
+  {
+   "arguments": "{\"url\":\"https://blue.regence.com/trgmedpol/\"}",
+   "call_id": "call_jlYqdCjZS25z70RQwu0STfV1",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_0adec2a142902071016ab05e88ec2087d19bc0d43ffed186c8",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://www.regence.com/member/members/member-appeals\"}",
+   "call_id": "call_zfmpmTer73sZUiEbcQW3bZMl",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_0adec2a142902071016ab05e88ec3087d1b319c90673e4cb4c",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://beonbrand.getbynder.com/m/5e437e25890a609d/original/Administrative-Manual-Appeals-for-members.pdf\"}",
+   "call_id": "call_tFPs4pbSvy2FlHgxqbeKjutJ",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_0adec2a142902071016ab05e88ec3887d1b6da91584ebadec5",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://www.regence.com/provider/library/policies-guidelines/medical-policy/recent-updates\"}",
+   "call_id": "call_DvhOSTlrWazZC2lldywvjI7z",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_0adec2a142902071016ab05e88ec3c87d1ac640ac9127cddd8",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_jlYqdCjZS25z70RQwu0STfV1",
+   "output": "{\"url\": \"https://blue.regence.com/trgmedpol/\", \"final_url\": \"https://www.regence.com/provider/library/policies-guidelines/medical-policy-disclaimer\", \"http_status\": 200, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"imperva_incapsula_resource\", \"error\": \"fetch blocked or unreadable: imperva_incapsula_resource\", \"text\": \"Medical policy disclaimer Find a doctor Find a dentist Contact us Sign in Individuals & Families Medicare For Employers For Producers For Providers Don't have a member account yet? Create one Sign in Individuals & Families Medicare For Employers For Producers For Providers Don't have a member account yet? Create one \u00d7 Find a doctor Find a dentist Contact us Go to Regence home page x Attention! You are about to leave regence.com and enter another website that is not affiliated with or licensed by the Blue Cross Blue Shield Association. Cancel Proceed Loading... x Attention! You are about to leave our Medicare website. Proceed Cancel \u00a9 2026 Regence health plans are Independent Licensees of the Blue Cross and Blue Shield Association serving members in Idaho, Oregon, Utah and select counties of Washington.\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_zfmpmTer73sZUiEbcQW3bZMl",
+   "output": "{\"url\": \"https://www.regence.com/member/members/member-appeals\", \"final_url\": \"https://www.regence.com/member/members/member-appeals\", \"http_status\": 200, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Member appeal process and forms Find a doctor Find a dentist Contact us Sign in Individuals & Families Medicare For Employers For Producers For Providers Don't have a member account yet? Create one Sign in Individuals & Families Medicare For Employers For Producers For Providers Don't have a member account yet? Create one \u00d7 Find a doctor Find a dentist Contact us Go to Regence home page x Attention! You are about to leave regence.com and enter another website that is not affiliated with or licensed by the Blue Cross Blue Shield Association. Cancel Proceed Loading... x Attention! You are about to leave our Medicare website. Proceed Cancel \u00a9 2026 Regence health plans are Independent Licensees of the Blue Cross and Blue Shield Association serving members in Idaho, Oregon, Utah and select counties of Washington. Non-discrimination | Espa\u00f1ol | \u7e41\u9ad4\u4e2d\u6587 | Ti\u1ebfng Vi\u1ec7t | \ud55c\uad6d\uc5b4 | \u0420\u0443\u0441\u0441\u043a\u0438\u0439 | Tagalog | \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 | \u1781\u17d2\u1798\u17c2\u179a | \u65e5\u672c\u8a9e | \u12a0\u121b\u122d\u129b | Oroomiffa | \u0627\u0644\u0639\u0631\u0628\u064a\u0629 | \u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40 | Deutsch | \u0e9e\u0eb2\u0eaa\u0eb2\u0ea5\u0eb2\u0ea7 | ...\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_tFPs4pbSvy2FlHgxqbeKjutJ",
+   "output": "{\"url\": \"https://beonbrand.getbynder.com/m/5e437e25890a609d/original/Administrative-Manual-Appeals-for-members.pdf\", \"final_url\": \"https://beonbrand.getbynder.com/m/5e437e25890a609d/original/Administrative-Manual-Appeals-for-members.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"January 2025 - 1 - Appeals for Members regence.com Regence Administrative Manual Appeals for Members This section contains information about the member appeal process. Medical, hospital and dental provider appeals information is available in the Appeals for providers section of this manual. Member Appeal Policy and Procedures Our Member Appeal Policy applies to all insured group and individual contracts issued by us except for the BlueCross BlueShield Federal Employee Program \u00ae (BCBS FEP\u00ae), Medicare beneficiaries, Medicaid and certain other government programs. An appeal must be initially submitted to us within the timeframes noted below. Failure to initiate appeal within this time period (absent the Plan\u2019s finding, in its sole discretion, of acceptable extenuating circumstances) will preclude all further rights to appeal and may jeopardize the member\u2019s ability to contest the denial or other action in any forum. All applicable non-optional appeal levels must be exhausted before the member may contest the action in any forum, including through filing a lawsuit. Joint Administration Appeals requested on behalf of joint administration members need to be submitted to AmeriBen; MagnaCare or Zenith American Solutions within 180 days of receipt of the written notification of an adverse benefit determination. AmeriBen; MagnaCare or Zenith will send a copy of the written determination to the member and provider. AmeriBen Appeals requested on behalf of members for the following joint administration groups are handled by AmeriBen: \u2022 Alpha Media (group #70000010) \u2022 Alsco Inc. (group #70000002) \u2022 Avalon Health Care, Inc. (group #70000007) \u2022 CHG Healthcare Services (group #70000004) \u2022 CTI Foods (group #70000011) \u2022 J-U-B Engineers, Inc. (group #70000009) \u2022 The Terteling Company Inc. (group #70000015) Appeals requested on behalf of members for the groups listed above should be submitted to: AmeriBen Attention: Appeals Coordinator P.O. Box 7186 Boise, ID 83707 January 2025 - 2 - Appeals for members regence.com Regence Administrative Manual MagnaCare Appeals requested on behalf of IAFF Health and Wellness Trust (IAFF HWT) (group #70000014) members are handled by MagnaCare: MagnaCare Attention: Appeals P.O. Box 8085 Garden City, NY 11530 Zenith American Solution Appeals requested on behalf of members of the following joint administration groups are handled by Zenith American Solutions: \u2022 U.A. Local Union 290 Plumber, Steamfitter & Shipfitter Health Trust (U.A. Local Union 290) (group #70000003) \u2022 UFCW Local 555-Employers Health Trust (group #70000005) Appeals requested on behalf of members for the groups listed above should be submitted to: Level 1 member appeals for U.A. Local 290 and all appeals for UFCW Local 555-Employers Health Trust: Zenith American Solutions Benefits and Claims department Attention: Appeals Coordinator 12205 SW Tualatin Road, Suite 200 Tualatin, OR 97062 Level 2 member appeals for U.A. Local 290: The Board of Trustees U.A. Union Local No. 290 Plumber, Steamfitter and Shipfitter Industry Attention: Appeals Coordinator 12205 SW Tualatin Road, Suite 200 Tualatin, OR 97062 Provider appeals for joint administration members should be submitted to Regence following standard Regence guidelines. Appeal Levels Self-funded plans establish their own appeal processes and some aspects of the appeal process required by the Affordable Care Act or state regulations may not apply to them. Please contact Customer Service for details. January 2025 - 3 - Appeals for members regence.com Regence Administrative Manual Level One Internal Appeal The member or member\u2019s representative has the right to request an appeal within 180 days of receipt of the written notification of an adverse benefit determination. If a member chooses to file an appeal, they may appeal in writing or verbally by contacting Customer Service for assistance. Customer Service can provide the member with a form for a written appeal. An appeals specialist will acknowledge receipt of the appeal and gather the necessary information to thoroughly investigate the issue. Level one appeals are reviewed by an employee or employees who were not involved in the initial decision. In appeals that involve issues requiring medical judgment, the decision is made by employees who are healthcare professionals. Upon completion of the review, the appeals specialist will send a written response to the member. We attempt to respond to all appeals within 14 calendar days (self -funded plans may have different timeframes; investigational post-service issues are responded to within 20 working days; and other post -service issues are responded to within 30 calendar days. If the decision is not in the member\u2019s favor, the member or member representative will be informed of their right to further appeal. Level Two Internal Appeal When an additional internal level of appeal is available for the member\u2019s Plan, the member or member\u2019s representative may request a level two appeal within 180 days of receipt of the first level appeal decision. Level two appeals are reviewed by an employee or employees who were not involved in, or subordinate to anyone involved in, the initial or the first -level decision. We attempt to respond to preauthorization appeals within 15 calendar days and post - service appeals within 30 calendar days. If the decision is not in the member\u2019s favor, our notification will include information about the right to request an external review by an Independent Review Organization (IRO). Voluntary External Appeal - IRO The member or member\u2019s representative may submit a written request for external review to the Idaho Department of Insurance (DOI) within 4 months of receipt of the previous determination (self-funded plans may have different timeframes and processes). If the request is eligible, the DOI will assign it to an Independent Review Organization. We will deliver the appeal, including all documentation, to the IRO within 14 days of assignment. An IRO is an independent organization employing physicians and other medically - qualified individuals or experts with appropriate clinical expertise, which acts as the decision maker for external appeals (regular or expedited), through assignment to the Plan via regulatory requirements. The IRO practitioner rendering the decision will not have been involved in the original Appeal determination. The IRO does not have any direct financial interest in the Plan or outcome of independent reviews. January 2025 - 4 - Appeals for members regence.com Regence Administrative Manual The IRO will provide to the member and/or appeal representative, us , and the DOI, in writing: \u2022 the decision by the IRO \u2022 a full description of the IRO\u2019s rationale The IRO\u2019s decision is binding. Expedited (Urgent) Appeals An expedited appeal may be requested for urgent care requests if: \u2022 the member or the member\u2019s physician reasonably believes that the application of time periods for making regular appeal determinations for a pre-service or concurrent issue could seriously jeopardize life or health of the member or others, due to the member\u2019s psychological state, or the ability to regain maximum function, or \u2022 a physician with knowledge of the member\u2019s medical condition reasonably believes that the application of time periods for making regular appeal determinations for a pre-service or concurrent care issue could subject the member to severe pain that cannot be adequately managed without the disputed care or treatment, or concerning admissions, continued stay or other health care services for a member who has received emergency services but has not been discharged from a facility. Internal Expedited Appeal The member, their representative or the physician may request an expedited appeal either verbally or in writing. The member, provider or member representative may provide additional written documentation supporting the member\u2019s position. Expedited appeals are responded to within 72 hours from the receipt of the request. If the decision is not in the member\u2019s favor, the member or member\u2019s representative will be informed of their right to further appeal. Voluntary External Expedited Appeal \u2013 IRO If the member is dissatisfied with the outcome of the previous appeal, the member or member representative may request an external review by an Independent Review Organization by submitting a written request to the Idaho Department of Insurance (DOI). If the request is eligible, the DOI will assign it to an IRO. We will deliver t he appeal, including all documentation, to the IRO within 14 days of assignment (self- funded plans may have different timeframes and processes). An IRO is an independent organization employing physicians and other medically - qualified individuals or experts with appropriate clinical expertise, which acts as the decision maker for external appeals (regular or expedited), through assignment to the Plan via regulatory requirements. The IRO practitioner rendering the decision will not have been involved in the original Appeal determination. The IRO does not have any direct financial interest in the Plan or outcome of independent reviews . The IRO will respond within 72 hours of their receipt of the request and will provide to the member and/or appeal representative, us , and the DOI, in writing: January 2025 - 5 - Appeals for members regence.com Regence Administrative Manual \u2022 the decision by the IRO \u2022 a full description of the IRO\u2019s rationale The IRO\u2019s decision is binding. A participating physician, can minimize complaints and appeals by: \u2022 Acknowledging and upholding members\u2019 right to complaints, grievances and appeals \u2022 Explaining these rights to members who express a concern or dissatisfaction \u2022 Assisting us in timely resolution by submitting requested records or input within seven days of the request Definitions \u201cAppeal\u201d includes any grievance, complaint, reconsideration or similar terms as used in some jurisdictions, and is a written or oral request from a member, their personal representative, treating provider or appeal representative, to change a previous deci sion (Adverse Benefit Determination) made by us concerning: \u2022 access to health care benefits, including an adverse determination made pursuant to utilization review; \u2022 claims payment, handling or reimbursement for health care services; \u2022 matters pertaining to the contractual relationship between a member and the Plan; or \u2022 other matters as specifically required by law or regulation. \u201cAppeal representative\u201d is a representative of the member for the purpose of the appeal. The appeal representative may be the member\u2019s treating provider, personal representative, or another party, such as a family member, for whom the member or their personal representative has signed a valid authorization. If we do not receive an authorization, we will only disclose the determination and any personal information to the member, their personal representative or treating provider. \u201cPersonal representative\u201d means a person who is legally authorized to act on behalf of an individual for health care decisions. For example: parents of a minor; a person holding a power of attorney; conservator; or person appointed by a court; so long as the power granted to the person includes managing the individual\u2019s health care affairs. \u201cAuthorization\u201d is an individual\u2019s written permission for use and disclosure of their personal information for a specific purpose and timeframe in accordance with our privacy policy. Note: Authorization to Disclose Protected Health Information forms are available on our member website, regence.com : Resources/Forms-documents. \u201cAdverse benefits determination\u201d means any of the following: a denial, reduction, or termination of, or a failure to provide or make payment (in whole or in part) for, a benefit, including any such denial, reduction, termination, or failure to provide or make payment that is based on a determination of any of the f ollowing: \u2022 eli\", \"text_truncated\": true}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_DvhOSTlrWazZC2lldywvjI7z",
+   "output": "{\"url\": \"https://www.regence.com/provider/library/policies-guidelines/medical-policy/recent-updates\", \"final_url\": \"https://www.regence.com/provider/library/policies-guidelines/medical-policy/recent-updates\", \"http_status\": 200, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Medical policy recent updates Find a doctor Find a dentist Contact us Sign in Individuals & Families Medicare For Employers For Producers For Providers Don't have a member account yet? Create one Sign in Individuals & Families Medicare For Employers For Producers For Providers Don't have a member account yet? Create one \u00d7 Find a doctor Find a dentist Contact us Go to Regence home page x Attention! You are about to leave regence.com and enter another website that is not affiliated with or licensed by the Blue Cross Blue Shield Association. Cancel Proceed Loading... x Attention! You are about to leave our Medicare website. Proceed Cancel \u00a9 2026 Regence health plans are Independent Licensees of the Blue Cross and Blue Shield Association serving members in Idaho, Oregon, Utah and select counties of Washington.\", \"text_truncated\": false}"
+  },
+  {
+   "id": "rs_0adec2a142902071016ab05e8dde4087d1ab79575b70504c3a",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqsF6P1mWGv2PTW7l9xPaAwNMq6iEOhmFXniI0mrCQh10AdU4wo2GYh4JLlJC_9R3Gox3jRDUUCtoObg3eiSwojqVUDaa7x-Zu39bQSBANUo-09Jb-GcOizQV15yrrOpToiic49lvwP9zGxy-2kfQVCIJMV7s0avIWS0dlZbETwL0CNDREJmW7O1W2rPjxlACwwvIQ-MSXzcgmX70B6jW5N3WZrYXjp0MjThQBlcLsO_0YnRjCrjlE8zvDahPxrc6mrBa1KiV5O_2Rr9tvHDSsoFzLNFBaAzccHEk_jyBO20QLoTB2MZ36YiiX9eX4162Db5uZtWbaRc4B6heXt-KV9h5V7GYw7NAUYviWqq2-d9Kri-InCpS5vTTT3TBRkavGCAHw6aaSouHZjzUmvautOQpvgX0pI3Lw60IWxCzCn9-ZunV8e8HxIvycb5n6ocKuFE5NN5LOFC6dkzjA7VsNjS5fu66t_rPkwazrb_XPo3iKyxZ68kzlz02TU77XzRTgSFQ5Ifqm2k_wocamgzMUx5liYrMOn_0DULr0onQvSLmGOHPAvSKhlhkL0SS8VUjQPyWOJ-BJaWbusUAISJCeUhpR3BnnZtiiKTi4JyyEO4I9oJadM683F0xlXG9qDJRgXVGfbFbXjTQRT_xzV0b9Wfv6HZ9GLLq4mCCCWD_000jrdIJ6TGasVE5alPZ1SX5vv0VrCQ8w1mvUuzowsSUpUEbr9iaIsDF97d3tmIhy8zSLtxDvODMvwX2mhLnE3kJe66Ae6IH1fxZqN2CfjEA7L9NJI0xOxKiWG120cFbDeuNhNSc0v_LSG0uxcfdYXtL9H-f-tqKEl4jyBiBBBwkQVYX-GRe304Lrf8KiU1Fl7xbxu016UT3Quk33iivNIYVFQ0TgWubqS-Owf5L9TCGDcTJysQoxy4eNi0H7yEKpoznnCPkN_s38rLEEBMos77uTk4NC-fojpGMiMZu9NHfuymcCWIIHCJ7QpT4nSC9qw1P64d-VUOh-8gBtvG8r7HHxRmd-i5LMoojK-76Ppp4aA84FhjkFCCu4xkaDgcbdhZN5vrrbEH_OiWpjOv2EIyLPlTU-ByemQ6ktxHpetRzjIQxIJ6MW7Tpssr7CcHzySH8BO_CPlfm6WEJp1-lowAPyQulBtZ-04gTv0svwUMFhUz9GLI7v_7YgIyh1PCCecBZpPSBWb7hCgpVAwo2Dijs-5Bl7DcPn7MDX2N6S7UaxjqXSONgVwOATvL5V6rXKxoCl5kjbl74Ewxx0Axkx-gP1vzirlOLt6AfxrW4ep1EdwqEKq1aURweNO2YEoByptC0qVW52tcbbmLzN6F7jn9Uxjo5n",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Surgical Treatment of Femoroacetabular Impingement\\\" Regence policy 29914 commercial Washington\\\"\",\"count\":10}",
+   "call_id": "call_uwSoPbt0cyXzNiLhKP51k5jJ",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0adec2a142902071016ab05e8f148c87d19f7bdb8d483749b6",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:blue.regence.com/trgmedpol \\\"Femoroacetabular\\\"\",\"count\":10}",
+   "call_id": "call_cEIwnQ3vIOUwk1lVVpszhgqR",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0adec2a142902071016ab05e8f149c87d19b1a53e6c5938b11",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:blue.regence.com \\\"Hip Arthroscopy\\\" medical policy\",\"count\":10}",
+   "call_id": "call_3vbiKCOqPXirWCPjqDbNiMXc",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0adec2a142902071016ab05e8f14a487d18e96c742adb44a9f",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Regence medical policy \\\"Femoroacetabular Impingement (FAI) Surgery\\\" policy number commercial\",\"count\":10}",
+   "call_id": "call_qzJdATGcPTfKkmxizLBFFjVf",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0adec2a142902071016ab05e8f14a887d1af3597e4c7686ca8",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_uwSoPbt0cyXzNiLhKP51k5jJ",
+   "output": "{\"query\": \"\\\"Surgical Treatment of Femoroacetabular Impingement\\\" Regence policy 29914 commercial Washington\\\"\", \"results\": [{\"title\": \"MEDICAL POLICY \u2013 7.01.592 Surgical Treatment of Femoroacetabular Impingement\", \"url\": \"https://www.premera.com/medicalpolicies/7.01.592.pdf\", \"snippet\": \"treatment of femoroacetabular impingement (FAI) may be considered medically \u00b7 necessary when criteria are met. Added CPT codes 29914-29916.\"}, {\"title\": \"1 Medical Policy Surgical Treatment of Femoroacetabular Impingement\", \"url\": \"https://www.bluecrossma.org/medical-policies/sites/g/files/csphws2091/files/acquiadam-assets/145%20Surgical%20Treatment%20of%20Femoroacetabular%20Impingement%20prn.pdf\", \"snippet\": \"29914 \u00b7 <strong>Arthroscopy, hip, surgical; with femoroplasty (ie, treatment of cam lesion)</strong> 29915 \u00b7 Arthroscopy, hip, surgical; with acetabuloplasty (ie, treatment of pincer lesion) 29916 \u00b7 Arthroscopy, hip, surgical; with labral repair \u00b7 Description \u00b7 Femoroacetabular Impingement \u00b7\"}, {\"title\": \"Surgical Treatment of Femoroacetabular Impingement\", \"url\": \"https://www.bcbsms.com/policy-search/medical/policy-detail/surgical-treatment-of-femoroacetabular-impingement\", \"snippet\": \"Statement previously stated: Adolescent patients should be skeletally mature with documented closure of growth plates (e.g., 15 years or older). Adult patients should be too young to be considered an appropriate candidate for total hip arthroplasty or other reconstructive hip surgery (e.g., younger than 55 years). Added CPT codes 29914, 29915, and 29916 to the Code Reference section.\"}, {\"title\": \"Surgical Treatment of Femoroacetabular Impingement/SUR705.029 Page 1\", \"url\": \"https://medicalpolicy.bcbstx.com/content/dam/bcbs/medicalpolicy/pdf/surgery/SUR705.029_2025-08-15.pdf\", \"snippet\": \"There are specific CPT codes for arthroscopic treatment of femoroacetabular impingement \u00b7 (CPT 29914-29916), and these codes should be used accordingly. CPT codes 29862 and 29863 \u00b7 are for arthroscopic surgery on the articular cartilage, labrum, and/or synovium of the hip joint, Surgical Treatment of Femoroacetabular Impingement/SUR705.029 \u00b7\"}, {\"title\": \"Hip Arthroscopy | Clinical Review Criteria\", \"url\": \"https://wa-provider.kaiserpermanente.org/static/pdf/hosting/clinical/criteria/pdf/hip-arthroscopy-procedures.pdf\", \"snippet\": \"femoroacetabular impingement who were treated with either <strong>arthroscopic debridement</strong> or refixation of the\"}, {\"title\": \"Surgical Treatment of Femoroacetabular Impingement\", \"url\": \"https://www.bcbsks.com/medical-policies/surgical-treatment-femoroacetabular-impingement\", \"snippet\": \"Health insurance and dental plans, related health care benefits for Medicare, individual or group health insurance. Manage your health care choices with BCBSKS.\"}, {\"title\": \"Surgical Treatment of Femoroacetabular Impingement\", \"url\": \"https://www.blueshieldca.com/content/dam/bsca/en/provider/docs/medical-policies/Surgical-TX-Femoroacetabular-Impingement.pdf\", \"snippet\": \"I. Open or arthroscopic treatment of femoroacetabular impingement (FAI) may be medically\"}, {\"title\": \"Surgical Treatment of Femoroacetabular Impingement\", \"url\": \"https://www.bcbst.com/mpmanual/Surgical_Treatment_of_Femoroacetabular_Impingement.htm\", \"snippet\": \"Femoroacetabular impingement (FAI) results from localized compression in the joint due to an anatomical mismatch between the head of the femur and the acetabulum. This decreased clearance between the femoral neck and the hip socket results in development of bone spurs, cartilage breakdown, pain, and decreased joint mobility.\"}, {\"title\": \"Surgical Treatment of Femoroacetabular Impingement: A Systematic Review of the Literature - PMC\", \"url\": \"https://pmc.ncbi.nlm.nih.gov/articles/PMC2806979/\", \"snippet\": \"<strong>The surgical treatment of femoroacetabular impingement has become more common, yet the strength of clinical evidence to support this surgery is debated</strong>. We performed a systematic review of the literature to (1) define the level of evidence regarding ...\"}, {\"title\": \"Surgical treatment of femoroacetabular impingement: a systematic review of the literature - PubMed\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/19830504/\", \"snippet\": \"Current evidence regarding femoroacetabular impingement surgery is primarily Level IV and suggests the <strong>various surgical techniques are associated with pain relief and improved function in 68-96% of patients over short-term followup</strong>.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_cEIwnQ3vIOUwk1lVVpszhgqR",
+   "output": "{\"query\": \"site:blue.regence.com/trgmedpol \\\"Femoroacetabular\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_3vbiKCOqPXirWCPjqDbNiMXc",
+   "output": "{\"query\": \"site:blue.regence.com \\\"Hip Arthroscopy\\\" medical policy\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_qzJdATGcPTfKkmxizLBFFjVf",
+   "output": "{\"query\": \"Regence medical policy \\\"Femoroacetabular Impingement (FAI) Surgery\\\" policy number commercial\", \"results\": [{\"title\": \"Femoroacetabular Impingement (FAI) Surgery\", \"url\": \"http://blue.regence.com/medicare/sur/m-sur160.pdf\", \"snippet\": \"We cannot provide a description for this page right now\"}], \"result_count\": 1, \"error\": null}"
+  },
+  {
+   "id": "rs_0adec2a142902071016ab05e923df487d18b60ac400c811c04",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqsF6TJMCFgQ2EvkX4MhCjK-bm7jf-FQ7tIog9ksrmPfYohhtqkmcoVdH3dMp4vjrYCo9M5yPnp7a6WmVqpc_5wPNbOzf7Qble1Toc-mXoz_5tJ11Aruy8huyZEJktefEskw3-ZK6xZl1N_ka16fZKhRVfwFVoB7OngyTj1uqdUVeDvk0No-eQhKUKZkJ1-DvOTkIeSeTl06sgVms5jZT9JRjp4kx4KFFwuDZ84WH4Yv5O-MeSD6q7Xay13D4pP5EurFYQUycRuqMrQ7LtnPIjxQnt-MfsMVHBNSAAyJvI2OWEU6PBx6aCi7ijkSQG1WTwwRxI4ORPxYpWetO6Zv7h5SFxsxt7-1yFdSxFmkeyfP5Xaf889SAafii0gfv9yh2zc4Qdp3AhuGP74pfGpjJOo5UUGCeZPo9x8EkGABDdXZvRk2n2s4xIJwL0kXPYeUWrDwN1-39GW85JShDxYfYka_chMkpk8gkneG7Qhn0_SK0pq-3ETRMi-arpJdpBNIIFyTwU2_856pn6q0kLyGAbmj-ZG9-IYrfJ5L9slJktY34IYtDhDlJqAqN_ugNIvFGIiYYhFiimn9pubp11sJD3G_YsvZr18UehXP4SPQ0-pOUNFLIh6zlaZEnd9w7-onrNkiljfNPZ_yCfzjTcaZ-se1rqqgmpHYeB-NmoRdwSDdqPG6LjDfWZsMXtAuSvWijx_K6CfOzSsESvPUF_1Dcp4mnm7tuOyYBeUFgxl-gPau9B0KYObIX7WhkGFFghRsH3YpRKVDJkpeA6f-7Gpq3YPcC-uGKM2zfIn29HK1qH2qvNnMf8IgIuI5prT2hH3koOo5IE_bRf6PGF9Ge7YFlKYvywMaRq-sekD5qBlW7tJSZ1C2fXA8UmAGCtim_tcANSqmnEKXIdldeW2ON3StetdRfmynrcEiVoY5gtqHaxWHKG8IcUuEJUH1y2M2xGVVQY7XYUvvDa0tTarzl00Th01nyx_ULFxw_8Id92RAmbulGZHNV-uAa5JhvIWrwG4BuN_OLXerz9dBGhRkgIpxndGerX43ouAoneHdPN46ItCSILrwg-a15IZTcuOLdTv9ILFUqQVLPoB4zt-opfUmh9heQaif7vGX9ZpAmIOas9bHFZkW4c_0eLft2y39u75BpmxM6LR_0PeD0Dvw0IiKu-8VqF7GIjIn_D22k78tJ-OnWvOGb9ywDpT6WLQYg805R_N7UmSofosKxeGwF7u1Kmb5FPQCRxqOCMOX8KnCrOqvd-Jhs-J7PU_owhMzpG1gwkKZwc1fXbD3Cfc4ZoAWhIY0zIXl7m3hUKQLHrw4sCeW8YF_w5ua3mgaXKLCAkSjRH8PCc1rjXNuJML5H1DGYoTNDPBNVKb8hcOmWLNZ7VcJfeXzICKBpt43UZulVo7OhN1ipaPajrvVaPb4UsFF59c_wGpaKZmuJUFZnhBIjvzmXC4niwItL5lv52geZ5D7o40NumZ-mkr2VNQsvTC6eHVrJoEuz1FbpSP1WWYpg4BmSv77tR7pSVYH8LCnzJqsl96Z0jrGNKM9lvMyr_DzKausW-35TErHzoIVomUNEzO1ZLn2ThAnRPmPES1s3vGuzWbe_2I6c8KGGw3lHfKQjP8hQOgQXGQ4YZISGYRQZgdt88EKVbDynf_dINkcoPkfmWuhf-",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:regence.com \\\"Medical Necessity\\\" \\\"appeal\\\" \\\"PO Box\\\" Washington Regence member appeal\",\"count\":10}",
+   "call_id": "call_pUjVHAW6iuoCObuS2qyQcgjv",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0adec2a142902071016ab05e93c36087d191eb3f361e930be9",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:regence.com \\\"Appeals Department\\\" \\\"PO Box\\\" Regence BlueShield Washington member\",\"count\":10}",
+   "call_id": "call_Lw5zJqplCERM6gQ621DPvc6o",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0adec2a142902071016ab05e93c37487d1a4e0df7ba41d59d8",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Regence individual Washington certificate appeal submit written appeal address customer service\",\"count\":10}",
+   "call_id": "call_gRvL0X8pqDrZZccdiLOO3HtL",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0adec2a142902071016ab05e93c38087d187dd444bd75a9cc3",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:regence.com/provider/library \\\"member appeal\\\" \\\"Customer Service\\\" written verbally Regence\",\"count\":10}",
+   "call_id": "call_X3vGUnka1XhT20TlFuGMoHaY",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0adec2a142902071016ab05e93c38887d19c1d78ed79148c03",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_pUjVHAW6iuoCObuS2qyQcgjv",
+   "output": "{\"query\": \"site:regence.com \\\"Medical Necessity\\\" \\\"appeal\\\" \\\"PO Box\\\" Washington Regence member appeal\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_Lw5zJqplCERM6gQ621DPvc6o",
+   "output": "{\"query\": \"site:regence.com \\\"Appeals Department\\\" \\\"PO Box\\\" Regence BlueShield Washington member\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_gRvL0X8pqDrZZccdiLOO3HtL",
+   "output": "{\"query\": \"Regence individual Washington certificate appeal submit written appeal address customer service\", \"results\": [{\"title\": \"Member appeal process and forms\", \"url\": \"https://www.regence.com/member/members/member-appeals\", \"snippet\": \"Get help with your coverage questions, including information on how to file an appeal. Learn about the appeal process and find the appropriate appeal forms.\"}, {\"title\": \"UMP MEMBER APPEAL FORM Please return completed form to:\", \"url\": \"https://www.hca.wa.gov/assets/pebb/Reg-appeals-grievance-form.pdf\", \"snippet\": \"We need your permission to authorize Regence BlueShield to request any medical records needed to answer your appeal.\"}, {\"title\": \"Grievances and appeals\", \"url\": \"https://www.regence.com/medicare/grievances-appeals\", \"snippet\": \"Learn how to file a complaint (a grievance) about us or one of our plan providers, or to how to appeal, or request an independent review of, any action we take or decision we make about your coverage, benefits or services.\"}, {\"title\": \"Regence Provider Appeal Form Instructions\", \"url\": \"https://www.printfriendly.com/document/regence-provider-appeal-form-instructions\", \"snippet\": \"This document provides details on how to use the Regence Provider Appeal Form. It guides users through the appeal process including submission instructions.\"}, {\"title\": \"Forms and documents\", \"url\": \"https://www.regence.com/provider/forms-documents\", \"snippet\": \"Find forms to request pre-authorization, care management or appeals, or direct overpayment recovery. Download and print helpful material for your office.\"}, {\"title\": \"Regence provider appeal form: Fill out & sign online | DocHub\", \"url\": \"https://www.dochub.com/fillable-form/336276-regence-provider-appeal-form\", \"snippet\": \"Edit, sign, and share regence provider appeal form online. No need to install software, just go to DocHub, and sign up instantly and for free.\"}, {\"title\": \"Claims submission\", \"url\": \"https://www.regence.com/provider/claims-payment/claims-submission\", \"snippet\": \"Our participating providers and facilities agree to bill us directly for covered services provided to our members in accordance with their participating agreement. Learn more about submitting claims to us.\"}, {\"title\": \"Claims - PEBB - Uniform Medical Plan\", \"url\": \"https://ump.regence.com/pebb/benefits/claims-appeals\", \"snippet\": \"When you use a network provider or network pharmacy, you don\u2019t need to submit a claim. There are some circumstances where you will need to submit a claim. Claims must be submitted within 12 months of the date of service.\"}, {\"title\": \"Claims Submission Map | FEP | Premera Blue Cross\", \"url\": \"https://www.premera.com/fep/fep-claims-submission-map/\", \"snippet\": \"8:30 a.m. - 4:30 p.m. PT Fax: 877-239-3390 (Claims and Customer Service) Fax: 877-202-3149 (Member Appeals only) Fax: 866-948-8823 (FEP Care Management - prior auth/pre-service requests) Email: Members: Log in/register at MyBlue Customer eService ... Federal Employees Health Benefits (FEHB): 800-552-0733 Postal Service Health Benefits (PSHB): 800-237-6734 \u00b7 Send to Regence Blue Shield in accordance with the terms of your provider contract with Regence.\"}, {\"title\": \"Appeals tool messaging\", \"url\": \"https://www.regence.com/provider/claims-payment/payment/appeals-tool\", \"snippet\": \"If you receive one of the following messages when trying to dispute a claim using the appeals tool, it is not appropriate to fax or mail a dispute or appeal unless otherwise indicated.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_X3vGUnka1XhT20TlFuGMoHaY",
+   "output": "{\"query\": \"site:regence.com/provider/library \\\"member appeal\\\" \\\"Customer Service\\\" written verbally Regence\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "id": "rs_0adec2a142902071016ab05e98896087d19dc260cfc48059be",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqsF6aaqctNsgBelqVq_u7hPkM8x-ZSKJx-7V02W1aXQK47iWmfvc6fvWNmHOcKyZZrUWzoF7vAE3YDom_VTScJv9RoUAxNE_qMUXdNIhFs5hEiKiS4r_EviaCjQ3cyGoppmidK4fkIA_y_un6TABh7cv9FGlUhD6lp2RR8lENTYO2PaNDAxcv9WbY0VY67CAmMnSr1srxV4KxCMq8tWfENmhC7TeWhqY2yPd9bNSA4eAG9lhJ-8kDYt7PdX6zinwiv86ImRK0IJPOXJgF7igQdr2SrilcFlIIdkx_fr_DV4cOkbNbtL2r36f-UncigzmgSJnW7w3Tge0_p0KOVinTc5DJ62i4cziLYhf4RedLVwbKTXxczi8UGVEqktku_iJBpaPRYQCvx3XhkRnZ9cSXfXPkTl6PqCn29k99v9x5Ow68eDF__4X9mdV2lD139_hf-yJRg6GpErPsChteAugVQRl-o_s9owSA_6qJGCLuGSOd8oXEGnV-iLwNnWvzWF9rcA5HTS-JTolWCqOu3K0U6Vp_gGK-alkFi4CtlqA0dW3RQiZR8kT_fc0zv05-vrw-xTWYewVp8RSsxGetsMV8ZW5hLsTHfCIygq7MdfBjWDHDBwvgvI3GWzLVMulSFURM65imNWhBrATImZLfJxxLGZ9UkGXG82sPT5VdOOOzDi8INTMVWwKJr6bDF9jFG4RvMimXMYIX7IwRY33XHHAe66dUjphTxDRRcluWVR-ws3pc21uhh7-pXrgK3__MJLkd2jn5ol2BmLCdim50czN_odyPb8IB3CcHQy117tRA-liJ3VRNBvW1p6ddajYwr3ZAjmhyH6v70wkyUuOQyzfjt1tdNJ1IULcB3aYrEV-b8uYyHu7z_ZJGhSkXC5qG0JwN7OZTucGBAF7YnTifbPUqbDPGu_Yh-ZqS9JmtB4zhn_txV9-xfAN-lKZNO3ycQlA2qBl2OYp1Fu1tDuZU-FOwxSCGt_sGyUUHUu5e_AXehyAWn61N9olTR9SiW9-kThXRc5uHzTBJ0vM7guktpHVdPIuXOL3ajaxvj9s_KrDClplADY5B8kwKnafEzEABY4SYY_qs5xmW4q8AT2ogq6g9k6kQb2OTomlNUhvfzePueEEtpK7g-PWLScHFo9UZL3oaivmgkcK5567Ze5kI0RRIRBSi8Hw8yw7MlJuRoUM6hfMpwxk_BlLCvbD-aQjFdJMoFWKfIK967UlqmDFu3DDHO9FKRf9BeA8wpvpBPoPJOzlFthl3wG4-3dLmOkeVH1xY-7YnALcOQMOFZEK6ypRB6tB0iN7n4U42UB68ocGiaqnM4K2qXAS808KFaXb1DRRJHH5jcbM3q6cUOvKOg9LNW-c__AIb3sgsQcuiuPQHEjjsEnsSmxw0yiOoI7FhBZ_sl8KpYB6tdCIb1c5n2iKt1x1Jkxf-vs-jX9dOxqY5R3H3nWELtBn4m46rKObIwhc0tFxmcH7xyZ-z5Mfw6er4uvBbMCDlo7dOuJ5kd4e66jEccMSuWrKZ28l8o49dolaU-Pb2KBPicU3OrsGtLPGr4n6BCdFGV0sMZuOJTaQsRKNIkdRKxO5nxX2v-eCMx2aIigZOPyu-A_vIwQhX0Std-X5ae5DvSjCpRJTwKGnD_ObPFd1XP16p50ua23gvpL9JRrTDQFDZevQobLfsDWj_2c4Y1K4eWRaHtslxunhBoDTEbeYnXKhFgObUS3T7LvLvyVCyYibXeTQtBTJBm8jh0O5ssF8vUFpHfwLAXKxaH-Nl1TCINBx0LWOkqkpqPhlcnfFxo7z2_-eRKRYHhcN5PNbeOg2MSlzyvZIZSxy8zZSnkPROknK4JhfkDsFnnSEWU_NFuiBYWzyJMhJtrBTubZUWd4_U-WatxuI1ORHPPWZDRzc-JwxHoqqNJiFEHlpuFmC3m6eaGSjp8wjjfhTDsW1DJknyC1LLxdLIbNgH-k9YuludAW5OLrzJt3VcxiWYScIhMBSr7WrUOzwSoKy7NioEYeJcLj9KObn0EMPIOJAiU7uavCiPKymb2NsmAAXAyDmM5O474d1Dd6o2iYzTBbQagw-c1quQDMlrsX9kSoYlV88iw-yrjdkXhQbhWyJfdk8zwmtk5SEk2Gjv98K9oVwSw_6xkI5aAYd2y-8LMxThv7781MgGUHHjJRTiQgxVqb2CnB8z0-MUZ-fIdWQ_8TF3KD-N0resg7kLVie8OJ4YtSy2841yNQlptJWQ8LPm0FWqopAbgLj-jShtdJDSi8rkYQ==",
+   "status": null
+  },
+  {
+   "arguments": "{\"url\":\"https://www.regence.com/provider/library/policies-guidelines\"}",
+   "call_id": "call_E6p9xOj9AEtNNLSiA2KxFQ9S",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_0adec2a142902071016ab05e99c64487d1a030005425c64341",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_E6p9xOj9AEtNNLSiA2KxFQ9S",
+   "output": "{\"url\": \"https://www.regence.com/provider/library/policies-guidelines\", \"final_url\": \"https://www.regence.com/provider/library/policies-guidelines\", \"http_status\": 200, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Medical, medication & reimbursement policies and guidelines Find a doctor Find a dentist Contact us Sign in Individuals & Families Medicare For Employers For Producers For Providers Don't have a member account yet? Create one Sign in Individuals & Families Medicare For Employers For Producers For Providers Don't have a member account yet? Create one \u00d7 Find a doctor Find a dentist Contact us Go to Regence home page x Attention! You are about to leave regence.com and enter another website that is not affiliated with or licensed by the Blue Cross Blue Shield Association. Cancel Proceed Loading... x Attention! You are about to leave our Medicare website. Proceed Cancel \u00a9 2026 Regence health plans are Independent Licensees of the Blue Cross and Blue Shield Association serving members in Idaho, Oregon, Utah and select counties of Washington.\", \"text_truncated\": false}"
+  },
+  {
+   "id": "rs_0adec2a142902071016ab05e9c1d4487d1b3dc0ab71abb90be",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqsF6g9Auz8uSdCr2T25_Q1BIAoLlGflL9Tgs71Ay69QT9G5oa15Lwym7A6ClVtwVojJPN5oZaUm7kI3i59MQQwfiI5CmjwRfyj88rhy6IqOiPFpCweOnsCqtXXbpObruW9AfAEsPsuUp-hKeID8OXt7ShBmOjLWMBCfOIn4pLCGI_29945gNVchQzvhIhtZuGtqwiCD50hI5X1M-sXYp4IXGnkeoAJJi4k_tJF3rlGmT0GvARao-ZeIXY3YK6eqsuaTmxGL2mnnBAi4vwR4ZoAKYQba_JYkBo3_rIaDnrIQH37sccDFAEsHFl0Q86VMlLrjdqhJlo4zry_awZbo1iDq8nVxg-Dak8twy9wcsqekRVhXzfk430LWRkLzzOYaXtaBrxRdAm6UCHBx6P9uaGst-I7XX9UlZgIK0GBsYkXQ79tKEykXcopECby0Wzlw1QUvJsg9QtLIthAoYC04td34Iz_IRHpQnmw1kKmhiMNtK_904R3FayeavhHfw6jLxGjVlKFkkRJUdjQQ0e_Tw8noS4QpYklMno8Jyd7jwreTre5SWxRHBUw1eD8hcwm7dvtRkC8zVMc9eyCh1O71mPAVeUcEKRKGKvubA9mEm7epwhI8DVOvPYqkfFJFUmENw2LLOZyowU90NLuH-qu6g6ORGySeQrNx6euQ22vw4R78kvIM0IKakYdV1Y1JIveq46p_cKLQXI_EDNwUSuV4LUWtH0yaQo8enPKtVxCD9grwDGA2LAF9R95tFJp3N2Gx-JdBDYz7hc22FJkmWtsHzpL3oVt7np6h-sSVoK6Fb6NI2sfTp-ZB4KHSQMPnY2afJPsHb2t1XbgHpp0W49OvGnF4Z7zPReEh_6C3VhKRvorlWJ8VZF9l1y2_Y6kYQe9oQgfRoVJoOaC-8Yln-GWxgZdUVKiKKEbXmmyWFBfh2kpoDFJEXFhJMl6yOlVPRsXAjcM1z-hnRN8D-drb-NAwRDWLnZAPc6yFUCv5qam8v2QuaUF9uZUoni5pz_9WYLrdgYYxZi8m9-35mBjdqy6Pcit3632Q5Syvz67Ubk8GIv7TwfhKzxYBiOhWxSZJyFJ4qm2wnari9ICZXYPMkNX1hgtmxe5GlJtK9__Vbxb92WsL3EiUk2TM73QTTk9Q13-r1I8RMGyCQjyIzNF7AAi3F7n9caUwH4RGVbozAOsdXXPwrEIX5pgflfFdjEykD25Hr5MFBf3pMBPwweUF1lCGtHpI-bkohzyI5B5bBsrTsx1SpfdPZuHF1VRsUIy6rUWAj6ND-japQ0BFRG6hMOWMY9EtG7VTM6gBPH8t1YeiefvZxt8i1PTHRVPGPKQPgr7cDeiw8y2QPmP4PzjWUMOE-Dh_5M5xJlvGzVJukVL6NkUgiaaltCNi9D4LtOgJjhwzCkYvfKBiM3X9grW6UmlcQ465m2th6GNwPtOBiBkDdGoRCz7voKWOWL9W1hXyS1FZeqXQCHEbFamxO3Xe_sU6Rw61AcKwPXzvEM27-QlLwFQ0yfOl2dKKLggewq88GBEzMs4K8R00QVzcrpFJTMu1TEKgt2Sw80VrijeFMCEsE35PYngOPRwlzMumyLOkzspWRvsssiDM_FhtQQp_rWftg2szHihBxaFrxg9qRe63COPthaze1TJ8pyRwz-eeEchLjsFLrMbHsEhq0qs5XzrcD0Ofd40JAtcQAFo_JUqQ5B5oYW92exMUgYpDYwKBAN1oY3FleKsLEbZTT561pUq6ac9po5yKfKP0cghQ-Q1qaSjlnwRyt0y0xAgvyCnZMuNRcoT0j7Sj3IlmAhmOzH7YgyfVK_Fmtd1xivYZCczsdSxgdL6_H6BwEgcQnxphy8qzfzskBV_IqnechRiqx1n1vDTODKw3z_6hnlrR4kQk_Q1HQO0qy4e6MiU6VR1AWIwNskbii13xhhYeo15ao1UjKh0OVzbIC8zpQ0lpthPiYKNyryvaHVvFysOv6WxRBza7pSVsalLWMWN2l7wJHjuSl5sGp-V4zPD5BEXDR0GH21ugpZg7Q2ynqolgYo09GB7JlvrfDvlIEC1ZAEjyZUOB9mKptGWrDGFr82nRWNrsyk510xyAF1Vja1X4TlU-6D_hjRq-jwgHKaKPa-HfaHz6YnPlWCiKhxaYwDMZSSvBSOArDd1ed9ImGLP7wqEafjJTMepbiHMlWg7Xj-h86zolKw49VWWN2xm-H1ghsfjKbhUtEXLvhxt6cJlcrJHSuIaUdmHmkaAOk09FsB_UtESxbiv3G8K-tbEpDWMfluW5iOmGV9YXrV2BlSvoi0vJubSJGqn53hgvVFMksnQffc4RSSMoZ4YXriZqIZj2a5mczKYEqUxiVQUVDheygAQrTvjzGtfi9A9wYDzsM6StSZLQDCCNp4ZdjVmZog27rFvDp5DpcnT4VQDPn7goBXxAXLAHK_K5WM_42OVrkbrVx2BJViUnBTgzjuhHmKieZED6FJvSHkTQGk2xoxANAODBAX9hpglEGhlJOZ4A9DNOiMQzzBBawnvlyq6vbHFerPoL1yMQfzNXi8OWLn-qb524T-JfMuF-sK-Ts1VTj3sPM3O_tFqXWs43-JWYBMIiblTFM2ZPqHD40yZVUH-NBOWMqQhtATiNiTFVXuG3xPbc6nHCLQXQXXJO-eKEMx3HGRVyHqHQzhc7Kl41WuYkXbHK0ruVWMxvf2ZDcIMdBVJGhPPTll4AIBWCe3-mIAOjSW2-1rH3SyItx7G6ktziXPlQSmaWN-6Ua84_p-aN657URHQHGbkaWvA79kG1--v93kk1e9ivO_2BLHcoAT0Nnrw34cUxzCNf5iV-kjzxSf3rP4TZAv3grGQZzKaydLmIHwX3L61Al0Nr1OgzP9OkYRgjUM9kzlvc_5aN03yGNL7KnFSrewIf1ium87pO5pQvb7tczEjQsIrVkHI4CnSDDdtugSanvAHIlkza9TTuwdZtDLaHchkf1KzYoumoX1vOibUq4fht_9Pxo=",
+   "status": null
+  },
+  {
+   "id": "msg_0adec2a142902071016ab05e9de5e487d18419632cf54a26a1",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": null,\n  \"effective_date\": null,\n  \"criteria_quotes\": [],\n  \"appeal_deadline\": \"2027-02-19. The denial notice states that the appeal must be received within 180 days of 2026-08-23.\",\n  \"submission_route\": \"Regence's January 2025 Administrative Manual\u2014Appeals for Members states that a member may request a Level One internal appeal within 180 days by appealing in writing or verbally through Customer Service. Customer Service can provide the written-appeal form. Use the Customer Service contact information on the member ID card or denial correspondence. The publicly retrieved Regence materials did not provide a Washington commercial/ACA mailing address or fax number specific to this member.\",\n  \"how_to_obtain_criteria\": \"Ask Regence Customer Service and the provider's utilization-management/prior-authorization department for the exact medical policy and clinical review criteria applied to CPT 29914, including the version/effective date, the clinical rationale, and the records relied upon. Request this information with the appeal and identify reference number POC-41FE448BEA-64337. The public Regence policy pages were accessible, but the specific commercial/ACA policy used for this denial could not be identified from the retrieved material.\",\n  \"confidence\": \"Low to moderate\",\n  \"notes\": \"The retrieved Regence policy-library material confirms that Regence publishes medical policies used as coverage-determination guidelines, but it did not expose a specific commercial/ACA policy for CPT 29914. A publicly indexed Regence document titled \\\"Femoroacetabular Impingement (FAI) Surgery\\\" was identified, but it is located under Regence's Medicare materials and therefore cannot reliably be treated as the governing policy for the commercial/ACA plan described in the denial. Because the applicable commercial policy was not verified, no medical-necessity criteria are quoted.\"\n}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": "final_answer"
+  }
+ ],
+ "stop_reason": "completed",
+ "usage": {
+  "input_tokens": 40125,
+  "output_tokens": 1656
+ },
+ "model": "gpt-5.6-luna",
+ "tool_calls": 17,
+ "elapsed_s": 29.7,
+ "run_id": "r-741fa1c65e89",
+ "case_id": "poc-41fe448bea"
+}

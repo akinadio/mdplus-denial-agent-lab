@@ -1,0 +1,26 @@
+{
+ "answer": {
+  "policy_found": false,
+  "policy_title": "",
+  "policy_number": "",
+  "policy_url": "",
+  "effective_date": "",
+  "criteria_quotes": [],
+  "appeal_deadline": "2027-02-03",
+  "submission_route": "Get the appeal form at resolutions.humana.com, then mail it to the Grievances and Appeals PO box (expedited requests use P.O. Box 14165). Confirm on your denial letter. Online: resolutions.humana.com/grievances-appeals-forms By phone: Expedited: 1-800-867-6601, or the number on your card Deadline: Confirm the window on your denial letter -- but your denial letter is authoritative. Use the appeal address printed on your denial letter.",
+  "how_to_obtain_criteria": "Humana's criteria ARE public but they don't give any policy a permanent web address - links expire within hours. Open the search page and click the title for your surgery ('Knee Arthroplasty - Medicare Advantage', 'Knee Arthroscopy - Medicare Advantage', 'Shoulder Arthroscopy - Medicare Advantage'; change docbegin=H for hip, =S for shoulder). Save the PDF as soon as it opens.",
+  "confidence": "high",
+  "notes": "no public criteria on file; abstained and routed"
+ },
+ "source": "abstention_route",
+ "route": {
+  "kind": "navigate",
+  "vendor": "Humana (own policies)",
+  "url": "https://mcp.humana.com/tad/tad_new/Search.aspx?policyType=medical&searchtype=beginswith&docbegin=K",
+  "how": "Humana's criteria ARE public but they don't give any policy a permanent web address - links expire within hours. Open the search page and click the title for your surgery ('Knee Arthroplasty - Medicare Advantage', 'Knee Arthroscopy - Medicare Advantage', 'Shoulder Arthroscopy - Medicare Advantage'; change docbegin=H for hip, =S for shoulder). Save the PDF as soon as it opens.",
+  "source": "mcp.humana.com medical coverage policy library"
+ },
+ "model": "claude-sonnet-5",
+ "run_id": "r-90e53ab3550b",
+ "case_id": "poc-47f0c5aa4b"
+}

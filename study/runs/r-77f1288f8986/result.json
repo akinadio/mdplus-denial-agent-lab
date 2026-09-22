@@ -1,0 +1,488 @@
+{
+ "answer": {
+  "policy_found": false,
+  "policy_title": null,
+  "policy_number": null,
+  "policy_url": "https://mcp.humana.com/tad/tad_new/home.aspx?type=provider",
+  "effective_date": null,
+  "criteria_quotes": [],
+  "appeal_deadline": "2027-02-03, as stated in the denial notice (180 days from the August 7, 2026 notice date).",
+  "submission_route": {
+   "mail": "Humana Grievances and Appeals, P.O. Box 14546, Lexington, KY 40512-4546",
+   "phone": "Call the Customer Care number on the back of the Humana member ID card for an oral appeal or assistance.",
+   "online": "Humana's online appeal form is available at https://resolutions.humana.com/grievances-appeals-forms/member-info",
+   "form": "Humana Appeal or Grievance Form: https://assets.humana.com/is/content/humana/G-A_Form_Clean_2024pdf",
+   "supporting_documents": "Include the denial notice, reference number POC-47F0C5AA4B-91233, clinical records, imaging, operative recommendation, and documentation addressing medical necessity."
+  },
+  "how_to_obtain_criteria": "I could not verify a publicly available Humana commercial/ACA policy document containing the medical-necessity criteria specifically applied to CPT 23472. Humana's public Medical and Pharmacy Coverage Policies portal says that commercial policies can be searched by keyword, policy number, or procedure code, but the specific shoulder-arthroplasty policy was not retrieved. Ask Humana, in writing, for the exact medical policy or clinical-review guideline and version/effective date used for this authorization, the complete medical-necessity criteria applied to CPT 23472, and the case-specific clinical rationale for finding the submitted documentation incomplete. Humana's policy portal lists HMCPinquiry@humana.com for medical-policy inquiries. The treating provider should also request the criteria and the complete clinical-review determination through Humana's provider channels.",
+  "confidence": "High that the appeal deadline and the general Humana submission routes are supported by the retrieved Humana materials; low-to-moderate regarding the absence of a specific policy because Humana's policy portal is searchable but the applicable policy was not publicly retrievable.",
+  "notes": "The retrieved Humana materials establish that Humana maintains commercial medical-coverage policies and that its public member instructions identify the Grievances and Appeals mailing address and member-ID-card telephone route. They do not establish the title, policy number, effective date, or medical-necessity wording of the specific policy used for this denial. Therefore, no policy-specific criteria are quoted rather than substituting another payer's shoulder policy."
+ },
+ "raw_text": "{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": \"https://mcp.humana.com/tad/tad_new/home.aspx?type=provider\",\n  \"effective_date\": null,\n  \"criteria_quotes\": [],\n  \"appeal_deadline\": \"2027-02-03, as stated in the denial notice (180 days from the August 7, 2026 notice date).\",\n  \"submission_route\": {\n    \"mail\": \"Humana Grievances and Appeals, P.O. Box 14546, Lexington, KY 40512-4546\",\n    \"phone\": \"Call the Customer Care number on the back of the Humana member ID card for an oral appeal or assistance.\",\n    \"online\": \"Humana's online appeal form is available at https://resolutions.humana.com/grievances-appeals-forms/member-info\",\n    \"form\": \"Humana Appeal or Grievance Form: https://assets.humana.com/is/content/humana/G-A_Form_Clean_2024pdf\",\n    \"supporting_documents\": \"Include the denial notice, reference number POC-47F0C5AA4B-91233, clinical records, imaging, operative recommendation, and documentation addressing medical necessity.\"\n  },\n  \"how_to_obtain_criteria\": \"I could not verify a publicly available Humana commercial/ACA policy document containing the medical-necessity criteria specifically applied to CPT 23472. Humana's public Medical and Pharmacy Coverage Policies portal says that commercial policies can be searched by keyword, policy number, or procedure code, but the specific shoulder-arthroplasty policy was not retrieved. Ask Humana, in writing, for the exact medical policy or clinical-review guideline and version/effective date used for this authorization, the complete medical-necessity criteria applied to CPT 23472, and the case-specific clinical rationale for finding the submitted documentation incomplete. Humana's policy portal lists HMCPinquiry@humana.com for medical-policy inquiries. The treating provider should also request the criteria and the complete clinical-review determination through Humana's provider channels.\",\n  \"confidence\": \"High that the appeal deadline and the general Humana submission routes are supported by the retrieved Humana materials; low-to-moderate regarding the absence of a specific policy because Humana's policy portal is searchable but the applicable policy was not publicly retrievable.\",\n  \"notes\": \"The retrieved Humana materials establish that Humana maintains commercial medical-coverage policies and that its public member instructions identify the Grievances and Appeals mailing address and member-ID-card telephone route. They do not establish the title, policy number, effective date, or medical-necessity wording of the specific policy used for this denial. Therefore, no policy-specific criteria are quoted rather than substituting another payer's shoulder policy.\"\n}",
+ "transcript": [
+  {
+   "role": "system",
+   "content": "You are helping a patient respond to a health insurance denial. Answer precisely and only from evidence you actually retrieve. If you cannot find the governing policy, say so plainly rather than naming a document you are unsure of."
+  },
+  {
+   "role": "user",
+   "content": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-07\nMember: Avery Hayes\nMember ID: W379220601\nPlan: Humana (Commercial/ACA), state of Georgia\n\nDear Avery,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total shoulder replacement\n    Procedure code (CPT): 23472\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-03).\n\nReference number: POC-47F0C5AA4B-91233\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+  },
+  {
+   "id": "rs_07b21ccd10a1fc1b016a9b7121322887d2ba572dd0f9e992a8",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm3EjOIisxZkaaXZt2A9YCKmNBd1JrWZ-9EQ1rnqcW6O6pGLEDyHdPmjOLBuSjX8nsNLpUz3nvD47OzPIKyCTrFk4Oc2M40h9wVUNubxKyWvObRArohB_zhzDMl0rMTUUMOVy8BQuzmeeeRA5ZLveHpfVjYHHfyanavYC7EbbbU-t4di4J1ZNemFbERRxcVOf8NgBMj8NxWVG52iK6zF1swv621rFKiRZdWsOAe61Hdp4fa1P6lEuEnEYrknCpYkf8tot41qm2nq3DFvMKo1squ_MTuFhQSrRg_JrQs_UWEAckTaT42xRIVVpTmYAoCgSdJD7IzwvfIFkURZ7RnExtPZkkbW5zv2Avtc-HdFp5iXPO37FvZVuczNoTyTf76mtuFogEjg3fARyIqwjCuDuscEQaC0PZUyAxTlyNXAKOPew2G73ESPIgt7fBdMGqrOFJ7tVBltZsOqjaufDVlPHlKrLVAhiYIEkMnTLTEOuCTBFaP4hF1SVu2JMAjFNohGwnO21StraR5F-oqu0FHJRtLanoHZCxu3T8A2hGRfGm8zlK7h0AU-muRX58EoYLQUQr_oryvu599CalOGQMs1ItWrmmpgnxViQ_sHyX8RzlcXTrcM9VP7ewkgJmq1m1I8ywcvXBgIkEzug2hNxT4Ug1bUiyMJ-gknzlAaX517f8Q4Kyrat77oQGjEhFkNGwvSvtoq_Rmsaubun11fWy7yLkwXB0X__Ooez-FhR4L1DIgwTqfW-c_hEvL2LLjwJENcSFN2j8FLhgjVb8uBwu2RSMvWaCt9l5BPwlB5MHqvGJp56WB8Les4JEbaAAhbK6thJkkusKs3aSBeO9oY3jcx_1sWKamcHwi4kzIme4UzKQtzF3h9roFKhirgzpKVK5wrY22qigv6uMLN9QMcb-22LMmg4rEREW_G00OwHi1wP2iEYIUwk5e3G0dFhfTj7J_h75K6nB36w4VxcM3gMV5iyPvoUDW8H92TE4Nfi8A5hKinEBAtF1ua5gsMDG30xge4bIgHTkmnDMTtqI_t9PPur-q76e9MpM-GbonuVpOYFZEQatjYYlygnsdkWFGhinqu5mJZpFjG9RPCzqrjlN4jXF8VJp7W3oFDgw6F6cvBbH_ZQ9jkaeapT0ZRC8hEyFtyEFk0TzQbwGTgtxVApFVGtAdYPkOgJEkUOiwVu_vncw9RsGN2xFt_1RNZBZvV9jH3zRO3-Mw7e5sOmicWZnFFxAgLh4uNoonnmMlZ3J2up_uvlKe8SKa0yhBoXGwVc2P3p3gp3",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:policy.humana.com shoulder arthroplasty 23472 medical coverage policy Humana Georgia PDF 2026 criteria surgical replacement shoulder joint arthritis rotator cuff tears fracture avascular necrosis pain function conservative treatment failed policy number effective date\",\"count\":10}",
+   "call_id": "call_XSK1Ue9qEIW1bU57vF6D6fDA",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_07b21ccd10a1fc1b016a9b712356d887d2976c1ab4c527323a",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Humana commercial medical policy total shoulder arthroplasty CPT 23472 policy number\",\"count\":10}",
+   "call_id": "call_wPUEi21E4s5HVEAp6m9XGzLW",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_07b21ccd10a1fc1b016a9b712356e887d2bef7466416b3c131",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Humana provider medical coverage policy shoulder replacement arthroplasty 23472 PDF\",\"count\":10}",
+   "call_id": "call_qZfTc5WsgSiBh5bE5F7NaWhU",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_07b21ccd10a1fc1b016a9b712356f087d2a2e3f3b7ed0da1f1",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_XSK1Ue9qEIW1bU57vF6D6fDA",
+   "output": "{\"query\": \"site:policy.humana.com shoulder arthroplasty 23472 medical coverage policy Humana Georgia PDF 2026 criteria surgical replacement shoulder joint arthritis rotator cuff tears fracture avascular necrosis pain function conservative treatment failed policy number effective date\", \"results\": [{\"title\": \"Medicare Advantage Policy Data | Humana Health Policy Center\", \"url\": \"https://policy.humana.com/\", \"snippet\": \"Learn the potential impact of Medicare Advantage policy changes and potential cuts for your state or congressional district. A comprehensive data-driven resource on Medicare Advantage.\"}, {\"title\": \"Policy Priorities\", \"url\": \"https://policy.humana.com/policy-priorities\", \"snippet\": \"Humana advocates for proactive solutions to help strengthen and improve the Medicare Advantage program \u00b7 Innovation in service of affordable, high-quality care for seniors has always been a hallmark of the Medicare Advantage (MA) program. Given all that has been learned since MA\u2019s inception, ...\"}, {\"title\": \"Medicare Advantage | Humana Health Policy Center\", \"url\": \"https://policy.humana.com/medicare-advantage\", \"snippet\": \"Humana has served Medicare beneficiaries for decades, with approximately 5.2 million members enrolled in a MA plan, as of <strong>September 30, 2025</strong>. In 2026, Humana has MA plan offerings in 46 states and Washington, D.C., covering 85% of U.S.\"}, {\"title\": \"Medicaid\", \"url\": \"https://policy.humana.com/medicaid\", \"snippet\": \"Humana is deeply committed to the Medicaid program, recognizing its importance in providing quality health care to underserved populations. We focus on whole-person care that ensures our members have access to the resources they need to stay healthy \u00b7 Medicaid provides healthcare coverage ...\"}, {\"title\": \"Humana Accelerates Efforts to Eliminate Prior Authorization Requirements to Ensure a Faster, More Seamless Process\", \"url\": \"https://policy.humana.com/news-and-resources/news-press/2025/humana-accelerates-efforts-to-eliminate-prior-authorization\", \"snippet\": \"Faster, more streamlined process for approvals \u2013 By <strong>January 1, 2026</strong>, Humana will provide a decision within one business day on at least 95% of all complete electronic prior authorization requests, expediting care decisions and helping beneficiaries get the right care in a timely manner.\"}, {\"title\": \"News & Resources\", \"url\": \"https://policy.humana.com/news-and-resources\", \"snippet\": \"Humana is dedicated to supporting the health and wellbeing of veterans, military retirees, service members, and their families \u2013 supporting more than 5 million individuals across Medicare Advantage and TRICARE. Our work spans Medicare Advantag\"}, {\"title\": \"Making Healthcare Work Better by Modernizing Prior Authorization\", \"url\": \"https://policy.humana.com/news-and-resources/news-press/2026/making-healthcare-work-better-by-modernizing-prior-authorization\", \"snippet\": \"In 2026, Humana will launch a new gold card program that waives prior authorization requirements for certain items and services for providers who have a proven record of submitting coverage requests that meet medical criteria and delivering high-quality health care with consistent outcomes for Humana members.\"}, {\"title\": \"Veterans/TRICARE\", \"url\": \"https://policy.humana.com/veterans-tricare\", \"snippet\": \"Humana is on a mission to keep veterans, active-duty service members, military retirees, and their families healthy, and we offer customized solutions for the military community\u2019s unique healthcare needs \u00b7 Humana\u2019s unwavering commitment to veterans, service members, and their families ...\"}, {\"title\": \"Medicare Advantage Enrollment Map | Humana Health Policy Center\", \"url\": \"https://policy.humana.com/enrollment-maps\", \"snippet\": \"Humana footprint data represents total medical membership as of <strong>May 19, 2026</strong> \u2013 by market and product.\"}, {\"title\": \"CenterWell\", \"url\": \"https://policy.humana.com/centerwell\", \"snippet\": \"CenterWell is Humana\u2019s health care services business focused on creating integrated and differentiated experiences that put our patients at the center of everything we do. The result is high quality health care that is accessible, comprehensive, and, most of all, personalized \u00b7 CenterWell ...\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_wPUEi21E4s5HVEAp6m9XGzLW",
+   "output": "{\"query\": \"Humana commercial medical policy total shoulder arthroplasty CPT 23472 policy number\", \"results\": [{\"title\": \"Surgery of the Shoulder \u2013 Commercial and Individual ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-shoulder.pdf\", \"snippet\": \"CPT Code \u00b7 Description \u00b7 23470 \u00b7 Arthroplasty, glenohumeral joint; hemiarthroplasty \u00b7 23472 \u00b7 <strong>Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal humeral replacement (e.g., total shoulder)</strong> 23473 \u00b7 Revision of total shoulder arthroplasty, including allograft when performed; ...\"}, {\"title\": \"23472 Arthroplasty, glenohumeral joint; total shoulder ...\", \"url\": \"https://genhealth.ai/code/cpt4/23472-arthroplasty-glenohumeral-joint-total-shoulder-glenoid-and-proximal-humeral-replacement-eg-total-shoulder\", \"snippet\": \"HUMANA Shoulder Arthroplasty - <strong>Medicare Advantage</strong> \u00b7 23472 \u00b7 CPT4 \u00b7 S42.143 \u00b7 S42.146 \u00b7 M12.519 \u00b7 S42.141 \u00b7 Automated PA \u00b7 Policy library \u00b7 Get in touch \u00b7 01 \u00b7 Email \u00b7 Questions, demo requests, or context \u2014 we&#x27;ll get back within one business day.\"}, {\"title\": \"CPT Code 23472: Description, Cost, Scenarios, and Rules\", \"url\": \"https://transcure.net/medical-billing/code/cpt/23472/\", \"snippet\": \"CPT code 23472 is a surgical procedure code used to report total shoulder arthroplasty involving <strong>replacement of both the glenoid and the proximal humerus</strong>. It applies when the surgeon removes the damaged joint surfaces and implants a prosthetic ...\"}, {\"title\": \"Total Shoulder Arthroplasty\", \"url\": \"https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp430.pdf?rev=5674f3c704f044b78fabe88489cd73b8&hash=DEC268794C2514770173CB3569AFBF22\", \"snippet\": \"Total Shoulder Arthroplasty \u00b7 <strong>MEDICAL POLICY NUMBER: 430</strong>\"}, {\"title\": \"Surgery of the Shoulder \u2013 Community Plan Medical Policy\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/surgery-shoulder-cs.pdf\", \"snippet\": \"CPT Code \u00b7 Description \u00b7 23470 \u00b7 Arthroplasty, glenohumeral joint; hemiarthroplasty \u00b7 23472 \u00b7 <strong>Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal humeral replacement [e.g., total shoulder])</strong> 23473 \u00b7 Revision of total shoulder arthroplasty, including allograft when performed; ...\"}, {\"title\": \"CPT\u00ae Code 23472 - Repair, Revision, and/or Reconstruction Procedures on the Shoulder - Codify by AAPC\", \"url\": \"https://www.aapc.com/codes/cpt-codes/23472\", \"snippet\": \"Thanks!... [ Read More ] Global Surgery and Anesthesia Professional Charges \u00b7 total shoulder replacement 23472/ASA 01638 <strong>10 units</strong>... [ Read More ] ... [QUOTE=&quot;RebeccaMoney, post: 468723, member: 11362&quot;] I billed the above as 23472 and 20680.\"}, {\"title\": \"CPT 23472 Total Shoulder Arthroplasty Reimbursement | OpenPayer\", \"url\": \"https://www.openpayer.com/billing-codes/cpt-23472-total-shoulder-arthroplasty\", \"snippet\": \"CPT code 23472 describes a total shoulder arthroplasty in which <strong>the provider replaces the damaged head of the humerus and the glenoid cavity with prosthetic implants</strong>.\"}, {\"title\": \"Shoulder Replacement Surgery (Arthroplasty)\", \"url\": \"https://www.aapc.com/codes/webroot/upload/general_pages_docs/document/Shoulder_Replacement_Surgery_Arthroplasty.pdf\", \"snippet\": \"CPT\u00ae Code \u00b7 Description \u00b7 23470 \u00b7 Arthroplasty, glenohumeral joint; hemiarthroplasty \u00b7 23472 \u00b7 <strong>Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal</strong> \u00b7 humeral replacement (e.g., total shoulder) 23473 \u00b7 Revision of total shoulder arthroplasty, including allograft when \u00b7\"}, {\"title\": \"MEDICAL POLICY \u2013 7.01.590 Shoulder Arthroplasty BCBSA Ref. Policy: N/A\", \"url\": \"https://www.premera.com/medicalpolicies-individual/7.01.590.pdf\", \"snippet\": \"CPT \u00b7 23470 \u00b7 Arthroplasty, glenohumeral joint; hemiarthroplasty \u00b7 23472 \u00b7 <strong>Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal humeral</strong> \u00b7 replacement [e.g., total shoulder]) 23473 \u00b7 Revision of total shoulder arthroplasty, including allograft when performed; humeral or \u00b7\"}, {\"title\": \"Shoulder Arthroplasty (Total, Partial, Reverse)\", \"url\": \"https://www.excellusbcbs.com/documents/d/global/exc-prv-shoulder-arthroplasty-total-partial-reverse-\", \"snippet\": \"CPT Codes \u00b7 Code \u00b7 Description \u00b7 23470 \u00b7 Arthroplasty, glenohumeral joint; hemiarthroplasty \u00b7 23472 \u00b7 <strong>Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal humeral \u00b7 replacement [e.g., total shoulder])</strong> Medical Policy: SHOULDER ARTHROPLASTY (TOTAL, PARTIAL AND REVERSE) ...\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_qZfTc5WsgSiBh5bE5F7NaWhU",
+   "output": "{\"query\": \"Humana provider medical coverage policy shoulder replacement arthroplasty 23472 PDF\", \"results\": [{\"title\": \"Surgery of the Shoulder \u2013 Commercial and Individual ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-shoulder.pdf\", \"snippet\": \"Arthroplasty, glenohumeral joint; hemiarthroplasty \u00b7 23472 \u00b7 <strong>Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal humeral replacement (e.g., total shoulder)</strong> 23473 \u00b7 Revision of total shoulder arthroplasty, including allograft when performed; humeral or glenoid \u00b7\"}, {\"title\": \"Surgery of the Shoulder \u2013 Community Plan Medical Policy\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/surgery-shoulder-cs.pdf\", \"snippet\": \"Arthroplasty, glenohumeral joint; hemiarthroplasty \u00b7 23472 \u00b7 <strong>Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal humeral replacement [e.g., total shoulder])</strong> 23473 \u00b7 Revision of total shoulder arthroplasty, including allograft when performed; humeral or glenoid \u00b7\"}, {\"title\": \"Medical Coverage Policies\", \"url\": \"https://docushare-web.apps.external.pioneer.humana.com/Marketing/docushare-app?file=4628923\", \"snippet\": \"Medical Coverage Policies \u00b7 Medical coverage policies describe Humana\u2019s evaluation and coverage of medical procedures,\"}, {\"title\": \"Surgery of the Shoulder (for Kentucky Only) Page 1 of 6\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/ky/surgery-shoulder-ky-cs.pdf\", \"snippet\": \"Arthroplasty, glenohumeral joint; hemiarthroplasty \u00b7 23472 \u00b7 <strong>Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal humeral replacement) (e.g., total shoulder)</strong> 23473 \u00b7 Revision of total shoulder arthroplasty, including allograft when performed; humeral or glenoid \u00b7\"}, {\"title\": \"Surgery of the Shoulder (for Pennsylvania Only) Page 1 of 6\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/pa/surgery-shoulder-pa-cs.pdf\", \"snippet\": \"Arthroplasty, glenohumeral joint; hemiarthroplasty \u00b7 23472 \u00b7 Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal humeral replacement (e.g., total shoulder)) Related Policy \u00b7 \u2022 \u00b7 Skin and Soft Tissue Substitutes (for \u00b7 Pennsylvania Only) Surgery of the Shoulder (for Pennsylvania Only) Page 2 of 6 \u00b7\"}, {\"title\": \"Surgery of the Shoulder (for New Jersey Only) Page 1 of 6\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/nj/surgery-shoulder-nj-cs.pdf\", \"snippet\": \"Arthroplasty, glenohumeral joint; hemiarthroplasty \u00b7 23472 \u00b7 <strong>Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal humeral replacement (e.g., total shoulder)</strong> 23473 \u00b7 Revision of total shoulder arthroplasty, including allograft when performed; humeral or glenoid \u00b7\"}, {\"title\": \"CPT 23472 Total Shoulder Arthroplasty Reimbursement | OpenPayer\", \"url\": \"https://www.openpayer.com/billing-codes/cpt-23472-total-shoulder-arthroplasty\", \"snippet\": \"CPT code 23472 <strong>describes a total shoulder arthroplasty in which the provider replaces the damaged head of the humerus and the glenoid cavity with prosthetic implants</strong>.\"}, {\"title\": \"Medical and Pharmacy Coverage Policies\", \"url\": \"https://mcp.humana.com/tad/tad_new/home.aspx?type=provider\", \"snippet\": \"Index\"}, {\"title\": \"Shoulder Replacement Surgery (Arthroplasty)\", \"url\": \"https://www.aapc.com/codes/webroot/upload/general_pages_docs/document/Shoulder_Replacement_Surgery_Arthroplasty.pdf\", \"snippet\": \"Shoulder Replacement Surgery (Arthroplasty): Medical Policy (Effective 09/01/2014) \u00b7 Proprietary Information of UnitedHealthcare. Copyright 2014 United HealthCare Services, Inc\"}, {\"title\": \"MEDICAL POLICY \u2013 7.01.590 Shoulder Arthroplasty BCBSA Ref. Policy: N/A\", \"url\": \"https://www.premera.com/medicalpolicies-individual/7.01.590.pdf\", \"snippet\": \"Arthroplasty, glenohumeral joint; hemiarthroplasty \u00b7 23472 \u00b7 Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal humeral \u00b7 replacement [e.g., total shoulder]) 23473 \u00b7 Revision of total shoulder arthroplasty, including allograft when performed; humeral or \u00b7\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "id": "rs_07b21ccd10a1fc1b016a9b7126432c87d295d25e4345b03ec6",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm3EojPlhTawKZOklelE5AgMWd82RRmc2X4pO467psTjplLspXkpU2o5kPtOqS6taXn5zaocnFtRo1yBhr9zNI-zOWTP7c3qBC7UMwDkSGjYKPXDxwFD7itO92XdFJbG9j-4j0e2If58euHBiLJBNafs6rvzu_7a-zbAJIMjkp2-6U-i1qcoiSsTQaVWnyv6Lyi1j6jY8J-619QOyIVV4a8P9Vo_-XMAAA49K13la2TXtbXNW0CsYk8V6rwgYzg5O7ZE0AqaSuwQPoWXNwFn2yIvGaItbEhrCaniQ324SDd6pzsmah-f0G3WcjJI2FnwNntxqk96nagD_9NQwj4IViYq_6q6s4xzrqIqJDTCVQbdT-DUNj1Y8sDLAevv0orlyU5HTSurf53QiKXd4PAvunBo3SX27xQmHaNzCsufg3CSLMzgjtrs78V8k_on-N1vSfYnkb2AhI3JWWvP3hMb5UDPimTLpfZ7DLrcXpYBiR_nFEyu6GTfzxT20cJ0-79Fa7uW3sHdr7hy6sWpqcGIhpzTQEPW297y5skCPb5ypTincv-Yiy1gJpDQLyxU7yrAzCEoLRIH_FZuC1m4OOlxE6HU7LBVyULHzCO6Hezu1UFixNsmYhimNyzMgFkeTv5LX6RgR5YUzsU1IJBKFYeaQKRebZIrulN3Am5ifY7v7ZJakFjagfO7pMIIiVcnxE7nYEQsHVqV9SjzY_c53lUIeQ4wXPBiTLp0R6bBGgUyAdNgGYPoJgsGqU8pRKP_d1XTQWYFK364qOq8cPR3JsyYzXxM2yMTzn-3W3I4KgLa-csFa99b14yl9LtdlvMD1dFqrx3en_5HX_EibxEcsjsq-oYp7QOYGARc3dK9qNZCG2dOhfi3SiSjIGUzzDIfD1FkArgwb0AIGGvDMzocBagEAezQEF37fHalF6KkFKZP5dS1yT5coo7zraPPwjWl_7_fQvecSGCfDX2ETg7OLCxae34M67Y3b7yjcbwjCG3jz8XlMhC1GYZEjBY0UMRnPgXADhoUXq1zQpI3uosyyvZwMAuShkYF5TAr5AOFGjRzTr-DLlRo5mMoMJRcDsZ_K9dZLpIru-B3cnpXZt0HxjRxeiuMISV-aDKn2W7H8EKNx0fj8rIYw4EFQD0Qhyxn56e72UM7nVvTdunec8V5oSMQ8uZbTq97Ui6OifCOw9_yuL5FryEd4Ayvr-xG6DXwlVxkyZ4mBMz_s7vkQeRmiIpivJpxpBw==",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:mcp.humana.com/tad \\\"Shoulder\\\" arthroplasty Humana policy PDF 23472 commercial individual 2025 2026\",\"count\":10}",
+   "call_id": "call_RRLvdiffDaTMzR3iAHYQ0nhl",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_07b21ccd10a1fc1b016a9b7128a02087d2b377d679d777e84f",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Humana \\\"Shoulder Arthroplasty\\\" medical policy\",\"count\":10}",
+   "call_id": "call_hn8heO8kHxjuWTkFm9GwBK3i",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_07b21ccd10a1fc1b016a9b7128a03087d297f65a95af000b05",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:docushare-web.apps.external.pioneer.humana.com shoulder arthroplasty Humana medical coverage policy\",\"count\":10}",
+   "call_id": "call_MC1Fjva2bugsQWeXgM2ffkkH",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_07b21ccd10a1fc1b016a9b7128a03887d2a1a96b1994b0d377",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Humana appeal commercial member medical appeal submit address Georgia 180 days adverse benefit determination reconsideration\",\"count\":10}",
+   "call_id": "call_QCyXV6onS85BjLGfFMseAYGu",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_07b21ccd10a1fc1b016a9b7128a04087d2939943c0638a0290",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_RRLvdiffDaTMzR3iAHYQ0nhl",
+   "output": "{\"query\": \"site:mcp.humana.com/tad \\\"Shoulder\\\" arthroplasty Humana policy PDF 23472 commercial individual 2025 2026\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_hn8heO8kHxjuWTkFm9GwBK3i",
+   "output": "{\"query\": \"Humana \\\"Shoulder Arthroplasty\\\" medical policy\", \"results\": [{\"title\": \"Humana Hip, Knee and Shoulder Arthroscopic Surgeries Form\", \"url\": \"https://genhealth.ai/policy/humana/29d2b10a-hip-knee-and-shoulder-arthroscopic-surgeries\", \"snippet\": \"For information regarding partial, resurfacing or total arthroplasty of the hip, knee or shoulder, please refer to Hip Arthroplasty, Knee Arthroplasty or Shoulder Arthroplasty Medical Coverage Policies. Humana members may be eligible under the Plan for arthroscopy of the hip when the following ...\"}, {\"title\": \"Humana Medical Policy Updates - March 2024\", \"url\": \"https://policyalerts.com/humana-medical-policy-updates-march-2024/\", \"snippet\": \"Facility Based Sleep Studies \u2013 <strong>Medicare Advantage</strong> \u00b7 Shoulder Arthroplasty \u2013 <strong>Medicare Advantage</strong> \u00b7 Sleep Studies, Adults \u00b7 Code Compendium (Musculoskeletal and Neurologic) \u2013 <strong>Medicare Advantage</strong> \u00b7 Colonoscopy and Colorectal Cancer Screening ...\"}, {\"title\": \"Humana Medical Policy Updates - December 2023\", \"url\": \"https://policyalerts.com/humana-medical-policy-updates-december-2023/\", \"snippet\": \"Hip Arthroplasty \u2013 <strong>Medicare Advantage</strong> \u00b7 Hip, Knee and Shoulder Arthroscopic Surgeries \u2013 <strong>Medicare Advantage</strong> \u00b7 Hospital Services (Long Term Care Hospitals (LTCH) \u2013 <strong>Medicare Advantage</strong> \u00b7 Hospital Services (Long Term Care Hospitals (LTCH), ...\"}, {\"title\": \"Surgery of the Shoulder \u2013 Commercial and Individual ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-shoulder.pdf\", \"snippet\": \"This Medical Policy applies to Individual Exchange benefit plans. ... Surgery of the shoulder is proven and medically necessary in certain circumstances.\"}, {\"title\": \"Comorbidity effects on shoulder arthroplasty costs analysis of a nationwide private payer insurance data set - PMC\", \"url\": \"https://pmc.ncbi.nlm.nih.gov/articles/PMC6386450/\", \"snippet\": \"The purpose of this study was to examine the effect of common medical comorbidities on the initial-day, subsequent 89-day interval period, and 90-day reimbursement costs of shoulder arthroplasty procedures. We conducted a retrospective review of the Humana private payers insurance database ...\"}, {\"title\": \"Shoulder Arthroplasty and Arthrodesis - Medical Clinical Policy Bulletins | Aetna\", \"url\": \"https://www.aetna.com/cpb/medical/data/800_899/0837.html\", \"snippet\": \"This Clinical Policy Bulletin addresses shoulder arthroplasty and arthrodesis. Note: Precertification may be required for select procedures and interventions. Use the CPT code search tool to see if precertification is required. Aetna considers the following procedures medically necessary:\"}, {\"title\": \"Surgery of the Shoulder (for Kentucky Only) Page 1 of 6\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/ky/surgery-shoulder-ky-cs.pdf\", \"snippet\": \"This Medical Policy only applies to the state of Kentucky. ... Surgery of the shoulder is proven and medically necessary in certain circumstances.\"}, {\"title\": \"Total Shoulder Arthroplasty\", \"url\": \"https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp430.pdf?rev=5674f3c704f044b78fabe88489cd73b8&hash=DEC268794C2514770173CB3569AFBF22\", \"snippet\": \"V. <strong>Shoulder arthroplasty removal, replacement or revision is considered not medically</strong> ... The full Company portfolio of current Medical Policies is available online and can be accessed here.\"}, {\"title\": \"MEDICAL POLICY \u2013 7.01.590 Shoulder Arthroplasty BCBSA Ref. Policy: N/A\", \"url\": \"https://www.premera.com/medicalpolicies-individual/7.01.590.pdf\", \"snippet\": \"This policy outlines when shoulder arthroplasty may be considered medically necessary.\"}, {\"title\": \"Preoperative insurance-mandated physical therapy does not prevent the need for shoulder arthroplasty in patients with glenohumeral osteoarthritis - ScienceDirect\", \"url\": \"https://www.sciencedirect.com/science/article/pii/S2666638325001550\", \"snippet\": \"Nonsurgical treatment options for advanced GHOA are limited, and there are currently no high-level studies supporting the use of physical therapy (PT) to treat advanced cases of GHOA. Despite this, there has been an increasing requirement for insurance-mandated PT before shoulder arthroplasty.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_MC1Fjva2bugsQWeXgM2ffkkH",
+   "output": "{\"query\": \"site:docushare-web.apps.external.pioneer.humana.com shoulder arthroplasty Humana medical coverage policy\", \"results\": [{\"title\": \"Medical Coverage Policies\", \"url\": \"https://docushare-web.apps.external.pioneer.humana.com/Marketing/docushare-app?file=4628923\", \"snippet\": \"Medical Coverage Policies \u00b7 Medical coverage policies describe Humana\u2019s evaluation and coverage of medical procedures, devices and laboratory tests. December 2024 Updates \u00b7 Medicare \u00b7 New Policy \u00b7 \u2022 Low Frequency, Non-Contact, Non-Thermal Ultrasound for Wound Care \u00b7\"}, {\"title\": \"Medicare Advantage and Dual Eligible Special ...\", \"url\": \"https://docushare-web.apps.external.pioneer.humana.com/Marketing/docushare-app?file=5435924\", \"snippet\": \"against permissible coverage criteria when determining payment. To ensure appropriate claim payment \u00b7 please include the modifier based on Humana\u2019s Medicare Advantage Payment Policy (CP2023011), found on Humana.com or include medical records with evidence that the member is in an active course \u00b7 of treatment. *New Preauthorization requirement \u00b7 399806ALL0224-B GHHM8R7EN \u00b7 Orthopedic surgeries: hip, knee and \u00b7 shoulder arthroplasty \u00b7\"}, {\"title\": \"Humana\", \"url\": \"https://docushare-web.apps.external.pioneer.humana.com/Marketing/docushare-app?file=5115201\", \"snippet\": \"knee and shoulder \u00b7 arthroplasty \u00b7 23472, 23473, 23474, 27125, 27130, 27132, 27134, 27137, 27138, 27437, 27438, 27440, 27441, 27442, 27443, 27445, 27446, 27447, 27486, 27487 \u00b7 \u2020For MA PFFS-covered patients, if you would like an ACD for this service, please contact HealthHelp.\"}, {\"title\": \"1 Provider Manual For physicians, hospitals and healthcare providers\", \"url\": \"https://docushare-web.apps.external.pioneer.humana.com/Marketing/docushare-app?file=4619199\", \"snippet\": \"policies. The medical coverage policy specific to clinical\"}, {\"title\": \"SUMMARY PLAN DESCRIPTION For the MEDICAL AND PRESCRIPTION DRUG PLAN\", \"url\": \"https://docushare-web.apps.external.pioneer.humana.com/Marketing/docushare-app?file=4659148\", \"snippet\": \"Humana Inc. group plan as well as medical coverage you may elect through\"}, {\"title\": \"Medicare Advantage and Dual Medicare-Medicaid Plans ...\", \"url\": \"https://docushare-web.apps.external.pioneer.humana.com/Marketing/docushare-app?file=5361577\", \"snippet\": \"against permissible coverage criteria when determining payment. To ensure appropriate claim payment \u00b7 please include the modifier based on Humana\u2019s Medicare Advantage Payment Policy (CP2023011),\"}, {\"title\": \"Humana Procedure(s)\", \"url\": \"https://docushare-web.apps.external.pioneer.humana.com/Marketing/docushare-app?file=5420714\", \"snippet\": \"Humana Healthy Horizons\u2122 in Ohio use established criteria guidelines to make medical necessity decisions on a \u00b7 case-by-case basis, based on the information provided on the member\u2019s health status. For the following Upper Prosthetics related CPT and HCPCS code(s), Humana Healthy Horizons\u2122 in Ohio uses the ... Providers may submit authorization request(s) through the provider portal. Providers may access physical and behavioral clinical coverage policies and medical necessity criteria at the\"}, {\"title\": \"Humana Medical Plan, Inc. https://feds.humana.com/\", \"url\": \"https://docushare-web.apps.external.pioneer.humana.com/Marketing/docushare-app?file=5014048\", \"snippet\": \"Preauthorization is required and medical criteria must be met. \u2022 Your coverage for preventive services may be updated throughout the year.\"}, {\"title\": \"Humana Health Plan, Inc. https://feds.humana.com/\", \"url\": \"https://docushare-web.apps.external.pioneer.humana.com/Marketing/docushare-app?file=4548882\", \"snippet\": \"enrollment as long as you keep your FEHB coverage. However, if you choose to enroll in Medicare Part D, you can keep your FEHB coverage and your FEHB plan will\"}, {\"title\": \"1 2024 Provider Manual For physicians, hospitals and healthcare providers\", \"url\": \"https://docushare-web.apps.external.pioneer.humana.com/Marketing/docushare-app?file=5419128\", \"snippet\": \"View Humana\u2019s Medical Coverage Policies.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_QCyXV6onS85BjLGfFMseAYGu",
+   "output": "{\"query\": \"Humana appeal commercial member medical appeal submit address Georgia 180 days adverse benefit determination reconsideration\", \"results\": [{\"title\": \"Exception and Appeals Process Information | Humana\", \"url\": \"https://www.humana.com/member/exceptions-and-appeals\", \"snippet\": \"As a Humana plan member, you have the right to request an appeal, file a grievance, or appoint a representative. Learn more about the process.\"}, {\"title\": \"Reconsiderations and appeals | Provider | Humana\", \"url\": \"https://provider.humana.com/coverage-claims/payment-integrity/reconsiderations-appeals\", \"snippet\": \"Information for physicians, hospitals and other health care providers about medical claim payment reconsiderations and member appeals.\"}, {\"title\": \"Grievances and Appeals/Inquiry Directory\", \"url\": \"https://assets.humana.com/is/content/humana/Information%20for%20Non%20Participating%20Providerspdf\", \"snippet\": \"Reconsideration requests containing the documents listed above should be submitted online via Availity \u00b7 Essentials or mailed to the appropriate P.O. Box. For more information and mailing addresses, please see the \u00b7 following state-specific resources for Medicaid/dual plans: ... This form is required for nonparticipating providers requesting an appeal on their own behalf.\"}, {\"title\": \"Humana Appeal Letter Template & Form Guide 2026 | Muni Health\", \"url\": \"https://muni.health/blog/humana-appeal-letter-template-2026\", \"snippet\": \"Humana appeal timely filing limit: 65 days from denial date for Medicare Advantage (Part C) and Medicare Part D; 180 days for commercial plans. Submit to Humana Grievances and Appeals, <strong>P.O. Box 14546, Lexington, KY 40512-4546</strong>, or online at ...\"}, {\"title\": \"Online Appeal Form | File a Complaint or Request an Appeal | Humana\", \"url\": \"https://resolutions.humana.com/grievances-appeals-forms/member-info\", \"snippet\": \"We&#x27;re sorry but doesn&#x27;t work properly without JavaScript enabled. Please enable it to continue \u00b7 We are on Onboarding\u2026\"}, {\"title\": \"Humana Appeal Form Guide 2026: Which Form to Use and How to Submit | Muni Health\", \"url\": \"https://muni.health/blog/humana-appeal-form-guide-2026\", \"snippet\": \"For Medicare Advantage (Part C) claims, providers must file a reconsideration request within 65 days from the date of the organization determination (denial notice). <strong>Commercial plan appeal deadlines are 180 days from the EOB or denial letter date</strong>.\"}, {\"title\": \"Humana Medical Necessity Letter Template: Complete MA & Commercial Guide 2026 | Muni Health\", \"url\": \"https://muni.health/blog/humana-medical-necessity-letter-template-2026\", \"snippet\": \"To appeal a Humana denial: (1) ... (clinical notes, test results, failed treatment records), (4) Submit via <strong>fax (888-556-2128), mail (P.O.</strong>...\"}, {\"title\": \"Humana Denied Claim? Appeal Steps by Code (2026) | Muni Health\", \"url\": \"https://muni.health/blog/humana-denied-claim-guide-2026\", \"snippet\": \"When Humana denies a claim, start ... or coding (CO-97, CO-16). Each requires a different action path. <strong>Commercial plan appeals are due within 180 days of denial</strong>; Medicare Advantage reconsiderations within 65 days....\"}, {\"title\": \"Appeals, allowable charge review and claims reconsideration\", \"url\": \"https://www.humanamilitary.com/content/humana-military-com/us/en/contact/submissions/appeals-and-reconsideration.html\", \"snippet\": \"The appeal process is only applicable to denials for services determined to be a non-covered benefit, or not medically necessary, and is only accepted from appropriate appealing parties \u00b7 If a provider or a beneficiary has concerns about how a claim processed, an administrative review, also ...\"}, {\"title\": \"Documents and Forms for Humana Members\", \"url\": \"https://www.humana.com/member/documents-and-forms\", \"snippet\": \"A non-contract provider, on his or her own behalf, may request a reconsideration for a denied claim only if the non-contract provider completes a Waiver of Liability statement, which states that the non-contract provider will not bill the enrollee regardless of the outcome of the appeal.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "id": "rs_07b21ccd10a1fc1b016a9b712c0ca087d2b4ca61b9bf437902",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm3EtBvX5HumaKH_0Lm708Ly6fv0esgHPpmlmpGnlNJeleyJJKh3JhJ1XkPoQhUaqR-mA77Pg7jZNCrdSBmwZCaxwEvgy8TgSWptre1jxPnQfnE29ErAY_-Ojs6hCskzwdXAUoE81M9w3R-IdQEVsc_0gSbY7zFgQK4VGoUQXwvq78uItsOCFfiFQGiJzeoj-FjpoDLyMiS302ZLqN8mWwRSFxXLRpPNW0Ok7urpIsxtRbXqk-MtKVwloo97fAIw_Y1INQAOy0OVzvi3d5fYLdKHQ7g4LPuRwKHS1IPwLHBV8gLlG3FN4DArfRQ45hR38ZyTrvpNJvwxHCVb0s5SeFHZO-uaujMX6G1d_pCpO4iRBiGBQkEoI9BfKAug6wSNj9_iT3oOx92V_TPdig7OMxYZh94-FJf80_XZXt0x5iuD560T2yNN5WNWHoVDltz6sEHWuNv1f_CDkRUqFWfYx4mu16EourpjKT2rFNo5AwsYfnpT328VjH8uWac4TwU8w7S0ymF3prMTQAyfBNDM_OD5fj-hIVmw1Pdf-X_8z6qtq8Wi_kkwzYzgaoZa5aqDkOr6SnepJnjQZgs5evsNNXjpPR8uOtGQg3or_dQ0zg5wyjlV3PtwhQHnNOEBbfX5LBi8w0GdHZyisb1zz6BC6RgZmuIPWz0GsrIcbGjJqmM-UOwfoVwueu_n3vIiaqOiIhMTWYFzl0uGWlU_t7PI42syG_Cw1CgIwxUoPZ9cNaGpB49sGaOvaVR3-aewJd5ovwqxzRakHkV3ofpO2fQvVsz5vppSan6LZRU_V_RooV2b493Y9gBGdHJnGfuwvpbKlnEdfnRD_Oz5xyhQ7jbomHVXFFeZvUBxznvTApA9Dobjyq1kghWAoZZhuKiUz67ith5UrZ7q9lVuxJBb3INHvcWhhy1gWFIGCgizFqO_l4KVBBOJrdKNbAWpAf8ZRsj53cmW5YEhAp9r2-82g87YUgViQd03l-bDm4mGtrni5JyBapzjhuh4PS77YSBhSltotk1Uo-u6HivHF5MQaiRFcVUqCA8qAAes07hVQmkE66xoFlOIaM4RTrhHXPNL914rhlJFrXZBig1wmwb37spQoss8ZkesTeZTy2uL9ZJwAch-C3XqCG30vAUOOc_tYxFN4ssP_WKIKKdIy2jYaGx2fHfSf-aTsJzOSq08RQ4Menmx-elOk7jNMpldIT0YK_6VW4bmg2snWWzhKTP78Qgx3szxsDVcVHi9geuJWmpDAQ7grdZwx1nZNLtyLMjGflWiYo7SI-DiuEyqxq7G2bOrPLqVnDg==",
+   "status": null
+  },
+  {
+   "arguments": "{\"url\":\"https://mcp.humana.com/tad/tad_new/home.aspx?type=provider\"}",
+   "call_id": "call_fHJtX8a1gDmHH8EFayW3OE6F",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_07b21ccd10a1fc1b016a9b712d47cc87d296d7389c883ed17e",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://www.humana.com/member/exceptions-and-appeals\"}",
+   "call_id": "call_C8oYaeO4dwwZcy23CHwlW8Pk",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_07b21ccd10a1fc1b016a9b712d47e487d291dc03b173ec10ce",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://provider.humana.com/coverage-claims/payment-integrity/reconsiderations-appeals\"}",
+   "call_id": "call_rLKUhY6CyYP6kKcglWwUij1F",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_07b21ccd10a1fc1b016a9b712d47ec87d2b53a173de1796277",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://docushare-web.apps.external.pioneer.humana.com/Marketing/docushare-app?file=4628923\"}",
+   "call_id": "call_4vLNNyiUsOi0sWDmixFgmo1y",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_07b21ccd10a1fc1b016a9b712d47f887d2ad718451aa5aae3a",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_fHJtX8a1gDmHH8EFayW3OE6F",
+   "output": "{\"url\": \"https://mcp.humana.com/tad/tad_new/home.aspx?type=provider\", \"final_url\": \"https://mcp.humana.com/tad/tad_new/home.aspx?type=provider\", \"http_status\": 200, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Medical and Pharmacy Coverage Policies Medical and Pharmacy Coverage Policies Home Medical and Pharmacy Coverage Policies Home Medical and Pharmacy Coverage Policies The Medicare, Medicaid, Commercial, and Pharmacy Coverage Policies found here describe Humana's evaluation and coverage of medical procedures, devices, and medications. Read the Disclaimer Helpful Links Understanding the Process Humana Preauthorization List CarePlus Preauthorization List Puerto Rico Preauthorization List Medicare Advantage Frequently Asked Questions 1 Search by Keyword or Policy Number Enter a medical condition, medication, term or provider claims code in the search box, then click Search! Find information about: The procedure, medication, or device and its purpose The condition for which the procedure, medication, or device was developed Research based on published reports of clinical studies The safety and effectiveness of the procedure, medication, or device Medical alternatives that may be available 2 Browse Medical Coverage Policies Certain medical services and devices may require clinical review based on the member's medical benefit. Sort Alphabetically Sort by Effective Date Sort by Reviewed Date Or, Sort by First Letter (Click on the Letter Below) A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 3 Browse Pharmacy Coverage Policies Certain medications may require clinical review based on the member's pharmacy or medical benefit. Sort Alphabetically Sort by Effective Date Sort by Reviewed Date Or, Sort by First Letter (Click on the Letter Below) A B C D E F G H I J K L M N O P Q R S T U V W X Y Z For inquires related to Humana Medical Coverage Policy, please submit your questions to the HMCP Inquiries email inbox: HMCPinquiry@humana.com \u00a9 Humana 2025\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_C8oYaeO4dwwZcy23CHwlW8Pk",
+   "output": "{\"url\": \"https://www.humana.com/member/exceptions-and-appeals\", \"final_url\": \"https://www.humana.com/member/exceptions-and-appeals\", \"http_status\": 200, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Exception and Appeals Process Information | Humana Back to Member support resources Home Member support resources Exceptions and appeals Grievances, appeals and exceptions If you\u2019re unhappy with your Humana coverage, or want to make a special request, we want to help. A grievance, appeal or exception gives you the chance to tell us what\u2019s on your mind so we can work to find a solution. All members with Medicare, Medicaid and prescription drug coverage have the right to file these requests. Here\u2019s some information to help you get started with your grievance, appeal or exception. Grievances, appeals and exceptions explained Grievance \u2014A grievance is a complaint about any aspect of your Medicare plan. For example, if you received poor service or you think our plan notices are hard to understand. Appeal \u2014An appeal, or redetermination, is a request for us to reconsider an initial decision you disagree with. Examples include a denial of payment or coverage for a service. Exceptions \u2014Exceptions are a type of coverage determination for prescriptions drugs. These requests may include covering drugs not currently on Humana\u2019s Drug List or waiving certain limits. Who can submit grievances, appeals and exceptions Medicare Part C (Medicare Advantage) \u2014You (member), a person you appoint or your physician. Medicare Part D (Prescription drug coverage) \u2014You (member), a person you appoint, your prescribing doctor or other prescriber. How to submit grievances, appeals and exceptions Online File an appeal or grievance online Mail or fax Download a form, fill it out and send it to the address or fax number on the form: Appeal, Complaint or Grievance Form \u2013 English pdf opens in new window Appeal, Complaint or Grievance Form \u2013 Spanish pdf opens in new window Request for Redetermination of Medicare Prescription Drug Denial Form \u2013 English pdf opens in new window Request for Redetermination of Medicare Prescription Drug Denial Form \u2013 Spanish pdf opens in new window Note: Be sure to submit any required supporting documents (receipts, medical records or a letter from your doctor) with your form. Phone To file an oral grievance, appeal or exception, call the Customer Care number on the back of your Humana member ID card. You can also get help with any questions or problems you have filling out the form, or check the status on a previously filed appeal. If you have a speech or hearing impairment and use a TTY, call 711. Expedited appeals Expedited appeals are only appropriate for services that haven\u2019t yet been rendered and if you and your provider believe that waiting for a standard decision could seriously harm your life, health or ability to regain maximum function. Here are the ways to submit an expedited appeal: Phone \u2014800-867-6601 Fax (Part D only) \u2014Download a Appeal, Complaint and Grievance form pdf opens in new window , fill it out and check the box in the \u201cDoes your appeal need to be expedited?\u201d section. Once complete, fax the form to the number on the form. Mail \u2014Download a copy of the Appeal, Complaint or Grievance Form, fill it out and mail it to: Humana Expedited Appeals Unit P.O. Box 14165 Lexington, KY 40512-4165 Employer plans To file a grievance or appeal for a Humana Employer plan, download a Appeal, Complaint and Grievance form pdf opens in new window , fill it out and mail it to: Humana Grievances and Appeals P.O. Box 14546 Lexington, KY 40512-4546 You can also file an oral grievance or appeal by calling the Customer Care number on your Humana member ID card. Important timeframes for appeals Part C \u2014 You have 65 days from the date of our Noticie of Denial of Medical Coverage (or Payment) to appeal. After we receive the request, Humana will make a decision and send written notice within the following timeframes: Pre-Service Appeal \u201430 Calendar Days Post Service Appeal \u201460 Calendar Days Part D \u2014You have 65 days from the date of our Notice of Denial of Medicare Prescription Drug Coverage to appeal (ask us for a redetermination). After we receive the request, Humana will make a decision and send written notice within 7 calendar days. How to appoint a representative to file for you For Humana to consider an appeal or grievance from someone other than you, we must have a valid authorization. You can appoint anyone as your representative by signing and sending us 1 of the following forms: Medicare Appointment of Authorized Representative Form \u2013 English pdf opens in new window Appointment of Authorized Representative Form \u2013 Spanish pdf opens in new window Commercial Appointment of Authorized Representative Form \u2013 English pdf opens in new window A representative who is appointed by the court or who is acting in accordance with state law also can file a request on your behalf after sending us the appropriate legal representative document. You don't need to complete an Appointment of Authorized Representative form if you provide a valid legal representation document with your request instead. How to appeal a Part D late enrollment penalty from the Centers for Medicare & Medicaid Services (CMS) If you received a Part D late enrollment penalty, you can appeal the decision with CMS if you meet certain conditions. Learn more about a Part D late enrollment penalty reconsideration to see if you qualify, how to appeal this decision and more. Member resources Member resources Member support Member Rights Documents and forms Exceptions and appeals Exceptions and appeals for employer plans Late enrollment penalty reconsideration Manage your health Disaster resources Chronic condition care exclusion list \u00a9 Humana 2026 Y0040_GHHJQFFEN_C Last Updated: 06/25/2025\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_rLKUhY6CyYP6kKcglWwUij1F",
+   "output": "{\"url\": \"https://provider.humana.com/coverage-claims/payment-integrity/reconsiderations-appeals\", \"final_url\": \"https://provider.humana.com/coverage-claims/payment-integrity/reconsiderations-appeals\", \"http_status\": 200, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"thin_200_response:489_text_chars_of_33828_bytes\", \"error\": \"fetch blocked or unreadable: thin_200_response:489_text_chars_of_33828_bytes\", \"text\": \"Reconsiderations and appeals | Provider | Humana Home Coverage Claims Payment Integrity Reconsiderations and appeals for Providers Medicare Advantage plans Commercial plans Medicaid plans Payment integrity & disputes Payment integrity & disputes Payment integrity & disputes Medical record dispute Medical record review Medical record management Prepayment review Postpayment review Medical records requirement Denial for Lack of Medical Records Policy Appeals and grievances Humana \u00a9 2026\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_4vLNNyiUsOi0sWDmixFgmo1y",
+   "output": "{\"url\": \"https://docushare-web.apps.external.pioneer.humana.com/Marketing/docushare-app?file=4628923\", \"final_url\": null, \"http_status\": null, \"content_type\": null, \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": \"DNS resolution failed for host 'docushare-web.apps.external.pioneer.humana.com'\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "id": "rs_07b21ccd10a1fc1b016a9b712f4f2887d2aa6b3d984b2a0700",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm3Ewayzh4uEjYDMkzfKyiqdwqrkxxlhIc99l21ePJH0lsv2LaDkSv5okvcnBcTW-8u7E_IcQZia5xbEGUB-D-FyIsXfXKHfAMavCaz0iM4C1fC0Cq9FVy3jMRGytxjrhCnl3CyCR5zsLna-TpxjjUXGbUMDh0TphZPj4H5VldfdzvkdrphQ5YYwOw4ySq54AGFiIh4Q5Wr33h7R54KUaHGqhW4xYJIxdcE6GtRSgaz1dZ4Wsw-H9ovQ2ZJm7lz4ZVN2t9Xmq0rtZ4JxHpfhWaRdfd0NgJ8lx4auODeMK2IxVJ_6e_HTV91FS0641UQ7w8WtVWy1fcUptpv34L0J3Swc9PtuEXTwhmGSqGXKHmseR8Fzl91XTa3SthEdEI-Izi2jmpyzeJWGKrz73uw_TP3XonMRJgkvCi0hME70oGHrCdBCPyHv3Ri0DSHNmrHol0_1BQXEisCkhfmUTLstlnT8YSn4ESXrpmnBUz4-VF7fhV34wtbQCjQPxJ2PL_7buHv5lX6Avj_XcwlM_-BXKQZesFGIdPa7X__XV0Fs8Xc90uZ3hCuPcGBL7Dz6HxvToWxRa_Y3tFVWYMVY6B8j2r70aDR8yRJfJR972XLTcg_DoSIkom3WSFLNA-fQ_HiIRFAebowXf0VPZufDYziSk5GnXzamqszky3zJx1TVplivXlL8xoRBF4QE6pYRi9ZCw-R1P_0tzQJFXbtEhSQHDoFsnmnQPshzfebJp6d13oCnbx7KoDSr7sb7sLpp0Py6NSNKlhb_82V4wjimnNCf1T1WEmNsRePB0MY_fvD3TPsNILZcjPI5LQNs3xk_SL53o4ZyF00CUN6Vx7dFEHrTFQy4JDucDvcPdzHUSdb-_7_3Pok8K9g2n7qGR6mvYUYxUd9T3XfVU6-Nko-mngz2QnSmgm1jexXgsH6MSYk8hJPbKGn0DatCOv5gDX_NwUmoFlIPN_gd5VG8qDDQBGYZbuAz3zBlleUDOk792ZS8fuS1yanmfH3fKiHd9Pz39o1K702wM0qJBjZmH7OKUIJmMG4DPlaYlKYIfVRS5PkaB1TMJXQk3KHHctAG0f1x7Q2MJj1mWQRCTIWq82cwkZZ3VITDAwXqUk99Xgm_hyKzVXXEXPBIzXNtFQpIwPze0070pqnkcgYOCKM7UZsqLuWAzT49rMwX6BkR-qcEOxDi2Fl-aYcT4SSYlZuLCaTnpPM2lR8FGy0zNmfpXuTHtKX3jgLwhdCIoa_Jh0L3asw_SPNRLuKfoaH6RM88frnFh7i8JDi9sVcpx532K0d5mcuXC4kGVHc5iqWN0xNYxuisA94g-F6Y8wXEyc9IINH9lfHFcjiGuJATQWbvBfHNJpkfb9bXjFA==",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Shoulder Arthroplasty\\\" \\\"Humana\\\" \\\"Medical Coverage Policy\\\" -genhealth\",\"count\":20}",
+   "call_id": "call_09pICFHBLHCReRp1mpU2xZN4",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_07b21ccd10a1fc1b016a9b7130bc6887d28e699d1318674408",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Shoulder Arthroplasty\\\" \\\"Humana\\\" policy number\",\"count\":20}",
+   "call_id": "call_y1MsqwzvpltsYWarmRzuIYaK",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_07b21ccd10a1fc1b016a9b7130bc7887d2b944f4f657c95678",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:humana.com \\\"Shoulder Arthroplasty\\\" \\\"Commercial\\\"\",\"count\":20}",
+   "call_id": "call_yRzpLKvm5iFufcOkN8u14o8C",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_07b21ccd10a1fc1b016a9b7130bc8487d2a17ee6b1aa38388f",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:mcp.humana.com \\\"23472\\\"\",\"count\":20}",
+   "call_id": "call_hNPF12vL15ywdxvc8v8ihpTZ",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_07b21ccd10a1fc1b016a9b7130bc8c87d28789df12d788b567",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_09pICFHBLHCReRp1mpU2xZN4",
+   "output": "{\"query\": \"\\\"Shoulder Arthroplasty\\\" \\\"Humana\\\" \\\"Medical Coverage Policy\\\" -genhealth\", \"results\": [{\"title\": \"Humana Hip, Knee and Shoulder Arthroscopic Surgeries Form\", \"url\": \"https://genhealth.ai/policy/humana/29d2b10a-hip-knee-and-shoulder-arthroscopic-surgeries\", \"snippet\": \"For information regarding partial, resurfacing or total arthroplasty of the hip, knee or shoulder, please refer to Hip Arthroplasty, Knee Arthroplasty or Shoulder Arthroplasty Medical Coverage Policies. Humana members may be eligible under the Plan for arthroscopy of the hip when the following ...\"}], \"result_count\": 1, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_y1MsqwzvpltsYWarmRzuIYaK",
+   "output": "{\"query\": \"\\\"Shoulder Arthroplasty\\\" \\\"Humana\\\" policy number\", \"results\": [{\"title\": \"Humana Hip, Knee and Shoulder Arthroscopic Surgeries Form\", \"url\": \"https://genhealth.ai/policy/humana/29d2b10a-hip-knee-and-shoulder-arthroscopic-surgeries\", \"snippet\": \"Hip, Knee and Shoulder Arthroscopic Surgeries Effective Date: 12/14/2023 Revision Date: 12/14/2023 Review Date: 12/14/2023 Policy Number: <strong>HUM-0540-013</strong> Page: 8 of 24 \u00b7 Humana&#x27;s documents are updated regularly online. When printed, the version of this document becomes uncontrolled.\"}, {\"title\": \"Medicare Advantage and Dual Eligible Special Needs ...\", \"url\": \"https://assets.humana.com/is/content/humana/FINAL_Medicare%20and%20Dual%20Medicare-Medicaid%20Prior%20Authorization%20and%20Notification%20List%20-%2010-1-2025pdf\", \"snippet\": \"shoulder arthroplasty \u00b7 <strong>23472, 23473, 23474, 27125, 27130, 27132, 27134, 27137, 27138, 27437, 27438, 27440, 27441, 27442, 27443, 27445, 27446, 27447, 27486, 27487, C8003</strong> \u00b7 Orthopedic surgeries: hip, knee and \u00b7 shoulder arthroscopy \u00b7\"}, {\"title\": \"Comorbidity effects on shoulder arthroplasty costs analysis of a nationwide private payer insurance data set - PMC\", \"url\": \"https://ncbi.nlm.nih.gov/pmc/articles/PMC6386450\", \"snippet\": \"The purpose of this study was to examine the effect of common medical comorbidities on the initial-day, subsequent 89-day interval period, and 90-day reimbursement costs of shoulder arthroplasty procedures. We conducted a retrospective review of the Humana private payers insurance database claims through the PearlDiver supercomputer (Warsaw, IN, USA).\"}, {\"title\": \"Comorbidity effects on shoulder arthroplasty costs analysis of a nationwide private payer insurance data set - PMC\", \"url\": \"https://pmc.ncbi.nlm.nih.gov/articles/PMC6386450/\", \"snippet\": \"The purpose of this study was to examine the effect of common medical comorbidities on the initial-day, subsequent 89-day interval period, and 90-day reimbursement costs of shoulder arthroplasty procedures. We conducted a retrospective review of the Humana private payers insurance database claims through the PearlDiver supercomputer (Warsaw, IN, USA).\"}], \"result_count\": 4, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_yRzpLKvm5iFufcOkN8u14o8C",
+   "output": "{\"query\": \"site:humana.com \\\"Shoulder Arthroplasty\\\" \\\"Commercial\\\"\", \"results\": [{\"title\": \"Commercial Preauthorization and Notification List\", \"url\": \"https://assets.humana.com/is/content/humana/FINAL_July%202024%20Commercial%20Prior%20Authorization%20and%20Notification%20Listpdf\", \"snippet\": \"shoulder arthroplasty \u00b7 23472, 23473, 23474, 27125, 27130, 27132, 27134, 27137, 27138, 27437, 27438, 27440, 27441, 27442, 27443, 27445, 27446, 27447, 27486, 27487 \u00b7 Orthopedic surgeries: hip, knee and \u00b7 shoulder arthroscopy \u00b7\"}, {\"title\": \"Commercial Preauthorization and Notification List\", \"url\": \"https://docushare-web.apps.external.pioneer.humana.com/Marketing/docushare-app?file=4548271\", \"snippet\": \"and shoulder arthroplasty \u00b7 Managed by Cohere Health \u00b7 nationally in 2022 \u00b7 23472, 23473, 23474, 27125, 27130, 27132, 27134, 27137, 27138, 27437, 27438, 27440, 27441, 27442, 27443, 27445, 27446, 27447, 27486, 27487 \u00b7 Orthopedic surgeries: hip, knee \u00b7 and shoulder arthroscopy \u00b7\"}], \"result_count\": 2, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_hNPF12vL15ywdxvc8v8ihpTZ",
+   "output": "{\"query\": \"site:mcp.humana.com \\\"23472\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "id": "rs_07b21ccd10a1fc1b016a9b7137346487d29156168afb8b0420",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm3E6HakWIU6ldqftafDk4zAwKDy7yCOz4QyfDsHrW4DvHYYhw1ZPXQpUCOOPD3ftFxRIz2H-1jTH-ML_Er9R_qTc0o0vh7sj-rTkPFSEpCkjia8Lz76MOqhHQdX_AH4m4eNesu_JpfeSioa_jGRFAQUGDdI2R5YVeaMX1AuxQ5a2QGe-vWhXB7K77Dq75kmXMPr-X_lAxnpD4gqMz3XHpfbp70H-f4XzboBoMwmYhdApi_fpdIBI1a6IA6jHpgK42SAOrXThdBv49Du1-ZyRFBpwDEv1FCikmEEFtTnKf9UwbF-YfxvEYTX1KL_T9jZimpHrv5xAwnlpOcDSWFrBNpyMwf9Zkawk1ijj5FX92Z58dZPnsygZXkP34fw5oNQre6pmsIwWqepe3avvbAh_iEXa8keKiHr1FM0_jB53apjS9ngEqYklxkUEbBVgukNQm2D8NEF_nCvFIH2PgHmNlUH9EFCN8IUOkz6f8PnH3iRO0gyuSVo2kaOx0UTKvRkzaW4PBKcKNchqWDtSkzW-i7LuQXp4StJ41W5vTpNbJj3Z-QfozZIJZ8EHJhHlRLCTMukeWGfOx6mO1C1BXPcKK3yYNO-hHF6cTVimzIzLNX_76T-bskg2aJReZjjtfdiRyqa4uMT4LXjiMwQxGjuzjUHxCO4mr_1gK0KJn7vXkSLXXIBcaNN6u5WUMUFgxvek27JP8ZRUM6CSvOoYfBiOnTudH0aVWMh_RK81BthRbHjAugg8dcAhINubKRBkTpeUsT30a_0BRldOph7sLxfBJI1S0JcrFQkQds5FP0UR22kCdiqryQCXt1xfPnNTRyT6Mpw1xtyBcDcseBo9AL8uoH0NScUELnrz5bWDfxNueKStXSqfqYFBSV51wNrvXo_NGYFlBuxb-1IHgUhOeMyyFshpqdQoQwMUiZOgVYQn82vDx8OnHPlJnlv-iuxaP_rTPFu6cbw8Pqv0y8EVFLBRNoUv03i-9b9KCnbaYkj1-CnovseO4kcnibaUyOCPawmsg32Jzi2QCxhI-_Bm0DcV2S2rSigeQSXvi2c7UaR7lfbZvkoEo9Ea9278Hni0riiZrxXlfXFtu2tzhdRs06I5WFaHWwa7Cw8x5dOwb5Lty7NIPu95eq-WDT77NaYsAgLD6taumRoe2nmDfZl6rKHO9nbOqf0F0HlV_1SRVuAaEWrlCoRnMmD-rNliZlH0zOa3Z08DOPf47s7ppaZW8eJp3oQRy3loT7UUm2ZBtedLQPhQCHdMqoQH-P0pB6C-OJWXHl0ou3X5UjxL8BSQdRhDaEGhuHGJoGjQZT11-XGKnOD5j_Dcrp33LRC4Gy2vONYFA3-2hU1VfYH3C9ZABDJsxYLYaJpjiGm1eUdQ0MShjvJyIZmQAJFdNyyW2B3tlyGuyYVnhOa6_aIr_Ts8ojBfeU5gbXm-zvXXQJqIiT1bkJSvwzwUeX_HffT89Q43wyNfd6hUeZLKDD8S4dp971sf1mViMZo9v4_YbRw-rMv5IgJ0dd3KB9j5CcIo4HcalX-jvjB7xJud0GnCDIAMJguz3nleOciCjo0xO_s2TJ4Dr2svXKS1Z23zc5sr2vHOlvTzTGaZ3LYuBL15N8Yklct1IdmYoLRJCFvwxUopddQwZvO_xPc_TNJNGzyWN6Iv91TiZmh5H_CAoAblA-DJfUs7QEXKOmYnG_3exOUAbO9nHcNXZ90GyLFLjqMh9lnFpJX7A3s6SFzR8o5C-UqMCGQJc_c_C6rO11KvGRKlXUDgAEQkAkt3ZwzvIwuVgusAv82U8wqTdH-A3a9beDkLa2FzAS73LtaqH-rQE6LxapJkXbfsLKnRexKIIzIZhbsqmwxHvCEtpK82TUsu1DgEtmbiHCu9ey1fYcicqcZKxcY4O-kIXW87qm9ppyLZ7UzudHj2tlcn1mm5jsg6S3tNmiAWxRlBmnnoPHl0Cf-sacq6hCAYkdHSAkMRea4hlSYXK5jwPc4g2Y2Z0INPhXUgmFnz8kuJhwTt34_sShq9eid_bYrIIgkHAAdXPr5eYy6eWodOFrw1",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:humana.com \\\"Humana Grievances and Appeals\\\" \\\"P.O. Box 14546\\\" commercial appeal form PDF\",\"count\":10}",
+   "call_id": "call_ViDBOM3BcaMJvfmfnzDmKoLr",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_07b21ccd10a1fc1b016a9b713a068487d2b090550f8fd2ab8b",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:assets.humana.com \\\"Commercial Appointment of Authorized Representative\\\" appeal complaint grievance form\",\"count\":10}",
+   "call_id": "call_u8myBLcwLhP5Oj3XpikHeYWd",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_07b21ccd10a1fc1b016a9b713a069487d286dad3156a92e8ac",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:humana.com/member \\\"Employer plans\\\" \\\"P.O. Box 14546\\\" appeal\",\"count\":10}",
+   "call_id": "call_PfzTwKY263092ctWZTNoapw4",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_07b21ccd10a1fc1b016a9b713a069887d2a9c9b83f0a243a47",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Georgia Humana commercial appeal pre-service medical necessity fax appeal P.O. Box 14546\",\"count\":10}",
+   "call_id": "call_5ULi5Jxf1oOJvVeJh1uKBfsb",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_07b21ccd10a1fc1b016a9b713a06a087d2aac85ce09b5cac4f",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_ViDBOM3BcaMJvfmfnzDmKoLr",
+   "output": "{\"query\": \"site:humana.com \\\"Humana Grievances and Appeals\\\" \\\"P.O. Box 14546\\\" commercial appeal form PDF\", \"results\": [{\"title\": \"Grievances, appeals and exceptions\", \"url\": \"https://www.humana.com/member/exceptions-and-appeals\", \"snippet\": \"To file an oral grievance, appeal or exception, <strong>call the Customer Care number on the back of your Humana member ID card</strong>. You can also get help with any questions or problems you have filling out the form, or check the status on a previously ...\"}, {\"title\": \"Grievances, appeals and exceptions for Humana Employer plans\", \"url\": \"https://www.humana.com/member/exceptions-and-appeals/drug-exceptions-appeals\", \"snippet\": \"If you&#x27;re unhappy with some aspect of your coverage or need to make a special request, we want to help. Use these procedures to tell us what&#x27;s going on. You can also find detailed information in your plan benefit documents about grievances, appeals, and coverage determinations (including exceptions).\"}, {\"title\": \"Grievances and Appeals | Humana Healthy Horizons in Louisiana Medicaid\", \"url\": \"https://www.humana.com/medicaid/louisiana/support/grievance-or-appeal\", \"snippet\": \"Mailing the form or letter to: Humana Grievances and Appeals Department P.O. Box 14546 Lexington, KY 40512-4546\"}, {\"title\": \"Hospital Corporation of America | Humana\", \"url\": \"https://your.humana.com/hca\", \"snippet\": \"Humana Grievances and Appeals P.O. Box 14546 Lexington, KY 40512-4546\"}, {\"title\": \"Illinois Medicare-Medicaid Grievances and Appeals - Humana\", \"url\": \"https://www.humana.com/medicaid/illinois-gold-plus-integrated/support/grievances-appeals\", \"snippet\": \"You can appeal a decision that we make about your healthcare or share a grievance you have with any aspect of your healthcare.\"}, {\"title\": \"Grievances, appeals and exceptions\", \"url\": \"https://humana.com/individual-and-family-support/guidelines/drug-exceptions-appeals\", \"snippet\": \"To file an oral grievance, appeal or exception, <strong>call the Customer Care number on the back of your Humana member ID card</strong>. You can also get help with any questions or problems you have filling out the form, or check the status on a previously ...\"}, {\"title\": \"Informaci\u00f3n sobre el proceso de excepci\u00f3n y apelaci\u00f3n\", \"url\": \"https://es-www.humana.com/member/exceptions-and-appeals\", \"snippet\": \"Humana Grievances and Appeals P.O. Box 14546 Lexington, KY 40512-4546 Tambi\u00e9n puede presentar una queja formal o apelaci\u00f3n oral llamando al n\u00famero de Atenci\u00f3n al cliente que figura en su tarjeta de identificaci\u00f3n de Humana.\u200b\u200b\"}], \"result_count\": 7, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_u8myBLcwLhP5Oj3XpikHeYWd",
+   "output": "{\"query\": \"site:assets.humana.com \\\"Commercial Appointment of Authorized Representative\\\" appeal complaint grievance form\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_PfzTwKY263092ctWZTNoapw4",
+   "output": "{\"query\": \"site:humana.com/member \\\"Employer plans\\\" \\\"P.O. Box 14546\\\" appeal\", \"results\": [{\"title\": \"Grievances, appeals and exceptions for Humana Employer plans\", \"url\": \"https://www.humana.com/member/exceptions-and-appeals/drug-exceptions-appeals\", \"snippet\": \"<strong>Humana Grievances and Appeals</strong> P.O. Box 14546 Lexington, KY 40512-4546\"}], \"result_count\": 1, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_5ULi5Jxf1oOJvVeJh1uKBfsb",
+   "output": "{\"query\": \"Georgia Humana commercial appeal pre-service medical necessity fax appeal P.O. Box 14546\", \"results\": [{\"title\": \"1 41504ALL0822 GHHKBLLEN Humana claim-payment inquiry resolution guide\", \"url\": \"https://lakelandcare.com/sites/default/files/insurance/Humana%20Claim%20Payment%20Inquiry%20Resolution%20Guide.pdf\", \"snippet\": \"<strong>P.O. Box 14546</strong>\"}, {\"title\": \"Georgia | Parity Registry\", \"url\": \"https://www.parityregistry.org/resources/georgia/\", \"snippet\": \"Click here for Grievance/Appeal Request Form Mail to: Humana Inc. Grievance and Appeal Department PO Box 14546 <strong>Lexington, KY 40512-4546</strong> Medicare Members mail to: Humana Inc.\"}, {\"title\": \"Humana Appeal Letter Template & Form Guide 2026 | Muni Health\", \"url\": \"https://muni.health/blog/humana-appeal-letter-template-2026\", \"snippet\": \"Humana appeal timely filing limit: 65 days from denial date for Medicare Advantage (Part C) and Medicare Part D; 180 days for commercial plans. Submit to <strong>Humana Grievances and Appeals, P.O. Box 14546, Lexington, KY 40512-4546</strong>, or online at ...\"}, {\"title\": \"Medical Claim Appeals Tip Sheet This information covers medical\", \"url\": \"https://www.brainshark.com/brainshark/brainshark.services.player/api/v1.0/Supplement?sid=1236965&sky=2a9af4f889a2417fbd153e74fd954a5f&uid=0&pi=827680144&slide_id=359344090&typ=SUP&supp_id=18005198&fname=Medical+Claim+Appeals+Tip+Sheet.pdf&ftype=Adobe+Acrobat&fsize=197.5KB&ver=527&junoUrl=null&from_attachment_tab=true&is_for_video_slide=false\", \"snippet\": \"\u2013 Humana time frame: 30-60 days from appeal request, unless the member\u2019s <strong>state mandates</strong> otherwise\"}, {\"title\": \"Online Appeal Form | File a Complaint or Request an Appeal | Humana\", \"url\": \"https://resolutions.humana.com/\", \"snippet\": \"We&#x27;re sorry but doesn&#x27;t work properly without JavaScript enabled. Please enable it to continue \u00b7 We are on Onboarding\u2026\"}, {\"title\": \"Exception and Appeals Process Information | Humana\", \"url\": \"https://www.humana.com/member/exceptions-and-appeals\", \"snippet\": \"Humana Grievances and Appeals P.O. Box 14546 <strong>Lexington, KY 40512-4546</strong> You can also file an oral grievance or appeal by calling the Customer Care number on your Humana member ID card.\"}, {\"title\": \"Humana Appeal Form Guide 2026: Which Form to Use and How to Submit | Muni Health\", \"url\": \"https://muni.health/blog/humana-appeal-form-guide-2026\", \"snippet\": \"Clinical appeals (medical necessity, prior auth) require a written narrative with supporting documentation submitted through the portal or by mail to <strong>P.O. Box 14546, Lexington, KY 40512-4546</strong>.\"}, {\"title\": \"3871ALL0718-A 1 Humana claim payment inquiry resolution guide\", \"url\": \"https://members.kyma.org/scripts/4disapi.dll/userfiles/uploads/Humana._FINAL_3871ALL0718_Claim_Inquiry_Guide_(002).pdf\", \"snippet\": \"<strong>P.O. Box 14546</strong>\"}, {\"title\": \"Humana Denied Claim? Appeal Steps by Code (2026) | Muni Health\", \"url\": \"https://muni.health/blog/humana-denied-claim-guide-2026\", \"snippet\": \"Commercial plan appeals are due within 180 days of denial; Medicare Advantage reconsiderations within 65 days. Submit through Resolutions.Humana.com or mail to <strong>Humana Grievances and Appeals, P.O. Box 14546, Lexington, KY 40512-4546</strong>.\"}, {\"title\": \"Appeal or Grievance Form\", \"url\": \"https://assets.humana.com/is/content/humana/G-A_Form_Clean_2024pdf\", \"snippet\": \"Appeal or Grievance Form \u00b7 If you have a complaint or appeal related to your Humana plan or any aspect of your care, we want to hear about it and\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "id": "rs_07b21ccd10a1fc1b016a9b713df01087d299dd067c746cf7e4",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm3E_pA5m7tZW5CNZDTj8mdNPJDBt-8utBZYoLpqlSnayOlfzbh2FwZZw1HCstwu07Keay49WNTubK0wuc74a-IrO7dmUNapPSIEVzWdw8_PW6MjvzsnQ--NLGoZf5v3jZIk66uRWR1ny0yMLpdRWt83fgrbH2E6GJHtAF2Lh0zAdGiHb5sB1asz6H0uRWysNDGcrv7VsK7FS33tJt-Upuobi9OTkt5jDo42XEutnhuzdIOarJQ4v5rclzbmUgQ_j5wV-rXBind0cX7uBhYk053BxAk697cHpIieV4hMSKWIm_a6hjO8KwQ2GBrSt9VG4ik6JIr0oa6O7kUue-93Na7U6T2zdDWbmi3wUO8nXG5FVOELOM_RqAymLF59rERV6dYjTn8HocrGsKkrkC5hh-6wxzWZHA8E3ipsfn7Q65jklszJVW8kVTfqeWPhB9t-8aI0QFi-UCEd1QqxjwP5fpAIFYOIwNKU44l68xDIYc67YEHKEPd6zi_C2hvaE68LsTGNI8r4wv9ARwKzGjePYGoQ4XGRQuRIij_Bn6CmNZQDpjc02IHyvbRoxiZHIuR8wOuuFqSRiRFTqjvKBF9QTl8d6SqJSCXoowPxJeJ1_qmv9UEkIJWFJoGC_bm8MCiZjdweYppdzOfrasTdHeKVZuKRYSb7qR1gTCyN9HGj4z1f7nkoJiDuPAfs9W_AQ0YpjRUJsQ61XsedKLd5aB1u932a2-i_HzryTx7x6UJ5_m5_YL8AQUYGfWx2EZZyuVYOmnHtd-hx8YeukWeN1L8kUDe-8BLDjgyzofe6uQ999-WYt29eOxU5w8tx53DB0zJAiqUi8svSD8ao5h_8S0oIKjsZWEGWtSN_R5yrOOfj4f2JNzdjBf-kyWeeQDLZllKX3ba7StXOTTu6nCa6hoN-1BclgO5sQ5d7DSOA6KG1A9KLVOjtYk69H992jMyhnkqeOcwLK47LzOLbxwuby1rE74fbm59gZBp3cTKInjlF0IlK8lNIc1qmVzpDym1Nk8YjKkms5okpjlj_lsyCOnbbieUT5Ad0PltLU5wjLXcQRLL4dw4St3OUjU9L19Bm_ArlPlp9yrYAgLfqs7TyuKh2IV6rQ9RA6djVCJ0VehR07JEwkXtKzunBofv0j5DCkktBS_082SLpH4a7mK0I1boU6ifDA2GEi0Qi1dWTPJj7vEzOuWlA=",
+   "status": null
+  },
+  {
+   "arguments": "{\"url\":\"https://assets.humana.com/is/content/humana/G-A_Form_Clean_2024pdf\"}",
+   "call_id": "call_LgGGtmzH5a84HKYuxHNGEpSd",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_07b21ccd10a1fc1b016a9b713eccf087d2936408010e796e71",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://www.humana.com/member/exceptions-and-appeals/drug-exceptions-appeals\"}",
+   "call_id": "call_J2dSFZyxsVB2OQfdPWjkcPvW",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_07b21ccd10a1fc1b016a9b713ecd0087d2b3e7afbee3cca07d",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://resolutions.humana.com/grievances-appeals-forms/member-info\"}",
+   "call_id": "call_5k1L6jB5dLWSUWhDdZOJKvb3",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_07b21ccd10a1fc1b016a9b713ecd0887d2a5532520dbea56db",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_LgGGtmzH5a84HKYuxHNGEpSd",
+   "output": "{\"url\": \"https://assets.humana.com/is/content/humana/G-A_Form_Clean_2024pdf\", \"final_url\": \"https://assets.humana.com/is/content/humana/G-A_Form_Clean_2024pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"error\": \"fetch blocked or unreadable: extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_J2dSFZyxsVB2OQfdPWjkcPvW",
+   "output": "{\"url\": \"https://www.humana.com/member/exceptions-and-appeals/drug-exceptions-appeals\", \"final_url\": \"https://www.humana.com/member/exceptions-and-appeals/drug-exceptions-appeals\", \"http_status\": 200, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Exceptions and Appeals for Insurance Through an Employer - Humana Back to Exceptions and appeals Home Member support resources Exceptions and appeals Insurance through an employer Grievances, appeals and exceptions for Humana Employer plans If you're unhappy with some aspect of your coverage or need to make a special request, we want to help. Use these procedures to tell us what's going on. You can also find detailed information in your plan benefit documents about grievances, appeals, and coverage determinations (including exceptions). A coverage determination is advance approval from Humana to cover a drug. Grievances A grievance is a complaint about any aspect of your plan\u2014for example, you have problems with the service you receive, or you believe our notices and other written materials are difficult to understand. See your plan materials for more details about the time frame for filing grievances. When filing a grievance in writing, please provide all relevant documents. Key information that is required includes the following: Your name Your address Your telephone number Your Humana ID number The reason for the grievance We accept oral grievances or appeals if they are required by state law. When a oral grievance is filed you will be required to supply the information listed above and possibly refer to relevant supporting documentation. Once we receive your grievance, we\u2019ll investigate it and inform you of our decision. Appeals An appeal is a request for us to reconsider our initial decision, if you disagree with our decision to deny payment for an item or service. Please note that appeals should be written\u2014however, we will accept oral appeals as required by law. See your plan materials for more details about the time frame for appeals. You can appeal our decision if you think: We're stopping or reducing coverage for an item or service We won't authorize coverage for an item or service we should cover We haven't paid (or fully paid) a bill you believe we should pay We denied an exception on a formulary prescription drug exception request* Once we receive your appeal, we\u2019ll investigate it and inform you of our decision. For questions about the appeal process, please call the Customer Care phone number on your Humana ID card. (*) The formulary exception appeal process may differ from other types of appeals. Please consult your plan document for details on the appeal process and the decision timeframes. Exceptions To ask for a prescription drug standard decision or coverage determination, your doctor must contact Humana Clinical Pharmacy Review (HCPR) at 1-800-555-2546 to ask for approval. HCPR is available Monday \u2013 Friday, 8 a.m. \u2013 8 p.m., local time. Your doctor also can use tools available on Humana.com/Providers. We will notify your doctor once the request has been processed. If you prefer, you can deliver a written request to: Humana Clinical Pharmacy Review (HCPR) ATTN: Coverage Determinations P.O. Box 14601 Lexington, KY 40512 Appoint a representative For Humana to consider an appeal or grievance from someone other than you, we must have a valid authorization. You can appoint anyone as your representative by sending us a signed Humana Appointment of Authorized Representative Form (see link below). A representative who is appointed by the court or who is acting in accordance with state law also can file a request on your behalf after sending us the appropriate legal representative document. You don't need to complete an Appointment of Authorized Representative Form if you provide a valid legal representation document with your request instead. Appointment of Representative Form \u2013 English pdf opens in new window Appointment of Representative Form \u2013 Spanish pdf opens in new window Where to file a Grievance or Appeal Via Mail: Humana Grievances and Appeals P.O. Box 14546 Lexington, KY 40512-4546 Via Phone: To file an oral grievance or appeal, call the Customer Care phone number on your Humana member ID card. Download the Grievance/Appeal Request Form here: Grievance/Appeal Request Form \u2013 English pdf opens in new window Grievance/Appeal Request Form \u2013 Spanish pdf opens in new window Member resources Member resources Member support Member Rights Documents and forms Exceptions and appeals Exceptions and appeals for employer plans Late enrollment penalty reconsideration Manage your health Disaster resources Chronic condition care exclusion list \u00a9 Humana 2026 Last Updated: 06/11/2025\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_5k1L6jB5dLWSUWhDdZOJKvb3",
+   "output": "{\"url\": \"https://resolutions.humana.com/grievances-appeals-forms/member-info\", \"final_url\": \"https://resolutions.humana.com/grievances-appeals-forms/member-info\", \"http_status\": 200, \"content_type\": \"text/html\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"thin_200_response:185_text_chars_of_2896_bytes\", \"error\": \"fetch blocked or unreadable: thin_200_response:185_text_chars_of_2896_bytes\", \"text\": \"Online Appeal Form | File a Complaint or Request an Appeal | Humana We're sorry but doesn't work properly without JavaScript enabled. Please enable it to continue. We are on Onboarding\u2026\", \"text_truncated\": false}"
+  },
+  {
+   "id": "rs_07b21ccd10a1fc1b016a9b71414e0087d294277e411a53a5ea",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm3FE4xEgAcKypZd7L6xNs07lJptR9fQcZGJZTzU_CwCyqU6EyMSg9G_SUMI1oxSCVlRQn13Y1Yeir4LyD49y8VTqRbf8faamnFAVWGUguXAePV5EANWs5d5yLPN1i6jIcNadsvo3Clnj1u48-Ng48uhZLdzRZrSzTaF7mBAVjLbSpLVct8v_TfrVSlIP_n1dcSOzptDS5U0QS8mthziozMynA7QbnKGx8WmX728iKH2sUrsOxjzQ111JaNq6TlMPX1YP2zbEAXbH0OSwpS60smpJqy4P-R4v7L7yKfCNmsdD4hrZr0sfcVmebuyZmwukO3pROS3TWmXS7axRyTayLmb5rIB3lti90mJr90ASKS-VaB4Tb0KXN1I3kZ139oZgjII8fmDCwBt6LQs_uFJRW3TbQsrSViqPy_Urr3JyVALJHg8R-N2vwS0rmag5WCPaCVbIsWq65WEZJ-OkJ6EdyZu7-E2VrlYsEliGfF3b-yhXUBzyh20z6nL5gDzfQld89xSTa3X84iK7rC7a350QjuuAuiwGcDaY3hc07e1_tR1HKZXusNtoLvJX-JSZa7eOlQlbi28gvk7XN_Ff76SPeu6d8_3S6zEfmGqnpjLJZzdeClTVriZwu9psHP2Lwy2HoXFSKiKd4dvObK2MPqimGpThdlogUX-6imhtHIwZe2_ca4uFFNnWC6pqg8G6SPPxMGulDX8QU7dV_44_II7CV1bX78YnEHgQlHNswG70Z_3tqZkNy4typsQViGRrcdknrNmmRN71L3SR82ptHzT2xrjVYtQJ0msnUkSfM0ausE1du2RmdO2_BnDM7U4LAWBJEWjc2OS4xWiNcy4O3NTbLYhzINyxvPuPkBYlNb4unEdYKkuyx9hgRQ-BBQhtEdRPAp2VEtMIOF_QzAOrPfPLkUI3iWHv3IO6aBZlduDHCurrsRpY8geaW6hJxQT66oBYFS1wFPK6ZPsW6dL4ETG6nA8i83SX50hxDxKLiY_aqjz4C-JWtHV7jg-WjhQEVUCIcn1Ri5D1yjHduSvHs3X_MvXSTfo91PNaoYnRyPrypUlZ4E9CBcq1QlJDRNWmtynfn25tUY4U5IZj5b6PFVZO-yVUIwKcmYm313obh0HJ9v4Uh0JNeq6yR5an-WL_rbv3SleLpXDxXwotntQr2-JCryzGVx_UZ8Sj5FuyqkMqA7OCGfgWpaSOMqDuqtGihCVxDo__cNCGHWO3LhwrdvGOfAjXQ5Xwsk53Tw8TV7CVIkS_MvNEVjt247goj434s9V2rVQi8BobRfyvEg2GiNHNemxT7pRDy-ASEruvrb87Hkn8QTXpB7yLrwE7jjnRHiN9-sfoOXlNmEk50hoMY7eHJFq2C5EsCwpWf3XHQunjahKPWsM-fzmhfHC2M9O2na3JVrwvHeNQn4o9M_hr2UxuTaSlh1v8sKxWqeazaVgZoEIe0dWMWw6VD49xR_pLYZ5D4shNPPr-CxpjPdsBveTOlQBQC1hhfdrJN4Mf95XQKEwvrrpaDmPEJASKfbTNhwlLy_ijoRqvpsTfQC5zEI0ggslMFEvVnpdfufLz2uvbUUog7V9UYEnI0AF5H3Yuk4LFwb1TC4LRdtAUf4Ma8swg6G6spR8AZ0VO4y-Zuxf38-7hbmx42P0pza2m-0AN7BXDhbXlGJn4YZbVo3SVCQ644e-qvqofTgOL0rdfcPDoNLrul0iUkhdmI208nLiTZrv2xiEteM0R17F1ylUL4QLplJTZaKiGvGHlZw5D-dkr6ovC2bB6ZKSwE1IBeCHoYFsBiDjdOxv4cWoJnp5_ZTF286mGYMJF7HbLZO4xs4xseUfS4r5l7kYxD-Rt1GhWEmwDosjINf6rbTSSLeqxdDqBPvU87Mk9OJkXQYq3NBlgjVlqDwIzs3S4gA2YdpoXYluD4N4pPJhHgsUsqVuLiBH0lXgGgyrYtjA69DX7WkQcBliZKQpgsOyOq9b0VQe-ik_yiJZ5wQyjqnBi4sT4ak7tfl5LWJ4NJfJlzwoAZsoJr_EWBTDnb1pYsH3kt3appmVXjoqMPT1E6jhzZa0LeVHe_CqvuNH9T66m_lB_AfnNgqN-YwURas9a64_gGaeRkhV-kwAYOQafOpn7TmsHE7NGu-Rq2oLhxLsrdf7_nHJRTY-WgN6SFMwoIWjlII_C5-okSMTgkXOeIJHV8Hv0Av2g_hcpKMGyssoYJAlxUsVr4j6W837R17LUr6TXwrTt74ORHXQ5jiI6QzzNisjPh0br_Qfodo68U_84TAnZqri8Z3PR_lOe0Nx5Zr8zeLaOm9i8AZlpNi_FBpeUDDd9bDfxvh3nlvRxC2Y4Zu8j4iEEmWOLJrOMF-eMVFqsXPu_iVzanY_3EWQm3_U_8yZGpko75ghFnOWRbEl1NqYXSSMrsJg3SsBn_L_bBgD0O_6ii21kmb37GNeQFsbs9UFIRE2ahtInBTdK357at7xBTk7dbQrm6UMFxfx_h3HgqtM0uojWzK5yPaH3QHfpZHxiJFeLrGTlQaDtyI2xzpzU9gLMix4tZJDmLHpltwAmN-lRl_LPCtIeUI-Qa-hmMcrO6Yx1VZy7IeoyIrEWHzQUF9P3FMRl3b5F812S6weUGQbbp97jzhKMa6Yg8dbXR9tvF5l3813l6ihoDmmLhVhu-tDB3NeBrtk=",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"Humana individual and family plan appeal grievance medical denial Georgia 180 days address 14546\",\"count\":10}",
+   "call_id": "call_rdB0SBC6wb0j6ekzLrfAHPI6",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_07b21ccd10a1fc1b016a9b7143fbd487d2b2264f6aa99e85ec",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_rdB0SBC6wb0j6ekzLrfAHPI6",
+   "output": "{\"query\": \"Humana individual and family plan appeal grievance medical denial Georgia 180 days address 14546\", \"results\": [{\"title\": \"Grievances and Appeals/Inquiry Directory\", \"url\": \"https://assets.humana.com/is/content/humana/GA-Inquiry-Directory-2024_Updatepdf\", \"snippet\": \"applicable state law. Please send the appeal to the following address: ... <strong>P.O. Box 14546</strong>\"}, {\"title\": \"Grievances and Appeals Inquiry Directory\", \"url\": \"https://docushare-web.apps.external.pioneer.humana.com/Marketing/docushare-app?file=2859948\", \"snippet\": \"applicable state law. Please send the appeal to the following address: ... <strong>P.O. Box 14546</strong>\"}, {\"title\": \"Grievances, appeals and exceptions\", \"url\": \"https://www.humana.com/member/exceptions-and-appeals\", \"snippet\": \"Humana Grievances and Appeals <strong>P.O. Box 14546 Lexington, KY 40512-4546</strong> You can also file an oral grievance or appeal by calling the Customer Care number on your Humana member ID card.\"}, {\"title\": \"GRIEVANCE/APPEAL REQUEST FORM GF-06_GAR\", \"url\": \"https://docushare-web.apps.external.pioneer.humana.com/Marketing/docushare-app?file=1612299\", \"snippet\": \"<strong>P.O. Box 14546</strong>\"}, {\"title\": \"Online Appeal Form | File a Complaint or Request an Appeal | Humana\", \"url\": \"https://resolutions.humana.com/grievances-appeals-forms/member-info\", \"snippet\": \"We&#x27;re sorry but doesn&#x27;t work properly without JavaScript enabled. Please enable it to continue \u00b7 We are on Onboarding\u2026\"}, {\"title\": \"Humana \u2013 Filing Appeals and Grievances - Support\", \"url\": \"https://support.pangea.us/s/article/Humana-Filing-Appeals-and-Grievances\", \"snippet\": \"<strong>Appeals generally must be filed within 180 days from the date of the denial</strong>.\"}, {\"title\": \"Reconsiderations and appeals | Provider | Humana\", \"url\": \"https://www.humana.com/provider/medical-resources/payment-integrity-and-disputes/reconsiderations-appeals\", \"snippet\": \"Information for physicians, hospitals and other health care providers about medical claim payment reconsiderations and member appeals.\"}, {\"title\": \"Appeal or Grievance Form\", \"url\": \"https://assets.humana.com/is/content/humana/G-A_Form_Clean_2024pdf\", \"snippet\": \"Appeal or Grievance Form \u00b7 If you have a complaint or appeal related to your Humana plan or any aspect of your care, we want to hear about it and\"}, {\"title\": \"Appeal, Complaint or Grievance Form\", \"url\": \"https://assets.humana.com/is/content/humana/GHHJX8LENpdf\", \"snippet\": \"Appeal or Grievance Form \u00b7 If you have a complaint or appeal related to your Humana plan or any aspect of your care, we want to hear about it and\"}, {\"title\": \"Humana Appeal Letter Template & Form Guide 2026 | Muni Health\", \"url\": \"https://muni.health/blog/humana-appeal-letter-template-2026\", \"snippet\": \"Missing deadlines forfeits appeal rights permanently. Provider clinical/administrative appeals, all plan types: Humana Grievances and Appeals, <strong>P.O. Box 14546, Lexington, KY 40512-4546</strong>.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "id": "rs_07b21ccd10a1fc1b016a9b7146417887d2b9af774f827bad92",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm3FO2oMJbfKh673Ebxm93WboIfZ8ccWwW92duU1J-iR1MrOytBSijMghLC8T1VLCkUeN5I4GUespU0w8vS29q30mtn6Vt2ZVlH5oqOHM7deh_hK_7CYzPXi7xwG_dmGE-yrj9nC-uXujFYukSHpeQoc18VlEYCk-U6YXf79g3EsV50VU7HOeXahZQdnMK3aKdjNPVwaA3kllnwGOT_BLMmpeTSFpOhEg_6NJRbLA0_Xk2eJm-EGCXjRdbuUC9d4CRBMLrWBqQlyD25pAx9tatbRTXW1i-Xoznj4AHMAKOCPQT_wGi22vzELi3CXxk1JiYgjO2nwB2Vq-NI9YV1hmm6QV0jXnwGfoG197jjr-YcQlE3TfKc8RhUByPup1d2FCh1KOoCc_ONdBS0alKoneJeaGg3jsooDdAiILt9ITFVdh5VesFyKtTKJlXYK62eXxV9uGi16NemKpGJCcFpRRDwEB9RD_rqLdZCkQ1B2Sdwpc4vP29qWfAgjTK8GcOxYGgjz1pwCAlrLFLCXJPj5VHZD-ztiIK0IBaX3XcISqaSwplQd1t6YibjvMnlGLC3qGpgsWxC4ouCI6kREklBJMdV-SfLTjyMzYDKF0HwzQ5nFQf34b9E1V4H3335vizuq85CJlPcIIYbWarkCvN9n9eD2OW-U6hmN4PO416nOU1prec5dNgdnMJCYEZT2Q1-j6Nd45ZLgMXdg8ccU_jy9cJkWCp8ZKiS-hG-nEAW7Hb_9c68ItStsvVmm1lZfl6sYOfPAxZvqh1mLroHdv3jT5RWg-e9TBFO6UO-OglkSH9mg_e-9tfLm4xJe-_W23rSkt-DC6ZPxOdZpc99EhR-CuGDrQ5KqzpTRrLB6W69LGAZvTK1qbIwlOXqz5cwIKukeC9MRDysewVSuSHG8vzZGtaCs0ENjxUPToZoTPY_rtc07_RJppreDoyx7ryn_w3bW10MpxsIoswQWps0T75OkHcqehPCSaWv0xgtQj3ep8gLy2NCS6V7r9ck0YVn6hsLqdpzlAaEEDGA6cdaShWSI7fgX-JxtbEriRV7FnAvkNOdGO42jqGnWztNnXs1QsNhDTIgPVpOMufMvkRWg1dhCw8PondRL7OjwfszBXIc_lKLs6MJFCRCNgWUKJerF-R684mAU1Bq4_4Sjbm37ttGv3rGBOlH7q9vN3odyARYbPStff7lwRzBzlAOTKoExU7KmCbirYi1nEpfhPmQaCneb8j3iClGucaoRcwfi-QeRFSdnxHiZP56-BeLHQ2U5oAqp8y06BwbbUjUUnDD169jCLg_vIL5bTW4AgzlaT3_bzS7SHi4bs8WchLO77EWysgJsI2KA1DQfHk0OafZ0RqDl5TH3toU5tjUeiXvcWhvj6ZYoHIHaen4-esU8vqyYx8VAeD96Bb60y09XSpsal2QAJynr-CwITpOrZPyb8Cz7m9Mg_IOup_Cz9Skv939esLPiztN88gCu-0AQOo-uhoLYFTPcFPVdz7zwb2rlEJQRLVB2ffv8qtsXdsITBvZVxaoTuMDOlMB-iquvP64GyVT9iaNsQ2Y54ghLfMResO8DjJRnEgSCDKNb3kCK4yrS0NElnniv4ZX83NzoxFL6iujueCP9f7dY9njTVzvfNnKO7oGpv5HMLegLmcnGFvUmDgUJgpoVvAFAJtgwy8jyyB0Bw2LdzFmvkGoekgvdbcmYCBbn8U3lV24iagz5SwKk3Zu7ps0qrWv1NU1IoDMY-g3mKYn_GTro_Sd8b7aaPuSOKPwja2EPZ_eicdgICjDz_s4Bj6g87XwjTlGvSjokE3VtYy4EQWT-OCBaEuSk4nrzHMmn0td7-16jPxcgfjYOtiDmHYp_lkJzSh5T7U4_YR0RRw9Sd5JyqP-cX1orwukzi0UBby76981IL9-b9hUgQXGEwKSh9vyRIFVtSp74278EMa1RXIulrpHgZJqQDbqMvjhsCXBIQsGBGk6WIz1r0xxWP5oD8neFkzthbffhbZGs2z5HSehQru4ZcvhF1Xf_Js_aOL08zgP2HoI8eVmR65hQxoDix2e4tmV48FeQQOyRl0dxRvLQeRXwR6pAY9P7w8HF1SuCnC8RmBzcqhqZV-4fcySWJJQ_oyTLG8RWQ1zqheCazpsdZEydvQNyrsu3FpsTpJwN1_A_onazq3T6qNiXoIcwNSCw7CbKlvGJ-1b3yBW1WXgE51KgRsjzqYajRPHGrsXmpTFR_G3cZdczLduq-1zO78GHithPTYWNg_th-5xmXBeUI0UerFcG_B_wyHtKszb_-sOUgvFoeOhMThfLPxh34qm9ms2O7FL6ecc7h50EqLJqjLe_xeowa8mCVmhmMoBJTjV0wqy2ZIHlSL9f_9IVWxbSVP_NLp0C9h8_LBo4LZJPOLYvDm-ywboDqByROPlMnkl-y7kRPDaUg4LivdG_ERe-H0VPDzHN1onIsLYJ7h4scBIevqqMV2OP-S6qT8rmvywZwIlUO1_SFhISLggVy6z2yoAlT6oZkAf1rcWnpj6-meTrqLot1O2Mz1yvXqQV7-SQP0ef_wvC7N8xtvntc13MMZCTDT8IdixH6rvAtiaN_xF4UFKfH_DgFc4e70wK_Qm3L_EFnUTrUrWDoUWvz",
+   "status": null
+  },
+  {
+   "id": "msg_07b21ccd10a1fc1b016a9b7148e2b487d2923f9383e17b3838",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": \"https://mcp.humana.com/tad/tad_new/home.aspx?type=provider\",\n  \"effective_date\": null,\n  \"criteria_quotes\": [],\n  \"appeal_deadline\": \"2027-02-03, as stated in the denial notice (180 days from the August 7, 2026 notice date).\",\n  \"submission_route\": {\n    \"mail\": \"Humana Grievances and Appeals, P.O. Box 14546, Lexington, KY 40512-4546\",\n    \"phone\": \"Call the Customer Care number on the back of the Humana member ID card for an oral appeal or assistance.\",\n    \"online\": \"Humana's online appeal form is available at https://resolutions.humana.com/grievances-appeals-forms/member-info\",\n    \"form\": \"Humana Appeal or Grievance Form: https://assets.humana.com/is/content/humana/G-A_Form_Clean_2024pdf\",\n    \"supporting_documents\": \"Include the denial notice, reference number POC-47F0C5AA4B-91233, clinical records, imaging, operative recommendation, and documentation addressing medical necessity.\"\n  },\n  \"how_to_obtain_criteria\": \"I could not verify a publicly available Humana commercial/ACA policy document containing the medical-necessity criteria specifically applied to CPT 23472. Humana's public Medical and Pharmacy Coverage Policies portal says that commercial policies can be searched by keyword, policy number, or procedure code, but the specific shoulder-arthroplasty policy was not retrieved. Ask Humana, in writing, for the exact medical policy or clinical-review guideline and version/effective date used for this authorization, the complete medical-necessity criteria applied to CPT 23472, and the case-specific clinical rationale for finding the submitted documentation incomplete. Humana's policy portal lists HMCPinquiry@humana.com for medical-policy inquiries. The treating provider should also request the criteria and the complete clinical-review determination through Humana's provider channels.\",\n  \"confidence\": \"High that the appeal deadline and the general Humana submission routes are supported by the retrieved Humana materials; low-to-moderate regarding the absence of a specific policy because Humana's policy portal is searchable but the applicable policy was not publicly retrievable.\",\n  \"notes\": \"The retrieved Humana materials establish that Humana maintains commercial medical-coverage policies and that its public member instructions identify the Grievances and Appeals mailing address and member-ID-card telephone route. They do not establish the title, policy number, effective date, or medical-necessity wording of the specific policy used for this denial. Therefore, no policy-specific criteria are quoted rather than substituting another payer's shoulder policy.\"\n}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": "final_answer"
+  }
+ ],
+ "stop_reason": "completed",
+ "usage": {
+  "input_tokens": 77380,
+  "output_tokens": 2181
+ },
+ "model": "gpt-5.6-luna",
+ "elapsed_s": 45.9,
+ "run_id": "r-77f1288f8986",
+ "case_id": "poc-47f0c5aa4b"
+}

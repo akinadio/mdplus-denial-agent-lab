@@ -1,0 +1,38 @@
+{
+ "answer": {
+  "policy_found": true,
+  "policy_title": "Cohere Medical Policy - Great Toe Surgical Treatments (Version 3), Avera Health Plans",
+  "policy_number": "",
+  "policy_url": "https://help.coherehealth.com/payer-info/en/articles/13602157-avera-health-plan-commercial-guidelines#great-toe-surgical-treatments-v3",
+  "effective_date": "current, versioned per guideline",
+  "criteria_quotes": [
+   "Failure of conservative management for greater than 3 months, including ALL of the following",
+   "Taping or splinting; OR Toe spacer; OR Toe sleeve; OR Padding",
+   "Oral steroids, topical or oral anti-inflammatory medications, or oral analgesics",
+   "Documentation of near or full skeletal maturity as indicated by first metatarsal physeal closure or near closure",
+   "Documentation of connective tissue or neuromuscular disorders that may affect etiology or severity of the condition (e.g., Cerebral Palsy, Ehlers-Danlos Syndrome, Marfan Syndrome, Osteogenesis Imperfecta, Fibrodysplasia Ossificans Progressiva)",
+   "The procedure is a bunionectomy with osteotomy, and ALL of the following",
+   "Current nicotine user with no product use for 6 weeks; and ANY of the following",
+   "Negative urine (cotinine) lab test within 30 days",
+   "Surgery is urgently required due to documented reason",
+   "No history of nicotine product use within the last 12 months",
+   "No lifetime history of nicotine product use",
+   "The patient has ANY of the following positive findings",
+   "Pain, swelling, or limited range of motion (ROM) at the first metatarsophalangeal (MTP) joint",
+   "Difficulty walking due to pain in the MTP joints",
+   "Non-healing ulceration caused by the bunion",
+   "Malunion or non-union of previous surgery",
+   "Radiographic confirmation with radiologic report (must be weight-bearing radiographs of the foot) of ALL of the following",
+   "HV angle greater than 15\u00b0; OR IM angle greater than 9\u00b0"
+  ],
+  "appeal_deadline": "2027-02-13",
+  "submission_route": "Use the appeal address printed on your denial letter, or call the number on the back of your insurance card and ask where member appeals are filed.",
+  "how_to_obtain_criteria": "",
+  "confidence": "high",
+  "notes": "directory hit; status=VERIFIED"
+ },
+ "source": "policy_directory",
+ "model": "claude-opus-5",
+ "run_id": "r-aba2099977ff",
+ "case_id": "poc-a389519c6d"
+}

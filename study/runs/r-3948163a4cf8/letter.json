@@ -1,0 +1,35 @@
+{
+ "unsourced_requirements_before": 0,
+ "audit": {
+  "audit_raw": null,
+  "audit_parsed": null,
+  "audit_named": null
+ },
+ "unsourced_numeric_before": 0,
+ "unsourced_judged_before": 0,
+ "unsourced_requirements_after": 0,
+ "unsourced_flagged": [],
+ "revised_for_unsourced": 0,
+ "letter_markdown": "**Riley Grant**\n[Street address]\n[City, State ZIP]\n[Phone] | [Email]\n\n[Date]\n\n**Idaho Medicaid \u2014 Appeals**\n[Appeal address printed on my denial letter]\n\n**RE: Appeal of denial of prior authorization \u2014 Neck (cervical) fusion, ACDF, CPT 22551**\n**Member: Riley Grant | Member ID: W510384895**\n**Reference number: POC-E288D08833-89297**\n**Date of denial notice: 2026-08-04**\n**Appeal must be received by: 2027-01-31**\n\n---\n\nDear Appeals Reviewer,\n\nI am appealing the denial of prior authorization for the cervical fusion (ACDF, CPT 22551) requested by my surgeon, Dr. Lindqvist, MD, orthopedic surgery. The notice dated 2026-08-04 states that the request does not meet the plan's criteria for medical necessity and says the decision was made under the plan's applicable medical policy and clinical review criteria. I am asking for that decision to be reconsidered.\n\n**The plan has not given me the criteria it used, so I cannot quote them.**\n\nI want to be straightforward about something. The notice tells me a medical policy and clinical review criteria were applied, but it does not identify that policy by name, and no copy of the criteria was sent to me. Because of that, there is nothing from the plan that I can quote here, and I am not going to guess at what the rules say or repeat thresholds from memory. Nothing in this letter should be read as a quotation of the plan's criteria \u2014 it is my own description of my records.\n\nThe plan holds the criteria it applied to my request. I am asking, in writing, for a copy of the clinical criteria applied to my prior authorization for CPT 22551, along with the name and specialty of the reviewer who made the decision. I am sending a copy of this request to the Idaho Department of Health and Welfare, Division of Medicaid, so that my request for the criteria is on the record. If those criteria contain specific requirements \u2014 a required length of conservative treatment, a required imaging finding, a required exam finding \u2014 I would like to see them stated, so that I can respond to the actual standard rather than to a general conclusion.\n\n**What my records establish.**\n\nHere is what the prior authorization packet documents about my condition:\n\n- **Duration.** I have had 12 months of progressive neck pain, unrelieved by rest.\n- **Supervised physical therapy.** I completed 8 weeks of supervised physical therapy, from 2026-05-17 to 2026-07-12, including cervical traction and postural training \u2014 16 visits completed. This is documented in the physical therapy discharge note.\n- **Medication and injection.** I took NSAIDs for 8 months with inadequate relief. I had a corticosteroid injection on 2026-05-26, which gave me 3 weeks of partial relief.\n- **Imaging.** MRI of the cervical spine on 2026-06-24 showed a C5-C6 disc herniation with severe right foraminal narrowing and C6 nerve root compression.\n- **Symptoms and function.** I have radicular pain and numbness into my right thumb and index finger, with weakness.\n- **Examination.** My exam showed positive provocative testing on the affected side and a neurologic deficit corresponding to the level seen on the MRI.\n- **Surgical candidacy.** I have no active infection and no untreated substance use, my BMI is 29, and I am a non-smoker.\n\nMy surgeon, Dr. Lindqvist, has documented that this procedure is needed. The record shows a nerve root compression on imaging at C5-C6, symptoms and an examination finding that match that exact level, and a year of non-surgical treatment \u2014 therapy, medication, and an injection \u2014 that did not resolve it.\n\n**What I am asking for.**\n\nI ask that the plan overturn the denial and authorize CPT 22551 as requested by Dr. Lindqvist. If the plan maintains the denial, I ask that it provide:\n\n1. The clinical criteria applied to this request, in writing;\n2. A point-by-point explanation of which specific criterion my records do not meet, and what documentation would satisfy it; and\n3. The credentials of the reviewer who made the determination.\n\nI would also like this appeal reviewed by a physician with training in spine surgery or an equivalent specialty. I understand I may also request a state fair hearing, and I am reserving that right.\n\nI am glad to provide anything further that would help \u2014 additional records, the physical therapy discharge note, or the MRI images. My surgeon's office can be reached at [surgeon's office phone]. Please confirm in writing that you have received this appeal.\n\nThank you for taking another look at this.\n\nSincerely,\n\n**Riley Grant**\nMember ID: W510384895\nDate of birth: [date of birth]\n[Signature]\n\ncc: Idaho Department of Health and Welfare, Division of Medicaid\ncc: Lindqvist, MD, Orthopedic Surgery\n\n**Enclosures:** [MRI report dated 2026-06-24]; [physical therapy discharge note covering 2026-05-17 to 2026-07-12]; [office notes from Dr. Lindqvist]; [injection record dated 2026-05-26]; [copy of denial notice dated 2026-08-04]\n\n---\n\n*This letter is not medical or legal advice and does not guarantee that coverage will be approved.*",
+ "model": "claude-opus-5",
+ "sender": "patient",
+ "usage": {
+  "input_tokens": 2697,
+  "output_tokens": 1902
+ },
+ "estimated_cost_usd": 0.1831,
+ "evidence": {
+  "policy_title": "",
+  "policy_url": "",
+  "quotes": [],
+  "unverified": [],
+  "submission_route": "Medicaid is run by your state. Appeal through your state Medicaid agency or your managed-care plan, and you can also ask for a state fair hearing. All of the details are on your denial letter. By phone: the number on the back of your insurance card Deadline: Often just 30 to 90 days \u2014 act quickly and check your letter -- but your denial letter is authoritative. Use the appeal address printed on your denial letter.",
+  "criteria_request": "Most state Medicaid programs publish the rules for HOW a decision must be made but not the medical criteria for a specific surgery - those usually sit with your managed-care plan or its review vendor. Ask your plan in writing for 'the clinical criteria applied to my prior authorization', and copy your state Medicaid agency. Massachusetts, North Carolina and California are the exceptions - they publish real procedure criteria."
+ },
+ "elapsed_s": 24.6,
+ "abstained": true,
+ "route_given": "Most state Medicaid programs publish the rules for HOW a decision must be made but not the medical criteria for a specific surgery - those usually sit with your managed-care plan or its review vendor. Ask your plan in writing for 'the clinical criteria applied to my prior authorization', and copy your state Medicaid agency. Massachusetts, North Carolina and California are the exceptions - they publish real procedure criteria.",
+ "usd": 0.061,
+ "run_id": "r-3948163a4cf8",
+ "case_id": "poc-e288d08833"
+}

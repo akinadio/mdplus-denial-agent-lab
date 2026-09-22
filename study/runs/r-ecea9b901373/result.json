@@ -1,0 +1,25 @@
+{
+ "answer": {
+  "policy_found": true,
+  "policy_title": "MVP Health Care 2025 Annual Notices for Providers (NY)",
+  "policy_number": "",
+  "policy_url": "https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/legal/2025-annual-notices-providers-ny.pdf",
+  "effective_date": "03/2025",
+  "criteria_quotes": [],
+  "appeal_deadline": "2027-02-09",
+  "submission_route": "Use the appeal address printed on your denial letter, or call the number on the back of your insurance card and ask where member appeals are filed.",
+  "how_to_obtain_criteria": "Your plan uses InterQual, which is licensed software rather than a public document. You have a right to it anyway: federal ERISA and ACA appeal rules require the plan to give you, free of charge, the specific rule or criterion relied on for the denial. Ask in writing for 'the InterQual subset, edition, and full criteria text applied to my determination'.",
+  "confidence": "high",
+  "notes": "payer policy public, criteria vendor-held; status=DOCUMENT PUBLIC, CRITERIA VENDOR-HELD"
+ },
+ "source": "policy_directory_vendor_held",
+ "route": {
+  "kind": "request_written",
+  "vendor": "InterQual (Change Healthcare)",
+  "how": "Your plan uses InterQual, which is licensed software rather than a public document. You have a right to it anyway: federal ERISA and ACA appeal rules require the plan to give you, free of charge, the specific rule or criterion relied on for the denial. Ask in writing for 'the InterQual subset, edition, and full criteria text applied to my determination'.",
+  "source": "appeal rights, 29 CFR 2560.503-1"
+ },
+ "model": "claude-opus-5",
+ "run_id": "r-ecea9b901373",
+ "case_id": "poc-5edc35c98d"
+}

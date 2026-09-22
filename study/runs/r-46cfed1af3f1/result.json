@@ -1,0 +1,522 @@
+{
+ "answer": {
+  "policy_found": false,
+  "policy_title": null,
+  "policy_number": null,
+  "policy_url": null,
+  "effective_date": null,
+  "criteria_quotes": [],
+  "appeal_deadline": "2027-02-21 (180 days after the August 25, 2026 notice date)",
+  "submission_route": "The denial notice does not state an appeal mailing address, fax number, portal, or telephone submission method. Contact Fidelis Care using the Member Services number on the member ID card and request the correct route for a commercial/ACA medical-necessity appeal. The provider may also ask Fidelis Care to submit the authorization appeal through its provider portal or utilization-management channel. Include the member name and ID, reference number POC-1ACF427871-17933, the requested CPT code 27446, the denial notice, and supporting clinical and imaging records.",
+  "how_to_obtain_criteria": "Request from Fidelis Care, in writing or through Member Services, the exact medical policy and clinical-review criteria used for this determination, including the policy title, policy/reference number, version or effective date, and the specific criteria and imaging requirements applied to CPT 27446. Ask Fidelis Care to provide the criteria and the clinical rationale used by the reviewer. The provider should also request the criteria through Fidelis Care's utilization-management department when filing the appeal.",
+  "confidence": "High that no payer-specific medical-necessity policy containing the applicable CPT 27446 criteria was located in the public materials retrieved; moderate regarding the submission route because the notice supplied no route and the publicly retrieved Fidelis materials did not provide a verified member-specific commercial appeal address.",
+  "notes": "Fidelis Care publicly lists a 2025 Hip, Knee, and Shoulder Utilization Code Matrix that identifies CPT 27446 as knee arthroplasty/UKA, but the matrix is a code/utilization document and does not contain the medical-necessity criteria for approval. Fidelis Care also publicly describes an MSK program administered through Evolent/National Imaging Associates, but the retrieved material did not establish that a particular publicly available Evolent guideline was the governing policy applied to this member's commercial/ACA determination. The only stated reason in the notice is: \"the imaging findings submitted do not support the medical necessity of the requested procedure.\""
+ },
+ "raw_text": "{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": null,\n  \"effective_date\": null,\n  \"criteria_quotes\": [],\n  \"appeal_deadline\": \"2027-02-21 (180 days after the August 25, 2026 notice date)\",\n  \"submission_route\": \"The denial notice does not state an appeal mailing address, fax number, portal, or telephone submission method. Contact Fidelis Care using the Member Services number on the member ID card and request the correct route for a commercial/ACA medical-necessity appeal. The provider may also ask Fidelis Care to submit the authorization appeal through its provider portal or utilization-management channel. Include the member name and ID, reference number POC-1ACF427871-17933, the requested CPT code 27446, the denial notice, and supporting clinical and imaging records.\",\n  \"how_to_obtain_criteria\": \"Request from Fidelis Care, in writing or through Member Services, the exact medical policy and clinical-review criteria used for this determination, including the policy title, policy/reference number, version or effective date, and the specific criteria and imaging requirements applied to CPT 27446. Ask Fidelis Care to provide the criteria and the clinical rationale used by the reviewer. The provider should also request the criteria through Fidelis Care's utilization-management department when filing the appeal.\",\n  \"confidence\": \"High that no payer-specific medical-necessity policy containing the applicable CPT 27446 criteria was located in the public materials retrieved; moderate regarding the submission route because the notice supplied no route and the publicly retrieved Fidelis materials did not provide a verified member-specific commercial appeal address.\",\n  \"notes\": \"Fidelis Care publicly lists a 2025 Hip, Knee, and Shoulder Utilization Code Matrix that identifies CPT 27446 as knee arthroplasty/UKA, but the matrix is a code/utilization document and does not contain the medical-necessity criteria for approval. Fidelis Care also publicly describes an MSK program administered through Evolent/National Imaging Associates, but the retrieved material did not establish that a particular publicly available Evolent guideline was the governing policy applied to this member's commercial/ACA determination. The only stated reason in the notice is: \\\"the imaging findings submitted do not support the medical necessity of the requested procedure.\\\"\"\n}",
+ "transcript": [
+  {
+   "role": "system",
+   "content": "You are helping a patient respond to a health insurance denial. Answer precisely and only from evidence you actually retrieve. If you cannot find the governing policy, say so plainly rather than naming a document you are unsure of."
+  },
+  {
+   "role": "user",
+   "content": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-25\nMember: Casey Iverson\nMember ID: W207784190\nPlan: Fidelis Care (Commercial/ACA), state of New York\n\nDear Casey,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Partial knee replacement\n    Procedure code (CPT): 27446\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-21).\n\nReference number: POC-1ACF427871-17933\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+  },
+  {
+   "id": "rs_08bba3d6dfd2b8d0016a9b6b17c6a887d2832f95588393466b",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2sZa9M_EudZysGQCS7_BGqB3TKDRN_Aqijk_Aw2oqQ1Zy_THNHqPm54Pqc2iUKu0LPVi5giCWQMFgeEB-o-Pi0Z2cLos9eQFK7Mm5VPnC66Fx0eNzmdYudtoVlrO_QIqYlzry8tQoM3mh9S4QiLbUD9eVZMMMcbFqrttTAI7gzEXuVEqVITfz7BzdR0sx0lW09fGFT7BcwtIIWLJ7tyOlpMe-172BSjG_7jhTtzzuWESgx_f-o7Bh-fpXGdHVyHujA_h5TnZYDl232zkJJ-EHgYi7_-uOAKpT1YiFxw4CrD1raID5cdXDGgxvaLtVst-gZBAKAqONtAGzUyb3XAofiV41la3cqBOIry0OSorDSnEUqBoXhN8xue3WH75a6cQMlMYUSdU46sZDze4MmTDB5FmzfdZE4rhaQ3k4lkD44qCw-Pp20wEjoLywKTLYiTLuUHUDFBBFV5Rft4fmQMeOyl8oj_UlNkEOaMd1SaxdFEr76MTcV62FyJ4ZqDN8Gd9zkBT7W0B9r8JJ2KfjYvLM12UoK6XCJSGbMjXd4xOGbh7hRZxGFmPAuafFEEKFVwlRf5D9zM-9S7IVUPq2oaA6ufQ_VjXiLCrYkHoATgLxqLeveHIkn9o9qsetILNaimQZ8gCJnxLvt5RUC5fdqwIpN5M43HlMiEds39XyIvORG0UiTbpl4V7bDyjgE1SaJqWBualJOuih57-vsWAxnwD6liQfu5ykXzgIwnp3H-zALSXu4QDZxivAownGaFUtJrgYLhTxaIDlruqiTFDsdWYB7fLzrldrP6-30qYUjekuC_bOWch1RIjQTzHNh4NkjrpIvb2qEONJCRDDdyXrvzWsz6gC00l05tTC5HIbrDJ7NWTwgK5AmsApD3flsRbJA4YhEQHwpUuPWOIcohfeZcXF9D_Lzd0GnfJh-SRh2kcl2QlcrPBgj4jrAqDVhYhwSGsdSPdzVHQw0gNl1CkC9W3ZGt_Jf59FdcwVTVtbENQAHjvsru0fDQTSIAmZ5fSI9wHUZKKRzsgeLROXVjvsBkPVYlgXP8Y9ID3tAalso3WA7QZbUHHszWWeXldOruRrFqdfWIPyQKjYy-jzfZSRhvXbIOPaPZ_h1kbVoy27kOWlPWZXQLnHhUMWxyQVyak2CgrBB6UBdexxM91hTauFJEboH1YgZ4diqj7IlrQrZVhScBOwGiSJod2N1sWBbcmLyCHhmcV38pDSklL0zfCKFW891UgWNW6IZ2GWnRTEgiWcuaNB8=",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:fideliscare.org 27446 partial knee arthroplasty medical policy Fidelis Care New York commercial prior authorization criteria PDF 2026-08-25 OR 2025 2026\u200e\",\"count\":10}",
+   "call_id": "call_WExq1vpJKQaxVpV6XWOQ9he8",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08bba3d6dfd2b8d0016a9b6b19b95487d28d0a0dc1f714f17c",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Fidelis Care medical policy knee arthroplasty 27446 partial knee replacement policy number PDF\",\"count\":10}",
+   "call_id": "call_JS9rwUdoeNgRJ5wMhsVAOfDd",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08bba3d6dfd2b8d0016a9b6b19b96487d2900ad715ba08ddac",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:fideliscare.org appeal commercial member appeal address adverse benefit determination 180 days New York\",\"count\":10}",
+   "call_id": "call_jLpylz2P5ojSfMajf0TW9wno",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08bba3d6dfd2b8d0016a9b6b19b96c87d29674d3c5c69f4ee0",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_WExq1vpJKQaxVpV6XWOQ9he8",
+   "output": "{\"query\": \"site:fideliscare.org 27446 partial knee arthroplasty medical policy Fidelis Care New York commercial prior authorization criteria PDF 2026-08-25 OR 2025 2026\u200e\", \"results\": [{\"title\": \"The Essential Plan 1 V25.0-08/01/2025 Essential Plan Authorization Grid\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/AuthorizationGrids/EP-Authorization-Grid-August-2025.pdf\", \"snippet\": \"<strong>required to provide stabilization of an emergent condition</strong>. Fidelis Care does require authorization of\"}, {\"title\": \"1 \u2013 Fidelis Care \u2013 Hip, Knee, and Shoulder Utilization Code Matrix 2025\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/AuthorizationGrids/Musculoskeletal-Surgery-HKS-Matrix-2025.pdf\", \"snippet\": \"1 \u2013 Fidelis Care \u2013 Hip, Knee, and Shoulder Utilization Code Matrix 2025 \u00b7 Utilization Review Matrix 2025\"}, {\"title\": \"Fidelis Care AIP Prior Authorization Metrics Summary Effective 12/31/2025\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/NY_Fidelis_Medicaid_AIP_MetricsSummary.pdf\", \"snippet\": \"Prior Authorization Metrics Summary \u00b7 Effective 12/31/2025\"}, {\"title\": \"The Essential Plan 1 V25.1-01/01/2025 Essential Plan Authorization Grid\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/AuthorizationGrids/EP-Authorization-Grid-January-2025.pdf\", \"snippet\": \"<strong>required to provide stabilization of an emergent condition</strong>. Fidelis Care does require authorization of\"}, {\"title\": \"Clinical Policy: Durable Medical Equipment and Orthotics ...\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/CP.FC.06-DME-Orthotics-and-Prosthetics.pdf\", \"snippet\": \"Clinical Policy: Durable Medical Equipment and Orthotics and Prosthetics Guidelines \u00b7 Reference Number: CP.FC.06\"}, {\"title\": \"Medicare 1 V25.5-10/01/2025 Medicare Authorization Grid\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/AuthorizationGrids/Medicare-Authorization-Grid-October-2025.pdf\", \"snippet\": \"<strong>required to provide stabilization of an emergent condition</strong>. Fidelis Care does require authorization\"}, {\"title\": \"Medicare 1 V25.1-01/01/2025 Medicare Authorization Grid\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/AuthorizationGrids/Medicare-Authorization-Grid-January-2025.pdf\", \"snippet\": \"<strong>required to provide stabilization of an emergent condition</strong>. Fidelis Care does require authorization\"}, {\"title\": \"Metal-Level Authorization Grid January 2025\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/AuthorizationGrids/Metal-Level-Authorization-Grid-January-2025.pdf\", \"snippet\": \"Care\u2019s provider network are not subject to prior authorization review by Fidelis Care.\"}, {\"title\": \"Medicare 1 V25.1-11/01/2025 Medicare Authorization Grid\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/AuthorizationGrids/Medicare-Authorization-Grid-November-2025.pdf\", \"snippet\": \"<strong>required to provide stabilization of an emergent condition</strong>. Fidelis Care does require authorization\"}, {\"title\": \"Written Member Consent Required for Authorization Appeals Effective June 1, 2025 | Fidelis Care\", \"url\": \"https://www.fideliscare.org/provider?id=1168\", \"snippet\": \"Log in to Provider Access Online, access authorization grids, browse manuals and forms, download tip sheets, and learn how to join our Provider Network..\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_JS9rwUdoeNgRJ5wMhsVAOfDd",
+   "output": "{\"query\": \"Fidelis Care medical policy knee arthroplasty 27446 partial knee replacement policy number PDF\", \"results\": [{\"title\": \"Provider Policies | Fidelis Care\", \"url\": \"https://www.fideliscare.org/Provider/Provider-Policies\", \"snippet\": \"Clinical policies and payment policies (PDF) library for Fidelis Care &amp; Centene providers in the NYS Health Insurance payment plans.\"}, {\"title\": \"1 \u2013 Fidelis Care \u2013 Hip, Knee, and Shoulder Utilization Code Matrix 2025\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/AuthorizationGrids/Musculoskeletal-Surgery-HKS-Matrix-2025.pdf\", \"snippet\": \"Knee Arthroplasty (UKA) 27446 \u00b7 <strong>27446, 27438 \u00b7 Knee Manipulation under \u00b7 Anesthesia (MUA) 27570 \u00b7 27570, 29884 \u00b7 3 \u2013 Fidelis Care \u2013 Hip, Knee, and Shoulder Utilization Code Matrix 2025</strong> \u00b7 KNEE SURGERY PROCEDURES \u00b7 Procedure Name \u00b7 Primary \u00b7 CPT \u00b7\"}, {\"title\": \"Knee Replacement Surgery (Arthroplasty), Total and ...\", \"url\": \"https://ldh.la.gov/assets/medicaid/MCPP/11.2.22/558_UHC_surgery_knee.pdf\", \"snippet\": \"Arthroplasty, knee, hinge prosthesis (e.g., Walldius type) 27446 \u00b7 <strong>Arthroplasty, knee, condyle and plateau; medial orOR lateral compartment</strong> \u00b7 27447 \u00b7 Arthroplasty, knee, condyle and plateau; medial andAND lateral compartments \u00b7 with or without patella resurfacing (total knee arthroplasty) ...\"}, {\"title\": \"Surgery of the Knee \u2013 Commercial and Individual ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf\", \"snippet\": \"Arthroplasty, femoral condyles or tibial plateau(s), knee; with debridement and partial synovectomy \u00b7 27446 \u00b7 <strong>Arthroplasty, knee, condyle and plateau; medial or lateral compartment</strong> \u00b7 27447 \u00b7 Arthroplasty, knee, condyle and plateau; medial AND lateral compartments with or without patella \u00b7\"}, {\"title\": \"Clinical Policy: Durable Medical Equipment and Orthotics ...\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/CP.FC.06-DME-Orthotics-and-Prosthetics.pdf\", \"snippet\": \"I. It is the policy of Fidelis Care that durable medical equipment, orthotics, and prosthetics are\"}, {\"title\": \"Manuals, Forms, Policies and Tip Sheets\", \"url\": \"https://www.fideliscare.org/Provider/Provider-Resources/Manuals-Forms-and-Policies\", \"snippet\": \"New York State provider manuals, tip sheets, important forms, and applications (NYS health insurance). Guidance for comprehensive health insurance policy forms.\"}, {\"title\": \"Medicare Clinical Policy Bulletins (CPBs)\", \"url\": \"https://www.fideliscare.org/en-us/WellcareMedicare/Medicare-Resources/Clinical-Policies\", \"snippet\": \"For our NY Medicare members, we provide Medical Clinical Policy Bulletins (CPBs) which detail the services and procedures coded as medically necessary, cosmetic, or experimental.\"}, {\"title\": \"1\u2014 Fidelis Care \u2013 Medicaid \u2013 FAQ Hip, Knee, Shoulder and Spine Surgeries\", \"url\": \"https://www1.radmd.com/sites/default/files/2023-10/Fidelis%20Care%20NJ%20FAQ-MSKSurgHKSLumbCervIPM%2010062023.pdf\", \"snippet\": \"1\u2014 Fidelis Care \u2013 Medicaid \u2013 FAQ Hip, Knee, Shoulder and Spine Surgeries \u00b7 National Imaging Associates, Inc. (NIA)\"}, {\"title\": \"Medicare Medical Policy Total Knee Arthroplasty\", \"url\": \"https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp419.pdf?rev=79a4b369734642d1bb4cf27a009af23d&hash=A241DB405B839A99F354B7866B5A3571\", \"snippet\": \"Some knee arthroplasty procedures ... Service Medicare medical policy (MP395). See Billing Guidelines below. \u2022 \u00b7 <strong>This Medicare medical policy does not apply to unicompartmental knee replacement</strong> (CPT \u00b7 27446), which may be considered medically necessary without review when ...\"}, {\"title\": \"Fidelis Care Musculoskeletal Care Management (MSK) ...\", \"url\": \"https://www1.radmd.com/sites/default/files/2024-04/Fidelis%20Care%20MSK%20QRG%20Evolent%2010.18.23.pdf\", \"snippet\": \"Fidelis Care has entered into an agreement with National Imaging Associates, Inc. (NIA)1, to implement a Musculoskeletal Care Management (MSK) Program. This \u00b7 program includes prior authorization for non-emergent MSK procedures: inpatient and \u00b7 outpatient hip, knee, shoulder, lumbar and cervical spine surgeries.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_jLpylz2P5ojSfMajf0TW9wno",
+   "output": "{\"query\": \"site:fideliscare.org appeal commercial member appeal address adverse benefit determination 180 days New York\", \"results\": [{\"title\": \"Fidelis Care Medicaid Advantage Plus Member Handbook Insert\", \"url\": \"https://www.fideliscare.org/Portals/0/Members/20180501FidelisCareMedicaidAdvantagePlusAppealsAndFairHearingRightsEnglish.pdf?ver=2018-06-22-162855-817\", \"snippet\": \"then have 120 calendar days from the date of the Final Adverse Determination to ask for a \u00b7 Fair Hearing. You may ask for a Fair Hearing from New York State if: \u2022 You are not happy with a decision your local department of social services or the State \u00b7 Department of Health made about your staying or leaving the Medicaid Advantage Plus ... The decision you receive from the Fair Hearing will be final. If you filed a complaint or appeal under Medicare rules, you may not then request a state Fair\"}, {\"title\": \"Fidelis Care New York Provider Manual V15.0-10/12/15 1\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/ProviderManuals/Appendices/2018FidelisCareProviderManualAppendix18FIDAGrievancesandAppeals.pdf?ver=2018-04-+23-151445-553\", \"snippet\": \"<strong>appropriate, reroute grievances to the coverage decision or appeals processes</strong>.\"}, {\"title\": \"Child Health Plus Subscriber Contract\", \"url\": \"https://www.fideliscare.org/Portals/0/Members/2022-Child-Health-Plus-Subscriber-Contract.pdf\", \"snippet\": \"A. Standard Appeal A standard appeal must be filed by you or your representative, either \u00b7 <strong>in writing or by telephone, within 180 calendar days after you receive notice of the \u00b7 adverse determination</strong>.\"}, {\"title\": \"Child Health Plus (CHP) Subscriber Contract (2023)\", \"url\": \"https://www.fideliscare.org/Portals/0/Members/2023-Child-Health-Plus-CHP-Subscriber-Contract.pdf\", \"snippet\": \"A. Standard Appeal A standard appeal must be filed by you or your representative, either \u00b7 <strong>in writing or by telephone, within 180 calendar days after you receive notice of the \u00b7 adverse determination</strong>.\"}, {\"title\": \"Medicare Advantage/Dual Advantage Tip Sheet\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/TipSheets/2020%20Medicare%20Advantage%20Dual%20Advantage%20Tip%20Sheet.pdf\", \"snippet\": \"Clinical appeals must be received within sixty (60) calendar days of the adverse determination and should be mailed to:\"}, {\"title\": \"Resubmission/ Appeal /Reconsideration / Form\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/FormsApplications/Fidelis-Care-Provider-Appeals-Form.pdf\", \"snippet\": \"An appeal is a formal written request to Fidelis Care for reconsideration of a medical, payment, or contractual adverse decision.\"}, {\"title\": \"REMINDER: Mailing Addresses for Appeals, Reconsiderations, and Corrected Claims | Fidelis Care\", \"url\": \"https://www.fideliscare.org/Provider?id=655\", \"snippet\": \"Log in to Provider Access Online, access authorization grids, browse manuals and forms, download tip sheets, and learn how to join our Provider Network..\"}, {\"title\": \"Rights, Appeals, and Disputes\", \"url\": \"https://www.fideliscare.org/WellcareMedicare/Rights-Appeals-Disputes\", \"snippet\": \"Wellcare By Fidelis Care Medicare resource for Member Rights, including, how to file appeals, and how to file disputes.\"}, {\"title\": \"- Medicaid Provider Tip Sheet Fidelis Care Contact Information\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/TipSheets/NY-Medicaid-Provider-Tip-Sheet.pdf\", \"snippet\": \"<strong>Clinical appeals must be received within sixty (60) business days of the adverse determination</strong> and can be submitted:\"}, {\"title\": \"Member Services: 1-800-247-1447, TTY 711, https://www.fideliscare.org\", \"url\": \"https://www.fideliscare.org/Portals/0/Members/Wellcare-By-Fidelis-Care-Medicaid-Advantage-Plus-MAP-Member-Handbook.pdf\", \"snippet\": \"circumstances, which we discuss below, you can request a fast appeal. ... Integrated Coverage Determination Notice to file an appeal.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "id": "rs_08bba3d6dfd2b8d0016a9b6b1d3f8c87d28f289b997b33593e",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2sfUgLp3ZhybxANrYKys_omxa6O5UrOEQUoMLuq1YOdnOMQ6CV5Q4cQSVC6CXp2l1K8XEkRvqsLL6RVq1UR7GMAWJvD_y9kVVYJVVo2FbuMqDMWoYDzvBhKHRQbehMfa0To4EMGdkCV7O2CGMLcAxlMe65Ea4OTsLWa0pWmc_C8s9Wt6wihpZJHqtobUlgjptRJgy_JP2jLYK7honqQPZTaq1bjoMcpYXeOSaZ93LJufq879AtsSyc_wevet_mPNHIoq4teGO1RXShDmZp1ZhRs1VR4iHhTIEHZAZGUlYkf_VdiIRKeTLUMcIcLyKlXJ-nywPsT3NTWmEuBB-Q6kCOWOaDC_xGLf2_57HFMvMbmEUEOx3wA79iH2JUvVCTcU1xkNFGu1y52vGSZN15Q_5H1r91hc1pMU-fY_IB8GPU91meAOrnpXur9y2kBvIF42iLbdEyZHc08r33cG-b3gD6G9roHyRy_-i3PfmXamUfAI3ZbxsmYNTl8PTODGzFnMda_h6CBP64UtDiYZKGS-bf0xVNEKIdUBI438jt38jI5zMhK3tmZYw8A8L4Em2LBLd6SNWMGDOXpTDCKdg-w08uHmP4oLg-VX1PkQFkRLLhWmsjTCLpLUj_C4mDx-U02e3jpQrrvOPx1mN0vgFEDO9v0n_MlpHzSbryRE5xFehG3ZP4qSSLbqBKYhx952cHk6YTAn6CCWtySxmko23MF4n9wmOJHrcJFTFNtYY_YeMp0U0BkRGN6nkvtk_c1PNCrGNZ4th-Qd9XZwYl53J0uH6NSO5JOJapbz4QqayBnvV9_Xx9uirlujq5ybpOZq4x0N5Ulqrphg-kY-AagDYM2jYMSHoMRRZUVj6KyeCGD8d9JtDEsV-u7IY66fTLcF_eUedYt-AE6N-3FdRrK4R9dx_B_i6YIUFgYwjYHGFG1ZM8mChlysZtwZ_czRHc9rUxhrLXdEtW8rB6Nls4sGnTrBkWIro-l4G2bbxPskrBEICjRZJZlKrJOFjU_IMYJuT_tbZQRXaXlRlivoKgKhZZOY0x7hVD5iSIjI4layyzt57J91ytDWVfPgUyPXy22dJrF788XZKq3L8hnsdwcZuywDMnh4ItcvrJc8hpnkmOk2lwRdyzJnSzktpFmutoE98Zepkqp7e5cHs6PQqMDQ0i_ci6jNdxXuNyzXzmo8BDzHEcuBDMEE7BqJwXyw1KgMPaIAf9Xl7sQ3xC99ndTaPd1QUFFXJQnGDiW3AXmOfbDtoiGguc0VYA-xf0GwJRqXS9bj5G7",
+   "status": null
+  },
+  {
+   "arguments": "{\"url\":\"https://www.fideliscare.org/Provider/Provider-Policies\"}",
+   "call_id": "call_8M57ufyPVlBi3JwrQuXDzfRL",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_08bba3d6dfd2b8d0016a9b6b1f1fa487d2bbeda995df4d3439",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://www.fideliscare.org/Portals/0/Providers/AuthorizationGrids/Musculoskeletal-Surgery-HKS-Matrix-2025.pdf\"}",
+   "call_id": "call_f93MGNsEskRg1DJQrgmYQfrC",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_08bba3d6dfd2b8d0016a9b6b1f1fb887d2a9b1bf70235e9cf2",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://www1.radmd.com/sites/default/files/2024-04/Fidelis%20Care%20MSK%20QRG%20Evolent%2010.18.23.pdf\"}",
+   "call_id": "call_Ps3jLiHkUOE6L7px3Buwr56j",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_08bba3d6dfd2b8d0016a9b6b1f1fc087d28a68080c71c7701b",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://www.fideliscare.org/Portals/0/Providers/FormsApplications/Fidelis-Care-Provider-Appeals-Form.pdf\"}",
+   "call_id": "call_yDRNfhXFxjgMAmGdvdlp6AJL",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_08bba3d6dfd2b8d0016a9b6b1f1fc887d2ab9b789545367344",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_8M57ufyPVlBi3JwrQuXDzfRL",
+   "output": "{\"url\": \"https://www.fideliscare.org/Provider/Provider-Policies\", \"final_url\": \"https://www.fideliscare.org/Provider/Provider-Policies\", \"http_status\": 200, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Provider Policies | Fidelis Care m_auth=Z7YlYqA1V505Q-NjOWDiRg>m_preview=env-2>m_cookies_win=x/\\\" height=\\\"0\\\" width=\\\"0\\\" style=\\\"display:none;visibility:hidden\\\"> English (United States) Espa\u00f1ol (Estados Unidos) \u0420\u0443\u0441\u0441\u043a\u0438\u0439 (\u0420\u043e\u0441\u0441\u0438\u044f) \u4e2d\u6587(\u4e2d\u56fd) A A A Login Member Online Portal Log in, register for an account, pay your bill, print ID cards, and more. Provider Access Online Log into your account, view patient information, and more. Search MENU Login Member Online Portal Log in, register for an account, pay your bill, print ID cards, and more. Provider Access Online Log into your account, view patient information, and more. Search Member Login to your account, make a payment, see benefits and more. Members Manage Your Plan Medicaid Managed Care Essential Plan Child Health Plus HealthierLife - HARP Ambetter from Fidelis Care Qualified Health Plans Fidelis Care at Home - MLTC Member Portal Helpful Tools Renew Coverage Find a Doctor Make A Payment Pharmacy Benefit Information Health Resources Member Newsletters Social Care Network Wellcare By Fidelis Care Wellcare Medicare Medicare Resources Prescription Drug Information Wellcare Spendables Over-the-Counter Benefit My Wellcare Rewards Medicare Newsletters Members Providers Login to your account, download forms, view auth grids and more. Providers Provider Resources Authorizations Behavioral Health Manuals, Forms, Policies and Tip Sheets Pharmacy Services Provider News and Bulletins Quality Information About Our Plans Educational Materials Find a Doctor Join Our Provider Network Member Resources Provider Portal Helpful Tools Access and Availability Contact Provider Relations Electronic Transactions MMIS Status Reports Provider Access Online Resources Providers Shop For a Plan See plan benefits, coverage areas, get a quote and more. Shop for a Plan Our Plans Medicaid Managed Care New York Essential Plan Child Health Plus Qualified Health Plans HealthierLife (HARP) Medicaid Advantage Plus Fidelis Care at Home (MLTC) Helpful Tools Over-the-Counter Benefits Mail Order Pharmacy Program Qualifying Life Events Health Insurance Terms Explained Find a Doctor Wellcare By Fidelis Care About Medicare Medicare and Dual Advantage Prescription Drug Information Medication Therapy Management Help Me Find a Plan Shop for a Plan A A A Home Providers Provider Policies | Fidelis Care Provider Policies Library | Helpful Resources Please note that the current policy list is not exhaustive, but rather a collection of policies that providers have expressed an interest in viewing. Amendments, modifications, supplements to these posted policies and/or additional policies may be posted in the near future. If you have any questions regarding these policies, please contact your Provider Relations Representative. Clinical Policies Clinical Documents (A-Z) Clinical Policy: Air Ambulance Reference Number: CP.MP.175 PDF Publish Date: 3/1/2026 Clinical Policy: Allogeneic Hematopoietic Progenitor Cell Therapy Reference Number: CP.MP.249 PDF Publish Date: 6/1/2026 Clinical Policy: Allogeneic Hematopoietic Progenitor Cell Therapy (Medicare) Reference Number: MC.CP.MP.249 PDF Publish Date: 1/1/2026 Clinical Policy: Allogeneic SCT (Adults) Reference Number: CP.FC.31 PDF Publish Date: 4/1/2026 Clinical Policy: Allogeneic SCT (Pediatric) Reference Number: CP.FC.32 PDF Publish Date: 4/1/2026 Clinical Policy: Applied Behavior Analysis Reference Number: FC.CP.BH.104 PDF Publish Date: 2/1/2026 Clinical Policy: Applied Behavioral Analysis Documentation Requirements Reference Number: CP.BH.105 PDF Publish Date: 2/1/2026 Clinical Policy: Autologous SCT (Adults) Reference Number: CP.FC.30 PDF Publish Date: 4/1/2026 Clinical Policy: Autologous SCT (Pediatric) Reference Number: CP.FC.33 PDF Publish Date: 4/1/2026 Clinical Policy: Biofeedback Reference Number: CP.MP.168 PDF Publish Date: 11/1/2025 Clinical Policy: Bariatric Surgery Reference Number: CP.MP.37 PDF Publish Date: 9/1/2025 Clinical Policy: Bone-Anchored Hearing Aid Reference Number: CP.MP.93 PDF Publish Date: 5/1/2026 Clinical Policy: Burn Surgery Reference Number: CP.MP.186 PDF Publish Date: 5/1/2026 Clinical Policy: Carpal Tunnel Syndrome Injections Reference Number: CP.FC.42 PDF Publish Date: 6/1/2026 Clinical Policy: Caudal or Interlaminar ESI Reference Number: CP.MP.164 PDF Publish Date: 5/1/2026 Clinical Policy: Children\u2019s Waiver Home and Community Based Services (HCBS) Reference Number: FC.CP.BH.500 PDF Publish Date: 4/1/2025 Clinical Policy: Clinical Policy Committee Reference Number: CP.CPC.01 PDF Publish Date: 10/1/2025 Clinical Policy: Clinical Policy Web Posting Reference Number: CP.CPC.02 PDF Publish Date: 8/1/2025 Clinical Policy: Clinical Trials Reference Number: CP.MP.94 PDF Publish Date: 5/1/2026 Clinical Policy: Cosmetic and Reconstructive Procedures Reference Number: CP.FC.51 PDF Publish Date: 6/1/2026 Clinical Policy: Denial of Medicaid Non-Covered Benefits Reference Number: CP.FC.01 PDF Publish Date: 6/1/2026 Clinical Policy: Dental Anesthesia and Facility Services Reference Number: CP.FC.02 PDF Publish Date: 6/1/2026 Clinical Policy: Diaphragmatic Phrenic Nerve Stimulation Reference Number: CP.MP.203 PDF Publish Date: 7/1/2025 Clinical Policy: Discography Reference Number: CP.MP.115 PDF Publish Date: 6/1/2026 Clinical Policy: Donor Lymphocyte Infusion Reference Number: CP.MP.101 PDF Publish Date: 2/1/2026 Clinical Policy: Donor Lymphocyte Infusion (Medicare) Reference Number: MC.CP.MP.101 PDF Publish Date: 2/1/2026 Clinical Policy: Drugs of Abuse: Definitive Testing Reference Number: CP.MP.50 PDF Publish Date: 3/1/2025 Clinical Policy: Durable Medical Equipment (DME), Orthotics & Prosthetics Reference Number: CP.FC.06 PDF Publish Date: 6/1/2026 Clinical Policy: Electric Tumor Treating Fields (Optune) Reference Number: CP.MP.145 PDF Publish Date: 10/1/2025 Clinical Policy: Experimental Technologies Reference Number: CP.MP.36 PDF Publish Date: 6/1/2026 Clinical Policy: Facet Joint Interventions Reference Number: CP.FC.18 PDF Publish Date: 12/1/2025 Clinical Policy: Facility-Based Sleep Studies for Obstructive Sleep Apnea Reference Number: MC.CP.MP.248 PDF Publish Date: 1/1/2024 Clinical Policy: Fecal Incontinence Treatments Reference Number: CP.MP.137 PDF Publish Date: 5/1/2026 Clinical Policy: Fertility Preservation Reference Number: CP.FC.15 PDF Publish Date: 1/1/2026 Clinical Policy: Fetal Surgery in Utero for Prenatally Diagnosed Malformations Reference Number: CP.MP.129 PDF Publish Date: 5/1/2026 Clinical Policy: Gastric Electrical Stimulation Reference Number: CP.MP.40 PDF Publish Date: 1/1/2026 Clinical Policy: Genetic Testing Reference Number: CP.FC.49 PDF Publish Date: 6/1/2026 Clinical Policy: Heart-Lung Transplant Reference Number: CP.MP.132 PDF Publish Date: 2/1/2026 Clinical Policy: Home Births Reference Number: CP.FC.21 PDF Publish Date: 6/1/2026 Clinical Policy: Home Health Criteria for Prenatal and Postpartum Nursing Visits & Home Health Aide Services Reference Number: CP.FC.04 PDF Publish Date: 8/1/2026 Clinical Policy: Hyperhidrosis Treatments Reference Number: CP.MP.62 PDF Publish Date: 11/1/2025 Clinical Policy: Implantable Hypoglossal Nerve Stimulation for Obstructive Sleep Apnea Reference Number: CP.MP.180 PDF Publish Date: 1/1/2026 Clinical Policy: Implantable Wireless PAP Monitoring Reference Number: CP.MP.160 PDF Publish Date: 2/1/2026 Clinical Policy: Injections for Morton\u2019s Neuroma Reference Number: CP.FC.26 PDF Publish Date: 11/1/2025 Clinical Policy: Intradiscal Steroid Injections for Pain Management Reference Number: CP.MP.167 PDF Publish Date: 7/1/2025 Clinical Policy: Intestinal and Multivisceral Transplant Reference Number: CP.MP.58 PDF Publish Date: 6/1/2026 Clinical Policy: Keratoplasty Reference Number: CP.VP.36 PDF Publish Date: 11/1/2024 Clinical Policy: Lantidra (donislecel): Allogeneic Pancreatic Islet Cellular Therapy Reference Number: CP.MP.250 PDF Publish Date: 7/1/2025 Clinical Policy: Lantidra (donislecel): Allogeneic Pancreatic Islet Cellular Therapy (Medicare) Reference Number: MC.CP.MP.250 PDF Publish Date: 2/1/2024 Clinical Policy: Laser Therapy for Skin Conditions Reference Number: CP.MP.123 PDF Publish Date: 3/1/2025 Clinical Policy: Liposuction for Lipedema Reference Number: CP.MP.244 PDF Publish Date: 6/1/2026 Clinical Policy: Lung Transplantation Reference Number: CP.MP.57 PDF Publish Date: 2/1/2026 Clinical Policy: Lung Transplantation (Medicare) Reference Number: MC.CP.MP.57 PDF Publish Date: 2/1/2026 Clinical Policy: Lysis of Epidural Lesions Reference Number: CP.MP.116 PDF Publish Date: 4/1/2025 Clinical Policy: Mechanical Stretching Devices Reference Number: CP.MP.144 PDF Publish Date: 10/1/2025 Clinical Policy: Medical Necessity Criteria Reference Number: CP.FC.05 PDF Publish Date: 7/1/2025 Clinical Policy: Multiple Sleep Latency Testing Reference Number: CP.MP.24 PDF Publish Date: 6/1/2026 Clinical Policy: Nasal Valve Repair Investigational Procedures Reference Number: CP.FC.50 PDF Publish Date: 9/1/2025 Clinical Policy: Nerve Blocks for Pain Management Reference Number: CP.MP.170 PDF Publish Date: 2/1/2026 Clinical Policy: Neuropsychological, Psychological, and Developmental Testing Reference Number: FC.BH.301.01 PDF Publish Date: 4/1/2025 Clinical Policy: Nonmyeloablative Allogeneic SCT Reference Number: CP.MP.141 PDF Publish Date: 1/1/2026 Clinical Policy: Non-Quantitative Treatment Limitation Parity Testing (Experimental/Investigational Determinations) Reference Number: CP.FC.48 PDF Publish Date: 1/1/2026 Clinical Policy: Non-Quantitative Treatment Limitation Parity Testing (Medical Necessity Criteria) Reference Number: CP.FC.45 PDF Publish Date: 1/1/2026 Clinical Policy: Orthognathic Surgery Reference Number: CP.MP.202 PDF Publish Date: 11/1/2025 Clinical Policy: Out-of-Network Reference Number: CP.FC.20 PDF Publish Date: 6/1/2026 Clinical Policy: Ovulation Induction and Infertility Reference Number: CP.FC.14 PDF Publish Date: 1/1/2026 Clinical Policy: Pancreas Transplantation Reference Number: CP.MP.102 PDF Publish Date: 1/1/2026 Clinical Policy: Panniculectomy Reference Number: CP.MP.109 PDF Publish Date: 8/1/2025 Clinical Policy: Pasteurized Donor Human Milk Reference Number: CP.FC.36 PDF Publish Date: 4/1/2026 Clinical Policy: Pediatric Heart Transplant Reference Number: CP.MP.138 PDF Publish Date: 8/1/2025 Clinical Policy: Pediatric Kidney Transplant Reference Number: CP.MP.246 PDF Publish Date: 2/1/2025 Clinical Policy: Pediatric Kidney Transplant (Medicare) Reference Number: MC.CP.MP.246 PDF Publish Date: 2/1/2026 Clinical Policy: Pediatric Liver Transplant Reference Number: CP.MP.120 PDF Publish Date: 5/1/2026 Clinical Policy: Pediatric Oral Function Therapy Reference Number: CP.MP.188 PDF Publish Date: 6/1/2026 Clinical Policy: Penile Prosthesis Implantation Reference Number: CP.FC.44 PDF Publish Date: 6/1/2026 Clinical Policy: Polysomnography (PSG) Reference Number: CP.FC.22 PDF Publish Date: 9/1/2025 Clinical Policy: Posterior Tibial Nerve Stimulation for-Voiding Dysfunction Reference Number: CP.MP.133 PDF Publish Date: 7/1/2025 Clinical Policy: Preventive Health and Clinical Practice Guidelines Reference Number: CP.CPC.03 PDF Publish Date: 6/1/2026 Clinical Policy: Sacroiliac Joint Interventions Reference Number: CP.MP.166 PDF Publish Date: 7/1/2025 Clinical Policy: Sclerotherapy for Varicose Veins Reference Number: CP.MP.146 PDF Publish Date: 2/1/2026 Clinical Policy: Selective Dorsal Rhizotomy for Spasticity Reference Number: CP.MP.174 PDF Publish Date: 11/1/2025 Clinical Policy: Services not on Fee Schedule Reference Number: CP.FC.41 PDF Publish Date: 3/1/2026 Clinical Policy: Short Inpatient Hospital Stay (HBX) Reference Number: CP.FC.28 PDF Publish Date: 8/10/2026 Clinical Policy: Sickle Cell Anemia and \u03b2-Thalassemia Cell Transplant Reference Number: CP.MP.108 PDF Publish Date: 8/1/2025 Clinical Policy: Sickle Cell Anemia and \u03b2-Thalassemia Cell Transplant (Medicare) Reference Number: MC.CP.MP.108 PDF Publish Date: 2/1/2024 Clinic\", \"text_truncated\": true}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_f93MGNsEskRg1DJQrgmYQfrC",
+   "output": "{\"url\": \"https://www.fideliscare.org/Portals/0/Providers/AuthorizationGrids/Musculoskeletal-Surgery-HKS-Matrix-2025.pdf\", \"final_url\": \"https://www.fideliscare.org/Portals/0/Providers/AuthorizationGrids/Musculoskeletal-Surgery-HKS-Matrix-2025.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"error\": \"fetch blocked or unreadable: extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_Ps3jLiHkUOE6L7px3Buwr56j",
+   "output": "{\"url\": \"https://www1.radmd.com/sites/default/files/2024-04/Fidelis%20Care%20MSK%20QRG%20Evolent%2010.18.23.pdf\", \"final_url\": \"https://www1.radmd.com/sites/default/files/2024-04/Fidelis%20Care%20MSK%20QRG%20Evolent%2010.18.23.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"error\": \"fetch blocked or unreadable: extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_yDRNfhXFxjgMAmGdvdlp6AJL",
+   "output": "{\"url\": \"https://www.fideliscare.org/Portals/0/Providers/FormsApplications/Fidelis-Care-Provider-Appeals-Form.pdf\", \"final_url\": \"https://www.fideliscare.org/Portals/0/Providers/FormsApplications/Fidelis-Care-Provider-Appeals-Form.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"error\": \"fetch blocked or unreadable: extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "id": "rs_08bba3d6dfd2b8d0016a9b6b2133e487d2a36091bd6a304736",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2sjq6BLs0--qikJanSVGN7wnJygxRgYDaJzzfF--rrn5DBgna9eNfLFIXdM---nnK8nXv6gxReQhFHT45oFncB2i8pfmPLyE0g-u1kplEtFFlUfchSxEGmRH5YNQQ0ugCNkFDg07A9xNX48yacuCLr2BecdIWtByXMknFtbEsMQhrh91zA4EiW9bLrrl4PlhkOIVWjSe0O7wyGeimWxMcR1LjLByauG1ek9a0HTL9Fhe_YUv8XfncB9ELc8oK0O5E1Lw_DCZvt6XuhVfT1lEw-LN38zUrN66DVkOtUtudO9xRLBaZjKAAUlZ_D8ibPFdT1rhLx7jpMtFWvtn7apgHhSOg9nyYWyapHrTwwdMVWCRY5PAhdioKp0Ac9O6fEl5fWohOvXPcFv7tnQLQoNAF7I2tx3Ru7pVRSqABxeJqDhWgWM9CZYV_-hwMmxPx_rof4zwqKvoQpxTxv6yxuAyL46aDvrWdwCaYZdLjKRDRB3k9a5NNq8XM0bE0PfCLrZBNdl09j6a7kqlj4Xl7bxQ62ofrs5hzBI0UHGj7Rya18i3Ds1nL9RW7aICBNraBg2JoNo7NjvN3Ht16q4L1Lk6r0uoqTsmN-UXbwUiDLpIaY-dnCkXl7ajtXRoFBwVonBUDfkLcCQfief-0s19kaLHkSKHaomtWcFGhCrdi_XR5egOF_VGorK1Q25kh26416H1eSl27sgsQR88y_KC1AWucBFqY_VrUxlkh9Ro9-8OhXBxdy5vlFVg5qVZ5ynR_DCUUjrl-pqZAmyu3Im66u9pG2MTcdZHt3bmDNTD-6RRwXYTCC5SeU0EVE5G01lq-cr0-I5NCDMVHTxAPjjuHlUg8ag06ZeovnSJ5f-PSvhv5wsbCJP7zmV8DwksOVDmVepZNmx7IS_eRuh0YX5QipWlRWI-Okw_YgeGKCrMXTnJre9zoaLrHkd4NN1b8mC8X-Ymf1-OOyle69RPOXvCAvNC3Uf9dy6sxFYnmO2qtNLhI4oe7sMWoJkifc6KXvuQRPn-wWadYufCltS-jEf06OuxP7aUPaBZlZ0g5gbOO6XKGjk17Ytfy1q09GGOV0NCEye68QsZXehA6L2o8Vhgq-Ri2ZxTRs92d4Uy4Z3LoiK1lb_cYqNn2ftvm_JfXKd1XlqFqdGX1D6vFmfSSH8SnJ0VcoGp3zNg0mhklzyJzN8xP2Kh4sPCd30VTuwoBlGAfccWLv5de3pFFS-OBR-ra0Fv7TGOoPGy37b_sgBNR4sbVGmvbii_AI_Z6OEUXf99svIXaKwu80cTFolTQl4enOIfyKeKQFyYsI7024jEOcooBFRwkZU2bUQqv7qoq1M27WG8ve71r9iGfbVcsN15yAMAA0-5GGlvkKIpgSO04dE-3EXDjg=",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"Evolent Fidelis Care hip knee shoulder surgery clinical guidelines unicompartmental knee arthroplasty 27446 criteria imaging evidence osteoarthritis PDF NY commercial 2025 2026\u200e\",\"count\":10}",
+   "call_id": "call_ayktbnu2CWVrKO8sP1BVDfnx",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08bba3d6dfd2b8d0016a9b6b235ba487d29da45326b160829c",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:radmd.com Fidelis Care MSK 27446 knee arthroplasty criteria\",\"count\":10}",
+   "call_id": "call_wgVMpM0gWnpTFkC2Kh9kMefJ",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08bba3d6dfd2b8d0016a9b6b235bb087d2b23cba5103001048",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Fidelis Care Qualified Health Plans appeal adverse determination submit appeal address phone 180 calendar days\",\"count\":10}",
+   "call_id": "call_4udK90VuOjde4RYm5ibqfhay",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08bba3d6dfd2b8d0016a9b6b235bb887d2b7fe7052edcf2f02",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Fidelis Care NY individual marketplace subscriber contract appeals adverse determination address 2026 PDF\",\"count\":10}",
+   "call_id": "call_veZHWZHEsSYLtzW26C5tHUD9",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08bba3d6dfd2b8d0016a9b6b235bc087d2b4a043c256af398f",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_ayktbnu2CWVrKO8sP1BVDfnx",
+   "output": "{\"query\": \"Evolent Fidelis Care hip knee shoulder surgery clinical guidelines unicompartmental knee arthroplasty 27446 criteria imaging evidence osteoarthritis PDF NY commercial 2025 2026\u200e\", \"results\": [{\"title\": \"Page 1 of 15 Evolent Clinical Guideline 1763 for Knee Arthroplasty\", \"url\": \"https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/1882_LHCC_Knee_Arthroplasty.pdf\", \"snippet\": \"Unicompartmental knee arthroplasty (UKA) is also called partial replacement, hemiarthroplasty, unicondylar knee, or bicondylar knee arthroplasty. This procedure involves \u00b7 reconstruction of either the medial or lateral weight bearing compartment of the knee and/or \u00b7 patellofemoral joint. Medial UKA is performed more frequently than lateral procedures. ... Evolent Clinical Guidelines do not constitute medical advice.\"}, {\"title\": \"1 \u2013 Fidelis Care \u2013 Hip, Knee, and Shoulder Utilization Code Matrix 2025\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/AuthorizationGrids/Musculoskeletal-Surgery-HKS-Matrix-2025.pdf\", \"snippet\": \"1 \u2013 Fidelis Care \u2013 Hip, Knee, and Shoulder Utilization Code Matrix 2025 \u00b7 Utilization Review Matrix 2025\"}, {\"title\": \".\u2022\u00b7\u00b7\u00b7\u00b7\u00b7\u2022\u2022 evolent Utilization Review Matrix 2026 Fidelis Care NY Joint Surgery\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/AuthorizationGrids/Musculoskeletal-Surgery-HKS-Matrix-2026.pdf\", \"snippet\": \"Utilization Review Matrix 2026 \u00b7 Allowable Billed Groupings\"}, {\"title\": \"National Imaging Associates, Inc.* 2024 Evolent Clinical Guidelines\", \"url\": \"https://www1.radmd.com/sites/default/files/2023-12/2024%20Musculoskeletal%20Surgery%20Guidelines_FINAL_HMSA_Joints.pdf\", \"snippet\": \"Hip resurfacing arthroplasty may be considered medically necessary when ALL of the following ... Arthritis is the most common cause of chronic hip pain and disability. Degenerative, age-related \u00b7 osteoarthritis causes cartilage to wear away and eventually the bones within the joint rub\"}, {\"title\": \"Knee Arthroplasty - Medical Clinical Policy Bulletins | Aetna\", \"url\": \"https://www.aetna.com/cpb/medical/data/600_699/0660.html\", \"snippet\": \"Members with osteoarthritis, traumatic arthritis, or avascular necrosis should have <strong>at least 12 weeks of non-surgical treatment documented in the medical record</strong> (at least 24 weeks for persons with a relative contraindication) - with at least half of the necessary conservative therapy consisting ...\"}, {\"title\": \"1\u2014 Fidelis Care \u2013 Medicaid \u2013 FAQ Hip, Knee, Shoulder and Spine Surgeries\", \"url\": \"https://www1.radmd.com/sites/default/files/2025-03/Fidelis%20Care%20NJ%20FAQ-MSKSurgHKSLumbCervIPM%2010062023%206202024.pdf\", \"snippet\": \"1\u2014 Fidelis Care \u2013 Medicaid \u2013 FAQ Hip, Knee, Shoulder and Spine Surgeries \u00b7 Musculoskeletal Care Management (MSK) Program Hip,\"}, {\"title\": \"Subject: Knee Arthroplasty - Medical Coverage Guideline\", \"url\": \"https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-60&pv=false\", \"snippet\": \"<strong>the prosthesis was shorter in patients with osteoarthritis compared with those with inflammatory arthritis</strong> \u00b7 (10-year prosthesis survival of 90 versus 95 percent, respectively). Unicompartmental knee arthroplasty is\"}, {\"title\": \"Total Knee Arthroplasty | Clinical Review Criteria\", \"url\": \"https://wa-provider.kaiserpermanente.org/static/pdf/hosting/clinical/criteria/pdf/tka.pdf\", \"snippet\": \"A. Total knee and unicompartmental (partial) arthroplasty may be considered medically necessary for \u00b7 degenerative joint disease when ALL of the following are met: 1. <strong>Treatment is needed because of functional disabling pain of at least 3 months duration</strong> which \u00b7 interferes with the ability ...\"}, {\"title\": \"Fidelis Care Musculoskeletal (MSK) Management Program Provider Training\", \"url\": \"https://www1.radmd.com/sites/default/files/2025-03/Fidelis%20Care%20NY%20MSK%20Surgery&IPM%20Provider%20Training%208.7.24-RO.pdf\", \"snippet\": \"Most surgeries require only one authorization request. Evolent provides a list\"}, {\"title\": \"2025 Evolent Clinical Guidelines for Medical Necessity Review\", \"url\": \"https://cms.radmd.com/sites/default/files/2025-01/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf\", \"snippet\": \"Evolent Clinical Guidelines do not constitute medical advice.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_wgVMpM0gWnpTFkC2Kh9kMefJ",
+   "output": "{\"query\": \"site:radmd.com Fidelis Care MSK 27446 knee arthroplasty criteria\", \"results\": [{\"title\": \"Fidelis Care Musculoskeletal Care Management (MSK) ...\", \"url\": \"https://www1.radmd.com/sites/default/files/2024-04/Fidelis%20Care%20MSK%20QRG%20Evolent%2010.18.23.pdf\", \"snippet\": \"Fidelis Care has entered into an agreement with National Imaging Associates, Inc. (NIA)1, to implement a Musculoskeletal Care Management (MSK) Program. This \u00b7 program includes prior authorization for non-emergent MSK procedures: inpatient and \u00b7 outpatient hip, knee, shoulder, lumbar and cervical spine surgeries.\"}, {\"title\": \"Fidelis Care NJ QRG-MSK Ordering ...\", \"url\": \"https://www1.radmd.com/sites/default/files/2023-10/Fidelis%20Care%20NJ%20QRG-MSK%20Ordering%20HKS%2010062023.pdf\", \"snippet\": \"The following procedures are included in the MSK Program for Fidelis Care members: Providers \u00b7 may begin contacting NIA on July 1, 2023, to obtain prior authorization for procedures below ... It is the responsibility of the ordering physician/surgeon and rendering facility to ensure that prior \u00b7 authorization was obtained, when necessary. Payment will be denied for procedures performed \u00b7 without a prior authorization, including the MSK surgery hospital admission, and the member\"}, {\"title\": \"1\u2014 Fidelis Care \u2013 Medicaid \u2013 FAQ Hip, Knee, Shoulder and Spine Surgeries\", \"url\": \"https://www1.radmd.com/sites/default/files/2023-10/Fidelis%20Care%20NJ%20FAQ-MSKSurgHKSLumbCervIPM%2010062023.pdf\", \"snippet\": \"Fidelis Care surgeon must select the most complex and invasive surgery\"}, {\"title\": \"Fidelis Care Musculoskeletal (MSK) Management Program\", \"url\": \"https://www1.radmd.com/sites/default/files/2023-12/Fidelis%20MSK%20Provider%20PPT%2010.26.23.pdf\", \"snippet\": \"NIA has a specialized clinical team focused on MSK. ... Most surgeries require only one authorization request. NIA provides a list of surgery \u00b7 categories to choose from and the surgeon\u2019s office must select the most complex and \u00b7 invasive surgery being performed as the primary surgery. ... Inpatient admissions continue to be subject to concurrent review by Fidelis Care.\"}, {\"title\": \"National Imaging Associates, Inc. (NIA)\", \"url\": \"https://www1.radmd.com/sites/default/files/2023-12/Fidelis%20Care%20MSK%20FAQ%2011.28.23.pdf\", \"snippet\": \"1\u2014 Fidelis Care \u2013 MSK \u2013 Lumbar and Cervical Spine Surgeries \u00b7 National Imaging Associates, Inc. (NIA)* ... Fidelis Care\u2019s contractual relationships. ... Implementation date is January 1, 2024. ... Yes. Any non-emergent hip, knee, shoulder, and spine\"}, {\"title\": \"OK Complete MSK Joint Surgery UM Matrix.docx 1 2024 Utilization Review Matrix\", \"url\": \"https://www1.radmd.com/sites/default/files/2024-04/OK%20Complete%20MSK%20Joint%20Surgery%20UM%20Matrix.pdf\", \"snippet\": \"Knee Arthroplasty (UKA) 27446 \u00b7 27446, 27438 \u00b7 OK Complete MSK Joint Surgery UM Matrix.docx \u00b7 2 \u00b7 KNEE SURGERY PROCEDURES \u00b7 Procedure Name \u00b7 Primary \u00b7 CPT \u00b7 Code \u00b7 Allowable Billed Groupings \u00b7 Additional Covered Procedures/Codes \u00b7 Authorization is provided at the procedure level.\"}, {\"title\": \"Fidelis Care Musculoskeletal (MSK) Management Program Provider Training\", \"url\": \"https://www1.radmd.com/sites/default/files/2025-10/Fidelis%20Care%20NY%20MSK%20Surgery&IPM%20Provider%20Training%208.7.24-RO.pdf\", \"snippet\": \"MSK Surgery Points: Hip, Knee, or Shoulder Surgery\"}, {\"title\": \"Fidelis Care, Wellcare, & Ambetter from WellCare of New Jersey\", \"url\": \"https://www1.radmd.com/sites/default/files/2025-03/Fidelis%20NJ%20Ambetter%20NJ&Wellcare%20NJ%20MSK%20Surgery&IPM%20Provider%20Training%208.6.24-RO.pdf\", \"snippet\": \"MSK Surgery Points: Hip, Knee, or Shoulder Surgery\"}, {\"title\": \"Radmd\", \"url\": \"https://www1.radmd.com/sites/default/files/2024-12/Harvard%20HKS%20Matrix%202025.pdf\", \"snippet\": \"Knee Arthroplasty (UKA) 27446 \u00b7 27446, 27438 \u00b7 Knee Manipulation under \u00b7 Anesthesia (MUA) 27570 \u00b7 27570, 29884 \u00b7 3 \u2013 Harvard Pilgrim Health Plan \u2013 Hip, Knee, and Shoulder Utilization Review Matrix 2025 \u00b7 KNEE SURGERY \u00b7 Primary Surgery \u00b7 Request \u00b7 Primary \u00b7\"}, {\"title\": \"1 \u2013 Managed Health Services (MHS) \u2013 Spine Utilization Review Matrix 2025\", \"url\": \"https://www1.radmd.com/sites/default/files/2024-12/MHS%20MSK%20HKS%20UM%20Matrix%202025.pdf\", \"snippet\": \"Partial-Unicompartmental Knee \u00b7 Arthroplasty (UKA) 27446 \u00b7 27446, 27438 \u00b7 Knee Manipulation under Anesthesia \u00b7 (MUA) 27570 \u00b7 27570, 29884 \u00b7 Knee Ligament Reconstruction/Repair \u00b7 29888 \u00b7 27405, 27407, 27409, 27427, 27428, 27429, 29888, 29889 \u00b7 Meniscectomy: 27332, 27333, 27403, 29868, 29880, 29881, 29882, 29883 \u00b7\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_4udK90VuOjde4RYm5ibqfhay",
+   "output": "{\"query\": \"Fidelis Care Qualified Health Plans appeal adverse determination submit appeal address phone 180 calendar days\", \"results\": [{\"title\": \"Fidelis Care Provider Manual -13A V26.1-1/1/2026 Section Thirteen A\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/FormsApplications/Fidelis-Care-Provider-Appeals-Form.pdf\", \"snippet\": \"An appeal is a formal written request to Fidelis Care for reconsideration of a medical, payment, or contractual adverse decision.\"}, {\"title\": \"Appeals and Grievances\", \"url\": \"https://www.fideliscarenj.com/members/medicaid/nj-familycare/member-rights-policies/appeals-and-grievances.html\", \"snippet\": \"We make an adverse determination under a utilization review program; ... We deny a service based on lack of medical need. You will get a letter from us when any of these actions occur. It is called a \u201cNotice of Action letter \u201d or \u201cNOA letter.\u201d You can file a UM appeal if you do not agree with our decision. All UM appeals are reviewed by someone qualified to make these decisions.\"}, {\"title\": \"Fidelis Care Provider Manual Return to Top V20.0-4/1/20 13A\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/FormsApplications/2020-FidelisCare-ProviderReconAppealsForm-English.pdf\", \"snippet\": \"REQUIRED: Brief description of ... relevant information and any supporting medical or clinical documentation with this form and mail to: ... <strong>P.O. Box 10500</strong> ......\"}, {\"title\": \"Fidelis Care New York Provider Manual V15.0-10/12/15 1\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/ProviderManuals/Appendices/2018FidelisCareProviderManualAppendix18FIDAGrievancesandAppeals.pdf?ver=2018-04-+23-151445-553\", \"snippet\": \"appropriate, reroute grievances to the coverage decision or appeals processes. 1. Grievance Filing Deadline. <strong>All grievances must be filed within 60 calendar</strong>\"}, {\"title\": \"REMINDER: Mailing Addresses for Appeals, Reconsiderations, and Corrected Claims | Fidelis Care\", \"url\": \"https://www.fideliscare.org/Provider?id=655\", \"snippet\": \"Log in to Provider Access Online, access authorization grids, browse manuals and forms, download tip sheets, and learn how to join our Provider Network..\"}, {\"title\": \"Rights, Appeals, and Disputes\", \"url\": \"https://www.fideliscare.org/WellcareMedicare/Rights-Appeals-Disputes\", \"snippet\": \"Wellcare By Fidelis Care Medicare resource for Member Rights, including, how to file appeals, and how to file disputes.\"}, {\"title\": \"Provider Manual | Qualified Health Plans & Essential Plans\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/ProviderManuals/FidelisCare-ProviderManual-QHPEP-English.pdf\", \"snippet\": \"Fidelis Care conducts concurrent review on selected patient hospitalizations. Fidelis Care will contact the \u00b7 hospital&#x27;s utilization department to request clinical information on the patient&#x27;s need for continual \u00b7 hospitalization. Failure to submit the requested information may result in an adverse determination.\"}, {\"title\": \"Diagnosis Related Group (DRG) Change Dispute Form\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/FormsApplications/DRG-Change-Dispute-Form.pdf\", \"snippet\": \"To inquire about a non-DRG Claim issues please contact either Provider Relations, the Call Center, or the Fidelis Care Provider Manual. ... To submit COB-Resubmissions, Appeals and Reconsiderations of medical necessity and other claim denials: Use Form Section 13-A\"}, {\"title\": \"New! Claims Appeal Function Now Available on the Fidelis Care Provider Portal | Fidelis Care\", \"url\": \"https://www.fideliscare.org/Provider?id=854\", \"snippet\": \"Log in to Provider Access Online, access authorization grids, browse manuals and forms, download tip sheets, and learn how to join our Provider Network..\"}, {\"title\": \"New! Authorization Appeal Function Now Available on the Fidelis Care Provider Portal | Fidelis Care\", \"url\": \"https://www.fideliscare.org/Provider?id=889\", \"snippet\": \"Log in to Provider Access Online, access authorization grids, browse manuals and forms, download tip sheets, and learn how to join our Provider Network..\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_veZHWZHEsSYLtzW26C5tHUD9",
+   "output": "{\"query\": \"Fidelis Care NY individual marketplace subscriber contract appeals adverse determination address 2026 PDF\", \"results\": [{\"title\": \"Fidelis Care Provider Manual -13A V26.1-1/1/2026 Section Thirteen A\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/FormsApplications/Fidelis-Care-Provider-Appeals-Form.pdf\", \"snippet\": \"An appeal is a formal written request to Fidelis Care for reconsideration of a medical, payment, or contractual adverse decision.\"}, {\"title\": \"NY6EP1V4000000E 1 This is Your ESSENTIAL PLAN CONTRACT Issued by Fidelis Care\", \"url\": \"https://www.fideliscare.org/Portals/0/Members/SubscriberContracts/EP%201_2026.pdf\", \"snippet\": \"Appeal: A request for Us to review a Utilization Review decision or a Grievance again. Balance Billing: When a Non-Participating Provider bills You for the difference \u00b7 between the Non-Participating Provider\u2019s charge and the Allowed Amount. A \u00b7 Participating Provider may not Balance Bill You for Covered Services. Contract: This Contract issued by Fidelis Care, including the Schedule of Benefits and\"}, {\"title\": \"NY6EP5V4000000E 1 This is Your ESSENTIAL PLAN CONTRACT Issued by Fidelis Care\", \"url\": \"https://www.fideliscare.org/Portals/0/Members/SubscriberContracts/EP%20200-250_2026.pdf\", \"snippet\": \"Appeal: A request for Us to review a Utilization Review decision or a Grievance again. Balance Billing: When a Non-Participating Provider bills You for the difference \u00b7 between the Non-Participating Provider\u2019s charge and the Allowed Amount. A \u00b7 Participating Provider may not Balance Bill You for Covered Services. Contract: This Contract issued by Fidelis Care, including the Schedule of Benefits and\"}, {\"title\": \"NY6EP2V4000000E 1 This is Your ESSENTIAL PLAN CONTRACT Issued by Fidelis Care\", \"url\": \"https://www.fideliscare.org/Portals/0/Members/SubscriberContracts/EP%202_2026.pdf\", \"snippet\": \"Appeal: A request for Us to review a Utilization Review decision or a Grievance again. Balance Billing: When a Non-Participating Provider bills You for the difference \u00b7 between the Non-Participating Provider\u2019s charge and the Allowed Amount. A \u00b7 Participating Provider may not Balance Bill You for Covered Services. Contract: This Contract issued by Fidelis Care, including the Schedule of Benefits and\"}, {\"title\": \"REMINDER: Mailing Addresses for Appeals, Reconsiderations, and Corrected Claims | Fidelis Care\", \"url\": \"https://www.fideliscare.org/Provider?id=655\", \"snippet\": \"Log in to Provider Access Online, access authorization grids, browse manuals and forms, download tip sheets, and learn how to join our Provider Network..\"}, {\"title\": \"1 Fidelis Care New York FIDELIS MEDICAID ADVANTAGE PLUS (FMAP)\", \"url\": \"http://health.wnylc.com/health/afile/179/379/\", \"snippet\": \"Fidelis shall provide notice of a determination by telephone directly to the Member or \u00b7 to the Member&#x27;s designee, or when no phone is available, some other method of \u00b7 communication, with written notice to follow within three (3) business days. ... SDOH&#x27;s toll-free number for grievances. (Appendix G-Grievance Appeal\"}, {\"title\": \"Fidelis Care New York - NY Health Access\", \"url\": \"https://nyhealthaccess.org/afile/179/379/\", \"snippet\": \"Fidelis shall provide notice of a determination by telephone directly to the Member or \u00b7 to the Member&#x27;s designee, or when no phone is available, some other method of \u00b7 communication, with written notice to follow within three (3) business days. ... SDOH&#x27;s toll-free number for grievances. (Appendix G-Grievance Appeal\"}, {\"title\": \"QHP Contract | Silver One Dep 25 FOEX 2026\", \"url\": \"https://www.fideliscare.org/Portals/0/Members/SubscriberContracts/Silver%20One_Dep%2025_FOEX_2026.pdf\", \"snippet\": \"Appeal: A request for Us to review a Utilization Review decision or a Grievance again. Balance Billing: When a Non-Participating Provider bills You for the difference \u00b7 between the Non-Participating Provider\u2019s charge and the Allowed Amount. A \u00b7 Participating Provider may not Balance Bill You for Covered Services. Contract: This Contract issued by Fidelis Care, including the Schedule of Benefits and\"}, {\"title\": \"Metal-Level Tip Sheet V26.0-01/01/2026 Metal-Level Tip Sheet V24.1-10/16/2024\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/TipSheets/Fidelis-Care-Tip-Sheet-Metal-Level-English.pdf\", \"snippet\": \"determine which services require prior authorization. Provider submission of service authorization requests can be accomplished as follows: \u2022 Telephonically: <strong>1-888-FIDELIS (1-888-343-3547)</strong> ... Clinical appeals must be received within sixty (60) business days of the adverse determination and ...\"}, {\"title\": \"- Medicaid Provider Tip Sheet Fidelis Care Contact Information\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/TipSheets/NY-Medicaid-Provider-Tip-Sheet.pdf\", \"snippet\": \"Claims Remittances are available through Fidelis Care&#x27;s Provider Access Online at https://providers.fideliscare.org. If you do \u00b7 not have a logon and password to access this resource, please contact your Provider Engagement Account Manager. Remittances are also available via a HIPAA-mandated 835 Electronic Remittance Advice through the clearinghouse of your ... Clinical appeals must be received within sixty (60) business days of the adverse determination and can be submitted:\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "id": "rs_08bba3d6dfd2b8d0016a9b6b2822ec87d2b5853d17842da83a",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2sp2ZzK2bDMgwG4X7NFJ0Z_pOZ_hQBmYHxWkycWPsOqXAwnt70IR260JcbXxIJUGt9_YvsFd6LDxXo1ExrstnJaGfDUqdI1LVdrpgEVreDXdHkF9c4gyY8dWQTLrFILBt9sONpWt1KA6lQHSWQ9e2VLMVhy5PR_QoO7VrigDI4dNi9uptUlb4GcG1WW627C1FNzcDgkQbkQ4bwUe1LjYkS4rbiRVCVYdFqW-7ViGBoZ3jt4mV24ikIUpfBVUWf3QrrWjnQrWJoEFzW8jmHTMH2_4D-stBidy7O-ABTpn31_vE9s1uawhCQ_jY-wCowhIzC6ARkNVVkPt3gx40P0FlMiSFfAl7bjeDYy2XZY66LxAvqZlO1ZjuiZeuh1vQXpyQ_Xcjm1f-7KUYSOfq1ySAXehJHnbx5L91PAm3il95OuA4bFE1tM2XHlzby4NF7UsJ77dllDKpWQFL_rGxsByX4gESGm6T7f55Cl1et-7JlqFzUei7ajgH7FNAkZDwuHb8DL1ZvC7FiNzEmPydMf77BYViqb68wFpJjSh29myfXZCNHaGkyFRag-XuHx4nbs8Lkg_NXJgMFiaMINCN2lS51NeVhKzV7sDmim0z7hahDi0_3uLvK-WmjUwKfzwrNUJMEACSpUg_Skh1hAfSz-DfsKQoyUWLeYZcODPy3JbzLx6SbcWKguj5ZA5iGt5BOcOvGVkCumOJbE2zvDDMyz-FDjZGiwQtoQCkYsohiSZUkBr7qnvlDI9lS4nDYGtyqcuOyu-_tIwjXZ-M62uoR_FYNiL-2FVp_IwYOcUtJ-xRu56EmmzljRTycf3v_23JH4tAjTb0bycYQpKvcKpYZy-ZTD0MAVwO4ncR7B9ce7ixkRDuV_v0etM2d104aqshsuVEZLJ64pK07hG7jVcspDL8ROumJC5uM2GefyPvpRPxMyHtCCKi5voaxxvtRua0EzPZ03SG67G2QQA_76Xbrx-tbALORZ47wh0XU0dMq0RrmGB7QzbwjnPA4jfKCGeYDwwuGtFR99w-vllyVqDb0WFDySTC3VGLYkfa2SaD2AcZE-XQSl_g7pOAm5KcZYk9lnvonzGJFCyYnJ0nxRnLzOCC8utiuGil4Ru50h6bq5hPfz2OXkN0_ScOEljMCpIgbXWLILUbdOH2Lms9glDny1VjeCpIdvzQqLAbCkZyvsky6WFWJpYyzsDAYO7Dagk7NQNY_7NGihg1l4nYtUsAZYu6STtt4JJPKUa_tOGu8MQDoTrbuk--FssSr0T5EG02VhBAsXD7mqd5NsR1OjA8aPqHlmOw==",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:fideliscare.org/Portals/0/Members/SubscriberContracts 2026 QHP Fidelis appeal \\\"180\\\" adverse determination address\",\"count\":10}",
+   "call_id": "call_m7ggTxuaXBcOe4qHNa5tL7PF",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08bba3d6dfd2b8d0016a9b6b29bb6c87d287b76e4d9367a7ba",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:fideliscare.org \\\"Standard Appeal\\\" \\\"180 calendar days\\\" Fidelis Care QHP\",\"count\":10}",
+   "call_id": "call_7AoEaxhFpsfJ0pdlEyG2wCR8",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08bba3d6dfd2b8d0016a9b6b29bb7887d296b0fea0bf72d6dc",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://www.fideliscare.org/Portals/0/Members/SubscriberContracts/Silver%20One_Dep%2025_FOEX_2026.pdf\"}",
+   "call_id": "call_4qg2OkuG5s7s4mQLASirqFkU",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_08bba3d6dfd2b8d0016a9b6b29bb8487d28e02cfa3d9a46e24",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://www.fideliscare.org/Portals/0/Providers/TipSheets/Fidelis-Care-Tip-Sheet-Metal-Level-English.pdf\"}",
+   "call_id": "call_vuWENxhbKApm5ly62BgiJCwc",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_08bba3d6dfd2b8d0016a9b6b29bb8c87d289b431b2935ba986",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_m7ggTxuaXBcOe4qHNa5tL7PF",
+   "output": "{\"query\": \"site:fideliscare.org/Portals/0/Members/SubscriberContracts 2026 QHP Fidelis appeal \\\"180\\\" adverse determination address\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_7AoEaxhFpsfJ0pdlEyG2wCR8",
+   "output": "{\"query\": \"site:fideliscare.org \\\"Standard Appeal\\\" \\\"180 calendar days\\\" Fidelis Care QHP\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_4qg2OkuG5s7s4mQLASirqFkU",
+   "output": "{\"url\": \"https://www.fideliscare.org/Portals/0/Members/SubscriberContracts/Silver%20One_Dep%2025_FOEX_2026.pdf\", \"final_url\": \"https://www.fideliscare.org/Portals/0/Members/SubscriberContracts/Silver%20One_Dep%2025_FOEX_2026.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"error\": \"fetch blocked or unreadable: extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_vuWENxhbKApm5ly62BgiJCwc",
+   "output": "{\"url\": \"https://www.fideliscare.org/Portals/0/Providers/TipSheets/Fidelis-Care-Tip-Sheet-Metal-Level-English.pdf\", \"final_url\": \"https://www.fideliscare.org/Portals/0/Providers/TipSheets/Fidelis-Care-Tip-Sheet-Metal-Level-English.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"error\": \"fetch blocked or unreadable: extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "id": "rs_08bba3d6dfd2b8d0016a9b6b2caeb487d284c241d0c19b2899",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2suCUnvjfcEYmUgQTww-3AcNEJuRcFznkEoahCg5_nTdFLNB8ivdDURsugBNqn4upL0DPN1Ip2V0pfz64nD4tAoV7rvtvdkhMOPz8bwfpQ_7x5b5Vd6713oxnyCtncW_g66V6zzzQwD67v1ZBkNaCvENdqpmQTSEeVx8O9PYmKBt4hu8NdDP5xTOy-vXcUFm1zAPUBcVgxQZUnNheYPrmjbc0N8zdlvTdmqbE-qNeshRX9QIIZsrnMv0pQIUZ__GglKpckHFB8wI9f6aR02dy1lav1lA5QstCsW_u3AS8xcRQ5PaurHR_zbqv1w9Gak7skK9y2OsGmcxfNXrXWHta_0QIw5skNhPPEME13QDpkm-xxR29quT8jjGfM25-yjupdMy-D0r6QVuBxN1e-B7bBBQEW48Mt53AD7-vjQdRoVXirJ1tZ9PlZ9kUnMpTZsye5ZdX9RosioC8vFUTpet8vEWTMtF1lQflbJcp7bXeDBSaVmb0jS8vKrux1GJNJ7IOOK7b7BXnIL_NgJCChkhSW1IXEXWLvTqrgVMO4PlZpm-BJbx46KvsvPVTboHlc7nYlnZHtDjOhkYYm1vIPiInLDBGw-NUl2Bm8cMfnzrvxMr3dAJ8z51CIsRj_yPxiM5qmGc9XGHz4LDjsnVAjqUP4h8F1-8VB-bH8JnZYKcv6JCylMqzt8CqpYJnx_a3AxlsjWBzfv56gIpePoAkimOlcNgoEGwAbzOgkJ8hpFpdSDiK4Jkc554KUMNXLw1LAZ2PWnZruAQUqhN3ezlcU3y-nlG4Xi49n2LNQUycw9n8CqsNv4Y5WMrDxzqL0PNe3aKcw2IhgZQYGxBjTCe83-UmtISiynILS4sZ-vpMgnNV49OCa-TxF1NWQs6Q1CIh47FDOq0xgsCa03oQ-dX5FSUtB9Sl4AdmNRvJzPANubhv0aFiOm-h_4DkFlEGB8Ywy-kDVs_cXIABJtT7xo_XOfIgCW5YLti616TmFyQG7eG2KeFg62OdPal_yFyIQw8grkp-RcYRDdKQVoo36gmeFd0Am3WvZ5RldNyp-QXtMGPW39ifDquFIiE7kU85TqgwB6PGPOB0h3Tn427mH0zcTpXegseE5VUGuiRGqdN7L40psNyZHUblL5jS5zplbSX3EnY48PRWAaAVgxBNpTjIQcccjFRbgEG-42OA3m8SIYx4GnsTMJBoU18tA6rckTUyjvospG3f7lqiMw8wPyGsUKGjEvqXTDRe-BLRUtr8Z6EfzdUMRJsoojmA1El5NhTZe01nu5t6i-ClmRSWFNItE5Wh61nWxpL12lXZy4Nlp1wTWrVntp8ib78kOKH-78MQ76sf3cEOWWhjVRtp6ixBvGp1iNMc-dtK0-_Wpt-AvTEvzhppUdv3s5MBjXcL62CYYm3Mdkv_M7LE10_Gi0Bknh7qKm0fc_U749EAHJ9q1qHbaC95qYmwu2pJivJJh7EBqFyrzVipRUT-ZM6VOMeKiU9w_gNW8ASKdXIUs6vBz36CTGhBmdIFeCFL3SBi82EiOG-AKnKPoOsMAMCc3BfQKicyTMXx5sepEzn1FoSa-Y0DjAQW-iA9kjqKk55FSqhUp9I7g49D1ufSrruThV91WFqGbn98KD1TRYiLigzT-2oajbuY3fV7WVZKVuifcgV-2cPdqD5mT-tpA5WAkFsdtZLWyiB1tn-rKt68N1zIiJcO2iG9mipOf_3KzNqCf9M6jNQR6mYTJgLZ80ZhyAH_Jhcd36zsoBVo5dlRgIj7SIWFcBD6mgZJF_wUEcZeJPFW_k612L3uAOw0Wg1-iRmB9Xj4_MAggp0Vx-1prxEhwG6IJM31cC7aglJ_FXdoWdYVJff09oH2Z2YE8DxyThAefrg1izBQ==",
+   "status": null
+  },
+  {
+   "arguments": "{\"url\":\"https://cms.radmd.com/sites/default/files/2025-01/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf\"}",
+   "call_id": "call_F40agkxmkcuqfYM3itpoRpVa",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_08bba3d6dfd2b8d0016a9b6b2e38c887d2ae0918d7beea559a",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_F40agkxmkcuqfYM3itpoRpVa",
+   "output": "{\"url\": \"https://cms.radmd.com/sites/default/files/2025-01/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf\", \"final_url\": \"https://cms.radmd.com/sites/default/files/2025-01/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"error\": \"fetch blocked or unreadable: extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "id": "rs_08bba3d6dfd2b8d0016a9b6b30028487d28cfc16bf34010c73",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2syhk6ssCxjo1pmKukMaIH5QRDBy9-ZJ_PNbWZzJHbUBk-ivpKI0-EhgDOq_peQIjIi33puyJNJQ1SBfrNCw4qLptfg3sav8qbsnAyr2U4MZ1uwoRsIr1kYKxbDQ_idMJlNEAwZE58wejs8htiL59mdwNFvHgiOjc5LOKLeBxF6Sif7VxC0d3CfNNa9od2gk9P_qXRB5TKBYQ_QvhGuLF_OiGmrFVffZBNVgUo1YcLpvmpQOwKCqW_9kFmzqQwKGpMc9no9NgWl3SHCxmKbE3kmMXKDbyZd3RB1tkJhBT25w775WgZfUC2myo9GbxqtVDKrEyu_3_8vmsDKoFQQhQAOpHvkCSvRlOxXCXpanyhwrO_UAdyq-UvWHcNXlsbqgcx4HexQhSBGPK9vedf_4U7xPAIOxFsG8KKOF3RtVyboedu_K7tolYx66kZcVp4wWr6kxF4Ab4eEra1D1LDuLkiM6pP2daVDXmFPVR80WryKI8ri4w6M20mDCQxgEjg5S5y8iG1IyV94PGF6WstkSv4ho93zWAQKkiyVkVRsB45W4MgPoLyO4qd0N7t1V716DRcM2lKDelgfsE3GEGxh9Z7G_mh3CcVlUaaOGkqOBn08oHiYF-5Fuu2uqPaI1II_AwtDX77lOaUhK9l8KEo5DTXCpKFkXbfy4dN8XzGsCxSlBlEt2fdJa4flCBu2lWLNB703BQ6I_aHu_WG7Jdl2FTE3-iDi-gBH2B4QF5lJ88FVdFqFpM0KnXDZzoY4OKoh6IUgoH-1YgGtKd-Qz7ufTpBBmhyteklw-4-rZGSOY2aKyx7N8phP8LIvvbUbNDXjeonx2K6TDMv6HFiKkaHf7-h4pYkASQ0B5hiseJExEMTVf9AwcjDfXG1EmKT48ejkcY7TgMcxINDGFzVFKYWP_soy1rGlRsLXQFSEVo6ICTioe_y8wz3QKjSDDtelYCCeOA-OpD4_yaPS25mDzX-jfh-xCvEjM-3lM97OT3PWo33Q7qfbDGtuY_tei72C_40p_pFcF0nEHo5GReMjYQESOVNI811WuYlKOERjo-6glcy1_5I8-kz5KJK3dYqKHH1nZnOGikLzcP859NgADV7o4ZMuVbHlcLeqMXHJUMMt7kzyKCpo3-yg6ijH_i9LpGgw2PV_p3KnI5uzmpaqW17fS8K6kWOTNNf6QBCaFpQjfbDuFftdbo4fnRdnxcxHe4Vkc4m7emr6yNb5mWezNodAihGtXzQruFs09JDburMIGm-ofAC5ZXEMlmSp6luyA_VCfS15R-XgGOLwh2n5Kf4gbo-nIz30RIOYG5F5zXxBBILS5BI=",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Evolent Clinical Guideline 1763\\\" \\\"unicompartmental\\\" criteria knee arthroplasty\",\"count\":10}",
+   "call_id": "call_L443QXgn1kENpLhOUWz6a7Us",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08bba3d6dfd2b8d0016a9b6b31e05c87d2a3b684602e02be7d",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Knee Arthroplasty\\\" \\\"Evolent Clinical Guidelines\\\" \\\"medically necessary\\\" UKA\",\"count\":10}",
+   "call_id": "call_fW5NTzRWhOBb8K1iOXTivZDe",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08bba3d6dfd2b8d0016a9b6b31e07487d28f3159fbc388a68f",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Partial Knee Arthroplasty\\\" Evolent criteria imaging\",\"count\":10}",
+   "call_id": "call_pcBStVdtmLn363dkfBuxZiSL",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08bba3d6dfd2b8d0016a9b6b31e07c87d282c0e72dff9d4fd9",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Fidelis Care QHP member appeal mailing address 1-888-343-3547 utilization review appeal New York\",\"count\":10}",
+   "call_id": "call_AuObc2P0wNpo4UFAQosi1ble",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08bba3d6dfd2b8d0016a9b6b31e08887d2aeb97e254e0ba1c2",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_L443QXgn1kENpLhOUWz6a7Us",
+   "output": "{\"query\": \"\\\"Evolent Clinical Guideline 1763\\\" \\\"unicompartmental\\\" criteria knee arthroplasty\", \"results\": [{\"title\": \"Page 1 of 15 Evolent Clinical Guideline 1763 for Knee Arthroplasty\", \"url\": \"https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/1882_LHCC_Knee_Arthroplasty.pdf\", \"snippet\": \"Unicompartmental knee arthroplasty (UKA) is also called partial replacement, hemiarthroplasty, unicondylar knee, or bicondylar knee arthroplasty. This procedure involves \u00b7 reconstruction of either the medial or lateral weight bearing compartment of the knee and/or \u00b7 patellofemoral joint. Medial UKA is performed more frequently than lateral procedures. ... Evolent Clinical Guidelines do not constitute medical advice.\"}], \"result_count\": 1, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_fW5NTzRWhOBb8K1iOXTivZDe",
+   "output": "{\"query\": \"\\\"Knee Arthroplasty\\\" \\\"Evolent Clinical Guidelines\\\" \\\"medically necessary\\\" UKA\", \"results\": [{\"title\": \"National Imaging Associates, Inc.* 2024 Evolent Clinical Guidelines\", \"url\": \"https://www1.radmd.com/sites/default/files/2023-12/2024%20Musculoskeletal%20Surgery%20Guidelines_FINAL_HMSA_Joints.pdf\", \"snippet\": \"Knee Arthroplasty \u00b7 *National Imaging Associates, Inc. (NIA) is a subsidiary of Evolent Health LLC. \u00a9 2015-2024 National Imaging Associates, Inc., All Rights Reserved. \u2022 \u00b7 If medical records indicate that possibly either a TKA or a UKA will be performed, based \u00b7\"}], \"result_count\": 1, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_pcBStVdtmLn363dkfBuxZiSL",
+   "output": "{\"query\": \"\\\"Partial Knee Arthroplasty\\\" Evolent criteria imaging\", \"results\": [{\"title\": \"Total/Partial Knee Arthroplasty - Clinical Determination and ...\", \"url\": \"https://www.va.gov/COMMUNITYCARE/docs/providers/CDI/IVC-CDI-00045.pdf\", \"snippet\": \"For any conditions/indications not listed in section II.a. of this document, knee \u00b7 arthroplasty is considered not medically necessary due to insufficient evidence\"}, {\"title\": \"A radiographic artificial intelligence tool to identify candidates suitable for partial knee arthroplasty - PMC\", \"url\": \"https://pmc.ncbi.nlm.nih.gov/articles/PMC11582309/\", \"snippet\": \"Our algorithm was designed to be a radiographic screening tool of patients who might be suitable for a partial knee replacement, and it needs to be recognised that the final decision as to whether a patient is suitable for a PKA is based on a combination of history, clinical examination, imaging and patient values. Interestingly, other studies have used the final treatment as the ground truth for their radiographic analysis, whilst we believe such a tool would be best trained using multimodal data as above. In conclusion, we have developed a prototype algorithm capable of replicating expert surgeons in identifying patients suitable for either a medial or lateral partial knee arthroplasty (PKA).\"}, {\"title\": \"Patient selection in unicompartmental knee arthroplasty: how to make the diagnosis for success in the clinic - ScienceDirect\", \"url\": \"https://www.sciencedirect.com/science/article/pii/S2059775424001950\", \"snippet\": \"This article will provide a comprehensive overview of the current landscape of patient selection for UKA, acknowledging the existing clinical dilemmas and challenges faced by clinicians and proposing avenues for future research including the integration of patient predictive models, advanced imaging, and artificial intelligence to enhance predictive accuracy. ... Unicompartmental knee arthroplasty (UKA) is an operation that selectively resurfaces one compartment of the knee.\"}, {\"title\": \"A radiographic artificial intelligence tool to identify candidates suitable for partial knee arthroplasty | Archives of Orthopaedic and Trauma Surgery | Springer Nature Link\", \"url\": \"https://link.springer.com/article/10.1007/s00402-024-05589-8\", \"snippet\": \"A consensus decision was subsequently reached on 337 of the remaining 339 knee radiographs, with two series (one left and one right knee) excluded due to issues with the images that had not been detected in the initial technical sufficiency review. ... Consequently, a total of 4967 images were labelled with an arthroplasty option and progressed to final analysis. The most commonly chosen treatment option was a partial knee arthroplasty (3284, 56.1%).\"}, {\"title\": \"The Knee Osteoarthritis Grading System for Arthroplasty - ScienceDirect\", \"url\": \"https://www.sciencedirect.com/science/article/pii/S0883540318311380\", \"snippet\": \"In patients with significant symptoms, the decision of whether to offer a knee arthroplasty is dependent on confirmation of bone-on-bone arthritis in the affected knee [1]. Assessment before the implementation of a specific type of knee arthroplasty (KA) includes the history, clinical presentation, special investigations, patient\u2019s preference, and surgeon\u2019s skill in different available options. Typically, primary OA tends to start in one compartment and with time progresses to be tri-compartmental. In cases with single compartment disease, partial (or unicompartmental) knee arthroplasty (PKA) provides significant advantages over total knee arthroplasty (TKA).\"}], \"result_count\": 5, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_AuObc2P0wNpo4UFAQosi1ble",
+   "output": "{\"query\": \"Fidelis Care QHP member appeal mailing address 1-888-343-3547 utilization review appeal New York\", \"results\": [{\"title\": \"QHP-EP Provider Manual revised 12/1/2019\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/ProviderManuals/FidelisCare-ProviderManual-QHPEP-English.pdf\", \"snippet\": \"<strong>FIDELIS (1-888-343-3547) TTY: 711</strong>.\"}, {\"title\": \"REMINDER: Mailing Addresses for Appeals, Reconsiderations, and Corrected Claims | Fidelis Care\", \"url\": \"https://www.fideliscare.org/Provider?id=655\", \"snippet\": \"Log in to Provider Access Online, access authorization grids, browse manuals and forms, download tip sheets, and learn how to join our Provider Network..\"}, {\"title\": \"QHP-EP Provider Manual V26.0 \u2010 01/01/2026\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/ProviderManuals/FidelisCare-ProviderManual-QHPEP.pdf\", \"snippet\": \"Care\u2019s Utilization Management Department at <strong>1-888-FIDELIS 1-888-343-3547</strong> for authorization.\"}, {\"title\": \"Contact Us | Fidelis Care\", \"url\": \"https://www.fideliscare.org/Contact-Us\", \"snippet\": \"Interested in New York State Health Insurance or in need of customer support? We&#x27;ll connect you with the right Fidelis Care Representative.\"}, {\"title\": \"Fidelis Care Contact Information Provider Call Center\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/TipSheets/2020%20Medicaid%20CHP%20Provider%20Tip%20Sheet.pdf\", \"snippet\": \"Telephonically: <strong>1-888-FIDELIS (1-888-343-3547)</strong> \uf0b7 \u00b7 Fax: 1-800-860-8720 (Medical) \uf0b7 \u00b7 Fax 1-718-896-1784 (Behavioral Health) \uf0b7 \u00b7 Fax: 1-877-533-2405 (Pharmacy) Note: Use this link to locate the Treatment/Service Request Forms for fax submission: Forms and Applications \u00b7\"}, {\"title\": \"Fidelis Care Provider Portal, Phone & Payer ID (2026) | QuickIntell\", \"url\": \"https://quickintell.com/payers/fidelis-care\", \"snippet\": \"Fidelis Care, a Centene Corporation subsidiary, is a medicaid mco payer covering roughly 2.4 million members operating in 1 state. Provider phone is 1-888-343-3547. <strong>Claims payer ID is 11315.</strong> Standard timely filing is 90 days from date of service for participating providers.\"}, {\"title\": \"Medicare Advantage/ Dual Advantage Tip Sheet PRODUCT INFORMATION\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/TipSheets/Wellcare-By-Fidelis-Care-Medicare-Advantage-Dual-Advantage-Tip-Sheet.pdf\", \"snippet\": \"Online: Fidelis Care Provider Portal \u00b7 \u2022 \u00b7 Fax: (833) 710-2226 \u00b7 \u2022 \u00b7 Phone: (888) 343-3547 \u00b7 \u2022 \u00b7 Mail: <strong>Fidelis Care Medical Appeals Unit, PO Box 1208, Amherst, NY 14226</strong> \u00b7 Requests for Administrative Review of Previously Processed Claim \u00b7 Requests for claims reconsiderations must ...\"}, {\"title\": \"- Medicaid Provider Tip Sheet Fidelis Care Contact Information\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/TipSheets/NY-Medicaid-Provider-Tip-Sheet.pdf\", \"snippet\": \"Telephonically: <strong>1-888-FIDELIS (1-888-343-3547)</strong> \u2022 \u00b7 Fax: 1-800-860-8720 (Medical) \u2022 \u00b7 Fax 1-833-561-0094 (Behavioral Health) \u2022 \u00b7 Fax: 1- 800-268-2990 (Magellan NYRx Pharmacy) Note: Use this link to locate the Medical Treatment/Service Request Forms for fax submission: Forms and \u00b7\"}, {\"title\": \"Provider Manual: Medicaid Managed Care, Child Health Plus,\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/ProviderManuals/2023-Fidelis-Care-Provider-Manual-Medicaid.pdf\", \"snippet\": \"servicing the member. Contact the QHCM Department to obtain such services at <strong>1-888-FIDELIS (1-888- 343-3547)</strong> - authorization prompt.\"}, {\"title\": \"Fidelis Care Provider Manual\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/ProviderManuals/2024-Fidelis-Care-Provider-Manual-Medicaid-English.pdf\", \"snippet\": \"<strong>FIDELIS (1-888-343-3547) TTY: 711</strong>.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "id": "rs_08bba3d6dfd2b8d0016a9b6b362a6487d283693cf28416b415",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2s4H9n3IUm4Z8YoLBczRfTBLAhsDdaYKYpgPmnYO2pGZVBOgGELSbei0Sj54U3OJHR1JSKUgOwDHj6NxQkQ8R-8CPHZpJkk0edFfKGOIVkv11dbGSi0MgCIBpWT_tSBl3dRR9G8L_bx8FbnQYWe-NIHlg53WWX8l0uxRsKimxefaeGkdE07NWtFaWA_3AEdae-KM6dcXZabAbahz21Ikgi88hLn7CbJ9kw-shb9a5iC0cGvxM2cMFlq8eB60K8XLhMmlSpc9elPm-NYG1CvZT9wAM6xZlBAOt8ZAAYrZiZup51vRGPLw_oe6hib1j_S8-9L-ipjvPaOxv-uLQ0av6bav_xFI3ey_YIz17wL2EFh-6gEOq1swHOVZq5gU90cx0EUp8YT5VSizY0bq9obpBfioVKtm0MBs7web6f70gd8wKpUn02SKynSGFYOLy2eVkoSs5x5--zV3lTO9wI8IcaS4b8P9OUVfIwsLgvcwrl2Faxa2VgYgHbAQPtZN7Ahk-OZk4fGSo0TQt_a1-MFCQpH9foJ4zoEPme7ac08poqtWz6-51aZqbuQk6PX7pwBS10zgaDzragUPJY4oDRibufydtPe1yOhUDKyR7nuTJ4-ZSCPCd18_5AHYXQmZbzSJNsM2xQn_bwDqbNylGyb7IPF-F2zw8FrxO_puphTMfnvbXQB1sQX_Tt3LyrzOQy8YetCqh9uh8_gjNcoW43qoFz3WyFm9cRVURhdbIM0qVYXuEUFk6hlEQiZAwLaIMG7LZSbxWEe3U_d71MNSC-n7Av-NKQIenZDzmuVpl7Gv1aADM01F_ifqMN7MkCyxsbYP6lGGq68zeaAUWxfog4XAGRyuaKmDkqfzNgGEPHpIm2P_y303VipSHOTMKdfFUV61vmnYwHjERehl6SzUrw5W0zuFbtMFBQ3cZ80Z5zQgizaZY8zSt2cfIpsEV3bYVqTzkXlrZcugn2n8_vOpBjQhswi7BvUvn04CF7Z0wvVBfGODFauvwAtq5M4wPtwhWTmI0KVSktpGyukQFpc5cKAbaNgvvPm64s3Gv4LOtbFf1KtENKfJx95zM3R0NUQHe6i-h6sTScMvJXZQq8UuJjdNdIamem_sW4xGp6_v12IzCS7RbYpqlF6LtcTopnoKL27JoijnElAczTK42JDNhQUeXTAsiJLzTBvSdzZ_wI88IrE5kAfDw91_RIl93EvHAst-vqvNePgta5g6Ey1yGMDTWcZ4cXt0ug_HboU21HMmywtoyPc-WNhum6tZbb4zZGkQBjpGwQzVBXaSN_J0ZK_hMS9sB7MvxL-XdqEPudVZduLLoqq8g5a1tcR-jItSz5k6svD_wh2fulIgSCtGR5y4iaSJw==",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"Fidelis Care \\\"Medical Appeals Unit\\\" \\\"PO Box\\\" commercial New York QHP\",\"count\":10}",
+   "call_id": "call_2R9G1yyotsYWNTEvuIddlnhI",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08bba3d6dfd2b8d0016a9b6b37f5cc87d28cdb63fd21eb558f",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:fideliscare.org/Portals/0/Members \\\"Appeals\\\" \\\"PO Box\\\" \\\"Fidelis\\\" QHP\",\"count\":10}",
+   "call_id": "call_4gpigcka1itQgrElaNQ0fYoi",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08bba3d6dfd2b8d0016a9b6b37f5dc87d2b4a912a0d0c1d96f",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Fidelis Care NY appeal address member medical necessity appeal QHP\",\"count\":10}",
+   "call_id": "call_tuRnOsYOLzcL8JHEUFDngYVk",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08bba3d6dfd2b8d0016a9b6b37f5e487d28b48341016c8b809",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://www.fideliscare.org/Portals/0/Providers/ProviderManuals/FidelisCare-ProviderManual-QHPEP.pdf\"}",
+   "call_id": "call_MaZ9b4BjsI2pvLSRlJYM6KUu",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_08bba3d6dfd2b8d0016a9b6b37f5f087d2bb2bd5952c4b348c",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_2R9G1yyotsYWNTEvuIddlnhI",
+   "output": "{\"query\": \"Fidelis Care \\\"Medical Appeals Unit\\\" \\\"PO Box\\\" commercial New York QHP\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_4gpigcka1itQgrElaNQ0fYoi",
+   "output": "{\"query\": \"site:fideliscare.org/Portals/0/Members \\\"Appeals\\\" \\\"PO Box\\\" \\\"Fidelis\\\" QHP\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_tuRnOsYOLzcL8JHEUFDngYVk",
+   "output": "{\"query\": \"Fidelis Care NY appeal address member medical necessity appeal QHP\", \"results\": [{\"title\": \"REMINDER: Mailing Addresses for Appeals, Reconsiderations, and Corrected Claims | Fidelis Care\", \"url\": \"https://www.fideliscare.org/Provider?id=655\", \"snippet\": \"Log in to Provider Access Online, access authorization grids, browse manuals and forms, download tip sheets, and learn how to join our Provider Network..\"}, {\"title\": \"QHP-EP Provider Manual V26.0 \u2010 01/01/2026\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/ProviderManuals/FidelisCare-ProviderManual-QHPEP.pdf\", \"snippet\": \"Medical records of all Fidelis Care members shall be confidential and shall only be disclosed to and by \u00b7 the provider\u2019s personnel as necessary to provide medical care and quality, peer, or complaint and appeal\"}, {\"title\": \"QHP-EP Provider Manual revised 12/1/2019\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/ProviderManuals/FidelisCare-ProviderManual-QHPEP-English.pdf\", \"snippet\": \"Medical records of all Fidelis Care members shall be confidential and shall only be disclosed to and by \u00b7 the provider\u2019s personnel as necessary to provide medical care and quality, peer, or complaint and appeal\"}, {\"title\": \"Rights, Appeals, and Disputes\", \"url\": \"https://www.fideliscare.org/WellcareMedicare/Rights-Appeals-Disputes\", \"snippet\": \"Wellcare By Fidelis Care Medicare resource for Member Rights, including, how to file appeals, and how to file disputes.\"}, {\"title\": \"Fidelis Care Provider Manual -13A V26.1-1/1/2026 Section Thirteen A\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/FormsApplications/Fidelis-Care-Provider-Appeals-Form.pdf\", \"snippet\": \"An appeal is a formal written request to Fidelis Care for reconsideration of a medical, payment, or contractual adverse decision.\"}, {\"title\": \"QHP-EP Provider Manual V24.0 \u2010 01/01/2024\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/ProviderManuals/FidelisCare-ProviderManual-QHPEP-English-2024.pdf\", \"snippet\": \"Suggest changes to Fidelis Care\u2019s policies and member rights and duties. ... Get a second opinion about their care. ... Discuss treatment options regardless of cost of benefit coverage. ... Refuse care and be told what the risk is. ... Make complaints and/or appeals about Fidelis Care, its providers and its services.\"}, {\"title\": \"Fidelis Care New York - NY Health Access\", \"url\": \"https://nyhealthaccess.org/afile/179/379/\", \"snippet\": \"B. Fidelis Medicaid Advantage Plus will provide members with any reasonable \u00b7 assistance in completing forms and other procedural steps for filing a grievance, grievance appeals or action appeals including, but not limited to, providing interpreter\"}, {\"title\": \"1 Fidelis Care New York FIDELIS MEDICAID ADVANTAGE PLUS (FMAP)\", \"url\": \"http://health.wnylc.com/health/afile/179/379/\", \"snippet\": \"B. Fidelis Medicaid Advantage Plus will provide members with any reasonable \u00b7 assistance in completing forms and other procedural steps for filing a grievance, grievance appeals or action appeals including, but not limited to, providing interpreter\"}, {\"title\": \"Fidelis Care Medicaid Advantage Plus Member Handbook Insert\", \"url\": \"https://www.fideliscare.org/Portals/0/Members/20180501FidelisCareMedicaidAdvantagePlusAppealsAndFairHearingRightsEnglish.pdf?ver=2018-06-22-162855-817\", \"snippet\": \"Hearing about the same complaint or appeal. You can use one of the following ways to request a Fair Hearing: ... <strong>P.O. Box 122023</strong> ... We hope our plan serves you well. If you have a problem with the care or treatment you receive \u00b7 from our staff or providers or you do not like the quality of ...\"}, {\"title\": \"Provider Manual: Medicaid Managed Care, Child Health Plus,\", \"url\": \"https://www.fideliscare.org/Portals/0/Providers/ProviderManuals/2023-Fidelis-Care-Provider-Manual-Medicaid.pdf\", \"snippet\": \"<strong>(800) 424-4952</strong> \u2013 phone (Authorization Requests \u2013 Medicaid, Essential, CHP, QHP) (800) 424-5390 \u2013 phone (Authorization Requests \u2013 Medicare and Dual Advantage) (800) 327-0641 \u2013 phone (NIA Provider Service Line) ... How to Contact TurningPoint Healthcare Solutions, LLC.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_MaZ9b4BjsI2pvLSRlJYM6KUu",
+   "output": "{\"url\": \"https://www.fideliscare.org/Portals/0/Providers/ProviderManuals/FidelisCare-ProviderManual-QHPEP.pdf\", \"final_url\": \"https://www.fideliscare.org/Portals/0/Providers/ProviderManuals/FidelisCare-ProviderManual-QHPEP.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"error\": \"fetch blocked or unreadable: extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "id": "rs_08bba3d6dfd2b8d0016a9b6b3c9c9087d291bcbd620bb86129",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2s-ano7aFgnJ0pQHDfJafVyys3OnWVbUYnUrLVk74rpZ7DqmVcFSpTk5YAxdT3cOvO4okTUeEAf_vHUbfrVx6e6TL58UAyeZg6OVHUU1ctGt0dcbOEuU3C6pjKIICKizbFPSzTZZSBVt5RjjEDesLqnDg2Q27HD4-8pRWYEcqUHdihETM_vzQHx-jIJDEKpOUgVjRmWccT9FVxl_nwyt5FfNs-yOh9x6P-9Bwg7tMNxilvn1LYT1du73rNDEHIoGlOSvMe6NIKNjUbm_Nca_IJsNq3ILblfk-RVsa8JSbQcGuZ8pF5kxW9Nm9s1oJmEznW4PGm1jSkHE_xWW-ShKNUsqU-4n9_tWVgizdUFpboVGjPy2rmtQYxxXAnw1bfXwmysw_h06mLh_wHJHOHlymA4TsNnik42BRcJ_xyWXib9JkXFEaapaR8ewVkCVAMERDPKyi7rlfKkn0ikOZRqGKhafmsi4G-i1e66ScujLAyH-4eokN3xZE9N_P6NMBA8oIaoPZDkrBRRhwoYkmvnSTIFuyVIwbu35oQ3DRFPWKtbWh_xScZH44URN_fvBFm1uxEpkEUJQjAolCFKRl62sFmZf08Xm2eFpnsAwtjC1opD-ZlOjZEf-CtKcW7LkLGZkjVwI9gN--1Tz0xVXQynE3VuxJ4hrR49B_yb3x4wcYpplmofjHaigMdrkLc5Bjg5SZG9L7cft2OT8c0iqgTi-jlSWLwYX7Xk741-AperSMEkf3VoPYzLWXtZXXLzpvxF47ZcJWjIMSzjZRFYxqYcVec1mnGu8n9wRXgahdK7Hzxc2oQxYc7g0OtCWLroc5_rGL4Ymrm-h619trWQIgIFHx_080VgAwYI0qFO4Uub1vY9nINy1_YV3skJVRUwyILFNVrXYQUMzDto_Zg827Q24ZDZIYDIBJAvhS1oUx0Vd1h1dH-HrLdHcnh7fXOFrbDzRb4TblXWPR_ohJ2s238IDFmvcqahmkvLM1O0QP8gxoBq6yUW93ymc-aCYfaKleMxD_vNKrZqjn9KHRKkNF93FUOP8fEWePwlXN_kWWo_PUH1_AT-Qg3MAl2MiTWgjrWBooqfp7unT5Jva3a2h_bM8ZNJ9Va4ZdHGCWWCSj3wm8k0-dfIlUfruMGGB9_t8ItVor9Y7_7cbwUTji1NkNc5I2O-lQmpwtyC5x89xOHBvqg6W3dJEHpWQXNnRU3gtZZWRJ_lDM5agvjAnzbQi1M8BbQcipMSz-ikTa42HdhPmKg2cixVM4qCARujz_UjPrQxkLkO0J8tKdYiOfJdjAgtB4TyfTqQTCDmPKSTjTOwT6VmaAn97mRrvNMoY0VyYq21BgYaCgcdFy9WcrfScMfMiwfHoDKoIkJe1P1ygvaFxY9sKuaKxKD2FY4B3wgVStUg7o_MxWE8X2YPxnx_qkZwH_xU7PyxL5Bq6m53IZyRA4lJFk2Qz1Xd9rs421RsiES9-YCjEuFg4F1s_JUGVNIjbm5gZ4dpm7vS6kCP8szOZcrGNN5VWL3lXLTBliIp2XzDz9xguBFXS7FeifboxVGegQ2RSXa-YAblH6SUNGzDmRWPMrcy0T2g3YvDMstmwtlXwuboGNmGqqGSETSCaKdSwv_a1RZEitIaSdTusTbRgaKcjWhmUeEfKUU93si4RBS8vRcxtCXz9dfa4a3cpbRC2SQi1D8D-P5WqdSjXZy-wqwuAhe7Lb53aZW8rk990UmuEij-yy7AuAuFaOuh9Q2OtrfM1Rz5brWj6oDrJnPKDKhmmw0XH-XVNZTOATz3bVtV30mbKzVBO24XblfSQk0twhkKmLIsO7pC6BseevM49nQ-RTJyQiAHLk5dvD_Y7clvCzxncYD4boAhXA-0Erut7Du4-w==",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Fidelis Care\\\" \\\"appeal\\\" \\\"PO Box\\\" New York health plan member appeal medical necessity -medicaid\",\"count\":20}",
+   "call_id": "call_wGnyWIiK5fC0K9lqEyAnIm47",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_08bba3d6dfd2b8d0016a9b6b3e1b4887d2a20ca0a570d72de1",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_wGnyWIiK5fC0K9lqEyAnIm47",
+   "output": "{\"query\": \"\\\"Fidelis Care\\\" \\\"appeal\\\" \\\"PO Box\\\" New York health plan member appeal medical necessity -medicaid\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "id": "rs_08bba3d6dfd2b8d0016a9b6b409f8c87d2b6174d075e2b547f",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2tL-k-QIQxELJDRx68F5HXD21WW4y0nEgT6J6YIVA3eTA3AHDUBDHAVDT5KiyBMOTRjjGZ0mD908WsVDNDSWUuSfIn2rHNtWNyFnYbTpSxGhZwufb1d2lsY4l3Gvo4Jvh65dq4wjarQ_VcsRLdxw4QfqsK94bp7OGXaCJ8ssdwonkFgKEFGB1HGk9VVz6bBTSqMtlCrQoOwFji_eMidlmF7dN9M0jDjvCc5IKyPOToK8Vy4NRzrS5rgmoHkLPLQ0v9k2q2R4Fb81R4avfNiBMVM9m4iQqKcA3SfkAIGJP44Q7cOunpl6SAiWvYiMx7bxsJ8v7uVgQ44DlI8KfwexIwD8QJAfTd-9qEhb-rhwiMcIwdBl3dVEDk7xfeh30OD1P43eHIw7-e2p1p_KeQ1rK49GPB6Bl1YXIBbjnHpQThHn55-mFdnb32pqPh7Jz6-yQpZ8_NTdNGFWMw6l7H-khjwuZNbNURvh2I-_viZtJUWPkVIpaq0u0-Tq1xTD9pZURkSJ8FUdoqncWA-SATMNBeE83_uLIZXIFDvqm5ed-YI9s8qfiEd7xDJX0ltJYKy_cCxK_ay5zEIqt6U8IP3jSir3l1Pimg06n3f8kMNqSMpWFOy0lItoYwRhaUtZ0BawHJejgxXJjBfeB_HuXbiru6hu-Z2tpaJA7Fli_8PAV5V4TCVs4iZ_16YFXXcsG_ytC8w02r5H9Woqh3bvzMp2hs9AqK8FSMHZyfnPtqA-4c1WQu0ziVtqvvzXn2Qd-wB-VnbnX1-7tUpimhyJyC1ves9yxdF6jwAB7GjBy3oNSNIml3iaHOjzqgSNC2KFuTn_GdVuQlQRL1EuYqZQ7el4J1uOsWD8Q98TzF57Hy2VsyFeuHg9boUVVdpbrY0L5cuRnW5Ad3qNz0M3o_4VqDSz9Hj6HKxRVBZ5GrStmWdlqBFFHYzpmTyjAZbyR_I3J5TQY5xRtv-UyNoBNHfj5htVxj4JH49W4Y0tLmA0mwqd82V9TkitquJHqOuHrlE3s5VWPZGKPZMpAVlYfA-u6lu430IC4DP3xGcyf9rxj2CK7TFI_eWdrWCpWCSs6Et1kSUBmnJsPGImQm1MZAdNdS8eROull5sSS6wfgTyiVvxnnEHGBVOA0_uGXl4CkVLoMXn4lQ74ErUv69Ik-tRJFQ4abteK6DuM01zxXlfj9YtfH9YvnnJpbAEs0k41gqvPnlZlOkuFky9mXiCCOMtZremnzjMAnyHCQQ6tj-oEiNU7FQn0mBrrNr-aox9RqEoZl_WpJY0nSbtNH-fnowieh8n1PduMZmywH-8L_IyjN_RS9cN60jqN9ABJ6oYLdB1r5O5ilX-jD_gRg5fIbLGfMyXTwCJLg5wt4bft67NFnmmyWNVN2ieNUHqp2yOB28sAux3N2A5y61PFy-ZaeZwi5960WikRXa5fuRVYG-l5sp4RglkD068nbV2mtWzH2Q5FmpTTHARmHLq48Eg77xZB_T3Seuno73OxKq6urNHmtsPjw-rLTB0ur7ILvlV5kzq2C6vRyXd2w5BQZ3rIC-zXIIO_HlhbdPE_gnZ57-upYXZGsxSfKTrgWVcWoVlssOKwifTBVB0pr5TdAxibagcCeBC8GLJY48nc0SQzz6IlZ3wB99iKPlrRp_expXEwhiXLd7sjgQmXP8SKyH81P5sgFpse8gRCErIQscyr5zIup8X7r47ws39mD1cugWfVyPpeEctuSP3VseWWGU2fgdUO6etPq-aRAY-4sjTfOnAbqMbzwWU2pPkA0eD6tCtJDhLSEoALWqooGfVC-mzn4sFzudKFMjkAsrQxE8YulxbFZEeasozFcfEBym0ATgTCTi7ZIMwC-KoK-6kDWurzDPCjmwcPEzPXg19sYebKFqLOD4OZqJ4xcR5Hzb_yIQpmmvz3WK44kWrl4gRO8mNDAP70PApxed0y_Y5rY_EoK6-C1Dhuns4q8ZgZcXv8bgj3KnDwPndIt0p89IU5rmji39eMmUwghDQln69qaJqhHXdqpy9jt_elNEMXs-bJeaktO0okcF64hqQu5J_lRGxkgrq0tKV0FX1gryGNRkPqBIDA5hgu-vroZiCpDck_cZyTamXk1Tc7CUQk93tJlnEFg7UGT1XoIdTGmRiexnJ_T3HUkSzV2CSCs2YFtLmrlTo3ziti9U7HrBJQCw95h7lsXX_ln_XQyaA2BwqWEV-FsDOjS31uwR7rK_BbQz_naZHG57si22VQzSFZyZRmwy8taGJ2Z7mUMcPAetTzcuM5w0QbaSOBIoTM-AVnuFPKzfglTbR-tBmMC5DA96rbDcAMNa7j_7U8A3ihY7uyDJghHniapIa5X4v9dOARMq_7R7yE1Qexcx7S-n6ZRHvuMqlVqv0n8bq1qxou5mQ-gFbdxpTbZEq1y6umvrhpKwjKYF-aiWq8Dc-kkWWcs54BuMJ3SrxB4Oh8KmbTK97bCRKFbSUJFsPk4vhGL5qHAtDNl6Hqh7Q1dRfHJ2NXZ3bQ-du3irn-P7IwzUz2Wyeeun_ZAY9UOrbYpcXR4DMDm0WRhw5gzKTZ_W0sEYFDJT5DwX8j4CQq8B8EtwyUqtxMR1LuLjR3MV2svEJJoc-zYZmxAlArN8al9RIs-JisEjguy48P_OJR8RBHCzzRwdUj-XmBMfU_h-va-nOqjXKLOAzdHgaIdIxCpNHs0TrE6QsivJMkodUMKj_KRdkGMHC1kFo8hP2LlbOTp_5hu4RDzPt6BF5aY8jIUi9kmMT-eAtGbSc2BwT3Lp4lJ_CjyjzmjkUm1_EBlyJnNuNyT2-n90p4QENZWNa5iYg8etNSvLSu0c5TH4B4nZWCrIXqODp_lJ4Kr1jP_vR-YY0kswDV_3gCHlGO9A5PxoD7QiQi9xFvLyploLdKaONpvERBD8-gK9MbfjpPppK3iXFoQUGuLulzMkLMOW7YEMFeXVWvUmmm0We8IJWQ9MOlE-Be9Fm_t-6MDi1PfgiuH8Mwr7Xbo-qG5_WpQG0V9byXd-PHOVlJ6RSFhFNd4Wx2qUQyJS-yKH7ZwQi3tpXzAemwNO2-XG574Ibd5FrLYRLIl6FATB4cesF19DQdSoLnAqLHHVF4KHPHnAmTROKLxJLeE6eFvsbLcmwMP4oYii3vtRDwHrJp0UD2z4X6W9NlJlgXT40KE8mrU4gKCRnXoTIeBfQDAOK_Hq9oo9W6PUYAfJWmcvRVBlBWHIGAxUKvoZDnYhWOH68lqB4W8GcCKE5zsJ9hJBD974FtDahDwxiqx45uTFVOASCjY73Vq8NvBz7CRP3cn1WW8cvPncl5IUByyz-TU6Mc5WkMhtmrxQj-hA-1co7z26N1IrL-NguCx1qvrLkCAKIvyToZ2mOOY7VgqwQukT_a_v5kYNclYH03lb8s-AsRZ51QbpACnAfwdoYF5809kfazv_BzyMswcbFg0hbpNqArmaiij_BjAm8uz0KY6zI1jOHIPmk4EqOfxDcVbu0k6u5qEOJ5oId_35g3QcRt5V7uvvZ5O9JX5GbEu0wZjRx65MT8YUsv4J01DQ6g693hu4weE_4JnXJI9V_EcmMSizO9iz1PCCSsCyn6z3rZqDvY1dU-eOpaJIVq04aVwZzSu-cpETuJFFD8ndSaOm1UcGC-no9mM0J5lqy87bztyMEawY2Ys4kxmnpSyHH_mTEofEULKwMyc9uhiv8Xsv22lGUnnbxoIWLzSxjAJi2xcCEQGCJ3ygfd9qdTgmkaVd6v_3tGV7L2D3m3AI2cJ92kv9HxfUDKi6WOXJ5K_fDQerjfqCZzxf8jg2HxoihlMn6qnyqdxTr_BPLpN0ZtMjrjG5fdyhzckt0goRUSQtKfSipNJMqZgTf_1cQieAw5ZLL7szY7LT7HxOcpaNVK1ikMXNjspg8fU-7DN39QKFh8aFw4Gv1m8x7ShbHZG9YGv3fpisLy1x2bUf-IvOsuQC8hIsZnStYi3Pkm15HiQ14HtVruvTPEgZw9BQZEzwVBg==",
+   "status": null
+  },
+  {
+   "id": "msg_08bba3d6dfd2b8d0016a9b6b46018c87d299014d60ac729dd4",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": null,\n  \"effective_date\": null,\n  \"criteria_quotes\": [],\n  \"appeal_deadline\": \"2027-02-21 (180 days after the August 25, 2026 notice date)\",\n  \"submission_route\": \"The denial notice does not state an appeal mailing address, fax number, portal, or telephone submission method. Contact Fidelis Care using the Member Services number on the member ID card and request the correct route for a commercial/ACA medical-necessity appeal. The provider may also ask Fidelis Care to submit the authorization appeal through its provider portal or utilization-management channel. Include the member name and ID, reference number POC-1ACF427871-17933, the requested CPT code 27446, the denial notice, and supporting clinical and imaging records.\",\n  \"how_to_obtain_criteria\": \"Request from Fidelis Care, in writing or through Member Services, the exact medical policy and clinical-review criteria used for this determination, including the policy title, policy/reference number, version or effective date, and the specific criteria and imaging requirements applied to CPT 27446. Ask Fidelis Care to provide the criteria and the clinical rationale used by the reviewer. The provider should also request the criteria through Fidelis Care's utilization-management department when filing the appeal.\",\n  \"confidence\": \"High that no payer-specific medical-necessity policy containing the applicable CPT 27446 criteria was located in the public materials retrieved; moderate regarding the submission route because the notice supplied no route and the publicly retrieved Fidelis materials did not provide a verified member-specific commercial appeal address.\",\n  \"notes\": \"Fidelis Care publicly lists a 2025 Hip, Knee, and Shoulder Utilization Code Matrix that identifies CPT 27446 as knee arthroplasty/UKA, but the matrix is a code/utilization document and does not contain the medical-necessity criteria for approval. Fidelis Care also publicly describes an MSK program administered through Evolent/National Imaging Associates, but the retrieved material did not establish that a particular publicly available Evolent guideline was the governing policy applied to this member's commercial/ACA determination. The only stated reason in the notice is: \\\"the imaging findings submitted do not support the medical necessity of the requested procedure.\\\"\"\n}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": "final_answer"
+  }
+ ],
+ "stop_reason": "completed",
+ "usage": {
+  "input_tokens": 104221,
+  "output_tokens": 2422
+ },
+ "model": "gpt-5.6-luna",
+ "elapsed_s": 52.9,
+ "run_id": "r-46cfed1af3f1",
+ "case_id": "poc-1acf427871"
+}

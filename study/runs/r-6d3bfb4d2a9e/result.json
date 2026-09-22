@@ -1,0 +1,30 @@
+{
+ "answer": {
+  "policy_found": true,
+  "policy_title": "Cigna CMM-311: Knee Replacement/Arthroplasty",
+  "policy_number": "CMM-311",
+  "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-11/Cigna_CMM-311%20Knee%20Replacement%20Arthroplasty_V2.0.2025_Eff03.07.2026_Pub11.21.2025.pdf",
+  "effective_date": "2026-03-07",
+  "criteria_quotes": [
+   "Partial Knee Replacement - Unicompartmental (Medial, Lateral, or Patellofemoral).",
+   "Partial knee replacement (medial, lateral, or patellofemoral) is considered medically necessary when ALL of the following criteria have been met:",
+   "Imaging or arthroscopic findings show EITHER of the following:",
+   "severe unicompartmental (medial, lateral, or patellofemoral) osteoarthritis."
+  ],
+  "appeal_deadline": "2027-01-28. The notice states that the appeal must be received within 180 days of 2026-08-01.",
+  "submission_route": "Call the customer-service telephone number on the Cigna ID card and request an appeal, or submit a written appeal through Cigna's Customer Forms/Forms Center or myCigna. Include the denial notice, reference number POC-8AD74FF769-66861, the member ID, the provider's supporting records, imaging reports and images, and an explanation addressing the CMM-311 criteria. Cigna's public member guidance states that the written submission route and applicable address depend on the member's plan; use the address on the Cigna appeal form or the member's ID card. Cigna's Arizona appeals packet also states that an appeal may be filed by telephone or in writing.",
+  "how_to_obtain_criteria": "Ask Cigna, using the telephone number on the ID card, for the complete CMM-311 guideline that was applied to CPT 27446 and for the case-specific clinical-review rationale explaining why the submitted imaging did not satisfy it. Ask the provider to request the same information through Cigna's provider portal or precertification channel. Also request the applicable plan certificate or policy document, because Cigna states that the appeal process and requirements are controlled by the member's plan documents.",
+  "confidence": "medium",
+  "notes": "The retrieved Cigna/EviCore document identifies CMM-311 as applying to Cigna-managed services and includes CPT 27446 in the knee arthroplasty program. Its indexed text confirms the partial-knee medical-necessity section and the requirement for qualifying imaging or arthroscopic findings, including severe disease confined to one compartment. The PDF itself was publicly retrievable but could not be text-extracted in the research environment, so I have not supplied unverified additional criteria from the remainder of that section. Cigna's public member page confirms the 180-calendar-day appeal period and instructs members to call the number on the ID card, use Customer Forms or myCigna, and include supporting documentation."
+ },
+ "raw_text": "{\n  \"policy_found\": true,\n  \"policy_title\": \"Cigna CMM-311: Knee Replacement/Arthroplasty\",\n  \"policy_number\": \"CMM-311\",\n  \"policy_url\": \"https://www.evicore.com/sites/default/files/clinical-guidelines/2025-11/Cigna_CMM-311%20Knee%20Replacement%20Arthroplasty_V2.0.2025_Eff03.07.2026_Pub11.21.2025.pdf\",\n  \"effective_date\": \"2026-03-07\",\n  \"criteria_quotes\": [\n    \"Partial Knee Replacement - Unicompartmental (Medial, Lateral, or Patellofemoral).\",\n    \"Partial knee replacement (medial, lateral, or patellofemoral) is considered medically necessary when ALL of the following criteria have been met:\",\n    \"Imaging or arthroscopic findings show EITHER of the following:\",\n    \"severe unicompartmental (medial, lateral, or patellofemoral) osteoarthritis.\"\n  ],\n  \"appeal_deadline\": \"2027-01-28. The notice states that the appeal must be received within 180 days of 2026-08-01.\",\n  \"submission_route\": \"Call the customer-service telephone number on the Cigna ID card and request an appeal, or submit a written appeal through Cigna's Customer Forms/Forms Center or myCigna. Include the denial notice, reference number POC-8AD74FF769-66861, the member ID, the provider's supporting records, imaging reports and images, and an explanation addressing the CMM-311 criteria. Cigna's public member guidance states that the written submission route and applicable address depend on the member's plan; use the address on the Cigna appeal form or the member's ID card. Cigna's Arizona appeals packet also states that an appeal may be filed by telephone or in writing.\",\n  \"how_to_obtain_criteria\": \"Ask Cigna, using the telephone number on the ID card, for the complete CMM-311 guideline that was applied to CPT 27446 and for the case-specific clinical-review rationale explaining why the submitted imaging did not satisfy it. Ask the provider to request the same information through Cigna's provider portal or precertification channel. Also request the applicable plan certificate or policy document, because Cigna states that the appeal process and requirements are controlled by the member's plan documents.\",\n  \"confidence\": \"medium\",\n  \"notes\": \"The retrieved Cigna/EviCore document identifies CMM-311 as applying to Cigna-managed services and includes CPT 27446 in the knee arthroplasty program. Its indexed text confirms the partial-knee medical-necessity section and the requirement for qualifying imaging or arthroscopic findings, including severe disease confined to one compartment. The PDF itself was publicly retrievable but could not be text-extracted in the research environment, so I have not supplied unverified additional criteria from the remainder of that section. Cigna's public member page confirms the 180-calendar-day appeal period and instructs members to call the number on the ID card, use Customer Forms or myCigna, and include supporting documentation.\"\n}",
+ "stop_reason": "completed",
+ "usage": {
+  "input_tokens": 154681,
+  "output_tokens": 3300
+ },
+ "model": "gpt-5.6-luna",
+ "elapsed_s": 62.2,
+ "run_id": "r-6d3bfb4d2a9e",
+ "case_id": "poc-8ad74ff769"
+}

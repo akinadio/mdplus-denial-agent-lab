@@ -1,0 +1,570 @@
+{
+ "answer": {
+  "policy_found": false,
+  "policy_title": null,
+  "policy_number": null,
+  "policy_url": null,
+  "effective_date": null,
+  "criteria_quotes": [],
+  "appeal_deadline": "2027-02-10 (180 days after the August 14, 2026 notice date)",
+  "submission_route": "Submit a member appeal using Ambetter from Magnolia Health's Grievance, Appeal, Concern or Recommendation Form, with the denial notice and supporting clinical records. The publicly indexed form lists fax 1-855-300-2614 for appeals and the following mailing address: Appeal Department, 111 East Capitol Street, Suite 500, Jackson, MS 39201. Ambetter's current provider appeal page separately lists the current mailing address for non-claim member appeals as Ambetter from Magnolia Health, 1020 Highland Colony Parkway, Suite 502, Ridgeland, MS 39157. Because the published sources show different mailing addresses, call Member Services at 1-877-687-1187 (Relay 711) to confirm the current mailing address before sending by mail.",
+  "how_to_obtain_criteria": "The Ambetter from Magnolia Health clinical-policy page states that its Clinical Policy Manual applies to members; if no Magnolia clinical policy exists, InterQual criteria may be used, and delegated vendors' guidelines may also be used. The page does not publicly identify which of those criteria were applied to this ACDF denial. Ask Member Services at 1-877-687-1187 to be directed to Medical Management and request: (1) the exact medical-necessity guideline used for CPT 22551, (2) its version and effective date, (3) the specific criteria not satisfied, and (4) the clinical-review rationale and imaging findings relied upon. The relevant public page is https://www.ambetterhealth.com/en/ms/provider-resources/clinical-payment-policies/.",
+  "confidence": "High that no payer-specific governing policy could be verified publicly; moderate for the submission instructions because the published mailing addresses conflict.",
+  "notes": "A publicly available document titled \"2026 Evolent Clinical Guidelines for Medical Necessity Review \u2014 Musculoskeletal Surgery Guidelines\" exists at https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf and is shown in search results as effective July 1, 2026 through July 1, 2027. However, the retrieved Ambetter materials do not establish that this document, rather than InterQual or another delegated guideline, governed this particular Magnolia Health denial. Therefore it is not identified here as the governing policy, and no unverified criteria are quoted."
+ },
+ "raw_text": "{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": null,\n  \"effective_date\": null,\n  \"criteria_quotes\": [],\n  \"appeal_deadline\": \"2027-02-10 (180 days after the August 14, 2026 notice date)\",\n  \"submission_route\": \"Submit a member appeal using Ambetter from Magnolia Health's Grievance, Appeal, Concern or Recommendation Form, with the denial notice and supporting clinical records. The publicly indexed form lists fax 1-855-300-2614 for appeals and the following mailing address: Appeal Department, 111 East Capitol Street, Suite 500, Jackson, MS 39201. Ambetter's current provider appeal page separately lists the current mailing address for non-claim member appeals as Ambetter from Magnolia Health, 1020 Highland Colony Parkway, Suite 502, Ridgeland, MS 39157. Because the published sources show different mailing addresses, call Member Services at 1-877-687-1187 (Relay 711) to confirm the current mailing address before sending by mail.\",\n  \"how_to_obtain_criteria\": \"The Ambetter from Magnolia Health clinical-policy page states that its Clinical Policy Manual applies to members; if no Magnolia clinical policy exists, InterQual criteria may be used, and delegated vendors' guidelines may also be used. The page does not publicly identify which of those criteria were applied to this ACDF denial. Ask Member Services at 1-877-687-1187 to be directed to Medical Management and request: (1) the exact medical-necessity guideline used for CPT 22551, (2) its version and effective date, (3) the specific criteria not satisfied, and (4) the clinical-review rationale and imaging findings relied upon. The relevant public page is https://www.ambetterhealth.com/en/ms/provider-resources/clinical-payment-policies/.\",\n  \"confidence\": \"High that no payer-specific governing policy could be verified publicly; moderate for the submission instructions because the published mailing addresses conflict.\",\n  \"notes\": \"A publicly available document titled \\\"2026 Evolent Clinical Guidelines for Medical Necessity Review \u2014 Musculoskeletal Surgery Guidelines\\\" exists at https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf and is shown in search results as effective July 1, 2026 through July 1, 2027. However, the retrieved Ambetter materials do not establish that this document, rather than InterQual or another delegated guideline, governed this particular Magnolia Health denial. Therefore it is not identified here as the governing policy, and no unverified criteria are quoted.\"\n}",
+ "transcript": [
+  {
+   "role": "system",
+   "content": "You are helping a patient respond to a health insurance denial. Answer precisely and only from evidence you actually retrieve. If you cannot find the governing policy, say so plainly rather than naming a document you are unsure of."
+  },
+  {
+   "role": "user",
+   "content": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-14\nMember: Rowan Jennings\nMember ID: W965543948\nPlan: Ambetter (Magnolia Health) (Commercial/ACA), state of Mississippi\n\nDear Rowan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Neck (cervical) fusion (ACDF)\n    Procedure code (CPT): 22551\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-10).\n\nReference number: POC-AAA1CF805A-66883\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+  },
+  {
+   "id": "rs_091500d13fc7bdcd016a9b6e9790f887d28f45dfdf24037974",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm26ZVoSnQAwVzlyZcizoExVaNA_a4ve8_nbtcmyCyZ0GOTBu0aNG02ea9RYIsTS9Cg9j7QRnOgju1YKI3-8U3L5p3HezA8M2bB1KnazGs1deI9RKJEKhvq0tZuv6vYWiOPBSYBRxF0OTp-qiNP3az94w7aQXyIFjs8g7bp44KTd6nCo-dCrwP8gKcAV_4maoA43kV_KUY3x-UpNLJZwuqXQay4IhCrfvP7MJCmB_Arf0gFDa3SI9ehi8-YVcuGnbsGC3MvqFE3FsVWhnNKqQANrxsZ8FIIA7WYTsWfVEhIKcf0P7W7DQRF0KOZcvRRmWFvRftZnCES6zUk6xQyFfdVn3-ffsYE7pWq05LAi-rtQAKiQ6lqvplyUpqRQf8KCBoP27kmgPU2oM4ens1ZKBxTP_zqcL-JKba_Ra6msdKPkG2V1B9P2ggbignmVHXiwU_VSpGzVJGSFK6zdVtgoQw__7K39vuSLoL0FZ0qatraKpLzyWZCd3SH5dVux73pEKrNmZ1IxSZYrdcTvMM2vrgEoRJXKnQnZxnkSjz9R02TD9f0RplcRK_oEA1qokaVRZsRNAHC_-RAJVc8Ap9MOIdVOplEzRsTKks7oMPxSTdLfP8bnmaqgxuQ5fYw7QRULh12XM3PdXx7oDTnWOxn4PUmXp6tu6vvWJvNKH2yQfLgiWsmci-VlM1WYBiVpkt5XtpQawVUm2sXCaDt14bpn37wY_Ilo6mgxHehIl7_es0v3eWhbZocdg1GLYxbToAqkbg6LSBfVP5iv27MNt_k3FST2p4U54TUON1khQC1R5fq98dzlEHW2LnPs1vhwveF9ixFVcCjmV-ezI_05DhmCu_eHWYUGKjA2VOKr_beZCyQ8-QtKx97eKCU5Ja8ZwcFff7_mU3xi1WWrGK46hGVRiOVhPIH2k4b6624Kh1i0Hx_N279AHDY28d_yaRHZixVmZlYWYnG4rGjsMnOhPL6e1ke4XjP5zcK50BMjxP_vFzenGU3-g2-SFAZHxaSSvOZRopZEQ8IZ-TfS7GCCp-kKR9vIs-SLhITfmBRY9xsKK8tcziNbdQMIQyYVEcJGA4IOzQAvmDnNIPHrkbmDSp_NtUOlR2wSHOw9wLZoG-tVPmX2HbPNYmhjQzOlyJ90E8Cgo7Ayj88d34syjSa3X_MmS_rmbk2luYBrFPt6wRSFoWHdbRky52ckJgycBBtnxaSKciCtQVY9B5S4W3vRSv6ZnJ-UVTw==",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:ambetterhealth.com Mississippi cervical fusion medical policy 22551 ACDF Magnolia Health policy PDF 2026\",\"count\":10}",
+   "call_id": "call_ifrSkvhFHn7eKpMQOWIkqGic",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_091500d13fc7bdcd016a9b6e98d19c87d2823ede2b0250aacf",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:ambetterhealth.com \\\"22551\\\" \\\"medical policy\\\" cervical fusion\",\"count\":10}",
+   "call_id": "call_1pOyeJBxFPHpM8yMWx3TO0tU",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_091500d13fc7bdcd016a9b6e98d1a887d288e657977138fc04",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Magnolia Health Ambetter Mississippi appeal adverse benefit determination submit appeal address 180 days commercial 2026\",\"count\":10}",
+   "call_id": "call_NkqahjnHhpCwcTDdtQuQHSb5",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_091500d13fc7bdcd016a9b6e98d1b487d296a7465c948995bb",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_ifrSkvhFHn7eKpMQOWIkqGic",
+   "output": "{\"query\": \"site:ambetterhealth.com Mississippi cervical fusion medical policy 22551 ACDF Magnolia Health policy PDF 2026\", \"results\": [{\"title\": \"Provider and Billing Manual 2026\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/Magnolia/Ambetter/PDFs/2026-ms-provider-manual.pdf\", \"snippet\": \"Provider and Billing Manual \u00b7 Ambetter from Magnolia Health is underwritten by Ambetter of Magnolia, Inc., which is a Qualified Health Plan issuer\"}, {\"title\": \"Utilization Review Matrix 2024 Musculoskeletal Surgery ( ...\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/home-state-health/ambetter/pdfs/Health-Spine%20Surgery-Evolent-UTIL-Ambetter.pdf\", \"snippet\": \"Cervical ACDF - Anterior Cervical \u00b7 Decompression \u00b7 with Fusion - Single \u00b7 Level \u00b7 22551 \u00b7 22548, 22551, 22554 \u00b7 Decompression: 63075, +63076 \u00b7 Removal of Artificial Disc: 22864 \u00b7 Vertebral Corpectomy: 63081, +63082, 63300, 63304, +63308 \u00b7 Instrumentation: +22845, 22853, 22854 \u00b7\"}, {\"title\": \"Provider Manuals and Forms | Ambetter from Magnolia Health\", \"url\": \"https://www.ambetterhealth.com/en/ms/provider-resources/manuals-and-forms/\", \"snippet\": \"Ambetter from Magnolia Health provides the tools you need to deliver the best quality of care. Access reference materials, medical management forms, and more.\"}, {\"title\": \"Affordable Health Insurance in Mississippi | Ambetter from Magnolia Health\", \"url\": \"https://www.ambetterhealth.com/en/ms/\", \"snippet\": \"Ambetter from Magnolia Health offers affordable Health Insurance plans in Mississippi. Find coverage through Marketplace to fit your needs and budget!\"}, {\"title\": \"Mississippi Health Plan Options | Ambetter from Magnolia Health\", \"url\": \"https://www.ambetterhealth.com/en/ms/health-plans/plan-options/\", \"snippet\": \"There are different metal tiers on the Health Insurance Marketplace with difference in premium and medical services costs. Learn about Ambetter plan options with Ambetter from Magnolia Health.\"}, {\"title\": \"Ambetter from Magnolia Health Offers Health Insurance in Mississippi\", \"url\": \"https://www.ambetterhealth.com/en/ms/newsroom/ambetter-from-magnolia-health-offers-health-insurance-mississippi/\", \"snippet\": \"Ambetter from Magnolia Health will offer <strong>affordable health insurance plans to residents across Mississippi for the 2026 plan year, with comprehensive coverage and convenient enrollment</strong>.\"}, {\"title\": \"Mississippi Health Plans | Ambetter from Magnolia Health\", \"url\": \"https://www.ambetterhealth.com/en/ms/health-plans/\", \"snippet\": \"Ambetter Health Solutions plans are available for 2026 coverage.\"}, {\"title\": \"Clinical Payment Policies | Ambetter from Magnolia Health\", \"url\": \"https://www.ambetterhealth.com/en/ms/provider-resources/clinical-payment-policies/\", \"snippet\": \"All policies found in the Magnolia Health Clinical Policy Manual apply to Ambetter from Magnolia Health members. If you have any questions, please contact Member Services.\"}, {\"title\": \"Mississippi Coverage Map | Ambetter from Magnolia Health\", \"url\": \"https://www.ambetterhealth.com/en/ms/health-plans/coverage-map/\", \"snippet\": \"Ambetter from Magnolia Health Plan offers Health Insurance Marketplace plans statewide in Mississippi. Find affordable coverage in your area. Learn more.\"}, {\"title\": \"Mississippi Medicaid & Health Insurance | Magnolia Health\", \"url\": \"https://www.ambetterhealth.com/en/ms/magnolia-health/\", \"snippet\": \"Magnolia Health exists to improve the health of its beneficiaries through focused, compassionate &amp; coordinated care. Get insured or become a provider today.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_1pOyeJBxFPHpM8yMWx3TO0tU",
+   "output": "{\"query\": \"site:ambetterhealth.com \\\"22551\\\" \\\"medical policy\\\" cervical fusion\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_NkqahjnHhpCwcTDdtQuQHSb5",
+   "output": "{\"query\": \"Magnolia Health Ambetter Mississippi appeal adverse benefit determination submit appeal address 180 days commercial 2026\", \"results\": [{\"title\": \"Complaints and Appeals | Magnolia Health\", \"url\": \"https://www.magnoliahealthplan.com/members/medicaid/resources/complaints-appeals.html\", \"snippet\": \"You must give written permission if someone else files an appeal for you. Magnolia will include a form in the Adverse Benefit Determination Notice. Contact Member Services at <strong>1-866-912-6285</strong> if you need help.\"}, {\"title\": \"Grievance Appeals | Ambetter from Magnolia Health\", \"url\": \"https://www.ambetterhealth.com/en/ms/provider-resources/manuals-and-forms/grievance-appeals/\", \"snippet\": \"Information regarding this process can be found at <strong>AmbetterHealth.com/en/ms</strong>. Depending on the nature of the complaint/grievance, the member will be offered the right to appeal our decision. At the conclusion of this formalized process, the member will receive written confirmation of the ...\"}, {\"title\": \"Ambetter From Magnolia Health\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/Magnolia/Ambetter/PDFs/MS_AMB_Claim_Dispute_Form.pdf\", \"snippet\": \"Use this form as part of the Ambetter from Magnolia Health Request for Reconsideration and Claim Dispute ... A Request for Reconsideration (Level I) is a communication from the provider about a disagreement with ... A Claim Dispute (Level II) should be used only when a provider has received an unsatisfactory response to ... The Request for Reconsideration or Claim Dispute must be submitted within 180 days for participating\"}, {\"title\": \"Grievance Process | Magnolia Health\", \"url\": \"https://www.magnoliahealthplan.com/providers/resources/grievance-process.html\", \"snippet\": \"Appeals may be requested orally or in writing by the member or the member\u2019s representative <strong>within sixty (60) calendar days from the date on the Adverse Benefit Determination notice</strong>, with a 14 day extension possible if additional information is required. Members may request that Magnolia Health ...\"}, {\"title\": \"CLAIM APPEAL FORM\", \"url\": \"https://www.magnoliahealthplan.com/content/dam/centene/Magnolia/medicaid/pdfs/Claim%20Appeal%20Form.pdf\", \"snippet\": \"Use this form as part of the Magnolia Health Plan of Mississippi Claim Appeal process to dispute an adverse benefit \u00b7 determination. The Claim Appeal Form must be attached to the Claim Appeal. The Claim Appeal process should only be\"}, {\"title\": \"Provider and Billing Manual 2026\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/Magnolia/Ambetter/PDFs/2026-ms-provider-manual.pdf\", \"snippet\": \"To obtain application status, the practitioner should <strong>contact the Credentialing \u00b7 Department at 1-877-687-1187</strong>. Practitioner Right to Appeal or Reconsideration of Adverse ... credentialing determinations (for reasons such as appropriateness of care or liability claims issues)\"}, {\"title\": \"Filing an Appeal | Magnolia Health Plan\", \"url\": \"https://www.magnoliahealthplan.com/members/chip/resources/complaints-appeals/filing-appeal.html\", \"snippet\": \"Magnolia Health Plan offers affordable Mississippi Medicaid and our Health Insurance Marketplace product, Ambetter. Get covered with Magnolia Health Plan today.\"}, {\"title\": \"Grievance, Appeal, Concern or Recommendation Form\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/Magnolia/Ambetter/PDFs/MS-FORM-MEMBER-GRIEVANCE-APPEAL-CONCERN-FORM_read-Level-6-3.pdf\", \"snippet\": \"Grievance, Appeal, Concern or Recommendation Form \u00b7 If you wish to file a grievance, appeal, concern or recommendation, please complete this\"}, {\"title\": \"MSCAN Claims (Medical Only) \u2013 Frequently Asked Questions\", \"url\": \"https://www.magnoliahealthplan.com/content/dam/centene/Magnolia/medicaid/pdfs/Claims-FAQ%20-%20508.pdf\", \"snippet\": \"MSCAN Claims (Medical Only) \u2013 Frequently Asked Questions \u00b7 1. What is the timely filing limit for original claim submissions? <strong>Within 180 days of the date of service</strong>\"}, {\"title\": \"1 Newsletter Title IN THIS ISSUE IN THIS ISSUE Volume 31, Issue 4\", \"url\": \"https://medicaid.ms.gov/wp-content/uploads/2023/10/October-2023-Provider-Bulletin.pdf\", \"snippet\": \"Mississippians. ... Provider Grievance and Appeals vs. ... Magnolia\u2019s notice of adverse benefit determination.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "id": "rs_091500d13fc7bdcd016a9b6e9c7aa487d2ab351ed0628c8198",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm26fybbis7bclWjy79qJLcUTfxUpvs9gR8koNkdgXWxo2twsZalfsqQ6S5DkisagprlUBQqjuW0u4pNNJ35MQHvWqbpcl97shkdoF2cs9Oaa59qndQheczvof79iJJBOYmb9fYwWIMRVBwXLQ7TBNSgnZtFpx9JcCal_h9KYBHiHZCjpS2x1_O3JxQji-cFS6Qyo2YSmw11rOpUKH6t6zmaiRj6gjJrrnGy4tYZ1C7d7o4oWJNZzaS74dGss711BsmPjAnYnFir2YrOjJKNqpXNubvvOpYUFLUbod_Tih5JSV5iYXU5ucrHJZE6SGdJUFxnQp9xO8Jx_zPFiG_qbSzxVyqQZbMP8WOPs_gfn-IUcj6cal-odqgRbui3GyP9l18xVZrWXXOLem2aN7xNm11MEK24NHNjDFm6Q2h64hj6EYVtApuhk2E1XYMn-4eZNPhmxSu0qgKKGWwcDTgoMG5SnXdW20fbk3MasH1Amk01fiuLdSUdWj_x5mGPbnqzt10p67tsmtM58pRQoHzmuVE8_6FDCFyXf1Liwi1IcH9Uk6WRXJCHr4tkNOUd7GL2O8AEk_NCMWj0Hfjl2fXCvJaOD_lLJwXatY6m0bX9-8WdRifsBFsLpzrP-lhphFYFyR35b0QBIYP4irp-kQSwjP2GBb5SAliaWn-Fa2MsZmy-l5IQPTWYDyS3Dhl6fqLvGfBpy77QTddMJuWBK6tRViNaPhWr0zJeUwpRRFP1D2tO8S1LQmtId4WadXcOKhFQpRqZBZrGMYiBsLcADG6uSt_YKZhPwdY5AvXxj2VcoAPHtCPkEPOLJ22SIs9Chmit5scJSNnZohE5EALhOmPcX4HVpIdDeZjWmd9Zx5nyc5kxCp9pKQvRH7ZLJBCF3nLXw4YGUAQD0eCONQnF58CXQZkdS6teRfMFfWMCuTKP2mEjtbFHwmR91t9CXAx3h0G93eaZbFCwQe9rfyK3yrNlG8pwezyikAasJaL6bWLTMvR9pIxikcrNDxVkNHEXNkZomuyxgOhM91C9sTD8YqHNMVQ0Z7VDA9sfEswbN02fT3ZXVBBE1c92uBTpKkNHy7OSVVkuC3UrYEYtgslVVPeQ9VJwuijmS7TLRNa-XxSklcaEwTl90VLGozN0GzX9Ab6D822u9uuWAFmHhyVcsD8X2cvlRkRqyMLRjK8T_AQl5W3BVVbcsdsZWLIOY5iGxWXPslihB",
+   "status": null
+  },
+  {
+   "arguments": "{\"url\":\"https://www.ambetterhealth.com/en/ms/provider-resources/clinical-payment-policies/\"}",
+   "call_id": "call_CRE3LZATrnAOcshP8xrfMKTW",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_091500d13fc7bdcd016a9b6e9ee6a887d298e46e3f447e003f",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://www.ambetterhealth.com/en/ms/provider-resources/manuals-and-forms/grievance-appeals/\"}",
+   "call_id": "call_2WBebBEjhhMscPEJD5z6slZE",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_091500d13fc7bdcd016a9b6e9ee6b887d28bdf564520055927",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://www.ambetterhealth.com/content/dam/centene/Magnolia/Ambetter/PDFs/2026-ms-provider-manual.pdf\"}",
+   "call_id": "call_6lDut2J9qtelhQL7nkLxZ9bT",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_091500d13fc7bdcd016a9b6e9ee6c087d2bb58abf6cb324958",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://www.ambetterhealth.com/content/dam/centene/Magnolia/Ambetter/PDFs/MS-FORM-MEMBER-GRIEVANCE-APPEAL-CONCERN-FORM_read-Level-6-3.pdf\"}",
+   "call_id": "call_vjKZ5uHml3GMYhErbAr1kd7L",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_091500d13fc7bdcd016a9b6e9ee6c887d292b06308e69c835c",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_CRE3LZATrnAOcshP8xrfMKTW",
+   "output": "{\"url\": \"https://www.ambetterhealth.com/en/ms/provider-resources/clinical-payment-policies/\", \"final_url\": \"https://www.ambetterhealth.com/en/ms/provider-resources/clinical-payment-policies/\", \"http_status\": 200, \"content_type\": \"text/html;charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Clinical Payment Policies | Ambetter from Magnolia Health Skip to Main Content Pay Now Need Help? Login Member Provider Broker Pay Now Need Help? Login Member Provider Broker \u00bfHablas Espa\u00f1ol? Affordable Health Insurance in Mississippi | Ambetter from Magnolia Health En Affordable Health Insurance in Mississippi | Ambetter from Magnolia Health Search Enter Keyword Search Our Health Plans show Our Health Plans menu About Our Plans Programs & Perks My Health Pays Rewards\u00ae Coverage Area Map Ways to Save What is Ambetter Health? Shop and Compare Plans Find a Broker Find a Provider Shop and Compare Plans Use your ZIP Code to find your personal plan. See coverage in your area Find doctors and hospitals View pharmacy program benefits View essential health benefits Find and enroll in a plan that's right for you. Join Ambetter Health show Join Ambetter Health menu Become a Member Become a Provider Become a Broker Enroll in a Plan How to Enroll in a Plan Four easy steps is all it takes What you need to enroll Special Enrollment Information For Members show For Members menu Pay Now Find a Provider Drug Coverage Forms and Materials Ways to Pay New Members Renew Your Plan HealthHub Member News Caregiver Resources Health Savings Account Mental Health Resources Member Login Find everything you need in the member online account View your claims Review your plan benefits Print your ID card View rewards points total For Providers show For Providers menu Provider Login Drug Coverage Pre-Auth Check Provider Resources Clinical and Payment Policies Provider News Provider Toolkits No Surprises Act For Brokers show For Brokers menu Broker Login Drug Coverage Enroll a Client Now Coverage Area Map Broker Contact Shop Our Plans close navigation Main Menu Our Health Plans show Our Health Plans menu About Our Plans Programs & Perks My Health Pays Rewards\u00ae Coverage Area Map Ways to Save What is Ambetter Health? Shop and Compare Plans Find a Broker Find a Provider Shop and Compare Plans Use your ZIP Code to find your personal plan. See coverage in your area Find doctors and hospitals View pharmacy program benefits View essential health benefits Find and enroll in a plan that's right for you. Join Ambetter Health show Join Ambetter Health menu Become a Member Become a Provider Become a Broker Enroll in a Plan How to Enroll in a Plan Four easy steps is all it takes What you need to enroll Special Enrollment Information For Members show For Members menu Pay Now Find a Provider Drug Coverage Forms and Materials Ways to Pay New Members Renew Your Plan HealthHub Member News Caregiver Resources Health Savings Account Mental Health Resources Member Login Find everything you need in the member online account View your claims Review your plan benefits Print your ID card View rewards points total For Providers show For Providers menu Provider Login Drug Coverage Pre-Auth Check Provider Resources Clinical and Payment Policies Provider News Provider Toolkits No Surprises Act For Brokers show For Brokers menu Broker Login Drug Coverage Enroll a Client Now Coverage Area Map Broker Contact Shop Our Plans Pay Now Need Help? Login Member Provider Broker Pay Now Need Help? Login Member Provider Broker \u00bfHablas Espa\u00f1ol? Affordable Health Insurance in Mississippi | Ambetter from Magnolia Health En Affordable Health Insurance in Mississippi | Ambetter from Magnolia Health Search Enter Keyword Search Clinical Payment Policies | Ambetter from Magnolia Health Clinical & Payment Policies Clinical Policies Clinical policies are one set of guidelines used to assist in administering health plan benefits, either by prior authorization or payment rules. They include but are not limited to policies relating to evolving medical technologies and procedures, as well as pharmacy policies. Clinical policies help identify whether services are medically necessary based on information found in generally accepted standards of medical practice; peer-reviewed medical literature; government agency/program approval status; evidence-based guidelines and positions of leading national health professional organizations; views of physicians practicing in relevant clinical areas affected by the policy; and other available clinical information. All policies found in the Magnolia Health Clinical Policy Manual apply to Magnolia Health members. Policies in the Magnolia Health Clinical Policy Manual may have either a Magnolia Health or a \u201cCentene\u201d heading. Magnolia Health utilizes InterQual\u00ae criteria for those medical technologies, procedures or pharmaceutical treatments for which a Magnolia Health clinical policy does not exist. InterQual is a nationally recognized evidence-based decision support tool. You may access the InterQual\u00ae SmartSheet(s)\u2122 for Adult and Pediatric procedures, durable medical equipment and imaging procedures by logging into the secure provider portal or by calling Magnolia Health. In addition, Magnolia Health may from time to time delegate utilization management of specific services; in such circumstances, the delegated vendor\u2019s guidelines may also be used to support medical necessity and other coverage determinations. Other non-clinical policies (e.g., payment policies) or contract terms may further determine whether a technology, procedure or treatment that is not addressed in the Clinical Policy Manuals or InterQual\u00aecriteria is payable by Magnolia Health. If you have any questions regarding these policies, please contact Member Services and ask to be directed to the Medical Management department. For Oncology requests, Evolent policies may be utilized for determinations. Ambetter Clinical Policies Adopted Clinical Practice and Preventive Health Guidelines (CPG Grid) (PDF) Air Ambulance (CP.MP.175) (PDF) Allogeneic Hematopoietic Cell Transplants for Sickle Cell Anemia and \u03b2-Thalassemia (CP.MP.108) (PDF) Allogeneic Hematopoietic Progenitor Cell Therapy (CP.MP.249) (PDF) Applied Behavior Analysis (CP.BH.104) (PDF) Applied Behavioral Analysis Documentation Requirements (CP.BH.105) (PDF) Assisted Reproductive Technology (CP.MP.55) (PDF) Attention Deficit Hyperactivity Disorder Assessment and Treatment (CP.BH.124) (PDF) Bariatric Surgery (CP.MP.37) (PDF) Behavioral Health Treatment Documentation Requirements (HIM.CP.BH.500) (PDF) Biofeedback (CP.MP.168) (PDF) Biofeedback for Behavioral Health Disorders (CP.BH.300) (PDF) Bone-Anchored Hearing Aid (CP.MP.93) (PDF) Burn Surgery (CP.MP.186) (PDF) Caudal or Interlaminar Epidural Steroid Injections (CP.MP.164) (PDF) Clinical Trials (CP.MP.94) (PDF) Concert Genetic Testing Oncology: Algorithmic Assays V2.2025 (PDF) Concert Genetic Testing Oncology: Cancer Screening and Surveillance V2.2025 (PDF) Concert Genetic Testing Oncology: Hematologic Malignancy V2.2025 (PDF) Concert Genetic Testing Oncology: Solid Tumor Molecular Diagnostics V2.2025 (PDF) Concert Genetic Testing: Cardiovascular V2.2025 (PDF) Concert Genetic Testing: Dermatology V2.2025 (PDF) Concert Genetic Testing: Endocrinology V2.2025 (PDF) Concert Genetic Testing: Gastroenterology V2.2025 (PDF) Concert Genetic Testing: General Approach to Genetic and Molecular Testing V2.2025 (PDF) Concert Genetic Testing: Hematology V2.2025 (PDF) Concert Genetic Testing: Hereditary Cancer V2.2025 (PDF) Concert Genetic Testing: Identity and Forensics V2.2025 (PDF) Concert Genetic Testing: Immunology and Rheumatology V2.2025 (PDF) Concert Genetic Testing: Multisystem Genetic Conditions V2.2025 (PDF) Concert Genetic Testing: Nephrology V2.2025 (PDF) Concert Genetic Testing: Neurology V2.2025 (PDF) Concert Genetic Testing: Nutrition and Metabolism V2.2025 (PDF) Concert Genetic Testing: Ophthalmology V2.2025 (PDF) Concert Genetic Testing: Orthopedics V2.2025 (PDF) Concert Genetic Testing: Otolaryngology V2.2025 (PDF) Concert Genetic Testing: Preimplantation Genetic Testing V2.2025 (PDF) Concert Genetic Testing: Prenatal and Preconception Carrier Screening V2.2025 (PDF) Concert Genetic Testing: Prenatal Diagnosis V2.2025 (PDF) Concert Genetic Testing: Prenatal Screening V2.2025 (PDF) Concert Genetic Testing: Respiratory V2.2025 (PDF) Concert Genetic Testing: Toxicology and Pharmacogenetics Version A V2.2025 (PDF) Concert Genetic Testing: Transplant V2.2025 (PDF) Cosmetic and Reconstructive Procedures (CP.MP.31) (PDF) Deep Transcranial Magnetic Stimulation for Treatment of Obsessive Compulsive Disorder (CP.BH.201) (PDF) Diaphragmatic/Phrenic Nerve Stimulation (CP.MP.203) (PDF) Disc Decompression Procedures (CP.MP.114) (PDF) Discography (CP.MP.115) (PDF) Donor Lymphocyte Infusion (CP.MP.101) (PDF) Durable Medical Equipment and Orthotics and Prosthetics Guidelines (CP.MP.107) (PDF) Electric Tumor Treating Fields (Optune) (CP.MP.145) (PDF) Experimental Technologies (CP.MP.36) (PDF) Facet Joint Interventions (CP.MP.171) (PDF) Facility Based Sleep Studies for Obstructive Sleep Apnea (CP.MP.248) (PDF) Fecal Incontinence Treatments (CP.MP.137) (PDF) Fertility Preservation (CP.MP.130) (PDF) Fetal Surgery in Utero for Prenatally Diagnosed Malformations (CP.MP.129) (PDF) Gastric Electrical Stimulation (CP.MP.40) (PDF) Heart-Lung Transplant (CP.MP.132) (PDF) Home Births (CP.MP.136) (PDF) Home Ventilators (CP.MP.184) (PDF) Hospice Services (CP.MP.54) (PDF) Hyperhidrosis Treatments (CP.MP.62) (PDF) Immobilized Lipase Cartridges (Relizorb) (CP.MP.252) (PDF) Implantable Hypoglossal Nerve Stimulation for Obstructive Sleep Apnea (CP.MP.180) (PDF) Implantable Intrathecal or Epidural Pain Pump (CP.MP.173) (PDF) Implantable Loop Recorder (CP.MP.243) (PDF) Implantable Wireless Pulmonary Artery Pressure Monitoring (CP.MP.160) (PDF) Therapeutic Utilization of Inhaled Nitric Oxide (CP.MP.87) (PDF) Intensity-Modulated Radiotherapy (CP.MP.69) (PDF) Intestinal and Multivisceral Transplant (CP.MP.58) (PDF) Intradiscal Steroid Injections for Pain Management (CP.MP.167) (PDF) IV Moderate Sedation, IV Deep Sedation, and General Anesthesia for Dental Procedures (CP.MP.61) (PDF) Lantidra (donislecel): Allogeneic Pancreatic Islet Cellular Therapy (CP.MP.250) (PDF) Liposuction for Lipedema (CP.MP.244) (PDF) Long Term Care Placement (CP.MP.71) (PDF) Lung Transplantation (CP.MP.57) (PDF) Lysis of Epidural Lesions (CP.MP.116) (PDF) Mechanical Stretching Devices for Joint Stiffness and Contracture (CP.MP.144) (PDF) Multiple Sleep Latency Testing (CP.MP.24) (PDF) Neonatal Abstinence Syndrome Guidelines (CP.MP.86) (PDF) Neonatal Sepsis Management (CP.MP.85) (PDF) Nerve Blocks and Neurolysis for Pain Management (CP.MP.170) (PDF) Neuromuscular and Peroneal Nerve Electrical Stimulation (NMES) (CP.MP.48) (PDF) NICU Apnea Bradycardia Guidelines (CP.MP.82) (PDF) NICU Discharge Guidelines (CP.MP.81) (PDF) Nonmyeloablative Allogeneic Stem Cell Transplants (CP.MP.141) (PDF) Obstetrical Home Care Programs (CP.MP.91) (PDF) Orthognathic Surgery (CP.MP.202) (PDF) Osteogenic Stimulation (CP.MP.194) (PDF) Outpatient Cardiac Rehabilitation (CP.MP.176) (PDF) Outpatient Oxygen Use (CP.MP.190) (PDF) Pancreas Transplantation (CP.MP.102) (PDF) Panniculectomy (CP.MP.109) (PDF) Pediatric Heart Transplant (CP.MP.138) (PDF) Pediatric Kidney Transplant (CP.MP.246) (PDF) Pediatric Liver Transplant (CP.MP.120) (PDF) Pediatric Oral Function Therapy (CP.MP.188) (PDF) Percutaneous Left Atrial Appendage Closure for Stroke Prevention (CP.MP.147) (PDF) Phototherapy for Neonatal Hyperbilirubinemia (CP.MP.150) (PDF) Physical, Occupational, and Speech Therapy Services (CP.MP.49) (PDF) Posterior Tibial Nerve Stimulation for Voiding Dysfunction (CP.MP.133) (PDF) Proton and Neutron Beam Therapies (CP.MP.70) (PDF) Radiation Therapy for Skin Cancer (CP.MP.251) (PDF) Repair of Nasal Valve Compromise (CP.MP.210) (PDF) Sacroiliac Joint Interventions for Pain Management (CP.MP.166) (PDF) Sclerotherapy and Chemical Endovenous Ablation for Varicose Veins and Other Symptomatic Venous Disorders (CP.MP.146) (PDF) Selective Dorsal Rhizotomy for Spasticity in Cerebral Palsy (CP.MP.174) (PDF) Selective Nerve Root Blocks and Transforaminal Epidural S\", \"text_truncated\": true}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_2WBebBEjhhMscPEJD5z6slZE",
+   "output": "{\"url\": \"https://www.ambetterhealth.com/en/ms/provider-resources/manuals-and-forms/grievance-appeals/\", \"final_url\": \"https://www.ambetterhealth.com/en/ms/provider-resources/manuals-and-forms/grievance-appeals/\", \"http_status\": 200, \"content_type\": \"text/html;charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Grievance Appeals | Ambetter from Magnolia Health Skip to Main Content Pay Now Need Help? Login Member Provider Broker Pay Now Need Help? Login Member Provider Broker \u00bfHablas Espa\u00f1ol? Affordable Health Insurance in Mississippi | Ambetter from Magnolia Health En Affordable Health Insurance in Mississippi | Ambetter from Magnolia Health Search Enter Keyword Search Our Health Plans show Our Health Plans menu About Our Plans Programs & Perks My Health Pays Rewards\u00ae Coverage Area Map Ways to Save What is Ambetter Health? Shop and Compare Plans Find a Broker Find a Provider Shop and Compare Plans Use your ZIP Code to find your personal plan. See coverage in your area Find doctors and hospitals View pharmacy program benefits View essential health benefits Find and enroll in a plan that's right for you. Join Ambetter Health show Join Ambetter Health menu Become a Member Become a Provider Become a Broker Enroll in a Plan How to Enroll in a Plan Four easy steps is all it takes What you need to enroll Special Enrollment Information For Members show For Members menu Pay Now Find a Provider Drug Coverage Forms and Materials Ways to Pay New Members Renew Your Plan HealthHub Member News Caregiver Resources Health Savings Account Mental Health Resources Member Login Find everything you need in the member online account View your claims Review your plan benefits Print your ID card View rewards points total For Providers show For Providers menu Provider Login Drug Coverage Pre-Auth Check Provider Resources Clinical and Payment Policies Provider News Provider Toolkits No Surprises Act For Brokers show For Brokers menu Broker Login Drug Coverage Enroll a Client Now Coverage Area Map Broker Contact Shop Our Plans close navigation Main Menu Our Health Plans show Our Health Plans menu About Our Plans Programs & Perks My Health Pays Rewards\u00ae Coverage Area Map Ways to Save What is Ambetter Health? Shop and Compare Plans Find a Broker Find a Provider Shop and Compare Plans Use your ZIP Code to find your personal plan. See coverage in your area Find doctors and hospitals View pharmacy program benefits View essential health benefits Find and enroll in a plan that's right for you. Join Ambetter Health show Join Ambetter Health menu Become a Member Become a Provider Become a Broker Enroll in a Plan How to Enroll in a Plan Four easy steps is all it takes What you need to enroll Special Enrollment Information For Members show For Members menu Pay Now Find a Provider Drug Coverage Forms and Materials Ways to Pay New Members Renew Your Plan HealthHub Member News Caregiver Resources Health Savings Account Mental Health Resources Member Login Find everything you need in the member online account View your claims Review your plan benefits Print your ID card View rewards points total For Providers show For Providers menu Provider Login Drug Coverage Pre-Auth Check Provider Resources Clinical and Payment Policies Provider News Provider Toolkits No Surprises Act For Brokers show For Brokers menu Broker Login Drug Coverage Enroll a Client Now Coverage Area Map Broker Contact Shop Our Plans Pay Now Need Help? Login Member Provider Broker Pay Now Need Help? Login Member Provider Broker \u00bfHablas Espa\u00f1ol? Affordable Health Insurance in Mississippi | Ambetter from Magnolia Health En Affordable Health Insurance in Mississippi | Ambetter from Magnolia Health Search Enter Keyword Search Grievance Appeals | Ambetter from Magnolia Health Grievance and Appeals Complaint Process Provider Complaint/Grievance and Appeal Process Claim Complaints must follow the Dispute process and then the Complaint Process below. Medical necessity and authorization denial complaints are handled in the Appeal process below. Please note that claim payments are not appealable. These must be handled via the Claim Dispute and Complaint process. Claim Disputes may be mailed to: Ambetter from Magnolia Health Attn: Claim Disputes PO Box 5000 Farmington, MO 63640-5000 Complaint/Grievance A Complaint/Grievance is a verbal or written expression by a provider which indicates dissatisfaction or dispute with Ambetter\u2019s policies, procedure, or any aspect of Ambetter\u2019s functions. Ambetter logs and tracks all complaints/grievances whether received verbally or in writing. A provider has thirty (30) calendar days from the date of the incident, such as the original Explanation of Payment date, to file a complaint/grievance. After a complete review of the complaint/grievance, Ambetter shall provide a written notice to the provider within thirty (30) calendar days from the received date of Ambetter\u2019s decision. If the complaint/grievance is related to claims payment, the provider must follow the process for claim reconsideration or claim dispute as noted in the Claims section of this Provider Manual prior to filing a Complaint. Authorization and Coverage Complaints Authorization and Coverage Complaints must follow the Appeal process below. An Appeal is the mechanism which allows providers the right to appeal actions of Ambetter such as a prior authorization denial, or if the provider is aggrieved by any rule, policy or procedure or decision made by Ambetter. A provider has thirty (30) calendar days from Ambetter\u2019s notice of action to file the appeal. Ambetter shall acknowledge receipt of each appeal within ten (10) business days after receiving an appeal. Ambetter shall resolve each appeal and provide written notice of the appeal resolution, as expeditiously as the member\u2019s health condition requires, but shall not exceed thirty (30) calendar days from the date Ambetter receives the appeal. Ambetter may extend the timeframe for resolution of the appeal up to fourteen (14) calendar days if the member requests the extension or Ambetter demonstrates that there is need for additional information and how the delay is in the member\u2019s best interest. For any extension not requested by the member, Ambetter shall provide written notice to the member for the delay. Expedited appeals may be filed with Ambetter if the member\u2019s provider determines that the time expended in a standard resolution could seriously jeopardize the member\u2019s life or health or ability to attain, maintain, or regain maximum function. No punitive action will be taken against a provider that requests an expedited resolution or supports a member\u2019s appeal. In instances where the member\u2019s request for an expedited appeal is denied, the appeal must be transferred to the timeframe for standard resolution of appeals. Decisions for expedited appeals are issued as expeditiously as the member\u2019s health condition requires, not exceeding seventy-two (72) hours from the initial receipt of the appeal. Ambetter may extend this timeframe by up to an additional fourteen (14) calendar days if the member requests the extension or if Ambetter provides evidence satisfactory evidence that a delay in rendering the decision is in the member\u2019s best interest. Providers may also invoke any remedies as determined in the Participating Provider Agreement. Member Complaint/Grievance and Appeal Process To ensure that Ambetter member\u2019s rights are protected, all Ambetter members are entitled to a Complaint/Grievance and Appeals process. The procedures for filing a Complaint/Grievance or Appeal are outlined in the Ambetter member\u2019s Evidence of Coverage. Additionally, information regarding the Complaint/Grievance and Appeal process can be found on our website at AmbetterHealth.com/en/ms or by calling Ambetter at 1-877-687-1187 . The member may also access the member complaint form online (PDF) . If a member is displeased with any aspect of services rendered: The member should contact our Member Services department at 1-877-687-1187 . The Member Services representative will assist the member. If the member continues to be dissatisfied, they may file a formal complaint/grievance. Again, our Member Services department is available to assist with this process. Information regarding this process can be found at AmbetterHealth.com/en/ms . Depending on the nature of the complaint/grievance, the member will be offered the right to appeal our decision. At the conclusion of this formalized process, the member will receive written confirmation of the determination. Ambetter will complete the appeal process in the timeframes as specified in rules and regulation. The member has the right to appeal to an external independent review organization. A member may designate in writing to Ambetter that a provider is acting on behalf of the member regarding the complaint/grievance and appeal process. Mailing Address The mailing address for non-claim related Member and Provider Complaints/Grievances and Appeals is: Ambetter from Magnolia Health 1020 Highland Colony Parkway Suite 502 Ridgeland, MS 39157 Company About Ambetter Health Newsroom Contact Us Events Magnolia Health Company About Ambetter Health Newsroom Contact Us Events Magnolia Health Notice of Availability - Language Assistance and Auxiliary Aids and Services English Espa\u00f1ol Ti\u1ebfng Vi\u1ec7t \u4e2d\u6587 Fran\u00e7ais \u0627\u0644\u0639\u0631\u0628\u064a\u0629 Chahta Tagalog Deutsch \ud55c\uad6d\uc5b4 \u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4\u0ac0 \u65e5\u672c\u8a9e \u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a \u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40 Italiano \u0939\u093f\u0902\u0926\u0940 You will need Adobe Reader to open PDFs on this site. Cloud. Get Adobe Reader 1-877-687-1187 Relay 711 Follow Us Privacy Policy | Notice of Privacy Practices | Terms & Conditions | Non-Discrimination Notice | Transparency Notice | Disclaimers | JSON File Directory | For Navigators | Site Map | Accessibility | \u00a9 Copyright 2026 Ambetter of Magnolia, Inc. All rights reserved. Ambetter from Magnolia Health is underwritten by Ambetter of Magnolia, Inc. which is a Qualified Health Plan issuer in the Mississippi Health Insurance Marketplace. This is a solicitation for insurance. \u00a92026 Ambetter of Magnolia, Inc., AmbetterHealth.com/en/ms. If you, or someone you\u2019re helping, have questions about Ambetter from Magnolia Health, and are not proficient in English, you have the right to get help and information in your language at no cost and in a timely manner. If you, or someone you\u2019re helping, have an auditory and/or visual condition that impedes communication, you have the right to receive auxiliary aids and services at no cost and in a timely manner. To receive translation or auxiliary services, please contact Member Services at 1-877-687-1187 (Relay 711). For more information on your right to receive an Ambetter from Magnolia Health plan free of discrimination, or your right to receive language, auditory and/or visual assistance services, please visit AmbetterHealth.com and scroll to the bottom of the page. Ethics & Compliance Helpline - 1-800-345-1642 | Fraud, Waste & Abuse Hotline - 1-866-685-8664\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_6lDut2J9qtelhQL7nkLxZ9bT",
+   "output": "{\"url\": \"https://www.ambetterhealth.com/content/dam/centene/Magnolia/Ambetter/PDFs/2026-ms-provider-manual.pdf\", \"final_url\": \"https://www.ambetterhealth.com/content/dam/centene/Magnolia/Ambetter/PDFs/2026-ms-provider-manual.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"error\": \"fetch blocked or unreadable: extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_vjKZ5uHml3GMYhErbAr1kd7L",
+   "output": "{\"url\": \"https://www.ambetterhealth.com/content/dam/centene/Magnolia/Ambetter/PDFs/MS-FORM-MEMBER-GRIEVANCE-APPEAL-CONCERN-FORM_read-Level-6-3.pdf\", \"final_url\": \"https://www.ambetterhealth.com/content/dam/centene/Magnolia/Ambetter/PDFs/MS-FORM-MEMBER-GRIEVANCE-APPEAL-CONCERN-FORM_read-Level-6-3.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"error\": \"fetch blocked or unreadable: extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "id": "rs_091500d13fc7bdcd016a9b6ea0cf6c87d288154ea882949ed5",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm26jmr5kAtkdGFHiroGwBrzMj_-RKWLWIeEsOyqIRU56QCzICEqaggN8miZxaHXRgQPHuy5yG-2hcMuWwLG7ALawCeRnOxQFT0FL7fHEdDOFobhf3FmwE4HIeDBR6dXypT1XEyIS8OOrXrD4J8ZnilQydfIKH167s1POoPpzeRUTQd8W0AnX5pHjM_WMM8ztc5Ref4ad1gDeXlWalbOp7jObvtCf6SbjQ6hujzOCgihcBsboFCC0iODtvtO6EeKrbA_8vPOSn4kx0O6AFFiiUNEXF7HZOjgREMWIRqR0TWSVxMk7X54cf3l4QwWPCOBb_uk8xxQcZmOlSAc82TqAzhYG-kE9TO5AFGEpVQIfAwL69HW6HkOUpLzN521XWhznd_QxlznBegpmoqI0VfUCWKWz8H9fSmOBDn0b_3GE9F3p4WCfwIW1lXCmbPK1M6ps10xp4jd7xjasiQSO5TsQ9vv1E8OZAwVNBK-1azVOvfBsT7Dj6dysg6sA8rU_aEK0xS1uF0KARz04ByG3wS4dwn9R5w5xa1u-zqsor4-0e7DrAKTJXiTZ68f1PArtdVzzP6NxKeXwrPvi589mEut8qJaPvJeTYTpQQcsA6rjfUaeGcMxO0cYJ8AkIRA4ibZKA1AKdF5tAGDyUII1WOLxTymm91NvnFm6Gz6QiHYKmc4gNjXgkG06vXN8bZlXYjYHgVQXMvHk8UEP08TlkiAnGxn8-nktn6et-OCY7wSvfuhZ40z9iDV3F17HUYhGsYOSbehG7-gwbQJk-LvW923802Zg1HfpLGd9Sq_4-u7-I4bMb1GebNy6-_7yvqZ0PYzRXO9LHbY8H489Ii40kSwFGmRy3Ov2H3EP7BbfdIXpOAwcYauMUt6mAgzIHyYH24dlkhC65HfIpYDCddv2YyB-HOX7oGqtQLQ-RXRdEYpWkMxIm2hq_zD2Dz0i931a6Byrig9L-FixLkd_QVZ88oLGP7V8-RiZcbBKxOIaRrzAShPlLLOaDZ1y7h0vm_4G5LE8Fn06Z_h2c8WNNMlWnR4g3JQitIGw-l5uJlkEkUPSPCXU4Nea6HEecI4GTIsmhKmKXsTVM7_OGLuiogdFPzgRlRUA31GzoJ0T5D4faH6FzJFahPld9ZmdjKn9Fj1fXL2enWNxl4agt_blbcp9tE3tHsuntMMTxH4Jc8BU8nrKozQnVSB2g_I6Q6fcYqju2c0Gm4pS4Tj2fPFiOhiEPSVEJ81g3l2AVUx0Ns3TRYLTaMdvebnNtGvNCMBPS3xRewJVOjfS3WWZ6ATQkTmdXL4n6JS2rAbzZupf2Vd9jWj0PyRBsfszWp77UxBkY9a3ltvtCWUkvtH8t2p5cgmWoUwTeVGheCw==",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:ambetterhealth.com/content/dam \\\"Cervical Spine Surgery\\\" \\\"CP.MP\\\" fusion Magnolia PDF\",\"count\":10}",
+   "call_id": "call_35JDNnHxsEL2M6U4M0qzTSbh",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_091500d13fc7bdcd016a9b6ea2d93887d292e36c797a127e55",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:ambetterhealth.com/content/dam/centene \\\"Spinal Surgeries\\\" \\\"CP.MP\\\"\",\"count\":10}",
+   "call_id": "call_LC72EajLL102Hj0UIvwfDzEd",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_091500d13fc7bdcd016a9b6ea2d94887d2bdcbeb18bf008465",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Centene clinical policy anterior cervical discectomy fusion CP.MP policy number\",\"count\":10}",
+   "call_id": "call_E1oZ2Ze2wyoImRZWg8FN2HFG",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_091500d13fc7bdcd016a9b6ea2d95087d28d21e5ebe1a98fe8",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Ambetter \\\"Cervical Fusion\\\" policy medical necessity imaging findings\",\"count\":10}",
+   "call_id": "call_jdKU3rJdO5Y0JoyDbxSLVxvx",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_091500d13fc7bdcd016a9b6ea2d95887d2a6aed9df229c928d",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_35JDNnHxsEL2M6U4M0qzTSbh",
+   "output": "{\"query\": \"site:ambetterhealth.com/content/dam \\\"Cervical Spine Surgery\\\" \\\"CP.MP\\\" fusion Magnolia PDF\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_LC72EajLL102Hj0UIvwfDzEd",
+   "output": "{\"query\": \"site:ambetterhealth.com/content/dam/centene \\\"Spinal Surgeries\\\" \\\"CP.MP\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_E1oZ2Ze2wyoImRZWg8FN2HFG",
+   "output": "{\"query\": \"Centene clinical policy anterior cervical discectomy fusion CP.MP policy number\", \"results\": [{\"title\": \"Clinical Policy: Disc Decompression Procedures Reference Number: CP.MP.114\", \"url\": \"https://network.carolinacompletehealth.com/content/dam/centene/carolinacompletehealth/policies/clinical-policies/CP.MP.114%20-%20Disc%20Decompression%20Procedures.pdf\", \"snippet\": \"I. It is the policy of health plans affiliated with Centene Corporation\u00ae that open discectomy and\"}, {\"title\": \"Page 1 of 8 Clinical Policy: Disc Decompression Procedures\", \"url\": \"https://network.carolinacompletehealth.com/content/dam/centene/carolinacompletehealth/policies/cch-centene-cp/CP.MP.114.pdf\", \"snippet\": \"I. It is the policy of health plans affiliated with Centene Corporation\u00ae that open discectomy and\"}, {\"title\": \"Spinal Surgery: Laminectomy and Fusion - Medical Clinical Policy Bulletins | Aetna\", \"url\": \"https://www.aetna.com/cpb/medical/data/700_799/0743.html\", \"snippet\": \"Cervical laminectomy (and/or an anterior and/or posterior cervical discectomy and fusion) for individuals with herniated discs or other causes of spinal cord or nerve root compression (osteophytic spurring, ligamentous hypertrophy) when all of the following criteria are met (see also Additional Notes section):\"}, {\"title\": \"Page 1 of 9 Clinical Policy: Sacroiliac Joint Fusion\", \"url\": \"https://network.carolinacompletehealth.com/content/dam/centene/carolinacompletehealth/policies/cch-centene-cp/CP.MP.126.pdf\", \"snippet\": \"Clinical Policy: Sacroiliac Joint Fusion \u00b7 Reference Number: <strong>CP.MP.126</strong>\"}, {\"title\": \"Page 1 of 7 Clinical Policy: Thoracic Laminectomy and/or Thoracic Discectomy\", \"url\": \"https://www.pahealthwellness.com/content/dam/centene/Pennsylvania/policies/clinical-policies/9.4.2020_FINAL_PA.CP.MP.OR.1010%20Thoracic%20Laminectomy%20or%20Discectomy%20(NEW)%20v1.2020.pdf\", \"snippet\": \"A. Thoracic laminectomy and/or thoracic discectomy, with thoracic fusion where indicated for\"}, {\"title\": \"Page 1 of 6 Clinical Policy: Disc Decompression Procedures\", \"url\": \"https://www.louisianahealthconnect.com/content/dam/centene/louisiana-health-connect/policies/clinical-policies/CP.MP.114.pdf\", \"snippet\": \"I. It is the policy of health plans affiliated with Centene Corporation\u00ae that open discectomy and\"}, {\"title\": \"7.01.560 Cervical Spine Surgeries: Discectomy, ...\", \"url\": \"https://www.premera.com/medicalpolicies/7.01.560.pdf\", \"snippet\": \"disc, called a discectomy, may be needed. This policy describes when cervical fusion,\"}, {\"title\": \"CP.MP.107 - Durable Medical Equipment and Orthotics ...\", \"url\": \"https://www.healthnet.com/content/dam/centene/policies/clinical-policies/CP.MP.107.pdf\", \"snippet\": \"Clinical Policy: Durable Medical Equipment and Orthotics and Prosthetics Guidelines \u00b7 Reference Number: <strong>CP.MP.107</strong>\"}, {\"title\": \"Page 1 of 5 Clinical Policy: Experimental Technologies\", \"url\": \"https://www.healthnet.com/content/dam/centene/policies/clinical-policies/CP.MP.36.pdf\", \"snippet\": \"Clinical Policy: Experimental Technologies \u00b7 Reference Number: <strong>CP.MP.36</strong>\"}, {\"title\": \"Page 1 of 5 Clinical Policy: Medical Necessity Criteria\", \"url\": \"https://www.superiorhealthplan.com/content/dam/centene/Superior/policies/clinical-policies/TX.CP.MP.500.pdf\", \"snippet\": \"Clinical Policy: Medical Necessity Criteria \u00b7 Reference Number: <strong>TX.CP.MP.500</strong>\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_jdKU3rJdO5Y0JoyDbxSLVxvx",
+   "output": "{\"query\": \"Ambetter \\\"Cervical Fusion\\\" policy medical necessity imaging findings\", \"results\": [{\"title\": \"Spinal Surgery: Laminectomy and Fusion - Medical Clinical Policy Bulletins | Aetna\", \"url\": \"https://www.aetna.com/cpb/medical/data/700_799/0743.html\", \"snippet\": \"Imaging studies (e.g., CT or MRI) ... corresponding with the clinical findings; and \u00b7 Imaging studies show <strong>no more than 3 mm of motion on cervical flexion/extension x-rays and no cervical kyphosis</strong>; and...\"}, {\"title\": \"MEDICAL POLICY \u2013 7.01.560\", \"url\": \"https://www.premera.com/medicalpolicies/7.01.560.pdf\", \"snippet\": \"necessity is established by submitting documentation of medical history, physical \u00b7 findings, and diagnostic imaging results that demonstrate need for cervical spine\"}, {\"title\": \"Jurisdiction J Part A - Cervical Fusion with Disc Removal Best Practices\", \"url\": \"https://www.dexzcodes.com/palmetto/jja.nsf/DIDC/1S9N754OZH~Medical%20Review~Outpatient%20Department%20Prior%20Authorization%20(PA)\", \"snippet\": \"Imaging (MRI or CT) evidence of ... by the presence of one or more of the following findings: <strong>herniated nucleus pulposus, narrowing of the intervertebral disc, disc osteophytes, facet hypertrophy, or synovial cysts</strong>...\"}, {\"title\": \"Jurisdiction M Part B - Cervical Fusion with Disc Removal Best Practices\", \"url\": \"https://dominoapps.palmettogba.com/palmetto/jmb.nsf/DIDC/1S9N754OZH~Medical%20Review~Outpatient%20Department%20Prior%20Authorization%20(PA)\", \"snippet\": \"Imaging (MRI or CT) evidence of ... by the presence of one or more of the following findings: <strong>herniated nucleus pulposus, narrowing of the intervertebral disc, disc osteophytes, facet hypertrophy, or synovial cysts</strong>...\"}, {\"title\": \"Cervical fusion with disc removal - Medicare - FCSO\", \"url\": \"https://medicare.fcso.com/medical-review/cervical-fusion-disc-removal\", \"snippet\": \"Imaging (MRI or CT) evidence of ... by the presence of one or more of the following findings: <strong>herniated nucleus pulposus, narrowing of the intervertebral disc, disc osteophytes, facet hypertrophy, or synovial cysts</strong>...\"}, {\"title\": \"Cervical Fusion (Anterior or Posterior) | Clinical Review ...\", \"url\": \"https://wa-provider.kaiserpermanente.org/static/pdf/hosting/clinical/criteria/pdf/cervical_fusion.pdf\", \"snippet\": \"Cervical fusion is considered medically ... that correlates to the level of the pseudoarthrosis \u00b7 \u2022 Imaging studies (e.g., radiographs, CT) <strong>confirm evidence of a pseudoarthrosis</strong> (e.g., lack of...\"}, {\"title\": \"Cigna Cervical Fusion - (0527) Form\", \"url\": \"https://genhealth.ai/policy/cigna/bc4a88ea-cervical-fusion-0527\", \"snippet\": \"<strong>central, lateral recess, foraminal stenosis or synovial cyst is demonstrated on imaging studies (e.g., radiographs, magnetic resonance imaging [MRI], computerized tomography [CT], myelography</strong>) that correlates with the clinical symptoms and/or signs ... Cervical fusion is considered medically ...\"}, {\"title\": \"Subject: Cervical Spine Surgery - Medical Coverage Guideline\", \"url\": \"http://mcgs.bcbsfl.com/MCG?mcgId=02-20000-45&pv=false\", \"snippet\": \"for development of postoperative kyphosis\u201d as not medically necessary for posterior \u00b7 cervical decompression; revised definition of conservative therapy; deleted \u00b7 contraindications to spine surgery. Updated references. ... Scheduled review. Revised description. Added nicotine cessation criteria for fusion\"}, {\"title\": \"LCD - Cervical Fusion (L39762)\", \"url\": \"https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=39762\", \"snippet\": \"The following are considered not reasonable and necessary for decompression of symptomatic cervical canal stenosis: <strong>Isolated chronic axial cervical pain</strong>. Asymptomatic myelopathy (regardless of severity on imaging findings).\"}, {\"title\": \"Back Pain - Invasive Procedures - Medical Clinical Policy Bulletins | Aetna\", \"url\": \"https://www.aetna.com/cpb/medical/data/1_99/0016.html\", \"snippet\": \"Aetna considers intervertebral body fusion devices (synthetic spine cages/spacers) (see Appendix) medically necessary for the following: Use with allograft or autogenous bone graft in members who meet criteria for lumbar spinal fusion as outlined in CPB 0743 - Spinal Surgery: Laminectomy and Fusion and for thoracic fusion; Synthetic spine cages/spacers for cervical fusion for members who meet criteria in CPB 0743 - Spinal Surgery: Laminectomy and Fusion with any the following indications for use of a synthetic cervical cage/spacer:\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "id": "rs_091500d13fc7bdcd016a9b6ea6806487d28dfc977db056999a",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm26ovU8euAMjd54CiUtGKcnc2iyz6MIxJjs42za26PZtGvj5KxuhWIStaRFfkpDI9ObX40lGGJQG8s0QBSYUY7IgifhFhcTKYPyNEDlsY7XHHjyjinrIQYLeuuizb4f83gOiodsQfQftOef0BhJOQHJJRtUwnzXilR14_9SkTzaoxal6rFHFpeMB69oy4pbZY6ivDBIX98rpsE6z_CCMQDGZkrF19DCNM21TSebuxdG6wgF036H2a3qa82thHBdDN6sTz7e6YjrtKxShf9y48JieEdl9Z1bKh-gK00Oc-sKXO13lA36f_VhCvxpnO-KY5BYhhEA1oqFyeDEhuSdWu88MoMV1qqIuvIDmlrYipC4LCZesO3Wsg9pXYAuUbeRP4t9q84YVcWBfoDTVO8LoVPO27zWHj6TKUg-E2d8O68I4ezQ30KwFxT_ooRBZvRSFAhtbs1hYyX_dJSKgoRrHq102nOENkPy7xZia5KUHzOe7f8H21_q0cEcPJjCAzMaB6z1K83sqr2rHproolDTOw7sv_JnTnV5usMVF05WlU_n8CYutJKcxNBqTg9_s71_RHCzZ4heeGrb0dXMrb0cNaFNnC6b7Qt88P9bwlTvOOgrsZTlntefPb6K3glJmvKlYncXOZMbj8mf7zaiMmZlAvQMckrSOyS9piKlGSBZStwY2FmzuJzJu26R2uoGw56_7kVnnbqFAzpO17GMDCkhQV78Bd7tVamfUXrVdlhtWgdwBkPWlw-gmWuZT7RrpIz9FpdAwV8F0Rl7lHTZdIWa7CJZxhxrkwh0sr_YnVHZmCb6YQhy-wh5PjpSs1EWebxYH4m4SQaVDRXP8_3qgYn6HUb2gO3kFllzugFOY4czGweZmu3LO9pycaOGxTxz4hhdEineA0A_m7lx-pVdABkvQEvF2ZyeT2zJHvcdGRtiO8Rj9i5FAag_JmrMwxijPPizCf4PC54feaJ2P-HuFZKbwnUkYMYGpMSOSpjN3XX5tt9S6eOuNiqfSpfEh1EwYTYxsquDL83HioS_UII7oM8DV3jt69AA5H_6UnHBCJKU87ILJ3B8QEznfNHpRBbu84_MN45mJh-ZrZJK0hlQvz4tIM8kEg3hIEHPvFgDVX6smTTKXeXF1o4GK-5kBwj6v6zvLcCmJENnXgl3S41QPNIUl5piwW5-QJgMIZrqdIfZImQet-FHg16WwpYE8Y7NMoXD1I12RyCvPe6GwTZYHVZiOmV8BYmxluGA3ou-kFPfwa8mI_ALqdoIEvYuZ_hqtHVceYd9fRuGh1qEv0DzTECy9L8-fX06GTgmYrh-N4TuZU8esJcuM4lDK3EobWwuOuH4qCdkuTBkrxjliKWK6fAeif5XxT1oiI3VFwuWAgikPXOu6J3xJlfhDrkXVbLuJyEb_mmJ8ndwsnuMSnQcPDZEeBL_jDMpNuSOllvrFmalRcFz5vBoDKJy0mird-o5mhugQAhT6LhYSf20dWMzQv1mqfPvq7I7cqaAbEZ_4xOmE93lleyijM8xNOTloISPcc7m2UX3kyamaG0LyAnxqgG_ikDzmqQ==",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"Evolent Ambetter cervical ACDF 22551 medical necessity guideline PDF Mississippi Magnolia Health 2026\",\"count\":10}",
+   "call_id": "call_cRgSl4p6TexNPwLoPTlyM07d",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_091500d13fc7bdcd016a9b6ea8454887d2be0a3e1c3b5d5150",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Cervical ACDF\\\" \\\"22551\\\" Evolent PDF\",\"count\":10}",
+   "call_id": "call_uXDYQc09d8cpTEad2FX3TbaC",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_091500d13fc7bdcd016a9b6ea8455887d2808c66fa7d00a8d1",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Cervical ACDF - Anterior Cervical\\\" \\\"22551\\\" Ambetter\",\"count\":10}",
+   "call_id": "call_D7L79ngj3DovlzBdsPkHhh9t",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_091500d13fc7bdcd016a9b6ea8456087d29b1c32287d98b0ab",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_cRgSl4p6TexNPwLoPTlyM07d",
+   "output": "{\"query\": \"Evolent Ambetter cervical ACDF 22551 medical necessity guideline PDF Mississippi Magnolia Health 2026\", \"results\": [{\"title\": \"2026 Evolent Clinical Guidelines for Medical Necessity Review\", \"url\": \"https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf\", \"snippet\": \"2026 Evolent Clinical \u00b7 Guidelines for Medical \u00b7 Necessity Review \u00b7 MUSCULOSKELETAL SURGERY GUIDELINES \u00b7 <strong>Effective July 1, 2026 \u2013 July 1, 2027</strong> \u00b7 Guidelines for Clinical Review Determination \u00b7 Preamble \u00b7 Evolent is committed to the philosophy of supporting safe and effective \u00b7 treatment ...\"}, {\"title\": \"Provider Manuals and Forms | Ambetter from Magnolia Health\", \"url\": \"https://www.ambetterhealth.com/en/ms/provider-resources/manuals-and-forms/\", \"snippet\": \"Ambetter from Magnolia Health provides the tools you need to deliver the best quality of care. Access reference materials, medical management forms, and more.\"}, {\"title\": \"2025 Evolent Clinical Guidelines for Medical Necessity Review\", \"url\": \"https://cms.radmd.com/sites/default/files/2025-01/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf\", \"snippet\": \"Atraumatic instability due to Down Syndrome-related spinal deformity, rheumatoid arthritis, \u00b7 Important Predictor of Post-Operative Efficacy in Patients with Degenerative Cervical Myelopathy \u00b7 Cervical Spondylotic Myelopathy: A Nationwide Propensity-Matched Analysis of Complications,\"}, {\"title\": \"2025 Evolent Clinical Guidelines for Medical Necessity Review - HMSA\", \"url\": \"https://www1.radmd.com/sites/default/files/2025-07/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines%20-%20HMSA%20FINAL%20eff%20070125.pdf\", \"snippet\": \"Atraumatic instability due to Down Syndrome-related spinal deformity, rheumatoid arthritis, \u00b7 Important Predictor of Post-Operative Efficacy in Patients with Degenerative Cervical Myelopathy \u00b7 Cervical Spondylotic Myelopathy: A Nationwide Propensity-Matched Analysis of Complications,\"}, {\"title\": \"2024 Evolent Clinical Guidelines for Medical Necessity Review - HMSA\", \"url\": \"https://www1.radmd.com/sites/default/files/2024-07/2024%20Evolent%20Musculoskeletal%20Surgery%20Guidelines%20-%20HMSA%20FINAL%20eff%20070124.pdf\", \"snippet\": \"ANTERIOR CERVICAL DECOMPRESSION WITH FUSION (ACDF) - SINGLE LEVEL ...........................................................................\"}, {\"title\": \"Evolent Cardiology Codes for Ambetter Health | Sunshine Health\", \"url\": \"https://www.sunshinehealth.com/providers/Specialty-services/cardiac/evolent-ambetter.html\", \"snippet\": \"<strong>Prior Authorization for medical necessity and appropriate length of stay (when applicable) for Ambetter Health members</strong> has been delegated to Evolent (formerly New Century Health) and will be required for the following procedures (and codes listed below) in both inpatient and outpatient settings: ...\"}, {\"title\": \"Magnolia Health Durable Medical Equipment (DME), Home Health and Home Infusion\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/Magnolia/Ambetter/PDFs/DmeHomHelth-InfusionOrient.pdf\", \"snippet\": \"Durable Medical Equipment (DME), \u00b7 Home Health and Home Infusion\"}, {\"title\": \"Clinical & Payment Policies | Magnolia Health\", \"url\": \"https://www.magnoliahealthplan.com/providers/resources/clinical-payment-policies.html\", \"snippet\": \"For Ambetter information, please visit our Ambetter website.\"}, {\"title\": \"Clinical Payment Policies | Ambetter from Magnolia Health\", \"url\": \"https://www.ambetterhealth.com/en/ms/provider-resources/clinical-payment-policies/\", \"snippet\": \"Clinical policies are one set of guidelines used to assist in administering health plan benefits, either by prior authorization or payment rules. They include but are not limited to policies relating to evolving medical technologies and procedures, as well as pharmacy policies.\"}, {\"title\": \"Ambetter from Magnolia Health -MSK QRG ...\", \"url\": \"https://www1.radmd.com/sites/default/files/2024-02/Ambetter%20from%20Magnolia%20Health%20-MSK%20QRG%20Evolent_3.1.2024.pdf\", \"snippet\": \"Health and its affiliates and subsidiaries collectively referred to as \u201cEvolent.\u201d \u00b7 1 \u2013 Ambetter from Magnolia Health MSK QRG\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_uXDYQc09d8cpTEad2FX3TbaC",
+   "output": "{\"query\": \"\\\"Cervical ACDF\\\" \\\"22551\\\" Evolent PDF\", \"results\": [{\"title\": \"OK Complete MSK Spine Surgery UM Matrix updated 5.4.24.docx 1\", \"url\": \"https://www1.radmd.com/sites/default/files/2024-05/OK%20Complete%20MSK%20Spine%20Surgery%20UM%20Matrix%20updated%205.4.24_0.pdf\", \"snippet\": \"Cervical ACDF - Anterior Cervical \u00b7 Decompression with \u00b7 Fusion - Single Level \u00b7 22551 \u00b7 22548, 22551, 22554 \u00b7 Decompression: 63075, +63076 \u00b7 Removal of Artificial Disc: 22864 \u00b7 Vertebral Corpectomy: 63081, +63082, 63300, 63304, +63308 \u00b7 Instrumentation: +22845, 22853, 22854 \u00b7\"}, {\"title\": \"OK Complete MSK Spine Surgery UM Matrix.docx 1 2024 Utilization Review Matrix\", \"url\": \"https://www1.radmd.com/sites/default/files/2024-04/OK%20Complete%20MSK%20Spine%20Surgery%20UM%20Matrix.pdf\", \"snippet\": \"Cervical ACDF - Anterior Cervical \u00b7 Decompression with \u00b7 Fusion - Single Level \u00b7 22551 \u00b7 22548, 22551, 22554 \u00b7 Decompression: 63075, +63076 \u00b7 Removal of Artificial Disc: 22864 \u00b7 Vertebral Corpectomy: 63081, +63082, 63300, 63304, +63308 \u00b7 Instrumentation: +22845, 22853, 22854 \u00b7\"}, {\"title\": \"Louisiana Healthcare Connections Spine Surgery ...\", \"url\": \"https://www1.radmd.com/sites/default/files/2024-12/Louisiana%20Healthcare%20Connections%20Spine%20Surgery%20Utilization%20Review%20Matrix%202025.pdf\", \"snippet\": \"Cervical ACDF - Anterior Cervical \u00b7 Decompression \u00b7 with Fusion - Single Level \u00b7 22551 \u00b7 22548, 22551, 22554 \u00b7 Decompression: 63075, +63076 \u00b7 Removal of Artificial Disc: 22864 \u00b7 Vertebral Corpectomy: 63081, +63082, 63300, 63304, +63308 \u00b7 Instrumentation: +22845, 22853, 22854 \u00b7\"}, {\"title\": \"1 \u2013 Fidelis Care \u2013 Hip, Knee, and Shoulder Utilization Code Matrix 2025\", \"url\": \"https://www1.radmd.com/sites/default/files/2024-12/Fidelis%20Care%20NY%20Spine%20Matrix%202025.pdf\", \"snippet\": \"Cervical ACDF \u00b7 - Anterior \u00b7 Cervical \u00b7 Decompression \u00b7 with Fusion - Single Level \u00b7 22551 \u00b7 22548, 22551, 22554 \u00b7 Decompression: 63075, +63076 \u00b7 Removal of Artificial Disc: 22864 \u00b7 Vertebral Corpectomy: 63081, +63082, 63300, 63304, +63308 \u00b7 Instrumentation: +22845, 22853, 22854 \u00b7\"}, {\"title\": \"LUMBAR SPINE SURGERY PROCEDURES\", \"url\": \"https://www1.radmd.com/sites/default/files/2025-12/Centene%20AL%20Ambetter%20of%20Alabama%20Spine%20Surgery%20Utilization%20Review%20Matrix%202026%2001.01.26.pdf\", \"snippet\": \"Cervical ACDF - Anterior Cervical \u00b7 Decompression with \u00b7 Fusion - Single Level \u00b7 22551 \u00b7 22548, 22551, 22554 \u00b7 Decompression: 63075, +63076 \u00b7 Removal of Artificial Disc: 22864 \u00b7 Vertebral Corpectomy: 63081, +63082, 63300, 63304, +63308 \u00b7 Instrumentation: +22845, 22853, 22854 \u00b7\"}, {\"title\": \"National Imaging Associates, Inc. (NIA)* Ambetter from ...\", \"url\": \"https://www1.radmd.com/sites/default/files/2024-01/Centene%20WA%20Ambetter%20from%20Coordinated%20Care%20Spine%20Surgery%20Utilization%20Review%20Matrix%202024%2002.01.24%20dp.pdf\", \"snippet\": \"Cervical ACDF - Anterior \u00b7 Cervical \u00b7 Decompression \u00b7 with Fusion - Single Level \u00b7 22551 \u00b7 22548, 22551, 22554 \u00b7 Decompression: 63075, +63076 \u00b7 Removal of Artificial Disc: 22864 \u00b7 Vertebral Corpectomy: 63081, +63082, 63300, 63304, +63308 \u00b7 Instrumentation: +22845, 22853, 22854 \u00b7\"}], \"result_count\": 6, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_D7L79ngj3DovlzBdsPkHhh9t",
+   "output": "{\"query\": \"\\\"Cervical ACDF - Anterior Cervical\\\" \\\"22551\\\" Ambetter\", \"results\": [{\"title\": \"Utilization Review Matrix 2024 Musculoskeletal Surgery ( ...\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/home-state-health/ambetter/pdfs/Health-Spine%20Surgery-Evolent-UTIL-Ambetter.pdf\", \"snippet\": \"Cervical ACDF - Anterior Cervical \u00b7 Decompression \u00b7 with Fusion - Single \u00b7 Level \u00b7 22551 \u00b7 22548, 22551, 22554 \u00b7 Decompression: 63075, +63076 \u00b7 Removal of Artificial Disc: 22864 \u00b7 Vertebral Corpectomy: 63081, +63082, 63300, 63304, +63308 \u00b7 Instrumentation: +22845, 22853, 22854 \u00b7 Bone Grafts: +20930, +20931, +20936, +20937, +20938 \u00b7 4\u2014Ambetter from Ambetter from Home State Health Spine Surgery Utilization Review Matrix 2024 \u00b7\"}, {\"title\": \"LUMBAR SPINE SURGERY PROCEDURES\", \"url\": \"https://www1.radmd.com/sites/default/files/2025-12/Centene%20AL%20Ambetter%20of%20Alabama%20Spine%20Surgery%20Utilization%20Review%20Matrix%202026%2001.01.26.pdf\", \"snippet\": \"Cervical ACDF - Anterior Cervical \u00b7 Decompression with \u00b7 Fusion - Single Level \u00b7 22551 \u00b7 22548, 22551, 22554 \u00b7 Decompression: 63075, +63076 \u00b7 Removal of Artificial Disc: 22864 \u00b7 Vertebral Corpectomy: 63081, +63082, 63300, 63304, +63308 \u00b7 Instrumentation: +22845, 22853, 22854 \u00b7\"}], \"result_count\": 2, \"error\": null}"
+  },
+  {
+   "id": "rs_091500d13fc7bdcd016a9b6eabc69c87d2931c6723c3891fee",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm26twRTXnb98AxZAs0kxTI_k8RpyYirBBPGWfitmHT-5aVVD-0Mrf1hIRQMYP40e_Zs6O6RpJYfo8SYZXWkPXMU1pO8Ksr8XqIRxwMz-VBmK_-FTjryPpRAFGWU0TqZbuYKDYOAWQWS_g50VM4RwU8MxGQCpMq9Bq4MZanmLRtQ7CUO7mu-O1UkfZwyS8O1cZ6C2VX5cyU_pEnrRWhlLBSbiRcIxd3eRjj8dsJd46l69U0InAxBD_d28YHRXY-AkMyUVT5wLjmqXMWRmYemWiOi4bfgL9kP6nejAlBXKEHKnzSvH_TWUgFLLAbq1kVVIuEcZWoAcoWy-COm0AIqTL2dEXHrt1le5qMX2MoDsoeT_fX0tbNHEUyAKHE-iKnkrBOxjA2-Q_S5LkNljNDhwrbLf1GUAMSAwbceNj6o1xLxk_8yoZ4wgP2_1djCGeHK0DDvXlnrNrI9BI0XmHMp8EaEBZvU7ylaJyhCnc5aDE17-6oc9oK7XGbgZyM7IXkpfQ8Jka1QUBrGe4YzwSaY3tglqXFtkKTPLL4T2jyhcvCFddXrY1n7J1MQqsET7CQ-UJckbg9hZRCKi5OcJBjmyVswZWr29kf5b5c8PO1PMGKZcfZ803_AGmFdJQQbnFqf-6lXJ8BWIeYbKsnpW0I4cUHaK6DbGuguEV2IE1gwYDrrKOyq-BP8x77L-BBNmbFS__0aOFFNlbigfJNOWZD4WIreGMjcT-eLPJ7i3koSzm7H-n-gaAOTE0P-TOJoOgKiIuQqgdu24mwjf_T3IanqbYoxJZ1z9XoHNnkvgrgnVyNU07Se4iSurPTX-Y_xJ-WKJ96d_7XNj08ysJLcPulGDT7R2NW8U5TzpRuLDHCf1F_m-uWy2i_aZF1wC_xpO3L04uIu_9NLRVIZSKF6ZR_3ranRZFCWCDCZA8m8a-8wOGSnmKNM_oEekaIOvZKSZUtN-Czd8PHV4C8CNz8Yz1viPpcU_gE1ILTVEos4WcJy96s7XYsrnITEFoBxH-cpnESaAzejZvAGqoibbAjjoU5J2jp1UkhABT6f6EmFK5VVzXTR4k6qbf-fDgW8i7sYT3dNVmVmconqzOsrfre1qJL4f-HLpePBeJGMfeRoGmGHjjo5UgwRBsaxnfk28wme_V7BvfyMBQ91Af8a0vO7HF6FaDMxnqPC0Ov3rDTew6-cDKwXsI0rsMvNvNOtVHmcMIg2mtjI27XHAOaacXlJGNNa6yqiIzHLpA7c21_OoCnN5JsKKTZUpLtfLs4j7ruU-wQXIqK8taWRDFYnPm6CIBi5pvQc5Ar6j_BjF9HZxAkSSXx_RX-by6auTB9m6nu3z5PEMB786jFoA1xl7kUkt4bgmvqkVuA==",
+   "status": null
+  },
+  {
+   "arguments": "{\"url\":\"https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf\"}",
+   "call_id": "call_dXer14mDbSvVAqVOp4S5vmOX",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_091500d13fc7bdcd016a9b6ead4dd887d2bb05bdc16ec77da3",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://www.ambetterhealth.com/content/dam/centene/home-state-health/ambetter/pdfs/Health-Spine%20Surgery-Evolent-UTIL-Ambetter.pdf\"}",
+   "call_id": "call_poG5Lp0WvnusoW7JKojiVxku",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_091500d13fc7bdcd016a9b6ead4dec87d28d295ef08c038399",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://www1.radmd.com/sites/default/files/2024-02/Ambetter%20from%20Magnolia%20Health%20-MSK%20QRG%20Evolent_3.1.2024.pdf\"}",
+   "call_id": "call_smSfMxk35Ma7TIZCpwIyYkHR",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_091500d13fc7bdcd016a9b6ead4df887d2bd5c3cf795da96e2",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_dXer14mDbSvVAqVOp4S5vmOX",
+   "output": "{\"url\": \"https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf\", \"final_url\": \"https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"error\": \"fetch blocked or unreadable: extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_poG5Lp0WvnusoW7JKojiVxku",
+   "output": "{\"url\": \"https://www.ambetterhealth.com/content/dam/centene/home-state-health/ambetter/pdfs/Health-Spine%20Surgery-Evolent-UTIL-Ambetter.pdf\", \"final_url\": \"https://www.ambetterhealth.com/content/dam/centene/home-state-health/ambetter/pdfs/Health-Spine%20Surgery-Evolent-UTIL-Ambetter.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"error\": \"fetch blocked or unreadable: extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_smSfMxk35Ma7TIZCpwIyYkHR",
+   "output": "{\"url\": \"https://www1.radmd.com/sites/default/files/2024-02/Ambetter%20from%20Magnolia%20Health%20-MSK%20QRG%20Evolent_3.1.2024.pdf\", \"final_url\": \"https://www1.radmd.com/sites/default/files/2024-02/Ambetter%20from%20Magnolia%20Health%20-MSK%20QRG%20Evolent_3.1.2024.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"error\": \"fetch blocked or unreadable: extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "id": "rs_091500d13fc7bdcd016a9b6eaffb7087d28d9e53e2fe9f1639",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm26z1CqDS3HoC6V6KRHcLgJEj79UgasxmxpT0tVS0QOT2gUqLSL8MebI426P0DvDhf6LX7PGDkbOxfwcI1x6Fs4tlRnDHrbXcwHw4EbkkSn8C7KfKVeBHoyxqPt7MIbH3a3n523lHcRnZt24KxtYrAxe6_AaiqX5z4ZS0F8D_9j19G9fGbD_F25_58Li8c5tsMP5fzGILIZOPuqHrsnypjeb5perd344ijFT-2id1aqBpw5Ygi4vHnc1E68ykmBlGsMnPSNngA85wR4u58xPw9q_1ZJV_ydjY22ktApxdGea4veV-20Eecr_VhtUGQxEtJRIWM6PwKl5KXVXRs3UN2mUicrmC8jov7O8j10sWb7SIVT4u6fwPG5rvPcE9Mi2MQEJUO3Yy4PcEzS-0SR4ZfM5ZDAoyWKuCxU1sATuW2EV41anZcW6OGPW4rum7X9NKJ5bsPUR11uK53zNqaXsgHUv2jMya5Bainq6CS3BybVJzrVHstROkA0X2C98ulG1V1fWwiL1F2oOZDIFLJmTw0g29hXm8nl9fNK2uAWTHjTNoobwu6cEMjfsyLYF7SMg8ukdkf8KvjzbAOUVVOpwQT_LKuqXY8jXVMMI8Zm7Jm7n8aZGm09fXs2_jjqhvTf3Ow2FF6bZnRw_k9SjGGSRE6w0xjYSOsjiN0gj0IyJMahWV-STgshjIpbqxztrvDmij_cOtkDB4Cdzkkk4YPNmBOr6UvRFu7Pju_LSGKJoCrVd4YRsERfio01uROxUnkfDQCbRdrjeNBXU8ZslWahAuh2UrolsZU5-xLqWt0sD3-vfN974urjYL85o0EmtyczWdlAdTQPGtE3RQxL0URK0JXToXH2uma1XqXyxvQlcX2qxFl6Ne4TuUCXCWDGAxeOFwyhLVmt0ePMmFOgJO_8yfpII1ITyj9acAdSPl1VufRPw2aM4MnEEZFHJCvbItjAsD5qkK49IyvnV2XPgkhmkUC9XzEm5rOBpZRpscRPFy4jHKC7vf8sGVc-lMyLbvO6hj9xJnz3RGDB5HzGruee6fMfrGxe4CbbdqJt_RKSnGUIw46Fs6VnWrOB4JsG-1Sq_0NY8SXB5-YV6d-BBJQafeHVmnOjzFOWMXgg4IrwY6EigQxExmnmEADVcvg0C7q_VHTdrJ6Q7Tc1FB6rdQHScvnpKJ-xuKYoY_W6iv1m6Qd_5nPPPGaid-2j1ZmGExR7JiWFeBnrvFTouQ_D5kUrzZ35n4e1qNQrFlcgaOftiag-5hSEmjdVVt1NKC-j62Ey4z5apYNDSX9qz9NqnVbeD90CoKQ==",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"\\\"2026 Evolent Musculoskeletal Surgery Guidelines\\\" \\\"ACDF\\\" criteria\",\"count\":10}",
+   "call_id": "call_mjPm6NY7ClhiJ5wgOcYL9YST",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_091500d13fc7bdcd016a9b6eb3485087d290d43f699b32bcc2",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:radmd.com/sites/default/files/2026-05 \\\"ANTERIOR CERVICAL DECOMPRESSION WITH FUSION\\\"\",\"count\":10}",
+   "call_id": "call_UUO8hqmszMlGq8ME2OD7NScc",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_091500d13fc7bdcd016a9b6eb3486487d2804770958d0f4e42",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Evolent 2026 ACDF \\\"medical necessity\\\" cervical myelopathy radiculopathy\",\"count\":10}",
+   "call_id": "call_Wl77PikgetCrT6CTPY00fgan",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_091500d13fc7bdcd016a9b6eb3486c87d2b805e5a06c1dd24f",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"ANTERIOR CERVICAL DECOMPRESSION WITH FUSION (ACDF) - SINGLE LEVEL\\\" criteria\",\"count\":10}",
+   "call_id": "call_XUAfZae1uoWFOloJ6kp8C6LJ",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_091500d13fc7bdcd016a9b6eb3487487d2b8398cf37a297eee",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_mjPm6NY7ClhiJ5wgOcYL9YST",
+   "output": "{\"query\": \"\\\"2026 Evolent Musculoskeletal Surgery Guidelines\\\" \\\"ACDF\\\" criteria\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_UUO8hqmszMlGq8ME2OD7NScc",
+   "output": "{\"query\": \"site:radmd.com/sites/default/files/2026-05 \\\"ANTERIOR CERVICAL DECOMPRESSION WITH FUSION\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_Wl77PikgetCrT6CTPY00fgan",
+   "output": "{\"query\": \"Evolent 2026 ACDF \\\"medical necessity\\\" cervical myelopathy radiculopathy\", \"results\": [{\"title\": \"2026 Evolent Clinical Guidelines for Medical Necessity Review\", \"url\": \"https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf\", \"snippet\": \"Target Population: <strong>Patients with cervical spondylotic myelopathy (CSM).</strong> ... all highlight the importance of tailoring the surgical approach to the individual patient&#x27;s condition \u00b7 and the specific pathology involved. The anterior approach generally shows better outcomes in \u00b7 terms of blood ...\"}, {\"title\": \"2025 Evolent Clinical Guidelines for Medical Necessity Review\", \"url\": \"https://cms.radmd.com/sites/default/files/2025-01/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf\", \"snippet\": \"Evolent reserves the right to review and update this \u00b7 Clinical Guideline in its sole discretion. Notice of any changes shall be provided as required \u00b7 by applicable provider agreements and laws or regulations. Members should contact their \u00b7 Plan customer service representative for specific coverage information. ... Radiculopathy.\"}, {\"title\": \"2025 Evolent Clinical Guidelines for Medical Necessity Review - HMSA\", \"url\": \"https://www1.radmd.com/sites/default/files/2025-07/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines%20-%20HMSA%20FINAL%20eff%20070125.pdf\", \"snippet\": \"Evolent reserves the right to review and update this \u00b7 Clinical Guideline in its sole discretion. Notice of any changes shall be provided as required \u00b7 by applicable provider agreements and laws or regulations. Members should contact their \u00b7 Plan customer service representative for specific coverage information. ... Important Predictor of Post-Operative Efficacy in Patients with Degenerative Cervical Myelopathy...\"}, {\"title\": \"2024 Evolent Clinical Guidelines For Medical Necessity ...\", \"url\": \"https://www1.radmd.com/sites/default/files/2023-12/2024%20Musculoskeletal%20Surgery%20Guidelines_FINAL_HMSA_Spine.pdf\", \"snippet\": \"Situations requiring possible need for an operation, a second opinion may be necessary. Psychological evaluation is strongly encouraged before surgery is performed for isolated \u00b7 axial pain to determine if the individual will likely benefit from the treatment. ... Anterior surgical approaches to cervical spine decompression emerged in the 1950s. The first \u00b7 literature reports describe anterior cervical discectomy combined with a spinal fusion \u00b7 procedure (ACDF).\"}, {\"title\": \"Evolent Clinical Guideline 0402017 for Cervical Spine\", \"url\": \"https://ldh.la.gov/assets/medicaid/MCPP/03_13_26/880_ACLA_ECG_2017_for_Cervical-_Spine_MRI_2026_redline.pdf\", \"snippet\": \"we only reference the relevant portion of the corresponding Evolent Clinical Guideline that is \u00b7 applicable to the specific service or item requested in order to determine medical necessity. ... Bono CM, Ghiselli G, Gilbert TJ, et al. Diagnosis and Treatment of Cervical \u00b7 Radiculopathy from Degenerative Disorders.; 2010.\"}, {\"title\": \"2024 Evolent Clinical Guidelines for Medical Necessity Review - HMSA\", \"url\": \"https://www1.radmd.com/sites/default/files/2024-07/2024%20Evolent%20Musculoskeletal%20Surgery%20Guidelines%20-%20HMSA%20FINAL%20eff%20070124.pdf\", \"snippet\": \"myelopathy, <strong>BMI should be less than 40</strong>. These cases will be reviewed on a case-by-case \u00b7 basis and may be denied given the increased risk of infection. ... Cervical Spinal Fusion for Degenerative Disc Disease is a covered benefit with conditions. ... Treatment Options,&quot; January 2022.\"}, {\"title\": \"2024 NIA Clinical Guidelines For Medical Necessity Review\", \"url\": \"https://cms.radmd.com/sites/default/files/2023-09/2024-nia-musculoskeletal-surgery-guidelines.pdf\", \"snippet\": \"Myelopathy: Surgical Treatment Options. American Academy of Orthopaedic Surgeons (AAOS). Updated January 2022. Accessed February 7, 2022. 2. Bono CM, Ghiselli G, Gilbert TJ, et al. An evidence-based clinical guideline for the diagnosis \u00b7 and treatment of cervical radiculopathy from degenerative disorders.\"}, {\"title\": \"2023 NIA Clinical Guidelines For Medical Necessity Review\", \"url\": \"https://cms.radmd.com/sites/default/files/2023-09/2023-nia-musculoskeletal-surgery-guidelines.pdf\", \"snippet\": \"Myelopathy: Surgical Treatment Options. American Academy of Orthopaedic Surgeons (AAOS). Updated January 2022. Accessed February 7, 2022. 2. Bono CM, Ghiselli G, Gilbert TJ, et al. An evidence-based clinical guideline for the diagnosis \u00b7 and treatment of cervical radiculopathy from degenerative disorders.\"}, {\"title\": \"Is C4-C6 anterior cervical discectomy and fusion (ACDF) medically necessary for a patient with cervical radiculopathy, upper extremity weakness and pain, despite imaging not showing moderate to severe stenosis, spinal cord compression, or nerve root compression, but with disc herniation, annular tear, and kyphosis?\", \"url\": \"https://www.droracle.ai/articles/504297/is-c4-c6-anterior-cervical-discectomy-and-fusion-acdf-medically\", \"snippet\": \"The requested C4-C6 ACDF <strong>does not meet medical necessity criteria</strong> because the imaging explicitly fails to demonstrate moderate to severe stenosis, spinal cor...\"}, {\"title\": \"2025 Evolent Clinical Guidelines for Medical Necessity Review\", \"url\": \"https://cms-qa.radmd.com/sites/default/files/2024-09/2025%20Evolent%20Advanced%20Imaging%20Guidelines%20-compressed_0.pdf\", \"snippet\": \"Brain CT/Cervical Spine CT/Thoracic Spine CT/Lumbar Spine CT (any combination) # ...........\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_XUAfZae1uoWFOloJ6kp8C6LJ",
+   "output": "{\"query\": \"\\\"ANTERIOR CERVICAL DECOMPRESSION WITH FUSION (ACDF) - SINGLE LEVEL\\\" criteria\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "id": "rs_091500d13fc7bdcd016a9b6eb73c7887d2aa96e0abe403c2f3",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm264Kew6TD4rrpDmcGqWTTbXGVgQfIa0Ihzz6P6lwIwgaFIZGJF_Rfv9jp5-YOIBLjeXHGDvGmkJCsaSJMDvi1NZQidwzfFOV9F_m4zCjR0zl3YIRUkEM0r5tdOeYz24g25oXFGu84sS-sa91ZDASXDfhIH24VjZS50nAdR9YH3Oe7BWpaVPkxXATbz8Gn4h-cQj3m8_LjJexdV1F2PGR5FG0okebi1G8us2wDA1wGuk2-P21hvzB__7nBFpUcCmMViLvTN1ZgbeLnlcEkdeT1E6eZw7a77O3mKsnDQvxsqihe9457IAO4gk6Wook7PgPCMkIPCme7-GyC9dEa8ToG8VzwPYeUA53nvoKiHgnVzwDw5gTdLjQLvKU0pj8U9gXBN2c_N7Z_gd-y_jZ-twPqyBwKRGq69Aq5ojSdEw1Akh2triI7NUv1U_-IXs3eLyPPkowdYIAg4jimL7GH5LvupYDUDmgRfyDXJZVvQcFlBinNCas3Gk3ZMrZfXluVRmW7dyX22q07-FdS47PAQbxwxCpM3q8qqzunAdsSdKjTDPSqKfpNJMZfXw8nZ2Fzhmz_lr8QJcXDmXXdnfnifCkL4vjLc89q29ddZ7L5ynwjSf_lW4DPQfK1gbunvbmo95kVTC0eYFD67WQwu1h90_Ek9zs4Hn7cXgN9vp9mgT187SfTlrw4kiXKy2ib31SrqOG9nvdcfeW86GiTsySl9Qs9sf6cXmGyAp8A_M_zWrkYTUZwxDfmO5F6jk-4jJPgiYklEMjleQfDfEBDCl9EFyCNbN26uARWXZsLbvcd12CAJswwSN48lRw3vwFPpY-mgYEkwmCnSWajrMpds60rj6WnOLr1mW81qmJiuc_W7SgeE8SHQwpjtaCRfvHC81Ro5Fgc6NfN3vswbvbkTEyauPUtMDKkRkgPwsrIb6iz6JiJN5IL5yO79pKdJNukBoTH1DnWdegZAqSuP0NYOhcl1gKr7QoHX8NTNkLMtnPhbNHtK7Uxjz-ybfSMMuOEbEdOJcaOKmwJb-qs8beeZIowssX5d_bMnZx-sc4-0EVCRVenh6VnekbP40dBh5cuby9wEThTcPjw4epy1j_Dg0_64GcaJpiq38BzKxUkc18CHOe7r_wKiDrrHODytVpKew6vaFU5Bdi1Yj5Kh8j-wIyK-5eVuj4EKYenlGolVtmwWLV-mJI08e7_lpKwZDHzAOuzPEX1S9j4PBX5453mkZFc94p5kmpugCmu2ih6DquL00ISLYkFE=",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Cervical Spinal Fusion for Degenerative Disc Disease is a covered benefit with conditions\\\"\",\"count\":10}",
+   "call_id": "call_UYstIwOLEKVZzGRR0lt9bPZ2",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_091500d13fc7bdcd016a9b6eb8bcac87d2aef49d7acb8f9e6c",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Cervical Spinal Fusion\\\" \\\"Evolent\\\" \\\"criteria\\\" degenerative disc disease\",\"count\":10}",
+   "call_id": "call_Ynzu5w9ynE5xoNAN5xhKFihB",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_091500d13fc7bdcd016a9b6eb8bcc887d2b7b4b94019d5b148",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Evolent\\\" \\\"Cervical Radiculopathy\\\" \\\"fusion\\\" \\\"conservative\\\" guideline\",\"count\":10}",
+   "call_id": "call_jHaGTbnTINoZjzfzlVUcZQVn",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_091500d13fc7bdcd016a9b6eb8bcd887d2a3c8cc9d4a93fa7c",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"2026 Evolent\\\" \\\"Cervical Spinal Fusion\\\"\",\"count\":10}",
+   "call_id": "call_oel47zuFU1iRFdknNZRnj7Rr",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_091500d13fc7bdcd016a9b6eb8bce487d2bf0b5c424f17b5e1",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_UYstIwOLEKVZzGRR0lt9bPZ2",
+   "output": "{\"query\": \"\\\"Cervical Spinal Fusion for Degenerative Disc Disease is a covered benefit with conditions\\\"\", \"results\": [{\"title\": \"Cervical Spinal Fusion for Degenerative Disc Disease\", \"url\": \"https://www.lni.wa.gov/patient-care/treating-patients/conditions-and-treatments/cervical-spinal-fusion-for-degenerative-disc-disease\", \"snippet\": \"To receive the benefit, injured ... <strong>Patients with signs and symptoms of radiculopathy; and \u00b7 Advanced imaging evidence of corresponding nerve root compression; and \u00b7 Failure of conservative (non-operative) care</strong>...\"}], \"result_count\": 1, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_Ynzu5w9ynE5xoNAN5xhKFihB",
+   "output": "{\"query\": \"\\\"Cervical Spinal Fusion\\\" \\\"Evolent\\\" \\\"criteria\\\" degenerative disc disease\", \"results\": [{\"title\": \"2024 Evolent Clinical Guidelines for Medical Necessity Review - HMSA\", \"url\": \"https://www1.radmd.com/sites/default/files/2024-07/2024%20Evolent%20Musculoskeletal%20Surgery%20Guidelines%20-%20HMSA%20FINAL%20eff%20070124.pdf\", \"snippet\": \"Spinal cord or nerve root compression due to tumor, infection, or trauma. ... In asymptomatic or mildly symptomatic cases. ... In cases of neck pain alone, without neurological deficits and abnormal imaging findings. See Cervical Fusion for Treatment of Axial Neck Pain Criteria. ... In individuals with kyphosis or at risk for development of postoperative kyphosis. Cervical Artificial Disc Replacement (Single Or Two Level) [2, 14]\"}], \"result_count\": 1, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_jHaGTbnTINoZjzfzlVUcZQVn",
+   "output": "{\"query\": \"\\\"Evolent\\\" \\\"Cervical Radiculopathy\\\" \\\"fusion\\\" \\\"conservative\\\" guideline\", \"results\": [{\"title\": \"National Imaging Associates, Inc.* 2024 Evolent Clinical Guidelines\", \"url\": \"https://www1.radmd.com/sites/default/files/2023-12/2024%20Musculoskeletal%20Surgery%20Guidelines_FINAL_HMSA_Spine.pdf\", \"snippet\": \"Cervical fusion without decompression will be reviewed on a case-by-case basis.\"}, {\"title\": \"2024 Evolent Clinical Guidelines for Medical Necessity Review - HMSA\", \"url\": \"https://www1.radmd.com/sites/default/files/2024-07/2024%20Evolent%20Musculoskeletal%20Surgery%20Guidelines%20-%20HMSA%20FINAL%20eff%20070124.pdf\", \"snippet\": \"Cervical Spinal Fusion for Degenerative Disc Disease is a covered benefit with conditions. ... Treatment Options,&quot; January 2022. [Online]. [Accessed 2023]. [2] North American Spine Society, &quot;Diagnosis and Treatment of Cervical Radiculopathy from\"}, {\"title\": \"Clinical guideline CERVICAL SPINE MRI\", \"url\": \"https://ldh.la.gov/assets/medicaid/MCPP/10.13.23/716_LHCC_Cervical_Spine_MRI_2024_redline.pdf\", \"snippet\": \"(*Unless approvable in the combination section as noted in the guidelines) ... \uf0b7 Isolated neck back pain in pediatric population12, 13 \u2013 conservative care not required if red flags ... As part of initial pre-operative / post-operative / procedural evaluation (\u201cCT best examination to \u00b7 assess for hardware complication, extent of fusion and pseudoarthorsispseudoarthrosis\u201d12, 16 and\"}], \"result_count\": 3, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_oel47zuFU1iRFdknNZRnj7Rr",
+   "output": "{\"query\": \"\\\"2026 Evolent\\\" \\\"Cervical Spinal Fusion\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "id": "rs_091500d13fc7bdcd016a9b6ebc855487d29e4c70b076bb7955",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm27Abhz7NJzIUBGbbUDB3RKg7n689N1-8nrlX_r0bSjXgP6mKVzW5qu9bjDu_AUZrqcPkGibPXnMzw5HphNLLS_afwiojOjZM5LPrc4nQ5K8Jd0_Fv0LuQXJ8JGlLkHqahEwPPeHG7Pxk03y9jf98hb4B14GDUJf6h6S6FVpFX5PYE8IPjMlYf0bPk7XGShywUt2t2rkhQOKB5P7svCDN7tQxqbfWHw4plvkw1i65nVLsb-0HdUZdFUIg5pIcRjUhaI3-_24vc_iVJ31ngUl1VLQT9_gyxAEd5x8Q--BsNpEheaGNvD-YluZfcpNE74VVj1Y9IHCndR0GLzMQ1pKt8xA7ZUbaGVfC03XI8ud5wQ5JJJt6Q_zf2CMvhKfSYsnganT3oEsYlY5EEviOa8GvGlvLFhn0B10srHB8CW3Dvhu32utDj0newjEbWfSy65DZSEs6ixWMBGbfBZXj1YNGIAgAP0P-7yPwrsZ_nyM2gukHzvQ5-8rcTtz7WS_ns-80kN9yjdHau-ouwF2KBREX2q1CT7jNgygsyC9JtzvAtSt-wIqn_vfDd95uuQIgDCo1nltc09LLWEYGW8EynP4LQMYp1UwPcsNYlyefgrD9_vMeMdtoSzxHcm2wiSLcUc11_xfLSYVnZPIIiS4r0uFePZONYg299rFNGwuDQJ8tWLmGt5I5a2eAa0DwFiaoO5IhivqFoHiFyJ4oWkM8ahd0kkl1Oien901-LU71wRvp0YkqktkB1sz7z7bbgTXRrxsmPeRdfozD399cMozMGSUCzJ_N4WNef4bhO7W7uHDDT2gq_ei1y7YmbFvC_VFM9XFbtSQZ8SWaXzKRrbrP0utFd9aq47PCXLLx7R7yuW7zDR_8uD4DpEKr97ycz7uN9ZR4sd5aocnvLCOZyDOg-gQ3DtrBMSU4bcpLNPXz5f-A6IgOq3LGeAHc0nXYoZA7LF7hzf8G_yQToxFmZmoc-NKS8Z_XKueJCH61_qfXLMu0Ezd_qsfZoe8BJNVqcK65V4wDyQwQhibO3R73t5vy8-_lnnK5spCnneHCCMaGV59jKayE6u2RuBtv90JlaHVN4Z5Tgxc2glXC4QhXZsHo26edth30ldE5spFz--sdAk2Sy9cPmE-GGVFU-rrNWh4AuaFcagmDbwXvTqxLXb-O3yc8UDnuIJsPc1AmNXbI9uU19iz5lEBCi52pjFBTjJkDnzNRbdHzwPhvnaTug9rpRq6tBvA8Q6_4eipiNDgedx6oGndzArQ4hJiqbmoZBK9ql5bg1nKTR2NcIXYOuVBSEGJkEtxJZAeV5MMgLacAIGUh4P2lzaogBWLU9ycm9mL9Ah6gCdi5fwyO6OZC_eyLRBjmd_x5c-r0uO_dli0TNTwCOk7YC4qjayN9BPLTJ76jduixeDlMWkZeunebjsx9VYxO3m5w9q3mB1BMj4M9tTnH6GMPaizWqsAnchNPtc2my5_ui1qo2NrAf3uMhW9ulSPZt8eVCQpyQ3EGUar6bE9pJlNQM3JmDkalZyN3BZECmCWmf6Gst5m_gbsZthLzJZUXkk1hXPqKi97SXre4QC1-ILnIs1Oi-rHOMaVvikpzPHoIdGo1Cd4rY3ShD1iwlzQFHVL0GQUe14iYpApV3VmHKYdwME94ZpcJPjgLkI6g2lgJ6T4yxbm1NI93KU-DTTWdtNUTsJtn01r7DckrkmPeFijOaJRWT3Pgi7QNjAJBFdMe5TbiWoigBkJtgaXE3kagEK83XrRpX48Jz3W8pGNTb0u960mv1b9S9j8QpELrU6BsRWqltVrJtIV-oCf6olm1I5SqLWrgKCkfB9zKuuKxb2cyZaO2uAJ9Hpih2WwI-g5PiVGifvbuwwT-Ud_W748z1iIk9-2zHYih8HEWNsKs9EWUIlWiCf96bF0ZBij3dKiwrdyEyZFur_RHtiGJ3dDvGVnXn4uL60Et3_Gjt4djqq-uzBQE0CknB5d8q623wGZNCeYzvZjUl4dukDDY5fAKHZeDc3imZMz927rwRq3BtzytD66s8IEtfILH0ycrFJZieP3OQFDcntQw9uMZ_Rplb5gU_uuY9L9wVhJKcx3W1j8_eDewwEAL_2I9k1pIJPeHiwtryB0Hvv3FxLK1EsjZkWWrLb4khp7DF9NHw8XwUvustqDjzkqoDqE7VCYFG306EjSxzgdmt9zL5TqFcnDqHxQpSs6yNIDhge2beYdPwcaZuFa6eNrhZTwjJDgQ-nwh3l0C6cMtfzGxAQO3iTRtS0L-g5lUpAkwsP4nZb5xSlKh19U6HtZdtiO9n7f1tdRYd2wwjBKr_1tfmz77Jvetdsn24gzZrfX9VMgknQZIchtDFpEsSfrRpu22kxhVHEkAAKLsMFpyaFSgBXZAWMGoadBMLLhIO3vUTiyFfnxwvW2Z3Y73Ywr6kLh0ON244R_-i1k7rjtdPFEMApYkL6bqScDq7MHCI3TpqDS6ZLhH6dROJbw8hk6uxsdMB1w8OH81escFSWKB1lVWD0-qZE5rxR6P0LdJLMOTJKnTP8yR6yaEV5MgEGb0G5gqN-IBBjSyugLH5FkUYvDd5Fwxy0y6HPWj3BSw5zN4i6FgfCpaf38lF3Ah50LPUNW5LVP8DEH9cEaiwOQvQsiiluu_HVD_gqkmjh1T8AryAPFwB-rPFt5AFYn4LfAmb_IfQF-HupyMxX8TpTFRKJM4_I-vPnBBUqVbQu1pNolJ9To7E-5do9lesRhgU6mPa2FiEITnHDA-83JoUKP--UHrTa8W-UAr_kg1rsLB3N-ETPSEDMXuPx78gedySP8fsRYbqW4zBMvQDhZ",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:ambetterhealth.com/en/ms \\\"Appeals\\\" \\\"1020 Highland Colony\\\" member appeal fax\",\"count\":10}",
+   "call_id": "call_vv7GLouNBMz8AK5FM2vx1NwG",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_091500d13fc7bdcd016a9b6ec0890487d2974c133b96350bd0",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Ambetter Magnolia member appeal form address fax prior authorization denial 1-877-687-1187\",\"count\":10}",
+   "call_id": "call_kIaO5XaaU6yOVlMGtMBiuSU6",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_091500d13fc7bdcd016a9b6ec0891487d2a193cf3d878e5500",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"MS-FORM-MEMBER-GRIEVANCE-APPEAL\\\" address fax\",\"count\":10}",
+   "call_id": "call_4D8iidsaGmrDPnaf1WLZSRUx",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_091500d13fc7bdcd016a9b6ec0891c87d29dfe97442ebbdc2a",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_vv7GLouNBMz8AK5FM2vx1NwG",
+   "output": "{\"query\": \"site:ambetterhealth.com/en/ms \\\"Appeals\\\" \\\"1020 Highland Colony\\\" member appeal fax\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_kIaO5XaaU6yOVlMGtMBiuSU6",
+   "output": "{\"query\": \"Ambetter Magnolia member appeal form address fax prior authorization denial 1-877-687-1187\", \"results\": [{\"title\": \"Grievance Appeals | Ambetter from Magnolia Health\", \"url\": \"https://www.ambetterhealth.com/en/ms/provider-resources/manuals-and-forms/grievance-appeals/\", \"snippet\": \"The member should <strong>contact our Member Services department at 1-877-687-1187</strong>. The Member Services representative will assist the member. If the member continues to be dissatisfied, they may file a formal complaint/grievance. Again, our Member Services department is available to assist with this ...\"}, {\"title\": \"Grievance, Appeal, Concern or Recommendation Form\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/Magnolia/Ambetter/PDFs/MS-FORM-MEMBER-GRIEVANCE-APPEAL-CONCERN-FORM_read-Level-6-3.pdf\", \"snippet\": \"Magnolia Health \u00b7 Appeal Department \u00b7 111 East Capitol Street \u00b7 Suite 500 \u00b7 Jackson, MS 39201 \u00b7 Phone 1-877-687-1187 \u00b7 TDD/TTY 1-877-941-9235 \u00b7 <strong>Fax 1-855-300-2614 (Appeal)</strong> Fax 1-855-300-2613 (Grievance/Complaint) Member\u2019s Name: Member\u2019s Ambetter #: Street Address: City \u00b7\"}, {\"title\": \"Contact Ambetter In Mississippi | Ambetter from Magnolia Health\", \"url\": \"https://www.ambetterhealth.com/en/ms/contact-us/\", \"snippet\": \"If you don\u2019t have your account yet, setting it up is quick and easy \u2013get started now! You can also reach us <strong>Monday-Friday from 8am-8pm CST at 1-877-687-1187 (Relay 711).</strong>\"}, {\"title\": \"AMBETTER\", \"url\": \"https://apps.mid.ms.gov/healthcare/pdf/AMBETTER.pdf\", \"snippet\": \"a. Ambetter of Magnolia: For services ... Treatment Request form found on our \u00b7 website (https://ambetter.magnoliahealthplan.com) to fax number: <strong>1-855-283- 9097.</strong>...\"}, {\"title\": \"111 E. Capitol St., Suite 500 Jackson, MS 39201 Ambetter Health Member\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/Magnolia/Ambetter/PDFs/AMB-MS-MemberTipSheet.pdf\", \"snippet\": \"be able to see you without approval from Magnolia and ... Services at <strong>1-877-687-1187</strong>.\"}, {\"title\": \"Prior Authorization Guide How to Secure Prior Authorization See reverse side\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/Magnolia/Ambetter/PDFs/CAMB-19114-PriorAuthGuide_MS.pdf\", \"snippet\": \"Use the Pre-Auth Needed Tool on Ambetter.MagnoliaHealthPlan.com to quickly determine \u00b7 if a service or procedure requires prior authorization. PHONE \u00b7 1-877-687-1187 \u00b7 SECURE WEB PORTAL \u00b7 Provider.MagnoliaHealthPlan.com \u00b7 This is the preferred and fastest method.\"}, {\"title\": \"QUAL 08 Comp.Appeal 3 Prior Authorization Appeal Form\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/Magnolia/Ambetter/PDFs/Ambetter_Prior-Authorization-Appeal-Form.pdf\", \"snippet\": \"QUAL 08 Comp.Appeal 3 \u00b7 Prior Authorization Appeal Form\"}, {\"title\": \"90714MS002 1 Member Services Department: 1- 877-687-1187\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/Magnolia/Ambetter/PDFs/90714MS002-V4.pdf\", \"snippet\": \"you do not get your ID card within a few weeks after you enroll, please call Member Services at 1-877-687- ... Our website helps you get the answers to many of your frequently asked questions. Our website has \u00b7 resources and features that make it easy to get quality care. Our website can be accessed at \u00b7 http://ambetter.magnoliahealthplan.com/. It also gives you information on your benefits and services such\"}, {\"title\": \"Quick Reference GuideA Simplify Your Day-to-Day Activities\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/Magnolia/Ambetter/PDFs/AMB-MS_QuickRefGuide_web.pdf\", \"snippet\": \"Ambetter from Magnolia Health news ... via the following: 1. Secure Web Portal: provider.magnoliahealthplan.com \u00b7 2. <strong>24/7 Toll-Free Interactive Voice Response (IVR) Line: 1-877-687-1187</strong> ......\"}, {\"title\": \"90714MS001 1 Member Services Department: 1- 877-687-1187\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/Magnolia/Ambetter/PDFs/90714MS001-V4.pdf\", \"snippet\": \"you do not get your ID card within a few weeks after you enroll, please call Member Services at 1-877-687- ... Our website helps you get the answers to many of your frequently asked questions. Our website has \u00b7 resources and features that make it easy to get quality care. Our website can be accessed at \u00b7 http://ambetter.magnoliahealthplan.com/. It also gives you information on your benefits and services such\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_4D8iidsaGmrDPnaf1WLZSRUx",
+   "output": "{\"query\": \"\\\"MS-FORM-MEMBER-GRIEVANCE-APPEAL\\\" address fax\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "id": "rs_091500d13fc7bdcd016a9b6ec3779887d2882985084506d270",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm27QG42ivarZIG5Br1SnC95UcMtRK4XH_kZUNXs3dwf-iVd572U1lLjEgYSRdMztTySe5Jtn5xOsMzr5g-hZipvxtIcmn_RmcNcgkF9Sl_txu7HylJJ6rFJUyLmKrZNOe5jLeRaJbr1Ktggzk-CVCoer6MhwB5LGcKbzFc-ggqA0htnFm9lCKA8yUOaO5Q9Ha3ld8echzj8JwFjZAkbvjGetTeeBrGC2ehVAFd_qIolG5uwXzW6hNvJ9bnpIOiuEki3Jqq4Wcwr5dIU9h7uhJMHGusi_kXfw9_EVla1Xrs7ill-L33D_rhXtg65O35VMyqpczMTZCEQeRZaer6vGsjVpLBObiqG398Jd48X2k1DoVmglt9Kanv_cFJrn970N06a53ENUK_5v2smQtZe__4qu6n0VIhhYAaCjpwWpoO2bnL3ZqkkYTFOrTPsIhM_011pwykyowmmyShvGVEUOxTv_dm3c_NU3J3mUjUc3eV7RWuidFB4Mz3MjEHkKdvZjNji6WH2MGuWjBDsqlmyQW7ZbNVU5rGthV1ZkMx4xQ8ROb6XSKOh6kCSzJ56Mm-MNbdgln04PLHaSUdkP-3R3zb_eFGMhNABwYTrE5eJ5AUH7OUevuZhwsTvrd7EtlVsmKGxbbBtbn3fXL1k9RWePiEriYnk8Ii4R0qR8Y_OfJtkYv9uuYhuDjei4BxacF3TncI2I2JrHVcwi4WCXZnC-Fw2bisuz-fIGTHs4172FA0dJK-4iy1j-VRc7GtTB8n5zmcp06OCMV-uJHQzH_m462jx56P5UR-UDdzMOjJ2PyFTanJMvMmF3COaXgaHiNf8cstb65EtZLeAy1OBAyZFeySd_Y0muGFaS83exZnJvqBJVPLm7VWl91HCyqUDN63YZCPld9SsEttHRxfiYaXEog7mYDxH8kEQvk7FK04QBloBht-sVYORE1Ty8fGgoj1qI1aX-DBQKfBecBVA-fd09T84dj4Ki4etYEN_MjsAwGoa8bGAVmoI9yjOUswA8ZnqyLGagWt_J-8FVlapTlZmygUmLYmcwTgJwnmFzCyM3qCqsh1--0URMk0bl9sHpC_wC5AfPBEZdnS2NWzhcoL_l4WQEXhDnV_wvcMa4VIH6wOOSIXZmcA5_ac15LfzUsdTsc8oNmuZg2NzUdr0gfi-DOmRvw8wTgYcoOjWRdZourBbggaqakV4MlSRJL5gesXaNg6y3kzfcLupak26Lcy3Nz5L1OFAHVLLH5N2jFXx7fRug-FmgjvxUZfs-2D1enwzPnn-SmsQfA9tzpKFFypdxQLKKedUErmuaAcCWKE93NYGY9fryUzU0rJyRLFwb324cyZCSHOMKcC9OMbMsTmCAdV6q4nkDXZ7oQfwhJ0mV6sws7IVInd1cZGX0YKddaUgS7LKvBU8Y36bJEfIAcX-U4quToWSVp-zvBcy8lk1RrgII_dyuM2-sSbahZfjJSQj1Yp_NbIxSztrnKZE5uPEVhEXiM3yrUQmIzfHj8CzqwNoYzx-8AoFWS0nh-ehfJdxKwpTL0nt7reAfG5PDbTZa3dS-bKt1icDHOh9ZWAD_Q72mpn5C5G8yS8SjYF5SPqEqViH3si_tGW9n3ead1_vwAWKmSFUk_dcwI3_hlHrFaHLTol2awuI70XbIOA7ZK4VdUO_o6QVMFT6wDOyEClcYLNf-XRxK9TkAyWFlZ6k5yU4bHL4kf4yqyWF8hkHFDs7VlK42WwjOAzQ3fycKOrpw2sBJFQGO1HjhAWWjx1n_Uub9_iE3kmPwFZalMs9mIPUj6h2nSlFPZFuRhWUO0OCDqXSOF6xqhOtWj-fSmmvb37yLyujD27d5EfoycRPOX6noEAlAJMQmcKvnVTdLFGow24Zn1M_pFJ4AABOdmzy3Szq5Atf7nxSdD1VeVML0N3eYOqH-wnx8Cgzvyyng989-GtaTZDo6xRznl-yMVwNO18zfcgBzuI1YjmUR0vUub9yAS8S5VFP5KlBTnN0NtOZMD32QzghqYGTNabxc-OgbxzV0HYVwmNyFMKZhVYkWxDjy0HJaQB_11xzYLh8WnXfUXc4Yl9dOxfi7XuzeUpC97blJnC9zUtzzvkttW86ziIVvDaLNiTlGNyofL4Q33JJ8vJllNznFbokxjtQnoCFS_bVJQ6iwp0qLNPn4lz3Mr6SsgErT-WVVqE0rHxy5N_ppFUXMQLmfxDndhy7mFxbhsCQaJJPfk-GnF92uyIrAgwrZaO0XOFRi5hfuCG1RbbU5XPXZhnmRaUEqt8y5MAxSymLsXWZEqjUu_fRQVO-kAHV13EfUtuzWl7_KF1SuIw47curgnR8X2AX9BNSG_5ERs6crAZKP9JzinH1SVHL-gDW4zBdKSa5fAvJ6hJLWfFkwQyYRaALMoHfGs51Y5xRjR2LcD4F9B1hV-NPaGZCOqmsWo6FuPACdhzU_RHyzAO71gF4qHOM7OOD9afzheVJILZfmhwyym0WCcFn0JMk3WRF_dN02Z0q0RLL5QP6KT9IfNBf8PhmuRsakvN4OEqTusis4Ok8UdPQGN4xSmakryn9NIV4QUrm8-jGcIeJ84_VDjqJjDx8HT7TqaCTd9e_cInRpg7h5NEnkNyKstu6dpcKSraCy_--6hUW4pEleLSXuQJer0g5RTE8BZ9rl-OWprjjZEeaVdQTkFcIRU3jxSLKd_6tEanZTtD4HYnBlMFPDJ8V1HblyHCE_Vzkn1g0DcYiMBT3YZYAzT7h5gXdeqbRmMOfYBPs90cRw9xsAVfOxUvKpJNK9zLrcaqYEOvSDt7MQujuGtqrlt9BhG0z5k7zFgG-ayqhSE0nivz7RsuYVTmCra1Dq98Q9Jj0WWQEFpXepy29lHuHqq7tH9aEyeW4OpYYogW_ABYQL_W7mWyXJ01zushuKKiT227ZTjBVsiLthJtY2sXQhP51BQ_3LGMKFI7Y0Jv-u7_YJhVEIli6EIMXi1qXPpICEVoOh2UhqqyFgLVzfRGZrbo64r4m-33oxLBhfittHR8o5TxiChMJeJHq3eCc6CxqHm_D9iNFQGOgprgqYfDLOOcK611ZcEavsWoN3OvUcLc6Jw9JWKSCAfNwsleZrGpfqJyO53mM-scXQpvtHoNX0VglL1a8oms2IjGgf4kIq9DnO_aXcWH2zfP1vwZDDnOBqRX9Brz5IHjo2xEToBAQnNzURdVVUqwXZWl9Ipu3grmwjWIIEw8n2qlzeWWDrfLz_XwygruQ1p0KjOysUpInzvJFi2ytfw1CiLlNaziGv5nCMba5zYvQDhA16nciowT1Y7yICfpxBkk2mFYyZ0Wad6x1j4VHtRz-02e_l6zq57oQPHmW5cSFKc9GgoiKjfZQ9uWyFK8SOE6O1xJjJoq5C2RaRYDJZIEsrOO1i2UAwVWlVY5YNeCT-SL0sbL2o2mSNGPB9r5A70VhPL_oHpz20YDXpvtKwdNfn5KeZLwSmfOU9ciA2c0lr8KhlAsy79UZt0YQ9Oj9ZFbFvYa16zK68OaOW9gHIqoWZGllXSuzYErGNH8mnBGOw6Ni4YdJHAdfCcOylK0j8TLw1jItIZbiAvjgA5sF5ZyQmRN4ZW_LKltlbWewfJcAEhW7g3XlPvfrjKCiO15CxftmM772VcDnPUKv77ABWSSVvBiiaNjrJeGIVhjedD1KVCk9HoL2LmdpkIltY-ZDgz_jwwP-aLT99kdXom-nvzF7SOMK2F9-AOFTxGBem4oaBZz2r-0FAm_zTh5iL5T75GXAuXLkWGOqV_Twmlj1tN93DON02BhiIe3AQhttjDxH01g-dntUmRLirLauyHWBizN33kwY6FOKPuZNfuNo2fAS9Bfi7DOxxlPKK5tfKZlOovRujhrRqY8MPvqbKn8y_tda7mRLTKyxRkaUO4qQM-AU0raY8uHU3rvhNBNTDviPxMCJwxGbCXs3TH7FagXLdUpGWpOmAZ5yy4-wbZ2EA75DDpgHzbYMbVXq-szEv6oR2VTdDE0Pcoeqs27FvxEtUMmHdAaBniC2detaLXrh23---r07IO9QA01yOHstL8tNyjoxmLV2qjv3cAhfXqbH-ef1Xw8dU38Wb_fL9EHvRgZXmfp5O6LhWv8_Oc5jHn_m2JvoGzirF_IjP_ZBOFXVN30PLbGjYfHpru2k9_w4qqBp4IKVdWw1_gPF57XLp0pI3UgIi6NG831DNPoBcRhpPHM3kImgHuyUdWqUA5ppN4h_T7sj8MdKQYQsjz8G48_ut0j6rGIDA9WSpK6G7mQLDQKWSxRtz-dtirUhF0KcRR-FWOXyGj9QVZ_swl9FV0yJ51qO9WJDRF-rD19ztvW-slVkzTn6MzfY5_pD4phtuFaCibkZOznnt79DPYIkol4irLHf-f805otEMsu3PM8Kx1fFOYNrlnLeDYlsARrQm8a0mY8syikeK7mVk8cTHyDhmYLZkKJswOnJJp1YWJ2Num5Lhf7F4SM6Rh6Ed1gYoSgkKE3CNKft8jZMgaUEwXaFnyrtN9Uw-DoQfzfo6ndSv3uyn8iCCafMlmgYBmQv9Qs7k55ZI7HwlUJHDwYfcXgPVwKtstkvURCBnpcF1sUFW9CEBibHJWkcyzoISTaYHYtpXX_q1ArNGyD_rHZndnaZ8N3APt3kY8_jziECZnsoDcYW8Gwx2dc8qRgkrQgC990Ul5Ry-",
+   "status": null
+  },
+  {
+   "id": "msg_091500d13fc7bdcd016a9b6eca3b6887d28ee6a3bbac5a403d",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": null,\n  \"effective_date\": null,\n  \"criteria_quotes\": [],\n  \"appeal_deadline\": \"2027-02-10 (180 days after the August 14, 2026 notice date)\",\n  \"submission_route\": \"Submit a member appeal using Ambetter from Magnolia Health's Grievance, Appeal, Concern or Recommendation Form, with the denial notice and supporting clinical records. The publicly indexed form lists fax 1-855-300-2614 for appeals and the following mailing address: Appeal Department, 111 East Capitol Street, Suite 500, Jackson, MS 39201. Ambetter's current provider appeal page separately lists the current mailing address for non-claim member appeals as Ambetter from Magnolia Health, 1020 Highland Colony Parkway, Suite 502, Ridgeland, MS 39157. Because the published sources show different mailing addresses, call Member Services at 1-877-687-1187 (Relay 711) to confirm the current mailing address before sending by mail.\",\n  \"how_to_obtain_criteria\": \"The Ambetter from Magnolia Health clinical-policy page states that its Clinical Policy Manual applies to members; if no Magnolia clinical policy exists, InterQual criteria may be used, and delegated vendors' guidelines may also be used. The page does not publicly identify which of those criteria were applied to this ACDF denial. Ask Member Services at 1-877-687-1187 to be directed to Medical Management and request: (1) the exact medical-necessity guideline used for CPT 22551, (2) its version and effective date, (3) the specific criteria not satisfied, and (4) the clinical-review rationale and imaging findings relied upon. The relevant public page is https://www.ambetterhealth.com/en/ms/provider-resources/clinical-payment-policies/.\",\n  \"confidence\": \"High that no payer-specific governing policy could be verified publicly; moderate for the submission instructions because the published mailing addresses conflict.\",\n  \"notes\": \"A publicly available document titled \\\"2026 Evolent Clinical Guidelines for Medical Necessity Review \u2014 Musculoskeletal Surgery Guidelines\\\" exists at https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf and is shown in search results as effective July 1, 2026 through July 1, 2027. However, the retrieved Ambetter materials do not establish that this document, rather than InterQual or another delegated guideline, governed this particular Magnolia Health denial. Therefore it is not identified here as the governing policy, and no unverified criteria are quoted.\"\n}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": "final_answer"
+  }
+ ],
+ "stop_reason": "completed",
+ "usage": {
+  "input_tokens": 102176,
+  "output_tokens": 2778
+ },
+ "model": "gpt-5.6-luna",
+ "elapsed_s": 58.0,
+ "run_id": "r-362c36a994e1",
+ "case_id": "poc-aaa1cf805a"
+}

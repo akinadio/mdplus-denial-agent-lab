@@ -1,0 +1,623 @@
+{
+ "answer": {
+  "policy_found": false,
+  "policy_title": null,
+  "policy_number": null,
+  "policy_url": null,
+  "effective_date": null,
+  "criteria_quotes": [],
+  "appeal_deadline": "2027-02-09 (180 days from the 2026-08-13 notice date, per the denial letter)",
+  "submission_route": "The denial letter itself is the authoritative source for exactly where/how to submit this specific appeal (it should contain a dedicated appeals address, fax, or portal link on a page not included in the excerpt provided). Generally, CommunityCare directs members to submit appeals per their plan document and can be reached to confirm the process at: CommunityCare Customer Service, 1-800-777-4890 (statewide) or (918) 594-5242 (Tulsa, HMO plans) / (918) 594-5351 (Life and Health/PPO plans). CommunityCare's general claims correspondence address is P.O. Box 3249, Tulsa, OK 74101, but this is NOT confirmed to be the correct address for a medical-necessity appeal -- the patient should call the number above (or check the back of the actual denial letter/EOB, which typically states the appeal address/fax) before mailing anything. If internal appeal is denied, Oklahoma law also allows external review through the Oklahoma Insurance Department (1-800-522-0071) and federal appeal rights can be enforced via the DOL's Employee Benefits Security Administration (1-866-444-3272) for ERISA plans.",
+  "how_to_obtain_criteria": "Because I could not locate the specific 'Clinical Criteria' or 'CommunityCare Medical Policies' document for CPT 27130 on the public ccok.com site (the navigation links to these pages exist but resolve to 404s from outside the member/provider portal), the patient/provider should: (1) Call CommunityCare Customer Service (1-800-777-4890) and explicitly request, in writing if possible, 'the specific internal rule, guideline, protocol, or medical policy relied upon in denying this claim' -- insurers are required under ERISA claims regulations (29 CFR 2560.503-1) and ACA internal claims/appeals rules (45 CFR 147.136) to provide this free of charge upon request; (2) Ask the treating orthopedic surgeon's office, which received the denial/PA determination directly from CommunityCare -- that determination letter to the provider often cites the specific criteria set (e.g., InterQual or MCG guideline number) used, even if the patient's own denial notice does not; (3) Log into or ask CommunityCare to grant portal access to the 'Clinical Criteria' and 'CommunityCare Medical Policies' sections referenced on ccok.com's Providers and Member Resources pages, which are likely restricted to authenticated portal users; (4) If CommunityCare cannot produce the specific document upon request, this can itself be cited in the appeal as a procedural defect under 29 CFR 2560.503-1(g), since denial notices must identify the specific standard used or state that no specific internal standard exists.",
+  "confidence": "low",
+  "notes": "I could not verify a publicly available, CommunityCare-specific medical policy for CPT 27130/total hip arthroplasty. Multiple targeted web searches and direct URL attempts against ccok.com (the payer's own site) found only generic definitions of 'medical necessity' and links to 'Clinical Criteria'/'CommunityCare Medical Policies' pages that returned 404 errors when fetched directly, suggesting they are portal/login-gated or use non-guessable URLs. I did not find any independent secondary source (e.g., state filings, litigation records) reproducing CommunityCare's hip arthroplasty criteria. General industry background (not CommunityCare-specific) confirms that commercial insurers commonly evaluate total hip arthroplasty using criteria such as: failed conservative therapy (e.g., NSAIDs, physical therapy, weight management, injections) for a defined period; radiographic evidence of significant joint space narrowing, osteoarthritis, avascular necrosis, or similar structural damage; and functional impairment/pain affecting activities of daily living -- but since these were not confirmed as CommunityCare's own published criteria, I have not quoted them as if they were. The patient's appeal should specifically request CommunityCare produce, in writing, the exact criteria applied to their case (per ERISA/ACA claims procedure rules), and should also ask their surgeon to resubmit or supplement imaging/exam findings addressing standard total-hip-arthroplasty medical necessity elements (failed conservative treatment, radiographic severity, functional limitation) while awaiting that document."
+ },
+ "raw_text": "## Findings\n\nI was not able to locate a specific, publicly posted CommunityCare medical\u2011necessity policy document for CPT 27130 (total hip arthroplasty). Here is what I found and confirmed, and what I could not confirm:\n\n**What I confirmed:**\n- The payer is CommunityCare HMO, Inc. (ccok.com), an Oklahoma commercial/ACA issuer.\n- CommunityCare's provider website (ccok.com) has navigation links labeled \"Clinical Criteria\" and \"CommunityCare Medical Policies\" under both the Member Resources and Provider Resources sections \u2014 but every URL I could construct/guess for these sections (e.g., `/providers/clinical-criteria.asp`, `/providers/medical-policies.asp`, and capitalized variants) returned a 404 \"Page Not Found.\" These pages appear to be either behind a login-gated provider portal, served through JavaScript navigation I can't resolve by direct URL guess, or otherwise not indexed/accessible via simple public fetch.\n- CommunityCare's public plan documents (SBC, claims/payment policy FAQ pages) only give a generic definition of \"medical necessity\" (\"services... reasonable, necessary, and/or appropriate... that meet accepted standards of medicine based on evidence-based clinical standards of care\") \u2014 not condition-specific clinical criteria for hip replacement.\n- I could not confirm which specific clinical criteria set CommunityCare licenses/uses for orthopedic surgical review (e.g., InterQual, MCG, or an internally authored policy) \u2014 nothing on the public site names it.\n- I could not find a dedicated commercial-plan appeals mailing address/fax; the SBC and payment-policy pages direct members to their plan documents and to CommunityCare Customer Service (1\u2011800\u2011777\u20114890; Tulsa 918\u2011594\u20115242 for HMO or 918\u2011594\u20115351 for Life & Health/PPO) for specifics, and note the right to also contact DOL/EBSA and the Oklahoma Insurance Department.\n- The only concrete mailing address I found for CommunityCare is the general claims address (P.O. Box 3249, Tulsa, OK 74101), which is not confirmed to be the correct address for medical-necessity appeals.\n\nBecause I could not verify the actual governing document, I am not going to name a specific policy number/title as if confirmed \u2014 doing so would risk asserting something I didn't actually retrieve.\n\n```json\n{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": null,\n  \"effective_date\": null,\n  \"criteria_quotes\": [],\n  \"appeal_deadline\": \"2027-02-09 (180 days from the 2026-08-13 notice date, per the denial letter)\",\n  \"submission_route\": \"The denial letter itself is the authoritative source for exactly where/how to submit this specific appeal (it should contain a dedicated appeals address, fax, or portal link on a page not included in the excerpt provided). Generally, CommunityCare directs members to submit appeals per their plan document and can be reached to confirm the process at: CommunityCare Customer Service, 1-800-777-4890 (statewide) or (918) 594-5242 (Tulsa, HMO plans) / (918) 594-5351 (Life and Health/PPO plans). CommunityCare's general claims correspondence address is P.O. Box 3249, Tulsa, OK 74101, but this is NOT confirmed to be the correct address for a medical-necessity appeal -- the patient should call the number above (or check the back of the actual denial letter/EOB, which typically states the appeal address/fax) before mailing anything. If internal appeal is denied, Oklahoma law also allows external review through the Oklahoma Insurance Department (1-800-522-0071) and federal appeal rights can be enforced via the DOL's Employee Benefits Security Administration (1-866-444-3272) for ERISA plans.\",\n  \"how_to_obtain_criteria\": \"Because I could not locate the specific 'Clinical Criteria' or 'CommunityCare Medical Policies' document for CPT 27130 on the public ccok.com site (the navigation links to these pages exist but resolve to 404s from outside the member/provider portal), the patient/provider should: (1) Call CommunityCare Customer Service (1-800-777-4890) and explicitly request, in writing if possible, 'the specific internal rule, guideline, protocol, or medical policy relied upon in denying this claim' -- insurers are required under ERISA claims regulations (29 CFR 2560.503-1) and ACA internal claims/appeals rules (45 CFR 147.136) to provide this free of charge upon request; (2) Ask the treating orthopedic surgeon's office, which received the denial/PA determination directly from CommunityCare -- that determination letter to the provider often cites the specific criteria set (e.g., InterQual or MCG guideline number) used, even if the patient's own denial notice does not; (3) Log into or ask CommunityCare to grant portal access to the 'Clinical Criteria' and 'CommunityCare Medical Policies' sections referenced on ccok.com's Providers and Member Resources pages, which are likely restricted to authenticated portal users; (4) If CommunityCare cannot produce the specific document upon request, this can itself be cited in the appeal as a procedural defect under 29 CFR 2560.503-1(g), since denial notices must identify the specific standard used or state that no specific internal standard exists.\",\n  \"confidence\": \"low\",\n  \"notes\": \"I could not verify a publicly available, CommunityCare-specific medical policy for CPT 27130/total hip arthroplasty. Multiple targeted web searches and direct URL attempts against ccok.com (the payer's own site) found only generic definitions of 'medical necessity' and links to 'Clinical Criteria'/'CommunityCare Medical Policies' pages that returned 404 errors when fetched directly, suggesting they are portal/login-gated or use non-guessable URLs. I did not find any independent secondary source (e.g., state filings, litigation records) reproducing CommunityCare's hip arthroplasty criteria. General industry background (not CommunityCare-specific) confirms that commercial insurers commonly evaluate total hip arthroplasty using criteria such as: failed conservative therapy (e.g., NSAIDs, physical therapy, weight management, injections) for a defined period; radiographic evidence of significant joint space narrowing, osteoarthritis, avascular necrosis, or similar structural damage; and functional impairment/pain affecting activities of daily living -- but since these were not confirmed as CommunityCare's own published criteria, I have not quoted them as if they were. The patient's appeal should specifically request CommunityCare produce, in writing, the exact criteria applied to their case (per ERISA/ACA claims procedure rules), and should also ask their surgeon to resubmit or supplement imaging/exam findings addressing standard total-hip-arthroplasty medical necessity elements (failed conservative treatment, radiographic severity, functional limitation) while awaiting that document.\"\n}\n```",
+ "usd": 0.1739,
+ "transcript": [
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "text",
+     "text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-13\nMember: Skyler Foster\nMember ID: W944120051\nPlan: CommunityCare (Commercial/ACA), state of Oklahoma\n\nDear Skyler,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total hip replacement\n    Procedure code (CPT): 27130\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-09).\n\nReference number: POC-DA7FAA7DB4-93242\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EtQCCpABCBIYAipA6E5zVxM74WMcZsCgmXa9lcM5BdxmG/xkhgAcQhg4k3kDQdMCccCnbdbK/qyNEYgM3k+XhF6fK1/weUcsFaSwdzIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAYjWwdUGEgxfm6RK9HUqn8LTNjkaDB+Oxts4XyzoUR7t2yIwFk92wydgU0n4b0Qq0RzP74Hjhksm7alWmpS6LBr3HYTUquo3PEJmJrReESWT4K5uKnElakvCjCohOzCMWt3FMvaTm282Q47EM6vG4plCjd1IwvfrmK6vQC9PCsXLXdlvOn4xgv1ckz9W9ha0YVRMzm2f0fR/zlvh6x1uD/c0dlKKitSi7Z2H8veg7evNxEvgdpoFkWWkAWD9nof69Q4G38fBZRgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01BUbyJMg2oR2gsVNEijbmQ1",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "CommunityCare Oklahoma medical policy total hip replacement arthroplasty medical necessity"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01YbSxzQ7oRvFmhnLLBcWFzK",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "CommunityCare Oklahoma Health Plan medical policy CPT 27130"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01BUbyJMg2oR2gsVNEijbmQ1",
+     "content": "{\"query\": \"CommunityCare Oklahoma medical policy total hip replacement arthroplasty medical necessity\", \"results\": [{\"title\": \"0184-Total Hip Arthroplasty: Medical Necessity and Documentation Requirements | CMS\", \"url\": \"https://www.cms.gov/httpswwwcmsgovresearch-statistics-data-and-systemsmonitoring-programsmedicare-ffs-compliance/2a232-total-hip-arthroplasty-medical-necessity-and-documentation-requirements\", \"snippet\": \"DescriptionDocumentation will be reviewed to determine if total hip arthroplasty meets Medicare coverage requirements.Affected Code(s)\"}, {\"title\": \"CommunityCare: State of Oklahoma\", \"url\": \"https://oklahoma.gov/content/dam/ok/en/omes/documents/community-care-25.pdf\", \"snippet\": \"CommunityCare: State of Oklahoma \u00b7 Summary of Benefits and Coverage: What this Plan Covers &amp; What You Pay for Covered Services\"}, {\"title\": \"CommunityCare Health Insurance Plans\", \"url\": \"https://www.ccok.com/\", \"snippet\": \"CommunityCare offers high quality healthcare coverage at the regions leading providers for an excellent value.We offer plans to suit any individual or family, in a wide variety of coverage options.\"}, {\"title\": \"MEDICAL POLICY \u2013 7.01.573 Hip Arthroplasty in Adults Effective Date:\", \"url\": \"https://www.premera.com/medicalpolicies/7.01.573.pdf\", \"snippet\": \"section. <strong>Hip arthroplasty may be considered medically necessary when criteria are met</strong>.\"}, {\"title\": \"Surgery of the Hip \u2013 Commercial and Individual Exchange ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-hip.pdf\", \"snippet\": \"Revision of total hip arthroplasty; acetabular component only, with or without autograft or allograft\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01YbSxzQ7oRvFmhnLLBcWFzK",
+     "content": "{\"query\": \"CommunityCare Oklahoma Health Plan medical policy CPT 27130\", \"results\": [{\"title\": \"Community Care Health Benefits - Oklahoma.gov\", \"url\": \"https://oklahoma.gov/content/dam/ok/en/omes/documents/community-care-25.pdf\", \"snippet\": \"CommunityCare: State of Oklahoma \u00b7 Summary of Benefits and Coverage: What this Plan Covers &amp; What You Pay for Covered Services\"}, {\"title\": \"CommunityCare of Oklahoma Health Insurance Plans\", \"url\": \"https://www.ccok.com/Plans-and-Coverage/\", \"snippet\": \"CommunityCare is proudly owned by two of the region\u2019s premier health systems.\"}, {\"title\": \"CommunityCare Health Insurance Plans\", \"url\": \"https://www.ccok.com/\", \"snippet\": \"CommunityCare is proud to offer Senior Health Plan to Medicare eligible beneficiaries, providing the benefits you want with the providers you need.\"}, {\"title\": \"CommunityCare: State of Oklahoma\", \"url\": \"https://oklahoma.gov/content/dam/ok/en/egid/documents/benefits-and-coverage/2024/CommunityCare%20SOB%202024.pdf\", \"snippet\": \"CommunityCare: State of Oklahoma \u00b7 Summary of Benefits and Coverage: What this Plan Covers &amp; What You Pay for Covered Services\"}, {\"title\": \"Individual and Family Plans by CommunityCare of Oklahoma\", \"url\": \"https://ccok.com/Plans-and-Coverage/Individual-and-Family/\", \"snippet\": \"CommunityCare is proudly owned by two of the region\u2019s premier health systems.\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "ErgCCpABCBIYAipAxB0vEKXGnIa8RGqGMveQqhYSR9v/zSkGLrbdgnE1tvhTHaoOb29qx7OGz5aajSsin/1idv/0uVr29Zky1ZEOHjIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAYzWwdUGEgwJhrvFxY7K4wTrK1oaDJRJUQg6CKbTVI9W1iIwkiCbt5dCu4EGOFo7RLJgiXgTVVFpBOZlMJR49CLd9mD7WLuYjRNi8CZnLiN9HRZoKlWKjinW+50WIV0Ps9HxBlOGVtgLq439LtcXFBN2YzGYXXLqsIz8Abc11ShbK67+UsZS5I4yAmVybxTYwEMDE3zrlIAnDCWtRpaCE7+t0tvs8Qh6qGSwGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01XqQZrjJcJaaSXKKENFFZoN",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "ccok.com medical policy manual prior authorization criteria"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_017C8u8DoLitFRioDos6xwG9",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "site:ccok.com medical policy"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01XqQZrjJcJaaSXKKENFFZoN",
+     "content": "{\"query\": \"ccok.com medical policy manual prior authorization criteria\", \"results\": [{\"title\": \"Utilization Management and Prior Authorization\", \"url\": \"https://partner.medica.com/providers/policies-and-guidelines/um-policies-and-prior-authorization\", \"snippet\": \"Policies and Guidelines &gt; Utilization Management and Prior Authorization \u00b7 A utilization management (UM) policy is a document containing clinical criteria used by Medica staff members for prior authorization, appropriateness of care determination and coverage.\"}, {\"title\": \"Authorization Request\", \"url\": \"https://secure.ccok.com/files/docs/pdf/providers/Referral%20Form%20for%20Authorization.pdf\", \"snippet\": \"Authorization means that <strong>CommunityCare has determined the requested service are medically necessary and appropriate</strong>.\"}, {\"title\": \"Ambulance Prior Authorization Documentation Requirements | FCSO Medicare\", \"url\": \"https://medicare.fcso.com/medical-review/ambulance-prior-authorization-documentation-requirements\", \"snippet\": \"The CMS Repetitive, Scheduled Non-Emergent Ambulance Transport Prior Authorization Model Operational Guide lists the required medical records. Medical records should provide sufficient information, in the form of objective findings and clinical assessment data, to support the cover sheet data and the PCS (Physician Certification Statement).\"}, {\"title\": \"Clinical & Payment Policies | Provider Resources | Coordinated Care\", \"url\": \"https://www.coordinatedcarehealth.com/providers/resources/clinical-payment-policies.html\", \"snippet\": \"Clinical policies are one set of guidelines used to assist in administering health plan benefits, either by prior authorization or payment rules. They include but are not limited to policies relating to evolving medical technologies and procedures, as well as pharmacy policies.\"}, {\"title\": \"1 Prior Authorization Process for Certain Durable Medical Equipment,\", \"url\": \"https://www.cms.gov/files/document/operational-guide-dmepos-prior-authorization-updated-04-14-17pdf\", \"snippet\": \"\u00a7410.38. The ability to prior authorize DMEPOS items subject to frequent unnecessary utilization \u00b7 is further codified in regulation, at 42 C.F.R. \u00a7\u00a7405 and 414. The CMS provides additional guidance through Internet-Only Manuals, including the Medicare \u00b7 Benefit Policy Manual 100-02, Ch.\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_017C8u8DoLitFRioDos6xwG9",
+     "content": "{\"query\": \"site:ccok.com medical policy\", \"results\": [{\"title\": \"CommunityCare Health Insurance Plans\", \"url\": \"https://www.ccok.com/\", \"snippet\": \"CommunityCare is proud to offer Senior Health Plan to Medicare eligible beneficiaries, providing the benefits you want with the providers you need.\"}, {\"title\": \"CommunityCare Health Insurance Basics\", \"url\": \"https://www.ccok.com/members/members-health-ins.asp\", \"snippet\": \"Our Medicare Advantage plans include coverage for Medicare Part A and B, Part D (outpatient drug coverage) if needed, plus additional benefits.\"}, {\"title\": \"CommunityCare Payment Policies\", \"url\": \"https://www.ccok.com/providers/payment-policies.asp\", \"snippet\": \"Medicare Compliance Program Guidelines Attestation \u00b7 D-SNP Provider Training \u00b7 FAQs \u00b7 Contact us \u00b7 Newsletter \u00b7 Payment policies \u00b7 Provider feedback \u00b7 Jimmo vs. Sebelius \u00b7 Wellness Tools \u00b7 Cancer Care \u00b7 Explanation of Payment (EOP) Notifications \u00b7 Clinical Criteria \u00b7\"}, {\"title\": \"CommunityCare of Oklahoma Health Insurance Plans\", \"url\": \"https://www.ccok.com/Plans-and-Coverage/\", \"snippet\": \"We offer a variety of Medicare Advantage plans including Medical only plans, Part D only plans and combined plans with low monthly premiums.\"}, {\"title\": \"CommunityCare's Plan Details\", \"url\": \"https://www.ccok.com/Plans-and-Coverage/plan-details.asp?plan=201498905OK0170010-01&frm=marketplace_shopreview&planyear=2014\", \"snippet\": \"<strong>Covers approximately 60% of your covered medical and prescription drug costs</strong>.\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "ErYCCpABCBIYAipAe3HA1T1WLKG1tFTplCQOutHuzjhFnV2OZkZedpUvx0eKhexur4c9Xfbf7Tc39Uj7yb/TN9nQN5oVLnybD7A23TIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAZHWwdUGEgxXXZmizHGvSWWTkxIaDK5vS+7XYMe6m85CEyIwG+CSS1ae8uB3S+3FAl7Q3S9mZfsIHUTW+ecaXim5hiy1LhY8R8XenCMz9eO3NqaQKlP9oBeZRROJuUZPwJSFFlKqLE8ketU8y9yQSRLkq8dSYYDhX6iA1AXTsfwg7wwgKwYM/97F6E85kqI1vj1Gl06tsjJKr/7V48vJNZbrPvxv0mus5hgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01C5Rvgn5vTcws7ogGeX9pjm",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.ccok.com/providers/payment-policies.asp"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01C5Rvgn5vTcws7ogGeX9pjm",
+     "content": "{\"url\": \"https://www.ccok.com/providers/payment-policies.asp\", \"final_url\": \"https://www.ccok.com/providers/payment-policies.asp\", \"http_status\": 200, \"content_type\": \"text/html\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"CommunityCare Payment Policies Careers About us Contact us Our Plans CommunityCare HMO CommunityCare Life and Health Costco mail order service Lumicera specialty pharmacy First Health & Valenz Provider Search Member Resources Member & Resource Center Community Resources Costco mail order service Lumicera specialty pharmacy EAP Notice of Privacy Practices Contact EAP Clinical Criteria CommunityCare Medical Policies Employer Resources EAP Notice of Privacy Practices Contact EAP Providers Resources D-SNP Provider Training FAQs Contact us Costco mail order service Lumicera specialty pharmacy Explanation of Payment (EOP) Notifications Clinical Criteria CommunityCare Medical Policies Skilled Nursing Broker Resources Broker Portal Login Costco mail order service Lumicera specialty pharmacy Senior Health Plan Contact Page 2026 2025 2024 2022 2020 2019 2018 Senior Health Plan Contact Page Login search bar toggle Search CommunityCare Website Go menu opening toggle Providers Providers Resources Provider Portal Login or Register Directory Review Forms FDR Program Guide Medicare Compliance Program Guidelines Attestation D-SNP Provider Training FAQs Contact us Newsletter Payment policies Provider feedback Jimmo vs. Sebelius Wellness Tools Cancer Care Pharmacy Resources Preferred CommunityChoice Explanation of Payment (EOP) Notifications Clinical Criteria Skilled Nursing Provider Login Payment Policies CommunityCare Claim Payment Policies - Commercial Products CommunityCare's claim payment policies are designed to assist health care providers when submitting claims, and provide information on how CommunityCare generally adjudicates a claim for the referenced item or service. These policies are subject to change at any time. Any conflict between a payment policy, the provider's contract with CommunityCare, CommunityCare's Provider Manual, and health plan enrollee's individual or group benefits will be resolved in the following order: the enrollee's benefits; the provider's contract; the Provider Manual; then the payment policy. These payment policies are not a guarantee of payment with respect to any particular claim. Claim payment is subject to patient eligibility for coverage on the date of service, the availability of other coverage (e.g., third-party liability or other group or individual coverage), the plan's utilization management and review requirements (e.g., prior authorization; retrospective review for medical necessity; proper coding) and claim editing logic (i.e., to detect improper bundling, unbundling or upcoding). Before accessing, please confirm you agree with the terms of use as outlined above. I understand and agree with the statements above. I do not agree with the statements above. Language Assistance Espa\u00f1ol Ti\u1ebfng Vi\u1ec7t \u7e41\u9ad4\u4e2d\u6587 \ud55c\uad6d\uc5b4 Deutsch \u0627\u0644\u0639\u0631\u0628\u064a\u0629 Hmoob Tagalog Fran\u00e7ais \u0e9e\u0eb2\u0eaa\u0eb2\u0ea5\u0eb2\u0ea7 \u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22 \u0627\u064f\u0631\u062f\u064f\u0648 tsalagi gawonihisdi \u0641\u0627\u0631\u0633\u06cc Connect With Us Notice of Nondiscrimination Privacy & Compliance Consumer Information Disclosure home careers newsroom contact us health & wellness find health insurance EAP medicare members employers providers brokers \u00a9 2026 CommunityCare HMO, Inc. All Rights Reserved. Website Privacy Statement -1- CommunityCare is proudly owned by two of the region\u2019s premier health systems. Other physicians and providers are available in our network. We use cookies on this website to give you the best experience and measure website usage. By continuing to use this website, you consent to these cookies. For more information, view our privacy policy. I Agree\", \"text_truncated\": false}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "ErwDCpABCBIYAipAc9T9ZVP8gq4zDwxff6/q6nrWwXe6a9iLB+XiHNyGBX2BkLRK9btbn9EubP+VDqFHeNF/JUlaOBDQuZFcK5551jIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAZTWwdUGEgxOr3Zz9vTetGatLnUaDGVqAzVxafeF8XzlqCIwJH2f06dGsxyKXuvLb0OzW4JlZoMd1tm5l3/yyOp+oUlT11ZWETq+P85PWODvbqYMKtgBraO91OfBMuxkvYVCRLiDmMR9man1n0FoRFjEkR9CKRwHcL3WS6EiajQDfEXKbWeWlq3wjKrmqefEPrwwHV/DyNHeAUEIcsyicC2+zh0RCqpGCPzI+7bR5A3i75xJ/RHN40IGiIcY5UXqvWFYNrS+/+ZJtjIn6Vfbmj4UwHClJpTEwPqgVDM4yvsJQ2veElZITTcXvTbLfJ1ALi+BaSLtOP17RuhC2qjjxvwsspLAsVMOT8m+E6PEE1LSoKsYQkDNYYR1UHPAYxEnvjwjut5dQgs8iSykz80SGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01Xuu7yfgBcrHdGJjjh14dTJ",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"ccok.com\" \"Clinical Criteria\" OR \"CommunityCare Medical Policies\" hip"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01H9mu7hw1zAQCwkmVzbebmQ",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "CommunityCare HMO Oklahoma \"medical policy\" pdf total joint replacement"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01Xuu7yfgBcrHdGJjjh14dTJ",
+     "content": "{\"query\": \"\\\"ccok.com\\\" \\\"Clinical Criteria\\\" OR \\\"CommunityCare Medical Policies\\\" hip\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01H9mu7hw1zAQCwkmVzbebmQ",
+     "content": "{\"query\": \"CommunityCare HMO Oklahoma \\\"medical policy\\\" pdf total joint replacement\", \"results\": [{\"title\": \"Surgery of the Knee \u2013 Commercial and Individual ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf\", \"snippet\": \"Radiographic Findings of Osteoarthritis: Narrowing of joint space, osteophyte formation, subchondral sclerosis,\"}, {\"title\": \"Surgery of the Hip \u2013 Commercial and Individual Exchange ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-hip.pdf\", \"snippet\": \"Grade 2: Small cysts in femoral head or acetabulum, moderate joint space narrowing, moderate loss of head\"}, {\"title\": \"Joint Procedures \u2013 Medicare Advantage Medical Policy\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medadv-mp/joint-procedures.pdf\", \"snippet\": \"UnitedHealthcare Medicare Advantage Medical Policy \u00b7 Effective 01/01/2026\"}, {\"title\": \"Surgery of the Hip (for Ohio Only) Page 1 of 5\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/oh/surgery-hip-oh-cs.pdf\", \"snippet\": \"Surgery of the Hip (for Ohio Only) \u00b7 UnitedHealthcare Community Plan Medical Policy\"}, {\"title\": \"MEDICAL POLICY \u2013 7.01.573 Hip Arthroplasty in Adults Effective Date:\", \"url\": \"https://www.premera.com/medicalpolicies/7.01.573.pdf\", \"snippet\": \"<strong>ceramic or plastic</strong>. These implants replace the hip joint, which is where the thigh bone attaches\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EroDCpABCBIYAipAcQYHdS96amsmyoswP8rfSm9R77vKMfIOdhvBWXJ0LBwWY4hR4uTVHxcccNW6ADTwPqnDr+tMC8qyxazkBooXzDIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAZnWwdUGEgwq4WnXepFhhLjB6s8aDBMgdWLpTt/2P4GNSiIwrntFsSqq5WYyHGnX3dRjT6MMsPxcY7iKht381nanCN/yuQKwVEa336pMsDklcR0UKtYBRCVX+w4OTuGbiDjTD15som2eZUhR6SHgRMqPfIZB4moztcrs1tvz+jm5oHvt0tN6GXuPyK97j6mVj7kaIqzqnMbeGejtlkzjn6q0PLppz3WWMCaXN2BCa6mR5VgVwnIj1BnCHkwXgD6creKa269FDPLUbvSAzxRbhM0ArCYhLmOypftdpT2HDb+HqjAd47eBNfTx0jTbWwcf5FRZHjdtS4DhXX6VJBrRJQOzkpQRgWRE4l0/zmr2HY+866lDWGC7ph7rK36qsMHcaBNveyE+MEudpnxHpxgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01T1Nyjhb94gsQ1HsXUHmHDp",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.ccok.com/providers/clinical-criteria.asp"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_012GudZbbhMTq2MHtuFi6yHb",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.ccok.com/providers/medical-policies.asp"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01T1Nyjhb94gsQ1HsXUHmHDp",
+     "content": "{\"url\": \"https://www.ccok.com/providers/clinical-criteria.asp\", \"final_url\": \"https://www.ccok.com/providers/clinical-criteria.asp\", \"http_status\": 200, \"content_type\": \"text/html\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Page Not Found (404) Careers About us Contact us Our Plans CommunityCare HMO CommunityCare Life and Health Costco mail order service Lumicera specialty pharmacy First Health & Valenz Provider Search Member Resources Member & Resource Center Community Resources Costco mail order service Lumicera specialty pharmacy EAP Notice of Privacy Practices Contact EAP Clinical Criteria CommunityCare Medical Policies Employer Resources EAP Notice of Privacy Practices Contact EAP Providers Resources D-SNP Provider Training FAQs Contact us Costco mail order service Lumicera specialty pharmacy Explanation of Payment (EOP) Notifications Clinical Criteria CommunityCare Medical Policies Skilled Nursing Broker Resources Broker Portal Login Costco mail order service Lumicera specialty pharmacy Senior Health Plan Contact Page 2026 2025 2024 2022 2020 2019 2018 Senior Health Plan Contact Page Login search bar toggle Search CommunityCare Website Go menu opening toggle Page Not Found (404) The resource you are looking for could not be found. Language Assistance Espa\u00f1ol Ti\u1ebfng Vi\u1ec7t \u7e41\u9ad4\u4e2d\u6587 \ud55c\uad6d\uc5b4 Deutsch \u0627\u0644\u0639\u0631\u0628\u064a\u0629 Hmoob Tagalog Fran\u00e7ais \u0e9e\u0eb2\u0eaa\u0eb2\u0ea5\u0eb2\u0ea7 \u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22 \u0627\u064f\u0631\u062f\u064f\u0648 tsalagi gawonihisdi \u0641\u0627\u0631\u0633\u06cc Connect With Us Notice of Nondiscrimination Privacy & Compliance Consumer Information Disclosure home careers newsroom contact us health & wellness find health insurance EAP medicare members employers providers brokers \u00a9 2026 CommunityCare HMO, Inc. All Rights Reserved. Website Privacy Statement -1- CommunityCare is proudly owned by two of the region\u2019s premier health systems. Other physicians and providers are available in our network. We use cookies on this website to give you the best experience and measure website usage. By continuing to use this website, you consent to these cookies. For more information, view our privacy policy. I Agree\", \"text_truncated\": false}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_012GudZbbhMTq2MHtuFi6yHb",
+     "content": "{\"url\": \"https://www.ccok.com/providers/medical-policies.asp\", \"final_url\": \"https://www.ccok.com/providers/medical-policies.asp\", \"http_status\": 200, \"content_type\": \"text/html\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Page Not Found (404) Careers About us Contact us Our Plans CommunityCare HMO CommunityCare Life and Health Costco mail order service Lumicera specialty pharmacy First Health & Valenz Provider Search Member Resources Member & Resource Center Community Resources Costco mail order service Lumicera specialty pharmacy EAP Notice of Privacy Practices Contact EAP Clinical Criteria CommunityCare Medical Policies Employer Resources EAP Notice of Privacy Practices Contact EAP Providers Resources D-SNP Provider Training FAQs Contact us Costco mail order service Lumicera specialty pharmacy Explanation of Payment (EOP) Notifications Clinical Criteria CommunityCare Medical Policies Skilled Nursing Broker Resources Broker Portal Login Costco mail order service Lumicera specialty pharmacy Senior Health Plan Contact Page 2026 2025 2024 2022 2020 2019 2018 Senior Health Plan Contact Page Login search bar toggle Search CommunityCare Website Go menu opening toggle Page Not Found (404) The resource you are looking for could not be found. Language Assistance Espa\u00f1ol Ti\u1ebfng Vi\u1ec7t \u7e41\u9ad4\u4e2d\u6587 \ud55c\uad6d\uc5b4 Deutsch \u0627\u0644\u0639\u0631\u0628\u064a\u0629 Hmoob Tagalog Fran\u00e7ais \u0e9e\u0eb2\u0eaa\u0eb2\u0ea5\u0eb2\u0ea7 \u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22 \u0627\u064f\u0631\u062f\u064f\u0648 tsalagi gawonihisdi \u0641\u0627\u0631\u0633\u06cc Connect With Us Notice of Nondiscrimination Privacy & Compliance Consumer Information Disclosure home careers newsroom contact us health & wellness find health insurance EAP medicare members employers providers brokers \u00a9 2026 CommunityCare HMO, Inc. All Rights Reserved. Website Privacy Statement -1- CommunityCare is proudly owned by two of the region\u2019s premier health systems. Other physicians and providers are available in our network. We use cookies on this website to give you the best experience and measure website usage. By continuing to use this website, you consent to these cookies. For more information, view our privacy policy. I Agree\", \"text_truncated\": false}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EqMDCpABCBIYAipAdF5cveCVLJFtKbv3fqCzLqqOV5IMQklc6cQIh8Ek+9f6tyv1+SlWMKX4QUgUGJBRdDKeEai8iy0Qzj6bKKmHbDIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAZzWwdUGEgzE/i9a8CzF7ybquasaDHbJLEB8AM5xPjItCiIwxXwjI+kqedbMJL8k1UIcEIrJ7heR4XBK31Y9ZMz45WQwUCDfxZmJNK7Wb8xBK0zjKr8BuIn8a2fPnJlXsgkL4i98bpUOqINivwWERnkm3tTGI1gnoWhJEPsrT+raJwCrT4PS3oLaZm9FYKe8wxU0rvxrwwzcFuR4GmUhdMZFxhf3C2osxTuef6s4y1309I4x2ezZgswx5aYgtVIjcJF/kZ9vqKvQ7zIF/vfhNQSDud4cCA8a5jvKrN9JAXzUjQuLnjavA04IWDAuN9XJrKlQ7BgFJKDmwEejdrcAS+gFOj2zOEEfMJBarQ2GX/ZTFMp45vAYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_015FHtUK1WfxuPMu5CdYd9NL",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "CommunityCare Oklahoma \"MCG\" OR \"InterQual\" prior authorization criteria"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01MLRBVewqibfQzYxFfMMaz6",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "CommunityCare HMO Oklahoma provider manual medical necessity criteria utilization management"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_015FHtUK1WfxuPMu5CdYd9NL",
+     "content": "{\"query\": \"CommunityCare Oklahoma \\\"MCG\\\" OR \\\"InterQual\\\" prior authorization criteria\", \"results\": [{\"title\": \"MEDICAL AUTHORIZATION USING INTERQUAL April 2021\", \"url\": \"https://www.oklahoma.gov/content/dam/ok/en/okhca/docs/providers/training/2022/Medical%20Authorization%20using%20InterQual%20010522.pdf\", \"snippet\": \"2 | O K L A H O M A H E A L T H C A R E A U T H O R I T Y \u00b7 This class covers the prior authorization (PA) submission for\"}, {\"title\": \"InterQual & MCG Criteria for Imaging Studies | Solum Health\", \"url\": \"https://getsolum.com/glossary/interqual-mcg-criteria-guide\", \"snippet\": \"They often specify <strong>required findings, acceptable diagnostic workups, and particular thresholds for severity or risk</strong>. When a reviewer looks at a prior authorization request, they compare your documentation with those items.\"}, {\"title\": \"InterQual Criteria Explained for Providers - MedHeave\", \"url\": \"https://medheave.com/prior-authorization-services/interqual-criteria/\", \"snippet\": \"Learn what InterQual criteria are, how they work in utilization review, and how to document for medical necessity decisions.\"}, {\"title\": \"InterQual Criteria: Uses, Access, & Documentation\", \"url\": \"https://medheave.com/interqual-criteria/\", \"snippet\": \"Learn what InterQual criteria are, how they work in utilization review, and how to document for medical necessity decisions.\"}, {\"title\": \"Clinical Coverage Policy Reference Tool - Alliance Health\", \"url\": \"https://www.alliancehealthplan.org/providers/auth/clinical-coverage-policies/\", \"snippet\": \"Providers continue to obtain prior authorization through NCTracks and receive eyeglasses from the State optical laboratory. Eyeglass dispensing fees must be submitted to Avesis for reimbursement. Alliance uses the NCDHHS Clinical Coverage Policies for utilization management. Where the medical necessity criteria are not specified or defined in the NCDHHS Clinical Coverage Policies, or where NCDHHS does not have a policy, Alliance will use MCG Health criteria as permitted by NCDHHS.\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01MLRBVewqibfQzYxFfMMaz6",
+     "content": "{\"query\": \"CommunityCare HMO Oklahoma provider manual medical necessity criteria utilization management\", \"results\": [{\"title\": \"1 2025 Provider Manual HUMANA HEALTHY HORIZONS IN OKLAHOMA\", \"url\": \"https://assets.humana.com/is/content/humana/2025%20OK%20Provider%20Manual%206-11-2025pdf\", \"snippet\": \"Utilization Management department .............. 41 ... Services not requiring PA ................................. 42 \u00b7 Requesting PA .................................................. 42 \u00b7 Medical necessity criteria ..........................\"}, {\"title\": \"CommunityCare HMO Claims Payment Policies & Other Information\", \"url\": \"https://www.ccok.com/plans-and-coverage/group/Claims-Payment-Info-HMO.asp\", \"snippet\": \"You may have to pull up to the full amount of charges if the service is not authorized or does not meet the definition of medically necessary. Some referrals are automatically approved using network and national criteria. Your provider knows which services are automatically approved and can arrange your initial visit or treatment without the need for further action by CommunityCare.\"}, {\"title\": \"CommunityCare HMO Plans for Employer Groups\", \"url\": \"https://www.ccok.com/plans-and-coverage/group/hmo.asp\", \"snippet\": \"CommunityCare HMO is an Oklahoma-owned and operated Health Maintenance Organization (HMO) created by some of Oklahoma&#x27;s premier health systems. We provide a cost-effective, community-based product.\"}, {\"title\": \"CommunityCare: State of Oklahoma\", \"url\": \"https://oklahoma.gov/content/dam/ok/en/omes/documents/community-care-25.pdf\", \"snippet\": \"CommunityCare: State of Oklahoma \u00b7 Summary of Benefits and Coverage: What this Plan Covers &amp; What You Pay for Covered Services\"}, {\"title\": \"CommunityCare Health Insurance Plans\", \"url\": \"https://www.ccok.com/\", \"snippet\": \"Wondering what the difference is between an HMO and a PPO? Or how co-payments and deductibles work? Answers to these and many other questions are on our Health Insurance Basics portal. ... CommunityCare offers high quality healthcare coverage at the regions leading providers for an excellent value.We offer plans to suit any individual or family, in a wide variety of coverage options.\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EpwDCpABCBIYAipAehcrjmT/LkG2NS9TGQ5BHiAFpwzc95sbNgpRZe9BEc9KvrOhYZf7JqXZLgvD/vPdANFedU8GN5QSwl7y+mlysTIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAaHWwdUGEgzGSsF/fs3bUrXeoPEaDLyKO9zlmc7mDb5vOiIw4CSFa6iwwkIh2SWExIjgT/WbdS5vWQ9rsvZRnS8W2y9CMFkhTWjsOC2LZMz36tNwKrgB2zOxz5KS2f0cP/f2GPCxUfhVJUHF1f/CopwCe00evPT9QJ3v6UvVmLw/Hrfo0GLN3mrU8Dy25tq/fKMFyYkyrIWXwGfdmu4B0ZK6ldGNSTqgQAAvqCt2xDOPE8yniMkBanB+y56T1FinRP7jU64WxRpZAiH4SzPeicu8hk6mNlKOeL2azJrz7AGwAQu6TnJ83tmg1ZVySqs2RH+a0fDELLiNkEnzsxW6aPZzRem917x80tedgYC9mxgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01Ht4Dm7G16NAbHtXuYoxUMC",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.ccok.com/plans-and-coverage/group/Claims-Payment-Info-HMO.asp"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01JveaXz72Uo9bocmaBzkrjg",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"CommunityCare\" Oklahoma appeal \"adverse benefit determination\" address fax"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01Ht4Dm7G16NAbHtXuYoxUMC",
+     "content": "{\"url\": \"https://www.ccok.com/plans-and-coverage/group/Claims-Payment-Info-HMO.asp\", \"final_url\": \"https://www.ccok.com/plans-and-coverage/group/Claims-Payment-Info-HMO.asp\", \"http_status\": 200, \"content_type\": \"text/html\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"CommunityCare HMO Claims Payment Policies & Other Information Careers About us Contact us Our Plans CommunityCare HMO CommunityCare Life and Health Costco mail order service Lumicera specialty pharmacy First Health & Valenz Provider Search Member Resources Member & Resource Center Community Resources Costco mail order service Lumicera specialty pharmacy EAP Notice of Privacy Practices Contact EAP Clinical Criteria CommunityCare Medical Policies Employer Resources EAP Notice of Privacy Practices Contact EAP Providers Resources D-SNP Provider Training FAQs Contact us Costco mail order service Lumicera specialty pharmacy Explanation of Payment (EOP) Notifications Clinical Criteria CommunityCare Medical Policies Skilled Nursing Broker Resources Broker Portal Login Costco mail order service Lumicera specialty pharmacy Senior Health Plan Contact Page 2026 2025 2024 2022 2020 2019 2018 Senior Health Plan Contact Page Login search bar toggle Search CommunityCare Website Go menu opening toggle Our Plans Our Plans Individual & Family Plans Medicare Plans Group Plans HMO Plans PPO Plans Group Enrollment and Renewal Information Claims, Payment Policies and Other Information CommunityCare HMO CommunityCare Life and Health Pharmacy and Prescription Drug Benefits First Health & Valenz Provider Search Become an Agent Login Claims Payment Policies & Other Information Select a plan type. CommunityCare HMO CommunityCare Life and Health CommunityCare HMO What is out-of-network liability and balance billing? How does an enrollee submit a claim? What is a grace period, and how are claims handled during the grace period? What are retroactive denials? What is enrollee recoupment of overpayments? What are medical necessity, prior authorizations, and enrollee responsibilities? What are drug exceptions timeframes and enrollee responsibilities? What information is available on an Explanation of Benefits (EOB)? What is Coordination of Benefits (COB)? What is out-of-network liability and balance billing? Out-of-network services are from doctors, hospitals and other healthcare professionals who have not contracted with CommunityCare. A Healthcare professional who is out of your plan's network can set a higher cost for a service than professionals in your health plan's network. Depending on the health care professional, the service could cost more or not be paid at all by your plan. Charging this extra amount is called balanced billing. In such cases, you will be responsible for paying for what your plan does not cover. Balance billing may be waived for emergency services received at an out-of-network facility. Balance billing occurs when an out-of-network provider bills an enrollee for charges \u2013 other than copayments, coinsurance, or any amounts that may remain on a deductible. Except for emergency services in an emergency department of a hospital, out-of-network services are not covered if they are obtained without prior authorization from CommunityCare. Out-of-network ancillary services related to an in-network hospital stay will be considered at the same level of benefit as the in-network hospital services. An enrollee may be billed for any non-covered out-of-network service. Top of page How does an enrollee submit a claim? A claim is a request to an insurance company for payment of health care services. Usually providers file claims with us on your behalf. If you received services from an out-of-network provider, and if that provider does not submit a claim to us, you can file the claim directly. There are time limits on how long you have to submit claims. You can check our specific plans claims filing time limit information to determine the specific time limit for claim submission. In some situations an enrollee, instead of the provider, may need to submit a claim to CommunityCare, requesting payment for services that have been received. If an enrollee needs to file a claim, the enrollee needs to include the following information: Name of patient Name of physician or hospital Tax identification number of provider Date of treatment Procedure code Diagnosis code Amount of charge The claim should be submitted to the following address: CommunityCare P.O. Box 3249 Tulsa, OK 74101 CommunityCare must receive acceptable written proof of loss (e.g., medical bills) within 120 days after the date of such loss. This form can be used to assist with claim submission. CommunityCare Customer Service can be reached at (918) 594-5242 (Tulsa) / 1-800-777-4890 (Statewide). Our phones are answered 8 a.m. - 6 p.m., Monday through Friday. Top of page What is a grace period and how are claims handled during the grace period? The grace period does not apply to employer group plans A grace period is a time period when your plan will not terminate even though you did not pay your premium You are required to pay your premium by the scheduled due date. If you do not do so, your coverage could be canceled. For most individual health care plans, if you do not pay your premium on time, you will receive a 30-day grace period. Any claims submitted for you during that grace period will be pended. When a claim is pended, that means no payment will be made to the provider until your delinquent premium is paid in full. Your coverage will be terminated if you do not pay your delinquent premium by the end of the 30-day grace period. If you pay you full outstanding premiums before the end of the grace period, we will pay all claims for covered services received during the grace period that are submitted properly. If you have an individual HMO plan in Oklahoma, we will pay your claims during the 30-day grace period; however, your benefits will terminate if your delinquent premium is not paid by the end of that grace period. If you are enrolled in an individual health care plan offered on the Health Insurance Marketplace and you receive an advance premium tax credit (APTC), you will get a 3-month grace period and we will pay all claims for covered services that are submitted properly during the first month of the grace period. During the second and third months of that grace period, any claims you incur will be pended. If you pay your full outstanding premium before the end of the 3-month grace period, we will pay all claims for covered services that are submitted properly for the second and third months of the grace period. If you do not pay all of your outstanding premium by the end of the 3-month grace period, your coverage will terminate, and we will not pay for any pending claims submitted to you during the second and third months of the grace period. Your provider may balance bill you for those services A QHP/Marketplace issuer must provide a grace period of three consecutive months if an enrollee receiving advance payments of the premium tax credit has previously paid at least one full month's premium during the benefit year. During the grace period, the QHP.Marketplace issuer must provide an explanation of the 90 day grace period for enrollees with premium tax credits pursuant to 45 CFR 156.270(d). An enrollee with a Marketplace plan who qualifies for advance payments of the premium tax credits (APTC) to lower the monthly premium and has paid at least one full month's premium during the benefit year, has a short period of time to pay should they fall behind on their monthly health insurance premium. During the first 30 days of the grace period, claims will be processed according to CommunityCare's normal guidelines. Beyond the first 30 days, all claims will be held pending resolution of the outstanding premium payment. If the outstanding premium is paid in full, the claims will be finalized following CommunityCare's normal processing guidelines. If the outstanding premium is not paid, the claims will be denied for loss of coverage. Top of page What are retroactive denials? A retroactive denial reverses a previously paid claim, through which the enrollee becomes responsible for payment. If we retroactively deny a claim, we have already paid for you, you will be responsible for payment. Claims may be denied retroactively due to retroactive coverage termination. Retroactive termination denials may occur; Due to failure to pay premium/contribution. You have a claim paid during the second or third month of a grace period. Having a claim paid for a service for which you are not eligible. Due to employment termination if the employee did not make any payment of premium/contribution toward the benefits after he/she left the job. In this case, the plan sponsor may terminate coverage as of the employment termination date. When the plan does not cover divorced ex-spouses and an employee failed to notify their employer about the divorce until after the divorce, and the employee or ex-spouse did not pay premium/contribution toward the benefit coverage. You can avoid retroactive denials by paying your premiums on time and talking with your provider about whether the service performed is a covered service. You can also avoid retroactive denials by obtaining your services from an in-network provider. Retroactive coverage terminations can be prevented by making all monthly premium payments on time. Top of page What is enrollee recoupment of overpayments? Enrollee recoupment of overpayments is the refund of premium overpayment by the enrollee due to the over-billing by the issuer. If we discover that we did not reduce the portion of the premium charged to or for an enrollee for the applicable month(s) by the amount of the advance payment of the premium tax credit, we will notify the enrollee of the improper reduction within 45 calendar days of our discovery of the improper reduction and refund any excess premium paid by or for the enrollee, as follows: Unless a refund is requested by or for the enrollee, we will, within 45 calendar days of discovery of the error, apply the excess premium paid by or for the enrollee to the enrollee's portion of the premium (or refund the amount directly). If any excess premium remains, we will apply the excess premium to the enrollee's portion of the premium for each subsequent month for the remainder of the period of enrollment or benefit year until the excess is fully applied (or refund the remaining amount directly to the enrollee). If any excess premium remains at the end of the period of enrollment or benefit year, we will refund any excess premium within 45 calendar days of the end of the period of enrollment or benefit year, whichever comes first. If a refund is requested by or for the enrollee, we will refund the enrollee within 45 calendar days of the date of the request. If you believe you have paid too much for your premium and should receive a refund, you can initiate a refund of premium overpayment by calling CommunityCare Customer Service at (918) 594-5242 (Tulsa) / 1-800-777-4890 (Statewide). Our phones are answered 8 a.m. - 6 p.m., Monday through Friday. Top of page What are medical necessity, prior authorizations, and enrollee responsibilities? We must approve some services before you obtain them. This is called prior authorization or precertification. For example, any kind of inpatient hospital care (except maternity care) requires prior authorization. If you need a service that we must first approve, your in-network doctor will call us for the authorization. If you don\u2019t receive prior authorization, you may have to pay up to the full amount of the charges. Medical necessity is defined as medically necessary services or supplies that are reasonable, necessary, and/or appropriate to prevent, diagnose, or treat an illness, injury, condition, disease, or its symptoms and that meet accepted standards of medicine based on evidence-based clinical standards of care. Prior authorization or pre-certification is a process through which an issuer approves a request to access a covered benefit before the insured accesses the benefit. You should refer to the specific coverage information you received after enr\", \"text_truncated\": true}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01JveaXz72Uo9bocmaBzkrjg",
+     "content": "{\"query\": \"\\\"CommunityCare\\\" Oklahoma appeal \\\"adverse benefit determination\\\" address fax\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EvgFCpABCBIYAipAVQNyl4ide2nxEUPcCzkJjnFjDNWFWRV1c/D2vhhW3K/ONVy8Cp0r3CRIU2ESeSd2laHp3vVothVhe79uWStCYDIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAarWwdUGEgwvfiKdJeZliMax7H8aDHuMSCSQ6yfhUyYFUCIwOPxLrWM1qSP/Y4IXZ3yswdKBNUHebk9pNRkM0udsjbLOjM8e07/bKUV2rgJsbZEDKpQEhH+l4GH26VPV9L/2KCJA2Y26pzqMnNICoB4eDAMzmIRYl5Ym222WNbUAvuqSn2qpfs5qmjeLfEkb4b2lecqSKPikitXgxEaLh4IeHNi9+zxJSf+qFowQz2koFSGNgyb7gB9YUtyOs3qqT5gE9E4iFp6PqCB0tsOsWOeSEWJDKoPGdI0j4mVWa0TmvlQgvnLSXSz/khGO8T7AHW4r9jq+YFH45T6FsJny7UCh3uEcFy3OVOrRN57ZMJYFuvUqef3ewl9URSkYIohiAFm3nPffM2xvyBxIDki0E+8pLjprFPnLjQB0vXiTFeaho93F8o6JXz3ut6mI40dPKXcMA1j/tkVnD8YLi6pE1XP3+rP8BZdifSsn2VIuTzPRp8/TCcHkRLH8NMzepdrWM/BplT+uDLOuL6SE+pTywqc1M9JimSYA6yWnLoBlgFyTRi9kwKA96+yVnsauL3mRZyrZC3unz4v6owreGG0B1B3NA0wJcTPWutsrsn5UP3jRcmAykK00IR6D0bfiQWhIGArtqG2pXZdsuM3s2oGLrksjBzBVsbU0h46FbbdKOhMh34Euc6ymUeum+nZ+9Oo8zW5fxwj5ZJzBlDmFwybb0Xxsy3w1M9N9IA/F00TvrGl3VWFxQlQp1zVZv5O/Nqf862sxOf33S56rklDTlqYiSsXiIoNtS/qRcbDmWid/Yd9ezw7nRAXn2uR8CBgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_012Capm2Uu7EkpEhtpGpGmSa",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "ccok.com appeals grievance member \"how to file an appeal\""
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01PXz64cQW1VTArDJGyGvNff",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "CommunityCare Oklahoma member appeal prior authorization denial address P.O. Box"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_012Capm2Uu7EkpEhtpGpGmSa",
+     "content": "{\"query\": \"ccok.com appeals grievance member \\\"how to file an appeal\\\"\", \"results\": [{\"title\": \"appeals complaint grievance Health Medical Insurance How to file\", \"url\": \"https://individuals.healthreformquotes.com/appeal-grievances/\", \"snippet\": \"For example, you may file a grievance if you have a problem calling the plan or if you\u2019re unhappy with the way a staff person at the plan has behaved towards you. However, if you have a complaint about a plan\u2019s refusal to cover a service, supply, or prescription, you file an appeal.\"}, {\"title\": \"How and When to File an Appeal | Ohio \u2013 MyCare (2025) | CareSource\", \"url\": \"https://www.caresource.com/oh/members/tools-resources/grievance-appeal/file-appeal/mycare/\", \"snippet\": \"You can submit an appeal in one of the following ways: <strong>Call Member Services at 1-855-475-3163 (TTY: 1-833-711-4711 or 711), Monday \u2013 Friday, 8 a.m. \u2013 8 p.m. Fill out the Member Grievance/Appeal Form</strong>.\"}, {\"title\": \"Member appeal process and forms\", \"url\": \"https://www.regence.com/member/members/member-appeals\", \"snippet\": \"Get help with your coverage questions, including information on how to file an appeal. Learn about the appeal process and find the appropriate appeal forms.\"}], \"result_count\": 3, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01PXz64cQW1VTArDJGyGvNff",
+     "content": "{\"query\": \"CommunityCare Oklahoma member appeal prior authorization denial address P.O. Box\", \"results\": [{\"title\": \"CommunityCare HMO Claims Payment Policies & Other Information\", \"url\": \"https://www.ccok.com/plans-and-coverage/group/Claims-Payment-Info-HMO.asp\", \"snippet\": \"If CommunityCare authorizes the referral, you will receive written confirmation of the determination from CommunityCare. You may also call Customer Service at 1-800-777-4890, or at <strong>(918) 594-5242</strong> in Tulsa. Your provider will be notified if CommunityCare denies the referral, and you and your ...\"}, {\"title\": \"CommunityCare PPO Claims Payment Policies & Other Information\", \"url\": \"https://www.ccok.com/plans-and-coverage/group/Claims-Payment-Info-PPO.asp\", \"snippet\": \"An enrollee can initiate a refund of premium overpayment by calling CommunityCare Customer Service at (918) 594-5351 (Tulsa) / 1-877-862-1356 (Statewide). Our phones are answered 8 a.m. - 6 p.m., Monday through Friday. ... Medical necessity is used to describe care that is reasonable, necessary and/or appropriate, based on evidence-based clinical standards of care. Prior authorization is a process through which an issuer approves a request to access a covered benefit before the insured accesses the benefit.\"}, {\"title\": \"317:30-5-757. Prior authorization and appeal of prior authorization decision\", \"url\": \"https://oklahoma.gov/ohca/policies-and-rules/xpolicy/medical-providers-fee-for-service/individual-providers-and-specialties/intensive-treatment-family-care/prior-authorization-and-appeal-of-prior-authorization-decision.html\", \"snippet\": \"The denial can be appealed to the OHCA <strong>within thirty (30) calendar days of the receipt of the notification of the denial by the OHCA or its designated agent</strong>.\"}, {\"title\": \"CommunityCare: State of Oklahoma\", \"url\": \"https://oklahoma.gov/content/dam/ok/en/omes/documents/community-care-25.pdf\", \"snippet\": \"Your Grievance and Appeals Rights: There are agencies that can help if you have a complaint against your plan for a denial of a claim. This \u00b7 complaint is called a grievance or appeal. For more information about your rights, look at the explanation of benefits you will receive for that medical \u00b7 claim. Your plan documents also provide complete information to submit a claim, appeal, or a grievance for any reason to your plan. For more \u00b7 information about your rights, this notice, or assistance, contact: CommunityCare at 1-800-777-4890.\"}, {\"title\": \"Authorization Request\", \"url\": \"https://secure.ccok.com/files/docs/pdf/providers/Referral%20Form%20for%20Authorization.pdf\", \"snippet\": \"payment. The member must be eligible on the date the service is rendered for this authorization to be valid. CommunityCare does not guarantee eligibility for patients\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "text": "Let me fetch the full Claims Payment Info HMO page (it got truncated) to see the appeals section, and also check the PPO page since we don't know which plan type applies. Also let's try to find the actual \"Clinical Criteria\" and \"CommunityCare Medical Policies\" link targets.",
+     "type": "text"
+    },
+    {
+     "id": "toolu_01AFuNgW1msJnAMigXiok7Bu",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.ccok.com/plans-and-coverage/group/Claims-Payment-Info-PPO.asp"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01QJarVQBcfLgKXaYiynZydc",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"ccok.com\" filetype:pdf \"medical policy\" hip OR joint OR arthroplasty"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01AFuNgW1msJnAMigXiok7Bu",
+     "content": "{\"url\": \"https://www.ccok.com/plans-and-coverage/group/Claims-Payment-Info-PPO.asp\", \"final_url\": \"https://www.ccok.com/plans-and-coverage/group/Claims-Payment-Info-PPO.asp\", \"http_status\": 200, \"content_type\": \"text/html\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"CommunityCare PPO Claims Payment Policies & Other Information Careers About us Contact us Our Plans CommunityCare HMO CommunityCare Life and Health Costco mail order service Lumicera specialty pharmacy First Health & Valenz Provider Search Member Resources Member & Resource Center Community Resources Costco mail order service Lumicera specialty pharmacy EAP Notice of Privacy Practices Contact EAP Clinical Criteria CommunityCare Medical Policies Employer Resources EAP Notice of Privacy Practices Contact EAP Providers Resources D-SNP Provider Training FAQs Contact us Costco mail order service Lumicera specialty pharmacy Explanation of Payment (EOP) Notifications Clinical Criteria CommunityCare Medical Policies Skilled Nursing Broker Resources Broker Portal Login Costco mail order service Lumicera specialty pharmacy Senior Health Plan Contact Page 2026 2025 2024 2022 2020 2019 2018 Senior Health Plan Contact Page Login search bar toggle Search CommunityCare Website Go menu opening toggle Our Plans Our Plans Individual & Family Plans Medicare Plans Group Plans HMO Plans PPO Plans Group Enrollment and Renewal Information Claims, Payment Policies and Other Information CommunityCare HMO CommunityCare Life and Health Pharmacy and Prescription Drug Benefits First Health & Valenz Provider Search Become an Agent Login Claims Payment Policies & Other Information Select a plan type. CommunityCare HMO CommunityCare Life and Health CommunityCare Life and Health What is out-of-network liability and balance billing? How does an enrollee submit a claim? What is a grace period and how are claims handled during the grace period? What are retroactive denials? What is enrollee recoupment of overpayments? What are medical necessity, prior authorizations and enrollee responsibilities? What are drug exceptions timeframes and enrollee responsibilities? What information is available on an Explanation of Benefits (EOB)? What is Coordination of Benefits (COB)? What is out-of-network liability and balance billing? Balance billing occurs when a provider bills an enrollee for charges - other than copayments, coinsurance, or any amounts that may remain on a deductible. When a provider bills you for the difference between the provider's charge and the allowed amount. For example, if the provider's charge is $100 and the allowed amount is $70, the provider may bill you for the remaining $30. A preferred provider may not balance bill you for covered services. Out-of-network providers have the right to balance bill regardless of the level of benefits payable. In addition, you may be billed for any non-covered service. Out-of-network ancillary services related to an in-network hospital stay will be considered at the same level of benefit as the in-network hospital services. Top of page How does an enrollee submit a claim? In some situations an enrollee, instead of the provider, may need to submit a claim to CommunityCare, requesting payment for services that have been received. If an enrollee needs to file a claim, the enrollee needs to include the following information: Name of patient Name of physician or hospital Tax identification number of provider Date of treatment Procedure code Diagnosis code Amount of charge The claim should be submitted to the following address: CommunityCare P.O. Box 3249 Tulsa, OK 74101 CommunityCare must receive acceptable written proof of loss (e.g., medical bills) within 120 days after the date of such loss. This form can be used to assist with claim submission. CommunityCare Customer Service can be reached at (918) 594-5351 (Tulsa) / 1-877-862-1356 (Statewide). Our phones are answered 8 a.m. - 6 p.m., Monday through Friday. Top of page What is a grace period and how are claims handled during the grace period? The grace period does not apply to employer group plans. A QHP issuer must provide a grace period of three consecutive months if an enrollee receiving advance payments of the premium tax credit has previously paid at least one full month's premium during the benefit year. During the grace period, the QHP issuer must provide an explanation of the 90 day grace period for enrollees with premium tax credits pursuant to 45 CFR 156.270(d). An enrollee with a Marketplace plan who qualifies for advance payments of the premium tax credits (APTC) to lower the monthly premium and has paid at least one full month's premium during the benefit year, has a short period of time to pay should they fall behind on their monthly health insurance premium. This period of time is called a 'grace period.' This grace period is 90 days. During the first 30 days of the grace period, claims will be processed following CommunityCare's normal processing guidelines. Beyond the first 30 days, all claims will be held pending resolution of the outstanding premium payment. If the outstanding premium is paid in full, the claims will be finalized following CommunityCare's normal processing guidelines. If the outstanding premium is not paid, the claims will be denied for loss of coverage. Top of page What are retroactive denials? A retroactive denial is the reversal of a previously paid claim, through which the enrollee then becomes responsible for payment. Claims may be denied retroactively due to retroactive coverage termination. Retroactive coverage termination may occur; due to failure to pay premium/contribution. due to employment termination if the employee did not make any payment of premium/contribution toward the benefits after he/she left the job. In this case, the plan sponsor may terminate coverage as of the employment termination date. when the plan does not cover divorced ex-spouses and an employee failed to notify their employer about the divorce until after the divorce, and the employee or ex-spouse did not pay premium/contribution toward the benefit coverage. Retroactive coverage terminations can be prevented by making all monthly premium payments on time. Top of page What is enrollee recoupment of overpayments? Enrollee recoupment of overpayments is the refund of premium overpayment by the enrollee due to the over-billing by the issuer. If we discover that we did not reduce the portion of the premium charged to or for an enrollee for the applicable month(s) by the amount of the advance payment of the premium tax credit, we will notify the enrollee of the improper reduction within 45 calendar days of our discovery of the improper reduction and refund any excess premium paid by or for the enrollee, as follows: Unless a refund is requested by or for the enrollee, we will, within 45 calendar days of discovery of the error, apply the excess premium paid by or for the enrollee to the enrollee's portion of the premium (or refund the amount directly). If any excess premium remains, we will apply the excess premium to the enrollee's portion of the premium for each subsequent month for the remainder of the period of enrollment or benefit year until the excess is fully applied (or refund the remaining amount directly to the enrollee). If any excess premium remains at the end of the period of enrollment or benefit year, we will refund any excess premium within 45 calendar days of the end of the period of enrollment or benefit year, whichever comes first. If a refund is requested by or for the enrollee, we will refund the enrollee within 45 calendar days of the date of the request. An enrollee can initiate a refund of premium overpayment by calling CommunityCare Customer Service at (918) 594-5351 (Tulsa) / 1-877-862-1356 (Statewide). Our phones are answered 8 a.m. - 6 p.m., Monday through Friday. Top of page What are medical necessity, prior authorizations and enrollee responsibilities? Medical necessity is used to describe care that is reasonable, necessary and/or appropriate, based on evidence-based clinical standards of care. Prior authorization is a process through which an issuer approves a request to access a covered benefit before the insured accesses the benefit. Medical necessity is defined as medically necessary services or supplies needed to prevent, diagnose or treat an illness, injury, condition, disease or its symptoms and that meet accepted standards of medicine. Pre-certification is a managed care requirement for some services. An enrollee can refer to the schedule of benefits for the specific plan design. There will be a reduction for failing to receive pre-certification for those services that require it. These penalty amounts will not apply to the out-of-pocket limit. In the case of a pre-service claim, CommunityCare shall notify the enrollee of its benefit determination (whether adverse or not) within a reasonable period of time appropriate to the medical circumstances, but not later than fifteen days after CommunityCare's receipt of the claim. CommunityCare may extend the fifteen day period one time for up to an additional fifteen days, provided that CommunityCare both determines that such an extension is necessary due to matters beyond the control of the plan and notifies the insured, prior to the expiration of the initial fifteen day period, of the circumstances requiring the extension of time and the date by which CommunityCare expects to render a decision. If such an extension is necessary due to the insured's failure to submit the information necessary for us to decide the claim, the notice of extension shall specifically describe the required information, and CommunityCare will give the insured at least 45 days from receipt of the notice within which to provide the specified information. In the case of an enrollee's failure to follow the plan's procedures for filing a pre-service claim, CommunityCare will notify the enrollee of the failure and the proper procedures to be followed in filing a claim for benefits. CommunityCare will give this notice as soon as possible, but not later than five days (24 hours in the case of a failure to file a claim involving urgent care) following the failure. This notification may be verbal, unless the enrollee requests written notification. Notice regarding an enrollee's failure to follow procedure applies only in the case of a failure that: Is a communication from an insured or the insured's authorized representative that is received by a person or organizational unit customarily responsible for handling benefit matters. Is a communication that names a specific insured; a specific medical condition or symptom; and a specific treatment, service, or product for which approval is requested. Top of page What are drug exceptions timeframes and enrollee responsibilities? Issuer's exceptions processes allow enrollees to request and gain access to drugs not listed on the plan's formulary, p ursuant to 45 CF 156.127(c). Prescription Drug Exception Request You, your authorized representative or your physician can submit a request for CommunityCare to make an exception and cover FDA-approved clinically appropriate drugs not on our formulary. This is called a request for exception. Standard Exception Request Your physician may call or complete the appropriate prior authorization form and fax it to CommunityCare to request a standard review of a decision for a drug that is not on our formulary. The physician can obtain the Non-Formulary Exception form at ccok.com/Providers/forms.asp or by calling the Pharmacy Help Desk at 1-877-293-8628 . The physician should make this request before writing the prescription. CommunityCare will make a determination on the standard exception request and notify you or the prescribing physician of its coverage determination no later than 72 hours following receipt of the complete request. When CommunityCare grants a standard exception request, CommunityCare will provide coverage of the non-formulary drug for the duration of the prescription. Expedited Exception Request You, your authorized representative or your physician can request an expedited review based on exigent circumstances. Exigent circumstances exist when you are\", \"text_truncated\": true}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01QJarVQBcfLgKXaYiynZydc",
+     "content": "{\"query\": \"\\\"ccok.com\\\" filetype:pdf \\\"medical policy\\\" hip OR joint OR arthroplasty\", \"results\": [{\"title\": \"MEDICAL POLICY \u2013 7.01.573 Hip Arthroplasty in Adults Effective Date:\", \"url\": \"https://www.premera.com/medicalpolicies/7.01.573.pdf\", \"snippet\": \"from a damaged joint also limits a person\u2019s ability to carry out their everyday activities of living \u00b7 such as walking, bending, climbing stairs, bathing, and cooking. Other conditions that cause hip ... either cemented into place or \u201cpress-fit\u201d (non-cemented) into the bone to allow one\u2019s own bone ... The complication rate following hip replacement surgery is low. Complications discussed here \u00b7 are specific to hip arthroplasty versus complications that may be commonly seen following any\"}, {\"title\": \"Surgery of the Hip \u2013 Commercial and Individual Exchange ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-hip.pdf\", \"snippet\": \"Revision of total hip arthroplasty; acetabular component only, with or without autograft or allograft\"}, {\"title\": \"MEDICAL POLICY \u2013 7.01.144\", \"url\": \"https://www.premera.com/medicalpolicies/7.01.144.pdf\", \"snippet\": \"Kurtz S, Ong K, Lau E, et al. Projections of primary and revision hip and knee arthroplasty in the United States from 2005 to \u00b7 2030. J Bone Joint Surg Am. Apr 2007; 89(4): 780-5.\"}, {\"title\": \"Hip Arthroplasty for Adults\", \"url\": \"https://www.blueshieldca.com/content/dam/bsca/en/provider/docs/medical-policies/Hip-Arthroplasty-Adults.pdf\", \"snippet\": \"I. Total hip arthroplasty may be considered medically necessary when ALL of the following ... A. The reason for the arthroplasty is osteoarthritis (OA), rheumatoid arthritis, avascular \u00b7 necrosis (osteonecrosis), or post-traumatic arthritis of the hip join \u00b7 B. It is NOT for a customized hip replacement, including all of the following: ... C. There is NO active infection of the joint or active systemic bacteremia (that has not\"}, {\"title\": \"0184-Total Hip Arthroplasty: Medical Necessity and Documentation Requirements | CMS\", \"url\": \"https://www.cms.gov/httpswwwcmsgovresearch-statistics-data-and-systemsmonitoring-programsmedicare-ffs-compliance/2a232-total-hip-arthroplasty-medical-necessity-and-documentation-requirements\", \"snippet\": \"DescriptionDocumentation will be reviewed to determine if total hip arthroplasty meets Medicare coverage requirements.Affected Code(s)\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EpEHCpABCBIYAipA0p80foi+zSh/TVrNLYoFX3xLoqTFfzs5/4pVbOUabJpZYzC5cYw9fuQsKfUswk9ZOJ0Gqt+bqUfBP8d4bglBCTIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAbfWwdUGEgy2T7lO4izWcQVlZpcaDNDpvaorBVtyw4z7GyIwnND0p+oH0p5lMMIJAMWB7h92vkRFp5+RgwybOTyf6Yd7xeYKtjAfBXiRqyIdlmhSKq0FSfs0TdgqvrPBkFFB8gwMkBOgygt3mNfpKBztKdeLdmOW3MXITq9yGeluKCP4rf2FCeIm9TJ2PpR7aa9BWi/6PvcrEBrM7OAg3R3oYTJjhbUoou4N5BGYULN9cCOd+B2J6MCsMvlY4Ug3W41kYl9KfkWkTyFWd2lHwr9386PpLcgjajdqhAwZ7RaIBx7n/VfWfOzSumB5lXAzohEqZwnnWFwKSC8pLLSsV3YL/QzBex4kGCgYqDV8ks2Gly61dOutBPpL0f5RlKL94aViJ6oh9Ww3oijj0SaY31Ser+CVICVoV4NCVbfOPTNl0qn41/S2vSAgd4KUdhMz1sgZgwiDJ06ZbkJ3eBNpdaRVqgR58HQKWk8nFUMGcdhD8QNXntgL3QIhFFemj2KOhARmromBQnVhtKz+YB+qi/kbnUTKv6Xy40qB4K0PopWUaCRZA6gsfQYv27pATJvaKHxqUX9JE/Ybm8JWxT1OM4Kek6FXzz8H9AjX/LBJG/QXrW3Mcm3000glw9s//lTPQyTYH08RF69003s3xXDugQhjQOWb9hnjG3bvIVqt4+mTzZHnUyKmGWR2f0+hm8c4W62CRtKj4FmFCLdp5eO/GD14WPO2voifVsPLZLKdibDEp8GL1kGY+1qfSTHHfc2/MvJd8UK0Y0lthhqUunj+AtWbaZCfieLKoFA/jnz59erubOfNR+2TQOg7qUM4PJYzZHT4QGjviO2us08R6HhJRNANxwsJ7bCwen24h1JG469RlvmiDpvPDml19dTsDGt18ZU9+HS+tHA5SvDsrr+Ip+A/w9uazLLXi41+eX/hX8c5ObE9I6VTNpLYUXswZac8ivKYkQK6B4FEHRGtfX5TwwZ6LBarHmp+dkb+Xuvo0GdO0OYUTJh4AX9B/oJ7xDZVG3XJ7BgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01JdxVHpTYaJFCmgzL2JmLZE",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.ccok.com/Providers/Clinical-Criteria.asp"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_015YokSTbZ5sLif33z5X9Pmn",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.ccok.com/Providers/Medical-Policies.asp"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01Y5LbAaZa7hVgP7mnLpiwym",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"ccok.com\" \"prior authorization\" list codes hip replacement"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01JdxVHpTYaJFCmgzL2JmLZE",
+     "content": "{\"url\": \"https://www.ccok.com/Providers/Clinical-Criteria.asp\", \"final_url\": \"https://www.ccok.com/Providers/Clinical-Criteria.asp\", \"http_status\": 200, \"content_type\": \"text/html\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Page Not Found (404) Careers About us Contact us Our Plans CommunityCare HMO CommunityCare Life and Health Costco mail order service Lumicera specialty pharmacy First Health & Valenz Provider Search Member Resources Member & Resource Center Community Resources Costco mail order service Lumicera specialty pharmacy EAP Notice of Privacy Practices Contact EAP Clinical Criteria CommunityCare Medical Policies Employer Resources EAP Notice of Privacy Practices Contact EAP Providers Resources D-SNP Provider Training FAQs Contact us Costco mail order service Lumicera specialty pharmacy Explanation of Payment (EOP) Notifications Clinical Criteria CommunityCare Medical Policies Skilled Nursing Broker Resources Broker Portal Login Costco mail order service Lumicera specialty pharmacy Senior Health Plan Contact Page 2026 2025 2024 2022 2020 2019 2018 Senior Health Plan Contact Page Login search bar toggle Search CommunityCare Website Go menu opening toggle Page Not Found (404) The resource you are looking for could not be found. Language Assistance Espa\u00f1ol Ti\u1ebfng Vi\u1ec7t \u7e41\u9ad4\u4e2d\u6587 \ud55c\uad6d\uc5b4 Deutsch \u0627\u0644\u0639\u0631\u0628\u064a\u0629 Hmoob Tagalog Fran\u00e7ais \u0e9e\u0eb2\u0eaa\u0eb2\u0ea5\u0eb2\u0ea7 \u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22 \u0627\u064f\u0631\u062f\u064f\u0648 tsalagi gawonihisdi \u0641\u0627\u0631\u0633\u06cc Connect With Us Notice of Nondiscrimination Privacy & Compliance Consumer Information Disclosure home careers newsroom contact us health & wellness find health insurance EAP medicare members employers providers brokers \u00a9 2026 CommunityCare HMO, Inc. All Rights Reserved. Website Privacy Statement -1- CommunityCare is proudly owned by two of the region\u2019s premier health systems. Other physicians and providers are available in our network. We use cookies on this website to give you the best experience and measure website usage. By continuing to use this website, you consent to these cookies. For more information, view our privacy policy. I Agree\", \"text_truncated\": false}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_015YokSTbZ5sLif33z5X9Pmn",
+     "content": "{\"url\": \"https://www.ccok.com/Providers/Medical-Policies.asp\", \"final_url\": \"https://www.ccok.com/Providers/Medical-Policies.asp\", \"http_status\": 200, \"content_type\": \"text/html\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Page Not Found (404) Careers About us Contact us Our Plans CommunityCare HMO CommunityCare Life and Health Costco mail order service Lumicera specialty pharmacy First Health & Valenz Provider Search Member Resources Member & Resource Center Community Resources Costco mail order service Lumicera specialty pharmacy EAP Notice of Privacy Practices Contact EAP Clinical Criteria CommunityCare Medical Policies Employer Resources EAP Notice of Privacy Practices Contact EAP Providers Resources D-SNP Provider Training FAQs Contact us Costco mail order service Lumicera specialty pharmacy Explanation of Payment (EOP) Notifications Clinical Criteria CommunityCare Medical Policies Skilled Nursing Broker Resources Broker Portal Login Costco mail order service Lumicera specialty pharmacy Senior Health Plan Contact Page 2026 2025 2024 2022 2020 2019 2018 Senior Health Plan Contact Page Login search bar toggle Search CommunityCare Website Go menu opening toggle Page Not Found (404) The resource you are looking for could not be found. Language Assistance Espa\u00f1ol Ti\u1ebfng Vi\u1ec7t \u7e41\u9ad4\u4e2d\u6587 \ud55c\uad6d\uc5b4 Deutsch \u0627\u0644\u0639\u0631\u0628\u064a\u0629 Hmoob Tagalog Fran\u00e7ais \u0e9e\u0eb2\u0eaa\u0eb2\u0ea5\u0eb2\u0ea7 \u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22 \u0627\u064f\u0631\u062f\u064f\u0648 tsalagi gawonihisdi \u0641\u0627\u0631\u0633\u06cc Connect With Us Notice of Nondiscrimination Privacy & Compliance Consumer Information Disclosure home careers newsroom contact us health & wellness find health insurance EAP medicare members employers providers brokers \u00a9 2026 CommunityCare HMO, Inc. All Rights Reserved. Website Privacy Statement -1- CommunityCare is proudly owned by two of the region\u2019s premier health systems. Other physicians and providers are available in our network. We use cookies on this website to give you the best experience and measure website usage. By continuing to use this website, you consent to these cookies. For more information, view our privacy policy. I Agree\", \"text_truncated\": false}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01Y5LbAaZa7hVgP7mnLpiwym",
+     "content": "{\"query\": \"\\\"ccok.com\\\" \\\"prior authorization\\\" list codes hip replacement\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EvcICpABCBIYAipAFDR4zlUD9OhYyuc0SRGPUS2K9bnAoFeYQVtepIChj1GueCGYuOlDNxLwhpaaSlYw5QxGYiZVajpPKnBpnT8AbzIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAb/WwdUGEgwNh2GIYuHRXYcD2CwaDNwTsG/stvaxjEwCRyIw6/7HPOyaI0S2EWQIJY+pwHu9ujKPYNQRF7vAIfU5FQxStwoW7kQC5pbLxQ5Qe9vGKpMH6+TFnyD5urQBBWyJmWn5QDWI3GqeIvlERHW3jPqpQtJNYETIDCXDz52EqbfD0NfU86srIlAMVR/GwmSduLxVCG2yj3uRKXeqQ4QALxNZ+1FImQOLax0EEBqvzO1VFTdJyD0cMW+mFX4qYtNzqfBqCLUBZFNN99nGzNseIpKdlKAW4an/l30hDFqNTgiMREJPYHiU3MPkdLa238x265+5sf3lsPgLy/p5P5GTsZWPXhyxTxmIHiLuCEdPru4Q/DxOkCK4el/Ep+ZCeSswPNuPjRN7kl0lge6ATBzt+zwXHjLhSfYCwiplHgF1IG9wNuZCSxeN+Uq4n8aBtQgYJPF8H77Fy1cTAE6zKWH7Di0VLbkx6qio9bKq5E0/UEFhb2SOGHPF5YYDaRL0Vp3MJRqDKs6aTA2IAtDMxjitJErrlnMr/1O2buzzjy/Cn7jjlxrUhSWyvqNAheSo79LiB95Yk2r7EiBeBYmVVHt7FyPYmMOu5DHLr6TntR6HxPGDSVRL2LKq55Tzt13us6UfHvIfUacu0mOf3Vi+woQeCmO6qW5aHz178wGYd8Zqr3HLZ/vfHLy1C5eZzJy6fPFxU2cIS3JD5fZNnOKj5IziTROnqWQCP+QA4UJIJeinD1jgRU17ZcL3kFpBGB/HLQ9K47QlJQCESFTu9PQx2+k74XqGY1uLamUxkbO5Vz43CnowX7LdLgfCiSGckhA+Pjz5M0R4Dh83Wa4CEK+Byw6W+WPWQZIpfXOtyGTGdmKRLOmeOKHhsrVxXErwikcDlZ2bgiUlEdTylQfX3vHx8UfhOLSAc+xBErRXVuFf3o/N5FdxuTyzsTo7VLMpsHnz1btI7m5e5YB+Dl3VPmHzk8Xfg+dPJRQMIQ8tZ1zNp50UIGJQUEbDizDBBA7/WsHPWtNLAyrY/lWBC2dHsehmNpPHqylghUJNZqrJE8R0H1xl8FjzNh97C/rUxd1QX3HrAsa6qeotSngbo+cYu90lnQ9nVYm10RYX+5ddo8woStieAuYjKxC76IaSHrtVhBO047CFxZiA8xbVjsL/hqwYdoVyoL0RpGaH0KcK5+I6+NXRRIof0oRlgj1MBTxfBrH9zh/O0W2+6F+nX7q930e5e16ycYIRBLsgdg8UaloXjgp9iH1hFok+y9W2uZatpn8BmbPwZVVeYhaYzhkKGTijyfYHsean6kGRi1iq468ZNMjrsxNIvMH0xOqSGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01Vxr6xgeXv362zF7kCCgxbD",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "CommunityCare Oklahoma \"Appeals Department\" fax address member appeal form"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01EG3yFQ6VFkY9GyYV2H25cs",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "CommunityCare HMO evidence of coverage appeal rights external review Oklahoma Insurance Department"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01Vxr6xgeXv362zF7kCCgxbD",
+     "content": "{\"query\": \"CommunityCare Oklahoma \\\"Appeals Department\\\" fax address member appeal form\", \"results\": [{\"title\": \"CommunityCare Senior Health Plan | Medical & Pharmacy Plans | Summary of Medicare Part C Grievances, Coverage Decisions and Appeals\", \"url\": \"https://www.ccokadvantage.com/2026/mpd/Medicare-Part-C-Summary-Resources.asp\", \"snippet\": \"To submit a completed Appointment of Representation Form, send to: Senior Health Plan Attn: Grievance and Appeals Department P.O. Box 3327, Tulsa, OK 74101-3327 <strong>Fax Number: 918-879-4048</strong> In person: CommunityCare Member &amp; Resource Center 5235 S Sheridan Rd Tulsa, OK 74145\"}, {\"title\": \"Grievances and Appeals | Humana Healthy Horizons in Oklahoma\", \"url\": \"https://www.humana.com/medicaid/oklahoma/grievance\", \"snippet\": \"This will allow us to contact you if we need to. You should also send any information that helps explain your problem. ... <strong>Fax your grievance to 800-949-2961</strong>. ... Humana Grievance and Appeals Department P.O.\"}, {\"title\": \"Appeals and Grievances Process | UnitedHealthcare Community Plan\", \"url\": \"https://www.uhc.com/communityplan/learn-about-medicare/appeals-grievances-process\", \"snippet\": \"For an Expedited Part C Appeal: You, your prescriber, or your representative should contact us by telephone 1-877-262-9203 TTY 711, or expedited fax at Expedited Fax: <strong>1-866-373-1081, TTY 711</strong>, 8 a.m. \u2013 8 p.m. local time, 7 days a week.\"}, {\"title\": \"Ohio MyCare Appeals and Grievances Process | UnitedHealthcare Community Plan\", \"url\": \"https://www.uhc.com/communityplan/learn-about-medicare/appeals-grievances-process/oh-appeals-grievances-process\", \"snippet\": \"In addition, the initiator of the request will be notified by telephone or fax. Your doctor can also request a coverage decision by going to www.professionals.optumrx.com. Please refer to your plan\u2019s Appeals and Grievance process located in Chapter 9: What to do if you have a problem or complaint (coverage decisions, appeals, complaints) of the Evidence of Coverage document or your plan\u2019s member handbook.\"}, {\"title\": \"MA SCO Appeals and Grievances Process | UnitedHealthcare Community Plan\", \"url\": \"https://www.uhc.com/communityplan/learn-about-medicare/appeals-grievances-process/masco-appeals-grievances-process\", \"snippet\": \"Send the letter or the Redetermination ... Cypress, CA 90630-0016. You may also <strong>fax your letter of appeal to the Medicare Part D Appeals and Grievances Department toll-free at 1-877-960-8235.</strong>...\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01EG3yFQ6VFkY9GyYV2H25cs",
+     "content": "{\"query\": \"CommunityCare HMO evidence of coverage appeal rights external review Oklahoma Insurance Department\", \"results\": [{\"title\": \"External Review Process - Oklahoma Insurance Department\", \"url\": \"https://www.oid.ok.gov/consumers/external-review-process/\", \"snippet\": \"Whenever your insurer makes a coverage denial determination that is eligible for an external review, <strong>it must provide you with information on your appeal rights, including its internal grievance procedures and your right to request an external review</strong>. It must also explain how you can obtain ...\"}, {\"title\": \"CommunityCare: State of Oklahoma\", \"url\": \"https://oklahoma.gov/content/dam/ok/en/egid/documents/benefits-and-coverage/2024/CommunityCare%20SOB%202024.pdf\", \"snippet\": \"Your plan documents also provide complete information to submit a claim, appeal, or a grievance for any reason to your plan. For more \u00b7 information about your rights, this notice, or assistance, contact: <strong>CommunityCare at 1-800-777-4890</strong>. You may also contact the Department of Labor&#x27;s \u00b7 Employee ...\"}, {\"title\": \"CommunityCare HMO Claims Payment Policies & Other Information\", \"url\": \"https://www.ccok.com/plans-and-coverage/group/Claims-Payment-Info-HMO.asp\", \"snippet\": \"You may also <strong>call Customer Service at 1-800-777-4890, or at (918) 594-5242 in Tulsa</strong>. Your provider will be notified if CommunityCare denies the referral, and you and your provider will have the right to appeal that denial in accordance with CommunityCare&#x27;s Pre-Service Claim determination appeal ...\"}, {\"title\": \"CommunityCare Senior Health Plan | Medical & Pharmacy Plans | Summary of Medicare Part C Grievances, Coverage Decisions and Appeals\", \"url\": \"https://www.ccokadvantage.com/2026/mpd/Medicare-Part-C-Summary-Resources.asp\", \"snippet\": \"To submit a formal grievance in writing, send to: Senior Health Plan Attn: Grievance and Appeals Department P.O. Box 3327, Tulsa, OK 74101-3327 Fax Number: 918-879-4048 In person: CommunityCare Member &amp; Resource Center 5235 S Sheridan Rd Tulsa, OK 74145 ... Located in Chapter 7, Section 5 of the 2026 Evidence of Coverage: Your medical care: How to ask for a coverage decision or make an appeal of a coverage decision.\"}, {\"title\": \"Oklahoma | Coverage Rights\", \"url\": \"https://coveragerights.org/oklahoma/\", \"snippet\": \"If your insurer denies your claim, you have the right to an internal appeal.[1] This means you can ask your insurer to conduct a full and fair review of its decision. To appeal the denial, you should do the following: \u00b7 The internal appeals process should take a maximum of 30 days if you have ...\"}], \"result_count\": 5, \"error\": null}",
+     "cache_control": {
+      "type": "ephemeral"
+     }
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EsIECpABCBIYAipAnjmhfuggGXBq20YDOrTt0MkJeRju9oFzcf8iGOXPiOYksjCAkxzQbx+iAudbf03DVXPzyvNdx4YV0KCnsMCrsTIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAcnWwdUGEgy1vcGqYHDAQ6jQ6FAaDOIMAP8AjFjegItGyyIw0M8/EU4uJ9Kvelcz/90ge6DgQz3wxZ+lcL3fAQNTn+CiFBqnp8kZtmugj904bTPXKt4ClbmO+j8AcGc0X1fmCwZ4MRtrjfk7xdC88Ul5qBR1ddPRwdOQLDT3lrIVYDT08Nt/MsRQHdnFpvDo2lsLEboV1Q//H6ReBWPUuTL4PuwNRy596jRkkC2cb4h5kvbxrtKmlRbycTdVr06FZCA8YCk+TiMa/ZnGW8EmTtsZxgFP2qklAe8XJyOcWQ3SLe6hU0/0qroc7SJmXkLNB9LVD2Kvp3fiZ2x996FqPdf6exRpc0NtbIxH9pPKOSFI/HyBWHIrKX+b0qA9CC4KDerAYtZ7k+f5njCdqqvRlsBD4LeXz1CvEeM1eaB618MLWSyGS3T8nEoqueciwbkNuyBPdwPi7ofDljNAaPf4LMeY+5ZZvGWj9wdjRnKDFp4acIzIcJyUOzBHZmxcLrwJwFjr8iC7bXbSs2gI/L+c3NFQZdcdjMgjssNV4sPAn7jt8UXfLKox1Tg4lPpqCojokUM7YtEYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_012YH7k8RJEU8r4AoEqDmMm5",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "CommunityCare Oklahoma commercial member appeal \"P.O. Box\" Tulsa 74101 appeal"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01LmDXiucnujti6FKy76UupH",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://oklahoma.gov/content/dam/ok/en/egid/documents/benefits-and-coverage/2024/CommunityCare%20SOB%202024.pdf"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_012YH7k8RJEU8r4AoEqDmMm5",
+     "content": "{\"query\": \"CommunityCare Oklahoma commercial member appeal \\\"P.O. Box\\\" Tulsa 74101 appeal\", \"results\": [{\"title\": \"CommunityCare Senior Health Plan | Medical & Pharmacy Plans | Summary of Medicare Part C Grievances, Coverage Decisions and Appeals\", \"url\": \"https://www.ccokadvantage.com/2026/mpd/Medicare-Part-C-Summary-Resources.asp\", \"snippet\": \"To submit an appeal request in writing, sent to: Senior Health Plan Attn: Grievance and Appeals Department <strong>P.O. Box 3327, Tulsa, OK 74101-3327</strong>\"}, {\"title\": \"CommunityCare Senior Health Plan | Medical Only Plans | Summary of Medicare Part C Grievances, Coverage Decisions and Appeals\", \"url\": \"https://www.ccokadvantage.com/2026/mao/medicare-part-C-summary-resources.asp\", \"snippet\": \"To submit an appeal request in writing, sent to: Senior Health Plan Attn: Grievance &amp; Appeals <strong>P.O. Box 3327, Tulsa, OK 74101-3327</strong>\"}, {\"title\": \"CommunityCare HMO Claims Payment Policies & Other Information\", \"url\": \"https://www.ccok.com/plans-and-coverage/group/Claims-Payment-Info-HMO.asp\", \"snippet\": \"CommunityCare <strong>P.O. Box 3249</strong> Tulsa, OK 74101\"}, {\"title\": \"CommunityCare Senior Health Plan | Oklahoma Dual Complete | Summary of Medicare Part C and Part D Grievances, Coverage Decisions and Appeals\", \"url\": \"https://ccokadvantage.com/2026/Dual/medicare-part-D-summary-resources.asp\", \"snippet\": \"To submit a grievance verbally, ... a formal grievance in writing, send to: Senior Health Plan Attn: Grievance and Appeals Department <strong>P.O. Box 3327, Tulsa, OK 74101-3327</strong> Fax Number: 918-879-4048 In person: CommunityCare Senior Center 4720 S....\"}, {\"title\": \"CommunityCare Options Contact Us\", \"url\": \"https://www.ccokadvantage.com/2024/PPO/Contact.asp\", \"snippet\": \"CommunityCare Options <strong>P.O. Box 340</strong> Tulsa, OK 74101-0340\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01LmDXiucnujti6FKy76UupH",
+     "content": "{\"url\": \"https://oklahoma.gov/content/dam/ok/en/egid/documents/benefits-and-coverage/2024/CommunityCare%20SOB%202024.pdf\", \"final_url\": \"https://oklahoma.gov/content/dam/ok/en/egid/documents/benefits-and-coverage/2024/CommunityCare%20SOB%202024.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"CommunityCare: State of Oklahoma Summary of Benefits and Coverage: What this Plan Covers & What You Pay for Covered Services Coverage for: Family | Plan Type: HMO Coverage Period: Beginning on or after 01/01/2024 Summary of Benefits and Coverage: What this Plan covers & What it Costs Coverage For: Family | Plan Type: HMO The Summary of Benefits and Coverage (SBC) document will help you choose a health plan. The SBC shows you how you and the plan would share the cost for covered health care services. NOTE: Information about the cost of this plan (called the premium) will be provided separately. This is only a summary. For more information about your coverage, or to get a copy of the complete terms of coverage, www.ccok.com. For general definitions of common terms, such as allowed amount, balance billing, coinsurance, copayment, deductible, provider, or other underlined terms, see the Glossary. You can view the Glossary at https://www.healthcare.gov/sbc-glossary/ or call 1-800-777-4890 to request a copy. Important Questions Answers Why This Matters: What is the overall deductible? $0 See the Common Medical Events chart below for your costs for services this plan covers. Are there services covered before you meet your deductible? Yes. This plan covers some items and services even if you haven\u02bct yet met the deductible amount. But a copayment or coinsurance may apply. For example, this plan covers certain preventive services without cost-sharing and before you meet your deductible. See a list of covered preventive services at https://www.healthcare.gov/coverage/preventive-care-benefits/. Are there other deductibles for specific services? No. You don't have to meet deductibles for specific services. What is the out-of-pocket limit for this plan? In-network $4,000 member/$8,000 family The out-of-pocket limit is the most you could pay in a year for covered services. If you have other family members in this plan, they have to meet their own out-of-pocket limits until the overall family out-of-pocket limit has been met. What is not included in the out-of-pocket limit? Premiums and health care this plan doesn't cover. Even though you pay these expenses, they don't count toward the out-of-pocket limit. Will you pay less if you use a network provider? Yes. See www.ccok.com/directory or 1-800-777-4890 for a list of in-network providers. This plan uses a provider network. You will pay less if you use a provider in the plan's network. You will pay the most if you use an out-of-network provider, and you might receive a bill from a provider for the difference between the provider's charge and what your plan pays (balance billing). Be aware, your network provider might use an out-of-network provider for some services (such as lab work). Check with your provider before you get services. Do you need a referral to see a specialist? No. You can see the specialist you choose without a referral. _st_RXCM8_M1 001.000.0 21 1 of 7Page All copayment and coinsurance costs shown in this chart are after your deductible has been met, if a deductible applies. Services You May Need Out-of-Network Provider (You will pay the most) In-Network Provider (You will pay the least) Common Medical Event Limitations, Exceptions, & Other Important Information What You Will Pay $35 / visit Not covered None Primary care visit to treat an injury or illness If you visit a health care provider's office or clinic $50 / visit Not covered NoneSpecialist visit No charge Not covered You may have to pay for services that aren't preventive. Ask your provider if the services needed are preventive. Then check what your plan will pay for. Preventive care/ screening/ immunization No charge Not covered NoneDiagnostic test (x-ray, blood work) If you have a test $200 / scan Not covered Requires preauthorization. Failure to receive preauthorization will result in non-payment of benefits. Imaging (CT/PET scans, MRIs) $15 retail / prescription $45 mail order / prescription Deductible does not apply Not covered Covers up to a 90 day supply at retail and mail order for maintenance drugs at a cost share equal to 2 retail copayments. Preferred generic drugs If you need drugs to treat your illness or condition More information about prescription drug coverage is available at www.ccok.com or by calling 1-877-293-8628. $40 retail / prescription $120 mail order / prescription Deductible does not apply Not covered Covers up to a 90 day supply at retail and mail order for maintenance drugs at a cost share equal to 2 retail copayments. Preferred brand drugs $70 retail / prescription $210 mail order / prescription Deductible does not apply Not covered Covers up to a 90 day supply at retail and mail order for maintenance drugs at a cost share equal to 2 retail copayments. Non-preferred brand or generic drugs $160 retail / prescription Deductible does not apply Not covered Covers up to a 30 day supply for retail. The difference between brand and generic pricing is not covered. Specialty drugs 2 of 7Page Services You May Need Out-of-Network Provider (You will pay the most) In-Network Provider (You will pay the least) Common Medical Event Limitations, Exceptions, & Other Important Information What You Will Pay $300 / visit Not covered Requires preauthorization. Failure to receive preauthorization will result in non-payment of benefits. Facility fee (e.g., ambulatory surgery center) If you have outpatient surgery No charge Not covered Requires preauthorization. Failure to receive preauthorization will result in non-payment of benefits. Physician/surgeon fees $200 / visit $200 / visit Copayment is waived if admitted to the hospital.Emergency room careIf you need immediate medical attention No charge No charge NoneEmergency medical transportation $50 / visit Not covered NoneUrgent care $350 per day (not to exceed $1,750) Not covered Requires preauthorization. Failure to receive preauthorization will result in non-payment of benefits. Facility fee (e.g., hospital room) If you have a hospital stay No charge Not covered Requires preauthorization. Failure to receive preauthorization will result in non-payment of benefits. Physician/surgeon fees Physician office visit -$35 / visit Other outpatient Services - No charge Not covered NoneOutpatient services If you need mental health, behavioral health, or substance abuse services $350 per day (not to exceed $1,750) Not covered Requires preauthorization. Failure to receive preauthorization will result in non-payment of benefits. Inpatient services No charge Not covered Depending on the type of services, a copayment, coinsurance, or deductible may apply. Maternity care may include tests and services described elsewhere in the SBC (i.e. ultrasound). Office Visits If you are pregnant No charge Not covered NoneChildbirth/delivery professional services $350 per day (not to exceed $1,750) Not covered NoneChildbirth/delivery facility services No charge Not covered Requires preauthorization. Failure to receive preauthorization will result in non-payment of benefits. Home health care If you need help recovering or have other special health needs 3 of 7Page Services You May Need Out-of-Network Provider (You will pay the most) In-Network Provider (You will pay the least) Common Medical Event Limitations, Exceptions, & Other Important Information What You Will Pay Inpatient - $350 per day (not to exceed $1,750) Outpatient - $50/visit. Not covered Up to 60 treatment days per disability, per calendar year. Combination of physical, occupational, and speech therapy. Requires preauthorization. Failure to receive preauthorization will result in non-payment of benefits. Rehabilitation services Not covered Not covered Not coveredHabilitation services No charge Not covered Coverage is limited to 100 days per calendar year. Requires preauthorization. Failure to receive preauthorization will result in non-payment of benefits. Skilled nursing care 20% coinsurance Not covered Requires preauthorization. Failure to receive preauthorization will result in non-payment of benefits. Durable medical equipment No charge Not covered Requires preauthorization. Failure to receive preauthorization will result in non-payment of benefits. Hospice services No charge Not covered Limited to one exam in 365 days.Children's eye examIf your child needs dental or eye care Not covered Not covered Not coveredChildren's glasses Not covered Not covered Not coveredChildren's dental check-up 4 of 7Page Excluded Services & Other Covered Services: Services Your Plan Generally Does NOT Cover (Check your policy or plan document for more information and a list of any other excluded services.) Children's glasses Habilitation Services Private-duty nursing Cosmetic surgery Long-term care Routine foot care Dental care (Adult) Non-emergency care when traveling outside the U.S. Weight loss programs Dental care (Child) Other Covered Services (Limitations may apply to these services. This isn't a complete list. Please see your plan document.) Acupuncture Chiropractic care Infertility treatment Bariatric surgery Hearing aids (Limited to one for each hearing impaired ear in any 48 month period.) Routine eye care (Adult) (limited to 1 visit per year) 5 of 7Page Your Rights to Continue Coverage: There are agencies that can help if you want to continue your coverage after it ends. The contact information for those agencies is: CommunityCare at 1-800-777-4890 or the Department of Labor's Employee Benefits Security Administration at 1-866-444-EBSA (3272) or www.dol.gov/ebsa/healthreform. Other coverage options may be available to you, too, including buying individual insurance coverage through the Health Insurance Marketplace. For more information about the Marketplace, visit www.HealthCare.gov or call 1-800-318-2596. Your Grievance and Appeals Rights: There are agencies that can help if you have a complaint against your plan for a denial of a claim. This complaint is called a grievance or appeal. For more information about your rights, look at the explanation of benefits you will receive for that medical claim. Your plan documents also provide complete information to submit a claim, appeal, or a grievance for any reason to your plan. For more information about your rights, this notice, or assistance, contact: CommunityCare at 1-800-777-4890. You may also contact the Department of Labor's Employee Benefits Security Administration at 1-866-444-EBSA (3272) or www.dol.gov/ebsa/healthreform, or the Oklahoma Insurance Department at 1-800-522-0071. Does this plan provide Minimum Essential Coverage? Yes Minimum Essential Coverage generally includes plans, health insurance available through the Marketplace or other individual market policies, Medicare, Medicaid, CHIP, TRICARE, and certain other coverage. If you are eligible for certain types of Minimum Essential Coverage, you may not be eligible for the premium tax credit. Does this plan meet Minimum Value Standards? Yes If your plan doesn't meet the Minimum Value Standards, you may be eligible for a premium tax credit to help you pay for a plan through the Marketplace. Spanish (Espa\u00f1ol): Para obtener asistencia en Espa\u00f1ol, llame al 1-800-777-4890. Language Access Services: 6 of 7To see examples of how this plan might cover costs for a sample medical situation, see the next section. Page This is not a cost estimator. Treatments shown are just examples of how this plan might cover medical care. Your actual costs will be different depending on the actual care you receive, the prices your providers charge, and many other factors. Focus on the cost-sharing amounts (deductibles, copayments and coinsurance) and excluded services under the plan. Use this information to compare the portion of costs you might pay under different health plans. Please note these coverage examples are based on self-only coverage. About these Coverage Examples: Peg is Having a Baby (9 months of in-network pre-natal care and a hospital delivery) $0The plan's overall deductib\", \"text_truncated\": true}",
+     "cache_control": {
+      "type": "ephemeral"
+     }
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EuETCpABCBIYAipABN5zlX3E5TZBlnSSsDi/9/adIW3LwScBgk88HeaFm7t1CZyRio3Cpp6L7ovMdQzwKMJyrfBD1yquGe00cw9ibjIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAdjWwdUGEgy4bdaYYVsJZVvo4PMaDMmoMo1wamfz8acGMiIwjIjEoaRu2xhrAOmkkAM9K/FDnawE7R8ET+8YpKFk4kuqk5a+zKFg9s+s9f83ukKBKv0RQRQVAgayJ+E3AoAH3zYakaVjZBjxTX9e4C5bIHprMErW34pdPs9TiEnLLVoJvzAAXE2L6C/9va2nU54lK5jQt8GjkTeo4JqJTbBzxbDXns0+rICMFjuuFUFZltNl1TUxA/OiRp/H2GUMNw8vIduGI3MiIP557M8a9R6syu6oI/KumfYRN2k34Vnxg9yMgB629r2PSvvkbnTeeU4+QAMbPoodYBedVk43MeejVsP3IYz879l5NzdlmSP+4U/spyOvV+6zT+S/afArqN+Hry1wONmipbGYFB74Tn96BXR6WadZ7ORvKjdU0K2GH8xgYa59D1dzM4J4qqhniO5YOUqUeeQ8NfpOiOyEsxYjl3QhuW49wjDB3GqYBItrZKrO+mwLCImuczk4FvEz7vyakitmnt8PWvOPUJ8xbAr7FJOTeZLBid/vCepOIQ6ZLyGP/Jvt78fJcE+MModrzqVZH1aJUsvSoeEkkJweiQZWhI9DxfhkQ8DyM/CgBaeUDjR0zykXvNttMdODSjMQoJ5K4M+OeC/nxFs/SoBNw4mSGA+1rRlFoE5GZjsGaP9j8533JeTt6uAzkq7xQUO7RzzGLYA4mWNMGVQRJD82eObXfFtmmrg+OnbtbPHbSRB5zd6iXpR+QiiEi3k9XcBV0VrFYWdDbm0cqyXf8lkYvAeuvKNO6dqqTvFqDBbGsI4EbwiNlDFia2UUo/PUV5DK0WU0fDVWlYHBXZg3dJzGR1pRPxvSz8ApAMrET3PihmSxKeL+sbdrimcZh/LDBEJ/oXFusUlOSddCg87AA4ixEJFLkoC411Y+t6sJFpROvSUjVi0ipZR1va3pK1C5fXmafe0D3koT//KGAlzD/5IbBsmY6mC9f2nsg/4EudD1RFwh0r3EvqC4PkABXeKzn1wguOZo2rKDT5GpII23tmIMnc7772TGHXoeFmFb8ftpYgXk+c2hpK/wb5BL2Ol35JHD0whMuJMhw4AmG1b3cSA7U3UmzJuGEOqHI80LEYcFegsPiEhpBiUwT0UlAaa49tqz52tQNINHT71dpUoiotjeBbhU4Pj/q7vq01zrZrY4RexX2hLFCuyc6bA9/kRoZKFKGaIIEsSvaykasyhk7EupUSSzDBZbLlE41MZ2a/9o3LjdV0MWEL0jPWlWA+TKJTd+0vs/Kh0jLQN2ZdYQJij2HbF2bLsOfKgtGK17xUdnpjjQOF9O5jo5r9hsp7JkJBoVOfmOyH5Eau1Ciyv05p6DgWWcC+gBRlcMkFmuP84eTc5vPw/oo1d7rD7mszPrX3GyUlmK/IftPHT8boKuriZHYt/FjUxfpYKHnQ4joJ+V4dHFzB7J8yHto7VNr6tARvoOCLsa3hMMFMhL0IlYd8RpZ3xGpOrqrB2eRm4rca6zjoi9+VZcHHQciF726Q2DCyLpCv/GxbNxpkLWfdYSTyZPluxaKjKdpyyYMvRVKHYbuNvlIwVwfGssirPh1p8vz387Z8a/JUonUcV62h6K/d+MWEW7s9K6/vjpkeseKJdAcvg9y0S2urrOF+ItBMiKYxaO87U14UU8CebzbA078CUIU4wAhFNXGHr01gl+Nncpm3/PCn7MJZ/UEZKlLNin9xbdc2iREFXbxB7X6/dcG0X+ya0L3dG8VbrewxBxdSvvG/dTcKWnhZZnr0Rx3xaz3IJ0TGhKlN6xhUpEfISL4BnuSYKXmTt8gR4+5vTqH3gIcR3G2E4LA7uc1cin2C0H3vX6+5u9v5BSxORYUU8B2eLuLttHXv6P+XVwR5VWmxIBAOyGMxMVMexb4uxY9piZDmXE+ZeN24AjsrpKjC9vaUTGeZlO1ZCA5+qu8Iq3XvHopRlLazXCl/UWENP4SdFltS3/Udpj7FVtMVL4x6ne33c8djhH9pwPXXg1hIhubzuhqqe9rp7R/ZYKA1Q5hIKTK41opm+1j8jd21OnvF1JgqQoKH/cRh6ddgrFZ7B0MAUmjPpMBn7WZF5OC8MRw/HT1zQ/pBeKZmHH/2NhACqrA1YuUrVxrud976RmeIZW3/VPIXsXq6gVyVp3qt6r2KFdCjzyKR1fOKHvw3v9Ki3Z8BA1vsBMcFqghz5KYwrDlrwVWLI0QgN/KAERgOqrl4K/YTMdSdLYfeVDj7+KDaT2CRgSkH9GI2dwYfW3KBTnPyzvzh/mMqDEOA0gy3FZOSsOLualEBFDWw2KAkmfAtNLfNc75kK+R0wJMJuib3v0Fh7G7eD5sQjpQSHlsBc1SX25CZXtsW8S/s1AA/qUS1RZ4iBeh2+D3j1/cpaImqiTaEDXB/8c9omtK/z/TDhV3GuU/rofnETtJfGSnsbUSjFcUKAOxHWnIArb3FM+OtXj04KsWzMjOa59/l4nRUFHwRYYKlenoNGIuG/fd+OpNgJq2IvD//KM7oVi5y3YAsiTxqFhgOUyxadK4gcrxWxblQ6ah1rNt4Lnn7fBqMqhakEJXXLl4pgYi2V6DFciQZoKbE6ImO/dQlywFd8mOctoPPpfqgzam9+8EaeWbGqA59pPZf/UPOQF0DKog+4VS3Ncyyq/FFcZvbKtifGySd3CqecvZCnxI4Hm7tQcR3yOlpcyslDySzKLXioa3RSIOenwnt4hRnZ38L3ugMp3tO/3Lbn6rYwDa+61+zb6eTlwnorUbPw9VtNm68Nwdn/l+n5rLPLbJuSAEEMgffcABTHK5NSmbPI5IokCfyawp+9oSslgwpmg9Ie91JpLhUuUlwswWG+MG2a38hUsw2u9u5YcW82VHFkqbPkObO57r0j/gdPnM+Pu6iRnbmJtGpTfhjhZhu4SP0wp5+xjjLXneUyRK25ZX+tVae4+NcOf+hhnKMqHZlUC21klc6XMn1BeZy/m8PKT1f4w/g/d1ccqV3OeEIwrsFiWR5wXRTihWzjS1qe8Sr6RqlyS0T4Pffpx3CGgTN7CNHh69S8MV9iMrNLlt9YSyFDqPaDu8NIZZCEmTO20Ns076uGsBtjTBd4A2/Gs77SMWwA8CLQ+J1BrgKDqwg+DBlUTXKASFesmKmp2CsbpNJVxF9cGdTFnpPvR5fO4X3EfkmMrpOGRGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "## Findings\n\nI was not able to locate a specific, publicly posted CommunityCare medical\u2011necessity policy document for CPT 27130 (total hip arthroplasty). Here is what I found and confirmed, and what I could not confirm:\n\n**What I confirmed:**\n- The payer is CommunityCare HMO, Inc. (ccok.com), an Oklahoma commercial/ACA issuer.\n- CommunityCare's provider website (ccok.com) has navigation links labeled \"Clinical Criteria\" and \"CommunityCare Medical Policies\" under both the Member Resources and Provider Resources sections \u2014 but every URL I could construct/guess for these sections (e.g., `/providers/clinical-criteria.asp`, `/providers/medical-policies.asp`, and capitalized variants) returned a 404 \"Page Not Found.\" These pages appear to be either behind a login-gated provider portal, served through JavaScript navigation I can't resolve by direct URL guess, or otherwise not indexed/accessible via simple public fetch.\n- CommunityCare's public plan documents (SBC, claims/payment policy FAQ pages) only give a generic definition of \"medical necessity\" (\"services... reasonable, necessary, and/or appropriate... that meet accepted standards of medicine based on evidence-based clinical standards of care\") \u2014 not condition-specific clinical criteria for hip replacement.\n- I could not confirm which specific clinical criteria set CommunityCare licenses/uses for orthopedic surgical review (e.g., InterQual, MCG, or an internally authored policy) \u2014 nothing on the public site names it.\n- I could not find a dedicated commercial-plan appeals mailing address/fax; the SBC and payment-policy pages direct members to their plan documents and to CommunityCare Customer Service (1\u2011800\u2011777\u20114890; Tulsa 918\u2011594\u20115242 for HMO or 918\u2011594\u20115351 for Life & Health/PPO) for specifics, and note the right to also contact DOL/EBSA and the Oklahoma Insurance Department.\n- The only concrete mailing address I found for CommunityCare is the general claims address (P.O. Box 3249, Tulsa, OK 74101), which is not confirmed to be the correct address for medical-necessity appeals.\n\nBecause I could not verify the actual governing document, I am not going to name a specific policy number/title as if confirmed \u2014 doing so would risk asserting something I didn't actually retrieve.\n\n```json\n{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": null,\n  \"effective_date\": null,\n  \"criteria_quotes\": [],\n  \"appeal_deadline\": \"2027-02-09 (180 days from the 2026-08-13 notice date, per the denial letter)\",\n  \"submission_route\": \"The denial letter itself is the authoritative source for exactly where/how to submit this specific appeal (it should contain a dedicated appeals address, fax, or portal link on a page not included in the excerpt provided). Generally, CommunityCare directs members to submit appeals per their plan document and can be reached to confirm the process at: CommunityCare Customer Service, 1-800-777-4890 (statewide) or (918) 594-5242 (Tulsa, HMO plans) / (918) 594-5351 (Life and Health/PPO plans). CommunityCare's general claims correspondence address is P.O. Box 3249, Tulsa, OK 74101, but this is NOT confirmed to be the correct address for a medical-necessity appeal -- the patient should call the number above (or check the back of the actual denial letter/EOB, which typically states the appeal address/fax) before mailing anything. If internal appeal is denied, Oklahoma law also allows external review through the Oklahoma Insurance Department (1-800-522-0071) and federal appeal rights can be enforced via the DOL's Employee Benefits Security Administration (1-866-444-3272) for ERISA plans.\",\n  \"how_to_obtain_criteria\": \"Because I could not locate the specific 'Clinical Criteria' or 'CommunityCare Medical Policies' document for CPT 27130 on the public ccok.com site (the navigation links to these pages exist but resolve to 404s from outside the member/provider portal), the patient/provider should: (1) Call CommunityCare Customer Service (1-800-777-4890) and explicitly request, in writing if possible, 'the specific internal rule, guideline, protocol, or medical policy relied upon in denying this claim' -- insurers are required under ERISA claims regulations (29 CFR 2560.503-1) and ACA internal claims/appeals rules (45 CFR 147.136) to provide this free of charge upon request; (2) Ask the treating orthopedic surgeon's office, which received the denial/PA determination directly from CommunityCare -- that determination letter to the provider often cites the specific criteria set (e.g., InterQual or MCG guideline number) used, even if the patient's own denial notice does not; (3) Log into or ask CommunityCare to grant portal access to the 'Clinical Criteria' and 'CommunityCare Medical Policies' sections referenced on ccok.com's Providers and Member Resources pages, which are likely restricted to authenticated portal users; (4) If CommunityCare cannot produce the specific document upon request, this can itself be cited in the appeal as a procedural defect under 29 CFR 2560.503-1(g), since denial notices must identify the specific standard used or state that no specific internal standard exists.\",\n  \"confidence\": \"low\",\n  \"notes\": \"I could not verify a publicly available, CommunityCare-specific medical policy for CPT 27130/total hip arthroplasty. Multiple targeted web searches and direct URL attempts against ccok.com (the payer's own site) found only generic definitions of 'medical necessity' and links to 'Clinical Criteria'/'CommunityCare Medical Policies' pages that returned 404 errors when fetched directly, suggesting they are portal/login-gated or use non-guessable URLs. I did not find any independent secondary source (e.g., state filings, litigation records) reproducing CommunityCare's hip arthroplasty criteria. General industry background (not CommunityCare-specific) confirms that commercial insurers commonly evaluate total hip arthroplasty using criteria such as: failed conservative therapy (e.g., NSAIDs, physical therapy, weight management, injections) for a defined period; radiographic evidence of significant joint space narrowing, osteoarthritis, avascular necrosis, or similar structural damage; and functional impairment/pain affecting activities of daily living -- but since these were not confirmed as CommunityCare's own published criteria, I have not quoted them as if they were. The patient's appeal should specifically request CommunityCare produce, in writing, the exact criteria applied to their case (per ERISA/ACA claims procedure rules), and should also ask their surgeon to resubmit or supplement imaging/exam findings addressing standard total-hip-arthroplasty medical necessity elements (failed conservative treatment, radiographic severity, functional limitation) while awaiting that document.\"\n}\n```",
+     "type": "text"
+    }
+   ]
+  }
+ ],
+ "stop_reason": "end_turn",
+ "usage": {
+  "input_tokens": 26,
+  "output_tokens": 6297,
+  "cache_creation_input_tokens": 32570,
+  "cache_read_input_tokens": 147508
+ },
+ "model": "claude-sonnet-5",
+ "tool_calls": 24,
+ "elapsed_s": 106.6,
+ "run_id": "r-9d0edd403417",
+ "case_id": "poc-da7faa7db4"
+}

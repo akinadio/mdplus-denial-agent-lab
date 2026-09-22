@@ -1,0 +1,5320 @@
+{
+ "r-000e02202342": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-8e86334152",
+  "stratum": "in_library"
+ },
+ "r-00d419bab355": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-3a74c3e137",
+  "stratum": "in_library"
+ },
+ "r-00e96f17437c": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-da7faa7db4",
+  "stratum": "in_library"
+ },
+ "r-01302b55725a": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-9297e0e467",
+  "stratum": "vendor_held"
+ },
+ "r-01be99512eaf": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www.ambetterhealth.com/en/ia/provider-resources/clinical-payment-policies/",
+  "why": "does not name the denied code",
+  "case_id": "poc-3a565c0679",
+  "stratum": "in_library"
+ },
+ "r-02a82a990ad3": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-0fffc72471",
+  "stratum": "in_library"
+ },
+ "r-02ba1d2428be": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "https://comagine.org/alaska-medicaid-cervical-spine-surgery-criteria (also listed at https://comagine.org/program/alaska-medicaid-health-care-services/providers)",
+  "case_id": "poc-30230d15f4",
+  "stratum": "no_policy"
+ },
+ "r-0326420a5204": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/oxford/spinal-fusion-decompression-ohp.pdf (currently returns a 404 error on the live UHC provider site; a working archived copy is at https://web.archive.org/web/20251129184046id_/https://www.uhcprovider.com/content/dam/provider/docs/public/policies/oxford/spinal-fusion-decompression-ohp.pdf ). Companion Commercial/Exchange version: https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/spinal-fusion-decompression.pdf",
+  "why": "does not name the denied code",
+  "case_id": "poc-e6ef62d505",
+  "stratum": "vendor_held"
+ },
+ "r-032c3dbf565c": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-ac94c7bbde",
+  "stratum": "in_library"
+ },
+ "r-032fe6ba367b": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf (2026 compiled edition, effective July 1, 2026 \u2013 July 1, 2027, table of contents confirms a 'Knee Arthroscopy' section); companion explanatory document: https://www1.radmd.com/sites/default/files/2024-02/2023%20Knee%20Arthroscopy%20Clin%20Tip%20Sheet%20Evolent%2002282024.pdf",
+  "why": "does not name the denied code",
+  "case_id": "poc-e2aa78e9ec",
+  "stratum": "in_library"
+ },
+ "r-0460bc46a7ac": {
+  "outcome": "cited_unreadable",
+  "correct": false,
+  "claimed_url": "Not currently retrievable at a live public URL. Historical/indexed locations (now returning 404 on direct fetch) include https://www.unicare.com/medicalpolicies/guidelines/gl_pw_d080146.htm and https://provider.clearhealthalliance.com/dam/medpolicies/cha/active/guidelines/gl_pw_d080146.html. The live search portal for Wellpoint New Jersey's current Medical Policies & Clinical UM Guidelines (from which the current version could be pulled by keyword/code search) is https://www.provider.wellpoint.com/new-jersey-provider/resources/manuals-and-guides/medical-policies-and-clinical-guidelines \u2014 this page loaded successfully but its search function is JavaScript-driven and I could not retrieve results through it directly.",
+  "why": "blocked by harness: only http and https URLs are allowed, got scheme ''",
+  "case_id": "poc-e14e3a00bc",
+  "stratum": "in_library"
+ },
+ "r-049b9e0ed839": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-698f4692ae",
+  "stratum": "in_library"
+ },
+ "r-051f6e244ff5": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-ac94c7bbde",
+  "stratum": "in_library"
+ },
+ "r-051f83981a23": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-ce2e11f72d",
+  "stratum": "in_library"
+ },
+ "r-067b4d012d4d": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-0948834b99",
+  "stratum": "in_library"
+ },
+ "r-0707c724d220": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-ee22487639",
+  "stratum": "in_library"
+ },
+ "r-071d7a356927": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-7eb7cfd8b4",
+  "stratum": "no_policy"
+ },
+ "r-079a916b09b1": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-bf385bb269",
+  "stratum": "no_policy"
+ },
+ "r-0834f1618d52": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-a7c9ba9551",
+  "stratum": "in_library"
+ },
+ "r-083b87ae4a97": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-ddd103990c",
+  "stratum": "in_library"
+ },
+ "r-088c3e9df147": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-22e5c28a5f",
+  "stratum": "in_library"
+ },
+ "r-089bc0da3994": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-5585b8dee7",
+  "stratum": "in_library"
+ },
+ "r-08eba25f7c33": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-92d596c7f2",
+  "stratum": "vendor_held"
+ },
+ "r-08f33fa2ff09": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-cbb1679293",
+  "stratum": "in_library"
+ },
+ "r-0999cbf97445": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-d5b17e1a47",
+  "stratum": "in_library"
+ },
+ "r-0a2464e8c0da": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/ (PDF: https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/PDF-Joint-Surgery-2025-11-15.pdf). Corroborating source that IBX delegates hip arthroplasty precertification to Carelon: https://www.ibx.com/pdfs/resources/for-providers/precertification/ibc-precert-01-2026.pdf",
+  "why": "does not name the denied code",
+  "case_id": "poc-2fe0edcd1b",
+  "stratum": "in_library"
+ },
+ "r-0a7e4db8ef20": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-b9867c3e93",
+  "stratum": "in_library"
+ },
+ "r-0ad304f39373": {
+  "outcome": "cited_unreadable",
+  "correct": false,
+  "claimed_url": "PacificSource: https://pacificsource.com/sites/default/files/2025-02/Spinal%20Surgery.pdf ; Carelon guideline (incorporated by reference): https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15-updated-2026-01-01/ (PDF: https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/PDF-Spine-Surgery-2025-11-15.pdf)",
+  "why": "blocked by harness: only http and https URLs are allowed, got scheme 'pacificsource'",
+  "case_id": "poc-1c51e72e1e",
+  "stratum": "in_library"
+ },
+ "r-0bbeda1218a8": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-0948834b99",
+  "stratum": "in_library"
+ },
+ "r-0c12d5a6c725": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-ddd103990c",
+  "stratum": "in_library"
+ },
+ "r-0cd55d157954": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-d304be9399",
+  "stratum": "in_library"
+ },
+ "r-0d78a91fd1bb": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-6b4f896296",
+  "stratum": "in_library"
+ },
+ "r-0e4440b87af7": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-892f80bc2e",
+  "stratum": "in_library"
+ },
+ "r-0ec36fa5a1c5": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-5fadd4bbde",
+  "stratum": "in_library"
+ },
+ "r-0f27f7c6ab61": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-99cc30886d",
+  "stratum": "in_library"
+ },
+ "r-0f5e8603568a": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "N/A",
+  "case_id": "poc-321500d934",
+  "stratum": "no_policy"
+ },
+ "r-0fac7f0da1ba": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-87e365caed",
+  "stratum": "vendor_held"
+ },
+ "r-0fdf6681ca91": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-177b09d7a6",
+  "stratum": "vendor_held"
+ },
+ "r-104329fa5e0b": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-3ab18c211b",
+  "stratum": "no_policy"
+ },
+ "r-109eae77918a": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-9ab63cfcdf",
+  "stratum": "vendor_held"
+ },
+ "r-10e217102c09": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www.harvardpilgrim.org/public/prior-authorization-medical-review-criteria",
+  "why": "does not name the denied code",
+  "case_id": "poc-e2aa78e9ec",
+  "stratum": "in_library"
+ },
+ "r-1149a40ac86b": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-1c4d453f27",
+  "stratum": "vendor_held"
+ },
+ "r-11cc6dee574b": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-177b09d7a6",
+  "stratum": "vendor_held"
+ },
+ "r-121f137a65fb": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-698f4692ae",
+  "stratum": "in_library"
+ },
+ "r-13095328ac94": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-e2aa78e9ec",
+  "stratum": "in_library"
+ },
+ "r-130d8f66a9f1": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-5717f9eeef",
+  "stratum": "in_library"
+ },
+ "r-132688317e6b": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-19407106e9",
+  "stratum": "in_library"
+ },
+ "r-132f44f74ef3": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-d52dac7115",
+  "stratum": "in_library"
+ },
+ "r-133a833cacf6": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-a1f3d3c000",
+  "stratum": "in_library"
+ },
+ "r-133f71dd9b93": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-5ba41ad17e",
+  "stratum": "in_library"
+ },
+ "r-1390376d03bb": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-e14e3a00bc",
+  "stratum": "in_library"
+ },
+ "r-13c04e92c48f": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-d87a7955a7",
+  "stratum": "no_policy"
+ },
+ "r-13ef3a854b97": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-87e365caed",
+  "stratum": "vendor_held"
+ },
+ "r-1435c880502a": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-638643858b",
+  "stratum": "no_policy"
+ },
+ "r-1439fa9af230": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-6b4f896296",
+  "stratum": "in_library"
+ },
+ "r-14c76146578c": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-209deb4204",
+  "stratum": "in_library"
+ },
+ "r-14dfb5ce1792": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-9a43271177",
+  "stratum": "in_library"
+ },
+ "r-1585da2dc102": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-f65cac945b",
+  "stratum": "no_policy"
+ },
+ "r-158c16e2838f": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-ca1d31244e",
+  "stratum": "no_policy"
+ },
+ "r-1650281a0ccb": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-b7c7b913dc",
+  "stratum": "vendor_held"
+ },
+ "r-182ca2d1d861": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-5bc8a5312c",
+  "stratum": "in_library"
+ },
+ "r-1856882c6338": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-76f81e7c00",
+  "stratum": "no_policy"
+ },
+ "r-185aa400d000": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-7eb7cfd8b4",
+  "stratum": "no_policy"
+ },
+ "r-18ba4bdb6a6d": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-2ccde26a88",
+  "stratum": "in_library"
+ },
+ "r-18f8133e261f": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-bf385bb269",
+  "stratum": "no_policy"
+ },
+ "r-194a264adab3": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-5bc8a5312c",
+  "stratum": "in_library"
+ },
+ "r-19ddda82f721": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-a1f3d3c000",
+  "stratum": "in_library"
+ },
+ "r-1b15518a08de": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-5767d9118e",
+  "stratum": "vendor_held"
+ },
+ "r-1b3ed39fc3e9": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-e8e7b452f1",
+  "stratum": "in_library"
+ },
+ "r-1c1e151fe71e": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-cbb1679293",
+  "stratum": "in_library"
+ },
+ "r-1c323854c8dc": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-d304be9399",
+  "stratum": "in_library"
+ },
+ "r-1d07bdc5cc7f": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-f7c299c469",
+  "stratum": "in_library"
+ },
+ "r-1d6dbde099e6": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-3f7f71f65b",
+  "stratum": "in_library"
+ },
+ "r-1dc7cf284377": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15-updated-2026-01-01/ (PDF: https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/PDF-Spine-Surgery-2025-11-15.pdf)",
+  "why": "does not name the denied code",
+  "case_id": "poc-c3b5d8f398",
+  "stratum": "in_library"
+ },
+ "r-1e24fd2671b6": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www1.radmd.com/sites/default/files/2025-07/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines%20-%20HMSA%20FINAL%20eff%20070125.pdf  (HMSA-specific version, Effective July 1, 2025 \u2013 June 30, 2026; predecessor confirmed version: https://www1.radmd.com/sites/default/files/2023-12/2024%20Musculoskeletal%20Surgery%20Guidelines_FINAL_HMSA_Spine.pdf, Effective January 1, 2024 \u2013 June 30, 2024). NOTE: a national successor 'effective July 1, 2026 \u2013 July 1, 2027' exists (https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf) but I could not confirm publication of an HMSA-branded copy of it, which is the version that would technically govern a 2026-08-05 denial.",
+  "why": "does not name the denied code",
+  "case_id": "poc-d89c6a76f0",
+  "stratum": "in_library"
+ },
+ "r-1e266d7bef06": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-9a43271177",
+  "stratum": "in_library"
+ },
+ "r-1e474a9b5181": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-6b4f896296",
+  "stratum": "in_library"
+ },
+ "r-1e4ddb8bca8d": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-e84db56372",
+  "stratum": "in_library"
+ },
+ "r-1f8ea780f342": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-6e16fad700",
+  "stratum": "in_library"
+ },
+ "r-1fd59cef2854": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-df42beb029",
+  "stratum": "in_library"
+ },
+ "r-1fe9026e7eb4": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-e6ef62d505",
+  "stratum": "vendor_held"
+ },
+ "r-212b64ff06b2": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-0948c5760b",
+  "stratum": "vendor_held"
+ },
+ "r-2352d4412d43": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-5d67837dc3",
+  "stratum": "in_library"
+ },
+ "r-238f446479c6": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-ddd103990c",
+  "stratum": "in_library"
+ },
+ "r-243c17cf6682": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "https://www1.radmd.com/sites/default/files/2024-02/2023%20Knee%20Arthroscopy%20Clin%20Tip%20Sheet%20Evolent%2002282024.pdf",
+  "case_id": "poc-5d5b151de3",
+  "stratum": "no_policy"
+ },
+ "r-2473925972da": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-cd6af51965",
+  "stratum": "vendor_held"
+ },
+ "r-248ba51acc1e": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-d5606caed3",
+  "stratum": "in_library"
+ },
+ "r-2491810bbef1": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-64107d6ef7",
+  "stratum": "in_library"
+ },
+ "r-24db34893046": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-5bc96481d7",
+  "stratum": "in_library"
+ },
+ "r-24f0c9612054": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-5ed3bab6ca",
+  "stratum": "no_policy"
+ },
+ "r-250c43878864": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-4fae25deac",
+  "stratum": "in_library"
+ },
+ "r-2557d9b7b7be": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-7b726a30c1",
+  "stratum": "no_policy"
+ },
+ "r-259f7bf46a8b": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15-updated-2026-01-01/  (full PDF: https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/PDF-Spine-Surgery-2025-11-15.pdf)",
+  "why": "does not name the denied code",
+  "case_id": "poc-f37f115fed",
+  "stratum": "in_library"
+ },
+ "r-2647d854e8fa": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-f37f115fed",
+  "stratum": "in_library"
+ },
+ "r-264de57512d0": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-ee22487639",
+  "stratum": "in_library"
+ },
+ "r-269e09847682": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-e71c638d4f",
+  "stratum": "in_library"
+ },
+ "r-26b1e84d510d": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-638643858b",
+  "stratum": "no_policy"
+ },
+ "r-27259ae6a3f2": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-16827cff67",
+  "stratum": "no_policy"
+ },
+ "r-272dc9720354": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-06fc809fb2",
+  "stratum": "in_library"
+ },
+ "r-2742b8a132b2": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-da651e8611",
+  "stratum": "in_library"
+ },
+ "r-275b55414b6f": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf  (general/public copy; landing page: https://www1.radmd.com/solutions/musculoskeletal-surgery-solution). A fuller-text copy of Guideline 1769 itself, published by a state Medicaid program that posts Evolent's guidelines verbatim, is at https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/2/1887_LHCC_Shoulder_Arthroplasty.pdf",
+  "why": "does not name the denied code",
+  "case_id": "poc-ef30a43966",
+  "stratum": "in_library"
+ },
+ "r-27813eb9b5f0": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www.ambetterhealth.com/en/in/provider-resources/clinical-payment-policies/",
+  "why": "does not name the denied code",
+  "case_id": "poc-40e31914e1",
+  "stratum": "in_library"
+ },
+ "r-27c214d4378a": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-6b51d0a6aa",
+  "stratum": "in_library"
+ },
+ "r-284137040be2": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-bda4258628",
+  "stratum": "in_library"
+ },
+ "r-288b088ca35f": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-bdd7b46260",
+  "stratum": "in_library"
+ },
+ "r-29b2c7a8ac3d": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-aa9ea32e7d",
+  "stratum": "vendor_held"
+ },
+ "r-2a765bdf3b73": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-d304be9399",
+  "stratum": "in_library"
+ },
+ "r-2ae956f1210e": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-65bd57974d",
+  "stratum": "in_library"
+ },
+ "r-2b641838419c": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-2a69b0b828",
+  "stratum": "no_policy"
+ },
+ "r-2bee1040ab76": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-ee22487639",
+  "stratum": "in_library"
+ },
+ "r-2bff089ea701": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-76f81e7c00",
+  "stratum": "no_policy"
+ },
+ "r-2cefc1d8c7f1": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-22e5c28a5f",
+  "stratum": "in_library"
+ },
+ "r-2cf84b959a36": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-cdc085ab1f",
+  "stratum": "in_library"
+ },
+ "r-2d0d38080cc7": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-c3b0db0f14",
+  "stratum": "in_library"
+ },
+ "r-2d280ac0017f": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-9ab63cfcdf",
+  "stratum": "vendor_held"
+ },
+ "r-2d3d845d4d68": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-bf385bb269",
+  "stratum": "no_policy"
+ },
+ "r-2db580eea03b": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-8ee886247d",
+  "stratum": "in_library"
+ },
+ "r-2de788a6bdf7": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-a5f6d22435",
+  "stratum": "in_library"
+ },
+ "r-2e11b75c1cf9": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-9f671e8f0e",
+  "stratum": "in_library"
+ },
+ "r-2ec0b957d1f1": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-22e5c28a5f",
+  "stratum": "in_library"
+ },
+ "r-2ef995f35062": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-d5606caed3",
+  "stratum": "in_library"
+ },
+ "r-2f2b49dc448d": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-4825aa1f8b",
+  "stratum": "in_library"
+ },
+ "r-2f2ca1277c20": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-b12ba21a5a",
+  "stratum": "no_policy"
+ },
+ "r-2f3ec19fcb8b": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-ac94c7bbde",
+  "stratum": "in_library"
+ },
+ "r-2f4ccb0585bd": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-7eb7cfd8b4",
+  "stratum": "no_policy"
+ },
+ "r-2fbecc89a0d3": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-b9867c3e93",
+  "stratum": "in_library"
+ },
+ "r-2feb99772ff7": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-5d5b151de3",
+  "stratum": "no_policy"
+ },
+ "r-2ff91e6b324f": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-29630aa1d9",
+  "stratum": "in_library"
+ },
+ "r-3052dace85c2": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-5717f9eeef",
+  "stratum": "in_library"
+ },
+ "r-307712f1ffef": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-6e16fad700",
+  "stratum": "in_library"
+ },
+ "r-3088468809cb": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-9f671e8f0e",
+  "stratum": "in_library"
+ },
+ "r-31ba8fcc5af7": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-f4c641ed8b",
+  "stratum": "in_library"
+ },
+ "r-31dd399d76a2": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-0b7f2515da",
+  "stratum": "no_policy"
+ },
+ "r-31e5efe9d51e": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-9a43271177",
+  "stratum": "in_library"
+ },
+ "r-32052a724105": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-13c871bb40",
+  "stratum": "in_library"
+ },
+ "r-32bf00bbb63c": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-bdd7b46260",
+  "stratum": "in_library"
+ },
+ "r-330ac8ac6c0d": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-4e415360fe",
+  "stratum": "in_library"
+ },
+ "r-3358511a2055": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-0948c5760b",
+  "stratum": "vendor_held"
+ },
+ "r-34329bd0e02f": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-f4c641ed8b",
+  "stratum": "in_library"
+ },
+ "r-348db069818b": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-638643858b",
+  "stratum": "no_policy"
+ },
+ "r-34ae0be1e091": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-f7c299c469",
+  "stratum": "in_library"
+ },
+ "r-34b535a49194": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-cbb1679293",
+  "stratum": "in_library"
+ },
+ "r-34f5c1ec555e": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-892f80bc2e",
+  "stratum": "in_library"
+ },
+ "r-356ecbb58616": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-3b4a598a17",
+  "stratum": "no_policy"
+ },
+ "r-3574f923d893": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-a0c827a88a",
+  "stratum": "in_library"
+ },
+ "r-35a2f51ed53f": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-a389519c6d",
+  "stratum": "in_library"
+ },
+ "r-362c36a994e1": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-aaa1cf805a",
+  "stratum": "no_policy"
+ },
+ "r-363c6f4cc821": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-e8e7b452f1",
+  "stratum": "in_library"
+ },
+ "r-36cbce0015dc": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-4e415360fe",
+  "stratum": "in_library"
+ },
+ "r-37085dfa617d": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-757c3b7e16",
+  "stratum": "in_library"
+ },
+ "r-374ad241d742": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-d47f9a88cc",
+  "stratum": "in_library"
+ },
+ "r-375198fec925": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-cfa5b97de7",
+  "stratum": "in_library"
+ },
+ "r-37e1add6bc85": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-47f0c5aa4b",
+  "stratum": "no_policy"
+ },
+ "r-37f32a9382c2": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-e14e3a00bc",
+  "stratum": "in_library"
+ },
+ "r-381994214c2e": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-e71c638d4f",
+  "stratum": "in_library"
+ },
+ "r-384529b401c4": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-7321626800",
+  "stratum": "no_policy"
+ },
+ "r-38a912456f1e": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-cd20076a7a",
+  "stratum": "in_library"
+ },
+ "r-38bb69fa0f60": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-2ccde26a88",
+  "stratum": "in_library"
+ },
+ "r-38eb9e3cad32": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-972f74519c",
+  "stratum": "in_library"
+ },
+ "r-391b3348e5c0": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-c4bc2ebac7",
+  "stratum": "in_library"
+ },
+ "r-393d9a98a334": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-06fc809fb2",
+  "stratum": "in_library"
+ },
+ "r-3948163a4cf8": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-e288d08833",
+  "stratum": "no_policy"
+ },
+ "r-398714e964f2": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-ca1d31244e",
+  "stratum": "no_policy"
+ },
+ "r-3baf2595c5fc": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-2ccde26a88",
+  "stratum": "in_library"
+ },
+ "r-3bb7ab62043b": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-a755f8592e",
+  "stratum": "in_library"
+ },
+ "r-3bee6ed0191a": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-c1ee0f5da7",
+  "stratum": "no_policy"
+ },
+ "r-3c6f7fe049f6": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-8b473a1d50",
+  "stratum": "in_library"
+ },
+ "r-3cd0899fbb47": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-7cd7d16b79",
+  "stratum": "in_library"
+ },
+ "r-3d12245575cf": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-cd20076a7a",
+  "stratum": "in_library"
+ },
+ "r-3d17866128e7": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-1c51e72e1e",
+  "stratum": "in_library"
+ },
+ "r-3d1e0df668fb": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-cd6af51965",
+  "stratum": "vendor_held"
+ },
+ "r-3d232893abbe": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-f4c641ed8b",
+  "stratum": "in_library"
+ },
+ "r-3d3088d6c1bf": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-df42beb029",
+  "stratum": "in_library"
+ },
+ "r-3db5a2a19a44": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-c3b0db0f14",
+  "stratum": "in_library"
+ },
+ "r-3dc8e44f8e2e": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-4fae25deac",
+  "stratum": "in_library"
+ },
+ "r-3e37c9a1b320": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-a1f3d3c000",
+  "stratum": "in_library"
+ },
+ "r-3ebe229f1541": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-06fc809fb2",
+  "stratum": "in_library"
+ },
+ "r-3ef14bfb59a2": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-5ed3bab6ca",
+  "stratum": "no_policy"
+ },
+ "r-3fc462a177d0": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-9297e0e467",
+  "stratum": "vendor_held"
+ },
+ "r-3fdccc001e84": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-bd05618334",
+  "stratum": "in_library"
+ },
+ "r-4028d4128e7b": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-209deb4204",
+  "stratum": "in_library"
+ },
+ "r-40722c8a783f": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-c65ca65da3",
+  "stratum": "in_library"
+ },
+ "r-40936951e643": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-f4c641ed8b",
+  "stratum": "in_library"
+ },
+ "r-40998c0a469b": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-9668ba39e4",
+  "stratum": "in_library"
+ },
+ "r-40b43440697f": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www.anthem.com/provider/policies/clinical-guidelines/",
+  "why": "does not name the denied code",
+  "case_id": "poc-0731be4a81",
+  "stratum": "in_library"
+ },
+ "r-4152cf2888d1": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "Not retrievable. The policy is referenced in Highmark's provider newsletter (https://providers.highmark.com/communications-hub/medical-policy-update/may-26-2026) but the underlying criteria document itself sits behind Highmark's secure/Availity-gated provider portal (e.g., securecms.highmark.com and secure.highmark.com/ldap/medicalpolicy/...), which returned login/certificate errors or 404s on every URL pattern I tried. No publicly accessible full-text version of S-634 could be located.",
+  "case_id": "poc-7eb7cfd8b4",
+  "stratum": "no_policy"
+ },
+ "r-419088d6a584": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-9391f374e1",
+  "stratum": "in_library"
+ },
+ "r-41a11f762e73": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-9297e0e467",
+  "stratum": "vendor_held"
+ },
+ "r-41cefcf831ae": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/PDF-Spine-Surgery-2025-11-15.pdf (HTML mirror: https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15-updated-2026-01-01/)",
+  "why": "does not name the denied code",
+  "case_id": "poc-a43fe266ad",
+  "stratum": "in_library"
+ },
+ "r-41d4ab740b3d": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-7321626800",
+  "stratum": "no_policy"
+ },
+ "r-421308bb0657": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15-updated-2026-01-01/  (also archived/mirrored versions exist at files.providernews.anthem.com, e.g. https://files.providernews.anthem.com/4827/pdf-Spine-Surgery-2024-10-20.pdf)",
+  "why": "does not name the denied code",
+  "case_id": "poc-13c871bb40",
+  "stratum": "in_library"
+ },
+ "r-4237297ab244": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-9391f374e1",
+  "stratum": "in_library"
+ },
+ "r-423a880449ed": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://pacificsource.com/sites/default/files/2025-02/Spinal%20Surgery.pdf",
+  "why": "does not name the denied code",
+  "case_id": "poc-1c51e72e1e",
+  "stratum": "in_library"
+ },
+ "r-439de16893e2": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-3a74c3e137",
+  "stratum": "in_library"
+ },
+ "r-4438ffd5465c": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-3e3f8049cd",
+  "stratum": "in_library"
+ },
+ "r-445221d8b2f9": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-2ccde26a88",
+  "stratum": "in_library"
+ },
+ "r-4532930a4744": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-6a6d9c61f2",
+  "stratum": "in_library"
+ },
+ "r-45cb776d6c80": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-19407106e9",
+  "stratum": "in_library"
+ },
+ "r-45d77bf6595c": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-c65ca65da3",
+  "stratum": "in_library"
+ },
+ "r-4612b49e6ad4": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-55381bdbc3",
+  "stratum": "vendor_held"
+ },
+ "r-466096f67342": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-13c871bb40",
+  "stratum": "in_library"
+ },
+ "r-46918a4aadac": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-37f3aa304d",
+  "stratum": "in_library"
+ },
+ "r-46cfed1af3f1": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-1acf427871",
+  "stratum": "in_library"
+ },
+ "r-46ee9cf6f6da": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+  "case_id": "poc-aaa1cf805a",
+  "stratum": "no_policy"
+ },
+ "r-470042b829da": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-fb8e2ae06a",
+  "stratum": "in_library"
+ },
+ "r-4711064d7879": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-1c4d453f27",
+  "stratum": "vendor_held"
+ },
+ "r-47515aca5310": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-5717f9eeef",
+  "stratum": "in_library"
+ },
+ "r-47bae714b113": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-1acf427871",
+  "stratum": "in_library"
+ },
+ "r-47d813604694": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-bd05618334",
+  "stratum": "in_library"
+ },
+ "r-485acf9617d3": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-0948c5760b",
+  "stratum": "vendor_held"
+ },
+ "r-48657d9587e8": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-cd6af51965",
+  "stratum": "vendor_held"
+ },
+ "r-48660a3c84d7": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "http://blue.regence.com/trgmedpol/surgery/sur187.pdf",
+  "why": "names the code but states no criteria for it",
+  "case_id": "poc-a93fe7e3b5",
+  "stratum": "in_library"
+ },
+ "r-4885377ee3c6": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-6e16fad700",
+  "stratum": "in_library"
+ },
+ "r-48a984bca9c5": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-a7c9ba9551",
+  "stratum": "in_library"
+ },
+ "r-48ba412617a7": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-30230d15f4",
+  "stratum": "no_policy"
+ },
+ "r-4931741b775a": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-321500d934",
+  "stratum": "no_policy"
+ },
+ "r-4a47d29ad7ae": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-99cc30886d",
+  "stratum": "in_library"
+ },
+ "r-4ad128f9301a": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-5767d9118e",
+  "stratum": "vendor_held"
+ },
+ "r-4bae20889b94": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-0948834b99",
+  "stratum": "in_library"
+ },
+ "r-4bfc05af9ee5": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/healthcare-professionals/supplemental-criteria-for-transparency-2024.pdf",
+  "why": "does not name the denied code",
+  "case_id": "poc-d5606caed3",
+  "stratum": "in_library"
+ },
+ "r-4cb835b1d87a": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-fd00fecec4",
+  "stratum": "in_library"
+ },
+ "r-4ea806d52659": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-ba397efdb1",
+  "stratum": "in_library"
+ },
+ "r-4ebf17a9b45c": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-b70a1741f9",
+  "stratum": "in_library"
+ },
+ "r-4f276bace0e0": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-9dd444765e",
+  "stratum": "vendor_held"
+ },
+ "r-4fad6c69701b": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-321500d934",
+  "stratum": "no_policy"
+ },
+ "r-501de6828ce5": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-55381bdbc3",
+  "stratum": "vendor_held"
+ },
+ "r-50b0c9ccd1a2": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-9391f374e1",
+  "stratum": "in_library"
+ },
+ "r-50bf9907c0c7": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-b70a1741f9",
+  "stratum": "in_library"
+ },
+ "r-51bc96ccf315": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "Multiple (see notes)",
+  "case_id": "poc-7321626800",
+  "stratum": "no_policy"
+ },
+ "r-5230b6e16039": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-5fadd4bbde",
+  "stratum": "in_library"
+ },
+ "r-52bc43b4d75c": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-9f671e8f0e",
+  "stratum": "in_library"
+ },
+ "r-52d5a571d50f": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-8e43f25837",
+  "stratum": "in_library"
+ },
+ "r-52ec01c61ac4": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "Not publicly available (Proprietary / licensed MCG content)",
+  "case_id": "poc-7908fd6832",
+  "stratum": "no_policy"
+ },
+ "r-52f12e608bbd": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-5bc96481d7",
+  "stratum": "in_library"
+ },
+ "r-534e38996b1b": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-3e3f8049cd",
+  "stratum": "in_library"
+ },
+ "r-53563a9eb47b": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-d5606caed3",
+  "stratum": "in_library"
+ },
+ "r-53efa9be3a78": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-4e415360fe",
+  "stratum": "in_library"
+ },
+ "r-5496ed1a8834": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-3a565c0679",
+  "stratum": "in_library"
+ },
+ "r-559e255be6ef": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-1ec0b0cd1f",
+  "stratum": "no_policy"
+ },
+ "r-55c45d47de13": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-16827cff67",
+  "stratum": "no_policy"
+ },
+ "r-55e2a7ce98e5": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www.molinahealthcare.com/-/media/Molina/PublicWebsite/PDF/Providers/il/Molina-Clinical-Policies/Retired-by-MCPC/6-12-2024/Shoulder-Arthroscopy-Guidelines_R.pdf (Molina's own general shoulder arthroscopy policy, which points to the non-public MCG guideline for rotator cuff repair specifically)",
+  "why": "does not name the denied code",
+  "case_id": "poc-9dd444765e",
+  "stratum": "vendor_held"
+ },
+ "r-5619e0e7c946": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://beonbrand.getbynder.com/m/be584fd0c9b78359/",
+  "why": "names the code but states no criteria for it",
+  "case_id": "poc-a93fe7e3b5",
+  "stratum": "in_library"
+ },
+ "r-5633b4210bb9": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/tn/surgery-knee-tn-cs.pdf",
+  "case_id": "poc-638643858b",
+  "stratum": "no_policy"
+ },
+ "r-566316eb96a6": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-f4c641ed8b",
+  "stratum": "in_library"
+ },
+ "r-56c07aef9cd2": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-1f29ac6c03",
+  "stratum": "in_library"
+ },
+ "r-56db177ca0a0": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-6a7fd5286d",
+  "stratum": "in_library"
+ },
+ "r-57ff549cca5f": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-41fe448bea",
+  "stratum": "in_library"
+ },
+ "r-58f0f8ede5a2": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-58f5ca7616",
+  "stratum": "in_library"
+ },
+ "r-5917d367fd56": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-79a305e63c",
+  "stratum": "in_library"
+ },
+ "r-59c6109ff91f": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://assets.ctfassets.net/plyq12u1bv8a/6gD2u32BuCEgffIXeNXN8s/e0cf91116d52b7fd2a32e90e78a6d89d/CG069_Total_Knee_Arthroplasty.pdf (Ver. 7, current); index page: https://www.hioscar.com/clinical-guidelines/medical",
+  "why": "does not name the denied code",
+  "case_id": "poc-5585b8dee7",
+  "stratum": "in_library"
+ },
+ "r-59ebc5359647": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-926bf4d7e4",
+  "stratum": "in_library"
+ },
+ "r-5a85887094cc": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-c65ca65da3",
+  "stratum": "in_library"
+ },
+ "r-5a99e12ae270": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-d5606caed3",
+  "stratum": "in_library"
+ },
+ "r-5c46e529dadf": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-3e3f8049cd",
+  "stratum": "in_library"
+ },
+ "r-5c4c3f669912": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-332858b095",
+  "stratum": "in_library"
+ },
+ "r-5d508f7b2d73": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-a7c9ba9551",
+  "stratum": "in_library"
+ },
+ "r-5d8a6ed848bb": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-30230d15f4",
+  "stratum": "no_policy"
+ },
+ "r-5e220de09a6e": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-9dd444765e",
+  "stratum": "vendor_held"
+ },
+ "r-5e3950e50873": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-6a6d9c61f2",
+  "stratum": "in_library"
+ },
+ "r-5eb62ce2a20e": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-177b09d7a6",
+  "stratum": "vendor_held"
+ },
+ "r-5ed09ea132bc": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-157f6efe74",
+  "stratum": "in_library"
+ },
+ "r-5ee261560ae3": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-40e31914e1",
+  "stratum": "in_library"
+ },
+ "r-5f1280d0ec93": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-2a69b0b828",
+  "stratum": "no_policy"
+ },
+ "r-5f904b9907b3": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "https://www.law.cornell.edu/regulations/massachusetts/130-CMR-450-204",
+  "case_id": "poc-f65cac945b",
+  "stratum": "no_policy"
+ },
+ "r-600d6eec22ca": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-a0c827a88a",
+  "stratum": "in_library"
+ },
+ "r-604d71e23c37": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-1ec0b0cd1f",
+  "stratum": "no_policy"
+ },
+ "r-60723ecdc674": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "https://providers.highmark.com/content/dam/highmark/en/providerresourcecenter/pdfs/all/documents/pdfs/latest-updates/medical-policy-update/2026/mpu-may-26-2026.pdf",
+  "case_id": "poc-7eb7cfd8b4",
+  "stratum": "no_policy"
+ },
+ "r-61099fe4f862": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-5d5b151de3",
+  "stratum": "no_policy"
+ },
+ "r-61371d8cf607": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-f65cac945b",
+  "stratum": "no_policy"
+ },
+ "r-617029a818a5": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-3a565c0679",
+  "stratum": "in_library"
+ },
+ "r-61a58553926d": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-5edc35c98d",
+  "stratum": "vendor_held"
+ },
+ "r-62b4e0dc416f": {
+  "outcome": "cited_unreadable",
+  "correct": false,
+  "claimed_url": "N/A",
+  "why": "blocked by harness: only http and https URLs are allowed, got scheme ''",
+  "case_id": "poc-6b51d0a6aa",
+  "stratum": "in_library"
+ },
+ "r-6327181cbbf2": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-d5b17e1a47",
+  "stratum": "in_library"
+ },
+ "r-636e0742b7b6": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/small-joint-surgery-2025-11-15/  (full PDF: https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/PDF-Small-Joint-Surgery-2025-11-15.pdf)",
+  "why": "does not name the denied code",
+  "case_id": "poc-1f29ac6c03",
+  "stratum": "in_library"
+ },
+ "r-640b750af03b": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-209deb4204",
+  "stratum": "in_library"
+ },
+ "r-64507bcc20c7": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www.lablue.com/medicalpolicies",
+  "why": "does not name the denied code",
+  "case_id": "poc-757c3b7e16",
+  "stratum": "in_library"
+ },
+ "r-648947ec8fec": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-17b712a980",
+  "stratum": "in_library"
+ },
+ "r-64d46bc288e7": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-a755f8592e",
+  "stratum": "in_library"
+ },
+ "r-64fd72bb17f6": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-9ab63cfcdf",
+  "stratum": "vendor_held"
+ },
+ "r-65250533849e": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-8e86334152",
+  "stratum": "in_library"
+ },
+ "r-65447b793ccf": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-eed29f7594",
+  "stratum": "in_library"
+ },
+ "r-655851fa1fe2": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-eed29f7594",
+  "stratum": "in_library"
+ },
+ "r-65aea60949c0": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-9a43271177",
+  "stratum": "in_library"
+ },
+ "r-66633852f4b1": {
+  "outcome": "cited_unreadable",
+  "correct": false,
+  "claimed_url": "No public URL exists for the full MCG 'Hip Arthroplasty' guideline. Closest available public documents: https://provider.healthybluela.com/louisiana-provider/medical-policies-and-clinical-guidelines (portal to request/search policies) and https://provider.healthybluela.com/docs/gpp/LA_LDH_MCGcareGuides26.pdf (bulletin referencing the S-560/W0105 guideline update, summary only, not the criteria themselves)",
+  "why": "blocked by harness: only http and https URLs are allowed, got scheme ''",
+  "case_id": "poc-19407106e9",
+  "stratum": "in_library"
+ },
+ "r-66e40ea835ef": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-fb8e2ae06a",
+  "stratum": "in_library"
+ },
+ "r-674c86b11338": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-6b51d0a6aa",
+  "stratum": "in_library"
+ },
+ "r-678d268879c3": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-e6ef62d505",
+  "stratum": "vendor_held"
+ },
+ "r-678fbcced2a1": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf (combined document; a mirrored standalone copy of guideline 1764 is at https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/2/1885_LHCC_Knee_Arthroscopy.pdf)",
+  "why": "does not name the denied code",
+  "case_id": "poc-40e31914e1",
+  "stratum": "in_library"
+ },
+ "r-681b06d9401f": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-19ff75efc5",
+  "stratum": "no_policy"
+ },
+ "r-68234465d786": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-bda4258628",
+  "stratum": "in_library"
+ },
+ "r-68e36b0aca58": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-37f3aa304d",
+  "stratum": "in_library"
+ },
+ "r-6996baf5963e": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-acaa2d5bad",
+  "stratum": "in_library"
+ },
+ "r-6a875b25aa16": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-aaa1cf805a",
+  "stratum": "no_policy"
+ },
+ "r-6a934876e550": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-5edc35c98d",
+  "stratum": "vendor_held"
+ },
+ "r-6a9dec2b1a18": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-e84db56372",
+  "stratum": "in_library"
+ },
+ "r-6ae31e12ee64": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-6e764dffe5",
+  "stratum": "in_library"
+ },
+ "r-6afcf225698f": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-c29c7cfc4d",
+  "stratum": "no_policy"
+ },
+ "r-6b08ee498d23": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-757c3b7e16",
+  "stratum": "in_library"
+ },
+ "r-6b2283e0816d": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-e71c638d4f",
+  "stratum": "in_library"
+ },
+ "r-6be6267710a0": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-87e365caed",
+  "stratum": "vendor_held"
+ },
+ "r-6c5003108d89": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-5ba41ad17e",
+  "stratum": "in_library"
+ },
+ "r-6cbbee510d81": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-c3b0db0f14",
+  "stratum": "in_library"
+ },
+ "r-6cce1a468b4c": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-9391f374e1",
+  "stratum": "in_library"
+ },
+ "r-6ce15fc21cc8": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-1ec0b0cd1f",
+  "stratum": "no_policy"
+ },
+ "r-6ce1c2acc72a": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-06fc809fb2",
+  "stratum": "in_library"
+ },
+ "r-6d03591e650e": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-7908fd6832",
+  "stratum": "no_policy"
+ },
+ "r-6d3bfb4d2a9e": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-8ad74ff769",
+  "stratum": "in_library"
+ },
+ "r-6d56b5ebf105": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-7b726a30c1",
+  "stratum": "no_policy"
+ },
+ "r-6d824e99fdc9": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-8ee886247d",
+  "stratum": "in_library"
+ },
+ "r-6d93a73579f8": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www1.radmd.com/sites/default/files/2024-02/2023%20Knee%20Arthroscopy%20Clin%20Tip%20Sheet%20Evolent%2002282024.pdf (Evolent/RadMD tip sheet quoting the guideline criteria); the parent aggregated document is https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf (Table of Contents lists 'Knee Arthroscopy' as a section, effective July 1, 2026 \u2013 July 1, 2027, but I could not retrieve the full Knee Arthroscopy text from this specific 2026 file \u2014 see notes)",
+  "why": "does not name the denied code",
+  "case_id": "poc-79a305e63c",
+  "stratum": "in_library"
+ },
+ "r-6d9760d12ba5": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-8e43f25837",
+  "stratum": "in_library"
+ },
+ "r-6f3bebf438be": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-4825aa1f8b",
+  "stratum": "in_library"
+ },
+ "r-6f83c320621c": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-99cc30886d",
+  "stratum": "in_library"
+ },
+ "r-6f98379c0e00": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-c65ca65da3",
+  "stratum": "in_library"
+ },
+ "r-6fa67f4e3447": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-cd20076a7a",
+  "stratum": "in_library"
+ },
+ "r-6fb1a0881dcc": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-209deb4204",
+  "stratum": "in_library"
+ },
+ "r-70808391a042": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15-updated-2026-01-01/ (current archive copy; PDF link on that page). Related/adjacent versions: https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2024-10-20/ and https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2026-09-19/",
+  "why": "does not name the denied code",
+  "case_id": "poc-acaa2d5bad",
+  "stratum": "in_library"
+ },
+ "r-70fdd536459d": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-5142e8878f",
+  "stratum": "in_library"
+ },
+ "r-7199f71e196c": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-1f29ac6c03",
+  "stratum": "in_library"
+ },
+ "r-71d1e43f856b": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-f628c11122",
+  "stratum": "in_library"
+ },
+ "r-71d583fc7df7": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www.upmchealthplan.com/providers/medical/resources/manuals/policies-procedures",
+  "why": "does not name the denied code",
+  "case_id": "poc-39de00339b",
+  "stratum": "vendor_held"
+ },
+ "r-71dd77e359e6": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-47f0c5aa4b",
+  "stratum": "no_policy"
+ },
+ "r-7269deda9466": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "https://law.justia.com/codes/connecticut/title-17b/chapter-319v/section-17b-259b/",
+  "case_id": "poc-16827cff67",
+  "stratum": "no_policy"
+ },
+ "r-7274afa67555": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-b9867c3e93",
+  "stratum": "in_library"
+ },
+ "r-730cc3cd669e": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-5fadd4bbde",
+  "stratum": "in_library"
+ },
+ "r-733e71c77467": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-3b4a598a17",
+  "stratum": "no_policy"
+ },
+ "r-73506e8be7c4": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-926bf4d7e4",
+  "stratum": "in_library"
+ },
+ "r-741fa1c65e89": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-41fe448bea",
+  "stratum": "in_library"
+ },
+ "r-74612aa57238": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-972f74519c",
+  "stratum": "in_library"
+ },
+ "r-74844e7f596b": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-bf385bb269",
+  "stratum": "no_policy"
+ },
+ "r-749295967efc": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-8e43f25837",
+  "stratum": "in_library"
+ },
+ "r-74cee2e5eae5": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-a755f8592e",
+  "stratum": "in_library"
+ },
+ "r-7559da6aa24a": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-58f5ca7616",
+  "stratum": "in_library"
+ },
+ "r-7635da2ac5b2": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-3a74c3e137",
+  "stratum": "in_library"
+ },
+ "r-76586e198b5c": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "http://blue.regence.com/trgmedpol/surgery/sur187.pdf",
+  "why": "names the code but states no criteria for it",
+  "case_id": "poc-a93fe7e3b5",
+  "stratum": "in_library"
+ },
+ "r-76609bf0e685": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-e6ef62d505",
+  "stratum": "vendor_held"
+ },
+ "r-76e16091c124": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-b7c7b913dc",
+  "stratum": "vendor_held"
+ },
+ "r-7765437b9445": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-22e5c28a5f",
+  "stratum": "in_library"
+ },
+ "r-77839a31284d": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-1acf427871",
+  "stratum": "in_library"
+ },
+ "r-77984e9c896d": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-a1f3d3c000",
+  "stratum": "in_library"
+ },
+ "r-77e2b0d8d9de": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "https://comagine.org/program/alaska-medicaid-health-care-services/providers",
+  "case_id": "poc-30230d15f4",
+  "stratum": "no_policy"
+ },
+ "r-77f1288f8986": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "https://mcp.humana.com/tad/tad_new/home.aspx?type=provider",
+  "case_id": "poc-47f0c5aa4b",
+  "stratum": "no_policy"
+ },
+ "r-77f78ef98069": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-5767d9118e",
+  "stratum": "vendor_held"
+ },
+ "r-7826b2a2f5be": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-c65ca65da3",
+  "stratum": "in_library"
+ },
+ "r-78d5147fd43b": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-5bc8a5312c",
+  "stratum": "in_library"
+ },
+ "r-7911bdd798a0": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-b9867c3e93",
+  "stratum": "in_library"
+ },
+ "r-7948abc251d2": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-8e43f25837",
+  "stratum": "in_library"
+ },
+ "r-7996bbcc5b9f": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-1ec0b0cd1f",
+  "stratum": "no_policy"
+ },
+ "r-7b033fb22d5a": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "Not publicly available (Proprietary third-party criteria)",
+  "case_id": "poc-d87a7955a7",
+  "stratum": "no_policy"
+ },
+ "r-7be667f5b8db": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-8e86334152",
+  "stratum": "in_library"
+ },
+ "r-7c368a9ddd8e": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-5142e8878f",
+  "stratum": "in_library"
+ },
+ "r-7ca66ac5acbc": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "https://www.molinamarketplace.com/providers/ms/medicaid/comm/-/media/31A167A891774EE79669203E292C8FAD.ashx",
+  "case_id": "poc-1ec0b0cd1f",
+  "stratum": "no_policy"
+ },
+ "r-7cad88709365": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-cfa5b97de7",
+  "stratum": "in_library"
+ },
+ "r-7d0a708b72ea": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www.securityhealth.org/medicalpolicies",
+  "why": "does not name the denied code",
+  "case_id": "poc-a5f6d22435",
+  "stratum": "in_library"
+ },
+ "r-7d57d3503202": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-47f0c5aa4b",
+  "stratum": "no_policy"
+ },
+ "r-7dd6214fb9aa": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-19ff75efc5",
+  "stratum": "no_policy"
+ },
+ "r-7df9f538849c": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-570cd9f39b",
+  "stratum": "in_library"
+ },
+ "r-7e15ad62a428": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-da651e8611",
+  "stratum": "in_library"
+ },
+ "r-7e50cccdc7fe": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-d87a7955a7",
+  "stratum": "no_policy"
+ },
+ "r-7e9f3464f9c9": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-9dd444765e",
+  "stratum": "vendor_held"
+ },
+ "r-7ea05d76acde": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-5d67837dc3",
+  "stratum": "in_library"
+ },
+ "r-7f31d717003f": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-b7c7b913dc",
+  "stratum": "vendor_held"
+ },
+ "r-7fa5282f2b31": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-5767d9118e",
+  "stratum": "vendor_held"
+ },
+ "r-80a65a58ff28": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-3b4a598a17",
+  "stratum": "no_policy"
+ },
+ "r-80f2f92c00aa": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-8ee886247d",
+  "stratum": "in_library"
+ },
+ "r-811d03958a78": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-d89c6a76f0",
+  "stratum": "in_library"
+ },
+ "r-818f4ca85ffc": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-39de00339b",
+  "stratum": "vendor_held"
+ },
+ "r-81a21ad979ea": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-570cd9f39b",
+  "stratum": "in_library"
+ },
+ "r-81cc97924a0e": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-a7c9ba9551",
+  "stratum": "in_library"
+ },
+ "r-82c6b212266d": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "https://www.humana.com/provider/medical-resources/clinical-guidelines",
+  "case_id": "poc-3b4a598a17",
+  "stratum": "no_policy"
+ },
+ "r-833aaa050aa4": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-4fae25deac",
+  "stratum": "in_library"
+ },
+ "r-83da45eef4b6": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-9297e0e467",
+  "stratum": "vendor_held"
+ },
+ "r-845c51980c82": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-bf385bb269",
+  "stratum": "no_policy"
+ },
+ "r-84d3810701f9": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www.sunflowerhealthplan.com/providers/resources/clinical-payment-policies.html",
+  "why": "does not name the denied code",
+  "case_id": "poc-5bc96481d7",
+  "stratum": "in_library"
+ },
+ "r-850147655a45": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-698f4692ae",
+  "stratum": "in_library"
+ },
+ "r-8540ebd1bb71": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-6a6d9c61f2",
+  "stratum": "in_library"
+ },
+ "r-85a328fe628e": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-f7c299c469",
+  "stratum": "in_library"
+ },
+ "r-85fee04d7017": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-972f74519c",
+  "stratum": "in_library"
+ },
+ "r-867b0d4c0667": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-5717f9eeef",
+  "stratum": "in_library"
+ },
+ "r-869f1db9d9de": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-76f81e7c00",
+  "stratum": "no_policy"
+ },
+ "r-879c2f595377": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-ac94c7bbde",
+  "stratum": "in_library"
+ },
+ "r-87be97a09ad0": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-c3b5d8f398",
+  "stratum": "in_library"
+ },
+ "r-87c306358430": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-177b09d7a6",
+  "stratum": "vendor_held"
+ },
+ "r-87e59c6e909f": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-f628c11122",
+  "stratum": "in_library"
+ },
+ "r-88075ed9e7fc": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-5bc96481d7",
+  "stratum": "in_library"
+ },
+ "r-888edcea15f1": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-eed29f7594",
+  "stratum": "in_library"
+ },
+ "r-88b53414795b": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-6e764dffe5",
+  "stratum": "in_library"
+ },
+ "r-891167729e7e": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/2/1887_LHCC_Shoulder_Arthroplasty.pdf (a state-posted copy of the Evolent guideline, used here only to show its content; I could not find an 'Ohana- or Wellcare-Hawaii-branded copy of this same guideline posted on radmd.com \u2014 'Ohana's RadMD page for the MSK program says only 'refer to the Utilization Review Matrix' rather than linking a payer-specific criteria document)",
+  "why": "does not name the denied code",
+  "case_id": "poc-209deb4204",
+  "stratum": "in_library"
+ },
+ "r-899084250c8f": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-c29c7cfc4d",
+  "stratum": "no_policy"
+ },
+ "r-8a7afae46919": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-37f3aa304d",
+  "stratum": "in_library"
+ },
+ "r-8b3b8c188a25": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-37f3aa304d",
+  "stratum": "in_library"
+ },
+ "r-8b548149d27d": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/ky/spinal-fusion-decompression-ky-cs.pdf",
+  "case_id": "poc-5ed3bab6ca",
+  "stratum": "no_policy"
+ },
+ "r-8b9ac6383ec4": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-8e43f25837",
+  "stratum": "in_library"
+ },
+ "r-8c3216cb0528": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-7b726a30c1",
+  "stratum": "no_policy"
+ },
+ "r-8d021b2a7dd6": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-3ab18c211b",
+  "stratum": "no_policy"
+ },
+ "r-8d1727d87050": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-5ed3bab6ca",
+  "stratum": "no_policy"
+ },
+ "r-8d5622473270": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/ (PDF version of the same document series available at e.g. https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2024/08/pdf-Joint-Surgery-2024-11-17.pdf for the prior-year edition); PacificSource's adoption of this Carelon guideline for Commercial/Medicare musculoskeletal reviews is stated at https://pacificsource.com/providers/clinical-policies-and-practice-guidelines under 'External clinical guidelines \u2192 Commercial and Medicare \u2192 Musculoskeletal \u2192 Carelon Medical Benefits Management Clinical Appropriateness Guidelines'",
+  "why": "does not name the denied code",
+  "case_id": "poc-c4bc2ebac7",
+  "stratum": "in_library"
+ },
+ "r-8d916f3b42b4": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-a0d25e0d66",
+  "stratum": "in_library"
+ },
+ "r-8eb8cddd33e6": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-c4bc2ebac7",
+  "stratum": "in_library"
+ },
+ "r-8ec9254ec2d0": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-148bc2a38d",
+  "stratum": "in_library"
+ },
+ "r-8f5ef9048498": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-ba397efdb1",
+  "stratum": "in_library"
+ },
+ "r-8fce80a070a5": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-5d67837dc3",
+  "stratum": "in_library"
+ },
+ "r-8fdbf55ad56a": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "https://ahca.myflorida.com/content/download/27070/file/59G-4.211%20Orthopedic%20Services%20Coverage%20Policy%20(1).pdf",
+  "case_id": "poc-ca1d31244e",
+  "stratum": "no_policy"
+ },
+ "r-90e53ab3550b": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-47f0c5aa4b",
+  "stratum": "no_policy"
+ },
+ "r-912d31b0eec7": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-55381bdbc3",
+  "stratum": "vendor_held"
+ },
+ "r-9192cfb3db82": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-c1ee0f5da7",
+  "stratum": "no_policy"
+ },
+ "r-9197339ce2f5": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www.provider.wellpoint.com/new-jersey-provider/resources/manuals-and-guides/medical-policies-and-clinical-guidelines",
+  "why": "does not name the denied code",
+  "case_id": "poc-e14e3a00bc",
+  "stratum": "in_library"
+ },
+ "r-91a9ab0626a3": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-0a9468429e",
+  "stratum": "in_library"
+ },
+ "r-921858261073": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-da651e8611",
+  "stratum": "in_library"
+ },
+ "r-9260be98dd03": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/ (landing page; PDF version at https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/07/Joint-Surgery-2025-11-15.pdf \u2014 this exact PDF link returned a 404 when tested and may need to be retrieved via the 'Link to PDF' button on the landing page)",
+  "why": "does not name the denied code",
+  "case_id": "poc-3a74c3e137",
+  "stratum": "in_library"
+ },
+ "r-92c1564cb12c": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-17b712a980",
+  "stratum": "in_library"
+ },
+ "r-92c63383eae6": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/small-joint-surgery-2025-11-15/  (PDF: https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/PDF-Small-Joint-Surgery-2025-11-15.pdf )",
+  "why": "does not name the denied code",
+  "case_id": "poc-64107d6ef7",
+  "stratum": "in_library"
+ },
+ "r-9310e90cb660": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-aaa1cf805a",
+  "stratum": "no_policy"
+ },
+ "r-93153536ca32": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-c3b5d8f398",
+  "stratum": "in_library"
+ },
+ "r-93786ce1b408": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "https://fallonhealth.org/en/providers/criteria-policies-guidelines/medical-policies.aspx",
+  "case_id": "poc-19ff75efc5",
+  "stratum": "no_policy"
+ },
+ "r-939cfd5a43c3": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-7908fd6832",
+  "stratum": "no_policy"
+ },
+ "r-9420bebe0266": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-cfa5b97de7",
+  "stratum": "in_library"
+ },
+ "r-94512eb8defa": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-08/EviCore_CMM-311%20Knee%20Replacement%20Arthroplasty_V2.0.2025_Eff11.05.2025_upd08.12.2025.pdf",
+  "why": "does not name the denied code",
+  "case_id": "poc-a5f6d22435",
+  "stratum": "in_library"
+ },
+ "r-948e8df04bf2": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-cdc085ab1f",
+  "stratum": "in_library"
+ },
+ "r-955bcb7e90bd": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-aa9ea32e7d",
+  "stratum": "vendor_held"
+ },
+ "r-95826f4d2ab3": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-ef30a43966",
+  "stratum": "in_library"
+ },
+ "r-95a6c5c27e43": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "https://www.turningpoint-healthcare.com/clinical-policies-guidelines",
+  "case_id": "poc-c29c7cfc4d",
+  "stratum": "no_policy"
+ },
+ "r-9656d99d3903": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-926bf4d7e4",
+  "stratum": "in_library"
+ },
+ "r-96f1671fe0a7": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-3e3f8049cd",
+  "stratum": "in_library"
+ },
+ "r-97368c06a208": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www.securityhealth.org/providers/medical-policies",
+  "why": "does not name the denied code",
+  "case_id": "poc-a5f6d22435",
+  "stratum": "in_library"
+ },
+ "r-9783dcc41685": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-41fe448bea",
+  "stratum": "in_library"
+ },
+ "r-978cc9cb4491": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-3469abe4fc",
+  "stratum": "vendor_held"
+ },
+ "r-979aeecc9616": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-a0c827a88a",
+  "stratum": "in_library"
+ },
+ "r-97ba43a9ee8b": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-29630aa1d9",
+  "stratum": "in_library"
+ },
+ "r-97bba100580c": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf (full guideline set, effective for the period covering this 2026-08-13 denial); companion plain-language summary: https://www1.radmd.com/sites/default/files/2024-02/2023%20Knee%20Arthroscopy%20Clin%20Tip%20Sheet%20Evolent%2002282024.pdf ; MVP's own confirmation that musculoskeletal surgery reviews (hip/knee/shoulder) are delegated to this Magellan/NIA/Evolent program: https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents-by-section/members/forms/individual-and-family/services-that-require-prior-authorization-a-guide-for-members.pdf",
+  "why": "does not name the denied code",
+  "case_id": "poc-5edc35c98d",
+  "stratum": "vendor_held"
+ },
+ "r-97db367d0438": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://provider.clearhealthalliance.com/dam/medpolicies/cha/active/guidelines/gl_pw_d080146.html",
+  "why": "does not name the denied code",
+  "case_id": "poc-e14e3a00bc",
+  "stratum": "in_library"
+ },
+ "r-97ddfef4a7cd": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-157f6efe74",
+  "stratum": "in_library"
+ },
+ "r-97f5d051a334": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-a0d25e0d66",
+  "stratum": "in_library"
+ },
+ "r-98407d1a4955": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-e288d08833",
+  "stratum": "no_policy"
+ },
+ "r-9856c641d3ba": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-b12ba21a5a",
+  "stratum": "no_policy"
+ },
+ "r-9859a0d16c19": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/id/spinal-fusion-decompression-id-cs.pdf",
+  "case_id": "poc-e288d08833",
+  "stratum": "no_policy"
+ },
+ "r-98b49f7f71c9": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-a755f8592e",
+  "stratum": "in_library"
+ },
+ "r-9905b622a8cf": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-e2aa78e9ec",
+  "stratum": "in_library"
+ },
+ "r-9955aab1309e": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-5edc35c98d",
+  "stratum": "vendor_held"
+ },
+ "r-99cf5939a9ab": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-13c871bb40",
+  "stratum": "in_library"
+ },
+ "r-9abc05bfd29d": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-8b473a1d50",
+  "stratum": "in_library"
+ },
+ "r-9abdc2d5f4ae": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-d89c6a76f0",
+  "stratum": "in_library"
+ },
+ "r-9ad26c24c605": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www.upmchealthplan.com/providers/medical/resources/manuals/policies-procedures",
+  "why": "does not name the denied code",
+  "case_id": "poc-39de00339b",
+  "stratum": "vendor_held"
+ },
+ "r-9b0ead3b37dc": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-19407106e9",
+  "stratum": "in_library"
+ },
+ "r-9b32e84a7192": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-bd05618334",
+  "stratum": "in_library"
+ },
+ "r-9b6fe54127c6": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www.bluecrossnc.com/providers/policies-guidelines-codes/commercial/surgery/updates/surgery-for-femoroacetabular-impingement",
+  "why": "does not name the denied code",
+  "case_id": "poc-d52dac7115",
+  "stratum": "in_library"
+ },
+ "r-9b725c75fe3d": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-87e365caed",
+  "stratum": "vendor_held"
+ },
+ "r-9ba9dc72b085": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-eed29f7594",
+  "stratum": "in_library"
+ },
+ "r-9bba6307c2a9": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-76f81e7c00",
+  "stratum": "no_policy"
+ },
+ "r-9bbb4b2e151e": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-a389519c6d",
+  "stratum": "in_library"
+ },
+ "r-9be51e6f6e22": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-c1ee0f5da7",
+  "stratum": "no_policy"
+ },
+ "r-9c0b526ff62a": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf  (index page: https://www1.radmd.com/solutions/musculoskeletal-surgery-solution)",
+  "why": "does not name the denied code",
+  "case_id": "poc-bdd7b46260",
+  "stratum": "in_library"
+ },
+ "r-9c419991e7c7": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-6a7fd5286d",
+  "stratum": "in_library"
+ },
+ "r-9ccfa6ff358d": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www.harvardpilgrim.org/public/prior-authorization-medical-review-criteria",
+  "why": "does not name the denied code",
+  "case_id": "poc-79a305e63c",
+  "stratum": "in_library"
+ },
+ "r-9cdaaeaa7f06": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-cdc085ab1f",
+  "stratum": "in_library"
+ },
+ "r-9d0edd403417": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-da7faa7db4",
+  "stratum": "in_library"
+ },
+ "r-9ddb9e82688a": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-da651e8611",
+  "stratum": "in_library"
+ },
+ "r-9de3f0601552": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/ks/surgery-shoulder-ks-cs.pdf",
+  "case_id": "poc-7321626800",
+  "stratum": "no_policy"
+ },
+ "r-9e45e9e8bcd4": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-503c0e1587",
+  "stratum": "in_library"
+ },
+ "r-a00e7b0303d3": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-1c51e72e1e",
+  "stratum": "in_library"
+ },
+ "r-a012183567a6": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-2fe0edcd1b",
+  "stratum": "in_library"
+ },
+ "r-a07d616b6e31": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-19ff75efc5",
+  "stratum": "no_policy"
+ },
+ "r-a0845bd78308": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-6e764dffe5",
+  "stratum": "in_library"
+ },
+ "r-a0b6f91911d6": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-d47f9a88cc",
+  "stratum": "in_library"
+ },
+ "r-a149c720ea10": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-698f4692ae",
+  "stratum": "in_library"
+ },
+ "r-a1e15015dfca": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-ef30a43966",
+  "stratum": "in_library"
+ },
+ "r-a1ec6f4a1074": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-f7c299c469",
+  "stratum": "in_library"
+ },
+ "r-a23775a0452c": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-bb2c61bc1b",
+  "stratum": "in_library"
+ },
+ "r-a28af59cc72f": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-0948834b99",
+  "stratum": "in_library"
+ },
+ "r-a2c86d7d2b68": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-6e16fad700",
+  "stratum": "in_library"
+ },
+ "r-a2f853a3e844": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-0b7f2515da",
+  "stratum": "no_policy"
+ },
+ "r-a34ce90acc08": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-d52dac7115",
+  "stratum": "in_library"
+ },
+ "r-a3657ce43bb5": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-fd00fecec4",
+  "stratum": "in_library"
+ },
+ "r-a391afe50d4d": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-9668ba39e4",
+  "stratum": "in_library"
+ },
+ "r-a43dabc52469": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/  (PDF: https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/PDF-Joint-Surgery-2025-11-15.pdf)",
+  "why": "does not name the denied code",
+  "case_id": "poc-d5b17e1a47",
+  "stratum": "in_library"
+ },
+ "r-a478823bbfb6": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/surgery-hip-cs.pdf",
+  "case_id": "poc-6722e0c945",
+  "stratum": "no_policy"
+ },
+ "r-a47f1067f354": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-f781755028",
+  "stratum": "in_library"
+ },
+ "r-a496fb89edac": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-1acf427871",
+  "stratum": "in_library"
+ },
+ "r-a4f640b546c0": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-3b4a598a17",
+  "stratum": "no_policy"
+ },
+ "r-a54b79027939": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf (current compendium, effective 7/1/2026\u20137/1/2027, containing the Lumbar Spine Surgery guideline); detailed lumbar-fusion criteria text was verified in the immediately prior edition posted by a sister Centene plan at https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/2/1884_LHCC_Lumbar_Spine_Surgery.pdf",
+  "why": "does not name the denied code",
+  "case_id": "poc-3a565c0679",
+  "stratum": "in_library"
+ },
+ "r-a55bd5f3d6a6": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-2fe0edcd1b",
+  "stratum": "in_library"
+ },
+ "r-a569cb687b8c": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-1c4d453f27",
+  "stratum": "vendor_held"
+ },
+ "r-a60d4a649c5f": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-3f7f71f65b",
+  "stratum": "in_library"
+ },
+ "r-a641ce5c454c": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-a93fe7e3b5",
+  "stratum": "in_library"
+ },
+ "r-a64a2592763b": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-c29c7cfc4d",
+  "stratum": "no_policy"
+ },
+ "r-a79bf6ef28bb": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-3ab18c211b",
+  "stratum": "no_policy"
+ },
+ "r-a7a3d6c2617f": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-29630aa1d9",
+  "stratum": "in_library"
+ },
+ "r-a81b0b8538db": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-332858b095",
+  "stratum": "in_library"
+ },
+ "r-a8b875f7267d": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-cd6af51965",
+  "stratum": "vendor_held"
+ },
+ "r-a8cfb31c03ce": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-58f5ca7616",
+  "stratum": "in_library"
+ },
+ "r-a923f543ebfe": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-d304be9399",
+  "stratum": "in_library"
+ },
+ "r-a9732d46c476": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-ee22487639",
+  "stratum": "in_library"
+ },
+ "r-aa348db982ce": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-5142e8878f",
+  "stratum": "in_library"
+ },
+ "r-aa9dc408ee99": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-c29c7cfc4d",
+  "stratum": "no_policy"
+ },
+ "r-aacdc5892163": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/PDF-Joint-Surgery-2025-11-15.pdf (landing page: https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/)",
+  "why": "does not name the denied code",
+  "case_id": "poc-148bc2a38d",
+  "stratum": "in_library"
+ },
+ "r-aacfc33a145a": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-ce2e11f72d",
+  "stratum": "in_library"
+ },
+ "r-aafbda10819a": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-007830134d",
+  "stratum": "no_policy"
+ },
+ "r-ab64d4ce9942": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-19ff75efc5",
+  "stratum": "no_policy"
+ },
+ "r-ab9fa52d069b": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-5d67837dc3",
+  "stratum": "in_library"
+ },
+ "r-aba2099977ff": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-a389519c6d",
+  "stratum": "in_library"
+ },
+ "r-abdaa8b82b09": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-7572d3c32f",
+  "stratum": "in_library"
+ },
+ "r-ac2bf965e4a1": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-148bc2a38d",
+  "stratum": "in_library"
+ },
+ "r-ac948ddec4fe": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-a0d25e0d66",
+  "stratum": "in_library"
+ },
+ "r-acb7ef6a02fe": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-5ba41ad17e",
+  "stratum": "in_library"
+ },
+ "r-acd63633c390": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-7572d3c32f",
+  "stratum": "in_library"
+ },
+ "r-acf493db3741": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www.medstarfamilychoicedc.com/providers/medical-policies-and-procedures",
+  "why": "does not name the denied code",
+  "case_id": "poc-92d596c7f2",
+  "stratum": "vendor_held"
+ },
+ "r-ad081acf5964": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-39de00339b",
+  "stratum": "vendor_held"
+ },
+ "r-ad6524a71804": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-157f6efe74",
+  "stratum": "in_library"
+ },
+ "r-adab9e111302": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-1c4d453f27",
+  "stratum": "vendor_held"
+ },
+ "r-ae7ad66eb71b": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-f65cac945b",
+  "stratum": "no_policy"
+ },
+ "r-aeb4681a87d1": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-6b4f896296",
+  "stratum": "in_library"
+ },
+ "r-aec5a27f46fd": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-e7809c09b9",
+  "stratum": "in_library"
+ },
+ "r-af120405eb8a": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-9992a0803a",
+  "stratum": "no_policy"
+ },
+ "r-af1c25e590e0": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-d89c6a76f0",
+  "stratum": "in_library"
+ },
+ "r-af2ac917dda4": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-ba397efdb1",
+  "stratum": "in_library"
+ },
+ "r-af43fba400a5": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/2/1889_LHCC_Shoulder_Arthroscopy.pdf (a current publicly posted copy of the Evolent national guideline; the same guideline also appears inside Evolent's combined 'Musculoskeletal Surgery Guidelines' compendium at https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf, effective July 1, 2026 \u2013 July 1, 2027, which is the version that would be in effect on the 2026-08-14 denial date)",
+  "why": "does not name the denied code",
+  "case_id": "poc-ddd103990c",
+  "stratum": "in_library"
+ },
+ "r-af6836bf145d": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-3f7f71f65b",
+  "stratum": "in_library"
+ },
+ "r-afc330adadab": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-8b473a1d50",
+  "stratum": "in_library"
+ },
+ "r-b012c9b18014": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-9dd444765e",
+  "stratum": "vendor_held"
+ },
+ "r-b07dd1439fe2": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-a5f6d22435",
+  "stratum": "in_library"
+ },
+ "r-b08f3aaaea55": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-4fae25deac",
+  "stratum": "in_library"
+ },
+ "r-b1350c128b5b": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/nm/surgery-hip-nm-cs.pdf",
+  "case_id": "poc-2a69b0b828",
+  "stratum": "no_policy"
+ },
+ "r-b365c7c5192d": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-7908fd6832",
+  "stratum": "no_policy"
+ },
+ "r-b37e9e34af17": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-65bd57974d",
+  "stratum": "in_library"
+ },
+ "r-b39d89022905": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-a43fe266ad",
+  "stratum": "in_library"
+ },
+ "r-b3a9ffb542cc": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+  "case_id": "poc-aaa1cf805a",
+  "stratum": "no_policy"
+ },
+ "r-b3b2a9a02312": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-8ad74ff769",
+  "stratum": "in_library"
+ },
+ "r-b3dc23c401ff": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-5585b8dee7",
+  "stratum": "in_library"
+ },
+ "r-b444696b5969": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-aa9ea32e7d",
+  "stratum": "vendor_held"
+ },
+ "r-b44c1be262dc": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-65bd57974d",
+  "stratum": "in_library"
+ },
+ "r-b4a0ff390793": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-df42beb029",
+  "stratum": "in_library"
+ },
+ "r-b4b21178aee1": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-6a6d9c61f2",
+  "stratum": "in_library"
+ },
+ "r-b4e5ce111c70": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-55381bdbc3",
+  "stratum": "vendor_held"
+ },
+ "r-b4ea402abd6f": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-bb2c61bc1b",
+  "stratum": "in_library"
+ },
+ "r-b5cd746b60da": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-7cd7d16b79",
+  "stratum": "in_library"
+ },
+ "r-b5ce720970d8": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-e8e7b452f1",
+  "stratum": "in_library"
+ },
+ "r-b68b7aad855a": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-17b712a980",
+  "stratum": "in_library"
+ },
+ "r-b726a77e13c8": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-9297e0e467",
+  "stratum": "vendor_held"
+ },
+ "r-b7577a5419f8": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-892f80bc2e",
+  "stratum": "in_library"
+ },
+ "r-b814c044073b": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-0a9468429e",
+  "stratum": "in_library"
+ },
+ "r-b8fa72704abf": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-c1ee0f5da7",
+  "stratum": "no_policy"
+ },
+ "r-b902de22abbd": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-87e365caed",
+  "stratum": "vendor_held"
+ },
+ "r-b96c97065942": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-570cd9f39b",
+  "stratum": "in_library"
+ },
+ "r-ba64939aa46f": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-bb2c61bc1b",
+  "stratum": "in_library"
+ },
+ "r-ba72c7cc4146": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www.iowatotalcare.com/providers/resources/clinical-payment-policies.html",
+  "why": "does not name the denied code",
+  "case_id": "poc-ef30a43966",
+  "stratum": "in_library"
+ },
+ "r-ba79ae97fa0a": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-b12ba21a5a",
+  "stratum": "no_policy"
+ },
+ "r-bab5b9c4b185": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-c3b5d8f398",
+  "stratum": "in_library"
+ },
+ "r-badb949ed2f2": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-e7809c09b9",
+  "stratum": "in_library"
+ },
+ "r-baeddd16a7f9": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-e84db56372",
+  "stratum": "in_library"
+ },
+ "r-bb244366fc8c": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-f781755028",
+  "stratum": "in_library"
+ },
+ "r-bb258659b0b7": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-5bc8a5312c",
+  "stratum": "in_library"
+ },
+ "r-bb70e87455ec": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-e7809c09b9",
+  "stratum": "in_library"
+ },
+ "r-bb71d68ccd3b": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-fb8e2ae06a",
+  "stratum": "in_library"
+ },
+ "r-bb7731d644ad": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-7572d3c32f",
+  "stratum": "in_library"
+ },
+ "r-bcde6d3e0591": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-d87a7955a7",
+  "stratum": "no_policy"
+ },
+ "r-bcf5b502a888": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-8ad74ff769",
+  "stratum": "in_library"
+ },
+ "r-bd7bb3579ddc": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-a389519c6d",
+  "stratum": "in_library"
+ },
+ "r-bde4a00b670d": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-0731be4a81",
+  "stratum": "in_library"
+ },
+ "r-bdfe0a80421e": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-c3b0db0f14",
+  "stratum": "in_library"
+ },
+ "r-bf23a5515829": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-99cc30886d",
+  "stratum": "in_library"
+ },
+ "r-bf29a846d750": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-007830134d",
+  "stratum": "no_policy"
+ },
+ "r-bf73b71e4d44": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-3469abe4fc",
+  "stratum": "vendor_held"
+ },
+ "r-c1c228035634": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-ca1d31244e",
+  "stratum": "no_policy"
+ },
+ "r-c23e7ca76242": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-acaa2d5bad",
+  "stratum": "in_library"
+ },
+ "r-c37fba267c69": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-64107d6ef7",
+  "stratum": "in_library"
+ },
+ "r-c41a54a9da66": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-9ab63cfcdf",
+  "stratum": "vendor_held"
+ },
+ "r-c446a70e330f": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-65bd57974d",
+  "stratum": "in_library"
+ },
+ "r-c5bdd09cfc8a": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-92d596c7f2",
+  "stratum": "vendor_held"
+ },
+ "r-c64021029a44": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-6e16fad700",
+  "stratum": "in_library"
+ },
+ "r-c719b1d7b0a4": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-c4bc2ebac7",
+  "stratum": "in_library"
+ },
+ "r-c761a2cefa46": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-bb2c61bc1b",
+  "stratum": "in_library"
+ },
+ "r-c79cd3fd6a6a": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-f4d8086686",
+  "stratum": "in_library"
+ },
+ "r-c7dd88c85518": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-c1ee0f5da7",
+  "stratum": "no_policy"
+ },
+ "r-c80903808203": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-7b726a30c1",
+  "stratum": "no_policy"
+ },
+ "r-c815b38aca03": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-5fadd4bbde",
+  "stratum": "in_library"
+ },
+ "r-c8449d833b65": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-f4d8086686",
+  "stratum": "in_library"
+ },
+ "r-c8a194a8ba0a": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-cd6af51965",
+  "stratum": "vendor_held"
+ },
+ "r-c8ce25658c6c": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-6e764dffe5",
+  "stratum": "in_library"
+ },
+ "r-c90e09e05835": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-b70a1741f9",
+  "stratum": "in_library"
+ },
+ "r-c915f6b84a2d": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-8ad74ff769",
+  "stratum": "in_library"
+ },
+ "r-c960a6733ede": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-6722e0c945",
+  "stratum": "no_policy"
+ },
+ "r-cad531d6371c": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-aa9ea32e7d",
+  "stratum": "vendor_held"
+ },
+ "r-cae3ec8aca31": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-757c3b7e16",
+  "stratum": "in_library"
+ },
+ "r-cae82bcee22a": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-4825aa1f8b",
+  "stratum": "in_library"
+ },
+ "r-caecbbf93847": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-cd20076a7a",
+  "stratum": "in_library"
+ },
+ "r-caf09502d75d": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-0a9468429e",
+  "stratum": "in_library"
+ },
+ "r-cb3ffa60785e": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://providers.bcidaho.com/medical-management/medical-policies/toc_7.page (Surgery medical policy index, confirmed no knee arthroplasty entry)",
+  "why": "does not name the denied code",
+  "case_id": "poc-bda4258628",
+  "stratum": "in_library"
+ },
+ "r-cbb117a3c949": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/ (this page links to the downloadable PDF of the full guideline)",
+  "why": "does not name the denied code",
+  "case_id": "poc-9f671e8f0e",
+  "stratum": "in_library"
+ },
+ "r-cbb7632efbb4": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-9992a0803a",
+  "stratum": "no_policy"
+ },
+ "r-cbd68ef17231": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-3469abe4fc",
+  "stratum": "vendor_held"
+ },
+ "r-cc8fb2b163f9": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-e6ef62d505",
+  "stratum": "vendor_held"
+ },
+ "r-ccca3fbb3de0": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/joint-surgery-2025-11-15/ (full PDF linked from that page)",
+  "why": "does not name the denied code",
+  "case_id": "poc-bd05618334",
+  "stratum": "in_library"
+ },
+ "r-cd96636fabed": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-f37f115fed",
+  "stratum": "in_library"
+ },
+ "r-cd9f7ec11448": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "N/A",
+  "case_id": "poc-b12ba21a5a",
+  "stratum": "no_policy"
+ },
+ "r-cda6075f60ca": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-a43fe266ad",
+  "stratum": "in_library"
+ },
+ "r-cdb6e9147a5d": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-40e31914e1",
+  "stratum": "in_library"
+ },
+ "r-ce50063c5a96": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-0b7f2515da",
+  "stratum": "no_policy"
+ },
+ "r-ce54c754cb75": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www.ibx.com/resources/for-providers/policies-and-guidelines/operations-management/medical-policy.html",
+  "why": "does not name the denied code",
+  "case_id": "poc-2fe0edcd1b",
+  "stratum": "in_library"
+ },
+ "r-ce5db702751c": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-5585b8dee7",
+  "stratum": "in_library"
+ },
+ "r-ce6255443539": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-a43fe266ad",
+  "stratum": "in_library"
+ },
+ "r-cf115aa2dac2": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-a0c827a88a",
+  "stratum": "in_library"
+ },
+ "r-cf31afaa8cc5": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-0fffc72471",
+  "stratum": "in_library"
+ },
+ "r-cf51470d6d39": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-7908fd6832",
+  "stratum": "no_policy"
+ },
+ "r-cf6a5ad6eae6": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-1f29ac6c03",
+  "stratum": "in_library"
+ },
+ "r-d0426cdd3e8e": {
+  "outcome": "cited_unreadable",
+  "correct": false,
+  "claimed_url": "https://www.point32health.org/provider/medical-necessity-guidelines",
+  "why": "thin_200_response:0_text_chars_of_43001_bytes",
+  "case_id": "poc-9668ba39e4",
+  "stratum": "in_library"
+ },
+ "r-d0decdf7f47e": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-ef30a43966",
+  "stratum": "in_library"
+ },
+ "r-d10e3680f9bb": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-9992a0803a",
+  "stratum": "no_policy"
+ },
+ "r-d2659fa9d3f7": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-0fffc72471",
+  "stratum": "in_library"
+ },
+ "r-d2901f32dc1f": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-3469abe4fc",
+  "stratum": "vendor_held"
+ },
+ "r-d3c4ea11e8dc": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-b12ba21a5a",
+  "stratum": "no_policy"
+ },
+ "r-d41eda338a8a": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-e2aa78e9ec",
+  "stratum": "in_library"
+ },
+ "r-d445ff5da1a9": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://provider.healthybluela.com/louisiana-provider/medical-policies-and-clinical-guidelines-full-list",
+  "why": "does not name the denied code",
+  "case_id": "poc-7cd7d16b79",
+  "stratum": "in_library"
+ },
+ "r-d465677d19d1": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-58f5ca7616",
+  "stratum": "in_library"
+ },
+ "r-d46878fe22db": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-6a7fd5286d",
+  "stratum": "in_library"
+ },
+ "r-d5780d59de22": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf (public 2026 edition, effective 7/1/2026\u20137/1/2027, hosted on Evolent's RadMD site, which is the portal Tufts Health Plan directs providers to for joint-surgery authorizations); a fuller extract of the Shoulder Arthroscopy section text (same guideline number, prior annual edition) is publicly mirrored at https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/2/1889_LHCC_Shoulder_Arthroscopy.pdf",
+  "why": "does not name the denied code",
+  "case_id": "poc-e8e7b452f1",
+  "stratum": "in_library"
+ },
+ "r-d5c2fc1b090f": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-39de00339b",
+  "stratum": "vendor_held"
+ },
+ "r-d668f35f0d5e": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-f4d8086686",
+  "stratum": "in_library"
+ },
+ "r-d7be7a61ad4f": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-5ba41ad17e",
+  "stratum": "in_library"
+ },
+ "r-d7d0e05d465a": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-df42beb029",
+  "stratum": "in_library"
+ },
+ "r-d815aa15df3b": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-d87a7955a7",
+  "stratum": "no_policy"
+ },
+ "r-d835e22b9fab": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-2a69b0b828",
+  "stratum": "no_policy"
+ },
+ "r-d8781498fda2": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-f37f115fed",
+  "stratum": "in_library"
+ },
+ "r-d8f480daf233": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-5ba41ad17e",
+  "stratum": "in_library"
+ },
+ "r-d9692c0597ff": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-64107d6ef7",
+  "stratum": "in_library"
+ },
+ "r-d9e9146359e8": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-007830134d",
+  "stratum": "no_policy"
+ },
+ "r-da2f43d4dde8": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-9391f374e1",
+  "stratum": "in_library"
+ },
+ "r-da2f90463716": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://cms.radmd.com/sites/default/files/2025-01/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf (and the 2026 edition, effective at the time of this denial, at https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf); a state-Medicaid-published mirror of the identical guideline text is at https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/1880_LHCC_Hip_Arthroplasty.pdf",
+  "why": "does not name the denied code",
+  "case_id": "poc-e71c638d4f",
+  "stratum": "in_library"
+ },
+ "r-da39d30b13f1": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-da7faa7db4",
+  "stratum": "in_library"
+ },
+ "r-da94b8be2be5": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www.ambetterhealth.com/en/ga/provider-resources/clinical-payment-policies/",
+  "why": "does not name the denied code",
+  "case_id": "poc-a0d25e0d66",
+  "stratum": "in_library"
+ },
+ "r-da997de88055": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-64107d6ef7",
+  "stratum": "in_library"
+ },
+ "r-daa307986486": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-321500d934",
+  "stratum": "no_policy"
+ },
+ "r-db38d1bc6d2d": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-4e415360fe",
+  "stratum": "in_library"
+ },
+ "r-dbbc609ca490": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-eed29f7594",
+  "stratum": "in_library"
+ },
+ "r-dc51df463373": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-8e86334152",
+  "stratum": "in_library"
+ },
+ "r-dd1e51e83049": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-5767d9118e",
+  "stratum": "vendor_held"
+ },
+ "r-dd4ddb90bfc6": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-ce2e11f72d",
+  "stratum": "in_library"
+ },
+ "r-ddc55460373b": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www1.radmd.com/sites/default/files/2025-01/2025%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf (Fidelis Care's Evolent/NIA delegation confirmed at https://www.fideliscare.org/Portals/0/Providers/ProviderManuals/FidelisCare-ProviderManual-QHPEP.pdf and https://www.fideliscare.org/Portals/0/Providers/AuthorizationGrids/Musculoskeletal-Surgery-HKS-Matrix-2025.pdf)",
+  "why": "does not name the denied code",
+  "case_id": "poc-1acf427871",
+  "stratum": "in_library"
+ },
+ "r-ddcaa5f18035": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-332858b095",
+  "stratum": "in_library"
+ },
+ "r-ddfeb26cb8e1": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf (current compendium containing the Knee Arthroscopy section); companion coding/scope reference: https://www1.radmd.com/sites/default/files/2024-12/Harvard%20HKS%20Matrix%202025.pdf; provider-facing summary: https://www1.radmd.com/sites/default/files/2024-02/2023%20Knee%20Arthroscopy%20Clin%20Tip%20Sheet%20Evolent%2002282024.pdf; program description: https://www.point32health.org/provider/evolent-formerly-national-imaging-associates",
+  "why": "does not name the denied code",
+  "case_id": "poc-9668ba39e4",
+  "stratum": "in_library"
+ },
+ "r-de33a511b650": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-37f3aa304d",
+  "stratum": "in_library"
+ },
+ "r-de48ecddc214": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-acaa2d5bad",
+  "stratum": "in_library"
+ },
+ "r-deb901044d35": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-e7809c09b9",
+  "stratum": "in_library"
+ },
+ "r-df634392e614": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-9668ba39e4",
+  "stratum": "in_library"
+ },
+ "r-df77e3dbdfa2": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-cfa5b97de7",
+  "stratum": "in_library"
+ },
+ "r-e04ad3c614ac": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-926bf4d7e4",
+  "stratum": "in_library"
+ },
+ "r-e0931eb49f01": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-41fe448bea",
+  "stratum": "in_library"
+ },
+ "r-e0de1824e387": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-8ee886247d",
+  "stratum": "in_library"
+ },
+ "r-e0f01425063c": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-0731be4a81",
+  "stratum": "in_library"
+ },
+ "r-e106d34956f2": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-5d5b151de3",
+  "stratum": "no_policy"
+ },
+ "r-e11f1b5cbd4f": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-9ab63cfcdf",
+  "stratum": "vendor_held"
+ },
+ "r-e1924f4bfb39": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-503c0e1587",
+  "stratum": "in_library"
+ },
+ "r-e1c5c1b5fea9": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-d47f9a88cc",
+  "stratum": "in_library"
+ },
+ "r-e2427ba8f4f2": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-1c51e72e1e",
+  "stratum": "in_library"
+ },
+ "r-e269c933b659": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-7cd7d16b79",
+  "stratum": "in_library"
+ },
+ "r-e2d931ccf948": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-b7c7b913dc",
+  "stratum": "vendor_held"
+ },
+ "r-e32fad1c60b1": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-b70a1741f9",
+  "stratum": "in_library"
+ },
+ "r-e3475b2aa7a5": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-4825aa1f8b",
+  "stratum": "in_library"
+ },
+ "r-e41d5df9a651": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-fb8e2ae06a",
+  "stratum": "in_library"
+ },
+ "r-e447164de3b3": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-7572d3c32f",
+  "stratum": "in_library"
+ },
+ "r-e44c35bcfba8": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-f781755028",
+  "stratum": "in_library"
+ },
+ "r-e4a414b15dc8": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-757c3b7e16",
+  "stratum": "in_library"
+ },
+ "r-e4a9b0816524": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-92d596c7f2",
+  "stratum": "vendor_held"
+ },
+ "r-e51d8d87736c": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-cdc085ab1f",
+  "stratum": "in_library"
+ },
+ "r-e6d7b6dd2f35": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-e288d08833",
+  "stratum": "no_policy"
+ },
+ "r-e714a7540205": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-007830134d",
+  "stratum": "no_policy"
+ },
+ "r-e792889b0d5c": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-177b09d7a6",
+  "stratum": "vendor_held"
+ },
+ "r-e7e465ba5047": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-8b473a1d50",
+  "stratum": "in_library"
+ },
+ "r-e7e69f325154": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-a389519c6d",
+  "stratum": "in_library"
+ },
+ "r-e810e286d22e": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-6722e0c945",
+  "stratum": "no_policy"
+ },
+ "r-e8402efad683": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-f781755028",
+  "stratum": "in_library"
+ },
+ "r-e86d6df0c22b": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-4e415360fe",
+  "stratum": "in_library"
+ },
+ "r-e931c37bd44f": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-1c4d453f27",
+  "stratum": "vendor_held"
+ },
+ "r-e949a600fb71": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www.provider.wellpoint.com/new-jersey-provider/resources/manuals-and-guides/medical-policies-and-clinical-guidelines",
+  "why": "does not name the denied code",
+  "case_id": "poc-d5b17e1a47",
+  "stratum": "in_library"
+ },
+ "r-ea063ee904c1": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-fd00fecec4",
+  "stratum": "in_library"
+ },
+ "r-eaa3de730d66": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-157f6efe74",
+  "stratum": "in_library"
+ },
+ "r-eabc83897e69": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-bdd7b46260",
+  "stratum": "in_library"
+ },
+ "r-eacdb1f75272": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-17b712a980",
+  "stratum": "in_library"
+ },
+ "r-eb1f31fa21b3": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-332858b095",
+  "stratum": "in_library"
+ },
+ "r-ebb2451081f6": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-cbb1679293",
+  "stratum": "in_library"
+ },
+ "r-ebd2d0633bd5": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-f628c11122",
+  "stratum": "in_library"
+ },
+ "r-ece0ea73042c": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-0948c5760b",
+  "stratum": "vendor_held"
+ },
+ "r-ecea9b901373": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-5edc35c98d",
+  "stratum": "vendor_held"
+ },
+ "r-ed0e9bfa55d4": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-df42beb029",
+  "stratum": "in_library"
+ },
+ "r-ed1e8e6d84e2": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-f4d8086686",
+  "stratum": "in_library"
+ },
+ "r-ed86855269a9": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-d89c6a76f0",
+  "stratum": "in_library"
+ },
+ "r-ede7576560a1": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-f628c11122",
+  "stratum": "in_library"
+ },
+ "r-ee1f5833cd4b": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-972f74519c",
+  "stratum": "in_library"
+ },
+ "r-efcf8799b039": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-ee22487639",
+  "stratum": "in_library"
+ },
+ "r-f0a9d641d419": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-0b7f2515da",
+  "stratum": "no_policy"
+ },
+ "r-f0c654012c90": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-29630aa1d9",
+  "stratum": "in_library"
+ },
+ "r-f118fa26ed34": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-aa9ea32e7d",
+  "stratum": "vendor_held"
+ },
+ "r-f186846d90e9": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/surgery-hip-cs.pdf",
+  "case_id": "poc-6722e0c945",
+  "stratum": "no_policy"
+ },
+ "r-f1d9d830f85d": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-79a305e63c",
+  "stratum": "in_library"
+ },
+ "r-f261acddf98f": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-2fe0edcd1b",
+  "stratum": "in_library"
+ },
+ "r-f32293372403": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-3f7f71f65b",
+  "stratum": "in_library"
+ },
+ "r-f3361f345dcb": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-0948c5760b",
+  "stratum": "vendor_held"
+ },
+ "r-f35c934da2d9": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-6a7fd5286d",
+  "stratum": "in_library"
+ },
+ "r-f3b91704a9ef": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-d47f9a88cc",
+  "stratum": "in_library"
+ },
+ "r-f56db8445273": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-148bc2a38d",
+  "stratum": "in_library"
+ },
+ "r-f5a500df8641": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-503c0e1587",
+  "stratum": "in_library"
+ },
+ "r-f5f890805dc0": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-6b51d0a6aa",
+  "stratum": "in_library"
+ },
+ "r-f5f8c8351fb5": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "https://www.caresource.com/documents/wi-exc-p-3330502_turningpoint-common-ground-provider-network-notification.pdf",
+  "case_id": "poc-0b7f2515da",
+  "stratum": "no_policy"
+ },
+ "r-f61eff587d09": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-da7faa7db4",
+  "stratum": "in_library"
+ },
+ "r-f64222541dfc": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-d52dac7115",
+  "stratum": "in_library"
+ },
+ "r-f64f2eec03e9": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-e84db56372",
+  "stratum": "in_library"
+ },
+ "r-f7ade7a4ffb5": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-570cd9f39b",
+  "stratum": "in_library"
+ },
+ "r-f8462d171385": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://providers.bcidaho.com/medical-management/medical-policies/medical-policies.page",
+  "why": "does not name the denied code",
+  "case_id": "poc-bda4258628",
+  "stratum": "in_library"
+ },
+ "r-f878a2360f89": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "https://regs.maryland.gov/us/md/exec/comar/10.09.92.01",
+  "case_id": "poc-3ab18c211b",
+  "stratum": "no_policy"
+ },
+ "r-f89ad48c4b6c": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-9992a0803a",
+  "stratum": "no_policy"
+ },
+ "r-f8bb135be004": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/PDF-Spine-Surgery-2025-11-15.pdf (current listing page: https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15-updated-2026-01-01/)",
+  "why": "does not name the denied code",
+  "case_id": "poc-0a9468429e",
+  "stratum": "in_library"
+ },
+ "r-f8e07287f26d": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "names the code and states criteria",
+  "case_id": "poc-fd00fecec4",
+  "stratum": "in_library"
+ },
+ "r-f9502cbfcea1": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-5142e8878f",
+  "stratum": "in_library"
+ },
+ "r-fafd368c487c": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-b7c7b913dc",
+  "stratum": "vendor_held"
+ },
+ "r-fb62d2873a20": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-0fffc72471",
+  "stratum": "in_library"
+ },
+ "r-fb6a4d5cdc64": {
+  "outcome": "no_answer",
+  "correct": false,
+  "case_id": "poc-92d596c7f2",
+  "stratum": "vendor_held"
+ },
+ "r-fb80a5fd16f9": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-9992a0803a",
+  "stratum": "no_policy"
+ },
+ "r-fbd67c5f6b86": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-f7c299c469",
+  "stratum": "in_library"
+ },
+ "r-fbfc11999834": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-0731be4a81",
+  "stratum": "in_library"
+ },
+ "r-fc3c6d9f70ed": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-892f80bc2e",
+  "stratum": "in_library"
+ },
+ "r-fc96d4d790cd": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-55381bdbc3",
+  "stratum": "vendor_held"
+ },
+ "r-fcd51354e177": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-3469abe4fc",
+  "stratum": "vendor_held"
+ },
+ "r-fd8f770c3f50": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
+  "case_id": "poc-8ad74ff769",
+  "stratum": "in_library"
+ },
+ "r-fddd11d05dc0": {
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "https://www1.radmd.com/sites/default/files/2024-02/2023%20Knee%20Arthroscopy%20Clin%20Tip%20Sheet%20Evolent%2002282024.pdf (public Clinical Tip Sheet quoting the ACL criteria); full guideline text available via https://www1.radmd.com/solutions/musculoskeletal-surgery-solution ('2025 Musculoskeletal Surgery Guidelines') but requires RadMD login for the complete current document; a materially similar full-text version (same general-requirements language, verbatim in places) is publicly posted by a state Medicaid program at https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/2/1885_LHCC_Knee_Arthroscopy.pdf",
+  "case_id": "poc-5d5b151de3",
+  "stratum": "no_policy"
+ },
+ "r-fe51b5672fce": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-503c0e1587",
+  "stratum": "in_library"
+ },
+ "r-fed367ee6e3b": {
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www.bcbsnc.com/providers/policies-guidelines-codes/medical-policies",
+  "why": "does not name the denied code",
+  "case_id": "poc-ba397efdb1",
+  "stratum": "in_library"
+ },
+ "r-ff269b152041": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-a1f3d3c000",
+  "stratum": "in_library"
+ },
+ "r-ffdbbf4689f2": {
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same url",
+  "case_id": "poc-ce2e11f72d",
+  "stratum": "in_library"
+ },
+ "r-fff707b17eed": {
+  "outcome": "correct",
+  "correct": true,
+  "case_id": "poc-16827cff67",
+  "stratum": "no_policy"
+ }
+}

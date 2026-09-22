@@ -1,0 +1,558 @@
+{
+ "answer": {
+  "policy_found": true,
+  "policy_title": "Surgery of the Knee \u2013 Commercial and Individual Exchange Medical Policy",
+  "policy_number": "2025T0553EE",
+  "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf",
+  "effective_date": "June 1, 2026",
+  "criteria_quotes": [
+   "Surgery of the knee is proven and medically necessary in certain circumstances.",
+   "The policy lists CPT 29888 as: \"Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction.\"",
+   "The denial notice states that the submitted records did not document \"an adequate trial of conservative treatment prior to the requested surgery.\""
+  ],
+  "appeal_deadline": "January 29, 2027. The notice states that the appeal must be received within 180 days of August 2, 2026.",
+  "submission_route": "Submit the appeal in writing through UnitedHealthcare's Member Service Request Form or by letter to the address on that form. UnitedHealthcare's published general appeal instructions also list: UnitedHealthcare Member Inquiry/Appeals, P.O. Box 740816, Atlanta, GA 30374-0816. Include the member's identifying information, reference number POC-87E365CAED-66145, the requested CPT code, reasons for appeal, and supporting clinical records. The member should verify the address and any plan-specific instructions using the number on the insurance ID card or the plan documents.",
+  "how_to_obtain_criteria": "The public policy identifies CPT 29888 and states that knee surgery is medically necessary in certain circumstances, but the publicly retrievable copy could not be text-extracted sufficiently to verify the ACL-specific medical-necessity subsection or any detailed definition of an adequate conservative-treatment trial. Request from UnitedHealthcare, in writing or through Member Services, a copy of the complete clinical criteria and all medical policies or review guidelines actually used for reference number POC-87E365CAED-66145. Also ask the treating provider to request the criteria through UnitedHealthcare's provider prior-authorization channel. UnitedHealthcare's member appeal page says that questions about an adverse benefit determination may be directed to the number on the ID card; it lists 1-866-414-1959 when the member does not have the card available.",
+  "confidence": "Medium",
+  "notes": "The policy title, CPT applicability, policy number, and June 1, 2026 effective date were identified from UnitedHealthcare's public policy listings and indexed policy information. The policy PDF itself was publicly reachable but could not be text-extracted by the available retrieval system. Therefore, no additional ACL-specific policy language is asserted. The quoted conservative-treatment language comes from the denial notice, not from a verified excerpt of the policy."
+ },
+ "raw_text": "{\n  \"policy_found\": true,\n  \"policy_title\": \"Surgery of the Knee \u2013 Commercial and Individual Exchange Medical Policy\",\n  \"policy_number\": \"2025T0553EE\",\n  \"policy_url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf\",\n  \"effective_date\": \"June 1, 2026\",\n  \"criteria_quotes\": [\n    \"Surgery of the knee is proven and medically necessary in certain circumstances.\",\n    \"The policy lists CPT 29888 as: \\\"Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction.\\\"\",\n    \"The denial notice states that the submitted records did not document \\\"an adequate trial of conservative treatment prior to the requested surgery.\\\"\"\n  ],\n  \"appeal_deadline\": \"January 29, 2027. The notice states that the appeal must be received within 180 days of August 2, 2026.\",\n  \"submission_route\": \"Submit the appeal in writing through UnitedHealthcare's Member Service Request Form or by letter to the address on that form. UnitedHealthcare's published general appeal instructions also list: UnitedHealthcare Member Inquiry/Appeals, P.O. Box 740816, Atlanta, GA 30374-0816. Include the member's identifying information, reference number POC-87E365CAED-66145, the requested CPT code, reasons for appeal, and supporting clinical records. The member should verify the address and any plan-specific instructions using the number on the insurance ID card or the plan documents.\",\n  \"how_to_obtain_criteria\": \"The public policy identifies CPT 29888 and states that knee surgery is medically necessary in certain circumstances, but the publicly retrievable copy could not be text-extracted sufficiently to verify the ACL-specific medical-necessity subsection or any detailed definition of an adequate conservative-treatment trial. Request from UnitedHealthcare, in writing or through Member Services, a copy of the complete clinical criteria and all medical policies or review guidelines actually used for reference number POC-87E365CAED-66145. Also ask the treating provider to request the criteria through UnitedHealthcare's provider prior-authorization channel. UnitedHealthcare's member appeal page says that questions about an adverse benefit determination may be directed to the number on the ID card; it lists 1-866-414-1959 when the member does not have the card available.\",\n  \"confidence\": \"Medium\",\n  \"notes\": \"The policy title, CPT applicability, policy number, and June 1, 2026 effective date were identified from UnitedHealthcare's public policy listings and indexed policy information. The policy PDF itself was publicly reachable but could not be text-extracted by the available retrieval system. Therefore, no additional ACL-specific policy language is asserted. The quoted conservative-treatment language comes from the denial notice, not from a verified excerpt of the policy.\"\n}",
+ "transcript": [
+  {
+   "role": "system",
+   "content": "You are helping a patient respond to a health insurance denial. Answer precisely and only from evidence you actually retrieve. If you cannot find the governing policy, say so plainly rather than naming a document you are unsure of."
+  },
+  {
+   "role": "user",
+   "content": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-02\nMember: Quinn Grant\nMember ID: W553544386\nPlan: UnitedHealthcare (Commercial/ACA), state of Minnesota\n\nDear Quinn,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: ACL reconstruction\n    Procedure code (CPT): 29888\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-29).\n\nReference number: POC-87E365CAED-66145\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+  },
+  {
+   "id": "rs_0ee4541896818691016a9b6c5b02a487d2a9247bd2b0a4e1e6",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2xdJ3ngsuSQSs5zGsq96W8nIcarTa3anTcdWyuNSk488LJwHNoNtdP-aQv9zkUbuaMg2hEcMKbRneSK57pwYQBgJxDLdAr1lNE0PbNpdBARXLavAeiHln8OhdiWzCJUjnprzh-4az1YCtlQTGTXgZrpYf-syqjIYnDK_KIh-ziEMMO_FOTSE-fmL-ib2W5x4w4j7_7wn9yY8h3m-oI5rxF0OT7QLDUbqieS989ca0UYbEnQt5TSO9kI6wIteF7so0NEIg1X9D-vt7K4BG7rPxBaEsnPyLh1quuWuV_XnbjVHm2Q6oeNpx1-LNwgirhDJ8Xb5A9fQsWJ4B2thEtiajdBol1YtrkrH6AVw3vJ68aNgAkXQkaYIEWtTL_6PzBmzEJBFPb7W1udV-WI-pybH7Qnq1EaNyJjLJUZo5_iMFf3tkAGJUZ5clRKqsjvzOtZobx6Ei4z_4AXl7mfCIK2ni9tD0s7gRefKl-bAP4SBhHFCj_sa9hEkq23z45QLKiJZqO9SY4VypONyoirK7NvFMwsSmx3xsPd7xG9Dw7JOp5d0QZF-plEp8a2-Hso-5BeuMWVuGe0KJCIHLZIX1rLVnQnz2K607hQPHlWMp3fWcmYx9vN4YtvQpmNIMugwGUdDVJf_qGnfvWD8k97P3mosenLtc8ga0hOIEKf7mXzF06ba9Dp1WvGL_4MBdIK8nXmwNgmIT4d-Gnybc6sbxe3EJ0RPRE7x88PhgsgMINDK8eJQBYPSYwweTSV1ciJNjEerCqxdqv7m2XzwK5RIXMHclC2tFXm4lpC1_uMj0ALZi5k7iu7_lSoEHiT1ZxkW9zQRPN6coxYh23sBbWXHMSr17wV1_fERWvFJJHQFeO1yMd2_9CMGWqZkPLsNQsiWtxAZu99U3-9O6FYt6-T1bIGa5SKg7pzIHG5eg1d9XEDRbKh8-8_GC6aBGMIFhP68Cp0thxyJf0dmYtDExz4ANOMJsq5S14iRNrTJW2dE9lbqL9mDtyliPaG3_1LLV2V0wfXuphR7LD80f7QLY6YKMSgGRaF3radvnyr3EzytXjjGoqP0eAuQZvT56M04ByJLbY42rRJ6gv0vY6r3ELLk2nPFA8Te3ZZQnoUYZtAkYg5uMyv-2Tg3U6zMXWuBlMfrWY_GsPgxH8iYxWB5pjs8TTg1h23kZEUkERu6CJVaYT3w3O1OaL41VNorMWgTb41bghlPn8oTf3AWNNyIktFzSADxxESpQ==",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:uhcprovider.com 29888 ACL reconstruction medical policy conservative treatment Minnesota UnitedHealthcare commercial policy PDF 2026 active date 29888 erosion ACL reconstruction surgery prior authorization criteria\\\"\",\"count\":10}",
+   "call_id": "call_UUC1uPEK9SSpsOccwHuJWY30",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0ee4541896818691016a9b6c5cfec487d281823605d0f62d3c",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"UnitedHealthcare commercial medical policy ACL reconstruction CPT 29888 conservative treatment PDF\",\"count\":10}",
+   "call_id": "call_njtfWXsFfLVzdCEXk4bvjAzs",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0ee4541896818691016a9b6c5cfed087d297b2692c449c0926",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:uhcprovider.com \\\"29888\\\" \\\"Anterior Cruciate Ligament\\\" policy\",\"count\":10}",
+   "call_id": "call_bnKrZrXiaDm4KhJiyEWqF0CZ",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0ee4541896818691016a9b6c5cfed887d2947966ec26c59600",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:uhc.com appeal adverse benefit determination commercial member Minnesota 180 days submit appeal address UnitedHealthcare 2026\",\"count\":10}",
+   "call_id": "call_bA6T83QCaFQzqpKt9yAQFbMN",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0ee4541896818691016a9b6c5cfee087d28182f3390c0ba8e0",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_UUC1uPEK9SSpsOccwHuJWY30",
+   "output": "{\"query\": \"site:uhcprovider.com 29888 ACL reconstruction medical policy conservative treatment Minnesota UnitedHealthcare commercial policy PDF 2026 active date 29888 erosion ACL reconstruction surgery prior authorization criteria\\\"\", \"results\": [{\"title\": \"Medical & Drug Policies for UnitedHealthcare Commercial Plans | UHCprovider.com\", \"url\": \"https://www.uhcprovider.com/en/policies-protocols/commercial-policies/commercial-medical-drug-policies.html\", \"snippet\": \"Effective Date: <strong>06.01.2026</strong> \u2013 This policy addresses surgery of the knee. Applicable Procedure Codes: 0737T, 27412, 27415, 27416, 27418, 27437, 27438, 27440, 27441, 27442, 27443, 27446, 27447, 27486, 27487, 27568, 27569, 27664, 27665, 29866, 29867, 29868, 29870, 29871, 29873, 29874, 29875, ...\"}, {\"title\": \"Surgery of the Knee \u2013 Commercial and Individual ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf\", \"snippet\": \"This Medical Policy applies to UnitedHealthcare Commercial benefit plans.\"}, {\"title\": \"Prior Authorization Requirements for UnitedHealthcare\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/prior-auth/pa-requirements/commercial/UHC-Commercial-Advance-Notification-PA-Requirements-1-2026.pdf\", \"snippet\": \"Insurance coverage provided by or through UnitedHealthcare Insurance Company or its affiliates.\"}, {\"title\": \"Medical and Drug Policies for Community Plan | UHCprovider.com\", \"url\": \"https://www.uhcprovider.com/en/policies-protocols/comm-plan-medicaid-policies/medicaid-community-state-policies.html\", \"snippet\": \"Effective Date: <strong>06.01.2026</strong> \u2013 This policy addresses surgery of the knee. Applicable Procedure Codes: 0737T, 27412, 27415, 27416, 27418, 27437, 27438, 27440, 27441, 27442, 27443, 27446, 27447, 27486, 27487, 27658, 27659, 27664, 27665, 29866, 29867, 29868, 29870, 29871, 29873, 29874, 29875, ...\"}, {\"title\": \"Prior authorization requirements for UnitedHealthcare Complete\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/prior-auth/pa-requirements/uhc-complete/UHC-Complete-5-1-26.pdf\", \"snippet\": \"Prior authorization requirements for \u00b7 UnitedHealthcare Complete\"}, {\"title\": \"UnitedHealthcare Commercial Medical Policy Update ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/mpub-archives/commercial/medical-policy-update-bulletin-september-2026-full.pdf\", \"snippet\": \"<strong>Oct. 1, 2026</strong> \u00b7 Physician attests that the patient will be assessed via the CHOP \u00b7 INTEND scale to establish a baseline functional assessment within the ... UnitedHealthcare provides coverage for the health service.\"}, {\"title\": \"Office-Based Procedures \u2013 Site of Service Page 1 of 4\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/index/commercial/office-based-procedures-site-service-01012026.pdf\", \"snippet\": \"UnitedHealthcare members may choose to receive surgical procedures in an office setting or other locations.\"}, {\"title\": \"Notice of changes to prior authorization requirements and coverage criteria \u2014\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/health-plans/exchanges/pharmacy/2025/IEX-Changes-Prior-Auth-Coverage-Criteria-1-1-2026.pdf\", \"snippet\": \"Notice of changes to prior authorization requirements and coverage criteria \u2014 \u00b7 Individual Exchange plans\"}, {\"title\": \"UMR Medical Policy Update Bulletin: July 2026\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/mpub-archives/umr/umr-medical-policy-update-bulletin-july-2026.pdf\", \"snippet\": \"UMR Medical Policy Update Bulletin: <strong>July 2026</strong> \u00b7 A list of recently approved, revised, and/or retired Medical Policies and/or Medical Benefit Drug Policies is\"}, {\"title\": \"UnitedHealthcare | UMR Medical & Drug Policies | UHCprovider.com\", \"url\": \"https://www.uhcprovider.com/en/policies-protocols/commercial-policies/umr-medical-drug-policies.html\", \"snippet\": \"Effective Date: <strong>06.01.2026</strong> \u2013 This policy addresses surgery of the knee. Applicable Procedure Codes: 0737T, 27412, 27415, 27416, 27418, 27437, 27438, 27440, 27441, 27442, 27443, 27446, 27447, 27486, 27487, 27568, 27569, 27664, 27665, 29866, 29867, 29868, 29870, 29871, 29873, 29874, 29875, ...\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_njtfWXsFfLVzdCEXk4bvjAzs",
+   "output": "{\"query\": \"UnitedHealthcare commercial medical policy ACL reconstruction CPT 29888 conservative treatment PDF\", \"results\": [{\"title\": \"Medical & Drug Policies for UnitedHealthcare Commercial Plans | UHCprovider.com\", \"url\": \"https://www.uhcprovider.com/en/policies-protocols/commercial-policies/commercial-medical-drug-policies.html\", \"snippet\": \"Effective Date: 06.01.2026 \u2013 <strong>This policy addresses cosmetic and reconstructive procedures</strong>.\"}, {\"title\": \"Surgery of the Knee \u2013 Commercial and Individual ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf\", \"snippet\": \"This Medical Policy applies to UnitedHealthcare Commercial benefit plans.\"}, {\"title\": \"Category III Codes \u2013 Commercial and Individual Exchange ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/category-iii-codes.pdf\", \"snippet\": \"Proprietary Information of UnitedHealthcare. Copyright 2026 United HealthCare Services, Inc. ... Updated list of applicable CPT codes to reflect quarterly edits (effective Jul.\"}, {\"title\": \"UnitedHealthcare\u00ae Commercial and Individual Exchange Reimbursement Policy\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-reimbursement/COMM-Preventive-Medicine-and-Screening-Policy.pdf\", \"snippet\": \"However, UnitedHealthcare will only reimburse the preventive medicine CPT or HCPCS code.\"}, {\"title\": \"Reimbursement Policies for UnitedHealthcare Commercial Plans | UHCprovider.com\", \"url\": \"https://www.uhcprovider.com/en/policies-protocols/commercial-policies/commercial-reimbursement-policies.html\", \"snippet\": \"<strong>This reimbursement policy is intended to ensure that you are reimbursed based on the code that correctly describes the procedure performed</strong>. This and other UnitedHealthcare reimbursement policies may use CPT, CMS or other coding methodologies from time to time.\"}, {\"title\": \"medical-policy-update-bulletin-january-2026- ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/mpub-archives/commercial/medical-policy-update-bulletin-january-2026-full.pdf\", \"snippet\": \"Current Procedural Terminology (CPT\u00ae), and Healthcare Common Procedure Coding System (HCPCS) code additions, revisions, and deletions.\"}, {\"title\": \"UnitedHealthcare Commercial Medical & Drug Policies and ...\", \"url\": \"https://centercare.com/_uploads/Medical-Drug-Policies-and-Coverage-Determination-Guidelines-for-UHC.pdf\", \"snippet\": \"Medical &amp; Drug Policies and Coverage Determination Guidelines for UnitedHealthcare Commercial Plans \u00b7 https://www.uhcprovider.com/en/policies-protocols/commercial-policies/commercial-medical-drug-policies.html[6/20/2018 8:52:02 AM]\"}, {\"title\": \"CPT\u00ae is a registered trademark of the American Medical Association.\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/prior-auth/pa-requirements/commercial/UHC-Commercial-Advance-Notification-PA-Requirements-1-2026.pdf\", \"snippet\": \"CPT\u00ae is a registered trademark of the American Medical Association \u00b7 PCA-1-24-01315-Clinical-QRG_07182024\"}, {\"title\": \"Habilitation and Rehabilitation Therapy (Occupational, Physical, and Speech)\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/habilitative-services-outpatient-rehabilitation-therapy.pdf\", \"snippet\": \"This Medical Policy applies to UnitedHealthcare Commercial benefit plans.\"}, {\"title\": \"Omnibus Codes Page 1 of 220 UnitedHealthcare Commercial Medical Policy\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/omnibus-codes.pdf\", \"snippet\": \"UnitedHealthcare Commercial Medical Policy \u00b7 Effective 05/01/2025\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_bnKrZrXiaDm4KhJiyEWqF0CZ",
+   "output": "{\"query\": \"site:uhcprovider.com \\\"29888\\\" \\\"Anterior Cruciate Ligament\\\" policy\", \"results\": [{\"title\": \"Joint Procedures \u2013 Medicare Advantage Medical Policy\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/index/mamp/joint-procedures-10012024.pdf\", \"snippet\": \"29888 \u00b7 <strong>Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction</strong> \u00b7 29889 \u00b7 Arthroscopically aided posterior cruciate ligament repair/augmentation or reconstruction \u00b7 Surgery of the Ankle \u00b7 27700 \u00b7 Arthroplasty, ankle \u00b7 27702 \u00b7 Arthroplasty, ankle; with ...\"}, {\"title\": \"Surgery of the Knee \u2013 Commercial and Individual ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf\", \"snippet\": \"29888 \u00b7 <strong>Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction</strong> \u00b7 29889 \u00b7 Arthroscopically aided posterior cruciate ligament repair/augmentation or reconstruction \u00b7 CPT\u00ae is a registered trademark of the American Medical Association \u00b7\"}, {\"title\": \"Surgery of the Knee (for New Jersey Only) Page 1 of 10\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/nj/surgery-knee-nj-cs.pdf\", \"snippet\": \"29888 \u00b7 <strong>Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction</strong> \u00b7 29889 \u00b7 Arthroscopically aided posterior cruciate ligament repair/augmentation or reconstruction \u00b7 CPT\u00ae is a registered trademark of the American Medical Association \u00b7\"}, {\"title\": \"Surgery of the Knee (for Idaho Only) Page 1 of 10\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/index/comm-plan/id/surgery-knee-id-cs-05012026.pdf\", \"snippet\": \"29888 \u00b7 <strong>Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction</strong> \u00b7 29889 \u00b7 Arthroscopically aided posterior cruciate ligament repair/augmentation or reconstruction \u00b7 CPT\u00ae is a registered trademark of the American Medical Association \u00b7\"}, {\"title\": \"Surgery of the Knee (for New Mexico Only) Page 1 of 10\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/nm/surgery-knee-nm-cs.pdf\", \"snippet\": \"29888 \u00b7 <strong>Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction</strong> \u00b7 29889 \u00b7 Arthroscopically aided posterior cruciate ligament repair/augmentation or reconstruction \u00b7 CPT\u00ae is a registered trademark of the American Medical Association \u00b7\"}, {\"title\": \"Surgery of the Knee (for Tennessee Only) Page 1 of 10\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/tn/surgery-knee-tn-cs.pdf\", \"snippet\": \"29888 \u00b7 <strong>Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction</strong> \u00b7 29889 \u00b7 Arthroscopically aided posterior cruciate ligament repair/augmentation or reconstruction \u00b7 CPT\u00ae is a registered trademark of the American Medical Association \u00b7\"}, {\"title\": \"Surgery of the Knee (for Ohio Only) Page 1 of 10\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/index/comm-plan/oh/surgery-knee-oh-cs-01012026.pdf\", \"snippet\": \"29888 \u00b7 <strong>Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction</strong> \u00b7 29889 \u00b7 Arthroscopically aided posterior cruciate ligament repair/augmentation or reconstruction \u00b7 CPT\u00ae is a registered trademark of the American Medical Association \u00b7\"}, {\"title\": \"Surgery of the Knee (for New Jersey Only) Page 1 of 8\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/index/comm-plan/nj/surgery-knee-nj-cs-10012025.pdf\", \"snippet\": \"29888 \u00b7 <strong>Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction</strong> \u00b7 29889 \u00b7 Arthroscopically aided posterior cruciate ligament repair/augmentation or reconstruction \u00b7 CPT\u00ae is a registered trademark of the American Medical Association \u00b7\"}, {\"title\": \"Surgery of the Knee (for Ohio Only) Page 1 of 8\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/index/comm-plan/oh/surgery-knee-oh-cs-11012025.pdf\", \"snippet\": \"29888 \u00b7 <strong>Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction</strong> \u00b7 29889 \u00b7 Arthroscopically aided posterior cruciate ligament repair/augmentation or reconstruction \u00b7 CPT\u00ae is a registered trademark of the American Medical Association \u00b7\"}, {\"title\": \"Surgery of the Knee (for Nebraska Only) Page 1 of 10\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/ne/surgery-knee-ne-cs.pdf\", \"snippet\": \"29888 \u00b7 <strong>Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction</strong> \u00b7 29889 \u00b7 Arthroscopically aided posterior cruciate ligament repair/augmentation or reconstruction \u00b7 CPT\u00ae is a registered trademark of the American Medical Association \u00b7\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_bA6T83QCaFQzqpKt9yAQFbMN",
+   "output": "{\"query\": \"site:uhc.com appeal adverse benefit determination commercial member Minnesota 180 days submit appeal address UnitedHealthcare 2026\", \"results\": [{\"title\": \"Your Appeal and Grievance Rights - UnitedHealthcare\", \"url\": \"https://member.uhc.com/myuhc/claims/appeal-grievance-rights\", \"snippet\": \"Please check your health benefits plan (e.g. Certificate of Coverage or Summary Plan Description) for more details. For questions about your appeal rights, an adverse benefit determination, or for assistance, you can contact the Employee Benefits Security Administration at <strong>1-866-444-EBSA (3272)</strong>.\"}, {\"title\": \"Coverage determinations and appeals | UnitedHealthcare\", \"url\": \"https://www.uhc.com/medicare/resources/prescription-drug-appeals.html\", \"snippet\": \"If you&#x27;re a member and you already completed the coverage determination process for your medications in 2026, you may not have to do it again. <strong>Look for the approved through date on your approval letter</strong>. This will tell you when your approval expires.\"}, {\"title\": \"Medicare Advantage appeals and grievances | UnitedHealthcare\", \"url\": \"https://www.uhc.com/medicare/resources/ma-pdp-information-forms/medicare-appeal.html\", \"snippet\": \"You may file an appeal <strong>within sixty-five (65) calendar days of the date of the notice of the initial organization determination</strong>.\"}, {\"title\": \"Appeals and Grievances Process | UnitedHealthcare Community Plan\", \"url\": \"https://www.uhc.com/communityplan/learn-about-medicare/appeals-grievances-process\", \"snippet\": \"If you are appealing a coverage ... appeal request. You must file the appeal request <strong>within 65 calendar days from the date included on the notice of our initial determination</strong>....\"}, {\"title\": \"UnitedHealthcare Community Plan Grievance and Appeal Process\", \"url\": \"https://www.uhc.com/communityplan/assets/plandocuments/memberinformation/MS-Appeals-Grievance.pdf\", \"snippet\": \"Benefit Determination. Members have a right to request appeal of an adverse\"}, {\"title\": \"Reform provisions - appeals | UnitedHealthcare\", \"url\": \"https://www.uhc.com/united-for-reform/health-reform-provisions/appeals\", \"snippet\": \"The health reform law requires non-grandfathered group health plans and health insurance companies to provide consumers with an effective internal claims, appeals and external review process for members to challenge an adverse benefit determination (ABD).\"}, {\"title\": \"appeal rights\", \"url\": \"https://member.uhc.com/myuhc/content/campaigns/myuhc-2-0/medical-appeals-grievances/address-rights-information/appeals-custom-address/jcr:content/par.html\", \"snippet\": \"Most plans allow 180 days from the date of receipt of claim denial to submit an appeal. Review your plan for your appeal rights. Appeals may be sent to us in writing at the following address:\"}, {\"title\": \"UnitedHealthcare Medicare Plan Appeals & Grievances Form - UnitedHealthcare\", \"url\": \"https://memberforms.uhc.com/MR-AppealsandGrievance.html\", \"snippet\": \"This browser is not supported. Please use Edge, Chrome, Mozilla Firefox or Safari to submit this form \u00b7 If you aren\u2019t the subscriber and are submitting this form on their behalf, you will need to complete, sign, and upload a copy of the Designation of Authorized Representative form.\"}, {\"title\": \"UnitedHealthcare Group Retiree \u2013 Appeals and Grievances\", \"url\": \"https://www.eprovider.uhc.com/content/gr/en/noncustomgroups/appeals_and_grievances_ssup.html\", \"snippet\": \"You may appeal any adverse benefit determination. <strong>ERISA provides you with at least 180 days from the day you receive notice of an adverse benefit determination to appeal it</strong>.\"}, {\"title\": \"Prescription Denial Notice\", \"url\": \"https://member.uhc.com/myuhc/content/dam/myuhc/pdfs/communityplan/MD-POS-Denial-Letter-Appeals.pdf\", \"snippet\": \"Your Appeal Rights. You have the right to get an adverse benefit determination in writing. If you want a free copy of information used in this decision, call UnitedHealthcare Member\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "id": "rs_0ee4541896818691016a9b6c60dcec87d2a7efd9d1d60a3cd0",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2xiumFQKdck-3ihRsKZYCsWSIiHKowzvzkmWTOBqBsbrRXbAUWdqM6ZH9F-SiMGQQ7C0TAMPlRgiwl3NKe0C_JQcWPEnP04KSzUxNuhC-hOweq3HPe13hX0s81W0EDGm_TCRjrWYJDFRbyEZV3D4Kq5V9nbRN_emdSMNmZMlXnLgFtDrcj8yGfDNU8EMZMGO1qTe7cxUNF8kOhUf6aalVwLD-xsRFeXwBiEW-pHnX4N7sNuzZ69rdvbywdnOl7xVBEk0JhOSaKHJJ60Kh8HzeiVTdsBU6Dgg5d1-RXw0wNtk1wJIbO0ITes1l9f3nC8kYZ8WsbQLz8bkTQ1fwaHwU87wkYU2ASYmLinXUU7QVU-pJi0e2ZKkHhNKQtvnJ6-XkJBhnoZ3N_93mC9uq8jC75ii6MLPs1iXwuZwLYrP_Fnnwzfv3vjeGV1x273ODeICJGf6s17-31RkT5Rka9i_XE9FRtcHjDguzSyqE6yXsAs7o82MuzW86iBDgIvxUEQ-Dhh_KRRR9_XPtX-7t3s9WenHGujsQa65V5m2vSTriXdFecurL2exHdBnu9JN4xcwI3JsB2TmBuTsdCe2W84OkI35WQydusr_6lsmEIFgzZf1OVS6nON_Eyy9ty5MTVquxtoXAuLOrUkuXEXkSxSqcCb9YzqhCLJBcMuFoCpzAcn-TR5lGC0fdQD8duXHhoi2isDvWooWs1UudanUjSEJmfv8Be2dGRA5x0RREx1lHUPyQoasX9qXsQZPlGsXT1-V432PQfuQgxWHpms-Qi9q7Jrqxy5JVHDp9y3DLC5qaMjLcvd66uBNWfgcMVmTWdZhnhdRHePazIaRcixGNfZhHf_oIJwhVx103Cr_An-xM3mcA3eZQ-XFXECcNqHj4Ib7jcuqA4i7huU0Bajr-irqBfwJNgzKzwa614-4ZAnmtp5uDoT2h9EJds0rncdehoYQdRUzF-ve1bKbTXkUmqRzLVn-abzXrLneEdzhobEh1LyYxhx5W7LaxQcb0e0ETLOn_GUeW2VYvGKD3VE6IkjNLL2xTTdJOAdzG_utX_x3m1RimWOse_UME3pJeIT5XGTiez6qM847u6oPjwNLm2nkBrZD7CzT0gY-jiId_HrV2VRebfUJQ_XuLHmKMV-LUk8V3Dqux6ogFzL8xmLswFWiuEZ1y6NwEJL6pWOoLafEjWzBdj3zjLyDC4UOH-hMuNbjkcMk3oBwuH-mV7_9BxHHmjmVw==",
+   "status": null
+  },
+  {
+   "arguments": "{\"url\":\"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf\"}",
+   "call_id": "call_VFPK2WvTRLA1PzcjQvNcJQD7",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_0ee4541896818691016a9b6c6287e487d2bf8008f7416faede",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://member.uhc.com/myuhc/claims/appeal-grievance-rights\"}",
+   "call_id": "call_p16bHnYNjQ3gCj3TiMbwtBKX",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_0ee4541896818691016a9b6c6287f487d29f6b5e0c8c465189",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://member.uhc.com/myuhc/content/campaigns/myuhc-2-0/medical-appeals-grievances/address-rights-information/appeals-custom-address/jcr:content/par.html\"}",
+   "call_id": "call_JVJclnQvakuhu9GX3wJele0b",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_0ee4541896818691016a9b6c62880087d2b82c15a271ff2c8c",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf \\\"Policy Number\\\" \\\"Effective\\\" ACL reconstruction medically necessary instability conservative treatment\",\"count\":5}",
+   "call_id": "call_ovS8KQro5I8V4H9wnrJCO28i",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0ee4541896818691016a9b6c62880887d297e467ec7fe780ee",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_VFPK2WvTRLA1PzcjQvNcJQD7",
+   "output": "{\"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf\", \"final_url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"error\": \"fetch blocked or unreadable: extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_p16bHnYNjQ3gCj3TiMbwtBKX",
+   "output": "{\"url\": \"https://member.uhc.com/myuhc/claims/appeal-grievance-rights\", \"final_url\": \"https://member.uhc.com/myuhc/claims/appeal-grievance-rights\", \"http_status\": 200, \"content_type\": \"text/html;charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Your Appeal and Grievance Rights - UnitedHealthcare Your Appeal and Grievance Rights {{errorMessage}} EXTERNAL REVIEW Skip to Site Navigation Common Questions How does the Medical appeal process work? Most plans require that you submit your claim Appeal request for review to us in writing through the Member Service Request Form or a letter to the P.O. Box listed on the instruction page of the Member Service Request Form. Once we receive your request for review, we will assign an appeals coordinator to conduct a full and fair review within the timeframe required by law. The first request for an appeal should be sent to us no later than 180 days after you receive the EOB, unless your plan allows a longer time period for submitting an appeal. Please check your health benefits plan (e.g. Certificate of Coverage or Summary Plan Description) for more details. For questions about your appeal rights, an adverse benefit determination, or for assistance, you can contact the Employee Benefits Security Administration at 1-866-444-EBSA (3272). Your state consumer assistance program may also be able to help you. What is an appeal? An appeal is a timely request for a formal review of an adverse benefit decision, such as a claim denial or how we applied your deductible or coinsurance. An appeal may be submitted by you or your authorized representative. We typically communicate our post-service benefit decisions on your Health Statement or Explanation of Benefits (EOB). For more information about our decision please review your Health Statement or EOB. Important Information Notices & Disclosures Provider Data Information Legal Entities Share My Health Data Share My Health Data Support Help & Contact Us Help & Contact Us Help & Contact Us Share Feedback Accessibility Accessibility Statement Language Assistance | Non-Discrimination Notice \u00a9 {{currentDate| date:'yyyy'}} United Healthcare Services, Inc. & Rally Health, Inc. All rights reserved. Terms of Use | Privacy Policy | About UnitedHealthcare | About Rally Important Information Notices & Disclosures opens in a new tab Provider Data Information opens in a new tab Legal Entities opens in a new tab Share My Health Data Share My Health Data Support Help & Contact Us Help & Contact Us Help & Contact Us Medicare Complaint Form Share Feedback opens in a new tab Accessibility Accessibility Statement opens in a new tab Language Assistance | Non-Discrimination Notice opens in a new tab opens in a new tab opens in a new tab \u00a9 {{currentDate| date:'yyyy'}} United Healthcare Services, Inc. & Rally Health, Inc. All rights reserved. \u00a9 {{currentDate| date:'yyyy'}} United Healthcare Services, Inc. All rights reserved. Terms of Use opens in a new tab Terms of Use opens in a new tab | Privacy Policy opens in a new tab | About UnitedHealthcare opens in a new tab | About Rally opens in a new tab Last updated {{footerDate}} at 12:00 AM CT Last updated {{footerDate}} at 12:00 AM CT HELP Account / Profile Logout toggle menu Help Logout Sorry. It's not you, it's us. We're currently experiencing an internal server problem. Try refreshing the page or check back soon. If you are continuing to see this message and need immediate assistance, please call the number located on the back of your ID card. If you don't have your ID card handy, please call 1-866-414-1959 8 am - 10 pm ET, Monday-Friday. If this is a medical emergency, please call 911. TRY AGAIN \u00a9 {{currentDate| date:'yyyy'}} United Healthcare Services, Inc. & Rally Health, Inc. All rights reserved. Terms of Use | Privacy Policy | About UnitedHealthcare | About Rally See you later! You are leaving the UnitedHealthcare plan info site. You will automatically be sent to: Continue Go Back Your session is about to end in {{counter | secondsToDateTime | date:'mm:ss'}}, Click continue to stay logged in. Your session is about to end in {{counter | toMinSec}}, Enter CONTINUE to stay Logged In or Enter LOGOUT to end the session logout logout Continue Enter to logout the session Enter to continue the session\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_JVJclnQvakuhu9GX3wJele0b",
+   "output": "{\"url\": \"https://member.uhc.com/myuhc/content/campaigns/myuhc-2-0/medical-appeals-grievances/address-rights-information/appeals-custom-address/jcr:content/par.html\", \"final_url\": \"https://member.uhc.com/myuhc/content/campaigns/myuhc-2-0/medical-appeals-grievances/address-rights-information/appeals-custom-address/jcr:content/par.html\", \"http_status\": 200, \"content_type\": \"text/html;charset=utf-8\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"thin_200_response:284_text_chars_of_1586_bytes\", \"error\": \"fetch blocked or unreadable: thin_200_response:284_text_chars_of_1586_bytes\", \"text\": \"APPEAL RIGHTS Most plans allow 180 days from the date of receipt of claim denial to submit an appeal. Review your plan for your appeal rights. Appeals may be sent to us in writing at the following address: UnitedHealthCare Member Inquiry/Appeals P.O. Box 740816 Atlanta, GA 30374-0816\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_ovS8KQro5I8V4H9wnrJCO28i",
+   "output": "{\"query\": \"site:uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf \\\"Policy Number\\\" \\\"Effective\\\" ACL reconstruction medically necessary instability conservative treatment\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "id": "rs_0ee4541896818691016a9b6c64abd087d2bb365e116750481e",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2xlkJi-7jedQ_ttObjIOF7q1KAnyKNl6CwtOxiPq1buJL5W7IoTuBLA_p_4JH6rRcay2Imt7OJpbRwE-qIGhPDkSLq-LJcZjgUh2GqywXo2ZSKd8F1FfxpG813dNP2_Da5Eo8CMp7eOtq9Ent89JONsB5F0K3vhhD1kizxMP7es6uYkWefdxSTeA0N944waW8OEqZbUWte5uCIPEqhmW_yxxFKoCxWhwly5ZV846zI9ZRCJockeD7DQv5AaTNIuUEq1jQnQnlSEu-N-QGXhfU1Pvk2Z1muA1Y0jicUm9gx_wr8biru3IvTlCrESUwIe1FF0XbyNI_0mTCm6ExuXNeBBwT32xf4dD3frA1qXglavJP8pVvpUm2toKB4k-8y-QFO_1-x1Ab6wMqiaO6RP5DBn1badwjAiiCDcFgY3wacX7fBwjEmy7TTRlwO8cFERnMSWABvDdHxYrsYyoLSRrjvlS3UWVeIB-KBs7FPdKBX5Qth7sNXrT-PmXUSRIeGPbduF2qGiQnottuYVOICLvAoIUxSY0063Z_qFdhdAceGWS6C1hGQvQGTLl62cleDd5PBuQX5XwlWsyHhSxt1hsSboKrJ8q7Qf5MwDMqkp7g-WqQUmUgKJR6GX5kDICPMso86ZvRVt8VY0Cjxxl9f-WBG1BEq1dK-xKuEIYyjN00dOXwGxnlaAP1VsFATcoO5S8BTOyP9o3lS1W_UlCfKrxnUATDrMDankxuUMZ7YoVUtkeb-zeyhhhrudJB5mvpBMI6SOdiwNn9q4muqZysHQP-DF5vaa49zk4AXherPuV7U5b6OyqEFlKG9RLfbvnK-LbYbjbvjwitX3CBfXfeORHmj47YnLCsy0d1N03YRYLKgbySsDAHCS_jWNnw16sgZ0Fai2Lr8zOwEg3ih5irE8HKyMJvr4RqTm1Buz77B69mBJl2P5lmUO_Mr9PgGemJlzbqf3Nmn45DAd9zDQ3joKg3TsBX9Bt6XaeFIT2sFoQ55COZglomS7GHo6n3o_UU7wVzIjgNhjBJ09q6IpZRFE15e2cS-NZ9psQBHs-kFtebbv0vQqXoYKhqyLkmS2T2O_PWLI7kZI4d2gpmns0xBPQwbZRCUj9O2q_-hxRvjNGdGTMdwMMDvmQeHHGWZtxMaEedhFogUeCBk7Z2eZTWAMs_tgLVwaSkzQimS4jTrNcIaFlQujpni5FnAt8fpw40YuuPvBiDzx44dh35PRciMxHkQrvTnoAl9mkx1ofocsmgD0X5A=",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"UnitedHealthcare \\\"Surgery of the Knee\\\" \\\"Policy Number\\\" 29888\",\"count\":10}",
+   "call_id": "call_fR2GFPI2lqw31JFcInFrj2Nd",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0ee4541896818691016a9b6c650f1487d28a426532b4ca51a0",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_fR2GFPI2lqw31JFcInFrj2Nd",
+   "output": "{\"query\": \"UnitedHealthcare \\\"Surgery of the Knee\\\" \\\"Policy Number\\\" 29888\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Surgery of the Knee\\\" \\\"UnitedHealthcare Commercial Medical Policy\\\" \\\"Anterior Cruciate\\\" medically necessary\",\"count\":10}",
+   "call_id": "call_29mWdImNnGXGdhTWYjtw6KUd",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0ee4541896818691016a9b6c6749d087d29d74c30ba58c5c0e",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_29mWdImNnGXGdhTWYjtw6KUd",
+   "output": "{\"query\": \"\\\"Surgery of the Knee\\\" \\\"UnitedHealthcare Commercial Medical Policy\\\" \\\"Anterior Cruciate\\\" medically necessary\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "id": "rs_0ee4541896818691016a9b6c69606887d28422ca3e508ec40e",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2xqzVAbmmQDCYgsHrfUSYOcScxd0yybKvN5IW8FqpkWZeq3aT1opVnfcTKIbgEETaxG3KBi-hGZJCIHFgsYgIqMXPhg9EBzEk6KY1Exb65tf9g5lJTPkeOnsqGQJXuFfltho0lE3xORnoq8mWKPgMRQkEbkRRmso8doK3IxhxtOrMf7QjkbbldRi_9OvV5ro2gITkX_HVkoOuYNh3D12Yl9OIRxyazx3TPYKu6AalcfPFDSYBMfZNFKAUwdpGvoxjiCPO8CUvCNSp5QK1ZHnPvSuwbf1ryzAHESagKNIJBHJ7HqPtx05g5hasxnLdnqlR12uHwbO3PyLkXTpR-qQJakO9ISyuOv2BC0IjtGdpvj_VA9Xle6X97-iZ8NOWgfjR_jIri0TWBSu3MgU2vct-UYkMs1gsMMZXQifF4ywG7oR4HJni8Vgmp7mEdYeEqQ9-mA39out2ivBulb4eaqzR8tn6r2EeBOnstDty_tvUEWbPcrsXAUwSxWFdxDfJA0Qfd-g5T7zasMSSMbPwoBdgPgw_OjdzokXzEsOz9Gh0K7cQn9t9veiLDdFop8ulwCjrGGSE_uuioQkWk4myNfKPYV_teqFUrMX8nY9xxxzHmLfUdwBbztRkz1G6Trgqv0ReZ-VZMKEodAvQwCcQvb-OZaIxHQXHWUgaRTguHzFYf399mNYYkNqXBpiKkIbipz8hBSOSCYBA0J1Yzeovl25OJ1ilvr6RWzqtAuAm50Fatk-Os1uRMdPdPZ9rTDmXMcatzkia_j8UTOYbv86Bw1AT7eN8sKE5bUARXQm-xzqnZ8bichszLlL2ayVppxgvXWvG-KswX8AFDs8GHqopDSbVzShoil2h3TPXCxN4dpAO5pD68Qo3hTWMqXOGAHcwVTMJKfPyUeoe-tqZ1PDxF7Yp_lE9OUoPof0-5hH2ApXaJccoCY-NcDIIaFdcFHuMG4S3MsubAeP0lkbrciZ_N92MHTUAKZBNk3GQr3WPxZHsOJ_hwATXE9cKL-NQ3NCNZ4JoFezwnsqbvBT-W0GE9GiE0xeZadcT8EPKPbjm-1CXlqIXrxItWIXpp-1G9_3cy6vs7jL00YSs3hYUQ-BhfW4Q2DobmULWQw8iWXh_OZztC82uC6Kh72tdEUoyLNO9jiQx5q_iXJ7xO6TwUpbKTM-j1HKmsXnOS1_UdJLMxK9Hns3_pwRZEngm2rCHb6uqS8v8kx9klPWKWXByzWUxzL1qDTw-3jxKsB6ZQIpZueS-JIQsN2vQr8FI8IL2zdkauoCUpK",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf \\\"Conservative\\\" OR \\\"ACL\\\" OR \\\"ligament\\\"\",\"count\":20}",
+   "call_id": "call_LHRy4uX7wG2C42QtVjivnZOe",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0ee4541896818691016a9b6c69c7a487d2a478cadd6e22be96",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_LHRy4uX7wG2C42QtVjivnZOe",
+   "output": "{\"query\": \"site:uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf \\\"Conservative\\\" OR \\\"ACL\\\" OR \\\"ligament\\\"\", \"results\": [{\"title\": \"Surgery of the Knee \u2013 Commercial and Individual ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf\", \"snippet\": \"are no data available that support superiority or equality of TruFit compared to conservative treatment or mosaicplasty /\"}], \"result_count\": 1, \"error\": null}"
+  },
+  {
+   "id": "rs_0ee4541896818691016a9b6c6bfab087d2b6ac9a98f17b1724",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2xt5w5uMFSwoKRxmd2tLtZSaVtnMkKuYeK397aTsewlynKMtmmi0VrqG8AefPEwl-TEfR_lImeI9nRHKq5soFHJC9lJYaecQqdWFTqJwOCAjHvvb2qxqGmvNhpPfoJbnY4zrh_F6YTXNxeHy-S1W7KtI-snz_4--2B0x8NfaOgsSpfQPEHbBiWOJ5wfpvfxuL2bTl3V0zkO-eQNv9y0EbL1Xj4-BfK5MF2cpxDpaMPh3iLNPlhzTlGpExKg1Da_-_TpyoMeV3anqsSriqj9uJ_9FKDj1WydxXJ69qITkGcVAxkFz6fUGlSWqwONjRO6bwWGXZifvcGjP_qTmaxQBAEmT9ZSly4Aohl9vSQfipsf76awSsJtQh4alMysHdUCvbhBXlRdcQX67YXcPsBZtaBXROoSytwmuhvBdxQoyM9nQpQz8Wj-2Zd5knBtEyDXf7rX6vl7Djtqe6lRfy98H2tLG6E6O2VJ_lnJ51BvBYXODJhmusym7OeRCEG_myNU4x4KqKnHbcVbosN83DSHA6MlZ8RxMEohS8wBOWLzHO9hSuxLJJEwv6WrlKLLUDolUgPbv50vC81FNy-e8tJundnzgyUXY1VaKI4sEN_IQQRT60-62Qb-T2EO52xlX6NCIM-FZrRCiNCsP3jPNIxhVwlcyyjK2dM0wVH4pAUVbJK--PveCUx8geeG41pqvMEg0mB7C5POaUw9XNXZBunGx0gtABzpOA6Jf1cMGWZMtBHR4Qr2RG9sswp_NjiAqMD-a45IoWwQHz4ezOAMKNTSKFCeiZKV9kWee7mWfGrfwjzVKzHYKgKG4fp8Dts0DSFCaF4KT8P-uaLaBcs-byDxU1c814WHJk7uQeGRULalFSj6PZqCgARHh4oh8h_xPcqOa_C9h1rgXdK2MtJTxVDKWaIiQMaexkYjTc01P553ZMSlutQRiH58gXni1p23T9pll6VlMnUeQRqnWbHKxhKLWs7PayVL3gJAZ2Od0uqzIK9zIdLLJJUfkNwvgPYAH1s61zVmFjTe3rIwrmALVtBGhnHinZt3oE-QeLNRuoVT6rQaQxszSxecei703WICWuJVmp5eRDT3QSE1ZRuDhUvKFNsi851kqIz1wlDpxfBKMe-dkdwE0hlKZXPYmzc_5-RuxZbRxFSuqh45Yg104sg0dpSu-_WYAOZ2yowNN-EyqQsFiGSJ7UxgOl9UD4GhMJuERtqsV6AiBe_ZiM9HoqmeMxdc1BUT4ra5Vm8HQN-3SayhRNOWom19v9dR4ZBCxn-ym5UcYBhE2Lj434s28Yjy62iRWvFkGGXWXUbJ4Z0F_sYoqouXFhw332qELItxaziZk_jOz9NFMnj8qivibTZWBjtyV8xKJWgj3nreUI44oXoB-6eU_Y5cLXH7oAbuJacI3HL3",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf \\\"Anterior Cruciate Ligament Reconstruction\\\"\",\"count\":10}",
+   "call_id": "call_URcC7mQ8N59ReCpgpfhaegzB",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0ee4541896818691016a9b6c6c9ce087d2ad0a513d3ad067a2",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_URcC7mQ8N59ReCpgpfhaegzB",
+   "output": "{\"query\": \"site:uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf \\\"Anterior Cruciate Ligament Reconstruction\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "arguments": "{\"query\":\"site:uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf \\\"29888\\\" \\\"Medical Necessity\\\"\",\"count\":10}",
+   "call_id": "call_VPI1RJckjAArIZTFSzuExSDP",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0ee4541896818691016a9b6c6ea10087d2a943818300a5d6bf",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_VPI1RJckjAArIZTFSzuExSDP",
+   "output": "{\"query\": \"site:uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf \\\"29888\\\" \\\"Medical Necessity\\\"\", \"results\": [{\"title\": \"Surgery of the Knee \u2013 Commercial and Individual ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf\", \"snippet\": \"29888 \u00b7 <strong>Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction</strong> \u00b7 29889 \u00b7 Arthroscopically aided posterior cruciate ligament repair/augmentation or reconstruction \u00b7 CPT\u00ae is a registered trademark of the American Medical Association \u00b7\"}], \"result_count\": 1, \"error\": null}"
+  },
+  {
+   "id": "rs_0ee4541896818691016a9b6c70926887d2a08f261d0454ca5a",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2xxy8ROehjUmXxzGbpGXofKQ8nmPo0a0ZX26LaZzKDgpORCFemMXJsGXf3hIxdcjnYqw7aweJHqA12x1EtNupVdnwYu_Y4PEJUiHkdpGcRZqF0XLCOiNjoWvVAI4kReFKqkgZ4tnuuDbjqwDcZXicq_tNueqZuNzhrimSkpkg1i2KvLLTYgLTGQftQzZs3JioIgVJ4_EaKzAz92m7qVb8fXI7bwAdghshZDieNxhl5tgiFgxrkuxkNw2ugE6w9_xd6BCPqNY_XomTQGUxamK_WbH7BiKvBYl5tMNmdOlv0v0Q0Ie03EzNI6fXinc9pskxAxmJ-_3-U54D7AKP6G2KydPKN2XbvwI4PnbjpuoYZaLEAF20mqB5CNRog7jqXCnd8wsDPk_Cxr4WPMoFLNjoRhOt81Sps3LIgGrTn2zXQW0-ynHjU83CSh2bibe0cpmT8hCQ06gW-y2Oei2DM_InQYynZcgpnzd7iNrKBtffllSeHOMuXArsWZ-fnVodhSanKjrMAjYxHGhfr0S6083zbqImv-ME_7NWpKElwRTz0tqFsLrlCTlnUEHR8btAjDXmJiCrU6jgE_jd3PYEarfOsYLezTsiWgvh0z8rsrW3NnlLOALOQXGpW2xNipGRxEXT0crZQQd6dbnvrj2RVlgemYaCsCthB21DmS8p8801rHF7FoaHKbDne72MQKtNttEcS3TQfLIsQj98MT2GJuoBmziaXN2HU4CX-PsOhwMBMrZZFr6NmrcXsazhogrNVSn6txppPMPTCwUatZam75y-TsFjhGjshBvlkm9Ah6yIN84UDvWprTMOx-3YWRmuFbSS9Jg0iuUv-J_wamurjFYYlaKbzPIaIPgJoHiOfPXuMgM0tEoswtMGy41HL7V6bqopUqcpasnmV_2zmgkw15MAOtu55vBZg6AvObcDe_PC-5NjcuxlmX_uw6et47by3ii3JIMZcIr87w0sLdNSCKW9ARHgSmNKDAyjt2hb4URI2vM3A3_6toNbo-Pr8zseQlOuoj0Z0_J1jCgDY2oCKP8ysjBt5ljl46asbIqzJoaqXnn3Y08ffdKkdf8XbO3id4dC5jkl-oZ_xO77xlcXx1U0NY1-JD7BZPK0u_91nP6utnFt6laQu1ZsKZIECMGpxWo3utTIOLiE0hiB5imFChnnML_dJDesMWq1aBaTkRruwL2aRCI5mguGVfdSn3z67MjPFNRUVVs9bdVUqaRPk-FCvS5WFmibaQQVSvh3lYjas99w0i32YTrZW0C1mztcmGLDFMxQLz_wUk4lwD8Ml-cZVqr_4B0mFTp3OgDjOgLaLDGQI9QdU5gJcLlJwmow6ZN56FgrhJG2hCBQoMF1qpTLNwrfP4bFvzo-7y_Z79kUBonbw=",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"UnitedHealthcare Surgery of the Knee policy number 2026 PDF\",\"count\":10}",
+   "call_id": "call_lRzWDOmR3Ctbg1GkMxoDKoYD",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0ee4541896818691016a9b6c710b0487d2a1b736c48b20eb87",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_lRzWDOmR3Ctbg1GkMxoDKoYD",
+   "output": "{\"query\": \"UnitedHealthcare Surgery of the Knee policy number 2026 PDF\", \"results\": [{\"title\": \"Surgery of the Knee \u2013 Commercial and Individual ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf\", \"snippet\": \"Proprietary Information of UnitedHealthcare. Copyright 2026 United HealthCare Services, Inc. ECRI. BioCartilage Extracellular Matrix (Arthrex, Inc.) for Repairing Cartilage Defects in the Knee.\"}, {\"title\": \"Joint Procedures \u2013 Medicare Advantage Medical Policy\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medadv-mp/joint-procedures.pdf\", \"snippet\": \"Proprietary Information of UnitedHealthcare. Copyright 2026 United HealthCare Services, Inc. ... Arthroplasty, acetabular and proximal femoral prosthetic replacement (total hip arthroplasty), with or ... Conversion of previous hip surgery to total hip arthroplasty, with or without autograft or allograft ... Revision of total hip arthroplasty; acetabular component only, with or without autograft or allograft ... Arthroscopy, knee, surgical; osteochondral autograft(s) (e.g., mosaicplasty) (includes harvesting of\"}, {\"title\": \"Surgery of the Knee (for New Jersey Only) Page 1 of 10\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/nj/surgery-knee-nj-cs.pdf\", \"snippet\": \"reimbursement or guarantee claim payment. Other Policies and Guidelines may apply. ... Arthroscopy, knee, surgical; osteochondral autograft(s) (e.g., mosaicplasty) (includes harvesting of ... Proprietary Information of UnitedHealthcare. Copyright 2026 United HealthCare Services, Inc.\"}, {\"title\": \"UnitedHealthcare Commercial Medical Policy Update ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/mpub-archives/commercial/medical-policy-update-bulletin-march-2026-full.pdf\", \"snippet\": \"<strong>1, 2026</strong> ............................................................................................................................................................................... 2 ... Surgery of the Knee \u2013 Effective Mar.\"}, {\"title\": \"Surgery of the Knee (for New Mexico Only) Page 1 of 10\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/nm/surgery-knee-nm-cs.pdf\", \"snippet\": \"Proprietary Information of UnitedHealthcare. Copyright 2026 United HealthCare Services, Inc. Surgeries of the knee are procedures and therefore <strong>not regulated by the FDA</strong>.\"}, {\"title\": \"Outpatient Surgical Procedures \u2013 Site of Service Page 1 of 4\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/outpatient-surg-procedures-site-service.pdf\", \"snippet\": \"UnitedHealthcare members may choose to receive surgical procedures in an ambulatory surgical center (ASC) or other\"}, {\"title\": \"Community Plan Medical Policy Update Bulletin Full View\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/mpub-archives/comm-plan/community-plan-medical-policy-update-bulletin-march-2026-full.pdf\", \"snippet\": \"<strong>1, 2026</strong> ................................................................................................................................................................................ 4 ... Surgery of the Knee \u2013 Effective Mar.\"}, {\"title\": \"Surgery of the Hip \u2013 Commercial and Individual Exchange ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-hip.pdf\", \"snippet\": \"Proprietary Information of UnitedHealthcare. Copyright 2026 United HealthCare Services, Inc. Grade 3: Large cysts, severe joint space narrowing or obliteration of joint space, severe deformity of the head, ... Western Ontario and McMaster Universities Arthritis Index (WOMAC): The WOMAC is a disease-specific, self- administered questionnaire developed to evaluate patients with hip or knee osteoarthritis.\"}, {\"title\": \"UnitedHealthcare Individual Exchange Medical Policy ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/mpub-archives/exchange/exchange-medical-policy-update-bulletin-march-2026-full.pdf\", \"snippet\": \"<strong>1, 2026</strong> ............................................................................................................................................................................... 2 ... Surgery of the Knee \u2013 Effective Mar.\"}, {\"title\": \"Orthopedic Procedures, Devices, and Products Page 1 of 4\", \"url\": \"https://uhg1-prod.adobecqms.net/content/dam/provider/docs/public/policies/medadv-mp/orthopedic-procedures-devices-products.pdf\", \"snippet\": \"The Medicare Advantage Policy documents are generally used to support UnitedHealthcare coverage decisions.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "id": "rs_0ee4541896818691016a9b6c72ee6487d29af51cdfed2229c0",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2xzZ5JrqpuuN2_JeRnrPxALT1Cr7qffyR3Cb7_8uh1elZDwl6WXeMILem_Z3NCBX8vob44AubXvXNzM_bQ5g6qJCCjdHReIBmLvsswWMGcJXj2bdIrU_4zjU2sYrvZs8JLh_bU-fipVIU8SijvVJ4n5Y0an1HyJPjPKKUDmYWo-dCc9PzcD4r0hpjrv4lCEMxsYZRlrGcbNZHnY37RIzVjx9n6hsbwJasXph4olgchgMgn7YPyzjbxLLODk95_fl_GVF8O43eLqAvsQvkz5EPSyvHhtkUszSPkPDDDEnODJ8r5slzKbJapLNEavNzmZroeoAwOkF5CsXxPgZmn-DiYGMdCOewJL-el-LGA3mwVqQ5CHCVwRnuCVVfFkhEOFeP_I39cBDGc0MfRm44QaHtYraUBsCLMpMGdQiiMiouBWkjLIsy4iaWIWEcor35XwEv4XNsdSuY8Un6tV0YPtRqH6J10nyonOKZB564x6ykXEX7C-qcSldyA-ULII9dr3My9oqLhm3k-gk5PzxbacAamkmj6Y7fCdFRK0o1GM0YtUXN1fT4vN4omCnMqeaPUQuXMvejJf1sjGsEF_1n8hX5n5kI64Hwn6ymjoatbXBHIG_5nb2axQqCVnhtSaGhr0vRrj5i3k-WsWrGHvvfHnkyjOP520eljNEv-pBzSzO89PLchT8tUrS3ePHUW14tCLi5ZWLVeyY4cRmNPAAQfVX8NcJrWjpV25eQxOFk-qKrW3lsmSeHEtnRtXP9-f02P6oxxtfswIMZ74x6g3f372OfWTwhOWKvGkDlLCk8sDqSTc7u773fnRALGyqYJgtN5klMJ4xPpcpr7KUkxFlUOnHMPJtExnl0BvM25wugCHktlkrHamkrl4J8-k6U4lPRauRpQdD0FBmBWrQXTlR9sTpeLZfhzN0OEPJhNXMtXwBgqnPS3wl9w43zfEGdVnYKOUhVRogf161q4i9U_2DES8OQu5o9owhvVI7BoO83acf77EpBVBKcrxnYi0aA0e-EPU5pa7dOP3tnKkNicEnw-hj-Ka0RcFYqdII1xqdd1K71N2HoJGx0I1ZIF5bXK2UWp1VOx_ktp9wPqrpqUc49-rPKNQyQGbnVaTWTIz5cRq3yp0iXapK8o5H-SvmGZxJHikUKgaRO2pgaeMuydZkLXHFzWFZsvCpAFaQ1DE_XPAGRiKYzNFvJGKw7mQMH_czrfPE-F-tdWIQF9wgdEJDwPrbCv_pHH7NfVhjQhP4k0gcSF1LMc=",
+   "status": null
+  },
+  {
+   "arguments": "{\"url\":\"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/mpub-archives/commercial/medical-policy-update-bulletin-march-2026-full.pdf\"}",
+   "call_id": "call_HiROS0YUSftUtTgvhj75FtYt",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_0ee4541896818691016a9b6c733c4887d280b40281882d413e",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_HiROS0YUSftUtTgvhj75FtYt",
+   "output": "{\"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/mpub-archives/commercial/medical-policy-update-bulletin-march-2026-full.pdf\", \"final_url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/mpub-archives/commercial/medical-policy-update-bulletin-march-2026-full.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"error\": \"fetch blocked or unreadable: extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "id": "rs_0ee4541896818691016a9b6c75015c87d2b45973056d89da56",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2x2EW5IhKgMgjezapcuw-s33Z4a7k5GaYuKxypbMjerDKMmYFssU2fdf_jJrD3HCV1skYNZOq7lPXWW0_RaH7DZ3P9cQEaNTb9lvIcve2xUiJs9WeN2BGdrvBdvGvekaSRmRC454AQDFxMKDRx709i4fxaoIwuLZw8WTOR-7JBBNPpHJxlgm4CmyCpMuZMOlNcuY4ahEyuWRU3JkHAsO9DGUApiWM4nnYeWO94OwIx94qx6Axeia2CaxCwhT5GI2s93hUfRFb90_kwv8YDKxHha9gmU-sR_9-rwAHHO557EBTluM1Kbo03GpYOYIUmhHYKO01DXx5uWe8wbNJzxzOjQqiEEvMoALxlKwiRcchNivo-HgXgAIyFrKJsezC9CB7QJbMQHVgZF-YmMgNSOgPDzW4Vk0WMV6jPlNEwlwPq79XHNCCfcq9xgTPC6QM5pYvnIf1jg4rRqbbooFIDDDWlE55A3i2XOJd2qoyhJ--gRPo5c-Eu6pwtnZrFBDPttDlCHvRmm4_lrel6t_63i4YsyUM-NpG5CK6vMzFgoGw7wjuebH2uA2FOG2KmaVuzUQuytuFHSzfKIUKIizXGAtmMUIfRhfD95Bw3h0TQn_GgnpHa5TYIsNAh0uUGtxamQM9ew7tz-p06ofFC0X_6lFSC-3BojqzfHR-0pRbTr64YE11yzLBMAIygSY6n6iTrD6lhnWExiqPR7vnQwkR1gHAyYapocJ6545y-KZmJUiZAB9f_gEx22DS05PmdZkGGYv5TZJttJF5NZMZyP38JzZ6765sinH5j1duEy889OiYV-KyyMEfFZ3iFhqGouvqLybrc-ssUxqjYvCTZJtCMk_IvEFz0ETR_gMdv1r_vx62DsBCq_9sqbbyQzTwSXaUcagYPpP1uj31-4Mj1Nbxd_mbzdmJ-kkJxe0p2ggB5XRn92RaCRONcAehZmTU_Yg2VqKQWhXtx5LEN1ebKTmA8PjgcBQSgZO4glcllkirUkdKyzI6dxwzTsUzkE125BWPmToHwvroLX0ai2UIHJp4aTOd4ErobmqqlCzzSwevRmD3LEb0yHilengw7n1UjQcsSNf8h5_Y5DKOwiQJOmCoA5q4js1aeVQ2Dw2uGC-dmIdU8jrE8U1f0-0IFvFsAb_AW00YrFAHh4rl_ZiL9RZ-D4FyV23Rsdc9rcbCJKbXQ8AxT466CQyaaTG60GkOyh1el56P3M8YidXPTzN0RP-qGrPOiilqS7v0YNZCWlnhEVFFcuM90jtmQzeqwmWY71OPD36ZOSqEMDHQhBeAVhr5J769LiqjZu16yCGE4NEYA7GabgRcsm-EhslwvdoZsEAM794yvWvCNrchvrakCB7FN9Nrs4x3HhPEpSFEIDziFkDaOmTBEELUX31K3WkgMtjtETtAw94H1OHbGDz3hr_afXKM9cuFueHakyHc-RlWUu39OWWyKz-IwEv3oJlrAeAqxqd_9W6N_Y_vEQFYY4pgEy24AdIpp89Q0gK8wqGv_C0dN7uhNtBFLam01I_GKTRtczGdZh",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Surgery of the Knee\\\" \\\"Effective Date: 06.01.2026\\\" UnitedHealthcare\",\"count\":5}",
+   "call_id": "call_BrG4uFiHumv9676CG9UqEafA",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0ee4541896818691016a9b6c75d21487d2bdc7119e0fdf6942",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_BrG4uFiHumv9676CG9UqEafA",
+   "output": "{\"query\": \"\\\"Surgery of the Knee\\\" \\\"Effective Date: 06.01.2026\\\" UnitedHealthcare\", \"results\": [{\"title\": \"UnitedHealthcare | UMR Medical & Drug Policies | UHCprovider.com\", \"url\": \"https://www.uhcprovider.com/en/policies-protocols/commercial-policies/umr-medical-drug-policies.html\", \"snippet\": \"Effective Date: 06.01.2026 \u2013 <strong>This policy addresses surgery of the knee</strong>.\"}], \"result_count\": 1, \"error\": null}"
+  },
+  {
+   "id": "rs_0ee4541896818691016a9b6c77988887d292b0b6f7827a8eb4",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2x4h7eBxJC07wtz0sgiFFS_vRd6v0zhP9hsHwJhCVXmaNk-qewl9vuypVD04jeYbvCtCpZWSFwb--omwIotbhhMBHn6UP7D_ezAlEK9-qFeANb1VDqx9AcjkKXMAMi9o8etxukMx5Tbvp1hbgeNf5gpk-AQGT9P1fyTn_FH1TxfOm8VFwyPPAtabJSXIXwDvHu_CfEDa0sg03iY0ywd7A3FEfjBdkKoAJ5yOw5QFlttyqldubyMzPzKT0M37CRUD_VjFxCe853aIpDiwey7iDPZsA32eyA_TUKXBeh3wb1LHDB95v5pV6S0HTm0_UwoM0F6bHwulONBwDOhkIcbtfFJIAMhie37A2OqPQ5yE4H1RMdHzQfn5ZV4lyH-U7HMr4EYJTO3X5glyYokipFROn0PJFH71x0hXnIdL5pLpMCsblUokH-t4FkMuEea_meKbjFrZ1clCV6zL7wEV3h09ImI-Dgpw9lmE8zeHBEMS_-stTzoMP0Ektkw2_PTWmn3LuT4I8EOrNdUtoS4a8dHjKRGrrLm7G9GYsMOGToss-02V8AiHGezsj_d6zhsHM2o3Rpag0GZcrOPqEnoAhRVVulbqF8De0wS7x5AWuZ0bQeku4OsTvl-uvNng9Nl-Wk4omSvtS6m8ZD4wjjBtifiyc3nZcPcGazNRzuM1deH_SvHYxgyxt6WxEbfwHWHudbzHcIdUVmZ-4twFtecegQYLDyrG-ikQ0WzDorAKfaRNfeE8YbHZn3orNwQyCfJ0Eoo-HIqm85_XFT6bUJclq22wOZ_hlVMOomkF4mIjySD-6X46X20Cj4Dtfl_8A7cDT0jFo3gWuPnruHg-Y5gAPhBcR4dks9hljWBDzYOaDLRZOjcDgzaxlYZNuzZ8zS9ZTRwrR_R4riLDSQINdOk4WodRcYk5YMLGf68ggFJsUw-vI1n0M-O_7h7k6AJgDRBJeHs7Wqddy7SU9494XMIGE5EWSFg_wN6grMgQ3opcYhz3SRWb_XiXTKNYdwqZqPhkbIGQ79iv6OvBnKwwKRy-rqsPx71MSENssJD1a7yABvy3kZwHIm2nxwgtF8eay5iSUMkxERxtbN3rmX70apEd6fHDWthAjM1pOccDWiX546WoHOuJTcIi3ZggVuEf69ipSHOoKnse11ckCH2ehwTvW7HjAjCjYBT9yTGwkftDN2N0xqS7cS-f7J7yDtXyifSlHWfrl193btkQ79XpoITt17rLQq_Fs4bV-chQFlpNRSCMJCe2k3cp1h3nrdU0lJXAdl0ipGnlNd63SecGbKqIDgXvQhgr6FXrHLyYAf6sxy2nLmWMLEErXvWQTAIOQzG365fdj8Rw_VdEhezMzYrfZbL7kBXhg==",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"\\\"29888\\\" \\\"conservative treatment\\\" UnitedHealthcare\",\"count\":10}",
+   "call_id": "call_0qnzU1fa2OBMQn2QTvDxlrcL",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0ee4541896818691016a9b6c78144c87d29323a9d65f8b6eb3",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_0qnzU1fa2OBMQn2QTvDxlrcL",
+   "output": "{\"query\": \"\\\"29888\\\" \\\"conservative treatment\\\" UnitedHealthcare\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "arguments": "{\"query\":\"UnitedHealthcare ACL reconstruction medical necessity criteria instability MRI physical therapy policy\",\"count\":10}",
+   "call_id": "call_AG5rzDixoYNL6aUHzKfSh9Bk",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0ee4541896818691016a9b6c7a068c87d2833c7ac21a95d0b5",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_AG5rzDixoYNL6aUHzKfSh9Bk",
+   "output": "{\"query\": \"UnitedHealthcare ACL reconstruction medical necessity criteria instability MRI physical therapy policy\", \"results\": [{\"title\": \"Magnetic Resonance Imaging (MRI) and Computed ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/mri-ct-scan-site-of-service.pdf\", \"snippet\": \"An MRI/CT imaging procedure in ... \u00b7 procedure, including but not limited to the following: <strong>Moderate or deep sedation or general anesthesia is required for the procedure and a freestanding facility providing</strong> ......\"}, {\"title\": \"Habilitation and Rehabilitation Therapy (Occupational, Physical, and Speech)\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/habilitative-services-outpatient-rehabilitation-therapy.pdf\", \"snippet\": \"medical necessity clinical coverage criteria, refer to the InterQual\u00ae LOC: Outpatient Rehabilitation &amp; Chiropractic. Click here to view the InterQual\u00ae criteria. The documentation requirements outlined below are used in addition to InterQual\u00ae to assess whether the individual meets \u00b7 the clinical criteria for coverage but does not guarantee coverage of the service requested. ... Proprietary Information of UnitedHealthcare.\"}, {\"title\": \"ACL Reconstruction Surgery - Complete Orthopedics\", \"url\": \"https://www.cortho.org/knee/anterior-cruciate-ligament/acl-reconstruction/\", \"snippet\": \"Not all ACL injuries require surgery, but for individuals who want to return to sports or activities that involve strenuous knee movements, reconstruction surgery may be necessary. The goal of surgery is to replace the torn ACL with a graft, typically from another part of the body or a donor. This graft serves as a scaffold for new tissue growth, eventually becoming a new ACL. Preparation for ACL Reconstruction Surgery: Before surgery, you\u2019ll undergo a thorough evaluation, including imaging tests like MRI scans, to assess the extent of the ACL injury.\"}, {\"title\": \"Does Medicaid Cover ACL Reconstruction? Coverage, Prior Auth & Costs | AdvOrtho\", \"url\": \"https://www.advortho.org/insurance/medicaid/covers/acl-reconstruction\", \"snippet\": \"Unlike joint replacement, there is generally no requirement to try conservative treatment first - <strong>a documented complete or significant partial ACL tear with functional instability is sufficient for medical necessity</strong>.\"}, {\"title\": \"r/HealthInsurance on Reddit: UHC Physical Therapy\", \"url\": \"https://www.reddit.com/r/HealthInsurance/comments/1st94fp/uhc_physical_therapy/\", \"snippet\": \"I am about 4 months out from extensive knee surgery, including ACL reconstruction, meniscus repair, and others. I have United Healthcare, and my plan only covers 20 sessions of physical therapy per calendar year. Since I had my surgery in early January, I used up all of my allotted physical therapy sessions by March going (conservatively) 2x a week. My surgeon and physical therapist assured me that I can request additional sessions to be covered via prior authorization with a letter of medical necessity from both providers.\"}, {\"title\": \"UnitedHealthcare\u2019s New Prior Authorization Rules for PT, OT, and ST\", \"url\": \"https://hellomds.com/new-prior-authorization-rules-for-pt-ot-and-st/\", \"snippet\": \"Here is how healthcare specialists can cope with UnitedHealthcare\u2019s New Prior Authorization Rules for PT, OT, and ST. Or offload their burden...\"}, {\"title\": \"Adult Musculoskeletal Imaging Guidelines (For Ohio Only)\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/prior-auth/radiology/Ohio-Radiology/2026/UN-CSRAD007OH-E-Adult-Musculoskeletal-02-2026.pdf\", \"snippet\": \"necessity of repetitive MRIs with GBCAs should be assessed.\"}, {\"title\": \"r/HealthInsurance on Reddit: MRI denied by UHC\", \"url\": \"https://www.reddit.com/r/HealthInsurance/comments/1g6sgcf/mri_denied_by_uhc/\", \"snippet\": \"However, you can choose to pay &quot;cash&quot; (most imaging providers will accept credit cards the same as cash) pricing without having to seek approval from insurance companies to break the impasse. The results may be used to support the medical necessity of treatment other than PT - insurance can&#x27;t deny the results just because they didn&#x27;t pay for it.\"}, {\"title\": \"Skilled Nursing Facility, Rehabilitation, Long-Term Acute ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medadv-mp/snf-rehab-ltc-hospitalization.pdf\", \"snippet\": \"Physical Therapy: Services provided within the scope of practice of physical therapists and necessary for the diagnosis \u00b7 and treatment of impairments, functional limitations, disabilities or changes in physical function and health status. Medicare Benefit Policy Manual, Chapter 15, \u00a7230.1, Practice of Physical Therapy. Skilled Nursing Facility, Rehabilitation, Long-Term Acute Care Hospital, and Private Duty Nursing ... Proprietary Information of UnitedHealthcare.\"}, {\"title\": \"Surgery of the Knee \u2013 Commercial and Individual ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf\", \"snippet\": \"This Medical Policy applies to UnitedHealthcare Commercial benefit plans. ... This Medical Policy applies to Individual Exchange benefit plans. ... Surgery of the knee is proven and medically necessary in certain circumstances.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "id": "rs_0ee4541896818691016a9b6c7c99d487d2af2bbf7e08a0ea75",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2x_mYej-AEzJmIiJugs8I9y4NPNIKhSXMwDMNPIIb1EYJvSr8KVm5sKEssWwLntDqmDc-QumHob9-VhkAIS3Q_soRDcZlqXSLbC1r034__M8R5M2PHdfJaoZhttEwiCAc9dTC4ujPWz40MX6f1m816xsDcld6cAAZSRiaVVIMMLxTCpD-g0wZsEfwHBPG3Fq_HdP0LOLHlFnUUBlAwDQxILbU_R-1eHOiCyW_oA2GHKO1SUl7OurX3pRqBvfees2VxN_ROd01KuQfWswTUhNEQGXO3-fiaGggKhTVrNV3wKE9LX7hXCZFQsrzvM2a5K59luOheg3DaVF1MLAABbFDcpqmID8AnVMP9FltNFXsp1fIL9_nYyC-NtGGNkV674o0cQOj0EJxHLArYByJl3Ophk0-NZIC2lF3ljYysxhUMO2o4OO4qRdFFp8JfzvFuEXQR-YOYfpjELpMZWqTs1z7f-3zPiKpXRm4yMBKFURxVvhoJ2Gyro7s2-SL8ZE6q1qb9WO-j342EdRc58ih5Nl50HrrS8jb4PgbaO9y_aWDLU7VpNyAJ7wCRYV2seEgF-JVIJWHMf7vM_1a7_DwHtM5aOlzkIzWJ2sbeDsVM1qRw1UBWoa-ewlfXefqIeRFSMBnNE8VqC5VmuMtnwMhCQ2VMoyeLvb2dsTzzsBiXr1MC6_A8DJd9IZidT0xSukxGUVkQy-COScjXcpFjgFeXh5ul7knTvp7UFej7UFHEzkA125UbQV2uhM0RU4F6QvJ18vFaq7ZRORGH1qrRgQmY1zg2IAG8A82M6D_ap-oG1Y4lym26dncQLA6VDNIlQxz9jIhTmOzL100UNTDrv6SipXVZhtnr_6Dqcv-NeEtK8jKg6v93BeSPR1jtgbs1qlzBrX5UTRoSxsIVKGO3IS6cimzv4P1dgA-FM_QJmvjvHqaFeOIypcd3aKWxvSkdJgxINCfw8hyo02ewpzhvzdWtzIrKao92380yrYi_o5BOOr5TBDK58AdfzW77Soo1MQfsdixz8CfNLAVJiLd8i6y5GhQxVckeckvz3GY_rGH0NpDA62bcUlnadrb6DhMWkISoC9hN4R_BzySWHNdtPRz4MrO7oPZqppQ8uo4Ni9ssbCmuqCokmJsbSBk99hPOI0RFA2RoOXjrvbD3aNzwCoYkAj5kQBkn6OcSMozfwcxjEaLcL0tCVyT4yQUaasgzZHMr3ZlVHSge9EeeKTSha84YnDHyIvJ2IarHwF1-yXIC_o1i30AoKGukyn89286OEMbRNHAs3nCuZj5F8pqo1qzYwIhQERej9qcg831HjMcNJB1owdOqEvEYIWeoy9uT8-1PRvbFo90PbboMw1VTo-Sh9vCQRkTNGHOsUhId3cKbjGhfydWT6bSUwW06Y-Pr_zoaLjg4F4gOxvZKei9YzgBLbGRkwHuqgnzZEINAvEeGaMnkHnuu8jZoObG7-X70OfpdOIw_m-45N9oz9MTfJq5plsEobCcEopT2-FFxpRJmwn51J6pRhsdmAXEGB6Nar-DXDkiY19Y2W5CnOk9ZephCQzXZsTIEQQhpgtgyvZh3w7ZWfUE3d52xp-p1RPnZ-2W6CmFVzj8u3SSnZ3wUPGDA6-5oUTvvGfmSQD3_wNKQkiQGm2VJAU9lHfXG6uFVbApk0E-pMViVM47T2JJQokUW3UmL2VZlHTz9uolybV2ZE0BG7As_9EQZ8RnQW5pj7ihHVIv-jiwIj8NdPjAPyRgSBV-eKbftb_3JZLpp7K4bjRJlZEUNxVPrfPxmL58XyMWalb8A1hu0PV-ypXzRLsp1Bbq5bj--j0yohcRms_OAgdudvAe3FZ__fInWznugOm3MaU1_WxhVWIDftX-1CedeWBLH2-nJH0VJJ9FG5WGM7T-wO6HBwD_CrrFsMWf4_qOhZKFpwJkSyBoMTGkAYuw3bEcUwSeBDNYurCVZMyU8mw8lh-67M4nh2NWafZmY2IZeiiR5YUk9hagfV8vu-95MkO0nEE50qAftZIewA9qeA5EoY9HgDS6eLuaIPmwimlK7DDRJH-lOauA5WrmcghzJej3OIEO6o-LI66z1JyusIJrsZVcKRgItAWwH_kb4-gElgjNv-92xRdQg56FnXFE4Bz8hoOFSn46XLlHza8HjzlzPe1pBQX4X7uJffun44lcajYGsLHya1Yzv17HTOmjCY2rwf5oiEhgxX7_AK0DGdEUct--GToit1IMxkWlmTnigCPl0u",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf \\\"Surgery of the knee is proven\\\"\",\"count\":10}",
+   "call_id": "call_PgPgtoUX17MXI8UaDYmKNBba",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0ee4541896818691016a9b6c7e8a4087d29eea8da70635b998",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_PgPgtoUX17MXI8UaDYmKNBba",
+   "output": "{\"query\": \"site:uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf \\\"Surgery of the knee is proven\\\"\", \"results\": [{\"title\": \"Surgery of the Knee \u2013 Commercial and Individual ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf\", \"snippet\": \"Surgery of the knee is <strong>proven and medically necessary in certain circumstances</strong>.\"}], \"result_count\": 1, \"error\": null}"
+  },
+  {
+   "arguments": "{\"query\":\"site:uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf \\\"anterior cruciate\\\" medically necessary\",\"count\":10}",
+   "call_id": "call_2STR59XpVMT2k8Emrn7OGoZZ",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0ee4541896818691016a9b6c804f9c87d2a7f6d79aa22cdf3c",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_2STR59XpVMT2k8Emrn7OGoZZ",
+   "output": "{\"query\": \"site:uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf \\\"anterior cruciate\\\" medically necessary\", \"results\": [{\"title\": \"Surgery of the Knee \u2013 Commercial and Individual ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf\", \"snippet\": \"Surgery of the knee is proven and medically necessary in certain circumstances.\"}], \"result_count\": 1, \"error\": null}"
+  },
+  {
+   "id": "rs_0ee4541896818691016a9b6c82d44087d29347b2571ef4ca6d",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2yErDZWATaK4LlOiP12HXMDUQc2-Ph2q9CKeusoKQrD-qGAqneMZaA1FGE3ybdL9ZYUaJlD4jrG6bJq73Mf1L2naE5PtJUiXfpJJ9J5HfJtSeV9CaKzLiOH0AtL_6lpcSMUQlQxDdHvc9qCa2MHEulYoeN11J-Xe4mv6KtbnLVJaaS5s4plxlQknUcj223Eiix2wDB8Jt-sTlbIN5jhXVU2-2ax_eIEYJP9iXZnxxOzwRKr_tgUUzPY07ylK4oE0BzWXJuUHmu8cxWoca-se9SuNQYZXOxvzlwkdIGRcoYl-iGYsIoGr2yDb9l0F4oqEVD0QxwUcsFx9SVeiDX5geAznyXMIQ_kSkTobo-71jTXLtAIUuCJmA4jrkn_lGN_iI3sJWdHULkzyMdulLluIPb2YABjpQZ-QZtyoEMPU_YlaaDJmbnsNYK7WsPrKVBUihrDNG8a5SM-XDsXy1XA8fxBlHlVwL8D1u8i_LQlr5HytglNU94ThYEWP_JpaXf5mtOnYbmz20WT7cFvlDOc8py3agDmz2ypIlmmXMXLNlF2olZpK7K9M1Ixt1jVRD2j88clFxN3Bu-X5dAqi0XXxM4_Nblqc_de6NOIhxJoZcYPhLM-Jd68MwFB88eKUTzMgiK2ezdJlauYFsXhWwBSyIrAZ1breu__s8p1DD7Gi18TLxbS1ZfD6eB1R8U9RRj5HXlBlc1hJOfepVxEyB8v6yDiakMPfv5JFxPbGBlbwB0LQQs06mEMQBoTuNCqmz7091jXWBMC-NUNpkpr8erNkQA0Jt2MHNMUqv9N7OaiUEELuqsHR8ijawUxnCuZuHiZnfiqGyL0__DVNAaSvlCJaRi5SrVfTUnAYJfTR0rJKqArpfR2luUTY6tfqBs5R4SzUrrIX4zhWEw30dJrxW4VO_cQRGEZCxTjkeYxRS2acXWqgkUrReGikQb1APfhN5kN_Kl1pzKlPBpVItQM81pi9_FtPkkf8U3GKcX0a5anfiXBvi4LeUj-lLn3wYG3R0WlT7j18s1VwX-Y8vr8fW_93aLM_yNpxG0NmAB7I2CMWWpA24WlsrtSmNnEMcEoPxseNQ2YNrEjKb0cdcnNpnEWv6oX5_Nz9MRDNjd0rPzF0osGdPGPsbnoLehQUiawd4oAQvr8gisy1yss3O5ENpUHsxZIpeUjhSbYBUdcZhpzUKo7xBB9JvRrvQ-EQde1hGLQPd_LhF44hSJ53z1V1u6TmWQbX1gSepqFUXRHD52t2bp34ZQroywS0nSidomjYEeyhiRZ8ZmaluULatsUjQ1fw9bRBc9-sPZ1jAwuEe8Ag4kJmo8p5CmhSW-32KfcRHdLqMgewe-ZkaOX8bM59waYVrReepiIL2R9dICqdGQ2sS8C_NK96elOiBf0hNnk4jLh0RSqbbxtI9reHblbLvZI0DJ8nFXUBS6pM7RytmPsfrmy7jzmyP3KJBHjXGBAtpxJfjcufUEANOoSWqbOlgYVPYBFJay9H1wyY6vWMx9mKIb_QRc=",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Surgery of the Knee\\\" \\\"UnitedHealthcare\\\" \\\"Policy Number\\\" PDF -medicare\",\"count\":20}",
+   "call_id": "call_WtbSPOPO4k5g0G2i9Adc1Nh4",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0ee4541896818691016a9b6c83954487d2b9374876737037fa",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_WtbSPOPO4k5g0G2i9Adc1Nh4",
+   "output": "{\"query\": \"\\\"Surgery of the Knee\\\" \\\"UnitedHealthcare\\\" \\\"Policy Number\\\" PDF -medicare\", \"results\": [{\"title\": \"Surgery of the Knee \u2013 Commercial and Individual Exchange Medical Policy\", \"url\": \"https://manuals.plus/m/03a51bd458734664a60482e43a67df0b808edef245861eeef95f18cd6e7093e9\", \"snippet\": \"UnitedHealthcare\ufffd Commercial and Individual Exchange Medical Policy Surgery of the Knee Policy Number: 2025T0553EE <strong>Effective Date: June 1, 2025</strong> Instructions for Use Table of Contents Page Application..........................................\"}, {\"title\": \"Surgery of the Knee (for New Jersey Only) Page 1 of 10\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/nj/surgery-knee-nj-cs.pdf\", \"snippet\": \"UnitedHealthcare\u00ae Community Plan \u00b7 Medical Policy \u00b7 Surgery of the Knee (for New Jersey Only) Policy Number: <strong>CS068NJ.Y</strong> \u00b7 Effective Date: March 1, 2026 \u00b7 \uf0dc Instructions for Use \u00b7 Table of Contents \u00b7 Page \u00b7 Application ..................................................................\"}], \"result_count\": 2, \"error\": null}"
+  },
+  {
+   "id": "rs_0ee4541896818691016a9b6c865ed487d2978d4b7755c25747",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2yHw1laiT9ijAp8TPwfbbq5JF0PCsfFWEu9A4CfXYvjO4qqEk5F3YED7I_kQnN8f8xCVBP2UnRyBy3KVAIgZ_cpof3DBL42W90iR0gKdJkL95PvFyJYF_bKA74DPp-pa52M5Zzrn1gfgQaXf08h6ZBAN9jPKtye4OpOT6j3D3s75JXPrs84aK_jKdDtrACPg6EuApG0OyFp6XiGSHAclzI1sB0vC-ivI77OT10CDaRgYIl-KkgWwCws579GpN8UcznL9TySMFgvcEcCwGtqbLTPKNGNNyYZ0c0Dl58rGRFqsQysMqyDmGBtXe7ur_7_YcYfCtQRsaQe2haw36o_FrPOWb7b_P3XBYyuLsIYZczvuTYootaXuDChYYGEWXzrfRLL_KVfISna6zKJ5r35qg60lsAJSoc7Fw4glEpB8TmKkaeOoIqNbQC6giP6VLY41lZgt7qRHhCJyP7Ej1ci_ydqm6VuIF0CDwaE7GljS7B2BAXrHDpvLUnBw4P6VpYYHoQvs2KxrkhouGxE-0KV1dMD6sZWEvNSA8SncWoOqHwqsWKJfOdwO2rLWLcb3SuE9216ZRDZXgs8s5oeWNXE-5-gCtgBcDDE8pbCEG2eyr_hlWzzgFxKOV-JVbOiK2xb49DnI0tm0ula0MM5Qak5nW4a9MYV-IAuZEyE6YxAY6VxzsBOdBy7OQkbyeq1jDuP8sgaFwIKkFJyD1lLy95OpZOww5ewWA78-k9dY4FWmy11Cxr8sWXJYhOhzJn6g7Y2nRBuBNZlp9aZKp7ZkF75TDJN0-hkfvTzaxRqLR05ve3GssrSURLLM6DShyvH0rnPeNL4cA08n6xICW6bJY_DE80xUYTHs0vaFMBzPRVN_clKGlyDshH3o9WYoOnOQDWFSqQ8-7f4Cmi98ylWUL9l3BbClSK-RXE3iJYL3dJhGeWAvv1o7JYE0fKgs7HtOjpnU6eQF9DnttLQT2RIYjshU7vCDXQDeruNjQle8-GrVB0_sxB07MBU22O3scHxg9TNjF86EQcE_rbbWiiFs9-k-0C8Kd8Qr0BHz-hSPYb72c7vw-bug4jjkyn9VqdT81LJk2BtE7uK06I0O9mWoxpFUUp3-0QJMGCrCUpJQE2XS6zzqPSQ4u-NE6f-SqeGUVjWHsXEcJ8X0nFtoF0LpQkm9JHts95EBrBm8Ns719XzTzjGlaJG8NAbvFoFVleQUvKPH1vEZ-9-kPemmz3AZR402k_6vVzOZCR9ThStEpOfTFqSiZxTVvskDPAS2y_EYBYXCSoc",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Surgery of the Knee\\\" \\\"2026T0553EE\\\"\",\"count\":10}",
+   "call_id": "call_EDkTsUHogCDUdv2GqgJ7iu1H",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0ee4541896818691016a9b6c86afe887d28b913787e165a575",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_EDkTsUHogCDUdv2GqgJ7iu1H",
+   "output": "{\"query\": \"\\\"Surgery of the Knee\\\" \\\"2026T0553EE\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "id": "rs_0ee4541896818691016a9b6c88c0cc87d299184d2c7102f6af",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2yJ33SgiYfsytatc-Fz5-3jHmdrZLSJVHeMzJzzpRaUTfjxv6EhXPcq9BpBcmBPp1DbsT-cT0j482A7NfUJk2qUsWGNYbLgaUyS1Pmyb-uv1DR1Uxi5nH0U5xhj4E3I1hd0awozXaK8Jy1VaamhFG2bwUi18c9QjbY6jOR1IFO2UtIoNUzc5sZF-E7GGjDGCFxYwWAFzQv_KzVG0vsCgQo9L-79oqcVJYQsQyw23lrKEgE9Tfth9nSlHzFAk_mGkf1u0jGxBYqh4n8hPgPkAitRz8zr-aGv4m4dTqNugisKEfZvKbQdmZBw90gBkRjRA6s9-28YPylQSvcxstG3v7TGVuNUUcaejJnj7_7AFQJvZS2A7LYtNcofE6D77m7Mfky42DUkq3ed1RuIU78wOXax5ymRNj9A6BIQ0QStKkgG2KLPRPlJN_4B77JfcyEiH4_nyM7mdKxaDrRlWSZzYoKIglg_9lYfc5_shVDNLnRtkm5CEP7TiX8UgvVh0AIERnbYnrdgw0jyuQsEcNJ3HNdBOB3Ju_LalxQ4nQ-rAPEUvFgzy1Ex31YdFOCpFMe9EOBzWHywDezLRn9ddIATmshIUm2mEy5l1ThpVhxXqFy4IyYYruOaikkhACo1ZfEGG_2Vj286BaqeCWJZhadvwRJKbTkLqsv1i-zpvNlpcPFlN734w_qXc2PmzSGqmLWe4r0xfK_UPEcQAIFMVCFUV0-vqJ0jZxJnMS-db-G9SvcP9JWG8YKTf657UAs-Qf6F8nv4xFwvISfD05nInsOKOpqh9uy0M5N2ZV1kbi-4StEa0qqF4rfmmjtEKvBsG7UqoTky4Iuf3z9iOZIQalR3QAcUW8ghpmNV40yd6YtS1CPwGzjmiLFd8N0wq3c48cRfChaGIx1DdHZLPvG8w_H07Uajnn-8Aq4r0H3T8__zpw4vLa7dLOZ5o6GX9bEncpTrELile0TlBeAwDVhkHixX2xxJjdxDhlbzIu8HWd9d0BRUSA-DdMyIDCs_cKpzjl4g8HT3ogK5NZaPblqPnQnAzq4_WskJ0ZVxEkwVs2aDXxKRKccpHc54xliMb65v2zaElMoZiuFE08UnIAgjXKG4oOfamm_FIE1YkKJcGrR2W2ucrMGGA-k1t7DSRn1kibJ-FDkCcoDbtBi_NDiO0sNMvMGJIdqNDsVcBPeWA4oTuBxEgDQ6flZ3TILDdfGrnuwDfJ5qhHxYey9ckgouTwyfolffd9rXd0t1bl3gaES_46nF39r4QxkK908WwrRs7DR9NQnPvYNWH0KLqNmtQPTw3D8Tuc0lqHfdph-VctnAtnkW5Lo=",
+   "status": null
+  },
+  {
+   "arguments": "{\"url\":\"https://manuals.plus/m/03a51bd458734664a60482e43a67df0b808edef245861eeef95f18cd6e7093e9\"}",
+   "call_id": "call_UFq6qUB0qZdgErw8qQh4LGhR",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_0ee4541896818691016a9b6c89518487d2a491e2fa730e6184",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_UFq6qUB0qZdgErw8qQh4LGhR",
+   "output": "{\"url\": \"https://manuals.plus/m/03a51bd458734664a60482e43a67df0b808edef245861eeef95f18cd6e7093e9\", \"final_url\": \"https://manuals.plus/m/03a51bd458734664a60482e43a67df0b808edef245861eeef95f18cd6e7093e9\", \"http_status\": 403, \"content_type\": \"text/html; charset=UTF-8\", \"login_wall\": true, \"blocked\": true, \"blocked_reason\": \"cloudflare_challenge\", \"error\": \"fetch blocked or unreadable: cloudflare_challenge\", \"text\": \"Security check | Manuals+ Manuals+ \ud83e\udd16 Complete the security check We need to verify this request before allowing access. Enable JavaScript and cookies to continue Go Home Status: 403 Ray ID: a3615dfecbafb2c0 IP: 2601:43:101:4380:5b:4c51:aaab:b88d Region: US\", \"text_truncated\": false}"
+  },
+  {
+   "id": "rs_0ee4541896818691016a9b6c8aa86887d2a49d17042bec0ccb",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2yLUre2pTWYvlR374Ohqsf8XjgacPX_FCad5YL8XDu0CPiy8siwKnndrCw51WXfA9wUYLfv4L6cEAE04a06CChL4tNC6FAsZrhxuF3q-AI0_KgBsXOldUwqzz8okud3cPLniZxBbxP_jnTNRkb60z-GNKZAKXmPbftUruTKTJ4UFtkdAyZe6-S37NNE3sPztwcRptTvvcdzurhezjeNdlOe_XG_OYnKs2GWJsOavnOaQnlrzWdSvhoz9LXVIeBSzPeBeSpA0gcGUgfO80UHuka0LET8UCtNeJAg2Wufegb3eBUVAAq87Qa7dxlQazEmAujpZo4YpqJo6wSqp2PFt1A13zoswjywyMF_9DoT5nz8g6E6xYejmbQD4KByh5uNajAuSCGy2cTZyecJH-o9aXpRapXlJ5GaVJo8vsU-pgQW8ZofKCtXJaT_nQJaIVPGj8G47-VWa2rpRtiuYPYP5fmeBfEjlzxVK8q8ROLmbvffxPfYY8czafnUYcOPY7hK7trpYw_lBoVEWmeWyBcxz-GXQrIV4jbPZ0QyKLxkG2MCuCReCr9p0mBGdCRxvRwmJ25njgeH_dO8vGo9fqUzVnlkW76ERKOxuc47qPk_uZy3kLMGmtSDyYZX017KQLAcxL-Kqi9GAv7MfS9r7O_mBVDr3E2nyGPElWXK_7uEZ_5A340DvrEStlWtlLQhSIFobiyFadRfePqYpgCojeZBYkP4T3iHopWhWdM1hxRTCylkpxXt-d87OcqPRxriImBlg7i1PjQPSwHIJVt_tIlmNusiPkcFgyPXI2ggKi3xRqKn9NpbY-jIriv3PKb3nCvhJaoEkt1UZPSsjuSTzHAIcXZLsF-dO6L9hhE6zgUkR4gT_7q2exnplwFmabYbFGTzI7srn6dH-pR9epza7a8KfpdO5PngHKGkCN2udgY9V_nTC7WAfBpIrUZzMWuTCnF4IDcDSI_W0kPzjS_oK240h_wChjAXTiFA_KPgn03BchJH1N5gaCLppTCCXUmXv94FRxEbKs0nNn8kcOSdGYGgHPbWS74Q2P47tes4qx3aPXW9eqkqzqBUfQkBmRD2j2LVqi17tkxseEAoaPxRFpBshoD6SCSl1ePeKTQpFE_2-tQz3I7sMlb2QGP4xsa_Kh9OikNhjDZIVkoVq6gK5OlCICTDw2jndo6YqB-hZliCcvKlcy9TGC6Bl-GivVc2KH4z3-pt_wyHIesa4D6pASFZJgs0mfv71ZAJnaugXetGqNYv0CU=",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"\\\"2025T0553EE\\\" \\\"ACL\\\" OR \\\"conservative\\\" OR \\\"29888\\\"\",\"count\":10}",
+   "call_id": "call_JCQz9NtATLcYqg4fpCkV4ZJo",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0ee4541896818691016a9b6c8b024887d29f3d165955a8257c",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_JCQz9NtATLcYqg4fpCkV4ZJo",
+   "output": "{\"query\": \"\\\"2025T0553EE\\\" \\\"ACL\\\" OR \\\"conservative\\\" OR \\\"29888\\\"\", \"results\": [{\"title\": \"CPT Code 29888 Description, Scenarios & Applicable Modifiers\", \"url\": \"https://medibillmd.com/blog/cpt-code-29888/\", \"snippet\": \"CPT code 29888 is a medical billing code used for <strong>knee arthroscopy</strong>, a minimally invasive surgical procedure to repair the anterior cruciate ligament (ACL)\"}, {\"title\": \"CPT\u00ae 2025 American Medical Association. All rights reserved.\", \"url\": \"https://www.aapc.com/codes/scc_articles/article_pdf/42/knee-surgery-ace-acl-claims-with-these-tips-156971\", \"snippet\": \"In order to code your ACL repair claim correctly, you&#x27;ll \ufb01rst need to know what constitutes a codeable ACL repair, and is \u00b7 thus eligible for 29888 (<strong>Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction</strong>).\"}, {\"title\": \"Score points with accurate ACL coding Accurate ACL Coding\", \"url\": \"https://www.aapc.com/codes/coding-newsletters/my-orthopedic-coding-alert/score-points-with-accurate-acl-coding-accurate-acl-coding-article\", \"snippet\": \"The CPT code for either procedure is 29888 (<strong>Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction</strong>). &quot;A repair is rarely performed -- a reconstruction is almost always needed,&quot; says Shelly Ghrist, CPC, assistant manager of Wolf Creek Medical Associates in Grove ...\"}, {\"title\": \"29888 - Arthroscopically aided anterior cruciate ligament ...\", \"url\": \"https://genhealth.ai/code/cpt4/29888-arthroscopically-aided-anterior-cruciate-ligament-repairaugmentation-or-reconstruction\", \"snippet\": \"<strong>The procedure involves using an arthroscope and specialized instruments to repair or reconstruct a torn ACL in the knee</strong>. An art\"}, {\"title\": \"Score Points with Accurate ACL Coding With This Expert Advice : ACL\", \"url\": \"https://www.aapc.com/codes/coding-newsletters/my-orthopedic-coding-alert/acl-score-points-with-accurate-acl-coding-with-this-expert-advice-152653-article\", \"snippet\": \"When your physician treats an ACL injury, he has two options: repair the ligament, or reconstruct it. The CPT\u00ae code for either procedure is 29888 (<strong>Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction</strong>).\"}, {\"title\": \"Ace ACL Claims with these Tips : Knee Surgery\", \"url\": \"https://www.aapc.com/codes/coding-newsletters/my-orthopedic-coding-alert/knee-surgery-ace-acl-claims-with-these-tips-156971-article\", \"snippet\": \"Today, the patient reports to the orthopedist for ACL repair. Operative notes indicate that <strong>the orthopedist used arthroscopy to perform bone-patella-bone reconstruction on the ACL</strong>. For this encounter, you&#x27;d report 29888 for the repair.\"}, {\"title\": \"Internal Brace for ACL Reconstruction \u2014 KZA\", \"url\": \"https://www.kzanow.com/coding-coaches/internal-brace-for-acl-reconstruction\", \"snippet\": \"In this case, based on your inquiry, let your surgeon know she will report CPT code 29888 without any modifiers. The CPT code <strong>statesrepair/augmentation or reconstruction</strong>.\"}, {\"title\": \"Orthopedic | Coding for ACL Repair and Microfracture Chondroplasty\", \"url\": \"https://www.aapc.com/codes/coding-newsletters/my-orthopedic-coding-alert/coding-for-acl-repair-and-microfracture-chondroplasty-article\", \"snippet\": \"The Correct Coding Initiative (CCI), ... (HCFA), precipitates the difficulty with 29877. <strong>The CCI considers arthroscopic ACL and chondroplasty procedures performed at the same time to be bundled under CPT code 29888</strong>, explains Hapner....\"}, {\"title\": \"CPT\u00ae Code 29888 - Endoscopy/Arthroscopy Procedures on the Musculoskeletal System - Codify by AAPC\", \"url\": \"https://www.aapc.com/codes/cpt-codes/29888\", \"snippet\": \"CPT Code 29888, Surgical Procedures on the Musculoskeletal System, <strong>Endoscopy/Arthroscopy Procedures on the Musculoskeletal System</strong> - Codify by AAPC\"}, {\"title\": \"Anterior Cruciate Ligament Repair - AI-Powered ICD-10 Documentation\", \"url\": \"https://s10.ai/diagnoses/letter-a/anterior_cruciate_ligament_repair\", \"snippet\": \"ICD-10 code S83.51XA (Sprain of ... for the anticipated ACL reconstruction will be 29888 (<strong>Arthroscopy, knee, surgical; with anterior cruciate ligament reconstruction</strong>)....\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "id": "rs_0ee4541896818691016a9b6c8ce5f487d2938fc310f50e8d53",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2ycEJ1UdeO9SoZTGb9B75TB8TY-Paq5ax-cVONAELh0OYVqHSXAVnh2VQlKzZKkSxPlpW1ueWmDDTh9cw4vM1hWqeEw-dZhsnIoa31Lbf5CzglaVolNvDv0gXx8--mnYo_U42MR4ITaG2TxUJahP8AQMV8adADy9VkCNdtkWdH8TVLnJriCpt6_vFS4cn-Vpawa5A4b_I2a30VGgWmBRwjng8U8j06icMImtJ2nClgJR682ZugLYKE3AiYcQnf5P3m97mhlUXkXscu4rYVyMNkaG2H3HoFdMEakZASQEiy5NNCdu1dlDVk_FsXRwEgS4m8tnNjyrUDiFdxpNBkH9OMpygRnETrDEwKjiR1yD2SwQHE05Q9SCREGMGamSMVBT1Y_xe05vuNg7aFJKf25-JIXwgSDKGkkSzQgJXGrWNK8Pbh21uWUM79kFYSD8lkPoh13uGnCmgYlc3MuS2YMKuIpCOShw_hkUS8VRIRXUCXzboM7m_mPxnC58Aar578p35Fnu5PCwACVjOnYEUNr92YzBIHRrZUc8QQ8LuTFyBGlfU7xXerq62FLjRtwR89XaJxOYmF1qHNgM3wyZ5SxDQID7qL8CWi1740oY8UGKOMnnHoMjFgCWK86qcyRS6d0qZhuKpTarcPeQeL3FbkxzmwrlLMizAd6t38nKHbEf7-GIvNNMEJRO17H_3lwvdXmkci58HtLs0dtavozgVarG5KI60EvBtnkkBTFM0vJ0w4FHSBuOCeXCczh7bJMGFRzL_gA1joNUaXf3Mv7III7uMCWHF8vtzmfRP6etv0_XPUAuIZLyX6I28ao9GmGjGxSAhal2LLGqEvyygBYVXzbmRaDMVPQKtKfvUhgM_dnhoUfm9k66R_2lLQaIm2ItZvqPL--W8jD03s7ra9h43QqKDfkiIFqftnJ5pNXrUy6OiQy7o86ChU87u8C6uQ-XNTOSJHNwHM_CbKM5VvCft7aehS0j6x6JyDoczYOgmNvH7M8B_ZkRwMy7rNW5Eagd41ueMYfGZtUEFZhRgmVvqWQnTMaeENP5tlynUS2U3ZNTDNVVAvt34POCOFLtJHmtsqagTc_lOWUomjmSDrJlhxURVfi3gNAcN8CLK2D7F3NoA_CehUpbLWpb2idn2Srim4_548L6xu-ZqxFZ5v52BZ8p0E9Tbrbn3DKMgfG0NEfHDBhLoJttphryjlGBZe58Qu1fyJGTTX6vz4cRtfny6MKw2M0RjzoIx0ZYOOGXSaQQA21xQR7mw0wxE7OMG-U861lfRgzBoTThC-lmD9ymb_NMbAd7s3KXaDaauN1SG_D6P0vp_xZ4FT53BJcj0XufkTTGnG-4Pxr5yM_RdxG_F99lpU5L7Ni4kPiV3BQkO9AGlG1EP7TBCE383wQOGlZC9YUBPqdKq7Y0VufcX_Qi1Kp7fdy3m8J9RVQ4CCznIP4rUjnY4I6OkAyLUZks__2FlpsV99QkEmye7OD8524lPpzbK2T-R5zXtP7cpmcVeyJtJXp-SWOYjz3q7k5soQfCassXkLcMld2Tlhn8I_8ix7a7q-e16bK2UK78fxZ5TgkKMPPgvvHsxucOxmthCYXK3YCNYzbp6P3qhZH2UYtAQo48-0smFmD9iEKAqbOiEah7HR5G8brk8qY-KrBdkDEmodPjfPb2o8u2vWNKNcBgz4bnYy0BvPNn6CCb8xNTmG7iqB-HedhYF8Rp68bxjSNm0-a0l_EYJJaQTdYl1Kp6D0gZYrBdXUEVXgKiWLUvlebTwNgoKJTiqUd-sbL70XHQNgQ8Sj2etccKG9MMQ3iCCG0sJtYRXRGhfYqolMUD4DwTXuqmZP9fV2O-HNjRYjBp1gK8ll21ezyPAcTykY-XxJJR7F7UXO2NU4toqHZIJFxCYaYTbfEpgXith--qJg79C_zR5JMM-bsYJLT_HzYC7WAiPhXiZ8Q7NUDqtYUZKBNS9OtN12An9-YOkMfSdaovHzNg_6jfVGsiOyp3UdvWRAkOxVVUgLCVy9ictXUGCr0uThV23Cu4-OCsuLvordSPpA7lMix0R-j5-flRtuwc0xEcwsSbNmlnrMtUKAmz0dQbVOv7yPkPoVoVhC6B5GsT_pqoRhMyX6_Jpxb8qohNqCoNlVfxQv3Q_yTpaIMOBIa9Uy-L5Ch_IxOxPh1-BPG9Y2m-yHzg6hADCYbD1m4PW_7wkBO6qlwORH7Z9-43yeTP6NzAFPGss7diaRC-l2tyXWp5Mhrwx-7E3_ejgjxRZzeUj2CUd3j-pt1fmPxZK2o1Ehi5QE1lm9brBkerKITmTX1y0J4OYps7S4uNJBuezZzKVY550B3wrG_f188suCh4Vu8mexEKUw0KoEu7t3KkFSPOvhfSOgroKhhKuKtTbdUADh_fE6XUL0Tfg0xHu0rqgSfoqK8tqXdNaGgR0pLgVN_0WFecMSGf9BmT3TU78TBMOnrLev5GnERYUcrx5P6XiFwr1FJ2EoYZ1wwiWWqzmDBOJYxpX8_iaB3_K0RjDQQjj8hzAY3YRhlkaWuIA-bj81xowwo9eEllDDI6dFXoyaIz1Ghs5lXhi0RPwFe0pER_tTKTZIXjHU0keC_OInzm_puANOIQ9LkZXjug6uKG4XjHhOCD6d6ZXjZiJ9GeR8m1Tg5kgBmY8U5HVgategWprPaLUw8XRgg2zQ9l_an9clhU5elhHcW1av038b_nf_JOCkK6MCSLSM7whx2NsB281o0vULTLUx5E2ZJZ7tkV86ee_YFKA5K90zvf-PhEYcNfSPXVA0uyswfxQAN90eiTcV-20p7gWdP2DtYof2p1XaGkkfUW1d3LXaePNBDMzs8yw9nqfh5Sh_Jrhsq6oMr8--JC2TysmPJA6QVmmth3hmfVWjPAKbLBocU1PnENbFa9CVFQxblcZFPNuvXxOwMFUf4fVghpRbEKVW077FECcyBZyuYFcgyDlbFC7y2IaJe7yWyB9kb9Uyk8TH-md4BP4ZpF2_W_z9JhIK3WSAM4-OWLE5zof2KpYVZNjhxV-4MhDBy75EeoeejiNOWAexNEySwi8aqIW63-X9Lmo_xWelT5VsrU18eazcOyW2QWnwi_MNBCchq97wTOMdSjTTZp1NWPWFtYOR-wYDapOaloKoYmrq1XhEqNhqvzsYsiyg6pM_9-Gb-2gyRMD-nhAfCE1YJmwiRmdHqO1XBFyakX6PVwSngRJv7TKDszDSzogBrBgubXrlRHIorqyhBxzKoJqHfTuuPz24VzXd4tOEzNm_p01Eal1iliQuyee-MB03GddV1mU71oRUuqOHa2qoPUVEWSCDQuvw1tl1k4YQy8OYRj1vyUa5SACVeeeFso8M0iMKJQ44iY6S6Z-bEK0ORN-d3EINXmAwb2FApFLjuW16yHCb02OsOST_j0d_--dOHmX8Uz8p2hFoPDixpDk32mCaN3r0dbWhSY7FNVfgoZg4Zmht9aQtj2nYqUcR7gdUBGExFm6VxX2Q8V7yO11dNPDDa2a8DA8fnYdgWPqPSzf1M8yIJRrJHcQUWgbjaIDu10Wq6szt2cD-N8yBA_jM48FHBS2nEfAORIW5vJEXNQRjJKvTpVp74jGh5uHB3fsJdjXeYARArjcrx63gMVor_llQr8IrSD_stGakwGkeNdsNSIJDFx8PaaHHZ7fRvQmFLd3xMEo2zFw_Zbbd9RtxQpL6lFKmPiH6grXqhkaZgsRW0WKZjwP87QIqu986rnvT0IPuhWKUG-i2kxKlzwbFSRRevLuFosy1WUC0ZJM6P0ZkmefA-TAknYwbFgTISwe6s4T24n5ECq0J0hdasFEvh0SBt34kYX0Xlwmx17-g_5Npz9VcHFlse0CFE6_0LxbprE721icnMREj5DMTWbdnFfR5hhzWeGr_BMqcMTqtBbmUyEGDQVlPGE6271ZJIHS6BAFT4Mz95KMx30URu0jO-DmC11neX-wtcjZ32dJSFFoXvPctUcB3-yKezgMcFuiZwBGfsRUAgLqr7mVnV8oP4Sq6HNQ9Rk36Qmd9iAp_u1rm-rE7KzzyzHZKlreji8vfHBdqkvw==",
+   "status": null
+  },
+  {
+   "id": "msg_0ee4541896818691016a9b6c92196c87d2ad4ccb5db5753041",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\n  \"policy_found\": true,\n  \"policy_title\": \"Surgery of the Knee \u2013 Commercial and Individual Exchange Medical Policy\",\n  \"policy_number\": \"2025T0553EE\",\n  \"policy_url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf\",\n  \"effective_date\": \"June 1, 2026\",\n  \"criteria_quotes\": [\n    \"Surgery of the knee is proven and medically necessary in certain circumstances.\",\n    \"The policy lists CPT 29888 as: \\\"Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction.\\\"\",\n    \"The denial notice states that the submitted records did not document \\\"an adequate trial of conservative treatment prior to the requested surgery.\\\"\"\n  ],\n  \"appeal_deadline\": \"January 29, 2027. The notice states that the appeal must be received within 180 days of August 2, 2026.\",\n  \"submission_route\": \"Submit the appeal in writing through UnitedHealthcare's Member Service Request Form or by letter to the address on that form. UnitedHealthcare's published general appeal instructions also list: UnitedHealthcare Member Inquiry/Appeals, P.O. Box 740816, Atlanta, GA 30374-0816. Include the member's identifying information, reference number POC-87E365CAED-66145, the requested CPT code, reasons for appeal, and supporting clinical records. The member should verify the address and any plan-specific instructions using the number on the insurance ID card or the plan documents.\",\n  \"how_to_obtain_criteria\": \"The public policy identifies CPT 29888 and states that knee surgery is medically necessary in certain circumstances, but the publicly retrievable copy could not be text-extracted sufficiently to verify the ACL-specific medical-necessity subsection or any detailed definition of an adequate conservative-treatment trial. Request from UnitedHealthcare, in writing or through Member Services, a copy of the complete clinical criteria and all medical policies or review guidelines actually used for reference number POC-87E365CAED-66145. Also ask the treating provider to request the criteria through UnitedHealthcare's provider prior-authorization channel. UnitedHealthcare's member appeal page says that questions about an adverse benefit determination may be directed to the number on the ID card; it lists 1-866-414-1959 when the member does not have the card available.\",\n  \"confidence\": \"Medium\",\n  \"notes\": \"The policy title, CPT applicability, policy number, and June 1, 2026 effective date were identified from UnitedHealthcare's public policy listings and indexed policy information. The policy PDF itself was publicly reachable but could not be text-extracted by the available retrieval system. Therefore, no additional ACL-specific policy language is asserted. The quoted conservative-treatment language comes from the denial notice, not from a verified excerpt of the policy.\"\n}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": "final_answer"
+  }
+ ],
+ "stop_reason": "completed",
+ "usage": {
+  "input_tokens": 164574,
+  "output_tokens": 2677
+ },
+ "model": "gpt-5.6-luna",
+ "elapsed_s": 66.6,
+ "run_id": "r-b902de22abbd",
+ "case_id": "poc-87e365caed"
+}

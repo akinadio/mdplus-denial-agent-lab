@@ -1,0 +1,1600 @@
+{
+ "answer": {
+  "policy_found": true,
+  "policy_title": "UnitedHealthcare Community Plan Medical Policy: Surgery of the Hip (for New Mexico Only) / Presbyterian Health Plan Medical Policy: Total Joint Replacement (Hip and Knee) for Non-Medicare",
+  "policy_number": "CS056NM.F (UnitedHealthcare) / 20.14 (Presbyterian)",
+  "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/nm/surgery-hip-nm-cs.pdf",
+  "effective_date": "May 1, 2026 (UnitedHealthcare) / August 27, 2025 (Presbyterian)",
+  "criteria_quotes": [
+   "Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage but does not guarantee coverage of the service requested. Medical notes documenting the following, when applicable: Complete diagnostic interpretation of imaging findings including, at a minimum: Relevant clinical information, Detailed report of imaging findings, Impression... Condition requiring procedure; Severity of pain and details of Functional Disability(ies) interfering with activities of daily living (preparing meals, dressing, driving, walking) using a standard scale, such as Western Ontario and McMaster Universities Arthritis Index (WOMAC) or Hip Dysfunction and Osteoarthritis Outcome Score (HOOS); Physician\u2019s treatment plan, including pre-op discussion; Pertinent physical examination of the relevant joint; Co-morbid medical conditions; Prior therapies/treatments tried, failed, or contraindicated; include the dates and reason for discontinuation",
+   "Advanced degenerative joint disease, as indicated by: A. Disabling pain and significant functional disability AND B. Radiological findings consistent with moderate/severe osteoarthritis or rheumatoid arthritis of the hip (at least two of the following): Severe joint space narrowing, Osteophyte formation, Joint subluxation, Deformity or malalignment, Subchondral sclerosis OR Arthroscopic findings of severe denudation of articular cartilage. AND C. Non-Surgical medical management has been tried and failed (please see recommendations for non-operative treatment of hip osteoarthritis), including: 1. Self-management program (>= 6 weeks) that includes a. Strengthening AND b. Low impact aerobic activities AND one of the following: Physical therapy, Adjunctive range of motion /stretching exercises, Joint off-loading (cane, walker), Reasonable restriction of activities. 2. Medications: NSAIDS if tolerated and not contraindicated... OR Analgesics, Acetaminophen, Tramadol AND D. Documentation that clearly shows the patient has participated in or is scheduled for Pre-Procedure education..."
+  ],
+  "appeal_deadline": "2027-01-27",
+  "submission_route": "Submission details depend on the specific administrator of New Mexico Medicaid (Turquoise Care or Fee-for-Service): \n\n1. For UnitedHealthcare Community Plan (Turquoise Care):\nMail: UnitedHealthcare Community Plan, Turquoise Care Appeals and Grievances, P.O. Box 31364, Salt Lake City, UT 84131-0364\nPhone: 1-877-236-0826 (TTY 711)\n\n2. For Presbyterian Health Plan (Turquoise Care):\nOnline: Member Grievance and Appeal Submission Form on their website\nPhone: 505-923-5200\n\n3. For Fee-for-Service (FFS) Medicaid (reviewed by Comagine Health):\nReconsideration Mail: Comagine Health TPA, Attn: Reconsideration Requests, PO Box 20910, Albuquerque, NM 87154-0910\nReconsideration Fax: 888-562-2755\nFair Hearing Request Mail: Health Care Authority, Attn: Office of Fair Hearings, PO Box 2348, Santa Fe, NM 87504\nFair Hearing Request Fax: (505) 476-6215\nFair Hearing Request Email: HCA-FairHearings@hca.nm.gov",
+  "how_to_obtain_criteria": "Because UnitedHealthcare Community Plan and Comagine Health utilize proprietary InterQual\u00ae CP: Procedures: Total Joint Replacement (TJR), Hip criteria to determine medical necessity, the exact interactive criteria set is not printed in full public documents. To obtain a copy of the specific InterQual\u00ae criteria applied, the patient or provider can contact UnitedHealthcare Community Plan Member Services at 1-877-236-0826 or access the read-only portal at UHCprovider.com/policies > Clinical Guidelines > InterQual Clinical Criteria. For Fee-for-Service Medicaid, they may contact Comagine Health at 866-962-2180.",
+  "confidence": "high",
+  "notes": "Because the denial notice mentions 'Medicaid (Medicaid), state of New Mexico' without naming a specific managed care plan, the response covers the primary possibilities for New Mexico Medicaid (which transitioned to the 'Turquoise Care' program in July 2024): the Fee-For-Service (FFS) program (reviewed by Comagine Health using InterQual), UnitedHealthcare Community Plan (which also uses InterQual), and Presbyterian Health Plan (which uses its own published Medical Policy 20.14)."
+ },
+ "raw_text": "```json\n{\n  \"policy_found\": true,\n  \"policy_title\": \"UnitedHealthcare Community Plan Medical Policy: Surgery of the Hip (for New Mexico Only) / Presbyterian Health Plan Medical Policy: Total Joint Replacement (Hip and Knee) for Non-Medicare\",\n  \"policy_number\": \"CS056NM.F (UnitedHealthcare) / 20.14 (Presbyterian)\",\n  \"policy_url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/nm/surgery-hip-nm-cs.pdf\",\n  \"effective_date\": \"May 1, 2026 (UnitedHealthcare) / August 27, 2025 (Presbyterian)\",\n  \"criteria_quotes\": [\n    \"Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage but does not guarantee coverage of the service requested. Medical notes documenting the following, when applicable: Complete diagnostic interpretation of imaging findings including, at a minimum: Relevant clinical information, Detailed report of imaging findings, Impression... Condition requiring procedure; Severity of pain and details of Functional Disability(ies) interfering with activities of daily living (preparing meals, dressing, driving, walking) using a standard scale, such as Western Ontario and McMaster Universities Arthritis Index (WOMAC) or Hip Dysfunction and Osteoarthritis Outcome Score (HOOS); Physician\u2019s treatment plan, including pre-op discussion; Pertinent physical examination of the relevant joint; Co-morbid medical conditions; Prior therapies/treatments tried, failed, or contraindicated; include the dates and reason for discontinuation\",\n    \"Advanced degenerative joint disease, as indicated by: A. Disabling pain and significant functional disability AND B. Radiological findings consistent with moderate/severe osteoarthritis or rheumatoid arthritis of the hip (at least two of the following): Severe joint space narrowing, Osteophyte formation, Joint subluxation, Deformity or malalignment, Subchondral sclerosis OR Arthroscopic findings of severe denudation of articular cartilage. AND C. Non-Surgical medical management has been tried and failed (please see recommendations for non-operative treatment of hip osteoarthritis), including: 1. Self-management program (>= 6 weeks) that includes a. Strengthening AND b. Low impact aerobic activities AND one of the following: Physical therapy, Adjunctive range of motion /stretching exercises, Joint off-loading (cane, walker), Reasonable restriction of activities. 2. Medications: NSAIDS if tolerated and not contraindicated... OR Analgesics, Acetaminophen, Tramadol AND D. Documentation that clearly shows the patient has participated in or is scheduled for Pre-Procedure education...\"\n  ],\n  \"appeal_deadline\": \"2027-01-27\",\n  \"submission_route\": \"Submission details depend on the specific administrator of New Mexico Medicaid (Turquoise Care or Fee-for-Service): \\n\\n1. For UnitedHealthcare Community Plan (Turquoise Care):\\nMail: UnitedHealthcare Community Plan, Turquoise Care Appeals and Grievances, P.O. Box 31364, Salt Lake City, UT 84131-0364\\nPhone: 1-877-236-0826 (TTY 711)\\n\\n2. For Presbyterian Health Plan (Turquoise Care):\\nOnline: Member Grievance and Appeal Submission Form on their website\\nPhone: 505-923-5200\\n\\n3. For Fee-for-Service (FFS) Medicaid (reviewed by Comagine Health):\\nReconsideration Mail: Comagine Health TPA, Attn: Reconsideration Requests, PO Box 20910, Albuquerque, NM 87154-0910\\nReconsideration Fax: 888-562-2755\\nFair Hearing Request Mail: Health Care Authority, Attn: Office of Fair Hearings, PO Box 2348, Santa Fe, NM 87504\\nFair Hearing Request Fax: (505) 476-6215\\nFair Hearing Request Email: HCA-FairHearings@hca.nm.gov\",\n  \"how_to_obtain_criteria\": \"Because UnitedHealthcare Community Plan and Comagine Health utilize proprietary InterQual\u00ae CP: Procedures: Total Joint Replacement (TJR), Hip criteria to determine medical necessity, the exact interactive criteria set is not printed in full public documents. To obtain a copy of the specific InterQual\u00ae criteria applied, the patient or provider can contact UnitedHealthcare Community Plan Member Services at 1-877-236-0826 or access the read-only portal at UHCprovider.com/policies > Clinical Guidelines > InterQual Clinical Criteria. For Fee-for-Service Medicaid, they may contact Comagine Health at 866-962-2180.\",\n  \"confidence\": \"high\",\n  \"notes\": \"Because the denial notice mentions 'Medicaid (Medicaid), state of New Mexico' without naming a specific managed care plan, the response covers the primary possibilities for New Mexico Medicaid (which transitioned to the 'Turquoise Care' program in July 2024): the Fee-For-Service (FFS) program (reviewed by Comagine Health using InterQual), UnitedHealthcare Community Plan (which also uses InterQual), and Presbyterian Health Plan (which uses its own published Medical Policy 20.14).\"\n}\n```",
+ "usd": 0.2621,
+ "transcript": [
+  {
+   "parts": [
+    {
+     "text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-07-31\nMember: Emerson Mercado\nMember ID: W599128801\nPlan: Medicaid (Medicaid), state of New Mexico\n\nDear Emerson,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total hip replacement\n    Procedure code (CPT): 27130\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-27).\n\nReference number: POC-2A69B0B828-71504\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_82083",
+      "args": {
+       "query": "New Mexico Medicaid total hip replacement medical policy 27130"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpoGCpcGAWkUfRPDtKSIOfl5gW07QBMQLlUdk1aicvYobDZzPaSN3MtZrRq5FP4yINSR9k_Wcd5DWQ_8mQosYG35u540fZlNleDHGSRIhwt7fXNCR2kffyhNc3aiSTdXxvstvQeaLtf_bzbxoTa9a4CBMcghKOh0QwcVKit7rcq61ARXZveQk5NHiLyWOiryAOTh6xZAqjOzLY7nFsQrJ6dyNGqa2QUjgiKU11BUEjQNIfyddlz2BFA7WiHYa1eSeWb1iMffSSaCplFKBd4BsDoCe_Dws4q9o-SPih793YqzvwK-NqnFk0F4xxYmtQfYle471sWOaLpii67VVs9CB_IxGtC-XfK_-U1YvT6_Em_IH5MQ-KaJgHVpic84ywP-Hw9u-kD4aQE2T75Vt7UxD1zSMXCoDWj2StK7MsGipZSnYRWhCRPXIc3jSUOsSst5tOcrfWYpwsvM94gNoJUZCmMFtNk_TrcS2tlV0c89aqS_Kjc2dkRR5UyGl-pIFhsDNaI6ilOwuDcxviZQiFZo60grIZUNpGG3jD1ZPMS0Tgxsx0oOT5TMCq7NNkYAg5bb7gsxxSIFNz5UGlvkUuIE9vRy-47EqkwV3ocT15wlls2n3juREg_NnBrmTYpmKAaUggqMdxtsXxjFtw9zX4SRvap8yIYgf61Zh8Hfxj0CFF6oWMxRbhlLwVqSZC4JwHwFmXrywz1hThtGfGqjGSgzeq18aZ2i7W3OIeBhvLjitrg01AktG_aGiIJ2ow8gpgmGXxOvF2FFmghLcr8hV8DgmLRsRBRKcPESLwLTM-Y93KukBSKngmh9VKwjOjl0bSkz76f5u0cGQFSpTeNL8ak-NnW-5b31ZAABWbOw0TAI2wYAok6wjFULJhijhbu9W0v9nsH82pFf85X2w5HhkXrJmyrjNQNgHUGldpNFpkAHoR4BBsqjfLs7xQJXH9ln_EPUQSleuOgUQMkN1ZsgMemsbNuy9PeNKlQRPRbFqFxV5838pEzLebT9BbknJ9ols12DLgd9HJ1GvPaFqYp0de-LUgoyUEQbb01oXDMjb4w="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "New Mexico Medicaid total hip replacement medical policy 27130",
+        "results": [
+         {
+          "title": "Surgery of the Hip (for New Mexico Only) Page 1 of 9",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/nm/surgery-hip-nm-cs.pdf",
+          "snippet": "27130 \u00b7 <strong>Arthroplasty, acetabular and proximal femoral prosthetic replacement</strong> (total hip arthroplasty), with or \u00b7 without autograft or allograft \u00b7 27132 \u00b7 Conversion of previous hip surgery to total hip arthroplasty, with or without autograft or allograft \u00b7"
+         },
+         {
+          "title": "Medical and Drug Policies for Community Plan of New Mexico | UHCprovider.com",
+          "url": "https://www.uhcprovider.com/en/health-plans-by-state/new-mexico-health-plans/nm-comm-plan-home/nm-cp-policies/medicaid-community-state-policies-nm.html",
+          "snippet": "Effective Date: 05.01.2026 \u2013 This policy <strong>addresses surgery of the hip and femoroacetabular impingement (FAI) syndrome</strong>. Applicable Procedure Codes: 27120, 27125, 27130, 27132, 27134, 27137, 27138, 27299, 29860, 29861, 29862, 29863, 29914, 29915, 29916, 29999, S2118."
+         },
+         {
+          "title": "Total Joint Replacement (Hip and Knee) for Medicare",
+          "url": "https://onbaseext.phs.org/PEL/DisplayDocument?ContentID=OB_000000001634",
+          "snippet": "authorization will apply to this policy for Total Hip Arthroplasty 27130, 27132, 27134; &amp; Total Knee"
+         },
+         {
+          "title": "Procedure Price Lookup for Outpatient Services | Medicare.gov 27130",
+          "url": "https://www.medicare.gov/procedure-price-lookup/cost/27130/",
+          "snippet": "Use official Procedure Price Lookup tool to compare national average to Medicare costs in ambulatory surgical centers, hosptial outpatient departments"
+         },
+         {
+          "title": "Medicare Medical Policy Total Hip Arthroplasty (THA)",
+          "url": "https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp133.pdf?sc_lang=en&rev=f1cc622fff4e4633b16d4e9991eb7218&hash=1951D520A65C5178694FD5B2B11E51E6",
+          "snippet": "Medicare Medical Policy \u00b7 Total Hip Arthroplasty (THA)"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_95554",
+      "args": {
+       "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/nm/surgery-hip-nm-cs.pdf"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EugFCuUFAWkUfRPyhh76jCBUqS6HwsHKyx4ieMN_Ddi2YsZvbdx8p6PYhAJNliwLY4WeMVlQYCWiLp7Ea2iBQh4UfmQt6WLWa09f8KIv--ZeAYBm55CwIik5vAXlcHoF06Sqf02h57LEvNYt2ryH7BItaPiqzH1qh86MUwQU6Mi_J1Tyyv1KO4jdgV1HQMbkCGA4BHsPztX6mb_Ok2Lo17IhqBTmzWHuWHTHkBlQqNeuRUyq_3e3_gvyfYI3nOaCG7xlPC5YVxxAehCEi_vDtK4O79xPExGm39IcqTn11EnAErP7KuGIFUsHaqVT7YBnSK3HkJ8mB-rinnUA5mtvBKMbQRwm4S7xfXnFEfL_Zk2Z3Gvl3JNhdOXeJMHi_2mKd9NPLi0qngX-5WeNw88lzsE-GEr_pTt1hfJqapJZwAQFjGz5oo1E0Y6F970HRR3ni0FqEZxn2XzDueHcOr_7aiBeaI8dJgDRvMCmPD_n8SWN6cuNLS_1EcOyEvoXHr4fpxuVk3PBPopuJWyp2u-VaPGq9eEwPPKLlkXcJSSdFxfHTPOLLBNKtDOmhQgA0q2W5zXztTmRjh2kvrZbP-2mfcBY2JaD6IGMOKbNhUNnJ0XXg4JPsdO9C3V5pRb0-dW_ibiaN1KwpCapPhfgOYeqgexIQgJhJrMuvizXAThntFkA6KiRECKHTjgB3JC6EJE0CSydoWSFiRwFpll4_A0UoNUyS7D4IuLrfjaotww0IHfnPa76k47uD3Agac4PjzGQ4B3FgdtFI5aIS6YxI8g4FvZynj41A9BYH1est3F5WpjQ7-5rSm64CWVGMlE97Nsb51mEb_sJ2tUJJV-cB941ArzIDHvg8KTpX0RAC4nh9YCJ1UV1jF0GOg3oz_J6gRTRhX4kbtmOQmlIotX5dr4ZmFs30BVNd1pHcUv1Ry8xOiMfbSsEfaGaCgOPR92DP6gF0YELh8OD07rdW0H1q6zCaxyf-HSVfMgFvj_9"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/nm/surgery-hip-nm-cs.pdf",
+        "final_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/nm/surgery-hip-nm-cs.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": " Surgery of the Hip (for New Mexico Only) Page 1 of 9 UnitedHealthcare Community Plan Medical Policy Effective 05/01/2026 Proprietary Information of UnitedHealthcare. Copyright 2026 United HealthCare Services, Inc. UnitedHealthcare\u00ae Community Plan Medical Policy Surgery of the Hip (for New Mexico Only) Policy Number: CS056NM.F Effective Date: May 1, 2026 \uf0dc Instructions for Use Table of Contents Page Application ............................................................................. 1 Coverage Rationale .............................................................. 1 Medical Records Documentation Used for Reviews ............. 1 Definitions .............................................................................. 2 Applicable Codes .................................................................. 3 Clinical Evidence ................................................................... 4 U.S. Food and Drug Administration ...................................... 8 References ............................................................................ 8 Policy History/Revision Information ...................................... 9 Instructions for Use ............................................................... 9 Application This Medical Policy only applies to the state of New Mexico. Coverage Rationale Surgery of the hip and surgical treatment for Femoroacetabular Impingement (FAI) Syndrome is proven and medically necessary in certain circumstances. For medical necessity clinical coverage criteria, refer to the InterQual \u00ae CP: Procedures: Arthroscopy, Diagnostic, +/- Synovial Biopsy, Hip Arthroscopy, Surgical, Hip Arthroscopy, Surgical, Hip (Pediatric) Arthrotomy, Hip Hemiarthroplasty, Hip Removal and Replacement, Total Joint Replacement (TJR), Hip Total Joint Replacement (TJR), Hip Click here to view the InterQual\u00ae criteria. Surgical treatment for Femoroacetabular Impingement (FAI) Syndrome is unproven and not medically necessary in the presence of advanced osteoarthritis (i.e., T\u00f6nnis Grade 2 or 3) and/or severe cartilage damage (i.e., Outerbridge Grade III or IV). Medical Records Documentation Used for Reviews Benefit coverage for health services is determined by the federal, state, or contractual requirements, and applicable laws that may require coverage for a specific service. Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage but does not guarantee coverage of the service requested. Medical notes documenting the following, when applicable: Complete diagnostic interpretation of imaging findings including, at a minimum: o Relevant clinical information o Detailed report of imaging findings Related Policies None Surgery of the Hip (for New Mexico Only) Page 2 of 9 UnitedHealthcare Community Plan Medical Policy Effective 05/01/2026 Proprietary Information of UnitedHealthcare. Copyright 2026 United HealthCare Services, Inc. o Impression o Specialty(ies) of the provider(s) who interpreted the images For Femoroacetabular Impingement (FAI) Syndrome (CPT codes 29914, 29915, and 29916), also include radiographic reports of presence and severity of cartilage damage using T\u00f6nnis or Outerbridge grading In addition, upon request, we may require the specific diagnostic image(s) that show the abnormality for which surgery is being requested, which may include MRI, CT scan, X-ray, and/or bone scan; consultation with requesting surgeon may be of benefit to select the optimal images o Note: When requested, diagnostic image(s) must be labeled with: \u25aa The date taken \u25aa Applicable case number obtained at time of notification or member's name and ID number on the image(s) o Upon request, diagnostic imaging must be submitted via the external portal at www.uhcprovider.com/paan; faxes will not be accepted Condition requiring procedure Severity of pain and details of Functional Disability(ies) interfering with activities of daily living (preparing meals, dressing, driving, walking) using a standard scale, such as Western Ontario and McMaster Universities Arthritis Index (WOMAC) or Hip Dysfunction and Osteoarthritis Outcome Score (HOOS) Physician\u2019s treatment plan, including pre-op discussion Pertinent physical examination of the relevant joint Co-morbid medical conditions (cardiovascular diseases, hypertension, diabetes, cancer, pulmonary diseases, neurodegenerative diseases) Prior therapies/treatments tried, failed, or contraindicated; include the dates and reason for discontinuation Date of failed previous hip fracture fixation, if applicable If the location being requested is an inpatient stay, provide medical notes to support at least one of the following: o Surgery is bilateral o Member has significant co-morbidities; include the list of comorbidities and current treatment o Member does not have appropriate resources to support post-operative care after an outpatient procedure; include the barriers to care as an outpatient Definitions Refer to the federal, state, or contractual definitions that supersede the definitions below. Disabling Pain: Western Ontario and McMaster Universities Arthritis Index (WOMAC) pain domain > 40 (Quintana, 2009). Femoroacetabular Impingement (FAI) Syndrome: FAI occurs because of either (1) hip formation at birth, or (2) bone overgrowth (bone spurs) around the femoral head and/or along the acetabulum causing abnormal contact between the hip bones preventing them from moving smoothly during activity. Over time, this may result in tears in the labrum and the breakdown of articular cartilage (osteoarthritis) causing pain and stiffness, limited internal hip rotation, limping, and joint damage (Witstein et al., 2024; Agricola et al., 2024). There are three types of FAI : Pincer: This type of impingement occurs when extra bone extends out over the normal rim of the acetabulum. The labrum can be crushed under the prominent rim of the acetabulum (i.e., radiographic evidence of FAI by imaging includes: over coverage of the femoral head by the acetabulum with resultant pistol -grip deformity or the lateral center edge angle of greater than 40 degrees, or coxa profunda, or acetabular retroversion) (Witstein et al., 2024; Pun et al., 2015). Cam: In Cam-type impingement, the femoral head is not round and cannot rotate smoothly inside the acetabulum. A bone spur forms on the edge of the femoral head that grinds the cartilage inside the acetabulum (i.e., radiographic evidence of FAI by imaging includes: the loss of sphericity of the femoral head with resultant bony prominence or alpha angle greater than 50 degrees) (Witstein et al., 2024; Pun et al., 2015). Combined (Mixed): Combined impingement means that both the Pincer and Cam types are present (Witstein et al., 2024). Functional Disability: Western Ontario and McMaster Universities Arthritis Index (WOMAC) functional limitation domain > 40 (Quintana, 2009). Hip Dysfunction and Osteoarthritis Outcome Score (HOOS): The Hip Dysfunction and Osteoarthritis Outcome Score (HOOS) is a self-administered hip-specific questionnaire intended to evaluate symptoms and functional limitations, and it is commonly used to evaluate interventions in individuals with hip dysfunction or hip osteoarthritis . The HOOS consists of Surgery of the Hip (for New Mexico Only) Page 3 of 9 UnitedHealthcare Community Plan Medical Policy Effective 05/01/2026 Proprietary Information of UnitedHealthcare. Copyright 2026 United HealthCare Services, Inc. 43 questions in five subscales: pain, symptoms, function in daily living, function in sport, and recreation and hip-related quality of life (Nilsdotter, 2011). International Hip Outcome Tool (iHOT-33): A reference instrument among the Patient-Reported Outcome Measures (PROMs) to assess people with hip disorders, including Femoroacetabular Impingement (FAI) Syndrome. The iHOT-33 consists of four subscales: (1) symptoms and functional limitations (iHOT-Symptoms; 16 items), (2) sports and recreational physical activity (iHOT-Sport; 6 items), (3) job-related concerns (iHOT-Job; 4 items), and (3) social, emotional, and lifestyle concerns (iHOT-Social; 7 items). Each item can be answered from 0 to 100 points, and the final score is the sum of points divided by 33 (Bissani Gasparin et al., 2022). Outerbridge Grades: Grade 0: Normal Grade I: Cartilage with softening and swelling Grade II: Partial-thickness defect with fissures on the surface that do not reach subchondral bone or exceed 1.5 cm in diameter Grade III: Fissuring to the level of subchondral bone in an area with a diameter more than 1.5 cm Grade IV: Exposed subchondral bone head (Slattery, 2018) Radiographic Findings of Osteoarthritis: Narrowing of joint space, osteophyte formation, subchondral sclerosis, subchondral cysts, deformity of bony end-plates, and thinning or complete loss of articular cartilage (ACR, 2025). Note: UnitedHealthcare will accept three or more moderate to severe radiographic findings to be sufficient to support the diagnosis of severe osteoarthritis. T\u00f6nnis Classification of Osteoarthritis by Radiographic Changes: Grade 0: No signs of osteoarthritis (OA) Grade 1: Increased sclerosis of femoral head or acetabulum, slight joint space narrowing or slight slipping of joint margin, no or slight loss of head sphericity Grade 2: Small cysts in femoral head or acetabulum, moderate joint space narrowing, moderate loss of head sphericity Grade 3: Large cysts, severe joint space narrowing or obliteration of joint space, severe deformity of the head, avascular necrosis (Kovalenko, 2018) Western Ontario and McMaster Universities Arthritis Index (WOMAC): The WOMAC is a disease-specific, self- administered questionnaire developed to evaluate patients with hip or knee osteoarthritis. It uses a multi -dimensional scale composed of 24 items grouped into three dimensions: pain, stiffness, and physical function (Quintana, 2009). Applicable Codes The following list(s) of procedure and/or diagnosis codes is provided for reference purposes only and may not be all inclusive. Listing of a code in this policy does not imply that the service described by the code is a covered or non -covered health service. Benefit coverage for health services is determined by federal, state, or contractual requirements and applicable laws that may require coverage for a specific service. The inclusion of a code does not imply any right to reimbursement or guarantee claim payment. Other Policies and Guidelines may apply. Note: Iliopsoas tendon release surgery, capsular repair, and capsular release surgery are considered integral to the primary hip procedure and not separately reimbursable. Debridement during hip arthroscopy is considered integral to the FAI surgery codes 29914, 29915, and 29916 and would therefore not be separately reimbursable. CPT Code Description Arthroscopy, Diagnostic, +/- Synovial Biopsy, Hip 29860 Arthroscopy, hip, diagnostic with or without synovial biopsy (separate procedure) Arthroscopy, Surgical, Hip 29861 Arthroscopy, hip, surgical; with removal of loose body or foreign body 29862 Arthroscopy, hip, surgical; with debridement/shaving of articular cartilage (chondroplasty), abrasion arthroplasty, and/or resection of labrum Surgery of the Hip (for New Mexico Only) Page 4 of 9 UnitedHealthcare Community Plan Medical Policy Effective 05/01/2026 Proprietary Information of UnitedHealthcare. Copyright 2026 United HealthCare Services, Inc. CPT Code Description Arthroscopy, Surgical, Hip 29863 Arthroscopy, hip, surgical; with synovectomy Arthrotomy, Hip 27120 Acetabuloplasty (e.g., Whitman, Colonna, Haygroves, or cup type) Hemiarthroplasty, Hip 27125 Hemiarthroplasty, hip, partial (e.g., femoral stem prosthesis, bipolar arthroplasty) Removal and Replacement, Total Joint Replacement (TJR), Hip 27130 Arthroplasty, acetabular and proximal femoral prosthetic replacement (total hip arthroplasty), with or without autograft or allograft 27132 Conversion of previous hip surgery to total hip arthro",
+        "text_truncated": true
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_88295",
+      "args": {
+       "query": "\"InterQual\" \"Total Joint Replacement\" \"Hip\" criteria 27130"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtAZCs0ZAWkUfRP5IVxk0JCJwFVMzdLpCjJk0umOmPDMa0J0M0b2ogpelwvquwW1e_QOwq2MM0FxJSM-5ZKxMfEkTDW2zpOZS0AHyA3vn8YaBItkh8HDoCgm_usNa9j1Rw5q2SkjXoEIMVkHZsWAC7U5bJ17JJUGCBq_Br3ennnFN7uWHzs4hEsimueLzTDxOQM-6M-Bez1s7OWJXbHUGphvzakp_nEhznrKUHurAfmwMFFKkOKPONjxjBj5ThhPgqnKOWkxZpARbE57SnYOcUNJtAFYKQ2somhQT-L6GaPrSgEu22zvfhsR0rSW_j3jtc39snzI6fkwFOKBXqtAVXIE79uo1ZfBLc9NZjP-QdN9sUFGijNejNTbTfw6-U5UxoxWI1GJJq0YjFCcfQwkuQlk1zUncdqD-8hgnGIyDCIEIX29K5t2WWb_XF11doGqMcQCeGjdiWe1CSGzy_y5vtFzLpEU1tp7g-wMEZ8ugSPBHo-QrnpzTAxJdR-9CrE7jf1tehcOc0f4TgGsxSxc-HtCa3oOUURqaizUL92gIkwv4GdG6cgPXUVXPW3LKc3bGSorutipd5Ax6JXCy1-onKfjwsbmvex3SBqO0SX9aLOaAlCQzRSzfKzSJuBzwibQs5wZ4dOXhZx0ZR8Yqp6Xn_L9lGHPdVDKFC7ejyi_2kykQUCfHE6pfBBtZIfd-zXNY5Wd5i1xQPtU2xX2OfjVhf8DQMLVFDWDDTM0-UXcISJ9WQ_kmSUj0A5A5ki9ReeqOJuMYCNqmJ4NLdVQ-WoLMDucRC-9R8_EmEr-Ahn2K2vvL3_qthQx-AGdEenYVlW7iriGp1RvTqwWW8D70c1qp6-kJBWET9CbjgV0yx9D-fgVj8UCqpaiAETDnLCRgRv3toDCLLXMnl_M7mhYndPiGjkpBLfo6zaVdAfhSu7agZwmCqJmN02Glk1pUBCENZ85X_CaxCfWQcdZ3pAKIlqz6HK7F2a2iyEc-ous0a_c5jaoe9wN4tCCCb15cFXxzdFGsiA2rWXtGZpiJSu-wriV8bxPNv6pyrw5NaRJjuDtsl9uCxjNvUOBY_RB-qhF6szXWvs3H878U2-ahmrHrad6u-YUmjWJyTJvd5hLaFzsWoQ6IWcoyR6xRuhNVbsxJ8p1uvO3FPq41mmhw__jT1M4e9RDk6xq-6uR--d9bIc4ZHpTqZYk0SVlLpzFWka64igUZNFPypfvuAg1WdyVSjE7R70BVF_C7vTVogio3hm-NQJknsTfNYCLQdpLCm8OjwKzQhx8UlxQvoOdN8k5sBlMXtVeUzwozz-WXX7e3cZUa2OE8QUrf16-QHRweGOthkNWO_cLgx-wGwK_n1rq9D_oGG0hEkXEl1MrxJ4yvUQgF6GuSrQJTVXobI95KejH_6ps7BDdoHiFlEf1L1apzImVsIEWuXNc3nPDeZA8Q1zl89oymgGDDqryhpVurGJ6MsXMnSaGqYHpbwNvEcJGVJufWvHLqDBV7v9_GacTzPNDzDftAoqi35GIkRLNzXpWWQxXjm31WmgduZ3tHsQJaEgH_1YQBmVrMw4hB1ON58iy2KhV7xs3azYemihHQC7lVJCpnDEU1WAciSFILqyA_LLUJf2jwhQ3tiKw_ryhk0wCzuCrM4onyJsNH1cmyKR8KWs5CCaGYMsCN8fyaFlMJGZq7_fN1X-uPc7ewFW9F9uRWotFJw3SSYHNw7FeP-1mQdXUKTBOFtmJGQpr-EWGVxe1SnR7TxK3o7eMGtx0LYioNUDmmSyMxfWZvkARDSjm_nIiInuMFnV1Qvr-X0TmYVMObLVV7lCaPrWMdhEXHMWUE5QKUAKLwCLF4iTRKHSsU5xRLxJqAUlnDVkUfKYxKRhupMW8myvdxLHgLvuDLFojriSMiMatyYxGFLBsqIa5tjbpWaXkODYtGeg04fEqdQUc0U5FDkKWxzvy_ip5BPJ0VQn1nSJEqzDZUo5H85LAqUbSt3q05l0cDEJ85mUpd22bsmInnSv1vrzMftwO13BXnwKNUSmDKV16K1IWHX2knfpQW6BqsoItTzKLBOGhs9tnpB3dsDGYnOlvmZ6h8dto03ITEcY3VYY0VB3clH2C8osZI-aGobZc6Qe_MQMwRTYst4Hrb558K81xHaU_KFo5d-VA43GnyWxLT5DWe8UpLh3jh460JqL4xl9Xacok26iMhz3D0V5KeH4e-Uur5dQftuvDzF2RHkypTOK_ei0VbtmRGb9Pqoz6EW0y4RRE8vykjnifvIP_ZEWvjLMfnpZyls1yufFLJkzgsjB-RYYYINLEnhTUQBYlbqXBz33YSAJiAqLhzSc6PCdMEi-JBGZTxDCDOi1Hob-yJTli3D8PQvjsnMrEcLvOXQI69MpMV8euN-pJ5zLSXquA3k3a72xu-fbtm5BlycSVFi-BkzegnZI9FxDxS_IBwPcJ931m3BIJp5CQnbOuTehoAbZTRCruqnXImW-ALIJKAU-U-rHOJaqSRm5dgJl0feKyI0M4ARenY_ZSTCEADEwM3tgEt-5iuvLO5PP6rZKPs423AM2brMGwqcty2Ii-NisoHberZPpREnjvph9mi80la-KXVXbVAZPXtsY70wpnY4Ml48Fdklzg5upmDEXSLwxwlA-YA2H3jr0TbBSX8G2reE81qgzTrxNDxShQFnlWGEroneDQG_HdaS7N-BpPBbs_rE2ffk6-nM7oeCPEWoKvwsTyqyP61tKBoqVcVQDscaY6u4uo9XQqgbS26gMWax1wSa7ZpM9hlF7sAj-xGkyBi01IWs36sf98q8HFcoNvBwE3uDuPHaQBN20kHgk7jHyXrGYZjG6xalA-6kZeRnH569nTqGTNDbo7rxleJ6PhH5gJZ5FsjzE2bE9JGTrMCNDeCOXbETPOUw7V0xWNh9BG5cFGcFvhLenxtfUO3kN7yhAZxOsoIngNv2ibWzAgOT1UKmPSUuRACcw8jUrQfzZGbNHfBK2ueW1OFqUss4ofIb9nEeF9dEX4mMSySR4dJEncMFluPP9IazGcs5W2SOBcQ_TCd7d7Kx67Z3dRn-uyVjaPOt7SC9K1V73dgSHPSZAVq-b4JzO7GLBn6Xw_Jk5B0ziExvGLKCKkFBZGaLsSXaE9x3O3AHIJq2isRWU9oeVQec475hpHdhE03lzvcwF5-fxsgrjJ2fqMzQWM_pYrQCvIB_w62nOVKu3nwYBeue2CgeXSGMFUl8nYHUV0x9VmjnYbbvGdMc-d3jUXnjusxdqjWDNp_8MuNwsjyrJRGgZUk5ZIYorOA_UIZ7SgVBsQYEK5SyQh-D_ZhCp0xPGfwXzLtyyVHZj3qopeAdCNTz9QfLORTzQ8hC8GOVLGUkK82fl3Kbax2fiXZ_1bb1ySijAGOOIQ8iNPx7JLoazU7fiktIAaGlODoi55GzZnreVB4l_JFRCotAYr_ANj0PvJ-jC3Lyhck2L-IHIEzMF2p3IMknbtitus_78z9kxBid-Dt9cw5pazYZYuqxNFoTvYfGSMPRsBtpN8FOz1p1BYeGL68xmouaSvhl5NygVPF6NtKRrge90DmRJaP3vgAcboCj-3ppTEPIGVOEKKOPPrzu3BI0uLwafyc-OJCZdaxgtR3JV5afJgl8neO2qegRvS96riOkAJlY-2CNRx-_68S4xtVe89aE-E06h3avPhgQKXHCLxojvW89Log2708dEDgtx5lJPTOBKOpqgD7HwHGwF6ZWxOtsSFGoE9dxyZEJegilwazZ1L0aVRaLSCInTZR_P6MWNrumTXg9OGV1u6mtBVVYZSP2j5volE0HfpVL-Xjmc_rtyd_HiPZ_wVN0tLo9XCk6ePBhrXDvLKWBWEshenV941L-CvjuvcS5SLUWUogmoCdB7jzWNyAYIRJTNGFnV5CaOobNgOmuzFa0P79rj9lpifB3zfhjOXcFa-AlFcs-qwvUiNOWoailhQol1PEsKAs711JDuu2T7iABf73oTxYhLlfpep3TtDvjzwpBa9qKhn714h37m7s2l4ULEdASPNsW1mglEtfuSNtEg06zu-OHhmbNtg4qXBxlb8J75bP8XqbjPmtVnMv5oUNXStIZbV2s40nu-1MRR03jvIQDG130zs7dvRsV3MCWmq3d7uWZ4LjDcam9VjN79eH65xlVhyUX312YTSyulKaeA8VJFGO_KuBRb4KZcdZT-Rbe3QjOPGg-1yIG4TIQyfCyEyMarFDm15CJcSjCnHjk-TbpS_iC1v25QO-7Hbf9NVa1I9jw4QHjkVY2fLAaiapbxlcJjUTxGi1_CyNFF7py5C8-HhiQD3yfBVnt6XhgAbdbvOzNa9TWzvaKAXBim6cVNItJoPNtJsFTo53W8_7GS_nZNun3tgDr7wj8BSFw=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"InterQual\" \"Total Joint Replacement\" \"Hip\" criteria 27130",
+        "results": [
+         {
+          "title": "InterQual\u00ae Last updated date: May 2026 \u00a9 2025 Optum, Inc. All Rights Reserved.",
+          "url": "https://prod.cue4.com/help/InterQualOnline/IntegratedHelp/content/pdf/iqconnect_procedures_job_aid.pdf",
+          "snippet": "conduct a review using Procedures criteria, Total Joint Replacement (TJR) Hip subset. At \u00b7 any point, select the Help link in the application for information on all features and \u00b7 functions and to access tutorials that show how to conduct a medical review. ... The InterQual content version is enabled."
+         },
+         {
+          "title": "LCD - Total Hip Arthroplasty (L34163)",
+          "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?LCDId=34163",
+          "snippet": "<strong>Rheumatoid arthritis, traumatic arthritis, malignancy involving the hip joint and osteonecrosis of the femoral head</strong> are also possible causes for hip replacement surgery. The use of THR in patients with malignancy must be weighed against considerations of life expectancy and possible alternative ..."
+         },
+         {
+          "title": "LCD - Total Hip Arthroplasty (L36573)",
+          "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=36573&ver=15",
+          "snippet": "<strong>Rheumatoid arthritis, traumatic arthritis, malignancy involving the hip joint and osteonecrosis of the femoral head</strong> are also possible causes for hip replacement surgery. The use of THR in patients with malignancy must be weighed against considerations of life expectancy and possible alternative ..."
+         }
+        ],
+        "result_count": 3,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_117256",
+      "args": {
+       "query": "\"InterQual\" \"Total Joint Replacement (TJR), Hip\" criteria"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Es4QCssQAWkUfRN1WXC1D6I4d-8cnt_eWvBZIOXOKPwEt2zwdnwGx4xVEzbj1HwvmQTOMDsiYhVOCx4cqEyKLFEYd-DB6hJk3xlSa2se_MH6GWS3fXW8C7K8hmmyR6o-gYgtndXc0Yjja7LI7veNOaymaaJDRh6jvCCR5R9HI3Zp0L4_IdfBc8NMfPBDHrSnGJpoeY3YKtBFoJb2o2OBoBwreHVsh7QKYJxQPBcbK6pX2wocZIeDzfoXHjF6N97hU7QYh72PQp34sNUv1wlc_F_uTl2vmQ44trspHbfnRZGz9Heh5Vh0BY0bFXgcblW8COn8f7bBksxEYqy3tU_UtimZK-YuQy7i4aRw7f-MYZZGO5KiPOAIo-xa_HdWkWpQdSCuW-LtAVTlzulwEa09RwTJqDpxqG4MSKnCdi7IXiQ_WRyBm8tfeY3Y9pS1UsN0otNL_jLsKVgn2iU1bJigc76_9myDTsWufvsNV2oIIZWPEcC0EH4aRoqJg2x4-ILwDaWDwNAs4P34dCsB2igBJncqdg5fi8g-HD2bqe6jLv5PdqDDHi9TPEBtC5YqyfTRt8GZ3rpiXER2jAZH0VxukAYaM06EnTW4inXxOLoo2ficvJrF-oD0xBtmFyTGPGDULt0EeKPDfRUmjYU4d7Z2dgGhE7wUSacWTBN4t14KRLY8AaK4WYQZX9cQ9m_FEJM5OZo8Byx-xU00JlpFdEzsmzM2f-I4nT9AcjZeSbHHwa6FNpyZ9tfYVk4KRNZplf7I_lnDYZMxrNOFTVOS7Dt60dprqDaWUahl92i-e7odRWfg1nriSMjYNelmAfZZGKzeS6U92gemh64T6z_VELclXZp4k9C1pLfnTG3NpefEx_ztAVlbeKQHHpqTu2oDKo9u2YRj-L-g-qDOrdEeGtr5U86EoJXV2OhoNPtSXWw_rRu-KtkppLSTs_fbFF1FaXO_fVkCElln1wVLy6R4iY_vQ9gC6bM0cIhUM-V2Snow9aUKKMqnIsVy8ZiMyTWiPznKdSUGx7l5g8PPqF7LFHMjm3q_5rj5CXiH1zqyElZy6nt4Ro9w2poo9I_pt6i_-gmXy2DDJdSOzgQgJ1fOIiPpSWw3FrgDoMIyunehg4_U1AkR_rG6jijd7zlHuqlA9A-Or_sNIKJE9h1arzVhihTmZsOaf2Wd2BUYU58FJex7pZJRfsX__Gi03G3qf2M3vli_i-KTX8kNhuyx_eU7ZJ9h-WJWg_e5szNyBITd-vdwDmW8BF6vSr-VTLpwgObYq7T7ZYcrtFDb8iRrC0jw_3l21W_XDp7KJuiJ53x5w3IqtyisaDCVENVMWZPHAdK9mY0afzecyi1xB1qLDK-rODahfwdRTDNDdOTx0bvVgymXFGZt1L66tYCZVFZTCTvzD1cA-GkqxNljpcvrujq2h4MDOhEWFmeugyM1h90QDV_BUPh3gBikJDZIAZ4J8k03u_6TeJvIKaPCWgXjm-q2Qhagdo178SdOt6CMglK81r5bi2MlefNy9Z8EyeCEEyz2wwAyWyrleyNWwzI6oYQ_H58FVrKlVszlYYqgfjBZDEDTANwckUs90FeOEsqgA7m-3hoCOLEyFZ-naAJ9SAJPgtMNXlFe27dTQltVYDstQBoNq8bUAW8qUEr7k6gh31cb_O-w0Gm5wLkHAVpdfaU65L-EFb_GX6xKAfecryREiCdSXAABfKsRgaSFDZXEFyRaqE8GVPef1my15qCOl4zHY2RG-kB-aUFDrpar8zrTde0h5bxdqGFFwvdnqGTCaOs1DDTKssA7RXLKheBl02YIB0-vib_rbEqnVmgAhMbYNiLpZow9lmov-K2kFCMscI85acqXbCxOxUstEv6qpzvZdw09v08IDOeOp5Mb_qb2vAUPmoIdnco5peQ0WI4r7LXYcIx9GUTY2BcmX8ENoCSSXyt0UB3X5-ZD9ciZuCR72Wwrtlfrj06VOik60wuAf7eVUtnoxBGXxdjMVB1nyHVFmC3N_15fYx7p4Oq4LE6Rl-drIW8jFB0q2c8uYkx9iOp3L8EiqEbxOzo-keuURlf0LTeVC10fJUOIo092U3kU8dawtz6a1vmtIZebaKUferYm06xpBNSPMofkl5cwnF41w5yIMnPvlwar41oaDtlbRfUf_GmdY1hWQjOHk2QVFgxBehLY9VTzn2DavGs4m717vyX7uG_l2xrKTvKFz4kaBQaOQd4UIowqL9ycIaVvu4z8lEdooCGm3rWzE9ZpXVFdn2-g19W23pQVVzy2BwGSkz8fV_lIDbO3R2TCg6Kpwijj4Yk_5PkFRXKZ2fUrmYGuojhgwVNyZDqtZN0TuFHRveTEHGCQAME5C1ml5NU67W5vpM7_UoV-g3Ytyw6ZXs6WpnPHc-xpuR94FzllE7ZURcqUmr2_F1fH1HMfRQ4ngTFQXzy11QWQF4OslRUbGD-2vBsRQ-FoPD3-HHr_6QhBwDWQYeIUlUhM0uBJy4OIfJvipCRr4N3LpcVKS5M40apahePRXVweJRjfLbhaFaF09BbeJjs3aNk6ClkBOOq9cDyYWM3wov6Fxi-db9N5dlgPVXnl8VhvFSgPvHL8VE_Hp-krDRGim9IEuzcIzmrCzsN7tvSkjFtCPqX5q1KKjrqMfcGY0WesVLz3OU0D4QMmTyhrhrNFd7YTl5gHqVjfEFKH0smapoTaS4IeyMr1Vw_R68-r5oeV1WWPJ5poO-wjsqPB2qa9dO8uPi56Yf6oTiJSCeREGaCCdbkfCYI2lkWnCCrfkvZWThH2q7H4HV93gbYcNPtocZuTO_gV-VBkZntY-Wd66FPdlTTvwujMRJ2mQkwxivs="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"InterQual\" \"Total Joint Replacement (TJR), Hip\" criteria",
+        "results": [
+         {
+          "title": "InterQual\u00ae Last updated date: May 2026 \u00a9 2025 Optum, Inc. All Rights Reserved.",
+          "url": "https://prod.cue4.com/help/InterQualOnline/IntegratedHelp/content/pdf/iqconnect_procedures_job_aid.pdf",
+          "snippet": "Criteria products are organized by category. We\u2019ll select Orthopedic\u2013Lower Extremity. 3. From the Category list, select Orthopedic \u2013 Lower Extremity. A list of subsets associated with the selected product, version, and category is \u00b7 displayed. The subset we will focus on is Total Joint Replacement (TJR) Hip..."
+         },
+         {
+          "title": "Surgery of the Hip \u2013 Commercial and Individual Exchange ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-hip.pdf",
+          "snippet": "Total Joint Replacement (TJR), ... is unproven and not medically necessary \u00b7 <strong>in the presence of advanced osteoarthritis (i.e., T\u00f6nnis Grade 2 or 3) and/or severe cartilage damage (i.e., Outerbridge Grade III or IV).</strong>..."
+         },
+         {
+          "title": "Surgery of the Hip Page 1 of 8 Surest Medical Policy Effective 05/01/2026",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/surest/surgery-hip-sur.pdf",
+          "snippet": "Total Joint Replacement (TJR), ... is unproven and not medically necessary \u00b7 <strong>in the presence of advanced osteoarthritis (i.e., T\u00f6nnis Grade 2 or 3) and/or severe cartilage damage (i.e., Outerbridge Grade III or IV).</strong>..."
+         },
+         {
+          "title": "Surgery of the Hip Page 1 of 8 UnitedHealthcare Community Plan Medical Policy",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/surgery-hip-cs.pdf",
+          "snippet": "For medical necessity clinical coverage criteria, refer to the InterQual\u00ae \u00b7 CP: Procedures: Arthroscopy, Diagnostic, +/- Synovial Biopsy, Hip \u00b7 Arthroscopy, Surgical, Hip \u00b7 Arthroscopy, Surgical, Hip (Pediatric) Arthrotomy, Hip \u00b7 Hemiarthroplasty, Hip \u00b7 Removal and Replacement, Total Joint Replacement (TJR), Hip \u00b7"
+         },
+         {
+          "title": "Hip Resurfacing and Replacement Surgery (Arthroplasty) ( ...",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/11.2.22/579_UHC_surgery_hip.pdf",
+          "snippet": "criteria, refer to the following InterQual\u00ae CP: Procedures: Arthroscopy, Diagnostic, +/- Synovial Biopsy, Hip \u00b7 Arthroscopy, Surgical, Hip \u00b7 Arthroscopy, Surgical, Hip (Pediatric) Arthrotomy, Hip \u00b7 Hemiarthroplasty, Hip \u00b7 Removal and Replacement, Total Joint Replacement (TJR), Hip \u00b7"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_198370",
+      "args": {
+       "query": "UnitedHealthcare Community Plan how to access InterQual criteria"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsQHCsEHAWkUfROzFS3BeYs5wERlcPaBA42tVRjhffkAjgXDURLJxouE8TvogSfJ9WOfht4TFWRiJoQDEaCIyXJWgIDWNs0j0uWsEyL-fZhxYZkjtq3YPupDO4KmMsbjm-8MvyGbE3Gd2cTTGZkF_fWRqD_uMhyDFsHaDpdzF_-htAL8NXsmpFuJOqpL6wydN7LNClYJW-HMWrmmuz5uPxNobu6cSBOb1YlrNJaRgo0Qzffn9y-i0SL0kXTiDleWVebl5cJjk20R-4IV6orGNRxeEtG_9x00cRt0_uLSLrQPg_Dih4kkPSiTwW1tVSt7KwEc2mCUjCZ8YaiTSCJOjN7K4PuI72Nubj96j5v7TklYcXaYc7w2pCDAfJMTv36lNoILjwX1RsSx6E6HM_XhY_aAwm3eO_XafUmw6FT6AbIvw6ZclRFEefaByqpAMum6F61poZxKf_PzRDceDkYNU4SZMe4gnWrRefB80SsbHxEQoRiqJ5-9OYoLYCRWWnvlMSc-12PGuXo3QYLOusmDmSd80dlH0_FuzYXB681CdiH8C0qMNQcW2FocI_pSoTzZByh6Zd9U4Rxh2cJRW40tLEYn0Y2T8mNOHXWXznO2JeWq-ZdvmhMMchmi3q24uuHMCcAE2WMo_Lui7-boM6zk2I2ACxZ2BiyCRMDqH40Rz9ge2BGcLiZSUBmajLqET_i97DSa9We0H-cGVVWsvUNX_fL2EAij_2XGrSIir-LspKUGcBPtVQahx9JNHph8EAaZxbBFvKxLDM61SuOND_nez5_3tESb4T1h2ZyzsbtSIhJt7UAjGZScOzZmDVMMxzZm9IzvznlzkgPMcV0dnslN3XxIyqsyKN0FY75IKyI4vo6Rr9C8BxShqnxxnStnog7ntZkyDyIltZx4IZpbfuSTCstjgyS3wNfNk2EQzeeSqQ5e1kW005g4ZQBoEVliYONRuySL-tW5RvGNyJDwdJAAnrmjFH2O0cxOkad_lCbfvEI3t2rKu9BGqhCjhEeBwduli6lOb3wLMfpnQ6pl9dEC3WTUyWuRnijc6RKhUVoBT2B6hBLa6qOhcDBT47KiB0aapjbLnqK9L6TeHeLHDLc90hUvnDelUSg7Bl5Dbjbkl5z6SjTDDEYVHmVysujiHeITOM-rXME6ZX8Oq8zsUpP2RcTDu5-_-PNWbwswwlg2pR0DVureFBWrtGQguI5MpK5eySuep08tyX5aFApjlEkL9mGk4kU3QGSoIED0BoGXmgfL13NyRKiTwAuGeG04yF4o3sXH3NQELg=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "UnitedHealthcare Community Plan how to access InterQual criteria",
+        "results": [
+         {
+          "title": "June UnitedHealthcare News: Reminder: We Transitioned to InterQual on May 1 - Healthcare Business Management Association The non-profit membership association for healthcare revenue cycle management professionals",
+          "url": "https://www.hbma.org/news/commercial-payor-news/insurance-company-news/united/n_june-unitedhealthcare-news-reminder-we-transitioned-to-interqual-on-may-1",
+          "snippet": "Viewing the InterQual criteria To help you understand determinations based on the InterQual clinical criteria, we give you access to a read-only version of the criteria at <strong>UHCprovider.com/policies &gt; Clinical Guidelines &gt; InterQual Clinical Criteria</strong>."
+         },
+         {
+          "title": "Hospital Services: Observation and Inpatient Page 1 of 2",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/hospital-services-observation-inpatient.pdf",
+          "snippet": "UnitedHealthcare uses InterQual\u00ae as a source of medical evidence to support medical necessity and level of care \u00b7 decisions, when applicable. InterQual\u00ae criteria are intended to be used in connection with the independent professional"
+         },
+         {
+          "title": "Prior Authorization and Notification | UnitedHealthcare Community Plan of Indiana | UHCprovider.com",
+          "url": "https://www.uhcprovider.com/en/health-plans-by-state/indiana-health-plans/in-comm-plan-home/in-cp-prior-auth.html",
+          "snippet": "InterQual Level of Care Guidelines are used and criteria can be provided <strong>upon request for specific cases</strong>. UnitedHealthcare Community Plan of Indiana now requires Prior Authorization for Home Health"
+         },
+         {
+          "title": "2025 Care Provider Manual",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/admin-guides/comm-plan/MD-Care-Provider-Manual.pdf",
+          "snippet": "criteria and guidelines \u00b7 UnitedHealthcare Community Plan uses InterQual\u00ae for \u00b7 medical care determinations. Health literacy \u2014 limited English proficiency \u00b7 or reading skills \u00b7 UnitedHealthcare Community Plan is required to verify \u00b7 Provider Services works closely with all departments in \u00b7"
+         },
+         {
+          "title": "A | UnitedHealthcare Community Plan\b \u00a9 2026 UnitedHealthcare 2026 Care",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/admin-guides/comm-plan/NC-UHCCP-Care-Provider-Manual.pdf",
+          "snippet": "<strong>UnitedHealthcare Provider Portal on UHCprovider.com</strong>."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_161160",
+      "args": {
+       "query": "\"New Mexico\" Medicaid prior authorization 27130 appeal address"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqQNCqENAWkUfROKykaVt6BR7NAB72GMIgYd9pPE1PAvhpeacs8_RY5fblRZBPUi51eL3UujIqbqEJWpAvapY0kUdWxgoXi05Ff_K6EwhZZ1rrQBz3NI5Gq3eSs6cetRI8JqZcYczqBtkvWnyEG5tfvGq65dzyT3eI-gdNQNoRVDCSP7EyVyWSNiMWOjRd7JmLPJdq_tlIAi4hkLDwoP72CblYzxJzzRco0UnXq1luQmd22du_kdkKxXl3wQhRy6epgbXH1QKPDIDM2cXdNiX0K06T5Cp5D9QautC9AF0SwWUTAneKb_C00SLGRh6Tb875XA28zT92ByK2sLl_WwHsg6hybmn5dJ6IUUKpZuWRHsPdX04D_7Rh2jnq87djy0pIPjwaqBCUOWGLYQwqOKmRHkOzCSAuQzzEe-eJMZC3SH-gSQZGyaQz9SvNaDFibZj6i6PjoLOOIBi8QzgoPRibZ403My6VLwBUe1flGITXWhhfDXf-QfJzE8qOhWJJCa1H2GDT7vnQ3cBvtH3VFNFDcSHSg96fs1QrEjApe-CG9lzgoV-yl5aYrvV4eRz1U-p6uHtn8CvkR7MYLuVcsDtN234Ldm2PhiSINIjL64TSVePGRL1VdA0-VRvmErvvlJwtkIqDzJ7M3C5qOpINeCjzroFBb_pSww3wkPvw4BmrObNXOp9FY8BpuShqwlckiRVE4Cmol0_9NVKpjSw6gfNLNuAUjaaVCpJc-uqBz4MiGAiETekkUTzjgJMnd38D4kVD81TlzzjrZGu6X2rUD6uH3N5Em9RfMypkDYH2FvXM8kjr66QcLvpivIUpfUFuYuRjN91oMzpq5gotGnQpatTR9qDMrFo2n1QjFaeuIXU8bh36Nayjw85bfkitRiI85PxlRZ-Z96L-nYEuV-myA3xkG7pUmvJVB-43Ly3gXye9DwUjXD7jB4Q9P7trwiyzYnUJHvE1SCsU80j8IT3arA3H0tsmUZpZtqoMjiqXyiZspWRAXwhwza7UJeJIW3gQVbKoNXvyyCKcXiaZo9pS8UOcL0LR1aS2rRqwyw6IfRUPtue1d-6nV6QBgWBaGFbG8Bos11IL6JGfc0fC82DyxANH6d90Gl8WrEph6jXEfnixzg9pJqsdXPHiVUkLNx5lyJoSmq402ajhvtiKT7yqaE8nHKVKZsKU5pTbMsPhiWF442LgraK6dJ5tnqhuV3HuM1jp9g14OHgdEFv_-4Jxl3_eqwoz-NnTj6RdBsNz3CS8C3vngGDlnsuaMjIl2vmfJOegxAy8IYAjPpjhXEb4t3wMcbJP-9GTq5WoT5rNL3IF1kw6Jn7kGu54mDpBs0tfdM9mhV3-QdsPBI_JfwLEyfQ91N3-pxH7Mk27e2J_hEtjExzbSookYbP1NfENC08U9yoitnqK1WwXe3WD9BeSpUS1Uz6J9EpUiwboUX4iS084mWWDaOAAkhpHJ_oNLd0t6ZCBL1vF63l4uk7WRAotC_ESmXWqcyqmeq2h4ip73pYIZLJ54KWUFfPE8WBtJ1gOvPv3DD2w2JIACuzvMZZOTI2uHb-aJGYeR3_2AYgawddviFQc98ki5IppWHWc3LVu4BhaK3074Z64d8nGI8FPe3WyEMGRVryjlCm-3TKlQv3h1WO2F4lQ-jn6ILmPnxR4LVvANjjCihr9P3O70Z8mFYUyJQb4KTQz7JuUZydESkoo8c5VqqDtjO6ZRStlXGhGqel55FbujnaGnn7kBDnWfoxcuqG3YE-dLIoUn0H-Ey5Ko1Jy0bFa5PujA7f1X0Hts9rSfAnr6rwJ4CchAS4wHruX17-D34GWgZ_TJmRqyYB50qAOUPq-n7DtAQ8I_9ad1PSpFPOsNESaFQ5QjwCWhXTWMuzEIDJge3tgJq_DQn3YT_YsGV4qBdABoYWvmS3ADJblpGfTrhtjc_9uCW9eZsJTg6ooWQbfNx5Hu77YhW10a46roUxM7xTnmq41zXj9qOGZNZCHyqjtTCdJxHsBVVbKxcJq84hshqS9nE45gBCUtUaT0UFlOlyGIH1bzw0QfgcZqUQBbaSJ1pPJ9GvIRBtMtbpVib-4vmXY_Gr4KP90FNEFkAZA-s5_fFzdyuOZb727WMCNAOwk7WZk34cKfCMOw7UH3ASEJiLbxBVpxzrHtGsewwlugfrf62KMHWw96IfCQjZef_GaAuPoGQvrUcSQ80cPSI0f5rNuB7u6GrdpNEasmCPct99_YHDJTzzlla7r8uiPMMqtUR16aaTDdrPJq5bHNbShs="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"New Mexico\" Medicaid prior authorization 27130 appeal address",
+        "results": [
+         {
+          "title": "8.349.2 NMAC",
+          "url": "https://srca.nm.gov/parts/title08/08.349.0002.html",
+          "snippet": "8.349.2.9 COORDINATED SERVICE CONTRACTORS (CSC): CSCs that manage some services of the medicaid program are responsible for any or all aspects of program management, prior authorization, utilization review, claims processing, and issuance of remittance advices and payments. A. The CSC shall have a grievance system in place for recipients that include a grievance process related to dissatisfaction and an appeals process related to a CSC\u2019s action, including the opportunity to request an HCA fair hearing."
+         },
+         {
+          "title": "Policychanges",
+          "url": "https://policychanges.app/state/nm",
+          "snippet": "Effective July 1, 2026, Blue Cross Blue Shield of New Mexico will implement enhanced claims editing for evaluation and management services that may automatically downcode E&amp;M claims to lower service levels if documentation doesn&#x27;t support the billed level. Providers can appeal by submitting medical records if they disagree with the downcoded reimbursement level. ... All Medicaid ..."
+         },
+         {
+          "title": "Comagine Health Contact Information | Comagine Health",
+          "url": "https://comagine.org/program/new-mexico-medicaid/contact",
+          "snippet": "Phone 866-962-2180 505-217-7680 Fax Applied Behavior Analysis: 888-515-2067 MCO client information update requests: 877-717-8592 Mi Via participants: 800-251-9993 Urgent fee-for-service prior authorizations: 888-562-2755 Mailing Address <strong>P.O. Box 20910 Albuquerque, NM 87154-0910</strong>"
+         },
+         {
+          "title": "MAD-MR:05-15 MEDICAID GENERAL PROVIDER POLICIES EFF:9/1/05",
+          "url": "https://www.hca.nm.gov/wp-content/uploads/FileLinks/db231204433241998f49d260c6129473/8.302.5.pdf",
+          "snippet": "utilization review instructions, medical necessity criteria, and prior authorization forms."
+         },
+         {
+          "title": "Preservice Reviews | Blue Cross and Blue Shield of New Mexico",
+          "url": "https://www.bcbsnm.com/provider/claims/claims-and-eligibility/preauthorization",
+          "snippet": "Submitting a request for recommended clinical review is optional and informs the provider of situations where a service could be denied based upon medical necessity, even though prior authorization isn\u2019t required. Requests for preservice reviews are processed in the same manner including, but not limited to, which reviewers are qualified to approve and deny, timelines, notices and appeal rights."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_133764",
+      "args": {
+       "query": "\"New Mexico Medicaid\" fee-for-service appeal address prior authorization"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Er4GCrsGAWkUfROnsARmnKmhmS5fmei4PeW7XYpo81CLPeBB2YwQg0jjzjLEmacbS2u792RBtmoNj1eLXC-UOB8Iv6x85pWvWEhpf0T7dlbwyM7Rg3vY5fuJahnpiq-Njd3COBMRTGjvWlq78ZooSQvc56yJLeLvmFHJ39sp9XbTZkWUy3UMlbh-GhtFRiiB-qsq3xxwO6PSSPNkcUlmVjijHOpm6TTLRDOZkTJE53Hw4jYzE4SpP9W7Acl90mP8qU7PrBujeII089kg7eYRgutFnsx3L14WDowonrdxAym_bxAIGLXiAaoPpq9fKp97UywUBoHC0HIdwOnlFZF_4e-Guk99ZwjrEcZrpe9zVbEv6_Wzmi4cAhEhfOKvwc1YyAs1XL7Fa7ET__nTlusobca11awD94582dHXRBkzTYib9ejj2qiPYjXEcbXFntNYxcC8kYOQrSJF5Oa2L3ZWDr29G24vmiS20ZGMzfPw5GejiE-lyPlRWb71Cs-WHquRvK4Nr6RV2Fq-GmArhZc3Q9ThapqL72IrDo-dcj02zku-NR2jN1IglFPORltjRYVNxqsPZh2Iqza0i1T81kx2TvZBXV4k_imeei_ukxsRHVKPiXoPHa7qYVAprNWlBGxPwELfB85KJ6kmJAKt56XBV8R_WRZkJo3hrgsOh_uFmN62sDDyHN8MF2I84jBYL7vuuvnyJHC3IMeyxlyHg4E_K_yinM23mKrPDVfPQj0jFyqNrNfLnGj55lrqwpJihBXBb9YKZ_MPNqqCNdAA4ebzfZXx0nd-r3mtqOYIBVfErm79JhJHUQClhKwccXzVR28eycD0XahoxfVL9_KdCv-6bH1FR8OBT6MFdivoBe0beyshiu0e_2kmma9lBpViXbINW3-G6cC09Qu0I_Rf1TokLCNjc-KmhXUP1KOKXnh2vjJ_x6dj1dhTfDspxz8u09bYlZ3RwgGynnZqvlJ88zzY1HMOIZF2lje5Cwy-CaKczFnCf9CV7q_E7csHfMFEXGEzhF_XovJgKUI_-_U540nX4h9Q9vpTdWyJKOUVmKPadCYgJWRpLqU7xd60Am26_k0gvFRJGUN4a7HrKPirhOnHjs8="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"New Mexico Medicaid\" fee-for-service appeal address prior authorization",
+        "results": [
+         {
+          "title": "New Mexico Medicaid Checklist: Fee-for-Service Prior Authorization | Comagine Health",
+          "url": "https://comagine.org/new-mexico-medicaid-checklist-fee-service-prior-authorization",
+          "snippet": "Checklist for requesting New Mexico Medicaid fee-for-service prior authorization. Includes DME, therapies, vision, nutritional supplements, wound care, outpatient surgery, prosthetics and orthotics, home health care, contact lenses and inpatient rehab services."
+         },
+         {
+          "title": "Comagine Health Contact Information | Comagine Health",
+          "url": "https://comagine.org/program/new-mexico-medicaid/contact",
+          "snippet": "Phone 866-962-2180 505-217-7680 Fax Applied Behavior Analysis: 888-515-2067 MCO client information update requests: 877-717-8592 Mi Via participants: 800-251-9993 Urgent fee-for-service prior authorizations: 888-562-2755 Mailing Address <strong>P.O. Box 20910 Albuquerque, NM 87154-0910</strong>"
+         },
+         {
+          "title": "8.349.2 NMAC",
+          "url": "https://srca.nm.gov/parts/title08/08.349.0002.html",
+          "snippet": "8.349.2.9 COORDINATED SERVICE ... of the medicaid program are responsible for any or all aspects of program management, prior authorization, utilization review, claims processing, and issuance of remittance advices and payments. A. The CSC shall have a grievance system in place for recipients that include a grievance process related to dissatisfaction and an appeals process related ..."
+         },
+         {
+          "title": "Prior Authorization - Blue Cross and Blue Shield of New Mexico",
+          "url": "https://www.bcbsnm.com/provider/claims/preauth.html",
+          "snippet": "The primary difference is that prior authorization is required for certain services whereas predetermination is elective for services that do not require prior authorization. Once requested, prior authorization and predetermination are processed in the same manner including, but not limited to, which reviewers are qualified to approve and deny, timelines, and notices, including appeal rights."
+         },
+         {
+          "title": "Fee Schedules \u2013 New Mexico Health Care Authority",
+          "url": "https://www.hca.nm.gov/providers/fee-schedules/",
+          "snippet": "For some equipment and supplies, ... to the Medicaid Program Policy manuals and/or billing instructions on billing for these services. Reimbursement may differ from the fee schedule depending on the modifier billed to further identify the service or due to the type of provider rendering the service. Some of these differences are listed on a \u201cSpecial Reimbursement\u201d table. 4. Some services may require prior authorization; ..."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_117328",
+      "args": {
+       "query": "Comagine Health \"prior authorization\" \"appeal\" New Mexico"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EssCCsgCAWkUfRP7y9E-Nu5knvrt409vikaiiW_pMBdDRA9pnPKrSNfXFEOHIzik0UNYJdiHcTIni4RnO-RTiSxs8l-DUxhCDoTMavD1U_vFU97_YKuGNTnRMuHiOqQz6H7M6xYI8jhvrK0lpOxQIUkiwqDT7JEyctrbLu1gSJAdZIlKTRJU25acLXcSd-ep2R-EWkJjQbqeZ9IzIdZmrz3nyeew7mcB9K2OZ4X6KUZv2QpPfruoQOYHv9kvhDZxxTci_lqObi_zb_86nVt6lq6KVZY5ledkyFTGZdKTlEIFll9iAjCIyYa3Hxdp-5mhzQ5Mtdmc0RC-9qpD4dEgxzmEpSuTFXnd9iMhKKV15r-YHjZliaDWfh6SsIae80osZ1Cxpi6W5M21IfGr5J4CQUie1dzv_luWQeqW-dwaHnSKhIJpwEGb4904zkugTQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Comagine Health \"prior authorization\" \"appeal\" New Mexico",
+        "results": [
+         {
+          "title": "Comagine Health Contact Information | Comagine Health",
+          "url": "https://comagine.org/program/new-mexico-medicaid/contact",
+          "snippet": "Urgent fee-for-service prior ... etransue@comagine.org \u00b7 Go to the Comagine Health Provider Portal \u00b7 For help or password resets, please <strong>call Comagine Health at 866-962-2180</strong>...."
+         },
+         {
+          "title": "New Mexico Statutes Section 59A-22B-5 (2024) - Prior authorization requirements. :: 2024 New Mexico Statutes :: U.S. Codes and Statutes :: U.S. Law :: Justia",
+          "url": "https://law.justia.com/codes/new-mexico/chapter-59a/article-22b/section-59a-22b-5/",
+          "snippet": "If the request is denied after ... person&#x27;s provider with the grounds for the denial and <strong>a notice of the right to appeal and describing the process to file an appeal</strong>...."
+         },
+         {
+          "title": "New Rule",
+          "url": "https://www.srca.nm.gov/nmac/nmregister/xxxii/13.10.31.html",
+          "snippet": "(2) If a carrier does not grant ... are approved and which are denied. (3) <strong>A carrier shall permit a provider or covered person to appeal the denial of any benefits regardless of the number of benefits requested at one time</strong>...."
+         },
+         {
+          "title": "Prior Authorization - Blue Cross and Blue Shield of New Mexico",
+          "url": "https://www.bcbsnm.com/provider/claims/preauth.html",
+          "snippet": "As a contracted provider, you may not seek reimbursement from members if your claim is denied for failure to preauthorize (or otherwise). For any service not approved for payment, <strong>the member and/or provider may have rereview and/or appeal rights</strong>. You may also contact your Provider Network ..."
+         },
+         {
+          "title": "Preservice Reviews | Blue Cross and Blue Shield of New Mexico",
+          "url": "https://www.bcbsnm.com/provider/claims/claims-and-eligibility/preauthorization",
+          "snippet": "Contact information for New Mexico Uniform Prior Authorization Form \u2013 See page one of the form for coverage review hours and phone numbers. If you have questions, contact our Health Services Department at <strong>800-325-8334</strong>."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_114335",
+      "args": {
+       "query": "\"New Mexico\" Medicaid \"fair hearing\" appeal address"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqYECqMEAWkUfRNd3crKa2vHMzbxFQ51icNis1GYTcOWNLJO2HwNT1CWQfR4tsS77focVtWO5AofLe9hN1rU9Yq4zxeHZ_JTTx8B15mPo6JXCV_nn5NcMmUQin4iSHohC8tcX5jWVwNCSiJKc2Zx2zA871LwaZIplTDBsFf0Tk0gfelsKBk0pjFAc0MPlp9guXmgaQjnZYXe3pGHhmYdKIvQ--gytM3HaFUeXXkt0rtVVg15rSG9fjFfrkyrKtY4wpktakoFFNZvRdZUhENaTwA4rryYQxvARLm5DF0GFa4MX9nzElT9RQHuHHhIk33byyf7I2_fhLLjft7vTPl9utTU780wVYA8K-FvbXIMI6iYxCW5rxEzTUqLxTDIQPhFsB5ty3VzuDrDVFHkh_Mj2CePZK1-B4hl83gOqD961D31_5sYybFg6ifExKxBHABXMFDjvKh6NuiN64uX02kHRh9U8k_KXHh_-aZf8GcSgN25rQN-645HYAJThXl3__W4q5E_JxgaomrRECcQQHmqE2SLakfVMelVdFwtjVTpUlnkcds5ajLD3qKE1-0zAnsj7XYMiaiSltkEKUwcVAiUHZ_muAjTrDc1631wNzFd8Jih_LNDgNrmQQxepdw98-BroYpMwGr2fwJ9lXgkh7asnMfb_Xl82rVFqQXDyWeRK7ikOZa4ZIFFPMA3bpivjDGwwWiVXc2I_XN5s1f3ZMcHY0kS3Mez3KCMxQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"New Mexico\" Medicaid \"fair hearing\" appeal address",
+        "results": [
+         {
+          "title": "Office of Fair Hearings - FAQs \u2013 New Mexico Health Care Authority",
+          "url": "https://www.hca.nm.gov/office-of-fair-hearings-faqs/",
+          "snippet": "Your written request to withdraw your appeal can be emailed to HCA-FairHearings@hca.nm.gov, faxed to (505) 476-6215, or sent through postal mail to Health Care Authority, Attn: Office of Fair Hearings, <strong>PO Box 2348, Santa Fe, NM 87504.</strong>"
+         },
+         {
+          "title": "Office of Fair Hearings - FAQ \u2013 New Mexico Health Care Authority",
+          "url": "https://www.hca.nm.gov/office-of-fair-hearings-faq/",
+          "snippet": "Your written request to withdraw your appeal can be emailed to HCA-FairHearings@hca.nm.gov, faxed to (505) 476-6215, or sent through postal mail to Health Care Authority, Attn: Office of Fair Hearings, <strong>PO Box 2348, Santa Fe, NM 87504.</strong>"
+         },
+         {
+          "title": "New Mexico Medicaid Appeals and Fair Hearings | Brevy Care",
+          "url": "https://brevy.com/medicaid/new-mexico/appeals-and-fair-hearings",
+          "snippet": "Retrieved Aug 3, 2026, from https://www.ecfr.gov/current/title-42/section-431.230 In New Mexico, an appeal of a Medicaid action goes to the <strong>New Mexico Health Care Authority (HCA) Office of Fair Hearings (OFH),</strong> where an Administrative Law Judge (ALJ) who had no part in the decision hears the ..."
+         },
+         {
+          "title": "Fair Hearing Request - New Mexico Health Care Authority",
+          "url": "https://www.hca.nm.gov/wp-content/uploads/Fair-Hearing-Request-Form-2024.pdf",
+          "snippet": "If the issue involves an MCO, has the MCO\u2019s internal appeal process been completed?: ... Email: HCA-FairHearings@hca.nm.gov | Phone: (505) 476-6213| Fax: (505) 476-6215| <strong>PO Box 2348 Santa Fe, NM 87504</strong> \u00b7 You may contact the NM State Bar Association at 505-797-6000 for available legal resources."
+         },
+         {
+          "title": "Request a Fair Hearing - New Mexico",
+          "url": "https://yes.nm.gov/s/RequestFairHearing?language=en_US",
+          "snippet": "Loading \u00b7 \u00d7Sorry to interrupt \u00b7 Refresh"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_154191",
+      "args": {
+       "query": "Comagine Health \"reconsideration\" New Mexico Medicaid prior authorization"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqkGCqYGAWkUfRPfG6Q6JUtpqTZGJvIo_G5Ah08CCZPDs5QcanW0qgFTzeY2LL5C8z1FQ_yAO38dVD5GWxmZNZocJaYT5oPc6qiH0Qy2dF9WoJKPUr_XtWIkeQjL8o4uymIILHuGRC2rLiQkrYPs2dv8GTR7daVC37m5v_EkH6eS5soraNPQNunMxDwdzBjBCAEQia0hj8ShZZpbNDk-POFAshjOtK1oVdvjteqHnzERpmA1ONpwDXAPFkqQhI4XBW9voTGihV4U4apU50kAu3c05sauyDnwtg3k9bjL_FiEGTmT5PmmL-_XVT78YH9hyonHZuWCxk1iXMJBo2_owvtio__hUGapcMFLV72d2BKGmthtVVhJRmgSeOLVSFz3kWB0YXtfbrfadyCv9-bo5Lvb09kRtZ-sFWNqdioVUyJuCOt1tjFvmL7titY3uRy7Fhjwa71MX3rrraGJpPJaVwA2E1AH7L5QA5nyKaDJVxy8XrZTmbqTm0N_1NOzzQ07jCQ-gzbEZDl7mcn0iUkzGFFf8m059kXVZbMw_Tjxo80b0QYdy8R12kNteqSIU1eBt97ier0UEClgVqAgZK6w4j7opivrCURqlWGewvDz8XO-aRtV_9qQRU3NpKrGgMQayL_YVmeSp-PCss1f6lpgHvfY9HZXyDsq3dju67Es-OA4vyGJNqRUs5v8bhnp5QYsJV6T2UPPXxyb1BVOvE_hiZWZV2HnbWRKo3MEXx9Oo-DnWmn-_JpcYtY4d_aimV_WFMUyM3mroadYvjYXElrz07p6uVK8YWEjzyLMXkNu5HhKphAREgxu8Y5NhT_ZAarwtaZefYydyD_cRU2A6-ZQeHLcym3UsD_1tb4I4CSEnwEl_XSlCKVKPc_G6UnvwE6l_e5lSQ5oOhrP59RQ78aH1Xvq4EFYdzul4Df6qGHPngzTkAZrTbw6sJkrw5jMIG53Kil6qfyZsRI_kQL52mhx8JA3yMVw6IDG-AqTRMLNDUvUgaLkAtqUXUsUqRRDmCrBI1bZfBB5i9tjCu99tlAXyi8aqcc2270Pc1ZaiG8BssLKRBeiW5RytkXDAlA="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Comagine Health \"reconsideration\" New Mexico Medicaid prior authorization",
+        "results": [
+         {
+          "title": "New Mexico Medicaid Portal - YesNM - Conduent",
+          "url": "https://nmmedicaid.syst.portal.conduent.com/static/ProviderInformation.htm",
+          "snippet": "<strong>Reconsideration request may be sent to Comagine Health (previously Qualis Health) TPA via fax (888-562-2755)</strong> or mailed to: Comagine Health (previously Qualis Health) TPA Attn: EMSNC Reconsideration Requests PO Box 20910 Albuquerque, NM 87154-0910"
+         },
+         {
+          "title": "MAD-MR:05-15 MEDICAID GENERAL PROVIDER POLICIES EFF:9/1/05",
+          "url": "https://www.hca.nm.gov/wp-content/uploads/FileLinks/db231204433241998f49d260c6129473/8.302.5.pdf",
+          "snippet": "other review decisions may request a re-review and a reconsideration from MAD or the MAD designee that"
+         },
+         {
+          "title": "Emergency Medical Services for Non-Citizens (EMSNC) Claims Process \u2013 New Mexico Health Care Authority",
+          "url": "https://www.hca.nm.gov/emergency-medical-services-for-non-citizens-emsnc-claims-process/",
+          "snippet": "<strong>Reconsideration request may be sent to Comagine Health (previously Qualis Health) TPA via fax (888-562-2755)</strong> or mailed to: Comagine Health (previously Qualis Health) TPA Attn: EMSNC Reconsideration Requests PO Box 20910 Albuquerque, NM 87154-0910"
+         },
+         {
+          "title": "N.M. Admin. Code \u00a7 8.302.4.15 - PRIOR AUTHORIZATION AND UTILIZATION REVIEW | State Regulations | US Law | LII / Legal Information Institute",
+          "url": "https://www.law.cornell.edu/regulations/new-mexico/N-M-Admin-Code-SS-8.302.4.15",
+          "snippet": "A provider must verify that an ... C. Reconsideration: <strong>A provider who disagrees with prior authorization request denials and other review decisions can request a re-review and a re-consideration</strong>...."
+         },
+         {
+          "title": "N.M. Admin. Code \u00a7 8.324.10.14 - PRIOR AUTHORIZATION AND UTILIZATION REVIEW | State Regulations | US Law | LII / Legal Information Institute",
+          "url": "https://www.law.cornell.edu/regulations/new-mexico/N-M-Admin-Code-SS-8.324.10.14",
+          "snippet": "C. Reconsideration: <strong>Providers who disagree with prior authorization request denials or other review decisions can request a rereview and a reconsideration</strong>. See 8.350.2 NMAC, Reconsideration of Utilization Review Decisions."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_132459",
+      "args": {
+       "query": "\"8.350.2 NMAC\" OR \"8.350.2\" New Mexico"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqYFCqMFAWkUfRMPQjKcUAGsUhvCEjketxtIZgmmS3ju6Fr88mZ0Zx3O6PzdSc_7js0sEQPu__svG5CER5riTnFONWySu4Nm-ZLPzD7hsYOO7ZkNF2OgjEot3xxWgEhxaO0GtHc8rWhorUH1Kkg7yY5yvLI0bN33Dz2IcfqixTv4jil0pYfCMXR3_L8XgrLENKHfcDCzT91yu9mf2vqPhRGjbnxxcCLg7wrXmNO3VTdB7xsShQUSttdqYPVQreehjNC_YV_ZOV_iEHKC0mXOAN_NiUQWpwoz_Hp085u5dZnTJGbAo8TxB-AfVb7DxHQsrodkVBf-VxVx5t-F6iZgd_4ljbif1qscjfq2QrCQH95hxowvqUEKkUFrR9OSZK02qhAMNpXBQIsnIuT1WuvgoMXiLGilC6cyDzVwHOaeJZLFiJJy8jN1z2dy9DqdWGgqAij5Gi5Ws5Gr0IvDtE29nnX4DPczlCKgzM250rZIQ9-UwDRnKUI81h9TgoKxRlv1j4idWcsiyEXlGgP14JK4aoEc3tsa8m7RXpdeaUT4RZnDXnJx3LGI3yDOPp9BvOZiOdlUtF9yHQ6pKxP7CuM_oyZoN2KeZ2NKkIydQuxqbC1vzi7rP12Doi7pDo2mKR1M2K_EGI-dRS36ldE7tSusIr9o05QW0dk7yiufYqIS_wVJpUsP2oXAWGJYsDsPcsq0C-q8kCWOkDprKag4XJR6wmJWKYvXCZhc69qqQXwwbBUrDU6ANWBpDn6uznEx83iHrlZcR6iQxyXmI9spAf4EIr3_ACbwM1UqVdVidh6myUFnybgYy1_4VrGO0wmU4_FlPc4uGKzyH-kP57qifMwaTgAzg3a8csQQrznqnXGDSC1nMeemYbRvW0oV4yJp8WXJ9sEVii4Djl2B"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"8.350.2 NMAC\" OR \"8.350.2\" New Mexico",
+        "results": [
+         {
+          "title": "N.M. Admin. Code \u00a7 8.325.4.14 - PRIOR AUTHORIZATION AND UTILIZATION REVIEW | State Regulations | US Law | LII / Legal Information Institute",
+          "url": "https://www.law.cornell.edu/regulations/new-mexico/8-325-4-14-NMAC",
+          "snippet": "C. Reconsideration: Providers who ... and a reconsideration. See 8.350.2 NMAC, <strong>Reconsideration of Utilization Review Decisions</strong>. N.M. Admin. Code \u00a7 8.325.4.14 \u00b7 2/1/95; 8.325.4.14 NMAC - Rn, 8 NMAC 4.MAD.763.5 &amp; A, 3-1-06, Adopted by New Mexico ..."
+         },
+         {
+          "title": "N.M. Admin. Code \u00a7 8.302.4.15 - PRIOR AUTHORIZATION AND UTILIZATION REVIEW | State Regulations | US Law | LII / Legal Information Institute",
+          "url": "https://www.law.cornell.edu/regulations/new-mexico/N-M-Admin-Code-SS-8.302.4.15",
+          "snippet": "C. Reconsideration: A provider who disagrees with prior authorization request denials and other review decisions can request a re-review and a re-consideration. See 8.350.2 NMAC, <strong>Reconsideration of Utilization Review Decisions</strong>. N.M. Admin."
+         },
+         {
+          "title": "New Mexico Administrative Code, Part 5, Section 8.324.5.13 - UTILIZATION REVIEW AND PRIOR AUTHORIZATION | New Mexico Administrative Code | Justia",
+          "url": "https://regulations.justia.com/states/new-mexico/title-8/chapter-324/part-5/section-8-324-5-13/",
+          "snippet": "C. Reconsideration: <strong>A provider who disagrees with a prior authorization denial or another review decision may request a reconsideration</strong>; see 8.350.2 NMAC."
+         },
+         {
+          "title": "mad-mr - New Mexico Human Services Department",
+          "url": "https://www.yumpu.com/en/document/view/22334154/mad-mr-new-mexico-human-services-department",
+          "snippet": "General utilization review program policy is contained in Section 705 [8.302.5 NMAC], Utilization Review, of the &lt;strong&gt;New&lt;/strong&gt; &lt;strong&gt;Mexico&lt;/strong&gt; Medical Assistance Program Manual. The applicable policy sections for this service are: 8.302.1 NMAC General Provider Policies 8.302.2 NMAC Billing for Medicaid &lt;strong&gt;Services&lt;/strong&gt; 8.302.3 NMAC Third Party Liability Responsibilities 8.302.5 NMAC Utilization Review MAD-731 [8.312.2 NMAC] Nursing Facilities MAD-953 [8.350.2 NMAC] Reconsideration of Utilization Review Decisions MAD-954 [8.350.3 NMAC] Abstract Submission for Level of Care Determinations 8.351.2 NMAC Remedies and Sanctions 8.353.2 NMAC Provider Hearings Medicaid program policy sections and Billing Instructions may be obtained from the Medical Assistance Division (MAD) or its Claims Processing Contractor."
+         },
+         {
+          "title": "N.M. Admin. Code \u00a7 1.18.350.237 - [Repealed] | State Regulations | US Law | LII / Legal Information Institute",
+          "url": "https://www.law.cornell.edu/regulations/new-mexico/1-18-350-237-NMAC",
+          "snippet": "N.M. Admin. Code \u00a7 1.18.350.237 \u00b7 Amended, New Mexico Register, Volume XXV, Issue 17, September 15, 2014, eff."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_136188",
+      "args": {
+       "query": "\"8.350.2\" \"reconsideration\" New Mexico"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Et8BCtwBAWkUfROf0Ie_XtRMdfCVmZZ-xQGmm-ztKV5rCMPYm4WRuKeMFnIekm9eyYJei5nGWdC_3TATp9Bd9DoX-EMT5lQ4lFARz1erUOQqS7X8s0fLHuIzD_KDF3u_SJlIQQr9ISGVe0Yz2tMtosyZxEnjSehsJbFpNgbO1qRoZZ3lLu2-5ZzKu_Ch9SnMlx6Q0sYZJbPDTkvTH30ZV87A5Uh-5rcqqE72O3XU_H7g6Oeloj6KOv9KEWIJkuqZX6IzXtAupsqNCOYjYqHkhv08Pt3X5-jFYjwPJaxxH4KGHQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"8.350.2\" \"reconsideration\" New Mexico",
+        "results": [
+         {
+          "title": "N.M. Admin. Code \u00a7 8.302.4.15 - PRIOR AUTHORIZATION AND UTILIZATION REVIEW | State Regulations | US Law | LII / Legal Information Institute",
+          "url": "https://www.law.cornell.edu/regulations/new-mexico/N-M-Admin-Code-SS-8.302.4.15",
+          "snippet": "C. Reconsideration: <strong>A provider who disagrees with prior authorization request denials and other review decisions can request a re-review and a re-consideration</strong>. See 8.350.2 NMAC, Reconsideration of Utilization Review Decisions."
+         },
+         {
+          "title": "N.M. Admin. Code \u00a7 8.324.10.14 - PRIOR AUTHORIZATION AND UTILIZATION REVIEW | State Regulations | US Law | LII / Legal Information Institute",
+          "url": "https://www.law.cornell.edu/regulations/new-mexico/N-M-Admin-Code-SS-8.324.10.14",
+          "snippet": "C. Reconsideration: <strong>Providers who disagree with prior authorization request denials or other review decisions can request a rereview and a reconsideration</strong>. See 8.350.2 NMAC, Reconsideration of Utilization Review Decisions."
+         },
+         {
+          "title": "Amendment",
+          "url": "https://www.srca.nm.gov/nmac/nmregister/xxxii/8.325.10amend.html",
+          "snippet": "A non-citizen recipient who is ... on his or her behalf. <strong>Requests for reconsiderations must be in writing and received by MAD, its UR contractor or a MAD designee within 30 calendar days after the date on the initial notice of action</strong>. See 8.350.2 NMAC, Reconsideration ..."
+         },
+         {
+          "title": "New Mexico Administrative Code, Part 5, Section 8.324.5.13 - UTILIZATION REVIEW AND PRIOR AUTHORIZATION | New Mexico Administrative Code | Justia",
+          "url": "https://regulations.justia.com/states/new-mexico/title-8/chapter-324/part-5/section-8-324-5-13/",
+          "snippet": "C. Reconsideration: <strong>A provider who disagrees with a prior authorization denial or another review decision may request a reconsideration</strong>; see 8.350.2 NMAC."
+         },
+         {
+          "title": "Program Rules \u2013 New Mexico Health Care Authority",
+          "url": "https://www.hsd.state.nm.us/providers/rules-nm-administrative-code/",
+          "snippet": "The New Mexico Administrative Code (NMAC) Number serves as a link to the most current material for that rule. The MAD Citation, which sometimes refers to repealed or revised material, appears for reference purposes. The NMAC rule numbers can be looked up on the NM Administrative Code website \u00b7 8.308.6 Eligibility and Enrollment \u00b7 8.349.2 Appeals and Grievance Process \u00b7 8.350.2 Reconsideration of Utilization Review Decisions \u00b7"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_153798",
+      "args": {
+       "query": "\"Turquoise Care\" \"appeal\" \"180 days\" New Mexico"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Et0JCtoJAWkUfRMSn_fbKqjbUM1OITwN_QBPwfUlskjKlImU6maJ8HrftHBgV63XauVtyVxX5bekdbCTkqx_KuC_r5oxQwxMjuimd1aOXbu9aDD6OGDTHkSKVDHBPcPEExXtMjytTAVI6L7sfnZ_ZNbHf1WBYAxZ06LcJzn2MjclbeIXP9SOpTOrX0OA37VJdaDvpC3LRPZT7qvnSQCbt9Golfuhk-PVIbZ6u58DutadOYVPuuSbsKqw2D4PeCdgY65HlztbbMMe80j7SY-haFTYHt4_GDg5bDPpfyYeneeAfP_dwkRf2EkzTuExIy4bBzaCbtIHle7TgAxHfRgYOVxGm6BrHZFxK82zBTuap3MRyKxl-Xrk2KgPgz9CaGHwJ7l9SV8VGYCuVget-OdaNobu1jlHDrSqC5mcvegw85G-tNZY3qUYg5K4wjmuNfuEzf8y8fRe3iJATwq2jzub7VzX67Nv73vISVatO5XeCyfL7hdY7gBPrG_IJC5vWLvxfJ3w2jlGXO0LuTPGCTtgFg5MpyvIvDRJmAZ_s4GtsyvBqEihdlcuzaqvG-idgxxi6_JIRLmzNJv4n9NQU5Jq6RC7PdXfQRLwUOfe-UaSzWDhr3rQNSoxayUiRmi2JaaHABnJazeXfHGhiPvye_9aqPq7uaKmDZBVLkt24EdT3RgJ0yB6byJDISqlqiwzgWI2FVd6MdnXlNb18ZoXoC2wDlY2IZzUc2uIxoNCvb7Z4YKAt9Ii_AoGLufwt9d7uVQyvQGoDpQNdC3zrJF9gdTbqEvi4cCo3sG-Zoi2T3zrKYAuukJi4L-BmySj3IWZOXc5HRh1BQweXjm1CvFkkjxQaHWijGmLASXo4PRFsljOXa53l_PYIwsVc7H3Z-VJYgI9qFnJwMYHjZZXzfEL91gowjC0t9eIML8U1iIZStZrbIcUlmNcMpm2jq5qShcJsBMeQ5HsywI5ubPq_yaEghGjwduRAWbtCuxuzqfB-XrYH3mr-A6hF9zLZgXUAiE3bX1BOOlcWNk-5E4qNoWlEpdQ2DLcXos4H1fGwiV99x5Xgy7mNhuu4w-v6Wl2wRU5Xiu3LCj3a7xGCNNguJvOf9HtKJ8UVuCFPfTg5WfJdVEXQ3kVXA8xGvm8Lhl5snOdoCnM2MkPzkJZvkHjcFr-YrfeMF_VPeFSn7oTudV9f4651JoXg5gIMB86T5-ARAgN-1IQF8DtUqrTTDT7uXbMf9Wa-C56P0NsdUvLOuWAD48WBerBMXu-mrBuo-wxZPJaADScV9AbQc6_zZMQj08_MoOX8FbR3rWK2kyXOXhaaRniK5B5-Wg2u1Wt3WZDVE-O3yss3fgip5NdH0Ujego_icSTQtbz7iioZ0kKPA0JbY0I5Bw9vG5B_5UPF7GU1n9dWqlst9vb47Ybp-xpHZuoWDlDEFd2AidendrrSKt153u5XJAsVXyu6OEcVtO-3r4kVOrUwfjU-ZePRZYarwHMg0zYp4di0sMF6cTLFgH4Eg0GVYyOneA-GCYm_L-IRz8zWnL79tS2x-_Sx53t-GGPmlcspyfhdaw2hJPlDChJ9ZDxsJV9Ri7w5fCmZIKKWHjMeFOMox1_9eaAklaZXsaEeEHU-ldUf00_hk_qRQWf0gCcEHA-AqBIFkLR4itGVju3EU2X"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Turquoise Care\" \"appeal\" \"180 days\" New Mexico",
+        "results": [
+         {
+          "title": "Medicaid | Blue Cross and Blue Shield of New Mexico",
+          "url": "https://www.bcbsnm.com/provider/network-participation/network-participation/medicaid",
+          "snippet": "Note: To request a printed copy of the Turquoise Care Provider Reference Manual, at no charge, please contact your Provider Network Representative. ... Provider Network Directory Note: This print directory is a list of doctors, hospitals and other providers in our network. The list is current as of the date it was published. For the most current information, use our online search above. The Provider Finder is updated daily. Provider Request for Appeal on Behalf of a Medicaid Member"
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_158263",
+      "args": {
+       "query": "\"appeal\" \"180 days\" New Mexico Medicaid"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsgBCsUBAWkUfRPExHgUfjJejJqVTm0Eoavv6LGxnlYUnN9EumFpQNvvmB0tiTMmxLmxsdrLDL4acWu4EUR7YifmZHq0dPq4k-70RsGVib7_6pTPYC6_A7VJ7Kx3rRsq-MXptwXr44H3ews5EIvJfAlmYdMbyC5K63Y4GKdjX4FGqNYu0TsNmDK8Lx5SO9Wb8QRurCMobilXGh5h5T-UtOsCAdIoZgfT9WNe60bzsl9BkdFLNo-5Fpmv3-vYKr2Og7shrvVqZ0LWqHI="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"appeal\" \"180 days\" New Mexico Medicaid",
+        "results": [
+         {
+          "title": "Table of Contents State/Territory Name: New Mexico",
+          "url": "https://www.medicaid.gov/medicaid/spa/downloads/NM-24-0007.pdf",
+          "snippet": "<strong>determination on the merits of the appeal will be made within 180 days of receipt</strong> \u00b7 of the appeal request, although the State may make a determination to extend \u00b7 such period to a specified date as necessary. III. PROSPECTIVE PAYMENT METHOLOGY FOR HOSPITALS \u00b7"
+         },
+         {
+          "title": "Medicare vs. Medicaid vs. Commercial Timely Filing Limits",
+          "url": "https://medcaremso.com/blog/timely-filing-limit-for-medicare-vs-medicaid-vs-commercial-payers/",
+          "snippet": "Similarly, if the insurer denies the claim after it was filed on time, the therapist may only have a limited window, like 120 days, to submit an appeal challenging the denial. Physical therapy billing services can help ensure timely claim submissions and efficient management of the appeal process, minimizing the risk of denials and payment delays. Timely filing limits varied among Medicare, Medicaid, and commercial payers."
+         },
+         {
+          "title": "1 How to Appeal Denied Claims",
+          "url": "https://content.naic.org/sites/default/files/consumer-health-insurance-appeal-denied-claims.pdf",
+          "snippet": "By filing an internal appeal, you are requesting your health plan to \u00b7 review the denial decision in a fair and complete way. <strong>You have up to \u00b7 six months (180 days) after finding out your claim was denied to file an \u00b7 internal appeal</strong>. \u00b7 If the denial is for a medical reason, ask your health ..."
+         },
+         {
+          "title": "Timely Filing Limit for Claims in Medical Billing 2025 - BellMedEx",
+          "url": "https://bellmedex.com/timely-filing-limit-for-insurance-claims/",
+          "snippet": "It gets really annoying for both the doctors and the patients. Filing on time stops these issues from happening. ... <strong>Insurance contracts require filing within a certain window, often 90-180 days from the date of service</strong>."
+         }
+        ],
+        "result_count": 4,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_125797",
+      "args": {
+       "query": "\"UnitedHealthcare\" \"appeal\" \"180\" \"New Mexico\" Medicaid"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtcBCtQBAWkUfRMD_57qE7NISG-5v2s6uLxq0l4-Kex_SFvU8KMJ3rAPhtfmDV2h2Km1ncuOvjJ2T-uBHlXeSxCjJzoOSqfEJoOpkoB7kCayiXUUMzenEudptgvx8IUMKvReOMkbA0NymvqLjd4VcTXwTS6NMj7tx2PE_rmYoKodi4NguOo3da3lTTd5d4bMeAxAr1NbRj2AWewKJtRe0Zcy1gx_G3PnheEpO4TtPC2nj1DSAMpJSdUaP0Y71qKki8ONTBDKhURG3zf1QF3t2iq3Nd0QUhIV-9I="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"UnitedHealthcare\" \"appeal\" \"180\" \"New Mexico\" Medicaid",
+        "results": [
+         {
+          "title": "Policychanges",
+          "url": "https://policychanges.app/state/nm",
+          "snippet": "<strong>This applies to all UnitedHealthcare plan types including commercial, Medicare Advantage, Medicaid, and Exchange plans</strong>."
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_103062",
+      "args": {
+       "query": "\"UnitedHealthcare Community Plan\" \"New Mexico\" appeal address"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpIICo8IAWkUfRPl0iLa_A5bzE1TN7JpGMNC3ZAAVW5Kug_Bvwsv-UzgmixVC5Zb2F09ya8tT8os2dm4_7LfM-lnJ0xSFzgWCB3tlKAy3LfEjYVM2pA_3stlf1piwFy6KpEP6k6gpo5C6IZlZtHYjtKkcF1lETdh0oceCR0Z2qgDy89ixkHyH3AU-srpWUZ0KV3xyFKAYcLcry6c6jwS_7tZQRQQK8p8SsOOSTY9k5h_B7T94VBlxg-ZMYIkghQMUoaFG_HLKATwO1UGJYmREOHjt2pwifZrJ73_iPyO57zWIzwBPF7Niniz7FZaqyFqOEVm8ajvKTIQclp6JkhuODzUtYmf76P88XCeSVwx6noGjIhx2cPWWzSDIzwCgdAtz-Ui3IPBtaeiFJch8nmKZNJlaj0MSpfHIk9IP3Z1Q3QcJGETTwbFbIrZUhTUKmnlITFGcMFBvTzkDoTViw-eoSS89tv_R2lfjiGMEiKbZlA9kQoGxnXy1SQW8AU_AT8Livsha44h0cWhMRsarz1W0BLBhc7MJLmH3Zxi5727fGP3JdrRpExv2h6ZEow2sUrii-vF6k2hpPoWjOsFM6t4iuezsqu-reSAJ6SZsYqxZQ6VIw6603iGNo_XTMJDWKpPYR9BHBm9GFK7G3VpvqfzctxVYxEmjh3B-vnT0Uo_rUlDvEHQSHThty-G-WDrbHoGWGvEzkfXRwFObnnqfs40eEo2vWWLSYGsnLfWnfxsOr2CFYm9bPdjkgktjAgVIAfdAWnTQ3xAlMBnG06KyDdwQpeXOvEFb2ii30paWMhcNy68moYtn8JNA-AzGR5CP0IC2jIo6foRKVSTMIlkkY8VereoidY3D-B2EIHy-fYPBXBnlYtLU86DFPhTD4yL96zyzIhuEGd-aFpNhUheDpkN_j5LUawMOkY8Q3c1y9sH0v6jQ5Wh0m3GU_Ey0PzXQKapoaTBYw_tyHfkoBcXkZbK_GmJbjBVvypWFZyVZpEXKD7LBh4833u1VPn8P-6b9gVFW6jJPFVicxOKFE2vEwBYKAzhfo8Xpf8Z_ZDCK9jyesLqawlAnhsJDLmxowuh4nabiKRaGL0-wsHKVcN14qFjREtS0ghJJ3zEBgPJYQ-PC8Pg6eUJOz2SeLmj_OF26_uW3XL_W8vhWABTbt9uIEymoATUvoJTVmGepYgx6fVQZaxagjW9ga1ja1gxkHVDfnolkaGWEq7IOc1PWEeno8gp2jgxe3LzNSnABGMsQlHh_Ix85l-fD7cTOrbEDyZnPNDGGaMFZ-RaUqr4FvA0aCAh8Vd0cgq6Yg8CBS1gIAn8WnwM3isAsBq9vC3i7Bc807gEq26u9cjlCyjJ3DQFtkqTlvJEmmW69xdgBg-2stjJcwQ8oQoAmw=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"UnitedHealthcare Community Plan\" \"New Mexico\" appeal address",
+        "results": [
+         {
+          "title": "Claims and Payments | UnitedHealthcare Community Plan of New Mexico | UHCprovider.com",
+          "url": "https://www.uhcprovider.com/en/health-plans-by-state/new-mexico-health-plans/nm-comm-plan-home/nm-cp-claims.html",
+          "snippet": "A formal Claim Dispute/Appeal is a comprehensive review of the disputed claim(s), and may involve a review of additional administrative or medical records by a clinician or other personnel. UnitedHealthcare Community Plan generally completes the review within 30 calendar days."
+         },
+         {
+          "title": "New Mexico Long-Tern Services and Supports (LTSS) | UnitedHealthcare Community Plan",
+          "url": "https://www.uhc.com/communityplan/new-mexico/plans/medicaid/ltss",
+          "snippet": "Please include your name, address, member ID, reason for your grievance, and any other information you think is important. That address is: <strong>UnitedHealthcare Grievances and Appeals P.O.</strong>"
+         },
+         {
+          "title": "UnitedHealthcare Community Plan of New Mexico Homepage | UHCprovider.com",
+          "url": "https://www.uhcprovider.com/en/health-plans-by-state/new-mexico-health-plans/nm-comm-plan-home.html",
+          "snippet": "Provider resources for UnitedHealthcare New Mexico Plan products including prior authorization information, provider manuals, forms, recent news and more."
+         },
+         {
+          "title": "Grievance and Appeals \u2013 New Mexico Health Care Authority",
+          "url": "https://www.hca.nm.gov/grievance-and-appeals/",
+          "snippet": "Members can find information about grievances and appeals under \u2018member resources\u2019 at https://www.uhc.com/communityplan/new-mexico/plans/medicaid/turquoise-care ... (https://www.uhc.com/communityplan/assets/plandocuments/handbook/en/NM-Medicaid-TurquoiseCare-Handbook-EN.pdf) Members may also access grievance and appeal information through their myUHC portal account at https://member.uhc.com/myuhc ... Address: UnitedHealthcare Community Plan Turquoise Care Appeals and Grievances P.O."
+         },
+         {
+          "title": "Provider Forms and References | UnitedHealthcare Community Plan of New Mexico | UHCprovider.com",
+          "url": "https://www.uhcprovider.com/en/health-plans-by-state/new-mexico-health-plans/nm-comm-plan-home/nm-cp-forms-references.html",
+          "snippet": "Find up-to-date important provider forms and other resources for the UnitedHealthcare Community Plan of New Mexico."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_89484",
+      "args": {
+       "url": "https://www.hca.nm.gov/grievance-and-appeals/"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EpcDCpQDAWkUfRMb463iXeNikuTUzaE_rDw3ipQ3i5T6nju1gmoV6EMU10FavOGuMblFZgif14PDGk1vKXc_IHDvdC4yiIZA4WzULx1C10oR7UGMSReBoad_Ce4j_vN1R1Tvm8ayF84DBmO2dFbcMIc0yetJomrbNbVlfmZWs6Qyo-5xvZM6XICLM83Ile-5UugjfUemUhGrR89R6aWM3Hu_TlJ3uVrDeO_DgetK0vmrweCDcvqtOt-hCB9qq7b3sELgGREwq9cMZMfRiCU0M0Q9ErDmYkF2LAfUtv3uhyOPG2Hi6y_6AyElZKaJzzYq6grTYFdGV2Xl3algX6L_rWMQAGHHFFFXz9cSzpThs-LoJy7DbrFPtgq_WYVLcvmysqLb2Lyup9trs8w8p62m8njOvGAsR2OD_K5jDSJRYUhqx0LgM5j4wcCrZkTHHnGFW_B8e6oLhGufLU4h0MGHPNhGzoWDd0um5MyI8RAJa8-uTWiVxDpfTZYGBIkNsuNonwm016Y7qiObDsC1odSp_tnMJRZhv3G2VcY="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://www.hca.nm.gov/grievance-and-appeals/",
+        "final_url": "https://www.hca.nm.gov/grievance-and-appeals/",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "Grievance and Appeals \u2013 New Mexico Health Care Authority APPLY FOR BENEFITS Kevin S. Settlement Keep Your Benefits NM Follow Follow Follow Home About Us Turquoise Care Communications and Public Information Contact Us BeWell Scorecard theWire-Employees Only Primary Care Council Rural Health Care Delivery Fund Rural Health Transformation Program Fraud Prevention Mergers & Acquisitions 2025 Data Book Looking for Assistance Looking for Information News Providers SUN Bucks Home About Us Turquoise Care Communications and Public Information Contact Us BeWell Scorecard theWire-Employees Only Primary Care Council Rural Health Care Delivery Fund Rural Health Transformation Program Fraud Prevention Mergers & Acquisitions Grievances and Appeals Process for Members and Providers Submit questions, concerns, or grievances directly to the Medicaid Managed Care Organization (MCO) at the links below. BLUE CROSS & BLUE SHIELD OF NEW MEXICO Members See the BCBS member website: Understand BCBSNM Appeals and Grievances | Blue Cross and Blue Shield of New Mexico Providers First check the Claim Status Tool using either the member ID or claim number. If the claim qualifies, the appropriate review option will be displayed. If no electronic option is available, please contact Provider Customer Service or submit a written claim review with supporting documentation by contacting Blue Cross Blue Shield Turquoise Care Grievances. Phone: 1-866-689-1523 Fax: 1-888-240-3004 Mailing address: Turquoise Care Grievances P.O. Box 660717 Dallas, TX 75266 Email address: GPDAG@bcbsnm.com MOLINA Healthcare of New Mexico, Inc. Members Members may file an appeal or grievance by contacting the Molina Member Services Department. Phone: (844) 862-4543, Hearing Impaired TTY/NM Relay: 1-800-659-8331 or 711 Fax: (505) 342-0583 Address: Molina Healthcare of New Mexico, Inc. Attn: Appeals & Grievances Department PO Box 182273 Chattanooga, TN 37422 Email Address: MNM.Medicaid.MemberAppealsandGrievances@molinahealthcare.com Providers Providers may submit grievances by telephone, fax, email or in writing. Molina Provider Contact Center Phone: (855) 322-4078 Fax: (855) 378-3642 Address: Molina Healthcare of New Mexico, Inc. Attention: Claims Disputes/Adjustments PO Box 182273 Chattanooga, TN 37422 Written Provider Appeals must be submitted via the Availity Essentials portal or faxed toll-free to (855) 378-3643. PRESBYTERIAN HEALTH PLAN Members Members can find information and submit grievances and appeals through PHP Member Forms and Documents . Select Turquoise Care in the Plan Name field and choose Online Form to Submit a Grievance or Appeal. Access the submission form here: Member Grievance and Appeal Submission Form Providers Providers can find information about and submit grievances and appeals at Provider Appeals and Grievances web page by selecting Provider Appeals and Grievances Form . Presbyterian Customer Service Center Phone: 505-923-5200 UNITED HEALTHCARE Members Members can find information about grievances and appeals under \u2018member resources\u2019 at https://www.uhc.com/communityplan/new-mexico/plans/medicaid/turquoise-care and published in the member handbook. ( https://www.uhc.com/communityplan/assets/plandocuments/handbook/en/NM-Medicaid-TurquoiseCare-Handbook-EN.pdf ) Members may also access grievance and appeal information through their myUHC portal account at https://member.uhc.com/myuhc Member Services Phone: 1-877-236-0826, TTY 711 Address: UnitedHealthcare Community Plan Turquoise Care Appeals and Grievances P.O. Box 31364 Salt Lake City, UT 84131-0364 Providers Providers can find information about grievances and appeals in the New Mexico 2026 UHC Turquoise Care Provider Manual or in their UHC provider portal account at UnitedHealthcare Provider Portal resources . Phone: 888-702-2202 Address: UnitedHealthcare Community Plan Turquoise Care Appeals and Grievances P.O. Box 31364 Salt Lake City, UT 84131-0364 Contact the Health Care Authority, Medical Assistance Division with questions or concerns: MADINFO.HCA@hca.nm.gov . Looking for Assistance Looking for Information Providers Overview Public Information Contact Us theWire-Employees Only Disclaimer Non Discrimination Statement Site Map Confidentiality & Privacy Statement Cookie Policy (US) Privacy Statement (US) Copyright 2012 Designed and Developed by RealTimeSolutions Manage Cookie Consent We use cookies to collect site usage statistics and provide helpful (but not necessary) site functionality. Your may may permit or deny cookies on our Cookie Policy page. Functional Functional Always active The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network. Preferences Preferences The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user. Statistics Statistics The technical storage or access that is used exclusively for statistical purposes. The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you. Marketing Marketing The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes. Manage options Manage services Manage {vendor_count} vendors Read more about these purposes Accept Deny View preferences Save preferences View preferences {title} {title} {title} Manage consent",
+        "text_truncated": false
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_183955",
+      "args": {
+       "query": "Presbyterian Health Plan New Mexico total hip replacement policy 27130"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvkLCvYLAWkUfRNNPA8u6H5gTjgjA2dosfpqKvZ4VwPcbjI0UPYSOJ3hn6aauNGvjGxVR1fdicYxPwkwpbtaE6k2uqbC_VRg9yuYWs3UkeZO4qTqh3CsMXqqEk93pukWSlgO3xk0IeRSZcxxxVkoot_SxZU5zmEPb4aO6m9FMv5ooZi0C73vHVNeZwOa3QglEdtX7ZBJmO5DnqJBFn-uzu8zNmYugjq_F6CE0LdVWGxJBzrF20_bMQ9BWmx5M8E00Dudm2AEVeGyZuRfSNjgPlVIziRtXdBEty6lAbQATSJTISfJ3uBQPHApwTRdsrPBuh8Q3OlSJVNd0iv8OJ2zZ-qmF84wRDCXs_a9iATS4BkRORvscCcCDH-9K_TMl95X2lkiIoXyXKd2x2zdYZGcEvbQCknQoo77HVhzr0b9QKqXum3oUPjTknyvlF675TqP-grOSu1Xw6NfU1y08GAlKchku1jy8IvfHpL0MD3pscgmIB18wbpfhCk4TyXFxgwIhgnhCDjyav-M2R8XINWSd5GjayV3brbxG7R4aMZaKHXTDZ8UhO06x5MGXaQYdjY0ANz5bQri613Z-zRrEJsX4YJ2yjjXpMPana0U99GaOB_QgiMh4wWW_Qlg550wRzKD--qGYgo_l-_iIpOGOFdIgbNh4heMQ--DlFd_jDcraLwFSi31DuSwdsAB2pMhMs8ZRX9rtkrwh1lBn_MSLNKj-73MP_ZfX4p0Nd5JFQjF1FlUp3dh3_DeJRUbdi3KJz0bh6tbfCDsXqVRHPlikcOBgFETjmyoWRBPc1yLUTHgu23bKU_RPaN_5RY6SlttgJhEh4OedF3MfmmwBMv0T_V1Qdr0rQYbpIdxHpziDZgF5a9sa8a562uwzvGxhqGHj7kNKV5I60Bq2sA4Ib_xYjboo3HPhOY6Ns1XfeDFUcLL1s3GYaFVkoPo064LfOntLdefPQUbVzo74AsniMnUijIu-hyoNoxIT73MogcLBA3c8OoYh_kiY4xyQ3ZNQ-MM3vFBuKzHh2m0nswCRqKkn9D6ogYcEP09jLgNi5wJSnSqh-BCnlUU-3SygoiH7elU8Sx5zxE-LmvzaCElzXAz2vasDizVRtko3v1W2xylzE_VqNbO6qc8RWcevQNnlsOWItN1t2hbZiheaCGCstVOx2L0YQYZu-mmIoF_79z0cXUw6S0Cmhp-rTcR28QnMjHs6iL_vCDPU5Pyi_6-sRJmPJF59wJ_GjeQxMlq6jWI_YNZ_QvF8uoodtVkq42QDdWkYCnsGX_BBqGETFUjOUeqI48H0RgbQpBKSL7qsDLZuv2Sxb09hZfP3J6HDYGSP3KgA7WtZwwuWfVDB5BZkCLA42tXQKZ4H373ZUfuq7MKQTrIE33mYfGz3HtycrCGnTUUyfKy1Q5uEmSLWxC5P_T8VeSql0RDmD1X_CLqJP3qndyz36yK5b8gTGl_vSUu0gpLeCrK6dKvNoq8DlnXM960XTdkxWjf_BSIAmTNI4jOqvCM2zhV1-q1ewIW1abX4SLTdZqFsT5srJgqcBVdZFKuFeOcJ8vrb9-vt7vKbdD9MWOisXYsWQyZrZ-VTgeZGyKVMTISGwTjrqRcxIfC8Y4Yy6WdfVntOCGPXIl8596SI5puJGfW6r4RI4GhLlNMerkIpn4zcBseNAXjn1csgX6k9jBcA0D9N-DZzX87As-1q-JVT5oJKcPAOZQrV-4wtqn_7219jq62eLPagTfsSBHInlIs1KAQJOUqH7Xw1tm9yYvn-FyGxpDuP_MxPQZkAmnnfxj8oee0UnBDbSlmfwDeY2ANWLJfM6t7yW2cnGRh4fAK6qFXa1nE4vA1PU15IaVUhppByN2nvjTZdE5tN5jJO890WtmTvGL20bw39nKkeKEylSkrXT7hmUrlvhFyA7yJH7xqGXY62Gh1JjqNRqb5eBtGFJorD7YH3X3Mp2gD_-PmzsHfM8UqcslzcXdoNhVws-FQmQJ10t3e33u6MPZWA2hrBBLM2Csa3Jel6PN1b5TTv8-DvGCMHqtbaigPzes="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Presbyterian Health Plan New Mexico total hip replacement policy 27130",
+        "results": [
+         {
+          "title": "Total Joint Replacement (Hip and Knee) for Medicare",
+          "url": "https://onbaseext.phs.org/PEL/DisplayDocument?ContentID=OB_000000001634",
+          "snippet": "27130, 27132, 27134; &amp; knee codes: 27447, 27486, and 27487. Continue no PA requirement for 27138 and ... Not every Presbyterian health plan contains the same benefits."
+         },
+         {
+          "title": "Total Joint Replacement (Hip and Knee) for Non-Medicare",
+          "url": "https://onbaseext.phs.org/PEL/DisplayDocument?ContentID=PEL_00192051",
+          "snippet": "<strong>Prior Authorization is required for 27130, 27132, 27134, 27447, 27486, and 27487</strong>."
+         },
+         {
+          "title": "Total Hip Resurfacing, MPM 20.9",
+          "url": "https://onbaseext.phs.org/PEL/DisplayDocument?ContentID=PEL_00065684",
+          "snippet": "of the PA approval rating of above 95%. Update the PA grid to include MPM 20.9 to require PA for 27130. This Medical Policy is intended to represent clinical guidelines describing medical appropriateness and is developed to assist \u00b7 Presbyterian Health Plan and Presbyterian Insurance Company, Inc."
+         },
+         {
+          "title": "Health Insurance & Hospitals New Mexico | Presbyterian Healthcare Services",
+          "url": "https://www.phs.org/",
+          "snippet": "Find the medical care and health plan you and your family need at Presbyterian Healthcare Services, an integrated system of hospitals, healthcare providers and insurance plans serving patients and members in New Mexico."
+         },
+         {
+          "title": "Presbyterian Health Plan brochure",
+          "url": "https://www.opm.gov/healthcare-insurance/healthcare/plan-information/plans/BrochureJson?brochureNumber=73-563&year=2025",
+          "snippet": "<strong>This plan&#x27;s health coverage qualifies as minimum essential coverage and meets the minimum value standard for the benefits it provides</strong>. See page 8 for details. This plan is accredited. See page 12 for details. Serving: All counties of New Mexico Enrollment in this plan is limited."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_152718",
+      "args": {
+       "url": "https://onbaseext.phs.org/PEL/DisplayDocument?ContentID=PEL_00192051"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "Es0CCsoCAWkUfRM0fI3KqM_WX2Qt_et0pwHDafXdzWMo82UMoNbGR8DF9-DV71P0Qteik2OteFqv4Ej1HztFTGKo3HnQqbaek1hV1kOpgWMEj7FGSW0LL_peOlUhqeyUFZFXXFgdg3AAClTMRTyZarXxkOSuon9shFmOh98BQp4TBvZI2pR0_gOWCqboTCW7sN0dcH4tnBZXpoe-K-UsKKDilUy_fWx7VzyZhJpuus2mK4DIOzUkYMLeU6MeC967s7On3SL9PfKAs1GX-HiUGI7XH92tKGUwGqz0vommofK_zLz0zyYv-l720qy2_udEv5twZp7LGIiRT_2bLfOTc0OntH9Yvsuuv7Mqk41K4M6EO3aWau0xvBplzPxK4kbuSlRDJDWszOrhtEL6y6_qBkEYCDlUK9-sJzY742Sqooil1f_vBXjfN72nOrmXyyTP"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://onbaseext.phs.org/PEL/DisplayDocument?ContentID=PEL_00192051",
+        "final_url": "https://onbaseext.phs.org/PEL/DisplayDocument?ContentID=PEL_00192051",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "Not every Presbyterian health plan contains the same benefits. Please refer to the member\u2019s specific benefit plan and Schedule of Benefits to determine coverage [MPMPPC051001] 1 Medical Policy Subject: Total Joint Replacement (Hip and Knee) for Non-Medicare Medical Policy #: 20.14 Original Effective Date: 07/23/2014 Status: Reviewed Last Annual Review Date: 08/27/2025 Disclaimer Refer to the member\u2019s specific benefit plan and Schedule of Benefits to determine coverage. This may not be a benefit on all plans or the plan may have broader or more limited benefits than those listed in this Medical Policy. Description Lower Extremity Major Joint Replacement or Arthroplasty refers to the replacement of the hip or knee joint. The goal of total hip or knee replacement surgery is to relieve pain and improve or increase functional activity of the member. The surgical treatment (arthroplasty) is the replacement of the damaged joint with a prosthesis. The chief reasons for joint arthroplasty (total joint replacement) are osteoarthritis, rheumatoid arthritis, traumatic arthritis (result of a fracture), osteonecrosis, malignancy, and revisions of previous surgery. Treatment options include physical therapy, analgesics or anti- inflammatory medications. The aim is to improve functional status and relieve pain. Arthroplasty failures are caused by trauma, chronic progressive joint disease, prosthetic loosening and infection of the prosthetic joint. These failures must be considered for a total knee arthroplasty revision. Coverage Determination Prior Authorization is required for 27130, 27132, 27134, 27447, 27486, and 27487. Logon to Pres Online to submit a request: https://ds.phs.org/preslogin/index.jsp Content: I. TOTAL KNEE REPLACEMENT II. KNEE REVISION or REPEAT procedure III. TOTAL HIP REPLACEMENT IV. HIP REVISION or REPEAT procedure I. TOTAL KNEE REPLACEMENT Clinical Indications for Procedure \u2022 Failure of a previous osteotomy with pain and functional disability \u2022 Distal femur or proximal tibia malunion by imaging with pain and functional disability \u2022 Distal femur or proximal tibia fracture or nonunion \u2022 Malignancy of the distal femur, proximal tibia, knee joint or adjacent soft tissues by imaging \u2022 Failure of previous unicompartmental knee replacement with pain and functional disability \u2022 Avascular necrosis of the knee Total knee arthroplasty for the above indications will be approved based upon indication for the procedure alone. If the indication for procedure is advanced degenerative joint disease, total joint replacement will be considered medically necessary when the following conditions are met: A. Disabling pain and significant functional disability AND B. Radiological findings of moderate/severe osteoarthritis or rheumatoid arthritis (at least two of the following): 1. Severe joint space narrowing 2. Osteophyte formation 3. Joint subluxation 4. Deformity or mal alignment 5. Subchondral sclerosis OR Not every Presbyterian health plan contains the same benefits. Please refer to the member\u2019s specific benefit plan and Schedule of Benefits to determine coverage [MPMPPC051001] 2 6. Arthroscopic findings of severe denudation of articular cartilage. AND C. Non-surgical medical management has been tried and failed for (please see recommendations for non-operative treatment of knee and osteoarthritis), including: 1. Self-management program (\u2265 6 weeks) that includes a. Strengthening AND b. Low impact aerobic activities AND one of the following: c. Physical therapy d. Adjunctive range of motion /stretching exercises e. Joint off-loading (cane, walker) f. Bracing g. Reasonable restriction of activities 2. Therapeutic injections \u2022 Corticosteroid injections \u2022 Hyaluronic acid injections 3. Medications a. NSAIDS if tolerated and not contraindicated. Prescription OR over the counter (at adequate doses). OR b. If NSAIDs not tolerated or contraindicated: \u2022 Analgesics \u2022 Acetaminophen \u2022 Tramadol NOTE: Non-surgical medical management may be inappropriate for severe osteoarthritis with bone-on-bone articulation in the weight-bearing portion of the joint (medial and/or lateral but not patello-femoral) or severe angular deformity, or for avascular necrosis with collapse of tibial or femoral condyle, or progressive flexion contracture. If non-surgical medical management is not appropriate, the medical record must clearly document why such approach is not reasonable. AND D. Documentation that clearly shows the patient has participated in or is scheduled for Pre-Procedure education which covers all of the following: ** 1. Pre-operative preparation 2. Post-operative anticoagulation 3. Pre- and post-operative exercises 4. Home safety and equipment 5. Post-op expectations and goals for movement and function 6. Considerations for post-hospital disposition 7. Plans for rehab services after surgery **May include group classes such Presbyterian HealthPlex joint replacement classes (preferred), videos, reading materials from professional societies, or counseling from MD-designated professional See Medical Optimization Criteria below for additional information to be met prior to total joint replacement. II. KNEE REVISION or REPEAT procedure Revision or repeat procedure: Failed previous knee arthroplasty necessitating revision as indicated by the following: \u2022 Loosening, fracture, or mechanical failure of one or more components; \u2022 Technical or functional failure of previous knee surgery, e.g. unicompartmental knee replacement; \u2022 Previous osteotomy or partial arthroplasty; \u2022 Periprosthetic infection; \u2022 Periprosthetic fracture or bone loss of distal femur, proximal tibia or patella; \u2022 Implant or knee malalignment; \u2022 Bearing surface wear leading to symptomatic synovitis; \u2022 Tibiofemoral or extensor mechanism instability; or \u2022 Knee stiffness, arthrofibrosis or other destructive conditions that render the knee impaired to the extent to preclude employment or functional activities See Medical Optimization Criteria below for additional information to be met prior to revision. III. TOTAL HIP REPLACEMENT Not every Presbyterian health plan contains the same benefits. Please refer to the member\u2019s specific benefit plan and Schedule of Benefits to determine coverage [MPMPPC051001] 3 Clinical Indications for Procedure 1. Malignancy of the pelvis or proximal femur or soft tissues of the hip (exempt from below criteria) 2. Avascular necrosis of the femoral head 3. Femoral neck fracture 4. Acetabular fracture 5. Nonunion, malunion, or failure of previous hip fracture surgery Total hip arthroplasty for the above 5 indications will be approved based upon indication for the procedure alone. 6. Advanced degenerative joint disease, as indicated by: A. Disabling pain and significant functional disability AND B. Radiological findings consistent with moderate/severe osteoarthritis or rheumatoid arthritis of the hip (at least two of the following): \u2022 Severe joint space narrowing \u2022 Osteophyte formation \u2022 Joint subluxation \u2022 Deformity or malalignment \u2022 Subchondral sclerosis OR \u2022 Arthroscopic findings of severe denudation of articular cartilage. AND C. Non-Surgical medical management has been tried and failed (please see recommendations for non- operative treatment of hip osteoarthritis), including: 1. Self-management program (\u2265 6 weeks) that includes a. Strengthening AND b. Low impact aerobic activities AND one of the following: \u2022 Physical therapy \u2022 Adjunctive range of motion /stretching exercises \u2022 Joint off-loading (cane, walker) \u2022 Reasonable restriction of activities 2. Medications a. NSAIDS if tolerated and not contraindicated. Prescription OR over the counter (at adequate doses) OR b. If NSAIDs not tolerated or contraindicated: \u2022 Analgesics \u2022 Acetaminophen \u2022 Tramadol Note: Non-surgical medical management may be inappropriate for severe osteoarthritis with bone-on-bone articulation in the weight-bearing portion of the joint or severe angular deformity, or for avascular necrosis, or progressive flexion contracture. If non-surgical medical management is not appropriate, the medical record must clearly document why such approach is not reasonable. AND D. Documentation that clearly shows the patient has participated in or is scheduled for Pre-Procedure education which covers all of the following*: 1. Pre-operative preparation 2. Post-operative anticoagulation 3. Pre- and post-operative exercises 4. Home safety and equipment 5. Post-op expectations and goals for movement and function 6. Considerations for post-hospital disposition 7. Plans for rehab services after surgery *May include group classes such as Presbyterian HealthPlex joint replacement classes (preferred), videos, reading materials from professional societies, or counseling from MD-designated professional. See Medical Optimization Criteria below for additional information to be met prior to total joint replacement. Not every Presbyterian health plan contains the same benefits. Please refer to the member\u2019s specific benefit plan and Schedule of Benefits to determine coverage [MPMPPC051001] 4 IV. HIP REVISION or REPEAT procedure Failed previous Hip Arthroplasty necessitating revision as indicated by the following: \u2022 Loosening, fracture or mechanical failure of the implant; \u2022 Instability of one or more components; \u2022 Recurrent or irreducible dislocation; \u2022 Periprosthetic infection; \u2022 Displaced periprosthetic fracture; \u2022 Clinically significant leg length inequality; \u2022 Progressive soft tissue or bone reaction or substantial bone loss, \u2022 Clinically significant audible noise; or \u2022 Bearing surface wear leading to symptomatic synovitis Other disease or destructive process that renders the hip impaired to the extent to preclude employment or functional activities See Medical Optimization Criteria below for additional information to be met prior to revision. Medical Optimization Criteria: For patients with any of the below-listed diagnoses, the following conditions must have been met prior to total joint replacement: 1. Obesity a. Patients with a BMI >40 must undergo efforts at weight loss b. Require participation in medically directed weight loss program. c. Documentation of participation and weight loss d. A BMI of \u2264 40 should be obtained prior to surgery unless the surgeon\u2019s judgment dictates otherwise in cases of severe or progressive bone loss, deformity, or the symptoms progress/worsen in the face of active interventions (requires medical director review and orthopedist attestation) 2. Smoking (includes cigarette, cigar, and vaporized form of nicotine) a. Cessation at least 6 weeks prior to elective TJA or b. Require participation in smoking cessation program and documentation of this, such as Quit For Life, QuitNowNM.com. 3. Diabetes a. HBA1c must be less than 7.5 to proceed with surgery unless control is felt to be optimized for the individual in the opinion of the treating physician or endocrinologist (requires attestation if above 7.5) 4. Rheumatoid arthritis + autoimmune disorders a. Documented discussion between patient and rheumatologist or orthopedist and rheumatologist regarding medication management in the perioperative time frame to improve wound healing and lessen risk of infection. 5. Active substance abuse/dependence a. Total joint replacement will not be authorized in members with active alcohol or intravenous drug abuse (IVDA) or dependence. \u2022 ETOH abuse \u2013 needs documentation of program \u2022 IVDA- needs documentation of program AND negative urine toxicology screen Note: The above medical optimization requirements may be deferred if, in the judgment of the treating surgeon, requiring a patient to endure these non-operative measures in the face of severe OA or in cases of severe or progressive bone loss or deformity, would cause undue suffering or potentially compromise outcomes of delayed joint replacement (requires surgeon attestation and medical director review). Limitations Limitations when the following contraindications are present: \u2022 Active infection of the hip or knee ",
+        "text_truncated": true
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_123996",
+      "args": {
+       "query": "\"Blue Cross Blue Shield of New Mexico\" \"total hip replacement\" OR \"27130\" medical policy"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvcCCvQCAWkUfRNZp7CfNJzjxd9qw9Ya7GiOhZ7SowqHyuPkO88pbyaMkD1lb5oWI8I1OrHgebwnTgML6r9vlvMWh4M8Jt59xJHL_MXzL57TNRL_UQmkJAja75-F2g3-kfdCJaLoBQ4S_S3T8mOHMk0TGeOx_dij2vo8ITXUHYcbnN7JZbr0vB5od9PmTn0hTsI99mJqyGSJZ_Qs3XPadTl3Q3YITmR_h4eT5gy_DwrZeix6DxUVOl5Hq-N5XbsTsUBLjCUC1aPTmhmASHHPOMAPxiC_haiBTVjFUQss4JIE5CJTjGEfqicqdCMzjfETGNljtQynmicSehbe2YOOqIIIhuGXkH_dBnxsTUsI5OE6__yEAo-CRBhXIcMASorPHKDepSMA5lmoEFidRr_hiHnQiIXJPW2ZVny8IZhJuotikABRdiyEPauW8AfJNjyekpea-xPXM7_fU9jK7DP481QSvSQfCO7Gk77UYCpSC5M81zRwD_RjpZsK"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Blue Cross Blue Shield of New Mexico\" \"total hip replacement\" OR \"27130\" medical policy",
+        "results": [
+         {
+          "title": "CPT 27130: Complete Procedure 27130 Denial Appeal Guide (All Payers)",
+          "url": "https://www.ezappeal.com/blog/cpt-27130-procedure-27130-appeal-guide",
+          "snippet": "CPT 27130 (Arthroplasty, acetabular and proximal femoral prosthetic replacement, with or without autograft or allograft) represents total hip arthroplasty, one of the most successful orthopedic procedures for treating severe hip pathology. Despite its proven efficacy and established medical necessity criteria, CPT 27130 claims face denial rates ranging from 15-25% across major payers, often due to administrative oversights, inadequate documentation, or misapplied medical policies."
+         },
+         {
+          "title": "CPT Code 27130: Total hip arthroplasty billing guide | Pabau",
+          "url": "https://pabau.com/procedure-codes/cpt-code-27130/",
+          "snippet": "CPT 27130 pays <strong>about $1,162 in CY2026 Medicare professional fees, plus HOPD or ASC facility payments, RVUs, modifiers, and ICD-10 codes</strong>."
+         },
+         {
+          "title": "500 EXCHANGE STREET, PROVIDENCE, RI 02903-2699 MEDICAL COVERAGE POLICY | 1",
+          "url": "https://www.bcbsri.com/providers/sites/providers/files/policies/2022/11/2022%20Total%20Joint%20Arthroplasty%20-%20Hip%20and%20Knee.pdf",
+          "snippet": "Revision arthroplasty is performed on an individual who has had a prior hip or knee arthroplasty. Revision \u00b7 arthroplasty may be needed when pain or other symptoms occur as a result of failure of the prior surgery. Failure may occur as a result of infection of the joint, bone loss in the structures supporting the prosthesis, fracture, aseptic loosening of the components, wear of the prosthetic components, and for other reasons. ... 27130 Arthroplasty, acetabular and proximal femoral prosthetic replacement (total hip arthroplasty), with or"
+         }
+        ],
+        "result_count": 3,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_146899",
+      "args": {
+       "query": "\"member ID\" starts with \"W\" UnitedHealthcare OR \"Presbyterian\" OR \"Blue Cross\" OR \"Molina\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtsFCtgFAWkUfRP5SlbrNOxbtNA_fk0BqkvwbN4rmYE6wnN_FuiJbXvR6oFoOqWhTHHRPp0h-Io3vKHF0hWxcYGvJBOHx2o_8vt3UU-_oy5nj7Ixr-nIZWFZ7OJBzLJced4n3xl6Yj7urrXl5aAhDIQaflEgvJanjEQ5AGH_Qsr9Y0mFGqonyC_Z7sGutkHezCML_ciZRLI9JxDzhehHn8T-1X4tbT1H1BF-P4wl9UJwqMZG-YASfumVERCTlzbIxEZWyaUe1i326e1Yk7BaVS46BZagx5IYj_doy8ESU7nqkLIM46Auj85cr3yI3r1RKX_9SGn29whFRkkxcVz4kinkXCJ-TILUVMg7i6nrtsQ_L-PN7pWeNCNO0BLGQKPedav3Loeq3ob_0ye1mRQypDSp4B81Vl0qgm4ZzyG4TMUhxbFOrgbv2f6coS1Jv_9KUQA_Gp2qkVRHzjXr20PDCU1e4ikh6hkN7n_SLXBS_YfuGgKa7j2d7k3YfeYeAET7HupcmbcIn3ReOGJgzqJz81nSLKDLdQnmNTuYxH9urroF-t1bC4B-mGN1Gw-9rqXXTHhVX_Kmn8OHZVZZ_S9lQV3Uba1FxlrVnZTQheJ_u3Ti8nkH4Iu-SO3iUfkGpkFQpqqPk5DUWKo2ksMx6HQGvXp7JMMKN2i5K5i4fYRBI2W1DX4COspIl-d-LvLFTDWN-A1hXtLUCux34t0Lr_ctfE2lmfZ4kP6s5m6j34Oo_lO7hYRJi9eFydavYMxxnniy7ixZoU0jBWnFetfX8zhlcB77Nv2WjqxgZtmvOuqINuwPGZaJLh0W4Vi4ie8eAg7wr6XKOBRBLLGXBYygCk9cuAHbgNL-3YAUeQrE-3DYzZgRcJeN39PjoCES3PguZNyXPuQN_J6OmQ1hbT8gB52WJMwTCXEwYlnKlNyeEBBnhxSyj07sPGJ6uOpjcxdHIsQCbJoqz5MavBL6S0ipLKg="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"member ID\" starts with \"W\" UnitedHealthcare OR \"Presbyterian\" OR \"Blue Cross\" OR \"Molina\"",
+        "results": [
+         {
+          "title": "Member ID Card",
+          "url": "https://www.molinahealthcare.com/members/wa/mem/medicaid/wmip/resources/memberid.aspx",
+          "snippet": "When you become a member, <strong>you get a Member Identification (ID) Card in the mail from Molina Healthcare</strong>."
+         },
+         {
+          "title": "Your member ID card | UnitedHealthcare",
+          "url": "https://www.uhc.com/member-resources/your-member-id-card",
+          "snippet": "Here are some examples of information found on UnitedHealthcare member ID cards. Most member ID cards have the member ID number and group number on the front of the card. To find your member ID or group number on your digital ID card, open the UHC app and select Member Cards."
+         },
+         {
+          "title": "Find my United Healthcare Member ID \u2013 Tava Client Help Center",
+          "url": "https://client-support.tavahealth.com/hc/en-us/articles/20290018011796-Find-my-United-Healthcare-Member-ID",
+          "snippet": "Your UnitedHealthcare Member ID is <strong>on the top left of your health insurance card, below the Health Plan ID</strong>. At this time, we CANNOT accept the following payers through UHC: Sierra Health Option..."
+         },
+         {
+          "title": "Member resources | UnitedHealthcare",
+          "url": "https://www.uhc.com/member-resources",
+          "snippet": "While you\u2019re waiting for your member ID card to arrive, there are a few things you can do before your coverage starts, including looking for network providers. You should receive an invite to register for your health plan account and download the UnitedHealthcare app."
+         },
+         {
+          "title": "Quick Guide to Blue Cross and Blue Shield Member ID Cards",
+          "url": "https://www.bcbsnm.com/docs/provider/nm/quick-guide-member-cards.pdf",
+          "snippet": "A Division of Health Care Service Corporation, a Mutual Legal Reserve Company, an Independent Licensee of the Blue Cross and Blue Shield Association \u00b7 International Licensees"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_133231",
+      "args": {
+       "query": "\"New Mexico\" Medicaid \"member ID\" format"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtcECtQEAWkUfROqL_NSFBtlX3gQiTnJXcHBbC86ZeOpxFJ1E9mTb3as_bJxe1UYWlJOIvq8QzHPQbXCjI2HpyJhnfj4XdJ_ViPMNOvcvRSCnLPPKj3sfu78pWiu8O9Xrgra14QTNtb_8bKK1cmgu1Wozk2vo2vgzqDsVhUKJfqE-bSc7PFatucs1YzXFzgcBuUGwzG4etxvMvKRuAIWxXR26PD0BMAwVBCIKMPDIOQTOsc0MVPCEY5DEqqG97nlIk5acMVpuJbDQJViedocp-WhsmWPJkgS1MJkhjXcCYVthPE4523aXhhR1yhOLOnRbFeZf0tzmqhmyCz_K9ynP0c1PTdixPOGdkOp1jTbj7yoHVTAdENPjjlWjY0VO2lknDMP6JEV1TPqzqKbeZTUM53ovO_50fWP6hn7uKzz-Zls3MVnLTMOEkoqKduK7ztWYhEVfqI4Zb497sYFZHXvkwTJFUT256412oLWmmEnXO_BB1md7odcOCxhiXS4rBma7_CDk92sXKSC9H126tP5mgknRMLjcuig8hRv9I8k2ze_PpiCz10FQbStLoPdgoxrkGiBOMMemTbXWQ4P2s_MN2W69IADhndRhp3aK7xQsmrf9UdpwsqmQT4j52J0MTgQBTgkPPZyz6G62e5VeCzSo03zh4ODHfyM4kwBSZA0P0mcWMvG62YnJDv8Z5PFIFHj-gRtTHmz_72wXrBEcEdOMMM6ZkHE_Wan8PnuynN2fU-ni_QQf9a0DH5emueGGtDWy1ey4F3nZMAoOUqlY8Hkj_uhQP-tOo8OVQE="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"New Mexico\" Medicaid \"member ID\" format",
+        "results": [
+         {
+          "title": "Understanding Your Member ID | Blue Cross and Blue Shield of New Mexico",
+          "url": "https://www.bcbsnm.com/help-center/member-id",
+          "snippet": "Learn everything you need to know about what your BCBSNM member ID card can do for you. Find out how to locate your ID, use it and keep it secure."
+         },
+         {
+          "title": "Turquoise Care Overview \u2013 New Mexico Health Care Authority",
+          "url": "https://www.hsd.state.nm.us/lookingforassistance/centennial-care-overview/",
+          "snippet": "Each member\u2019s Medicaid card will list their MCO. Members will participate in open enrollment during the period of April through May 2024. Once the Western Sky members have selected or been automatically assigned to an MCO, the member list will be shared with the new MCO prior to July 1, 2024. The newly assigned MCOs will issue a new member ID ..."
+         },
+         {
+          "title": "Medicaid Members | Molina Healthcare New Mexico",
+          "url": "https://www.molinahealthcare.com/members/nm/en-us/mem/home.aspx",
+          "snippet": "If you don\u2019t qualify for Medicaid or Medicare, a Marketplace plan with government assistance is a low-cost option for high quality care. \u200b ... When it comes to Medicare Advantage choices, no single plan fits everyone. That\u2019s why Molina has so many different plans to choose from. ... Not to worry! Log in or create an account for My Molina. All you need is your member ID, date of birth and zip code."
+         },
+         {
+          "title": "New Member | Molina Healthcare New Mexico",
+          "url": "https://www.molinahealthcare.com/members/nm/en-us/mem/Medicaid/newmem.aspx",
+          "snippet": "Your PCP\u2019s name, phone number and location may be listed on your member ID card."
+         },
+         {
+          "title": "BCBSNM Member Handbook for Turquoise Care",
+          "url": "https://www.bcbsnm.com/turquoise-care/pdf/tc-member-handbook-nm.pdf",
+          "snippet": "Note: The State of New Mexico Health Care Authority may change the benefits described in \u00b7 this handbook. If that happens, BCBSNM will notify you within 30 calendar days. This handbook \u00b7 is updated yearly. You can view and download the most current version by visiting the BCBSNM \u00b7 website at www.bcbsnm.com/medicaid. If you need a copy in an alternate format, call Member..."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_163876",
+      "args": {
+       "query": "\"Comagine Health\" \"New Mexico\" \"total hip replacement\" OR \"27130\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "ErEJCq4JAWkUfRO0YFwWPNG8sX4dwThmoKo0xqvr2n5h3Et6I6mCgLaj0tUN8ViDahc1wVhJLvPDuqoFJnPy2ibEq-i4TsLjErZj8Nl0tzKtmr4yCa2Jos7-1lqs_yKedqUNSRMewULz1BTmPixgaLq6V4y9ucqjwm8-NLyGSWXg4pzMgxu7NwTTsm_0wI1v3L3XeaHxYY9bdjF0OQYxEYoFv_fFXqyekhzdsW9xof9HC4coMwommdoZ25_qjYu7DNzfW5wGJjOY3Fs9iO4itjaSoinDzLKuCc3KSHqnazAPlak8bqpv6BdgST1M6tx5H9zemtddrgwyvjayzsDZsMe_pB60JqOCbjwqIW0JKBhifuLa4L2zzRq6VUckC9QCDL0bvYZHo914wyB_JB6JHAZ0xzECv8059ii71A13FFTkT48yMmzr2B92F330HFTzlEXPSs1nglphLo60lw3URJxtsxdznEEAGz_mg2cOU8DAH76e5CfQy4DBLV57fhTJIOTfe0NxwlpaUSs05vQEg5s-cx7Lv3jngSj_-L5nuFgVX1d-sI7hz4TTC-IL9RYxfnpVAW9qqsReH-uiehwKeXi2U5jp1k9PTJe7YAJHz3_npMDY8o-zu2auaRIcQQe5owEUC_EzrFMRAOTYBoLd9wzAAVWG2Y1lmFwV-Vj2AjDJUVQ2l1BBIeiK7Y0sZ7HFHmk0N0Ega5votBGqJUofOpbzPjTP-vIGkGfSJdOUTB6FcfamQUDHw847ApfMLfBJVdGyNVG1xi6Fj9PreWhtX29XwN_N5rCR0zAbvvEV8jxTAqtA-lF8K3cMpHZvXQYcoDiE9V67eqkeMXxyq3QGUOb_WZ01AEAEKqFfSsEIlxDybsiXcdIhrKUQQX2HulwoIwZtC0VqlA-8VG812piG0Za3BHCBwTU4q6LHT3t_RJrUSZRyXvOt1g77ZO__O2VfcLXVwG6D-CVVs8nxQJsealRxfM7m3i9WxcEf_jqntxbqMZqm5xtG_Kwsw8PXOs-v2otasikH8IeIJ8X8cigoPJ-8PT_zim2P5QL9avKqpWQw3bd0036ZERnH1nQ95nB39pyraDrTI5_x-3BwoFqweC1gd2UuYodyWY_JkmX8eiqQK4WVUUPlnwp_uiA4Fphw6klZora52wTdAIRC4uXDJYruQGje1XJwOZEAAXoRzfb0jUpiLJaDjMeHQfpDnNQKEanVwYPkO_klB-I8gzPdQ2oBjBBKUnJgrSja7_FnnBJUH4fiTj8IEdjqexo8opPpu-YPb8vxIm02o1PnPtOJJfDUElYd62s17kBvVn8zyTIe_T-VGWli3KR6qZ_iViB0mtCoArL2qJLMxn5XSreGSLAM1EFcJm4r26im_KpGIxIS3XQ6de40BxCemlyvggu9-45Rz-XT7e1E14BSHV94ArqRGvqrDU466Fg43WssrM7g47_AMyNMnWzFooHTd7X1pJeirO98kCGrnPkJe10kJzJsd0oCTydIINfS2NiRwJSMO5ZKl4Bbiq8lqt_rlom3SL3e82MUlq2BZrRFxUDxvN7JOYBI941FjgUa6Wo5OpzfTet_jkDNVhtS0DYZBzoTcI_l1w=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Comagine Health\" \"New Mexico\" \"total hip replacement\" OR \"27130\"",
+        "results": [
+         {
+          "title": "Procedure Price Lookup for Outpatient Services | Medicare.gov 27130",
+          "url": "https://www.medicare.gov/procedure-price-lookup/cost/27130/",
+          "snippet": "Use official Procedure Price Lookup tool to compare national average to Medicare costs in ambulatory surgical centers, hosptial outpatient departments"
+         },
+         {
+          "title": "CPT 27130 \u2014 Primary total hip arthroplasty replacing both the acetabular socket and proximal | Mira Health",
+          "url": "https://mirahealth.care/reference/cpt/27130/",
+          "snippet": "CPT 27130: <strong>Primary total hip arthroplasty replacing both the acetabular socket and proximal femoral components with prosthetic implants, with or without bone graft</strong>. Medicare $1,162.02, 34.79 total RVUs, 90-day global period."
+         },
+         {
+          "title": "Total Hip Replacement Surgery CPT Code 27130: Complete Billing and Coding Guide - Orthopedic Billing Expert",
+          "url": "https://orthobillingexpert.com/total-hip-replacement-surgery-cpt-code/",
+          "snippet": "<strong>Use CPT 27130 only when the surgeon performs a primary total hip replacement</strong>."
+         },
+         {
+          "title": "Total hip replacement (27130) \u2014 Hospital Ledger",
+          "url": "https://hospitalledger.com/procedure/27130",
+          "snippet": "Compare Total hip replacement (27130) prices across 1254 U.S. hospitals \u2014 gross, cash, negotiated rates by insurance."
+         },
+         {
+          "title": "CPT\u00ae Code 27130 - Repair, Revision, and/or Reconstruction Procedures on the Pelvis and Hip Joint - Codify by AAPC",
+          "url": "https://www.aapc.com/codes/cpt-codes/27130",
+          "snippet": "Have a question about CPT Code 27130 ? Start a discussion here ... Hi, If you look in the index of your CPT book under the term &quot;Total Procedures&quot;, you can find some of your answers there. Some of the frequent &quot;total&quot; codes I use are: elbow replacement (24363), hip a..."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_144905",
+      "args": {
+       "query": "\"New Mexico Medicaid\" \"prior authorization\" manual \"27130\" OR \"hip\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Es8HCswHAWkUfRMDnq_UmbgVoWXZjrNVIWAjGhcSIbj6IHRvPeo9vMymT6N18QNP-7ZNUuIW2A_rIr05B7LWvbTEKb1YARCNsztrwo6x53MyqvVkI0q_RLcxfV6RwNSVNSDUzTz2PYlNTkgF9X0BAJcuScvFFtC1CZbDG89zdDxlux7YGcLMopSlFKUzLE-VUIH-Zolu-LBPfoEAj3ojBudR7d9Rv5r0UajpvveSoft5YQ5wxQHYal7NG2e587RBaOzpbkMlT5IIFHUTenRq0Vo8sPW-V4uvROrOBCEuOojeQigQcXzkgBaXyLLN0uAb00X2DfN5c-ghaKtGj-HYGFHngqEKzlZ8MH8vyF44wEmYyCsMhYeGPEsfxmi7qd9CImSKhXmQReLH0bVPoT3wzN4Bhq0s1XSVi1USaaUIiUdemi8rK7zdHnna9oQ4UNxLYtD0Nj2gO9XxjVtGFA_pr1_FpE_Kt1eXiACbf1x1SDMQ8wtbgdcZnFz8e8SMTn1BkY2XZy1EmDFURwYi-JFmL_ZEh9kCWxSmiD3m_9yOR9qcDVZBfCZgljltyopeCMQSUmeNH78PjrhKLdKZ4FXLpfGRMavS70LBROxApQVx_j6a3OFRkvDRJCp7qxWCBOf2xNrJQZxMfwTBP03YlXUmaQy5EtSO9XLwaE7sFDLQRexeFw0ammZs9ZG6cnQptlo-GUK6kdyj-ob7UpxwLaEkJKY2fnY3MXyCpWltzkXPjLnWjIKs2crrVgPIxLCAj80B6SOKC7svg6KzJOEKyq7POtzt76L0RGchOHwQcQJa2DFtHlWoUfLnu1AKws_3AJUIhZGk0UgTI_-gMaKhMM7twY1E1aEeZSkAZy4U3rl9Ebk5JWy7R_jZs_mnQDAsU6UM5-p2_2bQBpMQCW9BbhrXlS35YSqNLUwAQskLiP8IgOfajKmxCBoNcY1PKfV-v76q1WgZYgf0RnULoS7xzyy8ApeVDb3abL6hZJ1b232-WdClrJAorHU83KHUycix1Z44PLg5meHzNQrckNiol8tr8Utkyl9ZoVNG0N6Ug0L_JqKXAva6a4JyLwHD3YNMmrXLU7V7WTUc5onDRATgqsWxHt_uceRv1bwgejZfS7plkkFTPgBGxI2MeeC2qAyFLIBsFyUb7vIK0KFMS8Niu6Ar0_W4Y7Ww8nGt1XvGK0pCtw-dd6_oVSNeYcneVjo1vp-lEYF7nJ8aOHGl91pptW-P835gzuOENZj_5HniIvc96YdCP9FV-68xcQn5yatvnYiGBuKNi8wJoaBGuUzD-35RTrNs"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"New Mexico Medicaid\" \"prior authorization\" manual \"27130\" OR \"hip\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_141867",
+      "args": {
+       "query": "\"New Mexico\" Medicaid billing instructions \"27130\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Eo0CCooCAWkUfRNhOBu2WxPOcEZusH4Kr2W8xyDMSS8ZJDU4Ncg15K_18J9Ox-XskO94QCwmjKSvF0R1n7nUmbLuXdjryyG3rd0ThnncScLh-cLFCtfJ9RGeYqWrl05tFvhns7KnMYolTkgWrjP1tpzNo4pwzB8E2R3JLPBvEImmvndUxDxBCRe23KhwyvLYIH9cxeoIs0WJPWj_2dESnpkViX-C25aUcNL2udFqknnhQCgV9EtEuO0OrHNSWnt4in6kQ0tIKvnD3LlSm9IFkzPFM4j-C9ePzMZNUXC13pqAmMX7wE2R_kNWUiA5SSQObGy-fLa0voz74Rw_h-uip_sO4jUZ0Pjep304xjansGs="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"New Mexico\" Medicaid billing instructions \"27130\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_232057",
+      "args": {
+       "query": "New Mexico Medicaid \"outpatient surgery\" prior authorization criteria"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EuUBCuIBAWkUfROwQPIiRKZCiH1wKvG6vU8_I22YGNNqK8bZP699WFMeikggfMID0SmvYBZ0Jp9b9P65BRxn4c11ZoIQ1p01pBGSb1HXiAPixzsyCedDOJOxscM9D9u7BANcK6QrKSelkIRVrNN2YwbIsHragdHauagKVKpS2FtBNM7yz2mGkJizP1FLNZh1uXbai5niZ6Ibc_tug9ZQb0H9HpDke9ljSgo4AfLUCmSW016E0OsJwinl9nJ1GWg791YeGDRr3YTB-a5q-7_J2FgdLU4z3uxoMloogrZR29UX2htnhy6DQg=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "New Mexico Medicaid \"outpatient surgery\" prior authorization criteria",
+        "results": [
+         {
+          "title": "New Mexico Medicaid Checklist: Fee-for-Service Prior Authorization | Comagine Health",
+          "url": "https://comagine.org/new-mexico-medicaid-checklist-fee-service-prior-authorization",
+          "snippet": "Checklist for requesting New Mexico Medicaid fee-for-service prior authorization. Includes DME, therapies, vision, nutritional supplements, wound care, outpatient surgery, prosthetics and orthotics, home health care, contact lenses and inpatient rehab services."
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_113887",
+      "args": {
+       "url": "https://comagine.org/new-mexico-medicaid-checklist-fee-service-prior-authorization"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EsoBCscBAWkUfROjYmkhGhsVhUR4IyI00MTATCvdpb3ylzMHemBQ0jJ6HXCJgW_p_ej0IKgE2hcwDiYk4i9cgf7ifIchbVmgOIuvksGe2AkJO2DLPFDPEooNUtpPnOBoAQT-tDQlCFw-dp5tM9tcsftmOQAIGhMfpKAiJZtJSAd3y2ck04V3QpIO2jjd_Dze1SAe7k_PTpI36iuF2VICs-rSw_725I-rq93n0aZxIm6AKBjMJdINuuoTtVeYJNP6V1DH9xXOOgdwV1h1xw=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://comagine.org/new-mexico-medicaid-checklist-fee-service-prior-authorization",
+        "final_url": "https://comagine.org/new-mexico-medicaid-checklist-fee-service-prior-authorization",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "New Mexico Medicaid Checklist: Fee-for-Service Prior Authorization | Comagine Health Skip to main content Main navigation Company Company Leadership Blog Events News Press Releases Careers Contact Us Programs Services COVID-19 Pandemic Response Systemwide Quality Improvement Care Management Data Solutions Research and Evaluation Resources Search New Mexico Medicaid Checklist: Fee-for-Service Prior Authorization Checklist for requesting New Mexico Medicaid fee-for-service prior authorization. Includes DME, therapies, vision, nutritional supplements, wound care, outpatient surgery, prosthetics and orthotics, home health care, contact lenses and inpatient rehab services. Resource File Download PDF Reimagining health care, together \u00a92026 Comagine Health. All rights reserved. Company Contact Us Privacy Policy Sitemap Social Twitter Linked.in Facebook Blog RSS RSS Feeds: Blog Events News Company Contact Us Privacy Policy Sitemap Events MAIN MENU Company Company Leadership Blog Events News Press Releases Careers Contact Us Programs Services COVID-19 Pandemic Response Systemwide Quality Improvement Care Management Data Solutions Research and Evaluation Resources Menu",
+        "text_truncated": false
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_87634",
+      "args": {
+       "query": "\"Comagine Health\" \"New Mexico Medicaid\" checklist filetype:pdf"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvIBCu8BAWkUfROtFACOFVuy3CMSkmUwknhx1wWDrBbVeasJKhUJuWOwJAZoQCyNc8g3iaS-dEtbz2hfyvajB0cITw0AAKLWVM0GiBZ0LNlz1tnV-G9fZAUuLnHEQix9ZFPiQamJVuadxOaFP6eHSHjtRgDocwpAcJXPHdSVb75a3utdB7qsusITRNSMZJuq4FLS4bR3grZN5YxY5Zgabkv1lFVrTdKARcl79Cp9b9rvPbDo-A7DGB-yg3EL8hPvuClUioTLghm784wrpf8vqSd8M94JYvqNhSAkioE_4E-J_7KCsFGoPhzB9dWn5QCkfoNcliI="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Comagine Health\" \"New Mexico Medicaid\" checklist filetype:pdf",
+        "results": [
+         {
+          "title": "New Mexico Medicaid Checklist: Supports Waiver Level of ...",
+          "url": "https://comagine.org/sites/default/files/resources/nm-medicaid-supports-loc-cl.pdf",
+          "snippet": "Comagine Health, formerly Qualis Health and HealthInsight, is a national, nonprofit, health care consulting firm."
+         },
+         {
+          "title": "Page 1 of 1 May 2021 New Mexico Medicaid Checklist EMSNC Claims",
+          "url": "https://comagine.org/sites/default/files/resources/nm-medicaid-emsnc-claims-cl.pdf",
+          "snippet": "Aliens (EMSA), 8.325.10 and Medicaid Eligibility/General Recipient Policies 8.200.41 \u00b7 File all EMSNC claims directly with the New Mexico Fiscal Agent, Conduent, along with all ... P.O. Box 26500 ... To request a reconsideration for an EMSNC claim that has been denied by Comagine Health, please call"
+         },
+         {
+          "title": "Comagine Health Provider Portal User Guide New Mexico Medicaid June 5, 2023",
+          "url": "https://comagine.org/sites/default/files/resources/nm-medicaid-chpp-user-guide.pdf",
+          "snippet": "3. Enter the Medicaid ID number - including the four (4) leading"
+         },
+         {
+          "title": "New Mexico Medicaid Checklist Alternative Benefit Plan ( ...",
+          "url": "https://comagine.org/sites/default/files/resources/nm-medicaid-abp-exemption-cl.pdf",
+          "snippet": "Comagine Health, Third-Party Assessor (TPA), is responsible for determining whether a Medicaid fee-for-service \u00b7 (FFS) recipient in the Other Adult Group Medicaid category of eligibility (COE 100)/Alternative Benefit Plan (ABP) meets Medically Frail criteria for ABP exemption. This checklist provides guidance for requesting an ABP"
+         },
+         {
+          "title": "New Mexico Medicaid Checklist: Applied Behavior Analysis",
+          "url": "https://comagine.org/sites/default/files/resources/nm-medicaid-aba-cl.pdf",
+          "snippet": "Comagine Health, formerly Qualis Health and HealthInsight, is a national, nonprofit, health care consulting firm."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_232144",
+      "args": {
+       "query": "\"New Mexico Medicaid\" FFS \"InterQual\" OR \"MCG\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqUGCqIGAWkUfRNwcc4woC15cl6odqCvnFbl8Qb7VnDLE4-y-7t7_5tRsESaLHoQQ4qs2fq9VTz8Crmeoi0RMLbsj7MwZXoRu1JMReVZlTlO5h2wQlkpo8JyDTrHQPO3XQ_OD6f3nwZIczvB39vQ_ci89XvGUD96hqm_IaWnjwzQpgLRayBZdtkG3uD68fkYPLim30b2xZEvCB3VYeC9yqCCn78xd-U2tnYEpdPbKECDoJROwpGgB3jEoo0F7Pb96RsXByxHYCdAxSofLNM1o1rVLRHHZTYge8uBidYTsRErQIR_5pSa96RRoLKrdrTKB_CMLp2AMbis1MXa83tr5Yc_-qysz9GZJqATrRWwzQK_CYkuoLx1s-X43zelRO8JzZ7Ey7g2Io6H6QyDcZkRYQ3oXs3VvqlKMXEYKn7wI2Lp6fO-YKT1nJfXH3_LgiVsXjhSD-YpV_eKL3MYTzOcTJI3CU9ejAURpVCmAjwL57vIInSwuyNSIiyKdz2Ajx7oCfDhE52OYK2JHX2xnnp7lvmjNDtdobPNeSH2J5CN9ptZv12PAcNwlj2YP_ehF5_C4ZUJa2DnGJUpHjs-rzFmKDnYBSES18ZdAuXMmteT4unBVvpNnhu1w_FXcGs5LULpBsdKAO4T_F_rYFFFW45mNtiknR4lW6zw70ct1d9nCGUlG_ij3UavLA89L-1SQaglDdhZqTU31aT9_npS4f-OjPOSWun4IX7xIKmMFxZgxczTb8oYJmfZxmeIBku5lrt181K4Z2sxVYeZEB4bowIBP3Cq1PXS9l32CX7rzSKHVHLiagcGPmpgxKDlLeyZfanFGAGj6uITRnyoZykmRntA0oGnKKKjMRWCVIqCgXiuzLQVCIYYNZdTkDeWp7vgrNI3xGuzv4cuFKuJkB-UMGmRsWF0uaj4txJA3FrxEm--WKO5eX2smd30cKB_8rpP41oS7_YF78eiH15_t4v4cHTqkffTLJQIyB42cF2tFxUwsQ08tnH37_9NTlDPAWtxn_X_WIpW1qwpIFHBjZp7QV-oCwEAk9yzhO0dISSPH48t9IP1t1es6p8jQQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"New Mexico Medicaid\" FFS \"InterQual\" OR \"MCG\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_122123",
+      "args": {
+       "query": "\"New Mexico\" Medicaid prior authorization \"InterQual\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Eq8BCqwBAWkUfRMQCVxGj4-XYJtKb5qnuwLzbNuAJLOp6US3y2IMc2brn2b95oj70X1zOYJTtBk3VXF-s5Xjnp-0jaZ1-syZ3tp0UN3zfrfyONPo9NN-ppCP6-cX8Eh9SdCzDcZ82W4A7MCw6Wlw5Nv-sBjy5Dz74S1OEm5mCj7sDEXJ-jEO05lLoKhhIr3rpjIfqk9rUudQR3YNPWKSNo7iKYSwSZJ7WsqOylKO0f9H9A=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"New Mexico\" Medicaid prior authorization \"InterQual\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_263426",
+      "args": {
+       "query": "\"Comagine Health\" New Mexico Medicaid prior authorization \"criteria\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsIBCr8BAWkUfRMhDj3n5mym0-QWQVYNCc7ShubnjfRdqgygijzGg9wkxFgNvvT3Nn7x6FaCCQYMSEui6uXHqYq2smtj7mP97lPuXMzmlZx3C09AijTSWBXqioQJLXFHgakvT_oscKWGAR2IfI8XC0kWfnK1hOfhq3mQfIG-LJigjMRJ87dspo3hcU2KatYSRpaghMs7nAHnlangNWmliOz4FO9IPFEylKJOxy7CWxidsbDRV5tChZL1wc0jmW2cZurX2iQ="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Comagine Health\" New Mexico Medicaid prior authorization \"criteria\"",
+        "results": [
+         {
+          "title": "Providers | Comagine Health",
+          "url": "https://comagine.org/program/new-mexico-medicaid/providers",
+          "snippet": "Utilization Review Criteria In compliance with the Centers for Medicare &amp; Medicaid Services (CMS) Interoperability and Prior Authorization Final Rule (CMS-0057-F), the InterQual\u00ae criteria we use for utilization review are available for"
+         },
+         {
+          "title": "Comagine Health Provider Portal User Guide New Mexico Medicaid June 5, 2023",
+          "url": "https://comagine.org/sites/default/files/resources/nm-medicaid-chpp-user-guide.pdf",
+          "snippet": "3. Enter the Medicaid ID number - including the four (4) leading ... 4. If the user has the Reference ID or Episode ID available, enter the Reference ID number or Episode ID \u00b7 number in the Reference ID field or Episode ID field. ... A. Additional search criteria can be entered to narrow down the results."
+         },
+         {
+          "title": "District of Columbia, Department of Health Care Finance | Comagine Health",
+          "url": "https://comagine.org/program/dc-medicaid-um",
+          "snippet": "Effective August 18, 2025, DBH-certified providers will need to submit requests for Initial and Continued Crisis Bed Stabilization stay reviews to Comagine Health. The prior authorization requests will be reviewed and decisioned based on medical necessity criteria developed by the DBH, as well as all relevant local and federal regulations."
+         }
+        ],
+        "result_count": 3,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "text": "```json\n{\n  \"policy_found\": true,\n  \"policy_title\": \"UnitedHealthcare Community Plan Medical Policy: Surgery of the Hip (for New Mexico Only) / Presbyterian Health Plan Medical Policy: Total Joint Replacement (Hip and Knee) for Non-Medicare\",\n  \"policy_number\": \"CS056NM.F (UnitedHealthcare) / 20.14 (Presbyterian)\",\n  \"policy_url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/nm/surgery-hip-nm-cs.pdf\",\n  \"effective_date\": \"May 1, 2026 (UnitedHealthcare) / August 27, 2025 (Presbyterian)\",\n  \"criteria_quotes\": [\n    \"Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage but does not guarantee coverage of the service requested. Medical notes documenting the following, when applicable: Complete diagnostic interpretation of imaging findings including, at a minimum: Relevant clinical information, Detailed report of imaging findings, Impression... Condition requiring procedure; Severity of pain and details of Functional Disability(ies) interfering with activities of daily living (preparing meals, dressing, driving, walking) using a standard scale, such as Western Ontario and McMaster Universities Arthritis Index (WOMAC) or Hip Dysfunction and Osteoarthritis Outcome Score (HOOS); Physician\u2019s treatment plan, including pre-op discussion; Pertinent physical examination of the relevant joint; Co-morbid medical conditions; Prior therapies/treatments tried, failed, or contraindicated; include the dates and reason for discontinuation\",\n    \"Advanced degenerative joint disease, as indicated by: A. Disabling pain and significant functional disability AND B. Radiological findings consistent with moderate/severe osteoarthritis or rheumatoid arthritis of the hip (at least two of the following): Severe joint space narrowing, Osteophyte formation, Joint subluxation, Deformity or malalignment, Subchondral sclerosis OR Arthroscopic findings of severe denudation of articular cartilage. AND C. Non-Surgical medical management has been tried and failed (please see recommendations for non-operative treatment of hip osteoarthritis), including: 1. Self-management program (>= 6 weeks) that includes a. Strengthening AND b. Low impact aerobic activities AND one of the following: Physical therapy, Adjunctive range of motion /stretching exercises, Joint off-loading (cane, walker), Reasonable restriction of activities. 2. Medications: NSAIDS if tolerated and not contraindicated... OR Analgesics, Acetaminophen, Tramadol AND D. Documentation that clearly shows the patient has participated in or is scheduled for Pre-Procedure education...\"\n  ],\n  \"appeal_deadline\": \"2027-01-27\",\n  \"submission_route\": \"Submission details depend on the specific administrator of New Mexico Medicaid (Turquoise Care or Fee-for-Service): \\n\\n1. For UnitedHealthcare Community Plan (Turquoise Care):\\nMail: UnitedHealthcare Community Plan, Turquoise Care Appeals and Grievances, P.O. Box 31364, Salt Lake City, UT 84131-0364\\nPhone: 1-877-236-0826 (TTY 711)\\n\\n2. For Presbyterian Health Plan (Turquoise Care):\\nOnline: Member Grievance and Appeal Submission Form on their website\\nPhone: 505-923-5200\\n\\n3. For Fee-for-Service (FFS) Medicaid (reviewed by Comagine Health):\\nReconsideration Mail: Comagine Health TPA, Attn: Reconsideration Requests, PO Box 20910, Albuquerque, NM 87154-0910\\nReconsideration Fax: 888-562-2755\\nFair Hearing Request Mail: Health Care Authority, Attn: Office of Fair Hearings, PO Box 2348, Santa Fe, NM 87504\\nFair Hearing Request Fax: (505) 476-6215\\nFair Hearing Request Email: HCA-FairHearings@hca.nm.gov\",\n  \"how_to_obtain_criteria\": \"Because UnitedHealthcare Community Plan and Comagine Health utilize proprietary InterQual\u00ae CP: Procedures: Total Joint Replacement (TJR), Hip criteria to determine medical necessity, the exact interactive criteria set is not printed in full public documents. To obtain a copy of the specific InterQual\u00ae criteria applied, the patient or provider can contact UnitedHealthcare Community Plan Member Services at 1-877-236-0826 or access the read-only portal at UHCprovider.com/policies > Clinical Guidelines > InterQual Clinical Criteria. For Fee-for-Service Medicaid, they may contact Comagine Health at 866-962-2180.\",\n  \"confidence\": \"high\",\n  \"notes\": \"Because the denial notice mentions 'Medicaid (Medicaid), state of New Mexico' without naming a specific managed care plan, the response covers the primary possibilities for New Mexico Medicaid (which transitioned to the 'Turquoise Care' program in July 2024): the Fee-For-Service (FFS) program (reviewed by Comagine Health using InterQual), UnitedHealthcare Community Plan (which also uses InterQual), and Presbyterian Health Plan (which uses its own published Medical Policy 20.14).\"\n}\n```",
+     "thought_signature": "Eu1rCuprAWkUfRNbPaqYwAl37iNbU0q3G7hDHXDWfCm2KLAJ4KCaEd3G45vcp8UIjghqfhbHlxZHHWj_GngK5i4DOzvRrd4-AUUBt0Q07j7V5ZLtzfst2wmDq-5lJZ-ePEToRf40Hz3_C6LopjSnr7QUQ8owkUJbuc03EH375aasDXg3jW0PcZKvEdQdVvG0weQiOlG1xRpdpuPfU1jvmkLwzQGbXOx3gQS3lZcUGHBzNzXuWCK59YLlf5Prs2uuU5g4Za8o05irvbileIc76dvWLKlu3vyarcsN6NqigO6kgbFiertE3cPjhPnZIGQh3jfnPWQFGek128sujF-4p0YN8yDTK2DCy0zn3ODaiP8MA06f9i56uGWGEN4sUiXUgJU_s4heigi7wayKa35Ni3-77pfDGNRgV8v3PYb-iE_d2w8uqCvkaoQfyRuJWbuCsjQZ6V5lK1hfnwTMIRZaV9m-gZzIY-CSa0DatUkVy1AZkXskL2bG2AL7FQMviWtwat71jwkQG2U6irLsLysv3oXrWTbBCsRImKBqKAP1IcR7jtrbxc5UwFOxeo-hGr2rGGrdaWZVRkezzjCIjdRnR3QDe3FUT_zEfwiknfW4UGCon9pcU3a6ZAckldO5ZpysBeZdYu-ddqbLcouENpCIx-euOsgf2NJCzudtba6UHZh3Jf3Qh-r007SDt6qol0lEYg6wz1D1vxEc28ujV4Brm1njeA9zcIo3lNkdTS1l7segwqgBPnIwv5F7HBvCwfMK7mDuKlrgUdibiH7pxCJZfsE03RL6YJG40g3Ow3AIzBkkb959MgGSbik6Yh9J52e5OUmd0FQLqDWbnwsrPPRfPG-oGQjJLWgdz_fI8LkSHy4gjG3JFJ1EYCVgQEFUks1NXBOLTp-cZQL8DWNKjnHuLQIJIDlUMZ1b-lYTZxR_sPT8a8-5IFQQxbF3B2nLZ-2wOJdvcTa6mmVq44EeNQhaIvYUG_woTBbLB3KE7pIGsM7WuBTkNCWnKDwKMFo06VjsJRTGHBEAM7TMkiGOO9ZS3MCbNsGkieELaJPvCr6G9kkLMtUDMHg7LCGxdwJv6DFlymbLt8Wlrx2MDhnhheY0wKDVV448g99-5WJhh_LkcVYbj-VMLl7cBCDFwtSALBDPNQEWJaTCWvq92_-3H1aSwA1uclVNV9-xgV8nYe0WuM8dXcA_HA_PbrmrwNFgchK-zhWdTThojqQB-uA0S0B7AkYU-4ggclXEiJ5FE7iKguVf-sapTrO-o4HBr_nZ7Zv4EJr92uTuCXYg0AXjwVRGXsFn9PPM7cYhTHbiqzt1j9L4gJr7D3GxdT7RcD0Zw6i-E3KoQeg8J-ZNDqi52NT54_6b7N6DG-Rh8wA6sPW-6KdmlrkUUBbp0WXUjorP3yDycfgJL7sRwJjBZ8SHAldK54tO6T0OPw60sa-RgF182aDP1O3inn3hm2kTGDmSauXJUYV-1hBhCP0S0SdwUEPv28LAC1_Qt1Bqlt6b6UJIgLmX6e4OxCZC291OVWEG37BapPCi1juoxkrxEm7lKzyV6Rx-hwBrfqZTs578nlBYEWp2tTszUYXq_IMgUicRIYEaQ2_6cMReqPi51-t6cZ_w7AwR8CcwZV6lX25ewq5E7d6-0Idtk0g1HgABiYo1l4LHC0FOhaJSYVAWwSxtmGju-pogtfkD3fg4YM59515-6YE5JU9YtMvynBPGA9GyUjndRHMgyUJGPYs65uipjB7hU_pgr2oslwbesBWsK20bFCsQoQ11ydg3Ks9ksIaJ0yJFeBQKG-MboROhVWgneNQ-CnvQDaoiNQcFRGGmPl9IArCQdCYh4XiRle4SiTHBMJAyGc3LbT33bRQH2Gx5YY-FjLix88yPPQ1lxXUJ_m-Fon220yEP-8eCTJUuVNd1fVu-j4SZdGmjn4NMa6RNXkRMMvHJ1jxaPaeQO8w8Dq0elPczXWyfelTkytAuR7egxXikr7GC9bIW69oDpFw-RMIIpP9hNF4QTGxVmcauKN_bVXJ4qmiywVcMDJUf5-Di-e3gIQtGT2ltMBFKXhTw6WM4Gff4RqJgIfXiRm5hYe5GBrLgKF8BaJEPQqMJFczNp-imNIQpIdFTet00FegKMHF5bFfUfiEftv1MShH0NR9V3pajs6pa_JXHfVBja2Z0RyGqD4PFXfH8KmJXIejwhku3kD2PzryavGSk0HYgGFEmDlxuV-DKDkgKiY5PqoSdUB6gR3BWbwutXvFqUY2inA7gMALVollb5oz3Mklefxlu-T7S--pILKmmwWRAelIyHflqgsBXwsd6xgjpeVlkL016zMKCAglHpgayMtsJRmu9HM8mY1FkTOoeVWNKIfUgolmoQtmtjdBXCfWjuzB9LFnQhZayKleSZHi4IqP7YUfYfl50CUxezdEea9l9lHCzdoDNjmzqPyDmAZCmZ37cqJKmhK6sCv2GG6QtxGxY_1uU5_B1rGAey1B3NrGhtDRwZwdkrzIIriP7ofTi-CNZOU1szwuglGUKBwaOgNXs363lA3cWm87F6xKB7Q2QOnif4_Ld4C0Lgr0hrswTkB5Gx9mUVmBGsDvjG6VqT9m7AbJH7m-esbNIpdLLewDJ82cNbfnM8QtzP9O2TOntQ36P6if3Oyf7MrXbDg79mmxyd6cmzsCHdj1i4EQxhM2B9x8UOq38qsL7AAsP0eQ5AotJsrpePw2oPDxeFsKipqyXvc47KDMPjhD3F7_JvyQuadujncAXIIerVBE0iIk-RZy9oW0-5_Cwkltdhp1ZGTanCxYrAQ30K_ixOo4GZ25Tic8KBS74JPbhjyN0nAZUl5WgJmLllSCDsN0M5VbbTk_yLEF5u540WeGlWus4LFQROp0G-4Ywe4KGhImJhgQKNPS2mLDXBoLc37GGAOJ1_uwGtYc8OMY8wJzYBXIAYBqc6VTiJqrrQXQfYtizqFSIsWDxuTwqZlVf6_ioI-7a_glTK-7Imdp9TW9LwHsotsiNJD9HgqGCVqnhuiKRt2UUFRdUgJgiwOKaC8dEMiiewQzxJ5lVC3mxvQ64fPvGfe_UwJOJZw2PR_XRz5v5WDmJNpCVQ9Yvx8Ohb9bDUTNWFM2S819Yw2QbdfcTUXOXjmhaWBtGe-2SIaJ-hK6K8_tQ17827434qv9gB_66pnPi9xlRg9NN3JwGGHnpaHR9agCPYUIZT-E1amuhaiGNVc2E4tX3lhL7xWXwGpB32PQGLLwso5tCg_ZF7PJddvi6JKY8FKzUcQsoqyZckSgvwGt1o9EeW8WBCA-qtIrFKxJS6tkf42w5ShdQ4DlKRyar6-dmDoOI8coleIrOJ25omq6_7oAJthuE96BJ-4cgv7wIDbRkqbwi-lU1gVMYRl6y1MK9ysaYRwns2c23W4ISFsn0dAR5XDBV92461MuU_7Kbh2heviIg9-LoF9SumDTTVnHaLHTBxMa3NO8_17EpyIyOmrb-0pC1N5lYv4GLwAoVa4Hj2q0SJ66vfDTPkvMtkiszN3rCvbvrMxpIugmCQCqOcXs20woiu9hTPNe0AVIBLU_LmoGzekSPmkcOpOrAVST4J6QMODRiUqN2XB3QWsK45uGYR7AeYyhcgvqC5piWcxie3jzABvVbnnckAPACVxs9TLrjW1VCgEFfg5p53Eyx6w69oOlOTQSDKMjN9kWTsManA7-Bk0QrU7uAeukBWzxgpBvbMz9FiS1zetJLb_ni0WP5yc40Kx0SGQsdTrFwk231CUyxOYHb2d7UuRjusJBbs1BBDaCQz7WaI1TZ-o7dsHONRmAL0Vx_BAEfY7XQcxB8hTN_BKvHnRl0xcdccAihVYFDkreEi77LAXpeVJtErkEMQ0x6_vwVCZOpxu9aF1uc6QyIX2y4mvEWdfipZauPEx7lhkzI-qVJQ8VibhoKL6PWEWTZuPngu-z8-twsLpsvF0-m2xkWSmOQIC1jyqX8mwBD6I7Po4agxowuVPSPjwg9mSobCdC9mxMnwk8kJbeRY98ZjlHDp_ugzdmEV_nVv_95BqqAc17zC4VW3CpNDSF5p966LulaiSO-xjXCtVpa5pLQG6uIIerMqCGiEsjT9NIevG9XPq10yqB6phYawuo1OL4BxYcHqmvpOtYQIimNrSpO78WeuATdK_ZVwcc4Ns_KtOInEtorktAdP6_DEYtl9F_GHyIW4MQK-Vjyr-gqGFAuHMsHQpQ8LoIaOOUEmO7gppNMKvPRq5rRElXq8pbW3QxQVJFO22n5bp7SoPJr83rf9FxS7oIUdafd1uqTJ-4DmPPAxPkJQSS0zEShOo18_xjuqtPJuSU3WGkPIkP4kApKWVAgjtZmfDDDZ8BPGG4ZKmpRcxMBxfsAOx_ZkqQcrjfzinFlqhiIUlgaGv-ryHxy7MsKiZKSNvX4pvuiCGgCVgCQsxUQDUgPukEs0bVOlqkugOooK67cpSZal-FblxurUFaamURXHnQoa3bpu3y_XEAN-sE26ZIMk9vHIEk5MUV8kfB2ZWx5nIskWJ4hLPFpuuPxZCalAaMaSvHhT45XM6-iN61wedWER-G1qHSmV_rqxN7nh_HMrBNmOwcc3_qLmVieGbSGOezLUankveXqlw1R1qwfZ6gLNJQvaxPJn6CqNtxtJw7N0TI2FPwavo6erbQ5OtiMt-6SLQzYNqaL4gRE1hV62T6QM4o9Sw2GpEl8vQfk81W5AFvJq1mRgPmFNuXz-G2OG6cUWLV-JUW-be74vnFmM6cBgcoJGHNnqTfZUVtAvTujsNQrzhBYTNWwYNxITC-J9QIBQaIF5ZQVylo5yA3qMqVIs89KLKPGPmGtXoPWF89p_5kxnTl5vvdhccDYeouFeVCVZW7TUknVAPI8jYcDvJa8FAv_YOT2yHcjuPUP9c8XCbeBvLziatxu2nlEsnGnyKR8799lOoNrc1hL6M17KM2V_C22VrzN3iC3lJWbwv-cJAg9i2G1QBCocznEO1mjwU0GYb2ThjX6WGqxs6n_8RGAqqxUE19yUnn0OySe-5Ac8epUDCiU5boDnlGCwrEqcgU7LM7pjafI4m7C66A8nIU29gR-cjsDctk6BdD5EjDyE16YeiBH4g2Jfew5WrZ2rb-1gjhPdL12Qab5OgkuwRagP6AGHIDKsnRw7g4zLfAiMjYKICMWc8zl6tRc2fGpWYM27J-8V9kHqxlWGFI0UAnXYBt_8zirx1nv8bcePNlKru7zd88F06SvO4Yv77hCej8pZd0x94RYoAYC4tU4lVJYvgH4Y8QZx-7N7H7tBWv2hwv1FVeZPc9OACB5OF-qVQ8nxeYlO1LLHRXJsF6yrzJjBOUH2jBoBfenrfd7OcQOtrkS-0zUbcXJAhw41UTt41MHuMQ5CmKh7dH9VVejiyW0Use7IHDoXNg7l0zMoDCFSJvo_z7Jn5bkJ3P6OWr3Yvuqo_CSY52LbSYYBFw6g2TzhPjI23rCDDThZ5WST6yyzCr2n3Kp15JOE6cdpO7w-asVA0RrNW-rEF3n65arU3LGj154hetcyTVJs6mylptDy-e5Nh5uzvtWlnirZwyZPbf_DYeiG1uQn4-L1qql8uz6Sfi66HLgqObAbOs7O_K9vEea3boZD2lqcZ3AxgvOoOEMv8Flaamqo1ayEztU2wuY0zQX_hkc6IjtezKZsMIMyVBKHWm5NzMXnUZCqVM1mJ9YC0PMuXnoeXpdLuuIehgnvuGXqcRJFzo4uR9FpYFGF0_moWXjnCiImxMWMKNPI5YhFA1tfC2HUtDdRTf-KajmYRCEYRO15JkJ99IevoF5ORmPKjKYSdYOl96DUVBVCqOy15PNBPqRXiqww0Pcj3vsAP0w2AbqmkqTmxohi9g2X2kByvpwUjDXXAI6o98CXBLXqdTA1xWyfpFnmmqDPWXneR9e-nP--b5qdVkKay2eXjbW058VW-4UUMppCmGnmoHmjcsvdQKbqYdCgQ-n3g7uhik_0vFvEWqS0f-uHSRGLxINd8QM4HKlsDzP7M36zoXgzsMEokxNuudkJXHhfgWgJT2k3T9bQ1mbycxZMc8r8lfuSYLlGbQVV6MWK0oQmfg_81PZF74h2o9awJr9YKmvotewWkudtE3kpGHT5jpSOOlW1rcU2UGYJxUv8ysxdF-aiQFK9jUuzzT0ZAD2ZpkJUkoz6rhPmQ6TEhFPdaM8kUhxMkNKjI-Nn4d1TwuA3m6rnvl9jvO-2hteXjqPF2kC0x6JJ8ENIzuKpZq-U_bualNnHNlqPbHt26brUnWU3l1vT0KoxUfnl35BN5k6UIt7AI208jHFIThZBugvsn5vsLhhcGYX44YLmKv4GHuYDaTUNzSGWNeJAE-lssfvsbVbuXolVqzLR8e0p2Ay3JRokVUKa_lwxyzB7xPOqQeqKu8UsXXobH2QUgd-b0wPr59VLK2PYpID_bOmFxZIaqvZb9Vi54tyqgzLGFwpCjckQai5mPLLlmrdjgl0L8zXgrwLi7EqPuqNTRFj5tWpdFLnBDdzqtIcVfePHI2K9HW60zThIj7uRW3SWhquqQcCur-Op_t3Prkg4YbXB8HirREyM7ZVX8LFTp86s_0EQvIvdgfjGx53RAl3zE2W_yMaD4RK04CYYo0ylt3ChXzZYWAE5kL8_5iqNk9rf07G9fhhzbSEQLbtzD92J0-AZVhhf4S9BJ2Qo5cSjitxwrwhlWhiB-tZmawD56C1MXC6aRoCEW9ak0wAZi5y4fKjscUZ6BXkQuHUJk-IYAuLHDdBZGScWIcyO9ZpmlFRTC1sLWVgeptb9sZU7YvWW7mFwhvT7I4yu0qqS0psCDS0nWi6_neffxLBps1VicBMvk0-M49kGrJ5LpgMZTvLpKupa_HJ8yA5yOqqbv20N0xg_jmdJulZ9ssQy0auqdR_Abja5MdEq9NlRdJ0zoNqvz_E4TvzgVwp6PNWYGMhfYwnhfLj4kvI4jW98TQdIqSeGjxW4U6C-aTTAUU2OiaNxburYgbqcmqoZPALOjKTymzCESm2oeRM_xqC6EjR3QGRmEzMZhaAUIe0gth5gODZ_MtjTK54Y5Y9NI4LErYdV41sv6Iat32SCob7udOBARi3UWCJsPui6p_EpeD-hgKPr5scCABTG55enUBaYKpNxjzKBWz3LyjYFHpqrtwAQTSBb4SB8suS2IXhwcQbMDgE_GBrKfLcO3Ds8natyOF__seQj6G5SfOH8aTYNwbvY9yLPg3l6il9z5Y2452EjUL2kbbr83dftmR2cZMmxIciKqvGZgyDQnjk50xpsIWE1WS5xpM3w3yfyBUbdRewn7EgcZrtb-Hs1YvZslwRtqWDSVWuHnCceDwWAr4kRolfyB0iQnu7HO5yJUzun1j0_3O2wG2YNAmyqtd0YHcAN-YlxNFNhv9ll1bt97fqRRA7QvNpUcWXjFh92ijT-e3NmlHm0r_5R4AgZURJTgPSZ424IFjAc4f8tzHCIB5BzjRX93UKO62lXTKV_CLl7kHUwVNnnCQaIPkihJv0TbnSQ_NY2xuz64-aDnlGrwjbY-tJCcbTnyBRkJA5FyklY5eInpjv_qO1eIHtChw85FYrcP_8dOSiI41BXX6la4si1bmApZ9Hi_Wz4mVcCzhiZOS2wwrrolDCeSkoaVg1MQxvhzlgetLXy_wkRIhcp3_EWYjb730jd0JBWzWfSgJz1v7ClzO9nHMq0PQAentMmTlMriTyXQwcDDFicgF0Cu6b_a1v3Hjp7wiXPdm59vMHVyhkcImGy2xs7arsEpqTU5oMIk_LXKu6xMi_cnKd0QMGalKER4T_kzv14jNjDGI0OgZIsezr9uzilINcqGCPMR3ZHSocz4-899yXvvV-fBOKcL13yqABF2iBl2a5zYNEFSlPOr7Xsnx9tOQIg0rkoiMbAJE1N0nagNF1uw1tHYPNite_1EknCkwbqp--4V2lJwNmqhpDy_MIc7UqnOK4y7Cv4hlwNt5dau7cKzxL64DbRxJbX2-tAi7uVfrwizK-_AQ-LRa8WbYniIDdvMVMgpkAWJgxb2Uc2Zaxl1VZxrDi10fUnayLkPLObf0opkO3CnZ5PPeoSikIU7xakQyUyaYTHoteU0l3k4axcZvM3PkGuhnDMaQ3sANVFdqYM2zbgwjyV4OhCv7QnEX2siEiB1-gtfzXjpaRltKbXnEEQcMYsrEe-Hl5gFEQ6kXaGhc5tsPOjb55Ej-Mx-VYDVc-1yOFh5qeO26-UUZXEbM9u27iB4krlpfirbj1rbnkuHx6lkCRf5FfLEpLzO2oIxwPv2fnK_9mTtHNxkujUZHpW9IACULj8xJ40rq8BcCcJ9d_DMkxwBsY7ealzEeRbtmbDuvHh-g9pOOMr-V-R6BF77c18oHX_in_czFe6dx-02e-rB6DhgzV3hwhtATkKFO5YG7JMvsEwz7bzDvq4VfYhveMjfGZ5jrQTiI3pCH5CyfNWAVNP8l-mhPbfT0M0-T3iLxBQ4iK8jHhTeJxCp7mtMfOu19NrE_DMM4f14faJMRZfbVIbQhjLT0Q5QgavE2-rUVLEGtBf2OGSOd-cQsYaxV5n_TFMyluIFWj04BIRJd0wscrnvU-QynUxedNBeBGjpuZyseYoHGywAlGLCx0dgSqsAeabcxhCbv2cIXi4KQvhIgewMABATrNSNgSe9sI2K0_D2t63_jqFdTXIc1_0jb0j7Gvb19to-SLVTOJFm6af83L7a_E2Wvgu-OFraGCBER6CpgA2bDgcvo32MIyd3tFKhRERlWl6ObH_hDCLqxGA102PUlco72LjM0qxn_7LzGdp1wLhcFM91X5HabDapSWbHwa4UG22uYByq4TjNCh11UuJSUvh9yrtf1MWUFmd-ImqvYbmuWyOu2beVQULT7DYfMbfhwKMPSt6hhwxMVdcKNuZUBp_5Db9_9D6Dv2_koHecQ1kUfvd_6Ja6viJBNSuCIi-ESkO-7rOTBxYsJLTBjMTKy495BAj38fw4VosYwWfJb2YLC2xnJZ_i-ULI3NJcEnwz7apurlkm3C6R-jkBOsEdo_NCF6v_DbIwJYAGyu14akkJSYKfZKc4sQJAGinKNCMFt9Ae4lscwsAFWO-SawPFplIgtRffOg8Z5aQd--TP2CCgDpCtV4oOlBBKAkgtnBzG-NPeEaElcZhJMS2TFRW-ctbSMJ7Vsv5nXyq7NoX_P97qi8jHHQ-3xN3QA-J53u0c4nGyTPUDqmPdOFfhRsJEE1H6Np7iHG4thiZ2Evn1YDGx3n17yNSyvmlk3vm4HetiP1hTe2XIvhJkrQYwSKJA8nWcn4HxbomO0PnpNPmV2paMLKkOvKll-ntQ8upA5rn35G5oz9wlZgIhdVr5ovu7lQDXA2Arh3v7bGpzIO0Wx_kSlwCZDutpVNZGsZRbFONdeB_gsv8NCvgRXGhPADYFDeQhZRzfGkB9-4k_UvvWtwC04edqgOjtD0jYcpTezY9upOhMKCWOFKoYWWs9T-9JhHz6fWqjOpn3Fn7AXCDLVGj3Ww0FV7k1dhO1IrZFIKNRSp6Q35uA7SYi-kWNTs99dOORLUTam6TYqbl6Qs9KP3ljRd2-ia-rg6W9wVFc5atNZw1m7hMQCfc33FhPOpoAICB8GHHeFkkSv37U_c3X1IFwPX1bXre0umZ1loezEzD5koY3BiPecnQGjsjl7cI3PO6g2YENgZLJluBFQQE2PU5V3fFQiq5DLatC-nTTh2D0NNbMcfT5j3sVgOfhFsJVtHCaA75qxvLkTlMhR6CIet0UOL_pTCPF0HuIbBZU44rezgJ1i4XjB6KrORPe1ZLhVuB3hqn34C872cNenaoavPv-bJ4IVSigQwYtPi7u1YIKknjKuxJeLoSS6YW0xSm-eoYAwatZxzrfsOWbstNHoT9oIZH15SmgZBXtI5H34zVWG-yABF8z7qiI0CavUxux-tox_ltY0mdE6a26XnfrL3u3xWQVzqFJOSGf20GRL9VMDNFEcCOyQlSFnIUDBy15OZ5pTtV8iQKZ0qytUWY9j41GMe_xZPpcB_DkDg9DXT_QyBzKG_-JfIN-Xo-6h-bnphU2jke2ntwPU43IJ8fYDHsPl4vhofRntRhcQMIPBBc3i5Pst-CNz43DIx1WdWj9NgdKZsAahNn9yZX-flWVpwAFvRvoNCvVaRypwb9vLgDnFBBClLlvMZnSJQjN3D49sSRs3WSG7175Ez-HmSQvGDksE3exNRxYulrMMan8mXJOtMv-Se5cUmcRsTj-2is_8TDTQ90rO6ZlU9aBOPy94iAVvSr-g2RuuZsOWejKWqo0TAv-lzU-9GcttSzqkIKQzpLNpwmmt0WDFZN9d0GfF6llFMItx_ItJ_IhyF5fxk6Y9-Vk4sV_NzpeX1z-sqdR_9N5u12M_QPiwRkuPzU-8w6zF7tYOqBiNr0dqIOZiTAMIacfVuSOZWz3Ac3uQUGtuiJrryTnyttY3u5B1-XSGV7mLWX2gAU4ool8sCjFOil_uQpa0bwrMfnbhY6xIQRcK_OHEDssk6OUhQhbT279Li9YXhvSoOHVtXpZINFGWec86CaxgfTnYm6LBxExiXLfleeyR9KNRINPs97KUG7ggd0QI1SIQYDHIdyQYOWd7g89R7X1mx5UcI5KDv5bqcQMZCiCGbF2MbOPcF6b180MPxmXslStKOZWVdOWliy7uWLPyN8TuBoAjk3s0lIaVP_CnMTuz_Hdt25PGYjuvk33CPZbo6QcxBxRQEy0ZzGZtZ73tg9GsFbOrycImUR0AIC5S9V3UcM3dcetxASTkIzp8np25wL30djpBycaY0Eu9ZZbhOwzs6AKwqjy6ivs_wbuD7qNu6Ds1oCq3nxZumyOD-HBzDpAE6NTGzTRUu4RvgKyY4ACGd3cN9GV4-g9Eh6khpYPK851d94FPKIeiOq1BalBg_swqwH3ZtLVFEcucz0XPFG_nVWMR3KojyKNAXwQPO1cIOAqFJPaCCDiOwNVQh_jP_M2dkpNkZka-h2bamWQSN-PfudfHbz8ZdiyoyyEVrnVA_yRztYaT6BADcdXwdCdbmACR6ayUVyikotBoTRPbhw8Gg5UmcsDFSEC-aUMPS4mOpXYJ_45kzxS0N_2MOm48ph79IQ5KtAQzy-YfgUwUY1kJwQeyq0DdhvpTw8GUSo_twehKhfBKW1YU0BEu0OIksIYxP7IF8PgDnpeQAFbmsGNfHH7HHYPN6tWMIjoERHAi931s0zX9ful2g0K4FNedMviNx8tQVlwz2KwhmIntAYBRNCIkn_r1CMD5MJJWJUkEboSOvVnk2nB1QAhl2BHvOYMmgz7SIYZ4VOh3AbijvJV6a4O4QVtZn6IE1SuD8_hGeY2lLwA9rSxDRiyVcQ9kmXJ4rV0oUQnGfDeHDqwBSFveBcizcViuRxl8AzgQ4MaF4fgPv_0JLHd-QOcIC5vt9_Rt5HsSZT2YG-tXSysEfJArSveNdhjTjbIW6glX4AP7s-pCYBiV1iG1zHdePOeZZkFcVezxMMkoWgnMlGrEj9YNlRNIXWnA9VyU2awLE3miNxoF5nFeiRlvuDqob92YEfO0bSgAzSMq401kTWHWBlTzXMizz677TVp4uwkFTLRBR-Y6xcHCdd0PN0oGY0ygU72hKXDqLYSjo5kCQ_VPwghSW73pZQQIHPkdOPyDa_nisXSshiGIXwweT9Xq9X1tM9Fz_JQPT7eWzNXWUbNUEfu-YEcaZ6yrXW3qZHQzMhjFWjYcuB_kNMTcM321o6fS_9E9GvRWWhVPCXLhf5-eR_odv6jxq7RLsUhAnje_o1FcjQtW4J1mW5uvMoF9O4237BE4iP3cnzHhYkRZgSBgze2cXfXWOceFJWNIM23fWl8aTFMMpmvIdoDV2ipwl3mDTQ_pUF1CcbMsmlQrmH4gBJ4_te08Q5CZSU0KfOfLLxcZX9fOxrQQ4mhab-Dkn5jKKUnf9LLAdHwseNDOJv8RXHBVlzTcHYIa9WzpMtYz7xQNeoDLEBkRIrTmIx7mH1i5fExGHIjshUaBDjFxCsgtFVBH4pJI7wcfqDN--pS8uDMTIx82VPJqR8JI7FqJHymwcqRbH6KqIpuSqROS5MXym2dNtnh1aGVdm1aoHFTTbpR4rIxcPfDkOn5-S3h41CpRkV_goQlHmpIVOB3laIkQ9C2djLIMShpsMRZ096JoVuRBVj2faY2ODlJYyqZKa_5LXTzick0E20Fge5ObqKngMyjyWe8kWd5Ptrlafc34heZe78Yvljdaw7AAv5G8KVdM4wueX-IINuNQDNYQrCMtcffK9FfGu8I8sRU8MKn0_BiMurSwmeXnjlRc4asW68sj19e_dmtQaDwIb3D3cLvfkddaIZMAe168jyLXMnB4E71nEdJw4MX_3LUmczhwly-9vXWwUK2yn8-Usta0D8EOHBCAa-QWhM5HXQsAbRGBM9qXdHfuy9EOWWzjtjLYYHcfnRT201bZ2q7bHPxrXRCE4yi3vQgHz083shvjtWba1SuGcSz2AOhgSOcmxDUK68aLUMEE78yfKf_Pu0YmutP1f6DxAZkmFzXBkvjIUWUHnOuuQV1Xqi92YyobL9UoA6R1OcFAsE03JyMke-KgEBtPg6RkruxQLY9IHhmhjgNsGjMDrj7GwKWqixQ_D4SqxRGshSS2N-Z5tFGZs97eUsWfdZAF5MGjLXD2J87RM5UL6UnTz45cWb2BeIdK2cGVJCKljKSvKTrni7nleOs2L1MGZbAXVD16vfiT2qzkPgHBre1EaAPIBBZ473nHTvN1Q8IqCcplwObVQ4yGDfQVCG2Ur5sDYbpBZaLwLiyG_MJmpd_ju8oHvbOCFPdRiCJ3Gf9SFnYO86zYjITEXC6LiCTUJbbIITfK1XvS82_W1lCR_bA0Y3qypKNS4v-1NqdXl6df3L5z6lhsEGVodAD6amE1vlkUQbi734G9EfGMHfqC8CMYouzM26p-LBdonj3shxJzUz5XJFpxjy8ewNy3A1GaZrWGhwKyzY5yYjpXtVg4n1aOolq3u51g6yFmql3YSN_qx05FItNx20EieGEnwiVRzkcY3Yur7H8u8Of86Avfk31UjG0KK0G2F4TQfHqxMSz0vR96X06XktioIiw-Q6Whpd8JChUCc8EbGlze1Jqyls2Ix5Pd0yPfYPAaLw8UywXikUUCGzkvcXb9CfiigzQd8BRO-P26k3jRCUkRERH20iQcjpjtxhjtkV7X-pFuPKP2HcgDwCRMGLpKCvuxEXbOSmTyyxu-NIEULGVsfgDlbS2ktR_RjSFIhesOA2rJX-pvHJpxBb92-RRjEoLEUddG2UcfKlHAGFITPDPhuFWXlmyOqVghJjilimjSG8OR5e_nd-hW6cRhcldMAkiX4FB-Sdx9lbMBdbYNkveP6DkP_XZRkNo8RyTSu5kUYsRJpWDekn8J3G5LamIvYSKov6jyJA6segtBdsTsRtabSh5jdZFtaWpKaj0bAXMHFWuZZXcQiv8eNBIkal71Z0iQbWo19mIFjm7ealB4y8wWfeLknVMU24TK5L7Fx1kHhKTtjkkxlygf3vvjFI2RCR1mwRUcR3H186WzhY9PstbxJKdCMqRvd8DJWlkWFb4pHJgjoATZIl61VSlKIr4JI1HDzWY0AiP70jO3GO4Ipf47dRbBJ1RDca4mo_wohhOxfBcqIdKI88RKiwVLzubg7u8Xmw26OoeSjafNchWJ3B-UOUJmDxpxVmRVG7VHYjUcJaYj1omtyskxKvQw7jRWEFr1jGo0M7_WnxbESO0eUpEQfExrqjXUQaWewZis4d5TiMTnEX_PyMDsJmQh89ofEF5vZHQ-ED-PPXm5eX7zjH4S2Be0gWaOFSNrVfwsECcEECZuNoV4L5x811wOjadcB3EX-Rpfz-ivr9H4IY5o8a9I5fMAqk_9oLx7Pa2zWPrVv3atONT9sbq3dQie3MSgUDcyYf11tOfMdUv1PmM4ugojBeG-UyzDtuTKWw5MCYKWdcTNcARY-bp-8UVctO1pCjWKALbPw6oN2Ovx0GxcfjEZHTwyv6jDu42QbvYJgrtmaOTse5TSBFBjWr1SCXIXqecdLmYCUj9dwqr0m1xWlrHIp6n60bntyWw690lDu8Zfj7UEHNVPFEdVpYvHHM_v97nkEzx5amZcbNphu733MD3pJFej9KOiMACGUBqt6laKq1_ee3eFebqhEAuBsPMH-xEEqwLAQL0NKmGWcnByK8RFtFKbaagovqa1E1-OwPqOYnhnmduoouy9arXpDxl8g0CvJG8mkHZP1h9dwPqXARVzVgmXk-lTl4wzMIubCp5qCiIQe2TcQ0AXlh9zbtnwQIzkbY2Z35t0ByDfw9bGExWXsnftcA28tVEhdKKRdofjjW7lumd1PQ4kSiUuoN7tiTlwlCZ-d2ICg1JKPYzpUZcsvjk5j8sNdLEKDMsoOsqkMEOag2X1GFJDuvM2mw5KWa89mGI6KK20hjKaYPfN-_KAKHFfFDIYdJuFZFBS7zVY_8RTZ8HIHpLO3NBHryiLXWM1b0OoY3JT4zwueL2z8KA2MMk8mEUV58CX0H9d-Uxx1097ibgUNRncEli3ORQSpZdDUi9jhrG5BytaJa_JhzvkhIppoDupFIsh75Gs_pERAPocVnOBtvdidBromxE0VVb7DLwdZK6HYwsvAl_IJtYaeeKxKklYTsGK-BzTK3otcvmpDRRwBVZ56G-zMrMV7BU8L2nCWNhQudneepaX2QNXscOGKae0YIOiOVsHl6LvWNy72Hb47yrpvTJkNSsTpHlLzSE88N3RWVhBkst8cYE5TcQrcWRAAEcrnqdge14NXyZofuKoDkvIo_3c6g2ngxEDyFXQ_ur87V4-_0saJnPWwwp7IdEs_tr4kLSPAxKeQtcOAgvbSDFltxNZ72HrMrOlsmYbASAafYTlyymXGjX4Q4qM6u8_oUX9VuR3w5ZTvmAR2uLgQTMigkUWmDlGnATar6cA3cYftKlSUMvC5e6o4NnmaC8gF3sHVluEfoXGhCmcJfZBMPI1Y1cUXPdj49R1cmx_lSbD9ZQleY1RBnbLiiq_ZKNrTOUnT2smYqLQJRJjNT4LkGi9oClUNh9f1a_AZvhktsJfAYmdkMXja6plz4NlRhSYq_6mI33oGHiNVTffGUouXXdmQRWbQ76lMR2JoySG_R9C-0_pnguTVX6k-MS65GFWKK57w_-i5NbTcG8-yNizxiYSYYMGlFwsk42u3l8-2QLr3SbQLFc-WaZByiQSOZOpW9U5aUmxHdHcH3biP53RrHfVJkLwGKgDlpc9UAzgBBbWC7RwTOWTENjCyUP5n1bGYJUa7rQo3TPhanA1naqzTehsf6euT_LRq37jv9dC4H4VX-PpPAFC-ePxILboJYo8PREsPqxZt9sJUoQP43m0Vw3Gpgutq-C_iqNSceWn9coe297WfH5WE4_x1nfyjCylNzVBGe5DQdfM8jiT4rijetloQvlrQRKibUiQ8-Z5tTwyxqeT02kJ4IXqLuJe9eLzYkyc3jp2wx4crAeq4w6EnD8TvrJZVaY_xEn5mYP-bjXQYjz3j4I0UUg6FXQhRgG-I4YhlNCrZgBYX3wE9qxSwzsNHhYfLgfKssuJQO02QW87UyDvIf-yvuJjKr4xLGXATwEaqx9dw2xFuD7IIK9Rf6bfB8mA0eTmydRuJtChXs831cr7PRLw4P4qVx1PWwJYJ1k4NAmDijcgI-GONNs-F_pWKxbhnrnGC9YGZ6DwnjKVE9YyRiGrKV25wuXPtuMHRbfXfiDhGuH11wCYJOm7mwNg0JIl1kHiQ7Gi5iAyaZFMvVTu-1L5nriOVHgIe8i3DznPU7DuTPXHZAd4TlQ2fY-OMDpXxsSf8zy5tGf-pXeAXs3aJioKUd530Z6epEMpOhk_gmzJ7aG4Qh1tZFJYrsiWTMzfxbepskL_TEIT-2J-mkexJ5TQrK3LxS0eGKAjBp-VUg_loLJrRmz9755QoGd1Gx_P_KmBvHtWABSUoDieITYidvEA3vdzRSeDNugvSVmXQpiwaq4RgU4HScZfz02J5jDG3P0e2eMgnwnil0bWW2C3xR6qag8M-0eQvNdLX0g2qwUNEAQ41VpwbVsWjwHx-Ru6DtJXcKNEQzN-psFeM4AQ0r434epi3zbZjo2V9rLQbxn28jJjej0AKZHvXzmXNMCYFMm3yW0yKclFmP4NDGu2_lMsn2c-U3_d5fblY0X2iIJ86pFtFjfSUDIjoceYoBVWnHLZ4NWulPCgTFgOs2ICJ1nfolYhKOK8ahzh7_v59Tk4AI4USSDr-7zJcU1mwY4UuNRhcxR9hNg3jYB9AlcdpxiVFc5fWZwMp8AX0ZJUMvBEZS9EE-YLB7yX0aACdTVk2cXCqtnBXDw1R_HlyRELzfTqcq84gdekJ2U_zuMoG61qSjNPlb5cnZA1jjJqeaMbm0Nz9towXAzx0PJpAxSWe1YEY3MVwiNNKD8pGJqO5RH7wwvrYq5B1Ed_y94epjhsUcXzMxieqlHh1_bQZ4Tsb0PtR5M25msYdpEQV5cXgTTuGd5QAM2uHW1mCt9W3kx8OKmPyMEPDY7p-Sm5q010cvzfv97ZdC9zGrMDdC3SwKs0siT9LiNrfx1YXbt6O0QHzbGud0I2NkqmZNolQDL_J6YJZkJvWDSERvnyJ_uDIx4flcea_JDlVZ5o-N4dC013BkMxNfeOQdZmYOJwT-hOjgr48kQLHhEsQ6F8nJ6FIrQhCTzMv6bCcyoP1DSGPchdCj9Qqa8-xJDNcTPSEH5B_bouMKlG0A-42HXj2x8bMRQxHgVz925scrK9yZOnhRL37_DMJxL1EACHnuusl0JNMd9nzH4uX_goe9zZ6a19_ltd3F308gb3BY4x9U27N3E3m2u_nUPQS8D1g1SFo-dLIV0pWaCCmcQAh3t6QThCqB2czuajFr59iPaUib_mB4mrQxw-AzFxHk-5MyM6NiGaX9xbr9ldfVx3hE2YBIFf3lJnq-rzkO2vWR1Ykk-C_ixXrmZ2hX7HIPnbPms8IyW_tVCWgWP3NLZTVPW3WXSO8mROJZxkcDtE4cREg-V-XJ73zaik866QkunmC1IvBzWnaWHn0OsRbmpKcuqt7G3uvib4KSk3EBR6jbb4n57za-pvEZ3AKLfJBbQiehMcgPZzu71FdvEjO54HumpaAfWw40imKyg1c_MLx-ifAy4-Tbvq8QZ1qnjX6rdUumXdcgi1ju3rd8PN33By42bMVpiEFyj4WL7T1RH5dKamJb4S3N8EA_5Nk3Y3MZR--DkbbrBWJTXGQyO5JYBLbgNXRq0E-dThcxarTGhO2bN1JcTuzMe2Z6uDBdOr4sb3RD9cgHR6HvlpKS3Vw78CjVj3Ym7NpUvRZiEeBkIMO24ElRet3iRq4_2ESvGxATQVAsOX5luMB2cBWimVpSFvgh0nsx1ESjFrHFq55mYWIxquCKvPYGLNcWVQKtxhSs84HGrP8sgGWBHQam0nnE1DUWaqsO9lBHeovGSre74oDa8sbJFey67oxvkd98hD8eUcVs3VA2X_kr0XP41BxaVqzrXemCLBTxPJDfofeKhzkBeToZ6xQvGs5lxR0T2Ux2ckA3H2hFon5_1fsCVDkJE7kGTgFKBQryo0ZVsE2uLWCYshRiyrEjT_sTFgF08qTH6sL0TBrVhXifmA3_ny6uEqiz2JiUaM8JNTXh0jb-oh_m2uFe7Kn3H8UCZx-OlvI-ZOB5MJJFd_3GHAkycsIUnEucjxTbYk9awAzxciiBz0fywP_jTggrONzkBJCbCu29hu-czznkOFHqge37hZMrP4gm1ZZZ6TScVHIL3qUYwBDehNWsS89eIhqzQC9q0n6Je1JKActUgcPDS0VVVmNgRHuCR2jDyvGQgfG0dNGp9yk43CkRAemwx8L3Hbukp4exZuGWaP3OkgCFBmMvhORNvzw-XvWGVC6s34x5jiRTqAUQqzElXdo3Y1-L8KlTRzqpOWcLSnPmIPM-ftuuSwuwyfYd18gwOlsUXN5T-OJ_a4JOFlePJxHujAjjzRJK1j-Ya-cZnypRuoRu7pGfuTLM1koRKj6nstYeOHBTL0rGEDefuPaYwkw-z7-hY37U8BOrBZxQnVSZFkHKYh09aA78XYKBJ8wzROYhWALxhtWSVG2nx5JrnRycW5GlSLXn4W_0g5kWlxQ11qo0f43IBo3P7UpXnTo8ekghMSisiC3D1rULotVKGIWFbTUVrdfmwwW-wD-GGnnsQjjUvd7PVZIGrVN4AElqc3e2jJtrTo4hxWdBgcP6Ost9UuJMWjovt5EWSGTCWg4o31cCCxdpHAk4mFbtEZvj5jIVxi3aPRBy0hnc5RI2kYG1Ww1IvUBgfn6e7TNQ4hYstO9NAA-k8ihyz6tGxMjbI5gTGi2Lin9N1FVplOJTD47UIz2KbObPLnTSTcZDok="
+    }
+   ],
+   "role": "model"
+  }
+ ],
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 120531,
+  "output_tokens": 2191,
+  "cache_read_input_tokens": 410863
+ },
+ "model": "gemini-3.5-flash",
+ "tool_calls": 31,
+ "elapsed_s": 113.3,
+ "run_id": "r-b1350c128b5b",
+ "case_id": "poc-2a69b0b828"
+}

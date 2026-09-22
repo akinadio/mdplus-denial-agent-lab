@@ -1,0 +1,770 @@
+{
+ "answer": {
+  "policy_found": false,
+  "policy_title": null,
+  "policy_number": null,
+  "policy_url": null,
+  "effective_date": null,
+  "criteria_quotes": [],
+  "appeal_deadline": "2027-02-15 (180 calendar days from the 2026-08-19 notice date, as stated on the denial letter). This 180-day internal-appeal window is consistent with what UPMC Health Plan states elsewhere for its commercial/ACA members (multiple independent sources describe a 180-day first-level appeal deadline for UPMC Health Plan commercial denials), but I could not pull the exact member-facing appeal-rights language from this specific plan document/EOC to confirm it applies identically to this member's certificate.",
+  "submission_route": "Not independently confirmed for this exact plan/product. What I found: (1) The denial letter itself should contain the specific appeal address/fax/phone for Riley's plan \u2014 that is the authoritative source and should be followed first. (2) UPMC Health Plan's general Utilization Management Department (which handles prior authorization and can be reached for prior-auth documentation questions) is: UPMC Health Plan Utilization Management Department, U.S. Steel Tower, 37th Floor, 600 Grant Street, Pittsburgh, PA 15219; phone 1-800-425-7800 (M\u2013F 8 a.m.\u20134:30 p.m.). (3) UPMC Health Plan's Commercial Provider Services line is 1-866-918-1595. (4) A separate, commonly cited UPMC Health Plan appeals mailing address is: UPMC Health Plan, Attn: Appeals and Grievances, P.O. Box 2939, Pittsburgh, PA 15230-2939, fax 412-454-7920 \u2014 but this address is documented in UPMC's Medicare/Special Needs Plan appeals materials, not confirmed as the commercial/ACA appeals address. Because a member's exact appeal channel (mail/fax/portal/phone) is plan- and product-specific, Riley should use the appeal instructions and any appeal form printed on the back of this specific denial letter, or call the Member Services number on the back of the UPMC Health Plan ID card, rather than rely on the address above.",
+  "how_to_obtain_criteria": "UPMC Health Plan's own public 'Policies & Procedures Manual' page (https://www.upmchealthplan.com/providers/medical/resources/manuals/policies-procedures) states: 'For details about the InterQual\u00ae criteria sets listed in CRM.003, please contact Member Services or Provider Services.' This indicates UPMC Health Plan does not use a self-authored, publicly posted medical-necessity policy for many surgical procedures (including, apparently, knee arthroscopy/meniscus surgery) but instead applies licensed, proprietary InterQual\u00ae clinical criteria (the InterQual 'CP: Procedures \u2014 Arthroscopy or Arthroscopically Assisted Surgery, Knee' criteria set is the one other payers cite for CPT 29881, and is a plausible match, but I did not find UPMC's own documentation naming this exact InterQual module for CPT 29881, so I cannot confirm it). Because the criteria are licensed by InterQual/Change Healthcare, they are not freely published online. To get the actual criteria applied to Riley's case, the patient or provider should: (1) Call UPMC Health Plan Member Services (number on the ID card) or Provider Services (1-866-918-1595 for commercial) and explicitly request 'the specific medical necessity/InterQual criteria used to deny CPT 29881, reference POC-39DE00339B-16726'; ACA and Pennsylvania insurance regulations require the plan to provide the specific criteria/rationale used in an adverse benefit determination upon request. (2) Request a copy of the full denial rationale and any internal clinical review notes, which is a right under the plan's internal appeal process. (3) Ask the treating surgeon's office to request a peer-to-peer review with a UPMC medical director (Clinical Operations/Utilization Management, 412-454-2765, M\u2013F 8 a.m.\u20135 p.m.), during which the reviewer should be able to state exactly which criteria/records were missing.",
+  "confidence": "low",
+  "notes": "What I verified directly: (a) UPMC Health Plan's public provider policy manual page confirms the plan uses InterQual\u00ae proprietary criteria sets for prior-authorization medical necessity determinations, and directs both members and providers to contact Member/Provider Services for details of the specific InterQual module referenced internally as 'CRM.003' \u2014 this is NOT a document I could open or quote from, because UPMC does not publish it publicly. (b) I found no UPMC Health Plan document titled something like 'Knee Arthroscopy' or 'Surgery of the Knee' with the plan's own bullet-point medical-necessity criteria (the kind of document UnitedHealthcare, Aetna, or Central Health Plan publish for CPT 29881) on upmchealthplan.com or in cached copies. The 'Surgery of the Knee' documents that surfaced in search are UnitedHealthcare and Central Health Plan policies \u2014 different payers \u2014 and are NOT applicable to a UPMC Health Plan member; I have deliberately excluded them from the answer rather than misattributing them. (c) The denial letter's stated reason \u2014 'documentation submitted was incomplete and does not allow a determination of medical necessity' \u2014 is a procedural/administrative denial (insufficient records), not a substantive finding that the criteria weren't met. The most effective and fastest path for the patient is for the treating provider to identify exactly what documentation was missing (e.g., duration/type of conservative treatment such as physical therapy or NSAIDs, imaging report/MRI findings of meniscal tear, exam findings like joint-line tenderness/locking/effusion, and failure of conservative management), since InterQual knee-arthroscopy criteria sets used industry-wide typically require: symptomatic meniscal tear confirmed on imaging or exam, mechanical symptoms (locking, catching, giving way), and a defined trial of conservative therapy (rest, NSAIDs, and/or physical therapy) without adequate improvement \u2014 but I cannot quote UPMC's own criteria language because I could not access the proprietary InterQual text or a UPMC-authored equivalent. I recommend the patient/provider explicitly request, in writing, (1) the specific medical policy or InterQual criteria set number cited in the denial, and (2) an itemized list of what documentation was deemed missing, and cite this request as part of the internal appeal referencing POC-39DE00339B-16726."
+ },
+ "raw_text": "```json\n{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": null,\n  \"effective_date\": null,\n  \"criteria_quotes\": [],\n  \"appeal_deadline\": \"2027-02-15 (180 calendar days from the 2026-08-19 notice date, as stated on the denial letter). This 180-day internal-appeal window is consistent with what UPMC Health Plan states elsewhere for its commercial/ACA members (multiple independent sources describe a 180-day first-level appeal deadline for UPMC Health Plan commercial denials), but I could not pull the exact member-facing appeal-rights language from this specific plan document/EOC to confirm it applies identically to this member's certificate.\",\n  \"submission_route\": \"Not independently confirmed for this exact plan/product. What I found: (1) The denial letter itself should contain the specific appeal address/fax/phone for Riley's plan \u2014 that is the authoritative source and should be followed first. (2) UPMC Health Plan's general Utilization Management Department (which handles prior authorization and can be reached for prior-auth documentation questions) is: UPMC Health Plan Utilization Management Department, U.S. Steel Tower, 37th Floor, 600 Grant Street, Pittsburgh, PA 15219; phone 1-800-425-7800 (M\u2013F 8 a.m.\u20134:30 p.m.). (3) UPMC Health Plan's Commercial Provider Services line is 1-866-918-1595. (4) A separate, commonly cited UPMC Health Plan appeals mailing address is: UPMC Health Plan, Attn: Appeals and Grievances, P.O. Box 2939, Pittsburgh, PA 15230-2939, fax 412-454-7920 \u2014 but this address is documented in UPMC's Medicare/Special Needs Plan appeals materials, not confirmed as the commercial/ACA appeals address. Because a member's exact appeal channel (mail/fax/portal/phone) is plan- and product-specific, Riley should use the appeal instructions and any appeal form printed on the back of this specific denial letter, or call the Member Services number on the back of the UPMC Health Plan ID card, rather than rely on the address above.\",\n  \"how_to_obtain_criteria\": \"UPMC Health Plan's own public 'Policies & Procedures Manual' page (https://www.upmchealthplan.com/providers/medical/resources/manuals/policies-procedures) states: 'For details about the InterQual\u00ae criteria sets listed in CRM.003, please contact Member Services or Provider Services.' This indicates UPMC Health Plan does not use a self-authored, publicly posted medical-necessity policy for many surgical procedures (including, apparently, knee arthroscopy/meniscus surgery) but instead applies licensed, proprietary InterQual\u00ae clinical criteria (the InterQual 'CP: Procedures \u2014 Arthroscopy or Arthroscopically Assisted Surgery, Knee' criteria set is the one other payers cite for CPT 29881, and is a plausible match, but I did not find UPMC's own documentation naming this exact InterQual module for CPT 29881, so I cannot confirm it). Because the criteria are licensed by InterQual/Change Healthcare, they are not freely published online. To get the actual criteria applied to Riley's case, the patient or provider should: (1) Call UPMC Health Plan Member Services (number on the ID card) or Provider Services (1-866-918-1595 for commercial) and explicitly request 'the specific medical necessity/InterQual criteria used to deny CPT 29881, reference POC-39DE00339B-16726'; ACA and Pennsylvania insurance regulations require the plan to provide the specific criteria/rationale used in an adverse benefit determination upon request. (2) Request a copy of the full denial rationale and any internal clinical review notes, which is a right under the plan's internal appeal process. (3) Ask the treating surgeon's office to request a peer-to-peer review with a UPMC medical director (Clinical Operations/Utilization Management, 412-454-2765, M\u2013F 8 a.m.\u20135 p.m.), during which the reviewer should be able to state exactly which criteria/records were missing.\",\n  \"confidence\": \"low\",\n  \"notes\": \"What I verified directly: (a) UPMC Health Plan's public provider policy manual page confirms the plan uses InterQual\u00ae proprietary criteria sets for prior-authorization medical necessity determinations, and directs both members and providers to contact Member/Provider Services for details of the specific InterQual module referenced internally as 'CRM.003' \u2014 this is NOT a document I could open or quote from, because UPMC does not publish it publicly. (b) I found no UPMC Health Plan document titled something like 'Knee Arthroscopy' or 'Surgery of the Knee' with the plan's own bullet-point medical-necessity criteria (the kind of document UnitedHealthcare, Aetna, or Central Health Plan publish for CPT 29881) on upmchealthplan.com or in cached copies. The 'Surgery of the Knee' documents that surfaced in search are UnitedHealthcare and Central Health Plan policies \u2014 different payers \u2014 and are NOT applicable to a UPMC Health Plan member; I have deliberately excluded them from the answer rather than misattributing them. (c) The denial letter's stated reason \u2014 'documentation submitted was incomplete and does not allow a determination of medical necessity' \u2014 is a procedural/administrative denial (insufficient records), not a substantive finding that the criteria weren't met. The most effective and fastest path for the patient is for the treating provider to identify exactly what documentation was missing (e.g., duration/type of conservative treatment such as physical therapy or NSAIDs, imaging report/MRI findings of meniscal tear, exam findings like joint-line tenderness/locking/effusion, and failure of conservative management), since InterQual knee-arthroscopy criteria sets used industry-wide typically require: symptomatic meniscal tear confirmed on imaging or exam, mechanical symptoms (locking, catching, giving way), and a defined trial of conservative therapy (rest, NSAIDs, and/or physical therapy) without adequate improvement \u2014 but I cannot quote UPMC's own criteria language because I could not access the proprietary InterQual text or a UPMC-authored equivalent. I recommend the patient/provider explicitly request, in writing, (1) the specific medical policy or InterQual criteria set number cited in the denial, and (2) an itemized list of what documentation was deemed missing, and cite this request as part of the internal appeal referencing POC-39DE00339B-16726.\"\n}\n```",
+ "usd": 0.2183,
+ "transcript": [
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "text",
+     "text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-19\nMember: Riley Jennings\nMember ID: W995720068\nPlan: UPMC Health Plan (Commercial/ACA), state of Pennsylvania\n\nDear Riley,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Knee arthroscopy / meniscus surgery\n    Procedure code (CPT): 29881\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-15).\n\nReference number: POC-39DE00339B-16726\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EtcCCpABCBEYAipAfHYc786gUdraWJa5cdkknQcd6DuJcgvsGoIjDkH/9UnQlgYl/Lj2gCE4lbSjfLsBOowH5X1HwBpiOjE3uKMltzIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAY3dt9UGEgzd1Yk91bnx6vj0N+caDGBMXoPmGqkGm7CWkyIwe1wUx3dL6alLvWdcojiyu4gYDohIx2dO2vMjlQANHhwSTCWIRcwcf11OWvpwoxMyKnTioa7Ze7UxT0snBRRj399/7er+lofZQ5eMbIaIyGg0vgEFcOJ21mw3av5DN9HcAovqkKVyrCtPJDuTHOf5XmVKLHBN2LJ34uykb7nuIsyJeY1N21Ec2MxxCcgGcXr+SN50bu5//ihLxUE6hstWLvJ+eDREcxgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01LruMS7YkGgQ4NNwZqULF9H",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "UPMC Health Plan medical policy knee arthroscopy meniscus surgery"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01VpSpnwb74oXSxfRcAEKkgy",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "UPMC Health Plan medical policy 29881 arthroscopy"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01LruMS7YkGgQ4NNwZqULF9H",
+     "content": "{\"query\": \"UPMC Health Plan medical policy knee arthroscopy meniscus surgery\", \"results\": [{\"title\": \"Surgery of the Knee (for New Mexico Only) Page 1 of 10\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/nm/surgery-knee-nm-cs.pdf\", \"snippet\": \"Arthroscopy or Arthroscopically Assisted Surgery, Knee (Pediatric)\"}, {\"title\": \"Surgery of the Knee \u2013 Commercial and Individual ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf\", \"snippet\": \"Arthroscopy, knee, surgical; osteochondral autograft(s) (e.g., mosaicplasty) (includes harvesting of\"}, {\"title\": \"Surgery of the Knee \u2013 Commercial and Individual Exchange Medical Policy\", \"url\": \"https://manuals.plus/m/03a51bd458734664a60482e43a67df0b808edef245861eeef95f18cd6e7093e9\", \"snippet\": \"<strong>Effective Date: 06.01.2025</strong> \u2013 This policy addresses surgery of the knee. Applicable Procedure Codes: 0737T, 27412, 27415, 27416, 27418, 27437, 27438, 27440, 27441, 27442, 27443, 27\u2026\"}, {\"title\": \"Expert Knee Injury Services, Diagnosis, and Tailored Treatments | UPMC\", \"url\": \"https://www.upmc.com/services/orthopaedics/services/knee\", \"snippet\": \"Surgery, including ligament reconstruction, knee joint replacement, and meniscus repair. UPMC offers a range of cutting-edge procedures to help you get back to what you love. Our complete treatment approach allows many people to fully recover without needing surgery. When an injury requires surgery, our nationally renowned surgeons are experts in all types of surgery, including robot-assisted and arthroscopic techniques.\"}, {\"title\": \"Medical Policy Arthroscopic Knee Surgery\", \"url\": \"https://centralhealthplan.com/chp/-/media/Project/CentralHealthPlan/Members/ClinicalCriteria/MED_Clin_Ops-021.pdf\", \"snippet\": \"Arthroscopic debridement for knee osteoarthritis.\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01VpSpnwb74oXSxfRcAEKkgy",
+     "content": "{\"query\": \"UPMC Health Plan medical policy 29881 arthroscopy\", \"results\": [{\"title\": \"Surgery of the Knee \u2013 Commercial and Individual ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf\", \"snippet\": \"<strong>Arthroscopy, knee, surgical; with meniscectomy (medial AND lateral, including any meniscal \u00b7 shaving) including debridement/shaving of articular cartilage (chondroplasty), same or separate</strong> \u00b7 compartment(s), when performed \u00b7 29881 \u00b7 Arthroscopy, knee, surgical; with meniscectomy (medial ...\"}, {\"title\": \"Policies & Procedures Manual | Providers | UPMC Health Plan\", \"url\": \"https://www.upmchealthplan.com/providers/medical/resources/manuals/policies-procedures\", \"snippet\": \"UPMC Health Plan\u2019s comprehensive A-Z policies and procedures manual, including clinical policies, reimbursement guidelines, forms, and more for providers.\"}, {\"title\": \"Joint Procedures \u2013 Medicare Advantage Medical Policy\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/index/mamp/joint-procedures-10012024.pdf\", \"snippet\": \"<strong>Arthroscopy, knee, surgical; with meniscectomy (medial AND lateral, including any meniscal \u00b7 shaving) including debridement/shaving of articular cartilage (chondroplasty), same or separate</strong> \u00b7 compartment(s), when performed \u00b7 29881 \u00b7 Arthroscopy, knee, surgical; with meniscectomy (medial ...\"}, {\"title\": \"Medical Policy Arthroscopic Knee Surgery\", \"url\": \"https://centralhealthplan.com/chp/-/media/Project/CentralHealthPlan/Members/ClinicalCriteria/MED_Clin_Ops-021.pdf\", \"snippet\": \"<strong>Arthroscopy, knee, surgical; with meniscectomy (medial AND lateral, including any</strong> \u00b7 meniscal shaving) including debridement/shaving of articular cartilage \u00b7 (chondroplasty), same or separate compartment(s), when performed \u00b7 29881 \u00b7 Arthroscopy, knee, surgical; with meniscectomy (medial ...\"}, {\"title\": \"What\u2019s Covered | UPMC Health Plan\", \"url\": \"https://medicaid.upmchealthplan.com/learn/whats-covered/\", \"snippet\": \"Learn more about pharmacy, dental, vision and medical coverage and benefits. Our members can count on us for prescription drug coverage. Learn About Pharmacy Coverage \u00b7 We cover exams, cleanings, and fillings for all UPMC for You members.\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EsUCCpABCBEYAipAXWYahybdooYX2JMjoXjMTmV7ocA5OC/TNJ26+eTHBF8Yq/BnUrPgL7BqWzs5D+hmvAVszbRvolP+idSmK998gjIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAZHdt9UGEgx+qgq4HNaJGdn8bZMaDNESV1O1flQ3aAAQJiIweWtPYcXz+ibit0BZaqSOfDLeKuNcxE89RBQdBRfzKyXmUigf3Ey9RAWnd18hRfPlKmJWgtqtwO67enHxMo5pgNj3IOajRw8bnCI1JsDLIpx++wRxvs7JUJiRp5UKDAPojpMCj0+zB8VL2UbcgGNfxECZ5XDpBzVjOGje56pAM0qtuvth+NGdPn/mYl/MIBKwS9A8IRgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01FuCDpSuGKEfVZqtk3nhCRc",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "UPMC Health Plan \"medical policy\" \"knee arthroscopy\" OR \"meniscectomy\" site:upmchealthplan.com"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01SSsumGHwSkaKQTz2Pvo53Z",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.upmchealthplan.com/providers/medical/resources/manuals/policies-procedures"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01FuCDpSuGKEfVZqtk3nhCRc",
+     "content": "{\"query\": \"UPMC Health Plan \\\"medical policy\\\" \\\"knee arthroscopy\\\" OR \\\"meniscectomy\\\" site:upmchealthplan.com\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01SSsumGHwSkaKQTz2Pvo53Z",
+     "content": "{\"url\": \"https://www.upmchealthplan.com/providers/medical/resources/manuals/policies-procedures\", \"final_url\": \"https://www.upmchealthplan.com/providers/medical/resources/manuals/policies-procedures\", \"http_status\": 200, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Policies & Procedures Manual | UPMC Health Plan Skip to main content Find Care - Opens in new tab Sign in/Register I am Select... Member Provider Employer Producer Username Sign In Forgot Username or Password Register For Providers About Contact Providers Medical Medical Announcements & Updates Medical Provider Portal Medical Provider Resources Join Us Contact Us Announcements & Updates Announcements Provider Partner Update Archive Medical Provider Resources Manuals Manuals Policies & Procedures Manual Provider Manual Forms Forms Medical Prior Authorization Notice of Medicare Non-Coverage (NOMNC) Form Other Information Other Information Pharmacy Resources Patient Health Quality Partners Prescription for Wellness Health Related Social Needs Telehealth Guidelines Dental Dental Dental Provider Announcements Resources for Dental Providers Join Us Contact Us Dental Provider Resources Manuals Manuals Dental Advantage Newsletter Archive Policies & Procedures Manual UPMC Health Plan and SKYGEN Dental Provider Quick Reference Guide (PDF) UPMC Health Plan/SKYGEN Provider Manual (PDF) Vision Vision Log in HCBS HCBS Announcements HCBS Provider Portal Join Us Resources Policies & Procedures Manual Quality Health Insurance Providers Medical Resources Manuals Policies & Procedures Manual Search for Policy Search title only Search document text Search *Medical policies require prior authorization from our Medical Management Department. Submit prior authorizations via Provider OnLine . If you are a provider and have any questions, contact Medical Management at 1-800-425-7800. You can view upcoming changes to medical policies at upmchp.us/ProviderRLDocs . You can view upcoming negative changes to pharmacy policies at upmchp.us/PHChanges . For details about the InterQual\u00ae criteria sets listed in CRM.003, please contact Member Services or Provider Services. UPMC for Life and UPMC for Life Complete care current and prospective members can click on the link below to access criteria used to make medical necessity determinations. Please create a new account if you currently do not have one under \\\"Create One Healthcare ID.\\\" UPMC Health Plan Self-Registration Transparency for UPMC for Life Medicare Advantage credentialed providers Additional information on UPMC for Life Part D and Part B Prescription Drug Coverage, including formularies, prior authorization, and step therapy requirements, please visit our Medicare Plans with Prescription Drug Coverage page . Peer-to-peer discussions: Providers may request a peer-to-peer discussion with a UPMC medical director by telephone regarding adverse benefit determinations based on medical necessity. Providers should contact Clinical Operations/Utilization Management at 412-454-2765, Monday through Friday from 8 a.m. to 5 p.m. \u2666 Disclaimer: Policies and procedures designated with a \u2666 are pending approval by the Department of Human Services (DHS) and are not currently approved for use for the Medical Assistance product. Please refer to the UPMC Health Plan website frequently for updates on approval. Reimbursement Policies Services Not Separately Reimbursed - RMB.002 (effective 10.1.2025) NICU Paid as Newborn - RMB.003 (effective 1.1.2026) Services Not Separately Reimbursed (Institutional Claims) INDEX - RMB.004 (effective 4.5.2026) Acute Stroke: ICD-10 to Place of Service Code Edits - RMB.005 (effective 11.1.2026) Loading... Individuals & Families Medicare Employers Find Care Find a Medication Providers Member Benefits About Us Contact Producers My Health Matters Careers Nondiscrimination Notice - Opens in new tab Privacy Statement & HIPAA Forms Translation Services Transparency in Coverage Terms & Conditions ONC 21st Century Cures Act Developer API ONC 21st Century Cures Act Member Resource Center No Surprises Act Font Attribution Translation Services Available: Espa\u00f1ol \u7e41\u9ad4\u4e2d\u6587 Ti\u1ebfng Vi\u1ec7t \u0420\u0443\u0441\u0441\u043a\u0438\u0439 Deitsch \ud55c\uad6d\uc5b4 Italiano \u0627\u0644\u0639\u0631\u0628\u064a\u0629 Fran\u00e7ais Deutsch \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 Polski Krey\u00f2l Ayisyen \u00c1s\u1ee5\u0300s\u1ee5\u0301 \u00ccgb\u00f2 Portugu\u00eas Connect with Us Facebook - Opens in new tab YouTube - Opens in new tab Instagram - Opens in new tab Download our Mobile App Copyright 2026. UPMC Health Plan, Inc. Active Privacy & Breach Alerts\", \"text_truncated\": false}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EuYFCpABCBEYAipAWN1M8P9nWoYa5/TPwt82a2OnVcqxGbVwzZgQrAWJwM8Aw1M1/PGcOE0ZgaKMcjuOmtjN/ABM3OX1oC3j+g08+TIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAZbdt9UGEgxoZoOygT0xpVlxa9AaDH7BwLlw5NDJHNHkESIwaZJGg6wTILgOb4jLlymANVw8DvrVW3PyY90jxSwT+F/N+D/uHwmcWEEwb0quu97TKoIEjEtkWna/qMYrcuAyG7UQeiUvQM89i1h0/1TM2VkROtRSsPoEDjMKB1UkNPUvS/sGzordpac0Ij4dQBDhmiyj8vbkZShFDvck0OrfoyvjOAXLA2Avdtk4EmpEAB7eVCdqeaWl0Ihyv0ZyXWvDl8PqTFtQm26zuhis/TIDwP2WAPhJIrpyIMKsppSR/LRJW64OWlDtyupfwOjdXQ/lnkphGJw4LojH108sn8/94JnHFLCp9Rey3Cdy2dW4hFbHAmHe/adogZs1TpRZF7/nqDy/FMrrAlinmq29j0nvDlE5KI5excI963DedaMumVJWgaibq4U+TcikYmU1g9nf+Q1TuCfeb+m2jgdI3W5y38Jo2lqfxGiLtOdBsITNBGU86fIBUQLXzze0EqiEmBR8V+goeSQEPvNAOEosKTwSjdGYW8AcfM5cApXvxS//tlRFJH8q2/fK3kSEQaPRBH7qLtO4Tv3J5iuPi2LdD0zv6UVyXGDJu2yORDni+Uts6zAdPyFFP80XWKuRU1c+F+JNi3n5qudopCjJB7oSP/Qq1Fv8AadPfnmCrpo/yxCNEmlFdu/HCNbzvhwwuxxScuBT5vAzxLACUZfcm7vFcfYJfPPJlJojaE/4VsJCEBJjU3kWQSvxozQr9/xe5zRIeycPJa8mILizUEoc0o5iyRRNRdmW+cFNTxgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_013W3zCMfu3hMCfgq1Qz6j81",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "upmchealthplan.com policy \"arthroscopy\" knee SRG"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01VoKp9fjqdLVVH5RNzpmuy2",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"UPMC Health Plan\" \"Knee Arthroscopy\" policy number medical necessity PDF"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_013W3zCMfu3hMCfgq1Qz6j81",
+     "content": "{\"query\": \"upmchealthplan.com policy \\\"arthroscopy\\\" knee SRG\", \"results\": [{\"title\": \"Surgery of the Knee \u2013 Commercial and Individual ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf\", \"snippet\": \"reimbursement or guarantee claim payment. Other policies and guidelines may apply. ... Arthroscopy, knee, surgical; osteochondral autograft(s) (e.g., mosaicplasty) (includes harvesting of\"}, {\"title\": \"Medical Policy Arthroscopic Knee Surgery\", \"url\": \"https://centralhealthplan.com/chp/-/media/Project/CentralHealthPlan/Members/ClinicalCriteria/MED_Clin_Ops-021.pdf\", \"snippet\": \"Arthroscopic debridement for knee osteoarthritis.\"}, {\"title\": \"Surgery of the Knee \u2013 Commercial and Individual Exchange Medical Policy\", \"url\": \"https://manuals.plus/m/03a51bd458734664a60482e43a67df0b808edef245861eeef95f18cd6e7093e9\", \"snippet\": \"Effective Date: 06.01.2025 \u2013 This policy addresses surgery of the knee. Applicable Procedure Codes: 0737T, 27412, 27415, 27416, 27418, 27437, 27438, 27440, 27441, 27442, 27443, 27445, 27446, 27447, 27486, 27487, 27568, 27569, 27664, 27665, 29866, 29867, 29868, 29870, 29871, 29873, 29874, 29875, 29876, 29877, 29879, 29880, 29881, 29882, 29883, 29884, 29885, 29886, 29887, 29888, 29889, G0428, J7330, S2112. Jun 1, 2025 \u00b7 29884. Arthroscopy, knee, surgical; with lysis of adhesions, with or without manipulation (separate procedure).\"}, {\"title\": \"Surgery of the Knee (for New Mexico Only) Page 1 of 10\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/nm/surgery-knee-nm-cs.pdf\", \"snippet\": \"This Medical Policy only applies to the state of New Mexico. ... Surgery of the knee is proven and medically necessary in certain circumstances. For medical necessity clinical \u00b7 coverage criteria, refer to the InterQual\u00ae CP: Procedures: Arthroscopy or Arthroscopically Assisted Surgery, Knee\"}, {\"title\": \"Surgery of the Shoulder \u2013 Commercial and Individual ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-shoulder.pdf\", \"snippet\": \"Knee Surg Sports Traumatol \u00b7 Arthrosc. 2024 Jun 23. Verma N, Srikumaran U, Roden CM, et al; on behalf of the SPACE GROUP. InSpace implant compared with partial repair \u00b7 for the treatment of full-thickness massive rotator cuff tears: a multicenter, single-blinded, randomized controlled trial. J \u00b7 Bone Joint Surg Am. 2022 Jul 20;104(14):1250-1262. ... This Medical Policy provides assistance in interpreting UnitedHealthcare standard benefit plans.\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01VoKp9fjqdLVVH5RNzpmuy2",
+     "content": "{\"query\": \"\\\"UPMC Health Plan\\\" \\\"Knee Arthroscopy\\\" policy number medical necessity PDF\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "Ev4FCpABCBEYAipAGl5tA5M7aEc5j78saMCMuqVRTqhon/bfK3V8GpeAQf6lMOTtAsxeKVToWkCP8clynS2fy0Seg3P5GzCWTcMW9TIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAZzdt9UGEgxYsjH4Qjxt40P3vbQaDM9gkCOsV/b688GWHyIw1v470tpiqtQ2FdhtdNgA5O7PeM0a7jHkJQ0IIlIiaLYTudFJSGvk7u8ZJW0zXaAeKpoEGPBlGLrvloyEga2BAeOwhFCaNs/fC2asKaJiZ3mKh+MJBlDfC/wdUZQLjAikj68vp3JWs6ayp5GoP9YMuTwKQdhMrO8ioHTsvyhPw86m5Xpk2PG7E2C+b6kB0KjQbheTv/q7W0Y0A+rZjvypqhn1WrpsEAZaxv8s4q86Y+dTErybL2GVdjNuJ1tby5n6T+jBiNZKT2ZZ99oYoQ5gCjI0J63yxLxtaRNOmflPDZIW3SW9HQSer54uGTjIO6j8IkBRnE2azHnU9VhmyBeHey0SEeKULESJQmFWNTenktugWl3mXTT/IXbkkTrHYQCFlNMMu3yiywZpX4lOaJFu/cZ+MQUeb7KNf/1w5hqWEVEi5Z5cY2r2r5LTsYHRyC/CKPKHKAvMwt1deI80WNbgwVpEYliDQ0cu+M9W3/JOERw/oC/cfDcOvxh4DWmcMkQellpt4zSu9m9ry1vXnmggcSIr0MX3/SK1oJzmRKVyZrUDgK+csCTj4u3XgelhzjoqozEgHtGw2RHYqMXq2XdY5rvRTQ9pbRdO/JKtQTGMBurNrscSkfy8zBe9gWOI2M+8dDPpBa6y1icHWv7byw7qw6aq25rrKdsT9oPZQhKjClhy39XuEHFQ2WzhNVwdyfyv3SUaVnqz/2UrM71bsP/9477HrwNNsp2ic+btMhMb3+nPoXjo+mlylFNlMLuw7GPq3STOHmMmevcKBvFhCxgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01RPJRz6betcekjwzSMFS52u",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.upmchealthplan.com/providers/medical/resources/manuals/policies-procedures?search=knee"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01SfPwakg38XK5gVkw5nBhtg",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "UPMC Health Plan CRM.003 InterQual criteria medical necessity"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01RPJRz6betcekjwzSMFS52u",
+     "content": "{\"url\": \"https://www.upmchealthplan.com/providers/medical/resources/manuals/policies-procedures?search=knee\", \"final_url\": \"https://www.upmchealthplan.com/providers/medical/resources/manuals/policies-procedures?search=knee\", \"http_status\": 200, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Policies & Procedures Manual | UPMC Health Plan Skip to main content Find Care - Opens in new tab Sign in/Register I am Select... Member Provider Employer Producer Username Sign In Forgot Username or Password Register For Providers About Contact Providers Medical Medical Announcements & Updates Medical Provider Portal Medical Provider Resources Join Us Contact Us Announcements & Updates Announcements Provider Partner Update Archive Medical Provider Resources Manuals Manuals Policies & Procedures Manual Provider Manual Forms Forms Medical Prior Authorization Notice of Medicare Non-Coverage (NOMNC) Form Other Information Other Information Pharmacy Resources Patient Health Quality Partners Prescription for Wellness Health Related Social Needs Telehealth Guidelines Dental Dental Dental Provider Announcements Resources for Dental Providers Join Us Contact Us Dental Provider Resources Manuals Manuals Dental Advantage Newsletter Archive Policies & Procedures Manual UPMC Health Plan and SKYGEN Dental Provider Quick Reference Guide (PDF) UPMC Health Plan/SKYGEN Provider Manual (PDF) Vision Vision Log in HCBS HCBS Announcements HCBS Provider Portal Join Us Resources Policies & Procedures Manual Quality Health Insurance Providers Medical Resources Manuals Policies & Procedures Manual Search for Policy Search title only Search document text Search *Medical policies require prior authorization from our Medical Management Department. Submit prior authorizations via Provider OnLine . If you are a provider and have any questions, contact Medical Management at 1-800-425-7800. You can view upcoming changes to medical policies at upmchp.us/ProviderRLDocs . You can view upcoming negative changes to pharmacy policies at upmchp.us/PHChanges . For details about the InterQual\u00ae criteria sets listed in CRM.003, please contact Member Services or Provider Services. UPMC for Life and UPMC for Life Complete care current and prospective members can click on the link below to access criteria used to make medical necessity determinations. Please create a new account if you currently do not have one under \\\"Create One Healthcare ID.\\\" UPMC Health Plan Self-Registration Transparency for UPMC for Life Medicare Advantage credentialed providers Additional information on UPMC for Life Part D and Part B Prescription Drug Coverage, including formularies, prior authorization, and step therapy requirements, please visit our Medicare Plans with Prescription Drug Coverage page . Peer-to-peer discussions: Providers may request a peer-to-peer discussion with a UPMC medical director by telephone regarding adverse benefit determinations based on medical necessity. Providers should contact Clinical Operations/Utilization Management at 412-454-2765, Monday through Friday from 8 a.m. to 5 p.m. \u2666 Disclaimer: Policies and procedures designated with a \u2666 are pending approval by the Department of Human Services (DHS) and are not currently approved for use for the Medical Assistance product. Please refer to the UPMC Health Plan website frequently for updates on approval. Reimbursement Policies Services Not Separately Reimbursed - RMB.002 (effective 10.1.2025) NICU Paid as Newborn - RMB.003 (effective 1.1.2026) Services Not Separately Reimbursed (Institutional Claims) INDEX - RMB.004 (effective 4.5.2026) Acute Stroke: ICD-10 to Place of Service Code Edits - RMB.005 (effective 11.1.2026) Loading... Individuals & Families Medicare Employers Find Care Find a Medication Providers Member Benefits About Us Contact Producers My Health Matters Careers Nondiscrimination Notice - Opens in new tab Privacy Statement & HIPAA Forms Translation Services Transparency in Coverage Terms & Conditions ONC 21st Century Cures Act Developer API ONC 21st Century Cures Act Member Resource Center No Surprises Act Font Attribution Translation Services Available: Espa\u00f1ol \u7e41\u9ad4\u4e2d\u6587 Ti\u1ebfng Vi\u1ec7t \u0420\u0443\u0441\u0441\u043a\u0438\u0439 Deitsch \ud55c\uad6d\uc5b4 Italiano \u0627\u0644\u0639\u0631\u0628\u064a\u0629 Fran\u00e7ais Deutsch \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 Polski Krey\u00f2l Ayisyen \u00c1s\u1ee5\u0300s\u1ee5\u0301 \u00ccgb\u00f2 Portugu\u00eas Connect with Us Facebook - Opens in new tab YouTube - Opens in new tab Instagram - Opens in new tab Download our Mobile App Copyright 2026. UPMC Health Plan, Inc. Active Privacy & Breach Alerts\", \"text_truncated\": false}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01SfPwakg38XK5gVkw5nBhtg",
+     "content": "{\"query\": \"UPMC Health Plan CRM.003 InterQual criteria medical necessity\", \"results\": [{\"title\": \"Policies & Procedures Manual | Providers | UPMC Health Plan\", \"url\": \"https://www.upmchealthplan.com/providers/medical/resources/manuals/policies-procedures\", \"snippet\": \"For details about the InterQual\u00ae criteria sets listed in CRM.003, please contact Member Services or Provider Services. UPMC for Life and UPMC for Life Complete care current and prospective members can click on the link below to access criteria used to make medical necessity determinations.\"}, {\"title\": \"UPMC Health Plan uses Interqual\u00ae criteria sets for prior authorizations | UPMC Health Plan\", \"url\": \"https://www.upmchealthplan.com/providers/medical/announcements-updates/announcements/2024-announcements/05-03-interqual-criteria-sets-for-prior-authorizations\", \"snippet\": \"Prescription for Wellness is a nationally recognized, Six Sigma-developed best practice system that provides a convenient and effective way for providers to prescribe resources and support offered by UPMC Health Plan to their patients who are UPMC Health Plan members.\"}, {\"title\": \"UPMC for Life coverage criteria | UPMC for Life\", \"url\": \"https://www.upmchealthplan.com/medicare/members/coverage-criteria\", \"snippet\": \"UPMC for Life uses clinical criteria to make coverage decisions. You can click the link below to access the InterQual criteria used to make medical necessity coverage determinations. You must create an account if you currently do not have one.\"}, {\"title\": \"UPMC Health Plan Behavioral Health Services \u2013 Chapter L\", \"url\": \"https://www.upmchealthplan.com/docs/providers/2023_ProviderManual_L.pdf\", \"snippet\": \"UPMC \u00b7 Health Plan BHS uses medical necessity criteria in determining whether to issue a prior authorization \u00b7 for certain types of behavioral health service outlined below. If the Member\u2019s clinical condition \u00b7 necessitates a level of care that is covered in the Member\u2019s benefit plan, but that level of care is not \u00b7 available, the next highest covered benefit level of care will be authorized. To obtain a copy of the Interqual Behavioral Health and Substance Use Disorders Medical Necessity\"}, {\"title\": \"Coverage Criteria | UPMC Health Plan\", \"url\": \"https://www.upmchealthplan.com/en/snp/members/coverage-criteria\", \"snippet\": \"UPMC for Life uses clinical criteria to make coverage decisions. You can click the link below to access the InterQual criteria used to make medical necessity coverage determinations. You must create an account if you currently do not have one.\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EoIHCpABCBEYAipAqDmRKmb5J6pi6XU9zw/7PgxsTNOz+PiUHlu87pl4kr8uxZC8+rJIjvmV44sNYmXFduP99LjaNV+Q/6UjpnZ0dDIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAaHdt9UGEgxZZtI8yX/ARyXXLwwaDPESQYHIJMmMJnzS6CIwVpZmf2BsstLQn4taRC7gHZgGFXAZPT82txhSkI6mT19vnbssBieR5qHtmpHHEHgTKp4FiuCpD7/PYDoDULQ5H9oUOP+7u/vhI4UiAl7hSUW/GGjBOChBUgyXybgpaADj40RxoGZjEuJ3mtG3zdEH0t9CEriQxPmX369in7rkfPGfBwjjB0WlBy8fiu53mO7Pi/b+aP0do++2Y/WE4Ih+d8rWP9HAKujxXN9XJATgsqt7MZYWnMzmvaNmy7Dn7QVUo9MOafAT69XP1sOZaCIMdLxgLmQoRoQLzchRW4fIEe9zyeETYas003bPTTl+DgNraG2bc0/VLTo/K4Sas0OYY/eMo1se8fuWd+Y5mgMhQUKrO3M5521Rd3HYGva4KMJPOs6VgO33myT0CYKK9K3oPyCgLjwp+52Jko8NJaoJvuPDmTXqfWfE1FFWhshF5fTNJQazBbgnDB98pzpEAJNwvjcsWIWDwkrvrPZChC0cWcFV3fh/16vBLmcqJIGxnKN+DYylMejnsqwTD31WOAr/73bFJkYAPlTIfsyoTinN+fDFz7dLdKm6GnM7BXCFVnS/uV+SC9nZXeMXkMlC1hSSv2JLSVktXMbvb+xzhqoXHup76WVSq4lyCLpJLPZIvlt7jKljab2lED1GtkGHidnjMmfZ3RReTYqGGRG6Wz/fnjIKoRFr8ulrDMUh3E32L4d/3sVy/T3VtJGt28knxvcKmP4hMmK/hmHjgz/b+YxF73tq8dHloelam+Hnw1VgSxwcyACxaufvce6CRSwkAvjQV2WB+BL3HnPkvx8MoqXHuqkmh89Ku0em+taMGb9C64xWZ3u9O7shlnOWytg63N4HWkaj9sCy10rQLY8Kh+lmAfuQkmio8j+xIdLvXlFtP0MjfBHpaie5ckfen6rDWCiqNmjY8rpPRPvLLkw6xkiCAm1qEdPAyW03fE24MjeHiI0bUBgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_0164oSDcUraM6M5meF3i2u2F",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.upmchealthplan.com/providers/medical/announcements-updates/announcements/2024-announcements/05-03-interqual-criteria-sets-for-prior-authorizations"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01QiYzVQfe3Hv7a5zRmbSiMM",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "UPMC Health Plan \"CRM.003\" medical policy prior authorization criteria"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_0164oSDcUraM6M5meF3i2u2F",
+     "content": "{\"url\": \"https://www.upmchealthplan.com/providers/medical/announcements-updates/announcements/2024-announcements/05-03-interqual-criteria-sets-for-prior-authorizations\", \"final_url\": \"https://www.upmchealthplan.com/providers/medical/announcements-updates/announcements/2024-announcements/05-03-interqual-criteria-sets-for-prior-authorizations\", \"http_status\": 404, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Page Not Found We're Sorry The page you requested cannot be found. The URL may be misspelled or the page you're looking for is no longer available. Visit the UPMC Health Plan Homepage Individuals & Families Medicare Employers Find Care Find a Medication Providers Member Benefits About Us Contact Producers My Health Matters Careers Nondiscrimination Notice Privacy Statement & HIPAA Forms Translation Services Transparency in Coverage Terms & Conditions ONC 21st Century Cures Act Developer API ONC 21st Century Cures Act Member Resource Center No Surprises Act Font Attribution Translation Services Available: Espa\u00f1ol \u7e41\u9ad4\u4e2d\u6587 Ti\u1ebfng Vi\u1ec7t \u0420\u0443\u0441\u0441\u043a\u0438\u0439 Deitsch \ud55c\uad6d\uc5b4 Italiano \u0627\u0644\u0639\u0631\u0628\u064a\u0629 Fran\u00e7ais Deutsch \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 Polski Krey\u00f2l Ayisyen \u00c1s\u1ee5\u0300s\u1ee5\u0301 \u00ccgb\u00f2 Portugu\u00eas Connect with Us Facebook YouTube Instagram Download our Mobile App Copyright 2026. UPMC Health Plan, Inc. Active Privacy & Breach Alerts\", \"text_truncated\": false}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01QiYzVQfe3Hv7a5zRmbSiMM",
+     "content": "{\"query\": \"UPMC Health Plan \\\"CRM.003\\\" medical policy prior authorization criteria\", \"results\": [{\"title\": \"Policies & Procedures Manual | Providers | UPMC Health Plan\", \"url\": \"https://www.upmchealthplan.com/providers/medical/resources/manuals/policies-procedures\", \"snippet\": \"Submit prior authorizations via Provider OnLine. If you are a provider and have any questions, contact Medical Management at 1-800-425-7800. You can view upcoming changes to medical policies at upmchp.us/ProviderRLDocs. You can view upcoming negative changes to pharmacy policies at upmchp.us/PHChanges. For details about the InterQual\u00ae criteria sets listed in CRM.003, please contact Member Services or Provider Services.\"}], \"result_count\": 1, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EtQDCpABCBEYAipARvYUGPHLNuVpkKtIGKCr0akikuFKGAuVNXhF2LcGgUvM6w4pqqIVjKlmmOmRkZgC52IfKa8WWHCWlhD3ylzQbTIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAafdt9UGEgzzZDukPrZ60ddo70YaDFU3RmraMg2xUV/LiiIw+DYbsDVmeBLdMDjHfvr4tn9GRRwQG2BOXd3dMCUrmRhfw1n94SAnbgCSoLx4xKUCKvABQcLCQd68wKZlGFm5hOGXlUGzJz7LCOnwilFtsmWi4tttVSgy0+0bpIgoiRcHBwXkPH6Zl84FbArzGwyuFYjH1Qip59v9UUW0Z7ounPxbeDxUvGd1X9hSJe2UpOQt28N+wwjnQX3D3VmBHRQzqutMxmoSbjgorSikJnK+HqPru9+sNq3CISseYT2nHYZZOpUDcESzTMrc9t6ZCk3Ft7eywORpXCR4lfWF7yCF1fFqJuXzWQovcOY6itI7nGQy1i7ojBGb2oK5CGcf8REuG1WYJjvpTvvDFD7bhH9Rsi9e38a61v3yPPJD+rtj8uhi3LmgGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01FqVw6hM9ADbuqEb7hNPmVq",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"CRM.003\" UPMC Health Plan pdf"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01BCromfvTfSggo4TfaKXdX8",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "UPMC Health Plan medical policy manual index CRM orthopedic surgery arthroscopy"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01FqVw6hM9ADbuqEb7hNPmVq",
+     "content": "{\"query\": \"\\\"CRM.003\\\" UPMC Health Plan pdf\", \"results\": [{\"title\": \"Policies & Procedures Manual | Providers | UPMC Health Plan\", \"url\": \"https://www.upmchealthplan.com/providers/medical/resources/manuals/policies-procedures\", \"snippet\": \"You can view upcoming negative changes to pharmacy policies at upmchp.us/PHChanges. For details about the InterQual\u00ae criteria sets listed in CRM.003, please contact Member Services or Provider Services.\"}], \"result_count\": 1, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01BCromfvTfSggo4TfaKXdX8",
+     "content": "{\"query\": \"UPMC Health Plan medical policy manual index CRM orthopedic surgery arthroscopy\", \"results\": [{\"title\": \"Policies & Procedures Manual | Providers | UPMC Health Plan\", \"url\": \"https://www.upmchealthplan.com/providers/medical/resources/manuals/policies-procedures\", \"snippet\": \"This manual provides an A-to-Z listing of all policy documents for providers. Access it here.\"}, {\"title\": \"UPMC Health Plan\", \"url\": \"https://medstarprovidernetwork.org/sites/default/files/attachments/Cosmetic%20and%20Reconst%20Services%20PAY.079.MH_.pdf\", \"snippet\": \"Proprietary and Confidential Information of UPMC Health Plan ... MedStar Health, Inc. ... It is the policy of MedStar Health, Inc. to cover medical and surgical procedures \u00b7 when they are medically necessary (refer to CRM .015.MH-Medical Necessity\"}, {\"title\": \"Manuals for Health Care Providers | Providers | UPMC Health Plan\", \"url\": \"https://www.upmchealthplan.com/providers/medical/resources/manuals\", \"snippet\": \"Easily find and download UPMC Health Plan&#x27;s provider manuals, including the Provider Manual and Policies &amp; Procedures Manual, all in one place.\"}, {\"title\": \"Provider Manual | UPMC Health Plan\", \"url\": \"https://www.upmchealthplan.com/providers/medical/resources/manuals/provider-manual\", \"snippet\": \"This manual for physicians, hospitals, and health care practitioners provides guidance on UPMC Health Plan operational and medical management practices\"}, {\"title\": \"Minimally Invasive Arthroscopy for Joint and Soft Tissue Repair\", \"url\": \"https://www.upmc.com/services/orthopaedics/services/procedures/arthroscopy\", \"snippet\": \"<strong>You may be a candidate for arthroscopy if you have a joint problem that has not responded to other treatments and are a candidate for minimally invasive surgery</strong>.\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EooLCpABCBEYAipAMGHSuJRgJyCJXZzyuJ+YtZ4BQSm28XJTtVp97mKeoYJ2xk4T3uEPC4+wbaVnkhnrZkgBwTyexnE+FzXacrsTPjIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAa/dt9UGEgwIWe7+6r5crFLs6uQaDOY+OOS35yJD2yRxyiIw1gcXYpDQIeeMSJ/1ApIqKYHyj46VMYSrQJ2ULTmTNfVs0KWI1NymyfKpTz/YY38hKqYJwHE6B4SkEQEbYWVAA0Fv5pHlnaDTj6eN2sxWsvkeMJGdnczk7n/mHvVH3SqKQgW+a+HG3T88lkSysIO4GHbDVK1UmySfksbfqFgAPq24s+5HZnnXIhUTc/VBfej8PED+x1gq2+tc1EtquKjFfjjt6Qi0ujCjFlLWK5cNGp7XycWwXl5/ljHaXCHUuGozKhtdkZg9UBdSnIA8+3hpHx/woQbaZsVdD5Z9OE1lJYhWAGynyOmN2w9Fo7kpidrfQ4M5m4GwCX+Ozkf0WGO0bccTJL8ZnwIITsdulDeIh/VKpVoMULYlwn7XQ84MRsDs4nbiZrBRSg/sLvG/ZVTTPW/G4yWtuQRoMZnxNdF5Jd7JUiJTb2bOq/Ze1RYi4BW4gfVYDNlR4ivmpOGyd9cwruq0B33SfvvnTXvLDhyU+YHFKnVgta1YAUdZ1mcnm1pL9WGPjFhL7cZPXEIOI2t1k9zappp61D6D7BVb/BM8D75lHHNPQ1DSrvl7+d/AMePoh7H5XagCGLeI1pIHHqtzfKUKDDF8lUCUxBTg6qOCb/FKP67ZZkcGIaAXm46lGPl290/pDjfbcno3ExpYVK6wkCtsOFWSJRHqe87udpkd5lOTTWb0k0dZilcPcQ6mezyuTlchUPyYCP7M05C5MPFHD1NQni+JScbh9xg/D7SvNUwXi2/e7D9FiYZwUqrveCS71Q7gTdjw40ow3dcpRYMqr8EkpDdxLotbYAux9DxufL4gsgfAlcmfO4dgNZx3j51y602rFGbBu/IE/0H05mbzctjTusA1mENAk1n9OLyg06sxXdQ9WG6agLN0lLCInOrqQvK4k+ks0EsBF0VBhg2vGP+VWCYKzRTLWkTg/qW50Jhzl7nVOWhdN/Xjc1nL5l7HpLmP9b17yIOUuVGW5n+/2uwSL9DM09pWin5ZfKexQorNMi8EgQK0I4u2XriUdskBnxhihBlViTeqOXTpIwq2/o40+NfCofaavS9RGzHzAEJMDUZAbveXau8rASWSAN9SaMsmxITuGdezwdG60fNkH4YzNPZU0p//8MmN+xsVpMkdjTkIaVfFGvJiip5SOVf49exGvBJFU4gLSc5ryV/kzJsKV+y9JW1Ej5jTNbtqXT0TWQp93y+nEBEi6oAVp5Q79cWccRjWSkXZvpZOWxN66j11JeRTi7N4jrPrAvFq9rwYEgHNRkKaS1B4HdqrySM82CHbUt5g/e+sqHB5YoFjBGK/+utm6Gx69TJBkFaMBgSKKv16N3RNokr7Jx2rpvouecNZT53Qppocdi9hV3s+eiuMuVy49RLXQAwrjuqdFpeXryeIlNpdHd4EHNJ/kuwPLpIyUfHLy1MqCHBlVlbgVkDuaDl0KZ/7TGrFUHijskkh3fJ8+emKCTny285/hNHof7U7PDtK4aSyziM3XMHvu5Ohr7QhpbhNu1DN7KS3nGZHlV0p8WbDiBzw2T42b5IDKeCqVVUWqLmeJUCfxCoqhY1GO4LcHzn6e32kxMNNdCZyhWja7L44g47Rei2UVjsyVRvNC+xF68rd4/5NYmf34vcPFqyRG2VKfQ7/3bw1qU1BefQdo/Y56CkYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01EkiArL9nvjTW3gWso1rqrK",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "upmchealthplan.com policies-procedures api json"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01W5WbkmsmwLF25U5XegRfBu",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"upmchealthplan.com\" \"SRG.\" policy pdf"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01EkiArL9nvjTW3gWso1rqrK",
+     "content": "{\"query\": \"upmchealthplan.com policies-procedures api json\", \"results\": [{\"title\": \"Policies & Procedures Manual | Providers | UPMC Health Plan\", \"url\": \"https://www.upmchealthplan.com/providers/medical/resources/manuals/policies-procedures\", \"snippet\": \"UPMC Health Plan\u2019s comprehensive A-Z policies and procedures manual, including clinical policies, reimbursement guidelines, forms, and more for providers.\"}, {\"title\": \"API Documentation | UPMC Health Plan\", \"url\": \"https://www.upmchealthplan.com/en/interop/api-documentation\", \"snippet\": \"Skip to main content \u00b7 Individuals &amp; Families \u00b7 Medicare \u00b7 Employers \u00b7 Find Care \u00b7 Find a Medication \u00b7 Providers \u00b7 Member Benefits \u00b7 About Us \u00b7 Contact\"}, {\"title\": \"Register for API Access | UPMC Health Plan\", \"url\": \"https://www.upmchealthplan.com/interop/api-access/\", \"snippet\": \"Request access to UPMC Health Plan\u2019s developer API\"}, {\"title\": \"Register for API Access | Developer | UPMC Health Plan\", \"url\": \"https://www.upmchealthplan.com/onlineforms/interop/support/\", \"snippet\": \"Submit your questions about UPMC Health Plan\u2019s developer API; also see our API Documentation information.\"}, {\"title\": \"Policies & Procedures Manual | Vision Providers | UPMC Health Plan\", \"url\": \"https://www.upmchealthplan.com/providers/vision/resources/manuals/policies-and-procedures.aspx\", \"snippet\": \"Easily find and download forms, documents, and information from our Policies and Procedures Manual for Vision Providers.\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01W5WbkmsmwLF25U5XegRfBu",
+     "content": "{\"query\": \"\\\"upmchealthplan.com\\\" \\\"SRG.\\\" policy pdf\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EvoMCpABCBEYAipAAiGFralOZc0D6VT19o1/Eupmf57ZLVvDGoFTxvP3uaN33o64E92aUGXElQSSmJK5ffLsAHPXJ8sAP82jAR51/jIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAbjdt9UGEgwlhlG2iH1+2cMCLywaDOSe9cePJrTpTTWKYiIwUTGQWcjk7R40anYxTbY9DzSDm3R4hlCo8/Kt5C0SV5XdVaB45WsITSZQUjbPsxhRKpYLOb/jTmPOQUHJFezN1EkiE+4RGHNQDj2/u1NlnRVrX0HtErEsmxPtck5g0tPa7TwKaZN5ClYL0CB6YminZgqaU4sgdY7ss7GJyIArymKxLoWP7c7zR6eT5hF+HgK1ltvc68UPZVzLwwwz6tP7rO9u+uFqoB0AUVFbXyQ4tfO9sjXpJVuCsHByLVw6JjO+a4mgaFmrnI+vN72oq6Iebp1arlT6JXd3fNHOpGEpX8pqTDf/XkBgdZKLbPrH79p9FukBNk3RQEr6ruCqhPpozjKHsMTNUNcjbD1H5segEIv//dTwPAT2Yn+I5M2/w0jP5fhFbOluXCNPm46wzfxd6+sFpZn68lod2cc5ZIkHKQV5DNnw4bnKETUACeGv2MkgCBME3yB8IKo0MxGXWyAIlpdjhZzai7KpHveeMrr3zgM50h8kdKebZKT5WLuqaCIsli3J9UduwcNqac4EK5QYGJIBVP9+9e5hfgnWhVrDakEXRJXWMSFeinoeImaKOGGu6+BZNi3vtq6oKM39Ly12xt8qzyVTE7khb+LHpmZiK0qi+s1fSPNsdtbVwS0D1WGLeSu3D19pwa0V7L0wgiTTtNfHhzS4ky7r1Ux6h7PIVeqOW2DlWoTy9DWL13mVEB+q/s5nglHE4ob2T4bQPrT8k3+cpYCDpCJL4HTOSlXx05grAwOxUUfVKsYUYOE5aXn6fK/kMmzpcLZY45EdRUuPy8UNszSwSnXBtp8/SIo78kVa5BX5WotFYoQp05a+nslbUzqfMhZ+pT/+BFo4Q25mjHfCq8AbwY8B724BB/yQhm/LFm2VvLXKXYkns6zAiLGYIrPooXO/sKiKhT0xdfT72/6oPnZmgKrwYF8K5BF/NXiQAFHn4U+ptFBfEtvdDSyvGUhYblJAdpeby4e66aLIuoWQvmmX9ZASTTCk1fZndV0i2RfYsmf0KL4Y5zZD13wpkP6fC446qFLVObRgqUZSLZFrGaMCVUrqwPJ8GubUxMh0JUeakqncm9scUg208yX7dMy24iMVVFEAMfd7PbzZ3NcsLME74793m4ca3U70nG/x3aoTN+iLnEOmqGsiBpyNfU2ILfFIH0dlKeCoFWPnQ91vLE8wq5OCcTMJ+o3BgSzwZvcnmoWUM0c67ect4kq9EbDT0sMfx74V/qKhIpYO+e+rukhxUIGOzgyhOS03LYePVrow8KQur7X+O58CsUIxkZDwSTq2SVN1hHB3fyMkdXPx3j/v9n9xq/UJLmdUPZRgc0Ar1zLf9NLQ8pl2twJuF190NH7jtS9L3MVu4gPOSVggizl+/aHsJQMZiLNqwp19FMn01vFB1Rk/zj+/PRgp57KigSuoKkww1DFPru4SSUXMGo2Us1+wzGe2uoRK0V87bkD2wRFcpPpQPnhfRdx4LclHIeiN/RPrHZ/82MLrorDG7U6dgzXZeiDZXIx60BfEEQrqaRwmGU93dHPK1CFFPgmGDxWoADTO5PEMOCvbAVY2qsNExs1TG+eqNAHCRa2lW4qi5zCVVuXjaQNkkSdd84XCgoXun9ko6/jXQ/ZxuipdcnQB3r3Qs6sq0xQo2imZa8NR9YVgqvau/c8wrcYl6f7FQaPqne/sZiXIuxTodCfrbCD7LLN72iA8AZe7R50Q+z8T8rs9yfRArct6+wQBc1nAJLvCtWM+ITXefCo2O+sj4mRKYrc5k+U/opgnknjB0Q287L38DU/Nb0k/wQrR3SESyN1TQ5lhj0gxcagJo6Sq3UCQn1phBFwn5FRbUDyS4eC2LamhrccfaYaIkgREakMqRbLgDPoJftItzF6kr6rE1YBsaoxdctq6AxWJ22La/Jd6x9JCTe5QzxGom78kAM6Jgr4CeYOpBAShlgtghGAyhpiEtFOUjnF6wV2tDwbS7j3AMFe1+cEYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01WiuUm2h5wnmx68ZqRbRmGb",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "UPMC Health Plan member appeal process address commercial ACA how to file appeal"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_0165ZgqBKx1tkSidRYAN5ToB",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "InterQual CP: Procedures Knee Arthroscopy criteria"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01WiuUm2h5wnmx68ZqRbRmGb",
+     "content": "{\"query\": \"UPMC Health Plan member appeal process address commercial ACA how to file appeal\", \"results\": [{\"title\": \"Claims Procedures \u2013 Chapter H\", \"url\": \"https://www.upmchealthplan.com/docs/providers/2025_ProviderManual_H3.pdf\", \"snippet\": \"\uf0d8 See: Multiple Payee Addresses, UPMC Health Plan Provider Manual, Chapter H, Claims Procedures. \uf0d8 See: Claim Denials and Appeals, UPMC Plan Provider Manual,\"}, {\"title\": \"Claims Review and Appeal Procedures | Human Resources | University of Pittsburgh\", \"url\": \"https://www.hr.pitt.edu/current-employees/benefits/notices/claims-rev\", \"snippet\": \"Please familiarize yourself with these special procedures and your responsibility to take appropriate and timely action. For UPMC Health Plan, you may <strong>call the Member/Provider Services Department at 1-888-499-6885</strong> for more information about filing a health care claim including an urgent care ...\"}, {\"title\": \"UPMC Health Plan Provider Portal, Phone & Payer ID (2026) | QuickIntell\", \"url\": \"https://quickintell.com/payers/upmc-health-plan\", \"snippet\": \"Formal appeal reviewed by a party not involved in the initial determination; typically requires the first-level decision letter. Level 3: External / Independent ReviewFile within 120 days \u00b7 External Independent Review Organization (IRO) review per ACA \u00a72719 and applicable state law. Source: UPMC Health Plan provider policy.\"}, {\"title\": \"Provider Standards and Procedures \u2013 Chapter B\", \"url\": \"https://www.upmchealthplan.com/docs/providers/2025_ProviderManual_B.pdf\", \"snippet\": \"This includes ... <strong>Clinical Operations/Utilization at 412-454-2765</strong>, Monday through Friday from 8 a.m. to ... For Medicare plans, peer-to-peer reviews cannot be used to overturn cases. When the \u00b7 prior authorization case is denied, the provider will need to submit an appeal with the\"}, {\"title\": \"Appeals and Grievances UPMC Medicare Special Needs Plans\", \"url\": \"https://www.upmchealthplan.com/docs/snp/Appeals-And-Grievances.pdf\", \"snippet\": \"Please click on the \u00b7 Prescription Drug Coverage Determination Form/Exception Request and the Prescription Drug Coverage \u00b7 Redetermination Forms above. ... <strong>P.O. Box 2939</strong> ... You may also ask for a coverage determination, redetermination, or appeal by calling our Member Services\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_0165ZgqBKx1tkSidRYAN5ToB",
+     "content": "{\"query\": \"InterQual CP: Procedures Knee Arthroscopy criteria\", \"results\": [{\"title\": \"Surgery of the Knee \u2013 Commercial and Individual ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf\", \"snippet\": \"Surgery of the knee is proven and medically necessary in certain circumstances. For medical necessity clinical \u00b7 coverage criteria, refer to the: InterQual\u00ae CP: Procedures: o \u00b7 Arthroscopy or Arthroscopically Assisted Surgery, Knee \u00b7 o \u00b7 Arthroscopy or Arthroscopically Assisted Surgery, Knee (Pediatric) o \u00b7\"}, {\"title\": \"Knee Replacement Surgery (Arthroplasty), Total and ...\", \"url\": \"https://ldh.la.gov/assets/medicaid/MCPP/11.2.22/558_UHC_surgery_knee.pdf\", \"snippet\": \"\u201csurgery of the knee is proven and medically necessary in certain \u00b7 circumstances\u201d \u00b7 Revised medical necessary clinical coverage criteria; added reference \u00b7 to the InterQual\u00ae CP: Procedures: o \u00b7 Arthroscopy or Arthroscopically Assisted Surgery, Knee \u00b7\"}, {\"title\": \"Surgery of the Knee \u2013 Commercial and Individual Exchange Medical Policy\", \"url\": \"https://manuals.plus/m/03a51bd458734664a60482e43a67df0b808edef245861eeef95f18cd6e7093e9\", \"snippet\": \"CPT Code 29883 29884 29885 29886 29887 29888 29889 HCPCS Code G0428 J7330 S2112 Description Arthroscopy, knee, surgical; with meniscus repair (medial AND lateral) Arthroscopy, knee, surgical; with lysis of adhesions, with or without manipulation (separate procedure) Arthroscopy, knee, surgical; drilling for osteochondritis dissecans with bone grafting, with or without internal fixation (including debridement of base of lesion) Arthroscopy, knee, surgical; drilling for intact osteochondritis dissecans lesion Arthroscopy, knee, surgical; drilling for intact osteochondritis dissecans lesion with\"}, {\"title\": \"Joint Procedures \u2013 Medicare Advantage Medical Policy\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medadv-mp/joint-procedures.pdf\", \"snippet\": \"Arthroscopy, knee, surgical; osteochondral autograft(s) (e.g., mosaicplasty) (includes harvesting of\"}, {\"title\": \"220 InterQual Musculoskeletal Services Management\", \"url\": \"https://www.bluecrossma.org/medical-policies/sites/g/files/csphws2091/files/acquiadam-assets/220%20InterQual%20Musculoskeletal%20Services%20Management.pdf\", \"snippet\": \"Warning: Broken/Missing block \u00b7 Medical policies are scientific documents that define the technologies, procedures, and treatments that are considered medically necessary, not medically necessary, and investigational link to investigational policy. Our medical policies help us determine what ...\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EvAGCpABCBEYAipAIsg3IMJ9XFWk44FnNk6h85MlBga4KyeHLLjILPmAWFdW/FX6S8OB4IgusT+WkEL0NoAGQcZi3/0x9CAVywRopDIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAb7dt9UGEgxwp3SmfEwMxrs9tW0aDEnrXmTC0azI7RQvkCIwEoe1JeLaWCPnDmH0Wi5sVnx8nfM4X8VP7GRtoSWB+RmZvk45fDr+a2i6tH65Je21KowF/dnvWmJ3hGgBslv+KOFPbEGSbnTV9d9kSmw8ddv3hopPxgoX2g0dRL08WbRjb8F7TRRvpWpDKCIwDh4mOo3ZGMPZNY9mGcWU94EQhApNbOHIDjZ4zvKnZroIOESpfcTIpfRG4wELslAGccLclC2Y58gZjmqfkvzwDJAdUQmwgHlFwD7H6D33iBg53TH0jVhkzDL/it4I9f6qHdUM8G/lGqwhLvGVZw5k3L5hdjfvqTEDrBAV81ERHoV/yCGJhrq73JgpEwa4V29YfGnQ5t0k5S0LgBrCkaJLmsYfZDfIJy10bJ7sN5VgT1J2EZ9PTs+z8sDSlayuayDESZ1xQ4qj1D1//q1A+x2/QRxNmNdfKOlZbYywz6WDV4uvN87yNDtCiCw5iwEqAYSP4vJrBcGPsFRua1vV68chg5D+GoOzKx5CthP8OLcTUOkmT1nSJcf6CNhUaJEARGrbcdiGZck9RPlg8ihv4QOIWOqQJIfQquDaEXdr8bBZRmRUaQtxlhoGcYtm6TtNqMrWvC+oyjFt6MLQZ5B5UfTHbe6RSRFOQEroHbZj4RGlxUfDjfbc7VXbQ6RORW1p/jnrKIlAt39lhDlHF5Y5hLxgsgA/H73QdeybGHRCPZvo4+AAdMYUJhYFiOYBkd3D33wiqKZn6+QN6YLaHS3TBOWsCFVVsXUdLAG78cQHfrDjKLc0FnGq+wKlG1HDNczE2zF5gBlrsxAoBSDDpXsVdQNpXSjeMVnJowRc7BZ2au66n1qKN5sbTzb4GUMQatNQ4yF3W/tPlnFmAqmmC+JGvUcK62IplBdmjjswUJfDcVprXeINzksvzzNMtM1o9yzq/cY9WMsoyRIt4y5tF4v/mvqB/0t1XhgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_015fgj3SA6Uiu18ZP5HgPGKX",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "UPMC Health Plan member appeal form mail fax \"Member Appeal\" address commercial"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01P62MtVF4XeJkYFrffRwT6o",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "UPMC Health Plan \"Notice of Adverse Benefit Determination\" member appeal rights how to file"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_015fgj3SA6Uiu18ZP5HgPGKX",
+     "content": "{\"query\": \"UPMC Health Plan member appeal form mail fax \\\"Member Appeal\\\" address commercial\", \"results\": [{\"title\": \"Member Appeal Form - My Health Plan Login - Medical Mutual\", \"url\": \"https://member.medmutual.com/~/media/Files/My%20Health%20Plan%20PDFs/L6854%20Member%20Appeal%20Form%20091112%20FINAL.ashx\", \"snippet\": \"You may submit the form and records by fax (<strong>216.687.7990 or 866.691.8260</strong>), online (MedMutual.com) or mail to:\"}], \"result_count\": 1, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01P62MtVF4XeJkYFrffRwT6o",
+     "content": "{\"query\": \"UPMC Health Plan \\\"Notice of Adverse Benefit Determination\\\" member appeal rights how to file\", \"results\": [{\"title\": \"Model Notice of Adverse Benefit Determination \u2013 Revised as September 20, 2010\", \"url\": \"https://www.cms.gov/cciio/resources/files/downloads/model_notice_of_adverse_determination.pdf\", \"snippet\": \"This document serves as notice of an adverse benefit determination. We have declined to \u00b7 provide benefits, in whole or in part, for the requested treatment or service described below. If \u00b7 you think this determination was made in error, you have the right to appeal (see the back of this\"}, {\"title\": \"1 Version: (5-19) NOTICE OF ADVERSE BENEFIT DETERMINATION\", \"url\": \"https://midstatehealthnetwork.org/application/files/9315/6286/9411/Final-FY19_2_Adverse_Benefit_Determination.pdf\", \"snippet\": \"IF YOU DON\u2019T AGREE WITH OUR ACTION, YOU HAVE THE RIGHT TO AN INTERNAL APPEAL \u00b7 You have to <strong>ask &lt;CMHSP&gt; for an internal appeal within 60 calendar days of the date of this notice</strong>. You, your representative or your doctor can send in your request that must include: ... Please keep a copy of ...\"}, {\"title\": \"Utilization Management Member Appeals Page 1 of 10 POLICY\", \"url\": \"https://www.partnersbhm.org/wp-content/uploads/partners-tailored-plan-appeals-policies-and-processes.pdf\", \"snippet\": \"<strong>Partners will provide the member with a Department-developed appeal request form</strong> in conjunction with ... Timing of the Notice of Adverse Benefit Determination.\"}, {\"title\": \"Member Appeals Overview - Health Net Provider Library\", \"url\": \"https://providerlibrary.healthnetcalifornia.com/medi-cal/provider-manual/appeals-grievances-disputes/member-appeals/member-appeals-overview-medi-cal.html\", \"snippet\": \"If a member received a NOA, the following options are available: <strong>The member has 60 calendar days from the date on the NOA to file an appeal of the NOA with Health Net</strong>. The member may request an independent medical review (IMR) from the Department of Managed Health Care (DMHC) after first filing ...\"}, {\"title\": \"Request an Appeal on a Notice of Adverse Benefit Determination | Arizona Department of Economic Security\", \"url\": \"https://des.az.gov/services/disabilities/developmental-disabilities/-individuals-and-families/request-an-appeal-on-an-adverse-benefit-determination\", \"snippet\": \"A PASRR determination in the context of either a preadmission screening or an annual resident review, which adversely affects the member. To file an appeal related to any behavioral health services, you must <strong>call or send a letter to your DDD Health Plan or the Tribal Health Program (THP).</strong>\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "ErwCCpABCBEYAipA66Y9et974UGx6mDKcj+BzOwCYTsZvEnVouoxsRUCJiR5BY5DRbScsBdfveii+Uv3QCxi/e4E3CCYzXVYGne2BDIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAcPdt9UGEgwRNlVi2gh0ZMjprfAaDD4PkVxWPcgZXXUQoyIwSyy5X8oU9NcL1iMaM3Q/QzWdjvk+/NbUj6DN5iNuFm70wa0AyHiDDRbzabC8PUtQKlkRWFwvf3Sw4vQtgRyCDpW3tc1oEVs7BQanrpXYHmEuW2R6tCRx3gY7nqU3JP0ksjyjdKx7zWeol55xSeCs+75VQtWUoQLe5/kKW34UGGaP8DRio6VnahqRlRgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_019aU5QWHwGxixW1SH6tGBrr",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "site:upmchealthplan.com appeal member grievance"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_016XbYvwev6jjYZqCShjKwTW",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "UPMC Health Plan \"member appeals\" complaints grievances member handbook"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_019aU5QWHwGxixW1SH6tGBrr",
+     "content": "{\"query\": \"site:upmchealthplan.com appeal member grievance\", \"results\": [{\"title\": \"1 How to file a Medicare Appeal or Grievance\", \"url\": \"https://www.upmchealthplan.com/docs/snp/2016/2015_Appeal-Grievance.pdf\", \"snippet\": \"\u2022 If you are asking for a fast appeal, make your appeal in writing or call our \u00b7 Member Services department at the phone number listed on page 1 of this\"}, {\"title\": \"Provider Standards and Procedures \u2013 Chapter B\", \"url\": \"https://www.upmchealthplan.com/docs/providers/2025_ProviderManual_B.pdf\", \"snippet\": \"\u2022 File a grievance with UPMC Health Plan on behalf of a Member, with the Member\u2019s consent.\"}, {\"title\": \"UPMC for Life (Medicare)\u2014Chapter F\", \"url\": \"https://www.upmchealthplan.com/docs/providers/2024_ProviderManual_F2.pdf\", \"snippet\": \"Member Appeals and Grievances \u00b7 Appeals \u00b7 All UPMC for Life Members have the right to appeal any decision regarding payment or the \u00b7 failure to approve, furnish, arrange for, or continue what the Member believes are covered \u00b7 services. Members also may appeal any denial of payment for services that they believe UPMC for Life \u00b7\"}, {\"title\": \"Utilization Management and Medical Management \u2013 Chapter G\", \"url\": \"https://www.upmchealthplan.com/docs/providers/2025_ProviderManual_G.pdf\", \"snippet\": \"Complaints and Grievances Department. <strong>An appeal can be filed within 65 calendar days</strong> ... ____________________________________________________________________________________________________________________ ... ________________________________________________________________________________...\"}, {\"title\": \"Documents and Forms | UPMC for Life\", \"url\": \"https://www.upmchealthplan.com/en/medicare/documents-and-forms\", \"snippet\": \"Appeals and Grievances \u00b7 Use our online form below to request a hard copy provider directory or other plan materials. You can also send us a plan document or ask to be contacted by a member of our Health Care Concierge team. Medicare Member Services Form - Opens in new tab \u00b7\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_016XbYvwev6jjYZqCShjKwTW",
+     "content": "{\"query\": \"UPMC Health Plan \\\"member appeals\\\" complaints grievances member handbook\", \"results\": [{\"title\": \"Provider Manual | UPMC Health Plan\", \"url\": \"https://www.upmchealthplan.com/providers/medical/resources/manuals/provider-manual\", \"snippet\": \"M.15 \u2013 Services Not Covered (UPMC Medicare Special Needs Plans) M.18 \u2013 Member Appeals and Grievances \u00b7 M.22 \u2013 UPMC Special Needs Plans Model of Care \u00b7 M.27 \u2013 UPMC Special Needs Plans \u2013 Model of Care \u2014 Case Management \u00b7 M.31 \u2013 Appendix A: Integrated Denial Notice \u00b7\"}, {\"title\": \"Medi-Cal Appeals and Grievances | Health Net\", \"url\": \"https://www.healthnet.com/content/healthnet/en_us/members/appeals-and-grievances/medi-cal-appeals-and-grievances.html\", \"snippet\": \"<strong>File a grievance form by uploading the PDF here</strong>.\"}], \"result_count\": 2, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "Eq4DCpABCBEYAipA5mCtxJbXc9jadMZfaxWytSKi638h6JY1PLqYFcDgKA9OeHBCXoCBYSjrvPFzbz4lAFJuY1TDYKAtoYpoe60FPDIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAcfdt9UGEgwcEaYmhpF/vYVaY/YaDN2EpLf+dLX/R6YbbSIwQPvRf0+sX5zgn4N07+0g0elp+EEnsKVgyRAqfVQoXjCv8WhyANphPjFbrDiaXmiHKsoBLMOHSPr2Y01n/1PPSelpDM+V8kpVuZIon7slvjTqWZBAoV+uISL7pm6apc4KZx/WSa1Tj4NFbvSZRMxXo8Yk5xxPB2oYl9/0LSBf+Rl8IQ08OeW1hRQn42iqqn3x9U/JSg6M3d8rf9C05fQgie+K/ZDVcjmiz990twX0PdJGDeCSY17TUXM0OBQnzDJCNHPxW4TVAPh52AAE0ktTJkyJ6G+Yz34oUVoDbbNtepvMLTTjwAxF3l1YwRP9ClgxOsYWg0aVJPXqGyWUYBgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_015bqG2wYsxJXbm5srTs6WC7",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.upmchealthplan.com/docs/providers/2025_ProviderManual_G.pdf"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_015bqG2wYsxJXbm5srTs6WC7",
+     "content": "{\"url\": \"https://www.upmchealthplan.com/docs/providers/2025_ProviderManual_G.pdf\", \"final_url\": \"https://www.upmchealthplan.com/docs/providers/2025_ProviderManual_G.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Utilization Management and Medical Management \u2013 Chapter G ____________________________________________________________________________________________________________________ UPMC Health Plan upmchealthplan.com \u00a9 2025. Updated 04-03-25. All rights reserved. 1 Utilization Management and Medical Management G.1 Table of Contents G.2 At a Glance G.3 Procedures Requiring Prior Authorization G.5 How to Contact or Notify Utilization Management G.6 When to Notify Utilization Management G.11 Case Management Services G.14 Enhanced Member Supports Services G.16 Health Management Programs G.18 Clinical and Preventive Health Care Guidelines G.19 Member and Provider Surveys and Assessments G.22 Quality Improvement Program Utilization Management and Medical Management \u2013 Chapter G ____________________________________________________________________________________________________________________ UPMC Health Plan upmchealthplan.com \u00a9 2025. Updated 04-03-25. All rights reserved. 2 At a Glance The Utilization Management Department or the Medical Management Department at UPMC Health Plan is responsible for managing health care resources. To this end, the department(s): \u2022 Authorizes coverage of certain procedures. \u2022 Performs predetermination reviews. \u2022 Authorizes out-of-network and out-of-area care. \u2022 Approves Member transfers to out-of-network facilities. \u2022 Offers case management services for medically complex cases. \u2022 Provides access to Enhanced Member Supports services. \u2022 Provides access to health management services for Members with specific chronic diseases. \u2022 Administers Member and provider surveys and assessments. For questions and additional information, call: \u2022 Care Management \u2022 Case Management \u2022 Complex Case Management \u2022 Health Management \u2022 Maternity Program 1-866-778-6073 (TTY: 711) Monday through Friday from 7 a.m. to 8 p.m. Saturday from 8 a.m. to 3 p.m. \u2022 Enhanced Member Supports Unit (EMSU) 1-866-463-1462 (TTY: 711) Monday through Friday from 7 a.m. to 8 p.m. Saturday from 8 a.m. to 3 p.m. \u2022 Utilization Management 1-800-425-7800 (TTY: 711) Monday through Friday from 8 a.m. to 4:30 p.m. Utilization Management and Medical Management \u2013 Chapter G ____________________________________________________________________________________________________________________ UPMC Health Plan upmchealthplan.com \u00a9 2025. Updated 04-03-25. All rights reserved. 3 Procedures Requiring Prior Authorization Prior authorization\u2014often referred to as pre-service decision, prospective review, precertification, or predetermination\u2014is the process UPMC Health Plan uses to review speci\ufb01c procedures or treatments to determine whether the coverage of a request will be approved or denied. UPMC Health Plan will review a provider\u2019s request to provide a service or course of treatment of a specific duration and scope to a Member prior to the provider\u2019s initiation or continuation of the requested service. Medical policies outlining items, services, and procedures that require review for prior authorization are available online at upmchealthplan.com/providers. Hard copies are available upon request. Contact Provider Services, Monday through Friday from 8 a.m. to 5 p.m., at: UPMC Community HealthChoices (Medical Assistance) 1-844-860-9303 UPMC for Kids (CHIP) 1-800-650-8762 UPMC for Life (Medicare) 1-877-539-3080 UPMC for Life Complete Care (HMO D-SNP) 1-877-539-3080 UPMC for You (Medical Assistance) 1-866-918-1595 UPMC Health Plan (Commercial) 1-866-918-1595 TTY 711 \uf0d8 See: Provider Services, UPMC Health Plan Provider Manual, Chapter A, Welcome and Key Contacts. If a provider wants to ask for a prior authorization review, the request must be submitted through Provider OnLine at upmchealthplan.com/providers or a written request can be submitted to: UPMC Health Plan Utilization Management Department U.S. Steel Tower, 37th Floor 600 Grant Street Pittsburgh, PA 15219 \uf0d8 See: How to Contact or Notify Utilization Management, UPMC Health Plan Provider Manual, Chapter G, Utilization Management and Medical Management. Utilization Management and Medical Management \u2013 Chapter G ____________________________________________________________________________________________________________________ UPMC Health Plan upmchealthplan.com \u00a9 2025. Updated 04-03-25. All rights reserved. 4 The provider must include the medical justification that will be considered in the approval or denial of the procedure. If coverage is denied, the provider may appeal the decision by following the appeal process that is included with the letter of denial. \uf0d8 See: Medical Necessity Appeal, UPMC Health Plan Provider Manual, Chapter B, Provider Standards and Procedures. Closer Look\u2014Treatment Elected by the Member If approval is not granted, but the Member elects to receive the treatment, the Member must sign a statement accepting financial responsibility for the costs of the care prior to receiving the service. This statement must be retained in the medical record. \uf0d8 Note: This is not applicable for Medicare. The Integrated Denial Notice (IDN) process should be followed in order to bill a Medicare Member for denied services. \uf0d8 See: UPMC Health Plan Provider Manual \u2022 Integrated Denial Notice, Chapter B, Provider Standards and Procedures. \u2022 Covered Benefits and Services for HMO and PPO Members, Chapter F, UPMC for Life. \u2022 Covered Benefits and Services, Chapter M, UPMC for Life Complete Care (HMO D-SNP). Utilization Management and Medical Management \u2013 Chapter G ____________________________________________________________________________________________________________________ UPMC Health Plan upmchealthplan.com \u00a9 2025. Updated 04-03-25. All rights reserved. 5 How to Contact or Notify Utilization Management Providers may contact the Utilization Management Department when they have questions or need additional information by calling 1-800-425-7800 (TTY: 711), from 8 a.m. to 4:30 p.m., Monday through Friday. Providers may submit a request for prior authorization, including supporting documentation and the Certificate of Medical Necessity (CMN), using the following methods: \u2022 Electronically through Provider OnLine at upmchealthplan.com/providers \u2022 Sending a written request to: UPMC Health Plan Utilization Management Department U.S. Steel Tower, 37th Floor 600 Grant Street Pittsburgh, PA 15219 Utilization Management and Medical Management \u2013 Chapter G ____________________________________________________________________________________________________________________ UPMC Health Plan upmchealthplan.com \u00a9 2025. Updated 04-03-25. All rights reserved. 6 When to Notify Utilization Management UPMC Health Plan (Commercial) Providers must contact the Utilization Management Department to authorize coverage for: \u2022 Out-of-area and/or out-of-network care for a Member, including the transfer of a Member from one hospital to another. \u2022 Coverage for certain specific procedures. \u2022 Some home medical equipment (HME), including specialty wheelchairs and scooters, which are known as power mobility devices (PMDs). \u2022 Any inpatient admissions to acute care hospitals, skilled nursing facilities, rehabilitation facilities, long-term acute care centers, acute impatient mental health facilities, chemical dependency rehabilitation facilities, and chemical dependency detoxification facilities This enables UPMC Health Plan to identify Members\u2019 special needs and coordinate their care. In some cases, clinical staff may help arrange care in an alternate setting. \u2022 Any service, item, or procedure that requires a prior authorization. \uf0d8 See: UPMC Health Plan Provider Manual \u2022 Chapter C, UPMC Health Plan Commercial. \u2022 Chapter L, UPMC Health Plan Behavioral Health Services. UPMC Community HealthChoices and UPMC for You (Medical Assistance) Providers must contact the Utilization Management Department to authorize coverage for: \u2022 Any inpatient admissions to acute care hospitals, skilled nursing facilities, rehabilitation facilities, and long-term acute care centers. This enables UPMC Health Plan to identify UPMC Community HealthChoices Participants and UPMC for You Members\u2019 enhanced healthcare and/or health related social needs and coordinate their care. In some cases, clinical staff may help arrange care in an alternate setting. \u2022 Certain outpatient services including pain management services; home health services, enteral/parenteral feedings, and nutritional supplements; and Early Periodic Screening, Diagnosis, and Treatment (EPSDT) expanded services. \u2022 Skilled nursing facility care. Utilization Management and Medical Management \u2013 Chapter G ____________________________________________________________________________________________________________________ UPMC Health Plan upmchealthplan.com \u00a9 2025. Updated 04-03-25. All rights reserved. 7 \u2022 Some home medical equipment (HME), including the purchase of specialty wheelchairs and scooters known as power mobility devices (PMDs). \u2022 Out-of-network services. \u2022 Benefit Limit Exception (BLE) requests. \u2022 Any service, item or procedure that requires a prior authorization. \uf0d8 Note: This is not a complete listing of services that require a prior authorization. \uf0d8 See: UPMC Health Plan Provider Manual \u2022 Chapter E, UPMC for You, (Medical Assistance). \u2022 Chapter N, UPMC Community HealthChoices (Medical Assistance). UPMC for Life (Medicare) Providers must contact the Utilization Management Department to authorize coverage for: \u2022 Out-of-area and/or out-of-network care for a Member, including the transfer of a Member from one hospital to another. \u2022 Coverage for certain specific procedures. \u2022 Some home medical equipment (HME), including the purchase of specialty wheelchairs and scooters known as power mobility devices (PMDs). \u2022 Any inpatient admissions to acute care hospitals, skilled nursing facilities, rehabilitation facilities, long-term acute care centers, acute inpatient mental health facilities, chemical dependency rehabilitation facilities, and chemical dependency detoxification facilities. This notification is essential to ensure appropriate reimbursement and to meet UPMC Health Plan\u2019s reporting requirements to the Centers for Medicare & Medicaid Services (CMS). \u2022 Any service, item, or procedure that requires a prior authorization. \uf0d8 See: UPMC Health Plan Provider Manual \u2022 Chapter F, UPMC for Life (Medicare). \u2022 Chapter L, UPMC Health Plan Behavioral Health Services. Utilization Management and Medical Management \u2013 Chapter G ____________________________________________________________________________________________________________________ UPMC Health Plan upmchealthplan.com \u00a9 2025. Updated 04-03-25. All rights reserved. 8 UPMC for Kids (CHIP) Providers must contact the Utilization Management department to authorize coverage for: \u2022 Out-of-network services. \u2022 Some home medical equipment (HME), including the purchase of specialty wheelchairs and scooters known as power mobility devices (PMDs). \u2022 Any inpatient admissions to acute care hospitals, skilled nursing facilities, rehabilitation facilities, long-term acute care centers, acute inpatient mental health facilities, chemical dependency rehabilitation facilities, and chemical dependency detoxification facilities. This enables UPMC for Kids to identify Members\u2019 enhanced healthcare and/or health related social needs and coordinate their care. In some cases, clinical staff may help arrange care in an alternate setting. \u2022 Certain outpatient services, including private duty nursing, enteral/parenteral feedings, and nutritional supplements. \u2022 Any service, item, or procedure that requires a prior authorization. \uf0d8 See: UPMC Health Plan Provider Manual \u2022 Chapter D, UPMC for Kids (CHIP). \u2022 Chapter L, UPMC Health Plan Behavioral Health Services. UPMC for Life Complete Care (HMO D-SNP) Providers must contact the Utilization Management Department to authorize coverage for: \u2022 Out-of-area and/or out-of-network care for a Member, including the transfer of a Member from one hospital to another. \u2022 Coverage for certain specific procedures. \u2022 Some \", \"text_truncated\": true}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "Ev8DCpABCBEYAipAMzU19LCayarONa2LAA+Zzo0Il26UrmyntAcHuisNw9SRuuTUxc64Da7cvph5IKxFlOnFGYBHB5wDgRG9TOBBEDIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAcvdt9UGEgw4XlhI4sIwxG1e6NEaDDeAKC9HKFVTNMgqDCIwrnGOggd9kkdqGFsINZIFpu+Vq8/4Tu96SsbxAOJRirVI+4TMjuV2qMS+5BJVYjZ3KpsCEbs757LbU47kEUtIHrXsTjwknmRj1qIH8Pv7t5dd2+OcOYiDqdzyGokpmtaJ8jsoMGX0SfvLvHiNfGD9FC/BhZfyCOyDYk0StutgBp4a80QRssvxklTnFl5X0ftw65VmmnF/LwYMMD3Ni/1IsEEIKHj7+HppZ127VlXyuXJ3PW4SVEWfxocio3yy7FewIR6gddcgo+BwTwJZ5sHsftb/7rpskaihp+6cGguSzjxrccIc1byMw+oxdBL8QMWLUK7XWLVggXMGc3rPYqiW9Wy9cSDTvalctcM8cS3NYF65bnozRfeun6pCW5MOLSYEkifk8MgVZ7Ris5TpOJ5ximM1zhuT2fuwmH2FpeOn163iNAAJgAQNQ+mXqILHvhgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01UQmyaZDQy6CK1g5G5EkZkw",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "UPMC Health Plan Provider Manual Chapter C \"UPMC Health Plan Commercial\" member appeal grievance address"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01X3GdyrtkYRdgy1GXzPJo3D",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "UPMC Health Plan Provider Manual Chapter B \"Medical Necessity Appeal\""
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01UQmyaZDQy6CK1g5G5EkZkw",
+     "content": "{\"query\": \"UPMC Health Plan Provider Manual Chapter C \\\"UPMC Health Plan Commercial\\\" member appeal grievance address\", \"results\": [{\"title\": \"UPMC Health Plan Commercial \u2013 Chapter C\", \"url\": \"https://www.upmchealthplan.com/docs/providers/2022_ProviderManual_C.pdf\", \"snippet\": \"If the grievance is eligible for external review the Member \u00b7 will be provided with information about the IRO\u2019s name, address, and phone number. 3. UPMC Health Plan sends written documentation to the IRO. Within five business days of determining that a grievance is eligible for external review,\"}, {\"title\": \"Utilization Management and Medical Management \u2013 Chapter G\", \"url\": \"https://www.upmchealthplan.com/docs/providers/2025_ProviderManual_G.pdf\", \"snippet\": \"prior authorization case is denied, the provider will need to submit an appeal with the \u00b7 Complaints and Grievances Department.\"}], \"result_count\": 2, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01X3GdyrtkYRdgy1GXzPJo3D",
+     "content": "{\"query\": \"UPMC Health Plan Provider Manual Chapter B \\\"Medical Necessity Appeal\\\"\", \"results\": [{\"title\": \"2026 01 Important Expedited appeals fax requirement | UPMC Health Plan\", \"url\": \"https://www.upmchealthplan.com/en/providers/medical/announcements-updates/announcements/2026-announcements/2026-01-important-expedited-appeals-fax-requirement\", \"snippet\": \"Remember all required documentation: All expedited provider appeals must include the Expedited Medical Necessity Appeal Request Form available on the UPMC Health Plan website. Failure to follow this process may result in processing delays. For more information on the process, view the Provider Manual \u2013 Chapter B, Provider Disputes.\"}, {\"title\": \"Medical Management G.2 At a Glance G.2\", \"url\": \"https://www.upmchealthplan.com/docs/providers/2017_providermanual_g.pdf\", \"snippet\": \"See Medical Necessity Appeal, Provider Standards and Procedures, Chapter B. ... U.S. Steel Tower, 11th Floor ... Community HealthChoices to identify members\u2019 special needs and coordinate their care. In some cases, clinical staff may help arrange care in an alternate setting. ... Note that this is not a complete listing of services that require a prior authorization. See UPMC for You Quick Reference Guide, UPMC for You (Medical Assistance),\"}, {\"title\": \"Medical Management \u2013 Chapter G 1 Utilization Management and Medical Management\", \"url\": \"https://www.upmchealthplan.com/docs/providers/2020_ProviderManual_G.pdf\", \"snippet\": \"are available online at www.upmchealthplan.com. Hard copies are available upon request. Contact ... U.S. Steel Tower, 11th Floor ... Medical Management, Chapter G. The provider must include the medical justification that will be considered in the approval or \u00b7 denial of the procedure. If coverage is denied, the provider may appeal the decision by following \u00b7 the appeal process that is included with the letter of denial. \u27a2 See Medical Necessity Appeal, Provider Standards and Procedures, Chapter B.\"}], \"result_count\": 3, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EpgFCpABCBEYAipAQMB8qcjiwEanoe/V2G70VwuYXgNgDE1XUkcJc1NOQhKyEMr69t+/hHnV8vnYmQqKhRsoEMOdHGLq+lElnAS2lzIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAc/dt9UGEgxtUXOF7IWSZEc6Zo8aDHTOAHtwCcj2MF63lCIwoWNJBB9ujIxzLiJimymZ5nIBRnPkpqFjqRl308Kyt5yX++TdLBrfPeRCRLGqAiHHKrQDCqFYvT+3P+zgShiBacMvNGT2afUQvLssuWnjwU1u0wJMLponowsDDWvQrfcsWbc51nrfYHt7JjWLn5QlH6Bcee08jEZ1bBlGJJNtN3BsZjeK045XbK7ORvR/xMCEEX6Ak0JuTHdAjqaj1xVkOOYZVROU5o9GqJLjT/50y7xf8pjCa9fAeRIR8qPpBxh0UaaC+JYeGvYj7u8PYj8GzEXSqMMcH9nrccODdzjbaLE/CPY19Zl5GRmkSqC2a8Swt7kCYbdlRPsoN2xeAGARs3P7+zBS6c8NOx4POVf0Bvqan340R51cvTZmMHuZp4NzmslG2Af72VYr9n8imbn565bqZwc1k4POth9iL0b77Jg3fLYaw97QT9Bxksr72DdBDQaLQhSLEbZ1V8fLPVCoh/qLK9GcEBmLyHfelW1t649DAd5yao9y3NWG9SzIZoQVq6TFSJ38DrAct8mqrDWLX1H/f/1QvgxoOgxGVagsm9aw0KLulAaZ/94WzsgYB7LDeVbBA5ZGFpyJBrFQMusYizi0rEGeuXbd2iL6crtlSCQljVACJRCR/XV7hF/lRg76m/MqPvJtHxgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01TjzmWjvf3hbW4gRf2qYSxD",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.upmchealthplan.com/docs/providers/2022_ProviderManual_C.pdf"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01TjzmWjvf3hbW4gRf2qYSxD",
+     "content": "{\"url\": \"https://www.upmchealthplan.com/docs/providers/2022_ProviderManual_C.pdf\", \"final_url\": \"https://www.upmchealthplan.com/docs/providers/2022_ProviderManual_C.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"UPMC Health Plan Commercial \u2013 Chapter C _________________________________________________________________________________________________________________________ _______________________________________________________________________________ UPMC Health Plan upmchealthplan.com \u00a92022, rev 1-6-2022. All right reserved 1 UPMC Health Plan (Commercial) C.2 Employer Group Products at a Glance C.4 Health Maintenance Organization (HMO) C.6 Point-of-Service (POS) C.8 Preferred Provider Organization (PPO) C.10 Exclusive Provider Organization (EPO) C.12 UPMC Consumer Advantage (Consumer Directed Health Care Plans) C.14 UPMC HealthyU C.15 UPMC Inside Advantage Commercial Group Products C.16 Covered Benefits C.26 Benefit Exclusions C.27 Services That May Be Covered with Certain Restrictions C.28 Complaints and Grievances C.29 Complaint Procedures C.31 Grievance Procedures UPMC Individual Products C.38 Individual Products C.41 Covered Benefits for Individuals and Their Families C.44 Benefit Exclusions for Individuals and Their Families C.45 Complaints and Grievances for Individuals and Their Families C.46 Complaint Procedures for Individuals and Their Families C.47 Grievance Procedures for Individuals and Their Families C.52 Nonemergency and Routine Health Care Problems C.53 Preventive Guidelines C.53 Guidelines for Medical Records Documentation C.54 Accessing and Sharing Information UPMC Health Plan Commercial \u2013 Chapter C _________________________________________________________________________________________________________________________ _______________________________________________________________________________ UPMC Health Plan upmchealthplan.com \u00a92022, rev 1-6-2022. All right reserved 2 Employer Group Products at a Glance UPMC Health Plan offers five basic medical plan designs, which are distinguished mainly by varying levels of provider-coordinated versus self-directed care, and the use of network versus out-of-network providers: \u2022 Health Maintenance Organization (HMO) \u2022 Point-of-Service (POS) \u2022 Preferred Provider Organization (PPO) \u2022 Exclusive Provider Organization (EPO) \u2022 UPMC Consumer Advantage (Consumer Directed Health Care Programs) Each plan includes several standard options. These define the applicable deductible, copayments, coinsurance, and out-of-pocket maximums, as well as cover a standard set of health care services. Benefits for inpatient care, surgical procedures, professional provider services, and other medical treatments are included in every plan design. Standard plan options are offered to all size employer groups but can be customized for larger employer groups upon request. Here are the important aspects to know about these products: \u2022 Cost shares will be displayed either on the Member\u2019s ID card or accessed online by visiting upmchealthplan.com. These products will cover the following 10 Essential Health Benefits: \u2022 Ambulatory patient services \u2022 Emergency services \u2022 Hospitalization \u2022 Maternity and newborn care (care before and after the baby is born) \u2022 Mental health and substance use disorder services, including behavioral health treatment, counseling, and psychotherapy \u2022 Prescription drugs \u2022 Rehabilitative and habilitative services and devices (services and devices to help people with injuries, disabilities, or chronic conditions gain or recover mental and physical skills) \u2022 Laboratory services \u2022 Preventive and wellness services and chronic disease management \u2022 Pediatric services, including oral and vision care UPMC Health Plan Commercial \u2013 Chapter C _________________________________________________________________________________________________________________________ _______________________________________________________________________________ UPMC Health Plan upmchealthplan.com \u00a92022, rev 1-6-2022. All right reserved 3 All plans will have an Actuarial value between 56 and 95 percent. \u2022 The Actuarial value will determine which metal level a plan design is\u2014platinum, gold, silver, or bronze. \u2022 Covered Benefits may vary based upon the plan metal level and plan design. A Member\u2019s specific benefits can be viewed by visiting the UPMC Health Plan website at upmchealthplan.com. \u2022 Claims submissions will remain the same. Operations will not be impacted. Some plans may change over time due to employer benefit changes, regulatory requirements, or policy requirements. For the latest updates and variations, visit the UPMC Health Plan website at upmchealthplan.com or call Provider Services at 1-866-918-1595 from 8 a.m. to 5 p.m., Monday through Friday. Closer Look at Additional Benefits for Individuals and Small Groups UPMC Health Plan (Commercial) is required to provide the 10 Essential Health Benefits and benchmark plan requirements as well as state-mandated benefits. Alert \u2014 Prohibition on Discrimination UPMC Health Plan does not discriminate and/or deny health care coverage based on a pre-existing condition. In addition, UPMC Health Plan (Commercial) benefit designs do not discriminate on the basis of the following: \u2022 Age \u2022 Life expectancy \u2022 Present or predicted disability \u2022 Degree of medical dependency \u2022 Quality of life \u2022 Other health condition UPMC Health Plan Commercial \u2013 Chapter C _________________________________________________________________________________________________________________________ _______________________________________________________________________________ UPMC Health Plan upmchealthplan.com \u00a92022, rev 1-6-2022. All right reserved 4 Health Maintenance Organization (HMO-Referral and Enhanced Access HMO) UPMC Health Plan offers two types of Health Maintenance Organization (HMO) products: one that requires referrals for Members to seek specialty care (HMO-Referral) and another that does not (Enhanced Access HMO). Both the HMO-Referral and the Enhanced Access HMO require all Members to select a participating primary care provider (PCP). HMO-Referral and Enhanced Access HMO Members must use a participating provider or hospital in their network for routine care. The HMO-Referral product incorporates a referral requirement via a PCP for Members to access care to further encourage Member engagement with their PCP and coordination of care. Some HMO-Referral products require Members to receive referrals from their PCP prior to seeking care from most specialists with the exception of pediatric specialists, ob-gyns, dermatologists through e-Dermatology, and behavioral health providers. However, even for provider types exempt from a PCP referral, Members must utilize an in-network provider. Members may use any in-network ob-gyn to provide or coordinate all covered gynecological/obstetric care, and there is no requirement to designate a specific gynecologist for routine and preventive services. No benefits are paid if routine or nonemergency care is received outside the network appropriate to the Member\u2019s benefit plan, unless care has been authorized through Utilization Management before the services are received. Contact Utilization Management through Provider OnLine at upmchealthplan.com/providers. UPMC Health Plan Commercial \u2013 Chapter C _________________________________________________________________________________________________________________________ _______________________________________________________________________________ UPMC Health Plan upmchealthplan.com \u00a92022, rev 1-6-2022. All right reserved 5 Key Points \u2022 A PCP is mandatory. \u2022 In-network providers and facilities must be used. \u2022 Most preventive services, including routine physical exams and many immunizations for both adults and children, are fully covered at no cost to Members when provided by an in-network PCP; copayments may apply for Member enrolled in a Grandfathered Plan. \u2022 Certain plan designs may require a deductible and/or coinsurance. \u2022 When Members reach the annual out-of-pocket maximum (in network), covered services are paid at 100 percent of UPMC Health Plan\u2019s contracted rate without Member cost share. \u27a2 Note: Cost shares may still apply to Members enrolled in the Grandfathered Plan. \u2022 Obstetricians/Gynecologists are credentialed for routine gynecological visits and mammogram screenings. Emergency Services Emergency services by any provider are covered if the health care services are provided to a Member after the sudden onset of a medical condition that manifests itself by acute symptoms of sufficient severity or severe pain such that a prudent layperson could reasonably expect the absence of immediate medical attention to result in one or more of the following: \u2022 Placing the health of the Member (or with respect to a pregnant woman, the health of the woman or her unborn child) in serious jeopardy \u2022 Serious impairment to bodily functions \u2022 Serious dysfunction of any bodily organ or part Urgent care by an in-network provider is covered if the health care services are provided to a Member who reasonably believes that delaying care until the Member can contact or see their personal physician may place the health of the Member in jeopardy. \u27a2 See Nonemergency Services, UPMC Health Plan Commercial, Chapter C. UPMC Health Plan Commercial \u2013 Chapter C _________________________________________________________________________________________________________________________ _______________________________________________________________________________ UPMC Health Plan upmchealthplan.com \u00a92022, rev 1-6-2022. All right reserved 6 Point-of-Service (POS) The POS plan offers two levels of health care benefits. Members are encouraged to use a primary care provider (PCP) for medical care; however, they also may self-direct their care within their network or outside their network. Out-of-network care has applicable deductibles, coinsurance, and higher costs (e.g., the difference between UPMC Health Plan\u2019s reasonable and customary allowance and the provider\u2019s charge as well as the applicable deductible and coinsurance). Members may use any network ob-gyn to provide or coordinate all covered gynecological/obstetric care, but there is no requirement to designate a specific gynecologist for routine and preventive services. The POS plans may include a combination of deductible requirements, coinsurance, and copayments even when care is received in-network. Key Points Coordinated Care or Self-Directed Care Within Network \u2022 Members should designate a PCP for preventive services and to coordinate specialized services. \u2022 Certain plan designs may require a deductible and/or coinsurance. \u2022 Most preventive services, including routine physical exams and many immunizations for both adults and children, are fully covered at no cost to Members when provided by a participating PCP; copayments may apply for Members enrolled in a Grandfathered Plan. Self-Directed Out-of-Network Care \u2022 Some preventive services may not be covered. \u2022 Members have higher payments for out-of-network providers or benefits. \u2022 Coinsurance and annual deductibles may apply. \u2022 Members may be responsible for the difference between the provider\u2019s charges and UPMC Health Plan\u2019s payment (reasonable and customary amount). \u2022 When Members reach the annual out-of-pocket maximum, benefits are covered at 100 percent of UPMC Health Plan\u2019s reasonable and customary allowance. UPMC Health Plan Commercial \u2013 Chapter C _________________________________________________________________________________________________________________________ _______________________________________________________________________________ UPMC Health Plan upmchealthplan.com \u00a92022, rev 1-6-2022. All right reserved 7 Emergency Services Emergency services by any provider are covered if the health care services are provided to a Member after the sudden onset of a medical condition that manifests itself by acute symptoms of sufficient severity or severe pain such that a prudent layperson could reasonably expect the absence of immediate medical attention to result in one or more of the following: \u2022 Placing the health of the Member (or with respect to a pregnant woman\", \"text_truncated\": true}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EvQDCpABCBEYAipAx0PTM1XN/BRunKNQnkOKPEw1vRP67Pf/9OfLxKqHZvst0szlnPe3wqzrK7dm7F/rWOvs2ncs/Pl+P8nMgsI2szIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAdTdt9UGEgwB5vmyXLl/xY7xRGAaDAtQWxXCF++TlLglsyIwRr6TRTrCSj5gtXlww5yOToVpDHMVoSnpTkFyH5qJ/XNVgoxf2b712NKZub1OLKmgKpACS4CiRKCoFoli3hhXo5i3epBx1eeyd64A3Ol72YmZr6Hk6W1EY+v9usPoieVSGa6Qp0cn2KQfG4i4lYwZ2G3ZSmUFYWg7aLjAXnURRImL4XG6byVjUan/tCWNzZRx3DYb5nuTjjuEZLM8jNBO6Hb3Az1hOvt2TBVxx0sqJieHk3sPr7eW0KEJGp56rzqYr7NZJbHPB0bb8WMGT2FN1kctWSjWtihLUBuby6hjU1UuReC/FOEPzOZWXjg83L/e9luW5q8Z4vbQDLJfQcDk+mbDOPnt4w4c5CPw1pkLYxGiPkfGcOkixAqWH+BYK+UOCoBrO40ukhrT9y0xOvyYRekhfuVwZidQfxrm285/CqMez3UYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01PooGtfGEv8qCweVCxQ3xuK",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "UPMC Health Plan Commercial grievance procedures \"U.S. Steel Tower\" appeal member 15219"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01BJDP5gfBsK1JUCzuyzCEPv",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "UPMC Health Plan member grievance \"180 days\" appeal internal external review"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01PooGtfGEv8qCweVCxQ3xuK",
+     "content": "{\"query\": \"UPMC Health Plan Commercial grievance procedures \\\"U.S. Steel Tower\\\" appeal member 15219\", \"results\": [{\"title\": \"Appeals and Grievances UPMC Medicare Special Needs Plans\", \"url\": \"https://www.upmchealthplan.com/docs/snp/Appeals-And-Grievances.pdf\", \"snippet\": \"UPMC SNP APPEALS AND GRIEVANCES 15SO0046 (CB) 4/16/15 \u00b7 U.S. Steel Tower, 600 Grant Street\"}, {\"title\": \"1 2022_COI_Pediatric_Dental_Student Effective Plan Year 2022\", \"url\": \"https://www.hr.pitt.edu/sites/default/files/2022-23StudentMedicalGeneralPediatricDentalCOI.pdf\", \"snippet\": \"MyHealth OnLine v i a www.upmchealthplan.com, <strong>call 1-877-648-9640 (TTY:711), or write to UPMC Health Plan, U.S. Steel Tower, 600 Grant Street, Pittsburgh, PA 15219</strong> . You can: ... \u2022 Initiate a Complaint regarding an Adverse Benefit Determination or regarding a Participating Dentist or the ...\"}, {\"title\": \"UPMC Health Plan www.upmchealthplan.com/FEHB Customer Service 877-648-9641\", \"url\": \"https://www.opm.gov/healthcare-insurance/healthcare/plan-information/plans/pdf/2025/brochures/73-797.pdf\", \"snippet\": \"If you want more information about us, <strong>call 877-648-9641</strong>, or write to UPMC Health Plan Member Services, U.S. Steel \u00b7 Tower, 600 Grant Street, Pittsburgh, PA 15219.\"}, {\"title\": \"UPMC Health Plan | Insurance - Franklin Area Chamber of Commerce, PA\", \"url\": \"https://www.franklinareachamber.org/list/member/upmc-health-plan-514\", \"snippet\": \"U.S. Steel Tower, 25th Floor Mail Stop: UST-01-25-01, 600 Grant Street Pittsburgh PA 15219\"}, {\"title\": \"Upmc Health Plan Customer Service Phone Number 1-855-489-3494, Email, Help Center\", \"url\": \"https://upmc-health-plan.pissedconsumer.com/customer-service.html\", \"snippet\": \"The UPMC Insurance address to mail the corporate office representatives is UPMC Health Plan, U.S. Steel Tower, 600 Grant Street, Pittsburgh, PA 15219, United States. You can send official correspondence and documentation to this address. The customer service team is also ready to handle consumers\u2019 questions, concerns, complaints, and suggestions sent to this UPMC corporate office.\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01BJDP5gfBsK1JUCzuyzCEPv",
+     "content": "{\"query\": \"UPMC Health Plan member grievance \\\"180 days\\\" appeal internal external review\", \"results\": [{\"title\": \"Your Appeal and Grievance Rights - UnitedHealthcare\", \"url\": \"https://member.uhc.com/myuhc/claims/appeal-grievance-rights\", \"snippet\": \"<strong>The first request for an appeal should be sent to us no later than 180 days after you receive the EOB</strong>, unless your plan allows a longer time period for submitting an appeal. Please check your health benefits plan (e.g.\"}, {\"title\": \"UPMC Health Plan Provider Portal, Phone & Payer ID (2026) | QuickIntell\", \"url\": \"https://quickintell.com/payers/upmc-health-plan\", \"snippet\": \"UPMC Health Plan uses a 3-level appeal process. <strong>Level 1 (First-Level Reconsideration) must be filed within 180 days of the denial</strong>. Each escalation level requires the prior decision letter and supporting clinical or coding documentation.\"}, {\"title\": \"UPMC Health Plan | BBB Complaints | Better Business Bureau\", \"url\": \"https://www.bbb.org/us/pa/pittsburgh/profile/insurance-companies/upmc-health-plan-0141-57000086/complaints\", \"snippet\": \"<strong>REMOVEDmay file an appeal within 180 days of the date on which the denial occurred</strong>.2 She may call the REMOVEDphone number on her member ID card to file an appeal. Should you have any further questions, please contact our office.\"}, {\"title\": \"Free UHC Appeal Letter Template 2026 \u2014 CDG Citations & 65-Day Timely Filing Deadline | Muni Health\", \"url\": \"https://muni.health/blog/uhc-appeal-letter-template-2026\", \"snippet\": \"Don&#x27;t assume you have 180 days like other insurers! UnitedHealthcare strictly enforces the 65-day timely filing limit for commercial plans. <strong>Set a calendar reminder for 45 days after denial to allow 20-day buffer for preparation</strong>.\"}, {\"title\": \"UPMC for You (Medical Assistance) \u2013 Chapter E UPMC for You\", \"url\": \"https://www.upmchealthplan.com/docs/providers/2020_ProviderManual_E2.pdf\", \"snippet\": \"If the Member requests an appeal \u00b7 within the required time frame, the previously approved level of service will ... Control and Prevention (CDC). \u2022 Coordinate and monitor the care provided to Members by other health care practitioners. ... Dental and CONNECT Referral form. The referral must be documented in the medical \u00b7 record. Providers may contact the UPMC Health Plan Special Needs Unit at\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "citations": null,
+     "text": "Good, this confirms the general UPMC Health Plan Commercial address and 180-day appeal window (consistent with the letter). I now have enough to compose a thorough, honest answer.",
+     "type": "text"
+    },
+    {
+     "id": "toolu_01JQGmLU88eT3vYyr4xsW53e",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.upmchealthplan.com/docs/snp/Appeals-And-Grievances.pdf"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_011mZf8ppSkBQknk4XygmhTH",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "UPMC Health Plan member complaint grievance fax number 412 -454 appeal commercial"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01JQGmLU88eT3vYyr4xsW53e",
+     "content": "{\"url\": \"https://www.upmchealthplan.com/docs/snp/Appeals-And-Grievances.pdf\", \"final_url\": \"https://www.upmchealthplan.com/docs/snp/Appeals-And-Grievances.pdf\", \"http_status\": 404, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"UPMC Health Plan | Affordable Health Care for Individuals & Families Skip to main content UPMC Health Plan Find Care Sign in/Register I am a: Choose one... Member Provider Employer Producer Sign In Forgot username or password? Register For Providers About Contact Search: Search For Individuals & Families For Individual & Family Coverage Learn the basics of how health insurance works\u2014and how UPMC Health Plan's individual and family plans works for you. UPMC Health Plan Marketplace information: Benefits of Membership Health Insurance Basics Health Care Reform For Our Government Plan Options Information on our other individual and family plans: Medicare Plans Medical Assistance (Medicaid) Children's Health Insurance Plans (CHIP) Community HealthChoices (CHC) Special Needs Plans (SNP) Shop for a plan the way you choose. If you're already a member, you can manage your plan right here or log in to your personalized member portal. Shop for Plans Online Pay Your Bill Shop for Plans in Person Member Sign In Sign In Register Contact Us Individual Sales: 1-877-563-0292 TTY: 711 Group Sales: 1-888-383-8762 TTY: 711 For Employers & Producers For Employers Healthy employees are happier, more productive, and have fewer absences. Learn how UPMC Health Plan can help your employees live their healthiest lives. Products, Plans & Services The Value of UPMC Health Plan Shop for Plans Online Student Employer Blog Employer Sign In Sign In Register Contact Us Prospective Clients: 1-888-383-8762 TTY: 711 Current Clients: 1-800-937-0745 TTY: 711 For Producers Start the process of becoming a UPMC Health Plan producer or log in to your existing Producer OnLine account. Become a Producer ACA Quick Reference Guide Products, Plans & Services Producer Sign In Sign In Register Contact Us Employer Group Services: 1-888-499-6922 TTY: 711 For Members For Members As a UPMC Health Plan member, you have access to much more than top-ranked care. Your plan includes online health tools, award-winning customer service, health and wellness programs, travel coverage, and many more benefits and services. Health Plan Basics Self-Service Resources Women's Health Wellness Digital Tools Spending Accounts Visit our Locations Behavioral Health Manage the nuts and bolts of your plan from right here, or log in to your personalized member portal. Renew Your Insurance Pay Your Bill Plan Documents Find Care Download the App Member Sign In Sign In Register Contact Us Current Members: 1-844-220-4785 TTY: 711 For Providers Find Care CONTACT US \u2630 \u00d7 Back For Individuals & Families For Individual & Family Coverage Learn the basics of how health insurance works\u2014and how UPMC Health Plan's individual and family plans works for you. UPMC Health Plan Marketplace information: Benefits of Membership Health Insurance Basics Health Care Reform For Our Government Plan Options Information on our other individual and family plans: Medicare Plans Medical Assistance (Medicaid) Children's Health Insurance Plans (CHIP) Community HealthChoices (CHC) Special Needs Plans (SNP) Shop for a plan the way you choose. If you're already a member, you can manage your plan right here or log in to your personalized member portal. Shop for Plans Online Pay Your Bill Shop for Plans in Person Member Sign In Sign In Register Contact Us Individual Sales: 1-877-563-0292 TTY: 711 Group Sales: 1-888-383-8762 TTY: 711 For Employers & Producers For Employers Healthy employees are happier, more productive, and have fewer absences. Learn how UPMC Health Plan can help your employees live their healthiest lives. Products, Plans & Services The Value of UPMC Health Plan Shop for Plans Online Student Employer Blog Employer Sign In Sign In Register Contact Us Prospective Clients: 1-888-383-8762 TTY: 711 Current Clients: 1-800-937-0745 TTY: 711 For Producers Start the process of becoming a UPMC Health Plan producer or log in to your existing Producer OnLine account. Become a Producer ACA Quick Reference Guide Products, Plans & Services Producer Sign In Sign In Register Contact Us Employer Group Services: 1-888-499-6922 TTY: 711 For Members For Members As a UPMC Health Plan member, you have access to much more than top-ranked care. Your plan includes online health tools, award-winning customer service, health and wellness programs, travel coverage, and many more benefits and services. Health Plan Basics Self-Service Resources Women's Health Wellness Digital Tools Spending Accounts Visit our Locations Behavioral Health Manage the nuts and bolts of your plan from right here, or log in to your personalized member portal. Renew Your Insurance Pay Your Bill Plan Documents Find Care Download the App Member Sign In Sign In Register Contact Us Current Members: 1-844-220-4785 TTY: 711 For Providers Find Care CONTACT US We're sorry. The page you requested cannot be found. The URL may be misspelled or the page you're looking for is no longer available. Visit the UPMC Health Plan Homepage Individuals & Families Medicare Employers Providers Member Benefits About Us Find Care Find a Medication Contact Producers My Health Matters Careers Nondiscrimination Notice (PDF) Privacy Statement & HIPAA Forms Translation Services Transparency in Coverage Terms & Conditions ONC 21st Century Cures Act Developer API ONC 21st Century Cures Act Member Resource Center No Surprises Act Font Attribution Translation Services Available: Espa\u00f1ol \u7e41\u9ad4\u4e2d\u6587 Ti\u1ebfng Vi\u1ec7t \u0420\u0443\u0441\u0441\u043a\u0438\u0439 Deitsch \ud55c\uad6d\uc5b4 Italiano \u0627\u0644\u0639\u0631\u0628\u064a\u0629 Fran\u00e7ais Deutsch \u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4\u0ac0 Polski Krey\u00f2l Ayisyen \u1781\u17d2\u1781\u17d2\u1798\u17c2\u179a Portugu\u00eas Connect with Us Facebook Twitter YouTube Instagram Pinterest Copyright . UPMC Health Plan, Inc. Active Privacy & Breach Alerts\", \"text_truncated\": false}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_011mZf8ppSkBQknk4XygmhTH",
+     "content": "{\"query\": \"UPMC Health Plan member complaint grievance fax number 412 -454 appeal commercial\", \"results\": [{\"title\": \"Appeals and Grievances UPMC Medicare Special Needs Plans\", \"url\": \"https://www.upmchealthplan.com/docs/snp/Appeals-And-Grievances.pdf\", \"snippet\": \"FAX: <strong>412-454-7920</strong> \u00b7 WRITE: UPMC Health Plan \u00b7 Attn: Appeals and Grievances \u00b7 P.O. Box 2939 \u00b7 Pittsburgh, PA 15230-2939 \u00b7 You may also ask for a coverage determination, redetermination, or appeal by calling our Member Services \u00b7 Department at 1-800-606-8648 from 8 a.m.\"}, {\"title\": \"1 How to file a Medicare Appeal or Grievance\", \"url\": \"https://www.upmchealthplan.com/docs/snp/2016/2015_Appeal-Grievance.pdf\", \"snippet\": \"Fax: <strong>412-454-2057</strong> \u00b7 Write: UPMC for Life \u00b7 Attn: Utilization Management Department \u00b7 U.S. Steel Tower \u00b7 600 Grant Street \u00b7 Pittsburgh, PA 15219 \u00b7 Y0069_15_1319 Accepted \u00b7 2 \u00b7 How to contact us for a coverage decision about your Part D prescription \u00b7 drugs: Call Member Services toll-free ...\"}, {\"title\": \"Provider Standards and Procedures \u2013 Chapter B\", \"url\": \"https://www.upmchealthplan.com/docs/providers/2025_ProviderManual_B.pdf\", \"snippet\": \"\u2022 Have access to information about UPMC Health Plan&#x27;s Quality of Care programs, including \u00b7 program goals, processes, and outcomes that relate to Member care and services. This includes ... <strong>Clinical Operations/Utilization at 412-454-2765</strong>, Monday through Friday from 8 a.m.\"}, {\"title\": \"UPMC Patient Relations Department | About Us & Contact Us\", \"url\": \"https://www.upmc.com/patients-visitors/patient-info/patient-relations\", \"snippet\": \"UPMC East \u2014 <strong>412-357-3686</strong>.\"}, {\"title\": \"UPMC for You (Medical Assistance) \u2013 Chapter E UPMC for You\", \"url\": \"https://www.upmchealthplan.com/docs/providers/2020_ProviderManual_E2.pdf\", \"snippet\": \"Providers should complete the ONAF and fax it to <strong>412-454-8558.</strong>\"}], \"result_count\": 5, \"error\": null}",
+     "cache_control": {
+      "type": "ephemeral"
+     }
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EvEOCpABCBEYAipAaTvEcH94gKPSY+9I7gHOK9+61qmbHJpVGzeEs1M5amHAUNYs30l1lgQy2Ro0uzQqtAbLtdEg/D6Fyp7qvX+UrDIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAeTdt9UGEgyg7nd8dXvZolgA71gaDEV8Up59TMXTWnnJICIwovscubIg8c/YQvr8jH2Smi9HSiC+gkuSG38O0mfeANbHoOAH5vblzpCuCxmxm16aKo0N3BH05WacCbHwsQ5VGcpb/Tpy7x3+fEFUpkC5DYRXzM4sq6YFqlAejjdu1ui3uFfIFoS4jxHHbV7rCKD5JVDcQ48r3PMefmF6y1v4Haq6dYVRgmPLbfF4T+N3/jem6a3jEgbBuAnNeNprLcaUCCOVudUyNc2Cgu2WaGpSOA6mhUo5KSnB3EWvZz5ouHnvXCXlDnq3BnlOYnYKqGKVXjAAPha7FB2PReLQlry4GvXWB/YF46STAbmVHP23ChW0N5NfFbMYiOqNIwWp6JCykK1Ud3Fe73FPhV++qW8OhrYzYdwvyYMzNlzgRPRSFZbBdR3XYOS4ze1z2rI9PcPWV+HEtU540jSLQkXppM87PwsJV90qcwyx2m1eGZWYQOh+yjyfmWnBne5UQSPrgbgmuRR9IZbw+dW6K+z7gdwiIjWh6IsGZX7LnlxOPnMc+F3sX+r+IjTkdbty+HnrGn0DXFaF4PxsVFje6m12DLx6bitMPAoKzj96ZyIB7A9+RlVhK/gNmnww0ued1KVNTc+qYIdb64tHKWrUpBqgM8PTT6I/D5HCRRU/CRx8p+lm1OEIQqSzFbauC/UiDr+f9c8dU9O+TgMvY0Bx5S5ccQG6mvrvOcGr7MkOTRQQORIy4TCTkwqqyTePpHcrsIEiR+i+mzdD3AY/+UJV36lMuc/ZKOpyGtqwXOPREnjU9txrAqh9qvafxEGGSD+H0o3Y9eaECsmaXDMXH+wKZw1xM9eB7Bvhu1WjJzeeCGZOL7tzfXojsXX6++Pm/OikxBJrJKt5XeFUdYM6+4zXOIXblRVxdA/k8ELKfdCc87vwTT0bbAah9frzf3uD7k2YHd4dQa4hOgYnLtE6Cfx13mdJRpyYJ3M+x3du5SHQN5/mYTr2qdRZDDaI15ZYyOg8ytmAJ9HzJ1UK7B+ILvGT2aqQFVg0uEf5pvfTjU+8WmVxcQJp6l26qYhszFvSjdyEBr1eODzbf6y+jj9br7zEFEZJ4ga+pHoQEMrcj5sLLoSGaZQ/6YCDOfTAj9N4cZlpSfflobgyvjRXbGxTZNsPTUoQMYZbPLaSjJjtzdMEwEtaYuJZoDS2xnsXyIlOCVE19A5Q+H2s5cewKUp4IbcY1z2PYt0+ipvZAYra6rcZgxzDNU6YsqUXD7sM6U3XiuST4kDcq5M08dXmyVdyW3GKTGbobjyJsRN7F+HuV0bClfVJyj1bj7x8LdwtszJRrsYTdJX97nAJg7+A7LUd07OvcMRT+rAPo3o+6Ucq6xr7HrUcEeWTGgHBk8/fRexV7+v0a9Fj2ANHkPx9ynvB9qycYHJQnBrVONnhFKdqUh7T9/g1+u93xzrrZ4zX5i8Eo8oBRNc9f9+hpmSc1tYMzgffQtMMgo/SkdJxNfHrnU+yHmjL01EWRYgamVV08W+lemc8DGNd7uGbFmZuINXhdLk9R7wavMrq+jhjZMmMFCLU0b0XPACKKibt0LmLsC9J9bdhMK2WTBZQ3r8sJqEXAiBxV90vVS1HAdT8ZZnTTzAgJiWsKwVD9PkELZFTsVYKe5mT5bVXAlkwGN1RdBrS+u1qIGqVp3PuCnWhgJhr/P86t7xbN4GW+yedTHQDPV4n/sc2oAHAZTZKZgRG+VHNrwO0VBoQvyu3jpKNt49mcKgraJy4J2fB/cVgOSg1msdNNlyCt2ZJc/R5srdr0uOsGQzHbB1X1Y7ljLIG4oSbgA9EYDc8OB/5T+ThTJHJx817y3aWJIEBh+SIWiNhJxmOLnqhFX/aVe+1lKiKTHYtxyXp/QiW0ssdmXl4KdORvK73ILP9jDIQAQ4m58GJ1i5zC+84m/4HPKCq2UD1RmglS8xBgHN9js32lG482F58PM1GGfNN8TaFW6zKTPr/r7Nd/9kDpeBepK217WklYRZFbiqnGmvDysE1NK/W0rIR5rGmcZ3EObO6sQxv/lHWGTlw3c66mEw2WrZAro1qXNSz6sJzZfdKpPs+t6Vtz6L9bdbyrU4cMvq9myBI9HgCrlVTNbgsq6m+xh/EuS9wEMm+O4Tz8hIGIcQ9yOoPfMl9a/QKjT0tKJfjzDzsAurXtTpWpwOxJk+EImK12rQaBUbmT6Xv37F3jckUVnr5Lap1Kn5s5jzCqXGdqMIW/WBLrRY9/rwov+1r65GBYZcI7XI4c/IO3EYkxLV5+B30r9ET8PQ/1zQ5EP1Vo4HrbiXYbX1wxgK3QH3AwmmQzPZKyFSpglrX3oYP3BiaxVtWGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "citations": null,
+     "text": "Based on my research, I was not able to locate a single, publicly posted UPMC Health Plan \"medical policy\" document (with the kind of itemized medical\u2011necessity bullet\u2011point criteria that, e.g., UnitedHealthcare or Aetna publish for CPT 29881) that governs this denial. Here is what I actually found and could verify, and what remains unverified.",
+     "type": "text"
+    },
+    {
+     "id": "toolu_01VbKSoSSqkFG5jM4ZWiWHVK",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"upmchealthplan.com\" \"Provider Manual\" Chapter B \"Provider Disputes\" medical necessity appeal expedited"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01VbKSoSSqkFG5jM4ZWiWHVK",
+     "content": "{\"query\": \"\\\"upmchealthplan.com\\\" \\\"Provider Manual\\\" Chapter B \\\"Provider Disputes\\\" medical necessity appeal expedited\", \"results\": [], \"result_count\": 0, \"error\": null}",
+     "cache_control": {
+      "type": "ephemeral"
+     }
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "ErACCpABCBEYAipAiMJcnx1hXviix7SLzJ7Sx4uEC3RiQYbJyNR3tLaDIJIxc00RSSWPYlsJrsiuvGNaHC6/VTAhJSnVr9b1+23P/jIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAefdt9UGEgwIfp5xKsOgsWe8VhQaDNC1mdU4DKDtcsjREyIwlTEe2j6DZbxueiVO+651Olea5rYNaksXbrt/d/EgIv+UQMq4HgIQ+tv3JoXMZVHqKk1Ln4jGdQmsq8rVLk9oCIHakSUEAXtrumsX9ZGX7zFss9jbvdTmQ97oonPkdRQuTPVOC1YDfg4NZONJT8ssFJNd90UkxtFq6Fmydd7CYxgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "citations": null,
+     "text": "```json\n{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": null,\n  \"effective_date\": null,\n  \"criteria_quotes\": [],\n  \"appeal_deadline\": \"2027-02-15 (180 calendar days from the 2026-08-19 notice date, as stated on the denial letter). This 180-day internal-appeal window is consistent with what UPMC Health Plan states elsewhere for its commercial/ACA members (multiple independent sources describe a 180-day first-level appeal deadline for UPMC Health Plan commercial denials), but I could not pull the exact member-facing appeal-rights language from this specific plan document/EOC to confirm it applies identically to this member's certificate.\",\n  \"submission_route\": \"Not independently confirmed for this exact plan/product. What I found: (1) The denial letter itself should contain the specific appeal address/fax/phone for Riley's plan \u2014 that is the authoritative source and should be followed first. (2) UPMC Health Plan's general Utilization Management Department (which handles prior authorization and can be reached for prior-auth documentation questions) is: UPMC Health Plan Utilization Management Department, U.S. Steel Tower, 37th Floor, 600 Grant Street, Pittsburgh, PA 15219; phone 1-800-425-7800 (M\u2013F 8 a.m.\u20134:30 p.m.). (3) UPMC Health Plan's Commercial Provider Services line is 1-866-918-1595. (4) A separate, commonly cited UPMC Health Plan appeals mailing address is: UPMC Health Plan, Attn: Appeals and Grievances, P.O. Box 2939, Pittsburgh, PA 15230-2939, fax 412-454-7920 \u2014 but this address is documented in UPMC's Medicare/Special Needs Plan appeals materials, not confirmed as the commercial/ACA appeals address. Because a member's exact appeal channel (mail/fax/portal/phone) is plan- and product-specific, Riley should use the appeal instructions and any appeal form printed on the back of this specific denial letter, or call the Member Services number on the back of the UPMC Health Plan ID card, rather than rely on the address above.\",\n  \"how_to_obtain_criteria\": \"UPMC Health Plan's own public 'Policies & Procedures Manual' page (https://www.upmchealthplan.com/providers/medical/resources/manuals/policies-procedures) states: 'For details about the InterQual\u00ae criteria sets listed in CRM.003, please contact Member Services or Provider Services.' This indicates UPMC Health Plan does not use a self-authored, publicly posted medical-necessity policy for many surgical procedures (including, apparently, knee arthroscopy/meniscus surgery) but instead applies licensed, proprietary InterQual\u00ae clinical criteria (the InterQual 'CP: Procedures \u2014 Arthroscopy or Arthroscopically Assisted Surgery, Knee' criteria set is the one other payers cite for CPT 29881, and is a plausible match, but I did not find UPMC's own documentation naming this exact InterQual module for CPT 29881, so I cannot confirm it). Because the criteria are licensed by InterQual/Change Healthcare, they are not freely published online. To get the actual criteria applied to Riley's case, the patient or provider should: (1) Call UPMC Health Plan Member Services (number on the ID card) or Provider Services (1-866-918-1595 for commercial) and explicitly request 'the specific medical necessity/InterQual criteria used to deny CPT 29881, reference POC-39DE00339B-16726'; ACA and Pennsylvania insurance regulations require the plan to provide the specific criteria/rationale used in an adverse benefit determination upon request. (2) Request a copy of the full denial rationale and any internal clinical review notes, which is a right under the plan's internal appeal process. (3) Ask the treating surgeon's office to request a peer-to-peer review with a UPMC medical director (Clinical Operations/Utilization Management, 412-454-2765, M\u2013F 8 a.m.\u20135 p.m.), during which the reviewer should be able to state exactly which criteria/records were missing.\",\n  \"confidence\": \"low\",\n  \"notes\": \"What I verified directly: (a) UPMC Health Plan's public provider policy manual page confirms the plan uses InterQual\u00ae proprietary criteria sets for prior-authorization medical necessity determinations, and directs both members and providers to contact Member/Provider Services for details of the specific InterQual module referenced internally as 'CRM.003' \u2014 this is NOT a document I could open or quote from, because UPMC does not publish it publicly. (b) I found no UPMC Health Plan document titled something like 'Knee Arthroscopy' or 'Surgery of the Knee' with the plan's own bullet-point medical-necessity criteria (the kind of document UnitedHealthcare, Aetna, or Central Health Plan publish for CPT 29881) on upmchealthplan.com or in cached copies. The 'Surgery of the Knee' documents that surfaced in search are UnitedHealthcare and Central Health Plan policies \u2014 different payers \u2014 and are NOT applicable to a UPMC Health Plan member; I have deliberately excluded them from the answer rather than misattributing them. (c) The denial letter's stated reason \u2014 'documentation submitted was incomplete and does not allow a determination of medical necessity' \u2014 is a procedural/administrative denial (insufficient records), not a substantive finding that the criteria weren't met. The most effective and fastest path for the patient is for the treating provider to identify exactly what documentation was missing (e.g., duration/type of conservative treatment such as physical therapy or NSAIDs, imaging report/MRI findings of meniscal tear, exam findings like joint-line tenderness/locking/effusion, and failure of conservative management), since InterQual knee-arthroscopy criteria sets used industry-wide typically require: symptomatic meniscal tear confirmed on imaging or exam, mechanical symptoms (locking, catching, giving way), and a defined trial of conservative therapy (rest, NSAIDs, and/or physical therapy) without adequate improvement \u2014 but I cannot quote UPMC's own criteria language because I could not access the proprietary InterQual text or a UPMC-authored equivalent. I recommend the patient/provider explicitly request, in writing, (1) the specific medical policy or InterQual criteria set number cited in the denial, and (2) an itemized list of what documentation was deemed missing, and cite this request as part of the internal appeal referencing POC-39DE00339B-16726.\"\n}\n```",
+     "type": "text"
+    }
+   ]
+  }
+ ],
+ "stop_reason": "end_turn",
+ "usage": {
+  "input_tokens": 34,
+  "output_tokens": 7495,
+  "cache_creation_input_tokens": 36045,
+  "cache_read_input_tokens": 265652
+ },
+ "model": "claude-sonnet-5",
+ "tool_calls": 29,
+ "elapsed_s": 116.7,
+ "run_id": "r-ad081acf5964",
+ "case_id": "poc-39de00339b"
+}

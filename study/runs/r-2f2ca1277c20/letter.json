@@ -1,0 +1,35 @@
+{
+ "unsourced_requirements_before": 0,
+ "audit": {
+  "audit_raw": null,
+  "audit_parsed": null,
+  "audit_named": null
+ },
+ "unsourced_numeric_before": 0,
+ "unsourced_judged_before": 0,
+ "unsourced_requirements_after": 0,
+ "unsourced_flagged": [],
+ "revised_for_unsourced": 0,
+ "letter_markdown": "**Riley Alvarez**\n[Street Address]\n[City, State ZIP]\n[Phone]\n[Email]\n\n2026-[Month]-[Day]\n\nAppeals Coordinator\nArkansas Blue Cross and Blue Shield\nPO Box 2181\nLittle Rock, AR 72203-2181\n\n**RE: Member appeal of adverse benefit determination**\n- **Member:** Riley Alvarez\n- **Member ID:** W622967722\n- **Reference number:** POC-B12BA21A5A-81346\n- **Date of denial notice:** 2026-08-22\n- **Service denied:** Total knee replacement, CPT 27447\n- **Claim number:** [claim number, if one has been assigned]\n- **Date of service:** [scheduled/requested date of service]\n- **Provider of service:** Duval, MD, orthopedic surgery\n\n---\n\nDear Appeals Coordinator,\n\nI am appealing the denial of my prior authorization for a total knee replacement (CPT 27447), which Arkansas Blue Cross and Blue Shield denied in the notice dated 2026-08-22, reference number POC-B12BA21A5A-81346. I am asking the plan to reconsider that decision and approve the surgery my surgeon has documented that I need.\n\n**The plan's criteria have not been quoted to me.**\n\nThe denial notice states that the decision was made under the plan's applicable medical policy and clinical review criteria, and that my records do not document an adequate trial of conservative treatment before surgery. The notice does not identify that policy by name, and it does not tell me how much conservative treatment the plan requires \u2014 how many weeks, how many visits, or which types of treatment. Because no policy language has been provided to me, I am not quoting any in this letter, and I am not assuming any particular threshold. I am instead setting out exactly what my records show, and asking the plan to compare that record to whatever criteria it actually applied.\n\n**What my records document about conservative treatment**\n\nMy knee was not sent to surgery quickly. The prior authorization packet documents the following:\n\n- **Duration of symptoms:** 12 months of progressive pain in the knee, unrelieved by rest.\n- **Supervised physical therapy:** 16 weeks of supervised physical therapy focused on quadriceps strengthening and range of motion, from 2026-03-16 to 2026-07-06, with 20 visits completed. This is documented in the physical therapy discharge note.\n- **Medication:** NSAIDs for 8 months, with inadequate relief.\n- **Injection:** A corticosteroid injection on 2026-05-08, which gave 4 weeks of partial relief.\n- **Imaging (2026-06-16):** Weight-bearing knee radiographs showing bone-on-bone apposition in the medial and patellofemoral compartments with lateral joint-space narrowing; Kellgren-Lawrence grade 4.\n- **Function:** I cannot climb stairs without assistance, and I wake 3\u20134 times a night with pain.\n- **Exam:** Varus alignment, crepitus and effusion; range of motion 5 to 100 degrees.\n- **Surgical readiness:** No active infection, no untreated substance use, BMI 29, non-smoker.\n\nThat is a year of symptoms, eight months of anti-inflammatory medication, a steroid injection, and four months of supervised physical therapy across 20 visits \u2014 all completed and documented before surgery was requested. Physical therapy was carried through to discharge. The injection worked for four weeks and then stopped working. These are the standard non-surgical options for an arthritic knee, and the record shows I tried them and that they did not hold.\n\n**How this relates to the reason given for the denial**\n\nThe stated basis for the denial is that the records do not document an adequate trial of conservative treatment before the requested surgery. I would ask the reviewer to look again at the physical therapy discharge note, the medication history, and the 2026-05-08 injection record, which together document that trial. If some or all of these records were not in front of the original reviewer, I am asking that they be obtained from Duval, MD, and considered now. If they were in front of the reviewer, I am asking the plan to explain, by reference to its own written criteria, what in that record fell short.\n\n**Request for the criteria applied**\n\nSeparately and specifically, I am requesting in writing that Arkansas Blue Cross and Blue Shield provide me with the exact clinical criteria used to deny this request, including the name and edition of any review guideline or vendor criteria set relied upon, and the specific provision my records were found not to meet. The plan holds these criteria; I do not. I am entitled to them, and I cannot fully respond to the denial without them. Please send them to me at the address above.\n\n**What I am asking for**\n\nI am asking the plan to overturn this denial and authorize the total knee replacement (CPT 27447) requested by Duval, MD. I am submitting this appeal within the 180-day window described in my denial notice, which states that my appeal must be received by 2027-02-18, and I am sending it in writing to the Appeals Coordinator at the address above, with my name, health plan ID, the claim reference, and the date and provider of service included. I am also enclosing the supporting records below.\n\nIf additional records or a peer-to-peer discussion with my surgeon would help resolve this, please contact me at [phone] or contact Duval, MD, at [surgeon's office phone].\n\nThank you for reviewing this appeal.\n\nSincerely,\n\n**Riley Alvarez**\nMember ID: W622967722\n[Signature]\n[Date]\n\n**Enclosures:**\n- Physical therapy discharge note (2026-03-16 to 2026-07-06, 20 visits)\n- Weight-bearing knee radiograph report dated 2026-06-16\n- Injection record dated 2026-05-08\n- Office notes from Duval, MD\n- Copy of the denial notice dated 2026-08-22\n- [Any additional records your surgeon's office provides]\n\n---\n\n*This letter is not medical or legal advice and does not guarantee that coverage will be approved.*",
+ "model": "claude-opus-5",
+ "sender": "patient",
+ "usage": {
+  "input_tokens": 2688,
+  "output_tokens": 2283
+ },
+ "estimated_cost_usd": 0.2115,
+ "evidence": {
+  "policy_title": "",
+  "policy_url": "",
+  "quotes": [],
+  "unverified": [],
+  "submission_route": "Appeal in writing, including your name, health plan ID, a reference to the claim (claim number), and the date and provider of service. By mail: Appeals Coordinator, Arkansas Blue Cross and Blue Shield, PO Box 2181, Little Rock, AR 72203-2181 By phone: the number on the back of your insurance card Deadline: 180 days after you are notified of the denial -- but your denial letter is authoritative.",
+  "criteria_request": "Ask the plan in writing for the exact clinical criteria used in this denial, including the name and edition of any review guideline. You are entitled to them."
+ },
+ "elapsed_s": 27.9,
+ "abstained": true,
+ "route_given": "",
+ "usd": 0.0705,
+ "run_id": "r-2f2ca1277c20",
+ "case_id": "poc-b12ba21a5a"
+}

@@ -1,0 +1,27 @@
+{
+ "answer": {
+  "policy_found": false,
+  "policy_title": "",
+  "policy_number": "",
+  "policy_url": "",
+  "effective_date": "",
+  "criteria_quotes": [],
+  "appeal_deadline": "2027-01-30",
+  "submission_route": "Use the appeal address printed on your denial letter, or call the number on the back of your insurance card and ask where member appeals are filed.",
+  "how_to_obtain_criteria": "Administered by CareSource with TurningPoint doing musculoskeletal review. Wisconsin line is (414) 296-6120.",
+  "confidence": "high",
+  "notes": "no public criteria on file; abstained and routed"
+ },
+ "source": "abstention_route",
+ "route": {
+  "kind": "request_phone",
+  "vendor": "TurningPoint",
+  "phone": "1-414-296-6120",
+  "email": "providersupport@turningpoint-healthcare.com",
+  "how": "Administered by CareSource with TurningPoint doing musculoskeletal review. Wisconsin line is (414) 296-6120.",
+  "source": "caresource.com/wi health partner policies"
+ },
+ "model": "claude-sonnet-5",
+ "run_id": "r-31dd399d76a2",
+ "case_id": "poc-0b7f2515da"
+}

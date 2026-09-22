@@ -1,0 +1,382 @@
+{
+ "answer": {
+  "policy_found": false,
+  "policy_title": "InterQual\u00ae Criteria (Harvard Pilgrim Commercial Prior Authorization Medical Review Criteria)",
+  "policy_number": null,
+  "policy_url": "https://www.harvardpilgrim.org/public/prior-authorization-medical-review-criteria",
+  "effective_date": null,
+  "criteria_quotes": [
+   "For all products, when prior authorization is required, Harvard Pilgrim uses written criteria based on sound clinical evidence to evaluate the medical appropriateness of health care services.",
+   "These criteria are objective and based on current clinical and medical evidence and applied with consideration of individual needs and characteristics (e.g., age, comorbidities, prior treatment and complications), and the availability of services within the local delivery system.",
+   "Commercial Prior Authorization Medical Review Criteria \u2014 InterQual\u00ae Criteria"
+  ],
+  "appeal_deadline": "2027-02-05. The denial notice states that the appeal must be received within 180 days of 2026-08-09.",
+  "submission_route": "The denial notice supplied does not state a mailing address, fax number, portal, or other submission method. Harvard Pilgrim's public contact page lists Member Services at 888-333-4742 (TTY: 711) and provides a secure-email option. Call Member Services and request the exact member-appeal submission address or electronic submission instructions for reference POC-E2AA78E9EC-43782. Submit the appeal so that it is received by 2027-02-05, and retain proof of delivery.",
+  "how_to_obtain_criteria": "Request from Harvard Pilgrim, preferably in writing and through Member Services, the InterQual criteria version and specific criteria sections applied to CPT 29881, together with the clinical-review rationale and any documentation considered missing. The publicly available Harvard Pilgrim page identifies InterQual as the commercial review standard but does not publish the CPT-29881 medical-necessity criteria, policy number, or effective date. The treating provider can also request the criteria and the precise additional documentation needed for reconsideration.",
+  "confidence": "Medium-high",
+  "notes": "I did not find a publicly available Harvard Pilgrim medical-policy document containing CPT-29881-specific medical-necessity criteria. Harvard Pilgrim's official page confirms that commercial prior-authorization review uses InterQual criteria, but it does not provide a policy number, revision date, public InterQual document, or the actual knee-arthroscopy criteria. Therefore, it would be inaccurate to identify a specific publicly available policy as the governing document. The Maine member handbook was publicly linked, but its PDF text could not be retrieved in the available web access, so I cannot reliably quote its appeal-submission instructions."
+ },
+ "raw_text": "{\n  \"policy_found\": false,\n  \"policy_title\": \"InterQual\u00ae Criteria (Harvard Pilgrim Commercial Prior Authorization Medical Review Criteria)\",\n  \"policy_number\": null,\n  \"policy_url\": \"https://www.harvardpilgrim.org/public/prior-authorization-medical-review-criteria\",\n  \"effective_date\": null,\n  \"criteria_quotes\": [\n    \"For all products, when prior authorization is required, Harvard Pilgrim uses written criteria based on sound clinical evidence to evaluate the medical appropriateness of health care services.\",\n    \"These criteria are objective and based on current clinical and medical evidence and applied with consideration of individual needs and characteristics (e.g., age, comorbidities, prior treatment and complications), and the availability of services within the local delivery system.\",\n    \"Commercial Prior Authorization Medical Review Criteria \u2014 InterQual\u00ae Criteria\"\n  ],\n  \"appeal_deadline\": \"2027-02-05. The denial notice states that the appeal must be received within 180 days of 2026-08-09.\",\n  \"submission_route\": \"The denial notice supplied does not state a mailing address, fax number, portal, or other submission method. Harvard Pilgrim's public contact page lists Member Services at 888-333-4742 (TTY: 711) and provides a secure-email option. Call Member Services and request the exact member-appeal submission address or electronic submission instructions for reference POC-E2AA78E9EC-43782. Submit the appeal so that it is received by 2027-02-05, and retain proof of delivery.\",\n  \"how_to_obtain_criteria\": \"Request from Harvard Pilgrim, preferably in writing and through Member Services, the InterQual criteria version and specific criteria sections applied to CPT 29881, together with the clinical-review rationale and any documentation considered missing. The publicly available Harvard Pilgrim page identifies InterQual as the commercial review standard but does not publish the CPT-29881 medical-necessity criteria, policy number, or effective date. The treating provider can also request the criteria and the precise additional documentation needed for reconsideration.\",\n  \"confidence\": \"Medium-high\",\n  \"notes\": \"I did not find a publicly available Harvard Pilgrim medical-policy document containing CPT-29881-specific medical-necessity criteria. Harvard Pilgrim's official page confirms that commercial prior-authorization review uses InterQual criteria, but it does not provide a policy number, revision date, public InterQual document, or the actual knee-arthroscopy criteria. Therefore, it would be inaccurate to identify a specific publicly available policy as the governing document. The Maine member handbook was publicly linked, but its PDF text could not be retrieved in the available web access, so I cannot reliably quote its appeal-submission instructions.\"\n}",
+ "transcript": [
+  {
+   "role": "system",
+   "content": "You are helping a patient respond to a health insurance denial. Answer precisely and only from evidence you actually retrieve. If you cannot find the governing policy, say so plainly rather than naming a document you are unsure of."
+  },
+  {
+   "role": "user",
+   "content": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-09\nMember: Harper Delgado\nMember ID: W267205200\nPlan: Harvard Pilgrim Health Care (Commercial/ACA), state of Maine\n\nDear Harper,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Knee arthroscopy / meniscus surgery\n    Procedure code (CPT): 29881\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-05).\n\nReference number: POC-E2AA78E9EC-43782\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+  },
+  {
+   "id": "rs_0a93d396a4cc4c85016a9b68e5d49887d2adc904bb6d4b784c",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2jogFOvqfDE9IzMK2FuR6I8YgzrWrGV3OHxJuyiIe1RXZpV1Ec-ha6XXFCzX2d92Yc2nwvPTFSYo7kcqiIFP3OoRXixquFtO_14OcWu6AQLK_424Usk8wKGuUYpiUGvFbF9ChGRrY87U5i7gaWi1NTyUk2d0XZT0ufDU_qWOcqjKJxcDIKRsPjBQ3QLyVi4P_uuU2ujPV9q7yV5orbpSlT6sw3Hd_ad-sueDKNg3HDOa4Z4JT7WIiwhL3YUrObHMogt3WFo-nTM0ceTtab_CFv5foFYUR5Xbw2IlL2cdwYd1QY2N_RLLwTFxA2r-oKO9SxWjMynGlqArZsibVOKQhtUx1bZFnvvFIeSVvhTVZfORedNhmIYt6ApUxc7zbHNn1K-ix6PWE1Y7EZq_HQZFh7lv8prSTdvQiafJREU1l_9SqMoZLp_KhAOS9F90SvDUJuiNmt-t5d6256OMYycrUPZ_lwFkxVwj2eB0-d73VIkztCdz1aVdCPOsJT1YE8CdvniResnTS1Sx49G7_gIZpT6OQR9gB6wPPAZgT6q3P1cJwIQRIAUGHlh9s5iB1OXTjF483YozIHueCvfoR-TqdXOKNV-t5zEGnuqXE63xQ920TtVsHdpe_186wYvFPGDFQZHRnECFvkjhCeTpNICLDikBQR7VPO4mjFmbg1jlvxwE4N9zGy65sbTDFueWRHyiuoxfCjd9kvX8kubksRnRjTthJGfW5RpJeB8TpWLWJ5UgnhqL22PI0xWN8Eijou_SSrk20NeIo1trKGZktWIZ1o9DXN7ilKwOv8KwlDD84UQ8Td4kq-plLWJE7PjBKnqDLCOtWa2Ib0A9Mcz2wUJ8a00JZTCarealCWN3Gu7qFB90zdzfFGSHcBd93dlJsKTuhwu1vL2rrZYtgRaQPJWoMnzUYE1jc8Ev_ZC2zPh3QrDMVysD_TSah5emT5_g9WzM0OxgP64s8nHO_zUP6AHzujS4SRB591X3DZAe-jFcCvknUpIL-BiLrxOdTm5luTj5Wa7obntsk5WheTuLw0uYHcNADd90Evmc-tN9fqcxFvykGLWbVaMyMHSQr8dmUI8SUmaI1wGuGwnLd1Dd1vzVBFTp-xdlaETfF2TmtTxNXF9SGu6EJM_EBOlI3Xe1ymRaOcbuw4GuDSLUMucgFmGKROwf3wKoR7NVH0VkfnGh_Xq8qXxPFNUUy8ve2Vj7n-guYp4N_i9_CYKgUgzx9FNnE2DfA==",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:harvardpilgrim.org Maine medical policy knee arthroscopy meniscus 29881 prior authorization policy PDF 2026 Harvard Pilgrim commercial ACA Maine age criteria incomplete documentation appeal address 180 days appeal form Wyoming?\",\"count\":10}",
+   "call_id": "call_jc01nHPPeYvBgVau00VovmBX",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0a93d396a4cc4c85016a9b68e80eb487d29508aa5a5245fe65",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Harvard Pilgrim Health Care medical policy knee arthroscopy meniscectomy CPT 29881 policy number PDF\",\"count\":10}",
+   "call_id": "call_oJybHtcQV75RD9PrZ0qDW8H3",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0a93d396a4cc4c85016a9b68e80ec887d2a6983d2fbdc0f701",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Harvard Pilgrim Maine commercial appeal adverse benefit determination submit appeal address 180 days member services 2026\",\"count\":10}",
+   "call_id": "call_USFplYWfHbSYVda7v9GZV6vm",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0a93d396a4cc4c85016a9b68e80ed087d2a5813ce4153e26fe",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_jc01nHPPeYvBgVau00VovmBX",
+   "output": "{\"query\": \"site:harvardpilgrim.org Maine medical policy knee arthroscopy meniscus 29881 prior authorization policy PDF 2026 Harvard Pilgrim commercial ACA Maine age criteria incomplete documentation appeal address 180 days appeal form Wyoming?\", \"results\": [{\"title\": \"Benefit Handbook Maine\u2019s Choice\u2120HMO for Individual Members MAINE\", \"url\": \"https://www.harvardpilgrim.org/rest/eoc/content?pdid=PD0000006618&type=handbook\", \"snippet\": \"Harvard Pilgrim offers certain wellness care programs\"}, {\"title\": \"Benefit Handbook THE HARVARD PILGRIM HMO MAINE\", \"url\": \"https://www.harvardpilgrim.org/public/docs/me-handbook\", \"snippet\": \"B. OUR MEMBER APPEAL PROCEDURES........................................................................................49\"}, {\"title\": \"Prior authorization medical review criteria | Harvard Pilgrim Health Care\", \"url\": \"https://www.harvardpilgrim.org/public/prior-authorization-medical-review-criteria\", \"snippet\": \"Prior authorization medical review criteria | Harvard Pilgrim Health Care\"}, {\"title\": \"Benefit Handbook THE HARVARD PILGRIM HMO MASSACHUSETTS\", \"url\": \"https://www.harvardpilgrim.org/public/docs/ma-handbook\", \"snippet\": \"Such limitations are needed to maintain reasonable\"}, {\"title\": \"Prior Authorization for Care\", \"url\": \"https://www.harvardpilgrim.org/public/plan-details/prior-authorization-for-care\", \"snippet\": \"You are now being redirected to an external website. Do you wish to continue \u00b7 You are about to leave the Harvard Pilgrim website and connect to another website. We are happy to recommend resources and tools for you. Please know that Harvard Pilgrim is not responsible for the availability, ...\"}, {\"title\": \"Prior authorization for care | Harvard Pilgrim Health Care\", \"url\": \"https://www.harvardpilgrim.org/public/prior-authorization-for-care\", \"snippet\": \"Prior authorization for care | Harvard Pilgrim Health Care\"}, {\"title\": \"Maine individual and family plans | Harvard Pilgrim Health Care\", \"url\": \"https://www.harvardpilgrim.org/enroll/maine-individual-and-family-plans\", \"snippet\": \"When you choose a Harvard Pilgrim health plan, you get exceptional service and support, access to top-quality care and great benefits, programs and services. Plus, we\u2019re expanding our Maine Choice network in 2026, bringing access to care across the state.\"}, {\"title\": \"Benefit Handbook THE HARVARD PILGRIM FOCUS NETWORK - MA HMO FOR\", \"url\": \"https://www.harvardpilgrim.org/api/planDocument?contentName=MA_ASO_FOCUS_HMO_CMB&contentType=HANDBOOK\", \"snippet\": \"B. MEMBER APPEAL PROCEDURES.................................................................................................53\"}, {\"title\": \"2026 Maine Individual & Family Plans\", \"url\": \"https://www.harvardpilgrim.org/documents/broker/what-you-need-know-me-ind-2026\", \"snippet\": \"Harvard Pilgrim Health Care is expanding its Maine\u2019s Choice network effective January 1, 2026, \u00b7 bringing coverage across the state. As part of this expansion, Northern Light Health\"}, {\"title\": \"Benefit Handbook HMO MASSACHUSETTS EFFECTIVE DATE: 01/01/2026 FORM #2544_12\", \"url\": \"https://www.harvardpilgrim.org/rest/eoc/content?pdId=PD0000202448&type=handbook\", \"snippet\": \"EFFECTIVE DATE: 01/01/2026 \u00b7 Welcome to the HMO (the Plan) and thank you for choosing us to help meet your health\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_oJybHtcQV75RD9PrZ0qDW8H3",
+   "output": "{\"query\": \"Harvard Pilgrim Health Care medical policy knee arthroscopy meniscectomy CPT 29881 policy number PDF\", \"results\": [{\"title\": \"CPT Code 29881: Knee Arthroscopy with Meniscectomy (Medial or Lateral)\", \"url\": \"https://www.carepatron.com/procedure-code/cpt-code-29881/\", \"snippet\": \"CPT code 29881 <strong>covers a surgical knee arthroscopy with meniscectomy (medial or lateral), not both</strong>.\"}, {\"title\": \"CPT Code 29881: Description, Cost, Scenarios, and Rules\", \"url\": \"https://transcure.net/medical-billing/code/cpt/29881/\", \"snippet\": \"This code <strong>reports the arthroscopic removal of torn meniscal tissue from one compartment of the knee</strong>. CPT code 29881 includes the diagnostic arthroscopy, the meniscectomy with any meniscal shaving, and any chondroplasty performed anywhere in ...\"}, {\"title\": \"Benefit Handbook ELEVATEHEALTH OPTIONS HMO FOR INDIVIDUAL MEMBERS POLICY\", \"url\": \"https://www.harvardpilgrim.org/rest/eoc/content?pdId=PD0000100074&type=handbook\", \"snippet\": \"ELEVATEHEALTH OPTIONS HMO FOR INDIVIDUAL MEMBERS \u00b7 Coverage under this Plan is provided in accordance with the New Hampshire Insurance law and under the\"}, {\"title\": \"CPT 29881 Knee Arthroscopy: Orthopedics How to Bill Correctly - Insights | Athelas\", \"url\": \"https://www.athelas.com/tbh/cpt-29881-knee-arthroscopy-orthopedics-how-to-bill-correctly\", \"snippet\": \"Struggling with denials for CPT 29881 knee arthroscopies? Learn how to bill correctly for medial or lateral meniscectomies by mastering documentation, time tracking, and code combinations. This essential orthopedic billing guide covers equipment details, NCCI bundling rules, and audit-proof ...\"}, {\"title\": \"Medicare NCCI 2023 Coding Policy Manual \u2013 Chapter 4\", \"url\": \"https://www.cms.gov/files/document/medicare-ncci-policy-manual-2024-chapter-4.pdf\", \"snippet\": \"For example, since CPT codes 29880 ... when performed) and 29881 (<strong>Arthroscopy, knee, surgical; with meniscectomy (medial OR lateral, including any meniscal shaving) including debridement/shaving of articular cartilage (chondroplasty) same or separate</strong> \u00b7...\"}, {\"title\": \"Benefit Handbook PPO FOR INDIVIDUAL MEMBERS MASSACHUSETTS\", \"url\": \"https://www.harvardpilgrim.org/rest/eoc/content?pdid=PD0000006847&type=handbook\", \"snippet\": \"PPO FOR INDIVIDUAL MEMBERS \u00b7 This Benefit Handbook is the legal document that defines the relationship between Members and Harvard Pilgrim\"}, {\"title\": \"CPT Code 29881: Knee Arthroscopy with Meniscectomy | Pabau\", \"url\": \"https://pabau.com/procedure-codes/cpt-code-29881/\", \"snippet\": \"Complete billing guide for CPT code 29881 covering arthroscopic knee meniscectomy (medial or lateral), including applicable modifiers, reimbursement rates, documentation requirements, and common denial scenarios for orthopedic practices.\"}, {\"title\": \"CPT 29881: Arthroscopic Knee Partial Meniscectomy\", \"url\": \"https://www.openpayer.com/billing-codes/cpt-29881-arthroscopic-knee-partial-meniscectomy\", \"snippet\": \"CPT code 29881 <strong>describes an arthroscopic surgical procedure on the knee in which the surgeon inspects the joint interior with an arthroscope and removes the meniscus from either the medial or lateral compartment (partial meniscectomy).</strong> The procedure may include reshaping of the articular cartilage ...\"}, {\"title\": \"CPT 29881 \u2014 Knee arthroscopy with surgical removal of the medial or lateral meniscus, includ | Mira Health\", \"url\": \"https://mirahealth.care/reference/cpt/29881/\", \"snippet\": \"If synovectomy (29876) is billed with modifier 59, the operative note must describe distinct compartment location and independent medical necessity separate from the meniscectomy. Modifiers commonly billed with this code. Source \u00b7 AMA CPT modifier descriptors \u00b7 CMS NCCI Policy Manual \u00b7 22 Increased complexity 50 Bilateral procedure 51 Multiple procedures 59 Distinct service LT Left side RT Right side 78 Unplanned return \u2014 related 79 Unrelated during global \u00b7 Diagnoses commonly reported with CPT 29881.\"}, {\"title\": \"Medical Billing and Coding Arthroscopic Knee Surgery\", \"url\": \"https://www.outsourcestrategies.com/blog/billing-coding-arthroscopic-knee-surgery/\", \"snippet\": \"29880 \u2013 <strong>Arthroscopy, knee, surgical; with meniscectomy (medial AND lateral, including any meniscal shaving) 29881 \u2013 Arthroscopy, knee, surgical; with meniscectomy (medial OR lateral, including any meniscal shaving)</strong>\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_USFplYWfHbSYVda7v9GZV6vm",
+   "output": "{\"query\": \"Harvard Pilgrim Maine commercial appeal adverse benefit determination submit appeal address 180 days member services 2026\", \"results\": [{\"title\": \"Appeals HARVARD PILGRIM HEALTH CARE-PROVIDER MANUAL G.3 July 2025\", \"url\": \"https://www.point32health.org/documents/g-filing-limit-appeals-pm\", \"snippet\": \"\u2022 In Maine, when coordinating benefits with a primary insurance carrier, the filing limit for claim submission is 120 \u00b7 days from the date the primary insurer processed the claim or retroactively denied a previous claim. \u2022 In New Hampshire, when coordinating benefits with a primary insurance carrier, the filing limit for claims \u00b7 submission to Harvard Pilgrim is 180 days from the date that the primary insurer retroactively denied a previously\"}, {\"title\": \"Denials and Adverse Determinations\", \"url\": \"https://www.point32health.org/documents/denials-adverse-determinations-pm\", \"snippet\": \"by the plan to manage the prior authorization process for services on behalf of Harvard Pilgrim Health Care. Network Operations &amp; Care Delivery Management-Care Delivery Programs ... Submit requests only for denials based on medical necessity. Note: If a request is denied for administrative or benefit reasons\u2014such as member ineligibility, service date \u00b7 issues, or non-covered benefits\u2014a peer-to-peer review isn\u2019t available. You must go through the appeals process\"}, {\"title\": \"Appeals HARVARD PILGRIM HEALTH CARE-PROVIDER MANUAL G.16 July 2025\", \"url\": \"https://www.point32health.org/documents/g-request-additional-info-appeals-pm\", \"snippet\": \"\u2022 Request for Additional Information <strong>appeals must be received no later than 180 days from the original Explanation</strong>\"}, {\"title\": \"Benefit Handbook POS HSA FOR INDIVIDUAL MEMBERS MAINE\", \"url\": \"https://www.harvardpilgrim.org/api/eocDocument?pdId=PD0000202201&type=handbook\", \"snippet\": \"SectionVI. Appeals and Complaints provides detailed\"}, {\"title\": \"Appeals - Point32Health Provider\", \"url\": \"https://www.point32health.org/provider/provider-manuals/harvard-pilgrim-health-care-commercial-provider-manual/appeals-hphc-c-pm/\", \"snippet\": \"Harvard Pilgrim Health Care Commercial Provider Manual\"}, {\"title\": \"Benefit Handbook THE HARVARD PILGRIM HMO MAINE\", \"url\": \"https://www.harvardpilgrim.org/public/docs/me-handbook\", \"snippet\": \"Harvard Pilgrim and their corresponding services. We \u00b7 may revise the list of Providers or services who have ... J. CARE MANAGEMENT PROGRAMS ... Members with certain illnesses and injuries. These ... Members that may be candidates for its programs. The \u00b7 Plan or providers may also contact Members to assist \u00b7 with enrollment, develop treatment plans, establish \u00b7 goals or determine alternatives to a member\u2019s current\"}, {\"title\": \"Appeals HARVARD PILGRIM HEALTH CARE-PROVIDER MANUAL G.10 July 2025\", \"url\": \"https://www.point32health.org/documents/g-notification-prior-auth-denial-appeals-pm\", \"snippet\": \"an appeal is beyond the 180-day filing limit from the date of Harvard Pilgrim\u2019s EOP original denial or payment date, ... \u2022 A determination is made within 30 days following receipt of an appeal that is accompanied by the appropriate\"}, {\"title\": \"Benefit Handbook THE HARVARD PILGRIM HMO MASSACHUSETTS\", \"url\": \"https://www.harvardpilgrim.org/public/docs/ma-handbook\", \"snippet\": \"The following information is available to consumers from the Office of Patient Protection: \u00b7 A report detailing, for the previous calendar year, the total number of: a) filed grievances, \u00b7 To be covered, all services and supplies must meet each of the following requirements. They must be:\"}, {\"title\": \"Benefit Handbook Maine\u2019s Choice\u2120HMO for Individual Members MAINE\", \"url\": \"https://www.harvardpilgrim.org/rest/eoc/content?pdid=PD0000006618&type=handbook\", \"snippet\": \"<strong>online at www.harvardpilgrim.org</strong> or call our Member\"}, {\"title\": \"Providers | UnitedHealthcare Student Resources\", \"url\": \"https://www.uhcsr.com/providers\", \"snippet\": \"If you would like to appeal a claims determination, you can complete, print and submit the Appeal Form. You can complete the Negotiation Request Form and email it to <strong>OutofNetwork@uhcsr.com</strong>. If you are participating provider in the Harvard Pilgrim Health Care network and would like to file a ...\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "id": "rs_0a93d396a4cc4c85016a9b68eb3e6487d2b638bbf9c1e76e58",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2jsBdAA9ES2NppIURjh1dIaJ6IqX2GPXjbqZcMkDg0qfMmNB0v8W1EgB6o1SPE5obexHtF1RAiwyUi3mKvMkhoEBMpXo0LrCCc9RbDE5xvxzfGB9H-DkZA2PoVwB5RW3YgMPnK4sFjbYMpW7d0ZvWfNLz0V9pbXrSQvMatW_zRo5VQHe3N1yOc6VgWSDFhyiJu5Q788lek_KUrpWdzJ3nUJWG2qZxOxXDd23RFpcn_XFm_5sN-iCFSf7Wud_QI47n-S6p__N4H5yLEKgH3RhtF3aqbVvo3dCLH3Ehy5Ph9y9aJnD9jQ5E1In4xv65yYw07rsBMD926wKFrBrmoG7yQqVY_XL_RTyqGCARXahId2NF3UhxEZA4SENvzSMNQVAxAXcz-n_94BIyVXXy6q0HB2Mur7nEMdSRUgv0r957-ZN80LOT9pSDFs9XtxKfPfJig20t5UbDcCHTVNZAaP3C9f8NV-sx6cKU7VrIBAsRMBjsYVE2x6jh46s9IGgAeBmeXq7Ifmbnc3jSLguzGselPwIzmp3Nt27X0V3cmXGjhoAIS-gzXsJOeg5kRRImAi9K0JCOKsF_zEjdqehTje-lpH8pymB29kguEP_bYmYWKHsneR4kSosGqZGg0kKZCHEZK1ow4MrdCYqjj6ymYfm2JAW_SQZFlgm3YeHnamLqLzX5gZ4AyMEAVBBn_oaSOrRbjB-xOwLf80VabfKWalEeV-OirgqlcHhysvm9bOyw3DSq8TTLDOxHZAcSF7IA1wCyVXP3N2jQang9rfJKdOAAW54rB6k73d-i2QEPC_Jur0CFz7w0rZNYJcn_RmqdGuMOIQ-26qbx7efPSMHQS8x-clpDz8uTzgkUp-kH6wpC12HV4acH6SR-g9Wdd0u6atuCEUIpntdSSft07Njn4Oc8KNmKYul22Ixbj8cl5i6J4Mk3my7eW608Czjjm8QeowUGy3MXf-LJtFu5kZV9_5RAkrfSJ_XCYfC8gPZBVFF69rNxpTn6eTdlyzjExG__GAeb6a-6s2NYXrAgRWx0VzhcvjQ2C-27FTBCSVbDr7X9jOAe2_rUpwWZRQWnUjbEBRoHgdpef3SkhKcKIla1qwVVxT89bTwlgOC-cV3S8nQj_92GkYmQTixWXZ7LXFg8tWtD_kVxjEumgN2dO2EW8LFc7DDLfufzCT0ks4v9c9TbZjqdEvvzofXnyTQMr6nUMffpuTQ3ArJocvsqm33S6x-0Pr8A==",
+   "status": null
+  },
+  {
+   "arguments": "{\"url\":\"https://www.harvardpilgrim.org/public/prior-authorization-medical-review-criteria\"}",
+   "call_id": "call_q2pYgtALdab1VA8gFUQs71mS",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_0a93d396a4cc4c85016a9b68ec32ac87d2bf900032911a9c26",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://www.harvardpilgrim.org/public/docs/me-handbook\"}",
+   "call_id": "call_eRV7kzatLAjSHvc5ErGfujSp",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_0a93d396a4cc4c85016a9b68ec32bc87d29fc67d2a4eb4b406",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://www.harvardpilgrim.org/rest/eoc/content?pdid=PD0000006618&type=handbook\"}",
+   "call_id": "call_b87Vnb9FoJhu3JKjpvw6u1bI",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_0a93d396a4cc4c85016a9b68ec32c087d286addc7c1c0aedd6",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://www.point32health.org/documents/denials-adverse-determinations-pm\"}",
+   "call_id": "call_jadA9gObNgHZQVX5LbQTHu8J",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_0a93d396a4cc4c85016a9b68ec32c887d2870ce165e50ce55f",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_q2pYgtALdab1VA8gFUQs71mS",
+   "output": "{\"url\": \"https://www.harvardpilgrim.org/public/prior-authorization-medical-review-criteria\", \"final_url\": \"https://www.harvardpilgrim.org/public/prior-authorization-medical-review-criteria\", \"http_status\": 200, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Prior authorization medical review criteria | Harvard Pilgrim Health Care Skip to main content We use cookies We use cookies and other activity trackers on our website to help improve your experience. You agree to their use by continuing to use our site. Learn more about online privacy and security . Viewing: Member login Main Menu Member Broker Employer Provider Viewing : Visit our site as a: Member Back View Insurance Plans Shop plans Health & wellness Resources Broker Employer Provider Need language assistance? Find a provider Contact us Member login You're Viewing: View our site as a: Member Broker Employer Provider Back View Insurance Plans: Shop plans Health & wellness Resources Harvard Pilgrim Health Care Home Need language assistance? Find a provider Contact us Login Breadcrumb Prior authorization medical review criteria For all products, when prior authorization is required, Harvard Pilgrim uses written criteria based on sound clinical evidence to evaluate the medical appropriateness of health care services. These criteria are objective and based on current clinical and medical evidence and applied with consideration of individual needs and characteristics (e.g., age, comorbidities, prior treatment and complications), and the availability of services within the local delivery system. Commercial Prior Authorization Medical Review Criteria InterQual\u00ae Criteria Point32Health is the parent organization of Harvard Pilgrim Health Care and Tufts Health Plan. Together, we're delivering ever-better health care experiences to everyone in our diverse communities. Member information Insurance plans Member forms Health & wellness Prescription drug plans Resources Help Privacy & accessibility Privacy disclaimers Nondiscrimination Accessibility Accessing your health information Text messaging terms & conditions Legal Claims transparency Consolidated Appropriations Act Machine-readable files Do Not Call policy Fraud, waste and abuse CMS prior authorization metrics Additional information About Harvard Pilgrim Newsroom COVID-19 information Careers at Point32Health Point32Health Foundation Member information Insurance plans Member forms Health & wellness Prescription drug plans Resources Help Privacy & accessibility Privacy disclaimers Nondiscrimination Accessibility Accessing your health information Text messaging terms & conditions Legal Claims transparency Consolidated Appropriations Act Machine-readable files Do Not Call policy Fraud, waste and abuse CMS prior authorization metrics Additional information About Harvard Pilgrim Newsroom COVID-19 information Careers at Point32Health Point32Health Foundation Social links Get the app \u00a9 2026 Point32Health, Inc. All rights reserved.\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_eRV7kzatLAjSHvc5ErGfujSp",
+   "output": "{\"url\": \"https://www.harvardpilgrim.org/public/docs/me-handbook\", \"final_url\": \"https://www.harvardpilgrim.org/public/docs/me-handbook\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"error\": \"fetch blocked or unreadable: extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_b87Vnb9FoJhu3JKjpvw6u1bI",
+   "output": "{\"url\": \"https://www.harvardpilgrim.org/rest/eoc/content?pdid=PD0000006618&type=handbook\", \"final_url\": \"https://www.harvardpilgrim.org/rest/eoc/content?pdid=PD0000006618&type=handbook\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"error\": \"fetch blocked or unreadable: extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_jadA9gObNgHZQVX5LbQTHu8J",
+   "output": "{\"url\": \"https://www.point32health.org/documents/denials-adverse-determinations-pm\", \"final_url\": \"https://www.point32health.org/documents/denials-adverse-determinations-pm\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"error\": \"fetch blocked or unreadable: extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "id": "rs_0a93d396a4cc4c85016a9b68ee85f087d2b5f90ca1d69b7482",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2jw_LhbNFVT4T0ytpDXs-jZ7UOfSOS63jlHttbZZMgoMBw4KRCQqMNSLI8Urm7107iWZ-xwmyocj8KexOSzIn2vdGNr1_GZsX8_fuCUehcXyzZqH92H-sekwgzcMRKBxJ266pJwhldpgTVMMgWFUFztFgTZL8jAofiPD8qq2CDv2vY1UdhlDp5TDlhs27vistvjKXWbBClnSKho_bCA_tPavG8qIo4IEe3x-z3ZcDpOElq8AIrDvzqqAxdb-O1iDcyMgtyI6GiosuYos2AY2YAFGr8oNgoz0zI6h8u0Hjff8THIBFEzHMSoRW8CH5R_UPKIM5NaZz4qUeVyNEdR-95uIh23geMUYAC7NxiwZRNTa_WR4QQDSiqY2aI-ZYHsAXPGMCMTX_1SiCB2d2J41LtHrfSym2F35FueWtw2pK3j8-L8FQkPmyAvf8SL7o9g1C9zMLKBmfgNCZEe-bz6SKde1n2dC0T0Etb3Fm0sQfj5AmyEX3X29ON96QcGP3YoX7S9FHMBVV4MhQYqFswt6qtmOjdqC0Jcjy3D5Q4fnUk-xLwTp5omwpBLl7tVkCT8QUmP8WYFRfLtRfKfSaCdfZmZA2m0hBVD1C4mpVQBSUMgRzsouFW6EOd3Wf0EShR7Vzhl6sdxsEHDtN0ueRACyCw-vc7eZHY-c8oScowmdOUllFuVt7yr2VVcl53WPTXex1ZBWgcbPOaS1FR2_K0YKWqawpkfl-loIH-9RzYBz7r4ckVtbahTav2xBlHA-_7V2hN7wGg0LgoF2h4xAal9_6g22AIo2N6h1cy1ffsOyprFLxDTdQvJj5zsaq7bY499daNI-FWMdFFS0ntnccpllCtg8mM6eWq-49sBlig-UmdptkUC0s0Ov9GosyZlm7UZOouoxh6KTexD7LwmISw6CP53eNS26uuOjteP5N2A6SZNxtyluK6zWhhGGn7IVPU8dcZjWhYCxQCfDFNWiLb1-c9aQ1wNlocqIDXRsfomSppCKFdYRpQRpTXzklP7Wtp1ktp6CpuBv-fTRlLdbazWBXV4q5EzjmVaCqxLo9oLBjdZCUgnTxIq6PiDExaIec9jqMfJhYGmx3WgUSl3d__VQAIGd3t_ZSdP0cQ68Xg-6OWwZCfSznc3Dd-bCUwcw38mOdGga69GjdRfRDDefY5JCb5VKCk_FrVFVj5eVSFsGS9U_OfpVWSFgOG7nMHIbYshlxFQotDL2z72iRGnbrxJT1cjjfJFPxPCRn81G6NOzDetE1ZEjZHpyMnTOZO29Z13m_GvLjqcpoO9lWxOfUk9KwFjfyh7nDMdZGV190kZNXS-6eVhJvO8D9YG1GTdzVC0O8ZUWW0ck6fZ1FVMZRYh1-g3FaPO9EBmPAONNvtnmH09XmDMb-v4n0O0rU8vUGftvAM55TB8tpc-l3SDeOQywahUHAYtkMpT7qL8GSD6z1bvfmSv-8gEc1r-xfWie5RtfMyw5hTaPBBGrLuUVeJDuOW4JnPtlN47PcvXy2ho5f5RR5AkVQEKkgBFH9bJ4iy15193C7DxTY8HC1T8ycTJlnNBlbaktMTvH3jldEJ4_fh7LKpqVNSMFhYdt30IaU6DgRc_zHzkQ8oXYpXwsgthWxI1gb6gqpL4Yqq0kH-kmRJeSAM51HQKPJj1_8NBcTH32cAm",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:harvardpilgrim.org \\\"Member Appeals\\\" Maine \\\"PO Box\\\" Harvard Pilgrim appeal medical necessity individual members Maine handbook 2026 PDF text\",\"count\":10}",
+   "call_id": "call_zK980wjxviC59qbVoMQDvxhI",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0a93d396a4cc4c85016a9b68f01f1887d28f0e8eecb5183ce7",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:harvardpilgrim.org \\\"Appeal\\\" \\\"Harvard Pilgrim Health Care\\\" \\\"Maine\\\" \\\"PO Box 699183\\\"\",\"count\":10}",
+   "call_id": "call_iiFIHpcIBGmZ63rwGkNYZnga",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0a93d396a4cc4c85016a9b68f01f2c87d28da637d61b0cdae8",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Harvard Pilgrim Maine member appeal address medical necessity appeal form mailing address\",\"count\":10}",
+   "call_id": "call_A5BxNTdtXorHc3cjLZQZrEKh",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0a93d396a4cc4c85016a9b68f01f3487d2a1fd989dcf00bceb",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:point32health.org/documents \\\"Member Appeal\\\" Harvard Pilgrim \\\"PO Box\\\" commercial Maine appeal\",\"count\":10}",
+   "call_id": "call_xd26ztnSUdDTPCF7LjeNgxHG",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0a93d396a4cc4c85016a9b68f01f3887d2acbaa2b195406f76",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_zK980wjxviC59qbVoMQDvxhI",
+   "output": "{\"query\": \"site:harvardpilgrim.org \\\"Member Appeals\\\" Maine \\\"PO Box\\\" Harvard Pilgrim appeal medical necessity individual members Maine handbook 2026 PDF text\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_iiFIHpcIBGmZ63rwGkNYZnga",
+   "output": "{\"query\": \"site:harvardpilgrim.org \\\"Appeal\\\" \\\"Harvard Pilgrim Health Care\\\" \\\"Maine\\\" \\\"PO Box 699183\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_A5BxNTdtXorHc3cjLZQZrEKh",
+   "output": "{\"query\": \"Harvard Pilgrim Maine member appeal address medical necessity appeal form mailing address\", \"results\": [{\"title\": \"Benefit Handbook PPO HSA FOR INDIVIDUAL MEMBERS MASSACHUSETTS\", \"url\": \"https://www.harvardpilgrim.org/rest/eoc/content?pdId=PD0000006879&type=handbook\", \"snippet\": \"a description of your appeal rights if coverage for a ... G. SERVICES PROVIDED BY A DISENROLLED OR ... Benefits, until the Member\u2019s death. ... H. CLINICAL REVIEW CRITERIA \u00b7 We use clinical review criteria to evaluate whether \u00b7 certain services or procedures are Medically Necessary \u00b7 for a Member\u2019s care. Members or their practitioners ... I. PROVIDER FEES FOR SPECIAL SERVICES ... J. BUNDLED PAYMENT ARRANGEMENTS ... Harvard Pilgrim ...\"}, {\"title\": \"Forms library | Harvard Pilgrim Health Care\", \"url\": \"https://www.harvardpilgrim.org/public/member-forms\", \"snippet\": \"Forms library | Harvard Pilgrim Health Care\"}, {\"title\": \"Appeals HARVARD PILGRIM HEALTH CARE-PROVIDER MANUAL G.2 August 2025\", \"url\": \"https://www.point32health.org/documents/g-provider-appeals-overview-pm\", \"snippet\": \"Mail all provider claim appeals to: <strong>Harvard Pilgrim Health Care, P.O.</strong>\"}, {\"title\": \"Harvard Pilgrim Appeal Form Guide: How to File an Appeal, Requirements, Steps, and FAQs\", \"url\": \"https://www.harvard.us.com/harvard-pilgrim-appeal-form/\", \"snippet\": \"An appeal is essentially a formal request asking Harvard Pilgrim to reconsider its decision. The appeal is typically reviewed by someone who was not involved in the original denial, which ensures fairness and objectivity. The appeal form is used when the member disagrees with: Claims may be denied for a variety of reasons such as incomplete documentation, coding errors, missing authorization, lack of medical necessity, or coverage limitations.\"}, {\"title\": \"Appeals - Point32Health Provider\", \"url\": \"https://www.point32health.org/provider/provider-manuals/harvard-pilgrim-health-care-commercial-provider-manual/appeals-hphc-c-pm/\", \"snippet\": \"Harvard Pilgrim Health Care Commercial Provider Manual\"}, {\"title\": \"HPI | Provider Resources | Forms\", \"url\": \"https://hpitpa.com/your-resources/for-providers/access-forms/\", \"snippet\": \"As a provider serving HPI members, find all the forms you need in one convenient location, from claims and appeals to authorization.\"}, {\"title\": \"ProvAppeal_HPI-HPHC _website_form+QRG Provider Appeal Form Member ID1\", \"url\": \"https://myvhn.healthplansinc.com/media/24886/hphcproviderappealform_quickrefguide_hphc-network.pdf\", \"snippet\": \"For more details, see the Harvard Pilgrim Provider Manual (\u201cAppeals\u201d section) at HarvardPilgrim.org/Providers.\"}, {\"title\": \"2024 appeals & grievances - Harvard Pilgrim Health Care - Individual Enrollment\", \"url\": \"https://www.harvardpilgrim.org/enroll/2024-coverage-decisions-appeals-grievances/\", \"snippet\": \"Mail Harvard Pilgrim Health Care Attention: Medicare Advantage Appeals &amp; Grievances <strong>PO BOX 328 Canton, MA 02021</strong>\"}, {\"title\": \"Benefit Handbook THE HARVARD PILGRIM HMO MASSACHUSETTS\", \"url\": \"https://www.harvardpilgrim.org/public/docs/ma-handbook\", \"snippet\": \"managed care grievance rights and for administering appeals to external review \u00b7 organizations. The Office of Patient Protection can be reached at: ... Medical Necessity Guidelines.\"}, {\"title\": \"Contact us | Harvard Pilgrim Health Care\", \"url\": \"https://www.harvardpilgrim.org/public/contact-us\", \"snippet\": \"Main numbers, TTY: 711Call 888-888-4742Call 617-509-1000\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_xd26ztnSUdDTPCF7LjeNgxHG",
+   "output": "{\"query\": \"site:point32health.org/documents \\\"Member Appeal\\\" Harvard Pilgrim \\\"PO Box\\\" commercial Maine appeal\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "id": "rs_0a93d396a4cc4c85016a9b68f4162c87d28e5459563d94025c",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2j1dFnRkWo-5Ppz_gjDa1oG84D5Wy44iiMHo53FUbr0L_H6aUXC_Fll_4Sq1zHIiWhB_946iq24J7ljj4Yj9gFWS1xevGs_PAQ9rY5YGKf9giEalxpC9W_N1-gTNyvWEi3dX4mlrlDP6Lr5omj3tP2i5a73tyiSg0zVureYCnoK42SxQ3VOEN_GP7QyzxY_WIPaffVL-FDPWcu_VhWK11AETwyo9K1kU8593xAc6F4g6oLeRqDezg1tsw28qwy1BeAgMDaQQvHmQov6EfUB9vzkGes_iQbsIBlNBbz6ZOEK38f5WjOhVVXEQQ9IDSTRSzQhTiMuyL08o_XrVdHruYgn_96SC6Ir2OEi6gseTUh6ZQrEmJK5351t1JxzNGKMAlUk3YgIs0RIMel7xoNu70NGUxzUNQ89YrSTKxVNwCpjRtQVWdWVt3Nyk9gJ4l3qxB3wgOoLp96RLXWYH4IuLudJOb-XWmq_qFMofHORothlw6mCpYK2ZueGedUfb9Z-zkb-uzxQgk742WfKVGt9KMR5z0AtPIPcCcQIxD0ABN3kbf3QTiIN6rV-UmvWvoi2bScZmBynoPCn86et8pZk2bdUC0FdmvJvc8wpq4HLm2aYiZzXMoYhIvHKZMZd9_K9Rovl7VIcDAAOT362Aap_Dzzx8bT2nxFXjheNNiv5XJXYYmsKrkpZGOr-upXopTEXFt5sE1m5Ffny-Yonzjj7b39Wg2rzoA7m2ffz69lf5huyGtuqlPBPNdEM04S6OQwGaCvHCg6Q_JH9KqwldALywHE6lDSN7N6D7BQqGPNgoZqS9WP5C20bPuvqF4GfyTWstOeQ9dedia2nnrbxAVtB-WGOJKi0DC6H44EkOKnYk_pQAPO6Qon5kPf-yGFcpgyPACokXMwSqREqgd2z09e_yxBwCHzsgSV3JdAz9PIaUJcdHWhg-twcBhg-D_p240J1rJEvTG57-t6mFdED47SFApEon5FzSCyrj6TcBAASBtQMO7BH_7ai7ykG4R9gO0th3PXR7RLljKuZ4xKAZ4iKM3aRAgWR7p3g9akHcCTYrWtI_FWe9nA5LvBSqIjnTaU0I2SEV_iP7LYK6ibaQ971Vqgu8TygW7Ade0aSroZnkAIidPL38zUavyYTDlmsjDq9p9tydrQNIjIpNVPutVm3vuE0Sl71ZFBl4t7In2U5-WmCH48nL7QPmYSh2jSQYKphiApOKYnw6FrRQmNraRLq7tD7Geak4gpmOAi0q-NhmUe4XPwJrM5IzCLPKWVGKlH61koOO4ESjB8pBvmWcD5aIc7jUg==",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"\\\"THE HARVARD PILGRIM HMO MAINE\\\" \\\"appeal\\\" \\\"Mail\\\" address\",\"count\":10}",
+   "call_id": "call_Ps2Nx7IcwuFyt4QPM7bcpfN3",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0a93d396a4cc4c85016a9b68f4e49487d2aa15cf7d648b9d4a",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Maine\u2019s Choice\\\" \\\"appeal\\\" \\\"Harvard Pilgrim\\\" address\",\"count\":10}",
+   "call_id": "call_fUDBKii0c7jO4AmN7hUCTajd",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0a93d396a4cc4c85016a9b68f4e4a087d28f85d077bca63f4d",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Harvard Pilgrim member appeal form commercial mailing address medical necessity\",\"count\":10}",
+   "call_id": "call_TeKuzuKBGzc7ZXNYaEFpPRtf",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0a93d396a4cc4c85016a9b68f4e4a887d2b66b5100ff96338d",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Harvard Pilgrim Health Care Maine complaint appeal member services address PO Box 2026\",\"count\":10}",
+   "call_id": "call_3wsaqxUhfwJ7PtolZHeFTuxU",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0a93d396a4cc4c85016a9b68f4e4b087d2ac5d2d880892a630",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_Ps2Nx7IcwuFyt4QPM7bcpfN3",
+   "output": "{\"query\": \"\\\"THE HARVARD PILGRIM HMO MAINE\\\" \\\"appeal\\\" \\\"Mail\\\" address\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_fUDBKii0c7jO4AmN7hUCTajd",
+   "output": "{\"query\": \"\\\"Maine\u2019s Choice\\\" \\\"appeal\\\" \\\"Harvard Pilgrim\\\" address\", \"results\": [{\"title\": \"Maine's Choice Plus HMO HSA Bronze 7200 Coverage ...\", \"url\": \"https://www.harvardpilgrim.org/rest/eoc/content/sbc/PD0000202622.pdf\", \"snippet\": \"agencies is: Maine Bureau of Insurance, Department of Professional and Financial Regulation, <strong>34 State House Station, Augusta, ME</strong> 04333-0334, (800) 300-5000, or \u00b7 contact Harvard Pilgrim at the number on the back of your ID card.\"}], \"result_count\": 1, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_TeKuzuKBGzc7ZXNYaEFpPRtf",
+   "output": "{\"query\": \"Harvard Pilgrim member appeal form commercial mailing address medical necessity\", \"results\": [{\"title\": \"Harvard Pilgrim Appeal Form Guide: How to File an Appeal, Requirements, Steps, and FAQs\", \"url\": \"https://www.harvard.us.com/harvard-pilgrim-appeal-form/\", \"snippet\": \"An appeal is essentially a formal request asking Harvard Pilgrim to reconsider its decision. The appeal is typically reviewed by someone who was not involved in the original denial, which ensures fairness and objectivity. The appeal form is used when the member disagrees with: Claims may be denied for a variety of reasons such as incomplete documentation, coding errors, missing authorization, lack of medical necessity, or coverage limitations.\"}, {\"title\": \"Benefit Handbook PPO HSA FOR INDIVIDUAL MEMBERS MASSACHUSETTS\", \"url\": \"https://www.harvardpilgrim.org/rest/eoc/content?pdId=PD0000006879&type=handbook\", \"snippet\": \"a description of your appeal rights if coverage for a ... G. SERVICES PROVIDED BY A DISENROLLED OR ... Benefits, until the Member\u2019s death. ... H. CLINICAL REVIEW CRITERIA \u00b7 We use clinical review criteria to evaluate whether \u00b7 certain services or procedures are Medically Necessary \u00b7 for a Member\u2019s care. Members or their practitioners ... I. PROVIDER FEES FOR SPECIAL SERVICES ... J. BUNDLED PAYMENT ARRANGEMENTS ... Harvard Pilgrim and their corresponding services.\"}, {\"title\": \"Appeals - Point32Health Provider\", \"url\": \"https://www.point32health.org/provider/provider-manuals/harvard-pilgrim-health-care-commercial-provider-manual/appeals-hphc-c-pm/\", \"snippet\": \"Harvard Pilgrim Health Care Commercial Provider Manual\"}, {\"title\": \"Forms library | Harvard Pilgrim Health Care\", \"url\": \"https://www.harvardpilgrim.org/public/member-forms\", \"snippet\": \"Forms library | Harvard Pilgrim Health Care\"}, {\"title\": \"Benefit Handbook HMO FOR INDIVIDUAL MEMBERS MASSACHUSETTS\", \"url\": \"https://www.harvardpilgrim.org/rest/eoc/content?pdId=PD0000201823&type=handbook\", \"snippet\": \"are followed. They are also in charge of directing appeals to outside review groups. ... The Office of Patient Protection can provide you with information. This includes: ... Medical Necessity Guidelines.\"}, {\"title\": \"Privacy disclaimer statements | Harvard Pilgrim Health Care\", \"url\": \"https://www.harvardpilgrim.org/public/privacy-disclaimer-statements\", \"snippet\": \"Harvard Pilgrim Health Care Special Investigations Unit 1 Wellness Way Canton, MA 02021 \u00b7 A member, or authorized representative(s) acting on behalf of a member, may request an appeal for any decision made by Harvard Pilgrim to deny coverage for health services.\"}, {\"title\": \"Appeals HARVARD PILGRIM HEALTH CARE-PROVIDER MANUAL G.2 August 2025\", \"url\": \"https://www.point32health.org/documents/g-provider-appeals-overview-pm\", \"snippet\": \"Mail all provider claim appeals to: <strong>Harvard Pilgrim Health Care, P.O.</strong>\"}, {\"title\": \"Benefit Handbook THE HARVARD PILGRIM HMO MASSACHUSETTS\", \"url\": \"https://www.harvardpilgrim.org/public/docs/ma-handbook\", \"snippet\": \"managed care grievance rights and for administering appeals to external review \u00b7 organizations. The Office of Patient Protection can be reached at: ... Medical Necessity Guidelines.\"}, {\"title\": \"HPI | Provider Resources | Forms\", \"url\": \"https://hpitpa.com/your-resources/for-providers/access-forms/\", \"snippet\": \"Health Plans General Provider Appeal form (non HPHC) Harvard Pilgrim Provider Appeal form and Quick Reference Guide \u00b7 Standard Medical Claim form \u00b7 Standard Dental Claim form \u00b7 Visit our Precertification page to download or submit your form. Some forms on this page are in PDF format and require Adobe Reader to open.\"}, {\"title\": \"ProvAppeal_HPI-HPHC _website_form+QRG Provider Appeal Form Member ID1\", \"url\": \"https://myvhn.healthplansinc.com/media/24886/hphcproviderappealform_quickrefguide_hphc-network.pdf\", \"snippet\": \"Include supporting documentation \u2014 please check Harvard Pilgrim Provider Manual for specific appeal guidelines.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_3wsaqxUhfwJ7PtolZHeFTuxU",
+   "output": "{\"query\": \"Harvard Pilgrim Health Care Maine complaint appeal member services address PO Box 2026\", \"results\": [{\"title\": \"Contact us | Harvard Pilgrim Health Care\", \"url\": \"https://www.harvardpilgrim.org/public/contact-us\", \"snippet\": \"Main numbers, TTY: 711Call 888-888-4742Call 617-509-1000\"}, {\"title\": \"Harvard Pilgrim Healthcare, Inc. | BBB Complaints | Better Business Bureau\", \"url\": \"https://www.bbb.org/us/ma/wellesley/profile/hmos/harvard-pilgrim-health-care-inc-0021-16441/complaints\", \"snippet\": \"They have denied a total of $1810 claims with more claims pending from April 2026 and scammed her out of $385 in premium payments every month. ... Your complaint has been received. Harvard Pilgrim will investigate and provide a response with the findings directly to you in writing within 30 days at the address on file.\"}, {\"title\": \"Benefit Handbook THE HARVARD PILGRIM HMO MAINE\", \"url\": \"https://www.harvardpilgrim.org/public/docs/me-handbook\", \"snippet\": \"C. INDEPENDENT EXTERNAL REVIEW OF APPEALS.......................................................................50 \u00b7 D. MEMBER COMPLAINTS ..............................................................................................................51\"}, {\"title\": \"HARVARD PILGRIM HEALTH CARE - Updated July 2026 - 1 Market St, Portland, Maine - Health & Medical - Phone Number - Yelp\", \"url\": \"https://www.yelp.com/biz/harvard-pilgrim-health-care-portland-3\", \"snippet\": \"Specialties: Harvard Pilgrim is an independent, not-for-profit organization known for innovation that delivers better health and cost management. We are dedicated to improving the quality and value of health care for the people and communities we serve. We recognize that health care is not one size fits all, and we work every day to create value for our members by respecting their unique values, languages, and cultures.\"}, {\"title\": \"Harvard Pilgrim Health Care Provider Notification\", \"url\": \"https://public.providerexpress.com/content/dam/ope-provexpr/us/pdfs/ourNetworkMain/welcomeNtwk/ma/hphc-specific/4711_HPHC_De-implement.pdf\", \"snippet\": \"Preparing your download\u2026 \u00b7 4711_HPHC_De-implement.pdf\"}, {\"title\": \"Contact Harvard Pilgrim Stride\u2120 (HMO) Member Services\", \"url\": \"https://www.harvardpilgrim.org/enroll/contact-member-services\", \"snippet\": \"We use cookies and other activity trackers on our website to help improve your experience. You agree to their use by continuing to use our site. Learn more about online privacy and security \u00b7 We offer a variety of individual and family plans with access to the doctors and hospitals you know ...\"}, {\"title\": \"Help | Harvard Pilgrim Health Care\", \"url\": \"https://www.harvardpilgrim.org/public/help\", \"snippet\": \"Help | Harvard Pilgrim Health Care\"}, {\"title\": \"Appeals HARVARD PILGRIM HEALTH CARE-PROVIDER MANUAL G.2 August 2025\", \"url\": \"https://www.point32health.org/documents/g-provider-appeals-overview-pm\", \"snippet\": \"Mail all provider claim appeals to: <strong>Harvard Pilgrim Health Care, P.O.</strong>\"}, {\"title\": \"Harvard Pilgrim Health Care\", \"url\": \"https://web.portlandregion.com/Financial-Services,-Insurance-Benefits-/Harvard-Pilgrim-Health-Care-928\", \"snippet\": \"<strong>80 Exchange Street Portland, ME 04101</strong>\"}, {\"title\": \"Harvard Pilgrim Health Care\", \"url\": \"https://www.augustamaine.com/cb-profile/1082-harvard-pilgrim-health-care\", \"snippet\": \"Harvard Pilgrim provides health benefit plans, programs and services for more Maine businesses than any other health insurance provider in the state.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "id": "rs_0a93d396a4cc4c85016a9b68f8dd7087d2a4a2eec4a67a54c1",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2j65JqS_AByhER3JI5q-saWK9mYwJCAAXT9Md_tUhKjxvjT3JCfeD_z81GGskO1mhAkK0HlMdi9RMSDxu5zuKhcICFIxJgAvTqGJBvhJ5DGhmimQ-Owy3gFUZKa8U1D3xNMdo4ClvPBDqPtnk5nLT_ay8Q7S21CII9O_wv09I9107WMwo0c6_8hQQyxbbJDL_CNsTwH-Qd_qDlCAs8wCywNp-CnBUL1MYIm1j28M87Av-KtYQrlkbqhNgpyHxIOAL91cT-sCq5UbCpcdpy7RyG7ni-lGgXrzxZ3bQWntDtacY1Oe3cAzQ2q8o-EVpWp8bcEjjATBhKrKFGu-uLtkwUYQHAWb22IpyuNtEzRGPduBHghIQjqDLk7C5sM9ZfYfnecO7XcpIqIz65VlGliBovHc03BuoeNBucAsH3_hkjltMPr5xW0MCVlSFIGY0_s-51rDKIKZcM2hUrZ1LZ18kY6nr9QystVo_qubjdj6h36tshpFQJPd7S0zcvkXbSUmW1ZiuGx0KxGGw0mdtfOhezKt91sEYiBpEkIy2qQTeqOx0pNnsXVe-ivZPkFPKIUH3dg7IY-kReexuyMz7twcSosmK6yKFjpTsjGrZ4CXkL3XKFxKSq6Xs7aYhCX3JlRQ7txTxJRhIcQ2TYv9VrhOc5VAD1ByOTNL65KgFsiGZQPxxyEVrd6nT1vjKfl2N-QMKf0iNZMHukXZiJCPWrGiYjNcRrjjt7gA8xd3pTeltFf_zOEJbQmwdti8grRGxkqDCCh8sMW6hxFQCBHl4RYti9EM9M8SCXEMUdIOsTT27Bi2gCUGtxwW6MC6GaNUNosv83_3FuqfEgjYDfbEr0LwG4LcYrf9Xy7fT4xshplOXuTu-cD0d5NjAM68vZgNmdlIzX_VqYFKNKag1d0UFTNxk9JUErLJTUQjWUQd132WQ9q1Ws5vihwmmXMnn_jeWRYP-skM0ATLKHkFuWQm8x9dHWnPnnEkhk5fIsc7u3LMjZh1n8r5ta3ZRw-mMGw5R6psTsgHRSrBZgMrMtTm4qTeoqKrPpPBWqDwodNL3BhCW4vAxVrfjaECJEQho_XteW7I4SBjHZn1F3eCMdJFZ06Wl5d1g5_ils7p5GI-P0_pgT3R6PyH5PUXMZmdZiZlxosYt2YWr9G6yqJhFxV5Zf9nLPeQIPi_r7wVxZNkgROOMMyibwLt0g1kblhwK1wbdARS3Mzlou5H142oLur-rHFsT7-ywKQK6I3JxXDuDaO4qxLuOQdP2TMqI2wyLfWPbIdi2NxUX2qStVg3y6TG4pBsJlG2dsEl9pGxRv8F90NOI9AZZLP3haRXc70IAIUAcMlPVsx9_VkXztlc2uhlRt5TOxJ_kNG5Z8SnrxqHFr180J4NAyeu9AGugEzG00U3eu_70UtTc4K2uMJKH9EqmOev9tDQQTBpLBecG7298AwpsIKY2EIT1nMJKn-19HM8POn5Ci-9mCOKCvskw58WuR3QBmDynSEnU8cD1EpOi9nMamUoqsR8d73iVeuIDWcSi-XI03f",
+   "status": null
+  },
+  {
+   "arguments": "{\"url\":\"https://www.harvardpilgrim.org/public/member-forms\"}",
+   "call_id": "call_cBK4ofAZgNSMaBkgSPAAgWfZ",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_0a93d396a4cc4c85016a9b68f9a78087d2b62665411eafaaf0",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_cBK4ofAZgNSMaBkgSPAAgWfZ",
+   "output": "{\"url\": \"https://www.harvardpilgrim.org/public/member-forms\", \"final_url\": \"https://www.harvardpilgrim.org/public/member-forms\", \"http_status\": 200, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Forms library | Harvard Pilgrim Health Care Skip to main content We use cookies We use cookies and other activity trackers on our website to help improve your experience. You agree to their use by continuing to use our site. Learn more about online privacy and security . Viewing: Member login Main Menu Member Broker Employer Provider Viewing : Visit our site as a: Member Back View Insurance Plans Shop plans Health & wellness Resources Broker Employer Provider Need language assistance? Find a provider Contact us Member login You're Viewing: View our site as a: Member Broker Employer Provider Back View Insurance Plans: Shop plans Health & wellness Resources Harvard Pilgrim Health Care Home Need language assistance? Find a provider Contact us Login Breadcrumb Forms library Access all the forms you need to help guide you on your health care journey with us Filter by Filter forms Filter by Point32Health is the parent organization of Harvard Pilgrim Health Care and Tufts Health Plan. Together, we're delivering ever-better health care experiences to everyone in our diverse communities. Member information Insurance plans Member forms Health & wellness Prescription drug plans Resources Help Privacy & accessibility Privacy disclaimers Nondiscrimination Accessibility Accessing your health information Text messaging terms & conditions Legal Claims transparency Consolidated Appropriations Act Machine-readable files Do Not Call policy Fraud, waste and abuse CMS prior authorization metrics Additional information About Harvard Pilgrim Newsroom COVID-19 information Careers at Point32Health Point32Health Foundation Member information Insurance plans Member forms Health & wellness Prescription drug plans Resources Help Privacy & accessibility Privacy disclaimers Nondiscrimination Accessibility Accessing your health information Text messaging terms & conditions Legal Claims transparency Consolidated Appropriations Act Machine-readable files Do Not Call policy Fraud, waste and abuse CMS prior authorization metrics Additional information About Harvard Pilgrim Newsroom COVID-19 information Careers at Point32Health Point32Health Foundation Social links Get the app \u00a9 2026 Point32Health, Inc. All rights reserved.\", \"text_truncated\": false}"
+  },
+  {
+   "id": "rs_0a93d396a4cc4c85016a9b68fb9fc887d291f78e8e2157d8b1",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2j9jy67BEPWfeJtzFGb0H4U-9uJJYOU3-dTApbNrOc0WCwNSjY9SJ4tf2Vgnu5U8L1hR52SxBemYleDAUC8XLYJZCGStL9DqHnANxxWi10MsST-QernOEuIXBqds5OUMPy0SKQHhv0XBmDdKLiaq6Hmck9SFBrYVeaiqFc455Wg76vzIYkiE113ebP6WSWXpcbb1oth79_mmZSHqPmVUlGDe41qOh3lqkFr5l5XwVa32moqvOjzOBSCO9EJ7bVkPUP2bfF6GphnCirL1C2vviZJEiYUtBI1td6gIEUXkJXepDO1GfRrsK01x3fuShtcXSUix0exwtywvyQccmUyxpgfBJbcZoLm7gUEtbrOjhXUzMwpy9Gxyh3BAutX0OHicCMdimY1MnDOj5TmVjoQKVy-6T4hNsfzYeKVJrDGWApiZc_RpuiLippp3TvQ6wRUuTGTaibgq50FC4KMeumzLnD0s5U5UyKvNoro1v1bDLKt_ptUVgpMpijSR5MhdfWTGWzUVmuAaR1jtYHli1Hu82tSS4TQoC5ZJKyKlo7ntMy0dRPek7hieVnrBoHG68qzfMV9QzOEOyoJb98NWnF3NIG0Bg6IXWme4RZADzeDhXkCIjdyMGWrzpVsW0Vds5Q5vMojaWELmggXrOFCOknrayCUOsBHrQ80W7c2HhUCdGEzrRgjY6RkONttxA5JWL1fOZyzYvGwOV-3zKafqIBIMq7ksJGeKTu6ccFJaJk8bJuoRMsPrBfXjL-XbWA7Nh7ETnbHHJOvFz0ErZEpkmbcsaBgnJE6MvtzKOkaBSkmQGeT9I5qYK78I8YewSiRFADG8jFJ4We2zNvnY3mJir4or2CsRHy6e70Kr9wPtypJVpBG93USMSXvn5ppUOsHqVlt5tFKnDF3UurRZLW2DSpMRXk8vBmcKlW5ukstsroMfh6SeWpLGEsyJI_tLZapKVCE8Cqsr3p4SAA093My0errqHZavtYVFmCUpbEUMe8R_kmQcbmhRvF6GSEbA2WGxP7dqdumZ0kVV4B_i_X-eQqqNYCqbFxR3p-treRv4vW0jr-W6dmJXLS8cJzVQ3M1ly5tfosc69bF830mss1ME9J9xF3kitXWyQWE5OqYKDCEsPf-BwSCfvIDSF3buNGXuToWcnVcwljMwh2UKlKxuRQ1rBr8L4uM8C0tJtMBM23LMhBBlgDE6yugC1-owO5bzVa01HAiffDYUYSWBgxX88FxsJqp2luEnIIcSjDNa6IJwVxxNGDN1UebPIKkJXbZSXAcAO6C_rK4S4wP-whK5WZp60-afNHe7vUk5UXu25pEbvSy5vJU5t8lnTk2b9KDCQ2Y63cn2KPbI1BiYoM1lr4oxH0S6RwfHc-K-MWKbtTqdbavwdVrfP9KxaonZTUwtH_LEsT2jLVuEZMiPPFyhF8qtBMbdqGu6P0GmMymwe0ISIRq2JUXUzpu8R_bbKgK-3xlGSf-40cEzgpB1g_cKcElka67W7dFLQNoTndf2hagp8B6emrfxjPW3rDGg8d4fpvGy4nqi_eQElMwAxloC9IKuAlWE5wjP7UnLT9EDZjSN4IiTLOgkMBOTTIhjggDxeWEF28n3MI5MnPdzFwPMav62lYlpvGGot6734cJ7sEUKmocwT5voHDyTsRjENh4_Sm2YedrXagWL0VUDBvxqg0URIE9NS2AZikhmNh-7YFVVBZFBPGl_4M4y3IHW6GWFlEKNK6Ru6ULGVYM1TsQHBuyJ80yw0lMRHjbn5JwqeTDYkYm1k7vRXIg8lT8LWVYJphg3vcUq7I2ZwenNy5af_bK7WtOzTKwr4xSr-B3EWdeMby-pVbdnDFedWDdGjAHev_wXLeuXMPQnCh7Fy1dd-4hR7eqgDBF3t5Qs7sWbMZLkuMBtMmAm3mH3FDLXExYZdNgTwpmsibd32ldTNXi6YXADQb1P2lwe5HIlRBvU6hLJ8QFqUAPC6OjfeRC8wP_NuBCRFbdngKYCyNhdGhRpPVxZ0Wd5qfqH_eAqNY7cJ-z6HRj7cG0zqsnweoFqVOs1nISRpZQasYQ3z5h5T4vU2zyMUnYymiqB4LkksmaJJ4-l-SpD5HyvvYLxcCZ6prt141hkj1vKNxO177VyjrAJTrB2L7cxpwDgRfqf5FamTHfaV9SFCiSbpgmYRkm_bkQ-IHaz1wAuR_A1MuH7WETfSWlq_wU_t9I_PUteC_jUwlV_XmDlCVubspMdAtJ9mABICoTO0KerhXQCcsQqhhuVCGVQtrGiZaYq4grqvCatKk5YNchxiZr-xro6JZJReiQnaqEE-SbGLT0m9vYuYFwbAJWC9JzO1N-FttkF2DinHx0AJKKhxe6ita4MGps0FTdU_hL9jy7uEGYcWPArscqsEKDxx5Clpl4UXIgOQ3Za9JpTChfgTXXOc4gp9VSzWfVVq6lQqS-",
+   "status": null
+  },
+  {
+   "arguments": "{\"url\":\"https://www.harvardpilgrim.org/public/contact-us\"}",
+   "call_id": "call_E3MrWxU7mIjPqGBSarHRfi2d",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_0a93d396a4cc4c85016a9b68fdb7e887d28570b08aff00770f",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_E3MrWxU7mIjPqGBSarHRfi2d",
+   "output": "{\"url\": \"https://www.harvardpilgrim.org/public/contact-us\", \"final_url\": \"https://www.harvardpilgrim.org/public/contact-us\", \"http_status\": 200, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Contact us | Harvard Pilgrim Health Care Skip to main content We use cookies We use cookies and other activity trackers on our website to help improve your experience. You agree to their use by continuing to use our site. Learn more about online privacy and security . Viewing: Member login Main Menu Member Broker Employer Provider Viewing : Visit our site as a: Member Back View Insurance Plans Shop plans Health & wellness Resources Broker Employer Provider Need language assistance? Find a provider Contact us Member login You're Viewing: View our site as a: Member Broker Employer Provider Back View Insurance Plans: Shop plans Health & wellness Resources Harvard Pilgrim Health Care Home Need language assistance? Find a provider Contact us Login Breadcrumb Contact us We\u2019re here to listen Main numbers, TTY: 711 Call 888-888-4742 Call 617-509-1000 View Member Services department holiday hours Member Services 888-333-4742 TTY: 711 Mon., Tues. & Thurs. 8 a.m. - 6 p.m. Wed. 10 a.m. - 6 p.m. Fri. 8 a.m. - 5:30 p.m. Send a secure email to Member Services. We value your privacy. Medicare Supplement plan 877-907-4742 Mon., Tues. & Thurs. 8 a.m. - 6 p.m. Wed. 10 a.m. - 6 p.m. Fri. 8 a.m - 5:30 p.m. Compliance and Fraud, Waste and Abuse Hotline 877-824-7123 Medicare Advantage plan 888-609-0692 TTY: 711 Oct. 1 - to March 31 8 a.m. - 8 p.m. 7 days a week Apr. 1 - Sept. 30 8 a.m. - 8 p.m. Mon. - Fri. Behavioral Health Access Center (Medicare Advantage Stride) For behavioral health eligibility, benefits and claims 888-777-4742 Mon. - Fri. 8 a.m. - 6 p.m. Ongoing service for group health plans For eligibility, billing, benefits and claims 800-637-4751 , then option 1 Email the Broker Employer Service Team Mon. \u2013 Fri. 8:30 a.m. - 5 p.m. (shutdown for training Wed from 8:30 -10 a.m.) Broker Relations For credentialing, licensing and commissions 800-637-4751 , then option 2 Email the Broker Relations Team Mon. \u2013 Fri. 8:30 a.m. - 5 p.m. (shutdown for training Wed. from 8:30 -10 a.m.) Small group implementation and quoting For small group installs, quoting and renewal 800-637-4751 , then option 3 Mon. \u2013 Fri. 8:30 a.m. - 5 p.m. New business sales inquiries For large groups (50+) Contact your Sales Executive or call 800-637-4751 , then option 4 Medicare Advantage plan 800-424-7285 , select option 3 Oct. 1 - to March 31 8 a.m. - 8 p.m. 7 days a week Apr. 1 - Sept. 30 8 a.m. - 8 p.m. Mon. - Fri. Medicare Supplement plan 800-424-7285 , select option 3 Mon., Tues. & Thurs. 8 a.m. - 6 p.m. Wed. 10 a.m. - 6 p.m. Fri. 8 a.m. - 5:30 p.m. Ongoing service for group health plans For eligibility, billing, benefits and claims 800-637-4751 , select option 1 Email the Broker Employer Service Team Mon. \u2013 Fri. 8:30 a.m. - 5 p.m. (shutdown for training Wed from 8:30 -10 a.m.) Provider service center Provider Service Center Monday\u2013Friday, 8 a.m.\u20135 p.m. 800-708-4414 Provider Service Center for Passport plan Currently: Monday\u2013Thursday: 8:30 a.m.\u20134:30 p.m. Friday: 9:00 AM\u20134:30 p.m. Beginning Sept. 14: Monday\u2013Friday: 8:30 a.m.\u2013noon, 1\u20134:30 p.m. (closed from noon to 1 p.m.) 800-708-4414 Medicare Advantage plan 888-609-0692 Oct. 1 - to March 31 8 a.m. - 8 p.m. 7 days a week Apr. 1 - Sept. 30 8 a.m. - 8 p.m. Mon. - Fri. Behavioral Health Access Center (Medicare Advantage Stride) 888-777-4742 Mon. - Fri. 8 a.m. - 6 p.m. Consumers Sales Department Consumer (Individual & Family Plans) 800-208-1221 Email the Sales Department Media inquiries Email Public Relations Submit a sponsorship request Provider directory feedback Notify Harvard Pilgrim of inaccurate information found in our Find a Provider directory. Call 888-333-4742 , TTY: 711 Members can send a secure email to Member Services . Canton, MA Corporate headquarters Harvard Pilgrim Health Care 1 Wellness Way Canton, MA 02021 Boston, MA Harvard Pilgrim Health Care Institute 401 Park Drive, Suite 401 East Boston, MA 02215-3325 Manchester, NH Harvard Pilgrim Health Care 650 Elm Street, Suite 203 Manchester, NH 03101-2596 Portland, ME Harvard Pilgrim Health Care 80 Exchange Street, Suite 200 Portland, ME 04101 Point32Health is the parent organization of Harvard Pilgrim Health Care and Tufts Health Plan. Together, we're delivering ever-better health care experiences to everyone in our diverse communities. Member information Insurance plans Member forms Health & wellness Prescription drug plans Resources Help Privacy & accessibility Privacy disclaimers Nondiscrimination Accessibility Accessing your health information Text messaging terms & conditions Legal Claims transparency Consolidated Appropriations Act Machine-readable files Do Not Call policy Fraud, waste and abuse CMS prior authorization metrics Additional information About Harvard Pilgrim Newsroom COVID-19 information Careers at Point32Health Point32Health Foundation Member information Insurance plans Member forms Health & wellness Prescription drug plans Resources Help Privacy & accessibility Privacy disclaimers Nondiscrimination Accessibility Accessing your health information Text messaging terms & conditions Legal Claims transparency Consolidated Appropriations Act Machine-readable files Do Not Call policy Fraud, waste and abuse CMS prior authorization metrics Additional information About Harvard Pilgrim Newsroom COVID-19 information Careers at Point32Health Point32Health Foundation Social links Get the app \u00a9 2026 Point32Health, Inc. All rights reserved.\", \"text_truncated\": false}"
+  },
+  {
+   "id": "rs_0a93d396a4cc4c85016a9b68fedd5087d2a9fde49ad374ee5f",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm2kIfhvhHvewcFflT21G2lYRqe2j7bf848iETKRsysZec9ITzbiZpmCMjUBU8x_keBE_HqMhenpmZb_eD7BvC2KmP9_VSPxeK6ohtr7WoG79qwLu1Dqpzc0gdYd3wXNNXdsiUiChuv78ynXtXlx30SRPqD-_gR6CdKVBSRY7XKE_sQh-S7rdokgoUEWw6GDYaop-u7bKwxTUHyFnLUAlFymw0sPM59WiG1_mSvnIIf-PhMO5QLzN_ak2DCKeyN54naAhDVtpQT3Y0VLws3cIoHmw3Bj-XkZN4styIstyMf8zFDr3QJyfcJ4PZT7u3wdNkGF2yl7VQooYilhUtVjpbjq9gMby71M3pr0emDIBYYSyKpfCZY9RhdqxhWTVOz9Qt4FnG6asrHZNz4T3NLSs7MA3UxIc_Qp-0knvH9Hz7-nTJFAgLioehHoK69aSp2PX3lNPBMy1XZ3BLR81sp4PI7bPWb1ALfQ4uL8Lzu_H7cgCB5gAZd2ySE54fuQdJFVMXtde4PqHb-2aDzXUmEU0O7iT0jMAkoOlZAeP4JDABnCSMTv64vrY7nfVtDM-TvlLhR6qy8Lyz_IOgIgGL59giDk-ElSoPqt9w-T6-n3y2zmxJOrsfC1T7ZdKrEkEiWUbkG3Jp-7SGB3HWP_RB4UtuJYeWODeVCQCoB9AvSDLr_smz-vXqQjUdBIRiYrqtMIJT66CgYcBIClq8kkYZ4twlUB51Rx3E9Y7hOfjDuqsj0obm4siWYMJVzUJ4vjjRv-Pz2kci1JGWd8C5ftkvQcqhkKv8GrpfOKgYpa4J6YGOke6lv4Sm-9u8fPaknH0QYHui8Yi9zT-4EnqK5oMDd-dq2MY8uu0xrnrSL6igpeXziKE1mgxU3u0SgQUlyYlXCWfpmaea8nJIrhs4PTbv9bv5Hz8JDy8DIhkOGQiCJ7faSGsx6FN6SHQfhEMP7jWUMRqDNI7EzUGtHrDyzT-fDI_bohfrvgK8mCyya4ZboqRJwQnSgYTfCnZbbTuVbhUjk7eKBwgN3Zd4-JEPGSMVqcZGvk3Ei6CemoXuEKR0j93dsA3KyQqLLSsogbe9QWBSuvB_8l4-yDIb3xSgrDb1MDPOn5kAagpHrTCw_2b2E1oceJUzXcnpxuHESk626LNPQ2OeoNCAxEJyK75Q6dTluB-MOqZLF-dZWhwPHnpG_g0IJjSV0T_6fSNq5b4KzgeAwXxmre_nSJDWN2dDVLe2dN9B-1-gRKWGwLSLfQonY3WbG1cAiApEDkXcBnUjniXCMwyMcuFvYMa0vjZ3VwHrnYb-ln3mx42M0vIf82XGbj2fFyuBhmneSLEoGRpWl00QRZVO9chotUPHsE7iIvPMINsg2Ze88t7_LoX9DIS22RLM9cQihS3CuAfle2xPHUjAWbfS-xXlIFdjqMVG4HaBhxG9scxZAHzcG6i2RrNbAGjP5ytZMPDzV9LdS_82pEYY3bkVCBffVCtO3uFqs_p2OdZC3kxvfsnh5aJs99cE4LLcBosYk1QPMCLiKQN-w21Lkn8xcTTTd1oJosLFJvPGt6663HMbQEI2h9O_FZPHQQ_hrJQuGtQvKUHWUwQOHvhX7zQen-4yemKXH5h2jqFIiGaOgEAhe4vf4EQVdPy9Smysh5NVGAsUEmLJIg5WGu1JWrjtrTCyANsGiFqPofbj_aG6VRG0r2657f5P_jab7URsx6LHjK8a3iVhlKkYCnDH3Xy0VrPJ6rbw0ZyRrg8ul8VCp_UZcpVDBDzAwhDqERrWw1LW9b8UySIlLTd94mCeiKqBXFKwCi8ZPTVMD1ebr3k-DHUEXeEfE7qDg1iO415VmulURO_6fjp0eRiqgUvrPJjFY05aifYaH-080du3E--32eWk27mKEDjL6F6L8rOYjm0HVUx1NPypeDFpvHgUMDn4HoY-Oip5Ws8o1226FJHYbF7JbO6tk9IvyKF4uoOab4ZGxWvZJKYmkFi9SaCS5KgzpUwAkAZQOUCDqGDwn9Nq70hye6nnjRlqU7sELJ0crLzHhQDTLNac0F5xQsyLag3OaSw2Rn4S-B8-URFIG2pHQoq-dEPe-8HgB3K0b_-88aWCond30P65Sd3TnifmDs46-_ZA6euhQwlHOfwoBv6ySYqkRbq3S46CpnRVx6h4G0MDXXgooii49DARPSQypks2LQJBlTszKpLhuFsYciNkj7csCQYPAGrf7-GC6slYzvS1K65HUbnWJCXEKMBeMfpNMl8TlwKobSA6MclbKLRy3qq1VKp-GKQ1OhE6o1wpTYn5qtbINM347PjL5dOtvjjsIMtLxzqtvW74Iv4XK2zt4bFDLWQ3U0XSsm9zF2wsj1PvzEU40Lh5aaMku7ejvfa4jH3uno0zNdvuU50nG832LQVQtCi0ldkAck6TQ18TqYJVt8miC9LVJmjoc-W2dNihEjCOFJ2G-3qKn6NprW-MwW_Abt549pGikweI9oqFNWu4TEVIVRJY3ZHrX6mRqPj63H8kkLkyTj04B00wCkXuzXq6gqZ742Pq8F7NfjUIb4SdcjH_91JQXC6TsskWWmK6qkcpYrckkQVJVozRU06K6T2Ad2wKLTxmrlU4EvnU1vg22wtKd6ZjN7Hr7sUbt8jkluZV5GsulhJMat9rd-hUBC-nHNqdxfwJAwaecWJkZ0Mxa6X8OlUmGOApjXpguXQ50QIeIdp_6djDjY7EtdMfWQ11oquZNnllRbyGmlrSL1gQDs78WqW1FUoGdXD4nO_YmdgX7u3wwFR-hfl6u5VzImZYu2iRh6AWScmICgcma1-MdzW8BRcumY_TpeGUICISU-l51KCpzMxwXIeoG6FBdaBpOtltmwxv-7_AHD-m6YDY20wC4W511Jg7K5uBxdb3ujIiKE8dXWSgg_Gcd5Q--YTy5yfpK_4J9xzFZHbQYD_qgshp1kol1hDBRHZ6sNCnPQQfeVFIqDK6FRQaN0xu15EEPuig3ZeYPPZKBrN7ZAsktk499CYbiRYEhoLC9sj7pFS5EGgyxyWdcveozRJgg00urfhWuSFtAIUBoe525YFpavoCJFqw0MVxuQE-mxcsh8qril4vfFaGYDabMkDNyHUVuZ7Bx4drInFwh6vN0ug9HDQJRUKhW5VunzWZkKv72Z2U0DYbcardfI30TUd6Ly5R7vx-MOqq5q0pd5BuqQ5NkDZ9UsmpUPBP3wXwun3WLUM7Zb7lVIuObbo1g6J_zN408GB1JfqA8DXfgp2jVPloFwZyTT6l4GmxT2TNdvXmy5XapWJUimk90Vw0oW-qRGHjdGPb_6ZKLTbjmia0oVSyVe0gcst6d95T23o15aMO5NBWQI-UaTevujPLW1rXfkX3JZtM4jSXej0pSI8SdWi5IU=",
+   "status": null
+  },
+  {
+   "id": "msg_0a93d396a4cc4c85016a9b6902db4c87d2ba40adc2ad4d67dc",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\n  \"policy_found\": false,\n  \"policy_title\": \"InterQual\u00ae Criteria (Harvard Pilgrim Commercial Prior Authorization Medical Review Criteria)\",\n  \"policy_number\": null,\n  \"policy_url\": \"https://www.harvardpilgrim.org/public/prior-authorization-medical-review-criteria\",\n  \"effective_date\": null,\n  \"criteria_quotes\": [\n    \"For all products, when prior authorization is required, Harvard Pilgrim uses written criteria based on sound clinical evidence to evaluate the medical appropriateness of health care services.\",\n    \"These criteria are objective and based on current clinical and medical evidence and applied with consideration of individual needs and characteristics (e.g., age, comorbidities, prior treatment and complications), and the availability of services within the local delivery system.\",\n    \"Commercial Prior Authorization Medical Review Criteria \u2014 InterQual\u00ae Criteria\"\n  ],\n  \"appeal_deadline\": \"2027-02-05. The denial notice states that the appeal must be received within 180 days of 2026-08-09.\",\n  \"submission_route\": \"The denial notice supplied does not state a mailing address, fax number, portal, or other submission method. Harvard Pilgrim's public contact page lists Member Services at 888-333-4742 (TTY: 711) and provides a secure-email option. Call Member Services and request the exact member-appeal submission address or electronic submission instructions for reference POC-E2AA78E9EC-43782. Submit the appeal so that it is received by 2027-02-05, and retain proof of delivery.\",\n  \"how_to_obtain_criteria\": \"Request from Harvard Pilgrim, preferably in writing and through Member Services, the InterQual criteria version and specific criteria sections applied to CPT 29881, together with the clinical-review rationale and any documentation considered missing. The publicly available Harvard Pilgrim page identifies InterQual as the commercial review standard but does not publish the CPT-29881 medical-necessity criteria, policy number, or effective date. The treating provider can also request the criteria and the precise additional documentation needed for reconsideration.\",\n  \"confidence\": \"Medium-high\",\n  \"notes\": \"I did not find a publicly available Harvard Pilgrim medical-policy document containing CPT-29881-specific medical-necessity criteria. Harvard Pilgrim's official page confirms that commercial prior-authorization review uses InterQual criteria, but it does not provide a policy number, revision date, public InterQual document, or the actual knee-arthroscopy criteria. Therefore, it would be inaccurate to identify a specific publicly available policy as the governing document. The Maine member handbook was publicly linked, but its PDF text could not be retrieved in the available web access, so I cannot reliably quote its appeal-submission instructions.\"\n}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": "final_answer"
+  }
+ ],
+ "stop_reason": "completed",
+ "usage": {
+  "input_tokens": 42974,
+  "output_tokens": 1941
+ },
+ "model": "gpt-5.6-luna",
+ "elapsed_s": 35.3,
+ "run_id": "r-10e217102c09",
+ "case_id": "poc-e2aa78e9ec"
+}

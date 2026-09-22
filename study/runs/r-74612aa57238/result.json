@@ -1,0 +1,378 @@
+{
+ "answer": {
+  "policy_found": true,
+  "policy_title": "Knee Arthroplasty for Adults",
+  "policy_number": "BSC7.10",
+  "policy_url": "https://www.blueshieldca.com/content/dam/bsca/en/provider/docs/medical-policies/Knee-Arthroplasty-Adults.pdf",
+  "effective_date": "2025-12-01",
+  "criteria_quotes": [
+   "I. Knee arthroplasty may be considered medically necessary when all of the following criteria have been met:",
+   "A. The reason for the arthroplasty is osteoarthritis (OA), rheumatoid arthritis, osteonecrosis, or post-traumatic arthritis of the knee joint",
+   "F. The individual has one or more of the following conditions: 1. Degenerative joint disease when all of the following conditions exist: ... c. Radiographic evidence of severe osteoarthritis as evidenced by either of the following: i. The presence of definite joint space narrowing with sclerosis and possible deformity of bone ends ii. The presence of large osteophytes, marked narrowing of joint space, severe sclerosis and definite deformity of the proximal tibia or distal femur"
+  ],
+  "appeal_deadline": "2027-02-21",
+  "submission_route": "You can submit an appeal in three ways: 1. Online: Log in to your member account on blueshieldca.com and submit an online grievance form. 2. By Mail: Download, print, and fill out the Grievance Form (PDF) and mail it to: Blue Shield of California, Attn: Member Services Grievances, P.O. Box 5588, El Dorado Hills, CA 95762-0011. 3. By Phone: Call the Customer Care number on the back of your member ID card or call (800) 393-6130 (TTY: 711).",
+  "how_to_obtain_criteria": "The policy is publicly available online at the provided URL. If you would like a paper copy of the criteria used to make this determination, you can request it by calling Blue Shield of California Customer Service at (800) 393-6130 or the number listed on your member ID card.",
+  "confidence": "high",
+  "notes": "The denial specifically states that 'the imaging findings submitted do not support the medical necessity of the requested procedure.' To successfully appeal, you should work with your provider to submit the actual X-ray/MRI reports or images that show severe osteoarthritis. According to Section I.F.1.c of Policy BSC7.10, this must show either: (1) definite joint space narrowing with sclerosis and possible deformity of bone ends, or (2) large osteophytes, marked narrowing of joint space, severe sclerosis, and definite deformity of the proximal tibia or distal femur."
+ },
+ "raw_text": "```json\n{\n  \"policy_found\": true,\n  \"policy_title\": \"Knee Arthroplasty for Adults\",\n  \"policy_number\": \"BSC7.10\",\n  \"policy_url\": \"https://www.blueshieldca.com/content/dam/bsca/en/provider/docs/medical-policies/Knee-Arthroplasty-Adults.pdf\",\n  \"effective_date\": \"2025-12-01\",\n  \"criteria_quotes\": [\n    \"I. Knee arthroplasty may be considered medically necessary when all of the following criteria have been met:\",\n    \"A. The reason for the arthroplasty is osteoarthritis (OA), rheumatoid arthritis, osteonecrosis, or post-traumatic arthritis of the knee joint\",\n    \"F. The individual has one or more of the following conditions: 1. Degenerative joint disease when all of the following conditions exist: ... c. Radiographic evidence of severe osteoarthritis as evidenced by either of the following: i. The presence of definite joint space narrowing with sclerosis and possible deformity of bone ends ii. The presence of large osteophytes, marked narrowing of joint space, severe sclerosis and definite deformity of the proximal tibia or distal femur\"\n  ],\n  \"appeal_deadline\": \"2027-02-21\",\n  \"submission_route\": \"You can submit an appeal in three ways: 1. Online: Log in to your member account on blueshieldca.com and submit an online grievance form. 2. By Mail: Download, print, and fill out the Grievance Form (PDF) and mail it to: Blue Shield of California, Attn: Member Services Grievances, P.O. Box 5588, El Dorado Hills, CA 95762-0011. 3. By Phone: Call the Customer Care number on the back of your member ID card or call (800) 393-6130 (TTY: 711).\",\n  \"how_to_obtain_criteria\": \"The policy is publicly available online at the provided URL. If you would like a paper copy of the criteria used to make this determination, you can request it by calling Blue Shield of California Customer Service at (800) 393-6130 or the number listed on your member ID card.\",\n  \"confidence\": \"high\",\n  \"notes\": \"The denial specifically states that 'the imaging findings submitted do not support the medical necessity of the requested procedure.' To successfully appeal, you should work with your provider to submit the actual X-ray/MRI reports or images that show severe osteoarthritis. According to Section I.F.1.c of Policy BSC7.10, this must show either: (1) definite joint space narrowing with sclerosis and possible deformity of bone ends, or (2) large osteophytes, marked narrowing of joint space, severe sclerosis, and definite deformity of the proximal tibia or distal femur.\"\n}\n```",
+ "usd": 0.0485,
+ "transcript": [
+  {
+   "parts": [
+    {
+     "text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-25\nMember: Taylor Kimura\nMember ID: W381271109\nPlan: Blue Shield of California (Commercial/ACA), state of California\n\nDear Taylor,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total knee replacement\n    Procedure code (CPT): 27447\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-21).\n\nReference number: POC-972F74519C-71410\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_49678",
+      "args": {
+       "query": "\"Blue Shield of California\" \"27447\" medical policy OR \"knee arthroplasty\" OR \"total knee replacement\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EoYDCoMDAWkUfRMRgfHdZklHv0WlbujdRJhu7m9YCpwAIDhE4e866VcrLQyx2mGdUf7yxiX-FgpRtjXlKeMvG65m5NharaQFwDdS2SA1CTr2YKNrZLW6E8ZBb6XnvXUQnw1z-WSPFPuqUr8NYWOt86My7KMYgIkv2tCTxbpn5cg5laYULW6hX5w_VMm5TiSs_jpfcCwleD8pEkiNHnVq5qSXqANpH2R9jzl324-XSeDLlbwVPGzlDgKUV1eD7oVH4A30RCGIAwsMjNGWhd21IKmGqqmap9M7GRbFQ6inhzFsAd4fjhtBAGit5eM__31bG8R2w1zrc91mq4Ul6lPyAzL83M1zVodpYHD1dTs781Mb9_QdWPVYFJM1suKc6Q9Ru8ceVjSbkssH4GL_PO6ATz4MYULBuKUtmcB1r0-h8GE2KzjkyhRStMwM2HZIqbGk_-pSphR86OkBgHycvlilxOg57xxeIf85tDXk_asQH68UnRPOpRNk4NeFOxAL214-PP2Nx-X0jUma"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Blue Shield of California\" \"27447\" medical policy OR \"knee arthroplasty\" OR \"total knee replacement\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_48276",
+      "args": {
+       "query": "\"Blue Shield of California\" \"knee\" arthroplasty OR replacement medical policy"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsYBCsMBAWkUfRP3DSIKLmgxYzZm20X09wY4MSCos4P6FKkTctXVUsBC0UY4K47K8UsB_PEpia3msdzXZzxUs2Yu2dDSmsnhnQcgDpUJLYrGxHmd1FH4Keg_kPF6D6olrXfrqXgFTd7N3vAHV-WS4HFQPiItz28NQjkO6cCgITEg_b-_YVGC4FDgM30xD56Q1OhmYqVspdou3SvWvG7xmHIk2h9-bIfIL6LHMjUJmpFQpfYXH5LLJBzYyKLeC98x9DaVP5VMte6k"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Blue Shield of California\" \"knee\" arthroplasty OR replacement medical policy",
+        "results": [
+         {
+          "title": "Blue Shield of California 601 12th Street, Oakland, CA 94607",
+          "url": "https://www.blueshieldca.com/content/dam/bsca/en/provider/docs/medical-policies/Knee-Arthroplasty-Adults.pdf",
+          "snippet": "obligated to determine if these FDA-approved Healthcare Services are Medically Necessary. ... Knee replacement surgery is a procedure and therefore is not regulated by the U.S. Food and Drug \u00b7 Administration (FDA). However, devices and instruments used during the surgery require FDA \u00b7 approval and are regulated by the FDA through the 510(k) marketing process. Knee joint prostheses ... Total knee arthroplasty (TKA) is commonly performed for the relief of arthritis associated knee pain in"
+         },
+         {
+          "title": "Blue Cross Blue Shield of Mississippi",
+          "url": "https://www.bcbsms.com/policy-search/medical/policy-detail/knee-arthroplasty--west-central-and-north-east-region",
+          "snippet": "Revision knee arthroplasty or replacement of the previous failed knee prosthesis with a new prosthesis <strong>may be considered medically necessary in individuals with significant increase in pain/swelling and/or decrease in knee function</strong>, in the presence of any of the following: ... The Company requires ..."
+         },
+         {
+          "title": "Blue Shield of California | California Health Insurance",
+          "url": "https://www.blueshieldca.com/bsca/bsc/public/member/mp/contentpages/!ut/p/z1/hVDdboIwFH6WPUBzDhRKuSxMEKIz8WfY3phSRMlmIcZI9vbrls079dydnO98f6BgC8rqa3fQl663-tPtUrGdzws-RfTKBfqIgmNavsUx51EE7yATkJmdFWyE6hlauTPeGYFQPgM4O_55ns4PoAZ9OZLOtj1sh944afX7fBPP1ylFkU8EzfiG8iD4Azxgl85-tCs5siJZ4AxXPELxOlkmIvN9zD2ort1-hI3tzyfXzeqHcTBdA9LQxkSGBaRhtSZByFpSh3FDKDWh5nuvYZ4H0_-ADwqq0luZw8l-EVWzJR_X7fHj5RtuVNk9/dz/d5/L2dBISEvZ0FBIS9nQSEh/",
+          "snippet": "Blue Distinction Centers for Knee and Hip Replacement provide a full range of knee and hip replacement services, including total knee replacement and total hip replacement surgeries. Learn more about the Blue Distinction program. Note: Designation as Blue Distinction Centers means these facilities&#x27; overall experience and aggregate data met objective criteria established in collaboration with expert clinicians&#x27; and leading professional organizations&#x27; recommendations. Individual outcomes may vary. To find out which services are covered under your policy at any facilities, please call Blue Shield Customer Service and call your provider before making an appointment, to verify the most current information on the Network participation status."
+         },
+         {
+          "title": "Blue Distinction Centers for Knee and hip replacement | Blue Shield of CA | Blue Shield of CA",
+          "url": "https://www.blueshieldca.com/en/home/find-a-doctor/help/knee-hip-replacement",
+          "snippet": "The criteria for selection to the Blue Distinction and Blue Distinction Centers+ for Knee and Hip Replacement program were developed with input from physician experts and medical organizations and include a comprehensive evaluation of structure, process and outcome measures."
+         },
+         {
+          "title": "Program Selection Criteria: Knee and Hip Replacement ueD isti nction\u00ae",
+          "url": "https://www.bcbs.com/dA/58e1814c82/fileAsset/Selection_Criteria_KneeHip_Replacement_2019.pdf",
+          "snippet": "... ASCs will be evaluated based on data sourced from the Provider Survey as \u2018self-reported.\u2019 This Program \u00b7 <strong>requires ASCs to have an advanced orthopedic certification2 that confirms important structure and process</strong> \u00b7 features to successfully perform total knee and total hip replacement ..."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_90189",
+      "args": {
+       "url": "https://www.blueshieldca.com/content/dam/bsca/en/provider/docs/medical-policies/Knee-Arthroplasty-Adults.pdf"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EpQCCpECAWkUfRNKRv1aWXl6u7Gbch0s8uqMryNfeq4EQ2FEm1THM587V3nborVgTG3RxcCRu2E4zV118rgekj-Em9XmigWATtVGncPyGtFkUNmjo3uHqWT2P8bVCD8Jj68vxOR_J3M5S8nqPIwvyUkn6ekiJSgYjVxwTK41tcQN589BEUYWix1eHQA_AojhUjcJr4XbNGlJJ2LFDIX-ZCSqYk3V0oxYmW3L4zLFY6dLeEu9aDEo6LxuMrswFOafYxWQTTimUwLrcKJQrRPWp5eJ8sfeC4vUEmia7Lk735r-xCq4eRgRVQX7Ah8lILr-GpxCwoOHcy67A9ymRuLfFlPyHDPr_9OlnglVBSCeZ2-0K-AXQFpu"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://www.blueshieldca.com/content/dam/bsca/en/provider/docs/medical-policies/Knee-Arthroplasty-Adults.pdf",
+        "final_url": "https://www.blueshieldca.com/content/dam/bsca/en/provider/docs/medical-policies/Knee-Arthroplasty-Adults.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "Blue Shield of California 601 12th Street, Oakland, CA 94607 Reproduction without authorization from Blue Shield of California is prohibited. An independent member of the Blue Shield Association Medical Policy BSC7.10 Knee Arthroplasty for Adults Original Policy Dat e: April 1, 2016 Effective Date: December 1, 2025 Section: 7.0 Surgery Page: Page 1 of 24 Policy Statement I. Knee arthroplasty may be considered medically necessary when all of the following criteria have been met: A. The reason for the arthroplasty is osteoarthritis (OA), rheumatoid arthritis, osteonecrosis, or post-traumatic arthritis of the knee joint B. It is NOT for bicompartmental knee replacement, including bi-unicompartmental (two individual compartments in the same knee) C. It is NOT for a customized knee replacement, including all of the following: 1. It does NOT use customized knee implant 2. It does NOT use a \u201cGender specific\u201d implant D. It does NOT use focal resurfacing of a single knee joint defect (e.g., HemiCAP\u2122, UniCAP \u2122) E. It does NOT use minimally invasive approaches to knee arthroplasty F. The individual has one or more of the following conditions: 1. Degenerative joint disease when all of the following conditions exist: a. Documentation of unsuccessful conservative therapy (non-surgical medical management), or documentation of rationale if conservative therapy is considered inappropriate b. Documentation of limited range of motion, antalgic gait, and pain in knee joint with passive range of motion on physical examination c. Radiographic evidence of severe osteoarthritis as evidenced by either of the following: i. The presence of definite joint space narrowing with sclerosis and possible deformity of bone ends ii. The presence of large osteophytes, marked narrowing of joint space, severe sclerosis and definite deformity of the proximal tibia or distal femur 2. Distal femur fracture repair in a individual with osteoporosis 3. Failure of a previous proximal tibial or distal femoral osteotomy 4. Hemophilic arthroplasty 5. Limb salvage for malignancy 6. Posttraumatic knee joint destruction 7. Replacement or revision of previous arthroplasty as indicated by one or more of the following conditions: a. Disabling pain b. Functional disability c. Progressive and substantial bone loss d. Fracture of patella e. Dislocation of patella f. Aseptic component instability g. Infection h. Periprosthetic fracture II. Knee arthroplasty is considered investigational if the individual\u2019s situation does not meet the criteria above. BSC7.10 Knee Arthroplasty for Adults Page 2 of 24 Reproduction without authorization from Blue Shield of California is prohibited. NOTE: Refer to Appendix A to see the policy statement changes (if any) from the previous version. Policy Guidelines Conservative Treatment As medically indicated, members with osteoarthritis, traumatic arthritis, rheumatoid arthritis or osteonecrosis should have non-surgical treatment documented in the medical record, including all of the following, unless contraindicated: \u2022 Anti-inflammatory medications or analgesics \u2022 Activity modification \u2022 Supervised physical therapy which could include an instructed home exercise program, including flexibility and muscle-strengthening exercises. Post-op physical therapy visits will be allowed in addition to the pre-op physical therapy visits. \u2022 Weight reduction counseling as appropriate \u2022 Assistive device use (required for persons with certain relative contraindications to joint replacement, optional for others) \u2022 Therapeutic injections into the knee as appropriate Relative contraindications to joint replacement include the following: morbid obesity (BMI greater than 40), or age less than 50 years unless there are no other treatment options for the individual. Individuals with relative contraindications should exhaust all appropriate nonsurgical treatment options prior to surgical consideration. Customized refers to something that is made specifically for that individual and could not be used for anyone else. Note: Effective January 2025, HCPCS C8003 has been established to indicate the MISHA implant. This device was granted marketing authorization by the U.S. Food and Drug Administration (FDA) on April 10, 2023. The FDA identified this system as a regulatory Class II medical device under the generic name \u2018medial knee implanted shock absorber.\u2019 The FDA approved the MISHATM Knee System with the following indications for use in patients with \u201cmedial compartment knee osteoarthritis that have failed to find relief in surgical and/or non-surgical treatment modalities and are still experiencing pain that interferes with activities of daily living and are also unwilling to undergo or ineligible for total knee replacement due to age or absence of advanced osteoarthritis\u201d. Evidence for clinical utility of this device over standard treatments (conservative management listed above, and knee replacement) is currently under review. Coding See the Codes table for details. Description Total Knee Arthroplasty (TKA), also known as Total Knee Replacement (TKR), is a surgical procedure to replace the weight-bearing surfaces of the knee joint to relieve pain and functional disability. The knee joint acts as a multiform hinge system to allow flexion, extension, rotation, and gliding movement. The lateral, medial, and patellofemoral compartments make up the knee joint. TKA is one of the most common orthopedic procedures performed, especially for osteoarthritis (OA), and also for other knee diseases such as rheumatoid arthritis, osteonecrosis, or post -traumatic arthritis of the knee joint that cannot be resolved by conservative therapy. BSC7.10 Knee Arthroplasty for Adults Page 3 of 24 Reproduction without authorization from Blue Shield of California is prohibited. Related Policies \u2022 Hip Arthroplasty for Adults Benefit Application Benefit determinations should be based in all cases on the applicable member health services contract language. To the extent there are conflicts between this Medical Policy and the member health services contract language, the contract language will control. Please refer to the member's contract benefits in effect at the time of service to determine coverage or non -coverage of these services as it applies to an individual member. Some state or federal law may prohibit health plans from denying FDA -approved Healthcare Services as investigational or experimental. In these instances, Blue Shield of California may be obligated to determine if these FDA-approved Healthcare Services are Medically Necessary. Regulatory Status Knee replacement surgery is a procedure and therefore is not regulated by the U.S. Food and Drug Administration (FDA). However, devices and instruments used during the surgery require FDA approval and are regulated by the FDA through the 510(k) marketing process. Knee joint prostheses are regulated by the FDA as Class II devices. Rationale Background Total knee arthroplasty (TKA) is commonly performed for the relief of arthritis associated knee pain in patients who have failed conservative therapy . TKA is indicated when 2 or 3 compartments are affected. The lifespan of the prosthetic joint is limited and based on variables including patient age, comorbidities, obesity, as well as prosthetic and surgical factors. Although a TKA can provide potential benefits and successful outcomes, it is an elective procedure and should only be considered after extensive discussion of the risks, benefits, and alternatives. The use of shared decision making aides and functional outcome measures have shown to improve a patient\u2019s knowledge of the options available, and allows a patient to have a more accurate expectation of possible benefits and harm of their opt ions. In certain circumstances, a trial of conservative treatment is warranted prior to TKA. Conservative therapy (non-surgical medical management) may consist of activity modification, anti-inflammatory medications or analgesics, assistive device use, exercise programs, injections, knee braces, orthotics, supervised physical therapy and weight loss. If these measures fail, then TKA is considered an appropriate option. According to the American Academy of Orthopaedic Surgeons (AAOS), the following defines TKA and provides the TKA process: A knee replacement (also called knee arthroplasty) might be more accurately termed a knee \"resurfacing\" because only the surface of the bones are actually replaced. There are four basic steps to a knee replacement procedure. \u2022 Prepare the bone: The damaged cartilage surfaces at the ends of the femur and tibia are removed along with a small amount of underlying bone. \u2022 Position the metal implants: The removed cartilage and bone is replaced with metal components that recreate the surface of the joint. These metal parts may be cemented or \"press-fit\" into the bone. BSC7.10 Knee Arthroplasty for Adults Page 4 of 24 Reproduction without authorization from Blue Shield of California is prohibited. \u2022 Resurface the patella: The undersurface of the patella (kneecap) is cut and resurfaced with a plastic button. Some surgeons do not resurface the patella, depending upon the case. \u2022 Insert a spacer: A medical-grade plastic spacer is inserted between the metal components to create a smooth gliding surface. The operation usually involves postoperative pain, and includes intense physical rehabilitation. The recovery period may be 6 weeks or longer and may require assistive device use (e.g., canes, crutches, walkers) to enable the patient to return to their preoperative, functional level. The surgery may be more complicated and be at a higher risk for postop complications in patients with severe deformity from advanced rheumatoid arthritis, trauma, or long-standing osteoarthritis. It is not common for osteoporosis to cause knee pain, deformity, or inflammation and is not a reason to perform knee replacement, unless a patient with osteoporosis requires a distal femur fracture repair. TKA is a safe and cost-effective treatment for mitigating pain and restoring physical mobility in patients who do not respond to conservative therapy (non-surgical medical management). TKA has been shown to be a very successful, somewhat low-risk therapy despite variations in patient health status and characteristics, type of prosthesis implanted, orthopaedic surgeons, and surgical facilities. There are few contraindications to this surgery as it is currently used, therefore improvements can be made in the overall success of TKA by addressing each of these areas of variation through further research: \u2022 Approximately 300,000 TKA surgeries are performed each year in the United States for end- stage arthritis of the knee joint. As this number rises and the indications for TKA extend to younger as well as older patients, a review of available scientific information is necessary to amplify clinical decision-making and promote further research. \u2022 First used in the late 1950s, early TKA implants poorly mimicked the natural motion of the knee and resulted in high failure and complication rates. Advances in TKA technology in the past 10 years have enhanced the design and fit of knee implants, resulting in improved short- and long-term outcomes. Although there is an increased success of TKA, questions remain concerning which materials and implant designs are the most adequate for specific patient populations and which surgical approach is ideal for a successful outcome. Physical, social, and psychological issues may influence the success of TKA, and understanding patient differences could advance the decision making process before, during, and after surgery, thereby achieving the greatest benefit from TKA. Special attention must also be given to the treatment and timing options related to the revision of failed TKA surgery. Total knee arthroplasty improvements in surgical materials and techniques have greatly increased its performance. Total knee replacements are one",
+        "text_truncated": true
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_104245",
+      "args": {
+       "query": "\"Blue Shield of California\" how to submit an appeal \"commercial\" OR \"ACA\" address fax"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqAVCp0VAWkUfRMaGcRb6PdHKbkJTf3oHKMWyJMOxSaPYx5r6jGv-hjRx5DkMfzOn-1GKBUTOqeCuzdh0A-BpilOCXZeZtakLTxOe1FWWAJ1PSeFDgRdtq-43CvUtJYwWjzy2_2CL9pZ75_AJCcjDJ6FVL7vyVFSipv5bAJ3DqZJDvRCCjvN65cEbfyjBO3Rt7p5yM6rVQNcEu8EkPXDWWiY1eBS_KcFToSDgbE4cFYPSamgDLoGlWsVP4gvCpV6ECqLBM4HmorFzPNDjOkOiXHkxbUCoUR-dRShNb5P-C8GPXW_mg1NE5t0TwtnksYdHv4aXdjKdyMZSr5UubAVCx1jDTURyOXcl2t0toyjqfKVVL9LzKCRz_XBq-ZwWfK0yrEm-5wGuKVnqdO9Z1Svi92U_Du_5G6gti8TflNAxN8_YL-xarE4lj_DYXsY2iS31mciz0rH34lRArOcja3qPK4LWp6MzaIGWLgnQ4yL1RQ2SeCcLnKhey57t7G1O_bwnimQfl47GWxCTxK3j3LSor4LvbiBh0usba_chZUgtxl5e2TUv0qOGQ-gpbPS08f8ORDFbvwJM9PGTEoIYXCRHFqeq_sAYTfBE5bGVrdqfrVuS2x4d2WfQkmk_UjM1LLBNZvvIFnyxe3uBu6zwK3o_luE3tx2YfjLhAO8z5KtKfc32EI315t4_sd8I6kMBVn43d92ik6MrTH66kK82mI1fAj8S45CDMlTM0OhAEa0cEvrbv_KERZaNfqZXuOydbpJa-tRp2ITSSfEvN10ODlpUXq8_xIS-hZTtOdGaZRt9f7w2Q-p6P1d8wEtXuM0M4RxI_wGcqEh02ZzmDye5xu1-P3utwUwlH5DnZMInZNXaqPNo73iDcU-QXHx6cBXYQSR5GYAX7LeXUOZrCCj79dC_5mUFFp-jM5n6WCSPJXD3d4KtyrDbFcH_hvf7FReUNB7Y0eoAXubnh7DIRb2LJSWU5UUU2aGUh5G3OTOGMTihA0v3VqREpOBrAEHdO519mxuGDH3pdoQ6dP-K-mMUetjPcUE92Z283SJBshPYZ420gpiuy8DHzL9aQHtT62BAu6mAqYGpPKdWs6B4cTPNwcElOvFjWqMjh_RU-6vvKgseUNdHnpqDfA6YwFNGIUSSNenMT_e5YuEcglfqRQNu4zUT40E4lvufbWiWY9W0hLQ8KneDV50HJISraDtjb69ZmpuOldVIAx1UguKSmD1IGQndA1O-A2BuAch12dpKj04CoPAIayjF5hEg2KX0vTwhVXrVKY70xMs2RDFt3sMC_MMzHuZW-6CozTeykv8vVd3vbgsJiuFWFDo1HPcj411Z6SWOuIrQ34GWbrpNQAC8cK50gSI1mpnWYaBjtdRYxQpFm8z9UOPr-XCV9r5QOAW-_MGnoUPfgyFpetICvTL_nTRrBZ3elPZb1dVVZNT0fnyObe5h9_uKsMB_OOVZqv3DvSaeMisyeTZazUDXbVT540wSuVKtYWCw2OoN2DqfLgE378OdiOLF1l9n91P1ghAzTZtHV2gUB4K9CO-9PbTN1wRFUc844QSe2aG8ZiBLUCVm3nRKiF52_WxbHNQYF2YLJUU1cSoGim5YgdwumyDwQQvqzmpYHldS6J_iwAYMcTKbKaiuuxZDOevAoi2ovBQiFwRrsP2rvXUnirEhKJtHBfwkXuZzSOWr2g3VLcHoJDcDiSc8QYJNZr_FkbJNMtRsC0eiFhXBO6ePzhVW3FL9jb1PJ4E4nkS60GN3oqPDMCmYsvkwgtIvHA5AZU4kz1loxTw-PYRwwWfswwp7Os8MWDF9VkQ1kMbNMZmc1uYGOJ88_nv0SN_1FJVgEcwdT_YN4KbBCn7rnbmtfijX5pnnZyqgAoRxL7N1i48GC2DvctLtpHQrmwPsOrIqSCjas811bCuBxO23v1zhMj-VFGGbiXuxsOqGJwlFB6IUO9GDt86fmGrPp881pjhrtirulCPD13oPEEA3sIhbkJY49xZ0zgzQaCsGZlF_akTZjUPDelTIL7okd7NlRvXsm0eANMpX6rHJUF1VToMiNLgBlF2iAdvdAUwHPis4uEmTm6Wm432evVNrHeW8wjJWXcTF8CSo-P35ibc9WewnQd9p2TGU3bQc1fJPJZtBsL6Fl5BXIr4lvrVcE_VNSqssqKQtsR13yEX3VsICwyttNKbClr8CKIqr1-KZqt8muX4g31R1qW93DUKlex1z_jBB7imgFa1znTrLntGQgVBUEOJ_u6gpWf4YR2x8qK266W3vuHWtGlgoedpI9fFiGwX_tN0jKT62PYAt3EAq9Bf-qScjHIgIo-ZkcTY4da5eqvzDEsrkO1bhhYmGUApoHXt6MTpTg5E500MjiYFVmpKna9b49BRWBORf7dyOLjH7-6-om40SPpeIfpvD2OQvbIrjVBg2pZTyZSgWYe6rrPM88ZPqFK6RnkP1uQMW8j1-z2_wp-8YFUv3gYfIUz0BkaINWRBfKwUUoeOBJUNUCUQz4rOPfpUkc8DhYOWO8gBqixJ95ZE8Uw-OAopI8MXbVPE33GWPLHdlTd0FNWL_hfeSVLK1kzXcCpZ8rhzxU5z9fIgNUIhhhZhQJ6BN959XE8RudLFx89oFdyymHbNcuZY-UIx1k8ZwdG33Os9XqOrK-7JTHc0Vsa6KBsuiaIAn4HNbc6wm4CvhDmJNBL60ru-_qP-BZu_z7yTVkDl68oDH-3riG6zL5eU4sG-KAxgWpB_c_u0UgU0pOVrIYzHd1CvDr5Rd7dMp1w4FjzFQ0v6YVK9KuYtHWJwGg7uCRHasXliv0p20IrgLJVbixtzSerkfQV6wUN_l_OtN-LRva6a5x-CifS4VQar2gPYwb166COumOqPQbyZYv71dD2jdgKL4BlL5YxVMVfmuweC8A5PYrttZD4BjrYAAPi0BJYh266vMeCw4VNWL0DxuM_ApDzGL2zzlxRGi4cy0WnzZ8O3Cp9tIYTRMf0jaFBmMX-Qk4LaKcAf6IKX9TzSS70wnvRGsgvl3rMsC1a_BNyAfkAgW3TDnrrrziWVtSQPf9Hb_n0XKBFCIpJnHHvwZIsJqHrS_Sx9Ci38RurwY1yLLxN-TRaF9D-k2t2D8H88zakzx4u039azLSwus5jo2hgZgvRtzhMYP6Q9qbE8IkQizjjzc85n9BakaWtMzsh6ZQh-9Zu4riO2mmkQTaH2Mnm2d9Q59Yem5qqAfJtH6yVK8AugbBIu7S7l1JTMLiQ2pSAvcw7kjRvyU8zXhk7RJPEaVe6pw1kwdCWfFMm-e2jVY9vS5T28hO2HjGjXdyYexUgO7kVhx6G_S5Kwx2IOyXmXJYLYg2kvUMJPIYy5GiKQaAovJN6dbMiSchiyvVayqj-uUcWqwgPYcRaLTwwtGZR8dcutZTuYyLH__H1pAqxMT3FwgtJQuCewASFVrW9qKMLl4b3h0cRx24uwLB_tRdslVs6Emaj3HY855uj2k0P3toyu6Bdt-KULWOonDMuQQDXXos85RqAYBsjRRdQjQvpVwlUEEWgGbgqolao1pa5WDpXk3iwuOxY4VWPa_wrj-Nba5Pmlfx6wpbpWap-5xyB_QrWWTcE84vOG0IF94EW3x8e92IT9toEoI-DsGrmlIh8="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Blue Shield of California\" how to submit an appeal \"commercial\" OR \"ACA\" address fax",
+        "results": [
+         {
+          "title": "Dispute a claim decision online \u2013 FAQs | Blue Shield of CA Provider | Blue Shield of CA Provider",
+          "url": "https://www.blueshieldca.com/en/provider/claims/disputes/faq-disputes",
+          "snippet": "You can now submit disputes involving your commercial, Shared Advantage\u00ae, BlueCard\u00ae, Federal Employee Program (FEP), Medicare, and Medi-Cal through Provider Connection, in addition to using the existing mail-in process."
+         },
+         {
+          "title": "How to submit claims | Blue Shield of CA Provider | Blue Shield of CA Provider",
+          "url": "https://www.blueshieldca.com/en/provider/claims/how-to-submit",
+          "snippet": "Learn how to submit claims online using EDI and SympliSend, check claim status, respond to Blue Shield requests for supporting documents, and submit disputes."
+         },
+         {
+          "title": "Authorization basics for providers | Blue Shield of CA Provider | Blue Shield of CA Provider",
+          "url": "https://www.blueshieldca.com/en/provider/authorizations/how-to-submit-requests",
+          "snippet": "To obtain a fax form, <strong>visit the prior authorization forms page</strong>. For telephone contacts, please see the Blue Shield of California Member Authorizations section on the Authorization contacts page."
+         },
+         {
+          "title": "Claims, Appeals and Complaints - EAP Services Application - Magellan",
+          "url": "https://provider.magellanhealthcare.com/claims-appeals-and-complaints",
+          "snippet": "The form can be found at: ... reimbursement. You may file an appeal (request for reconsideration) in writing to: <strong>Blue Shield of California Medicare Appeals and Grievances Department P.O.</strong>..."
+         },
+         {
+          "title": "Prior authorization forms and templates | Blue Shield of CA Provider | Blue Shield of CA Provider",
+          "url": "https://www.blueshieldca.com/en/provider/authorizations/authorization-forms",
+          "snippet": "Download and print the most commonly requested prior authorization fax forms for procedures, physician administered drugs and pharmacy outpatient drugs, choosing from the lists below. Please be certain to choose the template that applies to the patient\u2019s benefit plan. Below you will find forms for: Blue Shield of California Medicare Advantage plans"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_47794",
+      "args": {
+       "query": "\"Blue Shield of California\" \"Grievances and Appeals\" member address Commercial"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvUBCvIBAWkUfRMOTHfDm7fNHCBECtmf-NCiylR1U2DfF59gx8FZ0TLKJJctAR7apjUVN0vmkohS5TdyUPbmdXpcdm8VvBXDf2HseKtSZwDJwss54689Jo5RW-nNML55vkfZFxy3aoPPrL1DspjZDFhwZcKmgAs-APWizth1fZC_gxFjlR7Dep43HNIAl2Jwcx9xSeSLW5mqu2saX8xeB5Fe1gKfSB9EbPeJNIUb0LwAi-MOQkHJ6i2RgCHF3LqKZJb7bzqpnxPHY57OWZTg-4qecI07usrt4SW1thxN2c86Qo7GdszmUgP37LuFOWzQ0l3KnZHyzoM="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Blue Shield of California\" \"Grievances and Appeals\" member address Commercial",
+        "results": [
+         {
+          "title": "Grievance and appeal form Instructions:",
+          "url": "https://www.blueshieldca.com/content/dam/bsca/en/promise/docs/A53596MDC-SD-FF-0125-REF2368202-Promise-SD-Grievance-Form-SECURE.pdf",
+          "snippet": "A provider can file an appeal on your behalf without the Authorization Representative form. This is because they are disputing ... A complaint (grievance) is when you have a problem or are unhappy with the services you are getting from Blue Shield Promise or a provider."
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_49286",
+      "args": {
+       "query": "\"Blue Shield of California\" member appeal address P.O. Box OR fax OR \"Appeals and Grievances\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvEBCu4BAWkUfRMuwzYPDn5UTG_p8ks6xwMAvJwgw1AHpeVdOVOevgx12_g8U0mKSHuOtTldZfL6AwEeU8rN10_uYk94KNI5AUsqF_JaUhDYfB9lwjAOUQC6tAjTWrZ7HinirRZrjOZkiGs3twkyFNDX4J4XfGDZkcpmhfEQQHCTjDLTKeunVzZi7QqqyIdOswQVy8FQUsn60-o6UDUGVSJXDKzu4g3XbfKz4HBVH2fFUxQIbimT0zqm6AH2nZJedh3XpNsj6JmsCJtum3cLVVb1E3mNYU19wV0i5aeCVkELR0Qs6xZXWvbUDG5mXbfHnCi6iA=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Blue Shield of California\" member appeal address P.O. Box OR fax OR \"Appeals and Grievances\"",
+        "results": [
+         {
+          "title": "Medicare appeals and grievances | Blue Shield Medicare | Blue Shield of California",
+          "url": "https://www.blueshieldca.com/en/medicare/member-resources/appeals-and-grievances",
+          "snippet": "Blue Shield of California Medicare Appeals and Grievances <strong>P.O. Box 927 Woodland Hills, CA 91365-9856</strong> ... Following are grievance forms for Blue Shield Medicare Advantage plans. For more details on exceptions, appeals, and grievances, please ..."
+         },
+         {
+          "title": "Claims contacts | Blue Shield of CA Provider | Blue Shield of CA Provider",
+          "url": "https://www.blueshieldca.com/en/provider/about-pc/contact-us/contacts-claims",
+          "snippet": "Blue Shield 65 Plus Medicare Provider Appeals Department <strong>P.O. Box 272640 Chico, CA 95927-2640</strong> Fax: (855) 895-3501 \u00b7 Appeals and grievance process for Blue Shield Promise Medi-Cal members"
+         },
+         {
+          "title": "Blue Shield of California Customer Service: Resources & Info",
+          "url": "https://www.cgaa.org/article/blue-shield-of-california-customer-service",
+          "snippet": "The Medicare Member Services phone number is (800) 776-4466, and the Hearing Impaired phone number is (800) 794-1099. The Standard and expedited appeal fax number is <strong>(916) 350-6510</strong>."
+         },
+         {
+          "title": "Guidelines and resources contacts | Blue Shield of CA Provider | Blue Shield of CA Provider",
+          "url": "https://www.blueshieldca.com/en/provider/about-pc/contact-us/contacts-guidelines-and-resources",
+          "snippet": "Members should call the first number on the back of their member ID card for appeals inquiries. ... Blue Shield of California Grievance Resolution Department <strong>6300 Canoga Avenue Woodland Hills, CA 91367-2555</strong>"
+         },
+         {
+          "title": "How to file a grievance or complaint | Blue Shield of CA | Blue Shield of California",
+          "url": "https://www.blueshieldca.com/en/home/help-and-support/grievance-process",
+          "snippet": "To ask for an expedited appeal in cases involving medical services, call the number on your member ID or write to: Blue Shield of California Attn: Customer Service Grievances <strong>P.O. Box 5588 El Dorado Hills, CA 95762</strong>"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_54751",
+      "args": {
+       "url": "https://www.blueshieldca.com/en/home/help-and-support/grievance-process"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EugCCuUCAWkUfRM1LA5GxLzvy5ZVwH2Dxbigj8MXIv6Bjf4-W0pJZKeA5cet-MUg3vsR5zA7EIrsCzoixlELRKnQRg-dSKvvhuxbtn3x39XBpaurXlO4ZJQH-iMApE7seSw0KfIotHwv5Nd0gHtDj9D3D3rDCFkyq6-l2STCoN9aBgIklvj4yQOLgv2UK5PRbId9sXpM2-7uMdr0cx9fHhduEa1nP05VpiIGuLrRaF6q_R9SKMc0NwpHIDw0chGpKsIWk-LiAQNHGQFuu69FMbsyDOhnplVAKtQgNVewYPINHG5-_SSr2h7-XomJDdiO2w-L9NvRKwJiE_r6QKGiS9nlHQFS8fGKgAL7ct7ZCrSke4HZBLtVP3GNAds3UzPWU39h7dCwpw4zwwroi7TAu5pBK9poLFmyxWykRTeudqCKrsa8CtwgRuVdq56ybFXI-bU1XaJ9rJjPMLHt355twN1IrFkFjIx7LbOQ"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://www.blueshieldca.com/en/home/help-and-support/grievance-process",
+        "final_url": "https://www.blueshieldca.com/en/home/help-and-support/grievance-process",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "How to file a grievance or complaint | Blue Shield of CA | Blue Shield of California skip to main content Skip to content English Ti\u1ebfng Vi\u1ec7t \u4e2d\u6587 Espa\u00f1ol Pay my premium For employers For brokers For providers Log in/Register Account My profile Back to dashboard Health record Manage family access ID card Message Center Help & support Log out Plans Plans Overview What you get Individual and family plans Medicare plans Medi-Cal (Blue Shield Promise) Covered with employer Maintain coverage Find a doctor Find a doctor Resources Resources Health resources Live healthy Conditions and care programs Pharmacy Mental health Your care options Articles Your health & well-being Understanding health care Innovations in health care https://bsc-elasticcloud.ent.westus2.azure.elastic-cloud.com/api/as/v1/engines/member search-djvwj8yssbq9riwabtcgecgv /en/home/search-results Search Close Log in/Register Account My profile Back to dashboard Health record Manage family access ID card Message Center Help & support Log out Log in/Register Account My profile Back to dashboard Health record Manage family access ID card Message Center Help & support Log out https://bsc-elasticcloud.ent.westus2.azure.elastic-cloud.com/api/as/v1/engines/member search-djvwj8yssbq9riwabtcgecgv /en/home/search-results Search Close Plans Plans Overview What you get Individual and family plans Medicare plans Medi-Cal (Blue Shield Promise) Covered with employer Maintain coverage Find a doctor Find a doctor Resources Resources Health resources Live healthy Conditions and care programs Pharmacy Mental health Your care options Articles Your health & well-being Understanding health care Innovations in health care Pay my premium For employers For brokers For providers Home Help and support Grievance process Help and support File a grievance (complaint) How can we help you? We\u2019re committed to the highest standards in taking care of you and your health plan needs. However, we know we may not always get everything right. If you\u2019re looking for answers to common questions, or help resolving an issue before filing a grievance, we recommend calling Customer Care at the number on your member ID, or (800) 393-6130 . As a Blue Shield of California member, you have the right to file a grievance if you have any concerns about your coverage or care. If you disagree with a decision we\u2019ve made about your coverage, or aren\u2019t satisfied with the quality of your care, please let us know. We have a fair and transparent process to help resolve the issues you bring to our attention. If you have an account with us, log in so we can help you quickly fill out the online grievance form. You may also download, fill out, and mail a paper form. Login or Create Account Download the Grievance form (PDF, 100 KB) Table of Contents What is a grievance? How to file a grievance What to expect Asking for an expedited (fast) appeal Asking for an Independent Medical Review Appealing canceled health coverage Department of Managed Health Care California Department of Insurance FAQs What is a grievance? A grievance is a formal complaint about your coverage or care. There are different types of grievances and reasons for filing them. Knowing what they are can help you better understand when to file, how to best address your concerns, and what to expect when waiting for a resolution. If your grievance is about services or medication your plan covers and how much it will pay for them, it\u2019s an appeal. When you\u2019re not satisfied with a decision we\u2019ve made about your coverage, you may appeal it. For example, an appeal is a request for reconsideration of decisions concerning: Denial of services, benefits, or claims Canceled health coverage Reduction of benefits or claim payments Redirection of services or benefits Delays of authorization for services or benefits (access to care) Eligibility related denials Dissatisfaction with administrative policies Dissatisfaction regarding a resolution of a complaint If your grievance doesn\u2019t involve appealing a decision about your coverage, it may be a Potential Quality Issue (PQI). Potential Quality Issues are typically about us or one of our network providers, and involve the quality of care or a service provided to you, including: Access to care Referral or authorization procedures Communication issues Provider or staff behavior Coordination of care Technical competence or appropriateness Facility and office environments When you\u2019re not satisfied with us or one of our network providers, but it doesn\u2019t involve claims or clinical services, your grievance is called a complaint. If your grievance doesn\u2019t fall under the definition of an appeal or PQI, it\u2019s most likely a complaint. If you find yourself in any of these situations, you can file a grievance using the process outlined below. Back to top How to file a grievance You may file a grievance up to 180 days from the date on your claim decision, or from the date an incident you\u2019re concerned about occurred. Most grievances must be filed with Blue Shield of California. Those related to canceled health care may also be filed directly with the Department of Managed Health Care (DMHC). If you\u2019re not satisfied with how a grievance has been resolved, you may ask for an independent review through the DMHC (for Blue Shield plans) or the California Department of Insurance (for Blue Shield Life plans). File online, by printing and mailing paper forms, or by calling us. Your doctor or someone representing you (usually an attorney, caretaker, or other legally authorized representative) can file an appeal on your behalf by mailing paper forms or by calling. Online Log in / Create account , so we can use your account information to help you fill out the form faster. By mail Download the Grievance form (PDF, 524 KB) Print the form, fill it out, and send it to: For medical services: Blue Shield of California Attn: Member Services Grievances P.O. Box 5588 El Dorado Hills, CA 95762-0011 For mental health and substance use disorder services received prior to January 1, 2026 : Blue Shield of California Mental Health Service Administrator PO Box 719002 San Diego, CA 92171-9002 For mental health and substance use disorder services received on or after January 1, 2026: Blue Shield of California PO Box 5588 El Dorado Hills, CA 95762 For dental services: Blue Shield of California Dental Plan Administrator Attn: Dental Appeals/Grievances P.O. Box 30545 Salt Lake City, UT 84130-0545 For Vision Services: Blue Shield of California Vision Plan Administrator Attn: Quality Assurance 4000 Luxottica Place Cincinnati, OH 45040 By phone To file a grievance for medical, pharmacy, dental or vision services by phone, call the customer care number on your member ID or: Call (800) 393-6130 (TTY: 711) . For mental health and substance disorder services, call (877) 263-9952 . For vision services, call (877) 601-9083 . For dental services, call (888) 702-4171 . Back to top What to expect We\u2019ll mail an acknowledgement letter within 5 calendar days of receiving your grievance. All standard grievances are resolved within 30 calendar days. If waiting for a decision puts your health at serious risk, you may ask for an expedited (fast) decision. Expedited appeals are resolved within 3 calendar days. Learn more about our grievance process: For Blue Shield of California (Blue Shield) plans (PDF, 42 KB) For Blue Shield of California Life & Health Insurance Company (Blue Shield Life) plans (PDF, 41 KB) Back to top Asking for an expedited (fast) appeal In cases where you or your doctor believe that waiting for a standard decision could seriously harm your health, you may ask for an expedited (fast) appeal. After you make a request, we\u2019ll respond with a decision as soon as possible and within 3 calendar days. To ask for an expedited appeal in cases involving medical services, call the number on your member ID or write to: Blue Shield of California Attn: Customer Service Grievances P.O. Box 5588 El Dorado Hills, CA 95762 For cases involving mental health and substance abuse disorders, call Blue Shield of California at (877) 263-9952 . Back to top Asking for an Independent Medical Review Blue Shield doesn\u2019t cover experimental or investigational medical services. If you\u2019re denied services because they\u2019re deemed not medically necessary, experimental, or investigational, you may ask for a review by an outside agency. An Independent Medical Review (IMR) is voluntary and offered at no cost to you. However, if you don\u2019t ask for one, you may give up your right to take legal action about the services in question. To request an IMR: File an appeal with Blue Shield or Blue Shield Life. If you receive a denial, then you may ask for an IMR. Follow the instructions in your denial letter. If your appeal is expedited or the service denied is experimental or investigational, you can ask for an IMR right away. Follow the instructions in your acknowledgment letter. Back to top Appealing canceled health coverage If you believe your health coverage has been or will be wrongly canceled, you can appeal to the agency in charge of your health plan. For Blue Shield of California (Blue Shield) plans, you have two options to file with the Department of Managed Health Care (DMHC): You may use our standard appeal form and process. You may also download the Cancellation of health coverage appeal form , print it out, and mail to the DMHC. For Blue Shield of California Life & Health Insurance Company (Blue Shield Life) plans, call the California Department of Insurance (CDI) at (800) 927-HELP (4357) [TTY: (800) 482-4833 ]. Back to top Department of Managed Health Care \"The California Department of Managed Health Care is responsible for regulating health care service plans. If you have a grievance against your health plan, you should first telephone your health plan at (800) 393-6130 and use your health plan\u2019s grievance process before contacting the department. Utilizing this grievance procedure does not prohibit any potential legal rights or remedies that may be available to you. If you need help with a grievance involving an emergency, a grievance that has not been satisfactorily resolved by your health plan, or a grievance that has remained unresolved for more than 30 days, you may call the department for assistance. You may also be eligible for an Independent Medical Review (IMR). If you are eligible for IMR, the IMR process will provide an impartial review of medical decisions made by a health plan related to the medical necessity of a proposed service or treatment, coverage decisions for treatments that are experimental or investigational in nature and payment disputes for emergency or urgent medical services. The department also has a toll-free telephone number ( 1-888-466-2219 ) and a TTY line ( 1-877-688-9891 ) for the hearing and speech impaired. The department\u2019s internet website www.dmhc.ca.gov has complaint forms, IMR application forms, and instructions online.\" Back to top California Department of Insurance The California Department of Insurance (CDI) is responsible for regulating health insurance plans sold through the Blue Shield of California Life & Health Insurance Company (Blue Shield Life). If you have a grievance against your Blue Shield Life plan, you should first file using Blue Shield\u2019s grievance process. If you\u2019re not satisfied with how the grievance is resolved, you or your provider may ask for a review through the CDI Health Claims Bureau: By phone: (800) 927-HELP (4357) [TTY: (800) 482-4833) ] 8 a.m. to 5 p.m., Monday through Friday (excluding holidays) By writing to: California Department of Insurance, Health Claims Bureau 300 S. Spring St., South Tower Los Angeles, CA 90013 Back to top Additional resources For Blue Shield Promise Medi-Cal members Filing a grievance or appeal Online Grievance form For Promise Cal MediConnect members Online Grievance form For Medicare-eligible members Appeals and grievances FAQs How long does it take to review my case?",
+        "text_truncated": true
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "text": "```json\n{\n  \"policy_found\": true,\n  \"policy_title\": \"Knee Arthroplasty for Adults\",\n  \"policy_number\": \"BSC7.10\",\n  \"policy_url\": \"https://www.blueshieldca.com/content/dam/bsca/en/provider/docs/medical-policies/Knee-Arthroplasty-Adults.pdf\",\n  \"effective_date\": \"2025-12-01\",\n  \"criteria_quotes\": [\n    \"I. Knee arthroplasty may be considered medically necessary when all of the following criteria have been met:\",\n    \"A. The reason for the arthroplasty is osteoarthritis (OA), rheumatoid arthritis, osteonecrosis, or post-traumatic arthritis of the knee joint\",\n    \"F. The individual has one or more of the following conditions: 1. Degenerative joint disease when all of the following conditions exist: ... c. Radiographic evidence of severe osteoarthritis as evidenced by either of the following: i. The presence of definite joint space narrowing with sclerosis and possible deformity of bone ends ii. The presence of large osteophytes, marked narrowing of joint space, severe sclerosis and definite deformity of the proximal tibia or distal femur\"\n  ],\n  \"appeal_deadline\": \"2027-02-21\",\n  \"submission_route\": \"You can submit an appeal in three ways: 1. Online: Log in to your member account on blueshieldca.com and submit an online grievance form. 2. By Mail: Download, print, and fill out the Grievance Form (PDF) and mail it to: Blue Shield of California, Attn: Member Services Grievances, P.O. Box 5588, El Dorado Hills, CA 95762-0011. 3. By Phone: Call the Customer Care number on the back of your member ID card or call (800) 393-6130 (TTY: 711).\",\n  \"how_to_obtain_criteria\": \"The policy is publicly available online at the provided URL. If you would like a paper copy of the criteria used to make this determination, you can request it by calling Blue Shield of California Customer Service at (800) 393-6130 or the number listed on your member ID card.\",\n  \"confidence\": \"high\",\n  \"notes\": \"The denial specifically states that 'the imaging findings submitted do not support the medical necessity of the requested procedure.' To successfully appeal, you should work with your provider to submit the actual X-ray/MRI reports or images that show severe osteoarthritis. According to Section I.F.1.c of Policy BSC7.10, this must show either: (1) definite joint space narrowing with sclerosis and possible deformity of bone ends, or (2) large osteophytes, marked narrowing of joint space, severe sclerosis, and definite deformity of the proximal tibia or distal femur.\"\n}\n```",
+     "thought_signature": "EvtBCvhBAWkUfRNckDiJwGvd2aujwqg_mhK5drUKo7ZBBJqqbMZ2M7ag5CZy1b4EPc1kwwD-g9WZkn3i3LOSbVoM22goMbc_c1qnH2pcYFVauT177AoZC4Wqd2lv883zBCu99DtgNTB_ZJy1n0rf7oVkwFJCKI-V9kD00q4t04EQMRz78tdotMD4q5OnKxaVEEH-iWxwnykEBSa1nyO8E2OlYblPFx_McYR8Gg1tVsaTw13f8SeCRYho3TnYOxUMlD01XFSlvlzamVqGAtI5VgZN9hj0rk86a0zb5AZEjluj_vzsYAizxj7e5JnmHAsPuZZ4Z_2LDQGzhNxhUPBDf-bMn6hIruXkCTY8T3GOOeRN9x9Z02-t0Qz4qEaV1A7jgylda3_VU5z3zBTmof6Jgi-_7em8cNLAGb4S8CFGEKkqYu-XxPa4A6w8uP9HTiLvHem5pAXEoklwux0zzvvNPL_6GJOo8tr4BVlTVRRjwoNG8pi2amT9FWyadgvwidMWsbb85XLbWmoxTQ6MzWwN_5AFHQCjFMRILfnm84OsfRnf42a7jcDP78_FGAMl8cX8Y2GOYIvTwMxL0PMhydHIaIeeKgAO0vdODWZDgiF-rGuCbRLECrjjDfChFIv8AVJgtd2It1BCPSJA73QtOfGFtsJLM1NA_jGmC4LmFkT_2zkpwakPLsRNb11sGi4m0Fc8BHpg5QbPtU4TzknolIyCjcldjUzG5psHCPHhOBWf4GFiPSkkcr9ewToSb91NXJGVQe4Z6Lzwa3B_AjWtGh7Nvd28VecyK7ICNg18AHnT9qERrkivX_G2CCq7EWXgwzXfA6yallrOnWnu25Ag8qnrRab82WNGCQJb3MvHOi8kGwDekd7KZ1ipyJm0iK3iwQktXkC4YlaTD5rl8uW46EdEul2QmTzTogKGV3X5XTBdqOiZKKkYtelI2fpMGp3swyKE91u8eNvd4GPGQl8NpCc1wLjK8W2sI672MFANClnXqg-k8SNwD0AggS2U83NTf74Tv5lJHvqJzWaS4WXEl-4GnAjdwxZLoEfwim3qd3qdHBEVVCP2pFVx3OpyJe5ZjLRNP3zOPkOdZq34K_uiM9v2AfzQj4QgKpeJzzmr0c6lxzj41pg56ojmxmWGO2IWZwnDFOHXwgzCs23LEagio4R20kVMddxz8l7meaYmak6ZG4vrnetgznshTzOXb4hXSQp2eGPdWozQTE4N0IpvzPnQuvpshudfeFIohBpbJHytDuLJVJ1pVw0cALI7Rb1W2oafjq63SJgqPXHRXzsEMIYVCbhozr94tRvB4TWuCEfAGwtLRH3wvcjzCrU7PRNhucOScXbtAdOdHVCx5XReDawVOVeD90vZ7Bdir7ou2kWEfyk0zAicF9_PqoG1_POVyCVDuy8V7icmrX0MFyZFMK2iaGOOu0vDXDhJ0fNyuxv2-HcNC-Mr-TTJsy1vzlsKSpGBgL8FmbC75d_oTZs68aE11pHWwxkx8RKbxJE3J1vtQck4bdgqLr7JToyzFpL7bmh6Xq1Rw1PdOrpFkd0ljtlIAhUUhxn8d2v39OWYJLg6rDcBhlcAQAs0n6_aaXuqQxp5kmSWk4R8czIInhqucw3WY931twThTIi2W-XOECam6msz4gx1zGl4ADZM7M6TC5c2fp9bGnp5XSJT6ZjOmnWg2oNFBfJ1l7v5DfZV95-rP_qk0qa5QvRh3tMmmLy7gwLlOYWeYSEs3BB0HP-IZkLdYRpfHO6AdZjSr8IVUo60s2A8xhW4ko5YGPgonTyKtWAHjmHcwE4w4XF2JxS2LV11MGyeR4HosOz3kTJ08BVqQxbG6F4nms-sT2nYX_Wj_5ELFsJ4svB-kWaUXxlYMxC_dAn29hfJr2YUiptLE_zloz5rgmUQHp0nhmBS-Fr7icskGWnIZzbD48xwU2S7CLagEYCtz_knm13_3IzrldYPKTb3REQ9DX4E74CI5T2x1D6tTiAcEA9YJ5Ob8yC3IYnJRAtSzc-NATfn9jqEooEas7yVDJ9uFJzwOWbWzR8C5R5S3oJUmneKsMY78cd4jUCF4pY3x_eNxJS9TiCxoqvyjE3vbpwkTyqw2IW91aDAK6J5MnDCICzfOcD23peQ5Tj0lSKY2id2ywvwp1iFY6LK_cxSQ5h2ce8oiSRqxeJOdtluoL_Vu-uaBzediBvByQr-_cfVAHNiQoGXbGvt9ohGKQwlLJ7soNPpUSHRVr7yRsCnaJnQ5CxT2poHi2mcUrQAtPZcflV2k_BuiX18fHPT3NQnI_271FgOZncl0uYHzd1wMJziTDGmLyFtz1A6AAyGjAPLVa3Oec8OscLFsCXDUOxI0Anik5l07d1yHjd1MFDAD-Isl0yzDB_UEGNyFOGfpV3a0yIGzSPGQeA7E4YhgA9hegbpIjErtASC0N-gAL-spMeisBW9KdNNHqRwedxMjxZV6it6mbvnbUs4ieF3PPHObh5bVgjrXKopTH80eUhlZoPi3TqKD6GICmb9jAc6Rel-g1r939B4LqtYmyk8FS56-spAA0_cuxgOfUNXm9u5hhvGUZOZi8B7MfyDBRNb7qYlJuWm_05IB1ttcwHP30jsJVE83fUp57fqONhmNfuAI5a2BsH4zLWMpSmqkdpyUpxuh_xpHOP_JCog7lEO-VTxK9Fj5AugkC6TNbYu9fK_tvP20BSpKIq05Sjcfwa32LTM-sHDmt_xpyUyGPpNR33-WoFJwhCLkVFZoNtlFU4WNoEMKkMu-xr9T8OS1a_kUwyVGtXEzVyO0LS36dTyxwj6Tp5HzKE50MhKgugIE4e9s18a9TDvcIl0-REbZJVKnBlE09iB78nMSgfc2YhCq125r_VADXdLl2Ugc-HN74TjJGO7EcCo5ATKGLqNEZY8hOeJPaqz-Le_I1mcEWL5i7RGFlFH-pehpSradjafezMQR-Z9cG_IggJ8Bhe6-osxaHt8oDfstOX3gsIkevHdQaEEljpNMYPDG9aK6nIH8DKz9HDXYTeKrOYxhJCKXH9KUQX6DbDc0-_dWqy-t_EKCBIPqg7nltc4I-kp-yNmnVza52XtmNCRPU4glh5OW65QQ18Uag8z2cIbpgh-woueyPRHrM4Zgrj341AM2icNZrlV55fLL8-7IM3H8Bi4jOK_MTJJRlRZHlumUxtLuqzr0-WxxZQKIEmqD1p8by-9NwO7JlULaU01O5TeOHK3jGWxX2fj_LXAEg6yrPx9_6sZQErUWgxFqo2A4d31mq4nZiHeI6BxB39AWaFWroz3KKXHKIbTK3jLdunm9-Qkc-B22CEyYPh5CxiQ2zqFWH5cvj1hXwcvYPcjdYBq2nKv6QF-fUqOvPN98G_01mYDlU3McjgxZRsXMfYgtZmt8Cnv5RWTUVSfIGKhjDIp5R0RuoE2h_iqV7Nrq8VHaoYoSX-mzoinlxeOyTn18bn1WSRMDO4a52ItygfQvDbbt03XJ8tSyhJCrJDglK0N7dmOpyB6TTFBrD_lK-AeqeT2Rb-pfuKAO94jDAPnQQp5tw9UBlW5KG5LIhPjtH75YXYc9fPjBFHE4NryRXc3vyHF4hzpKVeb9hHaYNaVYWOZQH7bslDeZ0XErmybpH3zY4z6YAVu6IpHF2BJCgg26Wx_RbyUkbWqfVTRbyHGGH8Zu-tpAJ8MI9tEa549TEn6DSiQR4XZsKpp68Cii-CbTNJRKw3949ayPrYexjURkAy60YE_xfF1jMia5qAU1Zp0r-S0mD-I5guWyDhpClKmfFTn7SQn7JYqBz_vzGA6iBE6FuJktvIA97EbaZeWwG3G7EKFzg8KKs8IGHoeMJcC2JA7Yso3V7dCEPBakLkv37ESehiEK2_Nvlj2I9VJBAv5GyaJy6gGxN8b_kOm87yiJ12CSIutQOoZNEdYxTQZ1UgjRZ5I619fgPM7igqsd-NE8_nJvftH7_DQtAHF3eZq1w34BO42dZtBLb8lh82haQNqJLrSSbN2LCBDO3zc8L90CLy8HCx_IW1UpCgOacWBragm0HdCmtkrYdxm_OXICSMdaYEmfpMf0MZZPIkV-Q6CJVOmGrj6eCv3nE_AJ1ccaQY17TbJV0WvBC1TWHQxU1TwyE-jWel6snP9QlsJcfOcw9EsTFmZyxb7yXVWe7UougskJ-SjT196esPIa3u2eq3sFWFYes2us4A37GP-NORqMmGkB0FMEkQ8D4VPKyjow7IJqjWsCqq9axRqBLYVkoY8R6Ak-1KBxlP8abjxvlc_LEBvKDSGGWFA2Hldr1sAi_AtUlHu_0tzu7Y9JsdiID1fT1H7zPb1mdBiksClIO1uZaO9gabYweeBImqVRm70WqXsf-9eEORWXgF3_JibYoE12xAyHN5D7mtcEwlh9tn8p9x7L1RfCnektnISKjeaMSt7DYdJTJNZgWdRYgLZag5gf1U-tY1j9ncx6fKwxrKN4oLz5H_AyAuG_6L8AHDMoOMOD4rDE_Tpf7XSvNs43HFNiF7LMDQiTTgO6MNfq81MYxsM-gMdXB4eV9wlhSs6DuE1_4i6r1I4r8fUAkqlK8Dee1z_MDrLHRUr-CNwEfz4Jutd3QO8aaYdWoTuju60T_tgxB0Yg1F4Uw30DTaXx11kEpQIuaMd2_-MVM55-w6yUxM-hCOBupBNsSFApTalvcv9DuvSNMcaP5enF-7R49q3B7NaOD8SX_0l9Ycjfm_XbESK4wPuyqAkVCNY2fW578flj0NHkmVxfvz8XiLEf30XvBOC7hxRoe7WLCKxM2ft0BV2mcV3DIoS-sb0IDW4hz6HfIY0Z7FeQwjpf5BiHtAL6gTE7eGDqAG27LmdqJlNELotTvo-V_Cb2ujbMBpkQQ_9GNBxTsg3LTV9TaYBpD1KnkY1MqJ9h7cTQpMynLYQHZ_09vy2PL5ciDGkC4fZou4Lp22arao0SQbyaOxuxHTPDnRP7ABDkaODRroQt8J6ieuUWFYEnUvucl_j3LhOciHxHnYu-QsdCZgR_B0dHcmrLFaMC8H_e6Au1J9fGLu_yWQileBMrvEl-bCCQfdlKcAOSaQUG7LK21zbgu5N-LMNQgrnxtlxalhFf_SEZ9dN4UA4ypfXJIdmDDbToLJDkWRNsjrPgc5Z6MM2cWmi_WtkSuGCnAz5MvtuYQQewWSOgi3RNwRGPVEVBM-WIs3S5bIiRve-2IDVLiLAsC3ILi_qLaN88ChCVwI6usSw0PsL68uVN-Twf5NVBH6BuSVaVSpR-FpI_PLCC3EZA0TYgfbMxG2nQwp-EOZNQDShGyHCFtMBt5VX7QrbWDSLuTMMO2-9hT8Kv97_i2At0sY-EB9w05_krUeXHWmRCDOJm3pGWjd-QydiohWfYpFFhASMKJQxK1-cFWY7Cl0tccgzEyxEh0TSw_r73q4jLgqjkmAKdsvxnwn6tGvb2wEpp_aUQs35chO2eCnmCLaDewDGLSbDhsR6_6GWfY1ZjTwusd79YhnRvVCdU6qgE_Hf7hbLdemxboaXz5BtyOBW06AkgLWcfRNIjt436GlH7IAjQu6KFSgtN5U5YQLaogiM8vpw1cIGaoyL8MM7vG8oIfHdzP0H8MDqaLQO-15lYrUJCLyK-bSR8oKQ7E0ztswRdokkmKfhPDZOhmm8mnzvGqIvKQIRM1IsdK8h3bNTp7HcLhiBfsa2GaHWGXz1wXxHKM0fCoPze1mGhE_57ApBdrNHOPHggl2eFQ_HCEPfiGbXhZ0wpe_5AlmRUeHCRhTQx2ORAxYLvw-S5n8jDbimey1ZS96u1vjAZqpvq5Ck_yGbNcj61CUMnhIjAxKc3otWQkJSzLxWE4Obf67sl4jc1vHCU-kCpGueie4aWXPyKSNsIm_Az0nirTEl-hCCsepQPSkmiBJpVHoPu9YbzRvIrnfqqrQNYbi02Sh-dbwAnui2e0mDEwqo0rOYwWCupOGMs651dswAO7CayvAc6wY7N_ST8biI0UNu_Kz2er-_Dzim4iEznp9FGFInmxVaUkPHR7w1TnyHPAi8-UHTNeNjuaPtVG6_HXoKvMV-ErhblXJ1BRYZ8-WRLkqPfqdLj9VqvRSlus8wfdze2BZSW1VYP5T8qJcjesVI-r1AV13tPe7dGmkI9Jq8LxQ-mklmLTjGcDnW-UdiE7OcyuafikNaZVAB0m9pXmjdqFZvEmuhHjBtIHH6jutxjJE0aw7TIBT7CTnohVNx8_P66TEpl22kCKEOrp2a8hqv8vyV6eTKgrPqzc1HeHe1NluL45rxj7Z8OMRthVtAL0NL7LVxKhP1ZxsiaaFqBAqi9Q3Qd1JeGysvheRs7wh6jQBlz72g-ewLmlfHWX3oY8iWMYenvGq6jONtSN8wFctjnd9nSmNB8IIO7dIJ229qfpHYkz_9Pu5rJs-Iqc1yZatjogcqSr0FL3a5saom2inhEcU3VCJDZYXFOPUYms2E7NhlkD0Xjc3uKGD2urkvmoUOOxNsQOyWefdJcIqQHXje2GdNuMh5wada5LheJ1l1j2vNfLwNQnXrMSBLu_KI8WgLfhDXADq7Og3LFdFyCiUZZI3qO_n_yaTDrdi1GS7DGYsYIxsWYrRm9ieTCGUAN8vy97ORQ7PNlVLigkEMvhOasdJg4_ztLcsypt95K6ulJsobvWmU0Pq0UlFz01qac7vApX7c3Ib2UO_7PNY2MEX_yXd7I1r3bw3Hy7X4cKX_ksJjr2SqCiYLzm4cDAww495SrgIB-cUf0e5HBVbI16w-UslNgEB5-c5BvhGvLwU2XtG68oKN-Lyyt-Cvht0s1osUPUDrAKtQuPczUnz1CWRf5832SfZNs4VcrqEa0k-8hemEej4pfD0xsH8mSZ0NWJawj6CeGZKfpDDHQU66uAB-s2Vr9pltll_Pxt1ovjV3qllIADKd1xzf0ssBvdGl1rebQHVB4FQA0rQ-Cs44QjBIS_oP97aBvUt3LaaVITmYKPdjtNW3twghk54_hm33O_thusthMdHQ4YcdI7xwkL9D1aPBxK0cPuxWVuM5JtCx5VMlSvrP9uwTqB4-tuet_zWIVmPnOJUHwkLY2VooPi2HSaoDzM2X6Ndz8ytfP6WUuZomwQXPrD3EPMVLeGqL4Uc17Fmq9c7fie87govji38sB-g7cGRWG3yacmvDLc0mT1sZ90otnU9Z8XfSlwjwEobcZDDnRwDCJ6FuTW1hZemgcwFSY9EGuOnP5aMhgxsBo8QksgAdjXObrQ5CXm05OhQFrtF940EbcEqXk1Bx20-_MkSuS4scZBoLhPJNoYlgU1vhUPb36t9SSyPJ79mHvQ887-py7BdmsfcOlBrx27MI4G6pVNVxyZPOFdkVQZyjPJG5ygef5izp4OOQ-nzZZbdfx0BFCK6pPL5Nqp25Yhx1UCsnOh7B82k91NRIYpfrGYE72xooLf2JtHoAHt5IpT05FLq95epzmBP7NlsjVq-iVO9e4N2cxzvo7ZnSeHPV-O_wH_7rlOdLbklX0cwv_2xyaBWHwmQeE9lUFwwRD-tp99Z3YsDokMzLotvfwQ3j01jOId7t3iP0v4Ac0gU8pMoQWY-7Qk3NGlv88pK8ZuqbDSx1-yBGOQ-RwZauco1cqWFcNuaK_XnOXHlQiIiG17NE8d5kVUbVmGJTHf2Rcg-VA1Z77FD5B_bqN1khrSpyLaLX-iTUtFRBmZJ1cPywLuXGWt3XWxDU3IdYPszE_lJu-O1M7AjIrKK7tsMrYKL6xZ2OwtfjexRajTqwER0LSzRb8um5arM32B4I4a9ntb9CfArUxAZ1b9Itmv5ECf6mDD4gP6cjfYx_kd-X6rameVvEzEMbCf1-0iZRaQsfWvfnw_9_uA_w6V0mxIO-M76GnrdUPdPY_dsaXc6Kg0IPp3KEbJ8eMSKWfI2GD-6P5cElk5f-YylkDoOpftux_uAttI3eNTrzVH_7R7bzyKXyaN64Tefu35Kwi0x_qny58AyO3KPEA1ibDfD1Mofe925UGvgNYtRl_2kSsDAp7Xi318QkUEEQOsEWRev2yjcdcAPqhhQjRxeL5MjHw8UTYbOZ9EMX5lJ0aStfTiPzIQc4PQ2OBtaQu7oy2XKbJvpYVlp8nMNQBFFHWSVfckWbK9uqldV9Kbe-roRZrnnO7SuojeI7xTw-T9_mQWvIJ1SZY6r84GbyDk3gEQH8LTD_XawQSKBA8jD39Q2wadaUOILcSpsHsmdeXC7NCa25S9yoLe2UFNll7vTBJEx0AIVjSzAhfMmUs-GO8PVXTQ4tW5wmpOVIwVD5sbdb7fy9yiHwSxuSqPgtgS_A0Lch8Zki6ChnvvhpeYJSneHVGFmCGmZBNQyg7SgHuAIdTLFbt4CXJpS46lpf8AmFS6AlZV48S582y7_K9qufhhzOnI3ZDxn2VQ9f2UlGEDTjFfRf2O4jLJuqjD-pZK2-8MPQSV99x0C3c_uU3VFG5c5PPLux0oV5ULS_dgLICqTU0_LbHkYlcJd_OyTUBWSOe15prBL1JJEw43xsR8tZ6vmAZGbZA3yr5o6DGjTJdSS8GHwu9JJsK_3C3BFCKFVeO7fU24XgSTmKja_If-Owi0INyQFuks2Iq7QpDGeVSW_QhwwNj-pOG5DNFp3Uuo4dszZ0gDuG4-XmzQrBDuhomamyMncm4TBBNT7wHMCWgUJjfwn6reE0IitLnkqdWbipdxMTQeVswEcADawlUEVc05jhSGp3v5SQASvp5qGhYXz5OyXSZntLYacNjs_FtPWWtz9WBzmiFFJ2aTATjg0ET6lZ05oKSDP_48C-byHWfVB5toW0hIvh6uHbMrtqlxe3J69xAYzpX77NFD9VsjvE3RDtQz-b-YEf-cLzEdqLW_sLaXuAXjcaPPnj2d5apZhjQLFoJUj-JWN8fqsHceFGxh_yXxVku4S2YxspHeKfAIXHJ_uCr1b77MHwnp1Ms6gJwNZUU5ckkhi2UCzAEedKCFDg4twBfO82behSFQJgg1_vAVWtYkq7nM3pTZX_08LGsy3zGpi7vmxlL6-sWJGxXCT1TJeKrjcuN6bjoKNsdinMqDerb0uCUwfZ3oSHxWR1-Ri5qpqFCLjM1dpYvX9VOIjRIBgkF8fJrR-mckF04kdCg4F3qKCqhrE7qyaXcw-KlwJywnBp7Gg1pd7kLO4iZsDcQxeZFQ57zEVlcIPUmQLDFUqc8sa0f9JhX6NY6Qmhf5s36JaCYIox2hLssu0VJBrd7KjFKZFKQsQSB-UlXdLMqN7LIxabHAlbA2_GOA-s_0Lo0hHJDrvdEA3xCl_g9_1POJjw6ELApgDmQKX-FNGNk0u6py55Ydxz9I0a4YkoX3C-uhlmZP600mH2LXNx7txg6wGAqHPWw-KsxzNe4EKmjPmuwrsF1_UOrgPDvvPfPskNVx-ISCiqY8fTMnghHfYwnrlzObYRNibpb3neQvlVSG0ap_S6gd7KYXvOsHBGmioCAvuOevaKv93GN_ObNT1EUuZiIAlzBbvXw4q5c6botd20Vpmb_jQKKFzsOTjlP41nklGvsReUHww3sMUCjT0rACUhLuDSvvwwqILNAqD2tyiW6SppAte4yk8CpLV7FV4NNMRKFlz_HmHn8-nypk7eS9-pxfqlWqiTqRfvTDzJp8XiF_f80Zoit27Iy72b7MuFP01pMiOvOCh7P3OdJ0CBOWWyuE1YZCLvB53yOw9STl-PqG5jZQA4sNPylOH9bPuEaC2ejHs9cMKuqRgZxIHPo_IJ4uk1rkdVD-beILilG-hWaeuG124dHaB0jYAhaVWFIkIU_m5ETfvoK-E5ko_UpJiPAVdMbZNnbWXKEYrrT7Cq-RGOZBm2CA7lXrrdWN4uYeE4_ZX7a8j04KgBVoYwZSJR7vLhPYVrc-STS2bc_-tWSjUPuNMK8CEBFl4PFut6wFnPKkQPPxxbRTacV7KcDM27cUOALPvdADPh9HoP_AUvrWCK3ylVfK73QrKfixYBfJaZ3bOpcgJC23ztieW9THtF3lOghKNlLSbCnqpBO35MLYvg-1zI-E5H-DDJ2GHOfQhqXuKlFYhy-m3ROtdYatYqX6kkc7mY6BB13HyGN9JxngUdncfTDul11-b-ym3S8SrQD1t8dCGxVP-EC577DuWBKP85FfQeBORnbQTk86FPFIkA46R6kI7ugKebnWnQs4z7hGnCtb2qDMQMSey49XLde0gb5-rWeAr-b8VyQeIhTiKkrzbEuurhKzuQSZZrUPzbOO4eD-30fxPEvqKRYvHgahn09f4RiXzdin900hLiFUsh4xbQmA3sqliWsrNk-kOExwRf9YgUdKnM07CMiZ8xmi61nOGipOLMl0Hpc5EZZhXrwyLESxPBGvKx7LgME_HNV2YjkIpJ-z8-MGY4NOWIhcpOF0ot6KlsiTUBVB7OpkxlosgIJzLSob4fi0dKpO4TLTeLTAYhlCME9N6a8M-P5C5EoGk7IlJaaynXOMMG4Dl9pn00PRc92GIKckh4-EgIjxMPT3aDM2Fx8RPQ-U_2xcS8fxtx0tVbt_qFjvwVwdbSTHFcZg2T7H2a3r6N1-E7djtM6iG9trMsfoJesnTuigrawEvS_VSs-B19kp6V2Tyc3uA0iL1XsmPv14E0PHqxTSuUta-NHwBhg-1h4jq-qCMHhMRVQIPLScZaI-Kllg2RcOKc1E-gC0_levDK06VcOdjC_rA4j_7Fmy_DSvUGofBLMEVvO6u_DzaL3i31vPcoAEEhnL_MNjA6pX6-dUxHY0hPjjojdoX2YDagY92zXyLMEodqmiR3tr-Q6HshMFKrPOukHS2G59dxdQ-3PvqjsxA_F1mghWWKZXa-Zt9sfPvKrqHXexq_KkXdNQN-GHC078P_AJCr8cNL5XUnIAxlU22b1IVYJ9cUg-KvKHRmDCiD6ZptwpZOPWXPLl9_G-Lo0or2xQrNX5laGlK2XjVLTBWozZwUidXUriMEqge--GVrp6blHLsOSzf_XoR00DUzg6iNgAiyf3oM3RP2Q-_0-TiVS7o382jiD0huFljizqeNDxWogC8W4hraRRa_nZQt31b1EA0yBJYJ0b9Uw1HIBEZVtNfUfeHcEFn08hRtKeBkwK3re2HuVcyScV-l6bFPCnyghHeTM64coXG949etWGkJqjahpPBF9zfvzDM6ni7YITjYRfMm1VMJJnQl-lJ75xk2XSv588_hiV6r3wjypKbPrUhdqEXnIFhuz7D5zbYRcs6FGtSSYWfE_9qFKEiz4j-G1lEveLmnpVKtb6u7dvUWp4n3GtJTu0vg7gh9rFsfZTWy5w=="
+    }
+   ],
+   "role": "model"
+  }
+ ],
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 25770,
+  "output_tokens": 938,
+  "cache_read_input_tokens": 9582
+ },
+ "model": "gemini-3.5-flash",
+ "tool_calls": 7,
+ "elapsed_s": 34.4,
+ "run_id": "r-74612aa57238",
+ "case_id": "poc-972f74519c"
+}

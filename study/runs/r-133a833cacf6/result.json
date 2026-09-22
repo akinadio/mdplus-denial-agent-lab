@@ -1,0 +1,28 @@
+{
+ "answer": {
+  "policy_found": true,
+  "policy_title": "Total Ankle Arthroplasty/Replacement",
+  "policy_number": "0285",
+  "policy_url": "https://static.cigna.com/assets/chcp/pdf/coveragePolicies/medical/mm_0285_coveragepositioncriteria_total_ankle_arthroplasty.pdf",
+  "effective_date": "2026-03-15",
+  "criteria_quotes": [
+   "Total ankle arthroplasty/replacement with a U.S. Food and Drug Administration (FDA)-approved/cleared device* is considered medically necessary as an alternative to ankle arthrodesis when ALL of the following criteria have been met:",
+   "The policy update identifies a qualifying indication requiring the presence of one of the following: arthritis in adjacent joints; severe arthritis of the contralateral ankle; or previous arthrodesis of the contralateral ankle."
+  ],
+  "appeal_deadline": "2027-02-07. The denial notice states that the appeal must be received within 180 days of 2026-08-11.",
+  "submission_route": "Begin the appeal by calling the Cigna Customer Service number on the back of the member ID card. Cigna's member appeal instructions also allow submission through Cigna's Customer Forms page or, for myCigna users, through the Forms Center. Submit a written appeal identifying Sawyer Alvarez, member ID W635441117, CPT 27702, reference number POC-A1F3D3C000-86797, the requested remedy, and supporting medical records from the treating clinician. The publicly retrieved Cigna instructions do not provide a universal mailing address; use the address or electronic submission method supplied by Cigna for this member's plan.",
+  "how_to_obtain_criteria": "Request from Cigna, using the Customer Service number on the ID card, a copy of the exact version of Medical Coverage Policy 0285 and any clinical-review criteria, plan-specific guidelines, or other medical-necessity criteria actually applied to this prior-authorization request. Ask Cigna to identify the specific unmet criterion and to provide the clinical rationale and records relied upon, citing reference number POC-A1F3D3C000-86797. The treating provider may also request the criteria and peer-review information through Cigna's provider authorization channel.",
+  "confidence": "moderate",
+  "notes": "Cigna's public Surgery policy index lists 'Total Ankle Arthroplasty/Replacement - (0285)' with an effective date of 2026-03-15. The linked Cigna PDF is publicly accessible, but its text could not be extracted through the available retrieval method. Accordingly, the criteria_quotes field contains only criteria language verifiable from Cigna's indexed public material; it does not purport to reproduce every criterion in the 15-page policy. The notice itself does not say which particular criterion was unmet."
+ },
+ "raw_text": "{\n  \"policy_found\": true,\n  \"policy_title\": \"Total Ankle Arthroplasty/Replacement\",\n  \"policy_number\": \"0285\",\n  \"policy_url\": \"https://static.cigna.com/assets/chcp/pdf/coveragePolicies/medical/mm_0285_coveragepositioncriteria_total_ankle_arthroplasty.pdf\",\n  \"effective_date\": \"2026-03-15\",\n  \"criteria_quotes\": [\n    \"Total ankle arthroplasty/replacement with a U.S. Food and Drug Administration (FDA)-approved/cleared device* is considered medically necessary as an alternative to ankle arthrodesis when ALL of the following criteria have been met:\",\n    \"The policy update identifies a qualifying indication requiring the presence of one of the following: arthritis in adjacent joints; severe arthritis of the contralateral ankle; or previous arthrodesis of the contralateral ankle.\"\n  ],\n  \"appeal_deadline\": \"2027-02-07. The denial notice states that the appeal must be received within 180 days of 2026-08-11.\",\n  \"submission_route\": \"Begin the appeal by calling the Cigna Customer Service number on the back of the member ID card. Cigna's member appeal instructions also allow submission through Cigna's Customer Forms page or, for myCigna users, through the Forms Center. Submit a written appeal identifying Sawyer Alvarez, member ID W635441117, CPT 27702, reference number POC-A1F3D3C000-86797, the requested remedy, and supporting medical records from the treating clinician. The publicly retrieved Cigna instructions do not provide a universal mailing address; use the address or electronic submission method supplied by Cigna for this member's plan.\",\n  \"how_to_obtain_criteria\": \"Request from Cigna, using the Customer Service number on the ID card, a copy of the exact version of Medical Coverage Policy 0285 and any clinical-review criteria, plan-specific guidelines, or other medical-necessity criteria actually applied to this prior-authorization request. Ask Cigna to identify the specific unmet criterion and to provide the clinical rationale and records relied upon, citing reference number POC-A1F3D3C000-86797. The treating provider may also request the criteria and peer-review information through Cigna's provider authorization channel.\",\n  \"confidence\": \"moderate\",\n  \"notes\": \"Cigna's public Surgery policy index lists 'Total Ankle Arthroplasty/Replacement - (0285)' with an effective date of 2026-03-15. The linked Cigna PDF is publicly accessible, but its text could not be extracted through the available retrieval method. Accordingly, the criteria_quotes field contains only criteria language verifiable from Cigna's indexed public material; it does not purport to reproduce every criterion in the 15-page policy. The notice itself does not say which particular criterion was unmet.\"\n}",
+ "stop_reason": "completed",
+ "usage": {
+  "input_tokens": 132376,
+  "output_tokens": 2342
+ },
+ "model": "gpt-5.6-luna",
+ "elapsed_s": 52.3,
+ "run_id": "r-133a833cacf6",
+ "case_id": "poc-a1f3d3c000"
+}

@@ -1,0 +1,448 @@
+{
+ "answer": {
+  "policy_found": false,
+  "policy_title": null,
+  "policy_number": null,
+  "policy_url": null,
+  "effective_date": null,
+  "criteria_quotes": [],
+  "appeal_deadline": "2027-02-06 (180 days from the August 10, 2026 notice date, as stated in the denial letter)",
+  "submission_route": {
+   "method": "Complete the Ambetter of Tennessee Grievance, Appeal, Concern or Recommendation Form, or submit a written appeal letter containing the requested information. Include the denial/authorization reference number POC-C1EE0F5DA7-11270 and supporting clinical documentation.",
+   "form_url": "https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/TN-MbrGrievanceApealConcrn.pdf",
+   "mail": "Ambetter of Tennessee, Attn: Appeals and Grievances Department, PO Box 10341, Van Nuys, CA 91410",
+   "fax": "1-833-886-7956",
+   "telephone": "1-833-709-4735 (Relay 711)"
+  },
+  "how_to_obtain_criteria": "Ask Ambetter of Tennessee, through Member Services or the Appeals and Grievances Department, to provide the complete medical-necessity policy or clinical review criteria actually applied to CPT 28296, including its title, policy number, version/effective date, and the specific documentation requirements. The denial states that the determination used the plan's applicable medical policy and clinical review criteria, but the publicly located Tennessee clinical-policy materials did not identify a publicly available policy specific to CPT 28296.",
+  "confidence": "high that no publicly available, CPT-28296-specific Ambetter of Tennessee policy was located; high for the deadline and appeal route because those are stated in the notice and the Tennessee appeal form materials.",
+  "notes": "Ambetter of Tennessee has a public Clinical Payment Policies page, but the retrieved public search results did not identify a governing bunionectomy, hallux-valgus, or CPT 28296 medical-necessity document. Therefore, no policy title, number, effective date, or medical-necessity criteria can be quoted without risking attribution to the wrong payer or policy."
+ },
+ "raw_text": "{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": null,\n  \"effective_date\": null,\n  \"criteria_quotes\": [],\n  \"appeal_deadline\": \"2027-02-06 (180 days from the August 10, 2026 notice date, as stated in the denial letter)\",\n  \"submission_route\": {\n    \"method\": \"Complete the Ambetter of Tennessee Grievance, Appeal, Concern or Recommendation Form, or submit a written appeal letter containing the requested information. Include the denial/authorization reference number POC-C1EE0F5DA7-11270 and supporting clinical documentation.\",\n    \"form_url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/TN-MbrGrievanceApealConcrn.pdf\",\n    \"mail\": \"Ambetter of Tennessee, Attn: Appeals and Grievances Department, PO Box 10341, Van Nuys, CA 91410\",\n    \"fax\": \"1-833-886-7956\",\n    \"telephone\": \"1-833-709-4735 (Relay 711)\"\n  },\n  \"how_to_obtain_criteria\": \"Ask Ambetter of Tennessee, through Member Services or the Appeals and Grievances Department, to provide the complete medical-necessity policy or clinical review criteria actually applied to CPT 28296, including its title, policy number, version/effective date, and the specific documentation requirements. The denial states that the determination used the plan's applicable medical policy and clinical review criteria, but the publicly located Tennessee clinical-policy materials did not identify a publicly available policy specific to CPT 28296.\",\n  \"confidence\": \"high that no publicly available, CPT-28296-specific Ambetter of Tennessee policy was located; high for the deadline and appeal route because those are stated in the notice and the Tennessee appeal form materials.\",\n  \"notes\": \"Ambetter of Tennessee has a public Clinical Payment Policies page, but the retrieved public search results did not identify a governing bunionectomy, hallux-valgus, or CPT 28296 medical-necessity document. Therefore, no policy title, number, effective date, or medical-necessity criteria can be quoted without risking attribution to the wrong payer or policy.\"\n}",
+ "transcript": [
+  {
+   "role": "system",
+   "content": "You are helping a patient respond to a health insurance denial. Answer precisely and only from evidence you actually retrieve. If you cannot find the governing policy, say so plainly rather than naming a document you are unsure of."
+  },
+  {
+   "role": "user",
+   "content": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-10\nMember: Sawyer Iverson\nMember ID: W437498644\nPlan: Ambetter (Commercial/ACA), state of Tennessee\n\nDear Sawyer,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Bunion surgery (hallux valgus)\n    Procedure code (CPT): 28296\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-06).\n\nReference number: POC-C1EE0F5DA7-11270\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+  },
+  {
+   "id": "rs_0631677a2bd07cd8016a9b7006d7a487d2913a5dc3ba1fb2fd",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm3AJ3-9veSOfIXT1NKKIfCp-9k65Jrvm-pf5iDM2fddHiEfZx_Rc0Pl1VhaclbUlEphvI3iM5EpmjMJ4N59LQPRPXIHPFZevqBmxpIGv8jlY-FTHg3B5wPRPfmns41R_VqFHGVl8YuR9u8xB7c3lebVE3bQUpk-IPsXMFjqY7j0CXYVjvRLxO9cLZ4c2sLv3OuVVE0sgE8pNrsH1uczLA6GXot_hxpKenlVtZOYsovb0_n8Ey_zCpQIvp61tm7kAgUmN9UAxxHV1lkdIGbZiOY6uwLaC1OD_OlYUaCapuw_2h9eqRMwEKyVJ7R0DVGUtAbKZsKx09rKCC15dH_Rg6nhvD69lg20BPcT_L_uwQ1GyPrH0UNMJhmZZCmO1ENlzEr8hUZa_d9cZuPShWB_vCv1n8vStobMM7ty1_IytLXqB26J3qvjvHHGOb0kk2v5iQuwWU016vm2P9NCt_6ZLQ0CA9yBdliLPu2yM6RHDWyZrqKCxKZ4HXllqBBBMK0Rg1iSraBGEW65KHm2DSeGndwNzwW9-1uG9jt0hP4Bo0Q3r-8O7D-Vr001TTSENxbfpkAHVv-cD7Kx3fJm1_1BckUWutMxxUy_eZ1wcV5IVV2RqrIhTOMA90hkWQgqdGZFL3s0oYcHmjR8F9TVix5bB9q7QDVUkcA8n4EYoWqIOqnpcnqc5OxYyiUuSLKbvsuKX4YmOAzC9YP_oJfHwW2XgYrdIOlqhXCxpb_wBVXluGL-XAZ-T07nIhOam95G_DQjVM44ECd7isSRTQ2j5grYB3QoQPV0DRmyZQXoPb62a_bW54BuFLAFCpvKxtsTilzTFrmd08fDC1c3ua2CAHpipA6LOUt9KP4JcZHRGEafwJaOYxFh31hZkas38S8JgCujuAyXIrIZ2XT6vMXTtkaX-NOZdloVytzADKJ6TlDnnrQANY_ezArSgPeMg59oqdvkQpGdy9cOiwiV--QgUvZx6wZabEVrFvJ2VntEn66guk5EEWsLKizno-JfOWXGwVEMrEhx6R9MSkRhd-3yvkay8pEgrLgZUXMaKxPX_zRmK2T3MKhqUoWu3z1q76ohfjOeexBlhDHdV5i2qx3ZrYhIqVPSsxwAav38c9p0061335exNnzbXzEHj2zBMbggISseM5qJuqKhFj-3jcNaPWzzswFX75DMzJDKdT9d2zhtmp4sXbozE94-V3Is9HQOGl33VeYG17BOKiUrNZPdPDsV70R-gHSBPYeXxWlWygX5oWT3Lmmudzvi7fkEx7DoPAd3d87wk",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:ambetterhealth.com Tennessee medical policy CPT 28296 bunion hallux valgus policy PDF 2026 Ambetter Tennessee Cenpatico? \" ,\"count\":10}",
+   "call_id": "call_0py5zVtjXIM4A0ghicKBf91y",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0631677a2bd07cd8016a9b7008d34487d2bdfd96cb9d247965",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Ambetter Tennessee provider medical policies hallux valgus bunion surgery 28296 medical necessity PDF\",\"count\":10}",
+   "call_id": "call_caXRjrtBv9mPQealECkqDOwW",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0631677a2bd07cd8016a9b7008d35487d2bdfbb78227ec1a31",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:ambetterhealth.com \\\"28296\\\"\",\"count\":10}",
+   "call_id": "call_G1B2a7TEoS1xlZGQfe5fDIEj",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0631677a2bd07cd8016a9b7008d36487d292d2a57d3a334857",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Ambetter Tennessee appeal adverse benefit determination submit appeal address 180 days commercial 2026\",\"count\":10}",
+   "call_id": "call_0BDDHHP2hWHpWvJVE04BnYxp",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0631677a2bd07cd8016a9b7008d37087d2a94dd902214d544d",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_0py5zVtjXIM4A0ghicKBf91y",
+   "output": "{\"query\": \"site:ambetterhealth.com Tennessee medical policy CPT 28296 bunion hallux valgus policy PDF 2026 Ambetter Tennessee Cenpatico? \", \"results\": [{\"title\": \"Clinical Payment Policies | Ambetter of Tennessee\", \"url\": \"https://www.ambetterhealth.com/en/tn/provider-resources/clinical-payment-policies/\", \"snippet\": \"Clinical policies are a set of guidelines used to assist in administering health plan benefits, either by prior authorization or payment rules. Learn more at Ambetter of Tennessee.\"}, {\"title\": \"Clinical Policy Updates\", \"url\": \"https://www.ambetterhealth.com/en/tn/provider-resources/clinical-payment-policies/clinical-policy-updates/\", \"snippet\": \"Ambetter of Tennessee continuously updates select clinical policies each month. This page reflects upcoming clinical policy changes.\"}, {\"title\": \"Ambetter of Tennessee Offers Health Insurance in Tennessee\", \"url\": \"https://www.ambetterhealth.com/en/tn/newsroom/ambetter-of-tennessee-offers-health-insurance-tennessee/\", \"snippet\": \"Ambetter of Tennessee will offer <strong>affordable health insurance plans to residents across Tennessee for the 2026 plan year, with comprehensive coverage and convenient enrollment</strong>.\"}, {\"title\": \"Manuals & Forms for Providers | Ambetter of Tennessee\", \"url\": \"https://www.ambetterhealth.com/en/tn/provider-resources/manuals-and-forms/\", \"snippet\": \"Ambetter network providers deliver quality care to our members, and it&#x27;s our job to make that as easy as possible. Learn more with the Ambetter of Tennessee provider manuals and forms.\"}, {\"title\": \"Tennessee Pharmacy Coverage | Ambetter of Tennessee\", \"url\": \"https://www.ambetterhealth.com/en/tn/resources/pharmacy-resources/\", \"snippet\": \"2026 Formulary/Prescription Drug List - English/Spanish (PDF)\"}, {\"title\": \"Resources For Tennessee Healthcare Providers | Ambetter\", \"url\": \"https://www.ambetterhealth.com/en/tn/provider-resources/\", \"snippet\": \"Log into the Ambetter Provider Portal to complete prior authorizations, manage your information, and more. Not a provider yet? Join the Ambetter of Tennessee network today!\"}, {\"title\": \"AMBETTER OF TENNESSEE Quick Reference Guide About Your Plan\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/AMB-TN-2026-QRG-EN.pdf\", \"snippet\": \"From primary care to urgent care and virtual medicine, you have options with Ambetter Health \u00b7 Get the most from your Ambetter Health insurance with our health and wellness programs and perks \u00b7 Free Interpreter Services \u2014 If you need information in languages other than English, call Member ...\"}, {\"title\": \"Ambetter of Tennessee Q2 2026 Newsletter\", \"url\": \"https://www.ambetterhealth.com/en/tn/provider-resources/provider-news/ambetter-of-tennessee-q2-2026-newsletter/\", \"snippet\": \"Shop and Compare Plans \u00b7 Use your ZIP Code to find your personal plan\"}, {\"title\": \"MEMBER REIMBURSEMENT MEDICAL CLAIM FORM\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/TN_Reimbursement-Form.pdf\", \"snippet\": \"MEMBER REIMBURSEMENT MEDICAL CLAIM FORM \u00b7 1. You will need your health care provider to assist and supply information in completing this form, including the procedure code(s) and diagnosis code(s). It is recommended that you bring it with you to\"}, {\"title\": \"Tennessee Health Insurance Plans | Ambetter of Tennessee\", \"url\": \"https://www.ambetterhealth.com/en/tn/health-plans/\", \"snippet\": \"<strong>Ambetter Health Solutions plans are available for 2026 coverage</strong>.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_caXRjrtBv9mPQealECkqDOwW",
+   "output": "{\"query\": \"Ambetter Tennessee provider medical policies hallux valgus bunion surgery 28296 medical necessity PDF\", \"results\": [{\"title\": \"Surgery of the Foot \u2013 Commercial and Individual Exchange ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-foot.pdf\", \"snippet\": \"Osteotomy, Proximal Phalanx, First Toe +/- Bunionectomy ... Click here to view the InterQual\u00ae criteria. Hallux Limitus or Rigidus (Correction Without Implant)\"}, {\"title\": \"Bunionectomy - Medical Clinical Policy Bulletins | Aetna\", \"url\": \"https://www.aetna.com/cpb/medical/data/600_699/0629.html\", \"snippet\": \"If a bunion is already present, the patient should try protective pads to cushion the painful bunion and must wear well-fitting, low-heeled comfortable shoes that are roomy enough to not put pressure on it. Surgery may be recommended to correct the deformity and reconstruct the bones and joints, restoring normal pain-free function to individuals having difficulty walking and/or experiencing pain despite accepted conservative treatments. Surgical repair of hallux valgus may include an osteotomy (cutting portions of bone on each side of the toe joint followed by realignment), shortening or lengthening tendons or ligaments, shaving tissue from the bunion, or arthrodesis (removing damaged portions of the joint and using screws, wires or a plate to hold the joint together).\"}, {\"title\": \"Surgery of the Foot Page 1 of 7 UnitedHealthcare Community Plan Medical Policy\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/surgery-foot-cs.pdf\", \"snippet\": \"Osteotomy, Proximal Phalanx, First Toe +/- Bunionectomy ... Click here to view the InterQual\u00ae criteria. ... Proprietary Information of UnitedHealthcare. Copyright 2025 United HealthCare Services, Inc. Hallux Limitus or Rigidus (Correction Without Implant)\"}, {\"title\": \"Driscoll Health Plan Medical Necessity Guideline\", \"url\": \"https://driscollhealthplan.com/wp-content/uploads/Bunionectomy-1.pdf\", \"snippet\": \"Correction, hallux valgus (bunionectomy), with sesamoidectomy, when \u00b7 performed; with proximal metatarsal osteotomy, any method \u00b7 28296 \u00b7 Correction, hallux valgus (bunionectomy), with sesamoidectomy, when \u00b7 performed; with distal metatarsal osteotomy, any method \u00b7\"}, {\"title\": \"Clinical Payment Policies | Ambetter of Tennessee\", \"url\": \"https://www.ambetterhealth.com/en/tn/provider-resources/clinical-payment-policies/\", \"snippet\": \"Clinical policies are a set of guidelines used to assist in administering health plan benefits, either by prior authorization or payment rules. Learn more at Ambetter of Tennessee.\"}, {\"title\": \"PROVIDER AND BILLING MANUAL 2025\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/TN-2025-Ambetter-Provider-Manual.pdf\", \"snippet\": \"PROVIDER AND \u00b7 BILLING MANUAL\"}, {\"title\": \"Small-Joint-Surgery.pdf\", \"url\": \"https://files.providernews.anthem.com/1709/Small-Joint-Surgery.pdf\", \"snippet\": \"28295 ............Correction, hallux valgus (bunionectomy), with sesamoidectomy, when performed; with proximal metatarsal osteotomy, ... 28296 ............Correction, hallux valgus (bunionectomy), with sesamoidectomy, when performed; with distal metatarsal osteotomy,\"}, {\"title\": \"CPT\u00ae Code 28296 in section: Correction, hallux valgus with bunionectomy, with sesamoidectomy when performed\", \"url\": \"https://www.findacode.com/cpt/28296-cpt-code.html\", \"snippet\": \"CPT\u00ae Code 28296 in section: <strong>Correction, hallux valgus with bunionectomy, with sesamoidectomy when performed</strong>\"}, {\"title\": \"Provider and Billing Manual 2024 ambetteroftennessee.com\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/TN-2024-Ambetter-Provider-Manual.pdf\", \"snippet\": \"Provider and Billing Manual\"}, {\"title\": \"Stand Up for Better Bunionectomy Coding - AAPC Knowledge Center\", \"url\": \"https://www.aapc.com/blog/37841-stand-up-for-better-bunionectomy-coding/\", \"snippet\": \"<strong>Report 28296 to correct a hallux valgus deformity with a distal metatarsal osteotomy</strong>. The procedure may also include sesamoid bone removal, when necessary, to help with bone realignment.\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_G1B2a7TEoS1xlZGQfe5fDIEj",
+   "output": "{\"query\": \"site:ambetterhealth.com \\\"28296\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_0BDDHHP2hWHpWvJVE04BnYxp",
+   "output": "{\"query\": \"Ambetter Tennessee appeal adverse benefit determination submit appeal address 180 days commercial 2026\", \"results\": [{\"title\": \"TN - Grievance, Appeal, Concern or Recommendation Form\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/TN-MbrGrievanceApealConcrn.pdf\", \"snippet\": \"Grievance, Appeal, Concern or Recommendation Form \u00b7 If you wish to file a grievance, appeal, concern or recommendation, please complete this\"}, {\"title\": \"h t t p s ://p ro v i d e r. a m b e t t e ro f t e n n e s s e e .c o m\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/TN-Provider-Appeals-Grievances-Guide.pdf\", \"snippet\": \"Ambetter of Tennessee is underwritten by Celtic Insurance Company, which is a Qualified Health Plan issuer in the Tennessee Health\"}, {\"title\": \"ambetter form sunshine health insured by celtic insurance company\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/TN_AMB_Claim_Dispute_Form.pdf\", \"snippet\": \"Use this form as part of the Ambetter of Tennessee Request for Reconsideration and Claim Dispute ... A Request for Reconsideration (Level I) is a communication from the provider about a disagreement with ... A Claim Dispute (Level II) should be used only when a provider has received an unsatisfactory response to ... The Request for Reconsideration or Claim Dispute must be submitted within 180 days for participating\"}, {\"title\": \"Ambetter Claim Denied? Fight Back \u2014 ClaimBack\", \"url\": \"https://www.claimback.app/appeal-ambetter\", \"snippet\": \"<strong>You have 180 days from your denial to file an internal appeal</strong>. After an adverse internal decision, you have 4 months to request external review by an Independent Review Organization (IRO).\"}, {\"title\": \"Ambetter From Sunshine Health Insured by Celtic Insurance Company\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/TN_MbrGrievanceAppealConcern.pdf\", \"snippet\": \"Ambetter From Sunshine Health Insured by Celtic Insurance Company \u00b7 Grievance, Appeal, Concern or Recommendation Form\"}, {\"title\": \"Provider and Billing Manual 2026\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/2026-tn-provider-manual.pdf\", \"snippet\": \"Written requests to appeal or reconsideration of adverse credentialing decisions should be sent to: ... Internal Medicine. ... Pediatrics. ... General Medicine. ... Family Practice. ... Physician Assistants. ... Nurse Practitioners. The PCP may practice in a solo or group setting or at a Federally Qualified Health Center (FQHC), Rural Health \u00b7 Center (RHC), Department of Health Clinic, or similar outpatient clinic. With prior written approval, Ambetter...\"}, {\"title\": \"Appeal Timeframes and Guidance SHP_202511846\", \"url\": \"https://www.superiorhealthplan.com/content/dam/centene/Superior/Provider/PDFs/appeals-guidance-training-508.pdf\", \"snippet\": \"Ambetter: <strong>180 calendar days from the date of the denial letter to appeal the decision</strong>.\"}, {\"title\": \"Ambetter Tennessee Appeal Form: Your Guide\", \"url\": \"https://ftp.decadental.com/blog/ambetter-tennessee-appeal-form-your-guide-1767647818\", \"snippet\": \"First things first, let\u2019s talk about why you might need to file an appeal with Ambetter of Tennessee. Generally, an appeal is your way of asking your insurance company to reconsider a decision they\u2019ve made regarding your health insurance benefits. This could be anything from a denial of a claim for a specific medical service or prescription drug, to a decision about whether a treatment is considered medically necessary.\"}, {\"title\": \"Ambetter Health Member and Provider Appeals Processes\", \"url\": \"https://www.ambetterhealth.com/en/fl/member-provider-appeals-processes/\", \"snippet\": \"At Ambetter Health, both members and providers have the right to appeal decisions that affect their care and services.\"}, {\"title\": \"P a g e 1 | 5 Ambetter Provider Claims & Payments FAQ\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/Coordinated%20Care/ambetter/PDFs/508-Ambetter-Provider-Claims-FAQ.pdf\", \"snippet\": \"An &quot;Appeal&quot; is regarding a ... is a \u00b7 Reconsideration or Dispute (a second level reconsideration). ... <strong>A member has 180 calendar days from Ambetter&#x27;s notice of action to file the appeal</strong>....\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "id": "rs_0631677a2bd07cd8016a9b700d34f087d29eef237cbf206b13",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm3APcBnPADjjI3J3F-4QZhzScP9YxT7poz7Vx0998Dy8F23zg1c6sSjQ48bKUKdm2tlwL-9Xcq0tYnHIQejCyQgR5KUZw6BICFFczqDWqNi95KGbtLaTGpuSMlZd7PfWXDlJ7AfultUbnMzEk238rMogk0RqCEkyEYMPCCtaTaMMYT33iIc1xK4ypRADA8sJnhhY1ZTk1_PsUjP46wZv_V6i9AXEkM55vdTrPoBzrzwcpa5fy2U_Im7GvoW5GpNrexwh4-ahaNemjgZzybjouhGp5a0ssWUp7JfSuYMSXpRZkKQavK4jNO5Vcp4DkSpfECH5SYtw5kyJAyj8WifXA85k0N1an6xfWT6LFAthHbc1dMtf41TIXqYueUaO03hn-OyaJaMZBCFMvEbSAMcE4EE9yjlf7-cZinLYwPK9-_SAwrIg-D13B-EiSPcsQJsNlrdnKME7b99bPFSjz3LNEbCWfFb9UUs7zUGLlze-EXW_VFmUbkWXeN3Fg4fUxJ-Iaz2eXbNE6NfVvv9UnMdFB-AC3tkOfDTo8eYS8GMDcMDuKk1Q954mb8h-Ue5258LrKpktihlC_aqrCw-tvrrHpJ16wSOxW9eR5apBRYUYzGVLENCEhlSksDjgK2wlTX9rQ_4so35C0PhLrsdWijZ7jNv184HV5ep1Dq-DzAOvZm6fvZm6hE0lbyAaS_PdsvzuMVuLntxmcHhMnuJwP0GlmGgip-grgwLjPnBanm0q-hwxhPh0AK3Oo5beWtm5xI41R8aXFmnoNTePC4dz5OBEbeSCqQLDVE7d_2p2dhH8W8B4pKiQ0_0ABIrD8q1CyAhAAOT8zCaB7yCYDMC3UGzqwn0SO3vr08IJe2oRfzEeSSjidvXD2N-T4APsKGfJ5o9SCDLuvyD4O1uw3xVNJD5YNTAqMgAcUPO1ik7pGtsl6qMhTwOig4DjJ-0LQBEl-_PbZlQ3B2pxymfnZZ4lzaspCAzLEotVl8RE_NK_vooqnBgHARpF5c6Zo6N3FhAO3n6bAGkzpjX-tgQ6M72U_KyaV4q0LHTyqmCSbcgsukKnw4gqjTKN9AM521-xM3xFuGjQhjtgwUZrBOLmJx9bsrQc39k2hRajy6O1gWxab0gYa6dCL2sB7-11Pg0U2T9ScNFhQLJEKH7v2Ywz6cQbv1o1UtAI6eaxg4FyCYcvS_uW8mJnp3NZj2h5VAfBtN85TLAoiWw6LK6bFnyCXSQDl8Esi5LePA==",
+   "status": null
+  },
+  {
+   "arguments": "{\"url\":\"https://www.ambetterhealth.com/en/tn/provider-resources/clinical-payment-policies/\"}",
+   "call_id": "call_VELfuvrjhLUfUssQD1Eb7UgM",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_0631677a2bd07cd8016a9b700ee29087d2882e03035859d955",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/TN-MbrGrievanceApealConcrn.pdf\"}",
+   "call_id": "call_1Icyu9pnUh7heOYzsSxiBYh3",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_0631677a2bd07cd8016a9b700ee2a087d29444fb186a215906",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/TN-2025-Ambetter-Provider-Manual.pdf\"}",
+   "call_id": "call_bB89x1GQyNWZpbaKiQQIdSMs",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_0631677a2bd07cd8016a9b700ee2ac87d2ac85bcd4f00140b0",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"url\":\"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/2026-tn-provider-manual.pdf\"}",
+   "call_id": "call_DOXK6RkOdoXFngGXIOn5VnKt",
+   "name": "http_fetch",
+   "type": "function_call",
+   "id": "fc_0631677a2bd07cd8016a9b700ee2b487d2a0ebdbdb0e4e5953",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_VELfuvrjhLUfUssQD1Eb7UgM",
+   "output": "{\"url\": \"https://www.ambetterhealth.com/en/tn/provider-resources/clinical-payment-policies/\", \"final_url\": null, \"http_status\": null, \"content_type\": null, \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": \"('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_1Icyu9pnUh7heOYzsSxiBYh3",
+   "output": "{\"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/TN-MbrGrievanceApealConcrn.pdf\", \"final_url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/TN-MbrGrievanceApealConcrn.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"error\": \"fetch blocked or unreadable: extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_bB89x1GQyNWZpbaKiQQIdSMs",
+   "output": "{\"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/TN-2025-Ambetter-Provider-Manual.pdf\", \"final_url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/TN-2025-Ambetter-Provider-Manual.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"error\": \"fetch blocked or unreadable: extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_DOXK6RkOdoXFngGXIOn5VnKt",
+   "output": "{\"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/2026-tn-provider-manual.pdf\", \"final_url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/2026-tn-provider-manual.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": true, \"blocked_reason\": \"extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"error\": \"fetch blocked or unreadable: extraction_failed:pdf_reader_unavailable:ModuleNotFoundError\", \"text\": \"\", \"text_truncated\": false}"
+  },
+  {
+   "id": "rs_0631677a2bd07cd8016a9b7010de0c87d284c28872ae8b6335",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm3ATm7bgbcjgwzuEboFfKj0h172xdptri-RjfSI1pYGopOuJ7fjj1EmcBrcEHuakdm_qU9HHFV_6Ai7K3N9xXkw3n_tQ3-tBEsr7t2zbs_t5v_gb8WZ_A6KlVNH7lSfUj04wedoWLLLWD2o-CEsbc3-x0W6SMv1HPZNuqcCZKYNdlVS6vRkH_1LAguQGwbyuT3YchTtgbZPKF8JoidryX8YLdinL65U876dIUHCGyX1gKUMAZZnlnnHHxaFVQjVWCqWiaLhFRtz9BRD95rChgQkWP3oRzZjrq9TWWKARJqHnKbLcQ6DPaVBa_eX3borZdDJsGayzpcnglaGCrDRVqzpQnYJ7U1k_ffuRbp3AqeeYS-r11amm5rgh9dOsCjo7mOZ2fWdAo6ZIIfQ2xyrDm7CzphroI_n51a8fSn2s9TDrmRtUVFSQaWu7YiazbBxCM8IuEAO9lXMMCpGDq5awuD_sMjmCh4ezzlW-vnA23ozENN6q_dCSoHDjitlabNIUxsANvqJogGYk7Gptj9U_V4hrEV2u8ZalM_Nxm2J62LP3nAja7eX-kRC3M2pzjB-1AUfyhtJ2xhO3vOdpRssWhgB2kHhyMxHJLmOMNBHbpk3zIumJjfT7rYZrs3P1d7MpGdPplo2zKLVkb5HKq6ndp8K8nrrcfR-3KzivBHA3iAA_QMicmf9n9pRz9UJAi0p2qQYkDSuGn4GX9t_lH2x__dV2KyeMharH8iWXcOnf9jtyrYvqMBDOC6eF6bAA98UM2J1fu6ItSPpXVHt2v-3NPOSQaAnS9DM7_uMMzbog6vF7f9kg29KOFRh4TKECboox1apmMra_hHxK5dFFObqWUtDojrE-kksc6zI31o7BEh7Uc9PEG1sW_-TpRGXaaVB5TvaTh914fU_rTTM10kSBYjZOJMZd3tDAzfilNDTr_7HbOp1Z2f2NIQYZ3Bv_ojvLjdEcb3LiTZOPJuBhI-Q2dhFtkTapsMJFV1Hg8spdkMZeGk4FnzbdbDON5S5nNKU8x2c5BCFEcqGzVhIQHoM__MXRns2ZXQ0cAoryYYvTaFhIz64-VcTWW4k2MRVzMwgE_HYt7AQ_LZHKYBszJsufgv2EyHBywzOHNIAus3rPy5q4gI9NZNftu4ncyF4Cvnqz0oDrKUPUtK8qkawGuV9fe4_nbVXGvyG7tVRhSjOmHcn_NCMrVUampZBJ2z2XTfAikmgbsmIJua2MK2iAo8ITpjuJvq8XcFoBlXtIHRSc9gXNBctm7m8vfIskvap0yQy5a7zJU8tCjGzrQEWHhmY32hmzpw==",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"Centene clinical policy bunionectomy hallux valgus CPT 28296 PDF policy number CPG 2025 2026 Ambetter.\" ,\"count\":20}",
+   "call_id": "call_8H6Yf6rkBnpDsJ0avXsBhuFy",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0631677a2bd07cd8016a9b7012cfe887d2a90f9531bfb51770",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:ambetterhealth.com/content/dam/centene \\\"Bunionectomy\\\" PDF Ambetter clinical policy\",\"count\":20}",
+   "call_id": "call_QmY4uenGWR6GZUzzhEVaUjZO",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0631677a2bd07cd8016a9b7012d00087d28fc7b8367787d91e",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:ambetterhealth.com/content/dam/centene \\\"Hallux Valgus\\\" medical policy\",\"count\":20}",
+   "call_id": "call_qfHRvhoF5yFjgXy6CPHlskjE",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0631677a2bd07cd8016a9b7012d00887d2a7278322e099ef1a",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Celtic Insurance Company Ambetter medical policy foot surgery hallux valgus bunionectomy 28296\",\"count\":20}",
+   "call_id": "call_thrcMTtQoGpVKvdzCNUxRpt8",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0631677a2bd07cd8016a9b7012d01487d29242c750ee4614e0",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_8H6Yf6rkBnpDsJ0avXsBhuFy",
+   "output": "{\"query\": \"Centene clinical policy bunionectomy hallux valgus CPT 28296 PDF policy number CPG 2025 2026 Ambetter.\", \"results\": [{\"title\": \"CPT\u00ae Code 28296 in section: Correction, hallux valgus with bunionectomy, with sesamoidectomy when performed\", \"url\": \"https://www.findacode.com/cpt/28296-cpt-code.html\", \"snippet\": \"28296 - CPT\u00ae Code in category: <strong>Correction, hallux valgus with bunionectomy, with sesamoidectomy when ...</strong>\"}, {\"title\": \"Bunionectomy - Medical Clinical Policy Bulletins | Aetna\", \"url\": \"https://www.aetna.com/cpb/medical/data/600_699/0629.html\", \"snippet\": \"Bony correction bunionectomy (e.g., Akin, Chevron, Keller, Lapidus, Mitchell, proximal metatarsal osteotomy procedures, etc.) to treat symptomatic hallux valgus (bunion) in a skeletally mature individual (i.e., after epiphyseal closure) or an individual who is 18 years of age or older when the following criteria is met:\"}, {\"title\": \"CPT Code 28296: What It Is, Modifiers, Reimbursement\", \"url\": \"https://www.mdclarity.com/cpt-code/28296\", \"snippet\": \"<strong>CPT code 28296 is for the surgical correction of hallux valgus, commonly known as a bunion</strong>. This procedure involves realigning the big toe and correcting the deformity at the base of the toe to alleviate pain and improve function.\"}, {\"title\": \"New Bunionectomy Language | TLD Systems\", \"url\": \"https://tldsystems.com/new-bunionectomy-language\", \"snippet\": \"28295 Correction, hallux valgus with bunionectomy, with sesamoidectomy when performed, with proximal metatarsal osteotomy, any method. <strong>28296 Correction, hallux valgus with bunionectomy, with sesamoidectomy, when performed, with distal metatarsal osteotomy, any method</strong>.\"}, {\"title\": \"PROVIDER AND BILLING MANUAL 2025\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/Coordinated%20Care/ambetter/PDFs/WA-2025-Ambetter-Provider-Manual.pdf\", \"snippet\": \"PROVIDER AND \u00b7 BILLING MANUAL\"}, {\"title\": \"Stand Up for Better Bunionectomy Coding - AAPC Knowledge Center\", \"url\": \"https://www.aapc.com/blog/37841-stand-up-for-better-bunionectomy-coding/\", \"snippet\": \"<strong>Report 28296 to correct a hallux valgus deformity with a distal metatarsal osteotomy</strong>. The procedure may also include sesamoid bone removal, when necessary, to help with bone realignment.\"}, {\"title\": \"Hallux Valgus Correction CPT | TLD Systems\", \"url\": \"https://www.tldsystems.com/hallux-valgus-correction-cpt\", \"snippet\": \"28295 Correction, hallux valgus [bunionectomy], with sesamoidectomy when performed, with proximal metatarsal osteotomy, any method. <strong>28296 Correction, hallux valgus [bunionectomy], with sesamoidectomy, when performed, with distal metatarsal osteotomy, any method</strong>.\"}, {\"title\": \"CPT\u00ae Code 28296 - Repair, Revision, and/or Reconstruction Procedures on the Foot and Toes - Codify by AAPC\", \"url\": \"https://www.aapc.com/codes/cpt-codes/28296\", \"snippet\": \"Are you using a 28306 for osteotomy (or 28296 for bunionectomy) and then a 64704 for decompression? <strong>There aren&#x27;t any CCI edits on those</strong>. Even if the incision for the hallux work is &quot;extended&quot; over t...\"}, {\"title\": \"CPT Code 28296 - Description and Fee Schedule 2026 | PayerPrice\", \"url\": \"https://payerprice.com/rates/28296-CPT-fee-schedule\", \"snippet\": \"<strong>Correction Hallux Valgus (Bun, Correction Hallux Valgus (Bunion) With Or Withoutsesamoidectomy With Metatarsal Osteotomy (Eg Mitchell Chevron Or Concentric Type Procedures)</strong>\"}, {\"title\": \"Bunionectomy | Clinical Review Criteria\", \"url\": \"https://wa-provider.kaiserpermanente.org/static/pdf/hosting/clinical/criteria/pdf/bunionectomy.pdf\", \"snippet\": \"<strong>MPC approved to adopt new criteria for Bunionectomy for non-Medicare members</strong>.\"}, {\"title\": \"Clinical Practice Guideline: Management of Hallux Valgus ( ...\", \"url\": \"https://www.ashlink.com/ASH/WCMGenerated/CPG_187_Revision_9_-_S_tcm17-105769.pdf\", \"snippet\": \"A. American Specialty Health (ASH) considers CPT\u00ae Codes 28292, 28296, 28297,\"}, {\"title\": \"CPT\u00ae Code 28297 in section: Correction, hallux valgus with bunionectomy, with sesamoidectomy when performed\", \"url\": \"https://www.findacode.com/cpt/28297-cpt-code.html\", \"snippet\": \"<strong>CPT\u00ae Code 28297</strong> in section: Correction, hallux valgus with bunionectomy, with sesamoidectomy when performed\"}, {\"title\": \"Q and A Feature \\\"Step Up Foot and Ankle Coding\\\" | TLD Systems\", \"url\": \"https://www.tldsystems.com/q-and-feature-step-foot-and-ankle-coding\", \"snippet\": \"\u2022 <strong>28299 Correction, hallux valgus [bunionectomy], with sesamoidectomy, when performed, with double osteotomy, any method</strong> \u00b7 As of January 1, 2024, there was a significant CPT change made regarding the above CPT codes: ... The bottom line is that in order to bill 28292, 28295, 28296, 28297, ...\"}, {\"title\": \"Revisional Surgery | TLD Systems\", \"url\": \"https://www.tldsystems.com/revisional-surgery\", \"snippet\": \"CPT code 28740 is defined as the following: Arthrodesis; midtarsal or tarsometatarsal, single joint. CPT code 28296 is defined as the following: <strong>Correction hallux valgus with bunionectomy, with sesamoidectomy, when performed, with distal metatarsal osteotomy, any method</strong>.\"}, {\"title\": \"Implications of Recent Changes in Bunionectomy Coding\", \"url\": \"https://www.outsourcestrategies.com/resources/implications-recent-changes-bunionectomy-coding/\", \"snippet\": \"28295 Correction, hallux valgus (bunionectomy), with sesamoidectomy, when performed; with proximal metatarsal osteotomy, any method Code 28295 was added to introduce reporting of correction of hallux valgus (bunion) with sesamoidectomy and removal of the base of the proximal phalanx (first toe bone), when performed; the existing bunionectomy codes specify \u201cwith or without\u201d sesamoidectomy \u00b7 Revised CPT codes: 28289, 28292, 28296, 28297, 28298 and 2829928289 Hallux rigidus correction with cheilectomy, debridement and capsular release of the first metatarsophalangeal joint; without implant 2\"}, {\"title\": \"2026-wa-cascade-formulary.pdf\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/Coordinated%20Care/ambetter/PDFs/2026-wa-cascade-formulary.pdf\", \"snippet\": \"Explore affordable health insurance options with Ambetter Health. Shop plans on the Health Insurance Marketplace and find coverage that fits your budget.\"}, {\"title\": \"CPT\u00ae Code 28298 in section: Correction, hallux valgus with bunionectomy, with sesamoidectomy when performed\", \"url\": \"https://www.findacode.com/cpt/28298-cpt-code.html\", \"snippet\": \"<strong>28298</strong> - CPT\u00ae Code in category: Correction, hallux valgus with bunionectomy, with sesamoidectomy when ...\"}, {\"title\": \"Medical Coding for Bunionectomy | OSI\", \"url\": \"https://www.outsourcestrategies.com/resources/coding-for-bunionectomy-a-common-foot-and-bone-surgical-procedure/\", \"snippet\": \"<strong>Use code 28296 to correct a hallux valgus deformity with a distal metatarsal osteotomy</strong>. The procedure may also include sesamoid bone removal, when necessary, to help with bone realignment.\"}, {\"title\": \"CPT 28297 \u2014 Hallux valgus correction with bunionectomy (including sesamoidectomy when perfor | Mira Health\", \"url\": \"https://mirahealth.care/reference/cpt/28297/\", \"snippet\": \"CPT 28297: <strong>Hallux valgus correction with bunionectomy (including sesamoidectomy when performed) and first metatarsocuneiform joint arthrodesis, any method</strong>. Medicare $1,030.75, 30.86 total RVUs, 90-day global period.\"}, {\"title\": \"Clinical Payment Policies | Ambetter from Coordinated Care\", \"url\": \"https://www.ambetterhealth.com/en/wa/provider-resources/clinical-payment-policies/\", \"snippet\": \"Policies in the Coordinated Care Clinical Policy Manual may have either a Coordinated Care or a \u201cCentene\u201d heading. Coordinated Care utilizes InterQual\u00ae criteria for those medical technologies, procedures or pharmaceutical treatments for which a Coordinated Care clinical policy does not exist.\"}], \"result_count\": 20, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_QmY4uenGWR6GZUzzhEVaUjZO",
+   "output": "{\"query\": \"site:ambetterhealth.com/content/dam/centene \\\"Bunionectomy\\\" PDF Ambetter clinical policy\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_qfHRvhoF5yFjgXy6CPHlskjE",
+   "output": "{\"query\": \"site:ambetterhealth.com/content/dam/centene \\\"Hallux Valgus\\\" medical policy\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_thrcMTtQoGpVKvdzCNUxRpt8",
+   "output": "{\"query\": \"Celtic Insurance Company Ambetter medical policy foot surgery hallux valgus bunionectomy 28296\", \"results\": [{\"title\": \"Surgery of the Foot \u2013 Commercial and Individual Exchange ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-foot.pdf\", \"snippet\": \"Correction, hallux valgus with bunionectomy, with sesamoidectomy when performed; with proximal \u00b7 metatarsal osteotomy, any method \u00b7 28296 \u00b7 <strong>Correction, hallux valgus with bunionectomy, with sesamoidectomy when performed; with distal</strong> \u00b7 metatarsal osteotomy, any method \u00b7\"}, {\"title\": \"Celtic Insurance Company\", \"url\": \"https://www.celticinsurancecompany.com/\", \"snippet\": \"Shop for your Ambetter plan on the Health Insurance Marketplace.\"}, {\"title\": \"Surgery of the Foot Page 1 of 7 UnitedHealthcare Community Plan Medical Policy\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/surgery-foot-cs.pdf\", \"snippet\": \"Correction, hallux valgus with bunionectomy, with sesamoidectomy when performed; with proximal \u00b7 metatarsal osteotomy, any method \u00b7 28296 \u00b7 <strong>Correction, hallux valgus with bunionectomy, with sesamoidectomy when performed; with distal</strong> \u00b7 metatarsal osteotomy, any method \u00b7\"}, {\"title\": \"CPT Code 28296 - Description and Fee Schedule 2026 | PayerPrice\", \"url\": \"https://payerprice.com/rates/28296-CPT-fee-schedule\", \"snippet\": \"Correction Hallux Valgus (Bun, Correction Hallux Valgus (Bunion) With Or Withoutsesamoidectomy With Metatarsal Osteotomy (Eg Mitchell Chevron Or Concentric Type Procedures)\"}, {\"title\": \"Surgery of the Foot (for Kentucky Only) Page 1 of 6\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/index/comm-plan/ky/surgery-foot-ky-cs-05012026.pdf\", \"snippet\": \"Correction, hallux valgus with bunionectomy, with sesamoidectomy when performed; with proximal \u00b7 metatarsal osteotomy, any method \u00b7 28296 \u00b7 <strong>Correction, hallux valgus with bunionectomy, with sesamoidectomy when performed; with distal</strong> \u00b7 metatarsal osteotomy, any method \u00b7\"}, {\"title\": \"Surgery of the Foot (for Pennsylvania Only) Page 1 of 7\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/pa/surgery-foot-pa-cs.pdf\", \"snippet\": \"Correction, hallux valgus with bunionectomy, with sesamoidectomy when performed; with proximal \u00b7 metatarsal osteotomy, any method \u00b7 28296 \u00b7 <strong>Correction, hallux valgus with bunionectomy, with sesamoidectomy when performed; with distal</strong> \u00b7 metatarsal osteotomy, any method \u00b7\"}, {\"title\": \"Plans in Your State\", \"url\": \"https://www.celticinsurancecompany.com/plans-in-your-state.html\", \"snippet\": \"Find the Celtic healthcare plans available in your state \u00b7 Ambetter Transparency Notices by State\"}, {\"title\": \"Bunionectomy - Medical Clinical Policy Bulletins | Aetna\", \"url\": \"https://www.aetna.com/cpb/medical/data/600_699/0629.html\", \"snippet\": \"Surgical repair of hallux valgus may include an osteotomy (cutting portions of bone on each side of the toe joint followed by realignment), shortening or lengthening tendons or ligaments, shaving tissue from the bunion, or arthrodesis (removing damaged portions of the joint and using screws, wires or a plate to hold the joint together).\"}, {\"title\": \"For Members\", \"url\": \"https://www.celticinsurancecompany.com/for-members.html\", \"snippet\": \"Ambetter health insurance plans are available on the Health Insurance Marketplace.\"}, {\"title\": \"Procedure Price Lookup for Outpatient Services | Medicare.gov\", \"url\": \"https://www.medicare.gov/procedure-price-lookup/cost/28296/\", \"snippet\": \"Use official Procedure Price Lookup tool to compare national average to Medicare costs in ambulatory surgical centers, hosptial outpatient departments\"}, {\"title\": \"Contact Us\", \"url\": \"https://www.celticinsurancecompany.com/contact-us.html\", \"snippet\": \"Stay in charge of your health with Celtic. We have the tools you need to help manage your health all in one place \u00b7 Our Celtic customer service department is available during regular business hours to assist agents and policyholders with application, billing and claim questions.\"}, {\"title\": \"Stand Up for Better Bunionectomy Coding - AAPC Knowledge Center\", \"url\": \"https://www.aapc.com/blog/37841-stand-up-for-better-bunionectomy-coding/\", \"snippet\": \"28296 Correction, hallux valgus (bunionectomy), with sesamoidectomy, when performed; with distal metatarsal osteotomy, any method <strong>CPT\u00ae code 28296 was revised to add the word \u201cdistal,\u201d which describes the location of the metatarsal osteotomy</strong>.\"}, {\"title\": \"2026 Celtic Ins. Co. Ambetter Health of DE \u2013 Individual (Marketplace) Plans - Delaware Department of Insurance - State of Delaware\", \"url\": \"https://insurance.delaware.gov/divisions/ratesforms/ratefilings/celtic-ambetter-2026/\", \"snippet\": \"2026 Celtic Ins. Co. Ambetter Health of DE \u2013 Individual (Marketplace) Plans Company Name Market Avg. % Change Requested Avg. % Change Approved Status Effective Date Celtic Ins. Co. Ambetter Health of DE Yes 31.80% 31.80% Approved 01/01/2026 HIOS ID Number: 80799 State\"}, {\"title\": \"Celtic Insurance Company For Ambetter From Superior ...\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/Superior/Ambetter/PDFs/29418TX014-2016.pdf\", \"snippet\": \"[http://ambetter.superiorhealthplan.com]. It also gives you information on your benefits and services such\"}, {\"title\": \"2025 Celtic Ins. Co. Ambetter Health of DE \u2013 Individual (Marketplace) Plans - Delaware Department of Insurance - State of Delaware\", \"url\": \"https://insurance.delaware.gov/divisions/ratesforms/ratefilings/celtic-ambetter-2025/\", \"snippet\": \"2025 Celtic Ins. Co. Ambetter Health of DE \u2013 Individual (Marketplace) Plans Company Name Market Avg. % Change Requested Avg. % Change Approved Status Effective Date Celtic Ins. Co. Ambetter Health of DE Yes -14.0% -14.0% Approved 01/01/2025 HIOS ID Number: 80799 State\"}, {\"title\": \"CPT\u00ae Code 28296 in section: Correction, hallux valgus with bunionectomy, with sesamoidectomy when performed\", \"url\": \"https://www.findacode.com/cpt/28296-cpt-code.html\", \"snippet\": \"CPT\u00ae Code 28296 in section: <strong>Correction, hallux valgus with bunionectomy, with sesamoidectomy when performed</strong>\"}, {\"title\": \"Search | Ambetter Insured by Celtic\", \"url\": \"https://www.ambetterhealth.com/en/il/search/\", \"snippet\": \"Don\u2019t miss out on your health coverage! Pay now to get the benefits you deserve \u00b7 Shop and Compare Plans\"}, {\"title\": \"Medical Coding for Bunionectomy | OSI\", \"url\": \"https://www.outsourcestrategies.com/resources/coding-for-bunionectomy-a-common-foot-and-bone-surgical-procedure/\", \"snippet\": \"28295 \u2013 Correction, hallux valgus ... any method \u00b7 28296 \u2013 <strong>Correction, hallux valgus (bunionectomy), with sesamoidectomy, when performed; with distal metatarsal osteotomy, any method</strong>(CPT code 28296 was revised to add ...\"}, {\"title\": \"How Much Does Bunion Correction Surgery Cost? - GoodRx\", \"url\": \"https://www.goodrx.com/insurance/health-insurance/bunion-surgery-cost\", \"snippet\": \"Bunion surgery can cost <strong>$6,000 or more per foot</strong> depending on your procedure and insurance coverage. Get the details on cost and surgery types here.\"}, {\"title\": \"Driscoll Health Plan Medical Necessity Guideline\", \"url\": \"https://driscollhealthplan.com/wp-content/uploads/Bunionectomy-1.pdf\", \"snippet\": \"Correction, hallux valgus (bunionectomy), with sesamoidectomy, when \u00b7 performed; with proximal metatarsal osteotomy, any method \u00b7 28296 \u00b7 Correction, hallux valgus (bunionectomy), with sesamoidectomy, when \u00b7 performed; with distal metatarsal osteotomy, any method \u00b7\"}], \"result_count\": 20, \"error\": null}"
+  },
+  {
+   "id": "rs_0631677a2bd07cd8016a9b7016c9b887d2989fc00b51e4f388",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm3AYO7Wi3wv9jb4oSdNGeO2xQxtaHWfzO16IUQX3_BSqApjfKF19SWWZQ252RwU7JFx5lxSxLB3DTF7Fx-whKePeKL6AO_Gf-LsihugjHbhI183P7-b5kjXRm1Ef2Z_UnAZ-GGWrKd8MUbxWA3LoAmehMjxKSQUWMGwweyvGC-DGgBYUCDrYiOLvWOVH_KcmZxqPHP65hkSJ_jZDk0KI_QBiQKJ9zSd-zpVkB1Y1ZmdhiycMcdd3-C1o-UPURNpiJNIOW1tAYDTYWrvPWP0v2dBLQa7GC4iS3sVJO2BPyNjRFkVNFXehvITkUow8zxRa8vOt_HqnMz2Zuf7Nvnxj7Qm9nIq_nqpd6hEtNFLfglQnP-bkPCaeA6Gznu2rX7gqOOyYUK0riQ3R-mAQgYEu5EsOoKuKy5dNv4lGwcEOYJpLF7pDDHVku8U275miXyumwiWhzRlQ42GFiup8BjtVt0z6HVVd2wAaoBKlXI_-KqcwyEFvFCJVsjPA1JL2jB_a9wty1j3aEiLtetRn_E48XYlC__3JjjSHU8sQymT2QHBuR4F-mVUURmRa2aivTRedrKIvOaYIqyyoDSFY_vdp8gvxL2tqpZFIqPnVagJYIFHZQ0B5xYji8Z-M4PqNyaPuUkY3Xi-XrGlDsycfOgXXsPhn3QoW0WCnkALfnLVAQh6HxeodRtiw_CJlQyObXoKmCeid-4PMdo_9rFUT_WwSlOUHJgq6YWbgb_uJBnS445gDxoNctI6WQSq1A2Jli1zFcRHieYJjnI0To4B3fycVsAq85RlZ-dHNLi-1nSf8jVsV3QK9RVeDK9G86nVZTxp0_qaX6XOPkGHwu5_K5M3FD8OE3jPKXvAqFhpxk-cjkMqXQEHtXZOIwgJ92Z_SUqe5yPBvlFcGuaoRQDn45nFxfQx5xzoQ_dGv1qfCQuF42eibIMk0McXUDf0dXBL5Gqbz9P0t5mcZSr79hPSEGpm-qTYKo4kdsXgTzoQqP4G9k03ChYDxBh-dnLl1EknQ2JNduYqXb1ZwOchWcqLqeoq_Mf7JtnCTQlSUSOX7piU6uLbTO-ae98yrgz9xoV6GfnCp-6rUUud1bA9Ng1gAyiec-tmpUbzdJq6bosSjQLe_QcI9iSIsWYySMhwNRjCgJj3JMZA1HAuV6KaTADDTMUy0v0zI2qqRksVrV_MgqymSa8-XUwJLr7cTkluDT9WWZK6W1bCb-RvITsWViyEuXQsuUc87Xq337O5dz2aLYHVzQlWzrOVsQSn_ycyPzbIf3XflFpU1IMH0WLkoxzcihMwqfwHQHPQRtynMQnt4KQgQpjSb7-7Wv8NpTHdGzLi7BSEU2SXB_sPT8oNLz0pt3xmLoxaFACWW89Ec16UAf36PQ5hskcw3C_lEo8y1ZMdyk-TuwuH_Y4Mcl4q1J83EO8fdTaqry5K6kq88HpK6TmRlKcorO1QU4RFpAkdyWLlAP5myBPwP",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"site:ambetterhealth.com/content/dam/centene/ambettertn/pdfs \\\"Appeals\\\" \\\"Ambetter of Tennessee\\\" \\\"P.O. Box\\\" member appeal medical necessity\",\"count\":10}",
+   "call_id": "call_ejVq07nGgZiM7SO7woe6lv0q",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0631677a2bd07cd8016a9b7018b68c87d2923b42b3cf040beb",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"site:ambetterhealth.com/en/tn/member-resources appeal Ambetter Tennessee address appeal form\",\"count\":10}",
+   "call_id": "call_JaA20t96U6ze7cnS9Hiz4akB",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0631677a2bd07cd8016a9b7018b69c87d28975c9d41991b831",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Ambetter of Tennessee member handbook 2026 appeal mailing address fax 180 days\",\"count\":10}",
+   "call_id": "call_XRBSW0hLNcalaZuEC7GYX6Si",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0631677a2bd07cd8016a9b7018b6a887d298c785173db26a98",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Ambetter of Tennessee\\\" \\\"Member Appeals\\\" address fax appeal\",\"count\":10}",
+   "call_id": "call_rJxWgFCl3zE6zbFPsMWlYeX9",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0631677a2bd07cd8016a9b7018b6b487d29f9a72df69892f1d",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_ejVq07nGgZiM7SO7woe6lv0q",
+   "output": "{\"query\": \"site:ambetterhealth.com/content/dam/centene/ambettertn/pdfs \\\"Appeals\\\" \\\"Ambetter of Tennessee\\\" \\\"P.O. Box\\\" member appeal medical necessity\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_JaA20t96U6ze7cnS9Hiz4akB",
+   "output": "{\"query\": \"site:ambetterhealth.com/en/tn/member-resources appeal Ambetter Tennessee address appeal form\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_XRBSW0hLNcalaZuEC7GYX6Si",
+   "output": "{\"query\": \"Ambetter of Tennessee member handbook 2026 appeal mailing address fax 180 days\", \"results\": [{\"title\": \"Handbooks & Forms for Members | Ambetter of Tennessee\", \"url\": \"https://www.ambetterhealth.com/en/tn/resources/handbooks-forms/\", \"snippet\": \"Find all the Ambetter of Tennessee member handbooks, forms, and resources all in one place! Access the Find a Provider guide, member handbook, and reimbursement forms. Learn more.\"}, {\"title\": \"Manuals & Forms for Providers | Ambetter of Tennessee\", \"url\": \"https://www.ambetterhealth.com/en/tn/provider-resources/manuals-and-forms/\", \"snippet\": \"Ambetter network providers deliver quality care to our members, and it&#x27;s our job to make that as easy as possible. Learn more with the Ambetter of Tennessee provider manuals and forms.\"}, {\"title\": \"TN - Grievance, Appeal, Concern or Recommendation Form\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/TN-MbrGrievanceApealConcrn.pdf\", \"snippet\": \"Grievance, Appeal, Concern or Recommendation Form \u00b7 If you wish to file a grievance, appeal, concern or recommendation, please complete this\"}, {\"title\": \"AMBETTER QUICK REFERENCE GUIDE JANUARY 2026 Convenient Self-Service\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/TN-Ambetter-Provider-QRG.pdf\", \"snippet\": \"<strong>Ambetter does not accept handwritten, faxed or replicated claim forms</strong>.\"}, {\"title\": \"Provider and Billing Manual 2026\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/2026-tn-provider-manual.pdf\", \"snippet\": \"8. To make recommendations regarding the Ambetter member\u2019s rights, responsibilities, and policies. 9. To voice complaints or appeals about: Ambetter, any benefit or coverage decisions Ambetter makes,\"}, {\"title\": \"P a g e 1 | 5 Ambetter Provider Claims & Payments FAQ\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/Coordinated%20Care/ambetter/PDFs/508-Ambetter-Provider-Claims-FAQ.pdf\", \"snippet\": \"An &quot;Appeal&quot; is regarding a ... is a \u00b7 Reconsideration or Dispute (a second level reconsideration). ... <strong>A member has 180 calendar days from Ambetter&#x27;s notice of action to file the appeal</strong>....\"}, {\"title\": \"Ambetter From Sunshine Health Insured by Celtic Insurance Company\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/TN_MbrGrievanceAppealConcern.pdf\", \"snippet\": \"Ambetter From Sunshine Health Insured by Celtic Insurance Company \u00b7 Grievance, Appeal, Concern or Recommendation Form\"}, {\"title\": \"ambetter form sunshine health insured by celtic insurance company\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/TN_AMB_Claim_Dispute_Form.pdf\", \"snippet\": \"Use this form as part of the Ambetter of Tennessee Request for Reconsideration and Claim Dispute ... A Request for Reconsideration (Level I) is a communication from the provider about a disagreement with ... A Claim Dispute (Level II) should be used only when a provider has received an unsatisfactory response to ... The Request for Reconsideration or Claim Dispute must be submitted within 180 days for participating\"}, {\"title\": \"h t t p s ://p ro v i d e r. a m b e t t e ro f t e n n e s s e e .c o m\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/TN-Provider-Appeals-Grievances-Guide.pdf\", \"snippet\": \"h t t p s ://p ro v i d e r. a m b e t t e ro f t e n n e s s e e .c o m \u00b7 APPEALS/RECONSIDERATIONS\"}, {\"title\": \"MEMBER REIMBURSEMENT MEDICAL CLAIM FORM\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/TN_Reimbursement-Form.pdf\", \"snippet\": \"MEMBER REIMBURSEMENT MEDICAL CLAIM FORM \u00b7 1. You will need your health care provider to assist and supply information in completing this form, including the procedure code(s) and diagnosis code(s). It is recommended that you bring it with you to\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_rJxWgFCl3zE6zbFPsMWlYeX9",
+   "output": "{\"query\": \"\\\"Ambetter of Tennessee\\\" \\\"Member Appeals\\\" address fax appeal\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "id": "rs_0631677a2bd07cd8016a9b701bcd9c87d2af317dc9f79e7252",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm3AcZQshuZ2TevH3qVOTjhU4yHtazaQ5ye1TNGWIFKiKiBeT8ZF6ISSsXOZuTVe3R1VQSpaPWYvRf1paZOMpVv3evzOmtirtGguCjKP-fuN_eXrsl9gg2waGho8Se266abGpunYFTvoc4V9XFhIITKGczpk43hILjbHka4DXXOu50Na8kThqaiaqVWYb6Rv-o1QValwvUwTwQ_wnSo9f-4aoSrG6AkIwJerXX4JhcfoOJtRfzJqliFuYzXdm_ab672T-_eVQEVBOH-16rzd5YsJGiZ1dSA66faG_H0nLSje9O2uRDOIrfXN5rorvuaM93XFNVgDL6GGCJ6wfizEoi0ShiAfcZk8NEDRSXA7u62Uyxa1r1x2D86qsjzcdT2LtSsMKXa3A7rDcsILNz917es3LziZ9j-KtcZDyKZPI35mXR1MqgbfcguZj6z6vDig7-e3pucZcSsPrDnK_YeKOUvAB1t81lCzT-7u1oILKQ1BJ7zYaf0qDOdTT0LXRe5YsGfBeCcf6-7drI5gOtY2JDI8TlrEOVMGtK0Y1zWDOsCt5IfxSl5qW2OtlUCx26d-Ctj9zq74P1e4ux_5cGif0i2WG4WKN0K8_T7reCmfuNzZpNGkeME4Iywm7zxtMROrqHPmAd8Ys0rbyGonmCRM76sdbwVwc8QDJ1ZCMSY5JVe_VMtS1BlXaGmcWMBZYqLbJJONtQb4idv-hprKQuyhVVR4NXai40qfCu0X5J5O34JPldiWam1LmA7dTBlojBCQASupy9t9NwybYdQeOLB2CMu-UNF-tmdq2SkAGvOjAgfCWKl0YLoYr-M4YGQXsmJ3V8HiBTjxvgQM9ECvVMWoH6CzMSs7N_EYZCXJ2Xp0rvj28CClaGcrezqkK9jui0k1xZwQXCPB-qfm999YGnKF_o2-Rwp9DWJi0ZiOa1Ff3hc6biTBD09v3SwopAWdSL_Hm6vWkfLiBBFx-3PuZIYqXUiU-8RyZiEmZw4em6cF6eK9Tuudl1aCmCLaOqW1czBiG2Z1anYbhLAhq5sBBrAZGVqvh7PQ_F0EdgyyyW3PnyDw9RlLX4BcIe1uKxCqNTYy9ekjQs4lF1BixcWwSwbaAHg7dugbK8B_6v2ijXcxJEdtwpncH4_dwqO3t9LIi3-REYbV0VL3c7RUo1Mk8L3cSObjS_9s2fzm1b72gjC0v3F752nR273tfkNLDq-MuqIRTCChBB_R5Bt1soZiPVgIesZIRXYCRllIucY-e3thTtedZAffFigimtdI1L1e28qRSe2QYq-tzA_5PRGsYnq4xc792FczaGoY4Nn80HY68maYf8Y8JRru7RTiSbWNtlfPJyx2SVDuOWuKEml8QLOHcoI1e_8ve5FUyvi6XE-IKl648A9BR-4UubfNJMUwNS4dTUGTK",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"\\\"TN-MbrGrievanceApealConcrn.pdf\\\" address appeal \\\"Fax\\\"\",\"count\":10}",
+   "call_id": "call_ZT5QSY2Zmm07Ok1dalfVaglN",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0631677a2bd07cd8016a9b701c49d087d29dcef61a42eb7c34",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_ZT5QSY2Zmm07Ok1dalfVaglN",
+   "output": "{\"query\": \"\\\"TN-MbrGrievanceApealConcrn.pdf\\\" address appeal \\\"Fax\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+  },
+  {
+   "id": "rs_0631677a2bd07cd8016a9b701e7ca087d2a8f1ba0caa6ff1d9",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm3AgKauatqCF1IfUtKYCP0grpoB_rsGCty3AriCZiEOyDUM9JQmvZiy6wHTOpy7Xp3OMRJ1Av-gHs5-_Y6gSCWVapXc6CODb1pYzbiCS2UVcWYqxmrU63N4KOdVmeOuWzysFfZoThP0bD4bw6HJxh8sEha1k4kGRiy6K7xJva0tRGH-d7qQOupnsjg5q8LZ7Ca_NyiVVgD0aqi2HHHoUdEpO2H7hrj0Hn6PbpLSd9oYUkRD8-QKIdgZB1SbEmmOpiVAnJjGDH2fuiahmu_0nvlsbmrJmLxIJfmScsXGy7-cBLoCcbMPvMaDTlio1xIxUA3uDxMsxrvEuRGkp5jXp1pdsl3zR0VDZp595U6_rTr2NPAtQEU9M-xHy3AEMYSvrzjOHuUJlpqBBu-DJdf4MUII6DYszBZr8N-hFwBnMPsybWenpV-uK7Q7yi6WbUf9AssA0FZXrzzLpqdiVwT45g7fX9GJs0Ym8TLMhT7lZ_EmH8wy21ExvmjnQu3v9Q3u6oSpxILpu0SQXUdyavEirPHfxFuRk96DLHcupQP61RwOmeH8tHJrAS1gkom8yINysmSbsuGx9sb8rszG8YHJXhWaXPqMfXm8PeYXFFSoWtg0f77u3WbNBA1zIwYkoWERKkV69YG-hp0qPyZW5mGYHtKj4LWRdVfJLf8jeGwsBh6-Y7o75QlyzHskRVuQwbXFy88t9YMm9cm24F9ODLysq6WlUV7cmzC3CziYHRTJQB6ZG2JdS-MLKlrQvhOROw0E2w8LcDCObAgCpXSUb-cACivVbEp9g0nzkBLwaHIPW2u-9wwNK_-JJJsIiDeoxewzeRE6Q8NY6Vlvj-jFOFuHzLdJqxHex51a1utM2m6iXzu2_9id1aPGSpzG9SVaDEVBixaB6U2tRdeiIDu5ZQQKutdSvLLXhz8_9thcAub4dfIQdtiTAu4U7H6Z5-aGGTduNvvUqXps114uPgcrJayAAqzC2-2GuIoADmCP1ZraY4JhgyN2WGV1VewOIALym3Qh9CGWXjcI4rmtXpVYRHvEnPliPlnk9h1Hg5DWHERBMtJzp_ZS4nzkv5382AM6SqX9Y_FMJ2V1RBMt165FIAScQY6LVzLe99vP5z43dqEPg0IpotkM-OFFDyLmr2Xkoilvl7AcsAgUNOCebGoaa4q3JinEY6F4aj5uSimKV5R5pimjdLRu62OzDwbytOJVS3V4FebHggaRau3Y3Y632O2upPBHNS0vqQrPsew3IKrLQS11rD7eb3BRk737Vt2rvhVTzMbzdqxOYYsty1NAjEGVdYISvuM9m7jmt1267miWDSxIqxr686VsBrhEr8HwGV2vG5Xcw0t7jTQnimA3FhTWPhUujIDErF7KELnWsMnLkxPn-oabH8i9GtRvY2YjVpWsNx8F4fmg08ugzN29OUu50nCy5OIMiCBoiFE0dXxC0b0vlEshAFe8M8_28ufJHQE9PFQUW",
+   "status": null
+  },
+  {
+   "arguments": "{\"query\":\"Ambetter \\\"Grievance, Appeal, Concern or Recommendation Form\\\" \\\"Mail\\\" address\",\"count\":10}",
+   "call_id": "call_xQVnLwhT2tvfKcBfEB2uvJSD",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0631677a2bd07cd8016a9b7020413887d289ae744e8849b9f4",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"\\\"Grievance, Appeal, Concern or Recommendation Form\\\" Ambetter address\",\"count\":10}",
+   "call_id": "call_UjlESLNMFSxShuYZy4sLofVi",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0631677a2bd07cd8016a9b7020414887d2aa28917491f78600",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Ambetter member appeal \\\"P.O. Box 5010\\\"\",\"count\":10}",
+   "call_id": "call_bLgrvC6sRN1pzgC5eC7wsi4n",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0631677a2bd07cd8016a9b7020415087d2b48cd391710a7f4e",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "arguments": "{\"query\":\"Ambetter Tennessee member services phone 2026 appeal\",\"count\":10}",
+   "call_id": "call_AkXzAl9ERRd66aJZV1DtxVz3",
+   "name": "web_search",
+   "type": "function_call",
+   "id": "fc_0631677a2bd07cd8016a9b7020415887d2a4b7c795bdacc724",
+   "async_": null,
+   "caller": null,
+   "namespace": null,
+   "status": "completed"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_xQVnLwhT2tvfKcBfEB2uvJSD",
+   "output": "{\"query\": \"Ambetter \\\"Grievance, Appeal, Concern or Recommendation Form\\\" \\\"Mail\\\" address\", \"results\": [{\"title\": \"IN - Grievance, Appeal, Concern or Recommendation Form\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/mhsindiana/Ambetter/PDFs/Amb-MbrGrievanceAppeal.pdf\", \"snippet\": \"If you wish to file a grievance, appeal, concern or recommendation, please complete this \u00b7 form. If you choose not to complete this form, you may write a letter that includes the \u00b7 information requested below. The completed form or your letter should be mailed to: Ambetter Health \u00b7\"}, {\"title\": \"Grievance, Appeal, Concern or Recommendation Form\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/Sunshine/Ambetter/PDFs/FL_MbrGrivanceAppelConcern.pdf\", \"snippet\": \"If you wish to file a grievance, appeal, concern or recommendation, please complete this \u00b7 form. If you choose not to complete this form, you may write a letter that includes the \u00b7 information requested below. The completed form or your letter should be mailed to: Ambetter Health \u00b7\"}, {\"title\": \"NM - Grievance, Appeal, Concern or Recommendation Form\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambetter-from-western-sky-community-care/PDFs/NM-MbrGrivanceAppelConcern.pdf\", \"snippet\": \"If you wish to file a grievance, appeal, concern or recommendation, please complete this \u00b7 form. If y ou choose not to complete this form, you may write a letter that includes the \u00b7 information requested below. The completed form or your letter should be mailed to: Ambetter from Western Sky Community \u00b7\"}, {\"title\": \"KS - Grievance, Appeal, Concern or Recommendation Form\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/sunflower/ambetter/pdfs/KS_MemGrievanceAppealForm.pdf\", \"snippet\": \"If you wish to file a grievance, appeal, concern or recommendation, please complete this \u00b7 form. If you choose not to complete this form, you may write a letter that includes the \u00b7 information requested below. The completed form or your letter should be mailed to: Phone: 1-844-518-9505 (TTY 711) Fax: 1-833-886-7956 \u00b7 Ambetter from Sunflower Health Plan \u00b7\"}, {\"title\": \"KY - Grievance, Appeal, Concern or Recommendation Form\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/kentucky/ambetter/pdf/KY-MbrGrievanceApealConcrn.pdf\", \"snippet\": \"If you wish to file a grievance, ... includes the \u00b7 information requested below. The completed form or your letter should be mailed to: <strong>Ambetter from WellCare of Kentucky</strong> \u00b7...\"}, {\"title\": \"TN - Grievance, Appeal, Concern or Recommendation Form\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/TN-MbrGrievanceApealConcrn.pdf\", \"snippet\": \"If you wish to file a grievance, appeal, concern or recommendation, please complete this \u00b7 form. If you choose not to complete this form, you may write a letter that includes the \u00b7 information requested below. The completed form or your letter should be mailed to: <strong>Ambetter of Tennessee</strong> \u00b7\"}, {\"title\": \"IA - Grievance, Appeal, Concern or Recommendation Form\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambetter-iowa/pdf/AMB-IA-Grievance-Appeal-Concern.pdf\", \"snippet\": \"If you wish to file a grievance, appeal, concern or recommendation, please complete this \u00b7 form. If you choose not to complete this form, you may write a letter that includes the \u00b7 information requested below. The completed form or your letter should be mailed to: Ambetter Health \u00b7\"}, {\"title\": \"SC - Grievance, Appeal, Concern or Recommendation Form\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/absolute-total-care/ambetter/pdfs/SC-MbrGrievanceApealConcrn.pdf\", \"snippet\": \"If you wish to file a grievance, appeal, concern or recommendation, please complete this \u00b7 form. If you choose not to complete this form, you may write a letter that includes the \u00b7 information requested below. The completed form or your letter should be mailed to: <strong>Ambetter from Absolute Total</strong> ...\"}], \"result_count\": 8, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_UjlESLNMFSxShuYZy4sLofVi",
+   "output": "{\"query\": \"\\\"Grievance, Appeal, Concern or Recommendation Form\\\" Ambetter address\", \"results\": [{\"title\": \"Grievance, Appeal, Concern or Recommendation Form\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/Centene%20Corporate/web-files/ambetter-shared/solutions/AMB-Solutions-Grievance-Appeal-Concern-Member.pdf\", \"snippet\": \"The completed form or your letter should be mailed to: Ambetter Health \u00b7 Attn:Appeals and Grievances Department \u00b7 <strong>PO Box 10341 \u00b7 Van Nuys, CA 91410</strong> \u00b7 Fax: 1-833-886-7956 \u00b7 Phone: 1-833-543-3145 (TTY 711) Member\u2019s Name: Member\u2019s Ambetter #: Street Address: City \u00b7\"}, {\"title\": \"NM - Grievance, Appeal, Concern or Recommendation Form\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambetter-from-western-sky-community-care/PDFs/NM-MbrGrivanceAppelConcern.pdf\", \"snippet\": \"Attn: Grievances and Appeals \u00b7 <strong>12515-8 Research Blvd, Ste 4 00, 3rd floor</strong> \u00b7 Austin, TX 78759 \u00b7 Phone 1-833-945\u00ad2029 (Relay 711) Fax: 1-833-886-7956 \u00b7 Member\u2019s Name: Member\u2019s Ambetter #: Street Address: City \u00b7 State \u00b7 Zip \u00b7 Member Phone Number: Tracking Number (if applicable.\"}, {\"title\": \"TN - Grievance, Appeal, Concern or Recommendation Form\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/TN-MbrGrievanceApealConcrn.pdf\", \"snippet\": \"The completed form or your letter should be mailed to: Ambetter of Tennessee \u00b7 Attn: Appeals and Grievances Department \u00b7 <strong>PO Box 10341</strong> \u00b7 Van Nuys, CA 91410 \u00b7 Phone: 1-833-709-4735 (Relay 711) Fax: 1-833-886-7956 \u00b7 Member\u2019s Name: Member\u2019s Ambetter #: Street Address: City \u00b7\"}, {\"title\": \"KY - Grievance, Appeal, Concern or Recommendation Form\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/kentucky/ambetter/pdf/KY-MbrGrievanceApealConcrn.pdf\", \"snippet\": \"Member\u2019s Ambetter #: Street Address: City \u00b7 State \u00b7 Zip \u00b7 Member Phone Number: For an Appeal request, provide the Tracking/Authorization Number of your denial: Additional information to support the grievance, appeal, concern or recommendation (or \u00b7 attach): Member or Representative: Daytime Phone #: Date: *You must file an appeal within 180 calendar days from the date noted on your adverse \u00b7\"}, {\"title\": \"KS - Grievance, Appeal, Concern or Recommendation Form\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/sunflower/ambetter/pdfs/KS_MemGrievanceAppealForm.pdf\", \"snippet\": \"Member\u2019s Ambetter #: Street Address: City \u00b7 State \u00b7 Zip \u00b7 Member Phone Number: For an Appeal request, provide the Tracking/Authorization Number of your denial: Additional information to support the grievance, appeal, concern or recommendation (or \u00b7\"}, {\"title\": \"SC - Grievance, Appeal, Concern or Recommendation Form\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/absolute-total-care/ambetter/pdfs/SC-MbrGrievanceApealConcrn.pdf\", \"snippet\": \"Member\u2019s Ambetter Number: Street Address: City \u00b7 State \u00b7 Zip \u00b7 Member&#x27;s Phone Number: For an Appeal request, provide the Tracking/Authorization Number of your denial: Additional information to support the grievance, appeal, concern or recommendation (or \u00b7\"}, {\"title\": \"IN - Grievance, Appeal, Concern or Recommendation Form\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/mhsindiana/Ambetter/PDFs/Amb-MbrGrievanceAppeal.pdf\", \"snippet\": \"Member\u2019s Ambetter #: Street Address: City \u00b7 State \u00b7 Zip \u00b7 Member Phone Number: For an Appeal request, provide the Tracking/Authorization Number of your denial: Additional information to support the grievance, appeal, concern or recommendation (or \u00b7 attach): Member or Representative: Daytime ...\"}, {\"title\": \"IA - Grievance, Appeal, Concern or Recommendation Form\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambetter-iowa/pdf/AMB-IA-Grievance-Appeal-Concern.pdf\", \"snippet\": \"Member\u2019s Ambetter #: Street Address: City \u00b7 State \u00b7 Zip \u00b7 Member Phone Number: For an Appeal request, provide the Tracking/Authorization Number of your denial: Additional information to support the grievance, appeal, concern or recommendation (or \u00b7 attach): Member or Representative: Daytime ...\"}], \"result_count\": 8, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_bLgrvC6sRN1pzgC5eC7wsi4n",
+   "output": "{\"query\": \"Ambetter member appeal \\\"P.O. Box 5010\\\"\", \"results\": [{\"title\": \"MO Ambetter claim dispute form 2025-12-23_R\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/home-state-health/ambetter/pdfs/AmbMO-PrvdrReconAppealForm.pdf\", \"snippet\": \"6. The authorization on file was denied for medical necessity (attach appeal letter and medical records) 7. Claim was denied for benefit limitations \u00b7 8. Other (please explain): Submit the completed form and attachments to: <strong>Ambetter from Home State Health</strong> \u00b7 P.O. Box 5010 \u00b7\"}, {\"title\": \"How to Fill Out the Ambetter Appeal Form: Reconsideration and Claim Disputes - LegalClarity\", \"url\": \"https://legalclarity.org/how-to-fill-out-the-ambetter-appeal-form-reconsideration-and-claim-disputes/\", \"snippet\": \"Based on published Ambetter materials, the claims reconsideration and dispute address for several states is: Level I \u2014 Reconsideration: Ambetter Health, Attn: Level I \u2013 Request for Reconsideration, <strong>P.O. Box 5010, Farmington, MO 63640-5010</strong> \u00b7 ...\"}, {\"title\": \"APPEALS, RECONSIDERATIONS, PROVIDER GRIEVANCES AND MEMBER GRIEVANCES GUIDE\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambetteraz/pdfs/AZ-Provider-Appeals-Grievances-Guide.pdf\", \"snippet\": \"P.O. Box 10341 ... Portal (preferred method). ... <strong>Member grievances may be filed verbally by contacting Customer Service or submitted in writing via mail, email or fax</strong>. Providers \u00b7 may also file a grievance on behalf of the member with the member\u2019s written consent.\"}, {\"title\": \"Appeal Submission Processes\", \"url\": \"https://www.mimeridian.com/content/dam/centene/meridian/mi/pdf/Appeal-One-Pager.pdf\", \"snippet\": \"Ambetter Attn: <strong>Request for Reconsideration P.O. Box 5010 Farmington, MO 63640-5010</strong> ... Mail completed claim dispute/appeal forms to: Ambetter, Attn: Clam Dispute, P.O.\"}, {\"title\": \"Provider Toolkit Quick Reference Guide\", \"url\": \"https://www.ambetterhealth.com/en/mo/provider-resources/provider-toolkit/provider-toolkit-quick-reference-guide/\", \"snippet\": \"Mail paper claims to: P.O. Box 5010 | <strong>Farmington, MO 63640-5010</strong>\"}, {\"title\": \"Claims and Payment\", \"url\": \"https://www.azcompletehealth.com/providers/resources/claims-payment.html\", \"snippet\": \"As a result of the MHN Transition please note upcoming changes regarding claims submissions as it pertains to the Ambetter and Allwell lines of business. Claims submitted for services rendered on or after January 1, 2021 to AzCH members must be submitted to AzCH.\"}, {\"title\": \"Quick Reference GuideA Simplify Your Day-to-Day Activities\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/Coordinated%20Care/ambetter/PDFs/AMB-WA_QuickRefGuide_web.pdf\", \"snippet\": \"P.O. Box 5010 | Farmington, MO 63640- 5010\"}, {\"title\": \"AMBETTER QUICK REFERENCE GUIDE JANUARY 2026 Convenient Self-Service\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambetteril/pdfs/IL-Ambetter-Provider-QRG.pdf\", \"snippet\": \"NOTE: Please refer to the member ID card to determine appropriate authorization and claims submission process. This guide is not intended to be an all-inclusive list of covered services under the Health Plan. Ambetter of Illinois is underwritten by Celtic Insurance Company, which is a Qualified Health Plan issuer in the Illinois Health \u00b7 Insurance Marketplace. ... Availity: 1-800-282-4548. ... EFT Features Guide. ... P.O. Box 5010...\"}, {\"title\": \"AMBETTER QUICK REFERENCE GUIDE JANUARY 2025 Convenient Self-Service\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/Pennsylvania/ambetter/pdfs/CAMB-19115-QuickRefGuide_PA.pdf\", \"snippet\": \"P.O. Box 5010 ... <strong>Monday\u2013Thursday, 8 a.m. to 7 p.m., Friday, 8 a.m. to 6 p.m. ET</strong>. ... P.O. Box 10341 ... P.O. Box 10341 ... Authorization Guide. Most current information can be found ... Call 1-833-510-4727 and follow the prompts. Notification is required for Inpatient Hospital admissions ...\"}], \"result_count\": 9, \"error\": null}"
+  },
+  {
+   "type": "function_call_output",
+   "call_id": "call_AkXzAl9ERRd66aJZV1DtxVz3",
+   "output": "{\"query\": \"Ambetter Tennessee member services phone 2026 appeal\", \"results\": [{\"title\": \"Contact Us | Ambetter of Tennessee\", \"url\": \"https://www.ambetterhealth.com/en/tn/contact-us/\", \"snippet\": \"Ambetter of Tennessee Attn: Member Services Dept./<strong>CA21281-02-526</strong> 21281 Burbank Blvd.\"}, {\"title\": \"TN - Grievance, Appeal, Concern or Recommendation Form\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/TN-MbrGrievanceApealConcrn.pdf\", \"snippet\": \"Ambetter of Tennessee \u00b7 Attn: Appeals and Grievances Department \u00b7 PO Box 10341 \u00b7 Van Nuys, CA 91410 \u00b7 Phone: <strong>1-833-709-4735 (Relay 711)</strong> Fax: 1-833-886-7956 \u00b7 Member\u2019s Name: Member\u2019s Ambetter #: Street Address: City \u00b7 State \u00b7 Zip \u00b7 Member Phone Number: For an Appeal request, provide ...\"}, {\"title\": \"Provider and Billing Manual 2026\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/2026-tn-provider-manual.pdf\", \"snippet\": \"8. To make recommendations regarding the Ambetter member\u2019s rights, responsibilities, and policies. 9. To voice complaints or appeals about: Ambetter, any benefit or coverage decisions Ambetter makes, Ambetter coverage, or the care provided. 10. To refuse treatment for any condition, illness, or disease without jeopardizing future treatment, and to \u00b7 be informed by the provider(s) of the medical consequences. ... 12. To be kept informed of covered and non-covered services, program changes, how to access services,\"}, {\"title\": \"AMBETTER QUICK REFERENCE GUIDE JANUARY 2026 Convenient Self-Service\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/TN-Ambetter-Provider-QRG.pdf\", \"snippet\": \"Members should call Member Services, 24 hours a day. ... NOTE: Please refer to the Provider and Billing Manual to determine appropriate authorization and claims ... This guide is not intended to be an all-inclusive list of covered services under the Health Plan. Ambetter of Tennessee is underwritten by Celtic Insurance Company, which is a Qualified Health Plan issuer in the Tennessee Health \u00b7 Insurance Marketplace. \u00a92026 ...\"}, {\"title\": \"Ambetter of Tennessee Customer Service Phone Number 1-833-709-4735, Email, Help Center\", \"url\": \"https://www.pissedconsumer.com/company/ambetter-of-tennessee/customer-service.html\", \"snippet\": \"General information requests and customer service-related inquiries, including complaints, concerns, and suggestions, can be sent to Ambetter of Tennessee, Attn: <strong>Member Services, Dept./CA21281-02-526</strong>, 21281 Burbank Blvd., Woodland Hills, CA 91367.\"}, {\"title\": \"h t t p s ://p ro v i d e r. a m b e t t e ro f t e n n e s s e e .c o m\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/TN-Provider-Appeals-Grievances-Guide.pdf\", \"snippet\": \"You can also check status of Appeals by calling Provider Services.\"}, {\"title\": \"Ambetter: Contact Us | Customer Service | Ambetter\", \"url\": \"https://www.ambetterhealth.com/en/contact-us/\", \"snippet\": \"If you have questions about your health insurance coverage, we&#x27;d love to hear from you. Select your state to contact an Ambetter representative in your area.\"}, {\"title\": \"Quick Reference Guide\", \"url\": \"https://www.ambetteroftennessee.com/resources/quick-reference-guide.html\", \"snippet\": \"To receive translation or auxiliary services, please contact Member Services at <strong>1-833-709-4735 (Relay 711).</strong> For more information on your right to receive an Ambetter of Tennessee plan free of discrimination, or your right to receive language, auditory and/or visual assistance services, please ...\"}, {\"title\": \"Ambetter From Sunshine Health Insured by Celtic Insurance Company\", \"url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/TN_MbrGrievanceAppealConcern.pdf\", \"snippet\": \"If you wish to file a grievance, appeal, concern or recommendation, please complete this \u00b7 form. If you choose not to complete this form, you may write a letter that includes the \u00b7 information requested below. The completed form or your letter should be mailed to: Ambetter of Tennessee \u00b7\"}, {\"title\": \"Resources For Tennessee Healthcare Providers | Ambetter\", \"url\": \"https://www.ambetterhealth.com/en/tn/provider-resources/\", \"snippet\": \"\u00bfHablas Espa\u00f1ol?Tennessee Health ... member who resides in another state, they will not show up in the provider portal. Our customer call center at <strong>1-833-709-4735</strong> can verify eligibility and benefits for any out-of-state members for you....\"}], \"result_count\": 10, \"error\": null}"
+  },
+  {
+   "id": "rs_0631677a2bd07cd8016a9b7023f7ac87d28ed02a7aee648d0a",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABqm3AqyL0HN5FmxgBgeOiq_oWN-q8Z3UCt5k1NCIxDgW1Iq9To_1EblD4PvhvwlQHUYtDWE28ENU3Xpz4aPgYdRVri3XFFUXFC1tX6gUX_cM5Gq3HgaB5Xdb9LX1N9JnCuXbMtsz-QY03ZAhZc1cBLJoV3yRag2EzNbgPqfTSxE0KMEEEakswLu8x7Mfx59-22zPUxBC_oVL0ElqRapp4QkdiB4QPKBJUfPqIHdrGBTRagVo4-7KuS7B6kUdyHu2AvfoVk9_u2HNV7RpmYcePu-MmQHYgADl-waG-oFMoWBaq9-ayiLzj26TfdmFyWv4F3EDCVXL86v-BRGqaJ2y29oyQk1mjV8C7c5_DgbujlRftmoBIjlhbo8ImSg1XZqgwzfC3iYu2X6mH0XYzxu3wd1IgqfNllYVhDEplu2jfyZBn5CYkx6LZgpR7q7Yzan19PFEJFDklaowY5dK91nirHmYdVI7B6WraLpeNW90beupqKhxWxRwHG-2kg_bnb-tWWkU-0g8giT_bKkQXihPwio57poaiAyxFItsKPOzFgNLXAm_8LUq9q9BWp6c9Fihp4BW8XyeUJebxCJBR6fLRa-GN6XeWRvDGDhzkvQD_lNpkEVI-CwsWxkcslKf7yfhoW4UwWbB4SN-GT-k0iK-3VvfDpbWVugBHfxRPcOzgbvtpRIZUsDMQC-Ee9T5bFqITQ0GCV1PrY1CxK2Qv-4PBW-o6s8bhRR7vDj68p1Y9EgyLmM7u-eXFjS_flArpxWm3yTFIK3W-IsxLIF3GKVf3P0e9PMn4haQ9fGj3XK03ujUwV8NzQGYgvE6GmXZ7r05ELCdFkLvauBCWj3p4i1MAlV-i1RFBJrwNH3o8-m42rWlDkUNi83dFekeBjfcZ4Lo3pif3qDe6gZxV8PsQKlOYEhaRkf5BPlltO9STXvDd8Q9TgDU3xgRFlIMdzQFusOYmrNA-PGmdt9gez28dlIhG6vsilWqpxdGrQAV_Vi1wt4rQsSfXcBu7pk00y9JIc6DcKQj6kn_uUxoTzEw1rBT-pPSBiCkoQfYZHWc9day5opEhnTGKJhKlnpE4TKOUmI6ZKOj-ys0rFtmOdJDo-BEvAGq1HsDuDmGLnYBzLz9ABFCs4YTLhNr5MhlUEoR7bGG0LxZf7_maiaAonQpk5X34ndL48at_Xd1C7dyNcyO03hEceiwbeHFCY910tZVwXbjz84Py2Si9izFygXhobWDTKMLtd8UGOTsaCufWgcCUrWyWZHYDqcoq6O1By5WI9-GcUbj8LX613g6JLpQCQ7_4GhowD5Zi64FK61bdqjdhQIkOB9wBj3Wa315kfKNrTWK1sRX0MHtT4srXMXI6UjODZ3rdFinn3N0PlVPbHm45D7qNWLMkuKh4tWeHj0ymVHCRXbO92FqN7lMpZp_S78QmFjB--Tm7fg4wh6uN2E0JdziFJ6I4rozMRin6zCQbsniRicfrcuDNCqnkqx3Rq7gUx5ESOCKnxozH5s38KiB9h4h29IhbsiySf-PXf9JIdT0LbIic89LyaEmRsdulB6cP0JNNyCsr-vN9RhBjtTZ_fbGSWgulN0jZQiyITtkmX4C_GE4Y23mTxpFHD1LrsSBicOwhmzOYN9k8HaSFVoQDmwYtLOupOLztqKsjFDyQ3ZR5Y_U26HI_uzjk6N0hY7Myis0rogP5HC13tNh2kX_Og65A1zNP07-gQk-ADqiB1DI5ucKcFV11HRswv35Ge7EBfNaj50be5BVlWSTCVSpNntDsFdCpkHeiS8zTBP7oVchbssKpiLnUaQxCsfeSte3IYUY9YuDRSBASv0aR3jesEBaWJ3rFU-dacDiYtoyai74d03zdsIc6dc0s5eJcaCkJXxG4iFFRSDhYKwuKYEA_s0p5S2oaDdqneqyLMsu2GtD1cJAACphcs0QUeUkazXcgopAAL77q1h_Y2jeNAHYSthWkJigY7fUo4Gws3L9F2S3lOxUjk-4yUPru94TGX7eSQKrvxd_EZrJZobmA4jiM7En9-5ygp0xEMepBW_2kRfaUOdbyt5zg0-3ph-KMps9Ms8Jha01EJefCovbcrVoQGCpOmdAfNDkp5wZMcKM98AT-pa3MshmQT-S2kzUCsCu8kdd6BNYpqtm-SNvBA9mVQzorzrkgHS5GTd8g5yDsBFh_ONTWlPo5zqqwxEz6FIKdbpV0v4bnltYadiUldh2RtfwoU5sf3l964dBmdAHhOe3pI8zOHdHQmIJS4aSVkFh1k2-OFUBpoGMRKNwzBV1AAHwcX1v3j-fPyQgs611xaJV5IVFbmueHfkpFhEtQkb1YrRsYlrFfDJ4jyEjxowLnTC2AKCJrzol1S_FYpCJEQf-8uBNWiKHtWWr7HxNLUpvZVZ-pTwBj4GiIvyQEIaI_RzBA94qdJXZpT9KdvseE5GkXggjXDRbYgnGs5aC3D08CvM5BCUDT9yLsz6XCxLhN8F2LqqGeCI-xLwISfbD_4iOvsod6VcUfDXE3rfPPb6soNblo4FOIl87xAUpFtdUe3Jmnm-pnwFdrS1zOqkYdM_Z7Dt_3fpJ1e9zyWbLZaRB89-2T-euO8_XUqZGbKZoVPv2usLaygQ_yitOiQlmA8cTIuHVEyQhyh6clycs6DdPvpM8LWMYQPc_070DJqSwiBb6AdrRd62vogwqt4Wlkp7gbAlbbw5zbzmgdgm9LDv7O8wbwJQ6XHLgO3ha93E0GjAd3wSc5JW48FlVXOwTL5DtJYDLImFwfjnih0VuO3cI5Te89yMwA8K8N-OWAXaOyyEmbMBWasxKO91P7talLz11zE59oFXjSSxkT3BdRbBw1TLg5sbnObNLMCLks3Ujxi9mQB5hLEo6WcdTWm1kKyL97veNCT",
+   "status": null
+  },
+  {
+   "id": "msg_0631677a2bd07cd8016a9b7026bcb087d284042e02dcb50ff3",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": null,\n  \"effective_date\": null,\n  \"criteria_quotes\": [],\n  \"appeal_deadline\": \"2027-02-06 (180 days from the August 10, 2026 notice date, as stated in the denial letter)\",\n  \"submission_route\": {\n    \"method\": \"Complete the Ambetter of Tennessee Grievance, Appeal, Concern or Recommendation Form, or submit a written appeal letter containing the requested information. Include the denial/authorization reference number POC-C1EE0F5DA7-11270 and supporting clinical documentation.\",\n    \"form_url\": \"https://www.ambetterhealth.com/content/dam/centene/ambettertn/pdfs/TN-MbrGrievanceApealConcrn.pdf\",\n    \"mail\": \"Ambetter of Tennessee, Attn: Appeals and Grievances Department, PO Box 10341, Van Nuys, CA 91410\",\n    \"fax\": \"1-833-886-7956\",\n    \"telephone\": \"1-833-709-4735 (Relay 711)\"\n  },\n  \"how_to_obtain_criteria\": \"Ask Ambetter of Tennessee, through Member Services or the Appeals and Grievances Department, to provide the complete medical-necessity policy or clinical review criteria actually applied to CPT 28296, including its title, policy number, version/effective date, and the specific documentation requirements. The denial states that the determination used the plan's applicable medical policy and clinical review criteria, but the publicly located Tennessee clinical-policy materials did not identify a publicly available policy specific to CPT 28296.\",\n  \"confidence\": \"high that no publicly available, CPT-28296-specific Ambetter of Tennessee policy was located; high for the deadline and appeal route because those are stated in the notice and the Tennessee appeal form materials.\",\n  \"notes\": \"Ambetter of Tennessee has a public Clinical Payment Policies page, but the retrieved public search results did not identify a governing bunionectomy, hallux-valgus, or CPT 28296 medical-necessity document. Therefore, no policy title, number, effective date, or medical-necessity criteria can be quoted without risking attribution to the wrong payer or policy.\"\n}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": "final_answer"
+  }
+ ],
+ "stop_reason": "completed",
+ "usage": {
+  "input_tokens": 54424,
+  "output_tokens": 1807
+ },
+ "model": "gpt-5.6-luna",
+ "elapsed_s": 36.8,
+ "run_id": "r-c7dd88c85518",
+ "case_id": "poc-c1ee0f5da7"
+}

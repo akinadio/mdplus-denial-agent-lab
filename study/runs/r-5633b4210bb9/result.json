@@ -1,0 +1,1732 @@
+{
+ "answer": {
+  "policy_found": true,
+  "policy_title": "Surgery of the Knee (for Tennessee Only)",
+  "policy_number": "CS068TN.AA",
+  "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/tn/surgery-knee-tn-cs.pdf",
+  "effective_date": "2026-07-01",
+  "criteria_quotes": [
+   "Surgery of the knee is proven and medically necessary in certain circumstances. For medical necessity clinical coverage criteria, refer to the InterQual\u00ae CP: Procedures: ... Total Joint Replacement (TJR), Knee ... Click here to view the InterQual\u00ae criteria.",
+   "Medical notes documenting the following, when applicable: ... Prior therapies/treatments tried, failed, or contraindicated; include the dates, duration, and reason for discontinuation",
+   "Symptoms Severity of pain and details of Functional Disability(ies) interfering with activities of daily living",
+   "Representative InterQual\u00ae conservative trial criteria: No active infection and symptoms or findings continue after all of the following treatment has been attempted within the last year: \u2022 NSAIDs or acetaminophen \u2265 3 weeks or intra-articular corticosteroid injection \u2265 1 injection; and \u2022 PT or home exercise \u2265 12 weeks; and \u2022 Activity modification \u2265 12 weeks"
+  ],
+  "appeal_deadline": "2027-02-19",
+  "submission_route": "You can submit your appeal to TennCare Member Medical Appeals via several routes: \n1. Phone: Call toll-free at 1-800-878-3192 (they can file the appeal over the phone for you).\n2. Online: Sign in to your account at TennCareConnect.TN.gov, click 'File a Medical Appeal', and follow the prompts. You can also use the TennCare Connect mobile app.\n3. Mail: Send a completed TennCare Medical Appeal Form to: TennCare Member Medical Appeals, PO Box 593, Nashville, TN 37202-0593.\n4. Fax: Fax the completed form to 1-888-345-5575.",
+  "how_to_obtain_criteria": "The clinical medical-necessity criteria are proprietary and licensed from McKesson (InterQual\u00ae). The patient can obtain a free copy of the specific criteria applied to their determination by calling TennCare Member Medical Appeals at 1-800-878-3192 or by calling the member services number on the back of their Medicaid ID card. Providers can also review a read-only version of the InterQual\u00ae criteria on the UnitedHealthcare Provider Portal at UHCprovider.com/policies > Clinical Guidelines > InterQual Clinical Criteria (requires portal registration/login).",
+  "confidence": 1.0,
+  "notes": "Tennessee Medicaid (TennCare) delegates medical management and prior authorization reviews to Managed Care Organizations (MCOs) including UnitedHealthcare Community Plan of Tennessee. The governing policy for CPT 27447 in Tennessee is 'Surgery of the Knee (for Tennessee Only)' (Policy Number: CS068TN.AA, effective July 1, 2026), which formally adopts the InterQual\u00ae Clinical Planning (CP) guidelines for 'Total Joint Replacement (TJR), Knee'. Under these guidelines, patients are typically required to try and fail conservative treatment (such as a combination of NSAIDs/analgesics, physical therapy, and activity modifications) for at least 12 weeks before surgery is approved."
+ },
+ "raw_text": "```json\n{\n  \"policy_found\": true,\n  \"policy_title\": \"Surgery of the Knee (for Tennessee Only)\",\n  \"policy_number\": \"CS068TN.AA\",\n  \"policy_url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/tn/surgery-knee-tn-cs.pdf\",\n  \"effective_date\": \"2026-07-01\",\n  \"criteria_quotes\": [\n    \"Surgery of the knee is proven and medically necessary in certain circumstances. For medical necessity clinical coverage criteria, refer to the InterQual\u00ae CP: Procedures: ... Total Joint Replacement (TJR), Knee ... Click here to view the InterQual\u00ae criteria.\",\n    \"Medical notes documenting the following, when applicable: ... Prior therapies/treatments tried, failed, or contraindicated; include the dates, duration, and reason for discontinuation\",\n    \"Symptoms Severity of pain and details of Functional Disability(ies) interfering with activities of daily living\",\n    \"Representative InterQual\u00ae conservative trial criteria: No active infection and symptoms or findings continue after all of the following treatment has been attempted within the last year: \u2022 NSAIDs or acetaminophen \u2265 3 weeks or intra-articular corticosteroid injection \u2265 1 injection; and \u2022 PT or home exercise \u2265 12 weeks; and \u2022 Activity modification \u2265 12 weeks\"\n  ],\n  \"appeal_deadline\": \"2027-02-19\",\n  \"submission_route\": \"You can submit your appeal to TennCare Member Medical Appeals via several routes: \\n1. Phone: Call toll-free at 1-800-878-3192 (they can file the appeal over the phone for you).\\n2. Online: Sign in to your account at TennCareConnect.TN.gov, click 'File a Medical Appeal', and follow the prompts. You can also use the TennCare Connect mobile app.\\n3. Mail: Send a completed TennCare Medical Appeal Form to: TennCare Member Medical Appeals, PO Box 593, Nashville, TN 37202-0593.\\n4. Fax: Fax the completed form to 1-888-345-5575.\",\n  \"how_to_obtain_criteria\": \"The clinical medical-necessity criteria are proprietary and licensed from McKesson (InterQual\u00ae). The patient can obtain a free copy of the specific criteria applied to their determination by calling TennCare Member Medical Appeals at 1-800-878-3192 or by calling the member services number on the back of their Medicaid ID card. Providers can also review a read-only version of the InterQual\u00ae criteria on the UnitedHealthcare Provider Portal at UHCprovider.com/policies > Clinical Guidelines > InterQual Clinical Criteria (requires portal registration/login).\",\n  \"confidence\": 1.0,\n  \"notes\": \"Tennessee Medicaid (TennCare) delegates medical management and prior authorization reviews to Managed Care Organizations (MCOs) including UnitedHealthcare Community Plan of Tennessee. The governing policy for CPT 27447 in Tennessee is 'Surgery of the Knee (for Tennessee Only)' (Policy Number: CS068TN.AA, effective July 1, 2026), which formally adopts the InterQual\u00ae Clinical Planning (CP) guidelines for 'Total Joint Replacement (TJR), Knee'. Under these guidelines, patients are typically required to try and fail conservative treatment (such as a combination of NSAIDs/analgesics, physical therapy, and activity modifications) for at least 12 weeks before surgery is approved.\"\n}\n```",
+ "usd": 0.2447,
+ "transcript": [
+  {
+   "parts": [
+    {
+     "text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-23\nMember: Quinn Novak\nMember ID: W666121456\nPlan: Medicaid (Medicaid), state of Tennessee\n\nDear Quinn,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total knee replacement\n    Procedure code (CPT): 27447\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-19).\n\nReference number: POC-638643858B-53234\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_69819",
+      "args": {
+       "query": "Tennessee Medicaid TennCare total knee replacement CPT 27447 medical policy"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EuQGCuEGAWkUfRNhNfF4zO7ZZRZhw2wiuRHFA12OX5n8AHMFMbvdAq8cNoEfLyNopawTdAr0omkATajpn82QIu4J90ji8LdQC7t3h_ntIJucBmXN8JgzpKuybe9WI3PU2TXQZB8zGbYlMPXahIgCR9K62su383Z41I-EogUXjG-Ul1zXSQVSOKQ24_-IvzMe_8x_U5Vy1wF_8Oal2e8It0dsAiQ4lg_8JqjGp42ly21y2FL06aXdHdRYHPjykeZSg3v4cOc_hS8oYjuZ-gG7kSGaBdJSdIAFsJb6OU45Zkmip18orsxrt3r90RsUiSCSuDc_iTd0e07JgDWXaMLA9PadTni6l2TfDRhhfZ6dxspzNqC9kGEosPXpLbgo6rL0rEixFNPmubarJ-G-Md_WkLQ4zw0K9srSIfAt7l4i-SQtOr0RhexSLYn7POarIumV1JKYRFEIcXVsFyTvB_OTuKLJr7mSeDyyr3UzMGincppKWOPEQvCzGL118JerRwP0cw5lgFKFLL7J3teKfg7VLPel-BWhCVws-Ovqpl_3T8z01PrlCRS5sTin38P85f3GbTfQMYYnJxKuYiwuApzs2TrSTwA0mzj0ZaUP7nIUIFHerQbf-68UX7Rxje_cCUKbI132D8V_-X-dpFAF_4iYMlkociY5a92f6aifPqQfdAPkqWyghZiweXCtHI8FQU5a18Jnz8IkBnENB9femrnib3MEC8r6pM34O7Nncj0z-iUQOOLna8ovuyoyJNoV0eJIEgcwFedQQbImmC5_ZM1rXWX2u3debG2QUO8wTct6kp1DFJwZjoW8GptVGSynDOhNsBygzVmG9xihggvOmpFA5PIY4v1gZNqrUzy-9dUciCkhBovWm9IomnCfGjGVLZikEA9fSfgf7W2P-Ipgl2RVQsLbb4BeSRM6Px3ZMO4zYuodOGiicMbowWrjqxncGiCymhn13n240u6OW8YxKY7466MXQJgu_IiFsl1sx5uHCAXT52FSbh4xWILfAtF29sHVt-wld_q_KXIMnmPclwqjkRJWcA5tiFNty6QnTBNMCCibuDQqujqWSwYJFnMPesISQvmNLuDJ7V4upDns-xZneLVnHViR1S8OJC3dZ7SgFzMbJDTTnox_vriJbZMRuld2yfaC8-xaaA=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Tennessee Medicaid TennCare total knee replacement CPT 27447 medical policy",
+        "results": [
+         {
+          "title": "Medicare Medical Policy Total Knee Arthroplasty",
+          "url": "https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp419.pdf?rev=79a4b369734642d1bb4cf27a009af23d&hash=A241DB405B839A99F354B7866B5A3571",
+          "snippet": "Therefore, in addition to general medical necessity review using this policy, CPT code 27447 may"
+         },
+         {
+          "title": "CPT code 27447: Total knee arthroplasty billing guide (2026) | Pabau",
+          "url": "https://pabau.com/procedure-codes/cpt-code-27447/",
+          "snippet": "CPT code 27447 was <strong>removed from the Medicare Inpatient-Only (IPO) list in January 2018,</strong> making it billable in ambulatory surgical centers and hospital outpatient departments for eligible patients."
+         },
+         {
+          "title": "CPT Code 27447: 2026 Billing and Reimbursement Guide",
+          "url": "https://claimmaxrcm.com/cpt-code-27447/",
+          "snippet": "CPT code 27447 reports <strong>primary total knee arthroplasty, the replacement of the medial and lateral compartments of the knee, with or without patella resurfacing</strong>. It shouldn\u2019t be used for a unicompartmental replacement or for revision of an ..."
+         },
+         {
+          "title": "CPT Code 27447: What It Is, Modifiers, Reimbursement",
+          "url": "https://www.mdclarity.com/cpt-code/27447",
+          "snippet": "CPT code 27447 is <strong>reimbursed by Medicare</strong>, but it is essential to verify the specifics through the Medicare Physician Fee Schedule (MPFS) and your regional Medicare Administrative Contractor (MAC). The MPFS provides a comprehensive list of services covered by Medicare, including the reimbursement ..."
+         },
+         {
+          "title": "Procedure Price Lookup for Outpatient Services | Medicare.gov",
+          "url": "https://www.medicare.gov/procedure-price-lookup/cost/27447/",
+          "snippet": "Use official Procedure Price Lookup tool to compare national average to Medicare costs in ambulatory surgical centers, hosptial outpatient departments"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_78025",
+      "args": {
+       "query": "\"TennCare\" \"total knee\" medical policy"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EuIECt8EAWkUfROtRqIyKL0FdRcZvvuzxUxIj-4ouBeHpS9dCE-kSEykDJzJ_GjpP34AnP6cJBgPcCkXcdnSdZekoKKcswS_ecj_JnpQxO13O8avnBv3kiG8vc-7lrEHTEiFTMwpeSHTHfmYW_a-7DBLpSpfOPh4RXvXt-aA8oo83EYN85J4h7XRur4loFX2lUhHZ4U607-CbC5T8tMV3PwS1tVaPBzwsb4mZRSTBWB26_AS91o3lLwvl84OmW2XVii2BKtZ4Poz5PiQDlJWs27U7Dv-PUO04H6FcuqrTx3aTQmC9yLpd8NhMCX09-KjfW3LFrQ-TiH1prkxND1L53ROYANwrWfcbf1kf1rltQ_DbUvG_4nFJEMiErCHUeBSh3PdRznU53UKexICppXtpn1Qo9tVCGCw1R8CzFB5PN4QMpB9xJgtk8dv2zeda42JueahgEcw228-XpM-slMAFHkhHZ717xnMbvOBBzFA2w91ZbMp8w8q2iaCf2fsCXTRPMbSHZcSztRpWmcuvXbpp2PCcD1b5We2CG3HCISeQGcbHrudI71U8fIOHMH5WyTtaYdI40NxYhVRUXMExg4s_i1laMRqafA56-0bAKgq1OSxx8Acy_YJN9ugz7uVUs2DxCZ29C-rD53Dc3u-DO9RNm31Z8WGmACAdk2fTg-AZXtjtkAzDtkhRGmI7DIUAojKPdEgejT0rVDi02lgTvaGzNKmU3mr4zAEGF_PAn95UMdF6JDph9ebaaxjTmsNiM7Mf9BKSU3Hk7DzXQQQU_vb-qMilRBHPs3qKxKudo71phYN6GDdMA=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"TennCare\" \"total knee\" medical policy",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_169595",
+      "args": {
+       "query": "\"BlueCare Tennessee\" \"total knee\" OR \"27447\" medical policy"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Er8CCrwCAWkUfRNooRUMMt7-ZWOXGpLGCyE7cF2oBDNwMbtdStcZUeIKtn-GbyxoKOjxr7Q5KRk-BJlyWm1m37Pk_9Pt6VNCX00-1Qp0daSr_O01vTzhVaePyao5h_szJWvjzfWmujB-lDvnzNp5zNcgbiLZNuS3XN0yFVPRfYzg-9auC7AX50KM6h8G8az7Bf_w91vrbNgJQBY3_SdaOZq1mP_BxPneDKUE1kKb8REO8Ppg1FRw1QkjjasBFGqeVseRYaIDM06K0Uj0323wE7PaRNneB5rAw4SGZ52cfMDA2bvn0EvZeZHOVYGt6FGxpufOKUoi08Fj2FnByxFGanxNgCCXheUDut1A--1jR3krwXfBggkQ6_4a4cHZBTT99hCdzJ9mmBlPuOCHIAXxF7IOzima7eYkbDIfn2n_l41i4Q=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"BlueCare Tennessee\" \"total knee\" OR \"27447\" medical policy",
+        "results": [
+         {
+          "title": "Subject: Knee Arthroplasty - Medical Coverage Guideline",
+          "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-60&pv=false",
+          "snippet": "<strong>Arthroplasty, knee, condyle and plateau; medial OR lateral compartment \u00b7 27447 \u00b7 Arthroplasty, knee, condyle and plateau; medial AND lateral compartments with or without</strong> \u00b7 patella resurfacing (total knee arthroplasty) 27486 \u00b7 Revision of total knee arthroplasty, with or without allograft; ..."
+         },
+         {
+          "title": "Medical Policy & Procedure Policy Name:",
+          "url": "https://www.healthalliance.org/MedicalPolicy/GetPolicy/590",
+          "snippet": "Arthroplasty, kneem condyle and plateau; medial OR lateral compartment \u00b7 27447 \u00b7 <strong>Arthroplasty, knee, condyle and plateau; medial AND lateral compartments with or without</strong> \u00b7 patella resurfacing (total knee arthroplasty) 27486 \u00b7 Revision of total knee arthroplasty, with or without allograft; ..."
+         }
+        ],
+        "result_count": 2,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_95518",
+      "args": {
+       "query": "\"BlueCare Tennessee\" medical policy"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpQCCpECAWkUfRPvmFt7U1Grfi79J4MasuFu4WGzI806H05RIZ53NXH9TIbmGxJZzsUcmgK-KmK72WWqxV-V7IzplEACnOysWzwQXyUdGegF0ALw3aTe3ufr-jiRQr2mjKCReQMLkbBJeM0FsKXYRFmhjl242viZiRRse2Ec5rFR6WHQxrHGuQuV3wMVBEME0M5hB-OxudPmLsNBa8a4Qowz2TekyxFtXyeLztgCbfxyA9fCFVQnZqiRDWpjtbUGyHtDpaO8AL45tACme7iuLGFXGapA2QUzBmbkrHFeTxRViHyaWK3ApkK9Z3D2zG_LrvX0KydCw3C1T3kuNDRmLTXS0oc4DWadDQfkpxxOx9z_ZL1m1riu"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"BlueCare Tennessee\" medical policy",
+        "results": [
+         {
+          "title": "BlueCare Tennessee | BlueCare Tennessee",
+          "url": "https://bluecare.bcbst.com/",
+          "snippet": "Our plans include BlueCareSM, TennCareSelect and CoverKids. ... TennCare health care plan for many lower income pregnant women, parents or caretaker relatives of minor children, children, seniors and Tennesseans with disabilities"
+         },
+         {
+          "title": "BlueCare Plus DSNP | BlueCross BlueShield of Tennessee",
+          "url": "https://bluecareplus.bcbst.com/",
+          "snippet": "If you qualify for both Medicare and Medicaid, you could get a BlueCare Plus plan that helps you juggle both sets of benefits. This Medicare Advantage (DSNP) plan gives you everything you need, plus more."
+         },
+         {
+          "title": "BlueCare Tennessee",
+          "url": "https://www.bcbst.com/publicsites/bluecare",
+          "snippet": "Our plans include BlueCareSM, TennCareSelect and CoverKids. ... TennCare health care plan for many lower income pregnant women, parents or caretaker relatives of minor children, children, seniors and Tennesseans with disabilities See more"
+         },
+         {
+          "title": "Manuals, Policies & Guidelines | BlueCross BlueShield of Tennessee",
+          "url": "https://provider.bcbst.com/tools-resources/manuals-policies-guidelines",
+          "snippet": "BlueCare Tennessee Community Living Supports Manual for CHOICES and ECF CHOICES \u00b7 BlueCare Plus (HMO SNP)\u2120 Provider Administration Manual \u00b7 We\u2019re dedicated in offering specialized guidance to ensure members get the right care, at the right time. LEARN MORE \u00b7 See our coverage policies &amp; guidelines \u00b7 Find more information about our medical policies, utilization management guidelines and administrative services policies."
+         },
+         {
+          "title": "Plans & Programs | BlueCare Tennessee",
+          "url": "https://bluecare.bcbst.com/plans-programs/bluecaretn",
+          "snippet": "Our Medicare with Medicaid plan (BlueCare Plus) has <strong>extra medical, dental and vision benefits at no extra cost</strong>. ... This program provides extra support for foster parents and children in state care. We\u2019re honored to be Tennessee\u2019s only health plan to help these special families."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_92288",
+      "args": {
+       "query": "\"BlueCross BlueShield of Tennessee\" \"total knee\" OR \"27447\" medical policy"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpkDCpYDAWkUfRN29V9SXqU-j3H-4daPR66BBebiOcdgtV2Cea3nyCyiM96PnxnUGbWeAQuKCHetSeJm3RJxReQnuPjdas5mXp41uCKcPZfcTB1u8Wvh4zBO226ymd7Hpbozkdb6bQ8CVBg62kxGCLJMQvdA3Qoq8TIWW99q-0WQp3vwch8UKkA9QRgP9cxTp02-RJq_HUrnb0Uac_dKcMZVToQW3xsCfx8PfXglCp9C6-baacW9WxvapcAwmCMmVdk_-oibPQcpxWDoLg8JhUoxf_e_cMo4x4g0TBWyp332sRcshpSQ6R5qSzTC3Owi1Kq5RtPHeLgsFSqremyWxQ6KSUhh4JJSJLYgdnQer5-36tasjlCAxyilx3O2oNoPKsUc9_Dtc37R-vRkqsG8Zn7KGydjgdvwmGBeMs1u99dEI0upel3jl4cZ7cqsPN0-SQfxEbuEeyox0JOzdXa1NM4nFNyLLkYeMajPXlR4_O_TY0mbv3CzKHU9NxdiSu5Yf-7pCsBextApPW7URH22nFepTbMsA72c6kaR2g=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"BlueCross BlueShield of Tennessee\" \"total knee\" OR \"27447\" medical policy",
+        "results": [
+         {
+          "title": "Subject: Knee Arthroplasty - Medical Coverage Guideline",
+          "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-60&pv=false",
+          "snippet": "<strong>Arthroplasty, knee, condyle and plateau; medial OR lateral compartment \u00b7 27447 \u00b7 Arthroplasty, knee, condyle and plateau; medial AND lateral compartments with or without</strong> \u00b7 patella resurfacing (total knee arthroplasty) 27486 \u00b7 Revision of total knee arthroplasty, with or without allograft; ..."
+         },
+         {
+          "title": "Surgery of the Knee \u2013 Commercial and Individual ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf",
+          "snippet": "27447 \u00b7 <strong>Arthroplasty, knee, condyle and plateau; medial AND lateral compartments with or without patella</strong> \u00b7 resurfacing (total knee arthroplasty) 27486 \u00b7 Revision of total knee arthroplasty, with or without allograft; 1 component \u00b7 27487 \u00b7 Revision of total knee arthroplasty, with or without ..."
+         }
+        ],
+        "result_count": 2,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_160766",
+      "args": {
+       "query": "\"Wellpoint\" Tennessee OR \"Amerigroup\" \"total knee\" OR \"27447\" medical policy"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Ev0CCvoCAWkUfRM6oEzR7JjFUbY9huxNUFC1h096DYRGfoUAH9csetWldSM0j8QVd1HuMg0TPfBmEA7MaFj-LBzKCWUp_5CHa2r8hlvjKQN-2peJ-pniBiWb9dip4FOpWUmtlWHJwN521riooeEuHxXO6j1s8Gur4hSF1e2QSMYBHYjeF6F_xa96TrknVB_q8aysKq4SQNVdlbFhfJK4ycG2jQEdLHu1SQFVwP210MTIYM0Ejn28-ncB1BuCfG0aAM-PYEEKh9gxiqDiFXVXgMDhOqwADioR0LHAzHRcKJhu4WQBL6F24Pz4QEDugxyAtklNR3bjlX_qczMeooAcya_0RvAStMwqCPPyAtNp-STvCYon0JMiOMA5khumgh-d4edQOk8TIMY0ubayigDTLeI2j57WMpgxPeSBFfKyCmM2gJoNHE6Qwxz_5Iz9ozSjoEkn-_x-JPdvx55Pe3AHrt1NpJpcX8fB9inF9Nnkyb5lX5T9OaNV_tuJkSUXbe0I"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Wellpoint\" Tennessee OR \"Amerigroup\" \"total knee\" OR \"27447\" medical policy",
+        "results": [
+         {
+          "title": "Home | Wellpoint Tennessee, Inc.",
+          "url": "https://www.provider.wellpoint.com/tennessee-provider/home",
+          "snippet": "Amerigroup Community Care in Tennessee is now Wellpoint. Our new name fits with our brand vision to be a source of lasting wellness for our members \u2014 your patients \u2014 at all points in their health journey. There is no action needed by our care providers. There will be no changes to your agreements or contract, reimbursement, or level of support \u2014 now or in the future \u2014 because of our new name."
+         },
+         {
+          "title": "Reimbursement policies | Wellpoint Tennessee, Inc.",
+          "url": "https://www.provider.wellpoint.com/tennessee-provider/claims/reimbursement-policies",
+          "snippet": "Reimbursement policies | Amerigroup Tennessee"
+         },
+         {
+          "title": "Tennessee Medicaid Health Insurance | Wellpoint",
+          "url": "https://www.wellpoint.com/tn/medicaid",
+          "snippet": "Amerigroup Community Care is now Wellpoint. New name. Same commitment to you."
+         },
+         {
+          "title": "Claims overview | Wellpoint Tennessee, Inc.",
+          "url": "https://www.provider.wellpoint.com/tennessee-provider/claims",
+          "snippet": "Claims overview | Amerigroup Community Care"
+         },
+         {
+          "title": "Medical policies and clinical guidelines | Wellpoint Tennessee, Inc.",
+          "url": "https://www.provider.wellpoint.com/tennessee-provider/resources/policies-guidelines-and-manuals/medical-policies-and-clinical-guidelines",
+          "snippet": "Search Medical Policies and Clinical Guidelines"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_113182",
+      "args": {
+       "query": "\"UnitedHealthcare Community Plan\" Tennessee \"total knee\" OR \"27447\" medical policy"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqQCCqECAWkUfRPYkqWtCgByT92CKlIsBIx-3yWBGMKrGSuiWdSxXHeWy9n8X9JodY4O5som1o8p0HHQ1xFV0wKGaNVdTadsfm-pGu02FcQc9N_CDL-3T9wuHU6H7pFljijbfk6cwvY0umxrRZQO9FZYYbPX8gSFItoFM7iS3MpEUWHl82iLno50BnRP7JxmLue_Rh6KK5plaEeydId5_Pyh3O3Pg-0lfATnYw1nfBgE0d6FAHJM62emtSmXcuYbJkzuh6aSYsrS8zX72Gx9NkiqNfZ1rCDQRGwrR_7YbHNnsKcG7gqc1e-GfyVzUp0JhJFwuh1hVXr4CjYUKiWQtYn6s6R8afmDKVecAdo-DjVY9gSYX2ANJGmWBvYwqgMW2bX_38FyVQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"UnitedHealthcare Community Plan\" Tennessee \"total knee\" OR \"27447\" medical policy",
+        "results": [
+         {
+          "title": "Medical and drug policies for Community Plan of Tennessee | UHCprovider.com",
+          "url": "https://www.uhcprovider.com/en/health-plans-by-state/tennessee-health-plans/tn-comm-plan-home/tn-cp-policies/medicaid-community-state-policies-tn.html",
+          "snippet": "Effective Date: 07.01.2026 \u2013 <strong>This policy addresses surgery of the knee</strong>. Applicable Procedure Codes: 0737T, 27412, 27415, 27416, 27418, 27437, 27438, 27440, 27441, 27442, 27443, 27446, 27447, 27486, 27487, 27658, 27659, 27664, 27665, 29866, 29867, 29868, 29870, 29871, 29873, 29874, 29875, ..."
+         },
+         {
+          "title": "Medical and Drug Policies for Community Plan | UHCprovider.com",
+          "url": "https://www.uhcprovider.com/en/policies-protocols/comm-plan-medicaid-policies/medicaid-community-state-policies.html",
+          "snippet": "Effective Date: 06.01.2026 \u2013 <strong>This policy addresses surgery of the knee</strong>. Applicable Procedure Codes: 0737T, 27412, 27415, 27416, 27418, 27437, 27438, 27440, 27441, 27442, 27443, 27446, 27447, 27486, 27487, 27658, 27659, 27664, 27665, 29866, 29867, 29868, 29870, 29871, 29873, 29874, 29875, ..."
+         },
+         {
+          "title": "Medicaid: Submission of medical documentation for surgery of hip and knee | UHCprovider.com",
+          "url": "https://www.uhcprovider.com/en/resource-library/news/2025/record-submission-surgery-hip-knee.html",
+          "snippet": "Effective Dec. 1, 2025, <strong>providers requesting prior authorization for total joint replacement codes 27447, 27130 and 27132 for UnitedHealthcare Community Plan members in certain states may need to submit additional documents</strong>. No new codes are being added to the prior authorization list."
+         }
+        ],
+        "result_count": 3,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_78215",
+      "args": {
+       "query": "site:uhcprovider.com \"Surgery of the Knee\" \"Community Plan\" \"Tennessee\" OR \"CS\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EuwFCukFAWkUfRPbVVV4zgoiD-6gkZSv0VQ86gk2OZk1Fp6MCb856ixuT43IpOdu66ZKVT4mqdIU9xlWf9oAuQu9-6SiJT7uzJ6EUDWO6oWiqY7ip2NA6ffUbDyVy5gy3NZSqvuPd3ytQi4OeKEThwKLSdm_bWwMMOPUd6gfTnMIrKpU72f0wVtpt46USuKTseUPAvcAO4QbYTSYuSD126uPCejGbpy6LGgE20_DRaGgo0TInW_clTSQLKlaD0ALj5BQib9_H2kCvzuRaoduurqD7aWHiAqFfKI8mnmj6eJL86Ndg0b1e1E_dpyE4FRi6LdWdfsQXXPVC8JXBgSSU_WDTVaL3lfDKIxDAdmD-aGsV-hBgtrtD04kNh4mz_f37PbqhdXUlNTGTCCdjX1l8NOh7gmH6Y6dmnRHhy1X1Bu4Rs_1rM9JzUw0NZp-hJ6ConLGVhT9QNbwbhio4O3Mzpm0-3cTzU8vyuut2RADji9VjbabuLIWaKfe7KNOgTAzk6-ep23nB1gqMTMMKu7ZjMooBolWtZ9LA0QNifVbcr-YLgaJzk85WNA8aiziCZWuiHic34zcFkkG3a_VtzSFnDT7ztuROxUNvh-2F8a57cTX6zytC5XU_KoQdddZBirvM_bdF1sxny0q_UugVuOjlHOY-6b56awBpQyuERgG8cwsJoKhTJmWdnM9YaMuVZCCGoJmPBdtzYaFRFwqFgVGS5hXYSp8_ZoH54iMGzUn2ehK5FtkHDVSn3_CuPAyEOKAELQDrrq32jfSmXDVSwxdt3lnwuk6MF0kqRq7_9AO15O2kR45YdZIa_E7P8oYWX076Y7NdDtsMocC7RKmY_JKM4qQmSWSkmGsOsxmHhBCZ0o_3JGZlkSzaZ5CMVkhyivOhPdVRDnwCaZI9O5_72TpM1UudrlZDLp1X2Gm4kH5WitI9LDYGLa0LWfZBP358hZHn_DLvYy-3Hd3ztTQuY1qEEzG8LsFHB0SLHVT5AnvlA=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:uhcprovider.com \"Surgery of the Knee\" \"Community Plan\" \"Tennessee\" OR \"CS\"",
+        "results": [
+         {
+          "title": "Surgery of the Knee (for Tennessee Only) Page 1 of 10",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/tn/surgery-knee-tn-cs.pdf",
+          "snippet": "UnitedHealthcare\u00ae Community Plan \u00b7 Medical Policy \u00b7 Surgery of the Knee (for Tennessee Only) <strong>Policy Number: CS068TN.Y</strong> \u00b7 Effective Date: December 1, 2025 \u00b7 \uf0dc Instructions for Use \u00b7 Table of Contents \u00b7 Page \u00b7 Application ................................................................"
+         },
+         {
+          "title": "Medical and drug policies for Community Plan of Tennessee | UHCprovider.com",
+          "url": "https://www.uhcprovider.com/en/health-plans-by-state/tennessee-health-plans/tn-comm-plan-home/tn-cp-policies/medicaid-community-state-policies-tn.html",
+          "snippet": "<strong>Effective Date: 07.01.2026</strong> \u2013 This policy addresses surgery of the knee."
+         },
+         {
+          "title": "Outpatient Surgical Procedures \u2013 Site of Service (for Tennessee Only)",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/tn/outpatient-surg-procedures-site-service-tn-cs.pdf",
+          "snippet": "Surgery of the Knee (for Tennessee Only) Outpatient Surgical Procedures \u2013 Site of Service (for Tennessee Only) Page 2 of 3 \u00b7 UnitedHealthcare Community Plan Medical Policy \u00b7 Effective 08/01/2025 \u00b7 Proprietary Information of UnitedHealthcare. Copyright 2025 United HealthCare Services, Inc."
+         },
+         {
+          "title": "Computer-Assisted Surgical Navigation for ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/tn/computer-assisted-surg-nav-musculoskeletal-procs-tn-cs.pdf",
+          "snippet": "This Medical Policy applies to Medicaid and CoverKids in the state of Tennessee. ... Computer-assisted surgical navigation for musculoskeletal procedures of the pelvis and appendicular skeleton is \u00b7 unproven and not medically necessary due to insufficient evidence of efficacy. The use of an intra-operative sensor for implant stability during knee replacement arthroplasty and for improved"
+         },
+         {
+          "title": "Durable Medical Equipment, Orthotics, Medical Supplies, ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/tn/dme-equipment-orthotics-medical-supplies-repairs-replacements-tn-cs.pdf",
+          "snippet": "<strong>narcotic use was very common in patients with CSA and a more common risk factor for CSA than heart failure</strong>; and (4) Durable Medical Equipment, Orthotics, Medical Supplies, and Repairs/Replacements (for Tennessee Only)"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_88035",
+      "args": {
+       "query": "site:bcbst.com \"knee\" OR \"arthroplasty\" \"medical policy\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EskICsYIAWkUfROQATv6FY_CsmKZzrJkr1Qp1udcL_zznT1CBX65ueEMyVe890_KksX9meFPXEtXdiBAllpvTOF9Z2iOgnDvIdQqwoilp1VQuorf9-RbrsnEtyr87dWvOASl1pLdzScrYgf_efq-PnmkoF0u9BrlHfLm-UEcDvCpWC1H2AcRLSzS8FXDQw_yXkt7zu7413NFlf5s-BJQeIC2qbNP6kl3HIxpPhApbXgoD5mLd0nj_CkdNRhxcgEhfPjwAmQRP1OQ7ThEXCC7UtmhRiCk_gVtDPnnZIFhTTVp1bIHtUIhknUTF9LCO-UTj73TVU-3TrrL_xlQb-6WyQWMFPjJ7ycEtJciDqHiHJGjvib3u0gbahqjbi28OGkvfyKXBhLoxHIjghTLbOG0s3Ejfkx6DGEJXxzJrzNtIpn6CYDiV3a0JPUzaYx9ZmHkp3Kqr3dOhcCsVPyfRwReGpWTmJmttroRuzWaO2kvuafLABF_I82ACawOilw_HSXvAix5QfMd1MVwN-aZv4hMBGA63EdgOjoN0NWwsMR0QYHDgVwfsinTJriShmcwC7LdfPkh1yd0Qjz4rjVIf45UOFmQgVbhKudCq7RKJz96AxwuJB9ZCqu6X5__RA9vR4dTIRgSsE3tPgyLVCCr-pjYQ2p9dETGMY_dGuEpwSzOji7xVad_BkhxPeHfZrRtch4dTHdkN5mCLdDvgTJ7EuO1WsFtaU0DeS9lIbDWRHRrtTQ_lnR-fng_A_4rHi2EnNiTs2Ock0ok_fRM_ERkiMV8k98ZQip1OHsnMcu59eMJ7eaPynJiWPRS1NDwR9zRv0SmYnfZMHYngF2QlNEx2K8IPGoM77K9yKZmCkX-HPshrED449XnMGFNVH_7nbW1F_Vz8jE9_5kiBFu42znhh-riUwDb-TdyCUhdKHvJg6-aSXsDrPYPcer0Bwm6IoTphFzljhzZpOVpdCoawknjQkYwhH2jbrl2IwKcfOfv3CdxPCsV2l6MUvc-fczhjLLSGB9_EijRyEnJk1574TydohPS5IlA_7o_kV0QHZHe7U5V2McULU8IOhjn6Wqq1VExiyrx7A7-WEiaHzSKDJbPqWksZRaa6PgQGM2kHfTO9TarE9h48FDC8bFrf2EBiqEG7XEXK-iorAYZsZGcAgk-rhCObqcVxT0ebNOA_XPRUjFfDMZxi4xOtAP_IKrpT5LO_JYAuY41j1bs13b3ly581omQWn0faF6yhWRQ7GwWOkv-AP55O79cWfjmw3A6jycacmR9tcr9-xH5WbIYrATSG0gmDo0eNrWQ4NJICMzLrPOSOW_Xb5KsGb6PpRYxuDHppAnmgNE1k3OKl2XMmGGrTmjtKdoQCh12S7SkzPqUlUE5-xc_wHfvPhjUg7mmm6eoDfrCJjYn6LvtpMnajnjiEwSvJ3hWieYvfopcKaxZO2MfyUHdNlNKngmmm6Gsljw="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:bcbst.com \"knee\" OR \"arthroplasty\" \"medical policy\"",
+        "results": [
+         {
+          "title": "Continuous Passive Motion (CPM) Device in the Home Setting",
+          "url": "https://www.bcbst.com/mpmanual/Continuous_Passive_Motion_CPM_Device.htm",
+          "snippet": "Continuous passive motion after total knee arthroplasty: A systematic review and meta-analysis of associated effects on clinical outcomes. Archives of Physical Medicine and Rehabilitation, 100 (9), 1763-1778. Abstract retrieved November 7, 2022 from PubMed database. ... Policies included in the Medical Policy Manual are not intended to certify coverage availability."
+         },
+         {
+          "title": "Computer Assisted Surgical Navigation for Orthopedic Procedures",
+          "url": "https://www.bcbst.com/mpmanual/!SSL!/WebHelp/Computer_Assisted_Surgical_Navigational_Orthopedic_Procedures.htm",
+          "snippet": "The most commonly performed orthopedic computer-assisted surgeries appear to be as an adjunct to fixation of pelvic, acetabular, or femoral fractures, hip and knee arthroplasty procedures, spinal fusion, and correction of spinal deformities (e.g., scoliosis). ... The use of computer assisted surgical navigation during orthopedic procedures is considered investigational. ... Any specific products referenced in this policy are just examples and are intended for illustrative purposes only."
+         },
+         {
+          "title": "Meniscal Allografts and Synthetic Meniscus Implants",
+          "url": "https://www.bcbst.com/mpmanual/!ssl!/webhelp/Meniscal_Allograft_Transplantation.htm",
+          "snippet": "Meniscal allograft transplantation is considered medically appropriate when ALL of the following criteria are met: <strong>Absence or near absence (more than 50%) of the meniscus, established by imaging or prior surgery</strong> ... There is a clinical determination that the individual is not yet a candidate ..."
+         },
+         {
+          "title": "Manipulation Under Anesthesia (MUA) of the Musculoskeletal System",
+          "url": "https://www.bcbst.com/mpmanual/Manipulation_Under_Anesthesia_of_the_Musculoskeletal_System.htm",
+          "snippet": "Manipulation under anesthesia is considered medically appropriate if ANY ONE of the following criteria are met: <strong>Arthrofibrosis of the knee following total knee arthroplasty, knee surgery, or fracture</strong> ... Any specific products referenced in this policy are just examples and are intended for ..."
+         },
+         {
+          "title": "Pneumatic Compression Pumps",
+          "url": "https://www.bcbst.com/mpmanual/!SSL!/WebHelp/Pneumatic_Compression_Pumps.htm",
+          "snippet": "Pneumatic compression pumps are considered medically appropriate if ANY ONE of the following are met: Deep venous thromboembolism (DVT) prophylaxis for postoperative use in the home setting following major surgery (e.g., total hip arthroplasty, total knee arthroplasty, hip fracture surgery, open abdominal, or open-pelvic procedures) if ALL of the following are met:"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_71888",
+      "args": {
+       "query": "\"BlueCross BlueShield of Tennessee\" \"total knee\" OR \"27447\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Er4DCrsDAWkUfRO9q8-CU9qeaPnEG02bEPi1vLHAGtMDhp1RQlgUx64J3oJbWFMAF_EkwLdC_BKKN9SJDNEGotf6E9oqOaEs3p8UpIoSqO_dCqWev7WJTZfNUpA4Gt21Rbv-BCvc_8pGFb6PO5lmyzir0M9W4KK3Gw83fHUy7zQV2SLfijj0G5aiMeU91QYdGMlFjWqlcD9uQ6iztySYrwRW9TK5pMNlsME8LxaMdRumQAIiQbNG4m5mY8heluqHz386bvuQohZgiMuA_ZW_B3vK9t7OcnSyyt7Lh6kmJe8R9L3-cUfSsMP9loGkFER7PQaFgX4MNfbMPwPjy00V20kDCAPl_39KOGhMYYphza0yEdt412qiZoyJTKSLUMhb51OVEYrHCq-4dijOR6LetBMeFi2eut0iffKTmebgLZ4A78N1CbOOpTrSf0fM_k1qNf5fphIzn0sMMYX-288lZvCizljArFWIlDSCUwFwDC-IOREOybz6VWGXssA99R1Litdd427sUZNNX245cqjsoyCDtQLXeBHl77PmgvptbWcbqtLjy5aRdUGhWdaeQ8-AL8vwuIE-r7My2K_ld9_70FQ="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"BlueCross BlueShield of Tennessee\" \"total knee\" OR \"27447\"",
+        "results": [
+         {
+          "title": "Subject: Knee Arthroplasty - Medical Coverage Guideline",
+          "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-60&pv=false",
+          "snippet": "<strong>Arthroplasty, knee, condyle and plateau; medial OR lateral compartment \u00b7 27447 \u00b7 Arthroplasty, knee, condyle and plateau; medial AND lateral compartments with or without</strong> \u00b7 patella resurfacing (total knee arthroplasty) 27486 \u00b7 Revision of total knee arthroplasty, with or without allograft; ..."
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_157910",
+      "args": {
+       "query": "\"Wellpoint Tennessee\" OR \"Amerigroup Tennessee\" \"knee\" medical policy OR clinical guideline"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpMDCpADAWkUfRMjLsLnCAvddldyGxDvL0C5a87As6tm6-4FE4qiA1ueCQSnFfJKd3JjFWxfvIaAxTRtXHoHdZm1Q5OAqz6Pe6Q0NDhZzpJe2naOv8ciaKhu1y81W29bTCTue1Tv7lVhG5w_X3k54hMA2RDRM60hYQI1jABpMLNLIOtRKPDozo_YepDIoeD7D1U2M-Rw6qdUhjVrBJi5O1qoP96Yzmn7AOzNXz7ZnU5-xG_cGdT4LzM-g_-tfcC6It3xvhIR2UDmlZFOhefhfVHR638GPO5GDkqL0GDbiNOZgSDEMkGVsUHxnpcW1gqiULhkkub-e-yxy3kT2B9i9Zf82GdJjDOKCQKr9_C_JrqiNcWRekKHxLJx4I5nMcDCTTxblhL08L6H1dfyB3BuOutUgDXgMqPZLEXPFBmpd2bTOG5C8bjvU4JK0EDE_mbr3lmc5JklUyiV5UKd5Ws3x-xKWLjmn3QaeWuDTULJyXMkuRAwIGZys6F2g5NZPffZBWr-n2L3wEzxoz8HkPPdpn-sU-VamA=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Wellpoint Tennessee\" OR \"Amerigroup Tennessee\" \"knee\" medical policy OR clinical guideline",
+        "results": [
+         {
+          "title": "Medical policies and clinical guidelines | Wellpoint Tennessee, Inc.",
+          "url": "https://www.provider.wellpoint.com/tennessee-provider/resources/policies-guidelines-and-manuals/medical-policies-and-clinical-guidelines",
+          "snippet": "There are several factors that impact whether a service or procedure is covered under a member\u2019s bene\ufb01t plan. Medical policies and clinical utilization management (UM) guidelines are two resources that help us determine if a procedure is medically necessary."
+         },
+         {
+          "title": "Provider policies, guidelines & manuals | Wellpoint Tennessee, Inc.",
+          "url": "https://www.provider.wellpoint.com/tennessee-provider/resources/policies-guidelines-and-manuals",
+          "snippet": "Medical Policy addresses the medical necessity of new services or procedures, and new applications of existing services or procedures. Clinical UM guidelines <strong>focus on detailed selection criteria, goal length of stay, and location for generally accepted technologies or services</strong>."
+         },
+         {
+          "title": "Full list of medical policies and clinical guidelines | Wellpoint Tennessee, Inc.",
+          "url": "https://provider.amerigroup.com/tennessee-provider/medical-policies-and-clinical-guidelines-full-list",
+          "snippet": "We routinely update our medical policies and clinical utilization management (UM) guidelines as part of our review process."
+         },
+         {
+          "title": "Clinical Practice Guidelines - Amerigroup Providers",
+          "url": "https://provider.amerigroup.com/docs/gpp/TN_CAID_ClinicalPracticeGuidelinesMatrix.pdf?v=202106011539",
+          "snippet": "Medicaid coverage provided by Wellpoint Tennessee, Inc."
+         },
+         {
+          "title": "Clinical Utilization Management Guidelines",
+          "url": "https://www.provider.wellpoint.com/docs/gpp/TN_CAID_May2024ClinicalUtilizationManagementGuidelines.pdf?v=202411180420",
+          "snippet": "To view a guideline, visit Medical Policies and Clinical UM Guidelines."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_118575",
+      "args": {
+       "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/tn/surgery-knee-tn-cs.pdf"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EvkDCvYDAWkUfRMG5nqDlldT2EVMYrV4Rj_9AfIGNRbnhYYCuKN4Mgljx2SFQm1Y0ezVbnwALN7n7itrMRhC39WzHVoyb4w5w-8sWM7jX6CmQqSuYvlDCG1YESzaqmj_l6nKhsHrSoOOYhxqcffJEK4QhyzMZ_Pgv-jE1R-UnS61HCs2VaRUT5Uwh3ypd2BVI-FEiyXPDp6MIwzeS7TkR-efnR0lRokoC7Gs1WoiSFbOQM6L0mA-DEap2raDedtpzzDFihkc11ctmmOJ_ROIQdBRLxfOs-8QL8Q-d3emQcs35SCKRlkGDgG00dC8A7tCHfjWg_liiMQ8kvlOAj8LWKkQc4zCbg1GxtWBFSUnRjskSluFqmBT2dudKjYwR5883Xepq2HpClY8bnVc6uQyLHYb6QETN6zZoEYTvpORQPJNY336dsSbVe7jGWVKgwB7nEBiDbxhPf0v5XUgUatt2YkfjDZXTl5y4bjqK074NjZkLKnNUhzP4TW81chxBopun8MLNE_tiGvSmDqMBCld1S3KV2zmuTTfxTc2uyJnSzWMFoBnrYvpMMsFC1HnVP2xMuS6VcjxT0APfouBA31ai6rXZrEhZQ2Tecx1ZuJa2gCrEwdw72u8IYcoc1WIpHRRmAbyYi52nCCIyYa_3ntMtM3E5UfeEVY05iOTmQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/tn/surgery-knee-tn-cs.pdf",
+        "final_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/tn/surgery-knee-tn-cs.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": " Surgery of the Knee (for Tennessee Only) Page 1 of 10 UnitedHealthcare Community Plan Medical Policy Effective 07/01/2026 Proprietary Information of UnitedHealthcare. Copyright 2026 United HealthCare Services, Inc. UnitedHealthcare\u00ae Community Plan Medical Policy Surgery of the Knee (for Tennessee Only) Policy Number: CS068TN.AA Effective Date: July 1, 2026 \uf0dc Instructions for Use Table of Contents Page Application ............................................................................. 1 Coverage Rationale .............................................................. 1 Medical Records Documentation Used for Reviews ............. 2 Definitions .............................................................................. 2 Applicable Codes .................................................................. 4 Description of Services ......................................................... 5 Clinical Evidence ................................................................... 5 U.S. Food and Drug Administration ...................................... 9 References ............................................................................ 9 Policy History/Revision Information .................................... 10 Instructions for Use ............................................................. 10 Application This Medical Policy applies to Medicaid and CoverKids in the state of Tennessee. Coverage Rationale Surgery of the knee is proven and medically necessary in certain circumstances. For medical necessity clinical coverage criteria, refer to the InterQual\u00ae CP: Procedures: Arthroscopy or Arthroscopically Assisted Surgery, Knee Arthroscopy or Arthroscopically Assisted Surgery, Knee (Pediatric) Arthroscopy, Diagnostic, +/- Synovial Biopsy, Knee Arthrotomy, Knee Arthrotomy, Knee (Pediatric) Removal and Replacement, Total Joint Replacement (TJR), Knee Total Joint Replacement (TJR), Knee Unicondylar or Patellofemoral Knee Replacement Click here to view the InterQual\u00ae criteria. Articular cartilage repair is unproven and not medically necessary for treating individuals with any of the following due to insufficient evidence of efficacy: \u2022 Autologous minced or particulated cartilage (e.g., Cartilage Autograft Implantation System, Reveille Cartilage Processor) \u2022 Allogeneic minced or particulated cartilage [e.g., BioCartilage\u00ae, DeNovo Natural Tissue (NT) Graft, DeNovo Engineered Tissue (ET) Graft] \u2022 Collagen Meniscus Implant \u2022 Decellularized Osteochondral Allografts (e.g., Chondrofix) \u2022 Reduced osteochondral discs (e.g., ProChondrix, Cartiform) \u2022 Synthetic Resorbable Polymers [e.g., PolyGraft BGS, TruFit (cylindrical plug), TruGraft (granules)] \u2022 Xenograft implantation Related Policies None Surgery of the Knee (for Tennessee Only) Page 2 of 10 UnitedHealthcare Community Plan Medical Policy Effective 07/01/2026 Proprietary Information of UnitedHealthcare. Copyright 2026 United HealthCare Services, Inc. Medical Records Documentation Used for Reviews Benefit coverage for health services is determined by the federal, state, or contractual requirements, and applicable laws that may require coverage for a specific service. Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage but does not guarantee coverage of the service requested. Medical notes documenting the following, when applicable: Complete diagnostic interpretation of imaging findings including, at a minimum: o Relevant clinical information o Detailed report of imaging findings, including at least the following: \u25aa Documented closure of skeletal plates (age less than 18 years) \u25aa Presence or absence of focal full-thickness articular cartilage defect \u25aa Size and location of focal cartilage defect \u25aa Outerbridge Grade \u25aa Joint space and alignment \u25aa Ligament tear location and grade o Impression o Specialty(ies) of the provider(s) who interpreted the images In addition, upon request we may require the specific diagnostic image(s) that show the abnormality for which surgery is being requested, which may include MRI, CT scan, X-ray, and/or bone scan; consultation with requesting surgeon may be of benefit to select the optimal images o Note: When requested, diagnostic image(s) must be labeled with: \u25aa The date taken \u25aa Applicable case number obtained at time of notification, or member's name and ID number on the image(s) o Upon request diagnostic image(s) must be submitted via the external portal at www.uhcprovider.com/paan; faxes will not be accepted Reports of all recent applicable diagnostic tests, including: o Microbiological findings o Synovial exam o Erythrocyte sedimentation rate (ESR) o C-reactive protein (CRP) Condition requiring procedure Symptoms Severity of pain and details of Functional Disability(ies) interfering with activities of daily living Cause of defect (e.g., acute or repetitive trauma) Pertinent physical examination of the relevant joint Co-morbid medical condition(s) Prior therapies/treatments tried, failed, or contraindicated; include the dates, duration, and reason for discontinuation Date of failed previous surgery to the same joint, if applicable Physician\u2019s treatment plan including: o Pre-op discussion o Additional intervention(s) or product(s) to be used during the procedure Consideration of arthroscopic approach, if applicable For revision surgery, also include: o Details of complication o Complete (staged) surgical plan If the location being requested is an inpatient stay, provide medical notes to support at least one of the following: o Surgery is bilateral o Member has significant co-morbidities; include the list of comorbidities and current treatment o Member does not have appropriate resources to support post-operative care after an outpatient procedure; include the barriers to care as an outpatient Definitions Refer to the federal, state, or contractual definitions that supersede the definitions below. Surgery of the Knee (for Tennessee Only) Page 3 of 10 UnitedHealthcare Community Plan Medical Policy Effective 07/01/2026 Proprietary Information of UnitedHealthcare. Copyright 2026 United HealthCare Services, Inc. BioCartilage: An extracellular matrix consisting of cartilage allograft that is intended to provide a scaffold for microfracture defect. The small particles are mixed with a blood solution to create a paste-like consistency that is applied over a cartilage defect (Hayes, 2022; updated 2025). Cartilage Autograft Implantation System: Harvests minced autograft cartilage and disperses chondrocytes on a scaffold in a single-stage treatment (Farr et al., 2012). Collagen Meniscus Implants: Collagen implants are also known as collagen scaffolds and are implantable porous meniscus scaffolds composed of collagen fibers, enriched with glycosaminoglycan; they are used as a template and support for generation of new tissue to replace the lost menisci (Witstein, 2023). Decellularized Osteochondral Allograft Plugs (e.g., Chondrofix): A cylinder-shaped plug (graft) of healthy cartilage tissue and subchondral bone is taken from an area of the bone that does not carry weight (non-weight bearing). The graft is then matched to the surface area of the defect and pushed into place. This leaves a smooth cartilage surface in the joint (Witstein, 2023). DeNovo Engineered Tissue (ET) Graft: An in vitro-grown, three-dimensional, hyaline-like cartilage tissue created by culturing disaggregated allogeneic chondrocytes derived from juvenile human donors (Farr et al., 2012). DeNovo Natural Tissue (NT) Graft: DeNovo NT consists of manually particulated cartilage obtained from juvenile allograft donor joints. The tissue fragments are mixed intraoperatively with fibrin glue before implantation in the prepared lesion (Farr et al., 2012). Disabling Pain: Western Ontario and McMaster Universities Arthritis Index (WOMAC) pain domain of > 40 (Quintana et al., 2009). Functional Disability: WOMAC functional limitation domain of > 40 (Quintana et al., 2009). Minced Cartilage: A procedure that uses minced pieces of cartilage seeded over a scaffold, which allows for even distribution of the chondrocytes to expand within the defect, providing structural and mechanical protection (McCormick et al., 2008). Outerbridge Grades: Grade 0: Normal Grade I: Cartilage with softening and swelling Grade II: Partial-thickness defect with fissures on the surface that do not reach subchondral bone or exceed 1.5 cm in diameter Grade III: Fissuring to the level of subchondral bone in an area with a diameter of more than 1.5 cm Grade IV: Exposed subchondral bone head (Slattery and Kweon, 2018) Radiographic Findings of Osteoarthritis: Narrowing of joint space, osteophyte formation, subchondral sclerosis, subchondral cysts, deformity of bony end-plates, and thinning or complete loss of articular cartilage (American College of Radiology , 2025). Note: UnitedHealthcare will accept three or more moderate to severe radiographic findings to be sufficient to support the diagnosis of severe osteoarthritis. Reduced Allograft Discs [e.g., Cartiform (Arthrex), ProChondrix CR (Allosource)]: Wafer-thin allografts in which the bony portion of the allograft is reduced. The discs contain hyaline cartilage with chondrocytes, growth factors, and extracellular matrix proteins. The graft is often used in conjunction with marrow stimulation, purportedly allowing the host mesenchymal stem cells to infiltrate the graft from the underlying bone marrow after stimulation to provide dense extracellular matrix intended to enhance biomechanical stability and promote chondrogenesis (Mehta et al., 2022). Reveille Cartilage Processor: High-speed blade and sieve to cut autologous Minced Cartilage into small particles for implantation (Igarashi et al., 2020). Synthetic Resorbable Polymers: Implant that functions as a scaffold for chondral and osteogenic cells, with the synthetic polymer being resorbed as the cells produce their normal matrices (Witstein, 2023). Surgery of the Knee (for Tennessee Only) Page 4 of 10 UnitedHealthcare Community Plan Medical Policy Effective 07/01/2026 Proprietary Information of UnitedHealthcare. Copyright 2026 United HealthCare Services, Inc. Western Ontario and McMaster Universities Arthritis Index: The WOMAC is a disease-specific, self-administered questionnaire developed to evaluate individuals with hip or knee osteoarthritis. It uses a multidimensional scale composed of 24 items that are grouped into three dimensions: pain, stiffness, and physical function (Quintana et al., 2009). Xenograft: Graft of tissue taken from a donor of one species and grafted into a recipient of another species (Witstein, 2023). Applicable Codes The following list(s) of procedure and/or diagnosis codes is provided for reference purposes only and may not be all inclusive. Listing of a code in this policy does not imply that the service described by the code is a covered or non-covered health service. Benefit coverage for health services is determined by federal, state, or contractual requirements and applicable laws that may require coverage for a specific service. The inclusion of a code does not imply any right to reimbursement or guarantee claim payment. Other policies and guidelines may apply. CPT Code Description 0737T Xenograft implantation into the articular surface 27412 Autologous chondrocyte implantation, knee 27415 Osteochondral allograft, knee, open 27416 Osteochondral autograft(s), knee, open (e.g., mosaicplasty) (includes harvesting of autograft[s]) 27418 Anterior tibial tubercleplasty (e.g., Maquet type procedure) 27437 Arthroplasty, patella; without prosthesis 27438 Arthroplasty, patella; with prosthesis 27440 Arthroplasty, knee, tibial plateau 27441 Arthroplasty, knee, tibial plateau; with debridement and partial synovectomy 27442 Arthroplasty, femoral condyles or tibial plateau(s), knee 27443 Arthroplasty, femoral condyles or tibial plateau(s), knee; with debridement and partial synovectomy 27446 Art",
+        "text_truncated": true
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_118596",
+      "args": {
+       "query": "\"InterQual\" \"Total Joint Replacement\" \"Knee\" \"conservative\" OR \"criteria\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqMMCqAMAWkUfRPbIRldwbysudqykirgd9SaMEbHuY0yOa5nuuJEFFEy9e6L3gAAbNDkxzPP34jqXtwg8R5h1MNkOxtMR85kTH4YfD9AYTrYMpuTdXfa6L2Nhi55zzBLYxAuI1nR8RdcZQCxTv7vsBWVewLPa7l3tx3-3nNKxs6cSbc3Df2OOfA3bjjPMIltc1gozfFVgkJp98hKobaVRcYtZsnZSjgC-ePZd8KLx7g9ai0EJ1rRW5zYpt3MgNjYjuIxxwWK9jmnVp9iMZIVriuiWOrXpXDtZuLqPfPlfwH775UjAY3GNQ4UiwXbgZ4ae8g2PSgU-P0zzE3GRUGO-Cv5Sl-iVi6ljPQ-3eGjPM-3XzgiIl9fxaEcrh0QHQRLuoT3vKsELan277TGIso2z4GcgWKwYMGwGyIwo2F5AkRoRK7uvnnXbmFTww-dbdbLolPHjb_74dqxvG8-EGO6mu_rbdbMAFmvlavEgF2soWIsq6iCPaV3nX6pBUiR_N2jF_TrIukX81VD-YETt1fYjcyEYLyze-4Zq4PP-aZiX4lwQGQbMKWA9WSKDXGypmTaVJQ2g3dwngrYc0sYyjZM5T8NgilzNZiAuhYNDJxsNFM_xy8dO3W292NEUHhk-_A5Lr5KyYjjhuuUGYjbZ-ebbhL38burFJ45bwI8mSuxkriV0IAf0iH8bP-DF5N8IZU6vQFvc43FgxgWkh_JqxzMbBkkSZCqfQlwX6UAMb7Tl3AlW5os6M7qUC9hc0XWVsejwcF49g9UtELp4-Vnt29KkMx6ZQN8FaatXiRSi7QX6D1xXUMhSuyMebxP_9o_9W-0MOx45FDkz5kdiWt2nVNBcUOoxB8hB9a92aduxBHIbNhdC-HBpS9GHM5h7Pn0B-PK0NwMnNQtbW5-WYkq4z1m84_0r2m1p0Doe3uVUO7gj0-r9HYzrepzDy0F_g3xuWEz-md5G4H7yUPIIfX8B6eC4iTLglhZgFbzegYUMETi-rqK35ySCHadGol10Z-nAvmDib0EqmUQI72XZ13L0vLtO1jv_eksZh9CfJyCQIZc4UZGix_61tUpk-eLbCJ0pF4Lbs1yhzDfnyn0pMG_wKZuSEyEOQHvKm4Amzc4EQfvoU2EM2Fq_OkrsIvzS7LaYNu00ZpzREre7kpa_yf-HUezMtMhJaNzjxryWkYVA2M6IWfORnPJwDt4ucFTd47j9FDj2CiZaT9kiWIJPNBnVhhmDVcfS7AOH-8a8gjLQpKGvB6vnCgSmIbCa-AkwmLTyqubfO3pgJex-dqiRNZGExwho6HfS4J-T4EeZI2HxEDFUs00H6Nuop1dk7EBdvnQedUrHNzo2ImQJWTap5Ti8cIZrcDXC8hcvZVRmRJyo7kXvA6sebUkZxA5MZwb3JkrR02RtrL95sMf1Ms2f3pQnWxF3kYZ_gqPNMoRa_QldpIBosl_YWpTA1YibpHrbpDjzAuYHZCd2_TOnHDkqIc1kjFWOLC5eGpsxJszHayW0huwcUSuch0L42zD8H0y3DZcAn2k-Ga-_4Mq7TZI1rdFGPlPNqlnsgyXDwfYkS302IzJWugt6gagsgITwyFocGN3KPZ0pGSucls-zr9caijLrUEa_kT3uzPGnIEX7z6rgloNspJFQHxdHgrmd4rUreekqBV60viQZMngaZk_yPKvp5Wx0u84-lRoFbbLBeBSadgKbHBg-qo9izu5TYdNRyfM6CZ2p_Pc8R7q-4lCBrWyHftvVWk64yH3SFdtvBPBBgydXv6oRu_3g6WIMoeXDOZBzyS6D_DWUp0t3-X9DrkRc8_T3kngib4heDHiPQNVeIvNCO-Jh-VqlbfR27ber2IxH5I5IY4RHqWggKGkocAbB8FooiN-SQxxrm8PYeMpGpkBu_uoayY2IUK4bD_9jgYrD50N_hnIyf50LtNQLMBcK6AUKKnwXVyKzm5Vfq2RwAA3SwKXf6yX_0ox8W4ES1PeFyffdlMKV48EgGkpSjpWK35e-Qcju1e1vpzcKqBEA99RNxD7riVjuS6nfpiIm3tph9yG4mDgYogrJzKGf2EOq9qrdeXbeIy9S42Qu1FhLGZ4RutXCTxJfNs="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"InterQual\" \"Total Joint Replacement\" \"Knee\" \"conservative\" OR \"criteria\"",
+        "results": [
+         {
+          "title": "MEDICAL POLICY \u2013 7.01.550 Knee Arthroplasty in Adults Effective Date:",
+          "url": "https://www.premera.com/medicalpolicies/7.01.550.pdf",
+          "snippet": "Modified conservative management to include one or more \u00b7 medical measures and physical measures unless symptoms are severe and there is \u00b7 radiographic evidence of advanced osteoarthritis then only one or more medical ... Delete policy, approved March 10, 2020. This policy will be deleted effective July 2, 2020, and replaced with InterQual criteria ..."
+         },
+         {
+          "title": "Knee Arthroplasty - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0660.html",
+          "snippet": "Knee joint replacement is indicated for patients with <strong>significant loss or erosion of cartilage to bone accompanied by pain and limited range of motion (ROM), in patients who have had an inadequate response to conservative measures. Guidelines indicate that unicompartmental knee arthroplasty (UKA) is indicated when only 1 compartment is affected, and total knee arthroplasty (TKA) is indicated when 2 or 3 compartments are affected</strong>..."
+         },
+         {
+          "title": "LCD - Major Joint Replacement (Hip and Knee) (L33618)",
+          "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdId=33618&ver=23",
+          "snippet": "The indications outlined in this LCD are not to be applied for unicompartmental knee replacement surgery. Failed previous unicompartmental joint replacement is an indication for performing a total knee arthroplasty. Unsuccessful conservative therapy (non-surgical medical management)."
+         },
+         {
+          "title": "LCD - Lower Extremity Major Joint Replacement (Hip and Knee) (L36007)",
+          "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?LCDId=36007",
+          "snippet": "Unavailability of components of a previous arthroplasty requiring the replacement of both components, or failure due to the design of the original components should be clearly documented in the medical record. Covered Indications This LCD is only addressing medical necessity criteria for performing total hip and knee replacement surgery."
+         },
+         {
+          "title": "Surgery of the Knee \u2013 Commercial and Individual ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf",
+          "snippet": "Total Joint Replacement (TJR), Knee (AQS) (Custom) - UHG \u00b7 o \u00b7 Unicondylar or Patellofemoral Knee Replacement (AQS) (Custom) - UHG \u00b7 Click here to view the InterQual\u00ae criteria. Articular cartilage repair is unproven and not medically necessary for treating individuals with any of the \u00b7"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_93295",
+      "args": {
+       "query": "\"InterQual\" \"Total Joint Replacement\" Knee conservative treatment OR \"conservative\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EuIDCt8DAWkUfRMSVHbo1L50gYnzhKBE4D9pe-7zj30Pxfdp5phQk36SPLJO2zmUWljLEUonQ_WvUoNr7m-6W9UuOpSZnc1HYXV3xlCWdQRb9hSWBRgioft9BhiB1IOVKd0jEaJvkBM7r76sAF8MI5zXGuxpTLgOw3dvjeoomeRU7jDXpUhok4IgbwRky8bnPMTrr2hAgJDBh1eLvClqKHcE93nlQ5UwnyH8k_zKlP1YmwtEcZCSg_hE7v5rFnQlStyqjXxkhUnXN-IPf_Fj2cH-6hprtodZZF8LgmEVPpwOSzPboay1I6Iaw29NOhO3SzHLAz_vN5GprjTSzZ4CuqeGUcJC0cKPh0Pqvjef7VsIW7Q4iq5On47PrFPoTHmLcGApvK_zSJiCM3TJAWatjYikhyafllC_YGzx9J8p1cYsIMPXprL3BwrwV9tKKs4u35hFFDjHKT_bWu0ECcwiYEd0JvcyHDrjBX0tfFzUVUXiWa5xdvs-24mFZHSiXgubPsseFNRx7Ij_H6X5trGj5ju1g0JRdEHZ7sCZxzNlsruUjFCybhXW9aKHGVV_Jk-Ey8_qoJxVOZDmsfEyaRiJv7WUUH5PoF__Vb5Tnq6VZ5bk05BxMs14TO5VQ0F2uf8jLO_e8ok="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"InterQual\" \"Total Joint Replacement\" Knee conservative treatment OR \"conservative\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_136439",
+      "args": {
+       "query": "InterQual \"Total Joint Replacement (TJR), Knee\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvUBCvIBAWkUfRMe4OoZDj6KAXW9dLFaH8V7HuyjOn4yNM2pBzhpIlBE5F_ORNeHfjUF8ALeJoIkPe4D3ph5dnZttwCKihKYaF8jN9SWfnN80EyxpVXTzc4WIAnEsRZp61bk9V4d89J7OmQs2acZiKY3fkjSt9C07Zb4DWmRtwW3U3BZcDLM7Vz3DSdeetnxDqggF_pu5MQkIR7kT6nwZvTashKtJxlyZsMkRG6hn0rNCWoR-wwwsDL_-JsICrRGNOhoY2IV4wEDNvLVxszAFOW2HGFzl14TUjqGrOYGhamFLoMPFXvTZ6dYEXQz9jnN6m3tDBqMxa8="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "InterQual \"Total Joint Replacement (TJR), Knee\"",
+        "results": [
+         {
+          "title": "Total Knee Arthroplasty",
+          "url": "https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp418.pdf?rev=6932269dfb694f75944a0a14131a52f5&hash=687AF504EABE5B263A3465FE613CE057",
+          "snippet": "InterQual. Mar. 2024 Release CP:Procedures - Removal and Replacement, Total Joint \u00b7 Replacement (TJR), Knee."
+         },
+         {
+          "title": "Surgery of the Knee \u2013 Commercial and Individual ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf",
+          "snippet": "InterQual\u00ae Client Defined CP: Procedures: o \u00b7 Arthrotomy, Knee (AQS) (Custom) - UHG \u00b7 o \u00b7 Removal and Replacement, Total Joint Replacement (TJR), Knee (AQS) (Custom) - UHG \u00b7 o \u00b7 Total Joint Replacement (TJR), Knee (AQS) (Custom) - UHG \u00b7 o \u00b7 Unicondylar or Patellofemoral Knee Replacement (AQS) (Custom) - UHG \u00b7"
+         },
+         {
+          "title": "Surgery of the Knee (for New Jersey Only) Page 1 of 10",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/nj/surgery-knee-nj-cs.pdf",
+          "snippet": "Total Joint Replacement (TJR), Knee \u00b7 Unicondylar or Patellofemoral Knee Replacement \u00b7 Click here to view the InterQual\u00ae criteria. Articular cartilage repair is unproven and not medically necessary for treating individuals with any of the \u00b7 following due to insufficient evidence of efficacy: Autologous minced or particulated cartilage [e.g., Cartilage Autograft Implantation System (CAIS), Reveille Cartilage \u00b7"
+         },
+         {
+          "title": "Knee Replacement Surgery (Arthroplasty), Total and ...",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/11.2.22/558_UHC_surgery_knee.pdf",
+          "snippet": "refer to the InterQual\u00ae CP: Procedures: Arthroscopy or Arthroscopically Assisted Surgery, Knee \u00b7 Arthroscopy or Arthroscopically Assisted Surgery, Knee (Pediatric) Arthroscopy, Diagnostic, +/- Synovial Biopsy, Knee \u00b7 Arthrotomy, Knee \u00b7 Removal and Replacement, Total Joint Replacement (TJR), Knee \u00b7"
+         },
+         {
+          "title": "Surgery of the Knee (for New Jersey Only) Page 1 of 8",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/index/comm-plan/nj/surgery-knee-nj-cs-10012025.pdf",
+          "snippet": "Total Joint Replacement (TJR), Knee \u00b7 Unicondylar or Patellofemoral Knee Replacement \u00b7 Click here to view the InterQual\u00ae criteria. Articular cartilage repair is unproven and not medically necessary for treating individuals with any of the \u00b7 following due to insufficient evidence of efficacy: Autologous minced or particulated cartilage [e.g., Cartilage Autograft Implantation System (CAIS), Reveille Cartilage \u00b7"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_192711",
+      "args": {
+       "url": "https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp418.pdf?rev=6932269dfb694f75944a04131a52f5&hash=687AF504EABE5B263A3465FE613CE057"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EsIDCr8DAWkUfRPV5hz_SXOk_VVSY03QFzycPVcisUxfPGHyaEtN65z8nTUnOyLYCHFymvvj7IiRPdFIgfBrOharQMi3Ut_z80Sy4wY5Max7wYlsKfRZcBV2WE5KGsMxfO-GNCfbt76sWQS-tphodwe7C1IgLNxmujrxEa1UyM-d7b8r6H2CejUmrAiQ4QBjoqBuC4Go87ZvGYkQs0-ek3rmb63saDOxoLdzu7Hn43d8aWyEc18ebE90SwkJSEIGHq186ul1R1eDXAxYeEFWWlh6E-bJBS7FhKshCkxfvdYART8QbbHjFFIeH0heN3dvwiRG0n5vQFfeeIUHO8_snOvnBGvr7Dr8G9u1eTPqyG8uR1RxuThFOd8HM4XOy-ZP7q4B_-wpnJihK6MaDSuUYW9xxGSB7psAa70j8qE5EWC02psv3xNoQsVXg311HY3IrZJU9jvRWzci--eyupzujKLWiZ1mxoikf8ifZyNjl5CebnteboCcQfH2FVPkSy7e0QAPVbOEDY-qEA7fmQ4YJCbGYDVNcW1WvXrXkjx7TjAUoBWn79q3YC0LWO9XjUEU5Hao_nrpDcfFnjqMUfi-tud6vj0I"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp418.pdf?rev=6932269dfb694f75944a04131a52f5&hash=687AF504EABE5B263A3465FE613CE057",
+        "final_url": "https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp418.pdf?rev=6932269dfb694f75944a04131a52f5&hash=687AF504EABE5B263A3465FE613CE057",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "Page 1 of 10 MP418 Medical Policy Total Knee Arthroplasty MEDICAL POLICY NUMBER: 418 Effective Date: 1/1/2026 Last Review Date: 12/2025 Next Annual Review: 9/2026 COVERAGE CRITERIA ................................ ................................ ... 2 POLICY CROSS REFERENCES ................................ ......................... 6 REGULATORY STATUS ................................ ................................ .. 7 POLICY GUIDELINES ................................ ................................ ..... 7 CLINICAL EVIDENCE AND LITERATURE REVIEW ............................ 9 HEALTH EQUITY CONSIDERATIONS ................................ .............. 9 BILLING GUIDELINES AND CODING ................................ .............. 9 REFERENCES ................................ ................................ .............. 10 POLICY REVISION HISTORY................................ ......................... 10 INSTRUCTIONS FOR USE: Company Medical Policies serve as guidance for the administration of plan benefits. Medical policies do not constitute medical advice nor a guarantee of coverage. Company Medical Policies are reviewed annually and are based upon published, peer-reviewed scientific evidence and evidence-based clinical practice guidelines that are available as of the last policy update. The Company reserves the right to determine the application of medical policies and make revisions to medical policies at any time. The scope and availability of all plan benefits are determined in accordance with the applicable coverage agreement. Any conflict or variance between the terms of the coverage agreement and Company Medical Policy will be resolved in favor of the coverage agreement. Coverage decisions are made on the basis of individualized determinations of medical necessity and the experimental or investigational character of the treatment in the individual case. In cases where medical necessity is not established by policy for specific treatment modalities, evidence not previously considered regarding the efficacy of the modality that is presented shall be given consideration to determine if the policy represents current standards of care. SCOPE: Providence Health Plan, Providence Health Assurance and Providence Plan Partners as applicable (referred to individually as \u201cCompany\u201d and collectively as \u201cCompanies\u201d). Page 2 of 10 MP418 PLAN PRODUCT AND BENEFIT APPLICATION \u2612 Commercial \u2610 Medicaid/OHP* \u2610 Medicare** *Medicaid/OHP Members Oregon: Services requested for Oregon Health Plan (OHP) members follow the OHP Prioritized List and Oregon Administrative Rules (OARs) as the primary resource for coverage determinations. Medical policy criteria below may be applied when there are no criteria available in the OARs and the OHP Prioritized List. **Medicare Members This Company policy may be applied to Medicare Plan members only when directed by a separate Medicare policy. Note that investigational services are considered \u201cnot medically necessary\u201d for Medicare members. COVERAGE CRITERIA Notes: \u2022 Total and partial knee arthroplasties are reviewed for both medical necessity (criteria below) and inpatient site of service (see criteria in \u201cSurgical Site of Service\u201d medical policy). o Revision knee arthroplasty procedures do not require site of service review. \u2022 This policy is primarily based on the 2024 InterQual\u00ae evidence-based procedure guideline criteria, Total Joint Replacement (TJR), Knee,1 and Removal and Replacement, Total Joint Replacement (TJR), Knee.2 Initial Knee Arthroplasty I. Initial total knee arthroplasty may be considered medically necessary when any of the following criteria (A.-E.) are met: A. Osteoarthritis or posttraumatic arthritis of the knee is present and all of the following criteria (1.-4.) are met: 1. Both of following criteria are met (a.-b.): a. Pain interferes with activities of daily living (ADLs); and b. Pain with range of motion (ROM); and 2. Two or more of the following criteria are met (a.-c.): a. Limited ROM b. Crepitus c. Joint effusion or swelling; and 3. Either of the following criteria are met (a.-b.): a. Imaging documents bone-on-bone contact and there is no active infection; or Page 3 of 10 MP418 b. Imaging documents arthritis and all of the following criteria are met (i.-ii.): i. Two or more of the following criteria are met: \u2022 Subchondral cysts; and \u2022 Subchondral sclerosis; and \u2022 Periarticular osteophytes; and \u2022 Joint subluxation; and \u2022 Joint space narrowing; and ii. No active infection and symptoms or findings continue after all of the following treatment has been attempted within the last year: \u2022 NSAIDs or acetaminophen \u2265 3 weeks or intra-articular corticosteroid injection \u2265 1 injection; and \u2022 PT or home exercise \u2265 12 weeks; and \u2022 Activity modification \u2265 12 weeks; or B. Avascular necrosis (osteonecrosis) of the tibial plateau and/or femoral condyle is present and all of the following criteria are met (1.-4): 1. Imaging confirms avascular necrosis; and 2. Both of the following criteria are met (a.-b.): a. Pain interferes with activities of daily living (ADLs); and b. Pain with range of motion (ROM); and 3. Two or more of the following criteria are met (a.-c.): a. Limited ROM; or b. Crepitus; or c. Joint effusion or swelling; and 4. Patient has no active infection and either of the following criteria are met (a.-b.): a. Collapse of tibial plateau or femoral condyle; or b. Symptoms continue after all of the following treatment within the last year (i.-iii.): i. NSAIDs or acetaminophen \u2265 3 weeks; and ii. PT or home exercise \u2265 12 weeks; and iii. Activity modification \u2265 12 weeks; or C. Imaging documents bone tumor involving the knee and there is no active infection; or D. Symptomatic nonunion or malunion of fracture and patient has no active infection; or E. Rheumatoid arthritis of the knee is present and all of the following criteria are met (1.-3.): 1. Both of the following criteria are met (a.-b.): a. Pain interferes with ADLs b. Pain with ROM 2. Two or more of the following criteria are met (a.-c.): a. Limited ROM b. Crepitus c. Joint effusion or swelling Page 4 of 10 MP418 3. Imaging documents arthritis of the knee and both of the following criteria (a. -b.) are met: a. Two or more of the following criteria are met (i.-v.): i. Subchondral cysts ii. Marginal erosions iii. Periarticular osteopenia iv. Joint space narrowing v. Joint subluxation; and b. No active infection and symptoms or findings continue after all of the following treatment has been attempted within the past year (i.-iii.): i. Disease modifying antirheumatic drugs (DMARDs) \u2265 12 weeks; and ii. PT or home exercise \u2265 12 weeks; and iii. Activity modification \u2265 12 weeks. II. Initial total knee arthroplasty is considered not medically necessary when criteria I. above is not met including but not limited to the presence of the following contraindications: A. Insufficiency of extensor mechanism/quadriceps B. Any process that is rapidly destroying bone C. Neurotrophic arthritis. Knee Arthroplasty Removal/Replacement/Revision III. Knee arthroplasty removal, replacement or revision may be considered medically necessary and when any of the following criteria (A.-H) are met: A. Imaging documents fractured prosthesis or cement and there is no active infection; or B. Joint infection and imaging documents sinus tract communicating with prosthetic joint; or C. Prosthetic joint infection by positive synovial fluid culture or tissue culture and both of the following criteria are met (1.-2.): 1. Any of the following criteria are met (a.-d.): a. Two cultures positive for same organism; or b. Culture positive for Staphylococcus aureus (S. aureus); or c. Culture positive for gram negative organism; or d. Culture positive for enterococci; and 2. Any of the following criteria are met (a.-c.): a. Joint infection onset within 4 weeks of total joint replacement and imaging documents loosening of prosthesis or cement; or b. Any one of the following are met (i.-iii.): i. No new joint symptoms and findings \u2264 3 weeks; or ii. Imaging documents loosing of the prosthesis or cement; or Page 5 of 10 MP418 iii. Symptoms or findings continue after all of the following treatments have been attempted: \u2022 IV anti-infectives \u2265 4 weeks; and \u2022 Joint lavage and drainage; or c. Joint infection within 4 weeks of total joint replacement and the symptoms or findings persist after attempting both of the following treatments (i.-ii.): i. IV anti-infectives \u2265 4 weeks; and ii. Joint lavage and drainage; or D. Joint infection and all of the following criteria (1.-3.) are met: 1. Either of the following criteria are met (a.-b.): a. Joint pain; or b. Erythema or drainage or swelling at joint by physical examination; and 2. Two or more of the following criteria are met (a.-d.): a. Temperature > 100.4 F (38.0 C); or b. Synovial white blood count (WBC) or neutrophil levels above normal; or c. ESR > 30 mm/hr; or d. C-reactive protein levels above normal; and 3. Any of the following criteria are met (a.-i.): a. Joint infection within 4 weeks of total joint replacement and imaging documents loosening of prosthesis or cement; or b. Joint infection within 4 weeks of total joint replacement and symptoms or findings persist after attempting both of the following treatments (i.- ii.): i. IV anti-infectives \u2265 4 weeks; and ii. Joint lavage and drainage c. There are no new joint symptoms and findings \u2264 3 weeks; or d. Imaging documents loosening of prosthesis or cement; or e. Both of the following criteria are met (i.-ii.): i. IV anti-infectives \u2265 4 weeks; and ii. Joint lavage and drainage; or E. Imaging documents malposition of tibial or femoral component and there is no active infection; or F. Imaging documents recurrent dislocation and there is no active infection; or G. Imaging documents symptomatic loosening of prosthesis or cement and there is no active infection; or H. Imaging documents worn or dislocated plastic insert and there is no active infection. IV. Knee arthroplasty removal, replacement or revision is considered not medically necessary when criterion III. above is not met including but not limited to the presence of the following contraindications: A. Insufficiency of extensor mechanism/quadriceps B. Any process that is rapidly destroying bone C. Neurotrophic arthritis. Partial Knee Arthroplasty (Unicompartmental Knee Replacement) Page 6 of 10 MP418 V. V. Initial partial knee arthroplasty may be considered medically necessary when all of the following criteria (A.\u2013D.) are met: A. Diagnosis of advanced unicompartmental osteoarthritis or avascular necrosis of the femoral condyles and/or proximal tibia, confirmed by imaging or arthroscopic findings; and B. Clinical symptoms and physical examination findings include all of the following (1.- 4.): 1. Function-limiting pain at short distances or duration (e.g., walking less than \u00bc mile); and 2. Loss of knee function interfering with activities of daily living or employment; and 3. Knee arc of motion (full extension to full flexion) greater than 90\u00b0; and 4. Knee stability with intact ligaments; and C. Failure of provider-directed non-surgical management for at least 3 months, including but not limited to (1.-3.): 1. Activity modification; and 2. Physical therapy or home exercise program; and 3. Use of NSAIDs, acetaminophen, or intra-articular corticosteroid injections. (Exception: Non-surgical management may be deemed inappropriate if clearly documented in the medical record.); and D. No contraindications to partial knee arthroplasty, including but not limited to (1.-8.): 1. Inflammatory arthritis; 2. Significant knee stiffness or flexion contracture >15\u00b0; 3. Ligament insufficiency or instability; 4. Patellar malalignment syndrome; 5. Multicompartmental osteoarthritis; 6. Active infection; 7. Severe varus (>15\u00b0) or valgus (>20\u00b0) deformity; 8. Charcot joint or neuromuscular disease compromising implant stability. VI. VI. Partial knee arthroplasty is considered not medically nece",
+        "text_truncated": true
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_157502",
+      "args": {
+       "query": "\"UnitedHealthcare Community Plan\" Tennessee \"InterQual criteria\" how to obtain OR view"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Ep0PCpoPAWkUfRM5ZGp7NrExkUzOgAK7MSPtSYxvO_XkoFQjiP-R3Bkv0p9kDbWviUB9E18F7gXuabvsLXVYWk6XkzfHHG5XwYDVePFtZ_ZqILU7hsCMpLtl59E6_dLkrqYwjZ9imrPPXLiPkQqW4Wneei4PzDgJPu5wf2zEQDIHez8mBW2hQU2wMhmswn1tnRAwvwTIFDEK7Cf-WTPMNRQlypS7GTzDwW5nourVqg1nbsgPsCYaIxM0ioaBxZTxEZWPR0PcP9_b9Sny0-eiIkVuTkuMta-tZzrh6AaFXR6oNQJUXTx-cycKsJOSaG1FtoeCbZxG15KYjc_KrsBzCjo-uQjtGL1Qac8TysnAsH8pEy_joVx12Px7vk-fZYIsuAV9k0C4ubYC7aKGOjqurJeC-NY-tq_jbiKdq1DzhMgfj_J_nqvTQ0gbd1iJqkXTnSq0rHwTlp-tZL83MoKSnjX2ELUbRqJAH4U-75odQE0-1tFKI302BCC4WRcZKQ_2417Sos7snt9hhMR4Gb8G8cfcWyH8iCQb4Y5YGjBecP59s-6NXS5jOPBe8kbWWUuQWdRISpgiPxVnYBVc4aBbS8HcuwVc3sDSy_cg1XQ8-x4khflglz6RcGf3JC7BsDcMud2QGB6S3L6FjJk_cgUW3U4lR5aMj6EUEtfhTZhBPFVsElD1dhpfr4nLos1Fg3dYFlww6XXzb8FnB5HAEKxzKkBEtij2JGsbnqjBzGNElZNi9iGtmNYxLtlIV6uszdF3cTuVKaaTsyhyvNXk6AWYu-HPpGgRTAs4P4Ak6E0hN-tFVamNVougoz4lC7nLwhU2if_t_JaPVJYdE8dPbuQg_tCLMhFxM7PpMooqaBFAi4uzOgC7e-2UghhwTXN4ehOyOCPqm4CsfsF0Yj5MUxWAnknrm4SFb2ir9oVM1h4ej03K2T7KziXgPG7Hs60MWylqLchlJkU8vd_FEZVxSENxfpvMTfnfTnN9-ZAYHV7nrIVhW9XXhWHPcFE0W_zbtfaPMnGPGkDluNB4yfC71ixwV85D9E3c7UCLoYfIV12o7ImdfWnsWodYHjFFtx9-QLuTxdKur_ZWGGnfNvm5pOd45JErIlAwijDyIs15zF-iXSTxKwWwZiVwCf9xfTt1i8Um3Rlb94PPBbuVV9vsuiFclrgMvDTcV5iQurw-VXzQvs8LAOjHXdt-n4V1CqnZdTroZV8eXdF0t19_8L1j4hYjakuel5qEZAln5l_DucLCLD9rb6k5JXqUrqwHrZM4vZu0OWj-gmQEBE_ixfgi6vp0ENcmFCnJZVDa-R2_xyhQGkp1Tv72nXrhL6Z5BT4G8QKWiRZ0DOmz6-aBnciYx8aujp-Mx_DGFe6wLrxY7vLkOwUplBI5lT6QlF2g1VfuD_dZiUWOLGylwt315jCdUMzsgDRcRKjk32g1N4pUUQkKNxNIUt8otSxPOf6BiKVBZjq4Mbx5H9qAZlOpH-XvOrHwYDiWJNVshMuwXVhqZe8e0E5cjUocce8PAep4TZ40eag_r1-2YAKlbB6_sTPEPlEnxyJWu0KDRjC00j8mstOwDLB006EH198T6O1AQ8-0I1JoHLwhvW62SMrd0KzcpQUb53pCBxEJSL_070xkv8gU8NUnU-KKeGKPZTC1jND7P1d642UvsA6MfnJeRnRIl5S4nZ7yb6SFdnKYCpufc5fI0xNUBOkl3eiaSDWi624rwJCwmJhD8lQkU-g2HQsekeKQeadHM2bkNBhX215WWIdrSG12xONGcBlXJiJo_2-Wr5kK57NBXlhKRqsS6Cms7FKz97SBwjgw8-390mcgKOOZtKtU-2i7ybAxJHRVx6bswMI0JHb2RCy93lBEtRG4yTfSaiAqZ7G4Zw2pW2EWFe_cy8Kuu5dl6Q-wYiKmTmxRNDwQCUSWpZyIIL3qahbnz6d0e2PkzYkKeZkx_1qIBk_ue5_y16BmPL-8qfdyOfg4FYzp0yHvAYMtkkRCNcVspSdy4YPIuAiXebfyhV-gSlVEPbrjsV7j2y5DDYiEmVhWy5wd7CutoiPxX_BjtamTYlRPTisWL93L3BIWux0qopyNCpUjhUo6QTQ6Ep8EXCkhJEscz1AnTwF8CGlGeU-4H0Re_3emu8jLp5byMrsNhPZJoM4IkW8unU5myVXlugj5jRiMnDzDAnyjtFV3AiwymgICfaxAplwXDjtYMqwh6ca0g_Fsziu0vkQFf_N02CHdBQ7ZkUMELlCZUzMU_UPizmy0sPzq8NGU96d7ovYW4ql0xSKn1Q0HlSbH6HY5eQOjCN2runmQ5Q1xKbInf7DpS59uIlJC1q417zFcQ-3kM0jVplTbJouL9wYE_JSRDcZkDzWx_AwHj5VQdEWADFZvBqT7h1exRGXfCX2QKEA90bXVb9_2a3vGJqbdZbJBThJPpQl323QCUuXNk-4SchrP0AwqzCMgjx7fuxnJ75JbzqGtkmnO6ecm4wCsT7wTwQwy_xVCOIbWVMb5LedCdapcDgdgF-kQzE2G1b4OQwXi_vaLj1JIFc3nhU9dOR3vtqJEHCaexq3XQlUdilv8K3xOQ7jBy4c4sIyHqHGiNbWAiLNIL8I="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"UnitedHealthcare Community Plan\" Tennessee \"InterQual criteria\" how to obtain OR view",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_203626",
+      "args": {
+       "query": "\"UnitedHealthcare\" \"InterQual\" clinical criteria view OR access"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpUCCpICAWkUfRMmpeumz-PKLEaMJ5Z3hKpWsDd90xIrZN2RZW5RFT6341AK2yJKMfyROJhtNml5Y9P-w9Tj-dPc7eyNpld4-48v0U3AdGNji4MdfnwsXTyJg15RmcdJTlGrnRgdtzk2OesCeZ7ixBRqLro3x89kfYFnCKKr5pWvsFsjzwksc-0IJtedlebAeBynSdM_aJbqhYBOt9gmyPx5PWE5tZuKLeXpQRv8c2TILRGQPQ2Jhy878cQ45B89IpfWe-CQmUQOb0-NIxdqB_4NUG1itZZi8mUdo1TIek--aEwggGZD41KZygLo893OrhDBAdZ9-_jqdJR81_dOCAw25YKPcj30Z1IPalIKH2eo0u4Ux4O2zA=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"UnitedHealthcare\" \"InterQual\" clinical criteria view OR access",
+        "results": [
+         {
+          "title": "Hospital Services: Observation and Inpatient Page 1 of 2",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/hospital-services-observation-inpatient.pdf",
+          "snippet": "<strong>Click here to view the InterQual\u00ae criteria</strong>. An observation level of care is often used to manage the following clinical conditions and symptoms (list is not"
+         },
+         {
+          "title": "June UnitedHealthcare News: Reminder: We Transitioned to InterQual on May 1 - Healthcare Business Management Association The non-profit membership association for healthcare revenue cycle management professionals",
+          "url": "https://www.hbma.org/news/commercial-payor-news/insurance-company-news/united/n_june-unitedhealthcare-news-reminder-we-transitioned-to-interqual-on-may-1",
+          "snippet": "Viewing the InterQual criteria To help you understand determinations based on the InterQual clinical criteria, we give you access to a read-only version of the criteria at <strong>UHCprovider.com/policies &gt; Clinical Guidelines &gt; InterQual Clinical Criteria</strong>."
+         },
+         {
+          "title": "Medical & Drug Policies for UnitedHealthcare Commercial Plans | UHCprovider.com",
+          "url": "https://www.uhcprovider.com/en/policies-protocols/commercial-policies/commercial-medical-drug-policies.html",
+          "snippet": "Providers may review the InterQual\u00ae criteria here. UnitedHealthcare&#x27;s Medical Policies and Medical Benefit Drug Policies do not include notations regarding prior authorization requirements. View the services that are subject to notification/prior authorization requirements."
+         },
+         {
+          "title": "UnitedHealthcare Prior Authorization Template: Complete UHC PA Guide 2026 | Muni Health",
+          "url": "https://muni.health/blog/uhc-prior-authorization-template-2026",
+          "snippet": "InterQual provides specific clinical criteria for hospital admissions, procedures, imaging, and therapies. Providers can access read-only InterQual criteria at <strong>uhcprovider.com \u2192 Policies \u2192 Clinical Guidelines \u2192 InterQual</strong> (requires One ..."
+         },
+         {
+          "title": "UnitedHealthcare Prior Authorization Guide 2026: Requirement...",
+          "url": "https://quickintell.com/payer-guides/unitedhealthcare-prior-authorization",
+          "snippet": "UHC medical policies are the single most important reference for building authorization requests that get approved. Access them at <strong>UHCProvider.com &gt; Medical Policies or UHCProvider.com/MedicalPolicies</strong>. For inpatient admissions, UHC applies InterQual ..."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_93401",
+      "args": {
+       "query": "\"InterQual\" \"Total Joint Replacement (TJR), Knee\" \"conservative\" OR \"NSAIDs\" OR \"weeks\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvIMCu8MAWkUfRORP4MqZt7uatF6BsTeco-uDxVvx8KcDXMRGbIiFJo89aNj8r5NYWmv1b0rHGWTZ_NwNg7whpGrKrzgeapt2WnNQfdZt6-mRHULXixIiNF7dw_VvQ1me1X4rjFCcbKrtcdsb0jDS7rEkIIBD5LYjDXDERtTeiOx8N7HOwJ_1oq87_bpsAQZBeBhr3XSM0vx82NXf5WRcBDly2bD8Bhm39kXtPyWAfBPDK4Xs-_y9ZwbZwUjff5yp7BfVg5mnuOxNxKrxX2fDqSpf-UncL9rdIF0Alh702otdGQ5sL6So4brq3aRJiElQwievVR4_V9Yf5mLAWAotfK6KUWscUYuk568TR400Y3fvgxfqJzLwp57U8OhCWXyMv3pc0jKKPEsizicD6JEqWPxX4ANz2u-04WVrEuNMPtC_tfR7LLbB1CER7pPdLV66TAVLZm5iU19W4sS25VWJFaeEGfGvQdHaiJgHArEgFAWw8zoOsIYUgO_NLlJS_0rSSpimxmjzzntD_SObffZwJjVmELGVmkZLkwRPlA1lNN2dafKmTKGIYfzQSwYq9jjsoKQ3-N3WfsED9_phZL14R8ts_6-IQqeuws8h4226Tq_mS4W8Ap1u8p3_FTa7tPdK40B8QtBXtpPEpRAcfHDaOUWCS4m8mYbseLc6mljqp16z_hA2QIQwKylRp70oP7W1-oq_lbEoBl3P7eIDPmObTvteIjUXCjRLcYIdBfm4kZ6sALXVFbUWqdWLqMz6gbFObs-aDpMYq0TkYCGbgN5ehEo9RLGQJktnKa4LQCClGp9PG1wVLHwG5mVKjnNW1H_9i5IguzcD2HCfNiLW6ZpVg56U7gEbuLoERIrl1Vr5V_5cYb6TKXmhvjFtorPNQRO93MMA2OzQrKgh80UMeUdAuGjbI4vjDpNwksJqUv_5VcY511OC0g7W8Dz38ZcmizQcaGBwE_0bllEsG7UydpHYewLeO4G68ezAa3N6cI-Vzud7d4VwOs5vx6AyQswed9l3xKQ3qZBFDdvZue8bDrNR2sjI7vxM_fBKtc3j5sx-oRdtticUHTQH49JuQstmFSWlJE4Vsi-qVdVyB5YhzxNdsL7tU0A_Jk5h9fupyy_OOADD_3KecYZ3CKJQ7qJHIsnhQCdy51E9-9ZLfyRrkQpn7tyjPFbbN0b_we-j9gTNwHWx9tfiFjRGXYaKex9G1B828Moe4zEREOlVA5Rp2-EGyKoxt5CBa-5YcR-hN2LA3MKLe8tQDV1iIMxTOjCpiuJiAhVJp8EL1QmkL8eMrbpszUoo0w9R8V2IIh8tJVosKXKltP00DPPVlFBTucJadIOwQKeEoyEG0LrtP_FExrVDUngPqMyjEkYaGvHMGhz7izRzTn8AE31pA2FxRO5sGmn-apDNGj2fT1MtTYBonsoGJ5j735yrMh6hb-hSqYdIy3o3ubMsY3M9jvLkkmktgFxlu0HC4AclSqKxEEsHpK9lk05pJrkHEE_9z-H5dSEG5mUYlMJ82mKwVm8h8LvdbY4uENrx7kUxZlySVbuJPDB2pEamALvekr5l48BaFlB6HxJAJfWdpK9MarFBWzzeiZnCZtd8G28Wp1FIfrwK07GO0suajljqEfTVS6yp5lcUEr5rMjdrT-xYpQooRDuoR6n7LzQYq2FlPXu6SPbCo1J1GCS683EWUG7XOoMCCHdrpuEDm10bXBkVtBiu7s-VFwj9RRXKMd8Q4bX5IyKfSNryY7B-GAgod5-BclGrChWVobqCGHRelcimWNvKgKQmi00Bmk8VRDy8D8tRWGsiv7rVKuCsm7D0XHAoFlXmNAK3B6X95nXQDdFm3W14FmbJK8HqVhL7dBwwrCY19vb6HzS4GqVPjxys1EW5KE9royguwpt7tC7qSAuj8B6t2UiS3XDFQPtpY26B38m9uW2-VoW_RcdR-FQvUuwHLwEZmpVzUlb7XqezmUW4r8QN1kQRgGi4GhJ6l4TpBNEnSxgG2FTCtRZYhBVDCCSLrTVwX9Kf6hM4y45PHsB2pDDO_Ol3MzRJPe0fd9CdrtiI8144abieBr9kjGJTgA5nWXQgnfBNFC6JPQjFSpGArhGv5L1CC6NXbufKkhfeCqWjWjZ1hSk-ZZoPSosi8WY5KZgucgVzR30-n0N1hD9za7YPkyB0DZI2JQItsVQ_lXBvza2p-PIYCvS2Zvs"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"InterQual\" \"Total Joint Replacement (TJR), Knee\" \"conservative\" OR \"NSAIDs\" OR \"weeks\"",
+        "results": [
+         {
+          "title": "1 Nonsteroidal Anti-Inflammatory Drugs in Total Joint ...",
+          "url": "https://www.aaos.org/globalassets/quality-and-practice-resources/external-quality-products/aahks-cpg-nsaids-final.pdf",
+          "snippet": "systematic review and meta-analysis on NSAIDs in primary hip and knee arthroplasties"
+         },
+         {
+          "title": "Use of analgesics before and after total joint replacement in working-age Japanese patients with knee and hip osteoarthritis: A retrospective database study - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10659993/",
+          "snippet": "The aforementioned results corroborated with the mean number of analgesics used by patients as the number of analgesics used per patient increased in the immediate post-surgery period compared to that before surgery in the knee and hip OA groups (Table 1). Moreover, NSAIDs, opioids, antidepressants, and extract from inflamed cutaneous tissue of rabbits inoculated with vaccinia virus were used on most days in pre-surgery, immediately post-surgery, and post-surgery periods as shown by median prescription days (Table 2). Prescription (pain medications) days. ... NSAID non-steroidal anti-inflammatory drug, OA osteoarthritis, IQR interquartile range."
+         },
+         {
+          "title": "Nonsteroidal Anti-Inflammatory Drugs and Oral Corticosteroids Mitigated the Risk of Arthrofibrosis After Total Knee Arthroplasty - The Journal of Arthroplasty",
+          "url": "https://www.arthroplastyjournal.org/article/S0883-5403(23)00326-1/fulltext",
+          "snippet": "This investigation determined that <strong>perioperative NSAID use was associated with reduced risk of arthrofibrosis and trended towards reduced risk of subsequent MUA</strong>. Similarly, oral corticosteroids were associated with reduced risk of MUA and trended ..."
+         },
+         {
+          "title": "How to Relieve Pain After Knee Surgery - AAHKS",
+          "url": "https://hipkneeinfo.org/knee-care/how-to-relieve-pain-after-knee-surgery/",
+          "snippet": "There are a number of prescription and over-the-counter non-steroidal anti-inflammatory drugs (NSAID). Prescription NSAIDs include meloxicam (Mobic), voltaren (Diclofenac), indomethacin (Indocin), and celecoxib (Celebrex). Over-the-counter NSAIDs commonly recommended are ibuprofen (Advil, Motrin) and naproxen (Aleve)."
+         },
+         {
+          "title": "The Efficacy and Safety of Nonsteroidal Anti-Inflammatory Drugs in Total Joint Arthroplasty: Systematic Review and Direct Meta-Analysis - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0883540320305751",
+          "snippet": "This systematic review evaluates the efficacy and safety of NSAIDs for patients undergoing primary TJA, which for these purposes includes only primary THA and TKA. A workgroup of clinical experts was compiled with relevant specialty society representation."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_113191",
+      "args": {
+       "query": "\"TennCare\" \"total knee\" OR \"27447\" OR \"knee replacement\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpUECpIEAWkUfRMsTjyiJ-ugxbq1ztdhExULft3H4ZDFw1J4AwfvheMdLFbqmj8hoIB70j6NJNwUErYai8LiLqBpzbLLrwfLHN5MrTX3RX9PJKNwXoHRmSLmsAda2EJlTNeoLB3X8kVn12PLSyGIQYm1ig6pOyvRRqg6m2mDJcwkKeu2jnZeZq632_SJfjIC1tkV9V3Lx69GXX0incO2glXCgKhnb6HGFhTISnBEBuj8B-Sp_qX7_5hyfynLfLGBaP4LJniHLzkQjrLMQ78UxIhX4xKTE7QZ824-MAw6m0siejJKCjbzAsqwtdcOF-54-chAxa-Ky_vcAi3BI_0QM4mLSNW9IFKhpcPyiRDVuTLj71YFPQocJkfGQ-qwwonr7_XUsNxdIwUw3A5J1ZgQC4bDy3tN2DRh3WxKiWdsQYfm5UbgHvLdYDUYC7IcOosotxKGpoNOoHZDaoojuoy26iOHzbiPIYf9C2QeIQ9qoxUw4TGqPSsWBnyqo3GjJ8usC9mE1oZXKpTxSkbIA30aM29zIBUXyI3LlPY11Qf4BsqGzZxp_tJvyqy9WDy_E-LnCyL_Vyi2ScrgjoPA_90FQEwWH_LfEUuG_7fSg20jL_Bm69BnRYhRLXRNxM_CrheUXU3eQO2xbZaRCAoSpaXSYzwSIsrylUzBLbRL_4SXSpeeGVFCvpvodqasec09ZRpyTlcETcxQ-gM="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"TennCare\" \"total knee\" OR \"27447\" OR \"knee replacement\"",
+        "results": [
+         {
+          "title": "CPT Code 27447: Total Knee Arthroplasty",
+          "url": "https://www.carepatron.com/procedure-code/cpt-code-27447/",
+          "snippet": "CPT 27447 refers to total knee arthroplasty, where <strong>all three compartments of the knee\u2014medial, lateral, and patellofemoral\u2014are replaced</strong>."
+         },
+         {
+          "title": "CPT code 27447: Total knee arthroplasty billing guide (2026) | Pabau",
+          "url": "https://pabau.com/procedure-codes/cpt-code-27447/",
+          "snippet": "CPT code 27447 <strong>covers total knee arthroplasty of both knee compartments</strong> and, since 2018, is billable in outpatient and ASC settings."
+         },
+         {
+          "title": "CPT\u00ae Code 27447 - Repair, Revision, and/or Reconstruction Procedures on the Femur (Thigh Region) and Knee Joint - Codify by AAPC",
+          "url": "https://www.aapc.com/codes/cpt-codes/27447",
+          "snippet": "Provider states he did 27447- knee arthroplasty but also a distal femur replacement Arthroplasty (is this a thing?), allograft tissue implant and large fragment bone excision but I&#x27;m struggling with w... [ Read More ] ... [QUOTE=&quot;hannahevola, post: 514923, member: 590586&quot;] 27447 for total knee arthroplasty is all you need to code [/QUOTE] Thankyou..."
+         },
+         {
+          "title": "CPT Code 27447: What It Is, Modifiers, Reimbursement",
+          "url": "https://www.mdclarity.com/cpt-code/27447",
+          "snippet": "CPT code 27447 is for a total knee arthroplasty, which is <strong>a surgical procedure that involves replacing the entire knee joint with an artificial implant</strong>. This procedure is typically performed to relieve pain and restore function in patients with severe knee arthritis or damage."
+         },
+         {
+          "title": "CPT Code 27447 Description, Scenarios & Applicable Modifiers",
+          "url": "https://medibillmd.com/blog/cpt-code-27447/",
+          "snippet": "CPT code 27447 refers specifically to total knee arthroplasty, <strong>a surgical procedure that involves the replacement of a knee joint with a prosthesis</strong>."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_81971",
+      "args": {
+       "query": "\"TennCare\" \"medical policy\" OR \"prior authorization\" \"knee\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Eq0CCqoCAWkUfRNzNu8qhEbx5yVxWxBhTlA5iyR0L-ritTvNuH41BCRTIl3svd3jokjxi2HhLDtkBRxZg2tnXs2rKvMKIkAx59mKQueXqdAYHHQxYQvkmuJTpE_dMeRfOELCSJ4wGZncN7H2r7iMsDsofn16dJuoOYrOPOtNRdlKraqck2clUuk9CgacI-U4LqfipLsZ0J8JA7rau4RcSMumROyey9eq3rbmYq7A7SpN4uxhNh1u6ZWip2-tZqPTHfNjuQrOMAghlt6Gp4dahOuP2-NVEKtqVl9mJVuu-JAde5yMVkFRs6XCWDWXX6xEQ_Z4FLHFYMxEC044jv_mdTaBU6NJUGcCHc1gKUcoZA_2ucnPs8XuP2bSoVMbrgpFlb7okAK5txc-NOFljI9QfQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"TennCare\" \"medical policy\" OR \"prior authorization\" \"knee\"",
+        "results": [
+         {
+          "title": "Health Care Providers | BlueCross BlueShield of Tennessee",
+          "url": "https://provider.bcbst.com/tools-resources/authorizations-appeals",
+          "snippet": "Musculoskeletal <strong>Musculoskeletal prior authorization is required for spinal surgery, joint surgery (hip, knee and shoulder) and pain management</strong>."
+         },
+         {
+          "title": "Provider Documents and Forms | BlueCross BlueShield of Tennessee",
+          "url": "https://provider.bcbst.com/tools-resources/documents-forms",
+          "snippet": "Changes to Prior Authorization Submission Requirements Effecive August 23, 2026 \u00b7 High Tech Imaging Code Changes Effective August 18, 2026 \u00b7 High Tech Imaging Code Changes Effective August 17, 2026 \u00b7 Genetic Testing Code List Update Effective Aug. 2, 2026 \u00b7 High Tech Imaging Code Changes Effective Aug. 2, 2026 \u00b7 Genetic Testing Code List Updates Effective July 19, 2026 \u00b7 Manipulation of the Knee Joint Under General Anesthesia Effective June 1, 2026"
+         },
+         {
+          "title": "MEDICAL POLICY \u2013 7.01.550 Knee Arthroplasty in Adults Effective Date:",
+          "url": "https://www.premera.com/medicalpolicies/7.01.550.pdf",
+          "snippet": "<strong>Knee arthroplasty must be pre-approved by the health plan</strong>. This policy \u00b7 outlines the information needed for health plan review. Note: The Introduction section is for your general knowledge and is not to be taken as policy coverage criteria. The \u00b7 rest of the policy uses specific words and ..."
+         }
+        ],
+        "result_count": 3,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_112325",
+      "args": {
+       "query": "site:bcbst.com \"BlueCare\" \"knee\" OR \"arthroplasty\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvwDCvkDAWkUfRPr2TSGR_SOdvZGxXciOrMCKoDuCk614unBsZBFm-azZXXVLJGp9JOHYDMbNbXk6HpP1Eyj0j2dlfIGvv9MTuV5lwcTNI-mKXk-wsbPSYb6mG-pb0n-EdNnsEi1zu690HU-yXywr-Y2IX9bgtAUxXb5URasVWiSa2-LoPikSV1GnEQUgmuXJUQJjQucXcOqgXZTuDUbmUAxM2GCydxzWwzQ_Zuc83PbfXRgcP4eR5JfvKsL0hyliJKJ2Ht1RXq8_gTNNcR8G7_DxczH_9Fg3qnL7cz0P4YY1N0YxHw5pXqSgS6-UAWpVu5rQ5FXfIGZvY1DBMCXtAQKeMYegIW8WezVy1Me9DWgIkix_TWHAWFUaO4JgQYuIcGcua7C5FIGLUxgsyDVGVGDEuM0BWHObEQscabNWghEFsdZgXFYuJK6f5Vi3JV1zWTwo8fC6DGtguyiHPyixbn43T0fazRGqa8xwVLtrv4I071tMLLpUNw9BhxNI6vagvyT6J_y1PoRONYZQV5bDAhSmjrj1EjU9HQyXd1mUeVl7uciRuv7p3Ci8UcUD-NC9hOdwrXFVKwPBUYi4YjH7TbVE_YU9gXkFwsgaYzCwI2AfljZPLKEnZw7zh45dPPIn-jFo8hRYSvAj77mc-UbHHjZGDcVhHb2YLunbPD1ZA=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:bcbst.com \"BlueCare\" \"knee\" OR \"arthroplasty\"",
+        "results": [
+         {
+          "title": "Acupuncture",
+          "url": "https://www.bcbst.com/mpmanual/!SSL!/WebHelp/Acupuncture.htm",
+          "snippet": "Applies only to BlueCare and CoverKids. ... Agency for Healthcare Research and Quality. (2020, April). Noninvasive nonpharmacological treatment for chronic pain: a systematic review update. Retrieved November 18, 2021 from http://www.ahrq.gov/. American Academy of Orthopaedic Surgeons. (2021, August). American Academy of Orthopaedic Surgeons clinical practice guideline on the management of osteoarthritis of the knee (non-arthroplasty..."
+         },
+         {
+          "title": "Medicare Advantage Musculoskeletal Procedure and Pain Management Codes CPT\u00ae",
+          "url": "https://bluecareplus.bcbst.com/docs/providers/MSK_Prior_Auth_Codes_BCT.PDF",
+          "snippet": "Ligamentous reconstruction (augmentation), knee; intra-articular (open) and extra- articular \u00b7 27438 \u00b7 Arthroplasty, patella with prosthesis \u00b7 27440 \u00b7 Arthroplasty, knee tibial plateau \u00b7 27441 \u00b7 with debridement and partial synovectomy \u00b7 Pain Management \u00b7"
+         },
+         {
+          "title": "Code Description Effective Date E0100 cane adjust/fixed with tip 1/1/2024 E0105",
+          "url": "https://www.bcbst.com/providers/medicare-advantage/MA_Master_Prior_Auth_List_Code_Removals.pdf?_gl=1*1eoe420*_gcl_au*MzQ5NjI3NjM3LjE3Mzc5ODk4MTI.",
+          "snippet": "knee-ankle-foot orthosis (kafo), fracture orthosis, femoral fracture cast orthosis, rigid, prefabricated, includes"
+         },
+         {
+          "title": "Continuous Passive Motion (CPM) Device in the Home Setting",
+          "url": "https://www.bcbst.com/mpmanual/!SSL!/WebHelp/Continuous_Passive_Motion_CPM_Device.htm",
+          "snippet": "Low postoperative mobility or inability to comply with rehabilitation exercises following either total knee arthroplasty (TKA) or TKA revision (e.g., individuals with complex regional pain syndrome [reflex sympathetic dystrophy]; extensive arthrofibrosis or tendon fibrosis; or physical, mental, or behavioral inability to participate in active physical therapy)"
+         },
+         {
+          "title": "Computer Assisted Surgical Navigation for Orthopedic Procedures",
+          "url": "https://www.bcbst.com/mpmanual/Computer_Assisted_Surgical_Navigational_Orthopedic_Procedures.htm",
+          "snippet": "CAN describes the use of computer-enabled tracking systems to facilitate alignment in a variety of surgical procedures, including fixation of fractures, ligament reconstruction, osteotomy, tumor resection, <strong>preparation of the bone for joint arthroplasty</strong>, and verification of the intended implant ..."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_199987",
+      "args": {
+       "query": "TennCare appeal submission \"medical\" OR \"prior authorization\" OR \"denial\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsEICr4IAWkUfRNnbUMwy4wQaWbxz7gRchPRcWbRWo0vZKhwh93ijwsYOLFDCtN4q0S4s5JmFnHdKzOhsn-w_kpxagndpI0xzbKcp08kMm7-CrDmSk2OxPr8iKHCGicTM_OgkiFb01V8JhLISf67RrtUWrB2toGPFIq7OYcchDVY9qSppzPyYZ5gGTFQSZk2jhZuPCeoyeAhyErgAgAPh6s8rbGj2A4iYXyl0IqF2FzWW0N2rs4oUBQXTEwC4jghviTaQsAOGi9p1S5D7F4aJdxY1h3vT9xS2xW8Ab6emDfpcdfN19Q1NWGcBu6-AWEFF3RSIJDLccEZZJWRTEhU5fuubxiUMTi2W_PQFD-m_zqu6naDs3ZwSWn-QyL-M5kCjt6TPIKjAEJa-MLf6VgxKzqC9TmDPxCcZDq9uzQgDEu4ZbosD63Cpt49kDe3T7_s000fVGG3UJPIGsyx5-HL8yYNZ9Um9nFKZetjdxr0aqIhHIrrmwfHDkutjkHQ17U_ZSWqriz_lx5k5Ug5VcaMV0g8BSqH1rs6tPcAclAlKH5Pr5AKAuq2HjqOhb1f8_T3HpVF-hkgbcv1xHY1s27xxuL5y5jrplqtr0B9-xoE6X8i4w27F_ASwsHbhl33xZCngn-qfdKNox0nMPsRlKojLMFs3FGsCb2vG5WW88jl4WocGCd2zPWJ7uBmUlJxNzInlYJ0w065MDNGTA4-biUUZUHpizyR_QfOgxbPdairn9yhdxvp4gT4bJNPwtBFXp4_fX1TqD7wbz9Ym1G6xLXdkRbnJyez-NmJeedsZyTpPcwjZ-ttv0CaBLkqhof53x-TLEgulDJiLVPrT7ZKC_yfN-ysQ-kU0ftnxMN97ee6RPawSZAeSDTWiWG0PYHD0Dv8d9yLK220-dsrNKhD1freQNWKwFbYMMZvxvg-tEv4QsWjCRV3-ucZAzVEkp9AzBmZpD-6irix3lqDJTnW1ruczI5n4bdzvqp7GZy0gX_XYVsE-KQCrA2tytL_4zXRjzew3mSGdKuHLDR8Ym-zLa5_fxDkqhtHiK6tqw7TygNb0lUt9Hc7zqHSUABXGBbaNRQ8dTp6E6BW02ROpxBWXZzVI6irGSC9CKcAYzekdO9KoJjY5hoAYS0jn5fFWsYxy8BMxAo_eGgovdKXy6tZ30LcfLDkX5l5IDlAiDugQhvIORLnLmhoK8qZTborMztO_kOUfKZFSit8nx8Rwg9zzjx-VUnVajvjE9brboS3dZw95MVkigETaDuqlrtUoCgqRap9UtOs0iydCUHc7VOtsdDjHPaGTPvIxqdFRr8TEmfTHRGpaA6evatuyBo0rZ7zsQ4Yg0zQQ5ZQlxMGqAKQN38GG8WuUnMQvxhaJSZJT2HJg-BgZNTLqYu6bhhj7bdjX06zP_k6D-iJJJK8-dkk19WrmpKurfSUYsedHvTocW_u_dFzIIhm"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "TennCare appeal submission \"medical\" OR \"prior authorization\" OR \"denial\"",
+        "results": [
+         {
+          "title": "How to file a medical appeal?",
+          "url": "https://www.tn.gov/tenncare/members-applicants/how-to-file-a-medical-appeal.html",
+          "snippet": "It could take longer if your health ... health in real danger. If you think you have an emergency, you can ask TennCare for an expedited appeal by <strong>calling 1-800-878-3192</strong>...."
+         },
+         {
+          "title": "Tenn. Comp. R. & Regs. 1200-13-14-.11 - APPEAL OF ADVERSE BENEFIT DETERMINATIONS | State Regulations | US Law | LII / Legal Information Institute",
+          "url": "https://www.law.cornell.edu/regulations/tennessee/Tenn-Comp-R-Regs-1200-13-14-.11",
+          "snippet": "3. Notwithstanding the requirements of this part, TennCare enrollees are not entitled to continuation or reinstatement of services pending an appeal related to the following: (i) When a service is denied because the enrollee has exceeded the benefit limit applicable to that service; (ii) When a request for prior authorization is denied for a prescription drug, with the exception of:"
+         },
+         {
+          "title": "Claims, Appeals & Provider Complaints",
+          "url": "https://www.tn.gov/tenncare/providers/claims-appeals-provider-complaints.html",
+          "snippet": "Please see the Privacy Announcements page for updates on current incidents impacting TennCare members. When a provider disagrees with an outcome of a claim, <strong>an appeal (also known as a reconsideration) can be submitted to the applicable TennCare Managed Care Organization (\u201cMCO\u201d).</strong>"
+         },
+         {
+          "title": "TennCare Medical Appeal Form Frequently Asked Questions: Why should",
+          "url": "https://www.tn.gov/content/dam/tn/tenncare/documents/medappeal.pdf",
+          "snippet": "<strong>You have health care bills you think TennCare should pay for</strong>. ... You are waiting too long to get health care or medicine. ... Answer ALL questions and tell us all the facts we got wrong to decide your appeal."
+         },
+         {
+          "title": "General Administrative Procedures and Compliance Policy ...",
+          "url": "https://www.tn.gov/content/dam/tn/tenncare/documents/Appeals.pdf",
+          "snippet": "Tennessee Health Connection (TNHC) or HCFA staff will provide the appellant with a HCFA Appeal"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_117210",
+      "args": {
+       "url": "https://www.tn.gov/tenncare/members-applicants/how-to-file-a-medical-appeal.html"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EvYECvMEAWkUfRNP9aznOg_lzJjoP2fXfMiz4OmJAfhilUvoL6iObzGBSlJwIYUjR-2cqDtIfcUdzAJ1tSdR7oSIjYKqRp4fozPg6xd32lqkYzxXHJJwjzh7P_m_F9bJSs1UnYzhnI86vEIjcwrpjLZBPgOliudKtnHiz1iOioTV-NfGPmUBfimYUp7vtP9DN6SLVdeSZREttCUVmlfDhACdKtcpXehGeOENlYcdi3zEeYnmt0q9Pjl1Hhmfq-Ekg8dTXGMmYhNs-bEO5OmIDddtnU-NEH8w9OIcwqpf6aozCGDQ2MCvm7CFLMsR46QP36kqzBqSLbODCdxdIST4U440Cb_SuoUKPOBawmw56QQl-6HayPVfoQIn5CyXhVaasFT7BPsUwkZXJOjdlUtxu9E2PFvRxxLKT8jNaLLjjFD4GWkIADqKwuORaP4bqxBnAurdKJRaB6BfzGR2KRK8opq40nyFX8KkeRcuNeas3sclgRaAdlqduHczPKZwM7gklf4vpT2nuy_LI487QaTipsHtr4r4vEaMJYt1I6SJJTF6vJisSHXX5zv0mwtOGX3pyOaLqDG6YbkiBhm0UUqqVyqbQcfMUR0_nPK8qvIOnnP1aGO046R14oVt1FcqyOxR16jifdVAHvS9pVcyIcBq1O1fnFPq9QRT0xMOroJ8PVDfE7BuStc8iw4JVejEdhEv469nynzRImq5EVXi9lzL0u281Ja3podOh6gLh1R6ONd9oY3dPXRRO9r5T9Ho9F1obxIX9ePMeDZtmoVKB42PagT64YSNrpFDyM_kmNti7RLVRP5duUxwD13SR78FjTmQrJrIGbv8UC5y"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://www.tn.gov/tenncare/members-applicants/how-to-file-a-medical-appeal.html",
+        "final_url": "https://www.tn.gov/tenncare/members-applicants/how-to-file-a-medical-appeal.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "How to file a medical appeal? Skip to Main Content Go to TN.gov Go to TN.gov Section Go to TennCare Members & Applicants Learn More & Apply Benefits & Services Need Help? Providers Provider Registration Verify Eligibility Dental Providers Managed Care Contractors (MCCs) Programs and Facilities Report Provider Fraud TennCare Provider News, Notices & Forms Training and Education Contact Us Policy & Guidelines Cost-Effective Alternative Prior Authorization Form Eligibility Policy Information Systems Policies Mental Health Parity Policies Privacy Policies State Plan TennCare 1115 Demonstration TennCare 1915(c) HCBS Waivers TennCare Rules Waiver and State Plan Public Notices Long-Term Services & Supports Dual Eligible Special Needs Plan (D-SNP) CHOICES How to Apply? Employment and Community First CHOICES 1915(c) HCBS Waivers Member Resources LTSS Contact Information PACE Katie Beckett Waiver Involuntary Discharge and Transfer Appeals Beneficiary Support System LTSS Documents- Memos, Forms, Protocols, Trainings, Historical Media Contact Us Print This Page Print This Page Go to Search For information on important changes to D-SNP, please visit our D-SNP page. Please see the Privacy Announcements page for updates on current incidents impacting TennCare members. Members & Applicants Learn More & Apply Do I qualify? Apply Now Apply for Katie Beckett Renewing my Coverage AccessTN Co-Payments TennCare Connect CoverKids Losing TennCare? TennCare Frequently Asked Questions (FAQs) Benefits & Services Pregnancy Health Plans TennCare Kids Dental Services Pharmacy Long-Term Services & Supports More Covered Services Transportation Diapers TennCare Healthy Moms & Babies Behavioral Health Services Need Help? Contact Us Civil Rights Compliance File a Medical Appeal File an Eligibility Appeal Change your health plan How can I get health care if I don't qualify for TennCare? Report Provider Fraud How to File a Medical Appeal You have the right to appeal if: TennCare says NO when you ask for healthcare. TennCare stops or changes your healthcare. You have to wait too long to get healthcare. You have healthcare bills or have paid out of pocket for healthcare you think TennCare or CoverKids should have paid for, but didn\u2019t. There\u2019s some other reason you can\u2019t get healthcare when you need it. You only have 60 days to appeal after you find out that there is a problem. You can ask someone to help you file an appeal. Have Questions? Need Help? Want to Appeal? Call TennCare Member Medical Appeals for free at 1-800-878-3192. They can help solve many problems before you have to appeal. They can also take your appeal over the phone. There is another option. You can fill out the form below. Use this form only to appeal a healthcare-related request. Do not use this form to apply for TennCare. Step 1. Print the TennCare Medical Appeal form. Download the English: TennCare Medical Appeal Form , or Download the Spanish: TennCare Medical Appeal Form Step 2. Fill it out. Step 3. Make a copy of the completed form to keep for your records. Step 4. Mail the completed form to: TennCare Member Medical Appeals PO Box 593 Nashville, TN 37202-0593 Or, you can fax your form to: 1-888-345-5575 (Toll-Free). Be sure to keep a copy of the page that shows your fax went through. Or, you can file your appeal online using TennCare Connect . Sign into your account at TennCareConnect.TN.gov . Click \u201cFile a Medical Appeal\u201d and follow the instructions. Haven\u2019t created an online account yet? Go to the website and click on the \u201cGet Started\u201d button. You can also use the TennCare Connect mobile app. If you haven\u2019t downloaded yet, search for TennCare Connect in your app store. After installing the app, click \u201cGet Started\u201d to create an account. If you speak a language other than English, help in your language is available for free. Download the Foreign Language Assistance page to see how to get help in a language other than English. Need help communicating due to a disability? TennCare offers free help for those communicating with TennCare at things like TennCare meetings, trainings, or hearings. Need your letters and notices from TennCare in an alternative/different format like large print, audio, Braille, or other formats? Please complete this Communication Help Form to let us know what type of communication help you need and when you need it. We do not allow unfair treatment in TennCare. No one is treated differently because of race, color, birthplace, religion, language, sex, age, or disability. Do you think you\u2019ve been treated unfairly? Then call TennCare Connect for free at 855-259-0701. What happens after you have filed an appeal? Usually, your appeal is decided within 90 days after you file it. But, if you have an emergency and your health plan agrees that you do, you will get an expedited appeal. An expedited appeal will be decided in about one week. It could take longer if your health plan needs more time to get your medical records. An emergency means that waiting 90 days for a \u201cyes\u201d or \u201cno\u201d decision could put your life or physical or mental health in real danger . If you think you have an emergency, you can ask TennCare for an expedited appeal by calling 1-800-878-3192. Your doctor can also ask for this kind of appeal for you. But the law requires your doctor to have your permission (OK) in writing. On a piece of paper, write: Your name Your Date of Birth (DOB) Your Doctor\u2019s Name, and Your permission for them to appeal for you. Then fax or mail it to TennCare. The fax number and mailing address are listed in Step 4 at the top of the page. After you give your OK in writing, your doctor can help by also completing a \u201cTreating Provider\u2019s Certificate: Expedited TennCare Appeal Form.\u201d Download the Treating Provider\u2019s Certificate: Expedited TennCare Appeal form and print it out for your doctor to fill out. They can fax this form with your medical records to TennCare. TennCare and your health plan will then look at your appeal and decide if it should be expedited. If it should be, you will get a decision on your appeal in about one week. Remember, it could take longer if your health plan needs more time to get your medical records. Do you need to file an Eligibility Appeal for TennCare or CoverKids? Go to the How to File an Eligibility Appeal webpage . Are you enrolled in Katie Beckett Part B and have Healthcare Reimbursement Account (HRA) claims to submit for reimbursement? Go to the Katie Beckett HRA Transition FAQs webpage . Social Media facebook twitter youtube instagram linkedin Stay Informed Proposed Medical Necessity Rule Changes Katie Beckett Program Preparing for Renewals Need Language help? Upcoming Procurements 1095-B Health Coverage Tax Document Reimbursement Information for RHC and FQHC Providers Legal Estate Recovery TennCare Forms and Agreements Privacy Policies HIPAA Privacy Information TennCare Public Records Subrogation Civil Rights Notice Fraud and Abuse Program Integrity Quick Links Deputy Commissioner Eligibility Reference Guide Enrollment Data kidcentral tn Site Map (xml) TennCare Stephen Smith 310 Great Circle Rd. Nashville, TN 37243 1-800-342-3145 Tenn.Care@tn.gov Flag Status Help Translate Font Size a- Normal A+ TN.gov Services TN.gov Directory Web Policies About Tennessee Title VI Accessibility Help & Contact Survey Close",
+        "text_truncated": false
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_161503",
+      "args": {
+       "query": "\"CG-SURG-74\" OR \"CG-SURG-52\" \"Knee Arthroplasty\" OR \"Total Knee\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EuoRCucRAWkUfRPr8l8BfoonoaBqolWldgCjTER3auIzQEHlnJIxVtZj3no7CimAG642DWDGF8MfJg1IhbhapI-joz-42Us80friqMecJYAlOi02KrrW06UxOY7AaMn_LXbC_UPHVYMZ8B580jt_X3RtKrvZZNcyIpc4YqnozPop93Ll6EUsFPEw7Qamwz8Z4UYoGVz5jjtmWD5MQXyLIIc5KCkmAK5pRxex0U9DYMMOp_ZSSMPwdoKqzO-JjVKITb_eSd78y1pKeRBSap2rf43vJ8KhJL3M8N2YBSRM76KRDDQ8FDzln_7NLcGiR4AuI-Idyi6SSm96O7VmqO14An4AdmiGc30WahW-ePF8-Ty9R-x5zuI_Gv-AUvO7BAGEN19i3eTXHq-c7dJu2XJwGgLZk6rBykuo_J2GLJDdC0seDbuLclpbweWlO-JF8053SGiltG5-tPXDc7Y38T_1njWZoqss7SRLFO-t4-LSd1yGVbz9gYRDusUtZJGv7LhAMABrdaQ1HXtobvflY8k9yjeJCy97U86Jah5FTtporl5CjbQKsv1d9UBdR4QoWAnbLtdM5L4U1d8Q8MZWEIBUdZearxzI8NQHclMB4agMQVmDwidzKd4Kv_WIzUk65EcaxbAgY64NxqJz9skblMR47vDUG_7RWq3zatRKEzGyDgu1ShnJoJhQbMgS3tUSkVsnQgf1JM9UHDFPd2hJrMn_nI5ULW7W4LFXgzuSBeSPaQqMuOJl8qVL581mcplKF6YpT20rPWTEKqsn8-RNAmkQaZRIhyHAUGVvzfraMi2WUWgoQVsd9cCNcoWNBQtgzwzPHiPRdCttRbpCVCPS6sOY31uhlPcv5ev09rbyBVlKQMcCVxsQpBb6vfDVIM5R6-k_S1KYU3yU3VvpZnMRizuhwHR8wQbU66KW41joPqNsGW2ubOegkbG_gnp63oxyfB3McZ0Lbt0NiGoPFdLXWSGt5NzfScWJEO_X1nMGecB9XZF1addOmAmgoNsmyNjKz_r1jQAp2nA7s2U9L86jd6WM6Q2IUlUyHs_Qvp17xuvY2_VYIYK0A2YY12clhBQ-cMPDtrHkFaeTRe92TgvvPTHhWVaZy9R780OyGxBVFcsVNbG2qc7Ca-cczzCFGhDUFp_choKtBIu5z1VNMQQkwp7rjc74mcxXX12OYVEqXvxTA5Ni6354J2TWcuhcxKma82K4gvxCDa1GxEeSqHQLoJsaXl6q1fITWMBJ2dkuFoKmyDWDHjGM4boVOOoXV08Z0fdbrwSBbENSNmm5EgHfarWoBFEljQbsU4pBwh3Ytva-h5o9arDpC2R_PzAZYRvzh0Mf4rzUuzCn1CWBOlmCPZQpShcxGR-4qbBSR8O3PjiG6UdUzoph2BrGxGuIVpQAeXSdwwlzP5AgB4CCwhBYtMNPljVSw4rHjSa6Ti8piQvSVmlWfsnzumX5CcEFw7e9brAIMyzfrAyGgFcbqrXXVmlET0MLOTRnsnR6DBUb_N7G1ivwHS5S6IOHl5oEN0e8TA5_8eAHNBst1bmQ15rR3pAVD55Y-vC6WD1ISAIHOTiCxfEjEDad1olmoWVxPfZKhOUpWDN6faGOvOp14nPAWWKeH9Oc5zVYD04-2ZqLKNcNPcKgpFiMoaOf_0AnC4364PMCDdARTontspXDx-YVvq4RPXEbOLDUryb9sxYqOwRIYldAgfxP5-WKGcycNGCkSCo9fZeB7cjy7SowE-YhkE01Mv5sWGrFL9vVYrRN7mEXYpPnbiXMu8kpAHZz8Z8u7I2Y4t1Ky0Sy49QMr1BGoJSvaO1U4Jjsc3ZQwlVYBjYms9Oc9FCgItrWbMv0ewwhTt2PcfX3dFxcBw6FvL4d3VBqvGloTOzhRTTINaTvlN-n50ZhJBERz0JS0C0Dgf_kwgmXXQSy81LLBuDxtwZ1aWgmTS_Qc3nUVsilAoAgeXVLzmKUIxLE0Odj5LUfmkIaCo9mbSiW6Bwh4YBPofMPQ-3fY_fq9jAHhguZfWFPWrjzwexAijy-jPF2RIoogl7965vwvVGehXbGfFL1nE72lAHqovGmYZg7FZe0wFexBK_Bc7iH16A4lVnAER4LR1r6y9EAAp7mkG_kBFGk9d_RDNjQHMV1HXKcRYvq3Qb2-wKVifbj5Dwt1nEExJ6xpU1dpta9W2h99eUoWMjfvKTKX4HuIfONEHFlSQFlRmnwIyJ70pFG8wskiYo60tEwxifh8Rk-mvcE_JIN3kxMWhXOrmqVynMv6km8jE6-tQcBnfSIAR-kPQpwxO77s0rVcKWjfHuxoSwP0xTLA2WGRtb4wSCPjcmUI2RiORRE1yd6-A94-pYD98LS9320ssV3RnlH-W7GNtKI600sAsiUN9axtthSyRNTVMpwSGoyMJsBaz3BEgURs2QXb0WT4sanG76JYFXPRu6MTYASBVqIEOeMlo0itFQ8nq2geVAK14--2kQAC1_XIpK-gBmaEGp1FMXtFL7rR4bfgRqYKQ5PQM0tud5DSN8DRjth9blnRnpZDRBmw5wrMdCBWKB3fVv2Gtiz9q0Wq88MT6R_7VV_PzHTlOuiqqH-jeY0YTuPM4OjEPS9fx3FGLbm5ZlpoJtJo2mmI3PXWR88zQ8gEfBsuSIXwFQKkzVzwKE-o-LTCi1qzsjEkgs3jm22pPfPKH9H6-DMpbM6UsRjMmcuREwjZU6kJXj1sH-v_UUUiJwOhFVMCDTPpLM2cleYksVX0TSLVIIK9mbx-xdToMQTgCpToxdK4eSvcADij6XJgpibOOiycOV2SFYOLBewWQv8PMJjfl8toXnUrs8XtJAlTJ5mdnZJNZP97sdQ9kbuQlnuuJYHl7cqYmbMXZ-jISikaekG7YQ1qzB28Zn3h2A6oHrjfthRrcCchpKeQbDYpRpA9bq_VbjoyYFfHcgRoMRhwV8grd2ljqtiW7lYNkbfBPCFaSsp-5OqnfQT8cNIaB8rE8Tx9DebxBc92LE01WPeSp1sbOsM5oOXbV8Bb-sbOFWFhHWfOURqHw_a9UgvLgLBQnjr4Wk="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"CG-SURG-74\" OR \"CG-SURG-52\" \"Knee Arthroplasty\" OR \"Total Knee\"",
+        "results": [
+         {
+          "title": "(PDF) Kinematic condylar total knee arthroplasty. 14-year survivorship analysis of 208 consecutive cases",
+          "url": "https://www.researchgate.net/publication/14256448_Kinematic_condylar_total_knee_arthroplasty_14-year_survivorship_analysis_of_208_consecutive_cases",
+          "snippet": "Use of a dished polyethylene insert in 114 total knee arthroplasties, all with the posterior cruciate ligament resected or recessed, was retrospectively studied. Patients were evaluated at a mean follow-up of 8.3 years. Mean range of motion increased from 92 degrees to 111 degrees . Mean Knee Society pain and function scores increased from 35.2 and 39.7 to 91.3 and 74.7, respectively."
+         },
+         {
+          "title": "Total Knee Arthroplasty Techniques - StatPearls - NCBI - NIH",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK499896/",
+          "snippet": "Checking your browser before accessing www.ncbi.nlm.nih.gov \u00b7 Click here if you are not automatically redirected after 5 seconds"
+         },
+         {
+          "title": "CG-SURG-74 Total Ankle Replacement",
+          "url": "https://provider.clearhealthalliance.com/dam/medpolicies/cha/active/guidelines/gl_pw_d080146.html",
+          "snippet": "Likewise, there were no significant differences for SF-36 scores, the VAS pain score, and the rate of satisfaction. However, the risk of reoperation for the arthroplasty group was significantly higher (RR 1.81; 95 % CI, 1.37 to 2.39; p&lt;0.001), as was the risk of major surgical complications (RR 2.25; 95 % CI, 1.16 to 4.36; p=0.02)."
+         },
+         {
+          "title": "The assessment of the stability of the tibial component of a novel knee arthroplasty system using radiostereometric analysis - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30499327/",
+          "snippet": "<strong>The tibial component of this novel design of TKA showed stability between assessment 12 and 24 months postoperatively</strong>, suggesting an acceptably low risk of medium- to long-term failure due to aseptic loosening."
+         },
+         {
+          "title": "Primary total knee arthroplasty - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19648626/",
+          "snippet": "Primary total knee arthroplasty"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_93615",
+      "args": {
+       "query": "\"Amerigroup\" \"knee\" OR \"arthroplasty\" \"CG-SURG-\" OR \"medical policy\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "ErMCCrACAWkUfRMpMGzxzewtoEh9BF0lTYDI2yom5qNtH8bQWyF2B1mqSCdXeKJTsdL_4_sIRFSpanu4dxX_q_yd58RtMKgL41_9LysWcpbFW22s0kHlRJj4wRxG3Qh2cp7Vk_PfVS2ygwAz42M4Fjwx9LLJU-NNpb2TJyykh09b7tMwiBlOaBfqxlXBVhuAtInNwWpundiaVrO_tf7cg6s6F0L9r1oTyzAcgwXuD0txmS_jAnSl0u_zVODoj0rtm-JrPK545Xmm5mOHRysolpRgOILd0ft84OOpTmfIXlx3M1LloWqCyjRlPMjxgCVgsr5Bq5RWd9xRj6V8DfkBlYV3cFH1bkCcJKeekhi8a9qvPZS19OZtR4ln2sXNZ4mFgpkppLIEFpZ0PFY9I9bPzvNNamNJPg=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Amerigroup\" \"knee\" OR \"arthroplasty\" \"CG-SURG-\" OR \"medical policy\"",
+        "results": [
+         {
+          "title": "Historical Medical Policies and Clinical UM Guidelines",
+          "url": "https://medpol.providers.amerigroup.com/green-provider/medical-policies-and-clinical-guidelines-historical",
+          "snippet": "Current medical policy content may be accessed from the Medical Policies and Clinical UM Guidelines page. Implementation dates of the most current versions vary per state notification requirements. ... SURG.00011 Allogeneic, Xenographic, Synthetic, Bioengineered, and Composite Products for Wound Healing and Soft Tissue Grafting"
+         },
+         {
+          "title": "customization to care guidelines - Amerigroup Providers",
+          "url": "https://provider.amerigroup.com/docs/gpp/pw_g468900.pdf",
+          "snippet": "Medical Policy or \u00b7 Clinical UM Guideline \u00b7 Customization \u00b7 TRANS.00013 Small Bowel, Small \u00b7 Bowel/Liver and Multivisceral Transplantation \u00b7 3. GRG Body System \u2013 \u00b7 Musculoskeletal Surgery or Procedure \u00b7 GRG (W0118) CG-SURG-111 Open Sacroiliac Joint Fusion \u00b7 SURG.00097 Scoliosis Surgery \u00b7 SURG.00105 Bicompartmental Knee \u00b7 Arthroplasty \u00b7"
+         },
+         {
+          "title": "Medical Policies and Clinical Utilization Management Guidelines update - Provider News",
+          "url": "https://providernews.amerigroup.com/ga/articles/medical-policies-and-clinical-utilization-management-guideli-22449",
+          "snippet": "The Medical Policies, Clinical Utilization Management (UM) Guidelines, and Third-Party Criteria below were developed and/or revised during Quarter Two, 2024. Note, several policies and guidelines were revised to provide clarification only and are not included."
+         },
+         {
+          "title": "Full list of Medical Policies and Clinical Guidelines",
+          "url": "https://medpol.providers.amerigroup.com/green-provider/medical-policies-and-clinical-guidelines-full-list",
+          "snippet": "The MCG guidelines we are licensed to use include ((1) Inpatient &amp; Surgical Care (ISC), (2) General Recovery Care (GRG), (3) Recovery Facility Care (RFC), (4) Chronic Care (CC) and (5) Behavioral Health Care Guidelines (BHG). We also have the right to customize MCG guidelines based on determinations by the Medical Policy &amp; Technology Assessment Committee (MPTAC)."
+         },
+         {
+          "title": "Search Medical Policies and Clinical Guidelines",
+          "url": "https://medpol.providers.amerigroup.com/green-provider/medical-policies-and-clinical-guidelines",
+          "snippet": "The MCG guidelines we are licensed to use include ((1) Inpatient &amp; Surgical Care (ISC), (2) General Recovery Care (GRG), (3) Recovery Facility Care (RFC), (4) Chronic Care (CC) and (5) Behavioral Health Care Guidelines (BHG). We also have the right to customize MCG guidelines based on determinations by the Medical Policy &amp; Technology Assessment Committee (MPTAC)."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_112195",
+      "args": {
+       "query": "\"InterQual\" \"Total Joint Replacement\" \"Knee\" \"NSAIDs\" OR \"acetaminophen\" \"weeks\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Er4VCrsVAWkUfRNAKhLbahJje9-o5gESWx2VAL_8lodWsCTvqddqu9wuqe42YiBtKdtyXmab7w4W2EU8znopMqj9M3EdLEbAwG1_cVqvv_CLZl82-OKhr2JaMFiV7s94GLOQrykSxdPN4gSkjkZXAOu3QmI-COZQDA2QE_p8PILS7mqzniCjy8LeAIZd83mSrACRrD2E6IZLhmUtNfUP19Zxe5vdDGtCaQHJoHjvgJAWYeUGJiaC2wO8xYExk3Me026LqiqxBYryQPdvRCJRuv9e50Dvc7ICtdQ__5iqWR2ZuMENNeXwd4IvkyPF-EQXsKUlA9shyN4-T50zAN-xEAyFvpaxJUCh7nlNm52SSy0hWSMxpcR5tK9MSBHjIfpZ6qeXWWSeg_iKvNsaXZK5eBwKS9_95HdN_CB4lPra98-HKIY1hfNtDo0bddMK4aK-ivw772p1THBbfDMs_h8IR7yzrKFfD2xo8h8RMrr61VzQH496wvxXjGciBrzUvZv8jXAG1bxAzShrtXlhdJeQRk87kyHMOvl00E_56ZC916IXRt1-Uv6QjAU6J5cQL4h9H61P0nh8AQO1835oH64Eak-U4BZZxtVlDkk2V4EpFJDLTdKzpXj_q1Dn8GO32fohWDj-R2E1hk1xy2yxAC6yY-nFQXN-0YmDLn5CjY3vPU8aHPiF8qx8TqhDXSJq2H1EKZqKI8xfPOIwzs98Bw-3gVCzEiuuwGdRAYmif73sAk5MVjTO1WtHuxEAIZRJeFmBKHZ0lkCq4Vu0YjjFkVVFSKl-KlRNbQBCZrippk-x5U4wiUMw9O7WP2Lu-n3BH_ok555rCqp4OGIsx9gRj-0QqDfba03wmS_4TKU9sinwGs6zA-3wrR2iOiptVyQrODpqHRoBKLA2f5GJHN7Bx2MYQqNQZ5te0d9vLfotCAvngE2CAAUw-_HiHXNiRLFbTr8CJZB92gEO-R_saUd_uv930nNLJR9F0jOL0xMeHJuwh5apcSrDiOD3ndgju1FLpoPd0WlnJ-4t8oSxCsAJqdsHyqNXVjAzQEWHuOBI4QP2VVq4Dd25pINA5o72KSW1Gkmkb_lxGT0zBwLq7cdYVFaou1yNqvgguAdSlSiVRDWzm7dFhbFzeXhk0F432prfqAD5fFPbct1u0dFRU5gK4fT4qdevbXDOywY2yzbogCiUz5gTY7zckXUdRAVWzC7Zr5L5sqdMXKNqQ8GV23etFB2UuVzTfx1M_lPPiYgbCIkQ8vwnSkB9Lo86RbOrx5eL2aG7jaiWGC8V-Aa6ZRzxXbUoYWCTqS0LKlUuw1sK7NMxMf-sfyXgn94oP-MupvMA9YDBPBkaMEg3Q5yHgIe8gpePJifGYwqKkViXFzeAR2EhoVQXNFoA5jpx_NjZ68CvX3HqqDLHp0ISPZsylx-j3RHmOwhBxQkaWHzILxOqGsoUSfrVtEL7c-LOGIgws4ELKE9uHPh-29w_kLJhq5JeIAkbszjMPCTMUST7yQwnV5aT-rF2Jhta68bT7S4U4QpPfZw6mXAbLKdmumBtS2aPZTI3anvUCefVoB837MiMCB2pmoL9QFAq-PlauULEJFEXUjOMZVk4gjuwoR6Zto8EygAk2X6wLrD8gnQN5DfOz67SHY6qizo7hGR7xM8Coqx31EAMSot5_iTuyeXynwZT26foEe1kclcCSSnPEh4Z6rSurJTeXEgxcGPxehkisEO-YSNZP4uFpZhGvGEfEzEuoHrfueYZO6OxBPYUKBcW5YJxTiCNlYnT33BPYGnkEUg4fUC5kiVZ2bKpQRh0vwmD4AQgW4sFRLRSDIBMKajTZeBVqKWOHgny_fQehLD7mAGVJ4q5imLOJsduiDbv8Nt9xAlCkMJiB_Iy6ES9-DgBYwR_TF2U91GYjsEOeivr_padx-pv_Iz-NpCt8QF8ywJO8CNsaHNJum-tK6H5KBCg9teFObm2YQNEjhyOHRnoPjl8qVE4Pa-uq0AwhyHt2lgl8HteIDNWmPcXTm68wyuFJsTDR7-gQ-4nC4HmA0D8ooAGebHCr8-xoVU5D66zvEmqbA-kEJy5YwioaH7Ih9ey7WQtFkQbWuJkw63aanJ3nvxHrQ6UqxZ9tOKASiskmCDv-nEK3_TMs_C5OHY-dQLfVv-B4zQqm-koVsxcd0TC6iiuELVWglav4yMFbYVlRhtXEErZHjuspHDz6qSk26IOHd8oU6ybMBz77-41wo8IrdVxusuulJPqtmkLFSAMwt2xmd9gJN6x-gehS8wB4yC0MGGeMmLH9C3A3m4UAHpN8Q6RDOEkA3JJbdQ8ozvpdwK5-3nlMhcUt3mDhg1AnBJ9SuVon96aeuhsN1NP-8L1BSuED8jAdNXQGwklImTPIdeQIUj3SSsoY4yaTnZc6I1XYsZ-fzJ0zpsF4_ROdzBukG11RZthn0rucFlAcTHKnOSEIq6Q66sxfdNPX9VmzjGOQs8DvtmTJj9_dfxEhCPZPa8-jsSpmbuHqibvXQjiUyi_nAYDRSSO1jx8wzZFugCkxt9Z45qgftdh53fgXPXKtwPJCiqR6Wfg3iOsi75vGphq4H0_OjgOk4MCk2-A98IIwXDtJst_oawHep_712EMU6oDRsKgepCaXI9JE3T2MNG4LqKutCm6QoNP1znnTunhGqqv8eZnYN_B1gAOhsa-boDED153lJOwZcrLvLB1TTNcG2Q1FPTq_l61Y7-eb2kajQ7RLZc2dYHeWGua9GCezSI_CjChNssllS-ed23JjUaf0fEKjAJStgakfDGPFY79uwrxsGaPlzmAFhQrW78jQJ8oyKgUSZBPBSD3mGpsZL3FQ1XiyuM23qK0H1fziymqp9VxCTwRSTfHzOhzpdjCvRR_c4QuzKcJfal8jTUwXgMwUHM5HbEI-Fzv5wziI-5GPAuUwajKSNqzDW0ZDQNy0J9n2GlQrkv4bha5Jo9zJXf7UmMyHnCVPGx0a3Q5-_jR6la2JI6PVnWd0cDMUjPYa4acydUtI2i2GbehDH4R-1Br9vRxqsD-cK0BVcPvufx9IRdamgKwdxMZDh5LODnEAO9tgx84UBj__jNRflUGy_TkaE54he-a6Jw5Y7-bz3KbIRjTyAUKw-a-g36lVf9RV8IsHZHFYNczn6a_EuICBmnmG_GCu_ZNIIxNgnJ-aIJwkZGwKdsyvDgbNwJ1wugDf5SBu5diDVv3Iw-1IEpBQzJxDqdnyk9dWxTh8sFNYktAyLmf6gvVI-1efd5aWHczhrghHP60xo8v4real2hStDmpoRgqYs5EGy4jNfxrIEgFK8-JPKBcpJkWj8cdmIm3r0hNG35soR81IL0wDlYnfnMN0Ri03EFQeEU1xNFgq2OCxQdoDZcF0-i8bhlLb4ZtiJscHPGW3hGZP_fDoGCASgG3vw4HMZljEro1bLDirlqjsOa_Igz5Kw7D0jALcHrQ6Ut3CmJEJo6DwlvxIf2DR_4-OcnRIQV2zXTD9-G7vz_f543b_xAZwxBWgQXu1h4FX7JEhVmDfdPxO1uipqqH4eB2cAd1LqbFCnx2DIOIeyweD4aQYoSz0x8gvleJCycAyIOHxAzDZq1NZJxGwvNzh7gphy-TtdQsoCiDl40ZejKULuOKzM8NfMR3cA9ZWsMwHwr_zPWmW-LvOhYfwWIBsAbWhwiELHk="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"InterQual\" \"Total Joint Replacement\" \"Knee\" \"NSAIDs\" OR \"acetaminophen\" \"weeks\"",
+        "results": [
+         {
+          "title": "Common Knee Replacement Surgery Medications",
+          "url": "https://www.healthline.com/health/total-knee-replacement-surgery-medications",
+          "snippet": "<strong>often prescribe NSAIDs or acetaminophen (Tylenol).</strong> If you experience more acute pain, your doctor may prescribe an opioid and will progress you to other medications as your pain subsides."
+         },
+         {
+          "title": "How to Relieve Pain After Knee Surgery - AAHKS",
+          "url": "https://hipkneeinfo.org/knee-care/how-to-relieve-pain-after-knee-surgery/",
+          "snippet": "Despite some NSAIDs having less side effects, they are not typically recommended if you have kidney disease, have had certain weight-loss related surgery, are at high-risk for or have a history of stomach bleeding or ulcers, or have had recent heart bypass surgery or heart attack. Acetaminophen (Tylenol, Paracetamol) is another effective over-the-counter pain medicine and fever-reducer that can be used in combination with NSAIDs and other pain medicines."
+         },
+         {
+          "title": "Evidence-Based Orthopaedic Post-Operative Opioid Prescribing Recommendations Following Hip and Knee Arthroplasty | Published in SurgiColl",
+          "url": "https://surgicoll.scholasticahq.com/article/77646-evidence-based-orthopaedic-post-operative-opioid-prescribing-recommendations-following-hip-and-knee-arthroplasty",
+          "snippet": "A concomitant proton pump inhibitor, such as omeprazole 20 mg BID or pantoprazole 40 mg daily, can be used in patients over 50 years old and/or with gastric ulcer risk factors while taking NSAIDs, particularly since many patients will also be taking aspirin concurrently for venous thromboembolism prophylaxis. Daily ibuprofen dose should not exceed 2400 mg, and daily naproxen dose should not exceed 1100 mg (initial day can be up to 1375 mg).25 \u00b7 The AAHKS CPG for Tylenol use in primary TJA gives a moderate recommendation for perioperative administration of IV or oral acetaminophen to reduce pain and opioid consumption during the perioperative period of primary TJA.34 This moderate recommendation may change soon as the reason for IV acetaminophen being given a moderate recommendation instead of a strong recommendation was related to its high cost compared to oral acetaminophen."
+         },
+         {
+          "title": "Managing Pain After Knee Replacement",
+          "url": "https://www.drsameepsohoni.com/managing-pain-after-knee-replacement/",
+          "snippet": "Acetaminophen, or Tylenol, is an alternative over-the-counter effective pain medicine. Generally, patients need to take oral pain medication for <strong>up to several weeks</strong> after total knee replacement."
+         },
+         {
+          "title": "Doi: 10.32481/djph.2025.09.05 Rethinking Pain Relief After Surgery:",
+          "url": "https://djph.org/wp-content/uploads/2025/09/djph-113-05.pdf",
+          "snippet": "arthroplasty,\u201d \u201cTKA,\u201d \u201cpostoperative pain,\u201d \u201copioid,\u201d \u201cNSAID,\u201d \u201cacetaminophen,\u201d \u00b7 \u201cgabapentin,\u201d \u201cnon-opioid analgesia,\u201d and \u201cmultimodal pain management.\u201d \u00b7 Studies were included if they (1) enrolled adult patients undergoing primary total knee"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_128112",
+      "args": {
+       "query": "site:bcbst.com \"knee arthroplasty\" OR \"total knee\" \"medical policy\" OR \"medical coverage\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Eq8NCqwNAWkUfRM5DHh1hawrkIo5ZpeAjCTQRANyz37D2ld18SiBSCbq1g3ga0-bRev1h0CJAccxK3i3WYr0HcK3t8idqcxeWXVtbfRtusLQh4X0KkEoGqf_-GcfpfkcLRbsNgEVOKpdY8c1yhtkQY28hiI1vdkOJkdkSPVJL6AUsb8HaD-9uJOPmW8uG_rPk_pizGFpW5YlXFwIZTImtpx5h5HPJF9N4jBW56gVdZENXLlSj5X2zLKU4MQGo84-_0iUP51oiPTOeY-QtWT8xuvFra-48ra7dHZ5dOAg4HLvJgJJ_HZZVxNW4Mt5sgnURh7_aQ8OdpuPN_mS3gfMMxuxzb5vefepnVfaRsWQsM7ZEZRyP-iptob8jcE4ccKmcM3s36San2aX3UojJB-Kz8JywLZlPx1hbwWeWUtggCQorYPD8nk9iCDA3TxCIk8_OWGYiQzYti4Qg6hk2-cmlkMw-IZOD4CzJm0sYbTcVXDfk7o9_hjPzoE0Qy49D9LEN2CU_VSBc4Fpj7jBXvvWxV7rSCJp9hytoWd0L34hIcDyIFOS8JWxyVU3EWEuhphgC--HKEnhca6drhdEO-dHRadfujq0Mhb_u13j_U1HIMl6sLOtvMcRKHgZWGyEicQ2IdeffGiEi0EOH6T8jaw7pc4aZRNlzebPuxQoketFjGDBzqzRIHC1cCbKt0JXlsIrvlxKws-04WO24eInQWt-7Z6H5Lb5NIAnvuUv7ncQf0yCTemmOadJ4SZUjdZbCY7TkwBQVIj3gY9DCzI-92RIsBtxVu-QdirTahOm7Fvv_5JhbHd1cb-vJmn7xQ-mzAN4VCWvkW2cBfdeD7qhPFJuc-b2ipOiIP6UBswH6RzBAXz8qG8zOlXBjF4bBgbRFmvyEue3QDWjjPEFpwenMxguy7EMBVzs_22Rrqcnio_HZdXlto_XQFKc4sQ4oEbxi5itXCCZDH2wX4dNqfPb61jem7DL3_B8hz_cyl3P6lo0G2ZZlHM0D-H4mADePRjFZ_RrPJpqY2byojYTp6feQTm9qVBZJLEoTyXv4edr2WC4oIZFYTRj76RfZGDV3F5nxLh_QME8MMdIFxdORtvc_RGKrd4_88smpFNouZacZpf3N4-jgFWeOPxhOWrQD7Ecm2zZiQSDcQ8zPzvaY4OCmiqWGuEbm1PppOfpb0Y2SIgOWsh1DhCtsRUyPfDu0VloMj8HIwuvXSJeePadU_jR4YtCaYNGOfcItyyMzvGOZBWZeWzHh8ml5owWIDlZwA0TYLspcF1SZjIZoqZNH0K57Rs9tJzgL-fej_oJEnfW6JfutH1xsWFeDsM0wNsZh5e7aeFk3psTLb_S4Dv-tIgBQf2ZUyHyNDJaUJQzDejcwvuK9uvdNfkzK4u9qeBqW54WNemSY1GGNgIrIRoFkXkf3FnFzrkOBn7dhKE6FjTQu783PNujuyotIXLPw7c0ph2p1cyBR-m9Iv2bF6XTACf_y9cBkaPIlfHzoHDUDYgQc9ND1FFkyU9mg9LLXgUTb_lP_xkscGE2lbsZj76K6KHxuVrVKtn56EsZcDYE3IqZJwH3skTQU6ciwaUfkTK9fSWThKiUloW-HERt_h9VbNTLTDqfelph1pXvoeu37M2C7AAHceypohjit_aEzo6DIfUXwN9gsv8vVG5Cpw1bxes2PzpdT018Epfjka4CUP2SsNu9CDExBjIq0jTitBOdQNFjVUCxZgTCFLseZOdZwbg4rZMnQRS2Xu7p6arXWerOMvukchJFfnFaaDu3zGoEt519RspQWmKF1P0_YrmKGVQV_vy6PY4pZBvXMu0eDCKqhq7lQaMvjfGKcEeZbQ78oe65AFun1cyJndGY79vJFGMftahRKKiANvZruHoZ1kNTIPntHgdtQNVq1Ezh6n-aqovxxtKZt8bPcvGIed0XahrMq4a7ix7JxIkmJCvQBJL_2IXVnPmhqB4q7jLRSQtWqqNlZrpqIzCEjqO7aID4bWZeATZzSw7wtEAIBURDXIt_RlAcKNhg_CIgfTJOL0aAJyw9GMzHn5mtayF7Wev6u6jBXTTLyzXezoXySMWnoG4pCsVn1dM06g-p43Hx4rUu9oNu59yWulE1PADNoJvZvrvDN_DQw3xC-0bJFotXtXbrkYWCLhOniAzjhyL9qPY7mrS-nDymeduG0mpfXOOdD5ZF-oFXXW5Q5W1FRFpxn_UvuPaq9xDqDOHQaPWF2mi-FMriMh5sE1dKH6GvT7IK7xtVBxXcbSV3x8nZs88v4UruIf6TeMZNVA=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:bcbst.com \"knee arthroplasty\" OR \"total knee\" \"medical policy\" OR \"medical coverage\"",
+        "results": [
+         {
+          "title": "Continuous Passive Motion (CPM) Device in the Home Setting",
+          "url": "https://www.bcbst.com/mpmanual/Continuous_Passive_Motion_CPM_Device.htm",
+          "snippet": "Continuous passive motion after total knee arthroplasty: A systematic review and meta-analysis of associated effects on clinical outcomes. Archives of Physical Medicine and Rehabilitation, 100 (9), 1763-1778. Abstract retrieved November 7, 2022 from PubMed database. ... Policies included in the Medical Policy Manual are not intended to certify coverage availability."
+         },
+         {
+          "title": "Computer Assisted Surgical Navigation for Orthopedic Procedures",
+          "url": "https://www.bcbst.com/mpmanual/!SSL!/WebHelp/Computer_Assisted_Surgical_Navigational_Orthopedic_Procedures.htm",
+          "snippet": "Policies included in the Medical Policy Manual are not intended to certify coverage availability. They are medical determinations about a particular technology, service, drug, etc. While a policy or technology may be medically necessary, it could be excluded in a member&#x27;s benefit plan."
+         },
+         {
+          "title": "Manipulation Under Anesthesia (MUA) of the Musculoskeletal System",
+          "url": "https://www.bcbst.com/mpmanual/Manipulation_Under_Anesthesia_of_the_Musculoskeletal_System.htm",
+          "snippet": "Policies included in the Medical Policy Manual are not intended to certify coverage availability. They are medical determinations about a particular technology, service, drug, etc. While a policy or technology may be medically necessary, it could be excluded in a member&#x27;s benefit plan."
+         },
+         {
+          "title": "Meniscal Allografts and Synthetic Meniscus Implants",
+          "url": "https://www.bcbst.com/mpmanual/!ssl!/webhelp/Meniscal_Allograft_Transplantation.htm",
+          "snippet": "Knee Surgery, Sports Traumatology, Arthroscopy, 23 (1), 270-279. Abstract retrieved January 20, 2017 from PubMed database. Warth, R.J., &amp; Rodkey, W.G. (2015). Resorbable collagen scaffolds for the treatment of meniscus defects: a systematic review. Arthroscopy, 31 (5), 927-941. Abstract retrieved February 27, 2018 from PubMed database. ... Policies included in the Medical Policy Manual are not intended to certify coverage availability."
+         },
+         {
+          "title": "1 | January 2018 BlueAlert SM JANUARY 2018 INSIDE THIS ISSUE",
+          "url": "https://www.bcbst.com/docs/providers/BlueAlert/2018/All_2018_BlueAlerts.pdf",
+          "snippet": "Total Knee arthroplasty \u00b7 34800 \u00b7 Endovas aaa repr w/sm tube \u00b7 34802 \u00b7 Endovas aaa repr w/2-p part \u00b7 34803 \u00b7 Endovas aaa rpr w/3-p part \u00b7 34804 \u00b7 Endovas aaa repr w/1 \u2013p part \u00b7 38405 \u00b7 Endovas aaa repr w/long tube \u00b7 34806 \u00b7 Aneurysm press sensor add-on \u00b7"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_105094",
+      "args": {
+       "query": "\"Total Joint Replacement (TJR), Knee\" \"InterQual\" site:uhcprovider.com"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EooPCocPAWkUfRO2xKne2R22f615s4l3a4AOZH_skAloXn_H2ib8Y31bncgw6MVr8XhBkCtZFSA-3nF9xJwA14KhyybpjCwGSmSI6VoNpkSTd0qFbR5ESM6pWOy4smmUOY5zSaCJ2cP7EzDT8FnctiO-EqTMGZ7E10BfBQS6UPRDjcvuZskLjFNW5Tk0CsUtubQyiDPgj74Y2Pn5h6dt_F6fxroWskhxMmXIvNjYSVnc4EmD7kcBaJ-7O2CwCqwQ2tjTY_h-bDuED4nnZwi0u3AvgRnwkt5Pb8j0pnjMNfj62jUkuJCJRiiQnXbsK9PMhiKZHCfFJENNri5RnoGoJL4z_1PXdrkgpRgCiX-Fy1eVJ6AhaA0HQcHmQcuNFM6CemXmrCmHKu7YwL18mbNmSO8fU7YHUC787fa-l2PgPNtoNTO0v1pBqc2XampO-B2aLOmDqxSjHzcgv_I4iTP2H347PA8brHVMg5lSHLOUw4iWb9kL-tV0692jQ98pAB_gYzo_J09VNWh4IT_-0ltJD3CLPuP0FnhUS5CtfRdrzKOc0mcXRi4-U7PVJX5hdnUDR9sq74IQLuurz_U6NOwrdXEDXjeTHj6Cdxhhaa107b8yTd-VZsMmmP4eooEBgXr5LkkEWWuR5xrT2J-RZA1jz-WtwPTmRqyHRU1wC3iYmjB3-9W94sAmAfqoC-wjxeDwOTF8c9npqrvenSCXFT68t7xP22tEU4QaIKwEFSXNTxCOPbam86OItP8KBOPazc9lqpxRp1KlPoK1fHimATrO6lPws0p4a6HPSz0lNKCMMeeaIg5d9rN3b9gxvos03Cex7rIf-vSrjFHtYF4KS7Kx-J4jXjK0lcS5zzrHb4Zy0hVIfnrqQaEDJuK0G4oEikre8q690V2EWA0ivk9gntoKHtJPt1KflWyRXJ3LenuXAofAobE9zpnMn7SkJwoEDb-3hPaZ7XzLR9e0vhMBdE6UYn2DgBZHOsNzdHpKKbOJmrww1-yXo-XOIYaojdX2fzuYtMi0rWReoAFT_VZEuRHJ7R5IWRItm0tjiP6bJfSrAAwpxS6NSNIVL-_L2bYWTMW9oDq26tZWu2TvI07YvzRRWocyqYUipR0YA7aENH3xklm3eH2XFkf4xHRPRIBxYZIxuA6rOeZB3LQPd7u1DPBopdX_AALUqpyMs0ntRrVTwZqatN5pJw9IpQ52uJhRLgm54g4xGXumniQyvoONvas14M8_askVYWUg9TN3mpyrT5KpNnEFLy3F2AODU1HE_owcAa0zZz7gemCEZWo8fGOIpKjugS0wXprJv41wA3zcKkO46ZBIYXXUhBaQAoSp2RluMLhBnOhr0-UlcyQwYcGzIfI3moH7jgovNt3Pf5yskrEd8ZM-yZvxZzYlmae9ESQEoJ9I8NKgdvDQ7qT4kE-BKkjxbiVolKf1WUkO4NzQmB_evb9tfSOWMOyG34CkdTRx6XKw3qUlAl1U4G62YJv-KDDh34OhqlXoPxkRF-QIzJbYMhwfH-LEaHvKrf2Tpg2zMAXSdZLpHirlXDdFVkPNyObqXhl3N_rA52vZgsyaBkS1nilwRyqo-Z_TziQuhUsA7jJAMMWVVrjLD_551Ib9F9qc0UsplSmsjAbXoXrrqZcbZgeiwWWnf1WR8y9kFCBwtTw9SPx0xi07krhn6plsVfg19oKy6N0m1Lo1TdX7YxDs_6iM2mXENbsQdB7serF5e54JV6iOI-u5bb6X-XsTEs3-0GAk__sG2cW8BiL0Y6StlYkYQeGEF0Q9b0ojMJlrVV_9RZ8W1qshUw49nosUxF_tYjhzchuv1NxbayOlzsGzXbyDcXRzXx0VU6elkpfImj5FKLi12Pf7htD-pOQc3LrW597kgtkURr__jaBD7CCbeYCCncllG_d2OgEKw6MwwE7Pdb5zEe_GwqXq7thvWJymCR0sgAWA8DnNODfDcB3xRgMbcfEjKEmfJTJcduSvdR-U8_2HhjH3Jw3Z1Z0D3NZ69ImcPb-4pZUu5Z5NnXvB52NWEzQlD1xc2eP8FCs89xZKKWpoNXaPgw668dygGbqrCkD1M_xSSG1ckzL59viMAZ95r5cIcykXd0cA3_pV8PiquSQWZGViJG9HLNtnBuhlrQWlKbyOlIIKu86qSjfMteMVcZ57xwuNUk9HulPsAOlGSjqqLx_fyz2xSYrylwv4PnatQ_3nPMSA6TayNYK0stz6fB_ve_OVCXsVulCwsUg8bkbmGQLXXA8AKWM9ViN4SMhlZmaLpIjBlJcqXmCLy-2GGnCPZQ6pBJIKgCPyYgdPTgLtST9p8a5GKwBXVjr97KqgQobi5D0HubHJsR73g9bLz6nAA0KJPJ7TYYIDj90H3HsAf58FO9rTGONFZJU78-TrokuYbdeOj6wPa1j0pR99BlRvk2edUmckR_exBmvCauaqJIdrj4qW41B2YVz0Xw9fDwvsWOmxResoQ7OzxSU9cxTbQdxQBjq5jdFWbU3EH0_lpgrNPWA0QxlSnGWyZEaAqSQDIUyUGR_vDVgZ2LsFypK1caHk_3rByLHSWlUOKc_cJq-5xpmopQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Total Joint Replacement (TJR), Knee\" \"InterQual\" site:uhcprovider.com",
+        "results": [
+         {
+          "title": "Surgery of the Knee \u2013 Commercial and Individual ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-knee.pdf",
+          "snippet": "InterQual\u00ae Client Defined CP: Procedures: o \u00b7 Arthrotomy, Knee (AQS) (Custom) - UHG \u00b7 o \u00b7 Removal and Replacement, Total Joint Replacement (TJR), Knee (AQS) (Custom) - UHG \u00b7 o \u00b7 Total Joint Replacement (TJR), Knee (AQS) (Custom) - UHG \u00b7 o \u00b7 Unicondylar or Patellofemoral Knee Replacement (AQS) (Custom) - UHG \u00b7"
+         },
+         {
+          "title": "Surgery of the Knee (for New Jersey Only) Page 1 of 10",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/nj/surgery-knee-nj-cs.pdf",
+          "snippet": "Total Joint Replacement (TJR), Knee \u00b7 Unicondylar or Patellofemoral Knee Replacement \u00b7 Click here to view the InterQual\u00ae criteria. Articular cartilage repair is unproven and not medically necessary for treating individuals with any of the \u00b7 following due to insufficient evidence of efficacy: Autologous minced or particulated cartilage [e.g., Cartilage Autograft Implantation System (CAIS), Reveille Cartilage \u00b7"
+         },
+         {
+          "title": "Surgery of the Knee (for Nebraska Only) Page 1 of 10",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/ne/surgery-knee-ne-cs.pdf",
+          "snippet": "Total Joint Replacement (TJR), Knee \u00b7 Unicondylar or Patellofemoral Knee Replacement \u00b7 Click here to view the InterQual\u00ae criteria. Articular cartilage repair is unproven and not medically necessary for treating individuals with any of the \u00b7 following due to insufficient evidence of efficacy: Autologous minced or particulated cartilage [e.g., Cartilage Autograft Implantation System (CAIS), Reveille Cartilage \u00b7"
+         },
+         {
+          "title": "Surgery of the Knee (for Ohio Only) Page 1 of 8",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/index/comm-plan/oh/surgery-knee-oh-cs-11012025.pdf",
+          "snippet": "Total Joint Replacement (TJR), Knee \u00b7 Unicondylar or Patellofemoral Knee Replacement \u00b7 Click here to view the InterQual\u00ae criteria. Articular cartilage repair is unproven and not medically necessary for treating individuals with any of the \u00b7 following due to insufficient evidence of efficacy: \u2022 \u00b7"
+         },
+         {
+          "title": "Surgery of the Knee (for Idaho Only) Page 1 of 10",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/index/comm-plan/id/surgery-knee-id-cs-05012026.pdf",
+          "snippet": "Total Joint Replacement (TJR), Knee \u00b7 Unicondylar or Patellofemoral Knee Replacement \u00b7 Click here to view the InterQual\u00ae criteria. Articular cartilage repair is unproven and not medically necessary for treating individuals with any of the \u00b7 following due to insufficient evidence of efficacy: Autologous minced or particulated cartilage [e.g., Cartilage Autograft Implantation System (CAIS), Reveille Cartilage \u00b7"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_124571",
+      "args": {
+       "query": "\"Click here to view the InterQual\" site:uhcprovider.com"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvYGCvMGAWkUfRPyBfClmRuK1vMpJeMJj1FVpAsV_ZaTRRp-DUgmAtGc5TnsQ_oqNO6l1HRYCVCZ_QZu_1kyTRga8GHbPIaXJghWZ4Sg2tQJfejascjbFrsmocWBiwtkymJZcPsFbRyOayIpCINWXA0ca3GpQdYk9DcvUdBMZrLRBtM0XXyXmoQaPsVZMbimHxUDEHCJyfHu7daAmdU_hraZ7z44ODP6hxMIoxiaPTF1lVZj8MnU8wb_OIM2PPXXz6rbzDKtzivyr7VLxVB0GVZR3aOWxSMMm_sO00rFYKNolcK5z9hhkMbepZOJ6p0D9-aonPxEhWKx0QT2lNSsuhhH3xj4TiYasrkSJ3J8mFKgDdLqqNsVgL9-5PRGwXvFIja-el9PCQLPvHmoxN3Y_sIhlGsTb7H-weC3gsmxxa33q2UmogtqsQQk96cM9UTPFnIOYP9UF8z_UffkR4hTpIBJUQJiGsNLUE2SsJDOaqaSiA-9eoO1IeosuvEDBAPG6KtRtr-Eib6P4LDs1O4wKIyNgaCmzfwRdUB5Epijp_zS3dIq7_EaICOGKR0WmxjRk2EXjImKfkP8qJZpjSKmDkheSdUsPUiRiWJExEV2_5lAzxmOWYcgpi8di4PiGyAxnvzRyGgf1UE8tBSykXQpYckyKJ3dnyT32htqJPIPwKoSo58nWhmnX7Zo7NXmJ12Q02RSVSRZkIxaOLyHGOzokGP8LNJ9R2Gr0Zb2Avr4tMweHKVHim89HOmCHKcRWlsgA6WkfLpTpT0ZPxYTVem7tOqJcFEOOVPl2iwzJzJ-9N4TACrps4GuaUZyuhWf3jJ129u3DYORCxaj9Xw8Glq7y8Kz8nE1wJjKxzM4-gOAu3sc7k6_fu_Kvjy73ecgX5bHyrSFIT8gB1mWjGjibP8E4iRL572hslJS2zQv-FlU_Z0M02DBmpoGFfFArzoHg0reimf5h5CDqD2a2bgNBTiVkVTdcNDygisab6VDtVqAE-fVBO7FXed8v8OyoLuyojEjkfqpOoXByzDy0rFpMQ6h_0NA2goxUKnVREZEi5Cs_OmKzOylF8c0CfYtFyiKSkAJPfPUoXudhrRJPSy5JV-th269YHrx15pRJ5FrN3EntGZzehE6crd-qZrSEUyyvyHludeyl8iQzRfGRTcdEdboMdIIa8khqHZfQQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Click here to view the InterQual\" site:uhcprovider.com",
+        "results": [
+         {
+          "title": "Prostate Surgeries and Interventions Page 1 of 32",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/prostate-surgery.pdf",
+          "snippet": "necessity clinical coverage criteria, refer to the InterQual\u00ae CP: Procedures, Prostatectomy, Transurethral Ablation. <strong>Click here to view the InterQual</strong>\u00ae criteria."
+         },
+         {
+          "title": "Cochlear Implants Page 1 of 3 UnitedHealthcare Community Plan Medical Policy",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/cochlear-implants-cs.pdf",
+          "snippet": "Hearing Loss in adults ages 18 and older. For medical necessity clinical coverage criteria, refer to the InterQual\u00ae CP: Procedures, Cochlear Implantation. <strong>Click here to view the InterQual</strong>\u00ae criteria."
+         },
+         {
+          "title": "Hospital Services: Observation and Inpatient Page 1 of 2",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/hospital-services-observation-inpatient.pdf",
+          "snippet": "decisions, when applicable. InterQual\u00ae criteria are intended to be used in connection with the independent professional \u00b7 <strong>medical judgment of a qualified health care provider and do not constitute the practice of medicine or medical advice</strong>. Click here to view the InterQual\u00ae criteria."
+         },
+         {
+          "title": "Continuous Glucose Monitoring and Insulin Delivery for Managing Diabetes",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/continuous-glucose-monitoring-insulin-delivery-managing-diabetes.pdf",
+          "snippet": "Medical necessity clinical coverage ... CP: <strong>Durable Medical Equipment, Continuous Glucose Monitors, Insulin Pumps, and Automated Insulin Delivery Technology \u00b7 Individual is assessed by a provider every 6 months for adherence to the prescribed CGM regimen and treatment plan \u00b7 Click here to view the InterQual\u00ae criteria</strong>..."
+         },
+         {
+          "title": "UnitedHealthcare Commercial Medical Policy Update ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/mpub-archives/commercial/medical-policy-update-bulletin-september-2026-full.pdf",
+          "snippet": "InterQual\u00ae CP: Procedures, Arthroplasty, Temporomandibular Joint (TMJ). <strong>Click here to view the InterQual</strong>\u00ae criteria."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_108930",
+      "args": {
+       "query": "site:uhcprovider.com/content/dam/provider/docs/public/policies/ \"interqual\" OR \"iq\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvcBCvQBAWkUfRMLUlV9S0lSqC3XXOGSmaI5f2eJCm149s1kblEXNEINz0bgqCyMwAlqjXqF4X23uLsda6u-NIbSMXrgxorE11fX6DFSwjnP8EOkeK4yw7IpsevjDswruj5RvZf8uHd0S38MDx7PPKVBfZ6tA3qDgN0mgMyuMOwmajAtX3z0lJUD3_OH-YYG-iQ_rwkyc9PUNwN5HU2NjqYKBL9LmTr_4P_V86XQ1mMLedmP6t73UBi_VEPgPh7uh5KqL3xFu41OO3-dcDPI422R3-xD4LqRyS3QAFvwvs4sSceMiM6e2C2FLsSdbmiM4nKpECv5TKeKDw=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:uhcprovider.com/content/dam/provider/docs/public/policies/ \"interqual\" OR \"iq\"",
+        "results": [
+         {
+          "title": "Implanted Electrical Stimulator for the Spinal Cord (for Idaho Only)",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/index/comm-plan/id/implanted-electrical-stimulator-spinal-cord-id-cs-02012026.pdf",
+          "snippet": "For medical necessity clinical coverage criteria, refer to the InterQual\u00ae CP: Procedures, Spinal Cord Stimulator (SCS)"
+         },
+         {
+          "title": "Implanted Electrical Stimulator for the Spinal Cord Page 1 of 13",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/implanted-electrical-stimulator-spinal-cord.pdf",
+          "snippet": "In 2025, ECRI conducted an evaluation of the next-generation approach of SCS the Senza HFQ iQ\u2122 (10 kHz Therapy"
+         },
+         {
+          "title": "Implanted Electrical Stimulator for the Spinal Cord (for Nebraska Only)",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/index/comm-plan/ne/implanted-electrical-stimulator-spinal-cord-ne-cs-02012026.pdf",
+          "snippet": "For medical necessity clinical coverage criteria, refer to the InterQual\u00ae CP: Procedures, Spinal Cord Stimulator (SCS)"
+         },
+         {
+          "title": "Implanted Electrical Stimulator for the Spinal Cord (for New Mexico Only)",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/index/comm-plan/nm/implanted-electrical-stimulator-spinal-cord-nm-cs-02012026.pdf",
+          "snippet": "For medical necessity clinical coverage criteria, refer to the InterQual\u00ae CP: Procedures, Spinal Cord Stimulator (SCS)"
+         },
+         {
+          "title": "Page 1 of 40 UMR Medical Policy Update Bulletin: January 2025 In This Issue",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/mpub-archives/umr/umr-medical-policy-update-bulletin-january-2025-full.pdf",
+          "snippet": "Click here to view the InterQual\u00ae criteria."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_136464",
+      "args": {
+       "query": "\"uhcprovider.com\" \"InterQual\" \"read-only\" OR \"access\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EusECugEAWkUfRNJnmu_4hWj3tlfd20QYceFtgniCyg5rxaGPIdxg7WbBIfuT-4tLgTQBBxV1_hrCKuwQn07OKYFG0QiOAhEknyukXiOXyZKtk8hOlBW_pm5XsC0VVqEV0tqBwjQU2ufOXE99fCYyfuipl-7Qv__kMP_ycfh5dgDFkcnkIeJt5pMzyzmZw80Ve83_q6Rq7sEDrlfotVy_A0bmKUguQCYUqP_87G_R9xRA5pIdrw2aydYmfepJJMuMgNXuHvxacQqz3ramDbxB30ZvGcv9vugIBssW4bwdFrXyus4U6S5MqEmQmTidrghAVPVb8rEkFl6C8gTSDzMaNxUJSac2KT7FzTfKtzY-_Axkywap3eFeDoo7JDyLKcrt7-XCF0GXOAwA_8zqOa-BBZS_frV_YbYmPySXjD14sRuc19wSXfVzH2AUtzJ9YhTiIK1ztyyfnJd2Br6QykEr4gjzUWApHVRaHdX31nfqI8phkbTCxvVs56nj7xj6aXT562v5uuyXSx1s4HrUXERwsBhHRVMiUgyRVgnRqb0JYHk50-06JPy1jNrCvPzcJbCJPGQZueIp3LSFFz_Ldrc3viDSH5jnGEMh4AuosBH-0v2LpDQm9vE-YJt8D297TMqLAbTy4TzYcSO7ynVdsibxgT5cdE5l8nXmvOTKJmPwviSsYdhBXlRpBF0IuzLpRqVb-C7jNBMjRDWup3Sy3Yt2Hg3jNTyJOjOJ7g_zTEH3HQLwvdz_qG5ZVssj14ZduViMR2MeMaVJ8lK24Edy631FftAgdQjlTyy8IHtHNh9gRwpRSC9yQKvcQu5tpNRwQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"uhcprovider.com\" \"InterQual\" \"read-only\" OR \"access\"",
+        "results": [
+         {
+          "title": "June UnitedHealthcare News: Reminder: We Transitioned to InterQual on May 1 - Healthcare Business Management Association The non-profit membership association for healthcare revenue cycle management professionals",
+          "url": "https://www.hbma.org/news/commercial-payor-news/insurance-company-news/united/n_june-unitedhealthcare-news-reminder-we-transitioned-to-interqual-on-may-1",
+          "snippet": "Viewing the InterQual criteria To help you understand determinations based on the InterQual clinical criteria, we give you access to a read-only version of the criteria at <strong>UHCprovider.com/policies &gt; Clinical Guidelines &gt; InterQual Clinical Criteria</strong>."
+         },
+         {
+          "title": "UnitedHealthcare Prior Authorization Template: Complete UHC PA Guide 2026 | Muni Health",
+          "url": "https://muni.health/blog/uhc-prior-authorization-template-2026",
+          "snippet": "InterQual provides specific clinical criteria for hospital admissions, procedures, imaging, and therapies. Providers can access read-only InterQual criteria at <strong>uhcprovider.com \u2192 Policies \u2192 Clinical Guidelines \u2192 InterQual</strong> (requires One ..."
+         },
+         {
+          "title": "Resources and tools for providers and health care professionals | UHCprovider.com",
+          "url": "https://www.uhcprovider.com/",
+          "snippet": "See details Fewer prior authorizations accelerate access to care \u00b7 Need help with the UnitedHealthcare Provider Portal? Explore portal resources Provider Portal resources \u00b7 Our digital solutions offer you the fastest way to find plan information, manage tasks, check statuses and decisions \u2014 all without calling. Get started Work with us electronically ... Get a consolidated view of UnitedHealthcare payments based on your payment preference settings. Read Full Update New daily and monthly Payment Summary reports"
+         },
+         {
+          "title": "UnitedHealthcare Provider Portal: Login, | Behave Health",
+          "url": "https://behavehealth.com/billing/payer-portals/unitedhealthcare",
+          "snippet": "UnitedHealthcare still controls portal access, coverage rules, authorization decisions, and payment decisions. ... The &quot;UnitedHealthcare provider portal&quot; is not one portal. It is a stack of three: UHC Provider at uhcprovider.com (medical eligibility, claims, prior auth for most UHC plans), Optum Provider Express at providerexpress.com (behavioral health for almost every commercial UHC member, plus many Medicare Advantage and Medicaid lives), and Optum Pay for ERAs/EFTs."
+         },
+         {
+          "title": "Provider portal registration | UHCprovider.com",
+          "url": "https://www.uhcprovider.com/en/access.html",
+          "snippet": "Provider portal registration for new users. Discover how you can access the UnitedHealthcare provider portal 24/7. Sign up for portal access today."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "text": "```json\n{\n  \"policy_found\": true,\n  \"policy_title\": \"Surgery of the Knee (for Tennessee Only)\",\n  \"policy_number\": \"CS068TN.AA\",\n  \"policy_url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/tn/surgery-knee-tn-cs.pdf\",\n  \"effective_date\": \"2026-07-01\",\n  \"criteria_quotes\": [\n    \"Surgery of the knee is proven and medically necessary in certain circumstances. For medical necessity clinical coverage criteria, refer to the InterQual\u00ae CP: Procedures: ... Total Joint Replacement (TJR), Knee ... Click here to view the InterQual\u00ae criteria.\",\n    \"Medical notes documenting the following, when applicable: ... Prior therapies/treatments tried, failed, or contraindicated; include the dates, duration, and reason for discontinuation\",\n    \"Symptoms Severity of pain and details of Functional Disability(ies) interfering with activities of daily living\",\n    \"Representative InterQual\u00ae conservative trial criteria: No active infection and symptoms or findings continue after all of the following treatment has been attempted within the last year: \u2022 NSAIDs or acetaminophen \u2265 3 weeks or intra-articular corticosteroid injection \u2265 1 injection; and \u2022 PT or home exercise \u2265 12 weeks; and \u2022 Activity modification \u2265 12 weeks\"\n  ],\n  \"appeal_deadline\": \"2027-02-19\",\n  \"submission_route\": \"You can submit your appeal to TennCare Member Medical Appeals via several routes: \\n1. Phone: Call toll-free at 1-800-878-3192 (they can file the appeal over the phone for you).\\n2. Online: Sign in to your account at TennCareConnect.TN.gov, click 'File a Medical Appeal', and follow the prompts. You can also use the TennCare Connect mobile app.\\n3. Mail: Send a completed TennCare Medical Appeal Form to: TennCare Member Medical Appeals, PO Box 593, Nashville, TN 37202-0593.\\n4. Fax: Fax the completed form to 1-888-345-5575.\",\n  \"how_to_obtain_criteria\": \"The clinical medical-necessity criteria are proprietary and licensed from McKesson (InterQual\u00ae). The patient can obtain a free copy of the specific criteria applied to their determination by calling TennCare Member Medical Appeals at 1-800-878-3192 or by calling the member services number on the back of their Medicaid ID card. Providers can also review a read-only version of the InterQual\u00ae criteria on the UnitedHealthcare Provider Portal at UHCprovider.com/policies > Clinical Guidelines > InterQual Clinical Criteria (requires portal registration/login).\",\n  \"confidence\": 1.0,\n  \"notes\": \"Tennessee Medicaid (TennCare) delegates medical management and prior authorization reviews to Managed Care Organizations (MCOs) including UnitedHealthcare Community Plan of Tennessee. The governing policy for CPT 27447 in Tennessee is 'Surgery of the Knee (for Tennessee Only)' (Policy Number: CS068TN.AA, effective July 1, 2026), which formally adopts the InterQual\u00ae Clinical Planning (CP) guidelines for 'Total Joint Replacement (TJR), Knee'. Under these guidelines, patients are typically required to try and fail conservative treatment (such as a combination of NSAIDs/analgesics, physical therapy, and activity modifications) for at least 12 weeks before surgery is approved.\"\n}\n```",
+     "thought_signature": "Et03Cto3AWkUfRO0Impm6KZWRaJp-IbwqigHf-b7FpNFJHl63GNc5DTr6HVSAU7hmJHfPy82su4B-SI4FhyZ6JCIrZjeAp-bjG8KCoyYvHkqupqsdIr97ypwav_AHxrWBv9Y7VJbLEzjxt01Fbn32GN1PMfP7wZsb6buhfelxkP5daCQN0NuFSg4Vz8obiwZ8os2FaJshvWlNJJy9SN5RuIxnXgc52OqXf-8UpVXIxB3qwh5sh6C6Tjly3N2-SrJXEKeY9dIBvtS6u0NgmcrttORFcllOUNqp_Q-3XPTVr3za6ZuAkNzM_byvuvWN2_jy1UmTG4czKMhlaOh9Gm-QKqsJmUOefbCrAyagFgUQK6PYE1pzXxoTK5HCe8dTP9Ar48gtSa3ALw73RyVtQQ9nxM72iHnXRhgHq4n2K0D-hj2zhvhOhog5jP-NsHRSm2Cejw7ZcZ2QxSDdK-EP5GLV177NO-etUF8hhYvCuP6jXRXkM-KBzISi7prDvse47UQ-Y93xqAQDdnXUhcZhhiptuhqcUeurkVnJCxBqfQysCW3EKGnHV2Byvw2T-dXbdPyosrGlpVwd2gynqDjWumoBmjtiFXIUBPwsbgV4nN4HU5rHm2xPUHemM6IKcx4D6YWEUSOhc6umnY3_UblAkxKLx7ojOun7NQ-hgyDpB6pd_a1fhudlptViktmtuCXlM-ImrMxwkEtWT9ig3gQHwNe5rgnnv7ybj2caG25SVkxciRdWvnCRFnkgfvYtQjxbETb1USxchGN067De54T0V9qfayRY1RloM1Hj59RavQaPaCpU5OfEXKgEuOgamWcDKyN9EuED005SEyYoUebXJDb08Gu8gN0zSkxA3l-Eu-F2BQd2Py3jgThbl1vz8cqtnD6j0KDjwBah1Q5lWdvxSKfQtyWE1n_1FPo16l3bFTEXrK-Fv3uWONvA9Z7mujQkrbwTiKuH19HOmqc28jz8sBSDkrnL-D053OonsDGPqxIUrPS3TPf-yWpkMFgRLX7LAEZ5k7y9qpDKQtpms7mX_I6vO3t0584rXctTLTqn8vyV-5wPXMwlWCjOUuPluTJLKvQw902HPgJwohsgByDCHoHmIpGshiugcwpMTGKUvUBRlBOs3QAmNM7PcNQ8-KBStnGmz2SX5Xhoj_gcVe04_krvxqUsPcb6UrfsMxy3nPaYpW1-zVf1VRCENntRnWXaB37as72cZU4Flrn5Tpv3pwxvxS1scEpBr_DPTU_2635fTBNsiV4JYVt9DhQv_mOHB4luZsz41OwwR_uXt2EbbFJgw-iEFIQj07qrZFabEYIW9lFlX_TyTfE8UE4skdDvsgn3fkTOKJiVA3ZVml7gNU3UZFmrhrlx8cDQB1FGSpNBm9GNfU9iFOmbnj95oW3OCthgyn69eu7SxW9G-Sz_sfBda7QJSoNsYRqsGPUcaF32qJaEq9Qm1klC0mghD5FPaV9Ry6XcILg1R_5UQXhcYo4zY0i7iwUZqM3aAlJtHu9NCvOm1giUPrj07U3TWILuqZyIJxfHiO36RxJSOHfbhziJzbcj06En-r7zyd6fyORxfb1aFZ3uy3VVXOuoC-W_dXButnO0HVhFu8IcT-sFzNYM_UiQtkneyIvj97uqf60IQVVr7TqN-B5q-kM8VqhTZy6UK4JtQ-oCLILI3q3ZEECfMlhKptDnlvUpPCdLy2lad893My23fzfjGPS5x1Tw6-eZhssXsPt8BO9xgnsUeZSI4Zw7oKxvby-1L48MJM7aMUchGN1w1XuugXbcFrKmuynpfDTRdSCyD5Wu-KNsBTEDFwVfpIhK7eFeeXWMNQIE0k04hK32cHHQ5_ftSs5UUvZ12d0FrlyedmLD3ofEiJ9NMf_eb0n1yWRv0Ak6dVSKmvSFD9bDWiZAnDAY_c4VXZDj5CjByArltMSM-S3YnjzCkXiIHzqVb3ZI887SMqA0mDDw--NTr9N5diImv2zt7x5_oPLOVVPowNuKmZhmo0UASoer11hLQZyhAVGMC20ds-onLn5LllMuxDWL24RhWXIlO6nKEWlBADzTJEQQczp5onrPArydl7AVoYcaz0nnjatPIwuHJ96BF6obLUsQ5d-5klrxKuS0n4QDC6SB_WSAl0f9E9rPT0k1KDmLPqUcYKU2RivdkusAwiHHi3V9wbsDGNAmDWydhwYfwBaAoV29-Fcq2jXRccA0DT2VZxVrXlB4epXU5fZGFAtl23_h1wGDXUW9-fEPrwL8oQADCT_PycynUYlr3ZfkL_CvSEPMi9S-dUm78pAySbkK16RAfyBqGRMga26jpUfmfBn3wG_DfweRpcgjRvNm30JWP85FLWTM_fhAC9Bin8r_Nq3dI-5dieAbYgIINpxzztA3DLPXMZZM__6HCENeF22z4hDfXaXr9XQIufJSuHt51vBA4XudAzFdUI3QcfG3vvPsofLXc5WRaILvPIq5sfj0QLzEDRmY31UGICBeImBFneeNuZ5a9DOOlZigUHreWU2tIH3R7kG6LnTuxpn7UXDpDfOVUVMPFdd3XVhx7Zwtzwukl4VvSImWg1D8HwnY2vAK8auE6T4vOcl8YC-d4RBFD5_TOjJwWxilkyXjLvkPHUUnFbvEyUb-dr-Qm2uuw7p2P4gKKyac6SMu6dgLGCYbbDsOFHI_UgJoX4A3V6jJzC1VvmDu6CwiHfMnG_V3KjHiKJ06Znc-Hig42VPJMPUBk49bWaBHjrVukG8oE4yShvJe2PLHYmpECpP2feuIITmeYMqI_BPx1inH6ZceOFTu5Ue3JqT1qmIpD8dJ-1-_wdtesZpGTaOWT6DUNzFdBKYVVDy7rK-ukZIUkC9utlbdJ0LVHo4nhW7oaFQw9f1nbLmvH4UlkkHX7soeVREMUmU93WbYpGDC6Ocv8XEUzegEH9cxgVLSa8OCPFGKnQRjzzGjZo91BKoyAKj9vrxkDx0GaabFkY7HZ9cy3U5tCHM9rzhK8CzAkZdC0Ku8gP68s_TL4TmE2Vgu6eyQXTwBo6twCQ9nf9y1wvxFejw2iH1WxPyc377BOga_nUCc_mL3gKX6bXdsUlsAhmE4TQzbLxIFkHf7Ydx9IhflUT8ykWmXV37YcMoDOv0OGU_5zDd9GYb8ndjhaxMCqHe_iZFVT1XrXEF5P2ARICMRQ7QHJGf_W91HTh90UCAj48-HHK_aK6bMOY9DxFaXyq7D8Ek0n_3BXU6fj3jG6yvKuWcuuwBQ3-wwe7OO8g65T81f6mdPBhh3wLwn1qfP2Gp0qSOwbIQKXG4IwT4EDHIw-Jh3SvKyRIuTkRtEweaJGE0F6jdoWadutxt434FwERg9jUg9DqC3yElMAt-cn9KqRs9-cKHbIbWvJJllHBv1uoG7tjzbBOjsTbSHZ7VL-4Gc_B5Rn3IGT_jpz2Kcdua5ifw4kk8jMI0TN7uFqbEgabr6nddyrrRUWHLD3ogUcODoZwx4wbAnU6CoZ7L4pBqJ4VgWztka8MP9--ER34yKoK3ESw7OHAhPEgwXc7N9qQT8rJmzmOUKkG2iEFx5dtdNaiLxBWAZDT8RclXjwq3oCOGPd5skqC2o7kGzxUAVhdqlzlsZhGyu_fwfxXScc9pbhk2hY8gPAs7ch1kCN3Wyi308yqubOS2aFRhdOEI0m15-2-89u-ZbdeVpktmOTuvGMRFMNYsmFN61AbqRQ3RZMMk9oiwFPk2Kq1N38zFcVW8VLVEqTw418l6X6lT__Sidkz-0D1TPCBzX_VmFDkqX_cudu3jlwCWkJX9SMKE1fLwGZKzJ1w7d26hQ3Grs0SFRCdNf3n3TyLpIKAkh2O6V3qnPmt1_sqVfgsi5NKoYiSiaMY3hFkvvtWCK_ahcAAmCA8QZU2CMUrH2yzDzBKkXF8H3NtDYcxiscykULR3PLrAnToWsk8IC6b3ZDoc9ekRDDIIWl7dRDEPEJNrm_nlgERCkKunuR7RsePIhNDIacMuYKaSB7jZwBqAyMrOMhooEWypzejls50Q_D5UvTqoCK93uIcvRbOA3WAZj42JyHrSxSqgjzG7UNdS9udZ1PN3mrPKH0hQ0RscRv0rm8Sj762D4pyW6I2InjI_IJ-AUy4Y07W8Qh5PvSWPlzzYGRCT3okbumbEjNvona7RHy-woTH0hEh1LwMoUO_YsNQ_oVSz_idZE9m5nU_YR_mP99nl5KE0HtH6b5WqezNoaJ0ujiroCAHyB1JJNwIB5cgkeOSd5rMsDcIvEprz4hwRX5bCn_VFlnoEHt9BHLxwviDAHnMV_k4U5JVx0C8HztnXd6PBmM1MXn0Z-t-q18kEtCfB6sZxnQLyUmZSR8bTgaEEiTDOJktuiXmqjIkJ2fVKzVBS02Vu5FrvCtH7xs4BzoYef5IbvABy4LlE5FzDLLP2FosfIRWi_Z-yUOJN4SrEyfm2cGsPbWvBbZz1KHzTL6vpw0g0y5tbqGSB0cpCLpVmMD-q0sN--gdpR3irrL1aFZ00yVHQEr1p2VODVB2qvKYrzBaqwc2vMJn_YR0PmmjK8zRB_NCjw5CUTkeebtB-OJgHU_Fk5p6n3m-yaKXDvBwdEVpPSUQbVcR3zWrmHkm9cqSEXMHCTySOujKDr9sS4J5k4fslTeqKtKk1Ab3tlVY8fvluddF0in9wvYSr3fhar6D1kzqsEj5J20s5UUyu11pK9Mz-hFKPSAIKhZ9Az-5P_Lop3NENr3D6QqXqUOw5_tjSv5UJebhu2NuepTRsmyeHyNtmxI2BaD10vlH83mAO032Zy60PCzL-dqpZnCpUDb_JeXAnno7WT2bHo8fZtUDIy_wAmyeqax5eBH-WOSOI8KMr0aIMGDEP51acpmnSu_do_Bu0_hGCUavQB2hcjptwAm67zRflPzd5tyFQsmGoYkteu6bxTVPlma5TyLQFwm2AD1WqHS-KL1baFBXOOOnaSntutoldkg6JDpTy40hUGZ2ZNS_UEmWZDm4llarKJ9gfY7P3LeuQnUZfL9Xcjrr6G25Lr8MeVcoKeCQTk_7XJkFmT2iZpYwGv1z0IETsGHxIE_T05LcBV3UBP-XqX82jimNPHVU6P9px1Dd79pS3dRBY96gpjliL69vZH_QM22dhg5bSalX2w3zwsRQ_lK3H-oZtbPDrawF_ts2oBByuUYOyrRx19hGdgJ05SwaYxOif-J36cAxLeMus-UbRaFhbpMYlqrLvkcQ06Euhb30aLcwV-mDar267y0F2SZf-XjLgjQWjzwNVSr_y9oD555oUKjYTmnYDT7s16JqBgiG4xmLBkJ7ULpI47tJ5yQpAEQwCnO1cFeGCq2nHTfj-67VzZ1Z61huqcqXZb7snFz2iv-sd6COw921BGhKHjHQmTtbFK8RRYEMziBWneay9pIIWcX37N5Gf0Z1JmW0_spHJ8JfzXiZBjIpKDnYFj3tfOvGjqMXgymEOZIKWW1jIA7tOe-Db_ITSJdGw0j72sIPKzqz8s1quZ1RgsANCiMyX9mIvbur4WwKMMRZktnVyv2FGwM14iyz_dAQg-eV0MJNuZhdIiacnk2sp7bdZwZ1kmcPzkCEmW_p2lh-M4Xokdy1P0_-JB_-SHGk6RUBP1POGvBuOhUyzV1PZ2XI1oeXJDC3S2eLCX57QeOOWRKrGiFuxOd0UBDON1sMhKUUqT1L9GDboESqTQzI55gaZAD0cXvfZ7rXFJnJMC6MQO5utlloU2NwmpWsgjzsNcwVBS5Nv16fjwzdL9wAUNPrjnbVTgiR3GwBilifPuM5RpIvnCp25Tndcklfy0d7L7EOYvoczwDg7vqaOy2VEidRe--Hp7rcfbAi8C7rEQHESiqHRxT-XWwxVRXsmrxrI5Jj7a2C5gd9stwQtqLXuJ0w8uIfjnD94P_p_TyCQ1_GEuevmKHBVN6to7SF09TfQbpq9oTI_5m9G16gcvV8ArIkgjeXudcEbxfw570BLb15HEjiGiPFiqAwHEKwRR2HVFvUPff8itp6QusnYvVigE4gMc9cBgFV_KZtxzFh1WQK0intXorcsRrc0tT3Pn7uJiKot2jzroHvSZ_1dRYesnV7HDNmILB-HlLl6qr1CjIl9yJ8E2NkvLAIspWUWt1wI85MpG-pOYn8_ksPk7oM7Z__AOJ52AL2u_sLZj136gyQ8kLxl7jEb-uAeout4ulrjnvyJCTPue5RK-DOmVxx79sEe3fqBbQlvorqczqJZYb-5mjexaE_x0NL_-c6O3VFiVE6Ly4_oZNbNDthe2ESyMl0pcrFtOFah9WOvunvl4-P8nA5ST_b4P9M7RO7NjctAzFlJbB2XgSY_5Mp7m0e7OlHwQTE2h2z9PCa5LWLgel0p9DzC8oC15UV0Etc_ZvxZ_HVU7YcJ1GSokwk89ZpKt7ACv5eivTq39YzBHL_yG_C7soHBC9vglPhLmX-ORFyWqirObRigiGk5ezvAwJRwxh7uAr8STZV5q0IGfEeoREfwd6RC2ofKQqt2SgRSAFdTNHFz6aMLKhz46gogZvoo7fQbcdCN_8xpfMD0NP_1Fp4RYR-X7z_iMptQnX4seXFzn6fmuuGbY2Y9IckcV30OCE69-scD5ZEghIwVVmBykRNgXiLKQ1F6L9yw-FG8JtU3M4Y8EJHggz00PgOXhIki0BNA5xYVCmHfvdT3mrm93Uqo92K_Y-DccbluzQi11WXYR12W9CXiSkqRWFLxcjum1qCb2Gmb1QkxD-w2MtlVbkDjY9dFFUDsrf2YccZe-jg8UPwX65y-kYOxH5BVSpmrZujERHGHo7-R9aEFahXc67RGe7F7H-vVUkuodWMdiGruzTLBXUz6eS68G8jdsHkEsjlu7WirCMMxhEv4e875KfxfOfj1ycVWvvVWxU-uY_jQwgjBg40RpY5RCf3WhFYHdNKAs7e16OwGtOUTuthUV_-g1GXAiRFResM7_cabiO0Vbmxxt3FtxWLKNCJfYea334mg0Q9kS1CnmS1jH92-AqGL5XTmG6MhTd2O8x8PFw55fXqEZCWa7hC2r0PCmO6W4YeDO2K-yGCH43cEY8GpQK9SagzlgijXW0QfRMNYGw-X1xuoGSCbGyfbZw7F4eYtrAfULwF6HfUWkqC6gBg-CQ96D-Zb9JxBwF0Np0ENGLt_X2Xoj73aBWg2PNta2e0N_sYODen-XCwwU1F-5SwGV8_7flsN6cES8WixCBPQTDZvRACQv6HTWExqm1Kf7-4ekyhXihNo8TxoJs5cV79iI6aP6uqDYoy6vurDAV1WEIDc5xI02dTkaV1HdNDPp3UGHtBvPjmsu6ffL06zAzKvTafj5ttszp3IG-A5zWT8N_f6gg_eRVSWcacTzZKVYmBKWfCIqb6-SGGXNnUmVqJ4YTFoWjWBJC5Jaw8Tnsx2FpOFsfyYaqYhaTHXerQhI7K40UU073e1bMNXYefkdTUsPXcimLiJMPCyPVN1deTWmsH8vEk7CBMbLVpCA0pTe2hmoZEyftxZEsJQln5cTpJ5OWXJD4_64IfdjBTAgUnM41wyR2H8fyorcGy706jzY5irNgXnNh5t_OfQbBJ6LfdJi68RfUTdnVW_d7iK-uNWSv_jWeIHtK_a__Caj6ThOfcuod4abodEj6hEcpZ4iXUys1P1g3CwXDMTVzhG2ko3Aud_vW0t6p289br20S5ZNReSIaz9etUYlIpAMiJ1BWF8T70y6JsQTL2ftXAwQ5UzEcsaE-SqYyC43Ux0fWkc0SueaF65Q-ItRXvjoZx80NVjAgJV6NanrK4An4gOrJAyj5xMETAFnrOuc-9KIBV32Oix2pLtpcXygZsz_HM6z5MGwDfqDZ3HgQavO5yox62yvErZ0s1j9EHkI4eXXvETc2F4X-7J5LJ47zMSRbZs2yT4Dtqm0HOdHaseBpoSzYLZl_EBWcYAsSRzhfpeSea1xNPwkaYEBg99cC_rJfxqN1A97OtqK9w_IxkRQsDF_ZGBXul5KUtw7inj5m5jmwBxRFhByuh5N240jDKZnvwQYVB4nO-6aPegGlIAroNL04Mx9cA12Ke7SMMp43aElO0MpR6f8SjmxK62AISPqBXLrU5rTiJCyw_wWzl-VIm9cpkngk1dgTsP0OVO6DuG7gAk3FyMH54wxVjZ4NAtsDlvEoHp7m99T8GGkgyCKvt0s7wz_y-PjLC19VElq_T4WFoWuAlGhOXLshEgxNaEnb7m94wwR8kCSOmsPr-PsHkO-8reWEvRbvjN3u-bCGraTaITjYpE7qNtOJMsXpiG-FwVPdJ2a-vETzi_nR7G6cz9TDKGNqdWSiTYgIaIhKDvg39kv8hgMMma4BnWE2Kie0ONePl-MyRnGcOjqJMzu7a7q6VjLNPFuBIhz07m3FrwQVMSkpwsWsnVuCVCY4AZzNv7ZOMazvF9_DnVZMX8_mgWuHBeGGjUNOTpyELoT6D1wZZtRbwWXzfiGMbV9tcnYnVUhiHVF0CQasiffu5xjfyaV9uTRE0rAolVv0N5mPNa30UGYsOKKlokZM3D7t5mv58263jsDduwYZEZYjY2xfukCSe7x2gcaVN9cy9arvepZgIysUb02CCYm9S24bnx32HfKDKIiqv-7mTz-QNNqoEAksVzODIca6Dc5BOzT735QLw9c6DfRO8cfln6SFhs5z8h5yQWOZIKDEwOwSGogd8GF3F08Beowy8i797aja0Mtx1gCzklz8u4pu419NuQpg8GNMUbLH5RMT3y4p69HO2Y7XlZ_oduLZQy518FQy_aDk_cqefY5ZPzCh3uHOBFF-BR1QsvGPEUjKn0nQYbrPNdsuy9vP3Ql-rPg13rV0w3Ar5WMHWk4YYBaPZF95iqu8Yi405MxMstReBrP7NQ5dacX7VuEwst0qDBAC0yFqMopWHtaVp55ZFp_nj-8SlS39nyfaxmGGiYrWaJw5aqSFgROKx24-AHA_Mm4YOxa2k6CZTgCo3sGdhyZu5S9bSxSRVqWkjPtvdzPrBQoAlTP4XHeMmzSXoWSMB6TjMZnTjyieuj3XG58D032jVgd2vsUxOqSOfEwj54DPFj-db7gFW7jC9IEXcf69bkPg0wL9Q3vZlSmy-VV18tgb88Udc4C65DoyR6eYLhaCpxFlld_IC-MNMBOX1ztOpbxxdRXieOIEHgloVKdpJ-omf_kSUlgsDcX1HlAjh0lF2haMjMC7HbLKSDmCzYaDUTVOoafr2UmxKDk2_644oJSbaZdW-gaENn9Fg9LNHLxaW1ssk88c410xhqVN8ZMAPDf1v9FJO46EJ2YmMWNazRheq1rblrc_qbv5xWB0qPcd0ydFc6EGGOTDgpKJVduzDidUpdGZRVTtxusvRcLt2eNc3-FImJ3bGEJBex2XAFlTtF1dYV86Rd0R_4_2XpjQiDXw2P0yubhkazzyiTkUJyuYyCVPUQFKUEFS1CdQfyqtYI0dq1l2YO4mFk0gEyVA-jHeOYS-0yB6WRmOhhjq1lI9SJR8kv7D4huRb_XMpXKTOCTd8z0pW0bK4CFUfn21bXsJ3R4R1yHSyuLhIQp7k="
+    }
+   ],
+   "role": "model"
+  }
+ ],
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 114047,
+  "output_tokens": 2032,
+  "cache_read_input_tokens": 368838
+ },
+ "model": "gemini-3.5-flash",
+ "tool_calls": 32,
+ "elapsed_s": 174.8,
+ "run_id": "r-5633b4210bb9",
+ "case_id": "poc-638643858b"
+}

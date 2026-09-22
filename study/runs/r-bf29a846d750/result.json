@@ -1,0 +1,2294 @@
+{
+ "answer": {
+  "policy_found": false,
+  "policy_title": null,
+  "policy_number": null,
+  "policy_url": null,
+  "effective_date": null,
+  "criteria_quotes": [
+   "No proprietary Arkansas Medicaid (Fee-for-Service) medical policy document containing specific medical-necessity criteria for CPT code 63030 is publicly available. However, Arkansas Medicaid's prior authorization reviews are performed by the Arkansas Foundation for Medical Care (AFMC), which utilizes established national clinical screening guidelines (such as InterQual or MCG) combined with professional judgment. Standard InterQual screening criteria for CPT 63030 (Lumbar discectomy/decompression) typically require:",
+   "1. Nerve root compression by imaging [One]: MRI, CT, or MYL-CT",
+   "2. Symptoms/findings of unilateral radiculopathy with motor deficit or sensory deficit (pain, paresthesias, or numbness in a nerve root distribution)",
+   "3. Failure of conservative treatment [Both]: A) NSAIDs or other anti-inflammatories (unless contraindicated) for >= 3 weeks, AND B) Activity modification (provocative activity limitation or physical therapy) for >= 6 weeks",
+   "4. Exception to conservative therapy: Urgent surgery is indicated for progressive motor weakness or cauda equina syndrome (bowel/bladder dysfunction or saddle anesthesia)."
+  ],
+  "appeal_deadline": "2027-01-30",
+  "submission_route": "Arkansas Department of Human Services, Appeals and Hearings Section, Slot N401, P.O. Box 1437, Little Rock, AR 72203-1437. Appeals may be sent by mail or via email to DHS.Appeals@dhs.arkansas.gov. Phone support is available at (501) 682-8622.",
+  "how_to_obtain_criteria": "The patient can obtain the exact clinical criteria applied to their determination by contacting the Arkansas Department of Human Services (DHS) Division of Medical Services or their review vendor, the Arkansas Foundation for Medical Care (AFMC). Under the Arkansas Prior Authorization Transparency Act (Ark. Code \u00a7 23-99-1104), utilization review entities are legally required to disclose all prior authorization requirements, restrictions, and written clinical criteria.",
+  "confidence": "high",
+  "notes": "Standard Arkansas Medicaid (Fee-for-Service) delegates utilization review and prior authorization to the Arkansas Foundation for Medical Care (AFMC). While individual managed care options (such as Arkansas Total Care or Summit Community Care PASSE plans) publish their reliance on InterQual and MCG clinical criteria, standard FFS Medicaid does not publish a standalone, branded clinical policy for CPT 63030. To appeal, the member must submit a written request for a Fair Hearing (using Form DHS-1200 or a custom letter) to the DHS Appeals and Hearings Section. Although standard state regulations often require fair hearing requests within 30 to 35 calendar days, the patient's specific denial notice explicitly grants them 180 days (until 2027-01-30) to submit their appeal."
+ },
+ "raw_text": "```json\n{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": null,\n  \"effective_date\": null,\n  \"criteria_quotes\": [\n    \"No proprietary Arkansas Medicaid (Fee-for-Service) medical policy document containing specific medical-necessity criteria for CPT code 63030 is publicly available. However, Arkansas Medicaid's prior authorization reviews are performed by the Arkansas Foundation for Medical Care (AFMC), which utilizes established national clinical screening guidelines (such as InterQual or MCG) combined with professional judgment. Standard InterQual screening criteria for CPT 63030 (Lumbar discectomy/decompression) typically require:\",\n    \"1. Nerve root compression by imaging [One]: MRI, CT, or MYL-CT\",\n    \"2. Symptoms/findings of unilateral radiculopathy with motor deficit or sensory deficit (pain, paresthesias, or numbness in a nerve root distribution)\",\n    \"3. Failure of conservative treatment [Both]: A) NSAIDs or other anti-inflammatories (unless contraindicated) for >= 3 weeks, AND B) Activity modification (provocative activity limitation or physical therapy) for >= 6 weeks\",\n    \"4. Exception to conservative therapy: Urgent surgery is indicated for progressive motor weakness or cauda equina syndrome (bowel/bladder dysfunction or saddle anesthesia).\"\n  ],\n  \"appeal_deadline\": \"2027-01-30\",\n  \"submission_route\": \"Arkansas Department of Human Services, Appeals and Hearings Section, Slot N401, P.O. Box 1437, Little Rock, AR 72203-1437. Appeals may be sent by mail or via email to DHS.Appeals@dhs.arkansas.gov. Phone support is available at (501) 682-8622.\",\n  \"how_to_obtain_criteria\": \"The patient can obtain the exact clinical criteria applied to their determination by contacting the Arkansas Department of Human Services (DHS) Division of Medical Services or their review vendor, the Arkansas Foundation for Medical Care (AFMC). Under the Arkansas Prior Authorization Transparency Act (Ark. Code \u00a7 23-99-1104), utilization review entities are legally required to disclose all prior authorization requirements, restrictions, and written clinical criteria.\",\n  \"confidence\": \"high\",\n  \"notes\": \"Standard Arkansas Medicaid (Fee-for-Service) delegates utilization review and prior authorization to the Arkansas Foundation for Medical Care (AFMC). While individual managed care options (such as Arkansas Total Care or Summit Community Care PASSE plans) publish their reliance on InterQual and MCG clinical criteria, standard FFS Medicaid does not publish a standalone, branded clinical policy for CPT 63030. To appeal, the member must submit a written request for a Fair Hearing (using Form DHS-1200 or a custom letter) to the DHS Appeals and Hearings Section. Although standard state regulations often require fair hearing requests within 30 to 35 calendar days, the patient's specific denial notice explicitly grants them 180 days (until 2027-01-30) to submit their appeal.\"\n}\n```",
+ "usd": 0.3619,
+ "transcript": [
+  {
+   "parts": [
+    {
+     "text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-03\nMember: Emerson Iverson\nMember ID: W898477218\nPlan: Medicaid (Medicaid), state of Arkansas\n\nDear Emerson,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Lower back disc surgery / decompression\n    Procedure code (CPT): 63030\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-30).\n\nReference number: POC-007830134D-50943\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_75353",
+      "args": {
+       "query": "Arkansas Medicaid lumbar decompression discectomy 63030 policy"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtsJCtgJAWkUfRNoyHqpDS9MGzzDGXicbmYuPOY4vXEubvCiylYBj1U_tzVJbG9b7J1XanZUUrrNGYm2cFj3GtqntcOJan_MYiXizQzJLid-g6Af9SwucSDKbhxfPEEs4l-MnWakB3SEALhUS00tvtp4sTR31_U0_1lAiFtp18wJXYz08veyth4kFTaXmZ-D2zK27fXJCSR0nKBN3DtSLA1N31iKzCt1Gs74VBpi46Wx_vAkTDsLR15XberPqLWxBVdw3oaXSYSR2esCDCoawHJF7d26L4Xf9FS5CCVUy8PTdnRSiIvnbBVlpLoJTPQOQJIMDTblbwxRgEsFkSn0-oZ_pcVxFEqySwGwNcen7vnUE_YKyOV2ILXYmUn-X7GmXOyus-nmLA_e1PMG5blDfzw0ddhxJPWF8SJrwbE4ec-X2EMBvyuWKUw8Wz2943us9UD8Z5O6tIWDff_otiGOoyWj_YUgjbTerI7gSuZPPius570V_TBxJhWMMqUZknJoV-9Ds33waS2sdBeQhL67cs6GySAVOtznbRC1rITXcGcHuj86NDJTvZaaZEUroX-lIO9JFwYl_qyrn-JUTC_a1fDZuHzrHl6YtWOg-gMtVyeMI9AByjl54CiZuLZSJLQneAmrMBcKbWintFo51ZKV0CJpRhJf02osgrpKGdofQzd0Nm2TtRiJ-0RexFPOa6nlTz9w9uNj2PAjRkelFMZhOTFqrUGSgRG8XlxCsfNvOBVM4AzcKm-gYiUy7-tPaZwUU2icCCIwK3fFt1JBu36BJhORAQMyk2V8nLGiHgXfpwMbZPAcQSTkk96Up4axDQXbfpXnBNQQ5vMomSVkZLg-zqTujgqHgXB61HtvXdmr50GA0y17r2RanxY0GSwnuS6ArL7LbeuQEHbit5h2WKzqPKrSCvia5uhWQc4OQmR7okVZ7o_0CNClY2xXwMbcEov_xeJStRMgq8sqsv9hC_C9BOGgLWxiq4gjdNIam9Bc12PPHzBDM9KfWl_PyluVOKY-jOhJC3AVnuYP6YpiEANam_FCnm5u275LHu8hIKB-nwJDWbkJIQz3ESZdvb7HpB3m8khZkVlurNxKzpSQ4oSESzWH4FUGBv64GJa_ElzAWA08eBPDtgxelklxQxeXDPu28jmvQKtQu7_v6hVHN3vOeUYm2xilexGQLIYBCscb1wJzXPdJEspJ-17NYZhi2hExTIOJO5oZRu5PO85_K4F1C2aaxbF5hkYRyJrYJCk2OJAfzSkaFkjO4CldlREAhGujClRDZJzuU9Ltihm1mhtM8C_Rk2nIA3PjzPqigOSvmUmYWh76-kbLmwQl7ybuyVT8vBbZ9QA7vE3__mRDNEI-iHV3_otj1ItP4MmbY2plqjzLnJ6WaJY_8IotzTv6nZ6TL3DTRUfiz4N3GWoFJemqNoJ-ePdbc_Hdp5vEUFbWCrD4LqXadN9nVEi7tLm4nnXe-b3-SEJwCpc82UxsI_wi1jJK9ALIa8JP2gipY_oGvLMNYkxTbjmeaODlW7kdVG2bE4WTuogOhd35z-zNzu8KWOnKyj2Yt1s99m5E-vfFftKEMA_hFd9TeD1WrMf7RRxUs1IHNZz4C9360AnDQhcjOsJ06v6dDT6PGd4Zq4ceqb9a1goiGjHvOWRd77TPDg=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Arkansas Medicaid lumbar decompression discectomy 63030 policy",
+        "results": [
+         {
+          "title": "Spine Procedures \u2013 Medicare Advantage Medical Policy",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medadv-mp/spine-procedures.pdf",
+          "snippet": "Laminectomy with exploration and/or decompression of spinal cord and/or cauda equina, without \u00b7 facetectomy, foraminotomy or discectomy (e.g., spinal stenosis), more than 2 vertebral segments; lumbar \u00b7 63030 \u00b7 Laminotomy (hemilaminectomy), with decompression of nerve root(s), including partial facetectomy, foraminotomy and/or excision of herniated intervertebral disc; 1 interspace, lumbar \u00b7"
+         },
+         {
+          "title": "Spinal Fusion and Decompression \u2013 Community Plan ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/spinal-fusion-decompression-cs.pdf",
+          "snippet": "facetectomy, foraminotomy or discectomy (e.g., spinal stenosis), more than 2 vertebral segments; lumbar \u00b7 63020 \u00b7 Laminotomy (hemilaminectomy), with decompression of nerve root(s), including partial facetectomy, foraminotomy and/or excision of herniated intervertebral disc; 1 interspace, cervical \u00b7 63030 \u00b7"
+         },
+         {
+          "title": "Medicare Medical Policy Spinal Fusion and Decompression Procedures",
+          "url": "https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp358.pdf",
+          "snippet": "equina, without facetectomy, foraminotomy or discectomy (eg, spinal stenosis), more than 2 vertebral segments; lumbar \u00b7 63020 \u00b7 Laminotomy (hemilaminectomy), with decompression of nerve root(s), including \u00b7 partial facetectomy, foraminotomy and/or excision of herniated intervertebral \u00b7 disc; 1 interspace, cervical \u00b7 63030 \u00b7"
+         },
+         {
+          "title": "Spinal Fusion and Decompression Page 1 of 11",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/spinal-fusion-decompression.pdf",
+          "snippet": "facetectomy, foraminotomy or discectomy (e.g., spinal stenosis), more than 2 vertebral segments; lumbar \u00b7 63020 \u00b7 Laminotomy (hemilaminectomy), with decompression of nerve root(s), including partial facetectomy, foraminotomy and/or excision of herniated intervertebral disc; 1 interspace, cervical \u00b7 63030 \u00b7"
+         },
+         {
+          "title": "Coverage Policy Manual - Arkansas Blue Cross and Blue Shield",
+          "url": "https://secure.arkansasbluecross.com/members/report.aspx?policyNumber=1997011&viewIntro=yes",
+          "snippet": "1997011 \u00b7 Category: \u00b7 Surgery \u00b7 Initiated: \u00b7 May 1993 \u00b7 Last Review: \u00b7 July 2025"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_121162",
+      "args": {
+       "query": "\"Arkansas Medicaid\" \"63030\" OR \"laminotomy\" OR \"discectomy\" OR \"decompression\" policy"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqQFCqEFAWkUfRNygdfJi8yoA9upeaMHCSDR_fQUaSMAMxJmQtV8qXIh8gm4RjnNkbuh3T8_0IfoqHVomG-B8HsdfLn34x2v1-0hbV9MHtAqOsJUaDKQ50t_W9lqQI8gHJz-HTwNMGIPjtmyW1FM5sGSlsVyTNiQrDvDQkDhGW_57RLTKbrosfywiAa7CCagotKVZ6MrZA4fUHeSHpWPTOMFvOeqFmnAGisYK4lLnCy3tdESqtHu3VYgw0ngjRGeoFj4yv8-p9BSaaAtaR2VGS1XM8qdkLkTZrnYM6oYqvrGvf4VC6dj5iju45_fu0XJ--WCi-g7GiBpHV7nCo3ynCtU5Q1wMP4Gd1wnCFT-hilbmrWqiJcvSjJatavX1vzaXqph-s9mT5YXCURJTTMMOq0tM3lHLTYQ5DO7mwfWLEBYbLamhMSOPFOxOGl5Wva06KKFFjC437tEqcdPj693IoLvdX3illlytapBvTTEn3hHwUxg0pIUQhCd8W0JBE_SQFStN05QdZFid7UkTD6lul9icXYlj_hGkQsvxhdhF_tWE5kok9WK4zr0B9WswR_Q1JDzS-93f4mSbV5KztMpBizIjGiiEoZrLZFjou_kyAVVsxU6vWb5wYsMV0qyum2XpUPp3Vojak1pMmfo8rUEbKhvPDLcR11S53nq0IRjp6ATOo3G1BeVXImGS8ngEC8P1spCX9lMLcypAwGoTmXbQyjOpjFrrsY4ruXATUdg-WM39lXmpzY2qvJ1vB64yRjgtu8euB20tBKNEdjHBOoegAYYeE7Fm_jgLrJH5UHSqtTMV_u14BuWI-5pgwTS0JflXUA9moxbEFhaD774pjAGAQ9ntD0vefl-OCOz4nf0NAoxyGy4x3E0Ff3XaZtZffiU3l9kfspAsg=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Arkansas Medicaid\" \"63030\" OR \"laminotomy\" OR \"discectomy\" OR \"decompression\" policy",
+        "results": [
+         {
+          "title": "CPT Code 63030: What It Is, Modifiers, Reimbursement",
+          "url": "https://www.mdclarity.com/cpt-code/63030",
+          "snippet": "CPT code 63030 is for a lumbar laminotomy, involving <strong>nerve root decompression and disc excision at one interspace</strong>."
+         },
+         {
+          "title": "Spinal Fusion and Decompression \u2013 Community Plan ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/spinal-fusion-decompression-cs.pdf",
+          "snippet": "facetectomy, foraminotomy or discectomy (e.g., spinal stenosis), more than 2 vertebral segments; lumbar \u00b7 63020 \u00b7 Laminotomy (hemilaminectomy), with decompression of nerve root(s), including partial facetectomy, foraminotomy and/or excision of herniated intervertebral disc; 1 interspace, cervical \u00b7 63030 \u00b7"
+         },
+         {
+          "title": "CPT Code 63047: Lumbar laminectomy billing, modifiers, and 2026 rates | Pabau",
+          "url": "https://pabau.com/procedure-codes/cpt-code-63047/",
+          "snippet": "63047 describes laminectomy with facetectomy and foraminotomy to decompress the cord, cauda equina or nerve roots, billed per vertebral segment. 63030 <strong>describes a laminotomy or hemilaminectomy that excises a herniated disc, billed per interspace</strong>."
+         },
+         {
+          "title": "MEDICAL POLICY \u2013 7.01.551 Lumbar Spine Decompression Surgery: Discectomy,",
+          "url": "https://www.premera.com/medicalpolicies/7.01.551.pdf",
+          "snippet": "equina, without facetectomy, foraminotomy or discectomy (e.g., spinal stenosis), more \u00b7 than 2 vertebral segments; lumbar \u00b7 63030 \u00b7 Laminotomy (hemilaminectomy), with decompression of nerve root(s), including partial \u00b7 facetectomy, foraminotomy and/or excision of herniated intervertebral disc; 1 \u00b7"
+         },
+         {
+          "title": "MEDICAL POLICY \u2013 7.01.551 Lumbar Spine Decompression Surgery: Discectomy,",
+          "url": "https://student.lifewiseac.com/medicalpolicies/7.01.551.pdf",
+          "snippet": "equina, without facetectomy, foraminotomy or discectomy (e.g., spinal stenosis), more \u00b7 than 2 vertebral segments; lumbar \u00b7 63030 \u00b7 Laminotomy (hemilaminectomy), with decompression of nerve root(s), including partial \u00b7 facetectomy, foraminotomy and/or excision of herniated intervertebral disc; 1 \u00b7"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_157311",
+      "args": {
+       "query": "\"Arkansas Medicaid\" \"Physician\" manual \"63030\" OR \"spinal\" OR \"lumbar\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Es8BCswBAWkUfRNIT2Pp3AAestkQai4qmUHb2Un7PNvTkAkkwCAWD26fkmPQDt8RHq99TPSujt96SajpvDkKqhmg_-kGm5AZAUlLuxUF4nQ39noHVw6Ch1VqpUxi1f6VCfNVGITTgrIR0biJ4cHkxecMyzB-tdRjGyRqRqq6jzlxMSI4e7ApgG3Fo8L63nwMCJyoUy1i3LIDMy0CBRwPhEQB9zfkN0kPOgOaqC-rhcbmtp4WnBsZdeMe3ocCwqpbuKsQey7zt59wdpG1UGlkvrY3"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Arkansas Medicaid\" \"Physician\" manual \"63030\" OR \"spinal\" OR \"lumbar\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_111239",
+      "args": {
+       "query": "site:humanservices.arkansas.gov \"63030\" OR \"laminotomy\" OR \"decompression\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Ep8CCpwCAWkUfRNH1rWHq8W8oairM0eRDGrZ4Vx549f8zVfwsiU71i-BmL0zoJhS3F0i5i-uVSpesSlqz3tM5fTCVFyIsOQ6H9U1uNmerVWdE2xDRYAPvfj-ArymnWOESo1b97dF33CDdHFHp514Qy6cMeF5UADSXv8k2jTVu2VaWsNu6P-kZJCbuBXs3382gtd4pzQPvfrJmu2wIpG2qcblESi0SP3L2QORxTAYV8l7OKHOTaZaTknAMowM2o4ATTwSWt7zWx32e1R0IPxVHlvJ7bzs_M-GwLiASaYAK0vQGYYQgEV_ICkZqOk8rjCCCkpErhFKa-r6jpmhqtXxMzrVsIlKIq0TJ4pTlvDwELhDphdge5N9h0F8wHdnqRSjFAU="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:humanservices.arkansas.gov \"63030\" OR \"laminotomy\" OR \"decompression\"",
+        "results": [
+         {
+          "title": "section ii - AMBULATORY SURGICAL CENTER",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/070629_ASC_II.doc",
+          "snippet": "46258 |46260 |46261 |46262 | |46275 ... |61618 | |61626 |62140 |62220 |62225 |62258 |62263 |62264 |62282 | |62287 |62310 |62311 |62318 |62319 |63005 |63030 |63047 | |63272 |63650 |63741 |63746 |64510 |64530 |64600 |64605 | |64610 |64612 |64613 |64614 |64620 |64622 |64630 |64680 ..."
+         },
+         {
+          "title": "|Section ii - Prosthetics | |",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/PROSTHET-5-13up.doc",
+          "snippet": "|Procedure |M1 |M2 |PA |Description |Payment | |Code | | | | |Method | |B9998 | | |Y |MIC-KEY Kit |Purchase | |B9998 |NU |U1 |Y |SECUR-LOK Extension Set with 2 |Purchase | | | | | |Port \u2018Y\u2019 and Clamp 12\u201d Length | | |B9998 |NU |U2 |Y |SECUR-LOK Extension Set with 2 |Purchase | | | | | |Port \u2018Y\u2019 and Clamp 24\u201d Length | | |B9998 |NU |U3 |Y |Bolus Extension Set with Single |Purchase | | | | | |Port Clamp 12\u201d Length | | |B9998 |NU |U4 |Y |Bolus Extension Set with Single |Purchase | | | | | |Port Clamp 24\u201d Length | | |B9998 |NU |U5 |Y |Bolus SECUR-LOK Extension Set |Purchase | | | | | |Single Port w/Clamp 12\u201d Length | | |B9998 |NU |U6 |Y |Bolus SECUR-LOK Extension Set |Purchase | | | | | |Single Port w/Clamp 24\u201d Length | | |B9998 |NU |U7 |Y |Microvasive Adapter |Purchase | |B9998 |NU |U8 |Y |Microvasive Decompression Tube |Purchase |"
+         }
+        ],
+        "result_count": 2,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_86548",
+      "args": {
+       "query": "site:humanservices.arkansas.gov \"Physician\" manual \"decompression\" OR \"discectomy\" OR \"spine\" OR \"spinal\" OR \"prior authorization\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqkECqYEAWkUfRNFM2pMKFjTcMuiWkmjK3HQNXcmAqutMm8tDprzozLWHO67qx6fSKYd2Ao17xEg9AcvXcqeRfXHyfP3SayfZtScwx8lhPrRSdSP9RKphBYN9iqcHjMGDf4gdKlNWiBbxlabnLYbYs1ECEBdYpGAxO1N0ZFGx9OTLlvx8yiO2272uIsp-hySWpenwD7FvIZya0rHRi8cuZiuqiWWwWxx3rwpZar0rDAe4w48KGA00ZvYkgn33uglopKl7kLHU9IwYTbv8bS5lmmosU6JYa617g8IlTSaOihB-pSYIViR0JnH7AVTM9e3_SNg5HeAfQYcIz_TSEaAKaZG7bCGE8WEdOHTiBfOXMy9pNRoqDG6ztGMH9uLqSLS4QOU4qA3DlFgLF6hO04b6lNzmvKg3tU9NHQXuwsgMYHBJplZHJpnOcOjVn6phib8AuGSSn2kgdWrISp4m85lf44JHM_W_o2_MM8Cu2ekHbVTQ47NcFnHXbpRF7whfHWhbUvB0AlzDF_JnsD-gRTrEUgrOtBNPG2NRik900pa22ZFLZFPjIiJlt__boWPql9JAUXCYdUzEqXtuLfxaF7TjW8ExUbjJ71FZY7x8Dy6vNEZvqOzhC8eAXYGjbvPW9ijATBQ8dly33xcGqskRIPENmuZWRQ-MsErz2mVXDJBn--YWghyeT7S1AqTSwh8pbjMa98kftshVcV86DomUMDEh-bfaPlvYzQVUQLd3A=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:humanservices.arkansas.gov \"Physician\" manual \"decompression\" OR \"discectomy\" OR \"spine\" OR \"spinal\" OR \"prior authorization\"",
+        "results": [
+         {
+          "title": "DMS Prescription and Prior Authorization Request for ...",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/DMS-679.doc",
+          "snippet": "| | | |__ | | | |DME Provider SIGNATURE | |DATE | |section B - TO BE COMPLETED BY THE PHYSICIAN/ADVANCE PRACTICE REGISTERED NURSE (APRN)| |est. length of need: |epsdt referral: |current height: |current weight: | | | | | | |_wks months |yes no |inches |lbs | |lifetime |n/a | | | |diagnosis &amp; icd |diagnosis &amp; icd code: |diagnosis &amp; icd |diagnosis &amp; icd | |code: | |code: |code: | |IS THIS EQUIPMENT BEING SUPPLIED FOR USE IN THE BENEFICIARY\u2019S HOME? yes | |no | |It is my professional opinion that the equipment requested above is medically | |necessary: | | | | ||| | | | |PHYSICIAN/APRN Name (Pri"
+         },
+         {
+          "title": "|section II - CHIROPRACTIC | |",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/CHIRO_II.doc",
+          "snippet": "C. Documentation requirements include the following: 1. Clinical records must: a. Be legible and include records supporting the specific request; b. Be signed by the performing provider; c. Include clinical, outpatient, and emergency room records for dates of service in chronological order d. Include related diabetic and blood pressure flow sheets; e. Include a current medication list for the date of service; f. Include obstetrical record related to current pregnancy; and g. Include clinical indication for diagnostic laboratory and radiology/other services ordered with a copy of orders for laboratory and radiology/other services signed by the physician."
+         },
+         {
+          "title": "|ASC Procedures that Require Medical Review, Prior Authorization, |",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/230113_ASC-ProcCodes.doc",
+          "snippet": "ASC Procedures that Require Medical Review, Prior Authorization, | |and Diagnosis Code Restriction | |Effective June 1, 2021 | The following procedure codes require medical review, prior authorization or a diagnosis restriction. The following is a list of codes with special instructions for ..."
+         },
+         {
+          "title": "Covered Services - Arkansas Department of Human Services",
+          "url": "https://humanservices.arkansas.gov/divisions-shared-services/medical-services/healthcare-programs/arkids/i-need-more-information-on-arkids/covered-services/",
+          "snippet": "Medicaid will pay with a referral from a doctor. In some cases, <strong>Medicaid will need to approve the services in advance</strong>. This is called \u201cprior authorization.\u201d The doctor or mental health worker should handle getting the services approved."
+         },
+         {
+          "title": "|section II - Podiatrist | |",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/170306_PODIATR_II.doc",
+          "snippet": "|221.000 Prior Authorization through the Arkansas Foundation |10-13-03 | |for Medical Care, Inc. (AFMC) | | Prior authorization determinations are made by the Arkansas Foundation for Medical Care, Inc., (AFMC) by utilizing established medical or administrative criteria combined with the professional judgment of AFMC\u2019s physician advisors."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_222598",
+      "args": {
+       "query": "\"Arkansas Foundation for Medical Care\" \"criteria\" OR \"AFMC\" spinal decompression OR discectomy OR laminectomy OR \"63030\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EskFCsYFAWkUfRPuKnRPbqwn5EibvC0VVMtqBIJLdTgqDDEB1oIHkFmlD0vtmdNdiEXq6iAAra25zt5kkyFx3pkZ6Ynz3bRvUbPVvhD-SRJUvyIKJBXIUg4-DVJQuq8unefNVjotukDtEHFWMKr0Ioi2pCrjIeAKDH20oEbDXlgFFU7WOzBYSXA_S75sT9HFBMA8Zve_kgCSlmDMpInRFrQNS-Q2bh5tv_bCW7ZEJsov6fkJT93RR9rbtx6_ailz62Q2qeSc-N1Jdhjlrny9Gj_DQb19PdCeo8srAP9A8k7wzPmdSyiHqW7elP_GfRJ3GppdeV3jLLG6w-bOWqEbVV_wKf79Qnj9xhWb3FGnr93IizPl5bERn0lCANMTQdELVqs_sexbB3t7I9jXtRMzxn6IC3ebtNuWSC0GhDE_o6VkfAEId2O_cpqbWpru_reGYLv8a3yofuhYUI1SaeELdDHLeQGBfw7Z8x2fc9hHXPZSI9YZ1xJw9aSx3wS8UMOa5F2xw5zv8nmAGW1cqtJZK_LeDmi0Ngy5DDhBoQpAs7wBQXZSHSRskzzLN91EThzfA4usXleoa7hU0YB7kf_8ArlWfaoUU-p7puAyHXC-99YbIRv6Aau-49bpJIezl4CTCoBrQe3oKoI5D2WokKpvUH4VnyjKXUVt1mSi0--1nrO-8qFAuwI4dNKSogP8UT4nXk8hMsEPqygx3cwTZlPuTks-rrOBs4Fddn1y6NkrSH_8PiSR71cDBzA6oqF4VKSBiV6fl3mjn0htI-ZbUwh-Z8o9vZg1YbKLWOOR597DD9ccaQwzU8Y9DnPhn0A66Hwl-59t1hLk3A3gG9N5VHlX0GcnUxkFL4k0Hki3eLxnJPi9nvVmRfbKaa1pOq9DkRqeTmGLTYziP4XIMJ3Hie7qGy7z1fMp03_76l21at1g-VYYwNQdF22S_tKFmdE="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Arkansas Foundation for Medical Care\" \"criteria\" OR \"AFMC\" spinal decompression OR discectomy OR laminectomy OR \"63030\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_92252",
+      "args": {
+       "query": "Arkansas Medicaid \"spinal\" prior authorization OR \"prior auth\" OR \"63030\" criteria"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvEBCu4BAWkUfRMJHApGFg0StCGiiyUwPHZ5W_iRgQuqleUa1VUVU3hCuRfMMzsN0dyGNV7DogZVFmnt4BcNMcRX42fp4xxlg3QuAn4gq7HxSTlTlNkun6saBGXeaLDuOIttRy32MW1sho7zjrGiLqp5AB2B7Bf1HP5t89IycnFnpFjMCk5hkjA-6FWnDlq4dFx8xrzs-_tjhyM2prgYYaodRY7pIfDXbTnLdBaMvSbNkVWzn04Cxvd0HemfDfY7Ly68g3JuEM8eY4r708aX9mzGYQG1JWbdBkWQ_FfLkMVnRMkoI_ySJj2Jjelfk9DOb65oKg=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Arkansas Medicaid \"spinal\" prior authorization OR \"prior auth\" OR \"63030\" criteria",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_148553",
+      "args": {
+       "query": "\"Arkansas Department of Human Services\" \"63030\" OR \"laminotomy\" OR \"discectomy\" OR \"decompression\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "ErABCq0BAWkUfRMAFb0QFboU73UwMw9GdctbWZzffWM9D6GPlOCZtB2BsMGymRHrzYuJ8jpBHYIlOxZ4u4FKLEByIs0Udu3OYttp_ry1oR7EX5Rl_jEPselrPJCrf_20kjUq8gO2EM1-qvcWJW3vj5fjKNP4fuCBWNBkzgmn6supBPaCg7PDBNizXwxz5z4AufeV8MOBoSXZzu9-qRhiEok6N-fWJho6V-s-o05WdnX7R_s="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Arkansas Department of Human Services\" \"63030\" OR \"laminotomy\" OR \"discectomy\" OR \"decompression\"",
+        "results": [
+         {
+          "title": "CPT\u00ae Code 63030 - Posterior Extradural Laminotomy or Laminectomy for Exploration/ Decompression of Neural Elements or Excision of Herniated Intervertebral Disks Procedures - Codify by AAPC",
+          "url": "https://www.aapc.com/codes/cpt-codes/63030",
+          "snippet": "CPT Code 63030, Surgical Procedures on the Spine and Spinal Cord, <strong>Posterior Extradural Laminotomy or Laminectomy for Exploration/ Decompression of Neural Elements or Excision of Herniated Intervertebral Disks Procedures</strong> - Codify by AAPC"
+         },
+         {
+          "title": "cpt 63030 vs 63047 | Medical Billing and Coding Forum - AAPC",
+          "url": "https://www.aapc.com/discuss/threads/cpt-63030-vs-63047.92013/",
+          "snippet": "Let&#x27;s start by looking at the full descriptors for the codes: -63030 Laminotomy (hemilaminectomy), with <strong>decompression of nerve root(s), including partial facetectomy, foraminotomy and/or excision of herniated intervertebral disk</strong>; one interspace, lumbar (including open or endoscopically-assisted ..."
+         },
+         {
+          "title": "CPT 63030 \u2014 Single-interspace lumbar laminotomy with nerve root decompression, including par | Mira Health",
+          "url": "https://mirahealth.care/reference/cpt/63030/",
+          "snippet": "63030 <strong>covers an open posterior laminotomy at one lumbar interspace where the surgeon removes enough lamina, bone, and ligamentous tissue to decompress the affected nerve root</strong> \u2014 including partial facetectomy and/or foraminotomy as needed, plus ..."
+         },
+         {
+          "title": "CPT\u00ae Code 63030 in section: Laminotomy (hemilaminectomy), with decompression of nerve root(s), including partial facetectomy, foraminotomy and/or excision of herniated intervertebral disc",
+          "url": "https://www.findacode.com/cpt/63030-cpt-code.html",
+          "snippet": "CPT\u00ae Code 63030 in section: Laminotomy (hemilaminectomy), with <strong>decompression of nerve root(s), including partial facetectomy, foraminotomy and/or excision of herniated intervertebral disc</strong>"
+         },
+         {
+          "title": "CPT Code 63030: What It Is, Modifiers, Reimbursement",
+          "url": "https://www.mdclarity.com/cpt-code/63030",
+          "snippet": "CPT code 63030 is for a lumbar laminotomy, involving <strong>nerve root decompression and disc excision at one interspace</strong>."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_125666",
+      "args": {
+       "query": "\"Arkansas\" Medicaid \"Physician\" \"manual\" OR \"provider\" manual OR \"policy\" OR \"criteria\" \"lumbar\" OR \"spine\" OR \"back\" OR \"63030\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpkCCpYCAWkUfROMR8ib_ta2XHJ364Xs8t6ckuOT2EFB7uPJCIgpepiaTMv61ihpBxgntlt5oz_ijFRq5Hh_1wOqrAVEQ7MOcSZFpzybOwQvVzSxHkL3hsekm6f7dngB3u8OIgG0NqwULY0wBkqJ3498CyaGAihjP8nIH072Nd-Zon5ramom-XR-4EAqs7kD-xSJbAWe1e79bQOpFzGg3tZYL6t_xLtplIBjpIWA0Ncvt3EtSL02VyIuVSStbjj8khxOsfdKAYeaNDr8ylxcQ-U6ovma9XH0GibmSOwQkTTNZoorPNrqaAEP8qzC5BdqduwKTfhx2nXKjiBL6Ov1XP4-d6tvcCx-xvy1sWOKaiwUHPw1xvkSXuRjLRY="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Arkansas\" Medicaid \"Physician\" \"manual\" OR \"provider\" manual OR \"policy\" OR \"criteria\" \"lumbar\" OR \"spine\" OR \"back\" OR \"63030\"",
+        "results": [
+         {
+          "title": "|Section I - GENERAL POLICY | |",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/Section_I.doc",
+          "snippet": "It lists the categories of eligibility that are exempt from primary care physician (PCP) referral requirements and it itemizes the services that do not require PCP referral. PCP enrollment and enrollment transfer procedures are explained, as are PCP referral requirements and procedures. |101.000 Provider Manuals |1-1-16 | Provider manuals contain the policies and procedures of the Arkansas Medicaid Program."
+         },
+         {
+          "title": "Provider Manuals and Other Provider Notifications - Arkansas Department of Human Services",
+          "url": "https://humanservices.arkansas.gov/divisions-shared-services/medical-services/helpful-information-for-providers/manuals/",
+          "snippet": "Click a link below to access the manual, transmittal letters, notices of rule making, official notices, and RA messages for the given provider type. Check each provider type that applies to you and all providers for information that impacts every provider type."
+         },
+         {
+          "title": "MEDICAL SERVICES POLICY MANUAL TABLE OF CONTENTS Section A",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/Medical_Services_Policy_Manual.pdf",
+          "snippet": "The Medicaid Agency (DHS) purchases this coverage \u00b7 for individuals entitled as Qualified Medicare Beneficiaries (QMB) (MS B-322) and Qualified \u00b7 Disabled Working Individuals (QDWI) who must pay the Part A premium (MS B-325). Part B Medical Insurance \u2013 Most people pay a monthly premium for Part B. Medicare Part B \u00b7 helps cover physician services, supplies, home health care, outpatient hospital services,"
+         },
+         {
+          "title": "All Providers - Arkansas Department of Human Services",
+          "url": "https://humanservices.arkansas.gov/divisions-shared-services/medical-services/helpful-information-for-providers/manuals/all-prov/",
+          "snippet": "Provider Manual The following sections of the Arkansas Medicaid provider manual apply to all provider types. For information specific to your provider type, refer to Section II of that provider manual. To see the full history of Notices of Rulemaking and Official Notices for all provider types, please download from the manual \u201cOther Policy-Related Notifications [\u2026]"
+         },
+         {
+          "title": "016.06.03 Ark. Code R. \u00a7 019 - Section I - All Medicaid Provider Manuals; Section II & III - All Medicaid Provider Manuals | State Regulations | US Law | LII / Legal Information Institute",
+          "url": "https://www.law.cornell.edu/regulations/arkansas/016-06-03-Ark-Code-R-SS-019",
+          "snippet": "At that time, providers choosing to use the CD will receive a copy of the Arkansas Medicaid Provider Reference CD and will receive the quarterly issues of the CD without charge. The providers using the CD will be asked if they want to receive manual updates, official notices and RAs pertaining to their program through e-mail notification or mailed paper copies."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_195199",
+      "args": {
+       "query": "site:humanservices.arkansas.gov \"Physician\" manual \"Section II\" filetype:doc OR filetype:docx OR filetype:pdf"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvECCu4CAWkUfRONRdLcXvM5SL1gvHYOo4QnQ4fTpKPi0ac06MfW3uMJe4bze1olXEmqnDZmAmKd6p0ZvACA7-Jl_IE_xmpkXpcL0cMTYlnNgshSg0P_EVbrX_AyEN3R2e7kV89jYUYxlc1qhxwWpHuQrHJ5gv1O2vs0It12xn4G1rNk1IdYJKmBNp17QDAgSjfqu2t1-sqyq512qvZTo0jeAnx0vHhJtiCkryGs_9Xq5Iq78cWz_uZZNJABRL56m0OwFVzmjDRxwcgGZokvY3fKe-X_mebfL4Wc2bL7PR2h1AMxOL-tj8ZCHUR8QCKowCICfFntiILMfooXKiv-X5GwDWjx02dvobomKcvyBvUJX37fqsm1n0tAjl71c6rIFQvjcbzVY0VwNmGHDoHniqFnmoQr_Ba5s4GbF1d3QUGL063P40AuObR4tjSV_FHnCj4uwYud_b01_l7UHc6f0GLGpYM-AE0pugZWF6vUDhPD4CE0"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:humanservices.arkansas.gov \"Physician\" manual \"Section II\" filetype:doc OR filetype:docx OR filetype:pdf",
+        "results": [
+         {
+          "title": "|section II - Podiatrist | |",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/170306_PODIATR_II.doc",
+          "snippet": "If services are denied for medical necessity, the physician advisor\u2019s reason for the decision is included in the denial letter. A denial letter is mailed to the provider and the beneficiary the following work day. E. Providers may request administrative reconsideration of an adverse decision or appeal as provided in Section 190.003 of this manual. F. If the denial is due to incomplete documentation..."
+         },
+         {
+          "title": "section II - Physician/independent Lab/crna/radiation therapy center",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/071102_PHYSICN_II.doc",
+          "snippet": "(Refer to Section 133.400 of this manual for more information.) |23B202.300 Independent Lab Services Required Documentation |10-13-03 | The Arkansas Medicaid Program requires independent laboratories to maintain documentation on each patient. Documentation must include the physician&#x27;s order for laboratory tests, test results and all records pertinent to billing."
+         },
+         {
+          "title": "|section II - patient centered medical home (pcmh) | |",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/171214_PCMH_II.doc",
+          "snippet": "| |Participating practice |A physician practice that is enrolled in | | |the PCMH program, which must be one of the | | |following: | | |A. An individual primary care physician | | |(Provider Type 01 or 03); | | |B. A physician group of primary care | | |providers who are affiliated, with a common| | |group identification number (Provider Type | | |02, 04 or 81); | | |C. A Rural Health Clinic (Provider Type | | |29) as defined in the Rural Health Clinic | | |Provider Manual Section 201.000; or | | |D."
+         },
+         {
+          "title": "|section ii - PHARMACY | |",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/PHARMACY_II.doc",
+          "snippet": "Nothing in this section shall be construed in any manner that is inconsistent with any other provision in this manual, or with 42 U.S.C. \u00a7 1320a-7b. |251.200 Brand Medically Necessary Override |8-1-21 | The prescriber must determine whether the Medicaid beneficiary meets the required conditions to override an Upper Limit (FUL, SAAC, Generic NADAC). The prescriber must also complete the required MedWatch (see below) documentation to allow a prior authorization (PA) for a \u201cBrand Medically Necessary\u201d override of the Upper Limit to reimburse at the brand name reimbursement rate."
+         },
+         {
+          "title": "|section II - CHILD HEALTH SERVICES (EPSDT) | |",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/121207_EPSDT_II.doc",
+          "snippet": "This documentation, at a minimum, must contain: A. The beneficiary\u2019s name and Medicaid identification number B. Description of the service performed C. Date of service D. Place where the service was rendered E. Brief comment, progress notes, referrals, etc., with an original signature by the service provider, including credentials F. Physician\u2019s order for laboratory tests, test results and all records pertinent to billing. No standard service logs or documentation forms are required. The documentation must be maintained according to the requirements of Sections 142.300 and 212.100 of this provider manual."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_146080",
+      "args": {
+       "query": "site:humanservices.arkansas.gov \"PHYSICN_II\" OR \"PHYSICIAN_II\" OR \"PHYSICN\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtoCCtcCAWkUfRMSQ0od_wd2IO6FXX2xOiOqm2PF3Lbdajl_Kp13f8Z3bBqQZMOFAdmHW2KgUzsRWSy_h7exqntINCub9c6F21A0nym-vHGBq2nIg0dsAjWUUCOj6N49xEyRUXaPUAADwP2f_4Hq9a_x3xFGhFm4sROnmg9Y-lvFpsFK01kG1MiqPCRmQLTjvL-GxEWjrpP3uOjg6h3siBLj0VA6zYUOfdMIoP273bkC_7FcdZuNl00aaiZ_tVCHitpyom9Gb9kpg4BKFu8SYqrQXE-4GQYNa8ZhuxAi_wbzGmOxVj9SV4zb4E0oxw7LTeeActitCYd9-t_dMpGTWnLd5Cg-ky4EZuUKwHV0VPsdRWoIYzsnRkBq7MtGZ8qlvAPfUB-arFTYsAk7bx7YqjsIgN6PjJEG6MxQXEjU66gjnIab3OW5n7BFS1pXijqhrao7EK4UjjP6745SaQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:humanservices.arkansas.gov \"PHYSICN_II\" OR \"PHYSICIAN_II\" OR \"PHYSICN\"",
+        "results": [
+         {
+          "title": "080826_PHYSICN_II.doc",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/080826_PHYSICN_II.doc",
+          "snippet": "<strong>We Care</strong>. We Act. We Change Lives. Together we improve the quality of life of all Arkansans by protecting the vulnerable, fostering independence, and promoting better health."
+         },
+         {
+          "title": "080429_PHYSICN_II.doc",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/080429_PHYSICN_II.doc",
+          "snippet": "<strong>We Care</strong>. We Act. We Change Lives. Together we improve the quality of life of all Arkansans by protecting the vulnerable, fostering independence, and promoting better health."
+         },
+         {
+          "title": "071012_PHYSICN_II.doc",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/071012_PHYSICN_II.doc",
+          "snippet": "<strong>We Care</strong>. We Act. We Change Lives. Together we improve the quality of life of all Arkansans by protecting the vulnerable, fostering independence, and promoting better health."
+         },
+         {
+          "title": "071205_PHYSICN_II.doc",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/071205_PHYSICN_II.doc",
+          "snippet": "<strong>We Care</strong>. We Act. We Change Lives. Together we improve the quality of life of all Arkansans by protecting the vulnerable, fostering independence, and promoting better health."
+         },
+         {
+          "title": "070705_PHYSICN_II.doc",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/070705_PHYSICN_II.doc",
+          "snippet": "<strong>We Care</strong>. We Act. We Change Lives. Together we improve the quality of life of all Arkansans by protecting the vulnerable, fostering independence, and promoting better health."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_111449",
+      "args": {
+       "query": "site:humanservices.arkansas.gov \"PHYSICN_II\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EoQDCoEDAWkUfRM90CEOE1WFNanve3lnktQDH9phJLm1oFN3Ia2OBUY-hQ_RQR2haHS8c36wV7QIfxIBAv3dAD1AQ_Be_ZQwlexBS5DGr3qvnkCmIBpIUhw8aPfwpsh7AXE8W0gX4DpazW3yUMUmqNL6C_2GsLvodCZM0ldPI7a6Os8K25p4dHN8P9aE6L8NQ-_VthOleZjDK3aGTbtDOOaBlkQeP4dxk6gQLuvRW5gWlDPv1Tj1pdNbN8Nq-3b7zEv41Yu_vxBKmzG7N6hePUMFORrSIUSz4zX341LRpFSJg7O1H1EKwxaDNOCWs_8PUAw68xhgB4Li_xHPgFf1gxP-DvkUoj1WrPhyZ29OHU6V8-O7dvoR5g0GQiLxy0Fjen_5767m2clk7hNuWsWkTJIu-N4ypzaF8_D8LCF9i46rlSx2pnlxIOxSZELxMjm_4sCduWxowR6abOYT4qpkklA9m_VZZ4mmyjNQmbo4SjwBUE4xpbpbhAqL3x2NmSsTvZZKePg5rA=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:humanservices.arkansas.gov \"PHYSICN_II\"",
+        "results": [
+         {
+          "title": "071102_PHYSICN_II.doc",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/071102_PHYSICN_II.doc",
+          "snippet": "section II - <strong>Physician/independent Lab/crna/radiation therapy center</strong> Contents | | |U200.000U UPHYSICIAN/INDEPENDENT LAB/CRNA/RADIATION THERAPY CENTER GENERAL INFORMATIONU U201.000U UArkansas Medicaid Participation RequirementsU U201.100U UArkansas Medicaid Participation Requirements for PhysiciansU ..."
+         },
+         {
+          "title": "070927_PHYSICN_II.doc",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/070927_PHYSICN_II.doc",
+          "snippet": "We Care. We Act. We Change Lives. Together we improve the quality of life of all Arkansans by protecting the vulnerable, fostering independence, and promoting better health."
+         },
+         {
+          "title": "080826_PHYSICN_II.doc",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/080826_PHYSICN_II.doc",
+          "snippet": "We Care. We Act. We Change Lives. Together we improve the quality of life of all Arkansans by protecting the vulnerable, fostering independence, and promoting better health."
+         },
+         {
+          "title": "070705_PHYSICN_II.doc",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/070705_PHYSICN_II.doc",
+          "snippet": "We Care. We Act. We Change Lives. Together we improve the quality of life of all Arkansans by protecting the vulnerable, fostering independence, and promoting better health."
+         },
+         {
+          "title": "071205_PHYSICN_II.doc",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/071205_PHYSICN_II.doc",
+          "snippet": "We Care. We Act. We Change Lives. Together we improve the quality of life of all Arkansans by protecting the vulnerable, fostering independence, and promoting better health."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_129886",
+      "args": {
+       "query": "site:humanservices.arkansas.gov inurl:PHYSICN"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "ErsCCrgCAWkUfRObpvm161aauHbrjxfsPRad8QDb6lBtCgOf4XxdQQT3kiGE1okZqHfW-3qu8yHhcE_51uMugoycDFybLwabN1XRK8ZuninP60liT6_LWFLKrOkGqio30wtWnnKJT432KN3kOAvJvTqRs0M-1Q0F2Q9GR_prHspnH616gdYgxS22zR4Fa28nsNOsI4HScmYso2bDDzXQSQEpmx02tRQGJdOMHzFdA8W5uODRUYY5qdiuwB60FMLl0hK3T-dd-NzhmKfISpdoSBxaH7XvC1T7QJ5kaIVFqaY8SPChWscu3RFTrvojfxBTVsqmyCwU5O-bMvKOa-LuNBEtoNSb-9-IjS_LgPDHjtB-HQCLF6VZRNfiMU4wo2W7eeYwda_TTJ1m71OcLDnJK4DSDH3hQDOfhCVKtA7A"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:humanservices.arkansas.gov inurl:PHYSICN",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_106106",
+      "args": {
+       "query": "Arkansas Medicaid medical criteria spinal surgery OR \"decompression\" OR \"63030\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EroHCrcHAWkUfRO_-NZPGY13kzZtTigsS8ebcjffTvElx5N3U5VEaG2OiTldmABExjt1v9VwRdio_XcbtK-e35B36q_kSHeYmzjK86tnLA0BRDRA3KflnImvP66korWOC5AOhlNrCSLYYnaZVye24oshejjKQddVZzojwnVwgS3bL9r61JgsPLstoBOSc140NVlUnGHPTLXelbPdKdWmPXAb4Kkbu3SVLWCkE7vGj26CaQizvyL5nJbDZ0R2z1i9mXWZJ_25_YyxcXzihG3RZLlDGcz9uYYaAdKY_VoNrDt89joCLZvrw85bGO0kJNhKzvAD6_R_P5sW1l67tTfdKptUx3s7FBCej0osAxPp8sVAY_JSg0DrDerjzi4oclicyQde4s4GToij0ZMu8chWyVesfpikVrOKSXgHXlOXcLPSayfMRfIDhcLz3oG7TJjNWUJ5WQ_cYTknejQjBvCFB6z0jqENJLbC3RWe-Sfp6ZidCeg11WmIZ_yYlO9A-O57AlaLJyDeQ0uhTjf8cJZy_bWzptVO2g5B8y5l9nLA6pLOOmAaNG1ybIBoM9yOxfSKIkN_w1gy37xD_GzEEAIApTGz1JJ2lMR3zpbj0Rfxk2Ok8MAJ-mfiS8gfNUY1_n8gTQ8jKjgWTJ3DrK4oeaMbJtyLISMdx2dlfE0fdxOxgE5HUruLII3DN4BHlqh6U2uHsN4UDRtrgiit9DITst1RY4YgbQElMmMj9Xf5UKPm2VYw_IgyoK6edzecxKIMatiQXySAZO3ibGPLOodu-Mwr9hEvW0gYMiTDJA6F_9A7aVNTLwtHMa5p9xtQx-ulA58UnXWSeoP0t59Mf-pwCOF_q22g_qUpV939BkIqZSKDz6B8fQ5DfQeU9yGucm-Jvn6yeTvVGzcw61toGoON7b-U2bY9qTnFCLUh6cFagDQ7_K8_1rbozK8Sbu213XZKY5459w6I_emnhRfbigjsLf-PioxncoLNIp-Gy9BWFE1rrw71Z3dw5Dko9DAhNduvQPt-BYwjgsGkk3fmkaF87pAiA15q39IcKkJ-dWuw9rR82hk_1x78iTTOu9qBx1O7ya35MHKPpNIUvbn-5Xs0K74DrTrmJDzPiHmUGWm8cSH69hLhW6I-ZDplHEDgwtfpWVsgwDKJGiu_z3oWmaxAPoPIgOGoqgtWNTJNBIcK1a55rUilm0QZMZijcWwc_XGAte9PINDwqOBN6FnEDH5l_WTn8lNFDo04BvYEpVauQIyI0eB09MoP1fosViNhUHQj"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Arkansas Medicaid medical criteria spinal surgery OR \"decompression\" OR \"63030\"",
+        "results": [
+         {
+          "title": "Subject: Thoracic and Lumbar Spine Surgery",
+          "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-48&pv=false",
+          "snippet": "Laminectomy with exploration and/or decompression of spinal cord and/or cauda equina, without facetectomy, foraminotomy or discectomy (eg, spinal stenosis), more than 2 \u00b7 vertebral segments; lumbar \u00b7 63030 \u00b7 <strong>Laminotomy (hemilaminectomy), with decompression of nerve root(s), including partial</strong> \u00b7"
+         },
+         {
+          "title": "Spine Procedures \u2013 Medicare Advantage Medical Policy",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medadv-mp/spine-procedures.pdf",
+          "snippet": "<strong>Medicare does not have an NCD for spinal decompression and interspinous process decompression systems</strong>."
+         },
+         {
+          "title": "ARCHIVED Spine Surgery 2024-01-01 [for Healthy Blue Louisiana Medicaid] to 2026-04-04 | Carelon Clinical Guidelines and Pathways",
+          "url": "https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2024-01-01/",
+          "snippet": "Adherence to a tobacco cessation program resulting in abstinence from tobacco for at least 6 weeks prior to spinal surgery is strongly recommended to reduce the risk of pseudoarthrosis. When there are patient-specific modifiable comorbidities that may adversely impact patient-reported outcomes or health status, a shared decision-making discussion that covers these modifiable comorbidities is strongly recommended and should be documented. Cervical decompression with or without fusion is considered medically necessary to treat ANY of the following conditions:"
+         },
+         {
+          "title": "Medicare Medical Policy Spinal Fusion and Decompression Procedures",
+          "url": "https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp358.pdf",
+          "snippet": "Medicare Medical Policy \u00b7 Spinal Fusion and Decompression Procedures"
+         },
+         {
+          "title": "Spinal Fusion and Decompression \u2013 Community Plan ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/spinal-fusion-decompression-cs.pdf",
+          "snippet": "Spinal Fusion and Decompression \u00b7 UnitedHealthcare Community Plan Medical Policy"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_229603",
+      "args": {
+       "query": "\"Arkansas Medicaid\" prior authorization \"63030\" OR \"spinal\" OR \"lumbar\" OR \"decompression\" OR \"laminotomy\" OR \"discectomy\" OR \"laminectomy\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EooHCocHAWkUfRMT6tBNwHphc-pd5bB5OG8UC3ZHzHDPsenQD74CYi_nM1gOcLEx2bj3VeiyeJgOZ__jFyfjWx_w6nrO3WfFcypqUnSK1AUYAj_cys2HNLvsJ1q0f6Ion-yL18syvClQ2BdkiZIdrbDO4ZCy_EeB-TSV65mN0pi8q4DD-NjtBznnVCeJvH8QxyWTbm0850y8C32F8E51Xks2fOSVjrMqGM5DYgu6KtIL2PdFYuS21b6pxrACPHLzOKjvWp81QCKknIZOAxWN2DS-R6aPsUnHqDdHDGbc7dVcL39JI2Ini0funCEYc4AhQkWxzUqJBG-gQd4hrG5SxcMx0Y3geNUZd3Q58-LgL77Ymb-AN45YYwPxh68DPQ-QywkhlcaSezY0ijza-IQ1LVuSjpBHt3kVCYV-CQ2LafHpw6WTNNi6FY9F6H1zqVroQRMyM_Hm6jQ7Z9e3VaJw3gDOf1m2_R4HB1EFxIx6UIj8cs-lvKKdRTbG8B7LZH5ATMpCf_7rSxLBmB1l-vuOs2NB9zY_vmFYf75pM5xkSxb7BQM8vwpDQXyDV1PiJFMS0FTWV6ZTZmM4G7YWJQ5n3QeW-Jq8Y6Qg9pyuERkpN1J8QdfgvwgmDRVUCYDI_Th5JAqEm-KWPqGuzny-D2xR-6AvWOuUgbyhMeipbJtjcuB7HOwTsFZiJnHc8qD1owjF8hrihIFuMofhP0to1Sjp72yRE77ttJQbGwKNeunswKfPlIuHD4ri7yZRqVwr8HcnMuSfJSdhywFrHZ7GFG-Ghc19QGAYh472lTsyKMnMPZGQ4WKdLXORlWh0i34w-qJC5Bla5zq1sO-5d-H_u_13p1hFOgpph1kY11cXQuFUfeTW2bbMMj9RfaM-mbkqxhHWv40RUkMwWJ4Y9grFazJigzYvdouTen5cQBdKPYxoogzR875xY0JiCDHsazS3VgsP7vC582BsjIInewK42QUvHLtV11gEd5J54TLIqHRsXAhIFLzCpHi4YPYrODURazpLTqlFYP6e0g2FgZeL-7fOqr1IOF6dHNfm3boQG5Z32MEJ1djM2vPljjO5SgBTyY82OdF3x8MAoxSEvBsqoLgHjG5Y45K7S-A1Hnf5eABAYIVLj8_VWsGfB0irwaE5qbHDw2K-wQtDXVI8LqLiuYgKk3B60q5OqzXgnH7eT5YHceChs1mX1l5Fmq7dpPFV"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Arkansas Medicaid\" prior authorization \"63030\" OR \"spinal\" OR \"lumbar\" OR \"decompression\" OR \"laminotomy\" OR \"discectomy\" OR \"laminectomy\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_107182",
+      "args": {
+       "query": "\"Arkansas Medicaid\" \"63030\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EuIBCt8BAWkUfRNkxgz44QPKpfYoVJaScJnvV7B39yYbDRPt_9e2TK306xGD3p9xGMYQjmf9SY-YVsW8P0CS1LT0GO3L1L1G-zdePanHiRrkYU47kEmpA7n_1f-VM-rCHU4M5o_9UEfSb3g9opMHLwagGCHXa2sPfQbk7Q_lGG98eNKGe_97mnU5P8vmIZUyX0nxA1csIFb168ZJ6gfX6bLevhTqKHGjuJ_BYrMiOO81mdW3XlEpYpU6sivniXnsUCDSp34dLg5UisApDKvXb1ugpbB5ToG3wn-Ll56FvDdx8iUe7w=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Arkansas Medicaid\" \"63030\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_119999",
+      "args": {
+       "query": "Arkansas Medicaid 63030"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqUBCqIBAWkUfRNvOMCVC-ThS3uam-Qsglugb2AsaHN5HP3zSo1jFrvBp75nmoSwVHx2Omi7OKU0IX-EfyQDykqlZW3jPfm5GNTuCuZudk8yvtQqm1LN4i6PtpQrhRjW4Cf-tnU8e5IRXuBkyvNKfuLoIVsQcaAgM2KBCqBNUL7DWpifQ8vXflg1r4k63pM3HA4fkRvw7Rg9YPZK8GN6NocsNhrSUYri"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Arkansas Medicaid 63030",
+        "results": [
+         {
+          "title": "Contact Us",
+          "url": "https://portal.mmis.arkansas.gov/armedicaid/provider/Home/ContactUs/tabid/219/Default.aspx",
+          "snippet": "Use this directory to contact us by phone or mail"
+         },
+         {
+          "title": "Arkansas Provider Portal > Home",
+          "url": "https://portal.mmis.arkansas.gov/armedicaid/provider/Home/tabid/135/Default.aspx",
+          "snippet": "Note: If you have not created your personalized site key token, you will be asked to do so before you sign into the Arkansas Provider Portal \u00b7 What can you do in the Provider Portal"
+         },
+         {
+          "title": "Arkansas | Medicaid",
+          "url": "https://www.medicaid.gov/state-overviews/stateprofile.html?state=Arkansas",
+          "snippet": "An official website of the United States government \u00b7 Here\u2019s how you know"
+         },
+         {
+          "title": "Medicaid eligibility and enrollment in Arkansas",
+          "url": "https://www.healthinsurance.org/medicaid/arkansas/",
+          "snippet": "The federal government specifies certain low-income populations (for example, children and pregnant women) that must be covered in order for a state to qualify for Medicaid funding. The federal government also defines optional coverage groups and establishes baseline income guidelines. States can set eligibility limits at or above the federal guidelines. Here is where Arkansas has set its eligibility levels (including a built-in 5% income disregard for children, pregnant women, and non-elderly adults):"
+         },
+         {
+          "title": "MyARMedicaid",
+          "url": "https://mdp.mmis.arkansas.gov/",
+          "snippet": "You need to enable JavaScript to run this app"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_88095",
+      "args": {
+       "query": "\"AFMC\" \"lumbar\" OR \"spinal\" OR \"spine\" OR \"decompression\" OR \"discectomy\" OR \"surgery\" OR \"prior authorization\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvwCCvkCAWkUfRMRux2tTvNokt6cZZ4cfUBq61N9psDeA9woYANutzkLzpDXEwhUor3Sxy0qxYdHz_jzUArN23y7z9N-sSCSe7UA56QoU0kvyVlzrT8DBA23ODcbgRy9EeSquLWJS7YPFP9tYt0YJ6MeZoB-Aq6VPcwNP5lyvBT1Vj0wXM_2FbXOP-i9pW6caq4ymDegT-2zSRr5JRfvPbgYxXwkYfZ7p2Yx_utLqlBE6LquQDpXaKDbZpV6J91HVPdCySmBeTDg3K2QlwedJOHsZ2OS_7DHVvYPRdhQ2ArnNjcQNEcRjnwFR5JExlgZ6lcX7q3MwJ3w7Cnzx4yxEq2Q5s27fqJARVVOPPXJ7jpXuXq481ok_JutRVJ4GiG05a6VIpbXwWLHOpMNi4iYoQMnkEvTdToMbe_jp-r7btPHJ8PJ05TTJroIM1tUhXxohENFOXW1u6lgNnuWiN_e-vdhiBxUfzmHUKukcGVrL6ARGw-zjd0ejIUDjsax578="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"AFMC\" \"lumbar\" OR \"spinal\" OR \"spine\" OR \"decompression\" OR \"discectomy\" OR \"surgery\" OR \"prior authorization\"",
+        "results": [
+         {
+          "title": "Spinal Surgery: Laminectomy and Fusion - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0743.html",
+          "snippet": "Lumbar decompression with or without discectomy for rapid progression of neurological impairment (e.g., foot drop, extremity weakness, saddle anesthesia, bladder dysfunction or bowel dysfunction) with central, lateral recess or foraminal stenosis (graded as moderate, moderate to severe or severe; not mild or mild to moderate) confirmed by imaging studies (e.g., CT or MRI) at the levels corresponding to the neurologic findings;"
+         },
+         {
+          "title": "Spine Surgery 2025-11-15 updated 2026-01-01 [for Wellpoint Massachusetts] | Carelon Clinical Guidelines and Pathways",
+          "url": "https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15-updated-2026-01-01/",
+          "snippet": "Lumbar decompression procedures, performed alone or in combination with spinal fusion, are designed to relieve symptoms of neural compression. Lumbar discectomy involves removal of the disc, in whole or part. Foraminotomy and laminotomy involve removal of a portion of the lamina (bony arch) on the dorsal surface of a vertebra."
+         },
+         {
+          "title": "2026 Billing and Coding Guide Spinal procedures Overview New for 2026 Resources",
+          "url": "https://www.medtronic.com/content/dam/medtronic-wide/public/united-states/customer-support-services/reimbursement/spinal-procedures-billing-and-coding-guide.pdf",
+          "snippet": "Laminectomy, laminotomy, discectomy; (peripheral nervous system procedures) ex. nerve decompression"
+         },
+         {
+          "title": "Subject: Thoracic and Lumbar Spine Surgery",
+          "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-48&pv=false",
+          "snippet": "The North American Spine Society published updated coverage policy recommendations for lumbar \u00b7 spinal fusion in 2021 [BCBSA Evidence Positioning System\u00ae 7.01.141 (10/23)]. They recommended \u00b7 lumbar fusion in individuals with disc herniation who fulfill criteria for discectomy; in individuals with \u00b7 lumbar spinal stenosis who fulfill criteria for decompression; and in individuals with spondylolisthesis."
+         },
+         {
+          "title": "MEDICAL POLICY \u2013 7.01.551 Lumbar Spine Decompression Surgery: Discectomy,",
+          "url": "https://www.premera.com/medicalpolicies/7.01.551.pdf",
+          "snippet": "Normally, the spinal cord is protected by the back bones (vertebrae) that form the spine, but \u00b7 certain injuries to and disorders of the spine may cause cord compression, affecting its normal ... Discectomy is a surgical procedure in which one or more intervertebral discs are removed."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_124525",
+      "args": {
+       "query": "\"Arkansas Medicaid\" \"medical policy\" OR \"medical policies\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EocDCoQDAWkUfRMBLa--DlPv_EQDpRu6C9AqO2D5DNI3ZqRyXKhIRCdzyTnDv4DKHcEvZHd_ODlg1MR9DSsvCjKh5KCf8ssH-VfizJNO750m09-j784Aex_8hf40pWWcaFOgHFOhrny29sYVuSH_hYJzlO8NivpQcaAjV6aCM6YWcb19ciL3nNTdTdcUFrBaAdnEK34sdALn7SvrJ8ZucbdUxKPQRvuU-OpbXRX2HoMqmu36QirBMfhl61PfJgs5sUEB_HIubteBohgUXIM2_3tahFYWIRKw875YE82kVz5yvMGuOTXjiWFf4i5d4ylyOrWuvO6QGEPtzq5r_Qm5PACL3EDOfWYQtZfAm0I8xJw9Gi1YS--qRbagdEjgYtf7QGgpA9lShu1O6qDgBDQggEXhEq-w6pVBfBtG9JFWjb34GfHb7paZvy8ZNO6K9glxZa5_1YCMdrqVgpHCbJxNB0A5mLFOnKpkBkt-3_zYl_BvQ-HSjYLYIjEHclLk9HO-XBqZkaAkkzPCKg=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Arkansas Medicaid\" \"medical policy\" OR \"medical policies\"",
+        "results": [
+         {
+          "title": "|Section I - GENERAL POLICY | |",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/Section_I.doc",
+          "snippet": "The stated purpose of Title XIX is to enable the states to furnish the following assistance: A. Medical assistance to families with dependent children, the aged, the blind, the permanently and totally disabled, the medically needy and children under 18 whose income and resources are insufficient to meet the costs of necessary medical services B. Rehabilitation and other services to help these families and individuals attain or retain the capability for independence or self- care In Arkansas, the Division of Medical Services (DMS) administers the Medicaid Program. Within the Division, the Office of Long Term Care (OLTC) is responsible for nursing home policy and procedures."
+         },
+         {
+          "title": "MEDICAL POLICY STATEMENT Arkansas PASSE Policy Name & Number Date Effective",
+          "url": "https://www.caresource.com/documents/passe-ar-policy-medical-mm-1332-20251001",
+          "snippet": "MEDICAL Policy Statement Policy and is approved. ... I. Providers of MAT for SUD must be licensed in Arkansas and authorized to provide \u00b7 services within the Arkansas Medicaid system."
+         },
+         {
+          "title": "ADMINISTRATIVE POLICY STATEMENT Arkansas PASSE",
+          "url": "https://www.caresource.com/documents/passe-ar-policy-admin-ad-1365-20250201",
+          "snippet": "ADMINISTRATIVE Policy Statement Policy and is approved. ... B. Background \u00b7 In 2017, therapeutic communities (TC) were introduced in Arkansas Medicaid as a"
+         }
+        ],
+        "result_count": 3,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_120477",
+      "args": {
+       "query": "site:humanservices.arkansas.gov \"prior authorization\" AND \"63030\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvwDCvkDAWkUfRMTaS1poHfGGqY2pnHt1yo6NhT0IL8KaNmRHOZPT6cCMz4WpdOq4aXPeMmPqANro9GxitvqZzkikYjzKEVJyx7gHuoJsNyd1H_hf6JvagF4Rvs0TLz1lJGG0BzMgav_iLbkbCy5snHp-C4X7zcsUCogGYOqHJ8_ZstJ7Nmt_aJUOiRgptpS6yrIIEOixo6s3nTFHOphr4lwHHHVwe8r8Ot96XtWCnDO3sw_PyMdTUvCcz7VdUj2Zi8C7LJDsWEQ46LpXWuD9QLEqPvJMRDbzrD2F5xJO8zVHwgjChOAmVsRnQKjW8CrTWmKEKob4DyD0L355-Oj4Qk6FQR4uzs6xJ5S7LeHlGsUvP0gEu0elC1Z61Nl2Td6Y2nC5FNVcgRcbCNAjGE-Pg1rOtwcAqG0UrqPwBfZy9m-cZPDuI8R6cNDkLdGxv6y-fhOj8uC5UdDTDe4qSCC1RNNbTU9mhdDXuiSpvmqIa36ehqAbpgbZjW5LyWmnc-47HF6M3m_-99OELL1B4nUuBYCk2hzm-NbCFwYZf0hTgS0a_WLE4_DePadFRUXM83p1M2BoxUOGiqnwoStUwhPBAHAPUxDnwxmpwgdC5QOPr1L6O1r6lYeWBt5638V6c_ANGNNQrZjEF01fYGH9f5blgf5JUG2iL9UC2sPDpa_kg=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:humanservices.arkansas.gov \"prior authorization\" AND \"63030\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_58868",
+      "args": {
+       "query": "site:humanservices.arkansas.gov \"Physician\" \"63030\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpcGCpQGAWkUfRMiMagCZ14mBreiDviN_Q_sYxe0gSPRfGzLxGWZZ0sh3lCJxg7666aisPkA-YqmkJhab16alz9h52eStBDCFYZEpXVP1CGoCWKSYjRuIsQ9_IHOWG9-RQV5SbEWHuhzOjvEe9ivoVsyKaSpSv-jaHAHoGhlvHvBJjb6z-XDgTlU1q7kKFjlgD6DdVRFsmK1mGOPC3mFMEf45BaVjQhJiSv79MgDXY9YfbHfrkBAanQq2iJqp7sf8nE05PQbUxP093ED3QKQyvwTurUgC0bVhww_yhdTz9Ka-Q48bY39YZzOGkfLctRdzmeHMlv8VIViK3kY6yD_12hpnJsJFir4F0LKXO-BIPVrLC6yn2R4sttmerHXA5SEXQB8RMwJMizpskwDPV0zoMb4UIuLZtPq0x-_-oWPmiVVh_RGl9EZq4VqUXkRIYiCr9MIcgBghQvspDPMNuL6N397uzDZIsC1ZH0JZlTo-_dlMQuT62Y5IYW2np143rPaZZDE0CqejpBSdw9PHO1Rl2WqXMy11KVimQJI4EyukLKdsIWa8C0LURQwEO3y5Wd0uOUqcyJqGts_0DP_bOvDd4VA51xJdPDO18U2i2bkclsMQztW7twpK14kPAoAJ0eX_lTTjW8-BewW0aTcEOlwfnfnz-yUZEQ04FZN3NG9fLDZH115aT_Pz3Ewv17rzJ0ReC0BD1TebQPwLvqTE-Vo_3jC7gvxYhnUUyHHfLN3eGx-T0LDdqYZbVZtDDgm9fzf57UWIJ4J-ciD4QfftyKzaCQkMn7SmSiX3ITEsHdHdtJ7nj5okSLqPvBtLPh-Fzr5uUNRk-3kDV8AxoArP79rn177gv8oMAbo0VQBQy7xsTyhvpaMXuzkMIU00tZ7iuCAHQ1rAmicXKtSHKphUllKImXbozA2A0-TEtuS0sAt8dK-rAeIhV8O7KLGT0JEnBjuS-upXB-YWWq4lR8XvD0GqUMAYKvMiYQGJh-x6KEyXT5UAJ9uZtBBKFBkbh3aVhZNkd8R757xfpDZs-uRHGW-Fynaz8Ow_9m-8N8="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:humanservices.arkansas.gov \"Physician\" \"63030\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_88156",
+      "args": {
+       "query": "\"Arkansas Medicaid\" \"discectomy\" OR \"decompression\" OR \"laminotomy\" OR \"laminectomy\" criteria"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsgBCsUBAWkUfRMNKsXfMXdV6gxc01M3BFV7eKA_nLVvSm-f1DrlToZvWhwoYLTLL06AqLHRaL5NwZIbC1i-uzazg_htwSf75kcrwPNAP5Wno8a9oOWfILmNnzCM1YiExFUypBlj8pp2eCUe6frF5_QysJCABZJH0GqPtkhNlEn6H2KmtcomHpxpWwu0mtsVj0EwFX9ztVwafLz0MB2D9TSxKEKgPMZSV0m7p0V0NYTyw4LmXxNhQ49mTM0lnD_Jaut_u_pZB_wI-F0="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Arkansas Medicaid\" \"discectomy\" OR \"decompression\" OR \"laminotomy\" OR \"laminectomy\" criteria",
+        "results": [
+         {
+          "title": "ARCHIVED Spine Surgery 2024-01-01 [for Healthy Blue Louisiana Medicaid] to 2026-04-04 | Carelon Clinical Guidelines and Pathways",
+          "url": "https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2024-01-01/",
+          "snippet": "Anterior cervical discectomy/fusion/internal fixation (ACDF) \u2013 decompression of the nerve roots or spinal cord by disc or osteophyte removal, with or without a fusion \u00b7 Posterior cervical foraminotomy \u2013 for nerve root decompression in cases of soft posterolateral disc herniation or bony foraminal stenosis \u00b7 Posterior laminectomy with or without fusion \u2013 for congenital stenosis, multilevel central stenosis from spondylosis, or multiple discontinuous levels where fusion is recommended to prevent kyphotic deformity."
+         },
+         {
+          "title": "Spinal Surgery: Laminectomy and Fusion - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0743.html",
+          "snippet": "Decompression coincides with any degree of anterolisthesis (grades I, II, III, IV or V)); or \u00b7 When performed with initial primary laminectomy/discectomy for nerve root decompression or spinal stenosis and there is documented intraoperative iatrogenic instability; or"
+         },
+         {
+          "title": "02-20000-48 Original Effective Date: 07/01/15 Reviewed: 05/28/26",
+          "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-48&pv=false",
+          "snippet": "Scheduled review. Revised criteria for lumbar discectomy/microdiscectomy; lumbar \u00b7 decompression (laminectomy, laminotomy, facetectomy and foraminotomy); single level"
+         },
+         {
+          "title": "Spine Procedures \u2013 Medicare Advantage Medical Policy",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medadv-mp/spine-procedures.pdf",
+          "snippet": "Laminectomy with exploration and/or decompression of spinal cord and/or cauda equina, without \u00b7 facetectomy, foraminotomy or discectomy (e.g., spinal stenosis), more than 2 vertebral segments; cervical \u00b7 63020 \u00b7 Laminotomy (hemilaminectomy), with decompression of nerve root(s), including partial facetectomy, foraminotomy and/or excision of herniated intervertebral disc; 1 interspace, cervical \u00b7"
+         },
+         {
+          "title": "ARCHIVED Spine Surgery 2024-10-20 to 2025-11-14 | Carelon Clinical Guidelines and Pathways",
+          "url": "https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2024-10-20/",
+          "snippet": "Anterior cervical discectomy/fusion/internal fixation (ACDF) \u2013 decompression of the nerve roots or spinal cord by disc or osteophyte removal, with or without a fusion \u00b7 Posterior cervical foraminotomy \u2013 for nerve root decompression in cases of soft posterolateral disc herniation or bony foraminal stenosis \u00b7 Posterior laminectomy with or without fusion \u2013 for congenital stenosis, multilevel central stenosis from spondylosis, or multiple discontinuous levels where fusion is recommended to prevent kyphotic deformity."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_119169",
+      "args": {
+       "query": "\"AFMC\" \"InterQual\" OR \"MCG\" OR \"milliman\" OR \"care guidelines\" OR \"clinical guidelines\" OR \"criteria\" \"Arkansas\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqYDCqMDAWkUfRMpecJcgi0-rdsh9p830atSo0WrZAccWRRYOS8Rynao7Xqr9H7Vyd3WuF5hshi28hOVJiEd_qwGnPOZKn6Fx3pewDlQLaSATcTpIaPNCNqE6virNDxB8RjFZp3rk7cgu0k5OoAfCV_cXI0EVXOpUvhydcka5FZn9szwh_0oQ-aFSQF1Bffh3oIbY4a6VicG-8BM_1dm-jD3xrMGS5x1Vo7J2c03lHrFHYeBDPqcXC1oBEIpNLKff8PLAZuPzVOOLlsdrfXR3vhcr_YuRob6kHrdX-Wf_DXtLcqEMZsjryOi6Wpoxn34TIPc9vuW8dz9n0-SxmCPaplVPczi8r6HRVxq_KsUoMzHc4bgpeKlGMJkk204qqaIZttmJMWyPVJZ30RClx5QVglRzvbrzUpRQxRZrR1LE3s5kkuL5myLEy3p2DYsnXKX817lwFH2VUwe9XkhhzCp7Tdy9isxfs1nkTpDcwMEhBm8AbpiRrRHx2_2hiwFNcgTtxvjWeZSzyAavYToWOK5B5ihpuUXOEcRgpK7szih9Qg7dx2kK0ReWas="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"AFMC\" \"InterQual\" OR \"MCG\" OR \"milliman\" OR \"care guidelines\" OR \"clinical guidelines\" OR \"criteria\" \"Arkansas\"",
+        "results": [
+         {
+          "title": "Milliman Care Guidelines (MCG) | Lightcast Skills Taxonomy",
+          "url": "https://lightcast.io/open-skills/skills/BGSD7C300E22BE5C5BEC/milliman-care-guidelines-mcg",
+          "snippet": "Milliman Care Guidelines (MCG) refers to <strong>a set of evidence based clinical guidelines used to support medical necessity review, care planning, and utilization management</strong>. It provides standardized criteria for evaluating treatment options, service levels, and patient progress in clinical and ..."
+         },
+         {
+          "title": "MCG Guidelines: Uses, UR Workflow, and Comparison",
+          "url": "https://medheave.com/mcg-guidelines/",
+          "snippet": "Learn what MCG guidelines are, how they work in utilization review, and how MCG compares with InterQual criteria."
+         },
+         {
+          "title": "MCG Care Guidelines",
+          "url": "https://www.mcg.com/solutions/care-guidelines/",
+          "snippet": "VALUE: MCG care guidelines <strong>provide fast access to evolving evidence-based best practices and care-planning tools across the entire care journey</strong>, supporting clinical decision-making and documentation as well as enabling efficient transitions ..."
+         },
+         {
+          "title": "Documents for Milliman Care Guidelines",
+          "url": "https://www.qualcareipa.com/MCG.aspx",
+          "snippet": "<strong>Brachytherapy Cataracts - Referral Management</strong> Cervical Fusion, Anterior GRG - Head and Neck Surgery or Procedure GRG Lumbar Diskectomy, Foraminotomy, or Laminotomy Macular Degeneration - Referral Management Abatacept Aflibercept Anemia - Referral Management Bevacizumab Cardiac Catheterization ..."
+         },
+         {
+          "title": "A Remote Nurse\u2019s Guide to MCG and InterQual | Nurse Fern",
+          "url": "https://nursefern.com/remote-nurses-guide-to-mcg-and-interqual/",
+          "snippet": "Back in the late 70s and 80s, both InterQual and MCG were created to provide some type of guideline to make sure hospital admissions were appropriate and necessary. Today, these accredited guidelines are a staple for insurance companies and third-party reviewers to approve and deny insurance claims. They apply to inpatient admissions, DMEs, labs, procedures, and virtually all health services. MCG, formerly called \u201cMilliman Care Guidelines\u201d and InterQual both have annual edition updates to keep up with modern evidence-based practice."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_180942",
+      "args": {
+       "query": "\"Arkansas Foundation for Medical Care\" \"clinical criteria\" OR \"prior authorization\" OR \"utilization review\" OR \"procedure codes\" OR \"manual\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EoACCv0BAWkUfRMByTauLEq24J9fMI97UUO6irD1xAdtPt9iP5g3rgPdlzaxwjZXR0n545dEPLOIBLTp0mB-0coCi7OG2dxE1yUXJhtD9Q8wftTGzAqmitXY_Q4azOlwAhVfnBf2n3kGlQG1lbrsu_13Oq4nNs_7asiwDbkvZt-5WH8zrC1gKGbJAHknPQ437MyQonIFhouGSJjKC4UOtIoCASXpSZjbpRc5IPMfC7vR5TMXSUELF9DZ9vMoc359xYSzgUQTz8VyUvdT-YP_OEfjkXEij7klqG-ZRxhhNTc9uZo8I4FGaaPXB2X93CUegavDkjgLxnY-SNg-pokh79GITA=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Arkansas Foundation for Medical Care\" \"clinical criteria\" OR \"prior authorization\" OR \"utilization review\" OR \"procedure codes\" OR \"manual\"",
+        "results": [
+         {
+          "title": "Division of Medical Services - Arkansas Secretary of State",
+          "url": "https://www.sos.arkansas.gov/uploads/rulesRegs/Arkansas%20Register/2013/April%202013/016.06.13-004E.pdf",
+          "snippet": "Certain procedure codes are covered only for a specific \u00b7 primary diagnosis or a particular diagnosis range. Diagnosis list 003 is specified below. For \u00b7 any other diagnosis restrictions, reference the table for each individual program. ... <strong>System Level II (HCPCS) procedure code G0452</strong> requires ..."
+         },
+         {
+          "title": "Prior Authorization | Arkansas Medicaid Review Services | AFMC",
+          "url": "https://review.afmc.org/review-services/prior-authorization",
+          "snippet": "If the Clinical Services Specialist is unable to approve medical necessity of the requested service, the review is referred to a physician advisor for determination. AFMC utilizes physicians who are licensed in the state of Arkansas to review the prior authorization requests."
+         },
+         {
+          "title": "Arkansas",
+          "url": "https://www.sos.arkansas.gov/uploads/rulesRegs/Arkansas%20Register/2014/june2014/016.06.14-008.pdf",
+          "snippet": "Fetus Were Carried to Term,\u201d for the prior authorization process. ... Section. View or print the Division of Medical Services Utilization Review Section"
+         },
+         {
+          "title": "2014 Arkansas Code :: Title 23 - Public Utilities and Regulated Industries :: Subtitle 3 - Insurance :: Chapter 99 - Healthcare Providers :: Subchapter 4 - Arkansas Health Care Consumer Act :: \u00a7 23-99-420 - Prior authorization.",
+          "url": "https://law.justia.com/codes/arkansas/2014/title-23/subtitle-3/chapter-99/subchapter-4/section-23-99-420",
+          "snippet": "(c) (1) <strong>An adverse prior authorization determination made by a utilization review agent shall be based on the medical necessity or appropriateness of the healthcare services and shall be based on written clinical criteria</strong>."
+         },
+         {
+          "title": "Arkansas Code-Title 23-Subtitle 3-Chapter 99-Subchapter 11. Prior Authorization Transparency Act - Managed Care Contracting",
+          "url": "https://managedcarelegaldatabase.org/state-law/chapter-99-healthcare-providers-subchapter-11-prior-authorization-transparency-act-4/",
+          "snippet": "(2) \u201cAuthorization\u201d means that a utilization review entity has: (A) Reviewed the information provided concerning a healthcare service furnished or proposed to be furnished; (B) Found that the requirements for medical necessity and appropriateness of care have been met; and \u00b7 (C) Determined to pay for the healthcare service according to the provisions of the health benefit plan; U.R. Criteria \u00b7 (3) \u201cClinical criteria\u201d means any written policy, written screening procedures, drug formularies, lists of covered drugs, determination rules, determination abstracts, clinical protocols, practice guidelines, medical protocols, and other criteria or rationale used by the utilization review entity to determine the medical necessity of a healthcare service;"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_141452",
+      "args": {
+       "query": "site:review.afmc.org \"InterQual\" OR \"MCG\" OR \"clinical guidelines\" OR \"criteria\" OR \"medical necessity\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqgGCqUGAWkUfROhaCA94YRVhW130GfYp5GFk4WubanBkTynAa4_bjXk49IiAXn5jdMZqVLBbsRmBbVdGT8a7ekEWToQWK4DuAYaLojBsDdHRG-26jZ_yoeOAozhrtRV5R-87o_5jItI3iUPd8AOV_HApb4VMfmB1VWwfkXsb4WDQFgQso_5f4Lc6vY4cCrbakBLR7WhPbYeLsfxlaib85ovKHm2FrA4eMfBq3pI_jOBlplmBMrPFQrBjOesXkgMEP3v_P0PiMoeSDiBy8F9GYy9GMHXwQgAO06g5me5vLRr6e7zukMtMf9kqOgJ-c1QpuDMtxINfsQPXuq7onKnLb4bOBI99EMMHCHD_olFF9F1m0FsOu4IxRGH-AYiIump1_6ewJ1PqrJKptAu-NSlaWJKE1BmqULWkVp8toZ5a-BSr5WtpXAtVtfRTbx-zQtbdKh2hS-eyM6MKN_jxva_2mTzK0s1setHoKBS6xsOs75Vduj-T3zPoc00fj6v2KzaRIAocV_s73906Y1TdlW4o2gMGwMYs8V7pynkm_fWl1Vc9JIGxLq8FLi5cGJgz2_UMBeZDpqrpQjhF89ovefHdaxgy5Gz5roXAzgKp59ARj1EUEAoFMi2qQQiXta9aYCRRzKuj2BAQbTj8rtxSGGiIQKRo0ZqunRoNC5lhORM0clOeXHHNFW5WeLdT4yT869Lwssy_URlflyryD-Zj6b2oWULWoyB0PNo_8su3qlf6ShKdSzpNrkQAoWzdF_EnPhhoIuE0bmRo1EDNLif7DpVbtT0IGWmJHvVf0kEQvULO9JJ6gtL5QqT0ITkpBtVSBtjV6uRfj2x2dPJY7hRloVaof98ntfXDccBUryByZYhOZ2NvAJeDssbtETEIpjsLV_jdz0KtbWfEV8VS8D9KpyT9If2wX_ZQEXATVVMG4Apz6ktd-7O3lm55j1t5nAKR6_mXWsFR8WL4jG23RJWYrOgTJqnbxmAWnNfKz76bxhJ8J2p7cZX_lxss4jvVLYTv_qGU4j_owKGYRBoEROuLQdhjwBFc5ZUcqdqnKSsEHBLpioZm5HvNoTmau13sQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:review.afmc.org \"InterQual\" OR \"MCG\" OR \"clinical guidelines\" OR \"criteria\" OR \"medical necessity\"",
+        "results": [
+         {
+          "title": "Prior Authorization | Arkansas Medicaid Review Services | AFMC",
+          "url": "https://review.afmc.org/review-services/prior-authorization",
+          "snippet": "A registered nurse Clinical Services Specialist initially screens the prior authorization requests. If the documentation submitted supports medical necessity, the Clinical Services Specialist may approve the prior authorization."
+         },
+         {
+          "title": "Retrospective Review - AFMC.org",
+          "url": "https://review.afmc.org/retrospective-review",
+          "snippet": "A registered nurse Clinical Services Specialist initially reviews the inpatient stay. If the documentation submitted supports medical necessity, the Clinical Services Specialist may approve the service(s)."
+         },
+         {
+          "title": "Medicaid Review and Prior Authorization Services | AFMC",
+          "url": "https://review.afmc.org/review-services",
+          "snippet": "Our clinical Services team, which consists of physicians and registered nurses, conducts more than 185,000 medical case reviews per year. These include prior authorizations and retrospective utilization reviews to ensure that all health care services reimbursed by our clients are provided in the most efficient manner and are medically necessary."
+         },
+         {
+          "title": "Medicaid Utilization Management Program | Review Services",
+          "url": "https://review.afmc.org/review-services/medicaid-utilization",
+          "snippet": "A registered nurse Clinical Services Specialist initially screens the MUMP request. If the documentation submitted supports medical necessity, a Clinical Services Specialist may approve the request."
+         },
+         {
+          "title": "Emergency Room Retrospective Review Process - AFMC.org",
+          "url": "https://review.afmc.org/review-services/emergency-room",
+          "snippet": "A registered nurse clinical services specialist initially screens the retrospective service. If the documentation submitted supports medical necessity, the clinical services specialist may approve the service."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_101457",
+      "args": {
+       "query": "site:review.afmc.org \"spine\" OR \"spinal\" OR \"decompression\" OR \"discectomy\" OR \"63030\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsgHCsUHAWkUfRNQqB0W8E1lG1bMBgMhJqKCWP1j-7RNwI9X0092h_8V1Ra7BKMFwAk1m2nKggVaBCaBb20SmVViZgRXq5O4iHv0KqMoYg5avdlvfquRMqLRHtPiRb1mxVRXBcFmvMJFbPrgNAuiAhMBrfAbYf__5f3T8DPulrN0Ba25VAixrBxL5BztBrMSFRpDk_9j_6qGVoO1LlLg4eb76v_FaJ4N_paWrurUiubCFV90GxlJYG2zQjHtFIHppP9zGZ_AyETMeDdO5ALGyphng2W4SacWcJBwtNZ01vlN8P4gKhF-zdklPwiI_P6y0q_1dThTt9_d9ov4qRNP4fhdtW_TjL6E2GnvXck9JIlT80XlfE6bp29-yUunvD0Zzc8YgdoDAcv13JpovFFP5dN6rSVyzwo_zZiuI-yP971_KAn92Wlq1bPfwCMQGIh5ARJxupV81p_zhtT9anj871ySS6dvrlPy9b2eXYmCt56MAEkXRO76FDqX_3lT5jWChQ1vXgl3hqff_wPr_Qm11Pa2AeXagzuHNcdJhaY35fPE_4R9Uum2XYyk5us_EuWr1xz-qBXPVZBOpo-xV8Wr17Ym09EB9YaaTWSkSYDMw5iKHaWBLOXQWIYbKsPBgfFnjtVZeY_rIJlEmYCGxLwFA7r56nQIE4x4kDHRuFU7DySMa6YIvAphBiOw5pPfBb2Hxqkv7lzZInxFzfeyDQfMHFnml1JDyOUwVYE08BEKZA6f2ieGqWfJClaRKhccAnYuEHf7zCssW20-7GTXzV4M4VIIV91aFrYm8BmQinRwJQ9BUY4wp0rKPFIobMhnpIdFxxhaCv5KjOef8yPijeDoT1rKV03-lPNjNiBcjnmyBhtv0EYUDWfjDNMPkSBSfFzQTe5UvMAiukaG0E8evd-IkzJQFy635eNDnzvQGdVZQCvtJBlzvZsf7-jspbBP6n9mR63PPUnAnQQZUOEJ-ftN68hssgzVXCkdlhJ3jBR21mq3LAHpxO-NesAJu6ySBIe2z7O_cvN7HpVk2AoiPRTsJPxPytSxtUmJH7AZ8FHS_9mG-Pmk6WjOKlxKaijR4dXvXrhwHRMXULVykHt5RLiKMVcQ8zwBM6eYlamEU6x9EOi9d65F8pVhQKBpg5YkmjOUx0Aa3DpVsaZjJglN-_qb-ShxBBSxrdnAmnMaDNQ6Xghid803cF7KKU3AfYt4HEfQaDcBm57Z2X_bk4eQnOXG5qHcSmK80h8gFyln7IAyLiuz6Mkx2cOaIWodeZO3dzrTYp4TH3MGfyEQVTs="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:review.afmc.org \"spine\" OR \"spinal\" OR \"decompression\" OR \"discectomy\" OR \"63030\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_142569",
+      "args": {
+       "query": "\"AFMC\" \"63030\" OR \"laminotomy\" OR \"discectomy\" OR \"decompression\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsIBCr8BAWkUfROiXjoP4-vAe6uV8_18Qjlpiprj0jw6HmissXlfNsL1uPF_3DJ3UBZoBxV0XexPRZDYyjc12xfEKt2dv0IJCm65q6S2mAkDkMHAsKkwFrI51F_m3xaelRQtpgyM9Uk4YpfHWE7sLcmbHeddSVbaNC6iyrDjGBHwr0DVu6mKZoewSxYPuerbvDpnRp5TRYpWFDg_1pdsSvV-w-s-3ScYZ2AtefLc2HaiXuhyKo71W9-hIA0gdqrK96CkT3A="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"AFMC\" \"63030\" OR \"laminotomy\" OR \"discectomy\" OR \"decompression\"",
+        "results": [
+         {
+          "title": "CPT\u00ae Code 63030 - Posterior Extradural Laminotomy or Laminectomy for Exploration/ Decompression of Neural Elements or Excision of Herniated Intervertebral Disks Procedures - Codify by AAPC",
+          "url": "https://www.aapc.com/codes/cpt-codes/63030",
+          "snippet": "CPT Code 63030, Surgical Procedures on the Spine and Spinal Cord, <strong>Posterior Extradural Laminotomy or Laminectomy for Exploration/ Decompression of Neural Elements or Excision of Herniated Intervertebral Disks Procedures</strong> - Codify by AAPC"
+         },
+         {
+          "title": "cpt 63030 vs 63047 | Medical Billing and Coding Forum - AAPC",
+          "url": "https://www.aapc.com/discuss/threads/cpt-63030-vs-63047.92013/",
+          "snippet": "Let&#x27;s start by looking at the full descriptors for the codes: -63030 Laminotomy (hemilaminectomy), with <strong>decompression of nerve root(s), including partial facetectomy, foraminotomy and/or excision of herniated intervertebral disk</strong>; one interspace, lumbar (including open or endoscopically-assisted ..."
+         },
+         {
+          "title": "Mastering Neurosurgery | A Guide to Multiple Level Laminectomy",
+          "url": "https://www.statmedical.net/neurosurgery-billing-guide-about-multiple-level-laminectomy",
+          "snippet": "An illustrative example of a single, ... with <strong>decompression of nerve root(s), including partial facetectomy, foraminotomy, and/or excision of herniated intervertebral disc for one interspace in the lumbar region</strong>...."
+         },
+         {
+          "title": "CPT\u00ae Code 63030 in section: Laminotomy (hemilaminectomy), with decompression of nerve root(s), including partial facetectomy, foraminotomy and/or excision of herniated intervertebral disc",
+          "url": "https://www.findacode.com/cpt/63030-cpt-code.html",
+          "snippet": "CPT\u00ae Code 63030 in section: Laminotomy (hemilaminectomy), with <strong>decompression of nerve root(s), including partial facetectomy, foraminotomy and/or excision of herniated intervertebral disc</strong>"
+         },
+         {
+          "title": "CPT 63030 \u2014 Single-interspace lumbar laminotomy with nerve root decompression, including par | Mira Health",
+          "url": "https://mirahealth.care/reference/cpt/63030/",
+          "snippet": "63030 <strong>covers an open posterior laminotomy at one lumbar interspace where the surgeon removes enough lamina, bone, and ligamentous tissue to decompress the affected nerve root</strong> \u2014 including partial facetectomy and/or foraminotomy as needed, plus ..."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_103042",
+      "args": {
+       "query": "\"Arkansas Medicaid\" \"InterQual\" OR \"MCG\" OR \"milliman\" OR \"care guidelines\" OR \"evidence-based\" OR \"national\" criteria"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EogCCoUCAWkUfRP-tkxMZxcIrEeKjYvs5RY2h-88t6TG3quBLV8QCdaWlZtN8U3h9B3BJts54hbOwxFRjhPszyX2PWwtxTxRuwnlYUnhXO3UcqjqEY8QcmklIcaCYy2dwVhcdbqg-hsPRJUfdef3B2CLeEnfVYxuN2SmB-D9IRj-8WXcxeRkuePXsUGg0PUuQEJty5EeftBFpKPhRRKshHqQPOATLQnY4f5PS8aXfxmLsY4excH5sscKmx-ntlQi4VwQOCwPcMVWPUfGCDgkf-4J6N7CaGRaVq5A23XcC2XvFxiginLnUu7lEotAnc7hyM_i2nl8BR6gUfFzLypGFd0VdWe4CbX11BLe"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Arkansas Medicaid\" \"InterQual\" OR \"MCG\" OR \"milliman\" OR \"care guidelines\" OR \"evidence-based\" OR \"national\" criteria",
+        "results": [
+         {
+          "title": "MCG Guidelines: Uses, UR Workflow, and Comparison",
+          "url": "https://medheave.com/mcg-guidelines/",
+          "snippet": "MCG (Hearst Health) and InterQual (Optum) are both <strong>proprietary, evidence-based clinical criteria tools used in utilization management</strong>. MCG is often described as more oriented toward care pathways, recovery expectations, and goal length of stay ..."
+         },
+         {
+          "title": "MCG Guidelines 101: Simplified for Providers - MedHeave",
+          "url": "https://medheave.com/prior-authorization-services/mcg-guidelines/",
+          "snippet": "MCG (Hearst Health) and InterQual (Optum) are both <strong>proprietary, evidence-based clinical criteria tools used in utilization management</strong>. MCG is often described as more oriented toward care pathways, recovery expectations, and goal length of stay ..."
+         },
+         {
+          "title": "Evidence-Based Criteria & Guidelines | InterQual\u00ae",
+          "url": "https://business.optum.com/en/operations-technology/clinical-decision-support/interqual.html",
+          "snippet": "Explore how a large national health plan leveraged InterQual\u00ae solutions as the catalyst to transforming their UM and CM programs."
+         },
+         {
+          "title": "MCG Care Guidelines",
+          "url": "https://www.mcg.com/solutions/care-guidelines/",
+          "snippet": "MCG care guidelines are the healthcare industry&#x27;s leading independent, unbiased clinical guidance trusted by payers, providers, &amp; government."
+         },
+         {
+          "title": "Milliman Care Guidelines (MCG) | Lightcast Skills Taxonomy",
+          "url": "https://lightcast.io/open-skills/skills/BGSD7C300E22BE5C5BEC/milliman-care-guidelines-mcg",
+          "snippet": "Milliman Care Guidelines (MCG) ... care planning, and utilization management. It <strong>provides standardized criteria for evaluating treatment options, service levels, and patient progress in clinical and administrative settings</strong>...."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_99272",
+      "args": {
+       "query": "\"Arkansas Medicaid\" \"medical necessity\" \"spinal\" OR \"lumbar\" OR \"surgery\" OR \"63030\" OR \"decompression\" OR \"laminotomy\" OR \"discectomy\" OR \"laminectomy\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EucHCuQHAWkUfRMPCQjdSH4gBu5qQoY717ZULmG38VkmCIMHHN3IRkomlAtXPQoG-_NKKRtChvGS-mvH57nWkI6T65D7scrvWcEQI-VQfi6_knZJmg2-Utao8aSkLacbb1Lfhpg1QY8jgxKnNvG19L9zwHojguDCdodWr4HAf6NX9D9hClUX_hzaLYcyDV1XJ3s6KPa5-UK-4JcuygAZa4KQEmnzD5XMB8QMyeOGOxi91bViRbSTv1yLGrPeL4GsqEiKyJ3cSyXXqyxNoWMjuDQ_ngAtP4mey_ovNo67ZQGGFUe0tuuRgWsfioQgF3V0xGL_Ad9w6bFKlf7S7KskHq6zXhhkH73fe5_Fb1fqXUMXtd8ekItfAT6ZxbF1bRlUsUMrMDVXCxtbGRatv8JVP6wM_zJi4WwrAFpZ27DelA5qUtqbaFLfq2i9VLJqK1n00UFWmc4CIlx4aHO80MJAd-EG536PUrlB-3OPbhpMvcREhjTVmg-TR8PCP-CRyxxZilHvu8-FUsahv42X7-DyfLCupyHfKM7MDmanVhAR9yofQQRB-Eax_4p-0Fn8VLLjik5HLxm1WcAue4VFL4mDst4l2jZc7PNdNpI68wxpPYMcsg5Byjqix8DaxcToh1Wub1YH1k3776NQ50NvW7bEWkDNgo-BvS_F98sycky0lmmurnmyZrRB2QVDJI-woCZ56fLHihe0yqbiNTNM7iXZpawdpsRGoj_goJg5sVxY9wbKbfD6WSMcDZRizUKJGvT9LFZrHFnXvQZVuj088DvQ1ydD8eK5wiBb19KkIUQxt-7VCvSjTZ3xDXHl3HuzA8h_4h322-GYXrQQB4R0CzzGKwDLYFZsRIbhU4ToEKV_2OovbhDDE6jb0KIrJu_w2dJDwjZGN3VGecurx-I00YkDyP5NzUM9yGT3YGKcqvYlqD_6umuViZ58wc4sYdo1lU7iNbix4FzZCjFsPo3gzVJMAp8RvdX9eNV_tdrRtz54DOuacxxW81JC32HKkxy1JjInM43IR7V3821Lohn6arAluBk5pQWWMMrfX7kAiBv7lHi3oREjMqcywRmnEIj0rVd2FW9HfnJ7uZHeIEGG5Ia4Ibs5U5xo2kfgmnvei0XR0xLs0wZgxNjLO8ngBg_1IBOEs2i9o7p0q1H65AmP967Z4kVOs3Vo_JBWxxPtRh4aQUBdTNryohmAVvoCAnDn8h8l61oJ2etmuyTRP_c4YrqZpg2p50td7YSCzPGRiRba2WchtEA7vV0NOCRuDtIL3VWYpW056vR6g8SJp66iEFc3rjR2lZ5uzjeckKkYu-GO5Tl2lnPgvKSHV-El"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Arkansas Medicaid\" \"medical necessity\" \"spinal\" OR \"lumbar\" OR \"surgery\" OR \"63030\" OR \"decompression\" OR \"laminotomy\" OR \"discectomy\" OR \"laminectomy\"",
+        "results": [
+         {
+          "title": "Spinal Fusion and Decompression \u2013 Community Plan ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/spinal-fusion-decompression-cs.pdf",
+          "snippet": "Laminectomy with exploration and/or decompression of spinal cord and/or cauda equina, without \u00b7 facetectomy, foraminotomy or discectomy (e.g., spinal stenosis), more than 2 vertebral segments; lumbar \u00b7 63020 \u00b7 Laminotomy (hemilaminectomy), with decompression of nerve root(s), including partial facetectomy, foraminotomy and/or excision of herniated intervertebral disc; 1 interspace, cervical \u00b7 63030 \u00b7"
+         },
+         {
+          "title": "CPT 63030 \u2014 Single-interspace lumbar laminotomy with nerve root decompression, including par | Mira Health",
+          "url": "https://mirahealth.care/reference/cpt/63030/",
+          "snippet": "CPT 63030: Single-interspace lumbar laminotomy with nerve root decompression, including partial facetectomy, foraminotomy, and/or herniated disc excision performed via open surgical technique. <strong>Medicare $898.15, 26.89 total RVUs, 90-day global period</strong>..."
+         },
+         {
+          "title": "ARCHIVED Spine Surgery 2024-01-01 [for Healthy Blue Louisiana Medicaid] to 2026-04-04 | Carelon Clinical Guidelines and Pathways",
+          "url": "https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2024-01-01/",
+          "snippet": "Lumbar discectomy, foraminotomy, ... the following conditions: <strong>Acute neurologic deterioration including signs and symptoms of cauda equina syndrome, or rapid progression of neurologic deficits confirmed by imaging, regardless of underlying pathology</strong>...."
+         },
+         {
+          "title": "CPT Code 63047: Lumbar laminectomy billing, modifiers, and 2026 rates | Pabau",
+          "url": "https://pabau.com/procedure-codes/cpt-code-63047/",
+          "snippet": "63047 describes laminectomy with facetectomy and foraminotomy to decompress the cord, cauda equina or nerve roots, billed per vertebral segment. 63030 <strong>describes a laminotomy or hemilaminectomy that excises a herniated disc, billed per interspace</strong>."
+         },
+         {
+          "title": "Spine Procedures \u2013 Medicare Advantage Medical Policy",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medadv-mp/spine-procedures.pdf",
+          "snippet": "Laminectomy with exploration and/or ... lumbar \u00b7 63030 \u00b7 <strong>Laminotomy (hemilaminectomy), with decompression of nerve root(s), including partial facetectomy, foraminotomy and/or excision of herniated intervertebral disc; 1 interspace, lumbar</strong> \u00b7..."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_103484",
+      "args": {
+       "query": "\"Prior Authorization Transparency Act\" Arkansas clinical criteria copy"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvUICvIIAWkUfROHVdJ3caQM2XxkBmJ4ifx2qGFLxjQ9GnMbq7K1UJlE8VKP8bHH0CqcDJhyaOskCQRcBp21VXe5Xl5YnnrkjPkVtwR8LS5Hk4WZ7mYtPJm_HIGjPyDbYKbklzEdbTgq7Z5bOiUaw0bgfOB4CIAnoZJaPr6TTYQ3MIjfdpRb9CfFTyHVCp7upNkEme_6P0RP8ZvDGupzMz2GKYfVsfgHKdK1xHONFRScpZTqkXWL-AH9qeuWygRUTN0zn7fLfHI5zMtC2hgAyVOwPuJVp3wOlI3pco4vlAPIpJfvY6KUs_YMEPwM6XXzc2RSn0dOBALf8xftguoK-vvvSr9RRFgOKVz_0jQtL0D0Oy7bTjmMGL2KeB0SJfAXoxC1BafImhcuQ6tYONq91P7oDo31mq4uDMJpCDh7spm3SYuWutoIQ7uhnsFhnLhiG_Odsv2JrayVWX92hCkY_R2pM7eVsK7Lv0134C7Ref6k_DIlqXa1GvnaDH5fg8X14pBW501xS1ZYJUyIxLXZTv0aOzKh1cNsfGubzgn7drpuPsMR376BaCEhJ_7u1spcf0j5heQ9azg2990ETwLPrb-mgVpAbNEx2bpzD5wXg2ChMemv7VOwqETwKI4GrzDZg3zPilUWgMny2WOsgroqBTCrEJxu57WMQ41xNoDYWwoChNhWbeLK7lcJ4E9GsGREWzeOTdLCU5l_cMIG2mxUiItVitTExOP283QwoI-RiEZ4kPhUXhzosg__UD4QFRDceiOeD-zldcYLDFQtfb9XjIWHqHT9enzy8XWoOG9HW3YAEUozFyPXpB7OAvUHw4Zkav8s15C1Yc1ydNKVerBtqQzG_-IwaqO3H4elLrTRj0obK70P79rX4m8tuAFwnbCDMQ-P-uWiMLjA0WDOfXZxt6l9hRUeYkO61-4hdPtFZOsK3S6iZ_3CU93UnI7fhITxpkNd0HUh7uCSv6-8_qm8CLhIGqQ0_pzPQFjZuGMHRC8hq9n8nbx2oBjd63qBFcvhl1I1A6R8J0pjxiTL1jplKESK-QPWloo9c5VtbhtS0UPz8bTqTpo0tmy3mzZ9Cy8_oZFsDDHLRrRpmpI66D-4vN78ZFw2HHO8hywiWTwaxlR_FOBiN8OJkzoyeKqXyVJXR3uErn3EXowGmdyfe45CbWR4G9FjXGBsWjC6vJy_B4GPYpeJggGN4wR1jGuUC_qcnZ8u8LVIHWgr5RHqVGB2WWdZZbavPBRWRdvX1RZGSc2xM2yHuz2VXeJYw2BhyUEAIpUkT5wbZgDFLUznqr5Muv9MYjZUbfbhwYuo1Rc-bsV2CwBpLK5Sx4-tLe9Lz6ZSwsGCtO0yqB1DSjtDbuLwHsBhdnxqF9PAtG_swMDzyNRJZlRr2u4fxHdWhN76yGhJHhApIjOhcdTvPZDu8dyIbBYt3z_ACvqApuyTK7PRuT5ClCBYR3LzW56qIaV7ikwfrMxw_r3mlqSzxMcVApVfyhJvGiu5nHoYgFbLY6ee2ZZhOnlrpfQc_w=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Prior Authorization Transparency Act\" Arkansas clinical criteria copy",
+        "results": [
+         {
+          "title": "Arkansas Code-Title 23-Subtitle 3-Chapter 99-Subchapter 11. Prior Authorization Transparency Act - Managed Care Contracting",
+          "url": "https://managedcarelegaldatabase.org/state-law/chapter-99-healthcare-providers-subchapter-11-prior-authorization-transparency-act-4/",
+          "snippet": "(2) \u201cAuthorization\u201d means that a utilization review entity has: (A) Reviewed the information provided concerning a healthcare service furnished or proposed to be furnished; (B) Found that the requirements for medical necessity and appropriateness of care have been met; and \u00b7 (C) Determined to pay for the healthcare service according to the provisions of the health benefit plan; U.R. Criteria \u00b7 (3) \u201cClinical criteria\u201d means any written policy, written screening procedures, drug formularies, lists of covered drugs, determination rules, determination abstracts, clinical protocols, practice guidelines, medical protocols, and other criteria or rationale used by the utilization review entity to determine the medical necessity of a healthcare service;"
+         },
+         {
+          "title": "Transparency in Prior Authorization: The Under-recognized Precedent Set by Arkansas - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32554984/",
+          "snippet": "The aim is to ensure appropriate utilization of health care on the basis of clinical guidelines and to minimize costly procedures. The overall impact of PAs has not been well studied; however, many arguments exist in support and opposition to this practice. The Prior Authorization Transparency Act and the Healthcare Transparency Initiative are legislations enacted by the state of Arkansas to study and mitigate the effects of PAs."
+         },
+         {
+          "title": "RULE 115 PRIOR AUTHORIZATION TRANSPARENCY ACT",
+          "url": "https://portal.insurance.arkansas.gov/LegalPubsPublic/Documents/Rules/rule_115.pdf",
+          "snippet": "We cannot provide a description for this page right now"
+         },
+         {
+          "title": "Act 575 of the Regular Session",
+          "url": "https://www.arkleg.state.ar.us/Home/FTPDocument?path=/ACTS/2023R/Public/ACT575.pdf",
+          "snippet": "SECTION 3. Arkansas Code \u00a7 23-99-1104(a)(1), concerning disclosure \u00b7 26 \u00b7 required under the Prior Authorization Transparency Act, is amended to read \u00b7 27 \u00b7 as follows: 28 \u00b7 (a)(1)(A) A utilization review entity shall disclose all of its prior \u00b7 29 \u00b7 authorization requirements and restrictions, including any written clinical \u00b7 30 \u00b7 criteria, in a publicly accessible manner on its website."
+         },
+         {
+          "title": "prior authorization transparency act",
+          "url": "https://arkleg.state.ar.us/Home/FTPDocument?path=/Assembly/Meeting+Attachments/040/189/D6a+INSURANCE+Prior+Authorization+Transparency+Rule+115.pdf",
+          "snippet": "This site is maintained by the Arkansas Bureau of Legislative Research, Information Systems Dept., and is the official website of the Arkansas General Assembly."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_109112",
+      "args": {
+       "query": "site:humanservices.arkansas.gov \"prior authorization\" \"criteria\" OR \"clinical criteria\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EokGCoYGAWkUfRMk-7Wp2XI2ENjfyyxGYK_mvqEzuc8rCoZPFQlpOMZSQODiIiu4DY9gmpFi7Cu7MpQXFRVaBrNt0ImkiqCjpbteTZ3CEZTSYNeCHcLQsRGQLA_LepX_uJKbfBqU4xc1JBXMXL8bqjzCJ-fzeWf4ida0INW2NHhGAovFDqlje5IdE-odxgkzThWYmrzjKMajFp8yQqQ56E5gSEpfc1taB-u_UFQv2QQRFGwK6AnjehQsquGjS7pe7vN25uXKXxmqkBj9LUVq8hQMG_9V5ebEfWP5oQAU-6HPXb_tVLQBWuch_xLeNpYORfld1VmBaXRbd0ERJA6IiGBoLOKss6NtjIBQ9xctRRs1930uDF6w6zwc8SmmmkyNcDQxQcyMLdCzyj1c5YeP9kcwb9PXTKEBMkunjMgxTlcm0Ux7odTXLil5j7skSdhDDa8q1BTX3bTXzE_mP8lncqCYnT5EkXJ1CNfTGSSl--LF9hsX1IjaUhn6aWyOegRu-j4FwQ2rSHCCfnbiVuBUhMOROX2cNFruW9n0NN1bHfEUTBuvyk8qckIEhNiWkE_pfoia1RpFQB5RBL31_4AUhNzfxZiBZNwuKiHE1RHGZgJ2RXmUmp2efzdHsGXXYo15YFQ_5ahkh9Khl1evsXGXTmVOR0-mXYzQ_oicKjC4rZ2rAFwlq3Jck2GkryxCB2fIZYXUubuAhEzvAA93aiGeOdEW7GUNQf2Xlo2Y-AKsaJKIKa0CRIoJLZG_wj-FSQSuDr5qMSaszUbepuQmdjnk15HkuXwKTVpXYTH0pXmP0rqkrkW1aDQ6i0SZvq3QMkofrWDFqIbAPbDv1ncNx9ghg6rPjhhnQ7UwrrDMbN5mN2T27bmFnJpctOTxz2NtnZSFlHv_eTDhQ98K3wlDLDfC94t6473jXluE1obC92imPHFmskTTcw1KXfbPACZ5U6mnV-uorsrY-6OT6jQ163P8QhgfkSdKDmweABuwi0KDDzUgGYFqgMKx9Yu9j_iU0U06ZGeBlXxRt5HlTklh"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:humanservices.arkansas.gov \"prior authorization\" \"criteria\" OR \"clinical criteria\"",
+        "results": [
+         {
+          "title": "- P.O. Box 1437, Slot S415 \u00b7 Little Rock, AR 72203-1437",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/PharmMemo11-13-24.pdf",
+          "snippet": "prescriptions for both Suboxone films and buprenorphine SL tablets at the same time without prior ... Beneficiary must be diagnosed with excessive keratin in hyperkeratotic skin disorders (e.g., verrucae \u00b7 and the various ichthyoses, keratosis palmaris and plantaris, keratosis pilaris, pityriasis rubra pilaris, ... Beneficiary must demonstrate a clinical benefit based on any of the following (compared to baseline):"
+         },
+         {
+          "title": "AR Medicaid Prior Authorization Edits approved at the AR ...",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/PharmMemo2-12-25.pdf",
+          "snippet": "enrolled pharmacy provider may dispense up to a five-day supply of a drug that requires prior authorization \u00b7 (e.g., a drug that requires a clinical PA or requires a PA for a non-preferred drug)."
+         },
+         {
+          "title": "Division of Medical Services Pharmacy Program",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/ProvMemo-8-28-19.pdf",
+          "snippet": "that requires prior authorization e.g., a drug that requires a clinical PA or requires a PA for a non-preferred"
+         },
+         {
+          "title": "AR Medicaid PA Edits and PDL Updates Approved at the Oct ...",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/PharmMemo11-12-25.pdf",
+          "snippet": "Prior authorization (PA) requests for drugs that require a clinical manual review prior approval, require a \u00b7 prior authorization request for a drug as an exception to established point of sale prior approval criteria"
+         },
+         {
+          "title": "DUR Memorandum - Arkansas Department of Human Services",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/ProvMemo-2-26-20.pdf",
+          "snippet": "that requires prior authorization e.g., a drug that requires a clinical PA or requires a PA for a non-preferred"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_120776",
+      "args": {
+       "query": "\"Arkansas Medicaid\" appeal OR reconsideration AFMC OR \"DHS\" OR \"Division of Medical Services\" address OR \"fax\" OR \"submit\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EuYDCuMDAWkUfROSG3405J7iM7i4AHv5aIzTGwAmSdZ_bTvzuZZgRmfuHLFTFdKDBtgM87uIAyHRkhLfAWdZTUN5sviItG9yNCz1L-f9rm6aGZTYXBIlaJPFdhfk7LaDeYgxSHPVFBLxTLcxH0bqY6EwAFIZsBjga52_HFq3LP25YMyJlrt1GuvH8LFCYISKir9NC_expuX-aBKZZtLh_kXkS_bmX8IUXpPnixxX5q-gMVBhThXT6E3FIuNiwcKeASISUaIo4-JDb6qx4aAphymwtG5oC6rDvZKy26hq3cZhSsDC2PxlBLOhLH0cFmHF_idlF2JQFRzlhPz3aCPmjwncMAMABY_AQmXa5fof12a4svWF5h2BXAOGgS8xOf7IV5Y425qHFQqtUAjzWqvm1zM-SvjfiFxEP9C6OIgO8HNocG4gdCeKI-gBzKWrtKMaUP0fCUA9wtnHX0_NeftEGt02XXP7qDETPosrb5B2SKS_7uHf_vnLIsB0_FPmcuCxjovy2fJ_LCc80qScGdjAVEbY5c-IBkjqByW3HrGm0vP2bcqHabB1B0WCMuJ-AM7w3s2pTMJL3kqgA_f5H7BGrTjWSZYYCTdr5BiCxf3qCKmqNa-DtB59c69CG9NNntYWDyFpu_hVrHaa"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Arkansas Medicaid\" appeal OR reconsideration AFMC OR \"DHS\" OR \"Division of Medical Services\" address OR \"fax\" OR \"submit\"",
+        "results": [
+         {
+          "title": "Division of Medical Services P.O. Box 1437, Slot S295, Little ...",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/Iterested-Persons-Posting-Packet-Medicaid-Administrative-Reconsiderations-and-Appeals-R248.pdf",
+          "snippet": "Medicaid allows only one (1) reconsideration of an adverse decision. Reconsideration \u00b7 requests must be submitted in accordance with Section 160.000 of Section I of this ... Sections 160.000, 190.000, and 191.000 of Section I of this Manual. ... Include a copy of the NOTICE OF ACTION denial letter with the resubmission. ... Services, Appeals and Hearings Section contact information. ... Hearings Section. View or print DHS ..."
+         },
+         {
+          "title": "Prior Authorization | Arkansas Medicaid Review Services | AFMC",
+          "url": "https://review.afmc.org/review-services/prior-authorization",
+          "snippet": "Reconsiderations can be submitted utilizing the same methods as the initial request; however, the preferred method is electronically through the Arkansas Medicaid Healthcare Provider Portal. The Medicaid client may request a fair hearing of a denied review determination made by either the Utilization Review Department of Human Services (DHS) or AFMC. The fair hearing request must be in writing and sent to the Appeals and Hearings Section of DHS within 35 calendar days of the date on the denial letter."
+         },
+         {
+          "title": "Medicaid Utilization Management Program | Review Services",
+          "url": "https://review.afmc.org/review-services/medicaid-utilization",
+          "snippet": "Reconsiderations can be submitted utilizing the same methods as the initial request; however, the preferred method is electronically through the Arkansas Medicaid Healthcare Provider Portal. The Medicaid client may request a fair hearing of a denied review determination made by either the Utilization Review Department of Human Services (DHS) or AFMC. The fair hearing request must be in writing and sent to the Appeals and Hearings Section of DHS within 35 calendar days of the date on the denial letter."
+         },
+         {
+          "title": "Medicaid Extension of Benefits | Review Services | AFMC",
+          "url": "https://review.afmc.org/review-services/extension-of-benefits",
+          "snippet": "A request for administrative reconsideration of an extension of benefits denial must be in writing and submitted to DHS or its designated vendor <strong>within thirty (30) calendar days of the denial</strong>. The request must include a copy of the denial letter and additional supporting documentation pursuant ..."
+         },
+         {
+          "title": "Appealing - ARKids First - Arkansas Law Help at Legal Aid of Arkansas",
+          "url": "https://a.arlawhelp.org/arkids-first/arkids-first/appealing",
+          "snippet": "If you are notified that you Medicaid or ARKids First benefits will be taken away, you may appeal the decision. This means you may ask the DHS to reconsider letting you keep your benefits. To appeal, you must send a letter to the DHS."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_160134",
+      "args": {
+       "query": "\"Appeals and Hearings Section\" \"DHS\" Arkansas address OR \"Little Rock\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Et4ECtsEAWkUfRNqnpewrvIur3o63KVRTPeGZTRgQayOEAIeLKQycPgLjUs-JHUsU8tuD4LczpKVHQxbxR8PaBnpU4yHvHhqnz4x2YU1cQW_UwiubNTO3UdeA0bY9YojX3ajUE9Qh9OhD3-COP_K2JWlTKgNeC39-FmvIJW7mLFYLGyDgyO6Lx2OtCejjJrZOcVrp57K8Cp8Yi9ZEI093mgTWTQOFcrJ8Jp7QJrEStU2-O5EPBa0OdI51xU4MJNWppk59yStEmpmUzB4AY-vz2mgD73y63pfHL75DIxoedKHvo2U2MsQIYGMcFFRHIlL5d9P5vNcSPeFkixyJkYVfAmoP-XDhX1P9quhTOHViC7JWsdU6vBCeJPD23ygB6UnaP3H_eQ9MpmCKqQDJmAAVZPo6CPN6pfeLLCjV0s6g5F79wj_v7N7cxfA01PlBE3yS6Zgi6VaxWArLGDGkB3vHWy-5yiO9CtsnNgQ1rcdKYH76mTIDaXcObobkyLG7iTsB9lEsuEAQlGIDGbVb3i-KSzHH_jGKhQvXRcPE9cvN3XMOrXCgyadbEaQ_bh1EBotpTuZlqsTXDCgw5hBIoZLMfVK4ABS1J_cgMYmAH4vJPXWqWFK1bgTWgB0xe7K06D7FYAg7dsx-zWyrcyPp782Mf9Ebd5V_HX0hzftdnKi4SqiW9qU2pvXJZrB2h6ArkQ2q5sCV3jwnFaxzoZL7H3RvKg-CyDCiOGUWJ0WxMgEb-qSIZx1WVEzt9ZSESM-nptImhMQXkVIeFw3iFEfD3yQmGEEsgN7lKKlxuB7isgXApkI"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Appeals and Hearings Section\" \"DHS\" Arkansas address OR \"Little Rock\"",
+        "results": [
+         {
+          "title": "Asking for a Hearing - ARKids First - Arkansas Law Help at Legal Aid of Arkansas",
+          "url": "https://a.arlawhelp.org/arkids-first/arkids-first/asking-for-a-hearing",
+          "snippet": "Department of Human Services, Appeals and Hearings Section <strong>P.O. Box 1437, Slot N401 Little Rock, AR 72203</strong> \u00b7 Before a hearing, you should do all of the following: get your facts in order, so you can explain clearly \u00b7 bring any letters, papers, or other items that help show what happened \u00b7 ..."
+         },
+         {
+          "title": "Appealing - ARKids First - Arkansas Law Help at Legal Aid of Arkansas",
+          "url": "https://a.arlawhelp.org/arkids-first/arkids-first/appealing",
+          "snippet": "Send your appeal letter right away. If the DHS does not get your appeal letter within 30 days of the date on the letter you got from Medicaid or ARKids First, your appeal will be denied. ... Department of Human Services, Appeals and Hearings Section <strong>P.O. Box 1437, Slot N401 Little Rock, AR 72203</strong>"
+         },
+         {
+          "title": "Arkansas Administrative Code, Division 20, Rule 016.20.96-016 - Action Taken on Administrative Disqualification Hearing/Waiver on Food Stamps | Arkansas Administrative Code | Justia",
+          "url": "https://regulations.justia.com/states/arkansas/agency-016/division-20/rule-016-20-96-016/",
+          "snippet": "The address is given below. Arkansas Department of Human Services ATTN: Appeals and Hearings Section, <strong>Slot 1001 Little Rock, AR 72203-1437</strong> (501)682.8622 TDD for Hearing Impaired 1-800-285 -1131"
+         },
+         {
+          "title": "DHS-1200 (09/19)",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/DHS-1200_9-2019.pdf",
+          "snippet": "DHS.Appeals@dhs.arkansas.gov \u00b7 OR \u00b7 MAIL TO: Arkansas Department of Human Services \u00b7 Appeals and Hearings Section \u00b7 Slot N401 \u00b7 <strong>P.O. Box 1437</strong> \u00b7 Little Rock, AR 72203-1437 \u00b7 If you are a DHS Provider or its representative: MAIL TO: Arkansas Department of Health \u00b7"
+         },
+         {
+          "title": "View Document - Arkansas Regulations",
+          "url": "https://govt.westlaw.com/arreg/Document/N4A953DC12D3611EAAA45EFF2D5874D1F?viewType=FullText&originationContext=documenttoc&transitionType=CategoryPageItem&contextData=%28sc.Default%29",
+          "snippet": "802 When a petitioner wishes to appeal, he/she may do so by mailing a written notice of appeal to Appeals and Hearings (Slot 1001), Office of Chief Counsel, Arkansas Department of Human Services, <strong>P.O. Box 1437, Little Rock, Arkansas 72203.</strong> The notice shall be mailed by certified mail, return ..."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_113413",
+      "args": {
+       "query": "\"Iterested-Persons-Posting-Packet-Medicaid-Administrative-Reconsiderations-and-Appeals-R248\" OR \"Appeals and Hearings Section\" \"S295\" OR \"N401\" OR \"Slot\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EswHCskHAWkUfRM1R2SiA1HhGt2LPAzLWAIda-5gsy2vrhRHaB36l7Q92BWmFRSblZGn2Vwr2WjG4qKh30wbLaWGCuVk89R73BYzrG6ACrSKQfPfJP0tpgu0TxRX_JHDDKurHnnOWvyhnWePlUOtX3FWUrmkvEgH4TXiCWXQlCj5S1xNJfG5Unc1XOYcotkRYU1q9JpTdXQpoU37s83FRPj6w_M7MAXkrIN20f0nRQRXrX00b6hZZNTc9Fvv1rPZAIJO2shjw4k44d4Y-XiQiXAVAev8itUDPQyHQVTOSv2MB_yPh03hXyjQOT9SWbP6uyyHCHxCrWIZQvOL6h0FmC9W72TO4J6YmW8Jj-kVraIsa8bOjeRoyr1J9mUsRRvHbzicdxT6z4M9bHiT4TtyHPZmjsrCDeeIWCoiADpoDV4C1-MSXRd2Sh_ehkITJTheiepXOz1D2lK0Hpw-KY6ShkcT1YyykotNCBXmKaA5X5whZtHVQKGq674yii0eRrahWjmjd3l5YWSEXTez9puWk4NNtngknYkELP2pfrmOdOmbGsEBXUV_UUDD-aud7AEz-Z8_zmzq4NliBVMx7fkNL9CW6zP7XCHY9SsGgXTBqN-39n9eJTXFFf5FXL3CdatDe897hk53U-wCiFNpG8m1tDyw0EmhziATYXOtTGEA4rkvFTpJqVWCiCXHXHE85JctyUwAkXtQvP_7_3imiPAiy3guAAwERJDvFIYJ6EnAXQ-xejzjirN-QBQiAVxxBIzU8ejNSLHAkoiUYVhju5txDD_p1jBnu1rHqOki2tyvStKTsYyBvJB25vkqFTYVGQ05qbarwABFJQlDSY3W60Vd2E3RIS1lK1xfom4BcinknimmrACP_asRAIalzy8sAoa750z1FHAyavIiykmif_OaRWSfMQhJCO4hVjvOyJfZJXDInzxikKMJ6awi172CYsTiARj4WDDk8I9wse3JfXUF4bjF7V1WQTuWIPEnW692kdB4S-6FHP5xNYL1TUHoDb62_MJw7w9o1c6dnM4QhO-fvz5WJDEi7OYZ9PlhgeFD6dawRG5lENMll2INtGPAqFHAW1GNE6AGxupBCwOAKQjJXlw8xT6zs1dQCPVMNF-GYeknly4Q0OsyqJftFSKAdjvzkOI9fHQCQzCLf3tpZ6yyybvRlKk-oxwnY9Ww94fVEQL0me3Ht11O1VSgYdzqcPuQLRo5ENz885tpe0gsLhQjF4rbEh2YNtixcQtRB3cuYC5C3bw7e_SbE3FC-AFoBPvAgd8523Z0_SX9eYw2L9My"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Iterested-Persons-Posting-Packet-Medicaid-Administrative-Reconsiderations-and-Appeals-R248\" OR \"Appeals and Hearings Section\" \"S295\" OR \"N401\" OR \"Slot\"",
+        "results": [
+         {
+          "title": "Division of Medical Services P.O. Box 1437, Slot S295, Little ...",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/Iterested-Persons-Posting-Packet-Medicaid-Administrative-Reconsiderations-and-Appeals-R248.pdf",
+          "snippet": "Box 1437, Slot N401, <strong>7th and Main Streets, Little Rock, AR 72203-1437</strong>."
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_119371",
+      "args": {
+       "url": "https://humanservices.arkansas.gov/wp-content/uploads/Iterested-Persons-Posting-Packet-Medicaid-Administrative-Reconsiderations-and-Appeals-R248.pdf"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EpgFCpUFAWkUfRN749jWrXweYzZlBt2Etq2R55K4P9IPs9rDCG8iFwjjX9ATSdg8wjOJXOBUetlpffY8Y9GD8RaYdQ1twm7Bvw2sij9Bb6k1YEvm9SmLTbRNfupweNIbWSrO68NnMYzfiQy4bnki_2e10RS-XkP4TBWZuZmPio6WMjHfdpAUkpC2iYvsfjqmLXaxWLLX4r3cHy5T0ii1mMHXaiS6Ij3byUrQ1N1REr67hy3jjiMdh1awOZeI2uQtITRrfoert18UaiNim8UTu02P6XY1_sCnvhPyTTID7BDBsmkksPICoNCiz5lsIBbuzz8pL1E9Ep-mTyFDCTbsBXgOzv9RtDgq1ab4SO_2slFasf6DBJbUBVan5VBrXnGfzTl_DffP2FpCTKtDfTfCELsfKPsMKtbTFcEMY-aha9ACxwxbYLt9-Aq-WKFZWoTxqtPmUQCPj0iY_33BwjZGfng1SvYwx32HUm79fPUBBSA6z7PxbhbGJa98_lBLt3vYx4YIRbYC9_Huws47PKLcOjQk0_8-PssrT1fobmhyJSxUxtuLfB_Q3Okiz12OeoMKM3bv8TU-jFRwkPR0021WiBIBSW4EoPdj0Bm6M66EHu1q3MqkogKGzD75QR2fgSZ0ZXv-NxK__hRgl-lv9SPy5iyTde5EXoIYnwvOtLC_gb7pH-gn6HJpUJduzNMZvT2pyCmSFyC1w2kQwPcRl74W8gEl6pv-9qe2Hc_RrYqTScClgg0ls1yw785n_GvxCrK9EDkgdfbotkRpsOh887AlVmk909RZEizVsH1wVS083WezXBUnJYVwNWbg1iTGA4SrAmTKAqwZEW_-iv7CzZrB0yb3nmmBVd9bg6WnK1Wl1YYVlENY891StlTJiQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://humanservices.arkansas.gov/wp-content/uploads/Iterested-Persons-Posting-Packet-Medicaid-Administrative-Reconsiderations-and-Appeals-R248.pdf",
+        "final_url": "https://humanservices.arkansas.gov/wp-content/uploads/Iterested-Persons-Posting-Packet-Medicaid-Administrative-Reconsiderations-and-Appeals-R248.pdf",
+        "http_status": 403,
+        "content_type": "text/html",
+        "login_wall": true,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "403 Forbidden 403 Forbidden nginx",
+        "text_truncated": false
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_113490",
+      "args": {
+       "query": "Arkansas Medicaid appeal 180 days OR \"180 calendar days\" OR \"PASSE\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvEQCu4QAWkUfRMQYTuKiBYtBZK98tG6PtDlIft1i7hGwX0pIyac3tvz7AVkMaGHiLs3oEDLT-rGBfZw8Yb4YypFm9UW6uaTP_lopY752Qp7ZSlO5OgfDLAa26SWeX5jnVrOM8g-mPphuzJZnIhJGgAs1RR7bxjKUIlrd7VUL-RDPOgB5AGd2M9-RsDNSm9SQvlKNPIZb-pXEvR4GayKa42086U67Qa14GHtonAZDyPrRDF_rWAszYn-gi-FU3xUqES0xwJw6ZYjiRqcw35D9Tz9VpDjWvWpt5vEw9P_nbXMOWeVFNh0LuJfvMAzLkhb7YjAoNXmadZNNyGEofph8IZUyOOe6PIbYaBTKj3v9WtQPuPtw5xvzkbRjPfYPYRBArRzuQUBNhMQcKGpg8bTqp56Krn2-ei1npAAsK2xUDfnf0DnAeJ8LotVYB4DwlDfRvcU2C3j51dntJFdg2UMtzks6gXBBmGehrf1Vd3FI85yM65jKYjMozzCoiSAlcdsCckFlhznu87i3MDUUHgtNK8nn17quo0SmC8q2MioyfW47lhgHG5NpJGaJ7aLoSndtWjstzJ98GcOO_c_wyVW4vwo4EPQiAHoMoHKcd3BCa21a2Q0ybeEqq2PbyTyjiOkw0edC318VVHvsv41DrQ4FMErsSNzuRq_-4KW8yz_Ug_7XQt8Ncf49J4eCNCGoqDuqTD5W-5apS2XoFGRSpLML82gSAMbHo_QvvJFfgFBbiVWhJ_SUC2JRHTaw3gxgKSAC1dfzSProXFDWqIaEHOtIjazwIbabng27gfEBk9L2AdHcleHbjKEGbULwBEG3vDUsi2eQ3tjSkv70_PW3JcBF8nPYcDWaLYXt3d_iLZyF-JQTzSC4s0CdFg5P7pnqA8WXHFmKIBQMiYwzyuB9f26dcXFuTuZgJmkmDfYWIz0YYWDW35cWgSxkJSSc1eIToNoJC35xfoPYSh4OGxurEIVQGP2cKJKQtZkgZX5E2qd-xHCaDoQkLkI-l-lc8PhqPIA3bOCbx9LJ62iUzyKW18h97F-RsYkMARxF-Q0K_13XyDSzh5VuhHOzMqGjDboD66djlTCaQldDpPlF2Iw6oRitpWo4bgQTuOTCSL2pMEDtEZDw8JEfiSCgIj_mgC5k-F1ejk-1hiYCN4EVa-dg1n3TfsBivQVgxKoMhjYN9EVVtE-5VWB2o9qqLBN3R-QAADZBLN3WtKJ0PItsdHeh_vFLMDUceHs5ZxNjhnCCVAbDb0ng59JzLwWHDfRjaJpNen-bs27X-xz9R2nhOVnu6nQABZBGlexZRpJVP2ScYg6EWLVyW8Srn3T0KQCEUJOLO7Pb8iDOiyZXMvQGTTbfhTBUCz70EvYSJn8ski_Osxsyns7HF5vX_O94eGcmM-0yg-j94wZ-hnPkGKpLeasD5zSUKSMdf1lGCVi-jW9_BmKfXSThrAGYdc9Jph_2wl8WID6UYngX4EW6152oewfOK6zeIFVcbK1O9NXxTHqSj-YRL3MnBryU058PQUq4hlhEYsoxlMnp3brfabqz7EAepTl1-0qgMJjasLGny4aZE6WEr1weXerFe7shiwd0qc8PqEMBW4RZH-ExuWBGD4_kv28e8aBzTYrp8MIMdaVMa2Pl6EDkNO2v0InbEpvMR-aGuPBR0GgfDnLnF7wJAJ8bF56qzAi4Z9OUKToVRVpdUwBJKRkP9chFU-AELklapzRxHDYyskASoBt-zvgtWYy4avMEvN-E5PN4dBAwUzJjAkFFjc8cJ-hNGYOTRqGOZEPfQLVdGOn98P0_e5S4C9ClGNTFhUw1Awm1Oghw3QE4_vRYTyYAFMkbmXfzKGQ9P_HSOTFFTwM5VbHDew67MVaQdAkhR_CwyOK7IHpcEj9xiFSMzLwzTNufbslfkTwRjARbLgYZ1G05vkLktJIrWHYVRDI_H1tmBu8A6GbHwynG9WgCSl582aSDvOH5pR-UFy1LLYXQUnZYqnbftqNUBHsT9itnxOJUk8-ws5Oq0JSZG0_rbXj3iCy0I0jonFl-hkh1bxjSRfNwUxyvBBb0KEg264vcCR0dyap2CwxqUS_Z2KSgdO5KhsIyQc7blPLnK_MttlO_-jnu5ihcmkia2L7E9WrxgRAOKuKisk_LOXfG7_pZmbShY-GaTW5DUFTjwP8lb-MlpuzKItXsrhX1A-kZ5zrD9sxiXA-uLE1vG6vemDuNfWDLdtdndztq3EMjkBnXwh-Z0yLYjVBdR_iIxPIvSVi3R3W-F64dKD79XrhWs69gVakbxDEbOM8f5n6gHAIB2TjNyR8Fvm2egB_zlq9RVKti9zG7JjdT3Qisa3vP6NmkU-r3FRfJcMdRCXccXN4ZV3mDXbuNysVC4B_cXB88fieMETXv-QPBiLO8G_1-W7knicHu_o3FZke-xOLeNEMogPVZaJ_ofzIV-XCq3zqzRiE9y7DfoHh0ZsfrSurvgly8IwJqxH4KV7mkzEAN5gV8sPip3IobmqtZkMAw8q5MYCEcF5KjjQsCqylZqGrbx0u_oorKLDFbi0qXKozzarm01DRhzAMpU5b7NiRjnCwUQTIQX2i2PAq7nIscFUcHYYdNBz6Txk1G5p1VEx0xCC6Zd-zIzWncJTsvM9knZb1jiXm8gIw98nWw_wfQ96fNkBH1nogC9jheVm178yY7zyf-xksm1NLrJWM90KcW1jMUybhE0YrlX3idpjmwn6iHMxcs2_4o0WyN1jOXEmnsLy9A4Hj3b1eQnACtQGx2PR6AyW5DUCaE9gA6hoDKR9aYn8JU8jOw4IWrOuaLSdKgDBeh5Oi1OX-bEk1kV1ISlkWHF7LAaVCYQYEcWX533pgAZBuBt1GGthXh_bRgTotNt-sN_L7nrckFg=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Arkansas Medicaid appeal 180 days OR \"180 calendar days\" OR \"PASSE\"",
+        "results": [
+         {
+          "title": "Arkansas Medicaid Appeals and Fair Hearings: How to Appeal | Brevy Care",
+          "url": "https://brevy.com/medicaid/arkansas/appeals-and-fair-hearings",
+          "snippet": "Retrieved Jun 23, 2026, from ... but Arkansas sets its own clock: <strong>the Arkansas Department of Human Services (DHS) Office of Appeals and Hearings must receive your written request within 30 calendar days of the date printed on your notice</strong>.3U.S...."
+         },
+         {
+          "title": "Medicaid Provider Appeals - Arkansas Department of Health",
+          "url": "https://healthy.arkansas.gov/programs-services/certificates-records/medicaid-provider-appeals/",
+          "snippet": "Medicaid Provider Fair Hearing requests must be sent to the Arkansas Department of Health, Medicaid Provider Appeals, <strong>within 30 calendar days of the date on the notice of adverse action</strong>."
+         },
+         {
+          "title": "Table of Contents State/Territory Name: Arkansas",
+          "url": "https://www.medicaid.gov/medicaid/spa/downloads/AR-23-0021.pdf",
+          "snippet": "additional five-year period, <strong>the state must submit a renewal application to CMS at least 180 days</strong>"
+         },
+         {
+          "title": "Division of Medical Services P.O. Box 1437, Slot S295, Little ...",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/Iterested-Persons-Posting-Packet-Medicaid-Administrative-Reconsiderations-and-Appeals-R248.pdf",
+          "snippet": "Reconsideration \u00b7 requests must be submitted in accordance with Section 160.000 of Section I of this ... Section 160.000 of Section I of this Manual. ... Sections 190.012 and 190.013 of the manual. <strong>A request received within thirty-five (35) calendar days of a denial will be deemed timely</strong>."
+         },
+         {
+          "title": "DEPARTMENT OF HUMAN SERVICES, DIVISION OF MEDICAL SERVICES",
+          "url": "https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2FAssembly%2FMeeting+Attachments%2F430%2F27893%2FExhibit+L-+Adverse+Decisions.pdf",
+          "snippet": "Arkansas Medicaid State Plan: Amendment needed to change the time limit for administrative \u00b7 <strong>appeals from thirty calendar days to sixty-five (65) calendar days</strong>."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_160857",
+      "args": {
+       "query": "\"PASSE\" \"180 days\" OR \"180 calendar days\" appeal \"Arkansas\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Et4TCtsTAWkUfRMmpxuNpoDzqMqJIQ6D24OYAIYlUhdQK9R3RTzsiDG31Ve9xolcox3pPPfP7HKnVJno3enbarM-YpZEMOe7amhS-qZV8KkM3T1I5kYuRK0Lv9alO1zWnk9cC2t9-CgZapU45xBmYc5Po5p92AMG8BxnQwdd4e5lutLVIE2Eh7zHPSPT37luQB7x-A4_MUnUdlWgQTBv3RTFqw7Va35Tmf-w3gGLXNr9HCRekQUL6yltKWGaLc8oP0AnLpv5vrhG5p5dckJR_N6Sio1Xs5IcVpciAB7eololUiaoD58zViT_Cu8ic8aiYv3_Xb4NGbpFhmkLgi_wgx44xtEScLqWVY5zD0lbeX0kfNXCNIZ0KpzcvY3r107rl7kHCDophmHqk6o_-72hR8J2lusyqziCKfRQezaQbALYmHJEZxEkGkAU5-6jfPwd_qDvuTxYoIMezi_yV1I_5xqj1rJaQqIoxiaFpADUn6ljE12ocDkJmMUOlaHW4g5vPDRU4zlHV2LeXuSYF6FIzUmdHgv-MDJTCaJi60Cw68VpWc5DfH62XnS0ky4361Rl1OQ3xEN1LA4nhOJKo_IfxiXiSDtcSfO6qD2Mo0dnR8y4y-Ud2w85pDmU9BqinRC7r5GAVCfOiA69rcFJrNfLWQiF0TX_uSUuwy5d5mIPNYfO5wJTySlFyZ8vz2hT7Vi_Jg2US64UDPsLM_4OcArU_ZQlhiomnGFsM8aV6cJauv_lpyYdbre2jo7vvap70odbT6odzX3skAoUuU8AWqaLygaITesvp20QMFhaaTTzNFD2N_--7-ScXxo__j47bTmlHu8Mjx2u9BXczi9-APACE8R2805kbnfWQt4yrN4FDIgK-w7XPby434ihietc7BzQukJvVyPSJBrB8fMsGkDS9eYm_pg1A_B6C3UNF99iy5xqYePoZS_NtBoP8a8otJK6Zwt96OnP76o6ylf3X7qvcBQ3i15ALA5PIZEP3RcdRTktuvu3zkae16k1PKXHosyXG6P_hXb-15C5fxUWkBCg-pCLshAnDJdIhofX5Mt8sY6xRdWLlM9-aoOE8yFhLW-aDlgpoaTNrEH3elKZUy99Uf0AmqEO8QEZhGi3QaPmc5Dfxg7lwgYVzZqWQV_703hck2pj0yQ-9BuBhh2TeX7Hx524ihNct7h752egWhZ0BpYZiebD9iYL7cG5m2lDhuEaUdasKCpJJxzzMspRKgvgdcNKu2C6zKjY1exF9b07Nu3wgTgh8sTy_jvz-mH_dqVldsnpLMQUFXrQfsiFT7-5JHn8_ELQcuwV9eClgyC8Sq1SYlb-68skLyPS3NuPhshr5rHFy-0CKeSYF4SCNKen6RhRw_3oIst9qXlsp-jFVOl6urW_vWxiAimDVwfic3L4imgTtg01GS93njaMN1Ft4HnWcP2835I4BowlZ5Sh0RkX9ov1l1Zc4kHFyg-pxOAi11cNBVBsyFn2clhjsuLPCZAkAhEbhUOWIN5f-mjGFisvNECvZocQU9ABgZtRfK1LlGfxMTqLIeOIi7XxVQ66mZbiwnxsLyrxNMeQCcIsykLtSnZa6pxZ_oCTIy4S2f1EozRIh7KzF_itMwyGFVHijWl6JGEFhhWGEXuNpvPqFff8S9IA9u2nWa6tfsI-qi_-HXvbiIgQi7SgIWEQb72mhAqx7jGUsWU3e3b5ORyc0VX8qJmPMBgVyceUEGmtvPzkZyNdyo2Zfg7RppMQEdw3dLJsOHtJ4ZmZbX9xV8DutQ8LwMizpMPjHnYG_5tIeJM348-NE0dAtZaOJ7SyXWqBHSDnEmMyDvFlklIVNEfdnRS2NR1bLuutJaYjTsB0b7q-bXLKHoRWDisjnsuW6yypBu55ALh1sSNyAnQsOD2wEeX39s_YsBtdaUK1KyT7sBo21Yfe_BkEnCp-DZ-K2odCrRuUFjntzYuNAi-2HEoFMNdo6wj5VY39kCYDRR3QQWUqc_Tyxg6SfNC87NztM3sG9-0-IsYSau8_3giJzE5VIkcgQJT_o1sIKE8r9U_FPc5cvzrTDDUWR6575FUSkg38tG1f9Sii8jlOJ28Fp7_ipwGWFDKoyqJBOgr75Rsc7NW8UV3yM8nkQgLDxtBsjJ-q90Rj4fFAg1prdGnhQre75vWUFVcXxV3H_mhCk-H91CFycxEaAZV8UT94WIpbiqWj4h5uUP6CAfMSCtj3_Err4mmwJ-pvbmNyro5NEngZLSzzogPJWvawv646XbssIMTTkbRyR45bqCiXioX3X2QcwrEct6XVYSdPqx_loLNqdYVgcww2Ckk3l84wIveSjtt9jqRn_9kdqcfgZNBaXjQ2FSxx1Eq9e4YdABGz8Jq9oiDiZX0oJnq91YUBBNLgGjTgMAnmWxLZMTnzrISUG25h85SDQVKT4u31CWTbbkfQiOSScoFdbKwataNTQCjs00_pIGqb9McN7_-D2FthnarpUi9pXQramDHKMtsK0_Du5yj3BilK6XZ4dcUITjlcWwW0ema_PquKRTV770Qx3B3Y4kBPhSaHrph44h4-IiaLen6pxMN1e7M0DWEKvWMfNyCmcE43Xg9ELi3mNW9RFCk0YkAAZA3gI4QCZqSTBO2tG6o2alGFVIgNJwkvjmnMFy7goMGmZPNdySS1E0asal4D6b10a44VaaDESd88f7DqgYTJu-e4bIlMxC1Nl30aSO1TstdPKtV4UQASFiddoTDNT2MpJRMa1InyzDw5tbv6nc9fXqoXoBMbqOW0JesX7YjZebE5jr9640qqr3fjGWUwM85qZ9DJmZCK47KMxRCpOnOwNWEVan3l7oTVHfwT-HSD1plPsDOmUlB1gzjiAcGPxWNV8g94Ad2gnWmYDNwva1lrvjE46MllSAFlsJGKb7ME2zyEYZVj9BIcbyGm9EntpADa3YtVflQSNOR133SglBrzponVkVPGhcBRp6ZB5bpVUZWuiskMpdTD2i4b-GLT6gfTcKcnGVgGsCqpxvGMsRdTjLCfogzx0aNrvS_akOCiF6QlNlhrMdo0RKxnEr1ZRYnY9HAgHRh6xqtOlV-4xcgvbmFFJ_zdbW5VklgudvwWAmUyf-8owxOKMhVxJIidLVezkbdiWC_YwUUUMvAiScfbwu1Kog5gjBR4rAL7w3gN5FxaS-wwjndlqkj3ef5evWQXL7am8Qcydq4gxyW30rIYpmxCXfi-JwYx_SZKqwHSkbob9IX1idq-xrzLI8megIa-yoT0yTPm6AINp1qOjlrwfjJ1-JnhG27BNr6Zp-mRNfO8yoJrmTSU5g3TMs8n2Yw3HNOPxAGVkq9JsRufO4Z5LBTrzdqdaMVGVwyV1bPG52hjwEFJXr937zAcmuCALrA6"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"PASSE\" \"180 days\" OR \"180 calendar days\" appeal \"Arkansas\"",
+        "results": [
+         {
+          "title": "Disputes and appeals overview | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/disputes-appeals/disputes-appeals-overview.html",
+          "snippet": "The time frame is <strong>180 calendar days for utilization review or claims appeals issues based on medical need or experimental/investigational coverage criteria</strong>."
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_129687",
+      "args": {
+       "query": "\"AFMC\" \"InterQual\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvQICvEIAWkUfRNZXMOgQRg4VmevSiivgloqTiiEuUpVkwbGqF54SWPeuBFc3W3gA7F-WFnlwsYPtBdJdo3Fem5Y6un-Qs0HcAjVI0A0dM8nDqwr03M4VYAmbyqmXlBQesbXzTyFtK0EWCeFW1DsoSFDTqlDIaOk--aGc5IPXr7IEOGZSqsWffJMbaWaktugFABflQfaOqeIWexr97uqKlJMmwpbV4ZKygiy3Elkm1d9BQxzEHL1h21Bxq0buVlTJliBsEzMIxXhLY_yGOZppIHJj0NZUQQ4Pw0PuqyyPbBdgKisKXbhcK8P4CzvJWPB6qv1zpv7t49KHZTSyqDk80M0mheInwzyaezSsQ1rYYP_gmFyiD90oZA6ahfblrtHb0KQEakL8pF-H6MykiuHTNMPHUxZTMguxa-mrzQRbiiEaqlNB6SZlHh-5QKbjwMwjwZVioe7qkionQU4H3I2Klf0Owub9tqH0oxuyuYNSEr9GIMpOdz6dnvHnV9AqoBOSDDd8IwY7sNAsRnBMqOUrJEzL1j7GMoZkK2ZPI0DzdYINI_x8q7vdnUyuxAJHmtMu48rBDpGKos1G_J4hlbHEtOK2fP9piBlK35KXCQAm5ulQwF1tFX-RAtiizycMZozVo2mfcB1-dLJ7Zal7gOGc19O0Vo9mKgWfd6AAybqhtaF2RPSUYJQEizQQ9TVnlZvSgVov_wZYTwgROvS3GWDCIAwSJO_vqIkyysC-B5Qfu5xdkf6X8ttkaACtf-5GN-wVGCSuyfZDvVgGJ09uiOqEAW6VQ824qArWnvvy0DPqaourIbZf6UfCwCI2zTsaraXOuOVKHMtpb7T064B-rHMm06U4NRwJPbhDZokETnvBFO7XBOhrhogW1dfCu78qvHRMFPCdnSLuOdnHOnHvh0uLHhrCebBJlpF1JkcyDxq5SdQFfjH9AnWP2rAW99OALAODSUZH2EsRmxXudn4CNBPzJ_I9LDDAHC9sX3bUkYqRluNZNN2LqJr_rAU3e4FTFyIubq6iFglLU1jd0VG9IkmnroLc7c0SbvFm1QQUSZcClXSkdY2Av76hw-noRTvXX5vt1wBv11rgasNhSDq9zy-s2XXtGx8XtWFOrOElSWcZst0khDBfDr9I9AtYKsVT30ucrH1qrSbFAnUjvGCPXsHQzXMH2iB8YE4K2YZqWwdtU8tlWY2x5yqqYjJ78mXwGNK1lhuDkPilmKM8snDd5TLbPASJerhKQGhT5xVi8c-PMdV1v48ukTW_X3ahzge3lodTaNB4YyYxTEUDInYNAgf119iK9UBMQT3Lc_FAVZRcDNyWHaldMsrQ_2DMar0_XUMS-ycKoc9pQ0iABR519HaQk3Rexb0sC63Yis2LGBx4UxZsH4u9d9xSiTpCbQMoWkUAhHr5MkctMqjXLROP5L7unpI2T_9YXb9vpAAPgIsh5KdV30JwcGf8KC5uO4EuIANcg0MLwUC--QMoexJUoADa_DTCH9LKudOKvg6bB-6w_JKGN2d2e9A"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"AFMC\" \"InterQual\"",
+        "results": [
+         {
+          "title": "Revised 06/18/2010 1",
+          "url": "https://medicaid.alabama.gov/documents/4.0_Programs/4.4_Medical_Facilities/4.4.1_Hospital_Services/4.4.1.3_Adverse_Events_Reporting/4.4.1.3_Hospital_Program_QA_6-18-10.pdf",
+          "snippet": "to Arkansas Foundation for Medical Care (AFMC) if an adverse event \u00b7 diagnosis was on the claim and there were no non covered days identified ... Q1. When will the encounter payment methodology for outpatient services begin? The encounter payment methodology for outpatient services will begin \u00b7 when the State Plan Amendment has been approved by CMS. ... Q2. When reporting days on the claim that InterQual\u00ae would not have covered,"
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_123538",
+      "args": {
+       "query": "\"AFMC\" \"MCG\" OR \"Milliman\" Arkansas"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EoUCCoICAWkUfRPBHiAqJBIvXbi3fzxMaKtm77eYXr3hv2KI4OPHpLJb7kp7Id3JJOBs09I20kuXaj4ZBkGQCCg7XIE6Zz29VxSpRcCBQfgeRecEppud83W35J3ZkK5bZ374F2SPDjwUb4EI5cnMtLVSJxNjl6Dwvq108E1Wtgqtk888VsZRkk7nqL1NefPpro8qo7JHU-6Uo3gORI9CrIugu3JVPd7sp9HVCxRNFvW4tMj094AnbjNLopalU6kXmRurFq3fOC2RmOPobKh4Z77qoulSFpC4BvYGwPQJZ7myYOT1pe9bJSUWA8pnBZ55COakL2pgHQOSxHyi6ATiUIq1xfU94TgD"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"AFMC\" \"MCG\" OR \"Milliman\" Arkansas",
+        "results": [
+         {
+          "title": "Update: Medicare Milliman Clinical Guidelines (MCG) Rollout | Wellcare",
+          "url": "https://www.wellcare.com/en/texas/providers/bulletins/medicare-milliman-clinical-guidelines-mcg-rollout",
+          "snippet": "Please be advised that effective May 31, 2019, WellCare is adding the Milliman Clinical Guidelines (MCG) criteria for Medicare Inpatient Physical Health, Outpatient Physical Health, and Outpatient Behavioral Health Services."
+         },
+         {
+          "title": "Milliman - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Milliman",
+          "snippet": "<strong>Milliman</strong> Inc. previously owned <strong>MCG</strong> (formerly known as <strong>Milliman</strong> Care Guidelines and now known as <strong>MCG</strong> Health), which has been producing evidence-based clinical guidelines for healthcare organizations since 1990."
+         }
+        ],
+        "result_count": 2,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_152744",
+      "args": {
+       "query": "\"Arkansas Medicaid\" \"InterQual\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtUBCtIBAWkUfRM2g53KnDV1eNELBmlOsQ-77EqY0KBpwisJQdqvJnqGdD040gTcaG8tS9zhpiiyFzZehClXSHsVRDbB8_2L_HxPPukdd_MuGWql82HiJxLVeEI3snEq7ShScLunzV4JfC6J03rxnS06ta6_fPnr12LUPxKY2m5_4I6qi4nTB4Ft5C5VznWwUDulKAn8bRF8c-KBOGrQdnGPxOUm42XpQepc03tFu7jqhUN51rIRG8JoLgMNKNRjFqU_F8bK3RjOMBOrhm1sVc98vOa9wtXo"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Arkansas Medicaid\" \"InterQual\"",
+        "results": [
+         {
+          "title": "Clinical & Payment Policies",
+          "url": "https://www.arkansastotalcare.com/providers/resources/clinical-payment-policies.html",
+          "snippet": "InterQual is <strong>a nationally recognized, evidence-based decision support tool</strong>. You may access the InterQual SmartSheets\u2122 for adult and pediatric procedures, durable medical equipment (DME), and imaging procedures by logging in to our Secure Provider Portal or calling Arkansas Total Care at ..."
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_65423",
+      "args": {
+       "query": "\"Arkansas\" PASSE \"InterQual\" OR \"MCG\" OR \"clinical guidelines\" OR \"medical necessity\" OR \"medical policy\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvAECu0EAWkUfRNhj5sWDB01cYaO_D1PhV63i7JcLx_dZRYiWVYf0mBt-u8hYY5rVoBb25zBQ8oiVHA_Gbuq9AQVI8zZHHAcVK1yfFBTHLSkQc49WjuygP7ClIAfg8j9EIf5fnxSFM-4kD_vY8OaQNuCqS9xjUJZdDtlAc550vj3_SvCkZyKBcJcsGldQHZK-LJj3PUo4XsVn5SvU-GheNCBVYx0SsUuDVXbitq6tcTVrYufoiwI3NRvDPXxHeL0GYveGiw-BcSXkoReRoDDxCQq2KVI4zRAE_eJOxQ642R-2cPfFdcPMMcSZo1sfwQxbi2qF6sYvMmuOh6_Rg6Gceko0zdqZ2Nk2JXIe7Bc16SMUh_yXJGJ-D0CNQHNLFxtTznaqgZo6crzUF-VZirrk2doHTrJdANESUgH8ULM_cRtJHLLnf23P_W5VaUbhWa6Ezmwa59SlWS4lgMcUTCBoWDHv6af3frk3vMJu61fZOG-QcNDTFzMBbAcT9oDs1ZSWeiy45DGrkzDfN1ltkWXrbJJFsGvGrazvT80E9ahXrI86_iH_W0orOb86JpqKD20WOlP8zYoX1FQjEnk1wZrggKue9Ny4Tq-6Hyz_EyBDDX3xvmzHMIFBX1S1MfTujYB-Lj2Q4b5_Uv6gDkqE-WmGCEnchz9q9OC6YXTrbLONoJdRe7Klhg9IiBXT8QMtKLW0CrpA9VZh8sYqT5QkuDsAj6kjHBxzB-SWmyfAEDw1EjgyIoLruELgFettOqeqjs36-nJodKdPrO9CEIdqToPdxl0KkWijZHAGeMTE0ZFUN-RiJ-E_lwYsAHbRIA_vN1phWJL"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Arkansas\" PASSE \"InterQual\" OR \"MCG\" OR \"clinical guidelines\" OR \"medical necessity\" OR \"medical policy\"",
+        "results": [
+         {
+          "title": "MEDICAL POLICY STATEMENT Arkansas PASSE",
+          "url": "https://www.caresource.com/documents/passe-ar-policy-medical-mm-1586-20251001",
+          "snippet": "<strong>medically necessary when the MCG Health clinical criteria are met</strong>."
+         },
+         {
+          "title": "MEDICAL POLICY STATEMENT Arkansas PASSE Policy Name & Number Date Effective",
+          "url": "https://www.caresource.com/documents/passe-ar-policy-medical-mm-1147-20250601",
+          "snippet": "I. Metabolic and bariatric surgery is considered medically necessary when all the ... A. Primary diagnosis of obesity \u00b7 B. Member is 13 years of age or older \u00b7 C. One of the following BMI requirements are met: ... MEDICAL Policy Statement Policy and is approved. ... II. Written clinical documentation and supporting information from the attending surgeon"
+         },
+         {
+          "title": "Administrative Policy Statement ARKANSAS PASSE Policy Name Policy Number",
+          "url": "https://www.caresource.com/documents/passe-ar-policy-admin-pad-0898-1122022/",
+          "snippet": "<strong>All other uses of Brand Name Medications are considered not medically necessary</strong>."
+         },
+         {
+          "title": "Clinical & Payment Policies",
+          "url": "https://www.arhealthwellness.com/providers/resources/clinical-payment-policies.html",
+          "snippet": "You may access the InterQual\u00ae SmartSheet(s)\u2122 for Adult and Pediatric procedures, durable medical equipment, and imaging procedures by <strong>logging into the secure provider portal or by calling Arkansas Health &amp; Wellness at 1-877-617-0390.</strong> In addition, Arkansas Health &amp; Wellness may, from time ..."
+         },
+         {
+          "title": "Search Medical Policies and Clinical Guidelines",
+          "url": "https://provider.summitcommunitycare.com/arkansas-provider/medical-policies-and-clinical-guidelines",
+          "snippet": "Note that where we have developed a medical policy that addresses a service also described in one of these other sets of criteria, the plan\u2019s medical policy supersedes. MCG care guidelines are <strong>licensed and utilized to guide utilization management decisions for some health plans</strong>."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_197060",
+      "args": {
+       "query": "site:provider.summitcommunitycare.com \"63030\" OR \"spinal\" OR \"lumbar\" OR \"decompression\" OR \"discectomy\" OR \"laminectomy\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Es4ICssIAWkUfRNg0d9MY6CUG3fNvrEZ3hQpmJAP942Ygi-fNGBmEM4QwLwftd_g_rU_pQ0M_PuVdv1oj7-3vlkFAlQbPbm0WdpMk7CmpNiO3WjJ3mG26tdSRqMY4c5e2Mo8ZBj_7sSECYYsRMd1X-efiQBEntv6wM0QWrn9KPrpneo2iTH6XHel3aIw7sKfPl8YERgF7PUXgX3LTowYPhoBADkamgOQ3k-_Y_m3sybxK0FdXQPPHfZndR3yns28uy3nvRQ5CdnBx4zMKueGWvJGNMmA9RElgF0GiuEyyhtzNAsTVQOP2c2dGVNusSnoV9w1bs7Cz9Ui6JGApYhBNevIt-Epby1kQcT-qISuXqxVa6avP2CqajZtbnO7YyxpLoygyg-5CYKtG-RZfJ4IBvyRas-CyGe4FvT2iXj4v4iQa0LXWkcWwkZ90Hugp0XF7dv7dQz8wxqAu1tcIWQLtJ_uWVM9eovxV2E1PzLaitQZBcGTKXVc1Auf3iUikhgXFsdKxkNAaWIc6dkQxJ7jpB3ATeGnK45UFdtHbXIIzIf6X0WyWrXUKY8pgA1Lksa82NQqLgL6x_eskbMGK-yI-HdYoKE5Tu5kUWr3jIhpqxpix32gKV80Wujbzbl7dx54sZJFmjIIHHP8PCzbEUJABlgln4wn89__ZFqJbtlg5FxF9UPawE1oee7Jd_B74NWYedof_a7AbPP3TZmQ5C2WeySUb7cafjNuggDqwVxV5qqfBNFUQXa0yzWzsZTQEyPNY0fLlvCaby7XyG9_zfjHrZGE0k6SY5wyW0QN6_MQ0vtAb_mf_jmwL8OgYXacPElGU9MKF7PCcGGjqr3UORyLiZ42C8-Ttr7LZEFPxc6ZKaFUVoQ9EZAn9jEhJthxc_VldRnDYd7AEKHN55zH3bzqzaYhTJiyA2pf30bwptxC8IHfco1YbIE3e5ZqphVXyfypahA1uuGD85FiRyAarvjsXBJ2JdTEgzXwb5Nlc0RFwIPYSwD_5OhYmF2kPW5SjchTzdtDvL61RNDJK_KbH1sg6m8y87X57qpvSIG5daFrsLSDQkqeC7uksweK6RS2N8yDEppbTdsbDAmLWE2I-QfeLPz-2ufsqQCDMbGkofAJXiwMlZEXHmAOR7V84WRWwpe5TBJU_ZOa-OqA7sh8FR2oCOijh5Pr94UQ9iKg0CJhU-Sx5CcRslp8PZAziA14hhWoEXa2BuFVt7-vvGyiIB2EsnyduMp_W9cLmK1XppTnGsq5hDL_u6A5BhIhXJiDhFkXAl86iNScMwjDNdcJvWSUNy7h_F89vGhw9M_UZVJIvsyagRNzeybtoCkEdxntLGqW6ddEr7rim7llSU1qB5zYsa6W-I0yKA-aZV69FscrrmZ1b9-gFDGKBF3GulCzWehIZc0O54jcH0xmxo8VYCHgzCNdduejf1M4iNtdEwGShref6svFC_mOtPDJBaflZCJ5ZQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:provider.summitcommunitycare.com \"63030\" OR \"spinal\" OR \"lumbar\" OR \"decompression\" OR \"discectomy\" OR \"laminectomy\"",
+        "results": [
+         {
+          "title": "CUSTOMIZATION TO CARE GUIDELINES 24th EDITION Issue Date:",
+          "url": "https://provider.summitcommunitycare.com/docs/gpp/pw_g368787.pdf",
+          "snippet": "SURG.00071 Percutaneous and Endoscopic Spinal \u00b7 Surgery \u00b7 SURG.00111 Axial Lumbar Interbody Fusion \u00b7 Musculoskeletal Program Clinical Appropriateness \u00b7 Guidelines \u00b7 Clinical Indications for \u00b7 Procedure \u00b7 43. ISC Orthopedics \u2013 \u00b7 Lumbar Laminectomy (W0100) SURG.00071 Percutaneous and ..."
+         },
+         {
+          "title": "SURG.00073 Epiduroscopy",
+          "url": "https://provider.summitcommunitycare.com/medpolicies/wellpoint/active/mp_pw_a050272.html",
+          "snippet": "Dashfield AK, Taylor MB, Cleaver JS, Farrow D. Comparison of caudal steroid epidural with targeted steroid placement during spinal endoscopy for chronic sciatica: a prospective, randomized, double-blind trial. Br J Anaesth. 2005; 94(4):514-519. Gill JB, Heavner JE. Visual impairment following epidural fluid injections and epiduroscopy: a review. Pain Med. 2005; 6(5):367-374. Hazer DB, Acarba\u015f A, Rosberg HE. The outcome of epiduroscopy treatment in patients with chronic low back pain and radicular pain, operated or non-operated for lumbar disc herniation: a retrospective study in 88 patients."
+         },
+         {
+          "title": "CG-SURG-25 Injection Treatment for Morton\u2019s Neuroma",
+          "url": "https://provider.summitcommunitycare.com/medpolicies/amerigroup/active/gl_pw_a051165.html",
+          "snippet": "Jain and colleagues (2013) reviewed the peer-reviewed published literature of the available treatment options for Morton\u2019s neuroma, stating current nonoperative treatment strategies include shoe-wear modifications, custom made orthoses, and injections of local anesthetic agents, sclerosing agents, and steroids; however, despite a lack of high quality evidence-based research, some success was reported with use of local steroid injection, nerve decompression, and neurectomy."
+         },
+         {
+          "title": "TRANS.00027 Hematopoietic Stem Cell Transplantation for Pediatric Solid Tumors",
+          "url": "https://provider.summitcommunitycare.com/dam/medpolicies/amerigroup/active/policies/mp_pw_a047473.html",
+          "snippet": "For this reason, ependymomas are not formally considered a member of the PNET family. Ependymomas comprise about 9% of all brain and spinal cord tumors in children which represents about 200 cases per year in the United States."
+         },
+         {
+          "title": "TRANS.00029 Hematopoietic Stem Cell Transplantation for Genetic Diseases and Aplastic Anemias",
+          "url": "https://provider.summitcommunitycare.com/medpolicies/amerigroup/active/mp_pw_a047560.html",
+          "snippet": "The result of the faulty gene is toxic buildup of very long-chain fatty acids (VLCFAs), predominantly in the adrenal glands, brain, and spinal cord leading to loss of myelin sheath in the nerves and degeneration of function in the adrenal glands and central and peripheral nervous systems."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_109427",
+      "args": {
+       "query": "site:provider.summitcommunitycare.com \"Laminectomy\" OR \"Laminotomy\" OR \"Discectomy\" OR \"Decompression\" OR \"63030\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpgECpUEAWkUfROf28qFo8zj8KRBggzGfjmch_312f7WVvY8yX16Ag09i8uv678JeejZegED3NagVzf7E_D0kzP0N1YIkmp3NEoyhV54tfHhd3ZKmjiqtqjg55xDm_4iphGWj2-yp7KipgaxR48xHnfBYy4X57rYzlcphmLKURrMe8IyT1ncdQPmAzerj4nkpT-h6LDGIv-BwUTDpVRf7XX0id-XBiks2cuypQWHmhaZRHjnVbYNwQSIEg2MU1J8FkyVizgQzwJWnD8KgKlW5vUioMXP0mNClOch4gRosZCoxjCRSe6yjk0t4jjas6tIwYZclx-WaOa3kWL0-pv5YBEPS3LltWKyfPQ01m4sWEL9BHsV8TLpVkZUNDntWzI-7_bMxy62rnWw57UhXjj9Nq-3i0d3FlxjgcFvdq28AxbRmu7ph-GNQ09vG-3UKWjQOoJ6rB8faavyCzcLWM5x3GgaJTYSoaaIi-IXYt5MjkAAY7cCv9Ih6ba7DT61BOgM9lVnYN6Uokau6jvoXwAqsgvi6IY-0gFzzTq4YgAwABZPmrjpi10pMpcIm_EwoYF48q4slkVvE6QZVCac9YZE_yDgqIPYjC5Ii0Vim7tRkJvtBYH0v6APy_PwsvF6kt6z5HQRydZH0SaNnknk01tgG0_cagz-8JIryaDf7dk1lyUvnTVasNoampp61Mj-r7PHSjaAGIsSwTrRlpg="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:provider.summitcommunitycare.com \"Laminectomy\" OR \"Laminotomy\" OR \"Discectomy\" OR \"Decompression\" OR \"63030\"",
+        "results": [
+         {
+          "title": "CG-SURG-25 Injection Treatment for Morton\u2019s Neuroma",
+          "url": "https://provider.summitcommunitycare.com/medpolicies/amerigroup/active/gl_pw_a051165.html",
+          "snippet": "Jain and colleagues (2013) reviewed the peer-reviewed published literature of the available treatment options for Morton\u2019s neuroma, stating current nonoperative treatment strategies include shoe-wear modifications, custom made orthoses, and injections of local anesthetic agents, sclerosing agents, and steroids; however, despite a lack of high quality evidence-based research, some success was reported with use of local steroid injection, nerve decompression, and neurectomy."
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_103895",
+      "args": {
+       "query": "\"InterQual\" \"lumbar discectomy\" OR \"decompression\" OR \"63030\" criteria"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqIpCp8pAWkUfRM5V848PNwFw7h6DhFKAanXbno0vok2c_T_IiECbGpKh7a1d3gQFlWrLNq3qS9C8qWIE0-kcRfIBbW3hjhBMYwUBNisOAgYmYn75D-Yub_PdbHAD94QR-S5R3v-U8enlMQ5eUDbiVkZQhqkW8SorTCVb4eXJNl3-Jmjc4dViLjLIOl4KmmwxHJDohGwyDi8zTgzK4iMUWo0H7jgIOvhy_LpAIEfbh80t1iRE0wixZdOWYJZfOGh-OINVIqSDcZ4aZNJVBfwJGHfYD8DGLYtXcytwHv6bcMR2gRhWZulpvHZshVCqZ85NLuJ8gGYA1E06mwRXDrVvBNXIeOZ1gRj3utDbJxycIl47mrvWcG6EUw_EF166eAM5EQviseWBhHoeD6AQQapDMOuR5zszyRvsd-K_4_Yf3AGN6P7jlhJyRvnhnDCgf8ZuhLZdUdePadzWKOyI6xdN0zLa4fLysv02-vsQLg5Ti6FjPQYMkHmYJQv7Y2cqBsbftP3AQT43C7wyaU7Euae-DqkEjy7AVYyV3DQ3KBN1YW54H097IYzO_eVXGNLY4sPjhQ9na-3pOexO3LnsJVJnjbliJhf3VlYW108-T4RZUfZYiuuEFQOVhDyW0Sotd1JS0u3F0viIoJ4Hv_37_o52z7pC3vFRfduOAtWfi6_M6JRI20ptgBo9zbuCWomADRIw0GsY7fDFYXT7QnY7x5vFgrGDlmuyQBQMD1l6Gv_Un9xOpHQREB01l7xo9zUON7EMxtqPjW4q5somAersEKOMAL7jDuWT6JOrwj93xzL7Tmp54qla-fk8Ch0L_mzVMGz7FV8I87nB0PotSwPnUmrINDyQnSYoXdwpX8NIVDTFPIik1tO5yxyKYNhGhEQJzLmGWEQWyovCVxyX7P1nRu-OuxHoQNohGMX1MLSTCxiBw7svwUFMkIk0aSM3pnaIH7b5rq4H4RG4e0I7OXKeQc5EXkOpk1VTWrrweX5ZPwUSj7-yMAFJrilmW8YJ0rX5QbSajHScN8PzFPeBbEQaiLtybxY9vnCQvxgn9FPQ6_HoE4YFdbM9OXHMECtXOhG3MUVek_Xkm7iXNMr1IvDF284JzPiOtDbvxsg62kx84K81i7g4G4e7rdco4lUtbYzDpcTeNpi3jc3-SZoRiO0_tRXH2HauvyFNnIlvE95a4x3DGp1_CyaptaQx40P1mCbeqDT91t2KMG_CTwhlSgk03sLZa72n77hAFK7RtzNNzdVP6aO9-xz41iruvpVsxRj-_H1OVjJZb1N1WUSjNl8Wi8WNIpTGrQXfmE6oVqS91HHB-L2xNWPjNMzOSluEFT1B-LArpSXSqg_lFoIB3iBR3BK1pPKi_2qMbKudupOHkMIIZcOmTlKzE0v5VUGSnNXMzeflgrV0YaU4g9Ua26t6pdqRo-OAHqPmMZrYIEGkVceYoDnWJ-dKs3RueaSsOXRabP5YyxsxcZoLBTpiko1-RC1iem2JW1CR_5sLvX0TN8HF6KLmDn3ZsiqboTkgC_RJ8yOmsuWtwgq6WFP44Yg1eW77pfVMtttmQqbaiXdTN9-jCGuEHTEeNhsxjo5NCNKAPETVUG6SdkY3_4ydSTTFi5dyOEQIA57VkDiyBRuLY2fKHu6z2hD9u5EeyRIjseAWIUlIjzZNS1G8gcTd8yXcT3TAziL-Je5Gz2F4t-4amTXl_2fjAw3kwJL4DYYYjrbGzuehGuVkWOGaG1UZuB_uOPjRf2sl1Dj1j146xnjM0UkxTxD0cp7XCzjrBQMsjRE8POEK1in_NGSbe5Qf6at17qaIzUSjgEAnmrQUBl3qWl5Egwsg2rzzYOCYeKAocXfcQOmaN73uzqiw-1rpiXZP7F0ruxzkSBOXBf09VGXRKSo_hyNMwKJkYPfDhoqAl5ApL-2Q7_XGoEU1t4FF_dz0OZBukSvzn5yVbk8oS5Kzw-A2e97ch6MqrlKoU2O_iWdb0tvz09_GVy8dmmmSuVu20wPj8-_b9rKdsAedpJHsLG8AWnkRdcPm3ywMjOFwN0BdH919S3J6Ig164oWBIouK2yR00VXMFJH9yrbdUz1n30m8n8kaxiDO9Z66VcxyLF9PQN9RkAAIuSVSDV3gVlrgw9OOvXGFVrAojgCPxBCrsyYyj1BzrbVCp1uXNMv2gemo-rosDxPpsRyj_UtxI1KPbSEzL1zKt3NmF5q9OGbHWOpjzPBmpW3cwwD79NDZHQTEk5fzcuwnhMw3wH5z3L8finGWRlKxnHI2BoColpuy5dpgRx2mZLS4BA71-Ia5CzSl8x7XSi738ocVwQlqbu2cm3FDUyWDPE_PdndN3-NkB0qKo6CDTdneFLfcRaMDZOCLYk-FKnQOp7qPhCK18gJoTf753XcQ_WrRAZWI5Xit8NKE-HNciNncQ3kg7SUfx0tiDcDTFnLCIlFpx50VIwG_MVm6s1SRipahpB_ukBvLgaa7ge6Qu73wY2ThUL4BVrXtv_HI2fUAK6OA9jQnBR5ys2m-aF4pB8RqtpLvsJ4SMvOHf8-cabcAKNdBW1a-6XkVJLQT274wsuOt1S12rvH-beLG2a-p1wF4IYXTjpfXnFiOPUBNC7uwYcq-1x7h7fNWoVKNQWMbRUssiTnQxxx7-c15y1yI1SIYBqyuktBZqPW9502rGUSFjEShKMHdH43kIS3A3QXnj_oInkDzFQ60nCq2NKcvxayhH8wMfUf5BIIeHokGPQEJ7Pf05514f8u3-TpMIE503fOQ7g2Ko6K6i-IX_lv0tSc00es712oiUkzdcwAgafm1CeA1qqs0WJLPKPJJ8YzOYnN2Y_J4CWPENZi5fGNkNgdGH5I380tAyJd3cQM-4qMb0sj-R1_3J_JmVFERFW0dwaZGRKCIof-80wNW8dJrFH8e8RwaqmBcgnurtGGdH_WlLgH5OwFwK_4lpWThAZXCDEP-PxiYGeaKVDi18jvQ9ZeU5KoT47XLqHW5wGnQL0taZmylTTJArJfC0DsldRBxXqF7feIjJbX9bfLQKANbiVBa_Va20OJ_E76QYgyxUaYzVp--BZT56PN_ncYITh8gdKu_NeW74R1DlOqcI2oJr9VoDx7LY8sx6VRvZlOebseNRV14cag9uxn-q4hrRmvYIybNQunVgJT-4R03O8BeqL989Xj7lh7VeUXCAqYn7it3Jx0SeWIeDvYZOlA0_W1MWSS0UFZ2wypSAQu0tmXpcTEllfGJUIosJjgNryX5s9TLci4WFToJCMbFgIPvJwfeuyTD-wCbYJSf1QuPAI35ysmrUx4nDzYnu2xWfMgtw2YQjmylqK2Ec2RMH4i8KBmHqbyEVev_zXSy50ZcEYJr-3iP179b7S0D9O1T_Ac7OQudKEQvoaU_4Lu7Ox-5KbTCHVVzKRLyT-3yathuwBGKznxjw-90udloCGCWcd1vO29HEnZtN3vwixIL-mVWA7kS7x1kL5NdDv_pnUQMlWabxV5mZcrkk7fCCea7-IRNBBbUr5cLOyzt4jrQleyBNwIk45_UC8TGBd8-8Up_uc_IYY0qoPYO5eZct2_eWsmNauNfQhkxMuj_WvsBx7-MMShkjfMlEuclY1jSOr0zcGNWwtBDQYqetLZ4Plxv5Elg3Q4B68_5QcEwCggYBYbetS7Ol_p7gFUlzCHNaq17qLMOfBVqoW5Tj9dz4upHFHI2ptrPiBTZJgcyurLNprfm5nOhvKSRwqZYrRs_HGIGy0N-8LXkWsrABIae1M_yEVjCBAwd1r2rS2LH3l8nf8oQlTt65ehJq3wLeuq_4MMGQEPnp3n6o6QChsCcZioYIgle0BgMrdsADhYPm7ZTfBNdpugfS3cwRADZOA0f_Bdcrrd838Fyj0rbZ5sKQVHp7nSHfO-8yrP2xBSA3PkT_VfLGwU3ewPRwlg7nxSYHEqaLztaGbSEnL0znJVRF9_K7x9d6QBkr21NJH5ZrIWqpYG7kW1kXp3wr9fJruUZHhVw8Zi6yYgXyxAd2j4z_aBLWGVHOqTmrsWN4XKxDOcxSY5Kz3G-VX8ViW18Go4nbqpOlOa6PjN8fY1wz4tLALmu5vLu2MlgniGRyNW7nep7r8Z1rLCtoOqUjx4cfbYfb4wGOwMClKqI5Roth22q4PyRI336HjoZ92XqT3LIfwW7STtuiIzQ4KB_6-JJFbzDR7OoGNurI8F8kcTF9BwQhYkA65OLQ7AfHaSURr-9lPl9DQCfSTz5VFW1AeLDLs1sdY_yUFxQHEuLQ3XTuEmy9ff51aKXbIRdJspZa-ch8Tma71kmV-KCxzqn4HDRP-MslmTqE_-GRE36unBlAgvWJvDr2RLNM6HfV3g-zyxhzCK07M797ygkC5730DW63OYPwmezXjJ30emO7-IH3eFdwtZLgGj-sNY5D5i9XkVUycVjhD7FS6SDYrnvXmn5nu3yrYV-xYrXqe4jVFaSuRyELihP_Rf8XjTpZRf5DOgmRCWhEJ5JPxIJ1CKw4trGeaikEjs1CUox4IH-Yj5VzWejbbeWk8bSy5qP6OyplcfSqYV0Orgj_Pp-Gt_k6mvhEqMu7NzhgUIGluqSumTaS3swbQWakTxcYqdNZU_3B6Pgx-RpPsg7Yvz56kL9apR_aLoz1nZ0R0XsGQKKnpDkrfmTCCdTMo2GClblWXErwFYt9vMo60lghV2P775sw0Dy6RSAfP80Jd7wNX552EqlEJwV9p83nmRdOlEuY6LQ0xGtNIWssalbdY3jh5kxTFUay3gdhh39VHdzHRCSgI8KRLsuhXzKarIPBqLjfU1LFTdjtnnTaSUYShfVLtAgVZY5RDFtKfQxnNBvjJ-kyVR9uChpHmQUmu2G2Cw1lGKzzEnomHHOLSLKrA7Q3oTzjDCLh3JL2-h-fLVG4vKZeH2MOauK3fT7VWU4LjxvjRQ1j53weifcgzZRm4S_ogmTgGFbO4U0-g__tDPBWCYk8rvlqpru6Au7ctWvkTe0xtMr3dgEtracOv1KFQ0UhMgzZgVqSchnP33dIkcqHRtOO2HpK4kZqeLY23zsZEWSH3Ac9XdL8RwpKMK6FtdeWCJZMMFE90mOg5UzA9FrU9Bx6Fk1HOyWsWAbuMTOh2RQvJy36DIs-VnZ6tuuAb574JuUXZ63mOfNg15qyOYXLGaPaobjpRXG_HAJo_xmzr0Ulye-D8oucI3yt_qM1hL6mOqfwLY52JJc6M7h5XZp16pRulzmIlyccagRGlVP7qDJ0TzkXQHDfL6CpLk2taTbw-BINCuPiMSqjBV0ZkEkZ8MUwatE9XbrhW4FY9IAmJyCHetvR8zVoz6At5bldQCKuJOCZkkYjLF6PTQBpi2hgyHi_1posjjE2ZDjJigWojfGq14CaVa0vNnwYx9PracxKnBqQx2MTlZaJf-a3oljqkl8WhZ-sFTQC0r4uMqwZPk8yHrgAMrRG-rvNIS9BOgccb0UsHpvCh6uIbuN4R-chh-V12ycL20Gnh-X5-_z--W16ZhdXvBLjCNHsOPxemtoj0HST8qRaf8sOzA7x6TqkgR29ZnzahmpHd41YewEz2fbkpAgRvY-pZq3Yu4yw7TUrOY2tWEh8C8TMt3mHeWC86KvIkT0-knletxqmFY7G8Ksg5ekvfNjYU_50p9-CY-V0CD_BSz44IYmkOdEBHRXsFc4dZiiTml2CMpOJCGuZ28zTwfuw3FzuZIgmDHp0e444wktBrurtwqQ14QaMOlBqK5OrzMmUbxXUSGYYacuLOTX5mlbQ3IdPtIDt5-IjLGTU_QiiXo0hQmLKCZSzI_SCBs-sKbZdfKfl3EcMLKY5rdGjm9q4ZjNDFBvuy5qOjBLPddU4M9r3tCq4onAx_IkvcS53IsZFfyNYdX5gn8M7WBvjR7Ic6fhUlj5uOrz_FJp6d9PMC-Jj7Q_7lOCpDgenH7zM_VdyXIsj_2S2bAJWH6UNxuwwtC54FNmA-TFxLcYh56WicjRzX6felNe9qL0cPRGoMFAdhnP3TltGTQI3hUIPv29u4MplOXH9CELodeK5GOmChS_yzInru6k95Zn1_Y5tFvQ3eHWWzj0gGsH_4E1wt1GEM5c0OPNsKfgOfHEMM9sBp-rrGutyzO_q1U9Qn1_FXwpdhzcLGH0KAmldwPXpGzjeh6oyqyDn4EvIq7jlTbCt3pZDE0XTmnBmwFOP_RJCYaUQEdrPOkbr32XZ6NmmDMDdXujYnH5xYU_SqPSBQqIIzYbZACr3Y1HmRexMPfJ-yJQWiKUSu351bTIdiuVaBAu3qtPn_1fj15MCzcLG1DX1u8yxnLV4fMfBvEAH9JuOHtiB9pdjN8HE-N8kyxJ65U8yX2tbKCJckCN7w1tps5fGfobLVC7YI4AGs1TrBOdqG-Mga6vxsBDhNlEY3D7HlAukJUwXgf7up6G01J026eSJ4DqO0lsbOnT1n4wtem7Bh4Cc2aXVJNa7nZpR28s3rDXK2ULAPNz5ptn-DjHEFds7qTV0ZZ6j495ZLAjQrOPdGmN33yq4hNDnYTUtfRFjCbc152H_oBmyJgLICdoln_jwYtWrVd_jboumQn-BLspMxO2WwbX5ETatRFiWrptuSjCQdMNrxLmNm-MlvEzAdAipJ69Pex632aekGl02kxAVC5cQxLzN75YkkJ9BSA4tu4thIv8QvizVIKa_LRkva6jmjbnIokVvvGFXUvYsn5c2sYW6QjHaIG18zDTHE-PA9kTmlnNlZ_OxrmFV_tZezOQspK0qVl_09l4fcInffxkfpeDf-YaT5p_W5TXs8kjgRE5b_L6QbJe-YuVhtpHo4OU0nVyiD6d05UiAJQ3VG-6FJWBkvOfPv2elhMuCp4BmHG2_dW4vlHn3oXWbdBz2DBkwFu0z5eH1d_aMsHgV-kLMdrHQrVIa88f1qpTofIu8SzK5IKiBlWtSmfgsfWdruzJzkazIZri_Bj-J5gu8RyUqDmUUC5vUbnNX8Qvi3hu5STY0UiTtkZANzZei2fH8E22d83ckhvdrgoQHBy3tvdoRHxVGpRpPsb0WV3fFv2ClgXXXH4ZkO8qFtT6kyVdlg="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"InterQual\" \"lumbar discectomy\" OR \"decompression\" OR \"63030\" criteria",
+        "results": [
+         {
+          "title": "Spinal Fusion and Decompression Page 1 of 11",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/spinal-fusion-decompression.pdf",
+          "snippet": "facetectomy, foraminotomy or discectomy (e.g., spinal stenosis), more than 2 vertebral segments; lumbar \u00b7 63020 \u00b7 Laminotomy (hemilaminectomy), with decompression of nerve root(s), including partial facetectomy, foraminotomy and/or excision of herniated intervertebral disc; 1 interspace, cervical \u00b7 63030 \u00b7"
+         },
+         {
+          "title": "Spinal Fusion and Decompression \u2013 Community Plan ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/spinal-fusion-decompression-cs.pdf",
+          "snippet": "facetectomy, foraminotomy or discectomy (e.g., spinal stenosis), more than 2 vertebral segments; lumbar \u00b7 63020 \u00b7 Laminotomy (hemilaminectomy), with decompression of nerve root(s), including partial facetectomy, foraminotomy and/or excision of herniated intervertebral disc; 1 interspace, cervical \u00b7 63030 \u00b7"
+         },
+         {
+          "title": "Hemilaminectomy, Lumbar, +/- Discectomy/Foraminotomy ( ...",
+          "url": "https://medicaid-documents.dhhs.utah.gov/Documents/criteria/pdfs/Hemilaminectomy.pdf",
+          "snippet": "63030, 63042 \u00b7 2011 Procedures Adult Criteria \u00b7 Hemilaminectomy, Lumbar, +/- Discectomy/Foraminotomy (Custom) - UDOH \u00b7 InterQual\u00ae criteria are intended solely for use as screening guidelines with respect to the medical appropriateness of healthcare services and not for final \u00b7"
+         },
+         {
+          "title": "CPT\u00ae Code 63030 - Posterior Extradural Laminotomy or Laminectomy for Exploration/ Decompression of Neural Elements or Excision of Herniated Intervertebral Disks Procedures - Codify by AAPC",
+          "url": "https://www.aapc.com/codes/cpt-codes/63030",
+          "snippet": "The Current Procedural Terminology (CPT\u00ae) code 63030 as maintained by American Medical Association, is a medical procedural code under the range - Posterior Extradural Laminotomy or Laminectomy for Exploration/ Decompression of Neural Elements or Excision of Herniated Intervertebral Disks Procedures. Start a FREE 2-WEEK TRIAL of Codify by AAPC. ... This procedure is laminotomy of one lumbar interspace with decompression of the nerve root(s), and includes a partial facetectomy, foraminotomy, and/or the excision of a herniated intervertebral disc."
+         },
+         {
+          "title": "Spinal Fusion and Decompression Page 1 of 14",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/index/comm-plan/spinal-fusion-decompression-cs-11012026.pdf",
+          "snippet": "facetectomy, foraminotomy or discectomy (e.g., spinal stenosis), more than 2 vertebral segments; lumbar \u00b7 63020 \u00b7 Laminotomy (hemilaminectomy), with decompression of nerve root(s), including partial facetectomy, foraminotomy and/or excision of herniated intervertebral disc; 1 interspace, cervical \u00b7 63030 \u00b7"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_149891",
+      "args": {
+       "url": "https://medicaid-documents.dhhs.utah.gov/Documents/criteria/pdfs/Hemilaminectomy.pdf"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EqYECqMEAWkUfRN_gULmq-nlP4_0L-Zf2epsDDJYp14N5AevVwGHAFNl-AyqlDlr3JP_T1yxvSVBakUtIW6oLlc9-hYtRRlPRlI6D6J1NXbU9wT4jLzmUz-O0t-hUa5khRVodSx7gDeCVbC8_ZnrJ1zj7z9cQlH1d4LzjAIstPjP9BleWD1-_qn9ybxcGjU48rL5-TzbIMHRduYWz9QdWuWZRuHTuX4bqmL2thTCfh1iSpxbMGQFOVjKijAvjqFHeZBQx6yXqvuSOGCm2VvyckAue48WMvswLDIzsaFZVwnrIhjYL6ZD6-V610osD6ipfYJPyE3YjRdC_F0W4ncRGaahuFXJVoCGhr16I34jotEkkA4gAeZ2UAjJcBCdpQ6-FKRgrES8fti_q0-SE_2pM0vfUP4nIB27VxCUBjzMOMJJ5mRhEmdEUbrnxFeqVE_uvjXbYW5Y_v6gTEXSBoO1P_LfPc08Itbnxaf0VEsRcCkDLZxOuCElXPJ8jftWUVAAHr0Y8NCUxy1sbMYzmzEn_S1TySPuCKBhZd5OnRg4jULpifBW3ymeNFTP4RNCpM_Xa9w42OCjEroLE_Xn0Y4D45NDO2bWv9Kstdl5GFp-nFh3s7nqf6plVdp72SSrUiFAG3Il5xdOofQF6cviScUCs36_tnv9CuhN1xjQ6Z6jwKMkU7AUmZfq7VnG532Kdze5U1hWRXN67RPKycur0J1LE_7TvktijH6DZg=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://medicaid-documents.dhhs.utah.gov/Documents/criteria/pdfs/Hemilaminectomy.pdf",
+        "final_url": "https://medicaid-documents.dhhs.utah.gov/Documents/criteria/pdfs/Hemilaminectomy.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "2011 Procedures Adult Criteria Hemilaminectomy, Lumbar, +/- Discectomy/Foraminotomy (Custom) - UDOH(1, 2*MDR, 3*RIN, 4) Created based on InterQual Subset: Hemilaminectomy, Lumbar, +/- Discectomy/Foraminotomy Version: InterQual\u00ae 2011 INDICATIONS (choose one and see below) 100 Lumbar disc herniation/foraminal stenosis 200 Cauda equina Indication Not Listed (Provide clinical justification below) 100 Lumbar disc herniation/foraminal stenosis [Both](5, 6, 7) 110 Sx/findings [One](8) 111 Unilateral radiculopathy with motor deficit [One](9) -1 Severe weakness/mild atrophy in a nerve root distribution by PE(10*MDR, 11, 12) -2 Mild to moderate weakness in a nerve root distribution by PE [One](12) A) Continued Sx/findings after Rx [Both] 1) NSAID [One](13) a) Rx \u2265 3 wks b) Contraindicated/not tolerated(14) 2) Activity modification \u2265 6 wks(15) B) Worsening weakness/motor deficit \u2666(16) 112 Unilateral radiculopathy with sensory deficit [Both](9) -1 Pain/paresthesias/numbness in nerve root distribution(17*MDR, 18) -2 Continued Sx/findings after Rx [Both](19) A) NSAID [One](13) 1) Rx \u2265 3 wks 2) Contraindicated/not tolerated(14) B) Activity modification \u2265 6 wks(15) 120 Nerve root compression by imaging [One](20, 21, 22, 23) 121 MRI(24) 122 CT 123 MYL-CT(25) Date Activated: 04-03-2012 Date Deactivated: - Date Printed: 04-03-2012 ICD-9-CM: 03.09, 80.51 CPT: 63030, 63042 2011 Procedures Adult Criteria Hemilaminectomy, Lumbar, +/- Discectomy/Foraminotomy (Custom) - UDOH InterQual\u00ae criteria are intended solely for use as screening guidelines with respect to the medical appropriateness of healthcare services and not for final clinical or payment determination concerning the type or level of medical care provided, or proposed to be provided, to the patient. The Clinical Content is confidential and proprietary information and is being provided to you solely as it pertains to the information requested. Under copyright law, the Clinical Content may not be copied, distributed or otherwise reproduced except as permitted by and subject to license with McKesson Corporation and/or one of its subsidiaries. InterQual\u00ae copyright \u00a9 2011 McKesson Corporation and/or one of its subsidiaries. All Rights Reserved. Portions modified by Licensee have not been independently authenticated in whole or in part by McKesson. McKesson is not responsible for and hereby disclaims any liability related to any such modifications and their inclusion herein does not imply endorsement by McKesson of modifications. May contain CPT\u00ae codes. CPT only \u00a9 2010 American Medical Association. All Rights Reserved. Licensed for use exclusively by Utah Department of Health. Page 1 of 4 200 Cauda equina Notes (1) These criteria include the following procedure: Laminoforaminotomy, Lumbar (2)-MDR: These criteria address surgery for nerve root decompression and do not address accompanying spinal fusion. Decompressive surgery for disc disease does not generally result in instability so accompanying fusion is not often necessary. Satisfactory results can be achieved with disc surgery alone. Because better long-term results have not been seen with discectomy performed with fusion and because this surgery has the potential for serious complications, requests for spinal fusion with hemilaminectomy require secondary medical review. (3)-RIN: For criteria covering microdiscectomy or percutaneous lumbar discectomy, see the \"Discectomy, Lumbar\" criteria subset. (4) While degenerative changes may be present at multiple levels, nerve root compression typically presents at only one or two levels. Surgery is appropriate at the levels of nerve root compression and not as prophylaxis at other levels without compression. Foraminotomy (surgery on the intervertebral foramen) may be indicated as an adjunct to hemilaminectomy if the nerve root compression is secondary to narrowing of the foramen. (5)-DEF: Foraminal stenosis is a degenerative condition resulting in narrowing of the foramina and compression of a nerve root. (6) In the lumbar spine, the ruptured disc generally compresses the root at the level below the disc rupture (e.g., a ruptured disc at level L2-L3 compresses the L3 root). Infrequently, a ruptured disc impinges far enough vertically or horizontally to compress the root at the level above the rupture. (7) Disc bulging and degeneration are common imaging findings in patients without symptoms or PE findings. These criteria address disc pathology seen by imaging which causes neurocompression. (8) Compression usually affects the sensory neurons of the nerve root first, causing pain and paresthesias. Motor neurons are somewhat less vulnerable, and are usually affected later or in more severe compression. Neurologic findings of sensory loss and reflex loss are corroborative findings for compressive radiculopathy but are not substitutes for radicular pain or muscle weakness. (9)-DEF: Radiculopathy refers to sensory or motor dysfunction in the discrete distribution of an involved nerve root. (10)-MDR: Severe atrophy indicates long-standing disease that may not be amenable to surgical correction. Requests for surgery in these cases require secondary medical review. (11) Muscle strength can be graded on a 0 to 5 scale (0 is no visible or palpable muscle contraction and 5 is normal strength) (Braddom and Buschbacher, Physical medicine and rehabilitation, 2nd ed. 2000). For the purposes of these criteria, severe muscle weakness is defined as \"less than 2 out of 5\" muscle strength by PE (less than full ROM with gravity eliminated) or the inability to ambulate. (12) Weakness in radiculopathy affects muscles innervated in a specific nerve root distribution: \u2022 Quadriceps weakness (L3) \u2022 Quadriceps or anterior tibialis weakness (L4) 2011 Procedures Adult Criteria Hemilaminectomy, Lumbar, +/- Discectomy/Foraminotomy (Custom) - UDOH InterQual\u00ae copyright \u00a9 2011 McKesson Corporation and/or one of its subsidiaries. All Rights Reserved. Portions modified by Licensee have not been independently authenticated in whole or in part by McKesson. McKesson is not responsible for and hereby disclaims any liability related to any such modifications and their inclusion herein does not imply endorsement by McKesson of modifications. May contain CPT\u00ae codes. CPT only \u00a9 2010 American Medical Association. All Rights Reserved. Licensed for use exclusively by Utah Department of Health. Page 2 of 4 \u2022 Foot or toe dorsiflexor weakness (L5) \u2022 Foot, toe plantar flexor, or hamstring weakness (S1) Anatomic variation can exist in these nerve root distributions. Early on in the disease process the entire nerve root distribution may not be affected. (13)-POL: NSAIDs are preferred for the treatment of this condition because of their anti-inflammatory effect. It is a matter of local medical policy whether to accept acetaminophen or other analgesics as alternatives for NSAIDs. (14) Contraindications to NSAIDs may be absolute (e.g., pregnancy, history of allergic reaction) or relative (e.g., anticoagulant use, history of PUD). (15) Activity modification for lumbar radiculopathy involves limiting activities that provoke or aggravate symptoms, such as heavy lifting, repetitive bending, or prolonged standing. PT with exercises to improve posture and strengthen the lumbar muscles may be beneficial in some patients. (16) Urgent surgery should be considered for patients with progressive motor weakness. (17)-MDR: Back pain without radicular pain is not an indication for decompressive surgery. These cases require secondary medical review. (18) Pain in radiculopathy is present in a specific nerve root distribution: \u2022 Hip, thigh, and knee pain (L3) \u2022 Hip, thigh, knee, and medial leg pain (L4) \u2022 Hip, lateral thigh, and leg pain (L5) \u2022 Buttock, posterior thigh, and calf pain (S1) Anatomic variation can exist in these nerve root distributions. Early on in the disease process the entire nerve root distribution may not be affected. (19) Epidural steroid injections are a treatment option for patients with continued radicular pain following failure of noninvasive treatment. Although their effectiveness is debated, a trial of steroid injections may be considered for the patient who wants to avoid surgery. Randomized, controlled trials on the efficacy of epidural injections show mixed results with only a few studies reporting improvement with injection as compared with control. Results from other less rigorous studies are difficult to evaluate due to variation in study design, patient selection, injection techniques, and length of patient follow-up. Rates of patient improvement have been reported from 0% to 75% with the use of epidural injection (Fanciullo et al., Reg Anesth Pain Med 2001; 26(1): 5-11). (20) Disc rupture commonly occurs at interspace L4-L5 and L5-S1 (the interspace between L5 and the sacrum), but is occasionally seen between L3-L4 and rarely between L1-L2 and L2-L3. Simultaneous rupture at more than two levels with concomitant radiculopathy is uncommon. (21) Spinal nerve roots and compression are associated with a specific spinal column level. Compression of the L3 nerve root usually occurs at the L2-L3 level; L4 compression at L3-L4; L5 compression at L4-L5; and S1 compression usually occurs at the L5-S1 level. (22) Evidence of neurocompression may be reported in several ways. Compression of the nerve may be described as \"neural compression,\" \"nerve root impingement,\" or \"nerve root entrapment.\" Other terms such as \"nerve root enhancement,\" \"displacement,\" \"effacement,\" or \"encroachment\" without specific mention of nerve root impingement or entrapment do not represent neurocompression. Vascular enhancement of the nerve root may be reported but implies uptake of contrast material and nerve root edema only and alone does not indicate compression of the nerve. (23) 2011 Procedures Adult Criteria Hemilaminectomy, Lumbar, +/- Discectomy/Foraminotomy (Custom) - UDOH InterQual\u00ae copyright \u00a9 2011 McKesson Corporation and/or one of its subsidiaries. All Rights Reserved. Portions modified by Licensee have not been independently authenticated in whole or in part by McKesson. McKesson is not responsible for and hereby disclaims any liability related to any such modifications and their inclusion herein does not imply endorsement by McKesson of modifications. May contain CPT\u00ae codes. CPT only \u00a9 2010 American Medical Association. All Rights Reserved. Licensed for use exclusively by Utah Department of Health. Page 3 of 4 EMG or NCS is not a definitive test for diagnosing nerve root compression but may demonstrate nerve damage and thus may be a useful adjunct to imaging studies (Chemali and Tsao, Cleve Clin J Med 2005; 72(1): 37-48; Emery, J Am Acad Orthop Surg 2001; 9(6): 376-388). (24) MRI is the imaging study of choice for suspected radiculopathy (Ryan et al., Br J Radiol 2004; 77(915): 189-196). Since rates of disc protrusion seen by MRI in asymptomatic patients have been reported to be as high as 63%, imaging findings must correlate with symptoms and PE findings before surgery is considered (Benz and Garfin, Clin Orthop 2001; 384: 75-81). (25) Myelography readings of contrast truncation, effacement or thinning, filling defects, or thecal sac compression should be accompanied by specific mention of neurocompression. 2011 Procedures Adult Criteria Hemilaminectomy, Lumbar, +/- Discectomy/Foraminotomy (Custom) - UDOH InterQual\u00ae copyright \u00a9 2011 McKesson Corporation and/or one of its subsidiaries. All Rights Reserved. Portions modified by Licensee have not been independently authenticated in whole or in part by McKesson. McKesson is not responsible for and hereby disclaims any liability related to any such modifications and their inclusion herein does not imply endorsement by McKesson of modifications. May contain CPT\u00ae codes. CPT only \u00a9 2010 American Medical Association. All Rights Reserved. Licensed for use exclusively by Utah Department of Health. Page 4 of 4",
+        "text_truncated": false
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "text": "```json\n{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": null,\n  \"effective_date\": null,\n  \"criteria_quotes\": [\n    \"No proprietary Arkansas Medicaid (Fee-for-Service) medical policy document containing specific medical-necessity criteria for CPT code 63030 is publicly available. However, Arkansas Medicaid's prior authorization reviews are performed by the Arkansas Foundation for Medical Care (AFMC), which utilizes established national clinical screening guidelines (such as InterQual or MCG) combined with professional judgment. Standard InterQual screening criteria for CPT 63030 (Lumbar discectomy/decompression) typically require:\",\n    \"1. Nerve root compression by imaging [One]: MRI, CT, or MYL-CT\",\n    \"2. Symptoms/findings of unilateral radiculopathy with motor deficit or sensory deficit (pain, paresthesias, or numbness in a nerve root distribution)\",\n    \"3. Failure of conservative treatment [Both]: A) NSAIDs or other anti-inflammatories (unless contraindicated) for >= 3 weeks, AND B) Activity modification (provocative activity limitation or physical therapy) for >= 6 weeks\",\n    \"4. Exception to conservative therapy: Urgent surgery is indicated for progressive motor weakness or cauda equina syndrome (bowel/bladder dysfunction or saddle anesthesia).\"\n  ],\n  \"appeal_deadline\": \"2027-01-30\",\n  \"submission_route\": \"Arkansas Department of Human Services, Appeals and Hearings Section, Slot N401, P.O. Box 1437, Little Rock, AR 72203-1437. Appeals may be sent by mail or via email to DHS.Appeals@dhs.arkansas.gov. Phone support is available at (501) 682-8622.\",\n  \"how_to_obtain_criteria\": \"The patient can obtain the exact clinical criteria applied to their determination by contacting the Arkansas Department of Human Services (DHS) Division of Medical Services or their review vendor, the Arkansas Foundation for Medical Care (AFMC). Under the Arkansas Prior Authorization Transparency Act (Ark. Code \u00a7 23-99-1104), utilization review entities are legally required to disclose all prior authorization requirements, restrictions, and written clinical criteria.\",\n  \"confidence\": \"high\",\n  \"notes\": \"Standard Arkansas Medicaid (Fee-for-Service) delegates utilization review and prior authorization to the Arkansas Foundation for Medical Care (AFMC). While individual managed care options (such as Arkansas Total Care or Summit Community Care PASSE plans) publish their reliance on InterQual and MCG clinical criteria, standard FFS Medicaid does not publish a standalone, branded clinical policy for CPT 63030. To appeal, the member must submit a written request for a Fair Hearing (using Form DHS-1200 or a custom letter) to the DHS Appeals and Hearings Section. Although standard state regulations often require fair hearing requests within 30 to 35 calendar days, the patient's specific denial notice explicitly grants them 180 days (until 2027-01-30) to submit their appeal.\"\n}\n```",
+     "thought_signature": "EqAuCp0uAWkUfROvUbmqup00s4Wk5ehZtQJiTmLgbl8aZDbWhqO-QPwqtKWRjfjNuBKI9F9NuQ2SodeJaTOcIw-dIuBLpinDGtlWkLM4K81B5dTUgO7h5YFQNu1mZdfmHBmYBySBvPnFchc861mTIYrpAnejHQYnes_fN5Ez7TamVXigLMWvgOJNhkufly777BKWlLnuoRwJitsm7mV4nknZvI3ddAXXBK-kSg-1aEuVauVs4FprU4oNSoesXs17tqtZS5C7b1M1_Qnctu9rbPMYXb5eRm3_EzbDli_EkUdwPJ-xf3AOoPjn9AY_K-5z9RwHmfLAFqamVWrkHxlQFPJXvxk6FoZUot3QiF6WBnQ9aTNqd1EueccbxD-eywlFEBUVfZpO_DhXMfmOHdffY_nzyGjA1aOoqIrD19Hfo9jG3E76rFliWSlXRYDHgCtvTIGTfv3bPWKE9NydxGTOhTKL0rvWlUn3rJshKvB9OGNXCPwiJmOO_XKeXC9Cui-Po9QgtZxChS8x6AtBxAmMmkCEBd1PpJrHA1f7VpLVKtWO08TlFasdTCp3axYTnxUW-1xw-wpXkndHbPRbZI4oyn8B7Tv7JeTdNz2C33IynfOM9QdMEvEFfWStc1iZD-YeyVehUrhwOQ4A02yNAJQy3xVVeXmAoP_4Bpw6R_ogqW9ssV0hbn1AHMUOjRyviGTVntc8k0oZvTyjZvRtc5yd6H4Zuy56PerrsJ6Aaiso9jbmHS8VPbHxY4i8_XIwRt-NGFO0tBbuycr8H5PRljLLtijilOpCQ2Ng5DVbeDtyBy83k-Emq_gnG_o3QYHBxwinGwo6TVvJw_4Ykcw2vMmWiPnUgNrq1RBBuGUWEjT4m3xwEX45VqpCfY07iDBUr3ZwRWV2jB3cJsvq0u_4UtgPotWPaYpE8bdJYq5mNtuAaYJrnWbbpxH4msRTh4HjLaGW2IObj2fV0mMJxLc6wjDTQfQXNW-x_ijylzEuc9YD7dcuPqOTMDUvK8unGuVLzLDtZVdG_g0_Eobv-7wIpwnJZ8xNPC7iYQYo7UP33zzRsCFDDJFnxvf7hp7Yr-ve_TBdT0avCkAgJNXlJK-_Y-4jT_BXTTiIdaNFRGwlAVNVL3FJDXmL7nhQKc_PLWg-ueWnqzaTSAkGntQU4eyeuNGPtEyaWulKfeJU0-g984CTod3hnXJiKPofKSD18q4e4PZ3hoxseeE13iLmmpfK-K-TESpBvozRBEtROL55qaueO1pG8EaqeWAVhuJ4MG26-T_uqccN0wPp5_zz94UkudajoD45euC7qN0MKn5BZAitVW3ru7gWxi-cDRitajLQrBPldkeLVGLaO8i2Q6aisA44b83b5B02csxfOJ6RhZ5wqTcxKshOh8PRefBxdboZ8pNrWHuRWx5TBt4N6yCcMLAwO8TXFeZPENS1A4klV-35Aln3xFtz1MBUAKChOLYtsEIXOYwKYggxvQGUlTrJDL9_ore5rRCsj29dkMGLIw8f7Kqjv9Za6uB1j568Dn8psSykMcZxP7CM365ENAx2WFIDhIK9JdNleD9jejB1nr3b7ATQb-A2_LT-lai3NPVoyQf_Decl8EZ0m7sWRE_qp9TSkG-SCYAykx6o7lo0kICaLwcBr9NOKTxAzxCfTNry9LmHyN5pewdkN96HWvc-Jh6vdXJMXJlndIsK1NIta7fCzYup9_pYW3ubpXFSqRKtbuLTJVvizBjVG0O9RnNMC-yIMUwJu60hylKAhU3gkLryXzq7XVl9YsYua4ht_a8meZba5ZdonAkuSs6RQE5y7JA9KO8a3AiNF5z48KSbhyzOYERyx81vfOBKnGqQ-gBPOmHYbn8QVP1DxXQcdyz_BgcLIWw2gzbSrMjdqYQSLptbjc6DqajnaKVPqFDJAWxFHrSu_r0qJS2D4-GCC28NUQ7pjVLRHD4blzhMDaflAwb_jgkf4_O-nWd4T4C0jxq-Di5ZLf5eqhs3OoW4BtjTkM1nDblBQV0nF9zZdTQLy4yfjZwFNLamsSMPK385gWO0GLqdAB8Jil9yCX5tEbL4cMNbkWqtMCD7FJiUnInje4BnQ64A1ZU_RvqKRsPjKUEDzABTiLNf3OJOOdguOlAG5NORfSAygnwJXZ5IAYrlHq3xwKR3Lyhgy8cDyHU2lFKEBxNUFtoYHp1wHUHb04GBbmzBtZzWnYZFPS8kGaL3Y7BqUqni32V-PNIZ6JyX_5hC54dBgJiuITpa8SSzMfdF-GRG145iu2ICXXBjlAlWGix2CWxJeBZE-8RWaaC2U5TmBEkhN_lihvSLEYiy83h-vAcSILjDQfZ9Hi0CS3-NOG_CsZxUAm2v4bAee99sHif3caQKpOcr-9l0YdlA86CTtT7oO8NHPUZjyRii0y2Z2uQCDLkCC4jLTBlnNxfw-qYy-QUfpfckV3NQ7QBoszu0O5w4pMNnFWe5YlB9IqFC_UKkjpP5KfjnyFX2myyRXOn9ID3ScsHWehlTuDNgSqgVs_wx14hNEia_-wXPrZeTubcOpn0WI1vzJ6W0r0_3Dohn7cOpAL48GkJ5zT7w5Q4cQzlXRIgXEENvJVAy5Y7Yip9yWovuWPAFVmia1OHQ7jzaE53l2DRlrFYkJGzh0m5_WGRggZXIzVVtdaYH_6XTxajgYTY8yb72cw23frAu9cRLVZaPBqAZrOvAhUnYis_koIee_2-W5n17QXzpEnBl91aG89uGbJjgwCV48hFAcCzpqRFO5lb9t9JTfroNM462EoHLUgCV0A_8TIKzJ2AXo8skrw8HvWykoWFEimKpY_PYk40K4rK10yg2lgVSCVH89Sj1KIxeUtYME9qSPrQVgKk9Pski-GBHz67XCWwAewn9jUfh5DduMCmd2wF-wU4ZMwk9iuRy65I7XnTYbOFV83yrvCy6MMFB_9tQUaYd6hTm7_LUNx0H-hb9N2NHgupL6o6hdjafaa0r0ktUeP8AjthP4bF9UIqRjM0teIIglisf2ZlIW6yi0_vHAVDGNC_P7cjb4Y_5o1MiKJwVeYrh4gPmmXLqcCG7ED6BMHjVmiwQJLDLCgRgx_dG_86ZFW1Mr7jefMmPoo4vyclJ5XmNg9mZTme9V3P20UYYfGWT0cquB2ft2PBxm0B5mZCUYXRer0hXCnBB1HvlqCdE9stX0RSou2bk2eTgX125flTLrmpT_fFQCBzZLQ5ndg6kAdqftk3U-Bi2u58c-z4K7lVa1NqR0UE628cZYy4ipI3egKQAqKIIXHSX1ZhN1i-vmGngkKa79r5jOzuHeIYhdcdXgZMQW61_i2ldo0EQFwt-SbPnGSSzL0XJAHMYP_nmU0dGbCCIL9N9GP6Xn-VbgstIsynfDePgYGPj6_3TpQQIMuF-GBTIEc5qWqYKY1FtqtkuX8Z_kMisDwbw9PKdPECCLPp-QZ8Vy-X7zz981sXEgn1x2DfffGzDNbHoZ_JYlvkFksPDDSV_WxfLlj_2scoMEMkxb5D1zXsxv8iuSBaIuatjJ5_blzxezbs88iisuTE7Rv7_GWbJd2v-mLmEpp-W3z0TWRXgCRro4b2dogx-yXuvgdL_njtoukvgCUZE1Q4q9bBoyoP3Yi0m94DZEeXgdR_TWclSLGJvIneDMv6VXVg_HkbfHWV53Pn2Rcj2oleS28vdyjrLorYogc9N16_Wir1WfcB9uYO3znsT_Levl5iTkG_55IP7E9Vuq1DnzmLVZ6ru7Cx5_GR7RjZnMw8lX_LjgEr_pnxwZGyvn8uB60n6jjWHLICOEEoc-nk-T6faFRsL7XLXNy-iCh-Ia8F8M-FXdMCms5a8WzVE-HtfTjNallS0dQdQVXva0XmnCMgl1tXdWzlexORNa-okMfxnSAaDd3JLSKgZ9Hn_YaiJd6fMtplfZYSOvtUu2bxodfyOhwu6lJ4Eo5nA5teRECYblUpxOghfUvq50kFHUOHtjyOzma6erKPZYpB1OPX2iUPlp0OJJg44DRiCoh60rvXTC3_E-4FKkcPl-KywBOnlYtij8hnvBSzr1himMVxm9_Qzdv7ETVmBXRfLp1SA1Y55cbPuafHC8oHAy3bRJVv_ktXB09I_rg9QJaqRtS2q95JjYyOzLjba-5ocMYsCzYZkz_2YIChfB8KFcCYucUWQn_CBRC6bE7iSgfA5KG5vqVcKlei7YyyAZI5hyuyYSrgxlV34tYBC5LqXUyxgNv19qprqDLSSmcIKGe_8Hc6M-vlzgmffPIk0Pq1NfgX9pyf5MZ0uJxnI8_ut2Bkv7mVWJ58HRlFozTjWaF7BPNyUK7SzmtZCHiRJ1FOujsfWSbackKwEhiHtzB7CRByorczCqEcYq0zDtsruf1UwIWHxheEufXmDaSKYFsArIXuOV8c1woYxTutmvAK_obhl_8kvn_1MqcauoA3393e8rV9Koy8mbX9VD5RJIJQBRpeP2jIJhhlDol_ApmcRTl-LmYdZKgxBW_lpbvbQxyLHBO1daKQT1ooN29yvjgJn0ZLmUhxLejlLCIibG94m03yWtvgUnLQUeQd_XqL03sekvcerAsTjXkbN_HTW47ux9yC2jQU8rH9HU93rliSV_AApyDTX5beqOQ1Q8nkBFwzgfg9SSpQzLcsOE2fUmxHlHU9WthPQuq7yrPMJu1UgQt4rkH4GasAItI49-QLIZP5Sw1FEfRq_j_1Bdvqo_13fVmB_mGjRJjhRrpJP3mGy7Q67tC7pDM1NcGDVc_I1oQiO66r_QS-KjdiXiKmJFzhNR_VpWm8Ac46_QxpG3Ck4sCW8FWGKsKPvMGtfBhbS9MhBNrmZRFljhOyvkmXjO45avZX9wPJv27eR1l3yRKipSrI_THoWFk9gDg2ybxRNZfz0rtbpLO9vx6DMSD03oi3ket-mjVDRVeSX8Y1KmnCtXvSlUgUS8fiUpfBS8AjHQ5hbqTLhcB722if0z-_WV28Tm2x5Xa3QkHZTa0UqHB8ORyJ-HQiY931YcPa9fSYEHbkZYG-Ex1UPqg4zR5WZ220gs18YfFq44RwCeY50t2H1aP1X-lH1dWfcQl4O_T-wQhzCRKiTTLYzQOU5G9piaKwsXCHiq6fcR4A8BWZhfKdQZdNic6iyqRnxG6VnECtIpJ9GpUnLwTIh3pUDQMzKQZPZGv20BdkgzIyJMqg6V0VKWZPPzUciHPJj6KL-cBrR2e56-9VfElhGtexX7Y2NgQaHXdvz6G4IZ3USzNm2CpxVLok5FzRgfEarKZ3vFSSo9lHb38Kk7s_qrUQyXrDQriL5dtBfLSotCj90LI9nrL0UDLUxKC1yZfLNCmUwGEChZRDgnHcN_F90D3g2YsyaBJyO1CA4wI1E0nv6o3gQj6lbpaOe95IAGno3ZiuahD838bi1_KzN5KDubvcLZL2QNu-em5xGB6UldEA7IuXMXCZSR1QN7-W9xTGvee1vUvINnw1QnRWwfiTtqYdhwmwjXXac-JYPrcS0XDgUKEOq8BPYDkdKel5zX0bH8bK76mVf-vXm1WB61ElwRbseed9ToJ_H_U4l4ot3jzg7Ja-MpL7yuM2iqEyGjn-KCQzLUtWs9_f8NivWH36ujmSfsi1C4uptzKaPSnAFVhkMVVAgahRv9OVA1vVao86j1QfyBjAneNL4QdoPobaGyNsNksuSCJt6i-IIPzfwqGNKzFpKE6ruRfmthdedZ1PY1mrIFymsMtcCWBJYPUQseXmWNAHBYnPRNk6vFrZRi_GCBH_N_8OYmwtmkLk144uGFelWX-ePcv2EKajZCEuCkLLrFIrQ4KBH3G6p6KM7FkBZXP3ABost_tjyfwIMVHfnno8Dh3sOy_J-TWRQcm5ien0ewXx6-ck3br-oXmVYb7AOQ8dNRYuYI0x5NRQd-b7LUvGIIuBQhDOYeqycGMtQBRQr_3hdAVC0-p5xRgE1FgsIXaYH27K5BNafaPFLu53Oe1u1z_Kdb18EPebCHVy1g6PpzNebnOvnONzEe7JtKJefVazI9m6h_LDB2znhuP2RsUjFGw4S-SUOIDNr5PT447IBRf6c_R4nkvnnrVlId8QgiQmlbyao2GIICIWfSKpasJRFhbbfs6YvU4Obf32TkoyjbEPXHw2MdKlGe4_KQProTOITphySvRFZmtrxnNv1wX-E-LcMZq4z0LWVZM2JOKvAfoLPPk14lG-W1lpBuLV6PByQ_Mpms1nasIsivHAt-0ptKIrQ18JYBFs2V55FYUrS04PBZCpEOnT6EoMZji35a9OEBowLhv_hwBxucFwSVbbWItz0BzzAKh3Gnz997v5MglQTs1koF3VgdoY6M1HNQrx7WZ7687R62-rTIqp1lfbqSR6KHwr229rKcx8cMgSPiWgGk6_Ih9UJcDxcd6jYOkJWEYCgfJmMwvX2NLBcIpkY_PAjLTCw2d_HZ9Ipl-uRTGjh3AVhyWCKbhaRMvQW2ZFIOkkeii3dNXuwA-KKK23NxP_aMfjYv7zmkV6Zu7WEpcYEFXWIpT5jQTLpnYl1UFBc4deIRhxKRli_HrI8Bnwg2rVjVznLCqsRSsk5KVAKcbLTuzu-s-eT3xgHq_fbgq5e7JJG0XjmUZzqdUKh0pfgdvSE-e5LNOlqSaYqeIxUl-YJ4VEPoE98YCCe3wQwrtkx_JF3RfNCOkcHEkT1qnEonzchnJW8Zubyh7kyCpvCX_4pIfphWRJglj-FPPDwelK275cK32c99vXnInLNIArs89DCRijr0zGAQmeqmsKmcfjKd50C2TODyOhsSQi_77SYzN6klX_3vuJh7d67UidZ_I_iadVnIDgQrEy_NEjuUbKqKz_IBnCSRgFZqJbZi2r8bC2b1ILmvvVhe9x8grxEmpYaJCkFINsddkLQ23iCqUVsyIT6RJ_bY0tqSHWNV99euYjVFVoopCE4-Mc9N5sQ4kth90O6vZ1WCOo1Z9ygDks5Zw1gka_JYttRi_BVXGkJC1s5CMb8_qV7vkjeOXTctQxld9FUMclhSV6TiTYz4BWOIWGDaTyoUSavy9pwosgaZZWCAWUD7RfmfVmpffjfV_1ytC-06qzclaCdIYkqTdoAng8cYAqv8FaHZ5ppFfOdQ9zRZz3spU9kA37L2HB2S_O5906zAtIXFLXfqHa9fniO61wE8epAOY4tMs61jibtrZBxm4Mcy3YX5C64n_ezMi-R292uECkE9BHxPUj-EegYMorK2NlipustzzoZyMK5pS2MKbHoJVN6NNrRtDM9GvB19WMLOfctyNOB6mxYw1YAQZXLqyZboN0AEbPxic9Z6_ULtgSrAQS4ITFhGSeW688hkWZZV_2jEvLUzjdtg7IUgKBE_d0ECuGkJi6UXl3z0rDwl4-2e_aBEJoA7jXX92rpRhkNxv8mNg156g0CUOY9FfFdTRrj1gr_xxKujQ_Djt34_Lbt9b6OJEf9msmX4GvZnmqLS5Xn2VuyIYo6uTro2V__pjQAj5lT3rB-J1jp0yVGPZtV2vK-s7PM48i0bhzTFc1Ubat2446rg5KxV9hJzINIAgQPIraXN6cofL_k2AnZhRLOw5bJTb4bpkJues5sU6JfHuCjbZFnQwXmVRh5sg5u7TmULJIfkmSMNExKQV4OLL7_9JBO08HYqHNs5F5hWXEl5N-3CtdcKqTDm9SVYlTbBIWE-5G1L157MbU0XgpXMr6UOufzDzO9uoulT6phJlLB5F1Kl7GU0lstMgMMLNQtPjUkYuLe6b8oHEbb3S0_z-nW5Wam44Xxv5tYUR4kNJJaQwLop01oYvfZeOgqNpxXQaIp54-O5nvCty677W_KmFYAhPy5PsbPGZLZj2zkzcQtS2wPZG1d_bKHL4A1C8Mv5IW6C3oXnFDxnWfYnvfty65VdFMtsC1EiZE3ITQvFUbrFOTa-9266HVoKu5nZA=="
+    }
+   ],
+   "role": "model"
+  }
+ ],
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 173876,
+  "output_tokens": 2610,
+  "cache_read_input_tokens": 517256
+ },
+ "model": "gemini-3.5-flash",
+ "tool_calls": 45,
+ "elapsed_s": 147.6,
+ "run_id": "r-bf29a846d750",
+ "case_id": "poc-007830134d"
+}

@@ -1,0 +1,2197 @@
+{
+ "answer": {
+  "policy_found": true,
+  "policy_title": "Surgery of the Shoulder \u2013 Commercial and Individual Exchange Medical Policy",
+  "policy_number": "2026T0556GG",
+  "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-shoulder.pdf",
+  "effective_date": "September 1, 2026",
+  "criteria_quotes": [
+   "Surgery of the shoulder is proven and medically necessary in certain circumstances. For medical necessity clinical coverage criteria, refer to the: ... InterQual\u00ae CP: Procedures: ... Joint Replacement, Shoulder",
+   "The InterQual\u00ae criteria are proprietary to Optum and are not published on this website."
+  ],
+  "appeal_deadline": "2027-01-31",
+  "submission_route": "Written appeals can be sent by mail to: UnitedHealthcare Member Inquiry/Appeals, P.O. Box 31393, Salt Lake City, UT 84131, or UnitedHealthCare Member Inquiry/Appeals, P.O. Box 740816, Atlanta, GA 30374-0816. Members may also submit appeals online through the member portal at myuhc.com.",
+  "how_to_obtain_criteria": "Because the governing InterQual criteria ('Joint Replacement, Shoulder') are proprietary to Optum, they are not fully disclosed in the public policy document. The patient can obtain a free, complete copy of the specific clinical criteria applied to their case by calling the UnitedHealthcare Customer Service number on the back of their member ID card or submitting a request in writing. Providers can access a read-only version of the InterQual criteria online by logging into the UnitedHealthcare Provider Portal (uhcprovider.com) with their One Healthcare ID and navigating to 'Policies' > 'Clinical Guidelines' > 'InterQual'.",
+  "confidence": "high",
+  "notes": "The policy governing CPT code 23472 is 'Surgery of the Shoulder'. This policy defers the clinical medical-necessity criteria to InterQual's 'Joint Replacement, Shoulder' subset, which is proprietary and requires a portal login to view."
+ },
+ "raw_text": "```json\n{\n  \"policy_found\": true,\n  \"policy_title\": \"Surgery of the Shoulder \u2013 Commercial and Individual Exchange Medical Policy\",\n  \"policy_number\": \"2026T0556GG\",\n  \"policy_url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-shoulder.pdf\",\n  \"effective_date\": \"September 1, 2026\",\n  \"criteria_quotes\": [\n    \"Surgery of the shoulder is proven and medically necessary in certain circumstances. For medical necessity clinical coverage criteria, refer to the: ... InterQual\u00ae CP: Procedures: ... Joint Replacement, Shoulder\",\n    \"The InterQual\u00ae criteria are proprietary to Optum and are not published on this website.\"\n  ],\n  \"appeal_deadline\": \"2027-01-31\",\n  \"submission_route\": \"Written appeals can be sent by mail to: UnitedHealthcare Member Inquiry/Appeals, P.O. Box 31393, Salt Lake City, UT 84131, or UnitedHealthCare Member Inquiry/Appeals, P.O. Box 740816, Atlanta, GA 30374-0816. Members may also submit appeals online through the member portal at myuhc.com.\",\n  \"how_to_obtain_criteria\": \"Because the governing InterQual criteria ('Joint Replacement, Shoulder') are proprietary to Optum, they are not fully disclosed in the public policy document. The patient can obtain a free, complete copy of the specific clinical criteria applied to their case by calling the UnitedHealthcare Customer Service number on the back of their member ID card or submitting a request in writing. Providers can access a read-only version of the InterQual criteria online by logging into the UnitedHealthcare Provider Portal (uhcprovider.com) with their One Healthcare ID and navigating to 'Policies' > 'Clinical Guidelines' > 'InterQual'.\",\n  \"confidence\": \"high\",\n  \"notes\": \"The policy governing CPT code 23472 is 'Surgery of the Shoulder'. This policy defers the clinical medical-necessity criteria to InterQual's 'Joint Replacement, Shoulder' subset, which is proprietary and requires a portal login to view.\"\n}\n```",
+ "usd": 0.1915,
+ "transcript": [
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": null,
+     "inline_data": null,
+     "text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-04\nMember: Emerson Brooks\nMember ID: W628799962\nPlan: UnitedHealthcare (Commercial/ACA), state of Iowa\n\nDear Emerson,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total shoulder replacement\n    Procedure code (CPT): 23472\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-01-31).\n\nReference number: POC-9AB63CFCDF-18778\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes.",
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_207366",
+      "args": {
+       "query": "UnitedHealthcare Commercial shoulder replacement medical policy CPT 23472"
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\xb5\\x04\\n\\xb2\\x04\\x01i\\x14}\\x13@\\xcbn\\xde\\xcaXvY\\x065)\\xa3K\\xf1\\xa1\\xb82\\xe2n\\x89(X\\xa8\\x9c\\x11$\\xecX>\\n\\x831\\xd1\\xd2M%L{\\x9c\\x85`?\\x91p\\xcb\\xc0\\xa7\\x85+\\xa3\\xae<%N\\x0e\\xed<#\\x90\\x86\\xb7\\xd9\\xadi\\x1fRJ\\xb8\\x11\\x1f\\xb2\\xd7\\x86?\\x8f\\xc98Q\\xff\\xff\\xd8X\\xed\\x9b\\x7f\\x9f\\xd1\\x1b$4\\x7f$\\xea{\\x08\\xfcv\\xda\\x87x~\\x9f\\xde\\xa3\\x1f$b\\'_o-G\\x8a\\xd9\\x1d\\xf0/\\xfb\\xcbb\\xbf\\x05{\\xb9\\xb6\\xf9\\xa3-\\xc8(\\xa4T\"7\\x10\\n\\xe9\\xd8\\xcc\\xe7\\x98\\xa2\\xfa`6[\\xb3\\r\\x10v\\x14O\\xd0\\xed\\x8f\\x8d\\x8a\\x99\\xa3\\x0b\\xc7c\\x11R\\xbdv\\x84\\xf5\\xb5\\xba\\'H0\\xde\\xefX,9\\x876\\x0c\\x93M\\x94\\xca\\x11w+\\x89\\xccJ@\\xc5\\xe7K\\x93\\xdbu\\x94B\\xc2\\x99\\x82\\'N\\xf1\\xe1*\\xb1\\xb6}U\\xa7\\x1f\\xd2V\\xb7\\xf2af\\xe3`\\xe4rA\\xa3\\xc2\\xbab\\xd5\\xa0\\\\>{g\\xb3u\\x9e=\\x96\\xb7t\\xd5\\xbf\\xb2\\xa2\\xbfm\\xe8\\x84\\xbd\\x14\\x8c\\xf3J\\xf1\\x1a\\x17\\xa8x\\xc4\\x96/=\\xbc!\\x8a\\xa2G\\xebPl,\\x7f\\xb8\\xba\\xf9\\xfb\\xff\\xd0\\x83\\rX\\xbd|\\x95\\xff\\xa6\\xbb\\x89\\x87w#\\x1f\\xa56U\\xaey\\xfd\\\\\\xb8|\\x92\\x9bK1C\\xe8\\xb5J\\xc5x\\xfa\\x19#\\xe7\\xb9o\\xfa/\\x16\\x1e\\x1e\\xbf\\xd3t\\xe4\\x9e\\xa8\\x99\\x9fy\\x1f+`L\\xc8\\x1b\\x04\\x84\\x9d\\x10@B\\xeb\\xf9ue)\\x17\\xb8\\x98\\xa4\\x8e\\xd1\\xf9\\xec\\x9d\\x0f\\x8erRQ\\x8d\\x07\\xe3l\\x0c\\x04\\x8e\\xaa2\\xa5.A\\x1b\\\\\\xb4\\x85\\xee\\xf0]\\xfc\\x80\\x97\\x16\\xe2\\x86Z\\x1f\\xe0y\\x96tp>\\xb1\\xe1c\\x9c\\xc2c\\xdc\\x04,\\x03\\xdbh\\xd8E\\xcf\\x98\\xac\\x86\\x13Z\\xb1x\\xfdL\\x08\\x05\\xa2\\x1bN\\xc7\\xc8\\xca\\xe5\\x81\\xde\\x07\\xc0\\x10:\\x13Xpd\\t\\x92\\xb4\\xb4\\x9e\\xab\\xe2K\\xbdS\\x07\\x93o\\x96&\\xa7K\\xf2C\\xf1W\\x0b7AU\\xac\\xd2)\\x06\\xd9rR\\x16\\xa7\\x81\\x03\\n\\xd8\\x1c\\xba\\x8a\\xec\\x92\\xa9,\\xd554\\xa4wQ\\x9f\\x8dj\\x0c}=1\\x986\\xd9R0\\xcc]\\x14\\x16\\xd1\\xd2\\xd2\\xa9\\x8c\\x99\\xf2\\xcd\\xab\\xeb\\x8c\\xe8?\\xe0\\xf3\\x98B_\\xfa\\xca\\xc3\\x16\\xbb\\x01\\x15\\xbdp\\xf4\\xf6\\x00M\\xef\\xb4\\x87\\xd0y\\xad\\x83\\xae\\xd5\\x99\\xdb\\x02\\x14\\x96\\x85Nt\\x8f\\xd6'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "UnitedHealthcare Commercial shoulder replacement medical policy CPT 23472",
+        "results": [
+         {
+          "title": "Surgery of the Shoulder \u2013 Commercial and Individual ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-shoulder.pdf",
+          "snippet": "CPT Code \u00b7 Description \u00b7 23470 \u00b7 Arthroplasty, glenohumeral joint; hemiarthroplasty \u00b7 23472 \u00b7 <strong>Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal humeral replacement (e.g., total shoulder)</strong> 23473 \u00b7 Revision of total shoulder arthroplasty, including allograft when performed; ..."
+         },
+         {
+          "title": "Surgery of the Shoulder \u2013 Community Plan Medical Policy",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/surgery-shoulder-cs.pdf",
+          "snippet": "CPT Code \u00b7 Description \u00b7 23470 \u00b7 Arthroplasty, glenohumeral joint; hemiarthroplasty \u00b7 23472 \u00b7 <strong>Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal humeral replacement [e.g., total shoulder])</strong> 23473 \u00b7 Revision of total shoulder arthroplasty, including allograft when performed; ..."
+         },
+         {
+          "title": "Shoulder Replacement Surgery (Arthroplasty)",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/8.17.21/378_UHC_CS109LA.N_surgery_of_the_shoulder.pdf",
+          "snippet": "CPT Code \u00b7 Description \u00b7 23412 \u00b7 Repair of ruptured musculotendinous cuff (eg, rotator cuff) open; chronic \u00b7 23470 \u00b7 Arthroplasty, glenohumeral joint; hemiarthroplasty \u00b7 23472 \u00b7 <strong>Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal</strong> \u00b7 humeral replacement (e.g., total ..."
+         },
+         {
+          "title": "CPT Code 23472: Description, Cost, Scenarios, and Rules",
+          "url": "https://transcure.net/medical-billing/code/cpt/23472/",
+          "snippet": "The surgeon documents the setting rationale before surgery. CPT code 23472 <strong>applies when end-stage glenohumeral disease requires replacement of both joint surfaces</strong>. The scenarios below show common reporting patterns across both configurations."
+         },
+         {
+          "title": "CPT 23472 Total Shoulder Arthroplasty Reimbursement | OpenPayer",
+          "url": "https://www.openpayer.com/billing-codes/cpt-23472-total-shoulder-arthroplasty",
+          "snippet": "AetnaBlue Cross Blue ShieldCigna ...geryhospital-surgery \u00b7 CPT code 23472 describes a <strong>total shoulder arthroplasty in which the provider replaces the damaged head of the humerus and the glenoid cavity with prosthetic implants</strong>...."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_292081",
+      "args": {
+       "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-shoulder.pdf"
+      },
+      "name": "http_fetch",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\xe7\\x03\\n\\xe4\\x03\\x01i\\x14}\\x13NZ|\\x1c\\xf0\\xd7\"I:\\x89\\x89\\xf4\\x9a\\xca\\xa9tZ\\xf4\\x13\\xa5!k\\x1a\\x11`\\x8a\\xdc$\\xcf\\xfc6`n\\x87{s\\x95^\\xddh\\x18\\x17\\xd2k\\xea\\xa3\\xa0m\\x9co\\x81\\x8d\\xf7s\\xc7\\xb4B\\xaf{mo%0\\x84\\xfe\\xaf~\\xe47\\n\\xce\\xa8\\xf8)\\xf0\\x00\\xe8\\x9f{\\xb4\\x02\\x15\\xfd\\x92\\xde\\x90\\x98bnA\"\\xb4\\x05\\xa5i`\\xb5*J.\\xaa\\xd0\\xc3Z\\xcb\\xb1\\xdcK\\r\\xab.\\\\a\\xc9\\xcc\\x9f\\xd8d\\x98\\xb4\\xd0\\x11\\xdb\\xdb\\x07\\xa0_\\x9e|\\xf9\\xe6@!B+h\\xefSH\\x17\\x98y\\xb0\\xb0J-\\x84\\x8b\\x95\\x1ft\\xef\\xf45\\x13\\xa9r\\x9e\\x86=\\xf5\\xae\\xbaW/\\n\\x9f\\xda\\xc77\\x86\\x00\\x04\\xff\\xc6\\xb1\\xc6)\\xc1\\xf0\\xc85\\x99\\x00\\x03\\xee\\xd9m\\xcd\\xd9\\x970I\\xb9\\x93\\x16\\t\\x00\\xe9\\x9c\\nB<\"\\x9c\\xbd\\xa5\\x1fR6\\x9d\\x93\\xac\\x17R\\x0e\\x8dx\\xdb\\xafP\\x87\\x99HdyG\\x99\\x1c\\xba\\xc6\\xef2s*\\x0b\\x83\\xb8R\\xd5T\\xf6\\xb9L\\xf1\\'\\xf6\\xfc\\xf0yN)\\xfas\\x90h\\xf9GZ\\x16M\\xae\\x11\\xe7\\xbd\\xb8\\x9b\\xc0\\x86\\xa5\\x01\\x80\\x83\\x8a\\xdaY\\xc9^\\n\\xa0\\xa1\\xe6Q\\x94\\xd0\\xa5R\\xa7\\x00l\\x91\\'cA\\x91\\x9b\\x96~s\\x8b\\xa0\\xb4\\xa9\\x9a\\xa3\\tY\\x1a:2W<\\xcf`\\xfa\\x02\\xb6\\xb3g\\xedK1v\\xe2\\r\\x19\\x89n\\xb2\\xd6&\\xea\\xd0_\\xa2\\x90\\xc8\\xc4\\x80\\xdb\\xd4kl\\xaa\\xfb\\xaam\\xec\\x16\\xb5\\x9b\\xf1-\\xf8V\\x9d\\xc2W\\xf9/#\\x04\\xcbt\\xca\\xcb\\x08\\xdeZ\\x07\\rLS\\'\\x15\\x05\\xefMW\\x97\\xa6\\xdfvM9\\xb1x[;\\xec)fhGm\\xce\\x08\\x83N\\x96\\xa6\\xacJG9n\\x8d o\\xca\\xbc\\xa6\\x9e\\r\\xb8\\xcaE\\xf5\\xb4\\xab\\xdb\\xa5\\x9f\\xd7\\xdaY\\xf7\\n\\xd1\\xa5\\xfb\\x82,\\xe5BD\\xb8\\x0b\\xf4\\x97\\x08\\xb2\\xe6\\xca\\xf4\\x9d\\x057\\x99\\xfb\\xca\\x15\\xef\\xa4\\xb1oY\\x7f)\\x1fi\\x00\\x0co\\xbc\\xe8m\\xe3\\xb4\\x90`\\xcb,\\xf0\\x8f\\xe9\\xc0\\xf8-'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-shoulder.pdf",
+        "final_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-shoulder.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": " Surgery of the Shoulder Page 1 of 6 UnitedHealthcare Commercial and Individual Exchange Medical Policy Effective 09/01/2026 Proprietary Information of UnitedHealthcare. Copyright 2026 United HealthCare Services, Inc. UnitedHealthcare\u00ae Commercial and Individual Exchange Medical Policy Surgery of the Shoulder Policy Number: 2026T0556GG Effective Date: September 1, 2026 \uf0dc Instructions for Use Table of Contents Page Application ............................................................................. 1 Coverage Rationale .............................................................. 1 Medical Records Documentation Used for Reviews ............. 1 Applicable Codes .................................................................. 1 Clinical Evidence ................................................................... 2 U.S. Food and Drug Administration ...................................... 5 References ............................................................................ 5 Policy History/Revision Information ...................................... 6 Instructions for Use ............................................................... 6 Application UnitedHealthcare Commercial This Medical Policy applies to UnitedHealthcare Commercial benefit plans. UnitedHealthcare Individual Exchange This Medical Policy applies to Individual Exchange benefit plans. Coverage Rationale Surgery of the shoulder is proven and medically necessary in certain circumstances. For medical necessity clinical coverage criteria, refer to the: \u2022 InterQual\u00ae CP: Procedures: o Arthroscopy or Arthroscopically Assisted Surgery, Shoulder o Arthroscopy or Arthroscopically Assisted Surgery, Shoulder (Adolescent) o Joint Replacement, Shoulder o Removal and Replacement or Revision, Joint Replacement, Shoulder Click here to view the InterQual\u00ae criteria. Subacromial balloon spacers for the treatment of rotator cuff tears are unproven and not medically necessary due to insufficient evidence of efficacy. Medical Records Documentation Used for Reviews Benefit coverage for health services is determined by the member specific benefit plan document and applicable laws that may require coverage for a specific service. Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage but does not guarantee coverage of the service requested; refer to the guidelines titled Medical Records Documentation Used for Reviews. Applicable Codes The following list(s) of procedure and/or diagnosis codes is provided for reference purposes only and may not be all inclusive. Listing of a code in this policy does not imply that the service described by the code is a covered or non -covered Related Commercial/Individual Exchange Policy \u2022 Skin and Soft Tissue Substitutes Community Plan Policy \u2022 Surgery of the Shoulder Medicare Advantage Policy \u2022 Joint Procedures Surgery of the Shoulder Page 2 of 6 UnitedHealthcare Commercial and Individual Exchange Medical Policy Effective 09/01/2026 Proprietary Information of UnitedHealthcare. Copyright 2026 United HealthCare Services, Inc. health service. Benefit coverage for health services is determined by the member specific benefit plan document and applicable laws that may require coverage for a specific service. The inclusion of a code does not imply any right to reimbursement or guarantee claim payment. Other policies and guidelines may apply. CPT Code Description 23470 Arthroplasty, glenohumeral joint; hemiarthroplasty 23472 Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal humeral replacement (e.g., total shoulder) 23473 Revision of total shoulder arthroplasty, including allograft when performed; humeral or glenoid component 23474 Revision of total shoulder arthroplasty, including allograft when performed; humeral and glenoid component 29806 Arthroscopy, shoulder, surgical; capsulorrhaphy 29807 Arthroscopy, shoulder, surgical; repair of slap lesion 29819 Arthroscopy, shoulder, surgical; with removal of loose body or foreign body 29820 Arthroscopy, shoulder, surgical; synovectomy, partial 29821 Arthroscopy, shoulder, surgical; synovectomy, complete 29822 Arthroscopy, shoulder, surgical; debridement, limited, 1 or 2 discrete structures ( e.g., humeral bone, humeral articular cartilage, glenoid bone, glenoid articular cartilage, biceps tendon, biceps anchor complex, labrum, articular capsule, articular side of the rotator cuff, bursal side of the rotator cuff, subacromial bursa, foreign body[ies]) 29823 Arthroscopy, shoulder, surgical; debridement, extensive, 3 or more discrete structures ( e.g., humeral bone, humeral articular cartilage, glenoid bone, glenoid articular cartilage, biceps tendon, biceps anchor complex, labrum, articular capsule, articular side of the rotator cuff, bursal side of the rotator cuff, subacromial bursa, foreign body[ies]) 29824 Arthroscopy, shoulder, surgical; distal claviculectomy including distal articular surface (Mumford procedure) 29825 Arthroscopy, shoulder, surgical; with lysis and resection of adhesions, with or without manipulation 29826 Arthroscopy, shoulder, surgical; decompression of subacromial space with partial acromioplasty, with coracoacromial ligament (i.e., arch) release, when performed (List separately in addition to code for primary procedure) 29827 Arthroscopy, shoulder, surgical; with rotator cuff repair 29828 Arthroscopy, shoulder, surgical; biceps tenodesis 29999 Unlisted procedure, arthroscopy CPT\u00ae is a registered trademark of the American Medical Association Clinical Evidence Subacromial Balloon Spacers (SABS) Subacromial Balloon Spacers (SABS) used for treating massive, inoperable rotator cuff tears (MIRCTs) are unproven due to several limitations in the existing research. The current published literature on this topic only includes short -term follow- ups, and many studies are small in scale, non-randomized, or lack control groups. Additionally, there is considerable variability in study design, which makes direct comparisons to other treatments challenging. Another significant concern is that many of these studies are industry-sponsored or authored by device developers, which introduces potential bias into the findings. Further high-quality studies are needed to address these limitations. The InSpace\u2122 Subacromial Tissue Spacer System (Stryker) is a minimally invasive, biodegradable balloon spacer for treating massive, inoperable rotator cuff tears (MIRCTs). According to the manufacturer, it preserves musculoskeletal and bone tissues, does not require the use of an anchor, and does not require a permanent implant. It is used as a spacer to eliminate friction between the acromion and the humeral head or rotator cuff to restore shoulder function and reduce pain. It is designed to biodegrade over the course of twelve months. In 2025a, Hayes developed an Evolving Evidence Review focused on using the InSpace biodegradable subacromial spacer (Stryker) alone or with debridement for rotator cuff tears. After a review of full -text clinical studies and systematic Surgery of the Shoulder Page 3 of 6 UnitedHealthcare Commercial and Individual Exchange Medical Policy Effective 09/01/2026 Proprietary Information of UnitedHealthcare. Copyright 2026 United HealthCare Services, Inc. reviews, it was found that there is minimal support for using the InSpace biodegradable subacromial spacer alone or with debridement for treating massive irreparable rotator cuff tears. Furthermore, a review of practice guidelines and position statements determined that there is no/unclear support for using the technology alone or with debridement for treating massive irreparable rotator cuff tears regardless of whether spacers were used alone, with debridement, or as an adjunct to partial rotator cuff repair. In a 2025b, Evolving Evidence Review by Hayes, the InSpace biodegradable subacromial spacer (Stryker) was evaluated as an adjunct to partial repair of rotator cuff tears. After reviewing full-text clinical studies, and systematic reviews, it was found that there is minimal support for using the InSpace biodegradable subacromial spacer as an adjunct to partial repair for treating massive irreparable rotator cuff tears. Additionally, after reviewing full-text clinical practice guidelines and position statements, it was determined that there is no/unclear support for using biodegradable subacromial spacers for treating massive irreparable rotator cuff tears, regardless of whether spacers were utilized as an alternative or an adjunct to partial rotator cuff repair. Sandler and associates (2024) conducted a dual-armed systematic review and meta-analysis of over 1000 individuals to compare the outcomes after SAB spacer placement versus arthroscopic debridement for MIRCTs. For the SAB arm, 14 of 449 studies were considered eligible for inclusion, while 14 of 272 were considered eligible for inclusion in the debridement arm. In total 528 individuals eligible for inclusion in the SAB arm, 479 in the debridement arm, and 69.9% of those individuals undergoing SAB placement also underwent concomitant debridement. The findings include decreases in the visual analog scale (VAS) pain score and increases in the Constant score were found to be significantly more following debridement [\u20130.7 points (p < 0.001) and \u00b15.5 points (p < 0.001), respectively], although the Patient Acceptable Symptom State (PASS) for the VAS was not attained after either procedure. Both SAB placement and debridement significantly improved the range of motion (ROM) in forward flexion/forward elevation, internal and external rotation, and abduction (p < 0.001). Rates of general complication were greater following debridement versus SAB placement (5.2% \u00b15.6% vs. 3.5% \u00b16.3%, respectively; p < 0.001); however, there were no significant variances among SAB placement and debridement in rates of persistent symptoms necessitating a reintervention (3.3% \u00b16.2% vs 3.8% \u00b17.3%, respectively; p = 0.252) or reoperation rates (5.1% \u00b17.6% vs 4.8% \u00b18.4%, respectively; p = 0.552). The mean time to conversion to reverse total shoulder arthroplasty (RTSA) was 11.0 versus 25.4 months, respectively, for the SAB versus debridement arm. The limitations of the analysis include inconsistencies between follow-up times, with the follow-up time associated with debridement being nearly twice as long as the follow-up time related to SAB placement, are likely attributable to the recentness of SAB use globally, which may confuse evaluations with older debridement literature given the evolution in arthroscopic surgery over time. The time to reverse total shoulder arthroplasty was not uniformly reported between studies and was decided based on either individual patient data or weighted means. Also, there was heterogeneity in using and reporting rotator cuff tears size and type, further obscuring direct comparisons. The authors concluded that while SAB placement was associated with adequate postoperative outcomes for treating MIRCTs, there was no clear advantage over debridement only. Shorter operative times combined with better postoperative results and prolonged times to conversion to reverse total shoulder arthroplasty supported debridement as a more desirable choice. While there may be a role for SAB placement in poor surgical candidates, there is promising evidence to support debridement alone with no SAB placement for treating MIRCTs (Level IV evidence). In a 2024 systematic review and meta-analysis, Sirignano et al. sought to determine the efficacy of the subacromial balloon spacer implantation (SBSI) from both surgical and rehabilitative perspectives to improve outcomes for individuals with massive rotator cuff tear. To effectively evaluate the results of the literature, the authors assessed pre \u2010surgery (baseline), 12\u2010month (12\u2010m), and 24\u2010month (24\u2010m) post\u2010SBSI mean changes and compared them using one\u2010way analysis of variance (ANOVA) and Scheffe post hoc tests and compa",
+        "text_truncated": true
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_330727",
+      "args": {
+       "query": "UnitedHealthcare InterQual Joint Replacement Shoulder criteria"
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\x86\\t\\n\\x83\\t\\x01i\\x14}\\x13\\xeb\\x11\\x08\\x81\\xcf61P^1\\xd7\\x0f>F\\x84s\\x1d\\x13\\xeaW\\x10\\x174\\xe4z\\xb7\\x12\\xbf\\x15\\x01a\\xa5\\x89\\xf6\\xa9E\\x17\\x99X\\xba\\xcaL{\\x1e\\x08W\\xc8\\x9a\\x9dv\\xe5\\xfa\\xe0\\x00\\xd9\\x8f\\x15\\xe0\\x86\\x99\\xea\\xb6\\x8f\\xadD\\xc3\\x89\\xdc\\xd5`<\\xe9q\\xa4C\\x8b\\xceh\\xcd\\xc5\\xee\\xd6\\xbdtJr\\xad\\x9e\\xa0\\x93\\xc0\\x83\\x9d\\x93\\x9f\\x88jfY\\x9e\\x97\\x80\\xa1-<8\\xcc\\x90\\xdd\\x9d?\\xd9\\ns#\\xa2/\\xce\\xfd`1\\xa3C\\xdc\\x86S\\x93\\xa3#:\\xc8\\x87:@W\\x9fr\\xb0\\xe0\\xdbN[\\xfbJYT\\xfaY]\\xdae5\\xdco&\\xde\\xba&\\xb6\\xa00\\x81XeX\\xcc\\xdf\\xb1?\\xb1\\x8c#v\\xbf\\xf20\\x0e]\\xd0]\\xfb\\xc1K\\xb8#\\xd0}\\x119F\\x88+\\xbbh\\xf8\\xef\\xbch\\xc7\\xa2\\xd7b\\x8aj\\x11\\x03\\\\&\\x8dH\\x07\\xac\\x8f[\\x82\\xe3WsH{\\xde\\x89\\xcd\\xdb\\x83\\x08\\xf9\\x91\\x0f\\xb1\\xe4\\xedM\\xbf\\xd8\\x1e\\xea\\xf8\\xc8gn\\xd1\\xb0W\\xbdj\\xcb\\xbe\\xa5rk\\xdd\\x92\\xa8\\x1c~\\xf6U\\x1a~\\xed\\xca\\xfc\\xfc\\xab2T\\xf2I\\xef\\x85\\xd4\\x9cO\\x06\\xa4\\x80\\xe8\\xd2\\xca\\xe0\\x13*M\\xc5J\\xa6\\xe0\\x99\\xb9\\x08\\x0c\\xdb\\xae\\xc0K\\x97q\\xcdcw\\xe99s\\xc7-X\\nL\\xdb\\x1c\\x18\\xdc\\xe6\\xda\\xbb<\\x89\\xab\\xc2(\\x9bC\\xda\\x1f\\x7f\\xa3\\xad\\x81n4\\x8f\\xf1im\\xded\\x05\\x03i\\xdd\\xb6 \\xbf\\xd8v:\\xea\\xea8\\xa5Z\\xc65\\x1a\\\\\\x94\\xfd\\xfd\\xab\\xed\\xdbk\\xe9\\x90\\xaa\\x07\\xa4\\xd2\\x96m\\xf3\\x8dS)`\\xdc,\\x91\\xba\\xc79\\xe82\\xa1P\\x13\\n\\x88\\x1a\\x85\\x8c\\xa6\\r\\xa5`i\\xf9\\x06a\\x05\\x8e.P\\xd2B\\xda<\\xbe\\xfdk\\xe9V$Lz\\x96\\xa4\\x88*\\xb3\\x83\\x1dzC%\\xb9\\x08\\xea\\xc4\\xf9\\xd27\\\\\\xe1\\x8bk u\\x03\\x11\\xbb~\\x9f\\xd6\\xeb\\'\\x91\\x99\\x936\\xb1\\xb0\\xc7\\xcem\\rp\\xf3\\xda\\xca\\xb99VU\\xc5j\\xf5N\\xe8\\xb5#w\\\\\\x9b~\\x81\\xf1h\\x80C\\x00L+E\\x03\\xff\\xc7\\xa2\\x87\\xf3\\xe3\\xae\\x86\\xc1\\x16\\xba\\x1a\\xa1PL\\xb7w\\xea6\\x1b\\x96\\xa3\\x0f]y5\\x15]\\xc0b\\xb9\\xdb\\x8c\\xdf+iiz\\n&CB\\x90\\x8f\\x1d\\xcd\\r\\x0c\\xe9\\xfb|\\xb4\\xba\\xad- \\xdd+$&\\x91\\xf4\\x80\\xbb(qd\\x91\\xe4\\xe8\\xd6\\xa4A\\xd7\\xe0\\x9b\\x15Vi^\\x1bi\\x8c\\xf8\\xeemy\\xc1\\xd3\\xd4\\xda\\xe39\\x92\\xa3\\xc39\\x8aK\\x97\\xdb4\\xee\\xa2\\xd7,\\x99\\x89\\xefU\\xd2\\xd0\\xe9\\x89n0u\\x8e\\x13\\xee\\xe7\\x12\\xa1\\xed\\x82\\xedwLW\\xd3dO\\xe2\\xc6]>\\x02.\\x02\\xfb\\x0b\\xbbLJ\\x18\\xd4\\xbc\\xa1\\xe79\\x1c\\x13#XE\"\\xb99\\x1c\\x84\\xc1\\xf4\\xcb;\\x9d\\xa4hg\\xd0M\\xf12\\x9e\\xc2\\xba\\xb6\\xb1\\xfb\\x04\\xba\\xc42\\x86\\x81Z\\xdf\\x16\\xcaA.\\xc1\\xb2\\xac{\\xc6\\xc1.5\\x81\\xc7\\x1e\\xde\\xe9\\x17\\xebH\\xb0\\xfc\\xc44\\x90\\xfap\\x8d\\xf40|m\\xdcE\\xd8S7P4\\xff&xH\\x19\\x95\\x9b\\xact\\xd0\\xfa\\'\\x97L\\xdb\\xf2QW\\x9f\\xaeF\\xa9\\xab\\x96\\xa3\\xff\\xc9\\xd1\\xf6\\x1b\\xe1\\xaf-\\x14U\\xff^\\xcf\\xd6\\xf5q\\xd5i4\\xa8\\xb7\\xbf5D%KU\\x1f\\xf6\\xf8\\xc0z^\\x12S\\xa2\\xfaZ\\x97\\xdf\\x8f8\\x96\\x05b\\xa4m\\xa9\\x9cX\\xb6\\xae\\x04\\x9co\\xed\\x9d\\x16\\xcd`\\x06\\x8d?\\xc3\\xbd\\xb0\\xf3uuG\\x9eQ\\xd1r\\xc33\\x90*e\\x89\\xba\\xe3Y\\xd3\\x13\\x00\\xcb\\xce\\x0e\\xb8L\\xf2\\xaf\\x82\\xb8y\\xc1w\\x98\\xdf\\xad\\x9c\\x87P\\x91\\xd2\\x93\\xb9\\xab\\xd8\\x8d\\xb3\\x9dJ\\xc4E6\\x1e\\xe8m%\\xc9i\\xc1\\xeaaD\\xd5\\xda\\xa8\\xca\\xc0v7q\\xf6~eE\\x8dhL\\xca2\\xfa\\x9ed\\xe4\\x1e\\xdc=\\xc1l\\x0f\\x81{\\xa2\\xfb}\\xd9\\x18M\\xad\\x16l\\x01\\xf43\\x9f\\xf3\\xbe\\xe8\\x84\\xb7\\xc3f\\xf3\\x81|\\x92\\x04R\\xf3\"\\xf8y \\xe2\\xe6\\xc4\\xfc\\xed\\xc6\\xbdrmF\\xc0\\xa8\\xeb\\x03\\x9f\"K\"R\\xcdr\\xd3j@/\\xe6\\xe9\\x15AC\\xcc~L\\x7f\\r3\\xa7e\\xc2\\xaa`7e\\xe2\\xe9\\xcd\\x0bW\\x81y\\xac>\\xda\\xdb\\xe4a\\xf9E\\xc4!\\x1f*5W\\x932Y\\x16\\'\\xde\\x86@\\x17a\\x98\\xe2_\\xe1\\xfd\\xa5\\xa4\\x97f\\x81P\\xe5\\x93H\\xa6\\x8c/s\\xbe\\x9c\\xc6\\x94\\xa1\\x04\\x19\\xbe9\\x96\\\\t5\\xf5\\x7f\\xc9\\xd3-\\x13`|\\x1e\\xca\\xa1q\\x01i:\\x8b\\x99\\xc7\\'\\x86\\xeaK\\xc8\\x1aE\\xe3\\xea\\x84\\xb3\\xd1\\xd0\\xcb/\\xbc`%$8\\x8b\\x92\\xd4&\\xdc9\\xcd\\x11\\xba\\x18\\xee\\xf4\\xe1\\xd7\\n\\xa1V\\x80\\x87-\\xac\\x10\\xc75UU\\xdb/\\xd1\\xf5\\x88\\xcd \\x06M\\x15\\xc9\\x153\\xc5\\xb7\\xa8\\xef\\xab\\xd7\\xe1#\\xbc\\xeadi\\xdd\\x0c\\xfc{\\xce\\x89\\xe5\\x98?&n\\xb4p\\x80\\xf4\\x17\\x91\\xdc\"\\x03\\xf4V\\x94\\xbb\\xec\\xabB\\x8b\\xe1\\x07\\xea~\\xef'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "UnitedHealthcare InterQual Joint Replacement Shoulder criteria",
+        "results": [
+         {
+          "title": "Shoulder Replacement Surgery (Arthroplasty)",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/8.17.21/378_UHC_CS109LA.N_surgery_of_the_shoulder.pdf",
+          "snippet": "InterQual\u00ae 2021, Apr. 2021 Release, CP: Procedures, Joint Replacement, Shoulder \u00b7 InterQual\u00ae Client Defined 2020, CP: Procedures, Arthroplasty, Removal or Revision, ... Click here to view the InterQual\u00ae criteria. ... UnitedHealthcare, Inc."
+         },
+         {
+          "title": "Surgery of the Shoulder \u2013 Commercial and Individual ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-shoulder.pdf",
+          "snippet": "This Medical Policy applies to UnitedHealthcare Commercial benefit plans. ... This Medical Policy applies to Individual Exchange benefit plans. ... Surgery of the shoulder is proven and medically necessary in certain circumstances. For medical necessity clinical ... Click here to view the InterQual\u00ae criteria..."
+         },
+         {
+          "title": "Surgery of the Shoulder \u2013 Community Plan Medical Policy",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/surgery-shoulder-cs.pdf",
+          "snippet": "Arthroscopy, Diagnostic, +/- Synovial Biopsy, Shoulder ... Click here to view the InterQual\u00ae criteria. Subacromial balloon spacers for the treatment of rotator cuff tears are unproven and not medically necessary ... Proprietary Information of UnitedHealthcare."
+         },
+         {
+          "title": "Joint Procedures \u2013 Medicare Advantage Medical Policy",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medadv-mp/joint-procedures.pdf",
+          "snippet": "For coverage guidelines, refer to the UnitedHealthcare Commercial Medical Policy titled Surgery of the Elbow. ... Medicare does not have an NCD for endoscopic cubital tunnel release, elbow. LCDs/LCAs do not exist. For coverage guidelines, refer to InterQual\u00ae CP: Procedures, Ulnar Nerve Decompression or Transposition, Elbow. Click here to view the InterQual\u00ae criteria. ... Medicare does not have an NCD for surgery of the shoulder..."
+         },
+         {
+          "title": "Surgery of the Shoulder (for Kentucky Only) Page 1 of 6",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/ky/surgery-shoulder-ky-cs.pdf",
+          "snippet": "Arthroscopy, Diagnostic, +/- Synovial Biopsy, Shoulder ... Click here to view the InterQual\u00ae criteria."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_262108",
+      "args": {
+       "query": "\"Click here to view the InterQual\" \"UnitedHealthcare\""
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\x9d\\x05\\n\\x9a\\x05\\x01i\\x14}\\x13o\\xd4\\x02\\xe0\\x83\\xb1\\tv\\xfe\\xb5\\xe2\\xd3\\xd6\\x12\\xd7\\x1b\\x82\\xaf\\x18_\\xeaU\\xbd\\xfaoL\\x989\"\\xfddR\\xf4M/5\\xd3\\x04\\x93\\x93V\\xed\\t\\ry\\xdb\\xb3\\xcf\\xa6\\xd7\\xce\\x88x\\xf0\"\\xcc\\xe6d%\\x83!\\x0e\\xfc;U\\xf1\\xff\\xb7\\xf7C\\xbd\\xef\\xfek\\x87I{\\xe2\\x9c\\xdb\\x13s\\x9c)\\x02\\xeeA\\x00\\x8f\\xc1\\xe2\\x88\\x0c\\xeb_\\xea(\\x19u\\xb9\\x8c]\\xc3\\x91*\\xd9\\xf9\\xef\\xbb\\xfd\\x82\\xf9\\xa8TH\\xe1Iz\\xf6\\x1a\\xb8y_5\\x94\\xf2\\x83H\\\\b\\x82\\x8f\\x13C\\x05\\xf1\\xa6\\xea\\x92\\x8c\\x142\\x0e\\xe9\\x8d\\\\\\xf3!PJ\\x9e\\xfd\\xae\\xd0Da\\x19\"\\x01F(D\\x97/\\xd2@\\x04\\xfa\\x17\\x8c\\x99\\x88Mq\\xc6\\x04B<o\\x91j\\x84\\xb3fwA\\x02\\x123\\xaf\\xf2\\x81\\xeak\\xde\\x88\"\\x85-\\xa6\\x1c!\\xb6\\xf2\\x9f\\xfbB<\\x98\\xd8\\xab+/\\t|M\\xb3\\x98\\x93\\xcf8\\xab\\xdaJ7>.\\x19\\x1e\\xb6\\x80.\\x97\\xf5\\xa1\\xfcZ\\xb2@\\xf1\\x93E\\x1b\\x119\\xb2N6(\\x01\\x11\\\\\\xbe\\xa3\\x83\\x9cR\\xbfn\\xfe\\x05\\x81!\\xa7\\x1a\\x19\\xa6Z*A\\x08s\\x00\\xd0\\xe7]\\xdc=/\\xfd\\x1c\\x06\\xa7\\x81{Grh\\xa6#\\x9e@Z\\x81i\\x8e\\xd5(\\x97P3\\xc6\\x9c6#\\x10\\xed\\x84\\x14H\\xd5xd\\x1d\\xc1\\xe7\\xa440a\\\\\\xf9\\xefPhuyQP\\xc6\\x04K\\x1bp\\x1e\"\\x99\\xda\\xce!a\\xc5\\xa0\\xe5\\x9b\\xc0\\xf6\\x0f\\xb19B\\x10\\xcd\\x18n\\xc9\\xb6\\xd352P*\\x80\\xd4fr\\xe5$;\\xfa\\xd9\\x8a\\xd6X1\\xa9*\\xde\\xe7\\x9e\\xd5\\xddv\\xb2\\xa49\\xd8\\xb8\\xac\\x96\\x7f`\\x9e\\xc9:4\\xca\\x05<\\xc9!m\\xdb|\\xfa\\xe8\\xdd\\xa7\\xd9e\\xee9\\x997E\\xf5\\xff\\x8dA\\xfeo\\xe9g{1\\xa9\\xd2`\\x08\\x82\\xd0\\xce\\xb9\\x03\\xdd\\x88v\\xc9\\xe2\\xc0\\x18+ih1\\x82b\\xa8\\x19\\xec\\xaam\\x17\\xa6\\xc5\\xf1\\xa8\\x96\\x18(\\x8c\\xed\\t\\xb8\\xb0\\xd5\\x89\\xcdv\\xf6\\xd0)\"\\x02\\xd1\\xfb\\x89\\xa2\\xe9\\x17\\x98\\xa5\\x9eIW\\x86\\xf4\\x05\\x96\\x91\\x7f,5\\x06\\xfcX\\xfa\\x9f\\x82$\\xcd\\x1a\\xc4\\xe5\\xad]\\xbdq\\xda(\\xbe&\\xcbA\\x01\\x85w\\x95\\xee\\x1c\\x97\\xb5I\\x96S\\xb8\\xda8\\xe7^\\xa9\\xe1B\\xf9J\\x0c\\xdfpU\\xc5\\xa9\\x9e\\xfcq\\xf5>\\x93\\x99\\xf1w\\xd8\\xcd\\xadI\\x13K\\xc7\\xfe\\xccP\\x1f4}\\x7f\\xde9\\x14\\x87~\\x1f\\x12\\xd8\\n_\\xcaR\\x1e\\xb4\\xacp\\xa0\\xda\\x83!\\x04\\xdf\\x8b\\xcb\\x99\\xe5\\x99\\x0b\\x9cS\\xe5\\xee\\x85\\xab\\x8a\\xdc\\x9e\\xc9M\\xcb\\x8a\\xcf\\xa2\\xef\\x90\\x19e\\xcd9\\x0c\\x91r W\\xe0\\xcf\\t\\x9cp\\xf1\\xc3\\x92%^C\\x8e\\x16_~!\\xf54/~\\x16k\\xdb\\xdfW\\xdf\\xc7v\\x0b{\\xe4t\\xe9\\xe3\\x1aG\\xeaNFtw\\xc5\\xc8'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Click here to view the InterQual\" \"UnitedHealthcare\"",
+        "results": [
+         {
+          "title": "Hospital Services: Observation and Inpatient Page 1 of 2",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/hospital-services-observation-inpatient.pdf",
+          "snippet": "UnitedHealthcare uses InterQual\u00ae ... qualified health care provider and do not constitute the practice of medicine or medical advice. <strong>Click here to view the InterQual\u00ae criteria</strong>...."
+         },
+         {
+          "title": "Continuous Glucose Monitoring and Insulin Delivery for Managing Diabetes",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/continuous-glucose-monitoring-insulin-delivery-managing-diabetes-cs.pdf",
+          "snippet": "Copyright 2025 United HealthCare Services, Inc. necessary in certain circumstances. For medical necessity clinical coverage criteria, refer to the InterQual\u00ae CP: <strong>Durable Medical Equipment, Continuous Glucose Monitors, Insulin Pumps, and Automated Insulin Delivery Technology</strong>. Click here to ..."
+         },
+         {
+          "title": "Cochlear Implants \u2013 Commercial and Individual Exchange ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/cochlear-implants.pdf",
+          "snippet": "InterQual\u00ae CP: Procedures, Cochlear Implantation (Pediatric). Click here to view the InterQual\u00ae criteria."
+         },
+         {
+          "title": "Cochlear Implants Page 1 of 3 UnitedHealthcare Community Plan Medical Policy",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/cochlear-implants-cs.pdf",
+          "snippet": "Hearing Loss in adults ages 18 and older. For medical necessity clinical coverage criteria, refer to the InterQual\u00ae CP: Procedures, Cochlear Implantation. Click here to view the InterQual\u00ae criteria."
+         },
+         {
+          "title": "Spinal Fusion and Decompression Page 1 of 11",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/spinal-fusion-decompression.pdf",
+          "snippet": "This Medical Policy applies to UnitedHealthcare Commercial benefit plans. ... This Medical Policy applies to Individual Exchange benefit plans. ... Spinal procedures for the treatment of spine pain are proven and medically necessary in certain circumstances. For medical necessity clinical coverage criteria, refer to the InterQual\u00ae CP: Procedures: ... Click here to view the InterQual\u00ae criteria."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_299172",
+      "args": {
+       "query": "\"Joint Replacement, Shoulder\" InterQual clinical criteria"
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\xee\\x05\\n\\xeb\\x05\\x01i\\x14}\\x13\\x1elI\\xdd\\xb9r=u\\x0e\\x14\\xc4D#\\x00 \\xb7\\xfb\\xe7/\\x01\\xb2B\\x12\\xd1j\\t\\x94\\x91A]\\x89\\xd0d\\xb3\\xfe\\x19\\x8b\\x08\\xf6\\xf0\\xf5B\\x0c\\x01?gj\\xf0\\x1cGc\\x83irmj\\xad\\x8d\\xc0\\xa7\\xaf\\x82\\x12y<DS\\x85\\x1aa\\xdd\\t\\x9b2\\x8b\\x0fY\\xa9\\xf8\"\\x0f\\x0c\\x1b\\x14\\xdb\\xea-S\\xbd\\x15\\xc5\\xc2\\xdd)\\x8e\\xb5^vH\\x13\\x08\\x81A\\xa0\\x1f\\x0b\\x9bepL\\xeb\\x1e{\\xf7Y\\x02\\x97\\xdf\\xcc\\x07R\\x85\\xd9\\x98\\x87\\xe8c\\x8d&\\xbc\\xa9\\x07\\xf3\\x1e\\x8b\\x7f\\xdd\\xd0\\xa8\\x91\\x11\\x1c&\\xde\\x83\\xb31\\x14\\xbb\\xf2\\xb0\\xc1\\xdeJ;%\\xa1J\\x81:\\xc3\\xd2\\xa8p(>\\xf7\\x92\\xd2j\\xa8G\\x9b\\xb4\\xde\\xc4zy|F\\xf9e~v\\xac\\xe8\\xe8\\xf2\\xe2\\xad\\xa4\\x80:\\xc8\\x97`\\x91\\xd8\\x84\\x14\\x1b\\xe8\\xd3a5\"%\\xa4\\xd8\\xbe\\x00e\\xf5M@\\xc1\\xa3\\xd9\\x10\\xbf\\x9f\\xac\\xf0X\\x8e\\x8f\\r\\x99\\xf8\\xd3\\x983o\\xc3\\xc54yv/\\xd2\\x80\\xaf\\x92\\x86\\xdeb\\xf6\\xf0\\x8b\\xcb\\xca\\xce\\xcb-]\\xcd\\xf7P\\xd8]F\\xc1\\xb5\\x00\\xd5\\xe7\\xfaAs\\xf9\\x8f-\\xe3\\xb1\\x02\\xed\\xc8\\xba\\xc0\\xee\\xfb:E\\xed\\xd3(!\\x91\\x18\\x87J\\xabRsP\\xdc\\x8c\\xb1\\xd1n\\xb5\\xb6V\\x8bp^\\x00\\xaa\\x07\\x149\\x93\\x8f\\xfc\\x11\\xa1\\x06\\xe4/f\\xfc\\x7f\\x81\\xc2B\\xd0\\x0b\\xdd\\x81jA*\\xfdl\\x9fo(\\x9f|\\xac\\x88\\x03\\x0e\\x00\\'\\xe7\\xc0u\\x97\\xe1\\xf9e8\\xb0\\xbe\\xa5\\rX\\x11G\\xbc;\\x9f\\x91\\x89y\\xce\"\\xbc\\xb7\\xb70\\xf7I\\xb2\\x0ey\\xf8\\xbc\\x83\\x16\\xc0~\\x93d\\n\\x8d\\x86\"\\x9bF,+\\xce\\xfdwZ\\xbd\\xf2\\xd7A\\xbeK@\\x81\\x0e \\xf2\\x91\\xd8\\xd9\\x97\\xcc\\x0b\\xa8Y\\xf4\\xaf<\\x87^u\\xcb~\\x8dL\\xa6l\\xce\\xf7\\x9a\\xfb\\xeaU\\x9d\\xaf\\x1dM9\\xf5\\xc5\\xac\\x91k\\x1e\\x0et\\x80tY\\x00\\xcbu\\xee\\xb1H.\\x065\\xacs\\xf3\\x19\\x7f\\xdd\\xdb\\xbb\\x10\\xcd\\x95X\\xac#L\\xf8\\xa4\\x9c\\x0e\\xe6\\xf1\\'\\xddK?\\xe3x)Z\\xd7\\x85s\\xdc\\xb5y\\x10\\x13K\\xf7)\\x8b\\x11\\t\\xf1.\\x88R\\xcd\\x11\\r\\x8b4\\xa6\\xda\\x0f\\x8ajQSH\\x1c,UP\\x93V5\\x90\\x14\\xe6\\xf9\\x1f\\x14\\x13\\x02\\xb55o\\x94\\xc5\\x9a.\\x9e\\xb9\\xb7,S\\x8a=Bu\\xac\\xfd3@\\xa1\\xe4\\xcc\\xfb\\xec\\xcf\\x0c\\x91w\\xed\\x84\\xc7\\x18\\x87\\xb1e7\\xbf\\xc5G\\x00\\xcd\\xeeUzN\\x01\\xcb\\x0b\\xde\\x8d\\x06K\\xec{)\\x9f\\xd6\\xa52\\x0cr\\x11GM\\x1e\\xfd\\xe5b\\xf3\\xc7\\x04{\\xc1\\xc9\\xe7\\x18q\\xde\\xdf \\xd9{\\xc7\\xefG\\x14\\xf8\\x12s\\xceS\\x83?\\x8a\\xfc\\x8e\\xe7/\\x06\\x80\\x8d\\xa3\\xda\\xb7\\x9c\\x12}\\x15\\xd14\\xd6\\x16~z1U\\xe39\\x87\\t\\xa9\"\\xf6\\x7fbn7\\xb5\\xca\\x9d;\\xcf\\x1e?@\\xbeHf\\xfc\\xe1\\xd0\\x11\\\\\\x1fM\\xf8\\x7f\\x8c\\xe9P\\xf6~\\n\\xe0\\xa1hi\\xf2YY\\xe4\\xee\\x0e\\xeb2\\xda\\x18n\\x9aw\\xda\\xdb\\x15\\x05\\x04\\xf8\\xd37\\xf7\\x8eq=AV-\\xb3$\\xa8\\xae\\xf9JGV\\x01\\xc0G\\xf4\\x97\\xab\\xed\\xf84)`\\xbe\\xf2\\xa2'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Joint Replacement, Shoulder\" InterQual clinical criteria",
+        "results": [
+         {
+          "title": "Joint replacement, shoulder, for adults : Authorization criteria",
+          "url": "https://ereferrals.bcbsm.com/docs/bcn/bcn-criteria-shoulderjoint-replace-surg.pdf",
+          "snippet": "<strong>Clinical review is required for adult members (age \u226518)</strong>."
+         },
+         {
+          "title": "Shoulder Replacement Surgery (Arthroplasty)",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/8.17.21/378_UHC_CS109LA.N_surgery_of_the_shoulder.pdf",
+          "snippet": "Surgery of the shoulder is proven and medically necessary in certain circumstances. For \u00b7 medical necessity clinical coverage criteria, refer to the: InterQual\u00ae 2020, Apr.July 20201 Release, CP: Procedures: ... InterQual\u00ae 2021, Apr. 2021 Release, CP: Procedures, Joint Replacement, Shoulder"
+         }
+        ],
+        "result_count": 2,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_271897",
+      "args": {
+       "url": "https://ereferrals.bcbsm.com/docs/bcn/bcn-criteria-shoulderjoint-replace-surg.pdf"
+      },
+      "name": "http_fetch",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\xf5\\x02\\n\\xf2\\x02\\x01i\\x14}\\x13M\\xd3\\xb7\\x9e\\x1c\\xd2\\xfe.\\xb5;\\xdaD\\x12t@n\\xef\\x9e\\t\\x9a\\xdb\\x0b\\xcaNk\\x0bO3\\xad\\xf33\\xf6\\xf41\\xdc\\xeeFl\\x1a\\xf8\\xa3\\xb7\\xbc\\x19\\xfb#d\\x91o\\x98\\xb0\\xa7Str\\xb2\\xc3\\x1cs\\xc3\\x0c\\x92\\xc40jMl\\x1d\\xb2\\xe7\\xefwT\\x80p\\x90\\xc3%,hN\\xf4\\x10\\xa13\\x0fS\\x8f\\xa1UM\\xa0k\\x04\\x86,ZO\\x82\\xdd$\\xac\\x84\\xb8\\x9d\\x18\\x80\\xef\\xdb\\x89L\\xd9\\x9f\\xb7sh(\\x97m\\xf9\\x80\\x04\\xca\\x001\\x80\\xec\\xa4 OOw\\xfex\\n\\xe8-a\\xf4g\\x15s\\x85\\xe3\\xefA\\xaczo\\xd6\\xa5-\\xfd8\\xd0\\xe8r\\xb3\\xad\\xe8N\\xd0\\x8b\\xf4\\x86\\xf9\\x0c\\x04\\xc7\\xd4\\x8aog%!\\x82v\\x04\\xd0\\xb6\\xc1Y\\xc5\\xd2%\\xa6\\\\p#p\\xf70\\x06\\n\\x05\\xfd\\xb0\\x08\\xb9QH\\xea!x\\x92\\xa8\\xfe\\xb2\\xb5\\xcdZ\\xec\\xf1\\xbd\\x82\\rHb\\xbc:tg\\xdc\\x96\\x89\\xb6<d^\\xd2\\xfd\\xc4\\x8dE\\x86:\\xde\\xb9\\xf4\\xf4\\x15A\\xe5{\\x11\\x0eS\\n\\x08\\xae\\xe6D\\xdbi\\x02S\\xb9-\\xb5\\xca\\x02O\\x97\\x9aI\\xae\\xf4\\x91\\xb8\\x88\\xf8\\x11\\x91\\xc1\\xe0\\x97\\xa9\\xf0\\tV7\\xedt\\x13\\xfc\\xa4\\xbc\\xb5\\xe7\\x7fp\\xb2\\xc3\\xc0R\\x17\\x8a\\xd0\\x93.%\\xe5i\\x1d-\\xb9\\x92t\\xb5\\xe2LB\\xb0\\xaf\\xc5\\x83~\\xe3\\xadYvq\\xc0\\xb1\\xdf\\xe7\\xfbG\\xa6\\x9e>?\\xc6s\\x7fR\\r;\\x95\\xb7\\\\\\x9f@,%I\\x84\\xc0\\x9d\\xae\\xce\\xa6\\xc51\\xfb\\xfa@\\xab\\xb2\\xa8:\\x08\\x88\\xf0\\xe4'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://ereferrals.bcbsm.com/docs/bcn/bcn-criteria-shoulderjoint-replace-surg.pdf",
+        "final_url": "https://authorizations.bcbsm.com/index.shtml%20",
+        "http_status": 404,
+        "content_type": null,
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "",
+        "text_truncated": false
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_260917",
+      "args": {
+       "query": "\"Joint Replacement, Shoulder\" \"InterQual\" criteria"
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b\"\\x12\\xd0\\x01\\n\\xcd\\x01\\x01i\\x14}\\x13\\xc8~\\xedkK7\\x08hk\\x0boP\\xfc\\n\\x07%^\\xfb\\x87\\xe7-\\x96\\xf3=\\xfc\\xa0V\\x18\\x87k\\xdd\\x84Me&\\x9c\\xac\\x16\\xae\\xe8\\x1c\\x86f\\xb3N4I\\xb1\\xb6\\xb9\\xd2<\\xa1\\x84\\xfd\\xd2\\xf3\\x0c\\x1e\\xc5\\x04%\\xc7^\\x0b\\x8c\\xd5@\\nd\\x89\\xdc\\xf0\\x13<\\xdef\\xea\\x104\\x1c'\\xbc\\xc3\\xe9\\xd0Ly\\x89s=B\\x98\\x17Co\\xd0\\xb4P\\xf6\\x14\\x15]C>\\xdd\\xd0t\\xde\\x80WX\\x9d\\xc5\\xce\\x98\\x81\\xa7*\\xd6E?\\xd7\\xa8'9^\\x97\\xb8\\xca\\xa2\\x84]3\\xff[d\\x8a\\x8c*@\\xe5x\\xc9\\x89\\xa8k\\xc6\\xc4\\x9b\\xf4\\x02\\xdb\\x8c\\xeeO?\\xcd\\xf4\\x96\\xb3\\\\\\x17\\xf4wh*N\\x98 \\xe4\\xa4/k\\xc3 \\xf5\\xb6\\xab\\xbf\\xb2\\xa4\\x17\\xd4\\xfe\\xdb\\xd2\\x97\\x82\\xa6\\x9a\\xe1@E\\xbb\\xc1n\\xa6\\xd7\\xe0\"",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Joint Replacement, Shoulder\" \"InterQual\" criteria",
+        "results": [
+         {
+          "title": "Joint replacement, shoulder, for adults : Authorization criteria",
+          "url": "https://ereferrals.bcbsm.com/docs/bcn/bcn-criteria-shoulderjoint-replace-surg.pdf",
+          "snippet": "Clinical review is required for adult members (age \u226518). The medical necessity criteria are outlined below."
+         },
+         {
+          "title": "Total Shoulder Arthroplasty",
+          "url": "https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp430.pdf?rev=5674f3c704f044b78fabe88489cd73b8&hash=DEC268794C2514770173CB3569AFBF22",
+          "snippet": "B. At least two of the following criteria are met (1.-4.): 1. Pain interferes with activities of daily living (ADLs); or \u00b7 2. Pain is increased with initiation of activity; or ... C. Either of the following are met (1.-2.) ... D. Imaging documents at least two of the following (1.-6.): ... E. The patient has failed conservative treatment within the past year, including all of ... III. Initial shoulder joint replacement is considered not medically necessary when criteria I."
+         },
+         {
+          "title": "Surgery of the Shoulder \u2013 Commercial and Individual ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-shoulder.pdf",
+          "snippet": "coverage criteria, refer to the: \u2022 \u00b7 InterQual\u00ae CP: Procedures: o \u00b7 Arthroscopy or Arthroscopically Assisted Surgery, Shoulder \u00b7 o \u00b7 Arthroscopy or Arthroscopically Assisted Surgery, Shoulder (Adolescent) o \u00b7 Arthroscopy, Diagnostic, +/- Synovial Biopsy, Shoulder \u00b7 o \u00b7 Joint Replacement, Shoulder \u00b7"
+         },
+         {
+          "title": "Shoulder Replacement Surgery (Arthroplasty)",
+          "url": "https://ldh.la.gov/assets/medicaid/MCPP/8.17.21/378_UHC_CS109LA.N_surgery_of_the_shoulder.pdf",
+          "snippet": "Surgery of the shoulder is proven and medically necessary in certain circumstances. For \u00b7 medical necessity clinical coverage criteria, refer to the: InterQual\u00ae 2020, Apr.July 20201 Release, CP: Procedures: ... InterQual\u00ae 2021, Apr. 2021 Release, CP: Procedures, Joint Replacement, Shoulder"
+         },
+         {
+          "title": "Surgery of the Shoulder \u2013 Community Plan Medical Policy",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/surgery-shoulder-cs.pdf",
+          "snippet": "coverage criteria, refer to the InterQual\u00ae CP: Procedures: Arthroscopy or Arthroscopically Assisted Surgery, Shoulder \u00b7 Arthroscopy or Arthroscopically Assisted Surgery, Shoulder (Adolescent) Arthroscopy, Diagnostic, +/- Synovial Biopsy, Shoulder \u00b7 Joint Replacement, Shoulder \u00b7"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_379005",
+      "args": {
+       "query": "\"Joint Replacement, Shoulder\" InterQual conservative management"
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\x86\\x03\\n\\x83\\x03\\x01i\\x14}\\x13\\xe2c\\x0c\\xa5\\xe7\\xd2\\xcbh\\x960\\xaf\\x01\\x91\\xf5\")DY\\x12\\x7f\\xa3!\\x1b\\x0e\\xa2k\\xf9\\xeaQ;\\xcfdVpk\\x8a\\xf2\\xb7\\x9f\\xa0\\xc7ri\\xa0\\x17\\x8d}k \\x8cT\\xa7VW\\x85/#\\xc4\\xfa\\'\\xf6t1I\\xe8\\xed,\\x02\\xb9hZ@$\\xe3\\xfc\\x05\\xec\\xe6\\n\\xaaL\\xa8\\xe9\\x1a\\xb3\\x9a\\x9e\\xd7\\x19\\x137\\x93\\x93\\xc5[\\xd5\\x02\\x9d\\xcc\\x02\\n|\\xcc3~\\xebP:\\x0f\\x97\\xe4\\xa8)|\\x98\\xf7\\xc0\\xed\\xe9\\xc8`TP\\xff\\xae\\x1clXz\\x04N\\xa0\\x85w\\xdf\\x83s\\xaa1\\xbd#\\xba\\xcc.@\\xee|\\xc6\\xf4\\xe1\\xe5\\xa5p\\xd3\\xc4\\xec/\\xc14\\xfec\\xfd\\x0b\\xa7\\xac\\x0c\\x14\\xe1\\xbfQ\\xf9Z\\xee1\\xd6XFhf\\x16\\xab\\xdf\\xa3\\x1c\\x14{\\xcch<\\x86\\xf0j\\xb8HS\\xe2\\xaa\\xc8\\x08\\xe9a\\x9e\\xcb\\x9d\\xee\\xbe,\\xd5\\x92\\x98w\\xe6\\xe1)\\xe0\\x1e\\xb0\\xa8\\xbb\\x05@\\xd65/^\\xf7e\\x89k\\xc5P\\xaa7e\\x01=A=\\xb4\\x02VD\\x1e~l\\x14\\x99\\xad\\xc1\\xf4\\xd6O2\\xbfx\\x0f\\xccwpM\\xe2g=\\xdd\\xaf\\xef\\x07\\xf7\\x1f\\xbbg\\xc6\\xedQ\\xd2\\xcc%c\\xc9\\xb5\\xbe\\xd9\\x16h\\xed\\xc8\\xcc,\\xdfx{#\\xd5\\xe7\\x81w\\xe5\\xb7\\x90\\xd6^\\xe5\\x12r\\xc5\\xb4\\xdf\\x0f\\xfe\\xac-(\\xee\\x8d\\xf3\\xfdg_I\\xaaB\\\\\\xab,\\xf9|\\xa2\\x95\\xebz\\xcc6xC\\xf5\\xd1s\\xb0r\\xce\\x1a\\xeb\\xff\\xbeq\\x08\\n\\xaf\\xe6\\xe0\\xee?;\\x9e\\xae\\x14\\x0bq?*\\x90\\xd2\\xe9\\xe0\\xa7u\\xeeL\\xbf\\xde\\x01\\x7f\\xef\\xb8\\x99\\xf1\\xdeh\\x90^\\xcb\\xc3'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Joint Replacement, Shoulder\" InterQual conservative management",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_291831",
+      "args": {
+       "query": "\"Joint Replacement, Shoulder\" \"InterQual\""
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b\"\\x12\\xda\\x02\\n\\xd7\\x02\\x01i\\x14}\\x13\\xbbk\\xcb\\x9f\\xa2K\\x94\\xc5\\xcbj\\xf1\\xe3,\\xbd\\xd7\\xe1\\x0e\\xce\\x9e\\xbd9]\\xe6i\\x88_\\x16\\x04Ng(\\x88\\xd50\\xb9\\nE*\\xcc\\x9e\\x1a\\x16\\xc0\\xdc\\x01\\xd4-<\\x03\\x18\\xc5\\x08!\\xd5\\x8c\\xf3\\xb5{5\\xf7\\n\\xddc\\x86\\x97\\xda\\x81\\x8a\\x12\\x87\\xce-\\x1b\\xad\\xd2\\xae\\xe5\\x87\\xa1\\xd2V\\xc0w\\xfaE\\xfa\\x08:\\x87\\xbe\\\\\\x8f'\\xd2r;l\\xbc\\xe4uc\\xab\\x87\\x05\\xefv\\xa9\\xff\\xae\\xe02r-m\\x9c\\xa8\\xb4\\xca\\x1ccG\\xc7\\x7f1F\\x17\\xea\\x08\\xc7\\xe9\\x8f\\x8eZ\\xc9>\\xabR\\xbc\\xee\\x19\\x18>\\xba\\xc0\\x93\\x92\\xde\\xd5\\xe7\\x13\\xea\\xaf\\x15\\n@\\x9e\\x03\\x1c\\x96.\\x9b\\xec\\x92I\\xca\\xce\\xd7\\x83\\x13!%\\xe2e\\x0f\\xe7A\\xdelh\\xdd\\xea\\xbc,\\xf8\\xc8yTE3\\xc1\\x8aq\\x14\\x16\\x95\\xe3\\x96P\\xf5\\xf0\\x80\\xac2\\xb2\\x8e\\xd2\\x04@4m\\xce\\xe9\\xf9\\x9dGXx\\x91\\x05\\xfc\\xda\\xef\\x983\\x8ae\\x98\\r\\x9f\\x0c}\\xb2\\xa57m8)\\xd1\\x7f\\xaf\\x8c\\xfcP\\x96\\xef@\\x1eS\\xf9|\\xbcY\\x1d\\xd1\\xf41k\\x98^\\x9e\\xdf\\xe7\\xa5\\xc3b\\xab\\x11\\xdd?\\xbcS$\\xcc\\x053\\xcb\\xb2\\xd9a\\x9a\\r\\x1bd\\xec^\\xdc\\x98\\xf0m\\xd6C\\xb4\\x06>\\x87\\xd6:\\xa6\\xe8h\\xf9I_\\x18y\\x8f\\xbdG5nkg\\x8d2p\\x0f\\xd5c\\x00[-\\x94Y\\x12\\xad\\x13\\x87\\xb4B\\x88f\\r\\xdd\\xe33\\x03Gu\"",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Joint Replacement, Shoulder\" \"InterQual\"",
+        "results": [
+         {
+          "title": "Surgery of the Shoulder \u2013 Commercial and Individual ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-shoulder.pdf",
+          "snippet": "InterQual\u00ae CP: Procedures: o \u00b7 Arthroscopy or Arthroscopically Assisted Surgery, Shoulder \u00b7 o \u00b7 Arthroscopy or Arthroscopically Assisted Surgery, Shoulder (Adolescent) o \u00b7 Arthroscopy, Diagnostic, +/- Synovial Biopsy, Shoulder \u00b7 o \u00b7 Joint Replacement, Shoulder \u00b7"
+         },
+         {
+          "title": "Joint replacement, shoulder, for adults : Authorization criteria",
+          "url": "https://ereferrals.bcbsm.com/docs/bcn/bcn-criteria-shoulderjoint-replace-surg.pdf",
+          "snippet": "McKesson\u2019s InterQual\u00ae 2015 Procedures Adult Criteria, Joint Replacement, Shoulder"
+         }
+        ],
+        "result_count": 2,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_219752",
+      "args": {
+       "query": "InterQual \"Joint Replacement, Shoulder\""
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\x9a\\x04\\n\\x97\\x04\\x01i\\x14}\\x13\\xab3\\xb8\\x1d\\xf6\\xc4D\\x9c9\\x89z6\\x1fV\\xa6\\xca\\xcb\\x17;\\x8830\\xcb\\xe4P\\x1c\\xae\\xbe\\xa8\\x87\\xd0\\xed<\\x1d\\xe4\\xa5\\xc8\\x12s\\xe8\\xf0\\xf0\\xc8\\x04`\\x94N!\\x14\\x15\\x99a\\x1c\\x12\\x9c\\xcdn\\xdbi8\\xde.\\xddZ\\x9a\\xbd\\x93\\x19\\xf7\\xfa\\x07-uV\\xfdw;P\\xd6\\x1fP\\xf7\\x0c\\x97j\\xa2\\x15\\xb6q\\xc0\\x19\\xa6\\xe5\\x84O2\\x1f\\xa2o=M\\xa92d\\x1a:K\\x06\\xe0\\xb1\\xe4Z\\x08J\\xa0\\xd2-&\\xa1\\xd3\\xf0\\xe8\\x84\\xfbb\\xba\\xa8\\xd9A\\xdeb\\x12Ft\\x98h\\x8b\\x97r\\xa2\\x9e)\\xd2(\\x8f4\\x1d?\\xfd\\x98j\\xa2\\xf8\\xcb\\x1br\\xc5X\\x9bC\\xe2\\xc0\\xd5\\x0f\\xfb\\x9c?5\\xe3\\x9d+j\\xc6\\xe6[(\\xa0\\r\\x0el\\xcf}\\xc8\\xcf-0uR-\"\\x11K\\xa3\\x98kb)3V\\xa8\\xe9\\xa8\\xb0P<!\\x05\\xbfh\\x87\\xb1\\xa2\\x1c\\xd1\\x7f\\xebL\\x0b\\xc1\\x8e\\xa7dj\\xe0\\xae\\x977\\x9b\\xcd\\xe6a\\xb0\\xb4\\xae\\xff!0\\xc39\\x92\\xc8\\xeau\\xd7RNS\\xe7V\\n\\xa6\\x9a\\xb5\\x1eE_$\\\\< \\xeb\\x13\\x8c\\x1b\\x91q&v@x\\xa1\\xd74\\x03[\\n\\xf1n\\xc04\\xb3J^\\xe8\\xba(\\x97\\x1aBi\\xc4[\\xfa/\\xb4_d\\x9e\\x0c{\\xeaoQ\\x82\\xd8\\x07V\\xb4\\xe23A|\\x8a\\x8dw\\xc7?xTg&\\x87\\xc3\\x03\\xe3\\x07c\\x15\\x87=\\x04[\\xb8\\xe0x\\xf4\\x1a\\xc8j7\\x0b@=\\nu\\xa2\\x8b\\x85\\xb5\\xef\\x1c\\xafl\\xf9\\xc3b\\xac\\x07 \\x04\\xd9\\xd2\\x9bN\\xfd\\xb9E\\xb9\\x0f\\xba}\\xa3\\xc2\\x99~a\\x12x\\xaa`\\x18%`\\xef\\xbf|\\xb2\\xebd\\x8a5\\x11\\x8f\\xe8G\\x90\\xb2#\\xfa\\x8c[\\x0c\\xcd\\xce\\x8faN\\xd6G\\xac\\x1dj]!\\xd4(\\xdc[;\\x81\\xfc\\x01\\x11\\\\\\xd3\\xee\\x1fDO1Z\\xe2\\xae\\xfc\\x9a\\xe3\\xd9 t\\xbf\\x0eC\\xdb\\x9f\\xd2,\\xe2\\x88:\\xf8\\xe1nT\\xfa\\x81\\xa2\\x12\\xa8\\xbeM\\x9b\\xb5\\xf7 \\x88\\x90\\xb5\\x16\\xdc\\x84\\x8eJS\\xe8\\r\\xa8vmL\\xe9\\x99\\xe0\\xc7\\xe3\\x16\\xd3\\x89\\x003\\x06#\\xc1\\xe1T0j\\x00\\xa8\\xf9\\x15\\xfc,0\\xec\\xfc\\xc3$\\xc2\\x0c\\xb7\\x0e^\\xee\\xf1\\xef\\xc7\\x86\\xce\\xb9m\\x8fOi\\xcbx+\\xad\\xf2\\xc2Q'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "InterQual \"Joint Replacement, Shoulder\"",
+        "results": [
+         {
+          "title": "Surgery of the Shoulder \u2013 Commercial and Individual ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-shoulder.pdf",
+          "snippet": "InterQual\u00ae CP: Procedures: o \u00b7 Arthroscopy or Arthroscopically Assisted Surgery, Shoulder \u00b7 o \u00b7 Arthroscopy or Arthroscopically Assisted Surgery, Shoulder (Adolescent) o \u00b7 Arthroscopy, Diagnostic, +/- Synovial Biopsy, Shoulder \u00b7 o \u00b7 Joint Replacement, Shoulder \u00b7"
+         },
+         {
+          "title": "Surgery of the Shoulder \u2013 Community Plan Medical Policy",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/surgery-shoulder-cs.pdf",
+          "snippet": "InterQual\u00ae Client Defined, CP: Procedures, Revision, Total Joint Replacement (TJR), Shoulder (Custom) - UHG \u00b7 Surgery of the Shoulder \u00b7 Page 7 of 7 \u00b7 UnitedHealthcare Community Plan Medical Policy \u00b7 Effective 11/01/2025 \u00b7 Proprietary Information of UnitedHealthcare."
+         },
+         {
+          "title": "Joint replacement, shoulder, for adults : Authorization criteria",
+          "url": "https://ereferrals.bcbsm.com/docs/bcn/bcn-criteria-shoulderjoint-replace-surg.pdf",
+          "snippet": "McKesson\u2019s InterQual\u00ae 2015 Procedures Adult Criteria, Joint Replacement, Shoulder"
+         }
+        ],
+        "result_count": 3,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_274638",
+      "args": {
+       "query": "\"Joint Replacement, Shoulder\" site:uhcprovider.com"
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\xad\\x04\\n\\xaa\\x04\\x01i\\x14}\\x13\\x1d\\xb7\\xac \\x83W\\xf3L\\x83I\\x13\\xc0\\xe5\\nTL\\xc9\\xb0\\x97\\x98\\xa5\\x04\\xd0\\xe1\\x03\\xa5c\\xf8\\xbd\\xa5\\x99&\\x1e\\x8a\"_\\n\\xe4Y\\xe1i\\x89@#\\x8a\\xdfw\\xec\\xa4?\\x9d\\x89\\xb7\\x00I3%\\xf0U\\xaa*&\\x91R$\\xf1r&\\x0b&\\xcd\\x08\\rHR\\x076\\xe0V\\xb8\\xa3\\x10\\xbc&8\\xaeVv\\x94w\\xa4c\\x15\\xd4\\xeeZ\\xb9+\\x0b\\xc1vO\\x8a\\xbev\\xd9\\xcf\\xdfm\\xe9\\x0c_\\xd2O\\xc4\\xc5\\xf0\\x00\\x1b\\xef\\x06\\n=\\xca\\tI\\xc5x}\\xf4i2~\\xa7\\x8en?\\xd7\\x17\\x07\\xd3\\xc5\\x19\\xcb3\\\\7\\xde\\xb5\\x17Y\\x87\\x0bh\\xf0\\xb1\\xc2\\x87\\xd6\\t>*\"$\\x85\\xa7\\x92\\xed\\xc5\\xdfP\\xf6\\xef\\x08_\\x1e~\\xe2\\xf2\\x06nr\\xc1\\xd9\\x95\\x86\\xec\\xad\\x9b\\r\\xde`s\\xb8Sj#\\xd7\\xb6@\\xd8\\xf6N\\xe7\\xef|\\x13j\\xcd\\x8fr\\xc9\\xee\\xc1^\\xd9\\x8d#+j\\xc3\\xb5\\x0c\\xa55P\\xcf\\xdc\\x9c\\xf0\\xc1L\\x97a\\xa3\\x05W\\xf3\\xc2i\\xa7\\xb4\\xcf/\\xce\\x0b]\\xab\\x06\\x97\\xa3mq~m\\xae\\x13J\\xa8\\x97d7H\\xa1?\\\\6\\xf1\\xf3t?\\xa8\\xcb\\xa4\\xa3\\t^V\\x975\\xdc\\x97\\xad\\xd8[\\xd6\\xd9\\xed\\xd8a}\\xbe\\xac\\x9dN\\xfd\\xc2\\x94>\\xa0\\x80.\\xda\\xb1|\\xc1\\x18\\x00\\xc1\\xa3\\x8e\\xdb\\x1a\\xf09\\x83\\xcd\\x1e\\xf1\\xe8\\xcb\\' ft\\x17(\\x8b\\x935\\t\\xfa\\xf6\\xde\\xa8Y\\xf0f}\\x97[y\\x03\\xe0\\xfc\\xac\\x84\\xd9Kq\\xae\\x87[]\\xdf\\xd6N\\xad\\xae\\x97\\xa1V\\xb5=\\xe2X:m\\x9c\\xa5$\\x9b,A\\xe6\\x99\\x07\\x18\\xad\\xff\\xe1\\n\\x1f\\x93T:\\xe2\\xf3F*\\xe4|:W0\\x97\\xfdy\\xae\\x16\\x83p\\xb1\\x07\\xe3*\\x86\\xd9\\x08\\x98\\xc3\\xe2\\xd2\\xeb*bd\\xe5\\xc8#\\xad\\\\\\xd0\\xb7\\x1a\\xb20\\x89<\\xf9\\x01\\xd4q@\\x16z\\xa3\\x1e-\\x7f\\xaayg\\xbbh>\\xc38\\xeb\\xcd{`\\xcac(\\xb8\\xc2\\x97>p}\\x12Ks\\x81\\xe8\\xe8\\xe6\\xcfH\\xd5\\x8dp\\x94\\xc3\\x97\\xdf\\xcc\\x0c\\x06\\x17\\xd0jc0\\xa2\\x89\\x86\\xb2\\x08U\\xb3s\\xb8\\xc0X\\x1a\\xe3\\xe6\\x81OF4\\xf7Buo\\xb0\\x0f\\xea\\x1bs\\xdf`\\x9c\\xf6\\t\\xfc\\xa7\\xc2\\xb3)p\\xb5sQ\\xe7\\xd3b\\xf2\\xbd\"\\xf7\\xef\\xa4\\r\\xf8T\\xad\\xcf\\x9f\\xe93\\xe0\\xfc\\x92\\x03\\xe6v'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Joint Replacement, Shoulder\" site:uhcprovider.com",
+        "results": [
+         {
+          "title": "Surgery of the Shoulder \u2013 Commercial and Individual ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-shoulder.pdf",
+          "snippet": "Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal humeral replacement (e.g., total shoulder) 23473 \u00b7 Revision of total shoulder arthroplasty, including allograft when performed; humeral or glenoid \u00b7 component \u00b7 23474 \u00b7 Revision of total shoulder arthroplasty, including allograft when performed; humeral and glenoid \u00b7"
+         },
+         {
+          "title": "Surgery of the Shoulder \u2013 Community Plan Medical Policy",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/surgery-shoulder-cs.pdf",
+          "snippet": "Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal humeral replacement [e.g., total shoulder]) 23473 \u00b7 Revision of total shoulder arthroplasty, including allograft when performed; humeral or glenoid \u00b7 component \u00b7 23474 \u00b7 Revision of total shoulder arthroplasty, including allograft when performed; humeral and glenoid \u00b7"
+         },
+         {
+          "title": "Surgery of the Shoulder (for New Jersey Only) Page 1 of 6",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/nj/surgery-shoulder-nj-cs.pdf",
+          "snippet": "Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal humeral replacement (e.g., total shoulder) 23473 \u00b7 Revision of total shoulder arthroplasty, including allograft when performed; humeral or glenoid \u00b7 component \u00b7 Related Policies \u00b7 \u2022 \u00b7 Skin and Soft Tissue Substitutes (for New Jersey \u00b7"
+         },
+         {
+          "title": "Surgery of the Shoulder (for Kentucky Only) Page 1 of 6",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/ky/surgery-shoulder-ky-cs.pdf",
+          "snippet": "Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal humeral replacement) (e.g., total shoulder) 23473 \u00b7 Revision of total shoulder arthroplasty, including allograft when performed; humeral or glenoid \u00b7 component \u00b7 Related Policy \u00b7 \u2022 \u00b7 Skin and Soft Tissue Substitutes (for Kentucky \u00b7"
+         },
+         {
+          "title": "Surgery of the Shoulder (for Pennsylvania Only) Page 1 of 6",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/pa/surgery-shoulder-pa-cs.pdf",
+          "snippet": "Arthroscopy, Diagnostic, +/- Synovial Biopsy, Shoulder \u00b7 o \u00b7 <strong>Joint Replacement, Shoulder</strong> \u00b7 o \u00b7 Removal and Replacement or Revision, <strong>Joint Replacement, Shoulder</strong> \u00b7 Click here to view the InterQual\u00ae criteria. Subacromial balloon spacers for the treatment of rotator cuff tears are unproven and not medically necessary \u00b7"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_292295",
+      "args": {
+       "query": "\"InterQual\" site:uhcprovider.com/content/dam/provider/docs/public/policies"
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\xfc\\x05\\n\\xf9\\x05\\x01i\\x14}\\x13\\xcfqB\\xae\\xe16\\xcf\\x9b\\xb0,\\x18H\\xd5\\x86\\x1e\\xf6+\\x92\\xa809\\xb1f3_\\xb8j\\x1c~;\\xecG\\xc9\\xc6\\x94\\x01\\xca\\x82(\\x9c\\x02\\x7f\\xdb\\xf3f-\\xe5o\\xfc&\\xfb\\xc0\\x88,@\\xfbO$N\\xdc/GP\\x92\\x8e\\xc7\\xf5DL5e\\xca\\xc7\\x06\\rw! Mb\\xae\\xf8(\\x1f\\xa0\\x87#\\xdd2\\xaafX\\xc5\\xdd\\x19\\x00\\x8f\\xb9g\\xf6\\xa7w\\xc4j[\\xd2\\xd4\\xd4\\xf2q\\xd2qU\\xee\\xc1\\xb1{U&x\\x82;\\x8b\\xb3J\\xb21\\x89\\xaf\\xc7\\xcb\\xd9\\xed3\\x069Ay1\\x1f\\x8c\\xdd9N2b\\x1e\\xc2s#\\x953,\\x8fw\\xdc\\xe5\\xaa\\x10\\x9a\\x06\\x98\\xa7\\xa7\\x83\\x9b\\x04\\xed\\xe7\\x0f6\\xfb\\xa3\\x1e\\xc8\\xde,[\\xccG:\\xfechf\\x19\\xe8V\\xda\\x98f\\xb3\\xf2\\xda\\xed\\xfet\\x8c3\\xbfr\\xd6\\xcf!\\x1e\\xc4&\\r\\xb3\\xac\\xc5\\xe2\\xb2[\\xd4#>D\\xd0\\xc7\\xd7\\x80\\xafw\\xe3\\xef\\x87\\xd6/$3Mc\\x1f8\\x83K\\xdb-\\x0f\\x06\\\\\\x8f\\xca\\xd6R=\\x13v\\xd1\\xb9ALWj\\xd5\\xd6\\x19\\xaa\\xa6\\xbd\\x12M7\\x1a;8\\xd4\\x01\\xbbK\\x0e~jh\\'\\xfa\\x19d\\xc6+\\'a`\\x94[J\\x84\\xa4\\t.\\xbb^\\x1b\\x1cL\\xb1\\xec\\xae\\xb61\\xec.\\t\\\\\\xf7\\xf9\\xbb[\\xaa\\xf3\\xa5\\xbf\\x13\\xab\\xde\\x98(e~Z-\\xe8\\x94\\xe0j\\x18\\x06\\x03\\x1c\\x1e\\xf6{\\xa3\\xfb\\xe2Is\\xa26\\r\\xc0g\\xef\\x8f\\xd4\\x1f\\xb7\\xecg\\xfa(\\xb3\\xa8\\xf15\\xf9~\\xf9\\xb8\\xd8$\\xd9\\x843\\xe3\\xa4\\\\\\x17\\xa0\\x0c\\x84>\\xf9\\x8f\\x8b\\xa4\\xa2\\xbe\\xd1\\xc3\\xdbkR\\xdb8\\x1d\\x1d\\xe6\\xfe\\x9cz\\x04>\\x8d\\xc3w\\x95\\xb0%\\xf5aE\\xbe\\xa5I\\xee\\x82TV\\x81\\x15\\xf0\\\\Q\\xf5\\xc4p\\x06\\xe0\\xdd\\x91.x\\r\\xe4\\x18\\xf8\\xbd\\xce\"\\xe1\\xa9\\xe2(\\xa2\\x94>\\x1d\\xfe\\x03(Dj2K\\x9cv,x\\xa6&\\x91\\r\\xf5I7\\xe0\\x01\\xd8\\x86\\xdc\\x8d\\x8b\\xef\\xf4\\x04\\x8c\\xea\\x07-[\\xd5\\xa9\\xdc\\xdf~A\\x01\\xee\\x99\\xd5\\x13:9\\nI\\x97L\\xb9\\x08wGL\\xa7z\\xa5\\x80\\xd52]\\x08\\x054\\xabR\\x1d\\x99\\xee\\x1d\\xf0\\xe2g\\xbbk\\x7f\\x87\\x97\\xfd\\xae\\x043\\xea4\\x1dQ\\x03\\xe9\\xd4@\\xac\\x80\\xfe\\xd7\\xbf\\xe6E\\xa5\\x95U+\\xdeJ:\\xe5r\\x9f\\xe4\\xb2\\xc0z\\xbb\\x9a1\\xc3\\xdd\\x88\\xe0\\xd7i\\xfc\\xe2\\x15_52\\xcb\\x96)\\x16{H\\xa0\\xf4PW\\xb0\\xd9\\x83Dv\\x85\\xb1\\xa6\\xd0\\x0f\\x02\\xa1?~v\\xc3\\x04e\\x02\\r\\x1b\\x8d\\xe1\\xbd\\x1b\\x15\\x1c\\xef\\x81MsC\\xa6O\\xf6CHe\\x05\\x03\\t#\\x85\\xfa &S\\xb5\\xd4W\\xf3\\x8da\\xac23\\x0b\\x04F\\xcf\\x13P48\\x86\\x04E\\xea\\xb1(\\xc4TtE\\xc7\\xcd\\xbf\\xcb\\xeb \\xc3^\\x10\\x92\\xc7\\x03Z\\xe1\\n\\xad>G\\x0f\\x15Cs\\xbd_?2\\x1a\\x05\\x95E\\x1b b~\\x8f\\xe3-\\xc3|\\xe0N\\xcb\\xd0\\x81\\x0c\\x03\\xf9\\x1c$\\xfchS]\\x95\\x9c\\xb2$\\xe4U\\x0f\\xd6\\x97\\x18\\x88$%U\\xdd\\x0b\\xbb\\x94$\\x99\\x9bCeSz\\xdbw\\xb2\\x80\\xb2;\\x14iAi\\xaan\\xc5#U\\x8c\\x0c\\xe4\\xbb\\xa6\\x15\\xd3\\x05\\xc2A\\xf2o_'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"InterQual\" site:uhcprovider.com/content/dam/provider/docs/public/policies",
+        "results": [
+         {
+          "title": "Page 1 of 40 UMR Medical Policy Update Bulletin: January 2025 In This Issue",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/mpub-archives/umr/umr-medical-policy-update-bulletin-january-2025-full.pdf",
+          "snippet": "criteria, refer to the <strong>InterQual</strong>\u00ae Client Defined, CP: Procedures, Artificial Disc"
+         },
+         {
+          "title": "Cochlear Implants \u2013 Commercial and Individual Exchange ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/cochlear-implants.pdf",
+          "snippet": "<strong>InterQual</strong>\u00ae CP: Procedures, Cochlear Implantation (Pediatric)."
+         },
+         {
+          "title": "Cochlear Implants Page 1 of 3 UnitedHealthcare Community Plan Medical Policy",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/cochlear-implants-cs.pdf",
+          "snippet": "<strong>InterQual</strong>\u00ae CP: Procedures, Cochlear Implantation (Pediatric)."
+         },
+         {
+          "title": "UnitedHealthcare Commercial Medical Policy Update ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/mpub-archives/commercial/medical-policy-update-bulletin-september-2026-full.pdf",
+          "snippet": "Appliances, refer to the <strong>InterQual</strong>\u00ae CP: Durable Medical Equipment,"
+         },
+         {
+          "title": "Medical Benefit Therapeutic Equivalent Medications \u2013 Excluded Drugs Page 1 of 3",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/medical-benefit-therapeutic-equivalent-excluded-drugs.pdf",
+          "snippet": "5. <strong>InterQual</strong>\u00ae Specialty Rx (Oncology and Non-Oncology), Ambulatory Care Planning Criteria, 2025 Release."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_283551",
+      "args": {
+       "query": "\"Click here to view the InterQual\" site:uhcprovider.com"
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\x99\\x03\\n\\x96\\x03\\x01i\\x14}\\x13\\xaf\\xb70a\\xc7\\xd3\\x15\\x91\\xdd\\xfbQ}\\x14\\x08;r[\\xf4n\\xef}\\xa7\\xf3\\x1b\\x8e\\xcdJjD4\\xcfhr\\xdb\\xce:FgV\\x08\\xbf\\x96\\xe3`\\xd1\\xa1\\x8dG\\xe8lh\\xb2\\xab\\xe3\\x9d^Ow\\xc0\\x04\\x0e\\x1a\\x81\\xc4\\xfbu\\xab\\\\Ew\\x87s*\\xfa2\\xadJ\\xe3\\x9a\\xee\\xf1\"Ht\\xf0.\\xe4_)\\xe4X\\xae\\x80\\xbe\\x05~\\xfaP}\\x0b\\x07kI\\n\\xb9\\x17p\\xe7\\xb5<\\xbf\\x06\\xd02\\xfe~X\\xb1\\xc8^\\xa4F\\x87\\xf3\\xae\\x00d\\x03\\xd3\\x9f\"_+\\x0f\\x1d[z\\x06\\xb1f\\x8a\\x1b(\\xb4\\x03\\xdb\\x8b\\xfb\\x81<6\\xf8\\xef[\\xd7\\x10\\'\\xce\\xec\\'\\xf1\\xee\\xeb*F\\xc9\\xffX\\xe6\\x93\\xa3b\\x80@A/\\xbd$F\\x81\\x00\\xc8&\\xcd\\'2\\xfd\\x07+\\x0f\\x9d\\xaeZ\\x15\\x85;G3\\x17v\\x92\\x10Qz\\x17$\\xf10\\x0c\\x86\\xeba\\x04\\xaf\\xd8\\xef\\xfcb\\n\\x9d\\x84\\xa9\\x88\\xb0}I#\\xe3\\xb9\\xc3\\x90o\\x06\\xbe\\xfc\\x8b\\x8eVy6\\x91Z\\x164b\\x8c\\xfd\\x84/\\xb6X\\xb8_Bi:\\xf8?+p2\\x8a+\\xed^B\\x03^\\x1e\\xf4\\x12\\x80\\x8b\\x8f\\x9f\\xcbE\\x99\\\\\\xae\\x94\\x899<\\xbe\\xcf\\xb5\\x18\\xb9\\xf3\\xce\\xa7\\x0c\\xf83M\\x13b\\x84\\xd3\\x81FG\\xf9\\xe1)\\xf2\\xd1Aqm\\x81Z\\xcb\\xc0F\\xcd.\\x06\\x01\\x8e\\x91d\\xe2=\\xae\\r\\xf8\\xfcR\\x92bz\\x1a\\xf3\\x897\\xab\\x8f\\xd5\\xd9ZZ9\\xc6\\\\\\xf8\\xea\\x96t\\xbe\\xcbf\\xa2\\x8em\\x9bj\\xc8\\xd4\\xe1\\n\\xc9\\xa6\\x89\\x8b\\x05\\xfa\\x8c\\xbb\\x0b\\x9a\\xfa\\xf0\\xc5c\\x0b*#s\\xb0\\xcf\\x86)\\xeb\\xc0\\x16\\xf7\\xa5pf\\x0f\\xa8\\xd6Y\\xc7\\xb7\\xe8^>\\xe5'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Click here to view the InterQual\" site:uhcprovider.com",
+        "results": [
+         {
+          "title": "Cochlear Implants Page 1 of 3 UnitedHealthcare Community Plan Medical Policy",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/cochlear-implants-cs.pdf",
+          "snippet": "Hearing Loss in adults ages 18 and older. For medical necessity clinical coverage criteria, refer to the InterQual\u00ae CP: Procedures, Cochlear Implantation. <strong>Click here to view the InterQual</strong>\u00ae criteria."
+         },
+         {
+          "title": "Prostate Surgeries and Interventions Page 1 of 32",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/prostate-surgery.pdf",
+          "snippet": "necessity clinical coverage criteria, refer to the InterQual\u00ae CP: Procedures, Prostatectomy, Transurethral Ablation. <strong>Click here to view the InterQual</strong>\u00ae criteria."
+         },
+         {
+          "title": "Continuous Glucose Monitoring and Insulin Delivery for Managing Diabetes",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/continuous-glucose-monitoring-insulin-delivery-managing-diabetes.pdf",
+          "snippet": "Medical necessity clinical coverage ... CP: <strong>Durable Medical Equipment, Continuous Glucose Monitors, Insulin Pumps, and Automated Insulin Delivery Technology \u00b7 Individual is assessed by a provider every 6 months for adherence to the prescribed CGM regimen and treatment plan \u00b7 Click here to view the InterQual\u00ae criteria</strong>..."
+         },
+         {
+          "title": "Cochlear Implants \u2013 Commercial and Individual Exchange ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/cochlear-implants.pdf",
+          "snippet": "InterQual\u00ae CP: Procedures, Cochlear Implantation (Pediatric). <strong>Click here to view the InterQual</strong>\u00ae criteria."
+         },
+         {
+          "title": "Hospital Services: Observation and Inpatient Page 1 of 2",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/hospital-services-observation-inpatient.pdf",
+          "snippet": "decisions, when applicable. InterQual\u00ae criteria are intended to be used in connection with the independent professional \u00b7 <strong>medical judgment of a qualified health care provider and do not constitute the practice of medicine or medical advice</strong>. Click here to view the InterQual\u00ae criteria."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_222704",
+      "args": {
+       "query": "\"interqual\" \"uhcprovider.com\" how to access OR \"view\""
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\xdd\\x03\\n\\xda\\x03\\x01i\\x14}\\x13L!\\xb0+\\x9f\\t\\x93\\x00\\x9a6\\xef2\\xb1E\\xe8+\\xde=W{}r\\xeat\\xffU\\xe0\\x05\\x95\\xda\\x8c?\\xcf\\x81\\xe0\\xe1E<\\xe7\\xc7:i\\n\\xa6[\\xa4\\xc7\\x9c\\xf5\\xa9\\t\\xb5\\x8e\\xdf\\xba\\x05\\x9f\\xaa\\xd9?\\xc8\\x8c\\xf9S\\x93\\xef\\xa6\\xb2\\xb3\\xc25y\\xc82\\xe5bF0\\x90y4d\\x92\\xe2\\x90F|\\xe8\\xe6e\\x0e\\xc1\\xcb\\xb9\\x00\\xc8\\xfc\\xefm;1D\\x93\\xfc\\xf3\\xee*\\xb2!\\xf2S\\xd2\\x88\\xe1nN\\xb9\\xd8u\\x84\\xd02M\\xd8\\x8d\\xb5,:-Tzu\\xcb\\xdea\\xad\\xdb\\xa2\\x84<jWWW\\x81E\\x88\\xcaB\\xab\\xeb\\xe9\\x99\\xd4\\xd9\\xb7 \\xc1Bl9\\xf3\\x0f.J\\x8bk\\xb1kNz\\xd4\\\\R\\x05\\xe8\\x08\\xe2\\\\\\x1f\\x82\\x9b\\xd1\\x92\\x8e-\\x134<\\x9b\\xa9\\tRc+\\xb9\\x8b\\xdc\\xa4\\xa6\\x87q\\xd8\\xed\\x8e\\xddY\\xe6\\xa9\\xfe\\xbb\\xfd\\xf2\\xe0\\xc7\\x91\\x9d4\\x9eL\\x1e\\xda]R\\xa1=?\\xa3m\\x89\\x96WJ/\\x16;=\\x18\\x908[*\\xb1\\xc3\\xe7\\xc1R1?\\xedO\\xd7m\\xcd\\x0bm\\x96\\xc6\\x8c\\xc5e\\xc0\\xd9):\\x1f\\x0ea\\xdc\\xddv`\\xa0!mc\\xb5\\xc6)\\xfc\\xc1\\xa8\\xf8\\xdf\\x97?k\\x94\\xb3\\x8a\\xae7\\xdb\\xe6,\\xe4\\xb1\\x10\\x05\\xd1\"\\x1b\\xee-\\xe4\\xe1\\xa4\\xaa\\xad\\xd8\\x99\\xa1\\x13\\x18\\xd9\\x8c\\x01%\\xf8\\xd1\\x18\\t\\xdf@\\xaby\\xb0W\\x80\\xcc\\xee\\xd6\\xea\\x89\\xcf.SN\"\\xd0\\xd9f\\x11\\xe6\\xef\\x18\\xc1\\xec\\xa0\\xacw\\x80e\\r\\xa8\\xfe0\\xbe\\x06_T\\x82d2\\x84\\xea\\x0e\\x925\\xab\\xb1\\xd3\\xfc\\xd2\\xf9\\xefT\\xba\\xc8\\xaa\\xb3\\xf9n\\xd9\\xac6R`^\\x0f\\xb4(\\xad\\xbe\\xe9\\xbe\\xb1?g\\'\\x00\\xb9V:^\\x956\\xd2\\\\|\\x04\\xc0%\\x1d\\xa6\\t\\x8fi\\xb2{\\x90\\x1a\\x17\\xe0\\xec\\xdf\\xf2\\xf1L\\xe6\\xc7~\\xa8\\x0ec\\x8b\\x86\\xac\\xd4\\x185\\xa6\\x1d\\x16\\xcb\\xc3\\x06\\xf8\\xce\\xebb\\xa4|\\x98zP\\xc8\\xd84\\x7fe\\xbd\\x82\\xb9@\\xaeVR\\xf8'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"interqual\" \"uhcprovider.com\" how to access OR \"view\"",
+        "results": [
+         {
+          "title": "UnitedHealthcare Provider Portal: Login, | Behave Health",
+          "url": "https://behavehealth.com/billing/payer-portals/unitedhealthcare",
+          "snippet": "UnitedHealthcare still controls portal access, coverage rules, authorization decisions, and payment decisions. ... The &quot;UnitedHealthcare provider portal&quot; is not one portal. It is a stack of three: UHC Provider at uhcprovider.com (medical eligibility, claims, prior auth for most UHC plans), Optum Provider Express at providerexpress.com (behavioral health for almost every commercial UHC member, plus many Medicare Advantage and Medicaid lives), and Optum Pay for ERAs/EFTs."
+         },
+         {
+          "title": "June UnitedHealthcare News: Reminder: We Transitioned to InterQual on May 1 - Healthcare Business Management Association The non-profit membership association for healthcare revenue cycle management professionals",
+          "url": "https://www.hbma.org/news/commercial-payor-news/insurance-company-news/united/n_june-unitedhealthcare-news-reminder-we-transitioned-to-interqual-on-may-1",
+          "snippet": "Viewing the InterQual criteria To help you understand determinations based on the InterQual clinical criteria, we give you access to a read-only version of the criteria at <strong>UHCprovider.com/policies &gt; Clinical Guidelines</strong> ..."
+         },
+         {
+          "title": "Site Map | UHCprovider.com",
+          "url": "https://www.uhcprovider.com/en/site-map.html",
+          "snippet": "Site map for uhcprovider.com, a resource for health care professionals."
+         },
+         {
+          "title": "Medical & Drug Policies for UnitedHealthcare Commercial Plans | UHCprovider.com",
+          "url": "https://www.uhcprovider.com/en/policies-protocols/commercial-policies/commercial-medical-drug-policies.html",
+          "snippet": "Providers may review the InterQual\u00ae criteria here. UnitedHealthcare&#x27;s Medical Policies and Medical Benefit Drug Policies do not include notations regarding prior authorization requirements. View the services that are subject to notification/prior authorization requirements."
+         }
+        ],
+        "result_count": 4,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_302595",
+      "args": {
+       "url": "https://www.uhcprovider.com/en/policies-protocols/commercial-policies/commercial-medical-drug-policies.html"
+      },
+      "name": "http_fetch",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\xbe\\x03\\n\\xbb\\x03\\x01i\\x14}\\x13\\xa2\\xc9\\xa8\\x94\\xd2\\xff\\t}\\nX;\\x92x\\x87k\\xef\\xd4\\x88\\xf2\\xd3\\x82\\x97\\x1c\\xdcg$\\x81[\\xdc\\xec\\xf4p\\x07\\xe0U]\\x1e\\x1f\\x077\\x1e\\x14\\xe1\\x85\\x7f\\xdbc\\xb73[|\\x80t3p\\xccr\\xbb0\\xeb\\x96L\\xff\\x1e\\x17l\\xcc\\xa4Z\\'Y\\xbf{\\xc8\\x86\\xbe\\xd6\\xf7\\xc0m\\x1e\\xb1\\x91\\xe5\\xff\\x1b)F\"$\\xc8\\xab.L.\\xe5\\xe3Y\"\\xe5Y\\xa53W\\xec\\xc1\\xe9X\\xab\\xb4\\x7ft\\xe8\\xc1\\x88\\x82\\x97\\x7f\\x8f\\xe8\\x12\\xd9\\xe6\\xa6t\\xf0\\xfa\\x93\\xc3b\\xeb\\x0f\\xe8\\x94\\xad\\xa0O\\x01\\xec\\x05M\\x17{\\x84*\\x00\\xef\\x9d\\x1f\\xde|;\\xddT\\xff^\\xd1\\x02\\xbc.\\xcc\\xac{\\xd4\\xad,4\\x94\\xd1\\xb1\\xd7.\\x9a.\\xe0\\xbb\\xee\\xd2\\xe8q\\xc4\\x11\\x90\\x8c4\\xd0\\x1eU/\\xa95\\x8d6\\x84\\xa4\\x16\\xdc\\x8f\\xd9\\x8d\\x0e\\xbe\\xaa\\xdf\\xc7\\xdfU\\xcf\\x14\\xbf\\x00\\xf6.z\\x13\\xef\\xe9I\\xddXh\\x82\\x15\\xec\\x9e5\\x01\\x06aW\\x81\\x150$|=\\xf7\\xc3\\r`\\x94\\xca=\\xd7t\\x1b\\x9b\\xc5\\xed\\xea\\xdd\\xf8,\\xefg\\x0e\\xdbMV\\xa8\\xb0W6\\xd8\\xc3\\x8cs\\x8aC\\xa5b\\xdcA\\x11\\x0c\\\\\\xa4\\xeeR\\\\\\xe7\\xb1Gg\\xc3m.\\xce\\xfa\\xad\\x8c&/6\\xdd\\x13\\xd7\\xe4|\\x1d\\x02\\xa9\\xdc\\x16hp\\xe0J\\x8b\\x90\\xf0j\\x05\\xd3\\x90krC]/\\x98g\\xe0 k} \\xd4\\x84Kl\\x8c\\xee.\\xa3\\x89\\xe0\\x08vP\\x10\\x04\\x84\\xbb\\x1eG\\\\\\xfb\\xd6F5g\\xa1\\x9f\\x96\\xaa\\xd8\\xceY\\x8a\\x9f>\\xdf\\xf69\\xc8\\xfd\\xee\\x14\\x8c\\x0c\\xd6E\\xdf.\\x1f*\\xae\\xb1\\x90\\xc5d\\xf0\\x03P>V\\xa9@\\xd1r\\x95\\xad\\xc1\\\\3\\xb8\\x06\\x10$\\xbf\\x8cub\\xb1\\x91\\xe3\\t\\xa0\\x8e\\x1d\\xd5s\\xceB[\\xde\\x9a\\xcd\\xa3\\xf3\\x92\\xaf\\x00\\xf0\\x19\\x18i\\xd5\\xee\\xc2\\x96\\xb97\\xd1q\\'\\x0e'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://www.uhcprovider.com/en/policies-protocols/commercial-policies/commercial-medical-drug-policies.html",
+        "final_url": "https://www.uhcprovider.com/en/policies-protocols/commercial-policies/commercial-medical-drug-policies.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "Medical & Drug Policies for UnitedHealthcare Commercial Plans | UHCprovider.com Search close close Close MENU Sign In Sign in to the UnitedHealthcare Provider Portal New User & User Access Need access to the UnitedHealthcare Provider Portal? Main Menu Coverage and payments Health plans Administrative guides and manuals Drug lists and pharmacy Policies and protocols Prior authorization Eligibility and referrals Claims and payments Our network Join our network Demographics and profiles Tools and resources UnitedHealthcare Provider Portal Application Programming Interface (API) Electronic Data Interchange (EDI) Forms Education and Training Resource Library Network News Emergency Alerts Members New User & User Access Skip to main content Members New User & User Access menu MENU Coverage and payments expand_more Health plans View health plans available by state Choose a location Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware District of Columbia Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New Hampshire New Jersey New Mexico New York North Carolina North Dakota Ohio Oklahoma Oregon Pennsylvania Rhode Island South Carolina South Dakota Tennessee Texas Utah Vermont Virginia Washington West Virginia Wisconsin Wyoming Choosing a location will immediately redirect Administrative guides and manuals Drug lists and pharmacy Policies and protocols Prior authorization Eligibility and referrals Claims and payments Our network expand_more Our network Join our network Demographics and profiles Tools and resources expand_more Digital tools UnitedHealthcare Provider Portal Application Programming Interface (API) Electronic Data Interchange (EDI) Additional resources Forms Education and Training Resource Library Network News Emergency Alerts Sign In Home Policies and Protocols for Providers Commercial Policy Benefits Plans for Providers Medical & Drug Policies for UnitedHealthcare Commercial Plans print Print Skip secondary navigation View more about Commercial Policy Benefits Plans for Providers expand_more Clinical Guidelines Dental Clinical Policies and Coverage Guidelines Medical & Drug Policies for UnitedHealthcare Commercial Plans Reimbursement Policies for UnitedHealthcare Commercial Plans UnitedHealthcare Oxford Administrative Policies UnitedHealthcare West Benefit Interpretation Policies UnitedHealthcare | Surest medical & drug policies UnitedHealthcare | UMR Medical & Drug Policies Display More UnitedHealthcare Commercial Medical & Drug Policies The Medical Policies, Medical Benefit Drug Policies, and corresponding update bulletins for UnitedHealthcare Commercial plans are listed below. For California members, note that the materials provided to you are guidelines used by this plan to authorize, modify, or deny care for persons with similar illnesses or conditions. Specific care and treatment may vary depending on individual need and the benefits covered under your contract. Expand All add_circle_outline Medical Policy Update Bulletins expand_more A monthly notice of recently approved and/or revised Medical Policies and Medical Benefit Drug Policies is provided below for your review. We publish a new announcement on the first calendar day of every month. The appearance of a health service (e.g., test, drug, device, or procedure) in the Medical Policy Update Bulletin does not imply that UnitedHealthcare provides coverage for the health service. In the event of an inconsistency or conflict between the information provided in the Medical Policy Update Bulletin and the posted policy, the provisions of the posted policy will prevail. Please Wait updating faceted results Filtered Search Clear Filter Sort by Upon selection, page will refresh From A to Z From Z to A Newest Oldest 07/01/2026 \u2013 UnitedHealthcare Commercial Medical Policy Update Bulletin: July 2026 Last Published 07.01.2026 This bulletin provides complete details on recently approved, revised, and/or retired UnitedHealthcare Commercial Medical Policies and/or Medical Benefit Drug Policies. 08/01/2026 \u2013 UnitedHealthcare Commercial Medical Policy Update Bulletin: August 2026 Last Published 08.01.2026 This bulletin provides complete details on recently approved, revised, and/or retired UnitedHealthcare Commercial Medical Policies and/or Medical Benefit Drug Policies. , 09/01/2026 \u2013 UnitedHealthcare Commercial Medical Policy Update Bulletin: September 2026 Last Published 09.01.2026 This bulletin provides complete details on recently approved, revised, and/or retired UnitedHealthcare Commercial Medical Policies and/or Medical Benefit Drug Policies. UnitedHealthcare Commercial Medical Policy Update Bulletin Archive Last Published 09.01.2026 A listing of the Medical Policy Update Bulletins for the past two rolling years. Medical Records Documentation Used for Reviews \u2715 Commercial Medical & Drug Policies Terms and Conditions Please read the terms and conditions below carefully. UnitedHealthcare has developed Medical Policies and Medical Benefit Drug Policies to assist us in administering health benefits. These policies are provided for informational purposes, and do not constitute medical advice. Treating physicians and health care providers are solely responsible for determining what care to provide to their patients. Members should always consult their physician before making any decisions about medical care. Our Medical Policies and Medical Benefit Drug Policies express our determination of whether a health service (e.g., test, drug, device, or procedure) is proven to be effective based on the published clinical evidence. They are also used to decide whether a given health service is medically necessary. Services determined to be experimental, investigational, unproven, or not medically necessary by the clinical evidence are typically not covered Benefit coverage for health services is determined by the member specific benefit plan document, such as a Certificate of Coverage, Schedule of Benefits, or Summary Plan Description, and applicable laws that may require coverage for a specific service. The member specific benefit plan document identifies which services are covered, which are excluded, and which are subject to limitations. In the event of a conflict, the member specific benefit plan document supersedes these policies and guidelines. For California members, note that the materials provided to you are guidelines used by this plan to authorize, modify, or deny care for persons with similar illnesses or conditions. Specific care and treatment may vary depending on individual need and the benefits covered under your contract. Medical Policies and Medical Benefit Drug Policies are developed as needed, regularly reviewed and updated, and subject to change. They represent a portion of the resources used to support UnitedHealthcare coverage decision making. The information presented in these policies and guidelines is believed to be accurate and current as of the date of publication and is provided on an \"AS IS\" basis. Additionally, UnitedHealthcare may use tools developed by third parties, such as the InterQual \u00ae criteria, to assist us in administering health benefits. The InterQual \u00ae criteria are intended to be used in connection with the independent professional medical judgment of a qualified health care provider and do not constitute the practice of medicine or medical advice. Providers may review the InterQual \u00ae criteria here . UnitedHealthcare's Medical Policies and Medical Benefit Drug Policies do not include notations regarding prior authorization requirements. View the services that are subject to notification/prior authorization requirements . Medical Policies and Medical Benefit Drug Policies are the property of UnitedHealthcare. Unauthorized copying, use, and distribution of this information are strictly prohibited. The InterQual \u00ae criteria are proprietary to Optum and are not published on this website. By clicking \"I Agree,\" you agree to the terms and conditions expressed herein, in addition to our Site Use Agreement. Cancel Yes, I Agree Please Wait updating faceted results Filtered Search Clear Filter Sort by Upon selection, page will refresh From A to Z From Z to A Newest Oldest Ablative Treatment for Spinal Pain \u2013 Commercial and Individual Exchange Medical Policy Last Published 05.01.2026 Effective Date: 02.01.2026 \u2013 This policy addresses Intraosseous radiofrequency ablation, ablation for treating sacroiliac pain, and other facet joint nerve ablation procedures for spinal pain. Applicable Procedure Codes: 22899, 27299, 64625, 64628, 64629, 64999. Abnormal Uterine Bleeding and Uterine Fibroids \u2013 Commercial and Individual Exchange Medical Policy Last Published 01.01.2026 Effective Date: 01.01.2026 \u2013 This policy addresses endometrial ablation, the use of levonorgestrel-releasing intrauterine devices (LNG-IUD), uterine artery embolization (UAE), magnetic resonance-guided focused ultrasound ablation (MRgFUS), and ultrasound-guided radiofrequency ablation. Applicable Procedure Codes: 0071T, 0072T, 37243, 58563, J7296, J7297, J7298, J7301, J7306, S4981. Adakveo\u00ae (Crizanlizumab-Tmca) \u2013 Commercial and Individual Exchange Medical Benefit Drug Policy Last Published 05.01.2026 Effective Date: 05.01.2026 \u2013 This policy addresses the use of Adakveo\u00ae (crizanlizumab-tmca) to reduce the frequency of vasoocclusive crises in patients with sickle cell disease. Applicable Procedure Code: J0791. Adzynma (ADAMTS13, Recombinant-Krhn) \u2013 Commercial and Individual Exchange Medical Benefit Drug Policy Last Published 07.01.2026 Effective Date: 07.01.2026 \u2013 This policy addresses the use of Adzynma (ADAMTS13, recombinant-krhn) for the treatment of congenital thrombotic thrombocytopenic purpura (cTTP). Applicable Procedure Code: J7171. Airway Clearance Devices \u2013 Commercial and Individual Exchange Medical Policy Last Published 03.01.2026 Effective Date: 03.01.2026 \u2013 This policy addresses airway clearance devices, such as high-frequency chest wall oscillation systems, and intrapulmonary percussive ventilation (IPV) devices. Applicable Procedure Codes: A7021, A7025, A7026, E0469, E0481, E0483. Alpha1-Proteinase Inhibitors \u2013 Commercial Medical Benefit Drug Policy Last Published 11.01.2025 Effective Date: 11.01.2025 \u2013 This policy addresses alpha1-proteinase inhibitors (Aralast NP\u2122, Glassia\u2122, Prolastin\u00ae-C, and Zemaira\u00ae) for chronic augmentation and maintenance therapy of emphysema due to congenital deficiency of alpha1-proteinase inhibitor (A1-PI)/alpha1-antitrypsin (AAT) deficiency. Applicable Procedure Codes: J0256, J0257. Ambulance Services \u2013 Commercial and Individual Exchange Medical Policy Last Published 06.01.2026 Effective Date: 06.01.2026 \u2013 This policy addresses emergency ambulance (ground, water, or air) and non-emergency ambulance (ground or air) services. Amondys 45\u00ae (Casimersen) \u2013 Commercial and Individual Exchange Medical Benefit Drug Policy Last Published 05.01.2026 Effective Date: 05.01.2026 \u2013 This policy addresses the use of Amondys 45\u00ae (casimersen) for the treatment of Duchenne muscular dystrophy (DMD). Applicable Procedures Code: J1426. , Apheresis \u2013 Commercial and Individual Exchange Medical Policy Last Published 01.01.2026 Effective Date: 01.01.2026 \u2013 This policy addresses apheresis/therapeutic apheresis. Applicable Procedure Codes: 0342T, 36511, 36512, 36513, 36514, 36516, 36522, S2120. Autologous Cellular Therapy \u2013 Commercial and Individual Exchange Medical Policy Last Published 09.01.2026 Effective Date: 09.01.2026 \u2013 This policy addresses autologous cellular therapy. Applicable Procedures Codes: 0263T, 0264T, 0265T, 0489T, 0490T, 0565T, 0566T, 0717T, 0718T, 0999T, 1000T, 1001T. Bariatric Surgery \u2013 Commercial and Individual Exchange Medical Policy Last Published 05.01.2026 Effective Date: 05.01.2026 \u2013 This policy addresses bariatric surgical procedures. Applicable Procedure Codes: 08",
+        "text_truncated": true
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_289972",
+      "args": {
+       "query": "\"Providers may review the InterQual\" \"uhcprovider\""
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\xcb\\x03\\n\\xc8\\x03\\x01i\\x14}\\x13|\\xd8Q\\xdc\\x14\\xa4\"\\xe7\\xab\\r\\x84!\\x1f\\xd9\\xc198\\x88\\xe1\\x9c\\xabq\\xef\\xf6H\\x84n\\tXx\\xbfU\\xf2\\xc5s(\\x8e\\x9c/;>\\xb0\\xe1\\xa2{\\x1d\\xa7Y\\xc1\\x16\\xe0B\\x95>W\\x0f\\x98\\xb8D vi\\xae\\xa2\\\\\\xa5\\x8dp]\\xc3\\xf1\\xf1k\\xaf:\\x12w\\x1f\\xf7,\\xae<\\x088\\x01@\\x04\\xab)\\xf1-\\x06.\\x02\\xb3\\xa3x\\xd44\\x02\\x19\\x8e\\x80\\x0e\\xd6S\\xcb\\xd2u4%\\xb2\\x12\\xba\\xbc\\x1d\\x00\\xaaj\\xae\\xe4\\xa0\\x93\\xff`1\\x03\\x9b\\xfcFH\\xce\\xc4\\x14\\x1b\\x9c\\x01B\\xd1%\\x11\\xb4x\\x8b\\xb7\\xc3\\xd4\\xb7\\x1eWV\\x1e\\x91>\\x8c\\x81\\xc9\\x87j\\xf8]_;P6\\xac\\x88\\x14\\xc1\\xf0\\xc9\\x1c@Q\\x07ct\\xd7\\xa7\\xbc||\\xcc\\xbd\\xd9N\\x16[Pt\\xf8h\\xcc\\x7f\\x00\\xb1^uN\\xc1\\x88Wbnzr\\x0b\\xef\\x91_\\xbe\\x8f*\\xc4t\\xb4\\x19\\r\\xaf\\x87\\x9e~\\xd2\\xeb\\xbcY\\xe7\\xc1\\xdfr\\x8c(\\x101\\x0ej\\x0c\\xe7\\x91\\x18*\\xa5\\xdfd\\xfa(\\xa5\\xb7*\\xddM\\xe6\\x95\\x83\\'\\r\\x0b\\x10\\xb7\\x7f\\x8b\\x1e\\xd1jk\\xc0\\xdf2M#\\xf0\\x13\\xfc\\xf9i\\xdcn\\xbchA;\\x90`\\xf6\\xe7\\x15f\\x07\\xe9\\x11\\x98jHRS\\xd5w\\xac\\xa1X\\x80\\x96\"\\xd6\\xe6\\x9b-\\x83\\x06\\x15\\xa6\\x94\\xf3n\\x8b\\x1d\\xbd\\xeb\\xf9[6\\'\\x9d\\x17\\xa4N\\xbdi\\x98&\\xef8z\\xed\\xef\\xe0]=w<\\xcav\\x9f-\\x16~>\\x01\\x90\\xfdv\\xce\\xab0\\x98_ \\xfa\\x9fK5\\x99\\x96\\x9d\\x0e\\xb7\\xa1\\xe0\\xaf\\xcb\\xa7(\\xb2\\x7f\\x99\\xf0\\xdc\\xaf\\xbao\\x1f\\x08|j\\xaf\\x0c\\xe4`\\x10A%\\xfeg\\xfc[\\xde\\x1d\\xf2\\xa6yH\\'\\xb4\\x13r:\\xed\\xe84\\xfc\\x9f]V\\x15\\xc83\\xf4=\\x9c\\xc2\\xff\\x1d!/\\'\\t\\xbb\\xabS\\xdczz\\x9d\\x9f\\xbf\\xcb\\x0ecE\\'\\x0cOb\\xee=V\\xb6\\x8ec\\x9f\\xcf'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Providers may review the InterQual\" \"uhcprovider\"",
+        "results": [
+         {
+          "title": "Medical & Drug Policies for UnitedHealthcare Commercial Plans | UHCprovider.com",
+          "url": "https://www.uhcprovider.com/en/policies-protocols/commercial-policies/commercial-medical-drug-policies.html",
+          "snippet": "The InterQual\u00ae criteria are intended to be used in connection with the independent professional medical judgment of a qualified health care provider and do not constitute the practice of medicine or medical advice. <strong>Providers may review the InterQual\u00ae criteria here</strong>."
+         },
+         {
+          "title": "UnitedHealthcare | UMR Medical & Drug Policies | UHCprovider.com",
+          "url": "https://www.uhcprovider.com/en/policies-protocols/commercial-policies/umr-medical-drug-policies.html",
+          "snippet": "The InterQual\u00ae criteria are intended to be used in connection with the independent professional medical judgment of a qualified health care provider and do not constitute the practice of medicine or medical advice. <strong>Providers may review the InterQual\u00ae criteria here</strong>."
+         }
+        ],
+        "result_count": 2,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_284763",
+      "args": {
+       "query": "\"Providers may review the InterQual\u00ae criteria here\" \"https\""
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\x9a\\x04\\n\\x97\\x04\\x01i\\x14}\\x13\\xc8\\x08\\x0b\\x01\\xc5\\xd3\\xf3\\x8d\\x8eL\\xfc\\x7f\\x9a\\xf9+`\\x8b\\x81~\\x94m\\xbf71\\xc6\\x14q\\x83\\x08\\xb2L\\xfb\\xad%h\\xc1~-g\\x94O?T\\xc5\\x96\\x17\\x11\\xac^\\x82K\\x885\\x99\\xa2\\xdb\\xffx\\xf1\\xdd\\x89\\t\\x92v\\x87\\x86\\x85\\xd3\\x03\\x1fQ~\\xcc\\x0b\\xf4\\xb0@\\x80cS\\x12\\xab$\\x05\\x83\\xe6\\n\\xdf\\x0b\\x8b(\\xbcRt\\xf9\\x12\\xb0\\xaf\\x15\\x04c\\xe4P\\x8d`\\xd2\\x7f\\xdaT[\\xd0<B\\x00\\xdd\\xdf\\xb2\\xee\\xa9=\\x1f \\xf8\\r\\xde\\x9c\\xaa\\x83y\\xfc\\xa4\\x03\\xa8\\x16j\\xc9\\\\<xgqm\"\\xc7O\\xc5\\n\\x97 e[\\x93\\xbe\\x08z\\x8d\\x81\\xaf\\xf1ECnGF!\\xf3\\x12\\x80\\x8e%2lM\\xebdD\\\\\\xf8\\xf1\\xaa\\x16\\x88C\\x96\\x87\\x0c\\xf3\\x88h\\xaf\\x02~\\xa80i\\xaf \\x04\\xe9\\x07\\xc7\\xe0\\x0e\\xde\\xd9\\xd4\\xa3\\xa4\\xba\\xdc\\xd8\\x93Fhkr\\xe6c\\xb2\\\\\\xf4v\\x89bP\\x16\\x0ev@\\x03\\xd7\\xb2\\x89\\xc1wL\\xb0\\xba\\x99\\x81\\xa0z\\x91\\x18\\xd6\\xa4\\x82nkM\\xf7\\x0c\\xaf\\x8e\\xc0b\\x1cAVQ\\xab\\x82\\x82Wb\\xf6\\xe3+\\x89n\\x97\\xf1\\xdf\\x1e[\\xa3\\xb9\\x85\\xe9\\xf4\\x8b\\xb6\\xf4Z\\tll\\x002J<u\\x83\\x1e\\xa1\\x1c\\xf0\\x0c\\xd1\\x93\"O\\xfbNaX\\xde\\x11\\xeby\\x11p\\x9f\\x14\\xf7\\x95\\xd8\\xf1\\x05\\xffT\\xe0\\x88\\\\\\xe4\\xb1\\x1e\\x91\\x82\\x9f\\xa4$\\xda\\x11\\x12\\xd7\\x11\\xb2/\\xbc\\xbdg\\xfa@P\\x8a\\xf2\\xdb4\\x9d\\xe5\\xd1\\xf7\\x08\\x11T\\xed\\xd7\\x02\\xad\\x9bd\\xe3z\\x01nT\\x93\\x05\\xecS\\xa5\\xcbY\\xa4\\xd7Y:5\\x87\\x89\\xb6\\xe7)\\ryt\\xa3\\xc1\\x84sl\\xa1b\\x182\\x8dV\\xd7\\xada\\xef\\xcaY\\x9d@\\x9c[\\xcf\\xfefr\\xf8v\\x15\\xb5\\xce\\xedi>t\\xb6\\xca\\x92\\n\\xe2W\\xd9\\x0b%N\\xfc\\xb8~Mj\\xc3\\xc0\\x0e\\xa2\\x8en!\\x16\\x84X\\x93\\x8e\\xb8<v\\x0e\\xf6\\xa7\\x81\\xc5\\x083g\\x13\\xbdw\\x93\\xe22a\\x13\\xf2\\xe3\\x907\\x07\\xe8\\xf5\\xb9\\xa0\\xcd\\'T\\x83\\xd1\\x1a\\xf9\\x1c\\x18\\x8e\\x15\\xc2\\x96\\xc6D\\xeb\\xe2U1\"\\xcb\\x1a\\x82H\\x13@\\xea~\\x00\\xa7\\x00\\xf1\\xa4A\\xbd@CE\\xd7&\\x05\\x0e\\xd6\\xdc\\xa7\\xd4\\x17\\xc6\\xb9\\xfep\\x9c}\\x08'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Providers may review the InterQual\u00ae criteria here\" \"https\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_326028",
+      "args": {
+       "query": "\"interqual\" site:uhcprovider.com/en/policies-protocols"
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b\"\\x12\\xfa\\x01\\n\\xf7\\x01\\x01i\\x14}\\x13\\x19~m\\x08\\xa4)/\\xf6\\xe0m\\x86\\x04\\x0cy\\xc3]\\x13\\xd0\\x9c\\x9d\\x16\\xee\\xe5\\x17T\\xd5;\\xca\\xe5\\xadI\\x85\\xa2\\x86\\xf8-\\xf1\\xf6p\\xb3)m\\x8e\\xcaUI,\\x849\\xb0F\\xe0wv\\x9f\\x19\\xb8\\xde\\xb7'\\xdc\\xba\\xc3`:\\xa3\\xdb<\\x03\\xaa$\\xb3c\\x0e\\x7f\\xeb\\xa8\\x7f$q\\x92\\n\\x96\\x01\\x07\\xbc\\x83\\x91\\x0f6\\xd5\\xe4\\x08\\xeci>6Kg\\x9a'\\x1e\\xe6\\xbb\\xad\\xe6+\\xbbfw)\\x07\\xd5\\\\\\xbd\\xf1\\xf6\\x12\\x0e\\xe8d\\xaf\\x1a.\\x8c\\xa2,Ios\\xf9\\x8e\\x88\\x9c\\xd3\\x1e\\xb3\\xc1\\t\\x80\\r\\xa8\\xcd\\x82a\\x83\\xb5@\\xd0\\x17\\x95\\x9a>\\xb1\\xfe\\xf8\\xa2\\x10\\x80G\\xac\\xbb\\x16\\xea\\x01\\x080\\xb6c\\xc5\\x11\\xa2r!\\xd1,\\xc3g\\xa1\\x81\\xd6\\xa4\\x99\\xb9\\xb4a`\\x1a\\xbd\\xfb\\x8a\\x10L\\xb7\\x9b\\xb8'\\xc5s\\xf1\\x96\\x8d\\xc7'\\x81\\xa6\\xa9\\xa8\\xde\\xcf\\x0e\\xed&S\\xacD6\\xa9\\x07:\\xceq\\\\\\x0b\\x10\\xb4\\x85\\xef\\x07\\xe8\\x1f\\xea\\xde\\xca\\xbc\\x16\\x87(^\\x97\\x14\\xef\"",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"interqual\" site:uhcprovider.com/en/policies-protocols",
+        "results": [
+         {
+          "title": "InterQual Clinical Criteria",
+          "url": "https://www.uhcprovider.com/en/policies-protocols/sec_interqual-clinical-criteria.html",
+          "snippet": "A fast, flexible and reliable experience with one click \u00b7 We&#x27;re experiencing high call volume - get faster assistance through our self-service and help center options"
+         },
+         {
+          "title": "Medical & Drug Policies for UnitedHealthcare Commercial Plans | UHCprovider.com",
+          "url": "https://www.uhcprovider.com/en/policies-protocols/commercial-policies/commercial-medical-drug-policies.html",
+          "snippet": "The InterQual\u00ae criteria are <strong>intended to be used in connection with the independent professional medical judgment of a qualified health care provider</strong> and do not constitute the practice of medicine or medical advice."
+         },
+         {
+          "title": "UnitedHealthcare | UMR Medical & Drug Policies | UHCprovider.com",
+          "url": "https://www.uhcprovider.com/en/policies-protocols/commercial-policies/umr-medical-drug-policies.html",
+          "snippet": "The InterQual\u00ae criteria are <strong>intended to be used in connection with the independent professional medical judgment of a qualified health care provider</strong> and do not constitute the practice of medicine or medical advice."
+         },
+         {
+          "title": "UnitedHealthcare Individual Exchange Medical & Drug Policies | UHCprovider.com",
+          "url": "https://www.uhcprovider.com/en/policies-protocols/exchange-policies/exchanges-medical-drug-policies.html",
+          "snippet": "The information presented in these policies and guidelines is believed to be accurate and current as of the date of publication and is provided on an &quot;AS IS&quot; basis. Additionally, UnitedHealthcare may use tools developed by third parties, such as the InterQual\u00ae criteria, to assist us in administering health benefits."
+         },
+         {
+          "title": "Medical and Drug Policies for Community Plan | UHCprovider.com",
+          "url": "https://www.uhcprovider.com/en/policies-protocols/comm-plan-medicaid-policies/medicaid-community-state-policies.html",
+          "snippet": "The InterQual\u00ae criteria are <strong>intended to be used in connection with the independent professional medical judgment of a qualified health care provider</strong> and do not constitute the practice of medicine or medical advice."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_222755",
+      "args": {
+       "url": "https://www.uhcprovider.com/en/policies-protocols/sec_interqual-clinical-criteria.html"
+      },
+      "name": "http_fetch",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\xa0\\x02\\n\\x9d\\x02\\x01i\\x14}\\x13\\xaeW\\xcd\\xfb\\xa1>\\x10V\\xf6\\xec\\xa4n\\xb9\\xe6\\x14\\x84\\x8c\\x95\\x1bO;\\x8cJ\\xdc\\xb5\\x1485\\xf7\\xa0\\xa77~\\x89~\\xec\\x7f\\xa2\\x9cC=\\x90RF~\\xba%N\\x8a\\x93\\x1c\\xc9\\xc2P\\\\\\x7f8\\xad\\xae\\xed\\xd0\\xcf\\xf9m\\xe0\\x0b\\xe2\\x88\"\\xbb\\xe8\\xfas\\xf5\\xe5w\\x10\\x93\\xad\\xd9\\x1e.w\\xd7\\xc8Mz\\x1f\\xa1v\\xa3\\x8a\\xcf\\x96\\xceV\\xcbVaA\\x1f~\\xc5\\x14\\xc5\\xec\\xa1\\x9by\\xc1<S\\x96\\x18\\xb2\\x01\\xe5\\x7f\\xfc2\\x9e\\x89\\xcd.,)\\xbb\\xfa\\xfaB\\x87\\x8d\\x86c\\xf8K\\xb6Eja\\xca|\\x19G\\xba\\xec\\xb7,,\\xd1q\\xe3\\xd19\\xf2\\x02\\xde\\x89\\x91dP\\x1263\\x88\\x9d\\xfc\\x07\\x82#\\xf4)\\xfc\\x88!\\x84{\\x89\\x8cX\\xb0\\xb4L\\xd1\\xad\\xa4\\x92B\\xa5\"|\\xad\\xaaDPLa\\xfe\\xa5\\x10\\xc3\\x93_\\xefc\\xb5\\xa8\\xde\\rI\\xf2\\x8cK\\xda\\x9d\\x8c\\xc4\\x96\\x9a\\xd6A{8\\xe5\\xd8\\xd0\\xb3JD\\xaa/\\xee\\xf0\\xc0p\\n#\\xcdV\\xc5\\x92Q\\x9a\\x97_\\xd7@\\x82\\xe0\\x82znHZ.\\xda_?\\xee\\td_\\xa0\\x8e[WYB\\xd2\\xfd$\\n\\x87\\xf5\\x8eB=\\xc6.X'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://www.uhcprovider.com/en/policies-protocols/sec_interqual-clinical-criteria.html",
+        "final_url": "https://identity.onehealthcareid.com/oneapp/index.html",
+        "http_status": 200,
+        "content_type": "text/html",
+        "login_wall": true,
+        "blocked": true,
+        "blocked_reason": "thin_200_response:36_text_chars_of_4629_bytes",
+        "error": "fetch blocked or unreadable: thin_200_response:36_text_chars_of_4629_bytes",
+        "text": "Please wait... Loading... Loading...",
+        "text_truncated": false
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_379216",
+      "args": {
+       "query": "InterQual anonymous OR guest OR public access site:uhcprovider.com"
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\xba\\x03\\n\\xb7\\x03\\x01i\\x14}\\x13)\\xbbu\\xd5\\xcd\\xc0\\x00\\x0b\\x0e\\x92\\xd4\\xf3\\xa4!JeU\\xc67\\xf1X\\x90:\\xc9\\xd7\\x9c\\xc3y\\xfb\\xf7O\\xce\\x16\\xb0\\xbf^\\xc7`\\x85g\\xd9\\x08\\x18\\xda\\xb0\\xcc\\n\\xe6?\\x1bbK\\xd4j*\\x12F7=\\r\\xefk\\xc9\\x80/?\\xee\\xe7\\x0f\\xd5c\\x9ai\\xc3*\\x94N\\x8d\\x89?d\\x00\\x06W\\x03\\x8e\\x82\\xfbJ\\xd99\\xb7\\xc80\\xa7\\xd2?\\xbc[\\xa3G\\xdd\\xca\\xa7\\xc0\\r!\\xd5\\xc5N\\x18\\x97\\x80/\\xd1zU\\x0e\"y\\xe3\\xdc\\xbeC\\xecOJ\\xa2\\xa6b\\x05\\xe5-\\x9b\\xd6\\xd2\\x8c\\xae\\xa86\\xb9$\\xb4\\x80\\x8c1;\\xd1\\xef\\x9d\\xa6\\xda3\\xd6\\xabk\\xc3\\x0e;\\xa6H\\x88\\xe6\\xd9\\x87\\xa4?\\xf1sb\\x16\"F9A\\xc3\\x17A\\xbdO\\x8d\\x92\\xb7\\xca\\x83\\x198|\\xc5\\xf4\\xda\\xa8\\xce\\xd6\\xdc\\x1b\\x9c\\xd7\\xc7W\\x04\\x08w\\x0f\\x1f\\xd0\\x14\\xf9\\xc3\\tk\\xf7\\'^\\x07\\xf9f\\x9ej\\x03J\\x13N\\xea\\x8e\\x14\\xe7\\x90[Vx[\\n\\x18p<\\x84\\x00Q\\x18L\\r\\xc3\\xbf\\xa1q\\x85\\x9fYrMfb\\x92\\xa7!9\\x1e\\x85\\xa2\\x14\"6p\\xaf\\x92!\\xa5\\x07\\xa8\\xfe\\xfe\\xb4\\xa3\\xcdL\\xf9\\xc6J\\x07U\\x80\\xf2\\xd7\\xbeA\\n{t`\\xcb\\xcc\\xac\\x98@\\xdb@\\xb9\\xdf\\xa1S\\x91\\xfe*\\xe3c^\\xc5\\xa2~\\xc5\\x80\\xc4uj\\x8f#\\x05\\x9d/\\xc5q4\\xac\\xe6d@\\xde\\xdf\\xad\\xfb\\xb2\\x9f\\xf8\\x90N\\x93\\xcf\\xef&\\xad8X\\xd1\\x8e\\xff*\\xcaV\\xd2\\xdc\\x86\\x1cd\\x9e\\'\\xa0.\\x10\\xb4s\\xa6\\xd4n\\xf9\\x86\\xf3\\xe0\\x11Z\\x88\\x9f\\xc3\\x8d\\xd8\\x03\\xfb\\xa9X\\xf0\\x0e\\xc7G\\tfBX{\\x82\\x1e\\x19\\x87\\xea\\xba\\x85A\\xe3\\xf3v\\x03\\xc1\\xee\\xe2\\xb1lL:2\\x1d\\xd3*\\x1f\\x1a\\x05\\xd7\\x8d\\xd4\\xaer\\xb0\\x8b\\x94IF\\xca\\xe50\\xa9\\x88\\xac\\xed\\x87b\\x91'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "InterQual anonymous OR guest OR public access site:uhcprovider.com",
+        "results": [
+         {
+          "title": "Airway Clearance Devices (for Pennsylvania Only) Page 1 of 16",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/pa/airway-clearance-devices-pa-cs.pdf",
+          "snippet": "Click here to view the InterQual\u00ae criteria."
+         },
+         {
+          "title": "United Healthcare Services, Inc. Utilization Management Program",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/reports/UMPD-Multi-State.pdf",
+          "snippet": "internally accessible in the UnitedHealthcare Knowledge Library, an internal web-based \u00b7 resource, and on a fully licensed internet- based site that is available to all clinical staff. UnitedHealthcare may use clinical criteria from third party sources such as InterQual \u00b7"
+         },
+         {
+          "title": "Airway Clearance Devices \u2013 Commercial and Individual ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/airway-clearance-devices.pdf",
+          "snippet": "Click here to view the InterQual\u00ae criteria."
+         },
+         {
+          "title": "A | UnitedHealthcare Community Plan\b \u00a9 2026 UnitedHealthcare 2026 Care",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/admin-guides/comm-plan/NC-UHCCP-Care-Provider-Manual.pdf",
+          "snippet": "UnitedHealthcare Community Plan uses InterQual\u00ae for \u00b7 medical care determinations. For behavioral health we use American Society of \u00b7 Addiction Medicine (ASAM), Early Childhood Services \u00b7 Intensity Instrument (ECSII) for children ages 0 \u00b7 through 5, and the Children and Adolescents Needs and \u00b7 Strengths (CANS). Mobile apps \u00b7 Apps are available at no charge to our members. They include: \u2022 Health4Me enables users to review health benefits, access claims information and locate in-network care \u00b7"
+         },
+         {
+          "title": "Prostate Services and Procedures and Impotence Treatment Page 1 of 5",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medadv-mp/prostate-services-procs-impotence-tx.pdf",
+          "snippet": "Click here to view the InterQual\u00ae criteria."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_257811",
+      "args": {
+       "query": "how to request InterQual criteria UnitedHealthcare OR patient"
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\xe9\\x14\\n\\xe6\\x14\\x01i\\x14}\\x13\\xa5A\\xca8z5\\r\\xbb\\xf9)\\x1bQ[\\xeb\\x0f\\xba~\\xfa\\xe3\\xc9*\\xc7\\xb0Nw\\'f\\x8bU\\xa68U\\xd8\\xdd\\x97\\x9c\\xf0oH\\x92\\xfcZ!UE}\\xab>e\\xdd|P\\xf6+\\xb27\\xc5\\x8d\\x0e\\x88\\x05:1\\xc5\\xe5\\x1c@=M\\x0f\\x01n\\x1d\\xc70~\\x8d\\xddH:j\\xa4#W\\xf5L\\x93\\xe0\\t\\xbe\\x93o\\x14d\\xf9\\x03Z*\\xddAF|V\\xf9:\\xd7\\xb5\\x1c\\xb4\\xff\\xbe,\\x82i\\xaf\\x08\\x8b\\x89\\x19\\xcd\\xd1\\t\\x89\\xe2\\x9c5D\\x98\\xf2-c\\xbb\\xa0%\\x12\\x9b\\xdebb\\x93W\\x16z\\xfc\\x9c\\x15\\x83\\x0c~U\\xc2*\\xb2\\xdd6\\x9fj\\xfe\\x8e\\x9c\\xa8\\xad.$\\xab\\x9b\\x19\\xd2\\xd0L\\xf0\\xd7n\\xa4Jj\\x149\\xb1\\xab\\x07/F?\\x9b\\x84z\\x86\\xcf\\tX\\xe2\\xc6\\x91[\\xb7D\\x1b\\x1b]\\x9b\\xf1\\x94\\xbc\\xbf\\x0b\\x19\\xc8|D\\x8f\\xfb\\xbc\\xe1\\x00a6\\xa1\\xadaT\\xb6\\xdd\\xac\\xb8\\xaa\\xaa\\xaa\\xf79\\x99\\xac\\xac\\xb2.\\x9d\\x93\\xb7\\xd0t\\xb2<R\\xc6\\xa2R\\xc4+2\\xbf\\x9e\\xe2\\xf08\\xd3R|\\x92\\xc1\\xe9\\xda\\xcdf\\xf4\\x0b:\\xc5c[H\\xb8f\\x1e+\\xfb\\xca<S*H-_a\\xa7\\xc9\\xb4\\xdb:\\x95\\xac\\xba\\xcbh\\xc1]\\xf7c\\xf7,\\xeb\"\\xee\\xc59\"\\xe5\\x93\\xc722\\xdf\\xcb\\xa1\\xbbi\\xdd\\x14M\\xc79\\xe2\\x12{\\xe0.\\xae3\\xde{B\\x08\\xd4\\x920t\\x98LmW!\\xd1\\x7f\\xc3F\\xef\\x88\\xfd~\\xd3\\xa3\\xe5\\xc6\\x97m;t\\xbf\\xe5\\xc7\\x98\\xd6\\xf6\\x98\\x07)\\xc9@\\xb4!0\\xe01\\xb0\\x1c\\t\\xdau\\x87\\x19\\xb1\\xa9\\xb4\\xd7=\\xae\\xe5\\'\\xa0e\\xb0*\\xb5>h\\xdcd#\\x01\\xea\\x04\\xfe\\xf1\\xa7\\xfe\\xdfPG\\x9f\\x10\\xe6\\xb7\\xd1\\x1e\\x9a\\x0c\\xce\\x83\\xc3\\x08\\x9f\\xe6S\\xddo`\\xa8\\x1b7\\xeesP6\\xaa\\x9d\\xabj\\x9cp?t:\\xa2\\xfc?V\\xa0\\xc7\\x07\\xd1\\x05\\xc8\\xbf\\xca\\xaa\\xab_\\x9e@\\xb3\\xb1\\x94\\xaa\\x145\\x9d%\\xdc\\x17\\x0c\\xcfl\\t\\xc2\\x8fy\\xd3\\x8a\\x05}4\\x0b\\xeb\\n\\\\\\x1bUf\\xe2\\xd4\\xfa\\x0b\\x81\\xde\\xc21\\xaa\\xd2.\\x1c\\xb5\\xa1\\xb1\\xc2R\\x10S\\xb2j\\xb2F\\x1f\\x07g\\xb7\\x19\\x1bk\\xaf5\\xb7\\x1b\\xa1\\xcdn\\x04\\xa8G\\xcd\\xe9\\xc0s]\\xe9\\xf5\\x16@\\xeb\\x8a\\x90\\x06\\xdb\\t\\x8c$\\x9ct\\x9a>\\x88\\xbf\\x1e\\xd0\\x82\\xb4`\\xc0\\x8dm\\xa3\\x02\\xff4tfD\\xf8g\\x8c\\x9547xCe/\\xf9\\xc7\\xe6;XS\\x91\\xb51M\\xe4\\xdby\\xaef\\xb3\\xcdQ\\x89v^\\xc1\\xab\\xe6YD\\xd5r\\xf5\\x99\\n\\xea$\\xeaqq\\xd5!\\x93OYo\\xf8\\xdf6?\\x86\\xabg\\x9ai\\xd4:\\x17/w\\xa5\\x9b\\xf8\\xe4\\xf2\\x1f\\xd0!d\\x9cI\\x88f\\x91\\x85\\xd7Q\\xfa&\\xdf\\xb3\\xf8\\xc7\\n\\xcc\\xca \\xeb\\x0f\\xc1-\\xdc\\xcc?k\\\\\\x9b\\x9c\\xc5\\xb2\\x9f%\\x08\\xaf\\x10\\xcb7\\xd3\\x95\\x84\\x0e\\xb5\\xe3\\xb0x\\x94Qme?\\x12R\\xcb\\x9a\\xf8A\\xab\\'SH\\xf4\\x0f\\x8c\\x9e\\xfcqKG\\x7f\\x12%\\xdb\\x81\\xfb\\x86\\x89/;\\xdf\\x1f6\\xf2\\x19\\xd5<\\x91\\x87\\x04\\xaa\\xa2\\xfdA~Hd\\x11=\\x1f  \\x8b\\xd0\\xfb)(\\xa5\\xea\\x7f\\xab\\xb2\\x02.\\x11\\xaf\\xca\\x1a}p\\xf8 k\\x89\\x97I\\x8ak\\x0csr\\xddn\\x97\\xb8\\x82k\\xe2\\x1a\\xa0\\xe5\\x9bQ\\xc1\\xf5\\x0e\\xe4\\x0c\\x7fJ\\xc8o\\xb2#\\xdd\\xbd\\xf4\\x8fR\\xb8\\xe7\\xfe\\xf3;\\x95J\\xa0\\x83\\xa3C8&ej\\x9d\\x04\\xfaG\\xbe1{s\\x9b\\xa0+wH\\xe53\\xffZM\\x90\\xf8\\xbbJ\\xda\\xe0\\x92\\xf9z\\x95 D\\xf2\\xcf\\xb9\\xc7N\\xd1\\xb4\\xf3\\xcc\\xc1\\x00\\x92\\xb8\\x0c\\x1a}AL\\x1c]q\\xbb\\xc1+4A\\xa4[\\xeeU\\xd4U\\xc3L\\xe5\\xbe\\xc2\\xb6!\\xc8i\\x90\\xc0\\x1a\\xbf\\x85\\x00\\x19\\xa0\\xff\\xb6\\x93\\x9a|\\xef\\xb6\\xc6>2|\\x98HM\\xa2}I\\x996W\\xc5\\x1b\\x9d^\\x93IH\\xc1\\xd6wU0*\\xa3\\xaf\\xf6QX\\xc8\\x1e\\xc09-\\xbc\\x9d\\'a\\x16\\x13\\x88q\\x03X\\x95\\xf5;\"\\xf1.M\\x9b\\x8b\\xef|nw\\xa5\\x84%\\'\\x1c\\x12\\xc2\\xf3\\xc7\\xbc\\xbd\\xf0\\xb8\\xc7\\xe0\\xa3fA\\xae\\x820\\x10\\xde\\xf7\\x03\\x1472\\xe9\\x18\\xbfDA\\x95\\x10\\x1cbDh\\xe5\\xd8\\xd8\\xe8\\xf6F\\x04\\x01*rj\\x02\\xd8<\\xe6R\\xe1>\\x81N&C\\x81\\xa7\\xa8\\x8fv)\\xe1\\x03\\xa3\\x0e\\xb3\\xb0\\x8f\\n\\xc7\\xa9\\xe4\\x86\\xc7\\xc6\\xc0\\x04\\xbc\\x1c\\xaa\\xb2\\xc2o\\xf4l\\xecJ\\x92\\x1e\\xa6y\\x14Sm\\xe7\"\\xda\\'\\xe3:l;l?\\xa6\\xaae*$\\xdeZ\\x9b\\xfa\\xa1\\xe7\\x1e\\xf2\\xf4\\xb2`\\xb6e\\xbf8{b\\x15\\xb8\\xbe90\\x1c\\x0b\\xd2\\xcd\\xb0\\xc1m\\xa1Ws\\xa4\\x95W\\x97b\\xb9\\xf2\\t\\x80=\\xba\\xb5\\x1a\\x80\\xa9\\x0c\\x95\\xc2\\xecP\\xad\\xe4\\xa4&\\xb1;\\xc6\\xac\\xafB6s\\x86N\\x01\\xe0m\\xe6\\xdf\\xd4\\xb1%\\x17 om\\xe9\\xfd\\xd0{\\xcf\\x84\\x92\\xec\"\\xc7\\x7f,\\xaaZ\\xb2XO\\x95\\x84Y\\x885\\xc7\\xc7\\t\\xea\\x9cJ\\xe2\\x16x\\xaeT\\xa0\\xae\\xd9 ;@\\xa0\\xe9\\xdd \\xba\\xb1\\xb5[\\x11\\xfa\\xd2\\x0b\\xe2\\xba\\xbep\\x1a\\xc3O\\xe3\\xaf\\x1a\\x01;\\xcf\\xb1\\xe7C\\x18G\\xfb\\r\\xe7\\x0bK|zCD\\xe9KA\\xc2Z\\xe4\\xb1\\x87H\\x01\\x0c-\\xecD\\xe7L\\x98m\\xf7Y\\nA\\x8a\\xd0\\xbfr\\xa0\\xef@MW\\x7fv\\x98\\x01\\xb5\\x96[\\x9dw\\x184k\\x1f\\x8f\\xdf\\x1eUV\\xfc\\xba\\x1c{!\\xb3BI\\x88@e2\\x08\\xcf\\x86(X*GV\\xdc\\x1f%\\x97\\xf15\\xe4e\\xa1F3\\x9f\\xd1\\xfa\\x98mQ\\x9fV\\xe0\\x0cQ\\xee<\\xbd4\\x03\\xb9\\xf1\\x80\\x83i\\x04D\\xe2f@\\xf3\\x8c`\\x10\\xcb\\xe8\\xcfq\\x04\\x97\\xff3\\xf7\\xa3\\xe9\\xee\\xbe,\\xbd\\xba9\\xf0\\x98}o1\\xd7\\x9ej\\x90\\x86\\xd3O\\xb0^\\\\S^\\\\\\x1b\\xe0\\xcb1h\\xa7\\x17\\xe34\\x13 \\xe1\\xe7a\\xf3\\xca\\x00\\xef\\xf3\\xebK\\xf9HN1(\\xb2\\x15\\x04\\xbd5\\xccU\\x97\\xf7syfog\\xbd\\xbc\\xfd\\x1e%\\x8f\\xe9\\xf8\\xda\\xe3o5\\xc0X\\x9f\\x0e\\xfc\\xd6\\x99%\\x9c;\\xa1\\xd6:\\xdd\\x9a\\xbd\\xc5\\x02\\xa54\\x89\\xc4\\x07@\\xa5\\x02,\"}\\x01\\xe4\\xaew\\xa2=~\\xd3)\\xf5IF\\xc6s\\x8b\\xf9\\x00\\xcf\\xc5\\r>\\x05\\x06\\xe0~\\xaf\\xb6H\\x87\\xcb\\xccY\\xc7{\\x99\\x8aV\\x81a8\\x0e\\xda\\xa9\\x81kp\\x06\\xd6r\\xb7\\xefhc%\\xe5-N\\xb0<g\\xd97\\x17cCQ\\xec\\xec\\xa1\\xd6^y1\\x84\\xf1\\x96\\x87\\x15e:\\xdb#C\\xfd\\x12\\xfa\\xdd\\xc8\\xf04:\\x0f\\xd2\\xe1m\\xf4\\xd3\\xe5\\x8b\\x16\\xdf\\xfen\\x05A\\x9b\\xf9\\xf2\\xbab\\xcb\\xf4\\xf3\\xb9Y\\xe9\\x94g\\x0bw\\xa3\\x87TQ\\x1dE\\x08\\x839-\\x86\\x8d\\xf9\\xfc\\xb5c\\xf0I\\xd2\\xf8\\xe2=q+\\xd7\\xb7\\x98\\xf5\\x9f\\xe4_m\\x9b\\xd3\\xc5c\\x8b\\xb0\\r#\\xd6\\x9a\\xbb\\xcdJ\\x8b`\\x1bt\\xae\\x87\\xbc\\xb0/\\x96\\xbbL]\\x00\\x88\\x8b\\xa6\\xae\\x10w\\xa6\\xdfd:\\x94\\xc5\\xdc)\\xe4\\x10\\xd9JZ\\x11zl\\x88\\xc9Nd\\x90N2\\xa08\\xc6\\x08\\x92\\xc2\\x81\\x87\\xbb\\nz\\x13\\xf1_n\\x1b\\xf4\\xfdn\\x9b\\x02\\x88\\xfbF\\x8d\\xac\\xf3\\x82\\xb2_\\xd1$GV\\x11OG\\xeb\\xc8\\x06\\xa8~0\\x08{\\xd3PL^*~\\xf6?\\xef\\x93\"\\xdd|\\xde\\x9er(D\\x02\\xbe\\x01\\xfe\\xf3\\x90,\\x99JY|_\\x8c\\\\\\xc9%\\x99\\x0fl\\xaa\\xcc\\x8d\\x8e\\xb3T\\x88\\xf6\\x08\\x1eK\\x1d=\\xec\\xfe\\xe3\\x92\\x17]\\xeb\\x86\\xeeG\\x07\\xd6\\xe5\\x8a\\xd3\\x1dc\\xad\\xa5\\x9b\\xae]\\x938\\x1e\\x85\\xb0\\xe8\\xde\\x81\\x7fx\\xb5\\x1c\\xc6\\x0b\\xb6\\xe2EQM\\xe6\\xe5\\x14W7\\xd7\\xc3\\xd2\\xc3\\xf4\\x9c\\x1f[\\xe3\\x1f\\xc6\\xe21\\xde\\xb0K8y\\xdd\\xecZr\\xb6y\\xfc\\xe4\\x19\\x89*\\x13\\x1a\\x04\\xff\\xfe\\\\H\\xd7F67# \\xf7p\\x15DQ\\xba\\xf6\\xd2a\\xbcN\\x12H{\\x8d\\x9aNR)x\\xb4C\\xd1\\xc6\\x01\\x8f\\xa4\\xd8\\xcchr6\\xdf\\x8a\\xdc\\xabS3\\xc2\\xf8K\\x9e\\xd4\\xc8=\\xa5\\xd3}\\xe6\\xd1P\\xf7ay\\n\\x88z\\x8c\\x9b\\xf1K\\xce\\xfe l\\xf7\\x13\\x8b\\xd9P\\xa1d\\x9d\\xbc\\xc7\\xec\\xe3\\x13U{\\xceE\\xef\\x815Br\\xde\\xceb.\\xaajs\\xd0`\\x00\\x9d\\x87\\x11\\x94\\x8d\\xd1p\\xa1\\x11\\xd5\\x7f=m\\x12\\x88$N\\x05g\\xb0g\\x9c\\xbe\\xb1a\\xde\\xb2\\xcb\\x84\\xcd\\x13\\x9f\\xf1\\x15\\x9e\\x9be(`\\xf3\\x0f3C\\xca\\x8c\\x84\\xd7\\xd7\\x95\\x11\\xe6+\\x00\\xb2V\\xe6\\x17XI\\x8eI\\x9eZ\\xef;1\\\\\\xd5)\\x9b\\xe1\\xaf\\xc7\\xfd\\xd9\\xa3\\x039\\x0c\\xe9\\xd4\\xda~`-\\xa2\\xd1E\\xf9\\xdd-f\\xc0\\x06\\xbc\\x86~~q0\\xb5s\\x8b\\x99\\xcb\\x85?\\xed\\xfd\\xa0\\xfe\\xe7\\x1eb\\x94\\xa7\\xce7\\'\\xcfP\\x9e\\xa0\\x0203\\xd0\\xf7$B\\xba\\xdbS\\xc4z\\x10n\\x7f\\x10i\\x16\\xf7\\x95V\\x19.\\x8aqI\\xd8(fwT\\x17;\\xe4\\xb0\\xbb\\xb1<%\\x92_\\xa3N\\xd6\\x08h=\\xe3M)\\xa8DYq\\xbb\\xdfi\\xf5\\x9f3&a\\xc12#\\xb2F\\xd6\\xf0\\xed!\\xdc\\x1d\\xd6\\xb1\\tc\\xd1\\xbe-\\x1f\\x95c\\x98$J\\x9f[HU\\x96\\x03\\x1e\\xbc\\'\\xba\\x14\\xc1\\xc0\\xb9p\\x04=\\xb4\\xa8\\xf5\\xe9\\xeb\\x01\\x19\\x89\\x98\\x1ctIkJ\\x87>\\x17\\x1cRFG\\x94TU_\\xd0\\xf3\\x00\\xc1l\\xd0_\\x95,\\xe8Yb\\\\P\\xd8\\x06Q\\xf4\\x85\\x1b\\xc6>\\x03\\xfbB\\xbc\\xd9\\x02D\\xf3\\xa9\\x81\\xa6v\\x9d\\xa4\\xc4\\xdbQ\\xe5\\x0b\\x0b\\xd4\\xc0\\x01\\xb9-R\\xcf\\xc2\\xfdt\\x83\\x83H\\x88\\xf4t\\xafup\\xee\\xe9\\xaa6\\x81o0\\xe30\\xcc/ \\xbf\\xe0<O\\xa5\\x89\\xf6\\xaay\\xb9\\x05\\xb2|o\\xf2T\\xe1\\x95c\\x9e\\xff\\xbf\\xbbK\\x9d\\xb3\\xb7\\xa0\\x90i\\xc7\\xfd\\x1f?\\xc6,\\xe2g\\xe1@\\xa1\\xba\\x0c\\xb5(\\xb5\\xca\\x9f\\x06\\xec\\xde\\xba\\xe3\\xc4g\\x9d\\xfa\\xdcO\\x00X3\\xd4}\\x14\\xed\\x0en$\\xb8\\xa63V\\xf2*\\xb1\\xd8\\xfbi\\xacO?\\xe3\\xb5\\xd97\\xd2ne:@4lg\\xe0\\xc9\\x8c\\x08\\x12\\x18\\xbc\\xe0Zi\\xee){X6-\\xf6\\xe7q~9\\x8d\\xeb\\xaeQ\\xce\\x85\\xd0\\x10U\\xa5b\\x0cn\\x8dB\\xb7`0_\\xc5\\xa8\\xa6\\xd7\\xf8\\x80\\x81:\\x18\\r\\xd0[\\x7f\\x9a\\xbb\\xa5l8Y\\x9c\\xb4\\x90\\x1b\\xf55q\\xb0\\x08\\xae\\xbe\\xc6)+\\x9f\\x04\\xe6\\xd5\\x82^\\x1ds\\'\\x0b\\xf4$g@\\x8c\\xebU\\x8b\\xa6\\xc5\\x8f\\xef\\xbe\\'\\xc1\\x03\\x8a9\\x03YK/\\xeb\\x9bt\\xb7\\x12q\\x95\\xa5\\xbf\\x0c\\x17$\\x95\\xac\\xee=Q\\xb4\\xb5\\xd4\\xb5L\\x9fe\\x88\\x19\\xe5R\\x8e\\xb3\\xd1cP3\\xe3\\xf5\\x9c\\xf4{\\x86/\\x06\\xf7\\xd3\\x883h\\xe1\\xab\\xec\\x84\\xe3b\\x9c$\\x86zU\\xb8@\\x99\\xe6\\x9a~\\x7f\\xdb\\x9alA\\xe0_\\x90,\\xf9+p\\xb6\\xea^\\x93\\xd6R\\xf9\\x8e\\xfd\\x8b\\x97R\\xdfN\\xad;\\xa0Tu\\xc4\\xef$*E\\xb6U\\'\\x0e\\xdd\\xd7R\\xccg2\\xa1JZ;\\x1d\\xd3\\xf1\\x88\\xbd\\x1a\\x1f\\xa4\\xcd\\xec@dS\\xdc\\x99\\x8b\\xc4y\\xadW\\x12\\xb9\\xdc\\x18\\xf7\\x1a\\xb7\\x12P\\x07\\xfc\\xb7\\x9d\\xcbp\\xc5\\x816,(g[4\\xfd\\xaa-\\xb3\\xe4w\\xc0\\xde\\xa5\\xdd\\xcf\\x9fD\\xec^\\x89\\x0e\\x9b.\\xcd\\xc9m\\x99-\\x89\\xc8\\xb6\\x8e\\xf6\\xe7\\x94\\x1f\\x95\\xb1'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "how to request InterQual criteria UnitedHealthcare OR patient",
+        "results": [
+         {
+          "title": "UnitedHealthcare Prior Authorization Template: Complete UHC PA Guide 2026 | Muni Health",
+          "url": "https://muni.health/blog/uhc-prior-authorization-template-2026",
+          "snippet": "Providers can access read-only InterQual criteria at <strong>uhcprovider.com \u2192 Policies \u2192 Clinical Guidelines \u2192 InterQual</strong> (requires One Healthcare ID login). When submitting PAs, reference how your patient meets specific InterQual criteria to ..."
+         },
+         {
+          "title": "Hospital Services: Observation and Inpatient Page 1 of 2",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/hospital-services-observation-inpatient.pdf",
+          "snippet": "UnitedHealthcare uses InterQual\u00ae as a source of medical evidence to support medical necessity and level of care \u00b7 decisions, when applicable. InterQual\u00ae criteria are intended to be used in connection with the independent professional"
+         },
+         {
+          "title": "UnitedHealthcare Prior Authorization Guide 2026: Requirement...",
+          "url": "https://quickintell.com/payer-guides/unitedhealthcare-prior-authorization",
+          "snippet": "UnitedHealthcare prior authorization ... and UHC Medicare Advantage services. <strong>Submit electronically through UHCprovider.com, the UHC Provider Portal, or via 278 transactions</strong>...."
+         },
+         {
+          "title": "UnitedHealthcare Medical Necessity Letter Template: Complete UHC Appeal Guide 2026 | Muni Health",
+          "url": "https://muni.health/blog/uhc-medical-necessity-letter-template-2026",
+          "snippet": "Updated March 2026 \u2014 covers InterQual criteria compliance, Optum Health Networks MA routing, Gold Card Program, and appeal deadlines (65-day MA / 180-day commercial). ... A UnitedHealthcare medical necessity letter must include: (1) patient name, DOB, and UHC member ID, (2) specific diagnosis with ICD-10 codes and clinical severity, (3) objective clinical findings and functional limitations, (4) failed conservative treatments with dates and outcomes, (5) evidence-based justification citing InterQual criteria and clinical guidelines, (6) physician signature with NPI."
+         },
+         {
+          "title": "InterQual Criteria Explained for Providers - MedHeave",
+          "url": "https://medheave.com/prior-authorization-services/interqual-criteria/",
+          "snippet": "If a provider needs to see the specific criteria used in a coverage decision, most payer processes allow requesting the clinical rationale or criteria basis for that determination. Strong clinical documentation is the single most controllable factor in whether a case meets InterQual criteria. Reviewers can only match what appears in the chart \u2014 and a patient\u2019s actual clinical picture is irrelevant to the review if the record doesn\u2019t reflect it."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_207836",
+      "args": {
+       "query": "UnitedHealthcare Commercial appeal submission address Iowa"
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\xb3\\x14\\n\\xb0\\x14\\x01i\\x14}\\x13>\\x17\\xd9\\x84\\x84\\x17\\x14\\x9ei[M\\xd8\\x88R\\x0c\\xdc\\xa8\\\\\\x1eJ}\\xce=\\x88\\xea\\x95\\xb9%d\\x8fS\\xa8\\xf2\\xf3)F.\\x10#\\xd2\\xdc\\xb4n7n\\x12\\xb6\\x1a\\xfe\\x13%\\xa9\\x05\\x9e)\\xadD\\xef\\xdf\\x0fg5\\xf2\\x8e<\\xfa0\\xd9\\xf6tQ\\x88\\xca\\xd8:\\n}\\x8aC\\x16\\xe1\\xaaF\\x7f_*\\xf8\\x0f\\xbd\\x94\\xec\\xad\\t\\xd3\\x1a3L\\xac\\x04\\xb0-\\xc2\\xe7\\xcd\\xd7\\x8d@\\xea\\xd9\\xe2s\\xfc\\x84l\\x90D\\x18\\xc9\\x00\\x8a\\xdd\\x07\\x04\\xe6^\\x82hY2\\xe3\\xc8\\xe8\\x8bN&\\x95\\t\\xee\\xc7 \\xe8+%(\\xa0}\\x93\\xb8\\xdd3\\xa7\\x08\\xca\\xfcC\\x9f\\xe3}\\xf3\\xf2|eE\\x03\\xc4T\\xf7eH\\x07\\xf8\\xf9\\x076\\xf4}\\xce\\x14c]\\x87\\xfb\\x15\\x9b0\\x87(\\x8fK\\xac*\\xe6\\xf9\\xddv\\xb70s\\xb2S\\xc1\\xfa\\xde-\\r\\xf2\\x0e\\x85w\\x9e\\r>\\x08\\x80\\x98*\\x82Z\\xa4\\x9a\\xab:s\\xed\\xecH\\xe4{\\xc1A>\\xa2sN\\x9e\\xde3\\xe8\\xa7\\xde\\x0c=\\xf8\\xe5J\\x1c&\\x1a\\x91@G,/\\x93\\xd4\\xe0\\xa5r\\xd1\\x08$\\xd9\\xe1\\xc4\\n(\\xe7~\\xa2\\xa9\\x19\\x8b\\xe4\\xe3\\xc6_\\x8a\\xaf\\x16\\xbb\\xc9s5\\xd6G\\xc0\\x04-\\xf6b\\xfb-Z\\xc0\\x01\\xc2\\xc6E\\xfe\\xd3g=\\'\\x83\\xb1sm|\\x17\\x8b\\xfeR\\xc3\\xa8Y|\\x99\\t\\xf3_\\xb2 \\xfc\\xc0SFS\\xc6\\x02\\xb4\\x19\\xbe.\\xfe_\\x82\\xb5oF\\xcb(T\\ty\\xb6N\\xaa\\xfe\\xae\\xce\\x05\\xa0\\xe8\\x8d:gXi#4\"\\x94<22\\xe2\\x06v,\\xee\\x12\\xa4\\x18\\x13|\\x03\\t\\xaaS\\x80V/\\x83\\x92\\x88\\xd0\\xd8<s\\x83\\xe0\\xda\\x0e\\xf3\\xc2\\x83\\xe7>\\xed \\xf5\\xa5l\\xc7\\xa08\\xdd\\niB\\x03\\xd9b-\\xb7EW\\x0c?\\xc2\\xb3\\x92\\xe3\\x84\\xbd7\\xf2%\\x87\\xd86r\\xf8G\\x83\\x03uE%\\xbe\\x8b\\x9a\\x99\\xc9\\x80ov\\xd3^\\x14t\\x96\\x11}9\\x87\\xa2\\x9d\\xd3\\x81\\x89\\xde\\x19d^\\xcd\\xbd\\x08Z\\xe1\\x95A\\x1f-\\xb0\\x01\\xe3\\xed\\xc5E\\xf3X\\xd8f!7\\x96\\x9bD\\x9fR\\x19\\x81\\xe1\\xbav\\x08\\xf7^\\xd3\\x15b\\x07z\\x05\\xe1\\xdd\\x82\\xc4\\xa8\\x18\\xa0\\xa8\\xe9p\\x92\\xb1\\xef.3L\\xcd$\\x9aq\\x94Z\\x83I\\xf4d!\\x91\\x95\\xaf\\x99\\x12\\xfau\\xf7O\\xfe\\xbc\\x1c|\\x1as\\xbd4\\xa0\\x99\\xba:%\\x8f_\\xee\\x99\\x04\\x04G\\xcbc}\\xb3\\xf1W\\xcb\\x9cY\\xf91\\xf2\\x03\\xcd\\xd2!\\x10%\\x8f\\x94\\xc5&F\\xd4&\\x91n\\x94\\xe2\\xb7\\xbe3\\xe5)\\xca<\\x90\\xcf\\x13\\xb2\\xf7\\x9a\\xf7B\\xf2\\x87\\xcf\\xb8i\\xa3n\\xf5\\x9d\\xbe \\xa1=\\x9e\\xc6\\xf5\\xb7j\\x12\\xeb\\xac\\xbb\\xb3d\\x1c\\xbd\\xf1y\\x87\\xd1J\\xed\\xc0-w\\xac\\xef\\xde\\xd5|\\\\\\tO\\x99\\xf5\\xa9\\xbf{h\\xc4\\xf835\\xb1\\xc0\\xc1\\tB\\xfb}(\\x81,\\x8c<\\x7fV\\x1c\\xea!M\\x86\\x86Pu\\x179\\xfdo\\x17sT\\xc2\\x13u[j\\x01zy\\x86\\xd2\\xf1\\'|\\x10\\xc6\\xde\\xb8\\x96\\x1d\\x82\\x13<\\xcf\\x18\\xbc\\xd6\\x92x:<\\x13m\\x8an\\xbdp\\x90q!\\xd3\\xb9\\x86\\xa6Yy\\x06\\xb7\\x0c\\xca>b\\xd5\\xc0\\xd4\\x0b3\\xeeZ\\xf2d\\x07\\xa0HH4FV=X\\xc8\\xe5\\xa4\\xd7\\xbb\\x871\\x1e\\xfc\\xb7=\\xd8>\\xf0\\xbf>\\xaeo\\xc5o\\xa9,/\\n\\xc2\\xb9\\xae\\xf3ZS\\xc3\\xe9}\\xfc\\xf5\\x01\\x966$\\xc7\\xe2FZx\\xe8E\\x0b\\x1f\\xa0=#\\rOL\\xfeS.F\\x92\\'\\x1c\\x87\\x07\\x8e\\xcb\\xf2B\\xf3\\xe5p\\xd8\\x18\\x88mE\\xf8\\xf6\\x1f\\x03^\\xca)Q\\xc1\\x06oe\\xf2};Pq\\x00\\xd4\\xd2\\x0ct(,\\xddU\\x8bi\\xd5\\x05|d\\xf60c\\xc5 \\x94\\xd3L\\xf6\\xa6\\xa2V\\xfc\\x8b\\x82=\\xe1\\x1c\\x02\\xa3Xb\\xdf\\xc40\\xd3VL\\xab\\x17\\x8a\\x81u\\xb59\\x19\\xa2R#\\x85\\xc6\\x98I\\xe1\\xd0\\xb4\\x92WK\\xbe\\xd6#\\xadS]\\x19\\x95>\\xecu8\\xce\\x96\\xbb\\xbe\\xda\\xf0,v\\x8a\\x14\\x86\\x86z\\x18w\\x8e\\x1b\\xd2\\xec\\x88\\x8c\\xa6\\x91l#0\\xb0\\xf3\\x08\\x81\\xc8\\xff\\xbbD\\xb7\\xc5\\xdaF\\xf2\\xee\\xdb\\xeeB\\x8e\\x9f\\x9f\\xbe\\x841\\x03\\xe4\\x80\\xce\\xc7l\\x8d\\xabp\\x06\\xfa?\\x02!N\\xdaf\\x0e~p\\x9c\\x10\\xd7\\x91\\xee\\x84z[\\xcb\\xf0\\x12QI\\xe4d7\\xf5^\\x12\\xc1\\xc9au\\x7f\\x02m\\x8c\\xfa\\xa5^\\x95\\xb8\\xbb\\xc3\\xd1}W\\xd7j\\xc9\\x9f\\xe2!\\x9f\\r?<\\xa1\\x08p\\xca=Ix6>R\\x0f\\xe9\\xb7\\xf0\\xc4P,\\x06\\xd0]\\x8a\\x9b~_\\xcb\\x1a\\xcc\\xeb\\xae\\xb3\\x86<_\\xae\\xb4?&\\xb3\\xac\\xb3\\x93\\xf2\\x04\\xb7\\xc07m\\xa6\\x97d\\x92\\xecbb\\xaa\\x91%\\'\\r\\xcbY\\xff\\xfa\\xbf\\t\\xbd\\xbf\\xa7\\xfbu(\\xa5\\xf58\\xb4u^\\xa4\\xaf\\xcb \\xd1\\xfa\\xb2(1`*7\\x99\\x97y_\\x90Zt\\xc2g=\\xe9l\\xf0\\xbe\\x92\\xeb\\t%\\x8e\\xed9qe\\xadL\\x08\\xc9\\xe1\\xaaV\\xbaId\\xbcp\\nt=Y\" \\x170>\\x82\\xac\\xd4C\\xae\\xbe0\\xad\\x9cT\\xe4Ae\\xa3\\xd7<\\xfc\\x9b\\xe7\\x11\\xe8\\x10\\xc1M\\xcd=BF4\\xb7\\xc8\\xd7e\\rbm}\\xc4\\x18\\xec\\x8b2Lt\\x01xZ\\xb5a\\x97\\xe5J\\xef\\x12O!)s1\\xaa?\\x85\\xd9\\xdc\\xbc\\xeeI\\xddK\\xe3$9\\xcc\\xac\\x84\\x96b\\xa8\\x1fD\\xcc\\xc4r\\x8e\\x18V\\xa6\\xbe\\x12aV\\x11E\\xed\\x0b\\x80\\xe687\\x9bB\\xb60},\\x1c\\x00s<\\x86\\xdd\"\\xf6\\x8f\\xc8\\xe9\\xb8\\xa9\\xac\\x9df\\xfc\\xe1w)\\xe4\\xf54\\x89\\xfcB\\xac(\\x18\\x82A\\xbb\\x04\\x1c\\xc5\\xb8\\x98\\xfb\\xbe\\xcd5\\x02\\xe3o\\xb0Q\\x1c\\x19zd\\x17\\x85X\\xa7<\\x18\\xe2u\\xa5j\\x11\\xd1\\xf8\\x95\\xfc\\xd1\\r\\xc4\\xab\\xf7z=\\x9c\\x89^\\xd4\\xc1>/\\x0e\\xf7\\xa8i<\\xe5K\\xb0\\xc9\\xbe\\xf8\\xde8Tj8_\\x98SH\\xff \\xd4_\\x95pM\"\\xf8\\xdc]aCX\\x0b\\x03\\n\\x92\\x98\\xf0\\x08L\\x93\\xea\\x8f\\x97\\x15\\xf5,\\xd6\\xb0^\\xad\\x1bB\\xf1\\xb8\\xc0\\xb4v\\x18\\xf6\\xd9Ik\\xf4\\xc5\\xbc\\n4\\x94\\xa8_\\x96Bx\\x1e\\xf8\\xd9\\xcb\\x9c\\x1c$\\x9c\\xbf\\x02L\\xeas\\xca\\x12B\\xfd\\xdfj&\\xad\\x10X\\x18\\xbb\\xe3\\x12\\x80\\xdb\\xcd%\\xf0C\\x8cE\\xa8\\xe4\\xac\\xd1\\x1b\\x8bx\\xd5O_\\x7f\\xc4\\xe97M\\xbaD\\xdb\\x1d\\x01\\xc8EdBeg\\x8d#\\xeb\\xb3\\x97\\xda\\x8e2V\\xcd\\xdfZ\\xa8\\x06X\\xf8\\xd8\\x97N\\xf3<Oby\\xa9u\\xec\\xcb~\\x08\\x1631\\r\\xed\\x98DG\\x02\\x92R\\x88\\x81\\xf1\\xbc\\x1f0b,\\xfc\\xf9u\\x00\\xaa:\\x11\\x98\\xfbc\\x80\\xb9\\x8fR\\t\\xb5\\x1a\\xe0$\\xa1)\\xa9\\xe6\\xf0\\x85(-\\x17\\x0fF\\xf1\\xe3Oi\\x99M~}\\xde4\\x89\\xd3e\\xe1\\xe0\\x16v\\xbd3M\\xbdY\\x0eb\\xca\\xb0\\xf54\\xaaPp\\xd8\\xcfB\\x13j\\x02XI3\\x00\\x90\\x91hJ\\xaf\\xf3U\\x8f\\xd1\\xee\\xc7\\xf6q\\xd2E\\x16EF\\xef\\\\\\'\\xd5\\xb0\\xe1)\\xc1\\x9e\\xd2\\xdc\\xd9\\xaf\\xb3\\xed\\x9d/s\\x80\\x9b\\x03z\\xab,y\\'\\xd7}\\x93\\xd5\\xe5\\x1d\\xa0\\xce\\x10\\xd1oo\\xbf\\xfd*\\xbc\\x84s\\xb1\\xe9I\\x85\\xca\\x1b!\\x12/\\x8aY\\xc6\\x99\\xcc_\\x851\\x00g\\xe3j\\x85\\x90\\xa5\\xaa\\x93\\x8bxW~\\x05\\xda\\x7f\\xb0\\x1el\\xedT\\x8c\\xaa\\xa4\\xe7\\xbf\\xf1$@\\\\;\\x1bw\\xfb/\\xd2\\x071eU\\x943\\xae\\x14\\x9c\\xa6\\xaf\\xa5\\xc2\\x1dX\\x12\\x95>;\\x97o)U\\xba\\xd2C\\xb2][\\xa4\\xd4c#\\xf9\\x00\\xcaT\\xbao;,\\xc7\\xc8jq\\x1d9H\\xa9\\xb5\\x94\\xdd\\x05\\x91.\\xae\\xdb\\xb7\"\\x1f;\\xe5\\xe5\\xaf\\x91,\\xad\\xb0FPt<Q\\xf5\\xf2\\xfb\\x04\\x0e\\xaf\\r\\x11s\\xd8$\\x10y\\x96<\\xa0%\\xdd9#\\xd3te\\xdd\\xd2D\\xd8\\xe9{\\xd7\\xb0\\x91$\\x06\\xd6\\xc8\\xb6\\xa4\\xbb\\xe4\\xeb\\x94\\xd9\\x8bK\\xe9\\x81\\xba1EH\\xb2\\xf1\\x04\\xf5\\xe5\\xee\\xc2\\roxlu\\xc3\\x84\"V\\x8a\\x85\\xec\\xd1t\\xf4\\xdf\\x9d\\xc4\\xd6h\\xa2\\xf7\\x11\\xe5\\x7f\\xbe\\x99\\xb0WT\\x9c\\x13Y\\x7f[\\x17j\\xff\\x83\\xd3l{\\x04\\xd6N\\xb06\\xab\\x8b&\\xa4/[E\\xc6\\xe1GB_\\x1aLU\\xcc\\xc7H\\x8d\\x05\\xe3\\xab\\xff\\xca\\x12V\\xb8\\xe6$<\\t\\x10\\x88\\x87\\x8dYA{Y\\xeb\\xcf\\xae\\xb8\\x02:1\\xe7\\x00\\xf99\\x9d\\x02H.\\xe1\\x8ad\\xce\\xab\\x078S2\\x90\\x1f\\x1c\\x8e\\xe4\\xf2\\x11t\\xf4=\\x9c\\x19\\x13\\xeaV\\x1dR\\xd4\\xdf\\x82S,QbN\\x81\\xb3\\x00E\\x91J\\x9d\\xf0\\xe8\\n\\xa9\\xf0\\x87\\rF\\x17\"i|\\xbe\\xe4\\x7f\\x0cP\\x86Y\\xcfN\\xe9y\\xf3\\x83REB\\x1bb\\xb71\\xa9q\"\\xd0\\x8a\\xbbR\\x0fa$\\xae\\xa8\\xb6@p\\x90:\\t\\x14\\xb5,\\xb0\\x19\\x1dI\\xf0\\xd4\\x92\\xcbj\\xf7|\\x0bv\\xf2;Au\\xaag-bL\\xd9?\\x05v\\x00B8K\\xff\\x86\\x7f\\x17\\x12qJ\\xae?\\x95\\n\\xd8\\xb3\\xe3x\\x9d)\\xf0O\\xe5\\x111\\x00wD\\xbf\\xd8\\x7f\\xf6P\\x07\\xcb\\xb7+\\x14\\xe5a\\xd0\\x85i\\x01t\\xdbm\\xcf\\xf4\\x82h@z\\xa0\\x05\\x02N}b\\x98(mY\\xc9\\x08F\\xe7_\\x95\\xb5\\xa1yTr\\xcc\\\\o\\xae\\x1eT\\xb0p\\x0ee\\xde\\xf7[\\x92\\x04\\xce\\xb0\\x9aHJ\\x97#\\xef8\\xa0\\xf5T\\x80\\x0bAG\\xc0\\xaak\\xc0\\xdc\\x18\\x85j\\x86vs\\xce\\xd2>m7\\xbdp\\xbae\\x80\\xfc\\xe56vn\\xfe\\xa2&\\x82W\\xfb\\xd07C\\xf7\\x85\\xd9y\\x1a\\x9f|\\nb\\xab#\\xac\\x83\\xcdE\\xf0\\xff\\x9ah\\xf8\\x11\\xf2\\x98#\\xd76\\xe8\\r\\xbc\\\\\\xf5\\xd3t\"U\\n\\xa1z\\xc3\\xeaj\\xc3mS%d\\xf8\\x10\\xfcQPlv\\xf3\\xfe\\xc6Ob\\xe6\\xb1\\'\\xe6\\x04?\\xbd\\xb9\\xae\\xdb\\x02M\\xdb*\\x0e\\x8b\\x1c\\xebN\\xc0q\\x1f\\x0c\\xb9M/\\xa8\\x9d\\x897\\xcc\\xc1\\xd9\\r\\xce\\xa1\\x0f\\x06\\xb7Q} b\\x0fuu\\x95 \\x0b\\x1e\\x0bc.0U\\xfb\\xd0\\xb8{\\xd7\\xd8\\x1a\\xda\\xf8\\x8e\\xfe\\x07\\x19\\xb6g;\\xc6\\x95\\xe1\\xc1\\xba\\xff\\x14z\\x9e\\xe2\\xd2\\xfdu\\xe9T~=y\\xa5n\\xa9O.\\xbdN}\\xc4F\\xb4\\x08\\xccw\\\\\\x844\\xe1-+8lV\\'\\x1d\\xbb\\x9d\\x1d\\xdb\\x81\\xbf\\xae\\xc2_\\xee \\xad\\xf0\\xa2\\xc1\\x00G\\xe5\\x1c\\xfaO)\\xc9\\xb8=\\x17TU1D\\xa9\\x18m\\xcf\\xf4y\\x00\\x17\\x86\\xd5\\\\\\xcd\\xe4\\x87I\\xa2}\\x0eh\\xb1\\x19\\xb7k\\x1c\\xd6\\xaa9\\x11\\x94\\x16\\x8c`\\xe6\\x85\\xfa\\xb0\\x0bp\\xc99\\xb3\\xe9\\xa7\\xf9\\x10[\\xfe\\xc2#j\\x18\\xdd\\xe3r\\xfe8\\n\\xcf\\x1f\\xcd\\x02\\x11O\\x1c5\\x90\\xf0\\xe6\\x93gN\\xeb\\x1f\\x99\\xed\\x7f\\xb3\\xfb\\x00\\xd0\\x9f?\\xe9\\x91d,\\x16\\xb6\\xca\\xa2i\\xdf\\x87?\\xb3\\xc2\\xd4\\x97\\xf4\\xe0\\xa4\\x80\\x11\\x03\\xfe\\xd0\\x8e\\xcdh\\xe3\\xbd~B\\x8a\\xa9N*f\\xc6ma\\x04\\x99o\\x9b\\xa7\\xa4\\xeaa\\xd3\\x8e\\xf51e\\xd2C\\x93Qa\\x9f\\x0c]\\x7f\\xbd\\xef\\xf8\\'Y\\xa2z\\x84?\\x1a\\x07\\xde\\xc1*\\xdc\\xd7Jb_\\x88\\x1el\\x8e\\xa5\\xbaP{\\xd8\\xc3\\xbbUw\\x82\\xa9\\xc5\\xe7'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "UnitedHealthcare Commercial appeal submission address Iowa",
+        "results": [
+         {
+          "title": "Appeals and Grievances Process | UnitedHealthcare Community Plan",
+          "url": "https://www.uhc.com/communityplan/learn-about-medicare/appeals-grievances-process",
+          "snippet": "Customer Service also has free language interpreter services available for non-English speakers. You can submit a Part C request to the following address: <strong>UnitedHealthcare Community Plan A&amp;G Part C/B: P.O.</strong>"
+         },
+         {
+          "title": "Pre- and post-service appeals and reconsiderations | UHCprovider.com",
+          "url": "https://www.uhcprovider.com/en/claims-payments-billing/appeals.html",
+          "snippet": "Most network health care professionals (primary and ancillary) and facilities that provide services to UnitedHealthcare\u00ae Medicare Advantage (including D-SNP), UnitedHealthcare Community Plan (Medicaid) and commercial plan members are required to submit reconsiderations and pre- and post-service appeals digitally."
+         },
+         {
+          "title": "appeal rights",
+          "url": "https://member.uhc.com/myuhc/content/campaigns/myuhc-2-0/medical-appeals-grievances/address-rights-information/appeals-custom-address/jcr:content/par.html",
+          "snippet": "Most plans allow 180 days from the date of receipt of claim denial to submit an appeal. Review your plan for your appeal rights. Appeals may be sent to us in writing at the following address:"
+         },
+         {
+          "title": "Free UHC Appeal Letter Template 2026 \u2014 CDG Citations & 65-Day Timely Filing Deadline | Muni Health",
+          "url": "https://muni.health/blog/uhc-appeal-letter-template-2026",
+          "snippet": "UHC Community Plan (Medicaid managed ... from commercial UHC. Common differences: (1) State-specific appeal forms may be required, (2) Shorter timelines in some states (30 days standard, 72 hours expedited), (3) Different appeal addresses by state, (4) State Medicaid policies may supersede UHC CDGs. Check your Medicaid denial letter for state-specific procedures, or visit UHC.com/CommunityPlan/[YourState] for your state&#x27;s appeal requirements and submission address. No. UnitedHealthcare does not have ..."
+         },
+         {
+          "title": "UHC Provider Appeal Form Guide 2026: Portal, Submission & Deadlines | Muni Health",
+          "url": "https://muni.health/blog/uhc-appeal-form-guide-2026",
+          "snippet": "UnitedHealthcare&#x27;s primary appeal ... and Part D \u2014 require submission through the portal or by mail to <strong>the address listed on your denial letter</strong>...."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_254896",
+      "args": {
+       "query": "UnitedHealthcare commercial member appeal address PO Box"
+      },
+      "name": "web_search",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b\"\\x12\\x93\\x03\\n\\x90\\x03\\x01i\\x14}\\x13\\x16|\\x1a\\x82\\x8f\\xabRR\\xe1]\\x84/\\xff:\\xa1\\x06\\x94r\\xf6\\x14\\x94`?(\\xd3\\xcf\\xfd\\xf5d\\xac\\xa0\\x16\\x91\\xf2N\\xc7=\\xf9\\x8e\\xdf\\xae?1*\\xa8\\x9de\\xc6!p\\xe6\\xc9\\xe7@\\xc1^\\xf6\\xa7V\\x0b\\xa3\\xbdq\\x8d\\xd5\\xb1\\x9e#\\xe9\\xab\\xb9\\x9cq\\x85\\x9d+\\xc3\\xe7\\xc7w\\xfd\\x07\\xe7\\t\\x83\\x06;:!\\x9a=}\\x9eV\\xbe%\\x05\\x96\\xf9S\\xf2\\xd8\\x7f\\xcc\\x9f\\x15D\\x94J\\xb3\\x0f\\x8c\\x8e\\xb2#\\xb0\\xb5\\xd2\\x7fV\\x83-\\x1f\\x9cr\\xa7\\xabA\\xa7\\xfd'\\x9c\\x8f|)\\xa0j\\x9d\\xcc\\xc7\\xa3a\\xd6t\\x82\\x84\\x80\\x97AaA\\xd6_\\x7fk\\xc7s\\xc2\\xc88\\xfeo\\xb3\\x86\\x05\\x1a\\xf2v\\x19\\xe8\\x01\\xb8U\\xff\\xd4w\\xfbO\\xf1(\\xa0k\\xf2Je\\xa2\\xb4T\\x03\\x7fpA\\xa2\\xc5\\xafX\\xadw\\xa2\\x061\\xc0\\x94\\x99p\\xa4\\x8f\\x10Y\\x8b\\xeb\\xca6\\x9b\\xd2\\xe2\\xff\\x95\\xa2\\x8e\\x1c<\\xa6*M\\x92\\xdf\\xf7\\xe0N\\x12\\xdf\\xf1\\xde\\xde\\xab\\x93\\xf2q\\x7f\\x08\\xc8\\xa6\\xc4\\x9e\\xcbE4\\x1ff\\xf0\\xf0\\xd3\\x0e\\xcf*\\xcb\\xb1\\x96\\x9al\\x9d\\x18\\x8aA\\xaa7\\x05\\xa6W6?\\tC\\xed\\x7f8zf\\xc4\\xcd=\\x99\\xf4p\\xf4)\\x10\\x91\\x0b\\xa5\\xac\\x19\\xbe^\\xb3vS\\xeb\\xb5\\xe7DP1\\x82\\xc4\\x8e\\xd4\\xaeF\\x01\\xeex\\x16\\xd4\\xfau?`\\xb9v\\xe8~\\xd8\\x9c3\\x1dZ\\x0b\\xbe\\xd2\\xaa\\x10\\xd3\\x04G\\xfbh\\xf0\\xd27\\x87\\xb4\\xc1\\x010\\xfb\\x0e\\x9e\\n<\\x8e\\xed\\x890\\x7f/b^\\xc0\\xe9\\x8c\\xc8&\\x19\\xd5\\xcc\\xa9U\\x8d\\xad\\xe8\\xe4U(\\xe4#f~O\\xf9\\xeew+\\xe2\\xa2\\xbf\\xb1\\x10\\xce\\xf5\\xb6\\x15~r\"",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "UnitedHealthcare commercial member appeal address PO Box",
+        "results": [
+         {
+          "title": "appeal rights",
+          "url": "https://member.uhc.com/myuhc/content/campaigns/myuhc-2-0/medical-appeals-grievances/address-rights-information/appeals-custom-address/jcr:content/par.html",
+          "snippet": "UnitedHealthCare Member Inquiry/Appeals \u00b7 <strong>P.O. Box 740816</strong> \u00b7"
+         },
+         {
+          "title": "Appeals and Grievances Process | UnitedHealthcare Community Plan",
+          "url": "https://www.uhc.com/communityplan/learn-about-medicare/appeals-grievances-process",
+          "snippet": "Members are able to file via the member\u2019s portal: myuhc.com/communityplan ... UnitedHealthcare Community Plan Attn: A&amp;G Part C/B: <strong>P.O. Box 6103, MS CA120-0360 Cypress, CA 90630-0023</strong> A&amp;G Expedited Fax / Part C: 1-866-373-1081 Standard Fax: ..."
+         },
+         {
+          "title": "Member Service Request Form Instructions",
+          "url": "https://cms.member.myuhc.com/content/dam/myuhc/consumer/assets/pdf/consumer/claims/document-center/medical_appeal_form.pdf",
+          "snippet": "\u2022 If you have other documentation or items that may help us \u00b7 understand your request or better explain your situation, please \u00b7 attach these items also. \u2022 Mail the form with any related attachments to: UnitedH ealthca re Memb er Inquiry /Appeals \u00b7 <strong>PO Box 6111 Mail Stop CA-0197 Cypress, CA</strong> \u00b7"
+         },
+         {
+          "title": "Untitled",
+          "url": "https://member.uhc.com/myuhc/content/campaigns/myuhc-2-0/medical-appeals-grievances/appeals-addresses/empire-custom-address/jcr:content/par.html",
+          "snippet": "Appeals may be sent to us in writing at the following address: UnitedHealthcare Attn: Appeals <strong>P.O. Box 1600 Kingston, NY 12402-1600</strong> Fax: 845-336-7989"
+         },
+         {
+          "title": "Please remember to have the patient complete ...",
+          "url": "https://member.uhc.com/myuhc/content/campaigns/myuhc-2-0/medical-appeals-grievances/appeals-addresses/appeals-generic-address/jcr:content/par.html",
+          "snippet": "Mail documents to: UnitedHealthCare Member Inquiry/Appeals \u00b7 <strong>P.O. Box 31393</strong>"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_288024",
+      "args": {
+       "url": "https://member.uhc.com/myuhc/content/campaigns/myuhc-2-0/medical-appeals-grievances/appeals-addresses/appeals-generic-address/jcr:content/par.html"
+      },
+      "name": "http_fetch",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\xff\\x02\\n\\xfc\\x02\\x01i\\x14}\\x13\\xa9\\xae\\']\\x95\\x8bi\\xa6\\x86\\xe6\\x87\\xe9\\x8d\\xcb\\x8d\\x04\\xae\\x18\\xa9\\x0c\\xd2\\t\\x86\\x9d\\xe9\\xf1E\\xa7\\xed\\t\\x0f\\xbc\\x13l\\x82\\xe6\\x16\\xb7\\x9d\\xac]\\xf0\\xc1\\x89\\xeb\\r\\x05\\xc4~2\\x1c|i\\x95g>\\xf7P;A\\xa4\\x150\\xbdY\\x96\\xb8\\x13\\x89\\xe6x>z\\x82\\xf7n>\\xff\\xa5^\\xa8A\\xf8\\xa1Y\\x1c{(dh\\xca\\x87\\x02x4N\\xc1\\x0e\\xba\\x1d\\xd9\\xc1j\\xf4|\\x8e\\x90\\xb7\\x17\\xbd\\xef2\\x11\\xb0Z\\xa9\\xc6P2\\xb5L.B\\xc0W\\xc0\\x98\\xd5vx\\xe1\\xf4\\x89\\xa4\\x959>\\x15\\x04\\xecPsb*\\x86\\xda\\xf7f\\x85\\xe72(\\xae,\\x16\\x91I\\x82\\x94\\xb3W\\xaa#\\xf5\\x1e\\xd3\\xb8\\xb2\\xbf\\xb3\\x84\\x8b\\xc4L\\xf6\\xa3\\xca\\xea~\\xba\\xcf\\xa8\\x84\\x11\\t-\\x89\\x14\\x1f\\x1c\\xc6\\xfcY\\xda\\xddl\\xb3V\\xf4\\xe0\\xd3\\x87\\xd6nrM<\\xb7r\\xb4]\\xc8\\x7f\\xd4\\x0c\\xb6{T\\x80sU\\x9bi\\xf2\\xac\\xe8mmz\\x17\\x11\\x10\\xdd\\xb2\\xf74\\xa1\\x05\\x8ev\\xf4`\\x0c\\xa8R\\xe4\\x86\\x00\\x81\\x14c\\x12y\\x11\\xb0]\\xe0\\xf4\\xd9f\\xf8s\\xd8\\xf2|\\xcd\\x07\\xa5\\xf1\\x0c\\xfa\\xa5\\\\\\x8f\\xc8\\xf8v/\\x9d\\xdd\\x94\\xf3\\xcc\\x1c\\xff\\x0c\\xd2\\x89\\xc0\\xcd\\xd6k\\xf3\\x11\\xce\\x13TH\\xc4\\x91r\\xbf\\xcdJ\\x18)\\xe6\\x8er\\xb6U:i\\xeb\\x00\\xe6\\xb8\\xe0\\xc2a;\\xf8D\\xf9/\\x0f\\xd8\\x1a(\\xee\\xbc.\\x0f\\xe9\\xb5\\x8d\\xc0\\x98\\x10\\x97iC4.i\\xed\\x11MNd\">\\xd4`\\xa1\\xc9V\\xd8/j\\x0c\\xed\\x7f\\x93\\xd8\\xa6\\xd6\\x88\\x06\\xbcF\\xcb>q\\xed'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://member.uhc.com/myuhc/content/campaigns/myuhc-2-0/medical-appeals-grievances/appeals-addresses/appeals-generic-address/jcr:content/par.html",
+        "final_url": "https://member.uhc.com/myuhc/content/campaigns/myuhc-2-0/medical-appeals-grievances/appeals-addresses/appeals-generic-address/jcr:content/par.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "Follow the steps below to complete this process. Please remember to have the patient complete the Authorization section of the form if you are not the patient, enrollee, parent/legal guardian or provider of service. Attach receipts, documents or other items that might help us understand your request or better explain your situation. Note: You don't need to send Explanation of Benefits (EOB) statements. We have those on record. Mail documents to: UnitedHealthCare Member Inquiry/Appeals P.O. Box 31393 Salt Lake City, UT 84131",
+        "text_truncated": false
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": {
+      "id": "call_314275",
+      "args": {
+       "url": "https://member.uhc.com/myuhc/content/campaigns/myuhc-2-0/medical-appeals-grievances/address-rights-information/appeals-custom-address/jcr:content/par.html"
+      },
+      "name": "http_fetch",
+      "partial_args": null,
+      "will_continue": null
+     },
+     "function_response": null,
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": "b'\\x12\\xf9\\x04\\n\\xf6\\x04\\x01i\\x14}\\x13\\xbfS\\xe9\\xfc\\xea\\xaa\\xba\\x86\\x8b\\xa3\\xb1\\xa1\\xf6\\xcb\\xaa\\n\\xa5\\x83\\xc7hp\\x80\\xca\\xb2\\xc8\\x14\\xe9Qt\\x1aHA\\x1b!\\x96`FK\\x96\\xb4\\xf2\\xe2\\xb1\\xbb\\xeb$\\x16\\x04>\\r\\xb2\\xde]0n\\xe5q\\x17\\xa6\\x8d?\\x00\\t\\x1f\\x821\\x0fL\\xa9\\x80`,\\'\\x0e\\xe1n\\x07\\xf9\\xb9\\x024\\xd9-\\xc9\\r\\'\\xd1\\x81\\x1a\\x1a\\x04UD<\\xb6D\\x82\\xea0\\x11\\x84\\xb3@\\xa6\\xf5.\\x11\\xa1\\x06\\xbc\\x89\\x97+\\xf0gxU+w41\\xb3r`\\x9d\\'r\\x86\\xd2\\xed,q\\xc0\\x9e\\xe1\\xdb\\xc5\\xcd\\x13\\xbc<tk\\xd0\\xe6~8\\x9d\\xae\\x08\\x9ex\\xe8E\\x91`-\\xd0\\xd2\\x80?\\xbd/\\xa0\\xf4S\\x97\\x17p\\x891C#&N\\xfe|Z\\xd7.P\\xd4\\xa8\\x94\\xaa\\xec\\xe0i\\xfc\\xca@A\\xf0&&\\xec\\xa0Rq\\xc3\\xb5\\xe0\\xb1s\\xfa\\x13\\x99\\xa8\\x97F\\t\\t\\xa4\\x05\\x01\\xcd\\xcdB\\xad\\x9a*\\xc2\\xf1\\x17\\x7f\\xb0!j\\xe7\\xf3y\\xf6\\x94J\\xda\\x11zB\\xe3\\xe8f+\\x8fxd\\'ZO\\x9etSyu\\\\\\xa3&c\\xafG\\xdaZ\\xda|_\\xad\\x19\\x8ax\\xfer\\xd0\\xfeE\\n\\\\\\x1b[\\x0cAjh.\\x12\\x84\\xe3\\xfe\\x97y\\xcaE\\xcd\\xfb\\x81\\x87\\xfe\\xceh\\xaf\\x1bov\\xe3S\\xe4\\xe4\\xd1\\x02\\x87\\x83\\xc5\\x976\\xacKl9\\xcd\\x9eX.X\\x06\\xc9\\x07\\x94p1\\xd5P\"d\\xaa@x\\xb1\\xd7[\\xaa\\x02\\xc5\\xf4\\xecs\\xa46\\xa3\\xb8\\xbfg\\xc7\\x8ff\\x18\\xe2\\xb5\\xf3\\xa8\\xabv1\\x18\\xc2\\x0eP}2A\\tk\\xb2k\\xe6!A8\\xaf\\x87\\x10\\x00\\x01\\xf5R\\xba\\x12\\xf6\\xe7\\xeaJ?\\x14\\xac$\\x8e\\x1b\\xd9t\\t\\x99n\\xaee\\x01|\\xb6\\xceU\\xd8gV!\\'\\xa1\\xf8\\xf6Ki\\x00\\xa56\\xd8\\x87-t\\xe0U\\x86\\x96\\xc0\\x1c\\xe5\\x82o\\xba>\\x9f7\\xbfG\\xe1+\\x9aH\\xef:\\xc0\\r6\\x81\\xec\\xaa\\xda\\x16uW\\xab\\x9f\\xe7\\xd4\\xb8U\\x05\\x87\\xd9\\x02\\xb1{G\\x9d_\\x86u\\xda\\x8e\\x1c\\xbc\\x9c\\xec\\x03eN\\xbc\\xe4B\\xa4\\x8f\\x92r0\\x1f\\xbe\\xac\\x1e\\x92\\xaf<\\x83\\xe2L\\xee\\xc3\\xd3T\\xc8l\\xfb\\x1d8\\xa9\\x98:\\xa3\\x99l\\x1d\\xcb\\xdb\\xa4=\\xcd\\xbam@\\xfd\\xf3\\xa0\\x10\\xe0\\\\\\x12\\x87\\xf7\\x00\\xf2\\x8b5\\x12\\x90*FNd~`\\xee\\x03\\x00~\\x98\\x11\\xdc\\x1f\\xe4z\\x91\\xdd&Z\\x89\\x8e\\x07(3\\x1c\\xc0\\x88\\x9b?M\\xcd\\x83\\x94v:\\x14\\xe5\\xc5\\x95\\xe2\\n\\xfcx\\xb5\\x9b\\x90{\\r`\\x12X\\x94\\xf7E\\x88\\xb6\\xce\\xd2\\xfft\\xdc=\\x9a\\xb1\\x991gB\\xce#\\xb5\\xe2\\xe6P\\xa9\\xe6Ua\\xb4\\xfc\\x01-\\xd4\\xd9C\\xd5>'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": {
+      "will_continue": null,
+      "scheduling": null,
+      "parts": null,
+      "id": null,
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://member.uhc.com/myuhc/content/campaigns/myuhc-2-0/medical-appeals-grievances/address-rights-information/appeals-custom-address/jcr:content/par.html",
+        "final_url": "https://member.uhc.com/myuhc/content/campaigns/myuhc-2-0/medical-appeals-grievances/address-rights-information/appeals-custom-address/jcr:content/par.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "login_wall": false,
+        "blocked": true,
+        "blocked_reason": "thin_200_response:284_text_chars_of_1586_bytes",
+        "error": "fetch blocked or unreadable: thin_200_response:284_text_chars_of_1586_bytes",
+        "text": "APPEAL RIGHTS Most plans allow 180 days from the date of receipt of claim denial to submit an appeal. Review your plan for your appeal rights. Appeals may be sent to us in writing at the following address: UnitedHealthCare Member Inquiry/Appeals P.O. Box 740816 Atlanta, GA 30374-0816",
+        "text_truncated": false
+       }
+      }
+     },
+     "inline_data": null,
+     "text": null,
+     "thought": null,
+     "thought_signature": null,
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "media_resolution": null,
+     "code_execution_result": null,
+     "executable_code": null,
+     "file_data": null,
+     "function_call": null,
+     "function_response": null,
+     "inline_data": null,
+     "text": "```json\n{\n  \"policy_found\": true,\n  \"policy_title\": \"Surgery of the Shoulder \u2013 Commercial and Individual Exchange Medical Policy\",\n  \"policy_number\": \"2026T0556GG\",\n  \"policy_url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-shoulder.pdf\",\n  \"effective_date\": \"September 1, 2026\",\n  \"criteria_quotes\": [\n    \"Surgery of the shoulder is proven and medically necessary in certain circumstances. For medical necessity clinical coverage criteria, refer to the: ... InterQual\u00ae CP: Procedures: ... Joint Replacement, Shoulder\",\n    \"The InterQual\u00ae criteria are proprietary to Optum and are not published on this website.\"\n  ],\n  \"appeal_deadline\": \"2027-01-31\",\n  \"submission_route\": \"Written appeals can be sent by mail to: UnitedHealthcare Member Inquiry/Appeals, P.O. Box 31393, Salt Lake City, UT 84131, or UnitedHealthCare Member Inquiry/Appeals, P.O. Box 740816, Atlanta, GA 30374-0816. Members may also submit appeals online through the member portal at myuhc.com.\",\n  \"how_to_obtain_criteria\": \"Because the governing InterQual criteria ('Joint Replacement, Shoulder') are proprietary to Optum, they are not fully disclosed in the public policy document. The patient can obtain a free, complete copy of the specific clinical criteria applied to their case by calling the UnitedHealthcare Customer Service number on the back of their member ID card or submitting a request in writing. Providers can access a read-only version of the InterQual criteria online by logging into the UnitedHealthcare Provider Portal (uhcprovider.com) with their One Healthcare ID and navigating to 'Policies' > 'Clinical Guidelines' > 'InterQual'.\",\n  \"confidence\": \"high\",\n  \"notes\": \"The policy governing CPT code 23472 is 'Surgery of the Shoulder'. This policy defers the clinical medical-necessity criteria to InterQual's 'Joint Replacement, Shoulder' subset, which is proprietary and requires a portal login to view.\"\n}\n```",
+     "thought": null,
+     "thought_signature": "b'\\x12\\x932\\n\\x902\\x01i\\x14}\\x13\\xb5\\xab\\xdb\\x11F\\xd8\\xc98b\\xe81\\xd3W\\xfb\\xc7\\xf1\\x13~\\x05(\\x87\\x9c\\xf3\\x82\\xa2\\x9f\\xdc=\\xf7\\xcbV\\x0e\\x8a\\x1e\\xa2\\x13)V\\xd5\\x1c9Igh\\xa3\\'\\xc4\\xa9\\xe2r\\xf0|-J\\xdd\\xb3\\x04t\\xbak5`\\xa2\\x10\\xad\\x00\\xca\\x80B\"\\xa9\\x8fi)\\x93\\x17\\x87\\xf2\\xc0\\xc7\\x93\\x12\\x96\\xaa)B\\xb8]\\xd5\\xfeZ\\xbf3\\xac\\x138y\\x81\\x0bTS\\xf4T\\x167+\\xbe\\x1d\\xee\\xa0\\xd1\\x02\\xf1\\xa0 x\\x08QH\\xe9\\x99\\xa1\\x9e\\n\\xd5d\\x18\\xaf\\x961\\xda\\xd7\\xf8M\\x82z\\xcd\\xc6pE\\xf7/\\xef\\xaf\\xdf\\\\\\xc3\\xa62-\\xa2Q\\xce)rR\\xbdM\\x8d\\xb2\\xab\\xdf\\x8b\\x9c\\xfa\\xe0U\\xca|o\\x10\\x9fX\\x17\\n\\x0c4P\\xb5,\\x17\\xc6\\x83C.O\\xd7\\xd9r\\x963u\\x02\\xf0\\xd2\\x94D\\x1d\\xbd\\xa1\\x0f59\\x13l-\\x8c#Hu\\x99b\\x1e\\xdf\\xd6\\x98\\x8b\\xf3\\xe2\\x10\\xfceM\\xde\\xb0~\\xafF\\x1f\\x13\\x9c\\xdb\\xd8m\\xfbg\\n\\x9c\\xbf+0\\xaf\\xccgt\\xe3E\\xa6\\xebg\\x00\\xab\\xfb\\x0b\\xcf\\x9d\\xf2\\xe8\\x12p@\\xaa\\xae\\x8fJ\\xc6\\x8dh!\\xb2\\x88\\x8c\\xb9\\xdb\\xf8\\x02\\xe8^<^\\xf1\\xae\\x10\\xfdH\\xac\\xf7\\xae\\xb5\\'\\xe2\\xce\\xb0\\xc6d\\xef\\x1dG\\xc7\\xac^b\\x96\\xc2\\xc2\\xedc\\x0cB\\x9a\\x95\\x1b\\x93A\\xbd\\xb6M\\xde@\\xff\\xfcMl\\xed\\xd7\\x0f\\t\\x05\\xe9p\\x9e\\x86s\\xfb84v(\\xf0oL,S\\x10\\xda\\x0e\\x8d\\xb4M\\xfe\\x90\\xa9\\x93\\xbd\\xf3\\\\\\xb2\\xac\\x9d\\xe6\\xdd_\\x94\\x07Z\\xa3E\\x92\\x8an|~\\x8et\\xe0\\xc5|\\xe6\\xb7\\x00A\\xa0\\xd9\\x10\\xcc#\\xaa\\x07\\x98S\\x94^1\\t\\x90\\xf3I\\x07>\\xe4>\\xf7\\x04\\xb9\\xa1z\\xaa\\xb5\\xd2\\xdab8a\\xab\\xe40\\x05=\\x85P\\xa0P\\xaa\\x0cNk\\xfd[\\x8aXD[\\x96\\x1dx\\xed\\xd9\\x9a\\x88\\t9LfFh]\\x1e\\xa5\\xf1\\xeaN]=\\x17\\x99m\\xdb\\xc2H\\x04\\xf0\\xfcV\\x8b\\xfe\\xa0y\\xe2\\r\\x8a\\xfayv\\xff\\x99\\xdei}\\xbd2\\xbf\\n\\r\\xe9\\xda\\x8e\\xe3\\x10\\xef\\xf81\\xb5\\x18\\xf0\\xac\\xc7\\xb0\\xd2:\\x8fN\\xa1\\xf6\\x1ar\\xd6\\x81\\x8c\\rH\\xa8\\xd8$*=\\x0eJ\\x9e\\xee\\xa2\\x93\\xc0BW0\\xf3\\x89\\x90\\xa5{u\\xdb\\xc7\\xd3\\n\\xa7\\xb0_\\xe9\\xa0`\\xa5\\x13/\\xa0e\\xa2\\xb7K-\\x85\\xba\\xa3\\x87\\xce\"\\x0c3i\\x14\\x1e\\xf9\\x8065\\xa3h4\\xb8\\xcbnv\\x96F=\\x88\\x0bR\\xa1\\xf1\\xc5\\x95s\\xb1\\xab\\x95\\xaf\\xacC\\xb3_\\xa6\\xe3\\xe2\\xf4Xa\\xba\\xcf\\xe5\\x8c3\\xdb\\xc6o(\\xa7\\xa4\\x00\\xef\\xffW\\x98\\xdb\\xd5\\xe1\\xba\"\\x14\\x99\\x1b\\xe4\\xd0\\xd8\\xe8\\xf9\\xc4\\xc8\\x19\\x97\\xac\\xd0\\xff-\\xfdG\\x1f;Y\\x9fc\\x15\\x1a3\\xf6Kn`b`C\\xcf\\x01\\x97\\x14\\x95,\\x1f\\xa5\\x1c\\x0b\\xc2\\x14E\\r\\xe6\\xfa\\x0b\\x99r\\x9cZ:\\x8d\\x1d\\xbd{\\x83\\xd2\\xf8:\\xcf\\xcb\"\\x02\\x1fx\\xc8y_\\xec\\xa4H\\xa7~\\x17\\x8d\\xed\\xca\\xad\\xa3\\x8d|\\xee\\xa1\\x12\\xc3\\xf1+\\xe3\\xd3u>\\xae\\\\\\x8b7\\x80\\xb2\\xe7 \\x1f\\xff\\xda\\x81A\\x01\\xe4\\x9bD\\xc5\\xac\\x9d\\x9f\\xa8\\x1f\\x0f\\x15\\xadV\\xfa\\x17\\x9f\\xeb\\x82\\xd1\\xfd\\xf3\\xb2\\xb9@\\x89\\x8c)L\\xaf\\x9f\\xc8\\x90\\xfe\\x82\\xf02\\xca\\xbbk_\\x8e\\xc7\\x18\\x82\\x0cJ~\\xd2U\\xa9uyt\\xf7v@0i\\xda\\xdbP\\xbe\\xc8h1\\x0c\\x02\\x0cm$\\xde\\xeb\\xa2\\x0c\\x14\\x06{A\\x91\\xa4$\\xd0\\xaa\\xde\\xc1\\xd8W8\\x02\\n\\xb6\\x12a\\x8c\\xb1\\xde\\xf2z[G\\x88Z\\xda\\xb2*\\xed\\xb9\\xc1Bn:P\"\\xcb\\xcbh\\xca1V\\xb7\\x18e\\x7f\\xcd\\x12x\\xa8\\xc3\\xd2\\x03p\\xb2a#\\xfe6H\\xe0]\\xdfL0b\\xe5\\xf7\\xec\\xed\\xa4=G\\xaf|\\xa7\\x03\\xd3\\xdb\\x84-\\xe55\\xe7irR\\x94\\xe7\\xa4\\xbc\\xd8\\xb6\\xab=\\xb8\\xa02\\xe8+\\x87\\x0b(-1\\xb5\\xe7P\\xd2\\xea\\x89\\xe43\\xa1\\xb2\\x07\\x83o\\x86\\xa6\\x13\\x11\\xb8\\xdf\\xdb\\n~V\\x93/\\xc4d\\x16\\xcdf\\xc6yR(?\\xddv\\xfaGw\\xac)\\x1cPH\\xc1\\xe4\\x92\\xb8\\x0e\\xf2\\xd1\\xb2\\x8b&\\xe5#\\xf4s\\xd4,0{\\xca\\xb2~\\xb9\\xbc\\xd7\\x98t\\xe5z\\xb8^zt\\x92\\x0c19a\\x97\\x83K\\xd6f\\x97\\x9b\\xb2\\x9fk\\xbcq\\xc2\\xf6f\\xec\\xb6\\x83\\xb3L\\xc1\\x03\\x984\\x0e\\xe9T\\xc4\\x80\\xb7\\xc7\\x97\\r\\x19T\\xf9\\x85\\x87o\\xb2\\x1f \\x92>\\xd7\\x0f\\xb7zm6+\\x95\\xf5\\xb2\\xf6\\x7f^\\xc9\\xafvu&\\xa1\\x02\\xf5\\x0c\\xe7\\xfa\\xbaB]\\xf4\\x02\\x18$H!\\xb1\\xbc\\x90\"\\xfb\\xec_v\\x08mu\\xebhC\\x1ey2\\xb52\\xe5\\xe7\\x00\\x83\\xdd7\\r\\x07R\\xc366\\xddS\\xa7|\\xfd_\\xd8\\xbb\\x14=\\t#\\x10\\xee\\xeb\\x8eN7\\x9c\\xc6\\x11\\xeanUd\\xb2O\\x8d\\xda\\t~\\xe8\\xbd\\n\\xad>\\x10\\xed\"]N\\xc6~z\\xa3\\x16\\xcfn\\n\\xef\\xbe\\x1b\\xaf\\xda\\x1a\\xdaB7\\x1bAb\\x826I{\\xf18\\x02Yw\\xd3\\xea(\\xebOUg\\xe0\\x9b\\xe9\\xc0\\xf3h\\xe4\\x1f\\xc4\\xf3\\x123\\xa6G\\xe5#{\\xee;\\xe3k\\xb8|6N\\x88\\x11\\xbdcR7J\\xd1\\xec|m\\x11w2\\x1b)z\\xf8!#e\\xc01\\x05\\xa6\\xc0~\\xf7\\x0eG\\xe27*#\\xf3\\x83e\\x17t\\xc29\\x0cvL\\x92I\\x88\\x0f%\\xe1\\xac\\xa0\\xf9\\xf0k\\x05\\x02l{\\xa5\\xe5\\xe9\\x9a\\xfc;}\\x07E\\xa5\\x17\\xc3<\\xf0n\\xd1mJ]k=\\xee\\xf1\\xe6l\\xf1>\\xb4HlSD?V\\xdfZ\\\\B\\xd26\\xa1\\xe5\\xa0\\xfc\\x07\\x84x\\x82\\xe9\\t\\xee\\xe85L\\xdf\\xa6\\xf6:#K\\xe9)\\x03\\xdar\\xc9\\xb5\\xbf\\xbb\\xfc\\x8f\\xbb\\xfbu\\xa3\\xcd\\xa3\\xe0\\xdcXd=\\x18(zJd\\xd3\\x0e\\xf2>\\xce\\x05\\x19p\\xae\\xf1\\x97\\xcd}S\\xa1\\xd4\\xc8#Y\\xa8W\\x8c\\x95\\x82\\t\\x0b\\xce\\x91\\xd1i\\x1ad\\x9du\\xdb\\xbb\\x02\\x1d}#\\xcc\\x0b\\nd\\xb9\\xcb\\xd9\\xfe\\xb7$\\xaf\\xdd\\xa2\\xf9\\xe1\\xedG\\x84\\x04\\x04\\xae\\x99s\\xf7\\x07>\\xd0\\xf8\\xce\\xe5o^\\x19\\\\\\xf6\\t25\\x90\\x91\\x86I\\x9f\\xe2\\x01\\xd6G\\xe2m;\\xfd\\x04\\\\&\\xec\\x98\\xf9\\xae\\x80o\\xb3\\xb0\\x0er[\\xc0\\xeb\\xeb\\x89\\x05\\xe1\\x00\\xb6\\xa1Xx\\x19K\\xf8\\xf09[\\'\"\\xf8f\\xf1\\x88\\x14O\\x8eF:\\x85\\xb1\\x17;\\xdc\\x07S4*\\x00\\r\\xbd#\\x14\\x1c\\xec\\x8e0e\\xe1\\xe0\\xc6y\\xeac\\xcf\\x19\\x7f\\xc5h9\\x12\\x012s\\xa4\\t\\xd1\\r\\x0e\\x1c\\x1d\\xc2\\xa7 \\xd8\\xd4q\\xf9Ti6\\xa0\\x01\\x9bI\\x00\\xf6/\\x06.\\xecs\\xe0\\x08\\xbc\\x1e\\x0b\\x00D\\xb5\\xf5pQfm\\xcaOS\\xc2\\x01\\x90\\xcf\\xa9\\xb5*$\\x87\\xe5\\xe0&O%9U\\x14\\x03\\x8a\\xc26&^\\x00\\x10F\\xbb\\x88\\x1e\\x8b3y\\xe1k\\x17m0\\xa1\\xea\\xf18\\xc0Yb\\xd9?\\x14\\xfb\\xb9\\x10\\xca\\x08\\x87\\x9e\\x9c]\\x97,\\x8d4\\xd2_M>\\x17Tl20`\\xf7\\x19@*\\x01\\x86i=\\x80@\\xbfJ\\x94\\x9e:\\xdf\\x9f\\xad\\xbe+\\xa4\\x04\\xff\\x95\\x9e\\xae\\xd3\\x06e\\x01o\\x08\\xbf\\x19\\xbd\\xffx\\xe1\\x93\\xd4\\x14\\xc8V3\\x04(\\x8b\\xf2u\\xaf\\xf7p\\x96\\xcf\\xd8\\x05\\\\\\x88\\xe7A\\xcao\\x99\\x8d\\x1b\\xc0\\xca\\xf5\\x80;\\xa3q\\xb28#S\\xebs\\xea\\xe0!\\x15|\\xa5!\\x05\\xf8C\\xda\\xf5W\\xf4h\\xd1-\\x7f+h\\x8a\\'\\x84\\xb3\\x97\\n\\x86\\xad\\'\\x19/\\xa7$\\xfcZ_)\\xcf.\\xf9S\\xa3\\xe2\\x1b\\xe8\\xa9\\xa9\\x8f\\x9c\\x15\\xa0SS}\\x0f+\"\\xa2\\xec\\xa6\\xcb\\x84\\xf3sZ[\\x04\\n\\x12]\\x1bv\\x02\\xde\\x85\\x93\\xd5*@\\xe2\\xd8\\xa8U\\xcc\\xf7*e\\x9a\\xcbY\\xa3\\xf9\\xb1l\\x8a\\xab\\xb7.5\\x9b\\xb6_\\xc2\\xd9}\\x05`5\\x06,\\x15z\\xb6\\xb5|\\xdd\\x9e\\x08\\xb5\\x05sd\\x8fF5l\\xb0\\xd5\\xb2\\xf2\\xc9]cr,\\xc9\\xc6hWT\\xff\\x92\\xdbc\\xa4\\x07Y\\x8d\\xb2g\\xab\\xb2\\xc09\\xab\\xa2\\xf7`\\xb8i\\x9f\\x0bLj\\x94\\xea\\xab\\xc1\\xd1\\xd6n3~\\xc9r\\x18\\xf9\\xad\\xa1\\xa7\\x05\\xc5\\xf3\\xbf\\xb8\\x84t\\xeev\\xd2\\xe7\\xaa\\xc4\\xe42(\\x16\\xe1C\\x11\\xdd\\xad7\\xcfm\\xe7\\xbd\\x0e\\xe0~\\xbc\\xd6i\\xf9\\xc4\\x95\\x9bz\\x86;\\xf2\\xd9C\\x82BV\\xf4\\x9d-\\xa3\\x08EJ\\xfe2\\x89\\x1eOVH\\x11\\xd2\\xd3b+\\xc6\\xc8\\x9f\\xfc\\xd80<I\\xdc$XYj\\x18\\xc7\\xb0\\xbbw\\x02\\xe7NX\\xec\\x8d\\xdb\\xb4\\x1c\\t\\xbc\\xa4O\\x00\\xb8 .\\x81\\xbc\\x0348\\xfa\\xc0ia\\xc20xA\\xeab\\xd8\\xda\\x85\\x07\\xca\\xab\\xeb\\xde\\xbd[\\xe4b\\xf9\\xe7\\xdc\\xfaI]\\xf0\\xf4\\xcdx\\xda\\x07\\x1a9,\\xc27\\xd381^\\xd0\\xb6\\x85\\xb6\\x83\\n\\r2\\x85\\xd7\\xc2tp\\tiC\\xfdP\\xe0LB\\xb5Z}\\xb5\\xc7\\xb5\\x1b\\x83\\x07\\t\\xf7|EW\\x19\\x1f\\xfd\\xa2\\xe3E\\x99w\\xbf\\xbfh-y\\xd74@\\xbf\\x0b\\xc9\\xb2\\xcf\\xa6\\xd3k\\xa2\\xaa)\\xe0k\\xcc\\x16G$\\xc1\\xe4\\xec\\x93|\\xca\\xcdx\\xb9mP\\x13Q\\xdf\\xfc\\xd7\\xcb@D\\xc2|\\xb4\\x03\\xc4\\xef\\x9c\\x8e\\xfd\\x14[\\xffZ\\xcdu\\xacO3%;\\tV=\\x9e\\xecv\\xb9\\x96G\\x80\\xc6\\'\\x8c\\xeem\\xa7hy\\xac\\x9c\\xdb}\\x14<\\xa1\\x87\\xc2v\\x13~\\xab\\x98A\\xa2xK<\\x9d|\\xc0\\xca\\xd5\"\\xe8\\xfe\\x0fRe\\xb1\\xe5\\x89\\x13I\\xe5\\x80\\xadhj\\xcb\\x92E\\x1eH@\\xba\\x06\\xd5M\\xcd@z*;\\xb7!/]x\\x8c\\xe6\\x8ehG}y\\xa4Q\\x80{\\x8b\\xba\\x82\\xae\\xd2\\n5j@\\xb5*\\xb4\\xae\\x04v\\xb2\\x86PW\\xa86pK\\xa2\\xae\\x1d\\xe8a\\x0e\\xfe\\x9d1o*\\xa0\\xbd\\x06\\t\\xbce{p\\xbb\\xd4\\xa7\\xd3\\xeeY\\xaeA\\xf5G\\x1e\\xf5\\x01Grd\\x00B\\xa8\\xc8\\x11v\\x80z\\x04V\\x96c\\x17\\xb42\\x8d\\xfc?\\xbc\\x07\\x07e\\xfdu\\xc0\\x08<\\xe4\\xc2\\x18\\xdf&\\x0c2$\\xdcb\\xc7\\xb3a\\xdd([\\xa1\\x84@(\\xa7\\x04\\x0e\\x8fI\\xcf~9\\xda\\xaf\\xf1\\xac\\x9aW\\xe2y^\\xd7\\x97\\x0b\\xc7\\xc5\\x97\\xef_\\x96K\\xfc\\x17\\xd6\\x81\\x90\\xd8\\xe1\\xf4gA\\xcdu\\x8f/\\x80MrIB`\\xbc\\x82\\\\\\xc0XX\\x94\\xfa\\x97&\\x0b\\xb6\\x06\\xf6e>\\x96N\\xc9(\\xf7\\xb9\\x80I\\xf8\\xb7a+\\x84\\xf9*\\xe8\\x1a\\xe7Blp;Y\\x95\\x05\\xa9\\xcb&\\x12\\xc0\\x08*F\\xf6\\xe4\\\\ \\x8fL\\xa9\\xac\\xdc\\xaco#o\\xb6\\xa8S\\' \\x8dQ\\xbdi\\xd8l\\x81\\t\\'\\xca\\x8a\\xdeW]\\x8aJ\\xfe|\\xa6\\xcf\\x96h\\x07e\\x0ft\\xbd\\x1b\\x96\\xb5\\xdc\\xb4O\\x88_yMK\\xc1\\x80JQ#\\xa2\\xe1K\\xd9[\\x07+\\x0f\\x19\\xb5\\x0bY6\\xdd\\xac%\\xb2\\x7f\\x8b\\xcchw\\x13\\x03\\xe07g$\\x99/\\x1d\\xf8\\x03m\\xc8\\x02\\x08\\xa2>\\xb7\\x07\\x89\\xe1\\xbc\\x94\\xe4\\xab\\xc5\\x8d\\x03\\xef\\x0b9\\xfd^cZK\\xb1\\xf3A\\xf7\\xbd\\x05q\\x93\\xc7\\xf5\\x81\\x950H\\x8bF\\xfe\\xa1\\xce\\xc3\\x1a\\x8f\\xe2\\xf3\\xe5XKi\\x1e\\\\7\\xba#\\x07\\xb3<\\xb5\\x0b\\xd0t\\x12\\xd8\\xc5\\xaa\\x99\\xf7]\\x97\\xa6\\xf4\\xcaoe\\xc3w\\xa0\\xde\\x19\\xcd\\x8f\\x9b\\xf4p\\xb7o\\x8d_\\xcd}z\\ny\\xa0\\xad\\xc4;\\x91\\xd3) \\xb4~-O\\xca\\xbf\\xbc\\x1a\\x04/zg\\x13\\x95\\xe2\\xaa\\x08?xau\\xc4\\x8c\\x95\\xe4\\xe8\\xfa\\xfe\\x8b\\xe8\\xe6{\\xfb\\xde6W\\x0f\\x87\\x17w}\\x07w\\xca\\x1d\\x03RJh\\x99d\\x9f\\xed\\x143\\x82\\xc2\\x9dk \\xc3\\xcft*\\xf4\\xa21o\\xd1k.\\xbf0\\x83w\\x8f\\xb7\\xa4\\xc0\\x01\\x9fb\\xb2\\xe0\\xd9\\xe1\\xbd?x`\\xed\\xd5\\xe6\\x17\\xbf\\xaa\\xc0\\xbeu\\x93<8\\x00\\xb1\\xf5\\xf7h\\x08\\x86m\\xd0\\x9b\\x83\\xf6\\x12\\x81\\xbc\\x07n9\\xe3\\xb0\\xbf\\x1c3\\x85aT\\xd8\\xe1\\xf2!\\x84\\x18\\xd8su4Z\\x9b\\xfe\\x81MSo2\\x86F\\xc2dQ\\x13S\\xd1\\xde\\xc5\\xa7\\x89\\xc6F\\x08k\"d\\x85_\\x13\\x98tl\"Y\\x97\\xac\\xb3\\x14\\xac\\\\p\\x80\\x03z\\xaf\\xf0\\x1c\\xa7\\xd6\\x18)\\xe2\\x00e@I\\n\\xaa\\xd4ed\\x7f\\x19\\xb1\\xf1H\\xfb\\xa7\\xec\\xcc3h{\\x81\\xef2R\\x06\\xd1\\xa2U1\\x0eZ=|g\\xa1\\x0f\\x8b\\\\\\xcf\\xe2qy\\xbb\\x86%\\xbd(a\\xb5\\xaf\\x89\\x1f\\xb7\\xeddR\\xea6wg]\\xd07\\xd4\\xf9\\xc7\\xc2\\x87K\\x02\\x8d\\x1e]\\x07\\\\y\\x89\\xbdm6\\xe53\\xe2\\xe7E\\x07\\x93%\\xff\\x98\\xb2@\\x86\\x04\\x8a\\xc7\\xcb\\x0b62;\\xb3X|\\x1c&\\x88\\xb1S\\x00\\xc0a\\xa0R\\x0fg\\x0c\\xf1.\\x84`\\xe4#\\xd5Hp\\xe4\\xe5\"R\\x06\\xc7D6\\x8b\\x8f\\xc7IF\\xef\\xd1\\xe3M\\xe1\\xd0m\\xee\\xb5\\xb2\\x93\\xc2\\xb2\\x1fN^>\\xf3\\xd4R\\xaa\\xb8\\xcc\\xc73%U\\xdd\\x9f\\rt\\x0by\\xd6k\\xde g\\x08\\r\\x03\\x8e\\xd30C\\xd0\\x8a[\\xd9\\xaa\\x8cl\\xa21\\xc0\\x83\\x9ad\\x1c\\xf2\\x80\\xe4\\x89\\x12i\\xc5\\'LD\\xaf\\xe7\\x19\\xae\\x10.\\xbb\\xec\\x11\\xef3\\xe0\\xd7\\xfbM\\xb2x\\xf5\\x9dW[\\x10u\\xc9\\xf4\\xa2\\xf4nw\\x1f\\x80\\xb5\\xa4\\x95\\xf9\\xad\\xa1D\\x8e\\x1b\\xc8\\xe3\\x02eO\\x8d,\\xa8F\\x11\\xc4 \\xac\\xd7\\x9a\\xe4 \\xc6\\x06\\x81\\xb9\\xad\\xd8\\xa0Yi\\x87\\xba\\x18H\\xbf\\xed|\\xf4\\x157\\xafKG\\xeeh\\xbf\\x0b\\xa3>\\x91\\xf6\\xcd\\xef\\xe9-f@,6NV)\\xc2\\xcf\\x83\\xf0\\xa1\\xc0\\xe1\\xb3\\xda\\x01Q\\x17\\x80\\t/8\\xd2\\xdb\\x9b\\xf0\\xffw\\xc7\\x13\\xc9\\x98k\\x01\\x8eS;\\t$g<`\\xc5\\xd2\\x86m\\n\\xa0 \\xfe\\x11\\x97\\x0e\\xfc\\xbcpK\\xc4&\\x1a\\x9e\\xe5U\\x00\\x12\\'\\x0e\\x06(\\xbc\\xea\\x1d\\x84rGh\\'v{\\x7f\\x02w<j\\x06a\\x16g\\xae\\xd7\\x1b\\x03v\\xf12\\xa5\\xee\\xd7\\xe5\\x84qR\\x81\\xa5eX\\xc2\\xa6F\\x85\\x10\\x14\\x01_\\xfc\\xee\\x06?~\\x076\\\\\\xe8\\xc7r_fK\\n\\xc4\\x93\\xdc\\xfc@\\xddk?\\x8ebmFV2\\xe09\\xe0\\x00\\xf7\\x94\\x06%\\xb2\\x02)7\\x19\\xcc\\x0e\\xe9\\xfe,\\xcb\\t>\\x19@\\xa4\\xac\\x13\\x94\\xcd\\x19 \\xba\\x0b\\xe8m\\x98\\xfeT/\\xdf\\xe6+,P\\x11_R|\\x83\\xe8Y\\xba\\xcas\\xa7-(\\x8fiS72jST\\xec\\x15G\\x81\\x9e\\xb7\\x99d@\\xa1\\x04K\\xe1\\xe6\\xad:\\xd8\\xd5\"\\xf9h\\xe35\\x19\\xd5\\xe1v\\xf73\\x1b\\x96\\xeb\\xe5U^\\xce\\xbc\\xb8\\xa6&\\xd4\\x91\\xa20Lhk+\\xfc\\xa7\\x01]t\\xb7h\\'(Pv\\xfb\\x1b\\xd2\\x89k]\\xf1ia-\\x9a\\te\\xaa\\xe5\\xff\\xd5b\\xcc\\x95\\x0c\\xffz\\xd6\\xa42b)\\xf7\\x9di\\xfb_\\xf5\\x81\\xb8\\x91\\xe9a\\xb5(i\\xa1\\x9dl\\xec\\xaf\\xfe\\xc2aC\\xed\\xcd\\x86\\xa0\\xf1\"\\xf0\\x8a&\\xd1_\\t\\xef)N\\xeb\\xf6V\\x88\\x90\\xa3s\\xa6\\xa8\\xb5\\x15\\xf4)\\xd1j*2\\xe3\\xe8\\xe6\\x9dcZ\\xb0\\t\\x85\\x84C\\x03=\\xee\\x89a8\\xec\\x81}\\xbb\\xfdv\\xa3\\xfc\\x9b\\x15\\xfb\\xae\\xd7\\xa2\\xad\\x06\\x89\\xb1j\\x03\\xbc\\x18\\x14J\\xcf\\x14\\x90\\x7f\\xec\\xd7\\xe8\\x18\\x00\\x8e\\x19\\xc5\\x0br\\x95y\\x02qF\\x08\\xd4e\"\\x84S\\xd0\\xb1\\xc4\\xcbx\\x8a7OS\\xba\\xf6\\xb9\\x0e\\x07\\xcaH\\x1e\\xffW\\x80i\\xaa\\xfcp\\x8dFh\\xad\\x1b\\x8f\\xa51sUm\\x18\\x8d/\\x8d\\x187\\xa9$\\xd5\\xaa\\xaa\\xbbr;\\xd6\\x8a>\\x17O;D\\xbd\\x19\\xbaC\\xb0\\xc7*\\xed\\xf7\\xde\\x8dw\\xeb\\x17\\x04\\xa6\\x98\\x95\\xb9\\xfa\\x95\\xe1\\x130V\\xec\\x1a\\xecb\\xb1v\\x88S\\x81J3\\xe5z\\xfd\\xe4\\xf2\\x95E\\x8e\\x00\\x1e\\xf3\\x1cM\\xfa\\xc3g&( \\x9e\\xb9\\x07\\r\\xaf\\x98t)\\x8b6\\xdd\\x85\\xf8\\xac>Y\\xdb*xe\\x8f\\x80\\x9b\\xb6\\xe1\\x8bi&\\xac|\\xb5W\\x7f\\xd2\\xab\\xde(\\x97mi\\'\\xfbM\\xb3\\xfc\\xc3\\xe1\\xc4l\\x8d4x\\x15V\\xc5J\\x8f\\xe0\\x9d\\xd8\\xf6\\x19\\xa2\\xdb\\x95\\x0cX\\xb37a\\xcc\\xe1\\xdb/Q\\xefEc-\\xccc\\x87z\\x86\\x13\\xa2\\xc4\\xde\\x8d$\\xd6\\xc5y\\x18{g74;r{U\\xa0\\x99\\xea\\x9cw\\x99Lp\\x0e\\x991\\xac\\xda\\t\\xa3\\xc1\\xd2\\xcf#d\\\\X\\xccF\\x89\\x0ec\\xc9%`k\\xdb.\\xd3?\\x91R\\x1b\\x8f\\x98\\xe1k<F\\x04\\xb6\\xdd\\xac\\xb6\\xc6\\x1b4\\x1c\\xd4\\x9f\\xa9\\x9f\\x06\\x99[\\xe9\\xb4\\xbe\\xfam\\xde\\xae\\x7f\\xbaF\\xe9\\xb1a4\\xd1X-\\x8a#\\xc9\\xe1R\\xfc\\x89\\xc4K\\x92\\n9 0\\xdd+\\xa3\\x93\\xbb\\x1a@\\xdd\\x1d\\xec$\\x92\\xb4\\xf3\\x0cGh\\xb0\\xf4\\xce\\xe8{\\xad\\n\\'\\x1aK\\xf6\\xca\\xa7\\xa9Me\\xb9,W\\xd69\\x1e\\xb5P\\xe4:I\\x04\\x97\\xe7\\x1dRe\\x94\\xf7;mD\\xff\\x06\\x07\\x82z\\x85B\\xde\\xaa(\\x0f\\xf8\\xce\\x1a\\xb6\\xe3\\xe3\\x96\\x96\\xab0\\xbawe\\xb5\\xf4\\xe4@\\xe3\\x86\\x1d\\x92=\\xe6\\x8crD\\xa8\\xe9\\xbf\\xcb\\x85\\x88\\x9d\\x9e\\x112%\\xdb\\x1a\\xcfT]\\xb6\\xbaz\\x08\\xba\\xee\\x03L^^M\\xe9<\\x0c!\\x9e\\xa4}\\xf9\\x00\\x0b\\x9f\\x06\\x9b\\x1cn:\\xb9\\xeaB\\x03G\\xd3?\\xd8f`J\\x1b\\xbd\\x8cG\\x037\\x8c.\\xdeD\\x10\\xcdb\\xa3\\xdf\\x8c\\xc0<\\xae1eiFY2e\\x0bY\\x80\\xc9\\xe6\\x00\\x15\\x9c5\\xcb\\x18\\x7f\\x06\\xc2\\xd7\\xab\\x98!;?\\xd2\\x15{\\xd4:fF{S\\xe9\\x1f\\xfa|\\x94\\x8a\\x94\\xef\\x9a\\x1e\\xd0\\xb5,ad\\xac\\xa6\\xf5a\\xb6\\xc3\\xffP[\\n\\x9b\\x8e\\x01\\xeb\\x1fEo+2\\x83\\x8e\\xdb&\\x0b,E\\xc7LrT\\x13\\x1c`\\x99\\xc4\\xec\\xb9e\\xc7T~-\\x8c\\x0es\\xd7\\xd7\\xe3\\x7f\\xd5+g\\xb2X%T~\\xeb\\x16l\\xef\\xfff\\x19\\xc0\\xa7-Q\\xcd\\xd0IC\\xc2g\\x8a\\x10Q\\xb8\\x82\\xad\\xde\\x85\\x16\\x84\\x8a\\xd1v\\xb1\\xd7,\\xd8\\xab\\x8c\\xe5\\x04\\nu\\xb6\\x87\\x89rV\\x0e\\xafMh\\x9dkC\\x19\\xf7\\xa2\\x92;\\x00\\x1b\\xe2\\xd7\\x9ceQF\\xd1g\\xae\\x98\\x90\\x9d\\x8b\\x85\\x82]\\x14/~Uj\\x12\\xd8\\x18\\xf8\\xc7RE\\xd5@.\\xccO\\xd4\\x12/\\xa9\\xfa\\xb7\\xf4@\\xf7\\xf2d\\xe2\\xa2\\xf4\\xa7\\xafjm\\xf8\\xa9n\\xadIx\\x14\\xbd(\\x1e\\xa4\\x13{\\xf3s\\xdbr?\\xc0[r\\x89aJ\\xba\\x80\"RSX\\n\\xdd4\\xc5\\xa4\\xd5W\\xe8\\xc2\\x8f\\x85\\x919\\x17!Mx\\xaa\\xf8X\\xd9V7\\x9e\\xc0\\xc6\\xd0\\xc5\\xe0^\\x8f\\xe3\\xc4\\x8d\\xb9\\x862[A\\xd1!NT\\xd3\\'Y\\x1b\\xb1\\xf1\\xe3\\x89\\xc8\"P\\x1f\\xe0\\x9fk\\x8ahZ\\x90\\xd9B\\xf2\\x11\\xa5\\x81\\xb8\\xaf\\x146\\xd1a\\xfd\\xbb->`\\x92\\xa0\\xba\\xbf\\xdd\\xdb\\x16tk\\xd1\\xe3Z\\x8c\\xaay\\xd9K\\x8e\\xa2\\xfc\\xff.M\\xb0\\xd0\\xab\\xab\\x94\\xe4\\x97\\x1c\\x15\\x81+\\t[\\x87\\x1f[i\\x8eOWE\\xb6\\xdeS\\x98VhB\\xd6\\x1e\\xfe\\xd9\\xad\\x13D\\xb7\\x89H\\x8d\\x7fN]y\\xe1\\xd9\\xfb\\xc6A\\xc3\\xad7\\xe5\\xff\\x91\\x84\\x1c>^\\xe3\\xba\\x0e\\xd7\\x1frgp\\x93\\xed\\xb2\\x8f\\x0e\\x14\\x92h7\"\\x97\\x9f\\x0fDmcU\\r{#\\xb2@\\x83\\xd5Z\\xeem\\xf6\\x06Y\\xe9#XM\\xcd\\xdbqDs\\xf4[}F2I\\x02\\xf9\\xb3H\\xe4\\xd8)\\\\\\xc1\\xd4\\xa7\\xd6Js\\x17\\xf9I$\\x06\\xd6Ml\\x85b\\xf8>\\x01\\xae\\x9bm\\x17\\x84\"\\x81(\\xda(x\\x1c\\xbc\\xd0\\x9c\\xdb\\xe0\\x9a\\xf2\\x18\\xeb\\x00\\x92-(\\xef\\xa1\\r\\xfa\\xd7\\x99\\x0c\\x03%\\xfc\\x1d@Hq\\x04\\xa2D<\\xed\\xf2\\xe7K\\x98O\\xdaK\\xbbF+\\'\\xb9\\xa3\\x05u\\xe2eg\\x95\\xec\\xa8S6\\x19\\xdb~!\\r\\x1a\\xbc\\x04\\xdf\\xc3<\\xd8\\xdd\\x0c\\xc9Bs\\xfb\\xf0\\xf0\\xfc\\x14\\x14LA\\xd9\\x19?\\x1aR\\xfa\\x19(\\xbc\\xac\\x1b\\xe6\\xd6\\xdd\\xa3\\xe3\\xabOa\\xbb|\\x86\\xf9+s\\xdc\\xa87@:\\x9a:\\'\\xf0\\xf7\\x17\\x7f\\xda\\xdd\\xbe\\x9b9\\x99$r\\xef\\xffey\\x00i\\x9cMP/S\\xdeH3=\\x1e_\\xc0\\x7f\\xde\\x15\\xb0\\x7fs\\xbc\\rH\\x1f\\xa3\\xdb\\xd4M\\x009\\x19.\\xdc\\xcd\\x01|\\xd2\\xe4\\xaeS\\xffyF\\xbf\\xefC)\\xed\\x88\\xe4\\x0c\\x9a\\x05\\xc4O\\xc9e\\xf9U7$\\xd8\\x1e\\x9f\\xbe\\x1b\\xab\\xde\\xacXU\\xa2\\x8d\\xe6\\x9c\\xeb\\x96\\xa3\\xcdq74\\x98YK\\xe6\\x81\"\\x97\\x04\\x13\\x19\\xe5T\\xbf\\x95\\xed(\\x16\\x19\\xc2\\xb2\\x87c\\xafX_\\x82\\x86\\xea\\xdfV\\xf7S\\xf9\\xdfi\\xa5\\xeb\\xef\\xb5\\x11\\xfcnn\\xc6 \\r}Y\\xba\\x84\\x97k=\\x17ys[\\xb8\\xc4\\xeeP\\xe4`\\x92y\\x7f\\xcb\\xe1D\\xd8N\\x83\\x12\\x14\\xcdd}\\xbc\\x02\\x85c\\xaeo\\xe1!\\xc0\\xaf\\xd8R\\xcaD/N\\xdc\\xb2\\xe7\\xaf\\xfb\\xf4\\xaa`\\x9c\\xe4<w\\xdc\\xc3\\xe8\\'-\\xbe\\x02\\x88K\\xaf\\xfd>\\xb6<\\x1a>\\xac\\x1a\\r\\x10\\xa4I\\xdf\\x82\\xd4\\xe8\\xde\\xdc\\xab\\xf7\\x06\\xfd\\x97\\x06\\x17\\xe2\\xc0:\\xf8?\\xc6\\xd6V\\xe7a\\xb9\\xe5\\xa6X\\x9db/u\\xacK\\xef\\xdb\\x1e\\xa8\\x1b\\x0e\\x03\\xb4\\xa96\\xda\\xd369\\x95\\xd3\\x9e\\'f_\\x9f\\xe9\\xf2\\xbf\\x1f>B6N&\\x83\\xcc\\x0e\\x9a\\xf2{\\x08\\xe3\\x1a\\x15\\x85//j}\\x07\\xb5\\xa6N\\x8d\\\\\\xd5(6\\xb3\\x9b\\xbfgKl\\xbc+\\xa5\\xde\\xd6+Q\\xcaT5:/S\\xff\\xfe{\\x1bv\\xba4E~\\xcc\\xe4\\xecI\\xc43\\xff\\xddI`)\\x9cj\\xf7\\xca\\xafJ\\x87\\xc6&\\xe8\\xc1\\xc9o\\xcd\\x07S=\\xd1Z\\x8b\\x03\\x0bm\\xb4\\xf0^n\\xfb\\xf3=\\x98\\x96_\\x17Q\\xbd\\x8d[\\xbd\\x03KG\\x84\\xffQ\\xf4sqjz\\x89e\\xb6\\xe0x\\x96\\xc8!\\x1aX\\x16\\xb4\\x8c\\xc3\\xe6\\x19\\xd7\\x0c\\xf1\\xbb\\'\\x89\\x1a\\xa4\\x1e\\\\\\xca\\x1e\\xe6\\xb6\\x88\\xcc\\x9e\\x9f\\x9f\\x17\\xb2c<\\x19\\xca\\x8c\\x9a\\x17%\\xa0\\xb7\\x06\\x897\\xd2\\x12\\\\S\\xcf\\n/&\\x12n\\x11leU\\xbf\\x1d\\x82\\x99\\x94\\x93\\xdb\\xf7\\x19/\\xa7w%\\x02\\x9e\\x7f\\xb1\\xb4\\x9b~(h\\xc5\\t\\xb4\\xde\\x9b?\\x02\\x8aiW\\x89\\xd4\\xc9\\xbfb\\xac\\xd9Q<\\rMqr\\xbe\\x93\\xf1n\\xdb;\\x00\\xad\\x8c\\xdd1#\\xc99\\xea\\xa4\\r\\xf2\\xee\\xb5}\\xad?V\\xbfb\\xc8\\xb1\\xb1\\xa2\\x1c\\xfb\\xc91\\x05o\\xd6_\\xe7U\\xb1\\x9b%/\\xb1^k5\\x9a\\x8e\\x96}\\xdb<\\x15\\x16\\x01\\x82~+A\\x180\\xe2\\xde\\xd6Z\\xc1\\x02\\x12\\xdc\\x12\\x08%Ls\\x93\\x1cW$\\x0f\\x8c#8iH\\xff\\x9f\\x10\\xf0n;\\x18m\\xffE \\xb5\\xd2a\\xee\\x02&\\xb39VD\\x9b\\x89\\xea\\xdb\\xceuw\\x86Q\\xc3\\xd7\\xda6\\x0fzr7\\x0c\\xf1h\\xf9\\x9c\\x95S\\xb8\\xe1Z\\xfbl\\xdc\\x1be\\xfe*\\xc6\\xca\\x07}\\x10\\x13=\\xec\\xabz\\xba\\x05\\x0c\\x10}\\xce\\x1fg\\xa9\\xa5\\x12H\\x13\\x90(\\x16\\x9b\\xe6\\xe3\\xdd\\xc7\\xfes\\x8eI\\xddE+1\\x11k\\x93\\x03\\xeaOT\\xa4\\xc82\\xddj\\x8e\\x1f\\x84\\xb2\\xcf\\x14\\xb0e\\xfe N\\xb6s\\xc7\\x02\\x18\\x8c\\x82\\x17\\xa2\\x03p\\x1e!\\x8a\"\\xed\\x8e\\x94\\xfa\\xf335\\x86\\xb4\\x0fc\\x86\\xdcs\\xb5\\xb4q7-\\xc9*f:\\xdf\\x93\\xd8\\x96O\\r2u\\xb3\\xc9\\x17\\xfcXg\\xeag\\x89\"\\xd3\\x0e\\x90n\\xa2\\x8cU\\x8ex\\x0cP\\xb2`Y\\xfb\\xc5\\xd8\\xf6\\xd1\\xe1\\x7fE\\xeb\\x97}q\\xb2i\\xb2#g\\xab\\x10OG6\\xed\\xfc\\xd7\\x8a\\xd4\\xc9F\\xbd\\xad\\xcdN\\x1d<\\xf3I\\x86\\x973\\xb6<\\xe8Y\\x92v \\x9cn`\\xc7#\\xbao\\xa0M\\xd4\\x84s\\xcc\\x89d\\x0f}\\xd5\\xebu\\xab?\\x80\\x88\\x85\\xdc\\xf2!\\x00O#qdo4\\x06X1VJ*\\x04j\\xb7\\x05\\xec\\x05D\\xd8\\xa9\\x03N\\n\\xaf*r\\xd7\\xa3\\x17F\\x1f\\xe4\\x89l\\xf9\\xdd\\xa7\\xb3\\xd5\\xcbv3\\xb6\\x9e\\xa9g*\\x9f\\xb0\\xa5\\x96HLQM\\xd8\\xd66\\nR\\x0c\\xf5\\xe2\\xdc1\\x973)\\xa6\\x1d}\\xbb\\xb7_\\xb7z\\x8e\\xe4\\x1eQ\\xf9\\xb9O\\xfe\\x90\\xb3\\xc7\\x06\\x00\\xa9W\\xf9UC\\x15JO\\x14\\xb2\\xa5\\xcd:\\x9bJ|\\x19\\xdfZ*\\x9c\\x9f\\xe0-\\\\\\xe1\\x99E)\\xc5\\x01\\xf7\\x05\\xea\\x11z=\\xcf\\x83\\x81\\xbd2\\xfc\\xa70)My\\xec\\xcc\\xcen\\xc0\\xe5\\x87|\\xf1\\x1f\\xac\\x00h\\x01\\x99\\xa3\\xaf\\xe9\\xb2+\\x06\\xf8u\\xf9A\\x1ePz\\x1a\\xcb\\xff\\x90\\xf3\\xd7\\xc5\\x990\\x7f\\xe1Qn\\x89\\x9b\\xd19){yjI\\xc5\\xed\\x86@\\xfe\\x02\\x96\\xa3\\x11\\xd20\\xb3\\xfa\\x8bZ\\x9f\\x85\\xa1\\x08C\\xa1Q\\x18\\'y\\xf3\\x8e\\xc2Z\\xc7\\xd5\\xc9\\xfbf\\xb6\\xbf\\xf8\\x11JZ\\xe0\\x95\\xe1\\xaa\\xd4\\x86\\xf7\\x8d\\xdaZ\\xa5l\\x06\\xed\\xf7\\x1b\\xb8w7L\\x13m\\xc4y!6]\\xd4\\x9e>\\x83\\xb0\\xackW\\x81\\x17\\xe3\\xbe#\\xdb\\x0b\\xa4\\xcc\\xffF\\xed\\x07\\xc7z\\x05\\xdf\\xd5\\xc2\\x16|s\\xc3V\\xe0\\x1c\\xdbT\\x99\\xe3\\xefT\\x9b\\xce\\xb3\\xcfpr3B\\x9cS\\xdb\\xb0lQ\\xff\\x9bi8\\xd6?\\xb9\\xda4\\xfcL\\x9epX\\xf1\\x81\\xb5\\xadq\\xfc\\xf3L\\xef\\xc7\\x19Ji\\x80\\xf4\\xa5\\xddf\\x98\\x1a\\xa5\\xc2U\\x02\\x94\\xfbb \\x13\\x08 \\x08\\x05~\\xb5k\\xb5\\xc7\\x95\\x1ch\\xdc\\x0e\\x95\\x89\\x8a\\x90\\x97\\xfcM\\x96\\xf1\\xe1\\x90\\xa2+>\\xea\\xf4\\xb7\\x8e\\xd5]\\xb1\\xb4\\xc8\\x02\\xf6y \\xd9Z\\xa3\\xc4L\\x10z^G\\x02\\rs\\x13V\\xda\\xb5\\xeeRho\\tx#\\xffZ\\xc1Z-ni\\xd5\\x96\\x14\\x93\\x18\\x9e\\x88\\xd7=\\xeb\\x1b\\xe7\\x85\\x8a\\xed?\\x03\\xae\\x1f&\\xdac\\xeb\\xc9\\xbc\\x08\\xf93l\\xd5\\xc6\\x8b\\x0e\\xda\\x99\\xef\\x16\\xf2^\\x19\\xdc\\xd6[\\xe0\\xf4\\x81\\xc5\\x1a)\\xf5t\\x89\\x90\\x7fU\\x19\\x16\\x8a\\x16XL(\\x95\\x00<\\x8f\\xd7M\\xe1\\x9bq\\xbaC\\x08S\\x0f\\xc1\\xcd\\x80\\xf3\\xabT\\xe6\\r\\xf0\\x14\\x90M\\xf8>w;\\xef\\\\\\x95\\t\\xdb\\xef\\xf7\\xbd\\x99/\\xb2u\\x12{\\xeb\\xe3m\\xdf\\xc6>m\\x8bf\\xc9\"~y\\xc2%\\x80E\\x8f\\x8dW*\\x92ZIQW\\xa2U=\\xc2\\xe7\\x8d\\xce|(\\x04\\x95\\xfc2\\xd6\\x1e\"\\xdbEy\\x15c\\xac\\xd0w\\xb7\"\\xc99\\xd8\\x87W\\xed\\xcfJ\\x16h\\x90\\xea\\xcc>\\n\\x8f5+\\x95o\\xf6\\x1e7\\x15\\xabl\\xf3A{&\\xd2\\xd9>\\xab\\xb5\\xcaA@\\x02\\x10c\\x9ee\\x0cXT\\xfb\\xea\\xa6&\\xed\\xdd?B6\\xa4\\xee\\xf1\\xe8\\x17\\xf4&w\\x8c\\x10o\\x01T\\x9a\\xd4\\xf4\\xbe\\x8a\\xf9\\xa9\\xcb%\\xb9\\x0b\\x98O,=\\xd0D`|=D%\\xc6\\xfam\\x97R\\xfe\\x812WPz\\xf9V:1\\x80z\\x9a\\xd9=D\\xb8\\xeaL\\xb49\\x8e\\xdc\\xa3\\xf1!y\\x05\\x1b\\xae\\xb5}\\x13\\xf6\\xcc\\xab\\x01\\xc2X\\xa0\\xfb\\x8fW\\xf0\\x82Q/rC/\\xe3\\x83\\x95\\xa0\\xd3\\x0f\\xf3\\x9f\\xf0\\xf7\\xe3k!\\x12\\x8d\\x9d\\x97\\x86\\x01\\xea\\x8f\\xddu(\\xb4N\\x8f{O\\x83\\x15A\\x94Y\\xd4\\x08\\xc0(\\x9c\\xd2\\xc8e\\xc7\\x0c7\\x10\\xe6\\x01\\x8f\\xa12o}\\xf1t\\x8d3&\\xae\\x1b4\\x88O\\x97*\\xef\\x1f\\x9f\\x89\\xf5\\x89\\xd0\\x91\\x1a\\xdd\\x03C7\\x18\\xd7J\\xd3\\x89\\x8c\\xe0]\\x8c\\xb4\\xc9\\xd3|H,\\xd7\\nw\\x1f\\x02+\\xc6\\xfd\\xb5k@\\x86oZ\\xee\\xd9\\x93\"\\xce\\xe9\\x02\\xd1\\xb7e5]\\x95o\\xbeD\\xefN\\xb1\\xd5\\x11/(+\\x9b\\xa5\\x80u$\\xe4\\xc8\\xc8A\\xb9S\\xf4\\x80x>\\xb0\\x1fn^k\\x90\\xa6<UE\\t\\xd7\\x88C\\xc0\\x95\\xccb\\x8dg\\x8e\\xdfW)\\xdf\\xaf}Z.\\xbd\\xf6g[\\xeeC#U\\xb4c%\\x91^\\xee-n\\xeaF\\xb1\\xac\\xcb\\xcd\\xbe\\xfe\\xa0\\xdf\\xb4YB[^\\x8a'",
+     "video_metadata": null,
+     "tool_call": null,
+     "tool_response": null,
+     "part_metadata": null,
+     "audio_transcription": null,
+     "media_processing": null
+    }
+   ],
+   "role": "model"
+  }
+ ],
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 100278,
+  "output_tokens": 1359,
+  "cache_read_input_tokens": 192487
+ },
+ "model": "gemini-3.5-flash",
+ "tool_calls": 25,
+ "elapsed_s": 82.6,
+ "run_id": "r-64fd72bb17f6",
+ "case_id": "poc-9ab63cfcdf"
+}

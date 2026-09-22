@@ -1,0 +1,701 @@
+{
+ "answer": {
+  "policy_found": false,
+  "policy_title": null,
+  "policy_number": null,
+  "policy_url": null,
+  "effective_date": null,
+  "criteria_quotes": [],
+  "appeal_deadline": "2027-02-07 (180 days from the 2026-08-11 notice date, consistent with the ACA-mandated minimum 180-day internal appeal window under 45 CFR 147.136)",
+  "submission_route": "Mail or email a written appeal (the Member Complaint/Appeal Form or an equivalent written statement) with supporting documents to: Avera Health Plans, Attention: Complaint and Appeals Coordinator, 5300 S Broadband Ln, Sioux Falls, SD 57108-2221; Fax 1-800-269-8561; Email ComplaintAppeals@AveraHealthPlans.com. Phone: 1-888-322-2115 / 605-322-4545 for questions. This is the appeals/complaint address published on Avera Health Plans' own member forms (e.g., 'SS-AG-FORM-004-01 Member Complaint Process' and the Member Guide's discrimination-grievance notice, which route to the same Complaint and Appeals Coordinator). If the internal appeal is denied or not resolved, the member can request an External Review through the South Dakota Division of Insurance (124 S. Euclid Ave, Pierre, SD, or via dlr.sd.gov/insurance).",
+  "how_to_obtain_criteria": "I could not find a publicly posted Avera Health Plans medical policy or clinical-criteria document specifically addressing CPT 29827 (arthroscopic rotator cuff repair). Avera Health Plans does not appear to publish a public library of medical/clinical policies the way large national payers (e.g., UnitedHealthcare, Cigna, Anthem/Wellpoint, Premera) do \u2014 its public website is largely limited to member/provider administrative materials (provider manual, member guide, complaint forms, SBCs) and does not expose a searchable medical-policy repository, nor does it disclose which third-party criteria set (e.g., InterQual or MCG, which many regional plans license) it uses for orthopedic prior authorization. Because the denial letter cites 'the plan's applicable medical policy and clinical review criteria' without naming the document, the patient/provider should: (1) call Avera Health Plans Customer Care at 1-888-322-2115 or the number on the denial letter and explicitly request, in writing, 'the specific medical policy, clinical criteria, and any internal guideline or external criteria set (e.g., InterQual, MCG) relied upon to deny reference POC-F4D8086686-78032' \u2014 plans are required under ACA claims-and-appeals rules (29 CFR 2560.503-1 / 45 CFR 147.136) to provide the specific rule, guideline, or protocol relied upon, free of charge, upon request; (2) ask the treating surgeon's office to request the same from the plan's medical/utilization-management department, since providers are often given more direct access to UM criteria during peer-to-peer review; and (3) if the criteria are not produced, note that failure to disclose them can itself be raised as a procedural defect in the appeal and, ultimately, with the South Dakota Division of Insurance if the internal appeal is unsuccessful.",
+  "confidence": "medium-high for the appeal deadline and submission address (drawn directly from Avera Health Plans' own published member complaint/appeal materials); low/none for identifying a specific named medical-necessity policy document, because none could be located publicly.",
+  "notes": "Because no specific Avera Health Plans medical policy for CPT 29827 could be verified, the patient's appeal letter should not cite a specific policy title/number it cannot confirm. Instead, the appeal should: (a) explicitly request the exact medical necessity criteria applied, per the plan's obligation to disclose them; (b) address the general, widely-used shoulder/rotator-cuff-repair medical necessity elements commonly required across payers (documented failure of a defined period of conservative treatment such as NSAIDs, physical therapy, and/or subacromial injection; positive clinical exam findings consistent with rotator cuff pathology; and imaging - MRI, MR arthrogram, or ultrasound - demonstrating a full- or high-grade partial-thickness tear correlating with symptoms), since the denial letter states the submitted imaging findings did not support necessity; and (c) include the surgeon's narrative correlating imaging with exam findings and functional impairment, plus offer a peer-to-peer review. If the plan does not provide its specific criteria within a reasonable time, this should be flagged in the appeal as a procedural issue, and the patient retains the right to South Dakota Division of Insurance External Review after exhausting Avera's internal appeal process."
+ },
+ "raw_text": "```json\n{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": null,\n  \"effective_date\": null,\n  \"criteria_quotes\": [],\n  \"appeal_deadline\": \"2027-02-07 (180 days from the 2026-08-11 notice date, consistent with the ACA-mandated minimum 180-day internal appeal window under 45 CFR 147.136)\",\n  \"submission_route\": \"Mail or email a written appeal (the Member Complaint/Appeal Form or an equivalent written statement) with supporting documents to: Avera Health Plans, Attention: Complaint and Appeals Coordinator, 5300 S Broadband Ln, Sioux Falls, SD 57108-2221; Fax 1-800-269-8561; Email ComplaintAppeals@AveraHealthPlans.com. Phone: 1-888-322-2115 / 605-322-4545 for questions. This is the appeals/complaint address published on Avera Health Plans' own member forms (e.g., 'SS-AG-FORM-004-01 Member Complaint Process' and the Member Guide's discrimination-grievance notice, which route to the same Complaint and Appeals Coordinator). If the internal appeal is denied or not resolved, the member can request an External Review through the South Dakota Division of Insurance (124 S. Euclid Ave, Pierre, SD, or via dlr.sd.gov/insurance).\",\n  \"how_to_obtain_criteria\": \"I could not find a publicly posted Avera Health Plans medical policy or clinical-criteria document specifically addressing CPT 29827 (arthroscopic rotator cuff repair). Avera Health Plans does not appear to publish a public library of medical/clinical policies the way large national payers (e.g., UnitedHealthcare, Cigna, Anthem/Wellpoint, Premera) do \u2014 its public website is largely limited to member/provider administrative materials (provider manual, member guide, complaint forms, SBCs) and does not expose a searchable medical-policy repository, nor does it disclose which third-party criteria set (e.g., InterQual or MCG, which many regional plans license) it uses for orthopedic prior authorization. Because the denial letter cites 'the plan's applicable medical policy and clinical review criteria' without naming the document, the patient/provider should: (1) call Avera Health Plans Customer Care at 1-888-322-2115 or the number on the denial letter and explicitly request, in writing, 'the specific medical policy, clinical criteria, and any internal guideline or external criteria set (e.g., InterQual, MCG) relied upon to deny reference POC-F4D8086686-78032' \u2014 plans are required under ACA claims-and-appeals rules (29 CFR 2560.503-1 / 45 CFR 147.136) to provide the specific rule, guideline, or protocol relied upon, free of charge, upon request; (2) ask the treating surgeon's office to request the same from the plan's medical/utilization-management department, since providers are often given more direct access to UM criteria during peer-to-peer review; and (3) if the criteria are not produced, note that failure to disclose them can itself be raised as a procedural defect in the appeal and, ultimately, with the South Dakota Division of Insurance if the internal appeal is unsuccessful.\",\n  \"confidence\": \"medium-high for the appeal deadline and submission address (drawn directly from Avera Health Plans' own published member complaint/appeal materials); low/none for identifying a specific named medical-necessity policy document, because none could be located publicly.\",\n  \"notes\": \"Because no specific Avera Health Plans medical policy for CPT 29827 could be verified, the patient's appeal letter should not cite a specific policy title/number it cannot confirm. Instead, the appeal should: (a) explicitly request the exact medical necessity criteria applied, per the plan's obligation to disclose them; (b) address the general, widely-used shoulder/rotator-cuff-repair medical necessity elements commonly required across payers (documented failure of a defined period of conservative treatment such as NSAIDs, physical therapy, and/or subacromial injection; positive clinical exam findings consistent with rotator cuff pathology; and imaging - MRI, MR arthrogram, or ultrasound - demonstrating a full- or high-grade partial-thickness tear correlating with symptoms), since the denial letter states the submitted imaging findings did not support necessity; and (c) include the surgeon's narrative correlating imaging with exam findings and functional impairment, plus offer a peer-to-peer review. If the plan does not provide its specific criteria within a reasonable time, this should be flagged in the appeal as a procedural issue, and the patient retains the right to South Dakota Division of Insurance External Review after exhausting Avera's internal appeal process.\"\n}\n```",
+ "usd": 0.1753,
+ "transcript": [
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "text",
+     "text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-11\nMember: Riley Kimura\nMember ID: W548803729\nPlan: Avera Health Plans (Commercial/ACA), state of South Dakota\n\nDear Riley,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Rotator cuff repair\n    Procedure code (CPT): 29827\n\nAfter review, this request is DENIED. Reason for determination: the imaging findings submitted do not support the medical necessity of the requested procedure.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-07).\n\nReference number: POC-F4D8086686-78032\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "Et8CCpABCBIYAipAX891n8XNYEIY+i9F8pvq1krpCmdiPNOizTfN9o0cRBLd/ekGPOid8PYpEMXTp55L13zVqPbv5h01ivsRJpGK6TIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAfm+wdUGEgywTL1e72asoH0Yx2waDI392MhV4lfSBbQ3VyIw1LTL4kj9ZgyquePprlk82ViTUeH4d9AzpOf1X9Vo3rc++i5h21tfiVt6BKGP0vYMKnxwyWUK25JqaFzxtjUmWbGOxwoIjKWUGP1/BSP6f4nVvTlsotrRAsSF7/ecxyWatMObxKgJnII9ysDGV4LWlxiCwLSEafBTF6wZrBORpOAqdBcjRXZepkwKxF3u/qMsZ2kkMGlIR02lPXjbcnrQASk9rczwZRPJREnMTX85GAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01RxRbHsu9aHYwEKD4mLq3rY",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Avera Health Plans medical policy rotator cuff repair 29827"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01UpHJZqgCN37A8Vaot9fg35",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Avera Health Plans medical policy shoulder arthroscopy rotator cuff medical necessity criteria"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01RxRbHsu9aHYwEKD4mLq3rY",
+     "content": "{\"query\": \"Avera Health Plans medical policy rotator cuff repair 29827\", \"results\": [{\"title\": \"Shoulder Replacement Surgery (Arthroplasty)\", \"url\": \"https://ldh.la.gov/assets/medicaid/MCPP/8.17.21/378_UHC_CS109LA.N_surgery_of_the_shoulder.pdf\", \"snippet\": \"29827 \u00b7 <strong>Arthroscopy, shoulder, surgical; with rotator cuff repair</strong> \u00b7 29828 \u00b7 Arthroscopy, shoulder, surgical; biceps tenodesis \u00b7 CPT\u00ae is a registered trademark of the American Medical Association \u00b7 U.S. Food and Drug Administration (FDA) This section is to be used for informational purposes ...\"}, {\"title\": \"Medical Policy\", \"url\": \"https://www.summacare.com/-/media/project/summacare/website/document-library/medicare-members/medical-benefits/internal-medical-policies/sc/orthopedic-procedures-policy.pdf\", \"snippet\": \"29827: <strong>biceps tenodesis</strong> \u00b7 \u2022 \u00b7 29828: rotator cuff repair \u00b7 Coverage Decisions \u00b7 Coverage decisions made per CMS, Hayes and industry standards research \u00b7 Plans Covered By This Policy \u00b7 Commercial and Medicare \u00b7 Self-funded Commercial groups refer to plan document for coverage \u00b7\"}, {\"title\": \"CPT Code 29827: Rotator cuff repair billing guide | Pabau\", \"url\": \"https://pabau.com/procedure-codes/cpt-code-29827/\", \"snippet\": \"CPT 29827 covers arthroscopic rotator cuff repair: <strong>29.23 total RVUs, LT or RT on every claim</strong>, 29826 only as an add-on.\"}, {\"title\": \"\u00a9 Priority Health 09/2024 BILLING POLICY No. 018\", \"url\": \"https://priorityhealth.stylelabs.cloud/api/public/content/Musculoskeletal_shoulder_billing_policy_downloadOriginal?v=e1ebf00d\", \"snippet\": \"<strong>acromioplasty together with an arthroscopic rotator cuff repair</strong>, bill CPT code 29827 and add on the CPT\"}, {\"title\": \"CPT 29827 Arthroscopic Rotator Cuff Repair Reimbursement | OpenPayer\", \"url\": \"https://www.openpayer.com/billing-codes/cpt-29827-arthroscopic-rotator-cuff-repair-shoulder\", \"snippet\": \"CPT code 29827 denotes an <strong>arthroscopic repair of a torn rotator cuff</strong>, a commonly performed minimally invasive shoulder surgery to reattach and repair torn tendon tissue. Nationally, this code is central to musculoskeletal surgical billing for sports-related and overuse shoulder injuries that ...\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01UpHJZqgCN37A8Vaot9fg35",
+     "content": "{\"query\": \"Avera Health Plans medical policy shoulder arthroscopy rotator cuff medical necessity criteria\", \"results\": [{\"title\": \"Surgery of the Shoulder (for Kentucky Only) Page 1 of 6\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/ky/surgery-shoulder-ky-cs.pdf\", \"snippet\": \"rotator cuff, subacromial bursa, foreign body[ies]) ... Arthroscopy, shoulder, surgical; with lysis and resection of adhesions, with or without manipulation\"}, {\"title\": \"Surgery of the Shoulder \u2013 Community Plan Medical Policy\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/surgery-shoulder-cs.pdf\", \"snippet\": \"For medical necessity clinical \u00b7 coverage criteria, refer to the InterQual\u00ae CP: Procedures: Arthroscopy or Arthroscopically Assisted Surgery, Shoulder \u00b7 Arthroscopy or Arthroscopically Assisted Surgery, Shoulder (Adolescent) Arthroscopy, Diagnostic, +/- Synovial Biopsy, Shoulder ... Click here to view the InterQual\u00ae criteria. Subacromial balloon spacers for the treatment of rotator cuff ...\"}, {\"title\": \"Shoulder Arthroscopy and Open Procedures\", \"url\": \"https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp436.pdf\", \"snippet\": \"Unless addressed in a separate Company \u00b7 policy, arthroscopic and open shoulder procedures not addressed in this medical policy may ... Syndrome, arthritis, referred neck pain). ... <strong>Rotator cuff repair is considered not medically necessary when criteria I or II are not met</strong>.\"}, {\"title\": \"Kaiser Foundation Health Plan\", \"url\": \"https://healthy.kaiserpermanente.org/content/dam/kporg/final/documents/health-plan-documents/coverage-information/shoulder-arthroscopy-and-arthrodesis-policy-nw-en-forms.pdf\", \"snippet\": \"Shoulder arthroscopy procedures are considered medically necessary when 1 or more \u00b7 of the following are met: \uf0b7 Rotator cuff injury, as indicated by 1 or more of the following: \uf0a7 \u00b7 Acute full-thickness injury con\ufb01rmed by ultrasound, CT or MRI \u00b7 imaging (Co\ufb01eld classi\ufb01cation) and 1 or more of the following: \uf0b7 \u00b7\"}, {\"title\": \"Surgery of the Shoulder \u2013 Commercial and Individual ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-shoulder.pdf\", \"snippet\": \"rotator cuff, subacromial bursa, foreign body[ies]) ... Arthroscopy, shoulder, surgical; with lysis and resection of adhesions, with or without manipulation\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EtICCpABCBIYAipABt1K7qalujSLTv8W0i2z3p8wQ+ei7MQHRo5FJb5k8rpO4i/P9f5EGo7tf8tYifucZk9BTKpDEep/bv93TS9wQzIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAf2+wdUGEgxaLRj6fxp6ByL5f3waDNTWDHuHH+3yc3ld4iIwu4iiGJuVbqg0NOPerO2lxvzbwbKovjj7qtFrtBAfTP5dOZZV9SaHq9sE87RNTCWrKm/VsBIRCSI+LPiqbct1yyhmb0TkYZdOUb7+UZH37YLt9X89X4Et11+91C8YWkdsDuGVA542PZ9xtpwKqYR4F3XzeOgyFDleA2q3fn7HgYNJSx80t3N+Sh3daFSfNfJdkOZFiLGxx60w/l7xq2uYPNgYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01B6dt1PkUuSJRETrQadXY2A",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Avera Health Plans medical policies site:averahealthplans.com"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01MupiEBrMRxJdoGK5iZLf5Y",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"Avera Health Plans\" \"medical policy\" prior authorization"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01B6dt1PkUuSJRETrQadXY2A",
+     "content": "{\"query\": \"Avera Health Plans medical policies site:averahealthplans.com\", \"results\": [{\"title\": \"Avera Health Plans\", \"url\": \"https://www.averahealthplans.com/insurance/\", \"snippet\": \"Offer health insurance that works for employees and your budget, whether your business is large or small. Talk To Agent ... <strong>All plans include the basic requirement of one yearly checkup and covered screenings, while some Direct plans include up to five visits with no co-pay (limitations apply).</strong>\"}, {\"title\": \"Avera Health Plans | Fast, Easy ACA Enrollment\", \"url\": \"https://marketplace.averahealthplans.com/\", \"snippet\": \"Avera Health Plans is <strong>the fastest and easiest way to enroll in ACA / Marketplace health insurance</strong>. Click on the link to shop and compare plans, grab a FREE quote, and sign up for coverage.\"}, {\"title\": \"YOUR LIFE, YOUR PLAN. PROVIDER MANUAL\", \"url\": \"https://www.averahealthplans.com/app/files/public/d887b01f-5827-4bf7-95ff-3080b3e7a7bd/provider-manual.pdf\", \"snippet\": \"the Avera Care System as their network, claims must be sent to Avera Health Plans \u00b7 for pricing, and we then forward the claims to United Medical Resources (UMR) for\"}, {\"title\": \"Find a Provider | Avera Health Plans\", \"url\": \"https://www.averahealthplans.com/insurance/find-a-provider/\", \"snippet\": \"Out-of-network providers are physicians, hospitals and health care providers not participating in the Avera Health Plans network. If you receive medical care from an out-of-network provider, you\u2019ll pay more for those services.\"}, {\"title\": \"For Members | Avera Health Plans\", \"url\": \"https://www.averahealthplans.com/insurance/for-members/\", \"snippet\": \"Find resources to help current members with individual and family plans, Medicare Supplement policies, and employees with group insurance through their employer. Now Available: Avera Health Plans transitioned to Avera MyChart in May.\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01MupiEBrMRxJdoGK5iZLf5Y",
+     "content": "{\"query\": \"\\\"Avera Health Plans\\\" \\\"medical policy\\\" prior authorization\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EooDCpABCBIYAipAwtPPVf57U3lP1EVBXnLiPxB8LsxPrH06I755XBStuTg6yedPB8p+YASk/UJ7RX0Bp6+dBZNaBJCred5LmS6D1DIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAYG/wdUGEgxg/TTWxl4ViBhKDlUaDAk/nyDgzsJmpQqLNiIweQcfmFW7c7QdezIzfZG3Ao4Jxq4asoo2jdCc9Bx6H7RoNJrvJBub37zhj/0jJfnFKqYBWHpyRiyf/3E7pvDcOQkTci1RGrZ7p/e7nebeVDwzQOUpw5AO/oqxgV8KJATMGRFvALtBu8f3w/P/Tm8OMZGSQCn+NrDCAGfZj22kWfA60HZRQqseW5JLwfBXAo+XMPc9JCZ3/seclD2IgBl/FRa6k8C6iQbcE9tQbmjBCYyr3wgEjFWe5/nyFr1pI2OXe/YZea1vPBtgNlAWpuymmuIimECY7EZ3IRgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_019ZQG1XwjNoYtiYR3S32x7X",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Avera Health Plans \"medical policies\" list provider"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01DeGxr52YoneDwnY6XqyXCU",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Avera Health Plans clinical criteria InterQual MCG shoulder"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01UnYmrQLVrebZthG4arghbj",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.averahealthplans.com/app/files/public/d887b01f-5827-4bf7-95ff-3080b3e7a7bd/provider-manual.pdf"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_019ZQG1XwjNoYtiYR3S32x7X",
+     "content": "{\"query\": \"Avera Health Plans \\\"medical policies\\\" list provider\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01DeGxr52YoneDwnY6XqyXCU",
+     "content": "{\"query\": \"Avera Health Plans clinical criteria InterQual MCG shoulder\", \"results\": [{\"title\": \"MCG Guidelines: Uses, UR Workflow, and Comparison\", \"url\": \"https://medheave.com/mcg-guidelines/\", \"snippet\": \"MCG can mean other things in other ... MCG (Hearst Health) and InterQual (Optum) are both <strong>proprietary, evidence-based clinical criteria tools used in utilization management</strong>....\"}, {\"title\": \"Evidence-Based Criteria & Guidelines | InterQual\u00ae\", \"url\": \"https://business.optum.com/en/operations-technology/clinical-decision-support/interqual.html\", \"snippet\": \"Explore how objective criteria, strong clinical documentation and medical review automation can help improve workflow efficiency, generate time savings, and enhance secondary review. ... Explore how a large national health plan leveraged InterQual\u00ae solutions as the catalyst to transforming their UM and CM programs.\"}, {\"title\": \"MCG Guidelines 101: Simplified for Providers - MedHeave\", \"url\": \"https://medheave.com/prior-authorization-services/mcg-guidelines/\", \"snippet\": \"MCG can mean other things in other ... MCG (Hearst Health) and InterQual (Optum) are both <strong>proprietary, evidence-based clinical criteria tools used in utilization management</strong>....\"}, {\"title\": \"10.01.530 Services Reviewed Using InterQual Criteria\", \"url\": \"https://www.premera.com/medicalpolicies-individual/10.01.530.pdf\", \"snippet\": \"arthroscopically assisted surgery, shoulder from the list of services reviewed using \u00b7 InterQual criteria.\"}, {\"title\": \"Medical Policies and Clinical Guidelines | Wellpoint Washington, Inc.\", \"url\": \"https://www.provider.wellpoint.com/washington-provider/resources/manuals-and-guides/medical-policies-and-clinical-guidelines\", \"snippet\": \"InterQual Level of Care (LOC) criteria is used by some Medicaid plans for medical necessity review for medical inpatient concurrent review, inpatient site of service appropriateness, home health and outpatient rehabilitation. The InterQualTM guidelines licensed include: ... MCG care guidelines are licensed and utilized to guide utilization management decisions for some health plans.\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01UnYmrQLVrebZthG4arghbj",
+     "content": "{\"url\": \"https://www.averahealthplans.com/app/files/public/d887b01f-5827-4bf7-95ff-3080b3e7a7bd/provider-manual.pdf\", \"final_url\": \"https://www.averahealthplans.com/app/files/public/d887b01f-5827-4bf7-95ff-3080b3e7a7bd/provider-manual.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"YOUR LIFE, YOUR PLAN. PROVIDER MANUAL Last reviewed 10-30-2025 Section 1: Welcome 1.1 About Avera Health Plans Avera Health Plans is a wholly owned subsidiary of Avera Health. We provide health care bene\ufb01t options to individuals, families, seniors and employers based in South Dakota, Iowa and Nebraska. We maintain a provider network that includes a comprehensive health care delivery system throughout South Dakota, southwest Minnesota, northwest Iowa and northeast Nebraska. Avera Health Plans contracts with regional and national networks to provide coverage for members who reside out of our area. 1.2 Avera Health Plans Philosophy Mission Avera is a health ministry rooted in the Gospel. Our mission is to make a positive impact in the lives and health of persons and communities by providing quality services guided by Christian values. Vision Statement We intend to maintain an outstanding health insurance \ufb01nancing and administration service guided by Christian values, with health care provided within a fully integrated care delivery system. Objectives \u2022 To provide excellent, aJordable, convenient health care services to members \u2022 To develop and maintain eJective long-term alliances with providers who envision the future as a fully integrated care delivery system \u2022 To develop and successfully manage the most cost-eJective care delivery system, oJering a full array of managed care services \u2022 To develop and oJer innovative products that place emphasis on health promotion, health education, wellness, early health-risk detection, screening and disease prevention \u2022 To provide a strong, comprehensive care delivery system guided by Christian values, aligning incentives to promote quality and cost-eJective care delivery Last reviewed 10-30-2025 \u2022 To be recognized as the industry leader in: o Member services o Provider network and relationships o Care delivery outcomes o Health bene\ufb01ts \ufb01nancing o Health bene\ufb01ts administration Values Avera Health Plans adheres to three important values that guide the actions of our participating providers and staJ: compassion, hospitality and stewardship. Compassion The compassion of Jesus, especially for the poor and the sick of body and spirit, shapes the manner in which Avera\u2019s employees, physicians, administrators, volunteers and sponsors deliver health care. We express compassionate care through sensitive listening and responding, understanding, patience, support and healing touch. Hospitality Jesus\u2019 encounters with individuals were typi\ufb01ed by openness and mutuality. The Avera community expresses hospitality by means of a welcoming presence, attentiveness to needs and a gracious manner, seasoned with a sense of humor. Stewardship Threaded through the mission of Jesus was the restoration of all the world to right relationship with its Creator. In that same spirit and mission, the members of Avera treat persons, organizational power and Earth\u2019s resources with justice and responsibility. Respect, truth and integrity are foundational to right relationships among those who serve and those who are served. Guiding Principles \u2022 To maximize the quality of care delivered with continuous evaluation for opportunities for improvement \u2022 To provide for the most eJicient use of resources \u2022 To provide an approach to medical diagnosis and treatment that is based on medical necessity Last reviewed 10-30-2025 \u2022 To require the involvement, input and support of the medical staJ for the preservation of clinical judgment \u2022 To recognize the value of prevention and health maintenance through programs and services \u2022 To implement methods and tools of systems thinking and systems approach to problem solving \u2022 To support operations that receive the highest satisfaction rate from customers, members, providers and employees 1.3 Avera Health Plans Accreditation Avera Health Plans is accredited with the National Committee for Quality Assurance (NCQA). NCQA Health Plan Accreditation includes rigorous evaluation of standards across multiple areas and includes results on clinical performance and consumer experience from Healthcare EJectiveness Data and Information Set (HEDIS) and Consumer Assessment of Healthcare Providers and Systems (CAHPS). The NCQA framework provides a roadmap for improvement for Avera Health Plans. 1.4 Provider Rights and Responsibilities Rights 1. To join Avera Health Plans subject to our credentialing plan 2. To receive notice of revisions to our policies 3. To receive claims payments directly, based on the provider\u2019s contractual agreement with Avera Health Plans 4. To receive information, education and support from our Provider Relations department regarding plan policies and operations as well as for problem resolution Responsibilities 1. To utilize our participating specialty providers, hospitals and facilities unless otherwise approved by Avera Health Plans Last reviewed 10-30-2025 2. To provide services to our members in the same manner and quality as those services provided to patients who are not our members 3. To close enrollment, if applicable, to new members with 60 days' notice to Avera Health Plans 4. To accept our reimbursement as payment in full (minus any co-pays, deductibles or coinsurance) for each covered service under the member\u2019s contract 5. To recognize all payments are subject to the Coordination of Bene\ufb01ts provisions of Avera Health Plans 6. To keep all member medical record information complete and con\ufb01dential 7. To open medical and administrative records with notice from Avera Health Plans regarding the member, for review by our staJ for the purpose of performing medical management, quality improvement, credentialing, and/or peer review activities 8. To cooperate with Avera Health Plans to provide precerti\ufb01cation, case management, quality improvement and peer review as requested 9. To comply with all policies and procedures as outlined in the Provider Agreement 10. To provide the necessary information and documentation regarding any appeal 11. To promptly notify Avera Health Plans regarding the following occurrences: o A change in status of license, certi\ufb01cation, specialty board status or DEA registration o Any circumstance that is required to be reported to the National Practitioner Data Bank, the Health Protection and Integrity Data Bank or any other reporting agency o If a provider is no longer employed, contracted or otherwise aJiliated with a clinic or facility o Any change or loss of liability insurance coverage o If a provider is no longer compliant with our credentialing criteria o Any circumstance in which a provider is sanctioned (e.g., to be suspended, debarred or excluded from participation in/or convicted of any criminal oJense related to the delivery of health care) Last reviewed 10-30-2025 o Any situation where a provider is charged with a felony or is under formal investigation for fraud or felony 12. To notify us of a change in address, ownership, tax identi\ufb01cation number or network participation 13. To notify our members in a timely manner if the provider no longer participates with our network 14. To maintain adequate medical records incorporating medical record standards 15. To actively participate in the provider directory accuracy activities of the health plan every 90 days as required by the No Surprises Act (NSA) 1.5 Avera Health Plans Contact Information Service Center Email: Service@AveraHealthPlans.com Phone: 888-322-2115 Provider Relations Email: AHP .Providers@avera.org Phone: 888-322-2115 Credentialing Email: AHP-Credentialing@avera.org Phone: 605-591-1601 ------------------------------------------------------------------------------------------------------------- Section 2: Avera Health Plans Products and Networks 2.1 Avera Health Plans Products Overview Last reviewed 10-30-2025 Avera Health Plans promotes prevention as the best and most cost-eJective medicine. Our products focus on preventive health care and wellness. We oJer a series of bene\ufb01t plan designs for fully-insured and self-insured clients, including multiple plan designs with a range of deductibles, out-of-pocket maximums and pharmacy bene\ufb01ts. Avera Health Plans oJers products through six main product lines: a. Avera Health Plans \u2013 Fully-insured health insurance plans for large and small employers b. Individual health insurance \u2013 Policies for single and/or families c. Avera Health Plans Bene\ufb01t Administrators \u2013 Self-funded or level-funded employer groups have access to the Avera Health Plans network, medical management services, eligibility and claims processing experience d. Medicare Supplement Insurance and Medicare Part D \u2013 Products for senior citizens e. Avera Care System \u2013 Provider network choices for members of the City of Sioux Falls, Minnehaha County and Home Federal Bank. For members who have chosen the Avera Care System as their network, claims must be sent to Avera Health Plans for pricing, and we then forward the claims to United Medical Resources (UMR) for claim processing. Avera Health Plans also performs preauthorization for these members f. Association Health Plans \u2013 Fully-insured plans for associations De\ufb01nitions \u2022 Product: A discrete package of health insurance coverage bene\ufb01ts that are oJered using a particular product network type (such as HMO or PPO) within a service area. Any set of plans that share a network type and a set of bene\ufb01ts is a product. \u2022 Network: The PPO or HMO networks oJered by Avera Health Plans. \u2022 Plan Types: With respect to a product, plans are the pairing of the bene\ufb01ts under the product with a particular cost sharing structure, provider network and service area that are oJered to consumers. If you have any questions or would like more product information, please contact our service center or you may email inquiries to Service@AveraHealthPlans.com. Last reviewed 10-30-2025 2.2 TotalChoice Overview TotalChoice is Avera Health Plans\u2019 newest PPO network with the broadest network available, including South Dakota's major health systems and many trusted regional providers. TotalChoice plans also include a travel network, using the UnitedHealthcare\u00ae Options PPO network for national coverage. The TotalChoice service area includes: \u2022 All South Dakota counties \u2022 13 northwest Iowa counties Both small and large employers that are based in this service area can purchase the TotalChoice products. Member ID Card Members who have purchased the TotalChoice plan will have a distinctive TotalChoice logo on the front of their ID card. Last reviewed 10-30-2025 Claims Because Avera Health Plans has a robust participating provider network in South Dakota and Iowa, most claims will be passed directly to Avera Health Plans where claims will be adjudicated using Avera Health Plans\u2019 contracted rates. Providers who are not contracted directly with Avera Health Plans will have claims repriced by First Choice Health network. For services rendered inside the TotalChoice service area: \u2022 Send all claims to First Choice Health, at PO Box 2289, Seattle, WA 98111-2289 using Payer ID AH002. For services rendered outside the TotalChoice service area: \u2022 Send all claims to UnitedHealthcare Options PPO Network, at UHSS, PO Box 30783, Salt Lake City, UT 84130-0783 using Payer ID 39026. Prior Authorizations Submit prior authorizations like you normally do for all product lines at Avera.org/PA. Questions/Resources Participating Providers with both the Avera Health Plans and/or the First Choice Health PPO Network should log in to the Avera Health Plans Provider Portal. Last reviewed 10-30-2025 If you have any questions regarding TotalChoice, call us at 888-322-2115 or visit the TotalChoice webpage for more information. 2.3 DirectConnect Formerly Avera Direct Network, DirectConnect is an HMO network oJered to members or employers in select South Dakota counties. DirectConnect plans only provide in-network bene\ufb01ts when a DirectConnect provider is utilized. There is no out-of-network area solution. 2.4 ConnectPlus Formerly AHP Network, ConnectPlus i\", \"text_truncated\": true}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EpkECpABCBIYAipAbyp7/mhBL+774yFm8BNuIZ5pSoswRcWY+3gHB3IcwettlIM6DNI4JBGpYZQe09abUHbZWwyAZrmb75h+ZFh8UDIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAYm/wdUGEgxLwB3ctT6LtR6X4UcaDFxja7UlLZ/vwuJUCSIwt4w5x0ttD9Qmb0A5WHUfK999wJ0FU86TXXi5Om1xRL0WRTkNcSVczND84yzqn2raKrUCNniqglRXWkTtTji5wFSd3nMkymduL7+xQxJniq2cF7SgmfxMpdN3vueZw8fBDX+9sFCcLBxmF7QCVBJPSUedXhjvZdbdpReX+eay0tsPhUU4gi8EfO+ZSp1f9evDwOUKeF4fVblnQF9gmei7I3kD5xp90MdF69rc3dR76JwZQ2gZ/Qs8Z438nUusgAfil7zKudKI+XS2JEktLO2BV67s1W4spYqS8ji/Oey3fZIRBY8sJ94qsMfnpRuoKMDeXKmvxnseKP7FU+l5LKcIfGSnEu32Tr8J1CMIR4l7uoG+jaMhvj4cZqNGn1bPfASZ+YOh+rYxyJAOh6JYfzUeB1tvVXDFfmozZkzI+IAwVX0JHeHsS80kG11FbP2CG1nJNmUcYWE7lv6VXoe2fcpLntLCR7KohyK8GAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_014c3qTuxX82S1ZUpn3tRZ3K",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Avera Health Plans medical policy manual pdf \"shoulder\" OR \"rotator cuff\""
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_017kctUyrnEQsPnPYif1SACZ",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Avera Health Plans member appeal grievance process address fax"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01M2qh1tREkJeVkcT14S2TqF",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.averahealthplans.com/insurance/for-members/"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_014c3qTuxX82S1ZUpn3tRZ3K",
+     "content": "{\"query\": \"Avera Health Plans medical policy manual pdf \\\"shoulder\\\" OR \\\"rotator cuff\\\"\", \"results\": [{\"title\": \"Shoulder Arthroscopy and Open Procedures\", \"url\": \"https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp436.pdf\", \"snippet\": \"policy, arthroscopic and open shoulder procedures not addressed in this medical policy may ... Syndrome, arthritis, referred neck pain). ... <strong>Rotator cuff repair is considered not medically necessary when criteria I or II are not met</strong>.\"}, {\"title\": \"SUR228 | 1 Medical Policy Manual Surgery, Policy No. 228 Shoulder Surgeries\", \"url\": \"https://beonbrand.getbynder.com/m/64c4b6d560fd986a/original/Shoulder-Surgeries.pdf\", \"snippet\": \"XI. <strong>Rotator cuff repair is considered not medically necessary in all other scenarios</strong>\"}, {\"title\": \"MEDICAL POLICY \u2013 7.01.602 Shoulder Arthroscopy in Adults\", \"url\": \"https://www.premera.com/medicalpolicies-individual/7.01.602.pdf\", \"snippet\": \"management of full-thickness rotator cuff tears from six RCTs with a primary outcome measure \u00b7 of Constant-Murley score (CMS) and visual analog scale (VAS) score.24 Three trials recorded CMS \u00b7 scores at 12 months from 257 individuals, 126 in the surgical group and 131 in the conservative \u00b7 group. The average ...\"}, {\"title\": \"Total Shoulder Arthroplasty\", \"url\": \"https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp430.pdf?rev=5674f3c704f044b78fabe88489cd73b8&hash=DEC268794C2514770173CB3569AFBF22\", \"snippet\": \"Authors wrote that if glenoid bone is adequate, a total shoulder replacement for treatment of \u00b7 osteoarthritis with no rotator cuff tear should be offered.\"}, {\"title\": \"CIGNA MEDICAL COVERAGE POLICIES - MUSCULOSKELETAL\", \"url\": \"https://www.evicore.com/sites/default/files/clinical-guidelines/2025-11/Cigna_CMM-315%20Shoulder%20Surg%20Arthro%20Open%20Proc_V2.0.2025_Eff03.07.2026_Pub11.21.2025.pdf\", \"snippet\": \"Rotator Cuff Repair Non-Indications............................................................................. 28 \u00b7 CMM-315: Shoulder Surgery - Arthroscopic and Open Procedures\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_017kctUyrnEQsPnPYif1SACZ",
+     "content": "{\"query\": \"Avera Health Plans member appeal grievance process address fax\", \"results\": [{\"title\": \"Member Guide\", \"url\": \"https://www.averahealthplans.com/app/files/public/3f353b8f-0ef7-4eb8-b6b8-c3be4e4e55f7/Member-Guide-MKT-DOC-081.pdf\", \"snippet\": \"or sex. Avera Health Plans does not exclude people or treat them differently because of race, color, national origin, age, disability, or sex. ... You can file a grievance in person or by mail, fax, or email. You may \u00b7 also contact the Complaint and Appeals Coordinator if you need\"}, {\"title\": \"Appeals & Grievances :: The Health Plan\", \"url\": \"https://www.healthplan.org/for-you-and-family/tools-resources/appeals-grievances\", \"snippet\": \"If you have any questions about ... appeals/grievance process, please contact our Customer Service Department or click the link below to print out a form which details all the information need to file a complaint or an appeal. Send the completed form to the address or fax number listed above. Click here to download the Member Complaint ...\"}, {\"title\": \"Enrollment Guide For Employer Plan Members\", \"url\": \"https://www.averahealthplans.com/app/files/public/61422582-b239-46e5-8563-8a9ea58d99fc/Enrollment%20Guide%20for%20Fully%20Insured%20Group%20AVHP-7807.pdf\", \"snippet\": \"or sex. Avera Health Plans does not exclude people or treat them differently because of race, color, national origin, age, disability, or sex. ... You can file a grievance in person or by mail, fax, or email. You may \u00b7 also contact the Complaint and Appeals Coordinator if you need\"}, {\"title\": \"Member Complaint Process\", \"url\": \"https://www.averahealthplans.com/app/files/public/6f5c5e4d-6984-46ef-b59b-7890b16b361d/member-hsv-461-form.pdf\", \"snippet\": \"Find health insurance plans. Avera Health Plans offers individual and family, employer and Medicare Supplement Insurance in South Dakota and Iowa. Members can use our online and app portal to manage benefits and claims.\"}, {\"title\": \"Health Net Medicare Appeals & Grievances\", \"url\": \"https://www.healthnet.com/content/healthnet/en_us/members/employer/employer-medicare/member-appeals.html\", \"snippet\": \"If we cannot resolve your complaint over the phone, we have a formal procedure to review your complaints. We call this the grievance procedure. There is no form required for filing a grievance. You may also submit your complaint in writing or via facsimile or email to Health Net at the address and/or fax number listed in the How to File section below.\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01M2qh1tREkJeVkcT14S2TqF",
+     "content": "{\"url\": \"https://www.averahealthplans.com/insurance/for-members/\", \"final_url\": \"https://www.averahealthplans.com/insurance/for-members/\", \"http_status\": 403, \"content_type\": \"text/html\", \"login_wall\": true, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Access Denied Access Denied You don't have permission to access \\\"http://www.averahealthplans.com/insurance/for-members/\\\" on this server. Reference #18.670c2e17.1789943691.70b62d1f https://errors.edgesuite.net/18.670c2e17.1789943691.70b62d1f\", \"text_truncated\": false}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EucDCpABCBIYAipApqd4KVlW2luWIGwkLDxtZFmv8XWSCvhym+xZg1Ja3J0WiaTmxc/wrX/hEfJthrhIfJdSBwGhts9XSfrPZnrmxzIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAY6/wdUGEgziPVh7lsv3+KD0UXEaDGQdQsUxHXwZ1APNgSIwQNIDmtQZP9+b4ncHyyddGNNXreVysY12uML759Mzs72cSCge72HyPPcs26+fJwOAKoMCGf811NyZ+dfhADjwAE+Qm83aLt6QMTiPjDuMJcunDzL2IQ+7KKllKtAUblh4/I+UBgLDkVjSS6407V/05KTzWHuGFIX4IkG3bQoBGXU6u9IuOiPTBNAAw5DWIniKi2KzUrOMf95Kkm/I8iwC3jzVZ9kXlD33wd/SJ1Kgf2TdlaIuqK5EYkY5ETRktQif2qoMzN6XdS+uaSWfFSKlFafqn1UHI553ccM4fv0iZISawc5wW9t9L16eUu+ibsqbeqCWc5V4LMT6hPr4EphWSNssNZ8klN8vWElvrKrUDJsgVO0K4ANo1FcHIgtKxHi0OsOYahRuJPUF3fcGzxhn2Wqq8frUphgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01WjuNfcWTDW5YFij8jQ2NEZ",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.averahealthplans.com/app/files/public/3f353b8f-0ef7-4eb8-b6b8-c3be4e4e55f7/Member-Guide-MKT-DOC-081.pdf"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_014ytWi7JmCWRZxeAnWUGNZT",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"Avera Health Plans\" medical policy \"effective date\" pdf orthopedic"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01WjuNfcWTDW5YFij8jQ2NEZ",
+     "content": "{\"url\": \"https://www.averahealthplans.com/app/files/public/3f353b8f-0ef7-4eb8-b6b8-c3be4e4e55f7/Member-Guide-MKT-DOC-081.pdf\", \"final_url\": \"https://www.averahealthplans.com/app/files/public/3f353b8f-0ef7-4eb8-b6b8-c3be4e4e55f7/Member-Guide-MKT-DOC-081.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Member Guide Discrimination is Against the Law Avera Health Plans complies with applicable Federal civil rights laws and does not discriminate on the basis of race, color, national origin, age, disability, or sex. Avera Health Plans does not exclude people or treat them differently because of race, color, national origin, age, disability, or sex. Avera Health Plans \uf0b7 Provides free aids and services to people with disabilities to communicate effectively with us, such as: qualified sign language interpreters and written information in other formats (large print, audio, accessible electronic formats, other formats). \uf0b7 Provides free language services to people whose primary language is not English, such as: qualified interpreters and information written in other languages. If you need these services, contact the Avera Health Plans Customer Care team at 1-888-322-2115, (TTY 711), 8 a.m. to 5 p.m. CST, Monday through Friday. If you believe that DAKOTACARE/DAS has failed to provide these services or discriminated in another way on the basis of race, color, national origin, age, disability or sex, you can file a grievance with: Complaint and Appeals Coordinator Avera Health Plans 5300 S Broadband Ln Sioux Falls, SD 57108-2221 Fax 1-800-269-8561 Email ComplaintAppeals@AveraHealthPlans.com You can file a grievance in person or by mail, fax, or email. You may also contact the Complaint and Appeals Coordinator if you need assistance with filing a complaint. You can also file a civil rights complaint with the U.S. Department of Health and Human Services, Office for Civil Rights, electronically through the Office for Civil Rights Complaint Portal, available at https://ocrportal.hhs.gov/ocr/portal/lobby.jsf, or call 1-800-368-1019 or 1-800-537-7697 (TDD). Or mail: US Department of Health and Human Services, 200 Independence Avenue SW Room 509F, HHH Building, Washington, D.C. 20201 Complaint forms are available at http://www.hhs.gov/ocr/office/file/index.html. Getting Help in Other Languages Language assistance services are available free of charge. Our Customer Care team is available 8 a.m. to 5 p.m. CST, Monday \u2013 Friday, toll-free at 1-888-322-2115 (TTY: 1-800-877-1113). \uf0b7 ATENCI\u00d3N: Si habla espa\u00f1ol, tiene a su disposici\u00f3n servicios gratuitos de asistencia ling\u00fc\u00edstica. Llame al 1-888-322-2115 (TTY: 1-800-877-1113). \uf0b7 LUS CEEV: Yog tias koj hais lus Hmoob, cov kev pab txog lus, muaj kev pab dawb rau koj. Hu rau 1-888-322-2115 (TTY: 1-800-877-1113). \uf0b7 CH\u00da \u00dd: N\u1ebfu b\u1ea1n n\u00f3i Ti\u1ebfng Vi\u1ec7t, c\u00f3 c\u00e1c d\u1ecbch v\u1ee5 h\u1ed7 tr\u1ee3 ng\u00f4n ng\u1eef mi\u1ec5n ph\u00ed d\u00e0nh cho b\u1ea1n. G\u1ecdi s\u1ed1 1-888-322-2115 (TTY: 1-800-877-1113). \uf0b7 XIYYEEFFANNAA: Afaan dubbattu Oroomiffa, tajaajila gargaarsa afaanii, kanfaltiidhaan ala, ni argama. Bilbilaa 1-888-322-2115 (TTY: 1-800-877-1113). \uf0b7 \u6ce8\u610f\uff1a\u5982\u679c\u60a8\u4f7f\u7528\u7e41\u9ad4\u4e2d\u6587\uff0c\u60a8\u53ef\u4ee5\u514d\u8cbb\u7372\u5f97\u8a9e\u8a00\u63f4\u52a9\u670d\u52d9\u3002\u8acb\u81f4\u96fb 1-888-322-2115 (TTY: 1-800-877-1113). \uf0b7 ACHTUNG: Wenn Sie Deutsch sprechen, stehen Ihnen kostenlos sprachliche Hilfsdienstleistungen zur Verf\u00fcgung. Rufnummer: 1-888-322-2115 (TTY: 1-800-877-1113). \uf0b7 \u0412\u041d\u0418\u041c\u0410\u041d\u0418\u0415: \u0415\u0441\u043b\u0438 \u0432\u044b \u0433\u043e\u0432\u043e\u0440\u0438\u0442\u0435 \u043d\u0430 \u0440\u0443\u0441\u0441\u043a\u043e\u043c \u044f\u0437\u044b\u043a\u0435, \u0442\u043e \u0432\u0430\u043c \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u044b \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u044b\u0435 \u0443\u0441\u043b\u0443\u0433\u0438 \u043f\u0435\u0440\u0435\u0432\u043e\u0434\u0430. \u0417\u0432\u043e\u043d\u0438\u0442\u0435 1-888-322-2115 (TTY: 1-800-877-1113). \uf020\uf020\uf0b7\u0645\u0644\u062d\u0648\u0638\u0629: \u0625\u0630\u0627 \u0643\u0646\u062a \u062a\u062a\u062d\u062f\u062b \u0627\u0630\u0643\u0631 \u0627\u0644\u0644\u063a\u0629\u060c \u0641\u0625\u0646 \u062e\u062f\u0645\u0627\u062a \u0627\u0644\u0645\u0633\u0627\u0639\u062f\u0629 \u0627\u0644\u0644\u063a\u0648\u064a\u0629 \u062a\u062a\u0648\u0627\u0641\u0631 \u0644\u0643 \u0628\u0627\u0644\u0645\u062c\u0627\u0646. \u0627\u062a\u0635\u0644 \u0645\u0644\u062d\u0648\u0638\u0629: \u0625\u0630\u0627 \u0643\u0646\u062a \u062a\u062a\u062d\u062f\u062b \u0627\u0630\u0643\u0631 \u0627\u0644\u0644\u063a\u0629\u060c \u0641\u0625\u0646 \u062e\u062f\u0645\u0627\u062a \u0627\u0644\u0645\u0633\u0627\u0639\u062f\u0629 \u0627\u0644\u0644\u063a\u0648\u064a\u0629 \u062a\u062a\u0648\u0627\u0641\u0631 \u0644\u0643 \u0628\u0631\u0642\u0645 1-800-325-2115 (\u0631\u0642\u0645 \u0647\u0627\u062a\u0641 \u0627\u0644\u0635\u0645 \u0648\u0627\u0644\u0628\u0643\u0645 1-800-877-1113.) \uf0b7 \u0ec2\u0e9b\u0e94\u0e8a\u0eb2\u0e9a: \u0e96\u0ec9\u0eb2\u0ea7\u0ec8\u0eb2 \u0e97\u0ec8\u0eb2\u0e99\u0ec0\u0ea7\u0ebb\u0ec9\u0eb2\u0e9e\u0eb2\u0eaa\u0eb2 \u0ea5\u0eb2\u0ea7, \u0e81\u0eb2\u0e99\u0e9a\u0ecd\u0ea5\u0eb4\u0e81\u0eb2\u0e99\u0e8a\u0ec8\u0ea7\u0e8d\u0ec0\u0eab\u0ebc\u0eb7\u0ead\u0e94\u0ec9\u0eb2\u0e99\u0e9e\u0eb2\u0eaa\u0eb2, \u0ec2\u0e94\u0e8d\u0e9a\u0ecd\u0ec8\u0ec0\u0eaa\u0eb1\u0ebd\u0e84\u0ec8\u0eb2, \u0ec1\u0ea1\u0ec8\u0e99\u0ea1\u0eb5\u0e9e\u0ec9\u0ead\u0ea1\u0ec3\u0eab\u0ec9\u0e97\u0ec8\u0eb2\u0e99. \u0ec2\u0e97\u0ea3 1-888-322-2115 (TTY: 1-800-877-1113). \uf0b7 1-888-322-2115 (TTY: 1-800-877-1113). \uf0b7 ATTENTION: Si vous parlez fran\u00e7ais, des services d'aide linguistique vous sont propos\u00e9s gratuitement. Appelez le 1-888-322-2115 (ATS: 1-800-877-1113). \uf0b7 \uc8fc\uc758: \ud55c\uad6d\uc5b4\ub97c \uc0ac\uc6a9\ud558\uc2dc\ub294 \uacbd\uc6b0, \uc5b8\uc5b4 \uc9c0\uc6d0 \uc11c\ube44\uc2a4\ub97c \ubb34\ub8cc\ub85c \uc774\uc6a9\ud558\uc2e4 \uc218 \uc788\uc2b5\ub2c8\ub2e4 1-888-322-2115 (TTY: 1-800-877-1113) \ubc88\uc73c\ub85c \uc804\ud654\ud574 \uc8fc\uc2ed\uc2dc\uc624. \uf0b7 OBAVJE\u0160TENJE: Ako govorite srpsko-hrvatski, usluge jezi\u010dke pomo\u0107i dostupne su vam besplatno. Nazovite 1-888-322-2115 (TTY - Telefon za osobe sa o\u0161te\u0107enim govorom ili sluhom: 1-800-877-1113). \uf0b7 \u1794\u17d2\u179a\u1799\u17d0\u178f\u17d2\u1793\u17d6 \u1794\u179a\u17be\u179f\u17b7\u1793\u1787\u17b6\u17a2\u17d2 \u1793 \u1780\u1793\u17b7\u1799\u17b6\u1799 \u1797\u17b6\u179f\u17b6\u1781\u17d2\u1798 \u17c2 \u179a, \u1794\u179f\u179c\u17b6\u1787\u17c6\u1793 \u17bd\u1799\u1781\u17d2\u1793\u1793\u1780\u1797\u17b6\u179f\u17b6 \u1794\u17c4\u1799\u1798\u17b7\u1793\u1782\u17b7\u178f\u17d2\u1788\u17d2 \u1793 \u17bd \u179b \u1782\u17ba\u17a2\u17b6\u1785\u1798\u17b6\u1793\u179f\u17c6\u179a\u17b6\u179a\u17cb\u179a\u17c6\u1794\u179a \u17be \u17a2\u17d2 \u1793 \u1780\u17d4 \u1785\u17bc \u179a \u1791\u17bc \u179a\u179f\u17d0\u1796\u17d2\u1791 \u17d4 1-888-322-2115 (TTY: 1-800-877-1113). AHP-DOC-001 (Form 0017-30) (08/20) Digital Resources7-8 Advocating for Y ou12 Navigating Y our Care Options Navigating Care Away From Home 15-16 Member Portal Benefits Claims and Explanation of Benefits (EOB) Pharmacy Well-Being Portal Wellness Value-Added Service Provider Directory 9-11 Important Information About Y our Member Identification Card 6 Where to Locate Important Health Coverage Information 5 Welcome to Avera Health Plans3 13-14 Preauthorization Navigating Y our Health Care Options 4 Our Customer Care Team In Y our Neighborhood 17-18 Understanding Health Insurance Terms What Y ou Need to Know as an Avera Health Plans Member Getting Help in Other Languages1 3 At Avera Health Plans our wish for you is to live a healthy life so you can enjoy life\u2019s little pleasures. Our goal is to connect you to the care you need when you need it. We are grateful for the confidence you place in our health insurance coverage and we want you to know we will do everything we can to meet your needs. Being an active participant in your overall health care will allow you to make informed decisions in controlling your health care costs. Throughout this booklet we included tips and resources to help you get the most out of your health insurance coverage. Welcome to Avera Health Plans AveraHealthPlans.com // 1-888-322-2115 In Your Neighborhood When you have questions with enrollment or you\u2019re ready to pick a plan, we have licensed agents to assist you. Call to schedule an appointment. Mitchell Sioux Falls Y ankton 525 Foster St. Room G419 5300 S. Broadband Lane 1000 W. Fourth St. Suite #2 605-995-1494 605-322-4500 605-665-3335 Our Customer Care Team 605-322-4545 | 1-888-322-2115 Avera Health Plans can connect you with the right people to assist you through your health care journey. After you become a member, you can call or email us at Service@AveraHealthPlans.com with your inquiry, and we will do our best to help you. For members requiring language assistance, our Customer Care team offers free translation services in more than 100 languages to help you receive information about benefits and how to access medical services. If members are hearing impaired, TDD/TTY services are available by calling 711 (or 1-800-877-1113 from outside South Dakota). Request the State Relay Services to connect you to our Customer Care team number listed above. 5 The following resources are located online after you log in to the member portal at AveraHealthPlans.com: Certificate (Evidence) of Coverage or Individual Insurance Policy Benefits and services included in, and excluded from, coverage Understanding your pharmacy benefits and pharmacy management procedures How to submit a claim for covered services How to obtain information about providers who participate in the Avera Health Plans network How to obtain primary care services How to obtain specialty care, behavioral health care and hospital services How to obtain care and coverage when living outside of the network How to submit a complaint How to appeal a decision that adversely affects coverage, benefits or the member\u2019s relationship with the health plan How Avera Health Plans evaluates new technology for inclusion as a covered benefit Protected Health Information (PHI) Use and Disclosure, including: \u2022 Avera Health Plans\u2019 routine use and disclosures of PHI \u2022 Use of authorizations \u2022 Access to PHI \u2022 Internal protection of oral, written and electronic PHI across Avera \u2022 Protection of information disclosed to plan sponsors or employers Summary of Benefits and Coverage Co-pays and other charges for which members are responsible Benefit restrictions that apply to services obtained out-of-network Pharmacy tier levels Where to Locate Important Health Coverage Information The member portal and Avera Health Plans mobile app hosts many of your personal health insurance plan materials. Y ou may also request copies of the documents by contacting our Customer Care team. AveraHealthPlans.com // 1-888-322-2115 Y ou and each of your covered dependents (spouse and/or children) will receive a member identification (ID) card. Y ou must show your member ID card whenever you need health care services. Carry your member ID card with you at all times and become familiar with the information on the card. Phone numbers and coverage shown on this sample member ID card may vary from the information listed on your member ID card. 1. The subscriber (or policyholder) is the person who carries the health insurance plan. The subscriber may have dependents (spouse and/or children). Subscribers, policyholders and dependents are also referred to as \u201cmembers\u201d of the health plan. 2. The subscriber (or policyholder) and group identification numbers are used by your provider to identify you and your plan of coverage. 3. Y our member identification number. Every member has his/her own number. Important Information About Your Member Identification Card Out-of-Area Residence Dependents In-network benefits are available to dependents who are currently enrolled with Avera Health Plans and who reside outside of the Avera Health Plans network coverage area for more than 90 consecutive days. Yo u must complete the Out-of-Area Residence Dependent form and submit it to Avera Health Plans. This form can be found by logging in to the member portal at AveraHealthPlans.com. In-network coverage will be effective on the date we receive this completed form. Verify your outside network provider by looking on the back of your member ID card and visiting the corresponding website for the most up-to-date information regarding a provider\u2019s participating status. Please note providers may not be \u201cparticipating providers\u201d at all locations where they practice. Therefore, it is important to verify the provider\u2019s practice and address on the website. 1 2 3 The back of your member ID card provides other important information: \u2022 Our Customer Care team phone number \u2022 The address where claims should be sent \u2022 Steps to find a participating provider \u2022 The phone number of your pharmacy benefit manager If you lose a card, you can reorder by logging in to your member portal at AveraHealthPlans.com. 7 Digital Resources Being a member has its digital perks. To provide quick access to your personal health information, we\u2019ve conveniently created multiple digital resources for members to use. AveraChart AveraChart is a free, secure, easy way for Avera patients to access their health care information, communicate with their care team, and become a more active partner in their own health care. AveraHealthPlans Mobile App The mobile app offers instant access to your health information wherever, whenever you want it. Members are able to view their coverage and benefits, ID card, claim details, make payments and more. Download for free on the App Store or get it at Google Play by searching for \u201c Avera Health Plans. \u201d AveraNow AveraNow is an online video visit program designed to conveniently connect you with a provider when you don\u2019t have time to go to the clinic. Connect to a provider through your phone, tablet or laptop. Learn more at Avera.org/now. Avera Health Plans provides this service to most members at no cost*. * For most members. Some limitations apply. NOTE: IRS guidelines indicate that members with HSA-eligible plans may be subject to tax penalties if they use the free AveraNow service. If you have an HSA-eligible plan, you may use your HSA or Flex spending dollars for this service. AveraHealthPlans.com // 1-888-322-2115 Member Portal After you enroll and receive your member ID card(s), you can register to access your online resources. We have a secure website so you can find the resources you need \u2013 when you need them. This easy-to-navigate portal gives you access to the following resources: \u2022 Benefits \u2022 Pharmacy \u2022 Claims/Explanation of Benefits \u2022 Well-being portal \", \"text_truncated\": true}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_014ytWi7JmCWRZxeAnWUGNZT",
+     "content": "{\"query\": \"\\\"Avera Health Plans\\\" medical policy \\\"effective date\\\" pdf orthopedic\", \"results\": [{\"title\": \"Outline of Coverage | Nebraska 2025\", \"url\": \"https://www.averahealthplans.com/app/files/public/d8e57e11-fb48-465f-9f15-592c96c66d3d/medicare-supplement-agilityplus-plan-ne-ooc.pdf\", \"snippet\": \"Benefit Chart of Medicare Supplement Insurance Plans with effective dates on or after [<strong>August 1, 2025</strong>] Avera Health Plans offers Medicare Supplement Standard Plans [A, G, and High Deductible G]\"}], \"result_count\": 1, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EsgICpABCBIYAipAd/3ISOI2oG6wJFcA2fCl117ixIKXFKixcMVKQ+Cwf792A4MtjSnWjDoEXahKpHIHpjRaz6nySHB7W9dM2FB/azIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAZe/wdUGEgzT0BGt9K8r6ZOQJNMaDBRKJRNNEBODArSs6SIwe9TkU2Bm+4i+MI3E/Hkf07UrzvU2cN9Nkw9c6uI0RTFeMVqhQrVvgqwaz/u6wi8XKuQGfvJPyJSlflyIkTrcEzYv8zwZ7Iba72x1+OeSWO3ohuTwnH0cNvD3cPSyoMtdFUxWetsEQ1LJfF6wgL+v7zfgZxLg1xggFonK7upLJo8DSYRxGnSVb7b63T3HQ+tpn+1WPllmif2K62AIFBs3OtaA8lPnmEqgT60kKFl4Z84OSBxaFHDveki5KwWZzByJzoZX8izGb1Qky64+mwTQLJNIjQdSmR8SaR/1cACOl4LBIaNVykj/JR3ZY2Qx66m9yyWv4+b00O4XLsOgtqmX+sR8CA0V5nb6rIhqy7HVT3NigvNGdHyUDI9RZT3ktUbgiCvfbiyHzXl+XF3WpShRN0JFZNcAOuHZQNjsz42HKfAw/aANzCx9X5X27AxOWMI78bXIy+8RrGoRKSwgrykXxdkpPkgYcfRVIdHzs6LgYebwn1ikQw4YFwQORlKeVeDSsAf9YwZRjTJqaWu15jqPdvhsxr4VNvk0hZcUDAT99HNzr1b4mcAA3gg4pUtK5bt/GVZZrPaQLtHRlBwdpds8U7UvhFmgQlYVpnEv3wA4JCR7eXOW5HPNcytLaZ3Mim+6Rcbh21XBOAnOheifq3fcMvwIl4jdDGPsl9Um9rwLFJPSNj04Njmf1gw4rTzI55ZdHG78zhLGA7auvXH/YWCkfvh58fhMTfbxsmrqbx3Pv/KdH/rpYPeOeSw20mkz3td8Epx7oF98SmR1COI2U1XufEMXKiXKTIMQxqZIcc2UTiQhXQ9ZQsWZqV3WtZKhlIdMpNbJdStAGM9QhKefJof0IjgVeUgz5Ma6vWKuvJkAZRMRz07+b0SVMbB9NHWgqDNrXs8qXOBk4DWy6VM7Osy/uoEV0IK2TJvCiwySkCmTygoMnQWndhgAOLM92nvwXZ+U0QNhSDd6MAL68l6UakpUrwrU3WownpAUjaAj8z7p2DPAzmt4WkypB9Q5zS5bxUYNxDCR6ZY/6SIJo4VRZJYiDvYLRqPScJR7xNdjgE+wIdTfDR/84E8trnWtvj6qzeGUXcqNtJuOFSB/5bRxepwQLr2rVt//xgQrgk+Mjy4WTMQOLF9+caLXsCeiWGSNHzMKeejOgl7YxQV+Kz1fbBRwlJpsMcqznlATl+X+fHPdvXnWf3imEPtbVED2pEs+dvRoOCCclfNymBgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01XKZyMFAD3iJZxZzKgCCp4x",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"Avera Health Plans\" \"medical policy\" number \"MP-\" OR \"clinical policy\" list"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01FByZ9ZBrWiqP146JhsXPhu",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Avera Health Plans provider portal medical policies \"AveraHealthPlans.com\" policy"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01CbKaS3cJz6P6sRZvN9ThpG",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.averahealthplans.com/providers/"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01XKZyMFAD3iJZxZzKgCCp4x",
+     "content": "{\"query\": \"\\\"Avera Health Plans\\\" \\\"medical policy\\\" number \\\"MP-\\\" OR \\\"clinical policy\\\" list\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01FByZ9ZBrWiqP146JhsXPhu",
+     "content": "{\"query\": \"Avera Health Plans provider portal medical policies \\\"AveraHealthPlans.com\\\" policy\", \"results\": [{\"title\": \"Medicare Supplement Plan Members | Avera Health Plans\", \"url\": \"https://www.averahealthplans.com/insurance/for-members/medicare-supplement-insurance/\", \"snippet\": \"The Avera MyChart member portal \u2013 accessible online and on your mobile device \u2013 is your go-to location for details about your insurance policy, coverage, claims and more. Avera Health Plans transitioned to Avera MyChart on May 30, giving you one secure place to view health insurance member benefits and health information if you&#x27;re an Avera patient. Schedule care more easily. Connect virtually with providers.\"}, {\"title\": \"Pay a Premium | Avera Health Plans\", \"url\": \"https://www.averahealthplans.com/insurance/for-members/pay-premium/\", \"snippet\": \"Log in to your member portal to make a one-time payment (or set up auto pay) if you buy your own insurance or have a Medicare Supplement insurance policy. You may pay your premium using your bank account, debit card or credit card. Log in to Avera MyChart \u00b7 If you are an employee who subscribes to Avera Health Plans through an employer, your premium will be managed through the employer, most often through your paycheck. Are you an employer who provides insurance for your employees?\"}, {\"title\": \"New Members: What to Expect | Avera Health Plans\", \"url\": \"https://www.averahealthplans.com/insurance/for-members/member-resources/new-members-what-to-expect/\", \"snippet\": \"To avoid duplication of coverage and unnecessary expenses, our Medicare Supplement Insurance policy should replace any other Medicare Supplement Insurance you may have. Your member ID card contains important information about your plan. Be sure to carry it with you at all times, as you&#x27;ll be required to show it whenever you need health care services. Be mindful of who you share your health insurance information with \u2013 to minimize risk of fraud. Once you receive your member ID card, log in to the online member portal or through our Avera Health Plans mobile app for access to all of the details specific to your plan.\"}, {\"title\": \"Preauthorizations | Avera Health Plans\", \"url\": \"https://www.averahealthplans.com/insurance/for-providers/preauthorizations/\", \"snippet\": \"... Avera Health Plans <strong>requires prior authorization on certain medical services and prescription drugs that are covered under the medical benefit</strong>. Health care providers (not patients/members) are responsible for submitting preauthorization requests to us for approval.\"}, {\"title\": \"Avera Health Plans | LinkedIn\", \"url\": \"https://www.linkedin.com/company/avera-health-plans\", \"snippet\": \"<strong>Individual policies, Medicare Supplement Insurance plans and employer group coverage (large, small and self-funded options).</strong> Please contact your local licensed agent or visit AveraHealthPlans.com ...\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01CbKaS3cJz6P6sRZvN9ThpG",
+     "content": "{\"url\": \"https://www.averahealthplans.com/providers/\", \"final_url\": \"https://www.averahealthplans.com/providers/\", \"http_status\": 403, \"content_type\": \"text/html\", \"login_wall\": true, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Access Denied Access Denied You don't have permission to access \\\"http://www.averahealthplans.com/providers/\\\" on this server. Reference #18.680c2e17.1789943705.7b114598 https://errors.edgesuite.net/18.680c2e17.1789943705.7b114598\", \"text_truncated\": false}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "id": "toolu_0139DKzAEJ1KmGbsKisHsGdS",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.averahealthplans.com/insurance/for-providers/preauthorizations/"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_014bUAnjZW3hUtQ6bViabWWQ",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Avera Health Plans preauthorization list \"medical policy\" criteria orthopedic surgery"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_0139DKzAEJ1KmGbsKisHsGdS",
+     "content": "{\"url\": \"https://www.averahealthplans.com/insurance/for-providers/preauthorizations/\", \"final_url\": \"https://www.averahealthplans.com/insurance/for-providers/preauthorizations/\", \"http_status\": 403, \"content_type\": \"text/html\", \"login_wall\": true, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Access Denied Access Denied You don't have permission to access \\\"http://www.averahealthplans.com/insurance/for-providers/preauthorizations/\\\" on this server. Reference #18.680c2e17.1789943708.7b1200ab https://errors.edgesuite.net/18.680c2e17.1789943708.7b1200ab\", \"text_truncated\": false}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_014bUAnjZW3hUtQ6bViabWWQ",
+     "content": "{\"query\": \"Avera Health Plans preauthorization list \\\"medical policy\\\" criteria orthopedic surgery\", \"results\": [{\"title\": \"Orthopedic Procedures, Devices, and Products Page 1 of 4\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/index/mamp/orthopedic-procedures-devices-products-11012025.pdf\", \"snippet\": \"Orthopedic Procedures, Devices, and Products \u00b7 UnitedHealthcare Medicare Advantage Medical Policy\"}, {\"title\": \"Orthognathic (Jaw) Surgery \u2013 Community Plan Medical ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/orthognathic-jaw-surgery-cs.pdf\", \"snippet\": \"Orthognathic (Jaw) Surgery \u00b7 UnitedHealthcare Community Plan Medical Policy\"}, {\"title\": \"Orthognathic (Jaw) Surgery \u2013 Commercial and Individual ...\", \"url\": \"https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/orthognathic-jaw-surgery.pdf\", \"snippet\": \"Orthognathic (Jaw) Surgery \u00b7 UnitedHealthcare Commercial and Individual Exchange Medical Policy\"}], \"result_count\": 3, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "Ep8ECpABCBIYAipAbey5RkuE1q4GWZeaE2wQqbOzXhZhSdoO5nMRf3sAj2XTq7c9qyu2yT9Yku6hjAe/4cIVXgvTnZLSmWmOSyAssDIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAaC/wdUGEgxh5MWAt8buSegFnzsaDDezjJYw1iXNB9kkgiIw6KMcCqUkSOxEgCBlsNMqcaBWReD/t/DqzgOgHeqEp4ZOhwLibFElTXIQRb2Ho3s2KrsCqxa9SUT2cTT8e32ObG2VfJ61zoxuVlLjZv1/cVNOZz5jv3oE5/GZW4MLCs4JoJ7XmYv+9nbhNMsCeYdcTCw7L/HGrlRd92z22XLALUpkIhlE4E5+lkFbScMcwytWyO8sM2klQGMnIbHZZQ0uXxiWzoHYpn8CyuSfAogOSDqx5Emsca7TzxYBzXmxuf6flZXZ8IYFBC42QLfWQbJvIU5z88l1eMQBeRiHDw+1frY7J22uvGUU3NOTIW/8MtaEWaFQ8f85s/EwPH6vCtMjX3J/mWIBrTxUtLIPhiYO4TR1whL6IhaDgdNZnvPgXchX9ik2UDF5rsyHFWvLIVTSiPZiPhrY/iRpkNOZ/iYj7miVgtGPD8+rO/z4xi/FSvt7Bj12fzFJiPfkEJ016IdzVSxQMhnYEHkY0w8nNcbdGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01Q4keXD61UBQk7CcYzQrKeB",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://web.archive.org/web/2025/https://www.averahealthplans.com/insurance/for-providers/preauthorizations/"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_0188xcDbjSUwUQKhFGeUrsyv",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"Avera Health Plans\" \"medical policy\" \"InterQual\" OR \"MCG\" preauthorization criteria"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01Q4keXD61UBQk7CcYzQrKeB",
+     "content": "{\"url\": \"https://web.archive.org/web/2025/https://www.averahealthplans.com/insurance/for-providers/preauthorizations/\", \"final_url\": \"https://web.archive.org/web/2025/https://www.averahealthplans.com/insurance/for-providers/preauthorizations/\", \"http_status\": 429, \"content_type\": \"text/html\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"429 Too Many Requests You have sent too many requests in a given amount of time.\", \"text_truncated\": false}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_0188xcDbjSUwUQKhFGeUrsyv",
+     "content": "{\"query\": \"\\\"Avera Health Plans\\\" \\\"medical policy\\\" \\\"InterQual\\\" OR \\\"MCG\\\" preauthorization criteria\", \"results\": [{\"title\": \"Prior Authorization: How It Works, How Long It Takes, and What Changed in 2026\", \"url\": \"https://ushealthinsights.com/article/prior-authorization/\", \"snippet\": \"4. A reviewer applies criteria. Nurses and non-clinical staff can approve. In most cases, only a physician or licensed clinician can issue a clinical denial. Many plans use third-party guideline sets (InterQual, MCG) rather than writing criteria from scratch.\"}, {\"title\": \"InterQual & MCG Criteria for Imaging Studies | Solum Health\", \"url\": \"https://getsolum.com/glossary/interqual-mcg-criteria-guide\", \"snippet\": \"Both InterQual and MCG live inside the broader framework that many payers call utilization management, which includes <strong>prior authorization before care</strong>, concurrent review during care, and retrospective review after the fact.\"}, {\"title\": \"InterQual Criteria: Uses, Access, & Documentation\", \"url\": \"https://medheave.com/interqual-criteria/\", \"snippet\": \"Learn what InterQual criteria are, how they work in utilization review, and how to document for medical necessity decisions.\"}, {\"title\": \"MCG Guidelines: Uses, UR Workflow, and Comparison\", \"url\": \"https://medheave.com/mcg-guidelines/\", \"snippet\": \"Learn what MCG guidelines are, how they work in utilization review, and how MCG compares with InterQual criteria.\"}, {\"title\": \"Search Medical Policies and Clinical Guidelines\", \"url\": \"https://www.provider.wellpoint.com/global-wp-provider/medical-policies-and-clinical-guidelines\", \"snippet\": \"InterQual Level of Care (LOC) criteria is used by some Medicaid plans for medical necessity review for medical inpatient concurrent review, inpatient site of service appropriateness, home health and outpatient rehabilitation. The InterQualTM guidelines licensed include: ... MCG care guidelines are licensed and utilized to guide utilization management decisions for some health plans.\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "Eu0HCpABCBIYAipA2wAjW0D8IJbmxI5/UflCmBjYDBi9GRsUwT43+eW6+Oc6mj045fx07w3J46m+HOWSYXBHbFvitg4e1bPZA/aJ0TIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAaa/wdUGEgytmqqFjpjXx0VZ2jQaDPAHGWyVCHGafUQEjyIwqKnReLDYTTEVZZQXGfr6K0s+6Xeh8i4MRJ6WIeVsmzTZmP2RgALdFTeOnzYOVzE1KokGqcb7SXuMqKFjAprANFrzGmo6Ipo+b2pHiZri1577KJsli2gKXEvY3WTtbqgl9nxVp1z+rIFlfJl+Hl5LtSESR23vpXck1Cay6f7eXf079N6BpfBgvtKePD1/sYEgpYILbdGpukVJU5e1+Q64PWln2zEWFflRayoi75AV7hve0+awK6I+X35+CuW/fLlCnqLeWAHFOrRfSk3Lnk7wW/R8UkGQdZ0tC7is2RsUdJHK9i6dbGG7UiK/+oB9EGq4E6YeOgTkLrmbRk+pBIxiy4/+IzRHbttEbOMGJwfr9uN9iwtY2Bzy9TEN4XVPYgQyrtxMB7GFIG5lONU/chiCNJVBycDrHcjzdvV2sAAH74RCWTS2A5ZU2tSrMnW7mmdoQAW7R+z6RHzVNXUR61djmZnEoXkW2DS9H+eP9qZX1iAd/MtFaYHj4eG4k1QiWz/vrkgN5kcX3KBzAWEvQBdgdW3sr1i1lF5+Z6bzcVtENhqjPjcvjORBNK+S3QSxbn0/Ev8t2E/HOZOvCQ3Sm9ia05m9M9t5HT2KZHymZdoUHJ8c9YBiAtBE5Gvowx2thY7VS6eEGBUyuoBxp7GBJC/7L+3+DeC+zAZjN9e8zK20dPw19JFDtCAw69lq1p5x/uBMiPgzwmEDB9D9i0ItyyAjI1aqL2kDMLkTtl37TUrSfiOJHB5X6p+7Hrip+BXBX2sfEpZQ+MmMM2vWrJWx+2nPrm8S26BgIrxI9KUujBWyqyx9pe19RB+WOzqMhzAK9bFAPzuX++7c3p8cfjlYCGfdlNIlB54PbOOzgkFZs3qrUG++T7DJfSYcpacASsgoa5j7yCApGY9z8THk380NTj7lFPquxccRe7eI7YwIECZvCM2e2CjHdMbIkHwPATEfn8/DgVCkJ0vr07VsfCveAOtQWehKioFdEeeKc0otBDWfPiDgxmclwDByUFV9jUijGHVuGMBx2fRtUbjtM8+j7BHp0pW2FgFSXvpNkJofpmoiWcO7lI1ucWYCy3RuU4QxlZ5S/lgu2v37WUuFxx9kGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01TgVd4aiAEnwJ26mYno6uks",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"averahealthplans.com\" \"policy\" filetype:pdf shoulder"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_018z5iZqdEbz39hSGK5G29T7",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Avera Health Plans \"utilization management\" criteria \"MCG\" OR \"InterQual\" vendor"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01TgVd4aiAEnwJ26mYno6uks",
+     "content": "{\"query\": \"\\\"averahealthplans.com\\\" \\\"policy\\\" filetype:pdf shoulder\", \"results\": [{\"title\": \"1 The Consumer\u2019s Guide for Individual Plans\", \"url\": \"https://www.averahealthplans.com/app/files/public/e6e4cba1-c4f7-473e-824e-ae0f962b06e1/Consumer-Guide.pdf\", \"snippet\": \"Avera Health Plans complies with applicable Federal civil rights laws and does not discriminate on the basis of race, color, national origin, age, disability,\"}, {\"title\": \"2026 Individual and Family Health Insurance Options SOUTH DAKOTA\", \"url\": \"https://www.averahealthplans.com/app/files/public/b2955300-0e9d-4211-afc1-059bf087ff03/AVHP-1374750-Individual-Plan-Brochure-2026-SD.pdf\", \"snippet\": \"apply. For a detailed listing, visit AveraHealthPlans.com. ** To qualify for this plan, you must be under the age of 30 before the policy effective date or qualify for a federal\"}, {\"title\": \"Page 1 of 8 2026_60536SD0020052-00-01 2026_60536SD0020058-00-01\", \"url\": \"https://www.averahealthplans.com/app/files/public/39fa2dcb-6d82-4ba5-a220-c2e34fadd70c/SBC/2026/SD%20IND%20PPO%20Network/2026_60536SD0020052-00-01%202026_60536SD0020058-00-01%20ConnectPlus%20Standard%20$6000.pdf\", \"snippet\": \"separately. This is only a summary. For more information about your coverage, or to get a copy of the complete terms of coverage, visit us at \u00b7 www.AveraHealthPlans.com or call 1-888-322-2115.\"}, {\"title\": \"Page 1 of 8 Summary of Benefits and Coverage\", \"url\": \"https://www.averahealthplans.com/app/files/public/5af2daac-5729-43c6-baf5-452e67cd7df9/SBC/2026/SD%20IND%20Direct%20Network/2026_60536SD0060027-00-01%20DirectConnect%20MyWeighForward%20$2000.pdf\", \"snippet\": \"* For more information about limitations and exceptions, see the plan or policy document at www.averahealthplans.com*\"}, {\"title\": \"Page 1 of 8 2026_60536SD0020068-00-01 2026_60536SD0020069-00-01\", \"url\": \"https://www.averahealthplans.com/app/files/public/e1f7c6bc-7ea7-452a-9a8d-5111e4cfc2a5/SBC/2026/SD%20IND%20PPO%20Network/2026_60536SD0020068-00-01%202026_60536SD0020069-00-01%20ConnectPlus%20MyWeighForward%20$2000.pdf\", \"snippet\": \"* For more information about limitations and exceptions, see the plan or policy document at www.averahealthplans.com*\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_018z5iZqdEbz39hSGK5G29T7",
+     "content": "{\"query\": \"Avera Health Plans \\\"utilization management\\\" criteria \\\"MCG\\\" OR \\\"InterQual\\\" vendor\", \"results\": [{\"title\": \"InterQual Criteria: Uses, Access, & Documentation\", \"url\": \"https://medheave.com/interqual-criteria/\", \"snippet\": \"<strong>InterQual (Optum) and MCG are the two dominant proprietary clinical criteria tools in utilization management</strong>.\"}, {\"title\": \"InterQual Criteria Explained for Providers - MedHeave\", \"url\": \"https://medheave.com/prior-authorization-services/interqual-criteria/\", \"snippet\": \"Some UR nurses describe InterQual as more detailed in its clinical element matching, while MCG tends to orient reviewers toward care progression and expected length of stay. Optum describes InterQual as evidence-based clinical decision support for appropriate utilization, while MCG describes its care guidelines as evidence-based and regularly updated.\"}, {\"title\": \"MCG Guidelines: Uses, UR Workflow, and Comparison\", \"url\": \"https://medheave.com/mcg-guidelines/\", \"snippet\": \"MCG (<strong>Hearst Health</strong>) and InterQual (Optum) are both proprietary, evidence-based clinical criteria tools used in utilization management. MCG is often described as more oriented toward care pathways, recovery expectations, and goal length of stay ...\"}, {\"title\": \"MCG Guidelines 101: Simplified for Providers - MedHeave\", \"url\": \"https://medheave.com/prior-authorization-services/mcg-guidelines/\", \"snippet\": \"MCG (<strong>Hearst Health</strong>) and InterQual (Optum) are both proprietary, evidence-based clinical criteria tools used in utilization management. MCG is often described as more oriented toward care pathways, recovery expectations, and goal length of stay ...\"}, {\"title\": \"Search Medical Policies and Clinical Guidelines\", \"url\": \"https://www.provider.wellpoint.com/global-wp-provider/medical-policies-and-clinical-guidelines\", \"snippet\": \"InterQual Level of Care (LOC) criteria is used by some Medicaid plans for medical necessity review for medical inpatient concurrent review, inpatient site of service appropriateness, home health and outpatient rehabilitation. The InterQualTM guidelines licensed include: ... MCG care guidelines are licensed and utilized to guide utilization management decisions for some health plans.\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "text": "I was unable to locate a publicly posted Avera Health Plans medical-necessity policy specific to CPT 29827 / rotator cuff repair. I'll report this honestly rather than guess a document.",
+     "type": "text"
+    },
+    {
+     "id": "toolu_01BWTXQG9Ds9AHmX8dScqBbu",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Avera Health Plans \"Certificate of Coverage\" appeal \"180 days\" internal appeal"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01PgaQkUqN4sde2scXuLxeHq",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Avera Health Plans external review South Dakota Division of Insurance appeal"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01BWTXQG9Ds9AHmX8dScqBbu",
+     "content": "{\"query\": \"Avera Health Plans \\\"Certificate of Coverage\\\" appeal \\\"180 days\\\" internal appeal\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01PgaQkUqN4sde2scXuLxeHq",
+     "content": "{\"query\": \"Avera Health Plans external review South Dakota Division of Insurance appeal\", \"results\": [{\"title\": \"Division of Insurance External Review Health Insurance Major Medical\", \"url\": \"https://dlr.sd.gov/insurance/external_review_health_major_medical.aspx\", \"snippet\": \"When you have gone through all your options to appeal a denial of coverage or benefit, you may have the right to an External Review. An External Review means <strong>an organization not connected with your insurance company reviews your complaint and makes a decision</strong> \u00b7 Your insurance company is required ...\"}, {\"title\": \"South Dakota | Coverage Rights\", \"url\": \"https://coveragerights.org/south-dakota/\", \"snippet\": \"Copy of certificate of coverage or insurance policy benefit booklet; ... Submitting a standard external review. If you are requesting a standard external review, you should submit your request to the following address: <strong>South Dakota Division of Insurance 124 S.</strong>\"}, {\"title\": \"South Dakota Division of Insurance Complaint Process\", \"url\": \"https://dlr.sd.gov/insurance/doi_complaint.aspx\", \"snippet\": \"Notification of your right to appeal including the health insurance carrier&#x27;s review (appeal) procedures and the applicable time limits.\"}, {\"title\": \"r/SouthDakota on Reddit: \u201cNot Medically Necessary\u201d: Inside the Company Helping America\u2019s Biggest Health Insurers Deny Coverage for Care\", \"url\": \"https://www.reddit.com/r/SouthDakota/comments/1gs45mq/not_medically_necessary_inside_the_company/\", \"snippet\": \"This is not South Dakota specific, but it&#x27;s something everyone needs to be aware of is currently happening and is about to get worse. My grandmother (73) finally won her appeal to receive an MRI after a fall where she hit her head...4 months ago! The docs at Avera had been fighting with this company the entire time.\"}, {\"title\": \"MPR\", \"url\": \"https://mypatientrights.org/file-a-complaint/south-dakota\", \"snippet\": \"You can find information on how to file a consumer complaint or appeal with the South Dakota Division of Insurance here.\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EoIICpABCBIYAipAWd+96stRYz6cOoc1GJlZghD8KYqLu4SvOLPP4/ZhdXFpIwGepc7Ha7d6T+j8je9tmr0HslPD77x6Xk2D4lLacjIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAbK/wdUGEgyOSwhA0Yh1q0aExNUaDKJkzpYKzlsR/uxRBiIwR2isa0Y33GRfUE7QROIhkdOh3hRnRuc5y7s+18rrJQRWncCHIdLply/6iHqMx4zVKp4GSiyXw2DPfbSZYs5ovL4BomhofTOFr6imKWwnvpIwsU7U8SNrMEO63aUpn4nAF6CNdZdFZpxxWBLVKohtdka4K1AHgJ85cy2Ms64IdrfFYnxx5DGW+8Qc1/ORIrIh3VQW4Uw4Py1QWAYS336XI6iJ3avnAqnbBXNILDveSbBLhjdxs0+meVwaQbExRF0BiMfPLJSHn4TQD1FpjgmNqQOtTwS3JC0oHqSlIUBbJOAcvaMb/30nMuQZsIN3yF93Ye8jSmSMuyDHWui8kqAh2vE9kFOQuX34bN+UD9Sluyt6lNKyAVb9S902V+MjcDWp6Bkb0GE4CDW3Ky+7jrjbbdxSMlCh1aQvXDLbU88f3w1/vNeZToaPIAfcA3SLbZOrQm1s2EQl9JZ1FUZ2JlQF7LQALwWmDClygirBf5hkSwMj182CyK3CVEZzvwWGgnCpj3MSUiRjroYBtA/hGEmbpBfRdGKUjsJEYrx4hkQBNMg3xBjxeksBIgrBCQcxKReGCphh+IjDqbJGk+eMtV+lgaJWk3EVE8p6e2RfZE8jutjS1WnD7z7dgf0mRQyHaSLdV/tY8euT/O8VaydbJmp8KIX5BKRHSKG6BRRf5g4aGMX4xZujQoTUDvRq5Ibd8LrHMHNZlZfsTCsoxawjMPRAyXMxlL3/p5HD/w+nz5ARjRri1n1lTAYiQD94TVg5EBabqMJ94jDqpw3WBukHJ3XNPvLpzY60t5MeXdfi3rcHZ34WIl50QA0wFBgGnaSAXbFYoyHhMXhmRRbEUEgkFBN1qGjhMdsdT74MmBiu1fAquqAyvvH9JsuvDW8U/s7GPlAcgdyHJvKhUnmJhaviX8vW7wKn/Y2CR6Vw0FU9clKJ838G30e95b0OEsTcUFrbAbCQGTkbBljEnkCQ3WSyMUNHgeV1vKCvN9kPMKyQc8NxkE8tfUTPcKRivk+4rUv4hdXYMkHgFRd3IVJMR/VEIVh2jJsLtA5UBqaRYfdb+kd2zAlzs1J5soXkAC9SSRaJyu+YpVqUUBdarT4pzAWfVSc5jJFfIGD4Tbo49DtWQY39prONGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01Wf5JK3v9rxW9ZS8BKRZ5zo",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.averahealthplans.com/app/files/public/e6e4cba1-c4f7-473e-824e-ae0f962b06e1/Consumer-Guide.pdf"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01Wf5JK3v9rxW9ZS8BKRZ5zo",
+     "content": "{\"url\": \"https://www.averahealthplans.com/app/files/public/e6e4cba1-c4f7-473e-824e-ae0f962b06e1/Consumer-Guide.pdf\", \"final_url\": \"https://www.averahealthplans.com/app/files/public/e6e4cba1-c4f7-473e-824e-ae0f962b06e1/Consumer-Guide.pdf\", \"http_status\": 404, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"ERROR: Page Not Found - Avera Health Plans - Sioux Falls, SD Skip to Content Return to Home ERROR: Page Not Found The page you're looking for either doesn't exist or has been moved. Double check that you typed the page address correctly. Go back to your previous page. Visit our homepage and use our site search to find something specific. Looking for a search results page you were on recently? These pages are temporary, created by search parameters you entered on a search page. Please re-enter your search parameters to recreate the page. Return to home page... \u00a9 2026 Avera Health Plans , Sioux Falls, SD . All Rights Reserved.\", \"text_truncated\": false}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "id": "toolu_01D8W2g7CFaq6WbvDUCmAYG8",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Avera Health Plans member \"appeal a claim\" OR \"appeal a denial\" instructions website"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_017m87FzWhCJ52JrETF2JAz6",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"Avera Health Plans\" \"Member Complaint Process\" form appeal"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01D8W2g7CFaq6WbvDUCmAYG8",
+     "content": "{\"query\": \"Avera Health Plans member \\\"appeal a claim\\\" OR \\\"appeal a denial\\\" instructions website\", \"results\": [{\"title\": \"Appealing denails of coverage | MyHealthcareFinances\", \"url\": \"https://www.myhealthcarefinances.com/health-insurance/appealing-denails-of-coverage\", \"snippet\": \"The appeals process will depend on your health insurance company, so contact them for details or look for instructions on how to file an appeal on your denial letter.\"}, {\"title\": \"Appealing Insurance Claim Denials\", \"url\": \"https://livestrong.org/resources/appealing-insurance-claim-denials/\", \"snippet\": \"<strong>Check the table of contents and index in your handbook to find a reference to \u201cappeals\u201d. Start the appeal process with a written request that addresses the specific reason that the claim was denied and the reasons why the denial should be reversed</strong>.\"}, {\"title\": \"Disputes and appeals overview | Aetna\", \"url\": \"https://www.aetna.com/health-care-professionals/disputes-appeals/disputes-appeals-overview.html\", \"snippet\": \"Learn how to submit a reconsideration or appeal a claim decision. Find filing timeframes, required documents, and how to send your request.\"}, {\"title\": \"Steps to Appeal a Health Insurance Claim Denial | CareFirst BlueCross BlueShield\", \"url\": \"https://individual.carefirst.com/individuals-families/health-insurance-basics/health-insurance-costs/steps-to-appeal-claim-denial.page\", \"snippet\": \"As you prepare to appeal a claim denial, gather all the paperwork related to your claim, the service provided, and the denial. This should include: The claim denial letter from your insurance provider \u00b7 Original bills and documents related to the service \u00b7 Notes and dates from phone calls with your insurance company or your doctor\u2019s office \u00b7 Any other documents you plan to submit to your provider, such as supporting information from your doctor\"}, {\"title\": \"Stay Informed | Filing Healthcare Appeals\", \"url\": \"https://www.arthritis.org/health-wellness/treatment/insurance-management/toolkit/commercial-employer-plans\", \"snippet\": \"When you receive your explanation of benefits (EOB) stating that your claim has been denied, you\u2019ll also receive information from the insurer with clear instructions about the appeal process and the deadlines for appeal. Read this information carefully and follow all the steps exactly as outlined. Make sure your appeal specifically addresses the denial issue.\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_017m87FzWhCJ52JrETF2JAz6",
+     "content": "{\"query\": \"\\\"Avera Health Plans\\\" \\\"Member Complaint Process\\\" form appeal\", \"results\": [{\"title\": \"Member Complaint Process\", \"url\": \"https://www.averahealthplans.com/app/files/public/6f5c5e4d-6984-46ef-b59b-7890b16b361d/member-hsv-461-form.pdf\", \"snippet\": \"Find health insurance plans. Avera Health Plans offers individual and family, employer and Medicare Supplement Insurance in South Dakota and Iowa. Members can use our online and app portal to manage benefits and claims.\"}, {\"title\": \"SS-AG-FORM-004-01 FILLABLE (05.2020) Page 1 of 2 Member Complaint Process\", \"url\": \"https://www.averahealthplans.com/app/files/public/6f5c5e4d-6984-46ef-b59b-7890b16b361d/ss-ag-form-004-all-member-complaint-form.pdf\", \"snippet\": \"When received, Avera Health Plans will thoroughly review the complaint based on our internal policy and \u00b7 provide you a written resolution within 30 calendar days. You have the right, at any time throughout this process, to submit your complaint to the appropriate regulatory\"}], \"result_count\": 2, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "id": "toolu_01BU4N2AjuqSdwcREe5v2suH",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.averahealthplans.com/app/files/public/6f5c5e4d-6984-46ef-b59b-7890b16b361d/ss-ag-form-004-all-member-complaint-form.pdf"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01BU4N2AjuqSdwcREe5v2suH",
+     "content": "{\"url\": \"https://www.averahealthplans.com/app/files/public/6f5c5e4d-6984-46ef-b59b-7890b16b361d/ss-ag-form-004-all-member-complaint-form.pdf\", \"final_url\": \"https://www.averahealthplans.com/app/files/public/6f5c5e4d-6984-46ef-b59b-7890b16b361d/ss-ag-form-004-all-member-complaint-form.pdf\", \"http_status\": 200, \"content_type\": \"application/pdf\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \" SS-AG-FORM-004-01 FILLABLE (05.2020) Page 1 of 2 Member Complaint Process Your concerns are important to us. If you have a complaint, please contact our Customer Care team at 605-322-4545 or call toll-free at 1-888-322-2115, 8 a.m. to 5 p.m. CT, Monday through Friday. If your situation is not resolved to your satisfaction, you may file a formal complaint. To file a formal complaint, please complete the Member Complaint Form or submit your complaint in writing to the address below. You may attach documents including any evidence to support your complaint. When received, Avera Health Plans will thoroughly review the complaint based on our internal policy and provide you a written resolution within 30 calendar days. You have the right, at any time throughout this process, to submit your complaint to the appropriate regulatory agency in the state where the subscriber is employed. For members who work and receive their health insurance from employers located in South Dakota, call 605-773-3563; for Iowa, call 515-281-6348 and for Nebraska, call 402-471-2201. Email the completed Member Complaint Form and your supporting documents to ComplaintAppeals@AveraHealthPlans.com or mail to the following address: Avera Health Plans Attention: Complaint and Appeals Coordinator 5300 S Broadband Ln Sioux Falls, SD 57108-2221 SS-AG-FORM-004-01 FILLABLE (05.2020) Page 2 of 2 Member Complaint Form Member ID Number: Member Name: Member Date of Birth: Subscriber Name: Date(s) of Service: Provider/Facility Name: Has this issue been brought to the attention of an Avera Health Plans employee before? Yes If yes, to whom and when? No Please provide an explanation of your complaint and attach any additional documents that support your complaint. Are supporting documents attached? Yes No What is your expected resolution? After completing the above answers, please print the document and sign below. Reminder: Enclose all supporting documents. Signature of Member Date \", \"text_truncated\": false}",
+     "cache_control": {
+      "type": "ephemeral"
+     }
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "text": "This confirms the appeal submission address/route. Now I have enough to produce a well-grounded answer, being explicit that no public medical-necessity policy document for CPT 29827 could be located.",
+     "type": "text"
+    },
+    {
+     "id": "toolu_016DX6vt5RA6DoQgJiXjCWAn",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Avera Health Plans grievance appeal \"180 days\" ACA internal appeal timeframe"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_016DX6vt5RA6DoQgJiXjCWAn",
+     "content": "{\"query\": \"Avera Health Plans grievance appeal \\\"180 days\\\" ACA internal appeal timeframe\", \"results\": [{\"title\": \"Appealing a denial or filing a complaint | Immune Deficiency Foundation\", \"url\": \"https://primaryimmune.org/living-primary-immunodeficiency/navigating-insurance/appealing-denial-or-filing-complaint\", \"snippet\": \"Insurance companies may deny various services or treatments for PI, but you have the right to appeal that decision, generally <strong>within 180 days of receiving the denial</strong>. The explanation of benefits (EOB) for the denied claim must provide information ...\"}, {\"title\": \"Patient Grievance and Appeals Process Explained | National Patient Rights Authority\", \"url\": \"https://nationalpatientrightsauthority.com/grievance-and-appeals-process\", \"snippet\": \"Submit the internal appeal within the plan&#x27;s stated deadline (at minimum, <strong>180 days from receipt of denial under federal rules</strong>).\"}, {\"title\": \"How to Appeal a Health Insurance Claim Denial: Step-by-Step\", \"url\": \"https://plaininsurer.com/guides/appeal-denial\", \"snippet\": \"For ACA marketplace plans the window is usually <strong>180 days from the denial notice</strong>. Response clocks are typically 30 days for pre-service denials, 60 days for post-service claims, and 72 hours for urgent care.\"}, {\"title\": \"Internal appeals | HealthCare.gov\", \"url\": \"https://www.healthcare.gov/appeal-insurance-company-decision/internal-appeals/\", \"snippet\": \"You must file your internal appeal <strong>within 180 days (6 months) of receiving notice that your claim was denied</strong>. If you have an urgent health situation, you can ask for an external review at the same time as your internal appeal.\"}, {\"title\": \"Grievances, Complaints & Appeals | Primary Care Associates of California\", \"url\": \"https://www.pcacipa.com/grievances-appeals\", \"snippet\": \"Learn how you can file a grievance, complaints and/or appeals. Find links and phone numbers to file with your health plan.\"}], \"result_count\": 5, \"error\": null}",
+     "cache_control": {
+      "type": "ephemeral"
+     }
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EusCCpABCBIYAipAW0b8b7BGkF+rrbDCdBjXWzJxaHv8NiPMODQKswRPidtrT2Y7iK9zl3kGJ48fKbnjFPrwMKPFXmJlqNILWQGU6DIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAb+/wdUGEgzq+Fdhk5mjryvpvbgaDJAF8U2VhV27hBqIRSIwp/hDJ7WHnZtZfLOnVH3YeewZoSiMNF5iQaR65DS6i2GIJ5ePZqhJ9gTPVr/AKKsAKocB51OrhDujBA7pGfLkVfhZ+b/ayUV3jLyucZrkvhT0DVhgVAwfYa1xXHIx5HiHDBexVMjqyWF75mvwqOrt9h7CyKNFX4OCr7EfxikMZ2KzyZL1OFv//H3n4PRcaQFncrqk7ZiMJN1bCAb2xgxxVrKBfmfjAYUi14qeKYLSR2Em5piNH2/zKBiMGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "```json\n{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": null,\n  \"effective_date\": null,\n  \"criteria_quotes\": [],\n  \"appeal_deadline\": \"2027-02-07 (180 days from the 2026-08-11 notice date, consistent with the ACA-mandated minimum 180-day internal appeal window under 45 CFR 147.136)\",\n  \"submission_route\": \"Mail or email a written appeal (the Member Complaint/Appeal Form or an equivalent written statement) with supporting documents to: Avera Health Plans, Attention: Complaint and Appeals Coordinator, 5300 S Broadband Ln, Sioux Falls, SD 57108-2221; Fax 1-800-269-8561; Email ComplaintAppeals@AveraHealthPlans.com. Phone: 1-888-322-2115 / 605-322-4545 for questions. This is the appeals/complaint address published on Avera Health Plans' own member forms (e.g., 'SS-AG-FORM-004-01 Member Complaint Process' and the Member Guide's discrimination-grievance notice, which route to the same Complaint and Appeals Coordinator). If the internal appeal is denied or not resolved, the member can request an External Review through the South Dakota Division of Insurance (124 S. Euclid Ave, Pierre, SD, or via dlr.sd.gov/insurance).\",\n  \"how_to_obtain_criteria\": \"I could not find a publicly posted Avera Health Plans medical policy or clinical-criteria document specifically addressing CPT 29827 (arthroscopic rotator cuff repair). Avera Health Plans does not appear to publish a public library of medical/clinical policies the way large national payers (e.g., UnitedHealthcare, Cigna, Anthem/Wellpoint, Premera) do \u2014 its public website is largely limited to member/provider administrative materials (provider manual, member guide, complaint forms, SBCs) and does not expose a searchable medical-policy repository, nor does it disclose which third-party criteria set (e.g., InterQual or MCG, which many regional plans license) it uses for orthopedic prior authorization. Because the denial letter cites 'the plan's applicable medical policy and clinical review criteria' without naming the document, the patient/provider should: (1) call Avera Health Plans Customer Care at 1-888-322-2115 or the number on the denial letter and explicitly request, in writing, 'the specific medical policy, clinical criteria, and any internal guideline or external criteria set (e.g., InterQual, MCG) relied upon to deny reference POC-F4D8086686-78032' \u2014 plans are required under ACA claims-and-appeals rules (29 CFR 2560.503-1 / 45 CFR 147.136) to provide the specific rule, guideline, or protocol relied upon, free of charge, upon request; (2) ask the treating surgeon's office to request the same from the plan's medical/utilization-management department, since providers are often given more direct access to UM criteria during peer-to-peer review; and (3) if the criteria are not produced, note that failure to disclose them can itself be raised as a procedural defect in the appeal and, ultimately, with the South Dakota Division of Insurance if the internal appeal is unsuccessful.\",\n  \"confidence\": \"medium-high for the appeal deadline and submission address (drawn directly from Avera Health Plans' own published member complaint/appeal materials); low/none for identifying a specific named medical-necessity policy document, because none could be located publicly.\",\n  \"notes\": \"Because no specific Avera Health Plans medical policy for CPT 29827 could be verified, the patient's appeal letter should not cite a specific policy title/number it cannot confirm. Instead, the appeal should: (a) explicitly request the exact medical necessity criteria applied, per the plan's obligation to disclose them; (b) address the general, widely-used shoulder/rotator-cuff-repair medical necessity elements commonly required across payers (documented failure of a defined period of conservative treatment such as NSAIDs, physical therapy, and/or subacromial injection; positive clinical exam findings consistent with rotator cuff pathology; and imaging - MRI, MR arthrogram, or ultrasound - demonstrating a full- or high-grade partial-thickness tear correlating with symptoms), since the denial letter states the submitted imaging findings did not support necessity; and (c) include the surgeon's narrative correlating imaging with exam findings and functional impairment, plus offer a peer-to-peer review. If the plan does not provide its specific criteria within a reasonable time, this should be flagged in the appeal as a procedural issue, and the patient retains the right to South Dakota Division of Insurance External Review after exhausting Avera's internal appeal process.\"\n}\n```",
+     "type": "text"
+    }
+   ]
+  }
+ ],
+ "stop_reason": "end_turn",
+ "usage": {
+  "input_tokens": 30,
+  "output_tokens": 5219,
+  "cache_creation_input_tokens": 29611,
+  "cache_read_input_tokens": 245100
+ },
+ "model": "claude-sonnet-5",
+ "tool_calls": 28,
+ "elapsed_s": 90.1,
+ "run_id": "r-c8449d833b65",
+ "case_id": "poc-f4d8086686"
+}

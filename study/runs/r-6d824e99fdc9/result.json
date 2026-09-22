@@ -1,0 +1,2177 @@
+{
+ "answer": {
+  "policy_found": true,
+  "policy_title": "Knee Arthroplasty",
+  "policy_number": "Clinical Policy Bulletin (CPB) 0660",
+  "policy_url": "https://www.aetna.com/cpb/medical/data/600_699/0660.html",
+  "effective_date": "Not explicitly listed in the retrieved document text, but currently active",
+  "criteria_quotes": [
+   "Unicompartmental knee arthroplasty using Food and Drug Administration (FDA)-approved devices is considered medically necessary for members with advanced osteoarthritis or post-traumatic arthritis of the knee affecting only a single compartment (medial, lateral or patellofemoral), and who meet the following criteria (see also Additional Note):",
+   "Pain and functional disability that interferes with ADLs due to osteoarthritis or post-traumatic arthritis of the knee joint; and",
+   "Limited range of motion, crepitus, or effusion or swelling of knee joint on physical examination: and",
+   "Member must have intact, stable ligaments, in particular the anterior cruciate ligament; and",
+   "Patient\u2019s knee arc of motion (full extension to full flexion) is not limited to 90 degrees or less; and",
+   "Radiographic evidence of moderate/severe osteoarthritis (i.e., Kellgren-Lawrence Grade 3 or 4) (see Appendix) affecting only a single (medial, lateral or patellofemoral) compartment of the knee joint; and",
+   "History of of unsuccessful conservative therapy (non-surgical medical management; 12 or 24 weeks depending on age/BMI) that is clearly addressed in the medical record (see Note Footnote3 ***) with at least half of the necessary conservative therapy consisting of formal physical therapy (in-person with a licensed physical therapist as opposed to home or virtual physical therapy). Physical therapy needs to be confirmed either by the actual PT notes, or by documentation in the member claims history. Conservative therapy may be inappropriate for severe osteoarthritis with bone-on-bone articulation in the weight-bearing portion of the joint (medial and/or lateral but not patello-femoral); and",
+   "Member has none of the following contraindications to unicompartmental knee arthroplasty: Previous proximal tibial osteotomy or distal femoral osteotomy; or Tibial or femoral shaft deformity; or Radiographic evidence of medial or lateral subluxation; or Flexion contracture greater than 15 degrees; or Varus deformity greater than 15 degrees (medial unicompartmental knee arthroplasty) or a valgus deformity greater than 20 degrees (lateral unicompartmental knee arthroplasty); or Inflammatory or crystalline arthropathy; or Subchondral bone loss due to large subchondral cysts or extensive focal osteonecrosis.",
+   "Member has none of the following absolute contraindications to joint replacement: Active infection of the joint or active systemic bacteremia that has not been totally eradicated; or Active skin infection (exception recurrent cutaneous staph infections) or open wound within the planned surgical site of the knee; or Corticosteroid injection into the joint within 12 weeks of the planned arthroplasty; or Vascular insufficiency, significant muscular atrophy of the leg, or neuromuscular disease severe enough to compromise implant stability or post-operative recovery or quadriplegia; or Osseous abnormalities that cannot be optimally managed and which would increase the likelihood of a poor surgical outcome (i.e., inadequate bone stock to support the implant); or Allergy to components of the implant (e.g., cobalt, chromium or alumina).",
+   "If member is diabetic, their hemoglobin A1C (HbA1c) should be less than 8 percent within 3 months prior to knee arthroplasty."
+  ],
+  "appeal_deadline": "2027-02-03",
+  "submission_route": "The appeal should be submitted in writing to the specific address or fax number printed on the denial letter (Notice of Adverse Benefit Determination) or on the back of the member's health plan ID card. Members may also file appeals online through the secure Aetna Member Portal, or call Aetna Member Services for guidance. Aetna's general commercial mailing address for appeals is: Aetna Provider Resolution Team, PO Box 14020, Lexington, KY 40512 (National Fax: 859-455-8650).",
+  "how_to_obtain_criteria": "The clinical criteria are publicly available online in Aetna's Clinical Policy Bulletin (CPB) 0660 at https://www.aetna.com/cpb/medical/data/600_699/0660.html. Alternatively, the patient can request a copy of the specific medical-necessity criteria applied to their determination by calling the Aetna Member Services department using the telephone number on the back of their member ID card.",
+  "confidence": "high",
+  "notes": "CPT code 27446 covers unicompartmental knee arthroplasty (partial knee replacement). The policy notes that conservative therapy includes anti-inflammatory medications/analgesics, flexibility and muscle-strengthening exercises, activity modification, and supervised physical therapy. Relative contraindications to joint replacement under this policy include morbid obesity (BMI > 40) and age under 50, in which cases members should exhaust all nonsurgical treatment options before surgery is approved."
+ },
+ "raw_text": "```json\n{\n  \"policy_found\": true,\n  \"policy_title\": \"Knee Arthroplasty\",\n  \"policy_number\": \"Clinical Policy Bulletin (CPB) 0660\",\n  \"policy_url\": \"https://www.aetna.com/cpb/medical/data/600_699/0660.html\",\n  \"effective_date\": \"Not explicitly listed in the retrieved document text, but currently active\",\n  \"criteria_quotes\": [\n    \"Unicompartmental knee arthroplasty using Food and Drug Administration (FDA)-approved devices is considered medically necessary for members with advanced osteoarthritis or post-traumatic arthritis of the knee affecting only a single compartment (medial, lateral or patellofemoral), and who meet the following criteria (see also Additional Note):\",\n    \"Pain and functional disability that interferes with ADLs due to osteoarthritis or post-traumatic arthritis of the knee joint; and\",\n    \"Limited range of motion, crepitus, or effusion or swelling of knee joint on physical examination: and\",\n    \"Member must have intact, stable ligaments, in particular the anterior cruciate ligament; and\",\n    \"Patient\u2019s knee arc of motion (full extension to full flexion) is not limited to 90 degrees or less; and\",\n    \"Radiographic evidence of moderate/severe osteoarthritis (i.e., Kellgren-Lawrence Grade 3 or 4) (see Appendix) affecting only a single (medial, lateral or patellofemoral) compartment of the knee joint; and\",\n    \"History of of unsuccessful conservative therapy (non-surgical medical management; 12 or 24 weeks depending on age/BMI) that is clearly addressed in the medical record (see Note Footnote3 ***) with at least half of the necessary conservative therapy consisting of formal physical therapy (in-person with a licensed physical therapist as opposed to home or virtual physical therapy). Physical therapy needs to be confirmed either by the actual PT notes, or by documentation in the member claims history. Conservative therapy may be inappropriate for severe osteoarthritis with bone-on-bone articulation in the weight-bearing portion of the joint (medial and/or lateral but not patello-femoral); and\",\n    \"Member has none of the following contraindications to unicompartmental knee arthroplasty: Previous proximal tibial osteotomy or distal femoral osteotomy; or Tibial or femoral shaft deformity; or Radiographic evidence of medial or lateral subluxation; or Flexion contracture greater than 15 degrees; or Varus deformity greater than 15 degrees (medial unicompartmental knee arthroplasty) or a valgus deformity greater than 20 degrees (lateral unicompartmental knee arthroplasty); or Inflammatory or crystalline arthropathy; or Subchondral bone loss due to large subchondral cysts or extensive focal osteonecrosis.\",\n    \"Member has none of the following absolute contraindications to joint replacement: Active infection of the joint or active systemic bacteremia that has not been totally eradicated; or Active skin infection (exception recurrent cutaneous staph infections) or open wound within the planned surgical site of the knee; or Corticosteroid injection into the joint within 12 weeks of the planned arthroplasty; or Vascular insufficiency, significant muscular atrophy of the leg, or neuromuscular disease severe enough to compromise implant stability or post-operative recovery or quadriplegia; or Osseous abnormalities that cannot be optimally managed and which would increase the likelihood of a poor surgical outcome (i.e., inadequate bone stock to support the implant); or Allergy to components of the implant (e.g., cobalt, chromium or alumina).\",\n    \"If member is diabetic, their hemoglobin A1C (HbA1c) should be less than 8 percent within 3 months prior to knee arthroplasty.\"\n  ],\n  \"appeal_deadline\": \"2027-02-03\",\n  \"submission_route\": \"The appeal should be submitted in writing to the specific address or fax number printed on the denial letter (Notice of Adverse Benefit Determination) or on the back of the member's health plan ID card. Members may also file appeals online through the secure Aetna Member Portal, or call Aetna Member Services for guidance. Aetna's general commercial mailing address for appeals is: Aetna Provider Resolution Team, PO Box 14020, Lexington, KY 40512 (National Fax: 859-455-8650).\",\n  \"how_to_obtain_criteria\": \"The clinical criteria are publicly available online in Aetna's Clinical Policy Bulletin (CPB) 0660 at https://www.aetna.com/cpb/medical/data/600_699/0660.html. Alternatively, the patient can request a copy of the specific medical-necessity criteria applied to their determination by calling the Aetna Member Services department using the telephone number on the back of their member ID card.\",\n  \"confidence\": \"high\",\n  \"notes\": \"CPT code 27446 covers unicompartmental knee arthroplasty (partial knee replacement). The policy notes that conservative therapy includes anti-inflammatory medications/analgesics, flexibility and muscle-strengthening exercises, activity modification, and supervised physical therapy. Relative contraindications to joint replacement under this policy include morbid obesity (BMI > 40) and age under 50, in which cases members should exhaust all nonsurgical treatment options before surgery is approved.\"\n}\n```",
+ "usd": 0.3609,
+ "transcript": [
+  {
+   "parts": [
+    {
+     "text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-07\nMember: Morgan Grant\nMember ID: W585722922\nPlan: Aetna (Commercial/ACA), state of Massachusetts\n\nDear Morgan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Partial knee replacement\n    Procedure code (CPT): 27446\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-03).\n\nReference number: POC-8EE886247D-14307\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_20994",
+      "args": {
+       "query": "Aetna clinical policy bulletin partial knee replacement unicompartmental CPT 27446"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpsGCpgGAWkUfROP4L1kX6TX6vVjK4EHCCWbCF4B13QisHBweyRkFhPWxD0NRxrP0FLWChDVYBHuM3aJRsocvA_nbKpldMfveixUzd_1zR4lwOPIjuBwVIX3835FRSSd4Gt_gw4rduBG6qjv358nY7MQne1h8SSlTd-2L0ozw-yDzg8dRg8ngOImqLNWVICjeJlbf4wdabrg-71xvG8YcaKtTavYnHuhvb4u9kyotpcPSGP3O5YQ4OmbGk-mDRwXZ3kGywS2Ajx8fIUBwNa4VdK77IotIy4akaUoSIrRq_qJmleVunmFDGPaMq7SgH5LrdHowPjiQDH6iqmIgeN7GSHiM7CxTspYswLAUMgJ8rvNp_V5RYTzUWU0dBjZ1SwvcvY1h_qddacp5q0fqqVzMDP1sQ2M9444hX7guLK2KbaHvzQKDngI-1rz0y2W8F91u8C7MRi3VGNUSD_nweiliRovnEA7-TelM1VMOQGHQxpZvToV67Cxxtyrmd4w266vTGW-BUdNrhk4d2kkdNJ7gNjLNquRTuUINq_orphqEVP6wQWmB7OINrUjpOvAWjvjvXkjZUG7wzVYbxGQvOVnSWgEwGOZDqjYb-m1Sqh5Wd6H7jo5UUuxcXMcQEwhGrX7Hv3-jGuW9QfG3_1OfjqDgYKlsiSBBLi3ia2GLjMEfYDSN4_1gu_kbdD2DZDBNm0A7brhy7ii5ESz87FcT10WugBKUUEaBpCAb6ViJHXVuUhYJv-nq8c4VwkJKW15nvUx1plbA7qjJoosBtzIwE9dQ_LHgdXB_DGuSbWQyXbZtd6dZVtumZmE8YOLrydLuw4O1DN66RqbvsbBnXAKpYdUPqi18GtT-E_BHwgX9q6m5m9CswGD52BcGl84H-ghIELi1o_U6cPHPZMlP63MCIxgHOoLen9i7ifwm-IRPXj9A7gd0WWI3pk9ccpaZP-EaAq8hGOdqS67bOkBZt_zdNbQ3k9UDTEiR_yIa0kxBPJ4_16Dx5xHPN5HQWvMfYqiaEvLSqzac8KL0KViIdu60NS3MAiM-Lq1ZeSZhwSaSYYJ"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Aetna clinical policy bulletin partial knee replacement unicompartmental CPT 27446",
+        "results": [
+         {
+          "title": "Knee Arthroplasty - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0660.html",
+          "snippet": "<strong>There are no published reports of its effectiveness</strong>. Its indication should be similar to those for McKeever arthroplasty. A patient with unicompartmental osteoarthritis in whom an osteotomy is contraindicated but is considered too young, heavy, or active for a metal-to-plastic arthroplasty is ideal."
+         },
+         {
+          "title": "CPT Code 27447: 2026 Billing and Reimbursement Guide",
+          "url": "https://claimmaxrcm.com/cpt-code-27447/",
+          "snippet": "27446 is <strong>a partial, unicompartmental replacement of one knee compartment</strong>. 27447 is a total replacement of both the medial and lateral compartments."
+         },
+         {
+          "title": "Medical Coding Knee Replacement 2026",
+          "url": "https://codingclarified.com/medical-coding-knee-replacement-2026medical-coding-knee-replacement/",
+          "snippet": "<strong>A partial or unicompartmental knee replacement is reported with 27446.</strong> When a previously implanted prosthesis requires revision, coders typically report 27486 for a single component revision or 27487 for revision of both major components."
+         },
+         {
+          "title": "CPT code 27447: Total knee arthroplasty billing guide (2026) | Pabau",
+          "url": "https://pabau.com/procedure-codes/cpt-code-27447/",
+          "snippet": "CPT 27446 <strong>covers a unicompartmental knee arthroplasty, replacing either the medial OR lateral compartment only</strong>. CPT 27447 covers total knee arthroplasty, replacing both the medial AND lateral compartments."
+         },
+         {
+          "title": "MEDICAL POLICY \u2013 7.01.144",
+          "url": "https://www.premera.com/medicalpolicies/7.01.144.pdf",
+          "snippet": "Interim Review, approved October 13, 2025. <strong>Removed CPT codes 27446 and 27447</strong>."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_533675",
+      "args": {
+       "query": "Aetna CPB 0660 Knee Arthroplasty"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpwCCpkCAWkUfROq4iZWfFnsySzK_t1uYJJI3BnnAIDmq2wfqVssBHFwTK8aj4eSg4iOD5grKtcqWvPOTkgzkG6eoizda4kwxIL1PoIUUEhO0rOfIjGgzOVJTZX36lwetedNNAXHwkojD6z-eQdM6FqUP3suIsJ31mNIa9DNSuf5bOVICMNevuNU9j9-vsyrtDlIJZmi2SgIQ1OuCWAL1ugH2rONVbleD8kZSKNvwvgrhYvz-KeUP-GD_MTjLKIBwRSrccHtzhng5NvWAqFd5gAS-FAlE401cWXJHanXr-tWbpW90RZw4hFSAYr4T5wmRfWLu7FHtZK6Zj0Y4v0QIJOEzTeFvI7hV4XpbjcvhySj9jg8YfSg3wXNveQPcBY="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Aetna CPB 0660 Knee Arthroplasty",
+        "results": [
+         {
+          "title": "Knee Arthroplasty - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0660.html",
+          "snippet": "While there is a possible risk ... clinical harms. This CPB is being <strong>used to supplement Medicare LCDs on knee arthroplasty (Total Joint (Hip/Knee) \u2013 LCD L33456, LCD L33618, LCD L36007, LCD L36039; Total Knee \u2013 LCD L36575, LCD L36577)</strong>...."
+         },
+         {
+          "title": "Knee Arthroscopy / Osteoarthritis of the Knee - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0673.html",
+          "snippet": "CPB 0660 - Knee Arthroplasty \u00b7 CPB 0784 - Blood Product Injections for Selected Indications \u00b7 Osteoarthritis (OA) is a non-inflammatory degenerative joint disease that occurs mainly in middle-aged and older individuals. Osteoarthritis of the knee occurs when the elastoviscous properties of the synovial fluid in the knee joint becomes diminished, resulting in less protection and shock absorption."
+         },
+         {
+          "title": "Joint Resurfacing - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0661.html",
+          "snippet": "CPB 0287 - Hip Arthroplasty \u00b7 CPB 0660 - Knee Arthroplasty \u00b7 <strong>Joint resurfacing arthroplasty, specifically hip resurfacing arthroplasty (HRA), may be considered as an alternative to conventional total hip replacement (THR).</strong> HRA does not remove the femoral head and neck or bone from the femur ..."
+         },
+         {
+          "title": "Menaflex - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0786.html",
+          "snippet": "CPB 0660 - Knee Arthroplasty \u00b7 CPB 0673 - Osteoarthritis of the Knee: Selected Treatments \u00b7 The menisci of the knee are semi-lunar fibrocartilaginous structures critical in load bearing, shock absorption, stability, and lubrication. Loss of meniscal tissue can lead to pain, decreased function and activity."
+         },
+         {
+          "title": "Viscosupplementation - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/100_199/0179.html",
+          "snippet": "CPB 0660 - Knee Arthroplasty \u00b7 CPB 0673 - Knee Arthroscopy / Osteoarthritis of the Knee \u00b7 CPB 0784 - Blood Product Injections for Selected Indications \u00b7 CPB 0952 - Ultrasound Guidance \u2013 Selected Indications \u00b7 For the use of extended-release triamcinolone acetonide injectable suspension (Zilretta) in the treatment of knee osteoarthritis, see CPB 0673 - Osteoarthritis of the Knee: Selected Treatments."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_1789171",
+      "args": {
+       "url": "https://www.aetna.com/cpb/medical/data/600_699/0660.html"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "Et4BCtsBAWkUfRNK2FTzrcznE4i9y9LfneedSrZTc-KYki9vvnXG7exxH5OrT5WBmGfyKvzQyUBfET0-dFv3dvmyGKczV2UAQ8POGI6ocSfz5PxABz38vktgtsPx62oY3gFdnPt3lgWHYXJ7s1UGJMHgfQgsm13BwyAT5D8xTPczqwDgDmoPkLGSN6tcZpeiI-6blMPgFOXQ96x7No7oB-R5kuXsz8p099yjWvCGkFqMw4wTNVOsw3BvJl3yqkOIn3xzr0PzEcbFHx9ol62_m73CDqLpAl6rskOkORgHXpYf"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://www.aetna.com/cpb/medical/data/600_699/0660.html",
+        "final_url": "https://www.aetna.com/cpb/medical/data/600_699/0660.html",
+        "http_status": 200,
+        "content_type": "text/html",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "Knee Arthroplasty - Medical Clinical Policy Bulletins | Aetna --> Top Knee Arthroplasty Clinical Policy Bulletins Medical Clinical Policy Bulletins Print Share Number: 0660 Table Of Contents Policy Applicable CPT / HCPCS / ICD-10 Codes Background References Policy Scope of Policy This Clinical Policy Bulletin addresses knee arthroplasty. Note: Precertification may be required for select procedures and interventions. Use the CPT code search tool to see if precertification is required. Medical Necessity Food and Drug Administration (FDA) approved total knee arthroplasty (TKA) prosthesis is considered medically necessary for adult members when the following criteria are met (see also Additional Note ): Member has advanced joint disease demonstrated by: Pain and functional disability that interferes with ADLs from injury due to osteoarthritis, rheumatoid arthritis, avascular necrosis, or post-traumatic arthritis of the knee joint; and Limited range of motion, crepitus, or effusion or swelling of knee joint on physical examination: and Member has any of the following: Radiographic evidence of moderate/severe osteoarthritis of knee joint (i.e., Kellgren-Lawrence Grade 3 or 4) (see Appendix ); or Radiographic evidence of avascular necrosis (osteonecrosis) of tibial or femoral condyle; or Radiographic evidence or rheumatoid arthritis (joint space narrowing); and History of unsuccessful conservative therapy (non-surgical medical management; 12 or 24 weeks depending on age/body mass index (BMI)) that is clearly addressed in the medical record (see Footnote1 Note* ). Conservative therapy may be inappropriate for severe osteoarthritis with bone-on-bone articulation in the weight-bearing portion of the joint (medial and/or lateral but not patello-femoral) or severe angular deformity, or for avascular necrosis with collapse of tibial or femoral condyle, or progressive flexion contracture. If conservative therapy is not appropriate, the medical record must clearly document why such approach is not reasonable; or Failure of a previous osteotomy with pain interfering with ADLs; or Distal femur or proximal tibia malunion by imaging with pain interfering with ADLs; Distal femur or proximal tibia fracture or nonunion; or Malignancy of the distal femur, proximal tibia, knee joint or adjacent soft tissues by imaging; or Failure of previous unicompartmental knee replacement with pain interfering with ADLs. Footnote1 *Note: Physical therapy needs to be confirmed either by the actual PT notes, or by documentation in the member claims history. Members with osteoarthritis, traumatic arthritis, or avascular necrosis should have at least 12 weeks of non-surgical treatment documented in the medical record (at least 24 weeks for persons with a relative contraindication) - with at least half of the necessary conservative therapy consisting of formal physical therapy (in-person with a licensed physical therapist as opposed to home or virtual physical therapy) in the past year, including all of the following, unless contraindicated: Anti-inflammatory medications or analgesics; and Flexibility and muscle strengthening exercises; and Activity modification; and Supervised physical therapy (in-person with a licensed physical therapist as opposed to home or virtual physical therapy; activities of daily living (ADLs) diminished despite completing a plan of care); and Assistive device use (required for persons with relative contraindications Footnote2 ** to joint replacement, optional for others); and Therapeutic injections into the knee (required for persons with relative contraindications Footnote2 ** to joint replacement, optional for others). Total joint replacement is considered not medically necessary in persons with any of the following absolute contraindications: Active infection of the joint or active systemic bacteremia that has not been totally eradicated; or Active skin infection (exception recurrent cutaneous staph infections) or open wound within the planned surgical site of the knee; or Corticosteroid injection into the joint within 12 weeks of the planned arthroplasty; or Vascular insufficiency, significant muscular atrophy of the leg, or neuromuscular disease severe enough to compromise implant stability or post-operative recovery or quadriplegia; or Osseous abnormalities that cannot be optimally managed and which would increase the likelihood of a poor surgical outcome (i.e., inadequate bone stock to support the implant); or Allergy to components of the implant (e.g., cobalt, chromium or alumina). For members with significant conditions or co-morbidities, the risk/benefit of total knee arthroplasty should be appropriately addressed in the medical record. Footnote2 ** Relative contraindications to joint replacement include the following: morbid obesity (BMI greater than 40), age less than 50 years). Members with relative contraindications should exhaust all nonsurgical treatment options. Revision or replacement of total knee arthroplasty is considered medically necessary for the following indications when accompanied by pain and functional disability (interference with ADLs) (see also Additional Note ): Aseptic loosening of one or more prosthetic components confirmed by imaging; or Fracture of one or more components of the prosthesis or worn or dislocated plastic insert confirmed by imaging; or Confirmed periprosthetic infection by gram stain and culture (Note: A single stage revision is considered medically necessary for this indication, unless there has been a prior infection in the same joint, in which case a multi-stage revision may be considered medically necessary); or Periprosthetic fracture of distal femur, proximal tibia or patella confirmed by imaging; or Progressive or substantial periprosthetic bone loss confirmed by imaging; or Bearing surface wear leading to symptomatic synovitis; or Implant or knee malalignment (valgus/varus or flexion/extension greater than 15 degrees); or Knee arthrofibrosis; or Instability or dislocation of the TKA; or Extensor mechanism instability; And member does not have any of the following contraindications to total knee revision surgery: Poor bone quality; or Highly limited quadriceps or extensor function; or Poor skin coverage; or Poor vascular status. Unicompartmental knee arthroplasty using Food and Drug Administration (FDA)-approved devices is considered medically necessary for members with advanced osteoarthritis or post-traumatic arthritis of the knee affecting only a single compartment (medial, lateral or patellofemoral), and who meet the following criteria (see also Additional Note ): Pain and functional disability that interferes with ADLs due to osteoarthritis or post-traumatic arthritis of the knee joint; and Limited range of motion, crepitus, or effusion or swelling of knee joint on physical examination: and Member must have intact, stable ligaments, in particular the anterior cruciate ligament; and Patient\u2019s knee arc of motion (full extension to full flexion) is not limited to 90 degrees or less; and Radiographic evidence of moderate/severe osteoarthritis (i.e., Kellgren-Lawrence Grade 3 or 4) (see Appendix ) affecting only a single (medial, lateral or patellofemoral) compartment of the knee joint; and History of of unsuccessful conservative therapy (non-surgical medical management; 12 or 24 weeks depending on age/BMI) that is clearly addressed in the medical record (see Note Footnote3 *** ) with at least half of the necessary conservative therapy consisting of formal physical therapy (in-person with a licensed physical therapist as opposed to home or virtual physical therapy). Physical therapy needs to be confirmed either by the actual PT notes, or by documentation in the member claims history. Conservative therapy may be inappropriate for severe osteoarthritis with bone-on-bone articulation in the weight-bearing portion of the joint (medial and/or lateral but not patello-femoral); and Footnote3 *** Note: Conservative therapy includes all of the following, unless contraindicated: Anti-inflammatory medications or analgesics; and Flexibility and muscle strengthening exercises; and Activity modification; and Supervised physical therapy (activities of daily living [ADLs] diminished despite completing a plan of care); and Assistive device use (required for persons with relative contraindications Footnote4 \u2020 to joint replacement, optional for others); and Therapeutic injections into the knee (required for persons with relative contraindications Footnote4 \u2020 to joint replacement, optional for others). Footnote4 \u2020 Relative contraindications to joint replacement include the following: morbid obesity (BMI greater than 40), age less than 50 years). Members with relative contraindications should exhaust all nonsurgical treatment options. Member has none of the following contraindications to unicompartmental knee arthroplasty: Previous proximal tibial osteotomy or distal femoral osteotomy; or Tibial or femoral shaft deformity; or Radiographic evidence of medial or lateral subluxation; or Flexion contracture greater than 15 degrees; or Varus deformity greater than 15 degrees (medial unicompartmental knee arthroplasty) or a valgus deformity greater than 20 degrees (lateral unicompartmental knee arthroplasty); or Inflammatory or crystalline arthropathy; or Subchondral bone loss due to large subchondral cysts or extensive focal osteonecrosis. Member has none of the following absolute contraindications to joint replacement: Active infection of the joint or active systemic bacteremia that has not been totally eradicated; or Active skin infection (exception recurrent cutaneous staph infections) or open wound within the planned surgical site of the knee; or Corticosteroid injection into the joint within 12 weeks of the planned arthroplasty; or Vascular insufficiency, significant muscular atrophy of the leg, or neuromuscular disease severe enough to compromise implant stability or post-operative recovery or quadriplegia; or Osseous abnormalities that cannot be optimally managed and which would increase the likelihood of a poor surgical outcome (i.e., inadequate bone stock to support the implant); or Allergy to components of the implant (e.g., cobalt, chromium or alumina). For members with significant conditions or co-morbidities, the risk/benefit of unicompartmental knee arthroplasty should be appropriately addressed in the medical record. Prophylactic use of tranexamic acid is considered medically necessary in total knee arthroplasty to decrease blood loss. Note : Intra-operative use of kinetic balance sensor for implant stability during knee replacement arthroplasty is considered incidental to the primary procedure being performed and is not eligible for separate reimbursement. Additional Note If member is diabetic, their hemoglobin A1C (HbA1c) should be less than 8 percent within 3 months prior to knee arthroplasty. Experimental, Investigational, or Unproven The following are considered experimental, investigational, or unproven because their effectiveness has not been established: Bacteriophage therapy for the treatment of knee arthroplasty-related peri-prosthetic joint infection Bicompartmental, staged bicompartmental, and bi-unicompartmental knee arthroplasty for osteoarthritis of the knee and all other indications Custom instrumentation for the procedure including cutting blocks Customized total or partial knee implant Genicular nerve radiofrequency ablation for peri-operative pain control in total knee arthroplasty (TKA) and treatment of chronic pain in well-appearing TKA Mineralized collagen-enhanced bone cement for total knee arthroplasty Prophylactic radiation therapy following total knee arthroplasty \u201cSmart Knee Implants\u201d (e.g. Zimmer Persona IQ) Tele-rehabilitation after TKA UniSpacer inter-positional spacer for the treatment of osteoarthritis affecting the medial compartment of the knee; Augmented or virtual reality (AR/VR) assistance for knee art",
+        "text_truncated": true
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_1377319",
+      "args": {
+       "query": "site:aetna.com/cpb/medical/data/600_699/0660.html \"last revised\" OR \"effective\" OR \"review\" OR \"date\" OR \"history\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqMECqAEAWkUfROA5CUWw-ioepqLhyPxWAlyr8WQJPS5Neaa5tUKp9KUn_BJeQImW7pYmHdp7NxNgOxSWMiO4zaiE6jVfFYeyR4XH63SBCJsmCh3kM-dGpSeGZAus_u2DH9btrzFUe4zU94a1nCfRQ8vMSUzOz-QxbEt9xKk7MxHva7HGg9cAMOrM4Akpf1LEi0pczCzhil1qLzwaupzSQIJusSiT32lc4zihvgWDlUDzrUaWVXuVkQgZQyAWSSVTG_7YdrmpUu1ruOctJySafKp-iMx7QhhoZlyudUZyWQeH_Dd_M9x7qPeeTBpaFYwRdAbjf128gZ5PGp9AJhiXKGbyzJ3vvV9F4wn-4VoY80s1FdjLYiLFt2GngOo6dup8XPXDVQFk5Kxso4j25lORfVIwzIwtwRPFnLyAFqdDSblLIRx5XrUAvZBMRHLcfmKkqwOLPXTMjQ4epscaT5ITpdpaByNPnf88XCK8M9FEr8CwN-J92GVbO7AQH36UxHjSQy5Qtw1WpSNrsDtkzyfdvLxlK0rMsDcoijjT_MjEMrzq5cWrvNSh83cvYShBPZdk5vAuOOXZwPpW8lE1qey3XdsBJwROXjRbkBbuY8EBB96T238UJqcQ8Uj5PGyYkCgc2FVyF6cRHzW2BGYpedLZFaQSuyM8J0E98sUJ0gEhUsMGKg1pRhXjiRfqobesU3M48MqtZDSPC0-aMYMUrHPD9Vm-GS8Xw=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:aetna.com/cpb/medical/data/600_699/0660.html \"last revised\" OR \"effective\" OR \"review\" OR \"date\" OR \"history\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_8158",
+      "args": {
+       "query": "\"CPB 0660\" \"Knee Arthroplasty\" \"Aetna\" OR \"Last Revised\" OR \"Effective Date\" OR \"Date of Last Review\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EowCCokCAWkUfRNQHNVrH-j20wyfM0F3mu0R2AF66MdyrPj9lz5ro3KOV1HvvxlQh48IYuA8iceu36JPLVU0GNU6yz50Zim7NaOGSUGYD7HrtsTf0LXa50N4GzcDRQEdy1QZ12pLdTJA-8gOVAQaemn5bU70eHNlRicvC9llDFE9o6c9USLpdvq76irZeFFGuOYdgmEN3wRtHIZy_bq9S6_JiskS7d-h5xvvcYL85KaXxfaNzP7_q-L7u6G913apXC--qr88tNcfwHCGe0uigSQ6Kd0FtmdEp-n2IrPbKODjut_-Ph0CMz6zoYjSdYYbVjI2BlogBCsBshGpjj1eAOS9rfeR6iLqXrR7rbdWzA=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"CPB 0660\" \"Knee Arthroplasty\" \"Aetna\" OR \"Last Revised\" OR \"Effective Date\" OR \"Date of Last Review\"",
+        "results": [
+         {
+          "title": "Medical clinical policy bulletins \u2013 Health care professionals | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/clinical-policy-bulletins/medical-clinical-policy-bulletins.html",
+          "snippet": "CPBs include references to standard HIPAA compliant code sets to assist with search functions and to facilitate billing and payment for covered services. New and revised codes are added to the CPBs as they are updated. When billing, you must use the most appropriate code as of the effective date of the submission."
+         },
+         {
+          "title": "Menaflex - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0786.html",
+          "snippet": "CPB 0660 - Knee Arthroplasty \u00b7 CPB 0673 - Osteoarthritis of the Knee: Selected Treatments \u00b7 The menisci of the knee are semi-lunar fibrocartilaginous structures critical in load bearing, shock absorption, stability, and lubrication. Loss of meniscal tissue can lead to pain, decreased function and activity."
+         },
+         {
+          "title": "Viscosupplementation - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/100_199/0179.html",
+          "snippet": "CPB 0660 - Knee Arthroplasty \u00b7 CPB 0673 - Knee Arthroscopy / Osteoarthritis of the Knee \u00b7 CPB 0784 - Blood Product Injections for Selected Indications \u00b7 CPB 0952 - Ultrasound Guidance \u2013 Selected Indications \u00b7 For the use of extended-release triamcinolone acetonide injectable suspension (Zilretta) in the treatment of knee osteoarthritis, see CPB 0673 - Osteoarthritis of the Knee: Selected Treatments."
+         },
+         {
+          "title": "Clinical Policy Bulletins \u2013 Health Care Professionals | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/clinical-policy-bulletins.html",
+          "snippet": "CPBs include references to standard HIPAA compliant code sets to assist with search functions and to facilitate billing and payment for covered services. New and revised codes are added to the CPBs as they are updated. When billing, you must use the most appropriate code as of the effective date of the submission."
+         },
+         {
+          "title": "Outpatient Surgical Procedures Policy for Providers | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/outpatient-surgical-procedures.html",
+          "snippet": "CPBs include references to standard HIPAA compliant code sets to assist with search functions and to facilitate billing and payment for covered services. New and revised codes are added to the CPBs as they are updated. When billing, you must use the most appropriate code as of the effective date of the submission."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_1939",
+      "args": {
+       "query": "\"CPB 0660\" \"Knee Arthroplasty\" \"Last Review\" OR \"Effective\" OR \"Revised\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Eu8DCuwDAWkUfRNWXxEcOwTeBbFxjrsId1bGPt_6dZ2YGMz_RRTHcRX6vGDrc1jmgj7KoDOWkVMIniF1jCYyF_8ckDG1uxnXLJG5ZZ8WtUANzMGLbe-sViQob4Y4OR_1ljBwzlpyfCBgNccQ9K3bBw-hiWKo5pXsBNBQt-CJTRD-wKE0AyDzH_2akZ0yfeBgZJB17XnZJf1WFZjNyfR3HnG9bvWmefOkt2fMVuuBFTAVxUYxn8GlH076AsqhsIuMfNpNbRG9J9DJkXS7Vp6m95Y_RGlb41iOZ07BGHkPcoQn2xn9s1D4WpCVVAdDwDHkUlUjLJGYyKOwahxl9w2ks2m-1fcUzjCWe0hW2qQRWd9O9PcgXwdFWWSmltsxDNY-cE9YTDHrkgvgR7cAnL8G0RHq2UUWwRqiOGIOpJ0w7MQQLAzT9E6EGDxDoqb1cd-ZLUUhzdmLQz2X4QDgXf2cg5KfLc9zNe0xkNcjcVd6mqmJa62rPHdGX7bu3m7b8axMKWXUAhpZr1DnithyRcNKjuZ_QRxUWT8gHY2lJEheIreXp8E1JUGaTi9avUQ80s679QkZ6e9wY2kIVTTM3seWqgxVQL4zqYDRf4fpHDm6fAswvi_vqs8cvCmtd_J9FO4SfWTW1TTzdMrtCrD4AEr5r7gr"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"CPB 0660\" \"Knee Arthroplasty\" \"Last Review\" OR \"Effective\" OR \"Revised\"",
+        "results": [
+         {
+          "title": "Knee Arthroplasty - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0660.html",
+          "snippet": "While there is a possible risk of reduced or delayed care with any coverage criteria, Aetna believes that the benefits of these criteria \u2013 ensuring patients receive services that are appropriate, safe, and effective \u2013 substantially outweigh any clinical harms. This CPB is being used to supplement Medicare LCDs on knee arthroplasty (Total Joint (Hip/Knee) \u2013 LCD L33456, LCD L33618, LCD L36007, LCD L36039; Total Knee \u2013 LCD L36575, LCD L36577)."
+         },
+         {
+          "title": "Menaflex - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0786.html",
+          "snippet": "Knee injury and Osteoarthritis ... Assessment of the reconstruction was obtained with MRI scanning and arthroscopy. <strong>One scaffold tore and was revised at 19 months post-operatively</strong>...."
+         },
+         {
+          "title": "MEDICAL POLICY \u2013 7.01.550 Knee Arthroplasty in Adults Effective Date:",
+          "url": "https://www.premera.com/medicalpolicies/7.01.550.pdf",
+          "snippet": "criteria are for total knee and unicompartmental arthroplasty. Revised policy statement"
+         },
+         {
+          "title": "Joint Resurfacing - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0661.html",
+          "snippet": "Knee resurfacing arthroplasty was designed as an alternative to conventional total knee replacement. Reportedly, these devices do not require that bone tissue be removed."
+         },
+         {
+          "title": "Knee Arthroscopy and Open, Non- Arthroplasty Knee Repair",
+          "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-65&pv=false",
+          "snippet": "Scheduled review. Added general criteria for elective surgery of the knee. Revised"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_1377383",
+      "args": {
+       "query": "site:aetna.com/cpb/medical/data/600_699/0660.html \"2024\" OR \"2023\" OR \"2025\" OR \"Last Review\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Es4CCssCAWkUfRM3QIxQmTmfclOJ6TLsfj2XGyKxlbgbUdx6GAi1bhu6B_SNTiocY96KcK0Tx2q4wAHYBQRef1pUIUewSUPw-QK2SfV7MdBnvzN25f4uGExJaU-dZvErwZ5pvb4yOmB-5OB3M8aQ-pKfRSSWRBYgDgYtY-rruvXsw54-rdiY3VfcZ0CW0Ri_3llbBQkU3ULHE265xqfH4n86bTKWsUpnc0qhOpF40UOLdAAQbrIkgmeip7g7C0Yk-kM_mDxdK8Ey2k6S7SZ2uhBRuk8e-hngkF-TMdGLRnvOaoOdnPxYhWUM1KPmBQymvtoRDFirRJdQmZsaDfAZ6rKYzHFTfyXI_mvl4OhPfd9gFrMAZp7It2Y7X1EHNhsWKIaF0-9cGya2TB_I_XMywoleq81Rix21DuJc3yjZ96oqTiXH3FfxcEsREoDbOw8B_A=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:aetna.com/cpb/medical/data/600_699/0660.html \"2024\" OR \"2023\" OR \"2025\" OR \"Last Review\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_128194",
+      "args": {
+       "query": "\"Knee Arthroplasty\" \"0660\" site:aetna.com/cpb/"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtACCs0CAWkUfRM-8n6ANc9e7Oon1bj24nzLkBO41GaACxiJ2J1b5dxStciTJ92Ik5daiIgEqhbvfip_Q3H5t6pip0wBJCQA7mtdI7AmKGl2MN9PVKW6ULpXdWKrQ7v8jJoKOU-MojQkojZyvBJYGyxCp4IMt_lvAlcEqV-zDC9o4KRRALeUyfapeIX1EQhY-G5LHB4l7eAQqJIbkXaU2BK4ae5pvtDVyZYjPMijRAirh7CJd6J1X1GAkenMK19IpU82NsG1aheife6TRY168Avqth7Ez01S31fVaCaeM5D3vR9yHXST51F0Q13WdT8JW-c50RKD7ds3_8BCLDIyjBnFefPnC-i72DvPGmvWJWGzovZZbjSd--mXwqUrbtWs9cBZHKtouJWmML9KgEpUFmVuOUtkoHo8gvFBCG-EvANyEORkvGe4SP36Auy64UJnZ5MM"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Knee Arthroplasty\" \"0660\" site:aetna.com/cpb/",
+        "results": [
+         {
+          "title": "Knee Arthroplasty - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0660.html",
+          "snippet": "Number: 0660 \u00b7 Policy Applicable CPT / HCPCS / ICD-10 Codes Background References \u00b7 This Clinical Policy Bulletin addresses knee arthroplasty. Note: Precertification may be required for select procedures and interventions. Use the CPT code search tool to see if precertification is required."
+         },
+         {
+          "title": "Knee Arthroscopy / Osteoarthritis of the Knee - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0673.html",
+          "snippet": "CPB 0660 - Knee Arthroplasty \u00b7 CPB 0784 - Blood Product Injections for Selected Indications \u00b7 Osteoarthritis (OA) is a non-inflammatory degenerative joint disease that occurs mainly in middle-aged and older individuals. Osteoarthritis of the knee occurs when the elastoviscous properties of the synovial fluid in the knee joint becomes diminished, resulting in less protection and shock absorption."
+         },
+         {
+          "title": "Joint Resurfacing - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0661.html",
+          "snippet": "CPB 0287 - Hip Arthroplasty \u00b7 CPB 0660 - Knee Arthroplasty \u00b7 <strong>Joint resurfacing arthroplasty</strong>, specifically hip resurfacing arthroplasty (HRA), may be considered as an alternative to conventional total hip replacement (THR). HRA does not remove the femoral head and neck or bone from the femur ..."
+         },
+         {
+          "title": "Viscosupplementation - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/100_199/0179.html",
+          "snippet": "CPB 0660 - Knee Arthroplasty \u00b7 CPB 0673 - Knee Arthroscopy / Osteoarthritis of the Knee \u00b7 CPB 0784 - Blood Product Injections for Selected Indications \u00b7 CPB 0952 - Ultrasound Guidance \u2013 Selected Indications \u00b7 For the use of extended-release triamcinolone acetonide injectable suspension (Zilretta) in the treatment of knee osteoarthritis, see CPB 0673 - Osteoarthritis of the Knee: Selected Treatments."
+         },
+         {
+          "title": "Menaflex - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0786.html",
+          "snippet": "CPB 0660 - Knee Arthroplasty \u00b7 CPB 0673 - Osteoarthritis of the Knee: Selected Treatments \u00b7 The menisci of the knee are semi-lunar fibrocartilaginous structures critical in load bearing, shock absorption, stability, and lubrication. Loss of meniscal tissue can lead to pain, decreased function and activity."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_20315",
+      "args": {
+       "query": "\"0660\" \"Knee Arthroplasty\" \"Aetna\" \"Revised\" OR \"Reviewed\" OR \"Effective\" OR \"Date\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Ev8ECvwEAWkUfRNy7Apnl8Aau4kGI0GNKYQs9DI_TUD08t8oPy_7dUEOg7g64clBfm2z5rBqGq791qBAX17yOLZxfmXACCmAuvCqrMUICbaVJ7wEi5rdWC-EhZ0xJE83d4DIqU3GXsLjs6bXkPNCM1S5mytpZxYvqTJ5EO2FSLOMY_WQ0TSCxKUZbWkcis9mXeOLwqJyCuPWF9_8m_nxPUmSRnymBIMUAeXAj1Nq1pi7wGXC4pAFVOmj4UwUpoVZjXI1Xl7ehMnV4I7LwRfSWDikhlZ_y4zlIme494WqZRocrrG2ex30jRdHlhAlzortjgTUoL2Npi_3TbFBovYRrDe_MgAV9dzKp4IRa6A-v6FxjhdWH8H1dmSBmZYkcDCWIVecYED2qehUhA985sRQuG0q5MutBd1-EyaDPNpYxLIP8yUrKJoThHtmWXZeknmnY6pA4zW75ai4lLwreO9avKNfaxwBK-UdQY8QA7mqZZDfxigbGiL6GA5N12huOADkAB5qPTcFlw69a8ngEDcDhJk6NglpZIoziKG2eOY3jkWlicyZGMTKY9Nr_6ZVlvOx-G1Yvo2Rq-4gxTPmaobRSrenXfqSi7BBu-8IdFCC-deD3Pw8vrksGKIzciMg2_mQbIRWj8rQJt8f2zi4rYTCkekGqg_bGdzsHw5esOPQ-4fSBIf_5oORDBf5ub6xuWtmkv42I3dVW4qjolhct_LPdh2NLaxUcQEvZLK2P03yYU3asaapiZa2kPTFztHXonJt4AO4pZptVjNYKwlGUstVVoJmwv-lG1TMHQwrrBPgKwhKIsNG8CuH79pTF1eQowevcVsmznKgG7odc_EwiOCpdQIN"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"0660\" \"Knee Arthroplasty\" \"Aetna\" \"Revised\" OR \"Reviewed\" OR \"Effective\" OR \"Date\"",
+        "results": [
+         {
+          "title": "Knee Arthroplasty - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0660.html",
+          "snippet": "These researchers retrospectively reviewed 84 patients (100 knees) with bicompartmental UKA and 71 patients (77 knees) with medial UKA/PFA. Clinical and radiographical evaluations were performed at a minimum follow-up of 5 years (mean of 12 years; range of 5 to 23 years). Bicompartmental arthroplasty reliably alleviated pain and improved function. Prosthesis survivorship at 17 years was 78 % in the bicompartmental UKA group and 54 % in the medial UKA/PFA group. The high revision rate, compared with TKA, may be related to several factors such as implant design, patient selection, crude or absent instrumentation, or component mal-alignment, which can all contribute to the relatively high failure rate in this series."
+         },
+         {
+          "title": "Joint Resurfacing - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0661.html",
+          "snippet": "For criteria for revision of hip resurfacing arthroplasty, see CPB 0287 - Hip Arthroplasty. The following procedures are considered experimental, investigational, or unproven because their safety and effectiveness have not been established: Adipo-fascial flap resurfacing for proximal interphalangeal joint after contracture release; ... Knee ..."
+         },
+         {
+          "title": "OfficeLink Updates Newsletter Archive | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/newsletters-news/office-link-updates-march-2021/news-for-you-march-2021/hip-and-knee-arthroplasty-policy-update.html",
+          "snippet": "CPBs include references to standard HIPAA compliant code sets to assist with search functions and to facilitate billing and payment for covered services. New and revised codes are added to the CPBs as they are updated. When billing, you must use the most appropriate code as of the effective date of the submission."
+         },
+         {
+          "title": "Menaflex - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0786.html",
+          "snippet": "Knee injury and Osteoarthritis ... the reconstruction was obtained with MRI scanning and arthroscopy. One scaffold tore and was revised at <strong>19 months post-operatively</strong>...."
+         },
+         {
+          "title": "Knee Arthroscopy / Osteoarthritis of the Knee - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://es.aetna.com/cpb/medical/data/600_699/0673.html",
+          "snippet": "For the clinical outcomes analysis, these investigators included patients with a minimum follow-up of 2 years and available pre-operative original Knee Society scores. At an average <strong>4.9 years of follow-up</strong>, the mean ROM and Knee Society Knee and Function scores improved significantly, and less ..."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_533826",
+      "args": {
+       "query": "\"Last Review\" AND \"0660\" AND \"Knee Arthroplasty\" OR \"Last Reviewed\" AND \"0660\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtEBCs4BAWkUfROo_zS4E8vlvfU2d5nvxtGCk2ZxKe6Dm0yTvJZpOtjff_NK1hd27wZsd8TwaJXKe1p6OsrCU6iMbNGLjt-knEPHY4YMLKT7cNiB7rBnOGuVokCfDxTcGfr32cFV5BX9o3j13ZcvsuZZmb6mb-Jfk_8lIQiqVoHtcqADu5l0645qGRBYfLLt4Xy7JZarlBd1zl7OBI815WUaK7JVTnvNnua3Ejdc37c9KEpwHIRN8gtATlGW0fzzJ-oLk9ztld4-yva3w35fVrYo1Wo="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Last Review\" AND \"0660\" AND \"Knee Arthroplasty\" OR \"Last Reviewed\" AND \"0660\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_1432",
+      "args": {
+       "query": "\"0660\" \"History\" \"Aetna\" \"Knee Arthroplasty\" OR \"Revised\" OR \"Reviewed\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EoEICv4HAWkUfRNkZYGrv8ODhaELcaaDLTtBeD5cB3yb9L8PsBDPIdfKHPlIK5bl8zecjQHNeIOluBa6QBQs_LjkK_gbwDKwsuOup0hD75gwnI3HqlC4ZRbgrvpwt2JcoCI1iz8sOfhjnEZZHt6Nrk7H9VA8Fq5k23d4jSmLPhD4QHo_aPsqNlWdaU3ceZDU44yZtuAVN8dcDKPtbuLjbH0ebqKm9YM5_42YH4ceabiCy5BLtWx2V2NldsVowJ8hOsy1wvrZRzucWUhzFbIaBCgoIQxK1q2rZgMgabbySTDVh_CnOQ27yorDi_nfbmJ4ZmSprTCZqCIfqAW4pC_Y9YCqQtJWQRnJ24kjp_1DKkRtuRo-xRXlJR9pPk-oG38eRAOXez7QrSTpikJrYK1NayEn5mvplOCe1CA-gAAcMxjZgn0eTN4ZT2qjASuNdBvwmBD28xNMQAMRICOVbe2GKkaQDM-inpezskSxcITwVX5R6rBybKRd_-SktwpZzx0EJPvKpPPn4dPPxrR1d9z4tKkKZbkW7NO6ulT420WAvyKYqXBvrhZzrHYG3be8y9J-VxCEpptQYE50g41M8OI1iqCFM-2qDWDTrMN4wLfthGlBv5VIQ-kYkY8Hdb-_k9DmYIfEAU1pXqxbn-NgI-gLbedE81TKgn-6k_EIrUD1FH8ZcAUctAHZP-8LTA5WGHVfjvm62uyZ9zke2mZIt0KUey_MH0nAptNOqVDszTowvVyP8kG0HPy5u8et-nt7L7JpSEto9EdNTTJ7OWdO9CdGAc_87tlq7txmxyiBcJqiEUVRF1ccGrYjzuICYhbPrMLt9EVUNB5wxvQ5xjn1CGHXRIcKSYI7NyWm8Mfcnu8ScmPBVri2B5BEzJh5rrBZ6G1tSOB0kF0hH1Cxj-WWsVGj3g77E1VQf0ttouszzw-XChMdo6cjqXMZKrT3CBc1hhNe9MgrY7jM9lCtScsX9yRcJbO9Eu2XwvmuXolPKsb8xTpQkMRhusi9aNGDI2NsJSx8isq7fLu3iibBFBKL6J4WrrlXHt8lfnaWI2EBXDXt-IjTQcziTNdaw5ou8uMU_Q4vBqF596E4dmToZljCrjKsRZe_tqTLUYCZ18MF3V61Xu9BLg_5pA3GSFkdVBNTSOFEx2kmnYmlpyqoEYWp8PHe4WA5XCfcGE_15ijeROxhpuOeARpsThuShVbe3UR_psr-wcDtQVXQkoLJVJndr1Ixf4qPmnf87wIjOysETrs1oxyaqb6YpmWJRfaK1tSvy6dSR7H6CJlvhb0EazrY7Y97x9ugmyN9fS2mb8vY7wpK4VoVtt2dv2AGKwcDc0-Frv3Azq4f9DS2ZqAcBxwAx7W13d4dRdE="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"0660\" \"History\" \"Aetna\" \"Knee Arthroplasty\" OR \"Revised\" OR \"Reviewed\"",
+        "results": [
+         {
+          "title": "Knee Arthroplasty - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0660.html",
+          "snippet": "These researchers retrospectively reviewed <strong>84 patients (100 knees) with bicompartmental UKA and 71 patients (77 knees) with medial UKA/PFA</strong>. Clinical and radiographical evaluations were performed at a minimum follow-up of 5 years (mean of 12 years; range of 5 to 23 years)."
+         },
+         {
+          "title": "Menaflex - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0786.html",
+          "snippet": "Knee injury and Osteoarthritis ... Assessment of the reconstruction was obtained with MRI scanning and arthroscopy. <strong>One scaffold tore and was revised at 19 months post-operatively</strong>...."
+         },
+         {
+          "title": "Knee Arthroscopy / Osteoarthritis of the Knee - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0673.html",
+          "snippet": "<strong>Ackroyd et al (2007) reported the mid-term results of a new PFA for established isolated PF arthritis</strong>. These researchers reviewed the experience of 109 consecutive PF resurfacing arthroplasties in 85 patients who were followed-up for at least 5 years. The 5-year survival rate, with revision ..."
+         },
+         {
+          "title": "Knee Arthroscopy and Open, Non- Arthroplasty Knee Repair",
+          "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-65&pv=false",
+          "snippet": "Revision. Revised criteria for diagnostic knee arthroscopy; arthroscopic debridement;"
+         },
+         {
+          "title": "Allograft Transplants of the Extremities - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/300_399/0364.html",
+          "snippet": "Patients were evaluated clinically, ... lead to early BFOA failure in 6 patients, which were revised by total knee arthroplasty (TKA) at <strong>19.5 \u00b1 3.9 months follow-up</strong>...."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_25101",
+      "args": {
+       "query": "site:aetna.com/cpb/medical/data/600_699/0660.html \"Reviewed\" OR \"Revised\" OR \"History\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EusCCugCAWkUfRMcAUCWpLBMtmFpPyOQfnBUOBrj2Pu6CYfrFLNHhQd03fNeB0XSKHhzpDUo5O3ui8v6cw63ozxIUlUBGlMSU7R7BKjIi1kzqDcUJ3FcK_z6zNaMzN1WhnUYV24nywZAepcT0nqdtbGlbnF9Lk924EzR8DjNqcEyAo_rWmvZPN-XqWjZrKV_0l4J3y1_mbWtMGRMCNj9GwPRt6IXkJAMY_KHaG9EyT1eHSi8jVGdOO0Os3xZuUX9c8KxmvfIq2Vq94mwk2YsiL0ezdImXPAFIaAggsHHskEVIfe1PcAy8ZKymmREkOiKDRYcIpBICaHrYVtVS5WoPXAjUGy7OZDaQhtML-LVkdKlCW0mvuzJpYh5WUQXfdz2mu5qa8JdE9kPbcYllwWG3zDKMKq6I0V2xC_BZhqkDXH5a1NaCmKfStCG_MJJjV2KcXMgkOJ2N8a132QE0HMcwjfx0ywcsErBgt_T9sqD"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:aetna.com/cpb/medical/data/600_699/0660.html \"Reviewed\" OR \"Revised\" OR \"History\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_193713",
+      "args": {
+       "query": "\"0660\" \"Knee Arthroplasty\" \"Aetna\" \"date\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvwGCvkGAWkUfROoEFgwqu2uC8MyEfiVxgx2LDoNCnl63CZpw5Ma3ZtQnvpVdn3O0_vTDXk6WbeQakFyxYbkuEnAgMxPs8EjHb3GdChOGOmeKvt1K3ph7iR5Kom6FCqXD6DRHxHE2aChmkROFfNs6Igs998JdK6Rcyv-UHlVJmYk3VGjd2zXCAlk6HT2rwwQzbSONMJzeNUbnlgNd0lQFPwMZOW6mjCW2mZtJ1TJ_UPaVE8GsmfwBS-tu81JcUP5NJpWd3UUWihjbk2BTDupwMP81sfyjj0N-X06BNm3ZRbV2fD87JJ6uWiBsbGxRrNHKh-l_pw2VfzE9wtMJxC_dyBDMZ-qQyoDiPkbt6JPRNkr-vB-aaRUdNjMw2bhHAzaM79NF5su3mZ1YGZU6DUU1rn1vCMFr4GzHIcuTHgudDNVxLrrqFZixwInq__qcznRaTyihoRHbSgSx7AcBT-LCjOVNXQJji6EFe7FHc_gSGQtBoxLM9_H1ThXIJD6Vgih4frT0UaPHwF2-SIibtpy80_S2KkqEY1wFl5uf9_Fl-4_UD9mP0JA48oP2M-23oC6lUZkLpy0S-dFVdFD1Wyzr7hkBHsxHTw7iSQVnZrXmi3ysrDZsnd0TYL5fUutrFJguY0cu6pAQU15CB4aBbDIoER2bVB9_ZFvdp6oknyVURkJi4pznvDcX-qhp_D51R4ei8Vs7_xFjfFsdowWGfvou7R8aBDH8hxOzN16G9BTyUWUuZ-rFc1NXGUdpT85N91pezGvAjR8WaqZF2X5DTBS4QS5EgEtuJ4KUbDsOoYPoj5N6iWTMv55IKCQritAL1AokDO2AT0bF7qpguZ8DE4SpNf4qTGu8PvgWCWw1fKTi54XtS8zlAZ1pqwBJrKgIRUvEm7XDykxi8ojlot9q3N4_kSsvZhrMbzAMBAS3RSsaUz4k3rZXILXiRGhMnJYJZDaRPKBXiEIUdEUBcI6zsesLh4WLJIceGWM5TzOZxjwTapyDfgRZFeL3fCScpDz6m2rCym32cxYbhF5aEgTQK3A7uK3q47_AJTenbdpsHDYQyYmw1T4S-t1-F-9Sth6QqhvwuaYo7N6SL9ho1zUsVxbYdlJfs7VfH6EtFsrLGBCyQsmluW0vUiiF9GJ1AdPoolzPqwPiaFZAhgXl4wNIQ-odBM-gslDtIyNQxbUX4tauw=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"0660\" \"Knee Arthroplasty\" \"Aetna\" \"date\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_11157",
+      "args": {
+       "query": "Aetna \"0660\" \"date\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsYBCsMBAWkUfRMosDoZj40p-HVKHL2QRo1k-vLyNYJ-rMAWAlSwCn9fWQL35lF9y79EGqjhKfJqhhNHUehrp-Jo0iAi2iX39ufYDIwprvjZMsDjtsgTLPbk_dkXs1ixm8XC-FeKAJ02A6XhC7vBgw0BQ0kIEJ8NWhyqVf6TCg7UX-2HhERIdBV6iQa4svZ0riZevKk4dpE8rKEXl9WFFB1V9oKoi0W3x8LT7miKBlqTZN30A4CEIYQXgqjdvXU_85abIcZQKx9w"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Aetna \"0660\" \"date\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_155799",
+      "args": {
+       "query": "site:aetna.com \"0660\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqgBCqUBAWkUfRMiCZg7cEWF_nokh9P2I5aJwpTWOCYFx1qZ2nXw_HULeOHmVV5Xko3pH7kCqx_Pr5N7GpNv-BJzkQzc7_EtuJ1GFcUbGKDu-_syz4wgLb3OwWBCzm7b1STDTfOb5qtEesUDSIY3ejQ_gddLlgm2x7PG1piVNwqTFa_3_guFdlen5UGG8Js1xSSV997CdZkNCxLYzhCWr17-Jootp22DHaCN"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:aetna.com \"0660\"",
+        "results": [
+         {
+          "title": "Knee Arthroplasty - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0660.html",
+          "snippet": "Number: 0660 \u00b7 Policy Applicable CPT / HCPCS / ICD-10 Codes Background References \u00b7 This Clinical Policy Bulletin addresses <strong>knee arthroplasty</strong>. Note: Precertification may be required for select procedures and interventions. Use the CPT code search tool to see if precertification is required."
+         },
+         {
+          "title": "Viscosupplementation - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/100_199/0179.html",
+          "snippet": "CPB 0660 - <strong>Knee Arthroplasty</strong> \u00b7 CPB 0673 - Knee Arthroscopy / Osteoarthritis of the Knee \u00b7 CPB 0784 - Blood Product Injections for Selected Indications \u00b7 CPB 0952 - Ultrasound Guidance \u2013 Selected Indications \u00b7 For the use of extended-release triamcinolone acetonide injectable suspension ..."
+         },
+         {
+          "title": "Joint Resurfacing - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0661.html",
+          "snippet": "CPB 0660 - <strong>Knee Arthroplasty \u00b7 Joint resurfacing arthroplasty</strong>, specifically hip resurfacing arthroplasty (HRA), may be considered as an alternative to conventional total hip replacement (THR). HRA does not remove the femoral head and neck or bone from the femur allowing for conversion to a ..."
+         },
+         {
+          "title": "Knee Arthroscopy / Osteoarthritis of the Knee - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://es.aetna.com/cpb/medical/data/600_699/0673.html",
+          "snippet": "CPB 0660 - <strong>Knee Arthroplasty</strong> \u00b7 CPB 0784 - Blood Product Injections for Selected Indications \u00b7 Osteoarthritis (OA) is a non-inflammatory degenerative joint disease that occurs mainly in middle-aged and older individuals. Osteoarthritis of the knee occurs when the elastoviscous properties of ..."
+         },
+         {
+          "title": "Menaflex - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0786.html",
+          "snippet": "CPB 0660 - <strong>Knee Arthroplasty</strong> \u00b7 CPB 0673 - Osteoarthritis of the Knee: Selected Treatments \u00b7 The menisci of the knee are semi-lunar fibrocartilaginous structures critical in load bearing, shock absorption, stability, and lubrication. Loss of meniscal tissue can lead to pain, decreased function ..."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_1956",
+      "args": {
+       "query": "\"0660\" \"last revised\" OR \"last reviewed\" OR \"review history\" site:aetna.com"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpwECpkEAWkUfRN35KYy5whfjkqgWulgRPzBU843IbghSIDw18ZSQDFxPBo9vVM8iSvUIWxeQR6wIA1C7VrwXqObZPwtydhdDMHpVTvA28uqQl_DJ0cM4352lQHVbDp8qrnyFlceJZJyrDqUalebfSp8PpHHKapNB8yg9MoW_pK-BPNhRnVBEj1-PgbMXT6joYWzFTZH722IXFBhl7cLjDl2ymTC8CneWjzVkaR-qI310B3ZKs7PilYzEy0TO-ZuHxHPsq5Qu1z1LkItb-hx8jHs-Rpzxby-vg3atJhhEunCq48hAxbW--9vcjyClGchMF5qUeZWdJ7cXht93JNHHSRh9NpvEQUEKkrNzgOe5MQfE2kUSacNdh2Mc9-ptHqTUAybBmP723BlnD5EZFDTP4SFXC4HW7fRGbNfHXiQYkOSvY12kab1XoNaFoaMV-gud5M-sb4SABvqvTF9-_XY56UNevckQM6M_hxUSezKAh8im_Gl5HgeXyGXT7CJS8p7Qdxs2807msn4sBvY345B1IKXtZsyYTIQXzODHE7UShpLrgd8A3F0aS7uTy77ybvn567uPXv7uVsASakspwmoEcHsrDBVYm9J5TgP9cN8OCt8ILZ4l_Hf1alrRupHONqf4gaymkKvOT38kGrLlwMZC3KYpmVWQjEOEEs63lifvuyFXwXov2UcVktegoaAspf_Dxqt_8ucAiVATzXEgXdI"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"0660\" \"last revised\" OR \"last reviewed\" OR \"review history\" site:aetna.com",
+        "results": [
+         {
+          "title": "Home Health Aides - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/200_299/0218.html",
+          "snippet": "<strong>Last Review 09/10/2026</strong> \u00b7 Effective: 05/06/1998 \u00b7 Next Review: 02/11/2027 \u00b7 Review History \u00b7 Definitions \u00b7 Clinical Policy Bulletin Notes \u00b7 close \u00b7 Links to various non-Aetna sites are provided for your convenience only. Aetna Inc. and its subsidiary companies are not responsible or liable ..."
+         },
+         {
+          "title": "Fidanacogene Elaparvovec-dzkt (Beqvez) - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/1000_1099/1060.html",
+          "snippet": "New York, NY: Pfizer; revised <strong>April 2024</strong>a. Pfizer Inc. U.S. FDA approves Pfizer&#x27;s Beqvez (fidanacogene elaparvovec-dzkt), a one-time gene therapy for adults with hemophilia B. Press Release. New York, NY: Pfizer; April 26, 2024b. Last Review 04/20/2026 \u00b7 Effective: 08/01/2024 \u00b7 Next Review: ..."
+         },
+         {
+          "title": "Motixafortide (Aphexda) - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/1000_1099/1046.html",
+          "snippet": "Gamida Cell Inc. Aphexda (motixafortide) for injection, for subcutaneous use. Prescribing Information. Naples, FL: Gamida Cell; revised <strong>May 2025</strong>. Last Review 12/11/2025 \u00b7 Effective: 12/07/2023 \u00b7 Next Review: 12/10/2026 \u00b7 Review History \u00b7 Definitions \u00b7 Clinical Policy Bulletin Notes \u00b7"
+         },
+         {
+          "title": "Prenatal Care Provided by Primary Care Physicians - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/1_99/0047.html",
+          "snippet": "<strong>Last Review 03/10/2026</strong> \u00b7 Effective: 10/31/1995 \u00b7 Next Review: 01/14/2027 \u00b7 Review History \u00b7 Definitions \u00b7 Clinical Policy Bulletin Notes \u00b7 close \u00b7 Links to various non-Aetna sites are provided for your convenience only. Aetna Inc. and its subsidiary companies are not responsible or liable ..."
+         },
+         {
+          "title": "Diagnosis of Vaginitis - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0643.html",
+          "snippet": "Sobel JD. Candida vulvovaginitis. UpToDate [online serial]. Waltham, MA: UpToDate; reviewed May 2015b. Sobel JD. Vaginitis in adults: Initial evaluation. UpToDate Inc., Waltham, MA. Last reviewed <strong>May 2024</strong>."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_1250",
+      "args": {
+       "query": "\"0660\" \"Last Review\" site:aetna.com"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpQCCpECAWkUfRMAL7U3UQI-LAhFlbHgM8HhT_Aj2vyfn3szVQTTpyBKZuyAeJMyW20-aj3mpOBhynDacB1yyjbLcr4FN6rQDwKmKZnmeyRDn634cpqKFLrktGOarmy8kV92jl8WUjAHctH-Iu2lkG8BBGHRShGAtiFzqLitQo69Lq_bM9QeSXrTPZu11L2Urzmf0QIWb1LNsLgTs3f-IpywF3m_1Mdx1yr7s-vu8wEwI9SAb0W_Zttf-mfPRjjChyikWTsjluoajblOqtKoEGcn__N7WF12-McNegD3FKinObE0Xl1xM9h3gBOjlT4WXAyqLcm8B4ddrrRfF5d1e4DqpjLx_5voZZFbAOpJQxDdAAMPEklE"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"0660\" \"Last Review\" site:aetna.com",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_1065",
+      "args": {
+       "query": "site:aetna.com/cpb/medical/data/600_699/0660.html \"Effective\" OR \"Review\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Es4CCssCAWkUfRPNFxNVaIctu1WfHP6QwKYu4_zQpmeDf1bx2jNxBZfVFBVivy16Z4vY_-4eeuu-oarLEGJlCpHNPOW6b9CDA3Dy0VixQBP0vB6Y_DhuAa3IOo_EXkqZemydWAUQF-VnGTftvI6h-aGtlVq1S4KOa--JEm9sNqFJawVj8flOTSCCdCc3B2nhvDuMJgmO3DET6j_is0XGnIfVGuDLdSSLyCZYD0rGAmrgcK86Dn2F1QW9gV6MILP-kPSK5B0oU09kUuJeHdbu5_PSSHa15TWxwiPldB4bVOK_YxkvC8tTAYpxDYeQczRGr55qGxC3ZghOmtoQDNygpQ4Gw1gUQnqcqy-0fPEf9Qj1N8c38HDWz20qTzB4Dlu2mCJSlpuWkeTBg11PYCBg3lmyGP7CBrdCkpUWTZrbVKpXa_cMSJs8evWfNgr3r-AlIw=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:aetna.com/cpb/medical/data/600_699/0660.html \"Effective\" OR \"Review\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_18466",
+      "args": {
+       "query": "site:aetna.com \"0660\" \"Effective\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtUCCtICAWkUfRNMSSj0CUqUpnQzNLxAWNFaJxvqY9ccOA8-_-n9rfkz1SgVcVS7gEbSb_DZofgKRlMZ4E4uaYYtVtbY1colwPMIlnfFx3ysxW47S2e0MSrlZz4PKwC1FSm398MUqQoAfRGCEtGuvW2dxsMXm7Hzi6RXMaoUeSLeXm7C363UMe6W5LroRXozPSRZDYgiBrpRNAxt9yOtr1Fymd-AmkvvtAATFdG0OAi3Oouro_tvEzeJ-c1iMeLmMDnFtlHUgSho2xQpNzVIrhki9lFFHqenJ6DE46Fl_z_PBnG-Sm6JWd34UYCfNUNdI-cgalk6FePScWWcb074SqmD3rcA73-99FRJ3b9KgGSBP5uisN_cmacJMyjCT-CDRhgUIChlgHoqp4-JwR3jEbv0AN98pJLNaEW57kmDtOxxb775fwrWtQP-DONcXLyC6Y9IRMfN-qg="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:aetna.com \"0660\" \"Effective\"",
+        "results": [
+         {
+          "title": "Joint Resurfacing - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0661.html",
+          "snippet": "That the evidence resurfacing available at the moment for the clinical effectiveness and cost effectiveness of metal-on-metal hip comes mainly from studies that have involved people less than 65 years of age."
+         },
+         {
+          "title": "Viscosupplementation - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/100_199/0179.html",
+          "snippet": "<strong>Ten of 15 (67%) knees improved after a repeat treatment course</strong>. Local adverse events were minor and infrequent. The author concluded that i.a. sodium hyaluronate was an effective and safe treatment for pain in difficult-to-treat patients with moderate to severe OA of the knee."
+         },
+         {
+          "title": "Knee Arthroplasty - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0660.html",
+          "snippet": "According to the manufacturer&#x27;s ... participating in an assessment research project of the device. However, <strong>there is insufficient published evidence of the effectiveness and durability of this device</strong>...."
+         },
+         {
+          "title": "Knee Arthroscopy / Osteoarthritis of the Knee - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0673.html",
+          "snippet": "<strong>Patients who had undergone joint lavage had significantly improved pain VAS scores at week 24 (p &lt; 0.020)</strong>. In contrast, corticosteroid injection had no long-term effect (p &lt; 0.313); corticosteroid injection was associated with a decrease in pain only at week 1 (p &lt; 0.003) and week 4 (p &lt; 0.020)."
+         },
+         {
+          "title": "Menaflex - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0786.html",
+          "snippet": "Aetna considers the Menaflex device ... repair and reinforcement of the medial meniscus of the knee and all other indications because of <strong>insufficient evidence of its effectiveness</strong>...."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_969256",
+      "args": {
+       "query": "\"0660\" \"last review\" OR \"next review\" OR \"effective\" Aetna"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EuABCt0BAWkUfRMeq1mwvopw354XxGwW9AbdoH6TYelX1pELvyjXaoTkL42vQDLNgPDP4zTsvsNPUCv0dIRAI8ixOV0zBgpbRp6EZR6knozizb_U1ehutDnkH1VkloUM33QyvI4Bkj-qRHin_Pew7j8r7O5vgd2ci8g35L6TGsa84AzG5ryL3OlJ8X7tzIQHJqfSVpEdWmQKSiY4hl5o-YjYXYcZWrIzopwBYgQ_-OIpG12UR_jXQe1WaoJJknmJTQEfN_FH33G7OgIlj6VK1MtHa_fj53jy6qgH4Kde24q-TNY="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"0660\" \"last review\" OR \"next review\" OR \"effective\" Aetna",
+        "results": [
+         {
+          "title": "Medical clinical policy bulletins \u2013 Health care professionals | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/clinical-policy-bulletins/medical-clinical-policy-bulletins.html",
+          "snippet": "The CPB review dates below are the anticipated start dates of the CPB review process for each CPB listed. The \u201cLast Review\u201d date appearing on the CPB is the date the review is completed and the CPB is published."
+         },
+         {
+          "title": "Retrospective review \u2013 Health Care Professionals | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/utilization-management/retrospective-review.html",
+          "snippet": "Learn about Aetna\u2019s retrospective review process for determining coverage after treatment has been already been provided."
+         },
+         {
+          "title": "OMB Approval 0938-1444 (Expires: June 30, 2026)",
+          "url": "https://www.aetnabetterhealth.com/content/dam/aetna/medicaid/new-jersey-hmosnp/pdf/2026%20Annual%20Notice%20of%20Change%20-%20English.pdf",
+          "snippet": "... Due to legislation in Arkansas, effective <strong>January 1, 2026</strong>, you may not be able to utilize the following \u00b7 services within the state of Arkansas, unless a court takes action: CVS Retail, CVS Caremark Mail \u00b7 Service, CVS Specialty, and OMNI Care long term pharmacies."
+         },
+         {
+          "title": "March 2026 OfficeLink Updates\u2122",
+          "url": "https://www.aetna.com/content/dam/aetna/pdfs/olu/officelink-updates-march-2026-olu.pdf",
+          "snippet": "<strong>October 1,</strong> whichever date follows the effective date(s) referred to in this article."
+         },
+         {
+          "title": "Changing your coverage | Aetna",
+          "url": "https://www.aetna.com/individuals-families/member-rights-resources/rights/changing-coverage.html",
+          "snippet": "All services deemed &quot;<strong>never effective</strong>&quot; are excluded from coverage. Aetna defines a service as &quot;<strong>never effective</strong>&quot; when it is not recognized according to professional standards of safety and effectiveness in the United States for diagnosis, care or treatment. Visit the secure website, available ..."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_1377797",
+      "args": {
+       "query": "\"0660\" \"last review\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqwDCqkDAWkUfRNc5MRZdEhuZ_Ltr70UUswmBs8VdRizVPDcxPUMUiSc7L5ZQ7Ot1p_z7Iolp5ccoPqZy-OLtEAkwoUKijhLJ4eMv-Q8mnMImT-oOf4ONA2XcMvTXyM6Smdn4eUGsT8U_MbrRNFwX0uj6OOEvCA6jNYqjKPp4-FuWXwzwkbsFWaFL5ihsdTj1qInBFNshHIiCOoon4_trMvEia3DJa9a6i3h--FLHLO5qGLRrTKF1mX8JgVT5l7M8kGa9yS9wPYz-KrAU6WooDoComtrjIF9Jzvd0Pq-PZ8Gzlv6Fh8T52TzedNVKP7Mxa8v1qBnEHjjju4frdbB-CXorAxsJpmswFnXIOPp4DeoGHqWF_KMOYlFazc-wuL48qsNgAN1YQSoo92NrAMG1YTAqASANzPImXPlteE6PLofZ-g1ahFO8RdP4syY2Bs0a6Ym3hc3eGZrsDPmJdVyDkvr6lV3nh7UkaGWHVyNOoGd7CXL9WRBfDFsu4Qdd3SpakPjm3eHu7m7Z2THvdu2GSgl-hcIN4Ob6KYCaKEv7zeFN8V7-Bc_3DETDL2xsJw="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"0660\" \"last review\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_10715",
+      "args": {
+       "query": "Aetna \"CPB 0660\" \"2024\" OR \"2023\" OR \"2025\" OR \"2026\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EskDCsYDAWkUfRO9ZMhVWWU9OQEPoju-TgaGLo_Wp20z7LXlRKHzWT67Ge5D5kcQo6chSoBbfVmXTUub7Io-mL6gpx93k0LL80cf7lQ9p4--rA9TpifUUIPimnubI1-sCPryjBM-BqhrM2qusN5gJMXyruMJ2n8bLzlD51dVugos2SuUikfgWn2gsmxV4_OJF6PM2pWy6FFtVuvhmjvkS5Y9vo8K47OGja0tiKH-Cr67lgNupIz1IlK0txWrkdg3yYOUnIIdGPeD5jiFCNXXCv099kyth_Q9pFwofagpaJpoTC7IJveOsX50MzcBPTaLgF_S-4LJXLCL4DHFus2oQQZS-urc0LXNLCJmB0RETRHapTYRsrftqqcNfXtDnMI_4JrTRfqt6-KhbitPrRp5G2KvAGpfxs732Zvp8o0GlFIqTSVQ9oft_2wyUFAhcYK2IDAAdnQaPfy3vRlfpeCru99354_-GoHV0jDGZLMsEIYHsIhCzCQA0-FrF8Dj8BCNmlxpksI7TDwawjJRi1ZKPfiXRKTfig-BCYjHdACbvwFkuN3m7B2tMAt5f5-uCAjhKcf7m0-Cr12bYMP42cJPRm3XKxw_Bq70X_GYfA=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Aetna \"CPB 0660\" \"2024\" OR \"2023\" OR \"2025\" OR \"2026\"",
+        "results": [
+         {
+          "title": "Medical clinical policy bulletins \u2013 Health care professionals | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/clinical-policy-bulletins/medical-clinical-policy-bulletins.html",
+          "snippet": "Aetna Clinical Policy Bulletins (CPBs) are <strong>developed to assist in administering plan benefits and do not constitute medical advice</strong>. Treating providers are solely responsible for medical advice and treatment of members."
+         },
+         {
+          "title": "Knee Arthroplasty - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0660.html",
+          "snippet": "This CPB is <strong>used to define appropriate conservative therapy (non-surgical medical management),</strong> as some patients may respond to conservative therapy (see, e.g., Brophy, et al., 2022; Brosseau, et al., 2017; Conley, et al., 2023; Fransen, et al., 2015; Mo, et al., 2023; Somaiya, et al., 2024; ..."
+         },
+         {
+          "title": "Clinical Policy Bulletins \u2013 Health Care Professionals | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/clinical-policy-bulletins.html",
+          "snippet": "While the Clinical Policy Bulletins ... The Clinical Policy Bulletins (CPBs) <strong>express Aetna&#x27;s determination of whether certain services or supplies are medically necessary, experimental, investigational, unproven, or cosmetic</strong>...."
+         },
+         {
+          "title": "Oxaliplatin - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0683.html",
+          "snippet": "Guidelines from NCCN <strong>(2023)</strong> state that oxaliplatin is an acceptable alternative chemotherapeutic regimen for recurrent epithelial ovarian cancer for Stage II, III, and IV patients with partial responses to their primary paclitaxel and platinum-based chemotherapeutic regimens."
+         },
+         {
+          "title": "Aetna 2026 Medicare Advantage plans deliver access to affordable, personalized care",
+          "url": "https://www.cvshealth.com/news/medicare/aetna-2026-medicare-advantage-plans-deliver-access-to-affordable-personalized-care",
+          "snippet": "Aetna\u00ae, a CVS Health\u00ae company announced our 2026 Medicare Advantage (MA) products with benefits and programs reflecting the diverse needs of our members."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_1262",
+      "args": {
+       "query": "Aetna \"0660\" \"Last Review\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "ErEICq4IAWkUfRM_Iwwf3RdglLjaOopCaqm5EGWcPK_IO5Xnin1Mdo5I-Ax6aa2spl0yn2twGVpThKUr2Kyd9Xfds1i7Hx9VxlonevWhLIsafpNMDh9jUMjUrptdV6VwF5cSgUcaAyvIbXiditCSijtz5p366v-rpXjhmu1mnhXrzQ0eBzNyW3t_igj0XfdQNnMKlnUWEvXMtyJpbgYkJDM9Oip8SY0b14_sk4hrcXFTxB0vqPkRWgjuFOj2TFOdLUCmGU8nmtUlk6QNrdt31d1tYIvwvb9196cRWb7V0haqKEAbNxSovp216CAQgEgOmXrub5Yo-oPccetLXc1kQqe2FVN4PmXFL0RTOlgiVju8PLQbGUldmaIBcXBp9AyL-JrK_r1r-7sHcd_0Nri-zbdyIRT4HhJv_Jjtyy0qwS47ZjubKLTIEceX2Aa3cnU2bEXZznS6z3KWvy_0L7d_-7CEtBrYM1iDoaJZGxpEK58HCK30yvO5A0zNwotPTe7Qu923mDhpcAwP2kb_JTwxWAczKnPPWUnytH7hPy-SZM62pDquM1KhNgB9vjciCWslP6JRDLd40R7ZNO-FTjuUVGdJeIHAiEXOexg9veyzmt8KgqVMdjibCG35IW4-v0RravmIGlieU-DfCZNb9LUZbDn5trIXW5wZ3KMT_G_xp-Szhgpl96-EvuLHmsT-IxrP4yVhVY802sxNgXxBYdOEAThzqVANh7qs_GNEc5I5sjrECT591FgE_a7MfNQDqMvLHKCDUczfJCBKIx6hyhspd9d67qpE0AneD2WMfC7J9wfjrucFksXPp8LrfvrgF0lWXxo69YHvSdC_kf1lIDqWo4aLaADORy1hd_ExJsBMM4bowl5f_P4Gq4FyM7Q8Q3Bs1q7SBlb_SChJSHSZJ0AXehXMfyXcLUbOq4KPRBs5wqPh2_VLYlgXKxMJxr5GeH1Bca61tuyHanWrvyr8BOVwDAzuy5skvN1OShzJt_JncOE8Ptr4sSewzF4J1MQpE5ES7n9poYOov6LQuSNk-qXeXeH5IbUOal1yPZZLwq3Vwq9gTt_zrj4Tafg6NuN6Jbqi7fnlkr_C6724JwGxxuRyRoRLl1Jg4I4p5AlxJGM01pXM7Hokv527_1jUzJjNpHbopJDyKPd1L0wtxYb-7hJtYsO43rKhsqlGJbJpLDcByZjJDLmBVibjnmOnE7E1REMOgClET5DlSPvCvbZNdwqHmga0W3jLlQazYRIoPrIaaq_H2rZoJOi4fLJ0PYFS2BlMCPKN438emSvEAeq0BP3fB8TJTVQaQFUJAyKbNW8QAmX-ZpCpZL7oQvqnoNZYGu1MK-KkaDLML_WNGkFrsw253YFfS5n2C7xs6I5nuDtuZT9iOa38-Z2vpGjsNzuMFTziNFom8UNkF39HzvbEc8Oe1fWrb60="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Aetna \"0660\" \"Last Review\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_152604",
+      "args": {
+       "query": "Aetna \"0660\" \"Review History\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "ErkBCrYBAWkUfRO9Cadf1k8z0MhFIiPvnGtAo5eIojhGyNGCLuxyP50vnhwbRinphGwjwFHwE-libxRLO8e4j_9VAG35F5LbX0phO3aS9LL3x1w7VvymE7HkhBjKeTKW01HU9jgMPcSBNz-OT2K0X21mEyOqT4ECNZEtARiSE87PdEMouz-q3FTAmkR8KXbuIWFATEQkMHykFSaAE-HM8fqA3THDTl0Pw3nHtVBXzcoy2gJpnDczCFCrLPg="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Aetna \"0660\" \"Review History\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_157618",
+      "args": {
+       "query": "\"Last Review\" site:aetna.com/cpb/medical/data/600_699/"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtQCCtECAWkUfRO4ES16vvIHlbhPLDCjRgvCyte1KD15WNgymrFQAwU524AkjMrqMljch_lABtl2lAkPgV9VLqkl2fW3DIa3NlM-50N1JcksZQqJtlnB6rvbzQKBNubk97zvpXPPH-D8hAspKlWFBwYfvhe08iCOrnzwG_uZERZf416mRZX4hldVECuOf3sLDtAul1tLNg99nH3x6I2GVF69hxOzPn2-IHlxrNVlLJqrWDu5MpHF4M9XgCqxf4ThS4qsbn8gA-y8UwkmfqP-nxQbqygWBkp3TrnuWKP8zpVcsT-0ldr8ZbH-U1WDtKSSNFLdYU-GmPKC99MPrNvfXsVixFH6HCDMx7gPy4FCwaGBplYxXraEMpa0Kv5LTtx-YmbtiFKypxEExpjxkgDXZMmLWd4Xz5t0acLkOFSMdr9jVEXyw6yJbwVYvmbUdLzl_8r8YF6d-g=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Last Review\" site:aetna.com/cpb/medical/data/600_699/",
+        "results": [
+         {
+          "title": "Ibritumomab Tiuxetan (Zevalin) - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0659.html",
+          "snippet": "<strong>Last Review</strong> 11/26/2025 \u00b7 Effective: 05/02/2003 \u00b7 Next Review: 08/27/2026 \u00b7 Review History \u00b7 Definitions \u00b7 Clinical Policy Bulletin Notes \u00b7 close \u00b7 Links to various non-Aetna sites are provided for your convenience only. Aetna Inc. and its subsidiary companies are not responsible or liable for the content, accuracy, or privacy practices of linked sites, or for products or services described on these sites."
+         },
+         {
+          "title": "Tubal Sterilization - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0657.html",
+          "snippet": "Yang M, Du Y, Hu Y. Complete salpingectomy versus tubal ligation during cesarean section: A systematic review and meta-analysis. J Matern Fetal Neonatal Med. 2021;34(22):3794-3802. <strong>Last Review</strong> 12/08/2025 \u00b7 Effective: 04/25/2003 \u00b7 Next Review: 07/23/2026 \u00b7 Review History \u00b7"
+         },
+         {
+          "title": "Acoustic Heart Sound Recording and Computer Analysis - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0692.html",
+          "snippet": "<strong>Last Review</strong> 10/16/2025 \u00b7 Effective: 08/13/2004 \u00b7 Next Review: 08/13/2026 \u00b7 Review History \u00b7 Definitions \u00b7 Clinical Policy Bulletin Notes \u00b7 close \u00b7 Links to various non-Aetna sites are provided for your convenience only. Aetna Inc. and its subsidiary companies are not responsible or liable for the content, accuracy, or privacy practices of linked sites, or for products or services described on these sites."
+         },
+         {
+          "title": "Evaluation of Sinusitis - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0694.html",
+          "snippet": "<strong>Last Review</strong> 12/29/2025 \u00b7 Effective: 12/07/2004 \u00b7 Next Review: 08/13/2026 \u00b7 Review History \u00b7 Definitions \u00b7 Clinical Policy Bulletin Notes \u00b7 close \u00b7 Links to various non-Aetna sites are provided for your convenience only. Aetna Inc. and its subsidiary companies are not responsible or liable for the content, accuracy, or privacy practices of linked sites, or for products or services described on these sites."
+         },
+         {
+          "title": "Eye Prosthesis - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0619.html",
+          "snippet": "<strong>Last Review</strong> 12/11/2025 \u00b7 Effective: 06/18/2002 \u00b7 Next Review: 07/09/2026 \u00b7 Review History \u00b7 Definitions \u00b7 Clinical Policy Bulletin Notes \u00b7 close \u00b7 Links to various non-Aetna sites are provided for your convenience only. Aetna Inc. and its subsidiary companies are not responsible or liable for the content, accuracy, or privacy practices of linked sites, or for products or services described on these sites."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_10539",
+      "args": {
+       "query": "\"0660.html\" \"Last Review\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Er0DCroDAWkUfRMBPeYKj49YPtAI1v-OPPl_ELg4a7OUrkxWMjKNkVRWM7QUqSTK-oztppGQUzStZJpvgE5YaP-AhYy-FcYQ2mVwsNYcVq6wWFWYmW0DOT43-7RfEeZkEQE7Blf-BUdVRECXomSLRGestruc2u-l5oSjlnezIvpShGTFgcoPmA7RBTDNENTTj8mBMjdKb3K-qAqd3unPn8JFXixB5wLHxQIC1tBHx2LwLku-VCU7YI4nGaEAuEM2A_4ZvxMbs-lykaZOa9RQYDNnj4aSO5tzaQdw--Ld_81ctH0b6hTxPHPIA5MSqYlGCe0Y4E1YzAXVjjFapMgh70K8vP18tK3QpmTCO5P-c1gz_p0TPuIEGwiGCFjcHUGSYBLlyrJ_rE_DWjQTWvVFjvLGYnLD0T3blV3IzcGkh4lVyvyyQtNYFRWFKORlY3Yf_0EqN6-OBi3wJXi_DoHEufLt-N94XvWsaeG370NVsORiBhBxh175SWhQG_ZDR-QOiPnlu3NoPBh-GL49TO8qHeYBy2gGU0sH-OTphj71nh2NrwZm4nNzjin_P3pi13QAjE7lPUJK4bjHqQFlwpYLNQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"0660.html\" \"Last Review\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_2227",
+      "args": {
+       "query": "\"Knee Arthroplasty\" \"Last Review\" site:aetna.com/cpb/medical/data/600_699/"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpQCCpECAWkUfRO8gS9ORfZcHiLdoFlJ9MG7BX9MxqZTxscPRm_VIad3im3x9Px4pG-1yE_o8L2JLXD2YTu-MwipOVtXp4YHRtW3p0YYutPjhX_XK0znGGBEN5svd76kLE6srsfbznbzLK_BNqxMG-OKMRR2EC1SHsvhq079czzKlwO_cBLdN6lsXjQ-gHYcwuHRV2FvnlOHVqUFSs_wUoYZI63ae9EH0Bfh6V0-HkZyHlu_wWP8QgAArlvFtslhWOcWG13tMFFeukMm72XyzgKH-U6-tVxHx_pA2Wo8hajaK5J6tkRcxxaIxMi3SE94cKq-l6ag1t9Ho8cYWr6ROHpbGP2A4IO254E8y8n-shzcT3t4hm9p"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Knee Arthroplasty\" \"Last Review\" site:aetna.com/cpb/medical/data/600_699/",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_1809",
+      "args": {
+       "query": "\"Knee Arthroplasty\" site:aetna.com/cpb/medical/data/600_699/"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Ev4BCvsBAWkUfRM9buCm-cslB9Tpu2EioXBkhYkwpTkq2hbvfqoaaq0wQ0oKGlNrEetcs5ATolCiHKen5en3__ywYf_NfQIhH4ocL9CTjSQi4qWQc3MSHvbPBzX4FGfD67GJBjvNkxMDT8tvr45yxfTgtiLF8s8H69TK-g_uNNJlhzjGhZmMapw4oY5FcbYGKMRx1jnTYKlo5w1GXBop98fGeJUhGbG47BU5L5zVdgUCFX5zF3_hdfWhd56xG1yMW8GCeIeWT1Fq9dWihir9Lc5d1GBgO7QG5wLMVAXaG2VQQ0gWrL-S7KrAeh48V2aPcVCxYUeMZrXhPl3N5cvJqyM="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Knee Arthroplasty\" site:aetna.com/cpb/medical/data/600_699/",
+        "results": [
+         {
+          "title": "Knee Arthroplasty - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0660.html",
+          "snippet": "Unicompartmental knee arthroplasty using Food and Drug Administration (FDA)-approved devices is considered <strong>medically necessary for members with advanced osteoarthritis or post-traumatic arthritis of the knee affecting only a single compartment (medial, lateral or patellofemoral), and who meet</strong> ..."
+         },
+         {
+          "title": "Knee Arthroscopy / Osteoarthritis of the Knee - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0673.html",
+          "snippet": "In a review on surgical options for patients with OA of the knee, L\u00fctzner and colleagues(2009) stated that surgical treatments for knee OA include arthroscopy, osteotomy and knee arthroplasty; determining which of these procedures is most appropriate will depend on several factors, including the location and severity of OA damage, patient characteristics and risk factors."
+         },
+         {
+          "title": "Osteochondral Autografts (Mosaicplasty, OATS) - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0637.html",
+          "snippet": "Mosaicplasty consists of removing small osteochondral cylinders from low weight bearing surfaces of the affected joint or another joint in the same individual and transplanting them in a mosaic-like formation into focal chondral or osteochondral defects in the knee."
+         },
+         {
+          "title": "Electrical Stimulation for Nausea, Vomiting, Motion Sickness and Other Selected Indications - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0676.html",
+          "snippet": "Li and colleagues (2019) noted that total knee arthroplasty (TKA) is an optimal option for patients with middle-to-end-stage knee osteoarthritis (OA). However, the management of post-operative acute pain remains inefficient; TEAS is a non-pharmacological method to manage post-operative acute pain."
+         },
+         {
+          "title": "Anesthetic and Antiemetic Infusion Pumps - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0607.html",
+          "snippet": "Nechleba et al (2005) examined the effectiveness of local, continuous infusion of bupivacaine for pain control following total knee arthroplasty. A total of 11 men and 19 women with an average age of 65 years (range of 43 to 83 years) randomly received either 0.25 % bupivacaine or normal saline by local infusion pump."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_1686",
+      "args": {
+       "query": "site:aetna.com/cpb/medical/data/600_699/0660.html \"2024\" OR \"2025\" OR \"2026\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Et8DCtwDAWkUfRPhb55edjXgl58C1SYD1CRVdGh1vFKqXCYQzS1oKauhEQ3pI7MNlR3-mFK9SP9BhBD_0ZjO7hTDBtwomPqTbKwB7gDcBoPJnPoiMcSHO54W8O5Lwftze-WTJVKWPfZJVy6bbj8AiLCCGJrSZ8CvBE1Yx2YcdTgBf45rwbzUyU-r4IRCd7f3fjSnteuQbWqlUcgg2ZQw6KM_5_655hBy9iRaAy8XUwVoyUNmNCvQszLsegNRAW4d7qBwIxguqegiEVPxZ-lam0eEjIbr0VDnRzTIpF3viYUClse3VE6amnFgaiuD4P7g3-rRC-LJqBG2pl0rRwfONlj-bzEm804yzSTPuK8tfsfAyazXEEgQTM6n95eq3ZSIdm5fnM4Fbu4F76gOxUsfbNU1DeFh8_8ER7_eQ6hqjEPpQ37UcCspe8OEjajZH-kDtvAJES3pfeN8dXU2TYwZTg8hN_6pwCsdNwRbRFG6BlwuM1xI3uZ9CIkQoTvCrPrPMorhP7FFuAKYXJ9T__ynhKvnz5libKHSDv_X9Qzj1uIU3a6FtAZCQz6RMhwJ2993Qnyc0NDyGx4iGN29I5mvYRCUFcLUnmoDqY3yf0PH8u8yYukqueEKqoX89dn3E8MvxXQ="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:aetna.com/cpb/medical/data/600_699/0660.html \"2024\" OR \"2025\" OR \"2026\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_1893382",
+      "args": {
+       "query": "site:aetna.com \"0660\" \"2024\" OR \"2025\" OR \"2026\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtsCCtgCAWkUfROOHFH5mwsSQGOrMvQ00bwbeZllarQzeMY70A8MjeT6cCkrLP3hmX8B5HneHjQdQhRPSztiaP6rT_As_27Qc1GTSSuDYUqV_dhr3gJMY--5zDTmwqlxpm_GGOKqPa2giNt5Wx3aCQJINJ2lBPsSPo91z7Pn0J00E32SWkGBcxHxWLXIxshrqojr_RXmVBQs8m8jq6_KORo5GSMRVX-wjEuA5bCyJJb6CL6YoMUicq3NMlgFrhruYY8-z9N3RDZFi9mYYhQtH9T-V09EPHeN4dPqOzBUt2xtDcv573LHetHZnhrda_jIQT1tIvMfupf8bhenCnkfuLzldQx_2NNJbhNcqo-_rAXfAwLz7XNAcYUTZXQPZKq72XrXc7gf0PLZ27jM6IAKpR4xiDY8BkfxCF2tKToBemmM3jLFLEPtxunw75WSfZk1TYJiq-FBipSbcnBD1a8="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:aetna.com \"0660\" \"2024\" OR \"2025\" OR \"2026\"",
+        "results": [
+         {
+          "title": "Precertification Lists for Medicare & Commercial Plans | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/precertification/precertification-lists.html",
+          "snippet": "2026 precertification list \u2013 updated September 1, 2026 (PDF) 2025 behavioral health precertification list \u2013 updated August 1, 2024 (PDF)"
+         },
+         {
+          "title": "Y0001_H1608_075_PR60_ANOC25_M OMB Approval 0938-1051 (Expires: August 31, 2026)",
+          "url": "https://www.aetna.com/medicare/documents/individual/2025/anoc/Y0001_H1608_075_PR60_ANOC2025_M.pdf",
+          "snippet": "<strong>Starting in 2025, we can immediately replace original biological products with certain biosimilars</strong>."
+         },
+         {
+          "title": "North Carolina State Health Plan network info for providers | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/north-carolina-state-health-plan.html",
+          "snippet": "<strong>Beginning January 1, 2025, Aetna\u00ae will administer the North Carolina State Health Plan network, and members will need to re-choose a primary care provider (PCP) in the fall of 2024</strong>. Find information to help you get ready and stay updated."
+         },
+         {
+          "title": "Y0001_H3146_006_HP68_EOC2025_C",
+          "url": "https://www.aetna.com/medicare/documents/individual/2025/eoc/Y0001_H3146_006_HP68_EOC2025_C.pdf",
+          "snippet": "Y0001_H3146_006_HP68_EOC2025_C \u00b7 OMB Approval 0938-1051 (<strong>Expires: August 31, 2026)</strong>"
+         },
+         {
+          "title": "Y0001_H5521_355_PA26_ANOC25_M OMB Approval 0938-1051 (Expires: August 31, 2026)",
+          "url": "https://www.aetna.com/medicare/documents/individual/2025/anoc/Y0001_H5521_355_PA26_ANOC2025_M.pdf",
+          "snippet": "www.medicare.gov/plan-compare website or review the list in the back of your Medicare &amp; You 2025 \u00b7 handbook. For additional support, contact your State Health Insurance Assistance Program (SHIP) to ... If you don\u2019t join another plan by December 7, 2024, you will stay in Aetna Medicare Eagle (PPO)."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_667601",
+      "args": {
+       "query": "\"Last Review\" \"Knee Arthroplasty\" \"Aetna\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvoDCvcDAWkUfRMwHQtEe5BVogK83L9QUfN-wGNxXPlDPDEKWASAy3azX3sxZkOUqkg7i13S7tu2qJXf_sL_gm1Sn8d5X31a0UXBSLDXfyaN5t2zZIFygA5tMLvT8QMG3PZ91iunHCRi0cCrU_1UNOxjEwvDD5_eXeDXQ7_u8vnnIWhi745RuSXagQ3o62i-ZdIhH2f_58g_nZz9M9gZXKMpWJV62dHhfiW7xJxsz__vPTjsFIni1HJ21qDMTyAbNlNWycicFqFAM9bxOgEcYJBAZFEokjfC3di8cCscQ1nSIaGCypwZnM3w49OMZsXIpBCVnLBdQ2fjg6MQo3v994FVUSzR-OQ3OLTsEy8Rz-Sn02bJ7J_xL9Cxx0b1NIQzuJDDOOS6ZQlAhZ5R2GmqH4Fu8fNy4nTBD7pSCz0Mo6eazvyVlyZJfBHqyX9Cpg0ocwUeDFILNqun4kMNs7Qdc02CbWYtpP_2ANrU4nRx0h9E46qXpy8LdN57mDg-2a_Pp9aglFRnNM-dmX501ZDmy-HfHsvVT8-79SieiQMj58VFJClC0gEdyGrcoQMP3QkUR0O5aXrWfTf9xYPYO8wEPtlvBq5Q9i_OxTbbdk0NGo0g_FGoBYMc2YDa93yR6pLfQKi6W3QKObm-Qdvd9QBT8VpzhQgdy6jQ3KVW4iM="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Last Review\" \"Knee Arthroplasty\" \"Aetna\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_1557027",
+      "args": {
+       "query": "\"Next Review\" \"0660\" OR \"Effective\" \"0660\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqkECqYEAWkUfRPcD16CM4CrcDz4ZkB-gkUjDQQxA2AX0D08SE86OCnePNEqP4VrX-32o-dLmaEzU-ZFZ9BPurvASoE_lO4dJiDrHKaCviWHXIoUwWz5fZXvtF33YLdcVIL4bY2BLICVC0SE93bpDpY8FieAwAioYf27ASHNE4C8Q1Vwbnh4Ci5mcU11C0v8nlIgA0sUGZG0dx2wWpfg4-EO0U0c_TECANndKcjTCiTcxIMvcXtkiVLXlAz5b6OgNqQxPYZdnX67m-oHJvZfuG35ELoH1PsF145g2znM30QYsUc0uIxsXubIYVLSXdr6yd-A3AVa3MwIVX5qQsDCOgqfTHf_7yAEG2iocgkyXk8P4Q418PnyCxUWS5A7yVpcLVamPS7718n_5cB6btHo-wwRNOFXZ-TPPjaR-uriZKaIhShwKKpn5rGyu1eJDnMmoBp6ZEjqVl1FRK6dFhn5zoDZmUkGK0iupIeGjUgyi1uEyj4XiMVqGp0wH3Fx2Rxbsh16Z5SZCg5ioGVHOykoybfUSCk6soRc67ZH19ASI3xzJMGSJ_X6J11r-McJbdSs0NKWFEPbCY5GI7NQ4V11oHVbf-nBVTkR44UgsLENrF0C4hgvmpPbJkqqwLtPCKf1ITxFmz4jHVGGgPxli8MtfgXJohIfwt4gBQE1VzbyZSMZ0rX7XTpJOhVo2hTrRuKl8Fw2Sif1QU3DnnEZrjUeg8nzhKu8fh4fpnABAA=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Next Review\" \"0660\" OR \"Effective\" \"0660\"",
+        "results": [
+         {
+          "title": "53624",
+          "url": "https://www.govinfo.gov/content/pkg/FR-2000-09-05/pdf/00-22630.pdf",
+          "snippet": "DATES: Effective <strong>November 6, 2000.</strong> FOR FURTHER INFORMATION CONTACT: Audrey Bashkin, Attorney, Auctions \u00b7 and Industry Analysis Division, Wireless Telecommunications Bureau, at (202) 418\u20130660. SUPPLEMENTARY INFORMATION: This is a \u00b7 summary of a Sixth Report and Order \u00b7"
+         },
+         {
+          "title": "BEFORE THE ILLINOIS POLLUTION CONTROL BOARD IN THE MATTER OF: )",
+          "url": "https://pcb.illinois.gov/documents/dsweb/Get/Document-94655/AG%20Responses%20R14-10.pdf",
+          "snippet": "effective on <strong>October 19, 2015</strong> (80 Fed Reg. 37988-89 (July 2, 2015))."
+         }
+        ],
+        "result_count": 2,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_184557",
+      "args": {
+       "query": "\"0660\" \"Aetna\" \"Effective\" OR \"Review\" OR \"Revised\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EowICokIAWkUfRN2mPVFSpQasyInu2keQqwQ7TqV8DXUBuNQ1UEEmBmM3M3jSSeG3c5vKEWbuI12co9Zu3fu1n0DXzXRSrv0DrJIr-bqyZzOKMcIWQtPcYm5yc2trAhAKdFmz0uJHj3VItqZxiKgf-MGPw52tqnK1rfqheaBLvsJIxdMuGJu_7sKVg5Q6yvsJ47KYtD8BMneDGetLJVPIPTeQH70o9fn3-_Ir2CUyikoe0qUTb4YoqkaZErbqRGiib96cXHH8tRP6eRpSYzHg3RFPFk_JdNu7_lj8A0aG20Uxptd9KrvQfdEVhO_gKU9XFkV3QoTNXU7ki6S6D-3HQaoGRdqtLGu34CIi5_8j3uIdG3mYyVpAtXJDXOHBlTve0rPzy3A9ILUaqQzChcbYqkF3TKGIK8UyOOrdqodMfJABhDMHYUZkbkjHQ1mNdI2wcoUHaHOrkpThvuOxqg1GySju1QMa1Apow5ZfNo_DXrKnqj0O2Fk0YVrwp_LzLAtgAKV2r8wJau7iXJCW3hfP-ZnrvWbD0c1uAvMg3Da_ahEx9FQx5Kdg4IO8EorX18MFZSK4bnqwjDcUK5pdZkfIjMVZCKxoZfqrzlbZUnzpP2NmhN7SQsIQFLjXGbNk7pxEUj1vtRgO6QjfH1pKyyxX19eBUcz_ugjJ2sCjskeb8GB_p_YtGfaNb0RgaGs0zHv8bgUNJG5Ex-roj1kcztrer_fy3gW38L5ccZDL3hyBG4LePCCGSz6fJVh7sw0HlXPJ1nYLfJtEIDWucojWHp2nYMi4sDoo-8DZNZgz53rxSh_Fol2cBRKyQsg6kJLH3r-ttUoXmtUsyIZwunTqfPK3J0GQLWupzR1wlY5NgtDNxlSNgDWxRDPbJMNUG9yWahsl-7MKMsutGNq3nz7LHsAzGjAlPX4emOBi2NC4au8m0RAWVjv4mdNfZx8deFX4Xdbwhik5KHuebd5Vrrsb-Cj04-XFGc2uS3UMwWO8S3WtfekCkXadr5VTndNjJkyZkioXQsXwzBjlBGgTO6GtkzRXDE13EjBlkVIOOij8isNWyouji5ND39syLDNuVkaGkk8L1gt8ujSi_c0E1shJ6dhvOMJi83ssOjvf_Hl146wnXo16SRCjqP2ISy9x2V0FrS8lI7lpmVn9kK5-RWnYVnEMRHBZvtTXNaoN1HDKapQLj70RS5VsETCHFs7YiiTO96LSnvE1dJVSp-Ko5D_0pNQFmpW8MB3dbM45tz_PDC06dJkSPoCCPhJfaIIWJZsSSMHa9shnyr-dQf26e6SybLmvLfhaStCN_1JisUPI9ZE4YCkf5ze-bUi8DI2tWskhRsBNAi3PubR1zpT0wgGBvv5bYnp54dDucG2dZ19u3coIw=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"0660\" \"Aetna\" \"Effective\" OR \"Review\" OR \"Revised\"",
+        "results": [
+         {
+          "title": "Polymerase Chain Reaction Testing: Selected Indications - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0650.html",
+          "snippet": "The weak amoebic reduction was ... AK, but it was not associated with any risk for refractoriness. The authors concluded that <strong>real-time PCR was effective in detecting and managing AK</strong>...."
+         },
+         {
+          "title": "Medical clinical policy bulletins \u2013 Health care professionals | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/clinical-policy-bulletins/medical-clinical-policy-bulletins.html",
+          "snippet": "Explore the medical clinical policy bulletins that Aetna uses to decide which services and procedures we will cover."
+         },
+         {
+          "title": "Retrospective review \u2013 Health Care Professionals | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/utilization-management/retrospective-review.html",
+          "snippet": "Learn about Aetna\u2019s retrospective review process for determining coverage after treatment has been already been provided."
+         },
+         {
+          "title": "Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/disclaimer/additionalInfo/additionalinfo.html",
+          "snippet": "CPBs include references to standard HIPAA compliant code sets to assist with search functions and to facilitate billing and payment for covered services. New and revised codes are added to the CPBs as they are updated. When billing, you must use the most appropriate code as of the effective date ..."
+         },
+         {
+          "title": "September 2026 OfficeLink Updates\u2122",
+          "url": "https://www.aetna.com/content/dam/aetna/pdfs/olu/officelink-updates-september-2026-olu.pdf",
+          "snippet": "The effective date has been changed to <strong>September 1, 2026</strong>."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_89955",
+      "args": {
+       "query": "\"Clinical Policy Bulletin\" \"0660\" \"Knee Arthroplasty\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EoQFCoEFAWkUfRNmo0K6SYKx5qGWtObg_1V9zy8OxkslBh_OOY0IB5IHHk7pj63HJ4RMwwRJHz6qiZR5zbbg7iqPQEKw8jutZulEDGB6eKX5AmTg1jTgzMeD32nLjUZ9_FMoXqt8n_E2Y609VECBWBMa3jEduVlJU5aTh1Sh6-q6GiKFZruA__65iosQVUI4RWwBtC8-WWQB5dWDfYMtLmIVvU538RhQaMH6ERJ7MtWqeuBL_fsYSIhQlvj2EOZwsKUNoYHSvCQCOgEg23xbdYDa9drWGvhelTci0QVdLPNzHx1t2v2HljGalwo79GToNU9wvw1aeujx9EAaa6N5WY84mSVphDuSKwKr3EJvPLlelsG0BvYpt1sPVPC-80nbfB51rwDLEpDrqSJmskzQVFhRl4gp1ODhkCYprtdkPxhGhql9kl9EK3_QsMIlC0PHzEYPJmks3jRKrriI5JNyegPKYnNECQuxep1FkJhrWTpd1lFYDBqJVv56uH9h1grd2tJdKHPN1i4Eg_JSutzZ4zA9Za5-QO2jBPqPk4sMXNRbey8P3aik2IdYv962BFT45gY7OAMIys70AIdUzEErprzIUovpUk1hXz9lqz80zMSRDt0wbBZSF1un1pCYMyNl8x_Q-B98Yn9qDcL7_rmg9yispTSRThs7l_xYfRgF_Jovlc0JJ95oO-FieQL5LIpX0HZX4YlJnL8AWJDZ4sGaFWFjT4jcq9wFlpnvMBeznHJuqW4imQeW0C5BkLe_Or5m30A-qK1vEc_HxuFtcP76x4zgkfeXHDCkmfkHkQsA2ia4ALJSsZc_R1Qxf7WOYBxeqp5K9-c2-cKxnEAWOmXOLeGhnHBEDiA="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Clinical Policy Bulletin\" \"0660\" \"Knee Arthroplasty\"",
+        "results": [
+         {
+          "title": "Knee Arthroplasty - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0660.html",
+          "snippet": "Number: 0660 \u00b7 Policy Applicable CPT / HCPCS / ICD-10 Codes Background References \u00b7 This Clinical Policy Bulletin <strong>addresses knee arthroplasty</strong>. Note: Precertification may be required for select procedures and interventions. Use the CPT code search tool to see if precertification is required."
+         },
+         {
+          "title": "Knee Arthroscopy / Osteoarthritis of the Knee - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0673.html",
+          "snippet": "CPB 0660 - Knee Arthroplasty \u00b7 CPB 0784 - Blood Product Injections for Selected Indications \u00b7 Osteoarthritis (OA) is a non-inflammatory degenerative joint disease that occurs mainly in middle-aged and older individuals. Osteoarthritis of the knee occurs when the elastoviscous properties of the synovial fluid in the knee joint becomes diminished, resulting in less protection and shock absorption."
+         },
+         {
+          "title": "Menaflex - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0786.html",
+          "snippet": "CPB 0660 - Knee Arthroplasty \u00b7 CPB 0673 - Osteoarthritis of the Knee: Selected Treatments \u00b7 The menisci of the knee are semi-lunar fibrocartilaginous structures critical in load bearing, shock absorption, stability, and lubrication. Loss of meniscal tissue can lead to pain, decreased function and activity."
+         },
+         {
+          "title": "Viscosupplementation - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/100_199/0179.html",
+          "snippet": "CPB 0660 - Knee Arthroplasty \u00b7 CPB 0673 - Knee Arthroscopy / Osteoarthritis of the Knee \u00b7 CPB 0784 - Blood Product Injections for Selected Indications \u00b7 CPB 0952 - Ultrasound Guidance \u2013 Selected Indications \u00b7 For the use of extended-release triamcinolone acetonide injectable suspension (Zilretta) in the treatment of knee osteoarthritis, see CPB 0673 - Osteoarthritis of the Knee: Selected Treatments."
+         },
+         {
+          "title": "Joint Resurfacing - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://es.aetna.com/cpb/medical/data/600_699/0661.html",
+          "snippet": "CPB 0287 - Hip Arthroplasty \u00b7 CPB 0660 - Knee Arthroplasty \u00b7 <strong>Joint resurfacing arthroplasty, specifically hip resurfacing arthroplasty (HRA), may be considered as an alternative to conventional total hip replacement (THR).</strong> HRA does not remove the femoral head and neck or bone from the femur ..."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_1034913",
+      "args": {
+       "query": "\"Next Review\" \"0660\" \"Aetna\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EssICsgIAWkUfRPIc0N1iUAkNxdo9oyYxsMn8BEvA7JkRc6jROz_lXWKzY54g0lkGor962xJo8dcSLbcf1Pe-ppqbHRZfsiN6BiAQHFrS3so9y0hfKJtl2qifigfgljTfYANUBYNZxIcHhHV_KI-98ovLlnWHEaLH6FDPqYLhMAd_7gSrh5qTDnroCHp2kRQ6DcxWY6ia0XV0fs6HMqxt5EUF_DbyDR9yXIJy2IgAUJbFso0yDto_Qdzeca-PQTbtdnPdiCAlpbvPmgJV9pUqoQjC3LlUZjO3K9jdexeuMaUcT70R7B60Rfa3dOg3Xf6hgAvpmAeAl_bMERRrokA6Dq2fBujEj5tfTbmAXnBBEkFXMdgtw3JEYQRAz1SnKfMFqP5n_oZB-cCcobzhfWGDiZ9ckvHRR9wumku4NFpgWhE8Bk6kn90U5B11z1lnro_PxUDgGObURBSznQA791sIWjTonKnlg29onR7G-eIgAZpATtbKeIpaNNDktRB938LUGQrsPP4y7bWtX_3Y5arjEWEvfSAfJwXAYzFCAkMwlLReWJ0mtTFoNV_EkQ-74clX9gQ8JefgvDMwIjNSugMsu4XwxpAM9PgvsmUP-oYAFrNkSQVTkKRv-t5f6xNU9z_-a2i55yxZgWOwM_82kDGTe1qlMoez414jISW49GtruhNzqHQfUV8LyT0EmnDhPIyJt0D_n_uPASIivQKKLiMAG17giKJo4zMrsSW5lB2EC9wpIFbC0Xv1I7xyCx7tcC_nt_qt85NhY9ti4PqITBXlSGdv6N4VT7oRoN07NOoqqCHGH9OEEpDJE4Yc-Z2IgvzESSUyJdMzBbTdP6To-wKxFGDcCCqfMN4FEnn5Q2iQgaoiaOXU7wt38oAJUGA_TI6Ig3aEyn5jgBrTLMiGUX-apyyNNNiN_6rTsnfW2_WsU3KCs7f51RHzB1tftNQWlU8Z9QtNaIYigjD95DEqAcNAD_K_z5si00RXaewtkO8BvObikZLq-5ZWvIP4quL_9uZORAr1WocVes_X_cOCxlEiV1R8-YH-UNNDVbX19SNgXAKsCkG8e_FjjW9lN14ay8KUhi7gpTYDUAUeZqktOm6HMVvISTdNWhNrZy3vVyqm7CHy0Ma3dD7kg5FnrT3vRiu0O685WVnyI_VrXZH7em4zVh1S0h45T5rgUCNcqcMS4DbjSV-qbRpGQaOypL2l7LJnNzPE4osjiBxAYDbNZZo58i4idecpan6e90y4Epyfgq4QpJlTlbkBfSHlgzElEMI9BRFpjEcK3t20b_WMskyVhm2_ppCNwnNOp9C3E49qVsPpRP62AkwPWeapMxEnono_9UKIpzGZ1C3zxHF8kaKX22CwXd9XpWQG0YjdK4LPwAHcRMV6gYOuOvlk7M13g8ubAV2ckJ1RbKBxqIQsWQpkV30FJpMxaUaDZHSFXcn_EC620em6GF8Kl0rKwJ5lg=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Next Review\" \"0660\" \"Aetna\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_7855",
+      "args": {
+       "query": "site:aetna.com \"0659\" \"Next Review\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "ErcICrQIAWkUfRN1a939TjSe0rqee1vKjRFbfXqDdZig6obxA0RZULW06MaFm2en6xnxndvFWfzDTcDZ4__ulHg5EGTQJgabTs7IWIVS30zmEylu2jYqgtfZAPiwvKbP0Reawf_bgHWAISeqU-s57r5VVEaR0I-x9SQh-oPBXhDvN6knWlUdQy1GeW3xUePVTQ5X6nKfZUp-vZvs6PysdOPEDshmFzi0AEHuc6_tEXj6PPnV7_6OmcsXi-XA1nX-BxqM9DAOy067-YghWicPI8QRf0WBBXHH_m8epyUpDxadqfuom2nQBvhw4UyENPKzEsv9y_3Kmiz5dcovFNERELdVpNGFcFWQaBUv7hzUm2SbvcpijeijXrlrhcUz-EOmvNz9O2uR8u-BsA9UcSdqKGiiS1dqERQ8V_XH5s77AK_li0P0e-yJOB7hfSXX51dDHAcvjGbeT2XMYRZI1fmZw9hiXIQvIg0nsZxyp33g0k9p5ywM19orP4ZtrfvRe9IBaP89Y7AupFwy_n5M3Vxqn-rU2h0CQdEYUWTrlG3EbAvgWsnr-tFutyJf6EXtYucr-OMNVXYw7xBZqBOU5OoSiIRX7ivnALh9EZwHYZ0q6b3E1EZYTN_3LffL-K0Khq7BOHI6yYOflFR7kjgR4YA0H_JTThuypwq4A01_WQk8PGUMNP2roNyZHAJ-hTEZ-R1ejc2LwP0IJoBBHAQB7rRqj5xh-4cpJoxusMUrtsp94KchPi1NUnjgcD8HNML_GiyAN8kLhDWjNsqxACKoFg9e4pl_oh2r46o0NF7BMegr8p7R1VbYtKz7_H2kgHVCztCP_za4PpsgPbY6Grr2f6PEDhCV_8ee82SyAGtaW3MpQrVK9uTe_DCQhCW-sTwfH90JW1Po3R7TZwGk8MxVGYMG30Qg_ZjKp8jRxQE_o5-Jj_zrXEW7bmci74S1hmtduOnNNYChc_R5uFWxFP-_cIiuHWv2abzB-yvVqY4hPtTH58P9a6NW4g72fk53zHmkLb0GdNxbggmLw6w56254FLXicqcZ-GDa1DMmwBwp0KTKQ1cDQdqwuJ1_1Ln9mmMg8wxphYxl-_Keu7wYd9KujwZkS4Wpw0A3IrEEQBu7P7vPvYeJh1D9_RlBsqIGlv1C0pG6n19b8GpnKOhESyzM9XJmdUJLQMYyvZRQDYGpsn9XElCPMlRedYhK3LrSbDA85jkQyhEMH_l7ibxQ4Cvbnd_Eb4pvQ3Su-ze_wA1o8bLofe1eewaOa0J_E5okZfcADwlkcIVmN_AQuKBe4kLynecMtdXQmhMx5KGWJL26d2nCtSF5Vpdavctg2tpT7v4YBxeeTCTBz_JKQXuHCb_8BVrAAfPv-BhHNOc0aaKMte9ZdgiJtQ9j-bpP52IHj5gyStmMgDk7yFF2WcDRsbx79GXjILY9apoW7OiQagY="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:aetna.com \"0659\" \"Next Review\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_26650",
+      "args": {
+       "query": "\"Clinical Policy Bulletin\" \"0660\" OR \"0660\" \"Aetna\" \"Knee Arthroplasty\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Es8ECswEAWkUfRP_QUlyX3KztlcxEXSH9542pqv8S8DNzmf13dTi8P1nr6ksFBf9V5UMkd32QX-GrDPFpM96fr6Qshc4w-b9xNXPyN8As5uUFZi41Fsrw63epew2Ygh_rseQGPanfRlaehRnT_p1YBdW6jsI0kpoUNKrgGFC8eaqbPB6gHts94Sh_gW3PikpWKmsGWKz9DBqZjjxr5LnPvcGoy56MT8sO7Enc3z-ptMvZh52CdKd1C35J_hFjPQ-fiVYWsl3msno8WKLVDbs3u1IuMMma8J9-07O2ZDZ0IKU0VedzWo8hDV_Nl7pTCXWHz6V4ZOcuSk9gMQmwZbKw4tEdcl8lorXcDOgwvANLNG4K_8I9TWq7ciXVyFS9x1ItQbHHiBgc_qET1C1ruhHAyx7di9KjidIR6De3IPZp1xnAqEXplKUvwbbrkA4X7NnXzCkhMWIEQAWDuoueh_ZJWTo1p4mAgN2vzHz7qvlYtG_HFb4LcxlOO_aoZdy6WYLN5vd7fg4pQeGdLWJg9AaAG4oBBz1ooKG9FI7CQQI2lAQIpWGsMktHpX5Gy8OD36PqTdWkMVom8IGlwbi9FdcDS44fBPcgWQVKnWpCGMWafD6ukLM9Q6rnWa1Q5tFDck28kgBfeFIzal7ThAJ3ryMDni-8d6D4VO6vZhzduezS02TyYXX0pBC6baaFV46iJeS3vRIAiT6htsuwx_kPIHtXIyjt8NZ8mmYkZrZpJtfEAFs2190oRWJ3XU13rGgrZkmiHe8v1jR8Ao_MOUOFfk1LLW_"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Clinical Policy Bulletin\" \"0660\" OR \"0660\" \"Aetna\" \"Knee Arthroplasty\"",
+        "results": [
+         {
+          "title": "Knee Arthroplasty - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0660.html",
+          "snippet": "While there is a possible risk of reduced or delayed care with any coverage criteria, Aetna believes that the benefits of these criteria \u2013 ensuring patients receive services that are appropriate, safe, and effective \u2013 substantially outweigh any clinical harms. This CPB is being used to supplement Medicare LCDs on knee arthroplasty (Total Joint (Hip/Knee) \u2013 LCD L33456, LCD L33618, LCD L36007, LCD L36039; Total Knee \u2013 LCD L36575, LCD L36577)."
+         },
+         {
+          "title": "Knee Arthroscopy / Osteoarthritis of the Knee - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0673.html",
+          "snippet": "CPB 0660 - Knee Arthroplasty \u00b7 CPB 0784 - Blood Product Injections for Selected Indications \u00b7 Osteoarthritis (OA) is a non-inflammatory degenerative joint disease that occurs mainly in middle-aged and older individuals. Osteoarthritis of the knee occurs when the elastoviscous properties of the synovial fluid in the knee joint becomes diminished, resulting in less protection and shock absorption."
+         },
+         {
+          "title": "Joint Resurfacing - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0661.html",
+          "snippet": "CPB 0287 - Hip Arthroplasty \u00b7 CPB 0660 - Knee Arthroplasty \u00b7 <strong>Joint resurfacing arthroplasty, specifically hip resurfacing arthroplasty (HRA), may be considered as an alternative to conventional total hip replacement (THR).</strong> HRA does not remove the femoral head and neck or bone from the femur ..."
+         },
+         {
+          "title": "Menaflex - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0786.html",
+          "snippet": "CPB 0660 - Knee Arthroplasty \u00b7 CPB 0673 - Osteoarthritis of the Knee: Selected Treatments \u00b7 The menisci of the knee are semi-lunar fibrocartilaginous structures critical in load bearing, shock absorption, stability, and lubrication. Loss of meniscal tissue can lead to pain, decreased function and activity."
+         },
+         {
+          "title": "Viscosupplementation - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/100_199/0179.html",
+          "snippet": "CPB 0660 - Knee Arthroplasty \u00b7 CPB 0673 - Knee Arthroscopy / Osteoarthritis of the Knee \u00b7 CPB 0784 - Blood Product Injections for Selected Indications \u00b7 CPB 0952 - Ultrasound Guidance \u2013 Selected Indications \u00b7 For the use of extended-release triamcinolone acetonide injectable suspension (Zilretta) in the treatment of knee osteoarthritis, see CPB 0673 - Osteoarthritis of the Knee: Selected Treatments."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_8566",
+      "args": {
+       "query": "\"CPB 0660\" \"effective\" OR \"date\" OR \"revised\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EscCCsQCAWkUfRMmjKzM1iftYHad1w7ttoTgCZoe42cawSF4qF5qg9iaV7JxbWz7vqZfyD1NAHPCggZVRwmOZVy7Z6DqqGbEuLYTLOfuoRQUfPPvZjJPKdJtxOsgoNqd-cXYuS7oECKcbEkMnM5EMWKebf__T7ExkqOVV2PgOo4TOXz1iZ1MntoqcrCytG0BnvFvUf0m7JEDRuaTWN8uWClFZ_3o0pqGTURcC3x3Emmsgx2UghVeHcITgHwEO7BstakrY0Vpp4cHjznB9o95NKLCK6RJn36h_VoW6fqmgcwTI8rS5yGSzgspuSIqfituBcXswNGmEvB1dwEEmKunRrMEtPxvi_yl8DP2i4git_CC8aadfaBrky5J77no6rh8KsEUym3xlKYfWavwuANlP2qVD-560mMX6iGVDOxup9ZMSoAsA4T7C9vj"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"CPB 0660\" \"effective\" OR \"date\" OR \"revised\"",
+        "results": [
+         {
+          "title": "February, 2026 (Revised) 1 RULES OF THE TENNESSEE ...",
+          "url": "https://publications.tnsosfiles.com/rules/0660/0660-history.pdf",
+          "snippet": "Chapter 0660-06 filed January 28, 1975; effective <strong>April 28, 1975</strong>."
+         },
+         {
+          "title": "Menaflex - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/700_799/0786.html",
+          "snippet": "Aetna considers the Menaflex device (previously known as the Collagen Meniscal Implant and the Collagen Scaffold device) experimental, investigational, or unproven for repair and reinforcement of the medial meniscus of the knee and all other indications because of insufficient evidence of its effectiveness. CPB 0009 - Orthopedic Casts, Braces and Splints \u00b7 CPB 0179 - Viscosupplementation \u00b7 CPB 0247 - Autologous Chondrocyte Implantation \u00b7 CPB 0364 - Allograft Transplants of the Extremities \u00b7 CPB 0545 - Electrothermal Arthroscopy \u00b7 CPB 0637 - Osteochondral Autografts (Mosaicplasty, OATS) CPB 0660 - Knee Arthroplasty \u00b7"
+         },
+         {
+          "title": "Federal Register, Volume 90 Issue 166 (Friday, August 29, 2025)",
+          "url": "https://www.govinfo.gov/content/pkg/FR-2025-08-29/html/2025-16641.htm",
+          "snippet": "64.1200(f)(9) that the Commission adopted in 2023. This action reinstates in the Commission&#x27;s rules the prior version of Sec. 64.1200(f)(9). <strong>Prior to the court&#x27;s mandate, the Commission had postponed the effective date of the revised rule and the revised rule had not gone into effect</strong>."
+         },
+         {
+          "title": "OMB CONTROL NUMBER: 0660-0037 EXPIRATION DATE: 12/31/2013",
+          "url": "https://www2.ntia.doc.gov/sites/default/files/grantees/36-42-b10567_new_york_city_of_ppr2012_q1.pdf",
+          "snippet": "OMB CONTROL NUMBER: 0660-0037 \u00b7 EXPIRATION DATE: <strong>12/31/2013</strong>"
+         },
+         {
+          "title": "Knee Arthroscopy / Osteoarthritis of the Knee - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0673.html",
+          "snippet": "CPB 0660 - Knee Arthroplasty \u00b7 CPB 0784 - Blood Product Injections for Selected Indications \u00b7 Osteoarthritis (OA) is a non-inflammatory degenerative joint disease that occurs mainly in middle-aged and older individuals. Osteoarthritis of the knee occurs when the elastoviscous properties of the synovial fluid in the knee joint becomes diminished, resulting in less protection and shock absorption."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_12100",
+      "args": {
+       "query": "Aetna member appeal submission address Massachusetts commercial plan"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Eu4CCusCAWkUfRO8GPkeqqwW5zT3K5DMiU-nE0QuU7UfjYqHJDyB_M2zJ20O1LXmlKWpXAsU24KNb6NrCoWRwr4E_APWUcjKtH-Cg41etR7-ez8kl5OITFZhiUcpvvXwNHkYU8z5iNofEMy9KEPivHA7vBZau62-dniTIbX1gDixH0LgK369jbbncrFf0oRaqKDJWvsVID4rKOd013dcXaRJ9lmUgVAlpdjgyl21Bn_KyGXm2yyxfppEcPMnQszwYzFajbltCccP_16Ljn_eYyceYQQWPRzgYwoLmyovRUDLv-tsk7mMHNs9m8MQeVithiFFanUX2sFpt2aE4txJhIzusGlBXFnrt9LK3je1P5xzymLgbPGjb0Mvy2xcc055uAjoL5w9WHB1W8UKoOU9Uz8mCoP_SzTvsxCFdHDFK4jYkSp6naPg3DZUpsq_WdPy3VkHgiNgbfmZ9AJ4ycl0hGo4hsMH4l-6r-PF3gZkC6ga"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Aetna member appeal submission address Massachusetts commercial plan",
+        "results": [
+         {
+          "title": "Disputes and appeals overview | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/disputes-appeals/disputes-appeals-overview.html",
+          "snippet": "In the event that a member disagrees with a coverage determination, Aetna provides its members with the right to appeal the decision. In addition, a member may have an opportunity for an independent external review of coverage denials based on medical necessity or regarding the experimental and investigational status when the service or supply in question for which the member is financially responsible is $500 or greater. However, applicable state mandates will take precedence with respect to fully insured plans and self-funded non-ERISA (e.g., government, school boards, church) plans."
+         },
+         {
+          "title": "1 Member Complaint and Appeal Form",
+          "url": "https://www.aetna.com/document-library/data/forms_library/68192.pdf",
+          "snippet": "the member ID card or submit a request in writing to the address"
+         },
+         {
+          "title": "Aetna Appeal Email: How Providers Submit Appeals in 2026 | Muni Health",
+          "url": "https://muni.health/blog/aetna-appeal-email-2026",
+          "snippet": "Aetna does not use a single national ... appeal \u2014 especially for commercial and self-funded plans \u2014 is <strong>printed on your Explanation of Benefits or denial letter</strong>...."
+         },
+         {
+          "title": "Disputes and appeals | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/disputes-appeals.html",
+          "snippet": "In the event that a member disagrees with a coverage determination, Aetna provides its members with the right to appeal the decision. In addition, a member may have an opportunity for an independent external review of coverage denials based on medical necessity or regarding the experimental and investigational status when the service or supply in question for which the member is financially responsible is $500 or greater. However, applicable state mandates will take precedence with respect to fully insured plans and self-funded non-ERISA (e.g., government, school boards, church) plans."
+         },
+         {
+          "title": "Practitioner and Provider Complaint and Appeal Request",
+          "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/healthcare-professionals/documents-forms/provider-complaint-appeal-request.pdf",
+          "snippet": "well as information that will support your appeal, which may include medical \u00b7 records, office notes, discharge summaries, lab records and/or member \u00b7 history (this is not an all-inclusive list) to the address listed on your"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_61415",
+      "args": {
+       "query": "\"68192.pdf\" Aetna OR address OR Massachusetts"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtUCCtICAWkUfRPvbRND7HCCOJfWbEk05bdX9YEfkjQeoytcJeB5O_oFIexTS8nZO5GTz2AQIn7CZi32FmeMa5E-bkan-1Ast6bTRQkjSfl57pqvjRnXK3Ns7JEXQWDU8DQIYUxrklTj-pWWJq8iPyIInbNS5_-NqFiojeXF7-MINRgA_9ZLQ0j5qFcL_x2JMcREDWO1wZeTm-8OOMs9tJEZEQHGfseDhaIEYwkfEcNqENZZT6jJHOnN72U_1daQUDiGRpjd7LAsqD5UscAa9VbpD_2EvrMsY1pxoUWThcyfAQ71RR26xBn1X24zVqQKhTcn7r5O9AZIlMisBXs4HsiFGZzhH7ZkCUR71TuZO2vUHQNqhxfH_fiKPfHmNamPkNCwp8Ey3PJLlUxhvdxuXj6KP9Vlv5o-RvlcQeVrdgoQX_8KZM2sK5cgPJWWrdkkYFOk7P25A1g="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"68192.pdf\" Aetna OR address OR Massachusetts",
+        "results": [
+         {
+          "title": "Massachusetts",
+          "url": "https://www.aetna.com/dsepublicContent/assets/html/content.html?resource=index-imp-info-ma",
+          "snippet": "Participating Provider Assistance: If you are unable to locate a participating network provider and assistance is required, please call the member services number located on your ID card \u00b7 Reporting Incorrect Information We regularly update our on-line provider directory."
+         },
+         {
+          "title": "1 Member Complaint and Appeal Form",
+          "url": "https://www.aetna.com/document-library/data/forms_library/68192.pdf",
+          "snippet": "the member ID card or submit a request in writing to the address"
+         },
+         {
+          "title": "Member Complaint and Appeal Form",
+          "url": "https://member.aetna.com/memberSecure/assets/pdfs/forms/68192.pdf",
+          "snippet": "the member ID card or submit a request in writing to the address"
+         },
+         {
+          "title": "Contact Us | Aetna",
+          "url": "https://www.aetna.com/about-us/contact-aetna.html",
+          "snippet": "Find the information you need to contact Aetna, including phone numbers, address, social networks, as well as customized options for members, employers, health care providers, and insurance agents and brokers."
+         },
+         {
+          "title": "2018-2026 Form Aetna GR-68192 - Blank Fillable Template | Fill Out, Print & Download PDF | pdfFiller",
+          "url": "https://aetna-form-gr-68192.pdffiller.com/",
+          "snippet": "Utilizing the aetna gr-68192 form helps ensure that members convey their concerns comprehensively, which is vital for successfully addressing issues related to healthcare services."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_40512",
+      "args": {
+       "query": "Aetna \"Member Complaint and Appeal Form\" address OR fax"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtYCCtMCAWkUfRP7wCapRGjBqRRFVjWkk4vZiYjTpTiWeRAt701Sa4rUsbVFgGx4o_aUZUpmgUqzRUD-lFRSy-oC6Jz_sR0Ar7FWgxKzTxXxcbNf5zckbchVvaLiB2L9RSy69LxbP8fWgAGhb0qTrVWq0Co_JYmSGnV_YIjmmqCUwhk2xV7xV1CJC08GT5dCVgEvNK5qEWG4-fuRmtDLzuDOAAUjlECZVX7nmRyjHe7gtOtYRpouhC704WQaEcl066Yl02w_vSCV0w9ecsrMV8yNqAEszZJvf-vQ2vV9aoaSZ98xJwNa1K4kiKNyDvI1gAzv9IhBdzttmsIWgE8chdyoHUm4Ue5aa3ZC0l4bmMH0qIFNp7OFKBiMvZ50CP7fZ0YZQqGuuqm9Ebn60WIwWf1HueX649Lb9pdJJQheZDp-RRNGDRFwJT_7NGFwsjOvETuWX6MD0AUX"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Aetna \"Member Complaint and Appeal Form\" address OR fax",
+        "results": [
+         {
+          "title": "1 Member Complaint and Appeal Form",
+          "url": "https://www.aetna.com/document-library/data/forms_library/68192.pdf",
+          "snippet": "Member Complaint and Appeal Form \u00b7 NOTE: Completion of this form is voluntary. To obtain a review, you or \u00b7 your authorized representative may also call our Member \u00b7 Services Department using the telephone number displayed on \u00b7 the member ID card or submit a request in writing to the address \u00b7"
+         },
+         {
+          "title": "Practitioner and Provider Complaint and Appeal Request",
+          "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/healthcare-professionals/documents-forms/provider-complaint-appeal-request.pdf",
+          "snippet": "Member\u2019s Birthdate (MM/DD/YYYY) Provider Name \u00b7 TIN/NPI \u00b7 Provider Group (if applicable) Contact Name and Title \u00b7 Contact Address (Where appeal/complaint resolution should be sent) Contact Phone \u00b7 Contact Fax \u00b7 Contact Email Address \u00b7 To help Aetna review and respond to your request, please provide the following information. (This information may be found on correspondence from Aetna.) You may use this form to appeal multiple dates of service for the same member."
+         },
+         {
+          "title": "How to File a Health Care Complaint, Grievance or Appeal | Aetna",
+          "url": "https://www.aetna.com/individuals-families/member-rights-resources/complaints-grievances-appeals.html",
+          "snippet": "If you have a non-Medicare plan, just click the button below to file your complaint. ... If you have a non-Medicare plan, you can print and complete a form to mail or fax to us. ... Find more information on the Medicare grievance process, and how to get help. ... The federal health care reform law includes rules about appeals, which many plans must follow."
+         },
+         {
+          "title": "Disputes and appeals overview | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/disputes-appeals/disputes-appeals-overview.html",
+          "snippet": "Refer to the member&#x27;s health plan benefits for details. What you&#x27;ll need to send How to send us the information What happens next How to check status ... Incomplete submissions may affect how your appeal is handled. ... For initial dispute, file online through the Availity provider website. Submit by mail or fax using the appropriate form, which can be found on the Forms for Health Care Professionals page."
+         },
+         {
+          "title": "File a Complaint or Appeal (for Providers) | Aetna Medicaid Texas",
+          "url": "https://www.aetnabetterhealth.com/texas/providers/complaint-appeal.html",
+          "snippet": "Aetna Better Health\u00ae of Texas ATTN: Complaints and Appeals Department P.O. Box 81040 5801 Postal Rd. Cleveland, OH 44181 \u00b7 You can file a complaint or send an appeal form (PDF) by fax to <strong>1-877-223-4580</strong>."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_12864",
+      "args": {
+       "query": "Aetna commercial appeal mailing address OR fax"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "ErkCCrYCAWkUfRMryfbNu5LJB9d3qt4BQKjhiadD96uwyVHM8asAlqKKFuWet_dSLRJXSa98ss82H0aDT5CK-G6AicxJ2Y7NiPq-D0Vp4X65YVO55Vytf3sejI8Gew_HxMs4NIbs3PyGCkN284PzwGKfuXnpxDWt0QcTd01i_1WXYK_Y-PFe_nu5SqdSoNPwcRgsVYJOC709_AJn3ntRBF93liWmZ0FlfmYmcg-Lc_IFjdZF6O-27VCin6Fs3wyoeDknUtWdxpEExVaWr5TUFUf0bpHqrKc2TYhnCfYa41K9jIU1vcVGNpDX10HNp5nlxaW4iIFYd-5726plJAKRm0hu-3j6hNwRCQrUcXzjZ56YKK2mDoPXLZ1wSAoLOiXFxiKnnHak4SJxkmOuuhw1S1e2N4TnNXXDXwuVEQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Aetna commercial appeal mailing address OR fax",
+        "results": [
+         {
+          "title": "Disputes and appeals overview | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/disputes-appeals/disputes-appeals-overview.html",
+          "snippet": "We&#x27;ll send a decision by mail or fax <strong>within 60 business days of receiving your appeal</strong> \u2014 or of receiving any additional information we request."
+         },
+         {
+          "title": "Practitioner and Provider Complaint and Appeal Request",
+          "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/healthcare-professionals/documents-forms/provider-complaint-appeal-request.pdf",
+          "snippet": "complaint and appeal form. You may mail your request to: Aetna-Provider Resolution Team \u00b7 <strong>PO Box 14020 \u00b7 Lexington, KY 40512 \u00b7 Or use our National Fax Number: 859-455-8650</strong> \u00b7"
+         },
+         {
+          "title": "Request for an Appeal of an Aetna Medicare Advantage ...",
+          "url": "https://www.aetna.com/content/dam/aetna/pdfs/wwwaetnamedicarecomSSL/group/2024/appeals/aetna_GRP_medicare_appeal_form.pdf",
+          "snippet": "have 60 calendar days from the date of your denial to ask us for an appeal. This form may be sent to \u00b7 us by mail or fax: Address: <strong>Aetna Medicare Appeals \u00b7 PO Box 14067 \u00b7 Lexington, KY 40512 \u00b7 Fax Number: 1-724-741-4953</strong> \u00b7 You may also ask us for an appeal through our website at ..."
+         },
+         {
+          "title": "Fax MEDICARE MEMBER PAYMENT APPEALS To: Aetna Medicare Payment Appeals Unit",
+          "url": "https://www.aetna.com/document-library/health-care-professionals/medicare-member-payment-appeal-post-service.pdf",
+          "snippet": "For a standard payment appeal, mail to: Aetna Medicare Appeals Unit \u00b7 P.O. Box 14067 \u00b7 Lexington, KY 40512 \u00b7 Standard appeal fax: <strong>724-741-4953</strong> \u00b7"
+         },
+         {
+          "title": "File a Complaint or Appeal (for Providers) | Aetna Medicaid Texas",
+          "url": "https://www.aetnabetterhealth.com/texas/providers/complaint-appeal.html",
+          "snippet": "You can file a complaint or send an appeal form (PDF) by mail to: Aetna Better Health\u00ae of Texas ATTN: Complaints and Appeals Department <strong>P.O. Box 81040 5801 Postal Rd. Cleveland, OH 44181 \u00b7 You can file a complaint or send an appeal form (PDF) by fax to 1-877-223-4580</strong>."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_74213",
+      "args": {
+       "query": "Aetna commercial \"appeals\" PO Box"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsEGCr4GAWkUfRNMqs_G-ThlJrjq3C1UPb081ki9Hd3lMAOMtywMPAlGFISMxSUMhQswVDlAorBQPkWF_TjY6s_inM9KKxIesv4b0N4FUAXYNNcHRTit-HWH1EH0-InOMF4Z9DCkzFphBrfl-Zbg6dzs7mGG4rNJNtyIdz8OQLPx6F2BD1w15r4m4YMcZyIbdMas0bJRfhkBipYR6efbR0jaMBrduWt6i-BRcF9i4EG2ivt6EEwQrMr3bbsAoJouuELVsXUK4cPrJD_5CVha_jnExraeHlcfX7mj9a4SgxLp-Y5A4fM_oqXHWxJN1O-h3RyQyyF6QZ7grayLbEueLoPpQRuu0YuSdeW5KCq758Ou6TsoSZQCJzmbgt0f0ULNUAtMDb9tUXlOKnMr5wpIVHeKuMrEdkzv9JrEWNDw1Oi8pAi6QvHh8rkYdDaR3ynzXyZXbvlSDgqeYhsg8JgAnChtI9Jz22IvDwEllMeutjMufX15FzqeZOdD2oPwAqbRWo1c29mPUfAeXGBVqB0RLblST9-mevBWKHHzlqXo77dzv3n0KpsFIovZUYguVrJChEfxRJvZlp60yG1J_u9QE0veW3ueUGgBb3Hbc3887gRU0pH8xwneyjp3AtmXJkTdTHEncHtzr5308BuC79a0VVxuN_oI72IQFuihz58WDAl10b3yQNHvIxlAtXQKvIYEhGSqFsOE_M8GK4cBBSgH3seAL8vGiWJsnS61O30M25mKRY54ROttESg4GE_Ff5I-YWc-FqOSCtZRtSRVEGjhzm2d7TAVE314KreRhTx0icJBDtRswZiIvXLrxS2mf3nKdBM-_rLXdc1NnTerB-kM_zxgsz2c-b6GxNKTbS8BKyopYZPFHsRXoAuHRcRAUuTQs2nKNb7fVyV4sGJL86hMOecDHHT--uN3CUUcgIaD4WllyQCfAd48lHs9wtIUJtHwPQGmw_J_2zXmpwfByRSkMOugmIqEiAjjktoF4l0O5NQ7RNnvzS-wPukR_Xc65e0cfipRPDYDUIxgBO5pp_PLs9QQ5NS52e-7O7u6djPFBluhm-Ebt0_u60XAnKudM_VstYItUZUbTXxFuHZ5zTkuf7svV8I="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Aetna commercial \"appeals\" PO Box",
+        "results": [
+         {
+          "title": "Medicare Provider Complaint and Appeal Request",
+          "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/data/forms_library/mcr-provider-complaint-appeal-request.pdf",
+          "snippet": "Medicare Provider Appeals \u00b7 <strong>PO Box 14835</strong> \u00b7 Lexington, KY 40512 \u00b7 Or Fax us at: 1-860-900-7995 \u00b7"
+         },
+         {
+          "title": "Disputes and appeals overview | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/disputes-appeals/disputes-appeals-overview.html",
+          "snippet": "Learn how to submit a reconsideration or appeal a claim decision. Find filing timeframes, required documents, and how to send your request."
+         },
+         {
+          "title": "Aetna Appeal Letter & Cover Letter Templates: 2026 Submission Guide | Muni Health",
+          "url": "https://muni.health/blog/aetna-appeal-letter-template-2026",
+          "snippet": "Send standard commercial appeals to: Provider Resolution Team, <strong>P.O. Box 14020, Lexington, KY 40512.</strong> Medicare Advantage appeals go to: Aetna Medicare Appeals, P.O. Box 14079, Lexington, KY 40512-4079."
+         },
+         {
+          "title": "File a Complaint or Appeal (for Providers) | Aetna Medicaid Texas",
+          "url": "https://www.aetnabetterhealth.com/texas/providers/complaint-appeal.html",
+          "snippet": "You can file a complaint or send ... an appeal form (PDF) by mail to: Aetna Better Health\u00ae of Texas ATTN: Complaints and Appeals Department <strong>P.O. Box 81040 5801 Postal Rd.</strong>..."
+         },
+         {
+          "title": "A Aetna Fax Number: 859-455-8650 \u27a2",
+          "url": "https://lakelandcare.com/sites/default/files/insurance/Lakeland-Aetna%202023%20Info%20Doc.pdf",
+          "snippet": "Send Commercial Appeals to: Provider Resolution Team \u00b7 <strong>PO Box 14020</strong> \u00b7 Lexington, KY 40512 \u00b7 or Fax: 859-455-8650 \u00b7 For full details on appeals process or copy of appeal forms please visit Aetna.com / providers / Dispute &amp; Appeals \u00b7 Overview. Aetna Commercial ID Card Example Aetna Medicare ..."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_3344",
+      "args": {
+       "query": "Aetna member appeal \"PO Box\" OR \"P.O. Box\" OR \"fax\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpkLCpYLAWkUfROY4PNBdMVlVrIo5-JRFbwzro5QSE8Ep5YGffhny-mMeO8LYi801H3J1hp9Wzmk2U7G1LNWi3-p6R5X57XzxmhASYoaZCizjqlKhPNGLfu0uIM4SqkGQQqhPHFKU2mNDTZDhbOxcLEVckpIcUeLOJ114sa3coq7lgPShUeZJuFouplPxu5FArM5rYeztIPGrxbNhLhtL1PgqPu1fkk3J5cVG842blosQ_-RIs6_QjF_GhC_flOwRZ5UwycE142KVQy1nVwQrwF17HYtCLB2eo19N-EUFem34CV1e4c0vKYPK22ZKePb5Z_CjmUjIK2BuG-VzyPMPBCdQoBLHUzkSX4YOahow6_63iHrn2PoF760qwBgLi-rNPMuThNxN5YEBHgwow0LOpyNVTHsruLGyDyGI4cWPV5RrI7YGEoHC0eAEapSzOrSRTEQMkYetmfDOAA6XKG_3LNZkoi7LSh0_7w1SwfK7ozq6LMbxXrZA9_YQj9gcaZA7A3ZDHs0ui8FC3TCXwJCqoBqQgiEFFmRtIyIg6ClZ0uB1XUA3jHa6XdlACEQxhIickmxYi6AGF0ajblrul1OBlNJnFAUOti4aSQ3aoCDj5LBr80ixTFhJEoemwgl-FXmBMEHEs8ds6WQb9XBD92n2GM9fLb9-_V8Hi2Um9xUfImybC2pAMNEsD7amPOWBFBVZrWoajeFHaIJZYDkwHIphlzIHLHoRtfIwZEQr2nSyUNHbS-IH7Qvsy2lDVb-5CECUsjVu_sPZEDWhjR5Ep_s2BbN7G5mQCybZec98vwz2ENqlu2VJW9lUJISn9bn6Nd6kO-liWZ14JdF_EebxMHmHI5aw6CD7PucD26dWHRgMPSRmu_gVwSunu8a0iqvRNxRrE7pIpIsXnX5LUX4lSsP1Kouq9lSs5KUE09ruCYYusoKb36KeIdig8OmpeeKji4ajidnGS0rXRz16bUlg_Z4Y-gGPN3dEhNlSFN7ReFFJOMiHz2WN-zTjAtL4a_epmmto4pjsbTlEWEVF9VwSY73h279vl-flQcqxM-_m1R4g0MUn4ijRWsApvM_-IyKwBiGnrSX867QoyRAEdQz39GX5p9YdWKknY8W7Ht3pk4-CnkLmEMI3E5Y96nvVjjxbUPGO0dwILwYH7aksvOx3eCX6cRro7whv_-taaTfijNa4BUnAG8IdS822hyGEgb3VcGAh7sc3JcdbMRlEM-4KwcEUFsaLGLPbFwTnIaWRHZbklrfCZ_-TeanzA-8NUm3fuT6CARDea0RUKwzSACtT-ymNPXrwLS2_JojxXX6bgHudFcwVEe5ZAbNJv38GikGGPrmCLyh3pzV38bKNGdiiVvUA3zGyrs5VVxoSw6hmuU6j35s_Iz324FIRxmtjk4AqvuPaXlmyB4_ze3MivsV7m1OUMiy2tGW9DYs95gQ3U6qOYWZHv9uOD5JsHqZwx37sJ8y2wF1lgs05XxsvYgu7PGTRq_xDGRX5XVSS0hNye7MebtrnuXOOrYdm7614LOZ3C0fRpKpG-cGzhD8EW9ziDs_ZJXchXIvckhL1XwAeBVQerTW5NIRMi9aomGlseBrImSVn7iY2pl_6n-no4_yWEexkD63w6NBFkskmDi83f8HdHiTTWTczPJihWHkGFibtP4XpEGXP7Uis76bO5PB_y4YJqi4C8I9vAJyuHKPnpAjR3wWkJ3u-Jsj8L7jXIEz51tw9I5UA8hjefwR0bfAKOR_dBzGunvYaqRnSGzivnAS_0Oe7d9K9TdAskYuSU_1VFrElwvjdz4JvoEO7gCuyHB4DB8-43vd9q-17kVxXZkJpOmzTzF48zBJuSXguJHwljBiF6Y0lqgBOeYRh6chsQ-GDZGmHgfNh9N3shR77iL8Sq0je8hTVJRwnyJwjzU="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Aetna member appeal \"PO Box\" OR \"P.O. Box\" OR \"fax\"",
+        "results": [
+         {
+          "title": "Practitioner and Provider Complaint and Appeal Request",
+          "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/healthcare-professionals/documents-forms/provider-complaint-appeal-request.pdf",
+          "snippet": "appealing a preauthorization denial and the services have yet to be rendered, use the member \u00b7 complaint and appeal form. You may mail your request to: Aetna-Provider Resolution Team \u00b7 <strong>PO Box 14020</strong> \u00b7 Lexington, KY 40512 \u00b7 Or use our National Fax Number: 859-455-8650 \u00b7"
+         },
+         {
+          "title": "Disputes and appeals overview | Aetna",
+          "url": "https://www.aetna.com/health-care-professionals/disputes-appeals/disputes-appeals-overview.html",
+          "snippet": "We&#x27;ll send a decision by mail or fax <strong>within 60 business days of receiving your appeal</strong> \u2014 or of receiving any additional information we request. ... Contact us the same way you filed, or use the information below. ... Check eligibility, get prior authorization, file appeals and manage other tasks."
+         },
+         {
+          "title": "Fax MEDICARE MEMBER PAYMENT APPEALS To: Aetna Medicare Payment Appeals Unit",
+          "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/health-care-professionals/medicare-member-payment-appeal-post-service.pdf",
+          "snippet": "We\u2019ll review your appeal. If we find in your favor, ... Medicare rate either to you or the member. If we ... MAXIMUS Federal Services, Inc. MAXIMUS Federal \u00b7 Services Inc. is an independent review entity ... <strong>P.O. Box 14067</strong>"
+         },
+         {
+          "title": "File a Complaint or Appeal (for Providers) | Aetna Medicaid Texas",
+          "url": "https://www.aetnabetterhealth.com/texas/providers/complaint-appeal.html",
+          "snippet": "Aetna Better Health\u00ae of Texas ATTN: Complaints and Appeals Department <strong>P.O. Box 81040 5801 Postal Rd. Cleveland, OH 44181 \u00b7 You can file a complaint or send an appeal form (PDF) by fax to 1-877-223-4580</strong>."
+         },
+         {
+          "title": "GR-69608 (6-21) Medicare Provider Complaint and Appeal Request",
+          "url": "https://www.allinahealthaetna.com/content/dam/aetna/pdfs/wwwallinahealthaetnacom/mcr-provider-complaint-appeal-request.pdf",
+          "snippet": "Claim ID Number (s) Reference ... pages if necessary.) You may mail your request to: Or Fax us at: 1-860-900-7995 \u00b7 Medicare Provider Appeals \u00b7 <strong>PO Box 14835</strong> \u00b7..."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "text": "```json\n{\n  \"policy_found\": true,\n  \"policy_title\": \"Knee Arthroplasty\",\n  \"policy_number\": \"Clinical Policy Bulletin (CPB) 0660\",\n  \"policy_url\": \"https://www.aetna.com/cpb/medical/data/600_699/0660.html\",\n  \"effective_date\": \"Not explicitly listed in the retrieved document text, but currently active\",\n  \"criteria_quotes\": [\n    \"Unicompartmental knee arthroplasty using Food and Drug Administration (FDA)-approved devices is considered medically necessary for members with advanced osteoarthritis or post-traumatic arthritis of the knee affecting only a single compartment (medial, lateral or patellofemoral), and who meet the following criteria (see also Additional Note):\",\n    \"Pain and functional disability that interferes with ADLs due to osteoarthritis or post-traumatic arthritis of the knee joint; and\",\n    \"Limited range of motion, crepitus, or effusion or swelling of knee joint on physical examination: and\",\n    \"Member must have intact, stable ligaments, in particular the anterior cruciate ligament; and\",\n    \"Patient\u2019s knee arc of motion (full extension to full flexion) is not limited to 90 degrees or less; and\",\n    \"Radiographic evidence of moderate/severe osteoarthritis (i.e., Kellgren-Lawrence Grade 3 or 4) (see Appendix) affecting only a single (medial, lateral or patellofemoral) compartment of the knee joint; and\",\n    \"History of of unsuccessful conservative therapy (non-surgical medical management; 12 or 24 weeks depending on age/BMI) that is clearly addressed in the medical record (see Note Footnote3 ***) with at least half of the necessary conservative therapy consisting of formal physical therapy (in-person with a licensed physical therapist as opposed to home or virtual physical therapy). Physical therapy needs to be confirmed either by the actual PT notes, or by documentation in the member claims history. Conservative therapy may be inappropriate for severe osteoarthritis with bone-on-bone articulation in the weight-bearing portion of the joint (medial and/or lateral but not patello-femoral); and\",\n    \"Member has none of the following contraindications to unicompartmental knee arthroplasty: Previous proximal tibial osteotomy or distal femoral osteotomy; or Tibial or femoral shaft deformity; or Radiographic evidence of medial or lateral subluxation; or Flexion contracture greater than 15 degrees; or Varus deformity greater than 15 degrees (medial unicompartmental knee arthroplasty) or a valgus deformity greater than 20 degrees (lateral unicompartmental knee arthroplasty); or Inflammatory or crystalline arthropathy; or Subchondral bone loss due to large subchondral cysts or extensive focal osteonecrosis.\",\n    \"Member has none of the following absolute contraindications to joint replacement: Active infection of the joint or active systemic bacteremia that has not been totally eradicated; or Active skin infection (exception recurrent cutaneous staph infections) or open wound within the planned surgical site of the knee; or Corticosteroid injection into the joint within 12 weeks of the planned arthroplasty; or Vascular insufficiency, significant muscular atrophy of the leg, or neuromuscular disease severe enough to compromise implant stability or post-operative recovery or quadriplegia; or Osseous abnormalities that cannot be optimally managed and which would increase the likelihood of a poor surgical outcome (i.e., inadequate bone stock to support the implant); or Allergy to components of the implant (e.g., cobalt, chromium or alumina).\",\n    \"If member is diabetic, their hemoglobin A1C (HbA1c) should be less than 8 percent within 3 months prior to knee arthroplasty.\"\n  ],\n  \"appeal_deadline\": \"2027-02-03\",\n  \"submission_route\": \"The appeal should be submitted in writing to the specific address or fax number printed on the denial letter (Notice of Adverse Benefit Determination) or on the back of the member's health plan ID card. Members may also file appeals online through the secure Aetna Member Portal, or call Aetna Member Services for guidance. Aetna's general commercial mailing address for appeals is: Aetna Provider Resolution Team, PO Box 14020, Lexington, KY 40512 (National Fax: 859-455-8650).\",\n  \"how_to_obtain_criteria\": \"The clinical criteria are publicly available online in Aetna's Clinical Policy Bulletin (CPB) 0660 at https://www.aetna.com/cpb/medical/data/600_699/0660.html. Alternatively, the patient can request a copy of the specific medical-necessity criteria applied to their determination by calling the Aetna Member Services department using the telephone number on the back of their member ID card.\",\n  \"confidence\": \"high\",\n  \"notes\": \"CPT code 27446 covers unicompartmental knee arthroplasty (partial knee replacement). The policy notes that conservative therapy includes anti-inflammatory medications/analgesics, flexibility and muscle-strengthening exercises, activity modification, and supervised physical therapy. Relative contraindications to joint replacement under this policy include morbid obesity (BMI > 40) and age under 50, in which cases members should exhaust all nonsurgical treatment options before surgery is approved.\"\n}\n```",
+     "thought_signature": "EpZbCpNbAWkUfROFfOgKXxij93MjHbSnMvVDrRKjW10eDyupB9-k5ppX_9rrOYjUZtlMxkOS_g2Y9VBQhjc5tZkhl5MTvKpC2lFFHTnIaNrDEJcXtdDcqi_OP9rcWGPosX4I4nEAniDw3j6hVZc9hVGQG1qDTotaL6C2cxyvrnqmAOqGLoljDdyPF9E6TTOEuVlAQnOGDwiDz5MqMmP7Hfbp2bYuR4V0up3UHnRpZBhSDuGLcJ-eokEx4MNKZJCrmBEQ4i_jWnrYJwlXwtW5uz_tQO4CNe6T8m_jPzsMg4gKZgcsTUUI4HaRx55-tegIcGsRrICvHzriYbc3CbXSQ1_xZthvHnn-hHPmuo8JWPIwxzM7xSwEINJbpvbSjWRIEyNjH4UEM6sSgWetKUtZyaEv_gt1l8o1ssCXOHD3GfsXn9JtTLThvafdnMN5DNGaIB1DBJEOySvTJWFjLATfD1ACFiJhFZdqZcNuSD_deuY5G6GQdai16COCozW9BrxGd4ubu1qqMRpTayP6iECpyPxXf8mxhcIboPDgDdWzlObL-21i0BYpfDilhmMgOyQ68kEw5jkkPW9nKrMScMQSIK0zUqIxZo3WpnzGK08MVZbFfNwvA4bSrVUhGSGmTRhl90anoNMDUCT8M2PNZD4-29xcS6zyOzI6P3ygnNXxZXZFcRVG-4njNTsKKT_yW4k1kOOvkMfI-huUW8B98omMp8Wwfi3VhWdv_1YdT5DFm51goHiv4nyJ2F2aoNSryuulwexOsG8dHqTPcK3xbpw05hm--8i2UEB_t5FSM8uM3BNnpdUPn7HQg4ABMU9Lz4xwyi77Xwj_clLmsLbjJFrVaO1-rJHRxfOMzrkF5tk3kGSIJZyFs2ltm6hxPKdRkTrt-iNNOIQeg6k4x8Sk3V0hV1k1xy4omXYKcNS5jdj303ZLi4sqxcz-Dket5U5ArY_nprf8Y7DDuiTWKEluIL9GexLNw1um5QeJD9soK_NLAvV17-mImtTQmORGt36RpFGoXV888mzS-SrKidpa3VP4WECXdBprdH1QjLlSg0k8PJAbCR5k_TsMxRC-MumJfeyW6p9yoLA3sO8xvDyPGMo9cRPnS2kTCOTtDnYA6ajzoxts1_u00RnEa4iCU1aU9F1jAJ8m-PhYL0sWzRV-jIogT_8k_NKTfRT2EP2QhDeMw8jeN1sPJuknDhE8p2xWhxp7XphAS_ia1TKtJCnod_wiFKZjehHY2L2z__KEKaq4CcFKxyoTxncnXjrTi4wzC_Y0yz_1y6eseamM8VfmWV1_R50qGqCIw9x8ADzqERALYhj5BhnGR77bzGirwDWczWj0X4nXEvVp_vK6-poFEss2B-wtQSbAjlkc4-3dipK3NDuqDWim0a0Qxk3dEkMxwYWqWWkt_w51Jbv1scvBeXWZKEuJ8_yNEYLzUm-PUOf95fB4e3QCHNmyQ7Mv7jbLVS9x5XpkJgFuG4Op-9bO0lXLIWKKdBnegIXGYiuy84h3jCml3I89TyoMktcnUtBp_dSV4YM2H7Of0UJucA73W12FuCDw6sXK4WxRBupB4ZCav4TtRQXQDHthkzC6aBJ3fr9tUVk1pKAUFV4x6PErapDsHR03vCE8e0goZJguXJvNmtJF4jhyj3eUZ5a8BjBFsNBwVThkCrogvQBj7jDKsNNFx1y_1OOT4rWF7GDHVJSeE_fxRa4YcynVspD7ED5wchUABO3WpZsaa_3fpzUJNITcg00AHHx8Rej67aI4wZiDlD0QDo90b_dnN09uWSEJSIe2EJ9bwEX4zdfsO8KlS3I1n4p_-ltMWv0dH6Jd6CzWFLWlbnrsQMbsaqGM7I7KaBDHlHqV7rDfJWckKADIHGhFS4Tciq_wIQR0sTtt25eWszi31d4b15Ik_E6LRI2dPGQNR3mD1PxiM9-fP8-iUFr2x7W70UAUQ2EfY0SiKu__sl3VVxvURW-qX3kVsTy7z2iFWTV0aBT3Mkt1nXtb9Q19cU7ugnPLlkEsBpMTVZ3uk6KdBEK39lk7ep-COtTmnKMN7cN6mnRI2olfhvIVF328I0kpa_IRXrxCbN6TPVF_wzE_DoqTsV_ZbIy23sqjVh3Sc53B3l10PclI0CjC-hN4WkNLWmYavVenZXvgCrdLpfYvcXwUVgPlqh-Pk7KInmKoYsFejho_4QAmc6-4m12f6UGWnBzG0Iz-PIFNmNE5KHKV0Img2yrzxpGgDXNJe1mgYoAZRXA2mSH4Gohyulq-aLOFnKXdxZu5s6DzuCMExqUu13AKIAX0pJEmrqDakQs9DfMNK7sONITj8JIVmcnY6QpdqPRp5GLP-VHFfc0BAlq3k26M3cnzCTacTy3pMHAILLeAAOvdEa6ATFE08nHCRT_juvRyO3sIrZPaUipfAjiDzmaSb1g3JoHsrAXHXY2W8CO908qh8m0TLmQrcFPeXboLh-LXd_2Og_fxyIzHCSwh34boY-NOm2V92N7ZFg74C5uiozeyAhGPqtpPveNTDLvQd-7KDOEZO3YFsVLLqfyP_A0PyRPcNEpB5TsjwsxhAiugrzWy9-2Bo9CTUXY0U8zWgT6VCfIcx751opHNBd2RT4iHdLqMdinwJy_el4dzxyC1iUSkBi5S5tR_xRtgfm8Q4r05HjNXCoDweGQ-ST4M2PVtaX0RIzJDFD8LCb5GWhvCF9Yo8HlP6hI3Sih2a5Kbf8azuApRNvD_nuTNR4ywtTBFAnVvpuME8s4BockdUJIueWom-xQw6j1rsf96ybVRtNhVyksl1pmxfkdnowWHE4k5wOE6xWx40PXDMMmAavNIZO58iDoqI0QKEYmeVwJYHXFAanvvKLXqnGrD243Ubcx5Z8PQ4XFBzm5ASTvulWSKFvc-Tyy3DOIq25J85Jh1lieFJvt6d-doyOAJ4eGqKUNpYbZiluuFmENFVK77oyN9iNajDITMrrP-rHKZW_nnWL3HXDz4yfFF8wBJYeCxuwETBJDd43IIz1FM_STU3A0O0Z-Dzqzk_PeRHnhMsH1XGDrFeCG8_bbE63diRSsx1pCLyMr_SJf0eOU7U2BCgA437iJHLeuLycasP79JMg5nhcj38870Z5Be-qh9b9oQUEkW76NysXdM9leceaMVtlkLvtYSw5UIoXR4f9czEfz3RB_W9w49FjvDd-WbhNZKsRTa9gMf6Vmy5-6gzQucrre6MF6B-joc0wZNsCydvYuooXfATvDJtqReu3wHEajHYwDEyipIncQu7s8_J3znR-SfsFzoyjtOAUe_cAhVCm45BV3pHSvlwSlWZ9Izym1J4Os_Ilv9anedTSStzDQzX2f2GB-s97sSrNwzaIRS3YfAtlTN1AY0EVrgmJkcutOC0sLG9WT0AERXEdaprP5ttEkSGKA0Uuezs6YeKAbHqYfA-miwzP2I2Kp-WqmJOcOPov5-hZYITF2OmBDZcV8apu5uWsLVvf4EaBhctC5vVk-Was9i3pxEGHlg8vHWo4LMA6Ub3MSKu3JZqo9on_zKAr58xWKHdytqkThqsa6Mx8NSj5CnVF9C45HQ5EWPil_VGOfWo6-Dfu24KVlWKZpTUHiynRXlxjmApNWdewTMET3bHMfETGsM-1eDTLTdwXuaIS0vIHv5kyu8CcjXSAPWFwJC3cs-RHD5bUkH1F9wsbJR9gkTTyrEC8Sa7DKm1SbpWHB6BzcppmKXI1qo4AuMI3PsiMCx4pzDPX0K0Kt3wCR3pkJbP5Xx_t5egNx5Syw9fpAb63swpfHHlRwmsDbCdmNr6BvNbyA1e8EIWWcVeg9-5nv8R0WA9qBJGdPZOQziGAaLG7f29O02nonlzWA6yFycMNnLYRM8LhdB1IMjyGURN9H3fdK97k9PJfBRqHB9ZWROCGhZAhg2tBhkEoFUfWJBNLc_oyiMHRyZzcutlrdD8XPuAJpd6FGxz5QMJZUhkEom8itzMdY8nLbExLlndLZK43JLxunUkH5qYVa4TJoxU-Ux41F_sSQpY5aLheSZZxt4Erjqel4UA84BCk_Xi0QPANDNl4Yv2t48N4p8STR119LuI9EAbB0PQXonjANBXIS0nEoW9G2PPjq1TXvNQMl-M0LUrHdzIpJeFVb28Aq1M06lyeljYbBmA_pfIPHEF0TAbS0g-h4u5vQB51LOMY3_K2-IxHyHdXNe1oC_2W8S5vLgK9bKwstWQetp-nBWnAAqi6CgwwXJf7PVZbrgHbWGM_92RvVFELB45W_RVJlLADkRHZF1HPvseR2PCNUCAYYwH1GG35wxOkakEzfyweiK0qDBLjnweSdkpOAzNemARFYzd4qww24HxHPaJuikVB9TX6gLHqy12BSg-DeONUy38hYn7N-OUcgyXgINHqs_fT0Gsr7abtZrZUiO5FGS2sP5vWHyWuTlhg4gtOPE6dVXJ7E89MIi6XQEKZSu-z0YZL9hn-R28HWDs4W2nK-azncWJJBN4i1oZImWh-UbfjYZwlDwlzZwI5ijkNy5OENThLVcd6wWd7iK9ApMvWbpY3L8j0AV4ROCzAoaqPFxn5f9BBDrMxcg5-4lM_TTwq6orzRFRaQp7RK8Ne4XSTGCF90KghmuG1gnlZtSff0oFyN9k9rjwweTJJcM_5zGS3iv0qYEZ3iTIc_Qr1uN9V0IXYRvFJDVpkLnU2bH6fszDTtnEmbYLrRtazyRi64xeN7kpNfx3grpRONfE492_gaHmw0BfcJiHCB0oU4SUPr9hJ5-EN-m-1Yf1BHW-6Qt4DkGb0_AQ0qXeK6TveEjg80LJgNVtBBPnOH_njbH6v--jgXcOx_n4cZmp1RFmS7d_DVvKnRBl89KKr3ISoCUof42UISP4KmWXIqlDerVEj36Mqwf_KQLUUM4uUTqUsKFH2KSe8h7G7tiA47BEBCB_qllJ0xT3cjdcL5C4pX0o26NU8GO4W2iyMDsjGi8xnDSkSbZus3SG0z6TpMS0ZFBwcFGP4kFxFyA7zTgaYNEVJfOBR7hi7myioXB1lvhC5LBVSS-IVqTnaJlt4T6P35Bl7f6nr90seU5bM4CGxYqVVeGELQIqu55_Wjd9uU7zCW9VrKDSLLIt3HDd-wf7R6wTztWqD5-Bk-hgeQFL-6_eocIGJdbOYNU77bzYej8u9Egmb8r82eAd0q8YdDvEpeUIP604Fr0QguBW1iUn1EGR2dv8D9mVWQ9cJT0Hkqn2O7eU0gNLbkPm9aH7IVY4iP-14x8z2vwF9pHzU6q-Cforgfrobkw5riiyjcmsiV0VbLvk0EKycqORS2NDR5KyQxJDUU6wttwqfr-NxM4setE8QuvyYsAqtnKjA5x3ozosDb80ChtEGsYWQ-TssMzgrfW2Z71DizjB7_9ZxE_0TR24TGnBR5kxog3xk03SxmbPMRQeRS3WiXywlk9y-3wjgfP61qVueKxLveiMFP5EBP-hBWXyHiBSGjBcJndFjikYT8zfehQ2jKL8RyDcsWSV3V_rBaOEz_E4c_c7Iuq7W_F3r32Tc1EW2BREnGcGaElg_xv80BXle6kwNilQOMNmqqhGV_OQC-0mqN0uLd3J24NQTK-plA12bw3qAkM9kc1iddcDfGbdMxIlxXdSkCSavLGXWjfd0AcEwJWkMYurGeS8eM83yzP5U-hB9ni3vsJTJ5835cgy0M0Y7lx-jYaj2Uugd_ihcIBDPKGtld9rlAXNxZy589_ZDVFIWeQCszzpu-DgP2q7ZNHj8Y0npPubSv9oBaLVqm8g3A72N89GTyirviHM_HCLtJXJQPe9zX0m57-cRv3YyFbhNnPEJ6cxvzUcpUuG73EfSCqGmCtVU-4cxtgjqH3AIAOJLevK-ol2f2C-oNuL67JS-ev0SaTatZcKUfeU4GHnCBYkSH6HwPzWTcrfUUuOlaIKWMv_4C-6fftM4742CArj65UGs-kV_0dnXI7QSrTurR_LFMVvLcKrnRtu7L9ybbtaq3ot56qUOvVfzgcTyrAd4tw9-GKIgmk_SS7noCJRgjYsyN8hUH7oWUuH-b2ZghDTbc39FsGrLh32sgF1CHiWSg_ZPKMZaiUO8fUWuN5TtA6bIvuvcpB9gNqQ7ZAiP8E2lP-Db3UTMPYRGdA2yDhKwALbewgojTtOHET99ELSf-seJmEIg0q7a2h2IOjXSmcc0ag3K1YG44TlGY5PBCiNMguOaoPlXzpbIUeqEKNm7Q63lUJaTQjloK9xNsv9wO70HHvFgXiHSS10nfnWqspthpbGyxfiarjdb46MbcRuvmBQYLoZ5kNmOjPhUi_yktf5gUJQVDaXBVxROQgwTn9veU1ndCKOjKEvuZxyrXLapKmuVpJJr9QLAswvsT2JjYkLARTBXNGjHlCZiTqA1HsGXey-AOu5IPOLBgQ8oUBgnepCtGh6ayOl6IiJqr032iFjyV4cJop0mEBo9HPUZlmOHQkObfbl2gQGc7I7mrgMnU7pcK3xSCYMmqFxCoHG43SGMO1xEMwH9pNocSd7iaVFdN4zuJZkVkjQox-vMwff_gsssGQFfjwi2rM_vTYYtrj9YNwuu4dAhNWl9rv62m9RWxa5VsBE2dINBRkkgugmGIWrSurPB57h6pxm4PMGdHKuvCEuf7k9eEG2ZSE13gIdxw4Ts1YSFGHM0gNV3-vZQQP0qsTT-n3Sfrsnd_vhQBv65W5_5CIjbIcFu0kkFoCkSV-3uTzI3G4FpxuQPM535-GgyCjRp4tuNOtJpwRLlxjXxffdX56fMYFB5X1pfkTGSikQ7stolsFOnUi16O3kNZzWbB7ZLW94-UqFUoqNwznjOoaVGrnSgdFGu9t--ukj42KxT5PWcwUxNAbWL6oXI6ShWVs0WFs3cSrNw3JQrg3bo7_2FHhu3A_IEISRcH2NBjjKGftfMX2sX9NDA2hiIGw54pqHcKSPEX6xSOgVHp3tQJ1EBW9ZmkmhtUnexEqNHzLMYk6X0LFWHTmxvKiS4PrElRfLIxfohKwocgxZZ7RGq_VtCIKcyLf_QSYGu5mTs-RtOdPRatcLB2kzkRuD2N4czIzBl8df7HmS-dxlr7lXZsZycbHCtw4ftS_rgHV9yBn5VbXOi6DT5i-FW9rLkGzAQtzcHml1z-ebtVA6-Xc-vJt1aKJcS4iRSE1S9cfEjJjc_dBxMl8v1Y8lMO2n1nBm9nsU_p-adUxN4Nt8YM17urBdb41KKKI2cD9fDLvwob_i1OJLanp9rYEuPglFvWDi1qL2pxmrolDrAgFjj4gEPSQeIJjn5jKV8Yso8HZfPDvXgcr65KXWVp6FqAdePB1iFFJ-Bk4ZZ8Rp8a6berpwiTYZjn9QP2j5fsVnqrKbzoVuH8yehlao4qIqh06GP7MW1fybG7dV4Nhs03Cchft1z53tYK3q9-LtDKLF8rHmPtAI7Wk1dChAR1Q3WgZfuReFyDvtLGXMuCms8GiTsc2OMx-bgKPBjqwmwsZLuZj5oFfqmwvANX2zRKa7XYpY2w0PpjIL5tN09X1W3xgWpFsv_iZng1TFYU9XK_FijwJ5n8cjMqqVLY0e3BY1W-26RQE3tpyryMjWBezq_4aypHabR4ATx9mIacJNgw2aXh11KGc14zkGD6444TBkgY9skFmsRXUGkz4q19zucixBOqVahrGIUd5X-VrDXoy4gOq7S3OBoOHvM1ax99EKQqD9JUYO-lEs3nzhG4NhA8JAD5zWgXBIdlfCQAudBTEKJ84B-M-9bM364DQZ91aCsxzcfp6Q0HaHsFxKRxkEUcWBhcL1aXD9KkSbAsDu9cnpTilMpdaO7lqKnSLTJ37JuS3p-U9ND7ksNc36mPxpkeSL4RYtGMTjJA2OopJyuMDiKznWHUUqUuSTryrfypZnIpzhNb0VcPO9hJ1GyD2V67Hjt_H34Xjo93ZHcP0bDjLyEqdgagcwCKVt66DazAsr_z94SfcMgfhW888O_SfGhcjisPBo5h8EQbpugTdeEwjZG6IeJO_vyeHCzBlvhh8qTBCaPQjFpIBavUNlmvMf1AtpKbKKjVrwgJUtGVJnKHokLXxecjJPrmtnNtU4Du8a_csnehiznDQaqdoH97B546Cr4p2Qz5Yi_w47ucAowqR58cn6fCqymYLOT-LJNioCPbWiulXzZKTXrnoQrX0w3A7ULZc69J1mqPB303neNTXu2hdM2Z9uCs8w7rG9a-54zm-1-9T8BcJzTbHAnqiZ80gqKDWy_ndVGp7SZr-b_Ft-ZZj55sPfY-7gi7GK2cazT7bO1gxNsW1R0Xm7fr80X2vh8j4dBT5PHaGKjKhoDdfjE_jtynSHhViXsLFVpuMdkXRcFgNTU_0hVqnSH6OQyihVEIoKw0BXHYj2_fEjhTfn9Q8z_7BuQJv3NiMQtFeYrxig10wI1p_77TclKFRvzdNiJoIx9B3N_Ih8MPrMGSEEV-ymovUlr07wkwP2uqkaODZijMLbwdK5nFqQ8EDB_l7yxbjesMDjG456fwMeJDw9IhxGyZByZQ35B9DxcADSuaKilBTE2DZKGv96GZ3BOgVftDWMaRSM1js5LsXhJ7Td_eOvLqUR6ESFRR9NOMYVzOTLfdI0S-P2DCqjcIwzei52KGKqktBd9l2hnQ_RLsmJsN4b89yYkw1fydCOYasnxLns4W4dgXAbqot3uxtR68T79AK4q_G93tSyOMq2_tkuAHi6SNbzmNLmxCjmYD2NjABsk56dP7XxpT5b8wYFOWk5SwIkVZD-Q5o70-usCth0DeAzbRlEWU1I6hnuPmYP0HklL2arYx_0wKrtIPJGB5Wy_Xwm-nEPFNiiU1KFPzmDyRLwkZWRXhqxr2Bk0v8at4-fE8qadcqERh_xLiIG4bkeCvZh370J4PsZI6sh1gzlXyCLMsIJRCCZA_oXs-LHNqCelCxnvisSaya1M-zWPOp8pRQVhVQwQSVwo5gX6NYrbGkJzQjFiqn60YcNHf0H6HMgmVemzXN17mTlvMSxem8Iu_uExxaMPQpJmLxqns3E9OKuWrMyDhkHH5RVmbn6fbtYmrCTTcxHnpEfgGdY76kiFIvaneIgOcfWOU8zszSWe7k2oRGzElpQskVQml3jGMD91W2I21RbMeGc-E71v0nmY7oZxrh-ypdanjrjueOj5q6_O2T0pSe0PESLkwzp1eMUXAwb994fDyvCpE8rIK7D2c3wuQU3fdzWrP5H-jylwkah4UZeghkm5KG1s6i2v2cpwfCVRHG6T-lFEtqUKOLHajhDpu5sa4LMLB9shHmkOdwZ7Mbpo-Y1niFtE7YD9XRcF7Io1h6LRBBQfXcu_2jKfUil4ZfB9GrhMt9UcAHkDb8lahUbMu0wEElhc6InbauHiUmOKm_jfol4JaL7iUdX_VN1-2aZXdLaRI_SrivRvpNAV8Aq3446Vmwu15146tJ57yrgBD4NuuLnfETjdSMtO6yqD2EipKKOMss3Nbbb-rcSaqov4ddjwrE8ajWEyO2m_Mb9Sn4_bmX52h6o9j0DjawoGIdI4SbdQ83wgyKKkeGw3BKFQkFNmQYIse7aGmWLun6o6tSuvDNLF3Og2SCshwt-ISI-xYKHrjrmSbXSDySkDJWAmO40rrQmZ_cz3t-DaqO39AAxitYxmhH2TzbMWH3Qn9pboEh9i_SBJOPJk2WJ5eYKlakjucxS52iV07tJNMKzKHM8Aqo9F0U9kUHJYXdtPg-_a5zl66r5oamO_tOah5cS8U_PXXsxdiXkueV_7jmoLPJD-ZrC0-wS0f3TskQgOsExrpE5KNyZG2upODYgtJpMrof2hnDtKzyxqlc0xzS9-FFLktlnolhIt8MBJ7iCCKpf2EJFihUSiSxBxfEXXPmnezuzhfJRnxhfkyxLwogtZeCrdJyo7fRYH2x6uP0f1Opg568N28XkhKqvo5o84UIdVKNws2C2UP9hrhvJH2U28XjvAnzMWX-9rNkls7L1W_9e7CY2isKhzITBlYxHIEd83GteMOH8qwuApGWA9fWlczcUDluxFvyu9n_KtTPAAqwWScQ460QiC3pfmLuy1t79MItUPGzeplxfgSJ35ESUdubDxai--04BSWU9PPb3FEo-MV1kgibu40GCeLoDkdGJEJQiVOAiCOxhO273j-uhPINLUHlE2NdmrkahMQ5bnhni5iJMcxvNG6mt6DbQtw-oeu6UO3IqBnA9sAllNsRsb7a09PBRhz314GizMsT6iIoMkx7Z_Czxys8tzq0oBl7Oy3H1R4ebShF-ZKSxz7SO0agvU6Q2jL1FmJLfKxE4OJdF_qz5U2xJ_ZBckpYTwUyIxqY9oaK_VShb8mnonlVEtOWC3l2kFl9yWWTP6MGG8g8K5--ITGKuNr7ZOtpGq4lc6lzM0-qLWANL0XsQDXsYi423-ivP2hT2EUN85j_Axos35SwNILnaxBmPDYgePIh24ypUX4B1FEPSQjgmhFfqNDxTRSrfFzwgdKr-Rsgb_YxGTg0joTz3O4S_fYuV-skjxh5LuGSzVcfQrDDH485X0iDHQXFwTHmogzLkW0I-w6zHritYt4kb4iD0pEFWKUEHavxj9WJ9ykvapHPso9Bm86a7REtkWLpjnVR0jbWTLkeq_Ezr9ld6aeOh64UJ1-BoW_1m9BCbRfyM_QFCmcxSUvvXp4Rz-jcZDMk6cTQP_HMR_kZwb0HQcKFGUNfcgLuCJNerYfV8UkHqQaxKRMrb0Y_PSzz7KJ-aMXM_Ot1UNQPkohvK7XapfZH_1owHqjt2YfVb86iZa5PdCUExD_92SHBsuPfy399ebcL-m5CoIkN4ZYlp2PeLfdM_4dpH7QuvIAOLTfX-NyIdeTQ9i0RRtq5rNmznF1k5-NwfUbWhY1D98adByOnDJifJ7POlsQSw6wXAo7NpzSywyrxQ0Ow5Zjwl9-Ps0L-ubsLDPpFMe_oPh-ILqW1eQox0my2olvPJyu4nxY3QvcAyMPiygmozxYYDGOI1Hma1TU4Q7lQIleCBi7uCO4C6zB9DLRpP7-217czkDFLw1kXFrgCX9Ahak8gFxFQd0tjI7X56j5nzfAW1kPCV_wbKimadFPsn70RRRJneQMxe0_0ZnOGN95DkZ2qgwOvpx0DLFTw0Wv099QTC8Z5Xzal7eu_rsjRdfutDhPfQbi1xvPwSFkGBgMFc4PidfDCAOPnfJdRTG6LxHyzQigGTtUT9Yj0RhH6M6vzlYH5IX0oOASB3oB_pfd-4udDrUuDvWbFuoiZSI3qeAOIYTBd9g_aZRdJtPZMQKD5TxNWAm1PmeuBJvqu3NDXVuPPZ8oafmuZPPEDJHrhOHTTe0vt1wu6IcbHnnPldKHysRBckFM2F2jGUP2NqGimQFaTqYLUYTJeAs6_R0wqxC6YkDCKKLmVvnuhr2yr8pt-VrDZWsyyxCNWdzUaMBhXzOhJqorvcMjeH-FcctgHK7fhXCNPNPJaKpnI1HXDYKDS5wtJhca_131gw5bmoGCQgjBNqVeJsrGrZdCrpt7hSz46EsnpEFPBEHsoEascUP8WlgialwZRZEsmSKMIorAC76n9OoVODwA852bPmJZRI3EB5pGGsps91bPWb15A7JzklK8RI40992TdCcWabuKROdI4z2jId7CDdRdHfcMk1S-RkNM05APZ9G8sl5Tk4gyXmW49Pn9XFVm7TUYwsd2arXw8AZuusT9DS-gs8iI6M7BnPKwL3bbxk1NfOLIqF4E3HzDev1QWROpJF63pnwcz4EkPFv1agEbX1av1RF7rEUygYptf5KCpkdjzgLt2zMqtINwG3gAtmgcaIFBG4jhvBBAVcbt3CbOkAL8FPUAi6fVDLzYiV5h5eHh5mNAmopQWSPulv_1RDpvcVf_K8fGs0j-UqsE-XctyGZ3cxj1AdTBq4fnmOhY5WDOs176Df-pB7_nYweEYtfWvge_5YCvmiw0kIsEUHprj2_icuTGgYESUAchALuRBml6AJ8iwZKm0Nqkp6VIbeCaDDaHvWShaYPb5MkgjoKVQWLjt9kGmUFDeOVhWhhmNfxGnAHgB1iWSjXJ-EJHK39tnhdcayg82rc1jL5o-mZI2NXfwksYGpptttAsbnreNr64QWD_2WtAjoTYbhe5M0eR4UoG1qpOYEM2HLu6lhGdO4p6L7wmrEl26HJ0F1YXh-9mfeoAD0p2KB_3EBHOI7CQFLwjdRN4F-MX6GE7VDUwGW-yWQQc1L2hCPeui2y6XwxSE6eiMoBEdUdA_SUjh5nYehQW3dqmU2H0iXVwdAkRPlyRbW5vwb_udj-J_vVoMLXNwmlHTn1fGf0LFJ7pK2p06RT4T7D48R1921AUebaQDNOCBVI6OESe0yFpy6ZQTVs8R8pLOZxuX32GuMtAEYIR2e4OKJnpCpuXNsO5P2vYGiR1jtjQSc4gGPdTSnVmBkp8tzyHh0Mb-GNCvbstpQd0172TWwn46gPeINIerFpTDDURdxbyhA61lNzHbB5xxNObEE3pG8iy36zh6BfwZuWSfmoygHtp4TTHluVI_LEtc0HXYxWUi3MGvQjV_AuLEi4UxLfk5Oxwn49j-tbaQ64_0sfnvbait7Rf-qEVUn2DvO1V8dHvc0m-MRFXbXx9nRzRmU5CYkxZPaYTNDoEW1o-OWzvBNK2KITOcKY7b04KbDxndV2mQpJtWd_42F9UzjR-XVSl6SZj_osLP_zpCoVIAsUuIICnilP9XmzY_o3YpOcwk2T75KgRD7Yv5FhupjkvVbFKpRFzzrON3-l0zuJ3Mz_UMlT2O_G5sickCr2oA0rJwyzhU4o-uuGtGGWY8xB3WZd7h2TMuQjmDb32N3gXq96RoxwbKfjOpXdV3LZZ7lhBope3it3G4_JFQ95tMcFrDcraotVgVwijZMOjCQHXt2kPy57ZlG_jYB_fKNGYOWHC-4pSIw28pHfYeR5svVm6rSS8euK634cA2fkoFGW7n16_3rpo6575zqEi9klxzmT6ZhO1LbMFg-h3QCr-oyCnOg4UuoQBpQ5r41c6VgiVmXU8YAV7AVrgXDNkYW6J4EIJ91zi1hxF3s321RZo0uIV9uxzxrwBX8jyaSpw3bnKH48gx_l3dHSvOQxiOCCBfdTU2CAPlGOXQ8NW1cr2vgisG-oy1DvHDpZext9jeEcd_DmtTGxxOpkac5P5HV8dBjvbNNz1tXfUG8QiU_29p_RzZx3GTWubCGMvQk1Ei_sIqGSdO237GWQ7czDZf1lg3gpsaCdmjm6BuO8TXRRhezWBHSOILoHTHIGHzzNjB0xaKsaJgRcWz-kXbBWq6Aj6LbaOmuMppRqZbDZs0W3qi1u48pXUdQw8gaG7sAXMM37qxm5Qd1a7LZ0GnXxs7IJd9httL5EuZC1YBFibwYJdCYRIS4iEZxJgEl2LZfvtmYo_UkxpCUVb5xw0GkHTpn7A_RbH_3GirikF60JtERgma7gadJdQgiuxy-xBWt_Man5mLqNBAYsgoCxVRMbQv45evycVNQ68gbbN7h0oumVgLyJebLJpvb-FcbanXY2KwYKSVQdMCph6y1DrGDALOe6Bp9qzogb6wlS31zmLcqbjwoBGhMe-mx2fhmb0nh4fhGIvaTb6llg5ZhbRJMCiu_xNqkg0yCuktTdY80_QzPHhiJtYHFTPU5j9fSZJXYGOyC4OMM27NmOfHshLYL0l15jLvc0gUQ9Ee2p23dYfqB_H010PJmVipQatZJ8IdsvqCHl94rCKRsLG6ut-3iFMaAkQiDpiwVKAoIgJ2yf7-LkTFFBJ-JQdXreRTmxAW2X_RDjkYE48UUZOyC188Fx3hQ6sIZ8rMPsxbPdRNExWg_RlTBfOfYn9cBDxjXpntennCR2ssNyKj2lAYlkCOKzRnuTwU7KgUoEh0i-1YClUXxC2Gz_uSwgR8VTN4bfbby7kg3Li5LNRYqx2XGTtG3_teCvG2sjdbMmPOk_kL1aeaR7mPXq5aPMhdXqGej9sbBOsXc--H953GAvJMWPaAYRibJp_bqDXSQuLHMXqcPsr3TWHiU86gbLB9meZr6Wy4llrhwSParPtfkNQyh2eZCOOy86pJvUk_r5JS2Vluim_L21EwvnpVoO532JlYT65-srMGBofqcZoVla28j3xkbh9v-jWdysVJ0U3nYgOprqLtrLQ0ySnDS0-jcudEBBD9w7mNgvtNBawtTydAeCHEieBulZKUKH7WZAeRLEbtdZxqGwgTjT8UV8-UVxbI_p6tCVyH6DkuDuXv62OGwjEuVEQglbWHDwiqmNmOxGU7ziV_CM_luwMlGSA0Gwgdj0FXcTNiu61hvoxM47bHxVs6ubpq3Juzoqq8D8n4lTW3NglCjow3oLM1g-Ih7jeY9WZZhmHzT_xr7hT8I-3pV08Mh-KY4zSE6Gkr2ZY52dF17oWTtsktL0uB9nfc5QvpMTQbcF3obk0BBXNSm7LGAMO3BXiKWMv6M9F-1LYmJvFhlcPejzOUdeB74jPVVI88PYpm-3e2_7_5dxkfTbYEWzntevPkuilb4gl-AN1AcMM7o331j49Ygi9UJFt3OXGOxiT5qE3MCY94weLp-6-IhoPZ9EYZSf3ElhEJvcIDCAqJyS3EcQrR3H7N2GX6xSN221Rzw-o5e1A3BGkArHYTXYsjv4FgOYvxWeV4UglP1R3gvnDRI6mrHnsCa-lKaMeiQ8KmWkBSgM5Lj4KaEtEEdTB2wJQ0_QnXOq_Indz3WbvGocLWKWBiEU_qhqJG8kwccUZ92ZQ_ntwGCBDQFcWkyG615Ml4cVB5nLf7lQ9ZWVupxYd1HukMwSlhhy8K-Hi1jRGzLX8SeGQV1nJow03mIJF2omawGFw7fiXhtM5YcMw-NYeKtwGyUnBCHDUImE9ycJxKbYC7GRbGAdOv0OwHNXSITxFTbejPs_KONTEbJ-a8jrJGb15_H-Kr_FNVmlVCZOPdwihTbZ7Rza7pbmRay9qSL5J4_9Qf4_3XQlIwxF_mTLLImQT5VM_sWYpc5bO2Yf_L5I2Xi93Ngo1kLZAgC-gjN5FmKRBY-yikSmLzRbIHYZeRYwpllPUR5V5zcJRq_8C-vCt7npqQYTq5b1pRJbosRdqZmFWeME8wcpOASWohy72F1a-ZcIcF5ifbF3MwNkaAueiLVTbWW-unZePvn6QrPOs-ONTSRnisIJihMHNzD913XIQYO2mveEOZF_yTyMsrCJBoWYD1c7nbMR0KTJzkyCeQgEoC-feIO_A6Om2Y7Vzkk0wGnuWsqmfYhCnaz9cH5oQqPvyI2sNMgu7LqYOOq23esZU4PoHvdTnUI8a8K4XqjgflKdVkH5suWvRjtmyRv_ga4VT2vfhqgCK9z7xOdmmOQja_2HZYLt0ZJ4bZR81xMbDp3K19jO8a-5u2uA9KAX92LnEBAiLTTQkjImT91o4z0t2u3UNK2czvbWuUr0XpG8NP9PU-JceGXTaTdNXH2v7y5dtW4ys1HsECRJvv0SvTida1Vv68fflyYcVfrzZjr3rJzXVC0NhSEBb594hF0c_GZ-toSPNYmmyvnJX8l0B-cRzRF6slt1M2xP5bXyFmnnGMqT-b86xP3gXooBszIQmTtdGP8d_jI3-o33FrKrdc_0QqbqC_mUotvrhq"
+    }
+   ],
+   "role": "model"
+  }
+ ],
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 172536,
+  "output_tokens": 2886,
+  "cache_read_input_tokens": 507225
+ },
+ "model": "gemini-3.5-flash",
+ "tool_calls": 44,
+ "elapsed_s": 176.9,
+ "run_id": "r-6d824e99fdc9",
+ "case_id": "poc-8ee886247d"
+}

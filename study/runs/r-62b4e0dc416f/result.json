@@ -1,0 +1,2071 @@
+{
+ "answer": {
+  "policy_found": false,
+  "policy_title": "MCG\u2122 (Milliman Care Guidelines) Clinical Guidelines",
+  "policy_number": "N/A (Integrated proprietary guidelines)",
+  "policy_url": "N/A",
+  "effective_date": "N/A",
+  "criteria_quotes": [],
+  "appeal_deadline": "2027-02-21",
+  "submission_route": "Mail a written appeal letter to: Mail Administrator, P.O. Box 14114, Lexington, KY 40512-4114. Alternatively, you can initiate the appeal by calling the Member Services phone number listed on your Member ID card. The written appeal should include the member's name (Casey Delgado), Member ID (W200134956), reference number (POC-6B51D0A6AA-87439), provider's name, proposed service details (ACL reconstruction, CPT 29888), a copy of the denial letter, and all supporting clinical documentation (e.g., clinic notes, physical examination findings, and MRI reports).",
+  "how_to_obtain_criteria": "Because CareFirst BlueCross BlueShield utilizes proprietary MCG\u2122 Clinical Guidelines for prior authorization of orthopedic procedures rather than a custom public policy, the specific criteria are not hosted publicly. Patients or their providers can obtain a copy of the specific clinical criteria applied to their case by calling CareFirst's Care Management / Utilization Management department at 410-528-7041 or 1-800-367-3387 ext. 7041.",
+  "confidence": "high",
+  "notes": "CareFirst BlueCross BlueShield commercial plans do not publish a standalone, custom medical policy for ACL reconstruction (CPT 29888). Their prior authorization system automatically triggers proprietary MCG\u2122 guidelines. While these cannot be quoted directly due to secure-portal access restrictions, representative MCG-aligned clinical criteria for ACL reconstruction require: (1) documented objective clinical findings of knee laxity or instability on physical exam (e.g., positive Lachman, anterior drawer, or pivot-shift test); (2) diagnostic imaging (typically an MRI report) confirming a complete or high-grade partial ACL tear; (3) subjective symptoms of instability, 'giving way,' or locking of the knee during daily or athletic activities; and (4) failure of conservative management (such as physical therapy, bracing, or activity modification), unless immediate surgery is indicated due to high functional demands (e.g., competitive sports, manual labor) or a multi-ligament/meniscal injury. To resolve this denial for 'incomplete documentation,' the provider must submit the complete clinical chart showing physical exam results of the knee, the official MRI report, and documentation of any conservative treatments attempted."
+ },
+ "raw_text": "```json\n{\n  \"policy_found\": false,\n  \"policy_title\": \"MCG\u2122 (Milliman Care Guidelines) Clinical Guidelines\",\n  \"policy_number\": \"N/A (Integrated proprietary guidelines)\",\n  \"policy_url\": \"N/A\",\n  \"effective_date\": \"N/A\",\n  \"criteria_quotes\": [],\n  \"appeal_deadline\": \"2027-02-21\",\n  \"submission_route\": \"Mail a written appeal letter to: Mail Administrator, P.O. Box 14114, Lexington, KY 40512-4114. Alternatively, you can initiate the appeal by calling the Member Services phone number listed on your Member ID card. The written appeal should include the member's name (Casey Delgado), Member ID (W200134956), reference number (POC-6B51D0A6AA-87439), provider's name, proposed service details (ACL reconstruction, CPT 29888), a copy of the denial letter, and all supporting clinical documentation (e.g., clinic notes, physical examination findings, and MRI reports).\",\n  \"how_to_obtain_criteria\": \"Because CareFirst BlueCross BlueShield utilizes proprietary MCG\u2122 Clinical Guidelines for prior authorization of orthopedic procedures rather than a custom public policy, the specific criteria are not hosted publicly. Patients or their providers can obtain a copy of the specific clinical criteria applied to their case by calling CareFirst's Care Management / Utilization Management department at 410-528-7041 or 1-800-367-3387 ext. 7041.\",\n  \"confidence\": \"high\",\n  \"notes\": \"CareFirst BlueCross BlueShield commercial plans do not publish a standalone, custom medical policy for ACL reconstruction (CPT 29888). Their prior authorization system automatically triggers proprietary MCG\u2122 guidelines. While these cannot be quoted directly due to secure-portal access restrictions, representative MCG-aligned clinical criteria for ACL reconstruction require: (1) documented objective clinical findings of knee laxity or instability on physical exam (e.g., positive Lachman, anterior drawer, or pivot-shift test); (2) diagnostic imaging (typically an MRI report) confirming a complete or high-grade partial ACL tear; (3) subjective symptoms of instability, 'giving way,' or locking of the knee during daily or athletic activities; and (4) failure of conservative management (such as physical therapy, bracing, or activity modification), unless immediate surgery is indicated due to high functional demands (e.g., competitive sports, manual labor) or a multi-ligament/meniscal injury. To resolve this denial for 'incomplete documentation,' the provider must submit the complete clinical chart showing physical exam results of the knee, the official MRI report, and documentation of any conservative treatments attempted.\"\n}\n```",
+ "usd": 0.336,
+ "transcript": [
+  {
+   "parts": [
+    {
+     "text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-25\nMember: Casey Delgado\nMember ID: W200134956\nPlan: CareFirst BlueCross BlueShield (Commercial/ACA), state of District of Columbia\n\nDear Casey,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: ACL reconstruction\n    Procedure code (CPT): 29888\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-21).\n\nReference number: POC-6B51D0A6AA-87439\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_52461",
+      "args": {
+       "query": "CareFirst BlueCross BlueShield ACL reconstruction medical policy 29888"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqMGCqAGAWkUfRPLfTKcdEkaQpR0FbcmEdArKFeZ-f0MvKhfoCYb5VvT5AME5A7rX9HhNe_903XHun-mNZd5qNWAwRj1FWquc4CYo9FYEiQGDd9UMnOhZMJXX-F38VNK0kbzr74Oo8n0UzraDIpcYrtYsjXLlLCi3DQYW3vpkeygAP1u_2-_9cEMqYc996tYYnFd88RWfGM9ro1iJNgR_EqHWMWJbBP4D-3eAmfzVIBELogCaKEWd7UzcSbG-_TBjAJlMfHlBehFGmlEG7WDPY5hhLH7_Jy0ay5wob0melbVb393u6gA8OsgPQRBBnhdjy2_n0O1JgVgrWSO8wikNI8zIZMM53ZAIv6JrOpb8MCAVSS55uVgYuu5HirLGHT2nYM0UaL0EHSFOGwDUrEVMuCXi7gsHkRnBFnnjShNsMF-AdEpGEoJLEhx-29d6MOmJR52dAffq3b5uVXTsk3k9MyO8aZYLDY1vsJet-5o1eJurWsm90VW9PibcYLmIeIFTgL5f1XIyzvy1YJBlhVvLEL05P9FlprPzXDptjW5Pebt5bVgto14s774vMxWktXVW_9mrNy0b5_wcyhTNzUR2QOQo4R52wpesFku9hqAitc7-n5ny2KXBCMGWsl4eKUQpdQ081_8p08CG8CprLnAwBRMIDBO5K1anWXz5JOPmSewGNIAhoWH7yDXftQ_226q-9Qe8j3E3-9ZSACzzjvrqMNXv6e2KEXXTSJkez7ff221vQewoIxNpc90JWTdbcqiEOSrleKP3LEi6grH69FhcRWjVJv8r2hSywXVombGv5YwS9AhkOnku10nu3khfBFj3zBUfetAa0VwxJ1giugpZQsxFjoRz2zds-w4UcwOjZobD5VPsmvORtkGiwgxodAnf6YNasSmpegB8U7pKz9nJOJpiJnXS3RwRVeTL7X7AzNp1oSVYQBDPGpI8NHYBOzxpCZqsn3R15i4D2NwD2i4fUFeZl-VUR-Nw6OM8FS0Br6HxYMa5Qmn0W-v4KpAP3NCa0g_0pDgXku5BrDTbEYzz9NqncDZCudqU17Re6ZSshoVFoi_V2U="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "CareFirst BlueCross BlueShield ACL reconstruction medical policy 29888",
+        "results": [
+         {
+          "title": "Medical Policy Reference Manual | CareFirst BlueCross BlueShield",
+          "url": "https://provider.carefirst.com/providers/medical/medical-policy.page",
+          "snippet": "The online Medical Policy Reference Manual contains approved medical policies and operating procedures for all products offered by CareFirst."
+         },
+         {
+          "title": "Professional Provider Manual - Policies and Procedures",
+          "url": "https://health.maryland.gov/pophealth/Documents/Local%20Health%20Department%20Billing%20Manual/PDF%20Manual/Section%20VI/CareFirst%20Policies%20and%20Procedures.pdf",
+          "snippet": "CareFirst BlueCross BlueShield is the shared business name of CareFirst of Maryland, Inc."
+         },
+         {
+          "title": "Medical Policies\u200b | CareFirst BlueCross BlueShield",
+          "url": "https://mim-qa.bcbssc.com/web/public/brands/cf/manage-your-plan/understanding-insurance/medical-policies/",
+          "snippet": "Non-Discrimination Statement and Foreign Language Access Copyright \u00a9 {{ new Date().getFullYear() }} All rights reserved. BlueCross BlueShield of South Carolina is an independent licensee of the Blue Cross and Blue Shield Association \u00b7 Non-Discrimination Statement and Foreign Language Access ..."
+         },
+         {
+          "title": "Payment Policy | CareFirst BlueCross BlueShield",
+          "url": "https://provider.carefirst.com/providers/medical/payment-policy.page",
+          "snippet": "Medical forms for providers and physicians in the CareFirst BlueCross BlueShield network."
+         },
+         {
+          "title": "Knee Ligament Reconstruction Billing FAQ",
+          "url": "https://www.medicalbillgurus.com/knee-ligament-reconstruction-billing/",
+          "snippet": "Healthcare providers must use specific billing codes that accurately reflect the procedure performed, such as the common CPT code 29888 for <strong>arthroscopically aided ACL repair or reconstruction</strong>."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_35395",
+      "args": {
+       "query": "\"CareFirst\" \"29888\" OR \"ACL\" OR \"anterior cruciate\" medical policy"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpcECpQEAWkUfRPKpmfCCb7XwviRSqzrTJ218SqzRUHBRCMN6GCqtQLqPv8VQftm6wtA75vEYQ5Q8ogY4hmoVF8poioKkV6RVjbo8jE0XT_zNch2wsq7wlnyeEQ_mt_49vkYp627oxQBWJ8RyHpD0LEUnAp536bMvH8OdaD2fIa_M8F_61RKXVd9OR4H09G1WNBDdLuB5ZCKpxTN4X8ooTeKNIlXzs3m02fbeoDDua2mb67inLdsW1JYU1v27lQlZknHowz-z3xtFBxfcrccyDIFfpqK7HddXjju--dB_9kHEDDFDLocH4eZ4YztWV0cnvsmPargmSS-l3NMpDUKEZ3_UBRkthZuV6DK4pTlt_vSb-Os8wU0_s1zMMFo1Ew_yxewQCFdE5NKVEVNsbX8mPmdETiwk1JBeP6Ww7lxPKV7rgajmU6snrEGRa8qr-t0C01mLrb3JOL1mTytnYS_gwlLjjzz2a21M2Us6In4GITmfQADCsCDJZNMOYomZmlTkMeAtp3dQVbnIRFrXfEvWQT8tRHwKfU8NaU-O7aocnx6Cl_zg4yWaLSpZocgEqZ2zfiNSXv_yc38Bz7Y7U4mQGDQtdqdaw-oZG6vS27RaLfMf_GtyMTv4NZBTm87WlGfyKdhsOoUBzFy17OpgvP00RLLrlsft0v4EPPQ_4gDR_Z49SvuU0mO7w0lF_gMhKOa7hzjkNxUPZ_Ipw=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"CareFirst\" \"29888\" OR \"ACL\" OR \"anterior cruciate\" medical policy",
+        "results": [
+         {
+          "title": "Arthroscopically aided anterior cruciate ligament repair ...",
+          "url": "https://www.medicare.gov/procedure-price-lookup/cost/29888/",
+          "snippet": "Use official Procedure Price Lookup tool to compare national average to Medicare costs in ambulatory surgical centers, hosptial outpatient departments"
+         },
+         {
+          "title": "CPT\u00ae 2025 American Medical Association. All rights reserved.",
+          "url": "https://www.aapc.com/codes/scc_articles/article_pdf/42/knee-surgery-ace-acl-claims-with-these-tips-156971",
+          "snippet": "In order to code your ACL repair claim correctly, you&#x27;ll \ufb01rst need to know what constitutes a codeable ACL repair, and is \u00b7 thus eligible for 29888 (<strong>Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction</strong>)."
+         },
+         {
+          "title": "Knee Ligament Reconstruction Billing FAQ",
+          "url": "https://www.medicalbillgurus.com/knee-ligament-reconstruction-billing/",
+          "snippet": "Healthcare providers must use specific billing codes that accurately reflect the procedure performed, such as the common CPT code 29888 for <strong>arthroscopically aided ACL repair or reconstruction</strong>."
+         },
+         {
+          "title": "CPT Code 29888 Description, Scenarios & Applicable Modifiers",
+          "url": "https://medibillmd.com/blog/cpt-code-29888/",
+          "snippet": "In this case, <strong>CPT code 29888 will be used for billing</strong>. However, documentation must include evidence of ACL deficiency through physical examination findings such as a positive Lachman test, anterior drawer test, or pivot-shift test, supported ..."
+         },
+         {
+          "title": "Helpful Codes For Cruciate Reconstruction With Allograft | JRF Ortho | HELP",
+          "url": "https://help.jrfortho.org/en/article/helpful-codes-for-cruciate-reconstruction-with-allograft-1jzqziv/",
+          "snippet": "29888 \u2013 <strong>Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction</strong> \u00b7 29889 \u2013 Arthroscopically aided posterior cruciate ligament repair/augmentation or reconstruction \u00b7 C1762 \u2013 Billing code for allograft \u00b7 278 \u2013 Other implants \u00b7"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_51240",
+      "args": {
+       "query": "site:carefirst.com \"anterior cruciate\" OR \"ACL\" OR \"29888\" OR \"knee\" medical policy"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Ep8DCpwDAWkUfRMCRpU1mKlIUgf-L-o0VjSFhFDozvDt1SydoGrWcyAevLhT4W9vqgn3-DkeTQ6FfsNx0-3MoAQgKQnagR8iuh52f5dtex7JpPcximseSUmosVuefoGAVRhc17L4wd6T7Hz_AFqHqcHfpYOGVUeq0BD7TOM7DRj1MZvakeN3CbCn0sZdDNA2JDVkoex7Yvw7RkujrZbDJSoav2KSgWB45C8mLFMVe_rFmp7RCgCXlHkyqIwsy5Z8a-0tDNIIyfhPeMelrcFC5qczpmny_84pR4OnwW9N7J5iVmn0r4zDlJtZFuE6BFk4D8tXbvvo2OYzBbKLVA-oFBQfUByDvh_dl3jk3zPVi1saDxKmRjcrNFjjwDJNBYoWJ5WBZmXAcGGOPcLRurVYx1D4GFAJBdWASEVr7dXx0_UtQGDrV5hV8GSL_QCbV-Uquo5nqqxibvviHgfCC0VQqSjkpVDxjBRI-GXa9zn2EGlxOZO_CORNc3cImNuGIZSTQ1ZlKfFx7YnE-7ZTEKxetYlG3g8sSLTa8c7qyTCJNVhGTQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:carefirst.com \"anterior cruciate\" OR \"ACL\" OR \"29888\" OR \"knee\" medical policy",
+        "results": [
+         {
+          "title": "Standard Approved Ambulatory Surgery Center (ASC) Codes",
+          "url": "https://provider.carefirst.com/carefirst-resources/provider/pdf/standard-approved-ambulatory-surgery-center-asc-codes-2024-1.pdf",
+          "snippet": "29888 \u00b7 29889 \u00b7 29891 \u00b7 29892 \u00b7 29893 \u00b7 29894 \u00b7 29895 \u00b7 29897 \u00b7 29898 \u00b7 29899 \u00b7 29900 \u00b7 29901 \u00b7 29902 \u00b7 29904 \u00b7 29905 \u00b7 29906 \u00b7 29907 \u00b7 29914 \u00b7 29915 \u00b7 29916 \u00b7 30115 \u00b7 30117 \u00b7 30118 \u00b7 30120 \u00b7 30124 \u00b7 30125 \u00b7 30130 \u00b7 30140 \u00b7 30150 \u00b7"
+         },
+         {
+          "title": "BlueLink News & Updates - February 2023",
+          "url": "https://provider.carefirst.com/carefirst-resources/provider/newsletters/bluelink-2023-feb.pdf",
+          "snippet": "\uf06f K1022: Addition to lower extremity prosthesis, endoskeletal, knee disarticulation, above knee, hip"
+         }
+        ],
+        "result_count": 2,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_8917",
+      "args": {
+       "query": "site:carefirst.com \"MCG\" OR \"Milliman Care Guidelines\" OR \"medical policy\" knee OR ligament"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpYECpMEAWkUfRP318LhtXkxdTq3dRlXIGGs41JtQFmqvZgPwczRo02MpvNZH7M7BLirOlH4rtlD_P_ywJ0calit4sR6q-KVBjoMAbkFXeQ2S-eHqloWHE7hqgqBGRNcGoVARlpfAZ2HzFtSZJw4uCRDNJo6cw39Co_uBueCB1Co6xnnc1qdWmeQD8XJ7F0FA0hnrFaGzpipu129ajJkZbZGHy4MXzbcPh10JecFx2HW7arGKkguHDVniYOAXF_rEhFJNma2fEjC6MNqOcmeqf3T1fHmS-AeYvti2cqvOSK_jEG-617a2X80hzsb9ZfxE2SWkwA1Pxr8OjHZqgcyexFXhuAdNSjY1au-1fQDXvcEU2x4Qobbz46KZI3-dUG8XDIyCra7ZBDFRaLACbUoRpUeQgRCcbSyxDlRq_u2C-EiwilQERJBXOfmOiNnHt89rVUxeksvATkoDnOnpHbm0yFf0nOmXEmdZYFjkvfPzSEYzgVRxtnoknOFXEHOyNYXEowmTXEnU1xLFb6bL6NYuf4ikoXacbVVlVpu66xbo_VsBZlHoh1damWvt6nqSgEDFuRpAucAkzjQqjS6q7n6DDYzwI2Vh-wwqQK6k1lbd8wGrIDSq4t75_OEJdF2EoDJFXGTV9yWG898q1dl9ZHJXog0tuNDagxLNh3fdu2XnAH0-l8JmG1ux8acnc_olfAslaCQF3p0gPps"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:carefirst.com \"MCG\" OR \"Milliman Care Guidelines\" OR \"medical policy\" knee OR ligament",
+        "results": [
+         {
+          "title": "BlueLink News & Updates - February 2023",
+          "url": "https://provider.carefirst.com/carefirst-resources/provider/newsletters/bluelink-2023-feb.pdf",
+          "snippet": "\uf06f Milliman Care Guidelines (MCG), for Behavioral Health, Ambulatory Care, Inpatient &amp; Surgical Care,"
+         },
+         {
+          "title": "network-precertification-preauthorization.page",
+          "url": "https://provider.carefirst.com/providers/medical/in-network-precertification-preauthorization.page",
+          "snippet": "Medical Policy To view the medical policies associated with each service, click the link or search for the policy number in the Medical Policy Reference Manual. Clinical Guidelines Our medical prior authorization system automatically triggers MCG guidelines and requires providers to complete additional information depending on the combination of the diagnosis and procedure codes."
+         },
+         {
+          "title": "Medicare Advantage Coverage Policies and Guidelines",
+          "url": "https://www.carefirst.com/medicare-options/medicare-resources/coverage-criteria.html",
+          "snippet": "MCGTM Guidelines for CareFirst BlueCross BlueShield Medicare Advantage (PPO) Providers MCG Guidelines are proprietary and therefore, must be accessed using a secure log-in process."
+         },
+         {
+          "title": "CareFirst Community Health Plan Maryland - Prior Authorization | CareFirst BlueCross BlueShield",
+          "url": "https://www.carefirst.com/medicaid/provider/prior-authorizations.html",
+          "snippet": "Our medical prior authorization system automatically triggers MCG guidelines and requires providers to complete additional information depending on the combination of the diagnosis and procedure codes. Maryland Medicaid inpatient reviews leverage MCG&#x27;s Inpatient Care Guidelines."
+         },
+         {
+          "title": "CareFirst Essentials - On-Demand Training | CareFirst BlueCross BlueShield",
+          "url": "https://www.carefirst.com/learning/on-demand-training/on-demand-training-cf-essentials.html",
+          "snippet": "Identify when MCG guidelines are not required or do not apply for your request"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_61865",
+      "args": {
+       "query": "site:carefirst.com/providers/medical/ \"Medical Policy Reference Manual\" OR \"medical-policy\" OR \"active-policies\" OR \"search\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Eq0JCqoJAWkUfRNjOcdRjs8SJfDiZEnW9JQdrYA0KK0yuVBXXRcLAyy2SSVIHdLVO5YYoON4ivWjPgGqoyxotsAU5TmAqczs6ffPx3hAKwLaGOTkFVbmphjYWWhfjDSslp3qqrFmzPT6mqtVtQoNJy1xVEBBZNGA0Z8I7bERbrEa0zjY902w6FmLbD76y4dWsWze0MAa6hhmuvAvf5to85RtzXnQiT3j1BlYHP_JncpgzNvXDgwf72b2nB3A3FkAIjf14pNYh4iZ-S1CiUouLsLoQcTgRcKmXk-pgpWN2WtG1jMPXE_A6U3elOmF8j3xEUzlPb7yvV6cSfh7QtQTmf83fCmcrXl2tJLhpK6817Kq4-abrb9pMU6mFt4OPeMhPJpTbCyLd9jeh3Ln8K1oTBg8JX63TYA3Z9InExBNruCdgaMF27AmeSjsu8iyNsqNSgyjWQCVdnqQDfOnFDsxKuatw9iyXCl3g_9FvwM_3t9r2crKgt8ILrqyYhUPTdF7RJFWt32Frazch2kgDtilykynfQOFVUasZgm8N2xECefIhVLqoy3IO-lrh7WkzEqnhcIhv73N9duENx6s8nwKxVg8K1BTB5c9Ha7-yAEs3Q0T8Y1V3AQIBkN5LbUZa6N1_Md65YOnyy2ZThY99lJR2ujx3xQLU-H6sO743nCa7Y8KrnEeumrsWq0Xa8Sj1vOkhKtk_8rc4ENXtcl7qrAZotAhGKSOvx2NdVHQaCr_QL2IKhhMQx0uquWmWut6LzqyohDslzOmSEwvH8BhXilKql3xV91AybQRgMklmphtEjO752JVBD_doL_O3LIR0jTFV4s9stGmol_fK_9Q1RSfu0KHo-wyTIdsW4r1RIL9lt_9uGO3sp5_Y7vzFA3xPIXQde3Zo9MimuZRLw8xceDrctmtbsNlG1UpJsEUNIrVbPoqwf5lvdCpx1VqgsAvaBfpUuOF-fgud5lNH9p50qvUInEUPpNsLBIkP-AvjL20chNu2dz2q_5LSifxPDwOgd03lLkLPWNtGRFErvPK-CReGd0tijbZJMHJVEHF2mt0AkSmawiunpjcM2pJ6M3JzAEE5v5uoLakgM3HuTl_eDxHlaTYG3l6-uxha6cXuMGvGpfqzL8ucwxBYpOLsqOGqYfn5eeygaBy1sNH6FvYH8Mg0c2GipaOrZQ02VgnF8pC8LcgBTQJ9k29_-qNp0_uRrwwHkMO6E1jJLm-EVUm8WhP9b9a73mwvCZfDHz6V0qawmDjKBpdwc2aR9PurWI14qzzHqvYGWo5gn9Acwb9OHMV0E-DaAJyAzVg0Y6K0RgW4ow0zVBT2ZCnm7kySz8s-ET0l8sNSaDAkn-LoAsgRep3UWIrPBjLlcC-8iZo_0MA4ELY94EzqBOa95bkmyEB5MbMkDyn8eT5Hk3JPex74jImr8QUBqsqVThAKOk6XmgfcfHSJTF7HRc09cZF3vam1wQB2gTlgR9wR9Yldk4sFL4ObNs0J5btiwrwtp9Ar6FEOb76K6nutdiXNZ8UdBlYfCEaO0sqv8SQX9EaV1YB1zcV09AcRg5ILBJCwrJo2JNDpMwUDQWmkKVti5HNlFTP6Jkv"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:carefirst.com/providers/medical/ \"Medical Policy Reference Manual\" OR \"medical-policy\" OR \"active-policies\" OR \"search\"",
+        "results": [
+         {
+          "title": "Medical Policy Reference Manual | CareFirst BlueCross BlueShield",
+          "url": "https://provider.carefirst.com/providers/medical/medical-policy.page",
+          "snippet": "The online Medical Policy Reference Manual contains approved medical policies and operating procedures for all products offered by CareFirst."
+         },
+         {
+          "title": "network-precertification-preauthorization.page",
+          "url": "https://provider.carefirst.com/providers/medical/in-network-precertification-preauthorization.page",
+          "snippet": "Medical Policy To view the medical policies associated with each service, <strong>click the link or search for the policy number in the Medical Policy Reference Manual</strong>."
+         },
+         {
+          "title": "Pre-Cert/Pre-Auth (Out-of-Area) - CareFirst Provider Portal",
+          "url": "https://provider.carefirst.com/providers/medical/out-of-area-pre-service-review.page",
+          "snippet": "To view the medical policies associated with each service, <strong>click the link or search for the policy number in the Medical Policy Reference Manual</strong>."
+         },
+         {
+          "title": "Medical Policy Reference Manual | CareFirst BlueCross BlueShield",
+          "url": "https://providersitb.carefirst.com/providers/medical/medical-policy.page",
+          "snippet": "The online Medical Policy Reference Manual contains approved medical policies and operating procedures for all products offered by CareFirst."
+         }
+        ],
+        "result_count": 4,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_60542",
+      "args": {
+       "query": "site:provider.carefirst.com/carefirst-resources/provider/pdf/ medical policy OR policy"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpADCo0DAWkUfRPzVOMyxwfqO-AO41XpTg68gVVfmO6dyMJV1VMJxa9Wkn_M0Suj4lqmct8KlxbF1OxxjCjtxeuw4sYMRW7hwjhHqJVbfJ48ptyrstlmgwPrUGcMN3gYp3_0DKQAC8KC4GtLbHQfNYwSyIT0XxoVB7txVzTxni1UNotonss-rxCnddqjr_fWQstR2oZmQUDcBCEPVemW1eyI1xubqPl-w4CO1HcJW8FppWnrbr5wXuO6y6Jz4i_K9KqzUjzNw93EeNwmMy4JgrQVD3vaZ0L6jZYsG3VPJj1vToj0g8WXfx-hzSiJwtD2pfveWjrI3adJEWzv6HFH6CjApjvJVgWNBxJYaI-oIMf-EZySAz8XpCV_iu0iE4HK6WlYqwMdhjvuEuVItTKFHeYPfSwkUTiNkrAaKKXCu66NuS89ObGRXUwkn_83vAZSkSFmQD1ypKTIrRWEIwkDrnv4l2DFoIhZdQ4NK4U7fNDvUjlJIyyrfmLJCe8u6peexeH7j7CuEvEwnhi5Fm3Aj7KFWQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:provider.carefirst.com/carefirst-resources/provider/pdf/ medical policy OR policy",
+        "results": [
+         {
+          "title": "Medical Policy Updates and Effective Dates for April",
+          "url": "https://provider.carefirst.com/carefirst-resources/provider/pdf/medical-policy-update-april-2025.pdf",
+          "snippet": "CareFirst BlueCross BlueShield website for Providers &amp; Physicians."
+         },
+         {
+          "title": "Medical Policy Updates and Effective Dates for May 2025",
+          "url": "https://provider.carefirst.com/carefirst-resources/provider/pdf/medical-policy-update-may-2025.pdf",
+          "snippet": "CareFirst BlueCross BlueShield website for Providers &amp; Physicians."
+         },
+         {
+          "title": "Medical Policy Updates and Effective Dates for June",
+          "url": "https://provider.carefirst.com/carefirst-resources/provider/pdf/medical-policy-update-june-2024.pdf",
+          "snippet": "category I CPT\u00ae, HCPCS and ICD-10 code. The policy \u00b7 revision resulted in the inclusion of psychotherapy services \u00b7 (CPT\u00ae codes 90791, 90832, 90837, 90846, 90847, 90849 and \u00b7 90853) that, if criteria is not met, will be deemed not \u00b7 medically necessary."
+         },
+         {
+          "title": "Medical Policy Updates and Effective Dates for August",
+          "url": "https://provider.carefirst.com/carefirst-resources/provider/pdf/medical-policy-update-august-2024.pdf",
+          "snippet": "CareFirst BlueCross BlueShield website for Providers &amp; Physicians."
+         },
+         {
+          "title": "Medical Policy Updates and Effective Dates for September",
+          "url": "https://provider.carefirst.com/carefirst-resources/provider/pdf/medical-policy-update-september-2024.pdf",
+          "snippet": "CareFirst BlueCross BlueShield website for Providers &amp; Physicians."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_15100",
+      "args": {
+       "query": "\"CareFirst\" \"Medical Policy Reference Manual\" OR \"medical policy\" knee OR ligament OR reconstruction OR arthroscopy"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Et0DCtoDAWkUfRO9mrLvv-BpxxRfm6wTB7X0I0Xow_g0yhTQgprVA40nHZFE4lD60MhPIUmXLFpvgvNzAZN4rKsb2rV3Qkk-MpswnGPeGCjd03ASK69U9hbMDImEyT884xy-EQq5cGSE708pwIwU5VviWKh8VnCLB1I2wf_GeGiI0Uq3FSNQhZrmeYicM_FTUexP6RAca0OGzrbgToIz8Oubv9SULB2IChxRSuKBnpk2S_thbagC7M7v_nCad6Gncgnb8SnfliVL3sGGJVwA-4OUtJgqFFZ8akn8_AwoGuLGlhc91UKKg5zUUJUcBSZ7nVM2D8TxHdiK2VZyOA2-65pmVXaowUb7I3QN7eF05hCARGTcDmAoyPzipOiEC-0bP9OLkbydYG2MSZfXSVJ72GYCvPvvmqp-YdojMYQtnV86cP35BBK-zJb76A-c8qi2thWavLFnH0vvsssS28eH4nA6QF7olNIQgU4KinJUZTVb6-hlP3DVPLS5rSGWGq1LTjYQPCB6NeISYaXyU-uwchJsWD_xycWMQe7J_b-ddYjCfd8TbBUnBVccGw4K3xZWSG98pNxiK8ZGkvX0-PwXqJKFNqZJFH8W4aVQ53Ctxv01XMoaFfAIwpgHXKOwhYg2"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"CareFirst\" \"Medical Policy Reference Manual\" OR \"medical policy\" knee OR ligament OR reconstruction OR arthroscopy",
+        "results": [
+         {
+          "title": "Medical Policy Reference Manual | CareFirst BlueCross BlueShield",
+          "url": "https://provider.carefirst.com/providers/medical/medical-policy.page",
+          "snippet": "The online Medical Policy Reference Manual <strong>contains approved medical policies and operating procedures for all products offered by CareFirst</strong>."
+         },
+         {
+          "title": "CareFirst Administrators - Information for Providers",
+          "url": "https://www.cfablue.com/providers/medical-policies-procedures/information-for-providers.html",
+          "snippet": "CareFirst\u2019s online medical policy reference manual contains approved medical policies and operating procedures."
+         },
+         {
+          "title": "Medical Policy",
+          "url": "https://www.providencehealthplan.com/-/media/providence/website/pdfs/providers/medical-policy-and-provider-information/medical-policies/mp434.pdf",
+          "snippet": "methods to treat knee problems more effectively. It involves using an arthroscope\u2014a small camera\u2014to \u00b7 <strong>visualize the knee joint, guiding the surgeon during the procedure</strong>. This approach allows for more \u00b7 precise manipulation and treatment of complex knee issues such as ligament reconstruction, ..."
+         },
+         {
+          "title": "Providers Home - CareFirst Administrators",
+          "url": "https://www.cfablue.com/providers/providers-home.html",
+          "snippet": "Learn about handling patient claims. Access the CareFirst online medical policy reference manual. Visit the CareFirst Administrators Provider Home here."
+         },
+         {
+          "title": "Knee Arthroscopy and Open, Non- Arthroplasty Knee Repair",
+          "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-65&pv=false",
+          "snippet": "criteria for diagnostic knee arthroscopy; debridement with/without chondroplasty; meniscectomy/meniscal repair; anterior cruciate ligament (ACL) reconstruction with"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_30326",
+      "args": {
+       "url": "https://provider.carefirst.com/providers/medical/medical-policy.page"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EvAKCu0KAWkUfRPRulJpyl1zVnRxNe2FfcqLjBNtuQuQPLibFUpLKaPOFatuqn_Q_F8c-gMA-UfPYyqx6CxS3Z1nFE9lWfrN_bK2-HPnR7V1Y8R7e91HLN4gtYoCUEPE-eAV5L2G0jJkafNo-H77afC5HRgQsLmd7RXIW0BqGblEHzAtQHCOH2PsGAdyroIH4bwJf09x9gFNaxabGWYnnGezUgHtjZJ-zh1r2f3E9xZhQgD2y9uhNH7ullKVyBtRzQZTsof_6r178c4Iax9XyKba-BMeVy9U3Oprd0sR_TbgJjOiggWM-UPMr4tu5bcWeRTpIegXlJUb-Wu1Muz7HT7X_XSSkw_jWbVZxQTXct-NTCFOkVr3Gvvzu5AAAXpXdCj0Qf6aWS-TeBucWOFOoqNJtBLBHcnjOdcRAwtI-kZG7t2f-znVLfyZC5P4MKIWUWZLvg0Tl3OW7iPA0tyMRztAetju2jR7azKuyGASb34vlY9u4JsT2QSSxrXBrBDe1D3a6zVfW7L-XzH0wVSlfZVf4VUUGmxjwk7A3T5iSKungVfkNFy2858punwEsjAyuU9eOQXN3UiuDu9SzNf3YGqUVg2Wlya6oVwpX60u5VTDmcDxp2jHieBqMphGAErIwJeOGBdGz96EveCrpDkRVs-VgBOv0YOQ6uQpn8S2zITRe7P2vK2aK59yf0s4hapRYL49o4s27ZRA7oGYNOYYPX4lToNDrnMpCXLhWMNAn6jCme8oS0bzu9dwfJmXvPYtwaMG82nJHlJ4Gu8fE_Q8OgnQEDlZkVoMVqQI4EwRafocNHpp9A11GoVznXwxGlSX_6rp0ZryJqaPS6uvQ-xDCj2TUVLD7PC1yjCCFH83FkZbwvhbUxyi8yzbLvbrqIhOjK4fvcyTPGm_L9H2To9UKxmguG72judfEUUocIDXJAwAikWw5ucwru642CIhDWZa9DIn-JTLGHJtsPIzv1pOGCXTpNiZ2m0az8IjCnqI8pahEkCP1qJW6SwHCmrLdIfzH9Egq0rS2oN5TAkUAwairNl7lhB5YR3CnwxT1Zye6onB9iQ0mzQWdLwNIK0dZIwZTeP7hycXUX7iMexLHnRv0r4Sma3mcJwfdoBeiv7Hp0mddOyRu2O7H0IUojm_7DbuiRvZGdZfIGz8jD1uP6bg0hRXES8y8fDd4NSuTD_0GCvPC6LQpnVCxBudjgv_arhMhdeAn1B3e1J2RN4bXoEPzVl6LvycceMzyioZbu2GUqslRgjmWBWXZ0cUk3WiahPfVCWUsx_V1q8J7bidsXpBX2XwmkfZUf91-1dwG8EM0Kk0BahJ_8ybeSHUCGhDphBrKfposiBY7XR6EOqlMcvjPfvCQGenWkLbUvO6T3LCAlqdE2nlfFstH72-FMpkbT9xbgXM7SD2D6YYuLbM7wFtCLzZAoGeiybbRUXChPsYmRgmCE9gnJ580DY_9lw3WQYWldQHxzqv4z3-7CtOuy4_r8S4of_ZJ5YdipKzHQpaE9XWOn8ThFWfmf-h3_Q5_qYxUDV04-J7w8YJe4uVhDJg8ntGRk2otcacyd4XK22JxFua1LCrmhdgBNm9xpmIg6iTzjROF-PfK5wzxM_8BWOXCtsEQNjS_JBleVnCDsc40Hnb0VBYp5azqpxLFLcjPudBzT46V14LQaaTxIMSDqtmhfafupktLcKg2vMx6MXn8x8D34GCgioeiQC07ToY1-9E1DGDOl6UTC-L42YtmmIXwHswyko-p3agBZE4h2G80zVHLqlvbcFmBxwZYCFfHckF6Pxzxsmz6iifHM0WHpDuy6jPgc0Oynrr-JvozswA5ZwZFNFzpG8QW9gVg5y2BaiWYWkg"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://provider.carefirst.com/providers/medical/medical-policy.page",
+        "final_url": "https://provider.carefirst.com/providers/medical/medical-policy.page",
+        "http_status": 200,
+        "content_type": "text/html;charset=UTF-8",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "Medical Policy Reference Manual | CareFirst BlueCross BlueShield EFT Payments Issued as Checks :CareFirst identified on or around May 10 an issue in which some providers who were set up to receive ACH/EFT payments instead received paper checks. This issue remains under active investigation. Providers do not need to take any action at this time. We are working toward resolution and will continue to share updates as more information becomes available, including expected timing. Billing NPI Reminder :The billing NPI submitted on claims must match the billing NPI on file with CareFirst, NPPES and for CareFirst CHPMD providers, ePREP and, beginning 10/13/2026, MPRIME .If your billing NPI is not enrolled with CareFirst, please go to: Adding a New Billing NPI CareFirst Direct Eligibility/Benefits and Claims Status will be unavailable Fri,Sep 18 at 6PM to Sun,Sep 20 at 6AM for Facets members Change Healthcare notifying individuals of data breach. Learn more here . Skip Navigation Need Insurance? For Members For Employers For Brokers For Providers About Us Company Overview Caring for Our Communities Cybersecurity Transforming Healthcare Working at CareFirst Contact Us Login Register providers false Menu Home Join Our Networks Professional Overview How to Apply FAQs Institutional/Ancillary Credentialing Overview How to Apply Credentialing Forms Credentialing FAQs Dental Credentialing Overview How to Apply CAQH ProView Credentialing Forms Credentialing FAQs Programs/Services Medical Electronic Capabilities Medical Policy Pre-Cert/Pre-Auth (In-Network) Pre-Cert/Pre-Auth (Out-of-Area) Medical Forms Medical News Payment Policy Dental Dental Overview Dental Electronic Capabilities Dental NPI & Payer Codes Dental Clinical Criteria Dental Resource Guide Dental Forms Dental News Dental Wellness Pharmacy Pharmacy Exception Requests Pharmacy Resources Pharmacy Prior Authorization Care Management PCMH Quality & Affordability Clinical Resources Care Management Form Provider Scores Wellness/Incentives Blue Rewards Resources Administrative CareFirst Direct Update Practice Info Manuals & Guides Forms Inquiries & Appeals Medicare Appeals and Grievances Claims Claims Submission Dental Claims Submission NPI Dental NPI & Payer Codes Ancillary Claims Corrected Claims Medicare Secondary Paper Claims Resources Looking for Support? Federal Employee Program CareFirst Direct User Guides Coronavirus Resource Center News/Training Learning and Engagement Center Newsletters News Archives Manuals and Guides Text Size -Aa Aa +Aa Print: About Us Need Insurance? For Members For Employers For Brokers For Providers Company Overview Caring for Our Communities Cybersecurity Transforming Healthcare Working at CareFirst Contact Us providers false Log In or Register Medical Electronic Capabilities Medical Policy Pre-Cert/Pre-Auth (In-Network) Pre-Cert/Pre-Auth (Out-of-Area) Medical Forms Medical News Payment Policy providers Medical Policy providers The online Medical Policy Reference Manual contains approved medical policies and operating procedures for all products offered by CareFirst. Medical policies, which are based on the most current research available at the time of policy development, state whether a medical technology, procedure, drug or device is: experimental/investigational cosmetic medically necessary Operating procedures provide specific benefit information and/or instructions. Medicare Medical Policy Guidelines For Medicare Advantage plans, the guidelines describe when certain medical services are considered medically necessary and are based on Original Medicare National Coverage Determinations (NCD's) and Local Coverage Determinations (LCD's) when available. Where no NCDs or LCDs exist, CareFirst BlueCross BlueShield Medicare Advantage will apply industry standard and CareFirst medical policies. For further information regarding Medicare NCDs and LCDs, refer to the CMS Medicare Coverage database (MCD) . Medical Policies Medical Policy Updates Select the PDF below to review changes to our medical policy. To view changes prior to April 2023, refer to our BlueLink newsletter archives. Expand All | Collapse All providers 2026 April 2026 Medical Policy Update January 2026 Medical Policy Update providers 2025 January 2025 Medical Policy Update February 2025 Medical Policy Update March 2025 Medical Policy Update April 2025 Medical Policy Update May 2025 Medical Policy Update June 2025 Medical Policy Update July and August 2025 Medical Policy Updates September 2025 Medical Policy Updates October 2025 Medical Policy Updates providers 2024 January 2024 Medical Policy Update February 2024 Medical Policy Update March 2024 Medical Policy Update April 2024 Medical Policy Update May 2024 Medical Policy Update June 2024 Medical Policy Update July 2024 Medical Policy Update August 2024 Medical Policy Update September 2024 Medical Policy Update October 2024 Medical Policy Update November 2024 Medical Policy Update December 2024 Medical Policy Update providers 2023 December 2023 Medical Policy Update November 2023 Medical Policy Update October 2023 Medical Policy Update September 2023 Medical Policy Update August 2023 Medical Policy Update July 2023 Medical Policy Update June 2023 Medical Policy Update Expand All | Collapse All About Us Company Overview Awards & Recognition Corporate Offices & Locations Service Area Map News Releases Cybersecurity Doing Business with CareFirst Transforming Healthcare Caring for Our Communities Media Multimedia Resources Health Care Resources Media Inquiries Legal & Mandates ACA Rate Increase Justification Patient Rights & Responsibilities HIPAA Health Care Fraud Prevention Member's Privacy Policy Notice of Privacy Practices Text Terms & Conditions Quality Improvement Transparency in Coverage Balance Billing Mental Health Parity Prior Authorization MD Proposed Rate Increase Law Virginia Claims or Coverage Denials Developer Portal Health Information Sharing Machine Readable Provider Directory Data Machine Readable Pricing Data Nondiscrimination Notice and Foreign Language Assistance Summary of Preventive and Contraceptive Services Lactation Consultations Appointment Wait Times Careers CareFirst Careers Search Jobs at CareFirst Our Teams Join Our Talent Network Why Work at CareFirst Students & Graduates More Information Other Information Community FEP PPO Congressional Employees Health Insurance Glossary Medical Policy Contact Us Site Map Language Assistance Available English \u12a0\u121b\u122d\u129b \u0644\u0644\u063a\u0629 \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u09ac\u09be\u0982\u09b2\u09be \u4e2d\u6587\u7e41\u4f53 \u0641\u0627\u0631\u0633\u06cc Fran\u00e7ais Deutsch \u0939\u093f\u0928\u094d\u0926\u0940 Igbo Italian \ud55c\uad6d\uc5b4 Din\u00e9 Bizaad \u0928\u0947\u092a\u093e\u0932\u0940 Portugu\u00eas \u0420\u0443\u0441\u0441\u043a\u0438\u0439 Samoa \u0441\u0440\u043f\u0441\u043a\u0438 Espa\u00f1ol Tagalog \u0627\u0631\u062f\u0648 Ti\u1ebfng Vi\u1ec7t Connect with us: CloseKnit is the shared business name of Atlas Health, LLC, Comprehensive Primary Care and Associates, LLC, and CKNMG, LLC. Atlas Health, LLC and Comprehensive Primary Care and Associates, LLC provide in person and telehealth services to CareFirst members and are corporate affiliates within the CareFirst, Inc. corporate umbrella of companies. CKNMG, LLC is an independent company providing in person and telehealth services to CareFirst members. Serving Maryland, the District of Columbia, and portions of Virginia, CareFirst BlueCross BlueShield is the shared business name of CareFirst of Maryland, Inc. and Group Hospitalization and Medical Services, Inc. CareFirst BlueCross BlueShield Medicare Advantage is the shared business name of CareFirst Advantage, Inc., CareFirst Advantage PPO, Inc. and CareFirst Advantage DSNP, Inc. CareFirst BlueCross BlueShield Community Health Plan Maryland is the business name of CareFirst Community Partners, Inc. In the District of Columbia and Maryland, CareFirst MedPlus is the business name of First Care, Inc. In Virginia, CareFirst MedPlus is the business name of First Care, Inc. of Maryland (used in VA by: First Care, Inc.). CareFirst of Maryland, Inc., Group Hospitalization and Medical Services, Inc., CareFirst Advantage, Inc., CareFirst Advantage PPO, Inc., CareFirst Advantage DSNP, Inc., CareFirst Community Partners, Inc., CareFirst BlueCross BlueShield Community Health Plan District of Columbia, CareFirst BlueChoice, Inc., First Care, Inc., and The Dental Network, Inc. are independent licensees of the Blue Cross and Blue Shield Association. BLUE CROSS \u00ae , BLUE SHIELD \u00ae and the Cross and Shield Symbols are registered service marks of the Blue Cross and Blue Shield Association, an association of independent Blue Cross and Blue Shield Plans. \u201cWorld\u2019s Most Ethical Companies\u201d and \u201cEthisphere\u201d names and marks are registered trademarks of Ethisphere LLC. providers Policy Disclaimer modal",
+        "text_truncated": false
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_30420",
+      "args": {
+       "query": "carefirst medical policy search tool"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsIICr8IAWkUfRMO1ldyc3cLgzWOBoHwi0lGVuiwehVmEZ047Lr0_9Amwit35o3JOF09U5fFUct9z0kR9hoLB9jIoFh8Ittjrax-FjsjDJgGd0bUZMmhhjQg7iNFqAj3CiFT5vrvCCxtH9J0SOa86Wuoe_ZwB6Xe1ruTKLiKXNVEbSdXg1TiSMih1HlNwqtMttpxNUeEBhmn0JjKPJIxBnpdtleK2l2YVjHuC9E-bgu4JXkp9Sdgq6terVjHExNNdpY803CNMTgOzun9m7InrJR67IoiZj_Hr5BMXGXNRxsg_yFuMFU_8RoNEqCquLXgx-jqMTXrThDPf_xRQGV0b9zDeBsZM8yqRtUb_m4JeA_rlkavcr3JSAb8E5fDFK4M1QfGYkt380lrF65a4PAt1vldvLdoWK556c_MqfTLu3gRrApGDpg4XxyiLC6_46ByXOYdODEyaBVaURYpdUqz0OYNo7OgWBGwhkLJ7q_1MdhyMtb8R_WD2Ehk23_qtZwMKyBB48U2oOb4slbmkUSyyoR1NwRUQsbSb_2-npOVJKrQy0glQEH36lnCabXCQBc-mdfmgnXj3MvdJy_aH9RnmDNRTqsH1LpttUBi5J3a9zw-8bUXczMeP0fEYmrWmIp_dCDCrLPZIuCYE1TQXOBAgAqJAxNM_ynSjGvCkO8MxJDKKMXApFV2gqa8yGxzT9D1tyV0lIgDR7ZnCVkBIS-DWgMamJmnDMs3PD7v_Wy6pZ0Fh-TYWYTsnZmtNr6nnOKPngfxrUT7ZSDiLUX_igBJRC-Vt8imSxptO51SI0lKe3ve7jHj9q0hkV5uKAka9b9-TY1MMCQvT5O5_qUnJhHwthDAyv0sQNlAyC1BlM7-4ajMQfRKP6ngFPFNQSdHm8piHr8pprtB6wd7n2ihz0Xk_nBXNIQEvmxEKxkgKS6kGLxBmw-MKbQQTd646oSd9d4xNcIl6gORzIywj4lEJekr-KYvIxkzTLcZnjpmyAfktKz9GPxso3zpvhTNg84aFbWRSwgVJGZZOOEw1Aqn3aVG0wp-jMKqwME0yekqv8lZ2ZE9TI5S2gglfLdyEHsQ15HVKf1H6AyO-643kPQTocqfdJOBCVbDzAdVMa8egmD1W_6niwZ25Qab5OzF-gm_kK6i0ubg9pOsEphDPdEOEriKSp7lHReaYcM25yuD8_BEJS1ruepRMR34TLXlH6xp1yp5r6_fbzIf0vKJSJHoiKtn5CbK9ahdl8PPK-UjN0Oi18GweUqdB_F7owpJbYTQQwlBseYXBYLongcwp0i9R3fPY7At5Ibt3bV-DGRSoj8COBn_EFYwMR_YmHD-Wd0mFw0-rSwyQo5LJZVfHRZDJ6JpLtMUOsHCHw-3F-a7jcEz_oYYShnrOErUOUUuAxGsc4DC3JmheC9SLP6KaG2kvmYBvHjzAfNVb3Uxvl817UVi-yaEEljSVw=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "carefirst medical policy search tool",
+        "results": [
+         {
+          "title": "Medical Policy Reference Manual | CareFirst BlueCross BlueShield",
+          "url": "https://provider.carefirst.com/providers/medical/medical-policy.page",
+          "snippet": "The online Medical Policy Reference Manual contains approved medical policies and operating procedures for all products offered by CareFirst."
+         },
+         {
+          "title": "http://www.carefirst.com/medicalpolicy",
+          "url": "https://www.carefirst.com/medicalpolicy/",
+          "snippet": "You are being redirected to the medicalpolicy. Click here if you are not automatically forwarded"
+         },
+         {
+          "title": "CareFirst Administrators - Information for Providers",
+          "url": "https://www.cfablue.com/providers/medical-policies-procedures/information-for-providers.html",
+          "snippet": "Medical policies, which are based on the most current research available at the time of policy development, state whether a medical technology, procedure, drug or device is: ... Operating procedures provide specific benefit information and/or instructions. ... CareFirst\u2019s online medical policy reference manual contains approved medical policies and operating procedures."
+         },
+         {
+          "title": "network-precertification-preauthorization.page",
+          "url": "https://provider.carefirst.com/providers/medical/in-network-precertification-preauthorization.page",
+          "snippet": "Prior Authorization Lookup Tool ... Medical Policy To view the medical policies associated with each service, <strong>click the link or search for the policy number in the Medical Policy Reference Manual</strong>...."
+         },
+         {
+          "title": "Medical Policies\u200b | CareFirst BlueCross BlueShield",
+          "url": "https://mim-qa.bcbssc.com/web/public/brands/cf/manage-your-plan/understanding-insurance/medical-policies/",
+          "snippet": "Toggle Site Search \u00b7 {{ navItem.title }} Back \u00b7 {{ navItemChild.title }} {{ quickLink.title }} View a list of Medical Policies \u00b7 {} Complementary Content \u00b7"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_33164",
+      "args": {
+       "query": "site:carefirst.com/medicalpolicy/ OR site:carefirst.com/medicalpolicy"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpsDCpgDAWkUfRNeRnMbnQw8mG9Pic6be6Rc-3e4gcnlnWbJlKtXS35hfSefHtiiONXOqcc1IbOnGQduVaHdnoimFujT3O2XhqBgzZXtZyauqBsLdbRAz88z79jqR3PlgpD6OFbMG_FlzkWzvepmpiUKOCSSPIrl5LzQrcRLxg_LXeG1kB7V7ptTGkZ_XqDr7_0Jbuc6p7nIG6UQ4EtYGFCzjmjQ7fG7g-CBiqvYcs0xkMoigUa-bJL8HvOTEK2Ef7HDtNieHwiDdarFp9CoRdaU_Y6x02mHCke9pIrtUd09fQJO0CLkt2EtpHpUqbuebHAB7P4Ypc0I9Cj8nRMTPZXZXwvANMjXbcvuWzuubqNLQ00mGMCRazgxAM3EiMKiNQ-_YLMVUNpp9YzbwPOqwRSqKgXv_I88onHAU0U2WONqmLGnFlwG6zpoWj1lCD1LfHOibXTIGCY1i8mvQ10PSYyrGNrVPGhn0jDYMpGTEOK0b22jJYdPK1EG3RvLc4BgR_bUgP1KUBFSjXx83am4sA8Izf_KcsUK5WN9jkMy"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:carefirst.com/medicalpolicy/ OR site:carefirst.com/medicalpolicy",
+        "results": [
+         {
+          "title": "http://www.carefirst.com/medicalpolicy",
+          "url": "https://www.carefirst.com/medicalpolicy/",
+          "snippet": "You are being redirected to the medicalpolicy."
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_29448",
+      "args": {
+       "query": "\"CareFirst\" \"Knee Arthroscopy\" OR \"ACL\" OR \"ligament reconstruction\" OR \"29888\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Ep4HCpsHAWkUfRMq3Yst5qQjEEUXnIbHlYqj6LPTB94ooE_8uCrG3Y6b_2uG5Wvnh11XU1k71FIqak9v1j56A9d9b5otfMhJG5FeszlSppELCW8-ntd83Nx9JR37smtWR6ZFRo85kKGJgnqF7CLp1hQsriLSz_eWTZjsYqmFA2s_9D0Pm7NL2Xl5Ovl69Pg1e-GuFRUxTLLIbqE93cU49LFl4RWaiAFKzG3YucjFiYBYI2wVK3wPnB0Jj_ccFl27QhgkGw-on3514a9mwEA3iGcBZPSXhUPMVNP4qLLbh3ciW_JrKDdx-Rjz7JP7kaeI1IzEFa3wgqiGT78xde2Yb3IASkIkpG8RJH2-cQg-z1KeCgReI2pxupOPw2S0NXAKKAFOWf0Ws1W6RBH4nRB-xyYGCz6Zn5emSjNovfz3NR6EklUdE3Ls3cff4etLFNs4MbAuMnezn7BUPVz09avNPLwdLlNTzVBZiS2js-nS0E97Ov63rslY_boP_4LJgnc57lAU36n6PODpGgwkP52dTCe9bvwa-AqpaVxzo27eAAAMozMHBD8F7-Mtxhiih5u_15N3ryLFKGn0yBkC3GmYxSjdu4SCKpli2gHNbxSdAzxXOll_IBpUxabUhEkNrk0gLKjCp8JjRblCFwcjeLf0xAiDuD7iOUVy0VgwIPrdo85zGVvokaemPXhtxxjnIyWJGhTDTAsjGzdb9xo1ORUdKklwjOTN0PQU-DZ5k7NAbLcGRMok6rWzVn9ndrogrw6KIERW-Eg08S-1kxh0d8Mgw3LP9ZIhAJuhtjWIxKwWUam68loG2Lz49gc3sz5TZmDCE9dJZEXRwyjmdpz0NS10vjzyEfsubyN6jUsUoLfGgnNWHn_OG_f95LvfkK--Ega0shSphZR0HIwI2XcZfs2hCPgWCteC3INowm04ubZJDFFAti_VQ9ECtfSZB6YBNSuyspCUtxG03jzsiu0ezRTkjzgnHnfrGxT5G35YrVSuOoVogHIp6z6Uox4HNgRfjAj_5zHK_3ABZPu1IjoaGL7DULoY6avCBRKVUM5GkChiLU5CLkLe5OOV5PxN2WreUQQHlLR80lwDOBeaFsrODQR43QmyNJK2bELzjzcHs5CfW-abMC2z33MMFEoFDqXhWD-EClBSR68lOltszItGxd3vuHWcSKBJjDwcdo_l6-I-USWlSlNuwGe1sb2SZiMPE-0DAUZuui1KqqCuHE7OdHGM8sg="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"CareFirst\" \"Knee Arthroscopy\" OR \"ACL\" OR \"ligament reconstruction\" OR \"29888\"",
+        "results": [
+         {
+          "title": "Knee arthroscopy ACL repair - Project Clarity",
+          "url": "https://projectclarity.health/knee-arthroscopy-acl-repair/",
+          "snippet": "29888 Knee Arthroscopy / ACL Repair Our Work &gt; Good Faith Estimates &gt; Knee Anthropology ACL Repair Recent regulations require hospitals and health plans to publish prices of a subset of services. The hospital rule"
+         },
+         {
+          "title": "CPT Code 29888 Description, Scenarios & Applicable Modifiers",
+          "url": "https://medibillmd.com/blog/cpt-code-29888/",
+          "snippet": "CPT code 29888 is a medical billing code used for knee arthroscopy, <strong>a minimally invasive surgical procedure to repair the anterior cruciate ligament (ACL)</strong>"
+         },
+         {
+          "title": "29888 - Arthroscopically aided anterior cruciate ligament ...",
+          "url": "https://genhealth.ai/code/cpt4/29888-arthroscopically-aided-anterior-cruciate-ligament-repairaugmentation-or-reconstruction",
+          "snippet": "L5696 - Addition to lower extremity, above knee or knee disarticulation, pelvic joint \u00b7 29888 - <strong>Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction</strong>"
+         },
+         {
+          "title": "CPT\u00ae Code 29888 - Endoscopy/Arthroscopy Procedures on the Musculoskeletal System - Codify by AAPC",
+          "url": "https://www.aapc.com/codes/cpt-codes/29888",
+          "snippet": "So this patient is having an arthroscopic ACL, open MCL, and open POL (Posterior Oblique Ligament) reconst... [ Read More ] ... [QUOTE=&quot;rogersa1994, post: 491997, member: 607877&quot;] Hi! I&#x27;m actually looking at this code (20932) for a 2-part ACL reconstruction surgery. My doc intends to pack the holes with allograft after removin... [ Read More ] ... My surgeon performed CPT code 29888 on 2/2/2021 and then the patient came back on 2/5/2021 and the surgeon performed the procedure again on the same knee, but told me he wanted me to only bill 25% of ..."
+         },
+         {
+          "title": "ACL reconstruction \u2014 orthopedic coding glossary | Mira Health",
+          "url": "https://mirahealth.care/reference/glossary/acl-reconstruction/",
+          "snippet": "CPT 29888 <strong>covers arthroscopic ACL reconstruction with or without concurrent meniscal repair on the same knee</strong>. Open reconstruction is reported with CPT 27407 (single ligament) or 27409 (multiple ligaments), depending on what was performed."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_19745",
+      "args": {
+       "query": "site:provider.carefirst.com/carefirst-resources/ \"29888\" OR \"ACL\" OR \"knee\" OR \"arthroscopy\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Er4DCrsDAWkUfROcjSrppclRQuXk_kxgfHMYQF-12MZsY7-TyevS4xGg1EtZgd2QHJ8uSaRerlk5d0k117xgJeyZmvYveceSJDUHiR6-zSMXIdytxuhori6CifanrJvQjjPFZR-OY3vFbYTDaAJED9IacZiUIULIIGY9DqPnTolJDzPLvihrxmnaI5vnQZMwHHOTr1QiKKfYicH4NbXZ6CAJYdQf3I5og2ucnSJ71JVnwrldfgQOV0S9JPhDO2Z-t_1jZaxKmM9ta5vxqydJUe7Sj3NwfR4RSDedG5-L-04u3Rp3WaLJklANlLY0Mhrd6LxmkB0fRgy9LRFEHeFPDE3dz95BtfjkJAGGhZzddU8tdyePhPqLGE125Ek9oteuyYshH8MQLr1HyiJnlphw1j_fC-B3spAm28EUovAJ1tT8Pn6y-iOc64P3uRot-flz-Pk9tm9Wdr40LqotXAsTWfNoUianK4XR7f1giQ8xeoIQAccUdI3sjfdca3viCm71yiojNlRYxG67k7qE5mIcsf2SDk0oEsNghs9KPkgkTbSaur9-pbUoiIIltIWZV4utqAM_gxX90bf1AMsy3JK6mi0="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:provider.carefirst.com/carefirst-resources/ \"29888\" OR \"ACL\" OR \"knee\" OR \"arthroscopy\"",
+        "results": [
+         {
+          "title": "Standard Approved Ambulatory Surgery Center (ASC) Codes",
+          "url": "https://provider.carefirst.com/carefirst-resources/provider/pdf/standard-approved-ambulatory-surgery-center-asc-codes-2024-1.pdf",
+          "snippet": "29888 \u00b7 29889 \u00b7 29891 \u00b7 29892 \u00b7 29893 \u00b7 29894 \u00b7 29895 \u00b7 29897 \u00b7 29898 \u00b7 29899 \u00b7 29900 \u00b7 29901 \u00b7 29902 \u00b7 29904 \u00b7 29905 \u00b7 29906 \u00b7 29907 \u00b7 29914 \u00b7 29915 \u00b7 29916 \u00b7 30115 \u00b7 30117 \u00b7 30118 \u00b7 30120 \u00b7 30124 \u00b7 30125 \u00b7 30130 \u00b7 30140 \u00b7 30150 \u00b7"
+         },
+         {
+          "title": "Arthritis Care & Research Vol. 64, No. 4, April 2012, pp 465\u2013474",
+          "url": "https://provider.carefirst.com/carefirst-resources/provider/pdf/acr-2012-osteoarthritis-guidelines.pdf",
+          "snippet": "Methods. A list of pharmacologic and nonpharmacologic modalities commonly used to manage knee, hip, and hand OA as well"
+         },
+         {
+          "title": "BlueLink News & Updates - February 2023",
+          "url": "https://provider.carefirst.com/carefirst-resources/provider/newsletters/bluelink-2023-feb.pdf",
+          "snippet": "\uf06f K1022: Addition to lower extremity prosthesis, endoskeletal, knee disarticulation, above knee, hip"
+         }
+        ],
+        "result_count": 3,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_84288",
+      "args": {
+       "query": "\"Medical Policy Reference Manual\" site:carefirst.com"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EoIDCv8CAWkUfRPWaUnK9TtNFf4B6A2BotDh66lWbYry8DlHEuTs1f-r_oAigZ3CAvsLbeIwkoNHcSMR_AAbPO2cD9OhPFTfKar-RjAb3bTC6oE8lcSbbAwe-l2VGgZf9piDucHh4WxDbdvuYtAzRo97PXuFHl2F3pooQylaeK7M90MdMgUzm3kt_ALbUcW4pVApB-qtSgkskXYVAinXUqfT6a5iajCe9VQrONWCSQjFMyvGcVtJEXdh8JswFV-169VPrCgLEfD5_5sg8voQ10Iej6Qh-8dZ9y8B4asadiKfu8UOv9OGjFbo6V75b_mwaN5iqpEkgXYNvUeLqa2VGzUwhmt6tnzc-8EjQQa_vXdjnYaYJ3u6bvJfEPSBHtSWzQ8Kdpp-5PisGWygmkn1yeuJQ2r21y3vvOmWi_f5fNj_1vU7Trb3Flk4DnHNurJ6YRfOgonff3axx30HhJv5uJZf26pl7xUjCb-Cg_Qigr4kp-6hKU3hUADsJWd6J_ER7FQPg24="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Medical Policy Reference Manual\" site:carefirst.com",
+        "results": [
+         {
+          "title": "Medical Policy Reference Manual | CareFirst BlueCross BlueShield",
+          "url": "https://provider.carefirst.com/providers/medical/medical-policy.page",
+          "snippet": "The online Medical Policy Reference Manual <strong>contains approved medical policies and operating procedures for all products offered by CareFirst</strong>."
+         },
+         {
+          "title": "9.1 9. Policies and Procedures 9. Policies and Procedures",
+          "url": "https://provider.carefirst.com/carefirst-resources/provider/pdf/provider-manual-chapter-9-policies-procedures.pdf",
+          "snippet": "Refer to global surgical procedure rules, 10.01.009A in our <strong>Medical Policy Reference Manual</strong>."
+         },
+         {
+          "title": "Dental Provider Manual - Policies and Procedures",
+          "url": "https://provider.carefirst.com/carefirst-resources/provider/pdf/provider-dental-manual-chapter-7-policies-and-procedures.pdf",
+          "snippet": "policies and medical policy operating procedures can be found in the <strong>Medical Policy Reference Manual</strong>."
+         },
+         {
+          "title": "Medicare Advantage Authorizations - CareFirst Provider Portal",
+          "url": "https://provider.carefirst.com/carefirst-resources/provider/pdf/medicare-advantage-prior-authorizations.pdf",
+          "snippet": "\uf0a7CareFirst <strong>Medical Policy Reference Manual</strong> (available at \u00b7 www.carefirst.com). Consult CareFirst\u2019s Medical Policy Manual, an \u00b7 electronic database that contains both \u00b7 medical policies and medical policy operating \u00b7 procedures on CareFirst Direct. ENTERING OUTPATIENT AUTHORIZATIONS \u00b7"
+         },
+         {
+          "title": "Benefit Exclusions and Limitations \u2014 BlueChoice Only",
+          "url": "https://provider.carefirst.com/carefirst-resources/provider/pdf/professional-provider-manual-benefit-exclusions-and-limitations-bluechoice-only.pdf",
+          "snippet": "<strong>Medical Policy Reference Manual</strong>."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_24773",
+      "args": {
+       "query": "\"MCG\" \"29888\" OR \"ACL reconstruction\" OR \"knee reconstruction\" clinical criteria OR guidelines"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpkJCpYJAWkUfRMRtmYfUO1AmN9jSlPd_Qpxj5x0Ril9m6iGHnzF_dEM8cjUwrhMZJsV51wBNDPtg7HXjbTdNdiU_v_o1SrpeYzFv_nduEH5etZEVKzo7eLstnLqPDYc0_cIbdVVb4TVlWU915yFz1A8zlw6PC33t476x_cnBJ8-d8QZqCZtOzM3Omo3_VUywgvM98_09EYQDXhHZOpHqNsw_0AaN05vdxfAmLyLcbeAF_EU5bGsaiGKi_hbBPzXPGHwNGy9oIzyhr46cA1IXxnjymL42qmWyE4cQwjm0u4G-IKNkIkNWmNC9hE_wTm1SfJNqlE8jtXasTOwYCwQYG_vM9N1HYiiM8CAjYlx7Ycj33MhOGl4NbY-Pc4QLLh8_S8JNRjRV11E4UrP9v6ljmQnPbHxjpy8ADvoHppyuHZtWJjH4raBL4TvLpMmBeC91xewzSiqC2rES_nug_eduDnD1hiqlLsKsvG1ijScg70PurIX9D1lf-qXHEwavt8jKT76mCxGNTGzj6_s_6z9JJEiWfkqiSN8Fz3Xkp3HiDaC0c0eZuKuJkZWvIhUkjKSGVVsfdggyzBijvv4LQVOTMM-o5Snbl6Gkc7lj28qlePBmFXCnc8ByKvr4ctaW8OjtmMMt_8pzKN0s0ef1jXwULD_It9U3lz-Wya8VbEBCydqS5Lx15dG8g0OsSBZYt8CGStWmvZuA7dzn5HE03nIBzF-vbfRqGJlihJZi14nxVuKAte6O3RHU9JQtMavsgYdu_JhJNYjDlevj-Fd35jMVfTtBQ8w-UNkH6qiIE3A28S97Q_euyiHtmjM92q3p464FACrF2nd1zl03aacTekVxl1itzuME2PwxtOCDZ4_QauKNhSv--Mxler-vpb-9gsTfWa8kNMjul46DoK0b7eVfUiD1MsfTlMgwhxqiQivrB50cXZ0emL3_ozg1t_xGv_92_OO-ODmRhRHe3cbdsRZrkG81ez5G-vYjF_-I8zy6i1eg4pgEHLXL30_lAkAxI_lb7qRnH5bh-YJoFo9XmPHUheJkSClM9emACe7Jojpqdl3ArX5ySYd1jJlaPpmEvufuSzaBjtpMxSUzu-Ts7kXrkquzuNxqbUpMuGaxWQbYasrbRTbnDtSRvS-RHhibeyzR3JD_l466DXB9VBOiAltMkQ3emn7NuCzH4JDCm78c7X6FsymbXnsrPdiH8XH_vrjJ7Iu9WVOnBBlwOjSvrXfzWA2vuYOjQUpR33xdQxeER4NknZ1zZwHYtfEK5WEluFjV-RvsH7JuBmFpR55QJs3-O-dwVvpStWiKJpTlypKNk_BI_pLEd_fIgmp_h9MsGa3UJgn7EnfqYA7xltlnujVkA8yxd-pgVXlS78GK53gBYiRVABGjT_HUZanbq2Wm4d_dVS-BB7TmypXgZhLIMCfbd4_0T2iEEYTt-ZsWlYkERDR1tj0meC_KCcGYTJZGp5OpSLhEIGWbFazfd9KvK1ugzUjuABGDRNBIdOfoghUe20l-GTK1C3c5xOiNhl2tYWsdeFKxYg4Djtyp8U_DsQL_MQ3G25e-xe0OUUVfA=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"MCG\" \"29888\" OR \"ACL reconstruction\" OR \"knee reconstruction\" clinical criteria OR guidelines",
+        "results": [
+         {
+          "title": "Knee Arthroscopy and Open, Non- Arthroplasty Knee Repair",
+          "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-65&pv=false",
+          "snippet": "injury\u201d (Friedberg, d&#x27;Hemecourt; 2025) that states \u201cACL reconstruction is generally performed with \u00b7 arthroscopy using a tendon graft to replace the ruptured ACL. Graft selection remains a source of debate \u00b7 among orthopedic surgeons \u2026 Of note, patient factors (eg, prior knee injury, comorbidity), resources, and"
+         },
+         {
+          "title": "Management of Anterior Cruciate Ligament Injuries",
+          "url": "https://www.aaos.org/globalassets/quality-and-practice-resources/anterior-cruciate-ligament-injuries/aclcpg.pdf",
+          "snippet": "single and double bundle reconstruction in post-operative pain, Lysholm, or IKDC subjective knee ... As with all surgery procedures, there are surgical risks and complications including but not limited to, graft failure, arthrofibrosis, infection, neurovascular injury, and anesthetic complications. ... The many high quality studies demonstrate that either single- or double-bundle ACL reconstruction can \u00b7 result in excellent functional and clinical outcomes."
+         },
+         {
+          "title": "ACLR AND MCL REPAIR CLINICAL PRACTICE GUIDELINE",
+          "url": "https://medicine.osu.edu/-/media/files/medicine/departments/sports-medicine/medical-professionals/knee-ankle-and-foot/acl-reconstruction-mcl-repair_2023.pdf?rev=fa6ca34728f547ff9942ed75bb0ba457&hash=A69147685A1D795BEC32E554ACABE28A",
+          "snippet": "between patients in the Delaware-Oslo ACL Cohort and the Norwegian National Knee Ligament Registry. Br J Sports Med. 2015;49(6):385-389. doi:10.1136/bjsports-2014-093891 \u00b7 Grindem H, Snyder-Mackler L, Moksnes H, Engebretsen L, Risberg MA. Simple decision rules can reduce reinjury risk by 84% after ACL reconstruction: the Delaware-Oslo ACL cohort study."
+         },
+         {
+          "title": "Current Concepts for Anterior Cruciate Ligament Reconstruction: A Criterion-Based Rehabilitation Progression | Journal of Orthopaedic & Sports Physical Therapy",
+          "url": "https://www.jospt.org/doi/10.2519/jospt.2012.3871",
+          "snippet": "The use of hamstring autografts does not appear to limit the recovery of hamstring strength.13,101 Additionally, bone-patellar tendon-bone and hamstring autograft procedures do not differ in clinical and functional outcomes in terms of laxity, clinical outcome, time to return to sports, patellofemoral crepitations, single-legged hop test, ROM, thigh muscle circumference, or anterior knee sensory deficit.85 Because the use of hamstring autografts does not influence clinical or functional outcomes and demonstrates good strength recovery,3,85 the 12-week restriction is used to allow for necessary hamstring recovery after harvesting. Recent advances in surgical technique include use of a double-bundle graft to attempt to replicate the anatomical nature of the ACL."
+         },
+         {
+          "title": "ACL Reconstruction Protocol:",
+          "url": "https://www.brighamandwomens.org/assets/BWH/patients-and-families/rehabilitation-services/pdfs/acl-protocol.pdf",
+          "snippet": "knee brace may be used or weaned off per surgeon recommendations and based upon quadriceps"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_46713",
+      "args": {
+       "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-65&pv=false"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EvkCCvYCAWkUfRMMCXxbUgdluoqE8oLYAn86RlfX-PpvBVU-BzGHxwByDobLFLreiTijnM6tLGZB5zA6ccuP7tvnQL2nAC7hrlDiZC7trtbdnSlqwiyHHI_5DsD0fSPADA90m59r_shKNrihGbCAvpUx1dmHTCkafNCAvLQs1cL8yI6Wvun1XU8LSHw45AxranLlyfmCvv2qlIk2wBwhQ9PoF_CnvzrOm2pfAkOksVa44nGAZ3n97QXmXIOTv6mYAidOHSCYH_8QhjogvynnewImPe7cSDRt6a18E6E6rVPdAO-b4IByXqQII9jnd6jWHzyiJPK9KcdPIlcH0bH19jWb6Htu7N9jTkmQ03uljXM3BlCuZPPT06JqdOKMGvNr9cMJMfvbQx8f6BC6w2EnaPRjbKy4eJbIAzvETXSWWHbdIIpStH20lY4bIDkr0E30h7GZEJulLSMxlQq0_nzCbFmYBjOJwKTLnJ5TGUo2gs6vZh2h6AC9_ugbJrM="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-65&pv=false",
+        "final_url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-65&pv=false",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "02-20000-65 Original Effective Date: 10/15/16 Reviewed: 05/28/26 Revised: 06/15/26 Subject: Knee Arthroscopy and Open, Non- Arthroplasty Knee Repair THIS MEDICAL COVERAGE GUIDELINE IS NOT AN AUTHORIZATION, CERTIFICATION, EXPLANATION OF BENEFITS, OR A GUARANTEE OF PAYMENT, NOR DOES IT SUBSTITUTE FOR OR CONSTITUTE MEDICAL ADVICE. ALL MEDICAL DECISIONS ARE SOLELY THE RESPONSIBILITY OF THE PATIENT AND PHYSICIAN. BENEFITS ARE DETERMINED BY THE GROUP CONTRACT, MEMBER BENEFIT BOOKLET, AND/OR INDIVIDUAL SUBSCRIBER CERTIFICATE IN EFFECT AT THE TIME SERVICES WERE RENDERED. THIS MEDICAL COVERAGE GUIDELINE APPLIES TO ALL LINES OF BUSINESS UNLESS OTHERWISE NOTED IN THE PROGRAM EXCEPTIONS SECTION. Position Statement Billing/Coding Reimbursement Program Exceptions Definitions Related Guidelines Other References Updates DESCRIPTION: Knee arthroscopy is a surgical procedure that introduces a camera into the knee joint without making a large incision through the skin and other soft tissues. The camera displays pictures on a video monitor and allows the surgeon to guide miniature surgical instruments to perform surgery. Summary and Analysis of Evidence Rietbergen et al (2022) conducted a retrospective study using administrative data from January to December 2016 in 13 orthopedic centers in the Netherlands. Medical records were selected from a random sample of 538 patients aged 50+ with degenerative knee disease in whom arthroscopy was performed, and which included the indications for arthroscopy. 65% had valid indications reported in the medical records but 35% were performed without a reported valid indication and, therefore, potentially low value care. Degen et al (2019) evaluated the longitudinal trends in knee arthroscopy utilization in relation to published negative randomized controlled trials, focusing on annual rates, patient demographics and associated 30-day post-operative complications. 68,346 patients underwent knee arthroscopy, of which 69.5% represented partial meniscectomies. The annual procedural rate, as a proportion of all reported cases, increased significantly from 2006 to 2016. The overall incidence of complications was 2.0%, with major complications in 0.9% and minor complications in 1.0%. Common complications included a return to the operating room (0.5%), deep vein thrombosis/thrombophlebitis (0.4%), and superficial infection (0.2%). Operating time > 90 min, diabetes, steroid use, ASA class 2+, and dialysis-dependency were the predictors of overall complication rates. The evidence for surgical debridement (with or without chondroplasty) for treatment of osteoarthritis of the knee is limited. An UpToDate review, \u201cOverview of surgical therapy of knee and hip osteoarthritis\u201d (Mandl, Martin; 2025) states, \u201cAlthough it may seem intuitive that \"cleaning out the joint\" may improve clinical symptoms, this has not been borne out in clinical trials. A trial was conducted including 180 predominantly male and White patients under 75 years of age with knee OA. Patients were randomly assigned to arthroscopic lavage, arthroscopic debridement and lavage, or sham surgery. During the 24-month follow- up period, there were no differences in knee pain and/or function among patients who received lavage, debridement, or the sham surgery. A limitation of the study was related to the study population, which included few women, who typically have a higher prevalence of OA. Another randomized trial of 178 patients with moderate to severe knee OA evaluated arthroscopic debridement and lavage in combination with medical and physical therapy versus medical and physical therapy alone. At two years, there were no significant differences in Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC) scores, which is a validated instrument for OA of the knee and hip that includes an assessment of pain, stiffness, and physical function. Sherman et al (2018) studied chondral and osteochondral lesions of the patellofemoral (PF) joint, and concluded that \u201c(c)hondroplasty affords the quickest recovery, as there are typically no weight bearing restrictions, no bracing, and patients can return to activities without limitations during recovery. Debridement is the surgical treatment of choice for unstable, small (<2 cm2), partial or full thickness lesions in low demand patients or in patients who are not good candidates for more complex cartilage restoration pathways (i.e., obesity, non-compliant). For larger, unstable lesions in high demand patients, debridement may be performed for mechanical symptoms at the time of staging arthroscopy alongside biopsy for future cell based cartilage transplantation.\u201d Mosier et al (2016) examined the management of patellofemoral cartilage lesions, concluding \u201cpatients with patellofemoral cartilage lesions in whom nonsurgical treatment fails may be candidates for surgical treatment. Surgical treatment strategies for the management of patellofemoral cartilage lesions are guided by the size, quality, and location of the defect. Recent advancements in cartilage restoration and arthropl asty techniques as well as appropriate patient selection and meticulous surgical technique have resulted in promising outcomes in patients with patellofemoral cartilage lesions who undergo surgical treatment.\u201d Evidence for partial and total meniscectomy includes an UpToDate review \u201cMeniscus injury of the knee\u201d (Cardone, Jacobs; 2025), which states \u201cThe decision to undergo surgery for a meniscal tear depends upon several factors, including: frequency of symptoms (eg, daily), general knee function (eg, unable to squat, unstable knee), type of tear (eg, complex tear extending to the articular surface), presence of osteoarthritis or damage to the articular cartilage or other structures, and likelihood that leaving meniscus unrepaired will lead to further damage of the articular cartilage. Surgical options include partial or total meniscectomy and repair of the meniscal tear. Open or arthroscopic surgery can be performed. An important surgical principle when performing meniscectomy is to retain as much functioning meniscus as possible.\u201d Doral et al (2018) concluded, \u201cIt is the orthopaedic surgeon's responsibility to combine clinical information, radiological images, and clinical experience in an effort to individualize management of meniscal tears, taking into account factors related to the patient and lesion. Surgeons should strive not to operate in most cases, but to protect, repair or reconstruct, in order to prevent early development of osteoarthritis by restoring the native structure, function, and biomechanics of the meniscus. Currently, there are three main methods of modern surgical management of meniscus tears: arthroscopic partial meniscectomy; meniscal repair with or without augmentation techniques; and menisca l reconstruction.\u201d Yow et al (2021) concluded \u201c(m)eniscal allograft transplantation provides treatment options for patients with a meniscus-deficient knee with lifestyle-limiting symptoms in the absence of advanced degenerative changes. Meniscal transplantation helps to restore the native biomechanics of the involved knee, which may provide chondroprotective effects and restoring additional knee stability. Improvements in pain, function, and activity level have been seen in appropriately selected patients undergoing transplan tation. Although various surgical implantation options exist, the majority focus on reproducing native attachments of the meniscal roots to allow near normal mechanics. Although meniscal transplantation may serve as a salvage procedure for symptomatic patients with a meniscus-deficient knee, it may prevent or delay the necessity of a more invasive arthroplasty procedure.\u201d Southworth et al (2020) stated \u201cMeniscus allograft transplantation is an established surgical treatment indicated in symptomatic meniscus -deficient patients with minimal to no arthritis. Treatment decision making should be individualized after a thorough history and physical examination, with diagnostic imaging and arthroscopy to assess the status of the meniscus. Outcomes in meniscus allograft transplantation are favorable, with reported significant improvements in clinical outcome and low failures in short- and midterm follow-up studies.\u201d UpToDate review, \u201cApproach to acute knee pain and injury in children and skeletally immature adolescents\u201d (Hergenroeder, 2025) states \u201cbased upon observational studies, the most common indications for arthroscopy in children with acute knee injuries include ACL tears, meniscal lesions, osteochondral fractures, and tibial intercondylar eminence fractures. Arthroscopy is the most accurate method of diagnosing the cause of internal derangement in patients with a knee effusion. False -positive results are rare and, apart from posterior meniscus injuries, false-negative results are also rare. Arthroscopy is used selectively as an adjunct to the history, physical examination, and MRI when there is a diagnostic dilemma. The only absolute indication for arthroscopy is mechanical disruption of normal knee function.\u201d Evidence for ACL reconstruction and repair includes an UpToDate review, \u201cAnterior cruciate ligament injury\u201d (Friedberg, d'Hemecourt; 2025) that states \u201cACL reconstruction is generally performed with arthroscopy using a tendon graft to replace the ruptured ACL. Graft selection remains a source of debate among orthopedic surgeons \u2026 Of note, patient factors (eg, prior knee injury, comorbidity), resources, and surgeon training and preference all factor into graft selection. In addition, surgical technique, espe cially proper graft positioning, plays a significant role in surgical success or failure regardless of graft type. Both native (autograft) and cadaver (allograft) tendons can be used for ACL reconstruction. Neither graft has clearly demonstrated superior functional outcomes in controlled trials. Potential advantages of the patellar graft include increased initial strength and stiffness compared with an uninjured ACL. In addition, patellar tendon grafts include a portion of bone at either end, which allows for bone-to-bone healing in the femoral and tibial tunnels made during surgery and earlier graft fixation. The main disadvantage is pain at the harvest site. Systematic reviews confirm that reconstruction using the patellar tendon graft results in greater anterior knee pain compared with other grafts.\u201d Richter et al (2016) stated, \u201cNumerous surgical techniques have been developed to address focal cartilage defects. Cartilage treatment strategies are characterized as palliation (eg, chondroplasty and debridement), repair (eg, drilling and microfracture [MF]), or restoration (eg, autologous chondrocyte implantation [ACI], osteochondral autograft [OAT], and osteochondral allograft [OCA]). The \u201cHoly Grail\u201d for treatment of focal articular cartilage lesions is a method that restores organized hyaline cartilage through a practical, minimally invasive approach with minimal morbidity not only peri-operatively but also over an extended period of time. The large number of surgical options for chondral defects are evidence of the difficulty in replicating hyaline cartilage function. Microfracture is a marrow stimulation technique considered the first-line treatment given its minimally invasive nature, technical ease, limited surgical morbidity, and relatively low cost. With the OAT technique, defects can be filled immediately with mature, hyaline articular cartilage. The area to be treated should not exceed 4 cm2, and donor site morbidity can be a concern. Perpendicular access to the cartilage surface, either arthroscopically or via a mini -open technique, is critical to allow the donor plug to be flush to re-create the normal articular contour and contact pressures. In a retrospective study, patients treated with MF or OAT mosaicplasty for symptomatic articular cartilage defects of the femoral condyles or trochlea had similar clinical outcomes at",
+        "text_truncated": true
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_14454",
+      "args": {
+       "query": "\"02-20000-65\" \"anterior cruciate\" OR \"ACL\" OR \"29888\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvEGCu4GAWkUfROM72vU5VqoIbKcLoMQPlHmazOxbTt6vSSRLAVNt-VMRF1L4s8kf7iiK7qti7EzCrMa939AKz7PV1TYtHYL3C_0TmRVmiOdHTieGYNjLfCXyx2GdC4M2ufAULuXZhAHYDZxyIxog6q-b7P-vVzCrgObzWKHTEikCJhDkIekK0BArLr5-aVacS8z1DvoxxGwxvSb6-1n4qhzodxKZ7TZGjw28EX8OWwkCuWe-ThRAPs4XdyjTE412OLMOK74GXl68c0fZYaQDQMSu6rpZFuN9M12gyV4hUxg1AB3iN0tZcVr14V4BSpZJVwk-wWONgmddhv-fwHpeclzwk9KzR1xlKbKlcCCuUxEjqeqj71juv5QyePjbTeMBWh7h1cp7tzzAM8-1g0PbWm_XDv9K9YOXpDuqxecMrNdqL-1J6gRWdPPE8Fyqovg_y9aGGMRTEe0vvEoxiV6LmewzEUcJ1ZYnyvB3fpFk1Xeg2FUq_Hbihz1Wl0fzdUCJBtvLpzj5KoiUllpfd2h9JxZJgMOIteAxpAZk0jP5vHx_IkqPfJn6qERzsQfr_tUl_omZtjArAduuIoswVuL6NInL51OKD9demY-cbGVdhBKsqD1laE8dDa_u1JuRIPRAw3Al0ka9_WBO-sCH8YwqDhT82L1R9owB28sX2gx4hsymnkQXGsQsKFH8dPfDs8KgDltXFOT2NAmsBXmdlZteSr87PdPlvZeMYZ4goO3nxCl12PEmfLqt1VigNv4XWVCb-zYcCkHh2Lauz8QoGZK2ZPl3V-vNI3bBcNGsqVYCGUb61WchXvBn2tdkFMdJ3o3tNy7ydtuACn7yE0H84BbS5JK0rTqzZrMPlgv5x4rCbADMgj7be_j_Wbe8ZbunYLE40gyXecg1U7HXpveRUwc-XOxDWgPhKqi9-ZK5yHyBMr5lHPlvdiAGaQhFUCb9VcM8Q_hPB6tzZLkjG9wxXzl6ScqIqfeVo_b-quLHGDhY4D27keKsFx9xUszCJ4uqEuwF9O45QRkj0fo4M9MEYFtRCSKEbSxWAkc8cLc4cXsH-KHHMM3BP62tNhhGHgqw_1UEbipiswK5N0uyUDqire-k0ejht5NdfWy65nHaHJHQlcDjBXXCH40pB5bqOtx7C4Kg7jm_zbZMJNFWm49Mio7TyfqyR0="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"02-20000-65\" \"anterior cruciate\" OR \"ACL\" OR \"29888\"",
+        "results": [
+         {
+          "title": "02-20000-65 Original Effective Date: 10/15/16 Reviewed: 05/28/26",
+          "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-65&pv=false",
+          "snippet": "29888 \u00b7 <strong>Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction</strong> \u00b7 29889 \u00b7 Arthroscopically aided posterior cruciate ligament repair/augmentation or reconstruction \u00b7 HCPCS Coding \u00b7 C8003 \u00b7 Implantation of medial knee extraarticular implantable shock absorber ..."
+         },
+         {
+          "title": "29888 - Arthroscopically aided anterior cruciate ligament ...",
+          "url": "https://genhealth.ai/code/cpt4/29888-arthroscopically-aided-anterior-cruciate-ligament-repairaugmentation-or-reconstruction",
+          "snippet": "29888 - <strong>Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction</strong>"
+         },
+         {
+          "title": "CPT Code 29888 Description, Scenarios & Applicable Modifiers",
+          "url": "https://medibillmd.com/blog/cpt-code-29888/",
+          "snippet": "CPT code 29888 is a medical billing code used for <strong>knee arthroscopy</strong>, a minimally invasive surgical procedure to repair the anterior cruciate ligament (ACL)"
+         },
+         {
+          "title": "Anterior Cruciate Ligament Reconstruction - ICD-10 Documentation Guidelines | ICDcodes.ai",
+          "url": "https://icdcodes.ai/diagnosis/anterior-cruciate-ligament-reconstruction/documentation",
+          "snippet": "Use 29888-22 for <strong>complex revision procedures</strong>."
+         },
+         {
+          "title": "Score points with accurate ACL coding Accurate ACL Coding",
+          "url": "https://www.aapc.com/codes/coding-newsletters/my-orthopedic-coding-alert/score-points-with-accurate-acl-coding-accurate-acl-coding-article",
+          "snippet": "When your physician treats an ACL injury, he has two options: repair the ligament, or reconstruct it. The CPT code for either procedure is 29888 (<strong>Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction</strong>)."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_86674",
+      "args": {
+       "query": "site:provider.carefirst.com/carefirst-resources/provider/pdf/ \"knee\" OR \"arthroscopy\" OR \"reconstruction\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvMMCvAMAWkUfRO-JqU3sCScmsVz1wkPscP6jsU687DlIKVTwt--yU03ktSqEaqOj0NEBf0dj7cDGRpBTUGJPDiYwP06lFlvb-nYohEGaVlHt8Ez6KQx5TzT8AMjmgHQ4qfL6x_fZBVDaemPlEUaBQeNaHMi7PB4UbNmwsx-eoU0KMpEYPoRC7pt-VK7CrMiWECS70abks3RXtdRxE-2a3Ru-Wn7RcSbkkeIpSCOxp_FUItYDQ3LEuW9E81wceucooTCg-oTCxMeGYLWeyX5eDLU275B0oP7JidUPWhPLHDIS9qIse76fm4HLKh5QPg2-u78-UxLWQMm_QAXqU6Ox7IroxTapto0nHbFHMEuR4SK9YR-f_7qUxMGpPXnqZlep3VZo6L9Y8lJn3QwMx-_fErP8vvVo-nuhi8JTEZwTjOmVkteaQUgt20QE6QvgOwMniqPb5hVaJBEFtqO3zlRSAyUCV5Xr3HA8MxKSiMWCn81AVl1lA4a2N66_ZzO4gx9BRpyrergCDTvbgmLvVBQga7cFPV-sGCodl0d3X1TDNlBu5gMUrhqnU4peufPs9y8UBv1dCdzqETdgqqbrOaxIGFTtstQWk-q3PHm72Vlvfg_gHuOsApEI7Y-f8hTjbMSWSdTwlJJfl4JL0nmiiQX2Curh2Wpg38yr4YTX4rc8IX0p0Ex-hlNa_JBH8zgRoZatopTvtOEALXCmHWJIGAKvP18VrdR_O0fxViwYLzM8a0k92vvAPpI1TnKYQc5cnA7t7yyUFecxmaPy2hzmWHe1o5UBW02iZxOBoPL-rF4_-QBrarazfsicwZBnz7zxPmRQybmlLrfp7lx-M1NHzlkN9c5rCHeQcOIi4ByLISb4n_PuPiICNK4eSeHGoaw60VOwak4HSIrwBkmHCBk_8dhvNPT8rC00TBFwVGGTJfRbqT18rALazxxJAemjXUyqY7a24AyQWEUxXTShzbNoHGimKGsyBcjVon33c_tFfTDpKMlQxlmRsCXvLSQpNXmkO5Ym0gEhek7qSFS4g-PGaay4gBUFfOv_9L1tixwHGkv08F9Uff0AK3TjBlpFVbO3J3zzgnAkezqTAt2FvZxul4AlPh159G5bAH5SSMcT44Fp7fZRVydA_zJ1aR2-7N7QZjU5kcYtbxLzk1myJwEOlR7V5w-Ha-RYmWycW4VYmrzkF9E3eCZfZho-VU6SE6rE7kbC1fMGRawh0UNc_0gOQd5vpol6nDIqFykN8fWuqiW3ljGOg9IbjgVnJq0dNr6EJ3CHlUhd7cbDo6whcNOh_d7scWaZFsG_TU3AMRCJrvD3gm1zD7rD2ShVZLG0oyj7z6XjJyejI3OFqTnvYKBDErjZECl4ZGFwplIQWhqyQduOXy08cdaN_sDhhxmWLzWdBX1qAyNi4r2_Sma63NNgucg0jXNKkEiL11EMl4_5wRSfnO6pFxCeq8aij3yNGicV94yNHxo9i1LqFJfvv4MdYjkn_XoJ9n1himXxd3nAKleTzFzKYhAWDP2nvUdEh2X6cW4BYwWbsZ7_-xxEtdRmgAZ7iQbzaFdzGLVANJ3N-iZpQI0euk7SgNNnzwbBSQlU8magRi0jgM_NJkYknxamHb04GdZnFT4RwFnl2KKepjL6vOwM1wBwKGKuVwvOhn1doKc3tuxFJvozeSUoOfIQWvWv-rLbP_ZTG2mj5bQAaxPoWSHamUTqpPqch-Nv9Yy6FuYymnAvIn_BYXo4tyShitje_q6FwnWCnKG9kzKgt3RtfUs7X27UOq9wgZ-wI1h4sPRiknsLDrCzMGr82iRE06Vcq0IFYqm_rMhRKW9hUfSNVoOcKnZHfu78tC4ZzSSJuHbvSNkAZxfzULT6UWtfpPdXy88Dx45lad2PNfs3KrhDY8YZm2dU-kqBgR04qerZhSNTl4qmOcHPP1N3gOGtrH_eZvu-xUvGQHEAQaM9pKqLrMPHmV-CUbJhYYDvdPaGD-dR7EMXAxzeCkoPsaWcN4wLDEYbg3D_8ZxIMXNzCMG3_ItarZ6jjj3FHByEPc-L8q8p0z6v2Im2cUpdWY-60PVH3gM0KxgeeoB2qwOhviGPOC0fxmRYxGLIg51z418XCFSonMwPAfAbwjCO6a18huU8fV5xbfGQo_mCX_qDvnSRTHOgL5UGhPXS_uqsU2ASF4lZLl2XOcmaLDNncZUAncvjbgHyoel5g=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:provider.carefirst.com/carefirst-resources/provider/pdf/ \"knee\" OR \"arthroscopy\" OR \"reconstruction\"",
+        "results": [
+         {
+          "title": "Arthritis Care & Research Vol. 64, No. 4, April 2012, pp 465\u2013474",
+          "url": "https://provider.carefirst.com/carefirst-resources/provider/pdf/acr-2012-osteoarthritis-guidelines.pdf",
+          "snippet": "Methods. A list of pharmacologic and nonpharmacologic modalities commonly used to manage knee, hip, and hand OA as well"
+         },
+         {
+          "title": "2.1 2. Product Descriptions 2. Product Descriptions",
+          "url": "https://provider.carefirst.com/carefirst-resources/provider/pdf/provider-manual-chapter-2-product-descriptions.pdf",
+          "snippet": "Orthopedic procedures: hip, knee, ankle, spine, shoulder \u00b7 and all orthopedic procedures using computer-assisted \u00b7 musculoskeletal surgical navigation \u00b7 X \u00b7 Reconstructive surgery for conditions other than breast \u00b7 cancer \u00b7 X \u00b7 Rhinoplasty \u00b7 X \u00b7 Septoplasty \u00b7"
+         },
+         {
+          "title": "Hyaluronates Combined Policy Document 1.9.2019 Hyaluronates SGM P2018.docx",
+          "url": "https://provider.carefirst.com/carefirst-resources/provider/pdf/drug/Hyaluronates-Combined-Criteria.pdf",
+          "snippet": "<strong>the use of nonpharmacologic and pharmacologic therapies in osteoarthritis of the hand, hip, and knee</strong>."
+         }
+        ],
+        "result_count": 3,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_57843",
+      "args": {
+       "query": "site:carefirst.com \"orthopedic\" OR \"joint\" OR \"musculoskeletal\" \"medical policy\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EusCCugCAWkUfRPM-f4aIGsUL8JrxLIiu8JnZtkbLrrWD_hUlHLeUUcvdKUsIQPsmD9k9YbosLjWtuikv4hyCsi1DXRzFJ-uSYin214-ymSb-lmg4Crgu8-MMHmtrgEHux2zHc8A8cyJAqEyTzDegW-g5KOHtpZ-t61rNumYASL0mpyVrM1jahWQRgamdzjcbz6SWqX1AekhKhFDVP7eZPyUoxg42_2Pewl8qMMvMJ8h_bTBlQ898IuYW1W8uVnYm6ge_k7-lABEUOG4WC5CppQa6HEToUpXtzucXdXJwYlmP-CvnfMZm7uKgYeLbh0LeVlS6aVToZYnUtQAHSPqtjfKJGLuG4JNT4Gg3CR6LyuQd_xqJ7HOrR1OuEzftqE0FatjGXf3dwuZyr4t2qpHlnRGM_l3R6gjrck22DMoaLFxK-q-LjUPV67L7iEAsck1n5ZuQiHRu5rJrM9FKaycchxOUa9lhQKtDlgSuHp6"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:carefirst.com \"orthopedic\" OR \"joint\" OR \"musculoskeletal\" \"medical policy\"",
+        "results": [
+         {
+          "title": "2.1 2. Product Descriptions 2. Product Descriptions",
+          "url": "https://provider.carefirst.com/carefirst-resources/provider/pdf/provider-manual-chapter-2-product-descriptions.pdf",
+          "snippet": "<strong>MA MSA is a Medicare health plan option made up of two parts</strong>. One part is an MA MSA Health Insurance \u00b7 Policy with a high deductible."
+         },
+         {
+          "title": "Medical Provider Manual",
+          "url": "https://provider.carefirst.com/carefirst-resources/provider/pdf/medical-provider-manual.pdf",
+          "snippet": "Medical Policies and Medical Policy Operating Procedures ...................................................................................."
+         },
+         {
+          "title": "Dental Provider Manual - Policies and Procedures",
+          "url": "https://provider.carefirst.com/carefirst-resources/provider/pdf/provider-dental-manual-chapter-7-policies-and-procedures.pdf",
+          "snippet": "the patient\u2019s presentation to an existing medical policy. Commonly reviewed medical policies by dental \u00b7 practitioners are: \uf06e \u00b7 1.03.001 \u2013 Orthotic Devices and Orthopedic Appliances \u00b7 \uf06e \u00b7 2.01.018 \u2013 Sleep Disorders \u00b7 \uf06e \u00b7 2.01.021 \u2013 Temporomandibular Joint (TMJ) Dysfunction \u00b7"
+         },
+         {
+          "title": "network-precertification-preauthorization.page",
+          "url": "https://provider.carefirst.com/providers/medical/in-network-precertification-preauthorization.page",
+          "snippet": "Medical Policy To view the medical policies associated with each service, click the link or search for the policy number in the Medical Policy Reference Manual."
+         },
+         {
+          "title": "Health Insurance Glossary | CareFirst BlueCross BlueShield",
+          "url": "https://provider.carefirst.com/providers//pcmh-the-source/field-support-materials/community-resources/dc/dc-e.page?alphaId=glossary-e",
+          "snippet": "Ehlers Danlos Syndrome Society www.ehlers-danlos.com www.eds-dc.org Email: eds@eds-dc.org Facebook: www.facebook.com/metro.dc.eds Find a Provider Metro DC Area EDS/HSDs Support Group Health Care Provider List Document opens as a PDF Includes acupuncture, allergy &amp; immunology, orthogonist, braces, cardiologist, chiropractor, dentist, dermatologist, endocrinologist, ear/nose/throat, gastroenterologist, geneticist, gynecologist, hematologist, integrative health/wellenss/pain management, lawyer, medical cannabis, neurologist, nutritionist, occupational therapy, opthamology, orthopedics, orthotics, physiatrists/ostopaths, pediatrician, physical therapist, plastic surgery, podiatrist, primary care, pulmonologist, psychiatrist, rheumatology, sleep medicine, open/upright MRI&#x27;s, urology, urogynecology, vascular surgeon, and compounding pharmacies."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_51977",
+      "args": {
+       "query": "\"02-20000-65\" \"anterior cruciate\" OR \"ACL\" OR \"29888\" criteria"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvcLCvQLAWkUfRPG1aM84NVKEba4Ljxxxve9sEVcGPrINdFjCsOgE09-n5WIrZrfAHgpYD2JB7eDmYv3psCMQVLhVcWzNVwzbr6PpsPoLOpw8VSOB1BbSMYmm_TyJ-TpMgQROzup652OQmiWFTlrz7fcqV9LLsTzLIY-PHhe7ZVPjR5nwk6NgPgUJ5IYS2rglEvSllaYscUIQwC4gstb0zHGUNEXe1tjnhXsoUu_vE1tHi_PbojGrfs5PIgEwZmy075KFDRlDMT4WZT_iCx90zLn4OVLYyic--1Qj8W3rFLWseYSIWUUATR2u_SAIn2S96BGOsxAoMO0ipZVzxZeLmTIY_zoongWFku7vzWAzPMpQduS0uV3SDCrDkNaNXImpmb0O53T2852klybAGgvIV-uixq6EBZ9Bad44I4YBQDc0p2TFGTD2UGYl2yyE_P08LtIlq3LZSomlO_QHPFRL9akmCRNry9UlafJWjWeM91KMB60prz8OoWfAzA4kQ54G5I7QE8YhQ4q2Uf3P6v1107NRFcZHCwkyN1DMCGg2jB1usqhtITuFe76NI021KBWa5sr2xRG92dGWSBqjE0TXe6WD3de3xUDZMcsP066IuBxFbN4Q3FFggk3hpuFyb9XKj-O0LnshIiE8Uxk1b19FRHinaj6fVoRdc4PnEbrGFAd1afBu0V70og_vQk36AV8aGKy6ZyAVYN4suqmqmh7AxCBO4JQ-3UZ7FE7PIqaaMFZPzAmunXOX2Oz9ADKNbwMHPPMwLfrVAxNoJ2AXoY8KYIvqeECoIdwOUqguxUkbG2HL6_pYN_5XfB9QkdEUf0suCBB80S7njka3L04XA557cvkVAKCSj2aOzBFix3iE6qEfqGq9r7s_1cJXzVA3SSlIYYdOa6DdQx3EIFP-xxXFeNpykCB74gSBMq8e1beXqGTNMoFxUfkofG6H-NkaPCBrImXOyfBA9SmgqikoPEqYTt-62HWSnk2eOny2bS9km0FxEDOIoyd-aB7voVZuHgaeLxCKQ22YrjnN1iTaY5SPmcyOlWh4b0iAoGcOEj1ngWsXmFX_EdGS7AA_DoKquWiozxL9zggJtPUiy8Zstkx3NqFWI3lxejQW67_D762U4iUQsKLVJxvjnKW2tN29RRyZkHYzon3yMkCTkPiWDUMCXVvpxYsbapMldN_f53PAHhmTl9Ff3elwe9k61er6xl-mw-lS2tu6dL3-gqUkhPOXVjVb9tzn9xFsZ3Y87tgRp4LHgkEsXJF7jxZfTZ7euZcK5AD-fiBzfKUUChAeVkr_F8pdUOf257nfkgjqN6TBZEnV-IjGLx9UUis7A6fz9OdKecvEDWbckd8s7in_xQwF8a7ClmIsZkjZXLKPGHlJ_OmiqH5LrpClcBd9P9X3A2l4U1Ytf_3T-CYZSBWoTGls-jIMQ8kzlPH2gfKWQEttBlqNaAxv81dh4IeBi91uMnz6aTzusRp_rV5iEHKTiAEZe0Y46niAeotOezuAa4nCs8kMfpagfq2VXCZ0UgoVMBuR5y6BI-8zZdndfP9nYfu8qqzp7BXLnvw-Jfyl7ZGFpo2DegyIKAVHTzRi0P0jza_3O7I9Y7mBQJdLKMorRNsyxMOmvU9Yrzo7N_86oXfd5qkAZeepICBY0o5_Mk4US-4Cmm4PLLxtVRxJi8J6KYTv0a5ezBJHtfaYVSMgk-ngRrKlWPPBzL1KBaEeEGcJJwtpHEE9n4YDtgDGZRKPWKKAC92QqqC_kISqrWiPnRLypfqQf_2uwf7rYRla4Kip3tQo2yUg49HZNweZ247qGmdpP8EcuD4jIRF-ToNc5rnph2aABZzi0PUXxrXp905cgr0XWAi_qU87rWJ1c3dFIvY7Zt2o_mlCyaQyMcBy7IO9XwB9Xr7HvOWsHTFVgSaAYaBhEE6ENO3nLalnqfgj1iQB7MtZfBRkFnTRfb8nv2-S8_gTj72rwNevzKGNWZrXh1h0uhQ6aCNUJqDnEao2qCB0SFPcTnyAaIhFH_wlhJrSDIs_uBRIvGX7Z9c"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"02-20000-65\" \"anterior cruciate\" OR \"ACL\" OR \"29888\" criteria",
+        "results": [
+         {
+          "title": "02-20000-65 Original Effective Date: 10/15/16 Reviewed: 05/28/26",
+          "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-65&pv=false",
+          "snippet": "<strong>Anterior knee pain with loss of function such as difficulty walking, kneeing, or squatting, localized</strong> ... Debridement for arthrofibrosis meets the definition of medical necessity when ALL of the following are ... combination, either concurrently or sequentially, with treatment of focal articular ..."
+         },
+         {
+          "title": "Anterior Cruciate Ligament Reconstruction - ICD-10 Documentation Guidelines | ICDcodes.ai",
+          "url": "https://icdcodes.ai/diagnosis/anterior-cruciate-ligament-reconstruction/documentation",
+          "snippet": "Use 29888-22 for complex revision procedures."
+         },
+         {
+          "title": "Anterior Cruciate Ligament Repair - AI-Powered ICD-10 Documentation",
+          "url": "https://s10.ai/diagnoses/letter-a/anterior_cruciate_ligament_repair",
+          "snippet": "ICD-10 code S83.51XA (Sprain of ... for the anticipated ACL reconstruction will be 29888 (<strong>Arthroscopy, knee, surgical; with anterior cruciate ligament reconstruction</strong>)...."
+         },
+         {
+          "title": "CPT Code 29888 Description, Scenarios & Applicable Modifiers",
+          "url": "https://medibillmd.com/blog/cpt-code-29888/",
+          "snippet": "CPT code 29888 is a medical billing code used for knee arthroscopy, a minimally invasive surgical procedure to repair the anterior cruciate ligament (ACL)"
+         },
+         {
+          "title": "Management of Anterior Cruciate Ligament Injuries",
+          "url": "https://www.aaos.org/globalassets/quality-and-practice-resources/anterior-cruciate-ligament-injuries/aclcpg.pdf",
+          "snippet": "<strong>or non-contact</strong>. The majority of anterior cruciate ligament (ACL) injuries are non-contact"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_41703",
+      "args": {
+       "query": "site:mcgs.bcbsfl.com \"02-20000-65\" \"anterior cruciate\" OR \"ACL\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvIDCu8DAWkUfRN5wxQjr-N_29MB-X2C08y2QUa0FLWXeB5G1j5lEaDnikHRnJBMr-rIDU5uumzSGZpJsnv9F8RXLciGYpw5P3rwqU-Dq0oUSGJYnFRqG47uVmI7fXx7IQ2LJoEYztkkTsuLcOAaBPYMqsR4kV0YyTg6ZPoL9RMNwOu6IwZdIN2fWwYqztLWHeDixeAX525BS2Q1c-AQ6oZ4UuCzpQ81GoGjplnwwnVgsquBdfE0KgX1ph4Ecj7RzZwDS7Nk--k7ig1-9OH2G4xj1gf2VgFmzK3FOharFszq-Tl5TNCXuP_E_I0-VW4wRIXRovw-910GJhGOvyhGh8Dq7zxg0bVlk_W1Mlrs4wFXOk1RzqhAsYDVXFXZuzhWE-Yjoi2_3CUs775zfeR1eanYeoU5XKeXf3cnD35ISCnXVlzltJxcRl7Vdr0UfeGvmZG2IJe_gkqRE7hdtQ5qm6iFeDoJwYaGUmM9Uc0fsv7JWZdicUBjot9yOILuMKgPzoMI0TmaLyjXnT5zrq7O2JxLlxEAyx3yQWvPvCNaESMeRjYyp5GzHtdn_I2W4f7uVGFXot2D8Tdauzp9F2ymrekXxCvU-u3YY22rJfulNwOJeJXPUFYIH2_QWN-8ZagRzBxHvGpe-JMRS65hQxAnjdAozdei"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:mcgs.bcbsfl.com \"02-20000-65\" \"anterior cruciate\" OR \"ACL\"",
+        "results": [
+         {
+          "title": "02-20000-65 Original Effective Date: 10/15/16 Reviewed: 05/28/26",
+          "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-65&pv=false",
+          "snippet": "meniscectomy/meniscal repair; anterior cruciate ligament (ACL) reconstruction with"
+         },
+         {
+          "title": "02-20000-65 Original Effective Date: 10/15/16 Reviewed: 05/22/25",
+          "url": "https://mcgs.bcbsfl.com/MCG?amp=&mcgId=02-20000-65&pv=false",
+          "snippet": "meniscectomy/meniscal repair; anterior cruciate ligament (ACL) reconstruction with"
+         },
+         {
+          "title": "09-E0000-15 Original Effective Date: 12/15/02 Reviewed: 01/22/26",
+          "url": "http://mcgs.bcbsfl.com/MCG?mcgId=09-E0000-15&pv=false",
+          "snippet": "In situations where bilateral total knee arthroplasty or anterior cruciate ligament reconstruction has"
+         },
+         {
+          "title": "04-70540-16 Original Effective Date: 07/01/07 Reviewed: 04/23/26",
+          "url": "http://mcgs.bcbsfl.com/MCG?mcgId=04-70540-16&pv=false",
+          "snippet": "<strong>Positive anterior and posterior drawer tests</strong>."
+         },
+         {
+          "title": "04-70450-24 Original Effective Date: 09/15/09 Reviewed: 07/23/26",
+          "url": "http://mcgs.bcbsfl.com/MCG?mcgId=04-70450-24&pv=false",
+          "snippet": "<strong>Ankle instability and suspected anterior talofibular ligament rupture</strong> (anterior and posterior drawer"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_32585",
+      "args": {
+       "query": "\"anterior cruciate ligament (ACL) reconstruction\" site:mcgs.bcbsfl.com \"02-20000-65\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EoQFCoEFAWkUfRPWG_X0d7ABMcNHT7fjzO-s-Gs7ZaGbuUEpEQsSuzUd-4Upr2GELntDdL4AIgB9FmrHDKRgh4p5buLY_iowKUfKT_v0FkX6ZmHVZEwxVtFFPlzLSdVxyw_D8bOgmrXQIz7TYMslwqttMqSBYPLYfP7IVWydGLJMQmn-8E0lP9Auw0aai0qy61rzTOjh6K7nrWNqBzd52rEWDfzxW6WkazX9q51vPzUG1az-1ZGT7ykJ_WnfY4XFt4RhsmP2H4w1AYmPgA43Q9nr2gnLJGwG7bXj4VGJxvxUm5qg_EzFjn4uUSk4_ba3ZJZgJ1i4gXQ6mRbgoUehFQSnEdn4NOCArkklv5g2Jgv6u48IZR0Lt4u-WwceBBqQLueLRderGGhHHEBuSq8cAr1OkGRQdG2wKGoalcAkKytsF8B94n1g3ew8JR8MhxZVqp_-bJnN4LSC8L-fSD_fVwYzPiwGrUCzrwZiqz3Qsk7DdTqdyHw-fMzXs0fZvIkI6JBew1IDp35TYyYpzJZ3sRJc0A43ZB8oSkJ-4WzKbCBe3Bj6oBOox11INf0RAC-yp0iu6OUN0cOD9UWEc3WcxxLYTW4lB3B0S9DgZ-RVxNi0nL_0AHkr4YgThuI8WL9x9i5p6VptrCQgRqcuRwl-U-z4VX06WLUcwKNQr3XzD3Y8KjeJQTM2jGads6_JQpCMZqLrA6uM284LHJfZlzpgHKnv5ndURX53X9a2IB_2AbqK0vc12KmisMY-ccK0aeIsymQ8EBlEb3jSX3mIE55Xq60I3twSBHVhVbSL8UZMl47THM5WdGnM52lTAVrUzOLDN7sJrV9hYMs7IEykKFMOoNMn849P3p8="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"anterior cruciate ligament (ACL) reconstruction\" site:mcgs.bcbsfl.com \"02-20000-65\"",
+        "results": [
+         {
+          "title": "02-20000-65 Original Effective Date: 10/15/16 Reviewed: 05/28/26",
+          "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-65&pv=false",
+          "snippet": "meniscectomy/meniscal repair; anterior cruciate ligament (ACL) reconstruction with"
+         },
+         {
+          "title": "02-20000-65 Original Effective Date: 10/15/16 Reviewed: 05/22/25",
+          "url": "https://mcgs.bcbsfl.com/MCG?amp=&mcgId=02-20000-65&pv=false",
+          "snippet": "meniscectomy/meniscal repair; anterior cruciate ligament (ACL) reconstruction with"
+         }
+        ],
+        "result_count": 2,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_21711",
+      "args": {
+       "query": "\"anterior cruciate ligament (ACL) reconstruction\" \"02-20000-65\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EoEDCv4CAWkUfRPonRIE0r4ilGhYiUMgE0wil_y9oaByQYq3m4mmth_ic7fjka5gEO2d3aqS1wtKsLj3l2IaDZHUiS1JKp5b1KkkVu6xtmDbVTKa6ic2c1h0w0p5BE5unYi7cUuKl2IrbKy4Udv-lFsUwf2-aHStSNd3Ssdw8nMypp3qtTxk2HsyUfLIENyJOM4kmkMRGYEUyrdX00DFH_ROU0MejBfQgm8Wsybeo-qo1hfvV3vvE-gJarqV-lJEiVSg5KKSB6_u2ctOX_OrKf-Igsbx5qcuD3C9sdBOBg8tfbKncWlUiP5E-q3n3bN_uKxCQMAPEfzumthxQ7ec8856gWShnRNFslZqLc6nZjwFZ8eMjdU_qikhx7ToGUb9Iq6C_MH94WqNRmEXVrRdZRmgNTzaMaSC78IPHB5CtTDEL6qde1UoUUJ6AZQQqeNaxuN_b3UjcRzdMUj0avJsGm7DGI2Wjs-u62eyCkSHG6XXMnSmo1bIF3b21BpDfbXBS7Jn2w=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"anterior cruciate ligament (ACL) reconstruction\" \"02-20000-65\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_52429",
+      "args": {
+       "query": "\"anterior cruciate ligament (ACL) reconstruction\" \"debridement with/without chondroplasty\" OR \"meniscectomy\" OR \"meniscal repair\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "ErgECrUEAWkUfRMF5iRpcfUI49vbnGeR9DfmHQdw1FnwCjsVkOhqddDMyl4ZiWNyJIXXzoDffrDV3EIgmrcYl4JDzq4SIb1lFUt9xaKvMWfk9pd3jk-aRTOxxxvsWr2GDKoIBFWUYKBwiYtkvU6Ny28c_0DmCFFZEr1_02h9cjQCGrTqM7fku0w8BicvhXpRHJgG8TKcMgsQYNZhRMygQRbLjsSpFt4LmIVYmp6uFAZ8A-ghlUw19ryZ73uKlGrn2JgxPZ2crlD8If3LNfn8rm4hjWiw7E8rDM2-P8xP44jXJoX5BOicW9EBkx0WvlWcwSHPlMV3kfaGsSYYBC5Ai-LaeXdP02UZ7kHEK2BJIQ9OmKtfucV79NiUWOdWAyhAMi5BTANzPgnN8C7QbrImGyd0SAjdJDhNjvEJlKhTebbA8hihcLjZUIh6smkjQjQ-hlvhNDS_xo8RqvEk5s6IHrLDFb82I7vO44ej-fULRn3KF7h6x45hYEJGxjOzVMm-tcxnYIKVMaUjGNR4coOe5hbkgkb-tMuOY8tnUGJU6ijxdn6Fg9OtnvKRLvyxuiYlsQrtkusbDFaYvDDEh7LtkK9xzMUn631QTIvxrjY3f7Rl6dO_CKjxGtZ75oXjQ68hn1bJYXvFRI6zscJdpMjCpthPvutr4XKuoKOo29gtLoFUojG61lrmp4e8QIQ_-PK_bjkWLNJVWgYzKL_j5aDJoIcYhbvgjp5FpIgTVZYu3WqokCr5LAR9yA-SyQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"anterior cruciate ligament (ACL) reconstruction\" \"debridement with/without chondroplasty\" OR \"meniscectomy\" OR \"meniscal repair\"",
+        "results": [
+         {
+          "title": "ACL reconstruction \u2014 orthopedic coding glossary | Mira Health",
+          "url": "https://mirahealth.care/reference/glossary/acl-reconstruction/",
+          "snippet": "From a coding standpoint, the procedure is captured arthroscopically under <strong>CPT 29888</strong> (arthroscopic ACL reconstruction, with or without meniscal repair) or, when performed open, under CPT 27407 or 27409 depending on concurrent ligament work."
+         },
+         {
+          "title": "Medical Billing and Coding Arthroscopic Knee Surgery",
+          "url": "https://www.outsourcestrategies.com/blog/billing-coding-arthroscopic-knee-surgery/",
+          "snippet": "29877 \u2013 Arthroscopy, knee, surgical; debridement/shaving of articular cartilage (chondroplasty) 29879 \u2013 Arthroscopy, knee, surgical; abrasion arthroplasty (includes chondroplasty where necessary) or multiple drilling or microfracture \u00b7 29880 \u2013 Arthroscopy, knee, surgical; with meniscectomy (medial AND lateral, including any meniscal shaving)"
+         },
+         {
+          "title": "Anterior Cruciate Ligament Reconstruction Using Bone\u2013Patellar Tendon\u2013Bone Autograft With Lateral Compartment Meniscectomy or Chondroplasty Does Not Lead to Decreased Return to Sport and Activity Compared With No Lateral Pathology - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11240012/",
+          "snippet": "ACL reconstruction using bone\u2013patellar tendon\u2013bone autograft with anteromedial portal drilling technique does not have any significant short-term (2-year outcome) differences in return to activity and patient-reported outcomes compared with if patients additionally have a partial lateral meniscectomy and/or lateral compartment chondroplasty. Additional partial lateral meniscectomy showed significantly greater Marx scores at 1 and 2 years\u2019 postoperatively. Level III, retrospective cohort study. Anterior cruciate ligament (ACL) injuries are commonly accompanied by meniscal injuries, which"
+         },
+         {
+          "title": "Does concomitant meniscectomy affect medium-term outcome of anterior cruciate ligament reconstruction? A preliminary report - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4223144/",
+          "snippet": "In this preliminary report we assess the medium-term outcome of ACLR in subjects with and without concomitant meniscus tear and meniscectomy. All patients who had undergone ACLR at our department between January 2007 and November 2011 were identified according to surgical records. The major exclusion criteria were good effect of rehabilitation, collateral or posterior cruciate ligament rupture, chondral lesions assigned to chondroplasty, meniscus rupture assigned to suturing and previous knee surgery (Figure 1)."
+         },
+         {
+          "title": "Intermediate- to Long-Term Results of Combined Anterior Cruciate Ligament Reconstruction and Autologous Chondrocyte Implantation - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5347433/",
+          "snippet": "The most common procedure was arthroscopic debridement for either periosteal hypertrophy (1 failure and 7 nonfailure patients, all with ACI-P) or chondroplasty of graft failure/progression of disease (8 failure patients). Six patients underwent arthroscopic lysis of adhesions for arthrofibrosis (1 failure, 5 nonfailures). After modification of technique from ACI-P to ACI-C, reoperations in clinically successful patients averaged 0.4 per patient. We present a series of 26 patients having undergone combined ACL reconstruction and ACI for relatively large chondral defects (mean total surface area, 8.4 cm2)."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_15326",
+      "args": {
+       "query": "CareFirst BlueCross BlueShield DC appeal submission address fax portal commercial"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Er8HCrwHAWkUfRPMRUkNww4mT6tYw8_wJlNn7mHJiGeM7NRkCjKfbpGgo5UYR-1Sc1iHvue8oHB56A7AY2IXI8T_GWvVGq2EwnzO7MEJrJ-KtoFz8jEanZRTR_092J8D_dC5QM3SgSYQJvrOaE0djFvjvQQ8aP8xRJDf4oxwm6cmPCBi5IynALtNSAW0xjsv7AFNtKnx7nmUlnjtmSLToRGv2aSKwN7Z5n7LB9hxtL7FYwMX_gJ0cAJPyzXJMEtAV5Z2PqsgQyOMn1512D5Ut6ZpJBqbUEUfRNoF5j04p2tEHo0388TvWkUQdBaqU7J6MihMfltxpAeO-nkOu9rsuVWbDj-6WXFUXoMSdqcIfrP4ZFIGIHJyGszhtDDpqPA7IIYmTlQVJqPntBlrpTbl2cOK_YosVRvKke7GKkWyweAK8vKeSx5kTCWX4TRW-2wMfDP82Tw_GrZFkxhl94tgH0DGzydY92A_dyt-YwJhG5iYyxYCWyyS4kSuSfIYzJYy4u5RqNuoXlPhOsbFI4l3Q5f80FFWQHq_upgLcsIccb3xyAeP80MoNyWcMWsKkvWXOTJnVSbSviimt-shnfRzheUE4A4HwJfi-VumdkRJR8B_lfqB0FEr90D4Bc5ntSwQswPb8Bz7USHhpRVgAxvDVEmC1e6aKESHTsvYy4_SolLuKnLQ-cwgXckcWHNlKGDTDn3xSBdG4Pe5qezI7IPX4XdBILNUHzihToYMENEIAQMLI2xQMR0hy8aDsNWGMn1VrByVOBDzMkgQO9M1PLElMMy1OPf8gF-dcEp8j86FKfepnY6oagOx3lMwKUv2gMAgh2-HVBkQFj8WHqoQy1Kz0K6RMyEjU8Jxue9vZBK26l2SUZ6A8aZta1P-AGN7dR0oAQxIHGJbJe0-ZLyIu1XaBIXLXvc172jM99hr5Hd4nobdtAPeHfcInflKdYPJI5ct-rm7pq9Av721-3ZvbUN6g99wuprhf_hKURUYutqEA6SumZNdDkFDSbwgvsVHKYBSuHeUYtLhoyrvee4tU1dSmvGd501T_UY9akN7Skig6P0D3vHBiF5tKc_R1WIV7T-haI6UZuuDZ2hxNhyX9yY3xTVa0nW3hig9T6TuNHAa_t24FsKGQkKQN3iJ87AsyFAXoaZ1FtiU_KdiVr1kYvAlTiQ_YSrD9MsXe_qoMABHjTZ3Q8QUPumLO3KWT-C8C5XPVXTOSBu4wHE0Yo_CrSJBAxHQeeX8-Y3QgpzKubaZsZtdWsqsvcMSUc6aLrdp6BA-MYA="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "CareFirst BlueCross BlueShield DC appeal submission address fax portal commercial",
+        "results": [
+         {
+          "title": "Inquiries & Appeals - CareFirst Provider Portal",
+          "url": "https://provider.carefirst.com/providers/resources/inquiries-and-appeals.page",
+          "snippet": "Instructions for providers on how to submit inquiries and appeals in the CareFirst BlueCross BlueShield network."
+         },
+         {
+          "title": "Appeals & Grievances | CareFirst BlueCross BlueShield",
+          "url": "https://www.carefirst.com/learngroupma/appeals-grievances.html",
+          "snippet": "To file an expedited appeal, call Member Services at 833-939-4103 for assistance. You can also submit an expedited appeal in writing. <strong>Fax for Clinical Pre-Service Expedited Appeals: 410-605-2566</strong> Mail: CareFirst BlueCross BlueShield Medicare Advantage Clinical Appeals and Analysis P.O."
+         },
+         {
+          "title": "How to Appeal an Insurance Claim | CareFirst BlueCross BlueShield",
+          "url": "https://member.carefirst.com/members/contact-us/appeal-claim.page",
+          "snippet": "Are you needing to appeal a claim? Theres no need to stress, click here and follow our step-by-step claim appeal guide."
+         },
+         {
+          "title": "Claims Submission - CareFirst Provider Portal",
+          "url": "https://provider.carefirst.com/providers/claims/submission.page",
+          "snippet": "Information about claims submission for providers and physicians in the CareFirst BlueCross BlueShield network."
+         },
+         {
+          "title": "CareFirst BlueCross BlueShield | Behave Health",
+          "url": "https://behavehealth.com/insurance/carefirst",
+          "snippet": "Timely filing windows for CareFirst commercial plans generally range from 90 to 180 days from the date of service or discharge, though the specific deadline depends on plan, line of business, and contract terms. Always verify your contracted timely filing deadline \u2014 claims submitted after the timely filing limit are typically denied without appeal rights, making this one of the most preventable sources of lost revenue."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_52027",
+      "args": {
+       "url": "https://member.carefirst.com/members/contact-us/appeal-claim.page"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EtICCs8CAWkUfRNRi5yBxssMksHkYIr_wWQlLUmdAUhvUyEtvmu_3mpm8sz7q1COCfYVoAe_7G444rPUg9H8OQjWNGLAhyb0-fpt2DIkUXyKPPUK_sm8G4RWJLj6i-bOamjhX4LREWT2R5MOYp4_lnpjGCPvBRwqcOSvF3S-iTQ6rOx5y2xsXaaKh5_IxybBZdf7sWnbT2ptr6xBG5miFjbdXp4lrjj-qdK98hAArNZ8tjU-0YyZuaVZrGjRB8AC_MhHR6YVCcuSRRQ2gaqws9kUsPPjMb7l_x3R3PInqvKoA4sz4Z57HfJupOjv0uArVVr1JJINxtH4PwtDeZt5qH3pMHHwgSDCjv-mGkufgM4t0hG2l6T4p1e98Xmw1_n2sV77-yA9E29pz8rkIdmQJeMei7NsFNSKKoF5Ga5Xa8lVjTIrKV229Vz7Is9k5XAOOAWAmuY="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://member.carefirst.com/members/contact-us/appeal-claim.page",
+        "final_url": "https://member.carefirst.com/members/contact-us/appeal-claim.page",
+        "http_status": 200,
+        "content_type": "text/html;charset=UTF-8",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "How to Appeal an Insurance Claim | CareFirst BlueCross BlueShield Change Healthcare notifying individuals of data breach. Learn more here . Skip Navigation Need Insurance? For Members For Employers For Brokers For Providers About Us Company Overview Caring for Our Communities Cybersecurity Transforming Healthcare Working at CareFirst Contact Us Login Register members false Menu Home Our Plans Health Coverage Medical, Dental & Vision Plans Medicaid Plan Medicare Plans Prescription Drug Coverage Drug Coverage Drug Search Drug Tools Pharmacy Exception Requests Find Care Find Care Find a Doctor/Facility Options for Care Research a Doctor or Hospital Blue Distinction Specialty Care Compare and Research Doctors and Hospitals Check Doctor Credentials Using Your Plan Resources Payment Options Frequently Asked Questions Submit a Claim Plan Calculators Benefits of My Account Virtual Connect Forms Medical Prescription Drug Dental & Vision Patients' Rights/Legal Managing Health Care Costs Cost & Comparison Tools Cost of Prescription Drugs Health Spending Account Resources Health & Wellness Wellness Programs Overview Review our full list of resources that support you in your health journey and help you live a balanced life. Explore Wellness, Rewards & Discounts CareFirst WellBeing SM Blue Rewards Blue365 Discount Program Behavioral Health Behavioral Health & Addiction Substance Use Family Health Preventive Care Your Guide to a Healthy Pregnancy and Newborn Whole Health Benefits 24-Hour Nurse Advice Line Teledentistry Health Resources Support for Chronic Health Conditions CareFirst Health Library Dental Wellness Library Vision Wellness Library Vitality Member Resource Guide About Us Need Insurance? For Members For Employers For Brokers For Providers Company Overview Caring for Our Communities Cybersecurity Transforming Healthcare Working at CareFirst Contact Us members false Member Login members How to Appeal a Claim members To appeal a claim payment or denial, follow these steps: Step 1: Contact Us Call the Member Services phone number on your member ID card. If your concern is not resolved through a discussion with a CareFirst BlueChoice representative, you may submit a written appeal. Note: Virginia members who wish to appeal an adverse benefit decision that is related to the treatment of cancer may be entitled to an expedited external review without first exhausting the internal review process. Step 2: Submit A Written Appeal CareFirst BlueChoice must receive your written appeal within 180 days of the date of notification of the denial of benefits or services. Submit a letter addressed to the Member Services Department describing your reasons for appeal. Send the letter to the address that appears on your Member ID card. If you need help in finding the address, call Member Services. In the letter include: Member name and ID number Provider name Date(s) of service Admission and discharge date if applicable A copy of the original Explanation of Benefits, voucher or bill Medical records (e.g. Emergency room records or X-ray reports) In the event you are unable to put the request in writing, a Member Services representative can assist you. Or, ask your provider if they can submit this information for you. Step 3: Appeal Decisions All appeal decisions will be sent to you in writing and will include a detailed explanation about the decision, as well as any documentation to support the decision. You will also receive information on next steps you may take if you are not satisfied with the appeal decision. Many members have a right to an independent external review of any final appeal or grievance decision. * Please note that state mandates may alter the steps above. Refer to your Evidence of Coverage for more information regarding your appeal process. members Go to Contact Us About Us Company Overview Awards & Recognition Corporate Offices & Locations Service Area Map News Releases Doing Business with CareFirst Transforming Healthcare Cybersecurity Community Partnership Media Multimedia Resources Health Care Resources Media Inquiries Legal & Mandates ACA Rate Increase Justification Patient Rights & Responsibilities HIPAA Health Care Fraud Prevention Member's Privacy Policy Notice of Privacy Practices Text Terms & Conditions Quality Improvement Transparency in Coverage Balance Billing Mental Health Parity Prior Authorization MD Proposed Rate Increase Law Virginia Claims or Coverage Denials Developer Portal Interoperability Machine Readable Data Machine Readable File Mandate Nondiscrimination Notice and Foreign Language Assistance Summary of Preventive and Contraceptive Services Lactation Consultations Habilitative Services Appointment Wait Times Careers CareFirst Careers Search Jobs at CareFirst Our Teams Join Our Talent Network Why Work at CareFirst Students & Graduates More Information Other Information Community Federal Employees Congressional Employees Health Insurance Glossary Medical Policy Frequently Asked Questions Contact Us Have a Question? Site Map Language Assistance Available English \u12a0\u121b\u122d\u129b \u0644\u0644\u063a\u0629 \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u09ac\u09be\u0982\u09b2\u09be \u4e2d\u6587\u7e41\u4f53 \u0641\u0627\u0631\u0633\u06cc Fran\u00e7ais Deutsch \u0939\u093f\u0928\u094d\u0926\u0940 Igbo Italian \ud55c\uad6d\uc5b4 Din\u00e9 Bizaad \u0928\u0947\u092a\u093e\u0932\u0940 Portugu\u00eas \u0420\u0443\u0441\u0441\u043a\u0438\u0439 Samoa \u0441\u0440\u043f\u0441\u043a\u0438 Espa\u00f1ol Tagalog \u0627\u0631\u062f\u0648 Ti\u1ebfng Vi\u1ec7t Connect with us: CloseKnit is the shared business name of Atlas Health, LLC, Comprehensive Primary Care and Associates, LLC, and CKNMG, LLC. Atlas Health, LLC and Comprehensive Primary Care and Associates, LLC provide in person and telehealth services to CareFirst members and are corporate affiliates within the CareFirst, Inc. corporate umbrella of companies. CKNMG, LLC is an independent company providing in person and telehealth services to CareFirst members. Serving Maryland, the District of Columbia, and portions of Virginia, CareFirst BlueCross BlueShield is the shared business name of CareFirst of Maryland, Inc. and Group Hospitalization and Medical Services, Inc. CareFirst BlueCross BlueShield Medicare Advantage is the shared business name of CareFirst Advantage, Inc., CareFirst Advantage PPO, Inc. and CareFirst Advantage DSNP, Inc. CareFirst BlueCross BlueShield Community Health Plan Maryland is the business name of CareFirst Community Partners, Inc. In the District of Columbia and Maryland, CareFirst MedPlus is the business name of First Care, Inc. In Virginia, CareFirst MedPlus is the business name of First Care, Inc. of Maryland (used in VA by: First Care, Inc.). CareFirst of Maryland, Inc., Group Hospitalization and Medical Services, Inc., CareFirst Advantage, Inc., CareFirst Advantage PPO, Inc., CareFirst Advantage DSNP, Inc., CareFirst Community Partners, Inc., CareFirst BlueCross BlueShield Community Health Plan District of Columbia, CareFirst BlueChoice, Inc., First Care, Inc., and The Dental Network, Inc. are independent licensees of the Blue Cross and Blue Shield Association. BLUE CROSS \u00ae , BLUE SHIELD \u00ae and the Cross and Shield Symbols are registered service marks of the Blue Cross and Blue Shield Association, an association of independent Blue Cross and Blue Shield Plans. \u201cWorld\u2019s Most Ethical Companies\u201d and \u201cEthisphere\u201d names and marks are registered trademarks of Ethisphere LLC.",
+        "text_truncated": false
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_73720",
+      "args": {
+       "query": "\"CareFirst\" \"Appeals\" OR \"Member Services\" PO Box Washington DC OR Maryland OR Virginia"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtYICtMIAWkUfRO3QLrl02LpKRuiN2XFd04J25FIMPFKJ3FkkELLjCDghbJX5iKfuI3-SbAJIhlJhg7ABAfYFIK4UwKhWYwTM0aQ2JpaQMqan8jFZYKGOXHcmRcCwf7gu4fC4n1xjvvmSoaThy0vti_mJOwA-dxgAoG8m_u3pp5Bexu6Akpx_So_DPsCeU2wADhVyhpcDBuZpWC6yTn5ooVkHaNCF5jfDvSUt0qzCXh6i34lBnL2IW1yVKb2nXpFtQBtI3MNkA5pbqIoY6epitVMDtAoTWF0wNtU0ZwEnAcPwsAoaOXTdkDnYVHdDdoQLQETDPvYjvf6AylI00qubnUVJ-Y32q2tEZ_3I5XEu6dLAEkY9qgIv4mRG-qVopmMItFr96QlNRA3R22p5qw3CVthJBd1s_hDL9GVcA_w17C9gp1CbcW0Az0cJxJFny8qOZqNwOlJ3mBR93AH2oJ8TTC_XTKal5SgtqxAqOSsqsMYarDLPgmuVUz7yVwGkB20layLFktUa1wFXelLdQVpuulXSZVZiCSbNK5i3F85kwZMHhiHmwKT3AIRw9LnbkYpxjLTil2yIw0Jt_fnkNyMor64MRgQxLgxlSNg_bZfysnSzBGgNKiUvG5NiL24FBKe_cxcI6oBX7f43IR1rNsXNOSOfHMGIKF2c4NimqxnrcO-AquxXFDbZyH3sWpvLdq69TKDrRThQzy4HQ99K8wBQm5l-qf-qfgKKIqd5iBkhim6sJCsTaAkX8pR8O30YoFDiRFViqQpbL1NFlsy11y-QXkcVoQam6Gq6Hmo2MH2OyLBGUFmzPWbJKf5HDIubDHKBeAHy_VDSpv6bGrYk4o0mh4OHrpcvHG8Tt83S1xmBtyYurA1OAcv3pom6jYto2rNhT85TrSbzWELjcYat6jlW-ccpA-c5E_VvCK1LUgLMouM3AcoGE_ttLtWAvlLMzsSCfRqIwNr9nnTLp8Cw15h0UQziQd3cfMz-_UvnNyYRIP4vKBv9VQibpvNEF90piGNXUMBWrF0VuPBjvcj6XMe8_3IYmY0JH_rMFpszsYJ3lFvZ1LvBcV1S3VuFI373B7abMqy-F4pYsxwZS-cQwtZ7FZmKutQNvGoE05pryow3nj-P7eNpZWNw4L68qVyn3p8qYU4eSguda8CbtFTYgYtU9rBnPXGzG1XcvAB5KZGxymk0jftI9zEwqft6op9V3xvYR-xMpNZJmtJiGIT4ozsOJuT2ZmNivWSFF9MA-SPbEEZnO0pbEaXIceC6e4ChSFYRmJGs7SrOowu3L3jKEBb8jg97o--UeHfxliOrBWs48DHF2jYJVQ4bIhvcFjde4HzJtoLd5vr5L-EsjNWcSMtN5_JI718O12mf7cDrEVyC49luxjX-07DEDpPmc24_EA7k7WRx57ESlQzJTTqxRhyY3ilXH6DDny_WJNsOjLN97t6mmYeA0Ml7ykIauyEVZmnVpP3_hXhumrr"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"CareFirst\" \"Appeals\" OR \"Member Services\" PO Box Washington DC OR Maryland OR Virginia",
+        "results": [
+         {
+          "title": "CareFirst Community Health Plan Maryland - Appeals and Grievances | CareFirst BlueCross BlueShield",
+          "url": "https://www.carefirst.com/medicaid/members/appeals-grievances.html",
+          "snippet": "CareFirst BlueCross BlueShield Community Health Plan Maryland (CareFirst CHPMD) Attention: Appeals &amp; Grievances Department <strong>PO Box 915 Owings Mills, MD 21117</strong>"
+         },
+         {
+          "title": "1 Appeals and Grievances Form Submission for: \u0007",
+          "url": "https://www.carefirst.com/medicaid/attachments/CHPMD01938-12-23.pdf",
+          "snippet": "If you are NOT the CareFirst BlueCross BlueShield Community Health Plan Maryland (CareFirst CHPMD) member but are filing this \u00b7 on behalf of the CareFirst CHPMD member, complete this section. Unless you are the parent of the member, federal and state \u00b7 laws require us to get official authorization for you to represent the member. If the CareFirst CHPMD member has not signed this \u00b7 document, you need to attach a completed Designation of Personal Representative form; proof of guardianship; or Durable Power"
+         },
+         {
+          "title": "Carefirst.+.V Family of health care plans I I I",
+          "url": "https://provider.carefirst.com/carefirst-resources/provider/pdf/provider-inquiry-resolution-form-cut7087.pdf",
+          "snippet": "For more information on submitting Inquiries and Appeals, ... <strong>P.O. Box 14114</strong> ... P.O. Box 14112 ... P.O. Box 14111 ... Visit carefirst.com/providerforms to download a copy of this form. ... CareFirst BlueCross BlueShield is the shared business name of CareFir st of Maryland, Inc."
+         },
+         {
+          "title": "Patients' Rights & Legal Forms | CareFirst BlueCross BlueShield",
+          "url": "https://member.carefirst.com/members/forms/patients-rights-legal.page",
+          "snippet": "To access appeals forms, you may visit their website or use the Virginia request for external claim form below:"
+         },
+         {
+          "title": "Maryland",
+          "url": "https://health.maryland.gov/pophealth/Documents/Local%20Health%20Department%20Billing%20Manual/PDF%20Manual/Section%20VI/CareFirst%20Administrative%20Functions.pdf",
+          "snippet": "When you cannot use CareFirst Direct, please use the ... <strong>P.O. Box 14114, 14112, or 14111</strong> (see below) ... P.O. Box 14114 ... Decision Notice. All Appeal decisions are answered"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_16580",
+      "args": {
+       "query": "\"CareFirst\" \"commercial\" OR \"ACA\" member appeal mailing address"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Ep4GCpsGAWkUfRN2CWknXbKeSBgcl79cFZwRUwAbOBjlramD_EpHXlgzVq4Kd-0UG9fh-AG0xxTnzC_adNst7wZoG-8N3x1SqFNWoI1E34YBxVPO1oSdWRyAfHJaXud3LpcLw7MDdmNHiXLb6UJVQWEyDHsEAm0ohiM0EG8WLb9ii-46I2qxSPtaas686NISu9lKxCAuS-v8NWRAnpZlI-mihtFkN_K2cz5EswdMPaFDnT9h_ttM4OstadyYKvBYk0UOgm_VOSRR0tavsP3ZNFv-3Yv2AVr-xsXuCU1bWOjDiAh3y6wfywaLTs6QixrfD4LYtmb9-Y6_r-436a-w3so4K_NU2QO6ivCMLnfCKgv1gH7qSABMiwHa2LF21h8aHxvDZNDCkI8ZVonsonjP4ZDjBst_lIVmnDODC-xgYKg11gyHElSsKDtVLY8RrYAfkSJHFN7nVaGQlFbZxISnBwGNE-FEKWZyM27B2V3-ms6-QzmHfQ7NMEhGN77lV7koGo8ZCkbu95mjGgjyUp5q_557z1Yu96Iylo7gYKI38wjP_pO3OKBbzyyTXBvvJIPJip-1cvticIGn3xfyrJMWk0wBaKVvppKFllDaLYozA6MD_j6TBevDOETFR4V_9XntJr7xKLg0jAMWMpIEtBl-DB4tY6cp-REYf4apWm6rsme34eBhT0nPdq_7ze5LURgyE2E9kPRmwEp2FNeV4hziBjVvvgMg0kb_Z1q4ns6toHc71RcSFat1jJ_CXgrmyqWOqMXkRl0pLcjip3HAIB-eb7pwJXfewRErjnNcGf1KVZaUPc3MHbZwSud6DEGdxum1iVM6VfGluuFD8Yjw1Wxf8PBUU7rR5Hj-YKX4oEuKyUw5iLeD-GEl5WwjZj9Ddf6PflGYGcMkYLRoY29d7pqRJvfKRl8zC_qOafthl8C7DqBz4BiJghwVlyUJVtP-vM3QcKpjKy_zbbjOduM5xSqKNVjj0qOO84t5JuVN2GWMqGJF52vlkzJB0Zfbf4xzEJz8M9rQeoPmHaDTTAiYp5Jd9l3Fgr9lMOrBFyiRLBOlHyS-"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"CareFirst\" \"commercial\" OR \"ACA\" member appeal mailing address",
+        "results": [
+         {
+          "title": "Medical Frequently Asked Questions for Individual Members | CareFirst BlueCross BlueShield",
+          "url": "https://member.carefirst.com/members/frequently-asked-questions/consumer-direct-medical-faqs.page",
+          "snippet": "CareFirst must receive your written appeal within 180 days or six months of receiving the written notification of claim denial. Send it to Mail Administrator, <strong>P.O. Box 14114, Lexington, KY 40512.</strong>"
+         },
+         {
+          "title": "Customer Service Number of CareFirst BCBS Maryland",
+          "url": "https://member.carefirst.com/members/contact-us/contact-us.page",
+          "snippet": "Members who bought ACA Plans directly from CareFirst (off exchange) 855-444-3122"
+         },
+         {
+          "title": "ACA Plan Medical Forms | CareFirst BlueCross BlueShield",
+          "url": "https://member.carefirst.com/members/forms/aca-medical-plans.page",
+          "snippet": "These forms are to be used if you have an ACA plan you bought directly through CareFirst or your state&#x27;s Insurance Marketplace or Exchange. If you are unsure of what plan you have, look on your Member ID card."
+         },
+         {
+          "title": "1 Member Update Form ACA and Grandfathered Virginia Members",
+          "url": "https://member.carefirst.com/carefirst-resources/pdf/membership-change-form-va-aca-grandfathered-cut9751.pdf",
+          "snippet": "https://ocrportal.hhs.gov/ocr/portal/lobby.jsf or by mail or phone at:"
+         },
+         {
+          "title": "2025 Evidence of Coverage CareFirst BlueCross BlueShield Group Advantage (PPO)",
+          "url": "https://dchr.dc.gov/sites/default/files/dc/sites/DCHR/publication/attachments/CareFirst%20Medicare%20Advantage%20Evidence%20of%20Coverage.pdf",
+          "snippet": "CareFirst BlueCross BlueShield Medicare Advantage is the business name of CareFirst Advantage PPO, Inc., an \u00b7 independent licensee of the Blue Cross and Blue Shield Association. BLUE CROSS\u00ae, BLUE SHIELD\u00ae and the \u00b7 Cross and Shield Symbols are registered service marks of the Blue Cross and Blue Shield Association, an association ... For questions about this document, please contact Member Services at 833-320-2664."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_27570",
+      "args": {
+       "url": "https://member.carefirst.com/members/frequently-asked-questions/consumer-direct-medical-faqs.page"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EvoECvcEAWkUfROb8Y19om28KqrEam_U9kbO_k38v5c2sSO2sw4qWU_XKOKRhLUw1Vvbk8ztllxT_dJzNkUgNv4gV5r4DQ9EYZLSjde62WWjjnU2v6CQW1sLFN08bhnyxrZ3hCDi2zLBYBQ5sDQfJ4grvgR4sHc0y1_wOd55CZJunZ7Ddx_3XlFRgQjrHCWpVQUNYMmpMtfqGhcIqVXVzBt4MiXR2y_YBj7xsJeYaajkOT6UJuqYIraUPl7nf-2pOVCPXuUuTBcG598USVqFA7jpz4WwWL7YFLB_Hlv05N5CkePVhO_v7RArkZZL-Q36p1PPR1aKCmnbBRpUMTMRNqWzYEUSl9m3a5zQGkxrOsU-p5UZ-TS0qs-vLn84LSPl4mzYW8vt9renyRraVyZ7fuxHv7YptgO4GFoQ0e18koVVCKRf3_vWPkUqik1ycZK0ZiPbCZ7v9I135Pe5HOCAWWhuPUSDJQ_yBqNGVWCVci_n2pq45Yn-czyAgiorkuLbHXFDCwDssS6pr86zOjRRgVoSZOaoTlSuta7nlV3Nkr5csFe7al7xJtA-FzJJUkv2NrPuPla8Pqqsj6mugNr90Ow8CMTUwPLyVvmO8V1Wznn3uMPhJPcz6jGbYdajuGJTdMCYrmq70iZ0YUgxiNDvZJ7EzAEq6PGVUf9uYzVCkC5OD0qlV581i9nnlGO508Wh2Yv34i31srFMPnx5Uez0fzmQhLp_MN-oPII5c-RLTvsvud3o_WUk_BREwmlzIuletSx8-5Cra3gYviKspydeITBKfdw86eXyptWBcAby3CtqyRs0JYc6StPn6R9yZTx6cYeCpqu3CPzlLpa3SQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://member.carefirst.com/members/frequently-asked-questions/consumer-direct-medical-faqs.page",
+        "final_url": "https://member.carefirst.com/members/login/solo-individual.page?eai_success_url=/members/frequently-asked-questions/consumer-direct-medical-faqs.page",
+        "http_status": 200,
+        "content_type": "text/html;charset=UTF-8",
+        "login_wall": true,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "CareFirst BlueCross BlueShield | My Account | Member Login Change Healthcare notifying individuals of data breach. Learn more here . Skip Navigation Need Insurance? For Members For Employers For Brokers For Providers About Us Company Overview Caring for Our Communities Cybersecurity Transforming Healthcare Working at CareFirst Contact Us Login Register members false Menu Home Our Plans Health Coverage Medical, Dental & Vision Plans Medicaid Plan Medicare Plans Prescription Drug Coverage Drug Coverage Drug Search Drug Tools Pharmacy Exception Requests Find Care Find Care Find a Doctor/Facility Options for Care Research a Doctor or Hospital Blue Distinction Specialty Care Compare and Research Doctors and Hospitals Check Doctor Credentials Using Your Plan Resources Payment Options Frequently Asked Questions Submit a Claim Plan Calculators Benefits of My Account Virtual Connect Forms Medical Prescription Drug Dental & Vision Patients' Rights/Legal Managing Health Care Costs Cost & Comparison Tools Cost of Prescription Drugs Health Spending Account Resources Health & Wellness Wellness Programs Overview Review our full list of resources that support you in your health journey and help you live a balanced life. Explore Wellness, Rewards & Discounts CareFirst WellBeing SM Blue Rewards Blue365 Discount Program Behavioral Health Behavioral Health & Addiction Substance Use Family Health Preventive Care Your Guide to a Healthy Pregnancy and Newborn Whole Health Benefits 24-Hour Nurse Advice Line Teledentistry Health Resources Support for Chronic Health Conditions CareFirst Health Library Dental Wellness Library Vision Wellness Library Vitality Member Resource Guide About Us Need Insurance? For Members For Employers For Brokers For Providers Company Overview Caring for Our Communities Cybersecurity Transforming Healthcare Working at CareFirst Contact Us members false Log In or Register members Member Login - My Account members You must be logged in to view protected content on this site. To access all features and pages of My Account, you must log in. Login members About Us Company Overview Awards & Recognition Corporate Offices & Locations Service Area Map News Releases Doing Business with CareFirst Transforming Healthcare Cybersecurity Community Partnership Media Multimedia Resources Health Care Resources Media Inquiries Legal & Mandates ACA Rate Increase Justification Patient Rights & Responsibilities HIPAA Health Care Fraud Prevention Member's Privacy Policy Notice of Privacy Practices Text Terms & Conditions Quality Improvement Transparency in Coverage Balance Billing Mental Health Parity Prior Authorization MD Proposed Rate Increase Law Virginia Claims or Coverage Denials Developer Portal Interoperability Machine Readable Data Machine Readable File Mandate Nondiscrimination Notice and Foreign Language Assistance Summary of Preventive and Contraceptive Services Lactation Consultations Habilitative Services Appointment Wait Times Careers CareFirst Careers Search Jobs at CareFirst Our Teams Join Our Talent Network Why Work at CareFirst Students & Graduates More Information Other Information Community Federal Employees Congressional Employees Health Insurance Glossary Medical Policy Frequently Asked Questions Contact Us Have a Question? Site Map Language Assistance Available English \u12a0\u121b\u122d\u129b \u0644\u0644\u063a\u0629 \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u09ac\u09be\u0982\u09b2\u09be \u4e2d\u6587\u7e41\u4f53 \u0641\u0627\u0631\u0633\u06cc Fran\u00e7ais Deutsch \u0939\u093f\u0928\u094d\u0926\u0940 Igbo Italian \ud55c\uad6d\uc5b4 Din\u00e9 Bizaad \u0928\u0947\u092a\u093e\u0932\u0940 Portugu\u00eas \u0420\u0443\u0441\u0441\u043a\u0438\u0439 Samoa \u0441\u0440\u043f\u0441\u043a\u0438 Espa\u00f1ol Tagalog \u0627\u0631\u062f\u0648 Ti\u1ebfng Vi\u1ec7t Connect with us: CloseKnit is the shared business name of Atlas Health, LLC, Comprehensive Primary Care and Associates, LLC, and CKNMG, LLC. Atlas Health, LLC and Comprehensive Primary Care and Associates, LLC provide in person and telehealth services to CareFirst members and are corporate affiliates within the CareFirst, Inc. corporate umbrella of companies. CKNMG, LLC is an independent company providing in person and telehealth services to CareFirst members. Serving Maryland, the District of Columbia, and portions of Virginia, CareFirst BlueCross BlueShield is the shared business name of CareFirst of Maryland, Inc. and Group Hospitalization and Medical Services, Inc. CareFirst BlueCross BlueShield Medicare Advantage is the shared business name of CareFirst Advantage, Inc., CareFirst Advantage PPO, Inc. and CareFirst Advantage DSNP, Inc. CareFirst BlueCross BlueShield Community Health Plan Maryland is the business name of CareFirst Community Partners, Inc. In the District of Columbia and Maryland, CareFirst MedPlus is the business name of First Care, Inc. In Virginia, CareFirst MedPlus is the business name of First Care, Inc. of Maryland (used in VA by: First Care, Inc.). CareFirst of Maryland, Inc., Group Hospitalization and Medical Services, Inc., CareFirst Advantage, Inc., CareFirst Advantage PPO, Inc., CareFirst Advantage DSNP, Inc., CareFirst Community Partners, Inc., CareFirst BlueCross BlueShield Community Health Plan District of Columbia, CareFirst BlueChoice, Inc., First Care, Inc., and The Dental Network, Inc. are independent licensees of the Blue Cross and Blue Shield Association. BLUE CROSS \u00ae , BLUE SHIELD \u00ae and the Cross and Shield Symbols are registered service marks of the Blue Cross and Blue Shield Association, an association of independent Blue Cross and Blue Shield Plans. \u201cWorld\u2019s Most Ethical Companies\u201d and \u201cEthisphere\u201d names and marks are registered trademarks of Ethisphere LLC.",
+        "text_truncated": false
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_22920",
+      "args": {
+       "query": "\"P.O. Box 14114, Lexington, KY\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtoICtcIAWkUfROIOA1Zw81Tm7m-LY2WHx89EwyNbB1QXAqa2f61Dea_KoVsxXIof_993IbwgiqCo7CRVm0zacOzVy1Mi1H2I3ZKVn5XBA2aWcwhzS6HB86kprjNUu2khKncnDFOZKXjb1ggJ0VdKI6uZcbbanNeoujegedESVEnPh4IASpXuv1CSUlb5Phfaee_T0Dpzndd3vdWddwszoxtGJ8jDasqg2eu82ejaQkBPWGiv7w-T1z1aQQUqdu6pzJJzXqSqDVUpHdC7fE0YTp2FQABUNUHmXMO_0PeE9ASHWGnMnqqZQuxLjCeIqVpBt62Tzoc290JsV0WbpbJaJ5xZw8bmuA0JPL9l1cCzv_IXxUoM7Oy8xrLbQciCOSHrnwTADnZimXQ7DplrwfS8oDSeXhw1iHXfkCIqxCEChnWBDyHmNJ7NO_1aXp6mIHOV41qRPT2378bLyPftZueKPkreLUJCeU1-z8aQWaqqr-daPS9CjPnUtacEBenv0m5ViXDEmLQSu2wPG_27SkACuEEV46mNZYtN56REfGGusXRw-hXYywOLRs6HnzS6pc8LyHgUk_W4G3FjPkZPEnyjLkqOCQHaXbQiXXigdmci7xnkCZDQ_xlMDwdbHi-tzBC0ckeKqMbBgoEUXgLUvUdrDwJO7omJUkMHgsoAsmXO4mhc_xfK0wQXPB8-7MPCM9Ghz_k5kmEhpLFaSkz9-NQDStP370SjdLEFd0gjf0t7Dxj7Eb86fAPGJzZtCQa2ZkiiqnUdNmdZwaf_76Lg0x_TS6STFcKaqLQngjGbmbvGhLZF88U6iNJfVTixvF4AiPqw-335hTAQPuxIERbvtrrS5LcWcQW6ktTkTnEd4RvOdO8_qXb2msUBH-YeKJncVExQqeKm07ThgaQvWnQDdzF3hba6fGF_qgYGBw_gLn3dyHK5FaWX-fb18Qz7OdfpLxDpCWSIus6PWX4FHdV-fdOh-QD3jIxXrXLdLHEo7yALl25Nx-beLVrqDa-1XmgGx4p7SaoDqVcqqZLZVe7pB-emElkw1S2yTjEObRf1-qnqCoExt_v3l_SeqNvHJ69sUw7t2l6sOdA_Mh0-ha95a618BxBXHvE-qGpvrZo7U8xKo_DhVfKsL1cT8N3toMMBlOas78ZlHkjvL5iBT95Lpw5f8Em5p6ffbJRmtao28UJfinIFDIAjxj11pIGVpUuieLL9enTjQjQ95D7PWumAuVWNGBG6UQpnIBj1qLH9S3Wp-SyB9DRaLDSQvuOaQii80InSjMvDmN51nUHm02vF8hTlnLnzvcm0KdsZiDl02tT4FQCfK3y9RUVr8bIf40Hs2DYqQ8zgp3HNS5mPaUoGvqScgKwSD1T--EUext0z-GzghPfhWOiz9--WqGED7nctQ8FHXC--p0E2WpLodBLtTGCG0PFCPDePme0flmNH1D7ob1IkshCICfr2loPzeEb8p6tTAMOlOLBUimtbJpqZw=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"P.O. Box 14114, Lexington, KY\"",
+        "results": [
+         {
+          "title": "Carefirst provider inquiry form: Fill out & sign online | DocHub",
+          "url": "https://www.dochub.com/fillable-form/73276-carefirst-provider-inquiry-resolution-form",
+          "snippet": "For those who prefer hard copies, <strong>the form can be mailed to the designated address, typically P.O. Box 14114, Lexington, KY</strong>."
+         },
+         {
+          "title": "Claims | CareFirst BlueCross BlueShield",
+          "url": "https://faq.carefirst.com/faq/members/claims-billing/claims.page",
+          "snippet": "<strong>CareFirst BlueCross BlueShield</strong> PO Box 14114 Lexington, KY 40512-4116"
+         },
+         {
+          "title": "1 Disputed Claims Process How to file internal and external appeals",
+          "url": "https://www.carefirst.com/pshbp/attachments/disputed-claims-process.pdf",
+          "snippet": "by writing to <strong>Mail Administrator, P.O. Box 14114, Lexington, KY 40512-4114</strong> or calling (833) 489-1316. We are required to provide you with any new or \u00b7 additional evidence considered, relied upon, or \u00b7 generated by us or at our direction in connection \u00b7 with your claim\u2014free of charge and ..."
+         }
+        ],
+        "result_count": 3,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_43736",
+      "args": {
+       "query": "\"CareFirst\" \"member appeal\" OR \"written appeal\" fax number commercial"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsIICr8IAWkUfROYL7hEKtjsgBbOxa6inZYH9WmujGkB2iJa_MantMbQnXJFHHo4X-B97vhnIO625UqUr_041NJ9UcpHYGJT3_sv4ZO8WtWsPquUxDiN_F3jRWnPVptoya96R8dwMZ_rD-hJnp4BPG1udq0CMGascHlwU-vAwRvB0JZtKBokhcUPmIG0BM2e5NmSXzB8yCb0oDOgxX8KoO_bJ4MfiKSnp7P7AzCdGNN7YfrsBfI-gaPaFX0a2tb0sJ-gglzxpuNvRari2-2snQm3uvGNuQoDNnloMUsdirUt_r1WLx9pNuZ2W2fmJyz_QDgi1hVwVd-n_VT3eiH3jpXBwyN4YTOUle9e04xq5-WqOUJ67Lbzl86zE_krdjR6VtKcqnEIUY766C2j9_9l9QsKYXrtaShW9JPCK1WE7YR6yOZ-NKT--d77_I6R5AODDavbokWNALu76FIGgIi3qmUQRBP8LNzwEst1coyOFYxBQnfqKV_wpb4uZ0zPwFK_PDejkMm3lQNAe-1XxafqcbNEonWssmYX4eHLQxn2uUdoSMrcqoX6ovkAiKZlW69zPGPpHJvA85nW-sxJqwlr2QNxSNy9o7C3QSuG688OgyE-QJxAOfll5BCwulorxhyHWsJDr78vknJ76-y6QoZ7CFLskcY3dgVGVzVDyFzwXy38NDkTxgdp8C7sgMf22N9bkasJvI_1csufqv4yn7YvK4R9t_INm5svYTQU1mGnLRKVs38DcoWkktMKRE0ZxZ0efFukvh-OPZ6CfnN6WJl1bbR8rpDshawwkxmwaQckTUDczroCPGICe006xGV3zOBxU2oh7fEeFvkAOM3hF8huJ6EhReI6288OYwMs5wFsvYB00t2q7960CSzOZi7W9-cDzhnzf5zKIBJDQmy_eTtXo4qqNtrzEDnN6YDM87YSL2bGzxJPxKawDzRAVzifuXhmzSK9LV9v3N5tHhJ0QWMkxZBed7PGofKDeQhjBo5F2sjL-x0bbU-jolbn038TIN4dtK8okI8hbCgotlMeYdQqWfaLkHFVnKzWEvkeqfhjh5Uccv9w6icffxYdIl1hDAlepvjZXH0FvazDAwe5JvMdlWqFuUQCDEpiYU_t3CEMm-4KY5FZRWfDbnDQGEIejFWNTcFFf5Md9XsU2JywHxCibcd7aelQOFlSz5Fs9hccVhsFYA9XKtTuuuqdHGsWEFKjQsF34QZWWx-ja3AurmBEmTvGYrrzlFNd9sO6PI2UzaFXJlbH_3MGQU6uBkYli2YblUzOyEAZLag5PVHxKTX83YNpSO6rNsTD3QcB9O6y5bSug3Ij-f6O4BwG8Bq2_T9Lthl4W0bYqAeJxy8QnBcm5WSNsbKhfUgwbCLJWvstS8XbAP6k8wN5inpVdSJG_VpHBVtzE6U0xIZlHBoR4rWGGrEyFQygfs9Zn-YQlelCLKvg1Bfv7g=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"CareFirst\" \"member appeal\" OR \"written appeal\" fax number commercial",
+        "results": [
+         {
+          "title": "How to Appeal an Insurance Claim | CareFirst BlueCross BlueShield",
+          "url": "https://member.carefirst.com/members/contact-us/appeal-claim.page",
+          "snippet": "Call the Member Services phone number on your member ID card. If your concern is not resolved through a discussion with a CareFirst BlueChoice representative, you may submit a written appeal."
+         },
+         {
+          "title": "How to Appeal a Claim | CareFirst BlueCross BlueShield",
+          "url": "https://employer.carefirst.com/employer/contact-us/appeal-claim.page",
+          "snippet": "Call the Member Services phone number on your member ID card. If your concern is not resolved through a discussion with a CareFirst BlueChoice representative, you may submit a written appeal."
+         },
+         {
+          "title": "Claims | CareFirst BlueCross BlueShield",
+          "url": "https://faq.carefirst.com/faq/members/claims-billing/claims.page",
+          "snippet": "To appeal a claim payment or denial, follow these steps: ... Call the Member Services phone number on your member ID card. If your concern is not resolved via a call with a CareFirst representative, you may submit a written appeal."
+         }
+        ],
+        "result_count": 3,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_76824",
+      "args": {
+       "query": "\"MCG Guidelines\" \"knee\" \"29888\" OR \"ACL\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpcWCpQWAWkUfROt2r33q9GZ96m1PUPGsINXKWYUu_NX90iowAuCN4zRMuZAxvW75FMRgDkAEmyIkopZcaConRz0JKMVNUIdxv0PAstDQqiaQGfiJGK7XJdgDPYArw3k-M9CP4dajLdhA6dfZe4Pv45zTZPovsBjmEYpw0M0dXPdm6TclZVfjR0GZnofQUbFa6LwcgcWfB0XBZBm_ZFmLFbH7oA8aBpjCAI-3Xzwl510xDkHiacQ6BD3lm9lAi7WugmjbKPZUNmiv9yYCeDsN2uwtS8wwj5msVDc6AMZJudpHXYbjyII68d0ePDBS0NOOdinWMiH_uBgPCyx9WEflvn1qPW1kZgbWYovYSrh88nSNZyix_afJquCqM13zee-9KRx-HqOfPUF8QMz7Lg_y0sxadAgaPi7YAYXkrd3NWvHWMn8UnN9uzK4b7CuLjpGAd0FKh2q57j0ceU9VhGWXG4mNzFbJ8x_nu6--dhQy8lUMA4Lz73dI3EnXpj2slzKe2ZgDYuuM-XZiZtUQ1w-iAQbls0oZ3WTYWBMDG1jlRPhgvnH34TvI7E8Oc5xD3aaAn96plWAtfyI1s-65N7_AfnOHHym4isU8mqh4iI6EsR_pMjABM3cpjP8YH-uBRnxh8JpCel26UqBViY4IhwmtG2sWkVYhRQ7i0JZsfTSBd_Ow9Yb6tpaE8094fkEIPzJRZ_52lLDuqMgfg0v2Q_ZBOjlxVaYMUr3vYuoPd8GQ-NYGr87wvxDcBOYnXQysoUYBkrOQL7opzniGRu0zUNGXErVA3Vi0FK_zQA_uqwtx5d5R-7h7gLGon9xlsYqi0b945mRvQfzBv5G8TRwQZ1KswWR42JIP1zWNF05-T_yvMNTuOG9tJKcJKN2eCslyJzxUHTxVNFraEaCHzmd1pP5kDI_VK5IGgeAoeRrQYTLImwJxv0C1rkQHZnmDTYkScan5KeQTFdf2UnC9Mc5nVfs9B2SVKNyAqJd8WrteBMjS-z9W263kp8spw-p_nxOqBKjGXx_XjSX-8zq5lDJMRxHovdRhGbKzPMW75FjfM5bRfXmRwRoamIsUjQU7JhAvFltJlzvGDX5M0KNDIPqoOMbitKobUUBLHiaatw2zOCL96PDXijUr08Pz5H1ZrcS-5SJU4_85_DrVXWb892f8HkUbOMx-FiBsL-99zvGbOcXb1nKHNjBq9dBEzLXavkFLSZTwP3YSsXv_e4QPYkM8zTTAtR_UZdDfwkhdVDVa1AFeiR4mWipiqSwWroc2GFuiCwta1nFq95XWVOyVy4-VsrhJueRpEZkxzAh33FX3MhtjdwWm_HrRoTqdvcB1xjqs0VIt0ucbWa_jPnLFn4CfrdSyvN3MIlySTHFUi4AlVN-LBPZeYNQ54BbFAxK2vuZUjPd0r3L9lG2O1OBrjNk7r5xcYdL_GUaJBJn89eYcmGoKYj5OPSvkOahV6l5IMxuxdA8OUy6VQnPXr1Ca-gvl6HFs0EvRoR4W3_LLvFYqcEncXV4JHoHrU5AzMZbTeeS7YqjuUbYEqRJe3T0DmIfEy1Gg9eALOgtpejAg3IfodUJcelX5e6Ib7Q6tVTV_QXa1mPlkG8fbr_2xN-1qicOB8ImWqt0pymVppqwLzb3DkXpNu0sWpj4RyXnPvLHfckRQQbuv9tkcUIQSQNz8IfCu5vAXZa9afooN8WCoRib-F_p6j42Rd7D7zeoSmnjvUp1ezgmzQ-PuC9n0GRKAgTUN4xH_EaoOZOit5nzTTQI9H5fZBo9zKCk1zRBVx4SZRyWCuOAu6ssgcxMg3wwNt1g46vAE7QvnnoPD17SziJNmdQaxvhwftCFaXwf-ZFUsA7CpyjMURHJF6yz64hfQJA40QsnbO_zoqs-QLwqCptkkFIzumfiOoFK32nx7sPqlDGzDITS_K0OHKPvbW_HV_P4sSUUVgC4U-Ybko9DIFTPlmcEBzm86US6oHM89iNIRPHwVzNq8U_swBw_rYUVocbuom2OAOfb3vE5TE0vnHbDYiCf7asao7Jr-GgTbkdrcyqrL-YOMs-hBSvEkisq_kJx9xvk7nktm1bWUoS7Kq73UIE0apu982jyuLEvi505gGOBjBVsAMEPccOFoIjS6SMUGe7Puy80r645rE2uUQ2DXafxJ_XNCA-00QiT1T66FmEiVNntwhkvJxePPMW7JBVN1ST7dWxAEKYfIf2I7AX37BoeRai5ESvBt0_rvJaO08AmLMpaQ3aZG5Mfli7tjzu5M40MymoO0oFB5s7KDXFVnK_A9vjq9VImut4OBhTSRhVSRGYeWZ7kg23n59uiOuLekVo8xold0Eg0fWS-wr4P4m7rn_fz3V6kBQdmxKPm_bzzHCqz8EYcbsW9O6WKx4wFuvh3xGEPQoMcgLX_x108ZkkHCNUvMoVuj_P-KpxDGX6Dl09CGdcz7oiat0ZJA5P-EdtR0WqXr5i2m23EJXXzH57bhr5or9JntWqqWGBeU2_dqqOIhBbvqtT3NFF7wG1KWow-CkzrtVhBvD3VDNLDrZQjMeNdWRqG6ssSD-dFsuremUqyiCOlGxmd1eKJKJsTqQSHYis9RAHvuFYxyOHm8fXi36eRHwLrP_Mb2lkCZORZ7xZoYSGtK3iAMx0N_8G2he-Bu15rKLcop5FkTiVWi-il3oxIFlrGI7mK7Xoub1F5g0Wq4gI-I3NWBQn2lttkmef0MybE_mluW41RVWhhb1NKDrMW9zfetZ4AwtUkgI0z31RgLV8mKu3ydmZVPgc0LFcHuAWFrfyLQIruxZvrICGFDt0CNIjQ3SANdFbcjevlY8NsQq_RpUlsT9D6ql6IxubGVAZkB79nHQDiJezrGxL97yTkPk2UY9NgLeuQHvlsVuoLCzyoCG3X9lJkqSdpnwRZkqSG3GV6duxSpYhmj8cRpODEx2obJoTyMRw3f7epsudvj4h3BxOBItN9jV4AchaS8L4XOgwjQyqolapcyqSVBAXjLOncLgY34le_w55onl8C50r-u4dU4Mqece3ezWHjHRhGBM_LHKbVhdXhlrmGrd5PoYNF478OcvzUPZ1K-BsBapdmAnKpfUeN4rxSvQZv2ezAjPzlNcMTB4VV6ctnbs1jK1FuaLO376nEVcdGPdOZecqAxW_w-XdtrpNE_7O4HeMs4IDgsDNoXIWONuQvLnWZyWZL8ZiUFe__hmitJzqW_euvfVJjF85Syg9CSeRkRkcphQfhPmPYeyxmhZdLiAj0erzGPj7MZGq8frm7ZXv0TuPS6uSU6xD1v-XrWmfrVTlb1NYk0cMrpV-I8i--zJoHLNlHBrwkMXy5R7t6qpJ_u1zebTOAq6_lOL2uPU-IbWZFP_THDnXfTABRl2UhGdAfHdNCtv9wGHoHGSEQXguKsn1iAm6EVfSBsr3Ot3CPb0AY2xPYjGN9HSyGH_CyRQ5QVcAdenImUdmgZVUxHKhZHaDiX6J03QB44JpWJXONpekqFLIBjQxgyAkQzZjz23Wl7FgmM0_TrNVHOzlCrrbTBEEaEqP0xDSg-DM3uFmeg8zYziyXSizdaZk8DKbgS1O0vc-LfqhmjradCauXgJe_MjZ8D72FGGadpvdtyEXGHl4M-ziPSXFhOQEe9khe33_jCWqHScYMJR3wbiHjXhUWHtT2b4OR25w16XdwMi-n-RjeL_j4uvsHM9jxLmtXbO6WSrKLhypfFoV08D_QP1v96PK8YSk8Is14V-39K5hNUfgU7pTLPgBxNYrL5Wb_zTbdYQ3ox4mEnuwtIukg8oTg80ImZK2ncFJZ1A=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"MCG Guidelines\" \"knee\" \"29888\" OR \"ACL\"",
+        "results": [
+         {
+          "title": "Helpful Codes For Cruciate Reconstruction With Allograft | JRF Ortho | HELP",
+          "url": "https://help.jrfortho.org/en/article/helpful-codes-for-cruciate-reconstruction-with-allograft-1jzqziv/",
+          "snippet": "27429 \u2013 Ligamentous reconstruction, knee; intra-articular and extra-articular \u00b7 29888 \u2013 <strong>Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction</strong> \u00b7 29889 \u2013 Arthroscopically aided posterior cruciate ligament repair/augmentation or reconstruction \u00b7"
+         },
+         {
+          "title": "Knee Arthroscopy and Open, Non- Arthroplasty Knee Repair",
+          "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-65&pv=false",
+          "snippet": "method of diagnosing the cause of internal derangement in patients with a knee effusion. False-positive \u00b7 results are rare and, apart from posterior meniscus injuries, false-negative results are also rare. Arthroscopy is used selectively as an adjunct to the history, physical examination, and MRI when there is \u00b7 a diagnostic dilemma. The only absolute indication for arthroscopy is mechanical disruption of normal ... Evidence for ACL reconstruction and repair includes an UpToDate review, \u201cAnterior cruciate ligament"
+         },
+         {
+          "title": "For OSUWMC USE ONLY. To license, please contact the OSU",
+          "url": "https://hrs.osu.edu/-/media/files/wexnermedical/patient-care/healthcare-services/sports-medicine/education/medical-professionals/knee-ankle-and-foot/aclmclcombined.pdf?la=en&hash=B0EBC3FA0EF3060AD31B9B1128C4CB8FFB9BFFEF",
+          "snippet": "Extension: <strong>Emphasis on achieving full knee extension immediately following surgery</strong>."
+         },
+         {
+          "title": "CPT Code 29888 Description, Scenarios & Applicable Modifiers",
+          "url": "https://medibillmd.com/blog/cpt-code-29888/",
+          "snippet": "CPT code 29888 is used for <strong>ACL reconstruction surgeries, which are minimally invasive</strong>. Therefore, only small incisions are made and very few stitches are needed. Now, the ACL surgery is performed arthroscopically, which means that a type of ..."
+         },
+         {
+          "title": "Score Points with Accurate ACL Coding With This Expert Advice : ACL",
+          "url": "https://www.aapc.com/codes/coding-newsletters/my-orthopedic-coding-alert/acl-score-points-with-accurate-acl-coding-with-this-expert-advice-152653-article",
+          "snippet": "When your physician treats an ACL injury, he has two options: repair the ligament, or reconstruct it. The CPT\u00ae code for either procedure is 29888 (<strong>Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction</strong>)."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_52617",
+      "args": {
+       "query": "\"anterior cruciate ligament\" \"criteria\" \"02-20000-65\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Et4GCtsGAWkUfRM9nnRu-6YMx0APwLBr7ewSUBxCuc5xLALauwLvGpTmQI0xP-POPkzvrFUqlEemxniA0tk1xM7c0QLsZlSV0EtQN5JDAmNFa07NBap5wsxym7wfjbOrw710fkk09KpZkoTBowHjraGi36m8aCKui4nvFGH311wAK1CYX6rJfKTt-rJiFUyuMLPfJt33QYENinRlcynbgPBjWk5pdiLWCZnWj74iuUZrRAdtUuMyZq1eUEAPNj7x9AzJU45Ns462BBlif79ASsf1gDTDxOrMeb3-Osq1IxoygZx31qmZR39k97tnsz9TimqN3EegJCVewH16cMKoOloUu811KNpSxomyCmZkLQaGnd0telxgW3FLAwRmtWrYF22f85ZeUemwHPRl5gCyOVBd_Q7-0JZEBsDMtLLnA-9xPWP4pi3AGomhTvpi1GZKNoT3B7yIZxbpfCF6Abojh-mew46Rc1VuT7zTYRt7XQYGkbNE5kxdpQtyPoWjO_CCTfQ_dFV7a7OKUlYf2FiVd71qsuBlAqom2Y4ArKOyut7e7cXAVYrqm6fWexXPOMUX0KfaSHbsZcQpWx1DjzysjegNa8wSJ5XbIOn_XG6_nsu8-AZWnn1n-NOUTNYErMI8GJLKh5j1cqruqG8sMzDI-GUlSyfZeThpXVmqBugMS4RfyS9GZZ52wkf7XBjzSGOdiu0I1MyAv1tpE1W3R7HAJFco7T4CLh5EAHdOsu0M2Agk0CLOJOCkt-NOc3ZJF6lnwSrIfW4IHKlSyfR9TM6-NTSKy6UjBdzmaVte1xZus0Wtu_kuOtUQ4czzVOwcd3xQqOWQ8O6i74P9r6Dyw1mQ5XV1nJxsP0AYcS_009O6GVYWLB4Le6r7SATgGTdc9eOMFFfOBQaPXSZhNsFcm67RxmorVkD5usCyDKZrsAcoGtov3ZLWFfOtFdOzVaS8P_fW9FE6vNu7qvoEbmAcsKHUG-GIR3GuZzdkFXcpdQWuMJMEjwAS5Yw13lirwdDlhPEoBsANZI39QKcifIrNPn1_cDYgqALrzZO3I7Bsfr0mtmUuVsl58uuxlX4w_l12kCAOZUbktlGcFkpMEKOSMzbTIWbgUMxURM2zHgJxW8pXjOT7mnfRE9DZINv5jcCf-aGDNg=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"anterior cruciate ligament\" \"criteria\" \"02-20000-65\"",
+        "results": [
+         {
+          "title": "02-20000-65 Original Effective Date: 10/15/16 Reviewed: 05/28/26",
+          "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-65&pv=false",
+          "snippet": "criteria for diagnostic knee arthroscopy; debridement with/without chondroplasty; meniscectomy/meniscal repair; anterior cruciate ligament (ACL) reconstruction with"
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_62159",
+      "args": {
+       "query": "\"meniscectomy/meniscal repair; anterior cruciate ligament (ACL) reconstruction\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpMDCpADAWkUfRMVzuCkKc82s0UhHRlFSbVSOnkXjXoNk6i_LQbpapcMBmu5YhfovDPEb1d73LtM7WYCEapReQIoyEgcANn_pnL5-3rdeSfSllKEt9KCyhNQd6LTVHKXeRV9IIy5IRMANkKykPcKyw5d0gZMVAD2yKlbzcj3zLPTb7-IZrtr2c116scYGe1XPaHVErmKo9u-9kBlT9oDcUtHOn87ZL2WKxePK_yrJCWwwQ6F3UzMwiA0745GoDntPVOJeLkgtNk4ViHhacAcEG-VC29S_eRdMlHK_jUeH2fbi_-zySBJM6X6zra_i7qwco9UqngwdReDeAKgNlHOshzdIyL53OYn3BP_HN2_in7H_PkHF5niF2ADpZEhwFkQ7jL451UJR4bmcl6P_rG_K4ixc2SFRX4y1_7j4IJRQ3m8hi8RyxbrJ0cybm-bBCyRX5pI6EqHqshmR9ztnZaJOj2Rzz4K2bMAXKMQr1aNqIumKwg8VSPWI2vpIbNL9QGyjm3V0qy7Sx3B0YpmUhwFuTPNmWHnaQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"meniscectomy/meniscal repair; anterior cruciate ligament (ACL) reconstruction\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_37052",
+      "args": {
+       "query": "\"criteria for diagnostic knee arthroscopy\" OR \"meniscectomy/meniscal repair\" site:mcgs.bcbsfl.com"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvkFCvYFAWkUfRMWw5KIzca2C9yLM2fUy9n2JreO69aakjA-WgLcIglZo7QQJ8QBLV5wUvJuVreWnHU42tIT59BQgBYhUiO4Bnm77IwFbfilgKItpU-RhVVqVeM05DfoHFDnpvsUPUV8Nqz6FLLXzneFdfv6s_28YPiR8n4twq0ycHiDGnTXScFRtACKRNmDa49YYTsrqHPa5muZbXevK0oeq5slSqTXKvc0IOmclA7iuULMyjujvE1gkHCNI3C5FFDQloHzmJwqzoO9j-zMv2aZUWXgyFCbowGPWYwt8t2OpsPnd-fomcLmoQLTBc2_YpOVRgsvsA31wkfmvSqD2vDXs9mtb_u7BHdit1d8wgZZHL-UxR-VrBIkyCHRZL-mSWEP2NN2cPVvpn-1YHoqy-4f2cUp1CQF1Zq3sGIN8R5fluC13AoCFFiUgQGSBmmfNH5Y8vuF3Ke18IqWjJGZVZnsLDVVslfcGJtCQNi6U22otkbbNnkIsG-d-MbM9aMmJn_Wz2K8HCvky3p0jbTMheZxi8evv8qkmxnApf5V_dNeR784wDgRGM035kL10RcOMMW6Qyr2vCIp_llK_cbGiLgjIscCgVYZ00Fn5qa3UEu2pKwzdpoFaaDM8-RLPNK2P_KFMSZCWgd7bHAJr3bDSYfeaaLBf6FHRLCCGc5ZA5CJBOVA_7YRHtK1gZgO0mVJmtvd7MUv47DkgQqNuweloil6spUfom5boy2DNYeZMms-O3fKWSvWD_wQi7dt2H3atHNXutDs8Cci5RLBany8M43FH2Qw2hh0xYtirsjoqkKhJYuA2J12wFoPAIY_usTm15VKevLxGSbAq0eBEZefOZ_dopDP3aVmqVJOIdM_E8vnmk3pokDpe14boym7l7ypdZ60NVKavUK2F-2c-7Xe6RPnQwonJfTRuEh7Rl6Z64lBRBo1s_QZdcVI77Ci5hzh_61Il5IQJ6gbvte9v1nD4lJqCXGWfaaPgW5eIAiQcgg8jyuZkW-NZa2_N9g="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"criteria for diagnostic knee arthroscopy\" OR \"meniscectomy/meniscal repair\" site:mcgs.bcbsfl.com",
+        "results": [
+         {
+          "title": "Knee Arthroscopy and Open, Non- Arthroplasty Knee Repair",
+          "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-65&pv=false",
+          "snippet": "squat, unstable knee), type of tear (eg, complex tear extending to the articular surface), presence of \u00b7 osteoarthritis or damage to the articular cartilage or other structures, and likelihood that leaving meniscus \u00b7 unrepaired will lead to further damage of the articular cartilage. Surgical options include partial or total \u00b7 meniscectomy and repair of the meniscal tear. Open or arthroscopic surgery can be performed."
+         },
+         {
+          "title": "02-20000-65 Original Effective Date: 10/15/16 Reviewed: 05/22/25",
+          "url": "https://mcgs.bcbsfl.com/MCG?amp=&mcgId=02-20000-65&pv=false",
+          "snippet": "meniscectomy/meniscal repair, restorative marrow techniques, and surgery for patellar \u00b7 malalignment and/or patellar instability. Updated references. ... Scheduled review. Revised description. Revised criteria for ACL reconstruction and PCL ... Revision. Revised criteria for diagnostic knee arthroscopy; arthroscopic debridement;"
+         }
+        ],
+        "result_count": 2,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_13143",
+      "args": {
+       "query": "site:mcgs.bcbsfl.com \"02-20000-65\" \"anterior cruciate\" OR \"ACL\" OR \"reconstruction\" criteria"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EooJCocJAWkUfRMmvx3HRi6DFyuQGDfZx3_LQ5zm_523FQ0uqRO9J3sVb4fcx7SEXA6zROi5n2NGnFfP-tyaAvcnaGi0GEEihi62hCuILuRihtkXAlZgmC-pGf-__3rk5thQOBCqK6eCFSAhsXvn3jtj27BSZ4dzLGnUBZ2eKcAxPcmP66C-4-2KlOe3GufGMcexpj4els8ndzuPtSNQ3mJc-5_gRbhhuHG_iGAyzRRXjTIs2uHiiH6_qcvgppDZwJFhhRWnrKK7fC9KFaLBbavG3ioRI4DQNbYvfFS8n8VIRkHPGYPqKhboti1VTdlilPinC8od_bt3rL8w_xJwKoaXFxRI7jdPLcIm880rC_vOs9TkIEuOHSAShMDaGQQiEFA3aACGhOnwCwfmentsWkWolXD3We37eFz1oGygoaaQJK5lk7qfZTg4ROw9FHzKwUWhMoyRA38ZMSL9IRdn1F4bG1rtk7eWkXdnHzss-esHM7re2RfVJkwHKInqwDVEE8abR8nbKc_23MsIM634C7srWCdIEuXDvf7_oYw6cxn9AdHqOr2deF4zH453exPTPL3WmkAnH57nLoFrRPlEhpJmrOg1QLK2pbAUj8bXwlklu99uuvfyq8zrrUPnHEk3R_ZvzrIoCLO-wuM0eMnGijYtnqvsLwtbySHrm6-yXGY9P5g_wf3BIeKACWh5s3YwCYCUHIZc07UEAhnLESTTwmF1Ei_oh5tgzbowuAHUlQh0Suj5v4nbFiWDj0reEW1EZIiAEjf5UmqZKrMoc4zVt9LDaBJ-1gfKGjc2_OQxLbn1jbhnX9VeNanVgtqdf5QgdEIL-rBOCKTbHHGi5hpsDWjWEbBVWotnl7TTZgoGi_5VhfuKb116sbtUiikuj1NwjtGIC_-5GP_oYWN2SJJ9rcBvUV2BtOB-VNVNsZD9A6Cnd-tx3udBc805DCf59-h6tO_zWR7TuoxQZhpaum5hOg6i8ZRZ6od1jtVZge7J6FCpl5y4QSF6_1218L74oEJvOxPsriW7W8zSk-FeDNTja6fFzuxBeIyEgc1xtEVOTWbx30wqXv1eh9kGQrNfUsUqOaQ9JtYFmR4aiSRGpktWhLKMq3YMl6ITiatjJuGCaeLDay0ATD8HuJwjnRm9AinFNW5U6Mp0i-C9tFCkJqvEe-hudTBjNn5KXcaThir8x2MZw-Cyl4FPvx342EBbP047TkA_bq38NXJwT4BNQc3dZK8jhAuAGp0umbDQV-A-NegUg4vA_MEur3317wJZ3ush5FuBwmWjFFUQvURm6LQJ6FfAIcPW3EsDrR6XbzVhzTugsINWDjNgEtbILqSHik6WKOTG3NkQhaQ1Vy1sfsUmuLVSkw9ESsR79apv8D-QdOa9T8IO2yuDxS85NygOfLCTmo_6LGqoZpTl9ItliR_VpEVqJe5codR0bL8yRiQMGcMcKbuO5WbMfKb-S5EwjJbMtPG2PeWCDgmWdncH3f2K2wCUmKWaIOQDQOxtvyvKqBDvaVppm4sm5a6QoYhhaBw-socLQERDRL-diqEwJA=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:mcgs.bcbsfl.com \"02-20000-65\" \"anterior cruciate\" OR \"ACL\" OR \"reconstruction\" criteria",
+        "results": [
+         {
+          "title": "02-20000-65 Original Effective Date: 10/15/16 Reviewed: 05/28/26",
+          "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-65&pv=false",
+          "snippet": "criteria for diagnostic knee arthroscopy; debridement with/without chondroplasty; meniscectomy/meniscal repair; anterior cruciate ligament (ACL) reconstruction with"
+         },
+         {
+          "title": "02-20000-65 Original Effective Date: 10/15/16 Reviewed: 05/22/25",
+          "url": "https://mcgs.bcbsfl.com/MCG?amp=&mcgId=02-20000-65&pv=false",
+          "snippet": "criteria for diagnostic knee arthroscopy; debridement with/without chondroplasty; meniscectomy/meniscal repair; anterior cruciate ligament (ACL) reconstruction with"
+         },
+         {
+          "title": "02-20000-30 Original Effective Date: 07/15/04 Reviewed: 06/26/25",
+          "url": "http://mcgs.bcbsfl.com/MCG?mcgId=02-20000-30&pv=false",
+          "snippet": "ligament reconstruction, osteotomy, tumor resection, preparation of the bone for joint arthroplasty,"
+         },
+         {
+          "title": "09-E0000-15 Original Effective Date: 12/15/02 Reviewed: 01/22/26",
+          "url": "http://mcgs.bcbsfl.com/MCG?mcgId=09-E0000-15&pv=false",
+          "snippet": "In situations where bilateral total knee arthroplasty or anterior cruciate ligament reconstruction has"
+         },
+         {
+          "title": "02-20000-12 Original Effective Date: 04/15/02 Reviewed: 02/26/26",
+          "url": "http://mcgs.bcbsfl.com/MCG?mcgId=02-20000-12&pv=false",
+          "snippet": "such cases, joint reconstruction with costochondral grafts or total joint prostheses may be necessary."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_30160",
+      "args": {
+       "query": "\"MCG\" OR \"Milliman Care Guidelines\" OR \"Milliman\" \"ACL reconstruction\" OR \"anterior cruciate ligament\" criteria OR \"medical necessity\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtwDCtkDAWkUfRPj11LZhB7lY7SQGwg492ZkS0vErGerYNE6Y-s3Tswhlz2Va-GTPp3rGl5sy4VAd5BP1ToqQf2i4KU3wLLVfRVj4NpZvIAcwi-vv7jj_mnB4Ibirw5jUTTm2-PebgWACgg3vQOpTDXanGFDD4c9XwpSvmSBfl4gLmRp4pi8JV7pQ1LKgVrKvkv1DIpO704aWbDmkhEVZUl5z0txlAVEdiFfIWgEleZ1hXkH0djIKReipe58OTL3ACGKWCCAsZp8RvvDzG8wVnFgReCYsTpsZrxjw9fGACg3YcR7473fRj7I1XE_W2D0KxfEdrBsfqw_JoUOhFPjFdtvZ7Edi7Wv1VpuVbIohWF7GUpfw9WS93402ONDHsQ52ewtR2bFdgc3P1dNvJpgXSGPTfNdjY0ALyLsvUO8GScOJDJUlk7rNOUUvXzpjhndAkQGzJe9fqgUz6ypKiG8tX2dUUEopwWqygqNfq7S68y1h3kLgUEL221m3nbIaqXCLmFkAPqS7OchSuh08EnUAEQP8OH22y-0KQPKN2w5hsx7zB9wyrEc3IxUVoIOwx0RDT-VPkDkOdHewUMbByNsmyCBA5ROSm5yUG5xTkUu98D5PYvCF--QzRVPbb_JlwY="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"MCG\" OR \"Milliman Care Guidelines\" OR \"Milliman\" \"ACL reconstruction\" OR \"anterior cruciate ligament\" criteria OR \"medical necessity\"",
+        "results": [
+         {
+          "title": "Milliman Care Guidelines (MCG)",
+          "url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2024-06/MCG%20CGT%20Link%20Access_pub06.24.2024_1.pdf",
+          "snippet": "Milliman Care Guidelines (MCG) can be accessed here: MCG Guidelines."
+         },
+         {
+          "title": "www.MercyCareAZ.org July 30, 2024 Milliman Care Guidelines (MCG) 28th Edition",
+          "url": "https://www.mercycareaz.org/content/dam/mercycare/pdf/pn_mcg_ua.pdf",
+          "snippet": "Milliman Care Guidelines (MCG) 28th Edition \u00b7 Applicable to: Mercy Care Advantage, Mercy Care ACC-RBHA, Mercy Care DD,"
+         },
+         {
+          "title": "ANTERIOR CRUCIATE LIGAMENT (ACL) ...",
+          "url": "https://wexnermedical.osu.edu/-/media/files/wexnermedical/patient-care/healthcare-services/sports-medicine/education/medical-professionals/knee-ankle-and-foot/aclmcl2020.pdf?la=en&hash=0C3DABC14C22A24201B2C971A38EA562C47DAA0E",
+          "snippet": "The following rehabilitation guidelines are specific to patients who have undergone an anterior cruciate \u00b7 ligament (ACL) reconstruction with medial collateral ligament (MCL) surgical procedure."
+         },
+         {
+          "title": "Milliman Care Guidelines (MCG) | Lightcast Skills Taxonomy",
+          "url": "https://lightcast.io/open-skills/skills/BGSD7C300E22BE5C5BEC/milliman-care-guidelines-mcg",
+          "snippet": "Milliman Care Guidelines (MCG) refers to <strong>a set of evidence based clinical guidelines used to support medical necessity review, care planning, and utilization management</strong>. It provides standardized criteria for evaluating treatment options, service levels, and patient progress in clinical and ..."
+         },
+         {
+          "title": "Documents for Milliman Care Guidelines",
+          "url": "https://www.qualcareipa.com/MCG.aspx",
+          "snippet": "<strong>Brachytherapy Cataracts - Referral Management</strong> Cervical Fusion, Anterior GRG - Head and Neck Surgery or Procedure GRG Lumbar Diskectomy, Foraminotomy, or Laminotomy Macular Degeneration - Referral Management Abatacept Aflibercept Anemia - Referral Management Bevacizumab Cardiac Catheterization ..."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_15619",
+      "args": {
+       "query": "\"anterior cruciate ligament (ACL) reconstruction\" OR \"29888\" \"medical necessity\" OR \"criteria\" OR \"clinical indications\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "ErgECrUEAWkUfRPCOfMq6rl4NWt0nAWiGZEHypW_NUMD6Cn27so1lwbe-PNu0_uxL7TVdGFYYLPuFr6JhsSeqcvhZnNtjD6Aj3jtFIjqbos7JV5P_cO8QKfz7Z-XfWGBHUbUcicU5ScOn9f0jOU4Ie4JhV10Pny72A4b3QXZzt3vZHqZaL5qbILxf6U7JX8W2L9X7nTYelq_rmiKBT57dZzxN-dway54l9VKgcU6FOGrW5RhiwFpOpRfFriknektW_0lPCr47y4uoE0Fam2VhqpCPCihQPIem0JrLrM-OfHAwRvTsIE5dN04HHqRXTawzJB-jHo0DPoMRy1JAaECuy3Gt0Z9YT-Uqf407ZZxAZeDC_chAhjYkcpRIu7ykDbODLHurziRKmHTQxCNW4YfOSJbl4juhs2HKoRHjSJHa_Uqq2xFSwjlaLIDHiGEvQhQtdpNW0kRlY2CgO6Rz03soB1cl3gG-Rots9AKpHGBKSfwWwE44lDRRd7QA-KuQzVscVkDgns8LBvvSLS3ox4pi8OCxPRPy5aA1h9s08crbBYqHNwc8FVxseZePYLE-LprFUNEWIftTj4pcpInAw6LjbHic5rxZq5kMd6JJJ6X4Uy6CHAnw1SQiBICjViJWX-fWeXoQByZIaHMcrvQcM3ei261zZ97WyWZ1aZ2rcNc_7RNbtVpLBSGSgVidDkoOQHbVSVT1OPz33Kcu7CSs9xwwx8ibC7H8YIwnSSeFdB7yJSGfVkKu4TFS-ZPhw=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"anterior cruciate ligament (ACL) reconstruction\" OR \"29888\" \"medical necessity\" OR \"criteria\" OR \"clinical indications\"",
+        "results": [
+         {
+          "title": "ACL reconstruction \u2014 orthopedic coding glossary | Mira Health",
+          "url": "https://mirahealth.care/reference/glossary/acl-reconstruction/",
+          "snippet": "ACL reconstruction is a surgical procedure that replaces a torn anterior cruciate ligament with a graft\u2014typically patellar tendon, hamstring tendon, or quadriceps tendon autograft, or allograft tissue\u2014to restore knee stability. It is most commonly performed arthroscopically and reported with CPT 29888."
+         },
+         {
+          "title": "Anterior Cruciate Ligament Repair - AI-Powered ICD-10 Documentation",
+          "url": "https://s10.ai/diagnoses/letter-A/anterior_cruciate_ligament_repair",
+          "snippet": "ICD-10 code S83.51XA (Sprain of anterior cruciate ligament of right knee, initial encounter) or S83.52XA (Sprain of anterior cruciate ligament of left knee, initial encounter) is appropriate for this case. CPT code for the anticipated ACL reconstruction will be 29888 (Arthroscopy, knee, surgical; with anterior cruciate ligament reconstruction)."
+         },
+         {
+          "title": "Autograft/Allograft 29888 | Medical Billing and Coding Forum - AAPC",
+          "url": "https://www.aapc.com/discuss/threads/autograft-allograft-29888.55415/",
+          "snippet": "If the tendon is harvested from the contraleral extremity and documentation of medical necessity is present, the surgeon may additionally report CPT code 20924 (Tendon graft, from a distance, such as palmaris, toe extensor, plantaris), appended with modifier -59. 3. There is no CPT code for the reconstitution of tendon allograft. The work associated with this is included in the payment for CPT 29888. 4. There is no CPT code for a revision ACL."
+         },
+         {
+          "title": "Knee Ligament Reconstruction Billing FAQ",
+          "url": "https://www.medicalbillgurus.com/knee-ligament-reconstruction-billing/",
+          "snippet": "ACL reconstruction with allograft is considered medically appropriate in certain circumstances, such as when <strong>autogenous tissue has been compromised, multi-ligament reconstruction is required, or specific pathologies exist</strong>."
+         },
+         {
+          "title": "Anterior Cruciate Ligament (ACL) Reconstruction - Physiopedia",
+          "url": "https://www.physio-pedia.com/Anterior_Cruciate_Ligament_(ACL)_Reconstruction",
+          "snippet": "The anterior cruciate ligament (ACL) is important for <strong>maintaining stability of the knee joint, particularly in activities involving weaving, pivoting or kicking</strong>. The knee becomes unstable with a ruptured ACL and the joint may become more damaged over time. ACL reconstruction is the surgical..."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_9643",
+      "args": {
+       "query": "site:mcgs.bcbsfl.com \"02-20000-65\" \"reconstruction\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtwGCtkGAWkUfRPwkEEQOLlvwu9n34tNZrUGemuX5n9NPhJzQBhwIbPWJWFqZ1qRuPB43ii9XZmt7K5e4oH1fC26_bTFj8u6t9Ze1_rIB1Mi42VpQt8z2jOn_tuc0hsEjAemmhEkhN9HTZIWo6VA7MlG-viSh-8fYcmlkt9CMAhuY2Q7M2Whq0zp3wyA9F26i1yYv83EgTa_6gUwZcAEdde8h3Y4ppQsle7HQvZtwFvKPVh7-y3UsDMwYQaLwUaNcYs3us0KKWrSzQHlhmX5k5Y3N0XhDlKA8-zKS5_RJ-iyshXSOM_9fq4qn0p0PWYeuMUrzGCQUtlh_cNkBTgPaA0jk2aou_72jdWrq5kygL6lyuNRyN5WKVjSnaiFfi6D3id7CwOchXP6PLZcYMhVtdqcZqfOrzp369dG2F5sh4Tn86RPsgYsTD9JT8tUanypQJCajfTq1cpTI3MRb1Qo-qwUblH5LdnH_g1jg0qArOxVOnLT6N1dm8inh_DDZKAPj-yetbs-O2Rs-GJUJfPv7P0ZtRjkFEu9mWu9fPcc4zwz93GiStz6Y75Oy8B4HXqD1xEG5Y9LIijOxZjXPKa0Rq4wTdL4hCLFIR_pP8wH3C0z67WCvj6gMoDSBHE04oe0jAlfKyo2Ziia4l-MnY9BmRwR4HbRtRef5W-Tx_864UkVQQvxClB8aEUO3RYq4PNu_B75CAdbFzIaDWdXevi81VHzF6TE3Meo0KY96AC4ODj66ihwd7kNsxkMs46WoURJYHAyAcxExzZhDDoSrFVAfoHbwnSfRojR287ebXa3MO4H_VrCv1njGxzbqGrubVEXCmoX3dvMW-zGA8LT-Nc1zqYQIZzWv0IJ8lwVD1YLQ1filGOC_2Q-K795iStR1KLUs3g3A75ReytWAFrneXv2yrxsfPi_iWmHXcLkKy6tv1wJoi9ifbgtVsz8C7N-2mcgXAu8388PpdcNaqFPUJlGs6_and0gFNDqQLR23-1z1DX9FQWZEXGL3xaVDryEoGobVcuKKO1Ri1HZiMkI40oANFwAC2WSMxv40Ak5j_Ute34fT6MReCuiLF1sqDA1WguLVH9gHlvF_lBebmuSw4XGv4tB588YIRZZH3vxCD58a8zWDmLi_SoVzouTAncDn0Y="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:mcgs.bcbsfl.com \"02-20000-65\" \"reconstruction\"",
+        "results": [
+         {
+          "title": "02-20000-65 Original Effective Date: 10/15/16 Reviewed: 05/28/26",
+          "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-20000-65&pv=false",
+          "snippet": "meniscal transplant (relocated from MCG 02-20000-25, Meniscal Allograft \u00b7 Transplantation). Updated references. ... Scheduled review. Revised criteria for debridement chondroplasty, meniscectomy/meniscal repair, restorative marrow techniques, and surgery for patellar \u00b7 malalignment and/or patellar instability. Updated references. ... Scheduled review. Revised description. Revised criteria for ACL reconstruction and PCL"
+         },
+         {
+          "title": "02-20000-65 Original Effective Date: 10/15/16 Reviewed: 05/22/25",
+          "url": "https://mcgs.bcbsfl.com/MCG?amp=&mcgId=02-20000-65&pv=false",
+          "snippet": "meniscal transplant (relocated from MCG 02-20000-25, Meniscal Allograft \u00b7 Transplantation). Updated references. ... Scheduled review. Revised criteria for debridement chondroplasty, meniscectomy/meniscal repair, restorative marrow techniques, and surgery for patellar \u00b7 malalignment and/or patellar instability. Updated references. ... Scheduled review. Revised description. Revised criteria for ACL reconstruction and PCL"
+         }
+        ],
+        "result_count": 2,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_110521",
+      "args": {
+       "query": "CareFirst \"MCG\" OR \"clinical criteria\" copy OR request phone OR email"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EoQPCoEPAWkUfRNmJHSiP7LlpyG1eSxQResnBsFoUnMnh4olwOW8nPnoYnmr74MlvGCsbNRfxLZ6OhuVJ9vq_5A37ch-HAxuOqqSRPRjuP3hqaEw6IBPN7bj-NlzEcT3Dyl_pbQNQ58macjUaF-m4YL3BzI1O8ja7Wi5NO2YM32D1O5gFv0GiFsf8lyaQeiHR5h3xUatEdhBK_Z5h0i9R3mF8mrx8wQ60pTU6xvPIGccqOnOyskqS7mRv2IrDJObZ0OtUIZWRKSyL1amNMskVnfJvmj2sM-pRRTNJWXRZtVDRnEBC-mzFT9V8837kZQQHyqCPbWd4wJbm66YSFrxTyYpUSf4JhBb88d9bcv15yTnXfUsN00sW4AgQVvyOk2ytF6Spk9BblIryw5dOWQplOvsDPalfFw9mfKiZfHzGpK1Sf4Hl0cCPDfq8J1DjDTeiMrLL9YWRAIRnMrm_WQTN2mOhQNp4-cjabGK-wqPpiYHh2qrvWRhmrmE11MS_1dbGE2CVwNiTtPpT2Br-PD6F448leraj3KD8pbanODHtu9z3PZbu5MTQSNJojmhfYiIOg6Wp8dXID6zivHWEI0sQZAmrrxEX27HO8TDWs7RIXfQ_s_d5C4dcZajVBx0AEqsmO08RpzAByXQHwzvQZrUw2R6DO85EJepJgqEkzcWFUE-qxhPanxXqCANN_rxc8mLYXCzYcFUMX2NvWXuyS9C_kJhue6qIeTJMyC2vOnmDHcM4nZHE9e38H-LXEim2keX39QwkLntpA-VfiMTTGjcxpzwHCxY32TXx7JAoYL7_l_-ZtAx56gLRz1Q4VLSyRs7FgK1EkDFG2jeyZszupEr5Id3qqUuV67hJL30yBPhTcijTwSvSFKkGXwqwaLZ1pI29gQaFrkpKXZQePRB-lloZVBbYWPooPa19nl8Pbkw_TC809GZQL0qrU9Hr-QUZDaNb7E2CV6oZBYjSs3CCpzNhq3-S6so0jtESCX37txoJTlo4n7xo9pol1xEQ43jVpFWRZvCd2xMizvk5UWo-ML3pTzvi15gXcOKlQq1MOrE6YkeszCu7mnSNHnK1pB2AFteF1vNA5_ofQuV_jkRSmhqFq3xwN1oDYhlrm6M8deQJM6nE6aaod2T0XXvpqtgS96rcsQvYpiuMRX8p66_Lcb3Ec3q0GG5feOybs7VKeQltbw7xadg7U6tiX9mOLpG_9fCKoCDdreCTLXxElo2sZcOEy67xjTzWeE-njkg_5x2cuLte4wPH9EsiWssGPta-gQ1s92XMLjk_NFISsHwWPIUgaVTUYgHL7HXHl_haWqMPUFgvd_tTqLd0drbl4WGZtphPMazNmuayjX9SQTeQBjkocfv2PCh8L8XCAlYnQYq9j5AHTaikNEn5a4dyFoHvjoMwa_8l-RD4EaYzFOLFgUGURCx_fsMp43rt3aXapahUd4ZlTDurc1-Gqg8HEj0j_NoeYY8rGaLgqqqrrsX5XkST0NSk2NKLXYVMrEVt5t0zXgRGZWTkGeefROJji9I9WfsCYdfxYhrowxZLjsfzu2naCc6FlJvUWYBkf2xLThgLVbhgybv2mYosNubgtYT307lR2dd8-51RpStY5Aby1HIuApl_U5_LyUO2_EW2fFtzoYFtd8kXSRjyJzHA8rkPZ3iSidhvwK87CGja5U2YHFGeimZyeSTGHw-PnaexWVUn-NB60av28kV24HODkCO7gNLjKrbqQtCychoCq-r6MyxMaa6gg3BUVyQqih9xhMRdlHiB8oRjqZBpTHoEaGECFl54JBlqIuTHVSXUp0jIdJdgJc7R8hZ5jUZsjHzAG7fJ9JmW9rO37Dg9mOCclJarPKhgqv9cvtlUE3dz5oLStloeIiH73c1-YMxhQT3TwwsSZuET3gI24r3nm-wa9qNwUYd-dR8akevrneJwAjjIOJU1OdwQzp4V6lpCLzveSYF8Pod-343YuOvlIiFlvTrD6634SbfE75WTs3i7Jx0cT7ZHxaHOgWs3w61lzk-bLJk7pUX_6wC1Ks73lXVKnXseSBn8CndV_KVsPp2KxmZnZGTYQhWBGmBocYmV-MdTXyIxY33rAdrBAkJEkRY95v4O-m5Ui_JKqcVrFBiuDGh5TSQcMWI4rVvC7-MbxIz9vJdDqepYsRmN4x0ZVCo67bJIrifgCd-FnfSRhwRmbg2OBtoHZ_U8Wn8FX7KgtH0Qu-W_jJXXkMp_6SAtbSHtBPQ62QdBlqJ9AiA-LlShJ1o8QYoINzPDpudFr78m2jdvNBfQSs12V5RgBfUAZ1FisRKWFa5KJa7tjsRFwUakWyYTt5LxV-zjlp64cnPRkv8nf5bUr3LX4M3_mS_y5XEfnAFr6gyOL6RUb_BQWMStagVWNcuWNxF04jKJthQj-10FzR6Hps2oESiZ7SikhTm3tsCiwCHb03GIjCPfSPal7n9rdkogS7voRdvT_ZQFbZHNQzZn0yOmV3fBF5dxHZ7icV1N6nSTK7Ipss4QdgNFoWs7F_QITZfpz16-r2ykP_QeWffnFnJPCdGQCjHcKiN6xB3Gap61J-Nte396g=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "CareFirst \"MCG\" OR \"clinical criteria\" copy OR request phone OR email",
+        "results": [
+         {
+          "title": "Carefirst. +. V Family of health care plans Care Management",
+          "url": "https://provider.carefirst.com/carefirst-resources/provider/pdf/institutional-provider-manual-care-management-pm0004.pdf",
+          "snippet": "\u25a0\u25a0 The Apollo Managed Care criteria are utilized \u00b7 for physical therapy, occupational therapy \u00b7 and rehabilitation \u00b7 \u25a0\u25a0 MCG Care Guidelines \u00b7 For an updated copy of the modified AEP or how to \u00b7 order the Apollo Managed Care criteria and MCG \u00b7 Care Guidelines <strong>call 410-528-7041.</strong>"
+         },
+         {
+          "title": "network-precertification-preauthorization.page",
+          "url": "https://provider.carefirst.com/providers/medical/in-network-precertification-preauthorization.page",
+          "snippet": "Clinical Guidelines Our medical prior authorization system automatically triggers MCG guidelines and requires providers to complete additional information depending on the combination of the diagnosis and procedure codes. Access detailed information on MCG&#x27;s Care Guidelines. Genetic Testing Authorizations: As a reminder, ordering physicians are required to request authorization for molecular genetic tests (see criteria listed below)."
+         },
+         {
+          "title": "CAREFIRST UPDATES AND REMINDERS",
+          "url": "https://mdaaham.starchapter.com/images/MD_AAHAM_04-2023_-_Carefirst.pdf",
+          "snippet": "MCG criteria upon submission of a prior authorizationrequest. ... Unattended (home) sleep studies do not require prior authorization. Reimbursement will not be provided for attended sleep studies unless ... Providers may not balance bill members for unauthorized services. ... Medical Policy can be found directly here or at provider.carefirst.com &gt; Programs/Services &gt; Medical Policy ... Milliman Care Guidelines (MCG) clinical criteria assists in expediting requests that come through our prior"
+         },
+         {
+          "title": "Carefirst",
+          "url": "https://provider.carefirst.com/carefirst-resources/provider/newsletters/bluelink-2023-feb.pdf",
+          "snippet": "\uf06f Milliman Care Guidelines (MCG), ... and ... CareFirst physician reviewers are available to discuss UM decisions. Physicians may call <strong>410-528-7041 or 1- 800-367-3387 x7041</strong> to speak with a physician reviewer or to obtain a copy ......"
+         },
+         {
+          "title": "CareFirst Community Health Plan Maryland - Prior Authorization | CareFirst BlueCross BlueShield",
+          "url": "https://www.carefirst.com/medicaid/provider/prior-authorizations.html",
+          "snippet": "Prior authorization requests should be submitted electronically using the CareFirst BlueCross BlueShield Provider Portal (CareFirst Direct). ... Our medical prior authorization system automatically triggers MCG guidelines and requires providers to complete additional information depending on the combination of the diagnosis and procedure codes."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "text": "```json\n{\n  \"policy_found\": false,\n  \"policy_title\": \"MCG\u2122 (Milliman Care Guidelines) Clinical Guidelines\",\n  \"policy_number\": \"N/A (Integrated proprietary guidelines)\",\n  \"policy_url\": \"N/A\",\n  \"effective_date\": \"N/A\",\n  \"criteria_quotes\": [],\n  \"appeal_deadline\": \"2027-02-21\",\n  \"submission_route\": \"Mail a written appeal letter to: Mail Administrator, P.O. Box 14114, Lexington, KY 40512-4114. Alternatively, you can initiate the appeal by calling the Member Services phone number listed on your Member ID card. The written appeal should include the member's name (Casey Delgado), Member ID (W200134956), reference number (POC-6B51D0A6AA-87439), provider's name, proposed service details (ACL reconstruction, CPT 29888), a copy of the denial letter, and all supporting clinical documentation (e.g., clinic notes, physical examination findings, and MRI reports).\",\n  \"how_to_obtain_criteria\": \"Because CareFirst BlueCross BlueShield utilizes proprietary MCG\u2122 Clinical Guidelines for prior authorization of orthopedic procedures rather than a custom public policy, the specific criteria are not hosted publicly. Patients or their providers can obtain a copy of the specific clinical criteria applied to their case by calling CareFirst's Care Management / Utilization Management department at 410-528-7041 or 1-800-367-3387 ext. 7041.\",\n  \"confidence\": \"high\",\n  \"notes\": \"CareFirst BlueCross BlueShield commercial plans do not publish a standalone, custom medical policy for ACL reconstruction (CPT 29888). Their prior authorization system automatically triggers proprietary MCG\u2122 guidelines. While these cannot be quoted directly due to secure-portal access restrictions, representative MCG-aligned clinical criteria for ACL reconstruction require: (1) documented objective clinical findings of knee laxity or instability on physical exam (e.g., positive Lachman, anterior drawer, or pivot-shift test); (2) diagnostic imaging (typically an MRI report) confirming a complete or high-grade partial ACL tear; (3) subjective symptoms of instability, 'giving way,' or locking of the knee during daily or athletic activities; and (4) failure of conservative management (such as physical therapy, bracing, or activity modification), unless immediate surgery is indicated due to high functional demands (e.g., competitive sports, manual labor) or a multi-ligament/meniscal injury. To resolve this denial for 'incomplete documentation,' the provider must submit the complete clinical chart showing physical exam results of the knee, the official MRI report, and documentation of any conservative treatments attempted.\"\n}\n```",
+     "thought_signature": "EuhFCuVFAWkUfROY6fIJMV082ChambpnN0vaHzPCYNlJxdm2Qgzt-mXBspGn5Wkjyrs3wLRy4PzG4FmUK47LVI7rZjYVf6cyh_NpmDQ14V1t79LS3Koizfs9QbUMEiQNUi9wy0L2c04xQ_wOYgBvMtBHkhN5UpFrjRbyJFdqOdGsyJF_KnCV1DHIuf1AtML5qt6c33PhB_LmHT5qrQquSdEawBKmVf_1ce79PVAv3cohDMCas3AqeAcMYKbS3HaZt_80euCK8aVjA24-fIvaPp75LbeOwRrYxuRnXf1sV8xvM9niwnLfSo_sI-3fcYNEHo9x21bOBtmimMsRpHcmD8je_qOjlX5dweUc1MqOy71DH4Qnv06L5mQBbeo8bdC59fE-ee2s_i6-pqdfQ2PC0lHR_mGsvkx-35LRnxPuPQUA8-iTGzZdkA9s5pSq-Uk4oa-0l61uN12Z5RyuzomQ6mXMDtdnF-Mx2kDC-QbvwmLhUyavkTQqIVKznLOg1LLkpadc_0mmKR5U5QkXXWgWBqTS-nUyzqLAL1IUFtIxeanzXsd2a1chnoKTAB34KXtg9erGNb4wjlMw9WmMv142xt5ajiaiDZwGFsgplUdY30UHLyj95Nl6G29bhppfQMS4MPCo4yKmBaGxjYBGYLLZwkFIcVXpKqQHmKHZojcYIYlLEqWwtQQJ2mT7v1lcDZrVHRRhwY86ouWjc83bc9V1BxN-zpveDpjUO4Y_X5gOzjPYX4h8holGUduKQ8JTe3oH2ZVaUvxY2vXM5StCQtEDO3Ny0xNJeeHPDMKuVfOGG6WpNzWJqc7fKzKGWSgH5FM3AEQePJ7kveWSnJYCh7kmvtFdbcJswalIST7ubmAh4lsuVgKMWBynTwPtcOutDKlqXNr-Qw-K-H7426_7blLAwJMmTmoCwrHi0p-YGrwMrt90UuIBstU561B6azPAN2oYZ98px1LOIDeoYWy4jiE0sgjb5SgoAUu90v2Uo5hArS_QFpWGT165RGt7QDwP6h2_C8OGFoFHPGylg0Q4rXyxshKff-8H1ohDWiDHi459q1KX01vA1_I4p1uBaGZi7d1fpN1cZeYHj4uMeTD3cnP9ha3wlmeUy4NualcTGXAz7rkLNie8fUkZ3CUrnEaNV-QyiDUbcSVO-FYltBxCDF9iAxSmF-56GMeWhemqXj4WSO-Zqzlg0ENIoU6GTGWxoNP4yL1wjgBjcyQZOp15rQFNIT6VfZ_7Ajhmi0VHgfdTu76KlK0yO9Xcp7BNVFsdZgtNC3fcVBQ7bb9bEyEfvGPjd1dP3MfaCrBP7imP7iBnwmTCCa59pfzAaP_ZeNrqrGpj_nWdsiGBvuTwQLWe9FqR4zERwCWKXNngZ1Kx7TL--UhJ4xfO1rH0deeZkKzvaa7yilPZs6zCq2sVUO7pTmAc-vrTeFNhMV9g7hhq-fyZsVu6RxPk46k4A-_SJ2cvADZ17DP-WQ7FOxmKTnC-6gm5OdY493Yi6fOzxkplmzr9h1tcJeNUZeSzakCJqrrMU19SQ5H0z61F5NEN2MJadUG_d_DvCq9wYYQihlLEQawScAcuC25r1REJtnSx8LgRGdILY2AmW159nvqkn4jItwQQi5IXSMrblibFc47_17NPbkQWdD0gcN1rUQjhsty7ESH7NJIlfKdUiBIM5APnBM5uSXh36Gkslw6A5VgN1_Bb2NimaumOFhP89GBIWdDwz6tqES6ktPNnVQE7q3vOpuSaaiDhSivNqOaPvbFWJWdhtjtgpJ64nGBURvbOLdFLZk0gdLA30ubNxj8TSmPGGEWIUzMQFhGOQ0BIhi-Rus8oOhmCtLBBlma8mdFK5G5tbSTi1lEU7Tw0BYAO3gwJ-uHdfmpNWrh5YCwkGUF00Z2VRpYXNsO0KTIzhOCBbYVL950bHCNNoAUlNOTraYACpP_tQHamfP3moUUqFYT3zYIOc8DVBFLMVeeFEw4ReFUVtv89BmcLn8hLvOYcQzxmQvZOT_lu3oa38W-hFFwncz3PZ_qG2yJRqbUmrqKHhKBFOkbBdP02y9LXDKui0ymS72W426tMg3c6dcbIXyGEdtpyE4cL-6-AtFVwegA1HeeCGbzrX7ZioxmGzw_MfdBfldvyl4A2vMGQspNponDT4_QoiHAnyCZjT7CupS7YtkvoBe127zf-gYWGSuzyojxGoX2HK7IkQa0O8-e5GvFpQzeLU9UR6yyYEn_qXxw2XfH3DDHNf919rdf4ySKedvYckZFxoXThPPoBSasuPGjMJqQYlqQ_lulgSO9svJ_YD0Qi-0AhCW7mowi7MViHp5Jy-hGHIItzPHk_CA1x6TMLPnaAfTRjIBfyTO61Dv47xYGgCVCmr4XDAcapMRnQsduYKosZb3IXzoU3CEYawlyJfYEtsDPUCz-eieg3sHm-YSqEqYdh8_10tB6DxhA-PKs4wnYGdRqeaJULZkDYMTrjvnp3wKCAoIqod7SzcsKlooeWx3B9PdkcqXOay5QwZRNZTT2kU6pf8YwiwBZ6vflXnTa5IAYuSXXYC7Q54ijNnnR2wXs__nRolfO06sKNNrW6lALqZGi5IAHmnbcYg85IuoPtbY4HdcZTvTMm6Z7n58tZ06HjFereCOwrjZGSqn9_nx2GyVrYjyHGqeUs2sVONGIiukUnY9sejdGNwcjloFrTez_jlKpgS8LJlLaQGJIjrADEGfUml84keXiEP9U70Og5q2oHv55YwjZ5IomtbC6BKJY2LLXpmAhonx-IPBApOvqhZPSwEdJuHbwR6DXWdk44zNGsj4fOA4fWEpnFysuuveNqHaz6lScwRD4zZY400ZeN6XHLaUYCGWSeDAOQT5fo77LGVKmCPZ9gd_a8laSQ-xPyytDdiplqQG3THDRQgszYi8qCU8jgm2Lpi3qgnmB7umLOQW-PEv_bgAlkHah3iJx631fyxMDlwlxlVpONmrqTuDwDj37LvRynz0MOR6wHj9K894G3z3yDEQH1kKIS3GXCLtTVcLA3He3HQVQ8jxfNzn049Mxt2_ogTtFGXGhQyuLkJmN1z2vBkht4EiR4O7UiEf78zq43kJa8gNNcaiI4_tGbaMZ7sa7Oytk5O35XS1fVY6xzX4SciSOeMxXBiUYWB8QqVW6Qarm36UEnNI_YGXHfYZXVJX6AC70g_HzHwD3YIt-ReTBRpLkxL4IMpf0iRTIizKK3BLRmpKae4hptCyBFyja7Ib23VBMG8fXeBEaFiR0GK0OmlrnrrXqmHn-q9pSE26kKWIjxQnkMQFUEprKuXeWGgRS01gw1OZGw2tAl91KtgZfJPf6rEGzoTaxso4LafBZDgWqPBMBy9BBDQ3YG6i0IHdg5GZvf7U5C5BZeRrvNMhHWQHp3quSeNIYfxxV9bane7WkDkuU4MUjbE-3F5Gb-OKZnaHZ4a8Lf8lYHJFQnPcfxLp4Sc_amuXT9Z8ElLW59OzyAr_N5R22e1aACkL8p3OG21-fTL_4gn6VpMXKI7TGGeO6JYzgRFu31P2XE8BAGKzwuyIBYKE3omeDc_sbSJI3TVwOu38zsxAPxddq1dEBPcha3s08JYvUkUylJRVT20wRIvVLUMgXbmlNvzS6Nm4iBlxME9zJSemg7POtb0b-NOqfrmkuBpwweuK7xxvysgf-2NtlorCmGJWObGcOO1V-KwUBgAO5o-m71n2JZUhFt-u4X59p_vvHEpH9DYGFalPdW8Vm80-9JwqlGoEQGEJnupQn1aQjVXEeNY7tB2tz-2LJq69QjYuZmaiPakxGFE-YP6UksKCF0qBvxiquI8MkItxgnUakoIF7NYmgj8_3uIV9VVzosVlfZ80rouzzcoZpqokTC1dC2DztdcHF7WWId7MOfFTO82QPjk-4B5ct-1cph8tPOtglXQ5NN06KyltuM9TO9KHe0kBfyhehViMZkKiCf8VIjd94Nbd4PLX69-ZxOIKquNLBOSoBEtPB4Mgs7NXK1DOPNjFFx257GxgDm0LhVzlIcBseiO-vZCA-8j0dvd0JtJe0-hSQcnT2l7ebscjjLd5lUDBdJYN2QgbUx3KtQbOU5A6y7Z42RhHhpQZueK1nC9TV5RZmTber11bJgut3wMLfM1SCxuyoghQtg9U0vWm9JIH-aqF4Xp8dqkdkq7lwXsktRwk-cdEXGW-BFta9pdeIcEM1Lxcyu_54bxw44MJRlqEcZm08Mb7-dBMCePpB3ctsYCoqC7HANCHU4rL0x9epMZi4AJsloAcL2pgITOaW20lTVDFOcx6y-VW9xhc3SO09hrXHFKyXSbjDl-gymHM4H51IWMTs4rqhDl1YGd1zcLEg0-MeCZqSlYPsE1OCsV256gzAStjqIwiY1dzBagcwt8HjXLk1DSr-YxQ4PNFfLvo00phMUdcAyV2K_GG-KnZIMPMs_noDat68l_8NyBJcRx8YXTwzgcbTYUtaQDTleBhzMsQssV0Kq1Y9M2-yfmwPNGNdm6CrmxjhTVAOGepUFAVhR2VzyV1jo1HSDC1eUKdSxwqC34r981Uk37WZVF0odvcYk1dh5XexRrCCS4dvIBuhCXhQm-JgfjOrt7xryLzPl6C3rRbOdg48KxS8tts0ofBmVmqTRScXDuGM_G4tpDjGp-Q7U2jyYYI8WG--fhZ-5eVTYNISoZAqdkfRlttff6smdkkc_Tux6mLQ1Df2s-rjMOAhraRf4gxtFvTPLxBRx-Dq2-itZn5WuAtTgN3nw72AHNLIDPDj_dBwjG6i3pR2DJxUauYsSSb3usuFeCCR7TXIXHPVarLrukjMuD1UUIaWluWXor26MFqGcVo230SaAJqSZ3MBK7Lf6kWVu2m1NgGR73hQTffJQcYPgqUuhUsgBoAgBT7GfX3R_I9BRRU4OQ69eHr8149tFbcMb_rJnbYEAgPZWdi_Ml76DdoNn3lnkcwjTzsBK6gPoZgNoHlE08jBvofhtp3qTGcWb0qgLme5DO1ZTvyxJDizr3afg4WpFtxabSkbS9BSItYq7rkbdWpcdgxzGAJIQnqbVY7O9Ca5n4UDv61a8vUsTFCRqr4nK4Ly5YMndWYIL6fa9Tla0S0wk9Flllp2YkugMiLGjwuBQUcM7uCIdVGlQVxJyypo1fahTOMnSOsy5TrDvZVgyOeM7ivhSZKX_MwgYTywrSWoytBxUtyMMe7L_c67QIA77_MeyJEi9S6vyd8G_T7cU3nahLDTbif6CsnOSinpkxhD15s8C2KH_pYqIo7AHgqfRwNnvKtmy6FQTXNg15t8NGcd7CRJNoe_NniMdCJmshi0h0660weWBn5YbuytQcUZ8AVTudu4bws1BhZ9PA5clv9o4OR7zw0ABOb2NslG-zhTpHclQtbICxdqPwIhRktIRN0NQWnMLIKFSZzs8TBO07VQSlKu1dxlM2icPuBxlritcBaTmOUfUdBaWBfayHiHCTpM7DLTsTm4y6ivWPiRkYa_Ol_2DMHB_btRyWTjxY3mPEcbw-PrFTkkarjikbi0NSCkGDCcGEAZhzNzGDAUa3TV_b4cI4i8G-Qy1ePbT1F4QhLOvz0OljBck0VnldQcZkPu9eIHwNqTlHuYh335qt_0mNhxiUlb6E04TiQBtjYYCGzdzuoimun19rZ8_tkmyyvD35jCDIflEdKvNZR6DWwzxl27GDvIVkuHYau0SNewMAqysis3x2dlaUQrIb8vdDTcxG2Tz0t3tmbudf6aQ_cuerwQzWYRoGe4k4f_Hi7QyC_98Xr066sJXZ34Y2pGAPmUQ3ZLKv-Wv_gtEhoU3b3YGl90drrB4UuFWI6VWMjoNAMtRvtNlsLLnHUAYcY_RL4DsyIPHN6MbAbIRx7xDNuwx6Z0lt58PxegF7qqpvHMYsX-C1IRGa0l3JvA0g09EvwqeNlkaiBLyu-d25Uu4u5RfMx9dkWjvdLp6PpYb1lgpwbjRfXrBHGrBuExvY3yUXIYMX2-DtHOWkZWZzOjVEa4Vmm_3ZKn9Ot06-VyC2QLEnEuuH042Eem4KnUbnp0824DZjYFsp9F58pZ9q6nGvJbxxlOqrhEs6wGvIaL5FlRJuZVp2GVJukPGQhjZ04MWtbFKRoJj12PD7rlFBjjjywpHgLeonsIRM9Ah6QXibw10TBEZZGlXJSjEDgnrPaXj4v3J7sKVNjxEA6VptIdfRmWjlrCXCz2MTmdymg9E-7HLXfOx1uAZxh2V9828kzbiSwK-nAHCoNUXYlhps7he2PadiyKLgV3rSi3LlwIIC7mFC24YByA0-hO4q20Yy9g_L1N3DlfBwM76XQhIuPfk55LSFsparqM0PFNYPkr7imwJus0DdlSXWDBILM_cNkp3Y2TLLbbfBE62Ll8VZaZDEIzfnG7p4sTBsiVUROI4AOPeEZdq-uZX2j1QOuMrkoLMz1GEiUporJN-XLnfsotopBHwfS1-fRkiT6lQGqZmctHZUUGwpVS1KrNMFlJcy-Vh4rY4Xfym194Ktjbm0bbvB_TMFltAW0oUZo_vxW5s2c0ZgBYQYCLYzHyNcittI7pPghyo8BSA8i8zRfmOT3SMQ63pRp4e7IpRkR1u_yWF21A52kN9sbRUOY57hqaFY-ZmO0uQoWm86JnzgCa7070ZpXilNB39CnY8Hon_tsrZtmKpQd_ITq2acawe8OLw32fwdfJvC52oUiEdZo5lVDeIl2X3i3_1oGjayJ1am85SQxFhRtvrF5bVGOXPKKGM353jKbwYEWsvsmh6KnGEXXsKmDko5-3iNuoMP-UK6eC1fNYYzc5UQOA8INVswPm0aYhNL_abbYmziVdN1I1AbqPV9A9SY2LmojWxYV7IR4dRCc30a1H_o_T_gWsNQPjwA39uLFIzF70pUWYhweANmfduOoIBJJI-8udl4dnaU3KK0wpuqsSD-XOyWpQOPAySNJayhSEnpzncV0bC1SpUr16xYWEGhJgHXQhuasHmBwPM-H0pogRGwaE3MM25kMLXNz3vRpgm7xns9tslOqeCFRqP_5eOIA1-ntqB9xVtvbbn74rRYkVV_LKZ2K0nvtjD6qz8e_M21p3UnJdqE41jAfN2UfC2X6kuZQepJ8RPJBDqMWqazzf1bEvPK6rxf282wOIpPTf7-abPd9V3Cqq8PWI6IRPMi1qqtFbEByCPFmfFm3B8vPLw_BPIN3zTIGATJUWR0D0Ipi11Tt7hY4EFLWrJZ7C-HzbJ_LRktiirsQQHeAgz3IzSm83DdaAi9NXA_xEgDDm4h28sZ1WHcsORDoR0l4tVkpouNh0g8LjNOK4W9CythrEjRppEihftFHR_MORMYlS8NRsew-EwYqwvvYgUvQE0Yt-VH-fxgkgk6lErmCAvE9xzXdoZnKpRYJVnAbBVn6xlWm2W0xwE6nwM9DUR4fsgC4_LQmYO6JsHw8mbEgyVo0LoU8GwG4qLHHayokN-oDDbb3dRbJIv4zVS7bZr8FeCyrj0JKSXAutoQTmMD24eahZpxtVqRKC4leuQlsIY-r0104VobEQPRcVio_9qBwXdly-AsRZc6kjqWnpqQgX8B_aR1a1OJZBF8WYLVKVFB7s6vVlxweHB8rw45O8Lqv2Vmjc0wbsaM6o6AOKMbQkYan5wA_Zv8HZFOgAY82x6o5pcHImyUXPhR1y9GL3SIfgJGCU7a4IelgsmXvRSAc_DK48eSKV_E4MOW1U1QV2FWv-Efl_38mlh2p5GFAJvMujO-8v2IKYQixTUk-khIZbE9YWLJdifFwpmL4bW24HPyqObJO7bryvxNIK0oLNOPVcSdow1b6nKht6IA40iQ_S75kfDigB4BJe5euWzBd2VZI4iXmC7wRkLZYFGe47besPQK7dKdHLfBMakJmqVMgj7-L_hByZdv92CPxgw53tYCBzHQabGO7MCKTsXImhkm7sggJq4UupINuDYKvgeuRgACKONcRl41txX8kiil4iiKJ-7rDoiSw9zxCZykvMIPwhkM2JmMMq0HAXShRUdo4txX9uhXGGgEzPnqxxEjc-Jq_XYpdMDLCkGKR_QKqVEODNLwrmwND9bYyWqohS2CLQAEyxPH_fyi0oTLlkyUaYsnYWhYS0MuJ-DMIiPnUgPdaRMA6h79ZsingJzd1uEWKlJjjO_EsoW4y9F3KV6CxxawY5gmzyTqnzN6ioGyVzIbx2HgBrnrvEhio8as6g9lPXccNvaFHrVCBX37gz9HJqnq8v_miE_Mo8DSm232Va0GM4Rw__TAe4eN8UaRfyAeRGGgePXm1SJ-v8iPV4EwxBTKqrx_EwkmnD-uOqzTwgGY_drbWbTKWEHGx_AH0pAHKKESo6SYqOA7rFyYg7uZH17Pt4rihwRsvD2qatnt6Q-m4MS0keYjHr8GLvUKjXI6Fg-kxRygOtnFrAq2MdZJWvmS5pOtwughfnHsrkF3HN2bbWz13Mdu8pvn47q5pAkXmcdbpZ8MTiPsafbNIdMC8uRTA7W8ROas9QPBbt6WVDepdTuzUd5Gcb05_28tBG6yCzv1ztr_3Spl_1oFJ_wiR0tuCDhQvYhWGSJjIQCudQLP6tivgu4sc9Wwzll2Q12D2cPXnwqJeeAPEussaN-aOmN2XNCrwDBNnZ6K_RABAeh3Q3LGajer1rA968JO01fqJanPo9yXUC7nV4k_6wCYz6CDsDg7yOBTtVEtPESo0K9ADrPOJHbR-3o8qbl9qMr3nr9ZFGvq76WT6Y3m8U3UP4y_SvfyiJFsHpCKuV8U07aDEFafnEjwid4PXnD45LuDJH8YN3p-uwAKkSumaA_unSLRhC0p_8Sf9x-CQ-tGrbC7TF-jLHlystEmFixE2DtXv9XuwfqcuC5leVeNdrlxKVvARWpDPW4RFPniWaPhiTOh21QKTVBBBmWHkwbKEEJODXBWJBOuq6_vFjqTL8O-Q1UZQvWaNQmUNxtqiY-mHAdXRBiOBBUkZzNoqNhusi213i4YYvFRSAq2iUGaKlA3RPwraCF1KyPR2e8wpg4y4Tv0VXdflQVQZaZgqH4z_XqWrPcTc_W_yq1GTwCbKbYG_QwYSD_S2kGJy7CXyD7ZGMJFqlAA4-p9MEMP_KMsQD87w-jjRqynqfKIjI-5QVRf4nL68EzbUNpZfV_sGxD30WHTwQ4r2-wF5_E4uimFeKsPEA4VqE_QRF17KeVeg2Txah5GuaRViH7_0iV_fSdv8S7V8h-yqlYHH33zGWOepAtrLxqJJ_1eQMtlWSmN4BzpS4uM9llvluld0xuDTuIwJ6yMrdPG1kDX4N9KqBwl6RHBCX5Cou7U8InQ_8Nznwl_FnsIUxEoID16CHicsULTDVqNmyzZ7ByvkJpEQQVvN90JoNhcUxMsW6_6oC_w-kEDV8y_2AtPS-5DqjZKfxeFrdfl4AJKCigvpQQbXdbvxLmO1c3n1ZratYy66RKoqo4R2Yq0tquSsYoLcNpA9HVNdaGt2LgsXriEmwQs9UmFAq3hr9r23VyGGQJLy8iG9WOECj01-whVY9zHdsRxH5FuJFVqtfHMg1rIpXQdxyazjP2kFVMt5uBOYZcIbZAw5mkKUFQalSqLiY-4TwM8VbigxgUGI0brJz8RzcmQx2VSndvWwYbvZAHeaDuAubrhvYWJLghHditY0q10SO9eeAVSzzoWn-sZzIf2QjpRU_3ASBVNtc-l2o6Opr_38rHq5klyKlq3W491ZZwszaES2d9m99yTCzdsFeKUwuZ-NUXsId_5SEDw5zSg9EDDPAhQLGweE148E-LXKOP-run0FUMTxNcaAaK3z98uDTmusXRiotAXBsBsL7Tx0VSL02F2ZwS3lP0jSvhocm8aN231b8yWISJUxz36PqriO28y2CJbPL_zu00yuMZm70-cqec61oE3Yp9sWPwJJh0xV2fHoMUPMXFPDGFo4sa1D2POLVx6PtXHMW9e7_mAXuWoWJ9SZJzUfho41sL6mGMohq75-7NYVk-qJbLKMYT713WJDaURrU9WDV48fsdgKbFEP5TS3K4t40xEEBR6opt0_WFYufoqhBSMdVegBqbOXhcmlkFP4RUnnIKoEM21i7-SBtgASN3hyYJl3JKDPwtwBZZlmPuRZWeAfo1iiPsernwhD_9Dn5Kok_NpoolE3V9rm6rWS5pR0eXsaq3z68RRAAHTLKGZkm5gnojZeRkWOVPEVBn9QXdAuAVvDKQH2t--9bLd-ycjdrAdr_-4bq_z2JVEiEXP-qbLE7o7nCs2jx0L9z9K3y8Vb6IhuX7Ycyt4sTDt-R58BRgiuWp7_UtxkQnFTdiJlnmYl9ZkQ0VTJamnxxTWYcepJwxL5yJSjx8MTmcvVuJ4kMnPZwDHjcU6cMlHJuqr-hGqJHvPODWWc3anXgNZJEv2vrE8NspjI7Wmg8mnUQYruomCrcJdLxqQ7yeyuYzT2ZP4VkGz76qGFa-Bf_tQMODqcRe5oyKAva1tg_ARH8ZKVMwXJWmWEL6Sp1LpwhBE4Get2MHYZIm6Y3CX59bj1-PcFx_BePDt9qOd-W1kBrlzuocdQm1JNUt2fLFmZ57pLO7geldk2ZWVs0Ub_dyt_fg-Gc-OevBxAPm-5FBYM297vtCV2EUviLdXcSQfTc3ThDJChQZbGFrHQTbidgokfZvJDkoMDj2ghBoic0N8ltwSPAYFlsiHKph0mil3_Ptymyq44X_ZykFHOPMxAL6OtM-gGVt5xY0rntKrHHoIWt7f2jy4PKVquOQk7Zg-7EaAVv-pw94ZwWzxd1U9fT_nXK1Bncz_kHdOq0urA8yVjioSTu7iNin7OYA0XhhlLi8QUII1MmDGDFryXgBATox21G9Zlb7LJOxUF6r8z-Cu9z7WEOrQtT-iChAFgZyRA7JFApmdHdNchWE7aRQyT56pq5-DpEEojdGpXOCInX46J8tPhyI3A8kaAVb40NmzpRHuIzD8WIZRZUMSBpkfxBJRsS7iCj3e6JkTSyf_SotLcQ8XEjHUFqcLCfOEntTR_tjOCwHB607Ac1xSzlk-6BcsF3cASkhyZXBmVa1xOUw4hYD0NlWvie9bGgEbYCuKirJzDtQQV494f2LG2y8106PzQjO7Wq_e7qC18Qr2YqFtzNfwCrBbq1Ac-f1ALoozrXYlgkN7EXPtZo7e55JgfUSpeYWNBArNhxg4oJ-46pkibToym9fS2-fP1GBeXXymJJIUSIw_-DNzPBaVbblJxKIaRccJhXljZGrc4n7gZlGz8HEcMeybeZVbSOw9kpkl8E-Mz0REJX5cPbbaGzBnXnq8cqrJsCdcUKPebwyDPjEE4UFFsmG-MkHTeRKgE2icvwx3TGcNZCkH7YKopOL-EUQVZCUB7mOLVoVBHNDSZ8phDn88fpRp9r4QlQnVTRxl35IOowuwxj2lMQw_Kd2LFEieYAco0I19tPgbvANAGigtJwGBKKKX_z5FVualIaJLb6HpoDeBR9WOfz-ne1fmt3v3kcTmkHmL2WtvrzTWrx07g1EYibaH5Gke_M6-3Qp4r_5DHeKczchxS81fXfQCLbY576omno6Kf9HM-jCCaiYYPS8Ub3DBeZsvj1mafdd4u2bra_XtRG3iKTcFIzCnJBOX_2Vf8Gpilb3QI2CqHe_CXp80BWxLzQMJ4fRMFLNJAs0MYaAJ-mP8EhALorLmjychpzIFcNeX_Id0_sqt-DB4BYHWicxXVCcm2OA9M4ZTOV1M_aWTUum7oiSAqpjxL08alUhjWjYGwMtfP7RLZ2X0dC-jbzLUupE-d7YsL9z9D7rttW2-BTE8GZWMfHqaZk8_oPRjI41A5T7MdMv8YEwd-u79Wr79ky_p0HsD_YR9eXobB0YUFL5_O4ESZO20OwYbG-ATC44lvxJN9KDyOaZyK-XU-07NuUnp82F9qsNmD40gHLACpQXMYfyu0ZcEEqIDATzTHcs_ENjzsiuJqkBGGkuwylMudzYtgUM5Ck="
+    }
+   ],
+   "role": "model"
+  }
+ ],
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 158354,
+  "output_tokens": 2151,
+  "cache_read_input_tokens": 527093
+ },
+ "model": "gemini-3.5-flash",
+ "tool_calls": 39,
+ "elapsed_s": 140.1,
+ "run_id": "r-62b4e0dc416f",
+ "case_id": "poc-6b51d0a6aa"
+}

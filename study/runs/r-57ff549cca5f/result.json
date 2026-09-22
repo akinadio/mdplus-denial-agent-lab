@@ -1,0 +1,1076 @@
+{
+ "answer": {
+  "policy_found": true,
+  "policy_title": "Femoroacetabular Impingement Surgery",
+  "policy_number": "160",
+  "policy_url": "https://blue.regence.com/trgmedpol/surgery/sur160.pdf",
+  "effective_date": "2026-03-01",
+  "criteria_quotes": [
+   "I. Open or arthroscopic surgical treatment of femoroacetabular impingement (FAI) may be medically necessary in skeletally mature patients when all of the following criteria (A-E) are met:",
+   "A. Moderate-to-severe hip pain that is worsened by flexion activities (e.g., squatting or prolonged sitting) that significantly limits activities",
+   "B. Unresponsive to conservative therapy for at least 3 months or clinical documentation that conservative therapy is contraindicated (e.g., history of falls due to mechanical instability of hip joint)",
+   "C. Positive impingement sign on clinical examination (i.e., pain elicited with 90 degrees of flexion and internal rotation and adduction of the femur)",
+   "D. All of the following criteria must be met:\n1. Imaging (conventional x-rays, MRI, MRI arthrogram) documents morphology indicative of cam-type or pincer-type FAI (See List of Information Needed for Review); and\n2. No evidence of advanced osteoarthritis, defined as Tonnis grade II or III, or joint space of less than 2 mm, except when there is mechanical instability.",
+   "E. Requested procedures must be consistent with the anatomical abnormalities documented."
+  ],
+  "appeal_deadline": "2027-02-19",
+  "submission_route": {
+   "email": "MemberAppeals@regence.com",
+   "fax": "1 (877) 663-7526",
+   "mail": "Regence BlueShield, Attn: Regence Level 1 Member Appeals, PO Box 1106, Lewiston, ID 83501-1106",
+   "online": "Through the member portal at www.regence.com"
+  },
+  "how_to_obtain_criteria": "The policy was successfully found and retrieved. If the member needs to confirm the criteria or request a physical copy, they can call the Customer Service number listed on the back of their member ID card.",
+  "confidence": "high",
+  "notes": "The medical policy (SUR160) notes that a revised version will become effective on October 1, 2026. However, because the denial notice is dated August 23, 2026, the governing policy is the one effective March 1, 2026. CPT code 29914 represents 'Arthroscopy, hip, surgical; with femoroplasty (i.e., treatment of cam lesion)' which falls under this policy's clinical criteria for FAI surgery."
+ },
+ "raw_text": "```json\n{\n  \"policy_found\": true,\n  \"policy_title\": \"Femoroacetabular Impingement Surgery\",\n  \"policy_number\": \"160\",\n  \"policy_url\": \"https://blue.regence.com/trgmedpol/surgery/sur160.pdf\",\n  \"effective_date\": \"2026-03-01\",\n  \"criteria_quotes\": [\n    \"I. Open or arthroscopic surgical treatment of femoroacetabular impingement (FAI) may be medically necessary in skeletally mature patients when all of the following criteria (A-E) are met:\",\n    \"A. Moderate-to-severe hip pain that is worsened by flexion activities (e.g., squatting or prolonged sitting) that significantly limits activities\",\n    \"B. Unresponsive to conservative therapy for at least 3 months or clinical documentation that conservative therapy is contraindicated (e.g., history of falls due to mechanical instability of hip joint)\",\n    \"C. Positive impingement sign on clinical examination (i.e., pain elicited with 90 degrees of flexion and internal rotation and adduction of the femur)\",\n    \"D. All of the following criteria must be met:\\n1. Imaging (conventional x-rays, MRI, MRI arthrogram) documents morphology indicative of cam-type or pincer-type FAI (See List of Information Needed for Review); and\\n2. No evidence of advanced osteoarthritis, defined as Tonnis grade II or III, or joint space of less than 2 mm, except when there is mechanical instability.\",\n    \"E. Requested procedures must be consistent with the anatomical abnormalities documented.\"\n  ],\n  \"appeal_deadline\": \"2027-02-19\",\n  \"submission_route\": {\n    \"email\": \"MemberAppeals@regence.com\",\n    \"fax\": \"1 (877) 663-7526\",\n    \"mail\": \"Regence BlueShield, Attn: Regence Level 1 Member Appeals, PO Box 1106, Lewiston, ID 83501-1106\",\n    \"online\": \"Through the member portal at www.regence.com\"\n  },\n  \"how_to_obtain_criteria\": \"The policy was successfully found and retrieved. If the member needs to confirm the criteria or request a physical copy, they can call the Customer Service number listed on the back of their member ID card.\",\n  \"confidence\": \"high\",\n  \"notes\": \"The medical policy (SUR160) notes that a revised version will become effective on October 1, 2026. However, because the denial notice is dated August 23, 2026, the governing policy is the one effective March 1, 2026. CPT code 29914 represents 'Arthroscopy, hip, surgical; with femoroplasty (i.e., treatment of cam lesion)' which falls under this policy's clinical criteria for FAI surgery.\"\n}\n```",
+ "usd": 0.1427,
+ "transcript": [
+  {
+   "parts": [
+    {
+     "text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-23\nMember: Jordan Brooks\nMember ID: W436997835\nPlan: Regence BlueShield (Commercial/ACA), state of Washington\n\nDear Jordan,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Hip arthroscopy\n    Procedure code (CPT): 29914\n\nAfter review, this request is DENIED. Reason for determination: the requested procedure does not meet the plan's criteria for medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-19).\n\nReference number: POC-41FE448BEA-64337\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_150130",
+      "args": {
+       "query": "Regence BlueShield medical policy hip arthroscopy 29914"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqMHCqAHAWkUfRPLrK9lRDEzBmILKQnzlXfrFowCJ50DQ8PMYkRgGmq1FFRibUNuJNnvGXBFxPfauz-t4-ffZnbJKk1a0UMCWmZxQjwHRyyfXzD2HDHvqBAll6URq2UFf0HDGfJafsXWcewhwhxuYCvCE-RcRw6CcNzZowLEw6m3gnvi_HFs-0m08MyX40H1MO_Z4u3NlLb74VnT2b5mlz2arQ18IvYr5HEanofuzXC6aMmafgX1NTM68MxBPcHUAcLrfJ-siGikk-mDD2i26b7jd0lTqzsTfEFnwtlGeX756i2ZUJHVWa5clkvJku77j_ldscO0a3CzZhfeCQMsp-RbxB1pE4IAuuLo8vGUuXSEkd6U6RvZ1LZgQGEyKZsGl0eDGxVi9XGH58mL4-uECs_CPIw4ScLephYBIiiZ1elomYtlDSAOAE7_LiYuvrMQGPiTAgwyUzs5u8jeB5sXGUM4y3N4vcifrJwd-ArGZ9rBgRRaEpCt8slmqvW2mhWHpUmlEsJJKCpRq2nFLhdF_XNP8bJYS8ozcipRGPMdi3hvECEdCyqq68udGfGw1vRjxcGqzRculTzUbTuZPpdKxZPv6LlTu7zQX6oglZyaY9Msgwotun5yzEHejJGfjxBi2EH7MUWlVlnt_OPzIPLZfRcoLs6Ewd98YfdXyD8VvpmQ6TwlmMylg1hI6UV7obb7potM5VZFi7NWzJMQuwqmwR_9jmiPT-7Q_i27keTNpbG0eAePmdV8K1Sq2HlZXwo0DsiUMt1hcIHlxXNLtXYF4wXNlfdnDxfjkN7RAnQ3rzeURao3-X_N8amJ1wzmf67GytdAHUPzWLsOq7A9KMQk578F4tY2ByDRMlmUob-ZF9UqwUYxQj8qX1Xs76QAvHkCp8AAOO_Br9FWdbDQ0LY7YEPYrqZOw9AMCJQOpYBJi0EIKCrBke00HCy12Z40KqN6hOi4YNyIAbWXwAaTanUJIfMkl6EEc4V8YVMichFeTn0R3C1W53gfVACRa4dG4BbHvTsloIwCw1q8S8nutrm3boja5jMpzgMD2CNSCfIQCsbOOz2XELmugUWw6L_cWTE1T28oBNuH0o1ndTN8-iRcg0Oa1A3H1SSGWG14hSBFzaCXcPHdlUMpKt-UF8bL8mJ0vHgn5uAk0LtzwbXSN8yGjcsT5dNFLvLvIBSZz225Na5Qj6u1MLc022vQlxQ0WMRcJMbzyaNvWGImef6uGQyoRq6kJTeNig=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Regence BlueShield medical policy hip arthroscopy 29914",
+        "results": [
+         {
+          "title": "7.01.118 Hip Femoroacetabular Impingement (FAI) ...",
+          "url": "https://www.blueshieldca.com/content/dam/bsca/en/provider/docs/2023/June/PRV_Surgical_TX_FemorImp.pdf",
+          "snippet": "The following are 3 specific CPT codes for these procedures when performed arthroscopically: \u2022 \u00b7 29914: <strong>Arthroscopy, hip, surgical; with femoroplasty (i.e., treatment of cam lesion)</strong> \u2022 \u00b7 29915: Arthroscopy, hip, surgical; with acetabuloplasty (i.e., treatment of pincer lesion) \u2022 \u00b7"
+         },
+         {
+          "title": "Surgery of the Hip \u2013 Commercial and Individual Exchange ...",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-hip.pdf",
+          "snippet": "primary hip procedure and <strong>not separately reimbursable</strong>. Debridement during hip arthroscopy is considered integral to the \u00b7 FAI surgery codes 29914, 29915, and 29916 and would therefore not be separately reimbursable."
+         },
+         {
+          "title": "Estimate for Hip Repair - Arthroscopic at Swedish Medical Center - First Hill Campus on Turquoise Health",
+          "url": "https://turquoise.health/care/service/MS008-hip-repair-arthroscopic/provider/swedish-medical-center-first-hill-campus-seattle-wa/plan/regence-blue-cross-blue-shield-wa-ppo/",
+          "snippet": "Hip Repair - Arthroscopic \u00b7 29914 \u00b7 A CPT (Current Procedural Terminology) code is used to describe medical services and procedures. The CPT code shown here is commonly associated with this service, and can be shared with the provider to help them verify the estimate. Swedish Medical Center - First Hill Campus \u00b7 747 Broadway, Seattle, WA 98122 \u00b7 Regence Blue Cross Blue Shield - WA PPO \u00b7"
+         },
+         {
+          "title": "Revised Hip Arthroscopy Reimbursement Policy to be Implemented - Horizon Blue Cross Blue Shield of New Jersey",
+          "url": "https://www.horizonblue.com/providers/news/news-legal-notices/revised-hip-arthroscopy-reimbursement-policy-to-be-implemented",
+          "snippet": "Those issues have been resolved and as such, beginning October 1, 2015, certain claims for hip arthroscopy services provided on and after October 1, 2015 to members enrolled in any Horizon Blue Cross Blue Shield of New Jersey plan will be processed and reimbursed according to the guidelines of our revised Hip Arthroscopy reimbursement policy."
+         },
+         {
+          "title": "Surgery of the Hip Page 1 of 8 Surest Medical Policy Effective 05/01/2026",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/surest/surgery-hip-sur.pdf",
+          "snippet": "primary hip procedure and <strong>not separately reimbursable</strong>. Debridement during hip arthroscopy is considered integral to the \u00b7 FAI surgery codes 29914, 29915, and 29916 and would therefore not be separately reimbursable."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_75925",
+      "args": {
+       "query": "site:regence.com 29914 OR \"femoroacetabular\" OR \"hip arthroscopy\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Et4CCtsCAWkUfRN0WSssSY685H6IBNfmmglSVJpJ6PWLCJnZsI0cjozy8ZQmA0_9UiOk2N5m_hihmqOKveLmjJKe1NRw2F5TkclU7uzmNrYzuZhioYkWgLXPlhyFF6c_uByzRN3hNSPWsJ5_9bgjHLMa33yvYkOoNaFXRVjMc23iK7si0ueaR9nIOJrJe0BWjOWA7r3nH_jsh5q57e_rI34DjP9W9eQzchc6xtn-rxKCkLqMB9YJlehVXYP9zir1uY6MVw8UaC_HqMrJnFI2qp_zT2aoCRtOxunDCf1-W5vxg5GJiFYDUT9spMM9BccSuRIcpkrocnALJYx8gL4Ex457cMJNitPHtRO3IN1VViri_InDET0GOMCs4ypCMosuTk1qihzZsCRJP0NWf0T3YeDeCbtrbPfZDOg2mGFqmCHKNjc7pBvXXsmQKCJy3ZHOLF8EtKZhUyK6VzyZTHSqhYA="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:regence.com 29914 OR \"femoroacetabular\" OR \"hip arthroscopy\"",
+        "results": [
+         {
+          "title": "Femoroacetabular Impingement (FAI) Surgery",
+          "url": "http://blue.regence.com/medicare/sur/m-sur160.pdf",
+          "snippet": "We cannot provide a description for this page right now"
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_98221",
+      "args": {
+       "query": "Regence \"Femoroacetabular Impingement\" surgery policy"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EoECCv4BAWkUfRMkaeg3tRqGZqc-gbk7fxitzKGXoBaM3cp6OpNJ_bi_2q5KPrgr2Dk_x2GsaWTR6OD8TdWIWgkBGyzw2rHJRxwwt0PBpni50HM4P0WaT_Ni3Z594AYS7yz6spEwZlgzQb_t7dzs4c8YelNO2-yzhf1C1rg64lg35r7ZBrsTSnBnFmXbkvhBf9zMlfQkABOqWyOUJzyJQE7ijDY-PFuADarvNuOnYf-awt0X_YOa-SS0R932vLpBUifr3C_mKg7dVAxuqRHV46yDgvUdV-D19hgtVyC546lriFocF4YUzbBr3fkdQ94DGhr3rsAcnLBm3ZK4mR-3TUl43kQ="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Regence \"Femoroacetabular Impingement\" surgery policy",
+        "results": [
+         {
+          "title": "Femoroacetabular Impingement Surgery",
+          "url": "https://blue.regence.com/trgmedpol/surgery/sur160.pdf",
+          "snippet": "Surgery table of contents for The Regence Group Medical Policy Manual"
+         },
+         {
+          "title": "Femoroacetabular Impingement (FAI) Surgery",
+          "url": "https://blue.regence.com/medicare/sur/m-sur160.pdf",
+          "snippet": "We cannot provide a description for this page right now"
+         },
+         {
+          "title": "January 31, 2025 Meeting Materials Health Technology Clinical Committee",
+          "url": "https://www.hca.wa.gov/assets/program/FAI-petition-meeting-materials-2025.pdf",
+          "snippet": "have no financial means to acquire commercial insurance. Those patients under the Regence UMP \u00b7 plan with FAIS who desire surgery end up switching to Kaiser insurance (available through the"
+         },
+         {
+          "title": "Hip Impingement (Femoroacetabular Impingement or FAI): Types",
+          "url": "https://my.clevelandclinic.org/health/diseases/hip-impingement-femoroacetabular-impingement",
+          "snippet": "Surgery to repair femoroacetabular impingement has a very high success rate. Many people have no long-term side effects. You might have to avoid or modify certain exercises or movements."
+         },
+         {
+          "title": "1 Medical Policy Surgical Treatment of Femoroacetabular Impingement",
+          "url": "https://www.bluecrossma.org/medical-policies/sites/g/files/csphws2091/files/acquiadam-assets/145%20Surgical%20Treatment%20of%20Femoroacetabular%20Impingement%20prn.pdf",
+          "snippet": "dislocation surgery and arthroscopic surgery are the most common surgical techniques performed on \u00b7 patients with femoroacetabular impingement."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_103231",
+      "args": {
+       "url": "https://blue.regence.com/trgmedpol/surgery/sur160.pdf"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "ErwCCrkCAWkUfRM-PNXJ1Tln0SY81OdUUOxseeOFHuIiPLZXOkHNT2CmvzQDc5Wx5avetBEPfB_pFHJYx11T9uR78hzWT_1jnX_EFBCTorW23WcIFG-L2GTWbxTrS0OJi3Ggf0C_JO90KfDqtPEC4r7Aky6SGngj8u88Tdu7uTHwNUCY84APeoeCRTtA8za0KSwylc-9r0sw6pNj7GgZW274EfPXGjuXd2_rCT6mT2Vw-c8ktPxjLbxv3RHLQ7u6cUn27pjF1TE5i4c0wZh9QcumD1c92RvIjYLaYQxf9CX9_QMH3NePysiBqextIGkJ0Kn3K4Mhr81ITIs2K5i2RbtMkrvENX6Ry80mWf7333lKFT86Khd8DoKREOZLpO6-yigqQcsbgEZDUQz2EarcFipVRe2VPTHqhW5iT2Em4w=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://blue.regence.com/trgmedpol/surgery/sur160.pdf",
+        "final_url": "https://beonbrand.getbynder.com/m/44215e0cc478da83/",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "SUR160 | 1 Medical Policy Manual Surgery, Policy No. 160 Femoroacetabular Impingement Surgery Effective: March 1, 2026 Next Review: November 2026 Last Review: January 2026 IMPORTANT REMINDER Medical Policies are developed to provide guidance for members and providers regarding coverage in accordance with contract terms. Benefit determinations are based in all cases on the applicable contract language. To the extent there may be any conflict between the Medical Policy and contract language, the contract language takes precedence. PLEASE NOTE: Contracts exclude from coverage, among other things, services or procedures that are considered investigational or cosmetic. Providers may bill members for services or procedures that are considered investigational or cosmetic. Providers are e ncouraged to inform members before rendering such services that the members are likely to be financially responsible for the cost of these services. DESCRIPTION Surgery for femoroacetabular impingement surgery reshapes the misshapen head of the femur and/or the acetabulum as an alternative to total hip replacement or hip resurfacing. It can be done as an open or arthroscopic procedure. MEDICAL POLICY CRITERIA Note: This policy addresses femoroacetabular impingement (FAI) and does not address acetabular dysplasia, considered a part of developmental dysplasia of the hip (DDH), formerly described as congenital hip dislocation. I. Open or arthroscopic surgical treatment of femoroacetabular impingement (FAI) may be medically necessary in skeletally mature patients when all of the following criteria (A-E) are met: A. Moderate-to-severe hip pain that is worsened by flexion activities (e.g., squatting or prolonged sitting) that significantly limits activities B. Unresponsive to conservative therapy for at least 3 months or clinical documentation that conservative therapy is contraindicated (e.g., history of falls due to mechanical instability of hip joint) NOTE: This policy has been revised. The revised policy will be effective October 1, 2026. SUR160 | 2 C. Positive impingement sign on clinical examination (i.e., pain elicited with 90 degrees of flexion and internal rotation and adduction of the femur) D. All of the following criteria must be met: 1. Imaging (conventional x-rays, MRI, MRI arthrogram) documents morphology indicative of cam-type or pincer-type FAI (See List of Information Needed for Review); and 2. No evidence of advanced osteoarthritis, defined as Tonnis grade II or III, or joint space of less than 2 mm, except when there is mechanical instability. E. Requested procedures must be consistent with the anatomical abnormalities documented. II. Open or arthroscopic treatment of FAI is considered not medically necessary when Criterion I. is not met. Note that capsular plication, capsular repair, acetabular or femoral chondroplasty, acetabular or femoral microfracture, labral reconstruction, iliotibial band windowing, trochanteric bursectomy, abductor muscle repair, and/or iliopsoas tenotomy, when performed at the time of any FAI surgery, would be considered a component of and incidental to the FAI procedure. NOTE: A summary of the supporting rationale for the policy criteria is at the end of the policy. LIST OF INFORMATION NEEDED FOR REVIEW It is critical that the list of information below is submitted for review to determine if the policy criteria are met. If any of these items are not submitted, it could impact our review and decision outcome. \u2022 History and Physical \u2022 Documented symptoms and conservative treatments attempted specific to policy criteria 1. B. \u2022 Physical exam findings \u2022 Imaging (conventional x-rays, MRI, MRI arthrogram) that documents morphology indicative of cam-type or pincer-type FAI such as one or more of the following: i. pistol-grip deformity ii. femoral head-neck offset with an alpha angle greater than 50 degrees iii. positive wall sign iv. acetabular retroversion (overcoverage with crossover sign) v. coxa profunda or protrusion vi. damage of the acetabular rim CROSS REFERENCES None BACKGROUND Femoroacetabular impingement (FAI) results from localized compression in the joint due to an anatomical mismatch between the head of the femur and the acetabulum. Symptoms of SUR160 | 3 impingement typically occur in young to middle-aged adults prior to the onset of osteoarthritis, but may be present in younger patients with developmental hip disorders. The objective of surgical treatment of FAI is to improve symptoms and reduce further damage to the joint. The anatomical mismatch can arise from subtle morphologic alterations in the anatomy or orientation of the ball-and-socket components (for example, a bony prominence at the head- neck junction or acetabular overcoverage) with articular cartilage damage initially occurring from abutment of the femoral neck against the acetabular rim, typically at the anterosuperior aspect of the acetabulum. Although hip joints can possess the morphologic features of FAI without symptoms, FAI may become pathologic with repetitive movement and/or increased force on the hip joint. High-demand activities may also result in pathologic impingement in hips with normal morphology. Two types of impingement, known as cam impingement and pincer impingement, may occur alone or more frequently together. Cam impingement is associated with an asymmetric or nonspherical contour of the head or neck of the femur jamming against the acetabulum, resulting in cartilage damage and delamination (detachment from the subchondral bone). Deformity of the head/neck junction that looks like a pistol grip on radiographs is associated with damage to the anterosuperior area of the acetabulum. Symptomatic cam impingement is found most frequently in young male athletes. Pincer impingement is associated with overcoverage of the acetabulum and pinching of the labrum, with pain more typically beginning in women of middle age. In cases of isolated pincer impingement, the damage may be limited to a narrow strip of the acetabular cartilage. It has been proposed that impingement with damage to the labrum and/or acetabulum is a causative factor in the development of hip osteoarthritis, and that as many as half of cases currently categorized as primary osteoarthritis may have an etiology of FAI. Other terms that may be used for FAI include the following: \u2022 Acetabular rim syndrome \u2022 Acetabular retroversion \u2022 Pistol grip deformity of the proximal femur \u2022 Bone spurs of the hip Nonsurgical treatments include modification of activities and avoidance of specific movements that elicit symptoms and non-steroidal anti-inflammatory drugs. Intra-articular steroid injections and physical therapy with hip strengthening exercises may reduce symptoms. Hip stretching exercises such as yoga usually make symptoms worse. Various open surgical and arthroscopic techniques have been described. Previously, access to the joint space was limited and treatment consisted primarily of debridement or labral reattachment. A technique for hip dislocation with open osteochondroplasty that preserved the femoral blood supply was reported by Ganz (2001). Visualization of the entire joint with this procedure led to the identification and acceptance of FAI as an etiology of cartilage damage (the association between abnormal femoral head/neck morphology and early age onset of osteoarthritis had been described earlier by others) and the possibility of correcting the abnormal femoroacetabular morphology. Open osteochondroplasty of bony abnormalities and treatment of the symptomatic cartilage defect is considered the gold standard for complex bony abnormalities. However, open osteochondroplasty is invasive, requiring transection of the greater trochanter (separation of the femoral head from the femoral shaft) and dislocation of SUR160 | 4 the hip joint to provide full access to the femoral head and acetabulum. In addition to the general adverse effects of open surgical procedures, open osteochondroplasty with dislocation has been associated with nonunion, and neurologic and soft tissue lesions. Less-invasive hip arthroscopy and an arthroscopy-assisted mini-approach were adapted from the open approach by 2004. Arthroscopy requires specially designed instruments and is considered to be more technically difficult due to reduced visibility and limited access to the joint space. Advanced imaging techniques, including computed tomography (CT) and fluoroscopy, have been utilized to improve visualization of the three-dimensional head/neck morphology during arthroscopy. The following terms may also be used for FAI surgery (though these operative terms apply as well to other orthopedic procedures): \u2022 Hip decompression \u2022 Joint preserving surgery \u2022 Resection osteoplasty \u2022 Osteotomy (periacetabular for reorientation of a retroverted acetabulum, trochanteric or intertrochanteric) \u2022 Hip debridement An association between FAI and athletic pubalgia, sometimes called sports hernia, has been proposed. Athletic pubalgia is an umbrella term for a large variety of musculoskeletal injuries involving attachments and/or soft tissue support structures of the pubis. It is believed that if FAI presents with limitations in hip range of motion, compensatory patterns during athletic activity may lead to increased stresses involving the abdominal obliques, distal rectus abdominis, pubic symphysis, and adductor musculature. The condition is more common in men than in women and is associated with sports in which high speed twisting of the hip and pelvis occur (e.g., football and hockey). Under surgical exploration, a variety of musculotendinous defects, nerve entrapments, and inflammatory conditions have been observed. These defects are often discovered and repaired during open or minimally invasive exploratory laparoscopy. Surgery for athletic pubalgia has been performed concurrently with treatment of FAI or might be performed following FAI surgery if symptoms do not resolve. However, there is little definitive evidence to determine if surgical repair improves health outcomes in patients with athletic pubalgia. The recognition and treatment of FAI has also brought attention to the possibility of cam-type FAI after slipped capital femoral epiphysis (SCFE). The standard treatment for SCFE is stabilization across the physis by in-situ pinning, although it is not uncommon for patients with SCFE to develop premature osteoarthritis requiring total hip arthroplasty (THA) within 20 years. Treatments being evaluated for pediatric patients with SCFE-related FAI include osteoplasty without dislocation, or with the open dislocation technique described by Ganz. The Ganz technique (capital realignment with open dislocation) is technically demanding with a steep learning curve and a high risk of complications. Therefore, early treatment to decrease impingement must be weighed against increased risk for adverse events including avascular necrosis in patients with SCFE. It is known that surgical treatment of FAI pathology is less effective for pain reduction in patients with late-stage osteoarthritis. In addition, delay in the surgical correction of bony abnormalities may lead to disease progression to the point where joint preservation is no longer appropriate. It is believed that osteoplasty of the impinging bone is needed to protect the cartilage from further damage and preserve the natural joint. Therefore, if FAI morphology SUR160 | 5 is shown to be an etiology of osteoarthritis, a future strategy to reduce the occurrence of idiopathic hip osteoarthritis could be early recognition and treatment of FAI before cartilage damage occurs. Note: The surgical procedure may be done arthroscopically or as an open procedure based on the evaluation and recommendation of the treating surgeon. It is preferable that any surgeon performing a surgical procedure have current, appropriate experience applicable to that procedure. Surgical treatment of FAI should be performed only in cente",
+        "text_truncated": true
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_129854",
+      "args": {
+       "query": "Regence BlueShield Washington commercial appeal address how to submit"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EskTCsYTAWkUfRO7ctrsJB_28BBEtDMzGzuEf-zI-0YuKJ5_AgV2bfPi4zkyVjjOFwntV6P0uAQL_15P9tZs____wLEcmgNtArebqvCmSvwL7LwcUUcGgCVd52JJZxCUa9mEt76JUbskiFmxKEqg9JBdoiZy3hDrLFNitvcOsc1SXXmDR3ty8HPwX3lHwJVjRU4zxLpzsZBdA5F0YJOqgSHbewM4VXMWWDp-3clm8yOsszNKMCEFC_am7Bwq8fM5jFjmTSpQJsd9wX0HbUnHXCXyH_TUhM2umzIrKRobYYIeD6wZj0UGxOx9T86nfak9aCUzM-fe_sB4AQE4nWe_ggRFhq1wEkjxELWfG7L3SBTt5xzchNj73P3wb4-k46F68_-rZjZbO3MazqLYsbAZAnRQjilQ4CfSkcvOsGYR0u4aQoKWPY8cg9u4k_MfXQaQfHCafpe7f_HEbCUYOr6PCyGQzsZAuEXAYLad3hYf0EWALI8YaxJHmsYMF8jLAkC6HbJgd0rtkEfv6agMGWiHeAStU9QTEGav_s_0wE3sR7JC7dBNe7ae85NWRwre47KX_btPAcbnnd23cumobFcXwe2QaERqTWNItCQr5h0R-PVtAQe1XbfRefxCSPd3CzdWSyDE1X0HZoR_RdHkpPTd0MAij-lhy3cgbMYPlochx07ipwf4jAqkofaKF_vbqBA-y_iKHWU-GtF0WDYhgDsiBx-nsS_L8__tcBEwm9kVtg0ij-eOHyMbGuMX09n_zgeqGxclS0lqcGpC1lpcG7QgK1BF6vH-F6i-2FAwghtRt1qcAIuwh_rTp6dknw3hdnyjLR4X8Y5jt1oJmhaXW_v4OXAwyT82o8Yktr6gY-JcU9scIJzV6kia76-Juk7YxhvQdmxmqnPVaGsYrDVFr1vsrs3eSf5A7-EsxBC5iJNXqVmgCv71D4nS6HxbJqeXzgjdhSi5_8mX-1tKRzJCMadD6jNIn9aOuF84piSUk8XwgLay7AqzGA_28J-gdXyOt7BUJxeU9mdFZP2p1PVPZkXdG9IjVULOxibUJLf9xyMqDCJKNZx9mM_rysgHEsOMwH6AsM75z9D2zNMLCjkqQx2fKWg6x_BThdwpsR3khLWFZNVxpJBjZdur6xUDaXDMNcosikeDLaX8v8fGXV3TriDPlKN9QyiBSqP-VP5kpW6MaTI0tPABqx17s-iKut_r0g1NRQ1Dm_ozN5LECjXsLWQzLK9Qg6R2Ew2mKyODE3JZuxlUgF0RFXLd4AeWJkB5YG5MxiF83qJY_DzgcjCAil7_INUZCPwvW0cI2y5EjqsvzQkMgQWhqzjVoDFLAPTU-7-7stbNTxp1b7KdCJp13z4FkD_6WDsiXufz1RruQisc2VLEvO2ZmN3Q1lkACUX3DXshJj6DZaviJ9q14ffNl4uwyth2_fT7s9U1QQDt8cgXvJX4k6stHD7TBKec4OycgdHfEWnsXocIbbw0hSCq-y-z-xaOmh0hTJBWrUkO0A3B0inZrNpwgItPyxbsmI06Fqge9LcyHfvvplNqtJV-t7xbNHtRKSeqlTL7R7L6dZwbjQ-TUU6bBB0mA8_0qrXHP5YtFGQ9gqq9ll0E_oowzieRZnZCUNPGrXzJSsFLUD9h_YuPo9uGjFzlm0pcdR-ourN6l0w7hdeI_YsHl1Rlgb0d_5DKvwmNL_yeNyAhWQSnGy_h_TFI8Lm-Et9UvPq8wTYAk7UjV2YcMuzu1mnEi_06tRAFQ6MhKf0h-AxiqF8CenctiN6ELxQlefUY8R5TNpFOuTXqQMRk4Tzt-f0kHGxoESErnYSJevj7U4nq04zrunPyvW28Nx2Pk8fmONMz2Kxd92V3O20msmFU_atRPcn3GkoPkKzTdPzZX2kD17jqti1trCAbnZbPnu7GCPnafnZiQAP2DJeVesTFDDdJ-Ls4jr9PZ1Bj1dV3sD6-03i20fOqd5FSsie7yc8oxneM8KDdblXXUzuqOcd85kNCO1lsUGRNGuKggpZYpeqqU8uqGbCREv1oGKiA_OU7JwRwCqDT4i0FK6g0DFwM8-zhdbg-9sgi10deb3MYefYQVFgTsGwD9xPTQ5pqXnszkxGWgMWio3kbxri1LUg48X7EBO_LzlPjyX3nIYjMEXVV7CuGQziJ0O3IxizOijC-4CUdEE99XDtRiIr0Xp8Si0QA5mq0efLE0XGL7dOhhLB8Zs40zOQ9MNdrczBaxg-nJD5JZb_r5UDZzg0IsPSTQ3ks0m1_Fn0mglrFF-WtRxdwmDM1oOkcJZPtwpaUQ39oUhkkvZOnSfCFMNt1aVFvURiEjJHH4u7UT-iYHi4O5k6-1oar5oYkZhJ_cbo4arcIOcPx4V6JN-i2Av8vuSftIglON7cLWAUGI5gdGG-0SCm4Ksxsm9f8HmeTPxyfI5PT9s-3RwtFyRwBLYVGXvq4wKw-djMZcRNC--lOPiYUj6N-bOYEBw83RhbJI6DPy1l1r_3MuJjy59St-PWeAI_JgYjcbF-7ol7ivt729zmhA95514d9ZSQAAfcFrRPDxDeg_q9F0R4I6FUpt-twXpcG1pTyKi0j4BWcIr0ggVM5Y5tjI-Umgc8nwG6-az737BSRyfsKn-nN_LtoSpHqMV6k9FD4IrY9h5P7xHc2ERkA0Q6yEH0LBtUEzPgzmOhD7t3lVEmZV64IKm4WnWQQy3MwcWhpfUk4vyuRfj7Zw0xkHrQQEcTGclF-aQbGZ7ZoEwVYOAg2N8p0_FZnBU6Jjltsa1BoirLN8lpMEJ7ApnDVvEyU2WXU-55rnrMzy8pNvGTRzFEGvbvpcBos2Oo5PjcVibIVMXYHjjpV-U4MjA1YjGYXl1w-0qAomspYf7pwdvk4Y8kLtia2i3jLSs704-6ptpfTlSMpYtnM3G_p_GuL4a_XPaa2_ttffH0glZZCfV1T8On0P8Vttl3FXbKhABXmkFe78fff3zT_yO_7pC9SAkXmKsqFW7DO-0ZsY-g3bqyEHjfz8F31Ds8U3uTYuqz8EZDB0r1L_c_3m_M7NfhWqBj3vf4AsNL8-7aPGDeEVjZx3x8CcE2H_ZFnrCu_uFKgL7kUm-12wn9VMrf-oZo9hViUS2LriV6BORScCs0tB_o8GjDrjEGAIGOgI7h-vsEW2-t1umLnjbgXqjFBM1L1wB_uFNa9C7eXhGTxHqL8vnHIFd1XnBYXXatGJKjL18-KyzcFeS15gJbr3Nw-T2D5AqkB4DYvPsoqNPaTqidEIkbAXoRT4zsIV48Jlxnyt_tOs80Fp95qf6SGJxwqf5fgn_k1A4KPdYOmb2xMw5LrZUmFTKGTGFMMTKIJM7XSvpu33J5P"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Regence BlueShield Washington commercial appeal address how to submit",
+        "results": [
+         {
+          "title": "Claims Submission Map | FEP | Premera Blue Cross",
+          "url": "https://www.premera.com/fep/fep-claims-submission-map/",
+          "snippet": "8:30 a.m. - 4:30 p.m. PT Fax: ... 800-552-0733 Postal Service Health Benefits (PSHB): 800-237-6734 \u00b7 <strong>Send to Regence Blue Shield in accordance with the terms of your provider contract with Regence</strong>...."
+         },
+         {
+          "title": "Filing BlueCard claims",
+          "url": "https://www.regence.com/provider/claims-payment/bluecard/filing-claims",
+          "snippet": "Code BlueCard claims the same way you code your other Regence claims and submit electronically with other Regence claims. View tips, reminders and exceptions to claim submissions."
+         },
+         {
+          "title": "UMP MEMBER APPEAL FORM Please return completed form to:",
+          "url": "https://www.hca.wa.gov/assets/pebb/Reg-appeals-grievance-form.pdf",
+          "snippet": "We need your permission to authorize Regence BlueShield to request any medical records needed to answer your appeal."
+         },
+         {
+          "title": "Claims submission",
+          "url": "https://www.regence.com/provider/claims-payment/claims-submission",
+          "snippet": "Our participating providers and facilities agree to bill us directly for covered services provided to our members in accordance with their participating agreement. Learn more about submitting claims to us."
+         },
+         {
+          "title": "Regence Blue Cross Blue Shield | Office of the Insurance Commissioner",
+          "url": "https://www.insurance.wa.gov/regence-blue-cross-blue-shield",
+          "snippet": "An official website of the Washington state government Here\u2019s how you know \u00b7 The .gov means it\u2019s official. A .gov website belongs to an official government organization in the United States. The site is secure. The https:// ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely. MENU \u00b7 Return to search \u00b7 Active \u00b7 CORE HEALTH AND FITNESS LLC \u00b7 Regence BlueCross BlueShield ..."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_21710",
+      "args": {
+       "query": "\"Regence\" member appeal form Washington file OR submit OR fax OR address OR email"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtgBCtUBAWkUfRPvtggVQi93uLNMjTYxj9hOgUc-Nw0fRCqpk5Wq89WgHasOO4Yjs5BRlt17bB7JdIN20KV5DlW6908xLco2sFP6LKKbyizuv5Im9ql4M4f340sCSATav6Fv2q-oiG4t7y_SAAy4b8FDeb2gGn8rBI7y72WjKe3DcnI9itCP58AoC5xJgAGo1A9LfUAHc2516g02f89ep6t64LjhTB-Sd0fxKWrGgJe6-eWdADqehYs_bPS-bEvC1NvKY1_yOwENSOChw-pP23OUU8Fxl_qsEgyL"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Regence\" member appeal form Washington file OR submit OR fax OR address OR email",
+        "results": [
+         {
+          "title": "Regence Group Administrators Appeal Submission Form",
+          "url": "https://www.printfriendly.com/document/regence-group-administrators-appeal-submission-form",
+          "snippet": "To submit the completed appeal form, please return it by mail or fax to Regence Group Administrators. Mail the form to <strong>RGA, Attn: Appeals Department, PO Box 52730, Bellevue WA 98015.</strong> Alternatively, you can fax the appeal to 1-855-462-8875."
+         },
+         {
+          "title": "Regence provider appeal form: Fill out & sign online | DocHub",
+          "url": "https://www.dochub.com/fillable-form/336276-regence-provider-appeal-form",
+          "snippet": "Begin by entering your contact information in the required fields marked with an asterisk (*). This includes your name, organization or provider name, email, phone number, fax number, NPI number, and Tax ID number. Next, provide details about the claim you are appealing. Indicate whether this claim has been appealed before by selecting &#x27;Yes&#x27; or &#x27;No&#x27;. If &#x27;Yes&#x27;, attach a copy of the previous appeal determination letter. Fill in the Regence Claim Number(s), Date(s) of Service, Member ID Number, Member Name, and Member Date of Birth."
+         },
+         {
+          "title": "Member appeal process and forms",
+          "url": "https://www.asuris.com/member/members/member-appeals",
+          "snippet": "... You have the right to appeal, or request an independent review of, any action we take or decision we make about your coverage, benefits or services. <strong>You can submit your appeal online, by email, by fax, by mail</strong>, or you can call using the number on the back of your member ID card."
+         },
+         {
+          "title": "For Exceptions Only Regence Provider Appeal Form",
+          "url": "https://beonbrand.getbynder.com/m/c215f59eb7ede2c/original/Provider-Appeal-Form.pdf",
+          "snippet": "For Exceptions Only Regence Provider Appeal Form \u00b7 Requests are required to be received using Availity. Faxed appeals are only permitted by exception"
+         },
+         {
+          "title": "Regence Provider Appeal Form Instructions",
+          "url": "https://www.printfriendly.com/document/regence-provider-appeal-form-instructions",
+          "snippet": "You can submit the form via fax to <strong>1 (866) 273-1820</strong> or through the Availity portal. ... Ensure you fill out all required fields including claim number, patient information, and reason for appeal."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_146099",
+      "args": {
+       "query": "\"Regence BlueShield\" Washington member \"appeal\" OR \"appeals\" address OR fax OR \"PO Box\" OR \"Appeals Department\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "ErkDCrYDAWkUfRPUhLedhs-pugdVwklP9TTrhiSEjo7L1saM0VjsPouBVBJir4a5AE5mbNDCYtiHKKEFVfKMI8H3yApybAVC8nJGVOuTkdtcG7KkX0EYBcNweMHYet1F-6jbiPXdoEcqrCk-GbX6iPGoVMbPsTrxAl_kdd16N6InWNlkwsTCNA-jeFz2hKhJ9JIVgcFxc0p4AWgo1P9cHnGnl_gbdLmN3hVRghW9fBY46h_vtPwi8JEgs_N7uznrh4_M-c9vM3hsfcJ8KcyPOLMS7zOBSFiDtD17F5vzKRh0t3aaqlrWnIxHpgfGxrjnySLFN_Twl8HgUFJ5-Glvb9j1HpVhePw8Xe6n90IWJszJFfU05FE3nD1BkYy4papPGdRfHjkpAGqtxX-zK4DyBUWWoJJNq3iPCn9Pepnzh7j71uAKiITPnSE08apfKTRCyn-1fNV3SkevuoFXOSy2Uk2U6O4k4NlQdvMj8F2MC_t86fkbtxFZ1Gt_MaRi4VE9AI8FgOYfkBpdP4au1bIpijzIVkoCM4gz5I-FmxPMFeNjj80O9c5bkRFNiwLe2GLoBSs98PUVZZkSxPo0"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Regence BlueShield\" Washington member \"appeal\" OR \"appeals\" address OR fax OR \"PO Box\" OR \"Appeals Department\"",
+        "results": [
+         {
+          "title": "UMP MEMBER APPEAL FORM Please return completed form to:",
+          "url": "https://www.hca.wa.gov/assets/pebb/Reg-appeals-grievance-form.pdf",
+          "snippet": "We need your permission to authorize Regence BlueShield to request any medical records needed to answer your appeal."
+         },
+         {
+          "title": "Contact Us | FEP | Premera Blue Cross",
+          "url": "https://www.premera.com/fep/contact-us/",
+          "snippet": "Provider correspondence: Regence BlueShield of Idaho FEP <strong>PO BOX 1388 Lewiston, ID 83501</strong> \u00b7 (Attended sleep study at outpatient part of a hospital, home hospice, organ/tissue transplants, clinical trials.) Premera Blue Cross - FEP PO Box 33932 Seattle, WA 98133 \u00b7 Federal Employees Health Benefits ..."
+         },
+         {
+          "title": "Claims Submission Map | FEP | Premera Blue Cross",
+          "url": "https://www.premera.com/fep/fep-claims-submission-map/",
+          "snippet": "Provider correspondence: Regence BlueShield of Idaho FEP <strong>PO BOX 1388 Lewiston, ID 83501</strong> \u00b7 (Attended sleep study at outpatient part of a hospital, home hospice, organ/tissue transplants, clinical trials.) Premera Blue Cross - FEP PO Box 33932 Seattle, WA 98133 \u00b7 Federal Employees Health Benefits ..."
+         },
+         {
+          "title": "Washington State Health Care Authority | Office of the Insurance Commissioner",
+          "url": "https://www.insurance.wa.gov/washington-state-health-care-authority",
+          "snippet": "Regence BlueShield \u00b7 10003948 \u00b7 <strong>PO Box 42684 Olympia, WA 98504</strong> United States \u00b7 253-382-70416 \u00b7 Brittany.Gotschall@regence.com \u00b7 One year - calendar year \u00b7 Expires: 01/01/2027 \u00b7 Insurance Resources \u00b7 A consumer&#x27;s insurance glossary \u00b7 Annuities \u00b7 Annuity payout options \u00b7"
+         },
+         {
+          "title": "Regence BlueShield serves select coun\u019fes in the state of",
+          "url": "https://regence.com/go/2024/booklet/WW/SilverHSA5150Preferred",
+          "snippet": "Regence BlueShield serves select coun\u019fes in the state of \u00b7 Washington and is an Independent Licensee of the BlueCross and"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_83426",
+      "args": {
+       "query": "site:regence.com member appeal form"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EuIBCt8BAWkUfROp38iemnV_uv458u140nw43bceDfG2SWd1CdRwJaSv9tsObrpmQasb2GV9pcEamfe-vo5DUDLxV3uy-j0Mttdl9_K6RxTXrpwCvfeQpmJWDGTOgOCaw8z7smYryYcVzUknmSWsWCdjEgbeR8jUF01E8nvwtc9ZB6ec-SOZVn4boguhmcCmM4JGa_M2xH_wVkq_17rvs8OsRxBasDowaBYGLPCU8QLgAnygaIjcFqB7T_r-ttCvO6A0-4KHltasfRXkdKMj87os67RYyxnPAAm6G5Tp4IoMhqNKTw=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:regence.com member appeal form",
+        "results": [
+         {
+          "title": "Member appeal process and forms",
+          "url": "https://www.regence.com/member/members/member-appeals",
+          "snippet": "Get help with your coverage questions, including information on how to file an appeal. Learn about the appeal process and find the appropriate appeal forms."
+         },
+         {
+          "title": "Grievances and appeals",
+          "url": "https://www.regence.com/medicare/grievances-appeals",
+          "snippet": "Learn how to file a complaint (a grievance) about us or one of our plan providers, or to how to appeal, or request an independent review of, any action we take or decision we make about your coverage, benefits or services."
+         },
+         {
+          "title": "Pricing disputes & appeals",
+          "url": "https://www.regence.com/provider/claims-payment/payment/appeals",
+          "snippet": "Learn about our pricing dispute and appeal processes, including: Disagreement with a contracted allowable rate applied to a claim or claim line, contractual adverse determination and disputes, external audit and investigation, provider contract terminatio"
+         },
+         {
+          "title": "Forms and documents for members",
+          "url": "https://www.regence.com/member/resources/forms-documents",
+          "snippet": "Find and download the forms you need to help you with your health insurance needs."
+         },
+         {
+          "title": "Forms and documents",
+          "url": "https://www.regence.com/provider/forms-documents",
+          "snippet": "Find forms to request pre-authorization, care management or appeals, or direct overpayment recovery. Download and print helpful material for your office."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_74002",
+      "args": {
+       "url": "https://www.regence.com/member/members/member-appeals"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EvsBCvgBAWkUfRP_0VvMsAmfzc6eCFjnwiIvOu1n4L0PxAfirk-fDueuuubyc78nNHlH6ks9Zv4zixJ7Tw5IFTLLGYuHHLDTHkXzlBGkFlUeQAnoQX47SKPDiM79LGRlo47bM4mk7OhySBbG4NAlaT1NoswWxIIJv2EN7Z8nUYSfipLgxKwxs0pQvMsfgCsHG-foAjvFn4YFte6YGMvv2Y3B7scklJ5NIz3BOf6eodxAHdAAy17zb_gmJI-Q5aTTxdd289V946-FgovqmvVYCFak968xmKFJ2o7w8TYiGP-ud30P6x-UuA_0cjkxhMz6DFnBMIp2hYUwnQKepho="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://www.regence.com/member/members/member-appeals",
+        "final_url": "https://www.regence.com/member/members/member-appeals",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "Member appeal process and forms Find a doctor Find a dentist Contact us Sign in Individuals & Families Medicare For Employers For Producers For Providers Don't have a member account yet? Create one Sign in Individuals & Families Medicare For Employers For Producers For Providers Don't have a member account yet? Create one \u00d7 Find a doctor Find a dentist Contact us Go to Regence home page x Attention! You are about to leave regence.com and enter another website that is not affiliated with or licensed by the Blue Cross Blue Shield Association. Cancel Proceed Loading... x Attention! You are about to leave our Medicare website. Proceed Cancel \u00a9 2026 Regence health plans are Independent Licensees of the Blue Cross and Blue Shield Association serving members in Idaho, Oregon, Utah and select counties of Washington. Non-discrimination | Espa\u00f1ol | \u7e41\u9ad4\u4e2d\u6587 | Ti\u1ebfng Vi\u1ec7t | \ud55c\uad6d\uc5b4 | \u0420\u0443\u0441\u0441\u043a\u0438\u0439 | Tagalog | \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 | \u1781\u17d2\u1798\u17c2\u179a | \u65e5\u672c\u8a9e | \u12a0\u121b\u122d\u129b | Oroomiffa | \u0627\u0644\u0639\u0631\u0628\u064a\u0629 | \u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40 | Deutsch | \u0e9e\u0eb2\u0eaa\u0eb2\u0ea5\u0eb2\u0ea7 | ...",
+        "text_truncated": false
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_103323",
+      "args": {
+       "query": "site:regence.com/member/members/member-appeals"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EoYDCoMDAWkUfRP8M7gbFF9DhPeEEvoj_ZZadMh6bGEUxjE7rf5dWv0KqgbEqqhQkvemJmNJcm9vdoCIyvJlVRScn49ND4pkC8JH4To4t9O3hZw3AL0b9qrO5ynJ1xjNfnMfLmKa7CpyeAmRpqG3QkVuJVSr0c-6sf7hvSf35XZUl-jy8Fv_YEOekS2WmupthX7XhzTkD8SNSndNAbMdC8UIMzn_GuY84_lL8XRL0tPZGRAB5YPnYsTB1XX6cLEFQ9iY6oaCz7k45yYEHG9RVE4XPIyopN3u-8dZUAWXiElehSuNYtyO4X1mRFUiioyoMYSa7XInp1T5ZXlwnF3uGT6pZA9PfRzgjNWeolS5npLiEQkwb2d-rK4ErllTbcwoUJuzIZgFJkhyt5kuhn7xJ30jea1FkdCYZI7q8KsknWssdvb-el0jvV2ZE3DrJJvq0wj2JWBWMQlFdQ10Cwsv5pPeAPu015-Drryu0Ro0vvnlyICXIUOGsv23e5-uTNlvOpQPq7IskqLe"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:regence.com/member/members/member-appeals",
+        "results": [
+         {
+          "title": "Member appeal process and forms",
+          "url": "https://www.regence.com/member/members/member-appeals",
+          "snippet": "Get help with your coverage questions, including information on how to file an appeal. Learn about the appeal process and find the appropriate appeal forms."
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_89622",
+      "args": {
+       "query": "Regence BlueShield Washington appeals mailing address OR PO Box OR fax number"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqQCCqECAWkUfRO71fdoIwI5b-WqR5eSHdlkhuj20SbbUF8Y-O-N6kOTvEwrF3GHewMWkc89a8f6IFVEpZcmvk8lNFzioNbjXpDmowNYY7Ezi4iZlwhOPvsp_xjmJYTBKl4EOd3D2wssq_OzPfxBH11jYiAngLli4Hp2Cq8zy4IUszpKDAFHH-uxtztOv2NK03Gv8_aLxaUtpbKhm4FpNUbFrDIL6GwgPsF2H8Zv70t3J_EtaC-3GMhwdOEx_mwlT5olotJAPIAhmZYzlVlmTRgQcnGkNarN1x-ToIE4WrhnzyBiM8uw3TZF8K3yHMTKRV5eQkZPKCS1y3BJYfCR0Boy7zCfbsy8LQMDUFFD8aF6qBao1LDvxJHjAUdRi4tjAy5fi2jzSQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Regence BlueShield Washington appeals mailing address OR PO Box OR fax number",
+        "results": [
+         {
+          "title": "Claims Submission Map | FEP | Premera Blue Cross",
+          "url": "https://www.premera.com/fep/fep-claims-submission-map/",
+          "snippet": "Regence BlueShield in accordance with the terms of your Provider contract with Regence. (Attended sleep study at outpatient part of a hospital, home hospice, organ/tissue transplants, clinical trials.) Federal Employees Health Benefits (FEHB): 800-562-1011 Postal Service Health Benefits (PSHB): 800-550-1722 Fax: 877-239-3390 (Claims and Customer Service) Fax: 877-202-3149 (Member Appeals only) Fax: 866-948-8823 (FEP Care Management - prior auth/pre-service requests)"
+         },
+         {
+          "title": "Contact Us | FEP | Premera Blue Cross",
+          "url": "https://www.premera.com/fep/contact-us/",
+          "snippet": "8:30 a.m. - 4:30 p.m. PT Fax: 877-239-3390 (Claims and Customer Service) Fax: <strong>877-202-3149 (Member Appeals only)</strong> Fax: 866-948-8823 (FEP Care Management - prior auth/pre-service requests) Email: Members: Log in/register at MyBlue Customer eService ... Federal Employees Health Benefits (FEHB): ..."
+         },
+         {
+          "title": "Washington State Health Care Authority | Office of the Insurance Commissioner",
+          "url": "https://www.insurance.wa.gov/washington-state-health-care-authority",
+          "snippet": "Regence BlueShield \u00b7 10003948 \u00b7 <strong>PO Box 42684</strong> Olympia, WA 98504 United States \u00b7 253-382-70416 \u00b7 Brittany.Gotschall@regence.com \u00b7 One year - calendar year \u00b7 Expires: 01/01/2027 \u00b7 Insurance Resources \u00b7 A consumer&#x27;s insurance glossary \u00b7 Annuities \u00b7 Annuity payout options \u00b7"
+         },
+         {
+          "title": "PO Box 1106 Lewiston, ID 83501 MEDICAL CLAIM FORM",
+          "url": "https://www.hca.wa.gov/assets/pebb/ump-regence-medical-claim-form.pdf",
+          "snippet": "Regence BlueShield serves select counties in the state of Washington and"
+         },
+         {
+          "title": "Contact us",
+          "url": "https://www.regence.com/provider/contact-us",
+          "snippet": "Get help when you need it. Find helpful phone, fax and email information for assistance."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_80179",
+      "args": {
+       "query": "Regence member appeal address \"PO Box\" OR \"Appeals Department\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsgBCsUBAWkUfRO_e-j9pEn6lUvzvERlxquTwUKU5SCVBpHvBCkJolAyDkRI8t0GyT6BcVTWvvhFO4kuoYl426Jv4lKb-zRbfdnhCvW_OSIK2iJQOfmz3nKA-vRjs4-nCpD-RpXhpcztI3_LisXL6H6wLl-DW-M4SMhfKJh_nYiticM1AQR7Erq95_YCUVU46X3TH2_dk-MlSj9THSzbYWZxDc7b-CtckeDCL77aKXhPb0I1zIiiYAGA4r7LPZFBH2p9QFlyedEBSLQ="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Regence member appeal address \"PO Box\" OR \"Appeals Department\"",
+        "results": [
+         {
+          "title": "UMP MEMBER APPEAL FORM Please return completed form to:",
+          "url": "https://www.hca.wa.gov/assets/pebb/Reg-appeals-grievance-form.pdf",
+          "snippet": "Attn: UMP Appeals and Grievances \u00b7 Regence BlueShield \u00b7 <strong>PO Box 1106 \u00b7 Lewiston, ID 83501-1106</strong> \u00b7 or by fax to: 1-877-663-7526 \u00b7 Email: UMPMemberAppeals@regence.com \u00b7 UMP Customer Service \u00b7 PEBB 1 (888) 849-3681 \u00b7 TRS: 711 \u00b7 UMP Customer Service \u00b7 SEBB 1 (800) 628-3481 \u00b7 TRS: 711 \u00b7 ..."
+         },
+         {
+          "title": "Regence Group Administrators Appeal Submission Form",
+          "url": "https://www.printfriendly.com/document/regence-group-administrators-appeal-submission-form",
+          "snippet": "To submit the completed appeal form, please return it by mail or fax to Regence Group Administrators. Mail the form to RGA, Attn: Appeals Department, <strong>PO Box 52730, Bellevue WA 98015.</strong> Alternatively, you can fax the appeal to 1-855-462-8875."
+         },
+         {
+          "title": "Regence Appeal Form for Medicare Advantage Claims",
+          "url": "https://www.printfriendly.com/document/regence-appeal-form-medicare-advantage-claims",
+          "snippet": "To submit the appeal form, you may mail it to Regence BlueCross BlueShield of Oregon at <strong>PO Box 1106, Lewiston, ID 83501-1106.</strong> Alternatively, fax the completed form to 1 (888) 496-1542 or email it directly to MemberAppeals@regence.com."
+         },
+         {
+          "title": "Member appeal process and forms",
+          "url": "https://www.asuris.com/member/members/member-appeals",
+          "snippet": "You can submit your appeal online, by email, by fax, by mail, or you can call using the number on the back of your member ID card. There are several levels of appeal, including internal and external appeal levels, which you may follow. Contact us as soon as possible because time limits apply."
+         },
+         {
+          "title": "AB PO Box 1827 Regence Medicare Advantage Medford, OR 97501 CDE",
+          "url": "https://medicare-oregon.com/shared/docs/medicare-advantage/OR/Regence/2017/Optional%20Supplemental%20Benefits%20app.pdf",
+          "snippet": "If you believe that Regence has failed to provide these services or discriminated in another way \u00b7 on the basis of race, color, national origin, age, disability, or sex, you can file a grievance with \u00b7 our Appeals and Grievance department by writing us at <strong>PO Box 1827 MS: B32AG, Medford</strong>,"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_108013",
+      "args": {
+       "query": "site:regence.com \"MemberAppeals@regence.com\" OR \"MemberAppeals\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EoMDCoADAWkUfRP6e2EeCvWGX3ZST43YfXqgcFD36U5qbHKaTCi4dDFPnCqlnl7xuPjZ4SXbKCdUG8qX81ao-DXS7nXQIXs0GkZpcpjGbm4ehFOiFn7-zJCx5t-qYlamYZaWu6IMcjTGBdwc485KEZW_dQRxJ5cDQZgY8e_4np8JhiMAQDS8qEDjApw9ISs0WIp44f8PSArcjrzuXm8TOdhhR9W1hcEiAKLOp1b929Ax1i5x-0U_XYp1LlzQmU0V1eO-TF0qPJbjaeU0leKdvNj6UciIcvwwVr_GzD3L0-mbN87oxWyDGDu4zAhQxqj3N6gBecLH9PZuRisksOjVb_YmnqRpdWQbZClqxeKPHIOOvXJ3Scl1L4-nqGSilXm2TRjHq3zR2WcjeBo5Mj4InbWBf3jL-Z4NVxnuoJF-_YuHWv1A5VK3sDisSkJ3tRtlSzR_4X9Dw8Ju1BdzMGrUxYyESOntrx-qoKIYzoTWl-e9AS0MpQs9L-2apgR2BkjzGE0i3WRz"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:regence.com \"MemberAppeals@regence.com\" OR \"MemberAppeals\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_82092",
+      "args": {
+       "query": "\"MemberAppeals@regence.com\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EuQBCuEBAWkUfRM2M9kvxCzp7XCitMf9Q16LeLx4Q-0DQZbn4lQtKPuDnt-o5l981YtVoD-NbvgUAI3pOqDxg-1dsmNk52ub0SuLvVnicu0psI9WAaTqJs1FuI5NWitilaISUKtQzYcv2wXQ_iYrOsmfn7LJ0_jQIkqI7t1MG4h1QV3bFi6IDcZYtLTuO-mABjlHIJkLMMr_I-WI2Rzcu6t0U5HHz0RgDlyr-qEahUli2ECK9sJP5SxPtxOpxXwa3iupRmK-ngWrDzbfOqoJ-MjoTksY_xZjwGr0wL84pOf2vsb8Wcm_"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"MemberAppeals@regence.com\"",
+        "results": [
+         {
+          "title": "APPEAL FORM Please return completed form to: Commercial and Individual",
+          "url": "https://beonbrand.getbynder.com/m/3bac70e7c06077f3/original/Appeal-Form-OR.pdf",
+          "snippet": "<strong>Email: MemberAppeals@regence.com</strong> \u00b7 Contact the phone number on the back \u00b7 of your member identification card for \u00b7 assistance with filling out this form. Patient Name \u00b7 Date of Birth \u00b7 Phone Number \u00b7 Address \u00b7 City, State, ZIP Code \u00b7 E-Mail Address (optional) Identification Number (numerics ..."
+         },
+         {
+          "title": "Regence Appeal Form for Medicare Advantage Claims",
+          "url": "https://www.printfriendly.com/document/regence-appeal-form-medicare-advantage-claims",
+          "snippet": "To submit the appeal form, you may mail it to Regence BlueCross BlueShield of Oregon at PO Box 1106, Lewiston, ID 83501-1106. Alternatively, fax the completed form to 1 (888) 496-1542 or <strong>email it directly to MemberAppeals@regence.com</strong>."
+         }
+        ],
+        "result_count": 2,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_83537",
+      "args": {
+       "query": "site:beonbrand.getbynder.com \"Appeal-Form-WA.pdf\" OR \"Appeal-Form\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Eq4DCqsDAWkUfRN1fkkOOZ0_BwBzOV2_L8x1Y40MSY-msCK_tZxXUVWbFJHYguwQ5vZAh5bjG2gKFr3TuwvsKttWmxyoNMwH-dwKMbHtnkj6CoKqqa5IwgrOX7KS0wTG54aQ3K3sWoEBS_HeUS9CxeZwJPFj7vYewKIDSrM-oBcvberA92xULFvhAbaxKhFwxFEfz7ZLbrdR2AaZxjbRqmuE4KkFWVX46E07JFH_ZnLACRc53blqRap27RGLPJB59TPN8pEIBYZozy1XRix8tGYEmBVGgdm81TsuvNa9onvtlsr_HsnyTSPHhXI8X2Lly61kQEfHOU2DtJ0Dq6yMvEKSmX3c3f_1BimEOIm_h4b3O39kvh8XIykM-VTxkztmFNU1p5zuax5EyFhQAgQ7fQv3WyZQYSn6yRqd32QSs-lxUdqSzd0n93cMUVjelKD0MCNhCBdf2Re2HOHC9myz4f14bLuOSeEWzwzSnmcuZJQXEvlBBmG7QV8iP-WILa9Z0W-A4SmH1ZmexRYYESujQ0bat5jilUXdtNBzlUYlw7MbbByvxY0AsrYr6Y3IQT1XLA=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:beonbrand.getbynder.com \"Appeal-Form-WA.pdf\" OR \"Appeal-Form\"",
+        "results": [
+         {
+          "title": "Appeal-form-Asuris.pdf",
+          "url": "https://beonbrand.getbynder.com/m/75a1ed7977ae910f/original/Appeal-form-Asuris.pdf",
+          "snippet": "<strong>FORM 4581AS</strong> Page 1 of 1 (Eff. 11/2023) v2 ... If you are initiating an appeal on behalf of another person who is not a minor, Asuris Northwest Health (Asuris) must also receive a"
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_75580",
+      "args": {
+       "url": "https://beonbrand.getbynder.com/m/3bac70e7c06077f3/original/Appeal-Form-OR.pdf"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EsYBCsMBAWkUfRMqLBcm1L9IAksj-OBnZq4GxvwagVfO9NDOpXnh1bw8wYJAmGvyhF0iirrxrRPVvqMwDAXqcxKJ0-T4rl8RGTSTwVumRgDf4tzI3s2RlEmZn2TWkUivGM7jtiLdNO66nqVn4CIvVBiRt2LgGUMMEDNZ8uNYmjkUe3JWYlSrRes33MSmCYWWH9t2-pFWor34i_6Njgk2ltakaNyZ9M8W6VRx4qVTZosXMKL3jaYhyGr1STXgewGAx6b19OoQwES9"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://beonbrand.getbynder.com/m/3bac70e7c06077f3/original/Appeal-Form-OR.pdf",
+        "final_url": "https://beonbrand.getbynder.com/m/3bac70e7c06077f3/original/Appeal-Form-OR.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "APPEAL FORM Please return completed form to: Commercial and Individual Self-Funded Groups (ASO) Medicare Advantage appeal forms are available at www.regence.com/medicare/ grievances-appeals. Regence BlueCross BlueShield of Oregon Attn: ASO Member Appeals Attn: Regence Level 1 Member Appeals Regence BlueCross BlueShield of Oregon PO Box 1106 PO Box 1106 Lewiston, ID 83501-1106 Lewiston, ID 83501-1106 or via fax at 1 (888) 496-1542 or via fax at 1 (877) 663-7526 Email: MemberAppeals@regence.com Email: MemberAppeals@regence.com Contact the phone number on the back of your member identification card for assistance with filling out this form. Patient Name Date of Birth Phone Number Address City, State, ZIP Code E-Mail Address (optional) Identification Number (numerics only, without alpha prefix) Group Number Today\u2019s Date Doctor/Hospital Name Date(s) of Service or Incident Claim Numbers (if available) Note: If you are initiating an appeal on behalf of another person who is not a minor, Regence BlueCross BlueShield of Oregon (Regence) must also receive a completed HIPAA authorization form, signed by that person, which can be found on the regence.com website. Please explain the problem. Include background, time frames, and the names of anyone else you have spoken with to try and resolve the problem, any supporting documentation, and your expectations or suggestions for resolution. List any supporting documentation attached to this form: We need your permission to authorize Regence to request any medical records needed to answer your appeal. This includes information about alcohol or drug abuse, mental health, AIDS or HIV virus, if applicable. This authorization begins today and remains in effect so long as your appeal is being reviewed. You will receive an acknowledgment letter for this appeal with information about the appeals process. PRINTED NAME RELATIONSHIP TO PATIENT SIGNATURE OF PATIENT OR AUTHORIZED REPRESENTATIVE * (Patient\u2019s parent/guardian may sign if patient is a minor child) TODAY\u2019S DATE THIS SECTION TO BE COMPLETED BY OFFICE STAFF Did the member fax or mail in supporting documentation? Check box if Yes \uf0a3 Did the member provide this authorization verbally? Check box if Yes \uf0a3 \uf07d *F4581.XOR0EN03200101* *F4581.XOR0EN11230101*FORM 4581OR Page 1 of 1 (Eff. 11/2023) v2 Regence BlueCross BlueShield of Oregon is an Independent Licensee of the Blue Cross and Blue Shield Asso ciation",
+        "text_truncated": false
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_99376",
+      "args": {
+       "query": "\"Regence BlueShield\" Washington member appeal form PO Box OR fax OR email"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpMDCpADAWkUfRNvpNAo--HzRRM2pWNV74rfk9OHs8uhmjqhx7KaNtRYLv7BVNhlqOm5zQuwu4XWc1rgsGJUvUuNgnjRoVyIq6AX4PDnUycOW0d2-fufMaa9jIghR1jver1bCGXI8051ttoFcYTqzLGwVXw3gdZo0eEXgO_BqN8G1ek6DW8MmkPNO79HbTe8Xnv5PtbjPNGEMh-ZOvpThCNXU5rMrnXQ6EPqRO0fYbcpLSVJtHaT2EdaQdv9CGNc_db8n28E-kb79accNBzx3QsYCTvIuP17hYxsTuumxA_Q3vN8aldxki1fCsX0oT7QQIj_yXBK6qnKJrXv1VmlK75Q6VlBOwv1xy9HnU3ayNOYGgyUw4-LnOtbWPA4TGSkFqrh4KzMtrqnJEeYBuqYiAYvNmOGf7yjvStvYwFfp_m8C7isS72akQi8kKfKGuzc_KxBuzZVIp4R1PokerYX42_LfTf8_KLGl_OFSB8HOMW68V-Hs_v2bvHG4CyChW8HTLOM26sTRQmTEV-HLl07K5HlVyHtNQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Regence BlueShield\" Washington member appeal form PO Box OR fax OR email",
+        "results": [
+         {
+          "title": "PO Box 1106 Lewiston, ID 83501 MEDICAL CLAIM FORM",
+          "url": "https://www.hca.wa.gov/assets/pebb/ump-regence-medical-claim-form.pdf",
+          "snippet": "used for claims for PEBB and SEBB Uniform Medical Plans. Network providers will submit claims to Regence directly."
+         },
+         {
+          "title": "Claims Submission Map | FEP | Premera Blue Cross",
+          "url": "https://www.premera.com/fep/fep-claims-submission-map/",
+          "snippet": "8:30 a.m. - 4:30 p.m. PT Fax: 877-239-3390 (Claims and Customer Service) Fax: 877-202-3149 (Member Appeals only) Fax: 866-948-8823 (FEP Care Management - prior auth/pre-service requests) Email: Members: <strong>Log in/register at MyBlue Customer eService</strong> ... Federal Employees Health Benefits (FEHB): ..."
+         },
+         {
+          "title": "Regence BlueShield serves select counties in the",
+          "url": "https://www.hca.wa.gov/assets/pebb/regence-incident-report-form.pdf",
+          "snippet": "Adjuster&#x27;s e-mail address _______________________ Adjuster&#x27;s fax number \u00b7 5. Was your treatment the result of injury, condition, or illness caused (received) at work or on ... If yes, please provide: Claim no. _________________________________ ... Has your claim been denied? Yes ____ No _____ If yes, please include a copy of your denial. Do you plan to appeal this decision?"
+         },
+         {
+          "title": "Washington State Health Care Authority | Office of the Insurance Commissioner",
+          "url": "https://www.insurance.wa.gov/washington-state-health-care-authority",
+          "snippet": "Regence BlueShield \u00b7 10003948 \u00b7 PO Box 42684 Olympia, WA 98504 United States \u00b7 253-382-70416 \u00b7 <strong>Brittany.Gotschall@regence.com</strong> \u00b7 One year - calendar year \u00b7 Expires: 01/01/2027 \u00b7 Insurance Resources \u00b7 A consumer&#x27;s insurance glossary \u00b7 Annuities \u00b7 Annuity payout options \u00b7"
+         },
+         {
+          "title": "Contact Us | FEP | Premera Blue Cross",
+          "url": "https://www.premera.com/fep/contact-us/",
+          "snippet": "8:30 a.m. - 4:30 p.m. PT Fax: 877-239-3390 (Claims and Customer Service) Fax: 877-202-3149 (Member Appeals only) Fax: 866-948-8823 (FEP Care Management - prior auth/pre-service requests) Email: Members: <strong>Log in/register at MyBlue Customer eService</strong> ... Federal Employees Health Benefits (FEHB): ..."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_85586",
+      "args": {
+       "query": "\"PO Box 1106\" \"Lewiston\" \"Washington\" site:regence.com OR \"Regence BlueShield\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EssECsgEAWkUfROKkVv0wnqqm9b9LAsMcBAzOnMauuUDnVSJ_nzYlA2FqKCy6KFI2IjEyDNViVzitIlxqu_keiJBX877b4iEI8JAAegUOPohsxqBj6giwyIqpVxoVdUAauQwUqIwlSAKl_8iG4Iu_GfjXs2pRxCzhvanYNzjPnTaGiyMNW-hPHwR2BazsgEMb8Rca2kLDR-_l2BsboI_j8xThwWcCY0OQtMJZVXZinSk724UfwuGfvzUsQQt4ASa_skfwTUiIhlDfDUOPolhwMQbgsevgwLQtojFgjYU3CsvZ4ETT1lkiUjTsaJEgbNudMeNJIeyypyaKSgQgtaIlUZpTSSEgKroCD6UC_ZHOS1f8nZcXu9aCwwIlirPbSFOj5N3dwaiZ7Rtcyr_AXO8v1Bipo69PsE9adyuGt1yOZG03R-3Mr3HqNrvbWk90Hv-oZswAAWKRCC0xknVpZOZGZKu5COYbfy0JOnadr867BRuknoKnJlvANG-_SViFg8eGTuCwHd8mfyC0ioKSsBHrZE1gzz8T87rcGRYzhBHAchzTUW-0yHaYopl5204640wwWfUGn129_OPLBxZD7Ng78TUxFORIG_WEXAdscM70Zv95F1o5OzVr9eZzP2AGn8xHVEw1q5WOK8qRHBOowatXL5-UD2VsUz2telKP56IbaBv5dszmlh1RGImE9AhxuQd-KT55TWDfgKbZnDlG0Qw7blaSeelcxfnoKSYgXzXsmQWBWBhBAnH9akOZKFCPXUpBPFskZuMVueapjf5ESI="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"PO Box 1106\" \"Lewiston\" \"Washington\" site:regence.com OR \"Regence BlueShield\"",
+        "results": [
+         {
+          "title": "Regence BlueShield Policy Individual Group Number: 38005001",
+          "url": "https://apis.regence.com/v1/publicdocuments/sales/individual/productId/WMW30509/docType/OM/pdf?brand=blu",
+          "snippet": "PO Box 1106 \u00b7 Lewiston, ID 83501-1106 \u00b7 Phone: 1-888-344-6347, (TTY: 711) Fax: 1-888-309-8784 \u00b7 Email: CS@regence.com \u00b7 Medicare Customer Service \u00b7 Phone: 1-800-541-8981 (TTY: 711) Email: medicareappeals@regence.com \u00b7 VSP Customer Service \u00b7 Phone: 1-844-299-3041 \u00b7"
+         },
+         {
+          "title": "Regence BlueCross BlueShield of Oregon Policy",
+          "url": "https://apis.regence.com/v1/publicdocuments/sales/individual/productId/WMO22449/docType/OM/pdf?brand=blu",
+          "snippet": "PO Box 1106 \u00b7 Lewiston, ID 83501-1106 \u00b7 Phone: 1-888-344-6347, (TTY: 711) Fax: 1-888-309-8784 \u00b7 Email: CS@regence.com \u00b7 Medicare Customer Service \u00b7 Phone: 1-800-541-8981 (TTY: 711) Email: medicareappeals@regence.com \u00b7 VSP Customer Service \u00b7 Phone: 1-844-299-3041 \u00b7"
+         },
+         {
+          "title": "Regence BlueShield Policy Individual Group Number: 37000402",
+          "url": "https://apis.regence.com/v1/publicdocuments/sales/individual/productId/WMW30529/docType/OM/pdf?brand=blu",
+          "snippet": "PO Box 1106 \u00b7 Lewiston, ID 83501-1106 \u00b7 Phone: 1-888-344-6347, (TTY: 711) Fax: 1-888-309-8784 \u00b7 Email: CS@regence.com \u00b7 Medicare Customer Service \u00b7 Phone: 1-800-541-8981 (TTY: 711) Email: medicareappeals@regence.com \u00b7 VSP Customer Service \u00b7 Phone: 1-844-299-3041 \u00b7"
+         },
+         {
+          "title": "Regence BlueShield serves select coun\u019fes in the state of",
+          "url": "https://regence.com/go/2024/booklet/WW/SilverHSA5150Preferred",
+          "snippet": "via Our website, regence.com, to submit a claim online or chat live with a Customer Service \u00b7 representative; or \u00b7 \u2022 \u00b7 for assistance in a language other than English. Mail Your <strong>medical or pediatric dental claims</strong> to the following address: P.O. Box 1106 \u00b7 Lewiston, ID 83501-1106 \u00b7"
+         },
+         {
+          "title": "Regence BlueShield of Idaho is an Independent Licensee",
+          "url": "https://regence.com/go/2025/booklet/ID/RegenceClassic51-100",
+          "snippet": "<strong>P.O. Box 1106</strong> ... negotiate with Providers. For additional information, refer to the Medical Benefits Section or call Case \u00b7 Management at 1 (866) 543-5765. ... Washington), as well as receive care in 200 countries around the world. Call Customer Service to learn \u00b7 how to have access to care ..."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_84007",
+      "args": {
+       "query": "\"appeals\" \"Lewiston, ID\" OR \"MemberAppeals@regence.com\" site:regence.com/go/"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsYCCsMCAWkUfRMleqAV5Jm2F75nSFstsAeayTaD0WUsguEkvkKLI71_UjzPOZsvlIF5Jm20YLmvKyxtmNaHx1rQ2XEAnuq63zYIcQO0sOsFuSBJ0L1GFcHmN2OWZGd78P7X3Aely0AzmFh7sHuuWIYiNswl_Be8GjN7htqx5kzc1SsKhePjVYT9PGIJXuPuuSQsMwbz7ia-QyT36rg1AzHxTK6vD0jA69r02-Hp6q4nl5EbXttLBaktavNTAo3A2eQyDHgUb5Tm__gjTP2XN80o0P5k6J4FtDy3BbzBmnQCG1uyfq-dpMl_ORATm16iFJ1Nvg1PE2YhYC1YpaCJlRah1oPIUkJcUZ-ieznQ2FBVuhCCvTH0vAuduGWN8R3ixH_j_rGvEas3RVgZg5nyg9qeC-qIhbeeRxhw2ShjVwJHxiWHtq01yIs="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"appeals\" \"Lewiston, ID\" OR \"MemberAppeals@regence.com\" site:regence.com/go/",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_93762",
+      "args": {
+       "query": "\"MemberAppeals@regence.com\" \"Washington\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpQCCpECAWkUfRP1JGNzzyFt0wSxrId2qblBuxOzr8yeivPytYQ8YGmJsSwpF5k19m_amfc4LmPMDQnnYpz-DTmEbpyAgeaKLret4Wnbc4wYh8kh0gHtLKKHkkeCKlmBOW0n1l81TDgRSgiHs420FYhHO47wX0Z3qqQrJpkGnD-EPmmoF-REvpNuTXKc2LodTw-Tw2M68WfML8xO7AUoihJDxXOA6pKBN-ynGxpre4Lc7vwKbC-M2ttsyVAIrkDO1-NcrYjsNv0nmX9afIudQXf3BPiF7qJ1Omj8m1CrJknXRbEUs3KykpknZXwY2uFhp-jFbDhWn39geJkvToQyQTQ6vTcU_5Gh11WNqeN0ZJUJqdtCRfvR"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"MemberAppeals@regence.com\" \"Washington\"",
+        "results": [
+         {
+          "title": "APPEAL FORM Please return completed form to: Commercial and Individual",
+          "url": "https://beonbrand.getbynder.com/m/664d69bc46ce2278/original/Appeal-form-WW.pdf",
+          "snippet": "<strong>Email: MemberAppeals@regence.com</strong> \u00b7 Contact the phone number on the back \u00b7 of your member identification card for \u00b7 assistance with filling out this form. Patient Name \u00b7 Date of Birth \u00b7 Phone Number \u00b7 Address \u00b7 City, State, ZIP Code \u00b7 E-Mail Address (optional) Identification Number (numerics ..."
+         },
+         {
+          "title": "2022 BOOKLET FOR: WASHINGTON FLORAL SERVICE Regence ExpressionsSM",
+          "url": "https://www.washingtonfloral.com/images/PDF_Files/Portal/Regence/2022-2023_Regence_Expressions_Dental_Booklet.pdf",
+          "snippet": "completing the form available on regence.com; \u2022 \u00b7 <strong>submitting the form via e-mail to MemberAppeals@regence.com</strong>; \u2022 \u00b7 submitting the form via fax to 1 (888) 496-1542; or \u00b7 \u2022 \u00b7 mailing the form to Us at: Attn: Member Appeals, Regence BlueShield, P.O. Box 1408, Lewiston, ID \u00b7"
+         }
+        ],
+        "result_count": 2,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_107771",
+      "args": {
+       "url": "https://beonbrand.getbynder.com/m/664d69bc46ce2278/original/Appeal-form-WW.pdf"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "Er4CCrsCAWkUfRPxv63TbnPh-dqY5_KTJO27iJs9HjwaTOoTL6DwGFZoMUD9TIfdXG_mW5wDDEnW45FOCUhbPen9_j6Lid8HBMDgZmsbuh_q95eHr8Lmj16RPk15Z_oJ7SBfC07hExLo7MDy89TldaR1SXS1SGHsMBu_h_-oMrMLPxz86Kb0bpq9IpgXfmEv3g03tozEuIDcDelieTJB8F5DKgpp8jMVilLvDZmP_7j_hMGdyq6Q76RgWGKhi8Fb_NVnOS0Daqa2KLsov2w3PWfeMXx0-IoMhw9YFK5D9FQVFMxHlzxFYbzVzQMmd8IxsdTzirv15XVr9yOpOulwuSV1Hoa3TajL7q9OE-ODvR121R6VjztU4l6Vz0Fbvd_qH6J1r_7Ne_X0MYFB1uVXO21G34qJKbSxQa4jgF_23HBd"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://beonbrand.getbynder.com/m/664d69bc46ce2278/original/Appeal-form-WW.pdf",
+        "final_url": "https://beonbrand.getbynder.com/m/664d69bc46ce2278/original/Appeal-form-WW.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "APPEAL FORM Please return completed form to: Commercial and Individual Self-Funded Groups (ASO) Medicare Advantage appeal forms are available at www.regence.com/medicare/ grievances-appeals. Regence BlueShield Attn: ASO Member Appeals Attn: Regence Level 1 Member Appeals Regence BlueShield PO Box 1106 PO Box 1106 Lewiston, ID 83501-1106 Lewiston, ID 83501-1106 or via fax at 1 (888) 496-1542 or via fax at 1 (877) 663-7526 Email: MemberAppeals@regence.com Email: MemberAppeals@regence.com Contact the phone number on the back of your member identification card for assistance with filling out this form. Patient Name Date of Birth Phone Number Address City, State, ZIP Code E-Mail Address (optional) Identification Number (numerics only, without alpha prefix) Group Number Today\u2019s Date Doctor/Hospital Name Date(s) of Service or Incident Claim Numbers (if available) Note: If you are initiating an appeal on behalf of another person who is not a minor, Regence BlueShield (Regence) must also receive a completed HIPAA authorization form, signed by that person, which can be found on the regence.com website. Please explain the problem. Include background, time frames, and the names of anyone else you have spoken with to try and resolve the problem, any supporting documentation, and your expectations or suggestions for resolution. List any supporting documentation attached to this form: We need your permission to authorize Regence to request any medical records needed to answer your appeal. This includes information about alcohol or drug abuse, mental health, AIDS or HIV virus, if applicable. This authorization begins today and remains in effect so long as your appeal is being reviewed. You will receive an acknowledgment letter for this appeal with information about the appeals process. PRINTED NAME RELATIONSHIP TO PATIENT SIGNATURE OF PATIENT OR AUTHORIZED REPRESENTATIVE * (Patient\u2019s parent/guardian may sign if patient is a minor child) TODAY\u2019S DATE THIS SECTION TO BE COMPLETED BY OFFICE STAFF Did the member fax or mail in supporting documentation? Check box if Yes \uf0a3 Did the member provide this authorization verbally? Check box if Yes \uf0a3 \uf07d *F4581.XWA0EN03200101* *F4581.XWA0EN11230101*FORM 4581WA Page 1 of 1 (Eff. 11/2023) v2 Regence BlueShield serves select counties in the st ate of Washington and is an Independent Li censee of the Blue Cross and Blue Shield Asso ciation",
+        "text_truncated": false
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "text": "```json\n{\n  \"policy_found\": true,\n  \"policy_title\": \"Femoroacetabular Impingement Surgery\",\n  \"policy_number\": \"160\",\n  \"policy_url\": \"https://blue.regence.com/trgmedpol/surgery/sur160.pdf\",\n  \"effective_date\": \"2026-03-01\",\n  \"criteria_quotes\": [\n    \"I. Open or arthroscopic surgical treatment of femoroacetabular impingement (FAI) may be medically necessary in skeletally mature patients when all of the following criteria (A-E) are met:\",\n    \"A. Moderate-to-severe hip pain that is worsened by flexion activities (e.g., squatting or prolonged sitting) that significantly limits activities\",\n    \"B. Unresponsive to conservative therapy for at least 3 months or clinical documentation that conservative therapy is contraindicated (e.g., history of falls due to mechanical instability of hip joint)\",\n    \"C. Positive impingement sign on clinical examination (i.e., pain elicited with 90 degrees of flexion and internal rotation and adduction of the femur)\",\n    \"D. All of the following criteria must be met:\\n1. Imaging (conventional x-rays, MRI, MRI arthrogram) documents morphology indicative of cam-type or pincer-type FAI (See List of Information Needed for Review); and\\n2. No evidence of advanced osteoarthritis, defined as Tonnis grade II or III, or joint space of less than 2 mm, except when there is mechanical instability.\",\n    \"E. Requested procedures must be consistent with the anatomical abnormalities documented.\"\n  ],\n  \"appeal_deadline\": \"2027-02-19\",\n  \"submission_route\": {\n    \"email\": \"MemberAppeals@regence.com\",\n    \"fax\": \"1 (877) 663-7526\",\n    \"mail\": \"Regence BlueShield, Attn: Regence Level 1 Member Appeals, PO Box 1106, Lewiston, ID 83501-1106\",\n    \"online\": \"Through the member portal at www.regence.com\"\n  },\n  \"how_to_obtain_criteria\": \"The policy was successfully found and retrieved. If the member needs to confirm the criteria or request a physical copy, they can call the Customer Service number listed on the back of their member ID card.\",\n  \"confidence\": \"high\",\n  \"notes\": \"The medical policy (SUR160) notes that a revised version will become effective on October 1, 2026. However, because the denial notice is dated August 23, 2026, the governing policy is the one effective March 1, 2026. CPT code 29914 represents 'Arthroscopy, hip, surgical; with femoroplasty (i.e., treatment of cam lesion)' which falls under this policy's clinical criteria for FAI surgery.\"\n}\n```",
+     "thought_signature": "ErNfCrBfAWkUfROi2Cteskqm0y9M2s3STsAKLpUYVa7QS4pfmKSaXl2bX58uvPIqCfjBJX0dJ2O9WonEQVPnil8TpTKaRsLz6Rw86jxRywhU5ECZ_NTKGa4SDJj0etve51GLIAcZVpNdcmNtViOfIt4K0YCUqdSAcM5a2RA0ozG9kfK7e-EdXfFVluHMm-AETXiUnntsgNVJqI4hy1Iynok_Lb_uortsR1qb_i1qehFBTkuO7r72mU2HSW_wU6IOVSdF-wx9W2AyaT_l-9egPNEVGKazk38XJ0tbYeFWLK7mT87bjA5iqADuuIHca6DqqpRNCdsgpe67nzJFV4JA2wvBdgT2XYz_tJixnDoxG9LqbdLrgTJDjky0Zn5xqBp06eqXeBHvMi1GepsakG0I3Q6STkhIL0fof89deqx8wJUQkrAi5hx58iDwM9ezJ4oP-SYODxhP6kmeuOY3dnJZOiAgz6bplyhxBndFp5WgKZhNDL2yO_Y7SLevfivTq4wj7dkDES2aFN7su0sg4Vo5B6PCbUuwbcgfxLehHCI_7VY8z--wOXDBGVTDRgYp1Qv6lZQhzGIvQtRHHI4L9gogm-7B1mBYlNKqrkSmDjR_gosnbYqyLt778YmUg5aj8JiMQaoH7KPB2R48IocdgOMaDik5zo0O0XTLOOYPLn6qwp1Ga4O8dYfQWZEt7JzscSWrj-mU8y5bexZ5IB80CwsrocXtetMyDat920MCGWzv0u4gdkN8ZHJ7FE2R-udgHW2K-PtRh-tUzI2eo08C1OwkZyl9Ow0qFUnloQaEjmqdlcoiMd8PQtw45mcnmhXkcmONrbCKHUWQZcLXvM1Lf3ev7e0g55jUhAajgmbjGrytrgZR9T29ru9Ok8lbob7m6uBaS2DhsNgi0F2ueYd0MprCssrqrV9myNIUp0cUKSnia8R6oVghLDV7LrwPNOt0NuSxATUXPnqRSxAA-3dUK-OFcF8Og6KOQgW0BAAurttMXGD0GTC8eKxXMUFg3h3DJjLb4y_pdb7sjrm4nbfLaiiA-d0oevUcJuBVWvFZXLAAKRUM14S6QSXb5AJYGHKtc0Y6ynkxv0Fhv1Q8oKRkZ7bGGwyyqLbvUfywVcFQLMO1ZYtq7Yt7NORm28aj3oUu0QXxlz26lI-kFlAcE47ZHA7jnd_0hfc74WJwTLSNw25KJhSZYDOzi1tbonA7KNtPzz3x0_yEWFYZnJkBu7Up6S-1T_XPk0Kn6cRux0OvhgFrR1b3riNwk2DXQLG_9lhzMPjf8wdMXlFjqdiwnCXoZ0rXADj4pj6v7xeEDALafVfq-498ij1f93z0gUoQd90GndE7HX57h3ipuutspz_A9bk2rhaGoAuWGykr98_lLVwlYR-n4j4LsR30IWfYl-pDSF-2W8grNgvW6maj1FiVT-BnSTHYnqksg2sTHc9I_UNjBn4YTWkEv5KpOlIYmhKBtj-0JoUrTj6Qj82_39DS8IB2FPG8ViCzlsWhl67g-QQ7igUALrxE2BynrYdmAwVO6CQP_NcWSO0egAhp96SiuZcT3bCujwR_UUPI6ZrLZonIa64edZ_wC86ZZ5tz1Sxqg8HENzbp9NNfPTzEOBrKDvkC-fme85xWn5dphbmobTsfo37CcDPEMayZmdiWnV6fKmwQXxbXtE5Ik0-fXplAlOpcTFZsCiCBcwZ6_fYIAPXaIZQLSWnkoi5agEwMplNIBpz-fPV9ea1uXG9YWvKRJWzKfeUH6d7DEATGXDwjJfSmG3nNeTUkqF-Cm3Mr9A-mIRCyql3m-h4L4TdVvygZQPakUU_ZfOvqTJG64QBq9TfEyczQMWpCmzfIbOXSYja1GxU4gFQaIMWdq7_u-zcu7BQO1p9kPEPs8HSDo0cvydTw9oygMP-G73XpRBv-ES3pxCX40pnA2K43CfWIU-P7sSuOh3TsFZLfP7qyNeU3AmtZmqKf0eXk3gfYBYl5V2DiQ7pj7sGIf3_obaw2QDP3PytGfeKUjQNEmo7laFDNYL15sOZlfKtkvnahLpClTuxMlzAHtcnZJ62nXzJzBfVyVhlP3mOcVNSdHLQAZAC7x017Bs8LSPlClCrWUdwUrvOeB7CT7Tku0PzaQv4mNw3kPm134eduXIcouYI132QUfLGOyxPRCAYonP34fy4FISTpVyXkQeTd4rJ-EM3PJRVqrho4Rwzqx-vOvkXiduAnNCgvBNx_zYFBeInrGJaK_m5iMclDBn3UeO7isVUDAo59pCvCt8NoSUImOe7wUom2bIRGqSl4p_uNR3BJjrfrLqPBe1s48_Dx3bNP6sY3ixoiGBvaMTvgmhwFZJ7aYAnPa1gFqrpDVciprzAAD3MrAC8r-l4TcEMsecRCO8m4UCxHvuB80JWWeGVbSOb0_OuC1nnsrCBnS8pleFsCDcoUMsXpdRqeAp_IYVF0kmt_pIAyDb9M37RSY-mhjuuKZQvNi3Bh8KEk7MIIOmAE4C8DN-dzvdtuYFgueEAEJXSJ66wgHbyXP8bp81FB1v5Y41qxvjIRzhv9jLmqR7Noz_P7y2QqG4XkbxscuMakxMZjJlrRmPfmJYgU2ehjtnnXJZuBpDZBIsaXTtz_lBgRXQPu0ABIhdzw3SuF4lPmO4LUIBqUkD8IBfwBdEAETD_p-9dxfXYMTaEvtUqo6fUOM7SUwDR7fyEDaQx0yJb8km_HLP0bNm_AydgfTuT5NNxMPfp0h4L1oPa0k-4g8hlGaNWXT-YbF1k1loN5kQQ5Z7TccmhkBR8UVAubUoisnQU-JPEhmbyLDoxrp-gm9LyfLzxbbHYVSg_8ihIx9_HKVzrBkqH4EGvC5tUAWFq_kuTksElNoXnfgilYDcHwrE8oZ8DcD69aithNOCdEReHDd6Tmee3PsYoR_CF3ej6RUy7qrvVl-fmnxNwxSnqHW3oRV0ZN_xF6BdkykIIXdUmMyTirfqWjw6j95lY1FoWO9ia0eunB-jPxvTMGooZnd_tZh0y43pMx_hVClgDdizJ7WFhy4y3LhgxcHuPzeXOjbchn2cIaLoi-vM0AXXuGxJhkkfxk5XZCCp7tpvz-TsF8HNH3zlpSKiiGyiD1gTTkexxmNjk4jyyJ2MOzB2ODuuLnrwZ8YD5nA-RVGiAbZDWpxoPeNL4cnhr4IFKaAaTduxzPMySCjuPGzw4biEkTNvME3D3wWwFB3Ur2nrWVEN5Xav-rC3SeQGzmlaHtVY06BylnPruMj4otFJZKVFFHOi8kkG7JFYkXhJ0-Mo0nEhfUNIbLjmJi-E4vC4Q1zWVcIhnUBgjR-CczMwiAAOkL1DDiuhFNrbZe0W8WUOZ81Unq1xAHbUAEAcQd0n68YE3iauB5LtbjF_dx8JEbXFpfv5KzPAF2r_UIk-4s2BEWGhqEUUUFqMyNW0mWC4e7Urne7mXTRVQ4oyYdHQx2SgZxXwgN-7Ke8RQgJEkQg6DyNSBVG9cgHTDovOZNGkOqPVxwH-Kq50hikatdsmlV3ITQzUVMqYICjPGPvLxCttydI3uN4dykUcfbLeGLoIL_ZY410ImtiuU-6tpfcU_hS7KKPEN-a59uwyOg31qEOw9qmp9HPNHm7BzxZIeoQG52zIme3_DKTQBX6a0IRYEmTH0tJjCRUH2gmkWnRxGFY_2VGQ7cLEN93Ln_PJnBE-ipCnYahGks6z97h2F7zDu63jsCiqZdqzkHCArri8jFTJ8nxrbqdh_9l9a6c0kGjhXH4tf9h40wPPDDJZmPRBMlyE90hAO0GLMrrRWLypfUS1KJRm6lcJ463YYvh-Hu8A8oH5luYYVfpAvLaDP4C-mxxT4q97xgreErqneiW7G2WBZYwTogs2X0M6HZ6QI_HbD_cD9kYdtIxaZ0eN6U7rxPLl6MrV3A9XB_4mkuylVHcL-YWQrkAzWpDuXrMP7DwGOOLvKMEv9pp6Hk2qiC3uulbfvPXPT1G3j7EiaHnKKXXwBte_qwn0C2C7qXDSBl--cZHIVzzl-Hzyrav0toGfA9TX740PxZ9qI-nop0lLnTL_zYXy8Y2Xw3QXwdJgsd5lJfoG_pwsjlMOkHCNNqXVyw8wv7qnJ9ydNNapf3Mkn89yCP4Nq-LfLYZXN0oTP0rf-JJHec1u6O4XMUcDhU0GK-1ieMe-mkU-ZTyq79UjYspdVA3xfTpJp3jA77gWauxV5bA90XPfiBoBpAX3E2wJWyqR4FOo8AvxdWcGOOKr0NS-9mv8KNymSNhgAqsNJXhEH8NUiGBChuD2BSNHHvTPPt9jGEUiyInQPqdaLKkU-9RRtdTAJwt423R1YfwzxuPUa2ieQTZtn3ZBBeayKSSFcpWJUaFIk13zpCQ5oUA80vy7CJ1d9-ubarU2sUv_eIK_DlzNo86Hgx-poZDfTkMeKGmeich_T3NEa4qLQmE5uJXAEyEZ3WcX_wGiDAqz7tTq4bsX5wgDjjgcz8IwTAabzDpqRq5WfOlFcHJmdYSVYSIcPbfYyqB7CMaN0hf5ipkTyU_z-rFmbRpK0S0keGOGLHyYQ1sg8TAvGcVbXVaAf5k-DQDNwm0vy1yrmkx3wYuwt3owgxsFPmNkGwdfg_FRKi9UomTPoZZSuI0za74zDMM3rRqucqH-nEp7f1rytXkvsWs-7-DB4BY-hzx4B-FsQ-x4lA44aVZ_lgnRS3Q9yP84Tc4Q1_bEWNcj7uT2EdN-B4bejOJrBkvTSgMW-COQ9NK0NX2FQrmJ6QF1soCLbntFqlPqVWMU1SMwSFf4SHNuewf7UIyFN8r7PLSaSaUVhj0OmqLogizNCgC-EOq0HVthNoqkE0xleyfX2fz-nTR7gV6_BsxXTQ2j5k5J28-9ytAY6vgrPASWIvJUoV4VTpfyXiyC9RtCwt43w6vdW-L16UAmQXdUWYDaK8anb_CAM3Irk3Xi5dVhVyY-UktaimPyf12wWSnJph7FMl_k6QrVnIDlJMiEPaN64iDY0fGO-AtabSLbuT9sPrK7ZFg7pqNqPMFKhODejomNSKnrV5AP7MIruJ3XCenMTAdyexNjQwft3dm4dlihHIe5_XMFfaZHoA83926hrwcU5FVF5HqcEALhwo8EhuOslLUyxyTgAyLseWv_2k1irQlCCM7R47-mTHCq7LCI9ncdbnOLfNXPGXKZKx51Q4akavhnT7pts7nagn7xFQ5GZ9vgC_q0B7kowvU85jVkQbhmQwNwui_n-RYGbyUKepJ7tVlrT5sdzjIpGICZxj0-pbkHgYYZW3HQHVc1fMAHDeNSta9V8eZkzqfg43-a1m5mjm8Y1UP2L0r8Zf5lYzEBc2WclYZykTpDUCUOtCGAJNz8TgiENvtK-Xzcis1jubxxXvDwd7d7_p_pB_gAL1vvhtyjZduMgLPGZ5SYeEBq0IA3e0ap8P-lObhEalf_RB9Q_sufKA4ZquLCn4JdhnQZQoHYMdzo0CTNPMdl5ORqsHovzUhW-eDLz9s3OZDymsG8lqbpZRVnPEsHuxOX-36FfOBrKcQcygvIf8maytuHN_BqROIRR4Ol7HA7NZPH3kLsgHn0ufV7rNUwus41wFtXm2AswzI93ozANDXXGMGmok3RPnLX93ikuSBXjbnAr4bLoQHUT9iAae1VHyC9hkqHFh-s-ooy4r17d4CnI5IFWpjYhl6FG2ZEyGQPbbM5F-qRSUvFO6FR7zQH2MUMFfpjn8U9CX5Lg7xcHcaklHFGNbAzid9jnpRT_XC3jsezLPvZf96XQBcCTbT-cXPzMraC5kvcuyRKwwR4hgzzui8cIgVMdJ8QBEzTrtIhVfOof16T_uBjImdxsoYoATLBPjcA8AZFlx6O-x-2pnPISfJrOlv7giSSVKJ0VMvwTqQ5X8Wv-cMd6CHTaovdG-WyA0Cfkhl7iBRna2P_6L2ZBZ1tlPbpNCHWL7lmrVpDRheFRhlfqgw68cxsssObj7kTjNVkKgtAK2rtmTbS0uyzR9tlVTpFxSG21R3x9jBebGro-1HuDNN6y9cwkdPHjPRkplEZvuIzz9y3Lx5i0EOFSwEDqGPzKEMANWb5odWpklBQHHSKeO46DbYaNujjy85oOttrZ8IYNRxJ8H-U30MkJZwEfuyEZV-XYFFaVc-LFw_tepqqxRfIkla1GAUSQw-8fqOm2w29wGv3neEVuBlyRlUjKrGme6YCn5-VG8r6NqXMNUapdhdU5BL0yXENnsrimJYkcDTmU7vISOxnjaGamcpAJWrc9apHA7THC7mvUM1Ijb9zZNRZCiFWmqbI4k_ahGFwKwxjmsw2LI0gyCgEuu9ExP852CxGFzLCmUiqheX0iG0bop-p93C8Nthaqnhb2bSCxlRI7IBc0_DGmlXoVjmvTdIiq2Aeg3j4KrM1kK6n_R3SlkBCqluyg5406-auZ3lYOy6d-U0FG6wiv5HI4AALQIuFk1WjqBBAIy_wxAfGQJMDEV_vN9ljsd0eFreDH-wB_GGHCFWm8O9EHq6rW0J40K3Rz_Wu4FAPkI--JP93c2TVk8e75H3s4_TEDVKHKxuxEWwdujl16j41g7jnOtDJBjwr93hGY6m1j5YGDbiHnM33DsbzJ3leVKzTXvX3rQVufozPp9iXKCL9FGpBtWjmooctFwd0uLDz9ddArhQcCe2VijIUFfPtS2DwiPqU0M_fHj-vXkXcaksKblacDCXRHndrCefhqIWc88si-UkPFm145FlF1YN0hNyCbLq0dfvbhXTDa5LwDhQGf1i9pmfsUPRiPBvqD0vyF0d2SNrOkVDuw9ptFdJl0F_Sav8nTjeOWeYLulf0OK5cxAJPPDvG_vu1sxy2mddDrTbS0x7gEZzbvtCVepoTd5uUErcdw9M1xgO1V-4me5_4M4sxfC5n7Qq1uDPKqoprmTgastj54xyrNU5SERa9C8kMgkzJt_JQNhw6PaPuEg0JbCOCBZZ4m57G8OE7tNWkOLTLUoTB6FMqqfouJn82cbZj7yQY4a5LrXrGnnmoSgxc4JAfwfkhvn51bnFw29-Ol5uesztdvXLCZrLCnZGPI20NCPJpyaSrg4_VlfzbnDVnAGxxhqoEGZ2hrZ5X23GmRBEzuh3D7jWqU7EcfTMC6ibn8OHsMHiTXx_A3Vo_KoBlbhmRzjzGo44hsc8W7nVA8lkws0CuH5sXOXUAjm--qB2-LiW-AtIEYV--tGPNCmCMffjfSbKyCwA6NmvxhDlcCj5xQ0EWjkd1w7vXEK43g-jK2fc3Qm1mzAbCUZTOrkwM-6Z3iA8prq91ki6MpvCob6CV-SIjqCqdOA5AZULmUFOxHXZ99GPO6zYRKCWNnDQumexAERFUgzDZ6HLx-Cm8tBux0HMR7JyOs3S6S52-h67aEn9XW4Gme03NOxV2Ph_0RGAAszdpJJvix9pkU9TlgtP2KHY7dXQDrHDMiogvlihf9oJo7LUUsV70tSyVaKdiinID6XEWDQPIX8k659FtvFMAqnu1Lmn5odnGwOFjY1SIjs5tTrQopDyN4gf2FHqFtpslsYcybNjEDFE2F3iTQgTDU9Q9w07vS1b0fj3u3uzkiPu6G0geeBpJ6smrCkIZmfEu9qQlR0kfEgqFiS21htE7HpzypkN9Q6KSLjvgLgHeRic9_QJiBQtifPVgfzcR7jfwd2M2PKFqSJH2y1XBv3V9_DcmqU7iFUGXcA-rgABioY3bOeSUGhcHWj1OBlJA821m8diDuViA9csDMbKW3zjx5CCFknCH0GKqxALyjequCaYiFQx1QvfJ4r5jrQdDKv5keD3AKprlNK_eEw95x5z61yDtsOWP4Y2uP3o-TqYF2-LfXvzXUelwPwRvnSVtkQ1maefVqNgM052BTl-YbfsVgHry0oLVHEUgHaix_HTVyzd-ZkWpUduLAwe0E_QJ_53uFMnNb1N47k2iY5AELaD_fTPcbwLHraeEqFgqneTVdoKbNBup1gaLkH6ep5Naltn3VFofJ41aMN5Dsi_1tlMggAcWiessuczolTCxUWpdgasZaQL_b6POMTBSJNuhkff-65DZFMHmn_jt3EGvbk5sr3MID2D6feWeZPHb9879KP5DRsLd3eUN74Oas3eHClZZ-FHWpHkfarJyQLC3b99bFsTEG1tE8KFva9UL2aiOIT56QvlRxrbgv64-eGKazgQbzcpcEW_3_xlctTcY4BeXJqvsPuVYyxHFaxRkQhlSQItGTltVEmQ8Enxnp4DQ2IFp7WHSR1sS7z769o8bAjAAS3daBvGdWpkxifOnVQ1dyXjFUSolFdxD_HiOhW__Oe-YhZjordbaVzVKVcS7ErH2l_6moSsWNd-qHhxnhkycssIhMgZCpQdL014HH_70xDcOjcsYbB1GyPUO6qug0pFll0HtTB1imuCFKIThDiBtmNEeuFp7KszHgp9L4RCrnXQRmIe9q9Q-JwvJ82Q5Y2z0L6-p6pvKh0Ff7sNRsv3q-oZWoLAslB_aTv0ruUyZYAOPXilLQF7tUIJAVW0o0RAbcxHZSg6oRv_BPalfYxNsi4TwY8vxrbvWzTG1g8nB8Bj-9PdJVDCM2D85wkSiLZj7RGqikEXJzsJCz__YvejEAUjxq35HA-WXiZLzm4L_1AZe149UZ2bxv738gBtkBWA-9ComwePXsrAFJiFwMyLhswDThM_uXTmMZnhCxHCGLaKM7D3oddPqYKUvRbCSB1rTvG6eGMCAVuFRIIlwdViQ2PkiTQwombLkNkwvEXOOL9q0J7FZ5UMoA92mnV9yBxtWjZNrsbKhexut9tYYta8wsYUhjzPgETdcu7_ce-U1DezJy7OzTiN0rgpyXWVTzu2aQkW5CtTU7U-2XOCuPSNMeqBROr8vs_Grsy_3vCmeZT0QhfqmomomdYCBeJXsHAgnT887zXBJNG3rZcB_HMchKTsoNmA4j1Xay3XptM1Nca716b9bgOyixr6FT10IWTlZtiU0l1a2WnU_ZauU7D1X57RG_s9zTRnHyYdBTWvxjgYbmdP2K-0kTtK-M0JuoO9dSJKzwTOaU1ZfAwD48p2kIHxJ6DahUejUYLp45w1DMVPv9GbrkmT7ILk3fd-vIn_R9TDqZWqjZ7aL-BCiJr3CklPPItXHJZtGyt-yfJeIbayojUhxVFXhLuc5PWQz8rvnW5BkNvrJjzxvJIpyt9s88C6b7BFzWFAP7WlW83pSTGQcMp4Ah071mI52g0uj7-KTxe0UbjvTKZCavBt2Bbg1qkpXxYvvkU0mo_V9hlctrPEY4WPp-aTp1csHxyrBJ09biuG3HcJI5L7mN1vQqQSFbhDZTMvUS5au9nBoLVfLDuCere7wxA3sCutJBFdOuxvgt-b8Pb-pQPWmjjqtMs5SQ_WWThOi0RTaNBSFfuT_Nu6YhLvVSzR0_o02RKZuGI4YfDeeKQL-xQpzkjUN5aJmZGQG_2QMWYK-8359Y15-Xq37dO7SH5AlP449YVlka-O56F_Pjyu2Qi6ovSKivyDBkA5zKjuADoFPIFm7xvDh7MFnNBOhNPbcVCo7BlqVwzX7zkz2erDR6owQ_j4trC9Dzr8gSGvp2gQ7PzZYrKdECgQQEDQVYcjPzK-Y9jQPZnIb1MgEAM-FXpTLez3cvT7ajrkp_c6EwURL6KK64vnNSZgutLxt710Fp0Py6WFbmlJ84NXlcnQiRyLb3AaPWA4UPYn1Nzs4HBrekMynXK_YemLSS69sr1buQkJ8Lf6VLOSbzYjCMvguaeDgzlMJmDc8b4ZnFwN9gCxDPHzrdr4lZWAqh5e6PywD-ggz7XuVAfzrMB00HzfB2GJfZoDqx_reYwcklIhMI9JDGQuVjDi8JdmfHHFFiP8c17DK2Z3_Qklu6kxtZAGyKWdFN3LYYMbjtfIqFpcDyHGCpM9w_bAkWDuWuNssLjffgnxSOLre5QJOiv630XU-N8biJ8BEy4SSuXLaSgDKqe05wb--sX9Xc7Q3VdA1EZH-P4Zvq8UvgXiHxbhRNHYXpJjmOzFmVnXhisj3hEeiOzOT2Edyx3_LJ0yucQiPYKM5rpkdUl8ks2VqgRgupzVMdOgkQcam82qixHMrT-OsJqeeWTavDb-2rjcciC1JSl3UU_cSFlbzK0Z_cLi9beWVTPIo0wmW3M4L0m25Bzv9-LVArvcj440xCjSRQyUm3ST9C4oSu43khhuPWaqsCTVWc94ht8v9Mh0z5GLLT7Rbl3jWZxDj7-02RkOA8zKRIYjvE8DEeu_KAEvIpSEeUsMvn-p7xvXW63E5hICqW3KAnpYRYdB1zGut_xKh63rlO4R59lG5pCM7-gp5aYI4axAUGd4vtA8RQ5NRTUJXrnH5kvF2iGmyEwvSDIoJKRlhemjWhQoBTvegrgLX0yIebhMfPVf_2WNLrm8BFdXTOa69v34M9in1fP-hyCrfnOQQzPWW5aMjrglm4PdVbuFvOQUAUNJuUlOJVJb2pfk3eymIoa--9gSc5LXMWodRArPMkHCJbEyyq68zhKASluN39diCnFKU1GPx6XpnWTnxrl1wTg3SToKAMhxUmUOuzP-GUu3Dc92wX7Jv1CPZh3h2-toDyIBVl2TucQyvxPL85onowWFjHwWZpg-iw_5PBGzQ-v8cjnn0yozhTvpz2Php932zaxfEoTEQ0Pnm3Iqs4_ovVV3AdAUE0ctB40-g3KW-U0qFvZ39UYequdHj_SqIRncVyqSjxONyIB7RzES6_H-2Mr9jlMtxbyNa9odL2zJzp-eejFf8zcL0purg-RU-jdQ44wdNua0ffFs8Nx2NfJiTUgC23Z3aA-bLjxWZFpfbzwlvU4GFoU9ECP5SS0d0kMwLd66h-aATgq524twokg28JseW76WH_ozWitrbBM2zB4ZINywL5ju3jxuWRe0UEM7eIqpzySgDAXzQtc7lKie50USzOADGWjgjct7DFsowncrAzYxppnWxIkaHe-d0XambS2lP8Zrw2mzr1R4mMnH9cHx14acmJAdmjebNQqVh5Q7Q5ucsOA7NfSAeZBNCGnHymqeSW-WJLaKggstZiyb1TxW_G4HFLj6kYVsfMrke-zcPRZ7XhsFaXivFWWnk2AMwR67nyIRKplfBK3HqxTeJBfLwTkWoOTPmhLX6syXmFQMLvho3aM7ybJFv1YEUy83pr8mE359XVBMZ0n9l8g5hS3CrRNiF6SYia0-y21P5MJWSUlG5cQwpFxSGgpg-3CI4s3bozuFPhX8Q12FZOAJ2pUUpg-G8WHrCklyvnCZA4IkrFnarGOfRpE05OR1UU7rDA1Pvwrmk-sAQHBXURVvdFCLTmiDD1IzgH7Zk7tfTm3EjWVEM7rTCCjA_yLga_pcpPSSDSVUJ2APbIMU7kwIo5j41VeBfrsy_18hHX445iKfNjTWV0W0uI_8RzNdTMCqx4ZG3c7Vt9_-qx6WnrPirGV1daUm5CPUJxE97--vmiYllv5e5B4wnN-B9x2Tv5iQyylgUnsCSudU9bdf0UaVGtZWQP4sH_KUwdodkYBWFpNH0HgF6bmcHyneUZd5KIz_IQNNGZRHo3IEdLFh9pnWVyjzSj4gdWKdeyoxN_K2fJywNHa6_4b1IRjF-98N16WFVAogt2tXkZg7ZmH-eghkkHhVY3DN9_-NSbm5jpCTV-uHD919w5YAmzJV3t3BsnviaKolMjVvN5h1MI5HpAyigV-XJjz0qX2rXEmdLulHLRzbBkBRfTo_meADgCk8Y9JajrmvCivCgnZlQfotAfFQrVFq_ZIwQNHf4DP3AgRREVQbIr0-fDhDC-GvKnSg0Vn4ccUFi7oJxryNJ2980vdcYP46cvGPQSwK0LmGuREZhRXEIC9zi642gHK09Qp_CyVnuF5w4xkA1WIVDEWykojrBqgRAc48A-E5kJ9xGDhkp27FO685Q6SaTEwSdG9YXmjkfaHLgoJoEozbaobZcYWPPPJ8ETCDvI-yT4G4nBcHOh3q7mzEauKgnr2SCsp7Aiq7NpVhZVYKlaoP43h7DgwNZXJpHAtymZHTiywgrz3RzDfuNlKH_8K8yMeY0qL2FiQu1WFvY5brKckNwZtTrEqDMqn8zZYPq90w76fNQths7EVThKzvyWBl02p64dMQTDNSpU515w_P91i7_A-3Y4IT4JNWMtBNBsg8VAQDcDErTfbHDwZX9XH_3YWhkUzM8-BC3FXQZ8AHNlLnqQ3ID4q4i-fJpjA2PZSJRMD0DcvCvDF5q6MXpCmObyVB0h-5m0Ty86vxX1nK8Ko1wPtV26ie2ZvMB496tO_oOMcxes5NQx10zjn7abEQiXN4GeCwrhOZNWau7iXInp935sJy_OBuA-h8z3lodxVfjJppLbsRFOmp6ykFUikA7Q3OEsap5yyfi7OOkWPHeHtMuf0N3-jYw_sSN3-selVYnzeYqsh5_E1f2eMCAa22Rvs8yd75P5aIOqA89zUh1eAZ2lHUEbgEp-SGGqfaRXAR9rl1D0WjOaEeRsdow3598IheLYshKNIb97Rv1VYmMWTpoKkMVxH5X6Ni_f4EOIqE9WlR0ekzeZeC8HTDRHZxlxsk3kUNUeCw9guBUfSDsg5zn586x3Zs1g_Ih_nsUF8snydw2ErV6weHjd7gyzpHlmNOSN6GJZSkOJp0QjJVkDgjl2oq1xEQyk8RdEpRDciyRBekJdn9FNJ5-5ndXBfbgU-9odFh9jo3v-3EXgwpQYBXzEPbir_z2mjq8Ii-9QR6uKRkv0f4bhj1vx5hEmQuSfHypOnJYfMqdMl0upoE0RzsvBhccwzdMnkdmjvDvYFwbLTkwgXUZxdUAb4jG4m02j23j9D2kekbBWoEkVArvMdLzqXXThW9isj-PV1x-lhgArLx3Kot6mjrjL9TAz4JvmOmgbg2-ek4wx1HGIUnzXLlb7pO8H0kcN3Cv5w-jlnlCQDyoi1nj9frCe-tj1flMXMSilkZft0ybnhWaLbYBm54AoCJvdpz6LMF2m1R68M6wt-lURk4FPaLa-KH2ozdzjxpRnzz9CbSWdaeZCn9-Nv7eKcDS_NfQl40NECUPnq16aoZ0KPLEnY1fWblF-85VDeZK925QcegEUWnC7Zf36tWnkvbxnlJ95QTDAsdydGbvCTa1x8cBnUwKRQyLbeAk2gj612MAzeT2z-N7cVWZLyWJ5DnAeL1e6eEtX1GYCQDRDgaO60OX4JfYHYMFqrRlx3QHf87rBO3lLT8Y2v_5lO3Z4VU8KmrhMdrETCmmamyku1pjdz9aTRVt-uLfJnb04dmwtDw0KHoo0tdPM0DE3T1JhCkfd7p10UV5fDDwhqFmjgYUCxP_b6qUQJsbhs_fjxAzTEUquJf3bAzAgkbrgsjBfs-NMzsNy7roIbxbByUbW0hM0be6mzQutWEvU6MZWz31PjwgAS3YNqiYg55-wxld30CKV7Frdx7mW1rYCuYXoBx9ypD-QQvkxOArMBkOzfyn0tdMjGJhkXHWOjyq_fk5dFAD_-NSarudItXhVNXVLbD6xvZ3nNSzpC_e0UQN0YcDlJXBUYucHRJOM0Tw5JNhCxREhbq88L3cLediX-7Lm-MoIOu_GisIWJZSJDij8JKv0v4aQr--anX9gxWG4a2cVcLRDIgj-N3uIM5s93eUPjq2LmU9z-6xULbtEx628oSOo3w1KYHCjLHTYvdD2uSLzqFAu-SF1_aqJTWp05gbVNHVWEquVu3CpVWU3j-1NNeVi_TbngHNtINBTMhKRyZ9FLFot_7QR_ASofPg8XoDOSqIc8W3KMhyGV4RpYIqUbpq-oj7ugpbKg_lVA-8xDCIB1GDJyu3hKgySAWmRO5vWOHELQco3o5R1n9m2nJyuDSUlTYh4jh0xT5g4VOYU2sAW_vKz2Nt_3UDVgEKJXXELvB_ugLNUDmCpGNK6aSAkC88aTymQq4h-tY2wDfgxPT7V4wKA8kYs7CX-57bs4E-JGGkbiMuXsXDdXK9gdL5a5n_hu_Nk1WBk2b_QXPqtie8DWwZ3Wd4cLbmWMADu97V-5tD-_bqNjSZbFmaK_nhhjp2fq9mAR-qvUKs-_92JESp_7NfCVhlx4KCdf2JxqHEUCtdQyDlEKCEXs5S9v44aHoLqj5I26BxlB27SOVRS3O9B1zrANGN9z7uY_nEUlIlz3sjRHA_QLScpJDDIwkQDEdbNv18KP0_VTImX7DEf9WzhoDCfgRa3bMeZ9R8GBG9EhtXruRdrYSw8n1JzlpgT_CI1gRtv6cv-n2vOha7wIG4eOFUPI0lMEM9ZGSTwGKNKUHMc0TD5rzfmQpVhphHspTT866hmjNYD9MHH8ebxvNXBt1cxcP7IGLaC3XrCOLcZOA_6siWDBO3OltlkO5NCZ_Jct5YzC0q01JpICpK0v1sSm3S_wDkow0cS1iaexnEytzqrF56hPlP70Bfca-cnFYwaW7dMN8T18o5cQYX10xxWKJYggXpCpuOe7oUbGt2D8rxvtYvBd_h0bmpiUSxq0at8N3cVjDOLBXlNNFcNhFH8_HsmMWBJIaD44rxa7OLyuxXDIvdp2sXavaSKASYbP_mTojjDkzLf3L5DoKGR5YD-Kbgi_ijqZ8Di5DTZgk_kvAtpMl5KAEJBMPdERh-oVoB1vKFESYkedYpvISe591nIsSSQ5-T05kaoGW3W4HW80mF2khA561ru2UX65pjiupM84TPBxEzFes96KLmJUk8vCCyUL6CO3yKs-GUk1ONUFnx0DhEW9PWBgxV9wtgeYJsBS8SoOcbaPgsbzQ94Vh8uUFCzTNuOg0anBfL1iQJlciPdRXMyFilBCZ1DFtT8o05r1gQK6dRON5fUP8g_luLiQrpyh8MrUbxK8ywP6ru4ZHUMjZxts76UJVhwcWEMCOBAA6XFUAYk0NyV4RzqaX_ML0z8Rzrrl0CLmgQTGyYQZApyVXCILKwImg3iPsaw9EhfHuRwa2oBUuDzms2r6eq8VjCdYIXITxrC9esG62i-1r0rYyH8CWJEqEaUkMc4Wngk8Ta-5YdB-t9zcK5xeZrqNyXI34UcPTlsBLbZgKP3PgmxcSbazMoCd-p_g41LDSScnc-ypPnH3_RrEbzkYnR_S__Fxn8oihenMhGO0E4ixvH8VYgJtolg2I0eCWeW3HjA02mNJZ9go3rBVyhqhc_1z20kRRNNQm4OqZCwmOE4GVUcQhk-JsmlB_WyNZngBsi_NYp-x00p-xnx5l9xD-GfgfxiDJ5h5q7tH2PzTuFuBKeLyDAgsEjMCizaXLbHWkUWr3W3X476emDWuIdARXGUOFmXo-hQLduVMwc1ALmpbt8TyAQd_USJVpyUQMiy0jTE8Pn66bL-jpYdNrlSFR733sm9O_V6hfF5o1IhJuGj72LLRwAenwCx-oJMqSZoOcJDZG1yXKyr7c1J8IQzA6Bs_9Y6qPcm9-7xzWwt4mXnS7BppeyTjc9JgouvMdShLHXHqzqoYxby1P5YRYzNqCEf1hJixk_WYnjVS4uAGsq7p9FgoIeW6hkaMxTI_34pX8ZW3UtQa9Chj1bbR190-AlYehqivEal2pz7siKb19dOUUmEhbqVwbMgogCSZ0_s79fGw2j3ShqUtdoRGmDBzZwhi7rscPpk9eEkYtyKy9Jiwj_RmXrFE2Xatoy_dCBjXMbeB0n73iFi1ucFGRjqwnsq00NcEFi9BHHnyl01dF0U5KHPiykIm6DP3Ct6bIUshvKlAaKDVdJekc00nryNlwI5n1Ak3ff_sjbWAT0KZeMfhOM57C2wjHSj0tuUOf36RwQUc_hLv0PydnnVcUFJaHKtE2CgYEE6vtsCAOdncB6t7MmY69G_XzeOMTeOIjy4Vjn0rImXi-c5pxB4I0PrcwsnhYjNngiOpSVTNRLltgcn4RxfyEyhFM5JdHatrgKHJHOfIoUY9ocIZnNlTukOWq4sGWP9gPltkpsSfhOA_sQSCvJyrOWTOTdgxpF2ACA6OymeMTB5-O7ZF-E-9zgga_N39KR-W76636x7riV2iq7snwRNMh_oIAGbslrvBDNwhtE5I_vI_JFKd1ZUlcRiJAV_oVBF6EzgaX_CF0R754xf4t48nUMC1AqgIvOqjozLD-D9kr_O-Q2ybB9_eTqOafuQhhckdJqivg_e7XjWU5Oyd2c4CAACLdsPA1sj4UxxjuKulQwjfPeyZKisp3ipRUmaI5ghw3xdAZzv3AmfFVaTujO9c2wa3ebJXtonRTTC12Z9p3dMCV0lQK2Ln2fZlGRM3T73EXRfFlphyVGTIQWyJii2PtsmhFjTVyLQFwTJwu2MG63v7O-svwA1p0v0HpYzvK_3-hQCHc9QgxxfBY06CHT8PWx5gbTpVeH-4kE8S4ScEAA=="
+    }
+   ],
+   "role": "model"
+  }
+ ],
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 74504,
+  "output_tokens": 1426,
+  "cache_read_input_tokens": 120913
+ },
+ "model": "gemini-3.5-flash",
+ "tool_calls": 21,
+ "elapsed_s": 128.4,
+ "run_id": "r-57ff549cca5f",
+ "case_id": "poc-41fe448bea"
+}

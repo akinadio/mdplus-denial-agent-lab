@@ -1,0 +1,25 @@
+{
+ "answer": {
+  "policy_found": true,
+  "policy_title": "Surgery of the Shoulder (2026T0556FF)",
+  "policy_number": "",
+  "policy_url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/surgery-shoulder.pdf",
+  "effective_date": "January 1, 2026",
+  "criteria_quotes": [],
+  "appeal_deadline": "2027-01-31",
+  "submission_route": "Sign in at member.uhc.com and file the appeal there, or call the number on your card. There is no single public appeals fax or PO box \u2014 use the address on your denial letter. Online: member.uhc.com By phone: The number on your ID card Deadline: Usually 180 days from the denial -- but your denial letter is authoritative. Use the appeal address printed on your denial letter.",
+  "how_to_obtain_criteria": "Your plan uses InterQual, which is licensed software rather than a public document. You have a right to it anyway: federal ERISA and ACA appeal rules require the plan to give you, free of charge, the specific rule or criterion relied on for the denial. Ask in writing for 'the InterQual subset, edition, and full criteria text applied to my determination'.",
+  "confidence": "high",
+  "notes": "payer policy public, criteria vendor-held; status=DOCUMENT PUBLIC, CRITERIA VENDOR-HELD"
+ },
+ "source": "policy_directory_vendor_held",
+ "route": {
+  "kind": "request_written",
+  "vendor": "InterQual (Change Healthcare)",
+  "how": "Your plan uses InterQual, which is licensed software rather than a public document. You have a right to it anyway: federal ERISA and ACA appeal rules require the plan to give you, free of charge, the specific rule or criterion relied on for the denial. Ask in writing for 'the InterQual subset, edition, and full criteria text applied to my determination'.",
+  "source": "appeal rights, 29 CFR 2560.503-1"
+ },
+ "model": "claude-opus-5",
+ "run_id": "r-2d280ac0017f",
+ "case_id": "poc-9ab63cfcdf"
+}

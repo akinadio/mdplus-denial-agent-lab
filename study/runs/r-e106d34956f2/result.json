@@ -1,0 +1,27 @@
+{
+ "answer": {
+  "policy_found": false,
+  "policy_title": "",
+  "policy_number": "",
+  "policy_url": "",
+  "effective_date": "",
+  "criteria_quotes": [],
+  "appeal_deadline": "2027-02-13",
+  "submission_route": "Ambetter/Centene is run per state. Go to ambetterhealth.com, choose your state, and use that state's appeal form, or call the number on your card. Mail to the address on your denial letter. Online: ambetterhealth.com (pick your state, then the appeal/grievance form) By phone: The number on your ID card Deadline: Usually 180 days from the denial -- but your denial letter is authoritative. Use the appeal address printed on your denial letter.",
+  "how_to_obtain_criteria": "Your plan delegates musculoskeletal surgery to TurningPoint, whose criteria are NOT published. Their own page says to submit the contact form naming your health plan to receive the correct policy. Do that, and put the same request in writing in your appeal - plans must supply the criteria used on request.",
+  "confidence": "high",
+  "notes": "no public criteria on file; abstained and routed"
+ },
+ "source": "abstention_route",
+ "route": {
+  "kind": "request_phone",
+  "vendor": "TurningPoint Healthcare Solutions",
+  "url": "https://www.turningpoint-healthcare.com/clinical-policies-guidelines",
+  "phone": "1-866-422-0800",
+  "how": "Your plan delegates musculoskeletal surgery to TurningPoint, whose criteria are NOT published. Their own page says to submit the contact form naming your health plan to receive the correct policy. Do that, and put the same request in writing in your appeal - plans must supply the criteria used on request.",
+  "source": "turningpoint-healthcare.com clinical policies page"
+ },
+ "model": "claude-opus-5",
+ "run_id": "r-e106d34956f2",
+ "case_id": "poc-5d5b151de3"
+}

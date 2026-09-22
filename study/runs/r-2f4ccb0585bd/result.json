@@ -1,0 +1,26 @@
+{
+ "answer": {
+  "policy_found": false,
+  "policy_title": "",
+  "policy_number": "",
+  "policy_url": "",
+  "effective_date": "",
+  "criteria_quotes": [],
+  "appeal_deadline": "2027-02-16",
+  "submission_route": "Appeal verbally through Member Service or in writing with supporting documentation to YOUR region's address above \u2014 Highmark's addresses differ by state and region. By phone: The Member Service number on your ID card (verbal appeals accepted) Deadline: 180 days after receipt of the denial (all regions) -- but your denial letter is authoritative. Use the appeal address printed on your denial letter.",
+  "how_to_obtain_criteria": "Highmark's policy library looks like it needs JavaScript, but you can search it directly by adding your CPT code to the address: append ?q=27446 (or your code) to the search page URL. If the result is an 'S-' number in the 700s or above, that policy is MCG-based and only viewable in Highmark's licensed Clinical Guideline Tool - request it in writing instead.",
+  "confidence": "high",
+  "notes": "no public criteria on file; abstained and routed"
+ },
+ "source": "abstention_route",
+ "route": {
+  "kind": "navigate",
+  "vendor": "Highmark (own policies + MCG)",
+  "url": "https://securecms.highmark.com/content/medpolicy/en/highmark/pa/commercial/search.html",
+  "how": "Highmark's policy library looks like it needs JavaScript, but you can search it directly by adding your CPT code to the address: append ?q=27446 (or your code) to the search page URL. If the result is an 'S-' number in the 700s or above, that policy is MCG-based and only viewable in Highmark's licensed Clinical Guideline Tool - request it in writing instead.",
+  "source": "securecms.highmark.com policy search + Highmark Medical Policy Update, Feb/Apr 2026"
+ },
+ "model": "claude-sonnet-5",
+ "run_id": "r-2f4ccb0585bd",
+ "case_id": "poc-7eb7cfd8b4"
+}

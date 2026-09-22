@@ -1,0 +1,27 @@
+{
+ "answer": {
+  "policy_found": false,
+  "policy_title": null,
+  "policy_number": null,
+  "policy_url": "https://www.point32health.org/provider/medical-necessity-guidelines",
+  "effective_date": null,
+  "criteria_quotes": [
+   "The denial notice states that the records did not document \"an adequate trial of conservative treatment prior to the requested surgery.\""
+  ],
+  "appeal_deadline": "2027-01-31 (180 days after the August 4, 2026 notice date)",
+  "submission_route": "The notice supplied does not state a mailing address, fax number, portal, or other submission method. Point32Health's provider materials identify 617-509-3085 for Harvard Pilgrim Commercial pre-service utilization-management appeals, but the patient should confirm that number and the correct submission method with Harvard Pilgrim before sending the appeal. The provider may submit the appeal on the member's behalf. Include member ID W807153430, reference number POC-9668BA39E4-60948, the denial notice, and supporting clinical records.",
+  "how_to_obtain_criteria": "Request from Harvard Pilgrim, in writing or through Member Services, the exact medical-necessity policy or clinical-review criteria applied to CPT 29881, including the policy title, version or effective date, and all criteria used in the determination. Point32Health publicly states that some Medical Necessity Guidelines use InterQual criteria and directs Harvard Pilgrim users to the Optum One Health website for access; the actual InterQual criteria and the specific version applied to this request were not publicly retrievable. Ask the provider to request the criteria through the Harvard Pilgrim provider portal or utilization-management department and include them with the appeal.",
+  "confidence": "moderate",
+  "notes": "I could not verify a publicly accessible Harvard Pilgrim Massachusetts document containing the governing medical-necessity criteria for CPT 29881. Point32Health has a public Medical Necessity Guidelines webpage, and a related public search result identifies a document titled \"Knee Arthroscopy Surgical,\" but the URL redirects to the general guidelines page and does not expose a policy number, effective date, or the applicable criteria. Therefore, it would be unsafe to identify that document as the governing policy for this denial. The only procedure-specific requirement established by the denial itself is documentation of an adequate conservative-treatment trial; the notice does not define its duration, required modalities, or exceptions."
+ },
+ "raw_text": "{\n  \"policy_found\": false,\n  \"policy_title\": null,\n  \"policy_number\": null,\n  \"policy_url\": \"https://www.point32health.org/provider/medical-necessity-guidelines\",\n  \"effective_date\": null,\n  \"criteria_quotes\": [\n    \"The denial notice states that the records did not document \\\"an adequate trial of conservative treatment prior to the requested surgery.\\\"\"\n  ],\n  \"appeal_deadline\": \"2027-01-31 (180 days after the August 4, 2026 notice date)\",\n  \"submission_route\": \"The notice supplied does not state a mailing address, fax number, portal, or other submission method. Point32Health's provider materials identify 617-509-3085 for Harvard Pilgrim Commercial pre-service utilization-management appeals, but the patient should confirm that number and the correct submission method with Harvard Pilgrim before sending the appeal. The provider may submit the appeal on the member's behalf. Include member ID W807153430, reference number POC-9668BA39E4-60948, the denial notice, and supporting clinical records.\",\n  \"how_to_obtain_criteria\": \"Request from Harvard Pilgrim, in writing or through Member Services, the exact medical-necessity policy or clinical-review criteria applied to CPT 29881, including the policy title, version or effective date, and all criteria used in the determination. Point32Health publicly states that some Medical Necessity Guidelines use InterQual criteria and directs Harvard Pilgrim users to the Optum One Health website for access; the actual InterQual criteria and the specific version applied to this request were not publicly retrievable. Ask the provider to request the criteria through the Harvard Pilgrim provider portal or utilization-management department and include them with the appeal.\",\n  \"confidence\": \"moderate\",\n  \"notes\": \"I could not verify a publicly accessible Harvard Pilgrim Massachusetts document containing the governing medical-necessity criteria for CPT 29881. Point32Health has a public Medical Necessity Guidelines webpage, and a related public search result identifies a document titled \\\"Knee Arthroscopy Surgical,\\\" but the URL redirects to the general guidelines page and does not expose a policy number, effective date, or the applicable criteria. Therefore, it would be unsafe to identify that document as the governing policy for this denial. The only procedure-specific requirement established by the denial itself is documentation of an adequate conservative-treatment trial; the notice does not define its duration, required modalities, or exceptions.\"\n}",
+ "stop_reason": "completed",
+ "usage": {
+  "input_tokens": 100761,
+  "output_tokens": 2175
+ },
+ "model": "gpt-5.6-luna",
+ "elapsed_s": 49.9,
+ "run_id": "r-d0426cdd3e8e",
+ "case_id": "poc-9668ba39e4"
+}

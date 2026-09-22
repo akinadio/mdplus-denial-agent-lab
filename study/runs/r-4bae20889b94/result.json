@@ -1,0 +1,890 @@
+{
+ "answer": {
+  "policy_found": true,
+  "policy_title": "Clinical Appropriateness Guidelines \u2013 Musculoskeletal Appropriate Use Criteria: Spine Surgery (section: 'Cervical Decompression With or Without Fusion,' which explicitly lists CPT 22551 \u2013 Arthrodesis, anterior interbody... cervical below C2 / ACDF)",
+  "policy_number": "Doc ID MSK03-1125.1-UC0126 (version effective 11/15/2025, code update 01/01/2026; Last Review Date 01/30/2025)",
+  "policy_url": "https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15-updated-2026-01-01/",
+  "effective_date": "Effective 2025-11-15 (codes updated 2026-01-01; last clinical review 2025-01-30). This was the version in force on the 2026-08-25 denial date; a newer version (Doc ID showing effective 2026-09-19) exists but post-dates the denial.",
+  "criteria_quotes": [
+   "Cervical radiculopathy is considered medically necessary when imaging studies demonstrate nerve root compression due to herniated disc or spondylotic osteophyte correlating with the distribution of signs and symptoms, and ANY of the following criteria apply: Objective neurologic findings which correlate with a cervical nerve root impingement; Progressive or severe neurologic deficits secondary to spinal cord or foraminal compression; Unremitting radicular pain which has not responded to at least 6 weeks of appropriate conservative management (physical therapy optional).",
+   "[For repeat/revision procedures at the same level] Recurrent symptoms or functional impairment has not responded to at least 6 weeks of conservative management following confirmation of the diagnosis."
+  ],
+  "appeal_deadline": "2027-02-21, i.e., within 180 days of the 2026-08-25 notice date, as stated on the denial letter itself.",
+  "submission_route": "The excerpt of the denial letter provided does not itself contain the specific mailing address, fax number, or portal link for filing the appeal \u2014 only the 180-day deadline. I could not independently verify, from an official Anthem/Elevance source, the exact Kentucky commercial member-appeals mailing address or fax number, so I am not naming one. In practice, Anthem member appeals of this kind are typically submitted in writing (or by phone for an expedited/urgent request) to Anthem's Grievance and Appeals unit using the address/fax printed on the full denial letter and in the plan's Evidence of Coverage/Summary Plan Description, or electronically through the member portal (anthem.com / Sydney Health app) or by calling the Member Services number on the back of the ID card. Because this is a fully-insured ACA commercial plan issued in Kentucky, after exhausting Anthem's internal appeal the member also generally has the right to an independent External Review under the ACA (45 CFR \u00a7147.136) and Kentucky external-review procedures \u2014 the notice of final internal denial should describe how to request that.",
+  "how_to_obtain_criteria": "Anthem Kentucky uses Carelon Medical Benefits Management, Inc. (formerly AIM Specialty Health) to perform medical-necessity/clinical-appropriateness prior-authorization review for musculoskeletal \u2018site of care\u2019 procedures, including spine surgery, under a transition that took effect for Anthem KY around December 2023 (confirmed via Anthem Kentucky Provider News and Carelon's own 'Serving Colorado, Connecticut, Georgia, Indiana, Kentucky...' program page). The applicable criteria are Carelon's publicly posted 'Spine Surgery' Clinical Appropriateness Guideline, which is available without login at guidelines.carelonmedicalbenefitsmanagement.com. The patient/provider can also request the exact guideline version and full text that was applied to this specific determination directly from Anthem (cite the reference number POC-0948834B99-90261) or from Carelon, since Carelon states in the guideline itself that 'Copies of the Guidelines are also available upon oral or written request.' The full guideline document is long; my tool could only retrieve it in truncated form, so the exact clinical-indications language above was cross-verified against multiple independently indexed snapshots of the same guideline (2023-09-10, 2024-10-20, and 2025-11-15 versions, which use identical wording for this criterion) rather than a single complete document fetch \u2014 the patient's provider should pull the complete PDF from the URL above (or request it from Anthem/Carelon) to review the full indication list, exclusions, and imaging-correlation requirements before drafting the appeal.",
+  "confidence": "medium-high on identifying the correct governing document and the specific conservative-treatment criterion (corroborated by several independent, consistent sources spanning multiple guideline versions and an explicit CPT 22551 code listing); low on the exact appeal submission address/fax for Anthem Kentucky commercial members, which I could not verify from an official Anthem source and did not want to fabricate.",
+  "notes": "1) Anthem's letter states the denial was made 'under the plan's applicable medical policy and clinical review criteria' without naming the document. Based on Anthem Kentucky's known outsourcing of musculoskeletal/spine-surgery prior authorization to Carelon Medical Benefits Management, the criteria almost certainly applied are Carelon's 'Spine Surgery' Clinical Appropriateness Guideline (Cervical Decompression With or Without Fusion section). 2) It is possible Anthem's own internal Clinical UM Guideline (e.g., a CG-SURG document) could also be referenced in some Anthem markets for cervical fusion, but my searches did not surface an Anthem-branded (non-Carelon) medical policy specifically governing CPT 22551 for Anthem's Kentucky commercial line \u2014 the Carelon guideline is the one confirmed to be operative in the applicable time frame. 3) The appellant should ask Anthem, by reference number, to identify in writing exactly which policy/guideline (name, ID, and version/effective date) was applied, since payers are required to disclose this on request and it will remove any ambiguity about which of the several near-identical annual/quarterly Carelon 'Spine Surgery' versions governed this specific denial. 4) To rebut the stated reason for denial, the appeal should focus on documenting at least 6 weeks of appropriate conservative management (e.g., physical therapy, NSAIDs/other medications, activity modification, and/or epidural steroid injection) that failed to relieve radicular pain, or documenting one of the alternative qualifying findings (objective neurologic findings correlating with nerve root impingement, or progressive/severe neurologic deficits) that would allow the guideline's 'ANY of the following' pathway to be met even without a full 6-week conservative trial."
+ },
+ "raw_text": "```json\n{\n  \"policy_found\": true,\n  \"policy_title\": \"Clinical Appropriateness Guidelines \u2013 Musculoskeletal Appropriate Use Criteria: Spine Surgery (section: 'Cervical Decompression With or Without Fusion,' which explicitly lists CPT 22551 \u2013 Arthrodesis, anterior interbody... cervical below C2 / ACDF)\",\n  \"policy_number\": \"Doc ID MSK03-1125.1-UC0126 (version effective 11/15/2025, code update 01/01/2026; Last Review Date 01/30/2025)\",\n  \"policy_url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15-updated-2026-01-01/\",\n  \"effective_date\": \"Effective 2025-11-15 (codes updated 2026-01-01; last clinical review 2025-01-30). This was the version in force on the 2026-08-25 denial date; a newer version (Doc ID showing effective 2026-09-19) exists but post-dates the denial.\",\n  \"criteria_quotes\": [\n    \"Cervical radiculopathy is considered medically necessary when imaging studies demonstrate nerve root compression due to herniated disc or spondylotic osteophyte correlating with the distribution of signs and symptoms, and ANY of the following criteria apply: Objective neurologic findings which correlate with a cervical nerve root impingement; Progressive or severe neurologic deficits secondary to spinal cord or foraminal compression; Unremitting radicular pain which has not responded to at least 6 weeks of appropriate conservative management (physical therapy optional).\",\n    \"[For repeat/revision procedures at the same level] Recurrent symptoms or functional impairment has not responded to at least 6 weeks of conservative management following confirmation of the diagnosis.\"\n  ],\n  \"appeal_deadline\": \"2027-02-21, i.e., within 180 days of the 2026-08-25 notice date, as stated on the denial letter itself.\",\n  \"submission_route\": \"The excerpt of the denial letter provided does not itself contain the specific mailing address, fax number, or portal link for filing the appeal \u2014 only the 180-day deadline. I could not independently verify, from an official Anthem/Elevance source, the exact Kentucky commercial member-appeals mailing address or fax number, so I am not naming one. In practice, Anthem member appeals of this kind are typically submitted in writing (or by phone for an expedited/urgent request) to Anthem's Grievance and Appeals unit using the address/fax printed on the full denial letter and in the plan's Evidence of Coverage/Summary Plan Description, or electronically through the member portal (anthem.com / Sydney Health app) or by calling the Member Services number on the back of the ID card. Because this is a fully-insured ACA commercial plan issued in Kentucky, after exhausting Anthem's internal appeal the member also generally has the right to an independent External Review under the ACA (45 CFR \u00a7147.136) and Kentucky external-review procedures \u2014 the notice of final internal denial should describe how to request that.\",\n  \"how_to_obtain_criteria\": \"Anthem Kentucky uses Carelon Medical Benefits Management, Inc. (formerly AIM Specialty Health) to perform medical-necessity/clinical-appropriateness prior-authorization review for musculoskeletal \u2018site of care\u2019 procedures, including spine surgery, under a transition that took effect for Anthem KY around December 2023 (confirmed via Anthem Kentucky Provider News and Carelon's own 'Serving Colorado, Connecticut, Georgia, Indiana, Kentucky...' program page). The applicable criteria are Carelon's publicly posted 'Spine Surgery' Clinical Appropriateness Guideline, which is available without login at guidelines.carelonmedicalbenefitsmanagement.com. The patient/provider can also request the exact guideline version and full text that was applied to this specific determination directly from Anthem (cite the reference number POC-0948834B99-90261) or from Carelon, since Carelon states in the guideline itself that 'Copies of the Guidelines are also available upon oral or written request.' The full guideline document is long; my tool could only retrieve it in truncated form, so the exact clinical-indications language above was cross-verified against multiple independently indexed snapshots of the same guideline (2023-09-10, 2024-10-20, and 2025-11-15 versions, which use identical wording for this criterion) rather than a single complete document fetch \u2014 the patient's provider should pull the complete PDF from the URL above (or request it from Anthem/Carelon) to review the full indication list, exclusions, and imaging-correlation requirements before drafting the appeal.\",\n  \"confidence\": \"medium-high on identifying the correct governing document and the specific conservative-treatment criterion (corroborated by several independent, consistent sources spanning multiple guideline versions and an explicit CPT 22551 code listing); low on the exact appeal submission address/fax for Anthem Kentucky commercial members, which I could not verify from an official Anthem source and did not want to fabricate.\",\n  \"notes\": \"1) Anthem's letter states the denial was made 'under the plan's applicable medical policy and clinical review criteria' without naming the document. Based on Anthem Kentucky's known outsourcing of musculoskeletal/spine-surgery prior authorization to Carelon Medical Benefits Management, the criteria almost certainly applied are Carelon's 'Spine Surgery' Clinical Appropriateness Guideline (Cervical Decompression With or Without Fusion section). 2) It is possible Anthem's own internal Clinical UM Guideline (e.g., a CG-SURG document) could also be referenced in some Anthem markets for cervical fusion, but my searches did not surface an Anthem-branded (non-Carelon) medical policy specifically governing CPT 22551 for Anthem's Kentucky commercial line \u2014 the Carelon guideline is the one confirmed to be operative in the applicable time frame. 3) The appellant should ask Anthem, by reference number, to identify in writing exactly which policy/guideline (name, ID, and version/effective date) was applied, since payers are required to disclose this on request and it will remove any ambiguity about which of the several near-identical annual/quarterly Carelon 'Spine Surgery' versions governed this specific denial. 4) To rebut the stated reason for denial, the appeal should focus on documenting at least 6 weeks of appropriate conservative management (e.g., physical therapy, NSAIDs/other medications, activity modification, and/or epidural steroid injection) that failed to relieve radicular pain, or documenting one of the alternative qualifying findings (objective neurologic findings correlating with nerve root impingement, or progressive/severe neurologic deficits) that would allow the guideline's 'ANY of the following' pathway to be met even without a full 6-week conservative trial.\"\n}\n```",
+ "usd": 0.3469,
+ "transcript": [
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "text",
+     "text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-25\nMember: Cameron Brooks\nMember ID: W295648415\nPlan: Anthem Blue Cross Blue Shield (Commercial/ACA), state of Kentucky\n\nDear Cameron,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Neck (cervical) fusion (ACDF)\n    Procedure code (CPT): 22551\n\nAfter review, this request is DENIED. Reason for determination: the clinical records submitted do not document an adequate trial of conservative treatment prior to the requested surgery.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-21).\n\nReference number: POC-0948834B99-90261\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EpMDCpABCBIYAipAelsXC7Du63q6HOQ+bY0hM8MUCkDKOwnhD8+VoUeqxxZ9we7//b2d5Znl310Fme59IF3DNa/19UFL2A03RGVfEzIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAanvwdUGEgweMsKdbd83NdMzzPsaDPxDP3B5ExwPQF5scyIwkzr6McE92GHYG6FkoD/wLPzZw2T/M7yw3w6h61l26GA3GgTSe7mRUjQBsz1eA71gKq8B318QYj237UCkGWUWaTmEJp9ePMURNz2nUN+/8vrMxBhWo8ypsG9p44oPy6Qbd3z2oEloCboYZlx4ZYwuaClBqlwT8VYFMwIIbaq16OYOF+RDqzz1N31eZZxUhEyopwl7UzHmuPX26dG+c9hSrlV/BhRO7MBDtya/Tcs71260t6TWQpzoNDvVNfN5Ru3pCrA1uRGvs6p3D76W9FXF01/b4EhWA+bKhn4M1jtcFZSyRxgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01WwtLL6zgioPejsnhjtkiBm",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Anthem Blue Cross Blue Shield medical policy cervical fusion spine surgery CG-SURG"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01QhEMqXTL2oP8HSe5s7vPaN",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Anthem clinical UM guideline \"spine surgery\" cervical fusion medical necessity criteria"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01WwtLL6zgioPejsnhjtkiBm",
+     "content": "{\"query\": \"Anthem Blue Cross Blue Shield medical policy cervical fusion spine surgery CG-SURG\", \"results\": [{\"title\": \"Provider Medical Policies | AnthemBlueCross.com\", \"url\": \"https://www.anthembluecross.com/provider/policies/clinical-guidelines/\", \"snippet\": \"Anthem Blue Cross licenses and utilizes MCG Care Guidelines to guide utilization management decisions for some health plans. This may include but is not limited to decisions involving prior authorization, inpatient review, level of care, discharge planning and retrospective review.\"}, {\"title\": \"Anthem BCBS Medical Policy Updates - August 2018 - Policy Alerts | Medical Policy Monitoring Alerts test\", \"url\": \"https://policyalerts.com/anthem-bcbs-medical-policy-updates-august-2018/\", \"snippet\": \"CG-SURG-32 Pain Management: Cervical, Thoracic &amp; Lumbar Facet Injections \u00b7 CG-SURG-33 Lumbar Fusion and Lumbar Total Disc Arthroplasty (TDA) CG-SURG-34 Diagnostic Infertility Surgery \u00b7 CG-SURG-35 Intracytoplasmic Sperm Injection (ICSI) CG-SURG-38 Lumbar Laminectomy, Hemi-Laminectomy, Laminotomy and/or Discectomy \u00b7\"}, {\"title\": \"Subject: Cervical Spine Surgery - Medical Coverage Guideline\", \"url\": \"http://mcgs.bcbsfl.com/MCG?mcgId=02-20000-45&pv=false\", \"snippet\": \"JOA scores and Nurick scores; perioperative complications were similar between surgical groups \u00b7 (approximately 23% in each group). An UpToDate review, \u201cTreatment and prognosis of cervical \u00b7 radiculopathy\u201d (Kothari, Chuang; 2025) stated anterior cervical discectomy and fusion (ACDF) is the most \u00b7 commonly used decompressive procedure in the cervical spine.\"}, {\"title\": \"Provider Medical Policies | Anthem.com\", \"url\": \"https://www.anthem.com/provider/policies/clinical-guidelines/\", \"snippet\": \"This may include but is not limited to decisions involving pre-certification, inpatient review, level of care, discharge planning and retrospective review. The MCG guidelines we are licensed to use include ((1) Inpatient &amp; Surgical Care (ISC), (2) General Recovery Care (GRG), (3) Recovery Facility Care (RFC), (4) Chronic Care (CC) and (5) Behavioral Health Care Guidelines (BHG).\"}, {\"title\": \"SURG.00071 Percutaneous Spinal Surgery\", \"url\": \"https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_a053367.html\", \"snippet\": \"The FDA indications for these products ... of the spine.&quot; Percutaneous posterior cervical nerve root decompression using an expandable intervertebral cervical cage has been explored as an alternative surgical treatment for single-level cervical radiculopathy. According to information on the FDA website, the PMT Cervical Cage (Providence Medical Technology, Inc., Pleasanton, CA) is an intervertebral fusion device intended ...\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01QhEMqXTL2oP8HSe5s7vPaN",
+     "content": "{\"query\": \"Anthem clinical UM guideline \\\"spine surgery\\\" cervical fusion medical necessity criteria\", \"results\": [{\"title\": \"Spine Surgery 2024-10-20 [for Anthem BCBS Ohio Medicaid] | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2024-10-20-for-anthem-bcbs-ohio-medicaid/\", \"snippet\": \"Indications other than those addressed in this guideline are considered not medically necessary including, but not limited to, the following: <strong>Isolated neck pain and spinal stenosis without MRI evidence of intrinsic cord compression</strong> \u00b7 Asymptomatic spinal stenosis without MRI evidence of intrinsic ...\"}, {\"title\": \"carelon.com Status: Revised Effective Date: 09/10/2023 Doc ID: MSK03-0923.2\", \"url\": \"https://files.providernews.anthem.com/2255/PDF-Spine-Surgery-2023-09-10.pdf\", \"snippet\": \"Cervical spine surgery is most commonly performed for radiculopathy or cervical myelopathy. The goal of surgery \u00b7 is adequate decompression of the nerve roots and/or spinal cord and stabilization of the spine. Cervical decompression is performed with or without a fusion procedure and may be broadly divided into anterior,\"}, {\"title\": \"ARCHIVED Spine Surgery 2024-10-20 to 2025-11-14 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2024-10-20/\", \"snippet\": \"Indications other than those addressed in this guideline are considered not medically necessary including, but not limited to, the following: <strong>Isolated neck pain and spinal stenosis without MRI evidence of intrinsic cord compression</strong> \u00b7 Asymptomatic spinal stenosis without MRI evidence of intrinsic ...\"}, {\"title\": \"Spine Surgery 2025-11-15 updated 2026-01-01 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15-updated-2026-01-01/\", \"snippet\": \"Indications other than those addressed ... necessary including, but not limited to, the following: <strong>Isolated neck pain and spinal stenosis without MRI evidence of intrinsic cord compression</strong> \u00b7 Asymptomatic spinal stenosis without MRI evidence of intrinsic cord compression \u00b7 Cervical/Thoracic ...\"}, {\"title\": \"ARCHIVED Spine Surgery 2024-01-01 to 10-19 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/archived-spine-surgery-2024-01-01-to-10-19/\", \"snippet\": \"Cervical decompression and/or fusion is considered medically necessary at the index level after a prior cervical disc arthroplasty when EITHER of the following criteria are met:\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EsEGCpABCBIYAipAKmBkCSXrFrkiQAuRFBL/zMktxWxDEpIm1qz4UDDYl8BoFsIsHosNIPPC5aa/AuKNXFqH7RWj8QUqZFiXT0IK7zIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAa7vwdUGEgytQCoF/FDd4tz3tmkaDCVmIoyg7WJOfg/MjCIwES9/s9istBNELi9MbfNPZa4iVJHZRhRwt2VeTmUYtVjSTZgJfxeJeAWmrqtc8DRZKt0Edr5t2UQebZ948V16XGnJlga80/0aVMeBi61k1uzxQ6u0oJNoriKk9HXQAaEUsGoVVDyLnrSGdBZD7huymirBZyOV8+R+yiMS32g7lzmOGrTTWirymy4dmVC/Fnh1ienKnXKYa2vr4QotZLEaeRCbp4668BvoXVszovsAkcnc2GPfQQVNm2WN2MnEu0yZyPGQNScvWcgv4BxaKjykj067fc1jcriqU6Icp7BSA03Tt35rxtArxO0P51ihXhQrJJ6YiNmQfiMt8t+uwiqzvAyRjJf/toEhx9xdmgMm3PtktYHYKId9m4GPND1luoOehO/mwxM9ZFsBqS77S/TfbyBhQtZrEvjODE8qFyHf9Fl8Cw84td5SkDA+i1KRBoY0v1S07vCs1Geqh9VNjjORVsWVC4GLYL1cWTdx9JlzBL7U0dUPf7dF2gqWAfS2j+kT/eBBmRBymf2dgq1ovNu6h8QQWhK0IXIHtU1hmvUn7QZjjIhVRxUkB0IjWnVSXBRBkThgKuvqYXGA2pycOcdvV00kbFy/kUr1FpRQLMViZe5lbO9WKRKfadCE2HmVdKewbk8cXWDhM/Ram3kXv64r3mlE6xnDr0lbMM+Gmq3vJoYzTrORdzX1XxM33dXUs8zbE5Svx15/BOXP/h6l+R4MUT4rqkn0vrXFGNuMLKJIC/+2vyG6BhpYnUr5R2/QVjagjbMNjst9SBDflgGc2WTTWADxAMd6TqMeu4MgalU5hwVvvQACQXAYfRpB8NR+2SYk5h4DyWKdMydbNiiSdO/l/D1kkliHjCeO/GidrSw4TK0YAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_011Gm78pwP6ZavkyxWHu8Kpc",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15-updated-2026-01-01/"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_011WUiHwaP7THX91pDsKtDP6",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Anthem Kentucky commercial prior authorization spine surgery Carelon AIM specialty program"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_011Gm78pwP6ZavkyxWHu8Kpc",
+     "content": "{\"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15-updated-2026-01-01/\", \"final_url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15-updated-2026-01-01/\", \"http_status\": 200, \"content_type\": \"text/html; charset=UTF-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Spine Surgery 2025-11-15 updated 2026-01-01 [for Wellpoint Massachusetts] | Carelon Clinical Guidelines and Pathways Clinical guidelines and pathways Archives Coming soon Carelon Medical Benefits Management clinical appropriateness guidelines and cancer treatment pathways Home 9 Current 9 Spine Surgery 2025-11-15 updated 2026-01-01 [for Wellpoint Massachusetts] Search for: Spine Surgery 2025-11-15 updated 2026-01-01 [for Wellpoint Massachusetts] Link to PDF Status: Updated codes 01/01/2026 Effective Date: 11/15/2025 Doc ID: MSK03-1125.1-UC0126 Last Review Date: 01/30/2025 Approval and implementation dates for specific health plans may vary. Please consult the applicable health plan for more details. Clinical Appropriateness Guidelines Musculoskeletal Appropriate Use Criteria: Spine Surgery Proprietary \u00a9 2026 Carelon Medical Benefits Management, Inc. All rights reserved. Table of Contents Description and Application of the Guidelines General Clinical Guideline Cervical Decompression With or Without Fusion Description and Scope Clinical Indications Exclusions References Codes Cervical Disc Arthroplasty Description and Scope Clinical Indications Contraindications Exclusions References Codes Lumbar Disc Arthroplasty Description and Scope Clinical Indications Contraindications Exclusions References Codes Lumbar Discectomy, Foraminotomy, and Laminotomy Description and Scope Clinical Indications Exclusions References Codes Lumbar Fusion and Treatment of Spinal Deformity (including Scoliosis and Kyphosis) Description and Scope Clinical Indications Exclusions References Codes Lumbar Laminectomy Description and Scope Clinical Indications Exclusions References Codes Noninvasive Electrical Bone Growth Stimulation Description Clinical Indications Exclusions References Codes Vertebroplasty/Kyphoplasty Description Clinical Indications Contraindications Exclusions References Codes Bone Graft Substitutes and Bone Morphogenetic Proteins Description and Scope General Considerations Clinical Indications Exclusions References Codes History Description and Application of the Guidelines The Carelon Clinical Appropriateness Guidelines (hereinafter \u201cthe Carelon Clinical Appropriateness Guidelines\u201d or the \u201cGuidelines\u201d) are designed to assist providers in making the most appropriate treatment decision for a specific clinical condition for an individual. The Guidelines establish objective and evidence-based criteria for medical necessity determinations, where possible, that can be used in support of the following: To establish criteria for when services are medically necessary To assist the practitioner as an educational tool To encourage standardization of medical practice patterns To curtail the performance of inappropriate and/or duplicate services To address patient safety concerns To enhance the quality of health care To promote the most efficient and cost-effective use of services The Carelon guideline development process complies with applicable accreditation and legal standards, including the requirement that the Guidelines be developed with involvement from appropriate providers with current clinical expertise relevant to the Guidelines under review and be based on the most up-to-date clinical principles and best practices. Resources reviewed include widely used treatment guidelines, randomized controlled trials or prospective cohort studies, and large systematic reviews or meta-analyses. Carelon reviews all of its Guidelines at least annually. Carelon makes its Guidelines publicly available on its website. Copies of the Guidelines are also available upon oral or written request. Additional details, such as summaries of evidence, a list of the sources of evidence, and an explanation of the rationale that supports the adoption of the Guidelines, are included in each guideline document. Although the Guidelines are publicly available, Carelon considers the Guidelines to be important, proprietary information of Carelon, which cannot be sold, assigned, leased, licensed, reproduced or distributed without the written consent of Carelon. Use of the Guidelines by any external AI entity without the express written permission of Carelon is prohibited. Carelon applies objective and evidence-based criteria, and takes individual circumstances and the local delivery system into account when determining the medical appropriateness of health care services. The Carelon Guidelines are just guidelines for the provision of specialty health services. These criteria are designed to guide both providers and reviewers to the most appropriate services based on a patient\u2019s unique circumstances. In all cases, clinical judgment consistent with the standards of good medical practice should be used when applying the Guidelines. Guideline determinations are made based on the information provided at the time of the request. It is expected that medical necessity decisions may change as new information is provided or based on unique aspects of the patient\u2019s condition. The treating clinician has final authority and responsibility for treatment decisions regarding the care of the patient and for justifying and demonstrating the existence of medical necessity for the requested service. The Guidelines are not a substitute for the experience and judgment of a physician or other health care professionals. Any clinician seeking to apply or consult the Guidelines is expected to use independent medical judgment in the context of individual clinical circumstances to determine any patient\u2019s care or treatment. The Guidelines do not address coverage, benefit or other plan specific issues. Applicable federal and state coverage mandates take precedence over these clinical guidelines, and in the case of reviews for Medicare Advantage Plans, the Guidelines are only applied where there are not fully established CMS criteria. If requested by a health plan, Carelon will review requests based on health plan medical policy/guidelines in lieu of the Carelon Guidelines. Pharmaceuticals, radiotracers, or medical devices used in any of the diagnostic or therapeutic interventions listed in the Guidelines must be FDA approved or conditionally approved for the intended use. However, use of an FDA-approved or conditionally approved product does not constitute medical necessity or guarantee reimbursement by the respective health plan. The Guidelines may also be used by the health plan or by Carelon for purposes of provider education, or to review the medical necessity of services by any provider who has been notified of the need for medical necessity review, due to billing practices or claims that are not consistent with other providers in terms of frequency or some other manner. General Clinical Guideline Clinical Appropriateness Framework Critical to any finding of clinical appropriateness under the guidelines for a specific diagnostic or therapeutic intervention are the following elements: Prior to any intervention, it is essential that the clinician confirm the diagnosis or establish its pretest likelihood based on a complete evaluation of the patient. This includes a history and physical examination and, where applicable, a review of relevant laboratory studies, diagnostic testing, and response to prior therapeutic intervention. The anticipated benefit of the recommended intervention is likely to outweigh any potential harms, including from delay or decreased access to services that may result (net benefit). Widely used treatment guidelines and/or current clinical literature and/or standards of medical practice should support that the recommended intervention offers the greatest net benefit among competing alternatives. There exists a reasonable likelihood that the intervention will change management and/or lead to an improved outcome for the patient. Providers may be required to submit clinical documentation in support of a request for services. Such documentation must a) accurately reflect the clinical situation at the time of the requested service, and b) sufficiently document the ordering provider\u2019s clinical intent. If these elements are not established with respect to a given request, the determination of appropriateness will most likely require a peer-to-peer conversation to understand the individual and unique facts that would justify a finding of clinical appropriateness. During the peer-to-peer conversation, factors such as patient acuity and setting of service may also be taken into account to the extent permitted by law. Simultaneous Ordering of Multiple Diagnostic or Therapeutic Interventions Requests for multiple diagnostic or therapeutic interventions at the same time will often require a peer-to-peer conversation to understand the individual circumstances that support the medical necessity of performing all interventions simultaneously. This is based on the fact that appropriateness of additional intervention is often dependent on the outcome of the initial intervention. Additionally, either of the following may apply: Current literature and/or standards of medical practice support that one of the requested diagnostic or therapeutic interventions is more appropriate in the clinical situation presented; or One of the diagnostic or therapeutic interventions requested is more likely to improve patient outcomes based on current literature and/or standards of medical practice. Repeat Diagnostic Intervention In general, repeated testing of the same anatomic location for the same indication should be limited to evaluation following an intervention, or when there is a change in clinical status such that additional testing is required to determine next steps in management. At times, it may be necessary to repeat a test using different techniques or protocols to clarify a finding or result of the original study. Repeated testing for the same indication using the same or similar technology may be subject to additional review or require peer-to-peer conversation in the following scenarios: Repeated diagnostic testing at the same facility due to technical issues Repeated diagnostic testing requested at a different facility due to provider preference or quality concerns Repeated diagnostic testing of the same anatomic area based on persistent symptoms with no clinical change, treatment, or intervention since the previous study Repeated diagnostic testing of the same anatomic area by different providers for the same member over a short period of time Repeat Therapeutic Intervention In general, repeated therapeutic intervention in the same anatomic area is considered appropriate when the prior intervention proved effective or beneficial and the expected duration of relief has lapsed. A repeat intervention requested prior to the expected duration of relief is not appropriate unless it can be confirmed that the prior intervention was never administered. Requests for ongoing services may depend on completion of previously authorized services in situations where a patient\u2019s response to authorized services is relevant to a determination of clinical appropriateness. Cervical Decompression With or Without Fusion Description and Scope Cervical spine surgery is commonly performed for cervical radiculopathy or myelopathy. The goal of surgery is adequate decompression of the nerve roots and/or spinal cord and stabilization of the spine. Cervical decompression may be performed with or without a fusion procedure and broadly divided into anterior, posterior, or combined surgical approach. The choice of procedure depends on several factors, including: Location of the compression Presence of deformity or instability Number of levels involved Patient age and surgical fitness Laminoplasty is a related procedure for achieving decompression without the need for fusion and is frequently used to treat multilevel central stenosis or ossification of the posterior longitudinal ligament (OPLL). This guideline addresses the following interventions when performed as elective, \", \"text_truncated\": true}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_011WUiHwaP7THX91pDsKtDP6",
+     "content": "{\"query\": \"Anthem Kentucky commercial prior authorization spine surgery Carelon AIM specialty program\", \"results\": [{\"title\": \"Transition to Carelon Medical Benefits Management, Inc. site of care guidelines - Provider News\", \"url\": \"https://providernews.anthem.com/kentucky/articles/transition-to-carelon-medical-benefits-management-inc-site-2-15782\", \"snippet\": \"Prior authorization requirements remain the same. <strong>For services scheduled to begin on or after December 29, 2023, care providers must contact Carelon Medical Benefits Management to obtain prior authorization</strong>.\"}, {\"title\": \"Prior Authorization | Provider | Individual & Commercial Plans | Anthem\", \"url\": \"https://www.anthem.com/provider/individual-commercial/prior-authorization\", \"snippet\": \"Get the right resources from the Anthem.com official site for prior-authorization, or pre-authorization, as it relates to health insurance. Learn more today.\"}, {\"title\": \"BCBS Prior Authorization Template 2026: Availity ICR, Carelon & Affiliate-by-Affiliate Guide | Muni Health\", \"url\": \"https://muni.health/blog/bcbs-prior-authorization-template-2026\", \"snippet\": \"Carelon Medical Benefits Management (formerly AIM Specialty Health) <strong>manages prior authorization for specialty services \u2014 including advanced imaging, musculoskeletal procedures, cardiology, sleep, and genetic testing</strong> \u2014 under contracts with ...\"}, {\"title\": \"Prior authorization lookup tool | KY Provider - Anthem\", \"url\": \"https://providers.anthem.com/kentucky-provider/claims/prior-authorization-lookup-tool\", \"snippet\": \"This tool does not reflect benefits coverage,1 nor does it include an exhaustive listing of all noncovered services (for example, experimental procedures, cosmetic surgery, etc.) \u2014 refer to your Provider Manual for coverage/limitations.\"}, {\"title\": \"Orthopedic Surgeons That Accept Anthem - Insurance\", \"url\": \"https://www.advortho.org/insurance/anthem\", \"snippet\": \"<strong>Approvals typically take 5-10 business days for elective surgery, 2-4 days for advanced imaging</strong>. Members and providers can track status at anthem.com or via the Sydney Health app.\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EvcKCpABCBIYAipArU0xUtenHQVfrqnOViij1BntL2nMP4jFs15hVwWS+5CPA2xEs3ri9qifcsF8yxWXb5/BQHZ8ZAnbqHlpMBJZhzIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAbbvwdUGEgwTn9Bg6Jj2n8dq3RsaDBwlY/1Y+wsmfZ7OoCIwzmUfiuHd7nOvbrbtLtEBgjGQA0xaciokdwNGIZ39nq+1e4+BnBwzBTCbV7GvKk2DKpMJQM13uNSuTTreVYJ+ITTXIhR4xnfHgcgIuhDu6UZQp/gBbMv8PVVnM0q9zR5Cra+halkT5spcbgtYNJo64LdCOQsdRH5RmuglAZU93opWwWt0u/m/alAVmI92z4od1CFtC0Gy0DWj9QRvzfONgzAo4NTfGJJMHzXqAT8s6WnGcL2B/RQDsxkjAfY9ghqLs3K36Wpz8JbO/OY1uO0uc+uxOor8RXVKZLHekSWuafdGzM+KFPX1qcB7ORC7FEJIoJyOXmsAJScn6fVTnS3AtKkmyu0P68vwHJcS2BXtHSX8yDm1ql/+TmNkoFwuFEbivt2MRdYuvM1bIraOYhKLwNA6Pe3zleVha9AO8GwwOnQgelqiiFecr9+mO+qTcuQ7lpOxhJihyLDY+JFcjKAWJ9YwzfRcunVADM6lBRCRRyY3XYPpdqc4ksGsPHbROHEyQcgArtJAmzPQAgEIdbh6OSzuagGCJqtCS6W+qL5rg8qzKxUXGVryNvCt2PVk+AiEFLC+isv3KrvYogZIKqJ5j7ypzzpyQ6EMtvDBwT3yHqx45xe/C+tQFiT38B26sURVYsb6Zin6Q/eEglov0svhEhdjbSPfs0XtY9ANUNt0Tt04WcsMJkkR54yYpI63638vlXZu2tisN2tmmvCUk0Y4pJ7ffAnHooTz/yjmfFpaad3Um2oaOta53/yO09z8GIPhPKEfitTIl5VnmEWEmkApq9lF2hq0inJYuMQ2xhhIvvFM7mdCJ9Qwi0ftqIsUCZo+BJ2o1Nr2/UCjcVCYzx/jerGieETxmOuEE1vHDPqjHC5gTpGa4bmpXiX9Ops6hwJj6bxRH4y3d+7OUykfwOhARWNy6/oy5ijaOy3SXIG4H9GjWrSi8Sdk8F4jRR2bm1q0Gx6KDRZXzAJd8Bf4GnwVUz91cHTjkQ5x/kMD09/QOzyFpc5w2fJEeS3fLiCBmrJ4Nd0Ik00A9uesHMT/peqFFlW5ilfXlG/N2W8opHuAHV7TBHyzJUmoP2Kf5XT4Mg+oWVa4d+8quJiCNqWG65iIpxs/pH1PVKPUMKIlJep0YHEs+bTOx6A4yXCZJanoCowIuWytPFF9FlrMXzHhNthwq5lYL8lkbLwBX01unD6yLQP6qaSVlRxPWzQZ3L9Ng41M1690B0SPAAM/vHrNbJ9K4RqaU7a5ewhhEsyQIvaiWmd92Yhl1Js+7QEFes819SBxrG4PnvlX0uNJMA9fjsAAEoTv/Pkoq4k0wByyYpewiIIJjVAHwPA++DkPyUXxAV1GSFn1ac35+nvOPwKufo8t6qQBdVEzbMUstVpBI/mSp9xBxBiFK3mjRt1MyVJ8Ck7y9OL4NNvJj8nG9s5eJqkzwjNBvrE9CYyo9IdOfWl0E07Z531Ip0fwz+2FyUk10jxhVg5n5FuCXr0hggDG61DEcAPygxljQzP1dXxyR7sY1Zwm2Z2iLeKbSFH82BDijy+6o5bnjwZ1DRPByAybFU47nlGy4XBYuYZcg19mdMW3U9XesJKkRzP7j2WJ2boR3dgocq9O7paRRelM2PI6YffksCbk02OqVBgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01FthGaR3zNmvpuWpnovPgCE",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"Spine Surgery\" Carelon guidelines \"Anthem\" Kentucky 2026 cervical decompression fusion"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01Ci3bNEyX7RrVcKadwMdzjL",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://guidelines.carelonmedicalbenefitsmanagement.com/?s=spine+surgery+anthem"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01FthGaR3zNmvpuWpnovPgCE",
+     "content": "{\"query\": \"\\\"Spine Surgery\\\" Carelon guidelines \\\"Anthem\\\" Kentucky 2026 cervical decompression fusion\", \"results\": [{\"title\": \"ARCHIVED Spine Surgery 2024-10-20 to 2025-11-14 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2024-10-20/\", \"snippet\": \"Laminoplasty is a related procedure for achieving decompression without the need for fusion and is frequently used to treat multilevel central stenosis or ossification of the posterior longitudinal ligament (OPLL). This guideline addresses the following interventions when performed as elective, non-emergent procedures and not as part of the care of an acute or traumatic event. Anterior cervical corpectomy and fusion (ACCF) \u2013 for long anterior compression of the spinal cord from spondylosis, large disc extrusions, or ossification of the posterior longitudinal ligament\"}, {\"title\": \"Spine Surgery 2024-10-20 [for Anthem BCBS Ohio Medicaid] | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2024-10-20-for-anthem-bcbs-ohio-medicaid/\", \"snippet\": \"Laminoplasty is a related procedure for achieving decompression without the need for fusion and is frequently used to treat multilevel central stenosis or ossification of the posterior longitudinal ligament (OPLL). This guideline addresses the following interventions when performed as elective, non-emergent procedures and not as part of the care of an acute or traumatic event. Anterior cervical corpectomy and fusion (ACCF) \u2013 for long anterior compression of the spinal cord from spondylosis, large disc extrusions, or ossification of the posterior longitudinal ligament\"}, {\"title\": \"ARCHIVED Spine Surgery 2022-06-12 to 2022-09-10 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/archived-spine-surgery-06-12-22-to-09-10-22/\", \"snippet\": \"Laminoplasty is a related procedure for achieving decompression without the need for fusion, and is most commonly utilized to treat multilevel central stenosis or ossification of the posterior longitudinal ligament (OPLL). This guideline addresses the following interventions when performed as elective, non-emergent procedures and not as part of the care of an acute or traumatic event. Anterior cervical corpectomy and fusion (ACCF) \u2013 for long anterior compression of the spinal cord from spondylosis, large disc extrusions, or ossification of the posterior longitudinal ligament\"}], \"result_count\": 3, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01Ci3bNEyX7RrVcKadwMdzjL",
+     "content": "{\"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/?s=spine+surgery+anthem\", \"final_url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/?s=spine+surgery+anthem\", \"http_status\": 200, \"content_type\": \"text/html; charset=UTF-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Search results for \\\"spine surgery anthem\\\" | Carelon Clinical Guidelines and Pathways Clinical guidelines and pathways Archives Coming soon Search Results Home 9 Search query for: spine surgery anthem Please note: Search results may include guidelines that are not used by your health plan. Please consult with your health plan to ensure guideline applicability. Results for \\\"spine surgery anthem\\\" ARCHIVED Spine Surgery 2024-10-20 to 2025-11-15; to 2026-09-19 for Anthem BCBS Ohio Medicaid Archived \u20262018;7(2):124-30. 9. Engquist M, Lofgren H, Oberg B, et al. Surgery versus nonsurgical treatment of cervical radiculopathy: a prospective, randomized study comparing surgery plus physiotherapy with physiotherapy alone with a 2-year follow-up. Spine (Phila Pa 1976). 2013;38(20):1715-22. 10. Engquist M, Lofgren H, Oberg B, et al. A 5- to 8-year\u2026 Search hits: anthem: 4 surgery: 3 spine: 1 hits on term, 241 in document, 3 in title. Spine Surgery 2025-11-15 updated 2026-01-01 [for Wellpoint Massachusetts] Current \u2026et al. Comparison of Unilateral Biportal Endoscopy Decompression and Microscopic Decompression Effectiveness in Lumbar Spinal Stenosis Treatment: A Systematic Review and Meta-analysis. Asian Spine J. 2023;17(2):418-30. 11. Kovacs FM, Urrutia G, Alarcon JD. Surgery versus conservative treatment for symptomatic lumbar spinal stenosis: a systematic review of randomized controlled trials. Spine \u2026 Search hits: surgery: 3 anthem: 1 spine: 1 hits on term, 240 in document, 2 in title. Radiation Therapy (excludes Proton) 2026-04-04 Current \u2026beam, gamma ray, or linear accelerator); each additional cranial lesion, simple 61798 Stereotactic radio surgery (particle beam, gamma ray, or linear accelerator); 1 complex cranial lesion 61799 Stereotactic radio surgery (particle beam, gamma ray, or linear accelerator); each additional cranial lesion, complex 63620 Stereotactic radio surgery (particle beam, gamma ray, or linear accelerator);\u2026 Search hits: spine: 21 anthem: 2 surgery: 1 hits on term, 227 in document, 0 in title. ARCHIVED Radiation Therapy (excludes Proton) 2022-03-13 to 2022-11-05, 2023-04-08, and 2023-06-17 Archived Link to PDF CLINICAL APPROPRIATENESS GUIDELINES RADIATION ONCOLOGY Appropriate Use Criteria: Brachytherapy, Intensity Modulated Radiation Therapy, Stereotactic Body Radiation Therapy, and Stereotactic Radio surgery EFFECTIVE MARCH 13, 2022 ARCHIVED 11-06-2022 for commercial, Medicare, and non -Anthem Medicaid ARCHIVED 04-09-2023 for Anthem Medicaid except Louisiana ARCHIVED 06-18-2023 for Louisiana Medicaid This\u2026 Search hits: spine: 16 anthem: 4 surgery: 1 hits on term, 214 in document, 0 in title. ARCHIVED Radiation Therapy (excludes Proton) 2024-04-14 to 2024-10-19 Archived \u2026randomized trial. JAMA. 1998;280(17):1485-9. Prabhu RS, Patel KR, Press RH, et al. Preoperative vs postoperative radio surgery for resected brain metastases: a review. Neuro surgery. 2019;84(1):19-29. Sheehan JP, Yen CP, Lee CC, et al. Cranial stereotactic radio surgery: current status of the initial paradigm shifter. J Clin Oncol. 2014;32(26):2836-46. Sneed PK, Suh JH,\u2026 Search hits: spine: 16 anthem: 2 surgery: 1 hits on term, 214 in document, 0 in title. ARCHIVED Radiation Therapy (excludes Proton) 2023-04-09 to 2024-04-13 Archived \u2026et al. Postoperative radiotherapy in the treatment of single metastases to the brain: a randomized trial. JAMA. 1998;280(17):1485-9. Prabhu RS, Patel KR, Press RH, et al. Preoperative vs postoperative radio surgery for resected brain metastases: a review. Neuro surgery. 2019;84(1):19-29. Sheehan JP, Yen CP, Lee CC, et al. Cranial stereotactic radio surgery: current\u2026 Search hits: spine: 16 anthem: 2 surgery: 1 hits on term, 213 in document, 0 in title. ARCHIVED Radiation Therapy (excludes Proton) 2022-11-06 to 2023-04-08 for commercial/Medicare/non-Anthem Medicaid Archived \u2026outcomes in patients with sporadic vestibular schwannomas. Neuro surgery. 2018;82(2):E35-E9. Chao ST, De Salles A, Hayashi M, et al. Stereotactic radio surgery in the management of limited (1-4) brain metasteses: systematic review and International Stereotactic Radio surgery Society practice guideline. Neuro surgery. 2018;83(3):345-53. Chung LK, Nguyen TP, Sheppard JP, et al. A systematic review\u2026 Search hits: spine: 16 anthem: 2 surgery: 1 hits on term, 211 in document, 1 in title. ARCHIVED Radiation Therapy (excludes Proton) 2024-10-20 to 2025-03-22 Archived \u2026et al. Stereotactic radio surgery for benign (World Health Organization Grade I) cavernous sinus meningiomas-International Stereotactic Radio surgery Society (ISRS) practice guideline: a systematic review. Neuro surgery. 2018;83(6):1128-42. Lin B, Huang D, Du H, et al. Whole-brain radiation therapy with simultaneous integrated boost versus whole-brain radiation therapy plus stereotactic radio surgery for the treatment\u2026 Search hits: spine: 16 anthem: 2 surgery: 1 hits on term, 212 in document, 0 in title. ARCHIVED Radiation Therapy (excludes Proton) 2025-03-23 to 2026-04-03 Archived \u2026session, second through fifth sessions; maximum five sessions per course of treatment Stereotactic Radio surgery CPT/HCPCS 63620 Stereotactic radio surgery (particle beam, gamma ray, or linear accelerator); one spinal lesion 63621 Stereotactic radio surgery (particle beam, gamma ray, or linear accelerator); each add\u2019l spinal lesion 77295 3-dimensional radiotherapy plan, including dose-volume histograms 77301\u2026 Search hits: spine: 16 anthem: 2 surgery: 1 hits on term, 211 in document, 0 in title. Imaging of the Spine 2024-10-20 [for Anthem BCBS Ohio Medicaid] Current \u202672126 CT cervical spine , with contrast 72127 CT cervical spine , without contrast, followed by reimaging with contrast 72128 CT thoracic spine , without contrast 72129 CT thoracic spine , with contrast 72130 CT thoracic spine , without contrast, followed by reimaging with contrast 72131 CT lumbar spine , without contrast 72132 CT lumbar spine ,\u2026 Search hits: spine: 176 surgery: 11 anthem: 1 hits on term, 186 in document, 2 in title. ARCHIVED Imaging of the Spine 2024-10-20 to 2025-11-14 Archived \u202672127 CT cervical spine , without contrast, followed by reimaging with contrast 72128 CT thoracic spine , without contrast 72129 CT thoracic spine , with contrast 72130 CT thoracic spine , without contrast, followed by reimaging with contrast 72131 CT lumbar spine , without contrast 72132 CT lumbar spine , with contrast 72133 CT lumbar spine ,\u2026 Search hits: spine: 176 surgery: 11 anthem: 1 hits on term, 187 in document, 1 in title. ARCHIVED Spine Surgery 2022-01-01 to 2022-06-11 and 2022-09-10 Archived \u2026neuro surgery Spine . 2014;21(1):7-13. Kaiser MG, Eck JC, Groff MW, et al. Guideline update for the performance of fusion procedures for degenerative disease of the lumbar spine . Part 17: bone growth stimulators as an adjunct for lumbar fusion. Journal of neuro surgery Spine . 2014;21(1):133-9. Kovacs FM, Urrutia G, Alarcon JD. Surgery versus\u2026 Search hits: spine: 90 surgery: 8 anthem: 4 hits on term, 142 in document, 2 in title. ARCHIVED Spine Surgery 2022-09-11 to 2022-12-31 Archived \u2026fusion. Journal of neuro surgery Spine . 2014;21(1):7-13. Kaiser MG, Eck JC, Groff MW, et al. Guideline update for the performance of fusion procedures for degenerative disease of the lumbar spine . Part 17: bone growth stimulators as an adjunct for lumbar fusion. Journal of neuro surgery Spine . 2014;21(1):133-9. Kovacs FM, Urrutia G, Alarcon\u2026 Search hits: spine: 93 surgery: 8 anthem: 1 hits on term, 142 in document, 2 in title. ARCHIVED Spine Surgery 2022-06-12 to 2022-09-10 Archived \u2026disorders. The spine journal: official journal of the North American Spine Society. 2011;11(1):64-72. Engquist M, Lofgren H, Oberg B. Surgery versus nonsurgical treatment of cervical radiculopathy: a prospective, randomized study comparing surgery plus physiotherapy with physiotherapy alone with a 2-year follow-up. Spine . 2013;38(20):1715-22. Engquist M, Lofgren H, Oberg B. A\u2026 Search hits: spine: 90 surgery: 8 anthem: 3 hits on term, 141 in document, 2 in title. ARCHIVED Spine Surgery 2022-01-01 to 2022-06-11 Archived \u2026disorders. The spine journal: official journal of the North American Spine Society. 2011;11(1):64-72. Engquist M, Lofgren H, Oberg B. Surgery versus nonsurgical treatment of cervical radiculopathy: a prospective, randomized study comparing surgery plus physiotherapy with physiotherapy alone with a 2-year follow-up. Spine . 2013;38(20):1715-22. Engquist M, Lofgren H, Oberg B. A\u2026 Search hits: spine: 90 surgery: 8 anthem: 2 hits on term, 140 in document, 2 in title. ARCHIVED Spine Surgery 2023-01-01 to 2023-09-09 Archived \u2026that the prior intervention was never administered. Cervical Decompression With or Without Fusion Description and Scope Cervical spine surgery is most commonly performed for radiculopathy or cervical myelopathy. The goal of surgery is adequate decompression of the nerve roots and/or spinal cord and stabilization of the spine . Cervical decompression is\u2026 Search hits: spine: 92 surgery: 8 anthem: 1 hits on term, 140 in document, 2 in title. ARCHIVED Spine Surgery 2023-09-10 to 2023-12-31 Archived \u2026from degenerative disorders. Spine J. 2011;11(1):64-72. Engquist M, Lofgren H, Oberg B. Surgery versus nonsurgical treatment of cervical radiculopathy: a prospective, randomized study comparing surgery plus physiotherapy with physiotherapy alone with a 2-year follow-up. Spine . 2013;38(20):1715-22. Engquist M, Lofgren H, Oberg B. A 5- to 8-year randomized study on the\u2026 Search hits: spine: 91 surgery: 41 anthem: 1 hits on term, 131 in document, 2 in title. ARCHIVED Spine Surgery 2024-01-01 [for Healthy Blue Louisiana Medicaid] to 2026-04-04 Archived \u2026 spine , posterior or posterolateral approach, 1 vertebral segment; thoracic 22214 Osteotomy of spine , posterior or posterolateral approach, 1 vertebral segment; lumbar 22216 Osteotomy of spine , posterior or posterolateral approach, 1 vertebral segment; each additional vertebral segment (List separately in addition to primary procedure) 22222 Osteotomy of spine , including discectomy, anterior\u2026 Search hits: spine: 91 surgery: 41 anthem: 1 hits on term, 131 in document, 2 in title. ARCHIVED Spine Surgery 2024-01-01 to 10-19 Archived \u2026not contained herein. 20930 Allograft, morselized, or placement of osteopromotive material, for spine surgery only (List separately in addition to code for primary procedure) 20931 Allograft, structural, for spine surgery only (List separately in addition to code for primary procedure) 20932 Allograft, includes templating, cutting, placement and internal fixation, when\u2026 Search hits: spine: 91 surgery: 41 anthem: 1 hits on term, 131 in document, 2 in title. Interventional Pain Management 2026-06-14 Current \u2026refractory axial low back pain not eligible for spine surgery . N Am Spine Soc J. 2024;19:100528. Wylde V, Dennis J, Beswick AD, et al. Systematic review of management of chronic pain after surgery . Br J Surg. 2017;104(10):1293-306. Xu L, Sun Z, Casserly E, Nasr C, Cheng J, Xu J. Advances\u2026 Search hits: spine: 71 anthem: 5 surgery: 4 hits on term, 121 in document, 0 in title. ARCHIVED Interventional Pain Management 2025-07-26 to 2026-06-14 [to 2026-09-19 for Anthem BC California] Archived \u2026 surgery plus physiotherapy with physiotherapy alone with a 2-year follow-up. Spine . 2013;38(20):1715-22. Fritz JM, Lurie JD, Zhao W, Whitman JM, Delitto AB, G. P.; Weinstein, J. N. Associations between physical therapy and long-term outcomes for individuals with lumbar spinal stenosis in the SPORT study. Spine J. 2014;14(8):1611-21. Fujiwara A, Watanabe\u2026 Search hits: spine: 60 anthem: 6 surgery: 1 hits on term, 92 in document, 1 in title. ARCHIVED Oncologic Imaging 2022-09-01 to 2022-11-05 and 2023-04-08 Archived \u2026thoracic spine , without contrast, followed by reimaging with contrast 72131 CT lumbar spine , without contrast 72132 CT lumbar spine , with contrast 72133 CT lumbar spine , without contrast, followed by reimaging with contrast 72141 MRI cervica\", \"text_truncated\": true}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EqwJCpABCBIYAipA1HqLDpxiDLDs6UR6FP9GA6CiIrcoMTEuN15neo5x73WUWVBItn/CS9yXAV6TgsVJdWv0PhhtKGvCnaUrY0GZwjIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAdPvwdUGEgxNa0YFF8a+SKJ98YUaDBAWxbOLTQJ78TxkyiIwKmZbqwgPnRRBjVX8j7UNT3stesaNkGTokobrDAAS1FI4IzunvWkLrTBM72g16XcIKsgHOh+2KbT+K7flKY0rTSWVTLQfsqIwqCt62Gk+AzI41PmritlBGo7MWNZ/9+6VOVQj6XXO/fqk+NT8M+v/k95tg8IZS/Cwhg5ijxZiP+wwWgJPEpSAELz2oTHDx3j0jdoExa8w09uhLMxYtHw134iPWtG9y0k22KpMFBaN7UmUq7t4T1UH88r+MfECZzM+1hr1pLCLVSYTryYmV3vYir6q1MWkRnDmIoqm3nutK7wlL8qrxytsT1YCWhduNbhgefEn4JtEr9/UDENpEJj+v7isRrnkGaGh1Gy5wz0md1Kd1qvJMZj8vGmQPrbjxszee2u49FTO8FaJDqpSc74YFlG5MnMNjKWKI0h3gPeWGgfl3eJa8jjsGOO59/N9df9OUqL9vwSAQ/pfWeWLdrGwkxZ/C8VLwc/lZ8FMXpve1idoEWjEJ3YbRkOzcYyF4PwR5RRmjjt4Hli5faB663VZovCm7o9l4feIrQw0m4c9aauASNwPlNSgy7jmTXKGobFgPjI8zy0kLk1aOKUfM5/d9ikAm2AvjvqcYyyNNFh341V9qaH2zuUfgIriAzlg/Q22bVO2Wu6c7sxge8A7DJ1eZJafrKjkSuvlr3BKLB36RjUMxOYix+64HyVG6WAmT479qD4VQzuUYd0yg1wZGfzyH4M5puTBC7Js2uO4i6raQIQCvLy0SR9Is+WJxVC066uWz1q0WJMhoAQjAsn8zbgU+o3Ho0+GfP4eUO2wQPKJUaBepg08gN6YbntuZcPXTvHSzoaMb1y+y9j9L0uddBtVvmdk7gz9aopJWS6jf0b5zx6MNj2s2wTPsAOFlJ4RG1ALyykbHrlm1osst+8F+9RsOA2LUm0X5CqIEYShpA7jCm6a0M61AEc/H5AD3NWWc402wPB05gbFsdT4GL/rrIigcH0Csk2YNGDaowxGcZ+vnFF9HgN3N89ttIGpKyEan7gCr/KUwiaHRDrRy9BcNr2TkS0BcauUI2UPKyQQoRrZV4KwR6XoYAcUnkxnu8W2d6YmPRB0yobw7QoBCbR3/rhmBmnsI11pHnvZUgSckc9GW0xLlWgLw+RN2Gt+hsJl65o9Xuaj7RWURyn1oDrbWJjP3HWIEZqtWQQnJcvkNbvQorp3MykAbI7nXCtWoDNOr2PojOPKOP0icO6cGekritqPPgkOgavRLn+mkXDE+qTLCv0WrFFaT0dz6muR+lhuItsyMvCZlYfZasQZx6LK0AKM0P90Kkx1x+2GfTShCpYsDkTw16GSkAFVQjKsuuYSogjrfRzpxdUpo/+I6BcYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01RyChpVo7rN7dTkR3h6TTTd",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15-updated-2026-01-01/?print=pdf"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_016NFYrXLrzUZZMQjomZ54HN",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"Spine Surgery\" Carelon \"Cervical Decompression With or Without Fusion\" \"conservative\" \"six weeks\" OR \"6 weeks\" clinical indications"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01RyChpVo7rN7dTkR3h6TTTd",
+     "content": "{\"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15-updated-2026-01-01/?print=pdf\", \"final_url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15-updated-2026-01-01/?print=pdf\", \"http_status\": 200, \"content_type\": \"text/html; charset=UTF-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Spine Surgery 2025-11-15 updated 2026-01-01 [for Wellpoint Massachusetts] | Carelon Clinical Guidelines and Pathways Clinical guidelines and pathways Archives Coming soon Carelon Medical Benefits Management clinical appropriateness guidelines and cancer treatment pathways Home 9 Current 9 Spine Surgery 2025-11-15 updated 2026-01-01 [for Wellpoint Massachusetts] Search for: Spine Surgery 2025-11-15 updated 2026-01-01 [for Wellpoint Massachusetts] Link to PDF Status: Updated codes 01/01/2026 Effective Date: 11/15/2025 Doc ID: MSK03-1125.1-UC0126 Last Review Date: 01/30/2025 Approval and implementation dates for specific health plans may vary. Please consult the applicable health plan for more details. Clinical Appropriateness Guidelines Musculoskeletal Appropriate Use Criteria: Spine Surgery Proprietary \u00a9 2026 Carelon Medical Benefits Management, Inc. All rights reserved. Table of Contents Description and Application of the Guidelines General Clinical Guideline Cervical Decompression With or Without Fusion Description and Scope Clinical Indications Exclusions References Codes Cervical Disc Arthroplasty Description and Scope Clinical Indications Contraindications Exclusions References Codes Lumbar Disc Arthroplasty Description and Scope Clinical Indications Contraindications Exclusions References Codes Lumbar Discectomy, Foraminotomy, and Laminotomy Description and Scope Clinical Indications Exclusions References Codes Lumbar Fusion and Treatment of Spinal Deformity (including Scoliosis and Kyphosis) Description and Scope Clinical Indications Exclusions References Codes Lumbar Laminectomy Description and Scope Clinical Indications Exclusions References Codes Noninvasive Electrical Bone Growth Stimulation Description Clinical Indications Exclusions References Codes Vertebroplasty/Kyphoplasty Description Clinical Indications Contraindications Exclusions References Codes Bone Graft Substitutes and Bone Morphogenetic Proteins Description and Scope General Considerations Clinical Indications Exclusions References Codes History Description and Application of the Guidelines The Carelon Clinical Appropriateness Guidelines (hereinafter \u201cthe Carelon Clinical Appropriateness Guidelines\u201d or the \u201cGuidelines\u201d) are designed to assist providers in making the most appropriate treatment decision for a specific clinical condition for an individual. The Guidelines establish objective and evidence-based criteria for medical necessity determinations, where possible, that can be used in support of the following: To establish criteria for when services are medically necessary To assist the practitioner as an educational tool To encourage standardization of medical practice patterns To curtail the performance of inappropriate and/or duplicate services To address patient safety concerns To enhance the quality of health care To promote the most efficient and cost-effective use of services The Carelon guideline development process complies with applicable accreditation and legal standards, including the requirement that the Guidelines be developed with involvement from appropriate providers with current clinical expertise relevant to the Guidelines under review and be based on the most up-to-date clinical principles and best practices. Resources reviewed include widely used treatment guidelines, randomized controlled trials or prospective cohort studies, and large systematic reviews or meta-analyses. Carelon reviews all of its Guidelines at least annually. Carelon makes its Guidelines publicly available on its website. Copies of the Guidelines are also available upon oral or written request. Additional details, such as summaries of evidence, a list of the sources of evidence, and an explanation of the rationale that supports the adoption of the Guidelines, are included in each guideline document. Although the Guidelines are publicly available, Carelon considers the Guidelines to be important, proprietary information of Carelon, which cannot be sold, assigned, leased, licensed, reproduced or distributed without the written consent of Carelon. Use of the Guidelines by any external AI entity without the express written permission of Carelon is prohibited. Carelon applies objective and evidence-based criteria, and takes individual circumstances and the local delivery system into account when determining the medical appropriateness of health care services. The Carelon Guidelines are just guidelines for the provision of specialty health services. These criteria are designed to guide both providers and reviewers to the most appropriate services based on a patient\u2019s unique circumstances. In all cases, clinical judgment consistent with the standards of good medical practice should be used when applying the Guidelines. Guideline determinations are made based on the information provided at the time of the request. It is expected that medical necessity decisions may change as new information is provided or based on unique aspects of the patient\u2019s condition. The treating clinician has final authority and responsibility for treatment decisions regarding the care of the patient and for justifying and demonstrating the existence of medical necessity for the requested service. The Guidelines are not a substitute for the experience and judgment of a physician or other health care professionals. Any clinician seeking to apply or consult the Guidelines is expected to use independent medical judgment in the context of individual clinical circumstances to determine any patient\u2019s care or treatment. The Guidelines do not address coverage, benefit or other plan specific issues. Applicable federal and state coverage mandates take precedence over these clinical guidelines, and in the case of reviews for Medicare Advantage Plans, the Guidelines are only applied where there are not fully established CMS criteria. If requested by a health plan, Carelon will review requests based on health plan medical policy/guidelines in lieu of the Carelon Guidelines. Pharmaceuticals, radiotracers, or medical devices used in any of the diagnostic or therapeutic interventions listed in the Guidelines must be FDA approved or conditionally approved for the intended use. However, use of an FDA-approved or conditionally approved product does not constitute medical necessity or guarantee reimbursement by the respective health plan. The Guidelines may also be used by the health plan or by Carelon for purposes of provider education, or to review the medical necessity of services by any provider who has been notified of the need for medical necessity review, due to billing practices or claims that are not consistent with other providers in terms of frequency or some other manner. General Clinical Guideline Clinical Appropriateness Framework Critical to any finding of clinical appropriateness under the guidelines for a specific diagnostic or therapeutic intervention are the following elements: Prior to any intervention, it is essential that the clinician confirm the diagnosis or establish its pretest likelihood based on a complete evaluation of the patient. This includes a history and physical examination and, where applicable, a review of relevant laboratory studies, diagnostic testing, and response to prior therapeutic intervention. The anticipated benefit of the recommended intervention is likely to outweigh any potential harms, including from delay or decreased access to services that may result (net benefit). Widely used treatment guidelines and/or current clinical literature and/or standards of medical practice should support that the recommended intervention offers the greatest net benefit among competing alternatives. There exists a reasonable likelihood that the intervention will change management and/or lead to an improved outcome for the patient. Providers may be required to submit clinical documentation in support of a request for services. Such documentation must a) accurately reflect the clinical situation at the time of the requested service, and b) sufficiently document the ordering provider\u2019s clinical intent. If these elements are not established with respect to a given request, the determination of appropriateness will most likely require a peer-to-peer conversation to understand the individual and unique facts that would justify a finding of clinical appropriateness. During the peer-to-peer conversation, factors such as patient acuity and setting of service may also be taken into account to the extent permitted by law. Simultaneous Ordering of Multiple Diagnostic or Therapeutic Interventions Requests for multiple diagnostic or therapeutic interventions at the same time will often require a peer-to-peer conversation to understand the individual circumstances that support the medical necessity of performing all interventions simultaneously. This is based on the fact that appropriateness of additional intervention is often dependent on the outcome of the initial intervention. Additionally, either of the following may apply: Current literature and/or standards of medical practice support that one of the requested diagnostic or therapeutic interventions is more appropriate in the clinical situation presented; or One of the diagnostic or therapeutic interventions requested is more likely to improve patient outcomes based on current literature and/or standards of medical practice. Repeat Diagnostic Intervention In general, repeated testing of the same anatomic location for the same indication should be limited to evaluation following an intervention, or when there is a change in clinical status such that additional testing is required to determine next steps in management. At times, it may be necessary to repeat a test using different techniques or protocols to clarify a finding or result of the original study. Repeated testing for the same indication using the same or similar technology may be subject to additional review or require peer-to-peer conversation in the following scenarios: Repeated diagnostic testing at the same facility due to technical issues Repeated diagnostic testing requested at a different facility due to provider preference or quality concerns Repeated diagnostic testing of the same anatomic area based on persistent symptoms with no clinical change, treatment, or intervention since the previous study Repeated diagnostic testing of the same anatomic area by different providers for the same member over a short period of time Repeat Therapeutic Intervention In general, repeated therapeutic intervention in the same anatomic area is considered appropriate when the prior intervention proved effective or beneficial and the expected duration of relief has lapsed. A repeat intervention requested prior to the expected duration of relief is not appropriate unless it can be confirmed that the prior intervention was never administered. Requests for ongoing services may depend on completion of previously authorized services in situations where a patient\u2019s response to authorized services is relevant to a determination of clinical appropriateness. Cervical Decompression With or Without Fusion Description and Scope Cervical spine surgery is commonly performed for cervical radiculopathy or myelopathy. The goal of surgery is adequate decompression of the nerve roots and/or spinal cord and stabilization of the spine. Cervical decompression may be performed with or without a fusion procedure and broadly divided into anterior, posterior, or combined surgical approach. The choice of procedure depends on several factors, including: Location of the compression Presence of deformity or instability Number of levels involved Patient age and surgical fitness Laminoplasty is a related procedure for achieving decompression without the need for fusion and is frequently used to treat multilevel central stenosis or ossification of the posterior longitudinal ligament (OPLL). This guideline addresses the following interventions when performed as elective, \", \"text_truncated\": true}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_016NFYrXLrzUZZMQjomZ54HN",
+     "content": "{\"query\": \"\\\"Spine Surgery\\\" Carelon \\\"Cervical Decompression With or Without Fusion\\\" \\\"conservative\\\" \\\"six weeks\\\" OR \\\"6 weeks\\\" clinical indications\", \"results\": [{\"title\": \"Spine Surgery 2025-11-15 updated 2026-01-01 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15-updated-2026-01-01/\", \"snippet\": \"Recurrent symptoms or functional ... at least 6 weeks of conservative management following confirmation of the diagnosis \u00b7 Implant/Instrumentation failure demonstrated on standard or advanced imaging showing malposition or other evidence of failure (e.g., subsidence, surrounding radiolucency, dislocation/subluxation, vertebral body fracture, or hardware breakage). For replacement or revision arthroplasty, see Cervical Disc Arthroplasty. Cervical decompression and/or fusion is considered ...\"}, {\"title\": \"ARCHIVED Spine Surgery 2024-10-20 to 2025-11-14 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2024-10-20/\", \"snippet\": \"Recurrent symptoms or functional ... at least 6 weeks of conservative management following confirmation of the diagnosis \u00b7 Implant/Instrumentation failure demonstrated on standard or advanced imaging showing malposition or other evidence of failure (e.g., subsidence, surrounding radiolucency, dislocation/subluxation, vertebral body fracture, or hardware breakage). For replacement or revision arthroplasty, see Cervical Disc Arthroplasty. Cervical decompression and/or fusion is considered ...\"}, {\"title\": \"Spine Surgery 2026-09-19 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2026-09-19/\", \"snippet\": \"<strong>Objective neurologic findings which correlate with a cervical nerve root impingement</strong> \u00b7 Progressive or severe neurologic deficits secondary to spinal cord or foraminal compression \u00b7 Unremitting radicular pain which has not responded to at least 6 weeks of appropriate conservative management ...\"}, {\"title\": \"ARCHIVED Spine Surgery 2023-01-01 to 2023-09-09 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2023-01-01/\", \"snippet\": \"Recurrent symptoms or functional impairment has not responded to at least 6 weeks of conservative management following confirmation of the diagnosis \u00b7 Implant/Instrumentation failure demonstrated on standard or advanced imaging showing malposition or other evidence of failure (e.g., subsidence, surrounding radiolucency, dislocation/subluxation, vertebral body fracture, or hardware breakage). For replacement or revision arthroplasty, see Cervical Disc Arthroplasty. Cervical decompression and/or fusion is considered medically necessary at the index level after a prior cervical disc arthroplasty when EITHER of the following criteria are met:\"}, {\"title\": \"ARCHIVED Spine Surgery 2024-01-01 to 10-19 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/archived-spine-surgery-2024-01-01-to-10-19/\", \"snippet\": \"Recurrent symptoms or functional ... at least 6 weeks of conservative management following confirmation of the diagnosis \u00b7 Implant/Instrumentation failure demonstrated on standard or advanced imaging showing malposition or other evidence of failure (e.g., subsidence, surrounding radiolucency, dislocation/subluxation, vertebral body fracture, or hardware breakage). For replacement or revision arthroplasty, see Cervical Disc Arthroplasty. Cervical decompression and/or fusion is considered ...\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "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",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01VkD1n4kV7VgbxPJGpvLkwq",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"Cervical Decompression With or Without Fusion\" \"Clinical Indications\" \"Radiculopathy\" carelon \"Anterior cervical discectomy and fusion\" \"is considered medically necessary\""
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01Vay2dfMJ5T5xyGqWzkJUDQ",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/CG-MSK-Spine-Surgery-2025-11-15.pdf"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01VkD1n4kV7VgbxPJGpvLkwq",
+     "content": "{\"query\": \"\\\"Cervical Decompression With or Without Fusion\\\" \\\"Clinical Indications\\\" \\\"Radiculopathy\\\" carelon \\\"Anterior cervical discectomy and fusion\\\" \\\"is considered medically necessary\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01Vay2dfMJ5T5xyGqWzkJUDQ",
+     "content": "{\"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/CG-MSK-Spine-Surgery-2025-11-15.pdf\", \"final_url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2025/11/CG-MSK-Spine-Surgery-2025-11-15.pdf\", \"http_status\": 404, \"content_type\": \"text/html\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"404 Not Found 404 Not Found nginx\", \"text_truncated\": false}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EtYECpABCBIYAipArni+iju3J4k0UKOXdvB9k4+rEHTgBi0r4bMcHpTYASNE6k49LNjPpPmvBy8uwB68aVo+MtXcpxjNuSSxjPEwSDIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAeLvwdUGEgwX9QeEYA0SDxCCvccaDI0N1XPwsbbEKtgN9CIwUbwiFXblPg6bUxuphMMhVGlWRYln7r3gDQLZnY19wMErEGpgu4BIXzjG0HAuetPfKvICLDYqsIh4EMQQFQxPLGE0eDdARpjlJMYWe54faYPGO6SfKSzXuAWMwfDNnlgyrfhluDUWO7WH/M1ue+M3RfC5UMsE71+BJja26Qvzf1TmWbY2PiASCaUZWux4lv6CLbMpeLYh7SeQZt1HclDU1UbvsAUzz/b3AzSAE13A8VU+ocddO5OtTRScbjBy9hG0H/hy0j0f66OWORf8dwA3pVct9mR6bKtSM4nWnL8274uVL9Gau1AWjkhBKeupotv2yxgBViTnR6SYISNxhus/Ku8bBVEQ5qb4nlK0mfrsRtUX71SRbIMKiXAJDz5WgJyJ8MB26SONumIp8dClXJQzGeutSYMOeg/AzblZwb9ig17nifWMvtaHkH+N0d++tvbnp/TukNMm8VwANHw/RMqraVETJ4LoQGhKiBgHPUTRYapsegtoPVONNE0BMLPREPqjwxH9FKCr5g2SoC//xr4Bxf37qpc/rZN7pLdhe2qvhFnT7G+2MhgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01SQRqmysnJ24eM8QrK1X7Xp",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "providernews.anthem.com PDF-Spine-Surgery 2025 OR 2026"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01FpwCYsx2j1siGrJGLRHgpB",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"Anterior cervical discectomy and fusion\" \"at least 6 weeks\" conservative management medically necessary carelon 2025"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01SQRqmysnJ24eM8QrK1X7Xp",
+     "content": "{\"query\": \"providernews.anthem.com PDF-Spine-Surgery 2025 OR 2026\", \"results\": [{\"title\": \"SURG.00071 Percutaneous Spinal Surgery\", \"url\": \"https://www.anthem.com/medpolicies/abc/active/mp_pw_a053367.html\", \"snippet\": \"2026; 12(1):14.Wang B, Song H, Wang T, et al. Clinical and radiological comparison of percutaneous cervical nucleoplasty combined with ultrasound-guided pulsed radiofrequency of cervical nerve root for cervical radicular pain: a retrospective, matched-cohort study. Front Pain Res (Lausanne). 2025; 6:1618608.\"}, {\"title\": \"Coverage requirements for bariatric, joint replacement, and spine surgeries - Provider News\", \"url\": \"https://providernews.anthem.com/new-york/articles/coverage-requirements-for-bariatric-joint-replacement-and-sp-28662\", \"snippet\": \"QHC compliance: <strong>attestation due June 30, 2026 for hospitals with more than 50 bedsMay 1, 2026 ... Bariatric, joint replacement (including hip, knee, ankle, and shoulder), and spine surgeries are covered exclusively through the 32BJ Lantern Surgery Care Network</strong>.\"}, {\"title\": \"January 2026 Provider Newsletter - Anthem\", \"url\": \"https://providernews.anthem.com/maine/publications/january-2026-provider-newsletter-5098\", \"snippet\": \"We cannot provide a description for this page right now\"}, {\"title\": \"Provider News\", \"url\": \"https://providernews.anthem.com/indiana/publications\", \"snippet\": \"July 1, 2026 \u2022 28 articles \u00b7 June 1, 2026 \u2022 11 articles\"}, {\"title\": \"Newsletters - Provider News - Anthem\", \"url\": \"https://providernews.anthem.com/virginia/publications\", \"snippet\": \"September 1, 2026 \u2022 27 articles \u00b7 August 1, 2026 \u2022 26 articles\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01FpwCYsx2j1siGrJGLRHgpB",
+     "content": "{\"query\": \"\\\"Anterior cervical discectomy and fusion\\\" \\\"at least 6 weeks\\\" conservative management medically necessary carelon 2025\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EtQLCpABCBIYAipAeaHkcfuvsG4OCN6QpcQoBapBfZz5/IktGYdO/sDBRMwRc5IxhL8l0iG53TFup9cDUBtBW1tZqcvW4KJ+/hc4kDIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAezvwdUGEgzbtO9j9+5bWL31Fr8aDPI/dqUxRiRuWZyB9yIwUASsSgUre/jAO8C/9xZXwRSwlq8gMDUifKAiwSh9WG3LnR/BnEuBRLUpya/lNTd+KvAJGQJr2MVUoURb8whdHvoZs2gQFMm/YyN/L317WPXEpO8Z6WTGoVyd5T9IcdSJQJddRIEB1Rt63QmQYJrteKCbIo5rRHrXzqF4+sBeoZvoUDd7fItmyq02vEv3RIy3PO9Lw08qSUC5lO8oVLsfJ6RJz7Tvh5LQAkK444Y06EKtXcBzPBxdYIaM8VCIbDq7xihhvse02Vz5X/o66mdv23YOATvepRg7P01ZXGnsv4o2T3cKfk4tnWy14qd7BXcyl1HQ5MblBSSuUaLnQEiBW6lgXIi7bW/dVVfPtG9Li9q7LtEm24/Ag9hlCCxYldiH40gsgxDkXnvbH4fVZArtEYNCCJD98BxqFE9Y5VkEe4nSDwE3HLVsAHCPUzBOQoMokxaLeToGmWoiZiCXdFSahbMNoz6IKJJ5lMe2M9xnRKAUd5iaw9nr7giQNqrJsFxlgdKzIHCGn5cPKlgfve/T71r4BcgazVRrfrAIzsyRL0VOG+XCiT+05GdIMRX0gT/Du2NFM/3lm0SeUq50ygUMUZfk+5Bz1pwfz9J2UXMmSO7b7iRkhVyoKtL46xwANeUCgk+qA6wQoGoI8IK66OHdUAir/Xaq5ZDk1ne4gWU+grY8EtMLXKF8W8u50XdwGLC1drJBU0/ekdnidqmid+utYIzcCmoQgmMqjGlslFQCsHT+SLw9U6Ey4hHy9+BEuw2pL8AyooYxV9vvNY6UxBe0iLPYFNq42eyoRnEm5F/Effc9NDW8FXHXv84lxoF5e7I6XeKj5ILELd6TSkofMvG6beztIy9drImP8KwrW4Q/poN8ZGHNrEa95uGuVglwaJulkv9VzjTu3CHkGIQHWmYCCCeJ83CdR3izSdFTVZEouHL83SZ235vLSsiiNLFE62aVVzi4Ri2EYziFbOVSnPYAUg1HDVJ3h2U+RhHqug2F0Z67uk9XGvBoknV5sWY3UMDjZiOu3LcSifg6WkkuGcf5WRCwTLIgdjG47whjGmj6RiimBx0E2xDbroTl9lfCwdD+gahtJFiIbuxkB5P+IbrVaw953ibOp0BjgvfAJ3IXoaWQuXbxVp19W73Y2V7nqaB0uisGlh5v6QDIapHiCZmk1UsDLOH5hxF2HCwux9WmTP9ALWZ3R67OqmuXHAvJk9Y9JcVb/PzASlHYU/K7ruJp2A+15DXV+svYRTTeDrvX/Rtzzs7gNn/uwrcqKqKsIlCacbWePQuNlmLgk864PCN2JBqWeiT9tnmlvCcz+KFvip2EloFpM0xKffgSY4wSw4JyvKg7dK2MmWsRYI4yiPfiIgElz1K09an29fx/1x2/TtI+6N8Xt1u5hQ5pMY0M7klaAJ/xv9oNboLs87fEx79Vftjy4lPfyKF+GPFuigCyRwvEUnMpuHMyqp9WGSc0QQE8yXv/on1WgItb5CZHSM6Sz12Z8VlBzmcPFwDe6MjbWDB9lj1T+LYSX2I2+2UmKL8xXvxG9kw+F/WFGBP9heu0ON31omJHDCGDYP79GIzYCdTqOCNqjE8hKv1wDhNsmTNiNiC12bPVgJO82JG/rOlAAX/4S4Q1UUezklL6tKfUIR1wH8d1VX002vthnsaQwwuvt6USY4Rs3zNIle5clqP/3VizabnZ93MNQoQFlHuWhShxZUJA3tmMWx7UCytGxHDNMlB2Af9lPRBcLd//eoJZqKPu2RgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01JwjNnKPm2MdXgKZQxZynms",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "carelon spine surgery \"Cervical decompression and/or fusion is considered medically necessary\" radiculopathy criteria"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01WUHCjWcxodkZU67bqMHasm",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "carelon spine surgery guideline cervical myelopathy \"medically necessary\" \"imaging\" \"correlate\" criteria list"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01JwjNnKPm2MdXgKZQxZynms",
+     "content": "{\"query\": \"carelon spine surgery \\\"Cervical decompression and/or fusion is considered medically necessary\\\" radiculopathy criteria\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01WUHCjWcxodkZU67bqMHasm",
+     "content": "{\"query\": \"carelon spine surgery guideline cervical myelopathy \\\"medically necessary\\\" \\\"imaging\\\" \\\"correlate\\\" criteria list\", \"results\": [{\"title\": \"ARCHIVED Spine Surgery 2024-10-20 to 2025-11-14 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2024-10-20/\", \"snippet\": \"Cervical laminectomy or laminoplasty is considered medically necessary for treatment of multilevel spinal stenosis of the cervical spine when ALL of the following criteria are met: Clinical signs and symptoms of myelopathy which may include loss of dexterity, urinary urgency, new-onset bowel or bladder incontinence, frequent falls, hyperreflexia, Hoffmann sign, increased tone or spasticity, gait abnormality, or pathologic Babinski sign \u00b7 Imaging studies which demonstrate cervical cord compression\"}, {\"title\": \"Spine Surgery 2025-11-15 updated 2026-01-01 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15/\", \"snippet\": \"Spondylotic cervical myelopathy when BOTH of the following criteria are met: Clinical signs and symptoms of myelopathy which may include loss of dexterity, urinary urgency, new-onset bowel or bladder incontinence, frequent falls, hyperreflexia, Hoffmann sign, increased tone or spasticity, gait abnormality, or pathologic Babinski sign \u00b7 Imaging studies which demonstrate cervical cord compression\"}, {\"title\": \"Spine Surgery 2026-09-19 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2026-09-19/\", \"snippet\": \"Cervical laminectomy or laminoplasty is considered medically necessary for treatment of multilevel spinal stenosis of the cervical spine when ALL the following criteria are met: Clinical signs and symptoms of myelopathy which may include loss of dexterity, urinary urgency, new-onset bowel or bladder incontinence, frequent falls, hyperreflexia, Hoffmann sign, increased tone or spasticity, gait abnormality, or pathologic Babinski sign \u00b7 Imaging studies which demonstrate cervical cord compression\"}, {\"title\": \"ARCHIVED Spine Surgery 2022-09-11 to 2022-12-31 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/archived-spine-surgery-2022-09-11-to-2022-12-31/\", \"snippet\": \"Documentation of a synovial cyst on CT or MRI performed within the past 6 months which correlates with symptoms and exam findings \u00b7 Degenerative cervical kyphosis when BOTH of the following criteria are met: Clinical signs and symptoms of myelopathy which may include loss of dexterity, urinary urgency, new-onset bowel or bladder incontinence, frequent falls, hyperreflexia, Hoffmann sign, increased tone or spasticity, gait abnormality, or pathologic Babinski sign \u00b7 Imaging studies which demonstrate cervical cord compression\"}, {\"title\": \"ARCHIVED Spine Surgery 2023-01-01 to 2023-09-09 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2023-01-01/\", \"snippet\": \"Documentation of a synovial cyst on CT or MRI performed within the past 6 months which correlates with symptoms and exam findings \u00b7 Degenerative cervical kyphosis when BOTH of the following criteria are met: Clinical signs and symptoms of myelopathy which may include loss of dexterity, urinary urgency, new-onset bowel or bladder incontinence, frequent falls, hyperreflexia, Hoffmann sign, increased tone or spasticity, gait abnormality, or pathologic Babinski sign \u00b7 Imaging studies which demonstrate cervical cord compression\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EpEECpABCBIYAipAQ0JZ7Yc8HjvhKJFedVdHkjnr5qLFi7MjeiK+TNw4BKERSRvprHx17nxkfd7Q/guzevIgybp7BGUoO7cxvMigijIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAfHvwdUGEgw16XNRXVDvfMsRsCEaDG2Hkf9XeMICo4bphiIwcQJbnZI7/FLSNNjfhwtRP9rfDk1HEZpAwQ3Vrf9QvjeXoh68OcPEKMlPbDCqJl42Kq0CIABEOACZ1vKXkJ51jLLclXpI18wJ5vir1hNUfhZsyuLMr7DYQb0QWH36UTrV3m9ujIyK/QFqkiaCsrkBVCWPVl+jG8P0ngygD95sKj2mMOS9SaUVI4/ZKbbJ695cxAZNs9Xqbn3L1bzp+ZlvW+WIx/MpHknSIfk0ZpwkjwoHr2OEeRJE6Y3K/hjWxLU3/gAGRj9tMYPDSDXGXbArb9AmQ2/9HCJq7h8LAScEr2yvHKFt4X/NX/vOYa7lDPXjPLdZTk/CbPww2piNFCA46Flqp9QLX2bHS9DbdfQxFC136Woj8RLZ0K1pkcjuAYQyH1GIlDqyfGdfamSEyFAmSVTE1FI2cdWM1UYvRVSs3siA/6ABLmbNznoXaDg+pjMwRc4XYXDSLW4N3YSPG437PhgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01QDNghrDAYtk31UVWuqDx9F",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15/"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_016mCqBFVWd2NQeo9z9jEH86",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "carelon spine surgery guideline \"Radiculopathy when ALL\" OR \"Radiculopathy is considered medically necessary\" cervical \"conservative\""
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01QDNghrDAYtk31UVWuqDx9F",
+     "content": "{\"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15/\", \"final_url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15-updated-2026-01-01/\", \"http_status\": 200, \"content_type\": \"text/html; charset=UTF-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Spine Surgery 2025-11-15 updated 2026-01-01 [for Wellpoint Massachusetts] | Carelon Clinical Guidelines and Pathways Clinical guidelines and pathways Archives Coming soon Carelon Medical Benefits Management clinical appropriateness guidelines and cancer treatment pathways Home 9 Current 9 Spine Surgery 2025-11-15 updated 2026-01-01 [for Wellpoint Massachusetts] Search for: Spine Surgery 2025-11-15 updated 2026-01-01 [for Wellpoint Massachusetts] Link to PDF Status: Updated codes 01/01/2026 Effective Date: 11/15/2025 Doc ID: MSK03-1125.1-UC0126 Last Review Date: 01/30/2025 Approval and implementation dates for specific health plans may vary. Please consult the applicable health plan for more details. Clinical Appropriateness Guidelines Musculoskeletal Appropriate Use Criteria: Spine Surgery Proprietary \u00a9 2026 Carelon Medical Benefits Management, Inc. All rights reserved. Table of Contents Description and Application of the Guidelines General Clinical Guideline Cervical Decompression With or Without Fusion Description and Scope Clinical Indications Exclusions References Codes Cervical Disc Arthroplasty Description and Scope Clinical Indications Contraindications Exclusions References Codes Lumbar Disc Arthroplasty Description and Scope Clinical Indications Contraindications Exclusions References Codes Lumbar Discectomy, Foraminotomy, and Laminotomy Description and Scope Clinical Indications Exclusions References Codes Lumbar Fusion and Treatment of Spinal Deformity (including Scoliosis and Kyphosis) Description and Scope Clinical Indications Exclusions References Codes Lumbar Laminectomy Description and Scope Clinical Indications Exclusions References Codes Noninvasive Electrical Bone Growth Stimulation Description Clinical Indications Exclusions References Codes Vertebroplasty/Kyphoplasty Description Clinical Indications Contraindications Exclusions References Codes Bone Graft Substitutes and Bone Morphogenetic Proteins Description and Scope General Considerations Clinical Indications Exclusions References Codes History Description and Application of the Guidelines The Carelon Clinical Appropriateness Guidelines (hereinafter \u201cthe Carelon Clinical Appropriateness Guidelines\u201d or the \u201cGuidelines\u201d) are designed to assist providers in making the most appropriate treatment decision for a specific clinical condition for an individual. The Guidelines establish objective and evidence-based criteria for medical necessity determinations, where possible, that can be used in support of the following: To establish criteria for when services are medically necessary To assist the practitioner as an educational tool To encourage standardization of medical practice patterns To curtail the performance of inappropriate and/or duplicate services To address patient safety concerns To enhance the quality of health care To promote the most efficient and cost-effective use of services The Carelon guideline development process complies with applicable accreditation and legal standards, including the requirement that the Guidelines be developed with involvement from appropriate providers with current clinical expertise relevant to the Guidelines under review and be based on the most up-to-date clinical principles and best practices. Resources reviewed include widely used treatment guidelines, randomized controlled trials or prospective cohort studies, and large systematic reviews or meta-analyses. Carelon reviews all of its Guidelines at least annually. Carelon makes its Guidelines publicly available on its website. Copies of the Guidelines are also available upon oral or written request. Additional details, such as summaries of evidence, a list of the sources of evidence, and an explanation of the rationale that supports the adoption of the Guidelines, are included in each guideline document. Although the Guidelines are publicly available, Carelon considers the Guidelines to be important, proprietary information of Carelon, which cannot be sold, assigned, leased, licensed, reproduced or distributed without the written consent of Carelon. Use of the Guidelines by any external AI entity without the express written permission of Carelon is prohibited. Carelon applies objective and evidence-based criteria, and takes individual circumstances and the local delivery system into account when determining the medical appropriateness of health care services. The Carelon Guidelines are just guidelines for the provision of specialty health services. These criteria are designed to guide both providers and reviewers to the most appropriate services based on a patient\u2019s unique circumstances. In all cases, clinical judgment consistent with the standards of good medical practice should be used when applying the Guidelines. Guideline determinations are made based on the information provided at the time of the request. It is expected that medical necessity decisions may change as new information is provided or based on unique aspects of the patient\u2019s condition. The treating clinician has final authority and responsibility for treatment decisions regarding the care of the patient and for justifying and demonstrating the existence of medical necessity for the requested service. The Guidelines are not a substitute for the experience and judgment of a physician or other health care professionals. Any clinician seeking to apply or consult the Guidelines is expected to use independent medical judgment in the context of individual clinical circumstances to determine any patient\u2019s care or treatment. The Guidelines do not address coverage, benefit or other plan specific issues. Applicable federal and state coverage mandates take precedence over these clinical guidelines, and in the case of reviews for Medicare Advantage Plans, the Guidelines are only applied where there are not fully established CMS criteria. If requested by a health plan, Carelon will review requests based on health plan medical policy/guidelines in lieu of the Carelon Guidelines. Pharmaceuticals, radiotracers, or medical devices used in any of the diagnostic or therapeutic interventions listed in the Guidelines must be FDA approved or conditionally approved for the intended use. However, use of an FDA-approved or conditionally approved product does not constitute medical necessity or guarantee reimbursement by the respective health plan. The Guidelines may also be used by the health plan or by Carelon for purposes of provider education, or to review the medical necessity of services by any provider who has been notified of the need for medical necessity review, due to billing practices or claims that are not consistent with other providers in terms of frequency or some other manner. General Clinical Guideline Clinical Appropriateness Framework Critical to any finding of clinical appropriateness under the guidelines for a specific diagnostic or therapeutic intervention are the following elements: Prior to any intervention, it is essential that the clinician confirm the diagnosis or establish its pretest likelihood based on a complete evaluation of the patient. This includes a history and physical examination and, where applicable, a review of relevant laboratory studies, diagnostic testing, and response to prior therapeutic intervention. The anticipated benefit of the recommended intervention is likely to outweigh any potential harms, including from delay or decreased access to services that may result (net benefit). Widely used treatment guidelines and/or current clinical literature and/or standards of medical practice should support that the recommended intervention offers the greatest net benefit among competing alternatives. There exists a reasonable likelihood that the intervention will change management and/or lead to an improved outcome for the patient. Providers may be required to submit clinical documentation in support of a request for services. Such documentation must a) accurately reflect the clinical situation at the time of the requested service, and b) sufficiently document the ordering provider\u2019s clinical intent. If these elements are not established with respect to a given request, the determination of appropriateness will most likely require a peer-to-peer conversation to understand the individual and unique facts that would justify a finding of clinical appropriateness. During the peer-to-peer conversation, factors such as patient acuity and setting of service may also be taken into account to the extent permitted by law. Simultaneous Ordering of Multiple Diagnostic or Therapeutic Interventions Requests for multiple diagnostic or therapeutic interventions at the same time will often require a peer-to-peer conversation to understand the individual circumstances that support the medical necessity of performing all interventions simultaneously. This is based on the fact that appropriateness of additional intervention is often dependent on the outcome of the initial intervention. Additionally, either of the following may apply: Current literature and/or standards of medical practice support that one of the requested diagnostic or therapeutic interventions is more appropriate in the clinical situation presented; or One of the diagnostic or therapeutic interventions requested is more likely to improve patient outcomes based on current literature and/or standards of medical practice. Repeat Diagnostic Intervention In general, repeated testing of the same anatomic location for the same indication should be limited to evaluation following an intervention, or when there is a change in clinical status such that additional testing is required to determine next steps in management. At times, it may be necessary to repeat a test using different techniques or protocols to clarify a finding or result of the original study. Repeated testing for the same indication using the same or similar technology may be subject to additional review or require peer-to-peer conversation in the following scenarios: Repeated diagnostic testing at the same facility due to technical issues Repeated diagnostic testing requested at a different facility due to provider preference or quality concerns Repeated diagnostic testing of the same anatomic area based on persistent symptoms with no clinical change, treatment, or intervention since the previous study Repeated diagnostic testing of the same anatomic area by different providers for the same member over a short period of time Repeat Therapeutic Intervention In general, repeated therapeutic intervention in the same anatomic area is considered appropriate when the prior intervention proved effective or beneficial and the expected duration of relief has lapsed. A repeat intervention requested prior to the expected duration of relief is not appropriate unless it can be confirmed that the prior intervention was never administered. Requests for ongoing services may depend on completion of previously authorized services in situations where a patient\u2019s response to authorized services is relevant to a determination of clinical appropriateness. Cervical Decompression With or Without Fusion Description and Scope Cervical spine surgery is commonly performed for cervical radiculopathy or myelopathy. The goal of surgery is adequate decompression of the nerve roots and/or spinal cord and stabilization of the spine. Cervical decompression may be performed with or without a fusion procedure and broadly divided into anterior, posterior, or combined surgical approach. The choice of procedure depends on several factors, including: Location of the compression Presence of deformity or instability Number of levels involved Patient age and surgical fitness Laminoplasty is a related procedure for achieving decompression without the need for fusion and is frequently used to treat multilevel central stenosis or ossification of the posterior longitudinal ligament (OPLL). This guideline addresses the following interventions when performed as elective, \", \"text_truncated\": true}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_016mCqBFVWd2NQeo9z9jEH86",
+     "content": "{\"query\": \"carelon spine surgery guideline \\\"Radiculopathy when ALL\\\" OR \\\"Radiculopathy is considered medically necessary\\\" cervical \\\"conservative\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "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",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01AEwmf59qGCGBfC4R9XGvYV",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"Objective neurologic findings which correlate with a cervical nerve root impingement\" carelon spine surgery"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01QwmtZffaDTXXkxRQT8AaEj",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "carelon spine surgery \"Radiculopathy\" \"is considered medically necessary when\" cervical \"ANY of the following\""
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01AEwmf59qGCGBfC4R9XGvYV",
+     "content": "{\"query\": \"\\\"Objective neurologic findings which correlate with a cervical nerve root impingement\\\" carelon spine surgery\", \"results\": [{\"title\": \"Spine Surgery 2025-11-15 updated 2026-01-01 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15/\", \"snippet\": \"Objective neurologic findings which correlate with a cervical nerve root impingement, <strong>progressive or severe neurologic deficits secondary to spinal cord or foraminal compression, and/or unremitting radicular pain which has not responded to at least 6 weeks of appropriate conservative management</strong> ...\"}, {\"title\": \"ARCHIVED Spine Surgery 2024-10-20 to 2025-11-14 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2024-10-20/\", \"snippet\": \"Objective neurologic findings which correlate with a cervical nerve root impingement, <strong>progressive or severe neurologic deficits secondary to spinal cord or foraminal compression, and/or unremitting radicular pain which has not responded to at least 6 weeks of appropriate conservative management</strong> ...\"}], \"result_count\": 2, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01QwmtZffaDTXXkxRQT8AaEj",
+     "content": "{\"query\": \"carelon spine surgery \\\"Radiculopathy\\\" \\\"is considered medically necessary when\\\" cervical \\\"ANY of the following\\\"\", \"results\": [{\"title\": \"Imaging of the Spine 2024-10-20 [for Anthem BCBS Ohio Medicaid] | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/imaging-of-the-spine-2024-10-20/\", \"snippet\": \"CT cervical, thoracic, or lumbar ... in EITHER of the following scenarios: <strong>Radiculopathy with neurologic findings suggesting nerve root or cord compression that has not previously been imaged or has progressed since imaging was performed</strong>...\"}], \"result_count\": 1, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EqYECpABCBIYAipAntGjSffiZIYYFNHdP711RxA/rXOuvE9MCt4hmuUaU7oy5Z4R7X/NJl6HsDR8YNg2hLYLDC9002XVEQNUy0UzQDIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAYDwwdUGEgwR9+scKYiqcpmf4aAaDIaai1w3WMui4CORHSIwKz3MXMZ/ooo0ihvcGqc+gSwOk+OCi+Xnh8282N+qqkKQ8ZQNjZx7RcNnnXTPUNKLKsIChelVRTXAf019p7O5MzMMXiCTR9EM6rHJRg81PQ0vnjKG03wEOh3SU8UALoUf30RB5sp0VLhWa9S2Y0scqpAZfW/sfTkm4iy82mniWYa8qJHpL114OKx1pw+ttiglgqrUJY7HkbQX7ZvwuNCLqf6EplA+ht4ROrvqcMIlGNtSQUO8R+/HyR9GaUMpZ4E5cgX7aR/E61fuOP3zNLwIahCKCadKkVz5zcMp6BBRHKFlLRetxL8uLXf/A7pRVrgkgx4gXgoP7YUlgphvdH+JX84Uy0KdAqx90AmUevhy4FXBycz+6J2mJ3hZZ3jj2xyMYpD0gLjm+4THi8SlwJbQdUp6JGG9zTAcMmNZJD3eNHY5yE1ANCm+4voE36890PLb5cNmxb93coRcBTyhNwJxxXnkZhkUXPNhE5SU40Hzp6eP8e2MFBgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_0127SbPcPZecPVSVR5xJGxMZ",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "carelon spine surgery cervical radiculopathy \"one or more of the following\" \"correlate\" imaging nerve root compression 2025-11-15"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01AwggKxP3ogjUsmXbDzJfFT",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"unremitting radicular pain which has not responded to at least 6 weeks of appropriate conservative management\" AND (\"imaging\" OR \"MRI\") carelon"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_0127SbPcPZecPVSVR5xJGxMZ",
+     "content": "{\"query\": \"carelon spine surgery cervical radiculopathy \\\"one or more of the following\\\" \\\"correlate\\\" imaging nerve root compression 2025-11-15\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01AwggKxP3ogjUsmXbDzJfFT",
+     "content": "{\"query\": \"\\\"unremitting radicular pain which has not responded to at least 6 weeks of appropriate conservative management\\\" AND (\\\"imaging\\\" OR \\\"MRI\\\") carelon\", \"results\": [{\"title\": \"Spine Surgery 2025-11-15 updated 2026-01-01 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15-updated-2026-01-01/\", \"snippet\": \"When imaging studies demonstrate nerve root compression due to herniated disc or spondylotic osteophyte correlating with the distribution of signs and symptoms, and ANY of the following criteria apply: Objective neurologic findings which correlate with a cervical nerve root impingement \u00b7 Progressive or severe neurologic deficits secondary to spinal cord or foraminal compression \u00b7 Unremitting radicular pain which has not responded to at least 6 weeks of appropriate conservative management (physical therapy optional)\"}, {\"title\": \"carelon.com Status: Revised Effective Date: 09/10/2023 Doc ID: MSK03-0923.2\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/wp-content/uploads/2023/04/PDF-Spine-Surgery-2023-09-10.pdf\", \"snippet\": \"severe neurologic deficits secondary to spinal cord or foraminal compression, and/or unremitting radicular \u00b7 pain which has not responded to at least 6 weeks of appropriate conservative management (physical\"}, {\"title\": \"Imaging of the Spine 2025-11-15 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/imaging-of-the-spine-2025-11-15/\", \"snippet\": \"Persistent and significant neurogenic symptoms (claudication or radicular pain) with functional impairment, unresponsive to at least 3 months of conservative management \u00b7 *Lower thresholds for Cobb angle and/or nonsurgical management may be appropriate in patients with high-risk features ... Note: For pediatric patients who may require imaging of a significant portion of the spine or the entire spine, MRI should be considered to minimize radiation exposure.\"}, {\"title\": \"ARCHIVED Spine Surgery 2024-10-20 to 2025-11-14 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2024-10-20/\", \"snippet\": \"When imaging studies demonstrate nerve root compression due to herniated disc or spondylotic osteophyte correlating with the distribution of signs and symptoms, and ANY of the following criteria apply: Objective neurologic findings which correlate with a cervical nerve root impingement \u00b7 Progressive or severe neurologic deficits secondary to spinal cord or foraminal compression \u00b7 Unremitting radicular pain which has not responded to at least 6 weeks of appropriate conservative management (physical therapy optional)\"}, {\"title\": \"ARCHIVED Spine Surgery 2022-01-01 to 2022-06-11 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/archived-spine-surgery-01-01-22-to-06-11-22/\", \"snippet\": \"Imaging studies which demonstrate cervical cord compression \u00b7 <strong>Cervical radiculopathy</strong> when ALL of the following requirements are met: Progressive neurologic deficits (with or without associated pain) OR unremitting severe radicular pain (with or without associated neurologic deficits) Failure ...\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EsULCpABCBIYAipAub4WvF3Pn8L2g6ZI6PWrEm4FuEQ1LiPzhnlZ9m2SsjD0QxkHCZClg4qCYJgMPu7FixaAyrk+zskDBT6JlMW+XjIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAYfwwdUGEgxxDqF8h5euvw6L3sYaDMWLOyudZ89G+hui7SIwO9cfIRuN3yrWRn4dcxEONipbvY72dMK4QXIQpuNOMGujTsR4Ezbj2mcquwLbqBNGKuEJwuGEMZ4Pq8g6airL0zsziIb2nnzIapRLtqI+3+hkMXXBExy+AceLE3K3t8ULl6IL/1W5JSiyy/jMo2byub3hFcFAbBxiFF0T9E0T1PAPiQxVIFKxPqyQyVOSRemyiQO+RPBJVZhFaAA4R3yvEV44ctf6D9gUWAopZTMqH8WLMjz4GFD4BlEbhjT42DS2bA8T9RK4BOsi4cJcfNv74xKG2hh1chewZ1p5c7A51akG/B8QE0B4bC1VznP3hV0WEteh6L3dh7+ci3hi+RNIWPcK4W9o6JPaEweyl3QrXgrYRZ0hKLFzfgiQurhJ52sS9YWNOBtq74j/bP3SZ1AiRGkrIFkTZRBTJ2UDGgDzJ+DlPIsOrBf5Nl5kqxG7Xfen87pE49cjyeGC1Xo43pntvfm/DnPbyHqNS5oPjI9UideO4H4phaY01MRDq/rJ305vUpf5yPRyNUGBidyugwJkE+py8FIx8BcnvEiAVANNU9tMZCBWs8gUJgXA05RSvqe5swO2rVKKTAMMkD0Q1VDQgK69bOShO2XAQj6nuYX3UWdQPQaoxlOjVoUIl5msPU6D3TPzNWbR7yJUc+gS9R8wZwZDC8vHOsT/J2NvNBh8s+lvTT9bWWYIp9y5T76aQxKZDJOwWfYAthtAdgcqLWgfi+BFlNjJx6Qw38odPYVLEIdKA+Wd+tNzhGV6r56zXarehCfI/kkkzeQ4jsXtK7M5GV5BYANeqHL3zj+dDpvdCRGaFdiF7VgLBw/VWqoeT09jt/DrTgquP8V3aXQNe+L01JMTPj/SUn0M2YOOQ1Py4i4ALWZh/v5Kal3JtuYBsQ/e9DunsWJ2cjHYQubM0ZAt77z+IU7xh0uprs3N8ewectwEbPoZcl2mj4TQU2GA7ilQFMkZS9H21YCHKQljUBRzRvPE2yJcunzhrmDyaaP45IZPcXnxeIgKtj71uEHgFlKkJNq4joZcHwF7sYjfkjVCfq5xccC7/dOrc3nwNt8xHOtpsligcVZnkep6A7NaMgdjiXfLyvT7CATWq94VFR3RF6JISHPpxYuSyYP9q+Sq4j6m3Zg1FBeQt488rvBatfYcL1J97olgOAAijVwGe8aSEu+Lr7mRN4fW6lIK5ZOtfqMq1rkyAUuqfUK04dhTqf7UMmMLNJcc1D0EMMthYRiIcmNo0CEV9x6p4rrBGZVo5T0FsfpxcOTL3m8/ZrZB6IzokrWOPE6oA8XYoRY+TCMt/0+r44fN+shlgVgTIULhy1j3zDXBZhtw6wCpNtjVsX/SJ4f6YmJ02iLJqAplS7TwN8GAxbBr7kSxO8NPcUyRbgbvi3OENEhvMQ0yH/K3wTQtIKSkT7hJ/IKNKcoml8YDpV/DMfixNRlHT1dvbwj2n0hTTbw2U9n7gzt2+fsAwpmFwWkL8iebYZIK72ivAikPj8zbVgNKaZSW3KfrrdVX5GZWiqrM8An1EmVT15Lekf4o/zttAbiRHhMf5DSo8OSRNgslY/UKgeX0Kn6Lx2JKGbUolmmHiMAWQT+LsMI0Q0TLdm5+YInfsL5atVsJReutzVn1xjx/r8IVpss/kEenKSA/8NcWQj25GKtLrP+MvK35R+mgqk0PVt0L9FvAsejrrGoK05oCDN5p5i2fEEWuBJGVNiG/eZbtxJZypK66sCAUndKJBBgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01PjzmcfioCeWRTdRNscFnTT",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "carelon spine surgery \"Cervical Decompression\" \"Clinical Indications\" \"Radiculopathy\" heading \"is considered medically necessary\" \"When imaging studies demonstrate nerve root compression\""
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01PBbKHHjUiaSC3Sr22rEghy",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Anthem Kentucky appeal process member \"180 days\" \"how to file an appeal\" address grievance"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01PjzmcfioCeWRTdRNscFnTT",
+     "content": "{\"query\": \"carelon spine surgery \\\"Cervical Decompression\\\" \\\"Clinical Indications\\\" \\\"Radiculopathy\\\" heading \\\"is considered medically necessary\\\" \\\"When imaging studies demonstrate nerve root compression\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01PBbKHHjUiaSC3Sr22rEghy",
+     "content": "{\"query\": \"Anthem Kentucky appeal process member \\\"180 days\\\" \\\"how to file an appeal\\\" address grievance\", \"results\": [{\"title\": \"Appeals | Anthem.com\", \"url\": \"https://mss.anthem.com/california-mmp/benefits/coverage-decisions/appeals.html\", \"snippet\": \"If your doctor or other provider ... you have the right to ask for a State Hearing. In most cases you have 180 days to <strong>ask for a State Hearing after the date on your notice of appeal resolution</strong>....\"}, {\"title\": \"How and When to File an Appeal | Kentucky \u2013 Marketplace | CareSource\", \"url\": \"https://www.caresource.com/ky/members/tools-resources/grievance-appeal/file-appeal/marketplace/\", \"snippet\": \"You must <strong>submit an internal appeal to us within 180 days of receiving the adverse benefit determination</strong>.\"}], \"result_count\": 2, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EoUDCpABCBIYAipANEE3bsxJWR6LZEdxsEg0WWLJJvMQXtvJhWjYIYgkjKCNT5Zq6SaGeA4ShBBTeLlTP3Z2wHmhdeyr3lK2SgFO9TIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAYzwwdUGEgx6ND11uQsOn0Qlq2caDB6WwtBRLGJ3HX41OyIwXziWhhQxWsKe/DH3+YUgDmIghYkjKrZWeVlnAoUUJN2bcdrN3JI3WyvszvPvPQa4KqEBnItmzVdHq99KAgER0RX3qhVxQXTouI6r6zBWqHt3e4J5jT/taHaeTcwYdSoDmKdXP20HTNNBa0O9lhzVDjpcU4qNzixVOIw/R5ukHfYinrqtypkGkdT8OuV27OvMG/GD9SNNO20b6gt69xVpKFBi9hTAdX4z8l5e7uxox8CAi+ZFsDzhQodPVu853pDx35N0rRn3NMacfnrMjMtABaoi5FwYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01FdhTjU9GrQUdS2p7t7KBwH",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Anthem Blue Cross Blue Shield Kentucky member appeal adverse benefit determination submit fax address \"Grievances and Appeals\""
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01WWhpMYBynxCRAMojzXorcs",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://www.anthem.com/ky/member/coverage/appeals-grievances"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01FdhTjU9GrQUdS2p7t7KBwH",
+     "content": "{\"query\": \"Anthem Blue Cross Blue Shield Kentucky member appeal adverse benefit determination submit fax address \\\"Grievances and Appeals\\\"\", \"results\": [{\"title\": \"Process for Submitting Member Grievances and Appeals to Anthem Blue Cross\", \"url\": \"https://storage.googleapis.com/sbselect-com/uploads/Anthem%20Grievance%20Reference%20Guide%20072809.pdf\", \"snippet\": \"their grievance/appeal or submit additional information, contact the Anthem Blue Cross Grievance and \u00b7 Appeal Department at 800- 365-0609 or TTD line 866- 333-4823 for the speech and hearing-impaired. ... <strong>P.O. Box 4310</strong> ... Grievance\u201d and print the grievance form, complete it, and mail it ...\"}, {\"title\": \"Member Grievances and Appeals Process Update \u2013 Effective Immediately\", \"url\": \"https://humboldtipa.com/forms/Anthem%20Member%20Grievances%20and%20Appeals%20Process.pdf\", \"snippet\": \"Anthem Blue Cross and some Anthem Blue Cross Life and Health plans require Members to file an appeal or grievance with us \u00b7 no later than 180 days following the date they received a denial notice or the date of an incident or dispute. G&amp;A will follow the \u00b7 timeframe limit that is specified in the G&amp;A Member\u2019s Evidence of Coverage (EOC) or Summary Plan Description (SPD). If the date \u00b7 of the last denial notice or the date of the incident or dispute cannot be determined, G&amp;A will proceed with the appeal or grievance\"}, {\"title\": \"anthem-member-grievance-form.pdf\", \"url\": \"https://health.ucdavis.edu/media-resources/patient-relations/documents/pdfs/anthem-member-grievance-form.pdf\", \"snippet\": \"The Blue \u00b7 Cross name and symbol are registered marks of the Blue Cross Association. ... You may use this form to submit a grievance. Please attach any information you have to support the request. Send the form and any supporting information to: <strong>Grievances and Appeals, P.O.</strong>\"}, {\"title\": \"Grievances | Anthem.com\", \"url\": \"https://mss.anthem.com/california-mmp/benefits/coverage-decisions/grievances.html\", \"snippet\": \"For more information about how to ask for coverage determinations and submit grievances and appeals, see Chapter 9 in your Member Handbook (Evidence of Coverage) or call Member Services.\"}, {\"title\": \"Rights and Responsibilities - Anthem Blue Cross\", \"url\": \"https://providers.anthem.com/california-provider/our-network/member-rights-and-responsibilities\", \"snippet\": \"Grievances relating to the operation of the plan including benefit interpretation, claim processing, and reimbursement. Provider appeals of claim determinations including medical reviews related to adverse benefit determinations.\"}], \"result_count\": 5, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01WWhpMYBynxCRAMojzXorcs",
+     "content": "{\"url\": \"https://www.anthem.com/ky/member/coverage/appeals-grievances\", \"final_url\": \"https://www.anthem.com/ky/member/coverage/appeals-grievances/\", \"http_status\": 404, \"content_type\": \"text/html; charset=UTF-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"\", \"text_truncated\": false}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EuEICpABCBIYAipAB1NvUx+cMlEchHFwrQgWvkLbqcDlIFbacyDkq/Rj1BADTSF0gQf47qpfrRYEBJ/x3CE87tdxAQt6W6Ih2RI7cjIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAZPwwdUGEgwCXSnHvoBf0MtoNH0aDFC5KdgBRBB2rkMrDSIwE05Mfug7xw/LXLgHH7mLf1gfVNV3U/zzcsHBxiBtO7urIEH8ZICuPOLAWRvfJ8XPKv0G/D0y/D9eB88BOgDpszWicdz6Yv8PN8Ee+AdATwp/cy/0RpbadgVMPEmE1anfnWPfZx33GP3GWxX8DkTQX/yILjczUDRDFbW2aUi8hjX/9fm02h++nrA3zJPiLrslgpPrb9mfia159FspdBP7OI2sobZ/FR9VVd8ZTVzNLqkuwyuZn9eQse+3JZvfleY4RgGPaSusMvGA6jTG9/4c2nXWe/UfXi+JyihlTqzJxpUoTQXmWKHzB6XT4oWIsW/3W7Lgd+K0lF2QE27RbGrWWtU1gIZO8+rrQcOdOOvgWHaj+peC0f77U45AQhhR82lQuMIzCKZT6XbtbpaNjn4LzLYluhMMqCyE2yCmv2X16syckMZ8Smek64feIFBvwxjvRJlttHLtPdvuG4SlaypvYBVh+5yUad9akS378CUVyihaBDRZ6JqgiiJ9t9ljdirWXRqgb+fZos8qD6dDCbI2kGrKMPVOU8f/8Gc0S8Eq5Ot4EWUsmnpViU1DJKCrb+m/lS/5V7/MYahMCRzpPjDls4bM0rW/Fyh1i0DGsvmFyUZoeG1M1+x8WtDLq8Uui4FuS4i7ZtXJ0EFWHsy6/1SYSLeWWAT2AOjLTF6VR2Z0I/iqGVYm9z3cqCA8LP/A12xzDOZSJ+OXjdmqxzSoip80BCfHiZUwX/Na2ci4qDFSic/CZr6OXPjGxyjbPcIstIZtJKiNnmEeZpHvMmo7nRFOuRIpnl3nJr87tXhUdWL7nrHrPM1Fz55QvtnAUZNntBFnj2TmkuxgslnSanJqtGpHZ5S+55ojLANAi4b+e2S50GSf0Bn88oJtSsB4wHIFN4NLxTWfJyrC9kJCuwuK0Mx4SAXG4jnCSuxHwRFe2Ym0O3GglJevcbBspnl9jw4tVRT+6NLk6/fVcBqsnQjjSyQv2QPlTLyU4W60XCcGPuNqtc2TrdWFh5cJGAVV4XFXQGM1lqVBjGoZwqt7yBD6UecP6ZECGAwMiI/O0q3wAnGjQ/VCNXjx0aSTAkVgE2ly/odk2OXHEkU0pfR4eizihmX1q1eq0vm9wKjlLHjFzSkLHlisRey2gvtXyqL27bb5PJbIbePGJnkolVEgtW8tSyoWYwxPkrifOOvPZktCGgD8xv9fsHyyiL9ltppEGKEaiZI0hXZ7+CpGnaIeQNTPLORU+e2ySVoHCkXdBNvpXUL7iiIYAQ==",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01NEnX86rTZLkna9PwsKgd5f",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"Anthem\" Kentucky \"member appeals\" P.O. Box address fax commercial \"medical necessity\" 2025"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01Q4o4wbmi6bhqKfeMmeBadZ",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Anthem Blue Cross Blue Shield \"P.O. Box 105568\" OR \"P.O. Box 105187\" member appeals Kentucky"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01NEnX86rTZLkna9PwsKgd5f",
+     "content": "{\"query\": \"\\\"Anthem\\\" Kentucky \\\"member appeals\\\" P.O. Box address fax commercial \\\"medical necessity\\\" 2025\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01Q4o4wbmi6bhqKfeMmeBadZ",
+     "content": "{\"query\": \"Anthem Blue Cross Blue Shield \\\"P.O. Box 105568\\\" OR \\\"P.O. Box 105187\\\" member appeals Kentucky\", \"results\": [{\"title\": \"Quick Contact Sheet\", \"url\": \"https://www.anthembluecross.com/content/dam/digital/docs/provider/commercial/general/MO_CONTACT_0002.pdf\", \"snippet\": \"P.O. Box 105568 ... P.O. Box 105187\"}, {\"title\": \"Anthem\", \"url\": \"https://providers.anthem.com/docs/gpp/IN_CAID_ReferenceContactSheet.pdf\", \"snippet\": \"P.O. Box 105187 ... P.O. Box 105568\"}, {\"title\": \"1 Professional provider workshop Fall 2019\", \"url\": \"https://providers.anthem.com/docs/gpp/KY_CAID_ProfessionalProviderWorkshopFall2019.pdf?v=202105261914\", \"snippet\": \"P.O. Box 105187 ... P.O. Box 105557 ... P.O. Box 105568\"}, {\"title\": \"THE CHRIST HOSPITAL INSTRUCTIONS FOR SUBMITTING OUT\u2010OF\u2010NETWORK CLAIMS\", \"url\": \"https://mytchbenefits.com/wp-content/uploads/2020/01/INSTRUCTIONS-FOR-COMPLETING-THE-ANTHEM-OON-MEMBER-CLAIM-FORM-JVC.pdf\", \"snippet\": \"INSTRUCTIONS FOR SUBMITTING OUT\u2010OF\u2010NETWORK CLAIMS \u00b7 <strong>All in\u2010network and out\u2010of\u2010network claims must be submitted to the local Blue Cross and Blue Shield plan</strong>\"}, {\"title\": \"Quick Reference Guide Anthem Blue Cross and Blue Shield ...\", \"url\": \"https://s21151.pcdn.co/wp-content/uploads/KY-QRG_Commercial-Medicare-1.18.23.pdf\", \"snippet\": \"P.O. Box 105187\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EuwCCpABCBIYAipATWJVJO7qlT17xnIt495CDwfJQcIqrSEY+ttUzEWx3u6Xg/Ri5FiIey9zf8KZ0HJ4EbWyYtOLiN4dIZj0uuG34zIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAZjwwdUGEgxiVy9rE5qeqYZ29LcaDFTWR+FFV2dWwNGllCIwn4xWJ/YguLPbpfDYoIRO9iqXAr72vmy8NvyV3tbqTMNmNrly9P1rfgLhy1gjzz1lKogB2OOuiURiqf/F1XesOMSFQ6+ynIt0YU26JkA8i896WbuBTN4aiq+NvaDsFeTZrFJUlP1cYsRK1QfOe/Vj17ZWHC3zPp3DVOmZnPRhRe9bn3/wYA8VXdgMAj8khnpmzhHHOKf4t+gV2GOVU+FH0UUDtFFwB+nH6OFAHDlp0Xiom3lwm/oWvmTqTxgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_014aZZb7cmeEuNvLyNQst5Eh",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://s21151.pcdn.co/wp-content/uploads/KY-QRG_Commercial-Medicare-1.18.23.pdf"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_014aZZb7cmeEuNvLyNQst5Eh",
+     "content": "{\"url\": \"https://s21151.pcdn.co/wp-content/uploads/KY-QRG_Commercial-Medicare-1.18.23.pdf\", \"final_url\": null, \"http_status\": null, \"content_type\": null, \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": \"DNS resolution failed for host 's21151.pcdn.co'\", \"text\": \"\", \"text_truncated\": false}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "Eq0DCpABCBIYAipA9kfzAJViGCsaEPcbHjAqwhebEe7FK2Y3k9Ta+VJUTyYdyCqcy9u06wR7NN0N44rBWOZP1c3FSj86+Ij4YkIs9DIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAZrwwdUGEgwsgb7GfjW4RNsWt0caDD4JDglTr8QhcNz5uCIwbvXtlJQJtmZgj5CH8x/kkDaWjewc2OGBcMGleNPuBQyi2iI4WFmAtFcmrrphJT4cKskBNUXmuKgYekcxBJMnPhm5xWyitBrLYe6oSHX+J8C3/n6wNYL+bth/R4LW+F+uaJH1NyRGQusEEjpXmo0GgU9DRsMFfWjBswazedE8TrFjwb3usnY3hHDpEYGf+Y/Tq7z1F555ax+MhMfTEWxRuoP2GCOslwm4sQrpHT04qD2lMRDlAe/B0IHVWdDVvMEW0GrHR5Lup2tPFY6VqIW5F5ptfFIWOIqtisA5Xu8lqoBzVibbqNLY9bc/r/CjRRaz25HgrxEMj7LFd6uJGAE=",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01FdmaggZpsKoLQSux5U3YWQ",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Anthem Kentucky \"Grievance and Appeals\" address member \"Louisville, KY\" OR \"P.O. Box\""
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_017VckrQxJnDhvcCZbc4NmKf",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Anthem individual commercial member \"how to file an appeal\" \"written appeal\" address fax portal Availity member"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01FdmaggZpsKoLQSux5U3YWQ",
+     "content": "{\"query\": \"Anthem Kentucky \\\"Grievance and Appeals\\\" address member \\\"Louisville, KY\\\" OR \\\"P.O. Box\\\"\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_017VckrQxJnDhvcCZbc4NmKf",
+     "content": "{\"query\": \"Anthem individual commercial member \\\"how to file an appeal\\\" \\\"written appeal\\\" address fax portal Availity member\", \"results\": [{\"title\": \"Appeals | Anthem.com\", \"url\": \"https://mss.anthem.com/california-mmp/benefits/coverage-decisions/appeals.html\", \"snippet\": \"Mail your written appeal to: Anthem ... at 1-855-817-5785 (TTY: 711) Monday through Friday from 8 a.m. to 8 p.m. This call is free. <strong>Fax your written appeal to 1-888-458-1406.</strong>...\"}], \"result_count\": 1, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "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",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01ERJkDkPyfJw8CCKGbbwtay",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "url": "https://providernews.anthem.com/kentucky/articles/transition-to-carelon-medical-benefits-management-inc-site-2-15782"
+     },
+     "name": "http_fetch",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_011ExgyLXrSLtRAmAq4ES14N",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Anthem Kentucky commercial prior authorization \"spine surgery\" Carelon \"22551\" OR \"ACDF\""
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01ERJkDkPyfJw8CCKGbbwtay",
+     "content": "{\"url\": \"https://providernews.anthem.com/kentucky/articles/transition-to-carelon-medical-benefits-management-inc-site-2-15782\", \"final_url\": \"https://providernews.anthem.com/kentucky/articles/transition-to-carelon-medical-benefits-management-inc-site-2-15782\", \"http_status\": 200, \"content_type\": \"text/html; charset=utf-8\", \"login_wall\": false, \"blocked\": false, \"blocked_reason\": null, \"error\": null, \"text\": \"Provider News <div id=\\\"app\\\" data-page=\\\"{\\\"component\\\":\\\"v2\\\\/ArticlePage\\\",\\\"props\\\":{\\\"errors\\\":{},\\\"app\\\":{\\\"name\\\":\\\"Provider News\\\",\\\"template\\\":\\\"default\\\",\\\"materialSymbolsBaseUrl\\\":\\\"https:\\\\/\\\\/files.providernews.elevancehealth.com\\\\/icons\\\\/material-symbols\\\\/v0.47.0\\\"},\\\"market\\\":{\\\"id\\\":1,\\\"name\\\":\\\"Kentucky\\\",\\\"menuName\\\":\\\"Kentucky\\\",\\\"slug\\\":\\\"kentucky\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/kentucky\\\",\\\"logoUrl\\\":\\\"https:\\\\/\\\\/files.providernews.elevancehealth.com\\\\/img\\\\/anthem\\\\/abs_r_h_rgb_c.png\\\",\\\"links\\\":{\\\"header\\\":[{\\\"label\\\":\\\"Provider Home\\\",\\\"links\\\":[{\\\"url\\\":\\\"https:\\\\/\\\\/providers.anthem.com\\\\/kentucky-provider\\\\/home\\\",\\\"label\\\":\\\"Provider Home | Medicaid\\\"},{\\\"url\\\":\\\"https:\\\\/\\\\/www.anthem.com\\\\/provider\\\\/?cnslocale=en_US_ky\\\",\\\"label\\\":\\\"Provider Home | Commercial, Medicare Advantage\\\"}]},{\\\"label\\\":\\\"Archives\\\",\\\"links\\\":[{\\\"url\\\":\\\"https:\\\\/\\\\/providers.anthem.com\\\\/kentucky-provider\\\\/communications\\\\/news-and-announcements\\\",\\\"label\\\":\\\"Archive | Medicaid\\\"},{\\\"url\\\":\\\"https:\\\\/\\\\/www.anthem.com\\\\/provider\\\\/news\\\\/archives\\\\/?cnslocale=en_US_ky\\\",\\\"label\\\":\\\"Archive | Commercial, Medicare Advantage\\\"}]}],\\\"subscribe\\\":{\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/kentucky\\\\/signup?utm_source=providernews&utm_medium=button&utm_campaign=subscribe\\\",\\\"label\\\":\\\"Subscribe to Email\\\"}},\\\"content\\\":{\\\"featured_banner\\\":{\\\"title\\\":\\\"Provider News\\\",\\\"subtitle\\\":\\\"Your digital resource for all news and announcements related to policy updates, digital tools, reimbursement and prior authorization changes, educational opportunities, and more.\\\",\\\"image_url\\\":\\\"https:\\\\/\\\\/providernews.elevancehealth.com\\\\/files\\\\/6471\\\",\\\"cta_primary\\\":{\\\"url\\\":null,\\\"label\\\":\\\"View the current newsletter\\\",\\\"target\\\":\\\"_self\\\",\\\"use_last_newsletter\\\":true},\\\"cta_secondary\\\":null},\\\"scheduled_banner\\\":{\\\"title\\\":null,\\\"subtitle\\\":null,\\\"image_url\\\":null,\\\"start_date\\\":null,\\\"cta_primary\\\":null,\\\"cta_secondary\\\":null}},\\\"notice\\\":null,\\\"macSettings\\\":{\\\"showFilter\\\":false,\\\"filterLabel\\\":\\\"Material adverse change\\\"}},\\\"navigation\\\":{\\\"markets\\\":[{\\\"name\\\":\\\"California\\\",\\\"menuName\\\":\\\"California\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/california\\\"},{\\\"name\\\":\\\"Colorado\\\",\\\"menuName\\\":\\\"Colorado\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/colorado\\\"},{\\\"name\\\":\\\"Connecticut\\\",\\\"menuName\\\":\\\"Connecticut\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/connecticut\\\"},{\\\"name\\\":\\\"Georgia\\\",\\\"menuName\\\":\\\"Georgia\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/georgia\\\"},{\\\"name\\\":\\\"Indiana\\\",\\\"menuName\\\":\\\"Indiana\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/indiana\\\"},{\\\"name\\\":\\\"Kentucky\\\",\\\"menuName\\\":\\\"Kentucky\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/kentucky\\\"},{\\\"name\\\":\\\"Maine\\\",\\\"menuName\\\":\\\"Maine\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/maine\\\"},{\\\"name\\\":\\\"Missouri\\\",\\\"menuName\\\":\\\"Missouri\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/missouri\\\"},{\\\"name\\\":\\\"Nevada\\\",\\\"menuName\\\":\\\"Nevada\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/nevada\\\"},{\\\"name\\\":\\\"New Hampshire\\\",\\\"menuName\\\":\\\"New Hampshire\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/new-hampshire\\\"},{\\\"name\\\":\\\"New York\\\",\\\"menuName\\\":\\\"New York\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/new-york\\\"},{\\\"name\\\":\\\"Ohio\\\",\\\"menuName\\\":\\\"Ohio\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/ohio\\\"},{\\\"name\\\":\\\"Pennsylvania\\\",\\\"menuName\\\":\\\"Pennsylvania\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/pennsylvania\\\"},{\\\"name\\\":\\\"Virginia\\\",\\\"menuName\\\":\\\"Virginia\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/virginia\\\"},{\\\"name\\\":\\\"Wisconsin\\\",\\\"menuName\\\":\\\"Wisconsin\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/wisconsin\\\"},{\\\"name\\\":\\\"Dental\\\",\\\"menuName\\\":\\\"Dental (Anthem Blue Cross and Blue Shield)\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/dentalbcbs\\\"},{\\\"name\\\":\\\"Dental\\\",\\\"menuName\\\":\\\"Dental (Anthem Blue Cross)\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/dentalbc\\\"}],\\\"recentPublications\\\":[{\\\"id\\\":5728,\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/kentucky\\\\/publications\\\\/september-2026-provider-newsletter-5728\\\",\\\"title\\\":\\\"September 2026 Provider Newsletter\\\",\\\"publishDate\\\":\\\"2026-09-01T01:00:00-07:00\\\",\\\"publishDatePretty\\\":\\\"September 1, 2026\\\",\\\"articleCount\\\":20,\\\"image\\\":{\\\"id\\\":8032,\\\"name\\\":\\\"NL EMAIL Banner_v1_Sept2026_thumbnail\\\",\\\"fileName\\\":\\\"NL-EMAIL-Banner_v1_Sept2026_thumbnail.png\\\",\\\"fileExtension\\\":\\\"png\\\",\\\"url\\\":\\\"https:\\\\/\\\\/files.providernews.anthem.com\\\\/8346\\\\/NL-EMAIL-Banner_v1_Sept2026_thumbnail.png\\\",\\\"mimeType\\\":\\\"image\\\\/png\\\",\\\"size\\\":0.28}},{\\\"id\\\":5679,\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/kentucky\\\\/publications\\\\/august-2026-provider-newsletter-5679\\\",\\\"title\\\":\\\"August 2026 Provider Newsletter\\\",\\\"publishDate\\\":\\\"2026-08-01T01:00:00-07:00\\\",\\\"publishDatePretty\\\":\\\"August 1, 2026\\\",\\\"articleCount\\\":22,\\\"image\\\":{\\\"id\\\":7962,\\\"name\\\":\\\"NL EMAIL Banner_v1_Aug2026_thumbnail\\\",\\\"fileName\\\":\\\"NL-EMAIL-Banner_v1_Aug2026_thumbnail.png\\\",\\\"fileExtension\\\":\\\"png\\\",\\\"url\\\":\\\"https:\\\\/\\\\/files.providernews.anthem.com\\\\/8273\\\\/NL-EMAIL-Banner_v1_Aug2026_thumbnail.png\\\",\\\"mimeType\\\":\\\"image\\\\/png\\\",\\\"size\\\":0.26}},{\\\"id\\\":5628,\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/kentucky\\\\/publications\\\\/july-2026-provider-newsletter-5628\\\",\\\"title\\\":\\\"July 2026 Provider Newsletter\\\",\\\"publishDate\\\":\\\"2026-07-01T01:00:00-07:00\\\",\\\"publishDatePretty\\\":\\\"July 1, 2026\\\",\\\"articleCount\\\":19,\\\"image\\\":{\\\"id\\\":7845,\\\"name\\\":\\\"NL EMAIL Banner_v1_July2026_thumbnail\\\",\\\"fileName\\\":\\\"NL-EMAIL-Banner_v1_July2026_thumbnail.png\\\",\\\"fileExtension\\\":\\\"png\\\",\\\"url\\\":\\\"https:\\\\/\\\\/files.providernews.anthem.com\\\\/8147\\\\/NL-EMAIL-Banner_v1_July2026_thumbnail.png\\\",\\\"mimeType\\\":\\\"image\\\\/png\\\",\\\"size\\\":0.3}}],\\\"categories\\\":[{\\\"id\\\":2828,\\\"name\\\":\\\"Administrative\\\",\\\"marketName\\\":\\\"Administrative\\\",\\\"slug\\\":\\\"administrative\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/kentucky\\\\/category\\\\/administrative\\\",\\\"children\\\":[{\\\"id\\\":4210,\\\"name\\\":\\\"Digital Solutions\\\",\\\"marketName\\\":\\\"Digital Solutions\\\",\\\"slug\\\":\\\"digital-solutions\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/kentucky\\\\/category\\\\/digital-solutions\\\"}]},{\\\"id\\\":2833,\\\"name\\\":\\\"Behavioral Health\\\",\\\"marketName\\\":\\\"Behavioral Health\\\",\\\"slug\\\":\\\"behavioral-health\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/kentucky\\\\/category\\\\/behavioral-health\\\",\\\"children\\\":[]},{\\\"id\\\":6128,\\\"name\\\":\\\"Education & Training\\\",\\\"marketName\\\":\\\"Education & Training\\\",\\\"slug\\\":\\\"education-training\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/kentucky\\\\/category\\\\/education-training\\\",\\\"children\\\":[]},{\\\"id\\\":2825,\\\"name\\\":\\\"Policy Updates\\\",\\\"marketName\\\":\\\"Policy Updates\\\",\\\"slug\\\":\\\"policy-updates\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/kentucky\\\\/category\\\\/policy-updates\\\",\\\"children\\\":[{\\\"id\\\":2831,\\\"name\\\":\\\"Medical Policy & Clinical Guidelines\\\",\\\"marketName\\\":\\\"Medical Policy & Clinical Guidelines\\\",\\\"slug\\\":\\\"medical-policy-clinical-guidelines\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/kentucky\\\\/category\\\\/medical-policy-clinical-guidelines\\\"},{\\\"id\\\":6126,\\\"name\\\":\\\"Prior Authorization\\\",\\\"marketName\\\":\\\"Prior Authorization\\\",\\\"slug\\\":\\\"prior-authorization\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/kentucky\\\\/category\\\\/prior-authorization\\\"},{\\\"id\\\":2832,\\\"name\\\":\\\"Reimbursement Policies\\\",\\\"marketName\\\":\\\"Reimbursement Policies\\\",\\\"slug\\\":\\\"reimbursement-policies\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/kentucky\\\\/category\\\\/reimbursement-policies\\\"}]},{\\\"id\\\":2826,\\\"name\\\":\\\"Products & Programs\\\",\\\"marketName\\\":\\\"Products & Programs\\\",\\\"slug\\\":\\\"products-programs\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/kentucky\\\\/category\\\\/products-programs\\\",\\\"children\\\":[{\\\"id\\\":6130,\\\"name\\\":\\\"Dental\\\",\\\"marketName\\\":\\\"Dental\\\",\\\"slug\\\":\\\"dental\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/kentucky\\\\/category\\\\/dental\\\"},{\\\"id\\\":2837,\\\"name\\\":\\\"Federal Employee Program (FEP)\\\",\\\"marketName\\\":\\\"Federal Employee Program (FEP)\\\",\\\"slug\\\":\\\"federal-employee-program-fep\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/kentucky\\\\/category\\\\/federal-employee-program-fep\\\"},{\\\"id\\\":6129,\\\"name\\\":\\\"Long-Term Services & Supports\\\",\\\"marketName\\\":\\\"Long-Term Services & Supports\\\",\\\"slug\\\":\\\"long-term-services-supports\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/kentucky\\\\/category\\\\/long-term-services-supports\\\"},{\\\"id\\\":2834,\\\"name\\\":\\\"Pharmacy\\\",\\\"marketName\\\":\\\"Pharmacy\\\",\\\"slug\\\":\\\"pharmacy\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/kentucky\\\\/category\\\\/pharmacy\\\"}]},{\\\"id\\\":6132,\\\"name\\\":\\\"Quality Management\\\",\\\"marketName\\\":\\\"Quality Management\\\",\\\"slug\\\":\\\"quality-management\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/kentucky\\\\/category\\\\/quality-management\\\",\\\"children\\\":[]},{\\\"id\\\":2827,\\\"name\\\":\\\"State & Federal\\\",\\\"marketName\\\":\\\"State & Federal\\\",\\\"slug\\\":\\\"state-federal\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/kentucky\\\\/category\\\\/state-federal\\\",\\\"children\\\":[]}],\\\"linesOfBusiness\\\":[{\\\"id\\\":1,\\\"name\\\":\\\"Commercial\\\",\\\"marketName\\\":\\\"Commercial\\\",\\\"menuLabel\\\":\\\"Commercial\\\",\\\"listingLabel\\\":\\\"Commercial\\\",\\\"articleLabel\\\":\\\"Anthem Blue Cross and Blue Shield | Commercial\\\",\\\"pageLabel\\\":\\\"Commercial\\\",\\\"code\\\":\\\"CM\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/kentucky\\\\/plan-type\\\\/CM\\\"},{\\\"id\\\":3,\\\"name\\\":\\\"Medicaid\\\",\\\"marketName\\\":\\\"Medicaid\\\",\\\"menuLabel\\\":\\\"Medicaid\\\",\\\"listingLabel\\\":\\\"Medicaid\\\",\\\"articleLabel\\\":\\\"Medicaid\\\",\\\"pageLabel\\\":\\\"Medicaid\\\",\\\"code\\\":\\\"CD\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/kentucky\\\\/plan-type\\\\/CD\\\"},{\\\"id\\\":2,\\\"name\\\":\\\"Medicare Advantage\\\",\\\"marketName\\\":\\\"Medicare Advantage\\\",\\\"menuLabel\\\":\\\"Medicare Advantage\\\",\\\"listingLabel\\\":\\\"Medicare Advantage\\\",\\\"articleLabel\\\":\\\"Anthem Blue Cross and Blue Shield | Medicare Advantage\\\",\\\"pageLabel\\\":\\\"Medicare Advantage\\\",\\\"code\\\":\\\"CR\\\",\\\"url\\\":\\\"https:\\\\/\\\\/providernews.anthem.com\\\\/kentucky\\\\/plan-type\\\\/CR\\\"}]},\\\"auth\\\":{\\\"user\\\":null,\\\"showAdminTools\\\":false,\\\"isViewerAdmin\\\":false},\\\"survey\\\":{\\\"id\\\":1,\\\"name\\\":\\\"Help us improve the Provider News website experience\\\",\\\"description\\\":\\\" Please answer five brief questions specific to your experience using the Provider News site. Your responses are used only to improve the website and are not shared publicly.<\\\\/p>\\\",\\\"submit_message\\\":\\\"Your response has been recorded. This survey is not monitored for replies, and you will not receive an individual response.\\\",\\\"legal\\\":\\\" Please note:<\\\\/strong> This survey is not monitored for replies, and you will not receive an individual response. For specific contract-related questions, please refer to your Provider Manual or use your usual provider support channels.<\\\\/p>\\\",\\\"questions\\\":[{\\\"id\\\":1,\\\"question_content\\\":\\\"How satisfied are you with your experience today?\\\",\\\"question_type\\\":\\\"multiple_choice\\\",\\\"answer_instructions\\\":\\\"1 = Extremely Dissatisfied, 5 = Extremely Satisfied\\\",\\\"answer_options\\\":[{\\\"key\\\":1,\\\"label\\\":\\\"1\\\",\\\"allows_text_input\\\":false},{\\\"key\\\":2,\\\"label\\\":\\\"2\\\",\\\"allows_text_input\\\":false},{\\\"key\\\":3,\\\"label\\\":\\\"3\\\",\\\"allows_text_input\\\":false},{\\\"key\\\":4,\\\"label\\\":\\\"4\\\",\\\"allows_text_input\\\":false},{\\\"key\\\":5,\\\"label\\\":\\\"5\\\",\\\"allows_text_input\\\":false}],\\\"required\\\":true},{\\\"id\\\":2,\\\"question_content\\\":\\\"What brought you to Provider News?\\\",\\\"question_type\\\":\\\"multiple_choice\\\",\\\"answer_instructions\\\":null,\\\"answer_options\\\":[{\\\"key\\\":1,\\\"label\\\":\\\"Reviewing the latest newsletter\\\",\\\"allows_text_input\\\":false},{\\\"key\\\":2,\\\"label\\\":\\\"General news and announcements\\\",\\\"allows_text_input\\\":false},{\\\"key\\\":3,\\\"label\\\":\\\"Training or other event information\\\",\\\"allows_text_input\\\":false},{\\\"key\\\":4,\\\"label\\\":\\\"Policy or reimbursement changes\\\",\\\"allows_text_input\\\":false},{\\\"key\\\":5,\\\"label\\\":\\\"Billing or claims guidance\\\",\\\"allows_text_input\\\":false},{\\\"key\\\":6,\\\"label\\\":\\\"Prior authorization updates\\\",\\\"allows_text_input\\\":false},{\\\"key\\\":7,\\\"label\\\":\\\"Regulatory or compliance information\\\",\\\"allows_text_input\\\":false},{\\\"key\\\":8,\\\"label\\\":\\\"Searching for a specific article\\\",\\\"allows_text_input\\\":false},{\\\"key\\\":9,\\\"label\\\":\\\"Other\\\",\\\"allows_text_input\\\":true}],\\\"required\\\":true},{\\\"id\\\":3,\\\"question_content\\\":\\\"Did you find what you were looking for?\\\",\\\"question_type\\\":\\\"multiple_choice\\\",\\\"answer_instructions\\\":null,\\\"answer_options\\\":[{\\\"key\\\":1,\\\"label\\\":\\\"Yes\\\",\\\"allows_text_input\\\":false},{\\\"key\\\":2,\\\"label\\\":\\\"No (explain in Question #5)\\\",\\\"allows_text_input\\\":false},{\\\"key\\\":3,\\\"label\\\":\\\"Partially (explain in Question #5)\\\",\\\"allows_text_input\\\":false}],\\\"required\\\":true},{\\\"id\\\":4,\\\"question_content\\\":\\\"What is your role?\\\",\\\"question_type\\\":\\\"multiple_choice\\\",\\\"answer_instructions\\\":null,\\\"answer_options\\\":[{\\\"key\\\":1,\\\"label\\\":\\\"Care Provider\\\",\\\"allows_text_input\\\":false},{\\\"key\\\":2,\\\"label\\\":\\\"Office administrator\\\",\\\"allows_text_input\\\":false},{\\\"key\\\":3,\\\"label\\\":\\\"Other\\\",\\\"allows_text_input\\\":true}],\\\"required\\\":true},{\\\"id\\\":5,\\\"question_content\\\":\\\"What can we improve?\\\",\\\"question_type\\\":\\\"open_text\\\",\\\"answer_instructions\\\":\\\"Optional\\\",\\\"answer_options\\\":null,\\\"required\\\":false}]},\\\"article\\\":{\\\"id\\\":15782,\\\"title\\\":\\\"Transition to Carelon Medical Benefits Management, Inc. site of care guidelines\\\",\\\"titleNoHtml\\\":\\\"Transition to Carelon Medical Benefits Manage\", \"text_truncated\": true}"
+    },
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_011ExgyLXrSLtRAmAq4ES14N",
+     "content": "{\"query\": \"Anthem Kentucky commercial prior authorization \\\"spine surgery\\\" Carelon \\\"22551\\\" OR \\\"ACDF\\\"\", \"results\": [{\"title\": \"ARCHIVED Spine Surgery 2022-01-01 to 2022-06-11 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/archived-spine-surgery-01-01-22-to-06-11-22/\", \"snippet\": \"22551 <strong>Arthrodesis, anterior interbody, including disc space preparation, discectomy, osteophytectomy and decompression of spinal cord and/or nerve roots; cervical below C2</strong>\"}, {\"title\": \"Spine Surgery 2024-10-20 [for Anthem BCBS Ohio Medicaid] | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2024-10-20-for-anthem-bcbs-ohio-medicaid/\", \"snippet\": \"Anterior cervical discectomy/fusion/internal fixation (ACDF) \u2013 decompression of the nerve roots or spinal cord by disc or osteophyte removal, with or without a fusion\"}, {\"title\": \"ARCHIVED Spine Surgery 2022-06-12 to 2022-09-10 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/archived-spine-surgery-06-12-22-to-09-10-22/\", \"snippet\": \"22551 <strong>Arthrodesis, anterior interbody, including disc space preparation, discectomy, osteophytectomy and decompression of spinal cord and/or nerve roots; cervical below C2</strong>\"}, {\"title\": \"ARCHIVED Spine Surgery 2022-09-11 to 2022-12-31 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/archived-spine-surgery-2022-09-11-to-2022-12-31/\", \"snippet\": \"22551 <strong>Arthrodesis, anterior interbody, including disc space preparation, discectomy, osteophytectomy and decompression of spinal cord and/or nerve roots; cervical below C2</strong>\"}, {\"title\": \"ARCHIVED Spine Surgery 2023-09-10 to 2023-12-31 | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2023-09-10/\", \"snippet\": \"Anterior cervical discectomy/fusion/internal fixation (ACDF) \u2013 decompression of the nerve roots or spinal cord by disc or osteophyte removal, with or without a fusion\"}], \"result_count\": 5, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "text": "Good \u2014 confirmed CPT 22551 is explicitly listed as an ACDF code within the \"Cervical Decompression With or Without Fusion\" section of this guideline, and the Provider News article confirms the \"Commercial\" line of business (code CM) is listed among Anthem Kentucky's business lines for this Carelon transition. Let me confirm the article body applies to commercial specifically.",
+     "type": "text"
+    },
+    {
+     "id": "toolu_01P48bQ5v8vrkHQnL6yH6b9t",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"Transition to Carelon Medical Benefits Management\" Anthem Kentucky \"commercial\" \"musculoskeletal\" spine December 29 2023"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01P48bQ5v8vrkHQnL6yH6b9t",
+     "content": "{\"query\": \"\\\"Transition to Carelon Medical Benefits Management\\\" Anthem Kentucky \\\"commercial\\\" \\\"musculoskeletal\\\" spine December 29 2023\", \"results\": [], \"result_count\": 0, \"error\": null}"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "EvsCCpABCBIYAipAsGlwuYOQ8ln4mwDdgz5hhc2wjREzkKvM3HH28o6JZWOvYdqtS3yHk2jlWDJprmmF8mIBC1Jb1aMMjKHTCq5dnDIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAbXwwdUGEgxEirAZdnP6XfesgcAaDBvZKwIW5JY8neLttiIwSn5xaImI9C7A0YrrOLBB68xdslPrSYhlr4pdoOMoQ1vQgcg1bNogI9gwNQLECLABKpcB3TbaJvfjxZKXiJ7vNqSOxVPIt0TgSfVJZh3/0CI2HiVwZI8nson18CO6QhfYTA1WKP+WPy9NUAmQ8bxedHe8uQ0mS95VlvxFrcwXMemMVfbfZlwK/pW2vbwsrDGGqHSaXu0ldQ6uiW9d0eQT9TdRk7F4Itpv0vIGNgY1eA7jDRtpr0fJtF3CsWflBJof93j5cNIpbOYPbxgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01SSDC9e5tJNbVYywCEBMz3u",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "\"Carelon Medical Benefits Management\" site of care guidelines musculoskeletal commercial Indiana Kentucky Missouri Wisconsin December 2023"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_01SSDC9e5tJNbVYywCEBMz3u",
+     "content": "{\"query\": \"\\\"Carelon Medical Benefits Management\\\" site of care guidelines musculoskeletal commercial Indiana Kentucky Missouri Wisconsin December 2023\", \"results\": [{\"title\": \"Musculoskeletal | Carelon Clinical Guidelines and Pathways\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/solutions/musculoskeletal/\", \"snippet\": \"Carelon Medical Benefits Management clinical appropriateness guidelines and cancer treatment pathways \u00b7 9 Solutions: Musculoskeletal \u00b7 Musculoskeletal \u00b7 ARCHIVED Interventional Pain Management 2020-01-01 to 2020-12-31 \u00b7 ARCHIVED Interventional Pain Management 2020-08-16 to 2020-12-31 \u00b7 ...\"}, {\"title\": \"Transition to Carelon Medical Benefits Management, Inc. site of care guidelines - Provider News\", \"url\": \"https://providernews.anthem.com/kentucky/articles/transition-to-carelon-medical-benefits-management-inc-site-2-15782\", \"snippet\": \"Effective December 30, 2023, Anthem ... Benefits Management* (Caralon) site of care guidelines <strong>to perform medical necessity and clinical appropriateness reviews for the requested site of care for certain procedures</strong>....\"}, {\"title\": \"Carelon - Welcome - Musculoskeletal Program\", \"url\": \"https://providers.carelonmedicalbenefitsmanagement.com/musculoskeletal/\", \"snippet\": \"Carelon Medical Benefits Management recognizes the key role that you and other medical practices play in the delivery of care for patients with musculoskeletal conditions and chronic pain. Developed in collaboration with your patients\u2019 health plans, our Musculoskeletal Program helps support quality care that is consistent with evidence-based medicine.\"}, {\"title\": \"Carelon Clinical Guidelines and Pathways |\", \"url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/\", \"snippet\": \"Carelon Medical Benefits Management clinical appropriateness guidelines and cancer treatment pathways\"}, {\"title\": \"Welcome - Anthem - Carelon Medical Benefits Management\", \"url\": \"https://providers.carelonmedicalbenefitsmanagement.com/anthem/\", \"snippet\": \"You\u2019ll find program information, access to clinical guidelines, worksheets and checklists, frequently asked questions, Carelon provider portal and more. ... \u00a9 2005 \u2013 2024 copyright of Anthem Insurance Companies, Inc. Serving Colorado, Connecticut, Georgia, Indiana, Kentucky, Maine, Missouri (excluding 30 counties in the Kansas City area), Nevada, New Hampshire, Ohio, Virginia (excluding the Northern Virginia suburbs of Washington, D.C.), and Wisconsin.\"}], \"result_count\": 5, \"error\": null}",
+     "cache_control": {
+      "type": "ephemeral"
+     }
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "text": "This confirms Carelon Medical Benefits Management (formerly AIM Specialty Health) is the utilization-management vendor Anthem uses in Kentucky (among other states) for musculoskeletal/site-of-care reviews, and its Musculoskeletal Program page confirms Anthem KY is a served state. Combined with the CPT 22551 code listing and the \"site of care/medical necessity\" review language, this establishes the Carelon \"Spine Surgery\" Clinical Appropriateness Guideline as the operative criteria document. I now have enough to compose the answer, being explicit about confidence levels and gaps (submission address not confirmed).",
+     "type": "text"
+    },
+    {
+     "id": "toolu_019Qsv9hUrYHBJUzjtRKcM89",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "query": "Anthem Kentucky member appeal \"medical necessity\" internal appeal submit fax number member services phone commercial ACA"
+     },
+     "name": "web_search",
+     "type": "tool_use"
+    }
+   ]
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "tool_result",
+     "tool_use_id": "toolu_019Qsv9hUrYHBJUzjtRKcM89",
+     "content": "{\"query\": \"Anthem Kentucky member appeal \\\"medical necessity\\\" internal appeal submit fax number member services phone commercial ACA\", \"results\": [{\"title\": \"How to Appeal Anthem Blue Cross Denials 2026: Provider Step-by-Step Guide | Muni Health\", \"url\": \"https://muni.health/blog/how-to-appeal-anthem-denials-2026\", \"snippet\": \"Other Anthem states (CO, CT, GA, IN, KY, ME, MO, NV, NH, OH, VA, WI): Fully-insured commercial plans in these states have access to state external review under the ACA (45 CFR \u00a7 147.136) after exhausting internal appeals.\"}, {\"title\": \"Anthem Appeal Letter Template 2026: Step-by-Step Guide for Providers | Muni Health\", \"url\": \"https://muni.health/blog/anthem-appeal-letter-template-2026\", \"snippet\": \"Include the phrase &quot;URGENT MEDICAL NECESSITY APPEAL&quot; in the subject line of expedited submissions. Anthem&#x27;s triage process uses subject-line scanning to route urgent appeals into the expedited review queue, which carries a 72-hour determination window instead of the standard 30-day timeline.\"}, {\"title\": \"Provider appeals \u2014 medical necessity and payment\", \"url\": \"https://providers.anthem.com/docs/gpp/KY_CAID_PU_ProviderAppeals_MedicalNecessityandPayment.pdf?v=202106031707\", \"snippet\": \"appeal process to be entitled to an external, independent, third-party review under KRS 205.646 and 907 KAR 17:035. o Beginning with dates of service on or after December 1, 2016, providers can submit a written request for an \u00b7 external, independent, third-party review within 60 calendar days of receiving a final decision from the Anthem ... o To request an independent, third-party review on a denied medical necessity appeal or payment appeal, a written\"}, {\"title\": \"26 AWI-MHB-0012-20 AWI MHB ENG 6/20 Filing a grievance or appeal Grievances\", \"url\": \"https://mss.anthem.com/wi/wiwi_caid_memberappealrightsprocess.pdf\", \"snippet\": \"Filing a grievance or appeal \u00b7 A grievance is any complaint about Anthem or your health care provider that is not related to a\"}, {\"title\": \"Anthem\", \"url\": \"https://providers.anthem.com/docs/gpp/OH_CAID_ClaimsEscalation.pdf\", \"snippet\": \"Anthem\u2019s decision to deny, limit, reduce, suspend, or terminate a covered service for lack of medical \u00b7 necessity. The EMR is available at no cost to providers. The request for EMR must be submitted to Permedion (gainwelltechnologies.com) within 30 calendar \u00b7 days of the written notification that the internal appeals process has been exhausted.\"}], \"result_count\": 5, \"error\": null}",
+     "cache_control": {
+      "type": "ephemeral"
+     }
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": [
+    {
+     "signature": "Es4ICpABCBIYAipAhqaoPQ30KuplBUw7mjxyz+qsVOwCSREwHoanzzKOvc9ClVCZl2+lzkjmOBbHySi8C+ihrukttUFweyhGslRBhjIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQ5YjhjOGNmYy00MTdlLTQ1NDMtYWJkYS1mMTFhODgxNjk3MjWoAcDwwdUGEgyXlkZO4deoDRqJWDAaDGX1uZGm55GCL6LecCIw+T+NlnrsXX5jTh5gWELipbkGBHRvmfLul6llYUNr7KUrjm6hNFxW0UlaeJ40DM2ZKuoG6Wk7iMdSRub7Xf/jpg7Fy3YeK9XgwDIumCz1daBdmA6wd5WMoR7F+exbc4q+GK78yMTEdRRTiPrcP1PuZS5LAOHQY9da+Se1ibKb0DuIYG1ZKnT2TmEF3hg/uLTZLyDKpAvokii8HFXGWPjG6IQL4oNAV14BIPf2xVI4JYVh0yZ5TOi7Gv2uJAZ6mQIKneRZJFP6iJptCyXz3AnZs57jauFFKdOqjxxYyDkaPjJ5pfG21wTp7itcDIy7StTp3zoiwa6nLUtNu1mFsw/xWvsD+bLqm03RtciRI94nqfhUBtgILZu1T/W05aVFAno9v72RBgvy4GMFQtbmDcXEy2JFkepWNggnovB3YklnzBa9oGfyYbpdGlb3tSUVvsCPXfPuZXQAW09P271WIHZXEQlBJlaLUKepNOgDTiUio5XDNse43bVqTARSFjP69SVS6CLrrHGzOLAzgc+m6U+YCJDQlvvz0YRzBIveikT5BdZb3HOgIv6NDY6TwyoOGrCKrsMUxZknO6L16MX/VKD8RYKWbcisMkfCwOXdFp78w4WJiafwHYxizSzOsbKw/J3JFcNCN5yUvRWm9yxyMegCHPhf+Ud6Jo/E7Ynr5s5yu5XBgCYQWCHRuEddbYPZzbSm+4Ge2ILP+3QyK93VeI6ADQaVYCwo9Z2E/Z4cCe/AEzXEpXsbvgWUJ8W98z7Y4wz7hWfAI6+mgEh8QEtK6PDcktMSsXN94t2bXT+uzpHd1I3OqKljYUz78y1DaRaX7qnrkpsz0jHluho6BArL5DpKSDiNbzY3eJ7+puBlAkN/K2NpPZIvD6w/oF01ZKbLSIr0C7/3jQOEXWAsJV5z7vQM5SxGTkGGYIw/gyTi4Lx38MC+BlLG0s1qv/EIwaRPK+QIr0wKCCvS7u3zNLJ9aa4jV/0eLSje8RvoguvDhQZ//+23pN5V1fJFdsIYgbOzbtS4EFkqc7BKGbAOueIiCZOkM1T/CIOokf+5ckMTkrjQzpgzVYtPLZ+d6JiSGuxbSQvbTj9h8wK21HidW7tdkAfutLjyg/mlD/fyzujQyyEmydxEy0tNAWBP1s82fTeSLf3QLIGGw5RK7ypiu2yBSInRDCT4mpG9nVMnt4Q1kA716/kIThVf4XU/cNqqddqbQFjYEdaqnlTqFLAnynPbEBgB",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "text": "```json\n{\n  \"policy_found\": true,\n  \"policy_title\": \"Clinical Appropriateness Guidelines \u2013 Musculoskeletal Appropriate Use Criteria: Spine Surgery (section: 'Cervical Decompression With or Without Fusion,' which explicitly lists CPT 22551 \u2013 Arthrodesis, anterior interbody... cervical below C2 / ACDF)\",\n  \"policy_number\": \"Doc ID MSK03-1125.1-UC0126 (version effective 11/15/2025, code update 01/01/2026; Last Review Date 01/30/2025)\",\n  \"policy_url\": \"https://guidelines.carelonmedicalbenefitsmanagement.com/spine-surgery-2025-11-15-updated-2026-01-01/\",\n  \"effective_date\": \"Effective 2025-11-15 (codes updated 2026-01-01; last clinical review 2025-01-30). This was the version in force on the 2026-08-25 denial date; a newer version (Doc ID showing effective 2026-09-19) exists but post-dates the denial.\",\n  \"criteria_quotes\": [\n    \"Cervical radiculopathy is considered medically necessary when imaging studies demonstrate nerve root compression due to herniated disc or spondylotic osteophyte correlating with the distribution of signs and symptoms, and ANY of the following criteria apply: Objective neurologic findings which correlate with a cervical nerve root impingement; Progressive or severe neurologic deficits secondary to spinal cord or foraminal compression; Unremitting radicular pain which has not responded to at least 6 weeks of appropriate conservative management (physical therapy optional).\",\n    \"[For repeat/revision procedures at the same level] Recurrent symptoms or functional impairment has not responded to at least 6 weeks of conservative management following confirmation of the diagnosis.\"\n  ],\n  \"appeal_deadline\": \"2027-02-21, i.e., within 180 days of the 2026-08-25 notice date, as stated on the denial letter itself.\",\n  \"submission_route\": \"The excerpt of the denial letter provided does not itself contain the specific mailing address, fax number, or portal link for filing the appeal \u2014 only the 180-day deadline. I could not independently verify, from an official Anthem/Elevance source, the exact Kentucky commercial member-appeals mailing address or fax number, so I am not naming one. In practice, Anthem member appeals of this kind are typically submitted in writing (or by phone for an expedited/urgent request) to Anthem's Grievance and Appeals unit using the address/fax printed on the full denial letter and in the plan's Evidence of Coverage/Summary Plan Description, or electronically through the member portal (anthem.com / Sydney Health app) or by calling the Member Services number on the back of the ID card. Because this is a fully-insured ACA commercial plan issued in Kentucky, after exhausting Anthem's internal appeal the member also generally has the right to an independent External Review under the ACA (45 CFR \u00a7147.136) and Kentucky external-review procedures \u2014 the notice of final internal denial should describe how to request that.\",\n  \"how_to_obtain_criteria\": \"Anthem Kentucky uses Carelon Medical Benefits Management, Inc. (formerly AIM Specialty Health) to perform medical-necessity/clinical-appropriateness prior-authorization review for musculoskeletal \u2018site of care\u2019 procedures, including spine surgery, under a transition that took effect for Anthem KY around December 2023 (confirmed via Anthem Kentucky Provider News and Carelon's own 'Serving Colorado, Connecticut, Georgia, Indiana, Kentucky...' program page). The applicable criteria are Carelon's publicly posted 'Spine Surgery' Clinical Appropriateness Guideline, which is available without login at guidelines.carelonmedicalbenefitsmanagement.com. The patient/provider can also request the exact guideline version and full text that was applied to this specific determination directly from Anthem (cite the reference number POC-0948834B99-90261) or from Carelon, since Carelon states in the guideline itself that 'Copies of the Guidelines are also available upon oral or written request.' The full guideline document is long; my tool could only retrieve it in truncated form, so the exact clinical-indications language above was cross-verified against multiple independently indexed snapshots of the same guideline (2023-09-10, 2024-10-20, and 2025-11-15 versions, which use identical wording for this criterion) rather than a single complete document fetch \u2014 the patient's provider should pull the complete PDF from the URL above (or request it from Anthem/Carelon) to review the full indication list, exclusions, and imaging-correlation requirements before drafting the appeal.\",\n  \"confidence\": \"medium-high on identifying the correct governing document and the specific conservative-treatment criterion (corroborated by several independent, consistent sources spanning multiple guideline versions and an explicit CPT 22551 code listing); low on the exact appeal submission address/fax for Anthem Kentucky commercial members, which I could not verify from an official Anthem source and did not want to fabricate.\",\n  \"notes\": \"1) Anthem's letter states the denial was made 'under the plan's applicable medical policy and clinical review criteria' without naming the document. Based on Anthem Kentucky's known outsourcing of musculoskeletal/spine-surgery prior authorization to Carelon Medical Benefits Management, the criteria almost certainly applied are Carelon's 'Spine Surgery' Clinical Appropriateness Guideline (Cervical Decompression With or Without Fusion section). 2) It is possible Anthem's own internal Clinical UM Guideline (e.g., a CG-SURG document) could also be referenced in some Anthem markets for cervical fusion, but my searches did not surface an Anthem-branded (non-Carelon) medical policy specifically governing CPT 22551 for Anthem's Kentucky commercial line \u2014 the Carelon guideline is the one confirmed to be operative in the applicable time frame. 3) The appellant should ask Anthem, by reference number, to identify in writing exactly which policy/guideline (name, ID, and version/effective date) was applied, since payers are required to disclose this on request and it will remove any ambiguity about which of the several near-identical annual/quarterly Carelon 'Spine Surgery' versions governed this specific denial. 4) To rebut the stated reason for denial, the appeal should focus on documenting at least 6 weeks of appropriate conservative management (e.g., physical therapy, NSAIDs/other medications, activity modification, and/or epidural steroid injection) that failed to relieve radicular pain, or documenting one of the alternative qualifying findings (objective neurologic findings correlating with nerve root impingement, or progressive/severe neurologic deficits) that would allow the guideline's 'ANY of the following' pathway to be met even without a full 6-week conservative trial.\"\n}\n```",
+     "type": "text"
+    }
+   ]
+  }
+ ],
+ "stop_reason": "end_turn",
+ "usage": {
+  "input_tokens": 40,
+  "output_tokens": 11073,
+  "cache_creation_input_tokens": 49785,
+  "cache_read_input_tokens": 558226
+ },
+ "model": "claude-sonnet-5",
+ "tool_calls": 34,
+ "elapsed_s": 179.5,
+ "run_id": "r-4bae20889b94",
+ "case_id": "poc-0948834b99"
+}

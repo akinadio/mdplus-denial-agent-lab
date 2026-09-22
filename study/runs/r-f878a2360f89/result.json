@@ -1,0 +1,1837 @@
+{
+ "answer": {
+  "policy_found": false,
+  "policy_title": "COMAR 10.09.92.01 (Definitions - Medically Necessary)",
+  "policy_number": "COMAR 10.09.92.01(B)(20)",
+  "policy_url": "https://regs.maryland.gov/us/md/exec/comar/10.09.92.01",
+  "effective_date": "January 2026",
+  "criteria_quotes": [
+   "\u201cMedically necessary\u201d means that the service or benefit is:",
+   "(a) Directly related to diagnostic, preventative, curative, palliative, rehabilitative, or ameliorative treatment of an illness, injury, disability, or health condition;",
+   "(b) Consistent with standards of good medical practice;",
+   "(c) The most cost-efficient service that can be provided without sacrificing effectiveness or access to care; and",
+   "(d) Not primarily for the convenience of the participant, family, or provider."
+  ],
+  "appeal_deadline": "2027-02-02",
+  "submission_route": "Submit the appeal to the Maryland Department of Health via one of the following methods:\n- Mail: Maryland Department of Health, Attention: Medicaid Appeals, 201 West Preston St., L9, Baltimore, MD 21201\n- Fax: 410-333-5154\n- Email: mdh.medicaidappeals@maryland.gov",
+  "how_to_obtain_criteria": "Because Maryland Medicaid does not publish a standalone custom medical policy for Total Ankle Replacement, it evaluates requests based on general medical necessity regulations (COMAR 10.09.92.01) and licensed clinical review criteria (such as MCG\u2122 or InterQual\u00ae). Under federal Medicaid regulations (42 CFR \u00a7 438.404(b)(2) and 42 CFR \u00a7 431.210), the patient has a legal right to request and receive, free of charge, the specific clinical review criteria and all documents/records used in making this decision. The patient or their provider can obtain these by contacting the Maryland Department of Health Medicaid Preauthorization/Appeals Unit or their assigned Medicaid Managed Care Organization (MCO) using the telephone number on their member ID card or the denial notice.",
+  "confidence": "high",
+  "notes": "The denial letter specifies a 180-day appeal deadline (by February 2, 2027) which must be honored by the payer. Since the denial was due to 'incomplete documentation,' the appeal should submit a comprehensive clinical packet from the orthopedic surgeon. To satisfy standard medical-necessity criteria for CPT 27702, this packet should document: (1) skeletal maturity; (2) moderate-to-severe ankle pain/dysfunction interfering with daily activities; (3) a diagnosis of end-stage osteoarthritis, post-traumatic arthritis, or rheumatoid arthritis; (4) weight-bearing X-rays or other imaging demonstrating severe joint space narrowing or degeneration; (5) failure of at least 6 months of conservative treatments (such as physical therapy, NSAIDs, orthotic bracing, or joint injections); and (6) the absence of absolute contraindications (active infection, severe peripheral neuropathy/Charcot joint, or severe peripheral vascular disease)."
+ },
+ "raw_text": "```json\n{\n  \"policy_found\": false,\n  \"policy_title\": \"COMAR 10.09.92.01 (Definitions - Medically Necessary)\",\n  \"policy_number\": \"COMAR 10.09.92.01(B)(20)\",\n  \"policy_url\": \"https://regs.maryland.gov/us/md/exec/comar/10.09.92.01\",\n  \"effective_date\": \"January 2026\",\n  \"criteria_quotes\": [\n    \"\u201cMedically necessary\u201d means that the service or benefit is:\",\n    \"(a) Directly related to diagnostic, preventative, curative, palliative, rehabilitative, or ameliorative treatment of an illness, injury, disability, or health condition;\",\n    \"(b) Consistent with standards of good medical practice;\",\n    \"(c) The most cost-efficient service that can be provided without sacrificing effectiveness or access to care; and\",\n    \"(d) Not primarily for the convenience of the participant, family, or provider.\"\n  ],\n  \"appeal_deadline\": \"2027-02-02\",\n  \"submission_route\": \"Submit the appeal to the Maryland Department of Health via one of the following methods:\\n- Mail: Maryland Department of Health, Attention: Medicaid Appeals, 201 West Preston St., L9, Baltimore, MD 21201\\n- Fax: 410-333-5154\\n- Email: mdh.medicaidappeals@maryland.gov\",\n  \"how_to_obtain_criteria\": \"Because Maryland Medicaid does not publish a standalone custom medical policy for Total Ankle Replacement, it evaluates requests based on general medical necessity regulations (COMAR 10.09.92.01) and licensed clinical review criteria (such as MCG\u2122 or InterQual\u00ae). Under federal Medicaid regulations (42 CFR \u00a7 438.404(b)(2) and 42 CFR \u00a7 431.210), the patient has a legal right to request and receive, free of charge, the specific clinical review criteria and all documents/records used in making this decision. The patient or their provider can obtain these by contacting the Maryland Department of Health Medicaid Preauthorization/Appeals Unit or their assigned Medicaid Managed Care Organization (MCO) using the telephone number on their member ID card or the denial notice.\",\n  \"confidence\": \"high\",\n  \"notes\": \"The denial letter specifies a 180-day appeal deadline (by February 2, 2027) which must be honored by the payer. Since the denial was due to 'incomplete documentation,' the appeal should submit a comprehensive clinical packet from the orthopedic surgeon. To satisfy standard medical-necessity criteria for CPT 27702, this packet should document: (1) skeletal maturity; (2) moderate-to-severe ankle pain/dysfunction interfering with daily activities; (3) a diagnosis of end-stage osteoarthritis, post-traumatic arthritis, or rheumatoid arthritis; (4) weight-bearing X-rays or other imaging demonstrating severe joint space narrowing or degeneration; (5) failure of at least 6 months of conservative treatments (such as physical therapy, NSAIDs, orthotic bracing, or joint injections); and (6) the absence of absolute contraindications (active infection, severe peripheral neuropathy/Charcot joint, or severe peripheral vascular disease).\"\n}\n```",
+ "usd": 0.2685,
+ "transcript": [
+  {
+   "parts": [
+    {
+     "text": "NOTICE OF ADVERSE BENEFIT DETERMINATION\n\nDate of notice: 2026-08-06\nMember: Avery Alvarez\nMember ID: W970820689\nPlan: Medicaid (Medicaid), state of Maryland\n\nDear Avery,\n\nWe reviewed the prior authorization request submitted by your provider for the following service:\n\n    Requested service: Total ankle replacement\n    Procedure code (CPT): 27702\n\nAfter review, this request is DENIED. Reason for determination: the documentation submitted was incomplete and does not allow a determination of medical necessity.\n\nThis determination was made under the plan's applicable medical policy and clinical review criteria. You have the right to appeal this decision. Your appeal must be received within 180 days of the date of this notice (by 2027-02-02).\n\nReference number: POC-3AB18C211B-60737\n\n\n---\n\nAbove is a denial letter. Using web search as needed:\n\n1. Identify the payer's governing medical policy for the denied procedure --\n   the specific document containing the medical-necessity criteria this payer\n   applies to this CPT code.\n2. Give its title, policy number, URL, and effective or last-revised date.\n3. Quote the medical-necessity criteria the patient must address.\n4. State the appeal deadline.\n5. State where and how to submit the appeal.\n\nIf no such document is publicly available, say so explicitly and explain how\nthe patient can obtain the criteria that were applied to them.\n\nAnswer as JSON with keys: policy_found (true/false), policy_title,\npolicy_number, policy_url, effective_date, criteria_quotes (list),\nappeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes."
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_98211",
+      "args": {
+       "query": "\"Maryland Medicaid\" \"total ankle replacement\" OR \"27702\" policy"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtsGCtgGAWkUfRNu9orOlv0kRHhQVhRin2c4JUcEH55C91cjq3AaCTQm6BrDHf9h6_X7wnrppwTRPjuAs8GnxhSeqSvOfI7fOjYQmgr0QP4u9b8PF_Q7NzVXDnTvUJ091eKSQY8V_f2XgOCluGMh2zPLU57FgMK49VPKkEPs9nE42-ZBBY_75cvpH_LowFF-aK-g304C79Mr1u6SOaOGJvef_55ptpCAgVbF7nmljJ3JJPbGJNv0fL3rsMV0W2fB6vZbg5m6ZCqPjgix5XvUzayHPRF--30l6HgemT9uIpvzIvCgNwEUMk3sSSAQUDKnOvx1kCLjhZl76g17H52mjg4_Z9LkZUKadDp6_o5aXah9CiiMRIjbPsKC7nhOaUclf6xFjLsi4Nu7hHHcoiqw46qK8j_1q6jbYAAH19P4cdzVcpSxO5C2V8iaIhizp7MlDhs0Pi_EbL59mbwVXjoa0s2fi8lwF6J7Q9XhlPJbG_OL19vwwf7CmCgVS_wEKuEmd316h_eTfbQt3yLuOZeBCfsIXyPDirddMx1lCwT48XLsY4zPTg05drS03WzTwFNhnnRRCmfdl1BCrdGRhX2YgefkckSA1u9tYiyeJ6ap2RLM7WY1oh83rBfhqffC23MVF1V_VNzTc8rghDRG_b0cEtxat7_xQQ-MWh4odUgvDc8J8dZNHt-UPMjyd8l3A9rfYlnYkfBlxjeoTZ3FK4mBNG6qOvmxkQI8fqFjKWBoFG844rdWGC9ojQKOwHgSnICziZBezMuA7DzqYuBJdK5fWtUhlETpkhDTB20mFHYKUJwlLAMg9brnYM822cHp9IEscrnCOkFE6akD6_fCeEAVFckQFr58qMhd0aPU4QdE8b--RkUH4OlICRmZ3eXuMtutE4QI4wkNUXGXeMtTllBxUQJwT68VOrS4318nHc6LmvkMlEhhQDe3CKSQ49zLOJh0EjEnYEEVLDmb-XAUDVEAjYFby1yPhldOfmiPAs-a123qkL-U9lZ-Az1sL06ynQeFpPPpw1UPFe0qe3J7iVg7Jg71A7hlL03y-QeqbabYGhqiLWnQyEy9nwtRg459L0oUPyPU2dR1xsgwKVZGZraIy0xYIk_wBukDuqpfrHy4O82eUH96N2skJ4HWGFPoKQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Maryland Medicaid\" \"total ankle replacement\" OR \"27702\" policy",
+        "results": [
+         {
+          "title": "Medica Coverage Policy Total Ankle Replacement Page 1 of 2",
+          "url": "https://partner.medica.com/-/media/documents/provider/coverage-policies/total-ankle-replacement-surgery-cp.pdf?la=en&hash=CF6E197C11189936ABB65996BE00BD98",
+          "snippet": "27702 - <strong>Arthroplasty, ankle; with implant (total ankle)</strong> Original Effective Date: 04/01/2013 \u00b7 Re-Review Date(s): 01/20/2016 \u00b7 11/21/2018 \u00b7 12/15/2021 \u2013 Clinical Review Reserve \u00b7 10/16/2024 \u00b7 11/20/2025 \u00b7 Administrative Update(s): 03/16/2020 - Format \u00b7"
+         },
+         {
+          "title": "Total Ankle Arthroplasty/Replacement",
+          "url": "https://static.cigna.com/assets/chcp/pdf/coveragePolicies/medical/mm_0285_coveragepositioncriteria_total_ankle_arthroplasty.pdf",
+          "snippet": "and Centers for Medicare &amp; Medicaid Services (CMS) code updates may occur more \u00b7 frequently than policy updates. 2. Deleted codes and codes which are not effective at the time the service is rendered may \u00b7 not be eligible for reimbursement. Total Ankle Arthroplasty/Replacement/Revision \u00b7 Considered Medically Necessary when criteria in the applicable policy statements listed \u00b7 above are met: CPT\u00ae* Codes \u00b7 Description \u00b7 27702 \u00b7"
+         },
+         {
+          "title": "Total Ankle Replacement, MPM 20.10",
+          "url": "https://onbaseext.phs.org/PEL/DisplayDocument?ContentID=PEL_00072535",
+          "snippet": "\u201cTotal Ankle Replacement\u201d and/or Aetna criteria \u201cTotal Ankle Arthroplasty\u201d #0645 criteria instead \u00b7 developed the policy with criteria that is in-line with other payers. ... Annual review. Reviewed on 07/13/2021. No change in criteria. Continue coverage for all LOB. Continue PA for 27700, 27702, 27703 and 27704."
+         },
+         {
+          "title": "Dean Health Plan Coverage Policy Total Ankle Replacement 1 of 3 Policy Name:",
+          "url": "https://www.deancare.com/getmedia/c41016f1-8851-4a7e-b203-97c87f7c3432/DHP-Total-Ankle-Replacement-9363.pdf?ext=.pdf",
+          "snippet": "27702 - <strong>Arthroplasty, ankle; with implant (total ankle)</strong> Dean Health Plan Coverage Policy \u00b7 Total Ankle Replacement \u00b7 3 of 3 \u00b7 Committee/Source \u00b7 Date(s) Document \u00b7 Created: Utilization Management Committee/ Medical Affairs/ September 12, 2007 \u00b7 Revised: Medical Director Committee/Medical ..."
+         },
+         {
+          "title": "Total Ankle Replacement",
+          "url": "https://www.bcbsms.com/policy-search/medical/policy-detail/total-ankle-replacement",
+          "snippet": "8/2001: Approved by Medical Policy Advisory Committee (MPAC), CPT code 27702 added, ICD-9 procedure code 81.49 added, ICD-9 diagnosis code 711.07, 711.17, 711.27, 711.37, 711.47, 711.57, 711.67, 711.77, 711.87, 711.97, 714.0-714.89, 715.07-715.97 added"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_125458",
+      "args": {
+       "query": "site:maryland.gov \"total ankle\" OR \"27702\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Et8BCtwBAWkUfRMzdsE8hGiV4Bt-2uPY_eauyqF1daGPCkH1EJ7VuFZgEWah-zUckHSN8GZfhQ8_f_Zt1Ries__jl09jQ-Vtold9pMLvn0Z2VD61ytV9YjAmRSPhccAYo-pBtCW11ZWgvlK6tgnDT_O0oWT243ya_cayWhnM0THiB9dwraj7qqvSBtRa9UiVGAs6-U10kc8_q7YMib98bmY984Uw0QPN9O6loMYhfnuudqGQnq7jnrrkaDokalHr3z5sBgEhvySSSABqMHaz06Sz1_LjR2C-Le2WSAjVKCZiVw=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:maryland.gov \"total ankle\" OR \"27702\"",
+        "results": [
+         {
+          "title": "Cert. # Groom's Last Name Groom's First Name Bride's Last Name Bride's First",
+          "url": "https://msa.maryland.gov/megafile/msa/stagsere/se100/se144/000000/000037/000000/000001/pdf/mdsa_se144_37_1.pdf",
+          "snippet": "27702 MAWUENYEGA EDO \u00b7 ACHIAA \u00b7 YAA \u00b7 10 \u00b7 20 2011 \u00b7 15 \u00b7 4496 NDEDE \u00b7 DOUGLAS \u00b7 ACHIENG \u00b7 ROSE \u00b7 3 \u00b7 31 2011 \u00b7 15 \u00b7 32860 ENRIQUE SANDOVLUIS \u00b7 ACHING FLORES \u00b7 HELEN \u00b7 12 \u00b7 5 2011 \u00b7 15 \u00b7 9473 PORCIUNCULA OLAJONATHAN \u00b7 ACHKAR \u00b7 ANTOINETT \u00b7"
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_144635",
+      "args": {
+       "query": "\"Maryland Medicaid\" clinical criteria total ankle replacement"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtkCCtYCAWkUfRNRMx7NJcvHIJ1pSShShnvNT_714yrm3wbkNmpAdG671i_jYh7ptw6OrQ_ClebdNhMFdZ7LAnwgR32-QPE8BmBhPBZRBIbQ33dppbdiI2cwqS_oElYtiJXe9HM5LfO4j4om1-HYzd8pjE3Ngw4G2emMDL0uXf8cig1p4tGNgKWSPkUlGMvKQlbASaFgivtDkjk4EnqsCyUHEq_vyZuKKpVanthhTRt_dFxE9uNjqGNhIayzngPlv86p_mA5jBF7nZGSzHZYbDy385467iepfgy7YqhasOxiZLgOWJD80gBaKQEXh3_NWnw4MR4852n1xiwHzfrf_eCuV5XRaD9-ueo_u7paWAy72bhXEhDPrBuLgnGwy4rXPaTMswxjg5vGOvXyOC8TAdJDxsVRHkcf1QaKdqjgBe4ivBxCLGug0EB0sfqgW8402LjU58tw92_eh3ZA"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Maryland Medicaid\" clinical criteria total ankle replacement",
+        "results": [
+         {
+          "title": "Maryland Medicaid Eligibility: 2026 Income & Asset Limits",
+          "url": "https://www.medicaidplanningassistance.org/medicaid-eligibility-maryland/",
+          "snippet": "The three categories of Medicaid programs, though which long-term care is available, have differing financial and medical (functional) eligibility requirements. Further complicating financial eligibility is that the criteria changes annually, varies with marital status, and Maryland offers multiple pathways towards eligibility."
+         },
+         {
+          "title": "Maryland: HealthySteps Billing and Coding Guide",
+          "url": "https://www.healthysteps.org/wp-content/uploads/2024/02/Maryland_HS_Billing-Coding-Guide-1.pdf",
+          "snippet": "The below table highlights the billing codes, their descriptions, reimbursable clinician, and guidelines for reporting a ... <strong>Maryland Medicaid does not provide specific limits on CPT code 96112</strong>."
+         },
+         {
+          "title": "Clinical Criteria - Gender Affirming Care Services_04.22.25",
+          "url": "https://health.maryland.gov/mmcp/Documents/Gender%20Affirming%20Care%20Services%20Clinical%20Criteria%2012.20.2023.pdf",
+          "snippet": "Pre-Authorization: Required. For specific CPT codes, please refer to the Maryland Medicaid FFS"
+         }
+        ],
+        "result_count": 3,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_181940",
+      "args": {
+       "query": "\"Maryland Medicaid\" prior authorization \"Acentra\" OR \"Kepro\" OR \"ePREP\" \"total ankle\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EucDCuQDAWkUfRM1UjZWHhg-SEPLCOd3iKStz5NBizB3oLDiptgiJQQ1hQmtnnDgdRG9oWO_VZOFlDOrcEVyPobqA6GE7LLatPET6fSs0Pk3wFyjp7EDal6iMywQRAMrN7NNB56NKaKNjMXuKOo_hQbJ_lKIMNkowKKF53DhnTF9ImfT4NliIpRY1mInwZQfX7O37ZvKLWOFs7n1X7mp6og5xZJnqm3sCWjzwN6UnKhKwCqokgei5kavhR--zD4DIcvaR94iNtEf8lK_B22HzBgFKvh-UVJcw9lWZOntUQUugYQyqEf-d9q8YXBKzMyQLZhbVBSWbRHztRyYrySb0N2_2gyuNdWaf1ag6uZrOSWK2yAY_UjRy593VBTAZCP1jDIA-bnmLnA6DpVSiHQgqxtannebiPOnXAPfJMtmJVBTog1xTdZ6lG-KY1ibsyd_B2auhJ3z1w6upldidQegdsQ__NcdCHf5ih9syn6imkhmvUzNUhr89gFK_zSGufn4yD8EguXgcyciBLqgWQOCKR27UI_TzwMdkSthqFAexf938aYGeprPtGq1IahtKIV5JHiCxPESsu9WHsdPk_-cJL6reOjPfMko0VqQxdpGPYNoeTXyhBBP8q9FaISZpAwA3uQJkAt6mqWuOA=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Maryland Medicaid\" prior authorization \"Acentra\" OR \"Kepro\" OR \"ePREP\" \"total ankle\"",
+        "results": [
+         {
+          "title": "Contact Information",
+          "url": "https://mmppi.com/contact_information.htm",
+          "snippet": "Providing information for the Maryland Medicaid Pharmacy Program"
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_144692",
+      "args": {
+       "query": "Maryland Medicaid \"prior authorization\" guidelines \"ankle\" OR \"joint replacement\" OR \"arthroplasty\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "ErsBCrgBAWkUfRPu7CJGJ06bP2mSny_n-pqaPiEQcpZTtJd5xqSzi7PKC96tx8thdaDkKCZLS9Rq6hs9vOIWiW8h-Zj4a_K9vZii8xgNRy5FxnT5PXxi-NiDPLoV7r5RLRqKL-XUoDnZMJ2NMcOUT05iblhSGazJlKzs3q1LoNNuab5LLCGfRtdjrwOMRO7rjdT7LMBjU8g57a5O9SCYvRfGyGLzQ165dnMr9A_hMt-hG4T4OiDirzb4tX-8Ng=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Maryland Medicaid \"prior authorization\" guidelines \"ankle\" OR \"joint replacement\" OR \"arthroplasty\"",
+        "results": [
+         {
+          "title": "Joint Procedures \u2013 Medicare Advantage Medical Policy",
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medadv-mp/joint-procedures.pdf",
+          "snippet": "For coverage guidelines, refer to the UnitedHealthcare Commercial Medical Policy titled Surgery of the Ankle. ... <strong>Medicare does not have an NCD for arthrodesis or arthroplasty, interphalangeal joint, second-fifth toes</strong>."
+         },
+         {
+          "title": "PRIOR AUTHORIZATION for TOTAL ANKLE ARTHROPLASTY / REPLACEMENT",
+          "url": "https://www.pehp.org/mango/pdf/pehp/pdc/totalankle_fe7a889f.pdf",
+          "snippet": "PRIOR AUTHORIZATION for TOTAL ANKLE ARTHROPLASTY / REPLACEMENT \u00b7 09.2019 PEHP Total Ankle Arthroplasty Pre\u2010Authorization Form"
+         },
+         {
+          "title": "Total Ankle Replacement, MPM 20.10",
+          "url": "https://onbaseext.phs.org/PEL/DisplayDocument?ContentID=PEL_00072535",
+          "snippet": "patients with end-stage degenerative joint disease resulting from osteoarthritis, traumatic arthritis, or rheumatoid ... <strong>Prior Authorization is required</strong>. Logon to Pres Online to submit a request: ... PHP considers Total ankle replacement/arthroplasty for a skeletally mature individual using ..."
+         },
+         {
+          "title": "Medica Coverage Policy Total Ankle Replacement Page 1 of 2",
+          "url": "https://partner.medica.com/-/media/documents/provider/coverage-policies/total-ankle-replacement-surgery-cp.pdf?la=en&hash=CF6E197C11189936ABB65996BE00BD98",
+          "snippet": "<strong>Prior authorization is not required</strong>."
+         },
+         {
+          "title": "AIM (out-of-state / Federal BCBS) Arthroplasty (Joint Replacement) prior authorization requirements (2026) \u00b7 Praxigen",
+          "url": "https://praxigen.dev/prior-authorization/aim-out-of-state-federal-bcbs/arthroplasty-joint-replacement",
+          "snippet": "AIM (out-of-state / Federal BCBS) generally requires prior authorization for Arthroplasty (Joint Replacement) (CPT 23470, 23472, 23473, 23474, 24360, 24361, 24362, 24363, 24365, 24366, 24370, 24371, 25441, 25442, 25443, 25444, 25445, 25446, 25449, 26530, 26531, 26535, 26536, 27120, 27125, 27130, 27132, 27134, 27137, 27138, 27437, 27438, 27440, 27441, 27442, 27443, 27445, 27446, 27447, 27486, 27487, 27702, 27091, 27488, S2118)."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_182746",
+      "args": {
+       "query": "\"Maryland Medicaid\" \"manual\" \"27702\" OR \"ankle\" OR \"arthroplasty\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvECCu4CAWkUfRPTjm6dSh8-33uzV1RXNvaJ95YvoU-xyXYO4VauMWyaAdPm2TTKJj5vOlFIaFvqE04xvFOOB6-KWVZtegLDdRbCId9Za0aJaD69FxHaY_Ce-OhMsMUaPolIOObw4CbIPXvbsnOsthUL4mwZiDJh-Rto77XCCUBkVig9OhAn6Lw4gwGPYIs_M2GQfw_49zPGUUea51co4u7a3j5YruVKBiLvQdMCAwmJE-TcdoKFqdnFlOgDM5_v4pmK_aHECpXvGoDHLo2EEiVz22WwS4vNHcTjTVD4XleV75Bw-IJyCu46xf8wEpr47jEOUPHzMEsurukSpwXFvDK5FIaXCSXfst9kZmrGEmbK9iKgVrA7K0f5ijep62AslTm0VRVMvVAqeEI0eeuJkNzo_sAbyIZ7lI-DIEYyQr42GikQx30AMJ3Zra33V_V20gt-cheGE1Il6yAufgqR1_qAZ4GUlcUAfA79hVvHa5_d1qer"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Maryland Medicaid\" \"manual\" \"27702\" OR \"ankle\" OR \"arthroplasty\"",
+        "results": [
+         {
+          "title": "CPT Code 27702 - Description and Fee Schedule 2026 | PayerPrice",
+          "url": "https://payerprice.com/rates/27702-CPT-fee-schedule",
+          "snippet": "The CPT 27702 code is part of the <strong>Repair, Revision, and/or Reconstruction Procedures on the Leg (Tibia and Fibula) and Ankle Joint services used for Surgical Procedures on the Leg (Tibia and Fibula) and Ankle Joint</strong>."
+         },
+         {
+          "title": "Foot & Ankle 2022 Reimbursement Guide Physician & Facility",
+          "url": "https://www.stryker.com/content/dam/stryker/foot-and-ankle/products/augment/resources/2022-FA-Reimbursement-Guide.pdf",
+          "snippet": "Arthroplasty, ankle; 18. 15 \u00b7 $628 \u00b7 N/A \u00b7 N/A \u00b7 27702 \u00b7 Arthroplasty, ankle; with implant (total ankle) 28. 55 \u00b7 $988 \u00b7 N/A \u00b7 N/A \u00b7 27703 \u00b7 Arthroplasty, ankle; revision, total ankle \u00b7 32. 84 \u00b7 $1,136 \u00b7 N/A \u00b7 N/A \u00b7 27704 \u00b7 Removal of ankle implant \u00b7"
+         },
+         {
+          "title": "CPT\u00ae Code 27702 in section: Arthroplasty, ankle",
+          "url": "https://www.findacode.com/cpt/27702-cpt-code.html",
+          "snippet": "27702 - CPT\u00ae Code in category: Arthroplasty, ankle... auto-open Additional Code Information (Global Days, MUEs, etc.) auto-open Top Modifiers - Most Often Billed \u00b7 Save time with a Professional or Facility subscription! You will be able to see the most common modifiers billed to Medicare along with this code."
+         },
+         {
+          "title": "Trabecular Metal\u2122 Total Ankle Coding Reference Guide",
+          "url": "https://www.zimmerbiomet.com/content/dam/zb-corporate/en/products/specialties/foot-&-ankle/trabecular-metal-total-ankle-system/anklecodingreferenceguide.pdf",
+          "snippet": "Trabecular Metal\u2122 Total Ankle ... Indicator \u00b7 Ambulatory \u00b7 Payment \u00b7 Classification \u00b7 ASC Payment \u00b7 Indicator \u00b7 27702 \u00b7 <strong>Arthroplasty, ankle; with implant (total ankle) C</strong> \u00b7..."
+         },
+         {
+          "title": "CPT 27700 \u2014 Surgical reconstruction or revision of the ankle joint, typically to address pos | Mira Health",
+          "url": "https://mirahealth.care/reference/cpt/27700/",
+          "snippet": "No. 27700 describes ankle arthroplasty in the revision context. <strong>Primary total ankle replacement</strong> is reported with 27702 (implant) or related codes."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_115096",
+      "args": {
+       "query": "\"Maryland Medicaid\" \"MCG\" OR \"InterQual\" OR \"clinical criteria\" OR \"medical policy\" OR \"prior authorization\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Ev8BCvwBAWkUfRP4Dyar2DmGzYLEDtSIRfZlRu1qGzF8CjnCvXcwJJGTIkdCg__RKozi4KBKZ2hzlLQ815QwI8YXPymArQyv-_QXLy0TkNtce8F3x8I6KJzT_D3Hf4VB5Hsd8uhZiaqCdpeebskSqnyKQ2TNX6BdbHUd3eT3ejnHUtfAPwSzmJjvQt6BHZfzdCsoClzhHgnWJFBXtdRdaOERn2NgenRLHTqr8fZE3NcqnZXo4ai-AdfNtYDo1g7bwX35XRunVFneRT_5C1daLlwqXnjUlqLHxuYcJr9jiB96qzY2C58keHf3XkcTaT-glEUyjpZjcwr49UJSK3mtjq63"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Maryland Medicaid\" \"MCG\" OR \"InterQual\" OR \"clinical criteria\" OR \"medical policy\" OR \"prior authorization\"",
+        "results": [
+         {
+          "title": "Medical Policies and Clinical UM Guidelines | Wellpoint",
+          "url": "https://www.provider.wellpoint.com/maryland-provider/resources/manuals-and-guides/medical-policies-and-clinical-guidelines",
+          "snippet": "InterQual Level of Care (LOC) criteria is used by some Medicaid plans for medical necessity review for medical inpatient concurrent review, inpatient site of service appropriateness, home health and outpatient rehabilitation. The InterQualTM guidelines licensed include: ... MCG care guidelines are licensed and utilized to guide utilization management decisions for some health plans."
+         },
+         {
+          "title": "Maryland | Medicaid https://provider.wellpoint.com/md/",
+          "url": "https://www.wellpoint.com/content/dam/digital/wellpoint/documents/provider/maryland/government/general/MDWP_CAID_Feb2023CUMG.pdf",
+          "snippet": "Policy/Clinical UM Guidelines supersede MCG care guidelines and InterQual Criteria."
+         },
+         {
+          "title": "InterQual & MCG Criteria for Imaging Studies | Solum Health",
+          "url": "https://getsolum.com/glossary/interqual-mcg-criteria-guide",
+          "snippet": "Both InterQual and MCG live inside the broader framework that many payers call utilization management, which includes <strong>prior authorization before care</strong>, concurrent review during care, and retrospective review after the fact."
+         },
+         {
+          "title": "InterQual Criteria Explained for Providers - MedHeave",
+          "url": "https://medheave.com/prior-authorization-services/interqual-criteria/",
+          "snippet": "Here are some commonly asked questions on InterQual criteria: ... InterQual criteria points are <strong>the specific clinical elements a reviewer checks against the patient record when applying a given criterion</strong>."
+         },
+         {
+          "title": "Search Medical Policies and Clinical Guidelines",
+          "url": "https://medpol.providers.amerigroup.com/green-provider/medical-policies-and-clinical-guidelines",
+          "snippet": "InterQual Level of Care (LOC) criteria is used by some Medicaid plans for medical necessity review for medical inpatient concurrent review, inpatient site of service appropriateness, home health and outpatient rehabilitation. The InterQualTM guidelines licensed include: ... MCG care guidelines are licensed and utilized to guide utilization management decisions for some health plans."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_111781",
+      "args": {
+       "query": "\"Maryland Medical Assistance Program\" \"prior authorization\" \"ankle\" OR \"27702\" OR \"arthroplasty\" OR \"criteria\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EoMDCoADAWkUfRNJlS49azTi4AigqP4E2mhBhkfGGFz5066oILdp5RTI74E9yrD8JMQzZvhBbINJnUAUQPYZjJ7-MTV6Hj59VM2hK5HZZEJv8iB3EgdH2SMe3Yrqf9hLSoNtff7V9yWPkgsmxmd7b_IHGNUTC6T0Hdj6muc7bDiU1GUQKgiZxkDfDDZxX-GwuyDu_X4DIPzwB8XWrIv84r1_jpbbiR2Bx4yDihCTblhiZd2ACP7U4zeobGMwK2-O5GdH5gqgp97aIzwx8dazuWmDONXEpgdPwzVp40njYgAMwZQCXARn3uv3pWxFEcvopTT84IDukzHUjEmdNRO9_V0WyYvIRzxZ5WqEpUQna757I5velRWyofXZhDsqQ5WW9IykivamWhHx-Cy_xxf1cW0s4j4rFFhHJtIafCS57obTn9aroOYNwhMvrcHOmKzMF6smMD5ovHnvVuu_nrS5uScQSl0U9iFy8rTy_BrukMg2f_wo1roTx8o-V6iCVfiNqEmp3awj"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Maryland Medical Assistance Program\" \"prior authorization\" \"ankle\" OR \"27702\" OR \"arthroplasty\" OR \"criteria\"",
+        "results": [
+         {
+          "title": "Total Ankle Replacement, MPM 20.10",
+          "url": "https://onbaseext.phs.org/PEL/DisplayDocument?ContentID=PEL_00072535",
+          "snippet": "Continue PA: 27700, 27702, 27703, 27704 for ALOB."
+         },
+         {
+          "title": "CPT 27700 \u2014 Surgical reconstruction or revision of the ankle joint, typically to address pos | Mira Health",
+          "url": "https://mirahealth.care/reference/cpt/27700/",
+          "snippet": "CPT 27700 covers open ankle joint arthroplasty \u2014 a reconstructive procedure performed when the tibiotalar joint requires revision due to <strong>prior surgical failure, progressive arthritis, or significant structural compromise</strong>."
+         },
+         {
+          "title": "Total Ankle Replacement",
+          "url": "https://www.bcbsms.com/policy-search/medical/policy-detail/total-ankle-replacement",
+          "snippet": "Total ankle replacement is investigational for all other indications added. Policy Exceptions Section revised to add FEP verbiage. Coding Section revised as follows: A Covered Codes Table added. CPT4 codes 27702 and 01486 moved from Non-Covered Codes Table to Covered."
+         },
+         {
+          "title": "Total Ankle Arthroplasty - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0645.html",
+          "snippet": "This Clinical Policy Bulletin addresses total ankle arthroplasty \u00b7 Note: Precertification may be required for select procedures and interventions. Use the CPT code search tool to see if precertification is required"
+         },
+         {
+          "title": "Medica Coverage Policy Total Ankle Replacement Page 1 of 2",
+          "url": "https://partner.medica.com/-/media/documents/provider/coverage-policies/total-ankle-replacement-surgery-cp.pdf?la=en&hash=CF6E197C11189936ABB65996BE00BD98",
+          "snippet": "27702 - Arthroplasty, ankle; with implant (total ankle) Original Effective Date: 04/01/2013 \u00b7 Re-Review Date(s): 01/20/2016 \u00b7 11/21/2018 \u00b7 12/15/2021 \u2013 Clinical Review Reserve \u00b7 10/16/2024 \u00b7 11/20/2025 \u00b7 Administrative Update(s): 03/16/2020 - Format \u00b7"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_179804",
+      "args": {
+       "query": "site:health.maryland.gov \"27702\" OR \"arthroplasty\" OR \"prior authorization\" OR \"preauthorization\" OR \"pre-authorization\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Ep0CCpoCAWkUfRN6fOrCAbx7v0LQXQZDRT9iCZ3FFKhY2IH4goLcuzNrd8-m6gMKy-qcAUYyGNkrBW2ln8dUo-pEqLrUD5czsRBQfnJ2BbWuFsQK-PpeCZJyg9cD-T46XahtTPy1KW-BwaW9Auppfgs3NHhBzflIQKSBRlWSj_0Di4Aro_iunB5lj0QYA0zGd1kzTGnDiEjlfQbT5vxgtGN6cMeJdFNU8nrYc89lkb5vAkl0nyq5l3hslSoc2dmVJnkfjdg7rFsRFc4icQsEJg8dLepRUOgGClQeV6OdFQxuIjVDgGFzVxkYJWTx57_4pCRBixxu9YI-uPBxfpmFhWq-e16ebp21mNfQGKbBR98BoiC6GoYRALZ4BIIHkVHI"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:health.maryland.gov \"27702\" OR \"arthroplasty\" OR \"prior authorization\" OR \"preauthorization\" OR \"pre-authorization\"",
+        "results": [
+         {
+          "title": "Reference Guide for Completing Preauthorization Forms for Physician Services",
+          "url": "https://health.maryland.gov/mmcp/Documents/Steps%20for%20Completing%20a%20PA%20request.pdf",
+          "snippet": "Reference Guide for Completing Preauthorization Forms for Physician Services"
+         },
+         {
+          "title": "Preauthorization Information - Maryland Department of Health",
+          "url": "https://health.maryland.gov/mmcp/Pages/Preauthorization-Information.aspx",
+          "snippet": "<strong>Maryland Medicaid Fee-for-Service will preauthorize services when the provider submits adequate documentation demonstrating that the service is medically necessary</strong>. Prior authorization of benefits is not the practice of medicine nor the substitute ..."
+         },
+         {
+          "title": "PREAUTHORIZATION REQUEST FORM",
+          "url": "https://health.maryland.gov/pophealth/Documents/Local%20Health%20Department%20Billing%20Manual/PDF%20Manual/Section%20VI/UMHP-Preauthorization-Request-Form.Revised-0217.pdf",
+          "snippet": "We work to protect and advance the health and well-being of all Marylanders through systems that work for people.\u200b \u00b7 Stay up to date on COVID-19 news in Maryland"
+         },
+         {
+          "title": "PCA-1-000381-12092015_12162015 Prior Authorization Form",
+          "url": "https://health.maryland.gov/pophealth/documents/local%20health%20department%20billing%20manual/pdf%20manual/section%20vi/uhc%20community%20plan%20prior%20auth%20fax%20form.pdf",
+          "snippet": "PCA-1-000381-12092015_12162015 \u00b7 Prior Authorization Form"
+         },
+         {
+          "title": "PT 77-25 1 MARYLAND MEDICAL ASSISTANCE PROGRAM DME/DMS Transmittal No. 3",
+          "url": "https://health.maryland.gov/mmcp/provider/Documents/transmittals/PT%2077-25%20Orthoses%20and%20Prostheses%20Coverage%20Expansion%20under%20the%20So%20Every%20Body%20Can%20Move%20Act%20Updated.pdf",
+          "snippet": "Support Services webpage. <strong>MCOs may require prior authorization for this benefit</strong>. Providers must \u00b7 contact each MCO for their preauthorization and reimbursement policies."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_136050",
+      "args": {
+       "url": "https://health.maryland.gov/mmcp/Pages/Preauthorization-Information.aspx"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EscDCsQDAWkUfRNWjFrDpCHvSCcs-rUeESKaGaja85YV2BTbQ9zpgnYHebJWAl7aA72ZgX27MDPGnUJ0T_H6RJZjIjYQIDFNMUXDWwltzT8Jo93sz5MY1pGYEYoCMJWsL4-7px8jfBFxikihxMgH0T8-qBNN373wfFUngh_abQz6dP1rhJBdlQi2kBS4cbc55FebY8GHXcp06E0Vqi_8zvaLD6rZU7fwB6XcRCVxRnOjJW_J9UlAt4Ad6vMIBUmwLHPDeRXVcEOYZ_G6h7bHIiGboK4sGv8qZtcNC2OUl6XLBP0F0u5HDiq0o1mCZc6BYPC5tzcf4bC8j6DGk04fpnHlODW6pMyKOqQ0PAUyNsZ3Y-T9LPvOnTOdjnPPOslbScn7XcEEIVbJiCvo6JVMpUFvKu3Ettv9zAFnx5eyhp4BjKxm9fFh9XNBO6X5zo0dEeK87nMilIyi2ohuAHRN_wMU0kZd-7PnGihBC1QXmaCbkyr4dYllW6fbBVW_UB1D-njzSfy-n1csh6CFjk4HEk4OGlez2yUf8FuzB8KSAwvRDtG7VHZH-7N0WW4IrQqd_wX9RrUgVzBGBfGLRpsiVAuTnJJnA1X3dwE="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://health.maryland.gov/mmcp/Pages/Preauthorization-Information.aspx",
+        "final_url": "https://health.maryland.gov/mmcp/Pages/Preauthorization-Information.aspx",
+        "http_status": 404,
+        "content_type": "text/html; charset=utf-8",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": "File Not Found",
+        "text_truncated": false
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_140153",
+      "args": {
+       "query": "site:health.maryland.gov \"Preauthorization Information\" OR \"prior authorization\" OR \"preauthorization\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Es8BCswBAWkUfROHUzQndlQfS4b52VwjYK5e2AI2BcuorSVeALVD2mK8G6ySihEyxq11EyT_vkN1lgwB3oBQn8Pu4QELxtfQoA_uX1ioq7IeWm7HPnvBvhPQQhtyenEq67x0ZOt2TG3sTNLXYe5TgxomrXFSqNVK9ctu8knH7kl3Z8J3H08de-cvwovBNkhSsl13MH6bnzPDq3H-oxXgBASJJJyZjlFUpXBTeC1zaALOk81yPw2d1osX_3_XDE2HYpwi9kCYH71LWsoCXFhB_uQH"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:health.maryland.gov \"Preauthorization Information\" OR \"prior authorization\" OR \"preauthorization\"",
+        "results": [
+         {
+          "title": "Preauthorization Information - Maryland Department of Health",
+          "url": "https://health.maryland.gov/mmcp/Pages/Preauthorization-Information.aspx",
+          "snippet": "<strong>Maryland Medicaid Fee-for-Service will preauthorize services when the provider submits adequate documentation demonstrating that the service is medically necessary</strong>. Prior authorization of benefits is not the practice of medicine nor the substitute ..."
+         },
+         {
+          "title": "Reference Guide for Completing Preauthorization Forms for Physician Services",
+          "url": "https://health.maryland.gov/mmcp/Documents/Steps%20for%20Completing%20a%20PA%20request.pdf",
+          "snippet": "Contact Information for the Person Completing this Form - Please provide a direct email and ... Preauthorization Unit. ... Code - List the CPT or HCPCS code(s) that require a prior authorization."
+         },
+         {
+          "title": "PREAUTHORIZATION REQUEST FORM",
+          "url": "https://health.maryland.gov/pophealth/documents/local%20health%20department%20billing%20manual/pdf%20manual/section%20vi/umhp-preauthorization-request-form.revised-0217.pdf",
+          "snippet": "- Prior Treatments \u00b7 - Discharge Information \u00b7 For DME: \u0000 Physician\u2019s Order Attached \u0000 Certificate of Medical Necessity (CMN) Attached \u00b7 SECTION 5 \u2013 APPROVAL INFORMATION (For UM Health Partners Use Only) Authorization #: Approval Date Range: \u2014 \u00b7 Approval Date: Reviewer/Approver: SECTION 6 \u2013 REQUESTOR INFORMATION \u00b7"
+         },
+         {
+          "title": "Division of Nursing Services Preauthorization Process",
+          "url": "https://health.maryland.gov/mmcp/Documents/DONS%20PA%20Procedures%202022%20%20(3).pdf",
+          "snippet": "1. The agency emails all preauthorization renewal requests to Laurence \u00b7 Phillip 30 days prior to the start date of the authorization period. 2. The nursing agency is responsible for tracking email submissions and confirming \u00b7 that the email was successfully transmitted to DONS from the agency. 3. Place the following information ..."
+         },
+         {
+          "title": "PT 48-26 MARYLAND MEDICAL ASSISTANCE PROGRAM MCO Transmittal No. 259",
+          "url": "https://health.maryland.gov/mmcp/provider/Documents/transmittals/PT48-26_Removal_of_Prior_Authorization_Requirement_for_Special_Pediatric_Hospitals.pdf",
+          "snippet": "Telligen will hold a training session on the new fee-for-service authorization process on \u00b7 Thursday, January 13, 2026 at 2:00pm. Registration for this training can be found here. HealthChoice Preauthorization Processes for In-State Special Pediatric Hospitals \u00b7 In-state Special Pediatric Hospitals should contact each HealthChoice managed care organization \u00b7 (MCO) for information about review processes under HB1301."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_140947",
+      "args": {
+       "query": "\"Telligen\" \"Maryland\" Medicaid prior authorization OR \"total ankle\" OR \"criteria\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtMDCtADAWkUfRM0qczIJdO20BD_1WT5JBA4HxqP6Xy9JWcEdAIQ4R788luQ7d6aAL2pJ2aEDXl3KFs4PszROPasaUf-GSgP6DoCRGRXK2j2t8OJM12ur7RPIoDZz9Gd3zicBVSXvgmUeEgDMecf5T0QVx_Ohoq88PBoKI9ZT0I4boRv7nuMyQvbnwGYuyZ3V3st0eCrl9WU0Mvtpm4xgH1QloXZnPyM5rMZ2D94XNtsLL8_qu-bqlDZpdKkWdvgYmbBP-oGepsxP1J3uaZ6u0Z1iRWF8Uu-7RNrogc5J98V9tOY8tJL8vvEX4ItBEWG_5q6rY9EITNa5jWz5bu4xu11OiDygWCGQHnAQdEH9hAxZy5vMAYnp7gYEezYvMejCJC6IrQOUcMR40AJX4b_vX1YOXGwQ7bF4KltR-6to44XcIhoGQqjyCgJQmGu3EfufMT9uF0VutHHt52U0yanZa9jQfG0RBtuxCSeradc_ZeARrUzoFWxJcPssRg9uVP1EmwEtfgSVZZStVu2WvPweOVmGrgKh6Bsw0lo1mvd6YDyLVoqZJeACbx0cr2_6GTxfXYxVTq8Vbfvn2kdb9Hy5MPYmgkUPlTcQWkHRN0URvMfNunC1XQ="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Telligen\" \"Maryland\" Medicaid prior authorization OR \"total ankle\" OR \"criteria\"",
+        "results": [
+         {
+          "title": "Telligen Prior Authorization Forms: Complete Step-by-Step Guide 2026",
+          "url": "https://www.sprypt.com/blog/telligen-prior-auth-form",
+          "snippet": "Key steps include: 1. Register for Qualitrac Portal Access: Providers must register on their state-specific Telligen website and await confirmation. 2. Verify Patient Eligibility and Coverage: Confirm the patient&#x27;s Medicaid status and specific plan benefits before submitting requests."
+         },
+         {
+          "title": "PT 48-26 MARYLAND MEDICAL ASSISTANCE PROGRAM MCO Transmittal No. 259",
+          "url": "https://health.maryland.gov/mmcp/provider/Documents/transmittals/PT48-26_Removal_of_Prior_Authorization_Requirement_for_Special_Pediatric_Hospitals.pdf",
+          "snippet": "Out-of-state Special Pediatric Hospitals must continue to obtain prior authorization using the \u00b7 current processes in place for Maryland Medicaid and HealthChoice. For Maryland Medicaid, the requests must be submitted to the Department&#x27;s Utilization Control Agent, currently Telligen, via Qualitrac before admission, and providers must select \u201cprior authorization\u201d as the request \u00b7"
+         },
+         {
+          "title": "Maryland Department of Health Extends Telligen Medicaid Contract Work for Additional Year | Telligen",
+          "url": "https://www.telligen.com/recent-news/maryland-department-of-health-extends-telligen-medicaid-contract-work-for-additional-year/",
+          "snippet": "Telligen engages with the provider community and stakeholders through continuing education offerings and communication. Providers are able to enter requests and check status on their requests in Telligen\u2019s provider portal. The agency also provides prior and continuing authorization for services within the inpatient, long-term care and home and community-based services."
+         },
+         {
+          "title": "Maryland",
+          "url": "https://health.maryland.gov/mmcp/provider/Documents/2026-Professional-Services-Provider-Manual.pdf",
+          "snippet": "If P, then a Preauthorization is required. Please fill out the Medicaid"
+         },
+         {
+          "title": "Maryland Department of Health Extends Telligen Medicaid Contract Work for Additional Year",
+          "url": "https://www.prnewswire.com/news-releases/maryland-department-of-health-extends-telligen-medicaid-contract-work-for-additional-year-300825048.html",
+          "snippet": "Telligen engages with the provider community and stakeholders through continuing education offerings and communication. Providers are able to enter requests and check status on their requests in Telligen&#x27;s provider portal. The agency also provides prior and continuing authorization for services within the inpatient, long-term care and home and community-based services."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_94337",
+      "args": {
+       "url": "https://health.maryland.gov/mmcp/provider/Documents/2026-Professional-Services-Provider-Manual.pdf"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "Eq0DCqoDAWkUfRPsUwRcO1k3xs8CCKpqai5OJE_zL9OECLdEBiGPAiTU0zjIQvfN8u2x8aULunp75vHWUQyHiHvbN1-_kuNyEzJbcmPrbH87oNLwFgPIbamCDAFAsOuidP-tjbKRLluqsAhJWTVQeJBWB6RWofHFelOH04sR9011tEWfiGTnTx_NPPM1bl_gXhClXQQLA5_lsZw8fdD4PNhnhsFIzSBH-UABwHGQVgxRlYPbrIeeY46m2n-gcXaWY8-UYFHwsbmbC8SnOm0voaB2JHAkmRWtVgr4c2-UWEzdB64JN65Xg1PbqN1rKgmaXH9-ASgBRqYouqbnqt5fV_R2daqJqcWyTH8dw5qt0jIqbFtSMkB_lRLEqVm1kTVCnqSKezoncBNsJFxdlRbPTXHmz-pTL9_QK-LOKkAkajKUZSsj6MQNi1wT7d_Np0Hb1OOmOXRsGpqtDbcLSJt9lYasYxrckbo-5B7EnIfYn5aIp6AdyC3ZtuGTotHzu-cF3IsNuoDp2g18QTu54HQGWmkCFdtMXX0opImCMBQ3hw6NY3PNNt7ru3r_w9bpdtCZ"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://health.maryland.gov/mmcp/provider/Documents/2026-Professional-Services-Provider-Manual.pdf",
+        "final_url": "https://health.maryland.gov/mmcp/provider/Documents/2026-Professional-Services-Provider-Manual.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": " ____________________________________________________________________________________________ Effective January 2026 Professional Services Provider Manual 2 Maryland Medicaid Assistance Program Table of Contents CHAPTER 1: INTRODUCTION TO THE MANUAL ....................................................................... 6 Introduction ........................................................................................................................ 6 Background ......................................................................................................................... 6 Legal Authority .................................................................................................................... 6 Definitions ........................................................................................................................... 6 CHAPTER 2: GENERAL INFORMATION ................................................................................. 11 Introduction ...................................................................................................................... 11 Federal Guidelines ............................................................................................................ 11 i. Medicare ............................................................................................................... 11 ii. Free Care Policy .................................................................................................... 11 iii. HIPAA and HCPCS ................................................................................................. 11 iv. NPI ........................................................................................................................ 12 v. Provider Verification System ................................................................................. 13 vi. NCCI ...................................................................................................................... 13 Coverage ........................................................................................................................... 13 i. Covered Services .................................................................................................. 13 ii. Services Not Covered ............................................................................................ 14 iii. Coverage Determination Request ......................................................................... 16 Payment ............................................................................................................................ 17 i. Professional Services ............................................................................................ 17 ii. Payment In Full and Maximum Payment ............................................................... 17 iii. Third Party Recoveries ........................................................................................... 17 Coding and Billing.............................................................................................................. 18 i. Common Procedure Coding System ..................................................................... 18 ii. CPT ........................................................................................................................ 18 iii. ICD-10-CM Codes .................................................................................................. 18 iv. Level-II HCPCS ...................................................................................................... 18 v. Unbundling ............................................................................................................ 19 vi. Program-Accepted Modifiers ................................................................................ 19 vii. Informational Modifiers......................................................................................... 20 viii. Modifiers Not Accepted......................................................................................... 20 Professional Services Provider Manual 3 Maryland Medicaid Assistance Program ix. Payments Rates .................................................................................................... 20 x. Unlisted Medical or Surgical Codes ...................................................................... 21 xi. Billing Time Limitations ......................................................................................... 21 xii. Crossover Claims .................................................................................................. 21 Policy Requirements ......................................................................................................... 22 i. Medical Records Documentation .......................................................................... 22 ii. Preauthorization.................................................................................................... 23 iii. Transition of Preauthorization ............................................................................... 23 iv. Covered Procedures or Services Requiring Preauthorization ................................ 23 v. Preauthorization Procedures ................................................................................ 24 vi. Preauthorization Decision Procedure ................................................................... 26 vii. Dual-Eligibles and Coordination with Medicare .................................................... 27 viii. Services Not Covered by Medicare........................................................................ 28 ix. Additional Guidelines and Resources ................................................................... 28 x. Consultation & Referrals ....................................................................................... 28 xi. NDC Reporting Requirements ............................................................................... 29 xii. Codes Requiring NDC Numbers ............................................................................ 29 xiii. Denials .................................................................................................................. 29 Additional Information ...................................................................................................... 30 i. Tamper Proof Prescription Pads ............................................................................ 30 CHAPTER 3: SERVICES INFORMATION ................................................................................. 31 Introduction ...................................................................................................................... 31 Evaluation & Management ................................................................................................. 31 i. CPT Guidelines & Modifiers ................................................................................... 31 ii. Preventive Exams .................................................................................................. 31 iii. Community Violence Prevention ........................................................................... 31 Surgery .............................................................................................................................. 33 i. Global Surgery Package......................................................................................... 33 ii. Less Than Full Global Surgery Package ................................................................. 34 iii. Multiple Surgical Procedures ................................................................................ 35 iv. Bilateral Surgical Procedures ................................................................................ 36 v. Co-Surgeons ......................................................................................................... 36 Professional Services Provider Manual 4 Maryland Medicaid Assistance Program vi. Assistant Surgeons ............................................................................................... 37 Anesthesia ........................................................................................................................ 37 i. Procedure Codes................................................................................................... 37 ii. Modifiers ............................................................................................................... 37 iii. Time and Base Units .............................................................................................. 38 iv. Preauthorization.................................................................................................... 39 v. Medical Direction .................................................................................................. 39 vi. Payment and Add-on Codes .................................................................................. 40 Trauma Services ................................................................................................................ 42 i. Trauma Billing Instructions ................................................................................... 42 Critical Care Services ........................................................................................................ 43 i. Coding Guidelines ................................................................................................. 43 ii. Neonatal and Pediatric Critical Care ..................................................................... 45 Reproductive Health ......................................................................................................... 46 i. Obstetrics ............................................................................................................. 46 ii. Gynecology ........................................................................................................... 47 iii. Hysterectomies ..................................................................................................... 47 iv. Abortions ............................................................................................................... 48 v. Family Planning Services ...................................................................................... 49 vi. Doulas Services .................................................................................................... 49 vii. Sterilizations ......................................................................................................... 52 viii. Tubal Ligation and Occlusion ................................................................................ 53 Healthy Kids / EPSDT ......................................................................................................... 54 i. EPSDT Audiology, Vision, and Therapy Services .................................................... 54 ii. Preventive Medicine Services ............................................................................... 55 iii. Substance Abuse Screening.................................................................................. 56 iv. Vaccine Administration/Vaccines for Children Program ....................................... 56 v. Vaccine Administration and Federally Sponsored Vaccines ................................. 58 vi. Sick Visits .............................................................................................................. 58 vii. Objective Tests and Other Ancillary Services ........................................................ 59 Allergy Immunotherapy ..................................................................................................... 59 i. Procedure Code 95117 ......................................................................................... 59 Professional Services Provider Manual 5 Maryland Medicaid Assistance Program ii.",
+        "text_truncated": true
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_64654",
+      "args": {
+       "query": "site:health.maryland.gov/mmcp/provider/Documents/2026-Professional-Services-Provider-Manual.pdf \"ankle\" OR \"27702\" OR \"arthroplasty\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtAGCs0GAWkUfRN4Kksji8U_xua69de2tMQWxhVeP31JUcJb8KiP4Ih-RbmQS9ulRj89kGkJQfnDyAU445PUGtpSaoQ-Z2GsY5jkxZAEeeDRRN3niWn8KKmkJfR7WNcgz3RoFvWZt3Pb6Vx_UUJKYwayxgnzHh5FHkDeQWl82dNymcpU33U61-FZXT7uCWAaRdZQI1CdEFT2pCVSuCRhxL1QZhZiZSlCU-eMXIzpIVzpNpdRk-9jkkJ0NbyxAYreaAFx8bYDl7OV9pRlD7EnJaGBkTbIcseffvpQQPTWrWu4ZYtdS3NI_Q6esuHzy1X5VK_EILcbPse1GWr2z4GNvJL0OGyYgvupCwaIe4KE5r3qaTpyBNUV1Wx59RaphQP_IApg_4axKxb30T3hNYhC20EjCMuK1kPrq-25hN1cb5qhYp3AgxUM6SJWsuOWXWn9ITA0IbEqjDjoIc-wvyqSX8RX-AHSiyrscYNXTp4HkF5Cy92wdDsDrqqvxN7sT15t-x0V7V4Ox1VQii3ieHdY4AByG8MyCsXjnpQM0m7i9ZX5pwAfOGuuAmWVV8H1yuzXLTYZs7o1DXVR9ck3PiAcXPx5WydXpQdJMnDA7rGISF1ZsSevrYmiTpKMh0criC8OIs7jErQ6Y_loHD4lxMH_jbwpe1JhKu_ogz6XESPc702Xk6CvnBZxuNjMp7h9b0b9gfHU3PWGMOetLoTaejz5KEq_p2sM3-YRl4IFlHFePkFny2WSCW6SdeO3UrZ6296jUPGlmziLZlwFqT9Dq2bFIxjQz7jlqsRPD5Tkc5zoB5mahR2RIXJJjYl9klw7-4U8b6dlwpbHnvIP8owdvvwUzdk2P6mvt06M0fEHvN_UFy3auSR15lmt1L7DlL6YlIl8_tfzJpOPD5EUCHrWMR3sK1gDYAM7Km3IcjedPYllsuokH0qZJRjAFForctD1Poq67KRgqXlFeIt5QjY9VasrS94tvYXs5OPd9BRinC-MeqVb4I8C4lU1zv9sGiytClx8unCPUQ7RRhQ1eQUof90id8Kbl1_DJclyNTS1iMBKX_WbAwiFCiqf7R1_EORzDwhemZqDKLbsBLAnQKi9BmM4DO_T5_OoDa8A3-RAhKzBbF0Xo_w="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:health.maryland.gov/mmcp/provider/Documents/2026-Professional-Services-Provider-Manual.pdf \"ankle\" OR \"27702\" OR \"arthroplasty\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_132214",
+      "args": {
+       "query": "\"Professional Services Provider Manual\" \"Maryland\" \"Preauthorization\" OR \"Appeal\" OR \"27702\" OR \"tibia\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvMBCvABAWkUfRPWyaOUgv-WZeE-Iz2nK0SyeAoZJeb3NmmUClcrEhHleTqrMXVQ5s5Zu99d8pp6oVso1Fk9HzsWtYXcJOem7aAOaIc4btguMg6I-5Ti78depMhOT9QvtJ9dS3gwyhMXa92p8rYmWKN0QuVwwGYIqr65NnhGuYwfJsF7FEK_zO2uotBDyCGa3gfC1PG6zVJv4h5my2A4DWWZyQcGOoropjaNd0Kfia9ttBOv__dZC1z3UCsmXft2SkGp0FuwUFrqpMqm0MQcjtL5aPy3lUC2IG1lH98WftoeK1Cl-mAw6vCpNUlcwoeF-EJyLLPe"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Professional Services Provider Manual\" \"Maryland\" \"Preauthorization\" OR \"Appeal\" OR \"27702\" OR \"tibia\"",
+        "results": [
+         {
+          "title": "2024 Maryland Medical Assistance Program Professional Services Provider Manual",
+          "url": "https://health.maryland.gov/mmcp/Documents/Professional%20Services%20Provider%20Manual%202024%20updated%2010.28.2024.pdf",
+          "snippet": "Preauthorization Request Form for Physician Services or the"
+         },
+         {
+          "title": "healthchoice provider manual - Maryland Department of Health",
+          "url": "https://health.maryland.gov/pophealth/Documents/Local%20Health%20Department%20Billing%20Manual/PDF%20Manual/Section%20VI/MPC%202019%20Provider%20Manual.pdf",
+          "snippet": "File appeals and grievances with a Managed Care Organization."
+         },
+         {
+          "title": "Provider Manual Updated: January 2026 AetnaBetterHealth.com/Maryland",
+          "url": "https://www.aetnabetterhealth.com/content/dam/aetna/medicaid/maryland/providers/pdfs/abhmd_provider_manual.pdf",
+          "snippet": "If a provider renders any of the services listed above, the provider must follow our billing and preauthorization"
+         },
+         {
+          "title": "Prior Authorization - Maryland Physicians Care",
+          "url": "https://www.marylandphysicianscare.com/providers/prior-authorization/",
+          "snippet": "<strong>If the MPC Medical Director returns the Peer-to-Peer request and leaves a message, the provider has two (2) business days to return the call, or the denial will be upheld and the provider will need to file an appeal</strong>."
+         },
+         {
+          "title": "Maryland HealthChoice Program Provider Manual",
+          "url": "https://www.provider.wellpoint.com/docs/gpp/MDWP_CAID_HC_ProviderManual.pdf?v=202401300321",
+          "snippet": "PRIOR AUTHORIZATION AND MEMBER COMPLAINT, GRIEVANCE AND APPEAL \u00b7 PROCEDURES .................................................................................................................................... 78 \u00b7 Services Requiring Prior Authorization ..................................................................................................................... 78 \u00b7 Services Not Requiring Preauthorization .................................................................................................................."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_142059",
+      "args": {
+       "query": "\"Maryland Medicaid\" OR \"Maryland Medical Assistance\" \"27702\" OR \"total ankle\" OR \"ankle arthroplasty\" OR \"ankle replacement\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Et4ICtsIAWkUfROCL9KvqhTTE6-FUcaRNQTe1G6_Z2l3RXAQ7i87Ra7zAFM1EKhHgGD6JWkappNFjWMFxT8LBDt8Q4QnvrNvdRnrtwjXMm-9HyFaFMFgZqFXPge_9Ack235QpjCA2yJAePf1IBrcs6d5eniymZK_ppccdOlcPwB7QLwkSfmnDrt_qVGlFPEY1rVML7eW72c2svWwTymE5J6aI5NtE9N60J-pjOlW0pfWl6Qtvp0vBqqzBprniWG7J1DJCcMStDvlWoJpk4xgwu0Rg43G9iLvZ2vlote-slQxLUpHrmIM4PZM_09WtP4o5KF3g7XDhYAXUze1cZqbWIe0jponLXwW8jYH7OjiuOuxfmoq0KeFNi7z2fjXN2GmwpjBsBMlWZ6ZwUYDzsfYKlLiUuQo5xmnAoKt__oE-hxmegzv4XjUMGB8cZ9LAIdv2749B4xnoUVWpHbbRkEFNzg3BNpO7-n-dlMlZhUes5r-VCrXv23fbmyYsDYXBIAazOzFKCroMtOdxKSGmByTMOst1h9OzboCEF9NNRLfQGrrABSFimYbjPYv0EOTDTtf5GEs7ilxFxhk7pLNlBkaRjmsh-jtONkzO82aezVPMYbvrHUqqcDVssLjLzNsoXL-lmSOsGySrX1bM73FYGlcHJyPLT-rt8IIgsHr_E-EjXbpEdTE3ScRrVZlX3CtQgTx4TXmYZLD6nbKqhdPX2ZYbLYrxe5BCSpQINTXqY6dOBOOIHECN05jvy1mdtQZnVmdxlYFSbPfRogKs2jcMxxTEeoOEGMaBa2cfWeHRLRGRSNunHwz-sv5JgE9jxCkq9-xDR_UkNxPSSy30olXG7NiGr83UVcMoYRxrbjH5SORswjP6qILERydhi-_UDrH6K_xbkabRcAIX_Qdn_EdBoIRcJiveHFkRc4SjJwqzTPD0P4xlqzxb-v4QRUe1OSxHWfPGQfeRsYWblMzVAC3B5LNo8XtjBHrineYLeYXXlMgSSFOkGKv70fIEx5BxyblAgq6WCtOl20Az_CHuOxTFBnqueBCuAHSJCUFiEl2T6d4_Rlw16E7bimj59R3d8H3UiKvZPYGOVakv72JrMZu8T6wuBtxWn0qHZ1b9iRMnkYOyIiTyJG5ZIzOaOUn7tIwmtIsRVqbDBuB3JFUH_3rmLEj9vS1XC5ahq4gOMKxgtTOuTfCQjrn--0CtkPPpYvEY_i_Oj6J4RwKVH2YGD94NUCr1Sy7ugv45seQWVf7xVCkuRLOobZaHePkeL3VyJA0recMURYHPHA2ZpM4aBzGmO7LoPouFz4vlmOn3ZOlKkFAvPcKDVQ3YLJ2f-XoillcrZZe1spxNOYOrnLz4lfdx5adMkoWkhyZGfIpHbG5y-VkQQV5aKfHRMbxIShzzVLN1lzBcXsTmZX40EBVEMyaACI0cXcJaASV1GwJqyte1nBZyJ7Pz2I4Pek86hE1Lg_xQi2hG1hHl20j17M8cCZOR6Yx--M="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Maryland Medicaid\" OR \"Maryland Medical Assistance\" \"27702\" OR \"total ankle\" OR \"ankle arthroplasty\" OR \"ankle replacement\"",
+        "results": [
+         {
+          "title": "Dean Health Plan Coverage Policy Total Ankle Replacement 1 of 3 Policy Name:",
+          "url": "https://www.deancare.com/getmedia/c41016f1-8851-4a7e-b203-97c87f7c3432/DHP-Total-Ankle-Replacement-9363.pdf?ext=.pdf",
+          "snippet": "27702 - <strong>Arthroplasty, ankle; with implant (total ankle)</strong> Dean Health Plan Coverage Policy \u00b7 Total Ankle Replacement \u00b7 3 of 3 \u00b7 Committee/Source \u00b7 Date(s) Document \u00b7 Created: Utilization Management Committee/ Medical Affairs/ September 12, 2007 \u00b7 Revised: Medical Director Committee/Medical ..."
+         },
+         {
+          "title": "Medica Coverage Policy Total Ankle Replacement Page 1 of 2",
+          "url": "https://partner.medica.com/-/media/documents/provider/coverage-policies/total-ankle-replacement-surgery-cp.pdf?la=en&hash=CF6E197C11189936ABB65996BE00BD98",
+          "snippet": "27702 - <strong>Arthroplasty, ankle; with implant (total ankle)</strong> Original Effective Date: 04/01/2013 \u00b7 Re-Review Date(s): 01/20/2016 \u00b7 11/21/2018 \u00b7 12/15/2021 \u2013 Clinical Review Reserve \u00b7 10/16/2024 \u00b7 11/20/2025 \u00b7 Administrative Update(s): 03/16/2020 - Format \u00b7"
+         },
+         {
+          "title": "CPT 27700 \u2014 Surgical reconstruction or revision of the ankle joint, typically to address pos | Mira Health",
+          "url": "https://mirahealth.care/reference/cpt/27700/",
+          "snippet": "No. 27700 describes ankle arthroplasty in the revision context. <strong>Primary total ankle replacement</strong> is reported with 27702 (implant) or related codes."
+         },
+         {
+          "title": "Total Ankle Replacement, MPM 20.10",
+          "url": "https://onbaseext.phs.org/PEL/DisplayDocument?ContentID=PEL_00072535",
+          "snippet": "27700, 27702, 27703, &amp; 27704 since Dashboard analysis recommends keeping codes on grid. Removed erroneous language about the policy being retired. Policy no longer refers to see Hayes \u00b7 \u201cTotal Ankle Replacement\u201d and/or Aetna criteria \u201cTotal Ankle Arthroplasty\u201d #0645 criteria instead"
+         },
+         {
+          "title": "What is CPT Code 27702?: A Guide to Ankle Joint Replacement \u2013 Bethesda Billing Company",
+          "url": "https://bethesdabilling.com/what-is-cpt-code-27702-a-guide-to-ankle-joint-replacement/",
+          "snippet": "CPT code 27702 refers to <strong>a medical procedure where the entire ankle joint is replaced with artificial components to restore its function and relieve pain</strong>. CPT 27702 represents \u201cArthroplasty, ankle; with implant (total ankle)\u201d."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_98678",
+      "args": {
+       "query": "\"Maryland Medical Assistance\" \"medical necessity\" OR \"clinical criteria\" \"total ankle\" OR \"arthroplasty\" OR \"27702\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EsgJCsUJAWkUfROlHs3jUNIHbG1Aa6dbqVanvMNYxQwE5U-3q3BBCRoDce9hrMmJ4yGXEDNfmTv2WbA7MeAD3S3FGXiQYXqbxCpt_ifquMvG3Rz9cTWh9myIIakKX78dfknclyV0G17aiDBgi3BgGaxOpIiSfxN1Qig58O0MRgnMQqfPRrBiSrxRSQ9KfIYwI1m1We0MTJPD7piSJs84gKzZTDAPhXeG-SMwF3m7bQGHbekw44kDR4FjxKvcrq_0aCQqYRXPXJxpCpqj4VQUj2hPzFBuqiEiSKoCS6-mIxpfFyad7ARB75ZO3seTfx7mJq06Ad7YD97u2hHPXSHCakVRijikK9_e9qq53bPsx8XxZ2wu1HlybTDzRCIFffC9_nQXuehhWWhxIsaHNqjUCZER8zLPxx8UkMmY1TDrK1lEWKXU2fCOxsEfiAA3Qb4zQdQfQb2BOWb9i_j1Qw6Xijs2SYm3kiuV2sLtMITrOBA7sHMiKJDBo6myUHnMcUFWcQtoENEUjjn5P7jdz93kbL4irqQ8jJ3ukiRfu6YI4q2iJGEa_uxT0kEpqHLFBt7eajpbDlOnJ6qS5HvvxKZqGNHmE4Jm7ePgdYhepdN9RkmUAkGH8PRH115F-wD5bQAvM1MruAQkBZGHpbGFVRJhf5g1ywimZfBbwK3qfLf1lcEStNFFPzDUlPdYDsA1F1FkvSCg63DI0f1Q7GZFhouoOTl5XR6AWogsFYkvm8lFmuimFk0QyqHLURLdjvDwbNwfxjTTGsMk-GOew0H3QKpUs33VVi3ESkwtrUUbInExeVrZSgzwkKFzXHzqLybJ06NxtlXtt4umJ1XZlzG6fsE_JKaRUbjZJPdJfiYqFX_0Uyq0cbdtZ-9Cai2QCpKfgj60kX2nj-Lo5uo_AFlVFcq0-0nN0O6YFcCDSE5fncruQigze1fj_nWPRHMtk9rBE11DEkp4Ye4USUlETFJh7i9bFaumdj6UaSU8vDHGqMEy6AmPOI5aqdrJmHXWmmVY4CFERlkB8Q9sRkpj4uGyYziOLvfP_fBbCMuPpKX1ulvuHCvXhN651lptRzRQlR_0r2WoCP2Q2MsZTm34WjS52PBgwIyoWr97o4ZFj9UkpVH6bdk535YJug_yu9avHtLUELLOFIGa4BoYiXWY4iSkEpWPmVZPYB2u2Rvp9rkmCcr4D7QHaXgV89JZ-0PCfdf1RHh7jEqazOnzzG581Jx04zUZlSyRvLaHsakaDBWrQM6jsjNhK6754oH3y0k6gF1dx1O71WQD5zmcGU_eL2DucO6I3anT1XgXNwzmPfK8AbfkYJ3mjiI1FdEqf6DqTdQ4HqbJIVfWWdSWpbPGsquWIuP3eLPfqwZGQYg8MwNY1kHU4h6GXBiIvdhDZ-O28SoHuL7ij5xh36AlZnGvc2YRWCGXHwtDKgnYbZqsnC7QR64gqCreeYIfDt1qbcvr6HphUFi0Uz_xW4aa7kgISAg7nW58009Ers99LfGHgyo0bzJk0hX2AUixg6-vninzy8qb9_IyiyhGmj90JfLsePhybaUq_T1eirESTAGrWc_om1RwynTdblWIN4otbalO-Sd0tvBdSS4jCSqKa9b9oOBcleqEXk1F-fxvTPykYF8f"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Maryland Medical Assistance\" \"medical necessity\" OR \"clinical criteria\" \"total ankle\" OR \"arthroplasty\" OR \"27702\"",
+        "results": [
+         {
+          "title": "Subject: Total Ankle Replacement - Medical Coverage Guideline",
+          "url": "https://mcgs.bcbsfl.com/MCG?mcgId=02-99221-15&pv=false",
+          "snippet": "necessity when the device has failed and all medical necessity criteria outlined above (excluding 6 \u00b7 consecutive months of conservative treatment) are met. BILLING/CODING INFORMATION: CPT Coding: 27702 \u00b7 <strong>Arthroplasty ankle, with implant, total ankle</strong> \u00b7 27703 \u00b7 Arthroplasty, ankle, revision ..."
+         },
+         {
+          "title": "Total Ankle Arthroplasty - Medical Clinical Policy Bulletins | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0645.html",
+          "snippet": "Aetna considers total ankle arthroplasty (TAA) using a Food and Drug Administration-cleared implant (e.g., the Agility LP Total Ankle, the Eclipse Total Ankle, the INBONE Total Ankle, the Infinity Total Ankle System, the STAR system, the Salto Talaris Total Ankle Prosthesis, and the Zimmer Trabecular Metal Total Ankle) medically necessary when the following criteria are met:"
+         },
+         {
+          "title": "Total Ankle Replacement, MPM 20.10",
+          "url": "https://onbaseext.phs.org/PEL/DisplayDocument?ContentID=PEL_00072535",
+          "snippet": "Continue coverage for all LOB. Continue PA for 27700, 27702, 27703 and 27704. ... Status Indicator (N). ... Annual review. Reviewed by PHP Medical Policy Committee on 06-06-2025. No change. The \u00b7 homegrown medical necessity criteria and contraindication remain unchanged and are comparable to"
+         },
+         {
+          "title": "CPT 27700 \u2014 Surgical reconstruction or revision of the ankle joint, typically to address pos | Mira Health",
+          "url": "https://mirahealth.care/reference/cpt/27700/",
+          "snippet": "CPT 27700 covers open ankle joint arthroplasty \u2014 <strong>a reconstructive procedure performed when the tibiotalar joint requires revision due to prior surgical failure, progressive arthritis, or significant structural compromise</strong>."
+         },
+         {
+          "title": "CPG 249 Revision 9 \u2013 S Page 1 of 7 CPG 249 Revision 9 \u2013 S Ankle Arthroplasty",
+          "url": "https://www.ashlink.com/ASH/WCMGenerated/CPG_249_Revision_9_-_S_tcm17-110416.pdf",
+          "snippet": "Ankle Arthroplasty \u00b7 1 \u00b7 2 \u00b7 Date of Implementation: October 15, 2015 \u00b7 3 \u00b7 4 \u00b7 Product: Specialty \u00b7 5 \u00b7 _______________________________________________________________________ 6 \u00b7 7 \u00b7 GUIDELINES \u00b7 8 \u00b7 American Specialty Health \u2013 Specialty (ASH) considers procedures consisting of CPT\u00ae \u00b7 9 \u00b7 Codes 27700, 27702, or 27703 to be medically necessary for either total ankle replacement \u00b7"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_79231",
+      "args": {
+       "query": "\"Maryland Medicaid\" OR \"Maryland Medical Assistance Program\" \"preauthorization\" OR \"prior authorization\" \"appeal\" OR \"appeals\" OR \"fair hearing\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Eo4GCosGAWkUfRMJ4gBH87m7ncVxz72I96GgbMdIASNInlRJRNN7iu_MMj6phlvS43m_vGijPdm7LukWLb6QKUo4kwC4kb7bCaIctPPAQY04tuL1Oi48OBpzkHILEIm69rITIFfWE8nCcaS8OdD0VTjMrCyDW5r5tR_IDN4Oc8w_g2Q46b9PnTBOSdKVl5-FcOuci3wabjww6upb0rGmbCINsplkYmRNe1Qn-iGDECEIyDV93AhPzo4w9iZ9O--WstwDVVHZqB2SLzpXaQSlE43fSu148a1QHWLmZ90nTU7YPMwsMJnL8-pDD_m7VSQe0DQqOzjtFDvcSFa_Y0pRiwYax9ajMyyOxyARQ9FiIEOL858y6o1201uo3wx0hftC9aM26e37esV8TYZR37Nfqs4O8bwo4vLBSe6gDjYf0jTZez6zzx-ooBnBpLGB-wifW5o6aHdSKVmXJ25OyGlU0BkYoE_xXUYbWGMd8WPy6dlIiwcAFNCxKA4XrwxBjkuLZMkU7Mgm_i4enst_tFKzNoNMh9GM9FXTUGmNkVGz2is9bZnzekOAohzUKUW04sky3_nC2UUcRx1nhCeHoZsMg6jjPSC6JuT4FLxaSZ-J8xPXzd1gyhIHqZk3Dg4vsmGCdnk4GDtj9QvKMVGw5F7IuY3w6PUvnul5h5Joz9g6OrydI68Df9dTMhVcqVcs7fdLGHxbH-R5KIGsVtN6E-7cEKj6ZND4j6X-GAtrapf9JsPj06UDJ-_QWYEwxEf0-pibHXYdHk2i8v021mR6WeWJniRCPYL8_wz1qZhSu9geP4j_6HRsesPmG1QbIjF7fo8wQKxTtTu_hbN-fBqq56Tyl3346zNccIRa-vJ82pllJeTd7vPGPCGxbg3iI6anm8BE6oX5-n-KSgee5jIhPxfpjqNEpbUU6yjDOXjXJTdQldEYbjgfKONvUXJvOhpulBgOjmVLW61ErV00lXN_-3jk3z2pz_5HVAqADS7YmCZqWXJb0CSSvJ4-6Iov7U6dgB3PFo5j7nwdzEY00aXRgAzKqlQ="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Maryland Medicaid\" OR \"Maryland Medical Assistance Program\" \"preauthorization\" OR \"prior authorization\" \"appeal\" OR \"appeals\" OR \"fair hearing\"",
+        "results": [
+         {
+          "title": "Pages - medicaid-appeal - Maryland Department of Health",
+          "url": "https://health.maryland.gov/mmcp/Pages/medicaid-appeal.aspx",
+          "snippet": "You must ask for a fair hearing <strong>within 9\u200b0 days from the date on your notice</strong>."
+         },
+         {
+          "title": "Maryland Department of Health 10.01.04.02 Fair Hearing Appeals Under the Maryland State Medical Assistance Program (MEDICAL CARE PROGRAMS)",
+          "url": "https://health.maryland.gov/regs/Pages/10-01-04-02.aspx",
+          "snippet": "The Secretary of Health proposes to amend Regulation .02 under COMAR 10.01.04 Fair Hearing Appeals Under the Maryland State Medical Assistance Program. ... The purpose of this action is to update the Department\u2019s fair hearing regulations, which set forth the criterion for determining whether a Medicaid applicant\u2019s fair hearing appeal will be granted."
+         },
+         {
+          "title": "Maryland Medicaid Appeals and Fair Hearings | Brevy Care",
+          "url": "https://brevy.com/medicaid/maryland/appeals-and-fair-hearings",
+          "snippet": "How to appeal a Maryland Medicaid denial, keep your benefits during the appeal, exhaust a HealthChoice MCO appeal, and request an OAH fair hearing."
+         },
+         {
+          "title": "Request a Fair Hearing",
+          "url": "https://www.marylandhealthconnection.gov/assets/appeals-fair-hearing.pdf",
+          "snippet": "*Please include your Maryland Health Connection ID# on all requests. If you disagree with our decision and want to speak to someone about it, or if you need help asking for a \u00b7 hearing, <strong>call (855) 642-8572 (TTY: (855) 642-8573)</strong>. If you appeal our decision, you will have a hearing."
+         },
+         {
+          "title": "Md. Code Regs. 10.67.09.05 - MCO Appeal Process for Enrollees | State Regulations | US Law | LII / Legal Information Institute",
+          "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-67-09-05",
+          "snippet": "(b) A State fair hearing decision adverse to the enrollee is issued by the Office of Administrative Hearings. (8) The final decision of the Office of Administrative Hearings is appealable to the circuit court, and is governed by State Government Article, \u00a7 10-201 et seq., Annotated Code of Maryland, and the Maryland Rules."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_110767",
+      "args": {
+       "query": "site:health.maryland.gov \"27702\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtgJCtUJAWkUfRMSzD-oGN_-NwYbPsMF64qCF9Q4S6Q3LK33x8X9Hj9En-DHTflg9dGc09aFPTl9i6Kf6W-2gsbTEaydeM1dlEm2hk4qNupprXle17GPfX2HGcgJ7En3QaVl-H65wMI7PnrFmohvzt88qnt6AwwFSCuVBaikzASzKG1exZi7v0y-Upx91NByJLfuYpzdomoK90IK3_d7WoAGDNp7n-aqEPoMaL0Ov2oTnPfOEgSA2hQzam5ZwXJdROQN2cEK_LEfJ5l36UOh73lyEVU_A5dvUfmjtYB_uPmS4-Ki2FiCPptvbuaw6PrM80h_XmVJ0m0Fpai6qqI3uPBSMJi5eH3cuAO0Ck3qfXAIw5A6RGqdhdgcWOMssPZ37WT67FhnSVovfK5dmrvQ9lPKulHonECk9motpwhPqc5pYTr2hS0iEl_YORdd_AfXt52zSbXlhCcIzNKHYkHEiDhtSTQ1SObHNqEjrBoO-zuAeNWeGZj0JwNPNxDpy2VnLrF8FSD1PDPuHB3hYB-hU3R7CRXMcbCnL-HDVBGNUrzkWjzTwoRuxYXuCFEyysSqq3Cmnzflme6j0aOlq51jaESvIAU3zyR_X1trtPpytxuIJEurCYRDjHTY4Yd7SHZ8u2p4O7uO_alIjq8ILfjanncn_n_FGMhFIVFj-K9c0Auu3z6LMtlhEkzmrciyBQmAKzKBVwV9LofgcjfpejNIfGuqufpHqD_ji-ZWX8mxPEBDQx9sFeJHDbKo8sCmtwXGRxsMMxqmvBVP3zwffIwBX5PUYUoftgSY61Br2roJ6wAkfu0UgOsKFfQDq1iTACtiK1ihrnK70wrL0krhZ3dA-Ls3wMGeuZOJw7QCV9fCc3v6v0lXNF1tnKlgPdNoJXWO_PKac_vGnIbbQrY54hRrwXdE6HgAoOrffhbXaxCjzJ1VxH5lG1H8Alth3KcxDL9DxkRFt2UOZu8UbWCk3lu0eTzFf_XQK2Xbet4m5IT5mkpOBpIE9N39ngmnx5h_XQigFdt6P0NMSUaIrzLb-FsmffdNUuVLXTD1LSWJallLZ3hImy_pE5kBgjRwPDahIuyQGtSNSRRUOnyfqneKd7s2-Se16E1Dkw43CVrzeaHo1FZsOcCe9zni7kUW2_6soDTAYfSXqjSgwF99ltGeV_0b2U4O2bx4J3_n-2IohlrWCyghoEx-3nWQu0ffJmddrg_SAiQYASZ8lQnsABP6N0TYJ_dTOvZuU5ZVCeb_Y6IxJDQUw99TAjxpb5a3tD5-9m6jKRIW8KNE9bsKzsGBbBs7_xIC1zCXv1C1bED87hrJ2Hkr6KVLy1nMQrKXFKVtbWBgZZHI1HWFh5tpokfLrgk75Q2v9TZQwUX0BpjbEtgkcof0G75Z3qYux73dR7Ibin-Dq_Ch-lLurY7m60kajtpeijG51H3uI3NjCvPRd5oWwOSrf2QCqvBuxVmq4RpfrF8AIt6b8AdaZ-x1AHUYtiZ4AeDlBJMKUr4ZSGm-weKUlXUa8WRWgStdiDbMM1xh__0tJ4T5Ojz8hjZCw4q16Z9_f9hrn2hSF8KeAikFvrKCN5QUCL36cgvL1KZ5NzNJWUKtYg9AgAsqVxUnNrrt2dkd5I8M9zsNPzb2P6J7dhUDvbUi8C4giEQHVqg0CQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:health.maryland.gov \"27702\"",
+        "results": [
+         {
+          "title": "For providers Network News THIRD QUARTER 2021 COVID-19 UPDATES",
+          "url": "https://health.maryland.gov/pophealth/documents/local%20health%20department%20billing%20manual/lhd%20billing%20manual%20v29/section%20vi%20-%20payers/md%20commerical%20payers/cigna%20_%20network%20news%20q3%202021.pdf",
+          "snippet": "Health designate procedures with CPT codes <strong>27702</strong>, 27870, and 63045 as outpatient when \u00b7 medically appropriate. In keeping with this standard, for dates of service on or after July 1, 2021, Cigna may deny coverage for these procedures when requested at the inpatient level of care."
+         },
+         {
+          "title": "Professional Services Fee Schedule \u2013 EFFECTIVE January 2021, Updated 3/9/2021",
+          "url": "https://health.maryland.gov/pophealth/Documents/Local%20Health%20Department%20Billing%20Manual/LHD%20Billing%20Manual%20V27/2021%20Medicaid%20Professional%20Services%20Fee%20Schedule%201.1.21%20UPDATED%203.10.21.pdf",
+          "snippet": "<strong>27702</strong> \u00b7 N/A \u00b7 965.29 \u00b7 27703 \u00b7 N/A \u00b7 1104.54 \u00b7 27704 \u00b7 N/A \u00b7 538.21 \u00b7 27705 \u00b7 N/A \u00b7 742.47 \u00b7 27707 \u00b7 N/A \u00b7 376.73 \u00b7 27709 \u00b7 N/A \u00b7 1023.20 \u00b7 27712 \u00b7 N/A \u00b7 1038.53 \u00b7 27715 \u00b7 N/A \u00b7 1021.16 \u00b7 27720 \u00b7 N/A \u00b7 846.59 \u00b7 27722 \u00b7 N/A \u00b7 843.55 \u00b7 27724 \u00b7"
+         }
+        ],
+        "result_count": 2,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_95796",
+      "args": {
+       "query": "Telligen Maryland Medicaid \"MCG\" OR \"InterQual\" OR \"clinical criteria\" OR \"medical policy\" OR \"guidelines\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvAECu0EAWkUfRP0-tW7fw5fH6gZPrTeHBrGA_RhfboFxfUFXaCk0-YY2c5pZJd2J6GO5pJTr72_kVlxbVyDq7qVF5vCcN7McApXqykn2uUlANeaQ6LghAtyYX6y-_UW2_R259Up8oG3QVEm5G0eHdsdBwPbwCsKb58dXSaNAwM_M-L124cNWiwhRenyNdNg6p0ph3hoqsMeisaa77nzWiINeLcjNWfHUt8p7BJ-tgjxjjZIo5tEIolzET8nVsE1vFnXCExOvFlIDUX8tuKqF8rQ5XHRKzrhsYR_PmMMgwivWT26NwVgRm7GfSNeb0FeE3zXOEiP_RUKFCfwKeDihbfI1Zp3isoesHNY1XAMVXKx1nuMtefMPCVnVS6E3ql0hsFZr9zXVJ51nBF6mXkQnBpxLmuY4XtRUfDuhexrvhA4wAuoZS_hhcxGyyETWxAQn86gcOfCWffEoQZWu1P3MihHj8PliwU2fF5JCmLkf_HikDKZ7BKDUwDTJMleNR1jp7E0QFIH1naY78-117h0g-zzhtR4xa4PavQ5XgMexhslqmcznWjRtgCPd5ZOBb5At9U07poUHeRVoQqGUOG04mpfildKKw7W7KVPe8b6IabVeCIhWAR2d3nqgkncQ2mh_M-ZglgDRw6fh7s8CHx1P28CJcJm8A65yKSgMxuzCqUVSy9rljsa3cwxjy4KvJu4Xd-snNfMqDZTzbG0UcWaB6pgRTi_oyTfPf-NCczDersCOYotiecHCqluVOwMkiVutqHE5R3NapEnaNrf2PFttjdwD31EjIFrBgwlk9hrKjIfB6OzH5bMrOKfp3_k5WQP3Mnl"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Telligen Maryland Medicaid \"MCG\" OR \"InterQual\" OR \"clinical criteria\" OR \"medical policy\" OR \"guidelines\"",
+        "results": [
+         {
+          "title": "Maryland | Medicaid https://provider.wellpoint.com/md/",
+          "url": "https://www.wellpoint.com/content/dam/digital/wellpoint/documents/provider/maryland/government/general/MDWP_CAID_Feb2023CUMG.pdf",
+          "snippet": "Policy/Clinical UM Guidelines supersede MCG care guidelines and InterQual Criteria."
+         },
+         {
+          "title": "Medical Policies and Clinical UM Guidelines | Wellpoint",
+          "url": "https://www.provider.wellpoint.com/maryland-provider/resources/manuals-and-guides/medical-policies-and-clinical-guidelines",
+          "snippet": "InterQual Level of Care (LOC) criteria is used by some Medicaid plans for medical necessity review for medical inpatient concurrent review, inpatient site of service appropriateness, home health and outpatient rehabilitation. The InterQualTM guidelines licensed include: ... MCG care guidelines are licensed and utilized to guide utilization management decisions for some health plans."
+         },
+         {
+          "title": "Search Medical Policies and Clinical Guidelines",
+          "url": "https://medpol.providers.amerigroup.com/green-provider/medical-policies-and-clinical-guidelines",
+          "snippet": "InterQual Level of Care (LOC) criteria is used by some Medicaid plans for medical necessity review for medical inpatient concurrent review, inpatient site of service appropriateness, home health and outpatient rehabilitation. The InterQualTM guidelines licensed include: ... MCG care guidelines are licensed and utilized to guide utilization management decisions for some health plans."
+         },
+         {
+          "title": "Clinical Utilization Management Guidelines",
+          "url": "https://www.provider.wellpoint.com/docs/gpp/TX_CARE_Feb20CUMG.pdf?v=202110051328",
+          "snippet": "Policy/Clinical UM Guidelines supersede MCG care guidelines and InterQual Criteria. Note: We make determinations of medical necessity on a case-by-case basis in accordance with \u00b7 the definition of medical necessity that is contained within the Medicaid state contract,"
+         },
+         {
+          "title": "MCG Guidelines: Uses, UR Workflow, and Comparison",
+          "url": "https://medheave.com/mcg-guidelines/",
+          "snippet": "Some utilization review nurses describe <strong>MCG as more oriented toward care progression and expected recovery course, while InterQual tends to focus on detailed clinical element matching</strong>."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_17985",
+      "args": {
+       "query": "site:cms.gov Novitas \"27702\" OR \"total ankle\" OR \"ankle replacement\" OR \"ankle arthroplasty\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Er4GCrsGAWkUfRNyNUFjs9InazgHrE7cOdlN-XzEb--ajrLsdcqw-PSER4AlzPZOVKh7EyFpQLSNyLvI8VlvpqlDcPsrJB7cTJ3p25Zc5nYaQz_ExY5LjeF0yGFUbqeBndmHviSxyGd-6ELCmrbzSdd-BIKim8P5DsVR9MqLUv2AYpQvPc8McswD6AvgP_S3uI_O47MLwEKEdOuSjxYWcpnoo2MJI5FDpPqC-pl2XgmWP6YWJ9z9uMqGH7XfhzAOk_SCdUStR2_mJ-cgo8A0GBJ58ETonrDsktbujPbDDeVvD1ZbMHWfQiTlKGyt5BY2Gjg465-eFbQaDT-PjGOkV5B_6xTFqMLBf3z96vRLKvyHeZzy8S_wn8K4ocwjs8yL6iHBkYvi-C5nAqqbsT1vpwneDd4qziWYxlr70__Ee9IT3fCPUukAorMbCII_VxfffDC_cNP8uSPGS5neDiuJnlb6WE2rGEH33ppHOmYiEFLW82P6afNSIMW_NGwOqTbr_oVjfiYOVOYJqj7vjZPNFeRGPLEcKqvR400zh1-E9tf3YDCw0wGoTU723LfYdHIkl5x4-Cjl5tANzFHPVDYfVPXm_qpSwuZa_BOPlVo8Heylv11eAUWJ369oBoEACYBye8O2UFH8rl2Mxn2uCGeBBPMwF-tigiXLB94WfTN-44OwFeZasW0BwNpb97JmqeGNsDTrYnw2GkJ6AD3s9orJxhdZKj-qRPO4sNwjPTvZGp_b7cPvtnzxkajwIZzMD7X5fQYaz6okOGI04ZxkpOy_6zbqKSkHNZKOuFqsGj5IWYdp-e4n2UhisN4xfWRvaErFjwsp2CnVm9Sr7Zx0HKWyvt8C1Z-gzpsPQus9Ia4HY3X1vKhqEJmoF5Chy6ollvP4rpfua2GaPkZ7yWng2vSRWjIXd6tcG-M4NYzgLQXh3HhjMQz-rLVbGfI0nXwiS5ErXOUN0Mv0u7XQjxVI62v1lDxHjHPoITuOqeN7i5izdtusXQ3OXp-XF6nxQhuV2OTGZjJOjTKmilFDiIN-eA7VZyuRns2IEyQDOZN5WUh4Fuqqi8tKP0GLGtat73Th6SgCrH9EVYVszyhp84XE0kxSquU="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:cms.gov Novitas \"27702\" OR \"total ankle\" OR \"ankle replacement\" OR \"ankle arthroplasty\"",
+        "results": [
+         {
+          "title": "CMS Manual System Department of Health & Human Services (DHHS)",
+          "url": "https://www.cms.gov/files/document/r12439cp.pdf",
+          "snippet": "27702 \u00b7 <strong>Reconstruct ankle joint</strong> \u00b7 Arthroplasty, ankle; with implant (total ankle) J8 \u00b7 29868 \u00b7 Meniscal trnspl knee w/scpe \u00b7 Arthroscopy, knee, surgical; meniscal \u00b7 transplantation (includes arthrotomy for \u00b7 meniscal insertion), medial or lateral \u00b7 G2 \u00b7 31242 \u00b7"
+         },
+         {
+          "title": "CPT Codes that Are Only Paid as Inpatient Procedures",
+          "url": "https://www.cms.gov/medicare/medicare-fee-for-service-payment/hospitaloutpatientpps/downloads/cms-1427-p_adde.pdf",
+          "snippet": "27702 \u00b7 C \u00b7 Reconstruct ankle joint \u00b7 27703 \u00b7 C \u00b7 Reconstruction, ankle joint \u00b7 27712 \u00b7 C \u00b7 Realignment of lower leg \u00b7 27715 \u00b7 C \u00b7 Revision of lower leg \u00b7 27720 \u00b7 C \u00b7 Repair of tibia \u00b7 27722 \u00b7 C \u00b7 Repair/graft of tibia \u00b7 CMS-1427P Addendum E 7/19/04 10 \u00b7"
+         },
+         {
+          "title": "67017 \u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014 All Rights Reserved. Applicable FARS/DFARS Apply.",
+          "url": "https://www.cms.gov/regulations-and-guidance/regulations-and-policies/quarterlyproviderupdates/downloads/cms1206fc7.pdf",
+          "snippet": "27702 ....................... C .................. Reconstruct ankle joint \u00b7 27703 ....................... C .................. Reconstruction, ankle joint \u00b7 27712 ....................... C .................. Realignment of lower leg \u00b7 27715 ....................... C .................."
+         },
+         {
+          "title": "CJR-X (Comprehensive Care for Joint Replacement Expanded) Model | CMS",
+          "url": "https://www.cms.gov/priorities/innovation/innovation-models/cjr-x",
+          "snippet": "The CJR-X (Comprehensive Care for Joint Replacement Expanded) Model will expand the CJR Model, which produced strong evidence of cost savings while maintaining quality of care. The model will improve care for Original Medicare patients undergoing hip, knee, and ankle replacements (also called lower extremity joint replacements) performed in the inpatient and outpatient hospital settings."
+         },
+         {
+          "title": "ICD-10-CM/PCS MS-DRG v37.0 Definitions Manual",
+          "url": "https://www.cms.gov/icd10m/version37-fullcode-cms/fullcode_cms/P0189.html",
+          "snippet": "DRG 469 MAJOR HIP AND KNEE JOINT REPLACEMENT OR REATTACHMENT OF LOWER EXTREMITY WITH MCC OR TOTAL ANKLE REPLACEMENT \u00b7 DRG 470 MAJOR HIP AND KNEE JOINT REPLACEMENT OR REATTACHMENT OF LOWER EXTREMITY WITHOUT MCC"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_97008",
+      "args": {
+       "query": "Novitas \"total ankle\" OR \"ankle replacement\" OR \"ankle arthroplasty\" OR \"27702\" OR \"arthroplasty, ankle\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "ErUCCrICAWkUfRMgI1sjKPVg-tnhWxB6-1LbgYqYMr7YFeENpER8w-Lgti4ke9gkPll152Ll2gWxR4mU6Si-vkDuW8iHJYKaZdeH6olhXKmw4w5BBzUlbqZtUdGU4eBuEIYYwEpSlDiuvIaRVOYNpD_VQfTm_WXR_P9d7xDJGX1kCGBH83C1aLMfE5Y8xQqusCclC9U6MzV82zEOLOQvgkS-t4YBs0dXcMpPGWhD1nlC_BKCBqt9m9jK92Rnxjo5HX8CgcONKTah9lvX1e_Kl805VI43eVCmcpHcuSBX_aN2MJHxNCAa0PLxQgg3T0IQOaMH7T3Tjvi7bUIKOj0T33HrgQgAohzFFhfp3o8s0tH6NgvceOb29FcxT0SgeyCEaZoNpr_6wW3jZsu3HP0lJGHSHFlB8-aw"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Novitas \"total ankle\" OR \"ankle replacement\" OR \"ankle arthroplasty\" OR \"27702\" OR \"arthroplasty, ankle\"",
+        "results": [
+         {
+          "title": "27702 Arthroplasty, ankle; with implant (total ankle)",
+          "url": "https://genhealth.ai/code/cpt4/27702-arthroplasty-ankle-with-implant-total-ankle",
+          "snippet": "Total ankle arthroplasty is <strong>a surgical procedure to replace a severely damaged ankle joint with an artificial implant</strong>. It aims"
+         },
+         {
+          "title": "CPT 27700 \u2014 Surgical reconstruction or revision of the ankle joint, typically to address pos | Mira Health",
+          "url": "https://mirahealth.care/reference/cpt/27700/",
+          "snippet": "No. 27700 describes ankle arthroplasty in the revision context. <strong>Primary total ankle replacement</strong> is reported with 27702 (implant) or related codes."
+         },
+         {
+          "title": "CPT\u00ae Code 27702 - Repair, Revision, and/or Reconstruction Procedures on the Leg (Tibia and Fibula) and Ankle Joint - Codify by AAPC",
+          "url": "https://www.aapc.com/codes/cpt-codes/27702",
+          "snippet": "My ortho surgeon performed a fibular osteotomy with a total ankle arthroplasty. The description of the arthroplasty does not appear to include that work, but CCI edits of 27702 and 27707 say can be ... [ Read More ] ... I would say that the removal of implant &amp; implantation of the spacer would be coded: 27704/1198. For the next surgery 6 weeks later, the removal of the spacer would be: 11982, you wouldn&#x27;t use 27704... [ Read More ] ... [b]joint replacement with implant[/b] I would look to code 27702 &quot;arthroplasty ankle, with implant(total ankle)."
+         },
+         {
+          "title": "What is CPT Code 27702?: A Guide to Ankle Joint Replacement \u2013 Bethesda Billing Company",
+          "url": "https://bethesdabilling.com/what-is-cpt-code-27702-a-guide-to-ankle-joint-replacement/",
+          "snippet": "CPT code 27702 refers to <strong>a medical procedure where the entire ankle joint is replaced with artificial components to restore its function and relieve pain</strong>. CPT 27702 represents \u201cArthroplasty, ankle; with implant (total ankle)\u201d."
+         },
+         {
+          "title": "CPT\u00ae Code 27702 in section: Arthroplasty, ankle",
+          "url": "https://www.findacode.com/cpt/27702-cpt-code.html",
+          "snippet": "27702 - CPT\u00ae Code in category: Arthroplasty, ankle... auto-open Additional Code Information (Global Days, MUEs, etc.) auto-open Top Modifiers - Most Often Billed \u00b7 Save time with a Professional or Facility subscription! You will be able to see the most common modifiers billed to Medicare along with this code."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_166947",
+      "args": {
+       "query": "Medicare \"total ankle replacement\" OR \"27702\" NCD OR LCD OR \"Local Coverage Determination\" OR \"National Coverage Determination\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqcDCqQDAWkUfRNlT3MPW_ieeeqL1s18Cz3jO5r0MvipE5kHwMECHXRjE2c9uQIiLdk1t_TQ1aIHinW7PelQtwxWaByaBtUkuCTVGQ4hGpPSA1kNA8HjnGZEQp-4PEqdcEyDVMI013owz_H4cNtJarNPW5k-kIAF8H73t-RX8_abNg00jcHX6VtPr9MYLRxdHdUCeFe95gtRhriSqFLDgvUUZKWmyRaU6Clb0uux4JJkXeL6ZyL7OwUCcxI3SNIiDGdB03WRpYZJ8KA1lHxeLV3482qWb1oulnT4evALmJu2934FY-HwPUDr5-xD6aiOehC0LcANzDpvB45CM1CDhN6N-L0BCFhVAbhpIDgLKmzUuRyt_rhIB2k8IJ_aHAhZ49InzLBDSVV2hSBU7jP63iODaBU6Ptce6Y-DzO1nJ9a3fjG3MmxF4izRRgZDcHW37JZQYIR863Fm52u5LtClmd541DkNE-0CphRxmNwKhu-ahwHghpt-_znGNSiaJ7pUJv8l4nZkhC5l2BNmflZzyQ3kAvsx4GZPADEujtRlMgQDyj-oxtslWlEY"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "Medicare \"total ankle replacement\" OR \"27702\" NCD OR LCD OR \"Local Coverage Determination\" OR \"National Coverage Determination\"",
+        "results": [
+         {
+          "title": "LCD - Total Joint Arthroplasty (L36039)",
+          "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdId=36039&ver=10",
+          "snippet": "<strong>MACs develop an LCD when there is no national coverage determination (NCD) or when there is a need to further define an NCD for the specific jurisdiction</strong>. LCDs outline how the contractor will review claims to ensure that the services provided meet Medicare coverage requirements."
+         },
+         {
+          "title": "LCD - Ankle-Foot/Knee-Ankle-Foot Orthosis (L33686)",
+          "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?LCDId=33686&CptHcpcsCode=L4361",
+          "snippet": "<strong>MACs develop an LCD when there is no national coverage determination (NCD) or when there is a need to further define an NCD for the specific jurisdiction</strong>. LCDs outline how the contractor will review claims to ensure that the services provided meet Medicare coverage requirements."
+         },
+         {
+          "title": "Medicare Coverage Determination Process | CMS",
+          "url": "https://www.cms.gov/medicare/coverage/determination-process",
+          "snippet": "The notice replaces the September ... to remove certain NCDs older than 10 years since their most recent review, thereby <strong>enabling local Medicare contractors to determine coverage under the Act</strong>...."
+         },
+         {
+          "title": "LCD - Total Knee Arthroplasty (L36577)",
+          "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=36577&ver=15",
+          "snippet": "<strong>MACs develop an LCD when there is no national coverage determination (NCD) or when there is a need to further define an NCD for the specific jurisdiction</strong>. LCDs outline how the contractor will review claims to ensure that the services provided meet Medicare coverage requirements."
+         },
+         {
+          "title": "LCD - Total Joint Arthroplasty (L33456)",
+          "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?LCDId=33456",
+          "snippet": "<strong>MACs develop an LCD when there is no national coverage determination (NCD) or when there is a need to further define an NCD for the specific jurisdiction</strong>. LCDs outline how the contractor will review claims to ensure that the services provided meet Medicare coverage requirements."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_109200",
+      "args": {
+       "query": "site:cms.gov L36039 \"ankle\" OR \"27702\" OR \"arthroplasty\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "ErYCCrMCAWkUfRPyEv5PmOwc2jRMDmBOapdcTZ2yQ5F4lnhHFy9q938UxV86oCObl1MoXgFCjtoVn84DbwpKO-QDZ2jemYEIQg40girIs10zP6hz3jt2aK8C3yCdH-irxuhwtslM9kHY4LFCJ_jzsiR1SN7rvz3UJyjSddepR9C53og0URs94KGYzNdDUPIodX1lblxCcfSNkCeMKbD9PSpEoioYI4EQbTc_6HOhlXQn9DU2gE3VnvsLKJRNlImmV_mlDO4pOo5aSJeIgCdKIRrtr8ITN-kaIBPF3XlTxPG9c6JcuTddd4AcIAL0nZJh-3KDTzpj11i6I0TDVmOwa_Q26tjOYJp5jq-nV3JOVam6XK6oUXgK1G9Lmi3HnGKNt7h2YAL-gSdpk1bfaV-O2iOpFdv0_bewUQ=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:cms.gov L36039 \"ankle\" OR \"27702\" OR \"arthroplasty\"",
+        "results": [
+         {
+          "title": "LCD - Total Joint Arthroplasty (L36039)",
+          "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdId=36039&ver=10",
+          "snippet": "<strong>Total Knee Arthroplasty (TKA)</strong> The knee joint includes the lower end of the femur, the upper end of the tibia and the patella. The knee joint has three compartments, the medial, the lateral and the patellofemoral. The surfaces of these compartments are normally covered with articular cartilage ..."
+         },
+         {
+          "title": "CMS Manual System Department of Health & Human Services (DHHS)",
+          "url": "https://www.cms.gov/files/document/r13301demo.pdf",
+          "snippet": "Complication and Comorbidity (MCC) or Total Ankle Replacement) \u2022 470 (Major Hip and Knee Joint Replacement or Reattachment of Lower Extremity without MCC). \u2022 521 (Hip Replacement with Principal Diagnosis of Hip Fracture with MCC). \u2022 522 (Hip Replacement with Principal Diagnosis of Hip Fracture without MCC). \u2022 27447 (Total Knee Arthroplasty). \u2022 27130 (Total Hip Arthroplasty). \u2022 27702 (Total Ankle Arthroplasty)."
+         },
+         {
+          "title": "Article - Billing and Coding: Total Joint Arthroplasty (A57428)",
+          "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57428&LCDId=36039&DocID=L36039",
+          "snippet": "Related Local Coverage Documents LCDs L36039 - <strong>Total Joint Arthroplasty</strong> \u00b7 Related National Coverage Documents N/A \u00b7 Statutory Requirements URLs N/A \u00b7 Rules and Regulations URLs N/A \u00b7 CMS Manual Explanations URLs N/A \u00b7 Other URLs N/A \u00b7 Public Versions \u00b7"
+         },
+         {
+          "title": "0185-Total Knee Arthroplasty: Medical Necessity and Documentation Requirements | CMS",
+          "url": "https://www.cms.gov/httpswwwcmsgovresearch-statistics-data-and-systemsmonitoring-programsmedicare-ffs-compliance/2a233-total-knee-arthroplasty-medical-necessity-and-documentation-requirements",
+          "snippet": "Novitas Solutions, Inc., LCA A56796- Billing and Coding: Lower Extremity Major Joint Replacement (Hip and Knee); Effective 08/08/2019; Revised 05/02/2022 12. National Government Services, Inc., LCD L36039-Total Joint Arthroplasty; Effective 12/01/2015; Revised 10/10/2019 13."
+         },
+         {
+          "title": "CPT Codes that Are Only Paid as Inpatient Procedures",
+          "url": "https://www.cms.gov/medicare/medicare-fee-for-service-payment/hospitaloutpatientpps/downloads/cms-1427-p_adde.pdf",
+          "snippet": "27702 \u00b7 C \u00b7 <strong>Reconstruct ankle joint</strong> \u00b7 27703 \u00b7 C \u00b7 Reconstruction, ankle joint \u00b7 27712 \u00b7 C \u00b7 Realignment of lower leg \u00b7 27715 \u00b7 C \u00b7 Revision of lower leg \u00b7 27720 \u00b7 C \u00b7 Repair of tibia \u00b7 27722 \u00b7 C \u00b7 Repair/graft of tibia \u00b7 CMS-1427P Addendum E 7/19/04 10 \u00b7"
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_87972",
+      "args": {
+       "query": "site:health.maryland.gov/mmcp/provider/Documents/2026-Professional-Services-Provider-Manual.pdf \"preauthorization\" OR \"medical necessity\" OR \"appeal\" OR \"criteria\" OR \"denial\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvUMCvIMAWkUfRP2e6CpN1XTQScQXwZDsyR7L10DCHJYY0ZQKuBadtlGwgwb5nM8qDVCe3hXfVY5q033S5bE7CtWcTTaTLRH9f_JeMN72RJSZnHh8ClC4f4hMq0qhwhRtsUVdLsN4HrMQOQDhDbCYEqO2GpvkGIdIzn0gYcuExl72RSoGpgTaUzqwaXuBngRaV_LXnWGVj2m4coi0TGqikZxGmeB9AlSlNdWGfEJh8Oxi4qt5gU7uyUcuGHUBXH-nvCFbhh6tHZjRw8xdbaNk6zuKhhJf8fkxfllYLegBe6rG9B6iqxUHSkjqI72M0I4uKKB834-nINN3gOOLEvU6f8l6qheHl7GRgjgzZOla0UmlRRmcTkvJMZum9p-Kx5Ic-8pUPADwPhs-v8XLYt7stS_gMAt9ofGL-UMMwWcawZoVk3tniM9CDC3wLsAjFUUKDC3-MgvdA3PUOOb87O7ffcohn487RtBXFZmW4xCNBMSDYo306Kfb4n5c0ebDcT6z5FS0xVzq3rrkFNWcm5lwjhb56KzRQ6gamOzWxI49Tz-wSosgY48EK5NhtFOV65j4qCiMifrEZf6EFNyjlzw04XJAPkRZZtq3SWVB4foBpRFX6q-MCxLUsfeEI7sZlA4NOYlL_z2EFjy55xZb_d-z7w8muKlQ3MFX5pVJTcr-D63E-lpA0QTDjoy-1cCbMg6tVRggo18EH5kBRN0huaBmGjSQtAimdzhgVleT98T9sxcuYvR11C-LwxICDJQp4pMGi8lQXOC87Zswm2oAA-5XdKrIjWLsNDXSHk0TUDKtKSL5kXsTxpZ5kx84FV8W2ieMPKbLBQ08mCUXBwWxcksDxZErp9LTfbauvtf2aE1vu52D84PSyZdUSoG35ZkTLrbyazionIMCWt0u0Bh362qcFTsvqMz-k8bkvOez6bPiiXRFJOn_ETN-ckIIMs5kCl-fpztWKXx6RT_Yh4fYHzq6aWBfMwMPtVOM-iFGl3O9Kpii56FGfs7Ug_SUdRB_n8YUbATBzBht70tfGkSyJDW6U1v3yCbf8TUEFuQVvOqY1iAZvwFqh9faKlFbVHv5uhUW8JMcsBO9rXodLPO6LpwvHmb0nXg6TtO2wHWgtVgXXSwFXu1To7J6Pi1L09CQP8Yu60tnOAouELBf1uMgKLeDOSWxvwQg97QW0OVK-dSSF3dw95YA-u0VpdlJW_aES89sZ8of7ZeRQf-CIKC8Nqzod8uKm9GiOhuUPlwXMDziWWTROiuF_1TQLEGNRoN6uL65AWUWgV3J0-Nof3YLS2QUzomxUIZOpjACZ4Abyw9Dvc5voPCAdow_EwJ3J9tqEmiriWl73KSwRORR3NpfXU6cjRzduS2gzgwL5f9SyEUM0yIQplIfwa84dVqYe-hDnPys4liBmtY6CVBHzyAzBb5vPc0oNu2X275CFj1NtPJ6bVYavlNs3xto6IhpXxOrEjSLthpFlUza8R4qzbY7d70T3ZKJOvuEzyB2QgusfAGZWbK3Ip_4CTHnU6DqE2aYq9dRQ7ZLw-DHKjdDT7LamWVtvu8XLnyBgekPPd9ZJfOVY_0dnm_0cs20hCSPNGPSqnoo8zlqDZCFeFLm82MGioAcyNHzhgSDbR8IV7LseYiQjyqgMLr-ZW9JVt1yppd1Sl1d8GA7ENNwpbQCzSI3CW6Aw40oYN1Vg4hQOgyKV4cneoFZPkVUUsSKEG4CdzoRTWW4FIElH01HaMQ194yR5ODysv9sCL-HIa3ZAKD65wX-mS5jPH_CN5I7fdxMcVs0xyMHUxntZXZCC5hPlQqR3I6JS4MDnmusIufELV93dAGQyb_PtbhNNvYZ4d2YjMmZES02hWSkshlyDmoHeg3kvu2sTVAQIKQg1eFUGA5baotEbIunRyNZFCSRQDrBlF1gWM19BKVexgXulaW0qY5VJXOMR9cNn16-AS-rYvoODCtLSyHzK_RnVP_f3y4Hv2jWeXQWejlEwRcnO-uRqnKH5F1ZV4IEP6eZQiohEwlAFHx0ff2u8HvJMxh7DBrBNRppcE6QmHYFZY4dEpvMn95LlRYFWjJCJDASdUNm88QwNMCaLQIN_d2EFzukSTFZkS77x_gSqUEwoHfTn7nyMcrp2lC-z4n_ajz3IrPhDiGuB38FvuOjw8Wa3Ce4-hd95uCZmMlqISUFUieC73Dqy_UwvP7iaEGsVA5fr4Q"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:health.maryland.gov/mmcp/provider/Documents/2026-Professional-Services-Provider-Manual.pdf \"preauthorization\" OR \"medical necessity\" OR \"appeal\" OR \"criteria\" OR \"denial\"",
+        "results": [],
+        "result_count": 0,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_88864",
+      "args": {
+       "query": "\"Professional Services Provider Manual\" \"Maryland\" \"Preauthorization\" OR \"appeal\" OR \"medical necessity\" OR \"criteria\" OR \"denial\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EoQECoEEAWkUfRPpRPQDW-FGdnus-ZJSvFQ7vkDK70sMxIswR1HifeVa9taE-O_1WeN4Xb4IKiuMZ31XOny6OZ54cWgoIrD1hoUSdqWtB9aGQ_mLtlUbLcV373l0MSiv2RfR08fWJzrps2JQwD-kOpcfniY6wEfh3i1pJ1NvSNBd6fZkdQjRCfIoZdZ27grkzDmTrx0poneYYfZzKK1RGjZyhLF_LWWTVT033lRwOD_k6Q7B2L2bgtKcqh-owrClBZz2qWY-XAckuoxdf-Fqk8SQMXY4XfkDkFSZIz4-lP8Qkt0-IHHYiwpAlHmqK_oqhLqy-vmWi3OgAC3HHtwGdHPftQnf5-pn-FkJp8pfJmREYtDtFwXpge6bEyjHINADxwOjX3Uy5QIFTNUll8YNSRCqgkKs-PyBnGHZ5NuWcT0PUff5uxyTzZeb-X-0M00mf2fDsc8ulPDtedNhgcFyAeNGaPhU4gzNe3FMWB9e3ys9ZIVavWDf_Y4qRCORCz04lOvwwmpCR-zu0ZIQ_nkuz4tjw1Er-rNnaAm-0c4AlcaByqFKsOx_TitPMj4dAIQ0Iw_1Tx9OVBt455PSuHyXHpHe-kXhHOvCzI1AM23IqsReb5nbjFoU-mvUrvS3PjPsKnNgD2XV_SLWap78NAPeW2PARbCpgjdIvENblJaW0cfomoPQRVk5"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Professional Services Provider Manual\" \"Maryland\" \"Preauthorization\" OR \"appeal\" OR \"medical necessity\" OR \"criteria\" OR \"denial\"",
+        "results": [
+         {
+          "title": "Professional Services Provider Manual",
+          "url": "https://health.maryland.gov/mmcp/provider/Documents/2026-Professional-Services-Provider-Manual.pdf",
+          "snippet": "covered by the Program. Unclassified J-codes require a preauthorization. Refer to the beginning of each section of the CPT book for a complete list of unlisted ... In some cases additional information may be required. <strong>Failure to provide the aforementioned information will result in claim denial</strong>."
+         },
+         {
+          "title": "2024 Maryland Medical Assistance Program Professional Services Provider Manual",
+          "url": "https://health.maryland.gov/mmcp/Documents/Professional%20Services%20Provider%20Manual%202024%20updated%2010.28.2024.pdf",
+          "snippet": "Failure to submit the aforementioned will result in appeal denial or"
+         },
+         {
+          "title": "Prior Authorization - Maryland Physicians Care",
+          "url": "https://www.marylandphysicianscare.com/providers/prior-authorization/",
+          "snippet": "<strong>If the MPC Medical Director returns the Peer-to-Peer request and leaves a message, the provider has two (2) business days to return the call, or the denial will be upheld and the provider will need to file an appeal</strong>."
+         },
+         {
+          "title": "Maryland HealthChoice Program Provider Manual",
+          "url": "https://www.provider.wellpoint.com/docs/gpp/MDWP_CAID_HC_ProviderManual.pdf",
+          "snippet": "thus provides practitioners and HDOs with a process to appeal determinations terminating/denying \u00b7 participation in Wellpoint&#x27;s Networks for professional conduct and competence reasons, or which \u00b7 would otherwise result in a report to the National Practitioner Data Bank (NPDB). Additionally, Wellpoint will permit practitioners and HDOs who have been refused initial \u00b7 participation the opportunity to correct any errors or omissions which may have led to such denial"
+         },
+         {
+          "title": "How to Appeal Prior Auth Denials",
+          "url": "https://www.medcentral.com/coding-reimbursement/if-youre-still-getting-prior-auth-denials",
+          "snippet": "In cases where the MA insurer denies ... request, you should <strong>develop a comprehensive appeal letter explaining the reason the procedure is medically necessary and ask the payer to reconsider your request</strong>...."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_120386",
+      "args": {
+       "query": "\"Professional Services Provider Manual\" \"Maryland\" \"Preauthorization\" \"2026\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Eu8HCuwHAWkUfRMWFyJbmD4_214UKlcdox96DVSOSEEXHt2AdnviNFlODXE-GsXq3QFWs7nM4ggYbWaB3gsuYxkJLc-pyR0iARC66a3Q-DH_gMqCp7FTVyhj5mHKbhXPAzUKYnX2s0tmQRX3IYazQTyTTHc4ez5nhkjJ36E64krYnCgb7Lom2zxqoepVO-tivAmbVD75qAAwIHsisHOk7XSCSIB5GVHSRYR7fhx3gCzmlOEWK0rGlqOuf7F7YV8xOUc1Ij2Ke6P-q9_0Xaa3DBnnmey7Z8BYtq2Cnpih1V-e_hEnPXTNE-yyxRmDBsphGmCRXrJnEL2O6Y_xpIhL84r5MFEbeftrJdGaJ4X0YlRALlK_R7vYanVkkybv_yAeJQrV3T1sjKq1F4mu_j7Jp3KlZXAgewN9cJSK_E6QMe_qDEryk0PRS_EQD1uHbfMLGaVfgzV7oHSz_1hgnbYzfAMRGv3DrGz3ArtnqG0QKJtSmAOpGuEMfD5aVk4dEBQzeE9kMDprCA5Jq5qQY8XZ1jOt1RYDfShCgQRvhAEoxEIJ8qDA0YAlokvCZ-mzVcHkHZQV6JRJl5iJHDU9brpDTifHtBhppBncmEwzOQsVtn3Ian-V_lSIMnqjjttSIdXLcFgOq_NoPRTJyl9fPQfJ8ZwbQDT_upTzhPU-U-IeBCGw2iKg5VH5eE-_cSAGRPsbdQbxnA-fZRpSONoOUFop1JOEpiRE1g12tQafBhnVgYT2sZQKA_LjX2D3Ji4QjJMfgi0t1Kz24iz4sULrBzbyuhiFs7iKJUhkk8uNBBIa-C166k_B5g4CPWGzCL6pJ5BcohlnFtyql2bKe6ejEXO8kwe9iXDEynb_nlw3XIl_YrZsk7XUbPJl9jXffsgLz8YIP0Xb5WME-OP2keu8GtWgnx8IA012uWIUyvzzdO8pIw2O8hhkr666RHbK4mi87e7X0QB86Lm2NRmvnbEYzClVn47JdoglfRD_83LZINa-LF9caV5NXJmv0PrE3gzS2SfkLQqud7yDEKTUV9ibgEWMdwXUOfSlHZ215IlzRSE70D2U1ZodC3KASB4DcftGeLMK4fVfIQtxXc4WUfwtTH5qn43DHio8bKk6cAv6joen0QHpAu8PepIMTBhS47S4jZdA3SZxMQhZMNOabo6E1_TTcCQ6qsBfsbs3xIEYpz7tFhZksIVfMi1SaSuFb1zHG4V2zmmb8PJcLQLfzKy0_43O_9uRFz4vphLwcTiaj6_NnhVBIr8jWlxdDXvIQz7oCP7nlyiSn3V2v2P2wRRc1RnrZbiRTAE0lTTUB4l2meU8a0xHAXjSZCylRJZI7SXOqD3qfy4="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Professional Services Provider Manual\" \"Maryland\" \"Preauthorization\" \"2026\"",
+        "results": [
+         {
+          "title": "Maryland State Telehealth Laws - CCHP",
+          "url": "https://www.cchpca.org/maryland/",
+          "snippet": "SOURCE: Code of Maryland Admin. Regs. Sec. 10.09.49.04. (Accessed Jun. 2026). The provider should document the participant\u2019s consent to receive telehealth services in their medical record. Consent may be given verbally by the participant. SOURCE: MD Medical Assistance Program. Professional Services Provider Manual, p."
+         }
+        ],
+        "result_count": 1,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_95358",
+      "args": {
+       "query": "\"Professional Services Provider Manual\" \"Maryland\" \"Preauthorization Procedures\" OR \"Preauthorization Decision Procedure\" OR \"Denials\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EvUECvIEAWkUfRN02D1uuczCfThBsy_AruR7IT3bTjxEgZrcICEARTsGtANxNeLRCLG5SRjhnvKDeU6n-oq0qHb813dTYwTc3wLRGWju2lqX6J2Ldw4yiaHLzhnlTbOASb_aYiVxTE05sYUQKku3zEmAbtD86tvYrcaMVW1jX56IrW7WPK7zoerHjOTf-Jp5ZHd2n-qsXhD-f2IY86t7OHzF3xAaAi1JpfR2dXBg1NzpkMKla0w7v18EC4ri5WOCmt6W31L0prJzU-w2UPmvzLiH9sJkZFkMoxBoG3Ci0PHo6v63Llo59hbqfc8QDvUIMgPv37DeFMq9Y2_3kfRHfq2a9rpyqbS-uJnQ2ZRNKfLG5ijNYd_mHN9Nj7XwxiYcxY8untjLdP01N5-BNeKPwQTvubTwt0G3_NOFl_FY4Kc3b8Kcc9C2x0Lhtk5Tnyyfh3oVc_lRFTP27O9J_2D9bOt1_mmqEqpD9lbisiaZFaR-mH4_qzf9RmBgQ3zUy6m1zddDzmZs5zWlKPV0eYnlCI58RVJDoE8ne7dK8d7ivsdElPW78jIvyR708A2GxDeN78HtadOn1fJhk3G43Wr4XcxYsZAHQmL6_QDzNTLt4ZiBzXTmI8b087iWg7r7vwvLZ1JebgDHqIaCsarkcOdtFJGdfj5AHuA7Q30exh1oHlXu8u1GUpFsc-g0Y7kxoqz8FJFFO58Hvxjzljwcm52O6sZNYgzve5eK8OJicZ8pDVANF01Qz5eQxBxJpqryVKI8UzK4eTXAwIzYzwqxrHCZCQmQGmzrHsGk6M1VyxSBXNlmpcInAXWULse9AuaSMpS2RuQR3uiZans="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Professional Services Provider Manual\" \"Maryland\" \"Preauthorization Procedures\" OR \"Preauthorization Decision Procedure\" OR \"Denials\"",
+        "results": [
+         {
+          "title": "Professional Services Provider Manual",
+          "url": "https://health.maryland.gov/mmcp/provider/Documents/2026-Professional-Services-Provider-Manual.pdf",
+          "snippet": "reimbursement rate for the procedure and to determine whether the service will be \u00b7 covered by the Program. Unclassified J-codes require a preauthorization. Refer to the beginning of each section of the CPT book for a complete list of unlisted ... In some cases additional information may be required. Failure to provide the aforementioned information will result in claim denial."
+         },
+         {
+          "title": "2024 Maryland Medical Assistance Program Professional Services Provider Manual",
+          "url": "https://health.maryland.gov/mmcp/Documents/Professional%20Services%20Provider%20Manual%202024%20updated%2010.28.2024.pdf",
+          "snippet": "Failure to submit the aforementioned will result in appeal denial or ... Organizations (MCOs) or Medicaid Fee-for-Service. Each provider must"
+         },
+         {
+          "title": "2020 Maryland Medical Assistance Program Professional ...",
+          "url": "https://health.maryland.gov/pophealth/Documents/Local%20Health%20Department%20Billing%20Manual/PDF%20Manual/Section%20VI/MD%20Medicaid%202020%20Provider%20Manual%201.1.20%20FINAL.pdf",
+          "snippet": "Medical necessity criteria for certain procedures or \u00b7 injectable drugs are posted on the Preauthorization website. The Program will send a written decision in response to all written ... Block 23 of the CMS-1500 claim form when billing for the service. Authorizations are valid for the time period allotted in the approval \u00b7 letter. Preauthorization only relates to the medical necessity of \u00b7 providing the service described in the written request."
+         },
+         {
+          "title": "healthchoice provider manual - Maryland Department of Health",
+          "url": "https://health.maryland.gov/pophealth/Documents/Local%20Health%20Department%20Billing%20Manual/PDF%20Manual/Section%20VI/MPC%202019%20Provider%20Manual.pdf",
+          "snippet": "The following services are excluded from Continuity of Care provisions for HealthChoice ... must honor this preauthorization."
+         },
+         {
+          "title": "2019 Maryland Medical Assistance Program Professional ...",
+          "url": "https://health.maryland.gov/pophealth/Documents/Local%20Health%20Department%20Billing%20Manual/PDF%20Manual/Section%20III/Md%20Medicaid%20Prof.%20Svcs%20Provider%20Manual%202019%20effective%201.1.19%20finalv.pdf",
+          "snippet": "Medical necessity criteria for certain procedures or \u00b7 injectable drugs are posted on the Preauthorization website. The Program will send a written decision in response to all written ... Block 23 of the CMS-1500 claim form when billing for the service. Authorizations are valid for the time period allotted in the approval \u00b7 letter. Preauthorization only relates to the medical necessity of \u00b7 providing the service described in the written request."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_108536",
+      "args": {
+       "query": "site:health.maryland.gov \"preauthorization\" OR \"pre-authorization\" \"medical necessity\" OR \"criteria\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EpMECpAEAWkUfRNWnZguXl2KxyP6Rg7ljpVhurH9Av4C_j1ly5gfjLEnPzhDNdCj8RN2-sSxxzJSfp5IdDMAx6dmno3GqnA0sCyiUQK9EkaZtCupJN5qqoemXhKc_ptQaG1dKs6vYu83MBmruHy_t1V2llVEjOG13cJDZpO-xqWchuuQB-ekCBZvjbEjbY9TTTOCCA2T5h2B9ZZLNZkMYf2EYu_uzo9J3VTpZRkENieNdw8rDoJIRjLF9aObzw_XrecyjiCNYEboa7YnezYakym_PhiZDixc44p0HDuCxYVBD9sudRTWpd-oQFRUSHfL5lQL0e21IkweP_sCVhM42wigHp-Vlsk9AaUbFfMr-O-Hl4udAznd1uCNM1frWdOUrRmJL-cN2WVH0c37ntyLY5nnKRm6zlGCQlqFhelE_XjCsuOoPE6nlETaJOsU5h5J1FQQar9eUIUIcPKo4cDDtMg4C83aMOdZMZrQJojC5z4f_E7x4iY93HGei1cJ95LHuLV8z_gTLqy8kbpckOCuQhGD_lSbyyyJBgwsq_Uyd_GRBF1zO6vDQZPbX13fUUlh7ltHw_iFvxziLZ3l8zz31cT4XKsSI_ax6T8YQSQwuC4zL6k_xfR6q_MVscwe9g0ahGATKS2mztJwOiKsnq3gjzbLY5-fl0wE1VdZZXHW8_ccJ1obwzQ6XCCNrhjNd-m66rH8BhPH"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "site:health.maryland.gov \"preauthorization\" OR \"pre-authorization\" \"medical necessity\" OR \"criteria\"",
+        "results": [
+         {
+          "title": "Preauthorization Information - Maryland Department of Health",
+          "url": "https://health.maryland.gov/mmcp/Pages/Preauthorization-Information.aspx",
+          "snippet": "Maryland Medicaid Fee-for-Service will preauthorize services <strong>when the provider submits adequate documentation demonstrating that the service is medically necessary</strong>. Prior authorization of benefits is not the practice of medicine nor the substitute ..."
+         },
+         {
+          "title": "PT 48-26 MARYLAND MEDICAL ASSISTANCE PROGRAM MCO Transmittal No. 259",
+          "url": "https://health.maryland.gov/mmcp/provider/Documents/transmittals/PT48-26_Removal_of_Prior_Authorization_Requirement_for_Special_Pediatric_Hospitals.pdf",
+          "snippet": "Medicaid Preauthorization Processes for In-State Special Pediatric Hospitals \u00b7 Previously, Maryland Medicaid required pre-authorization to confirm that an individual admitted \u00b7 to a Special Pediatric Hospital met the medically necessary criteria for that level of care, ensuring compliance with State and federal regulations."
+         },
+         {
+          "title": "Reference Guide for Completing Preauthorization Forms for Physician Services",
+          "url": "https://health.maryland.gov/mmcp/Documents/Steps%20for%20Completing%20a%20PA%20request.pdf",
+          "snippet": "Maryland Medical Assistance card. ... DOB and Sex - Enter the patient\u2019s (recipient\u2019s) date of birth and sex. ... Provider Signature - Signature of the provider rendering services. Contact Information for the Person Completing this Form - Please provide a direct email and ... Preauthorization Unit. ... Code - List the CPT or HCPCS code(s) that require a prior authorization..."
+         },
+         {
+          "title": "2024 Maryland Medical Assistance Program Professional Services Provider Manual",
+          "url": "https://health.maryland.gov/mmcp/Documents/Professional%20Services%20Provider%20Manual%202024%20updated%2010.28.2024.pdf",
+          "snippet": "Preauthorization only relates to the medical necessity of \u00b7 <strong>providing the service described in the written request</strong>. The approval is \u00b7 not a verification of the participant&#x27;s eligibility for Medical Assistance, nor is it an approval for the provider to perform the service for other ..."
+         },
+         {
+          "title": "Division of Nursing Services Preauthorization Process",
+          "url": "https://health.maryland.gov/mmcp/Documents/DONS%20PA%20Procedures%202022%20%20(3).pdf",
+          "snippet": "PARTICIPANT, MA#, start date of the authorization. \u2756 NOTE: Please do not call DONS to request preauthorization numbers \u00b7 unless you have not received a response after following the above ... H. Primary Insurance \u00b7 Medical Assistance is the payer of last resort."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_100288",
+      "args": {
+       "query": "\"Preauthorization Information - Maryland Department of Health\" OR \"Preauthorization Information\" site:health.maryland.gov"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EqkECqYEAWkUfRPonKytTd6st5-2PttY8sK3fKjzi9l2P49gKcGxCqnFdJs4avoRFSxIuoQOn1MTrhMwLc4ucP80HQmYk_jop5GKtqSXCBgANuzeqa6TISFai_-peAvtr794C17BIxgr4Ynw7QDpQ_Oo_RNAgWxgtHhaSv8vJLBfdIei89HiVHu2Y5w40GLbPPMNZa5gfJTCRSTQlVGwA-u3LIZPuogWUk2GWP_r5hABgoYQ9RwWl1AaESXuNHBTBLb2V8UMPB65qwPU125CT9kFsK6wVahmgyLrA7aBvj7d5_hSqAt9YHBPYHVD67pPMdOa4Y0mcJcdD1F6KjwD0NrKNr270opSMkPBzobKjrdEY47G6XBgpNUhp6K-qAcJiPOV16pI2AxfqC6aQCQ88xM2doLJgRw4Jw2J04U_c_a2VEF5jK4L1dQMR06GyY-RuG2XMe0lCYcpvByuCnBL3qfewMQuKODv2CcJmgih1lDNZMlLK4nWJ5SD_JLIIZ_XiLjSsux0oznfhpZOfziLJvKhJKFe6kGsFM4qpsxMZXJue5Kr5FDkeBceGpkE-uAzpQOl5jWflXdGv27ZfAJ5OO_dNoOjKiOfYmL1AyXqDLLOPBcgf9SdKrYuLTAzscxGWSrCZhHV4KMhtkbvzYesI_DeF6UfMafS_Iia3J1uO70V-aQ4_qFL5nSwgVyVr316U5lttwVMvdRNE4BB6BrEZ8AEtkJ8Yv0etdzNOA=="
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Preauthorization Information - Maryland Department of Health\" OR \"Preauthorization Information\" site:health.maryland.gov",
+        "results": [
+         {
+          "title": "Preauthorization Information - Maryland Department of Health",
+          "url": "https://health.maryland.gov/mmcp/Pages/Preauthorization-Information.aspx",
+          "snippet": "<strong>Maryland Medicaid Fee-for-Service will preauthorize services when the provider submits adequate documentation demonstrating that the service is medically necessary</strong>. Prior authorization of benefits is not the practice of medicine nor the substitute ..."
+         },
+         {
+          "title": "MARYLAND MEDICAID SCHOOL-BASED HEALTH CENTER (SBHC) PROVIDER MANUAL",
+          "url": "https://health.maryland.gov/pophealth/Documents/Local%20Health%20Department%20Billing%20Manual/LHD%20BiIlling%20Manual%20V37/Section%20IV%20Programs%20and%20Services/School-Based%20Health%20Center%20Provider%20Manual.pdf",
+          "snippet": "<strong>information and billing guidance for local health departments operating SBHCs</strong>. \u25cf General billing instructions (i.e. guidance applicable to all professional services \u00b7 providers) has been removed and replaced with links to the appropriate policy or billing ..."
+         },
+         {
+          "title": "MARYLAND DEPARTMENT OF HEALTH COMAR 10.09.23.01-1 MEDICAL ASSISTANCE PROGRAM",
+          "url": "https://health.maryland.gov/mmcp/epsdt/Documents/2026-Audiology-Physical-Occupational-Speech-and-Vision-Services-Providers-Manual.pdf",
+          "snippet": "<strong>request for preauthorization of hearing aids, cochlear implants, or auditory osseointegrated</strong> ... required) and submit the request electronically prior to rendering the service to the participant to \u00b7 ensure coverage. It is imperative that correct procedure codes be entered with the request."
+         }
+        ],
+        "result_count": 3,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_94176",
+      "args": {
+       "query": "\"medicaid-appeal\" \"Maryland\" \"Office of Administrative Hearings\" OR \"fair hearing\" OR \"address\" OR \"fax\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "Ev0jCvojAWkUfRNytEaexY4OVQZQu8hlj8KWXa4EC35Ctn-IyEXeXw1r0q54EMl_aMpI15UKmGQbolX1f0IIV9KKY_AP7TEDi-8ZrnlUVNNd6yTU59n12V0RJ780lWvDeFf8E0Q1puDPO70Wgtrto3gO8GKNHuI8rKy3GwmLZFwKlD7M4lOVfsTVBPqWnJTfmTgNwBZhG1xuIANoVnoLNy80OU8EyC9qJnU6O_5Es9rb3uUCUfh_zAws73QSihOR0ZxdSD3NvMkrkd5MIXoXVzQllrFYlxlR41QmQnn0XQrV26bOU_pBJRtjT3GqNou_6FFmvwF24LmmWqLEOkY6mjZ4uvjzPi9DDSIRdgQshZPpiBYYxkIuu48GujE15o6zQWUGNWTVkPHHFa9eLG6fcaS3fLNeu2pFVTNVruxdq0fzR5Ts81CdfVwIaKlOXnKt-91Fn5yKqYvj5zlve-90F_rDTFI3V5OQWOhAQ2eSTIcYQ6mYQsTKi1csiKDVRfljF_eWcz6WUTeAAfmeQCqVvQp6LYULFp9liv1pNh7FdZu0JC7VrhYDJoHlK3akRFtRpaaOtUbpdDjBHJctcym2e8t9QyZWUXF0e-KeDFIxd3I4j37e3bzJW_96xJT80FdiATWqWTnED7BxuJfJy9sPYzcT1lqgAb5RhSKRzQhR9mJJCRe8FBM57xhxfr3uru5rFRhuY_1j5ZDTI85lzuWKyIrLgW1TtYV9H-4CPczAt56WwFidMXfluFiEoITbcRq353U9xxyhvfqnYwRKZlxvBYNrxBfoqxpsu77wu1vBpnnHaBvrrmSF9nSBn3JZId0ogPObdLAAl49zP3kGYDbjwbq7tZ4le8Gj6avB9rAZ39P2cjmFIIZW3yrtcJhmHgS4BfXBQn7qSjJUVYNskOH9SPQ8GSzFh0UH8RQerYybBkO5YFUcJQe4qCdHPMRgeIArOT5Cp98b2ZqmSHUIdanXsSbSA_PtcKR0fu1HJoQuaB5jYQveXPG4u2bVyAxoK15sPY98oYjPaSaJOe79lWdP_pMaCDLEdS0a-IAdqT2xXM_xddvO0dr4g0pa728sgp-UMTWV8muJBYrlF_Q6aOBZjgTn9HkJAzbOOArulpyJ7892LGCdZo7rj3zla9jHONuLSkzWhhLRISpzmJY5zhRYMTP6dH_EiUOINvzikkMHm-eOqLz-0Lyz15hF9wLxpYSYpWxX9AgxtkQbcWEoYamZRRZf7m_HLEnVhwmrjnMQFlvVOQpLKUG0H6T1eJQZekdnAVQvC3oFs0sF_3cR0rCoPLwzpC-1g7ws3DkybtFFlcMbAUONUcpPBE9z75A-Bnpb10lYTvJkrNfsiR4ITzg6Ti7m7oeoMwMzH4s0nxxv9zLEF0PV5OD86KuMeFSWIwiRy6e4ATuHjvUktDCYYY2zFWd19TbuMDxUk7tyhtYHxsESr49qqs4vNcoa-pl6Enrx3_uVcgpyIkXr7QhUx42791cRKcqRFxKc9BvkVmzialcHa3n3cYHBu0N1FeoCBApH7a5q6UIxLBkGJAHTXuaPdNnstJbFrM8jAPuWOn1-a8cgCrS6VVKXentMsEa7_6g-b1NO6iEqonHSOymaxSn-Ef5uM8_IOAB6gcjn-vxaLlJKC8erH1mSUfZsJYojmjs1RmpkfPH36JXyOxfyYttYS1DRNrM3qDwfioLyuc_IvV6Xa10a7VDP9YDH3F0awehxypUOc5PXMgYKMZ5IL6kvAaUvmqEjfx7UdinIGeiLS3LdpF_JgBqzglYOmHX47QMEgncuvr3K4b_4D2_jTBH5tCQ2aikvSqjyi8ly6OjXc8sT2kda-ZjP_0KjbPs50Oa_vOP4U3LpJJznEmtY0LC5S_-E7-xkVntLZqmwQRqOBw3TBq5MJf4F8LIL0oeNtxMpiLin6vpgNJPudQ_uOR941dXTBeOXZoaI68yIs0-1dvE2kTeLAhhcXnsy8fjJF1EBOdaeIWEPN5kliDGMFYZ2JJmN78r4J7jRoTvf5vUhczkHKljVXsUNhPaZRGskA8xNchQJerxfXkm2SpPdyG5f53PIKuVMDQJHO5FKVHYJo5s_bB44W6Peqmyc8UGd9Pf4iTK_ZMcnvwKkdcUgTFHkHOPEQwnljG8nuQLB0OkzfMuTSJ3pPXszoujgVyDlnoXULRq2MegokKQiu-y9pHglazHPArgmYgu-L4kKi_ifJCKxdLUvAsynsxetKE_iZEKdFhWIX52Clo27A_4GCgfYnvWGYJoWzV0nWZ9cHYhsRRP1nPlNi8eLJOmhR6LRrqrVKelBdjaJ7BnTUDUXSLbCbwu0S5Nf4kMNq8MuQM6eEnCcpg4N5PhcF5SfEXgHph7HEGCz6qe4xLul0wz1eyJvPtmo0N20v7AwVQSEc6Z99WdDjj4O4jo5tGE1vjGs9IluFIVimVahwKy1_oPQPou3kGSclgf5qi_L0n3-ncWQjS-bHQEpY2V_xKTOkANf5ZpuPoRrkmsXFgeoNVdU0m5KIhjYEqaKZl47E0-MUmf89Mo161TUtyqzPJ5FeAGnV7q0SVGDcieXOTf-Ftu18tSzdqtqD8wuNbBW2ZeLXu9NYX2tfVQRc4ORuFZgxBarj1QgHRfKKEaymPHG9d-XFSJyVFx026NB2d7gw3H7zs4uCDXbidLgsdgrHTqVQM7OzD-0TZVbM4luLfR0_qkAERJTNZaRnJ_4ZCvufI4Jg247ILUYmIC7cmOKIM19sWzxLLVFb4kKHEGXHvQyoTV223J8x-Z9arLSXgzuzHJPrJDmkOAPL-V-mIWbVne6u53DCCjc-cPFJdJqCQhmq3MrbuQ_1EeXPl_QHQxclZghn8utGeKux7EmIzy9U4iUFavbM-Q1Y2K1hCUV0ClTtZQrROEo1qzfb8eCI2ohpXq5kJ9mB0rJXXVvUpTIvkQHIT-oOID7EUIDXqHy6C9gqAQ-lXwG0duU--HuxqjUHKLmxQOCasBr8gOtm2siUiqdNP9AlBpbeiVcYt3-ZO0pbOw0_9apEYTkTEk0PoEaPGIs7dDRlQ1QwUhcWkhlMKWUO--xnGKLIsmagOHOPt3mFt9ypHCmUus7Bbpd_BV2ov21JYsoZ8mc4huFeyEgeKPzZ4-Bf2Whe-tdYBCaElN20nVVcHFXkkseu7aAKt5rA3pQiWwmDt2ko4MRIOt1UhGDwO_ZJeVCqjcaVJyAXTnktij93r-_6PIJlXWXEa3m6bMfUsTzvnKczstjpF8eONMmYril_iyVPnCB9cZd_mzbP78oo5Q-gFMXuVN2FJUnSJjDmJsE02quu3_43r_cin34xO0moZLvOJQ4YzlzR86pNLuRVAwHKaOW7eg3TNm_4T1vFTrFKNLzxKd_rsGQ2UWmp-mL3rsAJJNSuFYeYTv-O-Qj_q61UEWInbt_dHwtYdXC2sOEqFUeG9_FliFUTI6Kv4idQcKqnAZCGZgMDXVgL4IhAgxrHYE3Kn8yzjpXhVwdy1I_nnhihQuM9N3tAs0fqoE7xpGMlvN7PvaK_SifzU9o15TdOOwT0h23prNGJWw2UOLR_RhNu_lxpOVY3aFM1IQ1Z7jqVEFQN4arkwj0g4mkkRJMe_h7d1wPAcOC2XT3-KcZBjK3Y5SkiZMW2gp2EqIqSmtcP7Ii7eUthE7ZbKskSwxVQdmWlUiPW7sVpjM5nbGI8rpH5npHGmFVv8RzXfbyeguReYh5Aav4GZNGm4jzfbI5f23yYed2bLXplmTezXXphaSix9B2gZiQd0jRt8DKAj5-8nObNGhPezuMdLl9R6E0XwbRQ6AQQJ42DA6mVRy2pIFsSL48G83FZS3gCGmBZp_djmnCBWr0UdGXLz6mqsLwdtn6deCqXb4WxFNWBhuXm3SICgABi5uZ3u7tlkw3URB9m2Qe_5JIEOOGsGEHHsx0ZeV8t5brf9WBh8kzSwd7Urk6gqjnTVlq0rLJxf97vhhM9FlEteXBW41cyj6atx05RXxWM3B7pil4dm-du5kvJ3_5kbVYyWMAj4rUL23UvgRtr68FX_Hj3GM_3LnoI7n9PGqu5IK0VEKC6HPk_7wyQ_JcumtNGYYGmMoNv3gyVNwhNFf2rWVvgRwANKTMLpJnAWE8ctlKweCBU6zYLqksaz_Ht51s8ZYBNTOTMDuXUFU73ET_oIGcKogx1yDT1XxKYDdMTeNSrb5iYFeqvoJ_lbiGfwJqWZMYrm9bQr0oy1p-8wTCaz0euhsOzXuuOu5Hl9O7bsYsxx6U-0flJTgGo0EA82lYFENzHdcmpF1Yep7b7EJp3qoNMAX9csmRsA-_JwIHkuUIQ4pHLftrwr6fE9GygqTQht-kbe4UnYm_IrZAUjIbpW_huVdY2Gp5ekhzkEdUparD9NMCHo5-F-B_a1epLmDwuXS0AjNz_Bbgb6_BJAPUg4u4O-yGT8S2-BiYsTBXTRT77GQicxbFvs0GRJMjnaRX8BCu3a1jflhmAyvHW3Aj7ONrR20CopNBVx6KyN3owyORG5zujquNp1OancRmMDV7y42B-Ix9r3ZKCyXHBKvkGmkOTcB2mgLbyigPCchSZYXe3BAS5NiiFD7YNvNFzB6lENZIHSEf8WTaTFXWh9GoIm7RZs0LEMlDbnM2zOlxyoSsiayd-lkviMlHDs3880tVx5rPO6G4lpvDJ2tK2-JJYkUuM_me4pzxIIWTu7IdS2PA-9_J7KJ9QeOyEzL1kCkqFwCAcdf9XfHivUYZsWdNcCOs_Gyag7Dc7S9YFfLhR3ZK6NJ69CUnO_uRuQc8Pb1eSuuN9FajUoMxJmTZNqtQAwTVtBIUhs6e4YSpY7bG3Vsw3ONlE6Sr5-nI7YkKzkvlRvXcqp0C96BQkLmRxp-WheKHtiZDbCiwxgxOuM3N48ju5TNnW7NKjx7s_En-qT2TgkMUmB6s4gGHMNFzShvK0SplJsAdetm7K_rd-TI8pMwFnAwtpoz5OFhiLhzVfvWX2E1IfOnYKa3GefcU6s1y8qTQpVH9udsP4S-8eYaPtVUE-cCTnk6gRdt_eENpOCz9eHDRVI49P0-clg1cm3dG3Mn7DxMYxZ8yh-Mg2Swm7hpRAUlFwLyycYSZXgj8bC-GYH2MrpYtZo1Am1XoHDY2NGBCoL4Ku1ntYXyfkHKI72ULVNIOiBgJ0sq-MpB77W56d0cN7DmAM5OI-7MGuRIfPS298s8vt4nYS2juXTZeYSOBACXiMFeb6A-2Gze3wFw-YrcmtC7aAW8iaX9meZoGUG8K16KNUGlH3yJvIK7Dimh8Pue17fLYp-b0jfL6qyjGwCmEXGVVtuHDaYIngZjbZSgZWuoTQYYm0rYat0zs8lbEwZYY8n7Pdt1xZcnt3O_pu1GmU7uXKqNWlz8VpAlLEBZEWjs_fAMVQPiyhlLSlXMnjjWwG751MiVn2XjgBDUj4gBiqlFAUV6JBNZ6gAPdMtaZOvboPV0YQ-ddRaCl2Y4erVUc6rI-4DmaS4LKpiAn244Hfb5aaVRZtKTYWa1YTvXn0mfHT-qY6xuNDsfxAye5NHsDgTrFxAT_8QucFtEgi3xkjnyiZH1CBjbC9SSwUWWB_dkjxBwvYCvHtRO0Wl_gth777Fc_rVnm_NMuOkLM4scxtuWlTSMkuoxZy2NTJd8iUr3fyGOlQW_o_Blm-f79OKdLiHva3_onkXcf8bRgzWki6fnb2a7xpn9UDP9qAqa1ykaEaQ5UN_VvWX8-BmOSssrHTu2nk4D9j4vbv6nvbKsgRc-UZg8rRR8zs2dcwhBwGjKcgIBoqMUMxPQKBDhBUuR8mLmGMfAzZCe0sGoM0IBlQa4IJ7Ihad1ZkGjstN3UpvU4R_gx7HKt73q6OMaGtu536jjnyis2Lv7FbvmxhPqfFlzEAIcb_y_A3BwmAaJ-BpSMvxjjU29mF7S_z9333OiXv7yqm5WPqx3ECU-2oxlSSotAxm7ZturKN06nXdFFbBPgR5c4m53ssdNW6zBn6R41J8BX7yyYs1JMjNEaDRsqfPwd45mos7mB6bSuBNW_jakj3qNh5PGc9J7rAOdVF0mvV5N-CH1_sRnEoZ7E36jBrPYg-rmX6qGO_zc7VeJnMHO4vmtJfbuqeWYHSpDaa9KbWftLaJwdIpALA0z7B2WDzp3fBRkSCnxO"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"medicaid-appeal\" \"Maryland\" \"Office of Administrative Hearings\" OR \"fair hearing\" OR \"address\" OR \"fax\"",
+        "results": [
+         {
+          "title": "Pages - medicaid-appeal - Maryland Department of Health",
+          "url": "https://health.maryland.gov/mmcp/Pages/medicaid-appeal.aspx",
+          "snippet": "Maryland Department of Health Attention: Medicaid Appeals 201 West Preston St., L9 Baltimore, MD 21201 Fax\u200b\u200b: <strong>410- 333-5154</strong> Email: mdh.medicaida\u200b[email protected]\u200b Office of Administrative Hearings 11101 Gilroy Rd."
+         },
+         {
+          "title": "Office of Administrative Hearings - Maryland.gov",
+          "url": "https://www.oah.maryland.gov/",
+          "snippet": "To file a paper with the Office of Administrative Hearings, please mail or hand deliver the paper to Maryland Office of Administrative Hearings 11101 GILROY ROAD, HUNT VALLEY, MARYLAND 21031. You may also fax a paper to <strong>(410) 690-8863</strong>."
+         },
+         {
+          "title": "Request a Fair Hearing",
+          "url": "https://www.marylandhealthconnection.gov/assets/appeals-fair-hearing.pdf",
+          "snippet": "You can bring a friend, relative, witness or lawyer to the hearing if you want. ... You should bring any documents or information you need to help us understand your concerns. ... You may review our documents regarding your eligibility at any time. ... If you have Medicaid or MCHP, you may keep your current health coverage if you appeal ..."
+         },
+         {
+          "title": "Maryland Medicaid Appeals and Fair Hearings | Brevy Care",
+          "url": "https://brevy.com/medicaid/maryland/appeals-and-fair-hearings",
+          "snippet": "Retrieved Jul 17, 2026, from ... of Administrative Hearings. Mail or fax your request to the <strong>Maryland Department of Health, Attention: Medicaid Appeals, 201 West Preston St., L9, Baltimore, MD 21201.</strong>..."
+         },
+         {
+          "title": "1 How to Request and Prepare for a Medicaid Appeal Introduction",
+          "url": "https://disabilityrightsmd.org/wp-content/uploads/2018/05/How-to-Request-and-Prepare-for-a-Medicaid-Appeal-Mar-2018.pdf",
+          "snippet": "note that in your appeal and ask that the hearing be scheduled for a time when you would not ... <strong>You may mail, fax or email your appeal letter to MDH</strong>."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_93826",
+      "args": {
+       "query": "\"mdh.medicaid\" @maryland.gov \"appeals\" OR \"appeal\" OR \"Preston\""
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtMFCtAFAWkUfRO1JVSf6w9Iv3kuMpKaaeC9n_2c_4ObMomy1D_qsEcB6Z86U2Rk2a8uxNjtmggJABjzPTs3x-3BEt7IUwcoxPKHwf5BkOwPnJmANsBtBFoEDyr6bRsxkGJXMRgAgiIMkbt-RspdRDxt00n4_lzPvtyA5wSyis6v1AFVKQSZZ1Vl152TxseJQys42oW6lpP7eFbYidVU1TpMVYLvCYqs-UtG-B7-sA1p6Awpy0CMtr5xQvIcCtMNsHuyLdpdmfMMMqpQv6VFtNopFYezizariD0zNDYIgVsIGapud-DwLHWVXRiqk2zPoT6YLdofGOLDq0asHXHe_1cy5AChUxKgOw9RkgwkUVkBCjHDPh_uQHE9zJcqIb3sAZBBQTLTmJAf3LsN0rv8UsqSm9W4pFeEEZZk2qXOzrcG4gkSvEgY8sPivSnXGAQgh5kQr_gy_q7gEWXW0JIuUoEml4ExgH3Kqe8ciTTdA3GCEYc4nA_LHTvE4uIU_8ScwMqtO5l8lmm1Xhn0PcXJX0cpADaniesau4J0btD9e2BBm9N5dFMO1Avf50FNuHBqFGchuxPuVl56fAK_w9z_QxbMr7cAi3FJk0p6jLIjL8pii9QJGyVK5rmACR_p_w5nNUMrSr3BUqYFHVD1JnGZYb49wbS73yQw4CB6YaZ3BkT6mTw05LsJdXlrrNKIb0bhLY0jsBh7bR5Kwgbdq4TIMaaYIW780uHAgRbPwndFOtTt8IPhQfD3N5ebNwXOgpFao7Tre5GCPGniQOywIy18ykXozZUISyyBeFM1OhZj2VE7C2y-aiEHP4eb7lb2DpqNpCfGzd2w8XdYlig6i-2MPV-qUJPGzZsUBP4sAmj3rVxjebF0h8E48eml9mO7aOxmmRMh1yBwf7fW40bT3XxpE1LSPUyfzvkT3juzewRXpSeY8ArRPEBmnuBo7ywluG1TGV_LiU9r"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"mdh.medicaid\" @maryland.gov \"appeals\" OR \"appeal\" OR \"Preston\"",
+        "results": [
+         {
+          "title": "Pages - medicaid-appeal - Maryland Department of Health",
+          "url": "https://health.maryland.gov/mmcp/Pages/medicaid-appeal.aspx",
+          "snippet": "Maryland Department of Health Attention: Medicaid Appeals <strong>201 West Preston St., L9 Baltimore, MD 21201</strong> Fax\u200b\u200b: 410- 333-5154 Email: mdh.medicaida\u200b[email protected]\u200b Office of Administrative Hearings 11101 Gilroy Rd."
+         },
+         {
+          "title": "Maryland Medicaid Appeals and Fair Hearings | Brevy Care",
+          "url": "https://brevy.com/medicaid/maryland/appeals-and-fair-hearings",
+          "snippet": "Retrieved Jul 17, 2026, from ... Mail or fax your request to the Maryland Department of Health, Attention: Medicaid Appeals, <strong>201 West Preston St., L9, Baltimore, MD 21201.</strong> Fax: 410-333-5154. Email: mdh.medicaidappeals@maryland.gov.1U.S...."
+         }
+        ],
+        "result_count": 2,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_112986",
+      "args": {
+       "query": "\"Maryland Medicaid\" OR \"Maryland Medical Assistance\" \"medical necessity\" definition OR COMAR"
+      },
+      "name": "web_search"
+     },
+     "thought_signature": "EtsQCtgQAWkUfROpIwbw9LURa2QbyDfSaSsE-b3_CnGE7HxTqHocHfDMTbhNE5JKv8sX1f_hQeyZa01HIFY8XjhdELuKC2b5bz9cnfiATQrUSiYODOSYLXnhyJPAML5wXTH6-nXzmPqqOax5u17kmBsHCQyLXGu3DG04rAmdxWohkyGxQHJLzs6xkFwYTjiuHXCZcafMreEL4Kk-ffmnOBH23BYqGrXphq0wEOdLGjie_EseF_6PpKm4CK7qWDO2cjxcDEFSZE_Oi132vJFzepGhw7Bqp1jiYcDj4FjyEVP7FQtbjJUb_YW-xEkDs4g6DI1KuwoIf3SE1s7RPe4MtIvDCDXPTiwUW3S8OMuUc3cM88Tync0MgsPloFlvry-Ms_5D9ttjsHYHW44K88LWJKJxl1US563KomVfdkFXBl7uoPnnNQngwjU1fp9oKfjr2Gk50SUuVw50lRzE8ejaH98XXG_qjdpWOuzF05kvu2N7fnaddmOAIKDe5ZAOpCQWxIFwiyvxBCjwvVpyfWWoxJhtIVJ4TEEHlAt-WYMfuYeHL6rjS_6eF4ch5Zb4318X0uQvb3zyVz8QG0OUwykKuwaR4P_KN_Dj1v0xix3r1epqxfFcjVwzBDEVM7yIryT36dbM1My4VXRabSALJzN3rm77YquTU8ZbELJFaxnwZdUavEE-Z_nMDog4beKC7VxAlvlKhEJByFCxG56_KbopkHZPcu_Zeg5Afeechm8iAQnWosci2uHMFt9qfpSTFpCeqWfvAaUyVFXJ34NqPLpjVOPQdFkda3pm1yvA7lBsgKIG0dTcQE6GIboCWE-ifYHPKN9X4zC8ix4ad6mcV4JI1_SGbTjfH6n2jzIUhSXs2-ztphik8sFNPikpPg7Ho5I1U39lSZZt7Ks1miWxo7gUeMgjtmtmHKPK-5n9V4kBaeufNLyOByHOWNCdWUA6tNM9diJd1cWiIMn9aMqI2hs-zmwo7EcKOe0Q--aj5SibKuTFjzjUj68FtMhMCR0-FjkTfRoBpn8lw-KhPMX5J24bJPFLCeJAemABkPCyBzModYRJiVTALVVMKwKEeq6P9AFQMV6N-TXWTY6SYUgqHP29bw3uxem2YKDTsyGkHPxIjaAIeCUrlc_NCBkhTWvtofN5kLf2_PBg1Ax2I1evZ4bJxuX9tJ4o693rOjKoPZPFpIXV1NLadZCeNx4n2NRJgzNbBkzXH-2oYtuW7vD2XbEzIsBbufoTCsaJuj6LIBWHlNGBNuyNOFTp9kOmuuhJwrLUBSGGOrtsXG1ykFO5vmBAUSEIoTK11hpFF-a8BvCfUqSZhfgggwZpMBQLj0HH8ciAepx0P6cLdLRZpCj6LMwtLqAlsFfTx8ecHYw1dPz7rGlKpSGlKRgm8obcoejMA21PW7o637EmgE26haT3k_KmnZG_PWLQD3Y1dMPfAQMQMR8zqvh14P6dkh5FtealakxJv03w3ynUQBlWelh3Mu8CGZcdBYa2m3XKYMhlH0VQ0KXaJ6UcqIxehLTTfgA-0mOUU9pyIFCyxWTtehGDQqexMw5_LdvvPBknB5YLmD7abtdFZmnnTpqLsLtqgopv2efhqmB8lAs6w45OpifiBoCpdypp3AAKQVJ6EmSatvCz72oQviz1l9920RrG3n2W2UR7_yAbX0K_HLMZoCm8N4tNnMEFxFw0qk37mA5RyCRieqzSJyEPy4eM63rMEQQRV03S3hGAfdUaR7Es-IKePKPobLTzOxLMd_Wboq-eJan2mn__yrPa0eP7Y-YhVr4XLBI1XcGDrEIxWyfqIF58vt4KBmNpPA6txfa112w3p6uloAIRg4hUKedy0UWVul18Rnf_CNCr-xzo-QOhbaCaZfIdVmbUR_z4AQcRrqddAXa6H66VWW0cDiNmA-MRlSiXnjhbOSBTgLXK9LJEY130lE964Q5lkxUd7I791FpfK_4gSZ7rHG2yOP9dAZpbDfeFvxKDZrhwyvUpQT3Gyui17GvKJO48fda89wtHWV-te-l1GZlqe0wG5oqZzBrNKO3U4Ebje3z-HFTXSGsUhfFlREDW46MrKgyqvtcjf94IX-FhPwh_7LwHhtlEUOIKdGIpjxY70J2dHNbTGp-VOxEAN57xbIrtqK_9xmr0xmKxqLnSqtZk4rMl8n3SVcpcdy6RxpZauuQE0TO1kxk0zO7uCO7a7b0Ww2PvQtzdtVxPu477IWAbrr6ATaOEn6FcWo5aGO5FEwEeu5H74a1kZC7yX6DgFVdnJZ-8subYnj2Skyfsh8wEU1ufFX0FJ_liwdnzZvPk2F9s4SEWwEXZlPuSdkd1Mi0q8Jr6haGqmZAkXtqcujjGMGdbDGwQMDOK6LrUA-KvvtsGSERl0OGAj8EgSH-5P0inx6TNZqkqyNZsrj6343dD1iPNNcHRWv2JZ-9TNCp0DulkbUholgLqDZR7Q-qzBCZqKLXObeoavDkMZ9zkQO_knumYDwVd8F67r6DQS-e75LV405_WR1rmgx5lLh4bcYhAdBWfZvjjA68hgywQXsu7injdp6pS8u3kr-26wyf8TdGPr5GYyZGmlMxjCq70bf3LN4paBTm-obX4gnfFQ8UmeYoaiODY4d4v4vSdg673xgs3f8BGvpOe8QmvlrU5Rw51cUXDMNPUMfZkGD5jJnh3Nzpmet0M8BuYE0ub1EIPJM-Ie6bEOd_93yUy9zb5kczJe8Ba4d2YQaHLiHwXEOLFUrwqGMWeF_S5NgRFwSYDyvzh5gdYJg54cOIBJbpJnnQPQKHtspbVXCxk-gREKgDCCye6tf-cFGhvWfQbutufmguSWf2HwklEi6iJxWpeCFcNoFh9GX5TmAyzFV3_"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "web_search",
+      "response": {
+       "result": {
+        "query": "\"Maryland Medicaid\" OR \"Maryland Medical Assistance\" \"medical necessity\" definition OR COMAR",
+        "results": [
+         {
+          "title": "COMAR 10.09.24.01-.16 1 State of Maryland Medical Assistance Manual",
+          "url": "https://health.maryland.gov/mmcp/medicaid%20manual/section%201600-comar%207-15-13.pdf",
+          "snippet": "(1) The HealthChoice Maryland Medicaid Managed Care Program, in accordance with COMAR ... A. Non-Financial and Resource Eligibility for the Medicare Savings Programs. In order to be \u00b7 eligible for the Medicare savings program under \u00a7\u00a7E\u2014H of this regulation, an individual: (1) May not be enrolled in Medical Assistance or the Maryland Children&#x27;s Health Program under"
+         },
+         {
+          "title": "COMAR 10.09.24.03 300 State of Maryland Medical Assistance Manual",
+          "url": "https://health.maryland.gov/mmcp/Medicaid%20Manual/Section%20300-%20Coverage%20Groups.pdf",
+          "snippet": "Security income or a change in the federal disability definition are eligible for Medicaid. ... Medicaid income limit for the MN. The individual becomes Medicaid-eligible once \u00b7 incurred medical expenses total or exceed that excess amount. (COMAR 10.09.24.03) ... Recipients of Public Assistance to Adults (PAA) are automatically eligible for Medicaid."
+         },
+         {
+          "title": "Md. Code Regs. 10.67.01.01 - Definitions | State Regulations | US Law | LII / Legal Information Institute",
+          "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-67-01-01",
+          "snippet": "(106) &quot;Maryland Medicaid Managed Care Program (MMMCP)&quot; means the Medicaid reform program established in this subtitle, as authorized by Health-General Article, Title 15, Subtitle 1, Annotated Code of Maryland, and by a \u00a71115 waiver issued by the federal government. (107) &quot;Medicaid&quot; has the meaning stated in COMAR 10.67.24.02. (108) &quot;Medical Assistance&quot; has the meaning stated in COMAR 10.67.24.02."
+         },
+         {
+          "title": ".01 Definitions. | Library of Maryland Regulations",
+          "url": "https://regs.maryland.gov/us/md/exec/comar/10.09.92.01",
+          "snippet": "(19) \u201cMaryland Medical Assistance Program\u201d means <strong>the program of comprehensive medical and other health-related care for indigent and medically indigent individuals</strong>. (20) \u201cMedically necessary\u201d means that the service or benefit is:"
+         },
+         {
+          "title": "Maryland Department of Health 10.01.04, 10.09.62-10.09.68, 10.09.71 and 10.09.72 Maryland Medicaid Managed Care Program Regulations",
+          "url": "https://health.maryland.gov/regs/Pages/10-01-04,-10-09-62-10-09-68,-10-09-71-and-10-09-72--Maryland-Medicaid-Managed-Care-Program-Regulations.aspx",
+          "snippet": "[J.] K. For any performance standard identified in [\u00a7I(2)] \u00a7J(2) of this regulation, MCOs shall acknowledge any deficiencies within 30 days and correct any deficiencies within 90 days or be subject to sanctions listed in COMAR 10.09.73.01A and B. ... A. An MCO shall provide to its enrollees comprehensive family planning services, including but not limited to medically necessary office visits and laboratory tests, all FDA-approved contraceptive devices, methods, and supplies, and voluntary sterilizations."
+         }
+        ],
+        "result_count": 5,
+        "error": null
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "function_call": {
+      "id": "call_163078",
+      "args": {
+       "url": "https://regs.maryland.gov/us/md/exec/comar/10.09.92.01"
+      },
+      "name": "http_fetch"
+     },
+     "thought_signature": "EosCCogCAWkUfRNIB0mw4JWQyux7cSW3p1NOzoOvFz2J1wqM5u3dlEFTZBDj2phVtGCQjjeWWMGcLaKTP54d59doDIbjusdEsMp-SXNp5ME0_-uN7vHJCQ3ZuJQbpl6iiaxcuJy0oh2uMk6TDUc6g7b0doTSCSDOKNcYaNBUPwc3zfEw9OnM2KCtbtvnOTmDqvHDn-vS85F7FNuw_M1EtjGyghW3lq9C2XzQvncDctKcGyyoE72i4rcYrvnD6oUY-eQB6YrQBNnRPgKrwB3S5c5Kpne0bGmy0md4FQ2ozwEif2UI8luxzK3VMd8hEIW0SnOUMhK0F-Csk14HYinLk6-IP8EytpsCsr_yMhS3"
+    }
+   ],
+   "role": "model"
+  },
+  {
+   "parts": [
+    {
+     "function_response": {
+      "name": "http_fetch",
+      "response": {
+       "result": {
+        "url": "https://regs.maryland.gov/us/md/exec/comar/10.09.92.01",
+        "final_url": "https://regs.maryland.gov/us/md/exec/comar/10.09.92.01",
+        "http_status": 200,
+        "content_type": "text/html",
+        "login_wall": false,
+        "blocked": false,
+        "blocked_reason": null,
+        "error": null,
+        "text": ".01 Definitions. | Library of Maryland Regulations Skip to main content Library of Maryland Regulations Toggle mobile menu Navigation Library of Maryland Regulations Code of Maryland Regulations Title 10 MARYLAND DEPARTMENT OF HEALTH Subtitle 09 MEDICAL CARE PROGRAMS Chapter 92 Acute Hospitals .01 Definitions. Code of Maryland Regulations .01 Definitions. A. In this chapter, the following terms have the meanings indicated. B. Terms Defined. (1) \u201cAcute hospital\u201d means an institution that provides active, short-term medical diagnosis, treatment, and care. (2) \u201cAcute level of care\u201d means care in which a patient is treated: (a) For a brief but severe episode of illness, for conditions that are the result of disease or trauma; and (b) During recovery from surgery. (3) \u201cAcute rehabilitation hospital\u201d means an institution devoted to therapy that is designed to facilitate the process of recovery from illness or injury for patients with various neurological, muscular-skeletal, orthopedic, and other medical conditions following stabilization of acute medical issues. (4) \u201cAdministrative day\u201d means a day of medical services delivered to a participant who no longer requires an acute level of care. (5) \u201cAdministrative services organization (ASO)\u201d means an organization with which the Department contracts to assist in the management and operation of the Maryland Public Behavioral Health System. (6) \u201cAdmission\u201d means the formal acceptance by a hospital of a participant who is to be provided with room, board, and medically necessary services in an area of the hospital where patients stay at least overnight. (7) \u201cAncillary services\u201d means diagnostic and therapeutic services, including but not limited to radiology, laboratory tests, pharmacy, and physical therapy services, provided exclusive of room and board. (8) \u201cConcurrent review\u201d means a periodic reauthorization of continued medical eligibility for the level of services provided in an acute hospital which allows for close monitoring of the participant\u2019s progress, treatment goals, and objectives during an inpatient hospitalization. (9) \u201cDate of service\u201d means: (a) For inpatient hospitalizations, the date of admission into an acute hospital up to, but not including, the date of discharge; (b) For outpatient services, the date services are rendered in the outpatient department of the hospital; (c) For emergency services, the date or dates the services are rendered in the emergency department of an acute hospital; or (d) For observation services, the date or dates the services are rendered in an acute hospital. (10) \u201cDepartment\u201d means the Maryland Department of Health, which is the single State agency designated to administer the Medical Assistance Program under Title XIX of the Social Security Act, 42 U.S.C. \u00a71396 et seq. (11) \u201cDesignee\u201d means any entity designated to act on behalf of the Department. (12) \u201cDiagnosis-related group\u201d means a participant classification system adopted by the U.S. Department of Health and Human Services, in which each hospital discharge case is assigned a category based on the primary diagnosis, secondary diagnoses (if any), procedures performed, age, sex, and discharge status of the participant. (13) \u201cElectronic signature\u201d means a secure electronic identification of an individual who authorizes an electronic record or transaction. (14) \u201cEmergency department\u201d means the area in a hospital that is designed, staffed, and equipped to provide prompt treatment to individuals requiring immediate medical care for acute illness, trauma, and other medical conditions. (15) \u201cEmergency services\u201d means any health care service provided to evaluate and treat any medical condition where immediate, unscheduled medical care is required. (16) \u201cEmergent condition\u201d means a disease, illness, or injury characterized by sudden onset and symptoms of sufficient severity, including severe pain, that the absence of immediate medical attention could reasonably be expected by a prudent layperson, who possesses an average knowledge of health and medicine, to result in: (a) Placing the participant\u2019s health or, with respect to a pregnant woman, the health of the woman or unborn child in serious jeopardy; (b) Serious impairment of bodily functions; or (c) Serious dysfunction of any bodily organ or part. (17) \u201cFreestanding medical facility\u201d means a facility: (a) In which medical and health services are provided; (b) That is physically separate from a hospital or hospital grounds; and (c) That is an administrative part of a hospital or related institution. (18) \u201cHealth Services Cost Review Commission (HSCRC)\u201d means the independent organization within the Maryland Department of Health which is responsible for reviewing and approving rates for hospitals pursuant to Health-General Article, Title 19, Subtitle 2, Annotated Code of Maryland. (19) \u201cMaryland Medical Assistance Program\u201d means the program of comprehensive medical and other health-related care for indigent and medically indigent individuals. (20) \u201cMedically necessary\u201d means that the service or benefit is: (a) Directly related to diagnostic, preventative, curative, palliative, rehabilitative, or ameliorative treatment of an illness, injury, disability, or health condition; (b) Consistent with standards of good medical practice; (c) The most cost-efficient service that can be provided without sacrificing effectiveness or access to care; and (d) Not primarily for the convenience of the participant, family, or provider. (21) \u201cMedicare\u201d means the medical insurance program administered by the federal government under Title XVIII of the Social Security Act, 42 U.S.C. \u00a71395 et seq. (22) \u201cNonqualified alien\u201d means a foreign-born resident who: (a) Is not a naturalized U.S. citizen; and (b) Is eligible for federal Medical Assistance coverage of only emergency medical services, as specified under COMAR 10.09.24.05 -2A. (23) \u201cObservation services\u201d means the medically necessary services used to assess the participant\u2019s outpatient condition to determine the need for possible admission to an inpatient acute care setting. (24) \u201cOrgan\u201d means a part of an organism that is typically self-contained and has a specific vital function, such as a heart or liver. (25) \u201cOut-of-State hospital\u201d means any hospital outside of Maryland, except for hospitals located in the District of Columbia. (26) \u201cOutpatient services\u201d means nonemergency services provided to the participant on the hospital campus that do not require hospital admission. (27) \u201cParticipant\u201d means an individual who is enrolled with the Department to receive Medical Assistance services. (28) \u201cPatient\u201d means an individual awaiting or undergoing health care or treatment. (29) \u201cPreauthorization\u201d means the approval required from the Department or its designee before a service can be rendered by the provider and reimbursed. (30) \u201cPreoperative day\u201d means an inpatient day in an acute hospital before: (a) Surgery for a participant who is being admitted for surgery; or (b) A surgical procedure when the participant was admitted for a nonsurgical procedure but the need for surgery arose during that stay. (31) \u201cProgram\u201d means the Maryland Medical Assistance Program. (32) \u201cProspective payment system\u201d means a predetermined amount of reimbursement per day for inpatient hospital services. (33) \u201cProvider\u201d means an acute hospital which, through agreement with the Department, has been identified as a Program provider by the issuance of a provider number. (34) \u201cRetrospective review\u201d means the process of determining medical necessity of an inpatient admission after the participant has been discharged from the hospital. (35) \u201cSpecialty behavioral health\u201d means services as defined in COMAR 10.09.70.02D and F. Previous Chapter 92 Acute Hospitals Next .02 License Requirements. This version of the laws and codes on this website is licensed under the CC BY-NC-SA 4.0 license with copyright held by the State of Maryland. This version of the laws and codes on this website will be dedicated to the public domain under the CC0 1.0 license 180 days after publication. Please do not scrape. Instead, bulk download the CC BY-NC-SA-4.0 HTML or XML or CC0 HTML or XML . Powered by the non-profit Open Law Library .",
+        "text_truncated": false
+       }
+      }
+     }
+    }
+   ],
+   "role": "user"
+  },
+  {
+   "parts": [
+    {
+     "text": "```json\n{\n  \"policy_found\": false,\n  \"policy_title\": \"COMAR 10.09.92.01 (Definitions - Medically Necessary)\",\n  \"policy_number\": \"COMAR 10.09.92.01(B)(20)\",\n  \"policy_url\": \"https://regs.maryland.gov/us/md/exec/comar/10.09.92.01\",\n  \"effective_date\": \"January 2026\",\n  \"criteria_quotes\": [\n    \"\u201cMedically necessary\u201d means that the service or benefit is:\",\n    \"(a) Directly related to diagnostic, preventative, curative, palliative, rehabilitative, or ameliorative treatment of an illness, injury, disability, or health condition;\",\n    \"(b) Consistent with standards of good medical practice;\",\n    \"(c) The most cost-efficient service that can be provided without sacrificing effectiveness or access to care; and\",\n    \"(d) Not primarily for the convenience of the participant, family, or provider.\"\n  ],\n  \"appeal_deadline\": \"2027-02-02\",\n  \"submission_route\": \"Submit the appeal to the Maryland Department of Health via one of the following methods:\\n- Mail: Maryland Department of Health, Attention: Medicaid Appeals, 201 West Preston St., L9, Baltimore, MD 21201\\n- Fax: 410-333-5154\\n- Email: mdh.medicaidappeals@maryland.gov\",\n  \"how_to_obtain_criteria\": \"Because Maryland Medicaid does not publish a standalone custom medical policy for Total Ankle Replacement, it evaluates requests based on general medical necessity regulations (COMAR 10.09.92.01) and licensed clinical review criteria (such as MCG\u2122 or InterQual\u00ae). Under federal Medicaid regulations (42 CFR \u00a7 438.404(b)(2) and 42 CFR \u00a7 431.210), the patient has a legal right to request and receive, free of charge, the specific clinical review criteria and all documents/records used in making this decision. The patient or their provider can obtain these by contacting the Maryland Department of Health Medicaid Preauthorization/Appeals Unit or their assigned Medicaid Managed Care Organization (MCO) using the telephone number on their member ID card or the denial notice.\",\n  \"confidence\": \"high\",\n  \"notes\": \"The denial letter specifies a 180-day appeal deadline (by February 2, 2027) which must be honored by the payer. Since the denial was due to 'incomplete documentation,' the appeal should submit a comprehensive clinical packet from the orthopedic surgeon. To satisfy standard medical-necessity criteria for CPT 27702, this packet should document: (1) skeletal maturity; (2) moderate-to-severe ankle pain/dysfunction interfering with daily activities; (3) a diagnosis of end-stage osteoarthritis, post-traumatic arthritis, or rheumatoid arthritis; (4) weight-bearing X-rays or other imaging demonstrating severe joint space narrowing or degeneration; (5) failure of at least 6 months of conservative treatments (such as physical therapy, NSAIDs, orthotic bracing, or joint injections); and (6) the absence of absolute contraindications (active infection, severe peripheral neuropathy/Charcot joint, or severe peripheral vascular disease).\"\n}\n```",
+     "thought_signature": "Eo5QCotQAWkUfRMFu0aHOtlprTj1GieJb-MGJ9ktCt8n4k7b-zJTRgKxpHA-R--3xBtLP5ueaF-S7PfXVYCr4jKzeXKKbNL2wnBX4PeulCZeJW0_Zt5NxWhEXJ_nQ1Q2107gfSGsgQfOE1ICxCnCrTDldXm5Ld-TbNelcnC0xTRHbcsGy9qSrTYPGeml56JFT751da4nkJ9IxEVVhEdTbPxBtGu129XbGQi2qc3mqyUZXQDW7roB9GT92ot_aLj7H8MtAOUOxj0E-4npxya5vr6TRCwRndTygmWzXLLVImcmgiB5Obsopw3Bc9aoMN2oa8cJS5nBmLD0S9L7NmZ_I3aGfyLA-0A9dByZjFQeyTtTIg28_MX0UzSgFTL2iGQFlmI_VusI6dPKYyXigeY6JJdDmJiqZF-asd_fD9ADLoIXN1ZiWRExoNr1ReC3hdll2LjVQMbo7DZIuzYiHB5I9cUEt-7lPvQ-_DxDG4wL-AKESUtiWO4A06yREaQ1BKpEPTQaMEDq945gC0IjLnTFxuoJfv6ry1L6SoOfJRNZZP6ehCm8vs0r-AeY9FhpRfY3ixDy7-06YVJdfaRBD9L493jNZpTBj9uPzYKOdTzHtFcXJGmaHl-rMbq7_RStiPqCW1_GGbRBJBmE1hAFqgyT8qtijUZQY97FtQY18cm9ZnNR_982Pw7S5MhX96nRXODsSi_VGI6bJDL2-1KS2EL7J0olNwfh6XaYw0WvxCiPOFhSw7O7IWb7s4lnmrjBzbABXu9NR6tA1nrZcHdxJ5X7LDgPbf5hXekHYQuLVODyRYlYrwI_5KeyeX_tYMH7G3MmnjbdQsZZJI4J-wM1NXt5AICFVd9ojVxjxQ3_T8ahFEX5E8KAi_2Ha6cpnD1NngUMMNrnqW4LYw9VCgFwzjekH4pXAD9bbUG3clc_1zIcYuUdjSqSbY4-2jxn-sNi6KcwkT3-_AsFGIbaBhzzN-vhU1Or5A6flgCr_pzbhQrtOi1a7MHegVkcOMSMxRg4FTf5O4Z1tOJW6JE2zWDPA88WZqLxOLoebU8H9cEoa5D9O4GWNWqmMUhb0AOH7MwWvdF3zCEkcgKbipNS9cHUu6HGza-9gdM280JqzSetSksmZ8LZ99a1LdawjCQ13GzVss6A81s0Dp4CD4dnxxJt9m-HaLpQYIF_oIP6l9iXm1G7smbicp-bwoE0OjnfYPDmttZYxEAaE1WmhI6UIOgpE3_NH7N5U06UvLEGhvB78o1GJQb35X8KM7fA695jB5vw6-Et7JRs8X8_UQtHz-D3gieZ2gsZZp50Z4a6qZ6olXPPEOvmkONJn45l9MyWQlV-_NeJBL1sVne2Hw4ZjCantLoim4HTUpAHCfWxbt2feoxMJ0riIsbIzJ2TI2IzL3SNJUVFtAJA0tMdsPULzofhMo2aMkKkZnvTDupyManuzk_7J2FwVbkUZ1AhBVUSKU2GNggIiu4sP89ryKbZjWBArnwVIyy3IWbV7r7a1ujSMmz3v3pZ2x7oDJkEJv4FGyr5Nir-EFS2Lk_luS6mCzsLCWEn_hkRpMdwLD_FJi2dj29LxRtgqkpdMncSjnCL00VF5pszKte-ytYD0qCa-wb0VjuPDJMcF6dx7e6-yiG7nzabJBg-2aMuvmIptWTQYmq76-cCVhvRQqR5z-LS3ZPMfSMOloCtlD1JDn3JhnlnSoAhlELiUvidG5He7t1ZtjxOvlgEUeWY2Si3mQhXtMY-fQEaV3DWUQf09bv7HAumajLOosi6he2LsonMryUGzL1z-ObxSMNaBA6_r84M1X7gwd7_SV5nlUJzo95OH0zKuuKiJpiXxBwyJ_wV_XWBwvqewkpuXSvwrtDsL-LyQJaIdUkXANas4ALKJHGYPLL1KeWKRn9e8j88YLD9eLmCCI3Y5Vop3-YAhBhIJCZ-sKFCidwAUilxDJEppYEFRtrBV7LU2oGI7qR1PSiNviV9HkXVg5uR9lnaWuod4XOFzIqtfIdyDz4SOWh6Zm7_MCYKSNWhWHuuOUM8-gKYlJpg6DOFpsPwsX2iu6XD3EGEH7H2HgO3Sbck68yPUz7Ka4ejOH4smct6R2LUSAlTFbcNJ142Nz7WGupIhHkMhABtqevTQvjGiRbuSZrVHHrbNlQEim0cimkwAzrdk8ZtlGIWJAKAtnubUPIFUc4d_yHAKN78Vt85XbBA3eSDxUlx89RIAT2EZFknducEZIbjRzEO-X2wJddryu7f6ONPvD_6fDXd9ekvsaL46C3AQ96W-Onufhb9LbYlhARqmFv85nA4HE-RhrErQ-mWkcJHXS-Ra5zhQD09Hp0p1apXAscdfAzbtv0hjNOjcmITd0Ltv2cJbf79H0Zd5VNq7sOiXdDa62dTk5weV-Uw4P38HoqlkhItyzqw7UdUpI_4fmb8-oO2hTTUSkFHgLQlZvX-fLps2H8JwAjRFE5qMFQqLF1MjtsT4QIdTbJkQtxPv5Vi6i-DhTlzEK4W5m0_jVrkchcOE7GyzfNdz-ZE91_3IDF4SrjYVdJiukwfmoLHWsxzydBNzWXoP5lWcdFvydjKgHkWJPebX8k0dSZF7XXG6Ey_CJFJvSEctLwiiyV7IFyl1rrIqoOs3A71p4SrNT_WCAm0EKRCF70Z5hOgdvPUULkQzQOyZ1art9Mg79Ho-BuuBIENMVWb_BqdlytPQathfM6xaCq3Bu9480DDgiWz5YhPbC1UMmj18yzfw0-AlD6syzFydy2AX--kf2oFldlKu0r5pgH3QpMTp2sUuxLWSQ_dD4gSRDeEklPVAEcWHSRBWTMjAHKgB7v6KNoPCpZ9yXucjOhiWJJ0pti_ImgjnkAxiXj_L_nWfCCp8JHbsHreejQY5z2B-pRbhy99x810kmRdIe8JNKykU_zuOldXugLN8tezX9MakXK_EyzM5GBnJzZqQJwreY02zT3eE7vcJN3tY2leRJjypPT0lMSJQb4zkvy9KfhdnNZytAX1FVkzXtiCp33goj-mTJGGydbDV95lYqg6S-IJwRuaRAmxNRlzSQc7dtKrfVJFHVrcMezgQNyQDEUjws_VkhnDRODV1k9hjxoBcSkATkWi00Mo-XknDUHHvDK_r7hDmMQHVMLqiIt7BJRTkqG_pMRf7NuUnggDx7yTUs-MboKvwmIwqRtYbc8rag17z2q2cT4kqCenYgBAWu-f_0DPGEu3oW5VAe2R0dJpd2eSZcOnaPfSUUcBnrrdEskxNOjFvNJYDm5JMW36GsBOaRHjdLAHe8eZzDclhnV8wGH6YmPxUxHds0zdqd3_Np_445EoF69AIp7GDa2VMMjt9vjWGyp_lt6aUOuIM9hgWd85GZhgWb0Fns8c8T3u4eS9_i19iABvXwVknYqsKtphcDF9Xf5bYB4IUgK2rFrJVp-Vge6dnfBNcFHTyXp4uK84Rj-joNxV-B8GcMW98Os8GK0DBulJkvqBIvkYsDHaPpN5sk_gPZ18MupIAYYJgn7KYNwaCLy-xjmmY8pC2aTPmh0dVUrqBuIs2xbLBjMDMZUOxUaGTM23AP-zgHKx2QgRAzFNaxmn01ppSgzB-74sCwy_JSopQcyHN-WuMhINyEJPLW8W4CoAr0NMYP9Y4WIMSwWlxo_cZ4tHL4Cij_uNA0QQhxdZlOY4AulHJo8pBSfWwW75i9Ji1tVcDodX1hSHx86vYEzjBELro9vt4FlexvdXo5VYQYl3nMgCrJkAZaIXIZ2yONuMM_S5YdSWlUFKoAozd6zq7HBCcVlBZJ5ARUmL-tf5DCeo-f8H9-wZNRufjaCDyO-P6R1yNluT4wBks0N4oh_dXfLtMaLEBTkR9X8vgTrw-tqq5TsNgJ_M5o1dZiYt9vhsSe-2pCyRXP9hCtIxtsiTW9lhvaQo_d2PRBgzsFoC-AYJ5LuWyQj8ZawOYuUysdPPI2sHl9uIm2Eo82bOO5_w3uu4Ph4SCQLZQ4KTQuCYRn8SSnYwGjmmS7LrgmpspXoyM65jSPyYNYUvlxZGWSBcuMfl-0SgOzP94jiXI97Maws0Y5esxb2m4PG2dyomeTlHyGDbTWw4x-C_ybP84LvEd9CpDrlN0F5-xFcPxegiLyu9uEWZFRC_fTakuItUykvj_MjLHmMQqrsdGfJNJRFJ-_4himWrBbrhbzaCsYZQlxpF6duuGmIwBzg7XSCCziNrK5ZREvk7f15P4tg4X4nE0hAs_YMpRamibxLLUIwdenosr3I_gvIaykK0-cnxLxeFH8k6bp8oP4NIf0kvYzXz6eOSHi1jUA9_e9477G5tGA7dWcyn_ZvMTxUr9PDXrU3gV9oZEQ4iVxGYB9OCvXciVD6HmFCY2MROf34tR0Wzp1Ywg2YFyjG31U0k_0kX5BfbaCx7DIlU6eukMeTaPvQf8wCp8iUK3I9Vmwc14vLliObYSi9UVUAT09F-sg4n_vISu9TcgznyOmU9i9pHzFNdkgPPSj4fQKfq-vgghx5Jzh-6Wp5eqoaP7ttWZsFfgiq1IK6XCR5NSb4fdF-hJDQtgM9mRbHW330XClYXYT4774NccIbYjXDK9UhRiSwZHOu1L572Rw2dgrqNUsHdF0470iCP8SiZXfhweU0qKHBiSrXwL0a4-L2HBcRxGpVz9U_rEPKbOlNkVG6546RZs-Pkw1jOyI0BRYvSLPD48lLm_nJ9OWSEhCPb5Dbai3JGe9syhkTAqChWdpLnEWpHX_YzCn938Fl3SOYrioh5GcvNMSjy9fR8J-aVA0r9tTUqqUU_49_gYCE1-HToi-42guP-Sx6tb_llclWUSpiq8CQPxgKR57T8dKWIxXR1sTtvv9B1ARJsTScusTyXYO1xKL86fV1DzA61VtQ1nPwLI8Mrnt3yp77vOsOv9-la_jGH2yZ1ysNcTgLVNxqJr_wXDAePIXdZjnmOlzORyH1ui0mzAHp54DgGHl7aBXeif_AzmGg7gTKnpK5tWFnmxCi_1hK_ce9b8h-h-09u0r7xK4EgvY6-ZuNWtTnZI0D2DV16fJtUmFLvEutGx3vx82-1ILSYwXC0v65Mns8m5JavbEtaAU6EJY0wbnuSovJB3rMeLYqIm-xQc_tuZ-0xo_zD2fRcLwzu9qfo0HaKb_xlJym4OnzuZMw7ZMCegaLa2ACvFmvP_xC0GFgSjG17igKiehNALu9XSCUTH2C7uIJsTDITf6KeTzHHAKLkRnGKfol67mtTscFQI6-4jiAzDOkL1oXTdC8dujRcKtj7_JxJ5dkya9LBsApg2gTREmL8iYgCMHPcwTu1-_1VtiQmXaXzdSPEu29QcUUoMOs3Ea8J2QZHXDCXJSoa6Cw2EgFofWhuvkQc5cUEhJpwlq1m6Zt38tGOad7hUHLquBBtqQ2PexOizBNRHaUZqhJpV-kGPiunV0a24iUzkEWpI0ZLbwVxbMsUFGnFLn9hI8GStu7402C2rVhJQ2ZJZ_FftwCPYpg194ai9K5AmxMcNDoxo5R3VIrQHfGKg_7TbEhUOve52mR4t0p0YORkdywLNrSxAQhrXZRoKhmiH9Np-nIm4nXKP5lcjdw5NL5-uUumh9-QD1rd5TAaoOYr7kbdgTBRnKposKyq5JE70bos0QtC4vTB0mlAHhYC4fHKhIxvh9bXjbD2QDoFBJLU_sZ6bP_uOXvwuf8l0sBCV9TWuDaDoQ6c7I2IiMNNRcfqWlVS8t79oa7NxiUyIlunjWVz479dQU7PRmkpC0WVafLSqLC8Q1ZPpQMSot3gbN4saayW734Dk7X9SECcjQ0arK80s622CPFtWy3A2k417QTuqRAYRHn23WIj2p5CnWu09MNrg5tTtuJ5OIxgdY_Jis0Lf5dvuaDwTTaFdFA0i5DkWUPEnjwh4dBEvrq9vTVgzbCuj8OxuMKDblCYW6r_yuzPOhv3Hn9bmpDZu8HuACGc3IaxMSgrsod7QHIA5S2eLbsSNHeio-BiBYCHT_jK69nTL4HbH6KbYd8rppniaphrC1vIgNosBvrH1tREuBBrHreB0VgPebPZ-CJHI5zXsdMFZ6URop8BAvEyNozvEeiqL6D5bjkq2cV1PareM4dvk8rCVtV0wHNwLDtlq7kIOtwGpO61nkk5fWRL9skhLV7Aq9HpxVjpyr2Rk0vJwgxvIy9EOmc7oU1hpHeQgE32kqMArys1JYQCFxZVCmL8_8otQSsjcL4E5Zm-iL3_O5T2EUD0wvoreFiYi3xRHglPTm4PXfDmCxmTJm3E9l5HKDQBOBOXkmUqWv0wI00KtSn7764-WiemPJvgnyqjeewlBaYpEu0hZrlrP3u6rwFqpo4P1Tdc6HcSQIVFJ5LmMhSIePVeyEEZLboO04VVtPGGxe6Lwkp8wD34a_bvROaXzLYFzYqUbBx09hwxkHv2ix1Z0v7gihQLlnNtB7QglxZuXEREO7lffxlBm5DkStt3F41UtZiR-a4jCToKLEnYCfuUqgU4yc5wLYAo7RS6XGKdMGT012jzoIa9vtmJ_4QrXCtT5sf-eiusqkxv3pL24KF_TYjMi2iOuHlPzHpFRPXalKnGvs9ueFt3Y-sPHtPpilaeNyWh6Ns44EJWog3pI4Ohp9QPxejITSsDFbSMuLMYIpq8n2VbLTplPzjrKWwLjyF11kSG2p6zwxEq03QXHUtLPyqJtBrK3lmAffZMm02iXYNFlWjedy8ERr6dtCRFLOEC8aagGFmBcBsRxMZNKGa83CTkHe9sJkM41uDWrMmu5Gf3lqZUomlT2DT_6cXVGR8onE9pW_qj6SbTZMaBMirk8ULwXR6wonn9syH5CEZ4JyB6w2DGWKp_zoyFZWSoIIUe8FE6878_SHhhW3pl_iJyzNta3DzVPrX7X0XY2MAB1UQx58jaQLhq5NstR01smdRiEID4v_Vd_FmTNh05okP1yQVmnlYN7LlCCvY85vaM9FcOj1c2b0T4jWkEC4wNyOscYxausAxIORMtRx-x7Hs-Fn6i_ilY897glN5EFE_68ctLL2uPoeSsJBWw6yreW0jEkdDfl94V1gqn0CD7o-RJm-QoOScxuQ2T6yGcjLfF-FhrmEkz7hW3D-Ktbp0P2rtv1HLjnH33oUohdqV7wpu3AgSD_W5qRC9KWZhvIo6-dAJdIwrcYkqeLfG7ahgj2mjrwQhv067URfvo5E3ns8yF_YjlbVEeEgZ4oInmmQ15wC-0RT09F2xrPPHFiRTLgZIWTf8fMmx5BVmCN5Rwtol2Cl6XeslmnyPvVxotePZd4dsZv2Y-yUHIOPDs0QWrqBnMg_hQkrZfpxFLacpK8QoONHwCIUxWFu7TOZ7R4NIfpr0Tixz86McN246FNLC4R5wuaXMehLZ40v_yCVKOyz5ROexE-Mhb0zwT2Y8J1cmHwXO1GOqybgp35Cu7qC_w5LmeO7r1g3y6-rsbgtJojkxg2njPrnZHFxBIU11jcw6kIfJ2vdfylb_-x3eNYDtgN8aoi9BR5L2i3WBFMlv0LUxubXl_PzXlvx-ckM0zOf0mlNa6DD2Y9uq6535vMKnQxaJRO-At894b2nG5cCuD3s8TfYgdmJo5-xkeXzwV0ylFQ7WqSOrSOjTS7u64lmWwv86vISLOGV3T71klFHF4C5weV4PhI8_4amXyTbIIHUpRaTMqbl6YSE3nWk6J75mDU-cQMAmRKhdfWk8dBHPukIcniredW8hI8dgi1kTYCRSpSlV0Y9hxOVgaUBG_a6uV8Ra2T0nn8HVspYbVgFHqRT6v3xjSy1FyzuBUCHw51r4hAKYfLLYsw51OIX-Jh4a8oHF7ya3iKXZim7NeY6m0ojEbe32cZwThCg-ebdGMnoAA6oSpEqM-OyrkwrTrMDMzYypPBLOF8K25OW8A3B97zk9lLBLChodoOxxNL4qRBVDGwrz56ByhTXlmEG9B46c2FS761Fp_a3Cax2Z-wco6SxVzE9dWo0sXc6t9PESd13h56Za5C3qWUi9Pne2QoyPUS0FqTT264cCBf6U2VRPGnJsvfR38aZeWxEUlT82dDrO8JxRHn0YMmH00DhuZYJIcrM4nQbwKR4njn5KJLLfgFgPr__i7ylmdm2DIPqtsOl0Xv2MJpqZDMG292MXtZRhqy_x8Nqga0XcH-GNo4zE7tb7FxZX_8N7Wr3JE31PTY80awny54fRhAugBKeyK4Jbx1z51nnrCSQp-A7tWbtAJQUp4fuevL6ZSeBUgQ2kvDFAaOCl-UjOEa4HyOrsV_52uWyTkQsTGQE4dvPK0uvEwr0ZsGeVedBY4VJmlopJ9IoA9jdBk2GPPFF__HX-YncBBT_N86admS7ahE0bws6gb3a9i2d0Mx_85eJhBZ8J1VWzibpB7gocFmZXfW4YV91HpSWm_9XpYrdh1EXaf7psK-VmXkZmNgy1nBHSDHWaCphWJU2Xx3hznP6FNKoDmTzj4qkqIphkTij8bhyao3Wq7W4ACkH3z7IGmHoVvbjWCpx6DqDwsZOyg2naYAypHfsP_6NhMU3OHDnS9jdbxzTALP8dThMBICwfA3IwfQQGEi4gJSnu4OzwOEyATlTCPAzgvj896flrDAtNMTgJGjE6QGPIa1d59Ecy9Xy0nTR5-IARRNkhVl8dvq9zV8jv2KKf_mkLFb7HOSj-83xPkc8otC99z3vOBtgzU_bKVr1nraibKZNUGMgA_0wD_rFSNGl0-6sxYQDPnPjFlsKTBbFtsF29vvKFsRqVC6f0P0Ci0K0k4aP-Sox2gGedcNGi1BDqwgqghfUcgfR8TEEQDpdRh0Nbb31MrpP4zG6g3vxfElGp0S6Q4_29-v3DAPW_9wOkyxXn6tOQAotEhzKoUtwKW9Y-zcEKQ96bnkla_MOepHwointZ7q9ywYqU5u-HJjFUmyKC0ag8ActnvzC28VN2MR3OASsuHpGAf_70KVK1xcb542SrmjBf80YlU1OQq2gOLirO7VSb70HYBqkiR9WYzWaVDA4uBKcV9JjjJQhD58Z19KiM_rV1Kvjahfkp0XTQ2LKrbcI36Y606iJGgAl-nYePE1PaRoxivh6B14pd-EKy6jgblPJ9UoQimwLrRoK1xdKMuRkElEe48HG6bBujwwh6zgLk4XHvCIctqvjlD_adVu-MqvF7LfaPYc-hi3n0xI_gb51tJGIr4w5fm7kqE21JsoG9ymDqvbkKk4SEUlRn3sDaLNIUR-aQjII3IOJEcBNk4vimIARXPfvevHtGh8eATYf5IdWmfijMRHgJp85gEyDGUlDV_BRvyWgGhPwVtNP2_ZIg-plILDpFYdjZ0mLjgsS9IQwDjTl_3ivjpb4tVTupxrE7UaIdxPi_Kl-37aa4huuKlla0obyfFzUlAz1zJY1OE-I0wrJC7S1PL1gqF0vcuturhQ-L8Sg8gxhkT7niEzLn2eFf5hC5-c7iwCgGnGH3rcOiecWyaqlPcA8kNbwpPsOm6SlcZ_2myy1wgXDdUHU0k9srYzP2Ql7GEaiQRJYvsyXTfuvqd8VDvu9u6tQNw_S679ty2aTzPAXh4SGouuXHVQ8BOEmthlzsgApRW2shWUUkFeOq13fIk7hTjVsbYxor5ftym1PXDSNLHDLxCza6jJwnXbQMkWTqDGvT17ABt_I-jdKGUcfmQDTSH9bpEKjo_UPjgLh5uygBdCrERPiOqB2vOMYTyZGcCkRIaSf8tRvHTbZeKLR_3etb-y4Xpa2rmtmQeg-oyku5LouzFRBHJtEMRiOufi_WidpiFsl-B0IzFuOCc42zZS_pAbwnXiiMNFtSvZ_MEXhjhOTcdzaoFUljckcTaE5G1SlDPNjiqpiR6Ms-6auX-_kAUjfNamKu4FZ6yGMKpWg89q5wY9kHUi1IE-gmrA3rWBON0qCskCedxMxZbIz1k3p8fOm2raxmBYmXtqhttG7P0s2Z06N59EYn9249HPVSJSA0kUCUWmSxAvLiwtN_DJ0Sth2Tf0RQEmfkGpbaHHqL-haeNfwk-Z7MnvU13FdVM6rdLy0MCyX4sJmiQgqht3QjY3QPpJjOzu33T0qTEhs46D2HFxx6m4PAioKAer6ZCRJ7ZegG_VXbIS9d5VcIzOvfCSD6mT0O5mUu3m1M8i8pdlKIkwAYqwVVmzpckdfic50fG0_cMJ2FXrT7Ewb30gELRbmVDQElEQlVe0K8bZ9HhiIgj2ChETBBPzULAq4e6wgyEaeDKAkTuxXIQ7SQAJNBTbQhYhJJw7UewTHttrsdIGy_ErpjZDRCo47OS7tY7GNITPMf4aPaDfWRKt9VuZAzq9TfV4pw3gyOAzEbmhObtYyZjocFtiGYyxlgvJCPan-QdAnZW5_2gGPpH1o5LBgUeysi40ft4ZU1sj0XL_vZj2kf0QOPPhwujLozUqgcHZ8SR_LcyoCXMa158DrnqzkuXy6ji4WVmaZFdcdV5BocKq5ADaX4VqEuX_dqsxi9CNGMz7dogOZqOaKaUbwu_oA_O4gV5p17WTjPEJqP8AoN0OyHWvqrWQYxvRPn2A2yCExjYzdipU77xadSvDyzgv7NPnX-t3MF08qil3oIDz0ElB_dZ47nISvjZYOYSXVmGkkOolOxRQJk95VQekVK-6ujkTQ-EWiGf5iGarTAZmVDhK5NNkT3zgjxhw39s4tOSeLVoWQfRjp1tfOpcGc-GkaPmCSWUgJGSw6LZNAdp2jVGOIfyFoU2CAdXSredcDUO3mWMfa4Q8ZdZ-ZtvmAnC9wCnyXX6_-s0M5Apw3Fj0PEIzHJk-BOz1Dxi3Qpfo8UTcrjeS8WrX2AnNh90vt7JTmgDjtfvZw9PD_LUCBiZ4zC8osiRh4wxgN2_HDB6re5ZYXck5k66rkucLunTghWqaAEjvgOPyTThls4vgUrf-K4wU5EPJd89ZjMTZ_fzF-K8k3QlrUDSIwXG3toqsjFgminqkOOT72yM1wc5rMEDUOB1BipJ2-Oklje2KP9m3wzd5Bgdx2B6W4g6oXPrSpZSxqsyt7WEjxcqCxf3byFyg-kwGDIarbtbbLpPfnuVYXTNDZvG8ZWQVZOLh8DRY2gBJADEscOFmHRmQKaIPrL5n2pLsPQm8mNcwJ9HeB5DE-91kB3N6sNOgej78lrjv7-alkdt6cIfJK7nbXSIl1T7L0z6fjJxBEJxn4Leg6sdFCoRkOeq1nZZDqpxQMvy2lc7rMs9wQPetz2heRQH_T-MLOnW8OtByzTcuPvyK2oF9Xkky3841Zihi3KpKYlzbLVd717CEWQtjmqnAcGqvnluBHs5Ke5hqCcVsG6_MbfSFEl3LdWArd2Xv77-dWkwv_Al0HatlMeA_OpH9APO1Lud-M8CQR7wmjVxhzf0HThLrrRvM32QoQ9XwjRXshB9Z1unbykXyn1nJJjZePS9JLnVvZQjbXBKNilauA_ofzByXJ9W1zfb9SMXRxdGj4K8Gx1BUPmbnXnwxs7IzP17IrarEbM_VgR_Mhrukil8DZd_VGYeLVSfafS1Bgr-K30orLPB5PAZZpuNBNBIqVXu5EbDRav88NgQu-itx2EU3v9NEj2uNtkM9rOkARFa7dwutdzAnEQtt7MChSPajpLnxjdE5tq4St-LthnCACNpL6ZeDCSRvghmYP64Yx93nwWfxGynMeTsHje6OEZezabVX0GmWO_TUilwM4lQ4SdscM2lOQaM7kUgsFkJME9cmJS4eVfpLEYipUwz87t7-oZ7cmFnnKyNBOJNxP7v1Ztv8Tm_w49Ip82gvwbtUmo5gEK91zDjDQKQmhUdY5kYy2Ne9vxsQgktQSgngylmYcUtMF4J1Dz2cTOZUrJtxNFxWiJe79FCSGJYMnzOdVb6KkV7AIzB7p5tWyUmjwo-1tjPi9qEnnedgWX_gdnWyFSyWhIX4AtKVCFQOOx3wrsOnc9LEemXWaDYncPIxS9Z5vNQEZ81JH3aq4n9-9-qBmrRqacdG6mqVoFn0KdQkd3KFuKJ3Zjc_sLD4sEknosvG-BPG4L9Lc1PQwN4tk4lOtrBEun01wjCzIoAfLlQksE69PvIxnsmdAN5kTuLQilpIzTPbm7kKq-3SgQEdYde_Z_OrxoHheyMPJmf8CYIAwQjFjVIjDcOE-9CbTK7R96csGG-5h-b5aaHN2X6TRNYqEpRvUQDQEOxN1EODzpPu61_D3YOf7JOcRnWzg3P1PwKHd_s8b_ldAxWZo1lTrrdDx-VAhrDaEhRMlaOeCFGzVFX-N1diIjf0c1u1l9x79hXw-BLdkV-Pq4S1DJeb_4pF3Suk1Z1qdkGOmbTxMpgx8gdKT4_WCuCXsFrdd4gBwIfz0K1jEMcD77eUsgz65XWZQqnZ83TEM0zZ50_rqDtbJfYCh-Uz9X8BOchnpCHlQmDy5fyWSbWxEOMTUeUUxxQEyMRs_RT77CM69VNVhGQFvaNh6krZsrOSZEatpWyKM0EbEOszbKwiv1g5of6XGnGwvddwyp4fnw0j23_3PvyK9fvWfAfpYv-3ofxoVU8bqSYPsLY8FWJ7kiro8aaXECQoBaoy6uBVQKpdPStGiIq8i5Cvj7fDpeF_gMofLuGS12PqNszeZ5hW7SsiJTUgge9Zt3HpmcC-3Amtb6mBpDsrMOBB8pquBtBzzCJfK9YM_Of5891qOkfHdA3ak-PPKStGg2DvOhqZsmpwE-XHo2dBle9BxXPDW-fB6-RczR7St0kqMaklFvOiSMdLBgR_fw7mvnXqSy-9hM8oA_bogRlox62kXX6FFUohC119_bw1nlo1MqPUl2BSN-BYv3IliFtMDkjtDbz2o-12-y2TyphLLh58MgRU24UyExe72y9ateoIeLTxfxghF-iKzH12KJ0M-UWw6O0hVMafWH9rE8EaVC_6RwPpJfBiYTIixi-bubzBVLa46s51EOkuPkJV2i-WOtIASF5xkQa_BgyNZh2Phs7eCl43xgYzqY6hhESDF-lHuD1RdzmFJN6Is1cvL3Sxf13_8Bie5zXHuo8lOIUKCg8p1f8Co5W9bukjm3gFx5w5cndlCG3Sy3_gCEl8Ao3WDv0OZ8ih2zPtHjkCuObKKTOhTz3lGEJuTFq7HPHaksJ-ZpkGOephb1X9VXHgMYnXBvwngpbz0t-r3dSEjNRV7OHkT2Dbzh0Fcmukydp5zupsS0IXFVXE8_ig6oATG4Yj7FW9XlgyyhNIMDN5mc1_QXX18out53_xlDUeYC9DYkutxQp8wxhb0ySV7zAT10EmBAwaeuj9hOHgm22bgYoo3hX0uvaNb0I4mT7HyXMHfVbLhVEDVr2c-iJSXIcUpWh2ihlWidBLVIWOooyYyawSgoHRW49EusEnbxCQhm9h6aaKcrgTOvP1wrcHI-Ycf0LNjLywK6-y6dAgZMp-0mEizpjAostFAJ9eLC8yrnoLZr9ev2HCTkUbW0rfg8EMwJDOXK7b4xK5PKvPQ2P4P7EKjnO3SsEdjqYRzKM-H1FC2K48q58n7tDr_vpdHLjdwVKO-x-fs7tG9bFyvE4s6pPPkbyGmLPocoWPXztqE5sxGRbdb8Mx0nNnQHmqw7zwxMKNnMf6YEB_qWWOgluAzu5RIJ1UbDTEbpJle3uCl73Ow9_mV4Iq3J3LTqGZnR2SVa0OO6xRWEQbYqsdZHQ8F_-GiwdZZ0HWiUviAFNZtgRAV47hQ77d8DJSP5o8XeSKPeeukJXLefnWO9Edqw8q6_RzqiSIMashj3A6WzJFawgoDXAWxYL"
+    }
+   ],
+   "role": "model"
+  }
+ ],
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 131021,
+  "output_tokens": 2207,
+  "cache_read_input_tokens": 347091
+ },
+ "model": "gemini-3.5-flash",
+ "tool_calls": 34,
+ "elapsed_s": 172.8,
+ "run_id": "r-f878a2360f89",
+ "case_id": "poc-3ab18c211b"
+}

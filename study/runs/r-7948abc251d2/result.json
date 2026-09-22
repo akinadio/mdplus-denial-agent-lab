@@ -1,0 +1,28 @@
+{
+ "answer": {
+  "policy_found": true,
+  "policy_title": "Cigna Medical Coverage Policies \u2013 Musculoskeletal: CMM-314, Hip Surgery\u2014Arthroscopic and Open Procedures",
+  "policy_number": "CMM-314",
+  "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-11/Cigna_CMM-314%20Hip%20Surg%20Arthro%20Open%20Proc_V2.0.2025_Eff03.07.2026_Pub11.21.2025.pdf",
+  "effective_date": "2026-03-07",
+  "criteria_quotes": [
+   "Arthroscopic or Open Hip Surgery for Femoroacetabular Impingement (FAI)",
+   "Arthroscopy, hip, surgical; with femoroplasty (i.e., treatment of cam lesion)"
+  ],
+  "appeal_deadline": "2027-02-07. The denial notice states that the appeal must be received within 180 days of 2026-08-11.",
+  "submission_route": "Contact Cigna Customer Service at the telephone number on the member ID card and request an appeal. Cigna's member guidance says to submit the written appeal through its Customer Forms process or the myCigna Forms Center, with supporting documentation. The specific mailing address depends on the member's ID card and plan documents; the publicly available Cigna appeal form instructs members to use the address shown for their Cigna network on the ID card. Include the denial notice, reference number POC-8E43F25837-44913, the CPT code, the provider's clinical records, and documentation addressing the policy criteria.",
+  "how_to_obtain_criteria": "Request from Cigna, in writing and through Customer Service, the complete CMM-314 criteria version effective on the date of review, the clinical-review rationale, and the specific missing documentation relied upon for the denial. Ask the provider to obtain the same information through Cigna's provider prior-authorization channel. The Cigna member guidance also states that members can obtain appeal information through Customer Forms or myCigna.",
+  "confidence": "Moderate",
+  "notes": "The CMM-314 PDF is publicly accessible and identifies an effective date of 2026-03-07, making it the relevant publicly posted Cigna/EviCore hip-surgery guideline for a denial dated 2026-08-11. However, the retrieved PDF could not be text-extracted in this environment, so I cannot reliably quote the guideline's complete medical-necessity checklist. The quoted material above is limited to wording actually visible in the retrieved search results. An older Cigna document, policy 0485 (Hip Arthroscopy for Femoroacetabular Impingement Syndrome), also appears publicly online, but it should not be treated as the governing document for this 2026 denial without confirmation from Cigna."
+ },
+ "raw_text": "{\n  \"policy_found\": true,\n  \"policy_title\": \"Cigna Medical Coverage Policies \u2013 Musculoskeletal: CMM-314, Hip Surgery\u2014Arthroscopic and Open Procedures\",\n  \"policy_number\": \"CMM-314\",\n  \"policy_url\": \"https://www.evicore.com/sites/default/files/clinical-guidelines/2025-11/Cigna_CMM-314%20Hip%20Surg%20Arthro%20Open%20Proc_V2.0.2025_Eff03.07.2026_Pub11.21.2025.pdf\",\n  \"effective_date\": \"2026-03-07\",\n  \"criteria_quotes\": [\n    \"Arthroscopic or Open Hip Surgery for Femoroacetabular Impingement (FAI)\",\n    \"Arthroscopy, hip, surgical; with femoroplasty (i.e., treatment of cam lesion)\"\n  ],\n  \"appeal_deadline\": \"2027-02-07. The denial notice states that the appeal must be received within 180 days of 2026-08-11.\",\n  \"submission_route\": \"Contact Cigna Customer Service at the telephone number on the member ID card and request an appeal. Cigna's member guidance says to submit the written appeal through its Customer Forms process or the myCigna Forms Center, with supporting documentation. The specific mailing address depends on the member's ID card and plan documents; the publicly available Cigna appeal form instructs members to use the address shown for their Cigna network on the ID card. Include the denial notice, reference number POC-8E43F25837-44913, the CPT code, the provider's clinical records, and documentation addressing the policy criteria.\",\n  \"how_to_obtain_criteria\": \"Request from Cigna, in writing and through Customer Service, the complete CMM-314 criteria version effective on the date of review, the clinical-review rationale, and the specific missing documentation relied upon for the denial. Ask the provider to obtain the same information through Cigna's provider prior-authorization channel. The Cigna member guidance also states that members can obtain appeal information through Customer Forms or myCigna.\",\n  \"confidence\": \"Moderate\",\n  \"notes\": \"The CMM-314 PDF is publicly accessible and identifies an effective date of 2026-03-07, making it the relevant publicly posted Cigna/EviCore hip-surgery guideline for a denial dated 2026-08-11. However, the retrieved PDF could not be text-extracted in this environment, so I cannot reliably quote the guideline's complete medical-necessity checklist. The quoted material above is limited to wording actually visible in the retrieved search results. An older Cigna document, policy 0485 (Hip Arthroscopy for Femoroacetabular Impingement Syndrome), also appears publicly online, but it should not be treated as the governing document for this 2026 denial without confirmation from Cigna.\"\n}",
+ "stop_reason": "completed",
+ "usage": {
+  "input_tokens": 66719,
+  "output_tokens": 2479
+ },
+ "model": "gpt-5.6-luna",
+ "elapsed_s": 39.7,
+ "run_id": "r-7948abc251d2",
+ "case_id": "poc-8e43f25837"
+}

@@ -1,0 +1,26 @@
+{
+ "answer": {
+  "policy_found": true,
+  "policy_title": "PH Medical Policy 91581-R23 SPINE PROCEDURES",
+  "policy_number": "",
+  "policy_url": "https://priorityhealth.stylelabs.cloud/api/public/content/5f005b3ee3044b68ad920d57974c2d68?v=785108c8",
+  "effective_date": "2026-03-01",
+  "criteria_quotes": [],
+  "appeal_deadline": "2027-01-28",
+  "submission_route": "Submit online, by email, fax, mail, or verbally through Customer Service. Priority Health runs a three-level process ending in Michigan's external review. Online: Online appeal form on priorityhealth.com; email phmemberappeals@priorityhealth.com By mail: Priority Health, 1231 East Beltline Ave. NE, Grand Rapids, MI 49525-4501 By fax: 616-975-8894 By phone: The number on the back of your membership card (verbal appeals accepted) Deadline: Level 1 within 180 days of the adverse determination; Level 2 within 90 days; state external review within 127 days -- but your denial letter is authoritative.",
+  "how_to_obtain_criteria": "Priority Health publishes real policies (91571 knee, 91581 spine) but they hand the actual medical rules to TurningPoint. Quote the Priority policy number in your appeal AND request the TurningPoint criteria - via the form on their page or through Priority's Prism portal (Authorizations > Authorization Criteria Lookup).",
+  "confidence": "high",
+  "notes": "payer policy public, criteria vendor-held; status=DOCUMENT PUBLIC, CRITERIA VENDOR-HELD"
+ },
+ "source": "policy_directory_vendor_held",
+ "route": {
+  "kind": "portal_login",
+  "vendor": "TurningPoint",
+  "url": "https://www.turningpoint-healthcare.com/clinical-policies-guidelines",
+  "how": "Priority Health publishes real policies (91571 knee, 91581 spine) but they hand the actual medical rules to TurningPoint. Quote the Priority policy number in your appeal AND request the TurningPoint criteria - via the form on their page or through Priority's Prism portal (Authorizations > Authorization Criteria Lookup).",
+  "source": "Priority Health medical policies 91571-R23 / 91581-R23"
+ },
+ "model": "claude-opus-5",
+ "run_id": "r-76e16091c124",
+ "case_id": "poc-b7c7b913dc"
+}
