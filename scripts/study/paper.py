@@ -59,7 +59,7 @@ abstract = [
  "appeal from that policy's own text, against three free chatbots on the two things an appeal "
  "depends on: identifying the right policy, and quoting it accurately."),
 ("Methods",
- f"We built {N} simulated denial cases across {T1['states']} states and the District of Columbia, "
+ f"We built {N} simulated denial cases across all 50 states and the District of Columbia, "
  f"{T1['insurers']} insurers, and 14 orthopedic operations, with a synthetic clinical summary for each. "
  f"Cases were of three kinds: the plan publishes criteria for the operation (n = {nA}); the plan's "
  f"public policy names the operation but sends the criteria to a licensed vendor (n = {nB}); or the "
@@ -80,11 +80,12 @@ abstract = [
  f"{lm('quote_unverifiable',c)['k']} ChatGPT, {lm('quote_unverifiable',cl)['k']} Claude and "
  f"{lm('quote_unverifiable',g)['k']} Gemini letters. Where no policy existed, Gemini named a "
  f"nonexistent governing document in {n(lm('hallucinated_document_C',g)['k'], nC)} cases. "
- f"OrthoAppeals' first drafts stated a rule the policy did not contain in {CP['flagged_before']} of "
- f"{CP['letters']} letters; a built-in check caught and corrected every one before delivery."),
+ f"A built-in check flagged {CP['flagged_before']} of {CP['letters']} OrthoAppeals first drafts for a "
+ "number, quotation or rule attributed to the plan that was not in the excerpts the writer had, and "
+ "every one was corrected before delivery."),
 ("Conclusions",
- "Free chatbots found the governing policy in roughly two of three to four of five cases and, when "
- "they quoted it, often misquoted it. A directory-grounded tool identified the policy in every case "
+ f"Free chatbots found the governing policy in {100*strat(c,'all')['k']/N:.0f}% to "
+ f"{100*strat(cl,'all')['k']/N:.0f}% of cases and, when they quoted it, often misquoted it. A directory-grounded tool identified the policy in every case "
  "in which its directory was correct and never quoted text that was not in the document. The audit "
  "that produced these results also found and corrected errors in the tool's own directory, and the "
  "tool's writer required an automated correction pass to keep invented rules out of its letters."),
@@ -129,12 +130,14 @@ methods = [
 ("Systems compared",
  "OrthoAppeals looks the case up in its directory, takes the verbatim criteria for the operation "
  "from the section extracted for that document, and drafts a first-person appeal with a language "
- "model (Claude Opus 5) that is given only those excerpts, the notice and the clinical summary. "
+ "model (Claude Opus 5, the same model family as one comparator) that is given only those excerpts, "
+ "the notice and the clinical summary. "
  "Before a letter is delivered, code checks it for any number or quotation attributed to the plan "
  "that is not in the excerpts, and a second model read checks for invented rules in words; if "
  "either finds anything, the writer receives one revision request naming the sentences. The three "
- "comparators were the current free-tier models of ChatGPT (GPT-5.6), Claude (Sonnet 5) and Gemini "
- "(3.5 Flash), each run through its vendor's API with the same two tools, web search and page fetch, "
+ "comparators were the models behind the free tiers of ChatGPT (GPT-5.6), Claude (Sonnet 5) and "
+ "Gemini (3.5 Flash) in September 2026, each run through its vendor's API rather than the consumer "
+ "app, with the same two tools, web search and page fetch, "
  "the same instructions, and a budget of 120 tool calls. Each chatbot first identified the policy, "
  "then in the same conversation drafted the appeal letter from the notice and clinical summary."),
 ("Outcomes",
@@ -175,10 +178,14 @@ methods = [
 r1 = (f"Table 1 describes the {N} cases. Stratum A drew on {T1['policy_documents_A']} distinct policy "
       "documents: insurers' own policies (39 cases) and the Carelon (40), eviCore (20), Evolent (19) and "
       "Cohere (2) guidelines that plans delegate review to.")
+def nci(arm, s, nn):
+    d = strat(arm, s)
+    return f"{d['k']} of {nn} ({100*d['k']/nn:.0f}%; 95% CI {ci(d)})"
+
+
 r2 = (f"Policy identification (Table 2). OrthoAppeals cited the governing policy in every case "
-      f"({n(strat(o,'all')['k'], N)}; 95% CI {ci(strat(o,'all'))}). ChatGPT did so in "
-      f"{n(strat(c,'all')['k'], N)} (95% CI {ci(strat(c,'all'))}), Claude in {n(strat(cl,'all')['k'], N)} "
-      f"({ci(strat(cl,'all'))}) and Gemini in {n(strat(g,'all')['k'], N)} ({ci(strat(g,'all'))}). "
+      f"({nci(o,'all',N)}). ChatGPT did so in {nci(c,'all',N)}, Claude in {nci(cl,'all',N)} and "
+      f"Gemini in {nci(g,'all',N)}. "
       f"In paired comparison OrthoAppeals was correct where the chatbot was not in "
       f"{PA['all']['ortho-opus vs chatgpt']['ortho-opus_only']} cases against ChatGPT, "
       f"{PA['all']['ortho-opus vs claude-free']['ortho-opus_only']} against Claude and "
