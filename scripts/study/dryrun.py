@@ -529,6 +529,7 @@ def stage_letters(cases, gold):
 
     # A quote that IS a reviewed criterion is a rule whatever its wording, and
     # its reviewed topic decides whether it answers the denial.
+    from synthetic_harness.quote_relevance import assess, classify
     _kn = {"radiographic evidence of moderate severe osteoarthritis kellgren lawrence grade 3 or 4": "imaging",
            "supervised physical therapy adls diminished despite completing a plan of care": "conservative_care"}
     _rq = ["Radiographic evidence of moderate/severe osteoarthritis (Kellgren-Lawrence Grade 3 or 4)"]
