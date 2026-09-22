@@ -62,6 +62,75 @@ def mcnemar_exact(b: int, c: int) -> float:
     return min(1.0, 2 * p)
 
 
+def cochran_q(rows: list[list[int]]) -> dict:
+    """Cochran's Q across k related binary outcomes (one row per case)."""
+    from scipy.stats import chi2
+    k = len(rows[0]) if rows else 0
+    n = len(rows)
+    col = [sum(r[j] for r in rows) for j in range(k)]
+    T = sum(col)
+    denom = k * T - sum(sum(r) ** 2 for r in rows)
+    if n == 0 or denom == 0:
+        return {"n": n, "k": k, "q": 0.0, "df": k - 1, "p": 1.0}
+    q = (k - 1) * (k * sum(c * c for c in col) - T * T) / denom
+    return {"n": n, "k": k, "q": q, "df": k - 1, "p": float(chi2.sf(q, k - 1))}
+
+
+def friedman(cols: dict) -> dict:
+    """Friedman test across related samples; cols = {arm: [values per case]}."""
+    from scipy.stats import friedmanchisquare
+    arms = list(cols)
+    try:
+        st_, p_ = friedmanchisquare(*[cols[a] for a in arms])
+    except ValueError:
+        st_, p_ = 0.0, 1.0
+    return {"n": len(cols[arms[0]]), "k": len(arms), "chi2": float(st_), "df": len(arms) - 1, "p": float(p_)}
+
+
+def wilcoxon_pairs(cols: dict, reps: int = 10000) -> dict:
+    """Pairwise Wilcoxon signed-rank tests with Holm adjustment; bootstrap CI for the paired mean difference."""
+    from scipy.stats import wilcoxon
+    arms = list(cols)
+    out = {}
+    for i, a in enumerate(arms):
+        for b in arms[i + 1:]:
+            x, y = cols[a], cols[b]
+            d = [u - v for u, v in zip(x, y)]
+            if all(v == 0 for v in d):
+                p_ = 1.0
+            else:
+                p_ = float(wilcoxon(x, y, zero_method="wilcox").pvalue)
+            m, lo, hi = boot_diff(x, y, reps=reps)
+            xs, ys = sorted(x), sorted(y)
+            out[f"{a} vs {b}"] = {"n": len(x), "p": p_, "diff": m, "diff_lo": lo, "diff_hi": hi,
+                                 f"{a}_median": xs[len(xs) // 2], f"{b}_median": ys[len(ys) // 2]}
+    _holm(out)
+    return out
+
+
+def _holm(d: dict):
+    items = sorted(d.items(), key=lambda kv: kv[1]["p"])
+    m = len(items)
+    running = 0.0
+    for i, (k, v) in enumerate(items):
+        running = max(running, min(1.0, (m - i) * v["p"]))
+        v["p_holm"] = running
+
+
+def contingency(table: list[list[int]]) -> dict:
+    """Chi-square test of independence (Fisher's exact test for a 2x2)."""
+    from scipy.stats import chi2_contingency, fisher_exact
+    rows = [r for r in table if sum(r) > 0]
+    cols_keep = [j for j in range(len(rows[0])) if sum(r[j] for r in rows) > 0] if rows else []
+    rows = [[r[j] for j in cols_keep] for r in rows]
+    if len(rows) < 2 or len(rows[0]) < 2:
+        return {"test": "none", "p": 1.0}
+    if len(rows) == 2 and len(rows[0]) == 2:
+        return {"test": "Fisher exact", "p": float(fisher_exact(rows)[1])}
+    st_, p_, df, _ = chi2_contingency(rows)
+    return {"test": "chi-square", "chi2": float(st_), "df": int(df), "p": float(p_)}
+
+
 def boot_diff(a: list[int], b: list[int], reps: int = 10000, seed: int = 20260922):
     """Percentile CI for mean(a) - mean(b) over paired cases."""
     rng = random.Random(seed)
@@ -162,6 +231,10 @@ def main() -> int:
     for s in cmp:
         holm(cmp[s])
     out["identification_paired"] = cmp
+    out["identification_omnibus"] = {}
+    for s, _ in STRATA + [("all", "all")]:
+        ids = [c for c in cases if s == "all" or cases[c]["stratum"] == s]
+        out["identification_omnibus"][s] = cochran_q([[corr(c, a) for a in ARMS] for c in ids])
 
     # ---- letters -------------------------------------------------------------
     def G(c, a):
@@ -194,9 +267,11 @@ def main() -> int:
             k = sum(vals)
             p, lo, hi = wilson(k, len(vals))
             letters[name]["arms"][a] = {"k": k, "n": len(vals), "p": p, "lo": lo, "hi": hi}
-        for a in ARMS[1:]:
-            letters[name]["paired"][f"ortho-opus vs {a}"] = paired(fn, ids, "ortho-opus", a)
+        for i, a in enumerate(ARMS):
+            for b in ARMS[i + 1:]:
+                letters[name]["paired"][f"{a} vs {b}"] = paired(fn, ids, a, b)
         holm(letters[name]["paired"])
+        letters[name]["cochran_q"] = cochran_q([[fn(c, a) for a in ARMS] for c in ids])
     # completeness (0-4), judged
     comp = {}
     for a in ARMS:
@@ -253,6 +328,53 @@ def main() -> int:
         eff[a] = {"n": len(srch), "searches_median": med(srch), "searches_iqr": iqr(srch),
                   "fetches_median": med(fetch), "fetches_iqr": iqr(fetch)}
     out["effort"] = eff
+
+    # ---- ordinal and count outcomes: Friedman + pairwise Wilcoxon -------------
+    ids_all = list(cases)
+    comp_cols = {a: [G(c, a).get("completeness") if isinstance(G(c, a).get("completeness"), (int, float)) else 0
+                     for c in ids_all] for a in ARMS}
+    out["completeness_tests"] = {"friedman": friedman(comp_cols), "pairwise": wilcoxon_pairs(comp_cols)}
+    eff_cols = {"searches": {}, "fetches": {}}
+    for a in ARMS[1:]:
+        for c in ids_all:
+            p = S / "runs" / rid[(c, a)] / "tools.jsonl"
+            n_s = n_f = 0
+            if p.exists():
+                for line in p.read_text().splitlines():
+                    try:
+                        t = json.loads(line)
+                    except ValueError:
+                        continue
+                    nm = t.get("action") or t.get("tool") or t.get("name") or ""
+                    n_s += nm == "web_search"; n_f += nm == "http_fetch"
+            eff_cols["searches"].setdefault(a, []).append(n_s)
+            eff_cols["fetches"].setdefault(a, []).append(n_f)
+    out["effort_tests"] = {k: {"friedman": friedman(v), "pairwise": wilcoxon_pairs(v)} for k, v in eff_cols.items()}
+
+    # ---- subgroup tests within each system ------------------------------------
+    sub = {}
+    strata_keys = [s for s, _ in STRATA]
+    plan_types = sorted({cases[c]["plan_type"] for c in cases})
+    reasons = sorted({cases[c]["denial_reason"] for c in cases})
+    for a in ARMS:
+        sub[a] = {}
+        # identification by stratum (3 x 2)
+        tab = [[sum(corr(c, a) for c in cases if cases[c]["stratum"] == s),
+                sum(1 - corr(c, a) for c in cases if cases[c]["stratum"] == s)] for s in strata_keys]
+        sub[a]["identification_by_stratum"] = dict(contingency(tab), table=dict(zip(strata_keys, tab)))
+        # identification by plan type (2 x 2)
+        tab = [[sum(corr(c, a) for c in cases if cases[c]["plan_type"] == t),
+                sum(1 - corr(c, a) for c in cases if cases[c]["plan_type"] == t)] for t in plan_types]
+        sub[a]["identification_by_plan_type"] = dict(contingency(tab), table=dict(zip(plan_types, tab)))
+        # grounded letter by denial reason, stratum A (4 x 2)
+        gA = letter_metrics["grounded"][1]
+        idsA = [c for c in cases if cases[c]["stratum"] == "in_library"]
+        tab = [[sum(gA(c, a) for c in idsA if cases[c]["denial_reason"] == r),
+                sum(1 - gA(c, a) for c in idsA if cases[c]["denial_reason"] == r)] for r in reasons]
+        sub[a]["grounded_by_denial_reason"] = dict(contingency(tab), table=dict(zip(reasons, tab)))
+    for key in ("identification_by_stratum", "identification_by_plan_type", "grounded_by_denial_reason"):
+        _holm({a: sub[a][key] for a in ARMS})
+    out["subgroup_tests"] = sub
 
     (S / "stats.json").write_text(json.dumps(out, indent=1))
 

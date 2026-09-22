@@ -22,6 +22,7 @@ cannot hide behind itself:
 from __future__ import annotations
 
 import hashlib
+import math
 import json
 import sys
 from pathlib import Path
@@ -177,6 +178,27 @@ def main() -> int:
     check(lo == 0.0 and abs(hi - 0.0311) < 0.001, "Wilson interval for 0/120 is [0, 3.1%]")
     p, lo, hi = ST.wilson(60, 120)
     check(abs(lo - 0.413) < 0.002 and abs(hi - 0.587) < 0.002, "Wilson interval for 60/120 is [41.3%, 58.7%]")
+    # Cochran's Q by hand: 12 subjects x 3 treatments; column sums 7, 8, 7 (T = 22),
+    # row sums 3x5, 2x3, 1x1: Q = 2(3*162 - 484)/(66 - 58) = 0.5; with df = 2, P = exp(-Q/2) = 0.7788
+    rows = [[1, 1, 1], [1, 1, 1], [1, 1, 1], [1, 1, 1], [1, 1, 1], [1, 1, 0], [1, 1, 0], [0, 1, 1],
+            [0, 0, 1], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+    q = ST.cochran_q(rows)
+    check(abs(q["q"] - 0.5) < 1e-9 and abs(q["p"] - math.exp(-0.25)) < 1e-6, "Cochran's Q matches the hand calculation (Q = 0.5, P = 0.779)")
+    # Cochran's Q on the identification scores, recomputed here from scores.json by the direct formula
+    stats_json = json.loads((S / "stats.json").read_text())
+    key_for = {(v["case_id"], v["system"]): r for r, v in key.items()}
+    rows = [[int(bool(scores[key_for[(c, a)]]["correct"])) for a in ARMS] for c in cases]
+    k, T = 4, sum(map(sum, rows)); col = [sum(r[j] for r in rows) for j in range(4)]
+    q_direct = 3 * (4 * sum(x * x for x in col) - T * T) / (4 * T - sum(sum(r) ** 2 for r in rows))
+    check(abs(q_direct - stats_json["identification_omnibus"]["all"]["q"]) < 1e-9, "identification Cochran's Q in stats.json matches a direct recomputation")
+    # every pairwise family is Holm-monotone and the smallest adjusted P equals m x smallest raw P
+    ok = True
+    for fam in [stats_json["identification_paired"][s] for s in stats_json["identification_paired"]] + \
+               [m["paired"] for k_, m in stats_json["letters"].items() if k_ != "completeness_judged"]:
+        items = sorted(fam.values(), key=lambda v: v["p"]); m = len(items)
+        ok &= abs(items[0]["p_holm"] - min(1.0, m * items[0]["p"])) < 1e-12
+        ok &= all(items[i]["p_holm"] <= items[i + 1]["p_holm"] + 1e-12 for i in range(m - 1))
+    check(ok, "Holm-adjusted P values are monotone and the smallest equals m x raw P in every family")
 
     print(f"\n{'ALL CHECKS PASSED' if not fails else str(fails) + ' CHECK(S) FAILED'}")
     return 1 if fails else 0

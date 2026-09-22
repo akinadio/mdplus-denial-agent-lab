@@ -499,6 +499,36 @@
    }
   }
  },
+ "identification_omnibus": {
+  "in_library": {
+   "n": 120,
+   "k": 4,
+   "q": 121.37185929648241,
+   "df": 3,
+   "p": 3.908136243155387e-26
+  },
+  "vendor_held": {
+   "n": 12,
+   "k": 4,
+   "q": 2.0,
+   "df": 3,
+   "p": 0.5724067044708798
+  },
+  "no_policy": {
+   "n": 35,
+   "k": 4,
+   "q": 39.42857142857143,
+   "df": 3,
+   "p": 1.4081969400096881e-08
+  },
+  "all": {
+   "n": 167,
+   "k": 4,
+   "q": 81.54545454545455,
+   "df": 3,
+   "p": 1.4305419392418567e-17
+  }
+ },
  "letters": {
   "grounded": {
    "scope": "A",
@@ -542,7 +572,7 @@
      "diff": 0.7416666666666667,
      "diff_lo": 0.6583333333333333,
      "diff_hi": 0.8166666666666667,
-     "p_holm": 9.693522803355793e-27
+     "p_holm": 1.9387045606711586e-26
     },
     "ortho-opus vs claude-free": {
      "n": 120,
@@ -552,7 +582,7 @@
      "diff": 0.32500000000000007,
      "diff_lo": 0.24166666666666667,
      "diff_hi": 0.4083333333333333,
-     "p_holm": 7.275957614183426e-12
+     "p_holm": 1.4551915228366852e-11
     },
     "ortho-opus vs gemini": {
      "n": 120,
@@ -563,7 +593,44 @@
      "diff_lo": 0.041666666666666664,
      "diff_hi": 0.13333333333333333,
      "p_holm": 0.001953125
+    },
+    "chatgpt vs claude-free": {
+     "n": 120,
+     "chatgpt_only": 10,
+     "claude-free_only": 60,
+     "p": 8.004823399455647e-10,
+     "diff": -0.41666666666666663,
+     "diff_lo": -0.525,
+     "diff_hi": -0.3,
+     "p_holm": 2.401447019836694e-09
+    },
+    "chatgpt vs gemini": {
+     "n": 120,
+     "chatgpt_only": 3,
+     "gemini_only": 82,
+     "p": 5.295300088834776e-21,
+     "diff": -0.6583333333333333,
+     "diff_lo": -0.75,
+     "diff_hi": -0.5583333333333333,
+     "p_holm": 2.647650044417388e-20
+    },
+    "claude-free vs gemini": {
+     "n": 120,
+     "claude-free_only": 2,
+     "gemini_only": 31,
+     "p": 1.3085082173347473e-07,
+     "diff": -0.2416666666666667,
+     "diff_lo": -0.325,
+     "diff_hi": -0.15833333333333333,
+     "p_holm": 2.6170164346694946e-07
     }
+   },
+   "cochran_q": {
+    "n": 120,
+    "k": 4,
+    "q": 175.98773006134968,
+    "df": 3,
+    "p": 6.484526802537518e-38
    }
   },
   "quote_unverifiable": {
@@ -608,7 +675,7 @@
      "diff": -0.075,
      "diff_lo": -0.125,
      "diff_hi": -0.03333333333333333,
-     "p_holm": 0.00390625
+     "p_holm": 0.0078125
     },
     "ortho-opus vs claude-free": {
      "n": 120,
@@ -618,7 +685,7 @@
      "diff": -0.4583333333333333,
      "diff_lo": -0.55,
      "diff_hi": -0.36666666666666664,
-     "p_holm": 1.6653345369377348e-16
+     "p_holm": 3.3306690738754696e-16
     },
     "ortho-opus vs gemini": {
      "n": 120,
@@ -628,8 +695,45 @@
      "diff": -0.425,
      "diff_lo": -0.5166666666666667,
      "diff_hi": -0.3333333333333333,
-     "p_holm": 1.7763568394002505e-15
+     "p_holm": 4.440892098500626e-15
+    },
+    "chatgpt vs claude-free": {
+     "n": 120,
+     "chatgpt_only": 4,
+     "claude-free_only": 50,
+     "p": 3.8029690507812575e-11,
+     "diff": -0.3833333333333333,
+     "diff_lo": -0.48333333333333334,
+     "diff_hi": -0.2833333333333333,
+     "p_holm": 1.521187620312503e-10
+    },
+    "chatgpt vs gemini": {
+     "n": 120,
+     "chatgpt_only": 5,
+     "gemini_only": 47,
+     "p": 1.2848229147266466e-09,
+     "diff": -0.35,
+     "diff_lo": -0.45,
+     "diff_hi": -0.25,
+     "p_holm": 3.85446874417994e-09
+    },
+    "claude-free vs gemini": {
+     "n": 120,
+     "claude-free_only": 25,
+     "gemini_only": 21,
+     "p": 0.6587380770236564,
+     "diff": 0.033333333333333326,
+     "diff_lo": -0.075,
+     "diff_hi": 0.14166666666666666,
+     "p_holm": 0.6587380770236564
     }
+   },
+   "cochran_q": {
+    "n": 120,
+    "k": 4,
+    "q": 107.89887640449439,
+    "df": 3,
+    "p": 3.1079620455663877e-23
    }
   },
   "quote_other_procedure": {
@@ -695,7 +799,44 @@
      "diff_lo": -0.041666666666666664,
      "diff_hi": 0.0,
      "p_holm": 1.0
+    },
+    "chatgpt vs claude-free": {
+     "n": 120,
+     "chatgpt_only": 0,
+     "claude-free_only": 1,
+     "p": 1.0,
+     "diff": -0.008333333333333333,
+     "diff_lo": -0.025,
+     "diff_hi": 0.0,
+     "p_holm": 1.0
+    },
+    "chatgpt vs gemini": {
+     "n": 120,
+     "chatgpt_only": 0,
+     "gemini_only": 2,
+     "p": 0.5,
+     "diff": -0.016666666666666666,
+     "diff_lo": -0.041666666666666664,
+     "diff_hi": 0.0,
+     "p_holm": 1.0
+    },
+    "claude-free vs gemini": {
+     "n": 120,
+     "claude-free_only": 1,
+     "gemini_only": 2,
+     "p": 1.0,
+     "diff": -0.008333333333333333,
+     "diff_lo": -0.03333333333333333,
+     "diff_hi": 0.016666666666666666,
+     "p_holm": 1.0
     }
+   },
+   "cochran_q": {
+    "n": 120,
+    "k": 4,
+    "q": 3.6666666666666665,
+    "df": 3,
+    "p": 0.29978058859571133
    }
   },
   "cites_correct_policy_in_letter": {
@@ -740,7 +881,7 @@
      "diff": 0.41666666666666663,
      "diff_lo": 0.325,
      "diff_hi": 0.5083333333333333,
-     "p_holm": 5.329070518200751e-15
+     "p_holm": 1.0658141036401503e-14
     },
     "ortho-opus vs claude-free": {
      "n": 120,
@@ -750,7 +891,7 @@
      "diff": 0.07499999999999996,
      "diff_lo": 0.03333333333333333,
      "diff_hi": 0.125,
-     "p_holm": 0.0078125
+     "p_holm": 0.01171875
     },
     "ortho-opus vs gemini": {
      "n": 120,
@@ -761,7 +902,44 @@
      "diff_lo": 0.0,
      "diff_hi": 0.058333333333333334,
      "p_holm": 0.25
+    },
+    "chatgpt vs claude-free": {
+     "n": 120,
+     "chatgpt_only": 0,
+     "claude-free_only": 41,
+     "p": 9.094947017729282e-13,
+     "diff": -0.3416666666666667,
+     "diff_lo": -0.425,
+     "diff_hi": -0.25833333333333336,
+     "p_holm": 3.637978807091713e-12
+    },
+    "chatgpt vs gemini": {
+     "n": 120,
+     "chatgpt_only": 0,
+     "gemini_only": 47,
+     "p": 1.4210854715202004e-14,
+     "diff": -0.3916666666666666,
+     "diff_lo": -0.475,
+     "diff_hi": -0.30833333333333335,
+     "p_holm": 7.105427357601002e-14
+    },
+    "claude-free vs gemini": {
+     "n": 120,
+     "claude-free_only": 1,
+     "gemini_only": 7,
+     "p": 0.0703125,
+     "diff": -0.04999999999999993,
+     "diff_lo": -0.1,
+     "diff_hi": -0.008333333333333333,
+     "p_holm": 0.140625
     }
+   },
+   "cochran_q": {
+    "n": 120,
+    "k": 4,
+    "q": 123.72151898734177,
+    "df": 3,
+    "p": 1.2185541905195226e-26
    }
   },
   "sendable": {
@@ -806,7 +984,7 @@
      "diff": 0.08982035928143717,
      "diff_lo": 0.04790419161676647,
      "diff_hi": 0.1377245508982036,
-     "p_holm": 0.00018310546875
+     "p_holm": 0.0003662109375
     },
     "ortho-opus vs claude-free": {
      "n": 167,
@@ -827,7 +1005,44 @@
      "diff_lo": 0.0,
      "diff_hi": 0.0,
      "p_holm": 1.0
+    },
+    "chatgpt vs claude-free": {
+     "n": 167,
+     "chatgpt_only": 0,
+     "claude-free_only": 15,
+     "p": 6.103515625e-05,
+     "diff": -0.08982035928143717,
+     "diff_lo": -0.1377245508982036,
+     "diff_hi": -0.04790419161676647,
+     "p_holm": 0.0003662109375
+    },
+    "chatgpt vs gemini": {
+     "n": 167,
+     "chatgpt_only": 0,
+     "gemini_only": 15,
+     "p": 6.103515625e-05,
+     "diff": -0.08982035928143717,
+     "diff_lo": -0.1377245508982036,
+     "diff_hi": -0.04790419161676647,
+     "p_holm": 0.0003662109375
+    },
+    "claude-free vs gemini": {
+     "n": 167,
+     "claude-free_only": 0,
+     "gemini_only": 0,
+     "p": 1.0,
+     "diff": 0.0,
+     "diff_lo": 0.0,
+     "diff_hi": 0.0,
+     "p_holm": 1.0
     }
+   },
+   "cochran_q": {
+    "n": 167,
+    "k": 4,
+    "q": 45.0,
+    "df": 3,
+    "p": 9.252702104537306e-10
    }
   },
   "deadline_stated": {
@@ -872,7 +1087,7 @@
      "diff": 0.5449101796407185,
      "diff_lo": 0.46706586826347307,
      "diff_hi": 0.6227544910179641,
-     "p_holm": 1.6155871338926322e-27
+     "p_holm": 3.2311742677852644e-27
     },
     "ortho-opus vs claude-free": {
      "n": 167,
@@ -892,8 +1107,45 @@
      "diff": 0.8622754491017964,
      "diff_lo": 0.8083832335329342,
      "diff_hi": 0.9101796407185628,
-     "p_holm": 2.6904930515036488e-43
+     "p_holm": 5.3809861030072976e-43
+    },
+    "chatgpt vs claude-free": {
+     "n": 167,
+     "chatgpt_only": 3,
+     "claude-free_only": 86,
+     "p": 3.7988915866351353e-22,
+     "diff": -0.49700598802395207,
+     "diff_lo": -0.5808383233532934,
+     "diff_hi": -0.41317365269461076,
+     "p_holm": 1.1396674759905406e-21
+    },
+    "chatgpt vs gemini": {
+     "n": 167,
+     "chatgpt_only": 66,
+     "gemini_only": 13,
+     "p": 1.0781441177091488e-09,
+     "diff": 0.3173652694610778,
+     "diff_lo": 0.2215568862275449,
+     "diff_hi": 0.41317365269461076,
+     "p_holm": 2.1562882354182977e-09
+    },
+    "claude-free vs gemini": {
+     "n": 167,
+     "claude-free_only": 137,
+     "gemini_only": 1,
+     "p": 7.978208728725487e-40,
+     "diff": 0.8143712574850299,
+     "diff_lo": 0.7485029940119761,
+     "diff_hi": 0.874251497005988,
+     "p_holm": 3.989104364362743e-39
     }
+   },
+   "cochran_q": {
+    "n": 167,
+    "k": 4,
+    "q": 312.9781420765027,
+    "df": 3,
+    "p": 1.544322734158438e-67
    }
   },
   "route_stated": {
@@ -938,7 +1190,7 @@
      "diff": 0.31137724550898205,
      "diff_lo": 0.23952095808383234,
      "diff_hi": 0.38323353293413176,
-     "p_holm": 1.3322676295501878e-15
+     "p_holm": 2.220446049250313e-15
     },
     "ortho-opus vs claude-free": {
      "n": 167,
@@ -959,7 +1211,44 @@
      "diff_lo": 0.023952095808383235,
      "diff_hi": 0.11377245508982035,
      "p_holm": 0.0147705078125
+    },
+    "chatgpt vs claude-free": {
+     "n": 167,
+     "chatgpt_only": 0,
+     "claude-free_only": 53,
+     "p": 2.220446049250313e-16,
+     "diff": -0.3173652694610778,
+     "diff_lo": -0.38922155688622756,
+     "diff_hi": -0.25149700598802394,
+     "p_holm": 1.3322676295501878e-15
+    },
+    "chatgpt vs gemini": {
+     "n": 167,
+     "chatgpt_only": 9,
+     "gemini_only": 50,
+     "p": 5.264832102225281e-08,
+     "diff": -0.2455089820359282,
+     "diff_lo": -0.32934131736526945,
+     "diff_hi": -0.16167664670658682,
+     "p_holm": 2.1059328408901123e-07
+    },
+    "claude-free vs gemini": {
+     "n": 167,
+     "claude-free_only": 13,
+     "gemini_only": 1,
+     "p": 0.0018310546875,
+     "diff": 0.0718562874251496,
+     "diff_lo": 0.029940119760479042,
+     "diff_hi": 0.11976047904191617,
+     "p_holm": 0.0054931640625
     }
+   },
+   "cochran_q": {
+    "n": 167,
+    "k": 4,
+    "q": 114.18367346938776,
+    "df": 3,
+    "p": 1.3798349312325762e-24
    }
   },
   "invented_identifier": {
@@ -1004,7 +1293,7 @@
      "diff": -0.04790419161676647,
      "diff_lo": -0.08383233532934131,
      "diff_hi": -0.017964071856287425,
-     "p_holm": 0.0078125
+     "p_holm": 0.015625
     },
     "ortho-opus vs claude-free": {
      "n": 167,
@@ -1014,7 +1303,7 @@
      "diff": -0.19161676646706588,
      "diff_lo": -0.25149700598802394,
      "diff_hi": -0.1317365269461078,
-     "p_holm": 9.313225746154785e-10
+     "p_holm": 2.3283064365386963e-09
     },
     "ortho-opus vs gemini": {
      "n": 167,
@@ -1024,8 +1313,45 @@
      "diff": -0.20359281437125748,
      "diff_lo": -0.2634730538922156,
      "diff_hi": -0.1437125748502994,
-     "p_holm": 3.4924596548080444e-10
+     "p_holm": 6.984919309616089e-10
+    },
+    "chatgpt vs claude-free": {
+     "n": 167,
+     "chatgpt_only": 3,
+     "claude-free_only": 27,
+     "p": 8.430331945419312e-06,
+     "diff": -0.14371257485029942,
+     "diff_lo": -0.20359281437125748,
+     "diff_hi": -0.08383233532934131,
+     "p_holm": 2.5290995836257935e-05
+    },
+    "chatgpt vs gemini": {
+     "n": 167,
+     "chatgpt_only": 3,
+     "gemini_only": 29,
+     "p": 2.5560148060321808e-06,
+     "diff": -0.15568862275449102,
+     "diff_lo": -0.2155688622754491,
+     "diff_hi": -0.09580838323353294,
+     "p_holm": 1.0224059224128723e-05
+    },
+    "claude-free vs gemini": {
+     "n": 167,
+     "claude-free_only": 16,
+     "gemini_only": 18,
+     "p": 0.8641662404406816,
+     "diff": -0.0119760479041916,
+     "diff_lo": -0.07784431137724551,
+     "diff_hi": 0.05389221556886228,
+     "p_holm": 0.8641662404406816
     }
+   },
+   "cochran_q": {
+    "n": 167,
+    "k": 4,
+    "q": 61.76470588235294,
+    "df": 3,
+    "p": 2.466850912479896e-13
    }
   },
   "unfinished": {
@@ -1091,7 +1417,44 @@
      "diff_lo": -0.017964071856287425,
      "diff_hi": 0.0,
      "p_holm": 1.0
+    },
+    "chatgpt vs claude-free": {
+     "n": 167,
+     "chatgpt_only": 0,
+     "claude-free_only": 0,
+     "p": 1.0,
+     "diff": 0.0,
+     "diff_lo": 0.0,
+     "diff_hi": 0.0,
+     "p_holm": 1.0
+    },
+    "chatgpt vs gemini": {
+     "n": 167,
+     "chatgpt_only": 0,
+     "gemini_only": 1,
+     "p": 1.0,
+     "diff": -0.005988023952095809,
+     "diff_lo": -0.017964071856287425,
+     "diff_hi": 0.0,
+     "p_holm": 1.0
+    },
+    "claude-free vs gemini": {
+     "n": 167,
+     "claude-free_only": 0,
+     "gemini_only": 1,
+     "p": 1.0,
+     "diff": -0.005988023952095809,
+     "diff_lo": -0.017964071856287425,
+     "diff_hi": 0.0,
+     "p_holm": 1.0
     }
+   },
+   "cochran_q": {
+    "n": 167,
+    "k": 4,
+    "q": 3.0,
+    "df": 3,
+    "p": 0.3916251762710884
    }
   },
   "unsupported_attribution_judged": {
@@ -1136,7 +1499,7 @@
      "diff": -0.059880239520958084,
      "diff_lo": -0.09580838323353294,
      "diff_hi": -0.029940119760479042,
-     "p_holm": 0.001953125
+     "p_holm": 0.00390625
     },
     "ortho-opus vs claude-free": {
      "n": 167,
@@ -1146,7 +1509,7 @@
      "diff": -0.2155688622754491,
      "diff_lo": -0.281437125748503,
      "diff_hi": -0.15568862275449102,
-     "p_holm": 5.820766091346741e-11
+     "p_holm": 1.4551915228366852e-10
     },
     "ortho-opus vs gemini": {
      "n": 167,
@@ -1156,8 +1519,45 @@
      "diff": -0.25149700598802394,
      "diff_lo": -0.31736526946107785,
      "diff_hi": -0.18562874251497005,
-     "p_holm": 1.3642420526593924e-12
+     "p_holm": 2.7284841053187847e-12
+    },
+    "chatgpt vs claude-free": {
+     "n": 167,
+     "chatgpt_only": 9,
+     "claude-free_only": 35,
+     "p": 0.00010604466626773501,
+     "diff": -0.15568862275449102,
+     "diff_lo": -0.23353293413173654,
+     "diff_hi": -0.07784431137724551,
+     "p_holm": 0.00031813399880320503
+    },
+    "chatgpt vs gemini": {
+     "n": 167,
+     "chatgpt_only": 8,
+     "gemini_only": 40,
+     "p": 3.305266709219268e-06,
+     "diff": -0.19161676646706585,
+     "diff_lo": -0.2694610778443114,
+     "diff_hi": -0.11377245508982035,
+     "p_holm": 1.3221066836877071e-05
+    },
+    "claude-free vs gemini": {
+     "n": 167,
+     "claude-free_only": 26,
+     "gemini_only": 32,
+     "p": 0.5118423084381689,
+     "diff": -0.03592814371257483,
+     "diff_lo": -0.11976047904191617,
+     "diff_hi": 0.05389221556886228,
+     "p_holm": 0.5118423084381689
     }
+   },
+   "cochran_q": {
+    "n": 167,
+    "k": 4,
+    "q": 61.714285714285715,
+    "df": 3,
+    "p": 2.5288300957015303e-13
    }
   },
   "demands_criteria_C": {
@@ -1222,8 +1622,45 @@
      "diff": 0.9428571428571428,
      "diff_lo": 0.8571428571428571,
      "diff_hi": 1.0,
-     "p_holm": 6.984919309616089e-10
+     "p_holm": 1.3969838619232178e-09
+    },
+    "chatgpt vs claude-free": {
+     "n": 35,
+     "chatgpt_only": 0,
+     "claude-free_only": 0,
+     "p": 1.0,
+     "diff": 0.0,
+     "diff_lo": 0.0,
+     "diff_hi": 0.0,
+     "p_holm": 1.0
+    },
+    "chatgpt vs gemini": {
+     "n": 35,
+     "chatgpt_only": 33,
+     "gemini_only": 0,
+     "p": 2.3283064365386963e-10,
+     "diff": 0.9428571428571428,
+     "diff_lo": 0.8571428571428571,
+     "diff_hi": 1.0,
+     "p_holm": 1.3969838619232178e-09
+    },
+    "claude-free vs gemini": {
+     "n": 35,
+     "claude-free_only": 33,
+     "gemini_only": 0,
+     "p": 2.3283064365386963e-10,
+     "diff": 0.9428571428571428,
+     "diff_lo": 0.8571428571428571,
+     "diff_hi": 1.0,
+     "p_holm": 1.3969838619232178e-09
     }
+   },
+   "cochran_q": {
+    "n": 35,
+    "k": 4,
+    "q": 99.0,
+    "df": 3,
+    "p": 2.5497817380715916e-21
    }
   },
   "hallucinated_document_C": {
@@ -1278,7 +1715,7 @@
      "diff": -0.2,
      "diff_lo": -0.34285714285714286,
      "diff_hi": -0.08571428571428572,
-     "p_holm": 0.03125
+     "p_holm": 0.046875
     },
     "ortho-opus vs gemini": {
      "n": 35,
@@ -1288,8 +1725,45 @@
      "diff": -0.5428571428571428,
      "diff_lo": -0.7142857142857143,
      "diff_hi": -0.37142857142857144,
-     "p_holm": 1.1444091796875e-05
+     "p_holm": 2.288818359375e-05
+    },
+    "chatgpt vs claude-free": {
+     "n": 35,
+     "chatgpt_only": 1,
+     "claude-free_only": 7,
+     "p": 0.0703125,
+     "diff": -0.17142857142857143,
+     "diff_lo": -0.3142857142857143,
+     "diff_hi": -0.02857142857142857,
+     "p_holm": 0.140625
+    },
+    "chatgpt vs gemini": {
+     "n": 35,
+     "chatgpt_only": 1,
+     "gemini_only": 19,
+     "p": 4.00543212890625e-05,
+     "diff": -0.5142857142857142,
+     "diff_lo": -0.6857142857142857,
+     "diff_hi": -0.3142857142857143,
+     "p_holm": 0.0002002716064453125
+    },
+    "claude-free vs gemini": {
+     "n": 35,
+     "claude-free_only": 1,
+     "gemini_only": 13,
+     "p": 0.0018310546875,
+     "diff": -0.3428571428571428,
+     "diff_lo": -0.5142857142857142,
+     "diff_hi": -0.17142857142857143,
+     "p_holm": 0.00732421875
     }
+   },
+   "cochran_q": {
+    "n": 35,
+    "k": 4,
+    "q": 39.78260869565217,
+    "df": 3,
+    "p": 1.1847725465354759e-08
    }
   },
   "completeness_judged": {
@@ -1377,6 +1851,413 @@
     3,
     5
    ]
+  }
+ },
+ "completeness_tests": {
+  "friedman": {
+   "n": 167,
+   "k": 4,
+   "chi2": 203.10539215686276,
+   "df": 3,
+   "p": 8.998040806860191e-44
+  },
+  "pairwise": {
+   "ortho-opus vs chatgpt": {
+    "n": 167,
+    "p": 1.8636889800831532e-22,
+    "diff": 1.0059880239520957,
+    "diff_lo": 0.8862275449101796,
+    "diff_hi": 1.125748502994012,
+    "ortho-opus_median": 4,
+    "chatgpt_median": 3,
+    "p_holm": 9.318444900415767e-22
+   },
+   "ortho-opus vs claude-free": {
+    "n": 167,
+    "p": 4.914919395397997e-18,
+    "diff": 0.6107784431137726,
+    "diff_lo": 0.5089820359281437,
+    "diff_hi": 0.7125748502994012,
+    "ortho-opus_median": 4,
+    "claude-free_median": 3,
+    "p_holm": 1.965967758159199e-17
+   },
+   "ortho-opus vs gemini": {
+    "n": 167,
+    "p": 1.2547681159155197e-22,
+    "diff": 1.0778443113772456,
+    "diff_lo": 0.9461077844311377,
+    "diff_hi": 1.2095808383233533,
+    "ortho-opus_median": 4,
+    "gemini_median": 3,
+    "p_holm": 7.528608695493118e-22
+   },
+   "chatgpt vs claude-free": {
+    "n": 167,
+    "p": 5.984394272167472e-07,
+    "diff": -0.39520958083832314,
+    "diff_lo": -0.5389221556886228,
+    "diff_hi": -0.25149700598802394,
+    "chatgpt_median": 3,
+    "claude-free_median": 3,
+    "p_holm": 1.1968788544334944e-06
+   },
+   "chatgpt vs gemini": {
+    "n": 167,
+    "p": 0.40254981918754607,
+    "diff": 0.07185628742514982,
+    "diff_lo": -0.11377245508982035,
+    "diff_hi": 0.25748502994011974,
+    "chatgpt_median": 3,
+    "gemini_median": 3,
+    "p_holm": 0.40254981918754607
+   },
+   "claude-free vs gemini": {
+    "n": 167,
+    "p": 1.904144370292907e-09,
+    "diff": 0.46706586826347296,
+    "diff_lo": 0.33532934131736525,
+    "diff_hi": 0.6047904191616766,
+    "claude-free_median": 3,
+    "gemini_median": 3,
+    "p_holm": 5.712433110878721e-09
+   }
+  }
+ },
+ "effort_tests": {
+  "searches": {
+   "friedman": {
+    "n": 167,
+    "k": 3,
+    "chi2": 213.923780487805,
+    "df": 2,
+    "p": 3.5240437639245883e-47
+   },
+   "pairwise": {
+    "chatgpt vs claude-free": {
+     "n": 167,
+     "p": 1.6938971770035797e-08,
+     "diff": -6.119760479041915,
+     "diff_lo": -8.107784431137725,
+     "diff_hi": -4.221556886227545,
+     "chatgpt_median": 12,
+     "claude-free_median": 17,
+     "p_holm": 1.6938971770035797e-08
+    },
+    "chatgpt vs gemini": {
+     "n": 167,
+     "p": 1.8510329948715734e-27,
+     "diff": -39.634730538922156,
+     "diff_lo": -44.31137724550898,
+     "diff_hi": -34.9940119760479,
+     "chatgpt_median": 12,
+     "gemini_median": 46,
+     "p_holm": 3.702065989743147e-27
+    },
+    "claude-free vs gemini": {
+     "n": 167,
+     "p": 2.1376710616121938e-28,
+     "diff": -33.51497005988024,
+     "diff_lo": -37.395209580838326,
+     "diff_hi": -29.664670658682635,
+     "claude-free_median": 17,
+     "gemini_median": 46,
+     "p_holm": 6.413013184836581e-28
+    }
+   }
+  },
+  "fetches": {
+   "friedman": {
+    "n": 167,
+    "k": 3,
+    "chi2": 91.23101777059799,
+    "df": 2,
+    "p": 1.5468072604347025e-20
+   },
+   "pairwise": {
+    "chatgpt vs claude-free": {
+     "n": 167,
+     "p": 4.832307735143488e-12,
+     "diff": -3.4191616766467066,
+     "diff_lo": -4.311377245508982,
+     "diff_hi": -2.5748502994011977,
+     "chatgpt_median": 5,
+     "claude-free_median": 8,
+     "p_holm": 9.664615470286977e-12
+    },
+    "chatgpt vs gemini": {
+     "n": 167,
+     "p": 3.205932041497595e-06,
+     "diff": 1.065868263473054,
+     "diff_lo": 0.6047904191616766,
+     "diff_hi": 1.5089820359281436,
+     "chatgpt_median": 5,
+     "gemini_median": 4,
+     "p_holm": 3.205932041497595e-06
+    },
+    "claude-free vs gemini": {
+     "n": 167,
+     "p": 3.8478527091954494e-19,
+     "diff": 4.485029940119761,
+     "diff_lo": 3.7005988023952097,
+     "diff_hi": 5.317365269461078,
+     "claude-free_median": 8,
+     "gemini_median": 4,
+     "p_holm": 1.1543558127586348e-18
+    }
+   }
+  }
+ },
+ "subgroup_tests": {
+  "ortho-opus": {
+   "identification_by_stratum": {
+    "test": "none",
+    "p": 1.0,
+    "table": {
+     "in_library": [
+      120,
+      0
+     ],
+     "vendor_held": [
+      12,
+      0
+     ],
+     "no_policy": [
+      35,
+      0
+     ]
+    },
+    "p_holm": 1.0
+   },
+   "identification_by_plan_type": {
+    "test": "none",
+    "p": 1.0,
+    "table": {
+     "Commercial/ACA": [
+      152,
+      0
+     ],
+     "Medicaid": [
+      15,
+      0
+     ]
+    },
+    "p_holm": 1.0
+   },
+   "grounded_by_denial_reason": {
+    "test": "chi-square",
+    "chi2": 2.8950935212794797,
+    "df": 3,
+    "p": 0.4080840969496917,
+    "table": {
+     "conservative_care": [
+      30,
+      1
+     ],
+     "imaging": [
+      30,
+      0
+     ],
+     "incomplete_documentation": [
+      30,
+      0
+     ],
+     "not_medically_necessary": [
+      29,
+      0
+     ]
+    },
+    "p_holm": 0.9333019483220069
+   }
+  },
+  "chatgpt": {
+   "identification_by_stratum": {
+    "test": "chi-square",
+    "chi2": 29.496956424079062,
+    "df": 2,
+    "p": 3.9338454713918993e-07,
+    "table": {
+     "in_library": [
+      61,
+      59
+     ],
+     "vendor_held": [
+      11,
+      1
+     ],
+     "no_policy": [
+      34,
+      1
+     ]
+    },
+    "p_holm": 1.18015364141757e-06
+   },
+   "identification_by_plan_type": {
+    "test": "Fisher exact",
+    "p": 0.0011671745677549064,
+    "table": {
+     "Commercial/ACA": [
+      91,
+      61
+     ],
+     "Medicaid": [
+      15,
+      0
+     ]
+    },
+    "p_holm": 0.0035015237032647193
+   },
+   "grounded_by_denial_reason": {
+    "test": "chi-square",
+    "chi2": 1.6939315288592263,
+    "df": 3,
+    "p": 0.6382837975404847,
+    "table": {
+     "conservative_care": [
+      6,
+      25
+     ],
+     "imaging": [
+      7,
+      23
+     ],
+     "incomplete_documentation": [
+      10,
+      20
+     ],
+     "not_medically_necessary": [
+      7,
+      22
+     ]
+    },
+    "p_holm": 0.9333019483220069
+   }
+  },
+  "claude-free": {
+   "identification_by_stratum": {
+    "test": "chi-square",
+    "chi2": 1.8196856890904511,
+    "df": 2,
+    "p": 0.402587487882121,
+    "table": {
+     "in_library": [
+      102,
+      18
+     ],
+     "vendor_held": [
+      11,
+      1
+     ],
+     "no_policy": [
+      27,
+      8
+     ]
+    },
+    "p_holm": 0.805174975764242
+   },
+   "identification_by_plan_type": {
+    "test": "Fisher exact",
+    "p": 0.7127479511224335,
+    "table": {
+     "Commercial/ACA": [
+      128,
+      24
+     ],
+     "Medicaid": [
+      12,
+      3
+     ]
+    },
+    "p_holm": 1.0
+   },
+   "grounded_by_denial_reason": {
+    "test": "chi-square",
+    "chi2": 4.85289210233593,
+    "df": 3,
+    "p": 0.18289152002699163,
+    "table": {
+     "conservative_care": [
+      22,
+      9
+     ],
+     "imaging": [
+      17,
+      13
+     ],
+     "incomplete_documentation": [
+      24,
+      6
+     ],
+     "not_medically_necessary": [
+      17,
+      12
+     ]
+    },
+    "p_holm": 0.7315660801079665
+   }
+  },
+  "gemini": {
+   "identification_by_stratum": {
+    "test": "chi-square",
+    "chi2": 42.590941434044886,
+    "df": 2,
+    "p": 5.642798965673736e-10,
+    "table": {
+     "in_library": [
+      110,
+      10
+     ],
+     "vendor_held": [
+      12,
+      0
+     ],
+     "no_policy": [
+      16,
+      19
+     ]
+    },
+    "p_holm": 2.2571195862694942e-09
+   },
+   "identification_by_plan_type": {
+    "test": "Fisher exact",
+    "p": 9.451055064027258e-06,
+    "table": {
+     "Commercial/ACA": [
+      133,
+      19
+     ],
+     "Medicaid": [
+      5,
+      10
+     ]
+    },
+    "p_holm": 3.780422025610903e-05
+   },
+   "grounded_by_denial_reason": {
+    "test": "chi-square",
+    "chi2": 3.5755046149878327,
+    "df": 3,
+    "p": 0.31110064944066895,
+    "table": {
+     "conservative_care": [
+      29,
+      2
+     ],
+     "imaging": [
+      25,
+      5
+     ],
+     "incomplete_documentation": [
+      29,
+      1
+     ],
+     "not_medically_necessary": [
+      26,
+      3
+     ]
+    },
+    "p_holm": 0.9333019483220069
+   }
   }
  }
 }
