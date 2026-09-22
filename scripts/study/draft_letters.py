@@ -202,6 +202,9 @@ def main() -> int:
                          "For a smoke test before the full batch -- --limit takes "
                          "the first N in key order, which can land on one arm.")
     ap.add_argument("--resume", action="store_true")
+    ap.add_argument("--stale", action="store_true",
+                    help="only letters drafted before the 2026-09-22 product fix "
+                         "(no 'audit' record on the letter); for batched redrafting")
     ap.add_argument("--workers", type=int, default=1,
                     help="letters to draft at once (default 1).")
     a = ap.parse_args()
@@ -212,6 +215,13 @@ def main() -> int:
     key = json.loads((STUDY / "unblinding.json").read_text())
 
     todo = _pending(key, systems, a.resume)
+    if a.stale:
+        def _old(rid):
+            try:
+                return "audit" not in json.loads((RUNS / rid / "letter.json").read_text())
+            except (OSError, ValueError):
+                return True
+        todo = [r for r in todo if _old(r)]
     if a.cases:
         want = {c.strip() for c in a.cases.split(",") if c.strip()}
         unknown = want - set(cases)
