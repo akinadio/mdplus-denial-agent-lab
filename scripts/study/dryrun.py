@@ -503,6 +503,18 @@ def stage_letters(cases, gold):
           str({k: _out.get(k) for k in ("unsourced_requirements_before", "unsourced_requirements_after")}))
     check("NO RULE FROM MEMORY" in _ts.asks[0] and "ONLY policy text you have" in _ts.asks[0],
           "the writer is told not to state thresholds it was not given")
+    # a revision that comes back truncated is rejected, the draft is kept, and the reason is recorded
+    class _ShortRevision(_TwoStep):
+        def create(self, **kw):
+            r = super().create(**kw)
+            if self.calls == 3:   # the revision request: answer with a truncated letter
+                r.content[0].text = "Dear Plan,\n\nSincerely"
+            return r
+    _sr = _ShortRevision()
+    _o2 = generate_appeal_letter(shaped_g, client=_sr, sender="patient", patient_submission="16 weeks of therapy completed")
+    check(_o2.get("revised_for_unsourced") == 0 and str(_o2.get("revision_note", "")).startswith("rejected")
+          and "90 degrees" in _o2["letter_markdown"],
+          "a rejected revision keeps the draft and records why", str(_o2.get("revision_note")))
     _one = _StubAnthropic("Dear Plan,\n\nThe policy states: \"" + found[0] + "\"\n\nSincerely")
     generate_appeal_letter(shaped_g, client=_one, sender="patient")
     check(_one.seen_prompt.count("Revise the letter") == 0, "a clean letter is not sent for revision")

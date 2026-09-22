@@ -547,7 +547,7 @@ def generate_appeal_letter(
     audit_meta = {k: a_usage.get(k) for k in ("audit_raw", "audit_parsed", "audit_named")}
     flagged = [f["sentence"] for f in chk["flagged"]] + [j for j in judged if j not in
                                                           {f["sentence"] for f in chk["flagged"]}]
-    revised = 0
+    revised, revision_note = 0, ""
     if flagged:
         ask = ("Revise the letter below. These sentences present something as the plan's "
                "rule, requirement, threshold or list item that appears in none of the "
@@ -568,10 +568,14 @@ def generate_appeal_letter(
                 usage["input_tokens"] += getattr(u2, "input_tokens", 0) or 0
                 usage["output_tokens"] += getattr(u2, "output_tokens", 0) or 0
             new = "".join(b.text for b in r2.content if getattr(b, "type", None) == "text").strip()
-            if len(new) > 0.5 * len(letter) and getattr(r2, "stop_reason", None) != "max_tokens":
+            if getattr(r2, "stop_reason", None) == "max_tokens":
+                revision_note = "rejected: revision hit the output cap"
+            elif len(new) <= 0.5 * len(letter):
+                revision_note = f"rejected: revision too short ({len(new)} vs {len(letter)} chars)"
+            else:
                 letter, revised = new, 1
-        except Exception:  # noqa: BLE001 - keep the first draft, report it unrevised
-            pass
+        except Exception as exc:  # noqa: BLE001 - keep the first draft, report it unrevised
+            revision_note = f"failed: {type(exc).__name__}: {str(exc)[:200]}"
     after = unsourced_requirements(letter, excerpts, facts)
     return {
         "unsourced_requirements_before": len(flagged),
@@ -581,6 +585,7 @@ def generate_appeal_letter(
         "unsourced_requirements_after": after["count"],
         "unsourced_flagged": [f["sentence"][:200] for f in after["flagged"]][:5],
         "revised_for_unsourced": revised,
+        "revision_note": revision_note,   # why a flagged draft was not revised, if it was not
         "letter_markdown": letter,
         "model": model,
         "sender": sender,

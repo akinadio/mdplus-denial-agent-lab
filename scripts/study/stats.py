@@ -24,6 +24,19 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 S = ROOT / "study"
 ARMS = ["ortho-opus", "chatgpt", "claude-free", "gemini"]
+sys.path.insert(0, str(ROOT))
+from scripts.study.equivalence import _family  # noqa: E402
+
+
+def _docs_by_family(cases, gold):
+    out = {}
+    for c in cases:
+        if cases[c]["stratum"] != "in_library":
+            continue
+        g = gold[c]
+        fam = _family(g["policy_url"], g.get("policy_title", ""), "", g.get("vendor", "")) or "insurer's own"
+        out.setdefault(fam, set()).add(g["policy_url"])
+    return out
 LABEL = {"ortho-opus": "OrthoAppeals", "chatgpt": "ChatGPT", "claude-free": "Claude", "gemini": "Gemini"}
 STRATA = [("in_library", "A: criteria published"), ("vendor_held", "B: criteria held by a vendor"),
           ("no_policy", "C: no policy published")]
@@ -93,8 +106,12 @@ def main() -> int:
         "denial_reason": dict(collections.Counter(c["denial_reason"] for c in cases.values())),
         "surgery": dict(collections.Counter(f"{c['surgery']} ({c['cpt']})" for c in cases.values())),
         "policy_documents_A": len({gold[c]["policy_url"] for c in cases if cases[c]["stratum"] == "in_library"}),
+        # Publisher family of each stratum-A governing document, by the same rule the
+        # scorer uses (URL, title and the directory's vendor note); "" = insurer's own.
         "publishers_A": dict(collections.Counter(
-            gold[c].get("vendor") or "insurer's own" for c in cases if cases[c]["stratum"] == "in_library")),
+            _family(gold[c]["policy_url"], gold[c].get("policy_title", ""), "", gold[c].get("vendor", ""))
+            or "insurer's own" for c in cases if cases[c]["stratum"] == "in_library")),
+        "publisher_documents_A": {fam: len(urls) for fam, urls in sorted(_docs_by_family(cases, gold).items())},
     }
     out["table1"] = t1
 
@@ -131,6 +148,19 @@ def main() -> int:
         for i, a in enumerate(ARMS[1:]):
             for b in ARMS[2 + i:]:
                 cmp[s][f"{a} vs {b}"] = paired(corr, ids, a, b)
+    # Holm-Bonferroni within each family of comparisons (the six pairwise
+    # tests on one stratum; the three chatbot-vs-OrthoAppeals tests on one
+    # letter outcome), as in Vishwanath et al., Nat Med 2026.
+    def holm(d: dict):
+        items = sorted(d.items(), key=lambda kv: kv[1]["p"])
+        m = len(items)
+        running = 0.0
+        for i, (k, v) in enumerate(items):
+            adj = min(1.0, (m - i) * v["p"])
+            running = max(running, adj)
+            v["p_holm"] = running
+    for s in cmp:
+        holm(cmp[s])
     out["identification_paired"] = cmp
 
     # ---- letters -------------------------------------------------------------
@@ -166,6 +196,7 @@ def main() -> int:
             letters[name]["arms"][a] = {"k": k, "n": len(vals), "p": p, "lo": lo, "hi": hi}
         for a in ARMS[1:]:
             letters[name]["paired"][f"ortho-opus vs {a}"] = paired(fn, ids, "ortho-opus", a)
+        holm(letters[name]["paired"])
     # completeness (0-4), judged
     comp = {}
     for a in ARMS:
@@ -188,6 +219,8 @@ def main() -> int:
         rev["letters"] += 1
         rev["flagged_before"] += int(bool(L.get("unsourced_requirements_before")))
         rev["revised"] += int(bool(L.get("revised_for_unsourced")))
+        if L.get("unsourced_requirements_before") and not L.get("revised_for_unsourced"):
+            rev["flagged_not_revised"] += 1   # revision request failed or was rejected (letter kept as drafted)
         ex = (L.get("evidence") or {}).get("quotes") or []
         facts = [cases[c]["letter_text"], cases[c]["chart_summary"]]
         after = unsourced_requirements(L["letter_markdown"], ex, facts)["count"]
