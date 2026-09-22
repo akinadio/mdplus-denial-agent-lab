@@ -527,6 +527,16 @@ def stage_letters(cases, gold):
         _gl.RUNS = _keep_runs
         _sh2.rmtree(_tmp_ev, ignore_errors=True)
 
+    # A quote that IS a reviewed criterion is a rule whatever its wording, and
+    # its reviewed topic decides whether it answers the denial.
+    _kn = {"radiographic evidence of moderate severe osteoarthritis kellgren lawrence grade 3 or 4": "imaging",
+           "supervised physical therapy adls diminished despite completing a plan of care": "conservative_care"}
+    _rq = ["Radiographic evidence of moderate/severe osteoarthritis (Kellgren-Lawrence Grade 3 or 4)"]
+    check(classify(_rq[0]) != "rule" and assess(_rq, "imaging", "27447", _kn)["grounded"],
+          "a reviewed criterion with no cue word still grounds the denial it answers")
+    check(not assess(_rq, "conservative_care", "27447", _kn)["grounded"],
+          "...but not a denial on a different point")
+
     # A library hit must still verify: the library keeps quotes, the cache keeps
     # the text, and without the text every library hit read as unreadable.
     lib_path = PT.LIBRARY

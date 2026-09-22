@@ -150,13 +150,36 @@ def _prompt(case, gold, letter, packet=""):
             "Return the JSON now.")
 
 
+_SECTION_MAP = None
+
+
+def _known_criteria(url: str, cpt: str) -> dict:
+    """Reviewed criteria for this document and operation, normalised -> topic."""
+    global _SECTION_MAP
+    if _SECTION_MAP is None:
+        try:
+            _SECTION_MAP = json.loads((ROOT / "data" / "policy_platform" /
+                                       "section_criteria.json").read_text())
+        except (OSError, ValueError):
+            _SECTION_MAP = {}
+    from synthetic_harness.quote_relevance import _norm_key
+    hit = _SECTION_MAP.get(f"{(url or '').strip()}||{cpt}") or {}
+    return {_norm_key(c["text"]): c.get("topic", "other") for c in hit.get("criteria") or []
+            if _norm_key(c["text"])}
+
+
 def _with_cited(rid, g: dict) -> dict:
     """The answer key plus the URL this run actually cited, for quote checks."""
     try:
         a = json.loads((RUNS / rid / "result.json").read_text()).get("answer") or {}
     except (OSError, ValueError):
         a = {}
-    return dict(g, _cited_url=(a.get("policy_url") or "").strip())
+    try:
+        src = json.loads((RUNS / rid / "result.json").read_text()).get("source") or ""
+    except (OSError, ValueError):
+        src = ""
+    handed = (a.get("effective_date") or "") if str(src).startswith("policy_directory") else ""
+    return dict(g, _cited_url=(a.get("policy_url") or "").strip(), _handed_effective_date=handed)
 
 
 def mechanical(letter: str, case: dict, g: dict) -> dict:
@@ -225,7 +248,11 @@ def mechanical(letter: str, case: dict, g: dict) -> dict:
     _chart = case.get("chart_summary", "")
     _send = sendability(L, _notice)
     _doc = (_ptext(g.get("policy_url", "")).get("text") or "") if g.get("policy_url") else ""
-    _inv = invented_identifiers(L, _doc, [_notice, _chart],
+    # What the product's directory handed the writer (effective date) is a
+    # source: it is data the product ships alongside the URL, not something
+    # the writer made up. A chatbot's own stated date is its own claim.
+    _handed = [g.get("_handed_effective_date") or ""]
+    _inv = invented_identifiers(L, _doc, [_notice, _chart] + _handed,
                                 g.get("policy_url", ""), g.get("policy_title", ""))
     out = {"quotes": q, "quote_not_in_policy": bool(q["not_in_policy"]),
            "quote_not_in_governing_policy": bool(quote_check(
@@ -257,7 +284,8 @@ def mechanical(letter: str, case: dict, g: dict) -> dict:
         # was the only thing quoted.
         _notice = case.get("letter_text", "")
         _from_policy = [x for x in quoted_passages(L) if not in_text(x, _notice)]
-        rel = assess(_from_policy, case.get("denial_reason", ""), case.get("cpt", ""))
+        rel = assess(_from_policy, case.get("denial_reason", ""), case.get("cpt", ""),
+                     known=_known_criteria(g.get("policy_url", ""), case.get("cpt", "")))
         # Naming what you are appealing -- "the denial states X" -- is normal
         # letter structure and not a defect. The defect is quoting the denial
         # INSTEAD of the policy. Reading the letters settled this: Ambetter /

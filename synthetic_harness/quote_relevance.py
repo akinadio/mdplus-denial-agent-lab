@@ -323,20 +323,67 @@ def _looks_like_code_table(q: str) -> bool:
     return bool(re.search(r"(\b\d{5}\b[,;\s]+){3,}", q))
 
 
-def on_point(quote: str, denial_reason: str, cpt: str = "") -> bool:
+# The section map's topic labels, by denial reason. A criterion the reviewed
+# map filed under "imaging" answers an imaging denial whatever words it uses.
+_TOPIC_ANSWERS = {
+    "conservative_care": {"conservative_care"},
+    "imaging": {"imaging"},
+    "incomplete_documentation": {"documentation"},
+}
+
+
+def _norm_key(q: str) -> str:
+    return re.sub(r"[^a-z0-9]+", " ", (q or "").lower()).strip()[:80]
+
+
+def known_criteria(known: dict | None, quote: str) -> str | None:
+    """The reviewed topic of this quote, when it is (or contains, or is
+    contained in) a criterion from the section map for this case."""
+    if not known:
+        return None
+    k = _norm_key(quote)
+    if not k or len(k) < 25:
+        return None
+    if k in known:
+        return known[k]
+    for kk, topic in known.items():
+        if k in kk or kk in k:
+            return topic
+    return None
+
+
+def on_point(quote: str, denial_reason: str, cpt: str = "", known: dict | None = None) -> bool:
     """A rule that answers the reason THIS claim was denied.
 
     A denial that names a specific deficiency has to be answered on that point.
     A denial that names nothing in particular is answered by the criteria
     themselves. See SPECIFIC_DEFICIENCY. A rule for a different operation
     answers nothing, however well it matches the topic.
+
+    `known` maps normalised criteria from the reviewed section map (see
+    build_section_criteria.py) to their topic. A quote that IS one of those
+    criteria is a rule by definition -- "Radiographic evidence of moderate/
+    severe osteoarthritis (Kellgren-Lawrence Grade 3 or 4)" has no cue word and
+    read as "other" until 2026-09-22 -- and its reviewed topic decides whether
+    it answers the denial.
     """
+    topic = known_criteria(known, quote)
+    if topic is not None:
+        if cpt and other_procedure(quote, cpt):
+            return False
+        if denial_reason not in SPECIFIC_DEFICIENCY:
+            return True
+        return topic in _TOPIC_ANSWERS.get(denial_reason, set()) or _reason_terms_hit(quote, denial_reason)
     if classify(quote) != "rule":
         return False
     if cpt and other_procedure(quote, cpt):
         return False
     if denial_reason not in SPECIFIC_DEFICIENCY:
         return True
+    return _reason_terms_hit(quote, denial_reason)
+
+
+def _reason_terms_hit(quote: str, denial_reason: str) -> bool:
     terms = REASON_TERMS.get(denial_reason or "", [])
     if not terms:
         return True
@@ -344,15 +391,15 @@ def on_point(quote: str, denial_reason: str, cpt: str = "") -> bool:
     return any(t in low for t in terms)
 
 
-def assess(quotes: list[str], denial_reason: str, cpt: str = "") -> dict:
+def assess(quotes: list[str], denial_reason: str, cpt: str = "", known: dict | None = None) -> dict:
     """Score a letter's quotations.
 
     `grounded` is the endpoint: at least one quotation that is a rule, bears on
     the denial reason, and is not the exclusion. A letter with no quotations is
     not grounded -- quoting nothing is a failure, not a neutral result.
     """
-    kinds = [classify(q) for q in quotes]
-    points = [on_point(q, denial_reason, cpt) for q in quotes]
+    kinds = ["rule" if known_criteria(known, q) is not None else classify(q) for q in quotes]
+    points = [on_point(q, denial_reason, cpt, known) for q in quotes]
     return {
         "n_other_procedure": sum(1 for q in quotes if cpt and other_procedure(q, cpt)),
         "n_quotes": len(quotes),
