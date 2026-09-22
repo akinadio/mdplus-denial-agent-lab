@@ -248,15 +248,25 @@ def run_ortho(case, model):
         }, "source": "policy_directory_vendor_held", "route": r, "model": model}
 
     r = _access_route(case["payer"], (row or {}).get("note", ""), access)
+    how = (r.get("how") or
+           "This plan does not publish criteria for this procedure. Ask the "
+           "plan in writing for the exact criteria used in your denial.")
+    if row and row["status"].startswith("UM POLICY ONLY") and row["policy_url"].strip():
+        # The plan publishes no policy for this procedure. Its general
+        # utilization-management policy says which vendor's criteria are
+        # applied -- worth pointing to for the request, never presented as a
+        # policy that "governs your procedure code" (it does not mention it).
+        how = (f"Your plan publishes no policy for this procedure. Its utilization "
+               f"management policy ({row['policy_title']}, {row['policy_url']}) states "
+               f"which clinical criteria it applies. Ask the plan in writing for the "
+               f"exact criteria used in your denial. " + how)
     return {"answer": {
         "policy_found": False,
         "policy_title": "", "policy_number": "", "policy_url": "",
         "effective_date": "", "criteria_quotes": [],
         "appeal_deadline": case["appeal_deadline"],
         "submission_route": _route_for(case),
-        "how_to_obtain_criteria": (r.get("how") or
-            "This plan does not publish criteria for this procedure. Ask the "
-            "plan in writing for the exact criteria used in your denial."),
+        "how_to_obtain_criteria": how,
         "confidence": "high",
         "notes": "no public criteria on file; abstained and routed",
     }, "source": "abstention_route", "route": r, "model": model}

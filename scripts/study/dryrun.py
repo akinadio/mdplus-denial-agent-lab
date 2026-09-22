@@ -551,6 +551,21 @@ def stage_letters(cases, gold):
     check(_inv2("effective March 3, 2024", "", [], "https://x/p.pdf", "t")["any_invented"],
           "...while a date in no source still is")
 
+    # A plan with no procedure policy but a general UM policy naming its
+    # criteria vendor: citing that UM policy is the honest answer, not a
+    # hallucinated document; naming some other document still is.
+    import score as _scm
+    _gC = {"stratum": "no_policy", "cpt": "29881", "policy_url": "",
+           "generic_um_url": "https://plan.example/um-policy-115.pdf", "generic_um_title": "UM Criteria"}
+    _okC = {"policy_found": False, "policy_url": "https://plan.example/um-policy-115.pdf",
+            "how_to_obtain_criteria": "ask the plan in writing for the InterQual criteria"}
+    _badC = {"policy_found": True, "policy_url": "https://www1.radmd.com/x/Evolent-MSK.pdf",
+             "how_to_obtain_criteria": "see guideline"}
+    check(_scm.score(_okC, _gC)["outcome"] == "correct",
+          "stratum C: citing the plan's general UM policy with a route is correct")
+    check(_scm.score(_badC, _gC)["outcome"] == "hallucinated_document",
+          "stratum C: naming another document is still a hallucination")
+
     # A library hit must still verify: the library keeps quotes, the cache keeps
     # the text, and without the text every library hit read as unreadable.
     lib_path = PT.LIBRARY

@@ -10,12 +10,20 @@
    "payer": "Ambetter (WellCare)",
    "cpt": "63030",
    "directory_status": "VERIFIED",
-   "directory_note": "Criteria section addresses open discectomy/microdiscectomy for radiculopathy. Caveat: coding table lists 62287 (percutaneous) as supporting coverage and does not enumerate 63030. S",
+   "directory_note": "2026-09-22 answer-key audit: Evolent MSK guideline accepted as alternate (NIA-delegated review). Criteria section addresses open discectomy/microdiscectomy for radiculopathy. Caveat: coding table lists 62287 (percutaneous) as supporting coverage and does not enumerate 63030. S",
    "correct_behavior": "cite_document",
    "vendor": "",
    "policy_title": "Clinical Policy: Disc Decompression Procedures (CP.MP.114)",
    "policy_url": "https://www.ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf",
-   "effective_date": "Date of Last Revision: 04/25"
+   "effective_date": "Date of Last Revision: 04/25",
+   "accepted_alternates": [
+    {
+     "policy_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+     "policy_title": "2026 Evolent Clinical Guidelines - Musculoskeletal Surgery",
+     "vendor": "Evolent",
+     "why": "NIA/Evolent manages lumbar spine surgery review for this plan (plan's own notice)"
+    }
+   ]
   },
   {
    "case_id": "poc-a5f6d22435",
@@ -322,12 +330,20 @@
    "payer": "Ambetter",
    "cpt": "63030",
    "directory_status": "VERIFIED",
-   "directory_note": "Criteria section addresses open discectomy/microdiscectomy for radiculopathy. Caveat: coding table lists 62287 (percutaneous) as supporting coverage and does not enumerate 63030. S",
+   "directory_note": "2026-09-22 answer-key audit: Evolent MSK guideline accepted as alternate (NIA-delegated review). Criteria section addresses open discectomy/microdiscectomy for radiculopathy. Caveat: coding table lists 62287 (percutaneous) as supporting coverage and does not enumerate 63030. S",
    "correct_behavior": "cite_document",
    "vendor": "",
    "policy_title": "Clinical Policy: Disc Decompression Procedures (CP.MP.114)",
    "policy_url": "https://www.ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf",
-   "effective_date": "Date of Last Revision: 04/25"
+   "effective_date": "Date of Last Revision: 04/25",
+   "accepted_alternates": [
+    {
+     "policy_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+     "policy_title": "2026 Evolent Clinical Guidelines - Musculoskeletal Surgery",
+     "vendor": "Evolent",
+     "why": "NIA/Evolent manages lumbar spine surgery review for this plan (plan's own notice)"
+    }
+   ]
   },
   {
    "case_id": "poc-1c51e72e1e",
@@ -527,17 +543,20 @@
   },
   {
    "case_id": "poc-9297e0e467",
-   "stratum": "vendor_held",
+   "stratum": "no_policy",
    "state": "Maryland",
    "payer": "MedStar Family Choice",
    "cpt": "28296",
-   "directory_status": "DOCUMENT PUBLIC, CRITERIA VENDOR-HELD",
-   "directory_note": "2026-09-04 pilot fix: promoted from NO PUBLIC CRITERIA (vendor). The payer's own policy is public and names this code; criteria are vendor-held, so cite the document and route for the criteria. 2026-08-26 south payer library walk. policy 115. vendor: InterQual. Complete 32-policy index walked: no ortho surgical policy. Policy 115 (July 2026) names InterQual and states 'All criteria utilized in utilization management are available upon request.'. confidence: high",
-   "correct_behavior": "cite_and_route",
+   "directory_status": "UM POLICY ONLY (vendor criteria; no procedure-specific policy)",
+   "directory_note": "2026-09-22 answer-key audit: the document does not name the procedure; it is the plan's general UM policy naming the criteria vendor. 2026-09-04 pilot fix: promoted from NO PUBLIC CRITERIA (vendor). The payer's own policy is public and names this code; criteria are vendor-held, so cite the document and route for the criteria. 2026-08-26 south payer library walk. policy 115. vendor: InterQual. Complete 32-policy index walked: no ortho surgical policy. Policy 115 (July 2026) names InterQual and states 'All criteria utilized in utilization management are available upon request.'. confidence: high",
+   "correct_behavior": "abstain_and_route",
    "vendor": "InterQual",
-   "policy_title": "Utilization Management (UM) Criteria",
-   "policy_url": "https://www.medstarfamilychoicemd.com/-/media/project/mho/mfc/maryland-healthchoice-physicians/medical-policies-and-procedures/policy-115-utilization-management-um-criteria-july-2026.pdf",
-   "effective_date": "July 2026"
+   "policy_title": "",
+   "policy_url": "",
+   "effective_date": "July 2026",
+   "generic_um_url": "https://www.medstarfamilychoicemd.com/-/media/project/mho/mfc/maryland-healthchoice-physicians/medical-policies-and-procedures/policy-115-utilization-management-um-criteria-july-2026.pdf",
+   "generic_um_title": "Utilization Management (UM) Criteria",
+   "stratum_before_2026_09_22": "vendor_held"
   },
   {
    "case_id": "poc-3469abe4fc",
@@ -555,17 +574,20 @@
   },
   {
    "case_id": "poc-92d596c7f2",
-   "stratum": "vendor_held",
+   "stratum": "no_policy",
    "state": "District of Columbia",
    "payer": "MedStar Family Choice DC",
    "cpt": "63030",
-   "directory_status": "DOCUMENT PUBLIC, CRITERIA VENDOR-HELD",
-   "directory_note": "2026-09-04 pilot fix: promoted from NO PUBLIC CRITERIA (vendor). The payer's own policy is public and names this code; criteria are vendor-held, so cite the document and route for the criteria. 2026-08-26 south payer library walk. policy 115.DC. vendor: InterQual (ASAM for substance use). Complete 22-policy index walked: no arthroplasty, arthroscopy, fusion or discectomy policy (closest: 1425.DC Back Brace, 2000 Viscosupplementation). Policy 115.DC names InterQual as the criteria source.. confidence: high",
-   "correct_behavior": "cite_and_route",
+   "directory_status": "UM POLICY ONLY (vendor criteria; no procedure-specific policy)",
+   "directory_note": "2026-09-22 answer-key audit: the document does not name the procedure; it is the plan's general UM policy naming the criteria vendor. 2026-09-04 pilot fix: promoted from NO PUBLIC CRITERIA (vendor). The payer's own policy is public and names this code; criteria are vendor-held, so cite the document and route for the criteria. 2026-08-26 south payer library walk. policy 115.DC. vendor: InterQual (ASAM for substance use). Complete 22-policy index walked: no arthroplasty, arthroscopy, fusion or discectomy policy (closest: 1425.DC Back Brace, 2000 Viscosupplementation). Policy 115.DC names InterQual as the criteria source.. confidence: high",
+   "correct_behavior": "abstain_and_route",
    "vendor": "InterQual",
-   "policy_title": "Utilization Management Criteria",
-   "policy_url": "https://www.medstarfamilychoicedc.com/-/media/project/mho/mfcdc/medical-policies-and-procedures/policy-115dc_utilization-management-criteria.pdf",
-   "effective_date": ""
+   "policy_title": "",
+   "policy_url": "",
+   "effective_date": "",
+   "generic_um_url": "https://www.medstarfamilychoicedc.com/-/media/project/mho/mfcdc/medical-policies-and-procedures/policy-115dc_utilization-management-criteria.pdf",
+   "generic_um_title": "Utilization Management Criteria",
+   "stratum_before_2026_09_22": "vendor_held"
   },
   {
    "case_id": "poc-cd6af51965",
@@ -583,17 +605,20 @@
   },
   {
    "case_id": "poc-0948c5760b",
-   "stratum": "vendor_held",
+   "stratum": "no_policy",
    "state": "District of Columbia",
    "payer": "MedStar Family Choice DC",
    "cpt": "29881",
-   "directory_status": "DOCUMENT PUBLIC, CRITERIA VENDOR-HELD",
-   "directory_note": "2026-09-04 pilot fix: promoted from NO PUBLIC CRITERIA (vendor). The payer's own policy is public and names this code; criteria are vendor-held, so cite the document and route for the criteria. 2026-08-26 south payer library walk. policy 115.DC. vendor: InterQual (ASAM for substance use). Complete 22-policy index walked: no arthroplasty, arthroscopy, fusion or discectomy policy (closest: 1425.DC Back Brace, 2000 Viscosupplementation). Policy 115.DC names InterQual as the criteria source.. confidence: high",
-   "correct_behavior": "cite_and_route",
+   "directory_status": "UM POLICY ONLY (vendor criteria; no procedure-specific policy)",
+   "directory_note": "2026-09-22 answer-key audit: the document does not name the procedure; it is the plan's general UM policy naming the criteria vendor. 2026-09-04 pilot fix: promoted from NO PUBLIC CRITERIA (vendor). The payer's own policy is public and names this code; criteria are vendor-held, so cite the document and route for the criteria. 2026-08-26 south payer library walk. policy 115.DC. vendor: InterQual (ASAM for substance use). Complete 22-policy index walked: no arthroplasty, arthroscopy, fusion or discectomy policy (closest: 1425.DC Back Brace, 2000 Viscosupplementation). Policy 115.DC names InterQual as the criteria source.. confidence: high",
+   "correct_behavior": "abstain_and_route",
    "vendor": "InterQual",
-   "policy_title": "Utilization Management Criteria",
-   "policy_url": "https://www.medstarfamilychoicedc.com/-/media/project/mho/mfcdc/medical-policies-and-procedures/policy-115dc_utilization-management-criteria.pdf",
-   "effective_date": ""
+   "policy_title": "",
+   "policy_url": "",
+   "effective_date": "",
+   "generic_um_url": "https://www.medstarfamilychoicedc.com/-/media/project/mho/mfcdc/medical-policies-and-procedures/policy-115dc_utilization-management-criteria.pdf",
+   "generic_um_title": "Utilization Management Criteria",
+   "stratum_before_2026_09_22": "vendor_held"
   },
   {
    "case_id": "poc-e6ef62d505",
@@ -611,31 +636,37 @@
   },
   {
    "case_id": "poc-39de00339b",
-   "stratum": "vendor_held",
+   "stratum": "no_policy",
    "state": "Pennsylvania",
    "payer": "UPMC Health Plan",
    "cpt": "29881",
-   "directory_status": "DOCUMENT PUBLIC, CRITERIA VENDOR-HELD",
-   "directory_note": "2026-09-04 pilot fix: promoted from NO PUBLIC CRITERIA (vendor). The payer's own policy is public and names this code; criteria are vendor-held, so cite the document and route for the criteria. 2026-08-25 final gap sweep: UPMC publishes essentially nothing. Chapter G says \"Medical policies outlining items, services, and procedures that require review for prior authorization are available online at upmchealthplan.com/providers\" - but following that leads nowhere: /providers/medical/resources/medical-policies returns 404 and the Policies & Procedures Manual page lists only reimbursement policies. No public PA code list found after checking manual chapters, forms pages, announcements index and domain-restricted search. UPMC's 2023 MSK announcement states procedures \"will be evaluated using corresponding Interqual Connect criteria\" - proprietary.",
-   "correct_behavior": "cite_and_route",
+   "directory_status": "UM POLICY ONLY (vendor criteria; no procedure-specific policy)",
+   "directory_note": "2026-09-22 answer-key audit: the document does not name the procedure; it is the plan's general UM policy naming the criteria vendor. 2026-09-04 pilot fix: promoted from NO PUBLIC CRITERIA (vendor). The payer's own policy is public and names this code; criteria are vendor-held, so cite the document and route for the criteria. 2026-08-25 final gap sweep: UPMC publishes essentially nothing. Chapter G says \"Medical policies outlining items, services, and procedures that require review for prior authorization are available online at upmchealthplan.com/providers\" - but following that leads nowhere: /providers/medical/resources/medical-policies returns 404 and the Policies & Procedures Manual page lists only reimbursement policies. No public PA code list found after checking manual chapters, forms pages, announcements index and domain-restricted search. UPMC's 2023 MSK announcement states procedures \"will be evaluated using corresponding Interqual Connect criteria\" - proprietary.",
+   "correct_behavior": "abstain_and_route",
    "vendor": "InterQual",
-   "policy_title": "UPMC Provider Manual Chapter G - Utilization Management",
-   "policy_url": "https://www.upmchealthplan.com/docs/providers/2025_ProviderManual_G.pdf",
-   "effective_date": "2025-04-03"
+   "policy_title": "",
+   "policy_url": "",
+   "effective_date": "2025-04-03",
+   "generic_um_url": "https://www.upmchealthplan.com/docs/providers/2025_ProviderManual_G.pdf",
+   "generic_um_title": "UPMC Provider Manual Chapter G - Utilization Management",
+   "stratum_before_2026_09_22": "vendor_held"
   },
   {
    "case_id": "poc-5edc35c98d",
-   "stratum": "vendor_held",
+   "stratum": "no_policy",
    "state": "Vermont",
    "payer": "MVP Health Care",
    "cpt": "29881",
-   "directory_status": "DOCUMENT PUBLIC, CRITERIA VENDOR-HELD",
-   "directory_note": "2026-09-04 pilot fix: promoted from NO PUBLIC CRITERIA (vendor). The payer's own policy is public and names this code; criteria are vendor-held, so cite the document and route for the criteria. InterQual per MVP annual notice; no public procedure-specific policy. Vendor: InterQual.",
-   "correct_behavior": "cite_and_route",
+   "directory_status": "UM POLICY ONLY (vendor criteria; no procedure-specific policy)",
+   "directory_note": "2026-09-22 answer-key audit: the document does not name the procedure; it is the plan's general UM policy naming the criteria vendor. 2026-09-04 pilot fix: promoted from NO PUBLIC CRITERIA (vendor). The payer's own policy is public and names this code; criteria are vendor-held, so cite the document and route for the criteria. InterQual per MVP annual notice; no public procedure-specific policy. Vendor: InterQual.",
+   "correct_behavior": "abstain_and_route",
    "vendor": "InterQual",
-   "policy_title": "MVP Health Care 2025 Annual Notices for Providers (NY)",
-   "policy_url": "https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/legal/2025-annual-notices-providers-ny.pdf",
-   "effective_date": "03/2025"
+   "policy_title": "",
+   "policy_url": "",
+   "effective_date": "03/2025",
+   "generic_um_url": "https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/legal/2025-annual-notices-providers-ny.pdf",
+   "generic_um_title": "MVP Health Care 2025 Annual Notices for Providers (NY)",
+   "stratum_before_2026_09_22": "vendor_held"
   },
   {
    "case_id": "poc-aaa1cf805a",
@@ -1780,11 +1811,19 @@
    "payer": "Oklahoma Complete Health (Ambetter)",
    "cpt": "63030",
    "directory_status": "VERIFIED",
-   "directory_note": "Criteria section addresses open discectomy/microdiscectomy for radiculopathy. Caveat: coding table lists 62287 (percutaneous) as supporting coverage and does not enumerate 63030. S",
+   "directory_note": "2026-09-22 answer-key audit: Evolent MSK guideline accepted as alternate (NIA-delegated review). Criteria section addresses open discectomy/microdiscectomy for radiculopathy. Caveat: coding table lists 62287 (percutaneous) as supporting coverage and does not enumerate 63030. S",
    "correct_behavior": "cite_document",
    "policy_title": "Clinical Policy: Disc Decompression Procedures (CP.MP.114)",
    "policy_url": "https://www.ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf",
-   "effective_date": "Date of Last Revision: 04/25"
+   "effective_date": "Date of Last Revision: 04/25",
+   "accepted_alternates": [
+    {
+     "policy_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+     "policy_title": "2026 Evolent Clinical Guidelines - Musculoskeletal Surgery",
+     "vendor": "Evolent",
+     "why": "NIA/Evolent manages lumbar spine surgery review for this plan (plan's own notice)"
+    }
+   ]
   },
   {
    "case_id": "poc-9f671e8f0e",
@@ -1845,11 +1884,21 @@
    "payer": "Excellus BlueCross BlueShield",
    "cpt": "27130",
    "directory_status": "VERIFIED",
-   "directory_note": "2026-08-26 eviCore CMM series. policy CMM-313. criteria: \u201cTonnis Grade 2 - 3 osteoarthritis ... or avascular necrosis with collapse of the femoral head ... failure of non-surgical management for 3+ months\u201d. Payer delegation confirmed: eviCore's Excellus MSK provider orientation PDF states eviCore manages Joint Surgery, Spine Surgery and Interventional Pain. Excellus's own 334-policy library has no arthroplasty policy. Guideline fetched and its own code table confirmed to carry this CPT.. confidence: high",
+   "directory_note": "2026-09-22 answer-key audit: Excellus publishes its own Hip Arthroplasty policy 7.01.96; eviCore CMM-313 accepted as alternate. 2026-08-26 eviCore CMM series. policy CMM-313. criteria: \u201cTonnis Grade 2 - 3 osteoarthritis ... or avascular necrosis with collapse of the femoral head ... failure of non-surgical management for 3+ months\u201d. Payer delegation confirmed: eviCore's Excellus MSK provider orientation PDF states eviCore manages Joint Surgery, Spine Surgery and Interventional Pain. Excellus's own 334-policy library has no arthroplasty policy. Guideline fetched and its own code table confirmed to carry this CPT.. confidence: high",
    "correct_behavior": "cite_document",
-   "policy_title": "eviCore CMM-313 Hip Replacement/Arthroplasty",
-   "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-07/EviCore_CMM-313%20Hip%20Replac%20Arthro_Final_V2.0.2025_eff11.05.2025_pub07.22.2025.pdf",
-   "effective_date": "2025-11-05"
+   "policy_title": "Excellus BlueCross BlueShield Medical Policy 7.01.96 Hip Arthroplasty",
+   "policy_url": "https://www.excellusbcbs.com/documents/d/global/exc-prv-hip-arthroplasty-effective-on-2026-02-16-",
+   "effective_date": "2026-02-16",
+   "accepted_alternates": [
+    {
+     "policy_url": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-07/EviCore_CMM-313%20Hip%20Replac%20Arthro_Final_V2.0.2025_eff11.05.2025_pub07.22.2025.pdf",
+     "policy_title": "eviCore CMM-313 Hip Replacement/Arthroplasty",
+     "vendor": "eviCore",
+     "why": "eviCore administers joint-surgery review for Excellus"
+    }
+   ],
+   "policy_url_before_2026_09_22": "https://www.evicore.com/sites/default/files/clinical-guidelines/2025-07/EviCore_CMM-313%20Hip%20Replac%20Arthro_Final_V2.0.2025_eff11.05.2025_pub07.22.2025.pdf",
+   "vendor": ""
   },
   {
    "case_id": "poc-8e86334152",
@@ -1949,11 +1998,19 @@
    "payer": "Peach State Health Plan",
    "cpt": "63030",
    "directory_status": "VERIFIED",
-   "directory_note": "Criteria section addresses open discectomy/microdiscectomy for radiculopathy. Caveat: coding table lists 62287 (percutaneous) as supporting coverage and does not enumerate 63030. S",
+   "directory_note": "2026-09-22 answer-key audit: Evolent MSK guideline accepted as alternate (NIA-delegated review). Criteria section addresses open discectomy/microdiscectomy for radiculopathy. Caveat: coding table lists 62287 (percutaneous) as supporting coverage and does not enumerate 63030. S",
    "correct_behavior": "cite_document",
    "policy_title": "Clinical Policy: Disc Decompression Procedures (CP.MP.114)",
    "policy_url": "https://www.ambetterhealth.com/content/dam/centene/ambetteril/clinical-policies/CP.MP.114.pdf",
-   "effective_date": "Date of Last Revision: 04/25"
+   "effective_date": "Date of Last Revision: 04/25",
+   "accepted_alternates": [
+    {
+     "policy_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+     "policy_title": "2026 Evolent Clinical Guidelines - Musculoskeletal Surgery",
+     "vendor": "Evolent",
+     "why": "NIA/Evolent manages lumbar spine surgery review for this plan (plan's own notice)"
+    }
+   ]
   },
   {
    "case_id": "poc-0731be4a81",

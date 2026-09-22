@@ -18,7 +18,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 WATCH = ROOT / "data" / "policy_platform"
 # Derived artefacts, rebuildable from what is committed.
-OK_TO_IGNORE = ("policy_text_cache", ".pre-vendor-held-fix", ".pre-evicore-series-fix", ".pre-answer-key-audit", "__pycache__")
+OK_TO_IGNORE = ("policy_text_cache", ".pre-vendor-held-fix", ".pre-evicore-series-fix", ".pre-answer-key-audit", ".pre-answer-key-audit-2", ".pre-answer-key-audit-3", "__pycache__")
 
 
 def main() -> int:

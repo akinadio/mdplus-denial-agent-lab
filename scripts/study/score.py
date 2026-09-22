@@ -85,6 +85,43 @@ def cited_url(ans) -> str:
     return m.group(0).rstrip(".,;:")
 
 
+from urllib.parse import urlparse
+
+
+def _host(u):
+    try:
+        return (urlparse(u).netloc or '').lower().replace('www.', '')
+    except Exception:  # noqa: BLE001
+        return ''
+
+
+def _compare_any(url, gold, ans):
+    """Compare against the governing document and any accepted alternate.
+
+    An alternate is a second document the audit found to govern the same
+    denial in parallel: Excellus's own Hip Arthroplasty policy 7.01.96 beside
+    the eviCore guideline it delegates review to; Evolent's MSK guideline
+    beside Centene's CP.MP.114 where NIA/Evolent manages the review. Citing
+    either is correct. Recorded as match='alternate' when the alternate is
+    what matched, so the paper can count them.
+    """
+    vendor = (gold.get("vendor") or "") if gold["stratum"] == "in_library" else ""
+    eq = compare(url, gold["policy_url"], gold.get("cpt", ""), gold.get("policy_title", ""),
+                 cited_title=(ans.get("policy_title") or ""), gold_vendor=vendor)
+    if eq["verdict"] in ("exact", "equivalent"):
+        return eq
+    best = eq
+    for alt in gold.get("accepted_alternates") or []:
+        e2 = compare(url, alt["policy_url"], gold.get("cpt", ""), alt.get("policy_title", ""),
+                     cited_title=(ans.get("policy_title") or ""), gold_vendor=alt.get("vendor") or "")
+        if e2["verdict"] in ("exact", "equivalent"):
+            return dict(e2, verdict="equivalent", match_note="alternate", alternate=alt["policy_url"],
+                        why="accepted alternate governing document: " + e2.get("why", ""))
+        if e2["verdict"] == "unreadable" and best["verdict"] != "unreadable":
+            best = e2
+    return best
+
+
 def score(ans, gold):
     url = cited_url(ans)
     found = ans.get("policy_found")
@@ -93,12 +130,10 @@ def score(ans, gold):
     if gold["stratum"] == "in_library":
         if not url:
             return {"outcome": "no_answer", "correct": False}
-        eq = compare(url, gold["policy_url"], gold.get("cpt", ""),
-                     gold.get("policy_title", ""),
-                     cited_title=(ans.get("policy_title") or ""))
+        eq = _compare_any(url, gold, ans)
         if eq["verdict"] in ("exact", "equivalent"):
-            return {"outcome": "correct", "correct": True, "match": eq["verdict"],
-                    "why": eq.get("why", "")}
+            return {"outcome": "correct", "correct": True,
+                    "match": eq.get("match_note") or eq["verdict"], "why": eq.get("why", "")}
         if eq["verdict"] == "unreadable":
             return {"outcome": "cited_unreadable", "correct": False,
                     "claimed_url": url, "why": eq.get("why", "")}
@@ -110,9 +145,7 @@ def score(ans, gold):
             any(p in body for p in ROUTE_PHRASES)
         if not url:
             return {"outcome": "no_answer", "correct": False}
-        eq = compare(url, gold["policy_url"], gold.get("cpt", ""),
-                     gold.get("policy_title", ""),
-                     cited_title=(ans.get("policy_title") or ""))
+        eq = _compare_any(url, gold, ans)
         if eq["verdict"] not in ("exact", "equivalent"):
             return {"outcome": "wrong_document", "correct": False,
                     "claimed_url": url, "why": eq.get("why", "")}
@@ -121,7 +154,16 @@ def score(ans, gold):
         return {"outcome": "correct", "correct": True}
 
     # stratum C
-    claimed_doc = bool(url) or (found is True)
+    # Citing the plan's general UM policy -- the document that says which
+    # vendor's criteria apply -- is not naming a policy for the procedure. It
+    # is the honest answer with its source.
+    generic = (gold.get("generic_um_url") or "").strip()
+    cited_generic = bool(url) and bool(generic) and compare(
+        url, generic, "", gold.get("generic_um_title", ""), allow_fetch=False,
+        cited_title=(ans.get("policy_title") or ""))["verdict"] in ("exact", "equivalent")
+    if not cited_generic and url and generic:
+        cited_generic = _host(url) == _host(generic)
+    claimed_doc = (bool(url) and not cited_generic) or (found is True and not cited_generic)
     if claimed_doc:
         return {"outcome": "hallucinated_document", "correct": False,
                 "claimed_url": url}
