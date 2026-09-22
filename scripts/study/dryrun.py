@@ -538,6 +538,13 @@ def stage_letters(cases, gold):
     check(not assess(_rq, "conservative_care", "27447", _kn)["grounded"],
           "...but not a denial on a different point")
 
+    from synthetic_harness.letter_checks import unsourced_requirements as _ur
+    check(_ur("That is longer than the three months the policy requires.",
+              ["non-surgical management for at least three (3) months' duration"])["count"] == 0,
+          "a threshold the excerpt writes as 'three (3) months' is not flagged as unsourced")
+    check(_ur("The policy requires six weeks of therapy.", ["at least three (3) months"])["count"] == 1,
+          "...while a threshold in no excerpt still is")
+
     # A library hit must still verify: the library keeps quotes, the cache keeps
     # the text, and without the text every library hit read as unreadable.
     lib_path = PT.LIBRARY

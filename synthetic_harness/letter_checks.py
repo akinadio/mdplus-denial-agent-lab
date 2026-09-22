@@ -156,6 +156,10 @@ def _numbers(text: str) -> set[str]:
     for w, d in _WORDNUM.items():
         t = re.sub(rf"\b{w}\b", d, t)
     t = t.replace("°", " degrees")
+    # "three (3) months", "two [2] city blocks": policies write the numeral
+    # twice. Drop the bracketed repeat so the unit follows the number.
+    t = re.sub(r"(\d+)\s*[\(\[]\s*\d+\s*[\)\]]", r"\1", t)
+    t = re.sub(r"(\d+)\s*(?:'|’)\s*", r"\1 ", t)          # "3 months' duration"
     out = set()
     for m in _NUMBER.finditer(t):
         unit = m.group(4).lower().rstrip("s")
