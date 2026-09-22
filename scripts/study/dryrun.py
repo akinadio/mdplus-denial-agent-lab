@@ -511,7 +511,8 @@ def stage_letters(cases, gold):
 
     # The grader must see every excerpt the writer saw.
     import grade_letters as _gl
-    _tmp_ev = Path(_tf.mkdtemp())
+    import tempfile as _tf2, shutil as _sh2
+    _tmp_ev = Path(_tf2.mkdtemp())
     _keep_runs = _gl.RUNS
     try:
         _gl.RUNS = _tmp_ev
@@ -524,7 +525,7 @@ def stage_letters(cases, gold):
               "the grader is shown every excerpt the writer was given, not the first 14")
     finally:
         _gl.RUNS = _keep_runs
-        _sh.rmtree(_tmp_ev, ignore_errors=True)
+        _sh2.rmtree(_tmp_ev, ignore_errors=True)
 
     # A library hit must still verify: the library keeps quotes, the cache keeps
     # the text, and without the text every library hit read as unreadable.
