@@ -52,8 +52,19 @@ def suspect(url: str):
 def main() -> int:
     apply = "--apply" in sys.argv
     gold = json.loads((ROOT / "study" / "gold.json").read_text())["entries"]
-    urls = sorted({(g.get("policy_url") or "").strip()
-                   for g in gold if (g.get("policy_url") or "").strip()})
+    urls = {(g.get("policy_url") or "").strip()
+            for g in gold if (g.get("policy_url") or "").strip()}
+    if "--cited" in sys.argv:
+        # Every document any arm cited, so a chatbot's quotations can be
+        # checked against the document it actually quoted, not only ours.
+        for p in (ROOT / "study" / "runs").glob("r-*/result.json"):
+            try:
+                u = ((json.loads(p.read_text()).get("answer") or {}).get("policy_url") or "").strip()
+            except ValueError:
+                continue
+            if u.startswith("http"):
+                urls.add(u)
+    urls = sorted(urls)
     todo = [(u, s) for u in urls if (s := suspect(u))]
     if not todo:
         print("every cached policy document is present and complete")

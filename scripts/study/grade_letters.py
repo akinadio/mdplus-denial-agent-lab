@@ -148,6 +148,15 @@ def _prompt(case, gold, letter, packet=""):
             "Return the JSON now.")
 
 
+def _with_cited(rid, g: dict) -> dict:
+    """The answer key plus the URL this run actually cited, for quote checks."""
+    try:
+        a = json.loads((RUNS / rid / "result.json").read_text()).get("answer") or {}
+    except (OSError, ValueError):
+        a = {}
+    return dict(g, _cited_url=(a.get("policy_url") or "").strip())
+
+
 def mechanical(letter: str, case: dict, g: dict) -> dict:
     """The parts of a grade that are facts, not judgments.
 
@@ -162,6 +171,29 @@ def mechanical(letter: str, case: dict, g: dict) -> dict:
     L = letter or ""
     q = quote_check(L, g.get("policy_url", ""),
                     other_sources=[case.get("letter_text", ""), case.get("chart_summary", "")])
+    # A chatbot that cited an EQUIVALENT document -- Cigna's edition of the
+    # eviCore guideline, Carelon's HTML page for the PDF we hold -- and quoted
+    # it word for word was being marked "quote not in the policy", because
+    # quotes were checked only against OUR copy. On 2026-09-22 that was 14
+    # letters fully and 30 partly, all chatbots, none ours. So a quotation is
+    # unverifiable only when it is in neither the governing document nor the
+    # document the system itself cited. The governing-document-only figure is
+    # kept as quote_not_in_governing_policy for transparency.
+    cited = (g.get("_cited_url") or "").strip()
+    q_cited = None
+    if cited and cited.rstrip("/") != (g.get("policy_url") or "").strip().rstrip("/"):
+        q_cited = quote_check(L, cited,
+                              other_sources=[case.get("letter_text", ""), case.get("chart_summary", "")])
+    if q_cited and q_cited.get("checked"):
+        from synthetic_harness.quote_check import quoted_passages as _qp, in_text as _it
+        from synthetic_harness.policy_text import policy_text as _pt2
+        _gt = _pt2(g.get("policy_url", "")).get("text") or "" if g.get("policy_url") else ""
+        _ct = _pt2(cited).get("text") or ""
+        _others = [case.get("letter_text", ""), case.get("chart_summary", "")]
+        _qs = [x for x in _qp(L) if not any(_it(x, o) for o in _others)]
+        _bad = [x for x in _qs if not _it(x, _gt) and not _it(x, _ct)]
+        q = dict(q, not_in_policy=len(_bad), verified=len(_qs) - len(_bad),
+                 examples=[x[:110] for x in _bad][:6], checked_against_cited=cited)
     route = bool(_re.search(
         r"(?i)\b(fax|p\.?o\.? box|portal|mail (it|this|the appeal|to)|by mail|"
         r"address (listed|printed|shown|on) (in|on)? ?(my|the|your) denial|"
@@ -194,6 +226,9 @@ def mechanical(letter: str, case: dict, g: dict) -> dict:
     _inv = invented_identifiers(L, _doc, [_notice, _chart],
                                 g.get("policy_url", ""), g.get("policy_title", ""))
     out = {"quotes": q, "quote_not_in_policy": bool(q["not_in_policy"]),
+           "quote_not_in_governing_policy": bool(quote_check(
+               L, g.get("policy_url", ""),
+               other_sources=[case.get("letter_text", ""), case.get("chart_summary", "")])["not_in_policy"]),
            "deadline_correct": deadline, "route_given": route,
            "sendable": _send["complete"], "identifiers_missing": _send["missing"],
            "invented_identifier": _inv["any_invented"],
@@ -251,7 +286,8 @@ def rescore() -> int:
         if g.get("outcome") != "graded":
             continue
         lt = json.loads((RUNS / rid / "letter.json").read_text())
-        g.update(mechanical(lt.get("letter_markdown") or "", cases[g["case_id"]], gold[g["case_id"]]))
+        g.update(mechanical(lt.get("letter_markdown") or "", cases[g["case_id"]],
+                            _with_cited(rid, gold[g["case_id"]])))
         n += 1
     out_path.write_text(json.dumps(grades, indent=1))
     print(f"rescored the mechanical fields on {n} grades (no model calls)")
@@ -409,7 +445,7 @@ def main() -> int:
             g["usd"] = spend.cost(GRADER_MODEL, usage)
             spend.record("grading", GRADER_MODEL, usage, rid)
             if g["outcome"] == "graded":
-                g.update(mechanical(text, cases[cid], gold[cid]))
+                g.update(mechanical(text, cases[cid], _with_cited(rid, gold[cid])))
         except spend.OutOfFunds as e:
             with lock:
                 stopped.append(f"STOPPED: {e}")
