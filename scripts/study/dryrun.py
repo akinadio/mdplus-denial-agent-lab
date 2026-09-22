@@ -545,6 +545,12 @@ def stage_letters(cases, gold):
     check(_ur("The policy requires six weeks of therapy.", ["at least three (3) months"])["count"] == 1,
           "...while a threshold in no excerpt still is")
 
+    from synthetic_harness.letter_checks import invented_identifiers as _inv2
+    check(not _inv2("effective November 5, 2025", "", ["2025-11-05"], "https://x/p.pdf", "t")["any_invented"],
+          "an effective date handed as 2025-11-05 and written as November 5, 2025 is not invented")
+    check(_inv2("effective March 3, 2024", "", [], "https://x/p.pdf", "t")["any_invented"],
+          "...while a date in no source still is")
+
     # A library hit must still verify: the library keeps quotes, the cache keeps
     # the text, and without the text every library hit read as unreadable.
     lib_path = PT.LIBRARY

@@ -119,7 +119,29 @@ def invented_identifiers(letter: str, policy_text: str, other: list[str] | None 
     ids = sorted(set(_POLICY_ID.findall(letter or "")))
     dates = sorted(set(_EFFECTIVE.findall(letter or "")))
     bad_ids = [t for t in ids if not known(t)]
-    bad_dates = [t for t in dates if _norm(t) not in haystack]
+    # A date is the same date however it is written: the directory hands the
+    # writer "2025-11-05", the letter says "November 5, 2025", and the URL
+    # says "eff11.05.2025". Check every form of the letter's date against
+    # every source. (Sendability learned this on 2026-09-19; this check had
+    # not, and on 2026-09-22 called a correct effective date invented.)
+    def _date_known(t: str) -> bool:
+        forms = _date_forms(t)
+        if _norm(t) in haystack:
+            return True
+        if any(_norm(f) in haystack for f in forms):
+            return True
+        # mm.dd.yyyy / mmddyyyy inside a URL or file name
+        import datetime as _dt
+        for fmt in ("%B %d, %Y", "%b %d, %Y", "%Y-%m-%d", "%m/%d/%Y"):
+            try:
+                d = _dt.datetime.strptime(t.strip(), fmt).date()
+            except ValueError:
+                continue
+            return any(x in haystack for x in (d.strftime("%m%d%Y"), d.strftime("%Y%m%d"),
+                                                 d.strftime("%m%d%y")))
+        return False
+
+    bad_dates = [t for t in dates if not _date_known(t)]
     return {"policy_ids": len(ids), "policy_ids_invented": bad_ids,
             "effective_dates": len(dates), "effective_dates_invented": bad_dates,
             "any_invented": bool(bad_ids or bad_dates)}
