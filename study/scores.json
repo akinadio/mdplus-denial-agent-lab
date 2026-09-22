@@ -11,7 +11,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-3a74c3e137",
   "stratum": "in_library"
  },
@@ -22,10 +22,10 @@
   "stratum": "in_library"
  },
  "r-01302b55725a": {
-  "outcome": "no_answer",
-  "correct": false,
+  "outcome": "correct",
+  "correct": true,
   "case_id": "poc-9297e0e467",
-  "stratum": "vendor_held"
+  "stratum": "no_policy"
  },
  "r-01be99512eaf": {
   "outcome": "wrong_document",
@@ -70,7 +70,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-e2aa78e9ec",
   "stratum": "in_library"
  },
@@ -144,7 +144,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-ddd103990c",
   "stratum": "in_library"
  },
@@ -166,7 +166,7 @@
   "outcome": "correct",
   "correct": true,
   "case_id": "poc-92d596c7f2",
-  "stratum": "vendor_held"
+  "stratum": "no_policy"
  },
  "r-08f33fa2ff09": {
   "outcome": "correct",
@@ -180,7 +180,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-d5b17e1a47",
   "stratum": "in_library"
  },
@@ -330,7 +330,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same insurer's site",
   "case_id": "poc-5717f9eeef",
   "stratum": "in_library"
  },
@@ -433,10 +433,10 @@
   "stratum": "vendor_held"
  },
  "r-182ca2d1d861": {
-  "outcome": "correct",
-  "correct": true,
-  "match": "equivalent",
-  "why": "names the code and states criteria",
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
+  "why": "another publisher's guideline (evolent) for a plan governed by carelon's",
   "case_id": "poc-5bc8a5312c",
   "stratum": "in_library"
  },
@@ -488,7 +488,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-e8e7b452f1",
   "stratum": "in_library"
  },
@@ -528,7 +528,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-c3b5d8f398",
   "stratum": "in_library"
  },
@@ -590,7 +590,7 @@
   "outcome": "correct",
   "correct": true,
   "case_id": "poc-0948c5760b",
-  "stratum": "vendor_held"
+  "stratum": "no_policy"
  },
  "r-2352d4412d43": {
   "outcome": "correct",
@@ -639,7 +639,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-5bc96481d7",
   "stratum": "in_library"
  },
@@ -667,7 +667,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-f37f115fed",
   "stratum": "in_library"
  },
@@ -675,7 +675,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-f37f115fed",
   "stratum": "in_library"
  },
@@ -719,7 +719,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-da651e8611",
   "stratum": "in_library"
  },
@@ -777,7 +777,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-65bd57974d",
   "stratum": "in_library"
  },
@@ -790,8 +790,8 @@
  "r-2bee1040ab76": {
   "outcome": "correct",
   "correct": true,
-  "match": "equivalent",
-  "why": "names the code and states criteria",
+  "match": "alternate",
+  "why": "accepted alternate governing document: same url",
   "case_id": "poc-ee22487639",
   "stratum": "in_library"
  },
@@ -863,7 +863,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same insurer's site",
   "case_id": "poc-22e5c28a5f",
   "stratum": "in_library"
  },
@@ -878,8 +878,8 @@
  "r-2f2b49dc448d": {
   "outcome": "correct",
   "correct": true,
-  "match": "equivalent",
-  "why": "names the code and states criteria",
+  "match": "alternate",
+  "why": "accepted alternate governing document: same url",
   "case_id": "poc-4825aa1f8b",
   "stratum": "in_library"
  },
@@ -929,7 +929,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same insurer's site",
   "case_id": "poc-5717f9eeef",
   "stratum": "in_library"
  },
@@ -992,10 +992,10 @@
   "stratum": "in_library"
  },
  "r-3358511a2055": {
-  "outcome": "no_answer",
-  "correct": false,
+  "outcome": "correct",
+  "correct": true,
   "case_id": "poc-0948c5760b",
-  "stratum": "vendor_held"
+  "stratum": "no_policy"
  },
  "r-34329bd0e02f": {
   "outcome": "correct",
@@ -1087,7 +1087,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-d47f9a88cc",
   "stratum": "in_library"
  },
@@ -1117,7 +1117,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-e71c638d4f",
   "stratum": "in_library"
  },
@@ -1145,7 +1145,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same insurer's site",
   "case_id": "poc-972f74519c",
   "stratum": "in_library"
  },
@@ -1219,7 +1219,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-cd20076a7a",
   "stratum": "in_library"
  },
@@ -1292,10 +1292,10 @@
   "stratum": "no_policy"
  },
  "r-3fc462a177d0": {
-  "outcome": "no_answer",
-  "correct": false,
+  "outcome": "correct",
+  "correct": true,
   "case_id": "poc-9297e0e467",
-  "stratum": "vendor_held"
+  "stratum": "no_policy"
  },
  "r-3fdccc001e84": {
   "outcome": "no_answer",
@@ -1322,8 +1322,8 @@
  "r-40936951e643": {
   "outcome": "correct",
   "correct": true,
-  "match": "equivalent",
-  "why": "names the code and states criteria",
+  "match": "alternate",
+  "why": "accepted alternate governing document: names the code and states criteria, same publisher",
   "case_id": "poc-f4c641ed8b",
   "stratum": "in_library"
  },
@@ -1331,7 +1331,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-9668ba39e4",
   "stratum": "in_library"
  },
@@ -1362,13 +1362,13 @@
   "outcome": "correct",
   "correct": true,
   "case_id": "poc-9297e0e467",
-  "stratum": "vendor_held"
+  "stratum": "no_policy"
  },
  "r-41cefcf831ae": {
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-a43fe266ad",
   "stratum": "in_library"
  },
@@ -1382,7 +1382,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-13c871bb40",
   "stratum": "in_library"
  },
@@ -1406,7 +1406,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-3a74c3e137",
   "stratum": "in_library"
  },
@@ -1414,7 +1414,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same insurer's site",
   "case_id": "poc-3e3f8049cd",
   "stratum": "in_library"
  },
@@ -1524,10 +1524,10 @@
   "stratum": "in_library"
  },
  "r-485acf9617d3": {
-  "outcome": "no_answer",
-  "correct": false,
+  "outcome": "correct",
+  "correct": true,
   "case_id": "poc-0948c5760b",
-  "stratum": "vendor_held"
+  "stratum": "no_policy"
  },
  "r-48657d9587e8": {
   "outcome": "correct",
@@ -1536,10 +1536,10 @@
   "stratum": "vendor_held"
  },
  "r-48660a3c84d7": {
-  "outcome": "wrong_document",
-  "correct": false,
-  "claimed_url": "http://blue.regence.com/trgmedpol/surgery/sur187.pdf",
-  "why": "names the code but states no criteria for it",
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
   "case_id": "poc-a93fe7e3b5",
   "stratum": "in_library"
  },
@@ -1589,7 +1589,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-0948834b99",
   "stratum": "in_library"
  },
@@ -1605,7 +1605,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "document carries the same guideline number",
   "case_id": "poc-fd00fecec4",
   "stratum": "in_library"
  },
@@ -1695,15 +1695,15 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-5bc96481d7",
   "stratum": "in_library"
  },
  "r-534e38996b1b": {
   "outcome": "correct",
   "correct": true,
-  "match": "equivalent",
-  "why": "names the code and states criteria",
+  "match": "exact",
+  "why": "same document, the address it redirects to",
   "case_id": "poc-3e3f8049cd",
   "stratum": "in_library"
  },
@@ -1750,10 +1750,10 @@
   "stratum": "vendor_held"
  },
  "r-5619e0e7c946": {
-  "outcome": "wrong_document",
-  "correct": false,
-  "claimed_url": "https://beonbrand.getbynder.com/m/be584fd0c9b78359/",
-  "why": "names the code but states no criteria for it",
+  "outcome": "correct",
+  "correct": true,
+  "match": "exact",
+  "why": "same document, the address it redirects to",
   "case_id": "poc-a93fe7e3b5",
   "stratum": "in_library"
  },
@@ -1808,7 +1808,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-79a305e63c",
   "stratum": "in_library"
  },
@@ -1904,7 +1904,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-40e31914e1",
   "stratum": "in_library"
  },
@@ -1925,7 +1925,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-a0c827a88a",
   "stratum": "in_library"
  },
@@ -1966,7 +1966,7 @@
   "outcome": "correct",
   "correct": true,
   "case_id": "poc-5edc35c98d",
-  "stratum": "vendor_held"
+  "stratum": "no_policy"
  },
  "r-62b4e0dc416f": {
   "outcome": "no_answer",
@@ -1986,7 +1986,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-1f29ac6c03",
   "stratum": "in_library"
  },
@@ -2030,7 +2030,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
   "case_id": "poc-8e86334152",
   "stratum": "in_library"
  },
@@ -2122,7 +2122,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-acaa2d5bad",
   "stratum": "in_library"
  },
@@ -2133,10 +2133,11 @@
   "stratum": "no_policy"
  },
  "r-6a934876e550": {
-  "outcome": "correct",
-  "correct": true,
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/2/1885_LHCC_Knee_Arthroscopy.pdf",
   "case_id": "poc-5edc35c98d",
-  "stratum": "vendor_held"
+  "stratum": "no_policy"
  },
  "r-6a9dec2b1a18": {
   "outcome": "no_answer",
@@ -2290,7 +2291,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-cd20076a7a",
   "stratum": "in_library"
  },
@@ -2298,7 +2299,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-209deb4204",
   "stratum": "in_library"
  },
@@ -2306,7 +2307,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-acaa2d5bad",
   "stratum": "in_library"
  },
@@ -2333,12 +2334,10 @@
   "stratum": "in_library"
  },
  "r-71d583fc7df7": {
-  "outcome": "wrong_document",
-  "correct": false,
-  "claimed_url": "https://www.upmchealthplan.com/providers/medical/resources/manuals/policies-procedures",
-  "why": "does not name the denied code",
+  "outcome": "correct",
+  "correct": true,
   "case_id": "poc-39de00339b",
-  "stratum": "vendor_held"
+  "stratum": "no_policy"
  },
  "r-71dd77e359e6": {
   "outcome": "correct",
@@ -2376,10 +2375,10 @@
   "stratum": "no_policy"
  },
  "r-73506e8be7c4": {
-  "outcome": "correct",
-  "correct": true,
-  "match": "equivalent",
-  "why": "names the code and states criteria",
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://beonbrand.getbynder.com/m/64c4b6d560fd986a/original/Shoulder-Surgeries.pdf",
+  "why": "not the governing publisher's guideline for a plan governed by carelon's",
   "case_id": "poc-926bf4d7e4",
   "stratum": "in_library"
  },
@@ -2393,7 +2392,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same insurer's site",
   "case_id": "poc-972f74519c",
   "stratum": "in_library"
  },
@@ -2436,10 +2435,10 @@
   "stratum": "in_library"
  },
  "r-76586e198b5c": {
-  "outcome": "wrong_document",
-  "correct": false,
-  "claimed_url": "http://blue.regence.com/trgmedpol/surgery/sur187.pdf",
-  "why": "names the code but states no criteria for it",
+  "outcome": "correct",
+  "correct": true,
+  "match": "equivalent",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
   "case_id": "poc-a93fe7e3b5",
   "stratum": "in_library"
  },
@@ -2511,7 +2510,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-5bc8a5312c",
   "stratum": "in_library"
  },
@@ -2547,7 +2546,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
   "case_id": "poc-8e86334152",
   "stratum": "in_library"
  },
@@ -2664,7 +2663,7 @@
   "outcome": "correct",
   "correct": true,
   "case_id": "poc-39de00339b",
-  "stratum": "vendor_held"
+  "stratum": "no_policy"
  },
  "r-81a21ad979ea": {
   "outcome": "correct",
@@ -2701,7 +2700,7 @@
   "outcome": "correct",
   "correct": true,
   "case_id": "poc-9297e0e467",
-  "stratum": "vendor_held"
+  "stratum": "no_policy"
  },
  "r-845c51980c82": {
   "outcome": "correct",
@@ -2745,7 +2744,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same insurer's site",
   "case_id": "poc-972f74519c",
   "stratum": "in_library"
  },
@@ -2819,7 +2818,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-209deb4204",
   "stratum": "in_library"
  },
@@ -2961,7 +2960,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-0a9468429e",
   "stratum": "in_library"
  },
@@ -2969,7 +2968,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-da651e8611",
   "stratum": "in_library"
  },
@@ -2977,7 +2976,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-3a74c3e137",
   "stratum": "in_library"
  },
@@ -2991,7 +2990,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-64107d6ef7",
   "stratum": "in_library"
  },
@@ -3042,7 +3041,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "document carries the same guideline number",
   "case_id": "poc-cdc085ab1f",
   "stratum": "in_library"
  },
@@ -3077,7 +3076,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same insurer's site",
   "case_id": "poc-3e3f8049cd",
   "stratum": "in_library"
  },
@@ -3118,10 +3117,11 @@
   "stratum": "in_library"
  },
  "r-97bba100580c": {
-  "outcome": "correct",
-  "correct": true,
+  "outcome": "hallucinated_document",
+  "correct": false,
+  "claimed_url": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf",
   "case_id": "poc-5edc35c98d",
-  "stratum": "vendor_held"
+  "stratum": "no_policy"
  },
  "r-97db367d0438": {
   "outcome": "wrong_document",
@@ -3179,16 +3179,16 @@
   "stratum": "in_library"
  },
  "r-9955aab1309e": {
-  "outcome": "no_answer",
-  "correct": false,
+  "outcome": "correct",
+  "correct": true,
   "case_id": "poc-5edc35c98d",
-  "stratum": "vendor_held"
+  "stratum": "no_policy"
  },
  "r-99cf5939a9ab": {
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-13c871bb40",
   "stratum": "in_library"
  },
@@ -3204,23 +3204,21 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-d89c6a76f0",
   "stratum": "in_library"
  },
  "r-9ad26c24c605": {
-  "outcome": "wrong_document",
-  "correct": false,
-  "claimed_url": "https://www.upmchealthplan.com/providers/medical/resources/manuals/policies-procedures",
-  "why": "does not name the denied code",
+  "outcome": "correct",
+  "correct": true,
   "case_id": "poc-39de00339b",
-  "stratum": "vendor_held"
+  "stratum": "no_policy"
  },
  "r-9b0ead3b37dc": {
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-19407106e9",
   "stratum": "in_library"
  },
@@ -3298,7 +3296,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "document carries the same guideline number",
   "case_id": "poc-cdc085ab1f",
   "stratum": "in_library"
  },
@@ -3354,10 +3352,10 @@
   "stratum": "no_policy"
  },
  "r-a0845bd78308": {
-  "outcome": "correct",
-  "correct": true,
-  "match": "equivalent",
-  "why": "names the code and states criteria",
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://beonbrand.getbynder.com/m/64c4b6d560fd986a/original/Shoulder-Surgeries.pdf",
+  "why": "not the governing publisher's guideline for a plan governed by carelon's",
   "case_id": "poc-6e764dffe5",
   "stratum": "in_library"
  },
@@ -3397,7 +3395,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-bb2c61bc1b",
   "stratum": "in_library"
  },
@@ -3405,7 +3403,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-0948834b99",
   "stratum": "in_library"
  },
@@ -3435,7 +3433,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "document carries the same guideline number",
   "case_id": "poc-fd00fecec4",
   "stratum": "in_library"
  },
@@ -3466,7 +3464,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
   "case_id": "poc-f781755028",
   "stratum": "in_library"
  },
@@ -3604,7 +3602,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-ce2e11f72d",
   "stratum": "in_library"
  },
@@ -3653,8 +3651,8 @@
  "r-ac948ddec4fe": {
   "outcome": "correct",
   "correct": true,
-  "match": "equivalent",
-  "why": "names the code and states criteria",
+  "match": "alternate",
+  "why": "accepted alternate governing document: same url",
   "case_id": "poc-a0d25e0d66",
   "stratum": "in_library"
  },
@@ -3675,18 +3673,16 @@
   "stratum": "in_library"
  },
  "r-acf493db3741": {
-  "outcome": "wrong_document",
-  "correct": false,
-  "claimed_url": "https://www.medstarfamilychoicedc.com/providers/medical-policies-and-procedures",
-  "why": "does not name the denied code",
+  "outcome": "correct",
+  "correct": true,
   "case_id": "poc-92d596c7f2",
-  "stratum": "vendor_held"
+  "stratum": "no_policy"
  },
  "r-ad081acf5964": {
-  "outcome": "no_answer",
-  "correct": false,
+  "outcome": "correct",
+  "correct": true,
   "case_id": "poc-39de00339b",
-  "stratum": "vendor_held"
+  "stratum": "no_policy"
  },
  "r-ad6524a71804": {
   "outcome": "correct",
@@ -3750,7 +3746,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-ddd103990c",
   "stratum": "in_library"
  },
@@ -3809,7 +3805,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-65bd57974d",
   "stratum": "in_library"
  },
@@ -3884,7 +3880,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-bb2c61bc1b",
   "stratum": "in_library"
  },
@@ -3892,7 +3888,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-7cd7d16b79",
   "stratum": "in_library"
  },
@@ -3903,18 +3899,18 @@
   "stratum": "in_library"
  },
  "r-b68b7aad855a": {
-  "outcome": "correct",
-  "correct": true,
-  "match": "equivalent",
-  "why": "names the code and states criteria",
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://beonbrand.getbynder.com/m/64c4b6d560fd986a/original/Shoulder-Surgeries.pdf",
+  "why": "not the governing publisher's guideline for a plan governed by carelon's",
   "case_id": "poc-17b712a980",
   "stratum": "in_library"
  },
  "r-b726a77e13c8": {
-  "outcome": "no_answer",
-  "correct": false,
+  "outcome": "correct",
+  "correct": true,
   "case_id": "poc-9297e0e467",
-  "stratum": "vendor_held"
+  "stratum": "no_policy"
  },
  "r-b7577a5419f8": {
   "outcome": "correct",
@@ -3954,7 +3950,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-bb2c61bc1b",
   "stratum": "in_library"
  },
@@ -3976,7 +3972,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-c3b5d8f398",
   "stratum": "in_library"
  },
@@ -4000,7 +3996,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
   "case_id": "poc-f781755028",
   "stratum": "in_library"
  },
@@ -4104,7 +4100,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-acaa2d5bad",
   "stratum": "in_library"
  },
@@ -4112,7 +4108,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-64107d6ef7",
   "stratum": "in_library"
  },
@@ -4126,7 +4122,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-65bd57974d",
   "stratum": "in_library"
  },
@@ -4134,7 +4130,7 @@
   "outcome": "correct",
   "correct": true,
   "case_id": "poc-92d596c7f2",
-  "stratum": "vendor_held"
+  "stratum": "no_policy"
  },
  "r-c64021029a44": {
   "outcome": "correct",
@@ -4210,7 +4206,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-b70a1741f9",
   "stratum": "in_library"
  },
@@ -4304,7 +4300,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-bd05618334",
   "stratum": "in_library"
  },
@@ -4324,7 +4320,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-a43fe266ad",
   "stratum": "in_library"
  },
@@ -4354,7 +4350,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
   "case_id": "poc-5585b8dee7",
   "stratum": "in_library"
  },
@@ -4390,7 +4386,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-1f29ac6c03",
   "stratum": "in_library"
  },
@@ -4406,7 +4402,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-ef30a43966",
   "stratum": "in_library"
  },
@@ -4440,7 +4436,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-e2aa78e9ec",
   "stratum": "in_library"
  },
@@ -4472,7 +4468,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-e8e7b452f1",
   "stratum": "in_library"
  },
@@ -4480,7 +4476,7 @@
   "outcome": "correct",
   "correct": true,
   "case_id": "poc-39de00339b",
-  "stratum": "vendor_held"
+  "stratum": "no_policy"
  },
  "r-d668f35f0d5e": {
   "outcome": "no_answer",
@@ -4556,7 +4552,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-e71c638d4f",
   "stratum": "in_library"
  },
@@ -4580,7 +4576,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-64107d6ef7",
   "stratum": "in_library"
  },
@@ -4624,7 +4620,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-ce2e11f72d",
   "stratum": "in_library"
  },
@@ -4632,7 +4628,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-1acf427871",
   "stratum": "in_library"
  },
@@ -4648,7 +4644,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-9668ba39e4",
   "stratum": "in_library"
  },
@@ -4783,8 +4779,8 @@
  "r-e3475b2aa7a5": {
   "outcome": "correct",
   "correct": true,
-  "match": "equivalent",
-  "why": "names the code and states criteria",
+  "match": "alternate",
+  "why": "accepted alternate governing document: same url",
   "case_id": "poc-4825aa1f8b",
   "stratum": "in_library"
  },
@@ -4819,10 +4815,10 @@
   "stratum": "in_library"
  },
  "r-e4a9b0816524": {
-  "outcome": "no_answer",
-  "correct": false,
+  "outcome": "correct",
+  "correct": true,
   "case_id": "poc-92d596c7f2",
-  "stratum": "vendor_held"
+  "stratum": "no_policy"
  },
  "r-e51d8d87736c": {
   "outcome": "correct",
@@ -4874,7 +4870,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "same guideline number, same policy in another edition or on a sister plan's site",
   "case_id": "poc-f781755028",
   "stratum": "in_library"
  },
@@ -4920,15 +4916,15 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-bdd7b46260",
   "stratum": "in_library"
  },
  "r-eacdb1f75272": {
-  "outcome": "correct",
-  "correct": true,
-  "match": "equivalent",
-  "why": "names the code and states criteria",
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://www.qualcareipa.com/Assets/docs/MCG/ISC%20-%20Shoulder%20Arthroscopy.pdf",
+  "why": "another publisher's guideline (mcg) for a plan governed by carelon's",
   "case_id": "poc-17b712a980",
   "stratum": "in_library"
  },
@@ -4955,16 +4951,16 @@
   "stratum": "in_library"
  },
  "r-ece0ea73042c": {
-  "outcome": "no_answer",
-  "correct": false,
+  "outcome": "correct",
+  "correct": true,
   "case_id": "poc-0948c5760b",
-  "stratum": "vendor_held"
+  "stratum": "no_policy"
  },
  "r-ecea9b901373": {
   "outcome": "correct",
   "correct": true,
   "case_id": "poc-5edc35c98d",
-  "stratum": "vendor_held"
+  "stratum": "no_policy"
  },
  "r-ed0e9bfa55d4": {
   "outcome": "correct",
@@ -5065,7 +5061,7 @@
   "outcome": "correct",
   "correct": true,
   "case_id": "poc-0948c5760b",
-  "stratum": "vendor_held"
+  "stratum": "no_policy"
  },
  "r-f35c934da2d9": {
   "outcome": "correct",
@@ -5079,7 +5075,7 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-d47f9a88cc",
   "stratum": "in_library"
  },
@@ -5171,15 +5167,15 @@
   "outcome": "correct",
   "correct": true,
   "match": "equivalent",
-  "why": "names the code and states criteria",
+  "why": "names the code and states criteria, same publisher",
   "case_id": "poc-0a9468429e",
   "stratum": "in_library"
  },
  "r-f8e07287f26d": {
   "outcome": "correct",
   "correct": true,
-  "match": "equivalent",
-  "why": "names the code and states criteria",
+  "match": "exact",
+  "why": "same url",
   "case_id": "poc-fd00fecec4",
   "stratum": "in_library"
  },
@@ -5206,10 +5202,10 @@
   "stratum": "in_library"
  },
  "r-fb6a4d5cdc64": {
-  "outcome": "no_answer",
-  "correct": false,
+  "outcome": "correct",
+  "correct": true,
   "case_id": "poc-92d596c7f2",
-  "stratum": "vendor_held"
+  "stratum": "no_policy"
  },
  "r-fb80a5fd16f9": {
   "outcome": "correct",

@@ -155,12 +155,16 @@ def compare(cited_url: str, gold_url: str, cpt: str,
     # Same document number on the same payer's host is the same guideline in a
     # different edition or format.
     ids_gold = _ids(gold_url, gold_title)
-    ids_cited = _ids(cited_url, cited_title)
+    ids_cited = _ids(cited_url)          # the address, not the model's claim
     same_host = bool(gold_url) and _host(cited_url) == _host(gold_url)
     if ids_gold and ids_cited & ids_gold:
         return {"verdict": "equivalent", "shared_id": sorted(ids_cited & ids_gold),
                 "why": "same guideline number, same policy in another edition or "
                        "on a sister plan's site"}
+    # A guideline number the model states in the TITLE is its own assertion,
+    # checked against the document below (ids_doc), not trusted here. On
+    # 2026-09-22 Gemini titled Healthy Blue SC's own knee policy 'Carelon ...
+    # Joint Surgery' and was scored as citing Carelon.
 
     if not allow_fetch:
         return {"verdict": "different_document", "why": "not checked"}
@@ -183,7 +187,7 @@ def compare(cited_url: str, gold_url: str, cpt: str,
         # title, and its first page, where a hosted copy names its author
         # ("Carelon Clinical Appropriateness Guidelines" on an Anthem PDF).
         fam_gold = _family(gold_url, gold_title, "", gold_vendor)
-        fam_cited = _family(cited_url, cited_title, text[:1500])
+        fam_cited = _family(cited_url, "", text[:1500])   # the document, not the model's title
         if fam_gold:
             if fam_cited == fam_gold:
                 return {"verdict": "equivalent", "family": fam_gold,
@@ -208,7 +212,7 @@ def compare(cited_url: str, gold_url: str, cpt: str,
             _path(cited_url) == _path(gold_url) or
             (len(tail(gold_url)) > 15 and tail(cited_url) == tail(gold_url)))
         brand = _brand(gold_url)
-        names_insurer = bool(brand) and brand in " ".join([cited_url, cited_title or "", text[:1500]]).lower()
+        names_insurer = bool(brand) and brand in " ".join([cited_url, text[:1500]]).lower()
         if same_host or same_path or names_insurer:
             return {"verdict": "equivalent", "family": "insurer",
                     "why": "names the code and states criteria, same insurer's site",

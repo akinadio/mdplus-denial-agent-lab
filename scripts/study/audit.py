@@ -130,7 +130,7 @@ def main() -> int:
             bad.append((r, "cited document not on disk")); continue
         nt = _norm(ct)
         hits = sum(1 for x in crit if len(_norm(x)) > 30 and _norm(x)[:120] in nt)
-        ids = s.get("why", "").startswith("same guideline number") or "redirect" in s.get("why", "")
+        ids = "guideline number" in s.get("why", "") or "redirect" in s.get("why", "")
         if hits == 0 and not ids:
             n_bad += 1; bad.append((r, v["system"], g["payer"][:20], g["cpt"], u[-50:]))
     check(n_bad == 0, f"{n_eq} 'equivalent' verdicts share the governing document's reviewed criteria "

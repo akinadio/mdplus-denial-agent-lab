@@ -5857,5 +5857,79 @@
   "stop_reason": "end_turn",
   "error": "",
   "usd": 0.1258
+ },
+ "https://www.excellusbcbs.com/documents/d/global/exc-prv-hip-arthroplasty-effective-on-2026-02-16-||27130": {
+  "url": "https://www.excellusbcbs.com/documents/d/global/exc-prv-hip-arthroplasty-effective-on-2026-02-16-",
+  "cpt": "27130",
+  "covered": true,
+  "section_heading": "III. Total hip replacement is medically necessary , for ANY of the following conditions when ALL of the associated criteria have been met:",
+  "heading_verified": true,
+  "criteria": [
+   {
+    "text": "A. Femoral Head/Neck Fracture 1. Imaging shows a fracture of the femoral head or femoral neck; and",
+    "topic": "imaging"
+   },
+   {
+    "text": "2. Conservative management or surgical fixation is not considered a reasonable option;",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "B. Osteoarthritis, Avascular Necrosis (AVN), Inflammatory Arthritis 1. Imaging shows ANY of the following findings:",
+    "topic": "imaging"
+   },
+   {
+    "text": "a. Tönnis Grade two (2) -three (3) osteoarthritis;",
+    "topic": "imaging"
+   },
+   {
+    "text": "b. Avascular necrosis with collapse of the femoral head ;",
+    "topic": "imaging"
+   },
+   {
+    "text": "c. I nflammatory arthritis affecting BOTH the femoral head and the acetabulum with joint space narrowing;",
+    "topic": "imaging"
+   },
+   {
+    "text": "2 . Symptoms include BOTH of the following:",
+    "topic": "clinical"
+   },
+   {
+    "text": "a. Function-limiting pain at short distances (e.g., walking less than one-quarter mile, limiting activity to two city blocks, the equivalent to walking the length of a shopping mall) for at least three (3) months duration; *",
+    "topic": "clinical"
+   },
+   {
+    "text": "*Criteria exception: Three (3) months of function -limiting pain is not required when the medical record clearly documents why provider-directed non-surgical management is inappropriate;",
+    "topic": "documentation"
+   },
+   {
+    "text": "b. Loss of hip function which interferes with the ability to carry out age -appropriate activities of daily living and/or demands of employment; AND",
+    "topic": "clinical"
+   },
+   {
+    "text": "3. Failure of at least three (3) months of provider- directed non-surgical management;*",
+    "topic": "conservative_care"
+   },
+   {
+    "text": "*Criteria exception: Three (3) months of provider -directed non-surgical management is not required when the medical record clearly documents why provider -directed non-surgical management inappropriate.",
+    "topic": "documentation"
+   }
+  ],
+  "dropped_not_in_document": [],
+  "dropped_other_operation": [],
+  "why_not": "",
+  "doc_chars": 24494,
+  "doc_truncated_for_model": false,
+  "doc_cut_in_cache": false,
+  "model": "claude-opus-5",
+  "usage": {
+   "input_tokens": 41,
+   "output_tokens": 1427,
+   "cache_creation_input_tokens": 9854,
+   "cache_read_input_tokens": 0
+  },
+  "extracted_at": "2026-09-22 07:37:37",
+  "stop_reason": "end_turn",
+  "error": "",
+  "usd": 0.0975
  }
 }

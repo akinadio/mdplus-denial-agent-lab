@@ -2487,11 +2487,13 @@
   "quotes": {
    "from_other_sources": 1,
    "quotes": 3,
-   "unverifiable": 0,
+   "unverifiable": 3,
    "not_in_policy": 0,
    "verified": 3,
    "examples": [],
-   "checked": true
+   "checked": false,
+   "why": "no policy text available",
+   "checked_against_cited": "https://www.medstarfamilychoicedc.com/-/media/project/mho/mfcdc/medical-policies-and-procedures/policy-115dc_utilization-management-criteria.pdf"
   },
   "quote_not_in_policy": false,
   "deadline_correct": true,
@@ -2571,7 +2573,8 @@
    "not_in_policy": 0,
    "verified": 0,
    "examples": [],
-   "checked": true
+   "checked": true,
+   "checked_against_cited": "https://www.upmchealthplan.com/docs/providers/2025_ProviderManual_G.pdf"
   },
   "quote_not_in_policy": false,
   "deadline_correct": true,
@@ -4093,11 +4096,13 @@
   "quotes": {
    "from_other_sources": 1,
    "quotes": 3,
-   "unverifiable": 0,
+   "unverifiable": 3,
    "not_in_policy": 0,
    "verified": 3,
    "examples": [],
-   "checked": true
+   "checked": false,
+   "why": "no policy text available",
+   "checked_against_cited": "https://www.medstarfamilychoicedc.com/-/media/project/mho/mfcdc/medical-policies-and-procedures/policy-115dc_utilization-management-criteria.pdf"
   },
   "quote_not_in_policy": false,
   "deadline_correct": true,
@@ -4164,11 +4169,13 @@
   "quotes": {
    "from_other_sources": 1,
    "quotes": 5,
-   "unverifiable": 0,
+   "unverifiable": 5,
    "not_in_policy": 0,
    "verified": 5,
    "examples": [],
-   "checked": true
+   "checked": false,
+   "why": "no policy text available",
+   "checked_against_cited": "https://www.medstarfamilychoicemd.com/-/media/project/mho/mfc/maryland-healthchoice-physicians/medical-policies-and-procedures/policy-115-utilization-management-um-criteria-july-2026.pdf"
   },
   "quote_not_in_policy": false,
   "deadline_correct": true,
@@ -4486,11 +4493,13 @@
   "quotes": {
    "from_other_sources": 0,
    "quotes": 5,
-   "unverifiable": 0,
+   "unverifiable": 5,
    "not_in_policy": 0,
    "verified": 5,
    "examples": [],
-   "checked": true
+   "checked": false,
+   "why": "no policy text available",
+   "checked_against_cited": "https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents/legal/2025-annual-notices-providers-ny.pdf"
   },
   "quote_not_in_policy": false,
   "deadline_correct": true,
@@ -4933,15 +4942,16 @@
   "quotes": {
    "from_other_sources": 2,
    "quotes": 1,
-   "unverifiable": 0,
-   "not_in_policy": 1,
+   "unverifiable": 1,
+   "not_in_policy": 0,
    "verified": 0,
    "examples": [
     "imaging findings ... do not support medical necessity"
    ],
-   "checked": true
+   "checked": false,
+   "why": "no policy text available"
   },
-  "quote_not_in_policy": true,
+  "quote_not_in_policy": false,
   "deadline_correct": true,
   "route_given": true,
   "sendable": true,
@@ -4949,7 +4959,7 @@
   "invented": [],
   "case_id": "poc-9297e0e467",
   "letter_sha": "10c584915524debd",
-  "quote_not_in_governing_policy": true
+  "quote_not_in_governing_policy": false
  },
  "r-e2427ba8f4f2": {
   "completeness": 4,
@@ -6204,29 +6214,27 @@
  },
  "r-c5bdd09cfc8a": {
   "completeness": 4,
-  "cites_correct_policy": true,
+  "cites_correct_policy": false,
   "cites_wrong_policy": false,
   "unsupported_attribution": false,
   "demands_criteria": true,
-  "factual_errors": [
-   "Recasts the policy's 'ongoing services without improvement' denial clause as support for approving surgery"
-  ],
+  "factual_errors": [],
   "uses_records": true,
   "wrong_policy_cited": false,
   "wrong_recipient": false,
   "wrong_deadline": false,
   "invented_identifier": false,
   "unfinished": false,
-  "worst_defect": "misapplied 'ongoing services' clause",
-  "notes": "Accurately quotes only the excerpts supplied, candidly flags that the policy's criteria lists were withheld, maps every record item to the incomplete-documentation rationale, and makes a proper written InterQual criteria demand; the only flaw is turning the ongoing-services denial clause into an argument for surgery.",
+  "worst_defect": "",
+  "notes": "The letter correctly names no governing document, explicitly declines to quote plan language it has not seen, demands the InterQual subset/edition/full criteria text, and maps every record fact to the incomplete-documentation rationale with correct deadline and submission route; remaining brackets cover facts the records did not supply.",
   "outcome": "graded",
-  "usd": 0.0445,
+  "usd": 0.0317,
   "quotes": {
    "from_other_sources": 0,
-   "quotes": 7,
+   "quotes": 0,
    "unverifiable": 0,
    "not_in_policy": 0,
-   "verified": 7,
+   "verified": 0,
    "examples": [],
    "checked": true
   },
@@ -6238,11 +6246,11 @@
   "identifiers_missing": [],
   "invented": [],
   "case_id": "poc-92d596c7f2",
-  "letter_sha": "c7cfce0242b0a59c"
+  "letter_sha": "ca22b184863dbd3e"
  },
  "r-ecea9b901373": {
   "completeness": 4,
-  "cites_correct_policy": true,
+  "cites_correct_policy": false,
   "cites_wrong_policy": false,
   "unsupported_attribution": false,
   "demands_criteria": true,
@@ -6253,16 +6261,16 @@
   "wrong_deadline": false,
   "invented_identifier": false,
   "unfinished": false,
-  "worst_defect": "MMC membership quote loosely framed as the appeal review structure",
-  "notes": "Accurately quotes only the excerpts supplied, openly declines to invent a conservative-care threshold, demands the InterQual subset and criteria text in writing, and maps every record fact to the denial rationale; only slippage is using the MMC membership quote as if it described appeal review composition.",
+  "worst_defect": "",
+  "notes": "The letter correctly names no governing policy, explicitly explains that none was disclosed, formally demands the InterQual subset/edition/criteria text under ERISA/ACA rights, and lays out every record fact accurately with only placeholders for information the records did not supply.",
   "outcome": "graded",
-  "usd": 0.0425,
+  "usd": 0.0324,
   "quotes": {
    "from_other_sources": 0,
-   "quotes": 7,
+   "quotes": 0,
    "unverifiable": 0,
    "not_in_policy": 0,
-   "verified": 7,
+   "verified": 0,
    "examples": [],
    "checked": true
   },
@@ -6274,7 +6282,7 @@
   "identifiers_missing": [],
   "invented": [],
   "case_id": "poc-5edc35c98d",
-  "letter_sha": "1d26542f32542cb7"
+  "letter_sha": "8f0230ef56ab41f8"
  },
  "r-97db367d0438": {
   "completeness": 2,
@@ -6569,29 +6577,27 @@
  },
  "r-83da45eef4b6": {
   "completeness": 4,
-  "cites_correct_policy": true,
+  "cites_correct_policy": false,
   "cites_wrong_policy": false,
   "unsupported_attribution": false,
   "demands_criteria": true,
-  "factual_errors": [
-   "describes conservative care as including 'bracing', which records do not mention"
-  ],
+  "factual_errors": [],
   "uses_records": true,
   "wrong_policy_cited": false,
   "wrong_recipient": false,
   "wrong_deadline": false,
   "invented_identifier": false,
   "unfinished": false,
-  "worst_defect": "minor mischaracterization of conservative care as including bracing",
-  "notes": "Accurately quotes only the supplied policy language, explicitly refuses to invent an imaging threshold, maps every record fact to the denial rationale, and makes a proper written demand for the proprietary criteria subset and edition.",
+  "worst_defect": "",
+  "notes": "The letter correctly names no governing document, explicitly disclaims quoting plan language, demands the InterQual subset/edition/criteria text under ERISA/ACA rights, and maps every record fact (38-degree HVA, 17-degree IMA, 8-week conservative care, NSAIDs, injection, ulceration risk) to the denial's stated imaging rationale, with placeholders only where records supplied nothing.",
   "outcome": "graded",
-  "usd": 0.0373,
+  "usd": 0.0305,
   "quotes": {
    "from_other_sources": 0,
-   "quotes": 5,
+   "quotes": 0,
    "unverifiable": 0,
    "not_in_policy": 0,
-   "verified": 5,
+   "verified": 0,
    "examples": [],
    "checked": true
   },
@@ -6603,7 +6609,7 @@
   "identifiers_missing": [],
   "invented": [],
   "case_id": "poc-9297e0e467",
-  "letter_sha": "a91badfb45e36c10"
+  "letter_sha": "ef8f06373be4fb79"
  },
  "r-95a6c5c27e43": {
   "completeness": 2,
@@ -6666,17 +6672,18 @@
   "quotes": {
    "from_other_sources": 1,
    "quotes": 4,
-   "unverifiable": 0,
-   "not_in_policy": 4,
+   "unverifiable": 4,
+   "not_in_policy": 0,
    "verified": 0,
    "examples": [
     "District of Columbia regulations and contract requirements,",
     "MedStar Family Choice DC Managed Care Plan benefit coverage,",
     "MedStar Family Choice DC's utilization management decision making is based on the medical necessity of the service and the existence of Managed Care Organizatio"
    ],
-   "checked": true
+   "checked": false,
+   "why": "no policy text available"
   },
-  "quote_not_in_policy": true,
+  "quote_not_in_policy": false,
   "deadline_correct": true,
   "route_given": true,
   "sendable": true,
@@ -6684,7 +6691,7 @@
   "invented": [],
   "case_id": "poc-92d596c7f2",
   "letter_sha": "aca827292b6db4af",
-  "quote_not_in_governing_policy": true
+  "quote_not_in_governing_policy": false
  },
  "r-92c63383eae6": {
   "completeness": 3,
@@ -6787,7 +6794,7 @@
  },
  "r-d5c2fc1b090f": {
   "completeness": 4,
-  "cites_correct_policy": true,
+  "cites_correct_policy": false,
   "cites_wrong_policy": false,
   "unsupported_attribution": false,
   "demands_criteria": true,
@@ -6799,15 +6806,15 @@
   "invented_identifier": false,
   "unfinished": false,
   "worst_defect": "",
-  "notes": "The letter cites the correct governing policy, honestly flags that the only excerpt provided is irrelevant prenatal language rather than inventing knee criteria, maps every record fact to the argument, and makes a specific written demand for the InterQual subset and the missing-documentation list, with correct deadline, reference number, and routing.",
+  "notes": "The letter correctly names no governing document, explicitly declines to paraphrase unseen criteria, demands the InterQual subset and full criteria text in writing, and maps every record fact to the incomplete-documentation rationale with correct deadline, reference number, and submission routes.",
   "outcome": "graded",
-  "usd": 0.0304,
+  "usd": 0.0319,
   "quotes": {
    "from_other_sources": 0,
-   "quotes": 1,
+   "quotes": 0,
    "unverifiable": 0,
    "not_in_policy": 0,
-   "verified": 1,
+   "verified": 0,
    "examples": [],
    "checked": true
   },
@@ -6819,7 +6826,7 @@
   "identifiers_missing": [],
   "invented": [],
   "case_id": "poc-39de00339b",
-  "letter_sha": "b25313eb30e2c005"
+  "letter_sha": "9a96c8d332e530fa"
  },
  "r-9b725c75fe3d": {
   "completeness": 4,
@@ -8596,7 +8603,7 @@
   "quotes": {
    "from_other_sources": 5,
    "quotes": 3,
-   "unverifiable": 0,
+   "unverifiable": 3,
    "not_in_policy": 3,
    "verified": 0,
    "examples": [
@@ -8604,7 +8611,8 @@
     "Unless the patient has a locked knee with a displaced bucket-handle tear, weight-bearing X-rays must show no m",
     "WILL require documentation of non-operative treatment as follows: Failure of at least 6 weeks of non-operative"
    ],
-   "checked": true,
+   "checked": false,
+   "why": "no policy text available",
    "checked_against_cited": "https://www1.radmd.com/sites/default/files/2026-05/2026%20Evolent%20Musculoskeletal%20Surgery%20Guidelines.pdf (full guideline set, effective for the period covering this 2026-08-13 denial); companion plain-language summary: https://www1.radmd.com/sites/default/files/2024-02/2023%20Knee%20Arthroscopy%20Clin%20Tip%20Sheet%20Evolent%2002282024.pdf ; MVP's own confirmation that musculoskeletal surgery reviews (hip/knee/shoulder) are delegated to this Magellan/NIA/Evolent program: https://www.mvphealthcare.com/-/media/project/mvp/healthcare/documents-by-section/members/forms/individual-and-family/services-that-require-prior-authorization-a-guide-for-members.pdf"
   },
   "quote_not_in_policy": true,
@@ -8615,7 +8623,7 @@
   "invented": [],
   "case_id": "poc-5edc35c98d",
   "letter_sha": "ad2870952a1ef6b9",
-  "quote_not_in_governing_policy": true
+  "quote_not_in_governing_policy": false
  },
  "r-de33a511b650": {
   "completeness": 3,
@@ -10204,13 +10212,14 @@
   "quotes": {
    "from_other_sources": 1,
    "quotes": 6,
-   "unverifiable": 0,
+   "unverifiable": 6,
    "not_in_policy": 1,
    "verified": 5,
    "examples": [
     "Failure of at least 6 weeks of non-operative treatment, including at least TWO of the following:\" *   \"Rest or"
    ],
-   "checked": true,
+   "checked": false,
+   "why": "no policy text available",
    "checked_against_cited": "https://ldh.la.gov/assets/medicaid/MCPP/7_15_25/2/1885_LHCC_Knee_Arthroscopy.pdf"
   },
   "quote_not_in_policy": true,
@@ -10224,7 +10233,7 @@
   ],
   "case_id": "poc-5edc35c98d",
   "letter_sha": "0dbd7729e3ab9b07",
-  "quote_not_in_governing_policy": true
+  "quote_not_in_governing_policy": false
  },
  "r-a1ec6f4a1074": {
   "completeness": 4,
@@ -10367,7 +10376,7 @@
   "wrong_policy_cited": false,
   "wrong_recipient": false,
   "wrong_deadline": false,
-  "invented_identifier": false,
+  "invented_identifier": true,
   "unfinished": false,
   "worst_defect": "fails to demand the proprietary InterQual criteria in writing",
   "notes": "Strong record-to-criteria mapping and correct submission route, but it notes the InterQual criteria are unpublished without ever requesting a free copy (no UM/Enrollee Services numbers), and misidentifies the governing policy as 110.DC.",
@@ -10376,13 +10385,14 @@
   "quotes": {
    "from_other_sources": 1,
    "quotes": 1,
-   "unverifiable": 0,
+   "unverifiable": 1,
    "not_in_policy": 1,
    "verified": 0,
    "examples": [
     "clinical information includes, but is not limited to, office and hospital records, a history of the presenting"
    ],
-   "checked": true,
+   "checked": false,
+   "why": "no policy text available",
    "checked_against_cited": "https://www.medstarfamilychoicedc.com/providers/medical-policies-and-procedures"
   },
   "quote_not_in_policy": true,
@@ -10390,10 +10400,12 @@
   "route_given": true,
   "sendable": true,
   "identifiers_missing": [],
-  "invented": [],
+  "invented": [
+   "Policy 110"
+  ],
   "case_id": "poc-92d596c7f2",
   "letter_sha": "4c8adc84589b090e",
-  "quote_not_in_governing_policy": true
+  "quote_not_in_governing_policy": false
  },
  "r-079a916b09b1": {
   "completeness": 4,
@@ -11453,7 +11465,7 @@
  },
  "r-212b64ff06b2": {
   "completeness": 4,
-  "cites_correct_policy": true,
+  "cites_correct_policy": false,
   "cites_wrong_policy": false,
   "unsupported_attribution": false,
   "demands_criteria": true,
@@ -11465,15 +11477,15 @@
   "invented_identifier": false,
   "unfinished": false,
   "worst_defect": "",
-  "notes": "Quotes are verbatim from the supplied policy excerpts, candidly acknowledges the policy contains no imaging criterion, demands the InterQual subset and edition in writing, and maps each record fact to the denial rationale.",
+  "notes": "The letter correctly names no governing document, states plainly that no criteria were disclosed, formally demands the InterQual subset/edition/full text under ERISA and ACA rights, and maps every record fact (MRI bucket-handle tear, 20 PT visits, NSAIDs, injection, exam, function) to the imaging-based denial rationale with the correct deadline, recipient, and reference number; remaining brackets cover only facts the records did not supply.",
   "outcome": "graded",
-  "usd": 0.0355,
+  "usd": 0.0318,
   "quotes": {
    "from_other_sources": 0,
-   "quotes": 5,
+   "quotes": 0,
    "unverifiable": 0,
    "not_in_policy": 0,
-   "verified": 5,
+   "verified": 0,
    "examples": [],
    "checked": true
   },
@@ -11485,7 +11497,7 @@
   "identifiers_missing": [],
   "invented": [],
   "case_id": "poc-0948c5760b",
-  "letter_sha": "b81fd734d340ed54"
+  "letter_sha": "4cb60179a941c6e5"
  },
  "r-13c04e92c48f": {
   "completeness": 4,
@@ -12765,7 +12777,7 @@
   "wrong_policy_cited": false,
   "wrong_recipient": false,
   "wrong_deadline": true,
-  "invented_identifier": false,
+  "invented_identifier": true,
   "unfinished": false,
   "worst_defect": "fabricated 60-day appeal deadline presented as a direct quote from the plan's published procedure",
   "notes": "Otherwise a thorough, records-grounded appeal that correctly cites Policy #115.DC and formally demands the InterQual criteria, but it invents a quoted 60-day deadline and an unsupported peer-to-peer entitlement, either of which a reviewer could use to discredit the letter.",
@@ -12774,25 +12786,28 @@
   "quotes": {
    "from_other_sources": 2,
    "quotes": 5,
-   "unverifiable": 0,
-   "not_in_policy": 5,
+   "unverifiable": 5,
+   "not_in_policy": 0,
    "verified": 0,
    "examples": [
     "All criteria applied in utilization management are available upon request. The request can be made independent of a specific case,",
     "Providers may request the UM criteria utilized for a specific case by calling the MedStar Family Choice DC Clinical Operations Department at 855-798-4244.",
     "imaging findings... do not support medical necessity"
    ],
-   "checked": true
+   "checked": false,
+   "why": "no policy text available"
   },
-  "quote_not_in_policy": true,
+  "quote_not_in_policy": false,
   "deadline_correct": true,
   "route_given": true,
   "sendable": true,
   "identifiers_missing": [],
-  "invented": [],
+  "invented": [
+   "Policy #115"
+  ],
   "case_id": "poc-0948c5760b",
   "letter_sha": "b8d32dee71da18af",
-  "quote_not_in_governing_policy": true
+  "quote_not_in_governing_policy": false
  },
  "r-74cee2e5eae5": {
   "completeness": 4,
@@ -18919,7 +18934,7 @@
  },
  "r-a3657ce43bb5": {
   "completeness": 2,
-  "cites_correct_policy": false,
+  "cites_correct_policy": true,
   "cites_wrong_policy": true,
   "unsupported_attribution": true,
   "demands_criteria": false,
@@ -18969,8 +18984,7 @@
   "quotes_other_procedure": 0,
   "quote_kinds": {
    "background": 1,
-   "other": 1,
-   "rule": 4
+   "rule": 5
   },
   "case_id": "poc-fd00fecec4",
   "letter_sha": "25e25b02ec89e129",
@@ -19130,7 +19144,7 @@
   "wrong_policy_cited": true,
   "wrong_recipient": false,
   "wrong_deadline": false,
-  "invented_identifier": true,
+  "invented_identifier": false,
   "unfinished": false,
   "worst_defect": "argues from Excellus 7.01.96 instead of the governing eviCore CMM-313 criteria",
   "notes": "Clinically thorough, accurately quoted, and well mapped to the records criterion-by-criterion, but it is built on the wrong governing policy and adds an unsupported policy effective date.",
@@ -19151,9 +19165,7 @@
   "route_given": true,
   "sendable": true,
   "identifiers_missing": [],
-  "invented": [
-   "04/20/23"
-  ],
+  "invented": [],
   "quoted_the_denial_back": false,
   "n_denial_quotes": 1,
   "grounded_in_case": false,
@@ -20160,16 +20172,16 @@
   "wrong_deadline": false,
   "invented_identifier": false,
   "unfinished": false,
-  "worst_defect": "hedges rather than argues imaging criterion is met",
-  "notes": "Accurately quotes the governing eviCore CMM-313 excerpts and maps each criterion to dated record facts, with correct deadline, route and identifiers; its only weakness is declining to argue the imaging findings satisfy the osteoarthritis criterion, though it transparently explains why and requests the missing list.",
+  "worst_defect": "",
+  "notes": "The letter quotes only the policy language actually supplied, maps each criterion to specific record facts (PT dates/visits, NSAID duration, injection, 14-month pain, one-block limit, ADL loss, imaging), and candidly flags that the chart lacks an explicit T\u00f6nnis grade rather than inventing one; remaining placeholders cover facts the records did not supply.",
   "outcome": "graded",
-  "usd": 0.0443,
+  "usd": 0.0462,
   "quotes": {
    "from_other_sources": 0,
-   "quotes": 10,
+   "quotes": 5,
    "unverifiable": 0,
    "not_in_policy": 0,
-   "verified": 10,
+   "verified": 5,
    "examples": [],
    "checked": true
   },
@@ -20183,14 +20195,14 @@
   "quoted_the_denial_back": false,
   "n_denial_quotes": 0,
   "grounded_in_case": true,
-  "quotes_on_point": 4,
+  "quotes_on_point": 2,
   "quotes_against_patient": 0,
   "quotes_other_procedure": 0,
   "quote_kinds": {
-   "rule": 10
+   "rule": 5
   },
   "case_id": "poc-fd00fecec4",
-  "letter_sha": "05ddd8f31909865d"
+  "letter_sha": "50e690b449019911"
  },
  "r-5ee261560ae3": {
   "completeness": 3,
@@ -25019,7 +25031,7 @@
   "wrong_policy_cited": true,
   "wrong_recipient": false,
   "wrong_deadline": false,
-  "invented_identifier": true,
+  "invented_identifier": false,
   "unfinished": false,
   "worst_defect": "non-governing policy cited with a fabricated policy number",
   "notes": "Well-organized and closely mapped to the records on conservative care and function, but it argues from the Excellus Hip Arthroplasty policy instead of the governing eviCore CMM-313, attaches an invented policy number 7.01.96, pads a quoted criterion with language not in the supplied excerpt, and never establishes the imaging grade the criteria require.",
@@ -25032,20 +25044,17 @@
    "not_in_policy": 2,
    "verified": 1,
    "examples": [
-    "Symptoms include BOTH of the following: a. Function-limiting pain at short distances (e.g., walking less than ",
-    "relative rest/activity modification, weight loss, supervised physiotherapy modalities and therapeutic exercise"
+    "Symptoms include BOTH of the following: a. Function-limiting pain at short distances (e.g., walking less than one-quarter mile, limiting activity to two city bl",
+    "relative rest/activity modification, weight loss, supervised physiotherapy modalities and therapeutic exercises, oral prescription and non-prescription medicati"
    ],
-   "checked": true,
-   "checked_against_cited": "https://www.excellusbcbs.com/documents/d/global/exc-prv-hip-arthroplasty-effective-on-2026-02-16-"
+   "checked": true
   },
   "quote_not_in_policy": true,
   "deadline_correct": false,
   "route_given": false,
   "sendable": true,
   "identifiers_missing": [],
-  "invented": [
-   "February 16, 2026"
-  ],
+  "invented": [],
   "quoted_the_denial_back": false,
   "n_denial_quotes": 0,
   "grounded_in_case": true,
