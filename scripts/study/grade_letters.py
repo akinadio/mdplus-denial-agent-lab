@@ -117,7 +117,9 @@ def _evidence_packet(rid):
         parts.append(f"Governing policy given to the writer: {a.get('policy_title','')} -- {a['policy_url']}")
     if a.get("criteria_quotes"):
         parts.append("Verbatim policy excerpts given to the writer:\n" +
-                     "\n".join(f"  - {q}" for q in a["criteria_quotes"][:14]))
+                     # ALL of them. The writer gets up to 20 since 2026-09-22; a
+                     # grader shown 14 flagged excerpts 15 and 16 as fabricated.
+                     "\n".join(f"  - {q}" for q in a["criteria_quotes"]))
     if a.get("submission_route"):
         parts.append(f"Submission route given to the writer: {a['submission_route']}")
     if a.get("how_to_obtain_criteria"):

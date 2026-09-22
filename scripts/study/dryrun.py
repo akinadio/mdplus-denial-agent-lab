@@ -509,6 +509,23 @@ def stage_letters(cases, gold):
     # (the clean letter still gets the audit read; the stub answers it with the
     # letter text, which parses to no JSON and so to nothing unsupported)
 
+    # The grader must see every excerpt the writer saw.
+    import grade_letters as _gl
+    _tmp_ev = Path(_tf.mkdtemp())
+    _keep_runs = _gl.RUNS
+    try:
+        _gl.RUNS = _tmp_ev
+        (_tmp_ev / "r-x").mkdir()
+        (_tmp_ev / "r-x" / "letter.json").write_text(json.dumps(
+            {"evidence": {"policy_url": "u", "policy_title": "t",
+                          "quotes": [f"excerpt number {i} of the policy" for i in range(20)]}}))
+        _pk = _gl._evidence_packet("r-x")
+        check("excerpt number 19 of the policy" in _pk,
+              "the grader is shown every excerpt the writer was given, not the first 14")
+    finally:
+        _gl.RUNS = _keep_runs
+        _sh.rmtree(_tmp_ev, ignore_errors=True)
+
     # A library hit must still verify: the library keeps quotes, the cache keeps
     # the text, and without the text every library hit read as unreadable.
     lib_path = PT.LIBRARY
