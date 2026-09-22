@@ -3885,10 +3885,10 @@
   "stratum": "in_library"
  },
  "r-b5cd746b60da": {
-  "outcome": "correct",
-  "correct": true,
-  "match": "equivalent",
-  "why": "names the code and states criteria, same publisher",
+  "outcome": "wrong_document",
+  "correct": false,
+  "claimed_url": "https://member.myhealthtoolkitwny.com/web/public/brands/medicalpolicyhb/external-policies/knee-arthroplasty/",
+  "why": "not the governing publisher's guideline for a plan governed by carelon's",
   "case_id": "poc-7cd7d16b79",
   "stratum": "in_library"
  },
