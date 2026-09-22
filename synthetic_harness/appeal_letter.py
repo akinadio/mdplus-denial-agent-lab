@@ -227,12 +227,18 @@ def _ground_citations(result: dict[str, Any]) -> dict[str, Any]:
     # answer the denial first and cut the tail, so the letter is choosing from
     # a short list of relevant rules rather than ranking a page of them.
     # MDPLUS_CRITERIA_SHORTLIST=0 restores the old behaviour for comparison.
-    if os.environ.get("MDPLUS_CRITERIA_SHORTLIST", "1") != "0" and reason:
+    # 2026-09-22: the shortlist was cut to six and the writer filled the gaps
+    # from memory -- a lead-in ("at least TWO of the following:") arrived
+    # without its list, and the letter supplied one. In 45 of 120 letters a
+    # rule was stated as the plan's that was in no excerpt. So the writer now
+    # gets every verified criterion, in the document's own order (a lead-in
+    # stays with its items), with the ones that answer the denial marked.
+    if reason:
         from synthetic_harness.quote_relevance import on_point
-        n = int(os.environ.get("MDPLUS_CRITERIA_MAX", "6"))
-        first = [c for c in cites if on_point(c.get("excerpt", ""), reason)]
-        rest = [c for c in cites if c not in first]
-        cites = (first + rest)[:max(n, len(first[:n]))] if first else cites[:n]
+        n = int(os.environ.get("MDPLUS_CRITERIA_MAX", "20"))
+        for c in cites:
+            c["on_point"] = on_point(c.get("excerpt", ""), reason)
+        cites = cites[:n]
     grounded["retrieval"] = dict(retrieval, citations=cites)
     grounded["_criteria_reason"] = reason
     return grounded
@@ -337,8 +343,14 @@ def _letter_context(result: dict[str, Any], patient_submission: str | None) -> s
                      "quote the plan anywhere in this letter. Say that the plan's "
                      "criteria have not been quoted and ask for them in writing.)")
     for i, c in enumerate(verified, 1):
+        tag = "  [addresses the stated denial reason]" if c.get("on_point") else ""
         lines.append(f"{i}. Claim: {c.get('claim', '')}\n   Reference: {c.get('reference', '')}"
-                     f"\n   Excerpt: \"{c.get('excerpt', '')}\"")
+                     f"\n   Excerpt: \"{c.get('excerpt', '')}\"{tag}")
+    if verified:
+        lines.append("(These excerpts are the ONLY policy text you have. An excerpt that "
+                     "ends in a colon introduces a list you were not given: do not supply "
+                     "the list. Say the policy lists further conditions not reproduced "
+                     "here, and ask the plan to identify the criteria it applied.)")
     if unverified:
         lines.append("\nUNVERIFIED CITATIONS (the policy could not be read to confirm "
                      "these -- you may paraphrase and attribute them, e.g. 'the policy "
@@ -410,6 +422,13 @@ def generate_appeal_letter(
         "on 2026-09-19 that was the only thing quoted. If POLICY CITATIONS has "
         "any entry, quote at least one of them and show how the records meet "
         "it; the denial's wording belongs in ordinary prose, unquoted.\n\n"
+        "NO RULE FROM MEMORY. Every duration, count, grade, angle, percentage "
+        "or threshold you present as the plan's requirement must appear in an "
+        "excerpt under POLICY CITATIONS. You know what such policies usually "
+        "say; do not use it. If the excerpts do not state a threshold, do not "
+        "state one -- argue from the patient's facts and say the plan has not "
+        "stated its threshold. A reviewer who looks for 'six weeks' in the "
+        "policy and does not find it stops reading.\n\n"
         "Open with a line that names the governing policy exactly as given in "
         "GOVERNING POLICY -- title, and URL if there is one -- so a reviewer can "
         "find it. Do not state a policy number, section, version or effective "
@@ -449,7 +468,47 @@ def generate_appeal_letter(
     if getattr(response, "stop_reason", None) == "max_tokens":
         return {"error": f"letter cut off at the {max_tokens}-token cap",
                 "letter_markdown": letter, "usage": usage, "model": model}
+    # The rule above is checked, not trusted. A sentence that attributes a
+    # number to the plan which no excerpt contains gets one revision pass that
+    # names the sentences; the revised letter is checked again and the count
+    # is recorded either way, so the study can see how often the writer
+    # needed correcting and whether the correction took.
+    from .letter_checks import unsourced_requirements
+    excerpts = [c.get("excerpt", "") for c in
+                (result.get("retrieval") or {}).get("citations", []) if c.get("verified", True)]
+    facts = [str(result.get("denial_notice_text") or ""), str(patient_submission or "")]
+    chk = unsourced_requirements(letter, excerpts, facts)
+    revised = 0
+    if chk["count"]:
+        ask = ("Revise the letter below. These sentences state a number or threshold as "
+               "the plan's requirement, and that number appears in none of the policy "
+               "excerpts you were given:\n\n" +
+               "\n".join(f"- {f['sentence']}" for f in chk["flagged"]) +
+               "\n\nRemove or rephrase each so that nothing is attributed to the plan "
+               "beyond what the excerpts say verbatim. The patient's own facts (from the "
+               "records) may stay. Change nothing else. Return the complete revised "
+               "letter only.\n\n---\n\n" + letter)
+        try:
+            r2 = call_with_backoff(client.messages.create, model=model, max_tokens=max_tokens,
+                                   system=system_prompt,
+                                   messages=[{"role": "user", "content": user_prompt},
+                                             {"role": "assistant", "content": letter},
+                                             {"role": "user", "content": ask}])
+            u2 = getattr(r2, "usage", None)
+            if u2 is not None:
+                usage["input_tokens"] += getattr(u2, "input_tokens", 0) or 0
+                usage["output_tokens"] += getattr(u2, "output_tokens", 0) or 0
+            new = "".join(b.text for b in r2.content if getattr(b, "type", None) == "text").strip()
+            if len(new) > 0.6 * len(letter) and getattr(r2, "stop_reason", None) != "max_tokens":
+                letter, revised = new, 1
+        except Exception:  # noqa: BLE001 - keep the first draft, report it unrevised
+            pass
+    after = unsourced_requirements(letter, excerpts, facts)
     return {
+        "unsourced_requirements_before": chk["count"],
+        "unsourced_requirements_after": after["count"],
+        "unsourced_flagged": [f["sentence"][:200] for f in after["flagged"]][:5],
+        "revised_for_unsourced": revised,
         "letter_markdown": letter,
         "model": model,
         "sender": sender,

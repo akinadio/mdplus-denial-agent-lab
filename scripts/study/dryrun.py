@@ -458,6 +458,43 @@ def stage_letters(cases, gold):
     finally:
         PT._SECTIONS = _keep_map
 
+    # A rule stated as the plan's with a number no excerpt contains is caught
+    # and sent back for one revision (2026-09-22, after 45 of 120 letters did
+    # it). The stub answers the first call with the bad letter and the
+    # revision with a clean one.
+    class _TwoStep(_StubAnthropic):
+        def __init__(self):
+            super().__init__("")
+            self.calls = 0
+            self.asks = []
+
+        def create(self, **kw):
+            self.calls += 1
+            self.asks.append(str(kw.get("messages", [])[-1].get("content"))[:40000])
+            bad = ("Dear Plan,\n\nThe policy states: \"" + found[0] + "\"\n\n"
+                   "My records show 16 weeks of therapy, well beyond the six weeks the "
+                   "policy contemplates. The policy's own criteria call for an arc of "
+                   "motion of at least 90 degrees.\n\nSincerely")
+            good = ("Dear Plan,\n\nThe policy states: \"" + found[0] + "\"\n\n"
+                    "My records show 16 weeks of therapy.\n\nSincerely")
+            self._payload = bad if self.calls == 1 else good
+            return super().create(**kw)
+
+    _ts = _TwoStep()
+    _out = generate_appeal_letter(shaped_g, client=_ts, sender="patient",
+                                  patient_submission="16 weeks of therapy completed")
+    check(_ts.calls == 2 and "90 degrees" in _ts.asks[-1] and "six weeks" in _ts.asks[-1],
+          "an unsourced threshold attributed to the plan triggers one named revision")
+    check(_out.get("unsourced_requirements_before") == 2 and _out.get("unsourced_requirements_after") == 0
+          and _out.get("revised_for_unsourced") == 1 and "90 degrees" not in _out["letter_markdown"],
+          "...and the revised letter is what is returned, with both counts recorded",
+          str({k: _out.get(k) for k in ("unsourced_requirements_before", "unsourced_requirements_after")}))
+    check("NO RULE FROM MEMORY" in _ts.asks[0] and "ONLY policy text you have" in _ts.asks[0],
+          "the writer is told not to state thresholds it was not given")
+    _one = _StubAnthropic("Dear Plan,\n\nThe policy states: \"" + found[0] + "\"\n\nSincerely")
+    generate_appeal_letter(shaped_g, client=_one, sender="patient")
+    check(_one.seen_prompt.count("Revise the letter") == 0, "a clean letter is not sent for revision")
+
     # A library hit must still verify: the library keeps quotes, the cache keeps
     # the text, and without the text every library hit read as unreadable.
     lib_path = PT.LIBRARY

@@ -123,3 +123,63 @@ def invented_identifiers(letter: str, policy_text: str, other: list[str] | None 
     return {"policy_ids": len(ids), "policy_ids_invented": bad_ids,
             "effective_dates": len(dates), "effective_dates_invented": bad_dates,
             "any_invented": bool(bad_ids or bad_dates)}
+
+
+# ---------------------------------------------------------------------------
+# Rules stated as the plan's that the writer had no source for
+# ---------------------------------------------------------------------------
+# In 45 of 120 in-library letters on 2026-09-21 the writer stated a threshold
+# as the plan's -- "the six weeks the policy contemplates", "an arc of motion
+# of at least 90 degrees" -- that was in none of the excerpts it was given. A
+# reviewer who checks it against the policy finds it is not there, and the
+# letter is discredited. The tell is mechanical: a number with a unit, or a
+# duration, in a sentence that attributes a requirement to the plan, where
+# that number appears in no excerpt.
+_ATTRIB = re.compile(
+    r"\b(polic(?:y|ies)|plan|guideline|criteri(?:a|on)|insurer|carrier)\b[^.\n]{0,80}?"
+    r"\b(requires?|required|states?|stated|contemplates?|specif(?:y|ies)|lists?|"
+    r"calls? for|sets?|mandates?|expects?|defines?|provides?|threshold|"
+    r"standard|minimum|maximum)\b|"
+    r"\b(under|per|according to|pursuant to)\s+(the\s+)?(polic(?:y|ies)|plan|guideline|criteria)\b|"
+    r"\b(polic(?:y|ies)|plan|guideline)['’]s\s+(own\s+)?(criteri|requirement|threshold|standard|minimum)",
+    re.I)
+_NUMBER = re.compile(
+    r"\b(\d+(?:\.\d+)?)\s*(-|to|–)?\s*(\d+(?:\.\d+)?)?\s*"
+    r"(weeks?|wks?|months?|mos?|years?|yrs?|days?|degrees?|°|mm|cm|percent|%|visits?|"
+    r"sessions?|injections?|levels?|compartments?|grade|episodes?|dislocations?)\b", re.I)
+_WORDNUM = {"one": "1", "two": "2", "three": "3", "four": "4", "five": "5", "six": "6",
+            "seven": "7", "eight": "8", "nine": "9", "ten": "10", "twelve": "12"}
+
+
+def _numbers(text: str) -> set[str]:
+    t = text.lower()
+    for w, d in _WORDNUM.items():
+        t = re.sub(rf"\b{w}\b", d, t)
+    t = t.replace("°", " degrees")
+    out = set()
+    for m in _NUMBER.finditer(t):
+        unit = m.group(4).lower().rstrip("s")
+        unit = {"wk": "week", "mo": "month", "yr": "year", "%": "percent"}.get(unit, unit)
+        out.add(f"{m.group(1)} {unit}")
+        if m.group(3):
+            out.add(f"{m.group(3)} {unit}")
+    return out
+
+
+def unsourced_requirements(letter: str, excerpts: list[str],
+                           facts: list[str] | None = None) -> dict:
+    """Sentences that attribute a quantified requirement to the plan which no
+    excerpt contains. `facts` are the records and the notice: a number that
+    comes from there is the patient's fact, not an invented rule, even in a
+    sentence that also mentions the policy."""
+    have = set()
+    for e in list(excerpts or []) + list(facts or []):
+        have |= _numbers(e)
+    flagged = []
+    for sent in re.split(r"(?<=[.;!?])\s+|\n+", letter or ""):
+        if not _ATTRIB.search(sent):
+            continue
+        missing = sorted(n for n in _numbers(sent) if n not in have)
+        if missing:
+            flagged.append({"sentence": sent.strip()[:300], "numbers": missing})
+    return {"flagged": flagged, "count": len(flagged)}
