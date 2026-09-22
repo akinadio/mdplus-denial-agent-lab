@@ -38,7 +38,8 @@ Blinding: this walks runs/ by run id and never reads unblinding.json.
 analyze.py does the join after scoring.
 """
 from __future__ import annotations
-import json, re, sys
+import json
+import re, re, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -65,8 +66,27 @@ def _txt(ans):
     return " ".join(str(v) for v in ans.values() if isinstance(v, str)).lower()
 
 
+_URL = re.compile(r"https?://[^\s<>\"')\]]+")
+
+
+def cited_url(ans) -> str:
+    """The URL the answer cites, out of whatever else it put in the field.
+
+    The contract asks for a URL; 43 Claude answers gave one followed by a note
+    -- "https://.../Guidelines.pdf (2026 compiled edition, effective ...)" --
+    and were scored as citing a different document because the whole string
+    was compared. The first URL in the field is what was cited. A field with
+    no URL in it ("N/A", a sentence saying none exists) is no citation.
+    """
+    raw = (ans.get("policy_url") or "").strip()
+    m = _URL.search(raw)
+    if not m:
+        return ""
+    return m.group(0).rstrip(".,;:")
+
+
 def score(ans, gold):
-    url = (ans.get("policy_url") or "").strip()
+    url = cited_url(ans)
     found = ans.get("policy_found")
     body = _txt(ans)
 
