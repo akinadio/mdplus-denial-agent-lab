@@ -118,8 +118,7 @@ METHODS = [
      "Each case comprised a denial notice (reason, appeal deadline, member and reference identifiers) and a "
      f"one-page clinical summary for one denied orthopedic operation. Cases covered {T1['states']} jurisdictions, "
      f"{T1['insurers']} insurers ({T1['plan_type']['Commercial/ACA']} commercial, {T1['plan_type']['Medicaid']} "
-     "Medicaid), 14 operations and four denial reasons in near-equal numbers (inadequate conservative "
-     "treatment, imaging, not medically necessary, incomplete documentation). Cases were stratified by what "
+     "Medicaid) and 14 operations. Cases were stratified by what "
      f"the plan publishes: criteria for the operation (stratum A, n = {nA}); a policy naming the operation "
      f"that applies licensed criteria (stratum B, n = {nB}); or no policy (stratum C, n = {nC}). The governing "
      f"document for each stratum-A case ({T1['policy_documents_A']} distinct documents) was verified against "
@@ -147,8 +146,8 @@ METHODS = [
      "binary outcome were tested with Cochran's Q, followed by all six pairwise exact McNemar tests on "
      "discordant pairs, with the difference in proportions and a bootstrap 95% CI (10,000 resamples). "
      "Completeness and effort were compared with the Friedman test and pairwise Wilcoxon signed-rank tests. "
-     "Within each system, identification was compared across strata and plan types and letter grounding "
-     "across denial reasons with chi-square or Fisher's exact tests. P values were Holm-adjusted within each "
+     "Within each system, identification was compared across strata and plan types with chi-square or "
+     "Fisher's exact tests. P values were Holm-adjusted within each "
      "family of pairwise tests. All tests were two-sided at α = 0.05. Analyses used Python 3.10 and SciPy."),
 ]
 
@@ -187,8 +186,7 @@ def results():
         f"{n(lm('grounded', cl)['k'], nA)} Claude and {n(lm('grounded', c)['k'], nA)} ChatGPT "
         f"({q(LT['grounded']['cochran_q'])}; Table 3, Fig. 2b); every pairwise difference was significant "
         f"(all Holm-adjusted P ≤ {pv(max((lp('grounded', a, b) for a, b in [(o, c), (o, cl), (o, g), (c, cl), (c, g), (cl, g)]), key=lambda v: v['p_holm']))[4:]}; Table 4). "
-        f"Grounding did not vary by denial reason within any system (all P ≥ {min(SG[a]['grounded_by_denial_reason']['p_holm'] for a in ARMS):.2f}). "
-        f"A quotation found in neither the governing document nor the cited document appeared in "
+                f"A quotation found in neither the governing document nor the cited document appeared in "
         f"{n(lm('quote_unverifiable', cl)['k'], nA)} Claude letters, {n(lm('quote_unverifiable', g)['k'], nA)} "
         f"Gemini, {n(lm('quote_unverifiable', c)['k'], nA)} ChatGPT and {lm('quote_unverifiable', o)['k']} OrthoAppeals "
         f"(95% CI {ci(lm('quote_unverifiable', o))}; {q(LT['quote_unverifiable']['cochran_q'])}). Claude and Gemini did "
@@ -378,8 +376,7 @@ for meas, lab in (("searches", "Web searches per case"), ("fetches", "Page fetch
                      f"{v['diff']:+.1f} ({v['diff_lo']:+.1f} to {v['diff_hi']:+.1f})", pv(v)])
 rows.append(["Within-system subgroup tests (chi-square or Fisher's exact)", "", "", ""])
 for key, lab in (("identification_by_stratum", "Identification by stratum (A / B / C)"),
-                 ("identification_by_plan_type", "Identification by plan type (commercial / Medicaid)"),
-                 ("grounded_by_denial_reason", "Grounded letter by denial reason (stratum A)")):
+                 ("identification_by_plan_type", "Identification by plan type (commercial / Medicaid)")):
     for arm in ARMS:
         t = SG[arm][key]
         counts = " / ".join(f"{k_}/{k_ + w}" for k_, w in t["table"].values())

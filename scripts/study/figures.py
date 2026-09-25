@@ -138,7 +138,7 @@ def fig1():
     FULL = R + W - L
     # 1 cases
     box(ax, L, 6.0, FULL, 1.0, f"{st['n_cases']} simulated denials",
-        f"{T1['states']} jurisdictions  ·  {T1['insurers']} insurers  ·  14 operations  ·  4 denial reasons\n"
+        f"{T1['states']} jurisdictions  ·  {T1['insurers']} insurers  ·  14 operations\n"
         f"Stratum A, criteria published (n = {T1['strata']['in_library']})  ·  "
         f"Stratum B, criteria vendor-held (n = {T1['strata']['vendor_held']})  ·  "
         f"Stratum C, no policy (n = {T1['strata']['no_policy']})")
