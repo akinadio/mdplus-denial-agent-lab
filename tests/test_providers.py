@@ -79,7 +79,9 @@ class AnthropicLoopTests(unittest.TestCase):
             client=_FakeAnthropic([r1, r2]), tool_call=tool_call, usage=usage, **COMMON)
         self.assertEqual(final, '{"answer": 1}')
         self.assertEqual(calls, [("web_search", {"query": "knee"})])
-        self.assertEqual(usage, {"input_tokens": 13, "output_tokens": 7})
+        # Cache-token counts are recorded too (for the spend ledger); none here.
+        self.assertEqual({k: usage[k] for k in ("input_tokens", "output_tokens")}, {"input_tokens": 13, "output_tokens": 7})
+        self.assertFalse(any(v for k, v in usage.items() if k.startswith("cache_")))
         self.assertTrue(len(transcript) >= 3)  # user, assistant, tool_result...
 
 
@@ -143,7 +145,9 @@ class GoogleLoopTests(unittest.TestCase):
                 client=_FakeGoogle([r1, r2]), tool_call=tool_call, usage=usage, **COMMON)
         self.assertEqual(final, '{"answer": 3}')
         self.assertEqual(calls, [("web_search", {"query": "hip"})])
-        self.assertEqual(usage, {"input_tokens": 10, "output_tokens": 7})
+        # Cache-token counts are recorded too (for the spend ledger); none here.
+        self.assertEqual({k: usage[k] for k in ("input_tokens", "output_tokens")}, {"input_tokens": 10, "output_tokens": 7})
+        self.assertFalse(any(v for k, v in usage.items() if k.startswith("cache_")))
 
 
 class DispatchTests(unittest.TestCase):

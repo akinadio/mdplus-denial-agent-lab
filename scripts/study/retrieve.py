@@ -134,143 +134,38 @@ appeal_deadline, submission_route, how_to_obtain_criteria, confidence, notes.
 """.strip()
 
 
+# The OrthoAppeals lookup lives in synthetic_harness/directory_lookup.py so the
+# live site runs exactly this code. These names stay for the scripts that use them.
+from synthetic_harness import directory_lookup as _dl  # noqa: E402
+
+
 def _load_access():
-    p = PLAT / "criteria_access_directory.json"
-    return json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
+    return _dl.load_access()
 
 
 def _directory_row(case):
-    with (PLAT / "app_option_policy_directory.csv").open(encoding="utf-8", newline="") as fh:
-        for r in csv.DictReader(fh):
-            if (r["state"] == case["state"] and r["insurance_company"] == case["payer"]
-                    and r["cpt"] == case["cpt"]):
-                return r
-    return None
+    return _dl.directory_row(case["payer"], case["state"], case["cpt"])
 
 
 def _access_route(payer, note, access):
-    ins = (payer or "").lower().strip()
-    if ins in access:
-        return access[ins]
-    for k, v in access.items():
-        if k.startswith("_"):
-            continue
-        if k in ins or ins in k:
-            return v
-    n = (note or "").lower()
-    for v in ("evolent", "carelon", "evicore", "turningpoint", "interqual", "mcg"):
-        if v in n and "_" + v in access:
-            return access["_" + v]
-    return {}
-
+    return _dl.access_route(payer, note, access)
 
 
 def _route_for(case):
     """The real appeal route for this payer, not a placeholder."""
-    from synthetic_harness.policy_text import submission_route
-    return submission_route(case["payer"], case.get("plan_type", ""))
+    return _dl.route_for(case["payer"], case.get("plan_type", ""))
 
 
 def _document_criteria(row, cpt, reason=""):
-    """The plan's own words, read out of the plan's own document.
-
-    `reason` is the denial reason from the notice, so the criteria that speak
-    to it come first. A letter that quotes the BMI rule at someone denied for
-    imaging findings has quoted the policy and argued nothing.
-    """
-    from synthetic_harness.policy_text import criteria_for
-    return criteria_for(row["policy_url"], cpt, reason=reason)["quotes"]
+    return _dl.document_criteria(row, cpt, reason)
 
 
 def run_ortho(case, model):
     """The production path, exactly as the app answers it."""
-    row = _directory_row(case)
-    access = _load_access()
-    # "VERIFIED (criteria public, no stable link)" is 72 rows whose URL is a
-    # policy INDEX the patient has to browse from, not the governing document.
-    # The page says so correctly; this path did not, and would have cited an
-    # index page as though it were the criteria.
-    NO_STABLE_LINK = "VERIFIED (criteria public, no stable link"
-    if (row and row["status"].startswith("VERIFIED")
-            and not row["status"].startswith(NO_STABLE_LINK)
-            and row["policy_url"].strip()):
-        return {"answer": {
-            "policy_found": True,
-            "policy_title": row["policy_title"], "policy_number": "",
-            "policy_url": row["policy_url"], "effective_date": row["effective_date"],
-            # Our own research note is not the plan's language. Passing it
-            # here as "criteria" is what taught the letter writer to invent
-            # quotations. Real criteria come from the document itself.
-            "criteria_quotes": _document_criteria(row, case["cpt"],
-                                                 case.get("denial_reason", "")),
-            "appeal_deadline": case["appeal_deadline"],
-            "submission_route": _route_for(case),
-            "how_to_obtain_criteria": "",
-            "confidence": "high",
-            "notes": f"directory hit; status={row['status']}",
-        }, "source": "policy_directory", "model": model}
-    if row and row["status"].startswith(NO_STABLE_LINK) and row["policy_url"].strip():
-        return {"answer": {
-            "policy_found": True,
-            "policy_title": row["policy_title"], "policy_number": "",
-            "policy_url": row["policy_url"], "effective_date": row["effective_date"],
-            "criteria_quotes": [],
-            "appeal_deadline": case["appeal_deadline"],
-            "submission_route": _route_for(case),
-            "how_to_obtain_criteria": (
-                "Your plan publishes these criteria but gives the document no "
-                "permanent address. Open the policy list above and click through "
-                "to the policy for your surgery -- that document is what your "
-                "appeal should quote."),
-            "confidence": "high",
-            "notes": f"browse entry point, not a stable document; status={row['status']}",
-        }, "source": "policy_index_entry", "model": model}
-
-    # The payer's own policy is public and names the code, but sends criteria to
-    # a private vendor tool. Abstaining here withholds a document we are holding
-    # -- the pilot caught us doing exactly that on six UnitedHealthcare letters
-    # while ChatGPT handed the patient the right PDF. Cite it AND route.
-    if row and row["status"].startswith("DOCUMENT PUBLIC") and row["policy_url"].strip():
-        r = _access_route(case["payer"], row.get("note", ""), access)
-        return {"answer": {
-            "policy_found": True,
-            "policy_title": row["policy_title"], "policy_number": "",
-            "policy_url": row["policy_url"], "effective_date": row["effective_date"],
-            "criteria_quotes": [],
-            "appeal_deadline": case["appeal_deadline"],
-            "submission_route": _route_for(case),
-            "how_to_obtain_criteria": (r.get("how") or
-                "This policy governs your procedure code but sends the medical "
-                "criteria to a private review tool. Ask the plan in writing for "
-                "the exact criteria used in your denial."),
-            "confidence": "high",
-            "notes": f"payer policy public, criteria vendor-held; status={row['status']}",
-        }, "source": "policy_directory_vendor_held", "route": r, "model": model}
-
-    r = _access_route(case["payer"], (row or {}).get("note", ""), access)
-    how = (r.get("how") or
-           "This plan does not publish criteria for this procedure. Ask the "
-           "plan in writing for the exact criteria used in your denial.")
-    if row and row["status"].startswith("UM POLICY ONLY") and row["policy_url"].strip():
-        # The plan publishes no policy for this procedure. Its general
-        # utilization-management policy says which vendor's criteria are
-        # applied -- worth pointing to for the request, never presented as a
-        # policy that "governs your procedure code" (it does not mention it).
-        how = (f"Your plan publishes no policy for this procedure. Its utilization "
-               f"management policy ({row['policy_title']}, {row['policy_url']}) states "
-               f"which clinical criteria it applies. Ask the plan in writing for the "
-               f"exact criteria used in your denial. " + how)
-    return {"answer": {
-        "policy_found": False,
-        "policy_title": "", "policy_number": "", "policy_url": "",
-        "effective_date": "", "criteria_quotes": [],
-        "appeal_deadline": case["appeal_deadline"],
-        "submission_route": _route_for(case),
-        "how_to_obtain_criteria": how,
-        "confidence": "high",
-        "notes": "no public criteria on file; abstained and routed",
-    }, "source": "abstention_route", "route": r, "model": model}
-
+    return _dl.answer_from_row(
+        _directory_row(case), payer=case["payer"], cpt=case["cpt"],
+        plan_type=case.get("plan_type", ""), appeal_deadline=case["appeal_deadline"],
+        denial_reason=case.get("denial_reason", ""), model=model)
 
 
 # What each provider calls a model that finished because it was done talking.

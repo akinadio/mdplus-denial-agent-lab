@@ -103,3 +103,6 @@ Claude outputs/
 # one-time backups written by answer-key fixes
 study/*.pre-*
 docs/_superseded_*
+
+# Manuscript drafts stay local, not in GitHub
+docs/*.docx

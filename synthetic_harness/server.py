@@ -63,6 +63,7 @@ from . import retention
 from . import policy_cache
 from . import extract
 from . import citation_cache
+from . import directory_lookup
 from .api_runner import _estimate_cost
 from contextlib import contextmanager
 
@@ -323,7 +324,41 @@ def create_direct_episode(data: dict[str, Any]) -> Episode:
         state=(data.get("state") or "").strip() or None,
     )
     _write_citation_cache_hint(episode, data)
+    _write_directory_answer(episode, data)
     return episode
+
+
+def _write_directory_answer(episode: Episode, data: dict[str, Any]) -> None:
+    """Answer the policy question from the OrthoAppeals directory, the way the
+    study did. Stored with the episode; the policy shown to the patient and the
+    appeal letter both come from it. No row, or a directory status the study
+    never tested, leaves the search agent's answer in charge as before."""
+    try:
+        ans = directory_lookup.live_answer(
+            data.get("payer") or "", data.get("state") or "", data.get("cpt") or "",
+            data.get("denial_letter") or "",
+        )
+    except Exception as exc:  # noqa: BLE001 - a lookup failure must not block intake
+        episode.log_event(role="orchestrator", arm="shared", event_type="policy_directory_error",
+                          status="failed", summary=f"Directory lookup failed: {exc}")
+        return
+    if not ans:
+        return
+    path = episode.root / "system" / directory_lookup.ANSWER_FILE
+    path.parent.mkdir(parents=True, exist_ok=True, mode=0o700)
+    write_json_atomic(path, ans)
+    episode.log_event(
+        role="orchestrator", arm="shared", event_type="policy_directory_answer",
+        status="succeeded",
+        summary=("Answered the policy question from the OrthoAppeals directory "
+                 f"({ans['source']}); the letter will be drafted from it."),
+        details={"source": ans["source"], "status": ans["row"]["status"],
+                 "policy_url": (ans.get("answer") or {}).get("policy_url", "")},
+    )
+
+
+def directory_answer(episode: Episode) -> dict[str, Any] | None:
+    return load_json_if_exists(episode.root / "system" / directory_lookup.ANSWER_FILE)
 
 
 def _write_citation_cache_hint(episode: Episode, data: dict[str, Any]) -> None:
@@ -841,7 +876,7 @@ def load_arm_result(episode: Episode, arm: str) -> dict[str, Any] | None:
         latest_validation = load_json_if_exists(validations[-1]) if validations else None
         if latest_validation is None or latest_validation.get("valid"):
             result = load_json_if_exists(arm_dir / "result.json")
-    return result
+    return directory_lookup.apply_to_result(result, directory_answer(episode))
 
 
 def generate_and_store_appeal_letter(episode: Episode, arm: str) -> dict[str, Any]:
@@ -854,7 +889,11 @@ def generate_and_store_appeal_letter(episode: Episode, arm: str) -> dict[str, An
     result = load_arm_result(episode, arm)
     if result is None:
         return {"error": f"no result available for {arm} yet"}
-    assessment = assess_letter(result)
+    directory = directory_answer(episode)
+    submission = patient_submission_snapshot(episode)
+    denial_text = (submission or {}).get("denial_letter") or "" if isinstance(submission, dict) else ""
+    assessment = (directory_lookup.assessment(directory, denial_text) if directory
+                  else assess_letter(result))
     payload: dict[str, Any] = {"arm": arm, "assessment": assessment}
     if not assessment.get("recommended"):
         return payload
@@ -865,10 +904,9 @@ def generate_and_store_appeal_letter(episode: Episode, arm: str) -> dict[str, An
         }
         return payload
 
-    submission = patient_submission_snapshot(episode)
     submission_text = None
     if isinstance(submission, dict):
-        for key in ("denial_letter_text", "denial_text", "notes", "story", "raw_text"):
+        for key in ("denial_letter", "denial_letter_text", "denial_text", "notes", "story", "raw_text"):
             if submission.get(key):
                 submission_text = str(submission[key])
                 break
@@ -877,7 +915,12 @@ def generate_and_store_appeal_letter(episode: Episode, arm: str) -> dict[str, An
     # are not retrieval outputs. The pilot showed letters without them scored
     # as unfinished and unsendable; the study's harness was adding them and
     # the live path was not. One enrichment, shared with the study.
-    result = enrich_for_letter(result, submission_text)
+    # With a directory answer the letter is written from exactly what the study
+    # handed its writer: the plan's own criteria, read from the plan's document.
+    if directory:
+        result = directory_lookup.letter_input_live(directory, submission_text or "")
+    else:
+        result = enrich_for_letter(result, submission_text)
 
     # Offer both voices: one the surgeon's office signs, one the patient sends.
     arm_dir = episode.root / "system" / arm
@@ -933,6 +976,8 @@ def episode_snapshot(episode: Episode) -> dict[str, Any]:
             latest_validation = load_json_if_exists(validations[-1]) if validations else None
             if latest_validation is None or latest_validation.get("valid"):
                 result = load_json_if_exists(arm_dir / "result.json")
+        directory = directory_answer(episode)
+        result = directory_lookup.apply_to_result(result, directory)
         persisted_runtime = load_json_if_exists(arm_dir / "runtime_status.json")
         arms[arm] = {
             "runtime": runtime.get(
@@ -949,8 +994,11 @@ def episode_snapshot(episode: Episode) -> dict[str, Any]:
                 s for s in ("provider", "patient")
                 if (arm_dir / f"appeal_letter_{s}.md").exists()
             ]
+            sub = patient_submission_snapshot(episode)
             arms[arm]["appeal"] = {
-                "assessment": assess_letter(result),
+                "assessment": (directory_lookup.assessment(
+                    directory, (sub or {}).get("denial_letter", "") if isinstance(sub, dict) else "")
+                    if directory else assess_letter(result)),
                 "letters_available": versions,
             }
         events.extend(live_agent_events(episode, arm, arms[arm]["runtime"]))

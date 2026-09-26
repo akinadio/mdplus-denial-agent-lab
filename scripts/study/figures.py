@@ -25,8 +25,8 @@ OUT = ROOT / "docs"
 
 ARMS = ["ortho-opus", "chatgpt", "claude-free", "gemini"]
 LABEL = {"ortho-opus": "OrthoAppeals", "chatgpt": "ChatGPT", "claude-free": "Claude", "gemini": "Gemini"}
-# Grayscale, fixed order: black, dark gray, light gray, white. Every bar has a black edge.
-FILL = {"ortho-opus": "#000000", "chatgpt": "#595959", "claude-free": "#b0b0b0", "gemini": "#ffffff"}
+# Fig. 2: colour, fixed order (palette validated for colour-vision deficiency; every bar is also labelled).
+FILL = {"ortho-opus": "#2a78d6", "chatgpt": "#eb6834", "claude-free": "#1baf7a", "gemini": "#eda100"}
 plt.rcParams.update({"font.family": "serif",
                      "font.serif": ["Times New Roman", "Times", "Liberation Serif", "Nimbus Roman", "DejaVu Serif"],
                      "font.size": 8, "axes.edgecolor": "black", "axes.labelcolor": "black",
@@ -79,20 +79,20 @@ def fig2():
     fig, axes = plt.subplots(2, 2, figsize=(7.2, 6.4), dpi=300)
     (a, b), (c, d) = axes
 
-    groups = [(f"A: criteria\npublished\n(n = {T1['in_library']})", {arm: wil(ID[arm]["in_library"]) for arm in ARMS}),
-              (f"B: criteria\nvendor-held\n(n = {T1['vendor_held']})", {arm: wil(ID[arm]["vendor_held"]) for arm in ARMS}),
-              (f"C: no policy\npublished\n(n = {T1['no_policy']})", {arm: wil(ID[arm]["no_policy"]) for arm in ARMS}),
+    groups = [(f"A, criteria\npublished\n(n = {T1['in_library']})", {arm: wil(ID[arm]["in_library"]) for arm in ARMS}),
+              (f"B, criteria\nvendor-held\n(n = {T1['vendor_held']})", {arm: wil(ID[arm]["vendor_held"]) for arm in ARMS}),
+              (f"C, no policy\npublished\n(n = {T1['no_policy']})", {arm: wil(ID[arm]["no_policy"]) for arm in ARMS}),
               (f"All\n(n = {st['n_cases']})", {arm: wil(ID[arm]["all"]) for arm in ARMS})]
     bars(a, groups, ARMS, "Cases (%)", ylim=(0, 118), title="a  Governing policy identified")
 
     nA = LT["grounded"]["n"]
     groups = [(f"Quotes an\non-point criterion\n(n = {nA})", {arm: wil(LT["grounded"]["arms"][arm]) for arm in ARMS}),
-              (f"Any quotation\nnot in the policy\n(n = {nA})", {arm: wil(LT["quote_unverifiable"]["arms"][arm]) for arm in ARMS}),
-              (f"Invented policy\nnumber or date\n(n = {LT['invented_identifier']['n']})", {arm: wil(LT["invented_identifier"]["arms"][arm]) for arm in ARMS})]
+              (f"Hallucinated\nquotation\n(n = {nA})", {arm: wil(LT["quote_unverifiable"]["arms"][arm]) for arm in ARMS}),
+              (f"Hallucinated policy\nnumber or date\n(n = {LT['invented_identifier']['n']})", {arm: wil(LT["invented_identifier"]["arms"][arm]) for arm in ARMS})]
     bars(b, groups, ARMS, "Letters (%)", ylim=(0, 118), title="b  Appeal letters")
 
     nC = LT["hallucinated_document_C"]["n"]
-    groups = [(f"Cited a document\nthat does not exist\n(n = {nC})", {arm: wil(LT["hallucinated_document_C"]["arms"][arm]) for arm in ARMS}),
+    groups = [(f"Cited a policy\nthat does not exist\n(n = {nC})", {arm: wil(LT["hallucinated_document_C"]["arms"][arm]) for arm in ARMS}),
               (f"Asked the plan\nfor its criteria\n(n = {nC})", {arm: wil(LT["demands_criteria_C"]["arms"][arm]) for arm in ARMS}),
               (f"Stated the filing\ndeadline (all strata)\n(n = {LT['deadline_stated']['n']})", {arm: wil(LT["deadline_stated"]["arms"][arm]) for arm in ARMS})]
     bars(c, groups, ARMS, "Letters (%)", ylim=(0, 118), title="c  No-policy cases and the deadline")
@@ -103,7 +103,7 @@ def fig2():
             return (0, 0, 0, "0*")
         return (EF[arm][f"{k}_median"], EF[arm][f"{k}_iqr"][0], EF[arm][f"{k}_iqr"][1])
     groups = [("Web searches\nper case", {arm: eff(arm, "searches") for arm in ARMS}),
-              ("Page fetches\nper case", {arm: eff(arm, "fetches") for arm in ARMS})]
+              ("Page visits\nper case", {arm: eff(arm, "fetches") for arm in ARMS})]
     bars(d, groups, ARMS, "Median per case (IQR)", ylim=(0, 90), pct=False, title="d  Search effort")
 
     handles = [Rectangle((0, 0), 1, 1, facecolor=FILL[arm], edgecolor="black", linewidth=0.6) for arm in ARMS]

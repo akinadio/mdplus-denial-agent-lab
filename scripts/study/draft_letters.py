@@ -64,39 +64,14 @@ def _ortho_result(case, ans):
     document. Before 2026-09-05 this passed our own internal research note as
     "criteria", and the letter -- told to quote the plan -- invented language
     instead. Nothing goes in here that is not in the payer's document."""
-    # Grounding happens inside the production generator now; the study asks for
-    # the same thing here only so the shaped record shows what it will get.
-    got = criteria_for((ans.get("policy_url") or "").strip(), case["cpt"])
-    quotes = got["quotes"]
-    from synthetic_harness.letter_inputs import enrich
+    from synthetic_harness.directory_lookup import letter_input
     from retrieve import _directory_row
     row = _directory_row(case) or {}
-    return enrich({
-        "case_identification": {
-            "payer": case["payer"], "plan_name": case["payer"],
-            "product_type": case["plan_type"], "state": case["state"],
-            "procedure": case["surgery"], "cpt": case["cpt"],
-            "denial_language": case["denial_reason"],
-        },
-        "policy_analysis": {
-            "denial_category": case["denial_reason"],
-            "apparent_reason": case["denial_reason"],
-            "criteria_at_issue": quotes,
-        },
-        "retrieval": {
-            "selected_source": {
-                "title": ans.get("policy_title", ""),
-                "url": ans.get("policy_url", ""),
-                "effective_date": ans.get("effective_date", ""),
-            },
-            "citations": [
-                {"claim": "plan criteria", "reference": ans.get("policy_title", ""),
-                 "excerpt": q}
-                for q in quotes
-            ],
-        },
-    }, case.get("letter_text", ""), payer=case["payer"], plan_type=case["plan_type"],
-              directory_note=row.get("note", ""))
+    return letter_input(ans, payer=case["payer"], plan_type=case["plan_type"],
+                        state=case["state"], procedure=case["surgery"], cpt=case["cpt"],
+                        denial_reason=case["denial_reason"],
+                        denial_text=case.get("letter_text", ""),
+                        directory_note=row.get("note", ""))
 
 
 def letter_ortho(case, res, model):

@@ -156,6 +156,9 @@ def claude_prompt(work_order: dict[str, Any]) -> str:
 
     from .arms import known_citation_hint_block
 
+    from .directory_lookup import agent_block
+
+    revision += agent_block(work_order.get("directory_answer"))
     revision += known_citation_hint_block(work_order.get("known_citation_hint"))
 
     return f"""You are the {arm} retrieval and denial-navigation agent.

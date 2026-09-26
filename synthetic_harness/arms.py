@@ -341,6 +341,10 @@ def agent_prompt(episode: Episode, arm: str, work_order_path: Path) -> str:
     allowed = "\n".join(f"- {item}" for item in rules["allowed_sources"])
     forbidden = "\n".join(f"- {item}" for item in rules["forbidden_sources"])
     hint_block = known_citation_hint_block(known_citation_hint(episode))
+    from . import directory_lookup
+    dpath = episode.root / "system" / directory_lookup.ANSWER_FILE
+    if dpath.exists():
+        hint_block = directory_lookup.agent_block(json.loads(dpath.read_text(encoding="utf-8"))) + hint_block
     return f"""You are the {arm} retrieval and denial-navigation agent for an internal blind simulation.
 
 EPISODE
@@ -474,6 +478,10 @@ def prepare_arm(episode: Episode, arm: str, workspace_root: Path) -> dict[str, A
     hint = known_citation_hint(episode)
     if hint:
         work_order["known_citation_hint"] = hint
+    from . import directory_lookup
+    dpath = episode.root / "system" / directory_lookup.ANSWER_FILE
+    if dpath.exists():
+        work_order["directory_answer"] = json.loads(dpath.read_text(encoding="utf-8"))
     work_order_path = arm_dir / "work_order.json"
     contract_path = arm_dir / "result_contract.json"
     schema_path = arm_dir / "result_schema.json"
